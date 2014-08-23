@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <CommandForbiddenDesc>已禁止——殖民者不會和這個物件互動。</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>未禁止-殖民者會和這個物件互動。</CommandNotForbiddenDesc>
+  
+  <!-- Power -->
+  <CommandTogglePowerDesc>開關電力。</CommandTogglePowerDesc>
+  <CommandTogglePowerLabel>開關電力</CommandTogglePowerLabel>
+  
+  <CommandTryReconnectLabel>重新連接</CommandTryReconnectLabel>
+  <CommandTryReconnectDesc>嘗試連接至附近另一個電網。在目前連接的電網沒有電但附近有另一個電網時很有用。</CommandTryReconnectDesc>
+  
+  
+  <CommandGatherSpotToggleLabel>採集點</CommandGatherSpotToggleLabel>
+  <CommandGatherSpotToggleDescActive>開啟——殖民者們會在這個物件附近採集。</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>關閉——殖民者們不會在這個物件附近採集。</CommandGatherSpotToggleDescInactive>
+  
+	
+  <!-- Drafting -->
+  <CommandDraftLabel>徵召</CommandDraftLabel>
+  <CommandUndraftLabel>取消徵召</CommandUndraftLabel>
+  <CommandToggleDraftDesc>切換徵召狀態。\n\n被徵召的人會遵守命令並戰鬥。他們不會工作、吃飯或休息。</CommandToggleDraftDesc>
+  <IsIncapped>{0}無法動彈。</IsIncapped>
+  
+  
+  <CommandCancelConstructionLabel>取消</CommandCancelConstructionLabel>
+  <CommandCancelConstructionDesc>取消建造命令。</CommandCancelConstructionDesc>
+  
+  <CommandGetOutOfBedLabel>離床</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Get out of current bed.</CommandGetOutOfBedDesc>
+  <CommandBedSetOwnerLabel>自訂擁有者</CommandBedSetOwnerLabel>
+  <BedAssign>登錄</BedAssign>
+  
+  <CommandBedSetForPrisonersLabel>設為囚犯專用</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>將這個房間内的床設為囚犯專用。</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>無法將室外的床設為囚犯專用。</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForColonistsLabel>設為殖民者專用</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsDesc>將這個房間内的床設為殖民者專用。</CommandBedSetForColonistsDesc>
+  <CommandBedSetAsMedicalLabel>設為醫療床</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>將這個床設為醫療床。</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>設為非醫療床</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>將這個床設為非醫療用床。</CommandBedSetAsNonMedicalDesc>
+  <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(囚犯和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(囚犯和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOffPrisonerBedWarning>
+  <AreYouSure>你確定要這麼做嗎?</AreYouSure>
+
+  
+  
+  <CommandDetonateDesc>開始爆破倒數計時。</CommandDetonateDesc>
+  <CommandDetonateLabel>爆破</CommandDetonateLabel>
+
+  <CommandRenameZoneDesc>重新命名這個區域。</CommandRenameZoneDesc>
+  <CommandRenameZoneLabel>重新命名</CommandRenameZoneLabel>
+
+  <CommandHideZoneDesc>顯示/隱藏這個區域。</CommandHideZoneDesc>
+  <CommandHideZoneLabel>隱藏</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>取消隱藏</CommandUnhideZoneLabel>
+
+  <CommandDeleteZoneDesc>刪除這個區域。</CommandDeleteZoneDesc>
+  <CommandDeleteZoneLabel>删除</CommandDeleteZoneLabel>
+  
+  
+  <!-- Artillery -->
+  <CommandSetForceAttackTarget>強制設定目標</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>設定這個炮塔必須不停試圖攻擊的目標。</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>停止強制攻擊</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>停止強制攻擊並允許炮塔自由開火。</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>不再強制攻擊目標。</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>目標超出最大射程。</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>目標近於最小射程。</MessageTargetBelowMinimumRange>
+  
+  
+  <!-- Ship computer core -->
+  <CommandShipLaunch>發射飛船</CommandShipLaunch>
+  <CommandShipLaunchDesc>使用目前的飛船設定開始飛船發射程序。</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>顯示發射報告</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>顯示一份關於飛船發射能力的報告。</CommandShipLaunchReportDesc>
+
+
+  <!-- Pod -->
+  <CommandPodEject>彈出休眠者</CommandPodEject>
+  <CommandPodEjectDesc>喚醒低溫休眠者並將他們彈出。</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>內部無人。</CommandPodEjectFailEmpty>
+  
+</LanguageData>

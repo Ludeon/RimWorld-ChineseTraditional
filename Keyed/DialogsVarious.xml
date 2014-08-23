@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+  <Confirm>確定</Confirm>
+  <GoBack>返回</GoBack>
+  <OK>確認</OK>
+  
+  <!-- Save/load -->
+  <SaveGameButton>保存</SaveGameButton>
+  <OverwriteButton>覆蓋</OverwriteButton>
+  <LoadGameButton>讀取</LoadGameButton>
+  <ConfirmDelete>確定要刪除{0}嗎？</ConfirmDelete>
+  <DeleteThisSavegame>删除這個存檔。</DeleteThisSavegame>
+  <SavedAs>已保存為{0}。</SavedAs>
+  <NeedAName>請輸入一個名稱。</NeedAName>
+  <LoadingLongEvent>載入中……</LoadingLongEvent>
+  
+  
+  <!-- Colony naming-->
+  <NameColonyMessage>大家都知道你不想永遠待在這塊石頭上。但{0}建議你還是應該替你的殖民地取個名字。\n\n該叫做什麼好呢？</NameColonyMessage>
+  <ColonyGainsName>這個殖民地現在被稱為{0}了。</ColonyGainsName>
+  <ColonyNameIsInvalid>這個殖民地名無效。</ColonyNameIsInvalid>
+
+  <!-- Zone naming -->
+  <ZoneGainsName>這個區域的名稱被改為{0}。</ZoneGainsName>
+  <ZoneNameIsInvalid>請輸入一個有效的區域名稱。</ZoneNameIsInvalid>
+  
+  <!-- Pawn naming -->
+  <PawnGainsName>這個殖民者的暱稱被改為{0}。</PawnGainsName>
+  
+  <!-- Save game incompatible warning -->
+  <SaveGameIncompatibleWarningText>版本不相符: 存檔版本為{0}，當前遊戲版本為{1}。\n\n 讀取這個存檔很可能會導致遊戲崩潰或出現BUG。</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningTitle>遊戲存檔不相容</SaveGameIncompatibleWarningTitle>
+
+  <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>你已經更改了解析度。目前遊戲顯示是否正常？\n\n將在{0}秒後恢復原始設定……</ConfirmResolutionChange>
+  <ResolutionKeep>保持</ResolutionKeep>
+  <ResolutionRevert>恢復</ResolutionRevert>
+
+  <!-- Overview -->
+  <OverviewOf>{0}的概觀</OverviewOf>
+
+  <!-- Research -->
+  <Research>研究</Research>
+  <Researched>已研究</Researched>
+  <Unresearched>未研究</Unresearched>
+  <Finished>已完成</Finished>
+  <InProgress>正在研究中</InProgress>
+  <ResearchMenuWithoutBench>你的殖民者們在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>
+  
+  
+  <!-- Advanced game start options -->
+  <MapSizePerformanceWarning>警告：在大地圖下遊戲性能可能會根據配置不同而有所下降。\n\n如果你的配置較低，請選擇小地圖。\n\n巨大尺寸沒有經過測試。</MapSizePerformanceWarning>
+  <MapSize>地圖大小</MapSize>
+  <MapSizeDesc>{0}x{0} ({1}個方塊)</MapSizeDesc>
+  <MapSizeSmall>小</MapSizeSmall>
+  <MapSizeMedium>中</MapSizeMedium>
+  <MapSizeLarge>大</MapSizeLarge>
+  <MapSizeExtreme>巨大</MapSizeExtreme>
+  
+  
+  
+  <!-- Bill config -->
+  <Suspended>已暫停</Suspended>
+  <NotSuspended>未暫停</NotSuspended>
+  <SuspendedAllCaps>已暫停</SuspendedAllCaps>
+  <RepeatCount>重複: {0}次</RepeatCount>
+  <Forever>永遠</Forever>
+  <IngredientSearchRadius>材料搜索半徑</IngredientSearchRadius>
+  <TargetCount>在到達數量以前不停止製作: {0}</TargetCount>
+  <Infinite>無限</Infinite>
+  <RecipeCannotHaveTargetCount>(因為這個配方有多個或是不可預估的成品，因此無法指定目標數量)</RecipeCannotHaveTargetCount>
+  <PermittedIngredients>允許的材料</PermittedIngredients>
+  <MinimumSkills>最低技能值:</MinimumSkills>
+  <DoXTimes>做X次</DoXTimes>
+  <DoUntilYouHaveX>製作直到擁有X個</DoUntilYouHaveX>
+  <DoForever>永遠製作</DoForever>
+  <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
+  
+  
+  <!-- Def Card -->
+  <Type>類別</Type>
+  <GunType>槍枝</GunType>
+  <PlantType>植物</PlantType>
+  <FoodType>食物</FoodType>
+  <HumanType>人類</HumanType>
+  <AnimalType>動物</AnimalType>
+  <MechanoidType>機器人</MechanoidType>
+  <Damage>傷害</Damage>
+  <Accuracy>精度</Accuracy>
+  <BurstShotCount>連射回數</BurstShotCount>
+  <WarmupTime>預熱時間</WarmupTime>
+  <CooldownTime>冷卻時間</CooldownTime>
+  <BurstShotFireRate>射速</BurstShotFireRate>
+  <Range>射程</Range>
+  <GrowsWild>野生</GrowsWild>
+  <Harvestable>可收穫</Harvestable>
+  <LimitedLifespan>壽命有限</LimitedLifespan>
+  <GrowingTime>生長時間</GrowingTime>
+  <Days>天</Days>
+  <FertilityRequirement>種植需求</FertilityRequirement>
+  <LightRequirement>光線需求</LightRequirement>
+  <Attributes>來源</Attributes>
+  <LifeSpan>壽命</LifeSpan>
+  <Nutrition>營養</Nutrition>
+  <FoodQuality>食物價值</FoodQuality>
+  <WalkSpeedProperty>行走速度</WalkSpeedProperty>
+  <MeleeDamage>近身攻擊傷害</MeleeDamage>
+  <MeatAmount>肉食數量</MeatAmount>
+  <MinFoodQuality>最低食物質量</MinFoodQuality>
+  <Diet>飲食</Diet>
+  <RecruitDifficulty>招募難度</RecruitDifficulty>
+  <BasePrice>基礎價格</BasePrice>
+  
+  <!-- Trade -->
+  <YourTradeableSilver>目前可用於交易的銀幣: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的銀幣來交易。</YourTradeableSilverTip>
+
+  <!-- Comms -->
+  <SocialSkillIs>社交技能: {0}</SocialSkillIs>
+
+  <!--Other-->
+  <ResearchFinished>完成的研究: {0}</ResearchFinished>
+  <ResearchScreen>研究清單</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>你想把遊戲數據上傳到RimWorld伺服器以幫助開發者完善遊戲平衡嗎? 如果你同意，每隔{0}天你的遊戲數據就會被自動上傳(以及在遊戲結束等其他情況下上傳)。之後可在選項清單內更改隱私設定。</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>儘管遊戲數據默認是匿名上傳的，但你仍然可以附上你的名字。</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>允許上傳遊戲數據</HistoryUploadYes>
+  <HistoryUploadNo>不允許上傳遊戲數據</HistoryUploadNo>
+  <HistoryUploadYesOnce>僅上傳本次的數據</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>不上傳本次的數據，並稍後再問我</HistoryUploadNoOnce>
+	
+</LanguageData>

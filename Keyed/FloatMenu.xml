@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+  <CallOnRadio>呼叫{0}</CallOnRadio>
+  <CannotUseSolarFlare>無法使用(太陽閃焰)</CannotUseSolarFlare>
+  <CannotUseNoPower>無法使用(沒有電力)</CannotUseNoPower>
+  <CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
+  <CannotUseReserved>無法使用(被預留)</CannotUseReserved>
+  <CannotUseFull>無法使用(已滿)</CannotUseFull>
+	
+  <FireAt>對{0}開火</FireAt>
+
+  <OutOfRange>超出射程</OutOfRange>
+  <CannotHitTarget>無法擊中目標</CannotHitTarget>
+  <CannotFight>{0}無法戰鬥</CannotFight>
+  
+  <OrderManThing>操縱{0}</OrderManThing>
+  
+  <MeleeAttack>近身攻擊{0}</MeleeAttack>
+  <MeleeAttackToDeath>近身攻擊直到殺死{0}</MeleeAttackToDeath>
+  <NoPath>沒有路徑</NoPath>
+
+	<ForbiddenLower>禁止的</ForbiddenLower>
+	<SociallyImproperLower>社交不當</SociallyImproperLower>
+	<BurningLower>燃燒中</BurningLower>
+	<NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
+	<AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
+	<MissingMaterials>需要材料</MissingMaterials>
+	
+	
+  <CannotGoNoPath>無法走到目標(沒有路徑)</CannotGoNoPath>
+  <GoHere>走到這裡</GoHere>
+  
+  <Arrest>拘捕{0}</Arrest>
+  <CannotArrest>無法拘捕</CannotArrest>
+
+  <Capture>俘虜{0}</Capture>
+  <CannotCapture>無法俘虜</CannotCapture>
+
+  <Rescue>救援{0}</Rescue>
+  <CannotRescue>無法救援</CannotRescue>
+
+  <NoPrisonerBed>沒有在封閉房間中的囚犯床。</NoPrisonerBed>
+  <NoNonPrisonerBed>沒有可用的非囚犯床。</NoNonPrisonerBed>
+  <Reserved>已經為別人預留了。</Reserved>
+  <ReservedBy>預留給了{0}。</ReservedBy>
+  <IsReservedBy>{0}被預留给了{1}。</IsReservedBy>
+
+
+  <Equip>裝備{0}</Equip>
+  <CannotEquip>無法裝備{0}</CannotEquip>
+
+  <Wear>穿上{0}</Wear>
+  <CannotWear>無法穿上{0}</CannotWear>
+  
+  <Strip>脱下{0}的衣物</Strip>
+  <CannotStrip>無法脱下{0}</CannotStrip>
+  
+  <Deposit>將{0}放置到{1}</Deposit>
+  <CannotDeposit>無法將{0}放置到{1}</CannotDeposit>
+
+  <Drop>丢下{0}</Drop>
+  
+  <UseMedicalBed>休養直到痊癒</UseMedicalBed>
+  <NotInjured>沒有受傷</NotInjured>
+  <SomeoneElseSleeping>有其他人正在休養</SomeoneElseSleeping>
+  
+  <!-- Specific thing interactions -->
+  <EnterCryptosleepPod>進入低溫休眠艙</EnterCryptosleepPod>
+  
+  
+  
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
+  <CannotGenericWork>無法{0}{1}</CannotGenericWork>
+
+  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
+
+  <CannotPrioritizeIsNotA>無法優先當前任務({0}不是{1})</CannotPrioritizeIsNotA>
+
+  <CannotPrioritizeResearch>無法優先當前任務(研究是一項長時間的工作)</CannotPrioritizeResearch>
+
+  <CannotPrioritizeForbidden>無法優先當前任務({0}是禁止的)</CannotPrioritizeForbidden>
+
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
+  <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
+  
+</LanguageData>

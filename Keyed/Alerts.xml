@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+  <ClickToJumpToProblem>點擊此處跳轉至問題點</ClickToJumpToProblem>
+  
+  
+  
+  
+  <AlertNeedStockpile>需要儲存區</AlertNeedStockpile>
+  <AlertNeedStockpileDesc>你的殖民者需要放置物品的地方。規劃一個讓他們放置物品的儲存區。\n\n在左下角建築清單中的區域分類可以找到儲存區工具。</AlertNeedStockpileDesc>
+
+  <AlertUnforbidStartingResources>解禁資源</AlertUnforbidStartingResources>
+  <AlertUnforbidStartingResourcesDesc>地圖上的資源是被默認為禁止使用的。\n\n若想讓你的殖民者們去使用他們，你必須先選擇該物件並點擊畫面底部的解禁按鈕以解除禁止狀態。</AlertUnforbidStartingResourcesDesc>
+
+  <AlertEquipStartingWeapons>裝備武器</AlertEquipStartingWeapons>
+  <AlertEquipStartingWeaponsDesc>你的殖民者來時是帶著一些武器的。裝備他們!\n\n選擇一個殖民者並在需要裝備的武器上按滑鼠右鍵。</AlertEquipStartingWeaponsDesc>
+  
+  <NeedSawmill>需要鋸木機</NeedSawmill>
+  <NeedSawmillDesc>你需要鋸木機才能把原木鋸成有用的木板。\n\n建造一個手工鋸木機或電動鋸木機。</NeedSawmillDesc>
+  
+  <EquipStartingEquipment>取得你的裝備</EquipStartingEquipment>
+  <EquipStartingEquipmentDesc>你們著陸時攜帶了一些武器。在著陸點取得武器。\n\n若想裝備物品，選擇一個殖民者並右擊你想裝備的物品。</EquipStartingEquipmentDesc>
+  
+  <MentalBreakSoon>即將發生精神崩潰</MentalBreakSoon>
+  <MentalBreakSoonDesc>照這樣下去這些殖民者們的心理狀態不久就會達到精神崩潰的程度:\n\n{0}\n立即提升這些殖民者的心理狀態，否則將發生不幸的事情。</MentalBreakSoonDesc>
+
+  <MentalBreakImminent>精神崩潰迫在眉睫</MentalBreakImminent>
+  <MentalBreakImminentDesc>這些殖民者的心理壓力已經逼近極限，他們隨時有可能精神崩潰:\n\n{0}</MentalBreakImminentDesc>
+
+  <ColonistNeedsRescue>有殖民者需要救援</ColonistNeedsRescue>
+  <ColonistsNeedRescue>多個殖民者需要救援</ColonistsNeedRescue>
+  <ColonistsNeedRescueDesc>這些殖民者倒在地上無法動彈：\n\n{0}\n派遣另一名殖民者去搶救他們並帶到床上。\n\n(先選擇一位殖民者，然後右鍵點擊需要救援的人並選擇"救援"。</ColonistsNeedRescueDesc>
+
+  <BuildARoom>建造一個房間</BuildARoom>
+  <BuildARoomDesc>你沒有房間。\n\n用四面牆和一扇門來建造一個房間。\n\n使用畫面底端的建造清單來指定你想要的建造位置。一旦你指定了建造工作，你的殖民者們會在可能的情況下去執行工作。</BuildARoomDesc>
+
+  <NeedGrowingZone>需要種植區</NeedGrowingZone>
+  <NeedGrowingZoneDesc>你沒有種植區。\n\n用用建築清單在土壤肥沃的土地上規劃一片種植區。</NeedGrowingZoneDesc>
+
+  <NeedDefenses>需要防禦工事</NeedDefenses>
+  <NeedDefensesDesc>你已經在這裡待了一段時間，可能已經被別人發現了。不久後可能會有海賊襲擊。\n\n你應該準備一些防禦工事。\n\n建造一些炮塔。</NeedDefensesDesc>
+
+  <NeedDoctor>需要醫生</NeedDoctor>
+  <NeedDoctorDesc>這些需要治療或食物的患者在床上無法行動。但是你沒有將醫生工作分配給任何健康的人。\n\n{0}\n給一個健康的殖民者分配醫生工作。如果患者沒有被及時醫治，這些傷口。</NeedDoctorDesc>
+
+  <NeedMiner>需要礦工</NeedMiner>
+  <NeedMinerDesc>你佈置置了一些岩石開採工作，但是沒有殖民者在做採礦工作。\n\n給一個殖民者分配採礦工作。</NeedMinerDesc>
+
+  <NeedWarden>需要獄卒</NeedWarden>
+  <NeedWardenDesc>你有一名囚犯，但是沒有殖民者再做獄卒工作。\n\n給一個殖民者分配獄卒工作。</NeedWardenDesc>
+
+  <LowFood>食物不足</LowFood>
+  <LowFoodDesc>你所有的食物營養值總和只有{0}。這已經非常低了。\n\n種，買，找，甚至去打一些食物來。</LowFoodDesc>
+
+  <NeedColonistBeds>需要殖民者床</NeedColonistBeds>
+  <NeedColonistBedsDesc>你的殖民者人數比你擁有的床多，有人將會沒有地方睡覺。\n\n建造更多床，或者將一些囚犯床更改成殖民者床。</NeedColonistBedsDesc>
+
+  <Starvation>飢餓</Starvation>
+  <StarvationDesc>這些殖民者快餓死了：\n\n{0}\n給他們弄點食物。你需要一個食物的來源，比如一個營養膏分配機配上足夠的食物供給。另外，確保他們不在被徵召的狀態。</StarvationDesc>
+
+  <Exhaustion>疲勞</Exhaustion>
+  <ExhaustionDesc>這些殖民者已經筋疲力盡了並且需要休息：\n\n{0}\n讓他們休息一段時間。他們需要一個供殖民者使用的床。另外，確保他們不在被徵召的狀態。</ExhaustionDesc>
+
+  <NeedFoodHopper>需要食物儲料器</NeedFoodHopper>
+  <NeedFoodHopperDesc>你擁有一個營養膏分配機但旁邊沒有儲料器。\n\n營養膏分配機需要一個緊鄰的並且裝有食物的儲料器才能正常工作。\n\n建造一個緊鄰營養膏分配機的儲料器。</NeedFoodHopperDesc>
+
+  <BuildingNeedsPower>有建築需要電力</BuildingNeedsPower>
+  <BuildingsNeedPower>多個建築需要電力</BuildingsNeedPower>
+  <BuildingsNeedPowerDesc>沒有任何電源連接著這些需要電力的建築:\n\n{0}\n將它們和一個發電機或電池連接在一起。</BuildingsNeedPowerDesc>
+  <AndMore>以及更多</AndMore>
+  
+  <NeedMealSource>需要食物來源</NeedMealSource>
+  <NeedMealSourceDesc>你沒有任何將原料加工成食品的方式。\n\n建造一個營養膏分配機或爐灶。\n\n(工具不能被放置於監獄房中，否則殖民者將無法使用它)</NeedMealSourceDesc>
+
+  <NeedHomeRegion>需要生活區</NeedHomeRegion>
+  <NeedHomeRegionDesc>你需要規劃一片生活區來制定殖民者們清理、滅火和修復建築的區域。\n\n用建築清單，區域選項裡的生活區來規劃一片區域。</NeedHomeRegionDesc>	
+  
+  <NeedBatteries>需要蓄電池</NeedBatteries>
+  <NeedBatteriesDesc>你只有太陽能發電板而沒有蓄電池。這表示每當入夜你的殖民地就會停電。\n\n建造一兩個蓄電池以確保電力足夠應付夜晚。</NeedBatteriesDesc>
+
+  <NoTradingCapacity>沒有交易能力</NoTradingCapacity>
+  <NoTradingCapacityDesc>你沒有任何能和過往商船交易的能力。\n\n建造一個通訊台。</NoTradingCapacityDesc>
+
+  <NeedResearchProject>需要研究項目</NeedResearchProject>
+  <NeedResearchProjectDesc>你有可以用來進行研究的設備但你沒有指定研究項目。\n\n開啟研究清單並指定研究一個項目。</NeedResearchProjectDesc>
+
+  <NeedDump>需要垃圾儲存區</NeedDump>
+  <NeedDumpDesc>你指定了你的殖民者進行搬運{0}，但是他們沒有地方放置物品。\n\n規劃一個儲存區並將儲存項目設為允許{0}。</NeedDumpDesc>
+
+  <NeedGrave>需要墳墓</NeedGrave>
+  <NeedGraveDesc>有遺體倒在地上，不過你的殖民者沒有地方可以放置它。\n\n建造一個墳墓或垃圾儲存區並設置他們的儲存設定。</NeedGraveDesc>
+
+  <ColonistsIdle>{0}位殖民者無事可做</ColonistsIdle>
+  <ColonistsIdleDesc>這些殖民者們正無所事事的四處走動:\n\n{0}\n你應該給他們找點有意義的事情來做。</ColonistsIdleDesc>
+  
+  <HaltedConstructions>{0}個建造計畫缺乏材料</HaltedConstructions>
+  <HaltedConstructionsDesc>以下建造計畫正缺少必須的材料:\n\n{0}\n你你應該想辦法為你的殖民者獲取對應的材料。</HaltedConstructionsDesc>
+  
+  <TableNeedsChairs>需要椅子</TableNeedsChairs>
+  <TableNeedsChairsDesc>你有一個桌子卻沒有相鄰的椅子。如果人們不能挨著桌子坐，那麼桌子又有什麼用呢?</TableNeedsChairsDesc>
+  
+  <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
+  <ColonistNeedsTreatmentDesc>以下殖民者需要接受治療。如果沒有被治療，他們可能因這些傷口而死，或沒治癒的傷口進而變成永久性的創傷。\n\n{0}\n將他們送到一個醫療床上以接受治療。\n\n(首先將一張床設為醫療床，接著選擇受傷的殖民者並右擊醫療床來將他們設為患者。)</ColonistNeedsTreatmentDesc>
+  
+  
+</LanguageData>
