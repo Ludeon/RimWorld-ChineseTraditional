@@ -52,7 +52,7 @@
   
   
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>警告：在大地圖下遊戲性能可能會根據配置不同而有所下降。\n\n如果你的配置較低，請選擇小地圖。\n\n巨大尺寸沒有經過測試。</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>警告：在大地圖下遊戲性能可能會根據配置不同而有所下降。\n\n如果你的配置較低，請選擇小地圖。\n\n巨大尺寸沒有經過測試，幾乎可以肯定將會無法遊玩。</MapSizePerformanceWarning>
   <MapSize>地圖大小</MapSize>
   <MapSizeDesc>{0}x{0} ({1}個方塊)</MapSizeDesc>
   <MapSizeSmall>小</MapSizeSmall>
@@ -78,6 +78,8 @@
   <DoUntilYouHaveX>製作直到擁有X個</DoUntilYouHaveX>
   <DoForever>永遠製作</DoForever>
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
+  <BillStoreMode_BestStockpile>放到最合適的儲藏區</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>放到最近的儲藏區</BillStoreMode_NearestStockpileAnyPriority>
   
   
   <!-- Def Card -->
@@ -113,6 +115,7 @@
   <Diet>飲食</Diet>
   <RecruitDifficulty>招募難度</RecruitDifficulty>
   <BasePrice>基礎價格</BasePrice>
+  <Covers>覆蓋</Covers>
   
   <!-- Trade -->
   <YourTradeableSilver>目前可用於交易的銀幣: {0}</YourTradeableSilver>
