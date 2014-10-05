@@ -39,9 +39,15 @@
 		
 		<MessageCriticalAlert>嚴重警報: {0}</MessageCriticalAlert>
 		
-		<MessageMustDesignateHarvestableFood>必須指定長有食物並長成的植物。</MessageMustDesignateHarvestableFood>
+		<MessageMustDesignateHarvestable>必須指定已長成可收穫的植物。</MessageMustDesignateHarvestable>
 		<MessageMustDesignateHarvestableWood>必須指定已長成可收穫木頭的樹木。</MessageMustDesignateHarvestableWood>
 		<MessageMustDesignatePlants>必須指定植物。</MessageMustDesignatePlants>
 		<MessageMustDesignateHaulable>必須指定可以搬運的物品。</MessageMustDesignateHaulable>
+  
+		<MessageNoMedicalBeds>沒有可用的醫療床。</MessageNoMedicalBeds>
+  
+		<PawnDiedBecauseOf>{0}因{1}死亡了。</PawnDiedBecauseOf>
+
+		<MessageNoLongerDowned>{0}恢復行動能力了。</MessageNoLongerDowned>
   
 </LanguageData>

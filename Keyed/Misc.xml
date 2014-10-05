@@ -20,15 +20,24 @@
   <CompiledOn>匯編於{0}</CompiledOn>
 
 	<MeatLabel>{0}肉</MeatLabel>
-  <MeatDesc>{0}上的生肉。</MeatDesc>
+  <MeatDesc>{0}的生肉。</MeatDesc>
+
+  <LeatherLabel>{0}皮毛</LeatherLabel>
+  <LeatherDesc>{0}的皮毛。</LeatherDesc>
 
 	<CorpseLabel>{0}遺體</CorpseLabel>
 	<CorpseDesc>{0}的遺體。</CorpseDesc>
+  <DeadLabel>{0}(死亡)</DeadLabel>
 
 
 	<BlueprintLabelExtra> (藍圖)</BlueprintLabelExtra>
   <FrameLabelExtra> (框架)</FrameLabelExtra>
   
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
+
+  <VariousLabel>(種類)</VariousLabel>
   
   <!-- History events -->
   <ColonistDied>殖民者死亡</ColonistDied>

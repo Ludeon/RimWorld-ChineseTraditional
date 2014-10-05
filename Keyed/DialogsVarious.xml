@@ -74,10 +74,12 @@
   <RecipeCannotHaveTargetCount>(因為這個配方有多個或是不可預估的成品，因此無法指定目標數量)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>允許的材料</PermittedIngredients>
   <MinimumSkills>最低技能值:</MinimumSkills>
+  <BillRequires>需要{0}個{1}</BillRequires>
   <DoXTimes>做X次</DoXTimes>
   <DoUntilYouHaveX>製作直到擁有X個</DoUntilYouHaveX>
   <DoForever>永遠製作</DoForever>
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>放到地上</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>放到最合適的儲藏區</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>放到最近的儲藏區</BillStoreMode_NearestStockpileAnyPriority>
   
@@ -116,13 +118,40 @@
   <RecruitDifficulty>招募難度</RecruitDifficulty>
   <BasePrice>基礎價格</BasePrice>
   <Covers>覆蓋</Covers>
+  <NaturalArmorCovers>裝甲覆蓋率</NaturalArmorCovers>
+  <BodyPartEfficiency>人造部位運作效率</BodyPartEfficiency>
   
   <!-- Trade -->
+  <DragToTrade>交易數量</DragToTrade>
+  <BuyPriceDesc>購買此商品的價格。</BuyPriceDesc>
+  <SellPriceDesc>販賣此商品的價格。</SellPriceDesc>
+  <PriceTypeDesc>以這項商品來說，這個價格{0}。</PriceTypeDesc>
+  <ColonyCount>殖民地可用於交易的貨品數量。\n\n你只能將位於室外且量近於軌道交易信標的貨品賣給路過的商船。</ColonyCount>
+  <TraderCount>商人可用於交易的貨品數量。</TraderCount>
+  <AcceptButton>確定</AcceptButton>
+  <ResetButton>重置</ResetButton>
+  <CancelButton>取消</CancelButton>
   <YourTradeableSilver>目前可用於交易的銀幣: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的銀幣來交易。</YourTradeableSilverTip>
+  <TraderHasNoMore>商人貨品數量不足。</TraderHasNoMore>
+  <ColonyHasNoMore>殖民地貨品數量不足。</ColonyHasNoMore>
+  <TraderWillNotTrade>商人不接受此貨品交易。</TraderWillNotTrade>
 
   <!-- Comms -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
+
+  <!-- Stats report -->
+  <StatsReport_BaseValue>Base value</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>Relevant traits</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Relevant gear</StatsReport_RelevantGear>
+  <StatsReport_Material>Material</StatsReport_Material>
+  <StatsReport_CharacterQuality>Character quality</StatsReport_CharacterQuality>
+  <StatsReport_Skills>Skill factors</StatsReport_Skills>
+  <StatsReport_OtherStats>Other stat factors</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>Health factors</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} importance</HealthFactorPercentImpact>
+  <StatsReport_PostProcessed>Post-processed curved</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>Final value</StatsReport_FinalValue>
 
   <!--Other-->
   <ResearchFinished>完成的研究: {0}</ResearchFinished>

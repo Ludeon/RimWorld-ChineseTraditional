@@ -10,9 +10,9 @@
 		<DesignatorDeconstruct>拆除</DesignatorDeconstruct>
 		<DesignatorDeconstructDesc>拆除建築並回收部分資源。</DesignatorDeconstructDesc>
 		
-		<DesignatorHarvestFood>收穫食物</DesignatorHarvestFood>
-		<DesignatorHarvestFoodDesc>標記需要收穫的植物來獲取食物。植物上的可獲取食物會被收穫，但是植物本身會被保留。</DesignatorHarvestFoodDesc>
-		
+		<DesignatorHarvest>收穫</DesignatorHarvest>
+		<DesignatorHarvestDesc>標記需要收穫的植物來獲取食物或產品。</DesignatorHarvestDesc>
+  
 		<DesignatorHarvestWood>砍伐樹木</DesignatorHarvestWood>
 		<DesignatorHarvestWoodDesc>標記需要被砍掉的樹木以獲取木頭。</DesignatorHarvestWoodDesc>
 		
@@ -60,10 +60,12 @@
 		
 		
 		<!-- placement of blueprints -->
+		<UnchosenStuff>無法選擇的素材</UnchosenStuff>
 		<TooCloseToMapEdge>距離地圖邊緣太近。</TooCloseToMapEdge>
 		<OutOfBounds>在界線之外。</OutOfBounds>
 		<CannotPlaceInUndiscovered>不能放置在未探索的區域內。</CannotPlaceInUndiscovered>
-		<InteractionSpotBlocked>互動點被擋住。</InteractionSpotBlocked>
+		<InteractionSpotBlocked>互動點被：{0}擋住。</InteractionSpotBlocked>
+		<InteractionSpotOutOfBounds>互動點在界線之外。</InteractionSpotOutOfBounds>
 		<InteractionSpotWillBeBlocked>互動點會被擋住。</InteractionSpotWillBeBlocked>
 		<WouldBlockInteractionSpot>{0}會擋住{1}的互動點。</WouldBlockInteractionSpot>
 		<TerrainIsAlready>這裡的地形已經是{0}了。</TerrainIsAlready>

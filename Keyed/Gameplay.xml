@@ -8,9 +8,9 @@
   <ForPrisonerUse>僅限囚犯使用</ForPrisonerUse>
   <ForColonistUse>僅限殖民者使用</ForColonistUse>
   <MedicalBed>醫療</MedicalBed>
-  <Owner>主人</Owner>
+  <Owner>擁有者</Owner>
   <Nobody>無</Nobody>
-  <Unowned>沒有主人</Unowned>
+  <Unowned>無擁有者</Unowned>
   <DeadTime>死亡的{0}</DeadTime>
   <WalkSpeed>行走速度{0}</WalkSpeed>
   <DyingLower>瀕死</DyingLower>
@@ -21,6 +21,12 @@
   <Adapted>適合</Adapted>
   <Headshot>命中頭部</Headshot>
   <FreshMissingBodyPart>新鮮</FreshMissingBodyPart>
+  <UntreatedLower>未治療</UntreatedLower>
+  <DevelopedImmunityLower>已形成免疫力</DevelopedImmunityLower>
+  <InjuryRequiresTreatment>需要治療以復原</InjuryRequiresTreatment>
+  <NextTreatmentAfter>下一次治療將在{0}天後</NextTreatmentAfter>
+  <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
+  <ImmunityDevelopmentProgress>免疫力形成度</ImmunityDevelopmentProgress>
 
   <!-- Turrets -->
   <GunInstalled>已安裝</GunInstalled>
@@ -31,6 +37,8 @@
 	<!-- Job reports -->
 	<ReportHaulingTo>把{0}運到{1}。</ReportHaulingTo>
 	<ReportHauling>搬動{0}中。</ReportHauling>
+  <ReportSleeping>睡眠中。</ReportSleeping>
+  <ReportResting>休息中。</ReportResting>
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>武器誤差半徑</WeaponMissRadius>
@@ -87,7 +95,7 @@
   <SanityDazedWander>失常: 迷茫了並正在四處遊蕩</SanityDazedWander>
   <SanityGiveUpExit>失常: 放棄了並正在離開</SanityGiveUpExit>
   <SanityPanicFlee>失常: 正在混亂中逃跑</SanityPanicFlee>
-  <SanityPsychotic>失常: 正在發瘋的大肆破壞</SanityPsychotic>
+  <SanityPsychotic>失常: 正在瘋狂的大肆破壞</SanityPsychotic>
   
   <!-- Body and activities condition -->
   <None>沒有</None>
@@ -118,6 +126,9 @@
   <TabThoughts>心理</TabThoughts>
   <TabStorage>儲存</TabStorage>
   <TabHealth>健康</TabHealth>
+  <TabRace>物種</TabRace>
+  <TabBasics>基本訊息</TabBasics>
+  <TabStats>數據</TabStats>
   
   <!-- ITabs -->
   <AddBill>新增清單</AddBill>
@@ -151,21 +162,29 @@
   <InPain>感到疼痛</InPain>
   <PainLevel>痛苦</PainLevel>
   <Dead>死亡</Dead>
-  <Unconscious>失去知覺</Unconscious>
+  <Unconscious>陷入昏迷</Unconscious>
   <PainShock>暫時休克</PainShock>
+  <Injured>受傷</Injured>
   <NoInjuries>(沒有受傷)</NoInjuries>
   <WholeBody>全身</WholeBody>
   <RenameColonist>重新命名殖民者</RenameColonist>
   <DataProcessing>數據處理</DataProcessing>
   <Communication>交流</Communication>
+	<AffectsLower>影響</AffectsLower>
+	<BleedingRate>出血率</BleedingRate>
+	<HealthOverview>概觀</HealthOverview>
+	<MedicalOperationsShort>手術({0})</MedicalOperationsShort>
+	<MedicalOperationsMechanoidsShort>修正({0})</MedicalOperationsMechanoidsShort>
+	<MedicalOperations>手術</MedicalOperations>
+	<Amputate>截肢</Amputate>
+	<Harvest>摘除</Harvest>
   
   <!-- like 'Blood of John' -->
   <OfLower>來自</OfLower>
 
   <!-- Power readout -->
   <PowerNotConnected>未連結電網。</PowerNotConnected>
-  <PowerConnectedRate>電網功率: {0}W</PowerConnectedRate>
-  <PowerConnectedStored>電網蓄電量: {0}Wd</PowerConnectedStored>
+  <PowerConnectedRateStored>電網發電量/蓄電量: {0}W/{1}Wd</PowerConnectedRateStored>
   <PowerNeeded>電力消耗</PowerNeeded>
   <PowerOutput>電力輸出</PowerOutput>
   <PowerBatteryStored>蓄電</PowerBatteryStored>
@@ -201,6 +220,7 @@
   <FullyGrownIn>{0}後長成</FullyGrownIn>
   <ReadyToHarvest>待收穫</ReadyToHarvest>
   <Mature>成熟。</Mature>
+  <SeedLabel>{0}種子</SeedLabel>
   
   <!-- Zones -->
   <Zone>區域</Zone>
@@ -219,6 +239,7 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
   <AutoHomeRegionToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeRegionToggleButton>
+  <CategorizedResourceReadoutToggleButton>切換資源清單的可見性。</CategorizedResourceReadoutToggleButton>
   
   
   <!-- Fire -->
@@ -230,14 +251,18 @@
   
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>正在干擾區域的特殊情况。</MapConditionsTip>
-  
-  
+
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>沒有可用的素材以建造此項目。</NoStuffsToBuildWith>
+ 
   
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>不能放置在屋頂下。</MustPlaceUnroofed>
-  <MustPlaceHeadOnShipBeam>必須放置在星艦結構助旁。</MustPlaceHeadOnShipBeam>
+  <MustPlaceHeadOnShipBeam>必須與星艦結構柱連接。</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>必須放置在需要儲料器的物件旁。</MustPlaceNextToHopperAccepter>
-  <MustPlaceOnSteamGeyser>必须直接放置在間歇蒸汽泉上。</MustPlaceOnSteamGeyser>
+  <MustPlaceOnSteamGeyser>必須直接放置在間歇蒸氣泉上。</MustPlaceOnSteamGeyser>
+  
+  
   
   <!-- Cryptosleep pod -->
   <PodContains>包含</PodContains>
@@ -245,14 +270,17 @@
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>無法發射。</ShipReportCannotLaunch>
   <ShipReportCanLaunch>準備發射。</ShipReportCanLaunch>
-  <ShipReportMissingPart>缺少關鍵性組件</ShipReportMissingPart>
+  <ShipReportMissingPart>缺少關鍵性部件</ShipReportMissingPart>
   <ShipReportNoFullPods>沒有裝滿的休眠艙</ShipReportNoFullPods>
 
-  
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>用神經技能訓練器學習{0}</UseNeurotrainer>
+  <NeurotrainerUsed>{0}使用{1}神經技能訓練器使等級由{2}提升至{3}了。</NeurotrainerUsed>
+
   
   <!-- Game over -->
   <GameOverEveryoneDead>所有人不是死亡就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>
-  <GameOverShipLaunched>你發射了逃離星艦! 以下殖民者離開了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n现在你的AI會試圖將星艦帶到一個安全的地方去。也許他會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待一個更好的紀元到來。\n\n只有在你醒來後才會知道。</GameOverShipLaunched>
+  <GameOverShipLaunched>你發射了逃離星艦! 以下殖民者離開了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n現在你的AI會試圖將星艦帶到一個安全的地方去。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待一個更好的紀元到來。\n\n只有在你醒來後才會知道。</GameOverShipLaunched>
   <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
   <GameOverMainMenu>主畫面</GameOverMainMenu>
   

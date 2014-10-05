@@ -54,6 +54,9 @@
 
 		<HunterHunt.verb>獵捕</HunterHunt.verb>
         <HunterHunt.gerund>狩獵</HunterHunt.gerund>
+
+		<BecomePatient.verb>接受治療</BecomePatient.verb>
+        <BecomePatient.gerund>接受治療於</BecomePatient.gerund>
 		
 		<!-- ============= Cooking ============= -->
 		<DoBillsCook.verb>烹調</DoBillsCook.verb>
@@ -67,18 +70,34 @@
 		<DoBillsCremate.verb>火化</DoBillsCremate.verb>
         <DoBillsCremate.gerund>火化</DoBillsCremate.gerund>
 		
+		<DoBillsMakeClothes.verb>裁縫</DoBillsMakeClothes.verb>
+		<DoBillsMakeClothes.gerund>縫紉</DoBillsMakeClothes.gerund>
+		
+		<DoBillsStonecut.verb>石材加工</DoBillsStonecut.verb>
+        <DoBillsStonecut.gerund>石材加工</DoBillsStonecut.gerund>
+		
+		<DoBillsSlagRefining.verb>提煉</DoBillsSlagRefining.verb>
+        <DoBillsSlagRefining.gerund>提煉</DoBillsSlagRefining.gerund>
+		
+		<DoBillsButcherMechanoid.verb>拆解</DoBillsButcherMechanoid.verb>
+        <DoBillsButcherMechanoid.gerund>拆解</DoBillsButcherMechanoid.gerund>
+		
 		<!--
 		<DoBillsMakeWoodPlanks_Electric.verb>切割木材</DoBillsMakeWoodPlanks_Electric.verb>
         <DoBillsMakeWoodPlanks_Electric.gerund>切割木材</DoBillsMakeWoodPlanks_Electric.gerund>
 		<DoBillsMakeWoodPlanks_Hand.verb>切割木材</DoBillsMakeWoodPlanks_Hand.verb>
         <DoBillsMakeWoodPlanks_Hand.gerund>切割木材</DoBillsMakeWoodPlanks_Hand.gerund>
 		-->
-		
-		<DoBillsStonecut.verb>石材加工</DoBillsStonecut.verb>
-        <DoBillsStonecut.gerund>石材加工</DoBillsStonecut.gerund>
-		<DoBillsSlagRefining.verb>提煉</DoBillsSlagRefining.verb>
-        <DoBillsSlagRefining.gerund>提煉</DoBillsSlagRefining.gerund>
-		<DoBillsButcherMechanoid.verb>拆解</DoBillsButcherMechanoid.verb>
-        <DoBillsButcherMechanoid.gerund>拆解</DoBillsButcherMechanoid.gerund>
+	
+  <!-- ============= Medical operations ============= -->
+	
+	<TakeToBedToOperate.verb>前往手術</TakeToBedToOperate.verb>
+	<TakeToBedToOperate.gerund>前往手術</TakeToBedToOperate.gerund>
+	
+	<DoBillsMedicalHumanOperation.verb>手術</DoBillsMedicalHumanOperation.verb>
+	<DoBillsMedicalHumanOperation.gerund>手術</DoBillsMedicalHumanOperation.gerund>
+	
+	<DoBillsMedicalMechanoidOperation.verb>整修機械</DoBillsMedicalMechanoidOperation.verb>
+	<DoBillsMedicalMechanoidOperation.gerund>整修</DoBillsMedicalMechanoidOperation.gerund>
 		
 </LanguageData>

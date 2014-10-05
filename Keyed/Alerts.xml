@@ -82,7 +82,7 @@
   <NoTradingCapacityDesc>你沒有任何能和過往商船交易的能力。\n\n建造一個通訊台。</NoTradingCapacityDesc>
 
   <NeedResearchProject>需要研究項目</NeedResearchProject>
-  <NeedResearchProjectDesc>你有可以用來進行研究的設備但你沒有指定研究項目。\n\n開啟研究清單並指定研究一個項目。</NeedResearchProjectDesc>
+  <NeedResearchProjectDesc>你有可以用來進行研究的設備但你沒有指定研究項目。\n\n開啟研究清單並指定一個研究項目。</NeedResearchProjectDesc>
 
   <NeedDump>需要垃圾儲存區</NeedDump>
   <NeedDumpDesc>你指定了你的殖民者進行搬運{0}，但是他們沒有地方放置物品。\n\n規劃一個儲存區並將儲存項目設為允許{0}。</NeedDumpDesc>
@@ -93,14 +93,22 @@
   <ColonistsIdle>{0}位殖民者無事可做</ColonistsIdle>
   <ColonistsIdleDesc>這些殖民者們正無所事事的四處走動:\n\n{0}\n你應該給他們找點有意義的事情來做。</ColonistsIdleDesc>
   
-  <HaltedConstructions>{0}個建造計畫缺乏材料</HaltedConstructions>
-  <HaltedConstructionsDesc>以下建造計畫正缺少必須的材料:\n\n{0}\n你你應該想辦法為你的殖民者獲取對應的材料。</HaltedConstructionsDesc>
+  <HaltedConstructions>{0}項建設缺乏材料</HaltedConstructions>
+  <HaltedConstructionsDesc>以下建設正缺少必須的材料:\n\n{0}\n你應該想辦法為你的殖民者獲取對應的材料。</HaltedConstructionsDesc>
   
   <TableNeedsChairs>需要椅子</TableNeedsChairs>
-  <TableNeedsChairsDesc>你有一個桌子卻沒有相鄰的椅子。如果人們不能挨著桌子坐，那麼桌子又有什麼用呢?</TableNeedsChairsDesc>
+  <TableNeedsChairsDesc>你有一個桌子卻沒有相鄰的椅子。如果人們不能挨著桌子坐，那麼桌子又有什麼用呢？</TableNeedsChairsDesc>
   
   <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
-  <ColonistNeedsTreatmentDesc>以下殖民者需要接受治療。如果沒有被治療，他們可能因這些傷口而死，或沒治癒的傷口進而變成永久性的創傷。\n\n{0}\n將他們送到一個醫療床上以接受治療。\n\n(首先將一張床設為醫療床，接著選擇受傷的殖民者並右擊醫療床來將他們設為患者。)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDesc>以下殖民者需要接受治療。如果沒有被治療，他們可能因這些傷口而死，或沒治癒的傷口進而變成永久性的創傷。\n\n{0}\n將他們送到一個醫療床或病床上以接受治療。\n\n(首先將一張床設為病床，接著選擇受傷的殖民者並右擊病床來將他們設為患者。)</ColonistNeedsTreatmentDesc>
   
+  <ColonistsAwaitingMedicalOperation>{0}位殖民者正等待接受手術</ColonistsAwaitingMedicalOperation>
+  <ColonistsAwaitingMedicalOperationDesc>這位殖民者正等待接受手術:\n\n{0}\n確保你擁有必需的醫療器材與充足的醫療人員。</ColonistsAwaitingMedicalOperationDesc>
+
+  <PawnsWithLifeThreateningDisease>嚴重疾病</PawnsWithLifeThreateningDisease>
+  <PawnsWithLifeThreateningDiseaseDesc>這些殖民者有因疾病死亡的風險：\n\n{0}\n確保他們獲得妥善的醫療照顧。</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>這些殖民者有因疾病死亡的風險：\n\n{0}\n如果可能，考慮截肢或器官移植以救活他們。</PawnsWithLifeThreateningDiseaseAmputationDesc>
+
+  <!--<AlertAbsentMinded>{0}迷失自我了</AlertAbsentMinded>-->
   
 </LanguageData>

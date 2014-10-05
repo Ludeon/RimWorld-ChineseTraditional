@@ -26,6 +26,13 @@
   <Always>允許</Always>
   <Never>不允許</Never>
   
+  <!-- Price types -->
+  <PriceTypeVeryCheap>非常便宜</PriceTypeVeryCheap>
+  <PriceTypeCheap>很便宜</PriceTypeCheap>
+  <PriceTypeNormal>一般</PriceTypeNormal>
+  <PriceTypeExpensive>有點貴</PriceTypeExpensive>
+  <PriceTypeExorbitant>非常貴</PriceTypeExorbitant>
+  
   <!-- pawn activity -->
   <Consciousness>意識</Consciousness>
   <Sight>視野</Sight>
@@ -44,6 +51,17 @@
   <PawnStat_PsychicSensitivity>心靈敏感度</PawnStat_PsychicSensitivity>
   <PawnStat_MentalBreakThreshold>精神崩潰臨界值</PawnStat_MentalBreakThreshold>
   <PawnStat_WorkSpeed>工作速度</PawnStat_WorkSpeed>
+
+  <!-- stat category -->
+  <StatCategory_General>一般</StatCategory_General>
+  <StatCategory_GeneralNonPawn>一般</StatCategory_GeneralNonPawn>
+  <StatCategory_Armor>盔甲</StatCategory_Armor>
+  <StatCategory_PawnPrimary>主要</StatCategory_PawnPrimary>
+  <StatCategory_PawnWork>工作</StatCategory_PawnWork>
+  <StatCategory_PawnCombat>近戰</StatCategory_PawnCombat>
+  <StatCategory_PawnSocial>社交</StatCategory_PawnSocial>
+  <StatCategory_PawnMisc>其他</StatCategory_PawnMisc>
+  <StatCategory_Building>建設</StatCategory_Building>
 
 
   

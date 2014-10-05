@@ -29,18 +29,19 @@
   
   <CommandGetOutOfBedLabel>離床</CommandGetOutOfBedLabel>
   <CommandGetOutOfBedDesc>Get out of current bed.</CommandGetOutOfBedDesc>
-  <CommandBedSetOwnerLabel>自訂擁有者</CommandBedSetOwnerLabel>
-  <BedAssign>登錄</BedAssign>
   
+  <CommandBedSetOwnerLabel>自訂擁有者</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>分派此床給特定的殖民者。</CommandBedSetOwnerDesc>
+  <BedAssign>登錄</BedAssign>
   <CommandBedSetForPrisonersLabel>設為囚犯專用</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>將這個房間内的床設為囚犯專用。</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>無法將室外的床設為囚犯專用。</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>設為殖民者專用</CommandBedSetForColonistsLabel>
   <CommandBedSetForColonistsDesc>將這個房間内的床設為殖民者專用。</CommandBedSetForColonistsDesc>
-  <CommandBedSetAsMedicalLabel>設為醫療床</CommandBedSetAsMedicalLabel>
-  <CommandBedSetAsMedicalDesc>將這個床設為醫療床。</CommandBedSetAsMedicalDesc>
-  <CommandBedSetAsNonMedicalLabel>設為非醫療床</CommandBedSetAsNonMedicalLabel>
-  <CommandBedSetAsNonMedicalDesc>將這個床設為非醫療用床。</CommandBedSetAsNonMedicalDesc>
+  <CommandBedSetAsMedicalLabel>設為病床</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>將這個床設為病床。</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>設為一般床</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>將這個床設為非病床。</CommandBedSetAsNonMedicalDesc>
   <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(囚犯和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(囚犯和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOffPrisonerBedWarning>
   <AreYouSure>你確定要這麼做嗎?</AreYouSure>
@@ -82,5 +83,10 @@
   <CommandPodEject>彈出休眠者</CommandPodEject>
   <CommandPodEjectDesc>喚醒低溫休眠者並將他們彈出。</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>內部無人。</CommandPodEjectFailEmpty>
+
+  <!-- Door -->
+  <CommandToggleDoorLock>切換門鎖</CommandToggleDoorLock>
+  <CommandToggleDoorLockDesc>鎖上或解鎖此門。鎖上的門將不會對任何人開啟。</CommandToggleDoorLockDesc>
+  
   
 </LanguageData>

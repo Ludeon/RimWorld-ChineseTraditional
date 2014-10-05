@@ -24,6 +24,7 @@
 
 	<ForbiddenLower>禁止的</ForbiddenLower>
 	<SociallyImproperLower>社交不當</SociallyImproperLower>
+  <PrisonerRoomLower>囚犯房</PrisonerRoomLower>
 	<BurningLower>燃燒中</BurningLower>
 	<NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
 	<AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
@@ -48,8 +49,10 @@
   <ReservedBy>預留給了{0}。</ReservedBy>
   <IsReservedBy>{0}被預留给了{1}。</IsReservedBy>
 
+  <NoManipulationSkill>沒有技能</NoManipulationSkill>
 
   <Equip>裝備{0}</Equip>
+  <EquipWarningBrawler>(格鬥家將會不悅)</EquipWarningBrawler>
   <CannotEquip>無法裝備{0}</CannotEquip>
 
   <Wear>穿上{0}</Wear>
@@ -61,7 +64,7 @@
   <Deposit>將{0}放置到{1}</Deposit>
   <CannotDeposit>無法將{0}放置到{1}</CannotDeposit>
 
-  <Drop>丢下{0}</Drop>
+  <Drop>卸下{0}</Drop>
   
   <UseMedicalBed>休養直到痊癒</UseMedicalBed>
   <NotInjured>沒有受傷</NotInjured>

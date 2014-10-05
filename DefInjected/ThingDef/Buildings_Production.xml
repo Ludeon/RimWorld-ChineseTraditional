@@ -3,7 +3,8 @@
 		
         <NutrientPasteDispenser.label>營養膏分配機</NutrientPasteDispenser.label>
         <NutrientPasteDispenser.description>將有機材料合成為營養膏。</NutrientPasteDispenser.description>
-        <Hopper.label>儲料器</Hopper.label>
+		
+        <Hopper.label>儲料槽</Hopper.label>
         <Hopper.description>為營養膏分配機這樣的大型機器儲存原料。</Hopper.description>
 		
 		<!-- ========================= Work tables ==========================-->
@@ -11,27 +12,34 @@
 		<!--
 		<TableSawmillHand.label>手工鋸木機</TableSawmillHand.label>
 		<TableSawmillHand.description>一個用來把原木切成木板的鋸木装置，動力來源於肌肉。</TableSawmillHand.description>
+		
 		<TableSawmillElectric.label>電動鋸木機</TableSawmillElectric.label>
 		<TableSawmillElectric.description>一個用來把原木切成木板的電動鋸木装置。</TableSawmillElectric.description>
 		-->
 		
 		<TableButcher.label>屠宰桌</TableButcher.label>
-		<TableButcher.description>一個用來將死掉的動物屠宰成肉塊的重型桌子。</TableButcher.description>
+		<TableButcher.description>一個用來將死亡的動物屠宰成肉塊的重型桌子。</TableButcher.description>
+	
+		<TableTailor.label>裁縫桌</TableTailor.label>
+		<TableTailor.description>帶有縫紉機的一張裁縫桌。</TableTailor.description>
+		
 		<TableMachining.label>機械加工桌</TableMachining.label>
-		<TableMachining.description>帶有組裝或拆解機器的一组工具和一張桌子。</TableMachining.description>
+		<TableMachining.description>一套專門在組裝或拆解機械用的桌子與工具。</TableMachining.description>
+		
 		<CookStove.label>爐灶</CookStove.label>
 		<CookStove.description>一個配有流理台的簡單爐灶，用於烹調一些簡單的料理。</CookStove.description>
+		
 		<TableStonecutter.label>岩石加工桌</TableStonecutter.label>
 		<TableStonecutter.description>一個裝有切割設備的機床。用於把粗糙的石塊加工成石材。</TableStonecutter.description>
-		<ElectricSmelter.label>金属提煉器</ElectricSmelter.label>
-		<SlagRefinery.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</SlagRefinery.description>
+		
+		<ElectricSmelter.label>金屬提煉器</ElectricSmelter.label>
+		<ElectricSmelter.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</ElectricSmelter.description>
+		
 		<Crematorium.label>火化爐</Crematorium.label>
 		<Crematorium.description>用來火化遺體。</Crematorium.description>
 		
 		<!-- ========== Hydroponics ==============-->
 		<HydroponicsBasin.label>水培植物盆</HydroponicsBasin.label>
 		<HydroponicsBasin.description>用來種植作物，水培植物盆能讓植物快速生長。</HydroponicsBasin.description>
-		<SunLamp.label>太陽燈</SunLamp.label>
-		<SunLamp.description>照亮一片地區，亮到足夠讓植物生長。</SunLamp.description>
 		
 </LanguageData>

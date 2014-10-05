@@ -1,40 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+	<!--=============== Pure stuffs: Basics ====================-->
+
+	<Silver.label>銀幣</Silver.label>
+	<Silver.description>本身的用處不大，這種金屬主要用作通用貨幣。</Silver.description>
+	
+	<Gold.label>黃金</Gold.label>
+	<Gold.description>最吸引人的一種金屬。數不清的人死於對黃金無止境的欲望。這種柔軟的金屬本身的用處不大，但非常漂亮，非常罕見。</Gold.description>
+	
+	<Metal.label>金屬</Metal.label>
+	<Metal.description>用來建造建築與設備。</Metal.description>
+	
+	<Plasteel.label>塑鋼</Plasteel.label>
+	<Plasteel.description>高科技的航太建築材料，由於其獨特的分子結構，塑鋼擁有極高的堅韌度。</Plasteel.description>
+	
+	<StoneBlocks.label>石材</StoneBlocks.label>
+	<StoneBlocks.description>一塊方正的石塊，用來建造堅固、耐用而單純的建築。</StoneBlocks.description>
+	<StoneBlocks.stuffProps.nameAsStuff>石</StoneBlocks.stuffProps.nameAsStuff>
+	
+	<WoodLog.label>木頭</WoodLog.label>
+	<WoodLog.description>從樹木或是其他木本植物採伐得來。用來建造建築、武器，甚至簡單的義肢。木材的原料，可在緊要關頭作為武器使用。</WoodLog.description>
+	
+	<Uranium.label>鈾</Uranium.label>
+	<Uranium.description>替反應堆供應能源。</Uranium.description>
+	
+	<!--
+	<WoodPlank.label>木板</WoodPlank.label>
+	<WoodPlank.description>用來建造建築。</WoodPlank.description>
+	-->
+	
+	<!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
+	
+	<Cloth.label>棉布</Cloth.label>
+	<Cloth.description>以有機纖維編織而成的布料。</Cloth.description>
+	
+	<Synthread.label>合成纖維</Synthread.label>
+	<Synthread.description>以太空科技合成纖維材料製成的衣物，輕盈、柔軟、耐用，而且絕緣良好。</Synthread.description>
+	
+	<DevilstrandCloth.label>魔鬼布料</DevilstrandCloth.label>
+    <DevilstrandCloth.description>終極強韌的布料，提取自魔鬼菇。</DevilstrandCloth.description>
+	
+	<Hyperweave.label>超級布料</Hyperweave.label>
+	<Hyperweave.description>以高科技奈米纖維織成，有點厚重，但令人難以置信的難以破壞。</Hyperweave.description>
+	
 		
-		<!--=============== Currency ====================-->
-        <Silver.label>銀幣</Silver.label>
-		<Silver.description>本身的用處不大，這種金屬主要用作通用貨幣。</Silver.description>
+	<!--=============== Raw foods ====================-->
+	<RawPotatoes.label>馬鈴薯</RawPotatoes.label>
+	<RawPotatoes.description>生馬鈴薯。</RawPotatoes.description>
 		
-		<!--=============== Construction ====================-->
-        <Metal.label>金屬</Metal.label>
-		<Metal.description>用來建造建築。</Metal.description>
-        <StoneBlocks.label>石塊</StoneBlocks.label>
-		<StoneBlocks.description>用來建造建築。</StoneBlocks.description>
-		<WoodLog.label>木頭</WoodLog.label>
+	<RawBerries.label>莓果</RawBerries.label>
+	<RawBerries.description>各種各樣的莓果，就算生吃味道也很好。</RawBerries.description>
 		
-		<!--
-		<WoodLog.label>原木</WoodLog.label>
-		<WoodLog.description>用來建造建築，可以加工成木板。</WoodLog.description>
-		<WoodPlank.label>木板</WoodPlank.label>
-		<WoodPlank.description>用來建造建築。</WoodPlank.description>
-		-->
-		
-		<!--=============== Raw foods ====================-->
-        <RawPotatoes.label>馬鈴薯</RawPotatoes.label>
-		<RawPotatoes.description>生馬鈴薯。</RawPotatoes.description>
-        <RawBerries.label>莓果</RawBerries.label>
-		<RawBerries.description>各種各樣的莓果，就算生吃味道也很好。</RawBerries.description>
-        <RawAgave.label>龍舌蘭</RawAgave.label>
-		<RawAgave.description>生龍舌蘭果實。</RawAgave.description>
+	<RawAgave.label>龍舌蘭</RawAgave.label>
+	<RawAgave.description>生龍舌蘭果實。</RawAgave.description>
 		
 		<!--=============== Unused resources ====================-->
-		<Uranium.label>鈾</Uranium.label>
-		<Uranium.description>替反應堆供應能源。</Uranium.description>
 		<Medicine.label>藥品</Medicine.label>
 		<Medicine.description>醫療人員用藥品來治療傷患。</Medicine.description>
+		
 		<Shells.label>炮彈</Shells.label>
 		<Shells.description>用火炮射出。</Shells.description>
-		<Missiles.label>導彈</Missiles.label>
-		<Missiles.description>用導彈發射器發射。</Missiles.description>
  
 </LanguageData>

@@ -54,8 +54,9 @@
   <!--=========== Storyteller chooser ==========-->
   <ChooseAIStoryteller>選擇AI故事敘述者</ChooseAIStoryteller>
   <HowStorytellersWork>AI故事敘述者會製造海賊掠奪、資源墜落或動物襲擊這樣的事件。他們的選擇將會影響你的殖民地的故事。</HowStorytellersWork>
-  <ChallengeScaleTip>當故事敘述者送交襲擊事件給你時，其規模將是挑戰難度的{0}倍。</ChallengeScaleTip>
   <MustChooseChallengeScale>請選擇遊戲難度。</MustChooseChallengeScale>
+  <ChallengeScale>遊戲難度</ChallengeScale>
+  <ChallengeScaleTip>當故事敘述者送交襲擊事件給你時，其規模將是挑戰難度的{0}倍。</ChallengeScaleTip>
   <ChallengeScale_BuilderMode>建造者模式</ChallengeScale_BuilderMode>
   <ChallengeScale_Casual>一般</ChallengeScale_Casual>
   <ChallengeScale_Rough>較難</ChallengeScale_Rough>
@@ -86,12 +87,19 @@
   <WorldRenderModeRainfall>降雨量</WorldRenderModeRainfall>
   <WorldRenderModeBiomes>生態系統</WorldRenderModeBiomes>
   <BiomeNotImplemented>此生態系統尚未實裝。</BiomeNotImplemented>
+  <BaseAlreadyThere>{0} already have a base there.</BaseAlreadyThere>
   <Biome>生態系統</Biome>
   <Terrain>地形</Terrain>
   <Elevation>海拔</Elevation>
   <Fertility>濕度</Fertility>
   <AvgTemp>平均溫度</AvgTemp>
   <Rainfall>降雨量</Rainfall>
+  <HasCoast0>北岸</HasCoast0>
+  <HasCoast1>東岸</HasCoast1>
+  <HasCoast2>南岸</HasCoast2>
+  <HasCoast3>西岸</HasCoast3>
+  <FactionBase>派系根據地</FactionBase>
+  
   
   <!--=========== Character chooser ==========-->
   <CreateCharacters>創造角色</CreateCharacters>
@@ -104,12 +112,14 @@
   <IncapableOf>無法執行的工作</IncapableOf>
   <Traits>特性</Traits>
   <TraitsDoNothing>特性在遊戲現階段除了增加遊戲的故事性以外沒有特別的作用。特性的效果會在未來的版本中加入。</TraitsDoNothing>
+  <PermanentMoodEffect>永久心情效果</PermanentMoodEffect>
   <Skills>技能</Skills>
   <NoneLower>無</NoneLower>
   <Adulthood>成年</Adulthood>
   <Childhood>童年</Childhood>
   <Male>男性</Male>
   <Female>女性</Female>
+  <Pain>傷痛</Pain>
   
   
   <!--=========== Misc ==========-->
@@ -124,6 +134,7 @@
   
   <EveryoneNeedsValidName>每個角色都需要一個有效的名字。</EveryoneNeedsValidName>
 
-  <GeneratingMap>生成世界中...</GeneratingMap>
+  <GeneratingWorld>生成世界中...</GeneratingWorld>
+  <GeneratingMap>生成地圖中...</GeneratingMap>
 
 </LanguageData>

@@ -1,18 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
- 
-        <Muffalo.label>野牛</Muffalo.label>
-		<Muffalo.description>一種大型的草食動物，在不被打擾的情况下是一種和平的動物。</Muffalo.description>
-		<Deer.label>鹿</Deer.label>
-		<Deer.description>一種中型的草食動物。在不被打擾的情况下是一種和平的動物。</Deer.description>
-		<Squirrel.label>松鼠</Squirrel.label>
-		<Squirrel.description>許多遊人類帶到宇宙各個地方的鼠類動物之一。</Squirrel.description>
-		<Boomrat.label>爆炸鼠</Boomrat.label>
-		<Boomrat.description>不知是由蓄意的武器化基因修改還是罕見的自衛機制。這種老鼠一樣的生物在死亡時會產生一場威力驚人的爆炸。</Boomrat.description>
-		<Iguana.label>鬣蜥</Iguana.label>
-		<Iguana.description>這種大蜥蜴一般以植物為食。在憤怒時牠們的尖牙利爪會讓他們成為一種危險的動物。</Iguana.description>
-		<Megascarab.label>巨型金龜子</Megascarab.label>
-		<Megascarab.description>一種基因修改過的金龜子，原本被用以抵御機器人入侵，一般單獨行動。牠的尺寸和硬殼使牠們成為一種非常危險的生物。</Megascarab.description>
+  
 
-               
+	<!-- ============================ Animals ========================== -->
+  
+	<Muffalo.label>野牛</Muffalo.label>
+	<Muffalo.description>一種大型的草食動物，在不被打擾的情况下是一種溫馴的動物。</Muffalo.description>
+	<Muffalo_Leather.label>野牛皮</Muffalo_Leather.label>
+	<Muffalo_Meat.label>野牛肉</Muffalo_Meat.label>
+	
+	<Deer.label>鹿</Deer.label>
+	<Deer.description>一種中型的草食動物。在不被打擾的情况下是一種和平的動物。</Deer.description>
+	<Deer_Leather.label>鹿皮</Deer_Leather.label>
+	<Deer_Meat.label>鹿肉</Deer_Meat.label>
+	
+	<Squirrel.label>松鼠</Squirrel.label>
+	<Squirrel.description>許多由人類帶到宇宙各個地方的鼠類動物之一。</Squirrel.description>
+	<Squirrel_Leather.label>松鼠毛皮</Squirrel_Leather.label>
+	<Squirrel_Meat.label>松鼠肉</Squirrel_Meat.label>
+	
+	<WildBoar.label>野豬</WildBoar.label>
+	<WildBoar.description>雖然被某些文化被視為不潔​​，這種家豬的毛茸茸祖先的價值在於牠野生的味道。</WildBoar.description>
+	<WildBoar_Leather.label>野豬皮</WildBoar_Leather.label>
+	<WildBoar_Meat.label>野豬肉</WildBoar_Meat.label>
+	
+	<Rhinoceros.label>犀牛</Rhinoceros.label>
+	<Rhinoceros.description>這個大型陸上哺乳動物通常很安靜，但牠會毫不猶豫的以其尖角擊退入侵者。</Rhinoceros.description>
+	<Rhinoceros_Leather.label>犀牛皮</Rhinoceros_Leather.label>
+	<Rhinoceros_Meat.label>犀牛肉</Rhinoceros_Meat.label>
+	
+	<Dromedary.label>駱駝</Dromedary.label>
+	<Dromedary.description>能夠生存在極度乾旱的環境，和馬是遠房親戚，可以在沒有水源的情況下行走一個星期。</Dromedary.description>
+	<Dromedary_Leather.label>駱駝皮</Dromedary_Leather.label>
+	<Dromedary_Meat.label>駱駝肉</Dromedary_Meat.label>
+	
+	<Boomrat.label>爆炸鼠</Boomrat.label>
+	<Boomrat.description>不知是由蓄意的武器化基因修改還是罕見的自衛機制。這種老鼠一樣的生物在死亡時會產生一場威力驚人的爆炸。</Boomrat.description>
+	<Boomrat_Leather.label>爆炸鼠毛皮</Boomrat_Leather.label>
+	<Boomrat_Meat.label>爆炸鼠肉</Boomrat_Meat.label>
+	
+	<Iguana.label>鬣蜥</Iguana.label>
+	<Iguana.description>這種大蜥蜴一般以植物為食。在憤怒時牠們的尖牙利爪會讓他們成為一種危險的動物。</Iguana.description>
+	<Iguana_Leather.label>鬣蜥皮</Iguana_Leather.label>
+	<Iguana_Meat.label>鬣蜥肉</Iguana_Meat.label>
+	
+	<Megascarab.label>巨型金龜子</Megascarab.label>
+	<Megascarab.description>一種基因修改過的金龜子，原本被用以抵御機器人入侵，一般單獨行動。牠的尺寸和硬殼使牠們成為一種非常危險的生物。</Megascarab.description>
+	<!--<Megascarab_Leather.label>巨型金龜子殼?</Megascarab_Leather.label>-->
+	<Megascarab_Meat.label>巨型金龜子肉</Megascarab_Meat.label>
+	
+	<Tortoise.label>烏龜</Tortoise.label>
+	<Tortoise.description>這個背負著沉重甲殼的陸生爬行動物以緩慢的移動速度和令人訝異的凶狠一種巨型咬著名。</Tortoise.description>
+	<Tortoise_Leather.label>烏龜皮</Tortoise_Leather.label>
+	<Tortoise_Meat.label>烏龜肉</Tortoise_Meat.label>
+	
+	<Cobra.label>眼鏡蛇</Cobra.label>
+	<Cobra.description>一種巨型蛇類。眼鏡蛇可能具有攻擊性，如果可以，盡量離牠遠一些。</Cobra.description>
+	<Cobra_Leather.label>眼鏡蛇皮</Cobra_Leather.label>
+	<Cobra_Meat.label>眼鏡蛇肉</Cobra_Meat.label>
+	
+	<Monkey.label>猴子</Monkey.label>
+	<Monkey.description>猴子可以使用牠捲曲的尾巴抓住樹枝，並空出雙手做其他事。</Monkey.description>
+	<Monkey_Leather.label>猴子毛皮</Monkey_Leather.label>
+	<Monkey_Meat.label>猴子肉</Monkey_Meat.label>
+	
 </LanguageData>
