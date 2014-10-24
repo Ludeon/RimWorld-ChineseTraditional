@@ -6,22 +6,22 @@
 	
 	<ShutDown.label>停機</ShutDown.label>
 	
-	<WoundInfection.label>傷口感染</WoundInfection.label>
+	<WoundInfection.label>Infizierte Wunde</WoundInfection.label>
 	<rep>
 		<path>WoundInfection.disease.severityStages[0].label</path>
-		<trans>極輕度</trans>
-	</rep>
-	<rep>
-		<path>WoundInfection.disease.severityStages[1].label</path>
 		<trans>輕度</trans>
 	</rep>
 	<rep>
-		<path>WoundInfection.disease.severityStages[2].label</path>
+		<path>WoundInfection.disease.severityStages[1].label</path>
 		<trans>中度</trans>
 	</rep>
 	<rep>
-		<path>WoundInfection.disease.severityStages[3].label</path>
+		<path>WoundInfection.disease.severityStages[2].label</path>
 		<trans>重度</trans>
+	</rep>
+	<rep>
+		<path>WoundInfection.disease.severityStages[3].label</path>
+		<trans>極重度</trans>
 	</rep>
 	<rep>
 		<path>WoundInfection.disease.severityStages[4].label</path>
@@ -39,7 +39,7 @@
 	<Flu.label>流感</Flu.label>
 	<rep>
 		<path>Flu.disease.severityStages[0].label</path>
-		<trans>極輕度</trans>
+		<trans>輕度</trans>
 	</rep>
 	<rep>
 		<path>Flu.disease.severityStages[1].label</path>
@@ -61,7 +61,7 @@
 	<Plague.label>瘟疫</Plague.label>
 	<rep>
 		<path>Plague.disease.severityStages[0].label</path>
-		<trans>極輕度</trans>
+		<trans>輕度</trans>
 	</rep>
 	<rep>
 		<path>Plague.disease.severityStages[1].label</path>
@@ -77,17 +77,17 @@
 	</rep>
 	<rep>
 		<path>Plague.disease.severityStages[4].label</path>
-		<trans>極重度</trans>
+		<trans>重度</trans>
 	</rep>
 	<rep>
 		<path>Plague.disease.severityStages[5].label</path>
-		<trans>極度</trans>
+		<trans>極重度</trans>
 	</rep>
 	
 	<Malaria.label>瘧疾</Malaria.label>
 	<rep>
 		<path>Malaria.disease.severityStages[0].label</path>
-		<trans>極輕度</trans>
+		<trans>輕度</trans>
 	</rep>
 	<rep>
 		<path>Malaria.disease.severityStages[1].label</path>
@@ -109,7 +109,7 @@
 	<SleepingSickness.label>昏睡病</SleepingSickness.label>
 	<rep>
 		<path>SleepingSickness.disease.severityStages[0].label</path>
-		<trans>輕微</trans>
+		<trans>輕度</trans>
 	</rep>
 	<rep>
 		<path>SleepingSickness.disease.severityStages[1].label</path>
@@ -117,7 +117,7 @@
 	</rep>
 	<rep>
 		<path>SleepingSickness.disease.severityStages[2].label</path>
-		<trans>極輕度</trans>
+		<trans>輕度</trans>
 	</rep>
 	<rep>
 		<path>SleepingSickness.disease.severityStages[3].label</path>
@@ -133,7 +133,7 @@
 	</rep>
 	<rep>
 		<path>SleepingSickness.disease.severityStages[6].label</path>
-		<trans>極度</trans>
+		<trans>極重度</trans>
 	</rep>
 	
 	
