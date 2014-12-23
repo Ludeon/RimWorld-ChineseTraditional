@@ -55,6 +55,9 @@
   <NeedColonistBeds>需要殖民者床</NeedColonistBeds>
   <NeedColonistBedsDesc>你的殖民者人數比你擁有的床多，有人將會沒有地方睡覺。\n\n建造更多床，或者將一些囚犯床更改成殖民者床。</NeedColonistBedsDesc>
 
+  <HunterLacksWeapon>獵人需要裝備武器</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>有殖民者被指派為獵人卻沒有武器，在沒有武器的情況下他們將不會進行打獵工作。\n\n為了避免受傷，我們建議替獵人裝備遠距離武器。</HunterLacksWeaponDesc>
+  
   <Starvation>飢餓</Starvation>
   <StarvationDesc>這些殖民者快餓死了：\n\n{0}\n給他們弄點食物。你需要一個食物的來源，比如一個營養膏分配機配上足夠的食物供給。另外，確保他們不在被徵召的狀態。</StarvationDesc>
 
@@ -101,6 +104,9 @@
   
   <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>以下殖民者需要接受治療。如果沒有被治療，他們可能因這些傷口而死，或沒治癒的傷口進而變成永久性的創傷。\n\n{0}\n將他們送到一個醫療床或病床上以接受治療。\n\n(首先將一張床設為病床，接著選擇受傷的殖民者並右擊病床來將他們設為患者。)</ColonistNeedsTreatmentDesc>
+  
+  <AlertHypothermia>體溫過低</AlertHypothermia>
+  <AlertHypothermiaDesc>下列殖民者的體溫過低：\n\n{0}\n確保他們的服裝足夠保暖，並且提供溫暖的室內空間。</AlertHypothermiaDesc>
   
   <ColonistsAwaitingMedicalOperation>{0}位殖民者正等待接受手術</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>這位殖民者正等待接受手術:\n\n{0}\n確保你擁有必需的醫療器材與充足的醫療人員。</ColonistsAwaitingMedicalOperationDesc>

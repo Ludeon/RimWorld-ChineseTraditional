@@ -13,6 +13,8 @@
 		
 		<MessageFightersFleeing>{1}的成員正在逃跑。</MessageFightersFleeing>
 		<MessageFriendlyFightersLeaving>來自{1}的友好{0}離開了。</MessageFriendlyFightersLeaving>
+
+		<MessageSeasonBegun>{0}到來了。</MessageSeasonBegun>
 		
 
 		
@@ -34,15 +36,19 @@
 		
 		<MessageTraderCannotAfford>商人無法支付這筆交易。</MessageTraderCannotAfford>
 		<MessageColonyCannotAfford>殖民地無法支付這筆交易。</MessageColonyCannotAfford>
-		<MessageColonyNotEnoughSilver>可用於交易的銀幣不足。</MessageColonyNotEnoughSilver>
-		<MessageTraderNotEnoughSilver>商人没有足夠的銀幣。</MessageTraderNotEnoughSilver>
+		<MessageColonyNotEnoughSilver>可用於交易的銀石不足。</MessageColonyNotEnoughSilver>
+		<MessageTraderNotEnoughSilver>商人没有足夠的銀石。</MessageTraderNotEnoughSilver>
 		
-		<MessageCriticalAlert>嚴重警報: {0}</MessageCriticalAlert>
+		<MessageCriticalAlert>嚴重警報：{0}</MessageCriticalAlert>
 		
 		<MessageMustDesignateHarvestable>必須指定已長成可收穫的植物。</MessageMustDesignateHarvestable>
 		<MessageMustDesignateHarvestableWood>必須指定已長成可收穫木頭的樹木。</MessageMustDesignateHarvestableWood>
 		<MessageMustDesignatePlants>必須指定植物。</MessageMustDesignatePlants>
 		<MessageMustDesignateHaulable>必須指定可以搬運的物品。</MessageMustDesignateHaulable>
+  <MessageMustDesignateMineable>必須指定可開採的岩石。</MessageMustDesignateMineable>
+  <MessageMustDesignateHuntable>必須指定可狩獵的動物。</MessageMustDesignateHuntable>
+  <MessageMustDesignateClaimable>必須指定無主的人造建築。</MessageMustDesignateClaimable>
+  <MessageMustDesignateSmoothableFloor>必須指定可打磨的崎嶇岩石地面。</MessageMustDesignateSmoothableFloor>
   
 		<MessageNoMedicalBeds>沒有可用的醫療床。</MessageNoMedicalBeds>
   

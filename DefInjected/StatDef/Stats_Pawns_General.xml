@@ -13,4 +13,13 @@
 	<GlobalLearningFactor.label>學習效率</GlobalLearningFactor.label>
 	<GlobalLearningFactor.description>角色對於學習所有技能的效率倍率。</GlobalLearningFactor.description>
 	
+	<EatingSpeed.label>進食速度</EatingSpeed.label>
+	<EatingSpeed.description>角色的進食速度。</EatingSpeed.description>
+	
+	<ComfyTemperatureMin.label>可忍受的最低溫度</ComfyTemperatureMin.label>
+	<ComfyTemperatureMin.description>當溫度低於此標準，角色的心情值將會降低。若氣溫遠低於此標準，會導致角色體溫過低、凍傷，甚至死亡。</ComfyTemperatureMin.description>
+	
+	<ComfyTemperatureMax.label>可忍受的最高溫度</ComfyTemperatureMax.label>
+	<ComfyTemperatureMax.description>當溫度高於此標準，角色的心情值將會降低。若氣溫遠高於此標準，會導致角色中暑甚至死亡。</ComfyTemperatureMax.description>
+	
 </LanguageData>

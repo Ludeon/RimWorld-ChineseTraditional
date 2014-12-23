@@ -1,9 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+	<FertilizerPump.label>肥料泵</FertilizerPump.label>
+	<FertilizerPump.description>允許你建造肥料泵，可以用來在任何地方製造可供種植的土地。</FertilizerPump.description>
+	<FertilizerPump.descriptionDiscovered>你現在可以建造肥料泵了！</FertilizerPump.descriptionDiscovered>
+
+	<GeothermalPower.label>地熱發電</GeothermalPower.label>
+	<GeothermalPower.description>允許你在蒸氣間歇泉上建造地熱發電機，一種源源不絕的電力來源。</GeothermalPower.description>
+	<GeothermalPower.descriptionDiscovered>你現在可以建造地熱發電機了！</GeothermalPower.descriptionDiscovered>
        
 	<Hydroponics.label>水培技術</Hydroponics.label>
 	<Hydroponics.description>允許建造水培設施以在室內進行快速種植。</Hydroponics.description>
-	<Hydroponics.descriptionDiscovered>你現在可以建造水培植物盆了!</Hydroponics.descriptionDiscovered>
+	<Hydroponics.descriptionDiscovered>你現在可以建造水培植物盆了！</Hydroponics.descriptionDiscovered>
        
 	<PneumaticPicks.label>高壓氣稿</PneumaticPicks.label>
 	<PneumaticPicks.description>礦工的稿子效率提高20%。</PneumaticPicks.description>
@@ -11,15 +19,15 @@
        
 	<Stonecutting.label>石材加工</Stonecutting.label>
 	<Stonecutting.description>允許建造石材加工桌，可以用來將沒用的石頭加工成有用的石材並可用於建築。</Stonecutting.description>
-	<Stonecutting.descriptionDiscovered>你現在可以建造石材加工桌了!</Stonecutting.descriptionDiscovered>
+	<Stonecutting.descriptionDiscovered>你現在可以建造石材加工桌了！</Stonecutting.descriptionDiscovered>
 	
 	<ElectricSmelting.label>金屬提煉</ElectricSmelting.label>
 	<ElectricSmelting.description>允許建造金屬提煉器。金屬提煉器可以透過高溫和電磁鐵將金屬碎片中有用的金屬提煉出來。</ElectricSmelting.description>
-	<ElectricSmelting.descriptionDiscovered>你現在可以建造金屬提煉器了!</ElectricSmelting.descriptionDiscovered>
+	<ElectricSmelting.descriptionDiscovered>你現在可以建造金屬提煉器了！</ElectricSmelting.descriptionDiscovered>
 	
 	<Machining.label>機械拆解</Machining.label>
 	<Machining.description>允許建造能將損壞的機器人拆解為有用金屬的設備。</Machining.description>
-	<Machining.descriptionDiscovered>你現在可以建造機械加工桌了!</Machining.descriptionDiscovered>
+	<Machining.descriptionDiscovered>你現在可以建造機械加工桌了！</Machining.descriptionDiscovered>
 	
 	<NutrientResynthesis.label>營養再合成</NutrientResynthesis.label>
 	<NutrientResynthesis.description>營養膏飲用機的食物製造消耗降低10%。</NutrientResynthesis.description>
@@ -31,32 +39,38 @@
 	
 	<Mortars.label>迫擊砲</Mortars.label>
 	<Mortars.description>允許建造能夠將炮彈拋過牆壁的重炮。</Mortars.description>
-	<Mortars.descriptionDiscovered>你現在可以建造迫擊砲和燃燒迫擊砲了!</Mortars.descriptionDiscovered>
+	<Mortars.descriptionDiscovered>你現在可以建造迫擊砲和燃燒迫擊砲了！</Mortars.descriptionDiscovered>
 	
 	<Cremation.label>火化爐</Cremation.label>
 	<Cremation.description>允許建造能將遺體與衣物徹底燒毀的火化爐。</Cremation.description>
-	<Cremation.descriptionDiscovered>你現在可以建造火化爐了!</Cremation.descriptionDiscovered>
+	<Cremation.descriptionDiscovered>你現在可以建造火化爐了！</Cremation.descriptionDiscovered>
 	
 	<CarpetMaking.label>地毯製作</CarpetMaking.label>
 	<CarpetMaking.description>允許殖民者製作地毯来改善環境。</CarpetMaking.description>
-	<CarpetMaking.descriptionDiscovered>你現在可以製作地毯了!</CarpetMaking.descriptionDiscovered>
-	
-	<Tailoring.label>裁縫</Tailoring.label>
-	<Tailoring.description>允許建造裁縫桌。可以使用布、皮毛或其他素材製作新衣服。</Tailoring.description>
-	<Tailoring.descriptionDiscovered>你現在可以建造裁縫桌了!</Tailoring.descriptionDiscovered>
+	<CarpetMaking.descriptionDiscovered>你現在可以製作地毯了！</CarpetMaking.descriptionDiscovered>
 	
 	<ColoredLights.label>彩色燈</ColoredLights.label>
 	<ColoredLights.description>允許殖民者製作裝飾性的彩色燈。</ColoredLights.description>
-	<ColoredLights.descriptionDiscovered>你現在可以建造彩色燈了!</ColoredLights.descriptionDiscovered>
+	<ColoredLights.descriptionDiscovered>你現在可以建造彩色燈了！</ColoredLights.descriptionDiscovered>
 	
 	<HospitalBed.label>醫療床</HospitalBed.label>
 	<HospitalBed.description>允許殖民者建造醫療床，在醫療床上可增加醫療工作成功的機率。</HospitalBed.description>
-	<HospitalBed.descriptionDiscovered>你現在可以建造醫療床了!</HospitalBed.descriptionDiscovered>
+	<HospitalBed.descriptionDiscovered>你現在可以建造醫療床了！</HospitalBed.descriptionDiscovered>
 	
-	<!-->
+	<Cryptosleep.label>冷凍休眠</Cryptosleep.label>
+	<Cryptosleep.description>允許殖民者們建造冷凍休眠艙，可讓其中的生物進入冷凍休眠狀態。</Cryptosleep.description>
+	<Cryptosleep.descriptionDiscovered>你現在可以建造冷凍休眠艙了！</Cryptosleep.descriptionDiscovered>
+	
+	<!--
+	
+	<Tailoring.label>裁縫</Tailoring.label>
+	<Tailoring.description>允許建造裁縫桌。可以使用布、皮毛或其他素材製作新衣服。</Tailoring.description>
+	<Tailoring.descriptionDiscovered>你現在可以建造裁縫桌了！</Tailoring.descriptionDiscovered>
+	
 	<FearTech1.label>恐懼科技</FearTech1.label>
 	<FearTech1.description>研究各種使人感到恐懼的方法。</FearTech1.description>
 	<FearTech1.descriptionDiscovered>你可以建造絞刑架來展示死者的屍體。這會讓看到的人感到強烈的恐慌和噁心。這是一個原始、粗糙但是非常強大的裝置。</FearTech1.descriptionDiscovered>
-	<-->
+	
+	-->
        
 </LanguageData>

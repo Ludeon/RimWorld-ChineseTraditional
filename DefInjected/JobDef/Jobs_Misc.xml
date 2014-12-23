@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
-	<!--========= General ============-->
 	<Goto.reportString>走動中。</Goto.reportString>
+	
+	<SeekSafeTemperature.reportString>尋找安全的溫度。</SeekSafeTemperature.reportString>
 	
 	<Wait.reportString>站著。</Wait.reportString>
 	
@@ -15,6 +16,7 @@
 	<Equip.reportString>正在裝備TargetA。</Equip.reportString>
 	
 	<!--============= Misc ============-->
+	
 	<Wear.reportString>正在穿上TargetA。</Wear.reportString>
 	
 	<Strip.reportString>正在脱下TargetA。</Strip.reportString>
@@ -23,11 +25,16 @@
 	
 	<ManThing.reportString>正在操作機器。</ManThing.reportString>
 	
-	<EnterCryptosleepPod.reportString>正在進入休眠艙。</EnterCryptosleepPod.reportString>
+	<EnterCryptosleepCasket.reportString>正在進入冷凍休眠艙。</EnterCryptosleepCasket.reportString>
+	
+	<OpenCryptosleepCasket.reportString>正在開啟冷凍休眠艙。</OpenCryptosleepCasket.reportString>
 	
 	<UseNeurotrainer.reportString>正在使用神經技能訓練器。</UseNeurotrainer.reportString>
 	
+	<ClearSnow.reportString>正在剷除積雪。</ClearSnow.reportString>
+	
 	<!--============ Fire ============-->
+	
 	<Ignite.reportString>正在引燃TargetA。</Ignite.reportString>
 	
 	<BeatFire.reportString>正在撲滅火焰。</BeatFire.reportString>
@@ -35,21 +42,28 @@
 	<ExtinguishSelf.reportString>正在撲滅身上的火。</ExtinguishSelf.reportString>
 	
 	<!--============ Need satisfaction ============-->
+	
 	<EatFood.reportString>正在食用TargetA。</EatFood.reportString>
 	
 	<LayDown.reportString>睡眠中。</LayDown.reportString>
 	
 	<!--============= Item hauling ===============-->
+	
 	<HaulToCell.reportString>正將TargetA搬走。</HaulToCell.reportString>
 	
 	<HaulToContainer.reportString>正在搬運TargetA。</HaulToContainer.reportString>
 	
 	<!--============= Pawn hauling ===============-->
+	
 	<Rescue.reportString>正在援救TargetA。</Rescue.reportString>
+	
+	<CarryToCryptosleepCasket.reportString>正在將TargetA帶往冷凍休眠艙。</CarryToCryptosleepCasket.reportString>
 	
 	<Capture.reportString>正在俘虜TargetA。</Capture.reportString>
 	
 	<Arrest.reportString>正在逮捕TargetA。</Arrest.reportString>
+	
+	<ReleasePrisoner.reportString>正在釋放TargetA。</ReleasePrisoner.reportString>
 	
 	<EscortPrisonerToBed.reportString>正在押送犯人TargetA。</EscortPrisonerToBed.reportString>
 	
@@ -80,6 +94,8 @@
 	
 	<Mine.reportString>正在開採TargetA。</Mine.reportString>
 	
+	<SmoothFloor.reportString>正在磨光地面。</SmoothFloor.reportString>
+	
 	<Repair.reportString>正在修理TargetA。</Repair.reportString>
 	
 	<FinishFrame.reportString>正在建造TargetA。</FinishFrame.reportString>
@@ -93,10 +109,6 @@
 	<Deconstruct.reportString>正在拆除TargetA。</Deconstruct.reportString>
 	
 	<PrisonerFriendlyChat.reportString>正和囚犯TargetA聊天。</PrisonerFriendlyChat.reportString>
-	
-	<PrisonerBeatingMild.reportString>正在毆打囚犯TargetA。</PrisonerBeatingMild.reportString>
-	
-	<PrisonerBeatingVicious.reportString>正在殘酷毆打囚犯TargetA。</PrisonerBeatingVicious.reportString>
 	
 	<PrisonerExecution.reportString>準備處死TargetA。</PrisonerExecution.reportString>
 	

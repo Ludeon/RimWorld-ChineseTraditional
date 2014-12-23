@@ -14,7 +14,6 @@
   <DeadTime>死亡的{0}</DeadTime>
   <WalkSpeed>行走速度{0}</WalkSpeed>
   <DyingLower>瀕死</DyingLower>
-  <PawnEffectiveness>效率</PawnEffectiveness>
   <FilthOnFeet>腳上的污物:</FilthOnFeet>
   <NotEnoughStoredLower>儲量不足</NotEnoughStoredLower>
   <NothingLower>無</NothingLower>
@@ -27,12 +26,27 @@
   <NextTreatmentAfter>下一次治療將在{0}天後</NextTreatmentAfter>
   <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
   <ImmunityDevelopmentProgress>免疫力形成度</ImmunityDevelopmentProgress>
+  <Race>物種</Race>
+  <Description>描述</Description>
+  <Equipment>裝備</Equipment>
+  <Apparel>服裝</Apparel>
+  <Inventory>物品</Inventory>
+  <ThingInfo>訊息</ThingInfo>
+  <DropThing>丟下</DropThing>
+  <RenameColonist>重新命名殖民者</RenameColonist>
+  <UnknownLower>未知</UnknownLower>
+  
+  <!-- Snow -->
+  <SnowNone>無積雪</SnowNone>
+  <SnowDusting>雪(些微)</SnowDusting>
+  <SnowThin>雪(薄)</SnowThin>
+  <SnowMedium>雪(厚)</SnowMedium>
+  <SnowThick>雪(深)</SnowThick>
 
   <!-- Turrets -->
   <GunInstalled>已安裝</GunInstalled>
   <MinimumRange>最小距離</MinimumRange>
   <CanFireIn>開火時機</CanFireIn>
-  
   
 	<!-- Job reports -->
 	<ReportHaulingTo>把{0}運到{1}。</ReportHaulingTo>
@@ -52,18 +66,16 @@
 	<CoverThingBlocksPercentOfShots>{0}阻止了{1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>無掩體</NoCoverLower>
 	
-	
     <!-- Status levels -->
   <Mood>心情值</Mood>
   <MoodTip>心情是透過滿足心理和生理上的需求來保持的。\n\n如果一個人的心情值太低，他可能會面臨精神崩潰。</MoodTip>
   <Food>食物值</Food>
-  <FoodTip>食物值表示了人們對他们的食物的滿意度。\n\n食物值會在吃飯時重置。一段時間後，食物值會繼續下降直到他們再度進食。食物值為零時，人物會因為飢餓而受到持續傷害。</FoodTip>
+  <FoodTip>食物值表示了人們對他們的食物的滿意度。\n\n食物值會在吃飯時重置。一段時間後，食物值會繼續下降直到他們再度進食。食物值為零時，人物會因為飢餓而受到持續傷害。</FoodTip>
   <Rest>休息值</Rest>
   <RestTip>休息值表示需要放鬆或睡覺的程度。\n\n睡覺時休息值會增加到最大。不在睡覺時休息值會隨時間下降。</RestTip>
   <Environment>環境值</Environment>
-  <EnvironmentTip>環境值反映出人物周圍環境的優美程度。\n\n人們在寬闊並且充滿裝飾的房間內環境質會很高。在周圍環境很醜陋的情況下環境值會很低。</EnvironmentTip>
+  <EnvironmentTip>環境值反映出人物周圍環境的優美程度。\n\n人們在寬闊並且充滿裝飾的房間內環境值會很高。在周圍環境很醜陋的情況下環境值會很低。</EnvironmentTip>
   <Openness>開放性</Openness>
-  
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝時間:{0}</ThoughtExpiresIn>
@@ -71,14 +83,11 @@
   <ThoughtFinishesExpiringIn>消逝结束時間:{0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>精神崩潰臨界值</MentalBreakThreshold>
   
-  
-  
   <!--Effectiveness-->
   <EffectivenessFull>完整的</EffectivenessFull>
   <EffectivenessReduced>降低的</EffectivenessReduced>
   <EffectivenessImpaired>受損的</EffectivenessImpaired>
   <EffectivenessIncapacitated>殘缺的</EffectivenessIncapacitated>
-  
   
   <!-- Pawn info readout -->
   <Health>健康</Health>
@@ -92,107 +101,42 @@
   <Incapacitated>無法動彈</Incapacitated>
   <InRestraints>被關押(行動減慢)</InRestraints>
   <Carrying>攜帶</Carrying>
-  <SanityDazedWander>失常: 迷茫了並正在四處遊蕩</SanityDazedWander>
-  <SanityGiveUpExit>失常: 放棄了並正在離開</SanityGiveUpExit>
-  <SanityPanicFlee>失常: 正在混亂中逃跑</SanityPanicFlee>
-  <SanityPsychotic>失常: 正在瘋狂的大肆破壞</SanityPsychotic>
-  
-  <!-- Body and activities condition -->
-  <None>無</None>
-  <VeryPoor>非常差</VeryPoor>
-  <Poor>較差</Poor>
-  <Weakened>虛弱</Weakened>
-  <GoodCondition>健康</GoodCondition>
-  <Enhanced>強化</Enhanced>
-  <SeriouslyImpaired>極重傷</SeriouslyImpaired>
-  <Impaired>重傷</Impaired>
-  <SlightlyImpaired>輕傷</SlightlyImpaired>
-  <NoPain>無</NoPain>
-  <LittlePain>輕度</LittlePain>
-  <MediumPain>中度</MediumPain>
-  <SeverePain>重度</SeverePain>
-  <ExtremePain>極度</ExtremePain>
+  <SanityDazedWander>失常：迷茫了並正在四處遊蕩</SanityDazedWander>
+  <SanityGiveUpExit>失常：放棄了並正在離開</SanityGiveUpExit>
+  <SanityPanicFlee>失常：正在混亂中逃跑</SanityPanicFlee>
+  <SanityPsychotic>失常：正在瘋狂的大肆破壞</SanityPsychotic>
   
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>選擇同一地點的下一個物件。\n\n快捷鍵: {0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
+  <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
   <DefInfoTip>查看關於這個物件的信息。</DefInfoTip>
-  
-  <!-- ITab titles -->
-  <TabBills>選單</TabBills>
-  <TabGrowing>作物</TabGrowing>
-  <TabCharacter>角色</TabCharacter>
-  <TabNeeds>需求</TabNeeds>
-  <TabPrisoner>囚犯</TabPrisoner>
-  <TabGear>裝備</TabGear>
-  <TabThoughts>心理</TabThoughts>
-  <TabStorage>儲存</TabStorage>
-  <TabHealth>健康</TabHealth>
-  <TabRace>物種</TabRace>
-  <TabBasics>基本訊息</TabBasics>
-  <TabStats>屬性</TabStats>
-  
-  <!-- ITabs -->
-  <AddBill>新增清單</AddBill>
-  <RecipeRequiresSkills>配方{0}需要以下技能。你沒有任何殖民者擁有這些技能，所以無人會完成這份清單。</RecipeRequiresSkills>
-  <BillConfig>設置</BillConfig>
-  <SuspendedCaps>已暫停</SuspendedCaps>
-  <PlantVerb>種植</PlantVerb>
-  <RecruitmentDifficulty>招募難度</RecruitmentDifficulty>
-  <PrisonerGetsFood>供給食物</PrisonerGetsFood>
-  <DoctorsCare>醫療照顧</DoctorsCare>
-  <PrisonerGetsMedicine>供應藥品</PrisonerGetsMedicine>
-  <ShouldTryToRecruit>嘗試招募</ShouldTryToRecruit>
-  <PrisonerNoInteraction>不互動</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>友好交談</PrisonerFriendlyChat>
-  <PrisonerMildBeating>輕微毆打</PrisonerMildBeating>
-  <PrisonerViciousBeating>殘酷毆打</PrisonerViciousBeating>
-  <PrisonerExecution>處決</PrisonerExecution>
-  <Equipment>裝備</Equipment>
-  <Apparel>著裝</Apparel>
-  <Inventory>物品</Inventory>
-  <ThingInfo>訊息</ThingInfo>
-  <DropThing>丟下</DropThing>
-  <TotalModifiers>總效果</TotalModifiers>
-  <DamageAbsorption>傷害吸收</DamageAbsorption>
-  <MoveSpeed>移動速度</MoveSpeed>
-  <Efficiency>效率</Efficiency>
-  <MissingBodyPart>不存在</MissingBodyPart>
-  <DestroyedBodyPart>被摧毀</DestroyedBodyPart>
-  <ShatteredBodyPart>擊碎</ShatteredBodyPart>
-  <Healthy>健康</Healthy>
-  <InPain>感到疼痛</InPain>
-  <PainLevel>痛苦</PainLevel>
-  <Dead>死亡</Dead>
-  <Unconscious>陷入昏迷</Unconscious>
-  <PainShock>暫時休克</PainShock>
-  <Injured>受傷</Injured>
-  <NoInjuries>(沒有受傷)</NoInjuries>
-  <WholeBody>全身</WholeBody>
-  <RenameColonist>重新命名殖民者</RenameColonist>
-  <DataProcessing>數據處理</DataProcessing>
-  <Communication>交流</Communication>
-	<AffectsLower>影響</AffectsLower>
-	<BleedingRate>出血率</BleedingRate>
-	<HealthOverview>概觀</HealthOverview>
-	<MedicalOperationsShort>手術({0})</MedicalOperationsShort>
-	<MedicalOperationsMechanoidsShort>修正({0})</MedicalOperationsMechanoidsShort>
-	<MedicalOperations>手術</MedicalOperations>
-	<Amputate>截肢</Amputate>
-	<Harvest>摘除</Harvest>
   
   <!-- like 'Blood of John' -->
   <OfLower>來自</OfLower>
 
   <!-- Power readout -->
   <PowerNotConnected>未連結電網。</PowerNotConnected>
-  <PowerConnectedRateStored>電網發電量/蓄電量: {0}W/{1}Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>電網發電量/蓄電量：{0}W/{1}Wd</PowerConnectedRateStored>
   <PowerNeeded>電力消耗</PowerNeeded>
   <PowerOutput>電力輸出</PowerOutput>
   <PowerBatteryStored>蓄電</PowerBatteryStored>
   <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
+
+  <!-- Temperature control -->
+  <TargetTemperature>目標溫度</TargetTemperature>
+  <PowerConsumptionMode>目前電力消耗</PowerConsumptionMode>
+  <PowerConsumptionHigh>調高</PowerConsumptionHigh>
+  <PowerConsumptionLow>調低</PowerConsumptionLow>
+  
+  <!-- Temperature readout -->
+  <Indoors>室內氣溫</Indoors>
+  <Outdoors>室外氣溫</Outdoors>
   
 	
 	<!--Rotting-->
+  <CurrentlyFrozen>冷凍狀態(不會腐壞)</CurrentlyFrozen>
+  <CurrentlyRefrigerated>冷藏狀態({0}後腐壞)</CurrentlyRefrigerated>
+  <NotRefrigerated>非冷藏狀態({0}後腐壞)</NotRefrigerated>
+  <OverADecade>超過十年</OverADecade>
 	<RotStateFresh>新鲜</RotStateFresh>
 	<RotStateRotting>腐爛中</RotStateRotting>
 	<RotStateDessicated>乾燥</RotStateDessicated>
@@ -219,9 +163,15 @@
   <NotGrowingNow>不再生長。(需要在{0}的條件下)</NotGrowingNow>
   <NotGrowingNowNight>不再生長。(夜間)</NotGrowingNowNight>
   <FullyGrownIn>{0}後長成</FullyGrownIn>
+  <OutOfIdealTemperatureRange>不適合的環境溫度(以{0}%的速度生長)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>不適合的環境溫度(停止生長)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>待收穫</ReadyToHarvest>
   <Mature>成熟。</Mature>
   <SeedLabel>{0}種子</SeedLabel>
+  <OutdoorGrowingPeriod>植物生長季：{0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>不生長</NoGrowingPeriod>
+  <GrowYearRound>全年</GrowYearRound>
+  <CannotGrowTooCold>氣溫過低，無法生長</CannotGrowTooCold>
   
   <!-- Zones -->
   <Zone>區域</Zone>
@@ -229,10 +179,7 @@
   <Stockpile>儲存區</Stockpile>
   <DumpingStockpile>垃圾儲存區</DumpingStockpile>
   <Priority>優先度</Priority>
-
-  <!-- General time stuff -->
-  <DaysLower>天</DaysLower>
-  <SecondsLower>秒</SecondsLower>
+  <ClearAll>取消全部</ClearAll>
   
   <!-- Mouseover indicator -->
   <Undiscovered>未探索</Undiscovered>
@@ -242,31 +189,33 @@
   <AutoHomeRegionToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeRegionToggleButton>
   <CategorizedResourceReadoutToggleButton>切換資源清單的可見性。</CategorizedResourceReadoutToggleButton>
   
-  
   <!-- Fire -->
   <Fire>火焰</Fire>
   <FireOn>{0}上的火焰</FireOn>
   <Burning>燃燒中</Burning>
-  <FireSizeLower>火焰大小:{0}</FireSizeLower>
-  
+  <FireSizeLower>火焰大小：{0}</FireSizeLower>
   
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>正在干擾區域的特殊情况。</MapConditionsTip>
 
   <!-- Building placement -->
   <NoStuffsToBuildWith>沒有可用的素材以建造此項目。</NoStuffsToBuildWith>
- 
   
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>不能放置在屋頂下。</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>必須與星艦結構柱連接。</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>必須放置在需要儲料器的物件旁。</MustPlaceNextToHopperAccepter>
-  <MustPlaceOnSteamGeyser>必須直接放置在間歇蒸氣泉上。</MustPlaceOnSteamGeyser>
+  <MustPlaceOnSteamGeyser>必須直接放置在蒸氣間歇泉上。</MustPlaceOnSteamGeyser>
+  <MustPlaceCoolerWithFreeSpaces>冷氣機的前後端都必須保持通暢。</MustPlaceCoolerWithFreeSpaces>
   
-  
-  
-  <!-- Cryptosleep pod -->
-  <PodContains>包含</PodContains>
+  <!-- Wind Turbine -->
+  <WindTurbine_WindPathIsBlockedBy>受到以下物件阻擋：</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedByRoof>受到屋頂阻擋</WindTurbine_WindPathIsBlockedByRoof>
+
+  <!-- Cryptosleep casket -->
+  <CasketContains>內容</CasketContains>
+  <CasketUnknownContents>未知</CasketUnknownContents>
+  <CasketWarning>警告！\n\nNAME是你最後一名還能活動的殖民者！如果你讓HIM進入休眠，你可能無法進續進行遊戲。你確定要執行這項指令嗎？</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>無法發射。</ShipReportCannotLaunch>
@@ -277,7 +226,23 @@
   <!-- Neurotrainer -->
   <UseNeurotrainer>用神經技能訓練器學習{0}</UseNeurotrainer>
   <NeurotrainerUsed>{0}使用{1}神經技能訓練器使等級由{2}提升至{3}了。</NeurotrainerUsed>
+  
+  <!-- Minification -->
+  <Installed>已安裝</Installed>
+  <NotInstalled>未安裝</NotInstalled>
 
+  <!-- Art -->
+  <Title>提名</Title>
+  <Untitled>未提名</Untitled>
+  
+  <!-- Unfinished thing -->
+  <UnfinishedItem>{0}半成品</UnfinishedItem>
+  <UnfinishedItemWithStuff>{0}{1}半成品</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <Quality>品質</Quality>
+  <QualityDescription>此道具的生產品質。</QualityDescription>
+  <QualityIs>品質{0}</QualityIs>
   
   <!-- Game over -->
   <GameOverEveryoneDead>所有人不是死亡就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>

@@ -20,6 +20,7 @@
   <Omnivorous>雜食</Omnivorous>
   <Herbivorous>素食</Herbivorous>
   <Carnivorous>肉食</Carnivorous>
+  <Dendrovorous>Dendrovorous</Dendrovorous>
   
   <!-- history upload pref -->
   <Unspecified>未决定</Unspecified>
@@ -32,37 +33,16 @@
   <PriceTypeNormal>一般</PriceTypeNormal>
   <PriceTypeExpensive>有點貴</PriceTypeExpensive>
   <PriceTypeExorbitant>非常貴</PriceTypeExorbitant>
-  
-  <!-- pawn activity -->
-  <Consciousness>意識</Consciousness>
-  <Sight>視野</Sight>
-  <Hearing>聽力</Hearing>
-  <Moving>移動</Moving>
-  <Working>工作</Working>
-  <Talking>交談</Talking>
-  <Eating>食用</Eating>
-  <Breathing>呼吸</Breathing>
-  <BloodFiltration>血液過濾</BloodFiltration>
-  <BloodPumping>血液循環</BloodPumping>
-  <Metabolism>新陳代謝</Metabolism>
-  
-  <!-- pawn stats -->
-  <PawnStat_MoveSpeed>移動速度</PawnStat_MoveSpeed>
-  <PawnStat_PsychicSensitivity>心靈敏感度</PawnStat_PsychicSensitivity>
-  <PawnStat_MentalBreakThreshold>精神崩潰臨界值</PawnStat_MentalBreakThreshold>
-  <PawnStat_WorkSpeed>工作速度</PawnStat_WorkSpeed>
 
-  <!-- stat category -->
-  <StatCategory_General>一般</StatCategory_General>
-  <StatCategory_GeneralNonPawn>一般</StatCategory_GeneralNonPawn>
-  <StatCategory_Armor>盔甲</StatCategory_Armor>
-  <StatCategory_PawnPrimary>主要</StatCategory_PawnPrimary>
-  <StatCategory_PawnWork>工作</StatCategory_PawnWork>
-  <StatCategory_PawnCombat>近戰</StatCategory_PawnCombat>
-  <StatCategory_PawnSocial>社交</StatCategory_PawnSocial>
-  <StatCategory_PawnMisc>其他</StatCategory_PawnMisc>
-  <StatCategory_Building>建設</StatCategory_Building>
-
-
+  <!-- Quality category -->
+  <QualityCategory_Awful>差勁</QualityCategory_Awful>
+  <QualityCategory_Shoddy>不良</QualityCategory_Shoddy>
+  <QualityCategory_Poor>瑕疵</QualityCategory_Poor>
+  <QualityCategory_Normal>普通</QualityCategory_Normal>
+  <QualityCategory_Good>良好</QualityCategory_Good>
+  <QualityCategory_Superior>高級</QualityCategory_Superior>
+  <QualityCategory_Excellent>完美</QualityCategory_Excellent>
+  <QualityCategory_Masterwork>大師</QualityCategory_Masterwork>
+  <QualityCategory_Legendary>傳奇</QualityCategory_Legendary>
   
 </LanguageData>

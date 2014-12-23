@@ -3,27 +3,29 @@
 
 	<!--=============== Pure stuffs: Basics ====================-->
 
-	<Silver.label>銀幣</Silver.label>
+	<Silver.label>銀石</Silver.label>
 	<Silver.description>本身的用處不大，這種金屬主要用作通用貨幣。</Silver.description>
+	<Silver.stuffProps.stuffAdjective>銀製</Silver.stuffProps.stuffAdjective>
 	
 	<Gold.label>黃金</Gold.label>
 	<Gold.description>最吸引人的一種金屬。數不清的人死於對黃金無止境的欲望。這種柔軟的金屬本身的用處不大，但非常漂亮，非常罕見。</Gold.description>
+	<Gold.stuffProps.stuffAdjective>黃金</Gold.stuffProps.stuffAdjective>
 	
-	<Metal.label>金屬</Metal.label>
-	<Metal.description>用來建造建築與設備。</Metal.description>
+	<Steel.label>鋼鐵</Steel.label>
+	<Steel.description>加入碳元素提高堅硬度的鋼鐵合金，可用來生產武器、建造建築與設備。</Steel.description>
+	<Steel.stuffProps.stuffAdjective>鋼鐵</Steel.stuffProps.stuffAdjective>
 	
 	<Plasteel.label>塑鋼</Plasteel.label>
-	<Plasteel.description>高科技的航太建築材料，由於其獨特的分子結構，塑鋼擁有極高的堅韌度。</Plasteel.description>
-	
-	<StoneBlocks.label>石材</StoneBlocks.label>
-	<StoneBlocks.description>一塊方正的石塊，用來建造堅固、耐用而單純的建築。</StoneBlocks.description>
-	<StoneBlocks.stuffProps.nameAsStuff>石</StoneBlocks.stuffProps.nameAsStuff>
+	<Plasteel.description>高科技的航太建築材料，由於其獨特的分子結構，塑鋼擁有極輕的重量與極高的堅韌度。</Plasteel.description>
+	<Plasteel.stuffProps.stuffAdjective>塑鋼</Plasteel.stuffProps.stuffAdjective>
 	
 	<WoodLog.label>木頭</WoodLog.label>
 	<WoodLog.description>從樹木或是其他木本植物採伐得來。用來建造建築、武器，甚至簡單的義肢。木材的原料，可在緊要關頭作為武器使用。</WoodLog.description>
+	<WoodLog.stuffProps.stuffAdjective>木製</WoodLog.stuffProps.stuffAdjective>
 	
 	<Uranium.label>鈾</Uranium.label>
 	<Uranium.description>替反應堆供應能源。</Uranium.description>
+	<Uranium.stuffProps.stuffAdjective>鈾製</Uranium.stuffProps.stuffAdjective>
 	
 	<!--
 	<WoodPlank.label>木板</WoodPlank.label>
@@ -54,12 +56,22 @@
 		
 	<RawAgave.label>龍舌蘭</RawAgave.label>
 	<RawAgave.description>生龍舌蘭果實。</RawAgave.description>
+	
+	
+    <!--=============== Medicine ====================-->
+	
+	<HerbalMedicine.label>草藥</HerbalMedicine.label>
+    <HerbalMedicine.description>成分提取自藥草製成的藥品，效果略遜於工業製藥。</HerbalMedicine.description>
+	
+	<Medicine.label>醫療包</Medicine.label>
+	<Medicine.description>醫療人員會使用醫療包來治療傷患。</Medicine.description>
+	
+	<GlitterworldMedicine.label>高科技藥品</GlitterworldMedicine.label>
+    <GlitterworldMedicine.description>來自「閃耀世界」的高科技藥品。</GlitterworldMedicine.description>
 		
-		<!--=============== Unused resources ====================-->
-		<Medicine.label>醫療包</Medicine.label>
-		<Medicine.description>醫療人員會使用醫療包來治療傷患。</Medicine.description>
+	<!--=============== Unused resources ====================-->
 		
-		<Shells.label>炮彈</Shells.label>
-		<Shells.description>用火炮射出。</Shells.description>
+	<Shells.label>炮彈</Shells.label>
+	<Shells.description>用火炮射出。</Shells.description>
  
 </LanguageData>

@@ -12,7 +12,6 @@
 	<Jaw.label>臉頰</Jaw.label>
 	<Neck.label>頸部</Neck.label>
 	<Torso.label>身體</Torso.label>
-	
 	<LeftClavicle.label>左鎖骨</LeftClavicle.label>
 	<RightClavicle.label>右鎖骨</RightClavicle.label>
 	<Sternum.label>胸骨</Sternum.label>
@@ -26,7 +25,6 @@
 	<RightFemur.label>右股骨</RightFemur.label>
 	<LeftTibia.label>左脛骨</LeftTibia.label>
 	<RightTibia.label>右脛骨</RightTibia.label>
-	
 	<Heart.label>心臟</Heart.label>
 	<LeftLung.label>左肺</LeftLung.label>
 	<RightLung.label>右肺</RightLung.label>
@@ -35,6 +33,7 @@
 	<Liver.label>肝臟</Liver.label>
 	<Stomach.label>胃部</Stomach.label>
 	<Spine.label>脊椎</Spine.label>
+	<LeftShoulder.label>左肩</LeftShoulder.label>
 	<LeftArm.label>左臂</LeftArm.label>
 	<LeftHand.label>左掌</LeftHand.label>
 	<LeftHandPinky.label>左小指</LeftHandPinky.label>
@@ -42,8 +41,7 @@
 	<LeftHandMiddleFinger.label>左中指</LeftHandMiddleFinger.label>
 	<LeftHandIndexFinger.label>左食指</LeftHandIndexFinger.label>
 	<LeftHandThumb.label>左拇指</LeftHandThumb.label>
-	<LeftShoulder.label>左肩</LeftShoulder.label>
-	
+	<RightShoulder.label>右肩</RightShoulder.label>
 	<RightArm.label>右臂</RightArm.label>
 	<RightHand.label>右掌</RightHand.label>
 	<RightHandPinky.label>右小指</RightHandPinky.label>
@@ -65,113 +63,128 @@
 	<RightFootMiddleToe.label>右三趾</RightFootMiddleToe.label>
 	<RightFootSecondToe.label>右二趾</RightFootSecondToe.label>
 	<RightFootBigToe.label>右拇趾</RightFootBigToe.label>
-	<RightShoulder.label>右肩</RightShoulder.label>
   
   <!-- animal -->
 	
-		<InsectHead.label>頭部</InsectHead.label>
-		<InsectNostril.label>鼻孔</InsectNostril.label>
-		<Body.label>身體</Body.label>
-		<Jowl.label>臉頰</Jowl.label>
-		<Tail.label>尾巴</Tail.label>
-		<LeftAntenna.label>左觸角</LeftAntenna.label>
-		<RightAntenna.label>右觸角</RightAntenna.label>
-		<Pronotum.label>前胸</Pronotum.label>
-		<Shell.label>外殼</Shell.label>
-		<LeftElytra.label>左翅鞘</LeftElytra.label>
-		<RightElytra.label>右翅鞘</RightElytra.label>
-		
-		<!-- animals legs -->
-		<FrontLeftLeg.label>左前肢</FrontLeftLeg.label>
-		<FrontRightLeg.label>右前肢</FrontRightLeg.label>
-		<MiddleLeftLeg.label>左中肢</MiddleLeftLeg.label>
-		<MiddleRightLeg.label>右中肢</MiddleRightLeg.label>
-		<RearLeftLeg.label>左後肢</RearLeftLeg.label>
-		<RearRightLeg.label>右後肢</RearRightLeg.label>
-		<FrontLeftInsectLeg.label>左前肢</FrontLeftInsectLeg.label>
-		<FrontRightInsectLeg.label>右前肢</FrontRightInsectLeg.label>
-		<MiddleLeftInsectLeg.label>左中肢</MiddleLeftInsectLeg.label>
-		<MiddleRightInsectLeg.label>右中肢</MiddleRightInsectLeg.label>
-		<RearLeftInsectLeg.label>左後肢</RearLeftInsectLeg.label>
-		<RearRightInsectLeg.label>右後肢</RearRightInsectLeg.label>
-		<FrontLeftPaw.label>左前掌</FrontLeftPaw.label>
-		<FrontRightPaw.label>右前掌</FrontRightPaw.label>
-		<RearLeftPaw.label>左後掌</RearLeftPaw.label>
-		<RearRightPaw.label>右後掌</RearRightPaw.label>
-		<FrontLeftHoof.label>左前蹄</FrontLeftHoof.label>
-		<FrontRightHoof.label>右前蹄</FrontRightHoof.label>
-		<RearLeftHoof.label>左後蹄</RearLeftHoof.label>
-		<RearRightHoof.label>右後蹄</RearRightHoof.label>
-		
-		<FrontLeftLegFirstClaw.label>左前肢首爪</FrontLeftLegFirstClaw.label>
-		<FrontLeftLegSecondClaw.label>左前肢次爪</FrontLeftLegSecondClaw.label>
-		<FrontLeftLegThirdClaw.label>左前肢中爪</FrontLeftLegThirdClaw.label>
-		<FrontLeftLegFourthClaw.label>左前肢四爪</FrontLeftLegFourthClaw.label>
-		<FrontLeftLegFifthClaw.label>左前肢末爪</FrontLeftLegFifthClaw.label>
-		<FrontRightLegFirstClaw.label>右前肢首爪</FrontRightLegFirstClaw.label>
-		<FrontRightLegSecondClaw.label>右前肢次爪</FrontRightLegSecondClaw.label>
-		<FrontRightLegThirdClaw.label>右前肢中爪</FrontRightLegThirdClaw.label>
-		<FrontRightLegFourthClaw.label>右前肢四爪</FrontRightLegFourthClaw.label>
-		<FrontRightLegFifthClaw.label>右前肢末爪</FrontRightLegFifthClaw.label>
-		
-		<RearLeftLegFirstClaw.label>左后肢首爪</RearLeftLegFirstClaw.label>
-		<RearLeftLegSecondClaw.label>左後肢次爪</RearLeftLegSecondClaw.label>
-		<RearLeftLegThirdClaw.label>左後肢中爪</RearLeftLegThirdClaw.label>
-		<RearLeftLegFourthClaw.label>左後肢四爪</RearLeftLegFourthClaw.label>
-		<RearLeftLegFifthClaw.label>左後肢末爪</RearLeftLegFifthClaw.label>
-		<RearRightLegFirstClaw.label>右後肢首爪</RearRightLegFirstClaw.label>
-		<RearRightLegSecondClaw.label>右後肢次爪</RearRightLegSecondClaw.label>
-		<RearRightLegThirdClaw.label>右後肢中爪</RearRightLegThirdClaw.label>
-		<RearRightLegFourthClaw.label>右後肢四爪</RearRightLegFourthClaw.label>
-		<RearRightLegFifthClaw.label>右後肢末爪</RearRightLegFifthClaw.label>
-		
-		<!-- mechanical -->
-		<MechanicalThorax.label>胸腔</MechanicalThorax.label>
-		<MechanicalNeck.label>頸部</MechanicalNeck.label>
-		<MechanicalHead.label>頭部</MechanicalHead.label>
-		<LeftSightSensor.label>左視覺傳感器</LeftSightSensor.label>
-		<RightSightSensor.label>右視覺傳感器</RightSightSensor.label>
-		<LeftHearingSensor.label>左聽覺傳感器</LeftHearingSensor.label>
-		<RightHearingSensor.label>右聽覺傳感器</RightHearingSensor.label>
-		<SmellSensor.label>嗅覺傳感器</SmellSensor.label>
-		<LeftMechanicalShoulder.label>左肩</LeftMechanicalShoulder.label>
-		<LeftMechanicalArm.label>左臂</LeftMechanicalArm.label>
-		<LeftMechanicalHand.label>左手</LeftMechanicalHand.label>
-		<LeftHandMechanicalPinky.label>左小指</LeftHandMechanicalPinky.label>
-		<LeftHandMechanicalRingFinger.label>左無名指</LeftHandMechanicalRingFinger.label>
-		<LeftHandMechanicalMiddleFinger.label>左中指</LeftHandMechanicalMiddleFinger.label>
-		<LeftHandMechanicalIndexFinger.label>左食指</LeftHandMechanicalIndexFinger.label>
-		<LeftHandMechanicalThumb.label>左拇指</LeftHandMechanicalThumb.label>
-		<RightMechanicalShoulder.label>右肩</RightMechanicalShoulder.label>
-		<RightMechanicalArm.label>右臂</RightMechanicalArm.label>
-		<RightMechanicalHand.label>右掌</RightMechanicalHand.label>
-		<RightHandMechanicalPinky.label>右小指</RightHandMechanicalPinky.label>
-		<RightHandMechanicalRingFinger.label>右無名指</RightHandMechanicalRingFinger.label>
-		<RightHandMechanicalMiddleFinger.label>右中指</RightHandMechanicalMiddleFinger.label>
-		<RightHandMechanicalIndexFinger.label>右食指</RightHandMechanicalIndexFinger.label>
-		<RightHandMechanicalThumb.label>右拇指</RightHandMechanicalThumb.label>
-		
-		<LeftMechanicalLeg.label>左腿</LeftMechanicalLeg.label>
-		<LeftMechanicalFoot.label>左腳</LeftMechanicalFoot.label>
-		<LeftFootMechanicalLittleToe.label>左小趾</LeftFootMechanicalLittleToe.label>
-		<LeftFootMechanicalFourthToe.label>左四趾</LeftFootMechanicalFourthToe.label>
-		<LeftFootMechanicalMiddleToe.label>左三趾</LeftFootMechanicalMiddleToe.label>
-		<LeftFootMechanicalSecondToe.label>左二趾</LeftFootMechanicalSecondToe.label>
-		<LeftFootMechanicalBigToe.label>左拇趾</LeftFootMechanicalBigToe.label>
-		<RightMechanicalLeg.label>右腿</RightMechanicalLeg.label>
-		<RightMechanicalFoot.label>右腳</RightMechanicalFoot.label>
-		<RightFootMechanicalLittleToe.label>右小趾</RightFootMechanicalLittleToe.label>
-		<RightFootMechanicalFourthToe.label>右四趾</RightFootMechanicalFourthToe.label>
-		<RightFootMechanicalMiddleToe.label>右三趾</RightFootMechanicalMiddleToe.label>
-		<RightFootMechanicalSecondToe.label>右二趾</RightFootMechanicalSecondToe.label>
-		<RightFootMechanicalBigToe.label>右拇趾</RightFootMechanicalBigToe.label>
-		
-		<MechanicalCentipedeBodyFirstRing.label>第一身節</MechanicalCentipedeBodyFirstRing.label>
-		<MechanicalCentipedeBodySecondRing.label>第二身節</MechanicalCentipedeBodySecondRing.label>
-		<MechanicalCentipedeBodyThirdRing.label>第三身節</MechanicalCentipedeBodyThirdRing.label>
-		<MechanicalCentipedeBodyFourthRing.label>第四身節</MechanicalCentipedeBodyFourthRing.label>
-		<MechanicalCentipedeBodyFifthRing.label>第五身節</MechanicalCentipedeBodyFifthRing.label>
-		<MechanicalCentipedeBodySixthRing.label>第六身節</MechanicalCentipedeBodySixthRing.label>
-		<ArtificialBrain.label>人造核心</ArtificialBrain.label>	
-		
+	<InsectHead.label>頭部</InsectHead.label>
+	<SnakeHead.label>蛇頭</SnakeHead.label>
+	<SnakeMouth.label>蛇吻</SnakeMouth.label>
+	<SnakeBody.label>蛇身</SnakeBody.label>
+	<InsectHeart.label>昆蟲心臟</InsectHeart.label>
+	<InsectNostril.label>鼻孔</InsectNostril.label>
+	<InsectMouth.label>蟲口</InsectMouth.label>
+	<Body.label>身體</Body.label>
+	<Jowl.label>臉頰</Jowl.label>
+	<Tail.label>尾巴</Tail.label>
+	<LeftAntenna.label>左觸角</LeftAntenna.label>
+	<RightAntenna.label>右觸角</RightAntenna.label>
+	<Pronotum.label>前胸</Pronotum.label>
+	<Shell.label>外殼</Shell.label>
+	<LeftElytra.label>左翅鞘</LeftElytra.label>
+	<RightElytra.label>右翅鞘</RightElytra.label>
+	<LeftTusk.label>左長牙</LeftTusk.label>
+	<RightTusk.label>右長牙</RightTusk.label>
+	<Horn.label>角</Horn.label>
+	<Hump.label>駝峰</Hump.label>
+	<TurtleShell.label>龜殼</TurtleShell.label>
+	<Plastron.label>腹甲</Plastron.label>
+	<TurtleBeak.label>喙部</TurtleBeak.label>
+	
+	<!-- animals legs -->
+	
+	<FrontLeftLeg.label>左前肢</FrontLeftLeg.label>
+	<FrontRightLeg.label>右前肢</FrontRightLeg.label>
+	<MiddleLeftLeg.label>左中肢</MiddleLeftLeg.label>
+	<MiddleRightLeg.label>右中肢</MiddleRightLeg.label>
+	<RearLeftLeg.label>左後肢</RearLeftLeg.label>
+	<RearRightLeg.label>右後肢</RearRightLeg.label>
+	
+	<FrontLeftInsectLeg.label>左前肢</FrontLeftInsectLeg.label>
+	<FrontRightInsectLeg.label>右前肢</FrontRightInsectLeg.label>
+	<MiddleLeftInsectLeg.label>左中肢</MiddleLeftInsectLeg.label>
+	<MiddleRightInsectLeg.label>右中肢</MiddleRightInsectLeg.label>
+	<RearLeftInsectLeg.label>左後肢</RearLeftInsectLeg.label>
+	<RearRightInsectLeg.label>右後肢</RearRightInsectLeg.label>
+	<FrontLeftPaw.label>左前掌</FrontLeftPaw.label>
+	<FrontRightPaw.label>右前掌</FrontRightPaw.label>
+	<RearLeftPaw.label>左後掌</RearLeftPaw.label>
+	<RearRightPaw.label>右後掌</RearRightPaw.label>
+	<FrontLeftHoof.label>左前蹄</FrontLeftHoof.label>
+	<FrontRightHoof.label>右前蹄</FrontRightHoof.label>
+	<RearLeftHoof.label>左後蹄</RearLeftHoof.label>
+	<RearRightHoof.label>右後蹄</RearRightHoof.label>
+	
+	<FrontLeftLegFirstClaw.label>左前肢首爪</FrontLeftLegFirstClaw.label>
+	<FrontLeftLegSecondClaw.label>左前肢次爪</FrontLeftLegSecondClaw.label>
+	<FrontLeftLegThirdClaw.label>左前肢中爪</FrontLeftLegThirdClaw.label>
+	<FrontLeftLegFourthClaw.label>左前肢四爪</FrontLeftLegFourthClaw.label>
+	<FrontLeftLegFifthClaw.label>左前肢末爪</FrontLeftLegFifthClaw.label>
+	<FrontRightLegFirstClaw.label>右前肢首爪</FrontRightLegFirstClaw.label>
+	<FrontRightLegSecondClaw.label>右前肢次爪</FrontRightLegSecondClaw.label>
+	<FrontRightLegThirdClaw.label>右前肢中爪</FrontRightLegThirdClaw.label>
+	<FrontRightLegFourthClaw.label>右前肢四爪</FrontRightLegFourthClaw.label>
+	<FrontRightLegFifthClaw.label>右前肢末爪</FrontRightLegFifthClaw.label>
+	
+	<RearLeftLegFirstClaw.label>左后肢首爪</RearLeftLegFirstClaw.label>
+	<RearLeftLegSecondClaw.label>左後肢次爪</RearLeftLegSecondClaw.label>
+	<RearLeftLegThirdClaw.label>左後肢中爪</RearLeftLegThirdClaw.label>
+	<RearLeftLegFourthClaw.label>左後肢四爪</RearLeftLegFourthClaw.label>
+	<RearLeftLegFifthClaw.label>左後肢末爪</RearLeftLegFifthClaw.label>
+	<RearRightLegFirstClaw.label>右後肢首爪</RearRightLegFirstClaw.label>
+	<RearRightLegSecondClaw.label>右後肢次爪</RearRightLegSecondClaw.label>
+	<RearRightLegThirdClaw.label>右後肢中爪</RearRightLegThirdClaw.label>
+	<RearRightLegFourthClaw.label>右後肢四爪</RearRightLegFourthClaw.label>
+	<RearRightLegFifthClaw.label>右後肢末爪</RearRightLegFifthClaw.label>
+	
+	<!-- mechanical -->
+	<MechanicalThorax.label>胸腔</MechanicalThorax.label>
+	<LeftKnifeProtrusion.label>左機械刃</LeftKnifeProtrusion.label>
+	<RightKnifeProtrusion.label>右機械刃</RightKnifeProtrusion.label>
+	<MechanicalNeck.label>頸部</MechanicalNeck.label>
+	<MechanicalHead.label>頭部</MechanicalHead.label>
+	<LeftSightSensor.label>左視覺傳感器</LeftSightSensor.label>
+	<RightSightSensor.label>右視覺傳感器</RightSightSensor.label>
+	<LeftHearingSensor.label>左聽覺傳感器</LeftHearingSensor.label>
+	<RightHearingSensor.label>右聽覺傳感器</RightHearingSensor.label>
+	<SmellSensor.label>嗅覺傳感器</SmellSensor.label>
+	<LeftMechanicalShoulder.label>左肩</LeftMechanicalShoulder.label>
+	<LeftMechanicalArm.label>左臂</LeftMechanicalArm.label>
+	<LeftMechanicalHand.label>左手</LeftMechanicalHand.label>
+	<LeftHandMechanicalPinky.label>左小指</LeftHandMechanicalPinky.label>
+	<LeftHandMechanicalRingFinger.label>左無名指</LeftHandMechanicalRingFinger.label>
+	<LeftHandMechanicalMiddleFinger.label>左中指</LeftHandMechanicalMiddleFinger.label>
+	<LeftHandMechanicalIndexFinger.label>左食指</LeftHandMechanicalIndexFinger.label>
+	<LeftHandMechanicalThumb.label>左拇指</LeftHandMechanicalThumb.label>
+	<RightMechanicalShoulder.label>右肩</RightMechanicalShoulder.label>
+	<RightMechanicalArm.label>右臂</RightMechanicalArm.label>
+	<RightMechanicalHand.label>右掌</RightMechanicalHand.label>
+	<RightHandMechanicalPinky.label>右小指</RightHandMechanicalPinky.label>
+	<RightHandMechanicalRingFinger.label>右無名指</RightHandMechanicalRingFinger.label>
+	<RightHandMechanicalMiddleFinger.label>右中指</RightHandMechanicalMiddleFinger.label>
+	<RightHandMechanicalIndexFinger.label>右食指</RightHandMechanicalIndexFinger.label>
+	<RightHandMechanicalThumb.label>右拇指</RightHandMechanicalThumb.label>
+	
+	<LeftMechanicalLeg.label>左腿</LeftMechanicalLeg.label>
+	<LeftMechanicalFoot.label>左腳</LeftMechanicalFoot.label>
+	<LeftFootMechanicalLittleToe.label>左小趾</LeftFootMechanicalLittleToe.label>
+	<LeftFootMechanicalFourthToe.label>左四趾</LeftFootMechanicalFourthToe.label>
+	<LeftFootMechanicalMiddleToe.label>左三趾</LeftFootMechanicalMiddleToe.label>
+	<LeftFootMechanicalSecondToe.label>左二趾</LeftFootMechanicalSecondToe.label>
+	<LeftFootMechanicalBigToe.label>左拇趾</LeftFootMechanicalBigToe.label>
+	<RightMechanicalLeg.label>右腿</RightMechanicalLeg.label>
+	<RightMechanicalFoot.label>右腳</RightMechanicalFoot.label>
+	<RightFootMechanicalLittleToe.label>右小趾</RightFootMechanicalLittleToe.label>
+	<RightFootMechanicalFourthToe.label>右四趾</RightFootMechanicalFourthToe.label>
+	<RightFootMechanicalMiddleToe.label>右三趾</RightFootMechanicalMiddleToe.label>
+	<RightFootMechanicalSecondToe.label>右二趾</RightFootMechanicalSecondToe.label>
+	<RightFootMechanicalBigToe.label>右拇趾</RightFootMechanicalBigToe.label>
+	
+	<MechanicalCentipedeBodyFirstRing.label>第一身節</MechanicalCentipedeBodyFirstRing.label>
+	<MechanicalCentipedeBodySecondRing.label>第二身節</MechanicalCentipedeBodySecondRing.label>
+	<MechanicalCentipedeBodyThirdRing.label>第三身節</MechanicalCentipedeBodyThirdRing.label>
+	<MechanicalCentipedeBodyFourthRing.label>第四身節</MechanicalCentipedeBodyFourthRing.label>
+	<MechanicalCentipedeBodyFifthRing.label>第五身節</MechanicalCentipedeBodyFifthRing.label>
+	<MechanicalCentipedeBodySixthRing.label>第六身節</MechanicalCentipedeBodySixthRing.label>
+	<ArtificialBrain.label>人造核心</ArtificialBrain.label>	
+	
 </LanguageData>

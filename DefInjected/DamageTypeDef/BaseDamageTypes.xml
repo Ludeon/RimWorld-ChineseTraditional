@@ -1,41 +1,73 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-		<!-- External violence -->
-		<Cut.deathMessage>{0}被砍死了。</Cut.deathMessage>
-		<Crush.deathMessage>{0}被壓死了。</Crush.deathMessage>
-		<Blunt.deathMessage>{0}被鈍器打死了。</Blunt.deathMessage>
-		<Stab.deathMessage>{0}被利器刺死了。</Stab.deathMessage>
-		<Bullet.deathMessage>{0}中彈身亡了。</Bullet.deathMessage>
-		<Arrow.deathMessage>{0}中箭身亡了。</Arrow.deathMessage>
-		<Scratch.deathMessage>{0}被撕裂至死。</Scratch.deathMessage>
-		<Bite.deathMessage>{0}被咬死了。</Bite.deathMessage>
-		<Bomb.deathMessage>{0}在爆炸中死亡了。</Bomb.deathMessage>
-		<Flame.deathMessage>{0}被燒死了。</Flame.deathMessage>
-		<SurgicalCut.deathMessage>{0}在手術過程中死亡了。</SurgicalCut.deathMessage>
-		
-		<!-- Stun -->
-		<Stun.deathMessage>{0}昏死過去了。</Stun.deathMessage>
-		<EMP.deathMessage>{0}被電磁脈衝殺死了。</EMP.deathMessage>
-		
-		<!-- Global injuries -->
-		<Bleeding.deathMessage>{0}失血過多死亡了。</Bleeding.deathMessage>
-		<Suffocation.deathMessage>{0}窒息而死。</Suffocation.deathMessage>
-		<Starvation.deathMessage>{0}餓死了。</Starvation.deathMessage>
-		
-		<!-- Healing local injury -->
-		<HealLocalInjury.deathMessage>治療局部創傷</HealLocalInjury.deathMessage>
-		
-		<!-- Healing Global injury -->
-		<HealGlobalInjury.deathMessage>治療大面積創傷</HealGlobalInjury.deathMessage>
+	<Cut.label>割傷</Cut.label>
+	<Cut.deathMessage>{0}被砍死了。</Cut.deathMessage>
+	
+	<Crush.label>壓傷</Crush.label>
+	<Crush.deathMessage>{0}被壓死了。</Crush.deathMessage>
+	
+	<Blunt.label>敲傷</Blunt.label>
+	<Blunt.deathMessage>{0}被鈍器打死了。</Blunt.deathMessage>
+	
+	<Stab.label>刺傷</Stab.label>
+	<Stab.deathMessage>{0}被利器刺死了。</Stab.deathMessage>
+	
+	<Bullet.label>槍傷</Bullet.label>
+	<Bullet.deathMessage>{0}中彈身亡了。</Bullet.deathMessage>
+	
+	<Arrow.label>箭傷</Arrow.label>
+	<Arrow.deathMessage>{0}中箭身亡了。</Arrow.deathMessage>
+	
+	<Scratch.label>抓傷</Scratch.label>
+	<Scratch.deathMessage>{0}被撕裂至死。</Scratch.deathMessage>
+	
+	<Bite.label>咬傷</Bite.label>
+	<Bite.deathMessage>{0}被咬死了。</Bite.deathMessage>
+	
+	<Bomb.label>炸傷</Bomb.label>
+	<Bomb.deathMessage>{0}在爆炸中死亡了。</Bomb.deathMessage>
+	
+	<Flame.label>燒傷</Flame.label>
+	<Flame.deathMessage>{0}被燒死了。</Flame.deathMessage>
+	
+	<SurgicalCut.label>手術切割</SurgicalCut.label>
+	<SurgicalCut.deathMessage>{0}在手術過程中死亡了。</SurgicalCut.deathMessage>
+	
+	<Frostbite.label>凍傷</Frostbite.label>
+	<Frostbite.deathMessage>{0}凍死了。</Frostbite.deathMessage>
+	
+	<Stun.label>昏迷</Stun.label>
+	<Stun.deathMessage>{0}昏死過去了。</Stun.deathMessage>
+	
+	<EMP.label>電磁傷害</EMP.label>
+	<EMP.deathMessage>{0}被電磁脈衝殺死了。</EMP.deathMessage>
+	
+	<Bleeding.label>失血</Bleeding.label>
+	<Bleeding.deathMessage>{0}失血過多死亡了。</Bleeding.deathMessage>
+	
+	<Suffocation.label>窒息</Suffocation.label>
+	<Suffocation.deathMessage>{0}窒息而死。</Suffocation.deathMessage>
+	
+	<Starvation.label>飢餓</Starvation.label>
+	<Starvation.deathMessage>{0}餓死了。</Starvation.deathMessage>
+	
+	<Hypothermia.label>低體溫症</Hypothermia.label>
+	<Hypothermia.deathMessage>{0}因體溫過低而死了。</Hypothermia.deathMessage>
+	
+	<!-- Healing local injury -->
+	<HealLocalInjury.deathMessage>治療局部創傷</HealLocalInjury.deathMessage>
+	
+	<!-- Healing Global injury -->
+	<HealGlobalInjury.deathMessage>治療大面積創傷</HealGlobalInjury.deathMessage>
 
-		<!-- Restoring body part -->
-		<RestoringBodyPart.deathMessage>修復身體部位</RestoringBodyPart.deathMessage>
-		
-		<!-- misc -->
-		<Breakdown.deathMessage>擊穿</Breakdown.deathMessage>
-		<Mining.deathMessage>採礦</Mining.deathMessage>
-		<Rotting.deathMessage>腐爛</Rotting.deathMessage>
-		<Extinguish.deathMessage>滅火</Extinguish.deathMessage>
-		
+	<!-- Restoring body part -->
+	<RestoringBodyPart.deathMessage>修復身體部位</RestoringBodyPart.deathMessage>
+	
+	<!-- misc -->
+	<Breakdown.deathMessage>擊穿</Breakdown.deathMessage>
+	<Mining.deathMessage>採礦</Mining.deathMessage>
+	<Rotting.deathMessage>腐爛</Rotting.deathMessage>
+	<Extinguish.deathMessage>滅火</Extinguish.deathMessage>
+	
 </LanguageData>

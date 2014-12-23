@@ -1,13 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<CurrentlyBrokenPsychotic.label>狂暴</CurrentlyBrokenPsychotic.label>
-	<CurrentlyBrokenPsychotic.description>殺了你...殺了你...殺了你...</CurrentlyBrokenPsychotic.description>
+  <rep>
+    <path>CurrentlyBrokenPsychotic.stages[0].label</path>
+    <trans>狂暴</trans>
+  </rep>
+  <rep>
+    <path>CurrentlyBrokenPsychotic.stages[0].description</path>
+    <trans>我要殺了你...殺了你...殺了你...</trans>
+  </rep>
 
-	<CurrentlyBrokenSad.label>心智崩壞</CurrentlyBrokenSad.label>
-	<CurrentlyBrokenSad.description>我已經承受太多了。</CurrentlyBrokenSad.description>
+  <rep>
+    <path>CurrentlyBrokenSad.stages[0].label</path>
+    <trans>心智崩壞</trans>
+  </rep>
+  <rep>
+    <path>CurrentlyBrokenSad.stages[0].description</path>
+    <trans>我已經承受太多了...</trans>
+  </rep>
 
-	<CurrentlyBrokenPanicFlee.label>脫離殖民地</CurrentlyBrokenPanicFlee.label>
-	<CurrentlyBrokenPanicFlee.description>我受夠了!我要離開這鬼地方!</CurrentlyBrokenPanicFlee.description>
+  <rep>
+    <path>CurrentlyBrokenPanicFlee.stages[0].label</path>
+    <trans>脫離團體</trans>
+  </rep>
+  <rep>
+    <path>CurrentlyBrokenPanicFlee.stages[0].description</path>
+    <trans>我受夠了！我要離開這鬼地方！</trans>
+  </rep>
 
 </LanguageData>

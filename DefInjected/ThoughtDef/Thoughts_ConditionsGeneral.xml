@@ -1,64 +1,223 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-	<Hungry.label>飢餓</Hungry.label>
-	<Hungry.description>我有一段時間沒吃飯了。</Hungry.description>
 	
-	<UrgentlyHungry.label>非常飢餓</UrgentlyHungry.label>
-	<UrgentlyHungry.description>我覺得越來越餓了。我得趕快吃點東西否則我就要餓死了。</UrgentlyHungry.description>
+  <rep>
+    <path>Hungry.stages[0].label</path>
+    <trans>飢餓</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[0].description</path>
+    <trans>我有一段時間沒吃飯了。</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[1].label</path>
+    <trans>非常飢餓</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[1].description</path>
+    <trans>我覺得越來越餓了。我得趕快吃點東西否則我就要餓死了。</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[2].label</path>
+    <trans>極度飢餓</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[2].description</path>
+    <trans>我只想要點吃的，什麼都行。我覺得我快餓死了，餓得好痛...</trans>
+  </rep>
 	
-	<Starving.label>極度飢餓</Starving.label>
-	<Starving.description>我只想要點吃的，什麼都行。我覺得我快餓死了，餓得好痛……</Starving.description>
+  <rep>
+    <path>Tired.stages[0].label</path>
+    <trans>疲勞</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[0].description</path>
+    <trans>我有一段時間沒睡覺了。</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[1].label</path>
+    <trans>非常疲勞</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[1].description</path>
+    <trans>我好累阿。我真想躺下休息幾分鐘...</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[2].label</path>
+    <trans>精疲力竭</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[2].description</path>
+    <trans>我實在是疲憊不堪，我都快站不起来了。我覺得眼皮像是鉛做的一樣。讓我睡一會...</trans>
+  </rep>
 	
+  <rep>
+    <path>EnvironmentUgly.stages[0].label</path>
+    <trans>醜陋的環境</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[0].description</path>
+    <trans>這個地方真不好待。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[1].label</path>
+    <trans>非常醜陋的環境</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[1].description</path>
+    <trans>這個地方太差勁了。我不想待在這裡。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[2].label</path>
+    <trans>極度醜陋的環境</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[2].description</path>
+    <trans>我無法忍受這個地方。趕快讓我出去！</trans>
+  </rep>
 	
-	<Tired.label>疲勞</Tired.label>
-	<Tired.description>我有一段時間沒睡覺了。</Tired.description>
+  <rep>
+    <path>EnvironmentPretty.stages[0].label</path>
+    <trans>漂亮的環境</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[0].description</path>
+    <trans>這個地方不錯。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[1].label</path>
+    <trans>非常漂亮的環境</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[1].description</path>
+    <trans>我真的很喜歡這個地方。它太漂亮了。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[2].label</path>
+    <trans>美麗的環境</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[2].description</path>
+    <trans>這個地方真是很美麗。它讓我振奮起來精力十足。</trans>
+  </rep>
 	
-	<VeryTired.label>非常疲勞</VeryTired.label>
-	<VeryTired.description>我好累阿。我真想躺下休息幾分鐘……</VeryTired.description>
+  <rep>
+    <path>EnvironmentCramped.stages[0].label</path>
+    <trans>擁擠的環境</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[0].description</path>
+    <trans>這個地方太擠了。我覺得一點呼吸的空間都沒有。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[1].label</path>
+    <trans>非常擁擠的環境</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[1].description</path>
+    <trans>這裡簡直讓我覺得我有幽閉恐懼症。我連活動的空間都沒有。我覺得我就像籠子裡的老鼠一樣。</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentSpaciousInterior.stages[0].label</path>
+    <trans>寬敞的空間</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentSpaciousInterior.stages[0].description</path>
+    <trans>這個寬敞的空間真是個讓人愉快的地方。</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentDark.stages[0].label</path>
+    <trans>在黑暗中</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentDark.stages[0].description</path>
+    <trans>我已經在黑暗中待了一段時間了。我不太喜歡這樣。</trans>
+  </rep>
+  
+  <rep>
+    <path>CabinFever.stages[0].label</path>
+    <trans>幽居病(輕)</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[0].description</path>
+    <trans>我在這裡被關了好幾天了，我想要出去！</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[1].label</path>
+    <trans>幽居病(嚴重)</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[1].description</path>
+    <trans>我像隻老鼠一樣在這裡被困了好久了。我要是再不出去就要發瘋了！</trans>
+  </rep>
 	
-	<Exhausted.label>精疲力竭</Exhausted.label>
-	<Exhausted.description>我實在是疲憊不堪，我都快站不起来了。我覺得眼皮像是鉛做的一樣。讓我睡一會……</Exhausted.description>
+  <rep>
+    <path>Sick.stages[0].label</path>
+    <trans>生病</trans>
+  </rep>
+  <rep>
+    <path>Sick.stages[0].description</path>
+    <trans>我感覺不太舒服，我生病了...</trans>
+  </rep>
 	
-	
-	<EnvironmentUgly.label>醜陋的環境</EnvironmentUgly.label>
-	<EnvironmentUgly.description>這個地方真不好待。</EnvironmentUgly.description>
-	
-	<EnvironmentVeryUgly.label>非常醜陋的環境</EnvironmentVeryUgly.label>
-	<EnvironmentVeryUgly.description>這個地方太差勁了。我不想待在這裡。</EnvironmentVeryUgly.description>
-	
-	<EnvironmentHideous.label>極度醜陋的環境</EnvironmentHideous.label>
-	<EnvironmentHideous.description>這個地方簡直無法忍受。趕快讓我出去……</EnvironmentHideous.description>
-	
-	
-	<EnvironmentPretty.label>漂亮的環境</EnvironmentPretty.label>
-	<EnvironmentPretty.description>這個地方不錯。</EnvironmentPretty.description>
-	
-	<EnvironmentVeryPretty.label>非常漂亮的環境</EnvironmentVeryPretty.label>
-	<EnvironmentVeryPretty.description>我真的很喜歡這個地方。它太漂亮了。</EnvironmentVeryPretty.description>
-	
-	<EnvironmentBeautiful.label>美麗的環境</EnvironmentBeautiful.label>
-	<EnvironmentBeautiful.description>這個地方真是很美麗。它讓我振奮起来精力十足。</EnvironmentBeautiful.description>
-	
-	<EnvironmentCramped.label>擁擠的環境</EnvironmentCramped.label>
-	<EnvironmentCramped.description>這個地方太擠了。我覺得一點呼吸的空間都沒有。</EnvironmentCramped.description>
-	
-	<EnvironmentVeryCramped.label>非常擁擠的環境</EnvironmentVeryCramped.label>
-	<EnvironmentVeryCramped.description>這裡簡直讓我覺得我有幽閉恐懼症。我連活動的空間都沒有。我覺得我就像籠子裡的老鼠一樣。</EnvironmentVeryCramped.description>
-	
-	<EnvironmentSpaciousInterior.label>寬敞的環境</EnvironmentSpaciousInterior.label>
-	<EnvironmentSpaciousInterior.description>這個寬敞的空間真是個讓人愉快的地方。</EnvironmentSpaciousInterior.description>
-	
-	<EnvironmentDark.label>在黑暗中</EnvironmentDark.label>
-	<EnvironmentDark.description>我已經在黑暗中待了一段時間了。我不太喜歡這樣。</EnvironmentDark.description>
-	
-	<CabinFeverMild.label>幽居病(輕)</CabinFeverMild.label>
-	<CabinFeverMild.description>我在這裡被關了好幾天了，我必須要出去。</CabinFeverMild.description>
-	
-	<CabinFeverSerious.label>幽居病(嚴重)</CabinFeverSerious.label>
-	<CabinFeverSerious.description>我像隻老鼠一樣在這裡被困了好久了。我要是再不出去就要發瘋了!</CabinFeverSerious.description>
-
-	<Sick.label>生病</Sick.label>
-    <Sick.description>我感覺不太舒服，我生病了...</Sick.description>
+  <rep>
+    <path>EnvironmentCold.stages[0].label</path>
+    <trans>感到涼意</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[0].description</path>
+    <trans>這溫度冷得我有點不舒服。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[1].label</path>
+    <trans>感到寒冷</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[1].description</path>
+    <trans>我冷得全身發抖，無法取暖。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[2].label</path>
+    <trans>感覺要凍僵了</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[2].description</path>
+    <trans>我的牙齒不停打顫，連話都說不清；我的腳趾已經沒有任何感覺了，我需要取暖！</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentHot.stages[0].label</path>
+    <trans>感到熱</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[0].description</path>
+    <trans>這個溫度熱得讓人不高興，我汗流浹背了。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[1].label</path>
+    <trans>感到炎熱</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[1].description</path>
+    <trans>這裡未免太熱了。</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[2].label</path>
+    <trans>極度炎熱</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[2].description</path>
+    <trans>我感覺身在烤箱，我不確定我還能忍受多久...</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[3].label</path>
+    <trans>身上著火</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[3].description</path>
+    <trans>我燒起來了！我會被燒死！</trans>
+  </rep>
 	
 </LanguageData>

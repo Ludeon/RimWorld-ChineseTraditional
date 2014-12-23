@@ -3,12 +3,14 @@
 
   <JumpToLocation>查看事件地點</JumpToLocation>
 
+  <FirstSummerWarning>夏天剛剛到來，但冬天正悄悄接近中。\n\n你的糧食作物並不會在冬季寒冷的天氣裡生長，趁著你還有能力，現在開始儲存糧食，並確保儲備量足以度過數個月的寒冬。\n\n你可以打造一座大型冷凍庫以確保食物不致腐壞。\n\n還有，嘗試買一些、做一些，甚至奪取一些大衣，否則你將會被凍僵在外頭。</FirstSummerWarning>
+
   <RelationsBrokenDown>和{0}的關係惡化了。現在他們對你是敵對態度。</RelationsBrokenDown>
   <RelationsWarmed>和{0}的關係改善了。他們不再敵視你了。</RelationsWarmed>
 
   <RelationsBrokenCapture>因為你俘虜了{0}，{1}宣告與你敵對了。</RelationsBrokenCapture>
 
-  <ColonyGoodwill>殖民地好感度</ColonyGoodwill>
+  <ColonyGoodwill>殖民地友好度</ColonyGoodwill>
   <Neutral>中立</Neutral>
 
   <ShortCircuitRain>一個{0}在雨中發生了短路並造成了一場火災。</ShortCircuitRain>
@@ -19,8 +21,12 @@
   <NothingCrushed>所幸沒有東西被壓到。</NothingCrushed>
   
   <MentalBreakRampage>{0}的精神崩潰了並開始攻擊任何見到的東西。</MentalBreakRampage>
-  <MentalBreakDaze>{0}受夠了並决定脫離這個殖民地。</MentalBreakDaze>
-  <MentalBreakLeave>{0}崩潰了並開始茫然地四處遊蕩。</MentalBreakLeave>
+  <MentalBreakDaze>{0}崩潰了並開始茫然地四處遊蕩。</MentalBreakDaze>
+  <MentalBreakLeave>{0}受夠了並决定脫離這個殖民地。</MentalBreakLeave>
+
+  <MentalBreakRecoveryRampage>{0}已經恢復冷靜了。</MentalBreakRecoveryRampage>
+  <MentalBreakRecoveryDaze>{0}已經恢復理智了。</MentalBreakRecoveryDaze>
+  <MentalBreakRecoveryLeave>{0}已經改變心意，並重新回到殖民地了。</MentalBreakRecoveryLeave>
 
   <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
@@ -28,7 +34,7 @@
   <Birthday>今天是{0}的生日!{1}年滿{2}歲了。</Birthday>
   <BirthdayWithInjuries>今天是{0}的生日!{1}年滿{2}歲了。\n\n不幸的是，因為{0}的年紀，{0}得到了這些疾病：\n{3}</BirthdayWithInjuries>
   
-  <NewDisease>{0}染上了疾病({1})。保證{0}獲得妥善的治療，大多數的時間讓{0}在床上休養以早日康復。</NewDisease>
-  <NewPartDisease>{0}受到{1}傳染。保證{0}獲得妥善的治療，大多數的時間讓{0}在床上休養以早日康復。</NewPartDisease>
+  <NewDisease>{0}染上了疾病({1})。確保{0}獲得妥善的治療，盡可能讓{0}在床上休養以早日康復。</NewDisease>
+  <NewPartDisease>{0}受到{1}傳染。確保{0}獲得妥善的治療，盡可能讓{0}在床上休養以早日康復。</NewPartDisease>
   
 </LanguageData>
