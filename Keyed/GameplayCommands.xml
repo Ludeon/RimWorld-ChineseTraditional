@@ -8,9 +8,11 @@
   <CommandTogglePowerDesc>開關電力。</CommandTogglePowerDesc>
   <CommandTogglePowerLabel>開關電力</CommandTogglePowerLabel>
   
+  <CommandDesignateTogglePowerLabel>指定開/關電源</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerDesc>指定開/官這項物件的電源。一名殖民者將會前往操作。</CommandDesignateTogglePowerDesc>
+  
   <CommandTryReconnectLabel>重新連接</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>嘗試連接至附近另一個電網。在目前連接的電網沒有電但附近有另一個電網時很有用。</CommandTryReconnectDesc>
-  
   
   <CommandGatherSpotToggleLabel>採集點</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>開啟——殖民者們會在這個物件附近採集。</CommandGatherSpotToggleDescActive>
@@ -67,7 +69,7 @@
   <CommandSetForceAttackTargetDesc>設定這個炮塔必須不停試圖攻擊的目標。</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>停止強制攻擊</CommandStopForceAttack>
   <CommandStopForceAttackDesc>停止強制攻擊並允許炮塔自由開火。</CommandStopForceAttackDesc>
-  <CommandStopAttackFailNotForceAttacking>不再強制攻擊目標。</CommandStopAttackFailNotForceAttacking>
+  <CommandStopAttackFailNotForceAttacking>停止強制攻擊目標。</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>目標超出最大射程。</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>目標近於最小射程。</MessageTargetBelowMinimumRange>
   
@@ -87,6 +89,19 @@
   <!-- Door -->
   <CommandToggleDoorLock>切換門鎖</CommandToggleDoorLock>
   <CommandToggleDoorLockDesc>鎖上或解鎖此門。鎖上的門將不會對任何人開啟。</CommandToggleDoorLockDesc>
-  
+
+  <!-- Temperature control -->
+  <CommandResetTemp>重置</CommandResetTemp>
+  <CommandResetTempDesc>重置目標溫度為室溫</CommandResetTempDesc>
+  <CommandRaiseTempDesc>調高目標溫度</CommandRaiseTempDesc>
+  <CommandLowerTempDesc>調降目標溫度</CommandLowerTempDesc>
+
+  <!-- Art -->
+  <CommandInstall>安裝</CommandInstall>
+  <CommandInstallDesc>此物件已被包裝為方便儲存與運輸的狀態，使用這項指令以安裝這項物件至指定的位置，使之能夠供人觀賞。</CommandInstallDesc>
+
+  <!-- Trade beacon -->
+  <CommandMakeBeaconStockpileDesc>創建一片與交易信標作用範圍相同的儲存區。</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileLabel>創建儲存區</CommandMakeBeaconStockpileLabel>
   
 </LanguageData>

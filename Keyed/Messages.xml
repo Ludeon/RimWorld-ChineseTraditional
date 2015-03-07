@@ -1,59 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-		<MessageSiegersAssaulting>圍攻殖民地的{1}開始突擊殖民地。</MessageSiegersAssaulting>
-		
-		<MessageRaidersBeginningAssault>{1}開始了他們的進攻。</MessageRaidersBeginningAssault>
-		<MessageRaidersDetectedEarlyAssault>{1}發現了你並提前開始了進攻。</MessageRaidersDetectedEarlyAssault>
-		<MessageRaidersKidnapping>來自{1}打算绑架他們能帶走的人並離開。</MessageRaidersKidnapping>
-		
-		<MessageRaidersLeaving>來自{1}的{0}離開了。</MessageRaidersLeaving>
-		<MessageRaidersGivenUpLeaving>{1}已經放棄攻擊並離開了。</MessageRaidersGivenUpLeaving>
-		<MessageRaidersSatisfiedLeaving>{1}對於他們造成的破壞感到滿意並離開了。</MessageRaidersSatisfiedLeaving>
-		
-		<MessageFightersFleeing>{1}的成員正在逃跑。</MessageFightersFleeing>
-		<MessageFriendlyFightersLeaving>來自{1}的友好{0}離開了。</MessageFriendlyFightersLeaving>
+  
+  
+  <MessageSiegersAssaulting>圍攻殖民地的{1}開始突擊殖民地。</MessageSiegersAssaulting>
+  
+  <MessageRaidersBeginningAssault>{1}開始了他們的進攻。</MessageRaidersBeginningAssault>
+  <MessageRaidersDetectedEarlyAssault>{1}發現了你並提前開始了進攻。</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersKidnapping>來自{1}打算绑架他們能帶走的人並離開。</MessageRaidersKidnapping>
+  
+  <MessageRaidersLeaving>來自{1}的{0}離開了。</MessageRaidersLeaving>
+	<MessageRaidersGivenUpLeaving>{1}已經放棄攻擊並離開了。</MessageRaidersGivenUpLeaving>
+  <MessageRaidersSatisfiedLeaving>{1}對於他們造成的破壞感到滿意並離開了。</MessageRaidersSatisfiedLeaving>
+  
+  <MessageFightersFleeing>{1}的成員正在逃跑。</MessageFightersFleeing>
+  <MessageFriendlyFightersLeaving>來自{1}的友好{0}離開了。</MessageFriendlyFightersLeaving>
 
-		<MessageSeasonBegun>{0}到來了。</MessageSeasonBegun>
-		
+  <MessageWornApparelDeterioratedAway>{1}穿著的{0}已經損壞了。</MessageWornApparelDeterioratedAway>
 
-		
-		<MessageShipHasLeftCommsRange>{0}遠離了通訊範圍。</MessageShipHasLeftCommsRange>
-		<MessageNeedBeaconToTradeWithShip>你需要一個軌道交易信標才能和飛船交易交易。</MessageNeedBeaconToTradeWithShip>
+  <MessageSeasonBegun>{0}到來了。</MessageSeasonBegun>
+
+  <MessageShipHasLeftCommsRange>{0}遠離了通訊範圍。</MessageShipHasLeftCommsRange>
+  
+	<MessageNeedBeaconToTradeWithShip>你需要一個軌道交易信標才能和飛船交易交易。</MessageNeedBeaconToTradeWithShip>
 	
-		<MessageBillComplete>任務完成: {0}。</MessageBillComplete>
-		<MessageFullyHealed>{0}完全康復了。</MessageFullyHealed>
+  <MessageBillComplete>任務完成: {0}。</MessageBillComplete>
+  
+  <MessageFullyHealed>{0}完全康復了。</MessageFullyHealed>
 
-		<MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
-		
-		<MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
-		<MessageRecruitFail>{0}未能成功招募{1}(成功率{2})。</MessageRecruitFail>
-		<MessageRecruitFailBecauseLoyalty>{0}未能成功招募{1}。(囚犯心情值低於最低要求)</MessageRecruitFailBecauseLoyalty>
-		
-		<MessagePoorlyTreated>{1}處理了{0}的創傷(機率{2})。</MessagePoorlyTreated>
-        <MessageWellTreated>{1}完全治癒了{0}的傷口(機率{2})。</MessageWellTreated>
-		
-		
-		<MessageTraderCannotAfford>商人無法支付這筆交易。</MessageTraderCannotAfford>
-		<MessageColonyCannotAfford>殖民地無法支付這筆交易。</MessageColonyCannotAfford>
-		<MessageColonyNotEnoughSilver>可用於交易的銀石不足。</MessageColonyNotEnoughSilver>
-		<MessageTraderNotEnoughSilver>商人没有足夠的銀石。</MessageTraderNotEnoughSilver>
-		
-		<MessageCriticalAlert>嚴重警報：{0}</MessageCriticalAlert>
-		
-		<MessageMustDesignateHarvestable>必須指定已長成可收穫的植物。</MessageMustDesignateHarvestable>
-		<MessageMustDesignateHarvestableWood>必須指定已長成可收穫木頭的樹木。</MessageMustDesignateHarvestableWood>
-		<MessageMustDesignatePlants>必須指定植物。</MessageMustDesignatePlants>
-		<MessageMustDesignateHaulable>必須指定可以搬運的物品。</MessageMustDesignateHaulable>
+  <MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
+
+  <MessageOutOfNearbyShellsFor>{0}找不到附近有可供{1}使用的砲彈。</MessageOutOfNearbyShellsFor>
+  
+  <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
+	<MessageRecruitFail>{0}未能成功招募{1}(成功率{2})。</MessageRecruitFail>
+	<MessageRecruitFailBecauseLoyalty>{0}未能成功招募{1}。(囚犯心情值低於最低要求)</MessageRecruitFailBecauseLoyalty>
+  
+  <MessagePoorlyTreated>{1}處理了{0}的創傷(機率{2})。</MessagePoorlyTreated>
+  <MessageWellTreated>{1}完全治癒了{0}的傷口(機率{2})。</MessageWellTreated>
+  
+  <MessageTraderCannotAfford>商人無法支付這筆交易。</MessageTraderCannotAfford>
+  <MessageColonyCannotAfford>殖民地無法支付這筆交易。</MessageColonyCannotAfford>
+  <MessageColonyNotEnoughSilver>可用於交易的銀石不足。</MessageColonyNotEnoughSilver>
+  <MessageTraderNotEnoughSilver>商人没有足夠的銀石。</MessageTraderNotEnoughSilver>
+  
+  <MessageCriticalAlert>嚴重警報：{0}</MessageCriticalAlert>
+  
+  <MessageMustDesignateHarvestable>必須指定已長成可收穫的植物。</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestableWood>必須指定已長成可收穫木頭的樹木。</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignatePlants>必須指定植物。</MessageMustDesignatePlants>
+  <MessageMustDesignateHaulable>必須指定可以搬運的物品。</MessageMustDesignateHaulable>
   <MessageMustDesignateMineable>必須指定可開採的岩石。</MessageMustDesignateMineable>
   <MessageMustDesignateHuntable>必須指定可狩獵的動物。</MessageMustDesignateHuntable>
   <MessageMustDesignateClaimable>必須指定無主的人造建築。</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>必須指定可打磨的崎嶇岩石地面。</MessageMustDesignateSmoothableFloor>
   
-		<MessageNoMedicalBeds>沒有可用的醫療床。</MessageNoMedicalBeds>
   
-		<PawnDiedBecauseOf>{0}因{1}死亡了。</PawnDiedBecauseOf>
+  <MessageNoMedicalBeds>沒有可用的醫療床。</MessageNoMedicalBeds>
+  
+  <PawnDiedBecauseOf>{0}因{1}死亡了。</PawnDiedBecauseOf>
 
-		<MessageNoLongerDowned>{0}恢復行動能力了。</MessageNoLongerDowned>
+  <MessageNoLongerDowned>{0}恢復行動能力了。</MessageNoLongerDowned>
+
+  <MessageMedicalOperationFailureCatastrophic>{0在對{1}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureMinor>{0}在對{1}執行手術時出現細微的失誤。</MessageMedicalOperationFailureMinor>
   
 </LanguageData>

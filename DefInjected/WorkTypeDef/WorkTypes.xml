@@ -30,16 +30,16 @@
 	<PlantCutting.gerundLabel>剪裁植物</PlantCutting.gerundLabel>
 	<PlantCutting.description>採收者會裁剪或收穫你指定的植物。</PlantCutting.description>
 	<PlantCutting.verb>裁剪</PlantCutting.verb>
- 
-	<Mining.pawnLabel>礦工</Mining.pawnLabel>
-	<Mining.gerundLabel>採礦</Mining.gerundLabel>
-	<Mining.description>礦工會開挖你指定的方塊。如果你指定的方塊是礦石方塊便能收穫到有用的金屬礦石。</Mining.description>
-	<Mining.verb>開採</Mining.verb>
 		
 	<Growing.pawnLabel>種植者</Growing.pawnLabel>
 	<Growing.gerundLabel>種植</Growing.gerundLabel>
 	<Growing.description>種植者會播種並收穫長成的植物。</Growing.description>
 	<Growing.verb>種植</Growing.verb>
+ 
+	<Mining.pawnLabel>礦工</Mining.pawnLabel>
+	<Mining.gerundLabel>採礦</Mining.gerundLabel>
+	<Mining.description>礦工會開挖你指定的方塊。如果你指定的方塊是礦石方塊便能收穫到有用的金屬礦石。</Mining.description>
+	<Mining.verb>開採</Mining.verb>
 	     
 	<Repair.pawnLabel>修理工</Repair.pawnLabel>
 	<Repair.gerundLabel>修理</Repair.gerundLabel>
@@ -65,8 +65,13 @@
 	<Warden.gerundLabel>監管</Warden.gerundLabel>
 	<Warden.description>獄卒可以和招募囚犯，和囚犯聊天，毆打囚犯或是處決囚犯——只要你選擇對應的選項。獄卒也會替囚犯送食物。</Warden.description>
 	<Warden.verb>處理</Warden.verb>
-		
-		<Patient.pawnLabel>病人</Patient.pawnLabel>
+	
+	<Control.pawnLabel>控制員</Control.pawnLabel>
+	<Control.gerundLabel>控管</Control.gerundLabel>
+	<Control.verb>控制</Control.verb>
+	<Control.description>控制員可以控制電源開關。</Control.description>
+	
+	<Patient.pawnLabel>病人</Patient.pawnLabel>
 	<Patient.gerundLabel>療傷</Patient.gerundLabel>
 	<Patient.description>受傷的殖民者將會到醫療床上接受治療。</Patient.description>
 	<Patient.verb>成為病人</Patient.verb>

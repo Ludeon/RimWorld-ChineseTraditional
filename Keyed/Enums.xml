@@ -29,9 +29,9 @@
   
   <!-- Price types -->
   <PriceTypeVeryCheap>非常便宜</PriceTypeVeryCheap>
-  <PriceTypeCheap>很便宜</PriceTypeCheap>
+  <PriceTypeCheap>便宜</PriceTypeCheap>
   <PriceTypeNormal>一般</PriceTypeNormal>
-  <PriceTypeExpensive>有點貴</PriceTypeExpensive>
+  <PriceTypeExpensive>偏貴</PriceTypeExpensive>
   <PriceTypeExorbitant>非常貴</PriceTypeExorbitant>
 
   <!-- Quality category -->
@@ -44,5 +44,30 @@
   <QualityCategory_Excellent>完美</QualityCategory_Excellent>
   <QualityCategory_Masterwork>大師</QualityCategory_Masterwork>
   <QualityCategory_Legendary>傳奇</QualityCategory_Legendary>
+
+  <QualityCategoryShort_Awful>F</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Shoddy>E</QualityCategoryShort_Shoddy>
+  <QualityCategoryShort_Poor>D</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>C</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Good>B</QualityCategoryShort_Good>
+  <QualityCategoryShort_Superior>A</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Excellent>S</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>SS</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>SSS</QualityCategoryShort_Legendary>
+  
+  
+  <!-- Hunger -->
+  <HungerLevel_Starving>極度飢餓</HungerLevel_Starving>
+  <HungerLevel_UrgentlyHungry>非常飢餓</HungerLevel_UrgentlyHungry>
+  <HungerLevel_Hungry>飢餓</HungerLevel_Hungry>
+  <HungerLevel_Fed>餵食</HungerLevel_Fed>
+
+  <!-- -Fatigue -->
+  <HungerLevel_Exhausted>筋疲力竭</HungerLevel_Exhausted>
+  <HungerLevel_VeryTired>疲勞</HungerLevel_VeryTired>
+  <HungerLevel_Tired>勞累</HungerLevel_Tired>
+  <HungerLevel_Rested>已休息</HungerLevel_Rested>
+
+
   
 </LanguageData>

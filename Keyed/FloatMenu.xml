@@ -7,7 +7,7 @@
   <CannotUseSolarFlare>無法使用(太陽閃焰)</CannotUseSolarFlare>
   <CannotUseNoPower>無法使用(沒有電力)</CannotUseNoPower>
   <CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
-  <CannotUseReserved>無法使用(被預留)</CannotUseReserved>
+  <CannotUseReserved>無法使用(已分派給其他殖民者)</CannotUseReserved>
   <CannotUseFull>無法使用(已滿)</CannotUseFull>
 	
   <FireAt>對{0}開火</FireAt>
@@ -23,12 +23,15 @@
   <NoPath>沒有路徑</NoPath>
 
 	<ForbiddenLower>禁止的</ForbiddenLower>
-	<SociallyImproperLower>社交不當</SociallyImproperLower>
-  <PrisonerRoomLower>囚犯房</PrisonerRoomLower>
+	<SociallyImproperLower>不當社交</SociallyImproperLower>
+  <PrisonerRoomLower>囚房</PrisonerRoomLower>
 	<BurningLower>燃燒中</BurningLower>
 	<NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
 	<AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
 	<MissingMaterials>需要材料</MissingMaterials>
+
+
+  <ConsumeThing>食用{0}</ConsumeThing>
 	
 	
   <CannotGoNoPath>無法走到目標(沒有路徑)</CannotGoNoPath>
@@ -43,6 +46,10 @@
   <Rescue>救援{0}</Rescue>
   <CannotRescue>無法救援</CannotRescue>
 
+  <CarryToCryptosleepCasket>將{0}帶至冷凍休眠艙</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>無法帶至冷凍休眠艙</CannotCarryToCryptosleepCasket>
+
+  <NoCryptosleepCasket>無可用的冷凍休眠艙。</NoCryptosleepCasket>
   <NoPrisonerBed>沒有在封閉房間中的囚犯床。</NoPrisonerBed>
   <NoNonPrisonerBed>沒有可用的非囚犯床。</NoNonPrisonerBed>
   <Reserved>已經為別人預留了。</Reserved>
@@ -52,7 +59,7 @@
   <NoManipulationSkill>沒有技能</NoManipulationSkill>
 
   <Equip>裝備{0}</Equip>
-  <EquipWarningBrawler>(格鬥家將會不悅)</EquipWarningBrawler>
+  <EquipWarningBrawler>(格鬥愛好者將會不悅)</EquipWarningBrawler>
   <CannotEquip>無法裝備{0}</CannotEquip>
 
   <Wear>穿上{0}</Wear>
@@ -63,6 +70,8 @@
   
   <Deposit>將{0}放置到{1}</Deposit>
   <CannotDeposit>無法將{0}放置到{1}</CannotDeposit>
+
+  <SelfDestructHere>在此自我毀滅</SelfDestructHere>
 
   <Drop>卸下{0}</Drop>
   
@@ -80,7 +89,7 @@
   <CannotGenericWork>無法{0}{1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>已經在{0}中</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>無法優先當前任務({0}不是{1})</CannotPrioritizeIsNotA>
 
@@ -88,7 +97,8 @@
 
   <CannotPrioritizeForbidden>無法優先當前任務({0}是禁止的)</CannotPrioritizeForbidden>
 
+  
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
+  <PrioritizeGeneric>優先進行{0}</PrioritizeGeneric>
   
 </LanguageData>

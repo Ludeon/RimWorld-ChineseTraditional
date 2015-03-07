@@ -19,13 +19,17 @@
   <DevelopmentBuildLower>開發者版</DevelopmentBuildLower>
   <CompiledOn>匯編於{0}</CompiledOn>
 
+
+
+  <!-- Content generation-->
+
 	<MeatLabel>{0}肉</MeatLabel>
   <MeatDesc>{0}的生肉。</MeatDesc>
 
   <LeatherLabel>{0}皮毛</LeatherLabel>
   <LeatherDesc>{0}的皮毛。</LeatherDesc>
 
-	<CorpseLabel>{0}遺體</CorpseLabel>
+  <CorpseLabel>{0}遺體</CorpseLabel>
 	<CorpseDesc>{0}的遺體。</CorpseDesc>
   <DeadLabel>{0}(死亡)</DeadLabel>
 
@@ -36,9 +40,9 @@
   <SmoothStoneTerrainLabel>光滑{0}</SmoothStoneTerrainLabel>
   <SmoothStoneTerrainDesc>天然光滑{0}地面。</SmoothStoneTerrainDesc>
 
-
-	<BlueprintLabelExtra> (藍圖)</BlueprintLabelExtra>
+  <BlueprintLabelExtra> (藍圖)</BlueprintLabelExtra>
   <FrameLabelExtra> (框架)</FrameLabelExtra>
+  
   
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->

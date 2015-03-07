@@ -27,11 +27,6 @@
 	<Uranium.description>替反應堆供應能源。</Uranium.description>
 	<Uranium.stuffProps.stuffAdjective>鈾製</Uranium.stuffProps.stuffAdjective>
 	
-	<!--
-	<WoodPlank.label>木板</WoodPlank.label>
-	<WoodPlank.description>用來建造建築。</WoodPlank.description>
-	-->
-	
 	<!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
 	
 	<Cloth.label>棉布</Cloth.label>
@@ -46,10 +41,23 @@
 	<Hyperweave.label>超級布料</Hyperweave.label>
 	<Hyperweave.description>以高科技奈米纖維織成，有點厚重，但令人難以置信的難以破壞。</Hyperweave.description>
 	
+	
+	<!--=============== Plant products ====================-->
+	
+	<RawHops.label>生啤酒花</RawHops.label>	
+	<RawHops.description>生啤酒花。味道糟糕且毫無營養，但卻是釀造啤酒不可或缺的原料。</RawHops.description>
+	
 		
 	<!--=============== Raw foods ====================-->
+	
 	<RawPotatoes.label>馬鈴薯</RawPotatoes.label>
 	<RawPotatoes.description>生馬鈴薯。</RawPotatoes.description>
+	
+	<RawCorn.label>玉米</RawCorn.label>
+	<RawCorn.description>生的玉米，味道鮮美，可以生吃。</RawCorn.description>
+	
+	<RawRice.label>稻米</RawRice.label>
+	<RawRice.description>未經加工的生米。</RawRice.description>
 		
 	<RawBerries.label>莓果</RawBerries.label>
 	<RawBerries.description>各種各樣的莓果，就算生吃味道也很好。</RawBerries.description>
@@ -68,10 +76,13 @@
 	
 	<GlitterworldMedicine.label>高科技藥品</GlitterworldMedicine.label>
     <GlitterworldMedicine.description>來自「閃耀世界」的高科技藥品。</GlitterworldMedicine.description>
-		
-	<!--=============== Unused resources ====================-->
-		
-	<Shells.label>炮彈</Shells.label>
-	<Shells.description>用火炮射出。</Shells.description>
+	
+	<ArtilleryShell.label>炮彈</ArtilleryShell.label>
+	<ArtilleryShell.description>需用火炮射擊的炮彈。</ArtilleryShell.description>
+	
+	<!--
+	<WoodPlank.label>木板</WoodPlank.label>
+	<WoodPlank.description>用來建造建築。</WoodPlank.description>
+	-->
  
 </LanguageData>

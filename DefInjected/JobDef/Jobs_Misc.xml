@@ -7,6 +7,8 @@
 	
 	<Wait.reportString>站著。</Wait.reportString>
 	
+	<WaitCombat.reportString>正在待命中。</WaitCombat.reportString>
+	
 	<AttackStatic.reportString>正在攻擊TargetA。</AttackStatic.reportString>
 	
     <AttackMelee.reportString>正在近身攻擊TargetA。</AttackMelee.reportString>
@@ -23,7 +25,7 @@
 	
 	<Hunt.reportString>正在狩獵TargetA。</Hunt.reportString>
 	
-	<ManThing.reportString>正在操作機器。</ManThing.reportString>
+	<ManTurret.reportString>正在操作機器。</ManTurret.reportString>
 	
 	<EnterCryptosleepCasket.reportString>正在進入冷凍休眠艙。</EnterCryptosleepCasket.reportString>
 	
@@ -32,6 +34,10 @@
 	<UseNeurotrainer.reportString>正在使用神經技能訓練器。</UseNeurotrainer.reportString>
 	
 	<ClearSnow.reportString>正在剷除積雪。</ClearSnow.reportString>
+	
+	<Vomit.reportString>嘔吐</Vomit.reportString>
+	
+	<TogglePower.reportString>切換電源開關</TogglePower.reportString>
 	
 	<!--============ Fire ============-->
 	
@@ -43,7 +49,7 @@
 	
 	<!--============ Need satisfaction ============-->
 	
-	<EatFood.reportString>正在食用TargetA。</EatFood.reportString>
+	<Ingest.reportString>正在食用TargetA。</Ingest.reportString>
 	
 	<LayDown.reportString>睡眠中。</LayDown.reportString>
 	
@@ -80,7 +86,7 @@
 	
 	<FeedPatient.reportString>正將TargetA餵食給TargetB。</FeedPatient.reportString>
 	
-	<HealPatient.reportString>正在治療TargetA。</HealPatient.reportString>
+	<TreatPatient.reportString>正在治療TargetA。</TreatPatient.reportString>
 	
 	<PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>
 	
@@ -111,5 +117,8 @@
 	<PrisonerFriendlyChat.reportString>正和囚犯TargetA聊天。</PrisonerFriendlyChat.reportString>
 	
 	<PrisonerExecution.reportString>準備處死TargetA。</PrisonerExecution.reportString>
+	
+	
+	
 	
 </LanguageData>

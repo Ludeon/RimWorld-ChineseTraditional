@@ -18,7 +18,6 @@
 	
 	<DesignatorHaulThings>搬運</DesignatorHaulThings>
 	<DesignatorHaulThingsDesc>標記需要搬到儲存區的垃圾等物品。不需要對食物和遺體使用，該項目會自動完成。</DesignatorHaulThingsDesc>
-	<NothingToHaulHere>沒有可以搬運的物品。</NothingToHaulHere>
 	<MustHaulHaulables>只能標記可搬運但不會被自動搬運的物品。(如垃圾)</MustHaulHaulables>
 	
 	<DesignatorHunt>狩獵</DesignatorHunt>
@@ -60,7 +59,6 @@
 	
 	<DesignatorZoneCreateStorageDumpingDesc>建立一個讓你的殖民者們存放垃圾的儲存區。\n此工具也可以用來擴張現存的儲存區。</DesignatorZoneCreateStorageDumpingDesc>
 	
-	
 	<DesignatorZoneDelete>移除區域</DesignatorZoneDelete>
 	<DesignatorZoneDeleteDesc>移除儲存區或是種植區等區域。</DesignatorZoneDeleteDesc>
 	
@@ -78,6 +76,7 @@
 	<InteractionSpotWillBeBlocked>互動點會被擋住。</InteractionSpotWillBeBlocked>
 	<WouldBlockInteractionSpot>{0}會擋住{1}的互動點。</WouldBlockInteractionSpot>
 	<TerrainIsAlready>這裡的地形已經是{0}了。</TerrainIsAlready>
+    <TerrainBeingSmoothed>這裡的地面已經打磨過了。</TerrainBeingSmoothed>
 	<IdenticalThingExists>已經在同地點存在相同的物件。</IdenticalThingExists>
 	<IdenticalBlueprintExists>已經在同地點存在相同的藍圖。</IdenticalBlueprintExists>
 	<TerrainCannotSupport>地形無法支撐此物件。</TerrainCannotSupport>

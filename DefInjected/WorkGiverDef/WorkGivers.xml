@@ -25,13 +25,20 @@
 	<CleanFilth.verb>清潔</CleanFilth.verb>
 	<CleanFilth.gerund>清潔</CleanFilth.gerund>
 
+	
+  <!-- =========== Control ============-->
+  
+	<TogglePower.verb>schalte Strom um</TogglePower.verb>
+	<TogglePower.gerund>schaltet Strom um</TogglePower.gerund>
 
   <!-- ============= Hauling ============= -->
-
-	<HaulGeneral.verb>搬運</HaulGeneral.verb>
-	<HaulGeneral.gerund>搬運</HaulGeneral.gerund>
+	
+	<DoBillsCremate.verb>火化</DoBillsCremate.verb>
+	<DoBillsCremate.gerund>火化</DoBillsCremate.gerund>
 	<HaulCorpses.verb>搬運</HaulCorpses.verb>
 	<HaulCorpses.gerund>搬運</HaulCorpses.gerund>
+	<HaulGeneral.verb>搬運</HaulGeneral.verb>
+	<HaulGeneral.gerund>搬運</HaulGeneral.gerund>
 
   <!-- ============= Growing ============= -->
 
@@ -50,18 +57,18 @@
 	
   <!-- ============= Doctor ============= -->
 	
+	<DoctorTreatEmergency.verb>緊急治療</DoctorTreatEmergency.verb>
+	<DoctorTreatEmergency.gerund>急救</DoctorTreatEmergency.gerund>
+	<DoctorTreat.verb>治療</DoctorTreat.verb>
+	<DoctorTreat.gerund>醫治</DoctorTreat.gerund>
 	<DoctorFeed.verb>醫療照護</DoctorFeed.verb>
 	<DoctorFeed.gerund>照顧</DoctorFeed.gerund>
-	<DoctorEmergencyHeal.verb>緊急治療</DoctorEmergencyHeal.verb>
-	<DoctorEmergencyHeal.gerund>急救</DoctorEmergencyHeal.gerund>
-	<DoctorHeal.verb>治療</DoctorHeal.verb>
-	<DoctorHeal.gerund>醫治</DoctorHeal.gerund>
-	<TakeToBedToOperate.verb>前往手術</TakeToBedToOperate.verb>
-	<TakeToBedToOperate.gerund>前往手術</TakeToBedToOperate.gerund>
 	<DoBillsMedicalHumanOperation.verb>手術</DoBillsMedicalHumanOperation.verb>
 	<DoBillsMedicalHumanOperation.gerund>手術</DoBillsMedicalHumanOperation.gerund>
 	<DoBillsMedicalAnimalOperation.verb>手術</DoBillsMedicalAnimalOperation.verb>
 	<DoBillsMedicalAnimalOperation.gerund>手術</DoBillsMedicalAnimalOperation.gerund>
+	<TakeToBedToOperate.verb>前往手術</TakeToBedToOperate.verb>
+	<TakeToBedToOperate.gerund>前往手術</TakeToBedToOperate.gerund>
 	
   <!-- ============= Construction ============= -->
 	
@@ -71,8 +78,8 @@
 	<ConstructFinishFrames.gerund>建造</ConstructFinishFrames.gerund>
 	<ConstructDeliverResourcesToFrames.verb>從事</ConstructDeliverResourcesToFrames.verb>
 	<ConstructDeliverResourcesToFrames.gerund>從事</ConstructDeliverResourcesToFrames.gerund>
-	<ConstructDeliverResourcesToBlueprints.verb>從事</ConstructDeliverResourcesToBlueprints.verb>
-	<ConstructDeliverResourcesToBlueprints.gerund>從事</ConstructDeliverResourcesToBlueprints.gerund>
+	<ConstructDeliverResourcesToBlueprints.verb>建設</ConstructDeliverResourcesToBlueprints.verb>
+	<ConstructDeliverResourcesToBlueprints.gerund>建造</ConstructDeliverResourcesToBlueprints.gerund>
 	<ConstructSmoothFloors.verb>進行</ConstructSmoothFloors.verb>
 	<ConstructSmoothFloors.gerund>進行</ConstructSmoothFloors.gerund>
 	
@@ -80,6 +87,8 @@
 	
 	<DoBillsCook.verb>烹調</DoBillsCook.verb>
 	<DoBillsCook.gerund>烹飪</DoBillsCook.gerund>
+	<DoBillsBrew.verb>釀酒</DoBillsBrew.verb>
+	<DoBillsBrew.gerund>釀造</DoBillsBrew.gerund>
 	<DoBillsButcherFlesh.verb>屠宰</DoBillsButcherFlesh.verb>
 	<DoBillsButcherFlesh.gerund>屠宰</DoBillsButcherFlesh.gerund>
 	<CookFillHopper.verb>填充</CookFillHopper.verb>
@@ -91,11 +100,6 @@
 	<FinishUnfinishedSculptures.gerund>完成雕刻半成品</FinishUnfinishedSculptures.gerund>
 	<DoBillsSculpt.verb>雕刻</DoBillsSculpt.verb>
 	<DoBillsSculpt.gerund>雕刻</DoBillsSculpt.gerund>
-	
-	<!-- ============= Crafting ============= -->
-	
-	<DoBillsCremate.verb>火化</DoBillsCremate.verb>
-	<DoBillsCremate.gerund>火化</DoBillsCremate.gerund>
 	
   <!-- ============= Crafting - weapons ============= -->
   

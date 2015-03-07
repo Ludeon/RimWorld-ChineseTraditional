@@ -15,26 +15,23 @@
 
   <ShortCircuitRain>一個{0}在雨中發生了短路並造成了一場火災。</ShortCircuitRain>
   <AreaRevealed>發現了一片新的地區。</AreaRevealed>
+  <AreaRevealedWithMechanoids>A new area has been revealed. It contains ancient, hostile mechanoids.</AreaRevealedWithMechanoids>
 
   <RoofCollapsed>一部分屋頂因為距離最近的支撐點過遠而坍塌了。</RoofCollapsed>
   <TheseThingsCrushed>這些東西被壓到了:</TheseThingsCrushed>
   <NothingCrushed>所幸沒有東西被壓到。</NothingCrushed>
-  
-  <MentalBreakRampage>{0}的精神崩潰了並開始攻擊任何見到的東西。</MentalBreakRampage>
-  <MentalBreakDaze>{0}崩潰了並開始茫然地四處遊蕩。</MentalBreakDaze>
-  <MentalBreakLeave>{0}受夠了並决定脫離這個殖民地。</MentalBreakLeave>
-
-  <MentalBreakRecoveryRampage>{0}已經恢復冷靜了。</MentalBreakRecoveryRampage>
-  <MentalBreakRecoveryDaze>{0}已經恢復理智了。</MentalBreakRecoveryDaze>
-  <MentalBreakRecoveryLeave>{0}已經改變心意，並重新回到殖民地了。</MentalBreakRecoveryLeave>
 
   <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
   
-  <Birthday>今天是{0}的生日!{1}年滿{2}歲了。</Birthday>
-  <BirthdayWithInjuries>今天是{0}的生日!{1}年滿{2}歲了。\n\n不幸的是，因為{0}的年紀，{0}得到了這些疾病：\n{3}</BirthdayWithInjuries>
+  <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而實際上，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
+  <BirthdayBiologicalAgeInjuries>{0}的生理年齡已滿{1}歲。\n\n不幸的是，因為{0}的年紀，{0}得到了這些疾病：\n{3}</BirthdayBiologicalAgeInjuries>
   
-  <NewDisease>{0}染上了疾病({1})。確保{0}獲得妥善的治療，盡可能讓{0}在床上休養以早日康復。</NewDisease>
-  <NewPartDisease>{0}受到{1}傳染。確保{0}獲得妥善的治療，盡可能讓{0}在床上休養以早日康復。</NewPartDisease>
+  <NewDisease>{0}感染了{1}。確保{0}獲得妥善的治療，盡可能讓{0}在床上休養以早日康復。</NewDisease>
+  <NewPartDisease>{0}的{1}受到感染，確保{0}獲得妥善的治療，並盡可能讓{0}在床上休養以早日康復。</NewPartDisease>
+ 
+  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HIM感受到一股不祥之感。HECAP無法解釋原因，但HE覺得這棟滿佈沙塵的建築潛藏著巨大的危險。</AncientShrineWarning>
+
+  <StruckMineable>我們挖掘到了{0}！</StruckMineable>
   
 </LanguageData>
