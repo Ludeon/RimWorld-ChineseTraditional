@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-		<!-- ======== Unlandable biomes ==========-->
-		<Ocean.label>海洋</Ocean.label>
-		<Ocean.description>廣闊的的大海，對於魚來說是相當理想的地方，對於您來說就不是了。</Ocean.description>
-		
-		<IceSheet.label>冰原</IceSheet.label>
-		<IceSheet.description>這個地區的地表被幾千公尺厚的冰層覆蓋著，這裡沒有土地或者岩石，當然也沒有植物。這裡的動物不是遷徙到别的地方了就是在惡劣環境下滅絕了。</IceSheet.description>
-		
-		<!-- ======== Landable biomes ==========-->
-		<AridShrubland.label>乾旱的灌木林</AridShrubland.label>
-		<AridShrubland.description>一個乾旱的地區，但沒有乾旱到成為沙漠的地步。這裡有廣闊的平原，稀少的樹叢以及中等密度的動物。只有比較堅強的植物才會生長在這裡，</AridShrubland.description>
-		
-		<TemperateForest.label>溫帶森林</TemperateForest.label>
-		<TemperateForest.description>一個由森林和肥沃土地統領的地區。在這裡的樹叢和平原中生活著各種奇特的動物。</TemperateForest.description>
-		
-		<Desert.label>沙漠</Desert.label>
-		<Desert.description>一個非常乾旱，非常炎熱的地區。這裡的生命非常稀少。</Desert.description>
-		
-		<!-- ======== Landable biomes (not implemented) ==========-->
-		<TropicalRainforest.label>熱帶雨林</TropicalRainforest.label>
-		<TropicalRainforest.description>一個樹木茂密又潮濕的地區。在這裡建造或生存會因為繁茂的植物和凶猛的動物而變得極為困難。</TropicalRainforest.description>
-		
-		<Tundra.label>苔原</Tundra.label>
-		<Tundra.description>這個完全被凍結的平原中幾乎找不到任何樹木，連植物都很少見。這裡有一些小型動物和少量的草食性遷徙動物，偶爾也會有一些肉食動物出現。</Tundra.description>
-		
-		<BorealForest.label>針葉林</BorealForest.label>
-		<BorealForest.description>充滿松樹的北方森林。各類大小型動物克服著寒冷的殘酷環境在這裡生存。</BorealForest.description>
-		
+  <!-- ======== Unlandable biomes ==========-->
+	
+	<Ocean.label>海洋</Ocean.label>
+	<Ocean.description>廣闊的的大海，對於魚來說是相當理想的地方，對於您來說就不是了。</Ocean.description>
+	
+	<IceSheet.label>冰原</IceSheet.label>
+	<IceSheet.description>這個地區的地表被幾千公尺厚的冰層覆蓋著，這裡沒有土地或者岩石，當然也沒有植物。這裡的動物不是遷徙到别的地方了就是在惡劣環境下滅絕了。</IceSheet.description>
+
+	
+  <!-- ======== Landable biomes ==========-->
+	
+	<AridShrubland.label>乾旱的灌木林</AridShrubland.label>
+	<AridShrubland.description>一個乾旱的地區，但沒有乾旱到成為沙漠的地步。這裡有廣闊的平原，稀少的樹叢以及中等密度的動物。只有比較堅強的植物才會生長在這裡，</AridShrubland.description>
+	
+	
+	<TemperateForest.label>溫帶森林</TemperateForest.label>
+	<TemperateForest.description>一個由森林和肥沃土地統領的地區。在這裡的樹叢和平原中生活著各種奇特的動物。</TemperateForest.description>
+	
+	
+	<Desert.label>沙漠</Desert.label>
+	<Desert.description>一個非常乾旱，非常炎熱的地區。這裡的生命非常稀少。</Desert.description>
+	
+	
+	<TropicalRainforest.label>熱帶雨林</TropicalRainforest.label>
+	<TropicalRainforest.description>一個樹木茂密又潮濕的地區。在這裡建造或生存會因為繁茂的植物和凶猛的動物而變得極為困難。</TropicalRainforest.description>
+	
+	<BorealForest.label>針葉林</BorealForest.label>
+	<BorealForest.description>充滿松樹的北方森林。各類大小型動物克服著寒冷的殘酷環境在這裡生存。</BorealForest.description>
+	
+	<Tundra.label>苔原</Tundra.label>
+	<Tundra.description>這個完全被凍結的平原中幾乎找不到任何樹木，連植物都很少見。這裡有一些小型動物和少量的草食性遷徙動物，偶爾也會有一些肉食動物出現。</Tundra.description>
+
+	
+  <!-- ======== Landable biomes (not implemented) ==========-->
+	
 </LanguageData>

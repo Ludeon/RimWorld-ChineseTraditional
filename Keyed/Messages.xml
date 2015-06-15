@@ -15,7 +15,9 @@
   <MessageFightersFleeing>{1}的成員正在逃跑。</MessageFightersFleeing>
   <MessageFriendlyFightersLeaving>來自{1}的友好{0}離開了。</MessageFriendlyFightersLeaving>
 
-  <MessageWornApparelDeterioratedAway>{1}穿著的{0}已經損壞了。</MessageWornApparelDeterioratedAway>
+  <MessageVisitorsTakingWounded>來自{1}的{0}帶著一名受傷的訪客。</MessageVisitorsTakingWounded>
+
+  <MessageWornApparelDeterioratedAway>{1}穿著的{0}已經損壞。</MessageWornApparelDeterioratedAway>
 
   <MessageSeasonBegun>{0}到來了。</MessageSeasonBegun>
 
@@ -30,7 +32,10 @@
   <MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
 
   <MessageOutOfNearbyShellsFor>{0}找不到附近有可供{1}使用的砲彈。</MessageOutOfNearbyShellsFor>
-  
+
+  <MessageAnimalsGoPsychoHunted>警告：{0}在受到攻擊後很可能會展開反擊。</MessageAnimalsGoPsychoHunted>
+
+  <LetterLabelMessageRecruitSuccess>新成員！</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
 	<MessageRecruitFail>{0}未能成功招募{1}(成功率{2})。</MessageRecruitFail>
 	<MessageRecruitFailBecauseLoyalty>{0}未能成功招募{1}。(囚犯心情值低於最低要求)</MessageRecruitFailBecauseLoyalty>
@@ -38,10 +43,8 @@
   <MessagePoorlyTreated>{1}處理了{0}的創傷(機率{2})。</MessagePoorlyTreated>
   <MessageWellTreated>{1}完全治癒了{0}的傷口(機率{2})。</MessageWellTreated>
   
-  <MessageTraderCannotAfford>商人無法支付這筆交易。</MessageTraderCannotAfford>
   <MessageColonyCannotAfford>殖民地無法支付這筆交易。</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>可用於交易的銀石不足。</MessageColonyNotEnoughSilver>
-  <MessageTraderNotEnoughSilver>商人没有足夠的銀石。</MessageTraderNotEnoughSilver>
   
   <MessageCriticalAlert>嚴重警報：{0}</MessageCriticalAlert>
   
@@ -53,7 +56,11 @@
   <MessageMustDesignateHuntable>必須指定可狩獵的動物。</MessageMustDesignateHuntable>
   <MessageMustDesignateClaimable>必須指定無主的人造建築。</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>必須指定可打磨的崎嶇岩石地面。</MessageMustDesignateSmoothableFloor>
-  
+  <MessageNothingCanRemoveThickRoofs>無法移除厚山岩屋頂。</MessageNothingCanRemoveThickRoofs>
+  <MessageAlreadyInStorage>這個物件已經被儲存，並且會被移至優先度最高的儲存區。</MessageAlreadyInStorage>
+  <MessageMustDesignateStrippable>必須指定已死亡或倒地的角色。</MessageMustDesignateStrippable>
+
+  <MessageRefusedArrest>{0}拒絕被拘捕！</MessageRefusedArrest>
   
   <MessageNoMedicalBeds>沒有可用的醫療床。</MessageNoMedicalBeds>
   
@@ -61,7 +68,13 @@
 
   <MessageNoLongerDowned>{0}恢復行動能力了。</MessageNoLongerDowned>
 
+  <MessageInvoluntarySleep>過度的疲憊使得{0}倒下了。</MessageInvoluntarySleep>
+
   <MessageMedicalOperationFailureCatastrophic>{0在對{1}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0}在對{1}執行手術時出現細微的失誤。</MessageMedicalOperationFailureMinor>
+
+  <MessageMedicalOperationWillAngerFaction>這項行動將會激怒{0}。</MessageMedicalOperationWillAngerFaction>
+
+  <MessagePawnExitMapRelationsGain>因為{0}健康地離開了殖民地，與{1}的友好度增加了{2}。</MessagePawnExitMapRelationsGain>
   
 </LanguageData>

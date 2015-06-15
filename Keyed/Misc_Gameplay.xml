@@ -33,11 +33,18 @@
   <Inventory>物品</Inventory>
   <ThingInfo>訊息</ThingInfo>
   <DropThing>丟下</DropThing>
+  <Rename>重新命名</Rename>
   <RenameColonist>重新命名殖民者</RenameColonist>
   <UnknownLower>未知</UnknownLower>
   <On>開啟</On>
   <Off>關閉</Off>
   <PowerSwitch_Power>電力</PowerSwitch_Power>
+  <JoyTolerances>Joy tolerances</JoyTolerances>
+  <BrokenLetterLabel>損壞的</BrokenLetterLabel>
+  <AreaDefaultLabel>區域{0}</AreaDefaultLabel>
+  <NoAreaAllowed>無限制</NoAreaAllowed>
+  <NewArea>新區域</NewArea>
+  <InvertArea>倒置</InvertArea>
   
   <!-- Control -->
   <CannotOrderNonControlled>無法命令無控制能力的單位。</CannotOrderNonControlled>
@@ -50,7 +57,6 @@
   <SnowThin>雪(薄)</SnowThin>
   <SnowMedium>雪(厚)</SnowMedium>
   <SnowThick>雪(深)</SnowThick>
-
   
   <!-- Turrets -->
   <GunInstalled>已安裝</GunInstalled>
@@ -59,12 +65,19 @@
   <ShellLoaded>彈藥已裝填</ShellLoaded>
   <ShellNotLoaded>彈藥未裝填</ShellNotLoaded>
   
-  
 	<!-- Job reports -->
 	<ReportHaulingTo>將{0}運至{1}。</ReportHaulingTo>
 	<ReportHauling>搬動{0}中。</ReportHauling>
   <ReportSleeping>睡眠中。</ReportSleeping>
   <ReportResting>休息中。</ReportResting>
+  <WatchingSunrise>欣賞日出美景</WatchingSunrise>
+  <CloudWatching>望著天上的雲朵</CloudWatching>
+  <WatchingSunset>欣賞夕陽美景</WatchingSunset>
+  <Stargazing>觀星</Stargazing>
+  <WatchingEclipse>欣賞日蝕景觀</WatchingEclipse>
+  <DeliveringFood>運送食物給{0}</DeliveringFood>
+  <UsingVerb>Using {0} on {1}.</UsingVerb>
+  <AreaLower>區域</AreaLower>
 
 	<!-- Shooting report -->
   <WeaponMissRadius>武器誤差半徑</WeaponMissRadius>
@@ -81,18 +94,6 @@
   <!-- Generated recipes -->
   <RecipeMake>製作{0}</RecipeMake>
   <RecipeMakeJobString>正在製作{0}。</RecipeMakeJobString>
-	
-    <!-- Status levels -->
-  <Mood>心情值</Mood>
-  <MoodTip>心情是透過滿足心理和生理上的需求來保持的。\n\n如果一個人的心情值太低，他可能會面臨精神崩潰。</MoodTip>
-  <Food>食物值</Food>
-  <FoodTip>食物值表示了人們對他們的食物的滿意度。\n\n食物值會在吃飯時重置。一段時間後，食物值會繼續下降直到他們再度進食。食物值為零時，人物會因為飢餓而受到持續傷害。</FoodTip>
-  <Rest>休息值</Rest>
-  <RestTip>休息值表示需要放鬆或睡覺的程度。\n\n睡覺時休息值會增加到最大。不在睡覺時休息值會隨時間下降。</RestTip>
-  <Environment>環境值</Environment>
-  <EnvironmentTip>環境值反映出人物周圍環境的優美程度。\n\n人們在寬闊並且充滿裝飾的房間內環境值會很高。在周圍環境很醜陋的情況下環境值會很低。</EnvironmentTip>
-  <Openness>開放性</Openness>
-  
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝時間:{0}</ThoughtExpiresIn>
@@ -101,9 +102,8 @@
   <MentalBreakThresholdHard>完全精神崩潰臨界值</MentalBreakThresholdHard>
   <MentalBreakThresholdSoft>輕度精神崩潰臨界值</MentalBreakThresholdSoft>
   
-  
   <!-- Pawn info readout -->
-  <Health>健康</Health>
+  <hitPoints>健康</hitPoints>
   <PawnMainDescWithFactionGendered>來自{2}的{0}{1}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0}{1}</PawnMainDescGendered>
   <PawnMainDescWithFactionGenderless>來自{1}的{0}</PawnMainDescWithFactionGenderless>
@@ -118,7 +118,6 @@
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
   <DefInfoTip>查看關於這個物件的信息。</DefInfoTip>
-  
   
 	<!-- like 'Blood of John' -->
 	<OfLower>來自</OfLower>
@@ -159,7 +158,6 @@
   <StoragePriorityImportant>重要</StoragePriorityImportant>
   <StoragePriorityCritical>關鍵</StoragePriorityCritical>
 
-
   <!-- Rotting -->
   <CurrentlyFrozen>冷凍狀態(不會腐壞)</CurrentlyFrozen>
   <CurrentlyRefrigerated>冷藏狀態({0}後腐壞)</CurrentlyRefrigerated>
@@ -171,10 +169,10 @@
 
   <!-- Plants -->
   <PercentGrowth>已生長{0}%</PercentGrowth>
-  <Growing>生長中</Growing>
-  <NotGrowingNow>不再生長。(需要在{0}的條件下)</NotGrowingNow>
-  <NotGrowingNowNight>不再生長。(夜間)</NotGrowingNowNight>
+  <GrowthRate>生長速率</GrowthRate>
   <FullyGrownIn>{0}後長成</FullyGrownIn>
+  <PlantNeedsLightLevel>需要光線等級</PlantNeedsLightLevel>
+  <PlantResting>休眠中</PlantResting>
   <OutOfIdealTemperatureRange>不適合的環境溫度(以{0}%的速度生長)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>不適合的環境溫度(停止生長)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>待收穫</ReadyToHarvest>
@@ -183,6 +181,7 @@
   <OutdoorGrowingPeriod>植物生長季：{0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>不生長</NoGrowingPeriod>
   <GrowYearRound>全年</GrowYearRound>
+  <GrowSeasonHereNow>正值生長季節。</GrowSeasonHereNow>
   <CannotGrowTooCold>氣溫過低，無法生長</CannotGrowTooCold>
   
   <!-- Zones -->
@@ -191,7 +190,13 @@
   <Stockpile>儲存區</Stockpile>
   <DumpingStockpile>垃圾儲存區</DumpingStockpile>
   <Priority>優先度</Priority>
-  <ClearAll>取消全部</ClearAll>
+  <ClearAll>全部取消</ClearAll>
+  <AllowAll>全部允許</AllowAll>
+
+  <!-- ThingFilter -->
+	<HitPoints>{0}耐久值</HitPoints>
+	<AnyQuality>所有品質</AnyQuality>
+	<OnlyQuality>只限{0}</OnlyQuality>
   
   <!-- Mouseover indicator -->
   <Undiscovered>未探索</Undiscovered>
@@ -199,7 +204,7 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>切換顯示美觀度。\n\n顯示滑鼠游標處的環境美觀度。</ShowBeautyToggleButton>
-  <AutoHomeRegionToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeRegionToggleButton>
+  <AutoHomeAreaToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>切換資源清單的可見性。</CategorizedResourceReadoutToggleButton>
   
   <!-- Fire -->
@@ -220,8 +225,10 @@
   <MustPlaceNextToHopperAccepter>必須放置在需要儲料器的物件旁。</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>必須直接放置在蒸氣間歇泉上。</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>冷氣機的前後端都必須保持通暢。</MustPlaceCoolerWithFreeSpaces>
+	<MustPlaceVentWithFreeSpaces>空調的前後端都必須保持通暢。</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>必須安置在四周可站立的地點。</MustPlaceAdjacentStandable>
   
-  <!-- Wind Turbine -->
+	<!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>受到以下物件阻擋：</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>受到屋頂阻擋</WindTurbine_WindPathIsBlockedByRoof>
 
@@ -272,6 +279,12 @@
   <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
   <GameOverMainMenu>主畫面</GameOverMainMenu>
   
-  
+  <!-- Generic lifespan -->
+  <LifespanExpiry>到期:</LifespanExpiry><!-- ???? -->
+
+  <!-- Traps -->
+  <TrapArmed>啟動</TrapArmed>
+  <TrapNotArmed>未啟動</TrapNotArmed>
+  <TrapRearmingCost>重置花費{0}</TrapRearmingCost>
   
 </LanguageData>

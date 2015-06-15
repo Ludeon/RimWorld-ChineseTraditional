@@ -9,6 +9,9 @@
 	
 	<DesignatorDeconstruct>拆除</DesignatorDeconstruct>
 	<DesignatorDeconstructDesc>拆除建築並回收部分資源。</DesignatorDeconstructDesc>
+
+	<DesignatorUninstall>移除</DesignatorUninstall>
+	<DesignatorUninstallDesc>拆除這個物件，使它可以被移動、交易或重新安裝在其他位置。</DesignatorUninstallDesc>
 	
 	<DesignatorHarvest>收穫</DesignatorHarvest>
 	<DesignatorHarvestDesc>標記需要收穫的植物來獲取食物或產品。</DesignatorHarvestDesc>
@@ -35,25 +38,22 @@
 	<DesignatorPlanRemove>移除計劃</DesignatorPlanRemove>
 	<DesignatorPlanRemoveDesc>移除計劃中的指令。</DesignatorPlanRemoveDesc>
 	
-	<DesignatorHomeRegionAdd>添加生活區</DesignatorHomeRegionAdd>
-	<DesignatorHomeRegionAddDesc>殖民者只會修理，清潔生活區內的物件並只會撲滅生活區中的火。</DesignatorHomeRegionAddDesc>
+	<DesignatorAreaHomeExpand>劃設生活區</DesignatorAreaHomeExpand>
+	<DesignatorAreaHomeExpandDesc>殖民者只會修理、清潔生活區內的物件以及撲滅生活區中的火。</DesignatorAreaHomeExpandDesc>
+	<DesignatorAreaHomeClear>移除生活區</DesignatorAreaHomeClear>
+	<DesignatorAreaHomeClearDesc>移除生活區，殖民者將不再打掃、修理或撲滅這些區域的火。</DesignatorAreaHomeClearDesc>
 	
-	<DesignatorHomeRegionRemove>移除生活區</DesignatorHomeRegionRemove>
-	<DesignatorHomeRegionRemoveDesc>移除一片生活區。殖民者不會再在這裡清潔或者滅火。</DesignatorHomeRegionRemoveDesc>
-	
-	<DesignatorRegionNoRoofAdd>添加無屋頂區</DesignatorRegionNoRoofAdd>
-	<DesignatorRegionNoRoofAddDesc>添加無屋頂的區域。殖民者也會移除這個區域内的所有屋頂。</DesignatorRegionNoRoofAddDesc>
-	
-	<DesignatorRegionNoRoofRemove>移除無屋頂區</DesignatorRegionNoRoofRemove>
-	<DesignatorRegionNoRoofRemoveDesc>移除一片無屋頂區。屋頂會自動升成，已存在的屋頂不會被移除。</DesignatorRegionNoRoofRemoveDesc>
+	<DesignatorAreaNoRoofExpand>劃設無屋頂區</DesignatorAreaNoRoofExpand>
+	<DesignatorAreaNoRoofExpandDesc>劃設無屋頂的區域。殖民者也會移除這個區域内的所有屋頂。</DesignatorAreaNoRoofExpandDesc>
+	<DesignatorAreaNoRoofClear>移除無屋頂區</DesignatorAreaNoRoofClear>
+	<DesignatorAreaNoRoofClearDesc>移除一片無屋頂區。屋頂會自動升成，已存在的屋頂不會被移除。</DesignatorAreaNoRoofClearDesc>
 
-	<DesignatorRegionSnowClearAdd>添加除雪區</DesignatorRegionSnowClearAdd>
-	<DesignatorRegionSnowClearAddDesc>添加一片需要除雪的區域，殖民者將會保持這片區域沒有積雪。</DesignatorRegionSnowClearAddDesc>
-
-	<DesignatorRegionSnowClearRemove>移除除雪區</DesignatorRegionSnowClearRemove>
-	<DesignatorRegionSnowClearRemoveDesc>移除一片除雪區，殖民者將不再清理這片區域的積雪。</DesignatorRegionSnowClearRemoveDesc>
+	<DesignatorAreaSnowClearExpand>劃設除雪區</DesignatorAreaSnowClearExpand>
+	<DesignatorAreaSnowClearExpandDesc>劃設一片需要除雪的區域，殖民者將會保持這片區域沒有積雪。</DesignatorAreaSnowClearExpandDesc>
+	<DesignatorAreaSnowClearClear>移除除雪區</DesignatorAreaSnowClearClear>
+	<DesignatorAreaSnowClearClearDesc>移除一片除雪區，殖民者將不再清理這片區域的積雪。</DesignatorAreaSnowClearClearDesc>
 	
-	<DesignatorGrowingZoneDesc>指定一片你希望你的殖民者種植某種植物的地方。</DesignatorGrowingZoneDesc>
+	<DesignatorGrowingZoneDesc>指定一片你希望你的殖民者種植某種植物的區域。</DesignatorGrowingZoneDesc>
 	
 	<DesignatorZoneCreateStorageResourcesDesc>建立一個讓你的殖民者們存放資源的儲存區。\n此工具也可以用來擴張現存的儲存區。</DesignatorZoneCreateStorageResourcesDesc>
 	
@@ -65,8 +65,23 @@
 	<DesignatorClaim>佔有</DesignatorClaim>
 	<DesignatorClaimDesc>將物件標記為由你的殖民地擁有。</DesignatorClaimDesc>
 	
+	<DesignatorRemoveFloor>移除地板</DesignatorRemoveFloor>
+	<DesignatorRemoveFloorDesc>移除地板，並露出原始的地面。</DesignatorRemoveFloorDesc>
+
+	<DesignatorStrip>掠奪</DesignatorStrip>
+	<DesignatorStripDesc>掠奪屍體或失去行動能力的對象的衣物。</DesignatorStripDesc>
+
+	<DesignatorRearmTrap>重置陷阱</DesignatorRearmTrap>
+	<DesignatorRearmTrapDesc>重置捕獸夾，使它能夠再度運作。</DesignatorRearmTrapDesc>
+
+	<DesignatorExpandAreaAllowed>劃設活動區</DesignatorExpandAreaAllowed>
+	<DesignatorExpandAreaAllowedDesc>規劃一片活動區域。\n\n你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorExpandAreaAllowedDesc>
+	<DesignatorClearAreaAllowed>移除活動區</DesignatorClearAreaAllowed>
+	<DesignatorClearAreaAllowedDesc>移除一片活動區。\n\nn你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
+	<ManageAreaAlloweds>Manage allowed areas...</ManageAreaAlloweds>
 	
-	<!-- placement of blueprints -->
+	
+	<!-- Failure messages -->
 	<UnchosenStuff>無法選擇的素材</UnchosenStuff>
 	<TooCloseToMapEdge>距離地圖邊緣太近。</TooCloseToMapEdge>
 	<OutOfBounds>在界線之外。</OutOfBounds>
@@ -81,13 +96,15 @@
 	<IdenticalBlueprintExists>已經在同地點存在相同的藍圖。</IdenticalBlueprintExists>
 	<TerrainCannotSupport>地形無法支撐此物件。</TerrainCannotSupport>
 	<SpaceAlreadyOccupied>空間已被占用。</SpaceAlreadyOccupied>
+	<TerrainMustBeRemovable>必須指定可移除的地板。</TerrainMustBeRemovable>
 	
-	<!-- placement of zones -->
+	
+	<!-- Mouse attachments -->
 	<ExpandOrCreateZone>擴展{0}或\n建立新的{1}</ExpandOrCreateZone>
 	<CreateNewZone>建立新的{0}</CreateNewZone>
 	
 	
-	<!-- desc helpers -->
+	<!-- Desc helpers -->
 	<TransmitsPower>傳輸電力</TransmitsPower>
 	
 	

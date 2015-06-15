@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <CommandForbiddenDesc>已禁止——殖民者不會和這個物件互動。</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>未禁止-殖民者會和這個物件互動。</CommandNotForbiddenDesc>
+	<CommandForbiddenDesc>已禁止——殖民者不會和這個物件互動。</CommandForbiddenDesc>
+	<CommandNotForbiddenDesc>未禁止-殖民者會和這個物件互動。</CommandNotForbiddenDesc>
   
   <!-- Power -->
   <CommandTogglePowerDesc>開關電力。</CommandTogglePowerDesc>
@@ -47,22 +47,28 @@
   <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(囚犯和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(囚犯和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOffPrisonerBedWarning>
   <AreYouSure>你確定要這麼做嗎?</AreYouSure>
-
   
-  
-  <CommandDetonateDesc>開始爆破倒數計時。</CommandDetonateDesc>
   <CommandDetonateLabel>爆破</CommandDetonateLabel>
+  <CommandDetonateDesc>開始爆破倒數計時。</CommandDetonateDesc>
 
-  <CommandRenameZoneDesc>重新命名這個區域。</CommandRenameZoneDesc>
   <CommandRenameZoneLabel>重新命名</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>重新命名這個區域。</CommandRenameZoneDesc>
 
-  <CommandHideZoneDesc>顯示/隱藏這個區域。</CommandHideZoneDesc>
   <CommandHideZoneLabel>隱藏</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>取消隱藏</CommandUnhideZoneLabel>
+  <CommandHideZoneDesc>顯示/隱藏這個區域。</CommandHideZoneDesc>
 
-  <CommandDeleteZoneDesc>刪除這個區域。</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>删除</CommandDeleteZoneLabel>
-  
+  <CommandDeleteZoneDesc>刪除這個區域。</CommandDeleteZoneDesc>
+
+  <CommandCopyZoneSettingsLabel>複製區域設定</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsDesc>複製當前區域的設定值，你可以將設定套用至另一個區域。</CommandCopyZoneSettingsDesc>
+
+  <CommandPasteZoneSettingsLabel>套用區域設定值</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsDesc>套用設定值至此區域。</CommandPasteZoneSettingsDesc>
+
+  <CommandAllowSow>允許播種</CommandAllowSow>
+  <CommandAllowSowDesc>當此選項設為不允許時，殖民者將不會種植任何植物於此區域，但他們仍可以採收植物。</CommandAllowSowDesc>
   
   <!-- Artillery -->
   <CommandSetForceAttackTarget>強制設定目標</CommandSetForceAttackTarget>
@@ -89,7 +95,10 @@
   <!-- Door -->
   <CommandToggleDoorLock>切換門鎖</CommandToggleDoorLock>
   <CommandToggleDoorLockDesc>鎖上或解鎖此門。鎖上的門將不會對任何人開啟。</CommandToggleDoorLockDesc>
+  <CommandToggleDoorHoldOpen>保持敞開</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpenDesc>當開啟此功能時，殖民者將不會關上這扇門。如果這是一道通電的自動門，那它就會保持敞開。</CommandToggleDoorHoldOpenDesc>
 
+  
   <!-- Temperature control -->
   <CommandResetTemp>重置</CommandResetTemp>
   <CommandResetTempDesc>重置目標溫度為室溫</CommandResetTempDesc>
@@ -103,5 +112,13 @@
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>創建一片與交易信標作用範圍相同的儲存區。</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>創建儲存區</CommandMakeBeaconStockpileLabel>
+
+  <!-- Sun lamp -->
+  <CommandSunLampMakeGrowingZoneDesc>在這個太陽燈的光線範圍內劃設一片種植區。</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneLabel>劃設種植區</CommandSunLampMakeGrowingZoneLabel>
+
+  <!-- Trap -->
+  <CommandAutoRearm>自動重置陷阱</CommandAutoRearm>
+  <CommandAutoRearmDesc>當此功能開啟時，陷阱被觸發後，殖民者將會前來重置陷阱。</CommandAutoRearmDesc>
   
 </LanguageData>

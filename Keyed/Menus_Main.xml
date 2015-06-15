@@ -37,9 +37,9 @@
   
   <!--=========== Version info ==========-->
   <BuildNowAvailable>版本{0}已經發布。確認Ludeon.com以獲得更多資訊。</BuildNowAvailable>
-  <BuildUpToDate>最新版本。</BuildUpToDate>
-  <ErrorGettingVersionInfo>獲取版本訊息錯誤: {0}</ErrorGettingVersionInfo>
-  <LoadingVersionInfo>正在載入版本訊息...</LoadingVersionInfo>
+	<BuildUpToDate>最新版本。</BuildUpToDate>
+	<ErrorGettingVersionInfo>獲取版本訊息錯誤: {0}</ErrorGettingVersionInfo>
+	<LoadingVersionInfo>正在載入版本訊息...</LoadingVersionInfo>
   
   <!--=========== World generator =========-->
   <GenerateWorld>創造世界</GenerateWorld>
@@ -54,22 +54,8 @@
   <!--=========== Storyteller chooser ==========-->
   <ChooseAIStoryteller>選擇AI故事敘述者</ChooseAIStoryteller>
   <HowStorytellersWork>AI故事敘述者會製造海賊掠奪、資源墜落或動物襲擊這樣的事件。他們的選擇將會影響你的殖民地的故事。</HowStorytellersWork>
-  <MustChooseChallengeScale>請選擇遊戲難度。</MustChooseChallengeScale>
-  <ChallengeScale>遊戲難度</ChallengeScale>
-  <ChallengeScaleTip>當故事敘述者送交襲擊事件給你時，其規模將是挑戰難度的{0}倍。</ChallengeScaleTip>
-  <ChallengeScale_BuilderMode>建造者模式</ChallengeScale_BuilderMode>
-  <ChallengeScale_Casual>一般</ChallengeScale_Casual>
-  <ChallengeScale_Rough>較難</ChallengeScale_Rough>
-  <ChallengeScale_Challenge>挑戰</ChallengeScale_Challenge>
-  <ChallengeScale_SeriousChallegne>極端</ChallengeScale_SeriousChallegne>
-  <ChallengeScale_ExtremeChallenge>惡夢</ChallengeScale_ExtremeChallenge>
-  
-  
-  
-  
-  
-  
-  
+  <MustChooseDifficulty>請選擇遊戲難度。</MustChooseDifficulty>
+  <Difficulty>難度</Difficulty>
   
   
   
@@ -114,7 +100,6 @@
   <Backstory>背景故事</Backstory>
   <IncapableOf>無法執行的工作</IncapableOf>
   <Traits>特性</Traits>
-  <TraitsDoNothing>特性在遊戲現階段除了增加遊戲的故事性以外沒有特別的作用。特性的效果會在未來的版本中加入。</TraitsDoNothing>
   <PermanentMoodEffect>永久心情效果</PermanentMoodEffect>
   <Skills>技能</Skills>
   <NoneLower>無</NoneLower>

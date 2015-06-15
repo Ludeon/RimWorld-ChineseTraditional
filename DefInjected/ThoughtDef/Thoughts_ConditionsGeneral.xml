@@ -4,7 +4,7 @@
 
   <rep>
     <path>LowExpectations.stages[0].label</path>
-    <trans>不抱期望</trans>
+    <trans>低度期望</trans>
   </rep>
   <rep>
     <path>LowExpectations.stages[0].description</path>
@@ -12,157 +12,29 @@
   </rep>
   <rep>
     <path>LowExpectations.stages[1].label</path>
-    <trans>毫無期望</trans>
+    <trans>不抱期望</trans>
   </rep>
   <rep>
     <path>LowExpectations.stages[1].description</path>
     <trans>這裡真是個不毛之地，我得要堅強才能活下去。</trans>
   </rep>
-  
-  
   <rep>
-    <path>HighExpectations.stages[0].label</path>
-    <trans>抱持期待</trans>
+    <path>LowExpectations.stages[2].label</path>
+    <trans>失去期望</trans>
   </rep>
   <rep>
-    <path>HighExpectations.stages[0].description</path>
-    <trans>這地方真是不錯，但我應該要受到更好的對待。</trans>
+    <path>LowExpectations.stages[2].description</path>
+    <trans>這裡簡直是個貧困災區，我不敢期待在這裡能有一點舒適，我得要堅強才能活下去。</trans>
   </rep>
   <rep>
-    <path>HighExpectations.stages[1].label</path>
-    <trans>過度期待</trans>
+    <path>LowExpectations.stages[3].label</path>
+    <trans>毫無期望</trans>
   </rep>
   <rep>
-    <path>HighExpectations.stages[1].description</path>
-    <trans>這地方真是富可敵國，我認為沒理由在這裡得不到任何東西。</trans>
-  </rep>
-	
-	
-  <rep>
-    <path>Hungry.stages[0].label</path>
-    <trans>飢餓</trans>
-  </rep>
-  <rep>
-    <path>Hungry.stages[0].description</path>
-    <trans>我有一段時間沒吃飯了。</trans>
-  </rep>
-  <rep>
-    <path>Hungry.stages[1].label</path>
-    <trans>非常飢餓</trans>
-  </rep>
-  <rep>
-    <path>Hungry.stages[1].description</path>
-    <trans>我覺得越來越餓了。我得趕快吃點東西否則我就要餓死了。</trans>
-  </rep>
-  <rep>
-    <path>Hungry.stages[2].label</path>
-    <trans>極度飢餓</trans>
-  </rep>
-  <rep>
-    <path>Hungry.stages[2].description</path>
-    <trans>我只想要點吃的，什麼都行。我覺得我快餓死了，餓得好痛...</trans>
-  </rep>
-	
-  <rep>
-    <path>Tired.stages[0].label</path>
-    <trans>疲勞</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[0].description</path>
-    <trans>我有一段時間沒睡覺了。</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[1].label</path>
-    <trans>非常疲勞</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[1].description</path>
-    <trans>我好累阿。我真想躺下休息幾分鐘...</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[2].label</path>
-    <trans>精疲力竭</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[2].description</path>
-    <trans>我實在是疲憊不堪，我都快站不起来了。我覺得眼皮像是鉛做的一樣。讓我睡一會...</trans>
-  </rep>
-	
-  <rep>
-    <path>EnvironmentUgly.stages[0].label</path>
-    <trans>醜陋的環境</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[0].description</path>
-    <trans>這個地方真不好待。</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[1].label</path>
-    <trans>非常醜陋的環境</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[1].description</path>
-    <trans>這個地方太差勁了。我不想待在這裡。</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[2].label</path>
-    <trans>極度醜陋的環境</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[2].description</path>
-    <trans>我無法忍受這個地方。趕快讓我出去！</trans>
-  </rep>
-	
-  <rep>
-    <path>EnvironmentPretty.stages[0].label</path>
-    <trans>漂亮的環境</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[0].description</path>
-    <trans>這個地方不錯。</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[1].label</path>
-    <trans>非常漂亮的環境</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[1].description</path>
-    <trans>我真的很喜歡這個地方。它太漂亮了。</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[2].label</path>
-    <trans>美麗的環境</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[2].description</path>
-    <trans>這個地方真是很美麗。它讓我振奮起來精力十足。</trans>
-  </rep>
-	
-  <rep>
-    <path>EnvironmentCramped.stages[0].label</path>
-    <trans>擁擠的環境</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCramped.stages[0].description</path>
-    <trans>這個地方太擠了。我覺得一點呼吸的空間都沒有。</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCramped.stages[1].label</path>
-    <trans>非常擁擠的環境</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCramped.stages[1].description</path>
-    <trans>這裡簡直讓我覺得我有幽閉恐懼症。我連活動的空間都沒有。我覺得我就像籠子裡的老鼠一樣。</trans>
+    <path>LowExpectations.stages[3].description</path>
+    <trans>這個地方的所有資源只夠勉強維持生存，我最好再更堅強才能生存下來。</trans>
   </rep>
   
-  <rep>
-    <path>EnvironmentSpaciousInterior.stages[0].label</path>
-    <trans>寬敞的空間</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentSpaciousInterior.stages[0].description</path>
-    <trans>這個寬敞的空間真是個讓人愉快的地方。</trans>
-  </rep>
   
   <rep>
     <path>EnvironmentDark.stages[0].label</path>
@@ -172,6 +44,7 @@
     <path>EnvironmentDark.stages[0].description</path>
     <trans>我已經在黑暗中待了一段時間了。我不太喜歡這樣。</trans>
   </rep>
+  
   
   <rep>
     <path>CabinFever.stages[0].label</path>
@@ -243,6 +116,7 @@
     <trans>我的牙齒不停打顫，連話都說不清；我的腳趾已經沒有任何感覺了，我需要取暖！</trans>
   </rep>
   
+  
   <rep>
     <path>EnvironmentHot.stages[0].label</path>
     <trans>感到熱</trans>
@@ -273,7 +147,7 @@
   </rep>
   <rep>
     <path>EnvironmentHot.stages[3].description</path>
-    <trans>我燒起來了！我會被燒死！</trans>
+    <trans>我感覺快要燒起了，我覺得我會就這樣烤焦。</trans>
   </rep>
 	
 </LanguageData>

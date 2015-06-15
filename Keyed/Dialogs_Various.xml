@@ -16,26 +16,31 @@
   <SavedAs>已保存為{0}。</SavedAs>
   <NeedAName>請輸入一個名稱。</NeedAName>
   <LoadingLongEvent>載入中……</LoadingLongEvent>
-  
+  <SaveIsFromDifferentGameVersion>當前遊戲版本為{0}，但這個存檔版本為{1}，是屬於完全不同的遊戲版本。\n\n嘗試載入這個存檔很有可能會無法運作。</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>當前遊戲版本為{0}，但這個存檔版本為{1}，是屬於不同的遊戲版本。\n\n嘗試載入這個存檔可能仍可以運作。</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>這個存檔屬於當前遊戲版本，必且能夠被正常載入。</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>這個存檔是未知的格式，幾乎可以肯定無法被正常載入。</SaveIsUnknownFormat>
   
   <!-- Colony naming-->
   <NameColonyMessage>大家都知道你不想永遠待在這塊石頭上。但{0}建議你還是應該替你的殖民地取個名字。\n\n該叫做什麼好呢？</NameColonyMessage>
   <ColonyGainsName>這個殖民地現在被稱為{0}了。</ColonyGainsName>
   <ColonyNameIsInvalid>這個殖民地名無效。</ColonyNameIsInvalid>
 
-  <!-- Zone naming -->
+  <!-- Renaming -->
+  <NameIsInvalid>請輸入一個有效的名稱。</NameIsInvalid>
+  <NameIsInUse>這個名稱已被使用。</NameIsInUse>
   <ZoneGainsName>這個區域的名稱被改為{0}。</ZoneGainsName>
-  <ZoneNameIsInvalid>請輸入一個有效的區域名稱。</ZoneNameIsInvalid>
   
   <!-- Pawn naming -->
-  <PawnGainsName>這個殖民者的暱稱被改為{0}。</PawnGainsName>
+  <PawnGainsName>這名殖民者的暱稱已更改為{0}。</PawnGainsName>
   
   <!-- Save game incompatible warning -->
   <VersionMismatch>版本不符</VersionMismatch>
   <SaveGameIncompatibleWarningText>版本不符: 存檔版本為{0}，當前遊戲版本為{1}。\n\n 載入這個存檔很可能會導致遊戲崩潰或出現BUG。</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>警告：此世界檔案創建版本為{0}版，而當前遊戲版本為{0}版\n\n載入這個存檔很可能會導致遊戲崩潰或出現BUG。我們建議您創建一個新的世界。</WorldFileVersionMismatch>
-
-
+  <ModsMismatchWarningTitle>Mod版本不符</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>本地圖存檔包含了與當前不同的Mod設定，視Mod的功能與影響而定，這也許能正常運作，但也有可能會導致問題。\n\n此存檔包含了以下Mod(依順序排列):\n\n{0}\n\n當前運行的Mod：\n\n{1}</ModsMismatchWarningText>
+  
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>你已經更改了解析度。目前遊戲顯示是否正常？\n\n將在{0}秒後恢復原始設定……</ConfirmResolutionChange>
   <ResolutionKeep>保持</ResolutionKeep>
@@ -72,13 +77,14 @@
   <SuspendedAllCaps>已暫停</SuspendedAllCaps>
   <RepeatCount>重複：{0}次</RepeatCount>
   <Forever>永遠</Forever>
+	<Details>細項</Details>
   <IngredientSearchRadius>材料搜索半徑</IngredientSearchRadius>
   <CurrentlyHave>目前擁有</CurrentlyHave>
   <CountingProducts>計算</CountingProducts>
   <Infinite>無限</Infinite>
+  <MinimumSkillLevel>最低{0}等級</MinimumSkillLevel>
   
   <RecipeCannotHaveTargetCount>(因為這個配方有多個或是不可預估的成品，因此無法指定目標數量)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>適用的材料</PermittedIngredients>
   <WorkAmount>工作時程</WorkAmount>
   <MinimumSkills>最低技能值:</MinimumSkills>
   <BillRequires>需要{0}個{1}</BillRequires>
@@ -98,6 +104,7 @@
   <Accuracy>精度</Accuracy>
   <BurstShotCount>連射回數</BurstShotCount>
   <WarmupTime>預熱時間</WarmupTime>
+  <MeleeWarmupTime>近戰預熱時間</MeleeWarmupTime>
   <CooldownTime>冷卻時間</CooldownTime>
   <BurstShotFireRate>射速</BurstShotFireRate>
   <Range>射程</Range>
@@ -112,6 +119,7 @@
   <Attributes>來源</Attributes>
   <LifeSpan>壽命</LifeSpan>
   <Nutrition>營養</Nutrition>
+  <Joy>娛樂</Joy>
   <FoodQuality>食物價值</FoodQuality>
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
   <MeatAmount>肉食數量</MeatAmount>
@@ -133,12 +141,13 @@
   <ResetButton>重置</ResetButton>
   <CancelButton>取消</CancelButton>
   <YourTradeableSilver>目前可用於交易的銀石: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的銀石來交易。</YourTradeableSilverTip>
+	<YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的銀石來交易。</YourTradeableSilverTip>
   <TraderHasNoMore>商人貨品數量不足。</TraderHasNoMore>
   <ColonyHasNoMore>殖民地貨品數量不足。</ColonyHasNoMore>
   <TraderWillNotTrade>商人不接受此貨品交易。</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇更加健全的殖民者擔任代表。</NegotiatorTalkingImpaired>
-
+  <ConfirmTraderShortFunds>商人沒有足夠的銀石支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
+  
   <!-- Comms -->
   <SocialSkillIs>社交技能：{0}</SocialSkillIs>
 
@@ -153,5 +162,13 @@
   <HistoryUploadNo>不允許上傳遊戲數據</HistoryUploadNo>
   <HistoryUploadYesOnce>僅上傳本次的數據</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>不上傳本次的數據，並稍後再問我</HistoryUploadNoOnce>
+	
+  <!-- Outfit management -->
+  <Outfit>裝備</Outfit>
+  <SelectOutfit>選取裝備...</SelectOutfit>
+  <NewOutfit>新裝備</NewOutfit>
+  <DeleteOutfit>刪除裝備...</DeleteOutfit>
+  <OutfitInUse>此裝備已被{0}使用</OutfitInUse>
+  <NoOutfitSelected>尚未選取裝備</NoOutfitSelected>
 	
 </LanguageData>

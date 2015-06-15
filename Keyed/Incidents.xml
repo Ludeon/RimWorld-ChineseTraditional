@@ -1,85 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <LetterLabelAnimalInsanitySingle>狂暴動物</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>一隻附近的{0}發瘋了。牠會攻擊任何牠見到的人。</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>狂暴動物！</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>某種心靈電波橫掃了整個地平線。你的殖民者們沒什麼問題，但是……\n\n看來這附近好多{0}都被這玩意搞瘋了。</AnimalInsanityMultiple>
-
+  
+  <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
   <CropBlight>一種神祕的枯萎病毀掉了你的農作物。</CropBlight>
 
-  <EclipseIncident>這個星球的月亮擋在了太陽和星球之間。日蝕已經開始。</EclipseIncident>
-
+  <LetterLabelMiracleHeal>奇蹟</LetterLabelMiracleHeal>
   <MiracleHeal>{0}奇蹟般的恢復健康了!</MiracleHeal>
 
-  
   <!-- Enemy raids -->
   <EnemyRaidWalkIn>一群名為{1}的{0}來到了附近。</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>一群名為{1}的{0}從軌道降落到了附近。</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>一群名為{1}的{0}從軌道直接降落到了殖民地上!</EnemyRaidCenterDrop>
-  <EnemyRaidStageThenAttack>他們會準備一段時間，然後進攻。\n\n準備好防禦或是先發制人去攻擊他們。</EnemyRaidStageThenAttack>
-  <EnemyRaidImmediateAttack>他們會立即開始進攻。</EnemyRaidImmediateAttack>
-  <EnemyRaidBesiege>看來他們想圍攻殖民地。</EnemyRaidBesiege>
-
 
   <!-- Friendly raids -->
   <FriendlyRaidWalkIn>一群來自{1}的{0}來到了附近。</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>一群來自{1}的{0}從軌道降落到了附近。</FriendlyRaidEdgeDrop>
   <FriendlyRaidCenterDrop>一群來自{1}的{0}從軌道直接降落到了殖民地上!</FriendlyRaidCenterDrop>
-  <FriendlyRaidStageThenAttack>他們會在幫助你戰鬥之前準備一段時間。</FriendlyRaidStageThenAttack>
-  <FriendlyRaidImmediateAttack>他們會立即支援你。</FriendlyRaidImmediateAttack>
-  <FriendlyRaidBesiege>看了他們想用圍攻策略來援助你。</FriendlyRaidBesiege>
 
+  <LetterLabelRefugeePodCrash>逃生艙</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>你偵測到了一個逃生艙在附近墜毀了。\n\n如果有人在撞擊後生還，他們的傷勢恐怕不會太樂觀。</RefugeePodCrash>
 
+  <LetterLabelCargoPodCrash>貨艙</LetterLabelCargoPodCrash>
   <CargoPodCrash>你偵測到了一個貨艙在附近墜毀了。\n\n你或許能在殘骸中找到不少有用的東西。</CargoPodCrash>
 
   <AnElectricalConduit>一根電纜</AnElectricalConduit>
-  <AWallsPowerConduit>牆壁裡的一根內置電纜</AWallsPowerConduit>
   <ShortCircuit>{0}的故障引起了短路。\n\n所有電池裡整整{1}Wd的能量都以爆炸的形式被釋放出來。</ShortCircuit>
   <ShortCircuitWasLarge>這麼多電能造成了一場規模可觀的爆炸。</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>這爆炸的規模可不小啊，哇!</ShortCircuitWasHuge>
-
-  <LetterSolarFlare>一場太陽閃焰開始了。\n\n極強的輻射使所有電子設施無法運作。\n\n這應該會在一天之內結束。</LetterSolarFlare>
-
-  <LetterHeatWave>一場不尋常的熱浪來襲，小心別中暑了！</LetterHeatWave>
-  <HeatWaveOver>熱浪已經過去。</HeatWaveOver>
-  <LetterColdSnap>一場不尋常的寒流來襲，注意保暖！</LetterColdSnap>
-  <ColdSnapOver>寒流已經過去。</ColdSnapOver>
 
   <TraderArrival>一艘商船正巧經過。\n\n他們是{0}{1}。</TraderArrival>
 
   <SingleTravelerPassing>一位從{1}來的{0}正巧路過。HECAP名叫{2}。</SingleTravelerPassing>
   <GroupTravelersPassing>一群來自{0}的旅行者正巧路過。</GroupTravelersPassing>
 
+  <LetterLabelSingleVisitorArrives>訪客</LetterLabelSingleVisitorArrives>
   <SingleVisitorArrives>一位來自{1}的{0}來拜訪殖民地。\n\nHECAP名叫{2}。</SingleVisitorArrives>
+  <LetterLabelGroupVisitorsArrive>參訪團</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>一群來自{0}的人來拜訪殖民地。</GroupVisitorsArrive>
   <VisitorsLeaving>來自{0}的參觀者離開了。</VisitorsLeaving>
 
+  <LetterLabelWandererJoin>志願者加入</LetterLabelWandererJoin>
   <WandererJoin>一位名叫NAME的{0}來到了這裡並加入了殖民地。HECAP是一位{1}。</WandererJoin>
-
+  
+  <LetterLabelManhunterPackArrived>座狼襲擊</LetterLabelManhunterPackArrived>
+  <ManhunterPackArrived>一票專門襲擊殖民者的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何人類。\n\n牠們無法通過門，待在室內是安全的選擇。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
+  <LetterLabelSpaceshipPartCrash>邪惡飛船</LetterLabelSpaceshipPartCrash>
   <SpaceshipPartCrash>一大塊遠古星艦的碎片墜落到了附近。\n\n你的殖民者能感受到腦子裡有東西在勸說他們做無法言喻的舉動。它一定有一個內置AI並且有發射心靈電波的能力，這個AI可不友好。\n\n盡快摧毀它。</SpaceshipPartCrash>
   <MessageAnimalInsanityPulse>這塊遠古星艦碎片發射了一股心靈脈衝，這讓它附近的動物都發瘋了。</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>這塊遠古星艦碎片發射了一股心靈脈衝，它讓殖民者{0}發瘋了。</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>在{0}天前覺醒</AwokeDaysAgo>
-  <PsychicDroneLevel>心靈電波等級: {0}</PsychicDroneLevel>
+  <PsychicDroneLevel>心靈電波等級：{0}</PsychicDroneLevel>
   <PsychicDroneLevelLow>低</PsychicDroneLevelLow>
   <PsychicDroneLevelMedium>中</PsychicDroneLevelMedium>
   <PsychicDroneLevelHigh>高</PsychicDroneLevelHigh>
   <PsychicDroneLevelExtreme>極度</PsychicDroneLevelExtreme>
+  <LetterLabelPsychicDroneLevelIncreased>心靈電波</LetterLabelPsychicDroneLevelIncreased>
   <LetterPsychicDroneLevelIncreased>這塊遠古星艦碎片發射了一股強大的干擾電波。這個區域裡的所有人類都感到混亂、恐慌並變得偏執了起來。</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
+  <LetterLabelAgentRevealed>間諜</LetterLabelAgentRevealed>
   <LetterAgentRevealed>{0}的身份被識破了，他是你的敵人{1}派來的一名間諜。\n\n他現在正試圖逃跑。</LetterAgentRevealed>
   
   <!-- Distant psychic drone -->
+  <LetterLabelPsychicDrone>心靈電波</LetterLabelPsychicDrone>
   <LetterIncidentPsychicDrone>所有{0}的殖民者都感到十分痛苦!\n\n某種憎惡在遙遠的地方向這個地區投射了一股強大的心靈電波，它的頻率似乎只影響{0}。接下来幾天之内，有些人的心情會比以往更差一些。</LetterIncidentPsychicDrone>
   
+  <LetterLabelPsychicSoothe>心靈電波</LetterLabelPsychicSoothe>
+  <LetterIncidentPsychicSoothe>所有{0}的殖民者都在臉上掛上了滿足的笑容！\n\n某個遠方的快樂引擎正在運轉著，它向這個地區投射了一股強大的心靈電波，它的頻率似乎只影響{0}。接下来幾天之内，有些人的心情會特別愉快。</LetterIncidentPsychicSoothe>
+
   <!-- Beavers -->
+  <LetterLabelBeaversArrived>海貍！</LetterLabelBeaversArrived>
   <BeaversArrived>一群飢餓的阿爾法海貍抵達了這個區域。\n\n在牠們將這片區域內的最後一棵樹啃食殆盡前剷除牠們！</BeaversArrived>
   
-  
-  
+  <!-- Refugee chased -->
+  <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。HECAP正被來自{3}的{2}追殺！\n\nHECAP請求加入殖民地以獲得庇護。生理上，HE已經{4}歲了\n\n警告 - 如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
+  <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
+  <RefugeeChasedInitial_Reject>忽略此訊息</RefugeeChasedInitial_Reject>
+  <RefugeeChasedRejected>在你切斷與{0}的通訊之前，一陣慌亂的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
   
   
   

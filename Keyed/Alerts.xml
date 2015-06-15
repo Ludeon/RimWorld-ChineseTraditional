@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-  <ClickToJumpToProblem>點擊此處跳轉至問題點</ClickToJumpToProblem>
+	<ClickToJumpToProblem>點擊此處跳轉至問題點</ClickToJumpToProblem>
+   
+   
   
   <NeedSawmill>需要鋸木機</NeedSawmill>
   <NeedSawmillDesc>你需要鋸木機才能把原木鋸成有用的木板。\n\n建造一個手工鋸木機或電動鋸木機。</NeedSawmillDesc>
   
   <PoorMood>心情低落</PoorMood>
   <PoorMoodDesc>這名殖民者正處於低落的情緒之中，並隨時有可能出現輕微的情緒發洩：\n\n{0}\n確認這名殖民的心情面板，看看有哪些事情正困擾著他。</PoorMoodDesc>
-  
   <TerribleMood>瀕臨崩潰</TerribleMood>
-  <TerribleMoodDesc>這名殖民者的情緒已經瀕臨崩潰，並隨時有可能出現激進的行為，甚至有潛在的暴力危機：\n\n{0}\n確認這名殖民的心情面板，看看有哪些事情正困擾著他。</TerribleMoodDesc>
+  <TerribleMoodDesc>這名殖民者的情緒已經瀕臨崩潰，並隨時有可能出現激進的行為，甚至有潛在的暴力危機：\n\n{0}</TerribleMoodDesc>
+  <LowMoodDescEnding>確認這名殖民的心情面板，看看有哪些事情正困擾著他。</LowMoodDescEnding>
 
   <ColonistNeedsRescue>有殖民者需要救援</ColonistNeedsRescue>
   <ColonistsNeedRescue>多個殖民者需要救援</ColonistsNeedRescue>
@@ -52,14 +54,13 @@
   <BuildingNeedsPower>有建築需要電力</BuildingNeedsPower>
   <BuildingsNeedPower>多個建築需要電力</BuildingsNeedPower>
   <BuildingsNeedPowerDesc>沒有任何電源連接著這些需要電力的建築:\n\n{0}\n將它們和一個發電機或電池連接在一起。</BuildingsNeedPowerDesc>
-  
   <AndMore>以及更多</AndMore>
   
   <NeedMealSource>需要食物來源</NeedMealSource>
   <NeedMealSourceDesc>你沒有任何將原料加工成食品的方式。\n\n建造一個營養膏分配機或爐灶。\n\n(工具不能被放置於監獄房中，否則殖民者將無法使用它)</NeedMealSourceDesc>
 
-  <NeedHomeRegion>需要生活區</NeedHomeRegion>
-  <NeedHomeRegionDesc>你需要規劃一片生活區來制定殖民者們清理、滅火和修復建築的區域。\n\n用建築清單，區域選項裡的生活區來規劃一片區域。</NeedHomeRegionDesc>	
+  <NeedHomeArea>需要生活區</NeedHomeArea>
+  <NeedHomeAreaDesc>你需要規劃一片生活區來制定殖民者們清理、滅火和修復建築的區域。\n\n用建築清單，區域選項裡的生活區來規劃一片區域。</NeedHomeAreaDesc>	
   
   <NeedBatteries>需要蓄電池</NeedBatteries>
   <NeedBatteriesDesc>你只有太陽能發電板而沒有蓄電池。這表示每當入夜你的殖民地就會停電。\n\n建造一兩個蓄電池以確保電力足夠應付夜晚。</NeedBatteriesDesc>
@@ -79,14 +80,18 @@
   <NeedDump>需要垃圾儲存區</NeedDump>
   <NeedDumpDesc>你指定了你的殖民者進行搬運{0}，但是他們沒有地方放置物品。\n\n規劃一個儲存區並將儲存項目設為允許{0}。</NeedDumpDesc>
 
+  <!-- Removed
   <NeedGrave>需要墳墓</NeedGrave>
   <NeedGraveDesc>有遺體倒在地上，不過你的殖民者沒有地方可以放置它。\n\n建造一個墳墓或垃圾儲存區並調整其儲存設定。</NeedGraveDesc>
+  -->
 
   <ColonistsIdle>{0}位殖民者無事可做</ColonistsIdle>
   <ColonistsIdleDesc>這些殖民者們正無所事事的四處走動:\n\n{0}\n你應該給他們找點有意義的事情來做。</ColonistsIdleDesc>
   
+  <!-- Removed
   <HaltedConstructions>{0}項建設缺乏材料</HaltedConstructions>
   <HaltedConstructionsDesc>以下建設正缺少必須的材料:\n\n{0}\n你應該想辦法為你的殖民者獲取對應的材料。</HaltedConstructionsDesc>
+  -->
   
   <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>以下殖民者需要接受治療。如果沒有被治療，他們可能因這些傷口而死，或沒治癒的傷口進而變成永久性的創傷。\n\n{0}\n將他們送到一個醫療床或病床上以接受治療。\n\n(首先將一張床設為病床，接著選擇受傷的殖民者並右擊病床來將他們設為患者。)</ColonistNeedsTreatmentDesc>
@@ -97,11 +102,14 @@
   <ColonistsAwaitingMedicalOperation>{0}位殖民者正等待接受手術</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>這位殖民者正等待接受手術:\n\n{0}\n確保你擁有必需的醫療器材與充足的醫療人員。</ColonistsAwaitingMedicalOperationDesc>
   
-  <FireInHomeRegion>火災！</FireInHomeRegion>
-  <FireInHomeRegionDesc>生活區內發生火災！</FireInHomeRegionDesc>
+  <FireInHomeArea>火災！</FireInHomeArea>
+  <FireInHomeAreaDesc>生活區內發生火災！</FireInHomeAreaDesc>
 
   <PawnsWithLifeThreateningDisease>嚴重疾病</PawnsWithLifeThreateningDisease>
   <PawnsWithLifeThreateningDiseaseDesc>這些殖民者有因疾病死亡的風險：\n\n{0}\n確保他們獲得妥善的醫療照顧。</PawnsWithLifeThreateningDiseaseDesc>
   <PawnsWithLifeThreateningDiseaseAmputationDesc>這些殖民者有因疾病死亡的風險：\n\n{0}\n如果可能，考慮截肢或器官移植以救活他們。</PawnsWithLifeThreateningDiseaseAmputationDesc>
   
+  <BilliardsNeedsSpace>撞球桌需要空間</BilliardsNeedsSpace>
+  <BilliardsNeedsSpaceDesc>你有一張撞球桌周圍受到物件阻擋，這將使你的殖民者無發使用它。\n\n撞球桌四周需要保持淨空。</BilliardsNeedsSpaceDesc>
+
 </LanguageData>

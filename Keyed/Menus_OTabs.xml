@@ -4,6 +4,8 @@
   
   <!-- Tab titles -->
   <WorkTab>工作</WorkTab>
+  <OutfitsTab>裝備</OutfitsTab>
+  <RestrictionsTab>限制</RestrictionsTab>
   <FactionsTab>勢力</FactionsTab>
   <StatisticsTab>統計</StatisticsTab>
   <HistoryTab>歷史</HistoryTab>
@@ -17,13 +19,24 @@
   <ClickToJumpTo>點擊並跳至:</ClickToJumpTo>
   <CannotDoThisWork>{0}無法執行這個工作。</CannotDoThisWork>
   <NoneBrackets>(無)</NoneBrackets>
+
+  <!-- Outfits tab -->
+  <CurrentOutfit>目前裝備</CurrentOutfit>
+  <ManageOutfits>裝備管理</ManageOutfits>
+  <ClearForcedApparel>卸除裝備</ClearForcedApparel>
+  <ApparelForcedLower>強制</ApparelForcedLower>
+  <ForcedApparel>強制裝備</ForcedApparel>
+  <OutfitEdit>編輯...</OutfitEdit>
   
+  <!-- Restrictions tab -->
+  <Copy>複製</Copy>
+  <Paste>貼上</Paste>
+  <AllowedArea>活動區</AllowedArea>
   
   <!-- Factions tab -->
   <Hostile>敵對</Hostile>
-  <HostileTo>{0}的敵人</HostileTo>
+  <HostileTo>與{0}敵對</HostileTo>
   <CurrentGoodwill>這個勢力目前的好感度。</CurrentGoodwill>
-  
   
   <!-- Statistics tab -->
   <Playtime>遊戲時間</Playtime>
@@ -37,7 +50,6 @@
   <ColonistsKilled>殖民者死亡</ColonistsKilled>
   <ColonistsLaunched>發送至太空的殖民者</ColonistsLaunched>
   
-  
   <!-- History tab -->
   <SelectGraph>選擇圖表</SelectGraph>
   <Last30Days>最近30天</Last30Days>
@@ -47,6 +59,5 @@
   <Day>天</Day>
   <Value>價值</Value>
   <External>外來</External>
-  
   
 </LanguageData>

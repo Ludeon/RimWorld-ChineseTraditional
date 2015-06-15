@@ -3,9 +3,17 @@
 	
 	<Goto.reportString>走動中。</Goto.reportString>
 	
-	<SeekSafeTemperature.reportString>尋找安全的溫度。</SeekSafeTemperature.reportString>
+	<GotoSafeTemperature.reportString>尋找安全的氣溫。</GotoSafeTemperature.reportString>
+	
+	<GotoWander.reportString>GotoWander</GotoWander.reportString>
 	
 	<Wait.reportString>站著。</Wait.reportString>
+	
+	<WaitDowned.reportString>倒著。</WaitDowned.reportString>
+	
+	<WaitSafeTemperature.reportString>等待安全的氣溫。</WaitSafeTemperature.reportString>
+	
+	<WaitWander.reportString>WaitWander</WaitWander.reportString>
 	
 	<WaitCombat.reportString>正在尋找目標。</WaitCombat.reportString>
 	
@@ -17,13 +25,15 @@
 	
 	<Equip.reportString>正在裝備TargetA。</Equip.reportString>
 	
+	<TakeInventory.reportString>正在使用TargetA。</TakeInventory.reportString>
+	
 	<!--============= Misc ============-->
 	
 	<Wear.reportString>正在穿上TargetA。</Wear.reportString>
 	
 	<Strip.reportString>正在脱下TargetA。</Strip.reportString>
-	
-	<Hunt.reportString>正在狩獵TargetA。</Hunt.reportString>
+  
+	<RearmTrap.reportString>正在重置TargetA。</RearmTrap.reportString>
 	
 	<ManTurret.reportString>正在操作機器。</ManTurret.reportString>
 	
@@ -37,7 +47,7 @@
 	
 	<Vomit.reportString>嘔吐</Vomit.reportString>
 	
-	<TogglePower.reportString>切換電源開關</TogglePower.reportString>
+	<Flick.reportString>切換開關</Flick.reportString>
 	
 	<!--============ Fire ============-->
 	
@@ -52,71 +62,6 @@
 	<Ingest.reportString>正在食用TargetA。</Ingest.reportString>
 	
 	<LayDown.reportString>睡眠中。</LayDown.reportString>
-	
-	<!--============= Item hauling ===============-->
-	
-	<HaulToCell.reportString>正將TargetA搬走。</HaulToCell.reportString>
-	
-	<HaulToContainer.reportString>正在搬運TargetA。</HaulToContainer.reportString>
-	
-	<!--============= Pawn hauling ===============-->
-	
-	<Rescue.reportString>正在援救TargetA。</Rescue.reportString>
-	
-	<CarryToCryptosleepCasket.reportString>正在將TargetA帶往冷凍休眠艙。</CarryToCryptosleepCasket.reportString>
-	
-	<Capture.reportString>正在俘虜TargetA。</Capture.reportString>
-	
-	<Arrest.reportString>正在逮捕TargetA。</Arrest.reportString>
-	
-	<ReleasePrisoner.reportString>正在釋放TargetA。</ReleasePrisoner.reportString>
-	
-	<EscortPrisonerToBed.reportString>正在押送犯人TargetA。</EscortPrisonerToBed.reportString>
-	
-	<TakeWoundedPrisonerToBed.reportString>正在帶走受傷的犯人TargetA。</TakeWoundedPrisonerToBed.reportString>
-	
-	<TakeToBedToOperate.reportString>正在帶TargetA到床上。</TakeToBedToOperate.reportString>
-	
-	<Kidnap.reportString>正在綁架TargetA。</Kidnap.reportString>
-	
-	
-	
-	
-	<DeliverFood.reportString>正將TargetA帶给TargetB吃。</DeliverFood.reportString>
-	
-	<FeedPatient.reportString>正將TargetA餵食給TargetB。</FeedPatient.reportString>
-	
-	<TreatPatient.reportString>正在治療TargetA。</TreatPatient.reportString>
-	
-	<PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>
-	
-	<DoBill.reportString>正在做TargetA清單上的内容。</DoBill.reportString>
-	
-	<Clean.reportString>正在清理TargetA。</Clean.reportString>
-	
-	<Research.reportString>正在研究中。</Research.reportString>
-	
-	<UseCommsConsole.reportString>正在使用通訊台。</UseCommsConsole.reportString>
-	
-	<Mine.reportString>正在開採TargetA。</Mine.reportString>
-	
-	<SmoothFloor.reportString>正在磨光地面。</SmoothFloor.reportString>
-	
-	<Repair.reportString>正在修理TargetA。</Repair.reportString>
-	
-	<FinishFrame.reportString>正在建造TargetA。</FinishFrame.reportString>
-	
-	<Sow.reportString>正在種植TargetA。</Sow.reportString>
-	
-	<Harvest.reportString>正在收穫TargetA。</Harvest.reportString>
-	
-	<CutPlant.reportString>正在除掉TargetA。</CutPlant.reportString>
-	
-	<Deconstruct.reportString>正在拆除TargetA。</Deconstruct.reportString>
-	
-	<PrisonerFriendlyChat.reportString>正和囚犯TargetA聊天。</PrisonerFriendlyChat.reportString>
-	
-	<PrisonerExecution.reportString>準備處死TargetA。</PrisonerExecution.reportString>
 	
 	
 	

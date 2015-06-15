@@ -3,10 +3,11 @@
 
 
 
-  <CallOnRadio>呼叫{0}</CallOnRadio>
-  <CannotUseSolarFlare>無法使用(太陽閃焰)</CannotUseSolarFlare>
-  <CannotUseNoPower>無法使用(沒有電力)</CannotUseNoPower>
-  <CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
+	<CallOnRadio>呼叫{0}</CallOnRadio>
+  <CannotUseReason>無法使用({0})</CannotUseReason>
+	<CannotUseSolarFlare>無法使用(太陽閃焰)</CannotUseSolarFlare>
+	<CannotUseNoPower>無法使用(沒有電力)</CannotUseNoPower>
+	<CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
   <CannotUseReserved>無法使用(被預留)</CannotUseReserved>
   <CannotUseFull>無法使用(已滿)</CannotUseFull>
 	
@@ -29,6 +30,7 @@
 	<NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
 	<AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
 	<MissingMaterials>需要材料</MissingMaterials>
+  <MissingSkill>技能等級不足</MissingSkill>
 
 
   <ConsumeThing>食用{0}</ConsumeThing>
@@ -38,6 +40,7 @@
   <GoHere>走到這裡</GoHere>
   
   <Arrest>拘捕{0}</Arrest>
+  <TryToArrest>試圖拘捕{0}</TryToArrest>
   <CannotArrest>無法拘捕</CannotArrest>
 
   <Capture>俘虜{0}</Capture>
@@ -56,13 +59,14 @@
   <ReservedBy>預留給了{0}。</ReservedBy>
   <IsReservedBy>{0}被預留给了{1}。</IsReservedBy>
 
-  <NoManipulationSkill>沒有技能</NoManipulationSkill>
+  <Incapable>沒有能力</Incapable>
+  <IncapableOfCapacity>不具有{0}能力</IncapableOfCapacity>
 
   <Equip>裝備{0}</Equip>
   <EquipWarningBrawler>(格鬥家將會不悅)</EquipWarningBrawler>
   <CannotEquip>無法裝備{0}</CannotEquip>
 
-  <Wear>穿上{0}</Wear>
+  <ForceWear>穿上{0}</ForceWear>
   <CannotWear>無法穿上{0}</CannotWear>
   
   <Strip>脱下{0}的衣物</Strip>
@@ -89,6 +93,8 @@
   <CannotGenericWork>無法{0}{1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>無法優先當前任務(不具有{0}能力)</CannotMissingHealthActivities>
+  
   <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>無法優先當前任務({0}不是{1})</CannotPrioritizeIsNotA>

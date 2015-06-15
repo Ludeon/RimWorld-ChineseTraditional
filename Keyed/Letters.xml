@@ -3,6 +3,7 @@
 
   <JumpToLocation>查看事件地點</JumpToLocation>
 
+  <LetterLabelFirstSummerWarning>夏天來臨</LetterLabelFirstSummerWarning>
   <FirstSummerWarning>夏天剛剛到來，但冬天正悄悄接近中。\n\n你的糧食作物並不會在冬季寒冷的天氣裡生長，趁著你還有能力，現在開始儲存糧食，並確保儲備量足以度過數個月的寒冬。\n\n你可以打造一座大型冷凍庫以確保食物不致腐壞。\n\n還有，嘗試買一些、做一些，甚至奪取一些大衣，否則你將會被凍僵在外頭。</FirstSummerWarning>
 
   <RelationsBrokenDown>和{0}的關係惡化了。現在他們對你是敵對態度。</RelationsBrokenDown>
@@ -14,24 +15,45 @@
   <Neutral>中立</Neutral>
 
   <ShortCircuitRain>一個{0}在雨中發生了短路並造成了一場火災。</ShortCircuitRain>
+  
+  <LetterLabelAreaRevealed>發現新地區</LetterLabelAreaRevealed>
   <AreaRevealed>發現了一片新的地區。</AreaRevealed>
-  <AreaRevealedWithMechanoids>A new area has been revealed. It contains ancient, hostile mechanoids.</AreaRevealedWithMechanoids>
+  <AreaRevealedWithMechanoids>我們發現了一片新的區域，裡頭滿是充滿敵意的古老機器人！</AreaRevealedWithMechanoids>
 
   <RoofCollapsed>一部分屋頂因為距離最近的支撐點過遠而坍塌了。</RoofCollapsed>
   <TheseThingsCrushed>這些東西被壓到了:</TheseThingsCrushed>
   <NothingCrushed>所幸沒有東西被壓到。</NothingCrushed>
+  <LetterLabelRoofCollapsed>屋頂坍塌</LetterLabelRoofCollapsed>
 
   <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
   
+  <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
   <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而實際上，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
   <BirthdayBiologicalAgeInjuries>{0}的生理年齡已滿{1}歲。\n\n不幸的是，因為{0}的年紀，{0}得到了這些疾病：\n{3}</BirthdayBiologicalAgeInjuries>
   
+  <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
   <NewDisease>{0}感染了{1}。確保{0}獲得妥善的治療，盡可能讓{0}在床上休養以早日康復。</NewDisease>
   <NewPartDisease>{0}的{1}受到感染，確保{0}獲得妥善的治療，並盡可能讓{0}在床上休養以早日康復。</NewPartDisease>
  
+  <LetterLabelAncientShrineWarning>遠古威嚇</LetterLabelAncientShrineWarning>
   <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HIM感受到一股不祥之感。HECAP無法解釋原因，但HE覺得這棟滿佈沙塵的建築潛藏著巨大的危險。</AncientShrineWarning>
 
   <StruckMineable>我們開採到了{0}！</StruckMineable>
+
+  <LetterLabelAnimalManhunterFromDamage>{0}反擊</LetterLabelAnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>一隻{0}在受到傷害後開始向殖民者反擊！</AnimalManhunterFromDamage>
+
+  <LetterFriendlyTrapSprungLabel>{0}觸發陷阱</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprung>{0}意外的觸發了一個陷阱，並且受到了傷害。</LetterFriendlyTrapSprung>
+
+  <LetterHealthComplications>{0}已經發展成{1} as a complication of {2}.</LetterHealthComplications>
+  <LetterHealthComplicationsLabel>{0}{1}</LetterHealthComplicationsLabel>
+
+  <!-- Generalized letter labels -->
+  <LetterLabelRelationsChangeGood>好消息</LetterLabelRelationsChangeGood>
+  <LetterLabelRelationsChangeBad>壞消息</LetterLabelRelationsChangeBad>
+  <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+  <LetterLabelMentalBreakdown>精神崩潰</LetterLabelMentalBreakdown>
   
 </LanguageData>

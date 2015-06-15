@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<BloodLoss.label>失血</BloodLoss.label>
+	<rep>
+		<path>BloodLoss.stages[0].label</path>
+		<trans>輕微失血</trans>
+	</rep>
+	<rep>
+		<path>BloodLoss.stages[1].label</path>
+		<trans>失血</trans>
+	</rep>
+	<rep>
+		<path>BloodLoss.stages[2].label</path>
+		<trans>嚴重失血</trans>
+	</rep>
+	<rep>
+		<path>BloodLoss.stages[3].label</path>
+		<trans>大出血</trans>
+	</rep>
+	<rep>
+		<path>BloodLoss.stages[4].label</path>
+		<trans>大出血</trans>
+	</rep>
+	
+	<Anesthetic.label>麻醉</Anesthetic.label>
+	<Concussion.label>腦震盪</Concussion.label>
+	<CryptosleepSickness.label>休眠艙症候群</CryptosleepSickness.label>
+	<FoodPoisoning.label>食物中毒</FoodPoisoning.label>
+	
+	<ToxicBuildup.label>毒物中毒</ToxicBuildup.label>
+	<rep>
+		<path>ToxicBuildup.stages[0].label</path>
+		<trans>輕微</trans>
+	</rep>
+	<rep>
+		<path>ToxicBuildup.stages[1].label</path>
+		<trans>輕度</trans>
+	</rep>
+	<rep>
+		<path>ToxicBuildup.stages[2].label</path>
+		<trans>中度</trans>
+	</rep>
+	<rep>
+		<path>ToxicBuildup.stages[3].label</path>
+		<trans>重度</trans>
+	</rep>
+	<rep>
+		<path>ToxicBuildup.stages[4].label</path>
+		<trans>極重度</trans>
+	</rep>
+	<rep>
+		<path>ToxicBuildup.stages[5].label</path>
+		<trans>極重度</trans>
+	</rep>
+	
+</LanguageData>

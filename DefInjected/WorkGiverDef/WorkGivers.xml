@@ -28,11 +28,15 @@
 	
   <!-- =========== Control ============-->
   
-	<TogglePower.verb>開關電源</TogglePower.verb>
-	<TogglePower.gerund>開關電源</TogglePower.gerund>
+	<Flick.verb>開關電源</Flick.verb>
+	<Flick.gerund>開關電源</Flick.gerund>
 
   <!-- ============= Hauling ============= -->
-	
+  
+	<RearmTraps.verb>重置陷阱</RearmTraps.verb>
+	<RearmTraps.gerund>陷阱重置</RearmTraps.gerund>
+	<Strip.verb>掠奪</Strip.verb>
+	<Strip.gerund>掠奪</Strip.gerund>
 	<DoBillsCremate.verb>火化</DoBillsCremate.verb>
 	<DoBillsCremate.gerund>火化</DoBillsCremate.gerund>
 	<HaulCorpses.verb>搬運</HaulCorpses.verb>
@@ -42,10 +46,10 @@
 
   <!-- ============= Growing ============= -->
 
-	<GrowerSow.verb>播種</GrowerSow.verb>
-	<GrowerSow.gerund>播種</GrowerSow.gerund>
 	<GrowerHarvest.verb>收穫</GrowerHarvest.verb>
 	<GrowerHarvest.gerund>收穫</GrowerHarvest.gerund>
+	<GrowerSow.verb>播種</GrowerSow.verb>
+	<GrowerSow.gerund>播種</GrowerSow.gerund>
 
   <!-- ============= Repair ============= -->
 
@@ -59,6 +63,8 @@
 	
 	<DoctorTreatEmergency.verb>緊急治療</DoctorTreatEmergency.verb>
 	<DoctorTreatEmergency.gerund>急救</DoctorTreatEmergency.gerund>
+	<DoctorRescue.verb>援救</DoctorRescue.verb>
+	<DoctorRescue.gerund>救援</DoctorRescue.gerund>
 	<DoctorTreat.verb>治療</DoctorTreat.verb>
 	<DoctorTreat.gerund>醫治</DoctorTreat.gerund>
 	<DoctorFeed.verb>醫療照護</DoctorFeed.verb>
@@ -80,6 +86,8 @@
 	<ConstructDeliverResourcesToFrames.gerund>從事</ConstructDeliverResourcesToFrames.gerund>
 	<ConstructDeliverResourcesToBlueprints.verb>從事</ConstructDeliverResourcesToBlueprints.verb>
 	<ConstructDeliverResourcesToBlueprints.gerund>從事</ConstructDeliverResourcesToBlueprints.gerund>
+	<ConstructRemoveFloors.verb>拆除地板</ConstructRemoveFloors.verb>
+	<ConstructRemoveFloors.gerund>地板拆除</ConstructRemoveFloors.gerund>
 	<ConstructSmoothFloors.verb>進行</ConstructSmoothFloors.verb>
 	<ConstructSmoothFloors.gerund>進行</ConstructSmoothFloors.gerund>
 	
@@ -87,12 +95,16 @@
 	
 	<DoBillsCook.verb>烹調</DoBillsCook.verb>
 	<DoBillsCook.gerund>烹飪</DoBillsCook.gerund>
+	<DoBillsCookCampfire.verb>烹調</DoBillsCookCampfire.verb>
+	<DoBillsCookCampfire.gerund>烹飪</DoBillsCookCampfire.gerund>
 	<DoBillsBrew.verb>釀酒</DoBillsBrew.verb>
 	<DoBillsBrew.gerund>釀造</DoBillsBrew.gerund>
 	<DoBillsButcherFlesh.verb>屠宰</DoBillsButcherFlesh.verb>
 	<DoBillsButcherFlesh.gerund>屠宰</DoBillsButcherFlesh.gerund>
 	<CookFillHopper.verb>填充</CookFillHopper.verb>
 	<CookFillHopper.gerund>填充</CookFillHopper.gerund>
+	
+  <!-- ==================================== Crafting ====================================== -->
 	
   <!-- ============= Crafting - art - sculpture ============= -->
   
@@ -120,17 +132,12 @@
 	<DoBillsStonecut.verb>石材加工</DoBillsStonecut.verb>
 	<DoBillsStonecut.gerund>石材加工</DoBillsStonecut.gerund>
 	
-	<DoBillsSlagRefining.verb>提煉</DoBillsSlagRefining.verb>
-	<DoBillsSlagRefining.gerund>提煉</DoBillsSlagRefining.gerund>
+	<DoBillsSmelter.verb>提煉</DoBillsSmelter.verb>
+	<DoBillsSmelter.gerund>提煉</DoBillsSmelter.gerund>
 	
-	<DoBillsButcherMechanoid.verb>拆解</DoBillsButcherMechanoid.verb>
-	<DoBillsButcherMechanoid.gerund>拆解</DoBillsButcherMechanoid.gerund>
+	<DoBillsMachiningTable.verb>拆解</DoBillsMachiningTable.verb>
+	<DoBillsMachiningTable.gerund>拆解</DoBillsMachiningTable.gerund>
 	
-	<!--
-	<DoBillsMakeWoodPlanks_Electric.verb>切割木材</DoBillsMakeWoodPlanks_Electric.verb>
-	<DoBillsMakeWoodPlanks_Electric.gerund>切割木材</DoBillsMakeWoodPlanks_Electric.gerund>
-	<DoBillsMakeWoodPlanks_Hand.verb>切割木材</DoBillsMakeWoodPlanks_Hand.verb>
-	<DoBillsMakeWoodPlanks_Hand.gerund>切割木材</DoBillsMakeWoodPlanks_Hand.gerund>
-	-->
+	
 	
 </LanguageData>
