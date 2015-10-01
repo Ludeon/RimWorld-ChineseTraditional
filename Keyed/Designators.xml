@@ -1,111 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
-	<DesignatorCancel>取消</DesignatorCancel>
-	<DesignatorCancelDesc>取消指定的建造、採礦、搬運、收或和其他所有的指令。</DesignatorCancelDesc>
-	
-	<DesignatorCutPlants>移除植物</DesignatorCutPlants>
-	<DesignatorCutPlantsDesc>標記需要移除的植物。被選擇的植物將完全被移除，植物上的資源會自動收穫。</DesignatorCutPlantsDesc>
-	
-	<DesignatorDeconstruct>拆除</DesignatorDeconstruct>
-	<DesignatorDeconstructDesc>拆除建築並回收部分資源。</DesignatorDeconstructDesc>
-
-	<DesignatorUninstall>移除</DesignatorUninstall>
-	<DesignatorUninstallDesc>拆除這個物件，使它可以被移動、交易或重新安裝在其他位置。</DesignatorUninstallDesc>
-	
-	<DesignatorHarvest>收穫</DesignatorHarvest>
-	<DesignatorHarvestDesc>標記需要收穫的植物來獲取食物或產品。</DesignatorHarvestDesc>
   
-	<DesignatorHarvestWood>砍伐樹木</DesignatorHarvestWood>
-	<DesignatorHarvestWoodDesc>標記需要被砍掉的樹木以獲取木頭。</DesignatorHarvestWoodDesc>
-	
-	<DesignatorHaulThings>搬運</DesignatorHaulThings>
-	<DesignatorHaulThingsDesc>標記需要搬到儲存區的垃圾等物品。不需要對食物和遺體使用，該項目會自動完成。</DesignatorHaulThingsDesc>
-	<MustHaulHaulables>只能標記可搬運但不會被自動搬運的物品。(如垃圾)</MustHaulHaulables>
-	
-	<DesignatorHunt>狩獵</DesignatorHunt>
-	<DesignatorHuntDesc>標記需要被獵人獵取的動物。</DesignatorHuntDesc>
+  <DesignatorCancel>取消</DesignatorCancel>
+  <DesignatorCancelDesc>取消指定的建造、採礦、搬運、收或和其他所有的指令。</DesignatorCancelDesc>
+  
+  <DesignatorCutPlants>移除植物</DesignatorCutPlants>
+  <DesignatorCutPlantsDesc>標記需要移除的植物。被選擇的植物將完全被移除，植物上的資源會自動收穫。</DesignatorCutPlantsDesc>
+  
+  <DesignatorDeconstruct>拆除</DesignatorDeconstruct>
+  <DesignatorDeconstructDesc>拆除建築並回收部分資源。</DesignatorDeconstructDesc>
 
-	<DesignatorMine>開採</DesignatorMine>
-	<DesignatorMineDesc>標記需要被開採的岩石。</DesignatorMineDesc>
+  <DesignatorUninstall>移除</DesignatorUninstall>
+  <DesignatorUninstallDesc>拆除這個物件，使它可以被移動、交易或重新安裝在其他位置。</DesignatorUninstallDesc>
+  
+  <DesignatorHarvest>收穫</DesignatorHarvest>
+  <DesignatorHarvestDesc>標記需要收穫的植物來獲取食物或產品。</DesignatorHarvestDesc>
+  
+  <DesignatorHarvestWood>砍伐樹木</DesignatorHarvestWood>
+  <DesignatorHarvestWoodDesc>標記需要被砍掉的樹木以獲取木頭。</DesignatorHarvestWoodDesc>
+  
+  <DesignatorHaulThings>搬運</DesignatorHaulThings>
+  <DesignatorHaulThingsDesc>標記需要搬到儲存區的垃圾等物品。不需要對食物和屍體使用，該項目會自動完成。</DesignatorHaulThingsDesc>
+  <MustHaulHaulables>只能標記可搬運但不會被自動搬運的物品。(如垃圾)</MustHaulHaulables>
+  
+  <DesignatorHunt>狩獵</DesignatorHunt>
+  <DesignatorHuntDesc>標記需要被獵人獵取的動物。</DesignatorHuntDesc>
 
-	<DesignatorSmoothFloor>打磨地面</DesignatorSmoothFloor>
-	<DesignatorSmoothFloorDesc>標記需要打磨的岩石地面。</DesignatorSmoothFloorDesc>
-	
-	<DesignatorPlan>計劃</DesignatorPlan>
-	<DesignatorPlanDesc>設置計劃中的指令。除了協助你規劃擴張之外沒有別的功能。</DesignatorPlanDesc>
-	
-	<DesignatorPlanRemove>移除計劃</DesignatorPlanRemove>
-	<DesignatorPlanRemoveDesc>移除計劃中的指令。</DesignatorPlanRemoveDesc>
-	
-	<DesignatorAreaHomeExpand>劃設生活區</DesignatorAreaHomeExpand>
-	<DesignatorAreaHomeExpandDesc>殖民者只會修理、清潔生活區內的物件以及撲滅生活區中的火。</DesignatorAreaHomeExpandDesc>
-	<DesignatorAreaHomeClear>移除生活區</DesignatorAreaHomeClear>
-	<DesignatorAreaHomeClearDesc>移除生活區，殖民者將不再打掃、修理或撲滅這些區域的火。</DesignatorAreaHomeClearDesc>
-	
-	<DesignatorAreaNoRoofExpand>劃設無屋頂區</DesignatorAreaNoRoofExpand>
-	<DesignatorAreaNoRoofExpandDesc>劃設無屋頂的區域。殖民者也會移除這個區域内的所有屋頂。</DesignatorAreaNoRoofExpandDesc>
-	<DesignatorAreaNoRoofClear>移除無屋頂區</DesignatorAreaNoRoofClear>
-	<DesignatorAreaNoRoofClearDesc>移除一片無屋頂區。屋頂會自動升成，已存在的屋頂不會被移除。</DesignatorAreaNoRoofClearDesc>
+  <DesignatorMine>開採</DesignatorMine>
+  <DesignatorMineDesc>標記需要被開採的岩石。</DesignatorMineDesc>
 
-	<DesignatorAreaSnowClearExpand>劃設除雪區</DesignatorAreaSnowClearExpand>
-	<DesignatorAreaSnowClearExpandDesc>劃設一片需要除雪的區域，殖民者將會保持這片區域沒有積雪。</DesignatorAreaSnowClearExpandDesc>
-	<DesignatorAreaSnowClearClear>移除除雪區</DesignatorAreaSnowClearClear>
-	<DesignatorAreaSnowClearClearDesc>移除一片除雪區，殖民者將不再清理這片區域的積雪。</DesignatorAreaSnowClearClearDesc>
-	
-	<DesignatorGrowingZoneDesc>指定一片你希望你的殖民者種植某種植物的區域。</DesignatorGrowingZoneDesc>
-	
-	<DesignatorZoneCreateStorageResourcesDesc>建立一個讓你的殖民者們存放資源的儲存區。\n此工具也可以用來擴張現存的儲存區。</DesignatorZoneCreateStorageResourcesDesc>
-	
-	<DesignatorZoneCreateStorageDumpingDesc>建立一個讓你的殖民者們存放垃圾的儲存區。\n此工具也可以用來擴張現存的儲存區。</DesignatorZoneCreateStorageDumpingDesc>
-	
-	<DesignatorZoneDelete>移除區域</DesignatorZoneDelete>
-	<DesignatorZoneDeleteDesc>移除儲存區或是種植區等區域。</DesignatorZoneDeleteDesc>
-	
-	<DesignatorClaim>佔有</DesignatorClaim>
-	<DesignatorClaimDesc>將物件標記為由你的殖民地擁有。</DesignatorClaimDesc>
-	
-	<DesignatorRemoveFloor>移除地板</DesignatorRemoveFloor>
-	<DesignatorRemoveFloorDesc>移除地板，並露出原始的地面。</DesignatorRemoveFloorDesc>
+  <DesignatorSmoothFloor>打磨地面</DesignatorSmoothFloor>
+  <DesignatorSmoothFloorDesc>標記需要打磨的岩石地面。</DesignatorSmoothFloorDesc>
+  
+  <DesignatorPlan>計劃</DesignatorPlan>
+  <DesignatorPlanDesc>設置計劃中的指令。除了協助你規劃擴張之外沒有別的功能。</DesignatorPlanDesc>
+  
+  <DesignatorPlanRemove>移除計劃</DesignatorPlanRemove>
+  <DesignatorPlanRemoveDesc>移除計劃中的指令。</DesignatorPlanRemoveDesc>
+  
+  <DesignatorAreaHomeExpand>劃設生活區</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpandDesc>殖民者只會修理、清潔生活區內的物件以及撲滅生活區中的火。</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeClear>移除生活區</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClearDesc>移除生活區，殖民者將不再打掃、修理或撲滅這些區域的火。</DesignatorAreaHomeClearDesc>
+  
+  <DesignatorAreaNoRoofExpand>劃設露天區</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>劃設無屋頂的區域。殖民者也會移除這個區域内的所有屋頂。</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofClear>移除露天區</DesignatorAreaNoRoofClear>
+  <DesignatorAreaNoRoofClearDesc>移除一片露天區。屋頂會自動升成，已存在的屋頂不會被移除。</DesignatorAreaNoRoofClearDesc>
 
-	<DesignatorStrip>掠奪</DesignatorStrip>
-	<DesignatorStripDesc>掠奪屍體或失去行動能力的對象的衣物。</DesignatorStripDesc>
+  <DesignatorAreaSnowClearExpand>劃設除雪區</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpandDesc>劃設一片需要除雪的區域，殖民者將會保持這片區域沒有積雪。</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearClear>移除除雪區</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClearDesc>移除一片除雪區，殖民者將不再清理這片區域的積雪。</DesignatorAreaSnowClearClearDesc>
 
-	<DesignatorRearmTrap>重置陷阱</DesignatorRearmTrap>
-	<DesignatorRearmTrapDesc>重置捕獸夾，使它能夠再度運作。</DesignatorRearmTrapDesc>
+  <DesignatorExpandAreaAllowed>劃設活動區</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowedDesc>規劃一片活動區域。\n\n你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorExpandAreaAllowedDesc>
+  <DesignatorClearAreaAllowed>移除活動區</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowedDesc>移除一片活動區。\n\nn你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
+  <ManageAreas>管理活動區...</ManageAreas>
+  
+  <DesignatorGrowingZoneDesc>指定一片你希望你的殖民者種植某種植物的區域。</DesignatorGrowingZoneDesc>
+  
+  <DesignatorZoneCreateStorageResourcesDesc>建立一個讓你的殖民者們存放資源的儲存區。\n此工具也可以用來擴張現存的儲存區。</DesignatorZoneCreateStorageResourcesDesc>
+  
+  <DesignatorZoneCreateStorageDumpingDesc>建立一個讓你的殖民者們存放垃圾的儲存區。\n此工具也可以用來擴張現存的儲存區。</DesignatorZoneCreateStorageDumpingDesc>
+  
+  <DesignatorZoneDelete>移除區域</DesignatorZoneDelete>
+  <DesignatorZoneDeleteDesc>移除儲存區或是種植區等區域。</DesignatorZoneDeleteDesc>
+  
+  <DesignatorClaim>佔據</DesignatorClaim>
+  <DesignatorClaimDesc>將物件標記為由你的殖民地擁有。</DesignatorClaimDesc>
+  
+  <DesignatorRemoveFloor>移除地板</DesignatorRemoveFloor>
+  <DesignatorRemoveFloorDesc>移除地板，並露出原始的地面。</DesignatorRemoveFloorDesc>
 
-	<DesignatorExpandAreaAllowed>劃設活動區</DesignatorExpandAreaAllowed>
-	<DesignatorExpandAreaAllowedDesc>規劃一片活動區域。\n\n你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorExpandAreaAllowedDesc>
-	<DesignatorClearAreaAllowed>移除活動區</DesignatorClearAreaAllowed>
-	<DesignatorClearAreaAllowedDesc>移除一片活動區。\n\nn你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
-	<ManageAreaAlloweds>Manage allowed areas...</ManageAreaAlloweds>
-	
-	
-	<!-- Failure messages -->
-	<UnchosenStuff>無法選擇的素材</UnchosenStuff>
-	<TooCloseToMapEdge>距離地圖邊緣太近。</TooCloseToMapEdge>
-	<OutOfBounds>在界線之外。</OutOfBounds>
-	<CannotPlaceInUndiscovered>不能放置在未探索的區域內。</CannotPlaceInUndiscovered>
-	<InteractionSpotBlocked>互動點被：{0}擋住。</InteractionSpotBlocked>
-	<InteractionSpotOutOfBounds>互動點在界線之外。</InteractionSpotOutOfBounds>
-	<InteractionSpotWillBeBlocked>互動點會被擋住。</InteractionSpotWillBeBlocked>
-	<WouldBlockInteractionSpot>{0}會擋住{1}的互動點。</WouldBlockInteractionSpot>
-	<TerrainIsAlready>這裡的地形已經是{0}了。</TerrainIsAlready>
-    <TerrainBeingSmoothed>這裡的地面已經打磨過了。</TerrainBeingSmoothed>
-	<IdenticalThingExists>已經在同地點存在相同的物件。</IdenticalThingExists>
-	<IdenticalBlueprintExists>已經在同地點存在相同的藍圖。</IdenticalBlueprintExists>
-	<TerrainCannotSupport>地形無法支撐此物件。</TerrainCannotSupport>
-	<SpaceAlreadyOccupied>空間已被占用。</SpaceAlreadyOccupied>
-	<TerrainMustBeRemovable>必須指定可移除的地板。</TerrainMustBeRemovable>
-	
-	
-	<!-- Mouse attachments -->
-	<ExpandOrCreateZone>擴展{0}或\n建立新的{1}</ExpandOrCreateZone>
-	<CreateNewZone>建立新的{0}</CreateNewZone>
-	
-	
-	<!-- Desc helpers -->
-	<TransmitsPower>傳輸電力</TransmitsPower>
-	
-	
+  <DesignatorStrip>掠奪</DesignatorStrip>
+  <DesignatorStripDesc>掠奪屍體或失去行動能力的對象的衣物。</DesignatorStripDesc>
+
+  <DesignatorRearmTrap>重置陷阱</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>重置陷阱，使它能夠再度運作。</DesignatorRearmTrapDesc>
+
+  <DesignatorOpen>開啟</DesignatorOpen>
+  <DesignatorOpenDesc>開啟棺材或容器。</DesignatorOpenDesc>
+  
+  <DesignatorSlaughter>屠宰</DesignatorSlaughter>
+  <DesignatorSlaughterDesc>屠宰一頭以馴養的生物。</DesignatorSlaughterDesc>
+
+  <DesignatorTame>馴服</DesignatorTame>
+  <DesignatorTameDesc>馴養一頭野生動物。</DesignatorTameDesc>
+  
+  
+  <!-- Failure messages -->
+  <UnchosenStuff>無法選擇的素材</UnchosenStuff>
+  <TooCloseToMapEdge>距離地圖邊緣太近。</TooCloseToMapEdge>
+  <OutOfBounds>在界線之外。</OutOfBounds>
+  <CannotPlaceInUndiscovered>不能放置在未探索的區域內。</CannotPlaceInUndiscovered>
+  <InteractionSpotBlocked>互動點被：{0}擋住。</InteractionSpotBlocked>
+  <InteractionSpotOutOfBounds>互動點在界線之外。</InteractionSpotOutOfBounds>
+  <InteractionSpotWillBeBlocked>互動點會被擋住。</InteractionSpotWillBeBlocked>
+  <WouldBlockInteractionSpot>{0}會擋住{1}的互動點。</WouldBlockInteractionSpot>
+  <TerrainIsAlready>這裡的地形已經是{0}了。</TerrainIsAlready>
+  <TerrainBeingSmoothed>這裡的地面已經打磨過了。</TerrainBeingSmoothed>
+  <IdenticalThingExists>已經在同地點存在相同的物件。</IdenticalThingExists>
+  <IdenticalBlueprintExists>已經在同地點存在相同的藍圖。</IdenticalBlueprintExists>
+  <TerrainCannotSupport>地形無法支撐此物件。</TerrainCannotSupport>
+  <SpaceAlreadyOccupied>空間已被占用。</SpaceAlreadyOccupied>
+  <TerrainMustBeRemovable>必須指定可移除的地板。</TerrainMustBeRemovable>
+  
+  
+  <!-- Mouse attachments -->
+  <ExpandOrCreateZone>擴展{0}或\n建立新的{1}</ExpandOrCreateZone>
+  <CreateNewZone>建立新的{0}</CreateNewZone>
+  
+  
+  <!-- Desc helpers -->
+  <TransmitsPower>傳輸電力</TransmitsPower>
+  
+  
 </LanguageData>

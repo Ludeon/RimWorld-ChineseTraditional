@@ -13,11 +13,11 @@
 	<Cleaning.verb>清理</Cleaning.verb>
 	<Cleaning.description>清潔員會將垃圾清理乾淨，讓殖民地成為一個更舒適的地方。</Cleaning.description>
        
-	<Hauling.labelShort>Träger</Hauling.labelShort>
-	<Hauling.pawnLabel>搬運工</Hauling.pawnLabel>
+	<Hauling.labelShort>搬運員</Hauling.labelShort>
+	<Hauling.pawnLabel>搬運員</Hauling.pawnLabel>
 	<Hauling.gerundLabel>搬運</Hauling.gerundLabel>
 	<Hauling.verb>搬運</Hauling.verb>
-	<Hauling.description>搬運工會將東西送到它們該去的地方。</Hauling.description>
+	<Hauling.description>搬運員會將東西送到它們該去的地方。</Hauling.description>
        
 	<Crafting.labelShort>工匠</Crafting.labelShort>
 	<Crafting.pawnLabel>工匠</Crafting.pawnLabel>
@@ -67,8 +67,8 @@
 	<Repair.verb>修理</Repair.verb>
 	<Repair.description>修理工會修理壞掉的建築和裝備。</Repair.description>
  
-	<Construction.labelShort>建築師</Construction.labelShort>
-	<Construction.pawnLabel>建築師</Construction.pawnLabel>
+	<Construction.labelShort>建築工</Construction.labelShort>
+	<Construction.pawnLabel>建築工</Construction.pawnLabel>
 	<Construction.gerundLabel>建造</Construction.gerundLabel>
 	<Construction.verb>建造</Construction.verb>       
 	<Construction.description>建造者會建造你指定的建築。</Construction.description>
@@ -84,30 +84,36 @@
 	<Cooking.gerundLabel>烹飪</Cooking.gerundLabel>
 	<Cooking.verb>烹調</Cooking.verb>
 	<Cooking.description>廚師會填充儲料器、屠宰動物並製作料理。</Cooking.description>
+	
+	<Handling.labelShort>馴獸員</Handling.labelShort>
+	<Handling.pawnLabel>馴獸員</Handling.pawnLabel>
+	<Handling.gerundLabel>馴獸</Handling.gerundLabel>
+	<Handling.verb>馴養</Handling.verb>
+	<Handling.description>馴獸員馴服、飼養以及宰殺動物，此外他們也負責擠奶、剃毛及撿拾雞蛋。</Handling.description>
  
 	<Warden.labelShort>獄卒</Warden.labelShort>
 	<Warden.pawnLabel>獄卒</Warden.pawnLabel>
 	<Warden.gerundLabel>監管</Warden.gerundLabel>
 	<Warden.verb>處理</Warden.verb>
-	<Warden.description>獄卒可以和招募囚犯，和囚犯聊天，毆打囚犯或是處決囚犯——只要你選擇對應的選項。獄卒也會替囚犯送食物。</Warden.description>
+	<Warden.description>獄卒可以和招募俘虜，和俘虜聊天，毆打俘虜或是處決俘虜——只要你選擇對應的選項。獄卒也會替俘虜送食物。</Warden.description>
 	
-	<Control.labelShort>控制員</Control.labelShort>
-	<Control.pawnLabel>控制員</Control.pawnLabel>
-	<Control.gerundLabel>控管</Control.gerundLabel>
-	<Control.verb>控制</Control.verb>
-	<Control.description>控制員可以控制電源開關。</Control.description>
+	<Flicker.labelShort>控制員</Flicker.labelShort>
+	<Flicker.pawnLabel>控制員</Flicker.pawnLabel>
+	<Flicker.gerundLabel>控管</Flicker.gerundLabel>
+	<Flicker.verb>控制</Flicker.verb>
+	<Flicker.description>控制員可以控制電源開關。</Flicker.description>
 	
 	<Patient.labelShort>病人</Patient.labelShort>
 	<Patient.pawnLabel>病人</Patient.pawnLabel>
 	<Patient.gerundLabel>療傷</Patient.gerundLabel>
 	<Patient.verb>成為病人</Patient.verb>
-	<Patient.description>受傷的殖民者將會到醫療床上接受治療。</Patient.description>
+	<Patient.description>受傷的殖民者將會到病床或醫療床上接受治療。</Patient.description>
  
 	<Doctor.labelShort>醫生</Doctor.labelShort>
 	<Doctor.pawnLabel>醫生</Doctor.pawnLabel>
 	<Doctor.gerundLabel>治療</Doctor.gerundLabel>
 	<Doctor.verb>照顧</Doctor.verb>
-	<Doctor.description>醫生會將食物送给無法動彈的人。包括殖民者和囚犯。</Doctor.description>
+	<Doctor.description>醫生會將食物送给無法動彈的人。包括殖民者和俘虜。</Doctor.description>
        
 	<Firefighter.labelShort>消防員</Firefighter.labelShort>
 	<Firefighter.pawnLabel>消防員</Firefighter.pawnLabel>

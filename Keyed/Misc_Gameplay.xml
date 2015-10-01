@@ -5,22 +5,22 @@
   <WorkLeft>剩餘工作</WorkLeft>
   <Contents>內容</Contents>
   <ContainedResources>包含資源</ContainedResources>
-  <ForPrisonerUse>僅限囚犯使用</ForPrisonerUse>
+  <ForPrisonerUse>僅限俘虜使用</ForPrisonerUse>
   <ForColonistUse>僅限殖民者使用</ForColonistUse>
   <MedicalBed>醫療</MedicalBed>
   <Owner>擁有者</Owner>
+  <AssignedColonist>Assigned colonist</AssignedColonist>
   <Nobody>無</Nobody>
   <Unowned>無擁有者</Unowned>
   <DeadTime>死亡的{0}</DeadTime>
   <WalkSpeed>行走速度{0}</WalkSpeed>
   <DyingLower>瀕死</DyingLower>
-  <FilthOnFeet>腳上的污物:</FilthOnFeet>
+  <FilthOnFeet>腳上的髒污：</FilthOnFeet>
   <NotEnoughStoredLower>儲量不足</NotEnoughStoredLower>
   <NothingLower>無</NothingLower>
   <Adapted>適合</Adapted>
-  <Headshot>命中頭部</Headshot>
   <FreshMissingBodyPart>新鮮</FreshMissingBodyPart>
-  <UntreatedLower>未治療</UntreatedLower>
+  <UntreatedLower>尚未治療</UntreatedLower>
   <DevelopedImmunityLower>已形成免疫力</DevelopedImmunityLower>
   <InjuryRequiresTreatment>需要治療以復原</InjuryRequiresTreatment>
   <NextTreatmentAfter>下一次治療將在{0}天後</NextTreatmentAfter>
@@ -39,16 +39,44 @@
   <On>開啟</On>
   <Off>關閉</Off>
   <PowerSwitch_Power>電力</PowerSwitch_Power>
-  <JoyTolerances>Joy tolerances</JoyTolerances>
-  <BrokenLetterLabel>損壞的</BrokenLetterLabel>
-  <AreaDefaultLabel>區域{0}</AreaDefaultLabel>
+  <JoyTolerances>娛樂值</JoyTolerances>
+  <BrokenLetterLabel>崩潰</BrokenLetterLabel>
+  <MilkFullness>產奶進度</MilkFullness>
+  <WoolGrowth>產毛進度</WoolGrowth>
+  <EggProgress>產卵進度</EggProgress>
+  <Fertilized>已受精</Fertilized>
+  <ProgressStoppedUntilFertilized>產卵進度已停止(未受精)</ProgressStoppedUntilFertilized>
+  <SkillTooLow>需要等級{2}的{0}，目前只有{1}級。</SkillTooLow>
+  
+  <!--TextMotes-->
+  <Headshot>命中頭部</Headshot>
+  <TreatQuality>醫療效率{0}</TreatQuality>
+  <PoorResult>效果拙劣</PoorResult>
+  <GoodResult>效果良好</GoodResult>
+  <TextMote_TreatSuccess>治療成功！\n機率{0}</TextMote_TreatSuccess>
+  <TextMote_TreatFailed>治療失敗\n機率{0}</TextMote_TreatFailed>
+  <HarvestFailed>收穫\n失敗</HarvestFailed>
+  <TextMote_TameFail>馴服失敗\n機率{0}</TextMote_TameFail>
+  <TextMote_TameSuccess>馴服成功！\n機率{0}</TextMote_TameSuccess>
+  <TextMote_TrainFail>訓練失敗：{0}\n機率{1}</TextMote_TrainFail>
+  <TextMote_TrainSuccess>已完成訓練：{0}\n機率{1}</TextMote_TrainSuccess>
+
+
+  <!-- Areas -->
+  <Home>生活區</Home>
+  <NoRoof>露天</NoRoof>
+  <SnowClear>除雪</SnowClear>
+  <AreaDefaultLabel>活動區{0}</AreaDefaultLabel>
+  <AreaAnimalDefaultLabel>動物區{0}</AreaAnimalDefaultLabel>
   <NoAreaAllowed>無限制</NoAreaAllowed>
-  <NewArea>新區域</NewArea>
+  <NewArea>新活動區</NewArea>
+  <NewAreaAnimal>新動物區</NewAreaAnimal>
   <InvertArea>倒置</InvertArea>
   
   <!-- Control -->
   <CannotOrderNonControlled>無法命令無控制能力的單位。</CannotOrderNonControlled>
-  <IsIncapableOfViolence>{0}無法執行暴力相關工作。</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{0}無法進行暴力相關行為。</IsIncapableOfViolence>
+  <IsIncapableOfViolenceShort>無法進行暴力相關行為</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0}未受徵召。</IsNotDrafted>
   
   <!-- Snow -->
@@ -65,18 +93,18 @@
   <ShellLoaded>彈藥已裝填</ShellLoaded>
   <ShellNotLoaded>彈藥未裝填</ShellNotLoaded>
   
-	<!-- Job reports -->
+  <!-- Job reports -->
 	<ReportHaulingTo>將{0}運至{1}。</ReportHaulingTo>
 	<ReportHauling>搬動{0}中。</ReportHauling>
   <ReportSleeping>睡眠中。</ReportSleeping>
   <ReportResting>休息中。</ReportResting>
-  <WatchingSunrise>欣賞日出美景</WatchingSunrise>
-  <CloudWatching>望著天上的雲朵</CloudWatching>
-  <WatchingSunset>欣賞夕陽美景</WatchingSunset>
-  <Stargazing>觀星</Stargazing>
-  <WatchingEclipse>欣賞日蝕景觀</WatchingEclipse>
+  <WatchingSunrise>欣賞日出美景。</WatchingSunrise>
+  <CloudWatching>望著天上的雲朵。</CloudWatching>
+  <WatchingSunset>欣賞夕陽美景。</WatchingSunset>
+  <Stargazing>仰望星空。</Stargazing>
+  <WatchingEclipse>欣賞日蝕景觀。</WatchingEclipse>
   <DeliveringFood>運送食物給{0}</DeliveringFood>
-  <UsingVerb>Using {0} on {1}.</UsingVerb>
+  <UsingVerb>對{1}使用{0}。</UsingVerb>
   <AreaLower>區域</AreaLower>
 
 	<!-- Shooting report -->
@@ -103,11 +131,9 @@
   <MentalBreakThresholdSoft>輕度精神崩潰臨界值</MentalBreakThresholdSoft>
   
   <!-- Pawn info readout -->
-  <hitPoints>健康</hitPoints>
-  <PawnMainDescWithFactionGendered>來自{2}的{0}{1}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0}{1}</PawnMainDescGendered>
-  <PawnMainDescWithFactionGenderless>來自{1}的{0}</PawnMainDescWithFactionGenderless>
-  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
+  <PawnMainDescFactionedWrap>{1}的{0}</PawnMainDescFactionedWrap>
+  <PawnMainDescLifestageWrap>{1}{0}</PawnMainDescLifestageWrap>
   <Faction>勢力</Faction>
   <Equipped>裝備</Equipped>
   <EquippedNothing>無</EquippedNothing>
@@ -138,7 +164,7 @@
   
   <!-- Temperature readout -->
   <Indoors>室內氣溫</Indoors>
-  <IndoorsUnroofed>無屋頂區</IndoorsUnroofed>
+  <IndoorsUnroofed>露天區</IndoorsUnroofed>
   <Outdoors>室外氣溫</Outdoors>
 	
   <!--Rotting-->
@@ -168,7 +194,7 @@
   <Ingredients>食材</Ingredients>
 
   <!-- Plants -->
-  <PercentGrowth>已生長{0}%</PercentGrowth>
+  <PercentGrowth>已生長{0}</PercentGrowth>
   <GrowthRate>生長速率</GrowthRate>
   <FullyGrownIn>{0}後長成</FullyGrownIn>
   <PlantNeedsLightLevel>需要光線等級</PlantNeedsLightLevel>
@@ -198,14 +224,16 @@
 	<AnyQuality>所有品質</AnyQuality>
 	<OnlyQuality>只限{0}</OnlyQuality>
   
-  <!-- Mouseover indicator -->
+    <!-- Mouseover indicator -->
   <Undiscovered>未探索</Undiscovered>
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>切換顯示美觀度。\n\n顯示滑鼠游標處的環境美觀度。</ShowBeautyToggleButton>
+  <ShowRoomStatsToggleButton>切換顯示房間屬性值。\n\nn顯示滑鼠游標處的房間屬性值。</ShowRoomStatsToggleButton>
   <AutoHomeAreaToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>切換資源清單的可見性。</CategorizedResourceReadoutToggleButton>
+  <ShowAnimalNamesToggleButton>切換顯示馴養動物的名稱。</ShowAnimalNamesToggleButton>
   
   <!-- Fire -->
   <Fire>火焰</Fire>
@@ -247,6 +275,9 @@
   <UseNeurotrainer>用神經技能訓練器學習{0}</UseNeurotrainer>
   <NeurotrainerUsed>{0}使用{1}神經技能訓練器使等級由{2}提升至{3}了。</NeurotrainerUsed>
   
+  <!-- Artifact -->
+  <UseArtifact>應用</UseArtifact>
+  
   <!-- Minification -->
   <Installed>已安裝</Installed>
   <NotInstalled>未安裝</NotInstalled>
@@ -286,5 +317,9 @@
   <TrapArmed>啟動</TrapArmed>
   <TrapNotArmed>未啟動</TrapNotArmed>
   <TrapRearmingCost>重置花費{0}</TrapRearmingCost>
+  
+  <!-- Facilities -->
+  <InactiveFacility>閒置</InactiveFacility>
+  
   
 </LanguageData>

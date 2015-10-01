@@ -45,11 +45,22 @@
   <GenerateWorld>創造世界</GenerateWorld>
   
   <!--=========== Mods screen ==========-->
-  <GetMods>獲取更多Mod</GetMods>
+  <OpenSteamWorkshop>開啟Steam Workshop</OpenSteamWorkshop>
+  <GetModsFromForum>前往論壇取得更多Mod</GetModsFromForum>
   <OpenModsDataFolder>開啟Mods資料夾</OpenModsDataFolder>
   <ConfirmDisableCoreMod>你確定要關閉Core(核心)模組吗？除非有完全替代遊戲核心所有功能的模組，否則遊戲將完全無法運行。\n\n記住，其它模組能透過使用同樣的defName來覆蓋遊戲內的設定。</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>你確定要完全刪除{0}？</ConfirmDeleteMod>
+  <Unsubscribe>取消訂閱</Unsubscribe>
+  <ConfirmUnsubscribe>你確定要取消訂閱{0}？</ConfirmUnsubscribe>
   <Author>作者</Author>
-  
+  <WorkshopPage>Workshop頁面</WorkshopPage>
+  <UploadToSteamWorkshop>上傳至Steam Workshop</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>更新至Steam Workshop</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>正在上傳。</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Workshop提取失敗\n\原因：{0}</WorkshopSubmissionFailed>
+  <YouAgreeToSteamWorkshopLegal>提取此Mod代表你同意Steam Workshop的服務規範。點擊此處取得更多資訊。</YouAgreeToSteamWorkshopLegal>
+  <WorkshopUploadSucceeded>上傳成功{0}。</WorkshopUploadSucceeded>
+  <DownloadingMod>正在下載{0}</DownloadingMod>
   
   <!--=========== Storyteller chooser ==========-->
   <ChooseAIStoryteller>選擇AI故事敘述者</ChooseAIStoryteller>
@@ -62,9 +73,10 @@
   
   <!--=========== Landing site select =========-->
   <SelectLandingSite>選擇著陸點</SelectLandingSite>
+  <SelectRandomSite>隨機選擇著陸點</SelectRandomSite>
   <SelectSite>選擇地點</SelectSite>
   <MustSelectLandingSite>請選擇一個著陸點。</MustSelectLandingSite>
-  <CannotLandBiome>你不能在這個生態系統上著陸: {0}</CannotLandBiome>
+  <CannotLandBiome>你不能在{0}上著陸</CannotLandBiome>
   <WorldRenderMode>模式</WorldRenderMode>
   <WorldRenderModeFull>全部</WorldRenderModeFull>
   <WorldRenderModeTemperature>溫度</WorldRenderModeTemperature>
@@ -96,10 +108,10 @@
   <ShortIdentifierDesc>角色的簡稱。\n\n這會在所有情况下都顯示。可以和姓或名一樣，也可以是完全不一樣的綽號。</ShortIdentifierDesc>
   <LastNameDesc>角色的名字。\n\n僅在部分清單中。</LastNameDesc>
   <Randomize>隨機</Randomize>
-  <AgeIndicator>{0}歲</AgeIndicator>
+  <AgeIndicator>年紀：{0}</AgeIndicator>
   <Backstory>背景故事</Backstory>
   <IncapableOf>無法執行的工作</IncapableOf>
-  <Traits>特性</Traits>
+  <Traits>性格</Traits>
   <PermanentMoodEffect>永久心情效果</PermanentMoodEffect>
   <Skills>技能</Skills>
   <NoneLower>無</NoneLower>
@@ -112,7 +124,7 @@
   
   <!--=========== Misc ==========-->
   <Start>開始</Start>
-  <Advanced>高級設置</Advanced>
+  <Advanced>進階設定</Advanced>
   <Next>繼續</Next>
   <Back>返回</Back>
   

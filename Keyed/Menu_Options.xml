@@ -5,11 +5,8 @@
   <Audiovisuals>視聽</Audiovisuals>
   <GameVolume>遊戲音量</GameVolume>
   <MusicVolume>音樂音量</MusicVolume>
-  <GraphicsQuality>畫面品質</GraphicsQuality>
-  <GraphicsQualityNormal>普通</GraphicsQualityNormal>
-  <GraphicsQualityGreat>華麗</GraphicsQualityGreat>
+  <Antialiasing>Anti-aliasing</Antialiasing>
 
-  
   <!-- Gameplay -->
   <EdgeScreenScroll>畫面邊緣滾動</EdgeScreenScroll>
   <PauseOnLoad>暫停於讀取時</PauseOnLoad>
@@ -21,24 +18,22 @@
   <AdaptiveTutorIsReset>遊戲教學重設成功。系統將重新進行教學。</AdaptiveTutorIsReset>
   <RunInBackground>背景運行</RunInBackground>
   <DevelopmentMode>開發者模式</DevelopmentMode>
+  <ResetModsConfigOnCrash>Auto-reset mods config on crash</ResetModsConfigOnCrash>
   <LogVerbose>詳細日誌紀錄</LogVerbose>
   <OpenSaveGameDataFolder>開啟存檔資料夾</OpenSaveGameDataFolder>
   <NamesYouWantToSee>在遊戲中或者背景故事中你想看到的角色姓氏：</NamesYouWantToSee>
   <ChangeStoryteller>切換AI故事敘述者</ChangeStoryteller>
   <AutosaveInterval>自動保存間隔</AutosaveInterval>
+  <TemperatureMode>Temperature mode</TemperatureMode>
   
   <!-- Resolution -->
   <Resolution>解析度</Resolution>
   <Fullscreen>全螢幕顯示</Fullscreen>
-  <CurrentRes>目前為{0}</CurrentRes>
-  <ChooseResolution>選擇解析度</ChooseResolution>
 
-  
   <!-- Privacy-->
   <Privacy>隱私</Privacy>
   <UserName>使用者名稱</UserName>
   <ChooseHistoryUploadPref>遊戲數據上傳選項。</ChooseHistoryUploadPref>
-  <CurrentHistoryUploadPref>目前為{0}</CurrentHistoryUploadPref>
   <AboutHistoryUpload>玩家的遊戲數據可以幫助開發者取得更佳的遊戲平衡。如果你同意，每隔{0}天你的遊戲數據會自動上傳至RimWorld伺服器並分析(以及在遊戲结束等其他情况下上傳)。上傳的遊戲數據只包含關於遊戲的統計和歷史紀錄，不包含除了用戶名以外的任何個人訊息，完全匿名發送。</AboutHistoryUpload>
   
 </LanguageData>

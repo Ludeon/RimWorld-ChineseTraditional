@@ -18,6 +18,19 @@
 	<PatientGoToBed.verb>接受治療</PatientGoToBed.verb>
 	<PatientGoToBed.gerund>接受治療於</PatientGoToBed.gerund>
 
+  <!-- ============= Animal handling ============= -->
+
+	<Slaughter.verb>宰殺</Slaughter.verb>
+	<Slaughter.gerund>宰殺</Slaughter.gerund>
+	<Milk.verb>擠奶</Milk.verb>
+	<Milk.gerund>擠奶</Milk.gerund>
+	<Shear.verb>剃毛</Shear.verb>
+	<Shear.gerund>剃毛</Shear.gerund>
+	<Tame.verb>馴服</Tame.verb>
+	<Tame.gerund>嘗試馴服</Tame.gerund>
+	<Train.verb>訓練</Train.verb>
+	<Train.gerund>訓練</Train.gerund>
+
 	<!-- ============= Cleaning ============= -->
 
 	<CleanClearSnow.verb>除雪</CleanClearSnow.verb>
@@ -37,12 +50,14 @@
 	<RearmTraps.gerund>陷阱重置</RearmTraps.gerund>
 	<Strip.verb>掠奪</Strip.verb>
 	<Strip.gerund>掠奪</Strip.gerund>
+	<Open.verb>開啟</Open.verb>
+	<Open.gerund>開啟</Open.gerund>
 	<DoBillsCremate.verb>火化</DoBillsCremate.verb>
-	<DoBillsCremate.gerund>火化</DoBillsCremate.gerund>
-	<HaulCorpses.verb>搬運</HaulCorpses.verb>
-	<HaulCorpses.gerund>搬運</HaulCorpses.gerund>
+	<DoBillsCremate.gerund>火化於</DoBillsCremate.gerund>
 	<HaulGeneral.verb>搬運</HaulGeneral.verb>
 	<HaulGeneral.gerund>搬運</HaulGeneral.gerund>
+	<BuryCorpses.verb>埋葬</BuryCorpses.verb>
+	<BuryCorpses.gerund>埋葬</BuryCorpses.gerund>
 
   <!-- ============= Growing ============= -->
 
@@ -70,9 +85,9 @@
 	<DoctorFeed.verb>醫療照護</DoctorFeed.verb>
 	<DoctorFeed.gerund>照顧</DoctorFeed.gerund>
 	<DoBillsMedicalHumanOperation.verb>手術</DoBillsMedicalHumanOperation.verb>
-	<DoBillsMedicalHumanOperation.gerund>手術</DoBillsMedicalHumanOperation.gerund>
+	<DoBillsMedicalHumanOperation.gerund>手術於</DoBillsMedicalHumanOperation.gerund>
 	<DoBillsMedicalAnimalOperation.verb>手術</DoBillsMedicalAnimalOperation.verb>
-	<DoBillsMedicalAnimalOperation.gerund>手術</DoBillsMedicalAnimalOperation.gerund>
+	<DoBillsMedicalAnimalOperation.gerund>手術於</DoBillsMedicalAnimalOperation.gerund>
 	<TakeToBedToOperate.verb>前往手術</TakeToBedToOperate.verb>
 	<TakeToBedToOperate.gerund>前往手術</TakeToBedToOperate.gerund>
 	
@@ -80,6 +95,8 @@
 	
 	<Deconstruct.verb>拆除</Deconstruct.verb>
 	<Deconstruct.gerund>拆除</Deconstruct.gerund>
+	<Uninstall.verb>打包</Uninstall.verb>
+	<Uninstall.gerund>打包</Uninstall.gerund>
 	<ConstructFinishFrames.verb>建造</ConstructFinishFrames.verb>
 	<ConstructFinishFrames.gerund>建造</ConstructFinishFrames.gerund>
 	<ConstructDeliverResourcesToFrames.verb>從事</ConstructDeliverResourcesToFrames.verb>
@@ -108,22 +125,28 @@
 	
   <!-- ============= Crafting - art - sculpture ============= -->
   
+  <!--
 	<FinishUnfinishedSculptures.verb>完成雕刻半成品</FinishUnfinishedSculptures.verb>
 	<FinishUnfinishedSculptures.gerund>完成雕刻半成品</FinishUnfinishedSculptures.gerund>
+  -->
 	<DoBillsSculpt.verb>雕刻</DoBillsSculpt.verb>
 	<DoBillsSculpt.gerund>雕刻</DoBillsSculpt.gerund>
 	
   <!-- ============= Crafting - weapons ============= -->
   
-	<FinishUnfinishedWeapons.verb>完成武器半成本</FinishUnfinishedWeapons.verb>
-	<FinishUnfinishedWeapons.gerund>完成武器半成本</FinishUnfinishedWeapons.gerund>
+  <!--
+	<FinishUnfinishedWeapons.verb>完成武器半成品</FinishUnfinishedWeapons.verb>
+	<FinishUnfinishedWeapons.gerund>完成武器半成品</FinishUnfinishedWeapons.gerund>
+  -->
 	<DoBillsMakeWeapons.verb>鍛造</DoBillsMakeWeapons.verb>
 	<DoBillsMakeWeapons.gerund>打造</DoBillsMakeWeapons.gerund>
   
   <!-- ============= Crafting - apparel ============= -->
 	
+  <!--
 	<FinishUnfinishedApparel.verb>完成服裝半成品</FinishUnfinishedApparel.verb>
 	<FinishUnfinishedApparel.gerund>完成服裝半成品</FinishUnfinishedApparel.gerund>
+  -->
 	<DoBillsMakeApparel.verb>裁縫</DoBillsMakeApparel.verb>
 	<DoBillsMakeApparel.gerund>縫紉</DoBillsMakeApparel.gerund>
 	

@@ -29,22 +29,23 @@
   
   <MessageFullyHealed>{0}完全康復了。</MessageFullyHealed>
 
-  <MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
+  <MessagePrisonerIsEscaping>俘虜{0}正在逃跑。</MessagePrisonerIsEscaping>
 
   <MessageOutOfNearbyShellsFor>{0}找不到附近有可供{1}使用的砲彈。</MessageOutOfNearbyShellsFor>
 
   <MessageAnimalsGoPsychoHunted>警告：{0}在受到攻擊後很可能會展開反擊。</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalManhuntsOnTameFailed>警告：若馴服失敗，{0}很可能會對你展開攻擊(機率{1})。</MessageAnimalManhuntsOnTameFailed>
 
   <LetterLabelMessageRecruitSuccess>新成員！</LetterLabelMessageRecruitSuccess>
-  <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
-	<MessageRecruitFail>{0}未能成功招募{1}(成功率{2})。</MessageRecruitFail>
-	<MessageRecruitFailBecauseLoyalty>{0}未能成功招募{1}。(囚犯心情值低於最低要求)</MessageRecruitFailBecauseLoyalty>
+  <MessageRecruitSuccess>{0}成功招募了{1}(機率{2})。</MessageRecruitSuccess>
+	<MessageRecruitFail>{0}未能成功招募{1}(機率{2})。</MessageRecruitFail>
+	<MessageRecruitFailBecauseLoyalty>{0}未能成功招募{1}。(俘虜心情值低於最低要求)</MessageRecruitFailBecauseLoyalty>
+  <MessageTameSuccess>{0}成功馴服了{1}(機率{1})。</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{0}成功馴服了{1}(機率{2})，並將牠命名為{3}。</MessageTameAndNameSuccess> 
   
-  <MessagePoorlyTreated>{1}處理了{0}的創傷(機率{2})。</MessagePoorlyTreated>
-  <MessageWellTreated>{1}完全治癒了{0}的傷口(機率{2})。</MessageWellTreated>
   
   <MessageColonyCannotAfford>殖民地無法支付這筆交易。</MessageColonyCannotAfford>
-  <MessageColonyNotEnoughSilver>可用於交易的銀石不足。</MessageColonyNotEnoughSilver>
+  <MessageColonyNotEnoughSilver>可用於交易的白銀不足。</MessageColonyNotEnoughSilver>
   
   <MessageCriticalAlert>嚴重警報：{0}</MessageCriticalAlert>
   
@@ -54,27 +55,38 @@
   <MessageMustDesignateHaulable>必須指定可以搬運的物品。</MessageMustDesignateHaulable>
   <MessageMustDesignateMineable>必須指定可開採的岩石。</MessageMustDesignateMineable>
   <MessageMustDesignateHuntable>必須指定可狩獵的動物。</MessageMustDesignateHuntable>
+  <MessageMustDesignateTameable>必須指定可馴服的動物。</MessageMustDesignateTameable>
   <MessageMustDesignateClaimable>必須指定無主的人造建築。</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>必須指定可打磨的崎嶇岩石地面。</MessageMustDesignateSmoothableFloor>
   <MessageNothingCanRemoveThickRoofs>無法移除厚山岩屋頂。</MessageNothingCanRemoveThickRoofs>
   <MessageAlreadyInStorage>這個物件已經被儲存，並且會被移至優先度最高的儲存區。</MessageAlreadyInStorage>
   <MessageMustDesignateStrippable>必須指定已死亡或倒地的角色。</MessageMustDesignateStrippable>
+  <MessageMustDesignateSlaughterable>必須指定隸屬殖民地的馴養動物。</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateOpenable>必須指定完整的墳墓或容器。</MessageMustDesignateOpenable>
 
   <MessageRefusedArrest>{0}拒絕被拘捕！</MessageRefusedArrest>
   
-  <MessageNoMedicalBeds>沒有可用的醫療床。</MessageNoMedicalBeds>
+  <MessageNoMedicalBeds>沒有可用的病床或醫療床。</MessageNoMedicalBeds>
   
   <PawnDiedBecauseOf>{0}因{1}死亡了。</PawnDiedBecauseOf>
 
   <MessageNoLongerDowned>{0}恢復行動能力了。</MessageNoLongerDowned>
 
-  <MessageInvoluntarySleep>過度的疲憊使得{0}倒下了。</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>過度的疲勞使得{0}倒下了。</MessageInvoluntarySleep>
 
-  <MessageMedicalOperationFailureCatastrophic>{0在對{1}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureCatastrophic>{0}在對{1}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0}在對{1}執行手術時出現細微的失誤。</MessageMedicalOperationFailureMinor>
 
   <MessageMedicalOperationWillAngerFaction>這項行動將會激怒{0}。</MessageMedicalOperationWillAngerFaction>
 
   <MessagePawnExitMapRelationsGain>因為{0}健康地離開了殖民地，與{1}的友好度增加了{2}。</MessagePawnExitMapRelationsGain>
+
+  <MessageMiscarriedStarvation>{0}因為營養不良而流產了。</MessageMiscarriedStarvation>
+  <MessageMiscarriedPoorHealth>{0}因健康狀況不佳而流產了。</MessageMiscarriedPoorHealth>
+  <MessageGaveBirth>{0}誕生了！</MessageGaveBirth>
+
+  <MessageNuzzledPawnGaveNameTo>在被撒嬌後，{0}決定將{1}命名為{2}。</MessageNuzzledPawnGaveNameTo>
+
+  <MessageNoHandlerSkilledEnough>沒有馴養員能夠馴服{0}(需要等級{1}的{2}，最好的馴養員{3}只有{4})。</MessageNoHandlerSkilledEnough>
   
 </LanguageData>

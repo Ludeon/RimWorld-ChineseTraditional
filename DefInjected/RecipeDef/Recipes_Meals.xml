@@ -5,14 +5,9 @@
 	<CookMealSimple.description>用一種原料烹調一份簡單的料理</CookMealSimple.description>
 	<CookMealSimple.jobString>正在烹調簡單料理。</CookMealSimple.jobString>
 	
-
-  <!-- Separate def for campfire cooking so different work params and ingredients can be specified -->
-  <!-- Large workAmount included to incentivize building a stove -->
-  <!-- Perhaps campfire cooking should also be more wasteful of ingredients? -->
   	<CookMealSimpleCampfire.label>烹調簡單的料理</CookMealSimpleCampfire.label>
 	<CookMealSimpleCampfire.description>用一種原料烹調一份簡單的料理</CookMealSimpleCampfire.description>
 	<CookMealSimpleCampfire.jobString>烹調簡單的料理</CookMealSimpleCampfire.jobString>
-	
 	
 	<CookMealFine.label>烹調精緻的料理</CookMealFine.label>
 	<CookMealFine.description>用肉和植物組合作為原料烹調一份相對複雜的料理。</CookMealFine.description>

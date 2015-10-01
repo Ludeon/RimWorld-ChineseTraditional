@@ -31,13 +31,17 @@
   <NeedMinerDesc>你佈置置了一些岩石開採工作，但是沒有殖民者在做採礦工作。\n\n給一個殖民者分配採礦工作。</NeedMinerDesc>
 
   <NeedWarden>需要獄卒</NeedWarden>
-  <NeedWardenDesc>你有一名囚犯，但是沒有殖民者再做獄卒工作。\n\n給一個殖民者分配獄卒工作。</NeedWardenDesc>
+  <NeedWardenDesc>你有一名俘虜，但是沒有殖民者再做獄卒工作。\n\n給一個殖民者分配獄卒工作。</NeedWardenDesc>
 
   <LowFood>食物不足</LowFood>
   <LowFoodDesc>你所有的食物營養值總和只有{0}。這已經非常低了。\n\n種，買，找，甚至去打一些食物來。</LowFoodDesc>
 
+  <LowMedicine>藥品不足</LowMedicine>
+  <LowMedicineDesc>你只剩下{0}份藥品。\n\n向商人購買一些藥品。</LowMedicineDesc>
+  <NoMedicineDesc>你的藥品已經用盡。\n\n向商人購買一些藥品。</NoMedicineDesc>
+
   <NeedColonistBeds>需要殖民者床</NeedColonistBeds>
-  <NeedColonistBedsDesc>你的殖民者人數比你擁有的床多，有人將會沒有地方睡覺。\n\n建造更多床，或者將一些囚犯床更改成殖民者床。</NeedColonistBedsDesc>
+  <NeedColonistBedsDesc>你的殖民者人數比你擁有的床多，有人將會沒有地方睡覺。\n\n建造更多床，或者將一些俘虜床更改成殖民者床。</NeedColonistBedsDesc>
 
   <HunterLacksWeapon>獵人需要裝備武器</HunterLacksWeapon>
   <HunterLacksWeaponDesc>有殖民者被指派為獵人卻沒有武器，在沒有武器的情況下他們將不會進行打獵工作。\n\n為了避免受傷，我們建議替獵人裝備遠距離武器。</HunterLacksWeaponDesc>
@@ -71,18 +75,18 @@
   <BrawlerHasRangedWeapon>格鬥愛好者持有遠距離武器</BrawlerHasRangedWeapon>
   <BrawlerHasRangedWeaponDesc>有一名殖民者具有格鬥愛好者的特性，但他正裝備著遠距離武器，這將使他非常不高興。</BrawlerHasRangedWeaponDesc>
 
-  <ShieldUserHasRangedWeapon>個人護盾使用者持有遠距離武器</ShieldUserHasRangedWeapon>
+  <ShieldUserHasRangedWeapon>能量護盾使用者持有遠距離武器</ShieldUserHasRangedWeapon>
   <ShieldUserHasRangedWeaponDesc>有一名殖民者裝備了遠距離武器，除非非常貼近目標，否則他們的火力將無法穿透這面護盾，</ShieldUserHasRangedWeaponDesc>
   
   <NeedResearchProject>需要研究項目</NeedResearchProject>
   <NeedResearchProjectDesc>你有可以用來進行研究的設備但你沒有指定研究項目。\n\n開啟研究清單並指定一個研究項目。</NeedResearchProjectDesc>
 
   <NeedDump>需要垃圾儲存區</NeedDump>
-  <NeedDumpDesc>你指定了你的殖民者進行搬運{0}，但是他們沒有地方放置物品。\n\n規劃一個儲存區並將儲存項目設為允許{0}。</NeedDumpDesc>
+  <NeedDumpDesc>你指定了你的殖民者搬運{0}，但是他們沒有地方放置物品。\n\n規劃一個儲存區並將儲存項目設為允許{0}。</NeedDumpDesc>
 
   <!-- Removed
   <NeedGrave>需要墳墓</NeedGrave>
-  <NeedGraveDesc>有遺體倒在地上，不過你的殖民者沒有地方可以放置它。\n\n建造一個墳墓或垃圾儲存區並調整其儲存設定。</NeedGraveDesc>
+  <NeedGraveDesc>有屍體倒在地上，不過你的殖民者沒有地方可以放置它。\n\n建造一個墳墓或垃圾儲存區並調整其儲存設定。</NeedGraveDesc>
   -->
 
   <ColonistsIdle>{0}位殖民者無事可做</ColonistsIdle>
@@ -112,4 +116,7 @@
   <BilliardsNeedsSpace>撞球桌需要空間</BilliardsNeedsSpace>
   <BilliardsNeedsSpaceDesc>你有一張撞球桌周圍受到物件阻擋，這將使你的殖民者無發使用它。\n\n撞球桌四周需要保持淨空。</BilliardsNeedsSpaceDesc>
 
+  <HunterHasShieldAndRangedWeapon>獵人同時裝備了能量護盾及遠程武器</HunterHasShieldAndRangedWeapon>
+  <HunterHasShieldAndRangedWeaponDesc>有獵人同時裝備了能量護盾及遠程武器，這會導致武器無法發揮作用。\n\n在你解除他的護盾前，獵人將不會進行狩獵工作。</HunterHasShieldAndRangedWeaponDesc>
+  
 </LanguageData>

@@ -25,7 +25,7 @@
   </rep>
   <rep>
     <path>AteNutrientPasteMeal.stages[0].description</path>
-    <trans>我只有營養膏可以吃。我知道這玩意能讓我活下去，但是沒人喜歡吃這黏呼呼的東西。</trans>
+    <trans>我只有營養膏可以吃。我知道這玩意兒能讓我活下去，但是沒人喜歡吃這黏呼呼的東西。</trans>
   </rep>
   
   <rep>
@@ -39,7 +39,7 @@
   
   <rep>
     <path>AteLavishMeal.stages[0].label</path>
-    <trans>吃了奢侈的料理</trans>
+    <trans>吃了豪華的料理</trans>
   </rep>
   <rep>
     <path>AteLavishMeal.stages[0].description</path>
@@ -50,47 +50,47 @@
   <!-- =========== Cannibalism ===============-->
   
   <rep>
-    <path>AteHumanoidMeatDirect.stages[0].label</path>
+    <path>AteHumanlikeMeatDirect.stages[0].label</path>
     <trans>吃了生的人肉</trans>
   </rep>
   <rep>
-    <path>AteHumanoidMeatDirect.stages[0].description</path>
+    <path>AteHumanlikeMeatDirect.stages[0].description</path>
     <trans>我吃了一個人的肉，生的，就像一只動物一樣。這簡直是個惡夢。</trans>
   </rep>
 	
   <rep>
-    <path>AteHumanoidMeatAsIngredient.stages[0].label</path>
+    <path>AteHumanlikeMeatAsIngredient.stages[0].label</path>
     <trans>吃了烹調過的人肉</trans>
   </rep>
   <rep>
-    <path>AteHumanoidMeatAsIngredient.stages[0].description</path>
+    <path>AteHumanlikeMeatAsIngredient.stages[0].description</path>
     <trans>我吃了用人肉作出的料理，這簡直太可怕了。</trans>
   </rep>
 	
   <rep>
-    <path>AteHumanoidMeatDirectCannibal.stages[0].label</path>
+    <path>AteHumanlikeMeatDirectCannibal.stages[0].label</path>
     <trans>吃了生的人肉</trans>
   </rep>
   <rep>
-    <path>AteHumanoidMeatDirectCannibal.stages[0].description</path>
+    <path>AteHumanlikeMeatDirectCannibal.stages[0].description</path>
     <trans>我吃了一個人的肉，生的，就像一只動物一樣。這簡直太棒了。</trans>
   </rep>
 	
   <rep>
-    <path>AteHumanoidMeatAsIngredientCannibal.stages[0].label</path>
+    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].label</path>
     <trans>吃了烹調過的人肉</trans>
   </rep>
   <rep>
-    <path>AteHumanoidMeatAsIngredientCannibal.stages[0].description</path>
+    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].description</path>
     <trans>我吃了用人肉作出的料理，味道棒極了。若能配上些蠶豆和紅酒就更棒了。</trans>
   </rep>
 	
   <rep>
-    <path>ButcheredHumanoidCorpse.stages[0].label</path>
+    <path>ButcheredHumanlikeCorpse.stages[0].label</path>
     <trans>屠宰了人類</trans>
   </rep>
   <rep>
-    <path>ButcheredHumanoidCorpse.stages[0].description</path>
+    <path>ButcheredHumanlikeCorpse.stages[0].description</path>
     <trans>我把一個人像動物一樣屠宰了。</trans>
   </rep>
 	
@@ -117,7 +117,7 @@
 	
   <rep>
     <path>ObservedLayingRottingCorpse.stages[0].label</path>
-    <trans>看見腐爛的遺體</trans>
+    <trans>看見腐爛的屍體</trans>
   </rep>
   <rep>
     <path>ObservedLayingRottingCorpse.stages[0].description</path>
@@ -152,11 +152,11 @@
   </rep>
 	
   <rep>
-    <path>KilledHumanoidBloodlust.stages[0].label</path>
+    <path>KilledHumanlikeBloodlust.stages[0].label</path>
     <trans>殺死了别人</trans>
   </rep>
   <rep>
-    <path>KilledHumanoidBloodlust.stages[0].description</path>
+    <path>KilledHumanlikeBloodlust.stages[0].description</path>
     <trans>我剛剛殺死了某人，這實在是太爽了！</trans>
   </rep>
 	
@@ -166,7 +166,7 @@
   </rep>
   <rep>
     <path>BattleWounded.stages[0].description</path>
-    <trans>這是我的血！我在戰鬥中受傷了！</trans>
+    <trans>這是我的血！我受傷了！</trans>
   </rep>
 	
 	
@@ -175,10 +175,10 @@
 	<ObservedGibbetCageEmpty.description>這些绞刑籠看起來如此殘酷。</ObservedGibbetCageEmpty.description>
 
 	<ObservedGibbetCageFullStranger.label>看見装有陌生人的绞刑籠</ObservedGibbetCageFullStranger.label>
-	<ObservedGibbetCageFullStranger.description>我看見一個陌生人的遺體在绞刑籠裡，這真是一個残酷的地方。</ObservedGibbetCageFullStranger.description>
+	<ObservedGibbetCageFullStranger.description>我看見一個陌生人的屍體在绞刑籠裡，這真是一個残酷的地方。</ObservedGibbetCageFullStranger.description>
 
 	<ObservedGibbetCageFullColonist.label>看見装有殖民者的绞刑籠</ObservedGibbetCageFullColonist.label>
-	<ObservedGibbetCageFullColonist.description>我看見一個自己人的遺體躺在绞刑籠裡，我以前還和他說過話。這簡直太可怕了。</ObservedGibbetCageFullColonist.description>
+	<ObservedGibbetCageFullColonist.description>我看見一個自己人的屍體躺在绞刑籠裡，我以前還和他說過話。這簡直太可怕了。</ObservedGibbetCageFullColonist.description>
 	<-->
 	
   <rep>
@@ -237,43 +237,39 @@
   
   <rep>
     <path>KnowPrisonerSold.stages[0].label</path>
-    <trans>得知有囚犯被賣掉了</trans>
+    <trans>得知有俘虜被賣掉了</trans>
   </rep>
   <rep>
     <path>KnowPrisonerSold.stages[0].description</path>
-    <trans>他們把囚犯賣给奴隸商人了，這真令我擔憂。</trans>
+    <trans>他們把俘虜賣给奴隸商人了，這真令我擔憂。</trans>
   </rep>
   
-  <rep>
-    <path>KnowPrisonerExecuted.stages[0].label</path>
-    <trans>得知有囚犯被處決了</trans>
-  </rep>
-  <rep>
-    <path>KnowPrisonerExecuted.stages[0].description</path>
-    <trans>有個囚犯被冷血地處決了。這個殖民地越來越邪惡了。</trans>
-  </rep>
+  <KnowGuestExecuted.stages.0.label>有人被丟著等死</KnowGuestExecuted.stages.0.label>
+  <KnowGuestExecuted.stages.0.description>有個俘虜或賓客被丟著等死。</KnowGuestExecuted.stages.0.description>
+  <KnowGuestExecuted.stages.1.label>有人被處決了</KnowGuestExecuted.stages.1.label>
+  <KnowGuestExecuted.stages.1.description>有個俘虜或賓客被冷血地處決了。這個殖民地越來越邪惡了。</KnowGuestExecuted.stages.1.description>
+  <KnowGuestExecuted.stages.2.label>有人的器官被摘除後死了</KnowGuestExecuted.stages.2.label>
+  <KnowGuestExecuted.stages.2.description>有個俘虜或賓客的因為器官被摘除而死了，這真是太恐怖了！</KnowGuestExecuted.stages.2.description>
   
-  <rep>
-    <path>KnowPrisonerOrganHarvested.stages[0].label</path>
-    <trans>得知有囚犯的器官被摘除了</trans>
-  </rep>
-  <rep>
-    <path>KnowPrisonerOrganHarvested.stages[0].description</path>
-    <trans>有個囚犯的身體器官被摘除了，在他們毫無選擇的情況下分解他們的身體，這真是太恐怖了！</trans>
-  </rep>
+  <KnowColonistExecuted.stages.0.label>有殖民者被丟著等死</KnowColonistExecuted.stages.0.label>
+  <KnowColonistExecuted.stages.0.description>有殖民者被丟著等死。</KnowColonistExecuted.stages.0.description>
+  <KnowColonistExecuted.stages.1.label>有殖民者被處決了</KnowColonistExecuted.stages.1.label>
+  <KnowColonistExecuted.stages.1.description>有殖民者被冷血地處決了。這個殖民地越來越邪惡了。</KnowColonistExecuted.stages.1.description>
+  <KnowColonistExecuted.stages.2.label>有殖民者的器官被摘除後死了</KnowColonistExecuted.stages.2.label>
+  <KnowColonistExecuted.stages.2.description>有殖民者的因為器官被摘除而死了，這真是太恐怖了！</KnowColonistExecuted.stages.2.description>
   
-  <rep>
-    <path>MePrisonerOrganHarvested.stages[0].label</path>
-    <trans>器官被摘除了</trans>
-  </rep>
-  <rep>
-    <path>MePrisonerOrganHarvested.stages[0].description</path>
-    <trans>這些人奪走了我身體的器官！把我當作一部舊引擎一樣拆解！</trans>
-  </rep>
+  <KnowGuestOrganHarvested.stages.0.label>得知有人的器官被摘除了</KnowGuestOrganHarvested.stages.0.label>
+  <KnowGuestOrganHarvested.stages.0.description>有個囚犯的身體器官被摘除了，在他們毫無選擇的情況下分解他們的身體，這真是太恐怖了！</KnowGuestOrganHarvested.stages.0.description>
+
+  <KnowColonistOrganHarvested.stages.0.label>得知有殖民者的器官被摘除了</KnowColonistOrganHarvested.stages.0.label>
+  <KnowColonistOrganHarvested.stages.0.description>有個殖民者的身體器官被摘除了，在他們毫無選擇的情況下分解他們的身體，這真是太恐怖了！</KnowColonistOrganHarvested.stages.0.description>
+  
+  <MyOrganHarvested.stages.0.label>器官被摘除了</MyOrganHarvested.stages.0.label>
+  <MyOrganHarvested.stages.0.description>這些人奪走了我身體的器官！把我當作一部舊引擎一樣拆解！</MyOrganHarvested.stages.0.description>
   
   <rep>
     <path>WasImprisoned.stages[0].label</path>
-    <trans>剛被囚禁</trans>
+    <trans>被囚禁</trans>
   </rep>
   <rep>
     <path>WasImprisoned.stages[0].description</path>

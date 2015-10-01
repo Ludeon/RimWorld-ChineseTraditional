@@ -3,9 +3,9 @@
 	
     <!--============= Item hauling ===============-->
 	
-	<HaulToCell.reportString>Trägt TargetA.</HaulToCell.reportString>
+	<HaulToCell.reportString>正在運送TargetA。</HaulToCell.reportString>
 	
-	<HaulToContainer.reportString>Trägt TargetA.</HaulToContainer.reportString>
+	<HaulToContainer.reportString>正在運送TargetA。</HaulToContainer.reportString>
 	
     <!--============= Pawn hauling ===============-->
 	
@@ -27,8 +27,16 @@
 	
 	<Kidnap.reportString>正在綁架TargetA。</Kidnap.reportString>
 	
+  <!--============= Animal handling ===============-->
 	
+	<Slaughter.reportString>正在屠宰TargetA。</Slaughter.reportString>
+	<Shear.reportString>正在替TargetA剃毛。</Shear.reportString>
+	<Milk.reportString>正在替TargetA擠奶。</Milk.reportString>
+	<Tame.reportString>正在嘗試馴服TargetA。</Tame.reportString>
+	<Train.reportString>正在訓練TargetA。</Train.reportString>
 	
+
+  <!--============= Misc ===============-->
 	
 	<DeliverFood.reportString>正將TargetA帶给TargetB吃。</DeliverFood.reportString>
 	
@@ -42,7 +50,7 @@
 	
 	<Clean.reportString>正在清理TargetA。</Clean.reportString>
 	
-	<Research.reportString>正在研究中。</Research.reportString>
+	<Research.reportString>正在進行研究。</Research.reportString>
 	
 	<Hunt.reportString>正在狩獵TargetA。</Hunt.reportString>
 	
@@ -64,9 +72,15 @@
 	
 	<Deconstruct.reportString>正在拆除TargetA。</Deconstruct.reportString>
 	
-	<PrisonerFriendlyChat.reportString>正和囚犯TargetA聊天。</PrisonerFriendlyChat.reportString>
+	<Uninstall.reportString>正在打包TargetA。</Uninstall.reportString>
 	
-	<PrisonerExecution.reportString>準備處死TargetA。</PrisonerExecution.reportString>
+	<PrisonerFriendlyChat.reportString>正和俘虜TargetA聊天。</PrisonerFriendlyChat.reportString>
+	
+	<PrisonerAttemptRecruit.reportString>正在嘗試招募TargetA。</PrisonerAttemptRecruit.reportString>
+	
+	<PrisonerExecution.reportString>準備處決TargetA。</PrisonerExecution.reportString>
+	
+	<BuryCorpse.reportString>正在埋葬TargetA。</BuryCorpse.reportString>
 	
 	
 	

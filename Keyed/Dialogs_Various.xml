@@ -7,6 +7,10 @@
   <GoBack>返回</GoBack>
   <OK>確認</OK>
   
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>從不相容或損壞的Mod中復原</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>有部分Mod導致了嚴重的錯誤。\n\n原因可能是Mod之間的衝突、與當前RimWorld遊戲版本不相容，或是Mod已經損壞。\n\nAll mods have been disabled and can be activated again in the mods dialog.</RecoveredFromErrorsText>
+  
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
   <OverwriteButton>覆蓋</OverwriteButton>
@@ -20,6 +24,7 @@
   <SaveIsFromDifferentGameBuild>當前遊戲版本為{0}，但這個存檔版本為{1}，是屬於不同的遊戲版本。\n\n嘗試載入這個存檔可能仍可以運作。</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>這個存檔屬於當前遊戲版本，必且能夠被正常載入。</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>這個存檔是未知的格式，幾乎可以肯定無法被正常載入。</SaveIsUnknownFormat>
+  <ProblemSavingFile>存檔時發生問題{0}：\n\n{1}</ProblemSavingFile>
   
   <!-- Colony naming-->
   <NameColonyMessage>大家都知道你不想永遠待在這塊石頭上。但{0}建議你還是應該替你的殖民地取個名字。\n\n該叫做什麼好呢？</NameColonyMessage>
@@ -45,9 +50,6 @@
   <ConfirmResolutionChange>你已經更改了解析度。目前遊戲顯示是否正常？\n\n將在{0}秒後恢復原始設定……</ConfirmResolutionChange>
   <ResolutionKeep>保持</ResolutionKeep>
   <ResolutionRevert>恢復</ResolutionRevert>
-
-  <!-- Overview -->
-  <OverviewOf>{0}的概觀</OverviewOf>
 
   <!-- Research -->
   <Research>研究</Research>
@@ -88,9 +90,10 @@
   <WorkAmount>工作時程</WorkAmount>
   <MinimumSkills>最低技能值:</MinimumSkills>
   <BillRequires>需要{0}個{1}</BillRequires>
-  <BillRequiresMayVary>(Counts may vary for item with nonstandard volumes, like gold.)</BillRequiresMayVary>
-  <ThisIsSmallVolume>This is a small-volume ingredient. This means that each 'unit' is only 1/20 as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need 20x as much as usual.</ThisIsSmallVolume>
-  <UsableIngredients>usable ingredients</UsableIngredients>
+  <BillRequiresNutrition>需要{0}營養值</BillRequiresNutrition>
+  <BillRequiresMayVary>(數量可能會因為非標準體積的原料而有不同，例如黃金。)</BillRequiresMayVary>
+  <ThisIsSmallVolume>這是一個小體積的原料。每單位只有正常體積的1/20。因此，如果要達到相同質量，所需要的單位數量將是一般的二十倍。</ThisIsSmallVolume>
+  <UsableIngredients>可用的原料</UsableIngredients>
   <DoXTimes>做X次</DoXTimes>
   <DoUntilYouHaveX>製作直到擁有X個</DoUntilYouHaveX>
   <DoForever>永遠製作</DoForever>
@@ -122,13 +125,15 @@
   <Joy>娛樂</Joy>
   <FoodQuality>食物價值</FoodQuality>
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
-  <MeatAmount>肉食數量</MeatAmount>
   <MinFoodQuality>最低食物質量</MinFoodQuality>
   <Diet>飲食</Diet>
   <RecruitDifficulty>招募難度</RecruitDifficulty>
   <MarketValue>Base price</MarketValue>
   <Covers>覆蓋</Covers>
   <BodyPartEfficiency>人造部位運作效率</BodyPartEfficiency>
+  <MoodChange>情緒變化</MoodChange>
+  <Wildness>野性</Wildness>
+  <WildnessExplanation>野性越強烈的生物自然更加的難以馴養、訓練及掌握。</WildnessExplanation>
   
   <!-- Trade -->
   <DragToTrade>交易數量</DragToTrade>
@@ -140,13 +145,14 @@
   <AcceptButton>確定</AcceptButton>
   <ResetButton>重置</ResetButton>
   <CancelButton>取消</CancelButton>
-  <YourTradeableSilver>目前可用於交易的銀石: {0}</YourTradeableSilver>
-	<YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的銀石來交易。</YourTradeableSilverTip>
+  <YourTradeableSilver>目前可用於交易的白銀: {0}</YourTradeableSilver>
+	<YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的白銀來交易。</YourTradeableSilverTip>
   <TraderHasNoMore>商人貨品數量不足。</TraderHasNoMore>
   <ColonyHasNoMore>殖民地貨品數量不足。</ColonyHasNoMore>
   <TraderWillNotTrade>商人不接受此貨品交易。</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇更加健全的殖民者擔任代表。</NegotiatorTalkingImpaired>
-  <ConfirmTraderShortFunds>商人沒有足夠的銀石支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
+  <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
+  <SortBy>排列方式以</SortBy>
   
   <!-- Comms -->
   <SocialSkillIs>社交技能：{0}</SocialSkillIs>

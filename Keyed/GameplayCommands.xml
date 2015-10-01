@@ -5,11 +5,11 @@
 	<CommandNotForbiddenDesc>未禁止-殖民者會和這個物件互動。</CommandNotForbiddenDesc>
   
   <!-- Power -->
-  <CommandTogglePowerDesc>開關電力。</CommandTogglePowerDesc>
-  <CommandTogglePowerLabel>開關電力</CommandTogglePowerLabel>
+  <CommandTogglePowerLabel>開關電源</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>開關電源。</CommandTogglePowerDesc>
   
   <CommandDesignateTogglePowerLabel>指定開/關電源</CommandDesignateTogglePowerLabel>
-  <CommandDesignateTogglePowerDesc>指定開/官這項物件的電源。一名殖民者將會前往操作。</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>指定開/關這項物件的電源。一名殖民者將會前往操作。</CommandDesignateTogglePowerDesc>
   
   <CommandTryReconnectLabel>重新連接</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>嘗試連接至附近另一個電網。在目前連接的電網沒有電但附近有另一個電網時很有用。</CommandTryReconnectDesc>
@@ -30,22 +30,26 @@
   <CommandCancelConstructionDesc>取消建造命令。</CommandCancelConstructionDesc>
   
   <CommandGetOutOfBedLabel>離床</CommandGetOutOfBedLabel>
-  <CommandGetOutOfBedDesc>Get out of current bed.</CommandGetOutOfBedDesc>
+  <CommandGetOutOfBedDesc>離床。</CommandGetOutOfBedDesc>
   
   <CommandBedSetOwnerLabel>自訂擁有者</CommandBedSetOwnerLabel>
-  <CommandBedSetOwnerDesc>分派此床給特定的殖民者。</CommandBedSetOwnerDesc>
-  <BedAssign>登錄</BedAssign>
-  <CommandBedSetForPrisonersLabel>設為囚犯專用</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc>將這個房間内的床設為囚犯專用。</CommandBedSetForPrisonersDesc>
-  <CommandBedSetForPrisonersFailOutdoors>無法將室外的床設為囚犯專用。</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetOwnerDesc>分派此床位給特定的殖民者。</CommandBedSetOwnerDesc>
+  <CommandGraveAssignColonistLabel>登錄殖民者</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistDesc>將此墓位分配給特定的殖民者。</CommandGraveAssignColonistDesc>
+  <CommandGraveSetToUnassignedLabel>取消登錄</CommandGraveSetToUnassignedLabel>
+  <CommandGraveSetToUnassignedDesc>取消指定墓位給任何殖民者。</CommandGraveSetToUnassignedDesc>
+  <BuildingAssign>登錄</BuildingAssign>
+  <CommandBedSetForPrisonersLabel>設為俘虜專用</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>將這個房間内的床設為俘虜專用。</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>無法將室外的床設為俘虜專用。</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>設為殖民者專用</CommandBedSetForColonistsLabel>
   <CommandBedSetForColonistsDesc>將這個房間内的床設為殖民者專用。</CommandBedSetForColonistsDesc>
   <CommandBedSetAsMedicalLabel>設為病床</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>將這個床設為病床。</CommandBedSetAsMedicalDesc>
   <CommandBedSetAsNonMedicalLabel>設為一般床</CommandBedSetAsNonMedicalLabel>
   <CommandBedSetAsNonMedicalDesc>將這個床設為非病床。</CommandBedSetAsNonMedicalDesc>
-  <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(囚犯和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(囚犯和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOffPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(俘虜和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(俘虜和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權:</TurningOffPrisonerBedWarning>
   <AreYouSure>你確定要這麼做嗎?</AreYouSure>
   
   <CommandDetonateLabel>爆破</CommandDetonateLabel>
@@ -93,10 +97,10 @@
   <CommandPodEjectFailEmpty>內部無人。</CommandPodEjectFailEmpty>
 
   <!-- Door -->
-  <CommandToggleDoorLock>切換門鎖</CommandToggleDoorLock>
-  <CommandToggleDoorLockDesc>鎖上或解鎖此門。鎖上的門將不會對任何人開啟。</CommandToggleDoorLockDesc>
+  <CommandToggleDoorForbid>切換門鎖</CommandToggleDoorForbid>
+  <CommandToggleDoorForbidDesc>鎖上或解鎖此門。鎖上的門將不會對殖民者或訪客開啟，但這並不會影響敵人與動物與門的互動。</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>保持敞開</CommandToggleDoorHoldOpen>
-  <CommandToggleDoorHoldOpenDesc>當開啟此功能時，殖民者將不會關上這扇門。如果這是一道通電的自動門，那它就會保持敞開。</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>當開啟此功能時，下一名通過的殖民者將不會關上這扇門。</CommandToggleDoorHoldOpenDesc>
 
   
   <!-- Temperature control -->
@@ -120,5 +124,10 @@
   <!-- Trap -->
   <CommandAutoRearm>自動重置陷阱</CommandAutoRearm>
   <CommandAutoRearmDesc>當此功能開啟時，陷阱被觸發後，殖民者將會前來重置陷阱。</CommandAutoRearmDesc>
+  
+  <!-- Animal control -->
+  <CommandReleaseAnimalsLabel>放出動物</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsDesc>當啟用此選項時，動物將能夠前往攻擊遠處的目標，反之，牠們將只會跟隨並護衛主人。</CommandReleaseAnimalsDesc>
+  
   
 </LanguageData>

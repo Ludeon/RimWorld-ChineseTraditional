@@ -25,8 +25,8 @@
   <NothingCrushed>所幸沒有東西被壓到。</NothingCrushed>
   <LetterLabelRoofCollapsed>屋頂坍塌</LetterLabelRoofCollapsed>
 
-  <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
-  <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
+  <RecruitSuccess>{0}成功招募了{1}(機率{2})。</RecruitSuccess>
+  <RecruitFail>{0}沒能成功招募{1}(機率{2})。</RecruitFail>
   
   <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
   <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而實際上，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
@@ -43,11 +43,13 @@
 
   <LetterLabelAnimalManhunterFromDamage>{0}反擊</LetterLabelAnimalManhunterFromDamage>
   <AnimalManhunterFromDamage>一隻{0}在受到傷害後開始向殖民者反擊！</AnimalManhunterFromDamage>
+  <AnimalManhunterFromTaming>因為你嘗試馴服牠，一隻{0}開始攻擊你！</AnimalManhunterFromTaming>
+  <AnimalManhunterOthers>周遭的{0}也跟著發怒了！</AnimalManhunterOthers>
 
   <LetterFriendlyTrapSprungLabel>{0}觸發陷阱</LetterFriendlyTrapSprungLabel>
   <LetterFriendlyTrapSprung>{0}意外的觸發了一個陷阱，並且受到了傷害。</LetterFriendlyTrapSprung>
 
-  <LetterHealthComplications>{0}已經發展成{1} as a complication of {2}.</LetterHealthComplications>
+  <LetterHealthComplications>{0}已經惡化成{1}，併發{2}。</LetterHealthComplications>
   <LetterHealthComplicationsLabel>{0}{1}</LetterHealthComplicationsLabel>
 
   <!-- Generalized letter labels -->

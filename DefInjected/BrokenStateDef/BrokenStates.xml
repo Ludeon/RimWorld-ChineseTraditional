@@ -12,7 +12,7 @@
   <!-- Minor breaks-->
 	
 	<DazedWander.label>茫然徘徊</DazedWander.label>
-	<DazedWander.beginLetterLabel>茫然徘迴</DazedWander.beginLetterLabel>
+	<DazedWander.beginLetterLabel>茫然徘徊</DazedWander.beginLetterLabel>
 	<DazedWander.beginLetter>{0}的精神已經崩潰並呆然地四處徘徊著。</DazedWander.beginLetter>
 	<DazedWander.recoveryMessage>{0}已經從茫然的徘徊中醒來了。</DazedWander.recoveryMessage>
 	<DazedWander.inspectLine>精神崩潰：茫然徘徊</DazedWander.inspectLine>
@@ -25,22 +25,28 @@
 	
   <!-- Special breaks-->
   
+	<ConfusedWander.label>茫然徘徊</ConfusedWander.label>
+	<ConfusedWander.beginLetterLabel>茫然</ConfusedWander.beginLetterLabel>
+	<ConfusedWander.beginLetter>{0}陷入茫然地徘徊中。</ConfusedWander.beginLetter>
+	<ConfusedWander.recoveryMessage>{0}已經從茫然中清醒。</ConfusedWander.recoveryMessage>
+	<ConfusedWander.inspectLine>精神崩潰：茫然徘徊</ConfusedWander.inspectLine>
+  
 	<PanicFlee.label>落荒而逃</PanicFlee.label>
 	<PanicFlee.beginLetterLabel>落荒而逃</PanicFlee.beginLetterLabel>
 	<PanicFlee.beginLetter>{0}正在慌亂中逃跑。</PanicFlee.beginLetter>
 	<PanicFlee.recoveryMessage>{0}已經從慌亂中清醒並不再逃跑了。</PanicFlee.recoveryMessage>
 	<PanicFlee.inspectLine>精神崩潰：落荒而逃</PanicFlee.inspectLine>
 	
-	<Manhunter.label>殺人魔</Manhunter.label>
-	<Manhunter.beginLetterLabel>殺人魔</Manhunter.beginLetterLabel>
+	<Manhunter.label>殺戮</Manhunter.label>
+	<Manhunter.beginLetterLabel>殺戮</Manhunter.beginLetterLabel>
 	<Manhunter.beginLetter>{0}發瘋似的攻擊他所見到的任何人。</Manhunter.beginLetter>
 	<Manhunter.recoveryMessage>{0}已經從瘋狂的殺戮衝動中清醒。</Manhunter.recoveryMessage>
-	<Manhunter.inspectLine>精神崩潰：殺人魔</Manhunter.inspectLine>
+	<Manhunter.inspectLine>精神崩潰：殺戮</Manhunter.inspectLine>
 	
   <!-- Unused? -->
 	
-	<GiveUpExit.label>放棄並離開了</GiveUpExit.label>
-	<GiveUpExit.beginLetterLabel>放棄並離開</GiveUpExit.beginLetterLabel>
+	<GiveUpExit.label>放棄並離去</GiveUpExit.label>
+	<GiveUpExit.beginLetterLabel>放棄並離去</GiveUpExit.beginLetterLabel>
 	<GiveUpExit.beginLetter>{0}感到萬念俱灰，並決定脫離殖民地。</GiveUpExit.beginLetter>
 	<GiveUpExit.recoveryMessage>{0}改變了心意，決定回到殖民地。</GiveUpExit.recoveryMessage>
 	<GiveUpExit.inspectLine>精神崩潰：放棄並脫離殖民地</GiveUpExit.inspectLine>

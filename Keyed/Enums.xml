@@ -51,13 +51,13 @@
   <HungerLevel_Starving>極度飢餓</HungerLevel_Starving>
   <HungerLevel_UrgentlyHungry>非常飢餓</HungerLevel_UrgentlyHungry>
   <HungerLevel_Hungry>飢餓</HungerLevel_Hungry>
-  <HungerLevel_Fed>餵食</HungerLevel_Fed>
+  <HungerLevel_Fed>飽足</HungerLevel_Fed>
 
   <!-- -Fatigue -->
   <HungerLevel_Exhausted>筋疲力竭</HungerLevel_Exhausted>
-  <HungerLevel_VeryTired>疲勞</HungerLevel_VeryTired>
+  <HungerLevel_VeryTired>疲憊</HungerLevel_VeryTired>
   <HungerLevel_Tired>勞累</HungerLevel_Tired>
-  <HungerLevel_Rested>已休息</HungerLevel_Rested>
+  <HungerLevel_Rested>精神飽滿</HungerLevel_Rested>
 
   <!-- Hilliness -->
   <Hilliness_Flat>平地</Hilliness_Flat>
@@ -65,15 +65,30 @@
   <Hilliness_LargeHills>山丘</Hilliness_LargeHills>
   <Hilliness_Mountainous>山地</Hilliness_Mountainous>
   
-  <!-- food quality -->
-  <NoneQuality>無</NoneQuality>
-  <PlantQuality>植物</PlantQuality>
-  <RawQuality>原料</RawQuality>
-  <MealAwfulQuality>糟糕</MealAwfulQuality>
-  <MealSimpleQuality>簡單</MealSimpleQuality>
-  <MealFineQuality>良好</MealFineQuality>
-  <MealLavishLavish>奢華</MealLavishLavish>
+  <!-- Steam workshop interaction -->
+  <WorkshopInteractStage_CreatingItem>建立</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_SubmittingItem>提交</WorkshopInteractStage_SubmittingItem>
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>無效</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>準備配置資料</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>準備內容文件</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>上傳內容</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>上傳預覽文件</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>提交變更</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+
+  <!-- Trainable intelligence -->
+  <TrainableIntelligence_None>無</TrainableIntelligence_None>
+  <TrainableIntelligence_Simple>低等</TrainableIntelligence_Simple>
+  <TrainableIntelligence_Intermediate>中等</TrainableIntelligence_Intermediate>
+  <TrainableIntelligence_Advanced>高等</TrainableIntelligence_Advanced>
+
+  <!-- Medical care category -->
+  <MedicalCareCategory_NoCare>無醫療照顧</MedicalCareCategory_NoCare>
+  <MedicalCareCategory_NoMeds>給予醫生治療，但不供應藥物</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>供應草藥或草藥等級以下的藥品</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>供應普通藥品或普通藥品等級以下的藥品</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>給予最高品質的醫療照顧</MedicalCareCategory_Best>
 
 
+  
   
 </LanguageData>

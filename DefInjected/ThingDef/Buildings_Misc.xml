@@ -10,8 +10,24 @@
 	<CommsConsole.label>通訊台</CommsConsole.label>
 	<CommsConsole.description>用以和附近的商船與組織談判或交易。</CommsConsole.description>
 
+  <!-- Passive equipment -->
+  
+	<MultiAnalyzer.label>多重分析裝置</MultiAnalyzer.label>
+	<MultiAnalyzer.description>提升研究速度。裝置必須設置於研究桌附近，一張研究桌同時只能與一台多重分析裝置連結。</MultiAnalyzer.description>
+	
+		<VitalsMonitor.label>生命體徵檢測器</VitalsMonitor.label>
+	<VitalsMonitor.description>提升患者醫療品質。檢測器必須與醫療床相鄰，一張醫療床同時只能與一台生命體徵檢測器連結。</VitalsMonitor.description>
+	
+		<ToolCabinet.label>工具櫃</ToolCabinet.label>
+	<ToolCabinet.description>提升工作台工作速度。工具櫃必須設置於工作台附近，一張工作台同時可與兩個工具櫃連結。</ToolCabinet.description>
+	
+  <!-- -->
+
 	<Grave.label>墳墓</Grave.label>
 	<Grave.description>给死者提供一個得體的棲身之所。</Grave.description>
+	
+	<Sarcophagus.label>棺材</Sarcophagus.label>
+	<Sarcophagus.description>一個替光榮犧牲的死者準備的安身之處。</Sarcophagus.description>
 	
 	<!-- Cryptosleep casket -->
 	

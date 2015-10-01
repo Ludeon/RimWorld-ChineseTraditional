@@ -5,10 +5,11 @@
   <TabBills>選單</TabBills>
   <TabGrowing>作物</TabGrowing>
   <TabCharacter>角色</TabCharacter>
-  <TabPrisoner>囚犯</TabPrisoner>
+  <TabTraining>訓練</TabTraining>
+  <TabPrisoner>俘虜</TabPrisoner>
   <TabGuest>賓客</TabGuest>
   <TabGear>裝備</TabGear>
-  <TabThoughts>心理</TabThoughts>
+  <TabNeeds>需求</TabNeeds>
   <TabStorage>儲存</TabStorage>
   <TabHealth>健康</TabHealth>
   <TabRace>物種</TabRace>
@@ -20,7 +21,7 @@
   <!-- Bills tab  -->
   <AddBill>新增工作</AddBill>
   <RecipeRequiresSkills>配方{0}需要以下技能。你沒有任何殖民者擁有這些技能，所以無人會完成這份工作。</RecipeRequiresSkills>
-  <BillConfig>設置</BillConfig>
+  <MinimumSkill>最低技能</MinimumSkill>
   <SuspendedCaps>已暫停</SuspendedCaps>
   <BoundWorkerIs>執行者：{0}</BoundWorkerIs>
   <PlantVerb>種植</PlantVerb>
@@ -43,8 +44,8 @@
   <MoveSpeed>移動速度</MoveSpeed>
   <Efficiency>效率</Efficiency>
   <MissingBodyPart>不存在</MissingBodyPart>
-  <DestroyedBodyPart>被摧毀</DestroyedBodyPart>
-  <ShatteredBodyPart>擊碎</ShatteredBodyPart>
+  <DestroyedBodyPart>喪失功能</DestroyedBodyPart>
+  <ShatteredBodyPart>破裂</ShatteredBodyPart>
   <RemovedBodyPart>移除</RemovedBodyPart>
   <Healthy>健康</Healthy>
   <InPain>感到疼痛</InPain>
@@ -53,7 +54,7 @@
   <Unconscious>陷入昏迷</Unconscious>
   <PainShock>暫時休克</PainShock>
   <Injured>受傷</Injured>
-  <NoInjuries>(沒有受傷)</NoInjuries>
+  <NoInjuries>(健康)</NoInjuries>
   <WholeBody>全身</WholeBody>
   <DataProcessing>數據處理</DataProcessing>
   <Communication>交流</Communication>
@@ -85,9 +86,12 @@
   <ExtremePain>極度</ExtremePain>
 
 
+  <!-- Training tab-->
+  <TrainableIntelligence>智能程度</TrainableIntelligence>
+  <CannotTrainNotSmartEnough>需要{0}智能程度</CannotTrainNotSmartEnough>
+  <CannotTrainTooSmall>{0}的體型過小，無法接受這項訓練。</CannotTrainTooSmall>
 
-
-
+  <TrainingNeedsPrerequisite>前提條件：{0}</TrainingNeedsPrerequisite>
 
 
 
