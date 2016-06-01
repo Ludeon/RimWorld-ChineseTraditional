@@ -1,51 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	
-	<NutrientPasteDispenser.label>營養膏分配機</NutrientPasteDispenser.label>
-	<NutrientPasteDispenser.description>將有機材料合成為營養膏。</NutrientPasteDispenser.description>
-	
-	<Hopper.label>儲料槽</Hopper.label>
-	<Hopper.description>為營養膏分配機這樣的大型機器儲存原料。</Hopper.description>
-	
-	<!-- ========================= Work tables ==========================-->
-	
-	<TableButcher.label>屠宰桌</TableButcher.label>
-	<TableButcher.description>一個用來將死亡的動物屠宰成肉塊的重型桌子。</TableButcher.description>
-	
-	<TableTailor.label>裁縫桌</TableTailor.label>
-	<TableTailor.description>配有縫紉機的一張裁縫桌。</TableTailor.description>
-	
-	<TableSmithing.label>鍛造台</TableSmithing.label>
-	<TableSmithing.description>專門生產武器和工具的工作台。</TableSmithing.description>
-	
-	<TableSculpting.label>雕刻桌</TableSculpting.label>
-	<TableSculpting.description>專門進行雕刻工作的桌子。</TableSculpting.description>
-	
-	<TableMachining.label>機械加工桌</TableMachining.label>
-	<TableMachining.description>一套專門在組裝或拆解機械用的桌子與工具。</TableMachining.description>
-	
-	<CookStove.label>爐灶</CookStove.label>
-	<CookStove.description>一個配有流理台的簡單爐灶，用於烹調一些簡單的料理。</CookStove.description>
-	
-	<TableStonecutter.label>岩石加工桌</TableStonecutter.label>
-	<TableStonecutter.description>一個裝有切割設備的機床。用於把粗糙的石塊加工成石材。</TableStonecutter.description>
-	
-	<Brewery.label>釀酒器</Brewery.label>
-	<Brewery.description>一組具備所有釀酒所需工具的工作台。</Brewery.description>
-	
-	<ElectricSmelter.label>金屬提煉器</ElectricSmelter.label>
-	<ElectricSmelter.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</ElectricSmelter.description>
-	
-	<Crematorium.label>火化爐</Crematorium.label>
-	<Crematorium.description>用來火化屍體。</Crematorium.description>
- 
- 	<ResearchBench.label>研究桌</ResearchBench.label>
-	<ResearchBench.description>研究者在這裡研究新的科技。</ResearchBench.description>
-	
-	<!-- ========== Hydroponics ==============-->
-	
-	<HydroponicsBasin.label>水培植物盆</HydroponicsBasin.label>
-	<HydroponicsBasin.description>用來種植作物，水培植物盆能讓植物快速生長。</HydroponicsBasin.description>
-	
+  <CraftingSpot.label>手工工作區</CraftingSpot.label>
+  <CraftingSpot.description>一個製造簡單刀具或弓箭的地方。</CraftingSpot.description>
+  
+  <NutrientPasteDispenser.label>營養膏分配機</NutrientPasteDispenser.label>
+  <NutrientPasteDispenser.description>將有機材料合成為營養膏。</NutrientPasteDispenser.description>
+  
+  <Hopper.label>儲料槽</Hopper.label>
+  <Hopper.description>為營養膏分配機這樣的大型機器儲存原料。</Hopper.description>
+  
+  <!-- Work tables -->
+  
+  <TableButcher.label>屠宰桌</TableButcher.label>
+  <TableButcher.description>一個用來將死亡的動物屠宰成肉塊的重型桌子。</TableButcher.description>
+
+  <ElectricTailoringBench.label>電動裁縫桌</ElectricTailoringBench.label>
+  <ElectricTailoringBench.description>用來裁縫衣服的工作台，沒電時的工作效率只有原來的40%。</ElectricTailoringBench.description>
+  
+  <HandTailoringBench.label>裁縫桌</HandTailoringBench.label>
+  <HandTailoringBench.description>用來裁縫衣服的工作台，工作效率只有電動裁縫桌的40%。</HandTailoringBench.description>
+
+  <ElectricSmithy.label>電力鍛造台</ElectricSmithy.label>
+  <ElectricSmithy.description>製造非機械式武器和工具的工作台。</ElectricSmithy.description>
+
+  <FueledSmithy.label>燃料鍛造台</FueledSmithy.label>
+  <FueledSmithy.description>製造非機械式武器和工具的工作台，需要消耗木材燃料。</FueledSmithy.description>
+  
+  <TableSculpting.label>雕刻桌</TableSculpting.label>
+  <TableSculpting.description>專門進行雕刻工作的桌子。</TableSculpting.description>
+  
+  <TableMachining.label>機械加工桌</TableMachining.label>
+  <TableMachining.description>一套專門在組裝或拆解機械用的桌子與工具。</TableMachining.description>
+
+  <ElectricStove.label>電子料理台</ElectricStove.label>
+  <ElectricStove.description>用來烹飪食物的工作台。</ElectricStove.description>
+
+  <FueledStove.label>爐灶</FueledStove.label>
+  <FueledStove.description>燃燒木材烹調食物的工作台。</FueledStove.description>
+  
+  <TableStonecutter.label>岩石加工桌</TableStonecutter.label>
+  <TableStonecutter.description>一個裝有切割設備的機床。用於把粗糙的石塊加工成石材。</TableStonecutter.description>
+  
+  <Brewery.label>釀酒器</Brewery.label>
+  <Brewery.description>一組具備所有釀酒所需工具的工作台。</Brewery.description>
+  
+  <ElectricSmelter.label>金屬提煉器</ElectricSmelter.label>
+  <ElectricSmelter.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</ElectricSmelter.description>
+
+  <ComponentAssemblyBench.label>電子零件生產台</ComponentAssemblyBench.label>
+  <ComponentAssemblyBench.description>配有各種先進設備的工作台，用簡單的原料生產各種零件。</ComponentAssemblyBench.description>
+
+  <!-- Non-standard work buildings -->
+  
+  <SimpleResearchBench.label>研究桌</SimpleResearchBench.label>
+  <SimpleResearchBench.description>一張備有書寫工具及簡單研究設備的桌子，研究人員在這裡發掘新事物。</SimpleResearchBench.description>
+
+  <HiTechResearchBench.label>高科技研究桌</HiTechResearchBench.label>
+  <HiTechResearchBench.description>一張備有電腦及電子測量設備的研究桌。高科技設備加快了研究速度，但須消耗電力。</HiTechResearchBench.description>
+
+  <ElectricCrematorium.label>火化爐</ElectricCrematorium.label>
+  <ElectricCrematorium.description>以電力驅動的火化爐。</ElectricCrematorium.description>
+  
+  <!-- ========== Hydroponics ==============-->
+  
+  <HydroponicsBasin.label>水培植物盆</HydroponicsBasin.label>
+  <HydroponicsBasin.description>用來種植作物，水培植物盆能讓植物快速生長。</HydroponicsBasin.description>
+  
 </LanguageData>

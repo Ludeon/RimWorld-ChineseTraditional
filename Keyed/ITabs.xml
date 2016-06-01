@@ -15,7 +15,9 @@
   <TabRace>物種</TabRace>
   <TabBasics>基本訊息</TabBasics>
   <TabStats>屬性</TabStats>
+  <TabRecords>紀錄</TabRecords>
   <TabArt>藝術</TabArt>
+  <TabSocial>社交</TabSocial>
 
   
   <!-- Bills tab  -->
@@ -66,7 +68,10 @@
   <MedicalOperations>手術</MedicalOperations>
   <Amputate>截肢</Amputate>
   <Harvest>摘除</Harvest>
-
+  <MemoryLower>記憶</MemoryLower>
+  <SocialInteractionsLower>社交影響</SocialInteractionsLower>
+  <HungerRate>飢餓速率</HungerRate>
+  <Tiredness>疲勞速率</Tiredness>
   
   
   <!-- Medical - Body and activities condition -->
@@ -92,7 +97,15 @@
   <CannotTrainTooSmall>{0}的體型過小，無法接受這項訓練。</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>前提條件：{0}</TrainingNeedsPrerequisite>
-
-
-
+  
+  <!-- Social tab -->
+  <NoRelationships>(無社交關係)</NoRelationships>
+  <Kidnapped>綁架</Kidnapped>
+  <Slave>奴隸</Slave>
+  <FactionLeader>勢力首領</FactionLeader>
+  <OpinionOf>對{0}的看法</OpinionOf>
+  <SomeonesOpinionOfMe>{0}對我的看法</SomeonesOpinionOfMe>
+  <IAmDead>我死了</IAmDead>
+  <IAmPsychopath>我是個精神病患</IAmPsychopath>
+  
 </LanguageData>

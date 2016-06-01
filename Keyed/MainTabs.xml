@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  
-  <!-- Tab titles -->
-  <WorkTab>工作</WorkTab>
-  <OutfitsTab>裝備</OutfitsTab>
-  <RestrictionsTab>限制</RestrictionsTab>
-  <AnimalsTab>動物</AnimalsTab>
-  <FactionsTab>勢力</FactionsTab>
-  <StatisticsTab>統計</StatisticsTab>
-  <HistoryTab>歷史</HistoryTab>
-  <WorldTab>世界</WorldTab>
-  
+
   <!-- Work tab -->
   <ManualPriorities>自訂優先度</ManualPriorities>
   <HigherPriority>高優先度</HigherPriority>
@@ -20,6 +9,8 @@
   <ClickToJumpTo>點擊並跳至:</ClickToJumpTo>
   <CannotDoThisWork>{0}無法執行這個工作。</CannotDoThisWork>
   <NoneBrackets>(無)</NoneBrackets>
+  <IncapableOfWorkTypeBecauseOfCapacities>基於此殖民者的健康狀況，目前無法進行這類工作。</IncapableOfWorkTypeBecauseOfCapacities>
+  <EmergencyWorkMarker>E</EmergencyWorkMarker>
 
   <!-- Outfits tab -->
   <CurrentOutfit>目前裝備</CurrentOutfit>
@@ -36,6 +27,7 @@
   
   <!-- Animals tab -->
   <Master>主人</Master>
+  <PregnantIconDesc>懷孕({0}/{1})</PregnantIconDesc>
   
   <!-- Factions tab -->
   <Hostile>敵對</Hostile>

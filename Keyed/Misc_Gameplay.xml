@@ -9,6 +9,7 @@
   <ForColonistUse>僅限殖民者使用</ForColonistUse>
   <MedicalBed>醫療</MedicalBed>
   <Owner>擁有者</Owner>
+  <Owners>擁有者</Owners>
   <AssignedColonist>Assigned colonist</AssignedColonist>
   <Nobody>無</Nobody>
   <Unowned>無擁有者</Unowned>
@@ -40,13 +41,19 @@
   <Off>關閉</Off>
   <PowerSwitch_Power>電力</PowerSwitch_Power>
   <JoyTolerances>娛樂值</JoyTolerances>
-  <BrokenLetterLabel>崩潰</BrokenLetterLabel>
+  <MentalStateLetterLabel>精神狀態</MentalStateLetterLabel>
   <MilkFullness>產奶進度</MilkFullness>
   <WoolGrowth>產毛進度</WoolGrowth>
   <EggProgress>產卵進度</EggProgress>
   <Fertilized>已受精</Fertilized>
   <ProgressStoppedUntilFertilized>產卵進度已停止(未受精)</ProgressStoppedUntilFertilized>
   <SkillTooLow>需要等級{2}的{0}，目前只有{1}級。</SkillTooLow>
+  <EggDamagedEmbryo>胚胎受損</EggDamagedEmbryo>
+  <CorpsePercentMissing>失去身體部位</CorpsePercentMissing>
+  <HiveReproducesIn>蟲巢擴張</HiveReproducesIn>
+  <BrokenDown>損壞</BrokenDown>
+  <BondBrackets>(夥伴)</BondBrackets>
+  <Fuel>燃料</Fuel>
   
   <!--TextMotes-->
   <Headshot>命中頭部</Headshot>
@@ -60,6 +67,7 @@
   <TextMote_TameSuccess>馴服成功！\n機率{0}</TextMote_TameSuccess>
   <TextMote_TrainFail>訓練失敗：{0}\n機率{1}</TextMote_TrainFail>
   <TextMote_TrainSuccess>已完成訓練：{0}\n機率{1}</TextMote_TrainSuccess>
+  <TextMote_FixBrokenDownBuildingFail>修理\n失敗</TextMote_FixBrokenDownBuildingFail>
 
 
   <!-- Areas -->
@@ -106,6 +114,7 @@
   <DeliveringFood>運送食物給{0}</DeliveringFood>
   <UsingVerb>對{1}使用{0}。</UsingVerb>
   <AreaLower>區域</AreaLower>
+  <ReportCowering>逃避。</ReportCowering>
 
 	<!-- Shooting report -->
   <WeaponMissRadius>武器誤差半徑</WeaponMissRadius>
@@ -144,6 +153,10 @@
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
   <DefInfoTip>查看關於這個物件的信息。</DefInfoTip>
+  
+  <!-- Hostility response -->
+  <HostilityReponseTip>選擇該角色在遭遇敵人時將如何應對。</HostilityReponseTip>
+  <HostilityResponseCurrentMode>目前模式</HostilityResponseCurrentMode>
   
 	<!-- like 'Blood of John' -->
 	<OfLower>來自</OfLower>
@@ -189,6 +202,7 @@
   <CurrentlyRefrigerated>冷藏狀態({0}後腐壞)</CurrentlyRefrigerated>
   <NotRefrigerated>非冷藏狀態({0}後腐壞)</NotRefrigerated>
   <OverADecade>超過十年</OverADecade>
+  <LessThanADay>當天</LessThanADay>
 
   <!-- Meal -->
   <Ingredients>食材</Ingredients>
@@ -230,7 +244,7 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>切換顯示美觀度。\n\n顯示滑鼠游標處的環境美觀度。</ShowBeautyToggleButton>
-  <ShowRoomStatsToggleButton>切換顯示房間屬性值。\n\nn顯示滑鼠游標處的房間屬性值。</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>切換顯示房間屬性值。\n\n顯示滑鼠游標處的房間屬性值。</ShowRoomStatsToggleButton>
   <AutoHomeAreaToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>切換資源清單的可見性。</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>切換顯示馴養動物的名稱。</ShowAnimalNamesToggleButton>
@@ -278,6 +292,9 @@
   <!-- Artifact -->
   <UseArtifact>應用</UseArtifact>
   
+  <!-- Firefoam popper -->
+  <TriggerFirefoamPopper>啟動滅火裝置</TriggerFirefoamPopper>
+  
   <!-- Minification -->
   <Installed>已安裝</Installed>
   <NotInstalled>未安裝</NotInstalled>
@@ -296,7 +313,7 @@
   <QualityIs>品質{0}</QualityIs>
     
   <!-- Mood descriptions -->
-  <Mood_Broken>精神崩潰</Mood_Broken>
+  <Mood_MentalState>精神崩潰</Mood_MentalState>
   <Mood_AboutToBreak>即將崩潰</Mood_AboutToBreak>
   <Mood_OnEdge>極限</Mood_OnEdge>
   <Mood_Stressed>壓力</Mood_Stressed>
@@ -321,5 +338,9 @@
   <!-- Facilities -->
   <InactiveFacility>閒置</InactiveFacility>
   
+  <!-- Hediffs growth modes -->
+  <DiseaseGrowthModeChanged_Growing>{0}的{1}正在惡化。</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Stable>{0}的{1}已經穩定下來。</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Remission>{0}的{1}正在逐漸痊癒。</DiseaseGrowthModeChanged_Remission>
   
 </LanguageData>

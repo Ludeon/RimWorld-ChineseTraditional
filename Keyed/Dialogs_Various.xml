@@ -9,7 +9,28 @@
   
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>從不相容或損壞的Mod中復原</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>有部分Mod導致了嚴重的錯誤。\n\n原因可能是Mod之間的衝突、與當前RimWorld遊戲版本不相容，或是Mod已經損壞。\n\nAll mods have been disabled and can be activated again in the mods dialog.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>有部分Mod導致了嚴重的錯誤。\n\n原因可能是Mod之間的衝突、與當前RimWorld遊戲版本不相容，或是Mod已經損壞。\n\n目前所有Mod以自動停用並可於Mods列表再次啟用。</RecoveredFromErrorsText>
+  
+  <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>載入元件時發生錯誤。</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>載入元件時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>遊戲正以預設模組運行中，這有可能，也有可能不會導致這些問題。</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>生成地圖時發生錯誤。</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>生成地圖時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>載入地圖時發生錯誤。</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>載入地圖時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileLoadingMap>
+  
+  <!-- Long events -->
+  <InitializingInterface>正在初始化界面</InitializingInterface>
+  <UnloadingUnusedAssets>正在卸載非使用中的元件</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>正在載入已啟用的Mods</LoadingAllActiveMods>
+  <LoadingDefs>正在載入定義檔</LoadingDefs>
+  <LoadingAssets>正在載入元件</LoadingAssets>
+  <Initializing>初始化</Initializing>
+  <LoadingWorld>正在載入世界</LoadingWorld>
+  <LoadingMap>正在載入地圖</LoadingMap>
+  <InitializingMap>正在初始化地圖</InitializingMap>
+  <SpawningAllThings>正在生成物件</SpawningAllThings>
   
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
@@ -20,9 +41,11 @@
   <SavedAs>已保存為{0}。</SavedAs>
   <NeedAName>請輸入一個名稱。</NeedAName>
   <LoadingLongEvent>載入中……</LoadingLongEvent>
+  <SavingLongEvent>記錄保存中</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(無悔模式)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>當前遊戲版本為{0}，但這個存檔版本為{1}，是屬於完全不同的遊戲版本。\n\n嘗試載入這個存檔很有可能會無法運作。</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>當前遊戲版本為{0}，但這個存檔版本為{1}，是屬於不同的遊戲版本。\n\n嘗試載入這個存檔可能仍可以運作。</SaveIsFromDifferentGameBuild>
-  <SaveIsFromThisGameBuild>這個存檔屬於當前遊戲版本，並能夠被正常載入。</SaveIsFromThisGameBuild>
+  <SaveIsFromThisGameBuild>這個存檔屬於當前遊戲版本，必且能夠被正常載入。</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>這個存檔是未知的格式，幾乎可以肯定無法被正常載入。</SaveIsUnknownFormat>
   <ProblemSavingFile>存檔時發生問題{0}：\n\n{1}</ProblemSavingFile>
   
@@ -57,8 +80,11 @@
   <Unresearched>未研究</Unresearched>
   <Finished>已完成</Finished>
   <InProgress>正在研究中</InProgress>
+  <Locked>鎖定中</Locked>
   <ResearchMenuWithoutBench>你的殖民者們在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>
-  
+  <ResearchPrerequisites>前提科技</ResearchPrerequisites>
+  <RequiredResearchBench>需要研究桌</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>需要擴充設備</RequiredResearchBenchFacilities>
   
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>警告：你將會降落在一個冰凍環境裡，這將會使你非常難甚至無法生存。若你沒打算面對如此嚴峻的挑戰，那就選個溫暖一點的月份吧。</MapTemperatureDangerWarning>
@@ -69,9 +95,10 @@
   <MapSizeMedium>中</MapSizeMedium>
   <MapSizeLarge>大</MapSizeLarge>
   <MapSizeExtreme>巨大</MapSizeExtreme>
-  <MapStartMonth>起始月份：</MapStartMonth>
-  <MapStartMonthDefault>自動</MapStartMonthDefault>
-  
+  <MapStartSeason>起始季節：</MapStartSeason>
+  <MapStartSeasonDefault>自動</MapStartSeasonDefault>
+  <PermadeathMode>無悔模式</PermadeathMode>
+  <PermadeathModeInfo>在無悔模式中，你只能擁有一個存檔，並只能夠在退出遊戲時保存。你不能藉著讀取存檔來修正某些錯誤，若殖民地慘遭滅亡，那便是她的命運。\n\n無悔模式正是RimWorld的醍醐味，每當遭遇戲劇化的轉折 - 不論悲劇或希望 - 都要玩出自己的道路。</PermadeathModeInfo>
   
   <!-- Bill config -->
   <Suspended>已暫停</Suspended>
@@ -134,6 +161,10 @@
   <MoodChange>情緒變化</MoodChange>
   <Wildness>野性</Wildness>
   <WildnessExplanation>野性越強烈的生物自然更加的難以馴養、訓練及掌握。</WildnessExplanation>
+  <AnimalFilthRate>動物排泄速率</AnimalFilthRate>
+  <AnimalFilthRateExplanation>當動物在建築地面行動時會產生髒污，這個物種平均每移動{0}格就會產生髒汙。\n\n體型越大或是非典型的寵物會產生更多髒污。</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>時間</TimeRecordsCategory>
+  <MiscRecordsCategory>其它</MiscRecordsCategory>
   
   <!-- Trade -->
   <DragToTrade>交易數量</DragToTrade>

@@ -1,71 +1,73 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
-	<!--============================== Beds ==============================-->
-	
-	<SleepingSpot.label>睡眠點</SleepingSpot.label>
-	<SleepingSpot.description>指定一個人們睡覺的地點。休息效率：80%</SleepingSpot.description>
-	
-	<Bed.label>單人床</Bed.label>
-	<Bed.description>一個鋪了舒適的床墊和床單的床架。休息效率：100%</Bed.description>
-	
-	<RoyalBed.label>大床</RoyalBed.label>
-	<RoyalBed.description>一個適合貴族的豪華大床。</RoyalBed.description>
-	
-	<HospitalBed.label>醫療床</HospitalBed.label>
-	<HospitalBed.description>一張為病患特別設計的床。能夠提高各種醫療行為的機率。</HospitalBed.description>
-	
-	<!--=========================== Animal beds ===============================-->
-	
-	<AnimalSleepingSpot.label>動物睡眠點</AnimalSleepingSpot.label>
-	<AnimalSleepingSpot.description>指定一個動物的睡眠點，動物會在這裡睡覺。</AnimalSleepingSpot.description>
-	
-	<AnimalSleepingBox.label>動物箱</AnimalSleepingBox.label>
-	<AnimalSleepingBox.description>一個給動物睡覺的小箱子，適合雞、貓或是小狗等小型動物。</AnimalSleepingBox.description>
-	
-	<AnimalBed.label>動物床</AnimalBed.label>
-	<AnimalBed.description>一張給動物睡覺的舒適床鋪，適合任何體型的動物。</AnimalBed.description>
-	
-	<!--======================= Basic domestic furniture ==============================-->
-	
-	<Stool.label>凳子</Stool.label>
-	<Stool.description>簡單的小凳子。</Stool.description>
+  
+  <!-- Beds -->
+  
+  <SleepingSpot.label>睡眠點</SleepingSpot.label>
+  <SleepingSpot.description>指定一個人們睡覺的地點。休息效率：80%</SleepingSpot.description>
+  
+  <Bed.label>單人床</Bed.label>
+  <Bed.description>一個鋪了舒適的床墊和床單的床架。休息效率：100%</Bed.description>
 
-	<DiningChair.label>餐椅</DiningChair.label>
-	<DiningChair.description>舒適且優雅的餐桌椅。</DiningChair.description>
+  <DoubleBed.label>雙人床</DoubleBed.label>
+  <DoubleBed.description>一張能夠睡下兩人的簡單雙人床。</DoubleBed.description>
+  
+  <RoyalBed.label>豪華床鋪</RoyalBed.label>
+  <RoyalBed.description>一張鑲金的豪華大床，舒適而美觀，給你貴族般的待遇。能夠睡下兩人。</RoyalBed.description>
+  
+  <HospitalBed.label>醫療床</HospitalBed.label>
+  <HospitalBed.description>一張為病患特別設計的床。能夠提高各種醫療行為的機率。</HospitalBed.description>
+  
+  <!-- Animal beds -->
+  
+  <AnimalSleepingSpot.label>動物睡眠點</AnimalSleepingSpot.label>
+  <AnimalSleepingSpot.description>指定一個動物的睡眠點，動物會在這裡睡覺。</AnimalSleepingSpot.description>
+  
+  <AnimalSleepingBox.label>動物箱</AnimalSleepingBox.label>
+  <AnimalSleepingBox.description>一個給動物睡覺的小箱子，適合雞、貓或是小狗等小型動物。</AnimalSleepingBox.description>
+  
+  <AnimalBed.label>動物床</AnimalBed.label>
+  <AnimalBed.description>一張給動物睡覺的舒適床鋪，適合任何體型的動物。</AnimalBed.description>
+  
+  <!-- Basic domestic furniture -->
+  
+  <Stool.label>凳子</Stool.label>
+  <Stool.description>簡單的小凳子。</Stool.description>
 
-	<Armchair.label>沙發</Armchair.label>
-	<Armchair.description>寬敞又舒適的座椅，十分適合放鬆。</Armchair.description>
-	
-	<!-- Table base -->
-	
-	<TableShort.label>桌</TableShort.label>
-	<TableShort.description>人們會坐在對著桌子的椅子上用餐。</TableShort.description>
-	
-	<TableLong.label>長桌</TableLong.label>
-	<TableLong.description>人們會坐在對著桌子的椅子上用餐。</TableLong.description>
+  <DiningChair.label>餐椅</DiningChair.label>
+  <DiningChair.description>舒適且優雅的餐桌椅。</DiningChair.description>
 
-	<PlantPot.label>盆栽</PlantPot.label>
-	<PlantPot.description>種植者會在這裡種植裝飾性的花朵。</PlantPot.description>
-	
-	
-	<!-- ======================== Lighting ======================= -->
-	
-	<StandingLamp.label>立燈</StandingLamp.label>
-	<StandingLamp.description>一個可以點亮一小塊區域的立燈。</StandingLamp.description>
-	
-	<StandingLamp_Red.label>立燈(红)</StandingLamp_Red.label>
-	<StandingLamp_Red.description>一個可以把一小塊區域點亮成红色的立燈。</StandingLamp_Red.description>
-	
-	<StandingLamp_Green.label>立燈(綠)</StandingLamp_Green.label>
-	<StandingLamp_Green.description>一個可以把一小塊區域點亮成綠色的立燈。</StandingLamp_Green.description>
-	
-	<StandingLamp_Blue.label>立燈(藍)</StandingLamp_Blue.label>
-	<StandingLamp_Blue.description>一個可以把一小塊區域點亮成藍色的立燈。</StandingLamp_Blue.description>
-	
-	<!--============================== Storage ==============================-->
-	
-	<EquipmentRack.label>裝備架</EquipmentRack.label>
-	<EquipmentRack.description>搬運者會把裝備搬到這裡存放。</EquipmentRack.description>
-	
+  <Armchair.label>沙發</Armchair.label>
+  <Armchair.description>寬敞又舒適的座椅，十分適合放鬆。</Armchair.description>
+  
+  <!-- Table base -->
+  <TableShort.label>桌子</TableShort.label>
+  <TableShort.description>人們會坐在對著桌子的椅子上用餐。</TableShort.description>
+  
+  <TableLong.label>長桌</TableLong.label>
+  <TableLong.description>人們會坐在對著桌子的椅子上用餐。</TableLong.description>
+
+  <PlantPot.label>盆栽</PlantPot.label>
+  <PlantPot.description>種植者會在這裡種植裝飾性的花朵。</PlantPot.description>
+  
+  
+  <!-- Lighting -->
+  
+  <StandingLamp.label>立燈</StandingLamp.label>
+  <StandingLamp.description>一個可以點亮一小塊區域的立燈。</StandingLamp.description>
+  
+  <StandingLamp_Red.label>立燈(红)</StandingLamp_Red.label>
+  <StandingLamp_Red.description>一個可以把一小塊區域點亮成红色的立燈。</StandingLamp_Red.description>
+  
+  <StandingLamp_Green.label>立燈(綠)</StandingLamp_Green.label>
+  <StandingLamp_Green.description>一個可以把一小塊區域點亮成綠色的立燈。</StandingLamp_Green.description>
+  
+  <StandingLamp_Blue.label>立燈(藍)</StandingLamp_Blue.label>
+  <StandingLamp_Blue.description>一個可以把一小塊區域點亮成藍色的立燈。</StandingLamp_Blue.description>
+  
+  <!-- Storage -->
+  
+  <EquipmentRack.label>裝備架</EquipmentRack.label>
+  <EquipmentRack.description>搬運者會把裝備搬到這裡存放。</EquipmentRack.description>
+  
 </LanguageData>

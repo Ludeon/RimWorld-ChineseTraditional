@@ -1,248 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <rep>
-    <path>SleepDisturbed.stages[0].label</path>
-    <trans>睡眠受到打擾</trans>
-  </rep>
-  <rep>
-    <path>SleepDisturbed.stages[0].description</path>
-    <trans>我睡覺時有人在房裡走來走去，這影響到我了。</trans>
-  </rep>
+  <SleepDisturbed.stages.0.label>睡眠受到打擾</SleepDisturbed.stages.0.label>
+  <SleepDisturbed.stages.0.description>我睡覺時有人在房裡走來走去，這影響到我了。</SleepDisturbed.stages.0.description>
 
-  <rep>
-    <path>AteRawFood.stages[0].label</path>
-    <trans>吃了生食</trans>
-  </rep>
-  <rep>
-    <path>AteRawFood.stages[0].description</path>
-    <trans>我只有生的東西可以吃。難道我們就不能稍微烹飪一下，至少合成一些營養膏也好啊？</trans>
-  </rep>
-  
-  <rep>
-    <path>AteNutrientPasteMeal.stages[0].label</path>
-    <trans>吃了營養膏</trans>
-  </rep>
-  <rep>
-    <path>AteNutrientPasteMeal.stages[0].description</path>
-    <trans>我只有營養膏可以吃。我知道這玩意兒能讓我活下去，但是沒人喜歡吃這黏呼呼的東西。</trans>
-  </rep>
-  
-  <rep>
-    <path>AteFineMeal.stages[0].label</path>
-    <trans>吃了精緻的料理</trans>
-  </rep>
-  <rep>
-    <path>AteFineMeal.stages[0].description</path>
-    <trans>我吃了一份很不錯的料理，美味！</trans>
-  </rep>
-  
-  <rep>
-    <path>AteLavishMeal.stages[0].label</path>
-    <trans>吃了豪華的料理</trans>
-  </rep>
-  <rep>
-    <path>AteLavishMeal.stages[0].description</path>
-    <trans>這料理簡直太棒了，我覺得我的身體和靈魂都被滋養了。</trans>
-  </rep>
-  
-	
-  <!-- =========== Cannibalism ===============-->
-  
-  <rep>
-    <path>AteHumanlikeMeatDirect.stages[0].label</path>
-    <trans>吃了生的人肉</trans>
-  </rep>
-  <rep>
-    <path>AteHumanlikeMeatDirect.stages[0].description</path>
-    <trans>我吃了一個人的肉，生的，就像一只動物一樣。這簡直是個惡夢。</trans>
-  </rep>
-	
-  <rep>
-    <path>AteHumanlikeMeatAsIngredient.stages[0].label</path>
-    <trans>吃了烹調過的人肉</trans>
-  </rep>
-  <rep>
-    <path>AteHumanlikeMeatAsIngredient.stages[0].description</path>
-    <trans>我吃了用人肉作出的料理，這簡直太可怕了。</trans>
-  </rep>
-	
-  <rep>
-    <path>AteHumanlikeMeatDirectCannibal.stages[0].label</path>
-    <trans>吃了生的人肉</trans>
-  </rep>
-  <rep>
-    <path>AteHumanlikeMeatDirectCannibal.stages[0].description</path>
-    <trans>我吃了一個人的肉，生的，就像一只動物一樣。這簡直太棒了。</trans>
-  </rep>
-	
-  <rep>
-    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].label</path>
-    <trans>吃了烹調過的人肉</trans>
-  </rep>
-  <rep>
-    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].description</path>
-    <trans>我吃了用人肉作出的料理，味道棒極了。若能配上些蠶豆和紅酒就更棒了。</trans>
-  </rep>
-	
-  <rep>
-    <path>ButcheredHumanlikeCorpse.stages[0].label</path>
-    <trans>屠宰了人類</trans>
-  </rep>
-  <rep>
-    <path>ButcheredHumanlikeCorpse.stages[0].description</path>
-    <trans>我把一個人像動物一樣屠宰了。</trans>
-  </rep>
-	
-  <rep>
-    <path>AteWithoutTable.stages[0].label</path>
-    <trans>在地上用餐</trans>
-  </rep>
-  <rep>
-    <path>AteWithoutTable.stages[0].description</path>
-    <trans>我不得不在地上用餐。我們不能弄個桌子嗎？</trans>
-  </rep>
-	
+  <AteRawFood.stages.0.label>吃了生食</AteRawFood.stages.0.label>
+  <AteRawFood.stages.0.description>我只有生的東西可以吃。難道我們就不能稍微烹飪一下，至少合成一些營養膏也好啊？</AteRawFood.stages.0.description>
 
-  <!-- Combat -->
-	
-  <rep>
-    <path>ObservedLayingCorpse.stages[0].label</path>
-    <trans>看見屍體</trans>
-  </rep>
-  <rep>
-    <path>ObservedLayingCorpse.stages[0].description</path>
-    <trans>我看見一具躺在地上的屍體。</trans>
-  </rep>
-	
-  <rep>
-    <path>ObservedLayingRottingCorpse.stages[0].label</path>
-    <trans>看見腐爛的屍體</trans>
-  </rep>
-  <rep>
-    <path>ObservedLayingRottingCorpse.stages[0].description</path>
-    <trans>我看見地上躺著一具腐爛的屍體。真是令人作嘔。</trans>
-  </rep>
-	
-  <rep>
-    <path>WitnessedDeathAlly.stages[0].label</path>
-    <trans>看見同盟死亡</trans>
-  </rep>
-  <rep>
-    <path>WitnessedDeathAlly.stages[0].description</path>
-    <trans>我看見我們有人死了，他們剛才還好好的，然後就倒下了。</trans>
-  </rep>
-	
-  <rep>
-    <path>WitnessedDeathStranger.stages[0].label</path>
-    <trans>看見陌生人死亡</trans>
-  </rep>
-  <rep>
-    <path>WitnessedDeathStranger.stages[0].description</path>
-    <trans>我看見有人死了，他們剛才還好好的，然後就倒下了。</trans>
-  </rep>
-	
-  <rep>
-    <path>WitnessedDeathStrangerBloodlust.stages[0].label</path>
-    <trans>看見陌生人死亡</trans>
-  </rep>
-  <rep>
-    <path>WitnessedDeathStrangerBloodlust.stages[0].description</path>
-    <trans>我看見有人死了！這真是太刺激了！</trans>
-  </rep>
-	
-  <rep>
-    <path>KilledHumanlikeBloodlust.stages[0].label</path>
-    <trans>殺死了别人</trans>
-  </rep>
-  <rep>
-    <path>KilledHumanlikeBloodlust.stages[0].description</path>
-    <trans>我剛剛殺死了某人，這實在是太爽了！</trans>
-  </rep>
-	
-  <rep>
-    <path>BattleWounded.stages[0].label</path>
-    <trans>受傷</trans>
-  </rep>
-  <rep>
-    <path>BattleWounded.stages[0].description</path>
-    <trans>這是我的血！我受傷了！</trans>
-  </rep>
-	
-	
-	<!-->
-	<ObservedGibbetCageEmpty.label>看見空绞刑籠</ObservedGibbetCageEmpty.label>
-	<ObservedGibbetCageEmpty.description>這些绞刑籠看起來如此殘酷。</ObservedGibbetCageEmpty.description>
-
-	<ObservedGibbetCageFullStranger.label>看見装有陌生人的绞刑籠</ObservedGibbetCageFullStranger.label>
-	<ObservedGibbetCageFullStranger.description>我看見一個陌生人的屍體在绞刑籠裡，這真是一個残酷的地方。</ObservedGibbetCageFullStranger.description>
-
-	<ObservedGibbetCageFullColonist.label>看見装有殖民者的绞刑籠</ObservedGibbetCageFullColonist.label>
-	<ObservedGibbetCageFullColonist.description>我看見一個自己人的屍體躺在绞刑籠裡，我以前還和他說過話。這簡直太可怕了。</ObservedGibbetCageFullColonist.description>
-	<-->
-	
-  <rep>
-    <path>NewColonyOptimism.stages[0].label</path>
-    <trans>對新殖民地感到樂觀</trans>
-  </rep>
-  <rep>
-    <path>NewColonyOptimism.stages[0].description</path>
-    <trans>我們剛剛降落在這裡，情况不是很好，但是我仍然對建立一個新殖民地感到激動。</trans>
-  </rep>
+  <AteCorpse.stages.0.label>吃了屍體</AteCorpse.stages.0.label>
+  <AteCorpse.stages.0.description>我不得不像動物一樣去啃食屍體，這簡直是惡夢！</AteCorpse.stages.0.description>
   
-  <rep>
-    <path>NewColonyHope.stages[0].label</path>
-    <trans>對新殖民地感到有希望</trans>
-  </rep>
-  <rep>
-    <path>NewColonyHope.stages[0].description</path>
-    <trans>我漸漸習慣這裡了，但這個局面對我來說還是比較新的。希望一切都能順利...</trans>
-  </rep>
+  <AteNutrientPasteMeal.stages.0.label>吃了營養膏</AteNutrientPasteMeal.stages.0.label>
+  <AteNutrientPasteMeal.stages.0.description>我只有營養膏可以吃。我知道這玩意兒能讓我活下去，但是沒人喜歡吃這黏呼呼的東西。</AteNutrientPasteMeal.stages.0.description>
   
-  <rep>
-    <path>SleptOutside.stages[0].label</path>
-    <trans>睡在外面</trans>
-  </rep>
-  <rep>
-    <path>SleptOutside.stages[0].description</path>
-    <trans>我别無選擇只能睡在外面，沒有東西能夠保護我。</trans>
-  </rep>
+  <AteFineMeal.stages.0.label>吃了精緻的料理</AteFineMeal.stages.0.label>
+  <AteFineMeal.stages.0.description>我吃了一份很不錯的料理，美味！</AteFineMeal.stages.0.description>
   
-  <rep>
-    <path>SleptOnGround.stages[0].label</path>
-    <trans>睡在地上</trans>
-  </rep>
-  <rep>
-    <path>SleptOnGround.stages[0].description</path>
-    <trans>我像動物一樣在地上睡覺。</trans>
-  </rep>
+  <AteLavishMeal.stages.0.label>吃了豪華的料理</AteLavishMeal.stages.0.label>
+  <AteLavishMeal.stages.0.description>這料理簡直太棒了，我覺得我的身體和靈魂都被滋養了。</AteLavishMeal.stages.0.description>
+	
+  <AteWithoutTable.stages.0.label>在地上用餐</AteWithoutTable.stages.0.label>
+  <AteWithoutTable.stages.0.description>我不得不在地上用餐。我們不能弄個桌子嗎？</AteWithoutTable.stages.0.description>
+	
+  <NewColonyOptimism.stages.0.label>對新殖民地感到樂觀</NewColonyOptimism.stages.0.label>
+  <NewColonyOptimism.stages.0.description>我們剛剛降落在這裡，情况不是很好，但是我仍然對建立一個新殖民地感到激動。</NewColonyOptimism.stages.0.description>
   
-  <rep>
-    <path>SleptInCold.stages[0].label</path>
-    <trans>睡在寒冷的地方</trans>
-  </rep>
-  <rep>
-    <path>SleptInCold.stages[0].description</path>
-    <trans>我别無選擇只能睡在寒冷的地方，我們真的需要一台電暖器。</trans>
-  </rep>
+  <NewColonyHope.stages.0.label>對新殖民地感到有希望</NewColonyHope.stages.0.label>
+  <NewColonyHope.stages.0.description>我漸漸習慣這裡了，但這個局面對我來說還是比較新的。希望一切都能順利...</NewColonyHope.stages.0.description>
   
-  <rep>
-    <path>SleptInHeat.stages[0].label</path>
-    <trans>睡在炎熱的地方</trans>
-  </rep>
-  <rep>
-    <path>SleptInHeat.stages[0].description</path>
-    <trans>我别無選擇只能睡在炎熱的地方，難道不能裝台冷氣嗎？</trans>
-  </rep>
+  <SleptOutside.stages.0.label>睡在外面</SleptOutside.stages.0.label>
+  <SleptOutside.stages.0.description>我别無選擇只能睡在外面，沒有東西能夠保護我。</SleptOutside.stages.0.description>
   
-  <rep>
-    <path>KnowPrisonerSold.stages[0].label</path>
-    <trans>得知有俘虜被賣掉了</trans>
-  </rep>
-  <rep>
-    <path>KnowPrisonerSold.stages[0].description</path>
-    <trans>他們把俘虜賣给奴隸商人了，這真令我擔憂。</trans>
-  </rep>
+  <SleptOnGround.stages.0.label>睡在地上</SleptOnGround.stages.0.label>
+  <SleptOnGround.stages.0.description>我像動物一樣在地上睡覺。</SleptOnGround.stages.0.description>
+  
+  <SleptInCold.stages.0.label>睡在寒冷的地方</SleptInCold.stages.0.label>
+  <SleptInCold.stages.0.description>我别無選擇只能睡在寒冷的地方，我們真的需要一台電暖器。</SleptInCold.stages.0.description>
+  
+  <SleptInHeat.stages.0.label>睡在炎熱的地方</SleptInHeat.stages.0.label>
+  <SleptInHeat.stages.0.description>我别無選擇只能睡在炎熱的地方，難道不能裝台冷氣嗎？</SleptInHeat.stages.0.description>
+  
+  <KnowPrisonerSold.stages.0.label>得知有俘虜被賣掉了</KnowPrisonerSold.stages.0.label>
+  <KnowPrisonerSold.stages.0.description>他們把俘虜賣给奴隸商人了，這真令我擔憂。</KnowPrisonerSold.stages.0.description>
   
   <KnowGuestExecuted.stages.0.label>有人被丟著等死</KnowGuestExecuted.stages.0.label>
   <KnowGuestExecuted.stages.0.description>有個俘虜或賓客被丟著等死。</KnowGuestExecuted.stages.0.description>
@@ -267,58 +66,64 @@
   <MyOrganHarvested.stages.0.label>器官被摘除了</MyOrganHarvested.stages.0.label>
   <MyOrganHarvested.stages.0.description>這些人奪走了我身體的器官！把我當作一部舊引擎一樣拆解！</MyOrganHarvested.stages.0.description>
   
-  <rep>
-    <path>WasImprisoned.stages[0].label</path>
-    <trans>被囚禁</trans>
-  </rep>
-  <rep>
-    <path>WasImprisoned.stages[0].description</path>
-    <trans>我剛被當作動物一樣囚禁。</trans>
-  </rep>
+  <WasImprisoned.stages.0.label>被囚禁</WasImprisoned.stages.0.label>
+  <WasImprisoned.stages.0.description>我剛被當作動物一樣囚禁。</WasImprisoned.stages.0.description>
   
-  <rep>
-    <path>PrisonerFriendlyChat.stages[0].label</path>
-    <trans>被獄卒說服</trans>
-  </rep>
-  <rep>
-    <path>PrisonerFriendlyChat.stages[0].description</path>
-    <trans>獄卒和我聊了聊這個殖民地，聽起來是個好地方...</trans>
-  </rep>
+  <GreenThumbHappy.stages.0.label>種下一株植物</GreenThumbHappy.stages.0.label>
+  <GreenThumbHappy.stages.0.description>這個世界需要的就是多一些、更多一些植物！</GreenThumbHappy.stages.0.description>
   
-  <rep>
-    <path>SocialTalk.stages[0].label</path>
-    <trans>和别人聊天</trans>
-  </rep>
-  <rep>
-    <path>SocialTalk.stages[0].description</path>
-    <trans>我剛剛和别人聊了一會。</trans>
-  </rep>
+  <Catharsis.stages.0.label>宣洩情緒</Catharsis.stages.0.label>
+  <Catharsis.stages.0.description>我剛做了什麼？那不是我，我明明可以做得更好的。</Catharsis.stages.0.description>
+
+  <Nuzzled.stages.0.label>動物撒嬌</Nuzzled.stages.0.label>
+  <Nuzzled.stages.0.description>一隻可愛的動物對我撒嬌。</Nuzzled.stages.0.description>
+
+  <KnowBuriedInSarcophagus.stages.0.label>妥善安葬</KnowBuriedInSarcophagus.stages.0.label>
+  <KnowBuriedInSarcophagus.stages.0.description>我們把人好好的安葬在華麗的棺材內，願他的靈魂安息。</KnowBuriedInSarcophagus.stages.0.description>
   
-  <rep>
-    <path>AbrasiveTalk.stages[0].label</path>
-    <trans>有一段不愉快的談話</trans>
-  </rep>
-  <rep>
-    <path>AbrasiveTalk.stages[0].description</path>
-    <trans>有人無禮的對待我。最糟糕的是，我甚至不覺得那傢伙知道他做了什麼...</trans>
-  </rep>
+
+  <!-- Cannibalism -->
   
-  <rep>
-    <path>GreenThumbHappy.stages[0].label</path>
-    <trans>種下一株植物</trans>
-  </rep>
-  <rep>
-    <path>GreenThumbHappy.stages[0].description</path>
-    <trans>這個世界需要的就是多一些、更多一些植物！</trans>
-  </rep>
+  <AteHumanlikeMeatDirect.stages.0.label>吃了生的人肉</AteHumanlikeMeatDirect.stages.0.label>
+  <AteHumanlikeMeatDirect.stages.0.description>我吃了一個人的肉，生的，就像一只動物一樣。這簡直是個惡夢。</AteHumanlikeMeatDirect.stages.0.description>
+	
+  <AteHumanlikeMeatAsIngredient.stages.0.label>吃了烹調過的人肉</AteHumanlikeMeatAsIngredient.stages.0.label>
+  <AteHumanlikeMeatAsIngredient.stages.0.description>我吃了用人肉作出的料理，這簡直太可怕了。</AteHumanlikeMeatAsIngredient.stages.0.description>
+	
+  <AteHumanlikeMeatDirectCannibal.stages.0.label>吃了生的人肉</AteHumanlikeMeatDirectCannibal.stages.0.label>
+  <AteHumanlikeMeatDirectCannibal.stages.0.description>我吃了一個人的肉，生的，就像一只動物一樣。這簡直太棒了。</AteHumanlikeMeatDirectCannibal.stages.0.description>
+	
+  <AteHumanlikeMeatAsIngredientCannibal.stages.0.label>吃了烹調過的人肉</AteHumanlikeMeatAsIngredientCannibal.stages.0.label>
+  <AteHumanlikeMeatAsIngredientCannibal.stages.0.description>我吃了用人肉作出的料理，味道棒極了。若能配上些蠶豆和紅酒就更棒了。</AteHumanlikeMeatAsIngredientCannibal.stages.0.description>
+	
+  <ButcheredHumanlikeCorpse.stages.0.label>屠宰了人類</ButcheredHumanlikeCorpse.stages.0.label>
+  <ButcheredHumanlikeCorpse.stages.0.description>我把一個人像動物一樣屠宰了。</ButcheredHumanlikeCorpse.stages.0.description>
+
+  <KnowButcheredHumanlikeCorpse.stages.0.label>得知有人被屠宰了</KnowButcheredHumanlikeCorpse.stages.0.label>
+  <KnowButcheredHumanlikeCorpse.stages.0.description>我們把人像動物一樣宰殺了。</KnowButcheredHumanlikeCorpse.stages.0.description>
   
-  <rep>
-    <path>Catharsis.stages[0].label</path>
-    <trans>宣洩情緒</trans>
-  </rep>
-  <rep>
-    <path>Catharsis.stages[0].description</path>
-    <trans>我剛做了什麼？那不是我，我明明可以做得更好的。</trans>
-  </rep>
+
+  <!-- Combat -->
+	
+  <ObservedLayingCorpse.stages.0.label>看見屍體</ObservedLayingCorpse.stages.0.label>
+  <ObservedLayingCorpse.stages.0.description>我看見一具躺在地上的屍體。</ObservedLayingCorpse.stages.0.description>
+	
+  <ObservedLayingRottingCorpse.stages.0.label>看見腐爛的屍體</ObservedLayingRottingCorpse.stages.0.label>
+  <ObservedLayingRottingCorpse.stages.0.description>我看見地上躺著一具腐爛的屍體。真是令人作嘔。</ObservedLayingRottingCorpse.stages.0.description>
+	
+  <WitnessedDeathAlly.stages.0.label>看見同盟死亡</WitnessedDeathAlly.stages.0.label>
+  <WitnessedDeathAlly.stages.0.description>我看見我們有人死了，他們剛才還好好的，然後就倒下了。</WitnessedDeathAlly.stages.0.description>
+	
+  <WitnessedDeathStranger.stages.0.label>看見陌生人死亡</WitnessedDeathStranger.stages.0.label>
+  <WitnessedDeathStranger.stages.0.description>我看見有人死了，他們剛才還好好的，然後就倒下了。</WitnessedDeathStranger.stages.0.description>
+	
+  <WitnessedDeathStrangerBloodlust.stages.0.label>看見陌生人死亡</WitnessedDeathStrangerBloodlust.stages.0.label>
+  <WitnessedDeathStrangerBloodlust.stages.0.description>我看見有人死了！這真是太刺激了！</WitnessedDeathStrangerBloodlust.stages.0.description>
+	
+  <KilledHumanlikeBloodlust.stages.0.label>殺死了别人</KilledHumanlikeBloodlust.stages.0.label>
+  <KilledHumanlikeBloodlust.stages.0.description>我剛剛殺死了某人，這實在是太爽了！</KilledHumanlikeBloodlust.stages.0.description>
+	
+  <BattleWounded.stages.0.label>受傷</BattleWounded.stages.0.label>
+  <BattleWounded.stages.0.description>這是我的血！我受傷了！</BattleWounded.stages.0.description>
 
 </LanguageData>

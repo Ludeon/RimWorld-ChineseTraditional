@@ -49,6 +49,9 @@
   <Starvation>飢餓</Starvation>
   <StarvationDesc>這些殖民者快餓死了：\n\n{0}\n給他們弄點食物。你需要一個食物的來源，比如一個營養膏分配機配上足夠的食物供給。另外，確保他們不在被徵召的狀態。</StarvationDesc>
 
+  <StarvationAnimals>動物飢餓</StarvationAnimals>
+  <StarvationAnimalsDesc>以下屬於殖民地的動物正在飢餓中：\n\n{0}\n給他們一些食物。</StarvationAnimalsDesc>
+
   <Exhaustion>疲勞</Exhaustion>
   <ExhaustionDesc>這些殖民者已經筋疲力盡了並且需要休息：\n\n{0}\n讓他們休息一段時間。他們需要一個供殖民者使用的床。另外，確保他們不在被徵召的狀態。</ExhaustionDesc>
 
@@ -103,9 +106,9 @@
   <AlertHypothermia>體溫過低</AlertHypothermia>
   <AlertHypothermiaDesc>下列殖民者的體溫過低：\n\n{0}\n確保他們的服裝足夠保暖，並且提供溫暖的室內空間。</AlertHypothermiaDesc>
   
-  <ColonistsAwaitingMedicalOperation>{0}位殖民者正等待接受手術</ColonistsAwaitingMedicalOperation>
-  <ColonistsAwaitingMedicalOperationDesc>這位殖民者正等待接受手術:\n\n{0}\n確保你擁有必需的醫療器材與充足的醫療人員。</ColonistsAwaitingMedicalOperationDesc>
-  
+  <PatientsAwaitingMedicalOperation>{0}位病患正等待接受手術</PatientsAwaitingMedicalOperation>
+  <PatientsAwaitingMedicalOperationDesc>這位病患正等待接受手術:\n\n{0}\n確保你擁有必需的醫療器材與充足的醫療人員。</PatientsAwaitingMedicalOperationDesc>
+
   <FireInHomeArea>火災！</FireInHomeArea>
   <FireInHomeAreaDesc>生活區內發生火災！</FireInHomeAreaDesc>
 

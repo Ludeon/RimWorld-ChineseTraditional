@@ -14,14 +14,15 @@
   <SeasonFall>秋天</SeasonFall>
   <SeasonWinter>冬天</SeasonWinter>
 
-  <Born>出生日期：{2}年{1}{0}日</Born>
-  <AgeChronological>實際年齡：{0}歲{1}個月又{2}天</AgeChronological>
-  <AgeBiological>生理年齡：{0}歲{1}個月又{2}天</AgeBiological>
-  <DaysHours>{0}日，{1}小時</DaysHours>
+  <Born>生日：</Born>
+  <AgeChronological>實際年齡：{0}歲{1}季又{2}天</AgeChronological>
+  <AgeBiological>生理年齡：{0}歲{1}季又{2}天</AgeBiological>
 
   <!-- Date periods -->
-  <Period1Month>滿月</Period1Month>
-  <PeriodMonths>{0}個月</PeriodMonths>
+	<Period1Year>1年</Period1Year>
+  <PeriodYears>{0}年</PeriodYears>
+  <Period1Season>1季</Period1Season>
+  <PeriodSeasons>{0}季</PeriodSeasons>
   <Period1Day>1天</Period1Day>
   <PeriodDays>{0}天</PeriodDays>
   <Period1Hour>1小時</Period1Hour>
@@ -30,6 +31,7 @@
   <!-- Misc -->
   <Started>最初</Started>
   <Lasted>最後</Lasted>
+  <OccurredTimeAgo>發生{0}前</OccurredTimeAgo>
   
 
 </LanguageData>

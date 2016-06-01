@@ -15,7 +15,9 @@
 
   <OutOfRange>超出射程</OutOfRange>
   <CannotHitTarget>無法擊中目標</CannotHitTarget>
-  <CannotFight>{0}無法戰鬥</CannotFight>
+  <IsIncapableOfViolenceLower>{0}無法執行暴力相關指令。</IsIncapableOfViolenceLower>
+  <IsNotDraftedLower>{0}未受徵召</IsNotDraftedLower>
+  <CannotOrderNonControlledLower>無法命令不受控制的單位</CannotOrderNonControlledLower>
   
   <OrderManThing>操控{0}</OrderManThing>
   
@@ -35,6 +37,8 @@
   <AnimalInteractedTooRecently>最近已和動物互動過了</AnimalInteractedTooRecently>
   <NoUsableFood>無可使用的食物</NoUsableFood>
   <AnimalsSkillTooLow>動物技能過低</AnimalsSkillTooLow>
+	<NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
+	<NoFuelToRefuel>需要{0}</NoFuelToRefuel>
 
   <ConsumeThing>食用{0}</ConsumeThing>
   <Teetotaler>禁酒主義者</Teetotaler>
@@ -56,9 +60,10 @@
   <CarryToCryptosleepCasket>將{0}帶至冷凍休眠艙</CarryToCryptosleepCasket>
   <CannotCarryToCryptosleepCasket>無法帶至冷凍休眠艙</CannotCarryToCryptosleepCasket>
 
-  <NoCryptosleepCasket>沒有空的冷凍休眠艙。</NoCryptosleepCasket>
+  <NoCryptosleepCasket>沒有閒置的冷凍休眠艙。</NoCryptosleepCasket>
   <NoPrisonerBed>沒有在封閉房間中的俘虜床。</NoPrisonerBed>
-  <NoNonPrisonerBed>沒有可用的非俘虜床。</NoNonPrisonerBed>
+  <NoNonPrisonerBed>沒有可用的殖民者床。</NoNonPrisonerBed>
+  <NoAnimalBed>沒有可用的動物床。</NoAnimalBed>
   <Reserved>已經為別人預留了。</Reserved>
   <ReservedBy>預留給了{0}。</ReservedBy>
   <IsReservedBy>{0}被預留给了{1}。</IsReservedBy>
@@ -72,6 +77,7 @@
 
   <ForceWear>穿上{0}</ForceWear>
   <CannotWear>無法穿上{0}</CannotWear>
+  <CannotWearBecauseOfMissingBodyParts>缺少身體部位</CannotWearBecauseOfMissingBodyParts>
   
   <Strip>脱下{0}的衣物</Strip>
   <CannotStrip>無法脱下{0}</CannotStrip>
@@ -87,6 +93,9 @@
   <NotInjured>健康</NotInjured>
   <SomeoneElseSleeping>有其他人正在休養</SomeoneElseSleeping>
   
+  <TradeWith>與{0}進行交易</TradeWith>
+  <CannotTrade>無法交易</CannotTrade>
+  
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>進入低溫休眠艙</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>開啟低溫休眠艙</OpenCryptosleepCasket>
@@ -97,15 +106,15 @@
   <CannotGenericWork>無法{0}{1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>無法優先當前任務(不具有{0}能力)</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>無法優先進行當前任務(不具有{0}能力)</CannotMissingHealthActivities>
   
   <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>無法優先當前任務({0}不是{1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeIsNotA>無法優先進行當前任務({0}不是{1})</CannotPrioritizeIsNotA>
 
-  <CannotPrioritizeResearch>無法優先當前任務(研究是一項長時間的工作)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>無法優先進行當前任務(研究是一項長時間的工作)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>無法優先當前任務({0}是禁止的)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>無法優先進行當前任務({0}是禁止的)</CannotPrioritizeForbidden>
 
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->

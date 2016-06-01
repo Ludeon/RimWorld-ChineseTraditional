@@ -47,11 +47,10 @@
   <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
 
-  <!-- To express ownership. -->
-  <!-- For example Jack's Bedroom -->
-  <SomeonesSomething>{0}的{1}</SomeonesSomething>
+  <SomeonesRoom>{0}的{1}</SomeonesRoom>
+  <CouplesRoom>{0}和{1}的{2}</CouplesRoom>
 
-  <VariousLabel>(種類)</VariousLabel>
+  <VariousLabel>(多種物件)</VariousLabel>
   
   <!-- History events -->
   <ColonistDied>殖民者死亡</ColonistDied>

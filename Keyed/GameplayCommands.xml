@@ -36,9 +36,8 @@
   <CommandBedSetOwnerDesc>分派此床位給特定的殖民者。</CommandBedSetOwnerDesc>
   <CommandGraveAssignColonistLabel>登錄殖民者</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>將此墓位分配給特定的殖民者。</CommandGraveAssignColonistDesc>
-  <CommandGraveSetToUnassignedLabel>取消登錄</CommandGraveSetToUnassignedLabel>
-  <CommandGraveSetToUnassignedDesc>取消指定墓位給任何殖民者。</CommandGraveSetToUnassignedDesc>
   <BuildingAssign>登錄</BuildingAssign>
+  <BuildingUnassign>取消登錄</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>設為俘虜專用</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>將這個房間内的床設為俘虜專用。</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>無法將室外的床設為俘虜專用。</CommandBedSetForPrisonersFailOutdoors>
@@ -109,9 +108,11 @@
   <CommandRaiseTempDesc>調高目標溫度</CommandRaiseTempDesc>
   <CommandLowerTempDesc>調降目標溫度</CommandLowerTempDesc>
 
-  <!-- Art -->
+  <!-- Install/reinstall -->
   <CommandInstall>安裝</CommandInstall>
   <CommandInstallDesc>此物件已被包裝為方便儲存與運輸的狀態，使用這項指令以安裝這項物件至指定的位置，使之能夠供人觀賞。</CommandInstallDesc>
+  <CommandReinstall>重新安裝至...</CommandReinstall>
+  <CommandReinstallDesc>將此物件設為無法拆除或重新安裝至其它地方。</CommandReinstallDesc>
 
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>創建一片與交易信標作用範圍相同的儲存區。</CommandMakeBeaconStockpileDesc>
@@ -128,6 +129,10 @@
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>放出動物</CommandReleaseAnimalsLabel>
   <CommandReleaseAnimalsDesc>當啟用此選項時，動物將能夠前往攻擊遠處的目標，反之，牠們將只會跟隨並護衛主人。</CommandReleaseAnimalsDesc>
+  
+  <!-- Squad attack -->
+  <CommandSquadAttack>攻擊</CommandSquadAttack>
+  <CommandSquadAttackDesc>命令當前選擇的所有殖民者攻擊指定目標。</CommandSquadAttackDesc>
   
   
 </LanguageData>

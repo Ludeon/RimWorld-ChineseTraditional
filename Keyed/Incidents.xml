@@ -40,8 +40,10 @@
 
   <LetterLabelSingleVisitorArrives>訪客</LetterLabelSingleVisitorArrives>
   <SingleVisitorArrives>一位來自{1}的{0}來拜訪殖民地。\n\nHECAP名叫{2}。</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n看來HECAP帶了些能夠交易的東西。</SingleVisitorArrivesTraderInfo>
   <LetterLabelGroupVisitorsArrive>參訪團</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>一群來自{0}的人來拜訪殖民地。</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>\n\n看來他們帶了些能夠交易的東西。</GroupVisitorsArriveTraderInfo>
   <VisitorsLeaving>來自{0}的參觀者離開了。</VisitorsLeaving>
 
   <LetterLabelWandererJoin>志願者加入</LetterLabelWandererJoin>
@@ -97,7 +99,12 @@
   <LetterLabelThrumboPasses>獨角獸</LetterLabelThrumboPasses>
   <LetterThrumboPasses>一小群獨角獸正在附近遊蕩。\n\n這種稀有的物種天性溫和，但與牠們對抗可是極端的危險。有些商人願意開出高價收購牠們的角與皮毛。\n\nThrumbos只會在附近停留幾日。</LetterThrumboPasses>
   
+  <!-- Trader caravan -->
+  <LetterLabelTraderCaravanArrival>來自{0}的商隊</LetterLabelTraderCaravanArrival>
+  <LetterTraderCaravanArrival>一團來自{0}的商隊抵達了這裡'。\n\n他們將在殖民地附近停留幾天。 你可以對他們發動攻擊，但此舉會激怒他們的勢力。</LetterTraderCaravanArrival>
   
-  
+  <!-- Building breaks down -->
+  <LetterLabelBuildingBrokenDown>損壞：{0}</LetterLabelBuildingBrokenDown>
+  <LetterBuildingBrokenDown>你有一部電器({0})損壞了，在具有修理技能的殖民者將它修理好之前，它將無法運作。</LetterBuildingBrokenDown>
   
 </LanguageData>

@@ -6,13 +6,6 @@
   <Lit>明亮</Lit>
   <LitBrightly>非常明亮</LitBrightly>
   
-  <!-- diet type -->
-  <NeverEats>不進食</NeverEats>
-  <Omnivorous>雜食</Omnivorous>
-  <Herbivorous>素食</Herbivorous>
-  <Carnivorous>肉食</Carnivorous>
-  <Dendrovorous>Dendrovorous</Dendrovorous>
-  
   <!-- history upload pref -->
   <Unspecified>未决定</Unspecified>
   <Always>允許</Always>
@@ -24,6 +17,19 @@
   <PriceTypeNormal>一般</PriceTypeNormal>
   <PriceTypeExpensive>偏貴</PriceTypeExpensive>
   <PriceTypeExorbitant>非常貴</PriceTypeExorbitant>
+
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>蔬食</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>生肉</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>屍體</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seeds>種子</FoodTypeFlags_Seeds>
+  <FoodTypeFlags_AnimalProduct>畜產品</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>植物</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>樹木</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>餐點</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>加工食品</FoodTypeFlags_Processed>
+  <FoodTypeFlags_NutritionalDrug>酒精飲品</FoodTypeFlags_NutritionalDrug>
+  <FoodTypeFlags_AnimalKibble>動物飼料</FoodTypeFlags_AnimalKibble>
 
   <!-- Quality category -->
   <QualityCategory_Awful>差勁</QualityCategory_Awful>
@@ -88,7 +94,15 @@
   <MedicalCareCategory_NormalOrWorse>供應普通藥品或普通藥品等級以下的藥品</MedicalCareCategory_NormalOrWorse>
   <MedicalCareCategory_Best>給予最高品質的醫療照顧</MedicalCareCategory_Best>
 
-
+  <!-- Hostility response mode -->
+  <HostilityResponseMode_Ignore>無視</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>攻擊</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>逃跑</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <HediffGrowthMode_Growing>生長</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>穩定</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>減緩</HediffGrowthMode_Remission>
   
   
 </LanguageData>

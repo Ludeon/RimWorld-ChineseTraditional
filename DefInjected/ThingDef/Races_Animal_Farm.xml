@@ -1,44 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-  <!-- =============================== Farm animals ============================= -->
+  <!-- Farm animals -->
   
-	<Chicken.label>雞</Chicken.label>
-	<Chicken.description>最典型的農場動物，主要生產雞蛋和雞肉。</Chicken.description>
-	<!--<Chicken_Leather.label>雞皮</Chicken_Leather.label>
-	<Chicken_Leather.description>雞的皮。</Chicken_Leather.description>-->
-	<Chicken_Meat.label>雞肉</Chicken_Meat.label>
-	<Chicken_Meat.description>雞的肉。</Chicken_Meat.description>
-	<Chicken_Corpse.label>雞屍體</Chicken_Corpse.label>
-	<Chicken_Corpse.description>雞的屍體。</Chicken_Corpse.description>
+  <Chicken.label>雞</Chicken.label>
+  <Chicken.description>最典型的農場動物，主要生產雞蛋和雞肉。</Chicken.description>
+  <Chicken_Meat.label>雞肉</Chicken_Meat.label>
+  <Chicken_Meat.description>雞的肉。</Chicken_Meat.description>
+  <Chicken_Corpse.label>雞屍體</Chicken_Corpse.label>
+  <Chicken_Corpse.description>雞的屍體。</Chicken_Corpse.description>
   
-	<Pig.label>豬</Pig.label>
-	<Pig.description>最早被人類馴化飼養的動物之一，主要生產豬肉和豬皮。豬隻非常容易餵養，因為牠們什麼都吃。</Pig.description>
-	<Pig_Leather.label>豬皮</Pig_Leather.label>
-	<Pig_Leather.description>豬的皮。</Pig_Leather.description>
-	<Pig_Meat.label>豬肉</Pig_Meat.label>
-	<Pig_Meat.description>豬的肉。</Pig_Meat.description>
-	<Pig_Corpse.label>豬屍體</Pig_Corpse.label>
-	<Pig_Corpse.description>豬的屍體。</Pig_Corpse.description>
-	
-	<Cow.label>牛</Cow.label>
-	<Cow.description>一種普遍的農業動物，牠們提供非常大量的牛奶，或者在屠宰後成為桌上佳餚。</Cow.description>
-	<Cow_Leather.label>牛皮</Cow_Leather.label>
-	<Cow_Leather.description>牛的皮。</Cow_Leather.description>
-	<Cow_Meat.label>牛肉</Cow_Meat.label>
-	<Cow_Meat.description>牛的肉。</Cow_Meat.description>
-	<Cow_Corpse.label>牛屍體</Cow_Corpse.label>
-	<Cow_Corpse.description>牛的屍體。</Cow_Corpse.description>
-	
-	
+  <Pig.label>豬</Pig.label>
+  <Pig.description>最早被人類馴化飼養的動物之一，主要生產豬肉和豬皮。豬隻非常容易餵養，因為牠們什麼都吃。</Pig.description>
+  <Pig_Leather.label>豬皮</Pig_Leather.label>
+  <Pig_Leather.description>豬的皮。</Pig_Leather.description>
+  <Pig_Leather.stuffProps.stuffAdjective>豬皮</Pig_Leather.stuffProps.stuffAdjective>
+  <Pig_Meat.label>豬肉</Pig_Meat.label>
+  <Pig_Meat.description>豬的肉。</Pig_Meat.description>
+  <Pig_Corpse.label>豬屍體</Pig_Corpse.label>
+  <Pig_Corpse.description>豬的屍體。</Pig_Corpse.description>
   
-	<Alpaca.label>羊駝</Alpaca.label>
-	<Alpaca.description>一種和美洲駝血緣相近的動物，體型中等。人們因牠身上柔軟的毛料而飼養牠們。</Alpaca.description>
-	<Alpaca_Leather.label>羊駝毛皮</Alpaca_Leather.label>
-	<Alpaca_Leather.description>羊駝的毛皮。</Alpaca_Leather.description>
-	<Alpaca_Meat.label>羊駝肉</Alpaca_Meat.label>
-	<Alpaca_Meat.description>羊駝的肉。</Alpaca_Meat.description>
-	<Alpaca_Corpse.label>羊駝屍體</Alpaca_Corpse.label>
-	<Alpaca_Corpse.description>羊駝的屍體。</Alpaca_Corpse.description>
+  <Cow.label>牛</Cow.label>
+  <Cow.description>一種普遍的農業動物，牠們提供非常大量的牛奶，或者在屠宰後成為桌上佳餚。</Cow.description>
+  <Cow_Leather.label>牛皮</Cow_Leather.label>
+  <Cow_Leather.description>牛的皮。</Cow_Leather.description>
+  <Cow_Leather.stuffProps.stuffAdjective>牛皮</Cow_Leather.stuffProps.stuffAdjective>
+  <Cow_Meat.label>牛肉</Cow_Meat.label>
+  <Cow_Meat.description>牛的肉。</Cow_Meat.description>
+  <Cow_Corpse.label>牛屍體</Cow_Corpse.label>
+  <Cow_Corpse.description>牛的屍體。</Cow_Corpse.description>
+  
+  <Alpaca.label>羊駝</Alpaca.label>
+  <Alpaca.description>一種和美洲駝血緣相近的動物，體型中等。人們因牠身上柔軟的毛料而飼養牠們。</Alpaca.description>
+  <Alpaca_Leather.label>羊駝毛皮</Alpaca_Leather.label>
+  <Alpaca_Leather.description>羊駝的毛皮。</Alpaca_Leather.description>
+  <Alpaca_Leather.stuffProps.stuffAdjective>羊駝毛皮</Alpaca_Leather.stuffProps.stuffAdjective>
+  <Alpaca_Meat.label>羊駝肉</Alpaca_Meat.label>
+  <Alpaca_Meat.description>羊駝的肉。</Alpaca_Meat.description>
+  <Alpaca_Corpse.label>羊駝屍體</Alpaca_Corpse.label>
+  <Alpaca_Corpse.description>羊駝的屍體。</Alpaca_Corpse.description>
   
 </LanguageData>

@@ -1,127 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
-	<WoundInfection.label>傷口感染</WoundInfection.label>
-	<rep>
-		<path>WoundInfection.stages[0].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>WoundInfection.stages[1].label</path>
-		<trans>中度</trans>
-	</rep>
-	<rep>
-		<path>WoundInfection.stages[2].label</path>
-		<trans>重度</trans>
-	</rep>
-	<rep>
-		<path>WoundInfection.stages[3].label</path>
-		<trans>極重度</trans>
-	</rep>
-	<rep>
-		<path>WoundInfection.stages[4].label</path>
-		<trans>極重度</trans>
-	</rep>
-	
-	<Flu.label>流感</Flu.label>
-	<rep>
-		<path>Flu.stages[0].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>Flu.stages[1].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>Flu.stages[2].label</path>
-		<trans>中度</trans>
-	</rep>
-	<rep>
-		<path>Flu.stages[3].label</path>
-		<trans>重度</trans>
-	</rep>
-	<rep>
-		<path>Flu.stages[4].label</path>
-		<trans>極重度</trans>
-	</rep>
-	
-	<Plague.label>瘟疫</Plague.label>
-	<rep>
-		<path>Plague.stages[0].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>Plague.stages[1].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>Plague.stages[2].label</path>
-		<trans>中度</trans>
-	</rep>
-	<rep>
-		<path>Plague.stages[3].label</path>
-		<trans>重度</trans>
-	</rep>
-	<rep>
-		<path>Plague.stages[4].label</path>
-		<trans>極重度</trans>
-	</rep>
-	<rep>
-		<path>Plague.stages[5].label</path>
-		<trans>極重度</trans>
-	</rep>
-	
-	<Malaria.label>瘧疾</Malaria.label>
-	<rep>
-		<path>Malaria.stages[0].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>Malaria.stages[1].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>Malaria.stages[2].label</path>
-		<trans>中度</trans>
-	</rep>
-	<rep>
-		<path>Malaria.stages[3].label</path>
-		<trans>重度</trans>
-	</rep>
-	<rep>
-		<path>Malaria.stages[4].label</path>
-		<trans>極重度</trans>
-	</rep>
-	
-	<SleepingSickness.label>昏睡病</SleepingSickness.label>
-	<rep>
-		<path>SleepingSickness.stages[0].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>SleepingSickness.stages[1].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>SleepingSickness.stages[2].label</path>
-		<trans>輕度</trans>
-	</rep>
-	<rep>
-		<path>SleepingSickness.stages[3].label</path>
-		<trans>中度</trans>
-	</rep>
-	<rep>
-		<path>SleepingSickness.stages[4].label</path>
-		<trans>重度</trans>
-	</rep>
-	<rep>
-		<path>SleepingSickness.stages[5].label</path>
-		<trans>極重度</trans>
-	</rep>
-	<rep>
-		<path>SleepingSickness.stages[6].label</path>
-		<trans>極重度</trans>
-	</rep>
-	
-	
+
+  <GutWorms.label>蠕蟲</GutWorms.label>
+
+  <MuscleParasites.label>肌肉寄生蟲</MuscleParasites.label>
+  <MuscleParasites.stages.0.label>輕度</MuscleParasites.stages.0.label>
+
+  <FibrousMechanites.label>肌肉細胞機械化</FibrousMechanites.label>
+  <FibrousMechanites.stages.0.label>輕度疼痛</FibrousMechanites.stages.0.label>
+  <FibrousMechanites.stages.1.label>強烈疼痛</FibrousMechanites.stages.1.label>
+
+  <SensoryMechanites.label>感官細胞機械化</SensoryMechanites.label>
+  <SensoryMechanites.stages.0.label>輕度疼痛</SensoryMechanites.stages.0.label>
+  <SensoryMechanites.stages.1.label>強烈疼痛</SensoryMechanites.stages.1.label>
+  
+  <WoundInfection.label>傷口感染</WoundInfection.label>
+  <WoundInfection.stages.0.label>輕度</WoundInfection.stages.0.label>
+  <WoundInfection.stages.1.label>中度</WoundInfection.stages.1.label>
+  <WoundInfection.stages.2.label>重度</WoundInfection.stages.2.label>
+  <WoundInfection.stages.3.label>極重度</WoundInfection.stages.3.label>
+  <WoundInfection.stages.4.label>極重度</WoundInfection.stages.4.label>
+  
+  <Flu.label>流感</Flu.label>
+  <Flu.stages.0.label>輕度</Flu.stages.0.label>
+  <Flu.stages.1.label>輕度</Flu.stages.1.label>
+  <Flu.stages.2.label>中度</Flu.stages.2.label>
+  <Flu.stages.3.label>重度</Flu.stages.3.label>
+  <Flu.stages.4.label>極重度</Flu.stages.4.label>
+  
+  <Plague.label>瘟疫</Plague.label>
+  <Plague.stages.0.label>輕度</Plague.stages.0.label>
+  <Plague.stages.1.label>輕度</Plague.stages.1.label>
+  <Plague.stages.2.label>中度</Plague.stages.2.label>
+  <Plague.stages.3.label>重度</Plague.stages.3.label>
+  <Plague.stages.4.label>極重度</Plague.stages.4.label>
+  <Plague.stages.5.label>極重度</Plague.stages.5.label>
+  
+  <Malaria.label>瘧疾</Malaria.label>
+  <Malaria.stages.0.label>輕度</Malaria.stages.0.label>
+  <Malaria.stages.1.label>輕度</Malaria.stages.1.label>
+  <Malaria.stages.2.label>中度</Malaria.stages.2.label>
+  <Malaria.stages.3.label>重度</Malaria.stages.3.label>
+  <Malaria.stages.4.label>極重度</Malaria.stages.4.label>
+  
+  <SleepingSickness.label>昏睡病</SleepingSickness.label>
+  <SleepingSickness.stages.0.label>輕度</SleepingSickness.stages.0.label>
+  <SleepingSickness.stages.1.label>輕度</SleepingSickness.stages.1.label>
+  <SleepingSickness.stages.2.label>輕度</SleepingSickness.stages.2.label>
+  <SleepingSickness.stages.3.label>中度</SleepingSickness.stages.3.label>
+  <SleepingSickness.stages.4.label>重度</SleepingSickness.stages.4.label>
+  <SleepingSickness.stages.5.label>極重度</SleepingSickness.stages.5.label>
+  <SleepingSickness.stages.6.label>極重度</SleepingSickness.stages.6.label>
+  
 </LanguageData>

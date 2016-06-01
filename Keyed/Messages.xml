@@ -67,6 +67,7 @@
   <MessageRefusedArrest>{0}拒絕被拘捕！</MessageRefusedArrest>
   
   <MessageNoMedicalBeds>沒有可用的病床或醫療床。</MessageNoMedicalBeds>
+  <MessageNoAnimalBeds>沒有可用的動物床。</MessageNoAnimalBeds>
   
   <PawnDiedBecauseOf>{0}因{1}死亡了。</PawnDiedBecauseOf>
 
@@ -83,10 +84,42 @@
 
   <MessageMiscarriedStarvation>{0}因為營養不良而流產了。</MessageMiscarriedStarvation>
   <MessageMiscarriedPoorHealth>{0}因健康狀況不佳而流產了。</MessageMiscarriedPoorHealth>
-  <MessageGaveBirth>{0}誕生了！</MessageGaveBirth>
+  <MessageGaveBirth>{0}生產了！</MessageGaveBirth>
 
-  <MessageNuzzledPawnGaveNameTo>在被撒嬌後，{0}決定將{1}命名為{2}。</MessageNuzzledPawnGaveNameTo>
+  <MessageNuzzledPawnGaveNameTo>在被撒嬌後，{0}決定將{1}取名為{2}。</MessageNuzzledPawnGaveNameTo>
 
   <MessageNoHandlerSkilledEnough>沒有馴養員能夠馴服{0}(需要等級{1}的{2}，最好的馴養員{3}只有{4})。</MessageNoHandlerSkilledEnough>
+  
+  <MessageEatenByPredator>{0}被{1}吃掉了。</MessageEatenByPredator>
+  <MessageAttackedByPredator>{0}正被{1}攻擊！</MessageAttackedByPredator>
+  
+  <MessageHiveReproduced>一個蟲巢蔓延了。</MessageHiveReproduced>
+  
+  <MessageTraderCaravanLeaving>來自{0}的商隊離開了。</MessageTraderCaravanLeaving>
+  
+  <MessageCantSelectDeadFamilyMember>{0}已經死亡。</MessageCantSelectDeadFamilyMember>
+  <MessageCantSelectOffMapFamilyMember>{0}目前不在地圖中。</MessageCantSelectOffMapFamilyMember>
+  
+  <MessageSocialFight>{0}和{1}打了起來。原因：{2}。</MessageSocialFight>
+  
+  <MessageNewMarriageCeremony>殖民者們聚集在一塊，準備參加{0}和{1}的婚禮</MessageNewMarriageCeremony>
+  <MessageMarriageCeremonyStarts>{0}和{1}的婚禮開始了！</MessageMarriageCeremonyStarts>
+  <MessageMarriageCeremonyCalledOff>{0}和{1}婚禮取消了。</MessageMarriageCeremonyCalledOff>
+  <MessageNewlyMarried>{0}和{1}結婚了。殖民者們開始慶祝這項喜事。</MessageNewlyMarried>
+  <MessageMarriageCeremonyAfterPartyFinished>{0}和{1}的婚禮已經結束。</MessageMarriageCeremonyAfterPartyFinished>
+  
+  <MessageNewBondRelation>{0}和{1}成為了夥伴。</MessageNewBondRelation>
+  <MessageNewBondRelationNewName>{0}和{1}成為了夥伴。{0}將{1}取名為{2}。</MessageNewBondRelationNewName>
+  
+  <MessageBondedAnimalMentalBreak>{0}因為無法接受{1}的死亡而精神崩潰了。</MessageBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>{0}{1}因為無法接受{2}的死亡而精神崩潰了。</MessageNamedBondedAnimalMentalBreak>
+  <MessageBondedAnimalsMentalBreak>{0}因為無法接受{1}的死亡而精神崩潰了。</MessageBondedAnimalsMentalBreak>
+  
+  <MessageSuccessfullyRemovedHediff>{0}成功移除了{1}的{2}。</MessageSuccessfullyRemovedHediff>
+  
+  <MessageShipChunkDrop>一塊星艦的碎片墜落到了附近。</MessageShipChunkDrop>
+  
+  <MessagePartyCalledOff>派對被取消了。</MessagePartyCalledOff>
+  <MessagePartyFinished>派對已經結束。</MessagePartyFinished>
   
 </LanguageData>

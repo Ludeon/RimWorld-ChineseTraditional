@@ -1,124 +1,130 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+     
+  <Firefighter.labelShort>消防員</Firefighter.labelShort>
+  <Firefighter.pawnLabel>消防員</Firefighter.pawnLabel>
+  <Firefighter.gerundLabel>滅火</Firefighter.gerundLabel>
+  <Firefighter.verb>撲滅</Firefighter.verb>
+  <Firefighter.description>消防員會撲滅殖民地内的火焰。</Firefighter.description>
 
-	<Research.labelShort>研究員</Research.labelShort>
-	<Research.pawnLabel>研究員</Research.pawnLabel>
-	<Research.gerundLabel>研究</Research.gerundLabel>
-	<Research.verb>研究</Research.verb>
-	<Research.description>研究員從事研究工作。</Research.description>
-    
-	<Cleaning.labelShort>清潔員</Cleaning.labelShort>
-	<Cleaning.pawnLabel>清潔員</Cleaning.pawnLabel>
-	<Cleaning.gerundLabel>清潔</Cleaning.gerundLabel>
-	<Cleaning.verb>清理</Cleaning.verb>
-	<Cleaning.description>清潔員會將垃圾清理乾淨，讓殖民地成為一個更舒適的地方。</Cleaning.description>
-       
-	<Hauling.labelShort>搬運員</Hauling.labelShort>
-	<Hauling.pawnLabel>搬運員</Hauling.pawnLabel>
-	<Hauling.gerundLabel>搬運</Hauling.gerundLabel>
-	<Hauling.verb>搬運</Hauling.verb>
-	<Hauling.description>搬運員會將東西送到它們該去的地方。</Hauling.description>
-       
-	<Crafting.labelShort>工匠</Crafting.labelShort>
-	<Crafting.pawnLabel>工匠</Crafting.pawnLabel>
-	<Crafting.gerundLabel>製作</Crafting.gerundLabel>
-	<Crafting.verb>製作於</Crafting.verb>
-	<Crafting.description>工匠可以把原材料製成成品。</Crafting.description>
-       
-	<Art.labelShort>藝術家</Art.labelShort>
-	<Art.pawnLabel>藝術家</Art.pawnLabel>
-	<Art.gerundLabel>藝術</Art.gerundLabel>
-	<Art.verb>創作於</Art.verb>
-	<Art.description>藝術家會創作優秀的藝術作品。</Art.description>
-	
-	<Tailoring.labelShort>裁縫師</Tailoring.labelShort>
-    <Tailoring.pawnLabel>裁縫師</Tailoring.pawnLabel>
-    <Tailoring.gerundLabel>裁縫</Tailoring.gerundLabel>
-    <Tailoring.verb>裁縫於</Tailoring.verb>
-    <Tailoring.description>裁縫師會將原料製成服裝。</Tailoring.description>
-	
-	<Smithing.labelShort>鍛造師</Smithing.labelShort>
-    <Smithing.pawnLabel>鍛造師</Smithing.pawnLabel>
-    <Smithing.gerundLabel>鍛造師</Smithing.gerundLabel>
-    <Smithing.verb>鍛造於</Smithing.verb>
-    <Smithing.description>鍛造師會將原料打造成武器或工具。</Smithing.description>
-       
-	<PlantCutting.labelShort>採收者</PlantCutting.labelShort>
-	<PlantCutting.pawnLabel>採收者</PlantCutting.pawnLabel>
-	<PlantCutting.gerundLabel>剪裁植物</PlantCutting.gerundLabel>
-	<PlantCutting.verb>裁剪</PlantCutting.verb>
-	<PlantCutting.description>採收者會裁剪或收穫你指定的植物。</PlantCutting.description>
-		
-	<Growing.labelShort>種植者</Growing.labelShort>
-	<Growing.pawnLabel>種植者</Growing.pawnLabel>
-	<Growing.gerundLabel>種植</Growing.gerundLabel>
-	<Growing.verb>種植</Growing.verb>
-	<Growing.description>種植者會播種並收穫長成的植物。</Growing.description>
+  <PatientEmergency.labelShort>病人</PatientEmergency.labelShort>
+  <PatientEmergency.pawnLabel>病人</PatientEmergency.pawnLabel>
+  <PatientEmergency.gerundLabel>療傷</PatientEmergency.gerundLabel>
+  <PatientEmergency.verb>成為病人</PatientEmergency.verb>
+  <PatientEmergency.description>需要立即醫療照護的殖民者將會移動到病床或醫療床上接受治療。</PatientEmergency.description>
  
-	<Mining.labelShort>礦工</Mining.labelShort>
-	<Mining.pawnLabel>礦工</Mining.pawnLabel>
-	<Mining.gerundLabel>採礦</Mining.gerundLabel>
-	<Mining.verb>開採</Mining.verb>
-	<Mining.description>礦工會開挖你指定的方塊。如果你指定的方塊是礦石方塊便能收穫到有用的金屬礦石。</Mining.description>
-	     
-	<Repair.labelShort>修理工</Repair.labelShort>
-	<Repair.pawnLabel>修理工</Repair.pawnLabel>
-	<Repair.gerundLabel>修理</Repair.gerundLabel>
-	<Repair.verb>修理</Repair.verb>
-	<Repair.description>修理工會修理壞掉的建築和裝備。</Repair.description>
+  <Doctor.labelShort>醫生</Doctor.labelShort>
+  <Doctor.pawnLabel>醫生</Doctor.pawnLabel>
+  <Doctor.gerundLabel>治療</Doctor.gerundLabel>
+  <Doctor.verb>照顧</Doctor.verb>
+  <Doctor.description>醫生會將食物送给無法動彈的人。包括殖民者和俘虜。</Doctor.description>
+
+  <PatientBedRest.labelShort>療養</PatientBedRest.labelShort>
+  <PatientBedRest.pawnLabel>療養</PatientBedRest.pawnLabel>
+  <PatientBedRest.gerundLabel>療養</PatientBedRest.gerundLabel>
+  <PatientBedRest.verb>療養</PatientBedRest.verb>
+  <PatientBedRest.description>在不需要迫切的醫療照顧的狀況下在床上療養。</PatientBedRest.description>
+  
+  <Flicker.labelShort>控制員</Flicker.labelShort>
+  <Flicker.pawnLabel>控制員</Flicker.pawnLabel>
+  <Flicker.gerundLabel>控管</Flicker.gerundLabel>
+  <Flicker.verb>控制</Flicker.verb>
+  <Flicker.description>控制員可以控制電源開關。</Flicker.description>
  
-	<Construction.labelShort>建築工</Construction.labelShort>
-	<Construction.pawnLabel>建築工</Construction.pawnLabel>
-	<Construction.gerundLabel>建造</Construction.gerundLabel>
-	<Construction.verb>建造</Construction.verb>       
-	<Construction.description>建造者會建造你指定的建築。</Construction.description>
-       
-	<Hunting.labelShort>獵人</Hunting.labelShort>
-	<Hunting.pawnLabel>獵人</Hunting.pawnLabel>
-	<Hunting.gerundLabel>狩獵</Hunting.gerundLabel>
-	<Hunting.verb>獵捕</Hunting.verb>
-	<Hunting.description>獵人會狩獵你指定的動物。</Hunting.description>
-       
-	<Cooking.labelShort>廚師</Cooking.labelShort>
-	<Cooking.pawnLabel>廚師</Cooking.pawnLabel>
-	<Cooking.gerundLabel>烹飪</Cooking.gerundLabel>
-	<Cooking.verb>烹調</Cooking.verb>
-	<Cooking.description>廚師會填充儲料器、屠宰動物並製作料理。</Cooking.description>
-	
-	<Handling.labelShort>馴獸員</Handling.labelShort>
-	<Handling.pawnLabel>馴獸員</Handling.pawnLabel>
-	<Handling.gerundLabel>馴獸</Handling.gerundLabel>
-	<Handling.verb>馴養</Handling.verb>
-	<Handling.description>馴獸員馴服、飼養以及宰殺動物，此外他們也負責擠奶、剃毛及撿拾雞蛋。</Handling.description>
+  <Warden.labelShort>獄卒</Warden.labelShort>
+  <Warden.pawnLabel>獄卒</Warden.pawnLabel>
+  <Warden.gerundLabel>監管</Warden.gerundLabel>
+  <Warden.verb>處理</Warden.verb>
+  <Warden.description>獄卒可以和招募俘虜，和俘虜聊天，毆打俘虜或是處決俘虜——只要你選擇對應的選項。獄卒也會替俘虜送食物。</Warden.description>
+  
+  <Handling.labelShort>馴獸員</Handling.labelShort>
+  <Handling.pawnLabel>馴獸員</Handling.pawnLabel>
+  <Handling.gerundLabel>馴獸</Handling.gerundLabel>
+  <Handling.verb>馴養</Handling.verb>
+  <Handling.description>馴獸員馴服、飼養以及宰殺動物，此外他們也負責擠奶、剃毛及撿拾雞蛋。</Handling.description>
+     
+  <Cooking.labelShort>廚師</Cooking.labelShort>
+  <Cooking.pawnLabel>廚師</Cooking.pawnLabel>
+  <Cooking.gerundLabel>烹飪</Cooking.gerundLabel>
+  <Cooking.verb>烹調</Cooking.verb>
+  <Cooking.description>廚師會填充儲料器、屠宰動物並製作料理。</Cooking.description>
+     
+  <Hunting.labelShort>獵人</Hunting.labelShort>
+  <Hunting.pawnLabel>獵人</Hunting.pawnLabel>
+  <Hunting.gerundLabel>狩獵</Hunting.gerundLabel>
+  <Hunting.verb>獵捕</Hunting.verb>
+  <Hunting.description>獵人會狩獵你指定的動物。</Hunting.description>
  
-	<Warden.labelShort>獄卒</Warden.labelShort>
-	<Warden.pawnLabel>獄卒</Warden.pawnLabel>
-	<Warden.gerundLabel>監管</Warden.gerundLabel>
-	<Warden.verb>處理</Warden.verb>
-	<Warden.description>獄卒可以和招募俘虜，和俘虜聊天，毆打俘虜或是處決俘虜——只要你選擇對應的選項。獄卒也會替俘虜送食物。</Warden.description>
-	
-	<Flicker.labelShort>控制員</Flicker.labelShort>
-	<Flicker.pawnLabel>控制員</Flicker.pawnLabel>
-	<Flicker.gerundLabel>控管</Flicker.gerundLabel>
-	<Flicker.verb>控制</Flicker.verb>
-	<Flicker.description>控制員可以控制電源開關。</Flicker.description>
-	
-	<Patient.labelShort>病人</Patient.labelShort>
-	<Patient.pawnLabel>病人</Patient.pawnLabel>
-	<Patient.gerundLabel>療傷</Patient.gerundLabel>
-	<Patient.verb>成為病人</Patient.verb>
-	<Patient.description>受傷的殖民者將會到病床或醫療床上接受治療。</Patient.description>
+  <Construction.labelShort>建築工</Construction.labelShort>
+  <Construction.pawnLabel>建築工</Construction.pawnLabel>
+  <Construction.gerundLabel>建造</Construction.gerundLabel>
+  <Construction.verb>建造</Construction.verb>     
+  <Construction.description>建造者會建造你指定的建築。</Construction.description>
+     
+  <Repair.labelShort>修理工</Repair.labelShort>
+  <Repair.pawnLabel>修理工</Repair.pawnLabel>
+  <Repair.gerundLabel>修理</Repair.gerundLabel>
+  <Repair.verb>修理</Repair.verb>
+  <Repair.description>修理工會修理壞掉的建築和裝備。</Repair.description>
+  
+  <Growing.labelShort>種植者</Growing.labelShort>
+  <Growing.pawnLabel>種植者</Growing.pawnLabel>
+  <Growing.gerundLabel>種植</Growing.gerundLabel>
+  <Growing.verb>種植</Growing.verb>
+  <Growing.description>種植者會播種並收穫長成的植物。</Growing.description>
  
-	<Doctor.labelShort>醫生</Doctor.labelShort>
-	<Doctor.pawnLabel>醫生</Doctor.pawnLabel>
-	<Doctor.gerundLabel>治療</Doctor.gerundLabel>
-	<Doctor.verb>照顧</Doctor.verb>
-	<Doctor.description>醫生會將食物送给無法動彈的人。包括殖民者和俘虜。</Doctor.description>
-       
-	<Firefighter.labelShort>消防員</Firefighter.labelShort>
-	<Firefighter.pawnLabel>消防員</Firefighter.pawnLabel>
-	<Firefighter.gerundLabel>滅火</Firefighter.gerundLabel>
-	<Firefighter.verb>撲滅</Firefighter.verb>
-	<Firefighter.description>消防員會撲滅殖民地内的火焰。</Firefighter.description>
- 
+  <Mining.labelShort>礦工</Mining.labelShort>
+  <Mining.pawnLabel>礦工</Mining.pawnLabel>
+  <Mining.gerundLabel>採礦</Mining.gerundLabel>
+  <Mining.verb>開採</Mining.verb>
+  <Mining.description>礦工會開挖你指定的方塊。如果你指定的方塊是礦石方塊便能收穫到有用的金屬礦石。</Mining.description>
+     
+  <PlantCutting.labelShort>採收者</PlantCutting.labelShort>
+  <PlantCutting.pawnLabel>採收者</PlantCutting.pawnLabel>
+  <PlantCutting.gerundLabel>剪裁植物</PlantCutting.gerundLabel>
+  <PlantCutting.verb>裁剪</PlantCutting.verb>
+  <PlantCutting.description>採收者會裁剪或收穫你指定的植物。</PlantCutting.description>
+  
+  <Smithing.labelShort>鍛造師</Smithing.labelShort>
+  <Smithing.pawnLabel>鍛造師</Smithing.pawnLabel>
+  <Smithing.gerundLabel>鍛造師</Smithing.gerundLabel>
+  <Smithing.verb>鍛造於</Smithing.verb>
+  <Smithing.description>鍛造師會將原料打造成武器或工具。</Smithing.description>
+  
+  <Tailoring.labelShort>裁縫師</Tailoring.labelShort>
+  <Tailoring.pawnLabel>裁縫師</Tailoring.pawnLabel>
+  <Tailoring.gerundLabel>裁縫</Tailoring.gerundLabel>
+  <Tailoring.verb>裁縫於</Tailoring.verb>
+  <Tailoring.description>裁縫師會將原料製成服裝。</Tailoring.description>
+     
+  <Art.labelShort>藝術家</Art.labelShort>
+  <Art.pawnLabel>藝術家</Art.pawnLabel>
+  <Art.gerundLabel>藝術</Art.gerundLabel>
+  <Art.verb>創作於</Art.verb>
+  <Art.description>藝術家會創作優秀的藝術作品。</Art.description>
+     
+  <Crafting.labelShort>工匠</Crafting.labelShort>
+  <Crafting.pawnLabel>工匠</Crafting.pawnLabel>
+  <Crafting.gerundLabel>製作</Crafting.gerundLabel>
+  <Crafting.verb>製作於</Crafting.verb>
+  <Crafting.description>工匠可以把原材料製成成品。</Crafting.description>
+     
+  <Hauling.labelShort>搬運員</Hauling.labelShort>
+  <Hauling.pawnLabel>搬運員</Hauling.pawnLabel>
+  <Hauling.gerundLabel>搬運</Hauling.gerundLabel>
+  <Hauling.verb>搬運</Hauling.verb>
+  <Hauling.description>搬運員會將東西送到它們該去的地方。</Hauling.description>
+  
+  <Cleaning.labelShort>清潔員</Cleaning.labelShort>
+  <Cleaning.pawnLabel>清潔員</Cleaning.pawnLabel>
+  <Cleaning.gerundLabel>清潔</Cleaning.gerundLabel>
+  <Cleaning.verb>清理</Cleaning.verb>
+  <Cleaning.description>清潔員會將垃圾清理乾淨，讓殖民地成為一個更舒適的地方。</Cleaning.description>
+
+  <Research.labelShort>研究員</Research.labelShort>
+  <Research.pawnLabel>研究員</Research.pawnLabel>
+  <Research.gerundLabel>研究</Research.gerundLabel>
+  <Research.verb>研究</Research.verb>
+  <Research.description>研究員從事研究工作。</Research.description>
+  
 </LanguageData>

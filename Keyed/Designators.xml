@@ -56,7 +56,7 @@
   <DesignatorExpandAreaAllowed>劃設活動區</DesignatorExpandAreaAllowed>
   <DesignatorExpandAreaAllowedDesc>規劃一片活動區域。\n\n你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorExpandAreaAllowedDesc>
   <DesignatorClearAreaAllowed>移除活動區</DesignatorClearAreaAllowed>
-  <DesignatorClearAreaAllowedDesc>移除一片活動區。\n\nn你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
+  <DesignatorClearAreaAllowedDesc>移除一片活動區。\n\n你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
   <ManageAreas>管理活動區...</ManageAreas>
   
   <DesignatorGrowingZoneDesc>指定一片你希望你的殖民者種植某種植物的區域。</DesignatorGrowingZoneDesc>
@@ -77,8 +77,8 @@
   <DesignatorStrip>掠奪</DesignatorStrip>
   <DesignatorStripDesc>掠奪屍體或失去行動能力的對象的衣物。</DesignatorStripDesc>
 
-  <DesignatorRearmTrap>重置陷阱</DesignatorRearmTrap>
-  <DesignatorRearmTrapDesc>重置陷阱，使它能夠再度運作。</DesignatorRearmTrapDesc>
+  <DesignatorRearmTrap>重設陷阱</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>重設陷阱，使它能夠再度運作。</DesignatorRearmTrapDesc>
 
   <DesignatorOpen>開啟</DesignatorOpen>
   <DesignatorOpenDesc>開啟棺材或容器。</DesignatorOpenDesc>
@@ -87,15 +87,15 @@
   <DesignatorSlaughterDesc>屠宰一頭以馴養的生物。</DesignatorSlaughterDesc>
 
   <DesignatorTame>馴服</DesignatorTame>
-  <DesignatorTameDesc>馴養一頭野生動物。</DesignatorTameDesc>
+  <DesignatorTameDesc>馴服一頭野生動物。</DesignatorTameDesc>
   
   
   <!-- Failure messages -->
   <UnchosenStuff>無法選擇的素材</UnchosenStuff>
-  <TooCloseToMapEdge>距離地圖邊緣太近。</TooCloseToMapEdge>
+  <TooCloseToMapEdge>過於接近距離地圖邊緣。</TooCloseToMapEdge>
   <OutOfBounds>在界線之外。</OutOfBounds>
   <CannotPlaceInUndiscovered>不能放置在未探索的區域內。</CannotPlaceInUndiscovered>
-  <InteractionSpotBlocked>互動點被：{0}擋住。</InteractionSpotBlocked>
+  <InteractionSpotBlocked>互動點被{0}擋住。</InteractionSpotBlocked>
   <InteractionSpotOutOfBounds>互動點在界線之外。</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>互動點會被擋住。</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0}會擋住{1}的互動點。</WouldBlockInteractionSpot>
