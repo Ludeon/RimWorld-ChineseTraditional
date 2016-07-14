@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!-- Work tab -->
+  
   <ManualPriorities>自訂優先度</ManualPriorities>
   <HigherPriority>高優先度</HigherPriority>
   <LowerPriority>低優先度</LowerPriority>
@@ -13,6 +14,7 @@
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
 
   <!-- Outfits tab -->
+  
   <CurrentOutfit>目前裝備</CurrentOutfit>
   <ManageOutfits>裝備管理</ManageOutfits>
   <ClearForcedApparel>卸除裝備</ClearForcedApparel>
@@ -21,20 +23,24 @@
   <OutfitEdit>編輯...</OutfitEdit>
   
   <!-- Restrictions tab -->
+  
   <Copy>複製</Copy>
   <Paste>貼上</Paste>
   <AllowedArea>活動區</AllowedArea>
   
   <!-- Animals tab -->
+  
   <Master>主人</Master>
   <PregnantIconDesc>懷孕({0}/{1})</PregnantIconDesc>
   
   <!-- Factions tab -->
+  
   <Hostile>敵對</Hostile>
   <HostileTo>與{0}敵對</HostileTo>
   <CurrentGoodwill>這個勢力目前的好感度。</CurrentGoodwill>
   
   <!-- Statistics tab -->
+  
   <Playtime>遊戲時間</Playtime>
   <Storyteller>故事敘述者</Storyteller>
   <ColonyWealthTotal>殖民地財富</ColonyWealthTotal>
@@ -47,6 +53,7 @@
   <ColonistsLaunched>發送至太空的殖民者</ColonistsLaunched>
   
   <!-- History tab -->
+  
   <SelectGraph>選擇圖表</SelectGraph>
   <Last30Days>最近30天</Last30Days>
   <Last100Days>最近100天</Last100Days>
@@ -55,5 +62,12 @@
   <Day>天</Day>
   <Value>價值</Value>
   <External>外來</External>
+
+  <!-- Research tab -->
+  <ProjectTechLevel>研究項目文明等級</ProjectTechLevel>
+  <YourTechLevel>你的文明等級</YourTechLevel>
+  <ResearchCostMultiplier>研究速度倍率</ResearchCostMultiplier>
+  <ResearchCostComparison>Die Projekt-Basiskosten {0} sind für dich {1} aufgrund deiner Technologiestufe.</ResearchCostComparison>
+  
   
 </LanguageData>

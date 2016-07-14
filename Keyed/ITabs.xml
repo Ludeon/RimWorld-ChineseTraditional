@@ -2,6 +2,7 @@
 <LanguageData>
   
   <!-- ITab titles -->
+  
   <TabBills>選單</TabBills>
   <TabGrowing>作物</TabGrowing>
   <TabCharacter>角色</TabCharacter>
@@ -18,9 +19,9 @@
   <TabRecords>紀錄</TabRecords>
   <TabArt>藝術</TabArt>
   <TabSocial>社交</TabSocial>
-
   
   <!-- Bills tab  -->
+  
   <AddBill>新增工作</AddBill>
   <RecipeRequiresSkills>配方{0}需要以下技能。你沒有任何殖民者擁有這些技能，所以無人會完成這份工作。</RecipeRequiresSkills>
   <MinimumSkill>最低技能</MinimumSkill>
@@ -28,8 +29,8 @@
   <BoundWorkerIs>執行者：{0}</BoundWorkerIs>
   <PlantVerb>種植</PlantVerb>
   
-  
   <!-- Prisoner tab -->
+  
   <RecruitmentDifficulty>招募難度</RecruitmentDifficulty>
   <GetsFood>供給食物</GetsFood>
   <DoctorsCare>醫療照顧</DoctorsCare>
@@ -41,8 +42,8 @@
   <PrisonerRelease>釋放</PrisonerRelease>
   <PrisonerExecution>處決</PrisonerExecution>
   
-  
   <!-- Medical - general -->
+  
   <MoveSpeed>移動速度</MoveSpeed>
   <Efficiency>效率</Efficiency>
   <MissingBodyPart>不存在</MissingBodyPart>
@@ -68,13 +69,14 @@
   <MedicalOperations>手術</MedicalOperations>
   <Amputate>截肢</Amputate>
   <Harvest>摘除</Harvest>
+  <RemoveOrgan>移除內臟</RemoveOrgan>
   <MemoryLower>記憶</MemoryLower>
   <SocialInteractionsLower>社交影響</SocialInteractionsLower>
   <HungerRate>飢餓速率</HungerRate>
   <Tiredness>疲勞速率</Tiredness>
   
-  
   <!-- Medical - Body and activities condition -->
+  
   <None>無</None>
   <VeryPoor>非常差</VeryPoor>
   <Poor>較差</Poor>
@@ -90,8 +92,8 @@
   <SeverePain>重度</SeverePain>
   <ExtremePain>極度</ExtremePain>
 
-
   <!-- Training tab-->
+  
   <TrainableIntelligence>智能程度</TrainableIntelligence>
   <CannotTrainNotSmartEnough>需要{0}智能程度</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0}的體型過小，無法接受這項訓練。</CannotTrainTooSmall>
@@ -99,6 +101,7 @@
   <TrainingNeedsPrerequisite>前提條件：{0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
+  
   <NoRelationships>(無社交關係)</NoRelationships>
   <Kidnapped>綁架</Kidnapped>
   <Slave>奴隸</Slave>

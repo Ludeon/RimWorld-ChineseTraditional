@@ -4,31 +4,25 @@
   <CraftingSpot.label>手工工作區</CraftingSpot.label>
   <CraftingSpot.description>一個製造簡單刀具或弓箭的地方。</CraftingSpot.description>
   
-  <NutrientPasteDispenser.label>營養膏分配機</NutrientPasteDispenser.label>
-  <NutrientPasteDispenser.description>將有機材料合成為營養膏。</NutrientPasteDispenser.description>
-  
-  <Hopper.label>儲料槽</Hopper.label>
-  <Hopper.description>為營養膏分配機這樣的大型機器儲存原料。</Hopper.description>
-  
   <!-- Work tables -->
+  
+  <TableSculpting.label>雕刻桌</TableSculpting.label>
+  <TableSculpting.description>專門進行雕刻工作的桌子。</TableSculpting.description>
   
   <TableButcher.label>屠宰桌</TableButcher.label>
   <TableButcher.description>一個用來將死亡的動物屠宰成肉塊的重型桌子。</TableButcher.description>
-
-  <ElectricTailoringBench.label>電動裁縫桌</ElectricTailoringBench.label>
-  <ElectricTailoringBench.description>用來裁縫衣服的工作台，沒電時的工作效率只有原來的40%。</ElectricTailoringBench.description>
   
   <HandTailoringBench.label>裁縫桌</HandTailoringBench.label>
   <HandTailoringBench.description>用來裁縫衣服的工作台，工作效率只有電動裁縫桌的40%。</HandTailoringBench.description>
 
-  <ElectricSmithy.label>電力鍛造台</ElectricSmithy.label>
-  <ElectricSmithy.description>製造非機械式武器和工具的工作台。</ElectricSmithy.description>
+  <ElectricTailoringBench.label>電動裁縫桌</ElectricTailoringBench.label>
+  <ElectricTailoringBench.description>用來裁縫衣服的工作台，沒電時的工作效率只有原來的40%。</ElectricTailoringBench.description>
 
   <FueledSmithy.label>燃料鍛造台</FueledSmithy.label>
   <FueledSmithy.description>製造非機械式武器和工具的工作台，需要消耗木材燃料。</FueledSmithy.description>
-  
-  <TableSculpting.label>雕刻桌</TableSculpting.label>
-  <TableSculpting.description>專門進行雕刻工作的桌子。</TableSculpting.description>
+
+  <ElectricSmithy.label>電力鍛造台</ElectricSmithy.label>
+  <ElectricSmithy.description>製造非機械式武器和工具的工作台。</ElectricSmithy.description>
   
   <TableMachining.label>機械加工桌</TableMachining.label>
   <TableMachining.description>一套專門在組裝或拆解機械用的桌子與工具。</TableMachining.description>
@@ -62,9 +56,15 @@
   <ElectricCrematorium.label>火化爐</ElectricCrematorium.label>
   <ElectricCrematorium.description>以電力驅動的火化爐。</ElectricCrematorium.description>
   
-  <!-- ========== Hydroponics ==============-->
-  
   <HydroponicsBasin.label>水培植物盆</HydroponicsBasin.label>
   <HydroponicsBasin.description>用來種植作物，水培植物盆能讓植物快速生長。</HydroponicsBasin.description>
+  
+  <!-- ========== Nutrient dispenser ==============-->
+  
+  <NutrientPasteDispenser.label>營養膏分配機</NutrientPasteDispenser.label>
+  <NutrientPasteDispenser.description>將有機材料合成為營養膏。</NutrientPasteDispenser.description>
+  
+  <Hopper.label>儲料槽</Hopper.label>
+  <Hopper.description>為營養膏分配機這樣的大型機器儲存原料。</Hopper.description>
   
 </LanguageData>

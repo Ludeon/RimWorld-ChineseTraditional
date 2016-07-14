@@ -19,17 +19,28 @@
   <CompiledOn>匯編於{0}</CompiledOn>
   <LoggedIntoSteamAs>以{0}登錄Steam</LoggedIntoSteamAs>
 
+  <!-- General-use words -->
+  <Yes>是</Yes>
+  <No>否</No>
+  <min>最小值</min>
+  <max>最大值</max>
+  <chance>機率</chance>
+  <context>背景</context>
+  <multiplier>多重</multiplier>
+  <damage>傷害</damage>
+  <radius>範圍</radius>
+  <durationDays>持續天數</durationDays>
 
   <!-- Content generation-->
 
-	<MeatLabel>{0}肉</MeatLabel>
+  <MeatLabel>{0}肉</MeatLabel>
   <MeatDesc>{0}的生肉。</MeatDesc>
 
   <LeatherLabel>{0}皮毛</LeatherLabel>
   <LeatherDesc>{0}的皮毛。</LeatherDesc>
 
   <CorpseLabel>{0}屍體</CorpseLabel>
-	<CorpseDesc>{0}的屍體。</CorpseDesc>
+  <CorpseDesc>{0}的屍體。</CorpseDesc>
   <DeadLabel>{0}(死亡)</DeadLabel>
 
   <RoughStoneTerrainLabel>崎嶇{0}</RoughStoneTerrainLabel>
@@ -42,10 +53,15 @@
   <BlueprintLabelExtra> (藍圖)</BlueprintLabelExtra>
   <FrameLabelExtra>(框架)</FrameLabelExtra>
   
-  
   <!-- For things made of stuff, e.g. "Stone bed" -->
+  
   <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  
   <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
+
+  <!-- To express ownership. -->
+
+  <!-- For example Jack's Bedroom -->
 
   <SomeonesRoom>{0}的{1}</SomeonesRoom>
   <CouplesRoom>{0}和{1}的{2}</CouplesRoom>
@@ -53,8 +69,7 @@
   <VariousLabel>(多種物件)</VariousLabel>
   
   <!-- History events -->
+  
   <ColonistDied>殖民者死亡</ColonistDied>
-  
-  
   
 </LanguageData>

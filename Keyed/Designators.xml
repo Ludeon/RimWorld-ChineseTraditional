@@ -40,23 +40,34 @@
   
   <DesignatorAreaHomeExpand>劃設生活區</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>殖民者只會修理、清潔生活區內的物件以及撲滅生活區中的火。</DesignatorAreaHomeExpandDesc>
+  
   <DesignatorAreaHomeClear>移除生活區</DesignatorAreaHomeClear>
   <DesignatorAreaHomeClearDesc>移除生活區，殖民者將不再打掃、修理或撲滅這些區域的火。</DesignatorAreaHomeClearDesc>
   
+  <DesignatorAreaBuildRoofExpand>劃設屋頂區</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpandDesc>劃設一片屋頂區，殖民者會前去建造屋頂。</DesignatorAreaBuildRoofExpandDesc>
+
+  <DesignatorAreaBuildRoofClear>移除屋頂區</DesignatorAreaBuildRoofClear>
+  <DesignatorAreaBuildRoofClearDesc>移除一片露天區，殖民者會前去拆除屋頂。</DesignatorAreaBuildRoofClearDesc>
+
   <DesignatorAreaNoRoofExpand>劃設露天區</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>劃設無屋頂的區域。殖民者也會移除這個區域内的所有屋頂。</DesignatorAreaNoRoofExpandDesc>
+  
   <DesignatorAreaNoRoofClear>移除露天區</DesignatorAreaNoRoofClear>
   <DesignatorAreaNoRoofClearDesc>移除一片露天區。屋頂會自動升成，已存在的屋頂不會被移除。</DesignatorAreaNoRoofClearDesc>
 
   <DesignatorAreaSnowClearExpand>劃設除雪區</DesignatorAreaSnowClearExpand>
   <DesignatorAreaSnowClearExpandDesc>劃設一片需要除雪的區域，殖民者將會保持這片區域沒有積雪。</DesignatorAreaSnowClearExpandDesc>
+  
   <DesignatorAreaSnowClearClear>移除除雪區</DesignatorAreaSnowClearClear>
   <DesignatorAreaSnowClearClearDesc>移除一片除雪區，殖民者將不再清理這片區域的積雪。</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorExpandAreaAllowed>劃設活動區</DesignatorExpandAreaAllowed>
   <DesignatorExpandAreaAllowedDesc>規劃一片活動區域。\n\n你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorExpandAreaAllowedDesc>
+  
   <DesignatorClearAreaAllowed>移除活動區</DesignatorClearAreaAllowed>
   <DesignatorClearAreaAllowedDesc>移除一片活動區。\n\n你可以為殖民者指定個別的活動區，殖民者不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
+  
   <ManageAreas>管理活動區...</ManageAreas>
   
   <DesignatorGrowingZoneDesc>指定一片你希望你的殖民者種植某種植物的區域。</DesignatorGrowingZoneDesc>
@@ -89,8 +100,8 @@
   <DesignatorTame>馴服</DesignatorTame>
   <DesignatorTameDesc>馴服一頭野生動物。</DesignatorTameDesc>
   
-  
   <!-- Failure messages -->
+  
   <UnchosenStuff>無法選擇的素材</UnchosenStuff>
   <TooCloseToMapEdge>過於接近距離地圖邊緣。</TooCloseToMapEdge>
   <OutOfBounds>在界線之外。</OutOfBounds>
@@ -107,13 +118,13 @@
   <SpaceAlreadyOccupied>空間已被占用。</SpaceAlreadyOccupied>
   <TerrainMustBeRemovable>必須指定可移除的地板。</TerrainMustBeRemovable>
   
-  
   <!-- Mouse attachments -->
+  
   <ExpandOrCreateZone>擴展{0}或\n建立新的{1}</ExpandOrCreateZone>
   <CreateNewZone>建立新的{0}</CreateNewZone>
   
-  
   <!-- Desc helpers -->
+  
   <TransmitsPower>傳輸電力</TransmitsPower>
   
   

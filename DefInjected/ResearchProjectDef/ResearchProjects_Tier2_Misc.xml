@@ -1,52 +1,78 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Tier 2 Misc -->
-
-  <Firefoam.label>泡沫滅火裝置</Firefoam.label>
-  <Firefoam.description>允許建造泡沫滅火裝置，一種可以噴出大量泡沫以滅火的設備。</Firefoam.description>
-
-  <GeothermalPower.label>地熱發電</GeothermalPower.label>
-  <GeothermalPower.description>允許你在蒸氣間歇泉上建造地熱發電機，一種源源不絕的電力來源。</GeothermalPower.description>
-  <GeothermalPower.descriptionDiscovered>你現在可以建造地熱發電機了！</GeothermalPower.descriptionDiscovered>
+  <!--================================ Tier 2: Basic electricity ====================================-->
   
-  <HospitalBed.label>醫療床</HospitalBed.label>
-  <HospitalBed.description>允許殖民者建造醫療床，在醫療床上可增加醫療工作成功的機率。</HospitalBed.description>
-  <HospitalBed.descriptionDiscovered>你現在可以建造醫療床了！</HospitalBed.descriptionDiscovered>
+
+  <Batteries.label>電池</Batteries.label>
+  <Batteries.description>解鎖建造能夠儲存電力的電池。</Batteries.description>
+  <Batteries.descriptionDiscovered>你現在可以建造電池了！</Batteries.descriptionDiscovered>
+
+  <NutrientPaste.label>營養膏生產機</NutrientPaste.label>
+  <NutrientPaste.description>解鎖建造營養膏生產機，可自動將原料製成營養膏。</NutrientPaste.description>
+  <NutrientPaste.descriptionDiscovered>你現在可以建造營養膏生產機了！</NutrientPaste.descriptionDiscovered>
   
-  <MultiAnalyzer.label>多重分析技術</MultiAnalyzer.label>
-  <MultiAnalyzer.description>允許建造多重分析裝置，可用來加快研究速度、解鎖更高階的科技。必須安裝在高科技研究桌附近。</MultiAnalyzer.description>
-  <MultiAnalyzer.descriptionDiscovered>你現在可以建造多重分析裝置了！</MultiAnalyzer.descriptionDiscovered>
-
-  <!-- Tier 2.5 Misc -->
-
-  <VitalsMonitor.label>生命體徵檢測器</VitalsMonitor.label>
-  <VitalsMonitor.description>允許建造生命體徵檢測器，可增加醫療效果，必須安裝在醫療床旁邊。</VitalsMonitor.description>
-  <VitalsMonitor.descriptionDiscovered>你現在可以建造生命體徵檢測器了！</VitalsMonitor.descriptionDiscovered>
+  <SolarPanels.label>太陽能發電板</SolarPanels.label>
+  <SolarPanels.description>解鎖建造太陽能發電板，能在陽光下產生電力。</SolarPanels.description>
+  <SolarPanels.descriptionDiscovered>你現在可以建造太陽能發電板了！</SolarPanels.descriptionDiscovered>
   
-  <Cryptosleep.label>冷凍休眠</Cryptosleep.label>
-  <Cryptosleep.description>允許殖民者建造冷凍休眠艙，可讓其中的生物進入冷凍休眠狀態。</Cryptosleep.description>
-  <Cryptosleep.descriptionDiscovered>你現在可以建造冷凍休眠艙了！</Cryptosleep.descriptionDiscovered>
+  <AirConditioning.label>冷氣</AirConditioning.label>
+  <AirConditioning.description>解鎖建造</AirConditioning.description>
+  <AirConditioning.descriptionDiscovered>你現在可以建造冷氣了！</AirConditioning.descriptionDiscovered>
   
-  <ComponentAssembly.label>電子零件組裝</ComponentAssembly.label>
-  <ComponentAssembly.description>允許建造電子零件生產台，讓殖民者只需要簡單的原料就能夠生產電子零件。</ComponentAssembly.description>
-  <ComponentAssembly.descriptionDiscovered>你現在可以生產電子零件了！</ComponentAssembly.descriptionDiscovered>
+  <Autodoors.label>自動門</Autodoors.label>
+  <Autodoors.description>解鎖建造自動門，使人通過門時不需減速。</Autodoors.description>
+  <Autodoors.descriptionDiscovered>你現在可以建造自動門了！</Autodoors.descriptionDiscovered>
+ 
+  <Hydroponics.label>水培技術</Hydroponics.label>
+  <Hydroponics.description>解鎖建造水培設施以在室內進行快速種植。</Hydroponics.description>
+  <Hydroponics.descriptionDiscovered>你現在可以建造水培植物盆了！</Hydroponics.descriptionDiscovered>
+  
+  <ElectricSmelting.label>金屬提煉</ElectricSmelting.label>
+  <ElectricSmelting.description>解鎖建造金屬提煉器。金屬提煉器可以透過高溫和電磁鐵將金屬碎片中有用的金屬提煉出來。</ElectricSmelting.description>
+  <ElectricSmelting.descriptionDiscovered>你現在可以建造金屬提煉器了！</ElectricSmelting.descriptionDiscovered>
+  
+  <ElectricCremation.label>火化爐</ElectricCremation.label>
+  <ElectricCremation.description>解鎖建造能將屍體與衣物徹底燒毀的火化爐。</ElectricCremation.description>
+  <ElectricCremation.descriptionDiscovered>你現在可以建造火化爐了！</ElectricCremation.descriptionDiscovered>
+  
+  <ColoredLights.label>彩色燈</ColoredLights.label>
+  <ColoredLights.description>解鎖殖民者製作裝飾性的彩色燈。</ColoredLights.description>
+  <ColoredLights.descriptionDiscovered>你現在可以建造彩色燈了！</ColoredLights.descriptionDiscovered>
+ 
+  <Machining.label>機械拆解</Machining.label>
+  <Machining.description>解鎖建造能將損壞的機器人拆解為有用金屬的設備。</Machining.description>
+  <Machining.descriptionDiscovered>你現在可以建造機械加工桌了！</Machining.descriptionDiscovered>
+  
+  <Mortars.label>迫擊砲</Mortars.label>
+  <Mortars.description>解鎖建造能夠將炮彈拋過牆壁的重炮。</Mortars.description>
+  <Mortars.descriptionDiscovered>你現在可以建造迫擊砲和燃燒迫擊砲了！</Mortars.descriptionDiscovered>
+  
+  <IEDBomb.label>地雷</IEDBomb.label>
+  <IEDBomb.description>解鎖殖民者用砲彈製造一種爆裂性的地雷裝置。</IEDBomb.description>
+  <IEDBomb.descriptionDiscovered>你現在可以建造地雷了！</IEDBomb.descriptionDiscovered>
+  
+  <IEDIncendiary.label>燃燒地雷</IEDIncendiary.label>
+  <IEDIncendiary.description>解鎖殖民者用砲彈製造一種會炸出火焰的地雷裝置。</IEDIncendiary.description>
+  <IEDIncendiary.descriptionDiscovered>你現在可以建造燃燒地雷了！</IEDIncendiary.descriptionDiscovered>
 
-  <PoweredArmor.label>動力裝甲</PoweredArmor.label>
-  <PoweredArmor.description>神經機械和先進的塑鋼塑形技術允許你生產動力裝甲以及動力裝甲頭盔。</PoweredArmor.description>
-  <PoweredArmor.descriptionDiscovered>你現在可以生產動力裝甲以及動力裝甲頭盔了！</PoweredArmor.descriptionDiscovered>
+  <MicroelectronicsBasics.label>基礎微電子科技</MicroelectronicsBasics.label>
+  <MicroelectronicsBasics.description>更加精密，更加複雜的電子技術。解鎖建造高科技研究桌、通訊台，和新的研究計劃。</MicroelectronicsBasics.description>
+  <MicroelectronicsBasics.descriptionDiscovered>你現在可以更深入的探索科學了！</MicroelectronicsBasics.descriptionDiscovered>
 
-  <ChargedShot.label>高能光束</ChargedShot.label>
-  <ChargedShot.description>理解能量脈衝彈藥的秘密，允許生產光束步槍。</ChargedShot.description>
-  <ChargedShot.descriptionDiscovered>你現在可以生產光束步槍了！</ChargedShot.descriptionDiscovered>
+  <!--=============================== Tier 2.5 Microelectronics ===================================-->
 
-  <MultibarrelWeapons.label>多管武器</MultibarrelWeapons.label>
-  <MultibarrelWeapons.description>允許生產滾筒式機槍。</MultibarrelWeapons.description>
-  <MultibarrelWeapons.descriptionDiscovered>你現在可以生產滾筒式機槍了！</MultibarrelWeapons.descriptionDiscovered>
+  <TubeTelevision.label>顯像管電視</TubeTelevision.label>
+  <TubeTelevision.description>解鎖建造顯像管電視。</TubeTelevision.description>
+  <TubeTelevision.descriptionDiscovered>你現在可以建造顯像管電視了！</TubeTelevision.descriptionDiscovered>
 
-  <!--
-  <LargeRockets.label>火箭技術</LargeRockets.label>
-  <LargeRockets.description>允許生產末日火箭炮和三管火箭砲，讓你俐落的掃蕩戰場。</LargeRockets.description>
-  -->
+  <GunTurrets.label>自動機槍塔</GunTurrets.label>
+  <GunTurrets.description>解鎖建造自動機槍塔。</GunTurrets.description>
+  <GunTurrets.descriptionDiscovered>你現在可以建造自動機槍塔了！</GunTurrets.descriptionDiscovered>
+
+  <!-- Cut misc -->
+
+  
+
   
 </LanguageData>

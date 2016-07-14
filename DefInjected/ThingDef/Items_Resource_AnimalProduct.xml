@@ -1,36 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Kibble -->
-
-  <Kibble.label>飼料</Kibble.label>
-  <Kibble.description>專門供給動物食用的飼料，由肉類和作物合成。</Kibble.description>
-  
-  <!-- Milk -->
+  <!--=====================================================================-->
+  <!--=============================== Misc ================================-->
+  <!--=====================================================================-->
   
   <Milk.label>牛奶</Milk.label>  
   <Milk.description>動物產出的奶。</Milk.description>
+
+  <InsectJelly.label>昆蟲營養膠</InsectJelly.label>
+  <InsectJelly.description>蟲族儲存用來作為食物的膠狀物，外表盈滑，營養豐富，而且味道令人滿意。因為獨特的化學特性，它能供幾乎所有的生物食用，而且保存期限：永遠。</InsectJelly.description>
   
-  <!-- Eggs -->
+  <!-- Chicken -->
   
   <EggChickenUnfertilized.label>雞蛋</EggChickenUnfertilized.label>  
   <EggChickenUnfertilized.description>未受精的雞蛋。蛋可以生吃，但烹調後風味更佳。</EggChickenUnfertilized.description>
   
   <EggChickenFertilized.label>雞蛋(已受精)</EggChickenFertilized.label>  
-  <EggChickenFertilized.description>已受精的雞蛋。如果順利，蛋將會孵出小雞寶寶。蛋可以生吃，但烹調後風味更佳。</EggChickenFertilized.description>
+  <EggChickenFertilized.description>已受精的雞蛋。如果順利，蛋將會孵出小雞。蛋可以生吃，但烹調後風味更佳。</EggChickenFertilized.description>
+  
+  <!-- Cobra -->
   
   <EggCobraFertilized.label>眼鏡蛇蛋(已受精)</EggCobraFertilized.label>  
   <EggCobraFertilized.description>已受精的眼鏡蛇蛋。如果順利，蛋將會孵出眼鏡蛇寶寶。蛋可以生吃，但烹調後風味更佳。</EggCobraFertilized.description>
+
+  <!-- Iguana -->
   
   <EggIguanaFertilized.label>鬣蜥蛋(已受精)</EggIguanaFertilized.label>  
   <EggIguanaFertilized.description>已受精的鬣蜥蛋。如果順利，蛋將會孵出鬣蜥寶寶。蛋可以生吃，但烹調後風味更佳。</EggIguanaFertilized.description>
+
+  <!-- Tortoise -->
   
   <EggTortoiseFertilized.label>烏龜蛋(已受精)</EggTortoiseFertilized.label>  
   <EggTortoiseFertilized.description>已受精的烏龜蛋。如果順利，蛋將會孵出烏龜寶寶。蛋可以生吃，但烹調後風味更佳。</EggTortoiseFertilized.description>
   
-  <!-- Insect jelly -->
+  <!-- Cassowary -->
+  
+  <EggCassowaryFertilized.label>食火雞蛋 (已受精)</EggCassowaryFertilized.label>
+  <EggCassowaryFertilized.description>已受精的食火雞蛋。如果順利，蛋將會孵出烏龜寶寶。蛋可以生吃，但烹調後風味更佳。</EggCassowaryFertilized.description>
+  
+  <!-- Emu -->
+  
+  <EggEmuFertilized.label>鴯鶓蛋 (已受精)</EggEmuFertilized.label>
+  <EggEmuFertilized.description>已受精的鴯鶓蛋。如果順利，蛋將會孵出烏龜寶寶。蛋可以生吃，但烹調後風味更佳。</EggEmuFertilized.description>
+  
+  <!-- Ostrich -->
+  
+  <EggOstrichFertilized.label>鴕鳥蛋 (已受精)</EggOstrichFertilized.label>
+  <EggOstrichFertilized.description>已受精的鴕鳥蛋。如果順利，蛋將會孵出烏龜寶寶。蛋可以生吃，但烹調後風味更佳。</EggOstrichFertilized.description>
+  
+  <!-- Turkey -->
 
-  <InsectJelly.label>昆蟲營養膠</InsectJelly.label>
-  <InsectJelly.description>蟲族儲存用來作為食物的膠狀物，外表盈滑，營養豐富，而且味道令人滿意。因為獨特的化學特性，它能供幾乎所有的生物食用，而且保存期限：永遠。</InsectJelly.description>
+  <EggTurkeyFertilized.label>火雞蛋 (已受精)</EggTurkeyFertilized.label>
+  <EggTurkeyFertilized.description>已受精的火雞蛋。如果順利，蛋將會孵出烏龜寶寶。蛋可以生吃，但烹調後風味更佳。</EggTurkeyFertilized.description>
+  
   
 </LanguageData>

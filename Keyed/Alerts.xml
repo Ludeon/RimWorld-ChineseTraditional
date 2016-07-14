@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-	<ClickToJumpToProblem>點擊此處跳轉至問題點</ClickToJumpToProblem>
+  <ClickToJumpToProblem>點擊此處跳轉至問題點</ClickToJumpToProblem>
    
-   
-  
   <NeedSawmill>需要鋸木機</NeedSawmill>
   <NeedSawmillDesc>你需要鋸木機才能把原木鋸成有用的木板。\n\n建造一個手工鋸木機或電動鋸木機。</NeedSawmillDesc>
   
@@ -87,18 +85,8 @@
   <NeedDump>需要垃圾儲存區</NeedDump>
   <NeedDumpDesc>你指定了你的殖民者搬運{0}，但是他們沒有地方放置物品。\n\n規劃一個儲存區並將儲存項目設為允許{0}。</NeedDumpDesc>
 
-  <!-- Removed
-  <NeedGrave>需要墳墓</NeedGrave>
-  <NeedGraveDesc>有屍體倒在地上，不過你的殖民者沒有地方可以放置它。\n\n建造一個墳墓或垃圾儲存區並調整其儲存設定。</NeedGraveDesc>
-  -->
-
   <ColonistsIdle>{0}位殖民者無事可做</ColonistsIdle>
   <ColonistsIdleDesc>這些殖民者們正無所事事的四處走動:\n\n{0}\n你應該給他們找點有意義的事情來做。</ColonistsIdleDesc>
-  
-  <!-- Removed
-  <HaltedConstructions>{0}項建設缺乏材料</HaltedConstructions>
-  <HaltedConstructionsDesc>以下建設正缺少必須的材料:\n\n{0}\n你應該想辦法為你的殖民者獲取對應的材料。</HaltedConstructionsDesc>
-  -->
   
   <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>以下殖民者需要接受治療。如果沒有被治療，他們可能因這些傷口而死，或沒治癒的傷口進而變成永久性的創傷。\n\n{0}\n將他們送到一個醫療床或病床上以接受治療。\n\n(首先將一張床設為病床，接著選擇受傷的殖民者並右擊病床來將他們設為患者。)</ColonistNeedsTreatmentDesc>

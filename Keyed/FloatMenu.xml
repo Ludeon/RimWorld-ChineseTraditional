@@ -1,16 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
-	<CallOnRadio>呼叫{0}</CallOnRadio>
+  <CallOnRadio>呼叫{0}</CallOnRadio>
   <CannotUseReason>無法使用({0})</CannotUseReason>
-	<CannotUseSolarFlare>無法使用(太陽閃焰)</CannotUseSolarFlare>
-	<CannotUseNoPower>無法使用(沒有電力)</CannotUseNoPower>
-	<CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
+  <CannotUseSolarFlare>無法使用(太陽閃焰)</CannotUseSolarFlare>
+  <CannotUseNoPower>無法使用(沒有電力)</CannotUseNoPower>
+  <CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
   <CannotUseReserved>無法使用(被預留)</CannotUseReserved>
   <CannotUseFull>無法使用(已滿)</CannotUseFull>
-	
+  
   <FireAt>對{0}開火</FireAt>
 
   <OutOfRange>超出射程</OutOfRange>
@@ -25,25 +23,26 @@
   <MeleeAttackToDeath>近身攻擊直到殺死{0}</MeleeAttackToDeath>
   <NoPath>沒有路徑</NoPath>
 
-	<ForbiddenLower>禁止的</ForbiddenLower>
-	<SociallyImproperLower>社交不當</SociallyImproperLower>
+  <ForbiddenLower>禁止的</ForbiddenLower>
+  <ForbiddenOutsideAllowedAreaLower>ausserhalb der erlaubten Zone</ForbiddenOutsideAllowedAreaLower>
+  <SociallyImproperLower>社交不當</SociallyImproperLower>
   <PrisonerRoomLower>牢房</PrisonerRoomLower>
-	<BurningLower>燃燒中</BurningLower>
-	<NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
-	<AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
-	<MissingMaterials>需要材料</MissingMaterials>
+  <BurningLower>燃燒中</BurningLower>
+  <NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
+  <AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
+  <MissingMaterials>需要材料</MissingMaterials>
   <MissingSkill>技能等級不足</MissingSkill>
-	<NoEmptyGraveLower>沒有空的墳墓可存放</NoEmptyGraveLower>
+  <NoEmptyGraveLower>沒有空的墳墓可存放</NoEmptyGraveLower>
   <AnimalInteractedTooRecently>最近已和動物互動過了</AnimalInteractedTooRecently>
   <NoUsableFood>無可使用的食物</NoUsableFood>
+  <NoFood>無食物</NoFood>
   <AnimalsSkillTooLow>動物技能過低</AnimalsSkillTooLow>
-	<NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
-	<NoFuelToRefuel>需要{0}</NoFuelToRefuel>
+  <NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
+  <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
 
   <ConsumeThing>食用{0}</ConsumeThing>
   <Teetotaler>禁酒主義者</Teetotaler>
-	
-	
+  
   <CannotGoNoPath>無法走到目的地(沒有路徑)</CannotGoNoPath>
   <GoHere>走到這裡</GoHere>
   
@@ -71,6 +70,8 @@
   <Incapable>沒有能力</Incapable>
   <IncapableOfCapacity>不具有{0}能力</IncapableOfCapacity>
 
+  <MinSkill>最低技能等級</MinSkill>
+
   <Equip>裝備{0}</Equip>
   <EquipWarningBrawler>(格鬥愛好者將會不悅)</EquipWarningBrawler>
   <CannotEquip>無法裝備{0}</CannotEquip>
@@ -88,24 +89,23 @@
   <SelfDestructHere>在此自我毀滅</SelfDestructHere>
 
   <Drop>卸下{0}</Drop>
-  
   <UseMedicalBed>休養直到痊癒</UseMedicalBed>
   <NotInjured>健康</NotInjured>
   <SomeoneElseSleeping>有其他人正在休養</SomeoneElseSleeping>
-  
   <TradeWith>與{0}進行交易</TradeWith>
   <CannotTrade>無法交易</CannotTrade>
   
   <!-- Specific thing interactions -->
+  
   <EnterCryptosleepCasket>進入低溫休眠艙</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>開啟低溫休眠艙</OpenCryptosleepCasket>
   
-  
-  
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
+  
   <CannotGenericWork>無法{0}{1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  
   <CannotMissingHealthActivities>無法優先進行當前任務(不具有{0}能力)</CannotMissingHealthActivities>
   
   <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
@@ -115,9 +115,10 @@
   <CannotPrioritizeResearch>無法優先進行當前任務(研究是一項長時間的工作)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>無法優先進行當前任務({0}是禁止的)</CannotPrioritizeForbidden>
-
+  <CannotPrioritizeForbiddenOutsideAllowedArea>無法優先進行當前任務({0}在允許的活動範圍外)</CannotPrioritizeForbiddenOutsideAllowedArea>
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
+  
   <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
   
 </LanguageData>

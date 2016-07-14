@@ -6,6 +6,11 @@
   <HaulToCell.reportString>正在運送TargetA。</HaulToCell.reportString>
   <HaulToContainer.reportString>正在運送TargetA。</HaulToContainer.reportString>
   
+  <!--============= Special hauling ===============-->
+  
+  <Steal.reportString>正在掠奪TargetA。</Steal.reportString>
+  <Kidnap.reportString>正在綁架TargetA。</Kidnap.reportString>
+  
   <!-- Pawn hauling -->
   
   <Rescue.reportString>正在援救TargetA。</Rescue.reportString>
@@ -16,7 +21,6 @@
   <EscortPrisonerToBed.reportString>正在押送犯人TargetA。</EscortPrisonerToBed.reportString>
   <TakeWoundedPrisonerToBed.reportString>正在帶走受傷的犯人TargetA。</TakeWoundedPrisonerToBed.reportString>
   <TakeToBedToOperate.reportString>正在帶TargetA到床上。</TakeToBedToOperate.reportString>
-  <Kidnap.reportString>正在綁架TargetA。</Kidnap.reportString>
   
   <!-- Animal handling -->
   
@@ -26,12 +30,26 @@
   <Tame.reportString>正在嘗試馴服TargetA。</Tame.reportString>
   <Train.reportString>正在訓練TargetA。</Train.reportString>
 
+
+  <!-- Construction and repair -->
+  
+  <PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>
+  <FinishFrame.reportString>正在建造TargetA。</FinishFrame.reportString>
+  <Deconstruct.reportString>正在拆除TargetA。</Deconstruct.reportString>
+  <Uninstall.reportString>正在打包TargetA。</Uninstall.reportString>
+  <Repair.reportString>正在修理TargetA。</Repair.reportString>
+  <FixBrokenDownBuilding.reportString>正在更換TargetA的零件。</FixBrokenDownBuilding.reportString>
+  <BuildRoof.reportString>正在搭建屋頂。</BuildRoof.reportString>
+  <RemoveRoof.reportString>正在拆除屋頂。</RemoveRoof.reportString>
+  
+  <!-- Medical -->
+  
+  <FeedPatient.reportString>füttert TargetB mit TargetA.</FeedPatient.reportString>
+  <TendPatient.reportString>versorgt TargetA.</TendPatient.reportString>
+
   <!-- Misc -->
   
   <DeliverFood.reportString>正將TargetA帶给TargetB吃。</DeliverFood.reportString>
-  <FeedPatient.reportString>正將TargetA餵食給TargetB。</FeedPatient.reportString>
-  <TendPatient.reportString>正在照料TargetA。</TendPatient.reportString>
-  <PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>
   <DoBill.reportString>正在做TargetA清單上的内容。</DoBill.reportString>
   <Clean.reportString>正在清理TargetA。</Clean.reportString>
   <Research.reportString>正在進行研究。</Research.reportString>
@@ -40,13 +58,9 @@
   <Mine.reportString>正在開採TargetA。</Mine.reportString>
   <SmoothFloor.reportString>正在磨光地面。</SmoothFloor.reportString>
   <RemoveFloor.reportString>正在拆除地板。</RemoveFloor.reportString>
-  <Repair.reportString>正在修理TargetA。</Repair.reportString>
-  <FinishFrame.reportString>正在建造TargetA。</FinishFrame.reportString>
   <Sow.reportString>正在種植TargetA。</Sow.reportString>
   <Harvest.reportString>正在收穫TargetA。</Harvest.reportString>
   <CutPlant.reportString>正在除掉TargetA。</CutPlant.reportString>
-  <Deconstruct.reportString>正在拆除TargetA。</Deconstruct.reportString>
-  <Uninstall.reportString>正在打包TargetA。</Uninstall.reportString>
   <PrisonerFriendlyChat.reportString>正和俘虜TargetA聊天。</PrisonerFriendlyChat.reportString>
   <PrisonerAttemptRecruit.reportString>正在嘗試招募TargetA。</PrisonerAttemptRecruit.reportString>
   <PrisonerExecution.reportString>準備處決TargetA。</PrisonerExecution.reportString>

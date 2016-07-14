@@ -5,6 +5,7 @@
   <CreateWorld>創造世界</CreateWorld>
   <NewColony>新殖民地</NewColony>
   <BackToGame>返回遊戲</BackToGame>
+  <ReviewScenario>瀏覽腳本</ReviewScenario>
   <Save>保存</Save>
   <Load>讀取</Load>
   <Options>選項</Options>
@@ -40,9 +41,9 @@
   
   <!--=========== Version info ==========-->
   <BuildNowAvailable>版本{0}已經發布。確認Ludeon.com以獲得更多資訊。</BuildNowAvailable>
-	<BuildUpToDate>最新版本。</BuildUpToDate>
-	<ErrorGettingVersionInfo>獲取版本訊息錯誤: {0}</ErrorGettingVersionInfo>
-	<LoadingVersionInfo>正在載入版本訊息...</LoadingVersionInfo>
+  <BuildUpToDate>最新版本。</BuildUpToDate>
+  <ErrorGettingVersionInfo>獲取版本訊息錯誤: {0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>正在載入版本訊息...</LoadingVersionInfo>
   
   <!--=========== World generator =========-->
   <GenerateWorld>創造世界</GenerateWorld>
@@ -61,18 +62,39 @@
   <UpdateOnSteamWorkshop>更新至Steam Workshop</UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>正在上傳。</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>Workshop提取失敗\n\原因：{0}</WorkshopSubmissionFailed>
-  <YouAgreeToSteamWorkshopLegal>提取此Mod代表你同意Steam Workshop的服務規範。點擊此處取得更多資訊。</YouAgreeToSteamWorkshopLegal>
-  <WorkshopUploadSucceeded>上傳成功{0}。</WorkshopUploadSucceeded>
-  <DownloadingMod>正在下載{0}</DownloadingMod>
+  <WorkshopUploadSucceeded>Übertragung von {0} war erfolgreich.</WorkshopUploadSucceeded>
+  <Downloading>下載中</Downloading>
+  <Source>來源</Source>
+  <ModTargetVersion>Mod版本：{0}</ModTargetVersion>
+  <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>此Mod &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  
+  
+  <!--=========== Select scenario =============-->
+  <ChooseScenario>選擇腳本</ChooseScenario>
+  <ScenariosCustom>自訂腳本</ScenariosCustom>
+  <ScenariosSteamWorkshop>Steam創意工坊</ScenariosSteamWorkshop>
+  <ScenarioEditor>腳本編輯器</ScenarioEditor>
+  <Delete>刪除</Delete>
+  
+  <!--============ Scenario editor ===============-->
+  <Seed>種子</Seed>
+  <Load>載入</Load>
+  <EditMode>編輯模式</EditMode>
+  <Summary>概要</Summary>
+  <AddPart>新增項目</AddPart>
+  <TextFieldsMustBeFilled>所有文字方塊必須具有內容。</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>確定要上傳至Steam創意工坊？\n\n你必須同意Steam創意工坊的條款，前往下列網址檢視條款內容：\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Offensichtlich solltest du nur etwas hochladen, das du auch erstellt hast.\n\nHast du den Inhalt selber erstellt?</ConfirmContentAuthor>
+  <Incompatible>不相容</Incompatible>
+  <TooMany>超過限制(最大值{0})：</TooMany>
+  <CanBeUpdatedOnWorkshop>Da du der Author bist, kann das im Workshop aktualisiert werden.</CanBeUpdatedOnWorkshop>
   
   <!--=========== Storyteller chooser ==========-->
   <ChooseAIStoryteller>選擇AI故事敘述者</ChooseAIStoryteller>
   <HowStorytellersWork>AI故事敘述者會製造海賊掠奪、資源墜落或動物襲擊這樣的事件。他們的選擇將會影響你的殖民地的故事。</HowStorytellersWork>
   <MustChooseDifficulty>請選擇遊戲難度。</MustChooseDifficulty>
   <Difficulty>難度</Difficulty>
-  
-  
-  
   
   <!--=========== Landing site select =========-->
   <SelectLandingSite>選擇著陸點</SelectLandingSite>
@@ -94,8 +116,8 @@
   <Elevation>海拔</Elevation>
   <Fertility>濕度</Fertility>
   <AvgTemp>平均溫度</AvgTemp>
-  <AvgJanTemp>1月平均溫度：{0}</AvgJanTemp>
-  <AvgJulTemp>7月平均溫度：{0}</AvgJulTemp>
+  <AvgWinterTemp>冬季均溫：{0}</AvgWinterTemp>
+  <AvgSummerTemp>夏季均溫：{0}</AvgSummerTemp>
   <Rainfall>降雨量</Rainfall>
   <HasCoast0>北岸</HasCoast0>
   <HasCoast1>東岸</HasCoast1>
@@ -114,7 +136,7 @@
   <AgeIndicator>年紀：{0}</AgeIndicator>
   <Backstory>背景故事</Backstory>
   <IncapableOf>無法執行的工作</IncapableOf>
-  <Traits>性格</Traits>
+  <Traits>特性</Traits>
   <PermanentMoodEffect>永久心情效果</PermanentMoodEffect>
   <Skills>技能</Skills>
   <NoneLower>無</NoneLower>
