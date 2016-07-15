@@ -1,6 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!--=================== executions and prisoner deaths ===================-->
+  
+  <KnowGuestExecuted.stages.0.label>有人被安樂死了</KnowGuestExecuted.stages.0.label>
+  <KnowGuestExecuted.stages.0.description>有俘虜或是訪客被安樂死了。</KnowGuestExecuted.stages.0.description>
+  <KnowGuestExecuted.stages.1.label>有人被處決了</KnowGuestExecuted.stages.1.label>
+  <KnowGuestExecuted.stages.1.description>有俘虜或是訪客被處決了。</KnowGuestExecuted.stages.1.description>
+  <KnowGuestExecuted.stages.2.label>有人因器官被摘除而死亡了</KnowGuestExecuted.stages.2.label>
+  <KnowGuestExecuted.stages.2.description>有俘虜或是訪客的器官被摘除後死亡了，真是殘忍。</KnowGuestExecuted.stages.2.description>
+
+  <KnowColonistExecuted.stages.0.label>有殖民者被安樂死了</KnowColonistExecuted.stages.0.label>
+  <KnowColonistExecuted.stages.0.description>有殖民者被安樂死了。</KnowColonistExecuted.stages.0.description>
+  <KnowColonistExecuted.stages.1.label>有殖民者被處決了</KnowColonistExecuted.stages.1.label>
+  <KnowColonistExecuted.stages.1.description>有殖民者被處決了。</KnowColonistExecuted.stages.1.description>
+  <KnowColonistExecuted.stages.2.label>有殖民者因器官被摘除而死亡了</KnowColonistExecuted.stages.2.label>
+  <KnowColonistExecuted.stages.2.description>有殖民者的器官被摘除後死亡了，真是殘忍。</KnowColonistExecuted.stages.2.description>
+  
+  <KnowPrisonerDiedInnocent.stages.0.label>得知有俘虜無辜死亡</KnowPrisonerDiedInnocent.stages.0.label>
+  <KnowPrisonerDiedInnocent.stages.0.description>我們的一名俘虜無辜死亡了。我們應該對俘虜好一點，如果我們要他們死，至少也要有一個正式的處刑，而不是使用這種野蠻的手段。</KnowPrisonerDiedInnocent.stages.0.description>
+  
+  <KnowColonistDied.stages.0.label>有殖民者死亡了</KnowColonistDied.stages.0.label>
+  <KnowColonistDied.stages.0.description>我們失去了一名同伴。我們應該多關心殖民者們的狀況。</KnowColonistDied.stages.0.description>
+  
+  
+  <!--===================== bonded animal died =====================-->
+
+  <BondedAnimalDied.stages.0.label>我的動物夥伴死了</BondedAnimalDied.stages.0.label>
+  <BondedAnimalDied.stages.0.description>牠是那麼的討人喜歡，命運真是太殘酷了。</BondedAnimalDied.stages.0.description>
+  
+  
+  <!--===================== friend/rival died =====================-->
+
+  <PawnWithGoodOpinionDied.stages.0.label>我的朋友死了</PawnWithGoodOpinionDied.stages.0.label>
+  <PawnWithGoodOpinionDied.stages.0.description>多麼好的一個人啊，少了他的世界無滋無味。</PawnWithGoodOpinionDied.stages.0.description>
+
+  <PawnWithBadOpinionDied.stages.0.label>我的死對頭死了</PawnWithBadOpinionDied.stages.0.label>
+  <PawnWithBadOpinionDied.stages.0.description>老天有眼，活該死好。</PawnWithBadOpinionDied.stages.0.description>
+  
+  
+  <!--===================== Family member died thoughts =====================-->
+
   <MySonDied.stages.0.label>我的兒子死了</MySonDied.stages.0.label>
   <MySonDied.stages.0.description>我的兒子死了，我的親骨肉...</MySonDied.stages.0.description>
 
@@ -28,6 +68,9 @@
   <MySisterDied.stages.0.label>我的姊妹死了</MySisterDied.stages.0.label>
   <MySisterDied.stages.0.description>我的姊妹死了。我的親姊妹啊...</MySisterDied.stages.0.description>
 
+  <MyGrandchildDied.stages.0.label>我的孫子(女)死了</MyGrandchildDied.stages.0.label>
+  <MyGrandchildDied.stages.0.description>我的孫子(女)死了，我的孫子啊...</MyGrandchildDied.stages.0.description>
+
   <MyFatherDied.stages.0.label>我的父親死了</MyFatherDied.stages.0.label>
   <MyFatherDied.stages.0.description>我的父親死了，從此天人永隔。</MyFatherDied.stages.0.description>
 
@@ -40,17 +83,14 @@
   <MyNephewDied.stages.0.label>我的姪女死了</MyNephewDied.stages.0.label>
   <MyNephewDied.stages.0.description>我的姪女死了，這麼優秀的孩子。</MyNephewDied.stages.0.description>
 
+  <MyHalfSiblingDied.stages.0.label>我的半胞兄妹死了</MyHalfSiblingDied.stages.0.label>
+  <MyHalfSiblingDied.stages.0.description>我的半胞兄弟姐妹死了，我的親人啊...</MyHalfSiblingDied.stages.0.description>
+
   <MyAuntDied.stages.0.label>我的阿姨死了</MyAuntDied.stages.0.label>
   <MyAuntDied.stages.0.description>我的阿姨死了。</MyAuntDied.stages.0.description>
 
   <MyUncleDied.stages.0.label>我的叔叔死了</MyUncleDied.stages.0.label>
   <MyUncleDied.stages.0.description>我的叔叔死了。</MyUncleDied.stages.0.description>
-
-  <MyHalfSiblingDied.stages.0.label>我的半胞兄妹死了</MyHalfSiblingDied.stages.0.label>
-  <MyHalfSiblingDied.stages.0.description>我的半胞兄弟姐妹死了，我的親人啊...</MyHalfSiblingDied.stages.0.description>
-
-  <MyGrandchildDied.stages.0.label>我的孫子(女)死了</MyGrandchildDied.stages.0.label>
-  <MyGrandchildDied.stages.0.description>我的孫子(女)死了，我的孫子啊...</MyGrandchildDied.stages.0.description>
 
   <MyGrandparentDied.stages.0.label>我的祖父(母)死了</MyGrandparentDied.stages.0.label>
   <MyGrandparentDied.stages.0.description>我的祖父(母)死了</MyGrandparentDied.stages.0.description>
@@ -61,33 +101,7 @@
   <MyKinDied.stages.0.label>我的親戚死了</MyKinDied.stages.0.label>
   <MyKinDied.stages.0.description>我的親戚死了。</MyKinDied.stages.0.description>
 
-  <!-- Related (not family) pawn died thoughts -->
 
-  <BondedAnimalDied.stages.0.label>我的動物夥伴死了</BondedAnimalDied.stages.0.label>
-  <BondedAnimalDied.stages.0.description>牠是那麼的溫柔，那麼的獨特，命運真是太殘酷了。</BondedAnimalDied.stages.0.description>
 
-  <!-- Good/bad opinion -->
-
-  <PawnWithGoodOpinionDied.stages.0.label>我的朋友死了</PawnWithGoodOpinionDied.stages.0.label>
-  <PawnWithGoodOpinionDied.stages.0.description>多麼好的一個人啊，少了他的世界無滋無味。</PawnWithGoodOpinionDied.stages.0.description>
-
-  <PawnWithBadOpinionDied.stages.0.label>我的死對頭死了</PawnWithBadOpinionDied.stages.0.label>
-  <PawnWithBadOpinionDied.stages.0.description>活該死好，老天有眼。</PawnWithBadOpinionDied.stages.0.description>
-
-  <!-- Love -->
-
-  <GotMarried.stages.0.label>結婚了</GotMarried.stages.0.label>
-  <GotMarried.stages.0.description>我結婚了！生活無限可能！</GotMarried.stages.0.description>
-
-  <GotSomeLovin.stages.0.label>滿滿愛意</GotSomeLovin.stages.0.label>
-  <GotSomeLovin.stages.0.description>再也沒有其他事比得上滾床單了，心曠神怡！</GotSomeLovin.stages.0.description>
-
-  <!-- Misc -->
-
-  <AttendedWedding.stages.0.label>參加婚禮</AttendedWedding.stages.0.label>
-  <AttendedWedding.stages.0.description>我很高興見證兩人牽手步向未來。</AttendedWedding.stages.0.description>
-
-  <AttendedParty.stages.0.label>參加派對</AttendedParty.stages.0.label>
-  <AttendedParty.stages.0.description>我在派對過得很愉快。</AttendedParty.stages.0.description>
 
 </LanguageData>
