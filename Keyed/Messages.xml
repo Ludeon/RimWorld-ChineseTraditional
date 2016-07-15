@@ -69,7 +69,7 @@
   
   <MessageNoMedicalBeds>沒有可用的病床或醫療床。</MessageNoMedicalBeds>
   <MessageNoAnimalBeds>沒有可用的動物床。</MessageNoAnimalBeds>
-  <MessageTooLowMedCare>Operation benötigt {0} oder besser, aber der Pflegemodus von {1} steht auf "{2}".</MessageTooLowMedCare>
+  <MessageTooLowMedCare>{0}手術需要更高的照護等級，但目前{1}的照護等只有{2}。</MessageTooLowMedCare>
   
   <PawnDiedBecauseOf>{0}因{1}死亡了。</PawnDiedBecauseOf>
 
@@ -128,7 +128,7 @@
 
   <MessageConstructionFailed>{1}無法建造{0}。</MessageConstructionFailed>
 
-  <MessageScreenshotSavedAs>螢幕截圖以儲存為：{0}</MessageScreenshotSavedAs>
+  <MessageScreenshotSavedAs>螢幕截圖已儲存為：{0}</MessageScreenshotSavedAs>
   
   
 </LanguageData>

@@ -19,7 +19,7 @@
   <LudeonBlog>Ludeon部落格</LudeonBlog>
   <Forums>論壇</Forums>
   <OfficialWiki>官方維基</OfficialWiki>
-  <TynansTwitter>Tynan的twitter</TynansTwitter>
+  <TynansTwitter>Tynan的Twitter</TynansTwitter>
   <TynansDesignBook>Tynan的設計指南書</TynansDesignBook>
   <HelpTranslate>協助翻譯RimWorld</HelpTranslate>
   <BuySoundtrack>購買原聲帶</BuySoundtrack>
@@ -49,7 +49,7 @@
   <GenerateWorld>創造世界</GenerateWorld>
   
   <!--=========== Mods screen ==========-->
-  <OpenSteamWorkshop>開啟Steam Workshop</OpenSteamWorkshop>
+  <OpenSteamWorkshop>開啟Steam創意工坊</OpenSteamWorkshop>
   <GetModsFromForum>前往論壇取得更多Mod</GetModsFromForum>
   <OpenModsDataFolder>開啟Mods資料夾</OpenModsDataFolder>
   <ConfirmDisableCoreMod>你確定要關閉Core(核心)模組吗？除非有完全替代遊戲核心所有功能的模組，否則遊戲將完全無法運行。\n\n記住，其它模組能透過使用同樣的defName來覆蓋遊戲內的設定。</ConfirmDisableCoreMod>
@@ -58,16 +58,16 @@
   <ConfirmUnsubscribe>你確定要取消訂閱{0}？</ConfirmUnsubscribe>
   <Author>作者</Author>
   <WorkshopPage>Workshop頁面</WorkshopPage>
-  <UploadToSteamWorkshop>上傳至Steam Workshop</UploadToSteamWorkshop>
-  <UpdateOnSteamWorkshop>更新至Steam Workshop</UpdateOnSteamWorkshop>
+  <UploadToSteamWorkshop>上傳至Steam創意工坊</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>更新至Steam創意工坊</UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>正在上傳。</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>Workshop提取失敗\n\原因：{0}</WorkshopSubmissionFailed>
-  <WorkshopUploadSucceeded>Übertragung von {0} war erfolgreich.</WorkshopUploadSucceeded>
+  <WorkshopUploadSucceeded>Ü{0}的傳輸已完成。</WorkshopUploadSucceeded>
   <Downloading>下載中</Downloading>
   <Source>來源</Source>
   <ModTargetVersion>Mod版本：{0}</ModTargetVersion>
   <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>此Mod &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <!--<MessageModNeedsWellFormattedTargetVersion>此Mod &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>-->
   
   
   <!--=========== Select scenario =============-->
@@ -85,10 +85,10 @@
   <AddPart>新增項目</AddPart>
   <TextFieldsMustBeFilled>所有文字方塊必須具有內容。</TextFieldsMustBeFilled>
   <ConfirmSteamWorkshopUpload>確定要上傳至Steam創意工坊？\n\n你必須同意Steam創意工坊的條款，前往下列網址檢視條款內容：\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
-  <ConfirmContentAuthor>Offensichtlich solltest du nur etwas hochladen, das du auch erstellt hast.\n\nHast du den Inhalt selber erstellt?</ConfirmContentAuthor>
+  <ConfirmContentAuthor>你所上傳的內容必須是你自己的作品。\n\n你確定這個內容是屬於你的創作嗎？</ConfirmContentAuthor>
   <Incompatible>不相容</Incompatible>
   <TooMany>超過限制(最大值{0})：</TooMany>
-  <CanBeUpdatedOnWorkshop>Da du der Author bist, kann das im Workshop aktualisiert werden.</CanBeUpdatedOnWorkshop>
+  <!--<CanBeUpdatedOnWorkshop>Da du der Author bist, kann das im Workshop aktualisiert werden.</CanBeUpdatedOnWorkshop>-->
   
   <!--=========== Storyteller chooser ==========-->
   <ChooseAIStoryteller>選擇AI故事敘述者</ChooseAIStoryteller>
