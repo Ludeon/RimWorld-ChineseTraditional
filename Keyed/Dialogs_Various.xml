@@ -6,39 +6,34 @@
   <OK>確認</OK>
   
   <!-- Recovered from errors caused by mods -->
-  
   <RecoveredFromErrorsDialogTitle>從不相容或損壞的Mod中復原</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>有部分Mod導致了嚴重的錯誤。\n\n原因可能是Mod之間的衝突、與當前RimWorld遊戲版本不相容，或是Mod已經損壞。\n\n目前所有Mod以自動停用並可於Mods列表再次啟用。</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>有部分Mod導致了嚴重的錯誤。\n\n原因可能是Mod之間的衝突、與當前RimWorld遊戲版本不相容，或是Mod已經損壞。\n\n目前所有Mod已自動停用並可於Mods列表再次啟用。</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
-  
   <ErrorWhileLoadingAssetsTitle>載入元件時發生錯誤。</ErrorWhileLoadingAssetsTitle>
   <ErrorWhileLoadingAssets>載入元件時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>遊戲正以預設模組運行中，這有可能，也有可能不會導致這些問題。</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>遊戲正以預設模組運行中，這有可能，也有可能不是導致這些問題的原因。</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>生成地圖時發生錯誤。</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>生成地圖時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>載入地圖時發生錯誤。</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>載入地圖時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileLoadingMap>
   
   <!-- Missing Steam -->
-  
-  <SteamClientMissing>Steam初始化失敗。</SteamClientMissing>
+  <SteamClientMissing>Steam API初始化失敗。可能的緣故有：\n\n-Steam並未運行。\n-外部Steam在沒有steam_appid.txt的狀態下運行。\n-以與Steam不同的權限運行(例如以系統管理員權限運行)。\n\n此Steam版的遊戲需要Steam才能運行，遊戲即將關閉。</SteamClientMissing>
   
   <!-- Long events -->
-  
   <InitializingInterface>正在初始化界面</InitializingInterface>
   <UnloadingUnusedAssets>正在卸載非使用中的元件</UnloadingUnusedAssets>
   <LoadingAllActiveMods>正在載入已啟用的Mods</LoadingAllActiveMods>
   <LoadingDefs>正在載入定義檔</LoadingDefs>
   <LoadingAssets>正在載入元件</LoadingAssets>
-  <Initializing>初始化</Initializing>
+  <Initializing>正在初始化</Initializing>
   <LoadingWorld>正在載入世界</LoadingWorld>
   <LoadingMap>正在載入地圖</LoadingMap>
   <InitializingMap>正在初始化地圖</InitializingMap>
   <SpawningAllThings>正在生成物件</SpawningAllThings>
   
   <!-- Save/load -->
-  
   <SaveGameButton>保存</SaveGameButton>
   <LoadGameButton>讀取</LoadGameButton>
   <OverwriteButton>覆蓋</OverwriteButton>
@@ -46,51 +41,43 @@
   <DeleteThisSavegame>删除這個存檔。</DeleteThisSavegame>
   <SavedAs>已保存為{0}。</SavedAs>
   <NeedAName>請輸入一個名稱。</NeedAName>
-  <LoadingLongEvent>載入中……</LoadingLongEvent>
+  <LoadingLongEvent>載入中...</LoadingLongEvent>
   <SavingLongEvent>記錄保存中</SavingLongEvent>
   <PermadeathModeSaveSuffix>(無悔模式)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>當前遊戲版本為{0}，但這個存檔版本為{1}，是屬於完全不同的遊戲版本。\n\n嘗試載入這個存檔很有可能會無法運作。</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>當前遊戲版本為{0}，但這個存檔版本為{1}，是屬於不同的遊戲版本。\n\n嘗試載入這個存檔可能仍可以運作。</SaveIsFromDifferentGameBuild>
-  <SaveIsFromThisGameBuild>這個存檔屬於當前遊戲版本，必且能夠被正常載入。</SaveIsFromThisGameBuild>
+  <SaveIsFromThisGameBuild>這個存檔屬於當前遊戲版本，並且能夠被正常載入。</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>這個存檔是未知的格式，幾乎可以肯定無法被正常載入。</SaveIsUnknownFormat>
-  <ProblemSavingFile>存檔時發生問題{0}：\n\n{1}</ProblemSavingFile>
+  <ProblemSavingFile>存檔時發生問題{0}：\n\n{1}\n\n查看錯誤紀錄以獲得更多訊息。</ProblemSavingFile>
   <LoadAnyway>仍要載入</LoadAnyway>
   
   <!-- Colony naming-->
-  
-  <NameColonyMessage>大家都知道你不想永遠待在這塊石頭上。但{0}建議你還是應該替你的殖民地取個名字。\n\n該叫做什麼好呢？</NameColonyMessage>
+  <NameColonyMessage>看來你已經在這裡過上一段時間了。{0}希望你能給這座殖民地取個名字。\n\n該叫做什麼好呢？</NameColonyMessage>
   <ColonyGainsName>這個殖民地現在被稱為{0}了。</ColonyGainsName>
-  <ColonyNameIsInvalid>這個殖民地名無效。</ColonyNameIsInvalid>
+  <ColonyNameIsInvalid>無效的殖民地名稱。</ColonyNameIsInvalid>
 
   <!-- Renaming -->
-  
   <NameIsInvalid>請輸入一個有效的名稱。</NameIsInvalid>
   <NameIsInUse>這個名稱已被使用。</NameIsInUse>
   <ZoneGainsName>這個區域的名稱被改為{0}。</ZoneGainsName>
   
   <!-- Pawn naming -->
-  
   <PawnGainsName>這名殖民者的暱稱已更改為{0}。</PawnGainsName>
   
   <!-- Save game incompatible warning -->
-  
   <VersionMismatch>版本不符</VersionMismatch>
-  <SaveGameIncompatibleWarningText>版本不符: 存檔版本為{0}，當前遊戲版本為{1}。\n\n 載入這個存檔很可能會導致遊戲崩潰或出現錯誤。</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>警告：此世界檔案創建版本為{0}版，而當前遊戲版本為{0}版\n\n載入這個存檔很可能會導致遊戲崩潰或出現錯誤。我們建議您創建一個新的世界。</WorldFileVersionMismatch>
-  <FileIncompatibleWarning>版本不符: 文件版本為{0}，當前遊戲版本為{1}。\n\n 載入這個文件很可能會導致遊戲崩潰或出現錯誤。</FileIncompatibleWarning>
+  <SaveGameIncompatibleWarningText>版本不符: 存檔版本為{0}，當前遊戲版本為{1}。\n\n載入這個存檔很可能會導致遊戲崩潰或出現錯誤。</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>此世界檔案創建版本為{0}版，而當前遊戲版本為{0}版\n\n載入這個存檔很可能會導致遊戲崩潰或出現錯誤。我們建議您創建一個新的世界。</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>此檔案版本為{0}，當前遊戲版本為{1}。\n\n 載入這個文件很可能會導致遊戲崩潰或出現錯誤。</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Mod版本不符</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>本地圖存檔包含了與當前不同的Mod設定，視Mod的功能與影響而定，這也許能正常運作，但也有可能會導致問題。\n\n此存檔包含了以下Mod(依順序排列):\n\n{0}\n\n當前運行的Mod：\n\n{1}</ModsMismatchWarningText>
   
-  
-  
   <!-- Resolution change dialog -->
-  
-  <ConfirmResolutionChange>你已經更改了解析度。目前遊戲顯示是否正常？\n\n將在{0}秒後恢復原始設定……</ConfirmResolutionChange>
+  <ConfirmResolutionChange>你已經更改了解析度。目前遊戲顯示是否正常？\n\n將在{0}秒後恢復原始設定...</ConfirmResolutionChange>
   <ResolutionKeep>保持</ResolutionKeep>
   <ResolutionRevert>恢復</ResolutionRevert>
 
   <!-- Research -->
-  
   <Research>研究</Research>
   <Researched>已研究</Researched>
   <Unresearched>未研究</Unresearched>
@@ -100,14 +87,13 @@
   <ResearchMenuWithoutBench>你的殖民者們在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>
   <ResearchPrerequisites>前提科技</ResearchPrerequisites>
   <RequiredResearchBench>需要研究桌</RequiredResearchBench>
-  <RequiredResearchBenchFacilities>需要擴充設備</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>需要附屬設備</RequiredResearchBenchFacilities>
   
   <!-- Advanced game start options -->
-  
-  <MapTemperatureDangerWarning>警告：你將會降落在一個冰凍環境裡，這將會使你非常難甚至無法生存。若你沒打算面對如此嚴峻的挑戰，那就選個溫暖一點的月份吧。</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>警告：在大地圖下遊戲性能可能會根據配置不同而有所下降。\n\n如果你的配置較低，請選擇小地圖。\n\n巨大尺寸沒有經過測試，幾乎可以肯定將會無法遊玩。</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>警告：你將會降落在一個冰凍環境裡，這將會使你非常難甚至無法生存。若你沒打算面對如此嚴峻的挑戰，那就選擇一個溫暖一點的季節吧。</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>警告：在大地圖下遊戲性能可能會有所下降。巨大尺寸沒有經過測試，幾乎可以肯定將會無法順暢遊玩。</MapSizePerformanceWarning>
   <MapSize>地圖大小</MapSize>
-  <MapSizeDesc>{0}x{0} ({1}個方塊)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0} ({1}個方格)</MapSizeDesc>
   <MapSizeSmall>小</MapSizeSmall>
   <MapSizeMedium>中</MapSizeMedium>
   <MapSizeLarge>大</MapSizeLarge>
@@ -115,10 +101,9 @@
   <MapStartSeason>起始季節：</MapStartSeason>
   <MapStartSeasonDefault>自動</MapStartSeasonDefault>
   <PermadeathMode>無悔模式</PermadeathMode>
-  <PermadeathModeInfo>在無悔模式中，你只能擁有一個存檔，並只能夠在退出遊戲時保存。你不能藉著讀取存檔來修正某些錯誤，若殖民地慘遭滅亡，那便是她的命運。\n\n無悔模式正是RimWorld的醍醐味，每當遭遇戲劇化的轉折 - 不論悲劇或希望 - 都要玩出自己的道路。</PermadeathModeInfo>
+  <PermadeathModeInfo>在無悔模式中，你只能擁有一個存檔，並只能夠在退出遊戲時保存。你不能藉著讀取存檔來回朔某些錯誤，若殖民地慘遭滅亡，那便是她的命運。\n\n無悔模式正是RimWorld的醍醐味，每當遭遇戲劇化的轉折 - 不論悲劇或希望 - 都要玩出自己的道路。</PermadeathModeInfo>
   
   <!-- Bill config -->
-  
   <Suspended>已暫停</Suspended>
   <NotSuspended>未暫停</NotSuspended>
   <SuspendedAllCaps>已暫停</SuspendedAllCaps>
@@ -148,7 +133,6 @@
   <BillStoreMode_NearestStockpileAnyPriority>放到最近的儲藏區</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Info card -->
-  
   <Damage>傷害</Damage>
   <Accuracy>精度</Accuracy>
   <BurstShotCount>連射回數</BurstShotCount>
@@ -184,16 +168,15 @@
   <MoodChange>情緒變化</MoodChange>
   <Wildness>野性</Wildness>
   <WildnessExplanation>野性越強烈的生物自然更加的難以馴養、訓練及掌握。</WildnessExplanation>
-  <AnimalFilthRate>動物排泄速率</AnimalFilthRate>
+  <AnimalFilthRate>動物排泄物產生速率</AnimalFilthRate>
   <AnimalFilthRateExplanation>當動物在建築地面行動時會產生髒污，這個物種平均每移動{0}格就會產生髒汙。\n\n體型越大或是非典型的寵物會產生更多髒污。</AnimalFilthRateExplanation>
-  <TimeRecordsCategory>時間</TimeRecordsCategory>
+  <TimeRecordsCategory>經歷時間</TimeRecordsCategory>
   <MiscRecordsCategory>其它</MiscRecordsCategory>
   
   <!-- Trade -->
-
-  <PositiveBuysNegativeSells>收購。\n售出。</PositiveBuysNegativeSells>
+  <PositiveBuysNegativeSells>買入。\n賣出。</PositiveBuysNegativeSells>
   <BuyPriceDesc>購買此商品的價格。</BuyPriceDesc>
-  <SellPriceDesc>販賣此商品的價格。</SellPriceDesc>
+  <SellPriceDesc>販賣此商品的獲利。</SellPriceDesc>
   <PriceTypeDesc>以這項商品來說，這個價格{0}。</PriceTypeDesc>
   <ColonyCount>殖民地可用於交易的貨品數量。\n\n你只能將位於室外且量近於軌道交易信標的貨品賣給路過的商船。</ColonyCount>
   <TraderCount>商人可用於交易的貨品數量。</TraderCount>
@@ -204,23 +187,20 @@
   <YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的白銀來交易。</YourTradeableSilverTip>
   <TraderHasNoMore>商人貨品數量不足。</TraderHasNoMore>
   <ColonyHasNoMore>殖民地貨品數量不足。</ColonyHasNoMore>
-  <TraderWillNotTrade>商人不接受此貨品交易。</TraderWillNotTrade>
+  <TraderWillNotTrade>商人不接受此貨物。</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇更加健全的殖民者擔任代表。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
   <SortBy>排列方式以</SortBy>
   
   <!-- Comms -->
-  
   <SocialSkillIs>社交技能：{0}</SocialSkillIs>
 
   <!--Research-->
-  
   <ResearchFinished>完成研究：{0}</ResearchFinished>
   <ResearchScreen>研究清單</ResearchScreen>
   
   <!--HistoryUpload-->
-  
-  <HistoryUploadMessage>你想把遊戲數據上傳到RimWorld伺服器以幫助開發者完善遊戲平衡嗎? 如果你同意，每隔{0}天你的遊戲數據就會被自動上傳(以及在遊戲結束等其他情況下上傳)。之後可在選項清單內更改隱私設定。</HistoryUploadMessage>
+  <HistoryUploadMessage>你是否同意將遊戲數據上傳至RimWorld伺服器以幫助開發者完善遊戲平衡嗎? 如果你同意，每隔{0}天你的遊戲數據就會被自動上傳(以及在遊戲結束等其他情況下上傳)。隱私設定可在選項清單內更改。</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>儘管遊戲數據默認是匿名上傳的，但你仍然可以選擇附上你的名字。</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>允許上傳遊戲數據</HistoryUploadYes>
   <HistoryUploadNo>不允許上傳遊戲數據</HistoryUploadNo>
@@ -228,7 +208,6 @@
   <HistoryUploadNoOnce>不上傳本次的數據，並稍後再問我</HistoryUploadNoOnce>
 	
   <!-- Outfit management -->
-  
   <Outfit>裝備</Outfit>
   <SelectOutfit>選取裝備...</SelectOutfit>
   <NewOutfit>新裝備</NewOutfit>
@@ -237,7 +216,7 @@
   <NoOutfitSelected>尚未選取裝備</NoOutfitSelected>
 
   <!-- Growing -->
-  <NoGrowerCanPlant>種植{0}需要種植等級{1}的種植者。\n\n你的殖民地沒有符合條件的殖民者，因此植物不會生長。</NoGrowerCanPlant>
+  <NoGrowerCanPlant>種植{0}需要種植等級{1}的農夫。\n\n你的殖民地沒有符合條件的殖民者，因此植物不會被種植。</NoGrowerCanPlant>
 
 	
 </LanguageData>

@@ -15,7 +15,7 @@
   <CloseButton>關閉</CloseButton>
 
   <VersionIndicator>版本{0}</VersionIndicator>
-  <DevelopmentBuildLower>開發者版</DevelopmentBuildLower>
+  <DevelopmentBuildLower>開發中版本</DevelopmentBuildLower>
   <CompiledOn>匯編於{0}</CompiledOn>
   <LoggedIntoSteamAs>以{0}登錄Steam</LoggedIntoSteamAs>
 
@@ -26,13 +26,12 @@
   <max>最大值</max>
   <chance>機率</chance>
   <context>背景</context>
-  <multiplier>多重</multiplier>
+  <multiplier>倍率</multiplier>
   <damage>傷害</damage>
   <radius>範圍</radius>
   <durationDays>持續天數</durationDays>
 
   <!-- Content generation-->
-
   <MeatLabel>{0}肉</MeatLabel>
   <MeatDesc>{0}的生肉。</MeatDesc>
 
@@ -53,15 +52,10 @@
   <BlueprintLabelExtra> (藍圖)</BlueprintLabelExtra>
   <FrameLabelExtra>(框架)</FrameLabelExtra>
   
+  
   <!-- For things made of stuff, e.g. "Stone bed" -->
-  
   <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
-  
   <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
-
-  <!-- To express ownership. -->
-
-  <!-- For example Jack's Bedroom -->
 
   <SomeonesRoom>{0}的{1}</SomeonesRoom>
   <CouplesRoom>{0}和{1}的{2}</CouplesRoom>

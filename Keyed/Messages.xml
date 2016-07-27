@@ -15,7 +15,7 @@
   <MessageFightersFleeing>{1}的成員正在逃跑。</MessageFightersFleeing>
   <MessageFriendlyFightersLeaving>來自{1}的友好{0}離開了。</MessageFriendlyFightersLeaving>
 
-  <MessageVisitorsTakingWounded>來自{1}的{0}帶著一名受傷的訪客。</MessageVisitorsTakingWounded>
+  <MessageVisitorsTakingWounded>{0}帶走一名受傷的訪客。</MessageVisitorsTakingWounded>
   <MessageVisitorsTrappedLeaving>來自{1}的{0}受困了，他正嘗試脫逃。</MessageVisitorsTrappedLeaving>
 
   <MessageWornApparelDeterioratedAway>{1}穿著的{0}已經損壞。</MessageWornApparelDeterioratedAway>
@@ -24,9 +24,9 @@
 
   <MessageShipHasLeftCommsRange>{0}遠離了通訊範圍。</MessageShipHasLeftCommsRange>
   
-  <MessageNeedBeaconToTradeWithShip>你需要一個軌道交易信標才能和飛船交易交易。</MessageNeedBeaconToTradeWithShip>
+  <MessageNeedBeaconToTradeWithShip>你需要一個軌道交易信標才能和飛船交易交易。\n\n信標必須連接電力。</MessageNeedBeaconToTradeWithShip>
   
-  <MessageBillComplete>任務完成: {0}。</MessageBillComplete>
+  <MessageBillComplete>任務完成：{0}。</MessageBillComplete>
   
   <MessageFullyHealed>{0}完全康復了。</MessageFullyHealed>
 
@@ -38,11 +38,11 @@
   <MessageAnimalManhuntsOnTameFailed>警告：若馴服失敗，{0}很可能會對你展開攻擊(機率{1})。</MessageAnimalManhuntsOnTameFailed>
 
   <LetterLabelMessageRecruitSuccess>新成員！</LetterLabelMessageRecruitSuccess>
-  <MessageRecruitSuccess>{0}成功招募了{1}(機率{2})。</MessageRecruitSuccess>
-  <MessageTameSuccess>{0}成功馴服了{1}(機率{1})。</MessageTameSuccess>
-  <MessageTameAndNameSuccess>{0}成功馴服了{1}(機率{2})，並將牠命名為{3}。</MessageTameAndNameSuccess>
+  <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
+  <MessageTameSuccess>{0}成功馴服了{1}(成功率{1})。</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{0}成功馴服了{1}(成功率{2})，並將牠命名為{3}。</MessageTameAndNameSuccess>
   
-  <MessageColonyCannotAfford>殖民地無法支付這筆交易。</MessageColonyCannotAfford>
+  <MessageColonyCannotAfford>殖民地無法支付這筆資金。</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>可用於交易的白銀不足。</MessageColonyNotEnoughSilver>
   
   <MessageCriticalAlert>嚴重警報：{0}</MessageCriticalAlert>
@@ -51,31 +51,28 @@
   <MessageMustDesignateHarvestableWood>必須指定已長成可收穫木頭的樹木。</MessageMustDesignateHarvestableWood>
   <MessageMustDesignatePlants>必須指定植物。</MessageMustDesignatePlants>
   <MessageMustDesignateHaulable>必須指定可以搬運的物品。</MessageMustDesignateHaulable>
-  
   <MessageMustDesignateMineable>必須指定可開採的岩石。</MessageMustDesignateMineable>
   <MessageMustDesignateHuntable>必須指定可狩獵的動物。</MessageMustDesignateHuntable>
   <MessageMustDesignateTameable>必須指定可馴服的動物。</MessageMustDesignateTameable>
   <MessageMustDesignateClaimable>必須指定無主的人造建築。</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>必須指定可打磨的崎嶇岩石地面。</MessageMustDesignateSmoothableFloor>
-  
   <MessageNothingCanRemoveThickRoofs>無法移除厚山岩屋頂。</MessageNothingCanRemoveThickRoofs>
   <MessageAlreadyInStorage>這個物件已經被儲存，並且會被移至優先度最高的儲存區。</MessageAlreadyInStorage>
   <MessageMustDesignateStrippable>必須指定已死亡或倒地的角色。</MessageMustDesignateStrippable>
   <MessageMustDesignateSlaughterable>必須指定隸屬殖民地的馴養動物。</MessageMustDesignateSlaughterable>
-  
-  <MessageMustDesignateOpenable>必須指定完整的墳墓或容器。</MessageMustDesignateOpenable>
+  <MessageMustDesignateOpenable>必須指定已滿的墳墓或休眠艙。</MessageMustDesignateOpenable>
 
   <MessageRefusedArrest>{0}拒絕被拘捕！</MessageRefusedArrest>
   
   <MessageNoMedicalBeds>沒有可用的病床或醫療床。</MessageNoMedicalBeds>
   <MessageNoAnimalBeds>沒有可用的動物床。</MessageNoAnimalBeds>
-  <MessageTooLowMedCare>{0}手術需要更高的照護等級，但目前{1}的照護等只有{2}。</MessageTooLowMedCare>
+  <MessageTooLowMedCare>{0}手術需要更高的照護等級，但目前{1}的照護等級只有{2}。</MessageTooLowMedCare>
   
   <PawnDiedBecauseOf>{0}因{1}死亡了。</PawnDiedBecauseOf>
 
   <MessageNoLongerDowned>{0}恢復行動能力了。</MessageNoLongerDowned>
 
-  <MessageInvoluntarySleep>過度的疲勞使得{0}倒下了。</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>極度的疲勞使得{0}倒下了。</MessageInvoluntarySleep>
 
   <MessageMedicalOperationFailureCatastrophic>{0}在對{1}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0}在對{1}執行手術時出現細微的失誤。</MessageMedicalOperationFailureMinor>
@@ -86,11 +83,11 @@
 
   <MessageMiscarriedStarvation>{0}因為營養不良而流產了。</MessageMiscarriedStarvation>
   <MessageMiscarriedPoorHealth>{0}因健康狀況不佳而流產了。</MessageMiscarriedPoorHealth>
-  <MessageGaveBirth>{0}生產了！</MessageGaveBirth>
+  <MessageGaveBirth>{0}誕生了！</MessageGaveBirth>
 
   <MessageNuzzledPawnGaveNameTo>在被撒嬌後，{0}決定將{1}取名為{2}。</MessageNuzzledPawnGaveNameTo>
 
-  <MessageNoHandlerSkilledEnough>沒有馴養員能夠馴服{0}(需要等級{1}的{2}，最好的馴養員{3}只有{4})。</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>沒有馴養員能夠馴服{0}(需要等級{1}的{2}，最好的馴養員{3}只有等級{4})。</MessageNoHandlerSkilledEnough>
   
   <MessageEatenByPredator>{0}被{1}吃掉了。</MessageEatenByPredator>
   <MessageAttackedByPredator>{0}正被{1}攻擊！</MessageAttackedByPredator>
@@ -111,11 +108,11 @@
   <MessageMarriageCeremonyAfterPartyFinished>{0}和{1}的婚禮已經結束。</MessageMarriageCeremonyAfterPartyFinished>
   
   <MessageNewBondRelation>{0}和{1}成為了夥伴。</MessageNewBondRelation>
-  <MessageNewBondRelationNewName>{0}和{1}成為了夥伴。{0}將{1}取名為{2}。</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{0}和{1}成為了夥伴。{0}將HIM取名為{2}。</MessageNewBondRelationNewName>
   
-  <MessageBondedAnimalMentalBreak>{0}因為無法接受{1}的死亡而精神崩潰了。</MessageBondedAnimalMentalBreak>
-  <MessageNamedBondedAnimalMentalBreak>{0}{1}因為無法接受{2}的死亡而精神崩潰了。</MessageNamedBondedAnimalMentalBreak>
-  <MessageBondedAnimalsMentalBreak>{0}因為無法接受{1}的死亡而精神崩潰了。</MessageBondedAnimalsMentalBreak>
+  <MessageBondedAnimalMentalBreak>{0}因為無法接受{1}的死亡而崩潰了。</MessageBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>{0}{1}因為無法接受{2}的死亡而崩潰了。</MessageNamedBondedAnimalMentalBreak>
+  <MessageBondedAnimalsMentalBreak>{0}因為無法接受{1}的死亡而崩潰了。</MessageBondedAnimalsMentalBreak>
   
   <MessageSuccessfullyRemovedHediff>{0}成功移除了{1}的{2}。</MessageSuccessfullyRemovedHediff>
   
@@ -126,9 +123,8 @@
 
   <MessageCannotSellItemsReason>因為下列原因，商品無法交易：</MessageCannotSellItemsReason>
 
-  <MessageConstructionFailed>{1}無法建造{0}。</MessageConstructionFailed>
+  <MessageConstructionFailed>{1}沒能建好{0}，有一部份材料被浪費掉了。</MessageConstructionFailed>
 
   <MessageScreenshotSavedAs>螢幕截圖已儲存為：{0}</MessageScreenshotSavedAs>
-  
   
 </LanguageData>

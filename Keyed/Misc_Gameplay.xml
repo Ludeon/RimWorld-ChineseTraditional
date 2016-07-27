@@ -2,7 +2,6 @@
 <LanguageData>
 
   <!-- Various -->
-  
   <WorkLeft>剩餘工作</WorkLeft>
   <Contents>內容</Contents>
   <ContainedResources>包含資源</ContainedResources>
@@ -16,7 +15,7 @@
   <Unowned>無擁有者</Unowned>
   <DeadTime>死亡的{0}</DeadTime>
   <WalkSpeed>行走速度{0}</WalkSpeed>
-  <FertShort>fruchtb.</FertShort>
+  <FertShort>受精</FertShort>
   <DyingLower>瀕死</DyingLower>
   <FilthOnFeet>腳上的髒污：</FilthOnFeet>
   <NotEnoughStoredLower>儲量不足</NotEnoughStoredLower>
@@ -28,14 +27,14 @@
   <InjuryRequiresTreatment>需要治療以復原</InjuryRequiresTreatment>
   <NextTreatmentAfter>下一次治療將在{0}天後</NextTreatmentAfter>
   <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
-  <ImmunityDevelopmentProgress>免疫力形成度</ImmunityDevelopmentProgress>
+  <Immunity>免疫力形成度</Immunity>
   <Race>物種</Race>
   <Description>描述</Description>
   <Equipment>裝備</Equipment>
   <Apparel>服裝</Apparel>
   <Inventory>物品</Inventory>
   <ThingInfo>訊息</ThingInfo>
-  <DropThing>丟下</DropThing>
+  <DropThing>卸下</DropThing>
   <Rename>重新命名</Rename>
   <RenameColonist>重新命名殖民者</RenameColonist>
   <UnknownLower>未知</UnknownLower>
@@ -45,9 +44,9 @@
   <JoyTolerances>娛樂值</JoyTolerances>
   <MilkFullness>產奶進度</MilkFullness>
   <WoolGrowth>產毛進度</WoolGrowth>
-  <EggProgress>產卵進度</EggProgress>
+  <EggProgress>孵化進度</EggProgress>
   <Fertilized>已受精</Fertilized>
-  <ProgressStoppedUntilFertilized>產卵進度已停止(未受精)</ProgressStoppedUntilFertilized>
+  <ProgressStoppedUntilFertilized>孵化進度已停止(未受精)</ProgressStoppedUntilFertilized>
   <SkillTooLow>需要等級{2}的{0}，目前只有{1}級。</SkillTooLow>
   <EggDamagedEmbryo>胚胎受損</EggDamagedEmbryo>
   <CorpsePercentMissing>失去身體部位</CorpsePercentMissing>
@@ -62,24 +61,22 @@
   <Permanent>永久</Permanent>
   
   <!--TextMotes-->
-  
   <Headshot>命中頭部</Headshot>
-  <TreatQuality>醫療效率{0}</TreatQuality>
+  <TreatQuality>醫療品質{0}</TreatQuality>
   <PoorResult>效果拙劣</PoorResult>
   <GoodResult>效果良好</GoodResult>
-  <TextMote_TreatSuccess>治療成功！\n機率{0}</TextMote_TreatSuccess>
-  <TextMote_TreatFailed>治療失敗\n機率{0}</TextMote_TreatFailed>
+  <TextMote_TreatSuccess>治療成功！\成功率{0}</TextMote_TreatSuccess>
+  <TextMote_TreatFailed>治療失敗\成功率{0}</TextMote_TreatFailed>
   <HarvestFailed>收穫\n失敗</HarvestFailed>
-  <TextMote_RecruitFail>招降失敗！\n機率{0}</TextMote_RecruitFail>
-  <TextMote_TameFail>馴服失敗\n機率{0}</TextMote_TameFail>
-  <TextMote_TameSuccess>馴服成功！\n機率{0}</TextMote_TameSuccess>
-  <TextMote_TrainFail>訓練失敗：{0}\n機率{1}</TextMote_TrainFail>
-  <TextMote_TrainSuccess>已完成訓練：{0}\n機率{1}</TextMote_TrainSuccess>
-  <TextMote_FixBrokenDownBuildingFail>修理\n失敗</TextMote_FixBrokenDownBuildingFail>
-  <TextMote_ConstructionFail>建造\n失敗</TextMote_ConstructionFail>
+  <TextMote_RecruitFail>招募失敗！\成功率{0}</TextMote_RecruitFail>
+  <TextMote_TameFail>馴服失敗\成功率{0}</TextMote_TameFail>
+  <TextMote_TameSuccess>馴服成功！\成功率{0}</TextMote_TameSuccess>
+  <TextMote_TrainFail>訓練失敗：{0}\成功率{1}</TextMote_TrainFail>
+  <TextMote_TrainSuccess>訓練完成：{0}\成功率{1}</TextMote_TrainSuccess>
+  <TextMote_FixBrokenDownBuildingFail>修理失敗</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_ConstructionFail>建造失敗</TextMote_ConstructionFail>
 
   <!-- Areas -->
-  
   <Home>生活區</Home>
   <BuildRoof>搭建屋頂</BuildRoof>
   <NoRoof>露天</NoRoof>
@@ -92,22 +89,19 @@
   <InvertArea>倒置</InvertArea>
   
   <!-- Control -->
-  
   <CannotOrderNonControlled>無法命令無控制能力的單位。</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0}無法進行暴力相關行為。</IsIncapableOfViolence>
   <IsIncapableOfViolenceShort>無法進行暴力相關行為</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0}未受徵召。</IsNotDrafted>
   
   <!-- Snow -->
-  
   <SnowNone>無積雪</SnowNone>
-  <SnowDusting>雪(淺)</SnowDusting>
-  <SnowThin>雪(薄)</SnowThin>
+  <SnowDusting>雪(薄)</SnowDusting>
+  <SnowThin>雪(淺)</SnowThin>
   <SnowMedium>雪(厚)</SnowMedium>
   <SnowThick>雪(深)</SnowThick>
   
   <!-- Turrets -->
-  
   <GunInstalled>已安裝</GunInstalled>
   <MinimumRange>最小距離</MinimumRange>
   <CanFireIn>開火時機</CanFireIn>
@@ -115,9 +109,8 @@
   <ShellNotLoaded>彈藥未裝填</ShellNotLoaded>
   
   <!-- Job reports -->
-  
   <ReportHaulingTo>將{0}運至{1}。</ReportHaulingTo>
-  <ReportHauling>搬動{0}中。</ReportHauling>
+  <ReportHauling>搬運{0}中。</ReportHauling>
   <ReportSleeping>睡眠中。</ReportSleeping>
   <ReportResting>休息中。</ReportResting>
   <WatchingSunrise>欣賞日出美景。</WatchingSunrise>
@@ -137,28 +130,24 @@
   <LordReportAttendingParty>享受派對。</LordReportAttendingParty>
 
   <!-- Shooting report -->
-  
-  <WeaponMissRadius>武器彈道偏移半徑</WeaponMissRadius>
-  <ShootReportSkill>技能</ShootReportSkill>
-  <ShootReportWeapon>武器</ShootReportWeapon>
-  <RangeSlashEquipment>距離/設備</RangeSlashEquipment>
-  <Darkness>黑暗</Darkness>
-  <TargetProne>目標動作</TargetProne>
-  <TargetSize>目標大小</TargetSize>
-  <Weather>天氣</Weather>
-  <ShootingCover>掩體</ShootingCover>
-  <CoverThingBlocksPercentOfShots>{0}阻止了{1}</CoverThingBlocksPercentOfShots>
-  <NoCoverLower>無掩體</NoCoverLower>
+  <WeaponMissRadius>彈著點偏移半徑</WeaponMissRadius>
+	<ShootReportSkill>技能</ShootReportSkill>
+	<ShootReportWeapon>武器</ShootReportWeapon>
+	<Darkness>黑暗</Darkness>
+	<TargetProne>目標動作</TargetProne>
+	<TargetSize>目標大小</TargetSize>
+	<Weather>天氣</Weather>
+	<ShootingCover>掩體</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0}阻止了{1}</CoverThingBlocksPercentOfShots>
+	<NoCoverLower>無掩體</NoCoverLower>
   <Execution>處決</Execution>
   
   <!-- Generated recipes -->
-  
   <RecipeMake>製作{0}</RecipeMake>
   <RecipeMakeJobString>正在製作{0}。</RecipeMakeJobString>
   
   <!-- Thoughts -->
-  
-  <ThoughtExpiresIn>消逝時間:{0}</ThoughtExpiresIn>
+  <ThoughtExpiresIn>消逝時間：{0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>消逝開始時間:{0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>消逝結束時間:{0}</ThoughtFinishesExpiringIn>
   <MentalBreakThresholdExtreme>徹底崩潰臨界值</MentalBreakThresholdExtreme>
@@ -166,7 +155,6 @@
   <MentalBreakThresholdMinor>輕微精神崩潰臨界值</MentalBreakThresholdMinor>
   
   <!-- Pawn info readout -->
-  
   <PawnMainDescGendered>{0}{1}</PawnMainDescGendered>
   <PawnMainDescFactionedWrap>{1}的{0}</PawnMainDescFactionedWrap>
   <PawnMainDescLifestageWrap>{1}{0}</PawnMainDescLifestageWrap>
@@ -178,21 +166,17 @@
   <Carrying>攜帶</Carrying>
   
   <!-- Inspector general stuff -->
-  
   <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
   <DefInfoTip>查看關於這個物件的信息。</DefInfoTip>
   
   <!-- Hostility response -->
-  
-  <HostilityReponseTip>選擇該角色在遭遇敵人時將如何應對。</HostilityReponseTip>
+  <HostilityReponseTip>選擇該角色在未受徵召的狀態下遭遇敵人時將如何應對。</HostilityReponseTip>
   <HostilityResponseCurrentMode>目前模式</HostilityResponseCurrentMode>
   
   <!-- like 'Blood of John' -->
-  
   <OfLower>來自</OfLower>
 
   <!-- Power readout -->
-  
   <PowerNotConnected>未連結電網。</PowerNotConnected>
   <PowerConnectedRateStored>電網發電量/蓄電量：{0}W/{1}Wd</PowerConnectedRateStored>
   <PowerNeeded>電力消耗</PowerNeeded>
@@ -201,43 +185,36 @@
   <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
 
   <!-- Temperature control -->
-  
   <TargetTemperature>目標溫度</TargetTemperature>
   <PowerConsumptionMode>目前電力消耗</PowerConsumptionMode>
   <PowerConsumptionHigh>調高</PowerConsumptionHigh>
   <PowerConsumptionLow>調低</PowerConsumptionLow>
   
   <!-- Temperature readout -->
-  
   <Indoors>室內氣溫</Indoors>
   <IndoorsUnroofed>露天區</IndoorsUnroofed>
   <Outdoors>室外氣溫</Outdoors>
   
   <!--Rotting-->
-  
   <RotStateFresh>新鲜</RotStateFresh>
   <RotStateRotting>腐爛中</RotStateRotting>
-  <RotStateDessicated>乾燥</RotStateDessicated>
+  <RotStateDessicated>白骨</RotStateDessicated>
   
   <!-- Shooting tooltip -->
-  
   <ShotBy>被{0}擊中</ShotBy>
   <CannotHit>無法擊中目標。</CannotHit>
 
   <!-- Rotting -->
-  
   <CurrentlyFrozen>冷凍狀態(不會腐壞)</CurrentlyFrozen>
   <CurrentlyRefrigerated>冷藏狀態({0}後腐壞)</CurrentlyRefrigerated>
   <NotRefrigerated>非冷藏狀態({0}後腐壞)</NotRefrigerated>
   <OverADecade>超過十年</OverADecade>
-  <LessThanADay>當天</LessThanADay>
+  <LessThanADay>當日</LessThanADay>
 
   <!-- Meal -->
-  
   <Ingredients>食材</Ingredients>
 
   <!-- Plants -->
-  
   <PercentGrowth>已生長{0}</PercentGrowth>
   <GrowthRate>生長速率</GrowthRate>
   <FullyGrownIn>{0}後長成</FullyGrownIn>
@@ -252,10 +229,9 @@
   <NoGrowingPeriod>不生長</NoGrowingPeriod>
   <GrowYearRound>全年</GrowYearRound>
   <GrowSeasonHereNow>正值生長季節。</GrowSeasonHereNow>
-  <CannotGrowTooCold>氣溫過低，無法生長</CannotGrowTooCold>
+  <CannotGrowTooCold>氣溫過低，無法生長。</CannotGrowTooCold>
   
   <!-- Zones -->
-  
   <Zone>區域</Zone>
   <GrowingZone>種植區</GrowingZone>
   <Stockpile>儲存區</Stockpile>
@@ -265,98 +241,82 @@
   <AllowAll>全部允許</AllowAll>
 
   <!-- ThingFilter -->
-  
   <HitPoints>{0}耐久值</HitPoints>
   <AnyQuality>所有品質</AnyQuality>
   <OnlyQuality>只限{0}</OnlyQuality>
   
   <!-- Mouseover indicator -->
-	
   <Undiscovered>未探索</Undiscovered>
   
   <!-- Buttons -->
-  
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>切換顯示美觀度。\n\n顯示滑鼠游標處的環境美觀度。</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>切換顯示房間屬性值。\n\n顯示滑鼠游標處的房間屬性值。</ShowRoomStatsToggleButton>
   <ShowColonistBarToggleButton>切換顯示或隱藏殖民者快捷列。\n\n殖民者快捷列會將所有殖民者的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
-  <CategorizedResourceReadoutToggleButton>切換資源清單的可見性。</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>切換資源清單的顯示方式。</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>切換顯示馴養動物的名稱。</ShowAnimalNamesToggleButton>
   
   <!-- Fire -->
-  
   <Fire>火焰</Fire>
   <FireOn>{0}上的火焰</FireOn>
   <Burning>燃燒中</Burning>
   <FireSizeLower>火焰大小：{0}</FireSizeLower>
   
   <!-- Map conditions (eclipse, solar flare, etc )-->
-  
   <MapConditionsTip>正在影響區域的特殊情况。</MapConditionsTip>
   <TimeLeft>剩餘時間</TimeLeft>
   <ImpactDate>影響發生日</ImpactDate>
 
   <!-- Building placement -->
-  
-  <NoStuffsToBuildWith>沒有可用的素材以建造此項目。</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>沒有可用的材料可建造此項目。</NoStuffsToBuildWith>
   
   <!-- Building placement restricters -->
-  
-  <MustPlaceUnroofed>不能放置在屋頂下。</MustPlaceUnroofed>
+  <MustPlaceUnroofed>不能放置在室內。</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>必須與星艦結構柱連接。</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>必須放置在需要儲料器的物件旁。</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>必須放置在需要儲料槽的物件旁。</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>必須直接放置在蒸氣間歇泉上。</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>冷氣機的前後端都必須保持通暢。</MustPlaceCoolerWithFreeSpaces>
-  <MustPlaceVentWithFreeSpaces>空調的前後端都必須保持通暢。</MustPlaceVentWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>空調扇的前後端都必須保持通暢。</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>必須安置在四周可站立的地點。</MustPlaceAdjacentStandable>
   
   <!-- Wind Turbine -->
-  
   <WindTurbine_WindPathIsBlockedBy>受到以下物件阻擋：</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>受到屋頂阻擋</WindTurbine_WindPathIsBlockedByRoof>
 
   <!-- Cryptosleep casket -->
-  
   <CasketContains>內容</CasketContains>
   <CasketWarning>警告！\n\nNAME是你最後一名還能活動的殖民者！如果你讓HIM進入休眠，你可能無法進續進行遊戲。你確定要執行這項指令嗎？</CasketWarning>
 
   <!-- Ship launch report -->
-  
   <ShipReportCannotLaunch>無法發射。</ShipReportCannotLaunch>
   <ShipReportCanLaunch>準備發射。</ShipReportCanLaunch>
   <ShipReportMissingPart>缺少關鍵性部件</ShipReportMissingPart>
   <ShipReportNoFullPods>沒有裝滿的休眠艙</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
-  
   <NeurotrainerUsed>{0}使用{1}神經技能訓練器使等級由{2}提升至{3}了。</NeurotrainerUsed>
   
   <!-- Minification -->
-  
   <Installed>已安裝</Installed>
   <NotInstalled>未安裝</NotInstalled>
 
   <!-- Art -->
-  
-  <Title>提名</Title>
+  <Title>標題</Title>
   <Untitled>未提名</Untitled>
   
   <!-- Unfinished thing -->
-  
   <UnfinishedItem>{0}半成品</UnfinishedItem>
   <UnfinishedItemWithStuff>{0}{1}半成品</UnfinishedItemWithStuff>
 
   <!-- Quality -->
-  
   <Quality>品質</Quality>
   <QualityDescription>此道具的生產品質。</QualityDescription>
   <QualityIs>品質{0}</QualityIs>
     
   <!-- Mood descriptions -->
-  
   <Mood_MentalState>精神崩潰</Mood_MentalState>
-  <Mood_AboutToBreak>即將崩潰</Mood_AboutToBreak>
+  <Mood_AboutToBreak>瀕臨崩潰</Mood_AboutToBreak>
   <Mood_OnEdge>極限</Mood_OnEdge>
   <Mood_Stressed>壓力</Mood_Stressed>
   <Mood_Neutral>自然</Mood_Neutral>
@@ -364,41 +324,36 @@
   <Mood_Happy>快樂</Mood_Happy>
   
   <!-- Game over -->
-  
   <GameOverEveryoneDead>所有人不是死亡就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>
-  <GameOverShipLaunched>你發射了逃離星艦! 以下殖民者離開了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n現在你的AI會試圖將星艦帶到一個安全的地方去。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待一個更好的紀元到來。\n\n只有在你醒來後才會知道。</GameOverShipLaunched>
-  <GameOverPlanetkillerImpact>一顆行星殺手以接近光速的速度撞擊這顆星球，引發了威力興當於數萬億顆氫彈的毀滅性爆炸，整顆星球就像被子彈貫穿的水球。</GameOverPlanetkillerImpact>
+  <GameOverShipLaunched>你啟動了星艦！以下殖民者離開了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n現在你的AI會試圖將星艦帶到一個安全的地方去。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待一個更美好的紀元到來。\n\n一切只有在你醒來後才會知道。</GameOverShipLaunched>
+  <GameOverPlanetkillerImpact>一顆行星殺手以接近光速的高速撞擊這顆星球，引發了威力相當於數萬億顆氫彈的毀滅性爆炸，整顆星球就像被子彈貫穿的水球，在衝擊下液化，其核心物質噴發至宇宙中。\n\n一部分的{0}形成一個小行星帶，剩下的星體則成為滿佈熔岩而且強震環伺的輻射地獄。\n\n你未能生還。</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
   <GameOverMainMenu>主畫面</GameOverMainMenu>
   
   <!-- Generic lifespan -->
-  
   <LifespanExpiry>到期:</LifespanExpiry><!-- ???? -->
 
   <!-- Traps -->
-  
   <TrapArmed>啟動</TrapArmed>
   <TrapNotArmed>未啟動</TrapNotArmed>
-  <TrapRearmingCost>重置花費{0}</TrapRearmingCost>
+  <TrapRearmingCost>重置消耗：{0}</TrapRearmingCost>
   
   <!-- Facilities -->
-  
   <InactiveFacility>閒置</InactiveFacility>
   
   <!-- Hediffs growth modes -->
-  
   <DiseaseGrowthModeChanged_Growing>{0}的{1}正在惡化。</DiseaseGrowthModeChanged_Growing>
   <DiseaseGrowthModeChanged_Stable>{0}的{1}已經穩定下來。</DiseaseGrowthModeChanged_Stable>
   <DiseaseGrowthModeChanged_Remission>{0}的{1}正在逐漸痊癒。</DiseaseGrowthModeChanged_Remission>
 
   
   <!-- Marriage spot -->
-  <MarriageSpotUsable>可使用。</MarriageSpotUsable>
+  <MarriageSpotUsable>現可使用。</MarriageSpotUsable>
   <MarriageSpotNotUsable>以下設施無法運作：{0}。</MarriageSpotNotUsable>
   <MarriageSpotNotStandable>受到阻擋</MarriageSpotNotStandable>
   <MarriageSpotDangerous>不安全的{0}</MarriageSpotDangerous>
   <MarriageSpotForbidden>{0}已禁止互動</MarriageSpotForbidden>
-  <MarriageSpotReserved>保留</MarriageSpotReserved>
+  <MarriageSpotReserved>預留</MarriageSpotReserved>
   <MarriageSpotUnreachable>無有效路徑至{0}</MarriageSpotUnreachable>
   <MarriageSpotInPrisonCell>位於俘虜房中</MarriageSpotInPrisonCell>
   <NotEnjoyableOutsideTemperature>氣溫不合適</NotEnjoyableOutsideTemperature>

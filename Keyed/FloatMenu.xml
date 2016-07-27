@@ -13,7 +13,7 @@
 
   <OutOfRange>超出射程</OutOfRange>
   <CannotHitTarget>無法擊中目標</CannotHitTarget>
-  <IsIncapableOfViolenceLower>{0}無法執行暴力相關指令。</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{0}無法執行暴力相關指令</IsIncapableOfViolenceLower>
   <IsNotDraftedLower>{0}未受徵召</IsNotDraftedLower>
   <CannotOrderNonControlledLower>無法命令不受控制的單位</CannotOrderNonControlledLower>
   
@@ -24,8 +24,8 @@
   <NoPath>沒有路徑</NoPath>
 
   <ForbiddenLower>禁止的</ForbiddenLower>
-  <ForbiddenOutsideAllowedAreaLower>ausserhalb der erlaubten Zone</ForbiddenOutsideAllowedAreaLower>
-  <SociallyImproperLower>社交不當</SociallyImproperLower>
+  <ForbiddenOutsideAllowedAreaLower>在活動區之外</ForbiddenOutsideAllowedAreaLower>
+  <SociallyImproperLower>社交能力不允許</SociallyImproperLower>
   <PrisonerRoomLower>牢房</PrisonerRoomLower>
   <BurningLower>燃燒中</BurningLower>
   <NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
@@ -36,15 +36,15 @@
   <AnimalInteractedTooRecently>最近已和動物互動過了</AnimalInteractedTooRecently>
   <NoUsableFood>無可使用的食物</NoUsableFood>
   <NoFood>無食物</NoFood>
-  <AnimalsSkillTooLow>動物技能過低</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>動物相關技能過低</AnimalsSkillTooLow>
   <NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
   <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
 
   <ConsumeThing>食用{0}</ConsumeThing>
-  <Teetotaler>禁酒主義者</Teetotaler>
+  <Teetotaler>滴酒不沾</Teetotaler>
   
   <CannotGoNoPath>無法走到目的地(沒有路徑)</CannotGoNoPath>
-  <GoHere>走到這裡</GoHere>
+  <GoHere>移動到這裡</GoHere>
   
   <Arrest>拘捕{0}</Arrest>
   <TryToArrest>試圖拘捕{0}</TryToArrest>
@@ -63,11 +63,11 @@
   <NoPrisonerBed>沒有在封閉房間中的俘虜床。</NoPrisonerBed>
   <NoNonPrisonerBed>沒有可用的殖民者床。</NoNonPrisonerBed>
   <NoAnimalBed>沒有可用的動物床。</NoAnimalBed>
-  <Reserved>已經為別人預留了。</Reserved>
+  <Reserved>已經被預留給其他人了。</Reserved>
   <ReservedBy>預留給了{0}。</ReservedBy>
   <IsReservedBy>{0}被預留给了{1}。</IsReservedBy>
 
-  <Incapable>沒有能力</Incapable>
+  <Incapable>無能力</Incapable>
   <IncapableOfCapacity>不具有{0}能力</IncapableOfCapacity>
 
   <MinSkill>最低技能等級</MinSkill>
@@ -92,20 +92,18 @@
   <UseMedicalBed>休養直到痊癒</UseMedicalBed>
   <NotInjured>健康</NotInjured>
   <SomeoneElseSleeping>有其他人正在休養</SomeoneElseSleeping>
+  
   <TradeWith>與{0}進行交易</TradeWith>
   <CannotTrade>無法交易</CannotTrade>
   
   <!-- Specific thing interactions -->
-  
   <EnterCryptosleepCasket>進入低溫休眠艙</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>開啟低溫休眠艙</OpenCryptosleepCasket>
   
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-  
   <CannotGenericWork>無法{0}{1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  
   <CannotMissingHealthActivities>無法優先進行當前任務(不具有{0}能力)</CannotMissingHealthActivities>
   
   <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
@@ -118,7 +116,6 @@
   <CannotPrioritizeForbiddenOutsideAllowedArea>無法優先進行當前任務({0}在允許的活動範圍外)</CannotPrioritizeForbiddenOutsideAllowedArea>
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  
   <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
   
 </LanguageData>

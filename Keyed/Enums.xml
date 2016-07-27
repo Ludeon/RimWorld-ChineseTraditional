@@ -2,13 +2,11 @@
 <LanguageData>
 
   <!-- glow -->
-  
   <Dark>黑暗</Dark>
   <Lit>明亮</Lit>
   <LitBrightly>非常明亮</LitBrightly>
   
   <!-- history upload pref -->
-  
   <Unspecified>未决定</Unspecified>
   <Always>允許</Always>
   <Never>不允許</Never>
@@ -38,11 +36,10 @@
   <FoodTypeFlags_Tree>樹木</FoodTypeFlags_Tree>
   <FoodTypeFlags_Meal>餐點</FoodTypeFlags_Meal>
   <FoodTypeFlags_Processed>加工食品</FoodTypeFlags_Processed>
-  <FoodTypeFlags_NutritionalDrug>酒精飲品</FoodTypeFlags_NutritionalDrug>
-  <FoodTypeFlags_AnimalKibble>動物飼料</FoodTypeFlags_AnimalKibble>
+  <FoodTypeFlags_Liquor>酒精飲品</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Kibble>動物飼料</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
-  
   <QualityCategory_Awful>差勁</QualityCategory_Awful>
   <QualityCategory_Shoddy>不良</QualityCategory_Shoddy>
   <QualityCategory_Poor>瑕疵</QualityCategory_Poor>
@@ -52,7 +49,6 @@
   <QualityCategory_Excellent>完美</QualityCategory_Excellent>
   <QualityCategory_Masterwork>大師</QualityCategory_Masterwork>
   <QualityCategory_Legendary>傳奇</QualityCategory_Legendary>
-
   <QualityCategoryShort_Awful>F</QualityCategoryShort_Awful>
   <QualityCategoryShort_Shoddy>E</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>D</QualityCategoryShort_Poor>
@@ -64,28 +60,24 @@
   <QualityCategoryShort_Legendary>SSS</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
-  
   <HungerLevel_Starving>極度飢餓</HungerLevel_Starving>
-  <HungerLevel_UrgentlyHungry>非常飢餓</HungerLevel_UrgentlyHungry>
+  <HungerLevel_UrgentlyHungry>飢腸轆轆</HungerLevel_UrgentlyHungry>
   <HungerLevel_Hungry>飢餓</HungerLevel_Hungry>
   <HungerLevel_Fed>飽足</HungerLevel_Fed>
 
   <!-- -Fatigue -->
-  
   <HungerLevel_Exhausted>筋疲力竭</HungerLevel_Exhausted>
   <HungerLevel_VeryTired>疲憊</HungerLevel_VeryTired>
   <HungerLevel_Tired>勞累</HungerLevel_Tired>
   <HungerLevel_Rested>精神飽滿</HungerLevel_Rested>
 
   <!-- Hilliness -->
-  
   <Hilliness_Flat>平地</Hilliness_Flat>
   <Hilliness_SmallHills>丘陵</Hilliness_SmallHills>
   <Hilliness_LargeHills>山丘</Hilliness_LargeHills>
   <Hilliness_Mountainous>山地</Hilliness_Mountainous>
   
   <!-- Steam workshop interaction -->
-  
   <WorkshopInteractStage_CreatingItem>建立</WorkshopInteractStage_CreatingItem>
   <WorkshopInteractStage_SubmittingItem>提交</WorkshopInteractStage_SubmittingItem>
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>無效</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
@@ -93,21 +85,19 @@
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>準備內容文件</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>上傳內容</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>上傳預覽文件</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
-  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>提交變更</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>上傳更新</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
   <ContentSource_LocalFolder>本機資料夾</ContentSource_LocalFolder>
   <ContentSource_SteamWorkshop>Steam創意工坊</ContentSource_SteamWorkshop>
 
   <!-- Trainable intelligence -->
-  
   <TrainableIntelligence_None>無</TrainableIntelligence_None>
   <TrainableIntelligence_Simple>低等</TrainableIntelligence_Simple>
   <TrainableIntelligence_Intermediate>中等</TrainableIntelligence_Intermediate>
   <TrainableIntelligence_Advanced>高等</TrainableIntelligence_Advanced>
 
   <!-- Medical care category -->
-  
   <MedicalCareCategory_NoCare>無醫療照顧</MedicalCareCategory_NoCare>
   <MedicalCareCategory_NoMeds>給予醫生治療，但不供應藥物</MedicalCareCategory_NoMeds>
   <MedicalCareCategory_HerbalOrWorse>供應草藥或草藥等級以下的藥品</MedicalCareCategory_HerbalOrWorse>
@@ -115,21 +105,18 @@
   <MedicalCareCategory_Best>給予最高品質的醫療照顧</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
-  
   <HostilityResponseMode_Ignore>無視</HostilityResponseMode_Ignore>
   <HostilityResponseMode_Attack>攻擊</HostilityResponseMode_Attack>
   <HostilityResponseMode_Flee>逃跑</HostilityResponseMode_Flee>
   
   <!-- HediffGrowthMode -->
-  
   <HediffGrowthMode_Growing>生長</HediffGrowthMode_Growing>
   <HediffGrowthMode_Stable>穩定</HediffGrowthMode_Stable>
   <HediffGrowthMode_Remission>減緩</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
-  
   <TechLevel_Animal>動物</TechLevel_Animal>
-  <TechLevel_Neolithic>部落</TechLevel_Neolithic>
+  <TechLevel_Neolithic>原始部落</TechLevel_Neolithic>
   <TechLevel_Medieval>中世紀</TechLevel_Medieval>
   <TechLevel_Industrial>工業</TechLevel_Industrial>
   <TechLevel_Spacer>太空</TechLevel_Spacer>
@@ -137,20 +124,18 @@
   <TechLevel_Transcendent>超科技</TechLevel_Transcendent>
 
   <!-- Player pawns arrive method -->
-  
   <PlayerPawnsArriveMethod_Standing>地面</PlayerPawnsArriveMethod_Standing>
   <PlayerPawnsArriveMethod_DropPods>空降艙</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
-  
-  <PawnGenerationContext_All>全部</PawnGenerationContext_All>
-  <PawnGenerationContext_PlayerStarter>玩家提供</PawnGenerationContext_PlayerStarter>
-  <PawnGenerationContext_NonPlayer>無玩家提供</PawnGenerationContext_NonPlayer>
+  <PawnGenerationContext_All>所有角色</PawnGenerationContext_All>
+  <PawnGenerationContext_PlayerStarter>玩家起始角色</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_NonPlayer>非玩家角色</PawnGenerationContext_NonPlayer>
   
   <!-- Animal name display mode -->
   
   <ShowAnimalNames>顯示動物名稱</ShowAnimalNames>
-  <AnimalNameDisplayMode_TameNamed>馴養(命名)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>馴養(已命名)</AnimalNameDisplayMode_TameNamed>
   <AnimalNameDisplayMode_TameAll>馴養(全部)</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->

@@ -2,7 +2,6 @@
 <LanguageData>
   
   <!-- ITab titles -->
-  
   <TabBills>選單</TabBills>
   <TabGrowing>作物</TabGrowing>
   <TabCharacter>角色</TabCharacter>
@@ -20,19 +19,19 @@
   <TabArt>藝術</TabArt>
   <TabSocial>社交</TabSocial>
   
-  <!-- Bills tab  -->
   
+  <!-- Bills tab  -->
   <AddBill>新增工作</AddBill>
-  <RecipeRequiresSkills>配方{0}需要以下技能。你沒有任何殖民者擁有這些技能，所以無人會完成這份工作。</RecipeRequiresSkills>
-  <MinimumSkill>最低技能</MinimumSkill>
+  <RecipeRequiresSkills>配方{0}需要以下技能。你沒有任何殖民者擁有這些技能，所以沒有人會完成這份工作。</RecipeRequiresSkills>
+  <MinimumSkill>最低技能等級</MinimumSkill>
   <SuspendedCaps>已暫停</SuspendedCaps>
   <BoundWorkerIs>執行者：{0}</BoundWorkerIs>
   <PlantVerb>種植</PlantVerb>
   
-  <!-- Prisoner tab -->
   
+  <!-- Guest/prisoner tab -->
   <RecruitmentDifficulty>招募難度</RecruitmentDifficulty>
-  <GetsFood>供給食物</GetsFood>
+  <GetsFood>供應食物</GetsFood>
   <DoctorsCare>醫療照顧</DoctorsCare>
   <GetsMedicine>供應藥品</GetsMedicine>
   <ShouldTryToRecruit>嘗試招募</ShouldTryToRecruit>
@@ -42,8 +41,8 @@
   <PrisonerRelease>釋放</PrisonerRelease>
   <PrisonerExecution>處決</PrisonerExecution>
   
-  <!-- Medical - general -->
   
+  <!-- Medical - general -->
   <MoveSpeed>移動速度</MoveSpeed>
   <Efficiency>效率</Efficiency>
   <MissingBodyPart>不存在</MissingBodyPart>
@@ -51,16 +50,16 @@
   <ShatteredBodyPart>破裂</ShatteredBodyPart>
   <RemovedBodyPart>移除</RemovedBodyPart>
   <Healthy>健康</Healthy>
-  <InPain>感到疼痛</InPain>
+  <InPain>疼痛</InPain>
   <PainLevel>痛苦</PainLevel>
   <Dead>死亡</Dead>
-  <Unconscious>陷入昏迷</Unconscious>
-  <PainShock>暫時休克</PainShock>
+  <Unconscious>昏迷</Unconscious>
+  <PainShock>休克</PainShock>
   <Injured>受傷</Injured>
   <NoInjuries>(健康)</NoInjuries>
   <WholeBody>全身</WholeBody>
-  <DataProcessing>數據處理</DataProcessing>
-  <Communication>交流</Communication>
+  <DataProcessing>系統運行</DataProcessing>
+  <Communication>通訊</Communication>
   <AffectsLower>影響</AffectsLower>
   <BleedingRate>出血率</BleedingRate>
   <HealthOverview>概觀</HealthOverview>
@@ -75,25 +74,24 @@
   <HungerRate>飢餓速率</HungerRate>
   <Tiredness>疲勞速率</Tiredness>
   
-  <!-- Medical - Body and activities condition -->
   
+  <!-- Medical - Body and activities condition -->
   <None>無</None>
   <VeryPoor>非常差</VeryPoor>
   <Poor>較差</Poor>
   <Weakened>虛弱</Weakened>
   <GoodCondition>健康</GoodCondition>
   <Enhanced>強化</Enhanced>
-  <SeriouslyImpaired>極重傷</SeriouslyImpaired>
+  <SeriouslyImpaired>致命傷</SeriouslyImpaired>
   <Impaired>重傷</Impaired>
   <SlightlyImpaired>輕傷</SlightlyImpaired>
-  <NoPain>無</NoPain>
+  <NoPain>健康</NoPain>
   <LittlePain>輕度</LittlePain>
   <MediumPain>中度</MediumPain>
   <SeverePain>重度</SeverePain>
   <ExtremePain>極度</ExtremePain>
 
   <!-- Training tab-->
-  
   <TrainableIntelligence>智能程度</TrainableIntelligence>
   <CannotTrainNotSmartEnough>需要{0}智能程度</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0}的體型過小，無法接受這項訓練。</CannotTrainTooSmall>
@@ -101,7 +99,6 @@
   <TrainingNeedsPrerequisite>前提條件：{0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  
   <NoRelationships>(無社交關係)</NoRelationships>
   <Kidnapped>綁架</Kidnapped>
   <Slave>奴隸</Slave>

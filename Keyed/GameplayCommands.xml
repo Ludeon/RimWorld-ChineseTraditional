@@ -20,7 +20,6 @@
   <CommandGatherSpotToggleDescInactive>關閉——殖民者們不會在這個物件附近聚集。</CommandGatherSpotToggleDescInactive>
   
   <!-- Drafting -->
-  
   <CommandDraftLabel>徵召</CommandDraftLabel>
   <CommandUndraftLabel>取消徵召</CommandUndraftLabel>
   <CommandToggleDraftDesc>切換徵召狀態。\n\n被徵召的人會遵守命令並戰鬥。他們不會工作、吃飯或休息。</CommandToggleDraftDesc>
@@ -63,17 +62,16 @@
   <CommandDeleteZoneLabel>删除</CommandDeleteZoneLabel>
   <CommandDeleteZoneDesc>刪除這個區域。</CommandDeleteZoneDesc>
 
-  <CommandCopyZoneSettingsLabel>複製區域設定</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsLabel>複製區域設定值</CommandCopyZoneSettingsLabel>
   <CommandCopyZoneSettingsDesc>複製當前區域的設定值，你可以將設定套用至另一個區域。</CommandCopyZoneSettingsDesc>
 
   <CommandPasteZoneSettingsLabel>套用區域設定值</CommandPasteZoneSettingsLabel>
   <CommandPasteZoneSettingsDesc>套用設定值至此區域。</CommandPasteZoneSettingsDesc>
 
   <CommandAllowSow>允許播種</CommandAllowSow>
-  <CommandAllowSowDesc>當此選項設為不允許時，殖民者將不會種植任何植物於此區域，但他們仍可以採收植物。</CommandAllowSowDesc>
+  <CommandAllowSowDesc>當此選項設為不允許時，殖民者將不會在此區域種植任何植物，但他們仍可以採收植物。</CommandAllowSowDesc>
   
   <!-- Artillery -->
-  
   <CommandSetForceAttackTarget>強制設定目標</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>設定這個炮塔必須不停試圖攻擊的目標。</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>停止強制攻擊</CommandStopForceAttack>
@@ -83,61 +81,51 @@
   <MessageTargetBelowMinimumRange>目標近於最小射程。</MessageTargetBelowMinimumRange>
   
   <!-- Ship computer core -->
-  
-  <CommandShipLaunch>發動星艦</CommandShipLaunch>
+  <CommandShipLaunch>啟動星艦</CommandShipLaunch>
   <CommandShipLaunchDesc>使用目前的星艦設定開始星艦啟航程序。</CommandShipLaunchDesc>
   <CommandShipLaunchReport>顯示啟航報告</CommandShipLaunchReport>
-  <CommandShipLaunchReportDesc>顯示一份關於星艦發動能力的報告。</CommandShipLaunchReportDesc>
+  <CommandShipLaunchReportDesc>顯示一份關於星艦啟動能力的報告。</CommandShipLaunchReportDesc>
 
   <!-- Pod -->
-  
   <CommandPodEject>彈出休眠者</CommandPodEject>
   <CommandPodEjectDesc>喚醒低溫休眠者並將他們彈出。</CommandPodEjectDesc>
-  <CommandPodEjectFailEmpty>內部無人。</CommandPodEjectFailEmpty>
+  <CommandPodEjectFailEmpty>艙內無人。</CommandPodEjectFailEmpty>
 
   <!-- Door -->
-  
   <CommandToggleDoorForbid>切換門鎖</CommandToggleDoorForbid>
   <CommandToggleDoorForbidDesc>鎖上或解鎖此門。鎖上的門將不會對殖民者或訪客開啟，但這並不會影響敵人與動物與門的互動。</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>保持敞開</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>當開啟此功能時，下一名通過的殖民者將不會關上這扇門。</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
-  
   <CommandResetTemp>重置</CommandResetTemp>
   <CommandResetTempDesc>重置目標溫度為室溫</CommandResetTempDesc>
   <CommandRaiseTempDesc>調高目標溫度</CommandRaiseTempDesc>
   <CommandLowerTempDesc>調降目標溫度</CommandLowerTempDesc>
 
   <!-- Install/reinstall -->
-  
   <CommandInstall>安裝</CommandInstall>
-  <CommandInstallDesc>此物件已被包裝為方便儲存與運輸的狀態，使用這項指令以安裝這項物件至指定的位置，使之能夠供人觀賞。</CommandInstallDesc>
+  <CommandInstallDesc>此物件已被包裝為方便儲存與運輸的狀態，使用這項指令以安裝此物件至指定的位置。</CommandInstallDesc>
   <CommandReinstall>重新安裝至...</CommandReinstall>
   <CommandReinstallDesc>將此物件設為無法拆除或重新安裝至其它地方。</CommandReinstallDesc>
 
   <!-- Trade beacon -->
-  
   <CommandMakeBeaconStockpileDesc>創建一片與交易信標作用範圍相同的儲存區。</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>創建儲存區</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
-  
   <CommandSunLampMakeGrowingZoneDesc>在這個太陽燈的光線範圍內劃設一片種植區。</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>劃設種植區</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  
   <CommandAutoRearm>自動重置陷阱</CommandAutoRearm>
   <CommandAutoRearmDesc>當此功能開啟時，陷阱被觸發後，殖民者將會前來重置陷阱。</CommandAutoRearmDesc>
   
   <!-- Animal control -->
-  
   <CommandReleaseAnimalsLabel>放出動物</CommandReleaseAnimalsLabel>
   <CommandReleaseAnimalsDesc>當啟用此選項時，動物能夠前往攻擊遠處的目標，反之，牠們就只會跟隨並護衛主人。</CommandReleaseAnimalsDesc>
   
   <!-- Squad attack -->
-  
   <CommandSquadAttack>攻擊</CommandSquadAttack>
   <CommandSquadAttackDesc>命令當前選擇的所有殖民者攻擊指定目標。</CommandSquadAttackDesc>
 
@@ -147,8 +135,8 @@
   
   <!-- Select plant to grow -->
   <CommandSelectPlantToGrowMulti>選擇種植的植物</CommandSelectPlantToGrowMulti>
-  <CommandSelectPlantToGrow>植物：{0}</CommandSelectPlantToGrow>
-  <CommandSelectPlantToGrowDesc>指定在此生長的植物。</CommandSelectPlantToGrowDesc>
+  <CommandSelectPlantToGrow>種植：{0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrowDesc>選擇要在此種植的植物。</CommandSelectPlantToGrowDesc>
   
   
 </LanguageData>

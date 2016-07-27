@@ -4,10 +4,10 @@
   <LetterLabelAnimalInsanitySingle>狂暴動物</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>一隻附近的{0}發瘋了。牠會攻擊任何牠見到的人。</AnimalInsanitySingle>
   <LetterLabelAnimalInsanityMultiple>狂暴動物！</LetterLabelAnimalInsanityMultiple>
-  <AnimalInsanityMultiple>某種干擾電波橫掃了整個地平線。你的殖民者們沒什麼問題，但是……\n\n看來這附近好多{0}都被這玩意搞瘋了。</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>某種干擾電波橫掃了整個地平線。你的殖民者們沒什麼問題，但是……\n\n看來這附近好多{0}都被這玩意兒搞瘋了。</AnimalInsanityMultiple>
   
   <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
-  <CropBlight>一種神祕的枯萎病毀掉了你的農作物。</CropBlight>
+  <CropBlight>一種未知的枯萎病毀掉了你的農作物。</CropBlight>
 
   <LetterLabelMiracleHeal>奇蹟</LetterLabelMiracleHeal>
   <MiracleHeal>{0}奇蹟般的恢復健康了!</MiracleHeal>
@@ -16,11 +16,13 @@
   <EnemyRaidWalkIn>一群名為{1}的{0}來到了附近。</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>一群名為{1}的{0}從軌道降落到了附近。</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>一群名為{1}的{0}從軌道直接降落到了殖民地上!</EnemyRaidCenterDrop>
+  <EnemyRaidLeaderPresent>其中一名{0} - {1}，是該勢力的首領。</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <FriendlyRaidWalkIn>一群來自{1}的{0}來到了附近。</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>一群來自{1}的{0}從軌道降落到了附近。</FriendlyRaidEdgeDrop>
   <FriendlyRaidCenterDrop>一群來自{1}的{0}從軌道直接降落到了殖民地上!</FriendlyRaidCenterDrop>
+  <FriendlyRaidLeaderPresent>其中一名{0} - {1}，是該勢力的首領。</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>逃生艙</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>你偵測到了一個逃生艙在附近墜毀了。\n\n如果有人在撞擊後生還，他們的傷勢恐怕不會太樂觀。</RefugeePodCrash>
@@ -31,7 +33,7 @@
   <AnElectricalConduit>一根電纜</AnElectricalConduit>
   <ShortCircuit>{0}的故障引起了短路。\n\n所有電池裡整整{1}瓦的能量都以爆炸的形式被釋放出來。</ShortCircuit>
   <ShortCircuitWasLarge>這麼多電能造成了一場規模可觀的爆炸。</ShortCircuitWasLarge>
-  <ShortCircuitWasHuge>哇！這爆炸的規模可真不小。</ShortCircuitWasHuge>
+  <ShortCircuitWasHuge>哇！真是場壯觀的爆炸。</ShortCircuitWasHuge>
 
   <TraderArrival>一艘商船正巧經過。\n\n他們是{1}{0}。</TraderArrival>
 
@@ -39,18 +41,20 @@
   <GroupTravelersPassing>一群來自{0}的旅行者正巧路過。</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>訪客</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>一位來自{1}的{0}來拜訪殖民地。\n\nHECAP名叫{2}。</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\n看來HECAP帶了些能夠交易的東西。</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrives>一位來自{1}的{0}來拜訪殖民地。\n\nHECAP名叫{2}。{4}{3}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n他是該勢力的首領。</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>帶了些能夠交易的東西。</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>參訪團</LetterLabelGroupVisitorsArrive>
-  <GroupVisitorsArrive>一群來自{0}的人來拜訪殖民地。</GroupVisitorsArrive>
-  <GroupVisitorsArriveTraderInfo>\n\n看來他們帶了些能夠交易的東西。</GroupVisitorsArriveTraderInfo>
-  <VisitorsLeaving>來自{0}的參觀者離開了。</VisitorsLeaving>
+  <GroupVisitorsArrive>一群來自{0}的人來拜訪殖民地。{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>他們帶了些能夠交易的東西。</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\n其中一名訪客 - {0}，是該勢力的首領。</GroupVisitorsArriveLeaderInfo>
+  <VisitorsLeaving>來自{0}的拜訪者離開了。</VisitorsLeaving>
 
-  <LetterLabelWandererJoin>志願者加入</LetterLabelWandererJoin>
+  <LetterLabelWandererJoin>志願者</LetterLabelWandererJoin>
   <WandererJoin>一位名叫NAME的{0}來到了這裡並加入了殖民地。HECAP是一位{1}。</WandererJoin>
   
   <LetterLabelManhunterPackArrived>獸群襲擊</LetterLabelManhunterPackArrived>
-  <ManhunterPackArrived>一票專門襲擊人類的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何人類。\n\n牠們無法通過門，待在室內是安全的選擇。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
+  <ManhunterPackArrived>一票專門襲擊人類的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何活人。\n\n牠們無法通過門，待在室內是安全的選擇。未運作的機槍炮塔也不會成為攻擊目標，如果你想保住它們，記得關掉。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <MessageAnimalInsanityPulse>這塊遠古星艦碎片發射了一股心靈脈衝，這讓它附近的動物都發瘋了。</MessageAnimalInsanityPulse>
@@ -70,19 +74,19 @@
   
   <!-- Distant psychic drone -->
   <LetterLabelPsychicDrone>干擾電波</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>所有{0}的殖民者都感到十分痛苦!\n\n某種憎惡在遙遠的地方向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下来幾天之内，有些人的心情會比以往更差一些。</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>所有{0}殖民者都感到十分痛苦！\n\n一股邪惡在遙遠的地方向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下来幾天之内，有些人的心情會比以往更差一些。</LetterIncidentPsychicDrone>
   
   <LetterLabelPsychicSoothe>撫慰電波</LetterLabelPsychicSoothe>
-  <LetterIncidentPsychicSoothe>所有{0}的殖民者都在臉上掛上了滿足的笑容！\n\n某個遠方的快樂引擎正在運轉著，它向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下来幾天之内，有些人的心情會特別愉快。</LetterIncidentPsychicSoothe>
+  <LetterIncidentPsychicSoothe>所有{0}殖民者都在臉上掛上了滿足的笑容！\n\n某個遠方的快樂引擎正在運轉著，它向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下来幾天之内，有些人的心情會特別愉快。</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
   <LetterLabelBeaversArrived>海貍</LetterLabelBeaversArrived>
   <BeaversArrived>一群飢餓的阿爾法海貍抵達了這個區域。\n\n在牠們將這片區域內的最後一棵樹啃食殆盡前剷除牠們！</BeaversArrived>
   
   <!-- Refugee chased -->
-  <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。HECAP說他正被來自{3}的{2}追殺！\n\nHECAP請求加入殖民地以獲得庇護。生理上，HE已經{4}歲了\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
+  <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。HECAP說他正被來自{3}的{2}追殺！\n\nHECAP請求加入殖民地以獲得庇護。HIS生理年齡是{4}歲。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
-  <RefugeeChasedInitial_Reject>忽略此訊息</RefugeeChasedInitial_Reject>
+  <RefugeeChasedInitial_Reject>忽略訊息</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>在你切斷與{0}的通訊之前，一陣淒厲的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
 
   <!-- Self-tame -->
@@ -92,19 +96,24 @@
   <LetterAnimalSelfTameAndName>{0}被馴服了。殖民者們決定叫牠{1}。</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
-  <LetterLabelFarmAnimalsWanderIn>{0}加入</LetterLabelFarmAnimalsWanderIn>
+  <LetterLabelFarmAnimalsWanderIn>{0}群加入</LetterLabelFarmAnimalsWanderIn>
   <LetterFarmAnimalsWanderIn>一群不知是被遺棄或是走失的{0}正在附近遊蕩。\n\n牠們似乎習慣與人類接觸，並加入了殖民地。</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
   <LetterLabelThrumboPasses>獨角獸</LetterLabelThrumboPasses>
-  <LetterThrumboPasses>一小群獨角獸正在附近遊蕩。\n\n這種稀有的物種天性溫和，但與牠們對抗可是極端的危險。有些商人願意開出高價收購牠們的角與皮毛。\n\nThrumbos只會在附近停留幾日。</LetterThrumboPasses>
+  <LetterThrumboPasses>一小群獨角獸正在附近遊蕩。\n\n這種稀有的物種天性溫和，但與牠們對抗可是極端的危險。有些商人願意開出高價收購牠們的角與皮毛。\n\n獨角獸只會在附近停留幾日。</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <LetterLabelTraderCaravanArrival>來自{0}的商隊</LetterLabelTraderCaravanArrival>
-  <LetterTraderCaravanArrival>一團來自{0}的商隊抵達了這裡'。\n\n他們將在殖民地附近停留幾天。 你可以對他們發動攻擊，但此舉會激怒他們的勢力。</LetterTraderCaravanArrival>
+  <LetterTraderCaravanArrival>一團來自{0}的商隊抵達了這裡'。\n\n他們將在殖民地附近停留幾天。你可以對他們發動攻擊，但此舉會激怒他們的勢力。</LetterTraderCaravanArrival>
   
   <!-- Building breaks down -->
   <LetterLabelBuildingBrokenDown>損壞：{0}</LetterLabelBuildingBrokenDown>
   <LetterBuildingBrokenDown>你有一部電器({0})損壞了，在具有修理技能的殖民者將它修理好之前，它將無法運作。</LetterBuildingBrokenDown>
+  
+  <!-- Ransom demand -->
+  <RansomDemand>{1}透過無線電呼叫你，他們挾持{0}以要脅贖金。\n\n如果你願意支付{2}白銀的贖金，他們將很樂意放HIS回來。</RansomDemand>
+  <RansomDemand_Accept>支付贖金</RansomDemand_Accept>
+  <RansomDemand_Reject>拒絕支付</RansomDemand_Reject>
   
 </LanguageData>

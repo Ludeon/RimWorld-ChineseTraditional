@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <JumpToLocation>查看事件地點</JumpToLocation>
+  <JumpToLocation>跳至事件地點</JumpToLocation>
 
   <LetterLabelFirstSummerWarning>夏天來臨</LetterLabelFirstSummerWarning>
-  <FirstSummerWarning>夏天剛剛到來，但冬天正悄悄接近中。\n\n你的糧食作物並不會在冬季寒冷的天氣裡生長，趁著你還有能力，現在開始儲存糧食，並確保儲備量足以度過數個月的寒冬。\n\n你可以打造一座大型冷凍庫以確保食物不致腐壞。\n\n還有，嘗試買一些、做一些，甚至奪取一些大衣，否則你將會被凍僵在外頭。</FirstSummerWarning>
+  <FirstSummerWarning>夏天到了！但冬天正悄悄接近中。\n\n你的糧食作物並不會在冬季寒冷的天氣裡生長，趁著你還有能力，現在開始儲存糧食，並確保儲備量足以度過數個月的寒冬。\n\n你可以打造一座大型冷凍庫以確保食物不致腐壞。\n\n還有，嘗試買一些、做一些，甚至奪取一些大衣，否則你將會被凍僵在外頭。</FirstSummerWarning>
 
-  <RelationsBrokenDown>和{0}的關係惡化了。現在他們對你是敵對態度。</RelationsBrokenDown>
+  <RelationsBrokenDown>和{0}的關係惡化了。現在他們與你敵對了。</RelationsBrokenDown>
   <RelationsWarmed>和{0}的關係改善了。他們不再敵視你了。</RelationsWarmed>
 
   <RelationsBrokenCapture>因為你俘虜了{0}，{1}宣告與你敵對了。</RelationsBrokenCapture>
@@ -25,76 +25,72 @@
   <NothingCrushed>所幸沒有東西被壓到。</NothingCrushed>
   <LetterLabelRoofCollapsed>屋頂坍塌</LetterLabelRoofCollapsed>
 
-  <RecruitSuccess>{0}成功招募了{1}(機率{2})。</RecruitSuccess>
-  <RecruitFail>{0}沒能成功招募{1}(機率{2})。</RecruitFail>
+  <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
+  <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
   
   <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
-  <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而實際上，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
-  <BirthdayBiologicalAgeInjuries>{0}的生理年齡已滿{1}歲。\n\n不幸的是，因為{0}的年紀，{0}得到了這些疾病：\n{3}</BirthdayBiologicalAgeInjuries>
+  <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而從曆法來計算，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
+  <BirthdayBiologicalAgeInjuries>{0}的生理年齡已滿{1}歲。\n\n不幸的是，因為{0}的年紀，{0}得到了這些疾病：\n{2}</BirthdayBiologicalAgeInjuries>
   
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
-  <NewDisease>{0}感染了{1}。確保{0}獲得妥善的治療，盡可能讓{0}在床上休養以早日康復。</NewDisease>
-  <NewPartDisease>{0}的{1}受到感染，確保{0}獲得妥善的治療，並盡可能讓{0}在床上休養以早日康復。</NewPartDisease>
+  <NewDisease>{0}感染了{1}。請確保{0}獲得妥善的醫療照顧，並盡可能讓{2}在床上休養以早日康復。</NewDisease>
+  <NewPartDisease>{0}的{1}感染了{3}，請確保{0}獲得妥善的醫療照顧，並盡可能讓{2}在床上休養以早日康復。</NewPartDisease>
  
-  <LetterLabelAncientShrineWarning>遠古威嚇</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HIM感受到一股不祥之感。HECAP無法解釋原因，但HE覺得這棟滿佈沙塵的建築潛藏著巨大的危險。</AncientShrineWarning>
+  <LetterLabelAncientShrineWarning>遠古威脅</LetterLabelAncientShrineWarning>
+  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HE感受到一股不祥之感。HECAP無法解釋原因，HE就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
 
   <StruckMineable>我們開採到了{0}！</StruckMineable>
 
   <LetterLabelAnimalManhunterFromDamage>{0}反擊</LetterLabelAnimalManhunterFromDamage>
   <AnimalManhunterFromDamage>一隻{0}在受到傷害後開始向殖民者反擊！</AnimalManhunterFromDamage>
   <AnimalManhunterFromTaming>因為你嘗試馴服牠，一隻{0}開始攻擊你！</AnimalManhunterFromTaming>
-  <AnimalManhunterOthers>周遭的{0}也跟著發怒了！</AnimalManhunterOthers>
+  <AnimalManhunterOthers>周圍的{0}也跟著發怒了！</AnimalManhunterOthers>
 
   <LetterFriendlyTrapSprungLabel>{0}觸發陷阱</LetterFriendlyTrapSprungLabel>
-  <LetterFriendlyTrapSprung>{0}意外的觸發了一個陷阱，並且受到了傷害。</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprung>{0}意外的觸發了一個陷阱，並受到了傷害。</LetterFriendlyTrapSprung>
 
-  <LetterHealthComplications>{0}已經惡化成{1}，併發{2}。</LetterHealthComplications>
+  <LetterHealthComplications>{0}已經惡化成{1}。\n\n這是屬於{2}的併發症。</LetterHealthComplications>
   <LetterHealthComplicationsLabel>{0}{1}</LetterHealthComplicationsLabel>
   
-  <LetterHediffFromRandomHediffGiver>{0}已經發展出健康問題：{1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>{0}已經發展成健康問題：{1}.</LetterHediffFromRandomHediffGiver>
   <LetterHediffFromRandomHediffGiverLabel>{0}{1}</LetterHediffFromRandomHediffGiverLabel>
   
   <LetterLeadersDeathLabel>首領死亡</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{1}的首領{0}已死亡，並由{2}接任首領。</LetterLeadersDeath>
   
-  <MentalBreakLetterLabel>Zusammenbruch</MentalBreakLetterLabel>
-  <MentalBreakReason>Ursache: {0}.</MentalBreakReason>
+  <MentalBreakLetterLabel>精神崩潰</MentalBreakLetterLabel>
+  <MentalBreakReason>崩潰原因：{0}。</MentalBreakReason>
   
   <!-- Related pawns -->
+  <LetterLabelNoticedRelatedPawns>親人</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>有殖民者或俘虜的親人隨{0}抵達了這裡\n\n請謹記，即使他們之間有關係，仍然會因為所屬勢力敵對而攻擊對方。\n\n到來的親人為：</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>有殖民者或俘虜的親人隨{0}抵達了這裡：</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>有殖民者或俘虜的親人抵達了這裡：</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>宇宙商船販賣的奴隸中有殖民者或俘虜的親人：</LetterRelatedPawnsTradeShip>
 
-  <LetterLabelNoticedRelatedPawns>家人</LetterLabelNoticedRelatedPawns>
-  <LetterRelatedPawnsRaidEnemy>有殖民者或俘虜的家人隨{0}抵達了這裡\n\n請謹記，即使他們之間有關係，仍然會因為所屬勢力敵對而攻擊對方。\n\n到來的家人為：</LetterRelatedPawnsRaidEnemy>
-  <LetterRelatedPawnsRaidFriendly>有殖民者或俘虜的家人隨{0}抵達了這裡：</LetterRelatedPawnsRaidFriendly>
-  <LetterRelatedPawnsNeutralGroup>有殖民者或俘虜的家人抵達了這裡：</LetterRelatedPawnsNeutralGroup>
-  <LetterRelatedPawnsTradeShip>宇宙商船販賣的奴隸中有殖民者或俘虜的家人：</LetterRelatedPawnsTradeShip>
-
-  <RelationshipAppendedLetterSuffix>(家人)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME是一名殖民者的家人，{0}的{1}。</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME是一名俘虜的家人，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterSuffix>(親人)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>NAME是一名殖民者的親人，{0}的{1}。</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>NAME是一名俘虜的親人，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
-  
-  <LetterLabelAffair>心關係</LetterLabelAffair>
+  <LetterLabelAffair>外遇</LetterLabelAffair>
   <LetterAffair>{0}，{1}的配偶，和{2}展開了新的關係。</LetterAffair>
   <LetterLabelNewLovers>新戀人</LetterLabelNewLovers>
   <LetterNewLovers>{0}和{1}在一起了，他們現在是一對情侶。</LetterNewLovers>
   <LetterNoLongerLovers>{0}和{1}分手了。</LetterNoLongerLovers>
   <LetterLabelBreakup>分手</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>求婚成功！</LetterLabelAcceptedProposal>
-  <LetterLabelRejectedProposal>拒絕求婚。</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1}答應了{0}的求婚。\n\n在未來幾天或幾季的某個時候，他們將舉行結婚典禮，並邀請所有殖民的成員一同觀禮。設置一個結婚點即可指定典禮進行的地點。</LetterAcceptedProposal>
+  <LetterLabelRejectedProposal>求婚被拒</LetterLabelRejectedProposal>
+  <LetterAcceptedProposal>{1}答應了{0}的求婚。\n\n在未來幾天或幾季的某個時候，他們將舉行結婚典禮，並邀請所有殖民的成員參加典禮。如果你想，可以設置一個結婚點指定典禮進行的地點。</LetterAcceptedProposal>
   <LetterRejectedProposal>{1}拒絕了{0}的求婚。{0}對此感到難以釋懷。</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
-  
   <LetterLabelRelationsChangeGood>好消息</LetterLabelRelationsChangeGood>
   <LetterLabelRelationsChangeBad>壞消息</LetterLabelRelationsChangeBad>
   <LetterLabelShortCircuit>滋滋滋...</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>精神崩潰</LetterLabelMentalBreakdown>
   
   <!-- Bonded animals -->
-  
   <LetterLabelBondedAnimalDied>動物夥伴死亡</LetterLabelBondedAnimalDied>
   <LetterBondedAnimalDied>{0}，{1}的夥伴死亡了，這將會影響{1}的心情。</LetterBondedAnimalDied>
   <LetterNamedBondedAnimalDied>{0}{1}，{2}的夥伴死亡了，這將會影響{1}的心情。</LetterNamedBondedAnimalDied>
@@ -102,12 +98,10 @@
   <LetterNamedBondedAnimalDiedMulti>{0}{1}死亡了，這將會影響以下人員的心情：\n\n{2}</LetterNamedBondedAnimalDiedMulti>
 
   <!-- Prison break -->
-  
   <LetterLabelPrisonBreak>越獄</LetterLabelPrisonBreak>
-  <LetterPrisonBreak>囚犯們上演了一場越獄行動，他們找到對付門鎖的方法，並打通了一條道路。他們可能會找尋武器、戰鬥或嘗試逃跑。以下俘虜參與了越獄：\n\n{0}\n\n當俘虜感到不開心、人多勢眾或健康時就有可能嘗試越獄。</LetterPrisonBreak>
+  <LetterPrisonBreak>囚犯們上演了一場越獄行動，他們找到對付門鎖的方法，並打通了一條道路。他們可能會找尋武器、戰鬥或嘗試逃跑。以下俘虜參與了越獄：\n\n{0}\n\n當俘虜感到不開心、人多勢眾或身強體壯時就有可能嘗試越獄。</LetterPrisonBreak>
   
   <!-- Party -->
-  
   <LetterLabelNewParty>派對</LetterLabelNewParty>
   <LetterNewParty>{0}正在舉辦派對！任何參加派對的人都可以獲得娛樂和社交分數，以及持久的正向心情加分。</LetterNewParty>
   

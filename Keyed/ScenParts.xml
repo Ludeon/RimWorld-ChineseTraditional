@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- ======================== Non-grouped ========================-->
+  
+  <ScenPart_PlayerFaction>你將以{0}勢力開始遊戲。</ScenPart_PlayerFaction>
+
+  <ScenPart_StartWithPawns>開局人口數{0}人</ScenPart_StartWithPawns>
+  <RandomPet>隨機寵物</RandomPet>
+
+  <ScenPart_StartingResearchFinished>開局附帶科技：{0}</ScenPart_StartingResearchFinished>
+  
+  <ScenPart_ArriveInDropPods>使用降落艙開局。</ScenPart_ArriveInDropPods>
+
+  <ScenPart_StatFactor>屬性值"{0}"將統一倍率為{1}。</ScenPart_StatFactor>
+
+
+  <!-- Pawn modifiers -->
+  <ScenPart_PawnsHaveHediff>{0}有{1}的機率開局攜帶{2}。</ScenPart_PawnsHaveHediff>
+  <ConfigurableSeverity>嚴重程度{0}</ConfigurableSeverity>
+
+  <ScenPart_PawnsHaveTrait>{0}有{1}的機率開局附帶{2}特性。</ScenPart_PawnsHaveTrait>
+  <ScenPart_OnPawnDeathExplode>角色與生物在死亡時爆炸({0}，爆炸半徑{1})。</ScenPart_OnPawnDeathExplode>
+
+  <!-- Pawn filters -->
+  <ScenPart_StartingPawnAgeMin>你的殖民者年齡將大於{0}歲。</ScenPart_StartingPawnAgeMin>
+  <ScenPart_StartingPawnAgeMax>你的殖民者年齡將小於{0}歲。</ScenPart_StartingPawnAgeMax>
+  <ScenPart_StartingPawnAgeRange>你的殖民者年齡將介於{0}至{1}歲之間。</ScenPart_StartingPawnAgeRange>
+
+
+  <!-- ======================== Grouped ========================-->
+
+  <ScenPart_StartWith>起始資源</ScenPart_StartWith>
+  <ScenPart_MapScatteredWith>地圖中散佈有</ScenPart_MapScatteredWith>
+  <ScenPart_PermaMapCondition>永久地圖條件</ScenPart_PermaMapCondition>
+  <ScenPart_DisableIncident>禁用事件</ScenPart_DisableIncident>
+  <ScenPart_DisallowBuilding>禁用建設</ScenPart_DisallowBuilding>
+
+</LanguageData>
