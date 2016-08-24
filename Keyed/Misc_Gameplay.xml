@@ -15,7 +15,7 @@
   <Unowned>無擁有者</Unowned>
   <DeadTime>死亡的{0}</DeadTime>
   <WalkSpeed>行走速度{0}</WalkSpeed>
-  <FertShort>受精</FertShort>
+  <FertShort>生長速度</FertShort>
   <DyingLower>瀕死</DyingLower>
   <FilthOnFeet>腳上的髒污：</FilthOnFeet>
   <NotEnoughStoredLower>儲量不足</NotEnoughStoredLower>
@@ -25,7 +25,7 @@
   <UntreatedLower>尚未治療</UntreatedLower>
   <DevelopedImmunityLower>已形成免疫力</DevelopedImmunityLower>
   <InjuryRequiresTreatment>需要治療以復原</InjuryRequiresTreatment>
-  <NextTreatmentAfter>下一次治療將在{0}天後</NextTreatmentAfter>
+  <NextTreatmentIn>下一次治療將在{0}天後</NextTreatmentIn>
   <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
   <Immunity>免疫力形成度</Immunity>
   <Race>物種</Race>
@@ -123,7 +123,7 @@
   <ReportCowering>逃避。</ReportCowering>
   <ReportStanding>呆站著。</ReportStanding>
   <ReportExtinguishingFire>滅火。</ReportExtinguishingFire>
-  <ReportExtinguishingFireOn>用{0}滅火。</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>撲滅{0}身上的火。</ReportExtinguishingFireOn>
   
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>參加婚禮。</LordReportAttendingMarriageCeremony>
@@ -331,7 +331,7 @@
   <GameOverMainMenu>主畫面</GameOverMainMenu>
   
   <!-- Generic lifespan -->
-  <LifespanExpiry>到期:</LifespanExpiry><!-- ???? -->
+  <LifespanExpiry>壽命：</LifespanExpiry>
 
   <!-- Traps -->
   <TrapArmed>啟動</TrapArmed>

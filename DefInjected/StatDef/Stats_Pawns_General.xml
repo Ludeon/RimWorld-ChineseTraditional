@@ -26,7 +26,7 @@
   <ComfyTemperatureMax.description>當溫度高於此標準，角色的心情值將會降低。若氣溫遠高於此標準，會導致角色中暑甚至死亡。</ComfyTemperatureMax.description>
   
   <ImmunityGainSpeed.label>免疫力形成速度</ImmunityGainSpeed.label>
-  <ImmunityGainSpeed.description>此角色在面對疾病與感染時形成免疫力的速度，如果免疫力形成的速度過慢，這名角色就在免疫力形成之前病重而死。</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>此角色在面對疾病與感染時形成免疫力的速度，如果免疫力形成的速度過慢，這名角色就會在免疫力形成之前病重而死。</ImmunityGainSpeed.description>
   
   <CarryingCapacity.label>搬運攜帶量</CarryingCapacity.label>
   <CarryingCapacity.description>這個單位能夠同時搬運的最大數量。</CarryingCapacity.description>
