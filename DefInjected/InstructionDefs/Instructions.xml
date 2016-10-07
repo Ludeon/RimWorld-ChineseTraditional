@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<CreateWorldParams.text>歡迎來到RimWorld！本教學將會教你如何遊玩本遊戲。\n\n第一步是要創造一個世界(星球)。\n\n在這個畫面，世界是依據你設定的種子碼生成的。\n\n這裡已經有預設的種子碼，點擊「創造世界」即可生成世界！</CreateWorldParams.text>
+	
+	<ChooseLandingSite.text>在這裡，你可以選擇你將降落的地點。\n\n在這顆星球上有許許多多的生態系，但現在，讓我們先從較容易生存的開始。\n\n選擇一個地形平坦的溫帶森林，然後點擊「選擇著陸點」。</ChooseLandingSite.text>
+	<ChooseLandingSite.rejectInputMessage>請選擇地形平坦的溫帶森林生態系。</ChooseLandingSite.rejectInputMessage>
+	
+	<RandomizeCharacter.text>現在你將開始生成你的角色！\n\n點選「隨機生成」按鈕重新生成一個角色。</RandomizeCharacter.text>
+	<RandomizeCharacter.rejectInputMessage>請先嘗試重新生成角色。</RandomizeCharacter.rejectInputMessage>
+
+	<AcceptStartingPawns.text>做得好！\n\n如果你想要，可以多反覆生成幾次，但別試著生成一個完美的角色，每個人都有短處，這使得故事更加精采有趣。\n\n你也可以點擊角色的名字替他們重新命名。\n\n當一切就緒，點擊「開始遊戲」。</AcceptStartingPawns.text>
+	
+	<MapCameraDolly.text>現在你已經降落到地面上了！\n\n現在試著移動遊戲畫面四處看看。\n\n使用{Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight}，或是按住滑鼠中鍵拖曳畫面。\n\n現在就嘗試看看！</MapCameraDolly.text>
+	
+	<MapCameraZoom.text>做得好！\n\n你還可以用滑鼠滾輪縮放畫面，或是使用{Key:MapZoomIn}和{Key:MapZoomOut}達到同樣的效果。\n\n現在就嘗試看看！</MapCameraZoom.text>
+	
+	<Pause.text>你可以隨時暫停時間。\n\n這表示你永遠不必慌忙地下指令，暫停時間讓你有充足的時間可以應對。\n\n按下{Key:TogglePause}或點擊畫面右下角的時間控制按鈕暫停時間。</Pause.text>
+	
+	<TimeControls.text>你還能夠加速時間。\n\n使用{Key:TimeSpeedNormal}、{Key:TimeSpeedFast}及{Key:TimeSpeedSuperfast}，或是畫面右下角的時間控制按鈕來調整時間流速。</TimeControls.text>
+	
+	<MakeStockpile.text>做得好！\n\n現在，劃設一個儲存區讓居民知道東西該存放在哪裡。\n\n1. 點擊左下角的「建設」開啟建設選單。\n2. 點選「區域」項目。\n3選擇「劃設儲存區」工具。\n4按壓滑鼠左鍵並拖曳，依據指示劃設儲存區。</MakeStockpile.text>
+	<MakeStockpile.rejectInputMessage>請將儲存區劃設在提示區域內。</MakeStockpile.rejectInputMessage>
+	<MakeStockpile.onMapInstruction>在此劃設儲存區。\n(由一角拖曳至對角)</MakeStockpile.onMapInstruction>
+	
+	<EndStockpileDesignating.text>點擊滑鼠右鍵退出劃設儲存區狀態。</EndStockpileDesignating.text>
+	
+	<UnforbidStartingResources.text>現在，要讓你的殖民者將東西搬運到儲存區，你必須取消物品的禁止互動狀態。\n\n1. 選取你的開局物資。\n2. 點擊「切換禁止互動」取消禁止互動狀態。\n\n(小技巧：快速連點兩下可以選取畫面中所有同類型的物件。) </UnforbidStartingResources.text>
+	<UnforbidStartingResources.rejectInputMessage>請解鎖你的開局物資。</UnforbidStartingResources.rejectInputMessage>
+	<UnforbidStartingResources.onMapInstruction>解鎖此物件</UnforbidStartingResources.onMapInstruction>
+	
+	<BuildRoomWalls.text>太棒了！接著，我們要開始建造房間。\n\n1. 開啟建築選單。\n2. 點選「結構」。\n3. 選擇「牆」。\n4. 選擇「木材」作為材料。\n5. 在提示的位置畫出四面牆壁。</BuildRoomWalls.text>
+	<BuildRoomWalls.rejectInputMessage>請依據提示的位置進行建造。</BuildRoomWalls.rejectInputMessage>
+	<BuildRoomWalls.onMapInstruction>建造牆壁</BuildRoomWalls.onMapInstruction>
+	
+	<BuildRoomDoor.text>現在，在牆的任意位置放置一扇門。\n\n門的建築選項就在牆的隔壁。</BuildRoomDoor.text>
+	<BuildRoomDoor.rejectInputMessage>請將木門放置在先前規劃的其中一個牆壁位置上。</BuildRoomDoor.rejectInputMessage>
+	<BuildRoomDoor.onMapInstruction>將木門建造在\n房間牆壁位置上</BuildRoomDoor.onMapInstruction>
+	
+	<BuildBeds.text>你的居民馬上會著手建造房間！\n\n現在，他們需要一個睡覺的地方，在房間中放置三張床。\n\n在建築選單的「家具」中找到床的建造項目。</BuildBeds.text>
+	<BuildBeds.rejectInputMessage>請將床放置在房間內。</BuildBeds.rejectInputMessage>
+	<BuildBeds.onMapInstruction>將床建造在房間內</BuildBeds.onMapInstruction>
+	
+	<BuildTorchLamp.text>你的房間還需要一點照明，否則居民們在黑暗中會感到不悅。\n\n在房間中建造火把。</BuildTorchLamp.text>
+	<BuildTorchLamp.rejectInputMessage>請將火把放置在房間內。</BuildTorchLamp.rejectInputMessage>
+	<BuildTorchLamp.onMapInstruction>將火把建造在房間內</BuildTorchLamp.onMapInstruction>
+	
+	<BuildAnimalSleepingSpot.text>你的寵物也需要地方睡覺。在房間裡放置一個動物睡眠點。\n\n睡眠點並非真正的建築或設施，單純只是個功能性的標記。</BuildAnimalSleepingSpot.text>
+	<BuildAnimalSleepingSpot.rejectInputMessage>請將動物睡眠點放置在房間內。</BuildAnimalSleepingSpot.rejectInputMessage>
+	<BuildAnimalSleepingSpot.onMapInstruction>將動物睡眠點放置在房間內</BuildAnimalSleepingSpot.onMapInstruction>
+	
+	<BuildHorseshoesPin.text>你的居民需要一些娛樂方式，否則他們會整天悶悶不樂。\n\n在房間外建造一個馬蹄鐵棒。</BuildHorseshoesPin.text>
+	<BuildHorseshoesPin.rejectInputMessage>請在室外靠牆處建造馬蹄鐵棒。</BuildHorseshoesPin.rejectInputMessage>
+	<BuildHorseshoesPin.onMapInstruction>將馬蹄鐵棒建造在房間外</BuildHorseshoesPin.onMapInstruction>
+	
+	<MakeGrowingZone.text>你的房間建造完成了！\n\n你的居民還需要東西吃。依據提示在地圖上劃設一片種植區。\n\n居民們將在這個區域內種植作物。</MakeGrowingZone.text>
+	<MakeGrowingZone.rejectInputMessage>請將種植區劃設在提示區域內。</MakeGrowingZone.rejectInputMessage>
+	<MakeGrowingZone.onMapInstruction>在此劃設種植區。\n(由一角拖曳至對角)</MakeGrowingZone.onMapInstruction>
+	
+	<SetToGrowRice.text>你可以決定種植區該種何種作物。\n\n1. 點一下右鍵退出建築清單。\n2. 點一下以選取你的種植區。\n3. 點擊位於底部的「選擇作物」將作物調整為稻米。</SetToGrowRice.text>
+	<SetToGrowRice.rejectInputMessage>請將種植區作物更改為稻米。</SetToGrowRice.rejectInputMessage>
+	<SetToGrowRice.onMapInstruction>選擇這個種植區來更換作物</SetToGrowRice.onMapInstruction>
+	
+	<EquipWeapons.text>讓你的居民裝備上降落時帶來的武器：\n\n1. 左鍵點選一名居民。\n2. 右鍵點擊你想讓居民裝備的武器。\n3. 選擇「裝備武器」。\n\n重複此步驟替所有居民裝備上武器。</EquipWeapons.text>
+	<EquipWeapons.rejectInputMessage>請讓你的居民裝備上武器。</EquipWeapons.rejectInputMessage>
+	<EquipWeapons.onMapInstruction>裝備此武器</EquipWeapons.onMapInstruction>
+	
+	<BuildFueledStove.text>做得漂亮！\n現在你需要一個爐灶來烹煮料理。\n\n在房間內建造一座爐灶。</BuildFueledStove.text>
+	<BuildFueledStove.rejectInputMessage>請將爐灶建造在稍早建造的房間內。</BuildFueledStove.rejectInputMessage>
+	<BuildFueledStove.onMapInstruction>將爐灶建造在房間內</BuildFueledStove.onMapInstruction>
+	
+	<AddBillSimpleMeal.text>居民們需要知道要烹煮何種料理。\n\n工作(烹調)指令會直接加在工作設備(爐灶)上，指令下達後，居民便會自動進行工作。\n\n1. 等待爐灶建造完成。\n2. 點選爐灶。\n3. 點選「工作」以開啟工作指令面板。\n4. 點擊「新增工作」。\n5. 在面板中選擇「烹調簡單料理」。\n6. 點擊「+」按鈕將訂單數量增加至10。\n\n記住，當工作正在進行時，你可以加快遊戲速度以減少等待時間。\n\n你還能夠選擇一名居民，再右鍵點擊未完成的工作來強制進行某項工作。</AddBillSimpleMeal.text>
+	<AddBillSimpleMeal.rejectInputMessage>請在爐灶添加新的工作。</AddBillSimpleMeal.rejectInputMessage>
+	<AddBillSimpleMeal.onMapInstruction>選擇此爐灶</AddBillSimpleMeal.onMapInstruction>
+	
+	<MineSteel.text>現在你的居民會自動烹煮料理了，好香阿！\n\n接下來，你可能會想試著開採一些礦物，我已經在你的家園附近生成幾個可以開採的鐵礦，\n\n使用「開採」工具拖曳過以標記你要開採的鐵礦。</MineSteel.text>
+	<MineSteel.rejectInputMessage>使用「開採」工具標記要開採的鐵礦。</MineSteel.rejectInputMessage>
+	<MineSteel.onMapInstruction>標記這些鐵礦</MineSteel.onMapInstruction>
+	
+	<ChopTrees.text>如果你想砍些木頭用，指定一些要砍伐的樹木。\n\n使用「砍伐」工具指定10顆樹木。\n\n(小技巧：你可以一次劃過大範圍來指定多棵樹木。)</ChopTrees.text>
+	<ChopTrees.rejectInputMessage>請使用「砍伐」工具指定10顆樹木。</ChopTrees.rejectInputMessage>
+	
+	<OpenMainTabWork.text>你可以指定居民該做哪些工作。\n\n開啟畫面底部的「工作」面板。</OpenMainTabWork.text>
+	<OpenMainTabWork.rejectInputMessage>請開啟「工作」面板。</OpenMainTabWork.rejectInputMessage>
+	
+	<ChangeWorkSettings.text>你可以在「工作」面板控制個別殖民者應該那些工作。居民只會做他們分配到的工作，優先度由左向右遞減。\n\n請嘗試調整一些設定。\n\n請留意，即使優先度設定會讓工作效率低落，居民的工作順序絕對會遵照優先度先後進行，因此，建立一套高效的工作設定是順利遊戲的一大關鍵。請細心設定工作優先度，並且經常根據當下狀況進行調整。</ChangeWorkSettings.text>
+	<ChangeWorkSettings.rejectInputMessage>請開啟「工作」面板並嘗試調整一些設定。</ChangeWorkSettings.rejectInputMessage>
+	
+	
+	
+	<BuildSimpleResearchBench.text>要使殖民地進步，你需要一張研究桌以開發新科技。\n\n在你的房間裡建造一張木製研究桌。</BuildSimpleResearchBench.text>
+	<BuildSimpleResearchBench.rejectInputMessage>請將研究桌建造在稍早建造的房間內。</BuildSimpleResearchBench.rejectInputMessage>
+	<BuildSimpleResearchBench.onMapInstruction>將爐灶建築在房間內</BuildSimpleResearchBench.onMapInstruction>
+	
+	<OpenMainTabResearch.text>做得漂亮！接下來要選擇要研究的科技。\n\n開啟「研究」面板。</OpenMainTabResearch.text>
+	<OpenMainTabResearch.rejectInputMessage>請開啟「研究」面板。</OpenMainTabResearch.rejectInputMessage>
+	
+	<SelectResearchProject.text>選擇一項你想研究的科技。\n\n你可能得等待研究桌完工。\n\n如果建造研究桌的進度緩慢或停滯，使用工作面板將建造工作分配給更多人。</SelectResearchProject.text>
+	<SelectResearchProject.rejectInputMessage>選擇一個研究項目</SelectResearchProject.rejectInputMessage>
+	
+	<ExpandAreaHome.text>接下來，你將學到如何擴張生活區。\n\n居民只會打掃生活區內的垃圾、撲滅生活區內的火，並無視生活區外的髒污與火災。\n\n生活區會自動劃設在新的建築或設施周邊，但你也可以手動劃設。\n\n使用「劃設生活區」工具在地圖上劃設新的生活區。</ExpandAreaHome.text>
+	<ExpandAreaHome.rejectInputMessage>請劃設一小塊的生活區，僅做為練習目的。</ExpandAreaHome.rejectInputMessage>
+	
+	<ExpandAreaBuildRoof.text>屋頂區定義了你的居民會架設屋頂的區域。\n\n屋頂區會在新房間落成同時自動添加。\n\n使用「劃設屋頂區」工具替你的房間門外添上一道屋簷。</ExpandAreaBuildRoof.text>
+	<ExpandAreaBuildRoof.rejectInputMessage>請劃設一小塊的屋頂區，僅做為練習目的。</ExpandAreaBuildRoof.rejectInputMessage>
+	
+	<BuildSandbags.text>太棒了！你的殖民地已經步上軌道了。很快的將會有海盜襲來，是時候做些準備了。\n\n使用「沙包」工具於提示位置建造沙包。</BuildSandbags.text>
+	<BuildSandbags.rejectInputMessage>請等待沙包完工。</BuildSandbags.rejectInputMessage>
+	<BuildSandbags.onMapInstruction>將沙包建造在此</BuildSandbags.onMapInstruction>
+	
+	<FinishSandbags.text>讓我們稍等直到建造完成。\n\n你可以用工作面板將建造工作分配給更多居民。\n\n別忘了可以加快遊戲速度縮短等待時間。\n\n當一切建造工作完成，我會送出一名襲擊者來測試你的防衛。</FinishSandbags.text>
+	<FinishSandbags.rejectInputMessage>請等待居民建成沙包</FinishSandbags.rejectInputMessage>
+	
+	<DownRaider.text>我已經向你的殖民地發派出了一名襲擊者。\n\n1. 按下{Key:TogglePause}暫停時間。\n2. 閱讀畫面右下角的紅色信封通知。\n3. 選取你的殖民者後，點擊「徵召」按鈕徵召他們。\n4. 右鍵點擊將居民派遣至沙包陣地，緊鄰沙包的位置。\n5. 解除暫停。\n\n居民必須緊臨掩體才能獲得掩護效果。當居民們就位，等待襲擊者到達。居民們會自動開火攻擊。</DownRaider.text>
+	<DownRaider.onMapInstruction>+將居民派遣至此\n緊鄰沙包</DownRaider.onMapInstruction>
+	
+	<UndraftAll.text>成功了！再次按下徵召按鈕解除居民們的徵召狀態。\n\n這能讓他們返回平時的工作崗位。</UndraftAll.text>
+	
+	<ChooseStoryteller.text>遊戲教學已到了尾聲！\n\n遊戲中還有數不清的細節需要學習，關於俘虜、狩獵、交易、馴服動物等等...，但你已經有了一定的基礎。\n\n隨機事件在教學中已被停用，若要開始正式的遊戲：\n\n1. 點擊畫面右下角的「選單」。\n2. 點擊「選項」。\n3. 點擊「選擇故事敘述者」。\n4. 選擇適合你的故事敘述者擊遊戲難度。\n\n祝你好運！更重要的是，玩得開心！</ChooseStoryteller.text>
+	<ChooseStoryteller.rejectInputMessage>請選擇故事敘述者以切換至正常遊戲並結束遊戲教學。</ChooseStoryteller.rejectInputMessage>
+	
+	</LanguageData>

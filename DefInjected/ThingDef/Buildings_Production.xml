@@ -4,7 +4,7 @@
   <CraftingSpot.label>手工工作區</CraftingSpot.label>
   <CraftingSpot.description>一個製造簡單刀具或弓箭的地方。</CraftingSpot.description>
   
-  <!-- Work tables -->
+  <!-- ========================= Work tables ==========================-->
   
   <TableSculpting.label>雕刻桌</TableSculpting.label>
   <TableSculpting.description>專門進行雕刻工作的桌子。</TableSculpting.description>
@@ -39,13 +39,16 @@
   <Brewery.label>釀酒器</Brewery.label>
   <Brewery.description>一組具備所有釀酒所需工具的工作台。</Brewery.description>
   
+  <DrugLab.label>藥物合成台</DrugLab.label>
+  <DrugLab.description>一張配備有各種容器、加熱器及測量設備的工作台，專門用來製作藥物。</DrugLab.description>
+
   <ElectricSmelter.label>金屬提煉器</ElectricSmelter.label>
   <ElectricSmelter.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</ElectricSmelter.description>
 
   <ComponentAssemblyBench.label>電子零件生產台</ComponentAssemblyBench.label>
   <ComponentAssemblyBench.description>配有各種先進設備的工作台，用簡單的原料生產各種零件。</ComponentAssemblyBench.description>
 
-  <!-- Non-standard work buildings -->
+  <!-- ========== Non-standard work buildings ==============-->
   
   <SimpleResearchBench.label>研究桌</SimpleResearchBench.label>
   <SimpleResearchBench.description>一張備有書寫工具及簡單研究設備的桌子，研究人員在這裡發掘新事物。</SimpleResearchBench.description>
@@ -59,12 +62,20 @@
   <HydroponicsBasin.label>水培植物盆</HydroponicsBasin.label>
   <HydroponicsBasin.description>用來種植作物，水培植物盆能讓植物快速生長。</HydroponicsBasin.description>
   
-  <!-- ========== Nutrient dispenser ==============-->
+  <FermentingBarrel.label>釀酒桶</FermentingBarrel.label>
+  <FermentingBarrel.description>用來將麥汁發酵成啤酒的巨大容器。</FermentingBarrel.description>
+  
+  <DeepDrill.label>採掘機</DeepDrill.label>
+  <DeepDrill.description>鑽開地表至地下礦脈採掘礦物的機器。需要先用礦脈雷達找出礦脈位置。</DeepDrill.description>
+
+  <!--======================== Nutrient dispenser ==============================-->
   
   <NutrientPasteDispenser.label>營養膏合成機</NutrientPasteDispenser.label>
   <NutrientPasteDispenser.description>將有機材料合成為營養膏。</NutrientPasteDispenser.description>
   
   <Hopper.label>儲料槽</Hopper.label>
   <Hopper.description>為營養膏合成機這樣的大型機器儲存原料。</Hopper.description>
+  
+  
   
 </LanguageData>

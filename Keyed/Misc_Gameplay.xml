@@ -6,11 +6,11 @@
   <Contents>內容</Contents>
   <ContainedResources>包含資源</ContainedResources>
   <ForPrisonerUse>僅限俘虜使用</ForPrisonerUse>
-  <ForColonistUse>僅限殖民者使用</ForColonistUse>
+  <ForColonistUse>僅限居民使用</ForColonistUse>
   <MedicalBed>醫療</MedicalBed>
   <Owner>擁有者</Owner>
   <Owners>擁有者</Owners>
-  <AssignedColonist>登錄的殖民者</AssignedColonist>
+  <AssignedColonist>登錄的居民</AssignedColonist>
   <Nobody>無</Nobody>
   <Unowned>無擁有者</Unowned>
   <DeadTime>死亡的{0}</DeadTime>
@@ -25,7 +25,7 @@
   <UntreatedLower>尚未治療</UntreatedLower>
   <DevelopedImmunityLower>已形成免疫力</DevelopedImmunityLower>
   <InjuryRequiresTreatment>需要治療以復原</InjuryRequiresTreatment>
-  <NextTreatmentIn>下一次治療將在{0}天後</NextTreatmentIn>
+  <NextTreatmentIn>下一次治療將在{0}後</NextTreatmentIn>
   <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
   <Immunity>免疫力形成度</Immunity>
   <Race>物種</Race>
@@ -36,7 +36,7 @@
   <ThingInfo>訊息</ThingInfo>
   <DropThing>卸下</DropThing>
   <Rename>重新命名</Rename>
-  <RenameColonist>重新命名殖民者</RenameColonist>
+  <RenameColonist>重新命名居民</RenameColonist>
   <UnknownLower>未知</UnknownLower>
   <On>開啟</On>
   <Off>關閉</Off>
@@ -58,7 +58,18 @@
   <TimePassed>經過時間</TimePassed>
   <CurrentRadius>當前半徑</CurrentRadius>
   <RadiusExpandsIn>擴展半徑</RadiusExpandsIn>
-  <Permanent>永久</Permanent>
+  <Permanent>傷疤</Permanent>
+  <Temperature>溫度</Temperature>
+  <BadTemperature>不合適的溫度</BadTemperature>
+  <IdealFermentingTemperature>理想的釀造溫度</IdealFermentingTemperature>
+  <DrugEffectMultiplier>效果倍率：{0}</DrugEffectMultiplier>
+  
+  <!-- Fermentation barrel -->
+  <ContainsWort>含有{0}/{1}麥芽。</ContainsWort>
+  <ContainsBeer>含有{0}/{1}啤酒。</ContainsBeer>
+  <Fermented>釀造完成</Fermented>
+  <FermentationProgress>釀造進度：{0}(預計將於{1}後釀造完成)。</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>不在理想的釀造溫度內，目前的釀造速度為{0}倍</FermentationBarrelOutOfIdealTemperature>
   
   <!--TextMotes-->
   <Headshot>命中頭部</Headshot>
@@ -127,18 +138,19 @@
   
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>參加婚禮。</LordReportAttendingMarriageCeremony>
-  <LordReportAttendingParty>享受派對。</LordReportAttendingParty>
+  <LordReportAttendingParty>參加派對</LordReportAttendingParty>
 
   <!-- Shooting report -->
   <WeaponMissRadius>彈著點偏移半徑</WeaponMissRadius>
-	<ShootReportSkill>技能</ShootReportSkill>
+
+	<ShootReportShooterAbility>Shooter</ShootReportShooterAbility>
 	<ShootReportWeapon>武器</ShootReportWeapon>
 	<Darkness>黑暗</Darkness>
 	<TargetProne>目標動作</TargetProne>
 	<TargetSize>目標大小</TargetSize>
 	<Weather>天氣</Weather>
 	<ShootingCover>掩體</ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0}阻止了{1}</CoverThingBlocksPercentOfShots>
+	<CoverThingBlocksPercentOfShots>{0}阻擋了{1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>無掩體</NoCoverLower>
   <Execution>處決</Execution>
   
@@ -249,21 +261,23 @@
   <Undiscovered>未探索</Undiscovered>
   
   <!-- Buttons -->
+  <ShowLearningHelperWhenEmptyToggleButton>Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>切換顯示美觀度。\n\n顯示滑鼠游標處的環境美觀度。</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>切換顯示房間屬性值。\n\n顯示滑鼠游標處的房間屬性值。</ShowRoomStatsToggleButton>
-  <ShowColonistBarToggleButton>切換顯示或隱藏殖民者快捷列。\n\n殖民者快捷列會將所有殖民者的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>切換顯示或隱藏居民快捷列。\n\n居民快捷列會將所有居民的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>切換資源清單的顯示方式。</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>切換顯示馴養動物的名稱。</ShowAnimalNamesToggleButton>
-  
+  <ShowRoofOverlayToggleButton>切換顯示屋頂區域。</ShowRoofOverlayToggleButton>
+
   <!-- Fire -->
   <Fire>火焰</Fire>
   <FireOn>{0}上的火焰</FireOn>
   <Burning>燃燒中</Burning>
   <FireSizeLower>火焰大小：{0}</FireSizeLower>
   
-  <!-- Map conditions (eclipse, solar flare, etc )-->
+  <!-- Map conditions -->
   <MapConditionsTip>正在影響區域的特殊情况。</MapConditionsTip>
   <TimeLeft>剩餘時間</TimeLeft>
   <ImpactDate>影響發生日</ImpactDate>
@@ -286,7 +300,7 @@
 
   <!-- Cryptosleep casket -->
   <CasketContains>內容</CasketContains>
-  <CasketWarning>警告！\n\nNAME是你最後一名還能活動的殖民者！如果你讓HIM進入休眠，你可能無法進續進行遊戲。你確定要執行這項指令嗎？</CasketWarning>
+  <CasketWarning>警告！\n\nNAME是你最後一名還能活動的居民！如果你讓HIM進入休眠，你可能無法進續進行遊戲。你確定要執行這項指令嗎？</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>無法發射。</ShipReportCannotLaunch>
@@ -325,7 +339,7 @@
   
   <!-- Game over -->
   <GameOverEveryoneDead>所有人不是死亡就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>
-  <GameOverShipLaunched>你啟動了星艦！以下殖民者離開了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n現在你的AI會試圖將星艦帶到一個安全的地方去。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待一個更美好的紀元到來。\n\n一切只有在你醒來後才會知道。</GameOverShipLaunched>
+  <GameOverShipLaunched>你啟動了星艦！以下居民離開了:\n\n{0}\n以下居民被留下了:\n\n{1}\n現在你的AI會試圖將星艦帶到一個安全的地方去。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待一個更美好的紀元到來。\n\n一切只有在你醒來後才會知道。</GameOverShipLaunched>
   <GameOverPlanetkillerImpact>一顆行星殺手以接近光速的高速撞擊這顆星球，引發了威力相當於數萬億顆氫彈的毀滅性爆炸，整顆星球就像被子彈貫穿的水球，在衝擊下液化，其核心物質噴發至宇宙中。\n\n一部分的{0}形成一個小行星帶，剩下的星體則成為滿佈熔岩而且強震環伺的輻射地獄。\n\n你未能生還。</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
   <GameOverMainMenu>主畫面</GameOverMainMenu>
@@ -345,7 +359,6 @@
   <DiseaseGrowthModeChanged_Growing>{0}的{1}正在惡化。</DiseaseGrowthModeChanged_Growing>
   <DiseaseGrowthModeChanged_Stable>{0}的{1}已經穩定下來。</DiseaseGrowthModeChanged_Stable>
   <DiseaseGrowthModeChanged_Remission>{0}的{1}正在逐漸痊癒。</DiseaseGrowthModeChanged_Remission>
-
   
   <!-- Marriage spot -->
   <MarriageSpotUsable>現可使用。</MarriageSpotUsable>
@@ -369,5 +382,15 @@
   <!-- Maintainable -->
   <DueForMaintenance>需要維護。</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>因缺乏維護而劣化。</DeterioratingDueToLackOfMaintenance>
+  
+  <!-- Deep drill -->
+  <ProgressToNextLump>繼續開採</ProgressToNextLump>
+  <ResourceBelow>蘊含的資源</ResourceBelow>
+  
+  <!-- Learning helper -->
+  <LearningHelper>教學幫手</LearningHelper>
+  <MarkLearned>標記為已學習</MarkLearned>
+  <AlreadyLearned>已學習</AlreadyLearned>
+  <Filter>篩選</Filter>
   
 </LanguageData>

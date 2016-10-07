@@ -39,9 +39,9 @@
   <AnimalsSkillTooLow>動物相關技能過低</AnimalsSkillTooLow>
   <NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
   <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
-
+  <NoWort>麥芽不足</NoWort>
+  
   <ConsumeThing>食用{0}</ConsumeThing>
-  <Teetotaler>滴酒不沾</Teetotaler>
   
   <CannotGoNoPath>無法走到目的地(沒有路徑)</CannotGoNoPath>
   <GoHere>移動到這裡</GoHere>
@@ -61,7 +61,7 @@
 
   <NoCryptosleepCasket>沒有閒置的冷凍休眠艙。</NoCryptosleepCasket>
   <NoPrisonerBed>沒有在封閉房間中的俘虜床。</NoPrisonerBed>
-  <NoNonPrisonerBed>沒有可用的殖民者床。</NoNonPrisonerBed>
+  <NoNonPrisonerBed>沒有可用的居民床。</NoNonPrisonerBed>
   <NoAnimalBed>沒有可用的動物床。</NoAnimalBed>
   <Reserved>已經被預留給其他人了。</Reserved>
   <ReservedBy>預留給了{0}。</ReservedBy>
@@ -89,6 +89,7 @@
   <SelfDestructHere>在此自我毀滅</SelfDestructHere>
 
   <Drop>卸下{0}</Drop>
+  
   <UseMedicalBed>休養直到痊癒</UseMedicalBed>
   <NotInjured>健康</NotInjured>
   <SomeoneElseSleeping>有其他人正在休養</SomeoneElseSleeping>
@@ -108,11 +109,13 @@
   
   <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>無法優先進行當前任務({0}不是{1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeWorkTypeDisabled>無法優先進行當前任務(永遠不會進行{0})</CannotPrioritizeWorkTypeDisabled>
+  
+  <CannotPrioritizeNotAssignedToWorkType>無法優先進行當前任務(並未指派為{0})</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch>無法優先進行當前任務(研究是一項長時間的工作)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>無法優先進行當前任務({0}是禁止的)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>無法優先進行當前任務({0}是禁止互動的)</CannotPrioritizeForbidden>
   <CannotPrioritizeForbiddenOutsideAllowedArea>無法優先進行當前任務({0}在允許的活動範圍外)</CannotPrioritizeForbiddenOutsideAllowedArea>
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->

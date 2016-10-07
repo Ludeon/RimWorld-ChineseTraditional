@@ -42,7 +42,7 @@
   <StruckMineable>我們開採到了{0}！</StruckMineable>
 
   <LetterLabelAnimalManhunterFromDamage>{0}反擊</LetterLabelAnimalManhunterFromDamage>
-  <AnimalManhunterFromDamage>一隻{0}在受到傷害後開始向殖民者反擊！</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>一隻{0}在受到傷害後開始向居民反擊！</AnimalManhunterFromDamage>
   <AnimalManhunterFromTaming>因為你嘗試馴服牠，一隻{0}開始攻擊你！</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>周圍的{0}也跟著發怒了！</AnimalManhunterOthers>
 
@@ -63,13 +63,13 @@
   
   <!-- Related pawns -->
   <LetterLabelNoticedRelatedPawns>親友</LetterLabelNoticedRelatedPawns>
-  <LetterRelatedPawnsRaidEnemy>有殖民者或俘虜的親友隨{0}抵達了這裡\n\n請謹記，即使他們之間有關係，仍然會因為所屬勢力敵對而攻擊對方。\n\n到來的親友為：</LetterRelatedPawnsRaidEnemy>
-  <LetterRelatedPawnsRaidFriendly>有殖民者或俘虜的親友隨{0}抵達了這裡：</LetterRelatedPawnsRaidFriendly>
-  <LetterRelatedPawnsNeutralGroup>有殖民者或俘虜的親友抵達了這裡：</LetterRelatedPawnsNeutralGroup>
-  <LetterRelatedPawnsTradeShip>宇宙商船販賣的奴隸中有殖民者或俘虜的親友：</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsRaidEnemy>有居民或俘虜的親友隨{0}抵達了這裡\n\n請謹記，即使他們之間有關係，仍然會因為所屬勢力敵對而攻擊對方。\n\n到來的親友為：</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>有居民或俘虜的親友隨{0}抵達了這裡：</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>有居民或俘虜的親友抵達了這裡：</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>宇宙商船販賣的奴隸中有居民或俘虜的親友：</LetterRelatedPawnsTradeShip>
 
   <RelationshipAppendedLetterSuffix>(親友)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME是一名殖民者的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>NAME是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>NAME是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
@@ -81,21 +81,21 @@
   <LetterLabelBreakup>分手</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>求婚成功！</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>求婚被拒</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1}答應了{0}的求婚。\n\n在未來幾天或幾季的某個時候，他們將舉行結婚典禮，並邀請所有殖民的成員參加典禮。如果你想，可以設置一個結婚點指定典禮進行的地點。</LetterAcceptedProposal>
+  <LetterAcceptedProposal>{1}答應了{0}的求婚。\n\n在未來幾天或幾季的某個時候，他們將舉行結婚典禮，並邀請所有居民參加典禮。如果你想，可以設置一個結婚點指定典禮進行的地點。</LetterAcceptedProposal>
   <LetterRejectedProposal>{1}拒絕了{0}的求婚。{0}對此感到難以釋懷。</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
   <LetterLabelRelationsChangeGood>好消息</LetterLabelRelationsChangeGood>
   <LetterLabelRelationsChangeBad>壞消息</LetterLabelRelationsChangeBad>
-  <LetterLabelShortCircuit>滋滋滋...</LetterLabelShortCircuit>
+  <LetterLabelShortCircuit>電纜爆炸</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>精神崩潰</LetterLabelMentalBreakdown>
   
   <!-- Bonded animals -->
   <LetterLabelBondedAnimalDied>動物夥伴死亡</LetterLabelBondedAnimalDied>
   <LetterBondedAnimalDied>{0}，{1}的夥伴死亡了，這將會影響{1}的心情。</LetterBondedAnimalDied>
   <LetterNamedBondedAnimalDied>{0}{1}，{2}的夥伴死亡了，這將會影響{1}的心情。</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>{0}死亡了，這將會影響以下人員的心情：\n\n{1}</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>{0}{1}死亡了，這將會影響以下人員的心情：\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+  <LetterBondedAnimalDiedMulti>{0}死亡了，這將會影響以下居民的心情：\n\n{1}</LetterBondedAnimalDiedMulti>
+  <LetterNamedBondedAnimalDiedMulti>{0}{1}死亡了，這將會影響以下居民的心情：\n\n{2}</LetterNamedBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <LetterLabelPrisonBreak>越獄</LetterLabelPrisonBreak>
@@ -104,5 +104,13 @@
   <!-- Party -->
   <LetterLabelNewParty>派對</LetterLabelNewParty>
   <LetterNewParty>{0}正在舉辦派對！任何參加派對的人都可以獲得娛樂和社交分數，以及持久的正向心情加分。</LetterNewParty>
+  
+  <!-- Newly addicted -->
+  <LetterLabelNewlyAddicted>{0}成癮</LetterLabelNewlyAddicted>
+  <LetterNewlyAddicted>{0}已對{1}成癮\n\nHECAP現在有使用{1}的需求，可以在HIS需求面板查看。HECAP會自動使用藥物以滿足需求，倘若需求在一段時間內無法滿足便會產生戒斷反應。</LetterNewlyAddicted>
+  
+  <!-- Drug binge -->
+  <LetterLabelDrugBinge>{0}濫用</LetterLabelDrugBinge>
+  <LetterDrugBinge>{0}正在狂嗑{1}。</LetterDrugBinge>
   
 </LanguageData>

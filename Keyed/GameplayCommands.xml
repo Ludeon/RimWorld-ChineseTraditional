@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <CommandForbiddenDesc>已禁止——殖民者不會和這個物件互動。</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>未禁止-殖民者會和這個物件互動。</CommandNotForbiddenDesc>
+  <CommandForbiddenDesc>已禁止——居民不會和這個物件互動。</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>未禁止——居民會和這個物件互動。</CommandNotForbiddenDesc>
   
   <!-- Power -->
-  
   <CommandTogglePowerLabel>開關電源</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>開關電源。</CommandTogglePowerDesc>
   
   <CommandDesignateTogglePowerLabel>指定開/關電源</CommandDesignateTogglePowerLabel>
-  <CommandDesignateTogglePowerDesc>指定開/關這項物件的電源。一名殖民者將會前往操作。</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>指定開/關這項物件的電源。一名居民將會前往操作。</CommandDesignateTogglePowerDesc>
   
   <CommandTryReconnectLabel>重新連接</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>嘗試連接至附近另一個電網。在目前連接的電網沒有電但附近有另一個電網時很有用。</CommandTryReconnectDesc>
   
   <CommandGatherSpotToggleLabel>聚集點</CommandGatherSpotToggleLabel>
-  <CommandGatherSpotToggleDescActive>開啟——殖民者們會在這個物件附近聚集。</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>關閉——殖民者們不會在這個物件附近聚集。</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescActive>開啟——居民們會在這個物件附近聚集。</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>關閉——居民們不會在這個物件附近聚集。</CommandGatherSpotToggleDescInactive>
+  
   
   <!-- Drafting -->
   <CommandDraftLabel>徵召</CommandDraftLabel>
@@ -26,7 +26,7 @@
   <IsIncapped>{0}無法動彈。</IsIncapped>
   
   <CommandClearPrioritizedWork>取消優先工作</CommandClearPrioritizedWork>
-  <CommandClearPrioritizedWorkDesc>取消目前優先進行的工作，讓殖民者回歸正常工作。</CommandClearPrioritizedWorkDesc>
+  <CommandClearPrioritizedWorkDesc>取消目前優先進行的工作，讓居民回歸正常工作。</CommandClearPrioritizedWorkDesc>
   
   <CommandCancelConstructionLabel>取消</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>取消建造命令。</CommandCancelConstructionDesc>
@@ -35,9 +35,9 @@
   <CommandGetOutOfBedDesc>離床。</CommandGetOutOfBedDesc>
   
   <CommandBedSetOwnerLabel>自訂擁有者</CommandBedSetOwnerLabel>
-  <CommandBedSetOwnerDesc>分派此床位給特定的殖民者。</CommandBedSetOwnerDesc>
-  <CommandGraveAssignColonistLabel>登錄殖民者</CommandGraveAssignColonistLabel>
-  <CommandGraveAssignColonistDesc>將此墓位分配給特定的殖民者。</CommandGraveAssignColonistDesc>
+  <CommandBedSetOwnerDesc>分派此床位給特定的居民。</CommandBedSetOwnerDesc>
+  <CommandGraveAssignColonistLabel>登錄居民</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistDesc>將此墓位分配給特定的居民。</CommandGraveAssignColonistDesc>
   <BuildingAssign>登錄</BuildingAssign>
   <BuildingUnassign>取消登錄</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>設為俘虜專用</CommandBedSetForPrisonersLabel>
@@ -45,8 +45,8 @@
   <CommandBedSetForPrisonersFailOutdoors>無法將室外的床設為俘虜專用。</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetAsMedicalLabel>設為病床</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>將這個床設為病床。</CommandBedSetAsMedicalDesc>
-  <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(俘虜和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權：</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(俘虜和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權：</TurningOffPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(俘虜和居民不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權：</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(俘虜和居民不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權：</TurningOffPrisonerBedWarning>
   <AreYouSure>你確定要這麼做嗎？</AreYouSure>
   
   <CommandDetonateLabel>爆破</CommandDetonateLabel>
@@ -69,7 +69,7 @@
   <CommandPasteZoneSettingsDesc>套用設定值至此區域。</CommandPasteZoneSettingsDesc>
 
   <CommandAllowSow>允許播種</CommandAllowSow>
-  <CommandAllowSowDesc>當此選項設為不允許時，殖民者將不會在此區域種植任何植物，但他們仍可以採收植物。</CommandAllowSowDesc>
+  <CommandAllowSowDesc>當此選項設為不允許時，居民將不會在此區域種植任何植物，但他們仍可以採收植物。</CommandAllowSowDesc>
   
   <!-- Artillery -->
   <CommandSetForceAttackTarget>強制設定目標</CommandSetForceAttackTarget>
@@ -93,9 +93,9 @@
 
   <!-- Door -->
   <CommandToggleDoorForbid>切換門鎖</CommandToggleDoorForbid>
-  <CommandToggleDoorForbidDesc>鎖上或解鎖此門。鎖上的門將不會對殖民者或訪客開啟，但這並不會影響敵人與動物與門的互動。</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>鎖上或解鎖此門。鎖上的門將不會對居民或訪客開啟，但這並不會影響敵人與動物與門的互動。</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>保持敞開</CommandToggleDoorHoldOpen>
-  <CommandToggleDoorHoldOpenDesc>當開啟此功能時，下一名通過的殖民者將不會關上這扇門。</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>當開啟此功能時，下一名通過的居民將不會關上這扇門。</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <CommandResetTemp>重置</CommandResetTemp>
@@ -119,7 +119,7 @@
 
   <!-- Trap -->
   <CommandAutoRearm>自動重置陷阱</CommandAutoRearm>
-  <CommandAutoRearmDesc>當此功能開啟時，陷阱被觸發後，殖民者將會前來重置陷阱。</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>當此功能開啟時，陷阱被觸發後，居民將會前來重置陷阱。</CommandAutoRearmDesc>
   
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>放出動物</CommandReleaseAnimalsLabel>
@@ -127,7 +127,7 @@
   
   <!-- Squad attack -->
   <CommandSquadAttack>攻擊</CommandSquadAttack>
-  <CommandSquadAttackDesc>命令當前選擇的所有殖民者攻擊指定目標。</CommandSquadAttackDesc>
+  <CommandSquadAttackDesc>命令當前選擇的所有居民攻擊指定目標。</CommandSquadAttackDesc>
 
   <!-- Hold fire -->
   <CommandHoldFire>停火</CommandHoldFire>
@@ -137,6 +137,10 @@
   <CommandSelectPlantToGrowMulti>選擇種植的植物</CommandSelectPlantToGrowMulti>
   <CommandSelectPlantToGrow>種植：{0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>選擇要在此種植的植物。</CommandSelectPlantToGrowDesc>
+  
+  <!-- Build copy -->
+  <CommandBuildCopy>複製建築</CommandBuildCopy>
+  <CommandBuildCopyDesc>複製當前的建築與設施。</CommandBuildCopyDesc>
   
   
 </LanguageData>

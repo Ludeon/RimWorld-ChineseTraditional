@@ -1,37 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-	<ClickToJumpToProblem>點擊此處跳轉至問題點</ClickToJumpToProblem>
-   
-   
-   
-  <NeedSawmill>需要鋸木機</NeedSawmill>
-  <NeedSawmillDesc>你需要鋸木機才能把原木鋸成實用的木板。\n\n建造一個手工鋸木機或電動鋸木機。</NeedSawmillDesc>
+	<ClickToJumpToProblem>點此跳轉至事件點</ClickToJumpToProblem>
   
-  <PoorMood>心情低落</PoorMood>
-  <PoorMoodDesc>這名殖民者正處於低落的情緒之中，並隨時有可能出現輕微的情緒發洩：\n\n{0}</PoorMoodDesc>
-  <TerribleMood>瀕臨崩潰</TerribleMood>
-  <TerribleMoodDesc>這名殖民者的情緒已經瀕臨崩潰，隨時有可能出現激進的行為，甚至有潛在的暴力危機：\n\n{0}</TerribleMoodDesc>
-  <LowMoodDescEnding>確認這名殖民的心情面板，看看有哪些事情正困擾著他。</LowMoodDescEnding>
+  <BreakRiskMinor>心情低落</BreakRiskMinor>
+  <BreakRiskMajor>心情鬱悶</BreakRiskMajor>
+  <BreakRiskExtreme>瀕臨崩潰</BreakRiskExtreme>
+  <BreakRiskMinorDesc>這名居民正處於低落的情緒之中，並隨時有可能出現輕微的情緒發洩：\n\n{0}</BreakRiskMinorDesc>
+  <BreakRiskMajorDesc>這名居民正處於憂鬱的情緒之中，並隨時有可能出現中等的情緒發洩：\n\n{0}</BreakRiskMajorDesc>
+  <BreakRiskExtremeDesc>這名居民的情緒已經瀕臨崩潰，隨時有可能出現激進的行為，甚至有潛在的暴力危機：\n\n{0}</BreakRiskExtremeDesc>
+  <BreakRiskDescEnding>確認這名殖民的心情面板，看看有哪些事情正困擾著他。\n\n想讓居民心情好點，你可以考慮提供更高級的餐點、設置更有趣的娛樂設施並分配更長的娛樂時間、將他們派遣至漂亮的環境、把他們灌醉或抽根菸等等。</BreakRiskDescEnding>
 
-  <ColonistNeedsRescue>有殖民者需要救援</ColonistNeedsRescue>
-  <ColonistsNeedRescue>多個殖民者需要救援</ColonistsNeedRescue>
-  <ColonistsNeedRescueDesc>這些殖民者倒在地上無法動彈：\n\n{0}\n派遣另一名殖民者去搶救他們並帶到床上。\n\n(先選擇一位殖民者，然後右鍵點擊需要救援的人並選擇「救援」。</ColonistsNeedRescueDesc>
-
-  <BuildARoom>建造一個房間</BuildARoom>
-  <BuildARoomDesc>你沒有房間。\n\n用四面牆和一扇門來建造一個房間。\n\n使用畫面底端的建造清單來指定你想要的建造位置。一旦你指定了建造工作，你的殖民者們會在可能的情況下去執行工作。</BuildARoomDesc>
+  <ColonistNeedsRescue>有居民需要救援</ColonistNeedsRescue>
+  <ColonistsNeedRescue>多個居民需要救援</ColonistsNeedRescue>
+  <ColonistsNeedRescueDesc>這些居民倒在地上無法動彈：\n\n{0}\n派遣另一名居民去搶救他們並帶到床上。\n\n(先選擇一位居民，然後右鍵點擊需要救援的人並選擇「救援」。</ColonistsNeedRescueDesc>
 
   <NeedDefenses>需要防禦工事</NeedDefenses>
-  <NeedDefensesDesc>你已經在這裡待了一段時間，可能已經被別人發現了。很快的將會有海賊來襲。\n\n你應該建立一些防禦工事，比如陷阱、沙包或機槍炮塔。</NeedDefensesDesc>
+  <NeedDefensesDesc>你已經在這裡待了一段時間，可能已經被別人發現了。很快的將會有宇宙海賊來襲。\n\n你應該建立一些防禦工事，比如陷阱、沙包或機槍炮塔。</NeedDefensesDesc>
 
   <NeedDoctor>需要醫生</NeedDoctor>
-  <NeedDoctorDesc>這些需要治療的患者在床上無法行動，但是你沒有將醫生工作分配給任何健康的人。\n\n{0}\n給一個健康的殖民者分配醫生工作。如果患者沒有被及時醫治，這些傷口可能永遠不會痊癒，或留下永久性的傷痕。</NeedDoctorDesc>
+  <NeedDoctorDesc>這些需要治療的患者在床上無法行動，但是你沒有將醫生工作分配給任何健康的人。\n\n{0}\n給一個健康的居民分配醫生工作。如果患者沒有被及時醫治，這些傷口可能永遠不會痊癒，或留下永久性的傷痕。</NeedDoctorDesc>
 
   <NeedMiner>需要礦工</NeedMiner>
-  <NeedMinerDesc>你佈置置了一些岩石開採工作，但是沒有殖民者在做採礦工作。\n\n給一個殖民者分配採礦工作。</NeedMinerDesc>
+  <NeedMinerDesc>你佈置置了一些岩石開採工作，但是沒有居民在做採礦工作。\n\n給一個居民分配採礦工作。</NeedMinerDesc>
 
   <NeedWarden>需要獄卒</NeedWarden>
-  <NeedWardenDesc>你有一名俘虜，但是沒有殖民者在做獄卒工作。\n\n給一個殖民者分配獄卒工作。</NeedWardenDesc>
+  <NeedWardenDesc>你有一名俘虜，但是沒有居民在做獄卒工作。\n\n給一個居民分配獄卒工作。</NeedWardenDesc>
 
   <LowFood>食物不足</LowFood>
   <LowFoodDesc>你所有的食物只夠再吃飽{0}頓，這個數量低的危險。\n\n種、買、找或者去打一些食物來。</LowFoodDesc>
@@ -40,61 +34,53 @@
   <LowMedicineDesc>你只剩下{0}份藥品。\n\n向商人購買一些藥品。</LowMedicineDesc>
   <NoMedicineDesc>你的藥品已經用盡。\n\n向商人購買一些藥品。</NoMedicineDesc>
 
-  <NeedColonistBeds>需要殖民者床</NeedColonistBeds>
-  <NeedColonistBedsDesc>你的殖民者人數比你擁有的床多，有人將會沒有地方睡覺。\n\n建造更多床，或者將一些俘虜床更改成殖民者床。\n\n若你沒有足夠資源可以造床，睡眠點可以提供免費且立即性的床位。</NeedColonistBedsDesc>
+  <NeedColonistBeds>需要居民床</NeedColonistBeds>
+  <NeedColonistBedsDesc>你的居民人數比你擁有的床多，有人將會沒有地方睡覺。\n\n建造更多床，或者將一些俘虜床更改成居民床。\n\n若你沒有足夠資源可以造床，睡眠點可以提供免費且立即性的床位。</NeedColonistBedsDesc>
 
   <HunterLacksWeapon>獵人需要裝備武器</HunterLacksWeapon>
-  <HunterLacksWeaponDesc>有殖民者被指派為獵人卻沒有武器，在沒有武器的情況下他們將不會進行打獵工作。\n\n為了避免受傷，我們建議替獵人裝備遠距離武器。</HunterLacksWeaponDesc>
+  <HunterLacksWeaponDesc>有居民被指派為獵人卻沒有武器，在沒有武器的情況下他們將不會進行打獵工作。\n\n為了避免受傷，我們建議替獵人裝備遠距離武器。</HunterLacksWeaponDesc>
+  
+  <AlertTatteredApparel>破損的衣物</AlertTatteredApparel>
+  <AlertTatteredApparelDesc>穿著破損的衣物會產生負面心情，以下居民正穿著破損的衣物：\n\n{0}\n給他們找些狀況好一些的衣物。\n\n你可以在裁縫桌自行生產衣物，或是向商人購買。</AlertTatteredApparelDesc>
   
   <Starvation>飢餓</Starvation>
-  <StarvationDesc>這些殖民者快餓死了：\n\n{0}\n給他們弄點食物。你需要一個食物的來源，比如一個營養膏合成機配上足夠的食物供給。另外，確保他們不在被徵召的狀態。</StarvationDesc>
+  <StarvationDesc>這些居民快餓死了：\n\n{0}\n給他們弄點食物。你需要一個食物的來源，比如一個營養膏合成機配上足夠的食物供給。另外，確保他們不在被徵召的狀態。</StarvationDesc>
 
   <StarvationAnimals>動物飢餓</StarvationAnimals>
   <StarvationAnimalsDesc>以下屬於殖民地的動物正在飢餓中：\n\n{0}\n給牠們一些食物。</StarvationAnimalsDesc>
 
   <Exhaustion>疲勞</Exhaustion>
-  <ExhaustionDesc>這些殖民者已經筋疲力盡了並且需要休息：\n\n{0}\n讓他們休息一段時間。他們需要一個供殖民者使用的床。另外，確保他們不在被徵召的狀態。</ExhaustionDesc>
+  <ExhaustionDesc>這些居民已經筋疲力盡了並且需要休息：\n\n{0}\n讓他們休息一段時間。他們需要一個供居民使用的床。另外，確保他們不在被徵召的狀態。</ExhaustionDesc>
 
   <NeedFoodHopper>需要食物儲料槽</NeedFoodHopper>
   <NeedFoodHopperDesc>你擁有一個營養膏合成機但旁邊沒有儲料槽。\n\n營養膏合成機需要一個緊鄰的並且裝有食物的儲料槽才能正常工作。\n\n建造一個緊鄰營養膏合成機的儲料槽。</NeedFoodHopperDesc>
-
-  <BuildingNeedsPower>有建築需要電力</BuildingNeedsPower>
-  <BuildingsNeedPower>多個建築需要電力</BuildingsNeedPower>
-  <BuildingsNeedPowerDesc>沒有任何電源連接著這些需要電力的建築:\n\n{0}\n將它們和一個發電機或電池連接在一起。</BuildingsNeedPowerDesc>
-  <AndMore>以及更多</AndMore>
   
   <NeedMealSource>需要料理設備</NeedMealSource>
-  <NeedMealSourceDesc>你沒有任何將食物原料加工成食品或料理的方式。\n\n建造一個爐灶、營火或營養膏合成機。\n\n(設備不能被放置於監獄房中，否則殖民者將無法使用它)</NeedMealSourceDesc>
-
-  <NeedHomeArea>需要生活區</NeedHomeArea>
-  <NeedHomeAreaDesc>你需要規劃一片生活區來制定殖民者們清理、滅火和修理建築的區域。\n\n用建築清單中，區域選項裡的生活區來規劃一片區域。</NeedHomeAreaDesc>	
+  <NeedMealSourceDesc>你沒有任何將食物原料加工成食品或料理的方式。\n\n建造一個爐灶、營火或營養膏合成機。\n\n(設備不能被放置於監獄房中，否則居民將無法使用它)</NeedMealSourceDesc>
   
-  <NeedBatteries>需要蓄電池</NeedBatteries>
-  <NeedBatteriesDesc>你只有太陽能發電板而沒有蓄電池。這表示每當入夜後你的殖民地就會停電。\n\n建造一兩個蓄電池以確保電力足夠應付夜晚。</NeedBatteriesDesc>
+  <NeedJoySource>需要娛樂設施</NeedJoySource>
+  <NeedJoySourceDesc>你的居民需要滿足娛樂需求，但你並未提供任何娛樂設施。\n\n建造一些馬蹄鐵棒、棋盤桌或其他娛樂設施。</NeedJoySourceDesc>
 
-  <NoTradingCapacity>沒有交易能力</NoTradingCapacity>
-  <NoTradingCapacityDesc>你沒有任何能和過往商船交易的能力。\n\n建造一個通訊台。</NoTradingCapacityDesc>
+  <NeedBatteries>需要蓄電池</NeedBatteries>
+  <NeedBatteriesDesc>你只有太陽能發電板而沒有蓄電池。這表示每當入夜後你的殖民地就會停電。\n\n建造一兩個蓄電池以確保電力足夠應付夜間的需求。</NeedBatteriesDesc>
 
   <BrawlerHasRangedWeapon>格鬥愛好者持有遠距離武器</BrawlerHasRangedWeapon>
-  <BrawlerHasRangedWeaponDesc>有一名殖民者具有格鬥愛好者的特性，但他正裝備著遠距離武器，這將使他非常不高興。</BrawlerHasRangedWeaponDesc>
+  <BrawlerHasRangedWeaponDesc>有一名居民具有格鬥愛好者的特性，但他正裝備著遠距離武器，這將使他非常不高興。</BrawlerHasRangedWeaponDesc>
 
   <ShieldUserHasRangedWeapon>能量護盾使用者持有遠距離武器</ShieldUserHasRangedWeapon>
-  <ShieldUserHasRangedWeaponDesc>有一名殖民者裝備了遠距離武器，除非非常貼近目標，否則他們的火力將無法穿透這面護盾，</ShieldUserHasRangedWeaponDesc>
+  <ShieldUserHasRangedWeaponDesc>有一名居民裝備了遠距離武器，除非非常貼近目標，否則他們的火力將無法穿透這面護盾，</ShieldUserHasRangedWeaponDesc>
   
   <NeedResearchProject>需要研究項目</NeedResearchProject>
   <NeedResearchProjectDesc>你有可以用來進行研究的設備但你沒有指定研究項目。\n\n開啟研究清單並指定一個研究項目。</NeedResearchProjectDesc>
 
-  <NeedDump>需要垃圾儲存區</NeedDump>
-  <NeedDumpDesc>你指定了你的殖民者搬運{0}，但是他們沒有地方放置物品。\n\n規劃一個儲存區並將儲存項目設為允許{0}。</NeedDumpDesc>
-
-  <ColonistsIdle>{0}位殖民者無事可做</ColonistsIdle>
-  <ColonistsIdleDesc>這些殖民者們正無所事事的四處閒晃：\n\n{0}\n你應該給他們找點有意義的事情來做。</ColonistsIdleDesc>
+  <ColonistsIdle>{0}位居民無事可做</ColonistsIdle>
+  <ColonistsIdleDesc>這些居民們正無所事事的四處閒晃：\n\n{0}\n你應該給他們找點有意義的事情來做。</ColonistsIdleDesc>
   
-  <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
-  <ColonistNeedsTreatmentDesc>以下殖民者需要接受治療。如果沒有被治療，他們可能因這些傷口而死，或沒治癒的傷口進而變成永久性的創傷。\n\n{0}\n將他們送到一個醫療床或病床上以接受治療。\n\n(首先將一張床設為病床，接著選擇受傷的殖民者並右擊病床來將他們設為患者。)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatment>居民需要治療</ColonistNeedsTreatment>
+  <ColonistNeedsTreatmentDesc>以下居民需要接受治療。如果沒有被治療，他們可能因這些傷口而死，或沒治癒的傷口進而變成永久性的創傷。\n\n{0}\n將他們送到一個醫療床或病床上以接受治療。\n\n(首先將一張床設為病床，接著選擇受傷的居民並右擊病床來將他們設為患者。)</ColonistNeedsTreatmentDesc>
   
   <AlertHypothermia>體溫過低</AlertHypothermia>
-  <AlertHypothermiaDesc>下列殖民者正受到體溫過低的折磨：\n\n{0}\n確保他們的服裝足夠保暖，並且提供溫暖的室內空間。</AlertHypothermiaDesc>
+  <AlertHypothermiaDesc>下列居民正受到體溫過低的折磨：\n\n{0}\n確保他們的服裝足夠保暖，並且提供溫暖的室內空間。</AlertHypothermiaDesc>
   
   <PatientsAwaitingMedicalOperation>{0}位病患正等待接受手術</PatientsAwaitingMedicalOperation>
   <PatientsAwaitingMedicalOperationDesc>這位病患正等待接受手術:\n\n{0}\n確保你擁有必需的醫療器材與醫療人員。</PatientsAwaitingMedicalOperationDesc>
@@ -103,13 +89,18 @@
   <FireInHomeAreaDesc>生活區內發生火災！</FireInHomeAreaDesc>
 
   <PawnsWithLifeThreateningDisease>嚴重疾病</PawnsWithLifeThreateningDisease>
-  <PawnsWithLifeThreateningDiseaseDesc>這些殖民者有因疾病死亡的風險：\n\n{0}\n確保他們獲得妥善的醫療照顧。</PawnsWithLifeThreateningDiseaseDesc>
-  <PawnsWithLifeThreateningDiseaseAmputationDesc>這些殖民者有因疾病死亡的風險：\n\n{0}\n如果可能，考慮截肢或器官移植以救活他們。</PawnsWithLifeThreateningDiseaseAmputationDesc>
+  <PawnsWithLifeThreateningDiseaseDesc>這些居民有因疾病死亡的風險：\n\n{0}\n確保他們獲得妥善的醫療照顧。</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>這些居民有因疾病死亡的風險：\n\n{0}\n如果可能，考慮截肢或器官移植以救活他們。</PawnsWithLifeThreateningDiseaseAmputationDesc>
   
   <BilliardsNeedsSpace>撞球桌需要空間</BilliardsNeedsSpace>
-  <BilliardsNeedsSpaceDesc>你有一張撞球桌周圍受到物件阻擋，這將使你的殖民者無發使用它。\n\n撞球桌四周需要保持淨空。</BilliardsNeedsSpaceDesc>
+  <BilliardsNeedsSpaceDesc>你有一張撞球桌周圍受到物件阻擋，這將使你的居民無發使用它。\n\n撞球桌四周需要保持淨空。</BilliardsNeedsSpaceDesc>
 
   <HunterHasShieldAndRangedWeapon>獵人同時裝備了能量護盾及遠程武器</HunterHasShieldAndRangedWeapon>
   <HunterHasShieldAndRangedWeaponDesc>有獵人同時裝備了能量護盾及遠程武器，這會導致武器無法發揮作用。\n\n在你解除他的護盾前，獵人將不會進行狩獵工作。</HunterHasShieldAndRangedWeaponDesc>
+  
+  <NeedWarmClothes>需要禦寒衣物</NeedWarmClothes>
+  <NeedWarmClothesDesc1>至少有{0}名居民在寒冷的季節來臨時將會缺乏禦寒衣物。</NeedWarmClothesDesc1>
+  <NeedWarmClothesDesc1All>你的所有居民在寒冷的季節來臨時將會缺乏禦寒衣物。</NeedWarmClothesDesc1All>
+  <NeedWarmClothesDesc2>室外氣溫正逐漸降至{0}。\n\n你可以在裁縫桌自行生產衣物，或是向商人購買。</NeedWarmClothesDesc2>
   
 </LanguageData>

@@ -18,8 +18,8 @@
   <TimeSpeedFast.label>遊戲速度：快速</TimeSpeedFast.label>
   <TimeSpeedSuperfast.label>遊戲速度：高速</TimeSpeedSuperfast.label>
   <TimeSpeedUltrafast.label>遊戲速度：極速(Debug)</TimeSpeedUltrafast.label>
-  <PreviousColonist.label>上一名殖民者</PreviousColonist.label>
-  <NextColonist.label>下一名殖民者</NextColonist.label>
+  <PreviousColonist.label>上一名居民</PreviousColonist.label>
+  <NextColonist.label>下一名居民</NextColonist.label>
   
   <!-- Misc (re-used) -->
   
@@ -40,7 +40,7 @@
   
   <CommandTogglePower.label>開啟/關閉電源</CommandTogglePower.label>
   <CommandItemForbid.label>允許/解除物件互動限制</CommandItemForbid.label>
-  <CommandColonistDraft.label>徵召/解除徵召殖民者</CommandColonistDraft.label>
+  <CommandColonistDraft.label>徵召/解除徵召居民</CommandColonistDraft.label>
   
   <!-- Architect: Common -->
   
@@ -51,7 +51,13 @@
   
   <!-- Debug -->
   
-  <ToggleLog.label>開啟/關閉日誌</ToggleLog.label>
-  <DebugTickOnce.label>Debug：一旦勾選</DebugTickOnce.label>
+  <ToggleDebugLog.label>開啟/關閉Debug日誌</ToggleDebugLog.label>
+  <TickOnce.label>Debug：一旦勾選</TickOnce.label>
+  <ToggleGodMode.label>開啟上帝模式</ToggleGodMode.label>
+  <ToggleDebugActionsMenu.label>開啟/關閉Debug行動選單</ToggleDebugActionsMenu.label>
+  <ToggleDebugLogMenu.label>開啟/關閉Debug日誌選單</ToggleDebugLogMenu.label>
+  <ToggleDebugInspector.label>開啟Debug偵測</ToggleDebugInspector.label>
+  <ToggleDebugSettingsMenu.label>開啟/關閉Debug設定選單</ToggleDebugSettingsMenu.label>
+  
   
 </LanguageData>

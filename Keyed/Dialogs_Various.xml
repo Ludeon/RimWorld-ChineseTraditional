@@ -5,6 +5,11 @@
   <GoBack>返回</GoBack>
   <OK>確認</OK>
   
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld已從{0}版升級至{1}版。\n\n這可能導致舊版本存檔及Mod無法繼續使用。</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>因為你使用的是DRM-free版本，因此你可以分別在兩個資料夾安裝新舊版本的RimWorld，同時遊玩不同的遊戲版本。</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>如果你想繼續使用舊版本，你可以選擇Steam的Beta項目。\n\n  1. 在Steam遊戲庫，點選Rimworld。\n  2. 點選「屬性」\n  3. 點選「Betas Tab」\n  4. 在選單中選擇你要的版本。\n\n此服務只是為了避免舊版的遊戲進度中斷，而舊版本終究會從此清單中下架。\n\n請記住，若Mod開發者將Mod升級至新版本，他們很可能就此停止對舊版本的開發，你可以關閉Mod自動更新以避免Mod更新成不相容的版本。</GameUpdatedToNewVersionSteam>
+  
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>從不相容或損壞的Mod中復原</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>有部分Mod導致了嚴重的錯誤。\n\n原因可能是Mod之間的衝突、與當前RimWorld遊戲版本不相容，或是Mod已經損壞。\n\n目前所有Mod已自動停用並可於Mods列表再次啟用。</RecoveredFromErrorsText>
@@ -17,6 +22,9 @@
   <ErrorWhileGeneratingMap>生成地圖時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>載入地圖時發生錯誤。</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>載入地圖時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>遊戲無法完全卸載由Mod導入的程式碼，因此來自某些已卸載的Mod的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並取消所有使用中的Mod後再次進行遊戲。</ModWithAssemblyWasUnloaded>
   
   <!-- Missing Steam -->
   <SteamClientMissing>Steam API初始化失敗。可能的緣故有：\n\n-Steam並未運行。\n-外部Steam在沒有steam_appid.txt的狀態下運行。\n-以與Steam不同的權限運行(例如以系統管理員權限運行)。\n\n此Steam版的遊戲需要Steam才能運行，遊戲即將關閉。</SteamClientMissing>
@@ -62,7 +70,7 @@
   <ZoneGainsName>這個區域的名稱被改為{0}。</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <PawnGainsName>這名殖民者的暱稱已更改為{0}。</PawnGainsName>
+  <PawnGainsName>這名居民的暱稱已更改為{0}。</PawnGainsName>
   
   <!-- Save game incompatible warning -->
   <VersionMismatch>版本不符</VersionMismatch>
@@ -84,7 +92,7 @@
   <Finished>已完成</Finished>
   <InProgress>正在研究中</InProgress>
   <Locked>鎖定中</Locked>
-  <ResearchMenuWithoutBench>你的殖民者們在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>你的居民們在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>
   <ResearchPrerequisites>前提科技</ResearchPrerequisites>
   <RequiredResearchBench>需要研究桌</RequiredResearchBench>
   <RequiredResearchBenchFacilities>需要附屬設備</RequiredResearchBenchFacilities>
@@ -162,7 +170,9 @@
   <Diet>飲食</Diet>
   <RecruitDifficulty>招募難度</RecruitDifficulty>
   <MarketValue>基本價值</MarketValue>
-  <Covers>覆蓋</Covers>
+  <Covers>掩護</Covers>
+  <CoverEffectiveness>掩體效果</CoverEffectiveness>
+  <CoverEffectivenessExplanation>作為掩體在槍火中能發揮的掩護效果，百分比越高可提供越好的掩護能力。</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>藥物經驗影響</MedicineXpGainFactor>
   <BodyPartEfficiency>人造部位運作效率</BodyPartEfficiency>
   <MoodChange>情緒變化</MoodChange>
@@ -172,6 +182,7 @@
   <AnimalFilthRateExplanation>當動物在建築地面行動時會產生髒污，這個物種平均每移動{0}格就會產生髒汙。\n\n體型越大或是非典型的寵物會產生更多髒污。</AnimalFilthRateExplanation>
   <TimeRecordsCategory>經歷時間</TimeRecordsCategory>
   <MiscRecordsCategory>其它</MiscRecordsCategory>
+  <Addictiveness>成癮性</Addictiveness>
   
   <!-- Trade -->
   <PositiveBuysNegativeSells>買入。\n賣出。</PositiveBuysNegativeSells>
@@ -183,12 +194,13 @@
   <AcceptButton>確定</AcceptButton>
   <ResetButton>重置</ResetButton>
   <CancelButton>取消</CancelButton>
+  <CloseButton>關閉</CloseButton>
   <YourTradeableSilver>目前可用於交易的白銀: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的白銀來交易。</YourTradeableSilverTip>
   <TraderHasNoMore>商人貨品數量不足。</TraderHasNoMore>
   <ColonyHasNoMore>殖民地貨品數量不足。</ColonyHasNoMore>
   <TraderWillNotTrade>商人不接受此貨物。</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇更加健全的殖民者擔任代表。</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇更加健全的居民擔任代表。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
   <SortBy>排列方式以</SortBy>
   
@@ -215,8 +227,41 @@
   <OutfitInUse>此裝備已被{0}使用</OutfitInUse>
   <NoOutfitSelected>尚未選取裝備</NoOutfitSelected>
 
+  <!-- Drug policy management -->
+  <DrugPolicy>用藥計劃</DrugPolicy>
+  <SelectDrugPolicy>選擇用藥計劃...</SelectDrugPolicy>
+  <NewDrugPolicy>新用藥計劃</NewDrugPolicy>
+  <DeleteDrugPolicy>刪除用藥計劃...</DeleteDrugPolicy>
+  <DrugPolicyInUse>用藥計劃已被{0}使用中。</DrugPolicyInUse>
+  <SocialDrugs>社交藥物</SocialDrugs>
+  <NoDrugs>禁用藥物</NoDrugs>
+  <OneDrinkPerDay>每日一次</OneDrinkPerDay>
+  <Unrestricted>無限制</Unrestricted>
+  <NoDrugPolicySelected>未套用用藥計劃</NoDrugPolicySelected>
+  <AddDrug>新增藥物...</AddDrug>
+  <DrugColumnLabel>藥物</DrugColumnLabel>
+  <DrugUsageColumnLabel>用藥</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>用藥頻率</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>只在心情值低時使用</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>只在娛樂值低時使用</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>隨身攜帶</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(無藥物)</NoDrugsBrackets>
+  <EveryDay>每天使用</EveryDay>
+  <TimesPerDay>一天使用{0}次</TimesPerDay>
+  <EveryDays>{0}天使用一次</EveryDays>
+  <NoDrugUseRequirement>無限制</NoDrugUseRequirement>
+  <DeleteDrugTooltip>刪除這個藥物。</DeleteDrugTooltip>
+  <DrugNameColumnDesc>此藥物的名稱。</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>用藥計畫。</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>居民使用此藥物的頻率。.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>居民只會在心情值低於這個門檻時使用這個藥物。</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>居民只會在娛樂值低於這個門檻時使用這個藥物。</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>居民會隨身攜帶的藥物輛，如此便不必經常前往倉庫領取庫存。</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>娛樂目的\n\n為了滿足娛樂及社交需求而使用這個藥物，並滿足藥癮(如果有的話)。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>計劃使用\n\n在滿足特定條件時根據計劃使用藥物。</DrugUsageTipScheduled>
+  
   <!-- Growing -->
-  <NoGrowerCanPlant>種植{0}需要種植等級{1}的農夫。\n\n你的殖民地沒有符合條件的殖民者，因此植物不會被種植。</NoGrowerCanPlant>
+  <NoGrowerCanPlant>種植{0}需要種植等級{1}的農夫。\n\n你的殖民地沒有符合條件的居民，因此植物不會被種植。</NoGrowerCanPlant>
 
 	
 </LanguageData>

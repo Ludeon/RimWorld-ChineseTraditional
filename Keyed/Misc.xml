@@ -11,8 +11,7 @@
 
   <AndLower>和</AndLower>
   <DisabledLower>禁用</DisabledLower>
-
-  <CloseButton>關閉</CloseButton>
+  
 
   <VersionIndicator>版本{0}</VersionIndicator>
   <DevelopmentBuildLower>開發中版本</DevelopmentBuildLower>
@@ -30,8 +29,11 @@
   <damage>傷害</damage>
   <radius>範圍</radius>
   <durationDays>持續天數</durationDays>
+  <intervalDays>interval (days)</intervalDays>
+  <repeat>repeat</repeat>
 
   <!-- Content generation-->
+  
   <MeatLabel>{0}肉</MeatLabel>
   <MeatDesc>{0}的生肉。</MeatDesc>
 
@@ -63,7 +65,6 @@
   <VariousLabel>(多種物件)</VariousLabel>
   
   <!-- History events -->
-  
-  <ColonistDied>殖民者死亡</ColonistDied>
+  <ColonistDied>居民死亡</ColonistDied>
   
 </LanguageData>

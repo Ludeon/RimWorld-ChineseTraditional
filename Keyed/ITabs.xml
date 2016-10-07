@@ -22,7 +22,7 @@
   
   <!-- Bills tab  -->
   <AddBill>新增工作</AddBill>
-  <RecipeRequiresSkills>配方{0}需要以下技能。你沒有任何殖民者擁有這些技能，所以沒有人會完成這份工作。</RecipeRequiresSkills>
+  <RecipeRequiresSkills>配方{0}需要以下技能。你沒有任何居民擁有這些技能，所以沒有人會完成這份工作。</RecipeRequiresSkills>
   <MinimumSkill>最低技能等級</MinimumSkill>
   <SuspendedCaps>已暫停</SuspendedCaps>
   <BoundWorkerIs>執行者：{0}</BoundWorkerIs>
@@ -73,6 +73,8 @@
   <SocialInteractionsLower>社交影響</SocialInteractionsLower>
   <HungerRate>飢餓速率</HungerRate>
   <Tiredness>疲勞速率</Tiredness>
+  <PainFactor>Pain</PainFactor>
+  <PreventsInfection>Prevents infection</PreventsInfection>
   
   
   <!-- Medical - Body and activities condition -->
@@ -91,6 +93,7 @@
   <SeverePain>重度</SeverePain>
   <ExtremePain>極度</ExtremePain>
 
+  
   <!-- Training tab-->
   <TrainableIntelligence>智能程度</TrainableIntelligence>
   <CannotTrainNotSmartEnough>需要{0}智能程度</CannotTrainNotSmartEnough>
@@ -107,5 +110,13 @@
   <SomeonesOpinionOfMe>{0}對我的看法</SomeonesOpinionOfMe>
   <IAmDead>我死了</IAmDead>
   <IAmPsychopath>我是個精神病患</IAmPsychopath>
+  
+  <!-- Gear tab -->
+  <AverageArmor>均衡型護甲</AverageArmor>
+  <ComfyTemperatureRange>適應溫度範圍</ComfyTemperatureRange>
+  <ArmorBlunt>打擊護甲</ArmorBlunt>
+  <ArmorSharp>砍擊護甲</ArmorSharp>
+  <ArmorHeat>耐熱護甲</ArmorHeat>
+  <ArmorElectric>電磁護甲</ArmorElectric>
   
 </LanguageData>

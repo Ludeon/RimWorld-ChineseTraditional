@@ -19,13 +19,16 @@
   <ScenPart_PawnsHaveHediff>{0}有{1}的機率開局攜帶{2}。</ScenPart_PawnsHaveHediff>
   <ConfigurableSeverity>嚴重程度{0}</ConfigurableSeverity>
 
+  <ScenPart_SetNeed>{0}的{2}有{1}的機率落在{3}與{4}之間。</ScenPart_SetNeed>
+  <ConfigurableLevel>等級：{0}</ConfigurableLevel>
+
   <ScenPart_PawnsHaveTrait>{0}有{1}的機率開局附帶{2}特性。</ScenPart_PawnsHaveTrait>
   <ScenPart_OnPawnDeathExplode>角色與生物在死亡時爆炸({0}，爆炸半徑{1})。</ScenPart_OnPawnDeathExplode>
 
   <!-- Pawn filters -->
-  <ScenPart_StartingPawnAgeMin>你的殖民者年齡將大於{0}歲。</ScenPart_StartingPawnAgeMin>
-  <ScenPart_StartingPawnAgeMax>你的殖民者年齡將小於{0}歲。</ScenPart_StartingPawnAgeMax>
-  <ScenPart_StartingPawnAgeRange>你的殖民者年齡將介於{0}至{1}歲之間。</ScenPart_StartingPawnAgeRange>
+  <ScenPart_StartingPawnAgeMin>你的居民年齡將大於{0}歲。</ScenPart_StartingPawnAgeMin>
+  <ScenPart_StartingPawnAgeMax>你的居民年齡將小於{0}歲。</ScenPart_StartingPawnAgeMax>
+  <ScenPart_StartingPawnAgeRange>你的居民年齡將介於{0}至{1}歲之間。</ScenPart_StartingPawnAgeRange>
 
 
   <!-- ======================== Grouped ========================-->
@@ -34,6 +37,7 @@
   <ScenPart_MapScatteredWith>地圖中散佈有</ScenPart_MapScatteredWith>
   <ScenPart_PermaMapCondition>永久地圖條件</ScenPart_PermaMapCondition>
   <ScenPart_DisableIncident>禁用事件</ScenPart_DisableIncident>
+  <ScenPart_CreateIncident>事件已創建</ScenPart_CreateIncident>
   <ScenPart_DisallowBuilding>禁用建設</ScenPart_DisallowBuilding>
 
 </LanguageData>

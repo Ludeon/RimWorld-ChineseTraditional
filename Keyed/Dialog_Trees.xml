@@ -7,18 +7,23 @@
 
   <Disconnect>切斷連線</Disconnect>
 
+  <!-- gift offer -->
   <OfferGift>贈與禮物</OfferGift>
   <NeedSilverLaunchable>需要{0}在交易信標下範圍內的白銀。</NeedSilverLaunchable>
   <NotEnoughSilver>白銀不足。</NotEnoughSilver>
   <SilverForGoodwill>每{0}白銀增加{1}好感度</SilverForGoodwill>
   <SilverGiftSent>{0}的代表對你表示感謝。\n\n(好感度增加了{1})。</SilverGiftSent>
 
+  <!-- trade caravan request -->
+  <RequestTrader>呼叫一支商隊(花費：{0}白銀)</RequestTrader>
+  <ChooseTraderKind>{0}詢問你想要何種類型的商隊。</ChooseTraderKind>
+  <TraderSent>{0}同意派遣一支商隊，他們將在幾天內抵達。</TraderSent>
 
+  <!-- military aid request -->
   <RequestMilitaryAid>請求立即派出軍事支援({0}好感度)</RequestMilitaryAid>
   <MilitaryAidConfirmMutualEnemy>{0}不會幫你攻擊非他們敵對的勢力。這包括目前正對你產生威脅的勢力，{1}。你仍然堅持呼叫支援嗎？</MilitaryAidConfirmMutualEnemy>
   <CallConfirm>是，無論如何都呼叫他們。</CallConfirm>
   <CallCancel>不，算了。</CallCancel>
   <MilitaryAidSent>{0}的代表同意派遣部隊來幫助你。</MilitaryAidSent>
-  
   
 </LanguageData>

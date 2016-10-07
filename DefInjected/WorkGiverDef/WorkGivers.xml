@@ -203,6 +203,10 @@
   <Mine.verb>開採</Mine.verb>
   <Mine.gerund>開採</Mine.gerund>
   
+  <Drill.label>採掘</Drill.label>
+  <Drill.verb>採掘</Drill.verb>
+  <Drill.gerund>操作</Drill.gerund>
+  
   <!-- ============= PlantCutting ============= -->
   
   <PlantsCut.label>剪裁</PlantsCut.label>
@@ -249,6 +253,10 @@
   <DoBillsSmelter.verb>提煉</DoBillsSmelter.verb>
   <DoBillsSmelter.gerund>提煉金屬於</DoBillsSmelter.gerund>
   
+  <DoBillsProduceDrugs.label>製作藥物</DoBillsProduceDrugs.label>
+  <DoBillsProduceDrugs.verb>藥物製作</DoBillsProduceDrugs.verb>
+  <DoBillsProduceDrugs.gerund>製作藥物於</DoBillsProduceDrugs.gerund>
+  
   <!-- ============= Hauling ============= -->
   
   <Refuel.label>補充燃料</Refuel.label>
@@ -267,9 +275,21 @@
   <Open.verb>開啟</Open.verb>
   <Open.gerund>開啟</Open.gerund>
   
+  <TakeBeerOutOfFermentingBarrel.label>取出酒桶內的啤酒</TakeBeerOutOfFermentingBarrel.label>
+  <TakeBeerOutOfFermentingBarrel.verb>取出</TakeBeerOutOfFermentingBarrel.verb>
+  <TakeBeerOutOfFermentingBarrel.gerund>取出</TakeBeerOutOfFermentingBarrel.gerund>
+  
+  <FillFermentingBarrel.label>裝填釀酒桶</FillFermentingBarrel.label>
+  <FillFermentingBarrel.verb>裝填</FillFermentingBarrel.verb>
+  <FillFermentingBarrel.gerund>裝填</FillFermentingBarrel.gerund>
+  
   <DoBillsCremate.label>火化</DoBillsCremate.label>
   <DoBillsCremate.verb>火化</DoBillsCremate.verb>
   <DoBillsCremate.gerund>火化於</DoBillsCremate.gerund>
+  
+  <DoBillsHaulCampfire.label>在篝火焚毀物品</DoBillsHaulCampfire.label>
+  <DoBillsHaulCampfire.verb>焚毀</DoBillsHaulCampfire.verb>
+  <DoBillsHaulCampfire.gerund>焚毀於</DoBillsHaulCampfire.gerund>
   
   <BuryCorpses.label>埋葬屍體</BuryCorpses.label>
   <BuryCorpses.verb>埋葬</BuryCorpses.verb>

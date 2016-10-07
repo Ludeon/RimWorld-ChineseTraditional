@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!--================================ Tier 2: Basic electricity ====================================-->
+  <!--================================ Tier 2: Non-electric ====================================-->
   
+  <PsychiteRefining.label>提煉</PsychiteRefining.label>
+  <PsychiteRefining.description>研究從迷幻草中提煉成分的技術，用來製成薄片及Y他命，兩種不同的精神藥物。</PsychiteRefining.description>
+  
+  <WakeUpProduction.label>醒神劑生產</WakeUpProduction.label>
+  <WakeUpProduction.description>研究如何生產醒神劑，一種能強化工作能力的藥物。</WakeUpProduction.description>
+  
+  <GoJuiceProduction.label>能量果汁生產</GoJuiceProduction.label>
+  <GoJuiceProduction.description>研究如何製造複合型戰鬥能力強化藥物。</GoJuiceProduction.description>
+  
+  <MalariBlockProduction.label>瘧疾疫苗生產</MalariBlockProduction.label>
+  <MalariBlockProduction.description>研究如何製造瘧疾疫苗，一種能夠針對瘧疾的預防性藥物。</MalariBlockProduction.description>
+
+  <!--================================ Tier 2: Basic electricity ====================================-->
 
   <Batteries.label>電池</Batteries.label>
   <Batteries.description>解鎖建造能夠儲存電力的電池。</Batteries.description>
@@ -37,7 +50,7 @@
   <ElectricCremation.descriptionDiscovered>你現在可以建造火化爐了！</ElectricCremation.descriptionDiscovered>
   
   <ColoredLights.label>彩色燈</ColoredLights.label>
-  <ColoredLights.description>解鎖殖民者製作裝飾性的彩色燈。</ColoredLights.description>
+  <ColoredLights.description>解鎖居民製作裝飾性的彩色燈。</ColoredLights.description>
   <ColoredLights.descriptionDiscovered>你現在可以建造彩色燈了！</ColoredLights.descriptionDiscovered>
  
   <Machining.label>機械拆解</Machining.label>
@@ -49,11 +62,11 @@
   <Mortars.descriptionDiscovered>你現在可以建造迫擊砲和燃燒迫擊砲了！</Mortars.descriptionDiscovered>
   
   <IEDBomb.label>地雷</IEDBomb.label>
-  <IEDBomb.description>解鎖殖民者用砲彈製造一種爆裂性的地雷裝置。</IEDBomb.description>
+  <IEDBomb.description>解鎖居民用砲彈製造一種爆裂性的地雷裝置。</IEDBomb.description>
   <IEDBomb.descriptionDiscovered>你現在可以建造地雷了！</IEDBomb.descriptionDiscovered>
   
   <IEDIncendiary.label>燃燒地雷</IEDIncendiary.label>
-  <IEDIncendiary.description>解鎖殖民者用砲彈製造一種會炸出火焰的地雷裝置。</IEDIncendiary.description>
+  <IEDIncendiary.description>解鎖居民用砲彈製造一種會炸出火焰的地雷裝置。</IEDIncendiary.description>
   <IEDIncendiary.descriptionDiscovered>你現在可以建造燃燒地雷了！</IEDIncendiary.descriptionDiscovered>
 
   <MicroelectronicsBasics.label>基礎微電子科技</MicroelectronicsBasics.label>

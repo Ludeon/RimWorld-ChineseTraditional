@@ -9,16 +9,18 @@
   <ClickToJumpTo>點擊並跳至：</ClickToJumpTo>
   <CannotDoThisWork>{0}無法執行這類型的工作。</CannotDoThisWork>
   <NoneBrackets>(無)</NoneBrackets>
-  <IncapableOfWorkTypeBecauseOfCapacities>基於此殖民者的健康狀況，目前無法進行這類工作。</IncapableOfWorkTypeBecauseOfCapacities>
+  <IncapableOfWorkTypeBecauseOfCapacities>基於此居民的健康狀況，目前無法進行這類工作。</IncapableOfWorkTypeBecauseOfCapacities>
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
 
-  <!-- Outfits tab -->
+  <!-- Assign tab -->
   <CurrentOutfit>目前裝備</CurrentOutfit>
   <ManageOutfits>裝備管理</ManageOutfits>
   <ClearForcedApparel>卸除裝備</ClearForcedApparel>
   <ApparelForcedLower>強制</ApparelForcedLower>
   <ForcedApparel>強制裝備</ForcedApparel>
-  <OutfitEdit>編輯...</OutfitEdit>
+  <AssignTabEdit>編輯...</AssignTabEdit>
+  <CurrentDrugPolicies>當前用藥計劃</CurrentDrugPolicies>
+  <ManageDrugPolicies>管理用藥計劃</ManageDrugPolicies>
   
   <!-- Restrictions tab -->
   <Copy>複製</Copy>
@@ -34,17 +36,9 @@
   <HostileTo>與{0}敵對</HostileTo>
   <CurrentGoodwill>這個勢力目前的好感度。</CurrentGoodwill>
   
-  <!-- Statistics tab -->
-  <Playtime>遊戲時間</Playtime>
-  <Storyteller>故事敘述者</Storyteller>
-  <ColonyWealthTotal>殖民地財富</ColonyWealthTotal>
-  <ColonyWealthItems>殖民地財富(物品)</ColonyWealthItems>
-  <ColonyWealthBuildings>殖民地財富(建築)</ColonyWealthBuildings>
-  <NumThreatBigs>主要威脅</NumThreatBigs>
-  <NumEnemyRaids>敵人襲擊</NumEnemyRaids>
-  <DamageTaken>受到的傷害</DamageTaken>
-  <ColonistsKilled>殖民者死亡</ColonistsKilled>
-  <ColonistsLaunched>發送至太空的殖民者</ColonistsLaunched>
+  <!-- History tab - subtabs -->
+  <Graph>圖表</Graph>
+  <Statistics>統計</Statistics>
   
   <!-- History tab -->
   <SelectGraph>選擇圖表</SelectGraph>
@@ -55,6 +49,18 @@
   <Day>天</Day>
   <Value>價值</Value>
   <External>外來</External>
+  
+  <!-- Statistics tab -->
+  <Playtime>遊戲時間</Playtime>
+  <Storyteller>故事敘述者</Storyteller>
+  <ColonyWealthTotal>殖民地財富</ColonyWealthTotal>
+  <ColonyWealthItems>殖民地財富(物品)</ColonyWealthItems>
+  <ColonyWealthBuildings>殖民地財富(建築)</ColonyWealthBuildings>
+  <NumThreatBigs>主要威脅</NumThreatBigs>
+  <NumEnemyRaids>敵人襲擊</NumEnemyRaids>
+  <DamageTaken>受到的傷害</DamageTaken>
+  <ColonistsKilled>居民死亡</ColonistsKilled>
+  <ColonistsLaunched>發送至太空的居民</ColonistsLaunched>
 
   <!-- Research tab -->
   <ProjectTechLevel>研究項目文明等級</ProjectTechLevel>
