@@ -2,13 +2,9 @@
 <LanguageData>
 
   <Autosaving>自動保存中</Autosaving>
-
   <GameStartDialog>你們三人在休眠艙休眠時突然被警報和金屬的撕裂聲吵醒。你們好不容易在星艦分解成碎片之前逃到了逃生艙。\n\n不久，你們降落在了這個未知邊緣世界上。\n\n當星艦殘骸還在你們身邊不斷墜毀時，你們已經開始在思考生存的計畫了。</GameStartDialog>
-
   <Colony>殖民地</Colony>
-  
   <ChangeLanguageFromMainMenu>你只能在主選單的設定内改變語言。</ChangeLanguageFromMainMenu>
-
   <AndLower>和</AndLower>
   <DisabledLower>禁用</DisabledLower>
   
@@ -16,7 +12,7 @@
   <VersionIndicator>版本{0}</VersionIndicator>
   <DevelopmentBuildLower>開發中版本</DevelopmentBuildLower>
   <CompiledOn>匯編於{0}</CompiledOn>
-  <LoggedIntoSteamAs>以{0}登錄Steam</LoggedIntoSteamAs>
+  <LoggedIntoSteamAs>以{0}登入Steam</LoggedIntoSteamAs>
 
   <!-- General-use words -->
   <Yes>是</Yes>
@@ -29,8 +25,8 @@
   <damage>傷害</damage>
   <radius>範圍</radius>
   <durationDays>持續天數</durationDays>
-  <intervalDays>interval (days)</intervalDays>
-  <repeat>repeat</repeat>
+  <intervalDays>間隔(天)</intervalDays>
+  <repeat>重複</repeat>
 
   <!-- Content generation-->
   
@@ -66,5 +62,12 @@
   
   <!-- History events -->
   <ColonistDied>居民死亡</ColonistDied>
+  
+  <!-- Rotation -->
+  <North>北方</North>
+  <South>南方</South>
+  <West>西方</West>
+  <East>東方</East>
+  
   
 </LanguageData>

@@ -3,9 +3,14 @@
   
   <MaxHitPoints.label>最大耐久</MaxHitPoints.label>
   <MaxHitPoints.description>此物件的最大耐久值。</MaxHitPoints.description>
+
+  <Mass.label>重量</Mass.label>
+  <Mass.description>此物品的重量。</Mass.description>
+  <Mass.formatString>{0}公斤</Mass.formatString>
   
   <MarketValue.label>市場價格</MarketValue.label>
   <MarketValue.description>這個物件的市價。實際價格將會受到關係狀態與社交技能影響。</MarketValue.description>
+  <MarketValue.formatString>${0}</MarketValue.formatString>
   
   <SellPriceFactor.label>售價倍率</SellPriceFactor.label>
   <SellPriceFactor.description>出售此物件時的售價倍率。</SellPriceFactor.description>
@@ -13,11 +18,15 @@
   <Flammability.label>易燃程度</Flammability.label>
   <Flammability.description>此物件的易燃程度與燃燒時的火焰強度。</Flammability.description>
   
-  <WorkToMake.label>製造時程</WorkToMake.label>
-  <WorkToMake.description>當所有的工具與素材齊全之後，製造這個物件所需的基本製造時程。</WorkToMake.description>
+  <WorkToMake.label>製造工作量</WorkToMake.label>
+  <WorkToMake.description>當所有的工具與素材齊全之後，製造這個物件所需的基本製造工作量。</WorkToMake.description>
+
+  <WorkToBuild.label>建造工作量</WorkToBuild.label>
+  <WorkToBuild.description>當所有的工具與素材齊全之後，建造這個物件所需的基本建造工作量。</WorkToBuild.description>
   
   <DeteriorationRate.label>衰敗速率</DeteriorationRate.label>
   <DeteriorationRate.description>此物件暴露在室外時的衰敗速度，而在雨中會衰敗得更加快速。</DeteriorationRate.description>
+  <DeteriorationRate.formatString>{0} / 日</DeteriorationRate.formatString>
   
   <Beauty.label>美觀程度</Beauty.label>
   <Beauty.description>這個物件能給周圍環境帶來的的美觀程度。</Beauty.description>

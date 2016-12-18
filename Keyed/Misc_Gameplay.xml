@@ -22,9 +22,8 @@
   <NothingLower>無</NothingLower>
   <Adapted>適合</Adapted>
   <FreshMissingBodyPart>新鮮</FreshMissingBodyPart>
-  <UntreatedLower>尚未治療</UntreatedLower>
   <DevelopedImmunityLower>已形成免疫力</DevelopedImmunityLower>
-  <InjuryRequiresTreatment>需要治療以復原</InjuryRequiresTreatment>
+  <NeedsTendingNow>需要立即治療</NeedsTendingNow>
   <NextTreatmentIn>下一次治療將在{0}後</NextTreatmentIn>
   <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
   <Immunity>免疫力形成度</Immunity>
@@ -48,21 +47,61 @@
   <Fertilized>已受精</Fertilized>
   <ProgressStoppedUntilFertilized>孵化進度已停止(未受精)</ProgressStoppedUntilFertilized>
   <SkillTooLow>需要等級{2}的{0}，目前只有{1}級。</SkillTooLow>
-  <EggDamagedEmbryo>胚胎受損</EggDamagedEmbryo>
+  <Freezing>Freezing</Freezing>
+  <Overheating>Overheating</Overheating>
+  <RuinedByTemperature>Ruined by temperature.</RuinedByTemperature>
   <CorpsePercentMissing>失去身體部位</CorpsePercentMissing>
   <HiveReproducesIn>蟲巢擴張</HiveReproducesIn>
   <BrokenDown>損壞</BrokenDown>
   <BondBrackets>(夥伴)</BondBrackets>
   <Fuel>燃料</Fuel>
+  <FuelLevelGizmoLabel>燃料</FuelLevelGizmoLabel>
+  <SetTargetFuelLevel>將燃料充填量設為{0}</SetTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>將燃料充填量設為{0}\n最大發送距離：{1}格</SetPodLauncherTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>目標燃料充填量：{0}</ConfiguredTargetFuelLevel>
   <Enemies>敵人</Enemies>
   <TimePassed>經過時間</TimePassed>
   <CurrentRadius>當前半徑</CurrentRadius>
   <RadiusExpandsIn>擴展半徑</RadiusExpandsIn>
   <Permanent>傷疤</Permanent>
+  <CaravanResting>休息。</CaravanResting>
+  <CaravanEstimatedTimeToDestination>預計抵達時間：{0}</CaravanEstimatedTimeToDestination>
+  <CaravanImmobilizedByMass>動彈不得：負重過量。</CaravanImmobilizedByMass>
+  <CaravanOutOfFood>糧食耗盡。</CaravanOutOfFood>
+  <CaravanDaysOfFood>糧食儲備天數：{0}</CaravanDaysOfFood>
+  <CaravanMemberMentalBreak>暫停原因：{0}精神崩潰了。</CaravanMemberMentalBreak>
+  <AllCaravanMembersDowned>暫停原因：所有成員都倒下了。</AllCaravanMembersDowned>
+  <CaravanTraveling>正在旅行。</CaravanTraveling>
+  <CaravanWaiting>正在等待。</CaravanWaiting>
+  <CaravanHoursPerTile>小時/格</CaravanHoursPerTile>
+  <CaravanBaseMovementTime>基本移動時間</CaravanBaseMovementTime>
+  <CurrentTileMovementTime>當前地塊移動時間</CurrentTileMovementTime>
   <Temperature>溫度</Temperature>
   <BadTemperature>不合適的溫度</BadTemperature>
   <IdealFermentingTemperature>理想的釀造溫度</IdealFermentingTemperature>
   <DrugEffectMultiplier>效果倍率：{0}</DrugEffectMultiplier>
+  <CaravanVisiting>正在拜訪{0}。</CaravanVisiting>
+  <CaravanEntering>正在進入{0}。</CaravanEntering>
+  <CaravanAttacking>正在攻擊{0}。</CaravanAttacking>
+  <WasWornByCorpse>被穿在屍體身上。</WasWornByCorpse>
+  <WornByCorpseChar>D</WornByCorpseChar>
+  <DeterioratingDueToBeingUnroofed>因露天放置而衰敗。</DeterioratingDueToBeingUnroofed>
+  <Map>地圖</Map>
+  <ForceExitAndRemoveMapCountdown>距離離開前{0}小時</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>你的居民將會在{0}校時候自動重組商隊並離開目前所在區域。</ForceExitAndRemoveMapCountdownTip>
+  <Room>房間</Room>
+  <BeautyHere>美觀度</BeautyHere>
+  <NoPower>無電力</NoPower>
+  <WorkSpeedPenalty>工作速率懲罰</WorkSpeedPenalty>
+  <DisabledCommand>禁用</DisabledCommand>
+  <ReadyForLaunch>準備午餐。</ReadyForLaunch>
+  <NotReadyForLaunch>未準備用餐</NotReadyForLaunch>
+  <NotAllInGroupConnectedToFuelingPort>無燃料槽</NotAllInGroupConnectedToFuelingPort>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>無燃料</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <TransportPodInGroupHasSomethingLeftToLoad>loading in progress</TransportPodInGroupHasSomethingLeftToLoad>
+  <TransportPodDestinationBeyondMaximumRange>超出最大範圍</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodNotEnoughFuel>燃料不足</TransportPodNotEnoughFuel>
+  <FactionBaseTrader>{1}的{0}</FactionBaseTrader>
   
   <!-- Fermentation barrel -->
   <ContainsWort>含有{0}/{1}麥芽。</ContainsWort>
@@ -73,9 +112,6 @@
   
   <!--TextMotes-->
   <Headshot>命中頭部</Headshot>
-  <TreatQuality>醫療品質{0}</TreatQuality>
-  <PoorResult>效果拙劣</PoorResult>
-  <GoodResult>效果良好</GoodResult>
   <TextMote_TreatSuccess>治療成功！\成功率{0}</TextMote_TreatSuccess>
   <TextMote_TreatFailed>治療失敗\成功率{0}</TextMote_TreatFailed>
   <HarvestFailed>收穫\n失敗</HarvestFailed>
@@ -142,21 +178,22 @@
 
   <!-- Shooting report -->
   <WeaponMissRadius>彈著點偏移半徑</WeaponMissRadius>
-
-	<ShootReportShooterAbility>Shooter</ShootReportShooterAbility>
-	<ShootReportWeapon>武器</ShootReportWeapon>
-	<Darkness>黑暗</Darkness>
-	<TargetProne>目標動作</TargetProne>
-	<TargetSize>目標大小</TargetSize>
-	<Weather>天氣</Weather>
-	<ShootingCover>掩體</ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0}阻擋了{1}</CoverThingBlocksPercentOfShots>
-	<NoCoverLower>無掩體</NoCoverLower>
+  <ShootReportShooterAbility>射手</ShootReportShooterAbility>
+  <ShootReportWeapon>武器</ShootReportWeapon>
+  <Darkness>黑暗</Darkness>
+  <TargetProne>目標動作</TargetProne>
+  <TargetSize>目標大小</TargetSize>
+  <Weather>天氣</Weather>
+  <ShootingCover>掩體</ShootingCover>
+  <CoverThingBlocksPercentOfShots>{0}阻擋了{1}</CoverThingBlocksPercentOfShots>
+  <NoCoverLower>無掩體</NoCoverLower>
   <Execution>處決</Execution>
   
   <!-- Generated recipes -->
   <RecipeMake>製作{0}</RecipeMake>
   <RecipeMakeJobString>正在製作{0}。</RecipeMakeJobString>
+  <RecipeAdminister>管理{0}</RecipeAdminister>
+  <RecipeAdministerJobString>正在管理{0}。</RecipeAdministerJobString>
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝時間：{0}</ThoughtExpiresIn>
@@ -173,7 +210,10 @@
   <Faction>勢力</Faction>
   <Equipped>裝備</Equipped>
   <EquippedNothing>無</EquippedNothing>
-  <Incapacitated>無法動彈</Incapacitated>
+  <Dead>死亡</Dead>
+  <Unconscious>失去意識</Unconscious>
+  <PainShock>劇痛休克</PainShock>
+  <Incapacitated>動彈不得</Incapacitated>
   <InRestraints>被關押(行動減慢)</InRestraints>
   <Carrying>攜帶</Carrying>
   
@@ -236,7 +276,6 @@
   <OutOfIdealTemperatureRangeNotGrowing>不適合的環境溫度(停止生長)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>待收穫</ReadyToHarvest>
   <Mature>成熟。</Mature>
-  <SeedLabel>{0}種子</SeedLabel>
   <OutdoorGrowingPeriod>植物生長季：{0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>不生長</NoGrowingPeriod>
   <GrowYearRound>全年</GrowYearRound>
@@ -261,15 +300,17 @@
   <Undiscovered>未探索</Undiscovered>
   
   <!-- Buttons -->
-  <ShowLearningHelperWhenEmptyToggleButton>Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active.</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>當沒有新訊息時隱藏教學幫手。\n\n當有新的教學時會顯示教學幫手，開啟這項功能能在沒有東西可以學習時隱藏教學幫手。</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>切換顯示美觀度。\n\n顯示滑鼠游標處的環境美觀度。</ShowBeautyToggleButton>
-  <ShowRoomStatsToggleButton>切換顯示房間屬性值。\n\n顯示滑鼠游標處的房間屬性值。</ShowRoomStatsToggleButton>
-  <ShowColonistBarToggleButton>切換顯示或隱藏居民快捷列。\n\n居民快捷列會將所有居民的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
-  <AutoHomeAreaToggleButton>切換自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
-  <CategorizedResourceReadoutToggleButton>切換資源清單的顯示方式。</CategorizedResourceReadoutToggleButton>
-  <ShowAnimalNamesToggleButton>切換顯示馴養動物的名稱。</ShowAnimalNamesToggleButton>
-  <ShowRoofOverlayToggleButton>切換顯示屋頂區域。</ShowRoofOverlayToggleButton>
+  <ShowBeautyToggleButton>顯示美觀度。\n\n顯示滑鼠游標處的環境美觀度。</ShowBeautyToggleButton>
+  <ShowColonistBarToggleButton>顯示或隱藏居民快捷列。\n\n居民快捷列會將所有居民的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
+  <AutoHomeAreaToggleButton>自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
+  <CategorizedResourceReadoutToggleButton>資源清單的顯示方式。</CategorizedResourceReadoutToggleButton>
+  <ShowAnimalNamesToggleButton>顯示馴養動物的名稱。</ShowAnimalNamesToggleButton>
+  <ShowRoofOverlayToggleButton>顯示屋頂區域。</ShowRoofOverlayToggleButton>
+  <LockNorthUpToggleButton>鎖定攝影機使北方永遠朝上。</LockNorthUpToggleButton>
+  <UsePlanetDayNightSystemToggleButton>日夜光照系統</UsePlanetDayNightSystemToggleButton>
+  <ExpandingIconsToggleButton>擴大顯示圖標，而非一般的顯示距離。</ExpandingIconsToggleButton>
 
   <!-- Fire -->
   <Fire>火焰</Fire>
@@ -286,6 +327,7 @@
   <NoStuffsToBuildWith>沒有可用的材料可建造此項目。</NoStuffsToBuildWith>
   
   <!-- Building placement restricters -->
+  <WillGetWorkSpeedPenalty>{0}會受到工作速率懲罰</WillGetWorkSpeedPenalty>
   <MustPlaceUnroofed>不能放置在室內。</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>必須與星艦結構柱連接。</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>必須放置在需要儲料槽的物件旁。</MustPlaceNextToHopperAccepter>
@@ -293,6 +335,7 @@
   <MustPlaceCoolerWithFreeSpaces>冷氣機的前後端都必須保持通暢。</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>空調扇的前後端都必須保持通暢。</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>必須安置在四周可站立的地點。</MustPlaceAdjacentStandable>
+  <MustPlaceNearFuelingPort>放置位置必須與運輸艙發射平台的燃料槽相鄰。</MustPlaceNearFuelingPort>
   
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>受到以下物件阻擋：</WindTurbine_WindPathIsBlockedBy>
@@ -339,8 +382,9 @@
   
   <!-- Game over -->
   <GameOverEveryoneDead>所有人不是死亡就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>
-  <GameOverShipLaunched>你啟動了星艦！以下居民離開了:\n\n{0}\n以下居民被留下了:\n\n{1}\n現在你的AI會試圖將星艦帶到一個安全的地方去。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待一個更美好的紀元到來。\n\n一切只有在你醒來後才會知道。</GameOverShipLaunched>
+  <GameOverShipLaunched>你啟動了星艦！以下居民離開了:\n\n{0}\n以下居民被留下了:\n\n{1}\n現在，AI將會將這艘船導向某個安全的地方。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待某人在此打造一個新的閃耀世界。\n\n一切只有在你醒來後才會知道。</GameOverShipLaunched>
   <GameOverPlanetkillerImpact>一顆行星殺手以接近光速的高速撞擊這顆星球，引發了威力相當於數萬億顆氫彈的毀滅性爆炸，整顆星球就像被子彈貫穿的水球，在衝擊下液化，其核心物質噴發至宇宙中。\n\n一部分的{0}形成一個小行星帶，剩下的星體則成為滿佈熔岩而且強震環伺的輻射地獄。\n\n你未能生還。</GameOverPlanetkillerImpact>
+  <GameOverArrivedAtJourneyDestination>你乘上了張開雙臂歡迎你的星艦，船員們看起來相當高興能夠至少多帶一個人與他們同行。\n\n以下居民逃離了：\n\n{0}\n以下居民被留下了：\n\n{1}\n現在，AI將會將這艘船導向某個安全的地方。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待某人在此打造一個新的閃耀世界。\n\n你在進入休眠艙前猶豫了一會兒，對於這些人是否可信感到有點不確定。\n\n一切只有在你醒來後才會知道。</GameOverArrivedAtJourneyDestination>
   <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
   <GameOverMainMenu>主畫面</GameOverMainMenu>
   

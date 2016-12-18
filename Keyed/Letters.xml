@@ -58,6 +58,9 @@
   <LetterLeadersDeathLabel>首領死亡</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{1}的首領{0}已死亡，並由{2}接任首領。</LetterLeadersDeath>
   
+  <LetterLeaderChangedLabel>新{1}：{0}</LetterLeaderChangedLabel>
+  <LetterLeaderChanged>{0}不再是{1}的{3}。\n\n新的{3}是{2}。</LetterLeaderChanged>
+  
   <MentalBreakLetterLabel>精神崩潰</MentalBreakLetterLabel>
   <MentalBreakReason>崩潰原因：{0}。</MentalBreakReason>
   
@@ -67,7 +70,9 @@
   <LetterRelatedPawnsRaidFriendly>有居民或俘虜的親友隨{0}抵達了這裡：</LetterRelatedPawnsRaidFriendly>
   <LetterRelatedPawnsNeutralGroup>有居民或俘虜的親友抵達了這裡：</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>宇宙商船販賣的奴隸中有居民或俘虜的親友：</LetterRelatedPawnsTradeShip>
-
+  <LetterRelatedPawnsTradingWithFactionBase>這個勢力據點正在販售與你的居民或俘虜相關的人：</LetterRelatedPawnsTradingWithFactionBase>
+  <LetterRelatedPawnsTradingWithOtherCaravan>這個商隊正在販售與你的居民或俘虜相關的人：</LetterRelatedPawnsTradingWithOtherCaravan>
+  
   <RelationshipAppendedLetterSuffix>(親友)</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>NAME是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
@@ -112,5 +117,31 @@
   <!-- Drug binge -->
   <LetterLabelDrugBinge>{0}濫用</LetterLabelDrugBinge>
   <LetterDrugBinge>{0}正在狂嗑{1}。</LetterDrugBinge>
+  
+  <!-- Formed caravan -->
+  <LetterLabelFormedCaravan>商隊待命中</LetterLabelFormedCaravan>
+  <LetterFormedCaravan>你的商隊已經組織完成，目前正在世界地圖上等待你的指令。</LetterFormedCaravan>
+  
+  <!-- Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>商隊覆滅</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>你的商隊成員已全數死亡。</LetterAllCaravanColonistsDied>
+  
+  <!-- Caravan entered ambush map -->
+  <LetterLabelCaravanEnteredAmbushMap>商隊就位</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0}已經抵達了埋伏地點。</LetterCaravanEnteredAmbushMap>
+  
+  <!-- Caravan entered enemy base -->
+  <LetterLabelCaravanEnteredEnemyBase>作戰開始</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0}已經抵達{1}並已完成攻擊前準備。</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBaseBecameHostile>{0}已經抵達{1}並已完成攻擊前準備。\n\n因為你的敵性行為，{2}現在和你敵對了。</LetterCaravanEnteredEnemyBaseBecameHostile>
+  
+  <!-- Faction base defeated -->
+  <LetterLabelFactionBaseDefeated>攻陷據點</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>敵人的{0}據點已被攻陷。\n\n在重組商隊前，你有{1}小時的時間可以搜刮物資。</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated_FactionDestroyed>這是{0}的最後一座據點，這代表這個勢力已經不復存在了。</LetterFactionBaseDefeated_FactionDestroyed>
+  
+  <!-- Pawns lost due to map countdown -->
+  <LetterLabelPawnsLostDueToMapCountdown>遺棄</LetterLabelPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>你有一部份的動物或俘虜被遺留在荒野中：\n\n{0}</LetterPawnsLostDueToMapCountdown>
   
 </LanguageData>

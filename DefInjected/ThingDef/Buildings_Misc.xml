@@ -3,12 +3,12 @@
 
  
   <OrbitalTradeBeacon.label>軌道交易信標</OrbitalTradeBeacon.label>
-  <OrbitalTradeBeacon.description>用來進行軌道交易。你只能賣出信標周圍而且頂上沒有天花板的商品。軌道商人也會將商品丢在這附近。</OrbitalTradeBeacon.description>
+  <OrbitalTradeBeacon.description>用來進行軌道交易。你只能賣出信標周圍的商品。軌道商人也會將商品丢在這附近。</OrbitalTradeBeacon.description>
 
   <CommsConsole.label>通訊台</CommsConsole.label>
   <CommsConsole.description>用以和附近的商船與組織談判或交易。</CommsConsole.description>
 
-  <!-- Passive equipment -->
+  <!-- Facilities -->
   
   <MultiAnalyzer.label>多重分析裝置</MultiAnalyzer.label>
   <MultiAnalyzer.description>提升研究速度。裝置必須設置於研究桌附近，一張研究桌同時只能與一台多重分析裝置連結。</MultiAnalyzer.description>
@@ -19,15 +19,22 @@
   <ToolCabinet.label>工具櫃</ToolCabinet.label>
   <ToolCabinet.description>提升工作台工作速度。工具櫃必須設置於工作台附近，一張工作台同時可與兩個工具櫃連結。</ToolCabinet.description>
   
-  <FirefoamPopper.label>滅火裝置</FirefoamPopper.label>
+  <FirefoamPopper.label>泡沫滅火裝置</FirefoamPopper.label>
   <FirefoamPopper.description>當遭遇火燒或是人為啟動時，滅火裝置會以它為中心向一個範圍內噴灑消防泡沫，以此撲滅火焰。</FirefoamPopper.description>
-  <FirefoamPopper.comps.1.useLabel>Aktiviere Löschschaum Werfer</FirefoamPopper.comps.1.useLabel>
+  <FirefoamPopper.comps.1.useLabel>啟動泡沫滅火裝置</FirefoamPopper.comps.1.useLabel>
 
   <MoisturePump.label>排水泵</MoisturePump.label>
   <MoisturePump.description>緩慢移除周圍的濕氣，將沼澤地與淺水轉換成乾燥地面，但對深水沒有效果。</MoisturePump.description>
 
-  <GroundPenetratingScanner.label>礦脈雷達</GroundPenetratingScanner.label>
+  <GroundPenetratingScanner.label>礦脈聲納</GroundPenetratingScanner.label>
   <GroundPenetratingScanner.description>一具朝向地面，專門探測地下礦脈位置(但無法辨別礦物種類)的雷達探測器，備有聲納與回波顯示器。需消耗巨量電力。</GroundPenetratingScanner.description>
+  
+  <PodLauncher.label>運輸艙發射平台</PodLauncher.label>
+  <PodLauncher.description>一個附帶燃料槽的發射平台。運輸艙可以批量發射，但發射平台必須相鄰。</PodLauncher.description>
+  
+  <TransportPod.label>運輸艙</TransportPod.label>
+  <TransportPod.description>一個可以裝載人員、物資及動物的莢艙，可以用來運輸、突襲或支援戰鬥。</TransportPod.description>
+  
   
   <!--=====================================-->
 

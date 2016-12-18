@@ -45,6 +45,9 @@
   <ElectricSmelter.label>金屬提煉器</ElectricSmelter.label>
   <ElectricSmelter.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</ElectricSmelter.description>
 
+  <Refinery.label>煉油器</Refinery.label>
+  <Refinery.description>一具化學提煉裝置，用來將木頭提煉加工成化合燃料。</Refinery.description>
+
   <ComponentAssemblyBench.label>電子零件生產台</ComponentAssemblyBench.label>
   <ComponentAssemblyBench.description>配有各種先進設備的工作台，用簡單的原料生產各種零件。</ComponentAssemblyBench.description>
 
@@ -66,12 +69,12 @@
   <FermentingBarrel.description>用來將麥汁發酵成啤酒的巨大容器。</FermentingBarrel.description>
   
   <DeepDrill.label>採掘機</DeepDrill.label>
-  <DeepDrill.description>鑽開地表至地下礦脈採掘礦物的機器。需要先用礦脈雷達找出礦脈位置。</DeepDrill.description>
+  <DeepDrill.description>鑽開地表至地下礦脈採掘礦物的機器。需要先用礦脈聲納找出礦脈位置。</DeepDrill.description>
 
   <!--======================== Nutrient dispenser ==============================-->
   
   <NutrientPasteDispenser.label>營養膏合成機</NutrientPasteDispenser.label>
-  <NutrientPasteDispenser.description>將有機材料合成為營養膏。</NutrientPasteDispenser.description>
+  <NutrientPasteDispenser.description>將有機材料合成為營養膏。比起其他的食物調理方式，合成營養高所消耗的物料成本與時間都更低，然而，沒人喜歡吃這黏糊糊的食物。可接受各種生食作為原料，除了牧草這類植物原料。</NutrientPasteDispenser.description>
   
   <Hopper.label>儲料槽</Hopper.label>
   <Hopper.description>為營養膏合成機這樣的大型機器儲存原料。</Hopper.description>

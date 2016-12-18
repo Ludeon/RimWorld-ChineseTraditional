@@ -74,8 +74,9 @@
 
   <MessageInvoluntarySleep>極度的疲勞使得{0}倒下了。</MessageInvoluntarySleep>
 
-  <MessageMedicalOperationFailureCatastrophic>{0}在對{1}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0}在對{1}執行手術時出現細微的失誤。</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureCatastrophic>{0}在對{1}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureRidiculous>{0}在對{1}執行手術時犯下了荒謬的失誤。</MessageMedicalOperationFailureRidiculous>
 
   <MessageMedicalOperationWillAngerFaction>這項行動將會激怒{0}。</MessageMedicalOperationWillAngerFaction>
 
@@ -134,5 +135,68 @@
   <MessageRottedAwayInStorage>{0}腐敗了。</MessageRottedAwayInStorage>
   
   <MessageFoodPoisoning>{0}吃了{1}而食物中毒了。</MessageFoodPoisoning>
+  
+  <MessageFailedToSendCaravanBecausePawnLost>商隊組織行動失敗，因為失去了其中一個居民、俘虜或動物。</MessageFailedToSendCaravanBecausePawnLost>
+  <MessageCaravanFormationPaused>商隊組織行動將會在所有成員恢復理智後繼續。</MessageCaravanFormationPaused>
+  <MessageCaravanFormationUnpaused>你的居民將開始組織商隊。</MessageCaravanFormationUnpaused>
+  
+  <MessageCaravanMemberHasExtremeMentalBreak>其中一名商隊成員精神崩潰了。</MessageCaravanMemberHasExtremeMentalBreak>
+  
+  <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整顆星球可能需要不少時間。</MessageMaxPlanetCoveragePerformanceWarning>
+
+	<MessagePlantDiedOfCold>{0}因低溫而凍死了。</MessagePlantDiedOfCold>
+	<MessagePlantDiedOfRot>{0}因過長時間未收穫而凋零了。</MessagePlantDiedOfRot>
+
+	<MessagePawnBeingBurned>{0}被高溫烤乾枯萎了！</MessagePawnBeingBurned>
+
+	<MessageAccidentalOverdose>{0}不小心用了太多{1}！</MessageAccidentalOverdose>
+  
+  <MessageCaravanArrivedAtDestination>{0}已經抵達目的地。</MessageCaravanArrivedAtDestination>
+  
+  <MessageCaravanIsVisitingFaction>{0}已經抵達{1}。</MessageCaravanIsVisitingFaction>
+  
+  <MessageCaravanEnteredWorldObject>{0}已經抵達{1}。</MessageCaravanEnteredWorldObject>
+  
+  <MessagePawnLeftMapAndCreatedCaravan>{0}已經離開地圖並組成商隊。</MessagePawnLeftMapAndCreatedCaravan>
+  
+  <MessageSettledInExistingMap>你已經成功在新地區建立新據點。</MessageSettledInExistingMap>
+	
+  <MessageAmbushVictory>勝利！在重新組織商隊前，你有{0}小時的時間能夠搜刮物資。</MessageAmbushVictory>
+  
+  <MessageAutomaticallyReformedCaravan>你的商隊已經重組。</MessageAutomaticallyReformedCaravan>
+
+	<MessageOldWoundHealed>因為{0}，{1}的{2}痊癒了。</MessageOldWoundHealed>
+
+	<MessageRescueeJoined>因為你招募了HIM，{0}加入了你的隊伍！</MessageRescueeJoined>
+  
+  <MessageAttackedCaravanIsNowHostile>因為你攻擊了{0}的商隊，他們宣布與你敵對了。</MessageAttackedCaravanIsNowHostile>
+  
+  <MessageTransporterUnreachable>部分運輸艙受到阻擋。</MessageTransporterUnreachable>
+  <MessageTransportersNotAdjacent>所有與運輸艙相連的發射座必須相鄰。</MessageTransportersNotAdjacent>
+  
+  <MessageTransportersLoadCanceled_TransporterDestroyed>裝載工作已中止，因為其中一個運輸艙被摧毀。</MessageTransportersLoadCanceled_TransporterDestroyed>
+	<MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>裝載工作已中止，因為其中一個發射座被摧毀。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  
+  <MessageTransportersLoadingProcessStarted>你的居民將會將指定的物品裝載至運輸艙內。</MessageTransportersLoadingProcessStarted>
+  
+  <MessageTransportPodsArrived>你的運輸艙已經抵達。</MessageTransportPodsArrived>
+  <MessageTransportPodsArrivedAndLost>你的運輸艙已經抵達，但因為沒有人員在內，你遺失了貨物。</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrived_BecameHostile>{0}宣布與你敵對了。</MessageTransportPodsArrived_BecameHostile>
+  
+  <MessageFailedToLoadTransportersBecauseColonistLost>裝載工作已中止，因為失去了其中一名人員。</MessageFailedToLoadTransportersBecauseColonistLost>
+  
+  <MessageFinishedLoadingTransporters>你的居民已完成運輸艙的裝載。</MessageFinishedLoadingTransporters>
+  
+  <MessageTransportPodsDestinationIsInvalid>所選目的地無效。</MessageTransportPodsDestinationIsInvalid>
+  <MessageTransportPodsDestinationIsTooFar>每個發射座都需要至少{0}單位的化合燃料才能發送的這個距離外的目的地。</MessageTransportPodsDestinationIsTooFar>
+  
+  <MessageReformedCaravan>商隊已被重組。</MessageReformedCaravan>
+  
+  <MessageCantAbandonLastColonist>你不能拋棄最後一名居民。</MessageCantAbandonLastColonist>
+  
+  <MessageCantEquipIncapableOfViolence>無法裝備：{0}排斥暴力。</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfManipulation>無法裝備：無法使用</MessageCantEquipIncapableOfManipulation>
+  
+  <MessageSlaughteringBondedAnimal>屠宰{0}將會讓{1}不開心，因為他們是夥伴。</MessageSlaughteringBondedAnimal>
   
 </LanguageData>

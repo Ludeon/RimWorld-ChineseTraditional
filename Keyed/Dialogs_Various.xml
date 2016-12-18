@@ -38,8 +38,9 @@
   <Initializing>正在初始化</Initializing>
   <LoadingWorld>正在載入世界</LoadingWorld>
   <LoadingMap>正在載入地圖</LoadingMap>
-  <InitializingMap>正在初始化地圖</InitializingMap>
+  <InitializingGame>正在初始化遊戲</InitializingGame>
   <SpawningAllThings>正在生成物件</SpawningAllThings>
+  <SpawningColonists>正在生成居民</SpawningColonists>
   
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
@@ -59,10 +60,19 @@
   <ProblemSavingFile>存檔時發生問題{0}：\n\n{1}\n\n查看錯誤紀錄以獲得更多訊息。</ProblemSavingFile>
   <LoadAnyway>仍要載入</LoadAnyway>
   
-  <!-- Colony naming-->
-  <NameColonyMessage>看來你已經在這裡過上一段時間了。{0}希望你能給這座殖民地取個名字。\n\n該叫做什麼好呢？</NameColonyMessage>
-  <ColonyGainsName>這個殖民地現在被稱為{0}了。</ColonyGainsName>
-  <ColonyNameIsInvalid>無效的殖民地名稱。</ColonyNameIsInvalid>
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0}認為你應該替你的勢力取個名字。該叫做什麼好呢？</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>你的勢力現在被稱為{0}了。</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>無效的勢力名稱。</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>看來你得在這裡待上一段時間了。{0}希望你能給這座據點取個名字。該叫做什麼好呢？</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>這個基地現在被稱為{0}了。</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>無效的據點名稱。</PlayerFactionBaseNameIsInvalid>
+  
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>看來你會在這裡待上一段時間。{0}建議你也替這座據點取名。該叫做什麼好呢？</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>你的勢力現在被稱為{0}，而這座據點則被叫做{1}。</PlayerFactionAndBaseGainsName>
 
   <!-- Renaming -->
   <NameIsInvalid>請輸入一個有效的名稱。</NameIsInvalid>
@@ -130,7 +140,7 @@
   <BillRequires>需要{0}個{1}</BillRequires>
   <BillRequiresNutrition>需要{0}營養值</BillRequiresNutrition>
   <BillRequiresMayVary>(數量可能會因為非標準體積的原料而有不同，例如黃金。)</BillRequiresMayVary>
-  <ThisIsSmallVolume>這是一個小體積的原料。每單位只有正常體積的1/20。因此，如果要達到相同質量，所需要的單位數量將是一般的二十倍。</ThisIsSmallVolume>
+  <ThisIsSmallVolume>這是一個小體積的原料。每單位只有正常體積的1/20。因此，如果要達到相同重量，所需要的單位數量將是一般的二十倍。</ThisIsSmallVolume>
   <UsableIngredients>可用的原料</UsableIngredients>
   <DoXTimes>做X次</DoXTimes>
   <DoUntilYouHaveX>製作直到擁有X個</DoUntilYouHaveX>
@@ -166,7 +176,7 @@
   <Joy>娛樂</Joy>
   <FoodQuality>食物價值</FoodQuality>
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
-  <MinFoodQuality>最低食物質量</MinFoodQuality>
+  <MinFoodQuality>最低食物重量</MinFoodQuality>
   <Diet>飲食</Diet>
   <RecruitDifficulty>招募難度</RecruitDifficulty>
   <MarketValue>基本價值</MarketValue>
@@ -203,6 +213,69 @@
   <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇更加健全的居民擔任代表。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
   <SortBy>排列方式以</SortBy>
+	<TraderTypePrice>商人類型</TraderTypePrice>
+	<Selling>銷售</Selling>
+	<Buying>購買</Buying>
+	<ItemSellPriceFactor>物品售價倍率</ItemSellPriceFactor>
+	<DifficultyLevel>難度等級</DifficultyLevel>
+	<PostCurve>global post-process curve</PostCurve>
+	<YourNegotiatorBonus>交涉紅利</YourNegotiatorBonus>
+	<TradeWithFactionBaseBonus>勢力據點交易紅利</TradeWithFactionBaseBonus>
+	<minimum>最低</minimum>
+	<FinalPrice>最終價格</FinalPrice>
+  <TradeMassUsageTooltip>重量與容量的數值。</TradeMassUsageTooltip>
+  
+  <!-- Form caravan -->
+  <FormCaravan>組織商隊</FormCaravan>
+  <FormCaravanColonyThingCountTip>此物品已被分配至商隊的數量。</FormCaravanColonyThingCountTip>
+  <PawnsTab>人員與動物</PawnsTab>
+  <ItemsTab>物品</ItemsTab>
+  <CaravanConfigTab>設置</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>你必須指派至少一名有行動能力的居民。</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>無法找到任何地圖出口。</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的居民無法抵達地圖出口。</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>{0}無法被任何被指派的居民接觸。</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>沒有任何被指派的居民能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>沒有任何被指派的居民能夠接觸到{0}x{1}。</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>商隊無法負荷超量物資。</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>當前重量與容量。\n\n重量包含所有商隊攜帶的物資及人員身上的裝備。\n\n如果重量超過容量，商隊將會無法行動。</CaravanMassUsageTooltip>
+  <MassUsageInfo>{0} / {1}公斤</MassUsageInfo>
+  <DaysWorthOfFoodInfo>{0}天份糧食</DaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>商隊食物存量以天為單位的估算值。\n\n此計算值將人員及動物一併納入，並套用最嚴苛的狀況進行估算。這表示，經過這幾天之後，至少會有一個人或動物缺乏食物。</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>你的商隊只剩下{0}天份的存糧，很快將會陷入飢荒。\n\n你確定你仍然要組織這支商隊？</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>你的商隊存糧已經耗盡，很快將會陷入飢荒。\n\n你確定你仍然要組織這支商隊？</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>你必須選擇商隊的離開方向。</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(無可行的地圖出口)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>離開方向</ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>此物品的重量。</ItemWeightTip>
+  <MarketValueTip>市場價格</MarketValueTip>
+  <MassCapacity>容量</MassCapacity>
+  <Mass>重量</Mass>
+  <EquipmentAndApparelMass>裝備及衣物重量。</EquipmentAndApparelMass>
+  <InventoryMass>貨物重量。</InventoryMass>
+  <CaravanFormationProcessStarted>現在你的居民將會盡快裝載指定的貨物並出發。</CaravanFormationProcessStarted>
+  <ReformCaravan>重組商隊</ReformCaravan>
+  <ColonistsSection>居民</ColonistsSection>
+  <PrisonersSection>俘虜</PrisonersSection>
+  <AnimalsSection>動物</AnimalsSection>
+  
+  <!-- Split caravan -->
+  <SplitCaravan>分割商隊</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>你必須保留至少一名具行動能力的居民。</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>原</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>新</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>此物品已被分配至商隊的數量。</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>當前重量與容量。</SplitCaravanMassUsageTooltip>
+  
+  <!-- Load transporters -->
+  <LoadTransporters>裝載{0}</LoadTransporters>
+  <TooBigTransportersMassUsage>目前指派的居民及物資超過運輸艙的最大負重。</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>無法傳送空的運輸艙</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0}無法前往運輸艙。</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>沒有路經連接運輸艙和{0}。</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>沒有路經連接運輸艙和{0}x{1}。</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>當前重量與容量。\n\n如果運輸艙的裝載重量超過最大負荷容量便無法進行傳送。</TransportersMassUsageTooltip>
   
   <!-- Comms -->
   <SocialSkillIs>社交技能：{0}</SocialSkillIs>
@@ -253,15 +326,31 @@
   <DeleteDrugTooltip>刪除這個藥物。</DeleteDrugTooltip>
   <DrugNameColumnDesc>此藥物的名稱。</DrugNameColumnDesc>
   <DrugUsageColumnDesc>用藥計畫。</DrugUsageColumnDesc>
-  <FrequencyColumnDesc>居民使用此藥物的頻率。.</FrequencyColumnDesc>
+  <FrequencyColumnDesc>居民使用此藥物的頻率。</FrequencyColumnDesc>
   <MoodThresholdColumnDesc>居民只會在心情值低於這個門檻時使用這個藥物。</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>居民只會在娛樂值低於這個門檻時使用這個藥物。</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>居民會隨身攜帶的藥物輛，如此便不必經常前往倉庫領取庫存。</TakeToInventoryColumnDesc>
+  <DrugUsageTipForAddiction>針對成癮\n\n使用此藥物以滿足已成癮的藥物需求。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForAddiction>
   <DrugUsageTipForJoy>娛樂目的\n\n為了滿足娛樂及社交需求而使用這個藥物，並滿足藥癮(如果有的話)。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>計劃使用\n\n在滿足特定條件時根據計劃使用藥物。</DrugUsageTipScheduled>
   
   <!-- Growing -->
   <NoGrowerCanPlant>種植{0}需要種植等級{1}的農夫。\n\n你的殖民地沒有符合條件的居民，因此植物不會被種植。</NoGrowerCanPlant>
 
-	
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>還有一些屬於你的居民或動物存在此區域，你確定要拋棄他們？\n\n以下人員及動物將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmLeavePrisonersOrAnimalsBehind>還有一些俘虜或動物留在此區域，而這個商隊是他們目前唯一能加入的。\n\n如果你移動你的商隊，被留下的俘虜或動物將不會離開這個區域直到你回來。犯人會開始逃跑，而動物們則會等待直到你回來。\n\n如果你決定等候，他們會試著加入你的商隊。\n\n你確定要移動你的商隊嗎？</ConfirmLeavePrisonersOrAnimalsBehind>
+  
+  <!-- Abandon pawn -->
+  <ConfirmAbandonPawnDialog>你真的確定要拋棄{0}嗎？</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0}很可能會死掉。</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0}將會攜帶以下物品：</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>所有居民將會獲得以下心情：</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>拋棄{0}將會導致以下人員得到以下心情：</ConfirmAbandonPawnDialog_IndividualThoughts>
+  
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{0}失蹤了，仍然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
+  
 </LanguageData>

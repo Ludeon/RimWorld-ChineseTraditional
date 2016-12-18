@@ -30,10 +30,19 @@
   <WorldGenerate>創造</WorldGenerate>
   <WorldSaveAndFinish>保存並完成</WorldSaveAndFinish>
   <Reset>重置</Reset>
-  <WorldSize>尺寸</WorldSize>
+  <PlanetCoverage>星球覆蓋</PlanetCoverage>
+  <PlanetRainfall>整體降雨量</PlanetRainfall>
+  <PlanetTemperature>整體氣溫</PlanetTemperature>
+  <PlanetRainfall_Low>低</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>中</PlanetRainfall_Normal>
+  <PlanetRainfall_High>高</PlanetRainfall_High>
+  <PlanetTemperature_Low>低</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>中</PlanetTemperature_Normal>
+  <PlanetTemperature_High>高</PlanetTemperature_High>
   <WorldSeed>種子</WorldSeed>
   <RandomizeSeed>隨機種子</RandomizeSeed>
-  
+  <PlanetCoverageTip>所有星球的直徑皆相同，但因為此大小已遠遠超出一般遊戲需求，因此我們不會生成整個星球地表，那會需要很長的時間。這是你想要生成的面積百分比。</PlanetCoverageTip>
+
   <!--=========== Select world ===================-->
   <SelectWorld>選擇世界</SelectWorld>
   <WorldChooseButton>選擇</WorldChooseButton>
@@ -102,14 +111,8 @@
   <SelectSite>選擇地點</SelectSite>
   <MustSelectLandingSite>請選擇一個著陸點。</MustSelectLandingSite>
   <CannotLandBiome>你不能在{0}上著陸</CannotLandBiome>
-  <WorldRenderMode>顯示類型</WorldRenderMode>
-  <WorldRenderModeFull>全部</WorldRenderModeFull>
-  <WorldRenderModeTemperature>溫度</WorldRenderModeTemperature>
-  <WorldRenderModeElevation>海拔</WorldRenderModeElevation>
-  <WorldRenderModeFertility>濕度</WorldRenderModeFertility>
-  <WorldRenderModeRainfall>降雨量</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>生態系統</WorldRenderModeBiomes>
   <BiomeNotImplemented>此生態系統尚未實裝。</BiomeNotImplemented>
+  <CannotLandImpassableMountains>You cannot land on impassable mountains.</CannotLandImpassableMountains>
   <BaseAlreadyThere>該地點已經有一座{0}基地了。</BaseAlreadyThere>
   <Biome>生態系統</Biome>
   <Terrain>地形</Terrain>
@@ -125,6 +128,11 @@
   <HasCoast3>西岸</HasCoast3>
   <FactionBase>勢力根據地</FactionBase>
   <StoneTypesHere>地質類型</StoneTypesHere>
+  <TimeZone>時區</TimeZone>
+  <MovementTimeNow>當前行動時間</MovementTimeNow>
+  <MovementTimeSummer>夏季行動時間</MovementTimeSummer>
+  <MovementTimeWinter>冬季行動時間</MovementTimeWinter>
+	
   
   <!--=========== Character chooser ==========-->
   <CreateCharacters>創造角色</CreateCharacters>
@@ -152,14 +160,16 @@
   <Advanced>進階設定</Advanced>
   <Next>繼續</Next>
   <Back>返回</Back>
-  
   <Gameplay>遊戲性</Gameplay>
-
   <ConfirmQuit>確定要退出嗎？你將失去所有尚未保存的遊戲進度。</ConfirmQuit>
-  
   <EveryoneNeedsValidName>每個角色都需要一個有效的名字。</EveryoneNeedsValidName>
+  <Quit>離開</Quit>
+  <Ignore>忽略</Ignore>
+  
+  <!--============ Progress bar==============-->
 
   <GeneratingWorld>生成世界中...</GeneratingWorld>
   <GeneratingMap>生成地圖中...</GeneratingMap>
+  <GeneratingMapForNewEncounter>生成新的遭遇地圖</GeneratingMapForNewEncounter>
 
 </LanguageData>

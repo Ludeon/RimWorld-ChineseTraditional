@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  <MeleeWeapon_DamageAmount.label>武器攻擊力</MeleeWeapon_DamageAmount.label>
-  <MeleeWeapon_DamageAmount.description>此武器每次攻擊所能造成的傷害。</MeleeWeapon_DamageAmount.description>
-  
-  <MeleeWeapon_Cooldown.label>冷卻時間</MeleeWeapon_Cooldown.label>
-  <MeleeWeapon_Cooldown.description>此近戰武器每次攻擊之間的冷卻時間。</MeleeWeapon_Cooldown.description>
-  
-  <!-- Damage multipliers should be stats on stuffs only-->
-  
-  <SharpDamageMultiplier.label>近戰銳利傷害加成</SharpDamageMultiplier.label>
-  <SharpDamageMultiplier.description>銳利攻擊(如：揮砍與突刺)的傷害加成。</SharpDamageMultiplier.description>
-  
-  <BluntDamageMultiplier.label>近戰打擊傷害加成</BluntDamageMultiplier.label>
-  <BluntDamageMultiplier.description>打擊攻擊的傷害加成。</BluntDamageMultiplier.description>
-  
+	
+	<MeleeWeapon_DamageAmount.label>武器攻擊力</MeleeWeapon_DamageAmount.label>
+	<MeleeWeapon_DamageAmount.description>此武器每次攻擊所能造成的傷害。</MeleeWeapon_DamageAmount.description>
+	
+	<MeleeWeapon_Cooldown.label>冷卻時間</MeleeWeapon_Cooldown.label>
+	<MeleeWeapon_Cooldown.description>此近戰武器每次攻擊之間的冷卻時間。</MeleeWeapon_Cooldown.description>
+	<MeleeWeapon_Cooldown.formatString>{0}秒</MeleeWeapon_Cooldown.formatString>
+	
+	<!-- Damage multipliers should be stats on stuffs only-->
+	
+	<SharpDamageMultiplier.label>近戰銳利傷害加成</SharpDamageMultiplier.label>
+	<SharpDamageMultiplier.description>銳利攻擊(如：揮砍與突刺)的傷害加成。</SharpDamageMultiplier.description>
+	
+	<BluntDamageMultiplier.label>近戰打擊傷害加成</BluntDamageMultiplier.label>
+	<BluntDamageMultiplier.description>打擊攻擊的傷害加成。</BluntDamageMultiplier.description>
+	
 </LanguageData>

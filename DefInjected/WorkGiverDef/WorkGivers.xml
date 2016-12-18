@@ -156,6 +156,14 @@
   <ConstructDeliverResourcesToBlueprints.label>運送材料至藍圖</ConstructDeliverResourcesToBlueprints.label>
   <ConstructDeliverResourcesToBlueprints.verb>運送材料</ConstructDeliverResourcesToBlueprints.verb>
   <ConstructDeliverResourcesToBlueprints.gerund>運送材料至</ConstructDeliverResourcesToBlueprints.gerund>
+
+  <FixBrokenDownBuilding.label>修復損壞的設施</FixBrokenDownBuilding.label>
+  <FixBrokenDownBuilding.verb>更換零件</FixBrokenDownBuilding.verb>
+  <FixBrokenDownBuilding.gerund>更換零件</FixBrokenDownBuilding.gerund>
+  
+  <Repair.label>修理損壞物品</Repair.label>
+  <Repair.verb>修理</Repair.verb>
+  <Repair.gerund>修理</Repair.gerund>
   
   <BuildRoofs.label>搭建屋頂</BuildRoofs.label>
   <BuildRoofs.verb>搭建屋頂</BuildRoofs.verb>
@@ -173,19 +181,11 @@
   <ConstructSmoothFloors.verb>進行</ConstructSmoothFloors.verb>
   <ConstructSmoothFloors.gerund>進行</ConstructSmoothFloors.gerund>
   
-  <!-- ============= Repair ============= -->
-
-  <FixBrokenDownBuilding.label>修復損壞的設施</FixBrokenDownBuilding.label>
-  <FixBrokenDownBuilding.verb>更換零件</FixBrokenDownBuilding.verb>
-  <FixBrokenDownBuilding.gerund>更換零件</FixBrokenDownBuilding.gerund>
+  <!-- ============= Repair ============= -->  
 
   <DoBillsMedicalMechanoidOperation.label>整修機械</DoBillsMedicalMechanoidOperation.label>
   <DoBillsMedicalMechanoidOperation.verb>整修機械</DoBillsMedicalMechanoidOperation.verb>
   <DoBillsMedicalMechanoidOperation.gerund>調整</DoBillsMedicalMechanoidOperation.gerund>
-  
-  <Repair.label>修理損壞物品</Repair.label>
-  <Repair.verb>修理</Repair.verb>
-  <Repair.gerund>修理</Repair.gerund>
   
   <!-- ============= Growing ============= -->
 
@@ -241,9 +241,13 @@
   
   <!-- ============= Crafting ============= -->
   
-  <DoBillsUseCraftingSpot.label>在手工工作區製造武器</DoBillsUseCraftingSpot.label>
+  <DoBillsUseCraftingSpot.label>製造兵器</DoBillsUseCraftingSpot.label>
   <DoBillsUseCraftingSpot.verb>工作</DoBillsUseCraftingSpot.verb>
   <DoBillsUseCraftingSpot.gerund>工作於</DoBillsUseCraftingSpot.gerund>
+  
+  <DoBillsRefinery.label>操作煉油器</DoBillsRefinery.label>
+  <DoBillsRefinery.verb>提煉</DoBillsRefinery.verb>
+  <DoBillsRefinery.gerund>提煉燃料於</DoBillsRefinery.gerund>
 
   <DoBillsStonecut.label>加工岩石為石材</DoBillsStonecut.label>
   <DoBillsStonecut.verb>石材加工</DoBillsStonecut.verb>
@@ -266,6 +270,14 @@
   <RearmTraps.label>重置陷阱</RearmTraps.label>
   <RearmTraps.verb>重置陷阱</RearmTraps.verb>
   <RearmTraps.gerund>重置</RearmTraps.gerund>
+  
+  <UnloadCarriers.label>卸貨</UnloadCarriers.label>
+  <UnloadCarriers.verb>卸貨</UnloadCarriers.verb>
+  <UnloadCarriers.gerund>卸貨</UnloadCarriers.gerund>
+  
+  <LoadTransporters.label>裝載</LoadTransporters.label>
+  <LoadTransporters.verb>裝載</LoadTransporters.verb>
+  <LoadTransporters.gerund>裝載</LoadTransporters.gerund>
   
   <Strip.label>掠奪</Strip.label>
   <Strip.verb>掠奪</Strip.verb>
@@ -318,5 +330,6 @@
   <Research.label>研究</Research.label>
   <Research.verb>研究</Research.verb>
   <Research.gerund>研究於</Research.gerund>
+  
   
 </LanguageData>

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <!-- Forbid -->
+  <CommandForbid>禁用</CommandForbid>
   <CommandForbiddenDesc>已禁止——居民不會和這個物件互動。</CommandForbiddenDesc>
   <CommandNotForbiddenDesc>未禁止——居民會和這個物件互動。</CommandNotForbiddenDesc>
   
@@ -25,6 +27,9 @@
   <CommandToggleDraftDesc>切換徵召狀態。\n\n被徵召的人會遵守命令並戰鬥。他們不會工作、吃飯或休息。</CommandToggleDraftDesc>
   <IsIncapped>{0}無法動彈。</IsIncapped>
   
+	<CommandAllowFiringLabel>允許開火</CommandAllowFiringLabel>
+	<CommandAllowFiringDesc>允許或禁止開火。\n\n當禁止開火時，這名角色將不會自動對射程範圍內的目標開火。此設定對近戰不起作用。</CommandAllowFiringDesc>
+	
   <CommandClearPrioritizedWork>取消優先工作</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>取消目前優先進行的工作，讓居民回歸正常工作。</CommandClearPrioritizedWorkDesc>
   
@@ -142,5 +147,84 @@
   <CommandBuildCopy>複製建築</CommandBuildCopy>
   <CommandBuildCopyDesc>複製當前的建築與設施。</CommandBuildCopyDesc>
   
+  <!-- Form caravan -->
+  <CommandFormCaravan>組織商隊</CommandFormCaravan>
+  <CommandFormCaravanDesc>集結一群居民並旅行至新的地區。居民將會集合所有指定的物資及同行的動物，隨後離開當前所在的區域並等待進一步命令。</CommandFormCaravanDesc>
+  
+  <!-- Reform caravan -->
+  <CommandReformCaravan>重新組織商隊</CommandReformCaravan>
+  <CommandReformCaravanDesc>重新組織商隊。居民將會離開當前所在的區域並等待進一步命令。</CommandReformCaravanDesc>
+  <CommandReformCaravanFailHostilePawns>仍有敵人存在此區域內。</CommandReformCaravanFailHostilePawns>
+  
+  <!-- Split caravan -->
+  <CommandSplitCaravan>分割</CommandSplitCaravan>
+  <CommandSplitCaravanDesc>將一支商隊分成兩隊。商隊他們離彼此夠近的話便能夠重新匯合。</CommandSplitCaravanDesc>
+  
+  <!-- Merge caravan -->
+  <CommandMergeCaravans>匯合</CommandMergeCaravans>
+  <CommandMergeCaravansDesc>使選取的商隊匯合成一隊。</CommandMergeCaravansDesc>
+  
+  <!-- Settle -->
+  <CommandSettle>設點</CommandSettle>
+  <CommandSettleDesc>在這個區域建立據點。你的居民將會進入這個區域，而你將能夠在此建立一座新據點</CommandSettleDesc>
+  <CommandSettleFailOtherWorldObjectsHere>一個區域同時只能由一支商隊建立據點。</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailAlreadyHaveBase>你的勢力只能夠擁有最多一座據點。</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailReachedMaximumNumberOfBases>據點數量已達最大值。</CommandSettleFailReachedMaximumNumberOfBases>
+  
+  <!-- Abandon home -->
+  <CommandAbandonHome>拋棄</CommandAbandonHome>
+  <CommandAbandonHomeDesc>放棄這個區域。你將永遠不能再進入或訪問這個區域。一旦拋棄了你的家園，你將能夠再次下令讓你的商隊在一個新的地區建立新據點。</CommandAbandonHomeDesc>
+  <CommandAbandonHomeFailAllColonistsThere>你所有的居民都在那裡。</CommandAbandonHomeFailAllColonistsThere>
+  
+  <!-- Cancel forming caravan -->
+  <CommandCancelFormingCaravan>取消組織商隊</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>中止組織商隊的行動。</CommandCancelFormingCaravanDesc>
+  
+  <!-- Show map -->
+  <CommandShowMap>檢視</CommandShowMap>
+  <CommandShowMapDesc>檢視此區域的細節。</CommandShowMapDesc>
+  
+  <!-- Trade -->
+  <CommandTrade>交易</CommandTrade>
+  <CommandTradeDesc>與此派系進行交易。</CommandTradeDesc>
+  <CommandTradeFailNoNegotiator>無任何具交易能力者。</CommandTradeFailNoNegotiator>
+  
+  <!-- Take off -->
+  <CommandTakeOff>逃離</CommandTakeOff>
+  <CommandTakeOffDesc>上船並逃離這顆星球。</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>你確定要發射星艦嗎？\n\n在這個區域的所有人將逃離這星球，剩下的人則被留下。</CommandTakeOffConfirmation>
+  
+  <!-- Set target fuel level -->
+  <CommandSetTargetFuelLevel>設定燃料充填量</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>設定燃料充填量。居民們將會填充燃料並保持不超過限制量。</CommandSetTargetFuelLevelDesc>
+  
+  <!-- Cancel load -->
+  <CommandCancelLoad>取消裝載</CommandCancelLoad>
+  <CommandCancelLoadDesc>取消現有的裝載計畫，並釋出所有已裝載的物資或人員。</CommandCancelLoadDesc>
+  
+  <!-- Launch group -->
+  <CommandLaunchGroup>發射</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>啟動發射組的目標地定位程序。下一步將選擇目的地。運輸艙將會同時飛行並降落在一起。</CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>此發射組有部分運輸艙未連接燃料槽。</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>部分運輸艙發射座缺乏燃料。</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>部分運輸艙發射座位於屋頂之下。</CommandLaunchGroupFailUnderRoof>
+  
+  <!-- Load transporter -->
+  <CommandLoadTransporter>載入{0}發射組</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>將目前選取的發射組分為一組。你可以在裝載清單指定要裝載的人或物品。</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>此運輸艙未連接燃料槽。</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>此發射座缺乏燃料。</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Select previous transporter -->
+  <CommandSelectPreviousTransporter>上一個運輸艙</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>選取此發射組的上一個運輸艙。</CommandSelectPreviousTransporterDesc>
+  
+  <!-- Select all transporters -->
+  <CommandSelectAllTransporters>選擇發射組</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>選取一個發射組的所有運輸艙。</CommandSelectAllTransportersDesc>
+  
+  <!-- Select next transporter -->
+  <CommandSelectNextTransporter>下一個運輸艙</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>選取此發射組的下一個運輸艙。</CommandSelectNextTransporterDesc>
   
 </LanguageData>

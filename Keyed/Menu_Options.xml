@@ -11,7 +11,8 @@
   <EdgeScreenScroll>畫面邊緣滾動</EdgeScreenScroll>
   <PauseOnLoad>於讀取時暫停</PauseOnLoad>
   <PauseOnUrgentLetter>於接到重要通知時暫停遊戲</PauseOnUrgentLetter>
-  <CustomCursor>替換滑鼠游標</CustomCursor>
+  <CustomCursor>替換鼠標</CustomCursor>
+  <UIScale>UI規模</UIScale>
   <KeyboardConfig>快捷鍵設定</KeyboardConfig>
   <ChooseLanguage>變更語言</ChooseLanguage>
   <ResetAdaptiveTutor>重置遊戲教學</ResetAdaptiveTutor>
@@ -22,10 +23,14 @@
   <LogVerbose>詳細日誌紀錄</LogVerbose>
   <OpenSaveGameDataFolder>開啟存檔資料夾</OpenSaveGameDataFolder>
   <NamesYouWantToSee>在遊戲中或者背景故事中你想看到的角色姓氏：</NamesYouWantToSee>
+  <AddName>新增名字</AddName>
+  <TypeFirstNickOrLastName>輸入姓氏、暱稱或名字。</TypeFirstNickOrLastName>
+  <MessageAlreadyPreferredName>這個名字已經存在優先名單。</MessageAlreadyPreferredName>
   <ChangeStoryteller>選擇故事敘述者</ChangeStoryteller>
   <AutosaveInterval>自動保存間隔</AutosaveInterval>
   <TemperatureMode>溫度單位</TemperatureMode>
   <ShowRealtimeClock>顯示現實時間時鐘</ShowRealtimeClock>
+  <MaxNumberOfPlayerHomes>最大據點數量：{0}</MaxNumberOfPlayerHomes>
   <PlantWindSway>植物隨風擺盪</PlantWindSway>
   <MaxPermadeathAutosaveIntervalInfo>在無悔模式中，自動存檔最大間隔為{0}天。</MaxPermadeathAutosaveIntervalInfo>
   

@@ -8,6 +8,7 @@
   <CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
   <CannotUseReserved>無法使用(被預留)</CannotUseReserved>
   <CannotUseFull>無法使用(已滿)</CannotUseFull>
+	<LeaderUnavailable>無法聯絡{0}首領</LeaderUnavailable>
   
   <FireAt>對{0}開火</FireAt>
 
@@ -25,6 +26,7 @@
 
   <ForbiddenLower>禁止的</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>在活動區之外</ForbiddenOutsideAllowedAreaLower>
+  <NotInHomeArea>在生活區之外</NotInHomeArea>
   <SociallyImproperLower>社交能力不允許</SociallyImproperLower>
   <PrisonerRoomLower>牢房</PrisonerRoomLower>
   <BurningLower>燃燒中</BurningLower>
@@ -66,6 +68,7 @@
   <Reserved>已經被預留給其他人了。</Reserved>
   <ReservedBy>預留給了{0}。</ReservedBy>
   <IsReservedBy>{0}被預留给了{1}。</IsReservedBy>
+  <TooHeavy>超重</TooHeavy>
 
   <Incapable>無能力</Incapable>
   <IncapableOfCapacity>不具有{0}能力</IncapableOfCapacity>
@@ -80,11 +83,25 @@
   <CannotWear>無法穿上{0}</CannotWear>
   <CannotWearBecauseOfMissingBodyParts>缺少身體部位</CannotWearBecauseOfMissingBodyParts>
   
+  <CannotPickUp>無法撿起{0}</CannotPickUp>
+  <CannotPickUpAll>無法撿起所有{0}</CannotPickUpAll>
+  <PickUp>撿起{0}</PickUp>
+  <PickUpAll>撿起所有{0}</PickUpAll>
+  <PickUpSome>撿起{0}...</PickUpSome>
+  <PickUpCount>撿起{0}x{{0}}</PickUpCount>
+  
+  <CannotGiveToPackAnimal>無法將{0}裝載上馱獸</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>無法將所有{0}裝載上馱獸</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>將{0}裝載上馱獸</GiveToPackAnimal>
+  <GiveToPackAnimalAll>將所有{0}裝載上馱獸</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>將{0}...裝載上馱獸</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>將{0}x{{0}}裝載上馱獸</GiveToPackAnimalCount>
+  
+  <CannotCarryToExit>無法帶上{0}離開區域。</CannotCarryToExit>
+  <CarryToExit>帶上{0}並離開區域。</CarryToExit>
+  
   <Strip>脱下{0}的衣物</Strip>
   <CannotStrip>無法脱下{0}</CannotStrip>
-  
-  <Deposit>將{0}放置到{1}</Deposit>
-  <CannotDeposit>無法將{0}放置到{1}</CannotDeposit>
 
   <SelfDestructHere>在此自我毀滅</SelfDestructHere>
 
@@ -96,6 +113,10 @@
   
   <TradeWith>與{0}進行交易</TradeWith>
   <CannotTrade>無法交易</CannotTrade>
+  
+  <EnterMap>進入{0}</EnterMap>
+  <VisitFactionBase>拜訪{0}</VisitFactionBase>
+  <AttackFactionBase>攻擊{0}</AttackFactionBase>
   
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>進入低溫休眠艙</EnterCryptosleepCasket>
@@ -120,5 +141,8 @@
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
+
+  <DropAtEdge>放置在邊緣</DropAtEdge>
+  <DropInCenter>放置在中央</DropInCenter>
   
 </LanguageData>

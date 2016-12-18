@@ -76,6 +76,7 @@
   <Hilliness_SmallHills>丘陵</Hilliness_SmallHills>
   <Hilliness_LargeHills>山丘</Hilliness_LargeHills>
   <Hilliness_Mountainous>山地</Hilliness_Mountainous>
+  <Hilliness_Impassable>無法通行</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
   <WorkshopInteractStage_CreatingItem>建立</WorkshopInteractStage_CreatingItem>
@@ -142,8 +143,14 @@
   <Fahrenheit>華氏溫標</Fahrenheit>
   <Kelvin>凱式溫標</Kelvin>
   
-  <!-- Spoil reason -->
-  <SpoilReason_Freezing>因低溫而腐敗。</SpoilReason_Freezing>
-  <SpoilReason_HighTemperature>因高溫而腐敗。</SpoilReason_HighTemperature>
+  <!-- Direction8Way -->
+  <Direction8Way_North_Short>北</Direction8Way_North_Short>
+  <Direction8Way_NorthEast_Short>東北</Direction8Way_NorthEast_Short>
+  <Direction8Way_East_Short>東</Direction8Way_East_Short>
+  <Direction8Way_SouthEast_Short>東南</Direction8Way_SouthEast_Short>
+  <Direction8Way_South_Short>南</Direction8Way_South_Short>
+  <Direction8Way_SouthWest_Short>西南</Direction8Way_SouthWest_Short>
+  <Direction8Way_West_Short>西</Direction8Way_West_Short>
+  <Direction8Way_NorthWest_Short>西北</Direction8Way_NorthWest_Short>
   
 </LanguageData>

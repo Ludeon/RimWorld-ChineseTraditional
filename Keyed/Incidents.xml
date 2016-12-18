@@ -54,7 +54,7 @@
   <WandererJoin>一位名叫NAME的{0}來到了這裡並加入了殖民地。HECAP是一位{1}。</WandererJoin>
   
   <LetterLabelManhunterPackArrived>獸群襲擊</LetterLabelManhunterPackArrived>
-  <ManhunterPackArrived>一票專門襲擊人類的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何活人。\n\n牠們無法通過門，待在室內是安全的選擇。未運作的機槍炮塔也不會成為攻擊目標，如果你想保住它們，記得關掉。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
+  <ManhunterPackArrived>一票專門襲擊人類的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何活人。\n\n牠們通常不會破門而入，待在室內是安全的選擇。未運作的機槍炮塔也不會成為攻擊目標，如果你想保住它們，記得關掉電源。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <MessageAnimalInsanityPulse>這塊遠古星艦碎片發射了一股心靈脈衝，這讓它附近的動物都發瘋了。</MessageAnimalInsanityPulse>
@@ -81,7 +81,7 @@
 
   <!-- Beavers -->
   <LetterLabelBeaversArrived>海貍</LetterLabelBeaversArrived>
-  <BeaversArrived>一群飢餓的阿爾法海貍抵達了這個區域。\n\n在牠們將這片區域內的最後一棵樹啃食殆盡前剷除牠們！</BeaversArrived>
+  <BeaversArrived>一群飢腸轆轆的阿爾法海貍抵達了這個區域。\n\n在牠們將這片區域內的最後一棵樹啃食殆盡前剷除牠們！</BeaversArrived>
   
   <!-- Refugee chased -->
   <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。HECAP說他正被來自{3}的{2}追殺！\n\nHECAP請求加入殖民地以獲得庇護。HIS生理年齡是{4}歲。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
@@ -101,7 +101,7 @@
   
   <!-- Thrumbo passes -->
   <LetterLabelThrumboPasses>獨角獸</LetterLabelThrumboPasses>
-  <LetterThrumboPasses>一小群獨角獸正在附近遊蕩。\n\n這種稀有的物種天性溫和，但與牠們對抗可是極端的危險。有些商人願意開出高價收購牠們的角與皮毛。\n\n獨角獸只會在附近停留幾日。</LetterThrumboPasses>
+  <LetterThrumboPasses>一群獨角獸正在附近遊蕩。\n\n這種稀有的物種天性溫和，但與牠們對抗可是極端的危險。有些商人願意開出高價收購牠們的角與皮毛。\n\n獨角獸只會在附近停留幾日。</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <LetterLabelTraderCaravanArrival>來自{0}的商隊</LetterLabelTraderCaravanArrival>
@@ -116,4 +116,13 @@
   <RansomDemand_Accept>支付贖金</RansomDemand_Accept>
   <RansomDemand_Reject>拒絕支付</RansomDemand_Reject>
   
+  <!-- Journey -->
+  <JourneyOffer>一個你舊識的友善AI夏隆向你傳送了一則訊息！\n\n夏隆表示他在這座星球上藏了一艘星艦，並附上了星艦的座標，如果你能跋涉到座標所指的地點，他便能夠帶你離開這個邊緣世界，再度往天空中的星星飛去。</JourneyOffer>
+
+  <!-- Caravan meeting -->
+  <CaravanMeeting>你的商隊和來自{0}的商隊和平接觸了，這支商隊由以下單位組成：\n\n{1}</CaravanMeeting>
+  <CaravanMeeting_Trade>交易</CaravanMeeting_Trade>
+  <CaravanMeeting_Attack>攻擊</CaravanMeeting_Attack>
+  <CaravanMeeting_MoveOn>離去</CaravanMeeting_MoveOn>
+
 </LanguageData>

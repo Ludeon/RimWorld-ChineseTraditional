@@ -30,12 +30,20 @@
   <!-- Animals tab -->
   <Master>主人</Master>
   <PregnantIconDesc>懷孕({0}/{1})</PregnantIconDesc>
-  
+  <FollowDraftedTip>當主人受徵召時跟隨主人。</FollowDraftedTip>
+  <FollowFieldworkTip>當主人於野外工作時跟隨主人(如狩獵或馴養動物時)。</FollowFieldworkTip>
+	
   <!-- Factions tab -->
   <Hostile>敵對</Hostile>
+  <DefeatedLower>已擊敗</DefeatedLower>
   <HostileTo>與{0}敵對</HostileTo>
   <CurrentGoodwill>這個勢力目前的好感度。</CurrentGoodwill>
   
+  <!-- Social tab -->
+  <Friend>朋友</Friend>
+  <Rival>仇人</Rival>
+  <Acquaintance>熟人</Acquaintance>
+	
   <!-- History tab - subtabs -->
   <Graph>圖表</Graph>
   <Statistics>統計</Statistics>
