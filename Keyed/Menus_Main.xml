@@ -30,15 +30,15 @@
   <WorldGenerate>創造</WorldGenerate>
   <WorldSaveAndFinish>保存並完成</WorldSaveAndFinish>
   <Reset>重置</Reset>
-  <PlanetCoverage>星球覆蓋</PlanetCoverage>
+  <PlanetCoverage>生成比例</PlanetCoverage>
   <PlanetRainfall>整體降雨量</PlanetRainfall>
   <PlanetTemperature>整體氣溫</PlanetTemperature>
-  <PlanetRainfall_Low>低</PlanetRainfall_Low>
-  <PlanetRainfall_Normal>中</PlanetRainfall_Normal>
-  <PlanetRainfall_High>高</PlanetRainfall_High>
-  <PlanetTemperature_Low>低</PlanetTemperature_Low>
-  <PlanetTemperature_Normal>中</PlanetTemperature_Normal>
-  <PlanetTemperature_High>高</PlanetTemperature_High>
+  <PlanetRainfall_Low>乾旱</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>適中</PlanetRainfall_Normal>
+  <PlanetRainfall_High>溼潤</PlanetRainfall_High>
+  <PlanetTemperature_Low>寒冷</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>適中</PlanetTemperature_Normal>
+  <PlanetTemperature_High>炎熱</PlanetTemperature_High>
   <WorldSeed>種子</WorldSeed>
   <RandomizeSeed>隨機種子</RandomizeSeed>
   <PlanetCoverageTip>所有星球的直徑皆相同，但因為此大小已遠遠超出一般遊戲需求，因此我們不會生成整個星球地表，那會需要很長的時間。這是你想要生成的面積百分比。</PlanetCoverageTip>
@@ -112,15 +112,15 @@
   <MustSelectLandingSite>請選擇一個著陸點。</MustSelectLandingSite>
   <CannotLandBiome>你不能在{0}上著陸</CannotLandBiome>
   <BiomeNotImplemented>此生態系統尚未實裝。</BiomeNotImplemented>
-  <CannotLandImpassableMountains>You cannot land on impassable mountains.</CannotLandImpassableMountains>
+  <CannotLandImpassableMountains>你無法降落在無法通行的山地上。</CannotLandImpassableMountains>
   <BaseAlreadyThere>該地點已經有一座{0}基地了。</BaseAlreadyThere>
   <Biome>生態系統</Biome>
   <Terrain>地形</Terrain>
   <Elevation>海拔</Elevation>
   <Fertility>濕度</Fertility>
   <AvgTemp>平均溫度</AvgTemp>
-  <AvgWinterTemp>冬季均溫：{0}</AvgWinterTemp>
-  <AvgSummerTemp>夏季均溫：{0}</AvgSummerTemp>
+  <AvgSummerTemp>夏季均溫</AvgSummerTemp>
+  <AvgWinterTemp>冬季均溫</AvgWinterTemp>
   <Rainfall>降雨量</Rainfall>
   <HasCoast0>北岸</HasCoast0>
   <HasCoast1>東岸</HasCoast1>
