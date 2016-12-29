@@ -40,6 +40,7 @@
   <PrisonerAttemptRecruit>交談並嘗試招募</PrisonerAttemptRecruit>
   <PrisonerRelease>釋放</PrisonerRelease>
   <PrisonerExecution>處決</PrisonerExecution>
+	<ConsideredGuilty>被判有罪({0}後到期)</ConsideredGuilty>
   
   
   <!-- Medical - general -->
@@ -52,9 +53,6 @@
   <Healthy>健康</Healthy>
   <InPain>疼痛</InPain>
   <PainLevel>痛苦</PainLevel>
-  <Dead>死亡</Dead>
-  <Unconscious>昏迷</Unconscious>
-  <PainShock>休克</PainShock>
   <Injured>受傷</Injured>
   <NoInjuries>(健康)</NoInjuries>
   <WholeBody>全身</WholeBody>
@@ -62,6 +60,8 @@
   <Communication>通訊</Communication>
   <AffectsLower>影響</AffectsLower>
   <BleedingRate>出血率</BleedingRate>
+  <TimeToDeath>{0}後死亡</TimeToDeath>
+  <WontBleedOutSoon>無立即危險</WontBleedOutSoon>
   <HealthOverview>概觀</HealthOverview>
   <MedicalOperationsShort>手術({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>修正({0})</MedicalOperationsMechanoidsShort>

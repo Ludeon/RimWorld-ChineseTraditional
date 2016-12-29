@@ -83,9 +83,9 @@
   <CaravanVisiting>正在拜訪{0}。</CaravanVisiting>
   <CaravanEntering>正在進入{0}。</CaravanEntering>
   <CaravanAttacking>正在攻擊{0}。</CaravanAttacking>
-  <WasWornByCorpse>被穿在屍體身上。</WasWornByCorpse>
+  <WasWornByCorpse>曾被死者穿過。</WasWornByCorpse>
   <WornByCorpseChar>D</WornByCorpseChar>
-  <DeterioratingDueToBeingUnroofed>因露天放置而衰敗。</DeterioratingDueToBeingUnroofed>
+  <DeterioratingDueToBeingUnroofed>正因露天放置逐漸衰敗。</DeterioratingDueToBeingUnroofed>
   <Map>地圖</Map>
   <ForceExitAndRemoveMapCountdown>距離離開前{0}小時</ForceExitAndRemoveMapCountdown>
   <ForceExitAndRemoveMapCountdownTip>你的居民將會在{0}校時候自動重組商隊並離開目前所在區域。</ForceExitAndRemoveMapCountdownTip>
@@ -104,11 +104,11 @@
   <FactionBaseTrader>{1}的{0}</FactionBaseTrader>
   
   <!-- Fermentation barrel -->
-  <ContainsWort>含有{0}/{1}麥芽。</ContainsWort>
-  <ContainsBeer>含有{0}/{1}啤酒。</ContainsBeer>
+  <ContainsWort>含有{0}/{1}桶麥芽。</ContainsWort>
+  <ContainsBeer>含有{0}/{1}桶啤酒。</ContainsBeer>
   <Fermented>釀造完成</Fermented>
   <FermentationProgress>釀造進度：{0}(預計將於{1}後釀造完成)。</FermentationProgress>
-  <FermentationBarrelOutOfIdealTemperature>不在理想的釀造溫度內，目前的釀造速度為{0}倍</FermentationBarrelOutOfIdealTemperature>
+  <FermentationBarrelOutOfIdealTemperature>不理想的釀造溫度，當前釀造速度為{0}倍</FermentationBarrelOutOfIdealTemperature>
   
   <!--TextMotes-->
   <Headshot>命中頭部</Headshot>
