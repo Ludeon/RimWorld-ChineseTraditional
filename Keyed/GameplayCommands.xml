@@ -148,37 +148,37 @@
   <CommandBuildCopyDesc>複製當前的建築與設施。</CommandBuildCopyDesc>
   
   <!-- Form caravan -->
-  <CommandFormCaravan>組織商隊</CommandFormCaravan>
+  <CommandFormCaravan>組織旅隊</CommandFormCaravan>
   <CommandFormCaravanDesc>集結一群居民並旅行至新的地區。居民將會集合所有指定的物資及同行的動物，隨後離開當前所在的區域並等待進一步命令。</CommandFormCaravanDesc>
   
   <!-- Reform caravan -->
-  <CommandReformCaravan>重新組織商隊</CommandReformCaravan>
-  <CommandReformCaravanDesc>重新組織商隊。居民將會離開當前所在的區域並等待進一步命令。</CommandReformCaravanDesc>
+  <CommandReformCaravan>重新組織旅隊</CommandReformCaravan>
+  <CommandReformCaravanDesc>重新組織旅隊。居民將會離開當前所在的區域並等待進一步命令。</CommandReformCaravanDesc>
   <CommandReformCaravanFailHostilePawns>仍有敵人存在此區域內。</CommandReformCaravanFailHostilePawns>
   
   <!-- Split caravan -->
   <CommandSplitCaravan>分割</CommandSplitCaravan>
-  <CommandSplitCaravanDesc>將一支商隊分成兩隊。商隊他們離彼此夠近的話便能夠重新匯合。</CommandSplitCaravanDesc>
+  <CommandSplitCaravanDesc>將一支旅隊分成兩隊。旅隊他們離彼此夠近的話便能夠重新匯合。</CommandSplitCaravanDesc>
   
   <!-- Merge caravan -->
   <CommandMergeCaravans>匯合</CommandMergeCaravans>
-  <CommandMergeCaravansDesc>使選取的商隊匯合成一隊。</CommandMergeCaravansDesc>
+  <CommandMergeCaravansDesc>使選取的旅隊匯合成一隊。</CommandMergeCaravansDesc>
   
   <!-- Settle -->
   <CommandSettle>設點</CommandSettle>
   <CommandSettleDesc>在這個區域建立據點。你的居民將會進入這個區域，而你將能夠在此建立一座新據點</CommandSettleDesc>
-  <CommandSettleFailOtherWorldObjectsHere>一個區域同時只能由一支商隊建立據點。</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailOtherWorldObjectsHere>一個區域同時只能由一支旅隊建立據點。</CommandSettleFailOtherWorldObjectsHere>
   <CommandSettleFailAlreadyHaveBase>你的勢力只能夠擁有最多一座據點。</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>據點數量已達最大值。</CommandSettleFailReachedMaximumNumberOfBases>
   
   <!-- Abandon home -->
   <CommandAbandonHome>拋棄</CommandAbandonHome>
-  <CommandAbandonHomeDesc>放棄這個區域。你將永遠不能再進入或訪問這個區域。一旦拋棄了你的家園，你將能夠再次下令讓你的商隊在一個新的地區建立新據點。</CommandAbandonHomeDesc>
+  <CommandAbandonHomeDesc>放棄這個區域。你將永遠不能再進入或訪問這個區域。一旦拋棄了你的家園，你將能夠再次下令讓你的旅隊在一個新的地區建立新據點。</CommandAbandonHomeDesc>
   <CommandAbandonHomeFailAllColonistsThere>你所有的居民都在那裡。</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
-  <CommandCancelFormingCaravan>取消組織商隊</CommandCancelFormingCaravan>
-  <CommandCancelFormingCaravanDesc>中止組織商隊的行動。</CommandCancelFormingCaravanDesc>
+  <CommandCancelFormingCaravan>取消組織旅隊</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>中止組織旅隊的行動。</CommandCancelFormingCaravanDesc>
   
   <!-- Show map -->
   <CommandShowMap>檢視</CommandShowMap>
