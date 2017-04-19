@@ -19,10 +19,14 @@
   <Insulation_Heat.label>保暖 - 熱</Insulation_Heat.label>
   <Insulation_Heat.description>裝備此裝備後能夠適應的最高氣溫加成。</Insulation_Heat.description>
   
-  <PersonalShieldEnergyMax.label>能量護盾能量最大值</PersonalShieldEnergyMax.label>
-  <PersonalShieldEnergyMax.description>能量護盾能維持的最大能量值，越多的能量能夠抵禦更多的傷害。</PersonalShieldEnergyMax.description>
+  <EnergyShieldEnergyMax.label>護盾腰帶能量最大值</EnergyShieldEnergyMax.label>
+  <EnergyShieldEnergyMax.description>護盾腰帶能維持的最大能量值，越多的能量能夠抵禦更多的傷害。</EnergyShieldEnergyMax.description>
   
-  <PersonalShieldRechargeRate.label>能量護盾充能速度</PersonalShieldRechargeRate.label>
-  <PersonalShieldRechargeRate.description>當護盾尚未被突破時每秒的能量補充值。</PersonalShieldRechargeRate.description>
+  <EnergyShieldRechargeRate.label>護盾腰帶充能速度</EnergyShieldRechargeRate.label>
+  <EnergyShieldRechargeRate.description>當護盾尚未被突破時每秒的能量補充值。</EnergyShieldRechargeRate.description>
+
+  <SmokepopBeltRadius.label>煙霧屏障半徑</SmokepopBeltRadius.label>
+  <SmokepopBeltRadius.description>煙霧腰帶發動時的屏蔽範圍。</SmokepopBeltRadius.description>
+  <SmokepopBeltRadius.formatString>{0}格</SmokepopBeltRadius.formatString>
   
 </LanguageData>

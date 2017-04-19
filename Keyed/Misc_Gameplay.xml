@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!-- Various -->
+  <HitPointsBasic>命中率</HitPointsBasic>
   <WorkLeft>剩餘工作</WorkLeft>
   <Contents>內容</Contents>
   <ContainedResources>包含資源</ContainedResources>
@@ -69,6 +70,7 @@
   <CaravanImmobilizedByMass>動彈不得：負重過量。</CaravanImmobilizedByMass>
   <CaravanOutOfFood>糧食耗盡。</CaravanOutOfFood>
   <CaravanDaysOfFood>糧食儲備天數：{0}</CaravanDaysOfFood>
+  <CaravanDaysOfFoodRot>糧食儲備天數：{0}，{1}天後腐敗</CaravanDaysOfFoodRot>
   <CaravanMemberMentalBreak>暫停原因：{0}精神崩潰了。</CaravanMemberMentalBreak>
   <AllCaravanMembersDowned>暫停原因：所有成員都倒下了。</AllCaravanMembersDowned>
   <CaravanTraveling>正在旅行。</CaravanTraveling>
@@ -101,7 +103,12 @@
   <TransportPodInGroupHasSomethingLeftToLoad>正在裝載</TransportPodInGroupHasSomethingLeftToLoad>
   <TransportPodDestinationBeyondMaximumRange>超出最大範圍</TransportPodDestinationBeyondMaximumRange>
   <TransportPodNotEnoughFuel>燃料不足</TransportPodNotEnoughFuel>
-  <FactionBaseTrader>{1}的{0}</FactionBaseTrader>
+  <SettlementTrader>{1}的{0}</SettlementTrader>
+  <RoomSurgerySuccessChanceFactor>房間手術成功率倍率</RoomSurgerySuccessChanceFactor>
+  <RoomInfectionChanceFactor>房間治療感染率倍率</RoomInfectionChanceFactor>
+  <VentClosed>關閉</VentClosed>
+  <WornBy>穿著於{0}</WornBy>
+  <EquippedBy>被{0}裝備</EquippedBy>
   
   <!-- Fermentation barrel -->
   <ContainsWort>含有{0}/{1}桶麥芽。</ContainsWort>
@@ -112,16 +119,19 @@
   
   <!--TextMotes-->
   <Headshot>命中頭部</Headshot>
-  <TextMote_TreatSuccess>治療成功！\成功率{0}</TextMote_TreatSuccess>
-  <TextMote_TreatFailed>治療失敗\成功率{0}</TextMote_TreatFailed>
-  <HarvestFailed>收穫\n失敗</HarvestFailed>
-  <TextMote_RecruitFail>招募失敗！\成功率{0}</TextMote_RecruitFail>
-  <TextMote_TameFail>馴服失敗\成功率{0}</TextMote_TameFail>
-  <TextMote_TameSuccess>馴服成功！\成功率{0}</TextMote_TameSuccess>
-  <TextMote_TrainFail>訓練失敗：{0}\成功率{1}</TextMote_TrainFail>
-  <TextMote_TrainSuccess>訓練完成：{0}\成功率{1}</TextMote_TrainSuccess>
+  <TextMote_TreatSuccess>治療成功！\n成功率{0}</TextMote_TreatSuccess>
+  <TextMote_TreatFailed>治療失敗\n成功率{0}</TextMote_TreatFailed>
+  <TextMote_HarvestFailed>收穫失敗</TextMote_HarvestFailed>
+  <TextMote_YieldWasted>製造失敗</TextMote_YieldWasted>
+  <TextMote_ProductWasted>採集失敗</TextMote_ProductWasted>
+  <TextMote_RecruitFail>招募失敗！\n成功率{0}</TextMote_RecruitFail>
+  <TextMote_TameFail>馴服失敗\n成功率{0}</TextMote_TameFail>
+  <TextMote_TameSuccess>馴服成功！\n成功率{0}</TextMote_TameSuccess>
+  <TextMote_TrainFail>訓練失敗：{0}\n成功率{1}</TextMote_TrainFail>
+  <TextMote_TrainSuccess>訓練完成：{0}\n成功率{1}</TextMote_TrainSuccess>
   <TextMote_FixBrokenDownBuildingFail>修理失敗</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>建造失敗</TextMote_ConstructionFail>
+  <TextMote_Dodge>閃避</TextMote_Dodge>
 
   <!-- Areas -->
   <Home>生活區</Home>
@@ -175,6 +185,7 @@
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>參加婚禮。</LordReportAttendingMarriageCeremony>
   <LordReportAttendingParty>參加派對</LordReportAttendingParty>
+  <LordReportFormingCaravan>組織旅隊</LordReportFormingCaravan>
 
   <!-- Shooting report -->
   <WeaponMissRadius>彈著點偏移半徑</WeaponMissRadius>
@@ -194,6 +205,8 @@
   <RecipeMakeJobString>正在製作{0}。</RecipeMakeJobString>
   <RecipeAdminister>管理{0}</RecipeAdminister>
   <RecipeAdministerJobString>正在管理{0}。</RecipeAdministerJobString>
+  <TeetotalerUnhappy>無癮主義者將會不開心</TeetotalerUnhappy>
+  <ProsthophobeUnhappy>仿生排斥者將會不開心</ProsthophobeUnhappy>
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝時間：{0}</ThoughtExpiresIn>
@@ -213,9 +226,11 @@
   <Dead>死亡</Dead>
   <Unconscious>失去意識</Unconscious>
   <PainShock>劇痛休克</PainShock>
+  <PainShockShort>Pain shock</PainShockShort>
   <Incapacitated>動彈不得</Incapacitated>
   <InRestraints>被關押(行動減慢)</InRestraints>
   <Carrying>攜帶</Carrying>
+  <AffectedBy>影響：</AffectedBy>
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
@@ -436,5 +451,27 @@
   <MarkLearned>標記為已學習</MarkLearned>
   <AlreadyLearned>已學習</AlreadyLearned>
   <Filter>篩選</Filter>
+
+  <!-- Compass -->
+  <CompassTip>指出正北方向，點擊以旋轉鏡頭使北極向上。</CompassTip>
+
+  <!-- Distance measure -->
+  <RoutePlannerButtonTip>點擊進入計畫模式。在計畫模式中，你能夠規劃你的旅途，並計算各中途點之間的距離。</RoutePlannerButtonTip>
+  <RoutePlannerAddTwoOrMoreWaypoints>新增兩個以上的中途點。</RoutePlannerAddTwoOrMoreWaypoints>
+  <RoutePlannerAddOneOrMoreWaypoints>新增一個以上的中途點。</RoutePlannerAddOneOrMoreWaypoints>
+  <RoutePlannerEstTimeToFinalDest>至最終目的地預估時間：{0}</RoutePlannerEstTimeToFinalDest>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>計畫模式套用了預設的旅隊行動速度，實際速度可能改變。</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingTicksPerMoveOfCaravan>Calculating for: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>滑鼠右鍵：新增或移除中途點。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressEscapeToExit>ESC：離開計畫模式。</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC：返回至旅隊組織畫面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <EstimatedTimeToThisWaypoint>至中途點預估時間：{0}</EstimatedTimeToThisWaypoint>
+  <EstimatedTimeToThisWaypointFromPrevious>此中途點與上一個之間的預估時間：{0}</EstimatedTimeToThisWaypointFromPrevious>
+
+  <!-- Outfits -->
+  <OutfitAnything>不限</OutfitAnything>
+  <OutfitWorker>工人</OutfitWorker>
+  <OutfitSoldier>戰士</OutfitSoldier>
+  <OutfitNudist>裸體主義者</OutfitNudist>
   
 </LanguageData>

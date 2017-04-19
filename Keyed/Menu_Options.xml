@@ -12,6 +12,7 @@
   <PauseOnLoad>於讀取時暫停</PauseOnLoad>
   <PauseOnUrgentLetter>於接到重要通知時暫停遊戲</PauseOnUrgentLetter>
   <CustomCursor>替換鼠標</CustomCursor>
+  <HatsShownOnlyOnMap>只在遊戲地圖中顯示帽子</HatsShownOnlyOnMap>
   <UIScale>UI尺寸</UIScale>
   <KeyboardConfig>快捷鍵設定</KeyboardConfig>
   <ChooseLanguage>變更語言</ChooseLanguage>
@@ -33,6 +34,7 @@
   <MaxNumberOfPlayerHomes>最大據點數量：{0}</MaxNumberOfPlayerHomes>
   <PlantWindSway>植物隨風擺盪</PlantWindSway>
   <MaxPermadeathAutosaveIntervalInfo>在無悔模式中，自動存檔最大間隔為{0}天。</MaxPermadeathAutosaveIntervalInfo>
+  <ModSettings>Mod設定</ModSettings>
   
   <!-- Resolution -->
   <Resolution>解析度</Resolution>
@@ -43,5 +45,9 @@
   <UserName>使用者名稱</UserName>
   <ChooseHistoryUploadPref>遊戲數據上傳選項。</ChooseHistoryUploadPref>
   <AboutHistoryUpload>玩家的遊戲數據可以幫助開發者取得更佳的遊戲平衡。如果你同意，每隔{0}天你的遊戲數據會自動上傳至RimWorld伺服器並分析(以及在遊戲結束等其他情况下上傳)。上傳的遊戲數據只包含關於遊戲的統計和歷史紀錄，不包含除了用戶名以外的任何個人訊息，完全匿名發送。</AboutHistoryUpload>
+  
+  <!-- Mods -->
+  <SelectMod>選擇Mod...</SelectMod>
+  <NoConfigurableMods>未載入任何可使用的mod.</NoConfigurableMods>
   
 </LanguageData>

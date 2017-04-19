@@ -42,7 +42,8 @@
   <WorldSeed>種子</WorldSeed>
   <RandomizeSeed>隨機種子</RandomizeSeed>
   <PlanetCoverageTip>所有星球的直徑皆相同，但因為此大小已遠遠超出一般遊戲需求，因此我們不會生成整個星球地表，那會需要很長的時間。這是你想要生成的面積百分比。</PlanetCoverageTip>
-
+  <WorldFactionsTab>勢力</WorldFactionsTab>
+  
   <!--=========== Select world ===================-->
   <SelectWorld>選擇世界</SelectWorld>
   <WorldChooseButton>選擇</WorldChooseButton>
@@ -114,8 +115,11 @@
   <BiomeNotImplemented>此生態系統尚未實裝。</BiomeNotImplemented>
   <CannotLandImpassableMountains>你無法降落在無法通行的山地上。</CannotLandImpassableMountains>
   <BaseAlreadyThere>該地點已經有一座{0}基地了。</BaseAlreadyThere>
+  <TileOccupied>此地點已被佔領。</TileOccupied>
+  <FactionBaseAdjacent>據點無法設置在與其他據點直接相鄰的位置。</FactionBaseAdjacent>
   <Biome>生態系統</Biome>
   <Terrain>地形</Terrain>
+  <Road>道路</Road>
   <Elevation>海拔</Elevation>
   <Fertility>濕度</Fertility>
   <AvgTemp>平均溫度</AvgTemp>
@@ -132,6 +136,7 @@
   <MovementTimeNow>當前行動時間</MovementTimeNow>
   <MovementTimeSummer>夏季行動時間</MovementTimeSummer>
   <MovementTimeWinter>冬季行動時間</MovementTimeWinter>
+  <AnimalsCanGrazeNow>動物已可放牧</AnimalsCanGrazeNow>
 	
   
   <!--=========== Character chooser ==========-->
@@ -167,9 +172,9 @@
   <Ignore>忽略</Ignore>
   
   <!--============ Progress bar==============-->
-
-  <GeneratingWorld>生成世界中...</GeneratingWorld>
-  <GeneratingMap>生成地圖中...</GeneratingMap>
-  <GeneratingMapForNewEncounter>生成新的遭遇地圖</GeneratingMapForNewEncounter>
+  <GeneratingWorld>生成世界中</GeneratingWorld>
+  <GeneratingPlanet>生成星球中</GeneratingPlanet>
+  <GeneratingMap>生成地圖中</GeneratingMap>
+  <GeneratingMapForNewEncounter>生成新的遭遇地圖中</GeneratingMapForNewEncounter>
 
 </LanguageData>

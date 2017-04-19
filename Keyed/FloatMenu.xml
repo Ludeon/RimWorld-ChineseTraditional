@@ -8,13 +8,15 @@
   <CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
   <CannotUseReserved>無法使用(被預留)</CannotUseReserved>
   <CannotUseFull>無法使用(已滿)</CannotUseFull>
-	<LeaderUnavailable>無法聯絡{0}首領</LeaderUnavailable>
+  <LeaderUnavailable>無法聯絡{0}首領</LeaderUnavailable>
+  <LeaderUnavailableNoLeader>對方勢力目前無首領</LeaderUnavailableNoLeader>
   
   <FireAt>對{0}開火</FireAt>
 
   <OutOfRange>超出射程</OutOfRange>
   <CannotHitTarget>無法擊中目標</CannotHitTarget>
   <IsIncapableOfViolenceLower>{0}無法執行暴力相關指令</IsIncapableOfViolenceLower>
+  <IncapableOfViolenceLower>無法執行暴力相關指令</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0}未受徵召</IsNotDraftedLower>
   <CannotOrderNonControlledLower>無法命令不受控制的單位</CannotOrderNonControlledLower>
   
@@ -42,6 +44,9 @@
   <NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
   <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
   <NoWort>麥芽不足</NoWort>
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>available food is in storage of higher priority</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <NoFoodToFillHopper>沒有適當的食物</NoFoodToFillHopper>
+  <SelfTendDisabled>無法自行治療</SelfTendDisabled>
   
   <ConsumeThing>食用{0}</ConsumeThing>
   
@@ -116,6 +121,7 @@
   
   <EnterMap>進入{0}</EnterMap>
   <VisitFactionBase>拜訪{0}</VisitFactionBase>
+  <VisitSite>探索</VisitSite>
   <AttackFactionBase>攻擊{0}</AttackFactionBase>
   
   <!-- Specific thing interactions -->
@@ -144,5 +150,11 @@
 
   <DropAtEdge>放置在邊緣</DropAtEdge>
   <DropInCenter>放置在中央</DropInCenter>
+
+  <VomitingLower>嘔吐中</VomitingLower>
+  <NotInterruptibleLower>行動無法中斷</NotInterruptibleLower>
+
+  <AddWaypoint>在此新增中途點</AddWaypoint>
+  <RemoveWaypoint>移除中途點</RemoveWaypoint>
   
 </LanguageData>

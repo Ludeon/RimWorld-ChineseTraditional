@@ -17,6 +17,7 @@
 
   <MessageVisitorsTakingWounded>{0}帶走一名受傷的訪客。</MessageVisitorsTakingWounded>
   <MessageVisitorsTrappedLeaving>來自{1}的{0}受困了，他正嘗試脫逃。</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsDangerousTemperature>因為危險的氣溫，來自{1}的{0}正在離開這個地區。</MessageVisitorsDangerousTemperature>
 
   <MessageWornApparelDeterioratedAway>{1}穿著的{0}已經損壞。</MessageWornApparelDeterioratedAway>
 
@@ -144,12 +145,12 @@
   
   <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整顆星球可能需要不少時間。</MessageMaxPlanetCoveragePerformanceWarning>
 
-	<MessagePlantDiedOfCold>{0}因低溫而凍死了。</MessagePlantDiedOfCold>
-	<MessagePlantDiedOfRot>{0}因過長時間未收穫而凋零了。</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfCold>{0}因低溫而凍死了。</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot>{0}因過長時間未收穫而凋零了。</MessagePlantDiedOfRot>
 
-	<MessagePawnBeingBurned>{0}被高溫烤乾枯萎了！</MessagePawnBeingBurned>
+  <MessagePawnBeingBurned>{0}被高溫烤乾枯萎了！</MessagePawnBeingBurned>
 
-	<MessageAccidentalOverdose>{0}不小心用了太多{1}！</MessageAccidentalOverdose>
+  <MessageAccidentalOverdose>{0}不小心用了太多{1}！</MessageAccidentalOverdose>
   
   <MessageCaravanArrivedAtDestination>{0}已經抵達目的地。</MessageCaravanArrivedAtDestination>
   
@@ -160,27 +161,30 @@
   <MessagePawnLeftMapAndCreatedCaravan>{0}已經離開地圖並組成旅隊。</MessagePawnLeftMapAndCreatedCaravan>
   
   <MessageSettledInExistingMap>你已經成功在新地區建立新據點。</MessageSettledInExistingMap>
-	
+  
   <MessageAmbushVictory>勝利！在重新組織旅隊前，你有{0}小時的時間能夠搜刮物資。</MessageAmbushVictory>
   
   <MessageAutomaticallyReformedCaravan>你的旅隊已經重組。</MessageAutomaticallyReformedCaravan>
 
-	<MessageOldWoundHealed>因為{0}，{1}的{2}痊癒了。</MessageOldWoundHealed>
+  <MessageOldWoundHealed>因為{0}，{1}的{2}痊癒了。</MessageOldWoundHealed>
 
-	<MessageRescueeJoined>因為你招募了HIM，{0}加入了你的隊伍！</MessageRescueeJoined>
+  <MessageRescueeJoined>因為你招募了HIM，{0}加入了你的隊伍！</MessageRescueeJoined>
   
   <MessageAttackedCaravanIsNowHostile>因為你攻擊了{0}的旅隊，他們宣布與你敵對了。</MessageAttackedCaravanIsNowHostile>
+  <MessageFactionPawnCrushed>{0}因屋頂坍方而有人員死亡。勢力關係：{1}</MessageFactionPawnCrushed>
+  <MessageFactionPawnLost>{0}失去了{1}。勢力關係：{2}</MessageFactionPawnLost>
   
   <MessageTransporterUnreachable>部分運輸艙受到阻擋。</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>所有與運輸艙相連的發射座必須相鄰。</MessageTransportersNotAdjacent>
   
   <MessageTransportersLoadCanceled_TransporterDestroyed>裝載工作已中止，因為其中一個運輸艙被摧毀。</MessageTransportersLoadCanceled_TransporterDestroyed>
-	<MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>裝載工作已中止，因為其中一個發射座被摧毀。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>裝載工作已中止，因為其中一個發射座被摧毀。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <MessageTransportersLoadingProcessStarted>你的居民將會將指定的物品裝載至運輸艙內。</MessageTransportersLoadingProcessStarted>
   
   <MessageTransportPodsArrived>你的運輸艙已經抵達。</MessageTransportPodsArrived>
-  <MessageTransportPodsArrivedAndLost>你的運輸艙已經抵達，但因為沒有人員在內，你遺失了貨物。</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndLost>你的運輸艙已經抵達，但因為沒有人員在內，你遺失了內容物。</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndAddedToCaravan>你的運輸艙已經抵達，內容物已加入至旅隊之中。</MessageTransportPodsArrivedAndAddedToCaravan>
   <MessageTransportPodsArrived_BecameHostile>{0}宣布與你敵對了。</MessageTransportPodsArrived_BecameHostile>
   
   <MessageFailedToLoadTransportersBecauseColonistLost>裝載工作已中止，因為失去了其中一名人員。</MessageFailedToLoadTransportersBecauseColonistLost>
@@ -198,5 +202,24 @@
   <MessageCantEquipIncapableOfManipulation>無法裝備：無法使用</MessageCantEquipIncapableOfManipulation>
   
   <MessageSlaughteringBondedAnimal>屠宰{0}將會讓{1}不開心，因為他們是夥伴。</MessageSlaughteringBondedAnimal>
+
+  <MessageCaravanRunOutOfFood>{0}耗盡了糧食({1})。</MessageCaravanRunOutOfFood>
+
+  <MessageSelectOwnBaseToFormCaravan>要組織旅隊，選擇你的據點或你的居民所在的地點。</MessageSelectOwnBaseToFormCaravan>
+
+  <MessageScreenResTooSmallForUIScale>根據目前的解析度及UI比例，螢幕將無法容納遊戲界面，請降低UI比例或調高解析度。</MessageScreenResTooSmallForUIScale>
+
+  <MessageYouHaveToReformCaravanNow>你必須立刻重組旅隊，任何被拋下的人將不再受你控制。</MessageYouHaveToReformCaravanNow>
+
+  <MessageDefendersAttacking>來自{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
+
+  <MessageSelfTendUnsatisfied>{0}能夠自行治療，但未被指定醫護工作。</MessageSelfTendUnsatisfied>
+
+  <MessageCantAddWaypointBecauseImpassable>此地塊無法通行。</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseUnreachable>無法從最後一個中途點前往至此地塊。</MessageCantAddWaypointBecauseUnreachable>
+  <MessageCantAddWaypointBecauseLimit>你無法新增超過{0}個中途點。</MessageCantAddWaypointBecauseLimit>
+  <MessageCantRemoveWaypointBecauseFirst>你無法移除這個中途點。</MessageCantRemoveWaypointBecauseFirst>
+
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>你的監管人中沒有允許使用暴力的人員，因此處刑將不被執行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
 </LanguageData>

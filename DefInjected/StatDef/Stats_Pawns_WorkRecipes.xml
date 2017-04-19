@@ -11,6 +11,16 @@
   
   <SmithingSpeed.label>鍛造速度</SmithingSpeed.label>
   <SmithingSpeed.description>這名角色進行鍛造工作時的工作速度。</SmithingSpeed.description>
+
+  <DrugProductionSpeed.label>藥物製作速度</DrugProductionSpeed.label>
+  <DrugProductionSpeed.description>這名角色製作藥物的工作速度。</DrugProductionSpeed.description>
+  
+  <StonecuttingSpeed.label>石材加工速度</StonecuttingSpeed.label>
+  <StonecuttingSpeed.description>這名角色進行石材加工工作時的工作速度。</StonecuttingSpeed.description>
+  
+  <SmeltingSpeed.label>金屬提煉速度</SmeltingSpeed.label>
+  <SmeltingSpeed.description>這名角色進行金屬提煉工作時的工作速度。</SmeltingSpeed.description>
+  
   
   <!-- Production recipes - speed affected by skill.-->
   
@@ -26,22 +36,16 @@
   <ButcheryFleshSpeed.label>屠宰速度</ButcheryFleshSpeed.label>
   <ButcheryFleshSpeed.description>這名角色進行屠宰工作時的工作速度。</ButcheryFleshSpeed.description>
   
+  <ButcheryMechanoidSpeed.label>機械拆解速度</ButcheryMechanoidSpeed.label>
+  <ButcheryMechanoidSpeed.description>這名角色進行拆解工作時的工作速度。</ButcheryMechanoidSpeed.description>
+
+  <MechanoidOperationSuccessChance.label>機械拆解成功率</MechanoidOperationSuccessChance.label>
+  <MechanoidOperationSuccessChance.description>這名角色拆解機械時的成功率，拆解失敗的結果輕則白費時間，嚴重則可能使對象受到嚴重損害。</MechanoidOperationSuccessChance.description>
+  
   <ButcheryFleshEfficiency.label>屠宰效率</ButcheryFleshEfficiency.label>
   <ButcheryFleshEfficiency.description>這名角色進行屠宰工作時的成品生產效率加成。</ButcheryFleshEfficiency.description>
   
-  <ButcheryMechanoidSpeed.label>拆解速度</ButcheryMechanoidSpeed.label>
-  <ButcheryMechanoidSpeed.description>這名角色進行拆解工作時的工作速度。</ButcheryMechanoidSpeed.description>
-  
   <ButcheryMechanoidEfficiency.label>拆解效率</ButcheryMechanoidEfficiency.label>
   <ButcheryMechanoidEfficiency.description>這名角色進行拆解工作時的成品生產效率加成。</ButcheryMechanoidEfficiency.description>
-  
-  <StonecuttingSpeed.label>石材加工速度</StonecuttingSpeed.label>
-  <StonecuttingSpeed.description>這名角色進行石材加工工作時的工作速度。</StonecuttingSpeed.description>
-  
-  <SmeltingSpeed.label>金屬提煉速度</SmeltingSpeed.label>
-  <SmeltingSpeed.description>這名角色進行金屬提煉工作時的工作速度。</SmeltingSpeed.description>
-
-  <DrugProductionSpeed.label>藥物製作速度</DrugProductionSpeed.label>
-  <DrugProductionSpeed.description>這名角色製作藥物的工作速度。</DrugProductionSpeed.description>
   
 </LanguageData>

@@ -2,30 +2,39 @@
 <LanguageData>
   
   <WorkSpeedGlobal.label>工作速度</WorkSpeedGlobal.label>
-  <WorkSpeedGlobal.description>這名角色進行任何工作時的效率加成。</WorkSpeedGlobal.description>
+  <WorkSpeedGlobal.description>這名角色進行任何工作時的速度加成。</WorkSpeedGlobal.description>
   
   <MiningSpeed.label>採礦速度</MiningSpeed.label>
-  <MiningSpeed.description>這名角色進行採礦工作時的效率加成。</MiningSpeed.description>
+  <MiningSpeed.description>這名角色進行採礦工作時的速度加成。</MiningSpeed.description>
+
+  <MiningYield.label>採礦產量倍率</MiningYield.label>
+  <MiningYield.description>這名角色採礦的產量加成。越高的倍率越能避免產品的浪費。此數值同時作用於地表開採及地下採礦。</MiningYield.description>
   
   <SmoothingSpeed.label>打磨速度</SmoothingSpeed.label>
-  <SmoothingSpeed.description>這名角色進行地面打磨工作時的效率加成。</SmoothingSpeed.description>
+  <SmoothingSpeed.description>這名角色進行地面打磨工作時的速度加成。</SmoothingSpeed.description>
   
   <ResearchSpeed.label>研究速度</ResearchSpeed.label>
-  <ResearchSpeed.description>這名角色進行研究工作時的效率加成。</ResearchSpeed.description>
+  <ResearchSpeed.description>這名角色進行研究工作時的速度加成。</ResearchSpeed.description>
   
   <ConstructionSpeed.label>生產速度</ConstructionSpeed.label>
-  <ConstructionSpeed.description>這名角色進行生產工作時的效率加成。</ConstructionSpeed.description>
+  <ConstructionSpeed.description>這名角色進行生產工作時的速度加成。</ConstructionSpeed.description>
+
+  <AnimalGatherSpeed.label>動物採集速度</AnimalGatherSpeed.label>
+  <AnimalGatherSpeed.description>這名角色進行諸如擠奶、剃毛等等收穫畜產的速度加成。</AnimalGatherSpeed.description>
+
+  <AnimalGatherYield.label>動物採集倍率</AnimalGatherYield.label>
+  <AnimalGatherYield.description>這名角色進行諸如擠奶、剃毛等等從活的動物身上收穫資源時的產量加成。越高的倍率越能避免產品的浪費。</AnimalGatherYield.description>
   
   <PlantWorkSpeed.label>種植速度</PlantWorkSpeed.label>
-  <PlantWorkSpeed.description>這名角色進行種植工作時的效率加成。</PlantWorkSpeed.description>
+  <PlantWorkSpeed.description>這名角色進行種植工作時的速度加成。</PlantWorkSpeed.description>
   
-  <HarvestFailChance.label>收穫速度</HarvestFailChance.label>
-  <HarvestFailChance.description>這名角色進行收穫工作時的效率加成。</HarvestFailChance.description>
+  <PlantHarvestYield.label>作物收穫倍率</PlantHarvestYield.label>
+  <PlantHarvestYield.description>這名角色收穫作物時的產量加成。效率越低的角色越有可能會收穫失敗而破壞作物。</PlantHarvestYield.description>
 
   <ConstructFailChance.label>建設失敗率</ConstructFailChance.label>
   <ConstructFailChance.description>這名角色進行建造工作時的出錯機率。建造失敗可能仍然會消耗一部分的材料。</ConstructFailChance.description>
 
   <FixBrokenDownBuildingFailChance.label>修理速度</FixBrokenDownBuildingFailChance.label>
-  <FixBrokenDownBuildingFailChance.description>這名角色進行修理工作時的效率加成。</FixBrokenDownBuildingFailChance.description>
+  <FixBrokenDownBuildingFailChance.description>這名角色進行修理工作時的速度加成。</FixBrokenDownBuildingFailChance.description>
   
 </LanguageData>

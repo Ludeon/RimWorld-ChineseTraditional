@@ -27,8 +27,8 @@
   <CommandToggleDraftDesc>切換徵召狀態。\n\n被徵召的人會遵守命令並戰鬥。他們不會工作、吃飯或休息。</CommandToggleDraftDesc>
   <IsIncapped>{0}無法動彈。</IsIncapped>
   
-	<CommandAllowFiringLabel>允許開火</CommandAllowFiringLabel>
-	<CommandAllowFiringDesc>允許或禁止開火。\n\n當禁止開火時，這名角色將不會自動對射程範圍內的目標開火。此設定對近戰不起作用。</CommandAllowFiringDesc>
+  <CommandAllowFiringLabel>允許開火</CommandAllowFiringLabel>
+  <CommandAllowFiringDesc>允許或禁止開火。\n\n當禁止開火時，這名角色將不會自動對射程範圍內的目標開火。此設定對近戰不起作用。</CommandAllowFiringDesc>
 	
   <CommandClearPrioritizedWork>取消優先工作</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>取消目前優先進行的工作，讓居民回歸正常工作。</CommandClearPrioritizedWorkDesc>
@@ -170,11 +170,15 @@
   <CommandSettleFailOtherWorldObjectsHere>一個區域同時只能由一支旅隊建立據點。</CommandSettleFailOtherWorldObjectsHere>
   <CommandSettleFailAlreadyHaveBase>你的勢力只能夠擁有最多一座據點。</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>據點數量已達最大值。</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettleFailBiomeNotImplemented>此生態系無法設點。</CommandSettleFailBiomeNotImplemented>
+  <CommandSettleFailFactionBaseAdjacent>據點無法與其他據點直接相鄰。</CommandSettleFailFactionBaseAdjacent>
+  <CommandSettleFailNoColonists>區域內無居民可進行佔領。</CommandSettleFailNoColonists>
+  <CommandSettleFailEnemies>區域內存在敵人。</CommandSettleFailEnemies>
   
   <!-- Abandon home -->
   <CommandAbandonHome>拋棄</CommandAbandonHome>
   <CommandAbandonHomeDesc>放棄這個區域。你將永遠不能再進入或訪問這個區域。一旦拋棄了你的家園，你將能夠再次下令讓你的旅隊在一個新的地區建立新據點。</CommandAbandonHomeDesc>
-  <CommandAbandonHomeFailAllColonistsThere>你所有的居民都在那裡。</CommandAbandonHomeFailAllColonistsThere>
+  <CommandAbandonHomeFailAllColonistsThere>你所有的居民都在區域內。</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
   <CommandCancelFormingCaravan>取消組織旅隊</CommandCancelFormingCaravan>
@@ -188,6 +192,12 @@
   <CommandTrade>交易</CommandTrade>
   <CommandTradeDesc>與此派系進行交易。</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>無任何具交易能力者。</CommandTradeFailNoNegotiator>
+
+  <!-- Fulfill request -->
+  <CommandFulfillTradeOffer>履行交易</CommandFulfillTradeOffer>
+  <CommandFulfillTradeOfferDesc>履行據點的物資請求並獲取你的報酬。</CommandFulfillTradeOfferDesc>
+  <CommandFulfillTradeOfferFailInsufficient>你的旅隊必須擁有{0}才能履行此交易。</CommandFulfillTradeOfferFailInsufficient>
+  <CommandFulfillTradeOfferConfirm>以{0}交換{1}？</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
   <CommandTakeOff>逃離</CommandTakeOff>
@@ -226,5 +236,13 @@
   <!-- Select next transporter -->
   <CommandSelectNextTransporter>下一個運輸艙</CommandSelectNextTransporter>
   <CommandSelectNextTransporterDesc>選取此發射組的下一個運輸艙。</CommandSelectNextTransporterDesc>
+
+  <!-- Vent -->
+  <CommandDesignateOpenCloseVentLabel>指定開/關</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentDesc>指定這個空調扇開啟或關閉，一名居民將盡快進行此工作。</CommandDesignateOpenCloseVentDesc>
+
+  <!-- Remove waypoint -->
+  <CommandRemoveWaypointLabel>移除</CommandRemoveWaypointLabel>
+  <CommandRemoveWaypointDesc>移除此中途點。</CommandRemoveWaypointDesc>
   
 </LanguageData>

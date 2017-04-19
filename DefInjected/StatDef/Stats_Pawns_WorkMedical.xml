@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+  <MedicalTendSpeed.label>醫療速度</MedicalTendSpeed.label>
+  <MedicalTendSpeed.description>身為醫生處理傷勢、治療疾病時的速度加成。</MedicalTendSpeed.description>
+
+  <MedicalTendQuality.label>醫療品質</MedicalTendQuality.label>
+  <MedicalTendQuality.description>身為醫生能夠給予病人創傷的治療品質。</MedicalTendQuality.description>
   
   <MedicalOperationSpeed.label>手術執行速度</MedicalOperationSpeed.label>
   <MedicalOperationSpeed.description>角色在執行手術的速度。</MedicalOperationSpeed.description>
-  
-  <SurgerySuccessChance.label>手術機率</SurgerySuccessChance.label>
-  <SurgerySuccessChance.description>此角色執行手術時的機率，輕微的失誤可能只需要花費更多時間與藥即可彌補，但重大的失誤可能帶給病人災難性的傷害。</SurgerySuccessChance.description>
-  
-  <HealingQuality.label>治療品質</HealingQuality.label>
-  <HealingQuality.description>身為醫生能夠給予病人創傷的治療品質。</HealingQuality.description>
-  
-  <HealingSpeed.label>復元速度</HealingSpeed.label>
-  <HealingSpeed.description>身為醫生能夠給予病人的復原速度。</HealingSpeed.description>
+
+  <MedicalSurgerySuccessChance.label>手術成功率</MedicalSurgerySuccessChance.label>
+  <MedicalSurgerySuccessChance.description>此角色執行手術時的成功機率，輕微的失誤可能只需要花費更多時間與藥即可彌補，但重大的失誤可能帶給病人災難性的傷害。</MedicalSurgerySuccessChance.description>
+
   
 </LanguageData>

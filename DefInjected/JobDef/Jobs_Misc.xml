@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+  <!-- General -->
   
   <Goto.reportString>移動中。</Goto.reportString>
   <GotoSafeTemperature.reportString>尋找溫度安全的地方。</GotoSafeTemperature.reportString>
   <GotoWander.reportString>閒晃</GotoWander.reportString>
   <Wait.reportString>站著。</Wait.reportString>
+  <WaitMaintainPosture.reportString>站著。</WaitMaintainPosture.reportString>
   <WaitDowned.reportString>倒著。</WaitDowned.reportString>
   <WaitSafeTemperature.reportString>尋找溫度安全的地方。</WaitSafeTemperature.reportString>
   <WaitWander.reportString>閒晃</WaitWander.reportString>
@@ -23,6 +26,8 @@
   <Open.reportString>開啟TargetA。</Open.reportString>
   <RearmTrap.reportString>重設陷阱TargetA。</RearmTrap.reportString>
   <Refuel.reportString>替TargetA添加燃料。</Refuel.reportString>
+  <FillFermentingBarrel.reportString>裝填TargetA。</FillFermentingBarrel.reportString>
+  <TakeBeerOutOfFermentingBarrel.reportString>正從TargetA取出啤酒。</TakeBeerOutOfFermentingBarrel.reportString>
   <UnloadInventory.reportString>卸除TargetA的貨物。</UnloadInventory.reportString>
   <UnloadYourInventory.reportString>卸貨。</UnloadYourInventory.reportString>
   <ManTurret.reportString>操作武器。</ManTurret.reportString>
@@ -34,15 +39,23 @@
   <Vomit.reportString>嘔吐。</Vomit.reportString>
   <Flick.reportString>切換開關。</Flick.reportString>
   <TradeWithPawn.reportString>與TargetA交易。</TradeWithPawn.reportString>
-  <FleeAndCower.reportString>逃跑。</FleeAndCower.reportString>
+  <Flee.reportString>逃跑。</Flee.reportString>
+  <FleeAndCower.reportString>逃跑。</FleeAndCower.reportString>  
   <EnterTransporter.reportString>進入TargetA。</EnterTransporter.reportString>
+
+
+  <!-- Fire -->
+  
   <Ignite.reportString>引燃TargetA。</Ignite.reportString>
   <BeatFire.reportString>滅火。</BeatFire.reportString>
   <ExtinguishSelf.reportString>撲滅身上的火。</ExtinguishSelf.reportString>
+
+
+  <!-- Need satisfaction -->
+
   <Ingest.reportString>食用TargetA。</Ingest.reportString>
   <LayDown.reportString>躺著。</LayDown.reportString>
-  <FillFermentingBarrel.reportString>裝填TargetA。</FillFermentingBarrel.reportString>
-  <TakeBeerOutOfFermentingBarrel.reportString>正從TargetA取出啤酒。</TakeBeerOutOfFermentingBarrel.reportString>
+
   
   <!-- Love -->
 

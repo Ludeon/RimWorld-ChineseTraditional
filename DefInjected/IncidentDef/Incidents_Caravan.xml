@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<Ambush.label>埋伏</Ambush.label>
-	<Ambush.letterText>你的旅團受到{1}的{0}伏擊了！</Ambush.letterText>
-	<Ambush.letterLabel>旅團遇襲</Ambush.letterLabel>
+  <!-- Ambush -->
+
+  <Ambush.label>埋伏</Ambush.label>
+  <Ambush.letterText>你的旅隊受到{1}的{0}伏擊了！</Ambush.letterText>
+  <Ambush.letterLabel>旅隊遇襲</Ambush.letterLabel>
+  
   <ManhunterAmbush.label>獸群埋伏</ManhunterAmbush.label>
-  <ManhunterAmbush.letterText>你的旅團被一大群{0}偷襲了！</ManhunterAmbush.letterText>
-  <ManhunterAmbush.letterLabel>旅團遇襲</ManhunterAmbush.letterLabel>
-	<CaravanMeeting.label>旅團接觸</CaravanMeeting.label>
+  <ManhunterAmbush.letterText>你的旅隊被一大群{0}偷襲了！</ManhunterAmbush.letterText>
+  <ManhunterAmbush.letterLabel>旅隊遇襲</ManhunterAmbush.letterLabel>
+
+
+  <!-- Caravan meeting -->
+  
+  <CaravanMeeting.label>旅隊接觸</CaravanMeeting.label>
+
+
+  <!-- Payment demand -->
+
+  <CaravanDemand.label>攔路索財</CaravanDemand.label>
+  <CaravanDemand.letterText>你的旅隊遭到{1}的{0}攔截了！</CaravanDemand.letterText>
+  <CaravanDemand.letterLabel>旅隊攔截</CaravanDemand.letterLabel>
+  
 
 </LanguageData>

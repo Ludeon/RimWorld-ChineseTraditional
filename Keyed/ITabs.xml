@@ -40,12 +40,14 @@
   <PrisonerAttemptRecruit>交談並嘗試招募</PrisonerAttemptRecruit>
   <PrisonerRelease>釋放</PrisonerRelease>
   <PrisonerExecution>處決</PrisonerExecution>
-	<ConsideredGuilty>被判有罪({0}後到期)</ConsideredGuilty>
+  <ConsideredGuilty>被判有罪({0}後到期)</ConsideredGuilty>
   
   
   <!-- Medical - general -->
   <MoveSpeed>移動速度</MoveSpeed>
   <Efficiency>效率</Efficiency>
+  <PartEfficiency>部位運作效率</PartEfficiency>
+  <BodyPartEfficiency>身體部位運作效率</BodyPartEfficiency>
   <MissingBodyPart>不存在</MissingBodyPart>
   <DestroyedBodyPart>喪失功能</DestroyedBodyPart>
   <ShatteredBodyPart>破裂</ShatteredBodyPart>
@@ -75,6 +77,8 @@
   <Tiredness>疲勞速率</Tiredness>
   <PainFactor>疼痛</PainFactor>
   <PreventsInfection>預防感染</PreventsInfection>
+  <SelfTend>自行治療</SelfTend>
+  <SelfTendTip>若允許{0}自行治療，他將會以{1}於一般治療的速度治療自己。</SelfTendTip>
   
   
   <!-- Medical - Body and activities condition -->
@@ -104,6 +108,7 @@
   <!-- Social tab -->
   <NoRelationships>(無社交關係)</NoRelationships>
   <Kidnapped>綁架</Kidnapped>
+  <Missing>失蹤</Missing>
   <Slave>奴隸</Slave>
   <FactionLeader>勢力首領</FactionLeader>
   <OpinionOf>對{0}的看法</OpinionOf>

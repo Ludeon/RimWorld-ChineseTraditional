@@ -7,6 +7,8 @@
   
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>RimWorld已從{0}版升級至{1}版。\n\n這可能導致舊版本存檔及Mod無法繼續使用。</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>This may cause saved games and mods from the old version to stop working.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Saved games from the old version should be compatible, however some mods may stop working.</GameUpdatedToNewVersionSavesCompatible>
   <GameUpdatedToNewVersionNonSteam>因為你使用的是DRM-free版本，因此你可以分別在兩個資料夾安裝新舊版本的RimWorld，同時遊玩不同的遊戲版本。</GameUpdatedToNewVersionNonSteam>
   <GameUpdatedToNewVersionSteam>如果你想繼續使用舊版本，你可以選擇Steam的Beta項目。\n\n  1. 在Steam遊戲庫，點選Rimworld。\n  2. 點選「屬性」\n  3. 點選「Betas Tab」\n  4. 在選單中選擇你要的版本。\n\n此服務只是為了避免舊版的遊戲進度中斷，而舊版本終究會從此清單中下架。\n\n請記住，若Mod開發者將Mod升級至新版本，他們很可能就此停止對舊版本的開發，你可以關閉Mod自動更新以避免Mod更新成不相容的版本。</GameUpdatedToNewVersionSteam>
   
@@ -24,7 +26,9 @@
   <ErrorWhileLoadingMap>載入地圖時發生錯誤。查看錯誤紀錄以獲得更多訊息。</ErrorWhileLoadingMap>
   
   <!-- Unloaded mod with an assembly -->
-  <ModWithAssemblyWasUnloaded>遊戲無法完全卸載由Mod導入的程式碼，因此來自某些已卸載的Mod的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並取消所有使用中的Mod後再次進行遊戲。</ModWithAssemblyWasUnloaded>
+  <ModsChanged>Mod設置已更動，遊戲將自動重啟。</ModsChanged>
+  <FailedToRestart>遊戲無法完全卸載由Mod導入的程式碼，因此來自某些已卸載的Mod的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並停用所有使用中的Mod後再次進行遊戲。</FailedToRestart>
+  <Restarting>重新啟動中</Restarting>
   
   <!-- Missing Steam -->
   <SteamClientMissing>Steam API初始化失敗。可能的緣故有：\n\n-Steam並未運行。\n-外部Steam在沒有steam_appid.txt的狀態下運行。\n-以與Steam不同的權限運行(例如以系統管理員權限運行)。\n\n此Steam版的遊戲需要Steam才能運行，遊戲即將關閉。</SteamClientMissing>
@@ -149,11 +153,16 @@
   <BillStoreMode_DropOnFloor>放到地上</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>放到最合適的儲藏區</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>放到最近的儲藏區</BillStoreMode_NearestStockpileAnyPriority>
+
+  <PauseWhenSatisfied>滿足時暫停</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>解除暫停於</UnpauseWhenYouHave>
+  <Paused>暫停</Paused>
+  <Unpause>解除暫停</Unpause>
   
   <!-- Info card -->
   <Damage>傷害</Damage>
   <Accuracy>精度</Accuracy>
-  <BurstShotCount>連射回數</BurstShotCount>
+  <BurstShotCount>連發次數</BurstShotCount>
   <WarmupTime>預熱時間</WarmupTime>
   <MeleeWarmupTime>近戰預熱時間</MeleeWarmupTime>
   <CooldownTime>冷卻時間</CooldownTime>
@@ -167,8 +176,7 @@
   <Days>天</Days>
   <MinGrowingSkillToSow>最低種植等級</MinGrowingSkillToSow>
   <FertilityRequirement>種植需求</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>土壤肥沃度(生長速度倍率)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>土壤肥沃度()</SoilFertilitySensitivityPlantChance>
+  <FertilitySensitivity>肥沃度需求</FertilitySensitivity>
   <LightRequirement>光線需求</LightRequirement>
   <Attributes>來源</Attributes>
   <LifeSpan>壽命</LifeSpan>
@@ -178,13 +186,13 @@
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
   <MinFoodQuality>最低食物重量</MinFoodQuality>
   <Diet>飲食</Diet>
+  <BodySize>體型</BodySize>
   <RecruitDifficulty>招募難度</RecruitDifficulty>
   <MarketValue>基本價值</MarketValue>
   <Covers>掩護</Covers>
   <CoverEffectiveness>掩體效果</CoverEffectiveness>
   <CoverEffectivenessExplanation>作為掩體在槍火中能發揮的掩護效果，百分比越高可提供越好的掩護能力。</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>藥物經驗影響</MedicineXpGainFactor>
-  <BodyPartEfficiency>人造部位運作效率</BodyPartEfficiency>
   <MoodChange>情緒變化</MoodChange>
   <Wildness>野性</Wildness>
   <WildnessExplanation>野性越強烈的生物自然更加的難以馴養、訓練及掌握。</WildnessExplanation>
@@ -193,6 +201,8 @@
   <TimeRecordsCategory>經歷時間</TimeRecordsCategory>
   <MiscRecordsCategory>其它</MiscRecordsCategory>
   <Addictiveness>成癮性</Addictiveness>
+  <PackAnimal>駝獸</PackAnimal>
+  <PackAnimalExplanation>此種動物是否適合旅隊長距離搬運貨物。</PackAnimalExplanation>
   
   <!-- Trade -->
   <PositiveBuysNegativeSells>買入。\n賣出。</PositiveBuysNegativeSells>
@@ -210,19 +220,20 @@
   <TraderHasNoMore>商人貨品數量不足。</TraderHasNoMore>
   <ColonyHasNoMore>殖民地貨品數量不足。</ColonyHasNoMore>
   <TraderWillNotTrade>商人不接受此貨物。</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇更加健全的居民擔任代表。</NegotiatorTalkingImpaired>
+  <Negotiator>談判代表</Negotiator>
+  <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇健康的居民擔任代表。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
   <SortBy>排列方式以</SortBy>
-	<TraderTypePrice>商人類型</TraderTypePrice>
-	<Selling>銷售</Selling>
-	<Buying>購買</Buying>
-	<ItemSellPriceFactor>物品售價倍率</ItemSellPriceFactor>
-	<DifficultyLevel>難度等級</DifficultyLevel>
-	<PostCurve>global post-process curve</PostCurve>
-	<YourNegotiatorBonus>交涉紅利</YourNegotiatorBonus>
-	<TradeWithFactionBaseBonus>勢力據點交易紅利</TradeWithFactionBaseBonus>
-	<minimum>最低</minimum>
-	<FinalPrice>最終價格</FinalPrice>
+  <TraderTypePrice>商人類型</TraderTypePrice>
+  <Selling>銷售</Selling>
+  <Buying>購買</Buying>
+  <ItemSellPriceFactor>物品售價倍率</ItemSellPriceFactor>
+  <DifficultyLevel>難度等級</DifficultyLevel>
+  <PostCurve>曲線處理</PostCurve>
+  <YourNegotiatorBonus>交涉紅利</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>勢力據點交易紅利</TradeWithFactionBaseBonus>
+  <minimum>最低</minimum>
+  <FinalPrice>最終價格</FinalPrice>
   <TradeMassUsageTooltip>重量與容量的數值。</TradeMassUsageTooltip>
   
   <!-- Form caravan -->
@@ -239,17 +250,23 @@
   <CaravanItemIsUnreachableMulti>沒有任何被指派的居民能夠接觸到{0}x{1}。</CaravanItemIsUnreachableMulti>
   <TooBigCaravanMassUsage>旅隊無法負荷超量物資。</TooBigCaravanMassUsage>
   <CaravanMassUsageTooltip>當前重量與容量。\n\n重量包含所有旅隊攜帶的物資及人員身上的裝備。\n\n如果重量超過容量，旅隊將會無法行動。</CaravanMassUsageTooltip>
-  <MassUsageInfo>{0} / {1}公斤</MassUsageInfo>
+  <MassUsageInfo>{0}/{1}公斤</MassUsageInfo>
   <DaysWorthOfFoodInfo>{0}天份糧食</DaysWorthOfFoodInfo>
+  <DaysWorthOfFoodInfoRot>{0}天份糧食，將於{1}天內腐敗</DaysWorthOfFoodInfoRot>
+  <InfiniteDaysWorthOfFoodInfo>食物量永遠足夠</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>旅隊食物存量以天為單位的估算值。\n\n此計算值將人員及動物一併納入，並套用最嚴苛的狀況進行估算。這表示，經過這幾天之後，至少會有一個人或動物缺乏食物。</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip_CanEatLocalPlants>根據當地的季節、氣溫以及環境狀況，我們假設草食動物可以食用當地的植物，但情況可能隨時改變。</DaysWorthOfFoodTooltip_CanEatLocalPlants>
+  <DaysWorthOfFoodTooltip_CantEatLocalPlants>根據當地的季節、氣溫以及環境狀況，我們假設草食動物無法食用當地的植物，但情況可能隨時改變。</DaysWorthOfFoodTooltip_CantEatLocalPlants>
   <DaysWorthOfFoodWarningDialog>你的旅隊只剩下{0}天份的存糧，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>你的旅隊存糧已經耗盡，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog_NoFood>
+  <CaravanFoodWillRotSoonWarningDialog>指定的食物中有大部分即將腐敗。\n\n你確定你仍然要組織這支旅隊？</CaravanFoodWillRotSoonWarningDialog>
   <NoExitDirectionForCaravanChosen>你必須選擇旅隊的離開方向。</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(無可行的地圖出口)</NoCaravanExitDirectionAvailable>
   <ExitDirection>離開方向</ExitDirection>
   <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
   <ItemWeightTip>此物品的重量。</ItemWeightTip>
   <MarketValueTip>市場價格</MarketValueTip>
+  <DaysUntilRotTip>此物品腐敗的天數是根據當前區域的氣溫來推算。.</DaysUntilRotTip>
   <MassCapacity>容量</MassCapacity>
   <Mass>重量</Mass>
   <EquipmentAndApparelMass>裝備及衣物重量。</EquipmentAndApparelMass>
@@ -259,6 +276,7 @@
   <ColonistsSection>居民</ColonistsSection>
   <PrisonersSection>俘虜</PrisonersSection>
   <AnimalsSection>動物</AnimalsSection>
+  <EstimatedTimeToDestinationButton>預估抵達時間</EstimatedTimeToDestinationButton>
   
   <!-- Split caravan -->
   <SplitCaravan>分割旅隊</SplitCaravan>
@@ -291,7 +309,7 @@
   <HistoryUploadNo>不允許上傳遊戲數據</HistoryUploadNo>
   <HistoryUploadYesOnce>僅上傳本次的數據</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>不上傳本次的數據，並稍後再問我</HistoryUploadNoOnce>
-	
+  
   <!-- Outfit management -->
   <Outfit>裝備</Outfit>
   <SelectOutfit>選取裝備...</SelectOutfit>
@@ -334,11 +352,22 @@
   <DrugUsageTipForJoy>娛樂目的\n\n為了滿足娛樂及社交需求而使用這個藥物，並滿足藥癮(如果有的話)。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>計劃使用\n\n在滿足特定條件時根據計劃使用藥物。</DrugUsageTipScheduled>
   
+  <!-- Medical settings -->
+  <MedGroupDefaults>預設</MedGroupDefaults>
+  <MedGroupColonist>居民</MedGroupColonist>
+  <MedGroupImprisonedColonist>監禁中的居民</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>馴養動物</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>野生動物</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>友方勢力</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>敵對勢力</MedGroupHostileFaction>
+  
   <!-- Growing -->
   <NoGrowerCanPlant>種植{0}需要種植等級{1}的農夫。\n\n你的殖民地沒有符合條件的居民，因此植物不會被種植。</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <ConfirmAbandonHomeWithColonyPawns>還有一些屬於你的居民或動物存在此區域，你確定要拋棄他們？\n\n以下人員及動物將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeNegativeThoughts>遺棄{0}將導致以下人員產生以下心情：</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>全員：</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <ConfirmLeavePrisonersOrAnimalsBehind>還有一些俘虜或動物留在此區域，而這個旅隊是他們目前唯一能加入的。\n\n如果你移動你的旅隊，被留下的俘虜或動物將不會離開這個區域直到你回來。犯人會開始逃跑，而動物們則會等待直到你回來。\n\n如果你決定等候，他們會試著加入你的旅隊。\n\n你確定要移動你的旅隊嗎？</ConfirmLeavePrisonersOrAnimalsBehind>

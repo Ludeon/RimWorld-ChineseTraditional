@@ -84,6 +84,7 @@
   <BeaversArrived>一群飢腸轆轆的阿爾法海貍抵達了這個區域。\n\n在牠們將這片區域內的最後一棵樹啃食殆盡前剷除牠們！</BeaversArrived>
   
   <!-- Refugee chased -->
+  <RefugeeChasedTitle>給{0}庇護請求</RefugeeChasedTitle>
   <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。HECAP說他正被來自{3}的{2}追殺！\n\nHECAP請求加入殖民地以獲得庇護。HIS生理年齡是{4}歲。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>忽略訊息</RefugeeChasedInitial_Reject>
@@ -112,7 +113,8 @@
   <LetterBuildingBrokenDown>你有一部電器({0})損壞了，在具有修理技能的居民將它修理好之前，它將無法運作。</LetterBuildingBrokenDown>
   
   <!-- Ransom demand -->
-  <RansomDemand>{1}透過無線電呼叫你，他們挾持{0}以要脅贖金。\n\n如果你願意支付{2}白銀的贖金，他們將很樂意放HIS回來。</RansomDemand>
+  <RansomDemandTitle>給{0}的贖金要求</RansomDemandTitle>
+  <RansomDemand>{1}透過無線電呼叫你，他們挾持{0}以要脅贖金。\n\n如果你願意支付{2}白銀的贖金，他們將很樂意放HE回來。</RansomDemand>
   <RansomDemand_Accept>支付贖金</RansomDemand_Accept>
   <RansomDemand_Reject>拒絕支付</RansomDemand_Reject>
   
@@ -120,9 +122,21 @@
   <JourneyOffer>一個你舊識的友善AI夏隆向你傳送了一則訊息！\n\n夏隆表示他在這座星球上藏了一艘星艦，並附上了星艦的座標，如果你能跋涉到座標所指的地點，他便能夠帶你離開這個邊緣世界，再度往天空中的星星飛去。</JourneyOffer>
 
   <!-- Caravan meeting -->
+  <CaravanMeetingTitle>與{0}的接觸</CaravanMeetingTitle>
   <CaravanMeeting>你的旅隊和來自{0}的旅隊和平接觸了，這支旅隊由以下單位組成：\n\n{1}</CaravanMeeting>
   <CaravanMeeting_Trade>交易</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>攻擊</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>離去</CaravanMeeting_MoveOn>
+
+  <!-- Caravan request -->
+  <LetterLabelCaravanRequest>旅隊請求</LetterLabelCaravanRequest>
+  <LetterCaravanRequest>一座附近的據點{0}聯絡了你，並提出一項特別交易。他們希望購買：\n\n  {1}\n\n做為報酬，他們將提供：\n\n  {2}\n\n這項請求的期限至：{3}\n\n若你決定履行這項交易，派遣旅隊前去並帶上他們請求的物資。你可以在星球地圖上點選{0}重新確認這項交易。</LetterCaravanRequest>
+  <CaravanRequestInfo>請求：{0}，報酬：{1}(缺少{2}個)</CaravanRequestInfo>
+
+  <!-- Caravan demand -->
+  <CaravanDemandTitle>來自{0}的旅隊</CaravanDemandTitle>
+  <CaravanDemand>你的旅隊遭到來自{0}的{1}{3}埋伏。他們將會發動攻擊，除非你交出：\n\n{2}</CaravanDemand>
+  <CaravanDemand_Give>交付釐金</CaravanDemand_Give>
+  <CaravanDemand_Fight>拒絕並開戰</CaravanDemand_Fight>
 
 </LanguageData>
