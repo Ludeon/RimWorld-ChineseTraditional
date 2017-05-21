@@ -162,7 +162,7 @@
   
   <MessageSettledInExistingMap>你已經成功在新地區建立新據點。</MessageSettledInExistingMap>
   
-  <MessageAmbushVictory>勝利！在重新組織旅隊前，你有{0}小時的時間能夠搜刮物資。</MessageAmbushVictory>
+  <MessageAmbushVictory>勝利！在重新組織旅隊前，你有{0}的時間能夠搜刮物資。</MessageAmbushVictory>
   
   <MessageAutomaticallyReformedCaravan>你的旅隊已經重組。</MessageAutomaticallyReformedCaravan>
 
@@ -209,17 +209,21 @@
 
   <MessageScreenResTooSmallForUIScale>根據目前的解析度及UI比例，螢幕將無法容納遊戲界面，請降低UI比例或調高解析度。</MessageScreenResTooSmallForUIScale>
 
-  <MessageYouHaveToReformCaravanNow>你必須立刻重組旅隊，任何被拋下的人將不再受你控制。</MessageYouHaveToReformCaravanNow>
+  <MessageYouHaveToReformCaravanNow>你必須立刻重組旅隊，任何被拋下的人將會被遺棄。</MessageYouHaveToReformCaravanNow>
 
   <MessageDefendersAttacking>來自{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
 
-  <MessageSelfTendUnsatisfied>{0}能夠自行治療，但未被指定醫護工作。</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>{0}需被指定醫護工作才能夠自行治療。</MessageSelfTendUnsatisfied>
+  <MessageCannotSelfTendEver>{0}無法執行醫護工作，因此也無法自行治療</MessageCannotSelfTendEver>
 
   <MessageCantAddWaypointBecauseImpassable>此地塊無法通行。</MessageCantAddWaypointBecauseImpassable>
   <MessageCantAddWaypointBecauseUnreachable>無法從最後一個中途點前往至此地塊。</MessageCantAddWaypointBecauseUnreachable>
   <MessageCantAddWaypointBecauseLimit>你無法新增超過{0}個中途點。</MessageCantAddWaypointBecauseLimit>
   <MessageCantRemoveWaypointBecauseFirst>你無法移除這個中途點。</MessageCantRemoveWaypointBecauseFirst>
 
-  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>你的監管人中沒有允許使用暴力的人員，因此處刑將不被執行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>你的監管人中沒有允許使用暴力的人員，因此處刑將不被執行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>>
+ 
+  <MessageSiteCountdownBecauseNoMoreEnemies>你殲滅了所有敵人，旅隊將在{0}內自動重組。</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoEnemiesInitially>旅隊將在{0}內自動重組，你也可以在世界畫面立刻重組旅隊。</MessageSiteCountdownBecauseNoEnemiesInitially>
   
 </LanguageData>

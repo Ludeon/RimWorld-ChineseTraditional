@@ -73,6 +73,7 @@
   <CaravanDaysOfFoodRot>糧食儲備天數：{0}，{1}天後腐敗</CaravanDaysOfFoodRot>
   <CaravanMemberMentalBreak>暫停原因：{0}精神崩潰了。</CaravanMemberMentalBreak>
   <AllCaravanMembersDowned>暫停原因：所有成員都倒下了。</AllCaravanMembersDowned>
+  <AllCaravanMembersMentalBreak>暫停原因：所有成員都崩潰了。</AllCaravanMembersMentalBreak>
   <CaravanTraveling>正在旅行。</CaravanTraveling>
   <CaravanWaiting>正在等待。</CaravanWaiting>
   <CaravanHoursPerTile>小時/格</CaravanHoursPerTile>
@@ -89,8 +90,8 @@
   <WornByCorpseChar>D</WornByCorpseChar>
   <DeterioratingDueToBeingUnroofed>正因露天放置逐漸衰敗。</DeterioratingDueToBeingUnroofed>
   <Map>地圖</Map>
-  <ForceExitAndRemoveMapCountdown>距離離開前{0}小時</ForceExitAndRemoveMapCountdown>
-  <ForceExitAndRemoveMapCountdownTip>你的居民將會在{0}小時後自動重組旅隊並離開目前所在區域。</ForceExitAndRemoveMapCountdownTip>
+  <ForceExitAndRemoveMapCountdown>距離離開前{0}</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>你的居民將會在{0}後自動重組旅隊並離開目前所在區域。</ForceExitAndRemoveMapCountdownTip>
   <Room>房間</Room>
   <BeautyHere>美觀度</BeautyHere>
   <NoPower>無電力</NoPower>
@@ -109,6 +110,19 @@
   <VentClosed>關閉</VentClosed>
   <WornBy>穿著於{0}</WornBy>
   <EquippedBy>被{0}裝備</EquippedBy>
+  <QuestTargetDestroyInspectString>{0}想摧毀這個。\n    報酬：{1}。</QuestTargetDestroyInspectString>
+  <WorldObjectTimeout>剩餘時間：{0}</WorldObjectTimeout>
+  <LongRangeMineralScannerEfficiency>效率：{0}</LongRangeMineralScannerEfficiency>
+  <ItemStashContents>內容：{0}。</ItemStashContents>
+  <SomeItemStashContents>部分內容：{0}。</SomeItemStashContents>
+  <ClickToSortByThisColumn>點擊以根據此欄排列。</ClickToSortByThisColumn>
+  <WorkPriorityShiftClickTip>Shift+左鍵：提升優先度\nShift+右鍵：降低優先度</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickEnableDisableTip>Shift+左鍵：全選\nShift+右鍵：全部取消</WorkPriorityShiftClickEnableDisableTip>
+  <AllowedAreaShiftClickTip>Shift+左鍵：全部設為居住區\nShift+右鍵：全部設為無限制</AllowedAreaShiftClickTip>
+  <CheckboxShiftClickTip>Shift+左鍵：全選\nShift+右鍵：全部取消</CheckboxShiftClickTip>
+  <KnownSiteThreat>威脅：{0}。</KnownSiteThreat>
+  <KnownSiteThreats>威脅{0}。</KnownSiteThreats>
+  <KnownSiteThreatsNone>威脅：無。</KnownSiteThreatsNone>
   
   <!-- Fermentation barrel -->
   <ContainsWort>含有{0}/{1}桶麥芽。</ContainsWort>
@@ -333,8 +347,8 @@
   <Burning>燃燒中</Burning>
   <FireSizeLower>火焰大小：{0}</FireSizeLower>
   
-  <!-- Map conditions -->
-  <MapConditionsTip>正在影響區域的特殊情况。</MapConditionsTip>
+  <!-- Game conditions -->
+  <GameConditionsTip>正在影響區域的特殊情况。</GameConditionsTip>
   <TimeLeft>剩餘時間</TimeLeft>
   <ImpactDate>影響發生日</ImpactDate>
 

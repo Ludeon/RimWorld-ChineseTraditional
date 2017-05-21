@@ -29,8 +29,6 @@
   <ForbiddenLower>禁止的</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>在活動區之外</ForbiddenOutsideAllowedAreaLower>
   <NotInHomeArea>在生活區之外</NotInHomeArea>
-  <SociallyImproperLower>社交能力不允許</SociallyImproperLower>
-  <PrisonerRoomLower>牢房</PrisonerRoomLower>
   <BurningLower>燃燒中</BurningLower>
   <NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
   <AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
@@ -44,9 +42,10 @@
   <NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
   <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
   <NoWort>麥芽不足</NoWort>
-  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>available food is in storage of higher priority</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>可用的食物位於更高優先度的儲存區</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
   <NoFoodToFillHopper>沒有適當的食物</NoFoodToFillHopper>
   <SelfTendDisabled>無法自行治療</SelfTendDisabled>
+  <ReservedForPrisoners>預留給俘虜</ReservedForPrisoners>
   
   <ConsumeThing>食用{0}</ConsumeThing>
   
@@ -121,7 +120,8 @@
   
   <EnterMap>進入{0}</EnterMap>
   <VisitFactionBase>拜訪{0}</VisitFactionBase>
-  <VisitSite>探索</VisitSite>
+  <VisitSite>探索{0}</VisitSite>
+  <AttackSite>進攻{0}</AttackSite>
   <AttackFactionBase>攻擊{0}</AttackFactionBase>
   
   <!-- Specific thing interactions -->
@@ -137,6 +137,8 @@
   <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
 
   <CannotPrioritizeWorkTypeDisabled>無法優先進行當前任務(永遠不會進行{0})</CannotPrioritizeWorkTypeDisabled>
+  
+  <CannotPrioritizeWorkGiverDisabled>無法優先進行當前任務(無法{0})</CannotPrioritizeWorkGiverDisabled>
   
   <CannotPrioritizeNotAssignedToWorkType>無法優先進行當前任務(並未指派為{0})</CannotPrioritizeNotAssignedToWorkType>
 

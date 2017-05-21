@@ -243,8 +243,9 @@
   <ItemsTab>物品</ItemsTab>
   <CaravanConfigTab>設置</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>你必須指派至少一名有行動能力的居民。</CaravanMustHaveAtLeastOneColonist>
-  <CaravanCouldNotFindExitSpot>無法找到任何地圖出口。</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的居民無法抵達地圖出口。</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindExitSpot>選擇的出口位置({0})無法通行。</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>找不到任何有效的裝卸點。確保選擇的出口位置({0})可行。</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的居民無法抵達地圖出口({0})。</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0}無法被任何被指派的居民接觸。</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>沒有任何被指派的居民能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
   <CaravanItemIsUnreachableMulti>沒有任何被指派的居民能夠接觸到{0}x{1}。</CaravanItemIsUnreachableMulti>

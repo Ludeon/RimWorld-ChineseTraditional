@@ -1,28 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-  <!-- Artistic recipes - speed not affected by skill.-->
+  <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
   
   <SculptingSpeed.label>雕刻速度</SculptingSpeed.label>
-  <SculptingSpeed.description>這名角色進行雕刻創作時的效率加成。 </SculptingSpeed.description>
+  <SculptingSpeed.description>這名角色進行雕刻創作時的效率加成。註記：技能影響作品的品質而不影響工作速度。</SculptingSpeed.description>
   
   <TailoringSpeed.label>裁縫速度</TailoringSpeed.label>
-  <TailoringSpeed.description>這名角色進行裁縫工作時的工作速度。</TailoringSpeed.description>
+  <TailoringSpeed.description>這名角色進行裁縫工作時的工作速度。註記：技能影響作品的品質而不影響工作速度。</TailoringSpeed.description>
   
   <SmithingSpeed.label>鍛造速度</SmithingSpeed.label>
-  <SmithingSpeed.description>這名角色進行鍛造工作時的工作速度。</SmithingSpeed.description>
+  <SmithingSpeed.description>這名角色進行鍛造工作時的工作速度。註記：技能影響作品的品質而不影響工作速度。</SmithingSpeed.description>
+  
+  
+  <!-- Production recipes - speed affected by skill because there is no output quality -->
 
   <DrugProductionSpeed.label>藥物製作速度</DrugProductionSpeed.label>
   <DrugProductionSpeed.description>這名角色製作藥物的工作速度。</DrugProductionSpeed.description>
   
   <StonecuttingSpeed.label>石材加工速度</StonecuttingSpeed.label>
   <StonecuttingSpeed.description>這名角色進行石材加工工作時的工作速度。</StonecuttingSpeed.description>
-  
-  <SmeltingSpeed.label>金屬提煉速度</SmeltingSpeed.label>
-  <SmeltingSpeed.description>這名角色進行金屬提煉工作時的工作速度。</SmeltingSpeed.description>
-  
-  
-  <!-- Production recipes - speed affected by skill.-->
   
   <CookSpeed.label>烹飪速度</CookSpeed.label>
   <CookSpeed.description>這名角色進行烹飪工作時的工作速度。</CookSpeed.description>
@@ -47,5 +44,11 @@
   
   <ButcheryMechanoidEfficiency.label>拆解效率</ButcheryMechanoidEfficiency.label>
   <ButcheryMechanoidEfficiency.description>這名角色進行拆解工作時的成品生產效率加成。</ButcheryMechanoidEfficiency.description>
+  
+  
+  <!-- Dumb recipes - not affected by skill because there's no skill component -->
+  
+  <SmeltingSpeed.label>金屬提煉速度</SmeltingSpeed.label>
+  <SmeltingSpeed.description>這名角色進行金屬提煉工作時的工作速度。</SmeltingSpeed.description>
   
 </LanguageData>

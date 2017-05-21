@@ -151,9 +151,9 @@
   <Make_Gun_PumpShotgun.description>製造一把泵動霰彈槍。</Make_Gun_PumpShotgun.description>
   <Make_Gun_PumpShotgun.jobString>製造泵動霰彈槍。</Make_Gun_PumpShotgun.jobString>  
 
-  <Make_Gun_SurvivalRifle.label>製造生存步槍</Make_Gun_SurvivalRifle.label>
-  <Make_Gun_SurvivalRifle.description>製造一把生存步槍。</Make_Gun_SurvivalRifle.description>
-  <Make_Gun_SurvivalRifle.jobString>製造生存步槍。</Make_Gun_SurvivalRifle.jobString>  
+  <Make_Gun_boltactionRifle.label>製造栓式步槍</Make_Gun_boltactionRifle.label>
+  <Make_Gun_boltactionRifle.description>製造一把栓式步槍。</Make_Gun_boltactionRifle.description>
+  <Make_Gun_boltactionRifle.jobString>製造栓式步槍。</Make_Gun_boltactionRifle.jobString>  
 
   <Make_Gun_AssaultRifle.label>製造突擊步槍</Make_Gun_AssaultRifle.label>
   <Make_Gun_AssaultRifle.description>製造一把突擊步槍。</Make_Gun_AssaultRifle.description>
@@ -192,26 +192,32 @@
   
   <Make_MeleeWeapon_Shiv.label>製造刺刀</Make_MeleeWeapon_Shiv.label>
   <Make_MeleeWeapon_Shiv.description>製造一把刺刀。</Make_MeleeWeapon_Shiv.description>
-  <Make_MeleeWeapon_Shiv.jobString>製造刺刀。</Make_MeleeWeapon_Shiv.jobString>  
-  
-  <Make_MeleeWeapon_Club.label>製造棒槌</Make_MeleeWeapon_Club.label>
-  <Make_MeleeWeapon_Club.description>製造一把棒槌。</Make_MeleeWeapon_Club.description>
-  <Make_MeleeWeapon_Club.jobString>製造棒槌。</Make_MeleeWeapon_Club.jobString>  
+  <Make_MeleeWeapon_Shiv.jobString>製造刺刀。</Make_MeleeWeapon_Shiv.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
   
   <Make_MeleeWeapon_Knife.label>製造小刀</Make_MeleeWeapon_Knife.label>
   <Make_MeleeWeapon_Knife.description>製造一把小刀。</Make_MeleeWeapon_Knife.description>
-  <Make_MeleeWeapon_Knife.jobString>製造小刀。</Make_MeleeWeapon_Knife.jobString>  
+  <Make_MeleeWeapon_Knife.jobString>製造小刀。</Make_MeleeWeapon_Knife.jobString>
   
-  <Make_MeleeWeapon_Gladius.label>製造軍刀</Make_MeleeWeapon_Gladius.label>
-  <Make_MeleeWeapon_Gladius.description>製造一把軍刀。</Make_MeleeWeapon_Gladius.description>
-  <Make_MeleeWeapon_Gladius.jobString>製造軍刀。</Make_MeleeWeapon_Gladius.jobString>  
+  
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+  
+  <Make_MeleeWeapon_Club.label>製造棒槌</Make_MeleeWeapon_Club.label>
+  <Make_MeleeWeapon_Club.description>製造一把棒槌。</Make_MeleeWeapon_Club.description>
+  <Make_MeleeWeapon_Club.jobString>製造棒槌。</Make_MeleeWeapon_Club.jobString>
+  
+  
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
   
   <Make_MeleeWeapon_Mace.label>製造錘子</Make_MeleeWeapon_Mace.label>
   <Make_MeleeWeapon_Mace.description>製造一把錘子。</Make_MeleeWeapon_Mace.description>
   <Make_MeleeWeapon_Mace.jobString>製造錘子。</Make_MeleeWeapon_Mace.jobString>  
+  
+  <Make_MeleeWeapon_Gladius.label>製造軍刀</Make_MeleeWeapon_Gladius.label>
+  <Make_MeleeWeapon_Gladius.description>製造一把軍刀。</Make_MeleeWeapon_Gladius.description>
+  <Make_MeleeWeapon_Gladius.jobString>製造軍刀。</Make_MeleeWeapon_Gladius.jobString>
   
   <Make_MeleeWeapon_Spear.label>製造長矛</Make_MeleeWeapon_Spear.label>
   <Make_MeleeWeapon_Spear.description>製造一支長矛。</Make_MeleeWeapon_Spear.description>
