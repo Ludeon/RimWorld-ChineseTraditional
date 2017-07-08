@@ -50,7 +50,7 @@
   <SkillTooLow>需要等級{2}的{0}，目前只有{1}級。</SkillTooLow>
   <Freezing>過冷</Freezing>
   <Overheating>過熱</Overheating>
-  <RuinedByTemperature>因溫度而敗壞。</RuinedByTemperature>
+  <RuinedByTemperature>因極端溫度而損壞。</RuinedByTemperature>
   <CorpsePercentMissing>失去身體部位</CorpsePercentMissing>
   <HiveReproducesIn>蟲巢擴張</HiveReproducesIn>
   <BrokenDown>損壞</BrokenDown>
@@ -110,7 +110,7 @@
   <VentClosed>關閉</VentClosed>
   <WornBy>穿著於{0}</WornBy>
   <EquippedBy>被{0}裝備</EquippedBy>
-  <QuestTargetDestroyInspectString>{0}想摧毀這個。\n    報酬：{1}。</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>{0}希望能摧毀這個哨站。\n    報酬：{1}。</QuestTargetDestroyInspectString>
   <WorldObjectTimeout>剩餘時間：{0}</WorldObjectTimeout>
   <LongRangeMineralScannerEfficiency>效率：{0}</LongRangeMineralScannerEfficiency>
   <ItemStashContents>內容：{0}。</ItemStashContents>
@@ -146,6 +146,7 @@
   <TextMote_FixBrokenDownBuildingFail>修理失敗</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>建造失敗</TextMote_ConstructionFail>
   <TextMote_Dodge>閃避</TextMote_Dodge>
+  <TextMote_Tended>{0}已治療</TextMote_Tended>
 
   <!-- Areas -->
   <Home>生活區</Home>
@@ -240,7 +241,7 @@
   <Dead>死亡</Dead>
   <Unconscious>失去意識</Unconscious>
   <PainShock>劇痛休克</PainShock>
-  <PainShockShort>Pain shock</PainShockShort>
+  <PainShockShort>休克</PainShockShort>
   <Incapacitated>動彈不得</Incapacitated>
   <InRestraints>被關押(行動減慢)</InRestraints>
   <Carrying>攜帶</Carrying>
@@ -308,9 +309,9 @@
   <OutdoorGrowingPeriod>植物生長季</OutdoorGrowingPeriod>
   <NoGrowingPeriod>不生長</NoGrowingPeriod>
   <GrowYearRound>全年</GrowYearRound>
-  <GrowSeasonHereNow>正值生長季節。</GrowSeasonHereNow>
-  <CannotGrowTooCold>氣溫過低，無法生長。</CannotGrowTooCold>
-  
+  <GrowSeasonHereNow>合適的生長條件。</GrowSeasonHereNow>
+  <CannotGrowBadSeasonTemperature>無法生長(極端的氣候溫度)。</CannotGrowBadSeasonTemperature>
+	 
   <!-- Zones -->
   <Zone>區域</Zone>
   <GrowingZone>種植區</GrowingZone>
@@ -331,7 +332,7 @@
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>當沒有新訊息時隱藏教學幫手。\n\n當有新的教學時會顯示教學幫手，開啟這項功能能在沒有東西可以學習時隱藏教學幫手。</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>顯示美觀度。\n\n顯示滑鼠游標處的環境美觀度。</ShowBeautyToggleButton>
+  <ShowEnvironmentToggleButton>顯示美觀度。\n\n以滑鼠游標模擬角色所在的位置，顯示周圍環境的美觀度和房間屬性。</ShowEnvironmentToggleButton>
   <ShowColonistBarToggleButton>顯示或隱藏居民快捷列。\n\n居民快捷列會將所有居民的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>資源清單的顯示方式。</CategorizedResourceReadoutToggleButton>
@@ -475,7 +476,7 @@
   <RoutePlannerAddOneOrMoreWaypoints>新增一個以上的中途點。</RoutePlannerAddOneOrMoreWaypoints>
   <RoutePlannerEstTimeToFinalDest>至最終目的地預估時間：{0}</RoutePlannerEstTimeToFinalDest>
   <RoutePlannerUsingAverageTicksPerMoveWarning>計畫模式套用了預設的旅隊行動速度，實際速度可能改變。</RoutePlannerUsingAverageTicksPerMoveWarning>
-  <RoutePlannerUsingTicksPerMoveOfCaravan>Calculating for: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <RoutePlannerUsingTicksPerMoveOfCaravan>以{0}為準計算</RoutePlannerUsingTicksPerMoveOfCaravan>
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>滑鼠右鍵：新增或移除中途點。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <RoutePlannerPressEscapeToExit>ESC：離開計畫模式。</RoutePlannerPressEscapeToExit>
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC：返回至旅隊組織畫面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>

@@ -31,10 +31,10 @@
   <PlantHarvestYield.label>作物收穫倍率</PlantHarvestYield.label>
   <PlantHarvestYield.description>這名角色收穫作物時的產量加成。效率越低的角色越有可能會收穫失敗而破壞作物。</PlantHarvestYield.description>
 
-  <ConstructFailChance.label>建設失敗率</ConstructFailChance.label>
-  <ConstructFailChance.description>這名角色進行建造工作時的出錯機率。建造失敗可能仍然會消耗一部分的材料。</ConstructFailChance.description>
-
-  <FixBrokenDownBuildingFailChance.label>修理速度</FixBrokenDownBuildingFailChance.label>
-  <FixBrokenDownBuildingFailChance.description>這名角色進行修理工作時的速度加成。</FixBrokenDownBuildingFailChance.description>
+  <ConstructSuccessChance.label>建設成功率</ConstructSuccessChance.label>
+  <ConstructSuccessChance.description>這名角色進行建造工作時的成功機率。建造失敗會浪費時間和一部分的材料。</ConstructSuccessChance.description>
+  
+  <FixBrokenDownBuildingSuccessChance.label>修理成功率</FixBrokenDownBuildingSuccessChance.label>
+  <FixBrokenDownBuildingSuccessChance.description>這名角色使用電子零件進行修理工作時的成功機率。建造失敗會浪費時間和一部分的材料。註記：此參數只作用在修理故障設備上，並不適用於修理受到傷害的設備。</FixBrokenDownBuildingSuccessChance.description>
   
 </LanguageData>

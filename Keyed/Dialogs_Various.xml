@@ -6,9 +6,9 @@
   <OK>確認</OK>
   
   <!-- Game updated to new version -->
-  <GameUpdatedToNewVersionInitial>RimWorld已從{0}版升級至{1}版。\n\n這可能導致舊版本存檔及Mod無法繼續使用。</GameUpdatedToNewVersionInitial>
-  <GameUpdatedToNewVersionSavesIncompatible>This may cause saved games and mods from the old version to stop working.</GameUpdatedToNewVersionSavesIncompatible>
-  <GameUpdatedToNewVersionSavesCompatible>Saved games from the old version should be compatible, however some mods may stop working.</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionInitial>RimWorld已從{0}版升級至{1}版。</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>這可能導致舊版本存檔及Mod無法繼續使用。</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>舊版本的存檔應該適用，但Mod有可能無法正常運作。</GameUpdatedToNewVersionSavesCompatible>
   <GameUpdatedToNewVersionNonSteam>因為你使用的是DRM-free版本，因此你可以分別在兩個資料夾安裝新舊版本的RimWorld，同時遊玩不同的遊戲版本。</GameUpdatedToNewVersionNonSteam>
   <GameUpdatedToNewVersionSteam>如果你想繼續使用舊版本，你可以選擇Steam的Beta項目。\n\n  1. 在Steam遊戲庫，點選Rimworld。\n  2. 點選「屬性」\n  3. 點選「Betas Tab」\n  4. 在選單中選擇你要的版本。\n\n此服務只是為了避免舊版的遊戲進度中斷，而舊版本終究會從此清單中下架。\n\n請記住，若Mod開發者將Mod升級至新版本，他們很可能就此停止對舊版本的開發，你可以關閉Mod自動更新以避免Mod更新成不相容的版本。</GameUpdatedToNewVersionSteam>
   
@@ -267,7 +267,7 @@
   <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
   <ItemWeightTip>此物品的重量。</ItemWeightTip>
   <MarketValueTip>市場價格</MarketValueTip>
-  <DaysUntilRotTip>此物品腐敗的天數是根據當前區域的氣溫來推算。.</DaysUntilRotTip>
+  <DaysUntilRotTip>此物品腐敗的天數是根據當前區域的氣溫來推算。</DaysUntilRotTip>
   <MassCapacity>容量</MassCapacity>
   <Mass>重量</Mass>
   <EquipmentAndApparelMass>裝備及衣物重量。</EquipmentAndApparelMass>
@@ -280,7 +280,7 @@
   <EstimatedTimeToDestinationButton>預估抵達時間</EstimatedTimeToDestinationButton>
   
   <!-- Split caravan -->
-  <SplitCaravan>分割旅隊</SplitCaravan>
+  <SplitCaravan>重分旅隊</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>你必須保留至少一名具行動能力的居民。</SourceCaravanMustHaveAtLeastOneColonist>
   <CaravanSplitSourceLabel>原</CaravanSplitSourceLabel>
   <CaravanSplitDestLabel>新</CaravanSplitDestLabel>
