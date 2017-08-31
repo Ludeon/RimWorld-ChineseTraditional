@@ -18,7 +18,7 @@
   <IsIncapableOfViolenceLower>{0}無法執行暴力相關指令</IsIncapableOfViolenceLower>
   <IncapableOfViolenceLower>無法執行暴力相關指令</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0}未受徵召</IsNotDraftedLower>
-  <CannotOrderNonControlledLower>無法命令不受控制的單位</CannotOrderNonControlledLower>
+  <CannotOrderNonControlledLower>無法命令失控的單位</CannotOrderNonControlledLower>
   
   <OrderManThing>操控{0}</OrderManThing>
   
@@ -69,7 +69,7 @@
   <NoPrisonerBed>沒有在封閉房間中的俘虜床。</NoPrisonerBed>
   <NoNonPrisonerBed>沒有可用的居民床。</NoNonPrisonerBed>
   <NoAnimalBed>沒有可用的動物床。</NoAnimalBed>
-  <Reserved>已經被預留給其他人了。</Reserved>
+  <Reserved>已被預留給其他人。</Reserved>
   <ReservedBy>預留給了{0}。</ReservedBy>
   <IsReservedBy>{0}被預留给了{1}。</IsReservedBy>
   <TooHeavy>超重</TooHeavy>
@@ -148,7 +148,7 @@
   <CannotPrioritizeForbiddenOutsideAllowedArea>無法優先進行當前任務({0}在允許的活動範圍外)</CannotPrioritizeForbiddenOutsideAllowedArea>
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
+  <PrioritizeGeneric>優先{0}於{1}</PrioritizeGeneric>
 
   <DropAtEdge>放置在邊緣</DropAtEdge>
   <DropInCenter>放置在中央</DropInCenter>

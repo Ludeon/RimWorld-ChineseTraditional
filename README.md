@@ -48,4 +48,4 @@ http://ludeon.com/forums/index.php?topic=2933.0
 翻譯問題回報:請透過FB社團或巴哈討論板
 感謝支持RimWorld
 
-Wilseanhsu個人中文化。 2017/4/19
+Wilseanhsu個人中文化。 2017/9/1
