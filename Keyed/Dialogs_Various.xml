@@ -63,6 +63,8 @@
   <SaveIsUnknownFormat>這個存檔是未知的格式，幾乎可以肯定無法被正常載入。</SaveIsUnknownFormat>
   <ProblemSavingFile>存檔時發生問題{0}：\n\n{1}\n\n查看錯誤紀錄以獲得更多訊息。</ProblemSavingFile>
   <LoadAnyway>仍要載入</LoadAnyway>
+  <ChangeLoadedMods>載入Mod清單</ChangeLoadedMods>
+  <MissingMods>部分Mod無法使用，需要安裝</MissingMods>
   
   <!-- Player faction naming -->
   <NamePlayerFactionMessage>{0}認為你應該替你的勢力取個名字。該叫做什麼好呢？</NamePlayerFactionMessage>
@@ -144,15 +146,9 @@
   <BillRequires>需要{0}個{1}</BillRequires>
   <BillRequiresNutrition>需要{0}營養值</BillRequiresNutrition>
   <BillRequiresMayVary>(數量可能會因為非標準體積的原料而有不同，例如黃金。)</BillRequiresMayVary>
-  <ThisIsSmallVolume>這是一個小體積的原料。每單位只有正常體積的1/20。因此，如果要達到相同重量，所需要的單位數量將是一般的二十倍。</ThisIsSmallVolume>
+  <ThisIsSmallVolume>這是一個小體積的原料。每單位只有一般的1/20。因此，如果要達到相同質量，所需要的單位數量將是一般的二十倍。</ThisIsSmallVolume>
   <UsableIngredients>可用的原料</UsableIngredients>
-  <DoXTimes>做X次</DoXTimes>
-  <DoUntilYouHaveX>製作直到擁有X個</DoUntilYouHaveX>
-  <DoForever>永遠製作</DoForever>
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
-  <BillStoreMode_DropOnFloor>放到地上</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>放到最合適的儲藏區</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>放到最近的儲藏區</BillStoreMode_NearestStockpileAnyPriority>
 
   <PauseWhenSatisfied>滿足時暫停</PauseWhenSatisfied>
   <UnpauseWhenYouHave>解除暫停於</UnpauseWhenYouHave>
@@ -203,6 +199,13 @@
   <Addictiveness>成癮性</Addictiveness>
   <PackAnimal>駝獸</PackAnimal>
   <PackAnimalExplanation>此種動物是否適合旅隊長距離搬運貨物。</PackAnimalExplanation>
+  <Skill>技能</Skill>
+  <SurgerySuccessChanceFactor>成功率倍率</SurgerySuccessChanceFactor>
+  <SurgeryRequireBed>需要床鋪</SurgeryRequireBed>
+  <WorkSpeedStat>工作速度影響</WorkSpeedStat>
+  <EfficiencyStat>產量影響</EfficiencyStat>
+  <ConstructionSkillRequired>需要建築技能</ConstructionSkillRequired>
+  <ConstructionSkillRequiredExplanation>需要以下建築等級才能建造。</ConstructionSkillRequiredExplanation>
   
   <!-- Trade -->
   <PositiveBuysNegativeSells>買入。\n賣出。</PositiveBuysNegativeSells>
@@ -221,7 +224,9 @@
   <ColonyHasNoMore>殖民地貨品數量不足。</ColonyHasNoMore>
   <TraderWillNotTrade>商人不接受此貨物。</TraderWillNotTrade>
   <Negotiator>談判代表</Negotiator>
-  <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。\n\n這將會影響到交易價格。\n\n建議您選擇健康的居民擔任代表。</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。</NegotiatorTalkingImpaired>
+  <NegotiatorHearingImpaired>你的代表{0}因健康因素無法正常聽話。</NegotiatorHearingImpaired>
+  <NegotiatorCapacityImpaired>這將會影響到交易價格。\n\n建議您選擇健康的居民擔任代表。</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
   <SortBy>排列方式以</SortBy>
   <TraderTypePrice>商人類型</TraderTypePrice>
@@ -261,6 +266,8 @@
   <DaysWorthOfFoodWarningDialog>你的旅隊只剩下{0}天份的存糧，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>你的旅隊存糧已經耗盡，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog_NoFood>
   <CaravanFoodWillRotSoonWarningDialog>指定的食物中有大部分即將腐敗。\n\n你確定你仍然要組織這支旅隊？</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanIncapableOfSocial>你的旅隊沒有具備外交及交易能力的成員。</CaravanIncapableOfSocial>
+  <CaravanAreYouSure>你確定要組織這支旅隊嗎？?</CaravanAreYouSure>
   <NoExitDirectionForCaravanChosen>你必須選擇旅隊的離開方向。</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(無可行的地圖出口)</NoCaravanExitDirectionAvailable>
   <ExitDirection>離開方向</ExitDirection>
@@ -278,6 +285,7 @@
   <PrisonersSection>俘虜</PrisonersSection>
   <AnimalsSection>動物</AnimalsSection>
   <EstimatedTimeToDestinationButton>預估抵達時間</EstimatedTimeToDestinationButton>
+  <AbandonButton>拋棄</AbandonButton>
   
   <!-- Split caravan -->
   <SplitCaravan>重分旅隊</SplitCaravan>

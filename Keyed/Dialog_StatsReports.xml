@@ -4,15 +4,17 @@
   <StatsReport_BaseValue>基準值</StatsReport_BaseValue>
   <StatsReport_RelevantTraits>相關特性</StatsReport_RelevantTraits>
   <StatsReport_RelevantGear>相關設備</StatsReport_RelevantGear>
-  <StatsReport_RelevantHediffs>Relevant health conditions</StatsReport_RelevantHediffs>
+  <StatsReport_RelevantHediffs>相關健康狀況</StatsReport_RelevantHediffs>
   <StatsReport_LifeStage>生命階段</StatsReport_LifeStage>
   <StatsReport_Material>材料</StatsReport_Material>
   <StatsReport_CharacterQuality>角色品質</StatsReport_CharacterQuality>
   <StatsReport_Skills>技能因素</StatsReport_Skills>
   <StatsReport_OtherStats>其它因素</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>健康因素</StatsReport_HealthFactors>
+  <StatsReport_Health>健康</StatsReport_Health>
   <HealthFactorPercentImpact>{0}重要度</HealthFactorPercentImpact>
-  <HealthFactorMaxImpact>最高{0}</HealthFactorMaxImpact>
+  <HealthOffsetScale>影響{0}</HealthOffsetScale>
+  <HealthFactorMaxImpact>最大值{0}</HealthFactorMaxImpact>
+  <HealthFactorAllowedDefect>如果低於{0}</HealthFactorAllowedDefect>
   <StatsReport_PostProcessed>曲線處理</StatsReport_PostProcessed>
   <StatsReport_FinalValue>最終數值</StatsReport_FinalValue>
   <StatsReport_MarketValueFromStuffsAndWork>市價是以使用材料與工作時程計算。</StatsReport_MarketValueFromStuffsAndWork>
@@ -20,11 +22,12 @@
   <StatsReport_AgeMultiplier>年齡倍率{0}</StatsReport_AgeMultiplier>
   <StatsReport_HealthMultiplier>健康倍率{0}</StatsReport_HealthMultiplier>
   <StatsReport_MoodMultiplier>心情倍率{0}</StatsReport_MoodMultiplier>
+  <StatsReport_LightMultiplier>光照{0}倍率</StatsReport_LightMultiplier>
   <StatsReport_DifficultyMultiplier>難度倍率{0}</StatsReport_DifficultyMultiplier>
   <StatsReport_InBed>臥床</StatsReport_InBed>
   <StatsReport_Facilities>設施</StatsReport_Facilities>
   <StatsReport_BodySize>體型倍率{0}</StatsReport_BodySize>
-  <StatsReport_MeleeDPSExplanation>DPS = 近戰傷害X近戰命中率/冷卻時間</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDPSExplanation>DPS = 近戰傷害X近戰命中率/冷卻時間(秒)</StatsReport_MeleeDPSExplanation>
   <StatsReport_MeleeDamage>近戰傷害</StatsReport_MeleeDamage>
   <StatsReport_Cooldown>冷卻時間</StatsReport_Cooldown>
   <StatsReport_MeleeHitChance>近戰命中率</StatsReport_MeleeHitChance>
@@ -36,5 +39,8 @@
   <AverageOfAllAttacks>全攻擊類型的平均值</AverageOfAllAttacks>
   <StatsReport_ScenarioFactor>腳本設定</StatsReport_ScenarioFactor>
   <StatsReport_IngredientsMass>材料</StatsReport_IngredientsMass>
+  <StatsReport_PermanentlyDisabled>永久禁用。</StatsReport_PermanentlyDisabled>
+  <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
+  <StatsReport_AddedBodyPartsMass>添加身體部件</StatsReport_AddedBodyPartsMass>
   
 </LanguageData>

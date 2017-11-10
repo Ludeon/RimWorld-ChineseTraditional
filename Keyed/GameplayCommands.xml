@@ -3,8 +3,8 @@
 
   <!-- Forbid -->
   <CommandForbid>禁用</CommandForbid>
-  <CommandForbiddenDesc>已禁止——居民不會和這個物件互動。</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>未禁止——居民會和這個物件互動。</CommandNotForbiddenDesc>
+  <CommandForbiddenDesc>已禁止——居民不會接觸這個物件。</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>未禁止——居民會接觸這個物件。</CommandNotForbiddenDesc>
   
   <!-- Power -->
   <CommandTogglePowerLabel>開關電源</CommandTogglePowerLabel>
@@ -84,12 +84,15 @@
   <CommandStopAttackFailNotForceAttacking>停止強制攻擊目標。</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>目標超出最大射程。</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>目標近於最小射程。</MessageTargetBelowMinimumRange>
+  <MessageTurretWontFireBecauseHoldFire>警告：迫擊砲將不會開火，因為已被設定為停火狀態。</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
-  <CommandShipLaunch>啟動星艦</CommandShipLaunch>
+  <CommandShipLaunch>起飛</CommandShipLaunch>
   <CommandShipLaunchDesc>使用目前的星艦設定開始星艦啟航程序。</CommandShipLaunchDesc>
   <CommandShipLaunchReport>顯示啟航報告</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>顯示一份關於星艦啟動能力的報告。</CommandShipLaunchReportDesc>
+  <CommandShipStartup>發動星艦</CommandShipStartup>
+  <CommandShipStartupDesc>喚醒待機中的星艦部件。</CommandShipStartupDesc>
 
   <!-- Pod -->
   <CommandPodEject>彈出休眠者</CommandPodEject>
@@ -133,6 +136,10 @@
   <!-- Squad attack -->
   <CommandSquadAttack>攻擊</CommandSquadAttack>
   <CommandSquadAttackDesc>命令當前選擇的所有居民攻擊指定目標。</CommandSquadAttackDesc>
+  
+  <!-- Melee attack -->
+  <CommandMeleeAttack>近戰攻擊</CommandMeleeAttack>
+  <CommandMeleeAttackDesc>命令當前選擇的所有居民只用拳頭或近戰武器攻擊指定目標。</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
   <CommandHoldFire>停火</CommandHoldFire>
@@ -163,6 +170,7 @@
   <!-- Merge caravan -->
   <CommandMergeCaravans>匯合</CommandMergeCaravans>
   <CommandMergeCaravansDesc>使選取的旅隊匯合成一隊。</CommandMergeCaravansDesc>
+  <CommandMergeCaravansFailCaravansNotSelected>選擇所有要匯合的旅隊，各隊必須相鄰。</CommandMergeCaravansFailCaravansNotSelected>
   
   <!-- Settle -->
   <CommandSettle>設點</CommandSettle>

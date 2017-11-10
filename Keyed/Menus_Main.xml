@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!--=========== Main menu ==========-->
-  <LearnToPlay>遊戲教學</LearnToPlay>
+  <Tutorial>遊戲教學</Tutorial>
   <NewColony>新殖民地</NewColony>
   <BackToGame>返回遊戲</BackToGame>
   <ReviewScenario>瀏覽腳本</ReviewScenario>
@@ -78,7 +78,7 @@
   <ModTargetVersion>Mod版本：{0}</ModTargetVersion>
   <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
   <MessageModNeedsWellFormattedTargetVersion>Mod必須在About.xml中指定格式正確的版本號，例如：&lt;targetVersion&gt;{0}&lt;/targetVersion&gt;。</MessageModNeedsWellFormattedTargetVersion>
-  <DragToReorder>拖曳以重新排列</DragToReorder>
+  <DragToReorder>Drag to reorder</DragToReorder>
   
   <!--=========== Select scenario =============-->
   <ChooseScenario>選擇腳本</ChooseScenario>
@@ -128,10 +128,12 @@
   <AvgSummerTemp>夏季均溫</AvgSummerTemp>
   <AvgWinterTemp>冬季均溫</AvgWinterTemp>
   <Rainfall>降雨量</Rainfall>
+  <SpecialFeatures>特殊性</SpecialFeatures>
   <HasCoast0>北岸</HasCoast0>
   <HasCoast1>東岸</HasCoast1>
   <HasCoast2>南岸</HasCoast2>
   <HasCoast3>西岸</HasCoast3>
+  <HasCaves>caves</HasCaves>
   <FactionBase>勢力根據地</FactionBase>
   <StoneTypesHere>地質類型</StoneTypesHere>
   <TimeZone>時區</TimeZone>
@@ -139,6 +141,8 @@
   <MovementTimeSummer>夏季行動時間</MovementTimeSummer>
   <MovementTimeWinter>冬季行動時間</MovementTimeWinter>
   <AnimalsCanGrazeNow>動物已可放牧</AnimalsCanGrazeNow>
+  <AverageDiseaseFrequency>平均疾病頻率</AverageDiseaseFrequency>
+  <PerYear>每年</PerYear>
 	
   
   <!--=========== Character chooser ==========-->
@@ -161,6 +165,9 @@
   <Pain>傷痛</Pain>
   <Health>健康</Health>
   <Relations>社交</Relations>
+  <TeamSkills>團隊能力</TeamSkills>
+  <StartingPawnsSelected>已選擇</StartingPawnsSelected>
+  <StartingPawnsLeftBehind>遺棄</StartingPawnsLeftBehind>
   
   <!--=========== Misc ==========-->
   <Start>開始</Start>

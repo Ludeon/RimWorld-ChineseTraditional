@@ -130,19 +130,19 @@
 
   <DoBillsCook.label>料理餐點</DoBillsCook.label>
   <DoBillsCook.verb>烹調</DoBillsCook.verb>
-  <DoBillsCook.gerund>烹飪於</DoBillsCook.gerund>
+  <DoBillsCook.gerund>烹飪</DoBillsCook.gerund>
   
   <DoBillsCookCampfire.label>用營火料理餐點</DoBillsCookCampfire.label>
   <DoBillsCookCampfire.verb>烹調</DoBillsCookCampfire.verb>
-  <DoBillsCookCampfire.gerund>烹飪於</DoBillsCookCampfire.gerund>
+  <DoBillsCookCampfire.gerund>烹飪</DoBillsCookCampfire.gerund>
   
   <DoBillsBrew.label>釀酒</DoBillsBrew.label>
   <DoBillsBrew.verb>釀酒</DoBillsBrew.verb>
-  <DoBillsBrew.gerund>釀酒於</DoBillsBrew.gerund>
+  <DoBillsBrew.gerund>釀造</DoBillsBrew.gerund>
   
   <DoBillsButcherFlesh.label>屠宰</DoBillsButcherFlesh.label>
   <DoBillsButcherFlesh.verb>屠宰</DoBillsButcherFlesh.verb>
-  <DoBillsButcherFlesh.gerund>工作於</DoBillsButcherFlesh.gerund>
+  <DoBillsButcherFlesh.gerund>屠宰</DoBillsButcherFlesh.gerund>
   
   <CookFillHopper.label>填充</CookFillHopper.label>
   <CookFillHopper.verb>填充</CookFillHopper.verb>
@@ -160,7 +160,7 @@
 
   <FixBrokenDownBuilding.label>修復損壞的設施</FixBrokenDownBuilding.label>
   <FixBrokenDownBuilding.verb>更換零件</FixBrokenDownBuilding.verb>
-  <FixBrokenDownBuilding.gerund>更換零件於</FixBrokenDownBuilding.gerund>
+  <FixBrokenDownBuilding.gerund>更換零件</FixBrokenDownBuilding.gerund>
   
   <Repair.label>修理損壞物品</Repair.label>
   <Repair.verb>修理</Repair.verb>
@@ -168,11 +168,11 @@
   
   <BuildRoofs.label>搭建屋頂</BuildRoofs.label>
   <BuildRoofs.verb>搭建屋頂</BuildRoofs.verb>
-  <BuildRoofs.gerund>搭建屋頂於</BuildRoofs.gerund>
+  <BuildRoofs.gerund>屋頂搭建</BuildRoofs.gerund>
   
   <RemoveRoofs.label>拆除屋頂</RemoveRoofs.label>
   <RemoveRoofs.verb>拆除屋頂</RemoveRoofs.verb>
-  <RemoveRoofs.gerund>拆除屋頂於</RemoveRoofs.gerund>
+  <RemoveRoofs.gerund>屋頂拆除</RemoveRoofs.gerund>
   
   <ConstructFinishFrames.label>建造</ConstructFinishFrames.label>
   <ConstructFinishFrames.verb>建造</ConstructFinishFrames.verb>
@@ -196,22 +196,22 @@
   
   <ConstructRemoveFloors.label>拆除地板</ConstructRemoveFloors.label>
   <ConstructRemoveFloors.verb>拆除地板</ConstructRemoveFloors.verb>
-  <ConstructRemoveFloors.gerund>拆除地板於</ConstructRemoveFloors.gerund>
+  <ConstructRemoveFloors.gerund>地板拆除</ConstructRemoveFloors.gerund>
   
   <ConstructSmoothFloors.label>磨光地面</ConstructSmoothFloors.label>
-  <ConstructSmoothFloors.verb>磨光地面</ConstructSmoothFloors.verb>
-  <ConstructSmoothFloors.gerund>磨光地面於</ConstructSmoothFloors.gerund>
+  <ConstructSmoothFloors.verb>進行</ConstructSmoothFloors.verb>
+  <ConstructSmoothFloors.gerund>進行</ConstructSmoothFloors.gerund>
 
 
   <!-- Growing -->
 
   <GrowerHarvest.label>收穫</GrowerHarvest.label>
   <GrowerHarvest.verb>收穫</GrowerHarvest.verb>
-  <GrowerHarvest.gerund>收穫於</GrowerHarvest.gerund>
+  <GrowerHarvest.gerund>收穫</GrowerHarvest.gerund>
   
   <GrowerSow.label>播種</GrowerSow.label>
   <GrowerSow.verb>播種</GrowerSow.verb>
-  <GrowerSow.gerund>播種於</GrowerSow.gerund>
+  <GrowerSow.gerund>播種</GrowerSow.gerund>
 
 
   <!-- Mining -->
@@ -244,7 +244,7 @@
   
   <DoBillsComponentAssemblyBench.label>生產電子零件</DoBillsComponentAssemblyBench.label>
   <DoBillsComponentAssemblyBench.verb>生產</DoBillsComponentAssemblyBench.verb>
-  <DoBillsComponentAssemblyBench.gerund>工作於</DoBillsComponentAssemblyBench.gerund>
+  <DoBillsComponentAssemblyBench.gerund>生產</DoBillsComponentAssemblyBench.gerund>
 
 
   <!-- Tailoring -->
@@ -264,7 +264,7 @@
   <!-- Crafting -->
 
   <DoBillsMedicalMechanoidOperation.label>調整機械</DoBillsMedicalMechanoidOperation.label>
-  <DoBillsMedicalMechanoidOperation.verb>調整機械</DoBillsMedicalMechanoidOperation.verb>
+  <DoBillsMedicalMechanoidOperation.label>調整機械</DoBillsMedicalMechanoidOperation.verb>
   <DoBillsMedicalMechanoidOperation.gerund>調整</DoBillsMedicalMechanoidOperation.gerund>
   
   <DoBillsUseCraftingSpot.label>製造兵器</DoBillsUseCraftingSpot.label>
