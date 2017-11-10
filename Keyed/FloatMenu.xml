@@ -19,6 +19,7 @@
   <IncapableOfViolenceLower>無法執行暴力相關指令</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0}未受徵召</IsNotDraftedLower>
   <CannotOrderNonControlledLower>無法命令失控的單位</CannotOrderNonControlledLower>
+  <CannotAttackSelf>無法攻擊自己</CannotAttackSelf>
   
   <OrderManThing>操控{0}</OrderManThing>
   
@@ -39,6 +40,7 @@
   <NoUsableFood>無可使用的食物</NoUsableFood>
   <NoFood>無食物</NoFood>
   <AnimalsSkillTooLow>動物相關技能過低</AnimalsSkillTooLow>
+  <ConstructionSkillTooLow>建造技能不足</ConstructionSkillTooLow>
   <NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
   <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
   <NoWort>麥芽不足</NoWort>
@@ -46,6 +48,10 @@
   <NoFoodToFillHopper>沒有適當的食物</NoFoodToFillHopper>
   <SelfTendDisabled>無法自行治療</SelfTendDisabled>
   <ReservedForPrisoners>預留給俘虜</ReservedForPrisoners>
+  <CannotReach>無法接觸</CannotReach>
+  <NotSurgeryReady>手術準備尚未完成</NotSurgeryReady>
+  <CantSowCavePlantBecauseOfLight>亮度過高</CantSowCavePlantBecauseOfLight>
+  <CantSowCavePlantBecauseUnroofed>露天</CantSowCavePlantBecauseUnroofed>
   
   <ConsumeThing>食用{0}</ConsumeThing>
   
@@ -120,7 +126,9 @@
   
   <EnterMap>進入{0}</EnterMap>
   <VisitSettlement>拜訪{0}</VisitSettlement>
+  <VisitPeaceTalks>拜訪{0}</VisitPeaceTalks>
   <VisitSite>探索{0}</VisitSite>
+  <VisitEscapeShip>進入{0}</VisitEscapeShip>
   <AttackSite>進攻{0}</AttackSite>
   <AttackSettlement>攻擊{0}</AttackSettlement>
   

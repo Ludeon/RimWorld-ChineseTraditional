@@ -52,7 +52,9 @@
   <Overheating>過熱</Overheating>
   <RuinedByTemperature>因極端溫度而損壞。</RuinedByTemperature>
   <CorpsePercentMissing>失去身體部位</CorpsePercentMissing>
-  <HiveReproducesIn>蟲巢擴張</HiveReproducesIn>
+  <HiveReproducesIn>蟲巢擴張倒數</HiveReproducesIn>
+  <DormantHiveNotReproducing>休眠：停止擴張。</DormantHiveNotReproducing>
+  <NextSpawnedItemIn>下一次{0}於</NextSpawnedItemIn>
   <BrokenDown>損壞</BrokenDown>
   <BondBrackets>(夥伴)</BondBrackets>
   <Fuel>燃料</Fuel>
@@ -64,7 +66,7 @@
   <TimePassed>經過時間</TimePassed>
   <CurrentRadius>當前半徑</CurrentRadius>
   <RadiusExpandsIn>擴展半徑</RadiusExpandsIn>
-  <Permanent>傷疤</Permanent>
+  <Permanent>永久效果</Permanent>
   <CaravanResting>休息。</CaravanResting>
   <CaravanEstimatedTimeToDestination>預計抵達時間：{0}</CaravanEstimatedTimeToDestination>
   <CaravanImmobilizedByMass>動彈不得：負重過量。</CaravanImmobilizedByMass>
@@ -79,6 +81,7 @@
   <CaravanHoursPerTile>小時/格</CaravanHoursPerTile>
   <CaravanBaseMovementTime>基本移動時間</CaravanBaseMovementTime>
   <CurrentTileMovementTime>當前地塊移動時間</CurrentTileMovementTime>
+  <StealthFactor>隱蔽性</StealthFactor>
   <Temperature>溫度</Temperature>
   <BadTemperature>不合適的溫度</BadTemperature>
   <IdealFermentingTemperature>理想的釀造溫度</IdealFermentingTemperature>
@@ -123,6 +126,12 @@
   <KnownSiteThreat>威脅：{0}。</KnownSiteThreat>
   <KnownSiteThreats>威脅{0}。</KnownSiteThreats>
   <KnownSiteThreatsNone>威脅：無。</KnownSiteThreatsNone>
+  <SkillRequirements>需要技能</SkillRequirements>
+  <Products>產物</Products>
+  <DeepDrillExhausted>地下礦藏枯竭。</DeepDrillExhausted>
+  <Relationship>{1}的{0}</Relationship>
+  <Prisoner>俘虜</Prisoner>
+  <Refugee>難民</Refugee>
   
   <!-- Fermentation barrel -->
   <ContainsWort>含有{0}/{1}桶麥芽。</ContainsWort>
@@ -183,6 +192,7 @@
   <!-- Job reports -->
   <ReportHaulingTo>將{0}運至{1}。</ReportHaulingTo>
   <ReportHauling>搬運{0}中。</ReportHauling>
+  <ReportHaulingUnknown>搬運中。</ReportHaulingUnknown>
   <ReportSleeping>睡眠中。</ReportSleeping>
   <ReportResting>休息中。</ReportResting>
   <WatchingSunrise>欣賞日出美景。</WatchingSunrise>
@@ -190,12 +200,14 @@
   <WatchingSunset>欣賞夕陽美景。</WatchingSunset>
   <Stargazing>仰望星空。</Stargazing>
   <WatchingEclipse>欣賞日蝕景觀。</WatchingEclipse>
+  <WatchingAurora>欣賞極光美景。</WatchingAurora>
   <UsingVerb>對{1}使用{0}。</UsingVerb>
   <AreaLower>此處</AreaLower>
   <ReportCowering>逃避。</ReportCowering>
   <ReportStanding>呆站著。</ReportStanding>
   <ReportExtinguishingFire>滅火。</ReportExtinguishingFire>
   <ReportExtinguishingFireOn>撲滅{0}身上的火。</ReportExtinguishingFireOn>
+  <ReportDiggingUpCorpse>挖出屍體。</ReportDiggingUpCorpse>
   
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>參加婚禮。</LordReportAttendingMarriageCeremony>
@@ -246,6 +258,7 @@
   <InRestraints>被關押(行動減慢)</InRestraints>
   <Carrying>攜帶</Carrying>
   <AffectedBy>影響：</AffectedBy>
+  <Queued>等候處理中</Queued>
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
@@ -265,6 +278,7 @@
   <PowerOutput>電力輸出</PowerOutput>
   <PowerBatteryStored>蓄電</PowerBatteryStored>
   <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
+	<SelfDischarging>Self-discharging</SelfDischarging>
 
   <!-- Temperature control -->
   <TargetTemperature>目標溫度</TargetTemperature>
@@ -311,6 +325,8 @@
   <GrowYearRound>全年</GrowYearRound>
   <GrowSeasonHereNow>合適的生長條件。</GrowSeasonHereNow>
   <CannotGrowBadSeasonTemperature>無法生長(極端的氣候溫度)。</CannotGrowBadSeasonTemperature>
+	<Blighted>枯死</Blighted>
+	<DyingBecauseExposedToLight>因曝光而凋零中</DyingBecauseExposedToLight>
 	 
   <!-- Zones -->
   <Zone>區域</Zone>
@@ -340,7 +356,8 @@
   <ShowRoofOverlayToggleButton>顯示屋頂區域。</ShowRoofOverlayToggleButton>
   <LockNorthUpToggleButton>鎖定攝影機使北方永遠朝上。</LockNorthUpToggleButton>
   <UsePlanetDayNightSystemToggleButton>日夜光照系統</UsePlanetDayNightSystemToggleButton>
-  <ExpandingIconsToggleButton>擴大顯示圖標，而非一般的顯示距離。</ExpandingIconsToggleButton>
+	<ShowExpandingIconsToggleButton>擴大顯示圖標，而非一般的顯示距離。</ShowExpandingIconsToggleButton>
+	<ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
   <Fire>火焰</Fire>
@@ -379,7 +396,13 @@
   <ShipReportCannotLaunch>無法發射。</ShipReportCannotLaunch>
   <ShipReportCanLaunch>準備發射。</ShipReportCanLaunch>
   <ShipReportMissingPart>缺少關鍵性部件</ShipReportMissingPart>
+  <ShipReportMissingPartRequires>需要</ShipReportMissingPartRequires>
   <ShipReportNoFullPods>沒有裝滿的休眠艙</ShipReportNoFullPods>
+  <ShipReportHibernating>待機中的部件</ShipReportHibernating>
+  <ShipReportNotReady>部件尚未完成準備</ShipReportNotReady>
+  <HibernateWarning>夏隆．懷特史東已經準備好啟動反應爐的啟動程序。\n\n夏隆警告你，啟動程序需耗時15日，而星艦啟動間發出的能量識別訊號將會傳到極遠的距離外，這種訊號代表這艘星艦具有飛行能力，將會吸引絕望的掠奪者和寶藏獵人。當下的第一要務便是要確保擁有足夠的防禦力量。</HibernateWarning>
+  <HibernateCompleteLabel>反應爐已啟動</HibernateCompleteLabel>
+  <HibernateComplete>夏隆．懷特史東已經完成反義爐的啟動程序。反應爐已經準備好提供星艦升空所需的動力。</HibernateComplete>
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0}使用{1}神經技能訓練器使等級由{2}提升至{3}了。</NeurotrainerUsed>
@@ -402,7 +425,7 @@
   <QualityIs>品質{0}</QualityIs>
     
   <!-- Mood descriptions -->
-  <Mood_MentalState>精神崩潰</Mood_MentalState>
+  <Mood_MentalState>精神狀態</Mood_MentalState>
   <Mood_AboutToBreak>瀕臨崩潰</Mood_AboutToBreak>
   <Mood_OnEdge>極限</Mood_OnEdge>
   <Mood_Stressed>壓力</Mood_Stressed>
@@ -488,5 +511,9 @@
   <OutfitWorker>工人</OutfitWorker>
   <OutfitSoldier>戰士</OutfitSoldier>
   <OutfitNudist>裸體主義者</OutfitNudist>
+
+  <!-- Hibernatable -->
+  <HibernatableHibernating>休眠中</HibernatableHibernating>
+  <HibernatableStartingUp>啟動中</HibernatableStartingUp>
   
 </LanguageData>

@@ -29,6 +29,8 @@
 
   <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
+
+  <RelatedPawnInvolvedInQuest>NAME是{0}的{1}。若NAME不幸死亡，{0}將會陷入長時間的悲傷，但如果你能救援NAME，{0}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
   
   <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
   <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而從曆法來計算，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
@@ -37,6 +39,10 @@
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
   <NewDisease>{0}感染了{1}。請確保{0}獲得妥善的醫療照顧，並盡可能讓{2}在床上休養以早日康復。</NewDisease>
   <NewPartDisease>{0}的{1}感染了{3}，請確保{0}獲得妥善的醫療照顧，並盡可能讓{2}在床上休養以早日康復。</NewPartDisease>
+
+  <PawnWasFormerlyColonist>{0}曾經是你的派系的成員。</PawnWasFormerlyColonist>
+  <PawnHasTheseRelationshipsWithColonists>{0}與你的居民有以下關係：</PawnHasTheseRelationshipsWithColonists>
+  <PrisonerRescueTimeout>該營地將在{0}天後消失。如果你錯過這次機會，你可能永遠不會再有{1}的消息。</PrisonerRescueTimeout>
  
   <LetterLabelAncientShrineWarning>遠古威脅</LetterLabelAncientShrineWarning>
   <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HE感受到一股不祥之感。HECAP無法解釋原因，HE就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
@@ -153,6 +159,33 @@
   <!-- Found lump of precious resources -->
   <LetterLabelFoundPreciousLump>尋獲珍貴礦藏</LetterLabelFoundPreciousLump>
   <LetterFoundPreciousLump>你的長程礦物掃描儀在附近探索到了一座珍貴礦脈。\n\n沒人知道是否有誰或什麼守護著礦藏。</LetterFoundPreciousLump>
+  
+  <!-- Sleeping mechanoids -->
+  <LetterLabelSleepingMechanoids>休眠機器人</LetterLabelSleepingMechanoids>
+  <LetterSleepingMechanoids>有幾個休眠中的敵性機器人存在這個區域內。\n\n你的接觸可能會喚醒它們，也可能不會，總之請小心了。</LetterSleepingMechanoids>
+
+  <!-- Ambush -->
+  <LetterLabelAmbushInExistingMap>埋伏</LetterLabelAmbushInExistingMap>
+  <LetterAmbushInExistingMap>你的{0}中伏了！</LetterAmbushInExistingMap>
+
+  <!-- Peace talks -->
+  <LetterLabelPeaceTalks_Disaster>會談災難</LetterLabelPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>這次的會談是一場災難。僅僅在經過最初的招呼問候之後，整場會談就化為相互指責和辱罵的口水戰場。\n\n你的旅隊前腳剛走，來自{1}的{0}就追了上來並發動攻擊！\n\n與{1}的關係：{2}。</LetterPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Backfire>適得其反的會談</LetterLabelPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>這場會談只得到了反效果。儘管先經過了一陣寒暄，但雙方代表們在實際的議題上毫無成果，而且有許多言論被解讀為侮辱。\n\n與{0}的關係：{1}。</LetterPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_TalksFlounder>膠著的會談</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>這次的會談毫無成果。雙方代表們試圖禮貌並清楚的進行溝通，但仍然無法在任何議題上取得進展。\n\n與{0}的關係沒有改變。</LetterPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_Success>成功的會談</LetterLabelPeaceTalks_Success>
+  <LetterPeaceTalks_Success>這是場成功的會談。雙方代表們於幾個實際的問題上達成了新的共識。\n\n與{0}的關係增加了{1}。</LetterPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Triumph>成果豐碩的會談</LetterLabelPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>此次的會談取得了重大的成功！雙方代表們一見如故，並且立刻就在當今最難解的問題上理解對方的觀點。\n\n與{0}的關係增加了{1}。\n\n在你的旅隊離開時，{0}贈送了一份禮物：{2}。</LetterPeaceTalks_Triumph>
+  <PeaceTalksSocialXPGain>{0}你的談判者獲得了{1}社交技能經驗值。</PeaceTalksSocialXPGain>
+
+  <!-- Run wild mental break -->
+  <LetterRunWildMentalBreak>{0}決定脫離你的勢力並和動物們一起生活。</LetterRunWildMentalBreak>
+
+  <!-- Catatonic mental break -->
+  <LetterCatatonicMentalBreak>{0}發作了一場會持續數天的精神崩潰症狀。</LetterCatatonicMentalBreak>
 
   
 </LanguageData>

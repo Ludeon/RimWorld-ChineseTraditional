@@ -78,6 +78,7 @@
   <MessageMedicalOperationFailureMinor>{0}在對{1}執行手術時出現細微的失誤。</MessageMedicalOperationFailureMinor>
   <MessageMedicalOperationFailureCatastrophic>{0}在對{1}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureRidiculous>{0}在對{1}執行手術時犯下了荒謬的失誤。</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureFatal>{0}在對{1}執行手術時犯下了致命的失誤。原因是一個特殊的挑戰：{2}</MessageMedicalOperationFailureFatal>
 
   <MessageMedicalOperationWillAngerFaction>這項行動將會激怒{0}。</MessageMedicalOperationWillAngerFaction>
 
@@ -133,6 +134,8 @@
   
   <MessageNoLongerBingingOnDrug>{0}不再暴飲暴食了。</MessageNoLongerBingingOnDrug>
 
+  <MessageNoLongerOnTargetedInsultingSpree>{0}停止了對{1}的瘋狂侮辱。</MessageNoLongerOnTargetedInsultingSpree>
+
   <MessageRottedAwayInStorage>{0}腐敗了。</MessageRottedAwayInStorage>
   
   <MessageFoodPoisoning>{0}吃了{1}而食物中毒了。</MessageFoodPoisoning>
@@ -146,7 +149,11 @@
   <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整顆星球可能需要不少時間。</MessageMaxPlanetCoveragePerformanceWarning>
 
   <MessagePlantDiedOfCold>{0}因低溫而凍死了。</MessagePlantDiedOfCold>
-  <MessagePlantDiedOfRot>{0}因過長時間未收穫而凋零了。</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0}因過長時間未收穫而凋零了。</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_ExposedToLight>{0}因曝光而凋零了。</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot>{0}凋零了。</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfPoison>{0}因毒素而凋零了。</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfBlight>{0}因病凋零了。</MessagePlantDiedOfBlight>
 
   <MessagePawnBeingBurned>{0}被高溫烤乾枯萎了！</MessagePawnBeingBurned>
 
@@ -168,7 +175,7 @@
 
   <MessageOldWoundHealed>因為{0}，{1}的{2}痊癒了。</MessageOldWoundHealed>
 
-  <MessageRescueeJoined>因為你拯救了HIM，{0}加入了你的隊伍！</MessageRescueeJoined>
+  <MessageRescueeJoined>因為你救援了HIM，{0}加入了你的隊伍！</MessageRescueeJoined>
   
   <MessageAttackedCaravanIsNowHostile>因為你攻擊了{0}的旅隊，他們宣布與你敵對了。</MessageAttackedCaravanIsNowHostile>
   <MessageFactionPawnCrushed>{0}因屋頂坍方而有人員死亡。勢力關係：{1}</MessageFactionPawnCrushed>
@@ -196,7 +203,7 @@
   
   <MessageReformedCaravan>旅隊已被重組。</MessageReformedCaravan>
   
-  <MessageCantAbandonLastColonist>你不能拋棄最後一名居民。</MessageCantAbandonLastColonist>
+  <MessageCantBanishLastColonist>你不能放逐最後一名居民。</MessageCantBanishLastColonist>
   
   <MessageCantEquipIncapableOfViolence>無法裝備：{0}排斥暴力。</MessageCantEquipIncapableOfViolence>
   <MessageCantEquipIncapableOfManipulation>無法裝備：無法使用</MessageCantEquipIncapableOfManipulation>
@@ -225,5 +232,33 @@
  
   <MessageSiteCountdownBecauseNoMoreEnemies>你殲滅了所有敵人，旅隊將在{0}內自動重組。</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>旅隊將在{0}內自動重組，你也可以在世界畫面立刻重組旅隊。</MessageSiteCountdownBecauseNoEnemiesInitially>
+
+  <MessageCantBanishDownedPawn>在{0}動彈不得時無法放逐HE。</MessageCantBanishDownedPawn>
+
+  <MessageSleepingPawnsWokenUp>{0}已經醒來。</MessageSleepingPawnsWokenUp>
+
+  <MessageCompSpawnerSpawnedItem>物件已生產：{0}。</MessageCompSpawnerSpawnedItem>
+
+  <MessageHediffCuredByItem>治癒健康狀況：{0}。</MessageHediffCuredByItem>
+  <MessageBodyPartCuredByItem>身體部位已修復：{0}。</MessageBodyPartCuredByItem>
+  <MessageResearchProjectFinishedByItem>已獲得科技：{0}。</MessageResearchProjectFinishedByItem>
+
+  <MessagePawnResurrected>{0}被救活了！</MessagePawnResurrected>
+
+  <MessageFailedToRescueRelative>你沒能成功救援{0}，這使得{1}陷入哀傷。</MessageFailedToRescueRelative>
+  <MessageRescuedRelative>你成功救援了{0}，這使得{1}心情振奮。</MessageRescuedRelative>
+
+  <MessagePrisonerRescued>你成功救援了NAME，HE決定加入你們。</MessagePrisonerRescued>
+
+  <MessageTornadoLeftMap>龍捲風已經離開這個區域。</MessageTornadoLeftMap>
+  <MessageTornadoDissipated>龍捲風已經消散。</MessageTornadoDissipated>
+
+  <MessagePeaceTalksNoDiplomat>缺少有能力的談判代表。</MessagePeaceTalksNoDiplomat>
+
+  <MessageWarningCavePlantsExposedToLight>警告：{0}無法在曝光狀態下存活。</MessageWarningCavePlantsExposedToLight>
+
+  <MessageTargetedTantrumChangedTarget>{0}無法接觸到{1}，所以HE決定將怒氣轉而發洩在{2}身上。</MessageTargetedTantrumChangedTarget>
+
+  <MessageTargetedInsultingSpreeChangedTarget>{0}無法接觸到{1}，所以HE決定將怒氣轉而發洩在{2}身上。</MessageTargetedInsultingSpreeChangedTarget>
   
 </LanguageData>

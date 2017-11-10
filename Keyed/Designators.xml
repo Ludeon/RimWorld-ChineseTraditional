@@ -45,13 +45,12 @@
   
   <DesignatorAreaBuildRoofExpand>劃設屋頂區</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>居民會在區域內搭建屋頂。</DesignatorAreaBuildRoofExpandDesc>
-  <DesignatorAreaBuildRoofClear>移除屋頂區</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>移除屋頂區後，現有的屋頂將保留，但居民將不再搭建新的屋頂。</DesignatorAreaBuildRoofClearDesc>
 
   <DesignatorAreaNoRoofExpand>劃設露天區</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>居民會拆除這個區域内的屋頂(除了無法被移除的山岩頂)。</DesignatorAreaNoRoofExpandDesc>
-  <DesignatorAreaNoRoofClear>移除露天區</DesignatorAreaNoRoofClear>
-  <DesignatorAreaNoRoofClearDesc>移除露天區後，居民將停止拆除屋頂。</DesignatorAreaNoRoofClearDesc>
+
+  <DesignatorAreaIgnoreRoofExpand>移除屋頂區</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpandDesc>居民將會移除這個區域內的屋頂。</DesignatorAreaIgnoreRoofExpandDesc>
 
   <DesignatorAreaSnowClearExpand>劃設除雪區</DesignatorAreaSnowClearExpand>
   <DesignatorAreaSnowClearExpandDesc>劃設需要除雪的區域，居民將會保持這片區域沒有積雪。</DesignatorAreaSnowClearExpandDesc>
@@ -121,6 +120,6 @@
   
   <!-- Desc helpers -->
   <TransmitsPower>傳輸電力</TransmitsPower>
-  
+  <ConstructionNeeded>建造等級需求</ConstructionNeeded>
   
 </LanguageData>

@@ -31,7 +31,9 @@
   <CargoPodCrash>你偵測到了一個貨艙在附近墜毀了。\n\n你或許能在殘骸中找到不少有用的東西。</CargoPodCrash>
 
   <AnElectricalConduit>一根電纜</AnElectricalConduit>
-  <ShortCircuit>{0}的故障引起了短路。\n\n所有電池裡整整{1}瓦的能量都以爆炸的形式被釋放出來。</ShortCircuit>
+  <ShortCircuit>{0}的故障導致了電線短路。</ShortCircuit>
+  <ShortCircuitStartedFire>{0}的故障導致了電線短路，引發了一場火災。</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>所有電池裡整整{1}瓦的能量都以爆炸的形式被釋放出來。</ShortCircuitDischargedEnergy>
   <ShortCircuitWasLarge>這麼多電能造成了一場規模可觀的爆炸。</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>哇！真是場壯觀的爆炸。</ShortCircuitWasHuge>
 
@@ -91,10 +93,10 @@
   <RefugeeChasedRejected>在你切斷與{0}的通訊之前，一陣淒厲的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-  <LetterLabelAnimalSelfTame>歸順</LetterLabelAnimalSelfTame>
-  <LetterAnimalSelfTame>{0}歸順了。</LetterAnimalSelfTame>
-  <LetterAnimalSelfTameAndNameNumerical>{0}歸順了。現在被編號為{1}。</LetterAnimalSelfTameAndNameNumerical>
-  <LetterAnimalSelfTameAndName>{0}歸順了。居民們決定叫牠{1}。</LetterAnimalSelfTameAndName>
+  <LetterLabelAnimalSelfTame>馴服</LetterLabelAnimalSelfTame>
+  <LetterAnimalSelfTame>{0}被馴服了。</LetterAnimalSelfTame>
+  <LetterAnimalSelfTameAndNameNumerical>{0}被馴服了。現在被編號為{1}。</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndName>{0}被馴服了。居民們決定叫牠{1}。</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <LetterLabelFarmAnimalsWanderIn>{0}群加入</LetterLabelFarmAnimalsWanderIn>
@@ -118,8 +120,12 @@
   <RansomDemand_Accept>支付贖金</RansomDemand_Accept>
   <RansomDemand_Reject>拒絕支付</RansomDemand_Reject>
   
-  <!-- Journey -->
-  <JourneyOffer>一個你舊識的友善AI夏隆向你傳送了一則訊息！\n\n夏隆表示他在這座星球上藏了一艘星艦，並附上了星艦的座標，如果你能跋涉到座標所指的地點，他便能夠帶你離開這個邊緣世界，再度往天空中的星星飛去。</JourneyOffer>
+  <!-- Journey-related -->
+  <JourneyOffer>一個與你舊識的友善AI夏隆．懷特史東向你傳送了一則訊息！\n\n夏隆表示他在這座星球上藏了一艘星艦，並附上了星艦的座標。\n\n那艘星艦目前處於深度休眠狀態，你將需要在你抵達後啟動系統，然後保衛星艦不被襲擊者奪走，直到星艦完成所有啟動程序。\n\n如果你能乘著星艦飛離地面，夏隆便能夠帶你離開這個邊緣世界，再度往天空中的星星飛去。</JourneyOffer>
+  <EscapeShipFoundLabel>發現星艦</EscapeShipFoundLabel>
+  <EscapeShipFound>你已經抵達夏隆提供的星艦藏匿點並發現了星艦。\n\n星艦的反應爐仍然處於深度休眠狀態，你可以透過電腦核心啟動反應爐。\n\n夏隆警告你，啟動程序需耗時15日，而星艦啟動間發出的能量識別訊號將會傳到極遠的距離外，這種訊號代表這艘星艦具有飛行能力，將會吸引絕望的掠奪者和寶藏獵人。當下的第一要務便是要確保擁有足夠的防禦力量。</EscapeShipFound>
+  <EscapeShipLostLabel>星艦已被摧毀</EscapeShipLostLabel>
+  <EscapeShipLost>夏隆向你傳送了一則訊息：\n\n他判斷你已經失去星艦的控制權，未免星艦落入敵人手中，他已經強制啟動了星艦的自毀機制，星艦已經化為一對廢鐵。\n\n你需要另尋辦法離開這顆星球了。</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>與{0}的接觸</CaravanMeetingTitle>
@@ -127,11 +133,13 @@
   <CaravanMeeting_Trade>交易</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>攻擊</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>離去</CaravanMeeting_MoveOn>
+  <CaravanMeeting_TradeIncapable>旅隊中沒有能夠進行交易的成員。</CaravanMeeting_TradeIncapable>
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>旅隊請求</LetterLabelCaravanRequest>
   <LetterCaravanRequest>位在附近的{0}聯絡了你，並提出一項特別交易。他們希望購買：\n\n  {1}\n\n做為報酬，他們將提供：\n\n  {2}\n\n這項請求的期限至：{3}\n\n若你決定履行這項交易，派遣旅隊前去並帶上他們請求的物資。你可以在星球地圖上點選{0}重新確認這項交易。</LetterCaravanRequest>
   <CaravanRequestInfo>請求：{0}，報酬：{1}(剩餘{2})</CaravanRequestInfo>
+  <CaravanRequestInfo>請求：{0}，報酬：{1}(缺少{2}個)</CaravanRequestInfo>
 
   <!-- Caravan demand -->
   <CaravanDemandTitle>來自{0}的旅隊</CaravanDemandTitle>
@@ -146,8 +154,6 @@
   <ItemStashQuestFeeDemand>若我們支付{1}白銀，{0}將會很樂意告訴我們藏寶的地點。</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>只不過，{0}並不清楚是否有誰或什麼在守護著寶藏。</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0}表示，這些寶藏沒有任何人看守。</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Outpost>{0}表示，在寶藏附近有一座敵人的哨站。</ItemStashSitePart_Outpost>
-  <ItemStashSitePart_Turrets>{0}表示，寶藏周圍被一片自動機槍塔包圍著。</ItemStashSitePart_Turrets>
-  <ItemStashSitePart_Manhunters>{0}表示，有一群殺人動物在寶藏周圍遊蕩。</ItemStashSitePart_Manhunters>
+  <ItemStashSitePart_Part>{0}表示，{1}。</ItemStashSitePart_Part>
 
 </LanguageData>
