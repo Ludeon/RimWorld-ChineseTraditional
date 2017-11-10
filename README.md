@@ -19,8 +19,8 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ===========================
 
-本繁體中文補丁對應遊戲版本：0.16.1393
-本補丁版本：0.9
+本繁體中文補丁對應遊戲版本：0.18.1717
+本補丁版本：0.2
 安裝方法：
 1.刪除 遊戲根目錄\Mods\Core\Languages中的ChineseTraditional資料夾
 2.解壓縮補丁至 遊戲根目錄\Mods\Core\Languages
@@ -48,4 +48,4 @@ http://ludeon.com/forums/index.php?topic=2933.0
 翻譯問題回報:請透過FB社團或巴哈討論板
 感謝支持RimWorld
 
-Wilseanhsu個人中文化。 2017/9/1
+Wilseanhsu個人中文化。 2017/11/10
