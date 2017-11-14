@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <Root.label>根目錄</Root.label>
+
+
+  <!-- Foods -->
+
   <Foods.label>食物</Foods.label>
   <FoodMeals.label>烹調食物</FoodMeals.label>
   <FoodRaw.label>生鮮</FoodRaw.label>
@@ -10,35 +14,64 @@
   <AnimalProductRaw.label>畜產品</AnimalProductRaw.label>
   <EggsUnfertilized.label>蛋</EggsUnfertilized.label>
   <EggsFertilized.label>受精蛋</EggsFertilized.label>
+
+
+  <!-- Manufactured -->
+
   <Manufactured.label>製造品</Manufactured.label>
   <Textiles.label>紡織品</Textiles.label>
   <Leathers.label>毛皮</Leathers.label>
   <Medicine.label>藥品</Medicine.label>
+  <Drugs.label>藥物</Drugs.label>
+  <MortarShells.label>迫擊砲彈</MortarShells.label>
+
+
+  <!-- Raw resources -->
+
   <ResourcesRaw.label>原料</ResourcesRaw.label>
+  <PlantMatter.label>植物原料</PlantMatter.label>
   <StoneBlocks.label>石材</StoneBlocks.label>
+
+
+  <!-- Items -->
+
   <Items.label>物件</Items.label>
   <Art.label>藝術品</Art.label>
   <Furniture.label>傢俱</Furniture.label>
   <Unfinished.label>半成品</Unfinished.label>
   <Artifacts.label>神器</Artifacts.label>
+  <BodyParts.label>身體部位</BodyParts.label>
+  <BodyPartsNatural.label>天然</BodyPartsNatural.label>
+  <BodyPartsArtificial.label>人造</BodyPartsArtificial.label>
+
+
+  <!-- Weapons -->
+
   <Weapons.label>武器</Weapons.label>
   <WeaponsMelee.label>近戰武器</WeaponsMelee.label>
   <WeaponsRanged.label>遠程武器</WeaponsRanged.label>
   <Grenades.label>手榴彈</Grenades.label>
+
+
+  <!-- Apparel -->
+
   <Apparel.label>衣著</Apparel.label>
   <Headgear.label>頭部裝備</Headgear.label>
-  <BodyParts.label>身體部位</BodyParts.label>
-  <BodyPartsNatural.label>天然</BodyPartsNatural.label>
-  <BodyPartsArtificial.label>人造</BodyPartsArtificial.label>
+
+
+  <!-- Chunks -->
+
   <Chunks.label>塊堆</Chunks.label>
   <StoneChunks.label>石塊</StoneChunks.label>
+
+
+  <!-- Corpses -->
+
   <Corpses.label>屍體</Corpses.label>
   <CorpsesHumanlike.label>人類屍體</CorpsesHumanlike.label>
   <CorpsesAnimal.label>動物屍體</CorpsesAnimal.label>
   <CorpsesInsect.label>蟲族屍體</CorpsesInsect.label>
   <CorpsesMechanoid.label>損壞的機器人</CorpsesMechanoid.label>
-  <Drugs.label>藥物</Drugs.label>
-  <PlantMatter.label>植物原料</PlantMatter.label>
 
-  
+
 </LanguageData>

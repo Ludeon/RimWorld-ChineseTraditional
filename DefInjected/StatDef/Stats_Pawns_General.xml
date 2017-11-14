@@ -3,7 +3,7 @@
   
   <MoveSpeed.label>移動速度</MoveSpeed.label>
   <MoveSpeed.description>角色移動時每秒鐘能夠穿越的地圖格數。</MoveSpeed.description>
-  <MoveSpeed.formatString>{0}公尺/秒</MoveSpeed.formatString>
+  <MoveSpeed.formatString>{0}格/秒</MoveSpeed.formatString>
   
   <MentalBreakThreshold.label>崩潰臨界值</MentalBreakThreshold.label>
   <MentalBreakThreshold.description>當角色的心情值達到這個臨界值，他們就有精神崩潰的危險。</MentalBreakThreshold.description>
@@ -30,7 +30,7 @@
   <ImmunityGainSpeed.description>此角色在面對疾病與感染時形成免疫力的速度，如果免疫力形成的速度過慢，這名角色就會在免疫力形成之前病重而死。</ImmunityGainSpeed.description>
   
   <CarryingCapacity.label>搬運攜帶量</CarryingCapacity.label>
-  <CarryingCapacity.description>這個單位能夠同時搬運的最大數量。</CarryingCapacity.description>
+  <CarryingCapacity.description>這個單位能夠用手、用嘴或其它裝置能搬運的最大物品數量。</CarryingCapacity.description>
   
   <MeatAmount.label>肉類產量</MeatAmount.label>
   <MeatAmount.description>屠宰此生物時可獲得的生肉數量。</MeatAmount.description>
@@ -40,5 +40,8 @@
   
   <MinimumHandlingSkill.label>最低馴養技能等級</MinimumHandlingSkill.label>
   <MinimumHandlingSkill.description>若馴養技能未高於此等級，將無法對此生物進行馴養、訓練或是任何形式的支配。</MinimumHandlingSkill.description>
+
+  <PainShockThreshold.label>疼痛忍受值</PainShockThreshold.label>
+  <PainShockThreshold.description>此生物在因疼痛而倒地前所能忍受的疼痛值。</PainShockThreshold.description>
   
 </LanguageData>

@@ -4,16 +4,16 @@
   <!-- Shooting -->
   
   <MeleeDPS.label>近戰DPS</MeleeDPS.label>
-  <MeleeDPS.description>肉搏戰鬥時平均每秒所能造成的傷害。</MeleeDPS.description>
+  <MeleeDPS.description>肉搏戰鬥時平均每秒所能造成的傷害。此數值未考慮目標的防禦力，如迴避和護甲。</MeleeDPS.description>
   
   <MeleeHitChance.label>近身攻擊命中率</MeleeHitChance.label>
-  <MeleeHitChance.description>近身攻擊目標的基礎命中率。</MeleeHitChance.description>
+  <MeleeHitChance.description>近身攻擊目標的基礎命中率。目標即使被打中也可能閃開(譯註：意即迴避的計算在命中率之後)。</MeleeHitChance.description>
 
   <MeleeDodgeChance.label>近身攻擊迴避率</MeleeDodgeChance.label>
   <MeleeDodgeChance.description>近身攻擊的迴避機率，但人物在瞄準或射擊時不會閃避。</MeleeDodgeChance.description>
   
   <ShootingAccuracy.label>射擊精度</ShootingAccuracy.label>
-  <ShootingAccuracy.description>對目標遠程射擊的基礎命中率。</ShootingAccuracy.description>
+  <ShootingAccuracy.description>對目標遠程射擊的基礎命中率。機率還同時受到目標、掩體和環境狀況的影響。選擇射手後再將游標移至目標上即可查看命中率資訊。</ShootingAccuracy.description>
   
   <AimingDelayFactor.label>瞄準時間</AimingDelayFactor.label>
   <AimingDelayFactor.description>開火之前所必須耗費的瞄準時間。</AimingDelayFactor.description>
