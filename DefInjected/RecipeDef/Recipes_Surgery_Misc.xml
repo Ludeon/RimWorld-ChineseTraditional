@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- removing body parts -->
-  
-  <RemoveBodyPart.label>拆除身體部位</RemoveBodyPart.label>
-  <RemoveBodyPart.description>拆除身體部位。</RemoveBodyPart.description>
-  <RemoveBodyPart.jobString>拆除身體部位。</RemoveBodyPart.jobString>
-
-  <RemoveMechanoidBodyPart.label>拆下機械部件</RemoveMechanoidBodyPart.label>
-  <RemoveMechanoidBodyPart.description>拆下機器人的組成部位。</RemoveMechanoidBodyPart.description>
-  <RemoveMechanoidBodyPart.jobString>拆下機械部件。</RemoveMechanoidBodyPart.jobString>
-
-
   <!-- Anesthetize -->
 
   <Anesthetize.label>麻醉</Anesthetize.label>
@@ -36,5 +25,23 @@
   <ExciseCarcinoma.description>切除病變的癌細胞。</ExciseCarcinoma.description>
   <ExciseCarcinoma.jobString>進行癌細胞切除手術。</ExciseCarcinoma.jobString>
   <ExciseCarcinoma.successfullyRemovedHediffMessage>{0}成功切除了{1}的癌細胞。</ExciseCarcinoma.successfullyRemovedHediffMessage>
+  
+
+  <!-- removing body parts -->
+  
+  <RemoveBodyPart.label>拆除身體部位</RemoveBodyPart.label>
+  <RemoveBodyPart.description>拆除身體部位。</RemoveBodyPart.description>
+  <RemoveBodyPart.jobString>拆除身體部位。</RemoveBodyPart.jobString>
+
+  <RemoveMechanoidBodyPart.label>拆下機械部件</RemoveMechanoidBodyPart.label>
+  <RemoveMechanoidBodyPart.description>拆下機器人的組成部位。</RemoveMechanoidBodyPart.description>
+  <RemoveMechanoidBodyPart.jobString>拆下機械部件。</RemoveMechanoidBodyPart.jobString>
+
+
+  <!-- special administer -->
+
+  <AdministerMechSerumHealer.label>施用奈米機械治癒劑</AdministerMechSerumHealer.label>
+  <AdministerMechSerumHealer.description>施用奈米機械治癒劑。</AdministerMechSerumHealer.description>
+  <AdministerMechSerumHealer.jobString>施用奈米機械治癒劑。</AdministerMechSerumHealer.jobString>
 
 </LanguageData>

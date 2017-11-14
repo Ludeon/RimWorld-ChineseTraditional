@@ -15,6 +15,16 @@
   <Make_Flake.description>製造薄片。</Make_Flake.description>
   <Make_Flake.jobString>製造薄片。</Make_Flake.jobString>
 
+
+  <!-- Recipe Users: CraftingSpot -->
+
+  <Make_PsychoidPekoe.label>製造百樂茶</Make_PsychoidPekoe.label>
+  <Make_PsychoidPekoe.description>製造百樂茶。</Make_PsychoidPekoe.description>
+  <Make_PsychoidPekoe.jobString>製造百樂茶。</Make_PsychoidPekoe.jobString>
+  
+
+  <!-- Recipe Users: DrugLab -->
+
   <Make_Yayo.label>製造Y他命</Make_Yayo.label>
   <Make_Yayo.description>製造Y他命。</Make_Yayo.description>
   <Make_Yayo.jobString>製造Y他命。</Make_Yayo.jobString>
@@ -35,7 +45,6 @@
 
 
   <!-- Recipe Users: TableSculpting -->
-  
     
   <Make_SculptureSmall.label>雕塑小型雕像</Make_SculptureSmall.label>
   <Make_SculptureSmall.description>製作一個小型雕像。</Make_SculptureSmall.description>
@@ -59,6 +68,22 @@
 
   <!-- Recipe Users: TableMachining -->
 
+  <Make_Shell_HighExplosive.label>製造高爆砲彈</Make_Shell_HighExplosive.label>
+  <Make_Shell_HighExplosive.description>製造高爆砲彈。</Make_Shell_HighExplosive.description>
+  <Make_Shell_HighExplosive.jobString>製造高爆砲彈。</Make_Shell_HighExplosive.jobString>
+
+  <Make_Shell_Incendiary.label>製造燃燒砲彈</Make_Shell_Incendiary.label>
+  <Make_Shell_Incendiary.description>製造燃燒砲彈。</Make_Shell_Incendiary.description>
+  <Make_Shell_Incendiary.jobString>製造燃燒砲彈。</Make_Shell_Incendiary.jobString>
+
+  <Make_Shell_EMP.label>製造電磁脈衝砲彈</Make_Shell_EMP.label>
+  <Make_Shell_EMP.description>製造電磁脈衝砲彈。</Make_Shell_EMP.description>
+  <Make_Shell_EMP.jobString>製造電磁脈衝砲彈。</Make_Shell_EMP.jobString>
+
+  <Make_Shell_Firefoam.label>製造泡沫彈</Make_Shell_Firefoam.label>
+  <Make_Shell_Firefoam.description>製造泡沫彈。</Make_Shell_Firefoam.description>
+  <Make_Shell_Firefoam.jobString>製造泡沫彈。</Make_Shell_Firefoam.jobString>
+
   <Make_Apparel_ShieldBelt.label>製作護盾腰帶</Make_Apparel_ShieldBelt.label>
   <Make_Apparel_ShieldBelt.description>製作一條護盾腰帶。</Make_Apparel_ShieldBelt.description>
   <Make_Apparel_ShieldBelt.jobString>製作護盾腰帶。</Make_Apparel_ShieldBelt.jobString>
@@ -69,7 +94,6 @@
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
-
   
   <Make_Apparel_CowboyHat.label>製作牛仔帽</Make_Apparel_CowboyHat.label>  
   <Make_Apparel_CowboyHat.description>製作一頂牛仔帽。</Make_Apparel_CowboyHat.description>  
@@ -78,21 +102,42 @@
   <Make_Apparel_BowlerHat.label>製作禮帽</Make_Apparel_BowlerHat.label>
   <Make_Apparel_BowlerHat.description>製作一頂禮帽。</Make_Apparel_BowlerHat.description>
   <Make_Apparel_BowlerHat.jobString>製作禮帽。</Make_Apparel_BowlerHat.jobString>
+
+
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+
+  <Make_Apparel_TribalHeaddress.label>製作部落頭飾</Make_Apparel_TribalHeaddress.label>
+  <Make_Apparel_TribalHeaddress.description>製作部落頭飾。</Make_Apparel_TribalHeaddress.description>
+  <Make_Apparel_TribalHeaddress.jobString>製作部落頭飾。</Make_Apparel_TribalHeaddress.jobString>
+
+
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
   
   <Make_Apparel_Tuque.label>製作針織帽</Make_Apparel_Tuque.label>
   <Make_Apparel_Tuque.description>製作一頂針織帽。</Make_Apparel_Tuque.description>
   <Make_Apparel_Tuque.jobString>製作針織帽。</Make_Apparel_Tuque.jobString>  
 
 
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+
+  <Make_Apparel_WarMask.label>製作戰爭面具</Make_Apparel_WarMask.label>
+  <Make_Apparel_WarMask.description>製作戰爭面具。</Make_Apparel_WarMask.description>
+  <Make_Apparel_WarMask.jobString>製作戰爭面具。</Make_Apparel_WarMask.jobString>
+
+  <Make_Apparel_WarVeil.label>製作戰爭面罩</Make_Apparel_WarVeil.label>
+  <Make_Apparel_WarVeil.description>製作戰爭面罩。</Make_Apparel_WarVeil.description>
+  <Make_Apparel_WarVeil.jobString>製作戰爭面罩</Make_Apparel_WarVeil.jobString>
+
+
   <!-- Recipe Users: TableMachining -->
 
-  <Make_Apparel_KevlarHelmet.label>製造克維拉鋼盔</Make_Apparel_KevlarHelmet.label>
-  <Make_Apparel_KevlarHelmet.description>製造一頂克維拉鋼盔。</Make_Apparel_KevlarHelmet.description>
-  <Make_Apparel_KevlarHelmet.jobString>製造克維拉鋼盔。</Make_Apparel_KevlarHelmet.jobString>
+  <Make_Apparel_SimpleHelmet.label>製造簡易鋼盔</Make_Apparel_SimpleHelmet.label>
+  <Make_Apparel_SimpleHelmet.description>製造一頂簡易鋼盔。</Make_Apparel_SimpleHelmet.description>
+  <Make_Apparel_SimpleHelmet.jobString>製造簡易鋼盔。</Make_Apparel_SimpleHelmet.jobString>
 
-  <Make_Apparel_MilitaryHelmet.label>製造軍用鋼盔</Make_Apparel_MilitaryHelmet.label>
-  <Make_Apparel_MilitaryHelmet.description>製造一頂軍用鋼盔。</Make_Apparel_MilitaryHelmet.description>
-  <Make_Apparel_MilitaryHelmet.jobString>製造軍用鋼盔。</Make_Apparel_MilitaryHelmet.jobString>  
+  <Make_Apparel_AdvancedHelmet.label>製造高階鋼盔</Make_Apparel_AdvancedHelmet.label>
+  <Make_Apparel_AdvancedHelmet.description>製造一頂高階鋼盔。</Make_Apparel_AdvancedHelmet.description>
+  <Make_Apparel_AdvancedHelmet.jobString>製造高階鋼盔。</Make_Apparel_AdvancedHelmet.jobString>  
 
   <Make_Apparel_PowerArmorHelmet.label>製造動力裝甲頭盔</Make_Apparel_PowerArmorHelmet.label>
   <Make_Apparel_PowerArmorHelmet.description>製造一頂動力裝甲頭盔。</Make_Apparel_PowerArmorHelmet.description>
@@ -143,25 +188,29 @@
   <Make_Apparel_PowerArmor.description>製造一具動力裝甲。</Make_Apparel_PowerArmor.description>
   <Make_Apparel_PowerArmor.jobString>製造動力裝甲。</Make_Apparel_PowerArmor.jobString>
 
-  <Make_Gun_Pistol.label>製造手槍</Make_Gun_Pistol.label>
-  <Make_Gun_Pistol.description>製造一把手槍。  </Make_Gun_Pistol.description>
-  <Make_Gun_Pistol.jobString>製造手槍。</Make_Gun_Pistol.jobString>  
+  <Make_Gun_Revolver.label>製造左輪手槍</Make_Gun_Revolver.label>
+  <Make_Gun_Revolver.description>製造左輪手槍。</Make_Gun_Revolver.description>
+  <Make_Gun_Revolver.jobString>製造左輪手槍。</Make_Gun_Revolver.jobString>
+
+  <Make_Gun_Autopistol.label>製造手槍</Make_Gun_Autopistol.label>
+  <Make_Gun_Autopistol.description>製造一把手槍。</Make_Gun_Autopistol.description>
+  <Make_Gun_Autopistol.jobString>製造手槍。</Make_Gun_Autopistol.jobString>
+
+  <Make_Gun_IncendiaryLauncher.label>製造燃燒彈發射器</Make_Gun_IncendiaryLauncher.label>
+  <Make_Gun_IncendiaryLauncher.description>製造一把燃燒彈發射器。</Make_Gun_IncendiaryLauncher.description>
+  <Make_Gun_IncendiaryLauncher.jobString>製造燃燒彈發射器。</Make_Gun_IncendiaryLauncher.jobString>  
 
   <Make_Gun_PumpShotgun.label>製造泵動霰彈槍</Make_Gun_PumpShotgun.label>
   <Make_Gun_PumpShotgun.description>製造一把泵動霰彈槍。</Make_Gun_PumpShotgun.description>
-  <Make_Gun_PumpShotgun.jobString>製造泵動霰彈槍。</Make_Gun_PumpShotgun.jobString>  
+  <Make_Gun_PumpShotgun.jobString>製造泵動霰彈槍。</Make_Gun_PumpShotgun.jobString> 
+
+  <Make_Gun_ChainShotgun.label>製造自動霰彈槍</Make_Gun_ChainShotgun.label>
+  <Make_Gun_ChainShotgun.description>製造一把自動霰彈槍。</Make_Gun_ChainShotgun.description>
+  <Make_Gun_ChainShotgun.jobString>製造自動霰彈槍。</Make_Gun_ChainShotgun.jobString> 
 
   <Make_Gun_BoltActionRifle.label>製造栓式步槍</Make_Gun_BoltActionRifle.label>
   <Make_Gun_BoltActionRifle.description>製造一把栓式步槍。</Make_Gun_BoltActionRifle.description>
-  <Make_Gun_BoltActionRifle.jobString>製造栓式步槍。</Make_Gun_BoltActionRifle.jobString>  
-
-  <Make_Gun_AssaultRifle.label>製造突擊步槍</Make_Gun_AssaultRifle.label>
-  <Make_Gun_AssaultRifle.description>製造一把突擊步槍。</Make_Gun_AssaultRifle.description>
-  <Make_Gun_AssaultRifle.jobString>製造突擊步槍。</Make_Gun_AssaultRifle.jobString>  
-
-  <Make_Gun_SniperRifle.label>製造狙擊槍</Make_Gun_SniperRifle.label>
-  <Make_Gun_SniperRifle.description>製造一把狙擊槍。</Make_Gun_SniperRifle.description>
-  <Make_Gun_SniperRifle.jobString>製造狙擊槍。</Make_Gun_SniperRifle.jobString>  
+  <Make_Gun_BoltActionRifle.jobString>製造栓式步槍。</Make_Gun_BoltActionRifle.jobString>   
 
   <Make_Gun_MachinePistol.label>製造輕型衝鋒槍</Make_Gun_MachinePistol.label>
   <Make_Gun_MachinePistol.description>製造一把輕型衝鋒槍。</Make_Gun_MachinePistol.description>
@@ -171,17 +220,21 @@
   <Make_Gun_HeavySMG.description>製造一把重型重型衝鋒槍。</Make_Gun_HeavySMG.description>
   <Make_Gun_HeavySMG.jobString>製造重型衝鋒槍。</Make_Gun_HeavySMG.jobString>  
 
-  <Make_Gun_ChargeRifle.label>製造光束步槍</Make_Gun_ChargeRifle.label>
-  <Make_Gun_ChargeRifle.description>製造一把光束步槍。</Make_Gun_ChargeRifle.description>
-  <Make_Gun_ChargeRifle.jobString>製造光束步槍。</Make_Gun_ChargeRifle.jobString>  
-
   <Make_Gun_LMG.label>製造輕機槍</Make_Gun_LMG.label>
   <Make_Gun_LMG.description>製造一把輕機槍。</Make_Gun_LMG.description>
   <Make_Gun_LMG.jobString>製造輕機槍。</Make_Gun_LMG.jobString>  
 
-  <Make_Gun_IncendiaryLauncher.label>製造燃燒彈發射器</Make_Gun_IncendiaryLauncher.label>
-  <Make_Gun_IncendiaryLauncher.description>製造一把燃燒彈發射器。</Make_Gun_IncendiaryLauncher.description>
-  <Make_Gun_IncendiaryLauncher.jobString>製造燃燒彈發射器。</Make_Gun_IncendiaryLauncher.jobString>  
+  <Make_Gun_AssaultRifle.label>製造突擊步槍</Make_Gun_AssaultRifle.label>
+  <Make_Gun_AssaultRifle.description>製造一把突擊步槍。</Make_Gun_AssaultRifle.description>
+  <Make_Gun_AssaultRifle.jobString>製造突擊步槍。</Make_Gun_AssaultRifle.jobString>  
+
+  <Make_Gun_ChargeRifle.label>製造光束步槍</Make_Gun_ChargeRifle.label>
+  <Make_Gun_ChargeRifle.description>製造一把光束步槍。</Make_Gun_ChargeRifle.description>
+  <Make_Gun_ChargeRifle.jobString>製造光束步槍。</Make_Gun_ChargeRifle.jobString>
+
+  <Make_Gun_SniperRifle.label>製造狙擊步槍</Make_Gun_SniperRifle.label>
+  <Make_Gun_SniperRifle.description>製造一把狙擊步槍。</Make_Gun_SniperRifle.description>
+  <Make_Gun_SniperRifle.jobString>製造狙擊步槍。</Make_Gun_SniperRifle.jobString> 
 
   <Make_Gun_Minigun.label>製造滾筒式機槍</Make_Gun_Minigun.label>
   <Make_Gun_Minigun.description>製造一把滾筒式機槍。</Make_Gun_Minigun.description>
@@ -218,6 +271,10 @@
   <Make_MeleeWeapon_Gladius.label>製造軍刀</Make_MeleeWeapon_Gladius.label>
   <Make_MeleeWeapon_Gladius.description>製造一把軍刀。</Make_MeleeWeapon_Gladius.description>
   <Make_MeleeWeapon_Gladius.jobString>製造軍刀。</Make_MeleeWeapon_Gladius.jobString>
+
+  <Make_MeleeWeapon_Ikwa.label>製造短矛</Make_MeleeWeapon_Ikwa.label>
+  <Make_MeleeWeapon_Ikwa.description>製造一支短矛。</Make_MeleeWeapon_Ikwa.description>
+  <Make_MeleeWeapon_Ikwa.jobString>製造短矛</Make_MeleeWeapon_Ikwa.jobString>
   
   <Make_MeleeWeapon_Spear.label>製造長矛</Make_MeleeWeapon_Spear.label>
   <Make_MeleeWeapon_Spear.description>製造一支長矛。</Make_MeleeWeapon_Spear.description>
@@ -240,11 +297,19 @@
   <Make_Pila.label>製造投矛</Make_Pila.label>
   <Make_Pila.description>製造一把投矛。</Make_Pila.description>
   <Make_Pila.jobString>製造投矛。</Make_Pila.jobString>  
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+
+  <Make_Bow_Recurve.label>製造反曲弓</Make_Bow_Recurve.label>
+  <Make_Bow_Recurve.description>製造一把反曲弓。</Make_Bow_Recurve.description>
+  <Make_Bow_Recurve.jobString>製造反曲弓</Make_Bow_Recurve.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
   
   <Make_Bow_Great.label>製造長弓</Make_Bow_Great.label>
   <Make_Bow_Great.description>製造一把長弓。</Make_Bow_Great.description>
   <Make_Bow_Great.jobString>製造長弓。</Make_Bow_Great.jobString> 
-  
-
 
 </LanguageData>
