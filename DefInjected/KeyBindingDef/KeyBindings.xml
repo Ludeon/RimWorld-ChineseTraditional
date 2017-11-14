@@ -46,8 +46,6 @@
   <CommandTogglePower.label>開啟/關閉電源</CommandTogglePower.label>
   <CommandItemForbid.label>允許/解除物件互動限制</CommandItemForbid.label>
   <CommandColonistDraft.label>徵召/解除徵召居民</CommandColonistDraft.label>
-  <ModifierIncrement10x.label>增加10x</ModifierIncrement10x.label>
-  <ModifierIncrement100x.label>增加100x</ModifierIncrement100x.label>
   
   
   <!-- Architect: Common -->
@@ -56,13 +54,20 @@
   <DesignatorDeconstruct.label>物件結構</DesignatorDeconstruct.label>
   <DesignatorRotateLeft.label>向左旋轉物件</DesignatorRotateLeft.label>
   <DesignatorRotateRight.label>向右旋轉物件</DesignatorRotateRight.label>
+
+
+  <!-- Modifiers -->
+
+  <ModifierIncrement10x.label>增加10x</ModifierIncrement10x.label>
+  <ModifierIncrement100x.label>增加100x</ModifierIncrement100x.label>
+  <QueueOrder.label>排程順位</QueueOrder.label>
   
   
   <!-- Debug -->
   
-  <ToggleDebugLog.label>開啟/關閉Debug日誌</ToggleDebugLog.label>
   <TickOnce.label>Debug：一旦勾選</TickOnce.label>
   <ToggleGodMode.label>開啟上帝模式</ToggleGodMode.label>
+  <ToggleDebugLog.label>開啟/關閉Debug日誌</ToggleDebugLog.label>
   <ToggleDebugActionsMenu.label>開啟/關閉Debug行動選單</ToggleDebugActionsMenu.label>
   <ToggleDebugLogMenu.label>開啟/關閉Debug日誌選單</ToggleDebugLogMenu.label>
   <ToggleDebugInspector.label>開啟Debug偵測</ToggleDebugInspector.label>
