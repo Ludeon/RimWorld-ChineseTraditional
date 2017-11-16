@@ -3,31 +3,46 @@
     
   <Sandbags.label>沙包</Sandbags.label>
   <Sandbags.description>在戰鬥時提供掩蔽。</Sandbags.description>
+
+
+  <!-- Improvised turret -->
     
   <TurretGun.label>機槍塔</TurretGun.label>
-  <TurretGun.description>一個威力較弱的炮塔，在敵人靠近時會自動開火。被摧毀後會引起爆炸。</TurretGun.description>
+  <TurretGun.description>一個威力較弱的炮塔，在敵人靠近時會自動開火。嚴重受損時會引起爆炸。</TurretGun.description>
     
   <Bullet_TurretImprovised.label>子彈(機槍塔)</Bullet_TurretImprovised.label>
+  
   <Gun_TurretImprovised.label>簡易機槍塔</Gun_TurretImprovised.label>
   <Gun_TurretImprovised.description>一個簡單連接到砲塔基座上的的無人機槍。</Gun_TurretImprovised.description>
 
-  <Turret_MortarIncendiary.label>燃燒迫擊炮</Turret_MortarIncendiary.label>
-  <Turret_MortarIncendiary.description>一個發射燃燒炮弹的迫擊炮，必須由人來操縱。被摧毀後會引起爆炸。</Turret_MortarIncendiary.description>
-    
-  <Turret_MortarBomb.label>迫擊炮</Turret_MortarBomb.label>
-  <Turret_MortarBomb.description>一個發射炮彈的迫擊炮，必須由人來操縱。被摧毀後會引起爆炸。</Turret_MortarBomb.description>
-      
-  <Turret_MortarEMP.label>電磁脈衝迫擊炮</Turret_MortarEMP.label>
-  <Turret_MortarEMP.description>一個發射電磁脈衝炸彈的迫擊炮，對付機器人時特別有效，必須由人來操縱。被摧毀後會引起爆炸。</Turret_MortarEMP.description>
-    
+
+  <!-- Mortar turret -->
+
+  <Turret_Mortar.label>迫擊炮</Turret_Mortar.label>
+  <Turret_Mortar.description>一種能夠發射各式炮彈的迫擊炮，必須由人來操縱。嚴重受損時會引起爆炸。</Turret_Mortar.description>
+
+  <Artillery_Mortar.label>迫擊炮</Artillery_Mortar.label>
+  <Artillery_Mortar.description>迫擊砲彈發射器，能將砲彈拋越障礙物。精準度低，但射程極長。</Artillery_Mortar.description>
+
+
+  <!-- Traps -->
   
   <TrapDeadfall.label>尖刺陷阱</TrapDeadfall.label>
   <TrapDeadfall.description>一個敏感的觸發裝置連接著懸吊於高處的尖刺陷阱，當受害者觸發陷阱，陷阱將會從他的頭頂落下。</TrapDeadfall.description>
 
-  <TrapIEDBomb.label>簡易爆炸裝置</TrapIEDBomb.label>
-  <TrapIEDBomb.description>一顆砲彈連接著一個自製的觸發裝置，當裝置被觸發，隨即會引爆砲彈。觸發裝置的延遲時機是隨機的，敏捷的敵人有可能藉此逃脫。</TrapIEDBomb.description>
+  <TrapIED_HighExplosive.label>簡易爆炸裝置</TrapIED_HighExplosive.label>
+  <TrapIED_HighExplosive.description>一顆砲彈連接著一個自製的觸發裝置，當引信被觸發後引爆砲彈。觸發裝置的延遲時機是隨機的，敏捷的敵人有可能因此逃脫。</TrapIED_HighExplosive.description>
 
-  <TrapIEDIncendiary.label>燃燒型簡易爆炸裝置</TrapIEDIncendiary.label>
-  <TrapIEDIncendiary.description>一種混合了易燃藥劑的燃燒彈，當受害者觸發了裝置，被點燃的藥劑會立刻四散。因為它不需要強烈的爆炸性，而且只用了簡單的化學反應來觸發，是一種十分可靠的的爆炸裝置。</TrapIEDIncendiary.description>
+  <TrapIED_Incendiary.label>燃燒型簡易爆炸裝置</TrapIED_Incendiary.label>
+  <TrapIED_Incendiary.description>一種混合了易燃藥劑的燃燒彈，當受害者觸發了裝置，被點燃的藥劑會立刻四散。因為它不需要強烈的爆炸性，而且只用了簡單的化學反應來觸發，是一種十分可靠的的爆炸裝置。</TrapIED_Incendiary.description>
+
+  <TrapIED_EMP.label>電磁脈衝型簡易爆炸裝置</TrapIED_EMP.label>
+  <TrapIED_EMP.description>一顆電磁脈衝砲彈連接著一個自製的觸發裝置。爆炸可以使機械體短暫癱瘓幾秒鐘。裝置可以被不受電磁脈衝影響的單位觸發。</TrapIED_EMP.description>
+
+  <TrapIED_Firefoam.label>泡沫型簡易爆炸裝置</TrapIED_Firefoam.label>
+  <TrapIED_Firefoam.description>當引信被觸發，裝置會爆炸並將消防泡沫散佈到周圍。</TrapIED_Firefoam.description>
+
+  <TrapIED_AntigrainWarhead.label>反粒子型簡易爆炸裝置</TrapIED_AntigrainWarhead.label>
+  <TrapIED_AntigrainWarhead.description>一顆反粒子彈頭連接著一個自製的觸發裝置，被觸發後會產生一場大爆炸並使周遭陷入火海。</TrapIED_AntigrainWarhead.description>
   
 </LanguageData>

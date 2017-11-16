@@ -17,6 +17,12 @@
   
   <HospitalBed.label>醫療床</HospitalBed.label>
   <HospitalBed.Description>一張為病患特別設計的床。能夠提高各種醫療行為的成功率。</HospitalBed.Description>
+
+  <Bedroll.label>布團</Bedroll.label>
+  <Bedroll.description>鋪在地上的簡單床鋪，通常由布或皮革製成，並襯以皮毛。布團重量輕盈，並且可以捲起來方便攜帶，但舒適度不如一般的床。</Bedroll.description>
+
+  <BedrollDouble.label>雙人布團</BedrollDouble.label>
+  <BedrollDouble.description>鋪在地上的簡單雙人床鋪，通常由布或皮革製成，並襯以皮毛。布團重量輕盈，並且可以捲起來方便攜帶，但舒適度不如一般的床。</BedrollDouble.description>
   
   <!-- Animal beds -->
   
@@ -41,11 +47,21 @@
   <Armchair.Description>寬敞又舒適的座椅，十分適合放鬆。</Armchair.Description>
   
   <!-- Table base -->
-  <TableShort.label>桌子</TableShort.label>
-  <TableShort.Description>人們會坐在對著桌子的椅子上用餐。</TableShort.Description>
-  
-  <TableLong.label>長桌</TableLong.label>
-  <TableLong.Description>人們會坐在對著桌子的椅子上用餐。</TableLong.Description>
+
+  <EndTable.label>床頭櫃</EndTable.label>
+  <EndTable.description>一個小小的床頭櫃，可以稍微提昇相鄰的床的舒適度。必須放置在緊臨床頭的位置，但一張床只會受到一個床頭櫃的影響。</EndTable.description>
+
+  <Table1x2c.label>桌子(1x2)</Table1x2c.label>
+  <Table1x2c.description>人們會坐在對著桌子的椅子上用餐。</Table1x2c.description>
+
+  <Table2x2c.label>桌子(2x2)</Table2x2c.label>
+  <Table2x2c.description>人們會坐在對著桌子的椅子上用餐。</Table2x2c.description>
+
+  <Table2x4c.label>桌子(2x4)</Table2x4c.label>
+  <Table2x4c.description>人們會坐在對著桌子的椅子上用餐。</Table2x4c.description>
+
+  <Table3x3c.label>桌子(3x3)</Table3x3c.label>
+  <Table3x3c.description>人們會坐在對著桌子的椅子上用餐。</Table3x3c.description>
 
   <PlantPot.label>盆栽</PlantPot.label>
   <PlantPot.Description>農夫會在這裡種植裝飾性的花朵。</PlantPot.Description>
@@ -76,9 +92,16 @@
   <!-- Storage -->
 
   <Shelf.label>儲物櫃</Shelf.label>
-  <Shelf.Description>儲存在此的物品能夠避免摔壞，無論室內室外。</Shelf.Description>
+  <Shelf.Description>儲存在此的物品能夠避免衰壞，無論室內室外。</Shelf.Description>
   <Shelf_Blueprint.label>儲物櫃藍圖</Shelf_Blueprint.label>
   <Shelf_Blueprint_Install.label>儲物櫃預定地</Shelf_Blueprint_Install.label>
   <Shelf_Frame.label>儲物櫃框架</Shelf_Frame.label>
+  <Shelf_Frame.description>儲存在此的物品能夠避免衰壞，無論室內室外。</Shelf_Frame.description>
+
+
+  <!-- Dressers -->
+
+  <Dresser.label>四斗櫃</Dresser.label>
+  <Dresser.description>給予所有相鄰的床少許的舒適度提昇。一張床只會受到一個四斗櫃的影響。</Dresser.description>
   
 </LanguageData>
