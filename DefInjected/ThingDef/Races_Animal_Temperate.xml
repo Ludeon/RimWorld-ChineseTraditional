@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-  <!-- Cold weather animals -->
   
   <Deer.label>鹿</Deer.label>
   <Deer.description>一種中型的草食動物。在不被打擾的情况下是一種溫馴的動物。</Deer.description>
+  <Deer.tools.0.label>左蹄</Deer.tools.0.label>
+  <Deer.tools.1.label>右蹄</Deer.tools.1.label>
+  <Deer.tools.3.label>頭</Deer.tools.3.label>
   <Deer_Leather.label>鹿皮</Deer_Leather.label>
   <Deer_Leather.description>鹿的毛皮。</Deer_Leather.description>
   <Deer_Leather.stuffProps.stuffAdjective>鹿皮</Deer_Leather.stuffProps.stuffAdjective>
@@ -15,6 +16,9 @@
 
   <Ibex.label>野山羊</Ibex.label>
   <Ibex.description>圈養山羊的野生祖先，野山羊生活在貧瘠的環境，大多數羚羊都無法生存，以苔癬和稀少的高山植物為食，擅長在陡峭的崖壁上移動。</Ibex.description>
+  <Ibex.tools.0.label>左蹄</Ibex.tools.0.label>
+  <Ibex.tools.1.label>右蹄</Ibex.tools.1.label>
+  <Ibex.tools.3.label>頭</Ibex.tools.3.label>
   <Ibex_Leather.label>野山羊皮</Ibex_Leather.label>
   <Ibex_Leather.description>野山羊毛皮。</Ibex_Leather.description>
   <Ibex_Leather.stuffProps.stuffAdjective>野山羊皮</Ibex_Leather.stuffProps.stuffAdjective>
@@ -25,6 +29,9 @@
   
   <Elk.label>麋鹿</Elk.label>
   <Elk.description>大多數的麋鹿已經適應在寒冷地區的生活。</Elk.description>
+  <Elk.tools.0.label>左蹄</Elk.tools.0.label>
+  <Elk.tools.1.label>右蹄</Elk.tools.1.label>
+  <Elk.tools.3.label>頭</Elk.tools.3.label>
   <Elk_Leather.label>糜鹿皮</Elk_Leather.label>
   <Elk_Leather.description>麋鹿的毛皮。</Elk_Leather.description>
   <Elk_Leather.stuffProps.stuffAdjective>糜鹿皮</Elk_Leather.stuffProps.stuffAdjective>
@@ -35,6 +42,9 @@
 
   <Caribou.label>馴鹿</Caribou.label>
   <Caribou.description>體型相當龐大的一種鹿，相當適應寒冷的氣候。</Caribou.description>
+  <Caribou.tools.0.label>左蹄</Caribou.tools.0.label>
+  <Caribou.tools.1.label>右蹄</Caribou.tools.1.label>
+  <Caribou.tools.3.label>頭</Caribou.tools.3.label>
   <Caribou_Leather.label>馴鹿皮</Caribou_Leather.label>
   <Caribou_Leather.description>馴鹿毛皮。</Caribou_Leather.description>
   <Caribou_Leather.stuffProps.stuffAdjective>馴鹿皮</Caribou_Leather.stuffProps.stuffAdjective>
@@ -45,11 +55,16 @@
   
   <WildBoar.label>野豬</WildBoar.label>
   <WildBoar.description>雖然被某些文化被視為不潔​​，這種家豬的毛茸茸祖先的價值在於牠野生的味道。</WildBoar.description>
+  <WildBoar.tools.0.label>tusk</WildBoar.tools.0.label>
+  <WildBoar.tools.2.label>頭</WildBoar.tools.2.label>
+  <!-- Use Leather From: Pig -->
+  <!-- Use Meat From: Pig -->
   <WildBoar_Corpse.label>野豬屍體</WildBoar_Corpse.label>
   <WildBoar_Corpse.description>野豬的屍體。</WildBoar_Corpse.description>
   
   <Tortoise.label>烏龜</Tortoise.label>
   <Tortoise.description>這個背負著沉重甲殼的陸生爬行動物，以緩慢的移動速度和驚人的狠咬著名。</Tortoise.description>
+  <Tortoise.tools.1.label>頭</Tortoise.tools.1.label>
   <Tortoise_Leather.label>烏龜皮</Tortoise_Leather.label>
   <Tortoise_Leather.description>烏龜的皮。</Tortoise_Leather.description>
   <Tortoise_Leather.stuffProps.stuffAdjective>烏龜皮</Tortoise_Leather.stuffProps.stuffAdjective>

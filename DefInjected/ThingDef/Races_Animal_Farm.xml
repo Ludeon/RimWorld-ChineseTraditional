@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-  <!-- Farm animals -->
-  
   <Chicken.label>雞</Chicken.label>
   <Chicken.description>最典型的農場動物，主要生產雞蛋和雞肉。</Chicken.description>
+  <Chicken.tools.0.label>爪</Chicken.tools.0.label>
+  <Chicken.tools.2.label>頭</Chicken.tools.2.label>
+  <!-- Leather Amount: 0 -->
   <Chicken_Meat.label>雞肉</Chicken_Meat.label>
   <Chicken_Meat.description>雞的肉。</Chicken_Meat.description>
   <Chicken_Corpse.label>雞屍體</Chicken_Corpse.label>
@@ -12,6 +13,7 @@
   
   <Pig.label>豬</Pig.label>
   <Pig.description>最早被人類馴化飼養的動物之一，主要生產豬肉和豬皮。豬隻非常容易餵養，因為牠們什麼都吃。</Pig.description>
+  <Pig.tools.1.label>頭</Pig.tools.1.label>
   <Pig_Leather.label>豬皮</Pig_Leather.label>
   <Pig_Leather.description>豬的皮。</Pig_Leather.description>
   <Pig_Leather.stuffProps.stuffAdjective>豬皮</Pig_Leather.stuffProps.stuffAdjective>
@@ -22,6 +24,7 @@
   
   <Cow.label>牛</Cow.label>
   <Cow.description>一種普遍的農業動物，牠們提供非常大量的鮮奶，或者在屠宰後成為桌上佳餚。</Cow.description>
+  <Cow.tools.1.label>頭</Cow.tools.1.label>
   <Cow_Leather.label>牛皮</Cow_Leather.label>
   <Cow_Leather.description>牛的皮。</Cow_Leather.description>
   <Cow_Leather.stuffProps.stuffAdjective>牛皮</Cow_Leather.stuffProps.stuffAdjective>
@@ -32,6 +35,9 @@
   
   <Alpaca.label>羊駝</Alpaca.label>
   <Alpaca.description>一種和美洲駝血緣相近的動物，體型中等。人們因牠身上柔軟的毛料而飼養牠們。</Alpaca.description>
+  <Alpaca.tools.0.label>左蹄</Alpaca.tools.0.label>
+  <Alpaca.tools.1.label>右蹄</Alpaca.tools.1.label>
+  <Alpaca.tools.3.label>頭</Alpaca.tools.3.label>
   <Alpaca_Leather.label>羊駝毛皮</Alpaca_Leather.label>
   <Alpaca_Leather.description>羊駝的毛皮。</Alpaca_Leather.description>
   <Alpaca_Leather.stuffProps.stuffAdjective>羊駝毛皮</Alpaca_Leather.stuffProps.stuffAdjective>

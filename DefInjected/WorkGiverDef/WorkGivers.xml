@@ -8,11 +8,15 @@
   <FightFires.gerund>滅火</FightFires.gerund>
 
 
-  <!-- PatientEmergency -->
-  
-  <PatientGoToBedEmergency.label>到床上接受立即的治療</PatientGoToBedEmergency.label>
-  <PatientGoToBedEmergency.verb>接受治療於</PatientGoToBedEmergency.verb>
-  <PatientGoToBedEmergency.gerund>接受治療於</PatientGoToBedEmergency.gerund>
+  <!-- Patient -->
+
+  <PatientGoToBedEmergencyTreatment.label>到床上接受緊急治療</PatientGoToBedEmergencyTreatment.label>
+  <PatientGoToBedEmergencyTreatment.verb>接受緊急治療於</PatientGoToBedEmergencyTreatment.verb>
+  <PatientGoToBedEmergencyTreatment.gerund>接受緊急治療於</PatientGoToBedEmergencyTreatment.gerund>
+
+  <PatientGoToBedTreatment.label>到床上接受治療</PatientGoToBedTreatment.label>
+  <PatientGoToBedTreatment.verb>接受治療於</PatientGoToBedTreatment.verb>
+  <PatientGoToBedTreatment.gerund>接受治療於</PatientGoToBedTreatment.gerund>
 
 
   <!-- Doctor -->
@@ -63,10 +67,10 @@
 
 
   <!-- PatientBedRest -->
-  
-  <PatientGoToBed.label>接受治療</PatientGoToBed.label>
-  <PatientGoToBed.verb>接受治療</PatientGoToBed.verb>
-  <PatientGoToBed.gerund>接受治療於</PatientGoToBed.gerund>
+
+  <PatientGoToBedRecuperate.label>在床上休養</PatientGoToBedRecuperate.label>
+  <PatientGoToBedRecuperate.verb>休養於</PatientGoToBedRecuperate.verb>
+  <PatientGoToBedRecuperate.gerund>休養於</PatientGoToBedRecuperate.gerund>
 
 
   <!-- Flicker -->
@@ -136,10 +140,6 @@
   <DoBillsCookCampfire.verb>烹調</DoBillsCookCampfire.verb>
   <DoBillsCookCampfire.gerund>烹飪於</DoBillsCookCampfire.gerund>
   
-  <DoBillsBrew.label>釀酒</DoBillsBrew.label>
-  <DoBillsBrew.verb>釀酒</DoBillsBrew.verb>
-  <DoBillsBrew.gerund>釀酒於</DoBillsBrew.gerund>
-  
   <DoBillsButcherFlesh.label>屠宰</DoBillsButcherFlesh.label>
   <DoBillsButcherFlesh.verb>屠宰</DoBillsButcherFlesh.verb>
   <DoBillsButcherFlesh.gerund>工作於</DoBillsButcherFlesh.gerund>
@@ -147,6 +147,10 @@
   <CookFillHopper.label>填充</CookFillHopper.label>
   <CookFillHopper.verb>填充</CookFillHopper.verb>
   <CookFillHopper.gerund>填充</CookFillHopper.gerund>
+  
+  <DoBillsBrew.label>釀酒</DoBillsBrew.label>
+  <DoBillsBrew.verb>釀酒</DoBillsBrew.verb>
+  <DoBillsBrew.gerund>釀酒於</DoBillsBrew.gerund>
 
 
   <!-- Hunting -->

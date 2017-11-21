@@ -64,19 +64,22 @@
 
   <!-- Combat -->
 	
-  <ObservedLayingCorpse.stages.0.label>看見屍體</ObservedLayingCorpse.stages.0.label>
+  <ObservedLayingCorpse.stages.0.label>目睹屍體</ObservedLayingCorpse.stages.0.label>
   <ObservedLayingCorpse.stages.0.description>我看見一具躺在地上的屍體。</ObservedLayingCorpse.stages.0.description>
 	
-  <ObservedLayingRottingCorpse.stages.0.label>看見腐爛的屍體</ObservedLayingRottingCorpse.stages.0.label>
+  <ObservedLayingRottingCorpse.stages.0.label>目睹腐爛的屍體</ObservedLayingRottingCorpse.stages.0.label>
   <ObservedLayingRottingCorpse.stages.0.description>我看見地上躺著一具腐爛的屍體。真是令人作嘔。</ObservedLayingRottingCorpse.stages.0.description>
 	
-  <WitnessedDeathAlly.stages.0.label>看見同盟死亡</WitnessedDeathAlly.stages.0.label>
+  <WitnessedDeathAlly.stages.0.label>目睹同盟死亡</WitnessedDeathAlly.stages.0.label>
   <WitnessedDeathAlly.stages.0.description>我看見我們有人死了，他們剛才還好好的，然後就倒下了。</WitnessedDeathAlly.stages.0.description>
 
-  <WitnessedDeathNonAlly.stages.0.label>看見陌生人死亡</WitnessedDeathNonAlly.stages.0.label>
+  <WitnessedDeathNonAlly.stages.0.label>目睹陌生人死亡</WitnessedDeathNonAlly.stages.0.label>
   <WitnessedDeathNonAlly.stages.0.description>我看見一個陌生人死了。</WitnessedDeathNonAlly.stages.0.description>
 
-  <WitnessedDeathBloodlust.stages.0.label>看見有人死了</WitnessedDeathBloodlust.stages.0.label>
+  <WitnessedDeathFamily.stages.0.label>目睹家人死亡</WitnessedDeathFamily.stages.0.label>
+  <WitnessedDeathFamily.stages.0.description>我親眼看見一個家人死亡，我的血緣至親...。</WitnessedDeathFamily.stages.0.description>
+
+  <WitnessedDeathBloodlust.stages.0.label>目睹有人死了</WitnessedDeathBloodlust.stages.0.label>
   <WitnessedDeathBloodlust.stages.0.description>我看見有人死了！哇！這真是太刺激了！</WitnessedDeathBloodlust.stages.0.description>
 	
   <KilledHumanlikeBloodlust.stages.0.label>殺死了别人</KilledHumanlikeBloodlust.stages.0.label>
@@ -87,28 +90,31 @@
   
   <DefeatedMajorEnemy.stages.0.label>擊敗了{0}</DefeatedMajorEnemy.stages.0.label>
   <DefeatedMajorEnemy.stages.0.description>我擊潰了敵方的攻擊！我是英雄！</DefeatedMajorEnemy.stages.0.description>
+
+
+  <!-- Banishing pawns -->
   
-  <ColonistAbandoned.stages.0.label>拋棄居民</ColonistAbandoned.stages.0.label>
-  <ColonistAbandoned.stages.0.description>我們剛拋下了某些人，我很擔心，只希望他們能堅持下去。</ColonistAbandoned.stages.0.description>
+  <ColonistBanished.stages.0.label>放逐居民</ColonistBanished.stages.0.label>
+  <ColonistBanished.stages.0.description>我們剛放逐了某些人，我很擔心，只希望他們能堅持下去。</ColonistBanished.stages.0.description>
   
-  <ColonistAbandonedToDie.stages.0.label>拋棄居民於死地</ColonistAbandonedToDie.stages.0.label>
-  <ColonistAbandonedToDie.stages.0.description>我們在幾乎沒有生還可能的情況下拋棄了某些人，他們幾乎不可能活下來。</ColonistAbandonedToDie.stages.0.description>
+  <ColonistBanishedToDie.stages.0.label>放逐居民於死地</ColonistBanishedToDie.stages.0.label>
+  <ColonistBanishedToDie.stages.0.description>我們在幾乎沒有生還可能的情況下放逐了某些人，他們幾乎不可能活下來。</ColonistBanishedToDie.stages.0.description>
   
-  <PrisonerAbandonedToDie.stages.0.label>拋棄俘虜於死地</PrisonerAbandonedToDie.stages.0.label>
-  <PrisonerAbandonedToDie.stages.0.description>我們在幾乎沒有生還可能的情況下拋棄了俘虜，他們幾乎不可能活下來。</PrisonerAbandonedToDie.stages.0.description>
-  
-  
-  <BondedAnimalAbandoned.stages.0.label>動物夥伴{0}被拋棄</BondedAnimalAbandoned.stages.0.label>
-  <BondedAnimalAbandoned.stages.0.description>我的動物夥伴被拋棄在茫茫荒野之中。</BondedAnimalAbandoned.stages.0.description>
-  
+  <PrisonerBanishedToDie.stages.0.label>放逐俘虜於死地</PrisonerBanishedToDie.stages.0.label>
+  <PrisonerBanishedToDie.stages.0.description>我們在幾乎沒有生還可能的情況下放逐了俘虜，他們幾乎不可能活下來。</PrisonerBanishedToDie.stages.0.description>
   
   
-  
-  
-  
-  
-  
-  
+  <BondedAnimalBanished.stages.0.label>動物夥伴{0}被放逐</BondedAnimalBanished.stages.0.label>
+  <BondedAnimalBanished.stages.0.description>我的動物夥伴被放逐在茫茫荒野之中。</BondedAnimalBanished.stages.0.description>
+
+
+  <!-- Rescue quest -->
+
+  <FailedToRescueRelative.stages.0.label>未能成功拯救{0}</FailedToRescueRelative.stages.0.label>
+  <FailedToRescueRelative.stages.0.description>我們未能成功拯救一個我的熟人。知道我本來有機會拯救他的讓我更難以接受他的離去。</FailedToRescueRelative.stages.0.description>
+
+  <RescuedRelative.stages.0.label>拯救了{0}</RescuedRelative.stages.0.label>
+  <RescuedRelative.stages.0.description>我們就了一個我的熟人。現在他已經安全了，我總算能放下心中這塊大石。</RescuedRelative.stages.0.description>
   
 
 </LanguageData>

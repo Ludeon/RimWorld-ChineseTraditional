@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- Player -->
-
-  <NamerFactionPlayerRandomized.rulePack.rulesStrings.0>name->[colonyname]</NamerFactionPlayerRandomized.rulePack.rulesStrings.0>
+  <!-- Player initial namers - used initially -->
+  
   <NamerFactionBasePlayerColony.rulePack.rulesStrings.0>name->殖民地</NamerFactionBasePlayerColony.rulePack.rulesStrings.0>
   <NamerFactionBasePlayerTribe.rulePack.rulesStrings.0>name->部落</NamerFactionBasePlayerTribe.rulePack.rulesStrings.0>
+
+
+  <!-- Player suggestion namers - used for default name in the 'name faction and/or base' dialogs -->
+
+  <NamerFactionPlayerColonyRandomized.rulePack.rulesStrings.0>name->[colonyname]</NamerFactionPlayerColonyRandomized.rulePack.rulesStrings.0>
 
   
   <!-- Pirate -->
@@ -39,23 +43,24 @@
 
   <!-- Outlander -->
 
+  <OutlanderWord.rulePack.rulesStrings.0>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.0>
+  <OutlanderWord.rulePack.rulesStrings.1>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.1>
+  <OutlanderWord.rulePack.rulesStrings.2>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.2>
+  <OutlanderWord.rulePack.rulesStrings.3>outlanderword->[olsyl][olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.3>
+  <OutlanderWord.rulePack.rulesStrings.4>outlanderword->[olsyl][olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.4>
+  <OutlanderWord.rulePack.rulesStrings.5>outlanderword->[olsyl][olsyl][olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.5>
+
   <NamerFactionOutlander.rulePack.rulesStrings.0>name->[apparel]</NamerFactionOutlander.rulePack.rulesStrings.0>
-  <NamerFactionOutlander.rulePack.rulesStrings.1>name->[apparel]</NamerFactionOutlander.rulePack.rulesStrings.1>
-  <NamerFactionOutlander.rulePack.rulesStrings.2>name->[apparel][politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.2>
-  <NamerFactionOutlander.rulePack.rulesStrings.3>name->[direction][apparel][politicaladjective][politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.3>
-  <NamerFactionOutlander.rulePack.rulesStrings.4>name->[apparel][politicaladjective][politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.4>
-  <NamerFactionOutlander.rulePack.rulesStrings.5>name->大[apparel][subname]</NamerFactionOutlander.rulePack.rulesStrings.5>
-  <NamerFactionOutlander.rulePack.rulesStrings.6>name->神聖[apparel][subname]</NamerFactionOutlander.rulePack.rulesStrings.6>
-  <NamerFactionOutlander.rulePack.rulesStrings.7>name->[apparel][number][subname]</NamerFactionOutlander.rulePack.rulesStrings.7>
-  <NamerFactionOutlander.rulePack.rulesStrings.8>subname->公國</NamerFactionOutlander.rulePack.rulesStrings.8>
-  <NamerFactionOutlander.rulePack.rulesStrings.9>subname->帝國</NamerFactionOutlander.rulePack.rulesStrings.9>
-  <NamerFactionOutlander.rulePack.rulesStrings.10>subname->王國</NamerFactionOutlander.rulePack.rulesStrings.10>
-  <NamerFactionOutlander.rulePack.rulesStrings.11>number->[wordname]</NamerFactionOutlander.rulePack.rulesStrings.11>
-  <NamerFactionOutlander.rulePack.rulesStrings.12>wordname->第二</NamerFactionOutlander.rulePack.rulesStrings.12>
-  <NamerFactionOutlander.rulePack.rulesStrings.13>wordname->第三</NamerFactionOutlander.rulePack.rulesStrings.13>
-  <NamerFactionOutlander.rulePack.rulesStrings.14>wordname->第四</NamerFactionOutlander.rulePack.rulesStrings.14>
-  <NamerFactionOutlander.rulePack.rulesStrings.15>wordname->第二</NamerFactionOutlander.rulePack.rulesStrings.15>
-  <NamerFactionOutlander.rulePack.rulesStrings.16>wordname->第三</NamerFactionOutlander.rulePack.rulesStrings.16>
+  <NamerFactionOutlander.rulePack.rulesStrings.1>name->[apparel][politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.1>
+  <NamerFactionOutlander.rulePack.rulesStrings.2>name->[direction][apparel][politicaladjective][politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.2>
+  <NamerFactionOutlander.rulePack.rulesStrings.3>name->[apparel][politicaladjective][politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.3>
+  <NamerFactionOutlander.rulePack.rulesStrings.4>name->大[apparel][subname]</NamerFactionOutlander.rulePack.rulesStrings.4>
+  <NamerFactionOutlander.rulePack.rulesStrings.5>name->神聖[apparel][subname]</NamerFactionOutlander.rulePack.rulesStrings.5>
+  <NamerFactionOutlander.rulePack.rulesStrings.6>name->[apparel][number][subname]</NamerFactionOutlander.rulePack.rulesStrings.6>
+  <NamerFactionOutlander.rulePack.rulesStrings.7>subname->帝國</NamerFactionOutlander.rulePack.rulesStrings.7>
+  <NamerFactionOutlander.rulePack.rulesStrings.8>subname->王國</NamerFactionOutlander.rulePack.rulesStrings.8>
+  <NamerFactionOutlander.rulePack.rulesStrings.9>number->第二</NamerFactionOutlander.rulePack.rulesStrings.9>
+  <NamerFactionOutlander.rulePack.rulesStrings.10>number->第三</NamerFactionOutlander.rulePack.rulesStrings.10>
 
   <NamerFactionBaseOutlander.rulePack.rulesStrings.0>name->[terrainfeature][community]</NamerFactionBaseOutlander.rulePack.rulesStrings.0>
   <NamerFactionBaseOutlander.rulePack.rulesStrings.1>name->[animal][community]</NamerFactionBaseOutlander.rulePack.rulesStrings.1>
@@ -83,10 +88,17 @@
   <NamerFactionBaseOutlander.rulePack.rulesStrings.23>townend->鎮</NamerFactionBaseOutlander.rulePack.rulesStrings.23>
   <NamerFactionBaseOutlander.rulePack.rulesStrings.24>townend->市</NamerFactionBaseOutlander.rulePack.rulesStrings.24>
   <NamerFactionBaseOutlander.rulePack.rulesStrings.25>townend->城</NamerFactionBaseOutlander.rulePack.rulesStrings.25>
-  
 
 
   <!-- Tribe -->
+
+  <TribalWord.rulePack.rulesStrings.0>tribalword->[tribalwordfile]</TribalWord.rulePack.rulesStrings.0>
+  <TribalWord.rulePack.rulesStrings.1>tribalword->[trsyl][trsyl]</TribalWord.rulePack.rulesStrings.1>
+  <TribalWord.rulePack.rulesStrings.2>tribalword->[trsyl][trsyl]</TribalWord.rulePack.rulesStrings.2>
+  <TribalWord.rulePack.rulesStrings.3>tribalword->[trsyl][trsyl]</TribalWord.rulePack.rulesStrings.3>
+  <TribalWord.rulePack.rulesStrings.4>tribalword->[trsyl][trsyl][trsyl]</TribalWord.rulePack.rulesStrings.4>
+  <TribalWord.rulePack.rulesStrings.5>tribalword->[trsyl][trsyl][trsyl]</TribalWord.rulePack.rulesStrings.5>
+  <TribalWord.rulePack.rulesStrings.6>tribalword->[trsyl][trsyl][trsyl][trsyl]</TribalWord.rulePack.rulesStrings.6>
 
   <NamerFactionTribal.rulePack.rulesStrings.0>name->[animal][tribalword]</NamerFactionTribal.rulePack.rulesStrings.0>
   <NamerFactionTribal.rulePack.rulesStrings.1>name->[tribalwordfile][tribalwordfile][tribalword]</NamerFactionTribal.rulePack.rulesStrings.1>
