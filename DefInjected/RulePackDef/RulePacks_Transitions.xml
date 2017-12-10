@@ -10,29 +10,29 @@
   <Transition_Downed.rulePack.rulesStrings.0>logentry->[culpritHediff_labelNoun]讓[subject_definite][collapsemeta]。</Transition_Downed.rulePack.rulesStrings.0>
   <Transition_Downed.rulePack.rulesStrings.1>logentry->[culpritHediff_target_label]的[culpritHediff_labelNoun]導致[subject_definite][collapsemeta]。</Transition_Downed.rulePack.rulesStrings.1>
   <Transition_Downed.rulePack.rulesStrings.2>logentry->[duetoa][culpritHediff_labelNoun]，[subject_definite][collapsedmeta]。</Transition_Downed.rulePack.rulesStrings.2>
-  <Transition_Downed.rulePack.rulesStrings.3>logentry->[duetoa][culpritHediff_labelNoun]的[culpritHediff_target_label]，[subject_definite][collapsedmeta]。</Transition_Downed.rulePack.rulesStrings.3>
-  <Transition_Downed.rulePack.rulesStrings.4>logentry->[duetoa][culpritHediff_labelNoun]的[subject_possessive][culpritHediff_target_label]，[subject_definite][collapsedmeta]。</Transition_Downed.rulePack.rulesStrings.4>
+  <Transition_Downed.rulePack.rulesStrings.3>logentry->[subject_definite][duetoa][culpritHediff_target_label]的[culpritHediff_labelNoun]而[collapsedmeta]。</Transition_Downed.rulePack.rulesStrings.3>
+  <Transition_Downed.rulePack.rulesStrings.4>logentry->[duetoa][culpritHediff_target_label]的[culpritHediff_labelNoun]，[subject_definite][collapsedmeta]。</Transition_Downed.rulePack.rulesStrings.4>
   <Transition_Downed.rulePack.rulesStrings.5>logentry(p=0.1)->[subject_definite][collapsedmeta]。</Transition_Downed.rulePack.rulesStrings.5>
   <Transition_Downed.rulePack.rulesStrings.6>collapse->倒下</Transition_Downed.rulePack.rulesStrings.6>
   <Transition_Downed.rulePack.rulesStrings.7>collapse->倒地</Transition_Downed.rulePack.rulesStrings.7>
   <Transition_Downed.rulePack.rulesStrings.8>collapse->不支倒地</Transition_Downed.rulePack.rulesStrings.8>
-  <Transition_Downed.rulePack.rulesStrings.9>collapse(subject_flesh!=Mechanoid)->當機</Transition_Downed.rulePack.rulesStrings.9>
-  <Transition_Downed.rulePack.rulesStrings.10>collapse(subject_flesh==Mechanoid)->崩潰</Transition_Downed.rulePack.rulesStrings.10>
+  <Transition_Downed.rulePack.rulesStrings.9>collapse(subject_flesh!=Mechanoid)->昏倒</Transition_Downed.rulePack.rulesStrings.9>
+  <Transition_Downed.rulePack.rulesStrings.10>collapse(subject_flesh==Mechanoid)->當機</Transition_Downed.rulePack.rulesStrings.10>
   <Transition_Downed.rulePack.rulesStrings.11>collapse(subject_flesh==Mechanoid)->失去回應</Transition_Downed.rulePack.rulesStrings.11>
   <Transition_Downed.rulePack.rulesStrings.12>collapse(subject_flesh==Mechanoid)->故障</Transition_Downed.rulePack.rulesStrings.12>
   <Transition_Downed.rulePack.rulesStrings.13>collapsed->倒下</Transition_Downed.rulePack.rulesStrings.13>
   <Transition_Downed.rulePack.rulesStrings.14>collapsed->倒地</Transition_Downed.rulePack.rulesStrings.14>
   <Transition_Downed.rulePack.rulesStrings.15>collapsed->不支倒地</Transition_Downed.rulePack.rulesStrings.15>
-  <Transition_Downed.rulePack.rulesStrings.16>collapsed(subject_flesh!=Mechanoid)->當機</Transition_Downed.rulePack.rulesStrings.16>
-  <Transition_Downed.rulePack.rulesStrings.17>collapsed(subject_flesh==Mechanoid)->崩潰</Transition_Downed.rulePack.rulesStrings.17>
+  <Transition_Downed.rulePack.rulesStrings.16>collapsed(subject_flesh!=Mechanoid)->昏倒</Transition_Downed.rulePack.rulesStrings.16>
+  <Transition_Downed.rulePack.rulesStrings.17>collapsed(subject_flesh==Mechanoid)->當機</Transition_Downed.rulePack.rulesStrings.17>
   <Transition_Downed.rulePack.rulesStrings.18>collapsed(subject_flesh==Mechanoid)->失去回應</Transition_Downed.rulePack.rulesStrings.18>
   <Transition_Downed.rulePack.rulesStrings.19>collapsed(subject_flesh==Mechanoid)->故障</Transition_Downed.rulePack.rulesStrings.19>
-  <Transition_Downed.rulePack.rulesStrings.20>helplessly->筋疲力竭</Transition_Downed.rulePack.rulesStrings.20>
-  <Transition_Downed.rulePack.rulesStrings.21>helplessly(subject_flesh!=Mechanoid)->失去意識</Transition_Downed.rulePack.rulesStrings.21>
-  <Transition_Downed.rulePack.rulesStrings.22>helplessly(subject_flesh!=Mechanoid)->系統崩潰</Transition_Downed.rulePack.rulesStrings.22>
+  <Transition_Downed.rulePack.rulesStrings.20>helplessly->失去意識</Transition_Downed.rulePack.rulesStrings.20>
+  <Transition_Downed.rulePack.rulesStrings.21>helplessly(subject_flesh!=Mechanoid)->筋疲力竭</Transition_Downed.rulePack.rulesStrings.21>
+  <Transition_Downed.rulePack.rulesStrings.22>helplessly(subject_flesh!=Mechanoid)->筋疲力竭</Transition_Downed.rulePack.rulesStrings.22>
   <Transition_Downed.rulePack.rulesStrings.23>helplessly(subject_flesh!=Mechanoid)->不堪負荷</Transition_Downed.rulePack.rulesStrings.23>
-  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh!=Mechanoid)->系統過載</Transition_Downed.rulePack.rulesStrings.24>
-  <Transition_Downed.rulePack.rulesStrings.25>helplessly(subject_flesh==Mechanoid)->失去控制</Transition_Downed.rulePack.rulesStrings.25>
+  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh!=Mechanoid)->不堪負荷</Transition_Downed.rulePack.rulesStrings.24>
+  <Transition_Downed.rulePack.rulesStrings.25>helplessly(subject_flesh==Mechanoid)->系統崩潰</Transition_Downed.rulePack.rulesStrings.25>
   <Transition_Downed.rulePack.rulesStrings.26>collapsemeta->[collapse]了</Transition_Downed.rulePack.rulesStrings.26>
   <Transition_Downed.rulePack.rulesStrings.27>collapsemeta(p=0.5)->[helplessly]而[collapse]了</Transition_Downed.rulePack.rulesStrings.27>
   <Transition_Downed.rulePack.rulesStrings.28>collapsedmeta->[collapsed]了</Transition_Downed.rulePack.rulesStrings.28>
@@ -82,7 +82,7 @@
   <Transition_DiedExplosive.rulePack.rulesStrings.21>fireball->大火</Transition_DiedExplosive.rulePack.rulesStrings.21>
   <Transition_DiedExplosive.rulePack.rulesStrings.22>fireball->大火</Transition_DiedExplosive.rulePack.rulesStrings.22>
   <Transition_DiedExplosive.rulePack.rulesStrings.23>pieces->血肉</Transition_DiedExplosive.rulePack.rulesStrings.23>
-  <Transition_DiedExplosive.rulePack.rulesStrings.24>pieces->骨肉</Transition_DiedExplosive.rulePack.rulesStrings.24>
+  <Transition_DiedExplosive.rulePack.rulesStrings.24>pieces->肉骨</Transition_DiedExplosive.rulePack.rulesStrings.24>
   <Transition_DiedExplosive.rulePack.rulesStrings.25>everywhere->模糊</Transition_DiedExplosive.rulePack.rulesStrings.25>
   <Transition_DiedExplosive.rulePack.rulesStrings.26>everywhere->四散</Transition_DiedExplosive.rulePack.rulesStrings.26>
 
