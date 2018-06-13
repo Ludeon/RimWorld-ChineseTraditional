@@ -30,7 +30,7 @@
   <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
 
-  <RelatedPawnInvolvedInQuest>NAME是{0}的{1}。若NAME不幸死亡，{0}將會陷入長時間的悲傷，但如果你能救援NAME，{0}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>[PAWN_nameDef]是{0}的{1}。若[PAWN_nameDef]不幸死亡，{0}將會陷入長時間的悲傷，但如果你能救援[PAWN_nameDef]，{0}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
   
   <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
   <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而從曆法來計算，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
@@ -45,7 +45,7 @@
   <PrisonerRescueTimeout>該營地將在{0}天後消失。如果你錯過這次機會，你可能永遠不會再有{1}的消息。</PrisonerRescueTimeout>
  
   <LetterLabelAncientShrineWarning>遠古威脅</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HE感受到一股不祥之感。HECAP無法解釋原因，HE就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
+  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，[PAWN_pronoun]感受到一股不祥之感。[PAWN_pronoun]無法解釋原因，[PAWN_pronoun]就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
 
   <StruckMineable>我們開採到了{0}！</StruckMineable>
 
@@ -82,8 +82,8 @@
   <LetterRelatedPawnsTradingWithOtherCaravan>這個旅隊正在販售與你的居民或俘虜相關的人：</LetterRelatedPawnsTradingWithOtherCaravan>
   
   <RelationshipAppendedLetterSuffix>(親友)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef]是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef]是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>外遇</LetterLabelAffair>
@@ -120,7 +120,7 @@
   
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>{0}成癮</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0}已對{1}成癮\n\nHECAP現在有使用{1}的需求，可以在HIS需求面板查看。HECAP會自動使用藥物以滿足需求，倘若需求在一段時間內無法滿足便會產生戒斷反應。</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0}已對{1}成癮\n\n[PAWN_pronoun]現在有使用{1}的需求，可以在[PAWN_possessive]需求面板查看。[PAWN_pronoun]會自動使用藥物以滿足需求，倘若需求在一段時間內無法滿足便會產生戒斷反應。</LetterNewlyAddicted>
   
   <!-- Drug binge -->
   <LetterLabelDrugBinge>{0}濫用</LetterLabelDrugBinge>
