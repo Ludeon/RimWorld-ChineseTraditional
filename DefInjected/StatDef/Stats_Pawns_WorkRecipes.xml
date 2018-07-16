@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
   
   <SculptingSpeed.label>雕刻速度</SculptingSpeed.label>
-  <SculptingSpeed.description>這名角色進行雕刻創作時的效率加成。註記：技能影響作品的品質而不影響工作速度。</SculptingSpeed.description>
+  <SculptingSpeed.description>這名角色進行雕刻創作時的效率加成。\n\n技能影響作品的品質而不影響工作速度，品質是根據作者技能等級決定。</SculptingSpeed.description>
   
   <TailoringSpeed.label>裁縫速度</TailoringSpeed.label>
-  <TailoringSpeed.description>這名角色進行裁縫工作時的工作速度。註記：技能影響作品的品質而不影響工作速度。</TailoringSpeed.description>
+  <TailoringSpeed.description>這名角色進行裁縫工作時的工作速度。\n\n技能影響作品的品質而不影響工作速度，品質是根據作者技能等級決定。</TailoringSpeed.description>
   
   <SmithingSpeed.label>鍛造速度</SmithingSpeed.label>
-  <SmithingSpeed.description>這名角色進行鍛造工作時的工作速度。註記：技能影響作品的品質而不影響工作速度。</SmithingSpeed.description>
+  <SmithingSpeed.description>這名角色進行製造武器、機械和彈藥時的工作速度。\n\n技能影響作品的品質而不影響工作速度，品質是根據作者技能等級決定。</SmithingSpeed.description>
   
   
   <!-- Production recipes - speed affected by skill because there is no output quality -->
@@ -22,7 +22,7 @@
   <CookSpeed.description>這名角色進行烹飪工作時的工作速度。</CookSpeed.description>
   
   <FoodPoisonChance.label>烹調失敗率</FoodPoisonChance.label>
-  <FoodPoisonChance.description>這名角色調理出有毒食物的機率。</FoodPoisonChance.description>
+  <FoodPoisonChance.description>這名角色調理出有毒食物的機率。食物中毒會使中毒者暫時無法工作。</FoodPoisonChance.description>
   
   <BrewingSpeed.label>釀造速度</BrewingSpeed.label>
   <BrewingSpeed.description>這名角色進行釀造工作時的工作速度。</BrewingSpeed.description>
@@ -32,20 +32,17 @@
   
   <ButcheryMechanoidSpeed.label>機械拆解速度</ButcheryMechanoidSpeed.label>
   <ButcheryMechanoidSpeed.description>這名角色進行拆解工作時的工作速度。</ButcheryMechanoidSpeed.description>
-
-  <MechanoidOperationSuccessChance.label>機械拆解成功率</MechanoidOperationSuccessChance.label>
-  <MechanoidOperationSuccessChance.description>這名角色拆解機械時的成功率，拆解失敗的結果輕則白費時間，嚴重則可能使對象受到嚴重損害。</MechanoidOperationSuccessChance.description>
   
   <ButcheryFleshEfficiency.label>屠宰效率</ButcheryFleshEfficiency.label>
-  <ButcheryFleshEfficiency.description>這名角色進行屠宰工作時的成品生產效率加成。</ButcheryFleshEfficiency.description>
+  <ButcheryFleshEfficiency.description>這名角色進行屠宰工作時的成品生產效率加成。實際的產量還與動物的體型相關。</ButcheryFleshEfficiency.description>
   
   <ButcheryMechanoidEfficiency.label>拆解效率</ButcheryMechanoidEfficiency.label>
-  <ButcheryMechanoidEfficiency.description>這名角色進行拆解工作時的成品生產效率加成。</ButcheryMechanoidEfficiency.description>
+  <ButcheryMechanoidEfficiency.description>這名角色進行拆解工作時的成品生產效率加成。實際的產量還與機器的尺寸相關。</ButcheryMechanoidEfficiency.description>
   
   
   <!-- Dumb recipes - not affected by skill because there's no skill component -->
   
   <SmeltingSpeed.label>金屬提煉速度</SmeltingSpeed.label>
-  <SmeltingSpeed.description>這名角色進行金屬提煉工作時的工作速度。</SmeltingSpeed.description>
+  <SmeltingSpeed.description>這名角色進行金屬提煉工作時的工作速度。\n\n因為金屬提煉是低端的非技術工作，工作速度不受任何技能影響。</SmeltingSpeed.description>
   
 </LanguageData>

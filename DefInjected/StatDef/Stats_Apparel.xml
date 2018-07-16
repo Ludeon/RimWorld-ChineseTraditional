@@ -1,32 +1,38 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <ArmorRating_Blunt.label>防禦 - 鈍器</ArmorRating_Blunt.label>
-  <ArmorRating_Blunt.description>能防禦住鈍器攻擊的機率。如：錘擊、石塊與爆炸。</ArmorRating_Blunt.description>
+
+  <StuffEffectMultiplierInsulation_Cold.label>保溫 - 冷 - 素材影響倍率</StuffEffectMultiplierInsulation_Cold.label>
+  <StuffEffectMultiplierInsulation_Heat.label>保溫 - 熱 - 素材影響倍率</StuffEffectMultiplierInsulation_Heat.label>
+  <StuffEffectMultiplierArmor.label>防禦 - 素材影響倍率</StuffEffectMultiplierArmor.label>
   
   <ArmorRating_Sharp.label>防禦 - 利器</ArmorRating_Sharp.label>
   <ArmorRating_Sharp.description>能防禦住利器攻擊的機率。如：子彈、刀劍與利牙。</ArmorRating_Sharp.description>
   
+  <ArmorRating_Blunt.label>防禦 - 鈍器</ArmorRating_Blunt.label>
+  <ArmorRating_Blunt.description>能防禦住鈍器攻擊的機率。如：錘擊、石塊與爆炸。</ArmorRating_Blunt.description>
+  
   <ArmorRating_Heat.label>防禦 - 熱</ArmorRating_Heat.label>
   <ArmorRating_Heat.description>能防禦住溫度相關傷害的機率。如：燃燒。</ArmorRating_Heat.description>
   
-  <ArmorRating_Electric.label>防禦 - 電磁</ArmorRating_Electric.label>
-  <ArmorRating_Electric.description>能防禦住電磁相關傷害的機率。如：電磁脈衝。</ArmorRating_Electric.description>
+  <Insulation_Cold.label>耐冷</Insulation_Cold.label>
+  <Insulation_Cold.description>此裝備能提供的低溫適應能力加成。更高的數值能在更冷的環境下生存。</Insulation_Cold.description>
   
-  <Insulation_Cold.label>保暖 - 冷</Insulation_Cold.label>
-  <Insulation_Cold.description>裝備此裝備後能夠適應的最低氣溫加成。</Insulation_Cold.description>
-  
-  <Insulation_Heat.label>保暖 - 熱</Insulation_Heat.label>
-  <Insulation_Heat.description>裝備此裝備後能夠適應的最高氣溫加成。</Insulation_Heat.description>
+  <Insulation_Heat.label>耐熱</Insulation_Heat.label>
+  <Insulation_Heat.description>此裝備能提供的高溫適應能力加成。更高的數值能在更冷的環境下生存。</Insulation_Heat.description>
   
   <EnergyShieldEnergyMax.label>護盾腰帶能量最大值</EnergyShieldEnergyMax.label>
   <EnergyShieldEnergyMax.description>護盾腰帶能維持的最大能量值，越多的能量能夠抵禦更多的傷害。</EnergyShieldEnergyMax.description>
   
   <EnergyShieldRechargeRate.label>護盾腰帶充能速度</EnergyShieldRechargeRate.label>
   <EnergyShieldRechargeRate.description>當護盾尚未被突破時每秒的能量補充值。</EnergyShieldRechargeRate.description>
+  <EnergyShieldRechargeRate.formatString>{0}/秒</EnergyShieldRechargeRate.formatString>
 
   <SmokepopBeltRadius.label>煙霧屏障半徑</SmokepopBeltRadius.label>
   <SmokepopBeltRadius.description>煙霧腰帶發動時的屏蔽範圍。</SmokepopBeltRadius.description>
   <SmokepopBeltRadius.formatString>{0}格</SmokepopBeltRadius.formatString>
+
+  <EquipDelay.label>裝備耗時</EquipDelay.label>
+  <EquipDelay.description>穿上這個裝備所需要花費的時間。</EquipDelay.description>
+  <EquipDelay.formatString>{0}秒</EquipDelay.formatString>
   
 </LanguageData>

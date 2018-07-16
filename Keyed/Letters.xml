@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <JumpToLocation>查看</JumpToLocation>
@@ -6,15 +6,16 @@
   <RejectLetter>拒絕</RejectLetter>
 
   <LetterLabelFirstSummerWarning>夏天來臨</LetterLabelFirstSummerWarning>
-  <FirstSummerWarning>夏天到了！但冬天正悄悄接近中。\n\n你的糧食作物並不會在冬季寒冷的天氣裡生長，趁著你還有能力，現在開始儲存糧食，並確保儲備量足以度過數個月的寒冬。\n\n你可以打造一座大型冷凍庫以確保食物不致腐壞。\n\n還有，嘗試買一些、做一些，甚至奪取一些大衣，否則你將會被凍僵在外頭。</FirstSummerWarning>
+  <FirstSummerWarning>夏天到了！但冬天正悄悄接近中。\n\n你的糧食作物並不會在冬季寒冷的天氣裡生長，確保儲備足夠過冬的糧食。\n\n你可以打造一座大型冷凍庫以確保食物不致腐壞。\n\n還有，買、偷或者做一些大衣，否則你將會被凍僵在外頭。</FirstSummerWarning>
 
-  <RelationsBrokenDown>和{0}的關係惡化了。現在他們與你敵對了。</RelationsBrokenDown>
-  <RelationsWarmed>和{0}的關係改善了。他們不再敵視你了。</RelationsWarmed>
+  <LetterRelationsChange_Hostile>和{0}的關係徹底決裂了，現在他們已經與你敵對。\n\n他們將拒絕與你交易，並不時攻擊你的據點和旅隊，如果你想改善關係，還是能夠過旅隊或運輸艙贈送他們禮物。\n\n這種狀況在友好度({1})低於{2}時發生。想恢復中立關係必須將有好度再次提昇至{3}。</LetterRelationsChange_Hostile>
+  <LetterRelationsChange_NeutralFromHostile>和{0}的關係改善了，他們現在對你持中立態度，並且不再攻擊你。\n\n這種狀況在友好度({1})超越{2}時發生。如果友好度低於{3}，{0}會再次與你敵對，如果友好度超過{4}，他們會成為你的盟友並為你而戰。</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromAlly>和{0}的關係降溫了，他們現在對你持中立態度，而不再視你為盟友。\n\n雖然他們仍然會和平對待你，但他們不再會在你遭受襲擊時派遣戰士支援。\n\n這種狀況在友好度({1})低於{2}時發生。如果友好度低於{3}，{0}會再次與你敵對，如果友好度超過{4}，他們會再次成為你的盟友。</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_Ally>和{0}的關係升溫了，他們現在視你為盟友。\n\n盟友偶爾會在你遭受攻擊時前來協助抵抗你的敵人，而且只要花費友好度，你可以隨時向他們請求援軍。\n\n因為你們之間的友好度({1})達到{2}而成為了盟友。如果友好度低於{3}，關係會回到中立。</LetterRelationsChange_Ally>
 
-  <RelationsBrokenCapture>因為你俘虜了{0}，{1}宣告與你敵對了。</RelationsBrokenCapture>
-
-  <ColonyGoodwill>殖民地友好度</ColonyGoodwill>
+  <goodwill>友好度</goodwill>
   <Neutral>中立</Neutral>
+  <Death>死亡</Death>
 
   <ShortCircuitRain>一個{0}在雨中發生了短路並造成了一場火災。</ShortCircuitRain>
   
@@ -30,7 +31,7 @@
   <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
 
-  <RelatedPawnInvolvedInQuest>NAME是{0}的{1}。若NAME不幸死亡，{0}將會陷入長時間的悲傷，但如果你能救援NAME，{0}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>[PAWN_NameDef]是{0}的{1}。若[PAWN_NameDef]不幸死亡，{0}將會陷入長時間的悲傷，但如果你能救援[PAWN_NameDef]，{0}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
   
   <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
   <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而從曆法來計算，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
@@ -39,13 +40,15 @@
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
   <NewDisease>{0}感染了{1}。請確保{0}獲得妥善的醫療照顧，並盡可能讓{2}在床上休養以早日康復。</NewDisease>
   <NewPartDisease>{0}的{1}感染了{3}，請確保{0}獲得妥善的醫療照顧，並盡可能讓{2}在床上休養以早日康復。</NewPartDisease>
+  <NewDiseaseAnimal>{0}感染了疾病：{1}</NewDiseaseAnimal>
+  <NewPartDiseaseAnimal>{0}感染了疾病：{3}位於[PAWN_possessive]{1}</NewPartDiseaseAnimal>
 
   <PawnWasFormerlyColonist>{0}曾經是你的勢力的成員。</PawnWasFormerlyColonist>
   <PawnHasTheseRelationshipsWithColonists>{0}與你的居民有以下關係：</PawnHasTheseRelationshipsWithColonists>
   <PrisonerRescueTimeout>該營地將在{0}天後消失。如果你錯過這次機會，你可能永遠不會再有{1}的消息。</PrisonerRescueTimeout>
  
   <LetterLabelAncientShrineWarning>遠古威脅</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HE感受到一股不祥之感。HECAP無法解釋原因，HE就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
+  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HE感受到一股不祥之感。[PAWN_pronoun]無法解釋原因，HE就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
 
   <StruckMineable>我們開採到了{0}！</StruckMineable>
 
@@ -71,6 +74,10 @@
   
   <MentalBreakLetterLabel>精神崩潰</MentalBreakLetterLabel>
   <FinalStraw>最終崩潰原因：{0}。</FinalStraw>
+  <LastFactionRelationsEvent>最新事件</LastFactionRelationsEvent>
+
+  <ReadMore>查看更多</ReadMore>
+  <LastEventsInLife>{0}生涯的最新事件</LastEventsInLife>
   
   <!-- Related pawns -->
   <LetterLabelNoticedRelatedPawns>親友</LetterLabelNoticedRelatedPawns>
@@ -80,10 +87,14 @@
   <LetterRelatedPawnsTradeShip>宇宙商船販賣的奴隸中有居民或俘虜的親友：</LetterRelatedPawnsTradeShip>
   <LetterRelatedPawnsTradingWithSettlement>這個勢力據點正在販售與你的居民或俘虜相關的人：</LetterRelatedPawnsTradingWithSettlement>
   <LetterRelatedPawnsTradingWithOtherCaravan>這個旅隊正在販售與你的居民或俘虜相關的人：</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsGroupGeneric>在該團體中有與你的{0}或俘虜相關的人：</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsInMapWherePlayerLanded>在{0}著陸的地區中存在與{0}或俘虜相關的人。</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsSettlement>在這處據點中有與你的{0}或俘虜相關的人：</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSite>在該區域中有與你的{0}或俘虜相關的人：</LetterRelatedPawnsSite>
   
   <RelationshipAppendedLetterSuffix>(親友)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextColonist>[PAWN_NameDef]是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>[PAWN_NameDef]是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>外遇</LetterLabelAffair>
@@ -94,21 +105,21 @@
   <LetterLabelBreakup>分手</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>求婚成功！</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>求婚被拒</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1}答應了{0}的求婚。\n\n在未來幾天或幾季的某個時候，他們將舉行結婚典禮，並邀請所有居民參加典禮。如果你想，可以設置一個結婚點指定典禮進行的地點。</LetterAcceptedProposal>
-  <LetterRejectedProposal>{1}拒絕了{0}的求婚。{0}對此感到難以釋懷。</LetterRejectedProposal>
+  <LetterAcceptedProposal>在未來幾天或幾季的某個時候，他們將舉行結婚典禮，並邀請所有居民參加典禮。如果你想，可以設置一個結婚點指定典禮進行的地點。</LetterAcceptedProposal>
+  <LetterRejectedProposal>{0}對此感到難以釋懷。</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
-  <LetterLabelRelationsChangeGood>好消息</LetterLabelRelationsChangeGood>
-  <LetterLabelRelationsChangeBad>壞消息</LetterLabelRelationsChangeBad>
-  <LetterLabelShortCircuit>電纜爆炸</LetterLabelShortCircuit>
+  <LetterLabelRelationsChange_Hostile>敵對：{0}</LetterLabelRelationsChange_Hostile>
+  <LetterLabelRelationsChange_Ally>同盟：{0}</LetterLabelRelationsChange_Ally>
+  <LetterLabelRelationsChange_NeutralFromHostile>關係改善：{0}</LetterLabelRelationsChange_NeutralFromHostile>
+  <LetterLabelRelationsChange_NeutralFromAlly>關係降溫：{0}</LetterLabelRelationsChange_NeutralFromAlly>
+  <LetterLabelShortCircuit>茲茲作響</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>精神崩潰</LetterLabelMentalBreakdown>
   
   <!-- Bonded animals -->
-  <LetterLabelBondedAnimalDied>動物夥伴死亡</LetterLabelBondedAnimalDied>
-  <LetterBondedAnimalDied>{0}，{1}的夥伴死亡了，這將會影響{1}的心情。</LetterBondedAnimalDied>
-  <LetterNamedBondedAnimalDied>{0}{1}，{2}的夥伴死亡了，這將會影響{1}的心情。</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>{0}死亡了，這將會影響以下居民的心情：\n\n{1}</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>{0}{1}死亡了，這將會影響以下居民的心情：\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+  <LetterLabelSuffixBondedAnimalDied>動物夥伴死亡</LetterLabelSuffixBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{0}是{1}動物夥伴，這將會影響{1}的心情。</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDiedMulti>這將會影響以下居民的心情：\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <LetterLabelPrisonBreak>越獄</LetterLabelPrisonBreak>
@@ -120,19 +131,15 @@
   
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>{0}成癮</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0}已對{1}成癮\n\nHECAP現在有使用{1}的需求，可以在HIS需求面板查看。HECAP會自動使用藥物以滿足需求，倘若需求在一段時間內無法滿足便會產生戒斷反應。</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0}已對{1}成癮\n\n[PAWN_pronoun]現在有使用{1}的需求，可以在[PAWN_possessive]需求面板查看。[PAWN_pronoun]會自動使用藥物以滿足需求，倘若需求在一段時間內無法滿足便會產生戒斷反應。</LetterNewlyAddicted>
   
   <!-- Drug binge -->
   <LetterLabelDrugBinge>{0}濫用</LetterLabelDrugBinge>
   <LetterDrugBinge>{0}正在狂嗑{1}。</LetterDrugBinge>
   
-  <!-- Formed caravan -->
-  <LetterLabelFormedCaravan>旅隊待命中</LetterLabelFormedCaravan>
-  <LetterFormedCaravan>你的旅隊已經組織完成，目前正在世界地圖上等待你的指令。</LetterFormedCaravan>
-  
   <!-- Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>旅隊覆滅</LetterLabelAllCaravanColonistsDied>
-  <LetterAllCaravanColonistsDied>你的旅隊成員已全數死亡。</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>{0}的成員已全數死亡。</LetterAllCaravanColonistsDied>
   
   <!-- Caravan entered ambush map -->
   <LetterLabelCaravanEnteredAmbushMap>旅隊就位</LetterLabelCaravanEnteredAmbushMap>
@@ -141,16 +148,15 @@
   <!-- Caravan entered enemy base -->
   <LetterLabelCaravanEnteredEnemyBase>作戰開始</LetterLabelCaravanEnteredEnemyBase>
   <LetterCaravanEnteredEnemyBase>{0}已經抵達{1}並已完成攻擊前準備。</LetterCaravanEnteredEnemyBase>
-  <LetterCaravanEnteredEnemyBaseBecameHostile>{0}已經抵達{1}並已完成攻擊前準備。\n\n因為你的敵性行為，{2}現在和你敵對了。</LetterCaravanEnteredEnemyBaseBecameHostile>
+
+  <!-- Transport pods landed in enemy base -->
+  <LetterLabelTransportPodsLandedInEnemyBase>開始進攻</LetterLabelTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>你的運輸艙已經抵達{0}。</LetterTransportPodsLandedInEnemyBase>
   
   <!-- Faction base defeated -->
   <LetterLabelFactionBaseDefeated>攻陷據點</LetterLabelFactionBaseDefeated>
   <LetterFactionBaseDefeated>敵人的{0}據點已被攻陷。\n\n在重組旅隊前，你有{1}可以搜刮物資。</LetterFactionBaseDefeated>
   <LetterFactionBaseDefeated_FactionDestroyed>這是{0}的最後一座據點，這代表這個勢力已經不復存在了。</LetterFactionBaseDefeated_FactionDestroyed>
-  
-  <!-- Pawns lost due to map countdown -->
-  <LetterLabelPawnsLostDueToMapCountdown>遺棄</LetterLabelPawnsLostDueToMapCountdown>
-  <LetterPawnsLostDueToMapCountdown>你有一部份的動物或俘虜被遺留在荒野中：\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
   <!-- Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>任務完成</LetterLabelDefeatAllEnemiesQuestCompleted>
@@ -159,10 +165,6 @@
   <!-- Found lump of precious resources -->
   <LetterLabelFoundPreciousLump>尋獲珍貴礦藏</LetterLabelFoundPreciousLump>
   <LetterFoundPreciousLump>你的長程礦物掃描儀在附近探索到了一座珍貴礦脈。\n\n沒人知道是否有誰或什麼守護著礦藏。</LetterFoundPreciousLump>
-  
-  <!-- Sleeping mechanoids -->
-  <LetterLabelSleepingMechanoids>休眠機器人</LetterLabelSleepingMechanoids>
-  <LetterSleepingMechanoids>有幾個休眠中的敵性機器人存在這個區域內。\n\n你的接觸可能會喚醒它們，也可能不會，總之請小心了。</LetterSleepingMechanoids>
 
   <!-- Ambush -->
   <LetterLabelAmbushInExistingMap>埋伏</LetterLabelAmbushInExistingMap>
@@ -186,6 +188,42 @@
 
   <!-- Catatonic mental break -->
   <LetterCatatonicMentalBreak>{0}發作了一場會持續數天的精神崩潰症狀。</LetterCatatonicMentalBreak>
+
+  <LetterLabelAICoreOffer>AI核心任務</LetterLabelAICoreOffer>
+  <LetterAICoreOffer>{1}的{0}聯絡上你並提供了一則資訊：一個AI核心的座標點。AI核心可以用來建造星艦的。他們還提醒了你AI核心是非常珍稀的，通常它的所有者會為它設下嚴密保護。\n\n如果你有興趣的話，使用通訊台聯絡他們。</LetterAICoreOffer>
+
+  <LetterCraftedLegendaryLabel>傳奇巨作</LetterCraftedLegendaryLabel>
+  <LetterCraftedLegendaryMessage>{0}創造了一個{1}。\n\n有關這價值連成的曠世巨作的消息將傳遍世界。</LetterCraftedLegendaryMessage>
+
+  <!-- Pawns lost because map closed -->
+  <LetterLabelPawnsLostBecauseMapClosed_Caravan>遺失旅隊</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>你失去了一支旅隊，下列人員和動物也隨之失去了</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterLabelPawnsLostBecauseMapClosed_Home>居民被遺棄</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <LetterPawnsLostBecauseMapClosed_Home>下列人員和動物被遺棄了</LetterPawnsLostBecauseMapClosed_Home>
+
+  <!-- Hibernate complete -->
+  <LetterLabelHibernateComplete>反應爐就緒</LetterLabelHibernateComplete>
+  <LetterHibernateComplete>夏隆．懷特史東已經完成了反應爐的暖機程序，反應爐現已準備好為升空提供充足的電力。</LetterHibernateComplete>
+  <LetterHibernateCompleteStandalone>反應爐的暖機程序已完成，反應爐現已準備好為升空提供充足的電力。</LetterHibernateCompleteStandalone>
+
+  <!-- Visitors gave gift -->
+  <LetterLabelVisitorsGaveGift>贈禮</LetterLabelVisitorsGaveGift>
+  <LetterVisitorsGaveGift>看來你好像正經歷一段艱苦的時期，希望這能幫上一點忙。</LetterVisitorsGaveGift>
+
+  <!-- Faction base proximity -->
+  <LetterLabelFactionBaseProximity>逼近勢力據點</LetterLabelFactionBaseProximity>
+  <LetterFactionBaseProximity>因為你過於接近其他勢力的據點，他們認為你正在進犯他們的領土。\n\n與此勢力的關係在上個月減少了。</LetterFactionBaseProximity>
+
+  <!-- Caravans battlefield victory -->
+  <LetterLabelCaravansBattlefieldVictory>旅隊戰勝</LetterLabelCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>你的旅隊贏得了一場戰鬥。\n\n旅隊將自動於{0}重組，你可以在星球畫面選取戰場並點擊「重組旅隊」以立刻重組。</LetterCaravansBattlefieldVictory>
+
+  <!-- Rescue quest -->
+  <LetterLabelRescueQuestFinished>獲救者加入</LetterLabelRescueQuestFinished>
+  <LetterRescueQuestFinished>你救了[PAWN_[PAWN_NameDef]Def]而[PAWN_pronoun]加入了你的團體。\n\n你可以在星球畫面選取區域並點擊「重組旅隊」讓[PAWN_objective]隨旅隊一起行動。</LetterRescueQuestFinished>
+
+  <!-- Player entered site (generic label) -->
+  <LetterLabelPlayerEnteredNewSiteGeneric>抵達目標點</LetterLabelPlayerEnteredNewSiteGeneric>
 
   
 </LanguageData>

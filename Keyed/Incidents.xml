@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <LetterLabelAnimalInsanitySingle>狂暴動物</LetterLabelAnimalInsanitySingle>
@@ -7,21 +7,15 @@
   <AnimalInsanityMultiple>某種干擾電波橫掃了整個地平線。你的居民們沒什麼問題，但是……\n\n看來這附近好多{0}都被這玩意兒搞瘋了。</AnimalInsanityMultiple>
   
   <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
-  <CropBlight>一種未知的枯萎病毀掉了你的農作物。</CropBlight>
+  <LetterCropBlight>一個居民發現作物受到枯萎病感染！你應該在疫情擴散前割除或燒毀受感染的作物。</LetterCropBlight>
 
   <LetterLabelMiracleHeal>奇蹟</LetterLabelMiracleHeal>
   <MiracleHeal>{0}奇蹟般的恢復健康了!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <EnemyRaidWalkIn>一群名為{1}的{0}來到了附近。</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>一群名為{1}的{0}從軌道降落到了附近。</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>一群名為{1}的{0}從軌道直接降落到了殖民地上!</EnemyRaidCenterDrop>
   <EnemyRaidLeaderPresent>其中一名{0} - {1}，是該勢力的首領。</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <FriendlyRaidWalkIn>一群來自{1}的{0}來到了附近。</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>一群來自{1}的{0}從軌道降落到了附近。</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>一群來自{1}的{0}從軌道直接降落到了殖民地上!</FriendlyRaidCenterDrop>
   <FriendlyRaidLeaderPresent>其中一名{0} - {1}，是該勢力的首領。</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>逃生艙</LetterLabelRefugeePodCrash>
@@ -39,11 +33,11 @@
 
   <TraderArrival>一艘商船正巧經過。\n\n他們是{1}{0}。</TraderArrival>
 
-  <SingleTravelerPassing>一位從{1}來的{0}正巧路過。HECAP名叫{2}。</SingleTravelerPassing>
+  <SingleTravelerPassing>一位從{1}來的{0}正巧路過。[PAWN_pronoun]名叫{2}。</SingleTravelerPassing>
   <GroupTravelersPassing>一群來自{0}的旅行者正巧路過。</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>訪客</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>一位來自{1}的{0}來拜訪殖民地。\n\nHECAP名叫{2}。{4}{3}</SingleVisitorArrives>
+  <SingleVisitorArrives>一位來自{1}的{0}來拜訪殖民地。\n\n[PAWN_pronoun]名叫{2}。{4}{3}</SingleVisitorArrives>
   <SingleVisitorArrivesTraderInfo>\n\n他是該勢力的首領。</SingleVisitorArrivesTraderInfo>
   <SingleVisitorArrivesLeaderInfo>帶了些能夠交易的東西。</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>參訪團</LetterLabelGroupVisitorsArrive>
@@ -53,7 +47,7 @@
   <VisitorsLeaving>來自{0}的拜訪者離開了。</VisitorsLeaving>
 
   <LetterLabelWandererJoin>志願者</LetterLabelWandererJoin>
-  <WandererJoin>一位名叫NAME的{0}來到了這裡並加入了殖民地。HECAP是一位{1}。</WandererJoin>
+  <WandererJoin>一位名叫Name的{0}來到了這裡並加入了殖民地。[PAWN_pronoun]是一位{1}。</WandererJoin>
   
   <LetterLabelManhunterPackArrived>獸群襲擊</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>一票專門襲擊人類的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何活人。\n\n牠們通常不會破門而入，待在室內是安全的選擇。未運作的機槍炮塔也不會成為攻擊目標，如果你想保住它們，記得關掉電源。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
@@ -87,7 +81,7 @@
   
   <!-- Refugee chased -->
   <RefugeeChasedTitle>給{0}的庇護請求</RefugeeChasedTitle>
-  <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。HECAP說他正被來自{3}的{2}追殺！\n\nHECAP請求加入殖民地以獲得庇護。HIS生理年齡是{4}歲。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
+  <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。[PAWN_pronoun]說他正被來自{3}的{2}追殺！\n\n[PAWN_pronoun]請求加入殖民地以獲得庇護。HIS生理年齡是{4}歲。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>忽略訊息</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>在你切斷與{0}的通訊之前，一陣淒厲的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
@@ -129,7 +123,7 @@
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>與{0}的接觸</CaravanMeetingTitle>
-  <CaravanMeeting>你的旅隊和來自{0}的旅隊和平接觸了，這支旅隊由以下單位組成：\n\n{1}</CaravanMeeting>
+  <CaravanMeeting>{0}和來自{1}的旅隊和平接觸了。這支旅隊由以下單位組成：\n\n{2}</CaravanMeeting>
   <CaravanMeeting_Trade>交易</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>攻擊</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>離去</CaravanMeeting_MoveOn>
@@ -147,12 +141,15 @@
   <CaravanDemand_Fight>拒絕並開戰</CaravanDemand_Fight>
 
   <!-- Temporary item stash -->
-  <ItemStashQuestTitle>尋寶任務</ItemStashQuestTitle>
-  <ItemStashQuest_Accept>同意</ItemStashQuest_Accept>
-  <ItemStashQuest_Reject>拒絕</ItemStashQuest_Reject>
-  <ItemStashQuestFeeDemand>若我們支付{1}白銀，{0}將會很樂意告訴我們藏寶的地點。</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>只不過，{0}並不清楚是否有誰或什麼在守護著寶藏。</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0}表示，這些寶藏沒有任何人看守。</ItemStashSitePart_Nothing>
   <ItemStashSitePart_Part>{0}表示，{1}。</ItemStashSitePart_Part>
 
+  <!-- Site no longer hostile -->
+  <LetterLabelSiteNoLongerHostile>已無法進行此任務</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostileMulti>已無法進行這些任務</LetterLabelSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostile>因為你已不再與{0}敵對，地點{1}已不可接觸。</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostileMulti>因為你已不再與{0}敵對，這些地點已不可接觸。</LetterSiteNoLongerHostileMulti>
+
+  
 </LanguageData>

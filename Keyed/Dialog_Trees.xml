@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <FactionGreetingHostile>{0}的代表憤怒的對你咒罵了幾句後切斷連線。</FactionGreetingHostile>
+  <FactionGreetingHostileAppreciative>{0}要求你以具體行動表達善意，例如帶禮物拜訪[PAWN_possessive]的據點或毫髮無損的釋放隸屬[PAWN_possessive]的俘虜。如果你辦到了，[PAWN_pronoun]才願意與你進一步溝通。\n\n[PAWN_pronoun]在咒罵的呢喃中切斷了通訊。</FactionGreetingHostileAppreciative>
   <FactionGreetingWary>{0}的代表謹慎的問候了{1}並詢問HIS的來意。</FactionGreetingWary>
   <FactionGreetingWarm>{0}的代表親切的問候了{1}並關心殖民地的近況。</FactionGreetingWarm>
 
@@ -9,6 +10,8 @@
 
   <!-- gift offer -->
   <OfferGift>贈與禮物</OfferGift>
+  <MustBeAlly>必須為同盟關係</MustBeAlly>
+  <NeedGoodwill>需要{0}友好度</NeedGoodwill>
   <NeedSilverLaunchable>需要{0}在交易信標下範圍內的白銀。</NeedSilverLaunchable>
   <NotEnoughSilver>白銀不足。</NotEnoughSilver>
   <SilverForGoodwill>每{0}白銀增加{1}好感度</SilverForGoodwill>
@@ -19,6 +22,11 @@
   <ChooseTraderKind>{0}詢問你想要何種類型的旅隊。</ChooseTraderKind>
   <TraderSent>{0}同意派遣一支旅隊，他們將在幾天內抵達。</TraderSent>
   <WaitTime>等待{0}</WaitTime>
+
+  <!-- AI core request -->
+  <RequestAICoreInformation>請求一個{0}的藏寶座標點(花費{1}白銀)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0}應請求傳來一則藏寶座標點，並祝你好運。</RequestAICoreInformationResult>
+  <NoKnownAICore>已沒有已知的藏寶座標點</NoKnownAICore>
   
   <!-- military aid request -->
   <RequestMilitaryAid>請求立即派出軍事支援({0}好感度)</RequestMilitaryAid>
@@ -26,5 +34,6 @@
   <CallConfirm>是，無論如何都呼叫他們。</CallConfirm>
   <CallCancel>不，算了。</CallCancel>
   <MilitaryAidSent>{0}的代表同意派遣部隊來幫助你。</MilitaryAidSent>
+  <CantSendMilitaryAidInTime>{0}向你道歉並表示他們將無法如期抵達。\n\n(此勢力的科技水平過低而無法使用運輸艙)</CantSendMilitaryAidInTime>
   
 </LanguageData>

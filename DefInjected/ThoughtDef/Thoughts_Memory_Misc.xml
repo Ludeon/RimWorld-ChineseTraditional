@@ -7,11 +7,11 @@
   <SleepDisturbed.stages.0.label>睡眠受到打擾</SleepDisturbed.stages.0.label>
   <SleepDisturbed.stages.0.description>我睡覺時有人在房裡走來走去，這影響到我了。</SleepDisturbed.stages.0.description>
 
-  <NewColonyOptimism.stages.0.label>對新殖民地感到樂觀</NewColonyOptimism.stages.0.label>
-  <NewColonyOptimism.stages.0.description>我們剛剛降落在這裡，情况不是很好，但是我仍然對建立一個新殖民地感到激動。</NewColonyOptimism.stages.0.description>
+  <NewColonyOptimism.stages.0.label>對新家園感到樂觀</NewColonyOptimism.stages.0.label>
+  <NewColonyOptimism.stages.0.description>我們剛剛降落在這裡，情况不是很好，但是我仍然對建立一個新家園感到激動。</NewColonyOptimism.stages.0.description>
   
-  <NewColonyHope.stages.0.label>對新殖民地感到有希望</NewColonyHope.stages.0.label>
-  <NewColonyHope.stages.0.description>我漸漸習慣這裡了，但這個局面對我來說還是比較新的。希望一切都能順利...</NewColonyHope.stages.0.description>
+  <NewColonyHope.stages.0.label>對新家園懷抱希望</NewColonyHope.stages.0.label>
+  <NewColonyHope.stages.0.description>我漸漸習慣這裡了，但這個局面對我來說還是比較新的。希望一切都能順利...。</NewColonyHope.stages.0.description>
 
   <SleptOutside.stages.0.label>睡在外面</SleptOutside.stages.0.label>
   <SleptOutside.stages.0.description>我别無選擇只能睡在外面，沒有東西能夠保護我。</SleptOutside.stages.0.description>
@@ -40,9 +40,6 @@
   <WasImprisoned.stages.0.label>被囚禁</WasImprisoned.stages.0.label>
   <WasImprisoned.stages.0.description>我剛被當作動物一樣囚禁。</WasImprisoned.stages.0.description>
   
-  <GreenThumbHappy.stages.0.label>種下一株植物</GreenThumbHappy.stages.0.label>
-  <GreenThumbHappy.stages.0.description>這個世界需要的就是多一些、更多一些植物！</GreenThumbHappy.stages.0.description>
-  
   <Catharsis.stages.0.label>宣洩情緒</Catharsis.stages.0.label>
   <Catharsis.stages.0.description>我剛做了什麼？那不是我，我明明可以做得更好的。</Catharsis.stages.0.description>
 
@@ -51,6 +48,9 @@
 
   <KnowBuriedInSarcophagus.stages.0.label>妥善安葬</KnowBuriedInSarcophagus.stages.0.label>
   <KnowBuriedInSarcophagus.stages.0.description>我們把人好好的安葬在華麗的棺材內，願他的靈魂安息。</KnowBuriedInSarcophagus.stages.0.description>
+
+  <SoakingWet.stages.0.label>溼透</SoakingWet.stages.0.label>
+  <SoakingWet.stages.0.description>我走進水裡後全身溼透了。</SoakingWet.stages.0.description>
   
 
   <!-- Human corpse butchering -->
@@ -87,9 +87,8 @@
 
   <DefeatedHostileFactionLeader.stages.0.label>擊敗敵對勢力領袖{0}</DefeatedHostileFactionLeader.stages.0.label>
   <DefeatedHostileFactionLeader.stages.0.description>他們打算毀滅我們，而我把他們打得落花流水！</DefeatedHostileFactionLeader.stages.0.description>
-  
-  <DefeatedMajorEnemy.stages.0.label>擊敗了{0}</DefeatedMajorEnemy.stages.0.label>
-  <DefeatedMajorEnemy.stages.0.description>我擊潰了敵方的攻擊！我是英雄！</DefeatedMajorEnemy.stages.0.description>
+
+  <DefeatedHostileFactionLeaderOpinion.stages.0.label>擊敗了敵方首領</DefeatedHostileFactionLeaderOpinion.stages.0.label>
 
 
   <!-- Banishing pawns -->
@@ -103,7 +102,6 @@
   <PrisonerBanishedToDie.stages.0.label>放逐俘虜於死地</PrisonerBanishedToDie.stages.0.label>
   <PrisonerBanishedToDie.stages.0.description>我們在幾乎沒有生還可能的情況下放逐了俘虜，他們幾乎不可能活下來。</PrisonerBanishedToDie.stages.0.description>
   
-  
   <BondedAnimalBanished.stages.0.label>動物夥伴{0}被放逐</BondedAnimalBanished.stages.0.label>
   <BondedAnimalBanished.stages.0.description>我的動物夥伴被放逐在茫茫荒野之中。</BondedAnimalBanished.stages.0.description>
 
@@ -111,7 +109,7 @@
   <!-- Rescue quest -->
 
   <FailedToRescueRelative.stages.0.label>未能成功拯救{0}</FailedToRescueRelative.stages.0.label>
-  <FailedToRescueRelative.stages.0.description>我們未能成功拯救一個我的熟人。知道我本來有機會拯救他的讓我更難以接受他的離去。</FailedToRescueRelative.stages.0.description>
+  <FailedToRescueRelative.stages.0.description>我本來有機會拯救我的一個親人，但失敗了，我本來有機會拯救他的。</FailedToRescueRelative.stages.0.description>
 
   <RescuedRelative.stages.0.label>拯救了{0}</RescuedRelative.stages.0.label>
   <RescuedRelative.stages.0.description>我們就了一個我的熟人。現在他已經安全了，我總算能放下心中這塊大石。</RescuedRelative.stages.0.description>

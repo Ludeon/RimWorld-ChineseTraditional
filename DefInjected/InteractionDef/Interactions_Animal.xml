@@ -2,19 +2,82 @@
 <LanguageData>
 
   <AnimalChat.label>與動物交流</AnimalChat.label>
-  <AnimalChat.logRulesInitiator.rulesStrings.0>logentry->向[other_nameShortIndef]釋出善意，嘗試引起牠的注意。</AnimalChat.logRulesInitiator.rulesStrings.0>
-  <AnimalChat.logRulesRecipient.rulesStrings.0>logentry->回應了[other_nameShortIndef]的善意。</AnimalChat.logRulesRecipient.rulesStrings.0>
+  <AnimalChat.logRulesInitiator.rulesStrings.0>r_logentry(p=5)->[INITIATOR_nameIndef][tamed]。</AnimalChat.logRulesInitiator.rulesStrings.0>
+  <AnimalChat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]坐在[RECIPIENT_nameIndef]身邊並自言自語著關於[TalkTopicAny]的故事。</AnimalChat.logRulesInitiator.rulesStrings.1>
+  <AnimalChat.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef]一邊低語著關於[TalkTopicAny]的故事拉進了與[RECIPIENT_nameIndef]的距離。</AnimalChat.logRulesInitiator.rulesStrings.2>
+  <AnimalChat.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef]來到了[RECIPIENT_nameIndef]身邊，嘴裡述說著關於[TalkTopicAny]的故事。</AnimalChat.logRulesInitiator.rulesStrings.3>
+  <AnimalChat.logRulesInitiator.rulesStrings.4>tamed->向[RECIPIENT_nameIndef]發出溫和的叫聲</AnimalChat.logRulesInitiator.rulesStrings.4>
+  <AnimalChat.logRulesInitiator.rulesStrings.5>tamed->向[RECIPIENT_nameIndef]展現友好、謹慎的態度</AnimalChat.logRulesInitiator.rulesStrings.5>
+  <AnimalChat.logRulesInitiator.rulesStrings.6>tamed->向[RECIPIENT_nameIndef]發出溫柔的噓聲</AnimalChat.logRulesInitiator.rulesStrings.6>
+  <AnimalChat.logRulesInitiator.rulesStrings.7>tamed->向[RECIPIENT_nameIndef]發出愉悅的彈舌音</AnimalChat.logRulesInitiator.rulesStrings.7>
+  <AnimalChat.logRulesInitiator.rulesStrings.8>tamed->一邊輕柔的比手畫腳一邊接近[RECIPIENT_nameIndef]</AnimalChat.logRulesInitiator.rulesStrings.8>
+  <AnimalChat.logRulesInitiator.rulesStrings.9>tamed->緩慢的接近[RECIPIENT_nameIndef]</AnimalChat.logRulesInitiator.rulesStrings.9>
+  <AnimalChat.logRulesInitiator.rulesStrings.10>tamed->溫柔的撫摸了[RECIPIENT_nameIndef]</AnimalChat.logRulesInitiator.rulesStrings.10>
+  <AnimalChat.logRulesInitiator.rulesStrings.11>tamed->安撫並激勵了[RECIPIENT_nameIndef]</AnimalChat.logRulesInitiator.rulesStrings.11>
+  <AnimalChat.logRulesInitiator.rulesStrings.12>tamed->配合著[RECIPIENT_nameIndef]的呼吸</AnimalChat.logRulesInitiator.rulesStrings.12>
+  <AnimalChat.logRulesInitiator.rulesStrings.13>tamed->壓低姿態接近[RECIPIENT_nameIndef]</AnimalChat.logRulesInitiator.rulesStrings.13>
+  <AnimalChat.logRulesInitiator.rulesStrings.14>tamed->對[RECIPIENT_nameIndef]展現無畏和包容</AnimalChat.logRulesInitiator.rulesStrings.14>
+  <AnimalChat.logRulesInitiator.rulesStrings.15>tamed->假裝沒注意到[RECIPIENT_nameIndef]</AnimalChat.logRulesInitiator.rulesStrings.15>
+  <AnimalChat.logRulesInitiator.rulesStrings.16>tamed->對著[RECIPIENT_nameIndef]輕輕地哼了一首歌</AnimalChat.logRulesInitiator.rulesStrings.16>
+  <AnimalChat.logRulesInitiator.rulesStrings.17>tamed->對著[RECIPIENT_nameIndef]哼唱一曲由來已久的搖籃曲</AnimalChat.logRulesInitiator.rulesStrings.17>
+  <AnimalChat.logRulesInitiator.rulesStrings.18>tamed->堅定而溫柔的撫摸了[RECIPIENT_nameIndef]</AnimalChat.logRulesInitiator.rulesStrings.18>
+  <AnimalChat.logRulesInitiator.rulesStrings.19>tamed->向[RECIPIENT_nameIndef]展現了放鬆的態度</AnimalChat.logRulesInitiator.rulesStrings.19>
+  <AnimalChat.logRulesInitiator.rulesStrings.20>tamed->耐心的坐在[RECIPIENT_nameIndef]身邊</AnimalChat.logRulesInitiator.rulesStrings.20>
+  <AnimalChat.logRulesInitiator.rulesStrings.21>tamed->向[RECIPIENT_nameIndef]述說了一則關於[TalkTopicAny]的故事</AnimalChat.logRulesInitiator.rulesStrings.21>
 
   <TrainAttempt.label>嘗試訓練</TrainAttempt.label>
-  <TrainAttempt.logRulesInitiator.rulesStrings.0>logentry->試圖訓練[other_nameShortIndef]。</TrainAttempt.logRulesInitiator.rulesStrings.0>
-  <TrainAttempt.logRulesRecipient.rulesStrings.0>logentry->看著[other_nameShortIndef]嘗試訓練自己。</TrainAttempt.logRulesRecipient.rulesStrings.0>
+  <TameAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef]嘗試馴服[RECIPIENT_nameIndef]。</TameAttempt.logRulesInitiator.rulesStrings.0>
+  <TameAttempt.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]嘗試控制[RECIPIENT_nameIndef]。</TameAttempt.logRulesInitiator.rulesStrings.1>
+  <TameAttempt.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef]試圖給[RECIPIENT_nameIndef]套上項圈。</TameAttempt.logRulesInitiator.rulesStrings.2>
+  <TameAttempt.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef]試圖讓[RECIPIENT_nameIndef]服從。</TameAttempt.logRulesInitiator.rulesStrings.3>
+  <TameAttempt.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameIndef]叫[RECIPIENT_nameIndef]前往[INITIATOR_objective]。</TameAttempt.logRulesInitiator.rulesStrings.4>
+  <TameAttempt.logRulesInitiator.rulesStrings.5>r_logentry->[INITIATOR_nameIndef]試圖讓[RECIPIENT_nameIndef]坐好。</TameAttempt.logRulesInitiator.rulesStrings.5>
+  <TameAttempt.logRulesInitiator.rulesStrings.6>r_logentry->[INITIATOR_nameIndef]向[RECIPIENT_nameIndef]尖銳而大聲的下令。</TameAttempt.logRulesInitiator.rulesStrings.6>
+  <TameAttempt.logRulesInitiator.rulesStrings.7>r_logentry->[INITIATOR_nameIndef]試圖讓[RECIPIENT_nameIndef]靜止不動。</TameAttempt.logRulesInitiator.rulesStrings.7>
+  <TameAttempt.logRulesInitiator.rulesStrings.8>r_logentry->[INITIATOR_nameIndef]大聲的命令[RECIPIENT_nameIndef]。</TameAttempt.logRulesInitiator.rulesStrings.8>
+  <TameAttempt.logRulesInitiator.rulesStrings.9>r_logentry->[INITIATOR_nameIndef]拍打[RECIPIENT_nameIndef]以彰顯自己支配者的身份。</TameAttempt.logRulesInitiator.rulesStrings.9>
+  <TameAttempt.logRulesInitiator.rulesStrings.10>r_logentry->[INITIATOR_nameIndef]命令[RECIPIENT_nameIndef]立刻返回群體。</TameAttempt.logRulesInitiator.rulesStrings.10>
+  <TameAttempt.logRulesInitiator.rulesStrings.11>r_logentry->[INITIATOR_nameIndef]呼叫[RECIPIENT_nameIndef]返回群體。</TameAttempt.logRulesInitiator.rulesStrings.11>
+  <TameAttempt.logRulesInitiator.rulesStrings.12>r_logentry->[INITIATOR_nameIndef]手按著[RECIPIENT_nameIndef]身上最脆弱的部份，要求牠服從。</TameAttempt.logRulesInitiator.rulesStrings.12>
+  <TameAttempt.logRulesInitiator.rulesStrings.13>r_logentry->[INITIATOR_nameIndef]手指地面，要求[RECIPIENT_nameIndef]過來。</TameAttempt.logRulesInitiator.rulesStrings.13>
+  <TameAttempt.logRulesInitiator.rulesStrings.14>r_logentry->[INITIATOR_nameIndef]向[RECIPIENT_nameIndef]下達第一個命令。</TameAttempt.logRulesInitiator.rulesStrings.14>
 
   <TameAttempt.label>嘗試馴服</TameAttempt.label>
-  <TameAttempt.logRulesInitiator.rulesStrings.0>logentry->試圖馴服[other_nameShortIndef]。</TameAttempt.logRulesInitiator.rulesStrings.0>
-  <TameAttempt.logRulesRecipient.rulesStrings.0>logentry->看著[other_nameShortIndef]嘗試馴服自己。</TameAttempt.logRulesRecipient.rulesStrings.0>
+  <TrainAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef][trained][RECIPIENT_nameIndef]。</TrainAttempt.logRulesInitiator.rulesStrings.0>
+  <TrainAttempt.logRulesInitiator.rulesStrings.1>trained(p=2)->[tried]訓練</TrainAttempt.logRulesInitiator.rulesStrings.1>
+  <TrainAttempt.logRulesInitiator.rulesStrings.2>trained->[tried]展現新技能給</TrainAttempt.logRulesInitiator.rulesStrings.2>
+  <TrainAttempt.logRulesInitiator.rulesStrings.3>trained->[tried]指示</TrainAttempt.logRulesInitiator.rulesStrings.3>
+  <TrainAttempt.logRulesInitiator.rulesStrings.4>trained->[tried]教導</TrainAttempt.logRulesInitiator.rulesStrings.4>
+  <TrainAttempt.logRulesInitiator.rulesStrings.5>trained->[tried]傳授新技能給</TrainAttempt.logRulesInitiator.rulesStrings.5>
+  <TrainAttempt.logRulesInitiator.rulesStrings.6>trained->演示了新技能給</TrainAttempt.logRulesInitiator.rulesStrings.6>
+  <TrainAttempt.logRulesInitiator.rulesStrings.7>trained->試圖激勵</TrainAttempt.logRulesInitiator.rulesStrings.7>
+  <TrainAttempt.logRulesInitiator.rulesStrings.8>tried->試圖</TrainAttempt.logRulesInitiator.rulesStrings.8>
+  <TrainAttempt.logRulesInitiator.rulesStrings.9>tried->嘗試</TrainAttempt.logRulesInitiator.rulesStrings.9>
 
   <Nuzzle.label>撒嬌</Nuzzle.label>
-  <Nuzzle.logRulesInitiator.rulesStrings.0>logentry->向[other_nameShortIndef]撒嬌。</Nuzzle.logRulesInitiator.rulesStrings.0>
-  <Nuzzle.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]撒嬌。</Nuzzle.logRulesRecipient.rulesStrings.0>
+  <Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)->[INITIATOR_nameIndef][nuzzleadverb]的[nuzzled][RECIPIENT_nameIndef]。</Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]用[INITIATOR_possessive]鼻子[nuzzleadverb]的磨蹭[RECIPIENT_nameIndef]的[rubbedpart]。</Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Nuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)->用鼻子磨蹭</Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Nuzzle.logRulesInitiator.rulesStrings.3>nuzzled->用側臉磨蹭</Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Nuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-></Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Nuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb->輕輕</Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Nuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb->溫柔</Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Nuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb->愉悅</Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Nuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb->輕柔</Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Nuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb->小心</Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Nuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb->輕巧</Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Nuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb->溫暖</Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Nuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb->哀憐</Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Nuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb->充滿愛意</Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Nuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb->深情</Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Nuzzle.logRulesInitiator.rulesStrings.15>rubbedpart->腿</Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Nuzzle.logRulesInitiator.rulesStrings.16>rubbedpart->膝蓋</Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Nuzzle.logRulesInitiator.rulesStrings.17>rubbedpart->腳</Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Nuzzle.logRulesInitiator.rulesStrings.18>rubbedpart->手臂</Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Nuzzle.logRulesInitiator.rulesStrings.19>rubbedpart->臀部</Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Nuzzle.logRulesInitiator.rulesStrings.20>rubbedpart->肩膀</Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Nuzzle.logRulesInitiator.rulesStrings.21>rubbedpart->手</Nuzzle.logRulesInitiator.rulesStrings.21>
+  <Nuzzle.logRulesInitiator.rulesStrings.22>rubbedpart->側身</Nuzzle.logRulesInitiator.rulesStrings.22>
+  <Nuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->手臂</Nuzzle.logRulesInitiator.rulesStrings.23>
 
 </LanguageData>

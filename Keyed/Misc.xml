@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Autosaving>自動保存中</Autosaving>
@@ -29,14 +29,20 @@
   <repeat>重複</repeat>
   <default>預設</default>
   <distance>距離</distance>
+  <YesUppercase>是</YesUppercase>
+  <NoUppercase>否</NoUppercase>
+  <kg>公斤</kg>
+  <Day>天</Day>
+  <day>天</day>
+  <Default>預設</Default>
+  <Average>平均</Average>
 
   <!-- Content generation-->
   
   <MeatLabel>{0}肉</MeatLabel>
   <MeatDesc>{0}的生肉。</MeatDesc>
-
-  <LeatherLabel>{0}皮毛</LeatherLabel>
-  <LeatherDesc>{0}的皮毛。</LeatherDesc>
+  <MeatInsectDesc>屠宰好的生肉。可以烹調成料理，有必要的話還能直接生吃，但十分噁心。</MeatInsectDesc>
+  <MeatHumanDesc>屠宰好的生肉。可以烹調成料理或直接生吃，但大概沒有人喜歡這個主意。</MeatHumanDesc>
 
   <CorpseLabel>{0}屍體</CorpseLabel>
   <CorpseDesc>{0}的屍體。</CorpseDesc>
@@ -50,11 +56,13 @@
   <SmoothStoneTerrainDesc>天然光滑{0}地面。</SmoothStoneTerrainDesc>
 
   <BlueprintLabelExtra> (藍圖)</BlueprintLabelExtra>
-  <FrameLabelExtra>(框架)</FrameLabelExtra>
+  <FrameLabelExtra>((建造中))</FrameLabelExtra>
+
+  <FactionUnaffiliated>Unaffiliated</FactionUnaffiliated>
   
   
   <!-- For things made of stuff, e.g. "Stone bed" -->
-  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <!-- 0 is the NameAsStuff property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
 
   <SomeonesRoom>{0}的{1}</SomeonesRoom>

@@ -1,28 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- In-game camera -->
 	
-  <MapDollyUp.label>向上捲動地圖</MapDollyUp.label>
-  <MapDollyDown.label>向下捲動地圖</MapDollyDown.label>
-  <MapDollyLeft.label>向左捲動地圖</MapDollyLeft.label>
-  <MapDollyRight.label>向右捲動地圖</MapDollyRight.label>
-  <MapZoomIn.label>放大鏡頭</MapZoomIn.label>
-  <MapZoomOut.label>縮小鏡頭</MapZoomOut.label>
+  <MapDolly_Up.label>向上捲動地圖</MapDolly_Up.label>
+  <MapDolly_Down.label>向下捲動地圖</MapDolly_Down.label>
+  <MapDolly_Left.label>向左捲動地圖</MapDolly_Left.label>
+  <MapDolly_Right.label>向右捲動地圖</MapDolly_Right.label>
+  <MapZoom_In.label>放大鏡頭</MapZoom_In.label>
+  <MapZoom_Out.label>縮小鏡頭</MapZoom_Out.label>
 
   
   <!-- Map play -->
- 
+
+  <Accept.label>accept</Accept.label>
+  <Cancel.label>cancel</Cancel.label>
   <TakeScreenshot.label>螢幕截圖</TakeScreenshot.label>
   <ToggleScreenshotMode.label>切換螢幕截圖模式</ToggleScreenshotMode.label>
   <SelectNextInCell.label>選取同一方格的下一個物件。</SelectNextInCell.label>
   <TogglePause.label>暫停/開始遊戲</TogglePause.label>
-  <TimeSpeedNormal.label>遊戲速度：正常</TimeSpeedNormal.label>
-  <TimeSpeedFast.label>遊戲速度：快速</TimeSpeedFast.label>
-  <TimeSpeedSuperfast.label>遊戲速度：高速</TimeSpeedSuperfast.label>
-  <TimeSpeedUltrafast.label>遊戲速度：極速(Debug)</TimeSpeedUltrafast.label>
+  <TimeSpeed_Normal.label>遊戲速度：正常</TimeSpeed_Normal.label>
+  <TimeSpeed_Fast.label>遊戲速度：快速</TimeSpeed_Fast.label>
+  <TimeSpeed_Superfast.label>遊戲速度：高速</TimeSpeed_Superfast.label>
+  <TimeSpeed_Ultrafast.label>遊戲速度：極速(Debug)</TimeSpeed_Ultrafast.label>
   <PreviousColonist.label>上一名居民</PreviousColonist.label>
   <NextColonist.label>下一名居民</NextColonist.label>
+  <ToggleRoomStatsDisplay.label>開啟/關閉顯示房間屬性</ToggleRoomStatsDisplay.label>
+  <ToggleBeautyDisplay.label>開啟/關閉顯示美觀度</ToggleBeautyDisplay.label>
   
   
   <!-- Misc (re-used) -->
@@ -43,47 +47,35 @@
   
   <!-- Selection special -->
   
-  <CommandTogglePower.label>開啟/關閉電源</CommandTogglePower.label>
-  <CommandItemForbid.label>允許/解除物件互動限制</CommandItemForbid.label>
-  <CommandColonistDraft.label>徵召/解除徵召居民</CommandColonistDraft.label>
+  <Command_TogglePower.label>開啟/關閉電源</Command_TogglePower.label>
+  <Command_ItemForbid.label>允許/解除物件互動限制</Command_ItemForbid.label>
+  <Command_ColonistDraft.label>徵召/解除徵召居民</Command_ColonistDraft.label>
   
   
   <!-- Architect: Common -->
   
-  <DesignatorCancel.label>取消</DesignatorCancel.label>
-  <DesignatorDeconstruct.label>物件結構</DesignatorDeconstruct.label>
-  <DesignatorRotateLeft.label>向左旋轉物件</DesignatorRotateLeft.label>
-  <DesignatorRotateRight.label>向右旋轉物件</DesignatorRotateRight.label>
+  <Designator_Cancel.label>取消</Designator_Cancel.label>
+  <Designator_Deconstruct.label>物件結構</Designator_Deconstruct.label>
+  <Designator_RotateLeft.label>向左旋轉物件</Designator_RotateLeft.label>
+  <Designator_RotateRight.label>向右旋轉物件</Designator_RotateRight.label>
 
 
   <!-- Modifiers -->
 
-  <ModifierIncrement10x.label>增加10x</ModifierIncrement10x.label>
-  <ModifierIncrement100x.label>增加100x</ModifierIncrement100x.label>
+  <ModifierIncrement_10x.label>增加10x</ModifierIncrement_10x.label>
+  <ModifierIncrement_100x.label>增加100x</ModifierIncrement_100x.label>
   <QueueOrder.label>排程順位</QueueOrder.label>
   
   
   <!-- Debug -->
   
-  <TickOnce.label>Debug：一旦勾選</TickOnce.label>
-  <ToggleGodMode.label>開啟上帝模式</ToggleGodMode.label>
-  <ToggleDebugLog.label>開啟/關閉Debug日誌</ToggleDebugLog.label>
-  <ToggleDebugActionsMenu.label>開啟/關閉Debug行動選單</ToggleDebugActionsMenu.label>
-  <ToggleDebugLogMenu.label>開啟/關閉Debug日誌選單</ToggleDebugLogMenu.label>
-  <ToggleDebugInspector.label>開啟Debug偵測</ToggleDebugInspector.label>
-  <ToggleDebugSettingsMenu.label>開啟/關閉Debug設定選單</ToggleDebugSettingsMenu.label>
-
-
-  <!-- Main Tabs -->
-
-  <MainTab_Architect.label>開啟/關閉建築清單</MainTab_Architect.label>
-  <MainTab_Work.label>開啟/關閉工作</MainTab_Work.label>
-  <MainTab_Restrict.label>開啟/關閉管制</MainTab_Restrict.label>
-  <MainTab_Assign.label>開啟/關閉分配</MainTab_Assign.label>
-  <MainTab_Animals.label>開啟/關閉動物</MainTab_Animals.label>
-  <MainTab_World.label>開啟/關閉世界</MainTab_World.label>
-  <MainTab_History.label>開啟/關閉歷史</MainTab_History.label>
-  <MainTab_Factions.label>開啟/關閉勢力</MainTab_Factions.label>
+  <Dev_TickOnce.label>一旦勾選</Dev_TickOnce.label>
+  <Dev_ToggleGodMode.label>開啟上帝模式</Dev_ToggleGodMode.label>
+  <Dev_ToggleDebugLog.label>開啟/關閉Debug日誌</Dev_ToggleDebugLog.label>
+  <Dev_ToggleDebugActionsMenu.label>開啟/關閉Debug行動選單</Dev_ToggleDebugActionsMenu.label>
+  <Dev_ToggleDebugLogMenu.label>開啟/關閉Debug日誌選單</Dev_ToggleDebugLogMenu.label>
+  <Dev_ToggleDebugInspector.label>開啟Debug偵測</Dev_ToggleDebugInspector.label>
+  <Dev_ToggleDebugSettingsMenu.label>開啟/關閉Debug設定選單</Dev_ToggleDebugSettingsMenu.label>
 
 
 </LanguageData>

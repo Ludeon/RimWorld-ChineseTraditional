@@ -4,7 +4,7 @@
   <!-- Anesthetize -->
 
   <Anesthetize.label>麻醉</Anesthetize.label>
-  <Anesthetize.description>透過麻醉使對象失去意識。</Anesthetize.description>
+  <Anesthetize.description>透過全身麻醉使對象失去意識。</Anesthetize.description>
   <Anesthetize.jobString>麻醉。</Anesthetize.jobString>
   
   
@@ -13,10 +13,6 @@
   <Euthanize.label>安樂死</Euthanize.label>
   <Euthanize.description>給予患者安樂死。</Euthanize.description>
   <Euthanize.jobString>安樂死。</Euthanize.jobString>
-  
-  <ShutDownMechanoid.label>停機</ShutDownMechanoid.label>
-  <ShutDownMechanoid.description>完全關閉機器人的系統。</ShutDownMechanoid.description>
-  <ShutDownMechanoid.jobString>關閉系統。</ShutDownMechanoid.jobString>
   
 
   <!-- removing hediffs (e.g. diseases) -->
@@ -32,10 +28,6 @@
   <RemoveBodyPart.label>拆除身體部位</RemoveBodyPart.label>
   <RemoveBodyPart.description>拆除身體部位。</RemoveBodyPart.description>
   <RemoveBodyPart.jobString>拆除身體部位。</RemoveBodyPart.jobString>
-
-  <RemoveMechanoidBodyPart.label>拆下機械部件</RemoveMechanoidBodyPart.label>
-  <RemoveMechanoidBodyPart.description>拆下機器人的組成部位。</RemoveMechanoidBodyPart.description>
-  <RemoveMechanoidBodyPart.jobString>拆下機械部件。</RemoveMechanoidBodyPart.jobString>
 
 
   <!-- special administer -->

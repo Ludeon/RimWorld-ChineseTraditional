@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <!-- Simple mineables -->
@@ -6,7 +6,8 @@
   <CollapsedRocks.label>崩落的岩石</CollapsedRocks.label>
   <CollapsedRocks.description>崩落下的岩石，其強度足以支撐岩頂。</CollapsedRocks.description>
   
-   <!-- Resource rocks -->
+  
+  <!-- Resource rocks -->
   
   <MineableSteel.label>鐵礦</MineableSteel.label>
   <MineableSteel.description>開採以獲得鋼鐵。</MineableSteel.description>
@@ -26,16 +27,17 @@
   <MineableJade.label>翡翠礦</MineableJade.label>
   <MineableJade.description>含有翡翠的岩石。</MineableJade.description>
 
-  <MineableComponents.label>機械遺物</MineableComponents.label>
-  <MineableComponents.description>隨著時間推移被譏埋在地底的古代機械，開採可以獲得可用的電子零件。</MineableComponents.description>    
+  <MineableComponentsIndustrial.label>機械遺物</MineableComponentsIndustrial.label>
+  <MineableComponentsIndustrial.description>隨著時間推移被譏埋在地底的古代機械，開採可以獲得可用的電子零件。</MineableComponentsIndustrial.description>    
   
   <SteamGeyser.label>蒸氣間歇泉</SteamGeyser.label>
-  <SteamGeyser.description>天然的蒸氣間歇泉。</SteamGeyser.description>
+  <SteamGeyser.description>天然的高壓蒸氣來源。地熱發電機可以以此產生電力。建在這上頭的房間一下子就會被蒸熟。</SteamGeyser.description>
 
   <Hive.label>蟲穴</Hive.label>
-  <Hive.description>蟲族的巢穴，會緩慢的孳生蟲族並產生新巢穴。</Hive.description>
+  <Hive.description>蟲族的巢穴，一旦出現便會緩慢的孳生蟲族和新巢穴，以及珍貴的昆蟲營養膠。</Hive.description>
 
   <GlowPod.label>螢光莢</GlowPod.label>
   <GlowPod.description>蟲族的照明工具，在開始發光前需要成長一段時間。</GlowPod.description>
+  <GlowPod_Blueprint_Install.label>螢光莢預定地</GlowPod_Blueprint_Install.label>
   
 </LanguageData>

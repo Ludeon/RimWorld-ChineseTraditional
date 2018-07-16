@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Confirm>確定</Confirm>
@@ -54,7 +54,7 @@
   <DeleteThisSavegame>删除這個存檔。</DeleteThisSavegame>
   <SavedAs>已保存為{0}。</SavedAs>
   <NeedAName>請輸入一個名稱。</NeedAName>
-  <LoadingLongEvent>載入中...</LoadingLongEvent>
+  <LoadingLongEvent>載入中...。</LoadingLongEvent>
   <SavingLongEvent>記錄保存中</SavingLongEvent>
   <PermadeathModeSaveSuffix>(無悔模式)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>當前遊戲版本為{0}，但這個存檔版本為{1}，是屬於完全不同的遊戲版本。\n\n嘗試載入這個存檔很有可能會無法運作。</SaveIsFromDifferentGameVersion>
@@ -87,6 +87,7 @@
   
   <!-- Pawn naming -->
   <PawnGainsName>這名居民的暱稱已更改為{0}。</PawnGainsName>
+  <AnimalGainsName>此動物已更名為{0}。</AnimalGainsName>
   
   <!-- Save game incompatible warning -->
   <VersionMismatch>版本不符</VersionMismatch>
@@ -97,9 +98,12 @@
   <ModsMismatchWarningText>本地圖存檔包含了與當前不同的Mod設定，視Mod的功能與影響而定，這也許能正常運作，但也有可能會導致問題。\n\n此存檔包含了以下Mod(依順序排列):\n\n{0}\n\n當前運行的Mod：\n\n{1}</ModsMismatchWarningText>
   
   <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>你已經更改了解析度。目前遊戲顯示是否正常？\n\n將在{0}秒後恢復原始設定...</ConfirmResolutionChange>
+  <ConfirmResolutionChange>你已經更改了解析度。目前遊戲顯示是否正常？\n\n將在{0}秒後恢復原始設定...。</ConfirmResolutionChange>
   <ResolutionKeep>保持</ResolutionKeep>
   <ResolutionRevert>恢復</ResolutionRevert>
+
+  <!-- Confirm permanently disable dev mode -->
+  <ConfirmPermanentlyDisableDevMode>你確定要在這台電腦上永久禁用開發者模式嗎？</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <Research>研究</Research>
@@ -124,6 +128,7 @@
   <MapSizeExtreme>巨大</MapSizeExtreme>
   <MapStartSeason>起始季節：</MapStartSeason>
   <MapStartSeasonDefault>自動</MapStartSeasonDefault>
+  <Notice>Notice</Notice>
   <PermadeathMode>無悔模式</PermadeathMode>
   <PermadeathModeInfo>在無悔模式中，你只能擁有一個存檔，並只能夠在退出遊戲時保存。你不能藉著讀取存檔來回朔某些錯誤，若殖民地慘遭滅亡，那便是她的命運。\n\n無悔模式正是RimWorld的醍醐味，每當遭遇戲劇化的轉折 - 不論悲劇或希望 - 都要玩出自己的道路。</PermadeathModeInfo>
   
@@ -139,6 +144,9 @@
   <CountingProducts>計算</CountingProducts>
   <Infinite>無限</Infinite>
   <AllowedSkillRange>允許等級{0}：</AllowedSkillRange>
+  <IncompatibleLower>不相容</IncompatibleLower>
+  <AnyWorker>不限使用者</AnyWorker>
+  <Unlimited>無限制</Unlimited>
   
   <RecipeCannotHaveTargetCount>(因為這個配方有多個或是不可預估的成品，因此無法指定目標數量)</RecipeCannotHaveTargetCount>
   <WorkAmount>工作時程</WorkAmount>
@@ -154,6 +162,12 @@
   <UnpauseWhenYouHave>解除暫停於</UnpauseWhenYouHave>
   <Paused>暫停</Paused>
   <Unpause>解除暫停</Unpause>
+
+  <IncludeEquipped>包含被持有</IncludeEquipped>
+  <IncludeTainted>包含被污染</IncludeTainted>
+  <LimitToAllowedStuff>原料限制</LimitToAllowedStuff>
+  <IncludeFromAll>全區域</IncludeFromAll>
+  <IncludeSpecific>{0}</IncludeSpecific>
   
   <!-- Info card -->
   <Damage>傷害</Damage>
@@ -164,10 +178,13 @@
   <CooldownTime>冷卻時間</CooldownTime>
   <BurstShotFireRate>射速</BurstShotFireRate>
   <Range>射程</Range>
+  <StoppingPower>抑止力</StoppingPower>
+  <StoppingPowerExplanation>被此武器擊中的目標會被打亂腳步，降低移動速度數秒鐘。體型大於抑止力數值的對象將不受影響。</StoppingPowerExplanation>
   <GrowsWild>野生</GrowsWild>
   <Harvestable>可收穫</Harvestable>
   <LimitedLifespan>壽命有限</LimitedLifespan>
   <GrowingTime>生長時間</GrowingTime>
+  <HarvestYield>收穫量</HarvestYield>
   <GrowingTimeDesc>植物只會在一天的部分時段中生長，並且要有足夠的亮光。這個數值表示植物完全成熟全所需要的總生長時間，考慮到休眠、低溫、亮度不足都會降低植物的生長速度，實際需要大約兩倍的成長時間。</GrowingTimeDesc>
   <Days>天</Days>
   <MinGrowingSkillToSow>最低種植等級</MinGrowingSkillToSow>
@@ -182,16 +199,20 @@
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
   <MinFoodQuality>最低食物重量</MinFoodQuality>
   <Diet>飲食</Diet>
+  <LeatherType>毛皮類型</LeatherType>
   <BodySize>體型</BodySize>
   <RecruitDifficulty>招募難度</RecruitDifficulty>
   <MarketValue>基本價值</MarketValue>
   <Covers>掩護</Covers>
+  <Layer>層</Layer>
   <CoverEffectiveness>掩體效果</CoverEffectiveness>
   <CoverEffectivenessExplanation>作為掩體在槍火中能發揮的掩護效果，百分比越高可提供越好的掩護能力。</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>藥物經驗影響</MedicineXpGainFactor>
   <MoodChange>情緒變化</MoodChange>
   <Wildness>野性</Wildness>
   <WildnessExplanation>野性越強烈的生物自然更加的難以馴養、訓練及掌握。</WildnessExplanation>
+  <TrainingDecayInterval>訓練度衰退間隔</TrainingDecayInterval>
+  <TamenessWillNotDecay>馴養度永遠不會衰減。</TamenessWillNotDecay>
   <AnimalFilthRate>動物排泄物產生速率</AnimalFilthRate>
   <AnimalFilthRateExplanation>當動物在建築地面行動時會產生髒污，這個物種平均每移動{0}格就會產生髒汙。\n\n體型越大或是非典型的寵物會產生更多髒污。</AnimalFilthRateExplanation>
   <TimeRecordsCategory>經歷時間</TimeRecordsCategory>
@@ -206,6 +227,13 @@
   <EfficiencyStat>產量影響</EfficiencyStat>
   <ConstructionSkillRequired>需要建築技能</ConstructionSkillRequired>
   <ConstructionSkillRequiredExplanation>需要以下建築等級才能建造。</ConstructionSkillRequiredExplanation>
+  <NuzzleInterval>撒嬌間隔</NuzzleInterval>
+  <NuzzleIntervalExplanation>此動物向友好居民撒嬌的平均間隔時間。\n\n撒嬌是多種物種共通的一種行為，牠們會用鼻子或臉依偎在關係良好的對象身上，是一種表達信任的行為。大部分人類認為這種行為很可愛，並會留下持續一段時間的心情加成。</NuzzleIntervalExplanation>
+  <HarmedRevengeChance>受傷反擊率</HarmedRevengeChance>
+  <HarmedRevengeChanceExplanation>這個物種在受到攻擊者遠程攻擊時發起反擊的機率。\n\n較近的攻擊距離會提高這項機率，在至近距離下的攻擊會使反擊率變為三倍。\n\n這項機率觸發機制為每次傷害獨立計算，因此單發傷害高的武器比較不容易觸發反擊。\n\n要最小化反擊觸發率，最好使用射速低的武器在步槍射程外進行攻擊。</HarmedRevengeChanceExplanation>
+  <TameFailedRevengeChance>馴服失敗反擊率</TameFailedRevengeChance>
+  <TerrainRequirement>地形支撐力需求</TerrainRequirement>
+  <Supports>Supports</Supports>
   
   <!-- Trade -->
   <PositiveBuysNegativeSells>買入。\n賣出。</PositiveBuysNegativeSells>
@@ -239,14 +267,18 @@
   <TradeWithFactionBaseBonus>勢力據點交易紅利</TradeWithFactionBaseBonus>
   <minimum>最低</minimum>
   <FinalPrice>最終價格</FinalPrice>
-  <TradeMassUsageTooltip>重量與容量的數值。</TradeMassUsageTooltip>
+  <GiftModeTip>送禮模式 - 發送禮物給{0}。</GiftModeTip>
+  <TradeModeTip>返回交易模式。</TradeModeTip>
+
+  <!-- Sellable items -->
+  <SellableItemsTitle>這個商人願意購買的貨物類型</SellableItemsTitle>
+  <PawnsTabShort>物種</PawnsTabShort>
   
   <!-- Form caravan -->
   <FormCaravan>組織旅隊</FormCaravan>
   <FormCaravanColonyThingCountTip>此物品已被分配至旅隊的數量。</FormCaravanColonyThingCountTip>
   <PawnsTab>人員與動物</PawnsTab>
   <ItemsTab>物品</ItemsTab>
-  <CaravanConfigTab>設置</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>你必須指派至少一名有行動能力的居民。</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>選擇的出口位置({0})無法通行。</CaravanCouldNotFindExitSpot>
   <CaravanCouldNotFindPackingSpot>找不到任何有效的裝卸點。確保選擇的出口位置({0})可行。</CaravanCouldNotFindPackingSpot>
@@ -256,25 +288,29 @@
   <CaravanItemIsUnreachableMulti>沒有任何被指派的居民能夠接觸到{0}x{1}。</CaravanItemIsUnreachableMulti>
   <TooBigCaravanMassUsage>旅隊無法負荷超量物資。</TooBigCaravanMassUsage>
   <CaravanMassUsageTooltip>當前重量與容量。\n\n重量包含所有旅隊攜帶的物資及人員身上的裝備。\n\n如果重量超過容量，旅隊將會無法行動。</CaravanMassUsageTooltip>
-  <MassUsageInfo>{0}/{1}公斤</MassUsageInfo>
-  <DaysWorthOfFoodInfo>{0}天份糧食</DaysWorthOfFoodInfo>
+  <CaravanVisibilityTip>可見性是你的旅隊被敵人注意到的可能性。\n\n這會影響你的旅隊被敵人攔截的機率。\n\n可見性並不影響你發現東西的機率。\n\n可見性的數值是根據所有旅隊人員、動物的體型來計算。</CaravanVisibilityTip>
+  <DaysWorthOfFood>糧食可支應天數</DaysWorthOfFood>
   <DaysWorthOfFoodInfoRot>{0}天份糧食，將於{1}天內腐敗</DaysWorthOfFoodInfoRot>
   <InfiniteDaysWorthOfFoodInfo>食物量永遠足夠</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>旅隊食物存量以天為單位的估算值。\n\n此計算值將人員及動物一併納入，並套用最嚴苛的狀況進行估算。這表示，經過這幾天之後，至少會有一個人或動物缺乏食物。</DaysWorthOfFoodTooltip>
-  <DaysWorthOfFoodTooltip_CanEatLocalPlants>根據當地的季節、氣溫以及環境狀況，我們假設草食動物可以食用當地的植物，但情況可能隨時改變。</DaysWorthOfFoodTooltip_CanEatLocalPlants>
-  <DaysWorthOfFoodTooltip_CantEatLocalPlants>根據當地的季節、氣溫以及環境狀況，我們假設草食動物無法食用當地的植物，但情況可能隨時改變。</DaysWorthOfFoodTooltip_CantEatLocalPlants>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(僅計算首個停留點)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <DaysWorthOfFoodWarningDialog>你的旅隊只剩下{0}天份的存糧，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>你的旅隊存糧已經耗盡，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog_NoFood>
+  <ForagedFoodPerDayTip>你的居民每日採集的食物量平均值。這項數值會根據你路過食物產量不同的生態系而變化。</ForagedFoodPerDayTip>
+  <ForagedFoodPerDay>每日糧食採集量</ForagedFoodPerDay>
   <CaravanFoodWillRotSoonWarningDialog>指定的食物中有大部分即將腐敗。\n\n你確定你仍然要組織這支旅隊？</CaravanFoodWillRotSoonWarningDialog>
   <CaravanIncapableOfSocial>你的旅隊沒有具備外交及交易能力的成員。</CaravanIncapableOfSocial>
-  <CaravanAreYouSure>你確定要組織這支旅隊嗎？?</CaravanAreYouSure>
-  <NoExitDirectionForCaravanChosen>你必須選擇旅隊的離開方向。</NoExitDirectionForCaravanChosen>
-  <NoCaravanExitDirectionAvailable>(無可行的地圖出口)</NoCaravanExitDirectionAvailable>
-  <ExitDirection>離開方向</ExitDirection>
-  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <CaravanAreYouSure>你確定要組織這支旅隊嗎？?</CaravanAreYouSure>>
+  <MessageMustChooseRouteFirst>你必須先選取一條路線。</MessageMustChooseRouteFirst>
+  <MessageNoValidExitTile>你的旅隊無法離開本區域，確保區域中至少有一側邊界可以抵達。</MessageNoValidExitTile>
   <ItemWeightTip>此物品的重量。</ItemWeightTip>
   <MarketValueTip>市場價格</MarketValueTip>
   <DaysUntilRotTip>此物品腐敗的天數是根據當前區域的氣溫來推算。</DaysUntilRotTip>
+  <ItemNutritionTip>這個食物所能提供的營養值。\n\n參考：成年人類每日需要{0}營養值。</ItemNutritionTip>
+  <AnimalCanGrazeTip>此動物能在環境中放牧而不消耗旅隊糧食。放牧只能在部份生態系且合適的氣溫下進行。</AnimalCanGrazeTip>
+  <NutritionForagedPerDayTip>每日採集營養值。實際的數值同時受到生態系的可覓食性影響。\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionEatenPerDayTip>每日營養值攝取量。參考：一份簡單料理可提供{0}營養值。\n\n可食用：{2}\n\n圖例：\n{1}。</NutritionEatenPerDayTip>
+  <MassCarriedSimple>目前負重</MassCarriedSimple>
   <MassCapacity>容量</MassCapacity>
   <Mass>重量</Mass>
   <EquipmentAndApparelMass>裝備及衣物重量。</EquipmentAndApparelMass>
@@ -283,17 +319,29 @@
   <ReformCaravan>重組旅隊</ReformCaravan>
   <ColonistsSection>居民</ColonistsSection>
   <PrisonersSection>俘虜</PrisonersSection>
+  <CaptureSection>捕獲</CaptureSection>
   <AnimalsSection>動物</AnimalsSection>
-  <EstimatedTimeToDestinationButton>預估抵達時間</EstimatedTimeToDestinationButton>
+  <ChooseRouteButton>選擇路線</ChooseRouteButton>
   <AbandonButton>拋棄</AbandonButton>
+  <CaravanMovementSpeed>移動速度</CaravanMovementSpeed>
+  <TilesPerDay>格/日</TilesPerDay>
+  <CaravanMovementSpeedTip>移動速度的計算是根據旅隊所有人類和動物的平均移動速度、載重及地區通行難度計算。</CaravanMovementSpeedTip>
+  <AnimalsWillBeAbleToGraze>將可以放牧動物</AnimalsWillBeAbleToGraze>
+  <AnimalsCanGraze>可放牧的動物</AnimalsCanGraze>
+  <PossibleToGrazeFor>(剩餘{0}天)</PossibleToGrazeFor>
+  <PossibleToGrazeForever>(永續)</PossibleToGrazeForever>
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
+  <CantGrazeBecauseOfTemp>({0}天後將過冷)</CantGrazeBecauseOfTemp>
+  <TotalNutrition>總營養值</TotalNutrition>
+  <CaravanNotMoving>停滯</CaravanNotMoving>
+  <ForagedNutritionPerDay>每日採集營養值</ForagedNutritionPerDay>
+  <FactionType>勢力類型</FactionType>
+  <TotalBodySize>總體型大小值</TotalBodySize>
   
   <!-- Split caravan -->
   <SplitCaravan>重分旅隊</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>你必須保留至少一名具行動能力的居民。</SourceCaravanMustHaveAtLeastOneColonist>
-  <CaravanSplitSourceLabel>原</CaravanSplitSourceLabel>
-  <CaravanSplitDestLabel>新</CaravanSplitDestLabel>
   <SplitCaravanThingCountTip>此物品已被分配至旅隊的數量。</SplitCaravanThingCountTip>
-  <SplitCaravanMassUsageTooltip>當前重量與容量。</SplitCaravanMassUsageTooltip>
   
   <!-- Load transporters -->
   <LoadTransporters>裝載{0}</LoadTransporters>
@@ -302,7 +350,6 @@
   <PawnCantReachTransporters>{0}無法前往運輸艙。</PawnCantReachTransporters>
   <TransporterItemIsUnreachableSingle>沒有路經連接運輸艙和{0}。</TransporterItemIsUnreachableSingle>
   <TransporterItemIsUnreachableMulti>沒有路經連接運輸艙和{0}x{1}。</TransporterItemIsUnreachableMulti>
-  <TransportersMassUsageTooltip>當前重量與容量。\n\n如果運輸艙的裝載重量超過最大負荷容量便無法進行傳送。</TransportersMassUsageTooltip>
   
   <!-- Comms -->
   <SocialSkillIs>社交技能：{0}</SocialSkillIs>
@@ -321,24 +368,24 @@
   
   <!-- Outfit management -->
   <Outfit>裝備</Outfit>
-  <SelectOutfit>選取裝備...</SelectOutfit>
+  <SelectOutfit>選取裝備...。</SelectOutfit>
   <NewOutfit>新裝備</NewOutfit>
-  <DeleteOutfit>刪除裝備...</DeleteOutfit>
+  <DeleteOutfit>刪除裝備...。</DeleteOutfit>
   <OutfitInUse>此裝備已被{0}使用</OutfitInUse>
   <NoOutfitSelected>尚未選取裝備</NoOutfitSelected>
 
   <!-- Drug policy management -->
   <DrugPolicy>用藥計劃</DrugPolicy>
-  <SelectDrugPolicy>選擇用藥計劃...</SelectDrugPolicy>
+  <SelectDrugPolicy>選擇用藥計劃...。</SelectDrugPolicy>
   <NewDrugPolicy>新用藥計劃</NewDrugPolicy>
-  <DeleteDrugPolicy>刪除用藥計劃...</DeleteDrugPolicy>
+  <DeleteDrugPolicy>刪除用藥計劃...。</DeleteDrugPolicy>
   <DrugPolicyInUse>用藥計劃已被{0}使用中。</DrugPolicyInUse>
   <SocialDrugs>社交藥物</SocialDrugs>
   <NoDrugs>禁用藥物</NoDrugs>
   <OneDrinkPerDay>每日一次</OneDrinkPerDay>
   <Unrestricted>無限制</Unrestricted>
   <NoDrugPolicySelected>未套用用藥計劃</NoDrugPolicySelected>
-  <AddDrug>新增藥物...</AddDrug>
+  <AddDrug>新增藥物...。</AddDrug>
   <DrugColumnLabel>藥物</DrugColumnLabel>
   <DrugUsageColumnLabel>用藥</DrugUsageColumnLabel>
   <FrequencyColumnLabel>用藥頻率</FrequencyColumnLabel>
@@ -379,8 +426,8 @@
   <ConfirmAbandonHomeNegativeThoughts_Everyone>全員：</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
   <!-- Move caravan and leave prisoners and animals behind -->
-  <ConfirmLeavePrisonersOrAnimalsBehind>還有一些俘虜或動物留在此區域，而這個旅隊是他們目前唯一能加入的。\n\n如果你移動你的旅隊，被留下的俘虜或動物將不會離開這個區域直到你回來。犯人會開始逃跑，而動物們則會等待直到你回來。\n\n如果你決定等候，他們會試著加入你的旅隊。\n\n你確定要移動你的旅隊嗎？</ConfirmLeavePrisonersOrAnimalsBehind>
-  
+  <ConfirmMoveAutoJoinableCaravan>有一些動物或俘虜正試圖與旅隊匯合，如果你移動旅隊，他們將無繼續匯合。\n\n動物、俘虜以及無法動彈的居民被遺留下而沒有其他可活動的居民在場時，將視為被遺棄並被敵人俘獲。\n\n你確定要移動旅隊？</ConfirmMoveAutoJoinableCaravan>
+
   <!-- Abandon pawn -->
   <ConfirmAbandonPawnDialog>你真的確定要拋棄{0}嗎？</ConfirmAbandonPawnDialog>
   <ConfirmAbandonPawnDialog_LeftToDie>{0}很可能會死掉。</ConfirmAbandonPawnDialog_LeftToDie>
@@ -390,5 +437,8 @@
   
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{0}失蹤了，仍然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
-  
+
+  <!-- Settle near a faction base -->
+  <ConfirmSettleNearFactionBase>因為此地距離其他勢力的據點僅有{0}格遠，他們會將此視為對他們領地的侵略，造成每日{1}點的關係惡化。\n\n仍要在此建立據點？</ConfirmSettleNearFactionBase>
+
 </LanguageData>

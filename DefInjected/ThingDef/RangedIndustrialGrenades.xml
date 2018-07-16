@@ -1,25 +1,30 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <!-- Frag grenade -->
   
   <Weapon_GrenadeFrag.label>手榴彈</Weapon_GrenadeFrag.label>
-  <Proj_GrenadeFrag.label>手榴彈</Proj_GrenadeFrag.label>
-  <Weapon_GrenadeFrag.description>老式的破片手榴彈。</Weapon_GrenadeFrag.description>
+  <Weapon_GrenadeFrag.description>老式的破片手榴彈。可以被投擲到一小段距離外，爆炸會殺傷在落點附近的所有人。</Weapon_GrenadeFrag.description>
   <Weapon_GrenadeFrag.verbs.0.label>投擲手榴彈</Weapon_GrenadeFrag.verbs.0.label>
+  
+  <Proj_GrenadeFrag.label>手榴彈</Proj_GrenadeFrag.label>
+  
   
   <!-- Molotov cocktail -->
   
   <Weapon_GrenadeMolotov.label>莫洛托夫燃燒彈</Weapon_GrenadeMolotov.label>
-  <Proj_GrenadeMolotov.label>莫洛托夫燃燒彈</Proj_GrenadeMolotov.label>
   <Weapon_GrenadeMolotov.description>裝有易燃液體的玻璃瓶，瓶口有一塊燃燒的布。屬於惡棍的最愛。</Weapon_GrenadeMolotov.description>
   <Weapon_GrenadeMolotov.verbs.0.label>投擲莫洛托夫燃燒彈</Weapon_GrenadeMolotov.verbs.0.label>
+  
+  <Proj_GrenadeMolotov.label>莫洛托夫燃燒彈</Proj_GrenadeMolotov.label>
+  
   
   <!-- EMP grenade -->
   
   <Weapon_GrenadeEMP.label>電磁脈衝炸彈</Weapon_GrenadeEMP.label>
-  <Proj_GrenadeEMP.label>電磁脈衝炸彈</Proj_GrenadeEMP.label>
   <Weapon_GrenadeEMP.description>電磁脈衝炸彈可以對電子設備造成極大影響。</Weapon_GrenadeEMP.description>
   <Weapon_GrenadeEMP.verbs.0.label>投擲電磁脈衝炸彈</Weapon_GrenadeEMP.verbs.0.label>
+  
+  <Proj_GrenadeEMP.label>電磁脈衝炸彈</Proj_GrenadeEMP.label>
 
 </LanguageData>

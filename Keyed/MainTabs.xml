@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Work tab -->
@@ -18,7 +18,7 @@
   <ClearForcedApparel>卸除裝備</ClearForcedApparel>
   <ApparelForcedLower>強制</ApparelForcedLower>
   <ForcedApparel>強制裝備</ForcedApparel>
-  <AssignTabEdit>編輯...</AssignTabEdit>
+  <AssignTabEdit>編輯...。</AssignTabEdit>
   <ManageDrugPolicies>管理用藥計劃</ManageDrugPolicies>
   
   <!-- Restrictions tab -->
@@ -29,12 +29,23 @@
   <!-- Animals tab -->
   <Master>主人</Master>
   <PregnantIconDesc>懷孕({0}/{1})</PregnantIconDesc>
+  <BondedTo>Bonded to</BondedTo>
+
+  <!-- Wildlife tab -->
+  <IsPredator>這個物種為掠食動物，當飢餓時會主動狩獵較小型的動物 - 可能包括人類。</IsPredator>
 	
   <!-- Factions tab -->
   <Hostile>敵對</Hostile>
+  <Ally>同盟</Ally>
   <DefeatedLower>已擊敗</DefeatedLower>
   <HostileTo>與{0}敵對</HostileTo>
-  <CurrentGoodwill>這個勢力目前的好感度。</CurrentGoodwill>
+  <CurrentGoodwillTip>目前與這個勢力之間的好感度。</CurrentGoodwillTip>
+  <CurrentGoodwillTip_PermanentEnemy>這個勢力為永久敵對勢力。他們會襲擊你的據點和旅隊，與他們的友好度不會因為任何原因改善。</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>這個派系和你是同盟關係，他們有餘力時會派遣戰士來幫助你。如果友好度低於{0}，外交關係將向為中立。</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>這個派系和你是中立關係，你可以自由與他們對話或交易。如果友好度低於{0}，外交關係將向為敵對。如果友好度高於{1}，你們將成為盟友，他們則會開始積極的向你提供援助。</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>這個派系和你是敵對關係。他們會襲擊你的據點和旅隊。如果友好度高於{0}，外交關係將向為中立。</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>這個派系的中立友好度範圍為{0}至{1}之間，若友好度高於{1}會每日降低{3}點。若低於{0}則每日提昇{2}點。</CurrentGoodwillTip_NaturalGoodwill>
+  
   
   <!-- Social tab -->
   <Friend>朋友</Friend>
@@ -43,6 +54,7 @@
 	
   <!-- History tab - subtabs -->
   <Graph>圖表</Graph>
+  <Messages>Messages</Messages>
   <Statistics>統計</Statistics>
   
   <!-- History tab -->
@@ -51,19 +63,25 @@
   <Last100Days>最近100天</Last100Days>
   <Last300Days>最近300天</Last300Days>
   <AllDays>全部</AllDays>
-  <Day>天</Day>
   <Value>價值</Value>
   <External>外來</External>
+
+  <!-- History tab - Messages -->
+  <ShowLetters>Show letters</ShowLetters>
+  <ShowMessages>Show messages</ShowMessages>
+  <PinArchivableTip>Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages。</PinArchivableTip>
+  <NoMessages>no messages</NoMessages>
   
-  <!-- Statistics tab -->
+  <!-- History tab - Statistics -->
   <Playtime>遊戲時間</Playtime>
   <Storyteller>故事敘述者</Storyteller>
-  <ColonyWealthTotal>殖民地財富</ColonyWealthTotal>
-  <ColonyWealthItems>殖民地財富(物品)</ColonyWealthItems>
-  <ColonyWealthBuildings>殖民地財富(建築)</ColonyWealthBuildings>
+  <ThisMapColonyWealthTotal>殖民地財富(當前區域)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthItems>殖民地財富(物品)(當前區域)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthBuildings>殖民地財富(建築)(當前區域)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthTameAnimals>殖民地財富(動物)(當前區域)</ThisMapColonyWealthTameAnimals>
   <NumThreatBigs>主要威脅</NumThreatBigs>
   <NumEnemyRaids>敵人襲擊</NumEnemyRaids>
-  <DamageTaken>受到的傷害</DamageTaken>
+  <ThisMapDamageTaken>被傷害值(當前區域)</ThisMapDamageTaken>
   <ColonistsKilled>居民死亡</ColonistsKilled>
   <ColonistsLaunched>發送至太空的居民</ColonistsLaunched>
 

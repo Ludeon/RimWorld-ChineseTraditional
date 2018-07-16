@@ -1,107 +1,218 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <!-- Beds -->
   
   <SleepingSpot.label>睡眠點</SleepingSpot.label>
-  <SleepingSpot.Description>指定一個供居民睡覺的地點，睡起來可不怎麼舒服。</SleepingSpot.Description>
+  <SleepingSpot.description>指定一個供居民睡覺的地點，睡起來可不怎麼舒服。</SleepingSpot.description>
+  <SleepingSpot_Blueprint.label>睡眠點(藍圖)</SleepingSpot_Blueprint.label>
+  <SleepingSpot_Frame.label>睡眠點(建造中)</SleepingSpot_Frame.label>
+  <SleepingSpot_Frame.description>指定一個供居民睡覺的地點，睡起來可不怎麼舒服。</SleepingSpot_Frame.description>
+
+  <DoubleSleepingSpot.label>雙人睡眠點</DoubleSleepingSpot.label>
+  <DoubleSleepingSpot.description>指定一個供居民一起睡覺的地點，睡起來可不怎麼舒服。</DoubleSleepingSpot.description>
+  <DoubleSleepingSpot_Blueprint.label>double sleeping spot (blueprint)</DoubleSleepingSpot_Blueprint.label>
+  <DoubleSleepingSpot_Frame.label>雙人睡眠點(建造中)</DoubleSleepingSpot_Frame.label>
+  <DoubleSleepingSpot_Frame.description>指定一個供居民一起睡覺的地點，睡起來可不怎麼舒服。</DoubleSleepingSpot_Frame.description>
   
   <Bed.label>單人床</Bed.label>
-  <Bed.Description>一個鋪了舒適的床墊和床單的床架。</Bed.Description>
+  <Bed.description>一個鋪了舒適的床墊和床單的床架。</Bed.description>
+  <Bed_Blueprint.label>單人床(藍圖)</Bed_Blueprint.label>
+  <Bed_Blueprint_Install.label>單人床預定地</Bed_Blueprint_Install.label>
+  <Bed_Frame.label>單人床(建造中)</Bed_Frame.label>
+  <Bed_Frame.description>一個鋪了舒適的床墊和床單的床架。</Bed_Frame.description>
 
   <DoubleBed.label>雙人床</DoubleBed.label>
-  <DoubleBed.Description>一張能夠睡下兩人的簡單雙人床。</DoubleBed.Description>
+  <DoubleBed.description>一張能夠睡下兩人的簡單雙人床。</DoubleBed.description>
+  <DoubleBed_Blueprint.label>雙人床(藍圖)</DoubleBed_Blueprint.label>
+  <DoubleBed_Blueprint_Install.label>雙人床(藍圖)</DoubleBed_Blueprint_Install.label>
+  <DoubleBed_Frame.label>雙人床(建造中)</DoubleBed_Frame.label>
+  <DoubleBed_Frame.description>一張能夠睡下兩人的簡單雙人床。</DoubleBed_Frame.description>
   
   <RoyalBed.label>豪華床鋪</RoyalBed.label>
-  <RoyalBed.Description>一張鑲金的豪華大床，舒適而美觀，給你貴族般的待遇。能夠睡下兩人。</RoyalBed.Description>
+  <RoyalBed.description>一張鑲金的豪華大床，舒適而美觀，給你貴族般的待遇。能夠睡下兩人。這家具本身就是個藝術品。</RoyalBed.description>
+  <RoyalBed_Blueprint.label>豪華床鋪(藍圖)</RoyalBed_Blueprint.label>
+  <RoyalBed_Blueprint_Install.label>豪華床鋪預定地</RoyalBed_Blueprint_Install.label>
+  <RoyalBed_Frame.label>豪華床鋪(建造中)</RoyalBed_Frame.label>
+  <RoyalBed_Frame.description>一張鑲金的豪華大床，舒適而美觀，給你貴族般的待遇。能夠睡下兩人。這家具本身就是個藝術品。</RoyalBed_Frame.description>
   
   <HospitalBed.label>醫療床</HospitalBed.label>
-  <HospitalBed.Description>一張為病患特別設計的床。能夠提高各種醫療行為的成功率。</HospitalBed.Description>
+  <HospitalBed.description>專為醫院設計的床，內建的設備可依病患需求調整，比一般床擁有更好的醫療效果。</HospitalBed.description>
+  <HospitalBed_Blueprint_Install.label>醫療床預定地</HospitalBed_Blueprint_Install.label>
+  <HospitalBed_Blueprint.label>醫療床(藍圖)</HospitalBed_Blueprint.label>
+  <HospitalBed_Frame.label>醫療床(建造中)</HospitalBed_Frame.label>
+  <HospitalBed_Frame.description>專為醫院設計的床，內建的設備可依病患需求調整，比一般床擁有更好的醫療效果。</HospitalBed_Frame.description>
 
   <Bedroll.label>布團</Bedroll.label>
   <Bedroll.description>鋪在地上的簡單床鋪，通常由布或皮革製成，並襯以皮毛。布團重量輕盈，並且可以捲起來方便攜帶，但舒適度不如一般的床。</Bedroll.description>
+  <Bedroll_Blueprint.label>布團(藍圖)</Bedroll_Blueprint.label>
+  <Bedroll_Blueprint_Install.label>布團(藍圖)</Bedroll_Blueprint_Install.label>
+  <Bedroll_Frame.label>布團(建造中)</Bedroll_Frame.label>
+  <Bedroll_Frame.description>鋪在地上的簡單床鋪，通常由布或皮革製成，並襯以皮毛。布團重量輕盈，並且可以捲起來方便攜帶，但舒適度不如一般的床。</Bedroll_Frame.description>
 
   <BedrollDouble.label>雙人布團</BedrollDouble.label>
   <BedrollDouble.description>鋪在地上的簡單雙人床鋪，通常由布或皮革製成，並襯以皮毛。布團重量輕盈，並且可以捲起來方便攜帶，但舒適度不如一般的床。</BedrollDouble.description>
+  <BedrollDouble_Blueprint.label>雙人布團(藍圖)</BedrollDouble_Blueprint.label>
+  <BedrollDouble_Blueprint_Install.label>雙人布團(藍圖)</BedrollDouble_Blueprint_Install.label>
+  <BedrollDouble_Frame.label>雙人布團(建造中)</BedrollDouble_Frame.label>
+  <BedrollDouble_Frame.description>鋪在地上的簡單雙人床鋪，通常由布或皮革製成，並襯以皮毛。布團重量輕盈，並且可以捲起來方便攜帶，但舒適度不如一般的床。</BedrollDouble_Frame.description>
+  
   
   <!-- Animal beds -->
   
   <AnimalSleepingSpot.label>動物睡眠點</AnimalSleepingSpot.label>
-  <AnimalSleepingSpot.Description>指定一個動物的睡眠點，動物會在這裡睡覺。</AnimalSleepingSpot.Description>
+  <AnimalSleepingSpot.description>指定一個動物的睡眠點，動物會在這裡睡覺。</AnimalSleepingSpot.description>
+  <AnimalSleepingSpot_Blueprint.label>動物睡眠點(藍圖)</AnimalSleepingSpot_Blueprint.label>
+  <AnimalSleepingSpot_Frame.label>動物睡眠點(建造中)</AnimalSleepingSpot_Frame.label>
+  <AnimalSleepingSpot_Frame.description>指定一個動物的睡眠點，動物會在這裡睡覺。</AnimalSleepingSpot_Frame.description>
   
   <AnimalSleepingBox.label>動物箱</AnimalSleepingBox.label>
-  <AnimalSleepingBox.Description>一個給動物睡覺的小箱子，適合雞、貓或是小狗等小型動物。</AnimalSleepingBox.Description>
+  <AnimalSleepingBox.description>一個給動物睡覺的小箱子，適合雞、貓或是小狗等小型動物。</AnimalSleepingBox.description>
+  <AnimalSleepingBox_Blueprint.label>動物箱(藍圖)</AnimalSleepingBox_Blueprint.label>
+  <AnimalSleepingBox_Frame.label>動物箱(建造中)</AnimalSleepingBox_Frame.label>
+  <AnimalSleepingBox_Frame.description>一個給動物睡覺的小箱子，適合雞、貓或是小狗等小型動物。</AnimalSleepingBox_Frame.description>
+  <AnimalSleepingBox_Blueprint_Install.label>動物箱預定地</AnimalSleepingBox_Blueprint_Install.label>
   
   <AnimalBed.label>動物床</AnimalBed.label>
-  <AnimalBed.Description>一張給動物睡覺的舒適床鋪，適合任何體型的動物。</AnimalBed.Description>
+  <AnimalBed.description>一張給動物睡覺的舒適床鋪，適合任何體型的動物。</AnimalBed.description>
+  <AnimalBed_Blueprint.label>動物床(藍圖)</AnimalBed_Blueprint.label>
+  <AnimalBed_Blueprint_Install.label>動物床預定地</AnimalBed_Blueprint_Install.label>
+  <AnimalBed_Frame.label>動物床(建造中)</AnimalBed_Frame.label>
+  <AnimalBed_Frame.description>一張給動物睡覺的舒適床鋪，適合任何體型的動物。</AnimalBed_Frame.description>
+  
   
   <!-- Basic domestic furniture -->
   
   <Stool.label>凳子</Stool.label>
-  <Stool.Description>簡單的小凳子。</Stool.Description>
+  <Stool.description>簡單的小凳子。不算很舒服，但比什麼都沒有好多了，可以安置在桌子、工作台旁邊。</Stool.description>
+  <Stool_Blueprint.label>凳子(藍圖)</Stool_Blueprint.label>
+  <Stool_Blueprint_Install.label>凳子預定地</Stool_Blueprint_Install.label>
+  <Stool_Frame.label>凳子(建造中)</Stool_Frame.label>
+  <Stool_Frame.description>簡單的小凳子。不算很舒服，但比什麼都沒有好多了，可以安置在桌子、工作台旁邊。</Stool_Frame.description>
 
   <DiningChair.label>扶手椅</DiningChair.label>
-  <DiningChair.Description>舒適且優雅的扶手椅。</DiningChair.Description>
+  <DiningChair.description>舒適且優雅的扶手椅。可以安置在桌子、工作台旁邊。</DiningChair.description>
+  <DiningChair_Blueprint.label>扶手椅(藍圖)</DiningChair_Blueprint.label>
+  <DiningChair_Blueprint_Install.label>扶手椅預定地</DiningChair_Blueprint_Install.label>
+  <DiningChair_Frame.label>扶手椅(建造中)</DiningChair_Frame.label>
+  <DiningChair_Frame.description>舒適且優雅的扶手椅。可以安置在桌子、工作台旁邊。</DiningChair_Frame.description>
 
   <Armchair.label>沙發</Armchair.label>
-  <Armchair.Description>寬敞又舒適的座椅，十分適合放鬆。</Armchair.Description>
+  <Armchair.description>寬敞又舒適的座椅，十分適合放鬆。可以安置在桌子、工作台旁邊。</Armchair.description>
+  <Armchair_Blueprint.label>沙發(藍圖)</Armchair_Blueprint.label>
+  <Armchair_Blueprint_Install.label>沙發預定地</Armchair_Blueprint_Install.label>
+  <Armchair_Frame.label>沙發(建造中)</Armchair_Frame.label>
+  <Armchair_Frame.description>寬敞又舒適的座椅，十分適合放鬆。可以安置在桌子、工作台旁邊。</Armchair_Frame.description>
+  
   
   <!-- Table base -->
 
   <EndTable.label>床頭櫃</EndTable.label>
   <EndTable.description>一個小小的床頭櫃，可以稍微提昇相鄰的床的舒適度。必須放置在緊臨床頭的位置，但一張床只會受到一個床頭櫃的影響。</EndTable.description>
+  <EndTable_Blueprint.label>床頭櫃(藍圖)</EndTable_Blueprint.label>
+  <EndTable_Blueprint_Install.label>床頭櫃(藍圖)</EndTable_Blueprint_Install.label>
+  <EndTable_Frame.label>床頭櫃(建造中)</EndTable_Frame.label>
+  <EndTable_Frame.description>一個小小的床頭櫃，可以稍微提昇相鄰的床的舒適度。必須放置在緊臨床頭的位置，但一張床只會受到一個床頭櫃的影響。</EndTable_Frame.description>
 
   <Table1x2c.label>桌子(1x2)</Table1x2c.label>
   <Table1x2c.description>人們會坐在對著桌子的椅子上用餐。</Table1x2c.description>
+  <Table1x2c_Blueprint.label>桌子(1x2)(藍圖)</Table1x2c_Blueprint.label>
+  <Table1x2c_Blueprint_Install.label>桌子(1x2)(藍圖)</Table1x2c_Blueprint_Install.label>
+  <Table1x2c_Frame.label>桌子(1x2) (建造中)</Table1x2c_Frame.label>
+  <Table1x2c_Frame.description>人們會坐在對著桌子的椅子上用餐。</Table1x2c_Frame.description>
 
   <Table2x2c.label>桌子(2x2)</Table2x2c.label>
   <Table2x2c.description>人們會坐在對著桌子的椅子上用餐。</Table2x2c.description>
+  <Table2x2c_Blueprint.label>桌子(2x2)(藍圖)</Table2x2c_Blueprint.label>
+  <Table2x2c_Blueprint_Install.label>桌子(2x2)(藍圖)</Table2x2c_Blueprint_Install.label>
+  <Table2x2c_Frame.label>桌子(2x2) (建造中)</Table2x2c_Frame.label>
+  <Table2x2c_Frame.description>人們會坐在對著桌子的椅子上用餐。</Table2x2c_Frame.description>
 
   <Table2x4c.label>桌子(2x4)</Table2x4c.label>
   <Table2x4c.description>人們會坐在對著桌子的椅子上用餐。</Table2x4c.description>
+  <Table2x4c_Blueprint.label>桌子(2x4)(藍圖)</Table2x4c_Blueprint.label>
+  <Table2x4c_Blueprint_Install.label>桌子(2x4)(藍圖)</Table2x4c_Blueprint_Install.label>
+  <Table2x4c_Frame.label>桌子(2x4) (建造中)</Table2x4c_Frame.label>
+  <Table2x4c_Frame.description>人們會坐在對著桌子的椅子上用餐。</Table2x4c_Frame.description>
 
   <Table3x3c.label>桌子(3x3)</Table3x3c.label>
   <Table3x3c.description>人們會坐在對著桌子的椅子上用餐。</Table3x3c.description>
+  <Table3x3c_Blueprint.label>桌子(3x3)(藍圖)</Table3x3c_Blueprint.label>
+  <Table3x3c_Blueprint_Install.label>桌子(3x3)(藍圖)</Table3x3c_Blueprint_Install.label>
+  <Table3x3c_Frame.label>桌子(3x3) (建造中)</Table3x3c_Frame.label>
+  <Table3x3c_Frame.description>人們會坐在對著桌子的椅子上用餐。</Table3x3c_Frame.description>
 
   <PlantPot.label>盆栽</PlantPot.label>
-  <PlantPot.Description>農夫會在這裡種植裝飾性的花朵。</PlantPot.Description>
+  <PlantPot.description>農夫會在這裡種植裝飾性的花朵。</PlantPot.description>
+  <PlantPot_Blueprint.label>盆栽(藍圖)</PlantPot_Blueprint.label>
+  <PlantPot_Blueprint_Install.label>盆栽預定地</PlantPot_Blueprint_Install.label>
+  <PlantPot_Frame.label>盆栽(建造中)</PlantPot_Frame.label>
+  <PlantPot_Frame.description>農夫會在這裡種植裝飾性的花朵。</PlantPot_Frame.description>
   
   
   <!-- Lighting -->
 
   <TorchLamp.label>火把</TorchLamp.label>
-  <TorchLamp.Description>用火作為光線來源的設備，需要定期添加木頭燃料，會產生少許熱。</TorchLamp.Description>
+  <TorchLamp.description>用火作為光線來源的設備，需要定期添加木頭燃料，會產生少許熱。</TorchLamp.description>
+  <TorchLamp_Blueprint.label>火把(藍圖)</TorchLamp_Blueprint.label>
+  <TorchLamp_Frame.label>火把(建造中)</TorchLamp_Frame.label>
+  <TorchLamp_Frame.description>用火作為光線來源的設備，需要定期添加木頭燃料，會產生少許熱。</TorchLamp_Frame.description>
   
   <StandingLamp.label>立燈</StandingLamp.label>
-  <StandingLamp.Description>一個可以點亮一小塊區域的立燈。</StandingLamp.Description>
+  <StandingLamp.description>一個可以點亮一小塊區域的立燈。</StandingLamp.description>
+  <StandingLamp_Blueprint.label>立燈(藍圖)</StandingLamp_Blueprint.label>
+  <StandingLamp_Blueprint_Install.label>立燈預定地</StandingLamp_Blueprint_Install.label>
+  <StandingLamp_Frame.label>立燈(建造中)</StandingLamp_Frame.label>
+  <StandingLamp_Frame.description>一個可以點亮一小塊區域的立燈。</StandingLamp_Frame.description>
   
   <StandingLamp_Red.label>立燈(红)</StandingLamp_Red.label>
-  <StandingLamp_Red.Description>一個可以把一小塊區域點亮成红色的立燈。</StandingLamp_Red.Description>
+  <StandingLamp_Red.description>一個可以把一小塊區域點亮成红色的立燈。</StandingLamp_Red.description>
+  <StandingLamp_Red_Blueprint.label>立燈(紅)(藍圖)</StandingLamp_Red_Blueprint.label>
+  <StandingLamp_Red_Blueprint_Install.label>立燈(紅)預定地</StandingLamp_Red_Blueprint_Install.label>
+  <StandingLamp_Red_Frame.label>立燈(紅)(建造中)</StandingLamp_Red_Frame.label>
+  <StandingLamp_Red_Frame.description>一個可以把一小塊區域點亮成红色的立燈。</StandingLamp_Red_Frame.description>
   
   <StandingLamp_Green.label>立燈(綠)</StandingLamp_Green.label>
-  <StandingLamp_Green.Description>一個可以把一小塊區域點亮成綠色的立燈。</StandingLamp_Green.Description>
+  <StandingLamp_Green.description>一個可以把一小塊區域點亮成綠色的立燈。</StandingLamp_Green.description>
+  <StandingLamp_Green_Blueprint.label>立燈(綠)(藍圖)</StandingLamp_Green_Blueprint.label>
+  <StandingLamp_Green_Blueprint_Install.label>立燈(綠)預定地</StandingLamp_Green_Blueprint_Install.label>
+  <StandingLamp_Green_Frame.label>立燈(綠)(建造中)</StandingLamp_Green_Frame.label>
+  <StandingLamp_Green_Frame.description>一個可以把一小塊區域點亮成綠色的立燈。</StandingLamp_Green_Frame.description>
   
   <StandingLamp_Blue.label>立燈(藍)</StandingLamp_Blue.label>
-  <StandingLamp_Blue.Description>一個可以把一小塊區域點亮成藍色的立燈。</StandingLamp_Blue.Description>
+  <StandingLamp_Blue.description>一個可以把一小塊區域點亮成藍色的立燈。</StandingLamp_Blue.description>
+  <StandingLamp_Blue_Blueprint.label>立燈(藍)(藍圖)</StandingLamp_Blue_Blueprint.label>
+  <StandingLamp_Blue_Blueprint_Install.label>立燈(藍)預定地</StandingLamp_Blue_Blueprint_Install.label>
+  <StandingLamp_Blue_Frame.label>立燈(藍)(建造中)</StandingLamp_Blue_Frame.label>
+  <StandingLamp_Blue_Frame.description>一個可以把一小塊區域點亮成藍色的立燈。</StandingLamp_Blue_Frame.description>
 
   <SunLamp.label>太陽燈</SunLamp.label>
-  <SunLamp.Description>為一整片區域提供足以讓植物生長的亮光。</SunLamp.Description>
+  <SunLamp.description>一盞工業用燈，亮度足以代替陽光供植物生長，但消耗大量電力。夜間自動關閉。</SunLamp.description>
   <SunLamp.comps.3.offMessage>於植物休眠期間關閉</SunLamp.comps.3.offMessage>
+  <SunLamp_Blueprint.label>太陽燈(藍圖)</SunLamp_Blueprint.label>
+  <SunLamp_Blueprint_Install.label>太陽燈預定地</SunLamp_Blueprint_Install.label>
+  <SunLamp_Frame.label>太陽燈(建造中)</SunLamp_Frame.label>
+  <SunLamp_Frame.description>一盞工業用燈，亮度足以代替陽光供植物生長，但消耗大量電力。夜間自動關閉。</SunLamp_Frame.description>
 
 
   <!-- Storage -->
 
   <Shelf.label>儲物櫃</Shelf.label>
-  <Shelf.Description>儲存在此的物品能夠避免衰壞，無論室內室外。</Shelf.Description>
-  <Shelf_Blueprint.label>儲物櫃藍圖</Shelf_Blueprint.label>
+  <Shelf.description>除存雜物的櫃子。儲存在此的物品能夠避免衰壞，無論室內室外。</Shelf.description>
+  <Shelf_Blueprint.label>儲物櫃(藍圖)</Shelf_Blueprint.label>
   <Shelf_Blueprint_Install.label>儲物櫃預定地</Shelf_Blueprint_Install.label>
-  <Shelf_Frame.label>儲物櫃框架</Shelf_Frame.label>
-  <Shelf_Frame.description>儲存在此的物品能夠避免衰壞，無論室內室外。</Shelf_Frame.description>
+  <Shelf_Frame.label>儲物櫃(建造中)</Shelf_Frame.label>
+  <Shelf_Frame.description>除存雜物的櫃子。儲存在此的物品能夠避免衰壞，無論室內室外。</Shelf_Frame.description>
 
 
   <!-- Dressers -->
 
   <Dresser.label>四斗櫃</Dresser.label>
-  <Dresser.description>給予所有相鄰的床少許的舒適度提昇。一張床只會受到一個四斗櫃的影響。</Dresser.description>
+  <Dresser.description>一個抽屜櫃，給予所有相鄰的床少許的舒適度提昇。一張床只會受到一個四斗櫃的影響。</Dresser.description>
+  <Dresser_Blueprint.label>四斗櫃(藍圖)</Dresser_Blueprint.label>
+  <Dresser_Blueprint_Install.label>四斗櫃(藍圖)</Dresser_Blueprint_Install.label>
+  <Dresser_Frame.label>四斗櫃(建造中)</Dresser_Frame.label>
+  <Dresser_Frame.description>一個抽屜櫃，給予所有相鄰的床少許的舒適度提昇。一張床只會受到一個四斗櫃的影響。</Dresser_Frame.description>
+  
   
 </LanguageData>

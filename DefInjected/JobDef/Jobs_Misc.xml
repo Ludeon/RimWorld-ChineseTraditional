@@ -1,17 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- General -->
   
   <Goto.reportString>移動中。</Goto.reportString>
+  <Follow.reportString>跟隨TargetA。</Follow.reportString>
+  <FollowClose.reportString>跟隨TargetA。</FollowClose.reportString>
   <GotoSafeTemperature.reportString>尋找溫度安全的地方。</GotoSafeTemperature.reportString>
   <GotoWander.reportString>閒晃</GotoWander.reportString>
   <Wait.reportString>站著。</Wait.reportString>
-  <WaitMaintainPosture.reportString>站著。</WaitMaintainPosture.reportString>
-  <WaitDowned.reportString>倒著。</WaitDowned.reportString>
-  <WaitSafeTemperature.reportString>尋找溫度安全的地方。</WaitSafeTemperature.reportString>
-  <WaitWander.reportString>閒晃</WaitWander.reportString>
-  <WaitCombat.reportString>待命。</WaitCombat.reportString>
+  <Wait_MaintainPosture.reportString>站著。</Wait_MaintainPosture.reportString>
+  <Wait_Downed.reportString>倒著。</Wait_Downed.reportString>
+  <Wait_SafeTemperature.reportString>尋找溫度安全的地方。</Wait_SafeTemperature.reportString>
+  <Wait_Wander.reportString>閒晃</Wait_Wander.reportString>
+  <Wait_Combat.reportString>待命。</Wait_Combat.reportString>
   <AttackStatic.reportString>攻擊TargetA。</AttackStatic.reportString>
   <AttackMelee.reportString>近身攻擊TargetA。</AttackMelee.reportString>
   <SocialFight.reportString>與TargetA吵架。</SocialFight.reportString>
@@ -24,8 +26,11 @@
   <DropEquipment.reportString>卸除裝備。</DropEquipment.reportString>
   <Strip.reportString>掠奪TargetA。</Strip.reportString>
   <Open.reportString>開啟TargetA。</Open.reportString>
-  <RearmTrap.reportString>重設陷阱TargetA。</RearmTrap.reportString>
+  <RearmTrap.reportString>重設TargetA。</RearmTrap.reportString>
+  <RearmTurret.reportString>重設TargetA。</RearmTurret.reportString>
+  <RearmTurretAtomic.reportString>重設TargetA。</RearmTurretAtomic.reportString>
   <Refuel.reportString>替TargetA添加燃料。</Refuel.reportString>
+  <RefuelAtomic.reportString>替TargetA添加燃料。</RefuelAtomic.reportString>
   <FillFermentingBarrel.reportString>裝填TargetA。</FillFermentingBarrel.reportString>
   <TakeBeerOutOfFermentingBarrel.reportString>正從TargetA取出啤酒。</TakeBeerOutOfFermentingBarrel.reportString>
   <UnloadInventory.reportString>卸除TargetA的貨物。</UnloadInventory.reportString>

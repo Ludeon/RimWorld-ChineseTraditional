@@ -1,19 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <Campfire.label>篝火</Campfire.label>
   <Campfire.description>一個能夠持續燃燒數天的臨時取暖設備，必須放置在室內才能有效的溫暖空間。</Campfire.description>
-  
-  <Heater.label>電暖爐</Heater.label>
-  <Heater.description>一種電氣設備，能將電能轉化為熱能。它可以自動啟動或關閉，達到期望的目標溫度。</Heater.description>
-  
-  <Cooler.label>冷氣</Cooler.label>
-  <Cooler.description>一種嵌入牆中的電器設備，能將冰涼的空氣送入室內，但會在排氣口產生大量熱能。可以用來調節室內溫度，或打造一座大型冷藏庫。</Cooler.description>
-  
-  <Vent.label>空調扇</Vent.label>
-  <Vent.description>一個簡單的風扇，用於調節兩個房間之間的室溫。人們無法通過空調扇往來兩個房間。</Vent.description>
+  <Campfire_Blueprint.label>篝火(藍圖)</Campfire_Blueprint.label>
+  <Campfire_Frame.label>篝火(建造中)</Campfire_Frame.label>
+  <Campfire_Frame.description>一個能夠持續燃燒數天的臨時取暖設備，必須放置在室內才能有效的溫暖空間。</Campfire_Frame.description>
   
   <PassiveCooler.label>簡易冷卻器</PassiveCooler.label>
-  <PassiveCooler.description>一個原始的冷房設備，利用水吸熱蒸發的原理達到冷卻效果。冷卻器在運作壽命結束後會自我消滅。</PassiveCooler.description>
+  <PassiveCooler.description>一個原始的冷房設備，利用水吸熱蒸發的原理達到冷卻效果。冷卻器在運作壽命結束後會自然消失。</PassiveCooler.description>
+  <PassiveCooler_Blueprint.label>簡易冷卻器(藍圖)</PassiveCooler_Blueprint.label>
+  <PassiveCooler_Frame.label>簡易冷卻器(建造中)</PassiveCooler_Frame.label>
+  <PassiveCooler_Frame.description>一個原始的冷房設備，利用水吸熱蒸發的原理達到冷卻效果。冷卻器在運作壽命結束後會自然消失。</PassiveCooler_Frame.description>
+  
+  <Heater.label>電暖爐</Heater.label>
+  <Heater.description>一種能將電能轉化為熱能的設備。它可以自動啟動或關閉，達到期望的目標溫度。</Heater.description>
+  <Heater_Blueprint.label>電暖爐(藍圖)</Heater_Blueprint.label>
+  <Heater_Frame.label>電暖爐(建造中)</Heater_Frame.label>
+  <Heater_Frame.description>一種能將電能轉化為熱能的設備。它可以自動啟動或關閉，達到期望的目標溫度。</Heater_Frame.description>
+  <Heater_Blueprint_Install.label>電暖爐預定地</Heater_Blueprint_Install.label>
+  
+  <Cooler.label>冷氣</Cooler.label>
+  <Cooler.description>一種能冷卻空氣的機器。冷空氣從正面送出，廢熱則從背面排出，可以在炎炎夏日中為房間降溫，或打造一座大型冷藏庫。</Cooler.description>
+  <Cooler_Blueprint.label>冷氣(藍圖)</Cooler_Blueprint.label>
+  <Cooler_Frame.label>冷氣(建造中)</Cooler_Frame.label>
+  <Cooler_Frame.description>一種能冷卻空氣的機器。冷空氣從正面送出，廢熱則從背面排出，可以在炎炎夏日中為房間降溫，或打造一座大型冷藏庫。</Cooler_Frame.description>
+  
+  <Vent.label>空調扇</Vent.label>
+  <Vent.description>用於調節兩個房間之間的室溫。人們無法通過空調扇往來兩個房間。</Vent.description>
+  <Vent_Blueprint.label>空調扇(藍圖)</Vent_Blueprint.label>
+  <Vent_Frame.label>空調扇(建造中)</Vent_Frame.label>
+  <Vent_Frame.description>用於調節兩個房間之間的室溫。人們無法通過空調扇往來兩個房間。</Vent_Frame.description>
 
 </LanguageData>

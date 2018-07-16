@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!--================= player pawn filters =================-->
+  <!-- player pawn filters -->
   
   <GameStartDialog.label>開場訊息</GameStartDialog.label>
-  
-  <!--================= player pawn filters =================-->
-  
   <PawnFilter_Age.label>年齡範圍</PawnFilter_Age.label>
-  
-  <!--================== player pawn modifier ================-->
-  
-  <OnPawnDeathExplode.label>死亡時爆炸</OnPawnDeathExplode.label>
-  
-  <ForcedTrait.label>預設特性</ForcedTrait.label>
-  
-  <ForcedHediff.label>預設健康狀態</ForcedHediff.label>
-  
-  <StartingResearch.label>預設科技</StartingResearch.label>
-  
-  <GameCondition_Planetkiller.label>行星殺手</GameCondition_Planetkiller.label>
-  <SetNeedLevel.label>設定需求等級</SetNeedLevel.label>
-  
 
-  <!--=================== rules changes =================-->
+
+  <!-- player pawn modifier -->
+
+  <OnPawnDeathExplode.label>死亡時爆炸</OnPawnDeathExplode.label>
+  <ForcedTrait.label>預設特性</ForcedTrait.label>
+  <ForcedHediff.label>預設健康狀態</ForcedHediff.label>
+  <Naked.label>裸體</Naked.label>
+  <SetNeedLevel.label>設定需求等級</SetNeedLevel.label>
+  <StartingResearch.label>預設科技</StartingResearch.label>
+  <GameCondition_Planetkiller.label>行星殺手</GameCondition_Planetkiller.label>
+
+
+  <!-- rules changes -->
   
   <Rule_DisallowDesignator_ZoneAdd_Growing.label>禁止種植</Rule_DisallowDesignator_ZoneAdd_Growing.label>
   <Rule_DisallowDesignator_ZoneAdd_Growing.description>禁止在土壤中種植植物。</Rule_DisallowDesignator_ZoneAdd_Growing.description>
@@ -39,24 +34,17 @@
   
   <StatFactor.label>狀態倍率</StatFactor.label>
 
-  <!--===============================================-->
-  <!--==================== grouped ==================-->
-  <!--===============================================-->
-  
+
+  <!-- grouped -->
+
   <DisableIncident.label>禁用事件</DisableIncident.label>
-  
+  <CreateIncident.label>創建隨機事件</CreateIncident.label>
   <Rule_DisallowBuilding.label>禁用建設</Rule_DisallowBuilding.label>
-  
   <PermanentGameCondition.label>永久狀態</PermanentGameCondition.label>
-  
   <StartingAnimal.label>初始動物</StartingAnimal.label>
-  
   <StartingThing_Defined.label>預設</StartingThing_Defined.label>
-  
-  <ScatterThingsNearPlayerStart.label>起點周圍</ScatterThingsNearPlayerStart.label>
-  
+  <ScatterThingsNearPlayerStart.label>初始位置</ScatterThingsNearPlayerStart.label>
   <ScatterThingsAnywhere.label>隨機散佈</ScatterThingsAnywhere.label>
   
-  <CreateIncident.label>創建隨機事件</CreateIncident.label>
   
 </LanguageData>

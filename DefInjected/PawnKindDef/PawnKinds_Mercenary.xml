@@ -1,20 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MercenaryGunner.label>槍手</MercenaryGunner.label>
-  <MercenaryGunner.labelPlural>槍手</MercenaryGunner.labelPlural>
-  <MercenarySniper.label>狙擊手</MercenarySniper.label>
-  <MercenarySniper.labelPlural>狙擊手</MercenarySniper.labelPlural>
-  <GrenadierDestructive.label>擲彈兵</GrenadierDestructive.label>
-  <GrenadierDestructive.labelPlural>擲彈兵</GrenadierDestructive.labelPlural>
-  <GrenadierEMP.label>脈衝擲彈兵</GrenadierEMP.label>
-  <GrenadierEMP.labelPlural>脈衝擲彈兵</GrenadierEMP.labelPlural>
-  <MercenarySlasher.label>近身戰鬥員</MercenarySlasher.label>
-  <MercenarySlasher.labelPlural>近身戰鬥員</MercenarySlasher.labelPlural>
-  <MercenaryHeavy.label>重裝傭兵</MercenaryHeavy.label>
-  <MercenaryHeavy.labelPlural>重裝傭兵</MercenaryHeavy.labelPlural>
-  <PirateBoss.label>海賊團長</PirateBoss.label>
-  <MercenaryElite.label>精銳傭兵</MercenaryElite.label>
-  <MercenaryElite.labelPlural>精銳傭兵</MercenaryElite.labelPlural>
+  <!-- Low merc tier - grenadiers -->
+
+  <Grenadier_Destructive.label>擲彈兵</Grenadier_Destructive.label>
+  <Grenadier_Destructive.labelPlural>擲彈兵</Grenadier_Destructive.labelPlural>
+
+  <Grenadier_EMP.label>電磁脈衝擲彈兵</Grenadier_EMP.label>
+  <Grenadier_EMP.labelPlural>電磁脈衝擲彈兵</Grenadier_EMP.labelPlural>
+
+
+  <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
+
+  <Mercenary_Gunner.label>槍手</Mercenary_Gunner.label>
+  <Mercenary_Gunner.labelPlural>槍手</Mercenary_Gunner.labelPlural>
+
+  <Mercenary_Sniper.label>狙擊手</Mercenary_Sniper.label>
+  <Mercenary_Sniper.labelPlural>狙擊手</Mercenary_Sniper.labelPlural>
+
+  <Mercenary_Slasher.label>近身戰鬥員</Mercenary_Slasher.label>
+  <Mercenary_Slasher.labelPlural>近身戰鬥員</Mercenary_Slasher.labelPlural>
+
+  <Mercenary_Heavy.label>重裝傭兵</Mercenary_Heavy.label>
+  <Mercenary_Heavy.labelPlural>重裝傭兵</Mercenary_Heavy.labelPlural>
      
 </LanguageData>

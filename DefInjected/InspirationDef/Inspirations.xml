@@ -1,47 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <WorkFrenzy.label>工作狂熱</WorkFrenzy.label>
-  <WorkFrenzy.beginLetter>{0}被激勵了。在接下來的24小時內，HIS工作速度將提昇至2.5倍。</WorkFrenzy.beginLetter>
-  <WorkFrenzy.beginLetterLabel>激勵：工作狂熱</WorkFrenzy.beginLetterLabel>
-  <WorkFrenzy.endMessage>{0}的狂熱狀態已經結束(工作狂熱)。</WorkFrenzy.endMessage>
-  <WorkFrenzy.baseInspectLine>激勵：工作狂熱</WorkFrenzy.baseInspectLine>
+  <Frenzy_Work.label>工作狂熱</Frenzy_Work.label>
+  <Frenzy_Work.beginLetter>{0}被激勵了。在接下來的24小時內，[PAWN_possessive]工作速度將提昇至2.5倍。</Frenzy_Work.beginLetter>
+  <Frenzy_Work.beginLetterLabel>激勵：工作狂熱</Frenzy_Work.beginLetterLabel>
+  <Frenzy_Work.endMessage>{0}的狂熱狀態已經結束(工作狂熱)。</Frenzy_Work.endMessage>
+  <Frenzy_Work.baseInspectLine>激勵：工作狂熱</Frenzy_Work.baseInspectLine>
 
-  <GoFrenzy.label>行動狂熱</GoFrenzy.label>
-  <GoFrenzy.beginLetter>{0}被激勵了。在接下來的24小時內，HIS工作速度將提昇至1.5倍。</GoFrenzy.beginLetter>
-  <GoFrenzy.beginLetterLabel>激勵：行動狂熱</GoFrenzy.beginLetterLabel>
-  <GoFrenzy.endMessage>{0}的狂熱狀態已經結束(行動狂熱)。</GoFrenzy.endMessage>
-  <GoFrenzy.baseInspectLine>激勵：行動狂熱</GoFrenzy.baseInspectLine>
+  <Frenzy_Go.label>行動狂熱</Frenzy_Go.label>
+  <Frenzy_Go.beginLetter>{0}被激勵了。在接下來的24小時內，[PAWN_possessive]工作速度將提昇至1.5倍。</Frenzy_Go.beginLetter>
+  <Frenzy_Go.beginLetterLabel>激勵：行動狂熱</Frenzy_Go.beginLetterLabel>
+  <Frenzy_Go.endMessage>{0}的狂熱狀態已經結束(行動狂熱)。</Frenzy_Go.endMessage>
+  <Frenzy_Go.baseInspectLine>激勵：行動狂熱</Frenzy_Go.baseInspectLine>
 
-  <ShootFrenzy.label>射擊狂熱</ShootFrenzy.label>
-  <ShootFrenzy.beginLetter>{0}被激勵了。在接下來的3天內，HIS射擊命中率將大幅提昇。</ShootFrenzy.beginLetter>
-  <ShootFrenzy.beginLetterLabel>激勵：射擊狂熱</ShootFrenzy.beginLetterLabel>
-  <ShootFrenzy.endMessage>{0}的狂熱狀態已經結束(射擊狂熱)。</ShootFrenzy.endMessage>
-  <ShootFrenzy.baseInspectLine>激勵：射擊狂熱</ShootFrenzy.baseInspectLine>
+  <Frenzy_Shoot.label>射擊狂熱</Frenzy_Shoot.label>
+  <Frenzy_Shoot.beginLetter>{0}被激勵了。在接下來的3天內，[PAWN_possessive]射擊命中率將大幅提昇。</Frenzy_Shoot.beginLetter>
+  <Frenzy_Shoot.beginLetterLabel>激勵：射擊狂熱</Frenzy_Shoot.beginLetterLabel>
+  <Frenzy_Shoot.endMessage>{0}的狂熱狀態已經結束(射擊狂熱)。</Frenzy_Shoot.endMessage>
+  <Frenzy_Shoot.baseInspectLine>激勵：射擊狂熱</Frenzy_Shoot.baseInspectLine>
 
-  <InspiredTrade.label>交易狂熱</InspiredTrade.label>
-  <InspiredTrade.beginLetter>{0}被激勵了。HE將能夠在下一次的交易中獲得顯著的價格優惠。\n\n狂熱狀態將在8天後或是在下一次成交時結束。</InspiredTrade.beginLetter>
-  <InspiredTrade.beginLetterLabel>激勵：交易狂熱</InspiredTrade.beginLetterLabel>
-  <InspiredTrade.endMessage>{0}的狂熱狀態已經結束(交易狂熱)。</InspiredTrade.endMessage>
-  <InspiredTrade.baseInspectLine>激勵：交易狂熱</InspiredTrade.baseInspectLine>
+  <Inspired_Trade.label>交易狂熱</Inspired_Trade.label>
+  <Inspired_Trade.beginLetter>{0}被激勵了。[PAWN_pronoun]將能夠在下一次的交易中獲得顯著的價格優惠。\n\n狂熱狀態將在8天後或是在下一次成交時結束。</Inspired_Trade.beginLetter>
+  <Inspired_Trade.beginLetterLabel>激勵：交易狂熱</Inspired_Trade.beginLetterLabel>
+  <Inspired_Trade.endMessage>{0}的狂熱狀態已經結束(交易狂熱)。</Inspired_Trade.endMessage>
+  <Inspired_Trade.baseInspectLine>激勵：交易狂熱</Inspired_Trade.baseInspectLine>
 
-  <InspiredRecruitment.label>招募狂熱</InspiredRecruitment.label>
-  <InspiredRecruitment.beginLetter>{0}被激勵了。HE將能夠排除萬難成功招募下一名俘虜。\n\n狂熱狀態將在8天後或是在下一名俘虜招募成功時結束。</InspiredRecruitment.beginLetter>
-  <InspiredRecruitment.beginLetterLabel>激勵：招募狂熱</InspiredRecruitment.beginLetterLabel>
-  <InspiredRecruitment.endMessage>{0}的狂熱狀態已經結束(招募狂熱)。</InspiredRecruitment.endMessage>
-  <InspiredRecruitment.baseInspectLine>激勵：招募狂熱</InspiredRecruitment.baseInspectLine>
+  <Inspired_Recruitment.label>招募狂熱</Inspired_Recruitment.label>
+  <Inspired_Recruitment.beginLetter>{0}被激勵了。[PAWN_pronoun]將能夠排除萬難成功招募下一名俘虜。\n\n狂熱狀態將在8天後或是在下一名俘虜招募成功時結束。</Inspired_Recruitment.beginLetter>
+  <Inspired_Recruitment.beginLetterLabel>激勵：招募狂熱</Inspired_Recruitment.beginLetterLabel>
+  <Inspired_Recruitment.endMessage>{0}的狂熱狀態已經結束(招募狂熱)。</Inspired_Recruitment.endMessage>
+  <Inspired_Recruitment.baseInspectLine>激勵：招募狂熱</Inspired_Recruitment.baseInspectLine>
 
-  <InspiredSurgery.label>醫術狂熱</InspiredSurgery.label>
-  <InspiredSurgery.beginLetter>{0}被激勵了。HE下一場手術的失敗率將減少至一成。\n\n狂熱狀態將在8天後或是在下一次執行手術時結束。</InspiredSurgery.beginLetter>
-  <InspiredSurgery.beginLetterLabel>激勵：醫術狂熱</InspiredSurgery.beginLetterLabel>
-  <InspiredSurgery.endMessage>{0}的狂熱狀態已經結束(醫術狂熱)。</InspiredSurgery.endMessage>
-  <InspiredSurgery.baseInspectLine>激勵：醫術狂熱</InspiredSurgery.baseInspectLine>
+  <Inspired_Surgery.label>醫術狂熱</Inspired_Surgery.label>
+  <Inspired_Surgery.beginLetter>{0}被激勵了。[PAWN_pronoun]下一場手術的失敗率將減少至一成。\n\n狂熱狀態將在8天後或是在下一次執行手術時結束。</Inspired_Surgery.beginLetter>
+  <Inspired_Surgery.beginLetterLabel>激勵：醫術狂熱</Inspired_Surgery.beginLetterLabel>
+  <Inspired_Surgery.endMessage>{0}的狂熱狀態已經結束(醫術狂熱)。</Inspired_Surgery.endMessage>
+  <Inspired_Surgery.baseInspectLine>激勵：醫術狂熱</Inspired_Surgery.baseInspectLine>
 
-  <InspiredArt.label>藝術狂熱</InspiredArt.label>
-  <InspiredArt.beginLetter>{0}被激勵了。HE完成的下一個作品將會比原有的水準高出三個品質等級。\n\n狂熱狀態將在8天後或是在下一個作品完成時結束。</InspiredArt.beginLetter>
-  <InspiredArt.beginLetterLabel>激勵：藝術狂熱</InspiredArt.beginLetterLabel>
-  <InspiredArt.endMessage>{0}的狂熱狀態已經結束(藝術狂熱)。</InspiredArt.endMessage>
-  <InspiredArt.baseInspectLine>激勵：藝術狂熱</InspiredArt.baseInspectLine>
+  <Inspired_Creativity.label>創作狂熱</Inspired_Creativity.label>
+  <Inspired_Creativity.beginLetter>{0}被激勵了。[PAWN_pronoun]完成的下一個作品將會比原有的水準高出三個品質等級。\n\n狂熱狀態將在8天後或是在下一個作品完成時結束。</Inspired_Creativity.beginLetter>
+  <Inspired_Creativity.beginLetterLabel>激勵：藝術狂熱</Inspired_Creativity.beginLetterLabel>
+  <Inspired_Creativity.endMessage>{0}的狂熱狀態已經結束(藝術狂熱)。</Inspired_Creativity.endMessage>
+  <Inspired_Creativity.baseInspectLine>激勵：藝術狂熱</Inspired_Creativity.baseInspectLine>
 
 
 </LanguageData>

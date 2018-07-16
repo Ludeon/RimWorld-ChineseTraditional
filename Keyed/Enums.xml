@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- glow -->
@@ -41,23 +41,19 @@
 
   <!-- Quality category -->
   <QualityCategory_Awful>差勁</QualityCategory_Awful>
-  <QualityCategory_Shoddy>不良</QualityCategory_Shoddy>
   <QualityCategory_Poor>瑕疵</QualityCategory_Poor>
   <QualityCategory_Normal>普通</QualityCategory_Normal>
-  <QualityCategory_Good>良好</QualityCategory_Good>
-  <QualityCategory_Superior>高級</QualityCategory_Superior>
+  <QualityCategory_Good>優良</QualityCategory_Good>
   <QualityCategory_Excellent>完美</QualityCategory_Excellent>
   <QualityCategory_Masterwork>大師</QualityCategory_Masterwork>
   <QualityCategory_Legendary>傳奇</QualityCategory_Legendary>
   <QualityCategoryShort_Awful>F</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>E</QualityCategoryShort_Shoddy>
-  <QualityCategoryShort_Poor>D</QualityCategoryShort_Poor>
-  <QualityCategoryShort_Normal>C</QualityCategoryShort_Normal>
-  <QualityCategoryShort_Good>B</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>A</QualityCategoryShort_Superior>
-  <QualityCategoryShort_Excellent>S</QualityCategoryShort_Excellent>
-  <QualityCategoryShort_Masterwork>SS</QualityCategoryShort_Masterwork>
-  <QualityCategoryShort_Legendary>SSS</QualityCategoryShort_Legendary>
+  <QualityCategoryShort_Poor>E</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>D</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Good>C</QualityCategoryShort_Good>
+  <QualityCategoryShort_Excellent>B</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>A</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>S</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
   <HungerLevel_Starving>極度飢餓</HungerLevel_Starving>
@@ -127,15 +123,15 @@
   <PawnGenerationContext_PlayerStarter>玩家起始角色</PawnGenerationContext_PlayerStarter>
   <PawnGenerationContext_NonPlayer>非玩家角色</PawnGenerationContext_NonPlayer>
   
-  <!-- Animal name display mode -->
+  <!-- Animal Name display mode -->
   <ShowAnimalNames>顯示動物名稱</ShowAnimalNames>
   <AnimalNameDisplayMode_TameNamed>馴養(已命名)</AnimalNameDisplayMode_TameNamed>
   <AnimalNameDisplayMode_TameAll>馴養(全部)</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->
-  <Celsius>攝氏溫標</Celsius>
-  <Fahrenheit>華氏溫標</Fahrenheit>
-  <Kelvin>凱式溫標</Kelvin>
+  <Celsius>攝氏溫標(C)</Celsius>
+  <Fahrenheit>華氏溫標(F)</Fahrenheit>
+  <Kelvin>凱式溫標(K)</Kelvin>
   
   <!-- Direction8Way -->
   <Direction8Way_North_Short>北</Direction8Way_North_Short>
@@ -146,5 +142,19 @@
   <Direction8Way_SouthWest_Short>西南</Direction8Way_SouthWest_Short>
   <Direction8Way_West_Short>西</Direction8Way_West_Short>
   <Direction8Way_NorthWest_Short>西北</Direction8Way_NorthWest_Short>
+
+  <!-- Diet category -->
+  <DietCategory_NeverEats>不進食</DietCategory_NeverEats>
+  <DietCategory_Herbivorous>草食</DietCategory_Herbivorous>
+  <DietCategory_Dendrovorous>樹食</DietCategory_Dendrovorous>
+  <DietCategory_Ovivorous>卵食</DietCategory_Ovivorous>
+  <DietCategory_Omnivorous>雜食</DietCategory_Omnivorous>
+  <DietCategory_Carnivorous>肉食</DietCategory_Carnivorous>
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
+  <DietCategory_Herbivorous_Short>草</DietCategory_Herbivorous_Short>
+  <DietCategory_Dendrovorous_Short>樹</DietCategory_Dendrovorous_Short>
+  <DietCategory_Ovivorous_Short>卵</DietCategory_Ovivorous_Short>
+  <DietCategory_Omnivorous_Short>雜</DietCategory_Omnivorous_Short>
+  <DietCategory_Carnivorous_Short>肉</DietCategory_Carnivorous_Short>
   
 </LanguageData>

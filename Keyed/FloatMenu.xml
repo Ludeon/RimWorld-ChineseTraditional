@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <CallOnRadio>呼叫{0}</CallOnRadio>
@@ -32,14 +32,20 @@
   <NotInHomeArea>在生活區之外</NotInHomeArea>
   <BurningLower>燃燒中</BurningLower>
   <NoEmptyPlaceLower>沒有可用的空間可放置</NoEmptyPlaceLower>
+  <NoMergeTarget>no stack available to merge into</NoMergeTarget>
   <AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
   <MissingMaterials>需要材料</MissingMaterials>
-  <MissingSkill>技能等級不足</MissingSkill>
-  <NoEmptyGraveLower>沒有空的墳墓可存放</NoEmptyGraveLower>
+  <UnderRequiredSkill>技能等級低於最低需求{0}</UnderRequiredSkill>
+  <UnderAllowedSkill>技能等級低於最低需求{0}</UnderAllowedSkill>
+  <AboveAllowedSkill>技能等級高於最低需求{0}</AboveAllowedSkill>
+  <MissingRequiredSkillLevel>缺乏所需技能等級</MissingRequiredSkillLevel>
   <AnimalInteractedTooRecently>最近已和動物互動過了</AnimalInteractedTooRecently>
   <NoUsableFood>無可使用的食物</NoUsableFood>
   <NoFood>無食物</NoFood>
-  <AnimalsSkillTooLow>動物相關技能過低</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>動物相關技能過低 - 需要{0}</AnimalsSkillTooLow>
+  <CantInteractAnimalDowned>animal downed</CantInteractAnimalDowned>
+  <CantInteractAnimalAsleep>animal sleeping</CantInteractAnimalAsleep>
+  <CantInteractAnimalBusy>animal busy</CantInteractAnimalBusy>
   <ConstructionSkillTooLow>建造技能不足</ConstructionSkillTooLow>
   <NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
   <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
@@ -50,8 +56,10 @@
   <ReservedForPrisoners>預留給俘虜</ReservedForPrisoners>
   <CannotReach>無法接觸</CannotReach>
   <NotSurgeryReady>手術準備尚未完成</NotSurgeryReady>
+  <SkillDisabled>無能力</SkillDisabled>
   <CantSowCavePlantBecauseOfLight>亮度過高</CantSowCavePlantBecauseOfLight>
   <CantSowCavePlantBecauseUnroofed>露天</CantSowCavePlantBecauseUnroofed>
+  <IncapableOfDeconstruction>無法拆除</IncapableOfDeconstruction>
   
   <ConsumeThing>食用{0}</ConsumeThing>
   
@@ -88,6 +96,7 @@
   <Equip>裝備{0}</Equip>
   <EquipWarningBrawler>(格鬥愛好者將會不悅)</EquipWarningBrawler>
   <CannotEquip>無法裝備{0}</CannotEquip>
+  <CannotManThing>Cannot man {0}</CannotManThing>
 
   <ForceWear>穿上{0}</ForceWear>
   <CannotWear>無法穿上{0}</CannotWear>
@@ -97,7 +106,7 @@
   <CannotPickUpAll>無法撿起所有{0}</CannotPickUpAll>
   <PickUp>撿起{0}</PickUp>
   <PickUpAll>撿起所有{0}</PickUpAll>
-  <PickUpSome>撿起{0}...</PickUpSome>
+  <PickUpSome>撿起{0}...。</PickUpSome>
   <PickUpCount>撿起{0}x{{0}}</PickUpCount>
   
   <CannotGiveToPackAnimal>無法將{0}裝載上馱獸</CannotGiveToPackAnimal>
@@ -106,9 +115,18 @@
   <GiveToPackAnimalAll>將所有{0}裝載上馱獸</GiveToPackAnimalAll>
   <GiveToPackAnimalSome>將{0}...裝載上馱獸</GiveToPackAnimalSome>
   <GiveToPackAnimalCount>將{0}x{{0}}裝載上馱獸</GiveToPackAnimalCount>
+
+  <CannotLoadIntoCaravan>無法將{0}裝載至旅隊</CannotLoadIntoCaravan>
+  <CannotLoadIntoCaravanAll>無法將所有{0}裝載至旅隊</CannotLoadIntoCaravanAll>
+  <LoadIntoCaravan>裝載{0}至旅隊</LoadIntoCaravan>
+  <LoadIntoCaravanAll>裝載所有{0}至旅隊</LoadIntoCaravanAll>
+  <LoadIntoCaravanSome>裝載{0}至旅隊...。</LoadIntoCaravanSome>
+  <LoadIntoCaravanCount>裝載{0}x{{0}}</LoadIntoCaravanCount>
+  <OverweightLower>負載過重</OverweightLower>
   
   <CannotCarryToExit>無法帶上{0}離開區域。</CannotCarryToExit>
   <CarryToExit>帶上{0}並離開區域。</CarryToExit>
+  <CarryToExitAndCapture>俘虜{0}並離開此區域</CarryToExitAndCapture>
   
   <Strip>脱下{0}的衣物</Strip>
   <CannotStrip>無法脱下{0}</CannotStrip>
@@ -127,10 +145,11 @@
   <EnterMap>進入{0}</EnterMap>
   <VisitSettlement>拜訪{0}</VisitSettlement>
   <VisitPeaceTalks>拜訪{0}</VisitPeaceTalks>
-  <VisitSite>探索{0}</VisitSite>
-  <VisitEscapeShip>進入{0}</VisitEscapeShip>
-  <AttackSite>進攻{0}</AttackSite>
+  <VisitEscapeShip>拜訪{0}</VisitEscapeShip>
   <AttackSettlement>攻擊{0}</AttackSettlement>
+  <ApproachSite>接近{0}</ApproachSite>
+  <ApproachingSite>接近{0}</ApproachingSite>
+  <OfferGifts>發送禮物</OfferGifts>
   
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>進入低溫休眠艙</EnterCryptosleepCasket>
@@ -138,33 +157,57 @@
   
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>無法{0}{1}</CannotGenericWork>
+  <CannotGenericWorkCustom>無法{0}</CannotGenericWorkCustom>
+
+  <CannotMissingHealthActivities>無法優先(原因{0})</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>無法優先進行當前任務(不具有{0}能力)</CannotMissingHealthActivities>
-  
   <CannotGenericAlreadyAm>已經在{0}{1}中</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeWorkTypeDisabled>無法優先進行當前任務(永遠不會進行{0})</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>無法優先進行當前任務(無法執行{0})</CannotPrioritizeWorkTypeDisabled>
   
   <CannotPrioritizeWorkGiverDisabled>無法優先進行當前任務(無法{0})</CannotPrioritizeWorkGiverDisabled>
+  <WillNever>無法{0}</WillNever>
   
   <CannotPrioritizeNotAssignedToWorkType>無法優先進行當前任務(並未指派為{0})</CannotPrioritizeNotAssignedToWorkType>
+  <NotAssigned>not assigned</NotAssigned>
 
   <CannotPrioritizeResearch>無法優先進行當前任務(研究是一項長時間的工作)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>無法優先進行當前任務({0}是禁止互動的)</CannotPrioritizeForbidden>
-  <CannotPrioritizeForbiddenOutsideAllowedArea>無法優先進行當前任務({0}在允許的活動範圍外)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeCellForbidden>Cannot prioritize (forbidden)</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>位於允許的活動範圍外</CannotPrioritizeForbiddenOutsideAllowedArea>
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>優先{0}於{1}</PrioritizeGeneric>
 
   <DropAtEdge>放置在邊緣</DropAtEdge>
   <DropInCenter>放置在中央</DropInCenter>
+  <AttackAndDropAtEdge>攻擊{0}：空投於邊界</AttackAndDropAtEdge>
+  <AttackAndDropInCenter>攻擊{0}：空投於中心地帶</AttackAndDropInCenter>
 
   <VomitingLower>嘔吐中</VomitingLower>
   <NotInterruptibleLower>行動無法中斷</NotInterruptibleLower>
 
   <AddWaypoint>在此新增中途點</AddWaypoint>
   <RemoveWaypoint>移除中途點</RemoveWaypoint>
+
+  <RemoveAllDesignations>取消所有規劃</RemoveAllDesignations>
+  <DesignateAll>全部規劃</DesignateAll>
+  <CountToDesignate>{0}受到影響</CountToDesignate>
+  <ForbidAllItems>禁用所有物件</ForbidAllItems>
+  <UnforbidAllItems>解除進用所有物件</UnforbidAllItems>
+  <RearmAllTraps>重置所有陷阱</RearmAllTraps>
+
+  <!-- Transport pods -->
+  <LandInExistingMap>放大並在{0}選擇著陸點</LandInExistingMap>
+  <TransportPodsContentsWillBeLost>將會失去內容物</TransportPodsContentsWillBeLost>
+  <FormCaravanHere>在此組織旅隊</FormCaravanHere>
+  <GiveToCaravan>交給{0}</GiveToCaravan>
+  <GiveGiftViaTransportPods>作為禮物贈予{0} ({1})</GiveGiftViaTransportPods>
+
+  <!-- Rescue quest -->
+  <FreePrisoner>釋放俘虜</FreePrisoner>
+  <OfferHelp>提供幫助</OfferHelp>
   
 </LanguageData>

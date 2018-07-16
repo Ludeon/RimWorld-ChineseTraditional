@@ -1,21 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
      
   <AllowCorpsesColonist.label>接受居民屍體</AllowCorpsesColonist.label>
   <AllowCorpsesColonist.description>接受死亡的居民的屍體。</AllowCorpsesColonist.description>
+  
   <AllowCorpsesStranger.label>接受非居民屍體</AllowCorpsesStranger.label>
   <AllowCorpsesStranger.description>接受陌生人和敵人的屍體。</AllowCorpsesStranger.description>
+  
   <AllowRotten.label>接受腐敗</AllowRotten.label>
   <AllowRotten.description>接受已腐爛的物件。</AllowRotten.description>
+
+  <AllowFresh.label>接受新鮮</AllowFresh.label>
+  <AllowFresh.description>接受未腐敗的有機物。</AllowFresh.description>
+  
   <AllowPlantFood.label>接受作物</AllowPlantFood.label>
   <AllowPlantFood.description>接受作物，如乾草。</AllowPlantFood.description>
-  
-  <!-- Always hidden -->
+
   <AllowSmeltable.label>接受可被提煉的武器</AllowSmeltable.label>
-  <AllowSmeltable.description>接受可被提煉的武器。</AllowSmeltable.description>
   <AllowNonSmeltableWeapons.label>接受不可被提煉的武器</AllowNonSmeltableWeapons.label>
-  <AllowNonSmeltableWeapons.description>接受不可被提煉的武器。</AllowNonSmeltableWeapons.description>
-  <AllowNonDeadmansApparel.label>接受非死者的衣物裝備</AllowNonDeadmansApparel.label>
-  <AllowNonDeadmansApparel.description>接受非死者的衣物及裝備。</AllowNonDeadmansApparel.description>
+
+  <AllowNonDeadmansApparel.label>接受非死者的衣物</AllowNonDeadmansApparel.label>
+  <AllowNonDeadmansApparel.description>接受非死者的衣物。多數人不喜歡死者的衣物，商人也不會收購。</AllowNonDeadmansApparel.description>
+
+  <AllowDeadmansApparel.label>接受死者的衣物</AllowDeadmansApparel.label>
+  <AllowDeadmansApparel.description>接受死者的衣物。多數人不喜歡死者的衣物，商人也不會收購。</AllowDeadmansApparel.description>
 
 </LanguageData>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <MaxHitPoints.label>最大耐久</MaxHitPoints.label>
@@ -16,25 +16,31 @@
   <SellPriceFactor.description>出售此物件時的售價倍率。</SellPriceFactor.description>
 
   <Flammability.label>易燃程度</Flammability.label>
-  <Flammability.description>此物件的易燃程度與燃燒時的火焰強度。</Flammability.description>
+  <Flammability.description>此物件的易燃程度與燃燒時火焰壯大的速度。</Flammability.description>
   
   <WorkToMake.label>製造工作量</WorkToMake.label>
-  <WorkToMake.description>當所有的工具與素材齊全之後，製造這個物件所需的基本製造工作量。</WorkToMake.description>
+  <WorkToMake.description>當所有工具與素材備齊之後，製造這個物件所需的基本製造工作量。</WorkToMake.description>
 
   <WorkToBuild.label>建造工作量</WorkToBuild.label>
-  <WorkToBuild.description>當所有的工具與素材齊全之後，建造這個物件所需的基本建造工作量。</WorkToBuild.description>
+  <WorkToBuild.description>當所有素材備齊之後，建造這個物件所需的基本建造工作量。</WorkToBuild.description>
   
   <DeteriorationRate.label>衰敗速率</DeteriorationRate.label>
   <DeteriorationRate.description>此物件暴露在室外時的衰敗速度，一般狀況下每天衰敗的耐久值，某些情況下會衰敗的更快，如雨天。</DeteriorationRate.description>
-  <DeteriorationRate.formatString>{0} / 日</DeteriorationRate.formatString>
+  <DeteriorationRate.formatString>{0}/日</DeteriorationRate.formatString>
   
   <Beauty.label>美觀程度</Beauty.label>
-  <Beauty.description>這個物件能給周圍環境帶來的的美觀程度。</Beauty.description>
+  <Beauty.description>這個物件能給觀賞者帶來的的美觀程度。美麗的物件能提昇人物的美觀度需求。</Beauty.description>
   
   <Cleanliness.label>乾淨度</Cleanliness.label>
-  <Cleanliness.description>一個物件的乾淨程度。</Cleanliness.description>
+  <Cleanliness.description>一個物件的對於周圍環境的乾淨度影響。</Cleanliness.description>
   
-  <Comfort.label>舒適程度</Comfort.label>
-  <Comfort.description>坐或躺在這個物件上的舒適程度。</Comfort.description>
+  <Comfort.label>舒適度</Comfort.label>
+  <Comfort.description>坐或躺在這個物件上的舒適度。用舒適的家具滿足人物的舒適度需求。</Comfort.description>
+
+  <Nutrition.label>營養值</Nutrition.label>
+  <Nutrition.description>這個食物所能提供的營養值。</Nutrition.description>
+
+  <FoodPoisonChanceFixedHuman.label>食物致毒率</FoodPoisonChanceFixedHuman.label>
+  <FoodPoisonChanceFixedHuman.description>這個食物導致食物中毒的機率。</FoodPoisonChanceFixedHuman.description>
   
 </LanguageData>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <!-- ITab titles -->
@@ -19,7 +19,8 @@
   <TabRecords>紀錄</TabRecords>
   <TabArt>藝術</TabArt>
   <TabSocial>社交</TabSocial>
-  <TabCombat>戰鬥</TabCombat>
+  <TabLog>紀錄</TabLog>
+  <TabFormingCaravan>旅隊</TabFormingCaravan>
   
   
   <!-- Bills tab  -->
@@ -29,6 +30,14 @@
   <SuspendedCaps>已暫停</SuspendedCaps>
   <BoundWorkerIs>執行者：{0}</BoundWorkerIs>
   <PlantVerb>種植</PlantVerb>
+  <ClipboardBillNotAvailableHere>無法套用目前複製的清單。</ClipboardBillNotAvailableHere>
+  <ReorderBillUpTip>上移</ReorderBillUpTip>
+  <ReorderBillDownTip>下移</ReorderBillDownTip>
+  <DeleteBillTip>刪除</DeleteBillTip>
+  <CopyBillTip>複製到剪貼板</CopyBillTip>
+  <SuspendBillTip>中止</SuspendBillTip>
+  <PasteBillTip>貼上</PasteBillTip>
+  <PasteBillTip_LimitReached>無法繼續添加</PasteBillTip_LimitReached>
   
   
   <!-- Guest/prisoner tab -->
@@ -112,14 +121,37 @@
   <SomeonesOpinionOfMe>{0}對我的看法</SomeonesOpinionOfMe>
   <IAmDead>我死了</IAmDead>
   <IAmPsychopath>我是個精神病患</IAmPsychopath>
-  
+
   <!-- Gear tab -->
-  <AverageArmor>均衡型護甲</AverageArmor>
+  <OverallArmor>全方位護甲</OverallArmor>
   <MassCarried>負重：{0} / {1}公斤</MassCarried>
   <ComfyTemperatureRange>適應溫度範圍</ComfyTemperatureRange>
   <ArmorBlunt>打擊護甲</ArmorBlunt>
   <ArmorSharp>砍擊護甲</ArmorSharp>
   <ArmorHeat>耐熱護甲</ArmorHeat>
-  <ArmorElectric>電磁護甲</ArmorElectric>
+
+  <!-- Log tab -->
+  <ShowAll>全部顯示</ShowAll>
+  <ShowCombat>顯示戰鬥紀錄</ShowCombat>
+  <ShowSocial>顯示社交紀錄</ShowSocial>
+  <NoRecentEntries>沒有近期的紀錄</NoRecentEntries>
+  <CopyLogTip>複製紀錄至剪貼版。</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <FormingCaravanStatus_GatheringAnimals>正在集中動物</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>正在集中動物(等待中)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>正在蒐集物品</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>正在蒐集物品(等待中)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>正在集中奴隸</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>正在集中奴隸(等待中)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_Leaving>正在離開</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>正在離開(等待中)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>等待中</FormingCaravanStatus_Waiting>
+  <CaravanMembers>成員</CaravanMembers>
+  <CaravanAnimals>動物</CaravanAnimals>
+  <ItemsToLoad>要裝載的物品</ItemsToLoad>
+  <LoadedItems>裝載的物品</LoadedItems>
+  <PackAnimalsCountLower>動物群</PackAnimalsCountLower>
+  <InMentalStateCountLower>精神崩潰</InMentalStateCountLower>
   
 </LanguageData>

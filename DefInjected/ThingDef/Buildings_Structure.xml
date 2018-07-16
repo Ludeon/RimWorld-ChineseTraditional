@@ -1,17 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <!-- Doors -->
   
   <Door.label>門</Door.label>
-  <Door.description>將房間分隔開來。只能手動開關，人們通過時會减慢速度。</Door.description>
+  <Door.description>只能手動開關的門，開門的速度是根據門的材質而定。</Door.description>
+  <Door_Blueprint.label>門(藍圖)</Door_Blueprint.label>
+  <Door_Frame.label>門(建造中)</Door_Frame.label>
+  <Door_Frame.description>只能手動開關的門，開門的速度是根據門的材質而定。</Door_Frame.description>
   
   <Autodoor.label>自動門</Autodoor.label>
   <Autodoor.description>將房間分隔開來。有通電時會在人們通過時自動開啟，讓人無須減速即可通過。</Autodoor.description>
+  <Autodoor_Blueprint.label>自動門(藍圖)</Autodoor_Blueprint.label>
+  <Autodoor_Frame.label>自動門(建造中)</Autodoor_Frame.label>
+  <Autodoor_Frame.description>將房間分隔開來。有通電時會在人們通過時自動開啟，讓人無須減速即可通過。</Autodoor_Frame.description>
+  
   
   <!-- Walls -->
   
   <Wall.label>牆</Wall.label>
   <Wall.description>一面無法穿越的牆，可以用來支撐屋頂。</Wall.description>
+  <Wall_Blueprint.label>牆(藍圖)</Wall_Blueprint.label>
+  <Wall_Frame.label>牆(建造中)</Wall_Frame.label>
+  <Wall_Frame.description>一面無法穿越的牆，可以用來支撐屋頂。</Wall_Frame.description>
   
 </LanguageData>

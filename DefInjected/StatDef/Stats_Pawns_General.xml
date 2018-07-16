@@ -1,33 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <MoveSpeed.label>移動速度</MoveSpeed.label>
-  <MoveSpeed.description>角色移動時每秒鐘能夠穿越的地圖格數。</MoveSpeed.description>
+  <MoveSpeed.description>人物移動時每秒鐘能夠穿越的地圖格數。</MoveSpeed.description>
   <MoveSpeed.formatString>{0}格/秒</MoveSpeed.formatString>
   
   <MentalBreakThreshold.label>崩潰臨界值</MentalBreakThreshold.label>
-  <MentalBreakThreshold.description>當角色的心情值達到這個臨界值，他們就有精神崩潰的危險。</MentalBreakThreshold.description>
+  <MentalBreakThreshold.description>當人物的心情值達到這個臨界值，他們就有精神崩潰的危險。精神崩潰的嚴重程度依據的是與崩潰臨界值的差距。</MentalBreakThreshold.description>
   
   <PsychicSensitivity.label>心靈敏感度</PsychicSensitivity.label>
-  <PsychicSensitivity.description>干擾電波對該角色影響程度倍率。</PsychicSensitivity.description>
+  <PsychicSensitivity.description>干擾電波對該人物影響程度倍率。感性的人受到消極心理影響的負面影響更大，但受到正向心理影響的受益也更大。</PsychicSensitivity.description>
 
   <ToxicSensitivity.label>毒素敏感度</ToxicSensitivity.label>
-  <ToxicSensitivity.description>這名角色遭受毒素影響的速度倍率。</ToxicSensitivity.description>
+  <ToxicSensitivity.description>這個生物遭受毒素影響的速度倍率。</ToxicSensitivity.description>
   
   <GlobalLearningFactor.label>學習效率</GlobalLearningFactor.label>
-  <GlobalLearningFactor.description>角色對於學習所有技能的效率倍率。</GlobalLearningFactor.description>
+  <GlobalLearningFactor.description>人物對於學習所有技能的效率倍率。</GlobalLearningFactor.description>
+
+  <HungerRateMultiplier.label>飢餓率倍率</HungerRateMultiplier.label>
+  <HungerRateMultiplier.description>人物的飢餓速度倍率。</HungerRateMultiplier.description>
+
+  <RestRateMultiplier.label>休息效率倍率</RestRateMultiplier.label>
+  <RestRateMultiplier.description>人物休息時獲得休息度的速度倍率。</RestRateMultiplier.description>
   
-  <EatingSpeed.label>進食速度</EatingSpeed.label>
-  <EatingSpeed.description>角色的進食速度。</EatingSpeed.description>
+  <EatingSpeed.label>進食速度倍率</EatingSpeed.label>
+  <EatingSpeed.description>進食速度倍率。</EatingSpeed.description>
   
   <ComfyTemperatureMin.label>可忍受的最低溫度</ComfyTemperatureMin.label>
-  <ComfyTemperatureMin.description>當溫度低於此標準，角色的心情值將會降低。若氣溫遠低於此標準，會導致角色體溫過低、凍傷，甚至死亡。</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>當溫度低於此標準，人物的心情值將會降低。若氣溫遠低於此標準，會導致人物體溫過低、凍傷，甚至死亡。</ComfyTemperatureMin.description>
   
   <ComfyTemperatureMax.label>可忍受的最高溫度</ComfyTemperatureMax.label>
-  <ComfyTemperatureMax.description>當溫度高於此標準，角色的心情值將會降低。若氣溫遠高於此標準，會導致角色中暑甚至死亡。</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>當溫度高於此標準，人物的心情值將會降低。若氣溫遠高於此標準，會導致人物中暑甚至死亡。</ComfyTemperatureMax.description>
   
   <ImmunityGainSpeed.label>免疫力形成速度</ImmunityGainSpeed.label>
-  <ImmunityGainSpeed.description>此角色在面對疾病與感染時形成免疫力的速度，如果免疫力形成的速度過慢，這名角色就會在免疫力形成之前病重而死。</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>此人物在面對疾病與感染時形成免疫力的速度，如果免疫力形成的速度過慢，這名人物就會在免疫力形成之前病重而死。</ImmunityGainSpeed.description>
   
   <CarryingCapacity.label>搬運攜帶量</CarryingCapacity.label>
   <CarryingCapacity.description>這個單位能夠用手、用嘴或其它裝置能搬運的最大物品數量。</CarryingCapacity.description>
@@ -43,5 +49,8 @@
 
   <PainShockThreshold.label>疼痛忍受值</PainShockThreshold.label>
   <PainShockThreshold.description>此生物在因疼痛而倒地前所能忍受的疼痛值。</PainShockThreshold.description>
+
+  <ForagedNutritionPerDay.label>食物採集量</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.description>這個人物作為旅隊成員每天能夠自動採集的營養值。</ForagedNutritionPerDay.description>
   
 </LanguageData>

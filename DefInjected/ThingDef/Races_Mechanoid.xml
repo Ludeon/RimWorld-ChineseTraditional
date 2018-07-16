@@ -1,23 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
- 
-  <Mechanoid_Centipede.label>蜈蚣機甲</Mechanoid_Centipede.label>
-  <Mechanoid_Centipede.description>以數十條腿爬行的重型作戰機器人。它們的重型裝甲讓它們非常適合對付集團的防御設施。但它們對於游擊戰術來說較為脆弱。</Mechanoid_Centipede.description>
-  <Mechanoid_Centipede.tools.0.label>頭</Mechanoid_Centipede.tools.0.label>
+
+  <!-- Centipede -->
+
+  <Mech_Centipede.label>機械百足蟲</Mech_Centipede.label>
+  <Mech_Centipede.description>以數十條腿爬行的重型作戰機器人。它們的重型裝甲讓它們非常適合對付集團的防御設施。但它們對於游擊戰術來說較為脆弱。</Mech_Centipede.description>
+  <Mech_Centipede.tools.0.label>頭</Mech_Centipede.tools.0.label>
   <!-- Flesh Type: Mechanoid -->
-  <Mechanoid_Centipede_Corpse.label>損壞的蜈蚣機甲</Mechanoid_Centipede_Corpse.label>
-  <Mechanoid_Centipede_Corpse.description>損壞的蜈蚣機甲。</Mechanoid_Centipede_Corpse.description>
+  <Mech_Centipede_Corpse.label>損壞的機械百足蟲</Mech_Centipede_Corpse.label>
+  <Mech_Centipede_Corpse.description>損壞的機械百足蟲。</Mech_Centipede_Corpse.description>
+
+
+  <!-- Lancer - fast sniper -->
+
+  <Mech_Lancer.label>槍騎兵</Mech_Lancer.label>
+  <Mech_Lancer.description>一種成人大小的戰鬥機器人，在面部有著碩大的光學感測器，輔以瞄準遠程武器。雖擅長長距離作戰，近戰則是弱項。經歷過機械大戰的老兵都清楚，對抗槍騎兵最好的辦法就是衝鋒攻擊。</Mech_Lancer.description>
+  <Mech_Lancer.tools.0.label>左手</Mech_Lancer.tools.0.label>
+  <Mech_Lancer.tools.1.label>右手</Mech_Lancer.tools.1.label>
+  <Mech_Lancer.tools.2.label>頭部</Mech_Lancer.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Mech_Lancer_Corpse.label>損壞的槍騎兵</Mech_Lancer_Corpse.label>
+  <Mech_Lancer_Corpse.description>損壞的槍騎兵</Mech_Lancer_Corpse.description>
 
 
   <!-- Scyther -->
   
-  <Mechanoid_Scyther.label>鐮刀機甲</Mechanoid_Scyther.label>
-  <Mechanoid_Scyther.description>快速、細長並和人差不多大的機器人。它們一般帶有一長距離主武器，他們身體上的尖銳突出物讓他們在近距離戰鬥中非常強大。它們不使用掩體，對付他們最好的戰術是集中火力快速消滅。</Mechanoid_Scyther.description>
-  <Mechanoid_Scyther.tools.0.label>左機械刃</Mechanoid_Scyther.tools.0.label>
-  <Mechanoid_Scyther.tools.1.label>右機械刃</Mechanoid_Scyther.tools.1.label>
-  <Mechanoid_Scyther.tools.2.label>頭</Mechanoid_Scyther.tools.2.label>
+  <Mech_Scyther.label>鐮刀機甲</Mech_Scyther.label>
+  <Mech_Scyther.description>快速、纖細並且體型與人相近的機器人。擅長快速突擊的白刃戰。它們的身體被關節和刀片覆蓋，但大多使用手臂上的兩個刀刃斬下受害者的四肢而不取其性命。</Mech_Scyther.description>
+  <Mech_Scyther.tools.0.label>左機械刃</Mech_Scyther.tools.0.label>
+  <Mech_Scyther.tools.1.label>右機械刃</Mech_Scyther.tools.1.label>
+  <Mech_Scyther.tools.2.label>頭</Mech_Scyther.tools.2.label>
   <!-- Flesh Type: Mechanoid -->
-  <Mechanoid_Scyther_Corpse.label>損壞的鐮刀機甲</Mechanoid_Scyther_Corpse.label>
-  <Mechanoid_Scyther_Corpse.description>損壞的鐮刀機甲。</Mechanoid_Scyther_Corpse.description>
+  <Mech_Scyther_Corpse.label>損壞的鐮刀機甲</Mech_Scyther_Corpse.label>
+  <Mech_Scyther_Corpse.description>損壞的鐮刀機甲。</Mech_Scyther_Corpse.description>
   
 </LanguageData>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <DesignatorCancel>取消</DesignatorCancel>
@@ -29,14 +29,20 @@
   <DesignatorMine>開採</DesignatorMine>
   <DesignatorMineDesc>標記要開採的岩石。</DesignatorMineDesc>
 
-  <DesignatorSmoothFloor>打磨地面</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>標記需要打磨的岩石地面。</DesignatorSmoothFloorDesc>
+  <DesignatorSmoothSurface>拋光地面</DesignatorSmoothSurface>
+  <DesignatorSmoothSurface>標記需要拋光的岩石地面。</DesignatorSmoothSurface>
   
   <DesignatorPlan>計劃</DesignatorPlan>
   <DesignatorPlanDesc>設置計劃中的指令。除了協助你規劃擴張之外沒有別的功能。</DesignatorPlanDesc>
   
   <DesignatorPlanRemove>移除計劃</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>移除計劃中的指令。</DesignatorPlanRemoveDesc>
+
+  <DesignatorForbid>禁用</DesignatorForbid>
+  <DesignatorForbidDesc>將物品標記為禁用。居民將不會接觸被標記的物品。</DesignatorForbidDesc>
+
+  <DesignatorUnforbid>解除禁用</DesignatorUnforbid>
+  <DesignatorUnforbidDesc>將物品解除禁用。居民將可以接觸被標記的物品。</DesignatorUnforbidDesc>
   
   <DesignatorAreaHomeExpand>劃設生活區</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>居民只會修理、清潔生活區內的物件以及撲滅生活區中的火。</DesignatorAreaHomeExpandDesc>
@@ -61,7 +67,7 @@
   <DesignatorExpandAreaAllowedDesc>規劃活動區域。\n\n你可以為居民個別指定活動區，居民不會進行任何在自己的活動區以外的工作或活動。</DesignatorExpandAreaAllowedDesc>
   <DesignatorClearAreaAllowed>移除活動區</DesignatorClearAreaAllowed>
   <DesignatorClearAreaAllowedDesc>移除活動區。\n\n你可以為居民指定個別的活動區，居民不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
-  <ManageAreas>管理活動區...</ManageAreas>
+  <ManageAreas>管理活動區...。</ManageAreas>
   
   <DesignatorGrowingZoneDesc>劃設一片你希望讓居民種植作物的區域。</DesignatorGrowingZoneDesc>
   
@@ -69,14 +75,20 @@
   
   <DesignatorZoneCreateStorageDumpingDesc>建立一個讓你的居民們存放垃圾的儲存區。\n此工具也可以用來擴張現有的儲存區。</DesignatorZoneCreateStorageDumpingDesc>
   
-  <DesignatorZoneDelete>移除區域</DesignatorZoneDelete>
-  <DesignatorZoneDeleteDesc>移除儲存區或是種植區等區域。</DesignatorZoneDeleteDesc>
+  <DesignatorZoneDelete>消除區域</DesignatorZoneDelete>
+  <DesignatorZoneDeleteSingular>消除區域</DesignatorZoneDeleteSingular>
+  <DesignatorZoneDeleteDesc>消除儲存區或是種植區等區域。</DesignatorZoneDeleteDesc>
+
+  <DesignatorZoneExpand>擴展區域</DesignatorZoneExpand>
   
   <DesignatorClaim>佔據</DesignatorClaim>
   <DesignatorClaimDesc>將設施或建築標記為屬於你的殖民地，可佔據的物件包含遠古遺跡與被遺棄的陣地。佔據後的物件將可以被你的居民修理及保養。</DesignatorClaimDesc>
   
   <DesignatorRemoveFloor>移除地板</DesignatorRemoveFloor>
   <DesignatorRemoveFloorDesc>移除地板，並露出原始的地面。</DesignatorRemoveFloorDesc>
+
+  <DesignatorRemoveBridge>移除橋</DesignatorRemoveBridge>
+  <DesignatorRemoveBridgeDesc>移除棧橋恢復原先的地面。</DesignatorRemoveBridgeDesc>
 
   <DesignatorStrip>掠奪</DesignatorStrip>
   <DesignatorStripDesc>掠奪屍體或失去行動能力者的衣物。</DesignatorStripDesc>
@@ -104,13 +116,14 @@
   <InteractionSpotWillBeBlocked>互動點會被擋住。</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0}會擋住{1}的互動點。</WouldBlockInteractionSpot>
   <TerrainIsAlready>這裡的地形已經是{0}了。</TerrainIsAlready>
-  <TerrainBeingSmoothed>這裡的地面已經打磨過了。</TerrainBeingSmoothed>
+  <SurfaceBeingSmoothed>這裡的地面已經拋光過了。</SurfaceBeingSmoothed>
   <IdenticalThingExists>已經在同地點存在相同的物件。</IdenticalThingExists>
   <IdenticalBlueprintExists>已經在同地點存在相同的藍圖。</IdenticalBlueprintExists>
   <TerrainCannotSupport>地形無法支撐此物件。</TerrainCannotSupport>
   <SpaceAlreadyOccupied>空間已被占用。</SpaceAlreadyOccupied>
-  <SpaceBeingSmoothed>地面已經打磨。</SpaceBeingSmoothed>
+  <SpaceBeingSmoothed>地面已經拋光。</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>必須指定可拆除的地板。</TerrainMustBeRemovable>
+  <MustBeOnMovingWater>水車必須建造於流動水域之上。</MustBeOnMovingWater>
   
   
   <!-- Mouse attachments -->
@@ -121,5 +134,7 @@
   <!-- Desc helpers -->
   <TransmitsPower>傳輸電力</TransmitsPower>
   <ConstructionNeeded>建造等級需求</ConstructionNeeded>
+  <NoColonistWithConstructionSkillTip>你沒有任何{0}具備此技能。</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>你所有具備足夠能力的{0}未被指派為{1}。</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
   
 </LanguageData>

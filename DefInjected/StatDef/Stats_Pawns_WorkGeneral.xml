@@ -1,40 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <WorkSpeedGlobal.label>工作速度</WorkSpeedGlobal.label>
-  <WorkSpeedGlobal.description>這名角色進行任何工作時的速度加成。</WorkSpeedGlobal.description>
+  <WorkSpeedGlobal.description>這個人物進行任何工作時的速度加成。</WorkSpeedGlobal.description>
   
   <MiningSpeed.label>採礦速度</MiningSpeed.label>
-  <MiningSpeed.description>這名角色進行採礦工作時的速度加成。</MiningSpeed.description>
+  <MiningSpeed.description>這個人物進行採礦工作時的速度加成。</MiningSpeed.description>
 
   <MiningYield.label>採礦產量倍率</MiningYield.label>
-  <MiningYield.description>這名角色採礦的產量加成，此參數同時作用於地表開採及地下採礦，但不影響開採岩石時產生岩塊的機率。</MiningYield.description>
+  <MiningYield.description>這個人物採礦的產量加成，此參數同時作用於地表開採及地下採礦，但不影響開採岩石時產生岩塊的機率。</MiningYield.description>
   
-  <SmoothingSpeed.label>打磨速度</SmoothingSpeed.label>
-  <SmoothingSpeed.description>這名角色進行地面打磨工作時的速度加成。</SmoothingSpeed.description>
+  <SmoothingSpeed.label>拋光速度</SmoothingSpeed.label>
+  <SmoothingSpeed.description>這個人物進行崎嶇岩石地面和崎嶇岩壁拋光工作時的速度加成。</SmoothingSpeed.description>
   
   <ResearchSpeed.label>研究速度</ResearchSpeed.label>
-  <ResearchSpeed.description>這名角色進行研究工作時的速度加成。</ResearchSpeed.description>
-  
-  <ConstructionSpeed.label>生產速度</ConstructionSpeed.label>
-  <ConstructionSpeed.description>這名角色進行生產工作時的速度加成。</ConstructionSpeed.description>
+  <ResearchSpeed.description>這個人物進行研究工作時的速度加成。</ResearchSpeed.description>
 
   <AnimalGatherSpeed.label>動物採集速度</AnimalGatherSpeed.label>
-  <AnimalGatherSpeed.description>這名角色進行諸如擠奶、剃毛等等收穫畜產的速度加成。</AnimalGatherSpeed.description>
+  <AnimalGatherSpeed.description>這個人物進行諸如擠奶、剃毛等等收穫畜產的速度加成。</AnimalGatherSpeed.description>
 
   <AnimalGatherYield.label>動物採集倍率</AnimalGatherYield.label>
-  <AnimalGatherYield.description>這名角色進行諸如擠奶、剃毛等等從活的動物身上收穫資源時的產量加成。越高的倍率越能避免產品的浪費。</AnimalGatherYield.description>
+  <AnimalGatherYield.description>這個人物進行諸如擠奶、剃毛等等從活的動物身上收穫資源時的產量加成。越高的倍率越能避免產品的浪費。</AnimalGatherYield.description>
   
   <PlantWorkSpeed.label>種植速度</PlantWorkSpeed.label>
-  <PlantWorkSpeed.description>這名角色進行種植工作時的速度加成。</PlantWorkSpeed.description>
+  <PlantWorkSpeed.description>這個人物進行種植工作時的速度加成。</PlantWorkSpeed.description>
   
   <PlantHarvestYield.label>作物收穫倍率</PlantHarvestYield.label>
-  <PlantHarvestYield.description>這名角色收穫作物時的產量加成。效率越低的角色越有可能會收穫失敗而破壞作物。</PlantHarvestYield.description>
+  <PlantHarvestYield.description>這個人物收穫作物時的產量加成。效率越低的角色越有可能會收穫失敗而破壞作物。</PlantHarvestYield.description>
+  
+  <ConstructionSpeed.label>生產速度</ConstructionSpeed.label>
+  <ConstructionSpeed.description>這個人物進行生產工作時的速度加成。</ConstructionSpeed.description>
 
   <ConstructSuccessChance.label>建設成功率</ConstructSuccessChance.label>
-  <ConstructSuccessChance.description>這名角色進行建造工作時的成功機率。建造失敗會浪費時間和一部分的材料。</ConstructSuccessChance.description>
+  <ConstructSuccessChance.description>這個人物進行建造工作時的成功機率。建造失敗會浪費時間和一部分的材料。</ConstructSuccessChance.description>
   
   <FixBrokenDownBuildingSuccessChance.label>修理成功率</FixBrokenDownBuildingSuccessChance.label>
-  <FixBrokenDownBuildingSuccessChance.description>這名角色使用電子零件進行修理工作時的成功機率。建造失敗會浪費時間和一部分的材料。註記：此參數只作用在修理故障設備上，並不適用於修理受到傷害的設備。</FixBrokenDownBuildingSuccessChance.description>
+  <FixBrokenDownBuildingSuccessChance.description>這個人物使用電子零件進行修理工作時的成功機率。建造失敗會浪費時間和一部分的材料。註記：此參數只作用在修理故障設備上，並不適用於修理受到傷害的設備。</FixBrokenDownBuildingSuccessChance.description>
   
 </LanguageData>

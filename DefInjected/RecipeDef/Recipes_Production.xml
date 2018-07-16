@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeStoneBlocksAny.label>石材加工</MakeStoneBlocksAny.label>
-  <MakeStoneBlocksAny.description>將石頭加工成有用的石材。</MakeStoneBlocksAny.description>
-  <MakeStoneBlocksAny.jobString>進行石材加工。</MakeStoneBlocksAny.jobString>
+  <Make_StoneBlocksAny.label>石材加工</Make_StoneBlocksAny.label>
+  <Make_StoneBlocksAny.description>將石頭加工成有用的石材。</Make_StoneBlocksAny.description>
+  <Make_StoneBlocksAny.jobString>進行石材加工。</Make_StoneBlocksAny.jobString>
     
   <ExtractMetalFromSlag.label>從金屬碎片中提煉金屬</ExtractMetalFromSlag.label>
   <ExtractMetalFromSlag.description>利用高溫和電磁鐵將有用的金屬從金屬碎片中提煉出來。</ExtractMetalFromSlag.description>
@@ -17,21 +17,25 @@
   <DestroyWeapon.description>利用高溫將不需要的武器銷毀。速度比熔煉武器更快，並可以銷毀無法熔煉的武器，但無法提煉任何資源。</DestroyWeapon.description>
   <DestroyWeapon.jobString>銷毀武器。</DestroyWeapon.jobString>
 
-  <MakeChemfuelFromWood.label>以木頭製造化合燃料</MakeChemfuelFromWood.label>
-  <MakeChemfuelFromWood.description>氣化木頭原料以提煉化合燃料。</MakeChemfuelFromWood.description>
-  <MakeChemfuelFromWood.jobString>製造化合燃料</MakeChemfuelFromWood.jobString>
+  <Make_ChemfuelFromWood.label>以木頭製造化合燃料</Make_ChemfuelFromWood.label>
+  <Make_ChemfuelFromWood.description>萃取和冷凝木頭原料以提煉出化合燃料。</Make_ChemfuelFromWood.description>
+  <Make_ChemfuelFromWood.jobString>製造化合燃料</Make_ChemfuelFromWood.jobString>
 
-  <MakeChemfuelFromOrganics.label>以有機物提煉化合燃料</MakeChemfuelFromOrganics.label>
-  <MakeChemfuelFromOrganics.description>以有機物生產生質燃料再提煉出化合燃料。</MakeChemfuelFromOrganics.description>
-  <MakeChemfuelFromOrganics.jobString>製造化合燃料</MakeChemfuelFromOrganics.jobString>
+  <Make_ChemfuelFromOrganics.label>以有機物提煉化合燃料</Make_ChemfuelFromOrganics.label>
+  <Make_ChemfuelFromOrganics.description>以有機物生產生質燃料再提煉出化合燃料。</Make_ChemfuelFromOrganics.description>
+  <Make_ChemfuelFromOrganics.jobString>製造化合燃料</Make_ChemfuelFromOrganics.jobString>
 
-  <MakeComponent.label>製造電子零件</MakeComponent.label>
-  <MakeComponent.description>製造電子零件。</MakeComponent.description>
-  <MakeComponent.jobString>製造電子零件。</MakeComponent.jobString>
+  <Make_ComponentIndustrial.label>製造電子零件</Make_ComponentIndustrial.label>
+  <Make_ComponentIndustrial.description>製造電子零件。</Make_ComponentIndustrial.description>
+  <Make_ComponentIndustrial.jobString>製造電子零件。</Make_ComponentIndustrial.jobString>
 
-  <MakeAdvancedComponent.label>製造高階電子零件</MakeAdvancedComponent.label>
-  <MakeAdvancedComponent.description>製造高階電子零件。</MakeAdvancedComponent.description>
-  <MakeAdvancedComponent.jobString>製造高階電子零件。</MakeAdvancedComponent.jobString>
+  <Make_ComponentSpacer.label>製造高階電子零件</Make_ComponentSpacer.label>
+  <Make_ComponentSpacer.description>製造高階電子零件。</Make_ComponentSpacer.description>
+  <Make_ComponentSpacer.jobString>製造高階電子零件。</Make_ComponentSpacer.jobString>
+
+  <Make_Patchleather.label>製造組合皮革</Make_Patchleather.label>
+  <Make_Patchleather.description>結合幾種不同類型的皮革以製造出粗劣的組合皮革。</Make_Patchleather.description>
+  <Make_Patchleather.jobString>製造組合皮革。</Make_Patchleather.jobString>
   
  
 </LanguageData>

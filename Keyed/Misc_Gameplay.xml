@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Various -->
@@ -7,11 +7,13 @@
   <Contents>內容</Contents>
   <ContainedResources>包含資源</ContainedResources>
   <ForPrisonerUse>僅限俘虜使用</ForPrisonerUse>
+  <InPrisonCell>In prison cell: For prisoner use</InPrisonCell>
   <ForColonistUse>僅限居民使用</ForColonistUse>
   <MedicalBed>醫療</MedicalBed>
   <Owner>擁有者</Owner>
   <Owners>擁有者</Owners>
   <AssignedColonist>登錄的居民</AssignedColonist>
+  <DiedOn>死於{0}</DiedOn>
   <Nobody>無</Nobody>
   <Unowned>無擁有者</Unowned>
   <DeadTime>死亡的{0}</DeadTime>
@@ -25,7 +27,10 @@
   <FreshMissingBodyPart>新鮮</FreshMissingBodyPart>
   <DevelopedImmunityLower>已形成免疫力</DevelopedImmunityLower>
   <NeedsTendingNow>需要立即治療</NeedsTendingNow>
-  <NextTreatmentIn>下一次治療將在{0}後</NextTreatmentIn>
+  <CanTendNow>Can tend now</CanTendNow>
+  <TreatmentExpiresIn>Tending expires in {0}</TreatmentExpiresIn>
+  <NextTendIn>Can be tended in {0}</NextTendIn>
+  <TendQuality>Tend quality</TendQuality>
   <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
   <Immunity>免疫力形成度</Immunity>
   <Race>物種</Race>
@@ -36,12 +41,13 @@
   <ThingInfo>訊息</ThingInfo>
   <DropThing>卸下</DropThing>
   <Rename>重新命名</Rename>
+  <RenameAnimal>重新命名動物</RenameAnimal>
   <RenameColonist>重新命名居民</RenameColonist>
   <UnknownLower>未知</UnknownLower>
   <On>開啟</On>
   <Off>關閉</Off>
   <PowerSwitch_Power>電力</PowerSwitch_Power>
-  <JoyTolerances>娛樂值</JoyTolerances>
+  <JoyTolerances>娛樂類型</JoyTolerances>
   <MilkFullness>產奶進度</MilkFullness>
   <WoolGrowth>產毛進度</WoolGrowth>
   <EggProgress>孵化進度</EggProgress>
@@ -69,19 +75,25 @@
   <Permanent>永久效果</Permanent>
   <CaravanResting>休息。</CaravanResting>
   <CaravanEstimatedTimeToDestination>預計抵達時間：{0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedDaysToDestination>Estimated days to arrive: {0}</CaravanEstimatedDaysToDestination>
   <CaravanImmobilizedByMass>動彈不得：負重過量。</CaravanImmobilizedByMass>
   <CaravanOutOfFood>糧食耗盡。</CaravanOutOfFood>
   <CaravanDaysOfFood>糧食儲備天數：{0}</CaravanDaysOfFood>
   <CaravanDaysOfFoodRot>糧食儲備天數：{0}，{1}天後腐敗</CaravanDaysOfFoodRot>
-  <CaravanMemberMentalBreak>暫停原因：{0}精神崩潰了。</CaravanMemberMentalBreak>
   <AllCaravanMembersDowned>暫停原因：所有成員都倒下了。</AllCaravanMembersDowned>
   <AllCaravanMembersMentalBreak>暫停原因：所有成員都崩潰了。</AllCaravanMembersMentalBreak>
+  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+  <CaravanAnimal>1頭動物</CaravanAnimal>
+  <CaravanAnimalsCount>{0}頭動物</CaravanAnimalsCount>
+  <CaravanPrisoner>1名俘虜</CaravanPrisoner>
+  <CaravanPrisonersCount>{0}名俘虜</CaravanPrisonersCount>
+  <CaravanPawnsInMentalState>{0}人處於崩潰狀態</CaravanPawnsInMentalState>
+  <CaravanPawnsDowned>{0}人無法動彈</CaravanPawnsDowned>
   <CaravanTraveling>正在旅行。</CaravanTraveling>
+  <CaravanPaused>暫停。</CaravanPaused>
   <CaravanWaiting>正在等待。</CaravanWaiting>
-  <CaravanHoursPerTile>小時/格</CaravanHoursPerTile>
-  <CaravanBaseMovementTime>基本移動時間</CaravanBaseMovementTime>
-  <CurrentTileMovementTime>當前地塊移動時間</CurrentTileMovementTime>
-  <StealthFactor>隱蔽性</StealthFactor>
+  <CurrentTileMovementTime>當前區域通行耗時</CurrentTileMovementTime>
+  <Visibility>可見性</Visibility>
   <Temperature>溫度</Temperature>
   <BadTemperature>不合適的溫度</BadTemperature>
   <IdealFermentingTemperature>理想的釀造溫度</IdealFermentingTemperature>
@@ -89,9 +101,12 @@
   <CaravanVisiting>正在拜訪{0}。</CaravanVisiting>
   <CaravanEntering>正在進入{0}。</CaravanEntering>
   <CaravanAttacking>正在攻擊{0}。</CaravanAttacking>
+  <CaravanOfferingGifts>提供禮物給{0}</CaravanOfferingGifts>
   <WasWornByCorpse>曾被死者穿過。</WasWornByCorpse>
   <WornByCorpseChar>D</WornByCorpseChar>
-  <DeterioratingDueToBeingUnroofed>正因露天放置逐漸衰敗。</DeterioratingDueToBeingUnroofed>
+  <DeterioratingUnroofed>露天</DeterioratingUnroofed>
+  <DeterioratingOutdoors>室外</DeterioratingOutdoors>
+  <DeterioratingBecauseOf>因置於不安定的環境而衰敗中：</DeterioratingBecauseOf>
   <Map>地圖</Map>
   <ForceExitAndRemoveMapCountdown>距離離開前{0}</ForceExitAndRemoveMapCountdown>
   <ForceExitAndRemoveMapCountdownTip>你的居民將會在{0}後自動重組旅隊並離開目前所在區域。</ForceExitAndRemoveMapCountdownTip>
@@ -116,22 +131,44 @@
   <QuestTargetDestroyInspectString>{0}希望能摧毀這個哨站。\n    報酬：{1}。</QuestTargetDestroyInspectString>
   <WorldObjectTimeout>剩餘時間：{0}</WorldObjectTimeout>
   <LongRangeMineralScannerEfficiency>效率：{0}</LongRangeMineralScannerEfficiency>
-  <ItemStashContents>內容：{0}。</ItemStashContents>
-  <SomeItemStashContents>部分內容：{0}。</SomeItemStashContents>
+  <ItemStashContents>內容：{0}</ItemStashContents>
+  <SomeItemStashContents>部分內容：{0}</SomeItemStashContents>
   <ClickToSortByThisColumn>點擊以根據此欄排列。</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift+左鍵：提升優先度\nShift+右鍵：降低優先度</WorkPriorityShiftClickTip>
   <WorkPriorityShiftClickEnableDisableTip>Shift+左鍵：全選\nShift+右鍵：全部取消</WorkPriorityShiftClickEnableDisableTip>
   <AllowedAreaShiftClickTip>Shift+左鍵：全部設為居住區\nShift+右鍵：全部設為無限制</AllowedAreaShiftClickTip>
   <CheckboxShiftClickTip>Shift+左鍵：全選\nShift+右鍵：全部取消</CheckboxShiftClickTip>
-  <KnownSiteThreat>威脅：{0}。</KnownSiteThreat>
-  <KnownSiteThreats>威脅{0}。</KnownSiteThreats>
-  <KnownSiteThreatsNone>威脅：無。</KnownSiteThreatsNone>
+  <KnownSiteThreat>威脅：{0}</KnownSiteThreat>
+  <KnownSiteThreats>威脅{0}</KnownSiteThreats>
+  <KnownSiteThreatsNone>威脅：無</KnownSiteThreatsNone>
   <SkillRequirements>需要技能</SkillRequirements>
   <Products>產物</Products>
-  <DeepDrillExhausted>地下礦藏枯竭。</DeepDrillExhausted>
   <Relationship>{1}的{0}</Relationship>
   <Prisoner>俘虜</Prisoner>
   <Refugee>難民</Refugee>
+  <TileMovementDifficulty>地形通行難易度</TileMovementDifficulty>
+  <Impassable>無法通行</Impassable>
+  <CaravanMovementSpeedFull>旅隊移動速度</CaravanMovementSpeedFull>
+  <DownedLower>無法動彈</DownedLower>
+  <AverageCaravanMemberMoveSpeed>人員平均移動速度</AverageCaravanMemberMoveSpeed>
+  <MultiplierForCarriedMass>負重影響倍率：{0}</MultiplierForCarriedMass>
+  <FinalCaravanPawnsMovementSpeed>旅隊成員速度</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanMovementSpeed>最終速度</FinalCaravanMovementSpeed>
+  <Winter>冬天</Winter>
+  <MovementDifficultyOffsetInWinter>冬天{0}</MovementDifficultyOffsetInWinter>
+  <RangeTo>至</RangeTo>
+  <NoDietCategoryLetter>無類型</NoDietCategoryLetter>
+  <ExpiresIn>剩餘時間</ExpiresIn>
+  <CaravanLeaderCaravanName>{0}的旅隊</CaravanLeaderCaravanName>
+  <Reason>原因</Reason>
+  <RelationsWith>和{0}的關係</RelationsWith>
+  <capturedBy>被{0}俘虜</capturedBy>
+  <yourCaravan>你的旅隊</yourCaravan>
+  <CreatureWildness>{0}野性</CreatureWildness>
+  <CreatureTrainability>{0}可訓練度</CreatureTrainability>
+  <ProximitySingleGoodwillChange>{0}和{1}</ProximitySingleGoodwillChange>
+  <EnterCooldown>你無法在{0}天內再次進入此區域。</EnterCooldown>
+  <Caravan>旅隊</Caravan>
   
   <!-- Fermentation barrel -->
   <ContainsWort>含有{0}/{1}桶麥芽。</ContainsWort>
@@ -163,14 +200,12 @@
   <NoRoof>露天</NoRoof>
   <SnowClear>除雪</SnowClear>
   <AreaDefaultLabel>活動區{0}</AreaDefaultLabel>
-  <AreaAnimalDefaultLabel>動物區{0}</AreaAnimalDefaultLabel>
   <NoAreaAllowed>無限制</NoAreaAllowed>
   <NewArea>新活動區</NewArea>
-  <NewAreaAnimal>新動物區</NewAreaAnimal>
   <InvertArea>倒置</InvertArea>
   
   <!-- Control -->
-  <CannotOrderNonControlled>無法命令無控制能力的單位。</CannotOrderNonControlled>
+  <CannotOrderNonControlled>無法命令不受控制的單位。</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0}無法進行暴力相關行為。</IsIncapableOfViolence>
   <IsIncapableOfViolenceShort>無法進行暴力相關行為</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0}未受徵召。</IsNotDrafted>
@@ -186,6 +221,8 @@
   <GunInstalled>已安裝</GunInstalled>
   <MinimumRange>最小距離</MinimumRange>
   <CanFireIn>開火時機</CanFireIn>
+  <CannotFire>無法開火</CannotFire>
+  <Roofed>被屋頂覆蓋</Roofed>
   <ShellLoaded>彈藥已裝填</ShellLoaded>
   <ShellNotLoaded>彈藥未裝填</ShellNotLoaded>
   
@@ -233,7 +270,7 @@
   <RecipeAdminister>管理{0}</RecipeAdminister>
   <RecipeAdministerJobString>正在管理{0}。</RecipeAdministerJobString>
   <TeetotalerUnhappy>無癮主義者將會不開心</TeetotalerUnhappy>
-  <ProsthophobeUnhappy>仿生排斥者將會不開心</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>天生主義者將會不開心</ProsthophobeUnhappy>
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝時間：{0}</ThoughtExpiresIn>
@@ -259,13 +296,15 @@
   <Carrying>攜帶</Carrying>
   <AffectedBy>影響：</AffectedBy>
   <Queued>等候處理中</Queued>
+  <State>屬性</State>
+  <StunLower>暈眩</StunLower>
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
   <DefInfoTip>查看關於這個物件的信息。</DefInfoTip>
   
   <!-- Hostility response -->
-  <HostilityReponseTip>選擇該角色在未受徵召的狀態下遭遇敵人時將如何應對。</HostilityReponseTip>
+  <HostilityReponseTip>選擇該角色在非徵召狀態下遭遇敵人時的反應方式。</HostilityReponseTip>
   <HostilityResponseCurrentMode>目前模式</HostilityResponseCurrentMode>
   
   <!-- like 'Blood of John' -->
@@ -278,7 +317,7 @@
   <PowerOutput>電力輸出</PowerOutput>
   <PowerBatteryStored>蓄電</PowerBatteryStored>
   <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
-	<SelfDischarging>Self-discharging</SelfDischarging>
+  <SelfDischarging>自放電</SelfDischarging>
 
   <!-- Temperature control -->
   <TargetTemperature>目標溫度</TargetTemperature>
@@ -299,6 +338,7 @@
   <!-- Shooting tooltip -->
   <ShotBy>被{0}擊中</ShotBy>
   <CannotHit>無法擊中目標。</CannotHit>
+  <ManhunterPerHit>每擊狂暴率</ManhunterPerHit>
 
   <!-- Rotting -->
   <CurrentlyFrozen>冷凍狀態(不會腐壞)</CurrentlyFrozen>
@@ -325,9 +365,9 @@
   <GrowYearRound>全年</GrowYearRound>
   <GrowSeasonHereNow>合適的生長條件。</GrowSeasonHereNow>
   <CannotGrowBadSeasonTemperature>無法生長(極端的氣候溫度)。</CannotGrowBadSeasonTemperature>
-	<Blighted>枯死</Blighted>
-	<DyingBecauseExposedToLight>因曝光而凋零中</DyingBecauseExposedToLight>
-	 
+  <Blighted>枯死</Blighted>
+  <DyingBecauseExposedToLight>因曝光而凋零中</DyingBecauseExposedToLight>
+
   <!-- Zones -->
   <Zone>區域</Zone>
   <GrowingZone>種植區</GrowingZone>
@@ -348,16 +388,18 @@
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>當沒有新訊息時隱藏教學幫手。\n\n當有新的教學時會顯示教學幫手，開啟這項功能能在沒有東西可以學習時隱藏教學幫手。</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
-  <ShowEnvironmentToggleButton>顯示美觀度。\n\n以滑鼠游標模擬角色所在的位置，顯示周圍環境的美觀度和房間屬性。</ShowEnvironmentToggleButton>
+  <ShowBeautyToggleButton>切換美觀度的可見性。\n\n以滑鼠游標模擬角色所在的位置，顯示周圍環境的美觀度。</ShowBeautyToggleButton>
+  <ShowRoomStatsToggleButton>切換房間屬性的可見性。\n\n顯示滑鼠游標所在房間的房間屬性。</ShowRoomStatsToggleButton>
   <ShowColonistBarToggleButton>顯示或隱藏居民快捷列。\n\n居民快捷列會將所有居民的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
+  <AutoRebuildButton>切換是否自動重建被破壞的建築。</AutoRebuildButton>
   <CategorizedResourceReadoutToggleButton>資源清單的顯示方式。</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>顯示馴養動物的名稱。</ShowAnimalNamesToggleButton>
   <ShowRoofOverlayToggleButton>顯示屋頂區域。</ShowRoofOverlayToggleButton>
   <LockNorthUpToggleButton>鎖定攝影機使北方永遠朝上。</LockNorthUpToggleButton>
   <UsePlanetDayNightSystemToggleButton>日夜光照系統</UsePlanetDayNightSystemToggleButton>
-	<ShowExpandingIconsToggleButton>擴大顯示圖標，而非一般的顯示距離。</ShowExpandingIconsToggleButton>
-	<ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
+  <ShowExpandingIconsToggleButton>擴大顯示圖標，而非一般的顯示距離。</ShowExpandingIconsToggleButton>
+  <ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
   <Fire>火焰</Fire>
@@ -383,6 +425,7 @@
   <MustPlaceVentWithFreeSpaces>空調扇的前後端都必須保持通暢。</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>必須安置在四周可站立的地點。</MustPlaceAdjacentStandable>
   <MustPlaceNearFuelingPort>放置位置必須與運輸艙發射平台的燃料槽相鄰。</MustPlaceNearFuelingPort>
+  <MustPlaceOnDrillable>必須放置在可採取的資源上方。</MustPlaceOnDrillable>
   
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>受到以下物件阻擋：</WindTurbine_WindPathIsBlockedBy>
@@ -390,7 +433,7 @@
 
   <!-- Cryptosleep casket -->
   <CasketContains>內容</CasketContains>
-  <CasketWarning>警告！\n\nNAME是你最後一名還能活動的居民！如果你讓HIM進入休眠，你可能無法進續進行遊戲。你確定要執行這項指令嗎？</CasketWarning>
+  <CasketWarning>警告！\n\n[PAWN_nameDef]是你最後一名還能活動的居民！如果你讓[PAWN_objective]進入休眠，你可能無法進續進行遊戲。你確定要執行這項指令嗎？</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>無法發射。</ShipReportCannotLaunch>
@@ -401,8 +444,9 @@
   <ShipReportHibernating>待機中的部件</ShipReportHibernating>
   <ShipReportNotReady>部件尚未完成準備</ShipReportNotReady>
   <HibernateWarning>夏隆．懷特史東已經準備好啟動反應爐的啟動程序。\n\n夏隆警告你，啟動程序需耗時15日，而星艦啟動間發出的能量識別訊號將會傳到極遠的距離外，這種訊號代表這艘星艦具有飛行能力，將會吸引絕望的掠奪者和寶藏獵人。當下的第一要務便是要確保擁有足夠的防禦力量。</HibernateWarning>
-  <HibernateCompleteLabel>反應爐已啟動</HibernateCompleteLabel>
-  <HibernateComplete>夏隆．懷特史東已經完成反義爐的啟動程序。反應爐已經準備好提供星艦升空所需的動力。</HibernateComplete>
+  <HibernateWarningStandalone>反應爐已經準備好開始啟動。\n\n啟動程序需耗時15日，而星艦啟動間發出的能量識別訊號將會傳到極遠的距離外，這種訊號代表這艘星艦具有飛行能力，將會吸引絕望的掠奪者和寶藏獵人。當下的第一要務便是要確保擁有足夠的防禦力量。</HibernateWarningStandalone>
+  <HibernateWarningPacifist>夏隆．懷特史東已經準備好啟動反應爐的啟動程序。他警告你，啟動程序需耗時15日。</HibernateWarningPacifist>
+  <HibernateWarningStandalonePacifist>反應爐已經準備好開始啟動。啟動程序需耗時15日。</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0}使用{1}神經技能訓練器使等級由{2}提升至{3}了。</NeurotrainerUsed>
@@ -434,7 +478,7 @@
   <Mood_Happy>快樂</Mood_Happy>
   
   <!-- Game over -->
-  <GameOverEveryoneDead>所有人不是死亡就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>
+  <GameOverEveryoneDead>所有人不是死了就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>
   <GameOverShipLaunched>你啟動了星艦！以下居民離開了:\n\n{0}\n以下居民被留下了:\n\n{1}\n現在，AI將會將這艘船導向某個安全的地方。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待某人在此打造一個新的閃耀世界。\n\n一切只有在你醒來後才會知道。</GameOverShipLaunched>
   <GameOverPlanetkillerImpact>一顆行星殺手以接近光速的高速撞擊這顆星球，引發了威力相當於數萬億顆氫彈的毀滅性爆炸，整顆星球就像被子彈貫穿的水球，在衝擊下液化，其核心物質噴發至宇宙中。\n\n一部分的{0}形成一個小行星帶，剩下的星體則成為滿佈熔岩而且強震環伺的輻射地獄。\n\n你未能生還。</GameOverPlanetkillerImpact>
   <GameOverArrivedAtJourneyDestination>你乘上了張開雙臂歡迎你的星艦，船員們看起來相當高興能夠至少多帶一個人與他們同行。\n\n以下居民逃離了：\n\n{0}\n以下居民被留下了：\n\n{1}\n現在，AI將會將這艘船導向某個安全的地方。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待某人在此打造一個新的閃耀世界。\n\n你在進入休眠艙前猶豫了一會兒，對於這些人是否可信感到有點不確定。\n\n一切只有在你醒來後才會知道。</GameOverArrivedAtJourneyDestination>
@@ -475,6 +519,7 @@
   <ActivityIconAttacking>戰鬥中</ActivityIconAttacking>
   <ActivityIconIdle>閒置中</ActivityIconIdle>
   <ActivityIconBurning>著火中</ActivityIconBurning>
+  <ActivityIconFormingCaravan>組織旅隊中</ActivityIconFormingCaravan>
   
   <!-- Maintainable -->
   <DueForMaintenance>需要維護。</DueForMaintenance>
@@ -483,6 +528,9 @@
   <!-- Deep drill -->
   <ProgressToNextLump>開採進度</ProgressToNextLump>
   <ResourceBelow>蘊含的資源</ResourceBelow>
+  <DeepDrillNoResources>下方無資源。</DeepDrillNoResources>
+  <DeepDrillExhausted>礦藏已枯竭，礦機已自動停用，重新啟用以開始開採{0}。</DeepDrillExhausted>
+  <DeepDrillExhaustedNoFallback>礦藏已枯竭。</DeepDrillExhaustedNoFallback>
   
   <!-- Learning helper -->
   <LearningHelper>教學幫手</LearningHelper>
@@ -493,7 +541,7 @@
   <!-- Compass -->
   <CompassTip>指出正北方向，點擊以旋轉鏡頭使北極向上。</CompassTip>
 
-  <!-- Distance measure -->
+  <!-- World route planner -->
   <RoutePlannerButtonTip>點擊進入計畫模式。在計畫模式中，你能夠規劃你的旅途，並計算各中途點之間的距離。</RoutePlannerButtonTip>
   <RoutePlannerAddTwoOrMoreWaypoints>新增兩個以上的中途點。</RoutePlannerAddTwoOrMoreWaypoints>
   <RoutePlannerAddOneOrMoreWaypoints>新增一個以上的中途點。</RoutePlannerAddOneOrMoreWaypoints>
@@ -503,8 +551,10 @@
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>滑鼠右鍵：新增或移除中途點。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <RoutePlannerPressEscapeToExit>ESC：離開計畫模式。</RoutePlannerPressEscapeToExit>
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC：返回至旅隊組織畫面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
-  <EstimatedTimeToThisWaypoint>至中途點預估時間：{0}</EstimatedTimeToThisWaypoint>
-  <EstimatedTimeToThisWaypointFromPrevious>此中途點與上一個之間的預估時間：{0}</EstimatedTimeToThisWaypointFromPrevious>
+  <EstimatedTimeToWaypoint>預估旅行時間：{0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypointFromPrevious>至中途點預估旅行時間：{0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToTile>預估旅行時間：{0}</EstimatedTimeToTile>
+  <ForagedFoodAmount>採集食物量</ForagedFoodAmount>
 
   <!-- Outfits -->
   <OutfitAnything>不限</OutfitAnything>
@@ -515,5 +565,9 @@
   <!-- Hibernatable -->
   <HibernatableHibernating>休眠中</HibernatableHibernating>
   <HibernatableStartingUp>啟動中</HibernatableStartingUp>
+
+  <!-- Transport pods -->
+  <ClickToSeeAvailableOrders_WorldObject>{0}: See available orders...。</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_Empty>See available orders...。</ClickToSeeAvailableOrders_Empty>
   
 </LanguageData>

@@ -1,16 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Inebriated.stages.0.label>溫暖(隱藏)</Inebriated.stages.0.label>
-  <Inebriated.stages.0.description>不該顯示。</Inebriated.stages.0.description>
-  <Inebriated.stages.1.label>發暖</Inebriated.stages.1.label>
-  <Inebriated.stages.1.description>喝了這瓶酒以後我感到放鬆多了，真是不錯。</Inebriated.stages.1.description>
-  <Inebriated.stages.2.label>微醺</Inebriated.stages.2.label>
-  <Inebriated.stages.2.description>我有點搖搖晃晃，哇！這真是超過癮！</Inebriated.stages.2.description>
-  <Inebriated.stages.3.label>爛醉</Inebriated.stages.3.label>
-  <Inebriated.stages.3.description>我感到豪放又無懼！這真是個美妙的時刻！</Inebriated.stages.3.description>
-  <Inebriated.stages.4.label>酩酊大醉</Inebriated.stages.4.label>
-  <Inebriated.stages.4.description>嗚呼~~整個世界都在翻轉，我的手腳不聽使喚，到底發生了什麼事？</Inebriated.stages.4.description>
+  <Inebriated.stages.0.label>微醺</Inebriated.stages.0.label>
+  <Inebriated.stages.0.description>喝了這瓶酒以後我感到放鬆多了，真是不錯。</Inebriated.stages.0.description>
+  <Inebriated.stages.1.label>微醉</Inebriated.stages.1.label>
+  <Inebriated.stages.1.description>我有點搖搖晃晃，哇！這真是超過癮！</Inebriated.stages.1.description>
+  <Inebriated.stages.2.label>爛醉</Inebriated.stages.2.label>
+  <Inebriated.stages.2.description>我感到豪放又無懼！這真是個美妙的時刻！</Inebriated.stages.2.description>
+  <Inebriated.stages.3.label>酩酊大醉</Inebriated.stages.3.label>
+  <Inebriated.stages.3.description>嗚呼~~整個世界都在翻轉，我的手腳不聽使喚，到底發生了什麼事？</Inebriated.stages.3.description>
   
   <Hungover.stages.0.label>淡淡宿醉</Hungover.stages.0.label>
   <Hungover.stages.0.description>頭痛總算消退得差不多了。</Hungover.stages.0.description>
@@ -19,38 +17,40 @@
   <Hungover.stages.2.label>嚴重宿醉</Hungover.stages.2.label>
   <Hungover.stages.2.description>這感覺就像有一群鵝猛力的叮啄我的頭骨。</Hungover.stages.2.description>
   <Hungover.stages.3.label>宿醉(隱藏)</Hungover.stages.3.label>
-  <Hungover.stages.3.description>隱藏</Hungover.stages.3.description>
 
-  <AlcoholWithdrawal.stages.1.label>酒精戒斷</AlcoholWithdrawal.stages.1.label>
+
+  <!-- Alcohol addiction -->
+
+  <AlcoholWithdrawal.stages.1.label>戒斷反應(酒精)</AlcoholWithdrawal.stages.1.label>
   <AlcoholWithdrawal.stages.1.description>我感覺頭昏腦脹，看什麼都不順眼。我只想著再喝個幾杯。</AlcoholWithdrawal.stages.1.description>
   
   <GoJuiceHigh.stages.0.label>藥物亢奮(能量果飲)</GoJuiceHigh.stages.0.label>
-  <GoJuiceHigh.stages.0.description>感覺全身充滿能量卻不躁動，我像是飛行中的子彈，準備射你個透心涼！</GoJuiceHigh.stages.0.description>
-  <GoJuiceWithdrawal.stages.1.label>果汁戒斷</GoJuiceWithdrawal.stages.1.label>
+  <GoJuiceHigh.stages.0.description>感覺全身充滿能量卻不躁動，準備把你切成兩半。！</GoJuiceHigh.stages.0.description>
+  <GoJuiceWithdrawal.stages.1.label>戒斷反應(能量果飲)</GoJuiceWithdrawal.stages.1.label>
   <GoJuiceWithdrawal.stages.1.description>我的腦袋一片混亂，完全不能好好思考。四肢無力，又累又餓、全身痠痛。為什麼我的視線就是無法對焦！</GoJuiceWithdrawal.stages.1.description>
     
   <FlakeHigh.stages.0.label>藥物亢奮(薄片)</FlakeHigh.stages.0.label>
   <FlakeHigh.stages.0.description>嗚喔喔...這個好...嗚喔喔...這個讚...。</FlakeHigh.stages.0.description>
 
   <PekoeHigh.stages.0.label>藥物亢奮(百樂茶)</PekoeHigh.stages.0.label>
-  <PekoeHigh.stages.0.description>感覺一切都如此美好。.</PekoeHigh.stages.0.description>
+  <PekoeHigh.stages.0.description>喝了茶後感覺真不錯，我喜歡這種能量。</PekoeHigh.stages.0.description>
   
   <YayoHigh.stages.0.label>藥物亢奮(Y他命)</YayoHigh.stages.0.label>
   <YayoHigh.stages.0.description>全身上下充滿能量！讓我們開始吧！</YayoHigh.stages.0.description>
-  <PsychiteWithdrawal.stages.1.label>戒斷</PsychiteWithdrawal.stages.1.label>
-  <PsychiteWithdrawal.stages.1.description>天哪我好累好累，對什麼都提不起勁了。</PsychiteWithdrawal.stages.1.description>
+  <PsychiteWithdrawal.stages.1.label>戒斷反應</PsychiteWithdrawal.stages.1.label>
+  <PsychiteWithdrawal.stages.1.description>我累了，一切都那麼的緩慢而乏味，尤其是我自己。</PsychiteWithdrawal.stages.1.description>
   
   <SmokeleafHigh.stages.0.label>藥物亢奮(捲菸)</SmokeleafHigh.stages.0.label>
   <SmokeleafHigh.stages.0.description>啊...感覺飄飄噠。</SmokeleafHigh.stages.0.description>
-  <SmokeleafWithdrawal.stages.1.label>捲菸戒斷</SmokeleafWithdrawal.stages.1.label>
-  <SmokeleafWithdrawal.stages.1.description>真想哈一根...。</SmokeleafWithdrawal.stages.1.description>
+  <SmokeleafWithdrawal.stages.1.label>戒斷反應(捲菸)</SmokeleafWithdrawal.stages.1.label>
+  <SmokeleafWithdrawal.stages.1.description>真想哈一根。我感覺神經緊繃，焦慮感揮之不去。</SmokeleafWithdrawal.stages.1.description>
 
-  <WakeUpWithdrawal.stages.1.label>醒神劑戒斷</WakeUpWithdrawal.stages.1.label>
-  <WakeUpWithdrawal.stages.1.description>我感覺頭昏腦脹，精神無法專注。</WakeUpWithdrawal.stages.1.description>
+  <WakeUpWithdrawal.stages.1.label>醒神劑戒斷反應</WakeUpWithdrawal.stages.1.label>
+  <WakeUpWithdrawal.stages.1.description>我感覺頭昏腦脹，精神無法專注，好累好累。</WakeUpWithdrawal.stages.1.description>
   
   <AmbrosiaHigh.stages.0.label>亢奮(仙饌果)</AmbrosiaHigh.stages.0.label>
-  <AmbrosiaHigh.stages.0.description>吃了仙饌果讓我覺得放鬆多了，但同時也讓我精力充沛。</AmbrosiaHigh.stages.0.description>
-  <AmbrosiaWithdrawal.stages.1.label>仙饌果戒斷</AmbrosiaWithdrawal.stages.1.label>
-  <AmbrosiaWithdrawal.stages.1.description>我感覺身體冰冷又沉重，從沒想到我會這麼想吃一口水果。</AmbrosiaWithdrawal.stages.1.description>
+  <AmbrosiaHigh.stages.0.description>吃了仙饌果讓我覺得放鬆多了，同時也讓我精力充沛。</AmbrosiaHigh.stages.0.description>
+  <AmbrosiaWithdrawal.stages.1.label>戒斷反應(仙饌果)</AmbrosiaWithdrawal.stages.1.label>
+  <AmbrosiaWithdrawal.stages.1.description>我只感覺身體冰冷又沉重，從沒想到我會這麼想吃一口水果。</AmbrosiaWithdrawal.stages.1.description>
 
 </LanguageData>

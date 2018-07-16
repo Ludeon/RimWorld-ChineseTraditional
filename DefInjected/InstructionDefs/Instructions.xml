@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <CreateWorldParams.text>歡迎來到RimWorld！本教學將會教你如何遊玩本遊戲。\n\n第一步是要創造一個世界(星球)。\n\n在這個畫面，世界是依據你設定的種子碼生成的。\n\n這裡已經有預設的種子碼，點擊「創造世界」即可生成世界！</CreateWorldParams.text>
@@ -13,10 +13,10 @@
   <RandomizeCharacter.rejectInputMessage>請先嘗試重新生成角色。</RandomizeCharacter.rejectInputMessage>
 
   <AcceptStartingPawns.text>做得好！\n\n如果你想要，可以多反覆生成幾次，但別試著生成一個完美的角色，每個人都有短處，這使得故事更加精采有趣。\n\n你也可以點擊角色的名字替他們重新命名。\n\n當一切就緒，點擊「開始遊戲」。</AcceptStartingPawns.text>
-  <MapCameraDolly.text>現在你已經降落到地面上了！\n\n現在試著移動遊戲畫面四處看看。\n\n使用{Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight}，或是按住滑鼠中鍵拖曳畫面。\n\n現在就嘗試看看！</MapCameraDolly.text>
+  <MapCameraDolly.text>現在你已經降落到地面上了！\n\n現在試著移動遊戲畫面四處看看。\n\n使用{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}，或是按住滑鼠中鍵拖曳畫面。\n\n現在就嘗試看看！</MapCameraDolly.text>
   <MapCameraZoom.text>做得好！\n\n你還可以用滑鼠滾輪縮放畫面，或是使用{Key:MapZoomIn}和{Key:MapZoomOut}達到同樣的效果。\n\n現在就嘗試看看！</MapCameraZoom.text>
   <Pause.text>你可以隨時暫停時間。\n\n這表示你永遠不必慌忙地下指令，暫停時間讓你有充足的時間可以應對。\n\n按下{Key:TogglePause}或點擊畫面右下角的時間控制按鈕暫停時間。</Pause.text>
-  <TimeControls.text>你還能夠加速時間。\n\n使用{Key:TimeSpeedNormal}、{Key:TimeSpeedFast}及{Key:TimeSpeedSuperfast}，或是畫面右下角的時間控制按鈕來調整時間流速。</TimeControls.text>
+  <TimeControls.text>你還能夠加速時間。\n\n使用{Key:TimeSpeed_Normal}、{Key:TimeSpeed_Fast}及{Key:TimeSpeed_Superfast}，或是畫面右下角的時間控制按鈕來調整時間流速。</TimeControls.text>
   
   <MakeStockpile.text>做得好！\n\n現在，劃設一個儲存區讓居民知道東西該存放在哪裡。\n\n1. 點擊左下角的「建設」開啟建設選單。\n2. 點選「區域」項目。\n3選擇「劃設儲存區」工具。\n4按壓滑鼠左鍵並拖曳，依據指示劃設儲存區。</MakeStockpile.text>
   <MakeStockpile.rejectInputMessage>請將儲存區劃設在提示區域內。</MakeStockpile.rejectInputMessage>
@@ -36,7 +36,7 @@
   <BuildRoomDoor.rejectInputMessage>請將木門放置在先前規劃的其中一個牆壁位置上。</BuildRoomDoor.rejectInputMessage>
   <BuildRoomDoor.onMapInstruction>將木門建造在\n房間牆壁位置上</BuildRoomDoor.onMapInstruction>
   
-  <BuildBeds.text>你的居民馬上會著手建造房間！\n\n現在，他們需要一個睡覺的地方，在房間中放置三張床。\n\n在建築選單的「家具」中找到床的建造項目。</BuildBeds.text>
+  <BuildBeds.text>你的居民馬上會著手建造房間！\n\n現在，他們需要一個睡覺的地方，在房間中放置三張床。\n\n在建築選單的「家具」中找到床的建造項目。\n\n你可以使用{Key:Designator_RotateLeft}和{Key:Designator_RotateRight}旋轉建築藍圖。</BuildBeds.text>
   <BuildBeds.rejectInputMessage>請將床放置在房間內。</BuildBeds.rejectInputMessage>
   <BuildBeds.onMapInstruction>將床建造在房間內</BuildBeds.onMapInstruction>
   

@@ -1,43 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!--=========================== Food Crops ==============================-->
+  <!-- Food crops -->
   
-  <PlantRice.label>稻米</PlantRice.label>
-  <PlantRice.description>在肥沃的土地上生長的小型作物，生長快速，但不適合生食。</PlantRice.description>
+  <Plant_Rice.label>稻米</Plant_Rice.label>
+  <Plant_Rice.description>一種低矮而生長快速的植物，生產少量穀物。</Plant_Rice.description>
 
-  <PlantPotato.label>馬鈴薯</PlantPotato.label>
-  <PlantPotato.description>一種簡單，營養豐富的塊莖作物。在較差的土壤環境中也能正常生長。</PlantPotato.description>
+  <Plant_Potato.label>馬鈴薯</Plant_Potato.label>
+  <Plant_Potato.description>富含營養的塊莖作物。在稍微貧瘠的土地中也能生長得很好。油炸後會在表面形成美味酥脆的口感。</Plant_Potato.description>
 
-  <PlantCorn.label>玉米</PlantCorn.label>
-  <PlantCorn.description>生長出一粒粒美味黃色種子的大型作物，需要較長的時間生長，能收穫的糧食非常多，但也需要更長的時間收割。未經烹調的玉米也非常美味。玉米株需要在肥沃的土地上才能良好的生長。</PlantCorn.description>
+  <Plant_Corn.label>玉米</Plant_Corn.label>
+  <Plant_Corn.description>一種高大的穀類作物，產出柔軟美味的種子。雖然玉米需要非常長的生長時間，但和其他作物相比能產生更多的收穫量。收穫玉米需要花費很長的時間。</Plant_Corn.description>
 
-  <PlantStrawberry.label>草莓</PlantStrawberry.label>
-  <PlantStrawberry.description>一種脆弱，但是非常好吃的水果。就算生吃也很美味，需要肥沃的土地才能正常生長。</PlantStrawberry.description>
+  <Plant_Strawberry.label>草莓</Plant_Strawberry.label>
+  <Plant_Strawberry.description>一種低矮的灌木植物，產出脆弱但美味的草莓。雖然營養價值不如其他作物，但生吃也非常美味。</Plant_Strawberry.description>
 
-  <PlantHaygrass.label>牧草</PlantHaygrass.label>
-  <PlantHaygrass.description>營養豐富的牧草，做為動物的飼料，人類無法食用。</PlantHaygrass.description>
-	
-  <!--=========================== Production crops ==============================-->
-
-  <PlantCotton.label>棉花</PlantCotton.label>
-  <PlantCotton.description>長成棉花，用於製作布料。</PlantCotton.description>
-
-  <PlantDevilstrand.label>魔鬼菇</PlantDevilstrand.label>
-  <PlantDevilstrand.description>這種脆弱的蘑菇經過基因改造，能夠生產最頂級的織物纖維。魔鬼菇所具備的神秘特性傳聞已久，因為它的名字，激發出人們的貪婪欲望。</PlantDevilstrand.description>
-
-  <PlantHealroot.label>藥草</PlantHealroot.label>
-  <PlantHealroot.description>這種植物在幾個世紀間不斷地被星球定居者進行品種改良，收穫時可以獲得藥草。此外，這種藥草擁有的五大療效讓它在部落民之間贏得了「醫師之手」的美名。</PlantHealroot.description>
+  <Plant_Haygrass.label>牧草</Plant_Haygrass.label>
+  <Plant_Haygrass.description>營養豐富的牧草，做為動物的飼料，人類無法食用。</Plant_Haygrass.description>
   
-  <!--=========================== Drug crops ==============================-->
+
+  <!-- Production crops -->
+
+  <Plant_Cotton.label>棉花</Plant_Cotton.label>
+  <Plant_Cotton.description>一種高度級腰的作物，產出能用於製作衣物的棉花。</Plant_Cotton.description>
+
+  <Plant_Devilstrand.label>魔鬼菇</Plant_Devilstrand.label>
+  <Plant_Devilstrand.description>這種脆弱的蘑菇經過基因改造，能夠產出既強韌又柔軟的布料。雖然魔鬼菇生長緩慢，但只有異星出產的超級布料能超越這種魔鬼布料。\n\n有人認為「魔鬼」之名是來自其紅色外觀，其他人則認為是因為這樣的名字能激發出人們的貪婪欲望。</Plant_Devilstrand.description>
+
+  <Plant_Healroot.label>藥草</Plant_Healroot.label>
+  <Plant_Healroot.description>這種植物在幾個世紀間不斷地被星球定居者進行品種改良，收穫時可以獲得藥草。因為它那精細的枝條，種植和收穫這種植物都是高技術含量的工作。此外，這種藥草擁有的五大療效讓它在部落民之間贏得了「醫師之手」的美名。</Plant_Healroot.description>
   
-  <PlantHops.label>啤酒花</PlantHops.label>
-  <PlantHops.description>一種能夠收穫啤酒花的開花作物，是釀造啤酒不可或缺的重要成分。</PlantHops.description>
+
+  <!-- Drug crops -->
   
-  <PlantPsychoid.label>迷幻草</PlantPsychoid.label>
-  <PlantPsychoid.description>一種葉片發達的作物，經過提煉成為幾種迷幻藥物的原料。</PlantPsychoid.description>
+  <Plant_Hops.label>啤酒花</Plant_Hops.label>
+  <Plant_Hops.description>一種能夠收穫啤酒花的開花作物，是釀造啤酒不可或缺的重要成分。</Plant_Hops.description>
   
-  <PlantSmokeleaf.label>菸草</PlantSmokeleaf.label>
-  <PlantSmokeleaf.description>一種葉片發達的藥用作物，有讓人產生心情亢奮的功效。收割下來的菸葉可以在手工製作點加工成捲菸。</PlantSmokeleaf.description>
+  <Plant_Smokeleaf.label>菸草</Plant_Smokeleaf.label>
+  <Plant_Smokeleaf.description>為了其葉片中能導致興奮的化學物質而栽種的作物。在手工工作點可以加工成捲菸。捲菸能使人感到放鬆，但精神會恍惚，並有成癮的可能。</Plant_Smokeleaf.description>
+  
+  <Plant_Psychoid.label>迷幻草</Plant_Psychoid.label>
+  <Plant_Psychoid.description>生產興奮物質的綠葉植物。最初這種化學成份是作為一種自衛特性，給予刺激以防止被動物食用，可以萃取為精神藥物的原料，具有成隱性。</Plant_Psychoid.description>
   
 </LanguageData>

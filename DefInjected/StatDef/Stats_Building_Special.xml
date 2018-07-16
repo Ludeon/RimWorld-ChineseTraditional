@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <DoorOpenSpeed.label>開啟速度</DoorOpenSpeed.label>
@@ -8,7 +8,7 @@
   <BedRestEffectiveness.description>這張床所能提供的休息效率。</BedRestEffectiveness.description>
   
   <TrapMeleeDamage.label>陷阱殺傷力</TrapMeleeDamage.label>
-  <TrapMeleeDamage.description>這個陷阱大約能夠造成的傷害值，實際情況也許不同。</TrapMeleeDamage.description>
+  <TrapMeleeDamage.description>這個陷阱能夠造成的傷害平均值，實際數值會根據平均值上下浮動。</TrapMeleeDamage.description>
   
   <TrapSpringChance.label>陷阱觸發率</TrapSpringChance.label>
   <TrapSpringChance.description>當生物通過這個陷阱的正上方時，陷阱被觸發的機率。</TrapSpringChance.description>
@@ -26,11 +26,14 @@
   <WorkTableWorkSpeedFactor.label>工作速度倍率</WorkTableWorkSpeedFactor.label>
   <WorkTableWorkSpeedFactor.description>進行工作時的速度倍率。</WorkTableWorkSpeedFactor.description>
 
-  <EntertainmentStrengthFactor.label>娛樂值產生倍率</EntertainmentStrengthFactor.label>
-  <EntertainmentStrengthFactor.description>此裝置娛樂人們的效果。</EntertainmentStrengthFactor.description>
+  <WorkTableEfficiencyFactor.label>工作效果倍率</WorkTableEfficiencyFactor.label>
+  <WorkTableEfficiencyFactor.description>進行工作時的效果倍率。</WorkTableEfficiencyFactor.description>
+
+  <JoyGainFactor.label>娛樂度</JoyGainFactor.label>
+  <JoyGainFactor.description>此裝置提供人們娛樂並滿足娛樂需求的效果。</JoyGainFactor.description>
 
   <SurgerySuccessChanceFactor.label>手術成功率倍率</SurgerySuccessChanceFactor.label>
-  <SurgerySuccessChanceFactor.description>在這裡進行手術時的成功率倍率。手術成功率還同時受到醫生和藥品的影響。</SurgerySuccessChanceFactor.description>
+  <SurgerySuccessChanceFactor.description>在這裡進行手術時的成功率倍率。手術成功率還同時受到許多其他因素，如醫生和藥品的影響。</SurgerySuccessChanceFactor.description>
   <SurgerySuccessChanceFactor.parts.0.customLabel>房間清潔度</SurgerySuccessChanceFactor.parts.0.customLabel>
 
 </LanguageData>

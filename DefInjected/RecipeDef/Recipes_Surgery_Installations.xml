@@ -1,42 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Install natural parts -->
-  
-  <InstallNaturalHeart.label>移植心臟</InstallNaturalHeart.label>
-  <InstallNaturalHeart.description>移植心臟。</InstallNaturalHeart.description>
-  <InstallNaturalHeart.jobString>移植心臟。</InstallNaturalHeart.jobString>
-  
-  <InstallNaturalLiver.label>移植肝臟</InstallNaturalLiver.label>
-  <InstallNaturalLiver.description>移植肝臟。</InstallNaturalLiver.description>
-  <InstallNaturalLiver.jobString>移植肝臟。</InstallNaturalLiver.jobString>
+  <!-- 安裝natural parts -->
   
   <InstallNaturalKidney.label>移植腎臟</InstallNaturalKidney.label>
   <InstallNaturalKidney.description>移植腎臟。</InstallNaturalKidney.description>
   <InstallNaturalKidney.jobString>移植腎臟。</InstallNaturalKidney.jobString>
   
+  <InstallNaturalLiver.label>移植肝臟</InstallNaturalLiver.label>
+  <InstallNaturalLiver.description>移植肝臟。</InstallNaturalLiver.description>
+  <InstallNaturalLiver.jobString>移植肝臟。</InstallNaturalLiver.jobString>
+  
   <InstallNaturalLung.label>移植肺臟</InstallNaturalLung.label>
   <InstallNaturalLung.description>移植肺臟。</InstallNaturalLung.description>
   <InstallNaturalLung.jobString>移植肺臟。</InstallNaturalLung.jobString>
+  
+  <InstallNaturalHeart.label>移植心臟</InstallNaturalHeart.label>
+  <InstallNaturalHeart.description>移植心臟。</InstallNaturalHeart.description>
+  <InstallNaturalHeart.jobString>移植心臟。</InstallNaturalHeart.jobString>
 
 
-  <!-- Install artificial parts -->
+  <!-- 安裝artificial parts -->
   
   <InstallPegLeg.label>安裝腿部義肢</InstallPegLeg.label>
   <InstallPegLeg.description>安裝腿部義肢。</InstallPegLeg.description>
   <InstallPegLeg.jobString>安裝腿部義肢。</InstallPegLeg.jobString>
+
+  <InstallWoodenFoot.label>安裝木腿</InstallWoodenFoot.label>
+  <InstallWoodenFoot.description>安裝a 木腿。</InstallWoodenFoot.description>
+  <InstallWoodenFoot.jobString>安裝木腿。</InstallWoodenFoot.jobString>
   
   <InstallDenture.label>安裝義齒</InstallDenture.label>
   <InstallDenture.description>安裝義齒。</InstallDenture.description>
   <InstallDenture.jobString>安裝義齒。</InstallDenture.jobString>
   
-  <InstallSimpleProstheticLeg.label>安裝簡單腿部義肢</InstallSimpleProstheticLeg.label>
-  <InstallSimpleProstheticLeg.description>安裝簡單腿部義肢。</InstallSimpleProstheticLeg.description>
-  <InstallSimpleProstheticLeg.jobString>安裝簡單腿部義肢。</InstallSimpleProstheticLeg.jobString>
+  <InstallSimpleProstheticLeg.label>安裝簡單義腿</InstallSimpleProstheticLeg.label>
+  <InstallSimpleProstheticLeg.description>安裝簡單義腿。</InstallSimpleProstheticLeg.description>
+  <InstallSimpleProstheticLeg.jobString>安裝簡單義腿。</InstallSimpleProstheticLeg.jobString>
   
-  <InstallSimpleProstheticArm.label>安裝簡單手臂義肢</InstallSimpleProstheticArm.label>
-  <InstallSimpleProstheticArm.description>安裝簡單手臂義肢。</InstallSimpleProstheticArm.description>
-  <InstallSimpleProstheticArm.jobString>安裝簡單手臂義肢。</InstallSimpleProstheticArm.jobString>
+  <InstallSimpleProstheticArm.label>安裝簡單義手</InstallSimpleProstheticArm.label>
+  <InstallSimpleProstheticArm.description>安裝簡單義手。</InstallSimpleProstheticArm.description>
+  <InstallSimpleProstheticArm.jobString>安裝簡單義手。</InstallSimpleProstheticArm.jobString>
+
+  <InstallSimpleProstheticHeart.label>安裝人工心臟</InstallSimpleProstheticHeart.label>
+  <InstallSimpleProstheticHeart.description>安裝a 人工心臟。</InstallSimpleProstheticHeart.description>
+  <InstallSimpleProstheticHeart.jobString>安裝人工心臟。</InstallSimpleProstheticHeart.jobString>
+
+  <InstallCochlearImplant.label>安裝人工耳</InstallCochlearImplant.label>
+  <InstallCochlearImplant.description>安裝a 人工耳。</InstallCochlearImplant.description>
+  <InstallCochlearImplant.jobString>安裝人工耳。</InstallCochlearImplant.jobString>
   
   <InstallBionicArm.label>安裝仿生手臂</InstallBionicArm.label>
   <InstallBionicArm.description>安裝仿生手臂。</InstallBionicArm.description>
@@ -45,18 +57,42 @@
   <InstallBionicLeg.label>安裝仿生腿</InstallBionicLeg.label>
   <InstallBionicLeg.description>安裝仿生腿。</InstallBionicLeg.description>
   <InstallBionicLeg.jobString>安裝仿生腿。</InstallBionicLeg.jobString>
+
+  <InstallBionicSpine.label>安裝仿生脊椎</InstallBionicSpine.label>
+  <InstallBionicSpine.description>安裝a 仿生脊椎。</InstallBionicSpine.description>
+  <InstallBionicSpine.jobString>安裝仿生脊椎。</InstallBionicSpine.jobString>
+
+  <InstallBionicHeart.label>安裝仿生心臟</InstallBionicHeart.label>
+  <InstallBionicHeart.description>安裝a 仿生心臟。</InstallBionicHeart.description>
+  <InstallBionicHeart.jobString>安裝仿生心臟。</InstallBionicHeart.jobString>
+
+  <InstallBionicStomach.label>安裝仿生胃</InstallBionicStomach.label>
+  <InstallBionicStomach.description>安裝a 仿生胃。</InstallBionicStomach.description>
+  <InstallBionicStomach.jobString>安裝仿生胃。</InstallBionicStomach.jobString>
+
+  <InstallBionicEar.label>安裝仿生耳</InstallBionicEar.label>
+  <InstallBionicEar.description>安裝a 仿生耳。</InstallBionicEar.description>
+  <InstallBionicEar.jobString>安裝仿生耳。</InstallBionicEar.jobString>
+
+  <InstallArchotechArm.label>安裝古代科技義手</InstallArchotechArm.label>
+  <InstallArchotechArm.description>安裝古代科技義手。</InstallArchotechArm.description>
+  <InstallArchotechArm.jobString>安裝古代科技義手。</InstallArchotechArm.jobString>
+
+  <InstallArchotechLeg.label>安裝古代科技義腿</InstallArchotechLeg.label>
+  <InstallArchotechLeg.description>安裝古代科技義腿。</InstallArchotechLeg.description>
+  <InstallArchotechLeg.jobString>安裝古代科技義腿。</InstallArchotechLeg.jobString>
   
   <InstallPowerClaw.label>安裝動力爪</InstallPowerClaw.label>
   <InstallPowerClaw.description>安裝動力爪。</InstallPowerClaw.description>
   <InstallPowerClaw.jobString>安裝動力爪。</InstallPowerClaw.jobString>
   
-  <InstallScytherBlade.label>安裝鐮刀機械鎧</InstallScytherBlade.label>
-  <InstallScytherBlade.description>安裝鐮刀機械鎧。</InstallScytherBlade.description>
-  <InstallScytherBlade.jobString>安裝鐮刀機械鎧。</InstallScytherBlade.jobString>
-  
   <InstallBionicEye.label>安裝仿生眼</InstallBionicEye.label>
   <InstallBionicEye.description>安裝仿生眼。</InstallBionicEye.description>
   <InstallBionicEye.jobString>安裝仿生眼。</InstallBionicEye.jobString>
+
+  <InstallArchotechEye.label>安裝古代科技義眼</InstallArchotechEye.label>
+  <InstallArchotechEye.description>安裝古代科技義眼。</InstallArchotechEye.description>
+  <InstallArchotechEye.jobString>安裝古代科技義眼。</InstallArchotechEye.jobString>
   
   <InstallJoywire.label>安裝樂絲晶片</InstallJoywire.label>
   <InstallJoywire.description>安裝樂絲晶片。</InstallJoywire.description>

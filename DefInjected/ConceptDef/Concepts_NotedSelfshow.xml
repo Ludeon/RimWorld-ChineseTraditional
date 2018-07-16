@@ -1,22 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!-- Concepts taught through the learning readout, with no opportunity needed -->
+  
   <CameraDolly.label>移動畫面</CameraDolly.label>
-  <CameraDolly.helpText>按住滑鼠中鍵並拖曳或使用WASD鍵來移動畫面。</CameraDolly.helpText>
+  <CameraDolly.helpText>按住滑鼠中鍵並拖曳或使用{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}鍵來移動畫面。</CameraDolly.helpText>
   
   <CameraZoom.label>縮放畫面</CameraZoom.label>
-  <CameraZoom.helpText>滾動滑鼠滾輪或按T鍵和G鍵以放大/縮小遊戲畫面。</CameraZoom.helpText>
+  <CameraZoom.helpText>滾動滑鼠滾輪或按{Key:MapZoom_In}和{Key:MapZoom_Out}以放大/縮小遊戲畫面。</CameraZoom.helpText>
 
   <TimeControls.label>控制遊戲速度</TimeControls.label>
-  <TimeControls.helpText>你可以加快、減慢遊戲速度甚至是暫停遊戲於使用畫面右下方的時間控制板。</TimeControls.helpText>
+  <TimeControls.helpText>你可以加快遊戲速度。\n\n試著使用{Key:TimeSpeed_Normal}、{Key:TimeSpeed_Fast}和{Key:TimeSpeed_Superfast}或使用位於畫面右下方的時間控制按鈕來調整遊戲速度。</TimeControls.helpText>
   
-  <Pause.label>空白鍵暫停</Pause.label>
-  <Pause.helpText>按下空白鍵可以暫停或繼續遊戲。\n\n你可以在暫停期間規劃指令。\n\n記住，當事情變得繁瑣如麻時，按下空白鍵就對了！</Pause.helpText>
+  <Pause.label>暫停</Pause.label>
+  <Pause.helpText>按下{Key:TogglePause}可以暫停或繼續遊戲。\n\n你可以在暫停期間下達命令。\n\n記住，當事情變得麻煩的時候，按下{Key:TogglePause}就對了！</Pause.helpText>
   
   <Stockpiles.label>劃設儲存區</Stockpiles.label>
   <Stockpiles.helpText>你的居民需要一些儲存區才能存放資源，替他們設置一些儲存區以存放資源。\n\n從畫面左下處「建設」選單中的「區域」子選單中找到「儲存區」項目。</Stockpiles.helpText>
 
   <Forbidding.label>禁止互動</Forbidding.label>
-  <Forbidding.helpText>居民們不會和被標記為「已禁止」的物件互動。\n\n選擇帶有小紅X的物件並按F或底部的按鈕以取消禁止狀態。</Forbidding.helpText>
+  <Forbidding.helpText>居民們不會和被標記為「已禁止」的物件互動。\n\n選擇帶有小紅X的物件並點擊畫面底部的按鈕以取消禁止狀態。</Forbidding.helpText>
 
   <GrowingFood.label>劃設種植區</GrowingFood.label>
   <GrowingFood.helpText>想要種植作物，使用「建設」選單找到種植區。\n\n種植區只能被劃設於肥沃的土地上。</GrowingFood.helpText>
@@ -61,7 +64,7 @@
   <SpoilageAndFreezers.helpText>大多數食物在短時間內會腐敗，這就是你需要一個冷凍庫(冰箱)的原因。\n\n要建立一個冷凍庫，首先要準備一個密閉非露天的房間，在牆上設置一台或多台冷氣，並將目標溫度調至零下。\n\n冷凍狀態的食物永遠不會腐敗。</SpoilageAndFreezers.helpText>
   
   <Deterioration.label>物品衰敗</Deterioration.label>
-  <Deterioration.helpText>某些放在露天之下的物品會持續扣減耐久值。\n\n若你想長期保存這些物件，請記得擺在屋頂之下。</Deterioration.helpText>
+  <Deterioration.helpText>某些放在露天之下的物品會持續減少耐久值。\n\n若你想長期保存這些物件，記得保存在有屋頂的房間之內。</Deterioration.helpText>
   
   <HostilityResponse.label>遇敵反應</HostilityResponse.label>
   <HostilityResponse.helpText>你可以自訂居民在遭遇危險(如掠食動物)時該如何反應\n\n開啟登錄面板，在「逃跑」、「戰鬥」以及「無視」之中選擇一項。</HostilityResponse.helpText>

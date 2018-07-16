@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <DamageEvent_Include.rulePack.rulesStrings.0>logentry->[damageSource][recipient_nameShortDef]，[destroyed_present]了[recipient_possessive][destroyed_targets]。</DamageEvent_Include.rulePack.rulesStrings.0>
-  <DamageEvent_Include.rulePack.rulesStrings.1>logentry->[damageSource][recipient_nameShortDef]，[destroyed_present]了[recipient_possessive][destroyed_targets]並且[damaged_present]了[recipient_possessive][damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.1>
-  <DamageEvent_Include.rulePack.rulesStrings.2>logentry(recipient_part_destroyed_count==0)->[damageSource][recipient_nameShortDef]，[damaged_present]了[recipient_possessive][damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.2>
-  <DamageEvent_Include.rulePack.rulesStrings.3>logentry(p=0.1)->[damageSource][recipient_nameShortDef]。</DamageEvent_Include.rulePack.rulesStrings.3>
+  <DamageEvent_Include.rulePack.rulesStrings.0>logentry->[damageSource][recipient_NameShortDef]，[destroyed_present]了[recipient_possessive][destroyed_targets]。</DamageEvent_Include.rulePack.rulesStrings.0>
+  <DamageEvent_Include.rulePack.rulesStrings.1>logentry->[damageSource][recipient_NameShortDef]，[destroyed_present]了[recipient_possessive][destroyed_targets]並且[damaged_present]了[recipient_possessive][damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.1>
+  <DamageEvent_Include.rulePack.rulesStrings.2>logentry(recipient_part_destroyed_count==0)->[damageSource][recipient_NameShortDef]，[damaged_present]了[recipient_possessive][damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.2>
+  <DamageEvent_Include.rulePack.rulesStrings.3>logentry(p=0.1)->[damageSource][recipient_NameShortDef]。</DamageEvent_Include.rulePack.rulesStrings.3>
 
   <DamageEvent_Ceiling.rulePack.rulesStrings.0>damageSource->[collapsed]的[roof]砸到了</DamageEvent_Ceiling.rulePack.rulesStrings.0>
   <DamageEvent_Ceiling.rulePack.rulesStrings.1>roof->屋頂</DamageEvent_Ceiling.rulePack.rulesStrings.1>

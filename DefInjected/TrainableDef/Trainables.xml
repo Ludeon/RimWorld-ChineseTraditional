@@ -1,5 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!-- Note: You cannot reorder elements in this without destroying saved trainability data; see DefMap<>.ExposeData(). -->
   
   <Obedience.label>服從</Obedience.label>
   <Obedience.description>動物將可被指派給一名主人，並會跟隨及護衛主人。</Obedience.description>
@@ -12,5 +14,8 @@
   
   <Haul.label>搬運</Haul.label>
   <Haul.description>動物可以搬運物品。</Haul.description>
+
+  <Tameness.label>馴服</Tameness.label>
+  <Tameness.description>這個動物可以學習歸順你的殖民地。</Tameness.description>
   
 </LanguageData>

@@ -19,13 +19,13 @@
   <Maneuver_Slash.rulePack.rulesStrings.15>damaged_present->砍中</Maneuver_Slash.rulePack.rulesStrings.15>
   <Maneuver_Slash.rulePack.rulesStrings.16>damaged_present->劃中</Maneuver_Slash.rulePack.rulesStrings.16>
   <Maneuver_Slash.rulePack.rulesStrings.17>damaged_present->劃中</Maneuver_Slash.rulePack.rulesStrings.17>
-  <Maneuver_Slash.rulePack.rulesStrings.18>woundname->傷口</Maneuver_Slash.rulePack.rulesStrings.18>
-  <Maneuver_Slash.rulePack.rulesStrings.19>woundname(p=0.3)->刀傷</Maneuver_Slash.rulePack.rulesStrings.19>
-  <Maneuver_Slash.rulePack.rulesStrings.20>flavortextsituation(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</Maneuver_Slash.rulePack.rulesStrings.20>
-  <Maneuver_Slash.rulePack.rulesStrings.21>flavortextsituation->留下怵目驚心的[woundname]</Maneuver_Slash.rulePack.rulesStrings.21>
+  <Maneuver_Slash.rulePack.rulesStrings.18>woundName->傷口</Maneuver_Slash.rulePack.rulesStrings.18>
+  <Maneuver_Slash.rulePack.rulesStrings.19>woundName(p=0.3)->刀傷</Maneuver_Slash.rulePack.rulesStrings.19>
+  <Maneuver_Slash.rulePack.rulesStrings.20>flavortextsituation(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundName]</Maneuver_Slash.rulePack.rulesStrings.20>
+  <Maneuver_Slash.rulePack.rulesStrings.21>flavortextsituation->留下怵目驚心的[woundName]</Maneuver_Slash.rulePack.rulesStrings.21>
   <Maneuver_Slash.rulePack.rulesStrings.22>flavortextconsequence(recipient_flesh!=Mechanoid)->傷口深可見骨</Maneuver_Slash.rulePack.rulesStrings.22>
   <Maneuver_Slash.rulePack.rulesStrings.23>flavortextconsequence(recipient_flesh==Mechanoid)->使得內部的機件外露</Maneuver_Slash.rulePack.rulesStrings.23>
-  <Maneuver_Slash.rulePack.rulesStrings.24>flavortextconsequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundname]</Maneuver_Slash.rulePack.rulesStrings.24>
+  <Maneuver_Slash.rulePack.rulesStrings.24>flavortextconsequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundName]</Maneuver_Slash.rulePack.rulesStrings.24>
   <Maneuver_Slash.rulePack.rulesStrings.25>destroyed_past->砍斷</Maneuver_Slash.rulePack.rulesStrings.25>
   <Maneuver_Slash.rulePack.rulesStrings.26>destroyed_past->砍下</Maneuver_Slash.rulePack.rulesStrings.26>
   <Maneuver_Slash.rulePack.rulesStrings.27>destroyed_past->斬斷</Maneuver_Slash.rulePack.rulesStrings.27>
@@ -55,12 +55,12 @@
   <Maneuver_Stab.rulePack.rulesStrings.11>damaged_present->捅中</Maneuver_Stab.rulePack.rulesStrings.11>
   <Maneuver_Stab.rulePack.rulesStrings.12>damaged_present->叉中</Maneuver_Stab.rulePack.rulesStrings.12>
   <Maneuver_Stab.rulePack.rulesStrings.13>damaged_present->戳中</Maneuver_Stab.rulePack.rulesStrings.13>
-  <Maneuver_Stab.rulePack.rulesStrings.14>woundname->大洞</Maneuver_Stab.rulePack.rulesStrings.14>
-  <Maneuver_Stab.rulePack.rulesStrings.15>woundname->傷口</Maneuver_Stab.rulePack.rulesStrings.15>
-  <Maneuver_Stab.rulePack.rulesStrings.16>woundname->裂縫</Maneuver_Stab.rulePack.rulesStrings.16>
-  <Maneuver_Stab.rulePack.rulesStrings.17>flavortextconsequence(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</Maneuver_Stab.rulePack.rulesStrings.17>
-  <Maneuver_Stab.rulePack.rulesStrings.18>flavortextconsequence(recipient_flesh!=Mechanoid)->留下怵目驚心的[woundname]</Maneuver_Stab.rulePack.rulesStrings.18>
-  <Maneuver_Stab.rulePack.rulesStrings.19>flavortextconsequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundname]</Maneuver_Stab.rulePack.rulesStrings.19>
+  <Maneuver_Stab.rulePack.rulesStrings.14>woundName->大洞</Maneuver_Stab.rulePack.rulesStrings.14>
+  <Maneuver_Stab.rulePack.rulesStrings.15>woundName->傷口</Maneuver_Stab.rulePack.rulesStrings.15>
+  <Maneuver_Stab.rulePack.rulesStrings.16>woundName->裂縫</Maneuver_Stab.rulePack.rulesStrings.16>
+  <Maneuver_Stab.rulePack.rulesStrings.17>flavortextconsequence(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundName]</Maneuver_Stab.rulePack.rulesStrings.17>
+  <Maneuver_Stab.rulePack.rulesStrings.18>flavortextconsequence(recipient_flesh!=Mechanoid)->留下怵目驚心的[woundName]</Maneuver_Stab.rulePack.rulesStrings.18>
+  <Maneuver_Stab.rulePack.rulesStrings.19>flavortextconsequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundName]</Maneuver_Stab.rulePack.rulesStrings.19>
   <Maneuver_Stab.rulePack.rulesStrings.20>destroyed_past->刺穿</Maneuver_Stab.rulePack.rulesStrings.20>
   <Maneuver_Stab.rulePack.rulesStrings.21>destroyed_past->戳穿</Maneuver_Stab.rulePack.rulesStrings.21>
   <Maneuver_Stab.rulePack.rulesStrings.22>destroyed_past->扎穿</Maneuver_Stab.rulePack.rulesStrings.22>
@@ -130,13 +130,13 @@
   <Maneuver_Scratch_Damage.rulePack.rulesStrings.20>destroyed_present->廢</Maneuver_Scratch_Damage.rulePack.rulesStrings.20>
   <Maneuver_Scratch_Damage.rulePack.rulesStrings.21>destroyed_present->撕開</Maneuver_Scratch_Damage.rulePack.rulesStrings.21>
 
-  <Maneuver_Scratch.rulePack.rulesStrings.0>woundname->傷口</Maneuver_Scratch.rulePack.rulesStrings.0>
-  <Maneuver_Scratch.rulePack.rulesStrings.1>woundname(p=0.3)->裂縫</Maneuver_Scratch.rulePack.rulesStrings.1>
-  <Maneuver_Scratch.rulePack.rulesStrings.2>flavortextsituation(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</Maneuver_Scratch.rulePack.rulesStrings.2>
-  <Maneuver_Scratch.rulePack.rulesStrings.3>flavortextsituation->留下怵目驚心的[woundname]</Maneuver_Scratch.rulePack.rulesStrings.3>
+  <Maneuver_Scratch.rulePack.rulesStrings.0>woundName->傷口</Maneuver_Scratch.rulePack.rulesStrings.0>
+  <Maneuver_Scratch.rulePack.rulesStrings.1>woundName(p=0.3)->裂縫</Maneuver_Scratch.rulePack.rulesStrings.1>
+  <Maneuver_Scratch.rulePack.rulesStrings.2>flavortextsituation(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundName]</Maneuver_Scratch.rulePack.rulesStrings.2>
+  <Maneuver_Scratch.rulePack.rulesStrings.3>flavortextsituation->留下怵目驚心的[woundName]</Maneuver_Scratch.rulePack.rulesStrings.3>
   <Maneuver_Scratch.rulePack.rulesStrings.4>flavortextconsequence(recipient_flesh!=Mechanoid)->傷口深可見骨</Maneuver_Scratch.rulePack.rulesStrings.4>
   <Maneuver_Scratch.rulePack.rulesStrings.5>flavortextconsequence(recipient_flesh==Mechanoid)->使得內部的機件外露</Maneuver_Scratch.rulePack.rulesStrings.5>
-  <Maneuver_Scratch.rulePack.rulesStrings.6>flavortextconsequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundname]</Maneuver_Scratch.rulePack.rulesStrings.6>
+  <Maneuver_Scratch.rulePack.rulesStrings.6>flavortextconsequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundName]</Maneuver_Scratch.rulePack.rulesStrings.6>
   <Maneuver_Scratch.rulePack.rulesStrings.7>destroyed_suffix(recipient_flesh!=Mechanoid)->徹底</Maneuver_Scratch.rulePack.rulesStrings.7>
   <Maneuver_Scratch.rulePack.rulesStrings.8>destroyed_suffix->徹底</Maneuver_Scratch.rulePack.rulesStrings.8>
   <Maneuver_Scratch.rulePack.rulesStrings.9>destroyed_suffix(recipient_flesh!=Mechanoid)->徹底</Maneuver_Scratch.rulePack.rulesStrings.9>

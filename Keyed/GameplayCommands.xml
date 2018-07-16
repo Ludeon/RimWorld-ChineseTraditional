@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Forbid -->
@@ -44,6 +44,7 @@
   <CommandGraveAssignColonistLabel>登錄居民</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>將此墓位分配給特定的居民。</CommandGraveAssignColonistDesc>
   <BuildingAssign>登錄</BuildingAssign>
+  <BuildingReassign>重新登錄</BuildingReassign>
   <BuildingUnassign>取消登錄</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>設為俘虜專用</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>將這個房間内的床設為俘虜專用。</CommandBedSetForPrisonersDesc>
@@ -57,8 +58,8 @@
   <CommandDetonateLabel>爆破</CommandDetonateLabel>
   <CommandDetonateDesc>開始爆破倒數計時。</CommandDetonateDesc>
 
-  <CommandRenameZoneLabel>重新命名</CommandRenameZoneLabel>
-  <CommandRenameZoneDesc>重新命名這個區域。</CommandRenameZoneDesc>
+  <CommandReNameZoneLabel>重新命名</CommandReNameZoneLabel>
+  <CommandReNameZoneDesc>重新命名這個區域。</CommandReNameZoneDesc>
 
   <CommandHideZoneLabel>隱藏</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>取消隱藏</CommandUnhideZoneLabel>
@@ -82,6 +83,8 @@
   <CommandStopForceAttack>停止強制攻擊</CommandStopForceAttack>
   <CommandStopForceAttackDesc>停止強制攻擊並允許炮塔自由開火。</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>停止強制攻擊目標。</CommandStopAttackFailNotForceAttacking>
+  <CommandExtractShell>退出砲彈</CommandExtractShell>
+  <CommandExtractShellDesc>退出當前裝填的砲彈已更換為其他彈種。</CommandExtractShellDesc>
   <MessageTargetBeyondMaximumRange>目標超出最大射程。</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>目標近於最小射程。</MessageTargetBelowMinimumRange>
   <MessageTurretWontFireBecauseHoldFire>警告：迫擊砲將不會開火，因為已被設定為停火狀態。</MessageTurretWontFireBecauseHoldFire>
@@ -114,7 +117,7 @@
   <!-- Install/reinstall -->
   <CommandInstall>安裝</CommandInstall>
   <CommandInstallDesc>此物件已被包裝為方便儲存與運輸的狀態，使用這項指令以安裝此物件至指定的位置。</CommandInstallDesc>
-  <CommandReinstall>重新安裝至...</CommandReinstall>
+  <CommandReinstall>重新安裝至...。</CommandReinstall>
   <CommandReinstallDesc>將此物件設為無法拆除或重新安裝至其它地方。</CommandReinstallDesc>
 
   <!-- Trade beacon -->
@@ -188,6 +191,14 @@
   <!-- Cancel forming caravan -->
   <CommandCancelFormingCaravan>取消組織旅隊</CommandCancelFormingCaravan>
   <CommandCancelFormingCaravanDesc>中止組織旅隊的行動。</CommandCancelFormingCaravanDesc>
+
+  <!-- Remove from caravan -->
+  <CommandRemoveFromCaravan>從旅隊移除</CommandRemoveFromCaravan>
+  <CommandRemoveFromCaravanDesc>將此人類或動物排除出旅隊。</CommandRemoveFromCaravanDesc>
+
+  <!-- Add to caravan -->
+  <CommandAddToCaravan>加入至旅隊</CommandAddToCaravan>
+  <CommandAddToCaravanDesc>加入此人類或動物以組成旅隊。</CommandAddToCaravanDesc>
   
   <!-- Show map -->
   <CommandShowMap>檢視</CommandShowMap>
@@ -197,6 +208,10 @@
   <CommandTrade>交易</CommandTrade>
   <CommandTradeDesc>與此勢力進行交易。</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>無任何具交易能力者。</CommandTradeFailNoNegotiator>
+
+  <!-- Offer gifts -->
+  <CommandOfferGifts>發送禮物</CommandOfferGifts>
+  <CommandOfferGiftsDesc>發送禮物給此勢力。</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
   <CommandFulfillTradeOffer>履行交易</CommandFulfillTradeOffer>
@@ -248,6 +263,18 @@
 
   <!-- Remove waypoint -->
   <CommandRemoveWaypointLabel>移除</CommandRemoveWaypointLabel>
-  <CommandRemoveWaypointDesc>移除此中途點。</CommandRemoveWaypointDesc>
+  <CommandRemoveWaypointDesc>移除此中途點。</CommandRemoveWaypointDesc>>
+
+  <!-- Pause caravan -->
+  <CommandPauseCaravan>暫停</CommandPauseCaravan>
+  <CommandToggleCaravanPauseDesc>暫停此旅隊的活動。這將有以下好處：\n\n  - 人員可以進行社交活動\n  - 食物採集速度提昇{0}倍\n  - 可見性變為{1}倍</CommandToggleCaravanPauseDesc>
+
+  <!-- Show sellable items -->
+  <CommandShowSellableItems>顯示採購品類型</CommandShowSellableItems>
+  <CommandShowSellableItemsDesc>顯示此商人願意購買的商品類型。</CommandShowSellableItemsDesc>
+
+  <!-- Attack settlement -->
+  <CommandAttackSettlement>攻擊</CommandAttackSettlement>
+  <CommandAttackSettlementDesc>向此據點發動攻擊。</CommandAttackSettlementDesc>
   
 </LanguageData>

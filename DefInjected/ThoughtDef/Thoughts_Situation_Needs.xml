@@ -1,68 +1,79 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-	<NeedFood.stages.0.label>飢餓</NeedFood.stages.0.label>
-	<NeedFood.stages.0.description>我真的餓了。</NeedFood.stages.0.description>
-	<NeedFood.stages.1.label>飢餓</NeedFood.stages.1.label>
-	<NeedFood.stages.1.description>這飢餓感已經無法忽視。</NeedFood.stages.1.description>
-	<NeedFood.stages.2.label>非常飢餓</NeedFood.stages.2.label>
-	<NeedFood.stages.2.description>我有一段時間沒吃東西了，我的腦袋昏昏沉沉，注意力無法集中。</NeedFood.stages.2.description>
-	<NeedFood.stages.3.label>非常飢餓</NeedFood.stages.3.label>
-	<NeedFood.stages.3.description>我能感覺飢餓正在侵蝕我的身體，這種飢餓感我從未經歷過。</NeedFood.stages.3.description>
-	<NeedFood.stages.4.label>極度飢餓</NeedFood.stages.4.label>
-	<NeedFood.stages.4.description>我的腦筋一片空白，只剩下食物，皮膚都緊繃到了骨骼上，我就要餓死了嗎？</NeedFood.stages.4.description>
-	<NeedFood.stages.5.label>極度飢餓</NeedFood.stages.5.label>
-	<NeedFood.stages.5.description>我的腦筋一片空白，只剩下食物，若非為了食物，我一步也不想動，這種飢餓感我從未經歷過。我快要失去意識了。</NeedFood.stages.5.description>
-	<NeedFood.stages.6.label>極度飢餓</NeedFood.stages.6.label>
-	<NeedFood.stages.6.description>食物...食物...什麼都可以...拜託...給我一口就好...</NeedFood.stages.6.description>
-	
-	<NeedRest.stages.0.label>疲勞</NeedRest.stages.0.label>
-	<NeedRest.stages.0.description>我有一段時間沒睡覺了。</NeedRest.stages.0.description>
-	<NeedRest.stages.1.label>非常疲勞</NeedRest.stages.1.label>
-	<NeedRest.stages.1.description>我好累阿。我真想躺下休息幾分鐘...</NeedRest.stages.1.description>
-	<NeedRest.stages.2.label>精疲力竭</NeedRest.stages.2.label>
-	<NeedRest.stages.2.description>我實在是疲憊不堪，我都快站不起來了。我覺得眼皮像是鉛做的一樣。讓我睡一會兒...</NeedRest.stages.2.description>
-	
-	<NeedJoy.stages.0.label>渴望娛樂</NeedJoy.stages.0.label>
-	<NeedJoy.stages.0.description>從我最後一次做我真正喜愛的事情後已經過了很久。</NeedJoy.stages.0.description>
-	<NeedJoy.stages.1.label>缺乏娛樂</NeedJoy.stages.1.label>
-	<NeedJoy.stages.1.description>我一直沒有時間享受一點放鬆以及娛樂。</NeedJoy.stages.1.description>
-	<NeedJoy.stages.2.label>需要娛樂</NeedJoy.stages.2.label>
-	<NeedJoy.stages.2.description>我需要找個休息時間做我喜歡的消遣。</NeedJoy.stages.2.description>
-	<NeedJoy.stages.3.label>滿足</NeedJoy.stages.3.label>
-	<NeedJoy.stages.3.description>我剛剛享受了一段美好的時光。</NeedJoy.stages.3.description>
-	<NeedJoy.stages.4.label>幸福洋溢</NeedJoy.stages.4.label>
-	<NeedJoy.stages.4.description>我享受了好多的歡樂時光，真是太幸福了！</NeedJoy.stages.4.description>
-	
-	<NeedComfort.stages.0.label>不舒適</NeedComfort.stages.0.label>
-	<NeedComfort.stages.0.description>這個地方真不夠舒適，起碼應該有個柔軟的東西能讓人坐得舒服點。</NeedComfort.stages.0.description>
-	<NeedComfort.stages.1.label>舒適</NeedComfort.stages.1.label>
-	<NeedComfort.stages.1.description>我在這裡過得挺舒適的。</NeedComfort.stages.1.description>
-	<NeedComfort.stages.2.label>十分舒適</NeedComfort.stages.2.label>
-	<NeedComfort.stages.2.description>這個地方讓人感到非常舒適。</NeedComfort.stages.2.description>
-	<NeedComfort.stages.3.label>超級舒適</NeedComfort.stages.3.label>
-	<NeedComfort.stages.3.description>任何東西都是舒適的，這個地方真是超讚的！</NeedComfort.stages.3.description>
-	<NeedComfort.stages.4.label>窮奢極侈</NeedComfort.stages.4.label>
-	<NeedComfort.stages.4.description>我正窩在天堂的雲朵裡休息......</NeedComfort.stages.4.description>
-	
-	<NeedBeauty.stages.0.label>醜陋的環境</NeedBeauty.stages.0.label>
-	<NeedBeauty.stages.0.description>這個地方真不好待。</NeedBeauty.stages.0.description>
-	<NeedBeauty.stages.1.label>非常醜陋的環境</NeedBeauty.stages.1.label>
-	<NeedBeauty.stages.1.description>這個地方太差勁了。我不想待在這裡。</NeedBeauty.stages.1.description>
-	<NeedBeauty.stages.2.label>極度醜陋的環境</NeedBeauty.stages.2.label>
-	<NeedBeauty.stages.2.description>我無法忍受這個地方。趕快讓我出去！</NeedBeauty.stages.2.description>
-	<NeedBeauty.stages.3.label>漂亮的環境</NeedBeauty.stages.3.label>
-	<NeedBeauty.stages.3.description>這個地方不錯。</NeedBeauty.stages.3.description>
-	<NeedBeauty.stages.4.label>非常漂亮的環境</NeedBeauty.stages.4.label>
-	<NeedBeauty.stages.4.description>我真的很喜歡這個地方。它太漂亮了。</NeedBeauty.stages.4.description>
-	<NeedBeauty.stages.5.label>美麗的環境</NeedBeauty.stages.5.label>
-	<NeedBeauty.stages.5.description>這個地方真是很美麗。它讓我振奮起來精力十足。</NeedBeauty.stages.5.description>
-	
-	<NeedSpace.stages.0.label>非常擁擠的環境</NeedSpace.stages.0.label>
-	<NeedSpace.stages.0.description>我覺得我就像一隻困在小籠子裡的老鼠。</NeedSpace.stages.0.description>
-	<NeedSpace.stages.1.label>擁擠的環境</NeedSpace.stages.1.label>
-	<NeedSpace.stages.1.description>我真希望能有一點能夠活動跟呼吸的空間。</NeedSpace.stages.1.description>
-	<NeedSpace.stages.2.label>寬敞的空間</NeedSpace.stages.2.label>
-	<NeedSpace.stages.2.description>這個寬敞的室內空間真讓人感到舒適。</NeedSpace.stages.2.description>
-	
+  
+  <NeedFood.stages.0.label>飢餓</NeedFood.stages.0.label>
+  <NeedFood.stages.0.description>我真的餓了。</NeedFood.stages.0.description>
+  <NeedFood.stages.1.label>飢餓</NeedFood.stages.1.label>
+  <NeedFood.stages.1.description>這飢餓感已經無法忽視。</NeedFood.stages.1.description>
+  <NeedFood.stages.2.label>非常飢餓</NeedFood.stages.2.label>
+  <NeedFood.stages.2.description>我有一段時間沒吃東西了，我的腦袋昏昏沉沉，注意力無法集中。我的身體開始不行了。</NeedFood.stages.2.description>
+  <NeedFood.stages.3.label>非常飢餓</NeedFood.stages.3.label>
+  <NeedFood.stages.3.description>我能感覺飢餓正在侵蝕我的身體，這種飢餓感我從未經歷過。</NeedFood.stages.3.description>
+  <NeedFood.stages.4.label>極度飢餓</NeedFood.stages.4.label>
+  <NeedFood.stages.4.description>我的腦筋一片空白，只剩下食物，皮膚都緊繃到了骨骼上，我就要餓死了嗎？</NeedFood.stages.4.description>
+  <NeedFood.stages.5.label>極度飢餓</NeedFood.stages.5.label>
+  <NeedFood.stages.5.description>我的腦筋一片空白，只剩下食物，若非為了食物，我一步也不想動，這種飢餓感我從未經歷過。我快要失去意識了。</NeedFood.stages.5.description>
+  <NeedFood.stages.6.label>極度飢餓</NeedFood.stages.6.label>
+  <NeedFood.stages.6.description>食物...食物...什麼都可以...拜託...給我一口就好...。</NeedFood.stages.6.description>
+  
+  <NeedRest.stages.0.label>疲勞</NeedRest.stages.0.label>
+  <NeedRest.stages.0.description>我有一段時間沒睡覺了，注意力無法集中。</NeedRest.stages.0.description>
+  <NeedRest.stages.1.label>非常疲勞</NeedRest.stages.1.label>
+  <NeedRest.stages.1.description>我好累阿。我真想躺下休息幾分鐘...。</NeedRest.stages.1.description>
+  <NeedRest.stages.2.label>精疲力竭</NeedRest.stages.2.label>
+  <NeedRest.stages.2.description>我實在是疲憊不堪，我都快站不起來了。我覺得眼皮像是鉛做的一樣。讓我睡一會兒...。</NeedRest.stages.2.description>
+  
+  <NeedJoy.stages.0.label>渴望娛樂</NeedJoy.stages.0.label>
+  <NeedJoy.stages.0.description>從我最後一次做我真正喜愛的事情後已經過了很久。</NeedJoy.stages.0.description>
+  <NeedJoy.stages.1.label>缺乏娛樂</NeedJoy.stages.1.label>
+  <NeedJoy.stages.1.description>我需要更多娛樂活動和自由時間，這個地方真的很無聊。</NeedJoy.stages.1.description>
+  <NeedJoy.stages.2.label>需要娛樂</NeedJoy.stages.2.label>
+  <NeedJoy.stages.2.description>我需要更多娛樂活動和自由時間。</NeedJoy.stages.2.description>
+  <NeedJoy.stages.3.label>滿足</NeedJoy.stages.3.label>
+  <NeedJoy.stages.3.description>我剛剛享受了一段美好的時光。</NeedJoy.stages.3.description>
+  <NeedJoy.stages.4.label>幸福洋溢</NeedJoy.stages.4.label>
+  <NeedJoy.stages.4.description>我享受了好多的歡樂時光，真是太幸福了！</NeedJoy.stages.4.description>
+  
+  <NeedComfort.stages.0.label>不舒適</NeedComfort.stages.0.label>
+  <NeedComfort.stages.0.description>這個地方真不夠舒適，起碼應該有個柔軟的東西能讓人坐得舒服點。</NeedComfort.stages.0.description>
+  <NeedComfort.stages.1.label>舒適</NeedComfort.stages.1.label>
+  <NeedComfort.stages.1.description>我在這裡過得挺舒適的。</NeedComfort.stages.1.description>
+  <NeedComfort.stages.2.label>十分舒適</NeedComfort.stages.2.label>
+  <NeedComfort.stages.2.description>這個地方讓人感到非常舒適。</NeedComfort.stages.2.description>
+  <NeedComfort.stages.3.label>超級舒適</NeedComfort.stages.3.label>
+  <NeedComfort.stages.3.description>任何東西都是舒適的，這個地方真是超讚的！</NeedComfort.stages.3.description>
+  <NeedComfort.stages.4.label>窮奢極侈</NeedComfort.stages.4.label>
+  <NeedComfort.stages.4.description>我正窩在天堂的雲朵裡休息.....。</NeedComfort.stages.4.description>
+  
+  <NeedBeauty.stages.0.label>醜陋的環境</NeedBeauty.stages.0.label>
+  <NeedBeauty.stages.0.description>這個地方讓人難以忍受的噁心，我再也看不下去了。</NeedBeauty.stages.0.description>
+  <NeedBeauty.stages.1.label>非常醜陋的環境</NeedBeauty.stages.1.label>
+  <NeedBeauty.stages.1.description>這個地方真是醜的可以，真希望可以不必再看見這些。</NeedBeauty.stages.1.description>
+  <NeedBeauty.stages.2.label>極度醜陋的環境</NeedBeauty.stages.2.label>
+  <NeedBeauty.stages.2.description>這個地方不是恨順眼，真希望我從未看見這些。</NeedBeauty.stages.2.description>
+  <NeedBeauty.stages.3.label>漂亮的環境</NeedBeauty.stages.3.label>
+  <NeedBeauty.stages.3.description>這個地方不錯。</NeedBeauty.stages.3.description>
+  <NeedBeauty.stages.4.label>非常漂亮的環境</NeedBeauty.stages.4.label>
+  <NeedBeauty.stages.4.description>我真的很喜歡這個地方。它太漂亮了。</NeedBeauty.stages.4.description>
+  <NeedBeauty.stages.5.label>美麗的環境</NeedBeauty.stages.5.label>
+  <NeedBeauty.stages.5.description>這個地方真是很美麗。它讓我振奮起來精力十足。</NeedBeauty.stages.5.description>
+
+  <NeedRoomSize.stages.0.label>壓迫的室內</NeedRoomSize.stages.0.label>
+  <NeedRoomSize.stages.0.description>我覺得我就像一隻困在小籠子裡的老鼠。</NeedRoomSize.stages.0.description>
+  <NeedRoomSize.stages.1.label>狹窄的室內</NeedRoomSize.stages.1.label>
+  <NeedRoomSize.stages.1.description>我真希望能有一點能夠活動跟呼吸的空間。</NeedRoomSize.stages.1.description>
+  <NeedRoomSize.stages.2.label>寬敞的室內</NeedRoomSize.stages.2.label>
+  <NeedRoomSize.stages.2.description>真是奢侈的房間，我感到好自由。</NeedRoomSize.stages.2.description>
+
+  <NeedOutdoors.stages.0.label>深埋的地下</NeedOutdoors.stages.0.label>
+  <NeedOutdoors.stages.0.description>我困在這地下好久了，感覺到山的重量正在壓迫我。我需要看一眼天空並感受風的流動。</NeedOutdoors.stages.0.description>
+  <NeedOutdoors.stages.1.label>囚困的地下</NeedOutdoors.stages.1.label>
+  <NeedOutdoors.stages.1.description>我困在這地下多久了？我需要出去呼吸新鮮空氣，在天空下放鬆一段時間。</NeedOutdoors.stages.1.description>
+  <NeedOutdoors.stages.2.label>幽居病</NeedOutdoors.stages.2.label>
+  <NeedOutdoors.stages.2.description>我在這室內呆了好久了，感覺天花板正向我塌陷下來。我需要出去看看天空。</NeedOutdoors.stages.2.description>
+  <NeedOutdoors.stages.3.label>困在室內</NeedOutdoors.stages.3.label>
+  <NeedOutdoors.stages.3.description>我最後一次見到天空是多久以前的事了？</NeedOutdoors.stages.3.description>
+  <NeedOutdoors.stages.4.label>悶在室內</NeedOutdoors.stages.4.label>
+  <NeedOutdoors.stages.4.description>我需要出去呼吸新鮮空氣。</NeedOutdoors.stages.4.description>
+  
 </LanguageData>

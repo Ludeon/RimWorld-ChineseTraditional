@@ -1,25 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿ <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
  
   <PowerConduit.label>電纜</PowerConduit.label>
   <PowerConduit.description>一條用於傳輸電力的電纜線。</PowerConduit.description>
+  <PowerConduit_Blueprint.label>電纜(藍圖)</PowerConduit_Blueprint.label>
+  <PowerConduit_Frame.label>電纜(建造中)</PowerConduit_Frame.label>
+  <PowerConduit_Frame.description>一條用於傳輸電力的電纜線。</PowerConduit_Frame.description>
+
+  <WaterproofConduit.label>防水電纜</WaterproofConduit.label>
+  <WaterproofConduit.description>可以在淺水地區傳輸電力的電纜。</WaterproofConduit.description>
+  <WaterproofConduit_Blueprint.label>防水電纜(藍圖)</WaterproofConduit_Blueprint.label>
+  <WaterproofConduit_Frame.label>防水電纜 (building)</WaterproofConduit_Frame.label>
+  <WaterproofConduit_Frame.description>可以在淺水地區傳輸電力的電纜。</WaterproofConduit_Frame.description>
   
   <PowerSwitch.label>供電閥</PowerSwitch.label>
   <PowerSwitch.description>開啟或關閉供電閥切換電源供應。</PowerSwitch.description>
+  <PowerSwitch_Blueprint.label>供電閥(藍圖)</PowerSwitch_Blueprint.label>
+  <PowerSwitch_Frame.label>供電閥(建造中)</PowerSwitch_Frame.label>
+  <PowerSwitch_Frame.description>開啟或關閉供電閥切換電源供應。</PowerSwitch_Frame.description>
 
-  <WoodFiredGenerator.label>木材發電機</WoodFiredGenerator.label>
-  <WoodFiredGenerator.description>燃燒木材產生電力，燃料需要手動裝填。</WoodFiredGenerator.description>
+  <WoodFiredGenerator.label>燃木發電機</WoodFiredGenerator.label>
+  <WoodFiredGenerator.description>燃燒木材產生電力，燃料需要定期手動裝填。</WoodFiredGenerator.description>
+  <WoodFiredGenerator_Blueprint.label>燃木發電機(藍圖)</WoodFiredGenerator_Blueprint.label>
+  <WoodFiredGenerator_Frame.label>燃木發電機(建造中)</WoodFiredGenerator_Frame.label>
+  <WoodFiredGenerator_Frame.description>燃燒木材產生電力，燃料需要定期手動裝填。</WoodFiredGenerator_Frame.description>
 
   <ChemfuelPoweredGenerator.label>化合燃料發電機</ChemfuelPoweredGenerator.label>
-  <ChemfuelPoweredGenerator.description>燃燒化合燃料產生電力，燃料需要手動裝填。</ChemfuelPoweredGenerator.description>
+  <ChemfuelPoweredGenerator.description>燃燒化合燃料產生電力，燃料需要定期手動裝填。</ChemfuelPoweredGenerator.description>
+  <ChemfuelPoweredGenerator_Blueprint.label>化合燃料發電機(藍圖)</ChemfuelPoweredGenerator_Blueprint.label>
+  <ChemfuelPoweredGenerator_Frame.label>化合燃料發電機(建造中)</ChemfuelPoweredGenerator_Frame.label>
+  <ChemfuelPoweredGenerator_Frame.description>燃燒化合燃料產生電力，燃料需要定期手動裝填。</ChemfuelPoweredGenerator_Frame.description>
     
   <Battery.label>蓄電池</Battery.label>
   <Battery.description>儲存多餘的電力並在電力供給不足時釋放電力。警告：充滿的電池容易在高温或潮濕時爆炸。</Battery.description>
+  <Battery_Blueprint.label>蓄電池(藍圖)</Battery_Blueprint.label>
+  <Battery_Frame.label>蓄電池(建造中)</Battery_Frame.label>
+  <Battery_Frame.description>儲存多餘的電力並在電力供給不足時釋放電力。警告：充滿的電池容易在高温或潮濕時爆炸。</Battery_Frame.description>
+  <Battery_Blueprint_Install.label>蓄電池預定地</Battery_Blueprint_Install.label>
     
   <SolarGenerator.label>太陽能板</SolarGenerator.label>
   <SolarGenerator.description>用陽光發電，但在缺乏陽光時無法工作。</SolarGenerator.description>
+  <SolarGenerator_Blueprint.label>太陽能板(藍圖)</SolarGenerator_Blueprint.label>
+  <SolarGenerator_Frame.label>太陽能板(建造中)</SolarGenerator_Frame.label>
+  <SolarGenerator_Frame.description>用陽光發電，但在缺乏陽光時無法工作。</SolarGenerator_Frame.description>
     
   <GeothermalGenerator.label>地熱發電機</GeothermalGenerator.label>
-  <GeothermalGenerator.description>用蒸氣間歇泉來發電，必須建造在噴泉正上方。</GeothermalGenerator.description>
+  <GeothermalGenerator.description>用蒸氣間歇泉來發電，必須建造在噴泉口正上方。</GeothermalGenerator.description>
+  <GeothermalGenerator_Blueprint.label>地熱發電機(藍圖)</GeothermalGenerator_Blueprint.label>
+  <GeothermalGenerator_Frame.label>地熱發電機(建造中)</GeothermalGenerator_Frame.label>
+  <GeothermalGenerator_Frame.description>用蒸氣間歇泉來發電，必須建造在噴泉口正上方。</GeothermalGenerator_Frame.description>
+
+  <WatermillGenerator.label>水車發電機</WatermillGenerator.label>
+  <WatermillGenerator.description>從河流獲取電力。必須將發電機的水車部份放置於流動水域中。</WatermillGenerator.description>
+  <WatermillGenerator_Blueprint.label>水車發電機(藍圖)</WatermillGenerator_Blueprint.label>
+  <WatermillGenerator_Frame.label>水車發電機(建造中)</WatermillGenerator_Frame.label>
+  <WatermillGenerator_Frame.description>從河流獲取電力。必須將發電機的水車部份放置於流動水域中。</WatermillGenerator_Frame.description>
 
 </LanguageData>

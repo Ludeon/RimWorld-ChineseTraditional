@@ -1,16 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <!-- Misc chunks -->
   
   <ChunkSlagSteel.label>金屬碎片</ChunkSlagSteel.label>
-  <ChunkSlagSteel.description>一個鋼鐵的碎塊，在這種狀態下沒什麼用，但可以用以熔煉出鋼鐵。</ChunkSlagSteel.description>
+  <ChunkSlagSteel.description>一個鋼鐵的碎塊，雖然在這種狀態下沒什麼用，但可以熔煉出鋼鐵。</ChunkSlagSteel.description>
 
 
   <!-- Sandstone -->
   
   <Sandstone.label>砂岩</Sandstone.label>
   <Sandstone.description>一種由沙粒經過壓縮形成的沉積岩。</Sandstone.description>
+
+  <SmoothedSandstone.label>光滑砂岩</SmoothedSandstone.label>
+  <SmoothedSandstone.description>一種由沙粒經過壓縮形成的沉積岩。表面經過拋光。</SmoothedSandstone.description>
   
   <ChunkSandstone.label>砂岩塊</ChunkSandstone.label>
   <ChunkSandstone.description>一大塊岩石，可以加工成有用的石材。</ChunkSandstone.description>
@@ -24,6 +27,9 @@
   
   <Granite.label>花崗岩</Granite.label>
   <Granite.description>一種非常堅硬的火成岩。</Granite.description>
+
+  <SmoothedGranite.label>光滑花崗岩</SmoothedGranite.label>
+  <SmoothedGranite.description>一種非常堅硬的火成岩。閃亮的表面被黑色、白色和粉色的斑點所填滿。</SmoothedGranite.description>
   
   <ChunkGranite.label>花崗岩塊</ChunkGranite.label>
   <ChunkGranite.description>一大塊岩石，可以加工成有用的石材。</ChunkGranite.description>
@@ -37,6 +43,9 @@
   
   <Limestone.label>石灰岩</Limestone.label>
   <Limestone.description>一種由古代貝類屍體經過壓縮形成的沉積岩。</Limestone.description>
+
+  <SmoothedLimestone.label>光滑石灰岩</SmoothedLimestone.label>
+  <SmoothedLimestone.description>一種由古代貝類屍體經過壓縮形成的沉積岩。柔滑的白色中參雜少量雜質。</SmoothedLimestone.description>
   
   <ChunkLimestone.label>石灰岩塊</ChunkLimestone.label>
   <ChunkLimestone.description>一大塊岩石，可以加工成有用的石材。</ChunkLimestone.description>
@@ -49,7 +58,10 @@
   <!-- Slate -->
   
   <Slate.label>板岩</Slate.label>
-  <Slate.description>一種深色的變質岩。明顯的分層是它的象徵。</Slate.description>
+  <Slate.description>一種深色的變質岩。明顯的分層是它的特色。</Slate.description>
+
+  <SmoothedSlate.label>光滑板岩</SmoothedSlate.label>
+  <SmoothedSlate.description>一種深色的變質岩。明顯的分層是它的特色。表面經過拋光而可以看見內部紋理。</SmoothedSlate.description>
   
   <ChunkSlate.label>板岩塊</ChunkSlate.label>
   <ChunkSlate.description>一大塊岩石，可以加工成有用的石材。</ChunkSlate.description>
@@ -63,6 +75,9 @@
   
   <Marble.label>大理石</Marble.label>
   <Marble.description>一種柔軟的變質岩。</Marble.description>
+
+  <SmoothedMarble.label>光滑大理石</SmoothedMarble.label>
+  <SmoothedMarble.description>一種柔軟的變質岩。這種半透明的岩石看起來像是自己發出了光芒。</SmoothedMarble.description>
   
   <ChunkMarble.label>大理石塊</ChunkMarble.label>
   <ChunkMarble.description>一大塊岩石，可以加工成有用的石材。</ChunkMarble.description>

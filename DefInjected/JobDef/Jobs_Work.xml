@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
   <!-- Item hauling -->
   
   <HaulToCell.reportString>運送TargetA。</HaulToCell.reportString>
   <HaulToContainer.reportString>運送TargetA。</HaulToContainer.reportString>
-  
-  <!--============= Special hauling ===============-->
+
+
+  <!-- Special hauling -->
   
   <Steal.reportString>掠奪TargetA。</Steal.reportString>
   <Kidnap.reportString>綁架TargetA。</Kidnap.reportString>
   <CarryDownedPawnToExit.reportString>救援TargetA。</CarryDownedPawnToExit.reportString>
+  
   
   <!-- Pawn hauling -->
   
@@ -22,6 +24,7 @@
   <EscortPrisonerToBed.reportString>押送犯人TargetA。</EscortPrisonerToBed.reportString>
   <TakeWoundedPrisonerToBed.reportString>帶走受傷的犯人TargetA。</TakeWoundedPrisonerToBed.reportString>
   <TakeToBedToOperate.reportString>帶TargetA到床上。</TakeToBedToOperate.reportString>
+  
   
   <!-- Animal handling -->
   
@@ -43,6 +46,7 @@
   <BuildRoof.reportString>搭建屋頂。</BuildRoof.reportString>
   <RemoveRoof.reportString>拆除屋頂。</RemoveRoof.reportString>
   
+  
   <!-- Medical -->
   
   <FeedPatient.reportString>餵食TargetBTargetA。</FeedPatient.reportString>
@@ -53,20 +57,22 @@
   
   <DeliverFood.reportString>正將TargetA帶给TargetB吃。</DeliverFood.reportString>
   <DoBill.reportString>做TargetA清單上的内容。</DoBill.reportString>
+  <OperateDeepDrill.reportString>在TargetA採礦。</OperateDeepDrill.reportString>
   <Clean.reportString>清理TargetA。</Clean.reportString>
   <Research.reportString>進行研究。</Research.reportString>
   <Hunt.reportString>狩獵TargetA。</Hunt.reportString>
   <UseCommsConsole.reportString>通訊中。</UseCommsConsole.reportString>
   <Mine.reportString>開採TargetA。</Mine.reportString>
-  <SmoothFloor.reportString>磨光地面。</SmoothFloor.reportString>
+  <SmoothFloor.reportString>拋光地面。</SmoothFloor.reportString>
   <RemoveFloor.reportString>拆除地板。</RemoveFloor.reportString>
+  <SmoothWall.reportString>拋光岩壁。</SmoothWall.reportString>
   <Sow.reportString>種植TargetA。</Sow.reportString>
   <Harvest.reportString>收穫TargetA。</Harvest.reportString>
+  <HarvestDesignated.reportString>收穫TargetA。</HarvestDesignated.reportString>
   <CutPlant.reportString>除掉TargetA。</CutPlant.reportString>
+  <CutPlantDesignated.reportString>除掉TargetA。</CutPlantDesignated.reportString>
   <PrisonerFriendlyChat.reportString>正和俘虜TargetA聊天。</PrisonerFriendlyChat.reportString>
   <PrisonerAttemptRecruit.reportString>嘗試招募TargetA。</PrisonerAttemptRecruit.reportString>
   <PrisonerExecution.reportString>準備處決TargetA。</PrisonerExecution.reportString>
-  <BuryCorpse.reportString>埋葬TargetA。</BuryCorpse.reportString>
-  <OperateDeepDrill.reportString>操作TargetA。</OperateDeepDrill.reportString>
   
 </LanguageData>

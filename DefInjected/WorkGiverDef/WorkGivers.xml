@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Firefighter -->
@@ -21,17 +21,9 @@
 
   <!-- Doctor -->
   
-  <DoctorTendEmergency.label>緊急治療</DoctorTendEmergency.label>
+  <DoctorTendEmergency.label>優先治療重傷患</DoctorTendEmergency.label>
   <DoctorTendEmergency.verb>緊急治療</DoctorTendEmergency.verb>
   <DoctorTendEmergency.gerund>急救</DoctorTendEmergency.gerund>
-  
-  <DoctorRescue.label>救援倒地的友軍</DoctorRescue.label>
-  <DoctorRescue.verb>援救</DoctorRescue.verb>
-  <DoctorRescue.gerund>救援</DoctorRescue.gerund>
-  
-  <DoBillsMedicalHumanOperation.label>為病患進行手術</DoBillsMedicalHumanOperation.label>
-  <DoBillsMedicalHumanOperation.verb>手術</DoBillsMedicalHumanOperation.verb>
-  <DoBillsMedicalHumanOperation.gerund>手術於</DoBillsMedicalHumanOperation.gerund>
 
   <DoctorTendToHumanlikes.label>治療病患</DoctorTendToHumanlikes.label>
   <DoctorTendToHumanlikes.verb>治療</DoctorTendToHumanlikes.verb>
@@ -44,10 +36,14 @@
   <DoctorFeedHumanlikes.label>餵食病患</DoctorFeedHumanlikes.label>
   <DoctorFeedHumanlikes.verb>餵食病患</DoctorFeedHumanlikes.verb>
   <DoctorFeedHumanlikes.gerund>餵食</DoctorFeedHumanlikes.gerund>
-  
-  <DoBillsMedicalAnimalOperation.label>為動物進行手術</DoBillsMedicalAnimalOperation.label>
-  <DoBillsMedicalAnimalOperation.verb>手術</DoBillsMedicalAnimalOperation.verb>
-  <DoBillsMedicalAnimalOperation.gerund>手術於</DoBillsMedicalAnimalOperation.gerund>
+
+  <DoBillsMedicalHumanOperation.label>對人進行手術</DoBillsMedicalHumanOperation.label>
+  <DoBillsMedicalHumanOperation.verb>進行手術於</DoBillsMedicalHumanOperation.verb>
+  <DoBillsMedicalHumanOperation.gerund>進行手術於</DoBillsMedicalHumanOperation.gerund>
+
+  <DoctorRescue.label>救援友方至床上</DoctorRescue.label>
+  <DoctorRescue.verb>救援</DoctorRescue.verb>
+  <DoctorRescue.gerund>救援</DoctorRescue.gerund>
 
   <DoctorTendToAnimals.label>治療動物</DoctorTendToAnimals.label>
   <DoctorTendToAnimals.verb>治療</DoctorTendToAnimals.verb>
@@ -56,6 +52,10 @@
   <DoctorFeedAnimals.label>餵食動物</DoctorFeedAnimals.label>
   <DoctorFeedAnimals.verb>餵食</DoctorFeedAnimals.verb>
   <DoctorFeedAnimals.gerund>餵食</DoctorFeedAnimals.gerund>
+  
+  <DoBillsMedicalAnimalOperation.label>為動物進行手術</DoBillsMedicalAnimalOperation.label>
+  <DoBillsMedicalAnimalOperation.verb>手術</DoBillsMedicalAnimalOperation.verb>
+  <DoBillsMedicalAnimalOperation.gerund>手術於</DoBillsMedicalAnimalOperation.gerund>
   
   <TakeToBedToOperate.label>將病患帶至手術地點</TakeToBedToOperate.label>
   <TakeToBedToOperate.verb>前往手術</TakeToBedToOperate.verb>
@@ -73,11 +73,15 @@
   <PatientGoToBedRecuperate.gerund>休養於</PatientGoToBedRecuperate.gerund>
 
 
-  <!-- Flicker -->
+  <!-- Basic worker -->
 
   <Flick.label>開關電源</Flick.label>
   <Flick.verb>開關電源</Flick.verb>
   <Flick.gerund>開關電源</Flick.gerund>
+
+  <BasicReleasePrisoner.label>釋放俘虜</BasicReleasePrisoner.label>
+  <BasicReleasePrisoner.verb>釋放</BasicReleasePrisoner.verb>
+  <BasicReleasePrisoner.gerund>釋放</BasicReleasePrisoner.gerund>
 
 
   <!-- Warden -->
@@ -108,6 +112,10 @@
 
 
   <!-- Handling -->
+
+  <HandlingFeedPatientAnimals.label>喂養動物</HandlingFeedPatientAnimals.label>
+  <HandlingFeedPatientAnimals.verb>喂養</HandlingFeedPatientAnimals.verb>
+  <HandlingFeedPatientAnimals.gerund>喂養</HandlingFeedPatientAnimals.gerund>
 
   <Slaughter.label>宰殺動物</Slaughter.label>
   <Slaughter.verb>宰殺</Slaughter.verb>
@@ -186,7 +194,7 @@
   <ConstructDeliverResourcesToFrames.verb>運送材料</ConstructDeliverResourcesToFrames.verb>
   <ConstructDeliverResourcesToFrames.gerund>運送材料至</ConstructDeliverResourcesToFrames.gerund>
   
-  <ConstructDeliverResourcesToBlueprints.label>運送材料至藍圖</ConstructDeliverResourcesToBlueprints.label>
+  <ConstructDeliverResourcesToBlueprints.label>運送材料至(藍圖)</ConstructDeliverResourcesToBlueprints.label>
   <ConstructDeliverResourcesToBlueprints.verb>運送材料</ConstructDeliverResourcesToBlueprints.verb>
   <ConstructDeliverResourcesToBlueprints.gerund>運送材料至</ConstructDeliverResourcesToBlueprints.gerund>
 
@@ -201,10 +209,14 @@
   <ConstructRemoveFloors.label>拆除地板</ConstructRemoveFloors.label>
   <ConstructRemoveFloors.verb>拆除地板</ConstructRemoveFloors.verb>
   <ConstructRemoveFloors.gerund>拆除地板於</ConstructRemoveFloors.gerund>
+
+  <ConstructSmoothWalls.label>拋光岩壁</ConstructSmoothWalls.label>
+  <ConstructSmoothWalls.verb>拋光岩壁</ConstructSmoothWalls.verb>
+  <ConstructSmoothWalls.gerund>拋光岩壁於</ConstructSmoothWalls.gerund>
   
-  <ConstructSmoothFloors.label>磨光地面</ConstructSmoothFloors.label>
-  <ConstructSmoothFloors.verb>磨光地面</ConstructSmoothFloors.verb>
-  <ConstructSmoothFloors.gerund>磨光地面於</ConstructSmoothFloors.gerund>
+  <ConstructSmoothFloors.label>拋光地面</ConstructSmoothFloors.label>
+  <ConstructSmoothFloors.verb>拋光地面</ConstructSmoothFloors.verb>
+  <ConstructSmoothFloors.gerund>拋光地面於</ConstructSmoothFloors.gerund>
 
 
   <!-- Growing -->
@@ -224,7 +236,7 @@
   <Mine.verb>開採</Mine.verb>
   <Mine.gerund>開採</Mine.gerund>
   
-  <Drill.label>採掘</Drill.label>
+  <Drill.label>操作採掘機進行開採</Drill.label>
   <Drill.verb>採掘</Drill.verb>
   <Drill.gerund>操作</Drill.gerund>
 
@@ -246,15 +258,15 @@
   <DoBillsMachiningTable.verb>工作</DoBillsMachiningTable.verb>
   <DoBillsMachiningTable.gerund>工作於</DoBillsMachiningTable.gerund>
   
-  <DoBillsComponentAssemblyBench.label>生產電子零件</DoBillsComponentAssemblyBench.label>
-  <DoBillsComponentAssemblyBench.verb>生產</DoBillsComponentAssemblyBench.verb>
-  <DoBillsComponentAssemblyBench.gerund>工作於</DoBillsComponentAssemblyBench.gerund>
+  <DoBillsFabricationBench.label>組裝物品</DoBillsFabricationBench.label>
+  <DoBillsFabricationBench.verb>組裝</DoBillsFabricationBench.verb>
+  <DoBillsFabricationBench.gerund>工作於</DoBillsFabricationBench.gerund>
 
 
   <!-- Tailoring -->
   
-  <DoBillsMakeApparel.label>裁縫</DoBillsMakeApparel.label>
-  <DoBillsMakeApparel.verb>裁縫</DoBillsMakeApparel.verb>
+  <DoBillsMakeApparel.label>生產衣物</DoBillsMakeApparel.label>
+  <DoBillsMakeApparel.verb>生產</DoBillsMakeApparel.verb>
   <DoBillsMakeApparel.gerund>工作於</DoBillsMakeApparel.gerund>
 
 
@@ -265,11 +277,21 @@
   <DoBillsSculpt.gerund>雕刻於</DoBillsSculpt.gerund>
 
 
-  <!-- Crafting -->
-
-  <DoBillsMedicalMechanoidOperation.label>調整機械</DoBillsMedicalMechanoidOperation.label>
-  <DoBillsMedicalMechanoidOperation.verb>調整機械</DoBillsMedicalMechanoidOperation.verb>
-  <DoBillsMedicalMechanoidOperation.gerund>調整</DoBillsMedicalMechanoidOperation.gerund>
+  <!-- <WorkGiverDef>
+    <defName>DoBillsMedicalMechanoidOperation</defName>
+    <label>operate on mechanoids</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>110</priorityInType>
+    <billGiversAllMechanoids>true</billGiversAllMechanoids>
+    <billGiversAllMechanoidsCorpses>true</billGiversAllMechanoidsCorpses>
+    <verb>modify</verb>
+    <gerund>modifying</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef> -->
   
   <DoBillsUseCraftingSpot.label>製造兵器</DoBillsUseCraftingSpot.label>
   <DoBillsUseCraftingSpot.verb>製造</DoBillsUseCraftingSpot.verb>
@@ -293,6 +315,10 @@
 
 
   <!-- Hauling -->
+
+  <RearmTurrets.label>整備砲塔</RearmTurrets.label>
+  <RearmTurrets.verb>整備</RearmTurrets.verb>
+  <RearmTurrets.gerund>整備</RearmTurrets.gerund>
   
   <UnloadCarriers.label>卸貨</UnloadCarriers.label>
   <UnloadCarriers.verb>卸貨</UnloadCarriers.verb>
@@ -309,10 +335,6 @@
   <Strip.label>掠奪</Strip.label>
   <Strip.verb>掠奪</Strip.verb>
   <Strip.gerund>扒光</Strip.gerund>
-  
-  <BuryCorpses.label>埋葬屍體</BuryCorpses.label>
-  <BuryCorpses.verb>埋葬</BuryCorpses.verb>
-  <BuryCorpses.gerund>埋葬</BuryCorpses.gerund>
   
   <HaulCorpses.label>運送屍體</HaulCorpses.label>
   <HaulCorpses.verb>運送</HaulCorpses.verb>
@@ -349,6 +371,18 @@
   <HaulGeneral.label>搬運物品</HaulGeneral.label>
   <HaulGeneral.verb>搬運</HaulGeneral.verb>
   <HaulGeneral.gerund>搬運</HaulGeneral.gerund>
+
+  <DeliverResourcesToFrames.label>運送資源至施工處</DeliverResourcesToFrames.label>
+  <DeliverResourcesToFrames.verb>運送資源至</DeliverResourcesToFrames.verb>
+  <DeliverResourcesToFrames.gerund>運送資源至</DeliverResourcesToFrames.gerund>
+
+  <DeliverResourcesToBlueprints.label>運送資源至施工處</DeliverResourcesToBlueprints.label>
+  <DeliverResourcesToBlueprints.verb>運送資源至</DeliverResourcesToBlueprints.verb>
+  <DeliverResourcesToBlueprints.gerund>運送資源至</DeliverResourcesToBlueprints.gerund>
+
+  <HaulMerge.label>合併物品</HaulMerge.label>
+  <HaulMerge.verb>合併</HaulMerge.verb>
+  <HaulMerge.gerund>合併</HaulMerge.gerund>
 
 
   <!-- Cleaning -->

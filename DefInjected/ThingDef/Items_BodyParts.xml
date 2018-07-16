@@ -1,41 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!-- natural -->
   
   <Heart.label>心臟</Heart.label>
-  <Heart.description>輸送血液和氧氣到身體各個部位。他正等待一個新的主人。</Heart.description>
+  <Heart.description>一個自然生成的心臟。向全身輸送血液。</Heart.description>
   
   <Lung.label>肺臟</Lung.label>
-  <Lung.description>呼吸系統中最重要的部分。</Lung.description>
+  <Lung.description>一個自然生成的肺臟。人類的呼吸系統的核心由一對肺臟組成。</Lung.description>
   
   <Kidney.label>腎臟</Kidney.label>
-  <Kidney.description>從血液中過濾和移除廢物。</Kidney.description>
+  <Kidney.description>一個自然生成的腎臟。從血液中過濾並排除廢物。</Kidney.description>
   
   <Liver.label>肝臟</Liver.label>
-  <Liver.description>在代謝過程中扮演非常重要的角色。</Liver.description>
-  
-  <!-- artificial - simple prosthetics -->
-  
-  <SimpleProstheticLeg.label>簡單腿部義肢</SimpleProstheticLeg.label>
-  <SimpleProstheticLeg.description>用來取代失去的腿部的義肢，穿戴起來並不是非常舒適，但工作上擁有不錯的效率。</SimpleProstheticLeg.description>
-  
-  <SimpleProstheticArm.label>簡單手臂義肢</SimpleProstheticArm.label>
-  <SimpleProstheticArm.description>簡單而耐用的手臂義肢。</SimpleProstheticArm.description>
-  
-  <!-- artificial - bionics -->
+  <Liver.description>一個自然生成的肝臟。在代謝過程中扮演非常重要的角色。</Liver.description>
+
+
+  <!-- simple prosthetics (industrial tech) -->
+
+  <SimpleProstheticLeg.label>簡單義腿</SimpleProstheticLeg.label>
+  <SimpleProstheticLeg.description>腿部的義肢。雖然缺少中介質，但其內部精密複雜的關節設計使之能模擬自然人體的運動，不過仍然不如一隻真正的腿。</SimpleProstheticLeg.description>
+
+  <SimpleProstheticArm.label>簡單義手</SimpleProstheticArm.label>
+  <SimpleProstheticArm.description>手臂的義肢。雖然缺少中介質，但其內部精密複雜的關節設計使之能模擬自然人體的運動，不過仍然不如一隻真正的手臂。</SimpleProstheticArm.description>
+
+  <SimpleProstheticHeart.label>人工心臟</SimpleProstheticHeart.label>
+  <SimpleProstheticHeart.description>一顆人造的心臟。內部含有一顆電動馬達，向全身輸送血液。使用者會比健康的人更容易感到疲倦，但總比沒有好。</SimpleProstheticHeart.description>
+
+  <CochlearImplant.label>人工耳</CochlearImplant.label>
+  <CochlearImplant.description>text_todo</CochlearImplant.description>
+
+
+  <!-- bionics (spacer tech) -->
   
   <BionicEye.label>仿生眼</BionicEye.label>
-  <BionicEye.description>用來取代正常眼睛所有功能的高科技仿生眼，同時會賦予使用者看見超自然現象的能力。</BionicEye.description>
+  <BionicEye.description>先進的人造眼睛。藉由生物凝膠與神經建立連結，內含信號轉譯器與廣域光譜傳感器，幾乎在任何方面都優於天生的眼睛。粒子方陣系統使其能從受損中自行修復。</BionicEye.description>
   
   <BionicArm.label>仿生手臂</BionicArm.label>
-  <BionicArm.description>以最先進的科技打造出的仿生手臂，給予它的使用者極致的力量。</BionicArm.description>
+  <BionicArm.description>先進的人造手臂。靜音的微型伺服馬達提供了強大的力量，生物凝膠連結的神經提供精準的控制性，幾乎在任何方面都優於天生的手臂。粒子方陣系統使其能從受損中自行修復。</BionicArm.description>
   
   <BionicLeg.label>仿生腿</BionicLeg.label>
-  <BionicLeg.description>仿生腿採用最頂尖的技術在行走上給它的主人極致的舒適度和強度。</BionicLeg.description>
+  <BionicLeg.description>先進的人造腿。靜音的微型伺服馬達提供了強大的力量，幾乎在任何方面都優於天生的腿。粒子方陣系統使其能從受損中自行修復。</BionicLeg.description>
+  
+  <BionicSpine.label>仿生脊椎</BionicSpine.label>
+  <BionicSpine.description>先進的人造脊椎。生物凝膠向下鉸接被能夠自我修復的粒子方陣系統包覆的塑鋼核心，如一個天生部位般完美的運作。</BionicSpine.description>
+
+  <BionicHeart.label>仿生心臟</BionicHeart.label>
+  <BionicHeart.description>先進的人造心臟。具有合成肌纖維，可模擬逼真的心跳，另外還有一個大流量泵可以在高壓下快速進行血液循環。幾乎在任何方面都優於天生的心臟。</BionicHeart.description>
+
+  <BionicStomach.label>仿生胃</BionicStomach.label>
+  <BionicStomach.description>先進的人造胃。內建一套傳感器以及化學物質合成器，能有效率的消化任何食物，幾乎在任何方面都優於天生的胃。粒子方陣系統使其能從受損中自行修復。</BionicStomach.description>
+
+  <BionicEar.label>仿生耳</BionicEar.label>
+  <BionicEar.description>text_todo</BionicEar.description>
+
+
+  <!-- bionic non-makeable -->
   
   <PowerClaw.label>動力爪</PowerClaw.label>
-  <PowerClaw.description>帶有三支致命利爪的強大手臂。</PowerClaw.description>
+  <PowerClaw.description>一隻完全戰鬥向的機械手臂，有著三支致命的利爪。它在戰鬥中是兇殘的存在，威力強大的微型伺服馬達讓它能輕易的像捏雞蛋一樣捏爆敵人的腦袋。突出的刀片可以收納，使之在非戰鬥情況也能作為一支普通手臂一樣被運用。</PowerClaw.description>
   
-  <ScytherBlade.label>鐮刀機械鎧</ScytherBlade.label>
-  <ScytherBlade.description>用刀片取代手臂，並非非常舒適，但作為一個近戰武器是相當有效的。</ScytherBlade.description>
+
+  <!-- archotech -->
+
+  <ArchotechEye.label>遠古科技眼</ArchotechEye.label>
+  <ArchotechEye.description>以遠古科技打造的人造眼。它可以感知各種波長的電波，包括無線電波，紅外線，光線，X射線和伽馬射線，而視覺解析度足以辨識在20公尺外的手寫文字。它還能向外發出電波，當作探照燈使用，內部還搭載一個次級AI，用於突顯有用的視覺訊息。從外觀看來，它就是一個普通的人眼，但還可以任意改變顏色，其內部所有的運作原理對人類思想來說全是一團迷。</ArchotechEye.description>
+
+  <ArchotechArm.label>遠古科技手臂</ArchotechArm.label>
+  <ArchotechArm.description>以遠古科技打造的人造眼。它的力量足以捏斷厚實的硬木枝幹，又精確到能在一粒米上寫下一首十四行詩。外觀與觸感都像是一支自然的手臂，卻又比塑鋼更堅固耐用ㄒ即便受到損傷，也能隨時間自行修復。其內部所有的運作原理對人類思想來說全是一團迷。</ArchotechArm.description>
+
+  <ArchotechLeg.label>遠古科技腿</ArchotechLeg.label>
+  <ArchotechLeg.description>以遠古科技打造的人造眼。它的外觀與觸感都像是一支自然的腿，但擁有這樣的一對腿後便能獲得與汽車並駕齊驅的速度。即便受到損傷，也能隨時間自行修復。其內部所有的運作原理對人類思想來說全是一團迷。</ArchotechLeg.description>
+
   
 </LanguageData>
