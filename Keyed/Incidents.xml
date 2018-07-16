@@ -47,7 +47,11 @@
   <VisitorsLeaving>來自{0}的拜訪者離開了。</VisitorsLeaving>
 
   <LetterLabelWandererJoin>志願者</LetterLabelWandererJoin>
+<<<<<<< HEAD
   <WandererJoin>一位名叫Name的{0}來到了這裡並加入了殖民地。[PAWN_pronoun]是一位{1}。</WandererJoin>
+=======
+  <WandererJoin>一位名叫[PAWN_nameDef]的{0}來到了這裡並加入了殖民地。[PAWN_pronoun]是一位{1}。</WandererJoin>
+>>>>>>> origin/master
   
   <LetterLabelManhunterPackArrived>獸群襲擊</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>一票專門襲擊人類的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何活人。\n\n牠們通常不會破門而入，待在室內是安全的選擇。未運作的機槍炮塔也不會成為攻擊目標，如果你想保住它們，記得關掉電源。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
@@ -81,7 +85,11 @@
   
   <!-- Refugee chased -->
   <RefugeeChasedTitle>給{0}的庇護請求</RefugeeChasedTitle>
+<<<<<<< HEAD
   <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。[PAWN_pronoun]說他正被來自{3}的{2}追殺！\n\n[PAWN_pronoun]請求加入殖民地以獲得庇護。HIS生理年齡是{4}歲。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
+=======
+  <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。[PAWN_pronoun]說他正被來自{3}的{2}追殺！\n\n[PAWN_pronoun]請求加入殖民地以獲得庇護。[PAWN_possessive]生理年齡是{4}歲。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在[PAWN_pronoun]身後的{2}！</RefugeeChasedInitial>
+>>>>>>> origin/master
   <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>忽略訊息</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>在你切斷與{0}的通訊之前，一陣淒厲的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
@@ -110,7 +118,7 @@
   
   <!-- Ransom demand -->
   <RansomDemandTitle>給{0}的贖金要求</RansomDemandTitle>
-  <RansomDemand>{1}透過無線電呼叫你，他們挾持{0}以要脅贖金。\n\n如果你願意支付{2}白銀的贖金，他們將很樂意放HE回來。</RansomDemand>
+  <RansomDemand>{1}透過無線電呼叫你，他們挾持{0}以要脅贖金。\n\n如果你願意支付{2}白銀的贖金，他們將很樂意放[PAWN_pronoun]回來。</RansomDemand>
   <RansomDemand_Accept>支付贖金</RansomDemand_Accept>
   <RansomDemand_Reject>拒絕支付</RansomDemand_Reject>
   

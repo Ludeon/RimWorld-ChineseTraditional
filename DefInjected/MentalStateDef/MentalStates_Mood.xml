@@ -25,13 +25,21 @@
   <Jailbreaker.baseInspectLine>心理狀態：煽動越獄</Jailbreaker.baseInspectLine>
 
   <Slaughterer.label>屠殺動物</Slaughterer.label>
+<<<<<<< HEAD
   <Slaughterer.beginLetter>{0}壓抑不住情緒了，[PAWN_possessive]要將怒火發洩在你的動物身上。</Slaughterer.beginLetter>
+=======
+  <Slaughterer.beginLetter>{0}壓抑不住情緒了，[PAWN_pronoun]要將怒火發洩在你的動物身上。</Slaughterer.beginLetter>
+>>>>>>> origin/master
   <Slaughterer.beginLetterLabel>屠殺動物</Slaughterer.beginLetterLabel>
   <Slaughterer.recoveryMessage>{0}停止傷害動物了。</Slaughterer.recoveryMessage>
   <Slaughterer.baseInspectLine>心理狀態：屠殺動物</Slaughterer.baseInspectLine>
 
   <MurderousRage.label>憤而謀殺</MurderousRage.label>
+<<<<<<< HEAD
   <MurderousRage.beginLetter>{0}發狂了。\n\n[PAWN_pronoun]打算殺死{1}。</MurderousRage.beginLetter>
+=======
+  <MurderousRage.beginLetter>{0}發狂了，[PAWN_pronoun]打算殺了{1}。</MurderousRage.beginLetter>
+>>>>>>> origin/master
   <MurderousRage.beginLetterLabel>憤而謀殺</MurderousRage.beginLetterLabel>
   <MurderousRage.recoveryMessage>{0}恢復理智了。</MurderousRage.recoveryMessage>
   <MurderousRage.baseInspectLine>心理狀態：憤而謀殺</MurderousRage.baseInspectLine>
@@ -61,25 +69,41 @@
   <Tantrum.baseInspectLine>心理狀態：發怒</Tantrum.baseInspectLine>
 
   <TargetedTantrum.label>發怒</TargetedTantrum.label>
+<<<<<<< HEAD
   <TargetedTantrum.beginLetter>{0}正在大發脾氣。\n\n[PAWN_pronoun]打算毀了{1}。</TargetedTantrum.beginLetter>
+=======
+  <TargetedTantrum.beginLetter>{0}正在大發脾氣，[PAWN_pronoun]打算破壞{1}。</TargetedTantrum.beginLetter>
+>>>>>>> origin/master
   <TargetedTantrum.beginLetterLabel>發怒</TargetedTantrum.beginLetterLabel>
   <TargetedTantrum.recoveryMessage>{0}冷靜下來了。</TargetedTantrum.recoveryMessage>
   <TargetedTantrum.baseInspectLine>心理狀態：發怒</TargetedTantrum.baseInspectLine>
 
   <BedroomTantrum.label>發怒</BedroomTantrum.label>
+<<<<<<< HEAD
   <BedroomTantrum.beginLetter>{0}正在大發脾氣。\n\n[PAWN_pronoun]打算破壞[PAWN_possessive]房間裡的東西來洩忿。</BedroomTantrum.beginLetter>
+=======
+  <BedroomTantrum.beginLetter>{0}正在大發脾氣，[PAWN_pronoun]打算砸毀[PAWN_pronoun]房間裡的家具洩忿。</BedroomTantrum.beginLetter>
+>>>>>>> origin/master
   <BedroomTantrum.beginLetterLabel>發怒</BedroomTantrum.beginLetterLabel>
   <BedroomTantrum.recoveryMessage>{0}冷靜下來了。</BedroomTantrum.recoveryMessage>
   <BedroomTantrum.baseInspectLine>心理狀態：發怒</BedroomTantrum.baseInspectLine>
 
   <SadisticRage.label>施虐</SadisticRage.label>
+<<<<<<< HEAD
   <SadisticRage.beginLetter>{0}壓抑不住情緒了。\n\n[PAWN_pronoun]要將[PAWN_possessive]怒火發洩在俘虜身上。</SadisticRage.beginLetter>
+=======
+  <SadisticRage.beginLetter>{0}壓抑不住情緒了，[PAWN_pronoun]要將怒火發洩在俘虜身上。</SadisticRage.beginLetter>
+>>>>>>> origin/master
   <SadisticRage.beginLetterLabel>施虐</SadisticRage.beginLetterLabel>
   <SadisticRage.recoveryMessage>{0}冷靜下來了。</SadisticRage.recoveryMessage>
   <SadisticRage.baseInspectLine>心理狀態：</SadisticRage.baseInspectLine>
 
   <CorpseObsession.label>戀屍</CorpseObsession.label>
+<<<<<<< HEAD
   <CorpseObsession.beginLetter>{0}的理智崩潰了，展現出對屍體的迷戀。\n\n[PAWN_pronoun]打算把屍體都挖出來並擺在顯眼的地方。</CorpseObsession.beginLetter>
+=======
+  <CorpseObsession.beginLetter>{0}壓抑不住情緒了，[PAWN_pronoun]打算把屍體都挖出來。</CorpseObsession.beginLetter>
+>>>>>>> origin/master
   <CorpseObsession.beginLetterLabel>戀屍</CorpseObsession.beginLetterLabel>
   <CorpseObsession.recoveryMessage>{0}恢復正常了。</CorpseObsession.recoveryMessage>
   <CorpseObsession.baseInspectLine>心理狀態：</CorpseObsession.baseInspectLine>

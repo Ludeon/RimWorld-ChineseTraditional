@@ -2,8 +2,12 @@
 <LanguageData>
 
   <FactionGreetingHostile>{0}的代表憤怒的對你咒罵了幾句後切斷連線。</FactionGreetingHostile>
+<<<<<<< HEAD
   <FactionGreetingHostileAppreciative>{0}要求你以具體行動表達善意，例如帶禮物拜訪[PAWN_possessive]的據點或毫髮無損的釋放隸屬[PAWN_possessive]的俘虜。如果你辦到了，[PAWN_pronoun]才願意與你進一步溝通。\n\n[PAWN_pronoun]在咒罵的呢喃中切斷了通訊。</FactionGreetingHostileAppreciative>
   <FactionGreetingWary>{0}的代表謹慎的問候了{1}並詢問HIS的來意。</FactionGreetingWary>
+=======
+  <FactionGreetingWary>{0}的代表謹慎的問候了{1}並詢問[PAWN_possessive]的來意。</FactionGreetingWary>
+>>>>>>> origin/master
   <FactionGreetingWarm>{0}的代表親切的問候了{1}並關心殖民地的近況。</FactionGreetingWarm>
 
   <Disconnect>切斷連線</Disconnect>

@@ -2,6 +2,7 @@
 <LanguageData>
 
   <RomanceAttempt.label>告白</RomanceAttempt.label>
+<<<<<<< HEAD
   <RomanceAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef][wooed]。</RomanceAttempt.logRulesInitiator.rulesStrings.0>
   <RomanceAttempt.logRulesInitiator.rulesStrings.1>wooed->試圖[wootactic]吸引[OTHER_nameIndef]的注意</RomanceAttempt.logRulesInitiator.rulesStrings.1>
   <RomanceAttempt.logRulesInitiator.rulesStrings.2>wooed->[wootactic]來吸引[OTHER_nameIndef]的目光</RomanceAttempt.logRulesInitiator.rulesStrings.2>
@@ -71,5 +72,29 @@
   <Breakup.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]要求和[OTHER_nameIndef]結束這段關係。</Breakup.logRulesInitiator.rulesStrings.1>
   <Breakup.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef]告訴[OTHER_nameIndef]兩人之間已經不可能了。</Breakup.logRulesInitiator.rulesStrings.2>
   <Breakup.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef]告訴[OTHER_nameIndef]不希望彼此再相見。</Breakup.logRulesInitiator.rulesStrings.3>
+=======
+	<RomanceAttempt.logRulesInitiator.rulesStrings>
+		<li>logentry->向[other_nameShortIndef]告白。</li>
+	</RomanceAttempt.logRulesInitiator.rulesStrings>
+	<RomanceAttempt.logRulesRecipient.rulesStrings>
+		<li>logentry->被[other_nameShortIndef]告白。</li>
+	</RomanceAttempt.logRulesRecipient.rulesStrings>
+
+  <Breakup.label>分手</Breakup.label>
+	<Breakup.logRulesInitiator.rulesStrings>
+		<li>logentry->甩了[other_nameShortIndef]。</li>
+	</Breakup.logRulesInitiator.rulesStrings>
+	<Breakup.logRulesRecipient.rulesStrings>
+		<li>logentry->被[other_nameShortIndef]甩了。</li>
+	</Breakup.logRulesRecipient.rulesStrings>
+
+  <MarriageProposal.label>求婚</MarriageProposal.label>
+	<MarriageProposal.logRulesInitiator.rulesStrings>
+		<li>logentry->向[other_nameShortIndef]求婚。</li>
+	</MarriageProposal.logRulesInitiator.rulesStrings>
+	<MarriageProposal.logRulesRecipient.rulesStrings>
+		<li>logentry->被[other_nameShortIndef]求婚。</li>
+	</MarriageProposal.logRulesRecipient.rulesStrings>
+>>>>>>> origin/master
 
 </LanguageData>
