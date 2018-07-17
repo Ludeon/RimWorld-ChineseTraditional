@@ -112,7 +112,7 @@
   <MessageMarriageCeremonyAfterPartyFinished>{0}和{1}的婚禮已經結束。</MessageMarriageCeremonyAfterPartyFinished>
   
   <MessageNewBondRelation>{0}和{1}成為了夥伴。</MessageNewBondRelation>
-  <MessageNewBondRelationNewName>{0}和{1}成為了夥伴。{0}將[PAWN_objective]取名為{2}。</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{0}和{1}成為了夥伴。{0}將HIM取名為{2}。</MessageNewBondRelationNewName>
   
   <MessageBondedAnimalMentalBreak>{0}因為無法接受{1}的死亡而崩潰了。</MessageBondedAnimalMentalBreak>
   <MessageNamedBondedAnimalMentalBreak>{0}{1}因為無法接受{2}的死亡而崩潰了。</MessageNamedBondedAnimalMentalBreak>
@@ -174,15 +174,7 @@
 
   <MessagePermanentWoundHealed>{1}的{2}因為{0}痊癒了。</MessagePermanentWoundHealed>
 
-<<<<<<< HEAD
   <MessageRescueeJoined>因為你救了[PAWN_objective]的命，{0}加入了你的隊伍！</MessageRescueeJoined>
-=======
-  <MessageRescueeJoined>因為你救援了[PAWN_objective]，{0}加入了你的隊伍！</MessageRescueeJoined>
-  
-  <MessageAttackedCaravanIsNowHostile>因為你攻擊了{0}的旅隊，他們宣布與你敵對了。</MessageAttackedCaravanIsNowHostile>
-  <MessageFactionPawnCrushed>{0}因屋頂坍方而有人員死亡。勢力關係：{1}</MessageFactionPawnCrushed>
-  <MessageFactionPawnLost>{0}失去了{1}。勢力關係：{2}</MessageFactionPawnLost>
->>>>>>> origin/master
   
   <MessageTransporterUnreachable>部分運輸艙受到阻擋。</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>所有與運輸艙相連的發射座必須相鄰。</MessageTransportersNotAdjacent>
@@ -250,11 +242,6 @@
   <MessageFailedToRescueRelative>你沒能成功救援{0}，這使得{1}陷入哀傷。</MessageFailedToRescueRelative>
   <MessageRescuedRelative>你成功救援了{0}，這使得{1}心情振奮。</MessageRescuedRelative>
 
-<<<<<<< HEAD
-=======
-  <MessagePrisonerRescued>你成功救援了[PAWN_nameDef]，[PAWN_pronoun]決定加入你們。</MessagePrisonerRescued>
-
->>>>>>> origin/master
   <MessageTornadoLeftMap>龍捲風已經離開這個區域。</MessageTornadoLeftMap>
   <MessageTornadoDissipated>龍捲風已經消散。</MessageTornadoDissipated>
 
@@ -263,7 +250,6 @@
   <MessageWarningCavePlantsExposedToLight>警告：{0}無法在曝光狀態下存活。</MessageWarningCavePlantsExposedToLight>
 
   <MessageTargetedTantrumChangedTarget>{0}無法接觸到{1}，所以[PAWN_pronoun]決定將怒氣轉而發洩在{2}身上。</MessageTargetedTantrumChangedTarget>
-<<<<<<< HEAD
 
   <MessageTargetedInsultingSpreeChangedTarget>{0}無法接觸到{1}，所以[PAWN_pronoun]決定將怒氣轉而發洩在{2}身上。</MessageTargetedInsultingSpreeChangedTarget>
 
@@ -319,9 +305,5 @@
   <MessageCaravanArrivalActionNoLongerValid>{0}無法抵達它的目的地。</MessageCaravanArrivalActionNoLongerValid>
 
   <MessageEnterCooldownBlocksEntering>你在{0}天內無法再次進入此地。</MessageEnterCooldownBlocksEntering>
-=======
-
-  <MessageTargetedInsultingSpreeChangedTarget>{0}無法接觸到{1}，所以[PAWN_pronoun]決定將怒氣轉而發洩在{2}身上。</MessageTargetedInsultingSpreeChangedTarget>
->>>>>>> origin/master
   
 </LanguageData>

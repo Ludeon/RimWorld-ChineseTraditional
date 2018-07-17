@@ -2,7 +2,6 @@
 <LanguageData>
 
   <AnimalChat.label>與動物交流</AnimalChat.label>
-<<<<<<< HEAD
   <AnimalChat.logRulesInitiator.rulesStrings.0>r_logentry(p=5)->[INITIATOR_nameIndef][tamed]。</AnimalChat.logRulesInitiator.rulesStrings.0>
   <AnimalChat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]坐在[RECIPIENT_nameIndef]身邊並自言自語著關於[TalkTopicAny]的故事。</AnimalChat.logRulesInitiator.rulesStrings.1>
   <AnimalChat.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef]一邊低語著關於[TalkTopicAny]的故事拉進了與[RECIPIENT_nameIndef]的距離。</AnimalChat.logRulesInitiator.rulesStrings.2>
@@ -80,37 +79,5 @@
   <Nuzzle.logRulesInitiator.rulesStrings.21>rubbedpart->手</Nuzzle.logRulesInitiator.rulesStrings.21>
   <Nuzzle.logRulesInitiator.rulesStrings.22>rubbedpart->側身</Nuzzle.logRulesInitiator.rulesStrings.22>
   <Nuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->手臂</Nuzzle.logRulesInitiator.rulesStrings.23>
-=======
-	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>logentry->向[other_nameShortIndef]釋出善意，嘗試引起牠的注意。</li>
-	</AnimalChat.logRulesInitiator.rulesStrings>
-	<AnimalChat.logRulesRecipient.rulesStrings>
-		<li>logentry->回應了[other_nameShortIndef]的善意。</li>
-	</AnimalChat.logRulesRecipient.rulesStrings>
-
-  <TrainAttempt.label>嘗試訓練</TrainAttempt.label>
-	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->試圖訓練[other_nameShortIndef]。</li>
-	</TrainAttempt.logRulesInitiator.rulesStrings>
-	<TrainAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->看著[other_nameShortIndef]嘗試訓練自己。</li>
-	</TrainAttempt.logRulesRecipient.rulesStrings>
-
-  <TameAttempt.label>嘗試馴服</TameAttempt.label>
-	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->試圖馴服[other_nameShortIndef]。</li>
-	</TameAttempt.logRulesInitiator.rulesStrings>
-	<TameAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->看著[other_nameShortIndef]嘗試馴服自己。</li>
-	</TameAttempt.logRulesRecipient.rulesStrings>
-
-  <Nuzzle.label>撒嬌</Nuzzle.label>
-	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>logentry->向[other_nameShortIndef]撒嬌。</li>
-	</Nuzzle.logRulesInitiator.rulesStrings>
-	<Nuzzle.logRulesRecipient.rulesStrings>
-		<li>logentry->被[other_nameShortIndef]撒嬌。</li>
-	</Nuzzle.logRulesRecipient.rulesStrings>
->>>>>>> origin/master
 
 </LanguageData>

@@ -31,11 +31,7 @@
   <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
 
-<<<<<<< HEAD
   <RelatedPawnInvolvedInQuest>[PAWN_NameDef]是{0}的{1}。若[PAWN_NameDef]不幸死亡，{0}將會陷入長時間的悲傷，但如果你能救援[PAWN_NameDef]，{0}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
-=======
-  <RelatedPawnInvolvedInQuest>[PAWN_nameDef]是{0}的{1}。若[PAWN_nameDef]不幸死亡，{0}將會陷入長時間的悲傷，但如果你能救援[PAWN_nameDef]，{0}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
->>>>>>> origin/master
   
   <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
   <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而從曆法來計算，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
@@ -52,11 +48,7 @@
   <PrisonerRescueTimeout>該營地將在{0}天後消失。如果你錯過這次機會，你可能永遠不會再有{1}的消息。</PrisonerRescueTimeout>
  
   <LetterLabelAncientShrineWarning>遠古威脅</LetterLabelAncientShrineWarning>
-<<<<<<< HEAD
   <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HE感受到一股不祥之感。[PAWN_pronoun]無法解釋原因，HE就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
-=======
-  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，[PAWN_pronoun]感受到一股不祥之感。[PAWN_pronoun]無法解釋原因，[PAWN_pronoun]就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
->>>>>>> origin/master
 
   <StruckMineable>我們開採到了{0}！</StruckMineable>
 
@@ -101,13 +93,8 @@
   <LetterRelatedPawnsSite>在該區域中有與你的{0}或俘虜相關的人：</LetterRelatedPawnsSite>
   
   <RelationshipAppendedLetterSuffix>(親友)</RelationshipAppendedLetterSuffix>
-<<<<<<< HEAD
   <RelationshipAppendedLetterTextColonist>[PAWN_NameDef]是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>[PAWN_NameDef]是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
-=======
-  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef]是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef]是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
->>>>>>> origin/master
   
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>外遇</LetterLabelAffair>

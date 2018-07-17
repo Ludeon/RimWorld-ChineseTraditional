@@ -4,7 +4,6 @@
   <!-- Random social interactions -->
 
   <Chitchat.label>閒聊</Chitchat.label>
-<<<<<<< HEAD
   <Chitchat.logRulesInitiator.rulesStrings.0>logentry->和[other_NameShortIndef]小聊了一會兒。</Chitchat.logRulesInitiator.rulesStrings.0>
 
   <DeepTalk.label>談話</DeepTalk.label>
@@ -21,39 +20,5 @@
   <KindWords.label>美言</KindWords.label>
   <KindWords.logRulesInitiator.rulesStrings.0>logentry->讚美了[other_NameShortIndef]幾句。</KindWords.logRulesInitiator.rulesStrings.0>
   <KindWords.logRulesRecipient.rulesStrings.0>logentry->受到[other_NameShortIndef]的讚美。</KindWords.logRulesRecipient.rulesStrings.0>
-=======
-	<Chitchat.logRulesInitiator.rulesStrings>
-		<li>logentry->和[other_nameShortIndef]小聊了一會兒。</li>
-	</Chitchat.logRulesInitiator.rulesStrings>
-
-  <DeepTalk.label>談話</DeepTalk.label>
-	<DeepTalk.logRulesInitiator.rulesStrings>
-		<li>logentry->和[other_nameShortIndef]深談一番。</li>
-	</DeepTalk.logRulesInitiator.rulesStrings>
-
-  <Slight.label>冷落</Slight.label>
-	<Slight.logRulesInitiator.rulesStrings>
-		<li>logentry->刻意冷落[other_nameShortIndef]。</li>
-	</Slight.logRulesInitiator.rulesStrings>
-	<Slight.logRulesRecipient.rulesStrings>
-		<li>logentry->被[other_nameShortIndef]冷落。</li>
-	</Slight.logRulesRecipient.rulesStrings>
-
-  <Insult.label>羞辱</Insult.label>
-	<Insult.logRulesInitiator.rulesStrings>
-		<li>logentry->羞辱了[other_nameShortIndef]。</li>
-	</Insult.logRulesInitiator.rulesStrings>
-	<Insult.logRulesRecipient.rulesStrings>
-		<li>logentry->被[other_nameShortIndef]羞辱。</li>
-	</Insult.logRulesRecipient.rulesStrings>
-
-  <KindWords.label>美言</KindWords.label>
-	<KindWords.logRulesInitiator.rulesStrings>
-		<li>logentry->讚美了[other_nameShortIndef]幾句。</li>
-	</KindWords.logRulesInitiator.rulesStrings>
-	<KindWords.logRulesRecipient.rulesStrings>
-		<li>logentry->受到[other_nameShortIndef]的讚美。</li>
-	</KindWords.logRulesRecipient.rulesStrings>
->>>>>>> origin/master
 
 </LanguageData>

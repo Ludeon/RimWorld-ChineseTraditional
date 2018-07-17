@@ -3,33 +3,17 @@
 
   <!-- Player initial Namers - used initially -->
   
-<<<<<<< HEAD
   <NamerFactionBasePlayerColony.rulePack.rulesStrings.0>Name->殖民地</NamerFactionBasePlayerColony.rulePack.rulesStrings.0>
   <NamerFactionBasePlayerTribe.rulePack.rulesStrings.0>Name->部落</NamerFactionBasePlayerTribe.rulePack.rulesStrings.0>
-=======
-	<NamerFactionBasePlayerColony.rulePack.rulesStrings>
-		<li>name->殖民地</li>
-	</NamerFactionBasePlayerColony.rulePack.rulesStrings>
-	<NamerFactionBasePlayerTribe.rulePack.rulesStrings>
-		<li>name->部落</li>
-	</NamerFactionBasePlayerTribe.rulePack.rulesStrings>
->>>>>>> origin/master
 
 
   <!-- Player suggestion Namers - used for default Name in the 'Name faction and/or base' dialogs -->
 
-<<<<<<< HEAD
   <NamerFactionPlayerColonyRandomized.rulePack.rulesStrings.0>Name->[colonyName]</NamerFactionPlayerColonyRandomized.rulePack.rulesStrings.0>
-=======
-	<NamerFactionPlayerColonyRandomized.rulePack.rulesStrings>
-		<li>name->[colonyname]</li>
-	</NamerFactionPlayerColonyRandomized.rulePack.rulesStrings>
->>>>>>> origin/master
 
   
   <!-- Pirate -->
   
-<<<<<<< HEAD
   <NamerFactionPirate.rulePack.rulesStrings.0>Name->[weapon]海賊團</NamerFactionPirate.rulePack.rulesStrings.0>
   <NamerFactionPirate.rulePack.rulesStrings.1>Name->[badassperson]海賊團</NamerFactionPirate.rulePack.rulesStrings.1>
   <NamerFactionPirate.rulePack.rulesStrings.2>Name->[badassconcept]海賊團</NamerFactionPirate.rulePack.rulesStrings.2>
@@ -55,42 +39,10 @@
   <NamerFactionBasePirate.rulePack.rulesStrings.3>Name->[badassperson][community]</NamerFactionBasePirate.rulePack.rulesStrings.3>
   <NamerFactionBasePirate.rulePack.rulesStrings.4>geography->[terrainfeature]</NamerFactionBasePirate.rulePack.rulesStrings.4>
   <NamerFactionBasePirate.rulePack.rulesStrings.5>geography->[community]</NamerFactionBasePirate.rulePack.rulesStrings.5>
-=======
-	<NamerFactionPirate.rulePack.rulesStrings>
-		<li>name->[weapon]海賊團</li>
-		<li>name->[badassperson]海賊團</li>
-		<li>name->[badassconcept]海賊團</li>
-		<li>name->[badassanimal]海賊團</li>
-		<li>name->[badassadjective]海賊團</li>
-		<li>name->[badasscolor]海賊團</li>
-		<li>name->[weapon]旅隊</li>
-		<li>name->[badassperson]旅隊</li>
-		<li>name->[badassconcept]旅隊</li>
-		<li>name->[badassanimal]旅隊</li>
-		<li>name->[badassadjective]旅隊</li>
-		<li>name->[badasscolor]旅隊</li>
-		<li>name->[weapon]私掠團</li>
-		<li>name->[badassperson]私掠團</li>
-		<li>name->[badassconcept]私掠團</li>
-		<li>name->[badassanimal]私掠團</li>
-		<li>name->[badasscolor]私掠團</li>
-		<li>name->[badasscolor][weapon]海賊團</li>
-	</NamerFactionPirate.rulePack.rulesStrings>
-
-	<NamerFactionBasePirate.rulePack.rulesStrings>
-		<li>name->[badassanimal][community]</li>
-		<li>name->[badassconcept][community]</li>
-		<li>name->[badassperson][community]</li>
-		<li>name->[badassperson][community]</li>
-		<li>geography->[terrainfeature]</li>
-		<li>geography->[community]</li>
-	</NamerFactionBasePirate.rulePack.rulesStrings>
->>>>>>> origin/master
 
 
   <!-- Outlander -->
 
-<<<<<<< HEAD
   <OutlanderWord.rulePack.rulesStrings.0>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.0>
   <OutlanderWord.rulePack.rulesStrings.1>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.1>
   <OutlanderWord.rulePack.rulesStrings.2>outlanderword->[olsyl][olendsyl]</OutlanderWord.rulePack.rulesStrings.2>
@@ -136,64 +88,10 @@
   <NamerFactionBaseOutlander.rulePack.rulesStrings.23>townend->鎮</NamerFactionBaseOutlander.rulePack.rulesStrings.23>
   <NamerFactionBaseOutlander.rulePack.rulesStrings.24>townend->市</NamerFactionBaseOutlander.rulePack.rulesStrings.24>
   <NamerFactionBaseOutlander.rulePack.rulesStrings.25>townend->城</NamerFactionBaseOutlander.rulePack.rulesStrings.25>
-=======
-	<OutlanderWord.rulePack.rulesStrings>
-		<li>outlanderword->[olsyl][olendsyl]</li>
-		<li>outlanderword->[olsyl][olendsyl]</li>
-		<li>outlanderword->[olsyl][olendsyl]</li>
-		<li>outlanderword->[olsyl][olsyl][olendsyl]</li>
-		<li>outlanderword->[olsyl][olsyl][olendsyl]</li>
-		<li>outlanderword->[olsyl][olsyl][olsyl][olendsyl]</li>
-	</OutlanderWord.rulePack.rulesStrings>
-
-	<NamerFactionOutlander.rulePack.rulesStrings>
-		<li>name->[apparel]</li>
-		<li>name->[apparel][politicalunion]</li>
-		<li>name->[direction][apparel][politicaladjective][politicalunion]</li>
-		<li>name->[apparel][politicaladjective][politicalunion]</li>
-		<li>name->大[apparel][subname]</li>
-		<li>name->神聖[apparel][subname]</li>
-		<li>name->[apparel][number][subname]</li>
-		<li>subname->帝國</li>
-		<li>subname->王國</li>
-		<li>number->第二</li>
-		<li>number->第三</li>
-	</NamerFactionOutlander.rulePack.rulesStrings>
-
-	<NamerFactionBaseOutlander.rulePack.rulesStrings>
-		<li>name->[terrainfeature][community]</li>
-		<li>name->[animal][community]</li>
-		<li>name->[animal][community]</li>
-		<li>name->[animal][townend]</li>
-		<li>name->[animal][townend]</li>
-		<li>name->[animal][townend]</li>
-		<li>name->[apparel][community]</li>
-		<li>name->[apparel][community]</li>
-		<li>name->[apparel][community]</li>
-		<li>name->[apparel][community]</li>
-		<li>name->[apparel][townend]</li>
-		<li>name->[apparel][townend]</li>
-		<li>name->[apparel][townend]</li>
-		<li>name->[apparel][townend]</li>
-		<li>townend->要塞</li>
-		<li>townend->都</li>
-		<li>townend->省</li>
-		<li>townend->府</li>
-		<li>townend->縣</li>
-		<li>townend->郡</li>
-		<li>townend->區</li>
-		<li>townend->堡</li>
-		<li>townend->村</li>
-		<li>townend->鎮</li>
-		<li>townend->市</li>
-		<li>townend->城</li>
-	</NamerFactionBaseOutlander.rulePack.rulesStrings>
->>>>>>> origin/master
 
 
   <!-- Tribe -->
 
-<<<<<<< HEAD
   <TribalWord.rulePack.rulesStrings.0>tribalword->[tribalwordfile]</TribalWord.rulePack.rulesStrings.0>
   <TribalWord.rulePack.rulesStrings.1>tribalword->[trsyl][trsyl]</TribalWord.rulePack.rulesStrings.1>
   <TribalWord.rulePack.rulesStrings.2>tribalword->[trsyl][trsyl]</TribalWord.rulePack.rulesStrings.2>
@@ -224,54 +122,10 @@
   <NamerFactionBaseTribal.rulePack.rulesStrings.5>tribalword->洞</NamerFactionBaseTribal.rulePack.rulesStrings.5>
   <NamerFactionBaseTribal.rulePack.rulesStrings.6>tribalword->村</NamerFactionBaseTribal.rulePack.rulesStrings.6>
   <NamerFactionBaseTribal.rulePack.rulesStrings.7>tribalword->部落</NamerFactionBaseTribal.rulePack.rulesStrings.7>
-=======
-	<TribalWord.rulePack.rulesStrings>
-		<li>tribalword->[tribalwordfile]</li>
-		<li>tribalword->[trsyl][trsyl]</li>
-		<li>tribalword->[trsyl][trsyl]</li>
-		<li>tribalword->[trsyl][trsyl]</li>
-		<li>tribalword->[trsyl][trsyl][trsyl]</li>
-		<li>tribalword->[trsyl][trsyl][trsyl]</li>
-		<li>tribalword->[trsyl][trsyl][trsyl][trsyl]</li>
-	</TribalWord.rulePack.rulesStrings>
-
-	<NamerFactionTribal.rulePack.rulesStrings>
-		<li>name->[animal][tribalword]</li>
-		<li>name->[tribalwordfile][tribalwordfile][tribalword]</li>
-		<li>name->[tribalwordfile][tribalwordfile][tribalwordfile][tribalword]</li>
-		<li>name->[tribalwordfile][tribalwordfile]人</li>
-		<li>name->[tribalwordfile][tribalwordfile]族</li>
-		<li>name->[color]色[animal][tribalword]</li>
-		<li>tribalword->王國</li>
-		<li>tribalword->聯盟</li>
-		<li>tribalword->部落聯盟</li>
-		<li>tribalword->聯盟</li>
-		<li>tribalword->聯盟</li>
-		<li>tribalword->部落聯盟</li>
-		<li>tribalword->酋長國</li>
-	</NamerFactionTribal.rulePack.rulesStrings>
-
-	<NamerFactionBaseTribal.rulePack.rulesStrings>
-		<li>name->[tribalwordfile][tribalword]</li>
-		<li>name->[tribalwordfile][tribalwordfile][tribalword]</li>
-		<li>name->[tribalwordfile][tribalwordfile][tribalwordfile][tribalword]</li>
-		<li>name->[animal][tribalword]</li>
-		<li>name->[color]色[animal][tribalword]</li>
-		<li>tribalword->洞</li>
-		<li>tribalword->村</li>
-		<li>tribalword->部落</li>
-	</NamerFactionBaseTribal.rulePack.rulesStrings>
->>>>>>> origin/master
   
 
   <!-- Special -->
 
-<<<<<<< HEAD
   <NamerFactionSpacer.rulePack.rulesStrings.0>Name->星際旅行者</NamerFactionSpacer.rulePack.rulesStrings.0>
-=======
-	<NamerFactionSpacer.rulePack.rulesStrings>
-		<li>name->星際旅行者</li>
-	</NamerFactionSpacer.rulePack.rulesStrings>
->>>>>>> origin/master
   
 </LanguageData>
