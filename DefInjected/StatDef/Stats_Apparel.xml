@@ -1,38 +1,64 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <StuffEffectMultiplierInsulation_Cold.label>保溫 - 冷 - 素材影響倍率</StuffEffectMultiplierInsulation_Cold.label>
-  <StuffEffectMultiplierInsulation_Heat.label>保溫 - 熱 - 素材影響倍率</StuffEffectMultiplierInsulation_Heat.label>
-  <StuffEffectMultiplierArmor.label>防禦 - 素材影響倍率</StuffEffectMultiplierArmor.label>
   
-  <ArmorRating_Sharp.label>防禦 - 利器</ArmorRating_Sharp.label>
-  <ArmorRating_Sharp.description>能防禦住利器攻擊的機率。如：子彈、刀劍與利牙。</ArmorRating_Sharp.description>
-  
+  <!-- EN: Armor - Blunt -->
   <ArmorRating_Blunt.label>防禦 - 鈍器</ArmorRating_Blunt.label>
+  <!-- EN: The chance to affect blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
   <ArmorRating_Blunt.description>能防禦住鈍器攻擊的機率。如：錘擊、石塊與爆炸。</ArmorRating_Blunt.description>
   
+  <!-- EN: Armor - Heat -->
   <ArmorRating_Heat.label>防禦 - 熱</ArmorRating_Heat.label>
+  <!-- EN: The chance to affect temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
   <ArmorRating_Heat.description>能防禦住溫度相關傷害的機率。如：燃燒。</ArmorRating_Heat.description>
   
-  <Insulation_Cold.label>耐冷</Insulation_Cold.label>
-  <Insulation_Cold.description>此裝備能提供的低溫適應能力加成。更高的數值能在更冷的環境下生存。</Insulation_Cold.description>
+  <!-- EN: Armor - Sharp -->
+  <ArmorRating_Sharp.label>防禦 - 利器</ArmorRating_Sharp.label>
+  <!-- EN: The chance to affect sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is converted into blunt damage and reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
+  <ArmorRating_Sharp.description>能防禦住利器攻擊的機率。如：子彈、刀劍與利牙。</ArmorRating_Sharp.description>
   
-  <Insulation_Heat.label>耐熱</Insulation_Heat.label>
-  <Insulation_Heat.description>此裝備能提供的高溫適應能力加成。更高的數值能在更冷的環境下生存。</Insulation_Heat.description>
-  
+  <!-- EN: Shield max energy -->
   <EnergyShieldEnergyMax.label>護盾腰帶能量最大值</EnergyShieldEnergyMax.label>
+  <!-- EN: The maximum energy a shield belt can have at one time. More energy absorbs more damage. -->
   <EnergyShieldEnergyMax.description>護盾腰帶能維持的最大能量值，越多的能量能夠抵禦更多的傷害。</EnergyShieldEnergyMax.description>
   
+  <!-- EN: Shield recharge rate -->
   <EnergyShieldRechargeRate.label>護盾腰帶充能速度</EnergyShieldRechargeRate.label>
+  <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
   <EnergyShieldRechargeRate.description>當護盾尚未被突破時每秒的能量補充值。</EnergyShieldRechargeRate.description>
+  <!-- EN: {0}/s -->
   <EnergyShieldRechargeRate.formatString>{0}/秒</EnergyShieldRechargeRate.formatString>
-
-  <SmokepopBeltRadius.label>煙霧屏障半徑</SmokepopBeltRadius.label>
-  <SmokepopBeltRadius.description>煙霧腰帶發動時的屏蔽範圍。</SmokepopBeltRadius.description>
-  <SmokepopBeltRadius.formatString>{0}格</SmokepopBeltRadius.formatString>
-
+  
+  <!-- EN: equip delay -->
   <EquipDelay.label>裝備耗時</EquipDelay.label>
+  <!-- EN: The time it takes to equip and unequip this item. -->
   <EquipDelay.description>穿上這個裝備所需要花費的時間。</EquipDelay.description>
+  <!-- EN: {0} s -->
   <EquipDelay.formatString>{0}秒</EquipDelay.formatString>
+  
+  <!-- EN: Insulation - Cold -->
+  <Insulation_Cold.label>耐冷</Insulation_Cold.label>
+  <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature. Greater values allow surviving in colder temperatures. -->
+  <Insulation_Cold.description>此裝備能提供的低溫適應能力加成。更高的數值能在更冷的環境下生存。</Insulation_Cold.description>
+  
+  <!-- EN: Insulation - Heat -->
+  <Insulation_Heat.label>耐熱</Insulation_Heat.label>
+  <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature. Greater values allow surviving in warmer temperatures. -->
+  <Insulation_Heat.description>此裝備能提供的高溫適應能力加成。更高的數值能在更冷的環境下生存。</Insulation_Heat.description>
+  
+  <!-- EN: Smokepop belt radius -->
+  <SmokepopBeltRadius.label>煙霧屏障半徑</SmokepopBeltRadius.label>
+  <!-- EN: The area obscured when a smokepop belt detonates. -->
+  <SmokepopBeltRadius.description>煙霧腰帶發動時的屏蔽範圍。</SmokepopBeltRadius.description>
+  <!-- EN: {0} c -->
+  <SmokepopBeltRadius.formatString>{0}格</SmokepopBeltRadius.formatString>
+  
+  <!-- EN: Armor - Material effect multiplier -->
+  <StuffEffectMultiplierArmor.label>防禦 - 素材影響倍率</StuffEffectMultiplierArmor.label>
+  
+  <!-- EN: Insulation - Cold - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Cold.label>保溫 - 冷 - 素材影響倍率</StuffEffectMultiplierInsulation_Cold.label>
+  
+  <!-- EN: Insulation - Heat - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Heat.label>保溫 - 熱 - 素材影響倍率</StuffEffectMultiplierInsulation_Heat.label>
   
 </LanguageData>

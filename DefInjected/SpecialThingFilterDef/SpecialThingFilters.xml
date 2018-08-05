@@ -1,28 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-     
+  
+  <!-- EN: allow colonist corpses -->
   <AllowCorpsesColonist.label>接受居民屍體</AllowCorpsesColonist.label>
+  <!-- EN: Allow the dead bodies of colonists. -->
   <AllowCorpsesColonist.description>接受死亡的居民的屍體。</AllowCorpsesColonist.description>
   
+  <!-- EN: allow stranger corpses -->
   <AllowCorpsesStranger.label>接受非居民屍體</AllowCorpsesStranger.label>
+  <!-- EN: Allow the dead bodies of strangers and enemies. -->
   <AllowCorpsesStranger.description>接受陌生人和敵人的屍體。</AllowCorpsesStranger.description>
   
-  <AllowRotten.label>接受腐敗</AllowRotten.label>
-  <AllowRotten.description>接受已腐爛的物件。</AllowRotten.description>
-
+  <!-- EN: allow tainted apparel -->
+  <AllowDeadmansApparel.label>接受死者的衣物</AllowDeadmansApparel.label>
+  <!-- EN: Allow clothing that was once worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
+  <AllowDeadmansApparel.description>接受死者的衣物。多數人不喜歡死者的衣物，商人也不會收購。</AllowDeadmansApparel.description>
+  
+  <!-- EN: allow fresh -->
   <AllowFresh.label>接受新鮮</AllowFresh.label>
+  <!-- EN: Allow organic things which haven't started to rot yet. -->
   <AllowFresh.description>接受未腐敗的有機物。</AllowFresh.description>
   
-  <AllowPlantFood.label>接受作物</AllowPlantFood.label>
-  <AllowPlantFood.description>接受作物，如乾草。</AllowPlantFood.description>
-
-  <AllowSmeltable.label>接受可被提煉的武器</AllowSmeltable.label>
-  <AllowNonSmeltableWeapons.label>接受不可被提煉的武器</AllowNonSmeltableWeapons.label>
-
+  <!-- EN: allow clean apparel -->
   <AllowNonDeadmansApparel.label>接受非死者的衣物</AllowNonDeadmansApparel.label>
+  <!-- EN: Allow clothing that was never worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
   <AllowNonDeadmansApparel.description>接受非死者的衣物。多數人不喜歡死者的衣物，商人也不會收購。</AllowNonDeadmansApparel.description>
-
-  <AllowDeadmansApparel.label>接受死者的衣物</AllowDeadmansApparel.label>
-  <AllowDeadmansApparel.description>接受死者的衣物。多數人不喜歡死者的衣物，商人也不會收購。</AllowDeadmansApparel.description>
-
+  
+  <!-- EN: allow non-smeltable -->
+  <AllowNonSmeltableWeapons.label>接受不可被提煉的武器</AllowNonSmeltableWeapons.label>
+  
+  <!-- EN: allow plant food -->
+  <AllowPlantFood.label>接受作物</AllowPlantFood.label>
+  <!-- EN: Allow foods that are of quality equivalent to unharvested plants, like hay. -->
+  <AllowPlantFood.description>接受作物，如乾草。</AllowPlantFood.description>
+  
+  <!-- EN: allow rotten -->
+  <AllowRotten.label>接受腐敗</AllowRotten.label>
+  <!-- EN: Allow organic things which have started to rot. -->
+  <AllowRotten.description>接受已腐爛的物件。</AllowRotten.description>
+  
+  <!-- EN: allow smeltable -->
+  <AllowSmeltable.label>接受可被提煉的武器</AllowSmeltable.label>
+  
 </LanguageData>

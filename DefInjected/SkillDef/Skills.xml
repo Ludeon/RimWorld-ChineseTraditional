@@ -1,52 +1,88 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-  <Shooting.label>射擊</Shooting.label>
-  <Shooting.description>遠距離的戰鬥，包含冷熱兵器的應用。</Shooting.description>
-  <Shooting.skillLabel>射擊</Shooting.skillLabel>
-     
+  
+  <!-- EN: animals -->
+  <Animals.label>動物</Animals.label>
+  <!-- EN: Taming, training, and controlling animals. -->
+  <Animals.description>馴養、訓練及控制動物。</Animals.description>
+  <!-- EN: animals -->
+  <Animals.skillLabel>動物</Animals.skillLabel>
+  
+  <!-- EN: artistic -->
+  <Artistic.label>藝術</Artistic.label>
+  <!-- EN: Crafting art. -->
+  <Artistic.description>創造藝術作品。</Artistic.description>
+  <!-- EN: artistic -->
+  <Artistic.skillLabel>藝術</Artistic.skillLabel>
+  
+  <!-- EN: construction -->
+  <Construction.label>建造</Construction.label>
+  <!-- EN: Constructing and deconstructing structures and furniture. -->
+  <Construction.description>建造或拆解建築或家具。</Construction.description>
+  <!-- EN: construction -->
+  <Construction.skillLabel>建造</Construction.skillLabel>
+  
+  <!-- EN: cooking -->
+  <Cooking.label>烹調</Cooking.label>
+  <!-- EN: Creating meals from raw ingredients quickly and without accidental food poisoning. -->
+  <Cooking.description>將生食烹調為料理。</Cooking.description>
+  <!-- EN: cooking -->
+  <Cooking.skillLabel>烹調</Cooking.skillLabel>
+  
+  <!-- EN: crafting -->
+  <Crafting.label>手工</Crafting.label>
+  <!-- EN: Crafting general items including weapons, components, and refined resources. -->
+  <Crafting.description>打造武器、電子零件、精鍊資源。</Crafting.description>
+  <!-- EN: crafting -->
+  <Crafting.skillLabel>手工</Crafting.skillLabel>
+  
+  <!-- EN: intellectual -->
+  <Intellectual.label>知識</Intellectual.label>
+  <!-- EN: Researching and drug synthesis. -->
+  <Intellectual.description>研究和改進物品的生產。</Intellectual.description>
+  <!-- EN: intellectual -->
+  <Intellectual.skillLabel>知識</Intellectual.skillLabel>
+  
+  <!-- EN: medical -->
+  <Medicine.label>醫療</Medicine.label>
+  <!-- EN: Tending wounds and diseases and performing surgery. -->
+  <Medicine.description>治療創傷、醫治疾病及操刀手術。</Medicine.description>
+  <!-- EN: medical -->
+  <Medicine.skillLabel>醫療</Medicine.skillLabel>
+  
+  <!-- EN: melee -->
   <Melee.label>格鬥</Melee.label>
+  <!-- EN: Melee combat, both armed and unarmed. -->
   <Melee.description>各種搏擊武器的應用及徒手戰鬥。</Melee.description>
+  <!-- EN: melee -->
   <Melee.skillLabel>格鬥</Melee.skillLabel>
-     
+  
+  <!-- EN: mining -->
+  <Mining.label>採礦</Mining.label>
+  <!-- EN: Digging tunnels and extracting buried resources. -->
+  <Mining.description>挖掘隧道、探採礦物與各種被埋藏的資源。</Mining.description>
+  <!-- EN: mining -->
+  <Mining.skillLabel>採礦</Mining.skillLabel>
+  
+  <!-- EN: plants -->
+  <Plants.label>種植</Plants.label>
+  <!-- EN: Sowing, caring for and harvesting crops, and foraging for food while traveling. -->
+  <Plants.description>播種、照護、收穫作物以及旅隊採集食物。</Plants.description>
+  <!-- EN: plants -->
+  <Plants.skillLabel>種植</Plants.skillLabel>
+  
+  <!-- EN: shooting -->
+  <Shooting.label>射擊</Shooting.label>
+  <!-- EN: Ranged combat, with both high-tech and low-tech weapons. -->
+  <Shooting.description>遠距離的戰鬥，包含冷熱兵器的應用。</Shooting.description>
+  <!-- EN: shooting -->
+  <Shooting.skillLabel>射擊</Shooting.skillLabel>
+  
+  <!-- EN: social -->
   <Social.label>社交</Social.label>
+  <!-- EN: Negotiating, convincing, manipulating, leading, and cheering up others. -->
   <Social.description>談判、說服、操縱、領導及鼓舞他人。</Social.description>
+  <!-- EN: social -->
   <Social.skillLabel>社交</Social.skillLabel>
   
-  <Animals.label>動物</Animals.label>
-  <Animals.description>馴養、訓練及控制動物。</Animals.description>
-  <Animals.skillLabel>動物</Animals.skillLabel>
-     
-  <Medicine.label>醫療</Medicine.label>
-  <Medicine.description>治療創傷、醫治疾病及操刀手術。</Medicine.description>
-  <Medicine.skillLabel>醫療</Medicine.skillLabel>
-     
-  <Cooking.label>烹調</Cooking.label>
-  <Cooking.description>將生食烹調為料理。</Cooking.description>
-  <Cooking.skillLabel>烹調</Cooking.skillLabel>
-     
-  <Construction.label>建造</Construction.label>
-  <Construction.description>建造或拆解建築或家具。</Construction.description>
-  <Construction.skillLabel>建造</Construction.skillLabel>
-     
-  <Growing.label>種植</Growing.label>
-  <Growing.description>播種、照護、收穫作物以及旅隊採集食物。</Growing.description>
-  <Growing.skillLabel>種植</Growing.skillLabel>
-     
-  <Mining.label>採礦</Mining.label>
-  <Mining.description>挖掘隧道、探採礦物與各種被埋藏的資源。</Mining.description>
-  <Mining.skillLabel>採礦</Mining.skillLabel>
-     
-  <Artistic.label>藝術</Artistic.label>
-  <Artistic.description>創造藝術作品。</Artistic.description>
-  <Artistic.skillLabel>藝術</Artistic.skillLabel>
-     
-  <Crafting.label>手工</Crafting.label>
-  <Crafting.description>打造武器、電子零件、精鍊資源。</Crafting.description>
-  <Crafting.skillLabel>手工</Crafting.skillLabel>
-
-  <Intellectual.label>知識</Intellectual.label>
-  <Intellectual.description>研究和改進物品的生產。</Intellectual.description>
-  <Intellectual.skillLabel>知識</Intellectual.skillLabel>
-     
 </LanguageData>

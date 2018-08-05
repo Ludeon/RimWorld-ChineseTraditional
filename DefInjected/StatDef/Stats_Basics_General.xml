@@ -1,46 +1,75 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <MaxHitPoints.label>最大耐久</MaxHitPoints.label>
-  <MaxHitPoints.description>此物件的最大耐久值。</MaxHitPoints.description>
-
-  <Mass.label>重量</Mass.label>
-  <Mass.description>此物品的重量。</Mass.description>
-  <Mass.formatString>{0}公斤</Mass.formatString>
-  
-  <MarketValue.label>市場價格</MarketValue.label>
-  <MarketValue.description>這個物件的市價。實際價格將會受到關係狀態與社交技能影響。</MarketValue.description>
-  <MarketValue.formatString>${0}</MarketValue.formatString>
-  
-  <SellPriceFactor.label>售價倍率</SellPriceFactor.label>
-  <SellPriceFactor.description>出售此物件時的售價倍率。</SellPriceFactor.description>
-
-  <Flammability.label>易燃程度</Flammability.label>
-  <Flammability.description>此物件的易燃程度與燃燒時火焰壯大的速度。</Flammability.description>
-  
-  <WorkToMake.label>製造工作量</WorkToMake.label>
-  <WorkToMake.description>當所有工具與素材備齊之後，製造這個物件所需的基本製造工作量。</WorkToMake.description>
-
-  <WorkToBuild.label>建造工作量</WorkToBuild.label>
-  <WorkToBuild.description>當所有素材備齊之後，建造這個物件所需的基本建造工作量。</WorkToBuild.description>
-  
-  <DeteriorationRate.label>衰敗速率</DeteriorationRate.label>
-  <DeteriorationRate.description>此物件暴露在室外時的衰敗速度，一般狀況下每天衰敗的耐久值，某些情況下會衰敗的更快，如雨天。</DeteriorationRate.description>
-  <DeteriorationRate.formatString>{0}/日</DeteriorationRate.formatString>
-  
+  <!-- EN: beauty -->
   <Beauty.label>美觀程度</Beauty.label>
+  <!-- EN: How enjoyable an object is to look at. Beautiful objects fulfill characters' need for beauty. -->
   <Beauty.description>這個物件能給觀賞者帶來的的美觀程度。美麗的物件能提昇人物的美觀度需求。</Beauty.description>
   
+  <!-- EN: cleanliness -->
   <Cleanliness.label>乾淨度</Cleanliness.label>
+  <!-- EN: How much an object contributes to an area's cleanliness score. -->
   <Cleanliness.description>一個物件的對於周圍環境的乾淨度影響。</Cleanliness.description>
   
+  <!-- EN: comfort -->
   <Comfort.label>舒適度</Comfort.label>
+  <!-- EN: How comfortable an object is to sit or lay on. Using comfortable objects fulfills a character's need for comfort. -->
   <Comfort.description>坐或躺在這個物件上的舒適度。用舒適的家具滿足人物的舒適度需求。</Comfort.description>
-
-  <Nutrition.label>營養值</Nutrition.label>
-  <Nutrition.description>這個食物所能提供的營養值。</Nutrition.description>
-
+  
+  <!-- EN: deterioration rate -->
+  <DeteriorationRate.label>衰敗速率</DeteriorationRate.label>
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day. Deterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
+  <DeteriorationRate.description>此物件暴露在室外時的衰敗速度，一般狀況下每天衰敗的耐久值，某些情況下會衰敗的更快，如雨天。</DeteriorationRate.description>
+  <!-- EN: {0} / day -->
+  <DeteriorationRate.formatString>{0}/日</DeteriorationRate.formatString>
+  
+  <!-- EN: flammability -->
+  <Flammability.label>易燃程度</Flammability.label>
+  <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
+  <Flammability.description>此物件的易燃程度與燃燒時火焰壯大的速度。</Flammability.description>
+  
+  <!-- EN: food poison chance -->
   <FoodPoisonChanceFixedHuman.label>食物致毒率</FoodPoisonChanceFixedHuman.label>
+  <!-- EN: The chance this food will cause food poisoning. -->
   <FoodPoisonChanceFixedHuman.description>這個食物導致食物中毒的機率。</FoodPoisonChanceFixedHuman.description>
+  
+  <!-- EN: market value -->
+  <MarketValue.label>市場價格</MarketValue.label>
+  <!-- EN: The market value of an object. The actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
+  <MarketValue.description>這個物件的市價。實際價格將會受到關係狀態與社交技能影響。</MarketValue.description>
+  <!-- EN: ${0} -->
+  <MarketValue.formatString>${0}</MarketValue.formatString>
+  
+  <!-- EN: mass -->
+  <Mass.label>重量</Mass.label>
+  <!-- EN: The physical mass of an object. -->
+  <Mass.description>此物品的重量。</Mass.description>
+  <!-- EN: {0} kg -->
+  <Mass.formatString>{0}公斤</Mass.formatString>
+  
+  <!-- EN: max hit points -->
+  <MaxHitPoints.label>最大耐久</MaxHitPoints.label>
+  <!-- EN: The maximum hit points of an object. This represents how much damage it can take before being destroyed. -->
+  <MaxHitPoints.description>此物件的最大耐久值。</MaxHitPoints.description>
+  
+  <!-- EN: nutrition -->
+  <Nutrition.label>營養值</Nutrition.label>
+  <!-- EN: How nutritious this food is. -->
+  <Nutrition.description>這個食物所能提供的營養值。</Nutrition.description>
+  
+  <!-- EN: sell price multiplier -->
+  <SellPriceFactor.label>售價倍率</SellPriceFactor.label>
+  <!-- EN: A multiplier on the price at which you can sell items. -->
+  <SellPriceFactor.description>出售此物件時的售價倍率。</SellPriceFactor.description>
+  
+  <!-- EN: shooting accuracy -->
+  <ShootingAccuracyTurret.label>射擊精度</ShootingAccuracyTurret.label>
+  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <ShootingAccuracyTurret.description>對目標遠程射擊的基礎命中率。機率還同時受到許多其他參數的影響。選擇射手後再將游標移至目標上即可查看命中率資訊。</ShootingAccuracyTurret.description>
+  
+  <!-- EN: work to make -->
+  <WorkToMake.label>製造工作量</WorkToMake.label>
+  <!-- EN: The base amount of work it takes to make an item, once all materials are gathered. -->
+  <WorkToMake.description>當所有工具與素材備齊之後，製造這個物件所需的基本製造工作量。</WorkToMake.description>
   
 </LanguageData>

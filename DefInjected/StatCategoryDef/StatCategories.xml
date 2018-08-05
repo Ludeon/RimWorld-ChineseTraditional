@@ -1,34 +1,49 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- General -->
   
+  <!-- EN: Apparel -->
+  <Apparel.label>服裝</Apparel.label>
+  
+  <!-- EN: Basics -->
   <Basics.label>基本訊息</Basics.label>
-  <BasicsPawn.label>基本訊息</BasicsPawn.label>
+  
+  <!-- EN: Basics -->
   <BasicsNonPawn.label>基本訊息</BasicsNonPawn.label>
   
+  <!-- EN: Basics -->
+  <BasicsPawn.label>基本訊息</BasicsPawn.label>
   
-  <!-- Non-pawn -->
-  
-  <Apparel.label>服裝</Apparel.label>
-  <Weapon.label>武器</Weapon.label>
+  <!-- EN: Building -->
   <Building.label>建築</Building.label>
   
-
-  <!-- Virtual categories -->
-  
+  <!-- EN: Offsets when equipped -->
   <EquippedStatOffsets.label>裝備效果</EquippedStatOffsets.label>
-  <StuffStatFactors.label>此素材的效果倍率</StuffStatFactors.label>
-  <StuffStatOffsets.label>此素材的加成效果</StuffStatOffsets.label>
+  
+  <!-- EN: Combat -->
+  <PawnCombat.label>戰鬥</PawnCombat.label>
+  
+  <!-- EN: Misc -->
+  <PawnMisc.label>其它</PawnMisc.label>
+  
+  <!-- EN: Social -->
+  <PawnSocial.label>社交</PawnSocial.label>
+  
+  <!-- EN: Work -->
+  <PawnWork.label>工作</PawnWork.label>
+  
+  <!-- EN: Multipliers when equipment made of this -->
   <StuffOfEquipmentStatFactors.label>以此素材製成裝備的效果倍率</StuffOfEquipmentStatFactors.label>
+  
+  <!-- EN: Multipliers when made of this -->
+  <StuffStatFactors.label>此素材的效果倍率</StuffStatFactors.label>
+  
+  <!-- EN: Offsets when made of this -->
+  <StuffStatOffsets.label>此素材的加成效果</StuffStatOffsets.label>
+  
+  <!-- EN: Surgical -->
   <Surgery.label>外科手術</Surgery.label>
   
-  
-  <!-- Pawn -->
-  
-  <PawnCombat.label>戰鬥</PawnCombat.label>
-  <PawnSocial.label>社交</PawnSocial.label>
-  <PawnMisc.label>其它</PawnMisc.label>
-  <PawnWork.label>工作</PawnWork.label>
+  <!-- EN: Weapon -->
+  <Weapon.label>武器</Weapon.label>
   
 </LanguageData>
