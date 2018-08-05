@@ -1,45 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: elephant -->
   <Elephant.label>大象</Elephant.label>
+  <!-- EN: The largest unmodified land animal. Elephants has a long trunk they use to manipulate objects, and sharp tusks they use to gore attackers. A dead elephant's valuable tusks can be recovered by butchering it.\n\nIntelligent creatures with complex social relationships, elephants can be used as pack animals or trained to carry out the most complex of tasks. They live a long time, and are known to remember events and relationships from many decades before. -->
   <Elephant.description>體型最大的非基改陸地生物，大象有著可以用來搬運物品的長鼻，以及用來打鬥的鋒利象牙。屠宰後可以收穫珍貴的象牙。\n\n大象是具有複雜社會關係的聰明生物，可以作為駝獸或接受訓練以進行複雜的工作。牠們能存活很長的時間，甚至能記住幾十年前發生的事情與關係。</Elephant.description>
-  <Elephant.tools.0.label>象鼻</Elephant.tools.0.label>
-  <Elephant.tools.1.label>左腳</Elephant.tools.1.label>
-  <Elephant.tools.2.label>右腳</Elephant.tools.2.label>
-  <Elephant.tools.3.label>頭</Elephant.tools.3.label>
-  <Elephant_Leather.label>大象皮</Elephant_Leather.label>
-  <Elephant_Leather.description>大象的皮。</Elephant_Leather.description>
-  <Elephant_Leather.stuffProps.stuffAdjective>大象皮</Elephant_Leather.stuffProps.stuffAdjective>
-  <Elephant_Meat.label>大象肉</Elephant_Meat.label>
-  <Elephant_Meat.description>大象的肉。</Elephant_Meat.description>
-  <Elephant_Corpse.label>大象屍體</Elephant_Corpse.label>
-  <Elephant_Corpse.description>大象的屍體。</Elephant_Corpse.description>
-
-  <Megasloth.label>巨型樹懶</Megasloth.label>
-  <Megasloth.description>巨型樹懶是一種移動緩慢、單獨行動的草食性動物。雖然牠的祖先已經在遠古地球的美洲大陸上被人類滅絕，但透過克隆技術，巨型樹懶再度被喚醒。牠們的皮毛強韌又保暖，是適合嚴酷冬天的優質皮革。</Megasloth.description>
-  <Megasloth.tools.0.label>左爪</Megasloth.tools.0.label>
-  <Megasloth.tools.1.label>右爪</Megasloth.tools.1.label>
-  <Megasloth.tools.3.label>頭</Megasloth.tools.3.label>
-  <Megasloth_Leather.label>巨型樹懶毛皮</Megasloth_Leather.label>
-  <Megasloth_Leather.description>巨型樹懶的毛皮。</Megasloth_Leather.description>
-  <Megasloth_Leather.stuffProps.stuffAdjective>巨型樹懶皮</Megasloth_Leather.stuffProps.stuffAdjective>
-  <Megasloth_Meat.label>巨型樹懶肉</Megasloth_Meat.label>
-  <Megasloth_Meat.description>巨型樹懶的肉。</Megasloth_Meat.description>
-  <Megasloth_Corpse.label>巨型樹懶屍體</Megasloth_Corpse.label>
-  <Megasloth_Corpse.description>巨型樹懶的屍體。</Megasloth_Corpse.description>
-
+  <!-- EN: tusk -->
+  <Elephant.tools.tusk.label>象鼻</Elephant.tools.tusk.label>
+  <!-- EN: left foot -->
+  <Elephant.tools.left_foot.label>左腳</Elephant.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Elephant.tools.right_foot.label>右腳</Elephant.tools.right_foot.label>
+  <!-- EN: head -->
+  <Elephant.tools.head.label>頭</Elephant.tools.head.label>
+  
+  <!-- EN: megasloth -->
+  <Megasloth.label>巨型地懶</Megasloth.label>
+  <!-- EN: A giant, solitary herbivore with two giant claws for warding off threats. Long extinct after being wiped out by the natives of Earth's American continent, the megasloth was later brought back using advanced cloning and artificial gestators. Its thick hide is exceptionally strong and insulating, and makes a great leather for cold-weather clothing. It is peaceful if left alone, but will shred anyone who distubs it with its giant claws. -->
+  <Megasloth.description>巨型地懶是一種移動緩慢、單獨行動的草食性動物。雖然牠的祖先已經在遠古地球的美洲大陸上被人類滅絕，但透過克隆技術，巨型地懶再度被喚醒。牠們的皮毛強韌又保暖，是適合嚴酷冬天的優質皮革。</Megasloth.description>
+  <!-- EN: left claw -->
+  <Megasloth.tools.left_claw.label>左爪</Megasloth.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Megasloth.tools.right_claw.label>右爪</Megasloth.tools.right_claw.label>
+  <!-- EN: head -->
+  <Megasloth.tools.head.label>頭</Megasloth.tools.head.label>
+  
+  <!-- EN: rhinoceros -->
+  <Rhinoceros.label>犀牛</Rhinoceros.label>
+  <!-- EN: Despite being herbivorous, this large mammal is very easy to enrage. Once angered, its massive strength and sharp horn make it a brutal opponent. It has more muscle in one leg than most humans do in their whole body. -->
+  <Rhinoceros.description>儘管是草食性動物，這種動物的脾氣十分火爆。一但激怒牠，巨大的力量和尖銳的角使牠成為兇殘的對手。牠光是一條腿所擁有的肌肉就多過一整個人。</Rhinoceros.description>
+  <!-- EN: horn -->
+  <Rhinoceros.tools.horn-0.label>角</Rhinoceros.tools.horn-0.label>
+  <!-- EN: horn -->
+  <Rhinoceros.tools.horn-1.label>角</Rhinoceros.tools.horn-1.label>
+  <!-- EN: head -->
+  <Rhinoceros.tools.head.label>頭</Rhinoceros.tools.head.label>
+  
+  <!-- EN: thrumbo -->
   <Thrumbo.label>獨角獸</Thrumbo.label>
+  <!-- EN: A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. -->
   <Thrumbo.description>一種巨大優雅的謎樣生物，天性溫和，但其憤怒時極其危險。牠的毛皮美麗且珍貴，鋒利如刃的角在市場中更是稀世珍寶。\n\n傳說年長的獨角獸是宇宙中最具智慧的生物，只是他們選擇了不說話。</Thrumbo.description>
-  <Thrumbo.tools.0.label>角</Thrumbo.tools.0.label>
-  <Thrumbo.tools.2.label>左腳</Thrumbo.tools.2.label>
-  <Thrumbo.tools.3.label>右腳</Thrumbo.tools.3.label>
-  <Thrumbo.tools.4.label>頭</Thrumbo.tools.4.label>
-  <Thrumbo_Leather.label>獨角獸毛皮</Thrumbo_Leather.label>
-  <Thrumbo_Leather.description>獨角獸的毛皮。</Thrumbo_Leather.description>
-  <Thrumbo_Leather.stuffProps.stuffAdjective>獨角獸皮</Thrumbo_Leather.stuffProps.stuffAdjective>
-  <Thrumbo_Meat.label>獨角獸肉</Thrumbo_Meat.label>
-  <Thrumbo_Meat.description>獨角獸的肉。</Thrumbo_Meat.description>
-  <Thrumbo_Corpse.label>獨角獸屍體</Thrumbo_Corpse.label>
-  <Thrumbo_Corpse.description>獨角獸的屍體。</Thrumbo_Corpse.description>
-
+  <!-- EN: horn -->
+  <Thrumbo.tools.horn.label>角</Thrumbo.tools.horn.label>
+  <!-- EN: left foot -->
+  <Thrumbo.tools.left_foot.label>左腳</Thrumbo.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Thrumbo.tools.right_foot.label>右腳</Thrumbo.tools.right_foot.label>
+  <!-- EN: head -->
+  <Thrumbo.tools.head.label>頭</Thrumbo.tools.head.label>
+  
 </LanguageData>

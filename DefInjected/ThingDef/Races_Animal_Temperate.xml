@@ -1,76 +1,70 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <Deer.label>鹿</Deer.label>
-  <Deer.description>一種中型的草食動物，喜歡生活在混合林和草原。行動非常靈活，但性格溫馴，即便受到攻擊也不會反擊。</Deer.description>
-  <Deer.tools.0.label>左蹄</Deer.tools.0.label>
-  <Deer.tools.1.label>右蹄</Deer.tools.1.label>
-  <Deer.tools.3.label>頭</Deer.tools.3.label>
-  <Deer_Leather.label>鹿皮</Deer_Leather.label>
-  <Deer_Leather.description>鹿的毛皮。</Deer_Leather.description>
-  <Deer_Leather.stuffProps.stuffAdjective>鹿皮</Deer_Leather.stuffProps.stuffAdjective>
-  <Deer_Meat.label>鹿肉</Deer_Meat.label>
-  <Deer_Meat.description>鹿的肉。</Deer_Meat.description>
-  <Deer_Corpse.label>鹿屍體</Deer_Corpse.label>
-  <Deer_Corpse.description>鹿的屍體。</Deer_Corpse.description>
-
-  <Ibex.label>野山羊</Ibex.label>
-  <Ibex.description>圈養山羊的野生祖先，野山羊生活在貧瘠的環境，大多數羚羊都無法生存，以苔癬和稀少的高山植物為食。牠們因擅長在陡峭的崖壁上移動以及猛烈的頭搥而聞名。</Ibex.description>
-  <Ibex.tools.0.label>左蹄</Ibex.tools.0.label>
-  <Ibex.tools.1.label>右蹄</Ibex.tools.1.label>
-  <Ibex.tools.3.label>頭</Ibex.tools.3.label>
-  <Ibex_Leather.label>野山羊皮</Ibex_Leather.label>
-  <Ibex_Leather.description>野山羊毛皮。</Ibex_Leather.description>
-  <Ibex_Leather.stuffProps.stuffAdjective>野山羊皮</Ibex_Leather.stuffProps.stuffAdjective>
-  <Ibex_Meat.label>野山羊肉</Ibex_Meat.label>
-  <Ibex_Meat.description>野山羊的肉。</Ibex_Meat.description>
-  <Ibex_Corpse.label>野山羊屍體</Ibex_Corpse.label>
-  <Ibex_Corpse.description>野山羊的屍體。</Ibex_Corpse.description>
-  
-  <Elk.label>麋鹿</Elk.label>
-  <Elk.description>鹿科家族的巨大成員，良好的適應了寒冷環境。馴養的麋鹿可以產奶，但不能作為駝獸。</Elk.description>
-  <Elk.tools.0.label>左蹄</Elk.tools.0.label>
-  <Elk.tools.1.label>右蹄</Elk.tools.1.label>
-  <Elk.tools.3.label>頭</Elk.tools.3.label>
-  <Elk_Leather.label>糜鹿皮</Elk_Leather.label>
-  <Elk_Leather.description>麋鹿的毛皮。</Elk_Leather.description>
-  <Elk_Leather.stuffProps.stuffAdjective>糜鹿皮</Elk_Leather.stuffProps.stuffAdjective>
-  <Elk_Meat.label>麋鹿肉</Elk_Meat.label>
-  <Elk_Meat.description>麋鹿的肉。</Elk_Meat.description>
-  <Elk_Corpse.label>麋鹿屍體</Elk_Corpse.label>
-  <Elk_Corpse.description>麋鹿的屍體。</Elk_Corpse.description>
-
+  <!-- EN: caribou -->
   <Caribou.label>馴鹿</Caribou.label>
+  <!-- EN: A large member of the deer family, well-adapted to life in cold climates. Caribou can be milked, but refuse to carry packs. -->
   <Caribou.description>體型相當龐大的一種鹿，相當適應寒冷的氣候。馴鹿可以產奶，但不能作為駝獸。</Caribou.description>
-  <Caribou.tools.0.label>左蹄</Caribou.tools.0.label>
-  <Caribou.tools.1.label>右蹄</Caribou.tools.1.label>
-  <Caribou.tools.3.label>頭</Caribou.tools.3.label>
-  <Caribou_Leather.label>馴鹿皮</Caribou_Leather.label>
-  <Caribou_Leather.description>馴鹿毛皮。</Caribou_Leather.description>
-  <Caribou_Leather.stuffProps.stuffAdjective>馴鹿皮</Caribou_Leather.stuffProps.stuffAdjective>
-  <Caribou_Meat.label>馴鹿肉</Caribou_Meat.label>
-  <Caribou_Meat.description>馴鹿的肉。</Caribou_Meat.description>
-  <Caribou_Corpse.label>馴鹿屍體</Caribou_Corpse.label>
-  <Caribou_Corpse.description>馴鹿的屍體。</Caribou_Corpse.description>
+  <!-- EN: left hoof -->
+  <Caribou.tools.left_hoof.label>左蹄</Caribou.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Caribou.tools.right_hoof.label>右蹄</Caribou.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Caribou.tools.head.label>頭</Caribou.tools.head.label>
   
-  <WildBoar.label>野豬</WildBoar.label>
-  <WildBoar.description>這種毛茸茸的雜食動物是脫逃的家豬的後代，為適應野外生活而進化。\n\n牠們的獠牙使他們比他們的家豬兄弟更加善戰，可惜不擅長接受複雜工作的訓練。</WildBoar.description>
-  <WildBoar.tools.0.label>tusk</WildBoar.tools.0.label>
-  <WildBoar.tools.2.label>頭</WildBoar.tools.2.label>
-  <!-- Use Leather From: Pig -->
-  <!-- Use Meat From: Pig -->
-  <WildBoar_Corpse.label>野豬屍體</WildBoar_Corpse.label>
-  <WildBoar_Corpse.description>野豬的屍體。</WildBoar_Corpse.description>
+  <!-- EN: deer -->
+  <Deer.label>鹿</Deer.label>
+  <!-- EN: A medium-sized herding herbivore which prefers to live in mixed forests and plains. Deer are very quick. -->
+  <Deer.description>一種中型的草食動物，喜歡生活在混合林和草原。行動非常靈活，但性格溫馴，即便受到攻擊也不會反擊。</Deer.description>
+  <!-- EN: venison -->
+  <Deer.race.meatLabel>鹿肉</Deer.race.meatLabel>
+  <!-- EN: left hoof -->
+  <Deer.tools.left_hoof.label>左蹄</Deer.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Deer.tools.right_hoof.label>右蹄</Deer.tools.right_hoof.label>
+  <!-- EN: teeth -->
+  <Deer.tools.teeth.label>牙</Deer.tools.teeth.label>
+  <!-- EN: head -->
+  <Deer.tools.head.label>頭</Deer.tools.head.label>
   
+  <!-- EN: elk -->
+  <Elk.label>麋鹿</Elk.label>
+  <!-- EN: A large member of the deer family, well-adapted to life in cold climates. Domesticated elk can be milked, but refuse to carry packs. -->
+  <Elk.description>鹿科家族的巨大成員，良好的適應了寒冷環境。馴養的麋鹿可以產奶，但不能作為駝獸。</Elk.description>
+  <!-- EN: left hoof -->
+  <Elk.tools.left_hoof.label>左蹄</Elk.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Elk.tools.right_hoof.label>右蹄</Elk.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Elk.tools.head.label>頭</Elk.tools.head.label>
+  
+  <!-- EN: ibex -->
+  <Ibex.label>野山羊</Ibex.label>
+  <!-- EN: The wild ancestor of the domesticated goat. Ibexes live on marginal territory where most antelopes couldn't survive, eating lichens and sparse mountain plants. They're famous for dextrously hopping across bare cliff faces - and for their violent ramming attack. -->
+  <Ibex.description>圈養山羊的野生祖先，野山羊生活在貧瘠的環境，大多數羚羊都無法生存，以苔癬和稀少的高山植物為食。牠們因擅長在陡峭的崖壁上移動以及猛烈的頭搥而聞名。</Ibex.description>
+  <!-- EN: left hoof -->
+  <Ibex.tools.left_hoof.label>左蹄</Ibex.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Ibex.tools.right_hoof.label>右蹄</Ibex.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Ibex.tools.head.label>頭</Ibex.tools.head.label>
+  
+  <!-- EN: tortoise -->
   <Tortoise.label>烏龜</Tortoise.label>
+  <!-- EN: This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite. Because of its natural armor, it is tough to kill and can do serious damage during drawn-out melee fights. -->
   <Tortoise.description>這個背負著沉重甲殼的陸生爬行動物，以緩慢的移動速度和驚人的狠咬著名。牠們天生的硬甲使牠們難以被殺死，並且能在近戰中造成大量傷害。</Tortoise.description>
-  <Tortoise.tools.1.label>頭</Tortoise.tools.1.label>
-  <Tortoise_Leather.label>烏龜皮</Tortoise_Leather.label>
-  <Tortoise_Leather.description>烏龜的皮。</Tortoise_Leather.description>
-  <Tortoise_Leather.stuffProps.stuffAdjective>烏龜皮</Tortoise_Leather.stuffProps.stuffAdjective>
-  <Tortoise_Meat.label>烏龜肉</Tortoise_Meat.label>
-  <Tortoise_Meat.description>烏龜的肉。</Tortoise_Meat.description>
-  <Tortoise_Corpse.label>烏龜屍體</Tortoise_Corpse.label>
-  <Tortoise_Corpse.description>烏龜的屍體。</Tortoise_Corpse.description>
-
+  <!-- EN: beak -->
+  <Tortoise.tools.beak.label>嘴</Tortoise.tools.beak.label>
+  <!-- EN: head -->
+  <Tortoise.tools.head.label>頭</Tortoise.tools.head.label>
+  
+  <!-- EN: wild boar -->
+  <WildBoar.label>野豬</WildBoar.label>
+  <!-- EN: This hairy omnivore is descended from escaped pigs and evolved for living in the wild.\n\nIts tusks make it a better fighter than its domesticated pig cousins. Unfortunately, it is too unruly to be trained in the most complex tasks. -->
+  <WildBoar.description>這種毛茸茸的雜食動物是脫逃的家豬的後代，為適應野外生活而進化。\n\n牠們的獠牙使他們比他們的家豬兄弟更加善戰，可惜不擅長接受複雜工作的訓練。</WildBoar.description>
+  <!-- EN: tusk -->
+  <WildBoar.tools.tusk.label>長牙</WildBoar.tools.tusk.label>
+  <!-- EN: head -->
+  <WildBoar.tools.head.label>頭</WildBoar.tools.head.label>
+  
 </LanguageData>

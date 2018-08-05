@@ -1,67 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <Muffalo.label>毛牛</Muffalo.label>
-  <Muffalo.description>由水牛演化而來的一種大型草食動物，對於冷熱環境都有良好的適應性，憤怒的毛牛非常致命，但馴服後相當溫順，可以作為駝獸。\n\n沒有人知道為什麼牠們會是藍色的，搞不好是早年的一些基因改造試驗留下的痕跡。</Muffalo.description>
-  <Muffalo.tools.0.label>頭</Muffalo.tools.0.label>
-  <Muffalo_Leather.label>毛牛皮</Muffalo_Leather.label>
-  <Muffalo_Leather.description>毛牛的皮。</Muffalo_Leather.description>
-  <Muffalo_Leather.stuffProps.stuffAdjective>毛牛皮</Muffalo_Leather.stuffProps.stuffAdjective>
-  <Muffalo_Meat.label>毛牛肉</Muffalo_Meat.label>
-  <Muffalo_Meat.description>毛牛的肉。</Muffalo_Meat.description>
-  <Muffalo_Corpse.label>毛牛屍體</Muffalo_Corpse.label>
-  <Muffalo_Corpse.description>毛牛的屍體。</Muffalo_Corpse.description>
-
-  <Gazelle.label>羚羊</Gazelle.label>
-  <Gazelle.description>一種體型小而靈活的動物，廣為人知的還有牠令人難以置信的跳耀能力。</Gazelle.description>
-  <Gazelle.tools.0.label>左蹄</Gazelle.tools.0.label>
-  <Gazelle.tools.1.label>右蹄</Gazelle.tools.1.label>
-  <Gazelle.tools.3.label>頭</Gazelle.tools.3.label>
-  <Gazelle_Leather.label>羚羊毛皮</Gazelle_Leather.label>
-  <Gazelle_Leather.description>羚羊的毛皮。</Gazelle_Leather.description>
-  <Gazelle_Leather.stuffProps.stuffAdjective>羚羊皮</Gazelle_Leather.stuffProps.stuffAdjective>
-  <Gazelle_Meat.label>羚羊肉</Gazelle_Meat.label>
-  <Gazelle_Meat.description>羚羊的肉。</Gazelle_Meat.description>
-  <Gazelle_Corpse.label>羚羊屍體</Gazelle_Corpse.label>
-  <Gazelle_Corpse.description>羚羊的屍體。</Gazelle_Corpse.description>
-  
-  <Iguana.label>鬣蜥</Iguana.label>
-  <Iguana.description>這種大蜥蜴一般以植物為食。在憤怒時牠們的尖牙利爪會讓他們成為一種危險的動物。\n\n休息中的鬣蜥會高舉頭部，給人一種驕傲的感覺，事實是，牠們只是在警戒掠食者以免被吃掉。</Iguana.description>
-  <Iguana.tools.0.label>左爪</Iguana.tools.0.label>
-  <Iguana.tools.1.label>右爪</Iguana.tools.1.label>
-  <Iguana.tools.3.label>頭</Iguana.tools.3.label>
-  <Iguana_Leather.label>鬣蜥皮</Iguana_Leather.label>
-  <Iguana_Leather.description>鬣蜥的皮。</Iguana_Leather.description>
-  <Iguana_Leather.stuffProps.stuffAdjective>鬣蜥皮</Iguana_Leather.stuffProps.stuffAdjective>
-  <Iguana_Meat.label>鬣蜥肉</Iguana_Meat.label>
-  <Iguana_Meat.description>鬣蜥的肉。</Iguana_Meat.description>
-  <Iguana_Corpse.label>鬣蜥屍體</Iguana_Corpse.label>
-  <Iguana_Corpse.description>鬣蜥的屍體。</Iguana_Corpse.description>
-  
-  <Rhinoceros.label>犀牛</Rhinoceros.label>
-  <Rhinoceros.description>儘管是草食性動物，這種動物的脾氣十分火爆。一但激怒牠，巨大的力量和尖銳的角使牠成為兇殘的對手。牠光是一條腿所擁有的肌肉就多過一整個人。</Rhinoceros.description>
-  <Rhinoceros.tools.0.label>角</Rhinoceros.tools.0.label>
-  <Rhinoceros.tools.1.label>角</Rhinoceros.tools.1.label>
-  <Rhinoceros.tools.3.label>頭</Rhinoceros.tools.3.label>
-  <Rhinoceros_Leather.label>犀牛皮</Rhinoceros_Leather.label>
-  <Rhinoceros_Leather.description>犀牛的皮。</Rhinoceros_Leather.description>
-  <Rhinoceros_Leather.stuffProps.stuffAdjective>犀牛皮</Rhinoceros_Leather.stuffProps.stuffAdjective>
-  <Rhinoceros_Meat.label>犀牛肉</Rhinoceros_Meat.label>
-  <Rhinoceros_Meat.description>犀牛的肉。</Rhinoceros_Meat.description>
-  <Rhinoceros_Corpse.label>犀牛屍體</Rhinoceros_Corpse.label>
-  <Rhinoceros_Corpse.description>犀牛的屍體。</Rhinoceros_Corpse.description>
-  
+  <!-- EN: dromedary -->
   <Dromedary.label>駱駝</Dromedary.label>
+  <!-- EN: A large land mammal adapted to arid environments. Domesticated since ancient times, its wool and leather are both exceptionally good at insulating against the desert heat, and its milk is quite nourishing. It can be used as a pack animal, but it's bouncing gait makes it too uncomfortable to ride for any distance.\n\nBy storing water in its large humps and reclaiming moisture from its breath as it exhales, it can go weeks without drinking. -->
   <Dromedary.description>適應乾旱環境大型陸地哺乳類動物，很早就被人類所馴化，皮和毛都是和用來做成隔熱材料，奶水也十分滋潤可口。駱駝可以作為駝獸，但彈跳的移動方式使得乘坐牠移動任何距離都不太舒服。\n\n將水分儲存在碩大的駝峰中，並從呼氣中回收水分，駱駝可以連續幾周不飲水。</Dromedary.description>
-  <Dromedary.tools.0.label>左蹄</Dromedary.tools.0.label>
-  <Dromedary.tools.1.label>右蹄</Dromedary.tools.1.label>
-  <Dromedary.tools.3.label>頭</Dromedary.tools.3.label>
-  <Dromedary_Leather.label>駱駝毛皮</Dromedary_Leather.label>
-  <Dromedary_Leather.description>駱駝的毛皮。</Dromedary_Leather.description>
-  <Dromedary_Leather.stuffProps.stuffAdjective>駱駝毛皮</Dromedary_Leather.stuffProps.stuffAdjective>
-  <Dromedary_Meat.label>駱駝肉</Dromedary_Meat.label>
-  <Dromedary_Meat.description>駱駝的肉。</Dromedary_Meat.description>
-  <Dromedary_Corpse.label>駱駝屍體</Dromedary_Corpse.label>
-  <Dromedary_Corpse.description>駱駝的屍體。</Dromedary_Corpse.description>
-
+  <!-- EN: left hoof -->
+  <Dromedary.tools.left_hoof.label>左蹄</Dromedary.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Dromedary.tools.right_hoof.label>右蹄</Dromedary.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Dromedary.tools.head.label>頭</Dromedary.tools.head.label>
+  
+  <!-- EN: gazelle -->
+  <Gazelle.label>羚羊</Gazelle.label>
+  <!-- EN: A small, extremely quick antelope known for its amazingly long leap. -->
+  <Gazelle.description>一種體型小而靈活的動物，廣為人知的還有牠令人難以置信的跳耀能力。</Gazelle.description>
+  <!-- EN: left hoof -->
+  <Gazelle.tools.left_hoof.label>左蹄</Gazelle.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Gazelle.tools.right_hoof.label>右蹄</Gazelle.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Gazelle.tools.head.label>頭</Gazelle.tools.head.label>
+  
+  <!-- EN: iguana -->
+  <Iguana.label>鬣蜥</Iguana.label>
+  <!-- EN: These large lizards normally feed on plant matter. However, when angered, their tough hide and sharp claws make them quite dangerous.\n\nResting iguanas hold their heads high, giving them an amusing 'proud' look. But they're not proud; they're just trying to see predators so they don't get eaten. -->
+  <Iguana.description>這種大蜥蜴一般以植物為食。在憤怒時牠們的尖牙利爪會讓他們成為一種危險的動物。\n\n休息中的鬣蜥會高舉頭部，給人一種驕傲的感覺，事實是，牠們只是在警戒掠食者以免被吃掉。</Iguana.description>
+  <!-- EN: left claw -->
+  <Iguana.tools.left_claw.label>左爪</Iguana.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Iguana.tools.right_claw.label>右爪</Iguana.tools.right_claw.label>
+  <!-- EN: head -->
+  <Iguana.tools.head.label>頭</Iguana.tools.head.label>
+  
+  <!-- EN: muffalo -->
+  <Muffalo.label>毛牛</Muffalo.label>
+  <!-- EN: A large herding herbivore descended from buffalo and adapted for both cold and warm environments. While enraged muffalo are deadly, tamed muffalo are quite docile and can be used as pack animals.\n\nNobody is quite sure why they're blue - it might even be some early genetic modification test that just never got changed. -->
+  <Muffalo.description>由水牛演化而來的一種大型草食動物，對於冷熱環境都有良好的適應性，憤怒的毛牛非常致命，但馴服後相當溫順，可以作為駝獸。\n\n沒有人知道為什麼牠們會是藍色的，搞不好是早年的一些基因改造試驗留下的痕跡。</Muffalo.description>
+  <!-- EN: head -->
+  <Muffalo.tools.head.label>頭</Muffalo.tools.head.label>
+  <!-- EN: left hoof -->
+  <Muffalo.tools.left_hoof.label>左蹄</Muffalo.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Muffalo.tools.right_hoof.label>右蹄</Muffalo.tools.right_hoof.label>
+  
 </LanguageData>

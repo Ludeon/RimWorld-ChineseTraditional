@@ -1,45 +1,64 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Food crops -->
   
-  <Plant_Rice.label>稻米</Plant_Rice.label>
-  <Plant_Rice.description>一種低矮而生長快速的植物，生產少量穀物。</Plant_Rice.description>
-
-  <Plant_Potato.label>馬鈴薯</Plant_Potato.label>
-  <Plant_Potato.description>富含營養的塊莖作物。在稍微貧瘠的土地中也能生長得很好。油炸後會在表面形成美味酥脆的口感。</Plant_Potato.description>
-
+  <!-- EN: corn plant -->
   <Plant_Corn.label>玉米</Plant_Corn.label>
+  <!-- EN: A tall grain plant which produces ears of soft, edible seeds. While corn takes a long time to grow, it yields lots of food compared to other crops. Harvested corn takes a long time to spoil. -->
   <Plant_Corn.description>一種高大的穀類作物，產出柔軟美味的種子。雖然玉米需要非常長的生長時間，但和其他作物相比能產生更多的收穫量。收穫玉米需要花費很長的時間。</Plant_Corn.description>
-
-  <Plant_Strawberry.label>草莓</Plant_Strawberry.label>
-  <Plant_Strawberry.description>一種低矮的灌木植物，產出脆弱但美味的草莓。雖然營養價值不如其他作物，但生吃也非常美味。</Plant_Strawberry.description>
-
+  
+  <!-- EN: cotton plant -->
+  <Plant_Cotton.label>棉花</Plant_Cotton.label>
+  <!-- EN: A mid-size crop that yields fine white cotton fibers. These are used to make cloth. -->
+  <Plant_Cotton.description>一種高度級腰的作物，產出能用於製作衣物的棉花。</Plant_Cotton.description>
+  
+  <!-- EN: devilstrand -->
+  <Plant_Devilstrand.label>魔鬼菇</Plant_Devilstrand.label>
+  <!-- EN: This fragile mushroom was genetically engineered to produce a silk net that is both difficult to tear and soft to the touch. While the mushroom takes a very long time to grow, only exotic ultra-tech fabrics outperform its devilstrand fibers.\n\nSome say it's called devilstrand because of its red color. Others think it owes its name to the greed it inspires in people. -->
+  <Plant_Devilstrand.description>這種脆弱的蘑菇經過基因改造，能夠產出既強韌又柔軟的布料。雖然魔鬼菇生長緩慢，但只有異星出產的超級布料能超越這種魔鬼布料。\n\n有人認為「魔鬼」之名是來自其紅色外觀，其他人則認為是因為這樣的名字能激發出人們的貪婪欲望。</Plant_Devilstrand.description>
+  
+  <!-- EN: haygrass -->
   <Plant_Haygrass.label>牧草</Plant_Haygrass.label>
+  <!-- EN: A mixture of nutrient-rich grasses which yield large amounts of hay. Hay is edible for animals, but not humans. -->
   <Plant_Haygrass.description>營養豐富的牧草，做為動物的飼料，人類無法食用。</Plant_Haygrass.description>
   
-
-  <!-- Production crops -->
-
-  <Plant_Cotton.label>棉花</Plant_Cotton.label>
-  <Plant_Cotton.description>一種高度級腰的作物，產出能用於製作衣物的棉花。</Plant_Cotton.description>
-
-  <Plant_Devilstrand.label>魔鬼菇</Plant_Devilstrand.label>
-  <Plant_Devilstrand.description>這種脆弱的蘑菇經過基因改造，能夠產出既強韌又柔軟的布料。雖然魔鬼菇生長緩慢，但只有異星出產的超級布料能超越這種魔鬼布料。\n\n有人認為「魔鬼」之名是來自其紅色外觀，其他人則認為是因為這樣的名字能激發出人們的貪婪欲望。</Plant_Devilstrand.description>
-
+  <!-- EN: healroot -->
   <Plant_Healroot.label>藥草</Plant_Healroot.label>
+  <!-- EN: A slow-growing plant which yields herbal medicine when harvested. Sowing and harvesting healroot are both very labor-intensive tasks because of its delicate shoots.\n\nHealroot was selectively bred for centuries by settlers. It is sometimes also called "healer's hand" by tribespeople - a nickname it owes to its five major medicinal virtues. -->
   <Plant_Healroot.description>這種植物在幾個世紀間不斷地被星球定居者進行品種改良，收穫時可以獲得藥草。因為它那精細的枝條，種植和收穫這種植物都是高技術含量的工作。此外，這種藥草擁有的五大療效讓它在部落民之間贏得了「醫師之手」的美名。</Plant_Healroot.description>
   
-
-  <!-- Drug crops -->
-  
+  <!-- EN: hop plant -->
   <Plant_Hops.label>啤酒花</Plant_Hops.label>
+  <!-- EN: A flowering crop that yields hops, an essential ingredient in beer. -->
   <Plant_Hops.description>一種能夠收穫啤酒花的開花作物，是釀造啤酒不可或缺的重要成分。</Plant_Hops.description>
   
+  <!-- EN: potato plant -->
+  <Plant_Potato.label>馬鈴薯</Plant_Potato.label>
+  <!-- EN: A highly nutritious tuber. Potatoes grow well even in somewhat poor soil, and form a delicious crispy outer coating when fried in oil. -->
+  <Plant_Potato.description>富含營養的塊莖作物。在稍微貧瘠的土地中也能生長得很好。油炸後會在表面形成美味酥脆的口感。</Plant_Potato.description>
+  
+  <!-- EN: psychoid plant -->
+  <Plant_Psychoid.label>迷幻草</Plant_Psychoid.label>
+  <!-- EN: A leafy plant which generates the chemical compound psychite. Originally evolved as a defense mechanism to ward off plant-eating animals by overstimulating and sickening them, the psychite drug can be extracted and refined into various forms for recreational use. It is addictive. -->
+  <Plant_Psychoid.description>生產興奮物質的綠葉植物。最初這種化學成份是作為一種自衛特性，給予刺激以防止被動物食用，可以萃取為精神藥物的原料，具有成隱性。</Plant_Psychoid.description>
+  
+  <!-- EN: rice plant -->
+  <Plant_Rice.label>稻米</Plant_Rice.label>
+  <!-- EN: A short, fast-growing crop that yields small edible grains. Its great nutritional ouput and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil. -->
+  <Plant_Rice.description>一種低矮而生長快速的植物，生產少量穀物。</Plant_Rice.description>
+  
+  <!-- EN: smokeleaf plant -->
   <Plant_Smokeleaf.label>菸草</Plant_Smokeleaf.label>
+  <!-- EN: A leafy crop grown for the psychological effects of chemicals in its leaves. Smokeleaf leaves can be prepared into joints at the crafting spot. Smokeleaf makes a user feel relaxed, but reduces motivation, and can be addictive. -->
   <Plant_Smokeleaf.description>為了其葉片中能導致興奮的化學物質而栽種的作物。在手工工作點可以加工成捲菸。捲菸能使人感到放鬆，但精神會恍惚，並有成癮的可能。</Plant_Smokeleaf.description>
   
-  <Plant_Psychoid.label>迷幻草</Plant_Psychoid.label>
-  <Plant_Psychoid.description>生產興奮物質的綠葉植物。最初這種化學成份是作為一種自衛特性，給予刺激以防止被動物食用，可以萃取為精神藥物的原料，具有成隱性。</Plant_Psychoid.description>
+  <!-- EN: strawberry plant -->
+  <Plant_Strawberry.label>草莓</Plant_Strawberry.label>
+  <!-- EN: A low bush-like plant that yields fragile but delicious strawberries. While it isn't quite as productive calorie-for-calorie as other crops, strawberries are delicious even when raw. -->
+  <Plant_Strawberry.description>一種低矮的灌木植物，產出脆弱但美味的草莓。雖然營養價值不如其他作物，但生吃也非常美味。</Plant_Strawberry.description>
+  
+  <!-- EN: cocoa tree -->
+  <Plant_TreeCocoa.label>可可樹</Plant_TreeCocoa.label>
+  <!-- EN: A tropical tree that produces chocolate, genetically engineered to sweeten its own product, and survive in slightly less-warm climates. -->
+  <Plant_TreeCocoa.description>可以生產可可的熱帶樹木。經過基因改造可以自行產生甜味，並且能在稍微不溫暖的地區生存。</Plant_TreeCocoa.description>
   
 </LanguageData>

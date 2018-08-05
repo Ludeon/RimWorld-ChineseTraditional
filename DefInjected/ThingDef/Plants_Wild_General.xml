@@ -1,25 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Carpets -->
   
+  <!-- EN: brambles -->
+  <Plant_Brambles.label>荊棘</Plant_Brambles.label>
+  <!-- EN: Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them. -->
+  <Plant_Brambles.description>糾結多刺的樹枝上長滿樹葉。荊棘密集纏繞的生長，並拖慢任何想通過它的人。</Plant_Brambles.description>
+  
+  <!-- EN: bush -->
+  <Plant_Bush.label>灌木</Plant_Bush.label>
+  <!-- EN: A short shrub. Does not typically talk. -->
+  <Plant_Bush.description>低矮得不正常的灌木。</Plant_Bush.description>
+  
+  <!-- EN: grass -->
   <Plant_Grass.label>草</Plant_Grass.label>
+  <!-- EN: Wild grass. Grows anywhere there is a little light and minimally fertile ground. -->
   <Plant_Grass.description>野草，在稍微有點光線和土地的地方就能發現它的蹤跡。</Plant_Grass.description>
   
-  <Plant_TallGrass.label>高草</Plant_TallGrass.label>
-  <Plant_TallGrass.description>野生高草。通過時會減慢速度。</Plant_TallGrass.description>
-
-
-  <!-- Bushes -->
+  <!-- EN: wild healroot -->
+  <Plant_HealrootWild.label>野生藥草</Plant_HealrootWild.label>
+  <!-- EN: A slow-growing plant which yields herbal medicine when harvested.\n\nThis wild breed of healroot is hardier than domesticated healroot, but too difficult to cultivate. It is prized by tribespeople in colder climates. -->
+  <Plant_HealrootWild.description>一種生長緩慢的植物，採集可獲得藥草。\n\n這種野生品種的藥草比馴化種更強壯，但也更難培育，寒冷地區的部落人民將之視為珍寶。</Plant_HealrootWild.description>
   
-  <Plant_Bush.label>灌木</Plant_Bush.label>
-  <Plant_Bush.description>低矮得不正常的灌木。</Plant_Bush.description>
-
-  <Plant_Brambles.label>荊棘</Plant_Brambles.label>
-  <Plant_Brambles.description>糾結多刺的樹枝上長滿樹葉。荊棘密集纏繞的生長，並拖慢任何想通過它的人。</Plant_Brambles.description>
-
-  <Plant_WildHealroot.label>野生藥草</Plant_WildHealroot.label>
-  <Plant_WildHealroot.description>一種生長緩慢的植物，採集可獲得藥草。\n\n這種野生品種的藥草比馴化種更強壯，但也更難培育，寒冷地區的部落人民將之視為珍寶。</Plant_WildHealroot.description>
-
-
+  <!-- EN: tall grass -->
+  <Plant_TallGrass.label>高草</Plant_TallGrass.label>
+  <!-- EN: Wild tall grass. Slows down anyone moving over it. -->
+  <Plant_TallGrass.description>野生高草。通過時會減慢速度。</Plant_TallGrass.description>
+  
 </LanguageData>

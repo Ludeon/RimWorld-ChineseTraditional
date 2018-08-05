@@ -1,91 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Warg -->
   
-  <Warg.label>座狼</Warg.label>
-  <Warg.description>肌肉發達的類狼生物，擁有不自然的兇殘利爪和強勁的下顎咬合力。牠們只吃肉或是屍體。野生個體若受到攻擊很可能會做出反擊。\n\n科學家表示，座狼是人造的軍用生物，用以控制人口成長。而某些迷信者則相信牠們是憤怒的神明派遣而來的使徒。</Warg.description>
-  <Warg.tools.0.label>左爪</Warg.tools.0.label>
-  <Warg.tools.1.label>右爪</Warg.tools.1.label>
-  <Warg.tools.3.label>頭</Warg.tools.3.label>
-  <Warg_Leather.label>座狼皮毛</Warg_Leather.label>
-  <Warg_Leather.description>座狼的毛皮。</Warg_Leather.description>
-  <Warg_Leather.stuffProps.stuffAdjective>座狼皮毛</Warg_Leather.stuffProps.stuffAdjective>
-  <Warg_Meat.label>座狼肉</Warg_Meat.label>
-  <Warg_Meat.description>座狼的肉。</Warg_Meat.description>
-  <Warg_Corpse.label>座狼屍體</Warg_Corpse.label>
-  <Warg_Corpse.description>座狼的屍體。</Warg_Corpse.description>
-
-
-  <!-- Wolves -->
-
-  <Wolf_Timber.label>灰狼</Wolf_Timber.label>
-  <Wolf_Timber.description>自古以來便受到許多古老地球文化敬畏的天生獵人，作為群居動物，具有複雜的社會系統而且非常聰明。</Wolf_Timber.description>
-  <Wolf_Timber.tools.0.label>左爪</Wolf_Timber.tools.0.label>
-  <Wolf_Timber.tools.1.label>右爪</Wolf_Timber.tools.1.label>
-  <Wolf_Timber.tools.3.label>頭</Wolf_Timber.tools.3.label>
-  <Wolf_Timber_Leather.label>灰狼皮毛</Wolf_Timber_Leather.label>
-  <Wolf_Timber_Leather.description>灰狼的毛皮。</Wolf_Timber_Leather.description>
-  <Wolf_Timber_Leather.stuffProps.stuffAdjective>灰狼皮</Wolf_Timber_Leather.stuffProps.stuffAdjective>
-  <Wolf_Timber_Meat.label>狼肉</Wolf_Timber_Meat.label>
-  <Wolf_Timber_Meat.description>狼的肉。</Wolf_Timber_Meat.description>
-  <Wolf_Timber_Corpse.label>灰狼屍體</Wolf_Timber_Corpse.label>
-  <Wolf_Timber_Corpse.description>灰狼的屍體。</Wolf_Timber_Corpse.description>
-
-  <Wolf_Arctic.label>雪狼</Wolf_Arctic.label>
-  <Wolf_Arctic.description>雪狼屬於灰狼的極地品種，作為群居動物，具有複雜的社會系統並且非常聰明。</Wolf_Arctic.description>
-  <Wolf_Arctic.tools.0.label>左爪</Wolf_Arctic.tools.0.label>
-  <Wolf_Arctic.tools.1.label>右爪</Wolf_Arctic.tools.1.label>
-  <Wolf_Arctic.tools.3.label>頭</Wolf_Arctic.tools.3.label>
-  <Wolf_Arctic_Leather.label>雪狼皮毛</Wolf_Arctic_Leather.label>
-  <Wolf_Arctic_Leather.description>雪狼的毛皮。</Wolf_Arctic_Leather.description>
-  <Wolf_Arctic_Leather.stuffProps.stuffAdjective>雪狼皮</Wolf_Arctic_Leather.stuffProps.stuffAdjective>
-  <!-- Use Meat From: Wolf_Timber -->
-  <Wolf_Arctic_Corpse.label>雪狼屍體</Wolf_Arctic_Corpse.label>
-  <Wolf_Arctic_Corpse.description>雪狼的屍體。</Wolf_Arctic_Corpse.description>
-
-
-  <!-- Fox fennec -->
-
-  <Fox_Fennec_Meat.label>沙漠狐</Fox_Fennec_Meat.label>
-  <Fox_Fennec_Meat.description>源自舊地球非洲北部的小型狐狸，有著一對大耳朵，以獵捕小型生物維生。</Fox_Fennec_Meat.description>
-  <Fox_Fennec_Meat.tools.0.label>左爪</Fox_Fennec_Meat.tools.0.label>
-  <Fox_Fennec_Meat.tools.1.label>右爪</Fox_Fennec_Meat.tools.1.label>
-  <Fox_Fennec_Meat.tools.3.label>頭</Fox_Fennec_Meat.tools.3.label>
-  <Fox_Fennec_Meat_Leather.label>沙漠狐皮毛</Fox_Fennec_Meat_Leather.label>
-  <Fox_Fennec_Meat_Leather.description>沙漠狐的毛皮。</Fox_Fennec_Meat_Leather.description>
-  <Fox_Fennec_Meat_Leather.stuffProps.stuffAdjective>沙漠狐皮</Fox_Fennec_Meat_Leather.stuffProps.stuffAdjective>
-  <Fox_Fennec_Meat_Meat.label>狐狸肉</Fox_Fennec_Meat_Meat.label>
-  <Fox_Fennec_Meat_Meat.description>狐狸的肉。</Fox_Fennec_Meat_Meat.description>
-  <Fox_Fennec_Meat_Corpse.label>沙漠狐屍體</Fox_Fennec_Meat_Corpse.label>
-  <Fox_Fennec_Meat_Corpse.description>沙漠狐的屍體。</Fox_Fennec_Meat_Corpse.description>
-
-
-  <!-- Fox red -->
-
-  <Fox_Red.label>紅狐</Fox_Red.label>
-  <Fox_Red.description>一種從犬科動物獨立演化而來的狩獵者，專門狩獵小型生物，生活在溫帶地區。雞農痛恨狐狸，因為牠們在幾分鐘內就能摧毀整間雞舍。</Fox_Red.description>
-  <Fox_Red.tools.0.label>左爪</Fox_Red.tools.0.label>
-  <Fox_Red.tools.1.label>右爪</Fox_Red.tools.1.label>
-  <Fox_Red.tools.3.label>頭</Fox_Red.tools.3.label>
-  <Fox_Red_Leather.label>紅狐皮毛</Fox_Red_Leather.label>
-  <Fox_Red_Leather.description>紅狐的毛皮。</Fox_Red_Leather.description>
-  <Fox_Red_Leather.stuffProps.stuffAdjective>紅狐皮</Fox_Red_Leather.stuffProps.stuffAdjective>
-  <!-- Use Meat From: Fox_Fennec_Meat -->
-  <Fox_Red_Corpse.label>紅狐</Fox_Red_Corpse.label>
-  <Fox_Red_Corpse.description>紅狐的屍體。</Fox_Red_Corpse.description>
-
-
-  <!-- Fox arctic -->
-
+  <!-- EN: arctic fox -->
   <Fox_Arctic.label>北極狐</Fox_Arctic.label>
+  <!-- EN: A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey. -->
   <Fox_Arctic.description>適應了寒冷環境的小型動物，擅長狩獵體型比牠小的生物，如老鼠，有時為了狩獵動物，能夠挖穿超過一米深的積雪。</Fox_Arctic.description>
-  <Fox_Arctic_Leather.label>北極狐皮毛</Fox_Arctic_Leather.label>
-  <Fox_Arctic_Leather.description>北極狐的毛皮。</Fox_Arctic_Leather.description>
-  <Fox_Arctic_Leather.stuffProps.stuffAdjective>北極狐皮</Fox_Arctic_Leather.stuffProps.stuffAdjective>
-  <!-- Use Meat From: Fox_Fennec_Meat -->
-  <Fox_Arctic_Corpse.label>北極狐屍體</Fox_Arctic_Corpse.label>
-  <Fox_Arctic_Corpse.description>北極狐的屍體。</Fox_Arctic_Corpse.description>
-
-
+  <!-- EN: left claw -->
+  <Fox_Arctic.tools.left_claw.label>左爪</Fox_Arctic.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Fox_Arctic.tools.right_claw.label>右爪</Fox_Arctic.tools.right_claw.label>
+  <!-- EN: head -->
+  <Fox_Arctic.tools.head.label>頭</Fox_Arctic.tools.head.label>
+  
+  <!-- EN: fennec fox -->
+  <Fox_Fennec.label>沙漠狐</Fox_Fennec.label>
+  <!-- EN: A small fox originally from the northern part of Earth's Africa continent. It hunts small creatures and has very large ears for cooling itself in the heat. -->
+  <Fox_Fennec.description>源自舊地球非洲北部的小型狐狸，有著一對大耳朵，以獵捕小型生物維生。</Fox_Fennec.description>
+  <!-- EN: foxmeat -->
+  <Fox_Fennec.race.meatLabel>狐肉</Fox_Fennec.race.meatLabel>
+  <!-- EN: left claw -->
+  <Fox_Fennec.tools.left_claw.label>左爪</Fox_Fennec.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Fox_Fennec.tools.right_claw.label>右爪</Fox_Fennec.tools.right_claw.label>
+  <!-- EN: head -->
+  <Fox_Fennec.tools.head.label>頭</Fox_Fennec.tools.head.label>
+  
+  <!-- EN: red fox -->
+  <Fox_Red.label>紅狐</Fox_Red.label>
+  <!-- EN: A small solitary canine evolved for hunting small prey in temperate climates. Chicken farmers hate foxes because of their ability to destroy a whole coop in minutes. -->
+  <Fox_Red.description>一種從犬科動物獨立演化而來的狩獵者，專門狩獵小型生物，生活在溫帶地區。雞農痛恨狐狸，因為牠們在幾分鐘內就能摧毀整間雞舍。</Fox_Red.description>
+  <!-- EN: left claw -->
+  <Fox_Red.tools.left_claw.label>左爪</Fox_Red.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Fox_Red.tools.right_claw.label>右爪</Fox_Red.tools.right_claw.label>
+  <!-- EN: head -->
+  <Fox_Red.tools.head.label>頭</Fox_Red.tools.head.label>
+  
+  <!-- EN: warg -->
+  <Warg.label>座狼</Warg.label>
+  <!-- EN: Heavily-muscled wolf-like creatures with vicious unnatural claws and an absurdly powerful bite. They will only eat meat or corpses. If disturbed in the wild, they are very likely to attack.\n\nScientists say wargs are the descendants of weaponized military animals created for population suppression. The superstitious see them as the tools of an angry god. -->
+  <Warg.description>肌肉發達的類狼生物，擁有不自然的兇殘利爪和強勁的下顎咬合力。牠們只吃肉或是屍體。野生個體若受到攻擊很可能會做出反擊。\n\n科學家表示，座狼是人造的軍用生物，用以控制人口成長。而某些迷信者則相信牠們是憤怒的神明派遣而來的使徒。</Warg.description>
+  <!-- EN: left claw -->
+  <Warg.tools.left_claw.label>左爪</Warg.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Warg.tools.right_claw.label>右爪</Warg.tools.right_claw.label>
+  <!-- EN: razorfangs -->
+  <Warg.tools.razorfangs.label>獠牙</Warg.tools.razorfangs.label>
+  <!-- EN: head -->
+  <Warg.tools.head.label>頭</Warg.tools.head.label>
+  
+  <!-- EN: arctic wolf -->
+  <Wolf_Arctic.label>雪狼</Wolf_Arctic.label>
+  <!-- EN: An arctic variant of the old Earth wolf. As pack hunters, wolves have a complex social life and are fiercely intelligent. -->
+  <Wolf_Arctic.description>雪狼屬於灰狼的極地品種，作為群居動物，具有複雜的社會系統並且非常聰明。</Wolf_Arctic.description>
+  <!-- EN: left claw -->
+  <Wolf_Arctic.tools.left_claw.label>左爪</Wolf_Arctic.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Wolf_Arctic.tools.right_claw.label>右爪</Wolf_Arctic.tools.right_claw.label>
+  <!-- EN: head -->
+  <Wolf_Arctic.tools.head.label>頭</Wolf_Arctic.tools.head.label>
+  
+  <!-- EN: timber wolf -->
+  <Wolf_Timber.label>灰狼</Wolf_Timber.label>
+  <!-- EN: A rugged predator long feared by many ancient Earth cultures. As pack hunters, wolves have complex social lives and are fiercely intelligent. -->
+  <Wolf_Timber.description>自古以來便受到許多古老地球文化敬畏的天生獵人，作為群居動物，具有複雜的社會系統而且非常聰明。</Wolf_Timber.description>
+  <!-- EN: wolfmeat -->
+  <Wolf_Timber.race.meatLabel>狼肉</Wolf_Timber.race.meatLabel>
+  <!-- EN: left claw -->
+  <Wolf_Timber.tools.left_claw.label>左爪</Wolf_Timber.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Wolf_Timber.tools.right_claw.label>右爪</Wolf_Timber.tools.right_claw.label>
+  <!-- EN: head -->
+  <Wolf_Timber.tools.head.label>頭</Wolf_Timber.tools.head.label>
+  
 </LanguageData>
