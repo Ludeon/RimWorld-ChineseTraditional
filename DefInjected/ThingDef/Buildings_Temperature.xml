@@ -1,35 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: campfire -->
   <Campfire.label>篝火</Campfire.label>
+  <!-- EN: Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable. -->
   <Campfire.description>一個能夠持續燃燒數天的臨時取暖設備，必須放置在室內才能有效的溫暖空間。</Campfire.description>
-  <Campfire_Blueprint.label>篝火(藍圖)</Campfire_Blueprint.label>
-  <Campfire_Frame.label>篝火(建造中)</Campfire_Frame.label>
-  <Campfire_Frame.description>一個能夠持續燃燒數天的臨時取暖設備，必須放置在室內才能有效的溫暖空間。</Campfire_Frame.description>
   
-  <PassiveCooler.label>簡易冷卻器</PassiveCooler.label>
-  <PassiveCooler.description>一個原始的冷房設備，利用水吸熱蒸發的原理達到冷卻效果。冷卻器在運作壽命結束後會自然消失。</PassiveCooler.description>
-  <PassiveCooler_Blueprint.label>簡易冷卻器(藍圖)</PassiveCooler_Blueprint.label>
-  <PassiveCooler_Frame.label>簡易冷卻器(建造中)</PassiveCooler_Frame.label>
-  <PassiveCooler_Frame.description>一個原始的冷房設備，利用水吸熱蒸發的原理達到冷卻效果。冷卻器在運作壽命結束後會自然消失。</PassiveCooler_Frame.description>
-  
-  <Heater.label>電暖爐</Heater.label>
-  <Heater.description>一種能將電能轉化為熱能的設備。它可以自動啟動或關閉，達到期望的目標溫度。</Heater.description>
-  <Heater_Blueprint.label>電暖爐(藍圖)</Heater_Blueprint.label>
-  <Heater_Frame.label>電暖爐(建造中)</Heater_Frame.label>
-  <Heater_Frame.description>一種能將電能轉化為熱能的設備。它可以自動啟動或關閉，達到期望的目標溫度。</Heater_Frame.description>
-  <Heater_Blueprint_Install.label>電暖爐預定地</Heater_Blueprint_Install.label>
-  
+  <!-- EN: cooler -->
   <Cooler.label>冷氣</Cooler.label>
+  <!-- EN: An air-cooling machine that fits into a wall. Cool air comes out one side, while hot exhaust comes out the other. Can be used to cool down rooms during summer, or to create a walk-in freezer. -->
   <Cooler.description>一種能冷卻空氣的機器。冷空氣從正面送出，廢熱則從背面排出，可以在炎炎夏日中為房間降溫，或打造一座大型冷藏庫。</Cooler.description>
-  <Cooler_Blueprint.label>冷氣(藍圖)</Cooler_Blueprint.label>
-  <Cooler_Frame.label>冷氣(建造中)</Cooler_Frame.label>
-  <Cooler_Frame.description>一種能冷卻空氣的機器。冷空氣從正面送出，廢熱則從背面排出，可以在炎炎夏日中為房間降溫，或打造一座大型冷藏庫。</Cooler_Frame.description>
   
+  <!-- EN: heater -->
+  <Heater.label>電暖爐</Heater.label>
+  <!-- EN: An device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. -->
+  <Heater.description>一種能將電能轉化為熱能的設備。它可以自動啟動或關閉，達到期望的目標溫度。</Heater.description>
+  
+  <!-- EN: passive cooler -->
+  <PassiveCooler.label>簡易冷卻器</PassiveCooler.label>
+  <!-- EN: A traditional unpowered cooler that works by water evaporation. Must be regularly replenished with wood. -->
+  <PassiveCooler.description>一個原始的冷房設備，利用水吸熱蒸發的原理達到冷卻效果。冷卻器在運作壽命結束後會自然消失。</PassiveCooler.description>
+  
+  <!-- EN: vent -->
   <Vent.label>空調扇</Vent.label>
+  <!-- EN: A vent for equalizing the temperature between two rooms without allowing people to walk between them. -->
   <Vent.description>用於調節兩個房間之間的室溫。人們無法通過空調扇往來兩個房間。</Vent.description>
-  <Vent_Blueprint.label>空調扇(藍圖)</Vent_Blueprint.label>
-  <Vent_Frame.label>空調扇(建造中)</Vent_Frame.label>
-  <Vent_Frame.description>用於調節兩個房間之間的室溫。人們無法通過空調扇往來兩個房間。</Vent_Frame.description>
-
+  
 </LanguageData>

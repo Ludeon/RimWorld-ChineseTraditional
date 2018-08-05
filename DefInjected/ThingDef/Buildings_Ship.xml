@@ -1,40 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: ship structural beam -->
   <Ship_Beam.label>結構柱</Ship_Beam.label>
+  <!-- EN: A structural beam around which a starship can be constructed. Includes all the necessary conduits and transit pipes for communications, power, and materials transport. -->
   <Ship_Beam.description>一個用來銜接星艦各部位組件的結構住。包含所有電力、通信與輸料管道。</Ship_Beam.description>
-  <Ship_Beam_Blueprint.label>結構柱(藍圖)</Ship_Beam_Blueprint.label>
-  <Ship_Beam_Frame.label>結構柱(建造中)</Ship_Beam_Frame.label>
-  <Ship_Beam_Frame.description>一個用來銜接星艦各部位組件的結構住。包含所有電力、通信與輸料管道。</Ship_Beam_Frame.description>
   
-  <Ship_CryptosleepCasket.label>低溫休眠艙</Ship_CryptosleepCasket.label>
-  <Ship_CryptosleepCasket.description>一個可以抵抗太空中危險的強化低溫休眠艙。可以维持一個人在太空中持續休眠幾個世纪並安全的再次進入大氣層。</Ship_CryptosleepCasket.description>
-  <Ship_CryptosleepCasket_Blueprint.label>低溫休眠艙(藍圖)</Ship_CryptosleepCasket_Blueprint.label>
-  <Ship_CryptosleepCasket_Frame.label>低溫休眠艙(建造中)</Ship_CryptosleepCasket_Frame.label>
-  <Ship_CryptosleepCasket_Frame.description>一個可以抵抗太空中危險的強化低溫休眠艙。可以维持一個人在太空中持續休眠幾個世纪並安全的再次進入大氣層。</Ship_CryptosleepCasket_Frame.description>
-  
+  <!-- EN: ship computer core -->
   <Ship_ComputerCore.label>電腦核心</Ship_ComputerCore.label>
+  <!-- EN: A computer core housing an AI persona who can guide a starship through any challenge during a multi-decade starflight. -->
   <Ship_ComputerCore.description>一個搭載AI人格的電腦核心，可以耐得住數十年的宇宙航行。</Ship_ComputerCore.description>
-  <Ship_ComputerCore_Blueprint.label>電腦核心(藍圖)</Ship_ComputerCore_Blueprint.label>
-  <Ship_ComputerCore_Frame.label>電腦核心(建造中)</Ship_ComputerCore_Frame.label>
-  <Ship_ComputerCore_Frame.description>一個搭載AI人格的電腦核心，可以耐得住數十年的宇宙航行。</Ship_ComputerCore_Frame.description>
   
-  <Ship_Reactor.label>核能反應爐</Ship_Reactor.label>
-  <Ship_Reactor.description>供應星艦在漫長星際旅途中所需的能源。暖機需要一段很長的時間，並且很可能引來掠奪者。</Ship_Reactor.description>
-  <Ship_Reactor_Blueprint.label>核能反應爐(藍圖)</Ship_Reactor_Blueprint.label>
-  <Ship_Reactor_Frame.label>核能反應爐(建造中)</Ship_Reactor_Frame.label>
-  <Ship_Reactor_Frame.description>供應星艦在漫長星際旅途中所需的能源。暖機需要一段很長的時間，並且很可能引來掠奪者。</Ship_Reactor_Frame.description>
+  <!-- EN: ship cryptosleep casket -->
+  <Ship_CryptosleepCasket.label>低溫休眠艙</Ship_CryptosleepCasket.label>
+  <!-- EN: A cryptosleep casket hardened against the dangers of space. Capable of maintaining a person in cryptosleep for centuries and surviving atmospheric re-entry. -->
+  <Ship_CryptosleepCasket.description>一個可以抵抗太空中危險的強化低溫休眠艙。可以维持一個人在太空中持續休眠幾個世纪並安全的再次進入大氣層。</Ship_CryptosleepCasket.description>
   
+  <!-- EN: ship engine -->
   <Ship_Engine.label>推進器</Ship_Engine.label>
+  <!-- EN: A reactionless Johnson-Tanaka drive capable of launching a ship into orbit, and crawling across the vast expanses between stars. -->
   <Ship_Engine.description>JT推進器能將星艦送上星球軌道，然後駛入星球與星球之間虛無無盡的空間。</Ship_Engine.description>
-  <Ship_Engine_Blueprint.label>推進器(藍圖)</Ship_Engine_Blueprint.label>
-  <Ship_Engine_Frame.label>推進器(建造中)</Ship_Engine_Frame.label>
-  <Ship_Engine_Frame.description>JT推進器能將星艦送上星球軌道，然後駛入星球與星球之間虛無無盡的空間。</Ship_Engine_Frame.description>
-
+  
+  <!-- EN: ship reactor -->
+  <Ship_Reactor.label>核能反應爐</Ship_Reactor.label>
+  <!-- EN: Powers a ship on its journey between stars. Takeoff requires a long powerup process that is likely to attract raiders. -->
+  <Ship_Reactor.description>供應星艦在漫長星際旅途中所需的能源。暖機需要一段很長的時間，並且很可能引來掠奪者。</Ship_Reactor.description>
+  
+  <!-- EN: sensor cluster -->
   <Ship_SensorCluster.label>感測器群</Ship_SensorCluster.label>
+  <!-- EN: A multi-function sensor module. Can scan and signal across the void for communications, threat detection, deception, jamming, and other purposes. -->
   <Ship_SensorCluster.description>一套多功能感測器模組，能在宇宙中偵測和發送訊號，用於通信、避險、偽裝、干擾等等目的。</Ship_SensorCluster.description>
-  <Ship_SensorCluster_Blueprint.label>感測器群(藍圖)</Ship_SensorCluster_Blueprint.label>
-  <Ship_SensorCluster_Frame.label>感測器群(建造中)</Ship_SensorCluster_Frame.label>
-  <Ship_SensorCluster_Frame.description>一套多功能感測器模組，能在宇宙中偵測和發送訊號，用於通信、避險、偽裝、干擾等等目的。</Ship_SensorCluster_Frame.description>
-        
+  
 </LanguageData>

@@ -1,131 +1,96 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
- 
-  <OrbitalTradeBeacon.label>軌道交易信標</OrbitalTradeBeacon.label>
-  <OrbitalTradeBeacon.description>用來進行軌道交易。你只能賣出信標周圍的商品。軌道商人也會將商品丢在這附近。</OrbitalTradeBeacon.description>
-  <OrbitalTradeBeacon_Blueprint.label>軌道交易信標(藍圖)</OrbitalTradeBeacon_Blueprint.label>
-  <OrbitalTradeBeacon_Blueprint_Install.label>軌道交易信標預定地</OrbitalTradeBeacon_Blueprint_Install.label>
-  <OrbitalTradeBeacon_Frame.label>軌道交易信標(建造中)</OrbitalTradeBeacon_Frame.label>
-  <OrbitalTradeBeacon_Frame.description>用來進行軌道交易。你只能賣出信標周圍的商品。軌道商人也會將商品丢在這附近。</OrbitalTradeBeacon_Frame.description>
-
-  <CommsConsole.label>通訊台</CommsConsole.label>
-  <CommsConsole.description>用以和附近的商船與勢力聯絡。</CommsConsole.description>
-  <CommsConsole_Blueprint.label>通訊台(藍圖)</CommsConsole_Blueprint.label>
-  <CommsConsole_Frame.label>通訊台(建造中)</CommsConsole_Frame.label>
-  <CommsConsole_Frame.description>用以和附近的商船與勢力聯絡。</CommsConsole_Frame.description>
   
-  <FirefoamPopper.label>泡沫滅火裝置</FirefoamPopper.label>
-  <FirefoamPopper.description>當偵測到火焰或是人為啟動時，滅火裝置會以它為中心向一個範圍內噴灑阻燃泡沫撲滅火焰。</FirefoamPopper.description>
-  <FirefoamPopper.comps.1.useLabel>啟動泡沫滅火裝置</FirefoamPopper.comps.1.useLabel>
-  <FirefoamPopper_Blueprint.label>泡沫滅火裝置(藍圖)</FirefoamPopper_Blueprint.label>
-  <FirefoamPopper_Frame.label>泡沫滅火裝置(建造中)</FirefoamPopper_Frame.label>
-  <FirefoamPopper_Frame.description>當偵測到火焰或是人為啟動時，滅火裝置會以它為中心向一個範圍內噴灑阻燃泡沫撲滅火焰。</FirefoamPopper_Frame.description>
-  <FirefoamPopper_Blueprint_Install.label>滅火裝置預定地</FirefoamPopper_Blueprint_Install.label>
-
-  <MoisturePump.label>排水泵</MoisturePump.label>
-  <MoisturePump.description>緩慢移除周圍的濕氣，將沼澤地與淺水轉換成乾燥地面，或是柔軟沙地轉換成沙地，但對深水沒有效果。</MoisturePump.description>
-  <MoisturePump_Blueprint.label>排水泵(藍圖)</MoisturePump_Blueprint.label>
-  <MoisturePump_Frame.label>排水泵(建造中)</MoisturePump_Frame.label>
-  <MoisturePump_Frame.description>緩慢移除周圍的濕氣，將沼澤地與淺水轉換成乾燥地面，或是柔軟沙地轉換成沙地，但對深水沒有效果。</MoisturePump_Frame.description>
-
-  <GroundPenetratingScanner.label>地質探測儀</GroundPenetratingScanner.label>
-  <GroundPenetratingScanner.description>一具朝向地面，專門探測地下礦脈位置(但無法辨別礦物種類)的雷達探測器，備有聲納與回波顯示器。需消耗巨量電力。</GroundPenetratingScanner.description>
-  <GroundPenetratingScanner_Blueprint.label>地質探測儀(藍圖)</GroundPenetratingScanner_Blueprint.label>
-  <GroundPenetratingScanner_Frame.label>地質探測儀(建造中)</GroundPenetratingScanner_Frame.label>
-  <GroundPenetratingScanner_Frame.description>一具朝向地面，專門探測地下礦脈位置(但無法辨別礦物種類)的雷達探測器，備有聲納與回波顯示器。需消耗巨量電力。</GroundPenetratingScanner_Frame.description>
-  
-  <LongRangeMineralScanner.label>長程礦物掃描儀</LongRangeMineralScanner.label>
-  <LongRangeMineralScanner.description>能夠自動偵測星球上蘊藏的珍貴礦物，例如黃金和翡翠。發現礦物的頻率為，在半徑三十地塊的範圍內，每三十天發現一次。在相同或鄰近區塊建造其他掃描儀並不會提升掃描效率。</LongRangeMineralScanner.description>
-  <LongRangeMineralScanner_Blueprint.label>長程礦物掃描儀(藍圖)</LongRangeMineralScanner_Blueprint.label>
-  <LongRangeMineralScanner_Frame.label>長程礦物掃描儀(建造中)</LongRangeMineralScanner_Frame.label>
-  <LongRangeMineralScanner_Frame.description>能夠自動偵測星球上蘊藏的珍貴礦物，例如黃金和翡翠。發現礦物的頻率為，在半徑三十地塊的範圍內，每三十天發現一次。在相同或鄰近區塊建造其他掃描儀並不會提升掃描效率。</LongRangeMineralScanner_Frame.description>
-
-
-  <!-- Transport pods -->
-
-  <PodLauncher.label>運輸艙發射平台</PodLauncher.label>
-  <PodLauncher.description>一個附帶燃料槽的發射平台。運輸艙可以批量發射，但發射平台必須相鄰。</PodLauncher.description>
-  <PodLauncher_Blueprint.label>運輸艙發射平台(藍圖)</PodLauncher_Blueprint.label>
-  <PodLauncher_Frame.label>運輸艙發射平台(建造中)</PodLauncher_Frame.label>
-  <PodLauncher_Frame.description>一個附帶燃料槽的發射平台。運輸艙可以批量發射，但發射平台必須相鄰。</PodLauncher_Frame.description>
-  
-  <TransportPod.label>運輸艙</TransportPod.label>
-  <TransportPod.description>一個可以裝載人員、物資及動物的亞軌道運輸艙，可以用來發送禮物、運送人員、發送補給品、突襲敵人或支援戰鬥。</TransportPod.description>
-  <TransportPod_Blueprint.label>運輸艙(藍圖)</TransportPod_Blueprint.label>
-  <TransportPod_Frame.label>運輸艙(建造中)</TransportPod_Frame.label>
-  <TransportPod_Frame.description>一個可以裝載人員、物資及動物的亞軌道運輸艙，可以用來發送禮物、運送人員、發送補給品、突襲敵人或支援戰鬥。</TransportPod_Frame.description>
-  
-  
-  <!-- Facilities -->
-  
-  <MultiAnalyzer.label>多重分析裝置</MultiAnalyzer.label>
-  <MultiAnalyzer.description>提升研究速度。裝置必須設置於研究桌附近同時解鎖研究項目，一張研究桌同時只能使用一台多重分析裝置。</MultiAnalyzer.description>
-  <MultiAnalyzer_Blueprint.label>多重分析裝置(藍圖)</MultiAnalyzer_Blueprint.label>
-  <MultiAnalyzer_Blueprint_Install.label>多重分析裝置預定地</MultiAnalyzer_Blueprint_Install.label>
-  <MultiAnalyzer_Frame.label>多重分析裝置(建造中)</MultiAnalyzer_Frame.label>
-  <MultiAnalyzer_Frame.description>提升研究速度。裝置必須設置於研究桌附近同時解鎖研究項目，一張研究桌同時只能使用一台多重分析裝置。</MultiAnalyzer_Frame.description>
-  
-  <VitalsMonitor.label>生命體徵檢測器</VitalsMonitor.label>
-  <VitalsMonitor.description>提升患者醫療品質。檢測器必須與醫療床相鄰，一張醫療床同時只能與一台生命體徵檢測器連結。</VitalsMonitor.description>
-  <VitalsMonitor_Blueprint.label>生命體徵檢測器(藍圖)</VitalsMonitor_Blueprint.label>
-  <VitalsMonitor_Blueprint_Install.label>生命體徵檢測器預定地</VitalsMonitor_Blueprint_Install.label>
-  <VitalsMonitor_Frame.label>生命體徵檢測器(建造中)</VitalsMonitor_Frame.label>
-  <VitalsMonitor_Frame.description>提升患者醫療品質。檢測器必須與醫療床相鄰，一張醫療床同時只能與一台生命體徵檢測器連結。</VitalsMonitor_Frame.description>
-  
-  <ToolCabinet.label>工具櫃</ToolCabinet.label>
-  <ToolCabinet.description>當至於工作台旁邊，可以提昇工作台的工作效率。一張工作台可以同時使用兩個工具櫃。</ToolCabinet.description>
-  <ToolCabinet_Blueprint.label>工具櫃(藍圖)</ToolCabinet_Blueprint.label>
-  <ToolCabinet_Blueprint_Install.label>工具櫃預定地</ToolCabinet_Blueprint_Install.label>
-  <ToolCabinet_Frame.label>工具櫃(建造中)</ToolCabinet_Frame.label>
-  <ToolCabinet_Frame.description>當至於工作台旁邊，可以提昇工作台的工作效率。一張工作台可以同時使用兩個工具櫃。</ToolCabinet_Frame.description>
-
-
-  <!-- Graves -->
-
-  <Grave.label>墳墓</Grave.label>
-  <Grave.description>给死者提供一個得體的棲身之所。</Grave.description>
-  <Grave_Blueprint.label>墳墓(藍圖)</Grave_Blueprint.label>
-  <Grave_Frame.label>墳墓(建造中)</Grave_Frame.label>
-  <Grave_Frame.description>给死者提供一個得體的棲身之所。</Grave_Frame.description>
-  
-  <Sarcophagus.label>棺材</Sarcophagus.label>
-  <Sarcophagus.description>一個替光榮犧牲的死者準備的安身之處。</Sarcophagus.description>
-  <Sarcophagus_Blueprint.label>棺材(藍圖)</Sarcophagus_Blueprint.label>
-  <Sarcophagus_Frame.label>棺材(建造中)</Sarcophagus_Frame.label>
-  <Sarcophagus_Frame.description>一個替光榮犧牲的死者準備的安身之處。</Sarcophagus_Frame.description>
-
-
-  <!-- Cryptosleep caskets -->
-  
-  <CryptosleepCasket.label>冷凍休眠艙</CryptosleepCasket.label>
-  <CryptosleepCasket.description>一個能自行供電的休眠室，能讓裡頭的人進入假死狀態並維持多年。</CryptosleepCasket.description>
-  <CryptosleepCasket_Blueprint.label>冷凍休眠艙(藍圖)</CryptosleepCasket_Blueprint.label>
-  <CryptosleepCasket_Frame.label>冷凍休眠艙(建造中)</CryptosleepCasket_Frame.label>
-  <CryptosleepCasket_Frame.description>一個能自行供電的休眠艙，能讓裡頭的人進入假死狀態並維持多年。</CryptosleepCasket_Frame.description>
-  
+  <!-- EN: ancient cryptosleep casket -->
   <AncientCryptosleepCasket.label>古老冷凍休眠艙</AncientCryptosleepCasket.label>
+  <!-- EN: This cryptosleep casket looks like it has been here for a very long time. Who knows what it might contain? -->
   <AncientCryptosleepCasket.description>看起來已經存在了非常久的休眠艙，誰知道裡頭裝了些什麼？</AncientCryptosleepCasket.description>
-
-
-  <!-- Spots -->
   
-  <MarriageSpot.label>結婚點</MarriageSpot.label>
-  <MarriageSpot.description>指定一個固定的結婚儀式舉行地點，觀禮者可以從兩側的任一側觀看典禮進行。</MarriageSpot.description>
-  <MarriageSpot_Blueprint.label>結婚點(藍圖)</MarriageSpot_Blueprint.label>
-  <MarriageSpot_Frame.label>結婚點(建造中)</MarriageSpot_Frame.label>
-  <MarriageSpot_Frame.description>指定一個固定的結婚儀式舉行地點，觀禮者可以從任一側觀看典禮進行。</MarriageSpot_Frame.description>
-
-  <PartySpot.label>派對點</PartySpot.label>
-  <PartySpot.description>指定派對舉行的地點。</PartySpot.description>
-  <PartySpot_Blueprint.label>派對點(藍圖)</PartySpot_Blueprint.label>
-  <PartySpot_Frame.label>派對點(建造中)</PartySpot_Frame.label>
-  <PartySpot_Frame.description>指定派對舉行的地點。</PartySpot_Frame.description>
-
+  <!-- EN: caravan packing spot -->
   <CaravanPackingSpot.label>旅隊裝卸點</CaravanPackingSpot.label>
+  <!-- EN: Designates a spot for forming caravans. Put this near your stockpiles to speed up the caravan loading process. -->
   <CaravanPackingSpot.description>指定一個組織旅隊的地點。放置在接近儲存區的地方以加快旅隊裝卸的速度。</CaravanPackingSpot.description>
-  <CaravanPackingSpot_Blueprint.label>旅隊裝卸點(藍圖)</CaravanPackingSpot_Blueprint.label>
-  <CaravanPackingSpot_Frame.label>旅隊裝卸點(建造中)</CaravanPackingSpot_Frame.label>
-  <CaravanPackingSpot_Frame.description>指定一個組織旅隊的地點。放置在接近儲存區的地方以加快旅隊裝卸的速度。</CaravanPackingSpot_Frame.description>
-
- 
+  
+  <!-- EN: comms console -->
+  <CommsConsole.label>通訊台</CommsConsole.label>
+  <!-- EN: Allows radio contact with other factions and orbital traders. -->
+  <CommsConsole.description>用以和附近的商船與勢力聯絡。</CommsConsole.description>
+  
+  <!-- EN: cryptosleep casket -->
+  <CryptosleepCasket.label>冷凍休眠艙</CryptosleepCasket.label>
+  <!-- EN: A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years. -->
+  <CryptosleepCasket.description>一個能自行供電的休眠室，能讓裡頭的人進入假死狀態並維持多年。</CryptosleepCasket.description>
+  
+  <!-- EN: firefoam popper -->
+  <FirefoamPopper.label>泡沫滅火裝置</FirefoamPopper.label>
+  <!-- EN: When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. -->
+  <FirefoamPopper.description>當偵測到火焰或是人為啟動時，滅火裝置會以它為中心向一個範圍內噴灑阻燃泡沫撲滅火焰。</FirefoamPopper.description>
+  <!-- EN: Trigger firefoam popper -->
+  <FirefoamPopper.comps.CompUsable.useLabel>啟動泡沫滅火裝置</FirefoamPopper.comps.CompUsable.useLabel>
+  
+  <!-- EN: grave -->
+  <Grave.label>墳墓</Grave.label>
+  <!-- EN: A decent final resting place. Colonists will visit full graves to gain meditative joy. -->
+  <Grave.description>给死者提供一個得體的棲身之所。</Grave.description>
+  
+  <!-- EN: ground-penetrating scanner -->
+  <GroundPenetratingScanner.label>地質探測儀</GroundPenetratingScanner.label>
+  <!-- EN: A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity. -->
+  <GroundPenetratingScanner.description>一具朝向地面，專門探測地下礦脈位置(但無法辨別礦物種類)的雷達探測器，備有聲納與回波顯示器。需消耗巨量電力。</GroundPenetratingScanner.description>
+  
+  <!-- EN: long-range mineral scanner -->
+  <LongRangeMineralScanner.label>長程礦物探測儀</LongRangeMineralScanner.label>
+  <!-- EN: Automatically detects precious minerals like gold or jade in destinations across the planet. The lumps are found on average once per 30 days within a radius of 30 planet tiles. Building more than one scanner in the same or nearby areas has little to no effect. -->
+  <LongRangeMineralScanner.description>能夠自動偵測星球上蘊藏的珍貴礦物，例如黃金和翡翠。發現礦物的頻率為，在半徑三十地塊的範圍內，每三十天發現一次。在相同或鄰近區塊建造其他探測儀並不會提升探測效率。</LongRangeMineralScanner.description>
+  
+  <!-- EN: marriage spot -->
+  <MarriageSpot.label>結婚點</MarriageSpot.label>
+  <!-- EN: Designates a spot where marriage ceremonies will take place. Spectators can watch from either side. -->
+  <MarriageSpot.description>指定一個固定的結婚儀式舉行地點，觀禮者可以從兩側的任一側觀看典禮進行。</MarriageSpot.description>
+  
+  <!-- EN: moisture pump -->
+  <MoisturePump.label>排水泵</MoisturePump.label>
+  <!-- EN: Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water. -->
+  <MoisturePump.description>緩慢移除周圍的濕氣，將沼澤地與淺水轉換成乾燥地面，或是柔軟沙地轉換成沙地，但對深水沒有效果。</MoisturePump.description>
+  
+  <!-- EN: multi-analyzer -->
+  <MultiAnalyzer.label>多重分析裝置</MultiAnalyzer.label>
+  <!-- EN: Increases research speed when placed near hi-tech research bench and unlocks new research projects. Each research bench can only use one multi-analyzer. -->
+  <MultiAnalyzer.description>提升研究速度。裝置必須設置於研究桌附近同時解鎖研究項目，一張研究桌同時只能使用一台多重分析裝置。</MultiAnalyzer.description>
+  
+  <!-- EN: orbital trade beacon -->
+  <OrbitalTradeBeacon.label>軌道交易信標</OrbitalTradeBeacon.label>
+  <!-- EN: Required for orbital trading. You can only sell goods to orbital traders if they're near an orbital trade beacon. Can be placed indoors. -->
+  <OrbitalTradeBeacon.description>用來進行軌道交易。你只能賣出信標周圍的商品。軌道商人也會將商品丢在這附近。</OrbitalTradeBeacon.description>
+  
+  <!-- EN: party spot -->
+  <PartySpot.label>派對點</PartySpot.label>
+  <!-- EN: Designates a spot for throwing parties. -->
+  <PartySpot.description>指定派對舉行的地點。</PartySpot.description>
+  
+  <!-- EN: pod launcher -->
+  <PodLauncher.label>運輸艙發射平台</PodLauncher.label>
+  <!-- EN: A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other. -->
+  <PodLauncher.description>一個附帶燃料槽的發射平台。運輸艙可以批量發射，但發射平台必須相鄰。</PodLauncher.description>
+  
+  <!-- EN: sarcophagus -->
+  <Sarcophagus.label>棺材</Sarcophagus.label>
+  <!-- EN: An ornamented burial receptacle for the honored dead. -->
+  <Sarcophagus.description>一個替光榮犧牲的死者準備的安身之處。</Sarcophagus.description>
+  
+  <!-- EN: tool cabinet -->
+  <ToolCabinet.label>工具櫃</ToolCabinet.label>
+  <!-- EN: Increases work speed when placed near a workbench. One workbench use to up to two tool cabinets. -->
+  <ToolCabinet.description>當至於工作台旁邊，可以提昇工作台的工作效率。一張工作台可以同時使用兩個工具櫃。</ToolCabinet.description>
+  
+  <!-- EN: transport pod -->
+  <TransportPod.label>運輸艙</TransportPod.label>
+  <!-- EN: A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles. -->
+  <TransportPod.description>一個可以裝載人員、物資及動物的亞軌道運輸艙，可以用來發送禮物、運送人員、發送補給品、突襲敵人或支援戰鬥。</TransportPod.description>
+  
+  <!-- EN: vitals monitor -->
+  <VitalsMonitor.label>生命體徵檢測器</VitalsMonitor.label>
+  <!-- EN: Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect. -->
+  <VitalsMonitor.description>提升患者醫療品質。檢測器必須與醫療床相鄰，一張醫療床同時只能與一台生命體徵檢測器連結。</VitalsMonitor.description>
+  
 </LanguageData>

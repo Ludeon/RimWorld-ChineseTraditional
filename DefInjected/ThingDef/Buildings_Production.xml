@@ -1,179 +1,129 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <CraftingSpot.label>手工工作區</CraftingSpot.label>
-  <CraftingSpot.description>一個製造簡單刀具或弓箭的地方。</CraftingSpot.description>
-  <CraftingSpot_Blueprint.label>手工工作區(藍圖)</CraftingSpot_Blueprint.label>
-  <CraftingSpot_Frame.label>手工工作區(建造中)</CraftingSpot_Frame.label>
-  <CraftingSpot_Frame.description>一個製造簡單刀具或弓箭的地方。</CraftingSpot_Frame.description>
-
-  <ButcherSpot.label>屠宰點</ButcherSpot.label>
-  <ButcherSpot.description>專門屠宰動物的指定地點。由於缺乏工具，在這裡進行屠宰只能獲得70%的生肉和毛皮數量。</ButcherSpot.description>
-  <ButcherSpot_Blueprint.label>屠宰點(藍圖)</ButcherSpot_Blueprint.label>
-  <ButcherSpot_Frame.label>屠宰點 (building)</ButcherSpot_Frame.label>
-  <ButcherSpot_Frame.description>專門屠宰動物的指定地點。由於缺乏工具，在這裡進行屠宰只能獲得70%的生肉和毛皮數量。</ButcherSpot_Frame.description>
-
-
-  <!-- Work tables -->
   
-  <TableSculpting.label>雕刻桌</TableSculpting.label>
-  <TableSculpting.description>專門進行雕刻工作的桌子。</TableSculpting.description>
-  <TableSculpting_Blueprint.label>雕刻桌(藍圖)</TableSculpting_Blueprint.label>
-  <TableSculpting_Blueprint_Install.label>雕刻桌(藍圖)</TableSculpting_Blueprint_Install.label>
-  <TableSculpting_Frame.label>雕刻桌(建造中)</TableSculpting_Frame.label>
-  <TableSculpting_Frame.description>專門進行雕刻工作的桌子。</TableSculpting_Frame.description>
-  
-  <TableButcher.label>屠宰桌</TableButcher.label>
-  <TableButcher.description>一個用來將死亡的動物屠宰成肉塊的重型桌子。</TableButcher.description>
-  <TableButcher_Blueprint.label>屠宰桌(藍圖)</TableButcher_Blueprint.label>
-  <TableButcher_Blueprint_Install.label>屠宰桌(藍圖)</TableButcher_Blueprint_Install.label>
-  <TableButcher_Frame.label>屠宰桌(建造中)</TableButcher_Frame.label>
-  <TableButcher_Frame.description>一個用來將死亡的動物屠宰成肉塊的重型桌子。</TableButcher_Frame.description>
-  
-  <HandTailoringBench.label>裁縫桌</HandTailoringBench.label>
-  <HandTailoringBench.description>用來裁縫衣服的工作台，工作效率只有電動裁縫桌的50%。</HandTailoringBench.description>
-  <HandTailoringBench_Blueprint.label>裁縫桌(藍圖)</HandTailoringBench_Blueprint.label>
-  <HandTailoringBench_Blueprint_Install.label>裁縫桌(藍圖)</HandTailoringBench_Blueprint_Install.label>
-  <HandTailoringBench_Frame.label>裁縫桌(建造中)</HandTailoringBench_Frame.label>
-  <HandTailoringBench_Frame.description>用來裁縫衣服的工作台，工作效率只有電動裁縫桌的50%。</HandTailoringBench_Frame.description>
-
-  <ElectricTailoringBench.label>電動裁縫桌</ElectricTailoringBench.label>
-  <ElectricTailoringBench.description>用來裁縫衣服的工作台，工作效率只有電動裁縫桌的50%。</ElectricTailoringBench.description>
-  <ElectricTailoringBench_Blueprint.label>電動裁縫桌(藍圖)</ElectricTailoringBench_Blueprint.label>
-  <ElectricTailoringBench_Blueprint_Install.label>電動裁縫桌(藍圖)</ElectricTailoringBench_Blueprint_Install.label>
-  <ElectricTailoringBench_Frame.label>電動裁縫桌(建造中)</ElectricTailoringBench_Frame.label>
-  <ElectricTailoringBench_Frame.description>用來裁縫衣服的工作台，工作效率只有電動裁縫桌的50%。</ElectricTailoringBench_Frame.description>
-
-  <FueledSmithy.label>燃料鍛造台</FueledSmithy.label>
-  <FueledSmithy.description>製造非機械式武器和工具的工作台，需要消耗木材燃料。</FueledSmithy.description>
-  <FueledSmithy_Blueprint.label>燃料鍛造台(藍圖)</FueledSmithy_Blueprint.label>
-  <FueledSmithy_Blueprint_Install.label>燃料鍛造台(藍圖)</FueledSmithy_Blueprint_Install.label>
-  <FueledSmithy_Frame.label>燃料鍛造台(建造中)</FueledSmithy_Frame.label>
-  <FueledSmithy_Frame.description>製造非機械式武器和工具的工作台，需要消耗木材燃料。</FueledSmithy_Frame.description>
-
-  <ElectricSmithy.label>電力鍛造台</ElectricSmithy.label>
-  <ElectricSmithy.description>製造非機械式武器和工具的工作台。</ElectricSmithy.description>
-  <ElectricSmithy_Blueprint.label>電力鍛造台(藍圖)</ElectricSmithy_Blueprint.label>
-  <ElectricSmithy_Blueprint_Install.label>electric smithy(藍圖)</ElectricSmithy_Blueprint_Install.label>
-  <ElectricSmithy_Frame.label>電力鍛造台(建造中)</ElectricSmithy_Frame.label>
-  <ElectricSmithy_Frame.description>製造非機械式武器和工具的工作台。</ElectricSmithy_Frame.description>
-  
-  <TableMachining.label>機械加工桌</TableMachining.label>
-  <TableMachining.description>一套專門組裝或拆解槍切、彈藥和機器人用的桌子與工具。</TableMachining.description>
-  <TableMachining_Blueprint.label>機械加工桌(藍圖)</TableMachining_Blueprint.label>
-  <TableMachining_Blueprint_Install.label>machining table(藍圖)</TableMachining_Blueprint_Install.label>
-  <TableMachining_Frame.label>機械加工桌(建造中)</TableMachining_Frame.label>
-  <TableMachining_Frame.description>一套專門組裝或拆解槍切、彈藥和機器人用的桌子與工具。</TableMachining_Frame.description>
-
-  <ElectricStove.label>電子料理台</ElectricStove.label>
-  <ElectricStove.description>用來烹飪食物的工作台。</ElectricStove.description>
-  <ElectricStove_Blueprint.label>電子料理台(藍圖)</ElectricStove_Blueprint.label>
-  <ElectricStove_Blueprint_Install.label>electric stove(藍圖)</ElectricStove_Blueprint_Install.label>
-  <ElectricStove_Frame.label>電子料理台(建造中)</ElectricStove_Frame.label>
-  <ElectricStove_Frame.description>用來烹飪食物的工作台。</ElectricStove_Frame.description>
-
-  <FueledStove.label>爐灶</FueledStove.label>
-  <FueledStove.description>燃燒木材烹調食物的工作台。</FueledStove.description>
-  <FueledStove_Blueprint.label>爐灶(藍圖)</FueledStove_Blueprint.label>
-  <FueledStove_Blueprint_Install.label>爐灶(藍圖)</FueledStove_Blueprint_Install.label>
-  <FueledStove_Frame.label>爐灶(建造中)</FueledStove_Frame.label>
-  <FueledStove_Frame.description>燃燒木材烹調食物的工作台。</FueledStove_Frame.description>
-  
-  <TableStonecutter.label>岩石切割台</TableStonecutter.label>
-  <TableStonecutter.description>一個附帶了鋸子和鑿子的工作台。用於把粗糙的石塊切割成石材。</TableStonecutter.description>
-  <TableStonecutter_Blueprint.label>岩石切割台(藍圖)</TableStonecutter_Blueprint.label>
-  <TableStonecutter_Blueprint_Install.label>岩石切割台(藍圖)</TableStonecutter_Blueprint_Install.label>
-  <TableStonecutter_Frame.label>岩石切割台(建造中)</TableStonecutter_Frame.label>
-  <TableStonecutter_Frame.description>一個附帶了鋸子和鑿子的工作台。用於把粗糙的石塊切割成石材。</TableStonecutter_Frame.description>
-  
-  <Brewery.label>釀酒器</Brewery.label>
-  <Brewery.description>一個具有各種所需設備的工作台。混合麥汁，經發酵後最終製成啤酒。</Brewery.description>
-  <Brewery_Blueprint.label>釀酒器(藍圖)</Brewery_Blueprint.label>
-  <Brewery_Blueprint_Install.label>釀酒器(藍圖)</Brewery_Blueprint_Install.label>
-  <Brewery_Frame.label>釀酒器(建造中)</Brewery_Frame.label>
-  <Brewery_Frame.description>一個具有各種所需設備的工作台。混合麥汁，經發酵後最終製成啤酒。</Brewery_Frame.description>
-  
-  <DrugLab.label>藥物合成台</DrugLab.label>
-  <DrugLab.description>一張配備有各種容器、加熱器及測量設備的工作台，用來製作各種藥物。</DrugLab.description>
-  <DrugLab_Blueprint.label>藥物合成台(藍圖)</DrugLab_Blueprint.label>
-  <DrugLab_Blueprint_Install.label>藥物合成台(藍圖)</DrugLab_Blueprint_Install.label>
-  <DrugLab_Frame.label>藥物合成台(建造中)</DrugLab_Frame.label>
-  <DrugLab_Frame.description>一張配備有各種容器、加熱器及測量設備的工作台，用來製作各種藥物。</DrugLab_Frame.description>
-
-  <ElectricSmelter.label>金屬提煉器</ElectricSmelter.label>
-  <ElectricSmelter.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</ElectricSmelter.description>
-  <ElectricSmelter_Blueprint.label>金屬提煉器(藍圖)</ElectricSmelter_Blueprint.label>
-  <ElectricSmelter_Blueprint_Install.label>金屬提煉器(藍圖)</ElectricSmelter_Blueprint_Install.label>
-  <ElectricSmelter_Frame.label>金屬提煉器(建造中)</ElectricSmelter_Frame.label>
-  <ElectricSmelter_Frame.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</ElectricSmelter_Frame.description>
-
+  <!-- EN: biofuel refinery -->
   <BiofuelRefinery.label>生質煉油器</BiofuelRefinery.label>
+  <!-- EN: Refines biological matter like wood or plant matter into chemfuel. -->
   <BiofuelRefinery.description>一具化學提煉裝置，用來將有機物如木頭和食物提煉加工成化合燃料。</BiofuelRefinery.description>
-  <BiofuelRefinery_Blueprint.label>生質煉油器(藍圖)</BiofuelRefinery_Blueprint.label>
-  <BiofuelRefinery_Frame.label>生質煉油器(建造中)</BiofuelRefinery_Frame.label>
-  <BiofuelRefinery_Frame.description>一具化學提煉裝置，用來將有機物如木頭和食物提煉加工成化合燃料。</BiofuelRefinery_Frame.description>
-
-  <FabricationBench.label>電子零件生產台</FabricationBench.label>
-  <FabricationBench.description>配有各種先進設備的工作台，用簡單的原料生產各種零件。</FabricationBench.description>
-  <FabricationBench_Blueprint.label>電子零件生產台(藍圖)</FabricationBench_Blueprint.label>
-  <FabricationBench_Frame.label>電子零件生產台(建造中)</FabricationBench_Frame.label>
-  <FabricationBench_Frame.description>配有各種先進設備的工作台，用簡單的原料生產各種零件。</FabricationBench_Frame.description>
-
   
-  <!-- Non-standard work buildings -->
+  <!-- EN: brewery -->
+  <Brewery.label>釀酒器</Brewery.label>
+  <!-- EN: A work station with all the equipment needed mix wort for beer production. Wort must be fermented to finally become beer. -->
+  <Brewery.description>一個具有各種所需設備的工作台。混合麥汁，經發酵後最終製成啤酒。</Brewery.description>
   
-  <SimpleResearchBench.label>研究桌</SimpleResearchBench.label>
-  <SimpleResearchBench.description>一張備有書寫工具及簡單研究設備的桌子，研究人員在這裡發掘新事物。</SimpleResearchBench.description>
-  <SimpleResearchBench_Blueprint.label>研究桌(藍圖)</SimpleResearchBench_Blueprint.label>
-  <SimpleResearchBench_Blueprint_Install.label>研究桌(藍圖)</SimpleResearchBench_Blueprint_Install.label>
-  <SimpleResearchBench_Frame.label>研究桌(建造中)</SimpleResearchBench_Frame.label>
-  <SimpleResearchBench_Frame.description>一張備有書寫工具及簡單研究設備的桌子，研究人員在這裡發掘新事物。</SimpleResearchBench_Frame.description>
-
-  <HiTechResearchBench.label>高科技研究桌</HiTechResearchBench.label>
-  <HiTechResearchBench.description>一張備有電腦及電子測量設備的研究桌。提供更快的研究速度並解鎖更多研究項目。</HiTechResearchBench.description>
-  <HiTechResearchBench_Blueprint.label>高科技研究桌(藍圖)</HiTechResearchBench_Blueprint.label>
-  <HiTechResearchBench_Frame.label>高科技研究桌(建造中)</HiTechResearchBench_Frame.label>
-  <HiTechResearchBench_Frame.description>一張備有電腦及電子測量設備的研究桌。提供更快的研究速度並解鎖更多研究項目。</HiTechResearchBench_Frame.description>
-
-  <ElectricCrematorium.label>火化爐</ElectricCrematorium.label>
-  <ElectricCrematorium.description>一座巨大的石質火化爐，在高溫下蒸發屍體。</ElectricCrematorium.description>
-  <ElectricCrematorium_Blueprint.label>火化爐(藍圖)</ElectricCrematorium_Blueprint.label>
-  <ElectricCrematorium_Frame.label>火化爐(建造中)</ElectricCrematorium_Frame.label>
-  <ElectricCrematorium_Frame.description>一座巨大的石質火化爐，在高溫下蒸發屍體。</ElectricCrematorium_Frame.description>
+  <!-- EN: butcher spot -->
+  <ButcherSpot.label>屠宰點</ButcherSpot.label>
+  <!-- EN: A place for butchering animals. Due to the lack of equipment, butchering here yields only 70% of the meat and leather of each creature. -->
+  <ButcherSpot.description>專門屠宰動物的指定地點。由於缺乏工具，在這裡進行屠宰只能獲得70%的生肉和毛皮數量。</ButcherSpot.description>
   
-  <HydroponicsBasin.label>水培植物盆</HydroponicsBasin.label>
-  <HydroponicsBasin.description>用來種植作物的人工培養盆，提供營養素的泵必須持續運作，一旦斷電，植物便會死亡。</HydroponicsBasin.description>
-  <HydroponicsBasin_Blueprint.label>水培植物盆(藍圖)</HydroponicsBasin_Blueprint.label>
-  <HydroponicsBasin_Frame.label>水培植物盆(建造中)</HydroponicsBasin_Frame.label>
-  <HydroponicsBasin_Frame.description>用來種植作物的人工培養盆，提供營養素的泵必須持續運作，一旦斷電，植物便會死亡。</HydroponicsBasin_Frame.description>
+  <!-- EN: crafting spot -->
+  <CraftingSpot.label>手工工作區</CraftingSpot.label>
+  <!-- EN: A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools. -->
+  <CraftingSpot.description>一個製造簡單刀具或弓箭的地方。</CraftingSpot.description>
   
-  <FermentingBarrel.label>釀酒桶</FermentingBarrel.label>
-  <FermentingBarrel.description>用來將麥汁發酵成啤酒的巨大容器。</FermentingBarrel.description>
-  <FermentingBarrel_Blueprint.label>釀酒桶(藍圖)</FermentingBarrel_Blueprint.label>
-  <FermentingBarrel_Frame.label>釀酒桶(建造中)</FermentingBarrel_Frame.label>
-  <FermentingBarrel_Frame.description>用來將麥汁發酵成啤酒的巨大容器。</FermentingBarrel_Frame.description>
-  <FermentingBarrel_Blueprint_Install.label>釀酒桶預定地</FermentingBarrel_Blueprint_Install.label>
-  
+  <!-- EN: deep drill -->
   <DeepDrill.label>採掘機</DeepDrill.label>
+  <!-- EN: A deep-crust drilling rig for extracting minerals from deep under the surface. Use a ground-penetrating scanner to detect the resources. This drill will yield stone chunks if no resources are present. Can be repositioned freely. -->
   <DeepDrill.description>鑽開地表至地下礦脈採掘礦物的機器。需要先用地質探測儀找出礦脈位置。礦物枯竭後能夠轉為開採岩石塊。</DeepDrill.description>
-  <DeepDrill_Blueprint.label>採掘機(藍圖)</DeepDrill_Blueprint.label>
-  <DeepDrill_Frame.label>採掘機(建造中)</DeepDrill_Frame.label>
-  <DeepDrill_Frame.description>鑽開地表至地下礦脈採掘礦物的機器。需要先用地質探測儀找出礦脈位置。礦物枯竭後能夠轉為開採岩石塊。</DeepDrill_Frame.description>
-
   
-  <!-- Nutrient dispenser -->
-
-  <NutrientPasteDispenser.label>營養膏合成機</NutrientPasteDispenser.label>
-  <NutrientPasteDispenser.description>能將比鄰的儲料槽中的有機材料合成為營養膏的機器。比起其他的食物調理方式，合成營養高所消耗的物料成本與時間都更低，然而，沒人喜歡吃這黏糊糊的食物。可接受各種生食作為原料，除了牧草這類植物原料。</NutrientPasteDispenser.description>
-  <NutrientPasteDispenser_Blueprint.label>營養膏合成機(藍圖)</NutrientPasteDispenser_Blueprint.label>
-  <NutrientPasteDispenser_Frame.label>營養膏合成機(建造中)</NutrientPasteDispenser_Frame.label>
-  <NutrientPasteDispenser_Frame.description>能將比鄰的儲料槽中的有機材料合成為營養膏的機器。比起其他的食物調理方式，合成營養高所消耗的物料成本與時間都更低，然而，沒人喜歡吃這黏糊糊的食物。可接受各種生食作為原料，除了牧草這類植物原料。</NutrientPasteDispenser_Frame.description>
+  <!-- EN: drug lab -->
+  <DrugLab.label>藥物合成台</DrugLab.label>
+  <!-- EN: A work bench equipped with containers, heaters, and measurement devices for producing various drugs. -->
+  <DrugLab.description>一張配備有各種容器、加熱器及測量設備的工作台，用來製作各種藥物。</DrugLab.description>
   
+  <!-- EN: electric crematorium -->
+  <ElectricCrematorium.label>火化爐</ElectricCrematorium.label>
+  <!-- EN: A huge stone crematorium which vaporizes corpses with extremely high temperatures. -->
+  <ElectricCrematorium.description>一座巨大的石質火化爐，在高溫下蒸發屍體。</ElectricCrematorium.description>
+  
+  <!-- EN: electric smelter -->
+  <ElectricSmelter.label>金屬提煉器</ElectricSmelter.label>
+  <!-- EN: Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of power. -->
+  <ElectricSmelter.description>從金屬碎片中提煉有用的金屬，將消耗大量電力。</ElectricSmelter.description>
+  
+  <!-- EN: electric smithy -->
+  <ElectricSmithy.label>電力鍛造台</ElectricSmithy.label>
+  <!-- EN: An electric-powered station for smithing non-mechanical weapons and tools. -->
+  <ElectricSmithy.description>製造非機械式武器和工具的工作台。</ElectricSmithy.description>
+  
+  <!-- EN: electric stove -->
+  <ElectricStove.label>電子料理台</ElectricStove.label>
+  <!-- EN: An electrically-powered stove with an attached countertop for preparing meals. -->
+  <ElectricStove.description>用來烹飪食物的工作台。</ElectricStove.description>
+  
+  <!-- EN: electric tailor bench -->
+  <ElectricTailoringBench.label>電動裁縫桌</ElectricTailoringBench.label>
+  <!-- EN: A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed. -->
+  <ElectricTailoringBench.description>用來裁縫衣服的工作台，工作效率只有電動裁縫桌的50%。</ElectricTailoringBench.description>
+  
+  <!-- EN: fabrication bench -->
+  <FabricationBench.label>電子零件生產台</FabricationBench.label>
+  <!-- EN: A workbench equipped with advanced tools for producing technological marvels from simpler materials. -->
+  <FabricationBench.description>配有各種先進設備的工作台，用簡單的原料生產各種零件。</FabricationBench.description>
+  
+  <!-- EN: fermenting barrel -->
+  <FermentingBarrel.label>釀酒桶</FermentingBarrel.label>
+  <!-- EN: A barrel for fermenting raw wort into beer. -->
+  <FermentingBarrel.description>用來將麥汁發酵成啤酒的巨大容器。</FermentingBarrel.description>
+  
+  <!-- EN: fueled smithy -->
+  <FueledSmithy.label>燃料鍛造台</FueledSmithy.label>
+  <!-- EN: A wood-fueled station for smithing non-mechanical weapons and tools. -->
+  <FueledSmithy.description>製造非機械式武器和工具的工作台，需要消耗木材燃料。</FueledSmithy.description>
+  
+  <!-- EN: fueled stove -->
+  <FueledStove.label>爐灶</FueledStove.label>
+  <!-- EN: A wood-fueled stove with an attached countertop for preparing meals. -->
+  <FueledStove.description>燃燒木材烹調食物的工作台。</FueledStove.description>
+  
+  <!-- EN: hand tailor bench -->
+  <HandTailoringBench.label>裁縫桌</HandTailoringBench.label>
+  <!-- EN: A workbench for tailoring clothes by hand. Works at 50% of the speed of an electric tailoring bench. -->
+  <HandTailoringBench.description>用來裁縫衣服的工作台，工作效率只有電動裁縫桌的50%。</HandTailoringBench.description>
+  
+  <!-- EN: hi-tech research bench -->
+  <HiTechResearchBench.label>高科技研究桌</HiTechResearchBench.label>
+  <!-- EN: A high-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects. -->
+  <HiTechResearchBench.description>一張備有電腦及電子測量設備的研究桌。提供更快的研究速度並解鎖更多研究項目。</HiTechResearchBench.description>
+  
+  <!-- EN: hopper -->
   <Hopper.label>儲料槽</Hopper.label>
+  <!-- EN: Holds resources for use by machines like nutrient paste dispensers. -->
   <Hopper.description>為營養膏合成機這樣的大型機器儲存原料。</Hopper.description>
-  <Hopper_Blueprint.label>儲料槽(藍圖)</Hopper_Blueprint.label>
-  <Hopper_Frame.label>儲料槽(建造中)</Hopper_Frame.label>
-  <Hopper_Frame.description>為營養膏合成機這樣的大型機器儲存原料。</Hopper_Frame.description>
   
+  <!-- EN: hydroponics basin -->
+  <HydroponicsBasin.label>水培植物盆</HydroponicsBasin.label>
+  <!-- EN: An artificial nutrient bath for growing plants. The nutrients pumps must work continuously; the plants will die if power is cut. -->
+  <HydroponicsBasin.description>用來種植作物的人工培養盆，提供營養素的泵必須持續運作，一旦斷電，植物便會死亡。</HydroponicsBasin.description>
+  
+  <!-- EN: nutrient paste dispenser -->
+  <NutrientPasteDispenser.label>營養膏合成機</NutrientPasteDispenser.label>
+  <!-- EN: A machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay. -->
+  <NutrientPasteDispenser.description>能將比鄰的儲料槽中的有機材料合成為營養膏的機器。比起其他的食物調理方式，合成營養高所消耗的物料成本與時間都更低，然而，沒人喜歡吃這黏糊糊的食物。可接受各種生食作為原料，除了牧草這類植物原料。</NutrientPasteDispenser.description>
+  
+  <!-- EN: simple research bench -->
+  <SimpleResearchBench.label>研究桌</SimpleResearchBench.label>
+  <!-- EN: A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things. -->
+  <SimpleResearchBench.description>一張備有書寫工具及簡單研究設備的桌子，研究人員在這裡發掘新事物。</SimpleResearchBench.description>
+  
+  <!-- EN: butcher table -->
+  <TableButcher.label>屠宰桌</TableButcher.label>
+  <!-- EN: A heavy table for butchering dead creatures into pieces of raw meat. -->
+  <TableButcher.description>一個用來將死亡的動物屠宰成肉塊的重型桌子。</TableButcher.description>
+  
+  <!-- EN: machining table -->
+  <TableMachining.label>機械加工桌</TableMachining.label>
+  <!-- EN: A work station for assembling machinery like guns and ammunition, or breaking down dead mechanoids. -->
+  <TableMachining.description>一套專門組裝或拆解槍切、彈藥和機器人用的桌子與工具。</TableMachining.description>
+  
+  <!-- EN: sculptor's table -->
+  <TableSculpting.label>雕刻桌</TableSculpting.label>
+  <!-- EN: A workbench equipped for artistic sculpting. -->
+  <TableSculpting.description>專門進行雕刻工作的桌子。</TableSculpting.description>
+  
+  <!-- EN: stonecutter's table -->
+  <TableStonecutter.label>岩石切割台</TableStonecutter.label>
+  <!-- EN: A work table with saws and chisels for cutting stone chunks into usable blocks. -->
+  <TableStonecutter.description>一個附帶了鋸子和鑿子的工作台。用於把粗糙的石塊切割成石材。</TableStonecutter.description>
   
 </LanguageData>
