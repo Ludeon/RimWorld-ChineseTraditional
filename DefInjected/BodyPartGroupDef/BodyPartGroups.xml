@@ -1,57 +1,111 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <Torso.label>身體</Torso.label>
-  <UpperHead.label>頭頂</UpperHead.label>
-  <FullHead.label>頭部</FullHead.label>
-  <Eyes.label>眼睛</Eyes.label>
-  <Teeth.label>牙齒</Teeth.label>
-  <Mouth.label>嘴</Mouth.label>
-  <Neck.label>頸部</Neck.label>
+  <!-- EN: arms -->
   <Arms.label>手臂</Arms.label>
-  <Shoulders.label>肩膀</Shoulders.label>
-  <Hands.label>手掌</Hands.label>
   
-  <LeftHand.label>左掌</LeftHand.label>
-  <LeftHand.labelShort>掌</LeftHand.labelShort>
-
-  <RightHand.label>右掌</RightHand.label>
-  <RightHand.labelShort>掌</RightHand.labelShort>
+  <!-- EN: beak -->
+  <Beak.label>喙</Beak.label>
   
-  <Waist.label>腰部</Waist.label>
-  <Legs.label>腿部</Legs.label>
+  <!-- EN: eyes -->
+  <Eyes.label>眼睛</Eyes.label>
+  
+  <!-- EN: feet -->
   <Feet.label>足部</Feet.label>
   
-  <FrontLeftPaw.label>左爪</FrontLeftPaw.label>
-  <FrontLeftPaw.labelShort>爪</FrontLeftPaw.labelShort>
+  <!-- EN: front left claws -->
+  <FrontLeftClaws.label>左前爪</FrontLeftClaws.label>
+  <!-- EN: claws -->
+  <FrontLeftClaws.labelShort>爪</FrontLeftClaws.labelShort>
   
-  <FrontRightPaw.label>右爪</FrontRightPaw.label>
-  <FrontRightPaw.labelShort>爪</FrontRightPaw.labelShort>
-  
-  <HeadAttackTool.label>頭頂</HeadAttackTool.label>
-  
+  <!-- EN: front left leg -->
   <FrontLeftLeg.label>左前腳</FrontLeftLeg.label>
+  <!-- EN: leg -->
   <FrontLeftLeg.labelShort>腳</FrontLeftLeg.labelShort>
   
+  <!-- EN: front left paw -->
+  <FrontLeftPaw.label>左爪</FrontLeftPaw.label>
+  <!-- EN: paw -->
+  <FrontLeftPaw.labelShort>爪</FrontLeftPaw.labelShort>
+  
+  <!-- EN: front right claws -->
+  <FrontRightClaws.label>右前爪</FrontRightClaws.label>
+  <!-- EN: claws -->
+  <FrontRightClaws.labelShort>爪</FrontRightClaws.labelShort>
+  
+  <!-- EN: front right leg -->
   <FrontRightLeg.label>右前腳</FrontRightLeg.label>
+  <!-- EN: leg -->
   <FrontRightLeg.labelShort>腳</FrontRightLeg.labelShort>
   
-  <FrontLeftClaws.label>左前爪</FrontLeftClaws.label>
-  <FrontLeftClaws.labelShort>爪</FrontLeftClaws.labelShort>
-
-  <FrontRightClaws.label>右前爪</FrontRightClaws.label>
-  <FrontRightClaws.labelShort>爪</FrontRightClaws.labelShort>
-
-  <LeftBlade.label>左突刃部</LeftBlade.label>
-  <LeftBlade.labelShort>刀刃</LeftBlade.labelShort>
-
-  <RightBlade.label>右突刃部</RightBlade.label>
-  <RightBlade.labelShort>刀刃</RightBlade.labelShort>
-
-  <TuskAttackTool.label>獠牙</TuskAttackTool.label>
-  <HornAttackTool.label>角</HornAttackTool.label>
+  <!-- EN: front right paw -->
+  <FrontRightPaw.label>右爪</FrontRightPaw.label>
+  <!-- EN: paw -->
+  <FrontRightPaw.labelShort>爪</FrontRightPaw.labelShort>
+  
+  <!-- EN: full head -->
+  <FullHead.label>頭部</FullHead.label>
+  
+  <!-- EN: hands -->
+  <Hands.label>手掌</Hands.label>
+  
+  <!-- EN: head -->
+  <HeadAttackTool.label>頭頂</HeadAttackTool.label>
+  
+  <!-- EN: claw -->
   <HeadClaw.label>爪</HeadClaw.label>
+  
+  <!-- EN: horn -->
+  <HornAttackTool.label>角</HornAttackTool.label>
+  
+  <!-- EN: left blade -->
+  <LeftBlade.label>左突刃部</LeftBlade.label>
+  <!-- EN: blade -->
+  <LeftBlade.labelShort>刀刃</LeftBlade.labelShort>
+  
+  <!-- EN: left fist -->
+  <LeftHand.label>左掌</LeftHand.label>
+  <!-- EN: fist -->
+  <LeftHand.labelShort>掌</LeftHand.labelShort>
+  
+  <!-- EN: legs -->
+  <Legs.label>腿部</Legs.label>
+  
+  <!-- EN: mouth -->
+  <Mouth.label>嘴</Mouth.label>
+  
+  <!-- EN: neck -->
+  <Neck.label>頸部</Neck.label>
+  
+  <!-- EN: right blade -->
+  <RightBlade.label>右突刃部</RightBlade.label>
+  <!-- EN: blade -->
+  <RightBlade.labelShort>刀刃</RightBlade.labelShort>
+  
+  <!-- EN: right fist -->
+  <RightHand.label>右掌</RightHand.label>
+  <!-- EN: fist -->
+  <RightHand.labelShort>掌</RightHand.labelShort>
+  
+  <!-- EN: shoulders -->
+  <Shoulders.label>肩膀</Shoulders.label>
+  
+  <!-- EN: teeth -->
+  <Teeth.label>牙齒</Teeth.label>
+  
+  <!-- EN: torso -->
+  <Torso.label>身體</Torso.label>
+  
+  <!-- EN: beak -->
   <TurtleBeakAttackTool.label>尖嘴</TurtleBeakAttackTool.label>
-  <Beak.label>喙</Beak.label>
-    
+  
+  <!-- EN: tusks -->
+  <TuskAttackTool.label>獠牙</TuskAttackTool.label>
+  
+  <!-- EN: upper head -->
+  <UpperHead.label>頭頂</UpperHead.label>
+  
+  <!-- EN: waist -->
+  <Waist.label>腰部</Waist.label>
+  
 </LanguageData>

@@ -1,50 +1,82 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Common to various mechanoids -->
-
-  <MechanicalNeck.label>頸部</MechanicalNeck.label>
-  <MechanicalHead.label>頭部</MechanicalHead.label>
+  
+  <!-- EN: artificial brain -->
   <ArtificialBrain.label>電腦核心</ArtificialBrain.label>
-  <SightSensor.label>視訊傳感器</SightSensor.label>
-  <HearingSensor.label>音訊傳感器</HearingSensor.label>
-  <SmellSensor.label>嗅覺傳感器</SmellSensor.label>
-  <MechanicalShoulder.label>肩膀</MechanicalShoulder.label>
-  <MechanicalArm.label>手臂</MechanicalArm.label>
-  <MechanicalHand.label>手掌</MechanicalHand.label>
-  <MechanicalFinger.label>手指</MechanicalFinger.label>
-  <MechanicalLeg.label>腿</MechanicalLeg.label>
-  <MechanicalFoot.label>腳</MechanicalFoot.label>
-
-
-  <!-- Human-like specific (lancer, scyther) -->
-
-  <MechanicalThorax.label>胸部</MechanicalThorax.label>
-
-
-  <!-- Scyther specific -->
-
+  
+  <!-- EN: blade -->
   <Blade.label>機械刃</Blade.label>
-
-
-  <!-- Centipede specific -->
-
-  <MechanicalCentipedeBodyFirstRing.label>第一身節</MechanicalCentipedeBodyFirstRing.label>
-  <MechanicalCentipedeBodyFirstRing.labelShort>身節</MechanicalCentipedeBodyFirstRing.labelShort>
-
-  <MechanicalCentipedeBodySecondRing.label>第二身節</MechanicalCentipedeBodySecondRing.label>
-  <MechanicalCentipedeBodySecondRing.labelShort>身節</MechanicalCentipedeBodySecondRing.labelShort>
-
-  <MechanicalCentipedeBodyThirdRing.label>第三身節</MechanicalCentipedeBodyThirdRing.label>
-  <MechanicalCentipedeBodyThirdRing.labelShort>身節</MechanicalCentipedeBodyThirdRing.labelShort>
-
-  <MechanicalCentipedeBodyFourthRing.label>第四身節</MechanicalCentipedeBodyFourthRing.label>
-  <MechanicalCentipedeBodyFourthRing.labelShort>身節</MechanicalCentipedeBodyFourthRing.labelShort>
-
+  
+  <!-- EN: fluid reprocessor -->
+  <FluidReprocessor.label>體液再處理器</FluidReprocessor.label>
+  
+  <!-- EN: sound sensor -->
+  <HearingSensor.label>音訊傳感器</HearingSensor.label>
+  
+  <!-- EN: arm -->
+  <MechanicalArm.label>手臂</MechanicalArm.label>
+  
+  <!-- EN: fifth body ring -->
   <MechanicalCentipedeBodyFifthRing.label>第五身節</MechanicalCentipedeBodyFifthRing.label>
+  <!-- EN: body ring -->
   <MechanicalCentipedeBodyFifthRing.labelShort>身節</MechanicalCentipedeBodyFifthRing.labelShort>
-
+  
+  <!-- EN: first body ring -->
+  <MechanicalCentipedeBodyFirstRing.label>第一身節</MechanicalCentipedeBodyFirstRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFirstRing.labelShort>身節</MechanicalCentipedeBodyFirstRing.labelShort>
+  
+  <!-- EN: fourth body ring -->
+  <MechanicalCentipedeBodyFourthRing.label>第四身節</MechanicalCentipedeBodyFourthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFourthRing.labelShort>身節</MechanicalCentipedeBodyFourthRing.labelShort>
+  
+  <!-- EN: second body ring -->
+  <MechanicalCentipedeBodySecondRing.label>第二身節</MechanicalCentipedeBodySecondRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodySecondRing.labelShort>身節</MechanicalCentipedeBodySecondRing.labelShort>
+  
+  <!-- EN: sixth body ring -->
   <MechanicalCentipedeBodySixthRing.label>第六身節</MechanicalCentipedeBodySixthRing.label>
+  <!-- EN: body ring -->
   <MechanicalCentipedeBodySixthRing.labelShort>身節</MechanicalCentipedeBodySixthRing.labelShort>
+  
+  <!-- EN: third body ring -->
+  <MechanicalCentipedeBodyThirdRing.label>第三身節</MechanicalCentipedeBodyThirdRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyThirdRing.labelShort>身節</MechanicalCentipedeBodyThirdRing.labelShort>
+  
+  <!-- EN: finger -->
+  <MechanicalFinger.label>手指</MechanicalFinger.label>
+  
+  <!-- EN: foot -->
+  <MechanicalFoot.label>腳</MechanicalFoot.label>
+  
+  <!-- EN: hand -->
+  <MechanicalHand.label>手掌</MechanicalHand.label>
+  
+  <!-- EN: head -->
+  <MechanicalHead.label>頭部</MechanicalHead.label>
+  
+  <!-- EN: leg -->
+  <MechanicalLeg.label>腿</MechanicalLeg.label>
+  
+  <!-- EN: neck -->
+  <MechanicalNeck.label>頸部</MechanicalNeck.label>
+  
+  <!-- EN: shoulder -->
+  <MechanicalShoulder.label>肩膀</MechanicalShoulder.label>
+  
+  <!-- EN: thorax -->
+  <MechanicalThorax.label>胸部</MechanicalThorax.label>
+  
+  <!-- EN: reactor -->
+  <Reactor.label>反應爐</Reactor.label>
+  
+  <!-- EN: visual sensor -->
+  <SightSensor.label>視訊傳感器</SightSensor.label>
+  
+  <!-- EN: chemical analyzer -->
+  <SmellSensor.label>嗅覺傳感器</SmellSensor.label>
   
 </LanguageData>
