@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Love -->
-
-  <GotMarried.stages.0.label>新婚生活</GotMarried.stages.0.label>
-  <GotMarried.stages.0.description>我結婚了！兩個人一起邁入新生活真是棒極了！</GotMarried.stages.0.description>
-
-  <!-- Misc -->
-
-  <AttendedWedding.stages.0.label>參加婚禮</AttendedWedding.stages.0.label>
-  <AttendedWedding.stages.0.description>我很高興見證兩人牽手步向未來。</AttendedWedding.stages.0.description>
-
-  <AttendedParty.stages.0.label>參加派對</AttendedParty.stages.0.label>
-  <AttendedParty.stages.0.description>我在派對過得很愉快。</AttendedParty.stages.0.description>
-
+  
+  <!-- EN: attended party -->
+  <AttendedParty.stages.attended_party.label>參加派對</AttendedParty.stages.attended_party.label>
+  <!-- EN: I had a good time at that party. -->
+  <AttendedParty.stages.attended_party.description>我在派對過得很愉快。</AttendedParty.stages.attended_party.description>
+  
+  <!-- EN: attended wedding -->
+  <AttendedWedding.stages.attended_wedding.label>參加婚禮</AttendedWedding.stages.attended_wedding.label>
+  <!-- EN: It was great to see two people come together to build a future like that. -->
+  <AttendedWedding.stages.attended_wedding.description>我很高興見證兩人牽手步向未來。</AttendedWedding.stages.attended_wedding.description>
+  
+  <!-- EN: got married to {0} -->
+  <GotMarried.stages.got_married_to.label>新婚生活</GotMarried.stages.got_married_to.label>
+  <!-- EN: I got married! It's so wonderful to be starting a new life together! -->
+  <GotMarried.stages.got_married_to.description>我結婚了！兩個人一起邁入新生活真是棒極了！</GotMarried.stages.got_married_to.description>
+  
 </LanguageData>

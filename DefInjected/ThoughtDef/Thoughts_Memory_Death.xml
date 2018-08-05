@@ -1,111 +1,163 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- executions and prisoner deaths -->
   
-  <KnowGuestExecuted.stages.0.label>正義制裁</KnowGuestExecuted.stages.0.label>
-  <KnowGuestExecuted.stages.0.description>有犯罪的俘虜或是訪客被處死了，這是正義的制裁，但仍然感到遺憾。</KnowGuestExecuted.stages.0.description>
-  <KnowGuestExecuted.stages.1.label>有人被安樂死了</KnowGuestExecuted.stages.1.label>
-  <KnowGuestExecuted.stages.1.description>有俘虜或是訪客被安樂死了，這雖然非常人道，但仍然感到遺憾。</KnowGuestExecuted.stages.1.description>
-  <KnowGuestExecuted.stages.2.label>有人被處死了</KnowGuestExecuted.stages.2.label>
-  <KnowGuestExecuted.stages.2.description>有俘虜或是訪客被冷血的處決了，真是殘忍。</KnowGuestExecuted.stages.2.description>
-  <KnowGuestExecuted.stages.3.label>有人因器官被摘除而死亡了</KnowGuestExecuted.stages.3.label>
-  <KnowGuestExecuted.stages.3.description>有俘虜或是訪客因器官被摘除而死亡了，真是邪惡。</KnowGuestExecuted.stages.3.description>
+  <!-- EN: bonded animal {0} died -->
+  <BondedAnimalDied.stages.bonded_animal_died.label>我的動物夥伴死了</BondedAnimalDied.stages.bonded_animal_died.label>
+  <!-- EN: Such a tender, unique animal. This universe is evil! -->
+  <BondedAnimalDied.stages.bonded_animal_died.description>牠是那麼的討人喜歡，命運真是太殘酷了。</BondedAnimalDied.stages.bonded_animal_died.description>
   
-  <KnowColonistExecuted.stages.0.label>有居民被制裁了</KnowColonistExecuted.stages.0.label>
-  <KnowColonistExecuted.stages.0.description>有犯罪的居民被處死了，這是正義的制裁，但仍然感到遺憾。</KnowColonistExecuted.stages.0.description>
-  <KnowColonistExecuted.stages.1.label>有居民被安樂死了</KnowColonistExecuted.stages.1.label>
-  <KnowColonistExecuted.stages.1.description>有居民被安樂死了，這雖然非常人道，但仍然感到遺憾。</KnowColonistExecuted.stages.1.description>
-  <KnowColonistExecuted.stages.2.label>有居民被處決了</KnowColonistExecuted.stages.2.label>
-  <KnowColonistExecuted.stages.2.description>有居民被冷血的處決了，真是殘忍。</KnowColonistExecuted.stages.2.description>
-  <KnowColonistExecuted.stages.3.label>有居民因器官被摘除而死亡了</KnowColonistExecuted.stages.3.label>
-  <KnowColonistExecuted.stages.3.description>有居民因器官被摘除而死亡了，真是邪惡。</KnowColonistExecuted.stages.3.description>
+  <!-- EN: colonist died -->
+  <KnowColonistDied.stages.colonist_died.label>有居民死亡了</KnowColonistDied.stages.colonist_died.label>
+  <!-- EN: One of our people died. We should be able to take care of our people. -->
+  <KnowColonistDied.stages.colonist_died.description>我們失去了一名同伴。我們應該多關心居民們的狀況。</KnowColonistDied.stages.colonist_died.description>
   
-  <KnowPrisonerDiedInnocent.stages.0.label>得知有俘虜無辜死亡</KnowPrisonerDiedInnocent.stages.0.label>
-  <KnowPrisonerDiedInnocent.stages.0.description>我們的一名俘虜無辜死亡了。我們應該更加善待俘虜，如果我們要他們死，至少也要有一個正式的處刑，而不是使用這種野蠻的手段。</KnowPrisonerDiedInnocent.stages.0.description>
+  <!-- EN: justified execution of colonist -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.label>有居民被制裁了</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
+  <!-- EN: A guilty colonist was executed. It was justified, but still sad. -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>有犯罪的居民被處死了，這是正義的制裁，但仍然感到遺憾。</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
+  <!-- EN: colonist euthanized -->
+  <KnowColonistExecuted.stages.colonist_euthanized.label>有居民被安樂死了</KnowColonistExecuted.stages.colonist_euthanized.label>
+  <!-- EN: A colonist was euthanized. It was humane, but still sad. -->
+  <KnowColonistExecuted.stages.colonist_euthanized.description>有居民被安樂死了，這雖然非常人道，但仍然感到遺憾。</KnowColonistExecuted.stages.colonist_euthanized.description>
+  <!-- EN: colonist executed -->
+  <KnowColonistExecuted.stages.colonist_executed.label>有居民被處決了</KnowColonistExecuted.stages.colonist_executed.label>
+  <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
+  <KnowColonistExecuted.stages.colonist_executed.description>有居民被冷血的處決了，真是殘忍。</KnowColonistExecuted.stages.colonist_executed.description>
+  <!-- EN: colonist organ-harvested -->
+  <KnowColonistExecuted.stages.colonist_organharvested.label>有居民因器官被摘除而死亡了</KnowColonistExecuted.stages.colonist_organharvested.label>
+  <!-- EN: A colonist died because someone took body parts from him. It's horrible. -->
+  <KnowColonistExecuted.stages.colonist_organharvested.description>有居民因器官被摘除而死亡了，真是邪惡。</KnowColonistExecuted.stages.colonist_organharvested.description>
   
-  <KnowColonistDied.stages.0.label>有居民死亡了</KnowColonistDied.stages.0.label>
-  <KnowColonistDied.stages.0.description>我們失去了一名同伴。我們應該多關心居民們的狀況。</KnowColonistDied.stages.0.description>
+  <!-- EN: justified execution -->
+  <KnowGuestExecuted.stages.justified_execution.label>正義制裁</KnowGuestExecuted.stages.justified_execution.label>
+  <!-- EN: A guilty prisoner or guest was executed. It was justified, but still sad. -->
+  <KnowGuestExecuted.stages.justified_execution.description>有犯罪的俘虜或是訪客被處死了，這是正義的制裁，但仍然感到遺憾。</KnowGuestExecuted.stages.justified_execution.description>
+  <!-- EN: someone was euthanized -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.label>有人被安樂死了</KnowGuestExecuted.stages.someone_was_euthanized.label>
+  <!-- EN: A prisoner or guest was euthanized. It was humane, but still sad. -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.description>有俘虜或是訪客被安樂死了，這雖然非常人道，但仍然感到遺憾。</KnowGuestExecuted.stages.someone_was_euthanized.description>
+  <!-- EN: someone was executed -->
+  <KnowGuestExecuted.stages.someone_was_executed.label>有人被處死了</KnowGuestExecuted.stages.someone_was_executed.label>
+  <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
+  <KnowGuestExecuted.stages.someone_was_executed.description>有俘虜或是訪客被冷血的處決了，真是殘忍。</KnowGuestExecuted.stages.someone_was_executed.description>
+  <!-- EN: someone organ-harvested -->
+  <KnowGuestExecuted.stages.someone_organharvested.label>有人因器官被摘除而死亡了</KnowGuestExecuted.stages.someone_organharvested.label>
+  <!-- EN: A prisoner or guest died because the colony took body parts from him. It's horrible. -->
+  <KnowGuestExecuted.stages.someone_organharvested.description>有俘虜或是訪客因器官被摘除而死亡了，真是邪惡。</KnowGuestExecuted.stages.someone_organharvested.description>
   
+  <!-- EN: innocent prisoner died -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>得知有俘虜無辜死亡</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
+  <!-- EN: One of our prisoners died despite being harmless. We should be able to take care of our prisoners. If we wanted them dead, we could have at least conducted an orderly execution rather than permit that barbarism. -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>我們的一名俘虜無辜死亡了。我們應該更加善待俘虜，如果我們要他們死，至少也要有一個正式的處刑，而不是使用這種野蠻的手段。</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
   
-  <!-- bonded animal died -->
-
-  <BondedAnimalDied.stages.0.label>我的動物夥伴死了</BondedAnimalDied.stages.0.label>
-  <BondedAnimalDied.stages.0.description>牠是那麼的討人喜歡，命運真是太殘酷了。</BondedAnimalDied.stages.0.description>
+  <!-- EN: my aunt {0} died -->
+  <MyAuntDied.stages.my_aunt_died.label>我的阿姨去世了</MyAuntDied.stages.my_aunt_died.label>
+  <!-- EN: My aunt died. -->
+  <MyAuntDied.stages.my_aunt_died.description>我的阿姨去世了。</MyAuntDied.stages.my_aunt_died.description>
   
+  <!-- EN: my brother {0} died -->
+  <MyBrotherDied.stages.my_brother_died.label>我的兄弟去世了</MyBrotherDied.stages.my_brother_died.label>
+  <!-- EN: My brother died. My own flesh and blood... -->
+  <MyBrotherDied.stages.my_brother_died.description>我的兄弟去世了，我的親兄弟啊...。</MyBrotherDied.stages.my_brother_died.description>
   
-  <!-- friend/rival died -->
-
-  <PawnWithGoodOpinionDied.stages.0.label>我的朋友去世了</PawnWithGoodOpinionDied.stages.0.label>
-  <PawnWithGoodOpinionDied.stages.0.description>多麼好的一個人，永遠離我們而去，少了他的世界無滋無味。</PawnWithGoodOpinionDied.stages.0.description>
-
-  <PawnWithBadOpinionDied.stages.0.label>我的死對頭死了</PawnWithBadOpinionDied.stages.0.label>
-  <PawnWithBadOpinionDied.stages.0.description>老天有眼，活該死好。</PawnWithBadOpinionDied.stages.0.description>
+  <!-- EN: my cousin {0} died -->
+  <MyCousinDied.stages.my_cousin_died.label>我的堂(表)兄弟去世了</MyCousinDied.stages.my_cousin_died.label>
+  <!-- EN: My cousin died. My own flesh and blood... -->
+  <MyCousinDied.stages.my_cousin_died.description>我的堂(表)兄弟去世了，我的親友啊...。</MyCousinDied.stages.my_cousin_died.description>
   
+  <!-- EN: my daughter {0} died -->
+  <MyDaughterDied.stages.my_daughter_died.label>我的女兒去世了</MyDaughterDied.stages.my_daughter_died.label>
+  <!-- EN: My daughter is dead. My own flesh and blood... -->
+  <MyDaughterDied.stages.my_daughter_died.description>我的女兒去世了，我的親骨肉...。</MyDaughterDied.stages.my_daughter_died.description>
   
-  <!-- Family member died thoughts -->
-
-  <MySonDied.stages.0.label>我的兒子去世了</MySonDied.stages.0.label>
-  <MySonDied.stages.0.description>我的兒子去世了，我的親骨肉...。</MySonDied.stages.0.description>
-
-  <MyDaughterDied.stages.0.label>我的女兒去世了</MyDaughterDied.stages.0.label>
-  <MyDaughterDied.stages.0.description>我的女兒去世了，我的親骨肉...。</MyDaughterDied.stages.0.description>
-
-  <MyHusbandDied.stages.0.label>我的丈夫去世了</MyHusbandDied.stages.0.label>
-  <MyHusbandDied.stages.0.description>我的丈夫去世了，丟下我走了...。</MyHusbandDied.stages.0.description>
-
-  <MyWifeDied.stages.0.label>我的妻子去世了</MyWifeDied.stages.0.label>
-  <MyWifeDied.stages.0.description>我的妻子去世了，丟下我走了...。</MyWifeDied.stages.0.description>
-
-  <MyFianceDied.stages.0.label>我的未婚夫去世了</MyFianceDied.stages.0.label>
-  <MyFianceDied.stages.0.description>我的未婚夫去世了，再也找不到他這樣的男人了。</MyFianceDied.stages.0.description>
-
-  <MyFianceeDied.stages.0.label>我的未婚妻去世了</MyFianceeDied.stages.0.label>
-  <MyFianceeDied.stages.0.description>我的未婚妻去世了，再也找不到她這樣的女人了。</MyFianceeDied.stages.0.description>
-
-  <MyLoverDied.stages.0.label>我的戀人去世了</MyLoverDied.stages.0.label>
-  <MyLoverDied.stages.0.description>我的戀人去世了，我好孤單...。</MyLoverDied.stages.0.description>
-
-  <MyBrotherDied.stages.0.label>我的兄弟去世了</MyBrotherDied.stages.0.label>
-  <MyBrotherDied.stages.0.description>我的兄弟去世了，我的親兄弟啊...。</MyBrotherDied.stages.0.description>
-
-  <MySisterDied.stages.0.label>我的姐妹去世了</MySisterDied.stages.0.label>
-  <MySisterDied.stages.0.description>我的姐妹去世了。我的親姐妹啊...。</MySisterDied.stages.0.description>
-
-  <MyGrandchildDied.stages.0.label>我的孫子(女)去世了</MyGrandchildDied.stages.0.label>
-  <MyGrandchildDied.stages.0.description>我的孫子(女)去世了，我的孫子啊...。</MyGrandchildDied.stages.0.description>
-
-  <MyFatherDied.stages.0.label>我的父親去世了</MyFatherDied.stages.0.label>
-  <MyFatherDied.stages.0.description>我的父親去世了，從此天人永隔。</MyFatherDied.stages.0.description>
-
-  <MyMotherDied.stages.0.label>我的母親去世了</MyMotherDied.stages.0.label>
-  <MyMotherDied.stages.0.description>我的母親去世了，從此天人永隔。</MyMotherDied.stages.0.description>
-
-  <MyNieceDied.stages.0.label>我的姪子去世了</MyNieceDied.stages.0.label>
-  <MyNieceDied.stages.0.description>我的姪子去世了，這麼優秀的孩子。</MyNieceDied.stages.0.description>
-
-  <MyNephewDied.stages.0.label>我的姪女去世了</MyNephewDied.stages.0.label>
-  <MyNephewDied.stages.0.description>我的姪女去世了，這麼優秀的孩子。</MyNephewDied.stages.0.description>
-
-  <MyHalfSiblingDied.stages.0.label>我的半胞兄妹去世了</MyHalfSiblingDied.stages.0.label>
-  <MyHalfSiblingDied.stages.0.description>我的半胞兄弟姐妹去世了，我的親友啊...。</MyHalfSiblingDied.stages.0.description>
-
-  <MyAuntDied.stages.0.label>我的阿姨去世了</MyAuntDied.stages.0.label>
-  <MyAuntDied.stages.0.description>我的阿姨去世了。</MyAuntDied.stages.0.description>
-
-  <MyUncleDied.stages.0.label>我的叔叔去世了</MyUncleDied.stages.0.label>
-  <MyUncleDied.stages.0.description>我的叔叔去世了。</MyUncleDied.stages.0.description>
-
-  <MyGrandparentDied.stages.0.label>我的祖父(母)去世了</MyGrandparentDied.stages.0.label>
-  <MyGrandparentDied.stages.0.description>我的祖父(母)去世了</MyGrandparentDied.stages.0.description>
-
-  <MyCousinDied.stages.0.label>我的堂(表)兄弟去世了</MyCousinDied.stages.0.label>
-  <MyCousinDied.stages.0.description>我的堂(表)兄弟去世了，我的親友啊...。</MyCousinDied.stages.0.description>
-
-  <MyKinDied.stages.0.label>我的親戚去世了</MyKinDied.stages.0.label>
-  <MyKinDied.stages.0.description>我的親戚去世了。</MyKinDied.stages.0.description>
-
-
-
-
+  <!-- EN: my father {0} died -->
+  <MyFatherDied.stages.my_father_died.label>我的父親去世了</MyFatherDied.stages.my_father_died.label>
+  <!-- EN: My father died. He's gone forever. -->
+  <MyFatherDied.stages.my_father_died.description>我的父親去世了，從此天人永隔。</MyFatherDied.stages.my_father_died.description>
+  
+  <!-- EN: my fiance {0} died -->
+  <MyFianceDied.stages.my_fiance_died.label>我的未婚夫去世了</MyFianceDied.stages.my_fiance_died.label>
+  <!-- EN: My fiance died. Such a man... my future is gone. -->
+  <MyFianceDied.stages.my_fiance_died.description>我的未婚夫去世了，再也找不到他這樣的男人了。</MyFianceDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my fiancée {0} died -->
+  <MyFianceeDied.stages.my_fiance_died.label>我的未婚妻去世了</MyFianceeDied.stages.my_fiance_died.label>
+  <!-- EN: My fiancée died. Such a woman... my future is gone. -->
+  <MyFianceeDied.stages.my_fiance_died.description>我的未婚妻去世了，再也找不到她這樣的女人了。</MyFianceeDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my grandchild {0} died -->
+  <MyGrandchildDied.stages.my_grandchild_died.label>我的孫子(女)去世了</MyGrandchildDied.stages.my_grandchild_died.label>
+  <!-- EN: My grandchild died. My own flesh and blood... -->
+  <MyGrandchildDied.stages.my_grandchild_died.description>我的孫子(女)去世了，我的孫子啊...。</MyGrandchildDied.stages.my_grandchild_died.description>
+  
+  <!-- EN: my grandparent {0} died -->
+  <MyGrandparentDied.stages.my_grandparent_died.label>我的祖父(母)去世了</MyGrandparentDied.stages.my_grandparent_died.label>
+  <!-- EN: My grandparent died. -->
+  <MyGrandparentDied.stages.my_grandparent_died.description>我的祖父(母)去世了</MyGrandparentDied.stages.my_grandparent_died.description>
+  
+  <!-- EN: my half-sibling {0} died -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>我的半胞兄妹去世了</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <!-- EN: My half-sibling died. My own flesh and blood... -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>我的半胞兄弟姐妹去世了，我的親友啊...。</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  
+  <!-- EN: my husband {0} died -->
+  <MyHusbandDied.stages.my_husband_died.label>我的丈夫去世了</MyHusbandDied.stages.my_husband_died.label>
+  <!-- EN: My husband is dead. I am alone. -->
+  <MyHusbandDied.stages.my_husband_died.description>我的丈夫去世了，丟下我走了...。</MyHusbandDied.stages.my_husband_died.description>
+  
+  <!-- EN: my kin {0} died -->
+  <MyKinDied.stages.my_kin_died.label>我的親戚去世了</MyKinDied.stages.my_kin_died.label>
+  <!-- EN: My kin died. -->
+  <MyKinDied.stages.my_kin_died.description>我的親戚去世了。</MyKinDied.stages.my_kin_died.description>
+  
+  <!-- EN: my lover {0} died -->
+  <MyLoverDied.stages.my_lover_died.label>我的戀人去世了</MyLoverDied.stages.my_lover_died.label>
+  <!-- EN: My lover died. I am so alone. -->
+  <MyLoverDied.stages.my_lover_died.description>我的戀人去世了，我好孤單...。</MyLoverDied.stages.my_lover_died.description>
+  
+  <!-- EN: my mother {0} died -->
+  <MyMotherDied.stages.my_mother_died.label>我的母親去世了</MyMotherDied.stages.my_mother_died.label>
+  <!-- EN: My mother died. She's gone forever. -->
+  <MyMotherDied.stages.my_mother_died.description>我的母親去世了，從此天人永隔。</MyMotherDied.stages.my_mother_died.description>
+  
+  <!-- EN: my nephew {0} died -->
+  <MyNephewDied.stages.my_nephew_died.label>我的姪女去世了</MyNephewDied.stages.my_nephew_died.label>
+  <!-- EN: My nephew died. Such a wonderful child. -->
+  <MyNephewDied.stages.my_nephew_died.description>我的姪女去世了，這麼優秀的孩子。</MyNephewDied.stages.my_nephew_died.description>
+  
+  <!-- EN: my niece {0} died -->
+  <MyNieceDied.stages.my_niece_died.label>我的姪子去世了</MyNieceDied.stages.my_niece_died.label>
+  <!-- EN: My niece died. Such a wonderful child. -->
+  <MyNieceDied.stages.my_niece_died.description>我的姪子去世了，這麼優秀的孩子。</MyNieceDied.stages.my_niece_died.description>
+  
+  <!-- EN: my sister {0} died -->
+  <MySisterDied.stages.my_sister_died.label>我的姐妹去世了</MySisterDied.stages.my_sister_died.label>
+  <!-- EN: My sister died. My own flesh and blood... -->
+  <MySisterDied.stages.my_sister_died.description>我的姐妹去世了。我的親姐妹啊...。</MySisterDied.stages.my_sister_died.description>
+  
+  <!-- EN: my son {0} died -->
+  <MySonDied.stages.my_son_died.label>我的兒子去世了</MySonDied.stages.my_son_died.label>
+  <!-- EN: My son is dead. My own flesh and blood... -->
+  <MySonDied.stages.my_son_died.description>我的兒子去世了，我的親骨肉...。</MySonDied.stages.my_son_died.description>
+  
+  <!-- EN: my uncle {0} died -->
+  <MyUncleDied.stages.my_uncle_died.label>我的叔叔去世了</MyUncleDied.stages.my_uncle_died.label>
+  <!-- EN: My uncle died. -->
+  <MyUncleDied.stages.my_uncle_died.description>我的叔叔去世了。</MyUncleDied.stages.my_uncle_died.description>
+  
+  <!-- EN: my wife {0} died -->
+  <MyWifeDied.stages.my_wife_died.label>我的妻子去世了</MyWifeDied.stages.my_wife_died.label>
+  <!-- EN: My wife is dead. I am alone. -->
+  <MyWifeDied.stages.my_wife_died.description>我的妻子去世了，丟下我走了...。</MyWifeDied.stages.my_wife_died.description>
+  
+  <!-- EN: my rival {0} died -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>我的死對頭死了</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <!-- EN: Serves them right. At least there's some justice in this world. -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.description>老天有眼，活該死好。</PawnWithBadOpinionDied.stages.my_rival_died.description>
+  
+  <!-- EN: my friend {0} died -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>我的朋友去世了</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.description>多麼好的一個人，永遠離我們而去，少了他的世界無滋無味。</PawnWithGoodOpinionDied.stages.my_friend_died.description>
+  
 </LanguageData>

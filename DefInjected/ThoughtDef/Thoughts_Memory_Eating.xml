@@ -1,52 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Basic quality thoughts -->
   
-  <AteLavishMeal.stages.0.label>吃了豪華的料理</AteLavishMeal.stages.0.label>
-  <AteLavishMeal.stages.0.description>這料理簡直太棒了，我覺得我的身體和靈魂都被滋養了。</AteLavishMeal.stages.0.description>
-
-  <AteFineMeal.stages.0.label>吃了精緻的料理</AteFineMeal.stages.0.label>
-  <AteFineMeal.stages.0.description>我吃了一份很不錯的料理，美味！</AteFineMeal.stages.0.description>
+  <!-- EN: ate awful meal -->
+  <AteAwfulMeal.stages.ate_awful_meal.label>吃了噁心的食物</AteAwfulMeal.stages.ate_awful_meal.label>
+  <!-- EN: I had to eat a disgusting, tasteless meal. I know it keeps you alive, but nobody wants to swallow that glop. -->
+  <AteAwfulMeal.stages.ate_awful_meal.description>我吃了噁心又無味的食物，我知道這能讓我活下去，但真的沒有人願意吃這玩意兒。</AteAwfulMeal.stages.ate_awful_meal.description>
   
-  <AteAwfulMeal.stages.0.label>吃了噁心的食物</AteAwfulMeal.stages.0.label>
-  <AteAwfulMeal.stages.0.description>我吃了噁心又無味的食物，我知道這能讓我活下去，但真的沒有人願意吃這玩意兒。</AteAwfulMeal.stages.0.description>
-
-  <AteRawFood.stages.0.label>吃了生食</AteRawFood.stages.0.label>
-  <AteRawFood.stages.0.description>我只有生的東西可以吃。我們應該在吃之前烹飪一下那些食物，只有動物才生吃，我們可不是動物。</AteRawFood.stages.0.description>
-
-  <AteKibble.stages.0.label>吃了飼料</AteKibble.stages.0.label>
-  <AteKibble.stages.0.description>我只有飼料能吃，好像我是頭畜牲一樣。</AteKibble.stages.0.description>
-
-  <AteCorpse.stages.0.label>吃了屍體</AteCorpse.stages.0.label>
-  <AteCorpse.stages.0.description>我不得不像去啃食屍體，甚至沒有屠宰或烹飪過。</AteCorpse.stages.0.description>
+  <!-- EN: ate corpse -->
+  <AteCorpse.stages.ate_corpse.label>吃了屍體</AteCorpse.stages.ate_corpse.label>
+  <!-- EN: I had to eat the flesh of a dead creature without even butchering or cooking it. -->
+  <AteCorpse.stages.ate_corpse.description>我不得不像去啃食屍體，甚至沒有屠宰或烹飪過。</AteCorpse.stages.ate_corpse.description>
   
+  <!-- EN: ate fine meal -->
+  <AteFineMeal.stages.ate_fine_meal.label>吃了精緻的料理</AteFineMeal.stages.ate_fine_meal.label>
+  <!-- EN: I ate a really tasty fine meal. Yum! -->
+  <AteFineMeal.stages.ate_fine_meal.description>我吃了一份很不錯的料理，美味！</AteFineMeal.stages.ate_fine_meal.description>
   
-  <!-- Special nature thoughts -->
-	
-  <AteHumanlikeMeatDirectCannibal.stages.0.label>吃了生的人肉</AteHumanlikeMeatDirectCannibal.stages.0.label>
-  <AteHumanlikeMeatDirectCannibal.stages.0.description>我吃了一個人的肉，生的，就像一只動物一樣。這簡直太棒了。</AteHumanlikeMeatDirectCannibal.stages.0.description>
+  <!-- EN: cooked cannibalism -->
+  <AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.label>吃了烹調過的人肉</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.label>
+  <!-- EN: I ate a meal made from the meat of another human. This is horrible. -->
+  <AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>我吃了用人肉作出的料理，真是噁心到了極點。</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>
   
-  <AteHumanlikeMeatAsIngredientCannibal.stages.0.label>吃了烹調過的人肉</AteHumanlikeMeatAsIngredientCannibal.stages.0.label>
-  <AteHumanlikeMeatAsIngredientCannibal.stages.0.description>我吃了用人肉作出的料理，味道棒極了。若能配上些蠶豆和紅酒就更棒了。</AteHumanlikeMeatAsIngredientCannibal.stages.0.description>
-	
-  <AteHumanlikeMeatAsIngredient.stages.0.label>吃了烹調過的人肉</AteHumanlikeMeatAsIngredient.stages.0.label>
-  <AteHumanlikeMeatAsIngredient.stages.0.description>我吃了用人肉作出的料理，這簡直太可怕了。</AteHumanlikeMeatAsIngredient.stages.0.description>
+  <!-- EN: cooked cannibalism -->
+  <AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>吃了烹調過的人肉</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>
+  <!-- EN: I ate a meal made from the meat of another human. So pleasurable. If only I had some fava beans and a nice chianti. -->
+  <AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>我吃了用人肉作出的料理，味道棒極了。若能配上些蠶豆和紅酒就更棒了。</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>
   
-  <AteHumanlikeMeatDirect.stages.0.label>吃了生的人肉</AteHumanlikeMeatDirect.stages.0.label>
-  <AteHumanlikeMeatDirect.stages.0.description>我吃了一個人的肉，生的，就像一只動物一樣。這簡直是個惡夢。</AteHumanlikeMeatDirect.stages.0.description>
-
-  <AteInsectMeatAsIngredient.stages.0.label>吃了烹調過的蟲肉</AteInsectMeatAsIngredient.stages.0.label>
-  <AteInsectMeatAsIngredient.stages.0.description>我吃了蟲肉作成的料理，雖然調味醬汁已經蓋過了部分味道，但因為和一堆昆蟲分泌物混在一起，我也分不太出來。</AteInsectMeatAsIngredient.stages.0.description>
-
-  <AteInsectMeatDirect.stages.0.label>吃了生的蟲肉</AteInsectMeatDirect.stages.0.label>
-  <AteInsectMeatDirect.stages.0.description>我吃了生的蟲肉，這真是史上最噁心的東西。</AteInsectMeatDirect.stages.0.description>
+  <!-- EN: raw cannibalism -->
+  <AteHumanlikeMeatDirect.stages.raw_cannibalism.label>吃了生的人肉</AteHumanlikeMeatDirect.stages.raw_cannibalism.label>
+  <!-- EN: I ate the meat of another human, raw, like an animal. This is a nightmare. -->
+  <AteHumanlikeMeatDirect.stages.raw_cannibalism.description>我吃了一個人的肉，生的，就像一只動物一樣。這簡直是個惡夢。</AteHumanlikeMeatDirect.stages.raw_cannibalism.description>
   
-
-  <!--  Rotten state thoughts -->
-
-  <AteRottenFood.stages.0.label>吃了腐敗的食物</AteRottenFood.stages.0.label>
-  <AteRottenFood.stages.0.description>我吃了噁心、發霉的食物，真是個不愉快的體驗。</AteRottenFood.stages.0.description>
-
-
+  <!-- EN: raw cannibalism -->
+  <AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>吃了生的人肉</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>
+  <!-- EN: I ate the meat of another human, raw, like an animal. It was so... succulent. -->
+  <AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>我吃了一個人的肉，生的，就像一只動物一樣。這簡直太棒了。</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>
+  
+  <!-- EN: ate cooked insect meat -->
+  <AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>吃了烹調過的蟲肉</AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>
+  <!-- EN: I ate a meal cooked from gray, slimy insect meat. The seasoning partly covered the taste, but there were glands and fluid pockets in there that I can't identify. -->
+  <AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.description>我吃了蟲肉作成的料理，雖然調味醬汁已經蓋過了部分味道，但因為和一堆昆蟲分泌物混在一起，我也分不太出來。</AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.description>
+  
+  <!-- EN: ate insect meat -->
+  <AteInsectMeatDirect.stages.ate_insect_meat.label>吃了生的蟲肉</AteInsectMeatDirect.stages.ate_insect_meat.label>
+  <!-- EN: I ate some gray, slimy insect meat. It was, possibly, the most disgusting thing I've ever tasted. -->
+  <AteInsectMeatDirect.stages.ate_insect_meat.description>我吃了生的蟲肉，這真是史上最噁心的東西。</AteInsectMeatDirect.stages.ate_insect_meat.description>
+  
+  <!-- EN: ate kibble -->
+  <AteKibble.stages.ate_kibble.label>吃了飼料</AteKibble.stages.ate_kibble.label>
+  <!-- EN: I had to eat animal kibble. It's like I don't get to be human any more. -->
+  <AteKibble.stages.ate_kibble.description>我只有飼料能吃，好像我是頭畜牲一樣。</AteKibble.stages.ate_kibble.description>
+  
+  <!-- EN: ate lavish meal -->
+  <AteLavishMeal.stages.ate_lavish_meal.label>吃了豪華的料理</AteLavishMeal.stages.ate_lavish_meal.label>
+  <!-- EN: That lavish meal was amazing. It nourished my body and my soul. -->
+  <AteLavishMeal.stages.ate_lavish_meal.description>這料理簡直太棒了，我覺得我的身體和靈魂都被滋養了。</AteLavishMeal.stages.ate_lavish_meal.description>
+  
+  <!-- EN: ate raw food -->
+  <AteRawFood.stages.ate_raw_food.label>吃了生食</AteRawFood.stages.ate_raw_food.label>
+  <!-- EN: I had to eat raw food. We should be cooking that kind of food before eating it. We're not animals. -->
+  <AteRawFood.stages.ate_raw_food.description>我只有生的東西可以吃。我們應該在吃之前烹飪一下那些食物，只有動物才生吃，我們可不是動物。</AteRawFood.stages.ate_raw_food.description>
+  
+  <!-- EN: ate rotten food -->
+  <AteRottenFood.stages.ate_rotten_food.label>吃了腐敗的食物</AteRottenFood.stages.ate_rotten_food.label>
+  <!-- EN: I ate some disgusting, putrid food. It was melting in my mouth - but not in a good way. -->
+  <AteRottenFood.stages.ate_rotten_food.description>我吃了噁心、發霉的食物，真是個不愉快的體驗。</AteRottenFood.stages.ate_rotten_food.description>
+  
 </LanguageData>
