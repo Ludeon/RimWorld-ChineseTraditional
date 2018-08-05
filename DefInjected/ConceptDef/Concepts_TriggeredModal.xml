@@ -1,18 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Concepts taught in modal dialogs -->
-
-  <TradeGoodsMustBeNearBeacon.label>商品及信標</TradeGoodsMustBeNearBeacon.label>
-  <TradeGoodsMustBeNearBeacon.helpText>欲送出商品或白銀至宇宙商船處，你必須建立一座軌道交易信標，並於其周圍設置一片可接受商品的儲存區。</TradeGoodsMustBeNearBeacon.helpText>
   
+  <!-- EN: Arresting worsens faction relations -->
   <ArrestingCreatesEnemies.label>拘捕將導致關係惡化</ArrestingCreatesEnemies.label>
+  <!-- EN: Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist, their entire faction will become your enemy. -->
   <ArrestingCreatesEnemies.helpText>警告：若你拘捕了某人，他們整個勢力都將成為你的敵人。\n\n若你想要和一個勢力保持友好關係，千萬別拘捕任何一位屬於該勢力的人！</ArrestingCreatesEnemies.helpText>
   
+  <!-- EN: Maximum number of player colonies -->
+  <MaxNumberOfPlayerSettlements.label>最大殖民地數量</MaxNumberOfPlayerSettlements.label>
+  <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Though it is possible to have more colonies, this will probably cause performance slowdowns and gameplay imbalances. We recommend that, at least at first, you play the game with a one colony maximum. -->
+  <MaxNumberOfPlayerSettlements.helpText>警告：RimWorld在設計上是用來在同時間遊玩單一座玩家基地，雖然同時建立多座據點是可能的，但這很可能會導致遊戲運行速度變慢而且破壞平衡性，我們建議，至少在剛接觸遊戲時只玩一座基地就好。</MaxNumberOfPlayerSettlements.helpText>
+  
+  <!-- EN: Flick designations only designate -->
   <SwitchFlickingDesignation.label>開關電源</SwitchFlickingDesignation.label>
+  <!-- EN: Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist (with the Flicker work type) comes and flicks the switch by hand. -->
   <SwitchFlickingDesignation.helpText>提示：切換開關必須由居民執行。\n\n在擁有「控制」技能的居民前來切換開關前，裝置將保持原來的狀態。</SwitchFlickingDesignation.helpText>
   
-  <MaxNumberOfPlayerHomes.label>最大殖民地數量</MaxNumberOfPlayerHomes.label>
-  <MaxNumberOfPlayerHomes.helpText>警告：RimWorld在設計上是用來在同時間遊玩單一座玩家基地，雖然同時建立多座據點是可能的，但這很可能會導致遊戲運行速度變慢而且破壞平衡性，我們建議，至少在剛接觸遊戲時只玩一座基地就好。</MaxNumberOfPlayerHomes.helpText>
-
+  <!-- EN: Trade goods and trade beacons -->
+  <TradeGoodsMustBeNearBeacon.label>商品及信標</TradeGoodsMustBeNearBeacon.label>
+  <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
+  <TradeGoodsMustBeNearBeacon.helpText>欲送出商品或白銀至宇宙商船處，你必須建立一座軌道交易信標，並於其周圍設置一片可接受商品的儲存區。</TradeGoodsMustBeNearBeacon.helpText>
+  
 </LanguageData>

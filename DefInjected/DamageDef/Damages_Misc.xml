@@ -1,22 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: bomb -->
+  <Bomb.label>炸傷</Bomb.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <Bomb.deathMessage>{0}在一場爆炸中喪命了。</Bomb.deathMessage>
+  
+  <!-- EN: bomb -->
+  <BombSuper.label>炸傷</BombSuper.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <BombSuper.deathMessage>{0}在一場爆炸中喪命了。</BombSuper.deathMessage>
+  
+  <!-- EN: deterioration -->
   <Deterioration.label>衰敗</Deterioration.label>
+  <!-- EN: {0} has been killed. -->
   <Deterioration.deathMessage>{0}被殺死了。</Deterioration.deathMessage>
   
-  <Mining.label>採掘</Mining.label>
-  <Mining.deathMessage>{0}被殺死了。</Mining.deathMessage>
-  
-  <Rotting.label>腐敗</Rotting.label>
-  <Rotting.deathMessage>{0}被殺死了。</Rotting.deathMessage>
-  
+  <!-- EN: extinguish -->
   <Extinguish.label>著火</Extinguish.label>
+  <!-- EN: {0} has been killed. -->
   <Extinguish.deathMessage>{0}被殺死了。</Extinguish.deathMessage>
   
-  <Bomb.label>炸傷</Bomb.label>
-  <Bomb.deathMessage>{0}被炸死了。</Bomb.deathMessage>
+  <!-- EN: mining -->
+  <Mining.label>採掘</Mining.label>
+  <!-- EN: {0} has been killed. -->
+  <Mining.deathMessage>{0}被殺死了。</Mining.deathMessage>
   
+  <!-- EN: rotting -->
+  <Rotting.label>腐敗</Rotting.label>
+  <!-- EN: {0} has been killed. -->
+  <Rotting.deathMessage>{0}被殺死了。</Rotting.deathMessage>
+  
+  <!-- EN: smoke -->
   <Smoke.label>煙霧</Smoke.label>
+  <!-- EN: {0} has been killed. -->
   <Smoke.deathMessage>{0}被殺死了。</Smoke.deathMessage>
   
 </LanguageData>
