@@ -1,72 +1,98 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Pure stuffs: Basics -->
-
-  <Silver.label>白銀</Silver.label>
-  <Silver.description>這種金屬主要被作為貨幣使用，同時也能夠用來製作一些奢華的物品。</Silver.description>
-  <Silver.stuffProps.stuffAdjective>銀製</Silver.stuffProps.stuffAdjective>
   
-  <Gold.label>黃金</Gold.label>
-  <Gold.description>最吸引人的一種金屬。這種柔軟的金屬本身實用性不大，但非常漂亮而且永不褪色。數不清的人們為了追求對這閃亮的金屬的欲望而丟掉小命。</Gold.description>
-  <Gold.stuffProps.stuffAdjective>黃金</Gold.stuffProps.stuffAdjective>
-  
-  <Steel.label>鋼鐵</Steel.label>
-  <Steel.description>加入碳元素提高堅硬度的鋼鐵合金，可用來打造各種建築、武器和機器。</Steel.description>
-  <Steel.stuffProps.stuffAdjective>鋼鐵</Steel.stuffProps.stuffAdjective>
-  
-  <Plasteel.label>塑鋼</Plasteel.label>
-  <Plasteel.description>高科技的航太材料，由於其獨特的分子結構，塑鋼擁有極輕的重量與極高的堅韌度。</Plasteel.description>
-  <Plasteel.stuffProps.stuffAdjective>塑鋼</Plasteel.stuffProps.stuffAdjective>
-  
-  <WoodLog.label>木頭</WoodLog.label>
-  <WoodLog.description>從樹木或是其他木本植物採伐得來。用於建築和武器，也當作篝火和發電機的燃料，還可以精鍊成化合燃料。在緊要關頭，一根木棒還能充當近戰武器或充數的義肢。</WoodLog.description>
-  <WoodLog.stuffProps.stuffAdjective>木製</WoodLog.stuffProps.stuffAdjective>
-  
-  <Uranium.label>鈾</Uranium.label>
-  <Uranium.description>一種極度堅硬、密度極高的金屬。雖然最為人知的特性是作為一種核燃料，但其高硬度、高密度也適合用來製作某些原始武器或裝甲。</Uranium.description>
-  <Uranium.stuffProps.stuffAdjective>鈾製</Uranium.stuffProps.stuffAdjective>
-
-  <Jade.label>翡翠</Jade.label>
-  <Jade.description>一種堅硬的綠色礦石，因為它的美觀和高價值，經常被用於飾品和裝飾品。也因為它的硬度和密度，使它成為鈍兵器的好材料。</Jade.description>
-  <Jade.stuffProps.stuffAdjective>翡翠</Jade.stuffProps.stuffAdjective>
-
-
-  <!-- Pure stuffs: Fabric, leather, etc -->
-  
+  <!-- EN: cloth -->
   <Cloth.label>棉布</Cloth.label>
+  <!-- EN: Cloth woven from organic fibers. -->
   <Cloth.description>以有機纖維編織而成的布料。</Cloth.description>
   <Cloth.stuffProps.stuffAdjective>棉布</Cloth.stuffProps.stuffAdjective>
   
-  <Synthread.label>合成纖維</Synthread.label>
-  <Synthread.description>以太空科技合成纖維材料製成的衣物，輕盈、柔軟、耐用，而且絕緣良好。</Synthread.description>
-  <Synthread.stuffProps.stuffAdjective>合成纖維</Synthread.stuffProps.stuffAdjective>
-  
+  <!-- EN: devilstrand -->
   <DevilstrandCloth.label>魔鬼布料</DevilstrandCloth.label>
+  <!-- EN: Fabric spun from microfibers extracted from devilstrand mushrooms. It is very tough, good at insulating, and protects exceptionally well against flame. -->
   <DevilstrandCloth.description>提取自魔鬼菇的布料，它強韌、絕緣性佳，可以很好的從火焰中保護穿著者。</DevilstrandCloth.description>
   <DevilstrandCloth.stuffProps.stuffAdjective>魔鬼布料</DevilstrandCloth.stuffProps.stuffAdjective>
   
+  <!-- EN: gold -->
+  <Gold.label>黃金</Gold.label>
+  <!-- EN: The most seductive metal of them all. While it is too soft to be of much practical use, it is strikingly beautiful and never tarnishes. Millions have died in attempting to feed the endless human thirst for gold. -->
+  <Gold.description>最吸引人的一種金屬。這種柔軟的金屬本身實用性不大，但非常漂亮而且永不褪色。數不清的人們為了追求對這閃亮的金屬的欲望而丟掉小命。</Gold.description>
+  <!-- EN: golden -->
+  <Gold.stuffProps.stuffAdjective>黃金</Gold.stuffProps.stuffAdjective>
+  
+  <!-- EN: hyperweave -->
   <Hyperweave.label>超級布料</Hyperweave.label>
+  <!-- EN: Nano-fibers woven into sheets molecule-by-molecule using specialized production mechanites. While it flexes freely most of the time, it stiffens to absorb blows as they land, and is incredibly difficult to break. The secrets of its production are known only to the most advanced glitterworld cultures. -->
   <Hyperweave.description>將奈米纖維以分子等級編織成片狀。重量稍沉但非常強韌，生產秘方只有先進的閃耀世界才知道。</Hyperweave.description>
   <Hyperweave.stuffProps.stuffAdjective>超級布料</Hyperweave.stuffProps.stuffAdjective>
-
-
-  <!-- Wool -->
-
-  <WoolMegasloth.label>巨型樹懶毛</WoolMegasloth.label>
-  <WoolMegasloth.description>外表看似簡陋，但十分堅固耐用，而且保暖性能絕佳。</WoolMegasloth.description>
-  <WoolMegasloth.stuffProps.stuffAdjective>巨型樹懶毛</WoolMegasloth.stuffProps.stuffAdjective>
   
-  <WoolMuffalo.label>毛牛毛</WoolMuffalo.label>
-  <WoolMuffalo.description>柔軟、輕盈、絕緣性佳，能夠在極端寒冷中保持身體的溫暖。</WoolMuffalo.description>
-  <WoolMuffalo.stuffProps.stuffAdjective>毛牛毛</WoolMuffalo.stuffProps.stuffAdjective>
+  <!-- EN: jade -->
+  <Jade.label>翡翠</Jade.label>
+  <!-- EN: A hard, green stone. Because of its beauty and rarity, jade is often used for ornaments and decorations. Its hardness and density also makes it a good material for blunt weapons. -->
+  <Jade.description>一種堅硬的綠色礦石，因為它的美觀和高價值，經常被用於飾品和裝飾品。也因為它的硬度和密度，使它成為鈍兵器的好材料。</Jade.description>
+  <Jade.stuffProps.stuffAdjective>翡翠</Jade.stuffProps.stuffAdjective>
   
+  <!-- EN: plasteel -->
+  <Plasteel.label>塑鋼</Plasteel.label>
+  <!-- EN: Advanced spacer tech structural material. Plasteel is extremely strong due to its unique molecular structure. -->
+  <Plasteel.description>高科技的航太材料，由於其獨特的分子結構，塑鋼擁有極輕的重量與極高的堅韌度。</Plasteel.description>
+  <Plasteel.stuffProps.stuffAdjective>塑鋼</Plasteel.stuffProps.stuffAdjective>
+  
+  <!-- EN: silver -->
+  <Silver.label>白銀</Silver.label>
+  <!-- EN: This metal is mostly used as a commodity currency. It can also be used for making decorations. -->
+  <Silver.description>這種金屬主要被作為貨幣使用，同時也能夠用來製作一些奢華的物品。</Silver.description>
+  <Silver.stuffProps.stuffAdjective>銀製</Silver.stuffProps.stuffAdjective>
+  
+  <!-- EN: steel -->
+  <Steel.label>鋼鐵</Steel.label>
+  <!-- EN: An iron-carbon metal alloy used for building a huge variety of structures, weapons, and machines. -->
+  <Steel.description>加入碳元素提高堅硬度的鋼鐵合金，可用來打造各種建築、武器和機器。</Steel.description>
+  <Steel.stuffProps.stuffAdjective>鋼鐵</Steel.stuffProps.stuffAdjective>
+  
+  <!-- EN: synthread -->
+  <Synthread.label>合成纖維</Synthread.label>
+  <!-- EN: Spacer-tech synthetic fabric designed for making ordinary clothes. It is soft, light, strong, and insulates well. -->
+  <Synthread.description>以太空科技合成纖維材料製成的衣物，輕盈、柔軟、耐用，而且絕緣良好。</Synthread.description>
+  <Synthread.stuffProps.stuffAdjective>合成纖維</Synthread.stuffProps.stuffAdjective>
+  
+  <!-- EN: uranium -->
+  <Uranium.label>鈾</Uranium.label>
+  <!-- EN: An dark, heavy metal. While it is best known as a fuel for nuclear devices, its extreme density and hardness also make it good for making certain weapons, armor, and ammunition. -->
+  <Uranium.description>一種極度堅硬、密度極高的金屬。雖然最為人知的特性是作為一種核燃料，但其高硬度、高密度也適合用來製作某些原始武器或裝甲。</Uranium.description>
+  <Uranium.stuffProps.stuffAdjective>鈾製</Uranium.stuffProps.stuffAdjective>
+  
+  <!-- EN: wood -->
+  <WoodLog.label>木頭</WoodLog.label>
+  <!-- EN: Wood from trees or other fibrous plants. Useful for building structures and weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a piece of wood can be used as a weapon or a leg. -->
+  <WoodLog.description>從樹木或是其他木本植物採伐得來。用於建築和武器，也當作篝火和發電機的燃料，還可以精鍊成化合燃料。在緊要關頭，一根木棒還能充當近戰武器或充數的義肢。</WoodLog.description>
+  <!-- EN: wooden -->
+  <WoodLog.stuffProps.stuffAdjective>木製</WoodLog.stuffProps.stuffAdjective>
+  <!-- EN: log -->
+  <WoodLog.tools.log.label>木棒</WoodLog.tools.log.label>
+  
+  <!-- EN: alpaca wool -->
+  <WoolAlpaca.label>羊駝毛</WoolAlpaca.label>
+  <!-- EN: The remarkably soft wool of an alpaca. It is very warm. -->
+  <WoolAlpaca.description>產自羊駝，又鬆又軟的毛料。</WoolAlpaca.description>
+  <WoolAlpaca.stuffProps.stuffAdjective>羊駝毛</WoolAlpaca.stuffProps.stuffAdjective>
+  
+  <!-- EN: camelhair -->
   <WoolCamel.label>駱駝毛</WoolCamel.label>
+  <!-- EN: Camelhair clothing is usually worn by desert travelers to protect them from the heat. It provides excellent heat insulation due to its thermostatic properties. -->
   <WoolCamel.description>常見於沙漠旅人的裝束，用以抵擋炎熱，具有良好的絕緣性。</WoolCamel.description>
   <WoolCamel.stuffProps.stuffAdjective>駱駝毛</WoolCamel.stuffProps.stuffAdjective>
   
-  <WoolAlpaca.label>羊駝毛</WoolAlpaca.label>
-  <WoolAlpaca.description>產自羊駝，又鬆又軟的毛料。</WoolAlpaca.description>
-  <WoolAlpaca.stuffProps.stuffAdjective>羊駝毛</WoolAlpaca.stuffProps.stuffAdjective>
+  <!-- EN: megasloth wool -->
+  <WoolMegasloth.label>巨型地懶毛</WoolMegasloth.label>
+  <!-- EN: While somewhat coarse, megasloth wool's long fibers make it very strong. It is exceptionally warm. -->
+  <WoolMegasloth.description>外表看似簡陋，但十分堅固耐用，而且保暖性能絕佳。</WoolMegasloth.description>
+  <WoolMegasloth.stuffProps.stuffAdjective>巨型地懶毛</WoolMegasloth.stuffProps.stuffAdjective>
+  
+  <!-- EN: muffalo wool -->
+  <WoolMuffalo.label>毛牛毛</WoolMuffalo.label>
+  <!-- EN: Soft, light and provides very good insulation. Muffalo wool clothes can keep the body warm even in very cold conditions. -->
+  <WoolMuffalo.description>柔軟、輕盈、絕緣性佳，能夠在極端寒冷中保持身體的溫暖。</WoolMuffalo.description>
+  <WoolMuffalo.stuffProps.stuffAdjective>毛牛毛</WoolMuffalo.stuffProps.stuffAdjective>
   
 </LanguageData>

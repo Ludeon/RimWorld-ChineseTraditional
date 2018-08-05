@@ -1,36 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- Medicine -->
+  <!-- EN: chemfuel -->
+  <Chemfuel.label>化合燃料</Chemfuel.label>
+  <!-- EN: A volatile liquid chemical. Used to fuel engines and rockets, or to transmute into propellant for projectiles, or as an incendiary weapon. -->
+  <Chemfuel.description>揮發性的液體化學合成燃料，用於驅動引擎和火箭，或是轉換成彈藥的推動力來源，還能當作燃燒武器使用。</Chemfuel.description>
   
-  <MedicineHerbal.label>草藥</MedicineHerbal.label>
-  <MedicineHerbal.description>成分提取自藥草製成的藥品，效果遜於工業製藥，但聊勝於無。</MedicineHerbal.description>
-  
-  <MedicineIndustrial.label>醫療包</MedicineIndustrial.label>
-  <MedicineIndustrial.description>一套工業時代的醫療設備。包含了基本藥物，縫合和骨骼固定工具，診斷設備以及各種紗布和醫療藥液。</MedicineIndustrial.description>
-  
-  <MedicineUltratech.label>高科技藥品</MedicineUltratech.label>
-  <MedicineUltratech.description>一套先進的超高科技醫療用品，可能是在遙遠的閃耀世界製造的。包含先進的多型態藥物，奈米診療輔助設備，迷你成像儀和各種多用途工具。</MedicineUltratech.description>
-  
-
-  <!-- ComponentIndustrial -->
-
+  <!-- EN: component -->
   <ComponentIndustrial.label>電子零件</ComponentIndustrial.label>
+  <!-- EN: Miscellaneous gears, capacitors, circuit boards, tubes, wheels, sensors, wires, chips, processors, and other electronic and industrial parts. Necessary for assembling complex machines or electronics. -->
   <ComponentIndustrial.description>各種齒輪、電容器、電路板、管子、輪子、傳感器、導線、芯片、處理器以及其他電子和工業零件。用於組裝複雜的機器或電子產品。</ComponentIndustrial.description>
   
+  <!-- EN: advanced component -->
   <ComponentSpacer.label>高階電子零件</ComponentSpacer.label>
+  <!-- EN: Advanced computing and energy-directing machinery, miniaturized and hardened for the most demanding applications. -->
   <ComponentSpacer.description>先進的處理器和能量傳導機械，為了在最嚴苛的環境下運作而進行了微型化與強化處理。</ComponentSpacer.description>
   
+  <!-- EN: herbal medicine -->
+  <MedicineHerbal.label>草藥</MedicineHerbal.label>
+  <!-- EN: A pack of herbal concoctions extracted from the healroot plant. It is less potent than industrial pharmaceuticals, but much better than nothing. -->
+  <MedicineHerbal.description>成分提取自藥草製成的藥品，效果遜於工業製藥，但聊勝於無。</MedicineHerbal.description>
   
-  <!-- Neutroamine -->
+  <!-- EN: medicine -->
+  <MedicineIndustrial.label>醫療包</MedicineIndustrial.label>
+  <!-- EN: A kit of industrial-era medical equipment. It contains basic drugs, tools for suturing and bone setting, diagnostic devices, and various pads and fluids. -->
+  <MedicineIndustrial.description>一套工業時代的醫療設備。包含了基本藥物，縫合和骨骼固定工具，診斷設備以及各種紗布和醫療藥液。</MedicineIndustrial.description>
   
+  <!-- EN: glitterworld medicine -->
+  <MedicineUltratech.label>高科技藥品</MedicineUltratech.label>
+  <!-- EN: A kit of advanced ultra-tech medical supplies, probably manufactured on a distant glitterworld. It contains advanced polymorphic drugs, nanite diagnostic and healing assisters, a mini-imager, and various multi-use tools. -->
+  <MedicineUltratech.description>一套先進的超高科技醫療用品，可能是在遙遠的閃耀世界製造的。包含先進的多型態藥物，奈米診療輔助設備，迷你成像儀和各種多用途工具。</MedicineUltratech.description>
+  
+  <!-- EN: neutroamine -->
   <Neutroamine.label>中性胺</Neutroamine.label>
+  <!-- EN: A synthetic precursor chemical. While it is useless on its own, many drugs require neutroamine as an ingredient. -->
   <Neutroamine.description>一種化學原料，雖然本身不具實用性，但是許多藥物的合成原料。</Neutroamine.description>
-  
-  
-  <!-- Chemfuel -->
-  
-  <Chemfuel.label>化合燃料</Chemfuel.label>
-  <Chemfuel.description>揮發性的液體化學合成燃料，用於驅動引擎和火箭，或是轉換成彈藥的推動力來源，還能當作燃燒武器使用。</Chemfuel.description>
   
 </LanguageData>
