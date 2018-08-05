@@ -1,32 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Caravan.label>旅隊</Caravan.label>
-  <Caravan.description>一群旅行中的人。</Caravan.description>
   
-  <FactionBase.label>據點</FactionBase.label>
-  <FactionBase.description>一座屬於某個勢力的據點。</FactionBase.description>
+  <!-- EN: abandoned settlement -->
+  <AbandonedSettlement.label>廢棄據點</AbandonedSettlement.label>
+  <!-- EN: An abandoned settlement. -->
+  <AbandonedSettlement.description>被某個勢力遺棄的據點。</AbandonedSettlement.description>
   
-  <AbandonedBase.label>廢棄據點</AbandonedBase.label>
-  <AbandonedBase.description>被某個勢力遺棄的據點。</AbandonedBase.description>
-  
-  <DestroyedFactionBase.label>據點廢墟</DestroyedFactionBase.label>
-  <DestroyedFactionBase.description>被攻陷摧毀的據點廢墟。</DestroyedFactionBase.description>
-
-  <EscapeShip.label>逃生星艦</EscapeShip.label>
-  <EscapeShip.description>一艘能夠帶你逃離這座星球的星艦藏匿地點。</EscapeShip.description>
-  
+  <!-- EN: attacked caravan -->
   <AttackedNonPlayerCaravan.label>戰鬥中旅隊</AttackedNonPlayerCaravan.label>
+  <!-- EN: A caravan under attack. -->
   <AttackedNonPlayerCaravan.description>正受到攻擊的旅隊。</AttackedNonPlayerCaravan.description>
   
-  <TravelingTransportPods.label>運輸艙</TravelingTransportPods.label>
-  <TravelingTransportPods.description>飛行中的運輸艙。</TravelingTransportPods.description>
-
-  <RoutePlannerWaypoint.label>中途點</RoutePlannerWaypoint.label>
-  <RoutePlannerWaypoint.description>前往最終目的地前的中途點。</RoutePlannerWaypoint.description>
-
+  <!-- EN: caravan -->
+  <Caravan.label>旅隊</Caravan.label>
+  <!-- EN: A group of traveling people. -->
+  <Caravan.description>一群旅行中的人。</Caravan.description>
+  
+  <!-- EN: destroyed settlement -->
+  <DestroyedSettlement.label>據點廢墟</DestroyedSettlement.label>
+  <!-- EN: A destroyed settlement. -->
+  <DestroyedSettlement.description>被攻陷摧毀的據點廢墟。</DestroyedSettlement.description>
+  
+  <!-- EN: landed ship -->
+  <EscapeShip.label>逃生星艦</EscapeShip.label>
+  <!-- EN: The location of a hidden ship which can help you escape the planet. -->
+  <EscapeShip.description>一艘能夠帶你逃離這座星球的星艦藏匿地點。</EscapeShip.description>
+  
+  <!-- EN: peace talks -->
   <PeaceTalks.label>和平會談</PeaceTalks.label>
+  <!-- EN: A site designated for peace talks. -->
   <PeaceTalks.description>和平會談的舉行地點。</PeaceTalks.description>
   
+  <!-- EN: waypoint -->
+  <RoutePlannerWaypoint.label>中途點</RoutePlannerWaypoint.label>
+  <!-- EN: A temporary waypoint. -->
+  <RoutePlannerWaypoint.description>前往最終目的地前的中途點。</RoutePlannerWaypoint.description>
+  
+  <!-- EN: settlement -->
+  <Settlement.label>據點</Settlement.label>
+  <!-- EN: A base of one of the factions. -->
+  <Settlement.description>一座屬於某個勢力的據點。</Settlement.description>
+  
+  <!-- EN: transport pods -->
+  <TravelingTransportPods.label>運輸艙</TravelingTransportPods.label>
+  <!-- EN: Transport pods in flight. -->
+  <TravelingTransportPods.description>飛行中的運輸艙。</TravelingTransportPods.description>
   
 </LanguageData>

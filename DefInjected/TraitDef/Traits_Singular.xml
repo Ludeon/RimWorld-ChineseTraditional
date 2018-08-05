@@ -1,95 +1,149 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Nudist.degreeDatas.0.label>裸體主義者</Nudist.degreeDatas.0.label>
-  <Nudist.degreeDatas.0.description>[PAWN_nameDef]領悟了天體奔放的自由，[PAWN_pronoun]能接受穿上衣服，但若沒有衣服，[PAWN_pronoun]會感到更快樂。</Nudist.degreeDatas.0.description>
   
-  <Bloodlust.degreeDatas.0.label>嗜血</Bloodlust.degreeDatas.0.label>
-  <Bloodlust.degreeDatas.0.description>[PAWN_nameDef]透過獵殺人們得到快感，即使血流成河也毫不在意。</Bloodlust.degreeDatas.0.description>
+  <!-- EN: abrasive -->
+  <Abrasive.degreeDatas.abrasive.label>心直口快</Abrasive.degreeDatas.abrasive.label>
+  <!-- EN: [PAWN_nameDef] always says exactly what's on [PAWN_possessive] mind, especially if it's bugging [PAWN_objective]. That tends to rub people the wrong way. -->
+  <Abrasive.degreeDatas.abrasive.description>[PAWN_nameDef]總是有話直說，特別是與[PAWN_pronoun]有關的時候。這往往與其他人造成摩擦。</Abrasive.degreeDatas.abrasive.description>
   
-  <Kind.degreeDatas.0.label>善良</Kind.degreeDatas.0.label>
-  <Kind.degreeDatas.0.description>[PAWN_nameDef]是個善良的人，[PAWN_possessive]開朗總是像太陽一樣照耀著所有人，從不說傷人的話。</Kind.degreeDatas.0.description>
+  <!-- EN: annoying voice -->
+  <AnnoyingVoice.degreeDatas.annoying_voice.label>煩人的聲音</AnnoyingVoice.degreeDatas.annoying_voice.label>
+  <!-- EN: [PAWN_nameDef]'s voice has a particularly grating, nasal quality to it, and [PAWN_pronoun] tends to talk in barked, garbled phrases. This predisposes others to dislike [PAWN_objective]. -->
+  <AnnoyingVoice.degreeDatas.annoying_voice.description>[PAWN_nameDef]說話的語調怪裡怪氣，有很重的鼻音，說話大聲又語意不清。這導致沒有人喜歡與HIM相處。</AnnoyingVoice.degreeDatas.annoying_voice.description>
   
-  <Psychopath.degreeDatas.0.label>精神變態</Psychopath.degreeDatas.0.label>
-  <Psychopath.degreeDatas.0.description>[PAWN_nameDef]從不同情任何人，别人的痛苦和[PAWN_pronoun]沒有任何關係。[PAWN_pronoun]不在意别人被屠宰了、被賣给奴隸商人了或是慘遭屠殺了。除非受牽連的人是HIM。[PAWN_pronoun]也不會從聊天獲得任何心情加成。</Psychopath.degreeDatas.0.description>
+  <!-- EN: ascetic -->
+  <Ascetic.degreeDatas.ascetic.label>禁慾主義者</Ascetic.degreeDatas.ascetic.label>
+  <!-- EN: [PAWN_nameDef] prefers to live in asceticism. [PAWN_pronoun] will be put in a poor mood if [PAWN_pronoun] has a bedroom that's too impressive. [PAWN_pronoun] also dislikes fancy food and prefers to eat raw - and raw food won't bother [PAWN_objective] a bit. -->
+  <Ascetic.degreeDatas.ascetic.description>[PAWN_nameDef]寧願住得簡單點。房間太過高檔會讓[PAWN_pronoun]感到不高興。</Ascetic.degreeDatas.ascetic.description>
   
-  <Cannibal.degreeDatas.0.label>食人者</Cannibal.degreeDatas.0.label>
-  <Cannibal.degreeDatas.0.description>小時候[PAWN_nameDef]學到了吃人是很糟糕很不對的事情。但是很久以前，[PAWN_pronoun]試了一次……而且[PAWN_pronoun]覺得很不錯。</Cannibal.degreeDatas.0.description>
+  <!-- EN: bloodlust -->
+  <Bloodlust.degreeDatas.bloodlust.label>嗜血</Bloodlust.degreeDatas.bloodlust.label>
+  <!-- EN: [PAWN_nameDef] gets a rush from hurting people, and never minds the sight of blood or death. [PAWN_pronoun] is four times as likely to start a social fight as others. -->
+  <Bloodlust.degreeDatas.bloodlust.description>[PAWN_nameDef]透過獵殺人們得到快感，即使血流成河也毫不在意。</Bloodlust.degreeDatas.bloodlust.description>
   
-  <Abrasive.degreeDatas.0.label>心直口快</Abrasive.degreeDatas.0.label>
-  <Abrasive.degreeDatas.0.description>[PAWN_nameDef]總是有話直說，特別是與[PAWN_pronoun]有關的時候。這往往與其他人造成摩擦。</Abrasive.degreeDatas.0.description>
+  <!-- EN: body purist -->
+  <BodyPurist.degreeDatas.body_purist.label>天生主義者</BodyPurist.degreeDatas.body_purist.label>
+  <!-- EN: [PAWN_nameDef] believes the human body is limited for a reason. To [PAWN_objective], artificial body parts are unethical and disgusting. -->
+  <BodyPurist.degreeDatas.body_purist.description>[PAWN_nameDef]相信，因為某種因素，人類身體存在某種極限。對[PAWN_objective]來說，仿生科技是不道德而且噁心的。</BodyPurist.degreeDatas.body_purist.description>
   
-  <TooSmart.degreeDatas.0.label>書呆子</TooSmart.degreeDatas.0.label>
-  <TooSmart.degreeDatas.0.description>[PAWN_nameDef]非常的聰明。[PAWN_pronoun]學習事物的速度總是比他人快上許多，但個性也古怪許多。</TooSmart.degreeDatas.0.description>天資聰穎
+  <!-- EN: brawler -->
+  <Brawler.degreeDatas.brawler.label>格鬥愛好者</Brawler.degreeDatas.brawler.label>
+  <!-- EN: [PAWN_nameDef] likes to fight up close and personal. [PAWN_possessive] accuracy is greatly increased in melee combat, but [PAWN_pronoun]'ll be very unhappy if asked to carry a ranged weapon. -->
+  <Brawler.degreeDatas.brawler.description>[PAWN_nameDef]喜愛近身搏鬥，[PAWN_pronoun]近身攻擊命中率大大的增加，但當你想讓牠帶上遠距離的武器，[PAWN_pronoun]可是會非常不悅。</Brawler.degreeDatas.brawler.description>
   
-  <Brawler.degreeDatas.0.label>格鬥愛好者</Brawler.degreeDatas.0.label>
-  <Brawler.degreeDatas.0.description>[PAWN_nameDef]喜愛近身搏鬥，[PAWN_pronoun]近身攻擊命中率大大的增加，但當你想讓牠帶上遠距離的武器，[PAWN_pronoun]可是會非常不悅。</Brawler.degreeDatas.0.description>
+  <!-- EN: cannibal -->
+  <Cannibal.degreeDatas.cannibal.label>食人者</Cannibal.degreeDatas.cannibal.label>
+  <!-- EN: [PAWN_nameDef] was taught that eating human meat is wrong and horrible. But one time, long ago, [PAWN_pronoun] tried it... and [PAWN_pronoun] liked it. -->
+  <Cannibal.degreeDatas.cannibal.description>小時候[PAWN_nameDef]學到了吃人是很糟糕很不對的事情。但是很久以前，[PAWN_pronoun]試了一次……而且[PAWN_pronoun]覺得很不錯。</Cannibal.degreeDatas.cannibal.description>
   
-  <Masochist.degreeDatas.0.label>被虐狂</Masochist.degreeDatas.0.label>
-  <Masochist.degreeDatas.0.description>對於[PAWN_nameDef]來說，受傷是一件令人興奮的事。也不知道為什麼，[PAWN_pronoun]就是與眾不同。</Masochist.degreeDatas.0.description>
+  <!-- EN: creepy breathing -->
+  <CreepyBreathing.degreeDatas.creepy_breathing.label>噁心的呼吸聲</CreepyBreathing.degreeDatas.creepy_breathing.label>
+  <!-- EN: [PAWN_nameDef] breathes heavily all the time, and sweats constantly. People find it creepy. -->
+  <CreepyBreathing.degreeDatas.creepy_breathing.description>[PAWN_nameDef]的呼吸聲十分沉重，不斷發出像是擤鼻涕的聲音，真是噁心。</CreepyBreathing.degreeDatas.creepy_breathing.description>
   
-  <NightOwl.degreeDatas.0.label>夜貓子</NightOwl.degreeDatas.0.label>
-  <NightOwl.degreeDatas.0.description>[PAWN_nameDef]喜歡在夜間活動。[PAWN_pronoun]在夜間會得到心情加成，反之在白天會感到不悅。</NightOwl.degreeDatas.0.description>
-
-  <Greedy.degreeDatas.0.label>貪心</Greedy.degreeDatas.0.label>
-  <Greedy.degreeDatas.0.description>[PAWN_nameDef]必須擁有一間高檔的房間。如果得不到[PAWN_pronoun]想要的會讓[PAWN_pronoun]感到不悅。</Greedy.degreeDatas.0.description>
+  <!-- EN: misandrist -->
+  <DislikesMen.degreeDatas.misandrist.label>厭男主義者</DislikesMen.degreeDatas.misandrist.label>
+  <!-- EN: [PAWN_nameDef] really dislikes and distrusts men. -->
+  <DislikesMen.degreeDatas.misandrist.description>[PAWN_nameDef]真心討厭而且不信任男性。</DislikesMen.degreeDatas.misandrist.description>
   
-  <Jealous.degreeDatas.0.label>嫉妒</Jealous.degreeDatas.0.label>
-  <Jealous.degreeDatas.0.description>對[PAWN_nameDef]來說，住得比別人差是對[PAWN_pronoun]的侮辱。如果有任何居民擁有比[PAWN_pronoun]更好的房間都會讓[PAWN_pronoun]感到不悅。</Jealous.degreeDatas.0.description>
-
-  <Ascetic.degreeDatas.0.label>禁慾主義者</Ascetic.degreeDatas.0.label>
-  <Ascetic.degreeDatas.0.description>[PAWN_nameDef]寧願住得簡單點。房間太過高檔會讓[PAWN_pronoun]感到不高興。</Ascetic.degreeDatas.0.description>
+  <!-- EN: misogynist -->
+  <DislikesWomen.degreeDatas.misogynist.label>厭女主義者</DislikesWomen.degreeDatas.misogynist.label>
+  <!-- EN: [PAWN_nameDef] really dislikes and distrusts women. -->
+  <DislikesWomen.degreeDatas.misogynist.description>[PAWN_nameDef]真心討厭而且不信任女性。</DislikesWomen.degreeDatas.misogynist.description>
   
-  <Gay.degreeDatas.0.label>同性戀者</Gay.degreeDatas.0.label>
-  <Gay.degreeDatas.0.description>[PAWN_nameDef]在愛情方面受到同性別者的吸引。</Gay.degreeDatas.0.description>
-
-  <AnnoyingVoice.degreeDatas.0.label>煩人的聲音</AnnoyingVoice.degreeDatas.0.label>
-  <AnnoyingVoice.degreeDatas.0.description>[PAWN_nameDef]說話的語調怪裡怪氣，有很重的鼻音，說話大聲又語意不清。這導致沒有人喜歡與HIM相處。</AnnoyingVoice.degreeDatas.0.description>
-
-  <CreepyBreathing.degreeDatas.0.label>噁心的呼吸聲</CreepyBreathing.degreeDatas.0.label>
-  <CreepyBreathing.degreeDatas.0.description>[PAWN_nameDef]的呼吸聲十分沉重，不斷發出像是擤鼻涕的聲音，真是噁心。</CreepyBreathing.degreeDatas.0.description>
-
-  <Pyromaniac.degreeDatas.0.label>縱火狂</Pyromaniac.degreeDatas.0.label>
-  <Pyromaniac.degreeDatas.0.description>[PAWN_nameDef]喜愛火焰，[PAWN_pronoun]偶爾以縱火為樂，而且從沒有滅火的打算。</Pyromaniac.degreeDatas.0.description>
-
-  <Wimp.degreeDatas.0.label>懦弱</Wimp.degreeDatas.0.label>
-  <Wimp.degreeDatas.0.description>[PAWN_nameDef]脆弱又懦弱，一點小痛都能讓他昏過去。</Wimp.degreeDatas.0.description>
-
-  <Nimble.degreeDatas.0.label>敏捷</Nimble.degreeDatas.0.label>
-  <Nimble.degreeDatas.0.description>[PAWN_nameDef]有著易於常人的體能天賦。[PAWN_pronoun]看起來就像靠著超自然的力量加持悠遊於危險之中。</Nimble.degreeDatas.0.description>
-
-  <FastLearner.degreeDatas.0.label>天資聰穎</FastLearner.degreeDatas.0.label>
-  <FastLearner.degreeDatas.0.description>[PAWN_nameDef]對於學習很有一套，學習事物的速度遠高於其他人。</FastLearner.degreeDatas.0.description>
-
-  <Tunneler.degreeDatas.0.label>穴居者</Tunneler.degreeDatas.0.label>
-  <Tunneler.degreeDatas.0.description>[PAWN_nameDef]沒有對空間的需求。[PAWN_pronoun]就算永遠待在室內也不會感到不適。</Tunneler.degreeDatas.0.description>
-
-
-  <!-- The below really probably should've been spectrum traits -->
-
-  <Transhumanist.degreeDatas.0.label>超人類主義者</Transhumanist.degreeDatas.0.label>
-  <Transhumanist.degreeDatas.0.description>[PAWN_nameDef]覺得被困在[PAWN_possessive]這具脆弱的肉體內。[PAWN_pronoun]經常夢想藉由義體得到進化。</Transhumanist.degreeDatas.0.description>
-
-  <BodyPurist.degreeDatas.0.label>天生主義者</BodyPurist.degreeDatas.0.label>
-  <BodyPurist.degreeDatas.0.description>[PAWN_nameDef]相信，因為某種因素，人類身體存在某種極限。對[PAWN_objective]來說，仿生科技是不道德而且噁心的。</BodyPurist.degreeDatas.0.description>
-
-  <DislikesMen.degreeDatas.0.label>厭男主義者</DislikesMen.degreeDatas.0.label>
-  <DislikesMen.degreeDatas.0.description>[PAWN_nameDef]真心討厭而且不信任男性。</DislikesMen.degreeDatas.0.description>
-
-  <DislikesWomen.degreeDatas.0.label>厭女主義者</DislikesWomen.degreeDatas.0.label>
-  <DislikesWomen.degreeDatas.0.description>[PAWN_nameDef]真心討厭而且不信任女性。</DislikesWomen.degreeDatas.0.description>
-
-  <GreatMemory.degreeDatas.0.label>過目不忘</GreatMemory.degreeDatas.0.label>
-  <GreatMemory.degreeDatas.0.description>[PAWN_nameDef]擁有超群的記憶性，對任何細節過目不忘。[PAWN_pronoun]的技能忘卻速率是常人的一半。</GreatMemory.degreeDatas.0.description>
-
-  <Tough.degreeDatas.0.label>耐打</Tough.degreeDatas.0.label>
-  <Tough.degreeDatas.0.description>[PAWN_nameDef]有厚實的皮膚、強健的肌腱和堅固的骨頭。[PAWN_pronoun]在相同的狀況下會受到的傷害比常人更輕微。[PAWN_pronoun]非常難被殺死。</Tough.degreeDatas.0.description>
-
-  <Gourmand.degreeDatas.0.label>貪食</Gourmand.degreeDatas.0.label>
-  <Gourmand.degreeDatas.0.description>[PAWN_nameDef]的人生以食物為中心運轉。[PAWN_pronoun]比常人更容易餓，而且如果[PAWN_pronoun]心情不好，[PAWN_pronoun]會經常用吃來滿足自己。</Gourmand.degreeDatas.0.description>
-
-  <QuickSleeper.degreeDatas.0.label>高效睡眠</QuickSleeper.degreeDatas.0.label>
-  <QuickSleeper.degreeDatas.0.description>[PAWN_nameDef]平均所需的睡眠時間少於常人。不論[PAWN_pronoun]睡在床上或地板上，[PAWN_pronoun]通常只要花一般的三分之二的時間就能休息充足。</QuickSleeper.degreeDatas.0.description>
-
+  <!-- EN: fast learner -->
+  <FastLearner.degreeDatas.fast_learner.label>天資聰穎</FastLearner.degreeDatas.fast_learner.label>
+  <!-- EN: [PAWN_nameDef] has a knack for learning. [PAWN_pronoun] picks things up much faster than others. -->
+  <FastLearner.degreeDatas.fast_learner.description>[PAWN_nameDef]對於學習很有一套，學習事物的速度遠高於其他人。</FastLearner.degreeDatas.fast_learner.description>
+  
+  <!-- EN: gay -->
+  <Gay.degreeDatas.gay.label>同性戀者</Gay.degreeDatas.gay.label>
+  <!-- EN: [PAWN_nameDef] is romantically attracted to people of [PAWN_possessive] own gender. -->
+  <Gay.degreeDatas.gay.description>[PAWN_nameDef]在愛情方面受到同性別者的吸引。</Gay.degreeDatas.gay.description>
+  
+  <!-- EN: gourmand -->
+  <Gourmand.degreeDatas.gourmand.label>貪食</Gourmand.degreeDatas.gourmand.label>
+  <!-- EN: [PAWN_nameDef]'s life revolves around food. [PAWN_pronoun] gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry. -->
+  <Gourmand.degreeDatas.gourmand.description>[PAWN_nameDef]的人生以食物為中心運轉。[PAWN_pronoun]比常人更容易餓，而且如果[PAWN_pronoun]心情不好，[PAWN_pronoun]會經常用吃來滿足自己。</Gourmand.degreeDatas.gourmand.description>
+  
+  <!-- EN: great memory -->
+  <GreatMemory.degreeDatas.great_memory.label>過目不忘</GreatMemory.degreeDatas.great_memory.label>
+  <!-- EN: [PAWN_nameDef] has a fantastic memory for detail. [PAWN_pronoun] will lose unused skills at half the rate of other people. -->
+  <GreatMemory.degreeDatas.great_memory.description>[PAWN_nameDef]擁有超群的記憶性，對任何細節過目不忘。[PAWN_pronoun]的技能忘卻速率是常人的一半。</GreatMemory.degreeDatas.great_memory.description>
+  
+  <!-- EN: greedy -->
+  <Greedy.degreeDatas.greedy.label>貪心</Greedy.degreeDatas.greedy.label>
+  <!-- EN: [PAWN_nameDef] needs a really impressive bedroom. [PAWN_pronoun] gets a mood loss if [PAWN_pronoun] doesn't get what [PAWN_pronoun] wants. -->
+  <Greedy.degreeDatas.greedy.description>[PAWN_nameDef]必須擁有一間高檔的房間。如果得不到[PAWN_pronoun]想要的會讓[PAWN_pronoun]感到不悅。</Greedy.degreeDatas.greedy.description>
+  
+  <!-- EN: jealous -->
+  <Jealous.degreeDatas.jealous.label>嫉妒</Jealous.degreeDatas.jealous.label>
+  <!-- EN: For [PAWN_nameDef], it's degrading to have a less impressive bedroom than someone else. [PAWN_pronoun] gets a mood loss if any colonist has a more impressive bedroom. -->
+  <Jealous.degreeDatas.jealous.description>對[PAWN_nameDef]來說，住得比別人差是對[PAWN_pronoun]的侮辱。如果有任何居民擁有比[PAWN_pronoun]更好的房間都會讓[PAWN_pronoun]感到不悅。</Jealous.degreeDatas.jealous.description>
+  
+  <!-- EN: kind -->
+  <Kind.degreeDatas.kind.label>善良</Kind.degreeDatas.kind.label>
+  <!-- EN: [PAWN_nameDef] is a nice person. [PAWN_pronoun] has a tendency to brighten everyone else's day and never insults others. -->
+  <Kind.degreeDatas.kind.description>[PAWN_nameDef]是個善良的人，[PAWN_possessive]開朗總是像太陽一樣照耀著所有人，從不說傷人的話。</Kind.degreeDatas.kind.description>
+  
+  <!-- EN: masochist -->
+  <Masochist.degreeDatas.masochist.label>被虐狂</Masochist.degreeDatas.masochist.label>
+  <!-- EN: For [PAWN_nameDef], there's something exciting about getting hurt. [PAWN_pronoun] doesn't know why, [PAWN_pronoun]'s just wired differently. -->
+  <Masochist.degreeDatas.masochist.description>對於[PAWN_nameDef]來說，受傷是一件令人興奮的事。也不知道為什麼，[PAWN_pronoun]就是與眾不同。</Masochist.degreeDatas.masochist.description>
+  
+  <!-- EN: night owl -->
+  <NightOwl.degreeDatas.night_owl.label>夜貓子</NightOwl.degreeDatas.night_owl.label>
+  <!-- EN: [PAWN_nameDef] likes to be up during the night, and sleep during the day.\n\n[PAWN_pronoun] gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\n[PAWN_pronoun] doesn't get a mood penalty for being in the dark. -->
+  <NightOwl.degreeDatas.night_owl.description>[PAWN_nameDef]喜歡在夜間活動。[PAWN_pronoun]在夜間會得到心情加成，反之在白天會感到不悅。</NightOwl.degreeDatas.night_owl.description>
+  
+  <!-- EN: nimble -->
+  <Nimble.degreeDatas.nimble.label>敏捷</Nimble.degreeDatas.nimble.label>
+  <!-- EN: [PAWN_nameDef] has remarkable kinesthetic intelligence. [PAWN_pronoun] seems to dance around danger with preternatural grace. -->
+  <Nimble.degreeDatas.nimble.description>[PAWN_nameDef]有著易於常人的體能天賦。[PAWN_pronoun]看起來就像靠著超自然的力量加持悠遊於危險之中。</Nimble.degreeDatas.nimble.description>
+  
+  <!-- EN: nudist -->
+  <Nudist.degreeDatas.nudist.label>裸體主義者</Nudist.degreeDatas.nudist.label>
+  <!-- EN: [PAWN_nameDef] enjoys the feeling of freedom that comes from being nude. [PAWN_pronoun] can handle clothing, but will be happier without it. -->
+  <Nudist.degreeDatas.nudist.description>[PAWN_nameDef]領悟了天體奔放的自由，[PAWN_pronoun]能接受穿上衣服，但若沒有衣服，[PAWN_pronoun]會感到更快樂。</Nudist.degreeDatas.nudist.description>
+  
+  <!-- EN: psychopath -->
+  <Psychopath.degreeDatas.psychopath.label>精神變態</Psychopath.degreeDatas.psychopath.label>
+  <!-- EN: [PAWN_nameDef] has no empathy. The suffering of others doesn't bother [PAWN_objective] at all. [PAWN_pronoun] doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects [PAWN_objective]. [PAWN_pronoun] also feels no mood boost from socializing. -->
+  <Psychopath.degreeDatas.psychopath.description>[PAWN_nameDef]從不同情任何人，别人的痛苦和[PAWN_pronoun]沒有任何關係。[PAWN_pronoun]不在意别人被屠宰了、被賣给奴隸商人了或是慘遭屠殺了。除非受牽連的人是HIM。[PAWN_pronoun]也不會從聊天獲得任何心情加成。</Psychopath.degreeDatas.psychopath.description>
+  
+  <!-- EN: pyromaniac -->
+  <Pyromaniac.degreeDatas.pyromaniac.label>縱火狂</Pyromaniac.degreeDatas.pyromaniac.label>
+  <!-- EN: [PAWN_nameDef] loves fire. [PAWN_pronoun] will never extinguish fires. To relieve stress, [PAWN_pronoun] will occasionally go on random fire starting sprees. This happens more often if [PAWN_possessive] mood is low. -->
+  <Pyromaniac.degreeDatas.pyromaniac.description>[PAWN_nameDef]喜愛火焰，[PAWN_pronoun]偶爾以縱火為樂，而且從沒有滅火的打算。</Pyromaniac.degreeDatas.pyromaniac.description>
+  
+  <!-- EN: quick sleeper -->
+  <QuickSleeper.degreeDatas.quick_sleeper.label>高效睡眠</QuickSleeper.degreeDatas.quick_sleeper.label>
+  <!-- EN: [PAWN_nameDef] doesn't need as much sleep as the average person. Whether [PAWN_pronoun]'s sleeping on a bed or on the ground, [PAWN_pronoun] will be fully rested in about two thirds the usual time. -->
+  <QuickSleeper.degreeDatas.quick_sleeper.description>[PAWN_nameDef]平均所需的睡眠時間少於常人。不論[PAWN_pronoun]睡在床上或地板上，[PAWN_pronoun]通常只要花一般的三分之二的時間就能休息充足。</QuickSleeper.degreeDatas.quick_sleeper.description>
+  
+  <!-- EN: too smart -->
+  <TooSmart.degreeDatas.too_smart.label>書呆子</TooSmart.degreeDatas.too_smart.label>
+  <!-- EN: [PAWN_nameDef] is too smart for [PAWN_possessive] own good. [PAWN_pronoun] learns everything much faster than everyone, but can be quite eccentric. -->
+  <TooSmart.degreeDatas.too_smart.description>[PAWN_nameDef]非常的聰明。[PAWN_pronoun]學習事物的速度總是比他人快上許多，但個性也古怪許多。</TooSmart.degreeDatas.too_smart.description>
+  
+  <!-- EN: tough -->
+  <Tough.degreeDatas.tough.label>耐打</Tough.degreeDatas.tough.label>
+  <!-- EN: [PAWN_nameDef] has thick skin, dense flesh, and durable bones. [PAWN_pronoun] takes much less damage than other people from the same blows. [PAWN_pronoun] is extremely hard to kill. -->
+  <Tough.degreeDatas.tough.description>[PAWN_nameDef]有厚實的皮膚、強健的肌腱和堅固的骨頭。[PAWN_pronoun]在相同的狀況下會受到的傷害比常人更輕微。[PAWN_pronoun]非常難被殺死。</Tough.degreeDatas.tough.description>
+  
+  <!-- EN: transhumanist -->
+  <Transhumanist.degreeDatas.transhumanist.label>義體化主義者</Transhumanist.degreeDatas.transhumanist.label>
+  <!-- EN: [PAWN_nameDef] feels limited in [PAWN_possessive] feeble human body. [PAWN_pronoun] often dreams of being enhanced by artificial body parts. -->
+  <Transhumanist.degreeDatas.transhumanist.description>[PAWN_nameDef]覺得被困在[PAWN_possessive]這具脆弱的肉體內。[PAWN_pronoun]經常夢想藉由義體獲得進化。</Transhumanist.degreeDatas.transhumanist.description>
+  
+  <!-- EN: undergrounder -->
+  <Undergrounder.degreeDatas.undergrounder.label>穴居者</Undergrounder.degreeDatas.undergrounder.label>
+  <!-- EN: [PAWN_nameDef] has no need to experience the outdoors. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside. -->
+  <Undergrounder.degreeDatas.undergrounder.description>>[PAWN_nameDef]沒有對空間的需求。[PAWN_pronoun]就算永遠待在室內也不會感到不適。</Undergrounder.degreeDatas.undergrounder.description>
+  
+  <!-- EN: wimp -->
+  <Wimp.degreeDatas.wimp.label>懦弱</Wimp.degreeDatas.wimp.label>
+  <!-- EN: [PAWN_nameDef] is weak and cowardly. Even a little pain will immobilize [PAWN_objective]. -->
+  <Wimp.degreeDatas.wimp.description>[PAWN_nameDef]脆弱又懦弱，一點小痛都能讓他昏過去。</Wimp.degreeDatas.wimp.description>
   
 </LanguageData>

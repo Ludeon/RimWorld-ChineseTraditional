@@ -1,47 +1,110 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- affecting opinion -->
-
-  <Affair.stages.0.label>外遇</Affair.stages.0.label>
-  <Incestuous.stages.0.label>亂倫</Incestuous.stages.0.label>
-  <Disfigured.stages.0.label>毀容</Disfigured.stages.0.label>
-  <HardWorkerVsLazy.stages.0.label>勤奮VS偷懶</HardWorkerVsLazy.stages.0.label>
-  <TeetotalerVsChemicalInterest.stages.0.label>無癮主義者VS酒鬼</TeetotalerVsChemicalInterest.stages.0.label>
-  <TeetotalerVsAddict.stages.0.label>無癮主義者vs毒蟲</TeetotalerVsAddict.stages.0.label>
-  <ChemicalInterestVsTeetotaler.stages.0.label>酒鬼VS無癮主義者</ChemicalInterestVsTeetotaler.stages.0.label>
-  <Drunk.stages.0.label>酗酒</Drunk.stages.0.label>
   
-  <Pretty.stages.0.label>可愛</Pretty.stages.0.label>
-  <Pretty.stages.1.label>沉魚落雁</Pretty.stages.1.label>
+  <!-- EN: affair -->
+  <Affair.stages.affair.label>外遇</Affair.stages.affair.label>
   
-  <Ugly.stages.0.label>醜陋</Ugly.stages.0.label>
-  <Ugly.stages.1.label>豬八戒坐飛機</Ugly.stages.1.label>
+  <!-- EN: annoying voice -->
+  <AnnoyingVoice.stages.annoying_voice.label>煩人的聲音</AnnoyingVoice.stages.annoying_voice.label>
   
-  <AnnoyingVoice.stages.0.label>煩人的聲音</AnnoyingVoice.stages.0.label>
-  <CreepyBreathing.stages.0.label>噁心的呼吸聲</CreepyBreathing.stages.0.label>
-  <Man.stages.0.label>討厭男性</Man.stages.0.label>
-  <Woman.stages.0.label>討厭女性</Woman.stages.0.label>
-  <ButcheredHumanlikeCorpseOpinion.stages.0.label>屠宰了人類</ButcheredHumanlikeCorpseOpinion.stages.0.label>
-  <AteRawHumanlikeMeat.stages.0.label>吃了生的人肉</AteRawHumanlikeMeat.stages.0.label>
-  <SoldPrisoner.stages.0.label>有俘虜被賣掉了</SoldPrisoner.stages.0.label>
-  <ExecutedPrisoner.stages.0.label>有俘虜被處決了</ExecutedPrisoner.stages.0.label>
-  <KilledColonist.stages.0.label>殺死居民</KilledColonist.stages.0.label>
-  <KilledColonyAnimal.stages.0.label>殺死殖民地的動物</KilledColonyAnimal.stages.0.label>
+  <!-- EN: ate raw humanlike meat -->
+  <AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>吃了生的人肉</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
   
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-0.label>自然身體主義者的排斥</BodyPuristDisgust.stages.body_purist_disgust-0.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-1.label>自然身體主義者的排斥</BodyPuristDisgust.stages.body_purist_disgust-1.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-2.label>自然身體主義者的排斥</BodyPuristDisgust.stages.body_purist_disgust-2.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-3.label>自然身體主義者的排斥</BodyPuristDisgust.stages.body_purist_disgust-3.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-4.label>自然身體主義者的排斥</BodyPuristDisgust.stages.body_purist_disgust-4.label>
   
-  <!-- affecting mood -->
-
-  <OpinionOfMyLover.stages.0.label>與我的{0}{1}在一起的感覺</OpinionOfMyLover.stages.0.label>
-  <OpinionOfMyLover.stages.0.description>和我的戀人在一起讓我有這樣的感覺。</OpinionOfMyLover.stages.0.description>
-
-  <BondedAnimalMaster.stages.0.label>動物夥伴</BondedAnimalMaster.stages.0.label>
-  <BondedAnimalMaster.stages.0.description>和我的動物夥伴在一起讓我感覺好一些。</BondedAnimalMaster.stages.0.description>
-
-  <NotBondedAnimalMaster.stages.0.label>動物夥伴不在身邊</NotBondedAnimalMaster.stages.0.label>
-  <NotBondedAnimalMaster.stages.0.description>動物夥伴應該要和我一起行動。</NotBondedAnimalMaster.stages.0.description>
-
-  <WantToSleepWithSpouseOrLover.stages.0.label>想和{0}一起睡</WantToSleepWithSpouseOrLover.stages.0.label>
-  <WantToSleepWithSpouseOrLover.stages.0.description>我不希望和我的伴侶分開睡。</WantToSleepWithSpouseOrLover.stages.0.description>
-
+  <!-- EN: {0}'s master -->
+  <BondedAnimalMaster.stages.s_master.label>動物夥伴</BondedAnimalMaster.stages.s_master.label>
+  <!-- EN: Being together with my bonded animal makes me feel better. -->
+  <BondedAnimalMaster.stages.s_master.description>和我的動物夥伴在一起讓我感覺好一些。</BondedAnimalMaster.stages.s_master.description>
+  
+  <!-- EN: butchered humanlike corpse -->
+  <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>屠宰了人類</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
+  
+  <!-- EN: chemical interest vs teetotaler -->
+  <ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>酒鬼VS無癮主義者</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>
+  
+  <!-- EN: creepy breathing -->
+  <CreepyBreathing.stages.creepy_breathing.label>噁心的呼吸聲</CreepyBreathing.stages.creepy_breathing.label>
+  
+  <!-- EN: disfigured -->
+  <Disfigured.stages.disfigured.label>毀容</Disfigured.stages.disfigured.label>
+  
+  <!-- EN: drunk -->
+  <Drunk.stages.drunk.label>酗酒</Drunk.stages.drunk.label>
+  
+  <!-- EN: executed prisoner -->
+  <ExecutedPrisoner.stages.executed_prisoner.label>有俘虜被處決了</ExecutedPrisoner.stages.executed_prisoner.label>
+  
+  <!-- EN: hard worker vs lazy -->
+  <HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>勤奮VS偷懶</HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>
+  
+  <!-- EN: incestuous -->
+  <Incestuous.stages.incestuous.label>亂倫</Incestuous.stages.incestuous.label>
+  
+  <!-- EN: killed colonist -->
+  <KilledColonist.stages.killed_colonist.label>殺死居民</KilledColonist.stages.killed_colonist.label>
+  
+  <!-- EN: killed colony animal -->
+  <KilledColonyAnimal.stages.killed_colony_animal.label>殺死殖民地的動物</KilledColonyAnimal.stages.killed_colony_animal.label>
+  
+  <!-- EN: man -->
+  <Man.stages.man.label>討厭男性</Man.stages.man.label>
+  
+  <!-- EN: not {0}'s master -->
+  <NotBondedAnimalMaster.stages.not_s_master.label>非{0}的主人</NotBondedAnimalMaster.stages.not_s_master.label>
+  <!-- EN: I should be together with my bonded animal. -->
+  <NotBondedAnimalMaster.stages.not_s_master.description>我應該要和動物夥伴一起行動。</NotBondedAnimalMaster.stages.not_s_master.description>
+  
+  <!-- EN: opinion of my {0} {1} -->
+  <OpinionOfMyLover.stages.opinion_of_my.label>與我的{0}{1}在一起的感覺</OpinionOfMyLover.stages.opinion_of_my.label>
+  <!-- EN: Being with my lover makes me feel this way. -->
+  <OpinionOfMyLover.stages.opinion_of_my.description>和我的戀人在一起讓我有這樣的感覺。</OpinionOfMyLover.stages.opinion_of_my.description>
+  
+  <!-- EN: pretty -->
+  <Pretty.stages.pretty.label>可愛</Pretty.stages.pretty.label>
+  <!-- EN: beautiful -->
+  <Pretty.stages.beautiful.label>沉魚落雁</Pretty.stages.beautiful.label>
+  
+  <!-- EN: sold prisoner to slavery -->
+  <SoldPrisoner.stages.sold_prisoner_to_slavery.label>有俘虜被賣掉了</SoldPrisoner.stages.sold_prisoner_to_slavery.label>
+  
+  <!-- EN: teetotaler vs addict -->
+  <TeetotalerVsAddict.stages.teetotaler_vs_addict.label>無癮主義者vs毒蟲</TeetotalerVsAddict.stages.teetotaler_vs_addict.label>
+  
+  <!-- EN: teetotaler vs chemical interest -->
+  <TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>無癮主義者VS酒鬼</TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>
+  
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-0.label>義體化主義者的驕傲</TranshumanistAppreciation.stages.transhumanist_appreciation-0.label>
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-1.label>義體化主義者的驕傲</TranshumanistAppreciation.stages.transhumanist_appreciation-1.label>
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-2.label>義體化主義者的驕傲</TranshumanistAppreciation.stages.transhumanist_appreciation-2.label>
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-3.label>義體化主義者的驕傲</TranshumanistAppreciation.stages.transhumanist_appreciation-3.label>
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-4.label>義體化主義者的驕傲</TranshumanistAppreciation.stages.transhumanist_appreciation-4.label>
+  
+  <!-- EN: ugly -->
+  <Ugly.stages.ugly.label>醜陋</Ugly.stages.ugly.label>
+  <!-- EN: staggeringly ugly -->
+  <Ugly.stages.staggeringly_ugly.label>豬八戒坐飛機</Ugly.stages.staggeringly_ugly.label>
+  
+  <!-- EN: want to sleep with {0} -->
+  <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>想和{0}一起睡</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>
+  <!-- EN: I don't like sleeping apart from my partner. -->
+  <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.description>我不希望和我的伴侶分開睡。</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.description>
+  
+  <!-- EN: woman -->
+  <Woman.stages.woman.label>討厭女性</Woman.stages.woman.label>
+  
 </LanguageData>

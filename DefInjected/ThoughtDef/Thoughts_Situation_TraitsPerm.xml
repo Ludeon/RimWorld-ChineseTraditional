@@ -1,16 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MoodOffsetSanguine.stages.0.label>樂天派</MoodOffsetSanguine.stages.0.label>
-  <MoodOffsetSanguine.stages.0.description>因為「樂天派」特性而得到的心情加成。</MoodOffsetSanguine.stages.0.description>
-
-  <MoodOffsetOptimist.stages.0.label>樂觀</MoodOffsetOptimist.stages.0.label>
-  <MoodOffsetOptimist.stages.0.description>因為「樂觀」特性而得到的心情加成。</MoodOffsetOptimist.stages.0.description>
-
-  <MoodOffsetPessimist.stages.0.label>悲觀</MoodOffsetPessimist.stages.0.label>
-  <MoodOffsetPessimist.stages.0.description>因為「悲觀」特性而降低的心情。</MoodOffsetPessimist.stages.0.description>
-
-  <MoodOffsetDepressive.stages.0.label>憂鬱</MoodOffsetDepressive.stages.0.label>
-  <MoodOffsetDepressive.stages.0.description>因為「憂鬱」特性而降低的心情。</MoodOffsetDepressive.stages.0.description>
-
+  
+  <!-- EN: depressive -->
+  <MoodOffsetDepressive.stages.depressive.label>憂鬱</MoodOffsetDepressive.stages.depressive.label>
+  <!-- EN: Natural penalty from 'depressive' trait. -->
+  <MoodOffsetDepressive.stages.depressive.description>因為「憂鬱」特性而降低的心情。</MoodOffsetDepressive.stages.depressive.description>
+  
+  <!-- EN: optimist -->
+  <MoodOffsetOptimist.stages.optimist.label>樂觀</MoodOffsetOptimist.stages.optimist.label>
+  <!-- EN: Natural bonus from 'optimist' trait. -->
+  <MoodOffsetOptimist.stages.optimist.description>因為「樂觀」特性而得到的心情加成。</MoodOffsetOptimist.stages.optimist.description>
+  
+  <!-- EN: pessimist -->
+  <MoodOffsetPessimist.stages.pessimist.label>悲觀</MoodOffsetPessimist.stages.pessimist.label>
+  <!-- EN: Natural penalty from 'pessimist' trait. -->
+  <MoodOffsetPessimist.stages.pessimist.description>因為「悲觀」特性而降低的心情。</MoodOffsetPessimist.stages.pessimist.description>
+  
+  <!-- EN: sanguine -->
+  <MoodOffsetSanguine.stages.sanguine.label>樂天派</MoodOffsetSanguine.stages.sanguine.label>
+  <!-- EN: Natural bonus from 'sanguine' trait. -->
+  <MoodOffsetSanguine.stages.sanguine.description>因為「樂天派」特性而得到的心情加成。</MoodOffsetSanguine.stages.sanguine.description>
+  
 </LanguageData>
