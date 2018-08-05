@@ -1,21 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <PsychicInsanityLance.label>精神狂暴槍</PsychicInsanityLance.label>
-  <PsychicInsanityLance.description>一次性使用的精神攻擊兵器，用陰暗、扭曲的精神訊號對目標造成心靈污染，使之陷入狂暴狀態。存在導致腦損傷的風險，攻擊距離長且無視障礙物。</PsychicInsanityLance.description>
-  <PsychicInsanityLance.comps.1.useLabel>啟動</PsychicInsanityLance.comps.1.useLabel>
   
-  <PsychicShockLance.label>心靈衝擊槍</PsychicShockLance.label>
-  <PsychicShockLance.description>一次性使用的精神攻擊兵器，用令人頭暈目眩的影像對目標造成心靈污染，使之陷入精神崩潰狀態。存在導致腦損傷的風險，攻擊距離長且無視障礙物。</PsychicShockLance.description>
-  <PsychicShockLance.comps.1.useLabel>啟動</PsychicShockLance.comps.1.useLabel>
-
+  <!-- EN: psychic animal pulser -->
   <PsychicAnimalPulser.label>動物心靈脈衝器</PsychicAnimalPulser.label>
+  <!-- EN: A one-use broad-wave psychic effector. The psychic pulse fills lower minds with terrifying imagery, driving all animals in the region into a manhunting rage. -->
   <PsychicAnimalPulser.description>一次性使用的心靈電波脈衝器，向動物刺發達的大腦發送使之恐懼的影像，讓區域內所有動物都陷入殺戮狀態。</PsychicAnimalPulser.description>
-  <PsychicAnimalPulser.comps.1.useLabel>啟動</PsychicAnimalPulser.comps.1.useLabel>
-
+  <!-- EN: Activate -->
+  <PsychicAnimalPulser.comps.CompUsable.useLabel>啟動</PsychicAnimalPulser.comps.CompUsable.useLabel>
+  
+  <!-- EN: psychic insanity lance -->
+  <PsychicInsanityLance.label>精神狂暴槍</PsychicInsanityLance.label>
+  <!-- EN: A one-use psychic effector. It overwhelms the target's mind with terrifying perceptual distortions, driving him into a berserk state. There is a risk of brain damage. It works at long distances, and through walls. -->
+  <PsychicInsanityLance.description>一次性使用的精神攻擊兵器，用陰暗、扭曲的精神訊號對目標造成心靈污染，使之陷入狂暴狀態。存在導致腦損傷的風險，攻擊距離長且無視障礙物。</PsychicInsanityLance.description>
+  <!-- EN: Activate -->
+  <PsychicInsanityLance.comps.CompUsable.useLabel>啟動</PsychicInsanityLance.comps.CompUsable.useLabel>
+  
+  <!-- EN: psychic shock lance -->
+  <PsychicShockLance.label>心靈衝擊槍</PsychicShockLance.label>
+  <!-- EN: A one-use psychic effector. It shocks the target's mind with chaotic images, blocking coherent perception and dropping him into a state of psychic shock. There is a risk of brain damage. It works at long distances, and through walls. -->
+  <PsychicShockLance.description>一次性使用的精神攻擊兵器，用令人頭暈目眩的影像對目標造成心靈污染，使之陷入精神崩潰狀態。存在導致腦損傷的風險，攻擊距離長且無視障礙物。</PsychicShockLance.description>
+  <!-- EN: Activate -->
+  <PsychicShockLance.comps.CompUsable.useLabel>啟動</PsychicShockLance.comps.CompUsable.useLabel>
+  
+  <!-- EN: psychic soothe pulser -->
   <PsychicSoothePulser.label>撫慰電波脈衝器</PsychicSoothePulser.label>
+  <!-- EN: A one-use broad-wave psychic effector. The psychic pulse induces self-satisfying perceptual distortions, giving a temporary mood boost to everyone in the region. -->
   <PsychicSoothePulser.description>一次性使用的心靈電波脈衝器，脈衝會扭曲人的感知，讓人的心理自我滿足，為區域內的每個人帶來暫時性的心情加分。</PsychicSoothePulser.description>
-  <PsychicSoothePulser.comps.1.useLabel>啟動</PsychicSoothePulser.comps.1.useLabel>
-
+  <!-- EN: Activate -->
+  <PsychicSoothePulser.comps.CompUsable.useLabel>啟動</PsychicSoothePulser.comps.CompUsable.useLabel>
   
 </LanguageData>
