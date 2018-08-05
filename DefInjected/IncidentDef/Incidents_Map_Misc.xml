@@ -1,69 +1,108 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Good -->
-
-  <ResourcePodCrash.label>貨艙墜落</ResourcePodCrash.label>
-  <PsychicSoothe.label>撫慰電波</PsychicSoothe.label>
-  <SelfTame.label>自我馴服</SelfTame.label>
-
+  
+  <!-- EN: alphabeavers -->
+  <Alphabeavers.label>海貍</Alphabeavers.label>
+  
+  <!-- EN: ambrosia sprout -->
   <AmbrosiaSprout.label>仙饌果</AmbrosiaSprout.label>
-  <AmbrosiaSprout.letterText>一叢神秘的仙饌果叢在附近萌芽了，如果你耐心等待它的成長，你就能收獲美味、珍貴還有點讓人上癮的仙饌果實。</AmbrosiaSprout.letterText>
+  <!-- EN: Ambrosia sprout -->
   <AmbrosiaSprout.letterLabel>仙饌萌芽</AmbrosiaSprout.letterLabel>
-
+  <!-- EN: A grove of the mysterious ambrosia bush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious, pleasurable, and slightly addictive fruit. -->
+  <AmbrosiaSprout.letterText>一叢神秘的仙饌果叢在附近萌芽了，如果你耐心等待它的成長，你就能收獲美味、珍貴還有點讓人上癮的仙饌果實。</AmbrosiaSprout.letterText>
+  
+  <!-- EN: cold snap -->
+  <ColdSnap.label>寒流</ColdSnap.label>
+  <!-- EN: Cold snap -->
+  <ColdSnap.letterLabel>寒流</ColdSnap.letterLabel>
+  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
+  <ColdSnap.letterText>一波不尋常的寒流正在凍結這個地區，\n\n低體溫症可以很快地殺死人，確保你有地方取暖，並且試著在作物凍死前搶先收穫。</ColdSnap.letterText>
+  
+  <!-- EN: crop blight -->
+  <CropBlight.label>枯萎病</CropBlight.label>
+  
+  <!-- EN: farm animals wander in -->
   <FarmAnimalsWanderIn.label>家畜歸附</FarmAnimalsWanderIn.label>
-  <WandererJoin.label>志願者</WandererJoin.label>
-  <RefugeePodCrash.label>逃生艙</RefugeePodCrash.label>
-
-
-  <!-- Neutral -->
-
-  <RefugeeChased.label>庇護請求</RefugeeChased.label>
-  <ThrumboPasses.label>獨角獸</ThrumboPasses.label>
-
-  <RansomDemand.label>勒索贖金</RansomDemand.label>
-  <RansomDemand.letterLabel>勒索贖金</RansomDemand.letterLabel>
-
-  <MeteoriteImpact.label>隕石撞擊</MeteoriteImpact.label>
-  <MeteoriteImpact.letterText>一大顆隕石撼動了大地，並留下了一塊{0}。</MeteoriteImpact.letterText>
-  <MeteoriteImpact.letterLabel>Meteorite</MeteoriteImpact.letterLabel>
-
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>雷暴</Flashstorm.label>
+  <!-- EN: Flashstorm -->
+  <Flashstorm.letterLabel>雷暴</Flashstorm.letterLabel>
+  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
+  <Flashstorm.letterText>一場閃電雨正在密集轟炸這個地區，這可能會導致大規模的火災。</Flashstorm.letterText>
+  
+  <!-- EN: heat wave -->
+  <HeatWave.label>熱浪</HeatWave.label>
+  <!-- EN: Heat wave -->
+  <HeatWave.letterLabel>熱浪</HeatWave.letterLabel>
+  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can kill quickly if people start getting heatstroke. Stay cool by building a cooler or getting deep under a mountain. -->
+  <HeatWave.letterText>一波極端酷熱的熱浪正在烤熟這片地區，\n\n中暑可以很快地殺死人，建造冷氣或待在山洞深處以保持涼爽。</HeatWave.letterText>
+  
+  <!-- EN: herd migration -->
   <HerdMigration.label>獸群遷徙</HerdMigration.label>
-  <HerdMigration.letterText>一群{0}正經過這個區域。\n\n除非被激怒否則牠們不會主動攻擊。</HerdMigration.letterText>
+  <!-- EN: Animal migration: {0} -->
   <HerdMigration.letterLabel>獸群遷徙：{0}</HerdMigration.letterLabel>
-
-  <WildManWandersIn.label>野人</WildManWandersIn.label>
-  <WildManWandersIn.letterText>一個像動物一樣生存的野人遊蕩到了這附近。[PAWN_pronoun]被稱為{0}。\n\n你可以嘗試馴服[PAWN_objective]。</WildManWandersIn.letterText>
-  <WildManWandersIn.letterLabel>遊蕩的野人</WildManWandersIn.letterLabel>
-
-
-  <!-- Bad -->
-
+  <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
+  <HerdMigration.letterText>一群{0}正經過這個區域。\n\n除非被激怒否則牠們不會主動攻擊。</HerdMigration.letterText>
+  
+  <!-- EN: meteorite impact -->
+  <MeteoriteImpact.label>隕石撞擊</MeteoriteImpact.label>
+  <!-- EN: Meteorite -->
+  <MeteoriteImpact.letterLabel>Meteorite</MeteoriteImpact.letterLabel>
+  <!-- EN: A large meteorite has struck ground in the area. It has left behind a lump of {0}. -->
+  <MeteoriteImpact.letterText>一大顆隕石撼動了大地，並留下了一塊{0}。</MeteoriteImpact.letterText>
+  
+  <!-- EN: psychic drone -->
   <PsychicDrone.label>干擾電波</PsychicDrone.label>
   
-  <ToxicFallout.label>輻射塵</ToxicFallout.label>
-  <ToxicFallout.letterLabel>輻射塵</ToxicFallout.letterLabel>
-  <ToxicFallout.letterText>遠方一場激烈的化學作用釋放出危險的毒素到這個區域。\n\n任何暴露在露天之下的人類與生物將會被毒素緩慢侵蝕。\n\n有毒的大氣至少會瀰漫在整個區域數日，甚至長達一個月以上。</ToxicFallout.letterText>
-
-  <VolcanicWinter.label>火山冬天</VolcanicWinter.label>
-  <VolcanicWinter.letterLabel>火山冬天</VolcanicWinter.letterLabel>
-  <VolcanicWinter.letterText>一個遙遠的超級火山開始了它的噴發，並且釋放出數百萬立方公里的火山灰至大氣中。\n\n大量的火山灰會遮蔽陽光，這個星球的氣溫會大幅下降，植物也會因為缺乏光線而難以生存。火山冬天最快可能會在幾周內結束，最長則可能延續數季。</VolcanicWinter.letterText>
-
-  <HeatWave.label>熱浪</HeatWave.label>
-  <HeatWave.letterLabel>熱浪</HeatWave.letterLabel>
-  <HeatWave.letterText>一波極端酷熱的熱浪正在烤熟這片地區，\n\n中暑可以很快地殺死人，建造冷氣或待在山洞深處以保持涼爽。</HeatWave.letterText>
-
-  <ColdSnap.label>寒流</ColdSnap.label>
-  <ColdSnap.letterLabel>寒流</ColdSnap.letterLabel>
-  <ColdSnap.letterText>一波不尋常的寒流正在凍結這個地區，\n\n低體溫症可以很快地殺死人，確保你有地方取暖，並且試著在作物凍死前搶先收穫。</ColdSnap.letterText>
-
-  <Flashstorm.label>雷暴</Flashstorm.label>
-  <Flashstorm.letterLabel>雷暴</Flashstorm.letterLabel>
-  <Flashstorm.letterText>一場閃電雨正在密集轟炸這個地區，這可能會導致大規模的火災。</Flashstorm.letterText>
-
+  <!-- EN: psychic soothe -->
+  <PsychicSoothe.label>撫慰電波</PsychicSoothe.label>
+  
+  <!-- EN: ransom demand -->
+  <RansomDemand.label>勒索贖金</RansomDemand.label>
+  <!-- EN: Ransom demand -->
+  <RansomDemand.letterLabel>勒索贖金</RansomDemand.letterLabel>
+  
+  <!-- EN: chased refugee -->
+  <RefugeeChased.label>庇護請求</RefugeeChased.label>
+  
+  <!-- EN: refugee pod crash -->
+  <RefugeePodCrash.label>逃生艙</RefugeePodCrash.label>
+  
+  <!-- EN: resource pod crash -->
+  <ResourcePodCrash.label>貨艙墜落</ResourcePodCrash.label>
+  
+  <!-- EN: self-tame -->
+  <SelfTame.label>自我馴服</SelfTame.label>
+  
+  <!-- EN: short circuit -->
   <ShortCircuit.label>短路</ShortCircuit.label>
-  <CropBlight.label>枯萎病</CropBlight.label>
-  <Alphabeavers.label>海貍</Alphabeavers.label>
-
-
+  
+  <!-- EN: thrumbos pass -->
+  <ThrumboPasses.label>獨角獸</ThrumboPasses.label>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>輻射塵</ToxicFallout.label>
+  <!-- EN: Toxic fallout -->
+  <ToxicFallout.letterLabel>輻射塵</ToxicFallout.letterLabel>
+  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
+  <ToxicFallout.letterText>遠方一場激烈的化學作用釋放出危險的毒素到這個區域。\n\n任何暴露在露天之下的人類與生物將會被毒素緩慢侵蝕。\n\n有毒的大氣至少會瀰漫在整個區域數日，甚至長達一個月以上。</ToxicFallout.letterText>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>火山冬天</VolcanicWinter.label>
+  <!-- EN: Volcanic winter -->
+  <VolcanicWinter.letterLabel>火山冬天</VolcanicWinter.letterLabel>
+  <!-- EN: A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
+  <VolcanicWinter.letterText>一個遙遠的超級火山開始了它的噴發，並且釋放出數百萬立方公里的火山灰至大氣中。\n\n大量的火山灰會遮蔽陽光，這個星球的氣溫會大幅下降，植物也會因為缺乏光線而難以生存。火山冬天最快可能會在幾周內結束，最長則可能延續數季。</VolcanicWinter.letterText>
+  
+  <!-- EN: wanderer join -->
+  <WandererJoin.label>志願者</WandererJoin.label>
+  
+  <!-- EN: wild man wanders in -->
+  <WildManWandersIn.label>野人</WildManWandersIn.label>
+  <!-- EN: Wild man wanders in -->
+  <WildManWandersIn.letterLabel>遊蕩的野人</WildManWandersIn.letterLabel>
+  <!-- EN: A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective]. -->
+  <WildManWandersIn.letterText>一個像動物一樣生存的野人遊蕩到了這附近。[PAWN_pronoun]被稱為{0}。\n\n你可以嘗試馴服[PAWN_objective]。</WildManWandersIn.letterText>
+  
 </LanguageData>

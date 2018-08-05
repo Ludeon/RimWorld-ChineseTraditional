@@ -1,40 +1,62 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: animals -->
+  <Animals.label>動物</Animals.label>
+  <!-- EN: Configure how the colony's tame animals should be treated. -->
+  <Animals.description>管理屬於殖民地的各種動物。</Animals.description>
+  
+  <!-- EN: architect -->
+  <Architect.label>建設</Architect.label>
+  <!-- EN: Designate where to build, farm, store items, and so on. -->
+  <Architect.description>指定居民們要在哪裡進行建設、種植作物以及儲存物品等等。</Architect.description>
+  
+  <!-- EN: assign -->
+  <Assign.label>分配</Assign.label>
+  <!-- EN: Assign behaviors to colonists like what they should wear, what drugs to take, or how to respond to enemies. -->
+  <Assign.description>管理每位居民能穿的服裝、攜帶的藥物以及遭遇敵人時的反應。</Assign.description>
+  
+  <!-- EN: factions -->
+  <Factions.label>勢力</Factions.label>
+  <!-- EN: Review the other factions on this world and their relationships. -->
+  <Factions.description>查看這個星球上的各方勢力以及你與他們之間的關係。</Factions.description>
+  
+  <!-- EN: history -->
+  <History.label>歷史</History.label>
+  <!-- EN: Review historical records. -->
+  <History.description>殖民地發展的歷史紀錄。</History.description>
+  
+  <!-- EN: inspect -->
   <Inspect.label>確認</Inspect.label>
   
-  <Architect.label>建設</Architect.label>
-  <Architect.description>指定居民們要在哪裡進行建設、種植作物以及儲存物品等等。</Architect.description>
-
-  <Work.label>工作</Work.label>
-  <Work.description>管理居民們該做些什麼工作。</Work.description>
-
-  <Restrict.label>管制</Restrict.label>
-  <Restrict.description>規劃居民一天的行程，以及限制他們的活動區域。</Restrict.description>
-
-  <Assign.label>分配</Assign.label>
-  <Assign.description>管理每位居民能穿的服裝、攜帶的藥物以及遭遇敵人時的反應。</Assign.description>
-
-  <Animals.label>動物</Animals.label>
-  <Animals.description>管理屬於殖民地的各種動物。</Animals.description>
- 
-  <Wildlife.label>野生動物</Wildlife.label>
-  <Wildlife.description>這個區域中所有野生動物的清單，並且可以指定狩獵獲馴養動物。</Wildlife.description>
-
-  <Research.label>研究</Research.label>
-  <Research.description>檢視及指定研究項目。</Research.description>
-
-  <World.label>世界</World.label>
-  <World.description>查看世界地圖、組織和管理旅隊。</World.description>
-
-  <History.label>歷史</History.label>
-  <History.description>殖民地發展的歷史紀錄。</History.description>
-
-  <Factions.label>勢力</Factions.label>
-  <Factions.description>查看這個星球上的各方勢力以及你與他們之間的關係。</Factions.description>
-
+  <!-- EN: menu -->
   <Menu.label>選單</Menu.label>
+  <!-- EN: Change options, save, load, or quit the game. -->
   <Menu.description>變更遊戲選項、載入、儲存或離開遊戲</Menu.description>
-
-
+  
+  <!-- EN: research -->
+  <Research.label>研究</Research.label>
+  <!-- EN: Examine and decide on research projects. -->
+  <Research.description>檢視及指定研究項目。</Research.description>
+  
+  <!-- EN: restrict -->
+  <Restrict.label>管制</Restrict.label>
+  <!-- EN: Restrict colonists to certain activities at certain times of day, or to specific allowed areas. -->
+  <Restrict.description>規劃居民一天的行程，以及限制他們的活動區域。</Restrict.description>
+  
+  <!-- EN: wildlife -->
+  <Wildlife.label>野生動物</Wildlife.label>
+  <!-- EN: List wild animals in the area and designate them for hunting or taming. -->
+  <Wildlife.description>這個區域中所有野生動物的清單，並且可以指定狩獵獲馴養動物。</Wildlife.description>
+  
+  <!-- EN: work -->
+  <Work.label>工作</Work.label>
+  <!-- EN: Choose which colonist does what kinds of work, and in what order. -->
+  <Work.description>管理居民們該做些什麼工作。</Work.description>
+  
+  <!-- EN: world -->
+  <World.label>世界</World.label>
+  <!-- EN: Examine the world map, form, and manage caravans. -->
+  <World.description>查看世界地圖、組織和管理旅隊。</World.description>
+  
 </LanguageData>

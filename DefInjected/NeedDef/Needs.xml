@@ -1,27 +1,42 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <Mood.label>心情值</Mood.label>
-  <Mood.description>心情值顯示這名角色有多麼快樂或多麼難過，如果心情值過低，便有可能發生精神崩潰。根據心情值的水平，精神崩潰者輕則會把自己關在房裡一整天、重則會殺傷他人。</Mood.description>
-
-  <Food.label>食物值</Food.label>
-  <Food.description>食物值顯示這名角色或生物的飽足程度，如果數值降為0，這名角色或生物便會不斷受到飢餓傷害。</Food.description>
-
-  <Rest.label>休息值</Rest.label>
-  <Rest.description>休息值顯示這名角色或生物的疲勞程度，如果數值降為0，這名角色或生物便會直接在原地昏睡過去。</Rest.description>
-
-  <Joy.label>娛樂值</Joy.label>
-  <Joy.description>娛樂值顯示這名角色的娛樂需求。總是進行同樣的娛樂活動會降低娛樂的效果。</Joy.description>
-
+  <!-- EN: beauty -->
   <Beauty.label>美觀度</Beauty.label>
+  <!-- EN: Beauty reflects how visually pleasing a person has found their surroundings recently. Beautiful things like art improve beauty when viewed, while ugly things like filth and rough stone surfaces reduce it. -->
   <Beauty.description>美觀度顯示這名角色周遭環境的美觀程度。美麗的東西如藝術品能提昇看見的人感受到的美觀度，醜陋的東西如灰塵、崎嶇地面則帶來反效果。</Beauty.description>
-
+  
+  <!-- EN: comfort -->
   <Comfort.label>舒適度</Comfort.label>
+  <!-- EN: Comfort is gained by sitting in or sleeping on comfortable furniture. It is acquired while laying in bed, sitting in a chair while working, or other times. -->
   <Comfort.description>舒適度在人物躺或坐在舒適的家具上時獲得。休息時躺在床上，或工作時坐在椅子上等等都能獲得舒適度。</Comfort.description>
-
+  
+  <!-- EN: food -->
+  <Food.label>食物值</Food.label>
+  <!-- EN: Food is the amount of nutrition a creature has consumed recently. If it is at zero, a creature will become increasingly malnourished and eventually die. -->
+  <Food.description>食物值顯示這名角色或生物的飽足程度，如果數值降為0，這名角色或生物便會不斷受到飢餓傷害。</Food.description>
+  
+  <!-- EN: recreation -->
+  <Joy.label>娛樂值</Joy.label>
+  <!-- EN: Recreation is the need to have fun. Repeating the same kind of activity makes it less fun, so variety is necessary. -->
+  <Joy.description>娛樂值顯示這名角色的娛樂需求。總是進行同樣的娛樂活動會降低娛樂的效果。</Joy.description>
+  
+  <!-- EN: mood -->
+  <Mood.label>心情值</Mood.label>
+  <!-- EN: Mood represents how happy or stressed someone is. If mood gets too low, the person may suffer a mental break. Depending on how low his mood is, someone who has a mental break may hide in his room for a day, or may go on a murder spree. -->
+  <Mood.description>心情值顯示這名角色有多麼快樂或多麼難過，如果心情值過低，便有可能發生精神崩潰。根據心情值的水平，精神崩潰者輕則會把自己關在房裡一整天、重則會殺傷他人。</Mood.description>
+  
+  <!-- EN: outdoors -->
   <Outdoors.label>戶外需求</Outdoors.label>
+  <!-- EN: Outdoors expresses the need not to be cooped up inside. It is harmed by long periods inside, especially underground. It improves when someone spends time under the sky, especially outdoors. It's not about the size of the rooms, but the need to be outside from time to time. Lack of outdoors time is a significant challenge for people who dwell in underground bases. -->
   <Outdoors.description>戶外需求代表對戶外露天空間的需求，待在室內會降低，尤其是在地下。當人物處在露天環境，特別是室外時能夠滿足此需求。這與房間大小無關，而是人物必須不時到戶外透透氣。對於居住在狹小地下基地的人來說，如何滿足此需求是一大挑戰。</Outdoors.description>
-
+  
+  <!-- EN: rest -->
+  <Rest.label>休息值</Rest.label>
+  <!-- EN: Rest is how much sleep a creature has gotten recently. If it is at zero, a creature will eventually fall asleep on the spot. -->
+  <Rest.description>休息值顯示這名角色或生物的疲勞程度，如果數值降為0，這名角色或生物便會直接在原地昏睡過去。</Rest.description>
+  
+  <!-- EN: room size -->
   <RoomSize.label>房間尺寸</RoomSize.label>
   
 </LanguageData>

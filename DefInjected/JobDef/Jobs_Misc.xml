@@ -1,74 +1,166 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- General -->
   
-  <Goto.reportString>移動中。</Goto.reportString>
-  <Follow.reportString>跟隨TargetA。</Follow.reportString>
-  <FollowClose.reportString>跟隨TargetA。</FollowClose.reportString>
-  <GotoSafeTemperature.reportString>尋找溫度安全的地方。</GotoSafeTemperature.reportString>
-  <GotoWander.reportString>閒晃</GotoWander.reportString>
-  <Wait.reportString>站著。</Wait.reportString>
-  <Wait_MaintainPosture.reportString>站著。</Wait_MaintainPosture.reportString>
-  <Wait_Downed.reportString>倒著。</Wait_Downed.reportString>
-  <Wait_SafeTemperature.reportString>尋找溫度安全的地方。</Wait_SafeTemperature.reportString>
-  <Wait_Wander.reportString>閒晃</Wait_Wander.reportString>
-  <Wait_Combat.reportString>待命。</Wait_Combat.reportString>
-  <AttackStatic.reportString>攻擊TargetA。</AttackStatic.reportString>
+  <!-- EN: melee attacking TargetA. -->
   <AttackMelee.reportString>近身攻擊TargetA。</AttackMelee.reportString>
-  <SocialFight.reportString>與TargetA吵架。</SocialFight.reportString>
-  <UseVerbOnThing.reportString>處理。</UseVerbOnThing.reportString>
-  <Equip.reportString>裝備TargetA。</Equip.reportString>
-  <TakeInventory.reportString>使用TargetA。</TakeInventory.reportString>
-  <GiveToPackAnimal.reportString>將貨物運上TargetA。</GiveToPackAnimal.reportString>
-  <Wear.reportString>穿上TargetA。</Wear.reportString>
-  <RemoveApparel.reportString>脫下TargetA。</RemoveApparel.reportString>
-  <DropEquipment.reportString>卸除裝備。</DropEquipment.reportString>
-  <Strip.reportString>掠奪TargetA。</Strip.reportString>
-  <Open.reportString>開啟TargetA。</Open.reportString>
-  <RearmTrap.reportString>重設TargetA。</RearmTrap.reportString>
-  <RearmTurret.reportString>重設TargetA。</RearmTurret.reportString>
-  <RearmTurretAtomic.reportString>重設TargetA。</RearmTurretAtomic.reportString>
-  <Refuel.reportString>替TargetA添加燃料。</Refuel.reportString>
-  <RefuelAtomic.reportString>替TargetA添加燃料。</RefuelAtomic.reportString>
-  <FillFermentingBarrel.reportString>裝填TargetA。</FillFermentingBarrel.reportString>
-  <TakeBeerOutOfFermentingBarrel.reportString>正從TargetA取出啤酒。</TakeBeerOutOfFermentingBarrel.reportString>
-  <UnloadInventory.reportString>卸除TargetA的貨物。</UnloadInventory.reportString>
-  <UnloadYourInventory.reportString>卸貨。</UnloadYourInventory.reportString>
-  <ManTurret.reportString>操作武器。</ManTurret.reportString>
-  <EnterCryptosleepCasket.reportString>進入冷凍休眠艙。</EnterCryptosleepCasket.reportString>
-  <UseNeurotrainer.reportString>使用神經技能訓練機。</UseNeurotrainer.reportString>
-  <UseArtifact.reportString>啟動神器。</UseArtifact.reportString>
-  <UseItem.reportString>使用TargetA。</UseItem.reportString>
-  <TriggerFirefoamPopper.reportString>啟動滅火裝置。</TriggerFirefoamPopper.reportString>
-  <ClearSnow.reportString>除雪。</ClearSnow.reportString>
-  <Vomit.reportString>嘔吐。</Vomit.reportString>
-  <Flick.reportString>切換開關。</Flick.reportString>
-  <TradeWithPawn.reportString>與TargetA交易。</TradeWithPawn.reportString>
-  <Flee.reportString>逃跑。</Flee.reportString>
-  <FleeAndCower.reportString>逃跑。</FleeAndCower.reportString>  
-  <EnterTransporter.reportString>進入TargetA。</EnterTransporter.reportString>
-  <Resurrect.reportString>復甦TargetA。</Resurrect.reportString>
-  <Insult.reportString>羞辱TargetA。</Insult.reportString>
-  <HaulCorpseToPublicPlace.reportString>搬運TargetA。</HaulCorpseToPublicPlace.reportString>
-  <InducePrisonerToEscape.reportString>煽動TargetA越獄。</InducePrisonerToEscape.reportString>
-
-
-  <!-- Fire -->
   
-  <Ignite.reportString>引燃TargetA。</Ignite.reportString>
+  <!-- EN: attacking TargetA. -->
+  <AttackStatic.reportString>攻擊TargetA。</AttackStatic.reportString>
+  
+  <!-- EN: beating fire out. -->
   <BeatFire.reportString>滅火。</BeatFire.reportString>
-  <ExtinguishSelf.reportString>撲滅身上的火。</ExtinguishSelf.reportString>
-
-
-  <!-- Need satisfaction -->
-
-  <Ingest.reportString>食用TargetA。</Ingest.reportString>
-  <LayDown.reportString>躺著。</LayDown.reportString>
-
   
-  <!-- Love -->
-
+  <!-- EN: clearing snow. -->
+  <ClearSnow.reportString>除雪。</ClearSnow.reportString>
+  
+  <!-- EN: dropping TargetA. -->
+  <DropEquipment.reportString>卸除裝備。</DropEquipment.reportString>
+  
+  <!-- EN: entering cryptosleep casket. -->
+  <EnterCryptosleepCasket.reportString>進入冷凍休眠艙。</EnterCryptosleepCasket.reportString>
+  
+  <!-- EN: entering TargetA. -->
+  <EnterTransporter.reportString>進入TargetA。</EnterTransporter.reportString>
+  
+  <!-- EN: equipping TargetA. -->
+  <Equip.reportString>裝備TargetA。</Equip.reportString>
+  
+  <!-- EN: extinguishing self. -->
+  <ExtinguishSelf.reportString>撲滅身上的火。</ExtinguishSelf.reportString>
+  
+  <!-- EN: filling TargetA. -->
+  <FillFermentingBarrel.reportString>裝填TargetA。</FillFermentingBarrel.reportString>
+  
+  <!-- EN: fleeing. -->
+  <Flee.reportString>逃跑。</Flee.reportString>
+  
+  <!-- EN: fleeing. -->
+  <FleeAndCower.reportString>逃跑。</FleeAndCower.reportString>
+  
+  <!-- EN: flicking switch. -->
+  <Flick.reportString>切換開關。</Flick.reportString>
+  
+  <!-- EN: following TargetA. -->
+  <Follow.reportString>跟隨TargetA。</Follow.reportString>
+  
+  <!-- EN: following TargetA. -->
+  <FollowClose.reportString>跟隨TargetA。</FollowClose.reportString>
+  
+  <!-- EN: taking TargetA. -->
+  <GiveToPackAnimal.reportString>將貨物運上TargetA。</GiveToPackAnimal.reportString>
+  
+  <!-- EN: moving. -->
+  <Goto.reportString>移動中。</Goto.reportString>
+  
+  <!-- EN: seeking safe temperature. -->
+  <GotoSafeTemperature.reportString>尋找溫度安全的地方。</GotoSafeTemperature.reportString>
+  
+  <!-- EN: wandering. -->
+  <GotoWander.reportString>閒晃</GotoWander.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulCorpseToPublicPlace.reportString>搬運TargetA。</HaulCorpseToPublicPlace.reportString>
+  
+  <!-- EN: igniting TargetA. -->
+  <Ignite.reportString>引燃TargetA。</Ignite.reportString>
+  
+  <!-- EN: inducing TargetA to escape. -->
+  <InducePrisonerToEscape.reportString>煽動TargetA越獄。</InducePrisonerToEscape.reportString>
+  
+  <!-- EN: consuming TargetA. -->
+  <Ingest.reportString>食用TargetA。</Ingest.reportString>
+  
+  <!-- EN: insulting TargetA. -->
+  <Insult.reportString>羞辱TargetA。</Insult.reportString>
+  
+  <!-- EN: lying down. -->
+  <LayDown.reportString>躺著。</LayDown.reportString>
+  
+  <!-- EN: lovin'. -->
   <Lovin.reportString>滾床單。</Lovin.reportString>
+  
+  <!-- EN: operating turret. -->
+  <ManTurret.reportString>操作武器。</ManTurret.reportString>
+  
+  <!-- EN: opening TargetA. -->
+  <Open.reportString>開啟TargetA。</Open.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTurret.reportString>重設TargetA。</RearmTurret.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTurretAtomic.reportString>重設TargetA。</RearmTurretAtomic.reportString>
+  
+  <!-- EN: refueling TargetA. -->
+  <Refuel.reportString>替TargetA添加燃料。</Refuel.reportString>
+  
+  <!-- EN: refueling TargetA. -->
+  <RefuelAtomic.reportString>替TargetA添加燃料。</RefuelAtomic.reportString>
+  
+  <!-- EN: removing TargetA. -->
+  <RemoveApparel.reportString>脫下TargetA。</RemoveApparel.reportString>
+  
+  <!-- EN: resurrecting TargetA. -->
+  <Resurrect.reportString>復甦TargetA。</Resurrect.reportString>
+  
+  <!-- EN: fighting with TargetA. -->
+  <SocialFight.reportString>與TargetA吵架。</SocialFight.reportString>
+  
+  <!-- EN: stripping TargetA. -->
+  <Strip.reportString>掠奪TargetA。</Strip.reportString>
+  
+  <!-- EN: taking beer out of TargetA. -->
+  <TakeBeerOutOfFermentingBarrel.reportString>正從TargetA取出啤酒。</TakeBeerOutOfFermentingBarrel.reportString>
+  
+  <!-- EN: taking TargetA. -->
+  <TakeInventory.reportString>使用TargetA。</TakeInventory.reportString>
+  
+  <!-- EN: trading with TargetA. -->
+  <TradeWithPawn.reportString>與TargetA交易。</TradeWithPawn.reportString>
+  
+  <!-- EN: triggering firefoam popper. -->
+  <TriggerFirefoamPopper.reportString>啟動滅火裝置。</TriggerFirefoamPopper.reportString>
+  
+  <!-- EN: unloading TargetA. -->
+  <UnloadInventory.reportString>卸除TargetA的貨物。</UnloadInventory.reportString>
+  
+  <!-- EN: unloading inventory. -->
+  <UnloadYourInventory.reportString>卸貨。</UnloadYourInventory.reportString>
+  
+  <!-- EN: activating artifact. -->
+  <UseArtifact.reportString>啟動神器。</UseArtifact.reportString>
+  
+  <!-- EN: using TargetA. -->
+  <UseItem.reportString>使用TargetA。</UseItem.reportString>
+  
+  <!-- EN: using neurotrainer. -->
+  <UseNeurotrainer.reportString>使用神經技能訓練機。</UseNeurotrainer.reportString>
+  
+  <!-- EN: Doing something. -->
+  <UseVerbOnThing.reportString>處理。</UseVerbOnThing.reportString>
+  
+  <!-- EN: vomiting. -->
+  <Vomit.reportString>嘔吐。</Vomit.reportString>
+  
+  <!-- EN: standing. -->
+  <Wait.reportString>站著。</Wait.reportString>
+  
+  <!-- EN: watching for targets. -->
+  <Wait_Combat.reportString>待命。</Wait_Combat.reportString>
+  
+  <!-- EN: downed. -->
+  <Wait_Downed.reportString>倒著。</Wait_Downed.reportString>
+  
+  <!-- EN: standing. -->
+  <Wait_MaintainPosture.reportString>站著。</Wait_MaintainPosture.reportString>
+  
+  <!-- EN: waiting in safe temperature. -->
+  <Wait_SafeTemperature.reportString>尋找溫度安全的地方。</Wait_SafeTemperature.reportString>
+  
+  <!-- EN: wandering. -->
+  <Wait_Wander.reportString>閒晃</Wait_Wander.reportString>
+  
+  <!-- EN: wearing TargetA. -->
+  <Wear.reportString>穿上TargetA。</Wear.reportString>
   
 </LanguageData>

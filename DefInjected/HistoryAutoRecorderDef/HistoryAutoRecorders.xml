@@ -1,25 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Wealth_Total.label>資產(全部)</Wealth_Total.label>
-  <Wealth_Total.graphLabelY>數目</Wealth_Total.graphLabelY>
-
-  <Wealth_Items.label>資產(物品)</Wealth_Items.label>
-  <Wealth_Items.graphLabelY>數目</Wealth_Items.graphLabelY>
-
-  <Wealth_Buildings.label>資產(建築)</Wealth_Buildings.label>
-  <Wealth_Buildings.graphLabelY>數目</Wealth_Buildings.graphLabelY>
-
-  <Wealth_TameAnimals.label>資產(動物)</Wealth_TameAnimals.label>
-  <Wealth_TameAnimals.graphLabelY>數目</Wealth_TameAnimals.graphLabelY>
-
-  <FreeColonists.label>居民</FreeColonists.label>
-  <FreeColonists.graphLabelY>居民</FreeColonists.graphLabelY>
-
-  <Prisoners.label>俘虜</Prisoners.label>
-  <Prisoners.graphLabelY>俘虜</Prisoners.graphLabelY>
-
+  
+  <!-- EN: recovery -->
+  <Adaptation.label>復原</Adaptation.label>
+  <!-- EN: Days -->
+  <Adaptation.graphLabelY>天</Adaptation.graphLabelY>
+  
+  <!-- EN: mood -->
   <ColonistMood.label>居民情緒</ColonistMood.label>
+  <!-- EN: Percent -->
   <ColonistMood.graphLabelY>百分比</ColonistMood.graphLabelY>
+  
+  <!-- EN: free colonists -->
+  <FreeColonists.label>居民</FreeColonists.label>
+  <!-- EN: Colonists -->
+  <FreeColonists.graphLabelY>居民</FreeColonists.graphLabelY>
+  
+  <!-- EN: pop recovery -->
+  <PopAdaptation.label>突然復原</PopAdaptation.label>
+  <!-- EN: Days -->
+  <PopAdaptation.graphLabelY>天</PopAdaptation.graphLabelY>
+  
+  <!-- EN: pop intent x10 -->
+  <PopIntent.label>突然意向x10</PopIntent.label>
+  <!-- EN: Days -->
+  <PopIntent.graphLabelY>天</PopIntent.graphLabelY>
+  
+  <!-- EN: prisoners -->
+  <Prisoners.label>俘虜</Prisoners.label>
+  <!-- EN: Prisoners -->
+  <Prisoners.graphLabelY>俘虜</Prisoners.graphLabelY>
+  
+  <!-- EN: fun points /10 -->
+  <ThreatPoints.label>娛樂點</ThreatPoints.label>
+  <!-- EN: Points -->
+  <ThreatPoints.graphLabelY>點</ThreatPoints.graphLabelY>
+  
+  <!-- EN: wealth (buildings) -->
+  <Wealth_Buildings.label>資產(建築)</Wealth_Buildings.label>
+  <!-- EN: Amount -->
+  <Wealth_Buildings.graphLabelY>數目</Wealth_Buildings.graphLabelY>
+  
+  <!-- EN: wealth (items) -->
+  <Wealth_Items.label>資產(物品)</Wealth_Items.label>
+  <!-- EN: Amount -->
+  <Wealth_Items.graphLabelY>數目</Wealth_Items.graphLabelY>
+  
+  <!-- EN: wealth (animals) -->
+  <Wealth_TameAnimals.label>資產(動物)</Wealth_TameAnimals.label>
+  <!-- EN: Amount -->
+  <Wealth_TameAnimals.graphLabelY>數目</Wealth_TameAnimals.graphLabelY>
+  
+  <!-- EN: wealth (total) -->
+  <Wealth_Total.label>資產(全部)</Wealth_Total.label>
+  <!-- EN: Amount -->
+  <Wealth_Total.graphLabelY>數目</Wealth_Total.graphLabelY>
   
 </LanguageData>

@@ -1,78 +1,145 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- Item hauling -->
+  <!-- EN: arresting TargetA. -->
+  <Arrest.reportString>逮捕TargetA。</Arrest.reportString>
   
-  <HaulToCell.reportString>運送TargetA。</HaulToCell.reportString>
-  <HaulToContainer.reportString>運送TargetA。</HaulToContainer.reportString>
-
-
-  <!-- Special hauling -->
+  <!-- EN: building roof. -->
+  <BuildRoof.reportString>搭建屋頂。</BuildRoof.reportString>
   
-  <Steal.reportString>掠奪TargetA。</Steal.reportString>
-  <Kidnap.reportString>綁架TargetA。</Kidnap.reportString>
+  <!-- EN: capturing TargetA. -->
+  <Capture.reportString>俘虜TargetA。</Capture.reportString>
+  
+  <!-- EN: carrying TargetA. -->
   <CarryDownedPawnToExit.reportString>救援TargetA。</CarryDownedPawnToExit.reportString>
   
-  
-  <!-- Pawn hauling -->
-  
-  <Rescue.reportString>援救TargetA。</Rescue.reportString>
+  <!-- EN: carrying TargetA to cryptosleep casket. -->
   <CarryToCryptosleepCasket.reportString>將TargetA帶往冷凍休眠艙。</CarryToCryptosleepCasket.reportString>
-  <Capture.reportString>俘虜TargetA。</Capture.reportString>
-  <Arrest.reportString>逮捕TargetA。</Arrest.reportString>
-  <ReleasePrisoner.reportString>釋放TargetA。</ReleasePrisoner.reportString>
-  <EscortPrisonerToBed.reportString>押送犯人TargetA。</EscortPrisonerToBed.reportString>
-  <TakeWoundedPrisonerToBed.reportString>帶走受傷的犯人TargetA。</TakeWoundedPrisonerToBed.reportString>
-  <TakeToBedToOperate.reportString>帶TargetA到床上。</TakeToBedToOperate.reportString>
   
+  <!-- EN: cleaning TargetA. -->
+  <Clean.reportString>清理TargetA。</Clean.reportString>
   
-  <!-- Animal handling -->
+  <!-- EN: cutting TargetA. -->
+  <CutPlant.reportString>除掉TargetA。</CutPlant.reportString>
   
-  <Slaughter.reportString>宰殺TargetA。</Slaughter.reportString>
-  <Shear.reportString>替TargetA剃毛。</Shear.reportString>
-  <Milk.reportString>替TargetA擠奶。</Milk.reportString>
-  <Tame.reportString>嘗試馴服TargetA。</Tame.reportString>
-  <Train.reportString>訓練TargetA。</Train.reportString>
-
-
-  <!-- Construction and repair -->
+  <!-- EN: cutting TargetA. -->
+  <CutPlantDesignated.reportString>除掉TargetA。</CutPlantDesignated.reportString>
   
-  <PlaceNoCostFrame.reportString>建造TargetA。</PlaceNoCostFrame.reportString>
-  <FinishFrame.reportString>建造TargetA。</FinishFrame.reportString>
+  <!-- EN: deconstructing TargetA. -->
   <Deconstruct.reportString>拆除TargetA。</Deconstruct.reportString>
-  <Uninstall.reportString>打包TargetA。</Uninstall.reportString>
-  <Repair.reportString>修理TargetA。</Repair.reportString>
+  
+  <!-- EN: feeding TargetA to TargetB. -->
+  <DeliverFood.reportString>正將TargetA帶给TargetB吃。</DeliverFood.reportString>
+  
+  <!-- EN: doing bill at TargetA. -->
+  <DoBill.reportString>做TargetA清單上的内容。</DoBill.reportString>
+  
+  <!-- EN: escorting prisoner TargetA. -->
+  <EscortPrisonerToBed.reportString>押送犯人TargetA。</EscortPrisonerToBed.reportString>
+  
+  <!-- EN: feeding TargetA to TargetB. -->
+  <FeedPatient.reportString>餵食TargetBTargetA。</FeedPatient.reportString>
+  
+  <!-- EN: building TargetA. -->
+  <FinishFrame.reportString>建造TargetA。</FinishFrame.reportString>
+  
+  <!-- EN: replacing broken components in TargetA. -->
   <FixBrokenDownBuilding.reportString>更換TargetA的零件。</FixBrokenDownBuilding.reportString>
-  <BuildRoof.reportString>搭建屋頂。</BuildRoof.reportString>
+  
+  <!-- EN: harvesting TargetA. -->
+  <Harvest.reportString>收穫TargetA。</Harvest.reportString>
+  
+  <!-- EN: harvesting TargetA. -->
+  <HarvestDesignated.reportString>收穫TargetA。</HarvestDesignated.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulToCell.reportString>運送TargetA。</HaulToCell.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulToContainer.reportString>運送TargetA。</HaulToContainer.reportString>
+  
+  <!-- EN: hunting TargetA. -->
+  <Hunt.reportString>狩獵TargetA。</Hunt.reportString>
+  
+  <!-- EN: kidnapping TargetA. -->
+  <Kidnap.reportString>綁架TargetA。</Kidnap.reportString>
+  
+  <!-- EN: milking TargetA. -->
+  <Milk.reportString>替TargetA擠奶。</Milk.reportString>
+  
+  <!-- EN: digging at TargetA. -->
+  <Mine.reportString>開採TargetA。</Mine.reportString>
+  
+  <!-- EN: drilling at TargetA. -->
+  <OperateDeepDrill.reportString>在TargetA採礦。</OperateDeepDrill.reportString>
+  
+  <!-- EN: scanning at TargetA. -->
+  <OperateScanner.reportString>探測TargetA。</OperateScanner.reportString>
+  
+  <!-- EN: building TargetA. -->
+  <PlaceNoCostFrame.reportString>建造TargetA。</PlaceNoCostFrame.reportString>
+  
+  <!-- EN: attempting to recruit TargetA. -->
+  <PrisonerAttemptRecruit.reportString>嘗試招募TargetA。</PrisonerAttemptRecruit.reportString>
+  
+  <!-- EN: executing TargetA. -->
+  <PrisonerExecution.reportString>準備處決TargetA。</PrisonerExecution.reportString>
+  
+  <!-- EN: releasing TargetA. -->
+  <ReleasePrisoner.reportString>釋放TargetA。</ReleasePrisoner.reportString>
+  
+  <!-- EN: removing floor. -->
+  <RemoveFloor.reportString>拆除地板。</RemoveFloor.reportString>
+  
+  <!-- EN: removing roof. -->
   <RemoveRoof.reportString>拆除屋頂。</RemoveRoof.reportString>
   
+  <!-- EN: repairing TargetA. -->
+  <Repair.reportString>修理TargetA。</Repair.reportString>
   
-  <!-- Medical -->
+  <!-- EN: rescuing TargetA. -->
+  <Rescue.reportString>援救TargetA。</Rescue.reportString>
   
-  <FeedPatient.reportString>餵食TargetBTargetA。</FeedPatient.reportString>
-  <TendPatient.reportString>治療TargetA。</TendPatient.reportString>
-
-  
-  <!-- Misc -->
-  
-  <DeliverFood.reportString>正將TargetA帶给TargetB吃。</DeliverFood.reportString>
-  <DoBill.reportString>做TargetA清單上的内容。</DoBill.reportString>
-  <OperateDeepDrill.reportString>在TargetA採礦。</OperateDeepDrill.reportString>
-  <Clean.reportString>清理TargetA。</Clean.reportString>
+  <!-- EN: researching. -->
   <Research.reportString>進行研究。</Research.reportString>
-  <Hunt.reportString>狩獵TargetA。</Hunt.reportString>
-  <UseCommsConsole.reportString>通訊中。</UseCommsConsole.reportString>
-  <Mine.reportString>開採TargetA。</Mine.reportString>
+  
+  <!-- EN: shearing TargetA. -->
+  <Shear.reportString>替TargetA剃毛。</Shear.reportString>
+  
+  <!-- EN: slaughtering TargetA. -->
+  <Slaughter.reportString>宰殺TargetA。</Slaughter.reportString>
+  
+  <!-- EN: smoothing floor. -->
   <SmoothFloor.reportString>拋光地面。</SmoothFloor.reportString>
-  <RemoveFloor.reportString>拆除地板。</RemoveFloor.reportString>
+  
+  <!-- EN: smoothing wall. -->
   <SmoothWall.reportString>拋光岩壁。</SmoothWall.reportString>
+  
+  <!-- EN: sowing TargetA. -->
   <Sow.reportString>種植TargetA。</Sow.reportString>
-  <Harvest.reportString>收穫TargetA。</Harvest.reportString>
-  <HarvestDesignated.reportString>收穫TargetA。</HarvestDesignated.reportString>
-  <CutPlant.reportString>除掉TargetA。</CutPlant.reportString>
-  <CutPlantDesignated.reportString>除掉TargetA。</CutPlantDesignated.reportString>
-  <PrisonerFriendlyChat.reportString>正和俘虜TargetA聊天。</PrisonerFriendlyChat.reportString>
-  <PrisonerAttemptRecruit.reportString>嘗試招募TargetA。</PrisonerAttemptRecruit.reportString>
-  <PrisonerExecution.reportString>準備處決TargetA。</PrisonerExecution.reportString>
+  
+  <!-- EN: stealing TargetA. -->
+  <Steal.reportString>掠奪TargetA。</Steal.reportString>
+  
+  <!-- EN: taking TargetA to bed. -->
+  <TakeToBedToOperate.reportString>帶TargetA到床上。</TakeToBedToOperate.reportString>
+  
+  <!-- EN: taking wounded prisoner TargetA. -->
+  <TakeWoundedPrisonerToBed.reportString>帶走受傷的犯人TargetA。</TakeWoundedPrisonerToBed.reportString>
+  
+  <!-- EN: taming TargetA. -->
+  <Tame.reportString>嘗試馴服TargetA。</Tame.reportString>
+  
+  <!-- EN: tending to TargetA. -->
+  <TendPatient.reportString>治療TargetA。</TendPatient.reportString>
+  
+  <!-- EN: training TargetA. -->
+  <Train.reportString>訓練TargetA。</Train.reportString>
+  
+  <!-- EN: uninstalling TargetA. -->
+  <Uninstall.reportString>打包TargetA。</Uninstall.reportString>
+  
+  <!-- EN: using comms console. -->
+  <UseCommsConsole.reportString>通訊中。</UseCommsConsole.reportString>
   
 </LanguageData>

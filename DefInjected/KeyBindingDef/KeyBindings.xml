@@ -1,81 +1,151 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- In-game camera -->
-	
-  <MapDolly_Up.label>向上捲動地圖</MapDolly_Up.label>
-  <MapDolly_Down.label>向下捲動地圖</MapDolly_Down.label>
-  <MapDolly_Left.label>向左捲動地圖</MapDolly_Left.label>
-  <MapDolly_Right.label>向右捲動地圖</MapDolly_Right.label>
-  <MapZoom_In.label>放大鏡頭</MapZoom_In.label>
-  <MapZoom_Out.label>縮小鏡頭</MapZoom_Out.label>
-
   
-  <!-- Map play -->
-
+  <!-- EN: accept -->
   <Accept.label>accept</Accept.label>
+  
+  <!-- EN: cancel -->
   <Cancel.label>cancel</Cancel.label>
-  <TakeScreenshot.label>螢幕截圖</TakeScreenshot.label>
-  <ToggleScreenshotMode.label>切換螢幕截圖模式</ToggleScreenshotMode.label>
-  <SelectNextInCell.label>選取同一方格的下一個物件。</SelectNextInCell.label>
-  <TogglePause.label>暫停/開始遊戲</TogglePause.label>
-  <TimeSpeed_Normal.label>遊戲速度：正常</TimeSpeed_Normal.label>
-  <TimeSpeed_Fast.label>遊戲速度：快速</TimeSpeed_Fast.label>
-  <TimeSpeed_Superfast.label>遊戲速度：高速</TimeSpeed_Superfast.label>
-  <TimeSpeed_Ultrafast.label>遊戲速度：極速(Debug)</TimeSpeed_Ultrafast.label>
-  <PreviousColonist.label>上一名居民</PreviousColonist.label>
-  <NextColonist.label>下一名居民</NextColonist.label>
-  <ToggleRoomStatsDisplay.label>開啟/關閉顯示房間屬性</ToggleRoomStatsDisplay.label>
-  <ToggleBeautyDisplay.label>開啟/關閉顯示美觀度</ToggleBeautyDisplay.label>
   
-  
-  <!-- Misc (re-used) -->
-  
-  <Misc1.label>其它 1</Misc1.label>
-  <Misc2.label>其它 2</Misc2.label>
-  <Misc3.label>其它 3</Misc3.label>
-  <Misc4.label>其它 4</Misc4.label>
-  <Misc5.label>其它 5</Misc5.label>
-  <Misc6.label>其它 6</Misc6.label>
-  <Misc7.label>其它 7</Misc7.label>
-  <Misc8.label>其它 8</Misc8.label>
-  <Misc9.label>其它 9</Misc9.label>
-  <Misc10.label>其它 10</Misc10.label>
-  <Misc11.label>其它 11</Misc11.label>
-  <Misc12.label>其它 12</Misc12.label>
-  
-  
-  <!-- Selection special -->
-  
-  <Command_TogglePower.label>開啟/關閉電源</Command_TogglePower.label>
-  <Command_ItemForbid.label>允許/解除物件互動限制</Command_ItemForbid.label>
+  <!-- EN: draft -->
   <Command_ColonistDraft.label>徵召/解除徵召居民</Command_ColonistDraft.label>
   
+  <!-- EN: toggle forbidden -->
+  <Command_ItemForbid.label>允許/解除物件互動限制</Command_ItemForbid.label>
   
-  <!-- Architect: Common -->
+  <!-- EN: toggle power -->
+  <Command_TogglePower.label>開啟/關閉電源</Command_TogglePower.label>
   
+  <!-- EN: cancel -->
   <Designator_Cancel.label>取消</Designator_Cancel.label>
+  
+  <!-- EN: deconstruct -->
   <Designator_Deconstruct.label>物件結構</Designator_Deconstruct.label>
+  
+  <!-- EN: rotate left -->
   <Designator_RotateLeft.label>向左旋轉物件</Designator_RotateLeft.label>
+  
+  <!-- EN: rotate right -->
   <Designator_RotateRight.label>向右旋轉物件</Designator_RotateRight.label>
-
-
-  <!-- Modifiers -->
-
-  <ModifierIncrement_10x.label>增加10x</ModifierIncrement_10x.label>
+  
+  <!-- EN: tick once -->
+  <Dev_TickOnce.label>一旦勾選</Dev_TickOnce.label>
+  
+  <!-- EN: toggle debug actions menu -->
+  <Dev_ToggleDebugActionsMenu.label>開啟/關閉Debug行動選單</Dev_ToggleDebugActionsMenu.label>
+  
+  <!-- EN: toggle debug inspector -->
+  <Dev_ToggleDebugInspector.label>開啟Debug偵測</Dev_ToggleDebugInspector.label>
+  
+  <!-- EN: toggle debug log -->
+  <Dev_ToggleDebugLog.label>開啟/關閉Debug日誌</Dev_ToggleDebugLog.label>
+  
+  <!-- EN: toggle debug log menu -->
+  <Dev_ToggleDebugLogMenu.label>開啟/關閉Debug日誌選單</Dev_ToggleDebugLogMenu.label>
+  
+  <!-- EN: toggle debug settings menu -->
+  <Dev_ToggleDebugSettingsMenu.label>開啟/關閉Debug設定選單</Dev_ToggleDebugSettingsMenu.label>
+  
+  <!-- EN: toggle god mode -->
+  <Dev_ToggleGodMode.label>開啟上帝模式</Dev_ToggleGodMode.label>
+  
+  <!-- EN: dolly down -->
+  <MapDolly_Down.label>向下捲動地圖</MapDolly_Down.label>
+  
+  <!-- EN: dolly left -->
+  <MapDolly_Left.label>向左捲動地圖</MapDolly_Left.label>
+  
+  <!-- EN: dolly right -->
+  <MapDolly_Right.label>向右捲動地圖</MapDolly_Right.label>
+  
+  <!-- EN: dolly up -->
+  <MapDolly_Up.label>向上捲動地圖</MapDolly_Up.label>
+  
+  <!-- EN: zoom in -->
+  <MapZoom_In.label>放大鏡頭</MapZoom_In.label>
+  
+  <!-- EN: zoom out -->
+  <MapZoom_Out.label>縮小鏡頭</MapZoom_Out.label>
+  
+  <!-- EN: Misc 1 -->
+  <Misc1.label>其它 1</Misc1.label>
+  
+  <!-- EN: Misc 10 -->
+  <Misc10.label>其它 10</Misc10.label>
+  
+  <!-- EN: Misc 11 -->
+  <Misc11.label>其它 11</Misc11.label>
+  
+  <!-- EN: Misc 12 -->
+  <Misc12.label>其它 12</Misc12.label>
+  
+  <!-- EN: Misc 2 -->
+  <Misc2.label>其它 2</Misc2.label>
+  
+  <!-- EN: Misc 3 -->
+  <Misc3.label>其它 3</Misc3.label>
+  
+  <!-- EN: Misc 4 -->
+  <Misc4.label>其它 4</Misc4.label>
+  
+  <!-- EN: Misc 5 -->
+  <Misc5.label>其它 5</Misc5.label>
+  
+  <!-- EN: Misc 6 -->
+  <Misc6.label>其它 6</Misc6.label>
+  
+  <!-- EN: Misc 7 -->
+  <Misc7.label>其它 7</Misc7.label>
+  
+  <!-- EN: Misc 8 -->
+  <Misc8.label>其它 8</Misc8.label>
+  
+  <!-- EN: Misc 9 -->
+  <Misc9.label>其它 9</Misc9.label>
+  
+  <!-- EN: increment 100x -->
   <ModifierIncrement_100x.label>增加100x</ModifierIncrement_100x.label>
+  
+  <!-- EN: increment 10x -->
+  <ModifierIncrement_10x.label>增加10x</ModifierIncrement_10x.label>
+  
+  <!-- EN: next colonist -->
+  <NextColonist.label>下一名居民</NextColonist.label>
+  
+  <!-- EN: previous colonist -->
+  <PreviousColonist.label>上一名居民</PreviousColonist.label>
+  
+  <!-- EN: queue order -->
   <QueueOrder.label>排程順位</QueueOrder.label>
   
+  <!-- EN: select next in cell -->
+  <SelectNextInCell.label>選取同一方格的下一個物件。</SelectNextInCell.label>
   
-  <!-- Debug -->
+  <!-- EN: take screenshot -->
+  <TakeScreenshot.label>螢幕截圖</TakeScreenshot.label>
   
-  <Dev_TickOnce.label>一旦勾選</Dev_TickOnce.label>
-  <Dev_ToggleGodMode.label>開啟上帝模式</Dev_ToggleGodMode.label>
-  <Dev_ToggleDebugLog.label>開啟/關閉Debug日誌</Dev_ToggleDebugLog.label>
-  <Dev_ToggleDebugActionsMenu.label>開啟/關閉Debug行動選單</Dev_ToggleDebugActionsMenu.label>
-  <Dev_ToggleDebugLogMenu.label>開啟/關閉Debug日誌選單</Dev_ToggleDebugLogMenu.label>
-  <Dev_ToggleDebugInspector.label>開啟Debug偵測</Dev_ToggleDebugInspector.label>
-  <Dev_ToggleDebugSettingsMenu.label>開啟/關閉Debug設定選單</Dev_ToggleDebugSettingsMenu.label>
-
-
+  <!-- EN: game speed: Fast -->
+  <TimeSpeed_Fast.label>遊戲速度：快速</TimeSpeed_Fast.label>
+  
+  <!-- EN: game speed: Normal -->
+  <TimeSpeed_Normal.label>遊戲速度：正常</TimeSpeed_Normal.label>
+  
+  <!-- EN: game speed: Super fast -->
+  <TimeSpeed_Superfast.label>遊戲速度：高速</TimeSpeed_Superfast.label>
+  
+  <!-- EN: game speed: Ultra fast (debug) -->
+  <TimeSpeed_Ultrafast.label>遊戲速度：極速(Debug)</TimeSpeed_Ultrafast.label>
+  
+  <!-- EN: toggle beauty display -->
+  <ToggleBeautyDisplay.label>開啟/關閉顯示美觀度</ToggleBeautyDisplay.label>
+  
+  <!-- EN: pause/resume game -->
+  <TogglePause.label>暫停/開始遊戲</TogglePause.label>
+  
+  <!-- EN: toggle room stats display -->
+  <ToggleRoomStatsDisplay.label>開啟/關閉顯示房間屬性</ToggleRoomStatsDisplay.label>
+  
+  <!-- EN: toggle screenshot mode -->
+  <ToggleScreenshotMode.label>切換螢幕截圖模式</ToggleScreenshotMode.label>
+  
 </LanguageData>

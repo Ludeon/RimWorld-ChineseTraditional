@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Threats -->
-
+  
+  <!-- EN: ambush -->
   <Ambush.label>埋伏</Ambush.label>
-  <Ambush.letterText>{0}受到來自{1}的{2}伏擊了！</Ambush.letterText>
+  <!-- EN: Caravan ambushed -->
   <Ambush.letterLabel>旅隊遇襲</Ambush.letterLabel>
+  <!-- EN: {0} has been ambushed by {1} from {2}! -->
+  <Ambush.letterText>{0}受到來自{1}的{2}伏擊了！</Ambush.letterText>
   
-  <ManhunterAmbush.label>獸群埋伏</ManhunterAmbush.label>
-  <ManhunterAmbush.letterText>{0}被一大群{1}偷襲了！</ManhunterAmbush.letterText>
-  <ManhunterAmbush.letterLabel>旅隊遇襲</ManhunterAmbush.letterLabel>
-
-
-  <!-- Good -->
-  
-  <CaravanMeeting.label>旅隊接觸</CaravanMeeting.label>
-
-
-  <!-- Bad -->
-
+  <!-- EN: payment demand -->
   <CaravanDemand.label>攔路索財</CaravanDemand.label>
   
-
+  <!-- EN: caravan meeting -->
+  <CaravanMeeting.label>旅隊接觸</CaravanMeeting.label>
+  
+  <!-- EN: manhunter ambush -->
+  <ManhunterAmbush.label>獸群埋伏</ManhunterAmbush.label>
+  <!-- EN: Caravan ambushed (manhunters) -->
+  <ManhunterAmbush.letterLabel>旅隊遇襲</ManhunterAmbush.letterLabel>
+  <!-- EN: {0} has been ambushed by manhunting {1}! -->
+  <ManhunterAmbush.letterText>{0}被一大群{1}偷襲了！</ManhunterAmbush.letterText>
+  
 </LanguageData>
