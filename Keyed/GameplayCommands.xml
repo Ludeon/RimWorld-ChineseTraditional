@@ -1,280 +1,455 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Forbid -->
+  <!-- EN: Forbid -->
   <CommandForbid>禁用</CommandForbid>
+  <!-- EN: Forbidden - colonists will not interact with this. -->
   <CommandForbiddenDesc>已禁止——居民不會接觸這個物件。</CommandForbiddenDesc>
+  <!-- EN: Not forbidden - colonists may interact with this. -->
   <CommandNotForbiddenDesc>未禁止——居民會接觸這個物件。</CommandNotForbiddenDesc>
-  
+
   <!-- Power -->
+  <!-- EN: Toggle power -->
   <CommandTogglePowerLabel>開關電源</CommandTogglePowerLabel>
+  <!-- EN: Toggle power. -->
   <CommandTogglePowerDesc>開關電源。</CommandTogglePowerDesc>
   
+  <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>指定開/關電源</CommandDesignateTogglePowerLabel>
+  <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
   <CommandDesignateTogglePowerDesc>指定開/關這項物件的電源。一名居民將會前往操作。</CommandDesignateTogglePowerDesc>
   
+  <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>重新連接</CommandTryReconnectLabel>
+  <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
   <CommandTryReconnectDesc>嘗試連接至附近另一個電網。在目前連接的電網沒有電但附近有另一個電網時很有用。</CommandTryReconnectDesc>
-  
+
+  <!-- EN: Gather spot -->
   <CommandGatherSpotToggleLabel>聚集點</CommandGatherSpotToggleLabel>
+  <!-- EN: Active - colonists will gather around this object. -->
   <CommandGatherSpotToggleDescActive>開啟——居民們會在這個物件附近聚集。</CommandGatherSpotToggleDescActive>
+  <!-- EN: Inactive - colonists will not gather around this object. -->
   <CommandGatherSpotToggleDescInactive>關閉——居民們不會在這個物件附近聚集。</CommandGatherSpotToggleDescInactive>
   
-  
   <!-- Drafting -->
+  <!-- EN: Draft -->
   <CommandDraftLabel>徵召</CommandDraftLabel>
+  <!-- EN: Undraft -->
   <CommandUndraftLabel>取消徵召</CommandUndraftLabel>
+  <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>切換徵召狀態。\n\n被徵召的人會遵守命令並戰鬥。他們不會工作、吃飯或休息。</CommandToggleDraftDesc>
+  <!-- EN: {0} cannot walk. -->
   <IsIncapped>{0}無法動彈。</IsIncapped>
-  
+
+  <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>自由開火</CommandFireAtWillLabel>
+  <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
   <CommandFireAtWillDesc>允許或禁止自由開火。\n\n當禁止開火時，這名角色將不會自動對射程範圍內的目標開火。此設定對近戰不起作用。</CommandFireAtWillDesc>
-	
+  
+  <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>取消優先工作</CommandClearPrioritizedWork>
+  <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
   <CommandClearPrioritizedWorkDesc>取消目前優先進行的工作，讓居民回歸正常工作。</CommandClearPrioritizedWorkDesc>
   
+  <!-- EN: Cancel -->
   <CommandCancelConstructionLabel>取消</CommandCancelConstructionLabel>
+  <!-- EN: Cancel this construction. -->
   <CommandCancelConstructionDesc>取消建造命令。</CommandCancelConstructionDesc>
-  
+
+  <!-- EN: Get out of bed -->
   <CommandGetOutOfBedLabel>離床</CommandGetOutOfBedLabel>
+  <!-- EN: Get out of current bed. -->
   <CommandGetOutOfBedDesc>離床。</CommandGetOutOfBedDesc>
-  
+
+  <!-- EN: Set owner -->
   <CommandBedSetOwnerLabel>自訂擁有者</CommandBedSetOwnerLabel>
+  <!-- EN: Assign this bed to be owned by a specific colonist. -->
   <CommandBedSetOwnerDesc>分派此床位給特定的居民。</CommandBedSetOwnerDesc>
+  <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>登錄居民</CommandGraveAssignColonistLabel>
+  <!-- EN: Assign this grave to be owned by a specific colonist. -->
   <CommandGraveAssignColonistDesc>將此墓位分配給特定的居民。</CommandGraveAssignColonistDesc>
+  <!-- EN: Assign -->
   <BuildingAssign>登錄</BuildingAssign>
+  <!-- EN: Reassign -->
   <BuildingReassign>重新登錄</BuildingReassign>
+  <!-- EN: Unassign -->
   <BuildingUnassign>取消登錄</BuildingUnassign>
+  <!-- EN: For prisoners -->
   <CommandBedSetForPrisonersLabel>設為俘虜專用</CommandBedSetForPrisonersLabel>
+  <!-- EN: Whether beds in this room should be used by prisoners. -->
   <CommandBedSetForPrisonersDesc>將這個房間内的床設為俘虜專用。</CommandBedSetForPrisonersDesc>
+  <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
   <CommandBedSetForPrisonersFailOutdoors>無法將室外的床設為俘虜專用。</CommandBedSetForPrisonersFailOutdoors>
+  <!-- EN: Medical -->
   <CommandBedSetAsMedicalLabel>設為病床</CommandBedSetAsMedicalLabel>
+  <!-- EN: Whether this bed is for medical use. -->
   <CommandBedSetAsMedicalDesc>將這個床設為病床。</CommandBedSetAsMedicalDesc>
+  <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(俘虜和居民不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權：</TurningOnPrisonerBedWarning>
+  <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(俘虜和居民不能睡在同一個房間)。\n\n以下角色將會失去他們對床的所有權：</TurningOffPrisonerBedWarning>
+  <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>你確定要這麼做嗎？</AreYouSure>
-  
+
+  <!-- EN: Detonate -->
   <CommandDetonateLabel>爆破</CommandDetonateLabel>
+  <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>開始爆破倒數計時。</CommandDetonateDesc>
 
-  <CommandReNameZoneLabel>重新命名</CommandReNameZoneLabel>
-  <CommandReNameZoneDesc>重新命名這個區域。</CommandReNameZoneDesc>
+  <!-- EN: Rename -->
+  <CommandRenameZoneLabel>重新命名</CommandRenameZoneLabel>
+  <!-- EN: Rename this zone. -->
+  <CommandRenameZoneDesc>重新命名這個區域。</CommandRenameZoneDesc>
 
+  <!-- EN: Hide -->
   <CommandHideZoneLabel>隱藏</CommandHideZoneLabel>
+  <!-- EN: Unhide -->
   <CommandUnhideZoneLabel>取消隱藏</CommandUnhideZoneLabel>
+  <!-- EN: Hide/unhide this zone. -->
   <CommandHideZoneDesc>顯示/隱藏這個區域。</CommandHideZoneDesc>
 
+  <!-- EN: Delete -->
   <CommandDeleteZoneLabel>删除</CommandDeleteZoneLabel>
+  <!-- EN: Delete this zone. -->
   <CommandDeleteZoneDesc>刪除這個區域。</CommandDeleteZoneDesc>
 
+  <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>複製區域設定值</CommandCopyZoneSettingsLabel>
+  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
   <CommandCopyZoneSettingsDesc>複製當前區域的設定值，你可以將設定套用至另一個區域。</CommandCopyZoneSettingsDesc>
 
+  <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>套用區域設定值</CommandPasteZoneSettingsLabel>
+  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
   <CommandPasteZoneSettingsDesc>套用設定值至此區域。</CommandPasteZoneSettingsDesc>
 
+  <!-- EN: Allow sowing -->
   <CommandAllowSow>允許播種</CommandAllowSow>
+  <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
   <CommandAllowSowDesc>當此選項設為不允許時，居民將不會在此區域種植任何植物，但他們仍可以採收植物。</CommandAllowSowDesc>
-  
+
   <!-- Artillery -->
+  <!-- EN: Set forced target -->
   <CommandSetForceAttackTarget>強制設定目標</CommandSetForceAttackTarget>
+  <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
   <CommandSetForceAttackTargetDesc>設定這個炮塔必須不停試圖攻擊的目標。</CommandSetForceAttackTargetDesc>
+  <!-- EN: Stop forced attack -->
   <CommandStopForceAttack>停止強制攻擊</CommandStopForceAttack>
+  <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
   <CommandStopForceAttackDesc>停止強制攻擊並允許炮塔自由開火。</CommandStopForceAttackDesc>
+  <!-- EN: Not currently force-attacking. -->
   <CommandStopAttackFailNotForceAttacking>停止強制攻擊目標。</CommandStopAttackFailNotForceAttacking>
+  <!-- EN: Extract shell -->
   <CommandExtractShell>退出砲彈</CommandExtractShell>
+  <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
   <CommandExtractShellDesc>退出當前裝填的砲彈已更換為其他彈種。</CommandExtractShellDesc>
+  <!-- EN: Target beyond maximum range. -->
   <MessageTargetBeyondMaximumRange>目標超出最大射程。</MessageTargetBeyondMaximumRange>
+  <!-- EN: Target below minimum range. -->
   <MessageTargetBelowMinimumRange>目標近於最小射程。</MessageTargetBelowMinimumRange>
+  <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
   <MessageTurretWontFireBecauseHoldFire>警告：迫擊砲將不會開火，因為已被設定為停火狀態。</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
+  <!-- EN: Launch ship -->
   <CommandShipLaunch>起飛</CommandShipLaunch>
+  <!-- EN: Start the ship launch sequence with the current configuration. -->
   <CommandShipLaunchDesc>使用目前的星艦設定開始星艦啟航程序。</CommandShipLaunchDesc>
+  <!-- EN: Show launch report -->
   <CommandShipLaunchReport>顯示啟航報告</CommandShipLaunchReport>
+  <!-- EN: Show a readiness report about the ship's launch capability. -->
   <CommandShipLaunchReportDesc>顯示一份關於星艦啟動能力的報告。</CommandShipLaunchReportDesc>
+  <!-- EN: Start ship -->
   <CommandShipStartup>發動星艦</CommandShipStartup>
+  <!-- EN: Wake up hibernating ship components. -->
   <CommandShipStartupDesc>喚醒待機中的星艦部件。</CommandShipStartupDesc>
 
   <!-- Pod -->
+  <!-- EN: Eject sleeper -->
   <CommandPodEject>彈出休眠者</CommandPodEject>
+  <!-- EN: Wake up the cryptosleeper and eject them. -->
   <CommandPodEjectDesc>喚醒低溫休眠者並將他們彈出。</CommandPodEjectDesc>
+  <!-- EN: Contains nobody. -->
   <CommandPodEjectFailEmpty>艙內無人。</CommandPodEjectFailEmpty>
 
   <!-- Door -->
+  <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>切換門鎖</CommandToggleDoorForbid>
+  <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
   <CommandToggleDoorForbidDesc>鎖上或解鎖此門。鎖上的門將不會對居民或訪客開啟，但這並不會影響敵人與動物與門的互動。</CommandToggleDoorForbidDesc>
+  <!-- EN: Hold open -->
   <CommandToggleDoorHoldOpen>保持敞開</CommandToggleDoorHoldOpen>
+  <!-- EN: When active, your colonists will not close the door after passing through. -->
   <CommandToggleDoorHoldOpenDesc>當開啟此功能時，下一名通過的居民將不會關上這扇門。</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
+  <!-- EN: Reset -->
   <CommandResetTemp>重置</CommandResetTemp>
+  <!-- EN: Reset the target temperature to room temperature. -->
   <CommandResetTempDesc>重置目標溫度為室溫</CommandResetTempDesc>
+  <!-- EN: Raise the target temperature. -->
   <CommandRaiseTempDesc>調高目標溫度</CommandRaiseTempDesc>
+  <!-- EN: Lower the target temperature. -->
   <CommandLowerTempDesc>調降目標溫度</CommandLowerTempDesc>
 
   <!-- Install/reinstall -->
+  <!-- EN: Install -->
   <CommandInstall>安裝</CommandInstall>
+  <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
   <CommandInstallDesc>此物件已被包裝為方便儲存與運輸的狀態，使用這項指令以安裝此物件至指定的位置。</CommandInstallDesc>
+  <!-- EN: Reinstall at... -->
   <CommandReinstall>重新安裝至...。</CommandReinstall>
+  <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
   <CommandReinstallDesc>將此物件設為無法拆除或重新安裝至其它地方。</CommandReinstallDesc>
-
+  
   <!-- Trade beacon -->
+  <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
   <CommandMakeBeaconStockpileDesc>創建一片與交易信標作用範圍相同的儲存區。</CommandMakeBeaconStockpileDesc>
+  <!-- EN: Create stockpile -->
   <CommandMakeBeaconStockpileLabel>創建儲存區</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
+  <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
   <CommandSunLampMakeGrowingZoneDesc>在這個太陽燈的光線範圍內劃設一片種植區。</CommandSunLampMakeGrowingZoneDesc>
+  <!-- EN: Create growing zone -->
   <CommandSunLampMakeGrowingZoneLabel>劃設種植區</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
+  <!-- EN: Auto Rearm -->
   <CommandAutoRearm>自動重置陷阱</CommandAutoRearm>
+  <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>當此功能開啟時，陷阱被觸發後，居民將會前來重置陷阱。</CommandAutoRearmDesc>
   
   <!-- Animal control -->
+  <!-- EN: Release animals -->
   <CommandReleaseAnimalsLabel>放出動物</CommandReleaseAnimalsLabel>
+  <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>當啟用此選項時，動物能夠前往攻擊遠處的目標，反之，牠們就只會跟隨並護衛主人。</CommandReleaseAnimalsDesc>
   
   <!-- Squad attack -->
+  <!-- EN: Attack -->
   <CommandSquadAttack>攻擊</CommandSquadAttack>
+  <!-- EN: Order selected colonists to attack designated target. -->
   <CommandSquadAttackDesc>命令當前選擇的所有居民攻擊指定目標。</CommandSquadAttackDesc>
   
   <!-- Melee attack -->
+  <!-- EN: Melee attack -->
   <CommandMeleeAttack>近戰攻擊</CommandMeleeAttack>
+  <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
   <CommandMeleeAttackDesc>命令當前選擇的所有居民只用拳頭或近戰武器攻擊指定目標。</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
+  <!-- EN: Hold fire -->
   <CommandHoldFire>停火</CommandHoldFire>
+  <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>停止所有攻擊。</CommandHoldFireDesc>
   
   <!-- Select plant to grow -->
+  <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>選擇種植的植物</CommandSelectPlantToGrowMulti>
+  <!-- EN: Plant: {0} -->
   <CommandSelectPlantToGrow>種植：{0}</CommandSelectPlantToGrow>
+  <!-- EN: Determine which plant should be sown here. -->
   <CommandSelectPlantToGrowDesc>選擇要在此種植的植物。</CommandSelectPlantToGrowDesc>
   
+  <!-- Select mineral to scan for (long-range mineral scanner) -->
+  <!-- EN: Tuned to -->
+  <CommandSelectMineralToScanFor>調整為</CommandSelectMineralToScanFor>
+
   <!-- Build copy -->
+  <!-- EN: Build copy -->
   <CommandBuildCopy>複製建築</CommandBuildCopy>
+  <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>複製當前的建築與設施。</CommandBuildCopyDesc>
   
   <!-- Form caravan -->
+  <!-- EN: Form caravan -->
   <CommandFormCaravan>組織旅隊</CommandFormCaravan>
+  <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>集結一群居民並旅行至新的地區。居民將會集合所有指定的物資及同行的動物，隨後離開當前所在的區域並等待進一步命令。</CommandFormCaravanDesc>
   
   <!-- Reform caravan -->
+  <!-- EN: Reform caravan -->
   <CommandReformCaravan>重新組織旅隊</CommandReformCaravan>
+  <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
   <CommandReformCaravanDesc>重新組織旅隊。居民將會離開當前所在的區域並等待進一步命令。</CommandReformCaravanDesc>
+  <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>仍有敵人存在此區域內。</CommandReformCaravanFailHostilePawns>
   
   <!-- Split caravan -->
+  <!-- EN: Split -->
   <CommandSplitCaravan>分隊</CommandSplitCaravan>
+  <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
   <CommandSplitCaravanDesc>將一支旅隊分成兩隊。旅隊距離彼此夠近的話便能夠重新匯合。</CommandSplitCaravanDesc>
   
   <!-- Merge caravan -->
+  <!-- EN: Merge -->
   <CommandMergeCaravans>匯合</CommandMergeCaravans>
+  <!-- EN: Merge selected caravans. -->
   <CommandMergeCaravansDesc>使選取的旅隊匯合成一隊。</CommandMergeCaravansDesc>
+  <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>選擇所有要匯合的旅隊，各隊必須相鄰。</CommandMergeCaravansFailCaravansNotSelected>
   
   <!-- Settle -->
+  <!-- EN: Settle -->
   <CommandSettle>設點</CommandSettle>
+  <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
   <CommandSettleDesc>在這個區域建立據點。你的居民將會進入這個區域，而你將能夠在此建立一座新據點</CommandSettleDesc>
+  <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>你的勢力只能夠擁有最多一座據點。</CommandSettleFailAlreadyHaveBase>
+  <!-- EN: Reached maximum number of colonies. -->
   <CommandSettleFailReachedMaximumNumberOfBases>據點數量已達最大值。</CommandSettleFailReachedMaximumNumberOfBases>
+  <!-- EN: There isn't anybody there to claim the area. -->
   <CommandSettleFailNoColonists>區域內無居民可進行佔領。</CommandSettleFailNoColonists>
+  <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>區域內存在敵人。</CommandSettleFailEnemies>
   
   <!-- Abandon home -->
+  <!-- EN: Abandon -->
   <CommandAbandonHome>拋棄</CommandAbandonHome>
+  <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
   <CommandAbandonHomeDesc>放棄這個區域。你將永遠不能再進入或訪問這個區域。一旦拋棄了你的家園，你將能夠再次下令讓你的旅隊在一個新的地區建立新據點。</CommandAbandonHomeDesc>
+  <!-- EN: All of your colonists are there. -->
   <CommandAbandonHomeFailAllColonistsThere>你所有的居民都在區域內。</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
+  <!-- EN: Cancel forming caravan -->
   <CommandCancelFormingCaravan>取消組織旅隊</CommandCancelFormingCaravan>
+  <!-- EN: Terminate the caravan formation process. -->
   <CommandCancelFormingCaravanDesc>中止組織旅隊的行動。</CommandCancelFormingCaravanDesc>
 
   <!-- Remove from caravan -->
+  <!-- EN: Remove from caravan -->
   <CommandRemoveFromCaravan>從旅隊移除</CommandRemoveFromCaravan>
+  <!-- EN: Remove this person or animal from the caravan. -->
   <CommandRemoveFromCaravanDesc>將此人類或動物排除出旅隊。</CommandRemoveFromCaravanDesc>
-
+  
   <!-- Add to caravan -->
+  <!-- EN: Add to caravan -->
   <CommandAddToCaravan>加入至旅隊</CommandAddToCaravan>
+  <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>加入此人類或動物以組成旅隊。</CommandAddToCaravanDesc>
   
   <!-- Show map -->
+  <!-- EN: Zoom in -->
   <CommandShowMap>檢視</CommandShowMap>
+  <!-- EN: Zoom in on this area. -->
   <CommandShowMapDesc>檢視此區域的細節。</CommandShowMapDesc>
   
   <!-- Trade -->
+  <!-- EN: Trade -->
   <CommandTrade>交易</CommandTrade>
+  <!-- EN: Trade with this faction. -->
   <CommandTradeDesc>與此勢力進行交易。</CommandTradeDesc>
+  <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>無任何具交易能力者。</CommandTradeFailNoNegotiator>
 
   <!-- Offer gifts -->
+  <!-- EN: Offer gifts -->
   <CommandOfferGifts>發送禮物</CommandOfferGifts>
+  <!-- EN: Offer gifts to this faction. -->
   <CommandOfferGiftsDesc>發送禮物給此勢力。</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
+  <!-- EN: Fulfill trade offer -->
   <CommandFulfillTradeOffer>履行交易</CommandFulfillTradeOffer>
+  <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
   <CommandFulfillTradeOfferDesc>履行據點的物資請求並獲取你的報酬。</CommandFulfillTradeOfferDesc>
+  <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>你的旅隊必須擁有{0}才能履行此交易。</CommandFulfillTradeOfferFailInsufficient>
+  <!-- EN: Offer {0} for {1}? -->
   <CommandFulfillTradeOfferConfirm>以{0}交換{1}？</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
+  <!-- EN: Take off -->
   <CommandTakeOff>逃離</CommandTakeOff>
+  <!-- EN: Get on board the ship and escape the planet. -->
   <CommandTakeOffDesc>上船並逃離這顆星球。</CommandTakeOffDesc>
+  <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
   <CommandTakeOffConfirmation>你確定要發射星艦嗎？\n\n在這個區域的所有人將逃離這星球，剩下的人則被留下。</CommandTakeOffConfirmation>
   
   <!-- Set target fuel level -->
+  <!-- EN: Set target fuel level -->
   <CommandSetTargetFuelLevel>設定燃料充填量</CommandSetTargetFuelLevel>
+  <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>設定燃料充填量。居民們將會填充燃料並保持不超過限制量。</CommandSetTargetFuelLevelDesc>
   
   <!-- Cancel load -->
+  <!-- EN: Cancel load -->
   <CommandCancelLoad>取消裝載</CommandCancelLoad>
+  <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>取消現有的裝載計畫，並釋出所有已裝載的物資或人員。</CommandCancelLoadDesc>
   
   <!-- Launch group -->
+  <!-- EN: Launch group -->
   <CommandLaunchGroup>發射</CommandLaunchGroup>
+  <!-- EN: Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together. -->
   <CommandLaunchGroupDesc>啟動發射組的目標地定位程序。下一步將選擇目的地。運輸艙將會同時飛行並降落在一起。</CommandLaunchGroupDesc>
+  <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>此發射組有部分運輸艙未連接燃料槽。</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <!-- EN: Some pod launchers in this group have no fuel. -->
   <CommandLaunchGroupFailNoFuel>部分運輸艙發射座缺乏燃料。</CommandLaunchGroupFailNoFuel>
+  <!-- EN: Some pod launchers are under a roof. -->
   <CommandLaunchGroupFailUnderRoof>部分運輸艙發射座位於屋頂之下。</CommandLaunchGroupFailUnderRoof>
   
   <!-- Load transporter -->
+  <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>載入{0}發射組</CommandLoadTransporter>
+  <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterDesc>將目前選取的發射組分為一組。你可以在裝載清單指定要裝載的人或物品。</CommandLoadTransporterDesc>
+  <!-- EN: The transport pod is not connected to a fueling port. -->
   <CommandLoadTransporterFailNotConnectedToFuelingPort>此運輸艙未連接燃料槽。</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>此發射座缺乏燃料。</CommandLoadTransporterFailNoFuel>
   
   <!-- Select previous transporter -->
+  <!-- EN: Select previous in launch group -->
   <CommandSelectPreviousTransporter>上一個運輸艙</CommandSelectPreviousTransporter>
+  <!-- EN: Select previous transport pod in this launch group. -->
   <CommandSelectPreviousTransporterDesc>選取此發射組的上一個運輸艙。</CommandSelectPreviousTransporterDesc>
   
   <!-- Select all transporters -->
+  <!-- EN: Select launch group -->
   <CommandSelectAllTransporters>選擇發射組</CommandSelectAllTransporters>
+  <!-- EN: Select all transport pods in this launch group. -->
   <CommandSelectAllTransportersDesc>選取一個發射組的所有運輸艙。</CommandSelectAllTransportersDesc>
   
   <!-- Select next transporter -->
+  <!-- EN: Select next in launch group -->
   <CommandSelectNextTransporter>下一個運輸艙</CommandSelectNextTransporter>
+  <!-- EN: Select next transport pod in this launch group. -->
   <CommandSelectNextTransporterDesc>選取此發射組的下一個運輸艙。</CommandSelectNextTransporterDesc>
-
+  
   <!-- Vent -->
+  <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>指定開/關</CommandDesignateOpenCloseVentLabel>
+  <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
   <CommandDesignateOpenCloseVentDesc>指定這個空調扇開啟或關閉，一名居民將盡快進行此工作。</CommandDesignateOpenCloseVentDesc>
-
+  
   <!-- Remove waypoint -->
+  <!-- EN: Remove -->
   <CommandRemoveWaypointLabel>移除</CommandRemoveWaypointLabel>
-  <CommandRemoveWaypointDesc>移除此中途點。</CommandRemoveWaypointDesc>>
+  <!-- EN: Remove this waypoint. -->
+  <CommandRemoveWaypointDesc>移除此中途點。</CommandRemoveWaypointDesc>
 
   <!-- Pause caravan -->
+  <!-- EN: Rest -->
   <CommandPauseCaravan>暫停</CommandPauseCaravan>
+  <!-- EN: Stop the caravan for a moment. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}\n  - Sick people can rest in bedrolls -->
   <CommandToggleCaravanPauseDesc>暫停此旅隊的活動。這將有以下好處：\n\n  - 人員可以進行社交活動\n  - 食物採集速度提昇{0}倍\n  - 可見性變為{1}倍</CommandToggleCaravanPauseDesc>
-
+  
   <!-- Show sellable items -->
+  <!-- EN: Show what will buy -->
   <CommandShowSellableItems>顯示採購品類型</CommandShowSellableItems>
+  <!-- EN: Show everything this trader wants to buy. -->
   <CommandShowSellableItemsDesc>顯示此商人願意購買的商品類型。</CommandShowSellableItemsDesc>
 
   <!-- Attack settlement -->
+  <!-- EN: Attack -->
   <CommandAttackSettlement>攻擊</CommandAttackSettlement>
+  <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>向此據點發動攻擊。</CommandAttackSettlementDesc>
-  
+
 </LanguageData>

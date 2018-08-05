@@ -1,94 +1,158 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Work tab -->
+  <!-- EN: Manual priorities -->
   <ManualPriorities>自訂優先度</ManualPriorities>
+  <!-- EN: higher priority -->
   <HigherPriority>高優先度</HigherPriority>
+  <!-- EN: lower priority -->
   <LowerPriority>低優先度</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
   <RelevantSkills>相關技能：{0}\n相關技能平均等級：{1}/{2}</RelevantSkills>
+  <!-- EN: Click to jump to: -->
   <ClickToJumpTo>點擊並跳至：</ClickToJumpTo>
+  <!-- EN: {0} cannot do this kind of work. -->
   <CannotDoThisWork>{0}無法執行這類型的工作。</CannotDoThisWork>
+  <!-- EN: (none) -->
   <NoneBrackets>(無)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>基於此居民的健康狀況，目前無法進行這類工作。</IncapableOfWorkTypeBecauseOfCapacities>
+  <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>警告：相關技能的能力水平過低。</SelectedWorkTypeWithVeryBadSkill>
-
+  
   <!-- Assign tab -->
+  <!-- EN: Manage outfits -->
   <ManageOutfits>裝備管理</ManageOutfits>
+  <!-- EN: Clear forced -->
   <ClearForcedApparel>卸除裝備</ClearForcedApparel>
+  <!-- EN: forced -->
   <ApparelForcedLower>強制</ApparelForcedLower>
+  <!-- EN: Forced apparel -->
   <ForcedApparel>強制裝備</ForcedApparel>
+  <!-- EN: Edit... -->
   <AssignTabEdit>編輯...。</AssignTabEdit>
+  <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>管理用藥計劃</ManageDrugPolicies>
   
   <!-- Restrictions tab -->
+  <!-- EN: Copy -->
   <Copy>複製</Copy>
+  <!-- EN: Paste -->
   <Paste>貼上</Paste>
+  <!-- EN: Allowed area -->
   <AllowedArea>活動區</AllowedArea>
   
   <!-- Animals tab -->
+  <!-- EN: Master -->
   <Master>主人</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>懷孕({0}/{1})</PregnantIconDesc>
-  <BondedTo>Bonded to</BondedTo>
-
+  <!-- EN: Bonded to -->
+  <BondedTo>夥伴與</BondedTo>
+  
   <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>這個物種為掠食動物，當飢餓時會主動狩獵較小型的動物 - 可能包括人類。</IsPredator>
-	
+  
   <!-- Factions tab -->
+  <!-- EN: Hostile -->
   <Hostile>敵對</Hostile>
+  <!-- EN: Ally -->
   <Ally>同盟</Ally>
+  <!-- EN: defeated -->
   <DefeatedLower>已擊敗</DefeatedLower>
+  <!-- EN: Enemy of {0} -->
   <HostileTo>與{0}敵對</HostileTo>
+  <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>目前與這個勢力之間的好感度。</CurrentGoodwillTip>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>這個勢力為永久敵對勢力。他們會襲擊你的據點和旅隊，與他們的友好度不會因為任何原因改善。</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
   <CurrentGoodwillTip_Ally>這個派系和你是同盟關係，他們有餘力時會派遣戰士來幫助你。如果友好度低於{0}，外交關係將向為中立。</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
   <CurrentGoodwillTip_Neutral>這個派系和你是中立關係，你可以自由與他們對話或交易。如果友好度低於{0}，外交關係將向為敵對。如果友好度高於{1}，你們將成為盟友，他們則會開始積極的向你提供援助。</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>這個派系和你是敵對關係。他們會襲擊你的據點和旅隊。如果友好度高於{0}，外交關係將向為中立。</CurrentGoodwillTip_Hostile>
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
   <CurrentGoodwillTip_NaturalGoodwill>這個派系的中立友好度範圍為{0}至{1}之間，若友好度高於{1}會每日降低{3}點。若低於{0}則每日提昇{2}點。</CurrentGoodwillTip_NaturalGoodwill>
   
-  
   <!-- Social tab -->
+  <!-- EN: Friend -->
   <Friend>朋友</Friend>
+  <!-- EN: Rival -->
   <Rival>仇人</Rival>
+  <!-- EN: Acquaintance -->
   <Acquaintance>熟人</Acquaintance>
-	
+  
   <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
   <Graph>圖表</Graph>
-  <Messages>Messages</Messages>
+  <!-- EN: Messages -->
+  <Messages>訊息</Messages>
+  <!-- EN: Statistics -->
   <Statistics>統計</Statistics>
   
-  <!-- History tab -->
+  <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
   <SelectGraph>選擇圖表</SelectGraph>
+  <!-- EN: Last 30 days -->
   <Last30Days>最近30天</Last30Days>
+  <!-- EN: Last 100 days -->
   <Last100Days>最近100天</Last100Days>
+  <!-- EN: Last 300 days -->
   <Last300Days>最近300天</Last300Days>
+  <!-- EN: All -->
   <AllDays>全部</AllDays>
+  <!-- EN: Value -->
   <Value>價值</Value>
+  <!-- EN: External -->
   <External>外來</External>
 
   <!-- History tab - Messages -->
-  <ShowLetters>Show letters</ShowLetters>
-  <ShowMessages>Show messages</ShowMessages>
-  <PinArchivableTip>Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages。</PinArchivableTip>
-  <NoMessages>no messages</NoMessages>
-  
+  <!-- EN: Show letters -->
+  <ShowLetters>顯示信件</ShowLetters>
+  <!-- EN: Show messages -->
+  <ShowMessages>顯示訊息</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
+  <PinArchivableTip>鎖定或取消鎖定此訊息。\n\n訊息保存數達到上限{0}則後將自動刪除最舊的未鎖定訊息。</PinArchivableTip>
+  <!-- EN: no messages -->
+  <NoMessages>無訊息</NoMessages>
+
   <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
   <Playtime>遊戲時間</Playtime>
+  <!-- EN: Storyteller -->
   <Storyteller>故事敘述者</Storyteller>
+  <!-- EN: Colony wealth (this map) -->
   <ThisMapColonyWealthTotal>殖民地財富(當前區域)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
   <ThisMapColonyWealthItems>殖民地財富(物品)(當前區域)</ThisMapColonyWealthItems>
+  <!-- EN: Colony wealth (buildings) (this map) -->
   <ThisMapColonyWealthBuildings>殖民地財富(建築)(當前區域)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (animals) (this map) -->
   <ThisMapColonyWealthTameAnimals>殖民地財富(動物)(當前區域)</ThisMapColonyWealthTameAnimals>
+  <!-- EN: Major threats -->
   <NumThreatBigs>主要威脅</NumThreatBigs>
+  <!-- EN: Enemy raids -->
   <NumEnemyRaids>敵人襲擊</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
   <ThisMapDamageTaken>被傷害值(當前區域)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
   <ColonistsKilled>居民死亡</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
   <ColonistsLaunched>發送至太空的居民</ColonistsLaunched>
 
   <!-- Research tab -->
+  <!-- EN: project tech level -->
   <ProjectTechLevel>研究項目文明等級</ProjectTechLevel>
+  <!-- EN: your tech level -->
   <YourTechLevel>你的文明等級</YourTechLevel>
+  <!-- EN: cost multiplier -->
   <ResearchCostMultiplier>研究速度倍率</ResearchCostMultiplier>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>根據你的文明等級，基本研究消耗由{0}變為{1}。</ResearchCostComparison>
   
 </LanguageData>

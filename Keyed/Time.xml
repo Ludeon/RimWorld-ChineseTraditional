@@ -1,45 +1,77 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: d -->
   <LetterDay>日</LetterDay>
+  <!-- EN: h -->
   <LetterHour>時</LetterHour>
+  <!-- EN: m -->
   <LetterMinute>分</LetterMinute>
+  <!-- EN: s -->
   <LetterSecond>秒</LetterSecond>
   
+  <!-- EN: days -->
   <DaysLower>天</DaysLower>
+  <!-- EN: seconds -->
   <SecondsLower>秒</SecondsLower>
 
+  <!-- EN: spring -->
   <SeasonSpring>春天</SeasonSpring>
+  <!-- EN: summer -->
   <SeasonSummer>夏天</SeasonSummer>
+  <!-- EN: fall -->
   <SeasonFall>秋天</SeasonFall>
+  <!-- EN: winter -->
   <SeasonWinter>冬天</SeasonWinter>
+  <!-- EN: permanent summer -->
   <SeasonPermanentSummer>永夏</SeasonPermanentSummer>
+  <!-- EN: permanent winter -->
   <SeasonPermanentWinter>永冬</SeasonPermanentWinter>
 
+  <!-- EN: Aprimay -->
   <QuadrumAprimay>一月</QuadrumAprimay>
+  <!-- EN: Jugust -->
   <QuadrumJugust>二月</QuadrumJugust>
+  <!-- EN: Septober -->
   <QuadrumSeptober>三月</QuadrumSeptober>
+  <!-- EN: Decembary -->
   <QuadrumDecembary>四月</QuadrumDecembary>
-
-  <Born>生日：</Born>
+  
+  <!-- EN: Born: {0} -->
+  <Born>生日：{0}</Born>
+  <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
   <AgeChronological>實際年齡：{0}歲{1}月又{2}天</AgeChronological>
+  <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
   <AgeBiological>生理年齡：{0}歲{1}月又{2}天</AgeBiological>
 
   <!-- Date periods -->
+  <!-- EN: 1 year -->
   <Period1Year>1年</Period1Year>
+  <!-- EN: {0} years -->
   <PeriodYears>{0}年</PeriodYears>
+  <!-- EN: 1 quadrum -->
   <Period1Quadrum>1月</Period1Quadrum>
+  <!-- EN: {0} quadrums -->
   <PeriodQuadrums>{0}月</PeriodQuadrums>
+  <!-- EN: 1 day -->
   <Period1Day>1天</Period1Day>
+  <!-- EN: {0} days -->
   <PeriodDays>{0}天</PeriodDays>
+  <!-- EN: 1 hour -->
   <Period1Hour>1小時</Period1Hour>
+  <!-- EN: {0} hours -->
   <PeriodHours>{0}小時</PeriodHours>
+  <!-- EN: 1 second -->
   <Period1Second>1秒</Period1Second>
+  <!-- EN: {0} seconds -->
   <PeriodSeconds>{0}秒</PeriodSeconds>
 
   <!-- Misc -->
+  <!-- EN: Started -->
   <Started>最初</Started>
+  <!-- EN: Lasted -->
   <Lasted>最後</Lasted>
+  <!-- EN: occurred {0} ago -->
   <OccurredTimeAgo>發生於{0}前</OccurredTimeAgo>
-
+  
 </LanguageData>

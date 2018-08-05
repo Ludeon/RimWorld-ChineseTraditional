@@ -1,155 +1,246 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <LetterLabelAnimalInsanitySingle>狂暴動物</LetterLabelAnimalInsanitySingle>
+  <!-- EN: Mad {0} -->
+  <LetterLabelAnimalInsanitySingle>狂暴{0}</LetterLabelAnimalInsanitySingle>
+  <!-- EN: A local {0} has gone mad. It will attack everyone it sees. -->
   <AnimalInsanitySingle>一隻附近的{0}發瘋了。牠會攻擊任何牠見到的人。</AnimalInsanitySingle>
-  <LetterLabelAnimalInsanityMultiple>狂暴動物！</LetterLabelAnimalInsanityMultiple>
+  <!-- EN: Mad {0} -->
+  <LetterLabelAnimalInsanityMultiple>狂暴{0}！</LetterLabelAnimalInsanityMultiple>
+  <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>某種干擾電波橫掃了整個地平線。你的居民們沒什麼問題，但是……\n\n看來這附近好多{0}都被這玩意兒搞瘋了。</AnimalInsanityMultiple>
-  
+
+  <!-- EN: Blight -->
   <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
+  <!-- EN: A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads. -->
   <LetterCropBlight>一個居民發現作物受到枯萎病感染！你應該在疫情擴散前割除或燒毀受感染的作物。</LetterCropBlight>
 
+  <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>奇蹟</LetterLabelMiracleHeal>
+  <!-- EN: {0} has experienced a miraculous recovery! -->
   <MiracleHeal>{0}奇蹟般的恢復健康了!</MiracleHeal>
 
   <!-- Enemy raids -->
+  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
   <EnemyRaidLeaderPresent>其中一名{0} - {1}，是該勢力的首領。</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
+  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
   <FriendlyRaidLeaderPresent>其中一名{0} - {1}，是該勢力的首領。</FriendlyRaidLeaderPresent>
 
+  <!-- EN: Escape pod -->
   <LetterLabelRefugeePodCrash>逃生艙</LetterLabelRefugeePodCrash>
+  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
   <RefugeePodCrash>你偵測到了一個逃生艙在附近墜毀了。\n\n如果有人在撞擊後生還，他們的傷勢恐怕不會太樂觀。</RefugeePodCrash>
+  <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Factionless>[PAWN_nameDef]不隸屬於任何勢力。你可以拯救[PAWN_objective]並希望[PAWN_pronoun]自發的加入你，或者俘虜[PAWN_objective]以招募或奴役。</RefugeePodCrash_Factionless>
+  <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Hostile>[PAWN_nameDef]來自與你敵對的勢力[PAWN_factionName]。你可以俘虜[PAWN_objective]以招募或奴役。</RefugeePodCrash_Hostile>
+  <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
+  <RefugeePodCrash_NonHostile>[PAWN_nameDef]來自[PAWN_factionName]。如果你拯救[PAWN_objective]，[PAWN_pronoun]可能會自發的加入你，否則[PAWN_pronoun]會回到家鄉，將你的義舉傳播出去。\n\n你也可以俘虜[PAWN_objective]以招募或奴役，但此舉會激怒[PAWN_possessive]勢力。</RefugeePodCrash_NonHostile>
 
+  <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>貨艙</LetterLabelCargoPodCrash>
+  <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
   <CargoPodCrash>你偵測到了一個貨艙在附近墜毀了。\n\n你或許能在殘骸中找到不少有用的東西。</CargoPodCrash>
 
+  <!-- EN: an electrical conduit -->
   <AnElectricalConduit>一根電纜</AnElectricalConduit>
+  <!-- EN: A fault in {0} has caused a short circuit. -->
   <ShortCircuit>{0}的故障導致了電線短路。</ShortCircuit>
+  <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
   <ShortCircuitStartedFire>{0}的故障導致了電線短路，引發了一場火災。</ShortCircuitStartedFire>
-  <ShortCircuitDischargedEnergy>所有電池裡整整{1}瓦的能量都以爆炸的形式被釋放出來。</ShortCircuitDischargedEnergy>
+  <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
+  <ShortCircuitDischargedEnergy>所有電池裡整整{0}瓦的能量都以爆炸的形式被釋放出來。</ShortCircuitDischargedEnergy>
+  <!-- EN: This large amount of power has created an explosion of considerable size. -->
   <ShortCircuitWasLarge>這麼多電能造成了一場規模可觀的爆炸。</ShortCircuitWasLarge>
+  <!-- EN: That really is a huge explosion. Wow. -->
   <ShortCircuitWasHuge>哇！真是場壯觀的爆炸。</ShortCircuitWasHuge>
 
+  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
   <TraderArrival>一艘商船正巧經過。\n\n他們是{1}{0}。</TraderArrival>
 
+  <!-- EN: A {0} from {1} is passing by. [PAWN_pronoun] is named {2}. -->
   <SingleTravelerPassing>一位從{1}來的{0}正巧路過。[PAWN_pronoun]名叫{2}。</SingleTravelerPassing>
+  <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>一群來自{0}的旅行者正巧路過。</GroupTravelersPassing>
 
+  <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>訪客</LetterLabelSingleVisitorArrives>
+  <!-- EN: A {0} from {1} is visiting the colony.\n\n[PAWN_pronoun] is named {2}.{3}{4} -->
   <SingleVisitorArrives>一位來自{1}的{0}來拜訪殖民地。\n\n[PAWN_pronoun]名叫{2}。{4}{3}</SingleVisitorArrives>
+  <!-- EN: \n\n[PAWN_pronoun] seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>\n\n他是該勢力的首領。</SingleVisitorArrivesTraderInfo>
+  <!-- EN: \n\n[PAWN_pronoun] is the leader of the faction. -->
   <SingleVisitorArrivesLeaderInfo>帶了些能夠交易的東西。</SingleVisitorArrivesLeaderInfo>
+  <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>參訪團</LetterLabelGroupVisitorsArrive>
+  <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
   <GroupVisitorsArrive>一群來自{0}的人來拜訪殖民地。{1}{2}</GroupVisitorsArrive>
+  <!-- EN: \n\nThey seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>他們帶了些能夠交易的東西。</GroupVisitorsArriveTraderInfo>
+  <!-- EN: \n\nOne of the visitors - {0}, is the leader of the faction. -->
   <GroupVisitorsArriveLeaderInfo>\n\n其中一名訪客 - {0}，是該勢力的首領。</GroupVisitorsArriveLeaderInfo>
+  <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>來自{0}的拜訪者離開了。</VisitorsLeaving>
 
+  <!-- EN: Wanderer joins -->
   <LetterLabelWandererJoin>志願者</LetterLabelWandererJoin>
+  <!-- EN: A {0} named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a {1}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing. -->
   <WandererJoin>一位名叫Name的{0}來到了這裡並加入了殖民地。[PAWN_pronoun]是一位{1}。</WandererJoin>
-  
+
+  <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>獸群襲擊</LetterLabelManhunterPackArrived>
+  <!-- EN: A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
   <ManhunterPackArrived>一票專門襲擊人類的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何活人。\n\n牠們通常不會破門而入，待在室內是安全的選擇。未運作的機槍炮塔也不會成為攻擊目標，如果你想保住它們，記得關掉電源。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
+  <!-- EN: The ancient structure has emitted a psychic pulse that has driven nearby animals mad. -->
   <MessageAnimalInsanityPulse>這塊遠古星艦碎片發射了一股心靈脈衝，這讓它附近的動物都發瘋了。</MessageAnimalInsanityPulse>
+  <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>這塊遠古星艦碎片發射了一股心靈脈衝，它讓{0}發瘋了。</LetterShipPartDroveColonistInsane>
+  <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>在{0}天前覺醒</AwokeDaysAgo>
+  <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>干擾電波等級：{0}</PsychicDroneLevel>
-  <PsychicDroneLevelLow>低</PsychicDroneLevelLow>
-  <PsychicDroneLevelMedium>中</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>高</PsychicDroneLevelHigh>
-  <PsychicDroneLevelExtreme>極端</PsychicDroneLevelExtreme>
+  <!-- EN: Drone intensifies -->
   <LetterLabelPsychicDroneLevelIncreased>干擾電波</LetterLabelPsychicDroneLevelIncreased>
+  <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every humanlike in the area now feels more disturbed, terrified, and paranoid. -->
   <LetterPsychicDroneLevelIncreased>這塊遠古星艦碎片發射了一股強大的干擾電波。這個區域裡的所有人類都感到混亂、恐慌並變得偏執了起來。</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
+  <!-- EN: Agent -->
   <LetterLabelAgentRevealed>間諜</LetterLabelAgentRevealed>
+  <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
   <LetterAgentRevealed>{0}的身份被識破了，他是你的敵人{1}派來的一名間諜。\n\n他現在正試圖逃跑。</LetterAgentRevealed>
-  
+
   <!-- Distant psychic drone -->
+  <!-- EN: Psychic drone -->
   <LetterLabelPsychicDrone>干擾電波</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>所有{0}居民都感到十分痛苦！\n\n一股邪惡在遙遠的地方向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會比以往更差一些。</LetterIncidentPsychicDrone>
-  
+  <!-- EN: Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
+  <LetterIncidentPsychicDrone>所有{0}居民都感到十分痛苦！\n\n遠方的某個仇恨引擎正在運轉著，它向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會比以往更差一些。\n\n干擾電波等級為{1}。</LetterIncidentPsychicDrone>
+
+  <!-- EN: Psychic soothe -->
   <LetterLabelPsychicSoothe>撫慰電波</LetterLabelPsychicSoothe>
-  <LetterIncidentPsychicSoothe>所有{0}居民都在臉上掛上了滿足的笑容！\n\n某個遠方的快樂引擎正在運轉著，它向這個地區投射了一股強大的撫慰電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會特別愉快。</LetterIncidentPsychicSoothe>
+  <!-- EN: Every colonist of the {0} gender smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit better. -->
+  <LetterIncidentPsychicSoothe>所有{0}居民都在臉上掛上了滿足的笑容！\n\n遠方的某個快樂引擎正在運轉著，它向這個地區投射了一股強大的撫慰電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會特別愉快。</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
+  <!-- EN: Beavers! -->
   <LetterLabelBeaversArrived>海貍</LetterLabelBeaversArrived>
+  <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
   <BeaversArrived>一群飢腸轆轆的阿爾法海貍抵達了這個區域。\n\n在牠們將這片區域內的最後一棵樹啃食殆盡前剷除牠們！</BeaversArrived>
   
   <!-- Refugee chased -->
+  <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>給{0}的庇護請求</RefugeeChasedTitle>
-  <RefugeeChasedInitial>一位名叫{0}的{1}從附近呼叫殖民地。[PAWN_pronoun]說他正被來自{3}的{2}追殺！\n\n[PAWN_pronoun]請求加入殖民地以獲得庇護。HIS生理年齡是{4}歲。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在HE身後的{2}！</RefugeeChasedInitial>
+  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
+  <RefugeeChasedInitial>一位名叫[PAWN_nameDef]的[PAWN_title]從附近呼叫殖民地。[PAWN_pronoun]說他正被來自{3}的{2}追殺！\n\n[PAWN_pronoun]請求加入殖民地以獲得庇護。[PAWN_pronoun]表示[PAWN_pronoun]生理年齡是{4}歲，除此之外已經沒有時間追究更多細節了。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在[PAWN_possessive]身後的{2}，由{5}組成的部隊。</RefugeeChasedInitial>
+  <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
+  <!-- EN: Ignore the message -->
   <RefugeeChasedInitial_Reject>忽略訊息</RefugeeChasedInitial_Reject>
+  <!-- EN: {0} screams in panic through the tinny speaker before you cut off the transmission. -->
   <RefugeeChasedRejected>在你切斷與{0}的通訊之前，一陣淒厲的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-  <LetterLabelAnimalSelfTame>馴服</LetterLabelAnimalSelfTame>
+  <!-- EN: {0} self-tamed -->
+  <LetterLabelAnimalSelfTame>{0}自然歸順了</LetterLabelAnimalSelfTame>
+  <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0}被馴服了。</LetterAnimalSelfTame>
+  <!-- EN: {0} has become tame. It is now designated {1}. -->
   <LetterAnimalSelfTameAndNameNumerical>{0}被馴服了。現在被編號為{1}。</LetterAnimalSelfTameAndNameNumerical>
+  <!-- EN: {0} has become tame. Colonists have decided to name it {1}. -->
   <LetterAnimalSelfTameAndName>{0}被馴服了。居民們決定叫牠{1}。</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
+  <!-- EN: {0} join -->
   <LetterLabelFarmAnimalsWanderIn>{0}群加入</LetterLabelFarmAnimalsWanderIn>
+  <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
   <LetterFarmAnimalsWanderIn>一群不知是被遺棄或是走失的{0}正在附近遊蕩。\n\n牠們似乎習慣與人類接觸，並加入了殖民地。</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
+  <!-- EN: Rare thrumbos -->
   <LetterLabelThrumboPasses>獨角獸</LetterLabelThrumboPasses>
+  <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
   <LetterThrumboPasses>一群獨角獸正在附近遊蕩。\n\n這種稀有的物種天性溫和，但與牠們對抗可是極端的危險。有些商人願意開出高價收購牠們的角與皮毛。\n\n獨角獸只會在附近停留幾日。</LetterThrumboPasses>
   
   <!-- Trader caravan -->
-  <LetterLabelTraderCaravanArrival>來自{0}的旅隊</LetterLabelTraderCaravanArrival>
-  <LetterTraderCaravanArrival>一團來自{0}的旅隊抵達了這裡。\n\n他們將在殖民地附近停留幾天。你可以對他們發動攻擊，但此舉會激怒他們的勢力。</LetterTraderCaravanArrival>
+  <!-- EN: {1} from {0} -->
+  <LetterLabelTraderCaravanArrival>來自{0}的{1}</LetterLabelTraderCaravanArrival>
+  <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
+  <LetterTraderCaravanArrival>一團來自{0}的{1}抵達了這裡。\n\n他們將在殖民地附近停留幾天。你可以對他們發動攻擊，但此舉會激怒他們的勢力。</LetterTraderCaravanArrival>
   
   <!-- Building breaks down -->
+  <!-- EN: Breakdown: {0} -->
   <LetterLabelBuildingBrokenDown>損壞：{0}</LetterLabelBuildingBrokenDown>
+  <!-- EN: One of your machines ({0}) has broken down. It won't work until a colonist with the Construction work type goes and fixes it. -->
   <LetterBuildingBrokenDown>你有一部電器({0})損壞了，在具有建造技能的居民將它修理好之前，它將無法運作。</LetterBuildingBrokenDown>
   
   <!-- Ransom demand -->
+  <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>給{0}的贖金要求</RansomDemandTitle>
-  <RansomDemand>{1}透過無線電呼叫你，他們挾持{0}以要脅贖金。\n\n如果你願意支付{2}白銀的贖金，他們將很樂意放HE回來。</RansomDemand>
+  <!-- EN: {1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver. -->
+  <RansomDemand>{1}透過無線電呼叫你，他們挾持{0}以要脅贖金。\n\n如果你願意支付{2}白銀的贖金，他們將很樂意放[PAWN_possessive]回來。</RansomDemand>
+  <!-- EN: Accept -->
   <RansomDemand_Accept>支付贖金</RansomDemand_Accept>
+  <!-- EN: Reject -->
   <RansomDemand_Reject>拒絕支付</RansomDemand_Reject>
   
   <!-- Journey-related -->
+  <!-- EN: A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars. -->
   <JourneyOffer>一個與你舊識的友善AI夏隆．懷特史東向你傳送了一則訊息！\n\n夏隆表示他在這座星球上藏了一艘星艦，並附上了星艦的座標。\n\n那艘星艦目前處於深度休眠狀態，你將需要在你抵達後啟動系統，然後保衛星艦不被襲擊者奪走，直到星艦完成所有啟動程序。\n\n如果你能乘著星艦飛離地面，夏隆便能夠帶你離開這個邊緣世界，再度往天空中的星星飛去。</JourneyOffer>
+  <!-- EN: Ship found -->
   <EscapeShipFoundLabel>發現星艦</EscapeShipFoundLabel>
+  <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <EscapeShipFound>你已經抵達夏隆提供的星艦藏匿點並發現了星艦。\n\n星艦的反應爐仍然處於深度休眠狀態，你可以透過電腦核心啟動反應爐。\n\n夏隆警告你，啟動程序需耗時15日，而星艦啟動間發出的能量識別訊號將會傳到極遠的距離外，這種訊號代表這艘星艦具有飛行能力，將會吸引絕望的掠奪者和寶藏獵人。當下的第一要務便是要確保擁有足夠的防禦力量。</EscapeShipFound>
+  <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>星艦已被摧毀</EscapeShipLostLabel>
+  <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
   <EscapeShipLost>夏隆向你傳送了一則訊息：\n\n他判斷你已經失去星艦的控制權，未免星艦落入敵人手中，他已經強制啟動了星艦的自毀機制，星艦已經化為一對廢鐵。\n\n你需要另尋辦法離開這顆星球了。</EscapeShipLost>
 
   <!-- Caravan meeting -->
+  <!-- EN: Caravan meeting by {0} -->
   <CaravanMeetingTitle>與{0}的接觸</CaravanMeetingTitle>
+  <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
   <CaravanMeeting>{0}和來自{1}的旅隊和平接觸了。這支旅隊由以下單位組成：\n\n{2}</CaravanMeeting>
+  <!-- EN: Trade -->
   <CaravanMeeting_Trade>交易</CaravanMeeting_Trade>
+  <!-- EN: Attack -->
   <CaravanMeeting_Attack>攻擊</CaravanMeeting_Attack>
+  <!-- EN: Move on -->
   <CaravanMeeting_MoveOn>離去</CaravanMeeting_MoveOn>
+  <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>旅隊中沒有能夠進行交易的成員。</CaravanMeeting_TradeIncapable>
-
+  
   <!-- Caravan request -->
+  <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>旅隊請求</LetterLabelCaravanRequest>
-  <LetterCaravanRequest>一位在附近的{0}聯絡了你，並提出一項特別交易。他們希望購買：\n\n  {1}\n\n做為報酬，他們將提供：\n\n  {2}\n\n這項請求的期限至：{3}\n\n若你決定履行這項交易，派遣旅隊前去並帶上他們請求的物資。你可以在星球地圖上點選{0}重新確認這項交易。</LetterCaravanRequest>
-  <CaravanRequestInfo>請求：{0}，報酬：{1}(剩餘{2})</CaravanRequestInfo>
+  <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
+  <LetterCaravanRequest>一位在附近的{0}聯絡了你，並提出一項特別交易。他們希望購買：\n\n  {1}(價值{2})\n\n做為報酬，他們將提供：\n\n  {3}(價值{4})\n\n這項請求的期限至：{5}\n\n若你決定履行這項交易，派遣旅隊前去並帶上他們請求的物資。預計旅途所需時間為{6}。你可以在星球地圖上點選{0}重新確認這項交易。</LetterCaravanRequest>
+  <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
+  <CaravanRequestInfo>請求：{0}({3})，報酬：{1}({4})(剩餘{2})</CaravanRequestInfo>
+  <!-- EN: normal quality or better -->
+  <NormalQualityOrBetter>普通以上品質</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
+  <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>來自{0}的旅隊</CaravanDemandTitle>
-  <CaravanDemand>你的旅隊遭到來自{0}的{1}{3}埋伏。他們將會發動攻擊，除非你交出：\n\n{2}</CaravanDemand>
+  <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
+  <CaravanDemand>你的旅隊遭到一群{2}，來自{1}的{4}埋伏。他們將會發動攻擊，除非你交出：\n\n{3}</CaravanDemand>
+  <!-- EN: Give and pass -->
   <CaravanDemand_Give>交付釐金</CaravanDemand_Give>
+  <!-- EN: Refuse and fight -->
   <CaravanDemand_Fight>拒絕並開戰</CaravanDemand_Fight>
 
-  <!-- Temporary item stash -->
-  <ItemStashSitePart_Unknown>只不過，{0}並不清楚是否有誰或什麼在守護著寶藏。</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0}表示，這些寶藏沒有任何人看守。</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0}表示，{1}。</ItemStashSitePart_Part>
-
   <!-- Site no longer hostile -->
+  <!-- EN: Quest no longer available -->
   <LetterLabelSiteNoLongerHostile>已無法進行此任務</LetterLabelSiteNoLongerHostile>
+  <!-- EN: Quests no longer available -->
   <LetterLabelSiteNoLongerHostileMulti>已無法進行這些任務</LetterLabelSiteNoLongerHostileMulti>
+  <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
   <LetterSiteNoLongerHostile>因為你已不再與{0}敵對，地點{1}已不可接觸。</LetterSiteNoLongerHostile>
+  <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>因為你已不再與{0}敵對，這些地點已不可接觸。</LetterSiteNoLongerHostileMulti>
 
-  
 </LanguageData>

@@ -1,45 +1,66 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ======================== Non-grouped ========================-->
   
+  <!-- EN: Your faction will be a {0}. -->
   <ScenPart_PlayerFaction>你將以{0}勢力開始遊戲。</ScenPart_PlayerFaction>
 
-  <ScenPart_StartWithPawns>開局人口數{0}人</ScenPart_StartWithPawns>
-  <ScenPart_StartWithPawns_OutOf>chosen from</ScenPart_StartWithPawns_OutOf>
+  <!-- EN: Start with {0} people, chosen from {1}. -->
+  <ScenPart_StartWithPawns>開局人口數{0}人，由{1}中選擇。</ScenPart_StartWithPawns>
+  <!-- EN: chosen from -->
+  <ScenPart_StartWithPawns_OutOf>選取自</ScenPart_StartWithPawns_OutOf>
+  <!-- EN: random pet -->
   <RandomPet>隨機寵物</RandomPet>
 
+  <!-- EN: Start with research: {0} -->
   <ScenPart_StartingResearchFinished>開局附帶科技：{0}</ScenPart_StartingResearchFinished>
   
+  <!-- EN: Arrive in drop pods. -->
   <ScenPart_ArriveInDropPods>使用降落艙開局。</ScenPart_ArriveInDropPods>
 
+  <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
   <ScenPart_StatFactor>屬性值"{0}"將統一倍率為{1}。</ScenPart_StatFactor>
 
-
   <!-- Pawn modifiers -->
+  <!-- EN: {0} have a {1} chance to start with {2}. -->
   <ScenPart_PawnsHaveHediff>{0}有{1}的機率開局攜帶{2}。</ScenPart_PawnsHaveHediff>
+  <!-- EN: severity: {0} -->
   <ConfigurableSeverity>嚴重程度{0}</ConfigurableSeverity>
 
+  <!-- EN: {0} have a {1} chance to have their {2} set between {3} and {4}. -->
   <ScenPart_SetNeed>{0}的{2}有{1}的機率落在{3}與{4}之間。</ScenPart_SetNeed>
+  <!-- EN: level: {0} -->
   <ConfigurableLevel>等級：{0}</ConfigurableLevel>
 
+  <!-- EN: {0} have a {1} chance to start with trait: {2} -->
   <ScenPart_PawnsHaveTrait>{0}有{1}的機率開局附帶{2}特性。</ScenPart_PawnsHaveTrait>
+  <!-- EN: Characters and creatures explode on death ({0}, radius {1}). -->
   <ScenPart_OnPawnDeathExplode>角色與生物在死亡時爆炸({0}，爆炸半徑{1})。</ScenPart_OnPawnDeathExplode>
+  <!-- EN: {0} start naked. -->
   <ScenPart_PawnsAreNaked>{0}開場時將一絲不掛。</ScenPart_PawnsAreNaked>
-
+  
   <!-- Pawn filters -->
+  <!-- EN: Your people will be at least {0} years old. -->
   <ScenPart_StartingPawnAgeMin>你的居民年齡將大於{0}歲。</ScenPart_StartingPawnAgeMin>
+  <!-- EN: Your people will be at most {0} years old. -->
   <ScenPart_StartingPawnAgeMax>你的居民年齡將小於{0}歲。</ScenPart_StartingPawnAgeMax>
+  <!-- EN: Your people will be between {0} and {1} years old. -->
   <ScenPart_StartingPawnAgeRange>你的居民年齡將介於{0}至{1}歲之間。</ScenPart_StartingPawnAgeRange>
-
 
   <!-- ======================== Grouped ========================-->
 
+  <!-- EN: Start with -->
   <ScenPart_StartWith>起始資源</ScenPart_StartWith>
+  <!-- EN: Map is scattered with -->
   <ScenPart_MapScatteredWith>地圖中散佈有</ScenPart_MapScatteredWith>
+  <!-- EN: Permanent game condition(s) -->
   <ScenPart_PermaGameCondition>永久遊戲條件</ScenPart_PermaGameCondition>
+  <!-- EN: Incident(s) disabled -->
   <ScenPart_DisableIncident>禁用事件</ScenPart_DisableIncident>
+  <!-- EN: Incident created -->
   <ScenPart_CreateIncident>事件已創建</ScenPart_CreateIncident>
+  <!-- EN: Can never build -->
   <ScenPart_DisallowBuilding>禁用建設</ScenPart_DisallowBuilding>
 
 </LanguageData>

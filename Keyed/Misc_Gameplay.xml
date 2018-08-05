@@ -1,573 +1,1046 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Various -->
+  <!-- EN: hit points -->
   <HitPointsBasic>命中率</HitPointsBasic>
+  <!-- EN: Work left -->
   <WorkLeft>剩餘工作</WorkLeft>
+  <!-- EN: Contents -->
   <Contents>內容</Contents>
+  <!-- EN: Contained resources -->
   <ContainedResources>包含資源</ContainedResources>
+  <!-- EN: For prisoner use -->
   <ForPrisonerUse>僅限俘虜使用</ForPrisonerUse>
-  <InPrisonCell>In prison cell: For prisoner use</InPrisonCell>
+  <!-- EN: In prison cell: For prisoner use -->
+  <InPrisonCell>位於俘虜房中：僅限俘虜使用</InPrisonCell>
+  <!-- EN: For colonist use -->
   <ForColonistUse>僅限居民使用</ForColonistUse>
+  <!-- EN: Medical -->
   <MedicalBed>醫療</MedicalBed>
+  <!-- EN: Owner -->
   <Owner>擁有者</Owner>
+  <!-- EN: Owners -->
   <Owners>擁有者</Owners>
+  <!-- EN: Assigned colonist -->
   <AssignedColonist>登錄的居民</AssignedColonist>
+  <!-- EN: Died on the {0} -->
   <DiedOn>死於{0}</DiedOn>
+  <!-- EN: Nobody -->
   <Nobody>無</Nobody>
+  <!-- EN: Unowned -->
   <Unowned>無擁有者</Unowned>
+  <!-- EN: Dead for {0} -->
   <DeadTime>死亡的{0}</DeadTime>
+  <!-- EN: walk speed {0} -->
   <WalkSpeed>行走速度{0}</WalkSpeed>
+  <!-- EN: fert. -->
   <FertShort>生長速度</FertShort>
+  <!-- EN: dying -->
   <DyingLower>瀕死</DyingLower>
+  <!-- EN: Filth on feet: -->
   <FilthOnFeet>腳上的髒污：</FilthOnFeet>
+  <!-- EN: not enough stored -->
   <NotEnoughStoredLower>儲量不足</NotEnoughStoredLower>
+  <!-- EN: nothing -->
   <NothingLower>無</NothingLower>
+  <!-- EN: Adapted -->
   <Adapted>適合</Adapted>
+  <!-- EN: fresh -->
   <FreshMissingBodyPart>新鮮</FreshMissingBodyPart>
+  <!-- EN: developed immunity -->
   <DevelopedImmunityLower>已形成免疫力</DevelopedImmunityLower>
+  <!-- EN: Needs tending now -->
   <NeedsTendingNow>需要立即治療</NeedsTendingNow>
-  <CanTendNow>Can tend now</CanTendNow>
-  <TreatmentExpiresIn>Tending expires in {0}</TreatmentExpiresIn>
-  <NextTendIn>Can be tended in {0}</NextTendIn>
-  <TendQuality>Tend quality</TendQuality>
+  <!-- EN: Can tend now -->
+  <CanTendNow>現在無法治療</CanTendNow>
+  <!-- EN: Tending expires in {0} -->
+  <TreatmentExpiresIn>療效剩餘時間 {0}</TreatmentExpiresIn>
+  <!-- EN: Can be tended in {0} -->
+  <NextTendIn>可在{0}後進行治療</NextTendIn>
+  <!-- EN: Tend quality -->
+  <TendQuality>治療品質</TendQuality>
+  <!-- EN: no {0} -->
   <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
+  <!-- EN: Immunity -->
   <Immunity>免疫力形成度</Immunity>
+  <!-- EN: Race -->
   <Race>物種</Race>
+  <!-- EN: Description -->
   <Description>描述</Description>
+  <!-- EN: Equipment -->
   <Equipment>裝備</Equipment>
+  <!-- EN: Apparel -->
   <Apparel>服裝</Apparel>
+  <!-- EN: Inventory -->
   <Inventory>物品</Inventory>
+  <!-- EN: Information -->
   <ThingInfo>訊息</ThingInfo>
+  <!-- EN: Drop -->
   <DropThing>卸下</DropThing>
+  <!-- EN: Rename -->
   <Rename>重新命名</Rename>
+  <!-- EN: Rename animal -->
   <RenameAnimal>重新命名動物</RenameAnimal>
+  <!-- EN: Rename colonist -->
   <RenameColonist>重新命名居民</RenameColonist>
+  <!-- EN: unknown -->
   <UnknownLower>未知</UnknownLower>
+  <!-- EN: On -->
   <On>開啟</On>
+  <!-- EN: Off -->
   <Off>關閉</Off>
+  <!-- EN: Power -->
   <PowerSwitch_Power>電力</PowerSwitch_Power>
+  <!-- EN: Recreation type tolerances -->
   <JoyTolerances>娛樂類型</JoyTolerances>
+  <!-- EN: Milk fullness -->
   <MilkFullness>產奶進度</MilkFullness>
+  <!-- EN: Wool growth -->
   <WoolGrowth>產毛進度</WoolGrowth>
+  <!-- EN: Egg progress -->
   <EggProgress>孵化進度</EggProgress>
+  <!-- EN: Fertilized -->
   <Fertilized>已受精</Fertilized>
+  <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>孵化進度已停止(未受精)</ProgressStoppedUntilFertilized>
+  <!-- EN: need {0} level {2}, have {1} -->
   <SkillTooLow>需要等級{2}的{0}，目前只有{1}級。</SkillTooLow>
+  <!-- EN: Freezing -->
   <Freezing>過冷</Freezing>
+  <!-- EN: Overheating -->
   <Overheating>過熱</Overheating>
+  <!-- EN: Ruined by temperature. -->
   <RuinedByTemperature>因極端溫度而損壞。</RuinedByTemperature>
+  <!-- EN: Missing body parts -->
   <CorpsePercentMissing>失去身體部位</CorpsePercentMissing>
+  <!-- EN: Reproduces in -->
   <HiveReproducesIn>蟲巢擴張倒數</HiveReproducesIn>
+  <!-- EN: Dormant: Not reproducing. -->
   <DormantHiveNotReproducing>休眠：停止擴張。</DormantHiveNotReproducing>
+  <!-- EN: Next {0} in -->
   <NextSpawnedItemIn>下一次{0}於</NextSpawnedItemIn>
+  <!-- EN: Broken down -->
   <BrokenDown>損壞</BrokenDown>
+  <!-- EN: (bond) -->
   <BondBrackets>(夥伴)</BondBrackets>
+  <!-- EN: Fuel -->
   <Fuel>燃料</Fuel>
+  <!-- EN: Fuel -->
   <FuelLevelGizmoLabel>燃料</FuelLevelGizmoLabel>
+  <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>將燃料充填量設為{0}</SetTargetFuelLevel>
+  <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
   <SetPodLauncherTargetFuelLevel>將燃料充填量設為{0}\n最大發送距離：{1}格</SetPodLauncherTargetFuelLevel>
+  <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>目標燃料充填量：{0}</ConfiguredTargetFuelLevel>
+  <!-- EN: enemies -->
   <Enemies>敵人</Enemies>
+  <!-- EN: time passed -->
   <TimePassed>經過時間</TimePassed>
+  <!-- EN: current radius -->
   <CurrentRadius>當前半徑</CurrentRadius>
+  <!-- EN: radius expands in -->
   <RadiusExpandsIn>擴展半徑</RadiusExpandsIn>
+  <!-- EN: permanent -->
   <Permanent>永久效果</Permanent>
+  <!-- EN: Resting -->
   <CaravanResting>休息。</CaravanResting>
+  <!-- EN: using 1 bedroll -->
+  <UsingBedroll>使用1個睡袋</UsingBedroll>
+  <!-- EN: using {0} bedrolls -->
+  <UsingBedrolls>使用{0}個睡袋</UsingBedrolls>
+  <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>預計抵達時間：{0}</CaravanEstimatedTimeToDestination>
-  <CaravanEstimatedDaysToDestination>Estimated days to arrive: {0}</CaravanEstimatedDaysToDestination>
+  <!-- EN: Estimated days to arrive: {0} -->
+  <CaravanEstimatedDaysToDestination>預計旅行天數：{0}</CaravanEstimatedDaysToDestination>
+  <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>動彈不得：負重過量。</CaravanImmobilizedByMass>
+  <!-- EN: Out of food. -->
   <CaravanOutOfFood>糧食耗盡。</CaravanOutOfFood>
+  <!-- EN: Days of food: {0} -->
   <CaravanDaysOfFood>糧食儲備天數：{0}</CaravanDaysOfFood>
+  <!-- EN: Days of food: {0} (rot in {1} days) -->
   <CaravanDaysOfFoodRot>糧食儲備天數：{0}，{1}天後腐敗</CaravanDaysOfFoodRot>
+  <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>暫停原因：所有成員都倒下了。</AllCaravanMembersDowned>
+  <!-- EN: Stopped because: Everyone has a mental break. -->
   <AllCaravanMembersMentalBreak>暫停原因：所有成員都崩潰了。</AllCaravanMembersMentalBreak>
-  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+  <!-- EN: {0} {1} -->
+  <CaravanColonistsCount>{0}{1}</CaravanColonistsCount>
+  <!-- EN: 1 animal -->
   <CaravanAnimal>1頭動物</CaravanAnimal>
+  <!-- EN: {0} animals -->
   <CaravanAnimalsCount>{0}頭動物</CaravanAnimalsCount>
+  <!-- EN: 1 prisoner -->
   <CaravanPrisoner>1名俘虜</CaravanPrisoner>
+  <!-- EN: {0} prisoners -->
   <CaravanPrisonersCount>{0}名俘虜</CaravanPrisonersCount>
+  <!-- EN: {0} in mental state -->
   <CaravanPawnsInMentalState>{0}人處於崩潰狀態</CaravanPawnsInMentalState>
+  <!-- EN: {0} downed -->
   <CaravanPawnsDowned>{0}人無法動彈</CaravanPawnsDowned>
+  <!-- EN: Traveling. -->
   <CaravanTraveling>正在旅行。</CaravanTraveling>
+  <!-- EN: Resting. -->
   <CaravanPaused>暫停。</CaravanPaused>
+  <!-- EN: Waiting. -->
   <CaravanWaiting>正在等待。</CaravanWaiting>
+  <!-- EN: Being carried due to illness -->
+  <BeingCarriedDueToIllness>因疾病而被搬運</BeingCarriedDueToIllness>
+  <!-- EN: Using bedrolls due to illness -->
+  <UsingBedrollsDueToIllness>因疾病而使用睡袋</UsingBedrollsDueToIllness>
+  <!-- EN: Current tile movement time -->
   <CurrentTileMovementTime>當前區域通行耗時</CurrentTileMovementTime>
+  <!-- EN: Visibility -->
   <Visibility>可見性</Visibility>
+  <!-- EN: Temperature -->
   <Temperature>溫度</Temperature>
+  <!-- EN: bad temperature -->
   <BadTemperature>不合適的溫度</BadTemperature>
+  <!-- EN: Ideal fermenting temperature -->
   <IdealFermentingTemperature>理想的釀造溫度</IdealFermentingTemperature>
-  <DrugEffectMultiplier>效果倍率：{0}</DrugEffectMultiplier>
+  <!-- EN: {0} effect multiplier: {1} -->
+  <DrugEffectMultiplier>{0}效果倍率：{1}</DrugEffectMultiplier>
+  <!-- EN: Visiting {0}. -->
   <CaravanVisiting>正在拜訪{0}。</CaravanVisiting>
+  <!-- EN: Entering {0}. -->
   <CaravanEntering>正在進入{0}。</CaravanEntering>
+  <!-- EN: Attacking {0}. -->
   <CaravanAttacking>正在攻擊{0}。</CaravanAttacking>
+  <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>提供禮物給{0}</CaravanOfferingGifts>
+  <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>曾被死者穿過。</WasWornByCorpse>
+  <!-- EN: T -->
   <WornByCorpseChar>D</WornByCorpseChar>
+  <!-- EN: unroofed -->
   <DeterioratingUnroofed>露天</DeterioratingUnroofed>
+  <!-- EN: outdoors -->
   <DeterioratingOutdoors>室外</DeterioratingOutdoors>
+  <!-- EN: Deteriorating because of -->
   <DeterioratingBecauseOf>因置於不安定的環境而衰敗中：</DeterioratingBecauseOf>
+  <!-- EN: Map -->
   <Map>地圖</Map>
+  <!-- EN: {0} until leaving -->
   <ForceExitAndRemoveMapCountdown>距離離開前{0}</ForceExitAndRemoveMapCountdown>
+  <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
   <ForceExitAndRemoveMapCountdownTip>你的居民將會在{0}後自動重組旅隊並離開目前所在區域。</ForceExitAndRemoveMapCountdownTip>
+  <!-- EN: Room -->
   <Room>房間</Room>
+  <!-- EN: Beauty here -->
   <BeautyHere>美觀度</BeautyHere>
+  <!-- EN: No power -->
   <NoPower>無電力</NoPower>
+  <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>工作速率懲罰</WorkSpeedPenalty>
+  <!-- EN: DISABLED -->
   <DisabledCommand>禁用</DisabledCommand>
+  <!-- EN: Ready for launch. -->
   <ReadyForLaunch>準備發射</ReadyForLaunch>
+  <!-- EN: Not ready for launch -->
   <NotReadyForLaunch>未準備發射</NotReadyForLaunch>
+  <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>無燃料槽</NotAllInGroupConnectedToFuelingPort>
+  <!-- EN: no fuel -->
   <NotAllFuelingPortSourcesInGroupHaveAnyFuel>無燃料</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <!-- EN: loading in progress -->
   <TransportPodInGroupHasSomethingLeftToLoad>正在裝載</TransportPodInGroupHasSomethingLeftToLoad>
+  <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>超出最大範圍</TransportPodDestinationBeyondMaximumRange>
+  <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>燃料不足</TransportPodNotEnoughFuel>
+  <!-- EN: {0} of {1} -->
   <SettlementTrader>{1}的{0}</SettlementTrader>
+  <!-- EN: Surgery success chance multiplier from room -->
   <RoomSurgerySuccessChanceFactor>房間手術成功率倍率</RoomSurgerySuccessChanceFactor>
+  <!-- EN: Infection chance multiplier from room -->
   <RoomInfectionChanceFactor>房間治療感染率倍率</RoomInfectionChanceFactor>
+  <!-- EN: Closed -->
   <VentClosed>關閉</VentClosed>
+  <!-- EN: worn by {0} -->
   <WornBy>穿著於{0}</WornBy>
+  <!-- EN: equipped by {0} -->
   <EquippedBy>被{0}裝備</EquippedBy>
-  <QuestTargetDestroyInspectString>{0}希望能摧毀這個哨站。\n    報酬：{1}。</QuestTargetDestroyInspectString>
+  <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
+  <QuestTargetDestroyInspectString>{0}希望能摧毀這個哨站。\n    報酬：{1}({2})</QuestTargetDestroyInspectString>
+  <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>剩餘時間：{0}</WorldObjectTimeout>
-  <LongRangeMineralScannerEfficiency>效率：{0}</LongRangeMineralScannerEfficiency>
-  <ItemStashContents>內容：{0}</ItemStashContents>
-  <SomeItemStashContents>部分內容：{0}</SomeItemStashContents>
+  <!-- EN: Contents: {0} ({1}) -->
+  <ItemStashContents>內容：{0}({1})</ItemStashContents>
+  <!-- EN: Click to sort by this column. -->
   <ClickToSortByThisColumn>點擊以根據此欄排列。</ClickToSortByThisColumn>
+  <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
   <WorkPriorityShiftClickTip>Shift+左鍵：提升優先度\nShift+右鍵：降低優先度</WorkPriorityShiftClickTip>
+  <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
   <WorkPriorityShiftClickEnableDisableTip>Shift+左鍵：全選\nShift+右鍵：全部取消</WorkPriorityShiftClickEnableDisableTip>
+  <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
   <AllowedAreaShiftClickTip>Shift+左鍵：全部設為居住區\nShift+右鍵：全部設為無限制</AllowedAreaShiftClickTip>
+  <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift+左鍵：全選\nShift+右鍵：全部取消</CheckboxShiftClickTip>
+  <!-- EN: Known threat: {0} -->
   <KnownSiteThreat>威脅：{0}</KnownSiteThreat>
+  <!-- EN: Known threats: {0} -->
   <KnownSiteThreats>威脅{0}</KnownSiteThreats>
+  <!-- EN: Known threats: None -->
   <KnownSiteThreatsNone>威脅：無</KnownSiteThreatsNone>
+  <!-- EN: Skill Requirements -->
   <SkillRequirements>需要技能</SkillRequirements>
+  <!-- EN: Products -->
   <Products>產物</Products>
+  <!-- EN: {0} of {1} -->
   <Relationship>{1}的{0}</Relationship>
+  <!-- EN: Prisoner -->
   <Prisoner>俘虜</Prisoner>
+  <!-- EN: Refugee -->
   <Refugee>難民</Refugee>
+  <!-- EN: Terrain movement difficulty -->
   <TileMovementDifficulty>地形通行難易度</TileMovementDifficulty>
+  <!-- EN: Impassable -->
   <Impassable>無法通行</Impassable>
+  <!-- EN: Caravan movement speed -->
   <CaravanMovementSpeedFull>旅隊移動速度</CaravanMovementSpeedFull>
+  <!-- EN: downed -->
   <DownedLower>無法動彈</DownedLower>
+  <!-- EN: carried -->
+  <Carried>被搬運</Carried>
+  <!-- EN: Avg. person move speed -->
   <AverageCaravanMemberMoveSpeed>人員平均移動速度</AverageCaravanMemberMoveSpeed>
+  <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>負重影響倍率：{0}</MultiplierForCarriedMass>
+  <!-- EN: Caravan members speed -->
   <FinalCaravanPawnsMovementSpeed>旅隊成員速度</FinalCaravanPawnsMovementSpeed>
+  <!-- EN: Final speed -->
   <FinalCaravanMovementSpeed>最終速度</FinalCaravanMovementSpeed>
+  <!-- EN: Winter -->
   <Winter>冬天</Winter>
+  <!-- EN: {0} in winter -->
   <MovementDifficultyOffsetInWinter>冬天{0}</MovementDifficultyOffsetInWinter>
+  <!-- EN: to -->
   <RangeTo>至</RangeTo>
+  <!-- EN: No letter -->
   <NoDietCategoryLetter>無類型</NoDietCategoryLetter>
+  <!-- EN: Expires in -->
   <ExpiresIn>剩餘時間</ExpiresIn>
+  <!-- EN: {0}'s caravan -->
   <CaravanLeaderCaravanName>{0}的旅隊</CaravanLeaderCaravanName>
+  <!-- EN: Reason -->
   <Reason>原因</Reason>
+  <!-- EN: Relations with {0} -->
   <RelationsWith>和{0}的關係</RelationsWith>
+  <!-- EN: captured by {0} -->
   <capturedBy>被{0}俘虜</capturedBy>
+  <!-- EN: your caravan -->
   <yourCaravan>你的旅隊</yourCaravan>
+  <!-- EN: {0} wildness -->
   <CreatureWildness>{0}野性</CreatureWildness>
+  <!-- EN: {0} trainability -->
   <CreatureTrainability>{0}可訓練度</CreatureTrainability>
+  <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}和{1}</ProximitySingleGoodwillChange>
+  <!-- EN: You can't re-enter for another {0} days. -->
   <EnterCooldown>你無法在{0}天內再次進入此區域。</EnterCooldown>
+  <!-- EN: Caravan -->
   <Caravan>旅隊</Caravan>
-  
+  <!-- EN: there may be danger there -->
+  <HiddenOrNoSitePartDescription>可能有危險潛伏在該處</HiddenOrNoSitePartDescription>
+  <!-- EN: lump of {0} -->
+  <PreciousLumpLabel>一堆{0}</PreciousLumpLabel>
+  <!-- EN: no active research project -->
+  <NoActiveResearchProjectToFinish>無啟用的研究項目</NoActiveResearchProjectToFinish>
+
   <!-- Fermentation barrel -->
+  <!-- EN: Contains {0} / {1} wort. -->
   <ContainsWort>含有{0}/{1}桶麥芽。</ContainsWort>
+  <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>含有{0}/{1}桶啤酒。</ContainsBeer>
+  <!-- EN: Fermented -->
   <Fermented>釀造完成</Fermented>
+  <!-- EN: Progress: {0} ({1} left) -->
   <FermentationProgress>釀造進度：{0}(預計將於{1}後釀造完成)。</FermentationProgress>
+  <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
   <FermentationBarrelOutOfIdealTemperature>不理想的釀造溫度，當前釀造速度為{0}倍</FermentationBarrelOutOfIdealTemperature>
-  
-  <!--TextMotes-->
+
+  <!-- TextMotes -->
+  <!-- EN: Headshot -->
   <Headshot>命中頭部</Headshot>
+  <!-- EN: Treatment success!\n{0} chance -->
   <TextMote_TreatSuccess>治療成功！\n成功率{0}</TextMote_TreatSuccess>
+  <!-- EN: Treatment failed\n{0} chance -->
   <TextMote_TreatFailed>治療失敗\n成功率{0}</TextMote_TreatFailed>
+  <!-- EN: Harvest\nbotched -->
   <TextMote_HarvestFailed>收穫失敗</TextMote_HarvestFailed>
+  <!-- EN: Yield\nwasted -->
   <TextMote_YieldWasted>製造失敗</TextMote_YieldWasted>
+  <!-- EN: Product\nwasted -->
   <TextMote_ProductWasted>採集失敗</TextMote_ProductWasted>
+  <!-- EN: Recruit failed!\n{0} chance -->
   <TextMote_RecruitFail>招募失敗！\n成功率{0}</TextMote_RecruitFail>
+  <!-- EN: Resistance\n{0} to {1} -->
+  <TextMote_ResistanceReduced>心防\n{0}至{1}</TextMote_ResistanceReduced>
+  <!-- EN: Tame failed\n{0} chance -->
   <TextMote_TameFail>馴服失敗\n成功率{0}</TextMote_TameFail>
+  <!-- EN: Tamed!\n{0} chance -->
   <TextMote_TameSuccess>馴服成功！\n成功率{0}</TextMote_TameSuccess>
+  <!-- EN: Failed training: {0}\n{1} chance -->
   <TextMote_TrainFail>訓練失敗：{0}\n成功率{1}</TextMote_TrainFail>
+  <!-- EN: Trained: {0}\n{1} chance -->
   <TextMote_TrainSuccess>訓練完成：{0}\n成功率{1}</TextMote_TrainSuccess>
+  <!-- EN: Repair\nbotched -->
   <TextMote_FixBrokenDownBuildingFail>修理失敗</TextMote_FixBrokenDownBuildingFail>
+  <!-- EN: Construction\nbotched -->
   <TextMote_ConstructionFail>建造失敗</TextMote_ConstructionFail>
+  <!-- EN: Dodge -->
   <TextMote_Dodge>閃避</TextMote_Dodge>
+  <!-- EN: {0} tended -->
   <TextMote_Tended>{0}已治療</TextMote_Tended>
+  <!-- EN: low mood -->
+  <lowMood>情緒低落</lowMood>
+  <!-- EN: low opinion -->
+  <lowOpinion>評價低落</lowOpinion>
 
   <!-- Areas -->
+  <!-- EN: Home -->
   <Home>生活區</Home>
+  <!-- EN: Build roof -->
   <BuildRoof>搭建屋頂</BuildRoof>
+  <!-- EN: No roof -->
   <NoRoof>露天</NoRoof>
+  <!-- EN: Snow clear -->
   <SnowClear>除雪</SnowClear>
+  <!-- EN: Area {0} -->
   <AreaDefaultLabel>活動區{0}</AreaDefaultLabel>
+  <!-- EN: Unrestricted -->
   <NoAreaAllowed>無限制</NoAreaAllowed>
+  <!-- EN: New area -->
   <NewArea>新活動區</NewArea>
+  <!-- EN: Invert -->
   <InvertArea>倒置</InvertArea>
-  
+
   <!-- Control -->
+  <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>無法命令不受控制的單位。</CannotOrderNonControlled>
+  <!-- EN: {0} is incapable of violence. -->
   <IsIncapableOfViolence>{0}無法進行暴力相關行為。</IsIncapableOfViolence>
+  <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>無法進行暴力相關行為</IsIncapableOfViolenceShort>
+  <!-- EN: {0} is not drafted. -->
   <IsNotDrafted>{0}未受徵召。</IsNotDrafted>
-  
+
   <!-- Snow -->
+  <!-- EN: No snow -->
   <SnowNone>無積雪</SnowNone>
+  <!-- EN: Snow (dusting) -->
   <SnowDusting>雪(薄)</SnowDusting>
+  <!-- EN: Snow (thin) -->
   <SnowThin>雪(淺)</SnowThin>
+  <!-- EN: Snow (medium) -->
   <SnowMedium>雪(厚)</SnowMedium>
+  <!-- EN: Snow (thick) -->
   <SnowThick>雪(深)</SnowThick>
-  
+
   <!-- Turrets -->
+  <!-- EN: Installed -->
   <GunInstalled>已安裝</GunInstalled>
+  <!-- EN: Minimum range -->
   <MinimumRange>最小距離</MinimumRange>
+  <!-- EN: Can fire in -->
   <CanFireIn>開火時機</CanFireIn>
+  <!-- EN: Cannot fire -->
   <CannotFire>無法開火</CannotFire>
+  <!-- EN: roofed -->
   <Roofed>被屋頂覆蓋</Roofed>
-  <ShellLoaded>彈藥已裝填</ShellLoaded>
+  <!-- EN: Shell loaded: {0} -->
+  <ShellLoaded>已裝填彈藥：{0}</ShellLoaded>
+  <!-- EN: Not loaded -->
   <ShellNotLoaded>彈藥未裝填</ShellNotLoaded>
-  
+
   <!-- Job reports -->
+  <!-- EN: hauling {0} to {1}. -->
   <ReportHaulingTo>將{0}運至{1}。</ReportHaulingTo>
+  <!-- EN: hauling {0}. -->
   <ReportHauling>搬運{0}中。</ReportHauling>
+  <!-- EN: hauling. -->
   <ReportHaulingUnknown>搬運中。</ReportHaulingUnknown>
+  <!-- EN: sleeping. -->
   <ReportSleeping>睡眠中。</ReportSleeping>
+  <!-- EN: resting. -->
   <ReportResting>休息中。</ReportResting>
+  <!-- EN: watching the sunrise. -->
   <WatchingSunrise>欣賞日出美景。</WatchingSunrise>
+  <!-- EN: cloudwatching. -->
   <CloudWatching>望著天上的雲朵。</CloudWatching>
+  <!-- EN: watching the sunset. -->
   <WatchingSunset>欣賞夕陽美景。</WatchingSunset>
+  <!-- EN: stargazing. -->
   <Stargazing>仰望星空。</Stargazing>
+  <!-- EN: watching the eclipse. -->
   <WatchingEclipse>欣賞日蝕景觀。</WatchingEclipse>
+  <!-- EN: watching the aurora. -->
   <WatchingAurora>欣賞極光美景。</WatchingAurora>
+  <!-- EN: using {0} on {1}. -->
   <UsingVerb>對{1}使用{0}。</UsingVerb>
+  <!-- EN: area -->
   <AreaLower>此處</AreaLower>
+  <!-- EN: cowering. -->
   <ReportCowering>逃避。</ReportCowering>
+  <!-- EN: standing. -->
   <ReportStanding>呆站著。</ReportStanding>
+  <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>滅火。</ReportExtinguishingFire>
+  <!-- EN: extinguishing fire on {0}. -->
   <ReportExtinguishingFireOn>撲滅{0}身上的火。</ReportExtinguishingFireOn>
+  <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>挖出屍體。</ReportDiggingUpCorpse>
-  
+
   <!-- Lord job reports -->
+  <!-- EN: Attending marriage ceremony -->
   <LordReportAttendingMarriageCeremony>參加婚禮。</LordReportAttendingMarriageCeremony>
+  <!-- EN: Attending party -->
   <LordReportAttendingParty>參加派對</LordReportAttendingParty>
+  <!-- EN: Forming caravan -->
   <LordReportFormingCaravan>組織旅隊</LordReportFormingCaravan>
 
   <!-- Shooting report -->
+  <!-- EN: Weapon miss radius -->
   <WeaponMissRadius>彈著點偏移半徑</WeaponMissRadius>
+  <!-- EN: Shooter -->
   <ShootReportShooterAbility>射手</ShootReportShooterAbility>
+  <!-- EN: Weapon -->
   <ShootReportWeapon>武器</ShootReportWeapon>
+  <!-- EN: Darkness -->
   <Darkness>黑暗</Darkness>
+  <!-- EN: Target lying down -->
   <TargetProne>目標動作</TargetProne>
+  <!-- EN: Target size -->
   <TargetSize>目標大小</TargetSize>
+  <!-- EN: Weather -->
   <Weather>天氣</Weather>
+  <!-- EN: Cover -->
   <ShootingCover>掩體</ShootingCover>
+  <!-- EN: {0} stops {1} -->
   <CoverThingBlocksPercentOfShots>{0}阻擋了{1}</CoverThingBlocksPercentOfShots>
+  <!-- EN: no cover -->
   <NoCoverLower>無掩體</NoCoverLower>
+  <!-- EN: Execution -->
   <Execution>處決</Execution>
-  
+
   <!-- Generated recipes -->
+  <!-- EN: make {0} -->
   <RecipeMake>製作{0}</RecipeMake>
+  <!-- EN: Making {0}. -->
   <RecipeMakeJobString>正在製作{0}。</RecipeMakeJobString>
+  <!-- EN: administer {0} -->
   <RecipeAdminister>管理{0}</RecipeAdminister>
+  <!-- EN: Administering {0}. -->
   <RecipeAdministerJobString>正在管理{0}。</RecipeAdministerJobString>
+  <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>無癮主義者將會不開心</TeetotalerUnhappy>
+  <!-- EN: body purist will be unhappy -->
   <ProsthophobeUnhappy>天生主義者將會不開心</ProsthophobeUnhappy>
-  
+
   <!-- Thoughts -->
+  <!-- EN: Expires in: {0} -->
   <ThoughtExpiresIn>消逝時間：{0}</ThoughtExpiresIn>
+  <!-- EN: Starts expiring in: {0} -->
   <ThoughtStartsExpiringIn>消逝開始時間:{0}</ThoughtStartsExpiringIn>
+  <!-- EN: Finishes expiring in: {0} -->
   <ThoughtFinishesExpiringIn>消逝結束時間:{0}</ThoughtFinishesExpiringIn>
+  <!-- EN: Extreme break threshold -->
   <MentalBreakThresholdExtreme>徹底崩潰臨界值</MentalBreakThresholdExtreme>
+  <!-- EN: Major break threshold -->
   <MentalBreakThresholdMajor>精神崩潰臨界值</MentalBreakThresholdMajor>
+  <!-- EN: Minor break threshold -->
   <MentalBreakThresholdMinor>輕微精神崩潰臨界值</MentalBreakThresholdMinor>
-  
+
   <!-- Pawn info readout -->
+  <!-- EN: {0} {1} -->
   <PawnMainDescGendered>{0}{1}</PawnMainDescGendered>
+  <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{1}的{0}</PawnMainDescFactionedWrap>
+  <!-- EN: {1} {0} -->
   <PawnMainDescLifestageWrap>{1}{0}</PawnMainDescLifestageWrap>
+  <!-- EN: Faction -->
   <Faction>勢力</Faction>
+  <!-- EN: Equipped -->
   <Equipped>裝備</Equipped>
+  <!-- EN: nothing -->
   <EquippedNothing>無</EquippedNothing>
+  <!-- EN: Dead -->
   <Dead>死亡</Dead>
+  <!-- EN: Unconscious -->
   <Unconscious>失去意識</Unconscious>
+  <!-- EN: In shock due to pain -->
   <PainShock>劇痛休克</PainShock>
+  <!-- EN: Pain shock -->
   <PainShockShort>休克</PainShockShort>
+  <!-- EN: Incapacitated -->
   <Incapacitated>動彈不得</Incapacitated>
+  <!-- EN: In restraints (slowed) -->
   <InRestraints>被關押(行動減慢)</InRestraints>
+  <!-- EN: Carrying -->
   <Carrying>攜帶</Carrying>
+  <!-- EN: Affected by: -->
   <AffectedBy>影響：</AffectedBy>
+  <!-- EN: Queued -->
   <Queued>等候處理中</Queued>
+  <!-- EN: State -->
   <State>屬性</State>
+  <!-- EN: stun -->
   <StunLower>暈眩</StunLower>
-  
+
   <!-- Inspector general stuff -->
+  <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
+  <!-- EN: View information about this object. -->
   <DefInfoTip>查看關於這個物件的信息。</DefInfoTip>
-  
+
   <!-- Hostility response -->
+  <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
   <HostilityReponseTip>選擇該角色在非徵召狀態下遭遇敵人時的反應方式。</HostilityReponseTip>
+  <!-- EN: Current mode -->
   <HostilityResponseCurrentMode>目前模式</HostilityResponseCurrentMode>
-  
+
   <!-- like 'Blood of John' -->
+  <!-- EN: of -->
   <OfLower>來自</OfLower>
 
   <!-- Power readout -->
+  <!-- EN: Not connected to power. -->
   <PowerNotConnected>未連結電網。</PowerNotConnected>
+  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
   <PowerConnectedRateStored>電網發電量/蓄電量：{0}W/{1}Wd</PowerConnectedRateStored>
+  <!-- EN: Power needed -->
   <PowerNeeded>電力消耗</PowerNeeded>
+  <!-- EN: Power output -->
   <PowerOutput>電力輸出</PowerOutput>
+  <!-- EN: Stored -->
   <PowerBatteryStored>蓄電</PowerBatteryStored>
+  <!-- EN: Efficiency -->
   <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
+  <!-- EN: Self-discharging -->
   <SelfDischarging>自放電</SelfDischarging>
 
   <!-- Temperature control -->
+  <!-- EN: Target temperature -->
   <TargetTemperature>目標溫度</TargetTemperature>
+  <!-- EN: Current power use -->
   <PowerConsumptionMode>目前電力消耗</PowerConsumptionMode>
+  <!-- EN: high -->
   <PowerConsumptionHigh>調高</PowerConsumptionHigh>
+  <!-- EN: low -->
   <PowerConsumptionLow>調低</PowerConsumptionLow>
-  
+
   <!-- Temperature readout -->
+  <!-- EN: Indoors -->
   <Indoors>室內氣溫</Indoors>
+  <!-- EN: Unroofed -->
   <IndoorsUnroofed>露天區</IndoorsUnroofed>
+  <!-- EN: Outdoors -->
   <Outdoors>室外氣溫</Outdoors>
-  
-  <!--Rotting-->
-  <RotStateFresh>新鲜</RotStateFresh>
-  <RotStateRotting>腐爛中</RotStateRotting>
-  <RotStateDessicated>白骨</RotStateDessicated>
-  
-  <!-- Shooting tooltip -->
-  <ShotBy>被{0}擊中</ShotBy>
-  <CannotHit>無法擊中目標。</CannotHit>
-  <ManhunterPerHit>每擊狂暴率</ManhunterPerHit>
 
   <!-- Rotting -->
-  <CurrentlyFrozen>冷凍狀態(不會腐壞)</CurrentlyFrozen>
-  <CurrentlyRefrigerated>冷藏狀態({0}後腐壞)</CurrentlyRefrigerated>
-  <NotRefrigerated>非冷藏狀態({0}後腐壞)</NotRefrigerated>
+  <!-- EN: Fresh -->
+  <RotStateFresh>新鲜</RotStateFresh>
+  <!-- EN: Rotting -->
+  <RotStateRotting>腐爛</RotStateRotting>
+  <!-- EN: Dessicated -->
+  <RotStateDessicated>白骨</RotStateDessicated>
+  <!-- EN: Frozen (won't spoil) -->
+  <CurrentlyFrozen>冷凍(不會腐壞)</CurrentlyFrozen>
+  <!-- EN: Refrigerated (spoils in {0}) -->
+  <CurrentlyRefrigerated>冷藏({0}後腐壞)</CurrentlyRefrigerated>
+  <!-- EN: Not refrigerated (spoils in {0}) -->
+  <NotRefrigerated>非冷藏({0}後腐壞)</NotRefrigerated>
+  <!-- EN: over a decade -->
   <OverADecade>超過十年</OverADecade>
-  <LessThanADay>當日</LessThanADay>
+  <!-- EN: less than a day -->
+  <LessThanADay>不滿一天</LessThanADay>
+
+  <!-- Shooting tooltip -->
+  <!-- EN: Shot by {0} -->
+  <ShotBy>被{0}擊中</ShotBy>
+  <!-- EN: Cannot hit target. -->
+  <CannotHit>無法擊中目標。</CannotHit>
+  <!-- EN: Manhunter chance per hit -->
+  <ManhunterPerHit>每擊狂暴率</ManhunterPerHit>
 
   <!-- Meal -->
+  <!-- EN: Ingredients -->
   <Ingredients>食材</Ingredients>
 
   <!-- Plants -->
+  <!-- EN: {0} grown -->
   <PercentGrowth>已生長{0}</PercentGrowth>
+  <!-- EN: Growth rate -->
   <GrowthRate>生長速率</GrowthRate>
+  <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>{0}後長成</FullyGrownIn>
+  <!-- EN: Needs light level -->
   <PlantNeedsLightLevel>需要光線等級</PlantNeedsLightLevel>
+  <!-- EN: Resting -->
   <PlantResting>休眠中</PlantResting>
+  <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
   <OutOfIdealTemperatureRange>不適合的環境溫度(以{0}%的速度生長)</OutOfIdealTemperatureRange>
+  <!-- EN: Non-ideal temperature. Not growing. -->
   <OutOfIdealTemperatureRangeNotGrowing>不適合的環境溫度(停止生長)</OutOfIdealTemperatureRangeNotGrowing>
+  <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>待收穫</ReadyToHarvest>
+  <!-- EN: Mature. -->
   <Mature>成熟。</Mature>
+  <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>植物生長季</OutdoorGrowingPeriod>
+  <!-- EN: Never -->
   <NoGrowingPeriod>不生長</NoGrowingPeriod>
+  <!-- EN: Year-round -->
   <GrowYearRound>全年</GrowYearRound>
+  <!-- EN: Growing season here now. -->
   <GrowSeasonHereNow>合適的生長條件。</GrowSeasonHereNow>
+  <!-- EN: Cannot grow (bad seasonal temperature). -->
   <CannotGrowBadSeasonTemperature>無法生長(極端的氣候溫度)。</CannotGrowBadSeasonTemperature>
+  <!-- EN: Blighted -->
   <Blighted>枯死</Blighted>
+  <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>因曝光而凋零中</DyingBecauseExposedToLight>
 
   <!-- Zones -->
+  <!-- EN: Zone -->
   <Zone>區域</Zone>
+  <!-- EN: Growing zone -->
   <GrowingZone>種植區</GrowingZone>
+  <!-- EN: Stockpile zone -->
   <Stockpile>儲存區</Stockpile>
+  <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>垃圾儲存區</DumpingStockpile>
+  <!-- EN: Priority -->
   <Priority>優先度</Priority>
+  <!-- EN: Clear all -->
   <ClearAll>全部取消</ClearAll>
+  <!-- EN: Allow all -->
   <AllowAll>全部允許</AllowAll>
 
   <!-- ThingFilter -->
+  <!-- EN: {0} hit points -->
   <HitPoints>{0}耐久值</HitPoints>
+  <!-- EN: any quality -->
   <AnyQuality>所有品質</AnyQuality>
+  <!-- EN: {0} only -->
   <OnlyQuality>只限{0}</OnlyQuality>
-  
+
   <!-- Mouseover indicator -->
+  <!-- EN: Undiscovered -->
   <Undiscovered>未探索</Undiscovered>
-  
+
   <!-- Buttons -->
+  <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
   <ShowLearningHelperWhenEmptyToggleButton>當沒有新訊息時隱藏教學幫手。\n\n當有新的教學時會顯示教學幫手，開啟這項功能能在沒有東西可以學習時隱藏教學幫手。</ShowLearningHelperWhenEmptyToggleButton>
+  <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
   <ShowBeautyToggleButton>切換美觀度的可見性。\n\n以滑鼠游標模擬角色所在的位置，顯示周圍環境的美觀度。</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
   <ShowRoomStatsToggleButton>切換房間屬性的可見性。\n\n顯示滑鼠游標所在房間的房間屬性。</ShowRoomStatsToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
   <ShowColonistBarToggleButton>顯示或隱藏居民快捷列。\n\n居民快捷列會將所有居民的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
+  <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
+  <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
   <AutoRebuildButton>切換是否自動重建被破壞的建築。</AutoRebuildButton>
+  <!-- EN: Toggle categorized mode on the resource readout. -->
   <CategorizedResourceReadoutToggleButton>資源清單的顯示方式。</CategorizedResourceReadoutToggleButton>
+  <!-- EN: Toggle displaying animal names for tame named animals. -->
   <ShowAnimalNamesToggleButton>顯示馴養動物的名稱。</ShowAnimalNamesToggleButton>
+  <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>顯示屋頂區域。</ShowRoofOverlayToggleButton>
+  <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>鎖定攝影機使北方永遠朝上。</LockNorthUpToggleButton>
+  <!-- EN: Toggle day/night lighting system. -->
   <UsePlanetDayNightSystemToggleButton>日夜光照系統</UsePlanetDayNightSystemToggleButton>
+  <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
   <ShowExpandingIconsToggleButton>擴大顯示圖標，而非一般的顯示距離。</ShowExpandingIconsToggleButton>
+  <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
+  <!-- EN: Fire -->
   <Fire>火焰</Fire>
+  <!-- EN: Fire on {0} -->
   <FireOn>{0}上的火焰</FireOn>
+  <!-- EN: Burning -->
   <Burning>燃燒中</Burning>
+  <!-- EN: fire size {0} -->
   <FireSizeLower>火焰大小：{0}</FireSizeLower>
-  
+
   <!-- Game conditions -->
+  <!-- EN: Special conditions affecting the area right now. -->
   <GameConditionsTip>正在影響區域的特殊情况。</GameConditionsTip>
+  <!-- EN: time left -->
   <TimeLeft>剩餘時間</TimeLeft>
+  <!-- EN: impact date -->
   <ImpactDate>影響發生日</ImpactDate>
 
   <!-- Building placement -->
+  <!-- EN: You have no usable materials from which to build this. -->
   <NoStuffsToBuildWith>沒有可用的材料可建造此項目。</NoStuffsToBuildWith>
-  
+
   <!-- Building placement restricters -->
+  <!-- EN: {0} will have work speed penalty -->
   <WillGetWorkSpeedPenalty>{0}會受到工作速率懲罰</WillGetWorkSpeedPenalty>
+  <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>不能放置在室內。</MustPlaceUnroofed>
+  <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>必須與星艦結構柱連接。</MustPlaceHeadOnShipBeam>
+  <!-- EN: Must be placed next to something that needs a hopper. -->
   <MustPlaceNextToHopperAccepter>必須放置在需要儲料槽的物件旁。</MustPlaceNextToHopperAccepter>
+  <!-- EN: Must be placed directly on a steam geyser. -->
   <MustPlaceOnSteamGeyser>必須直接放置在蒸氣間歇泉上。</MustPlaceOnSteamGeyser>
+  <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
   <MustPlaceCoolerWithFreeSpaces>冷氣機的前後端都必須保持通暢。</MustPlaceCoolerWithFreeSpaces>
+  <!-- EN: Both the sides must be exposed for air to pass through. -->
   <MustPlaceVentWithFreeSpaces>空調扇的前後端都必須保持通暢。</MustPlaceVentWithFreeSpaces>
+  <!-- EN: Must be placed with standable space on all sides. -->
   <MustPlaceAdjacentStandable>必須安置在四周可站立的地點。</MustPlaceAdjacentStandable>
+  <!-- EN: Must be placed next to a pod launcher's fueling port. -->
   <MustPlaceNearFuelingPort>放置位置必須與運輸艙發射平台的燃料槽相鄰。</MustPlaceNearFuelingPort>
+  <!-- EN: Must be placed on drillable resources. -->
   <MustPlaceOnDrillable>必須放置在可採取的資源上方。</MustPlaceOnDrillable>
-  
+  <!-- EN: Cannot be placed next to traps. -->
+  <CannotPlaceAdjacentTrap>無法放置於陷阱旁。</CannotPlaceAdjacentTrap>
+
   <!-- Wind Turbine -->
+  <!-- EN: Blocked by -->
   <WindTurbine_WindPathIsBlockedBy>受到以下物件阻擋：</WindTurbine_WindPathIsBlockedBy>
+  <!-- EN: Blocked by roof -->
   <WindTurbine_WindPathIsBlockedByRoof>受到屋頂阻擋</WindTurbine_WindPathIsBlockedByRoof>
 
+  <!-- Watermill generator -->
+  <!-- EN: Flow reduced: Turbulence from other watermill -->
+  <Watermill_WaterUsedTwice>流量降低：來自其他水車的阻力</Watermill_WaterUsedTwice>
+
   <!-- Cryptosleep casket -->
+  <!-- EN: Contains -->
   <CasketContains>內容</CasketContains>
+  <!-- EN: Warning!\n\n[PAWN_nameDef] is your last free-standing colonist! If you let [PAWN_objective] step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
   <CasketWarning>警告！\n\n[PAWN_nameDef]是你最後一名還能活動的居民！如果你讓[PAWN_objective]進入休眠，你可能無法進續進行遊戲。你確定要執行這項指令嗎？</CasketWarning>
 
   <!-- Ship launch report -->
+  <!-- EN: Cannot launch. -->
   <ShipReportCannotLaunch>無法發射。</ShipReportCannotLaunch>
+  <!-- EN: Ready for launch. -->
   <ShipReportCanLaunch>準備發射。</ShipReportCanLaunch>
+  <!-- EN: Missing critical component -->
   <ShipReportMissingPart>缺少關鍵性部件</ShipReportMissingPart>
+  <!-- EN: requires -->
   <ShipReportMissingPartRequires>需要</ShipReportMissingPartRequires>
+  <!-- EN: No full cryptosleep caskets -->
   <ShipReportNoFullPods>沒有裝滿的休眠艙</ShipReportNoFullPods>
+  <!-- EN: Hibernating component -->
   <ShipReportHibernating>待機中的部件</ShipReportHibernating>
+  <!-- EN: Component not yet ready -->
   <ShipReportNotReady>部件尚未完成準備</ShipReportNotReady>
+  <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>夏隆．懷特史東已經準備好啟動反應爐的啟動程序。\n\n夏隆警告你，啟動程序需耗時15日，而星艦啟動間發出的能量識別訊號將會傳到極遠的距離外，這種訊號代表這艘星艦具有飛行能力，將會吸引絕望的掠奪者和寶藏獵人。當下的第一要務便是要確保擁有足夠的防禦力量。</HibernateWarning>
+  <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>反應爐已經準備好開始啟動。\n\n啟動程序需耗時15日，而星艦啟動間發出的能量識別訊號將會傳到極遠的距離外，這種訊號代表這艘星艦具有飛行能力，將會吸引絕望的掠奪者和寶藏獵人。當下的第一要務便是要確保擁有足夠的防禦力量。</HibernateWarningStandalone>
+  <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>夏隆．懷特史東已經準備好啟動反應爐的啟動程序。他警告你，啟動程序需耗時15日。</HibernateWarningPacifist>
+  <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>反應爐已經準備好開始啟動。啟動程序需耗時15日。</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
+  <!-- EN: {0} used {1} neurotrainer to go from level {2} to level {3}. -->
   <NeurotrainerUsed>{0}使用{1}神經技能訓練器使等級由{2}提升至{3}了。</NeurotrainerUsed>
-  
+
   <!-- Minification -->
+  <!-- EN: Installed -->
   <Installed>已安裝</Installed>
+  <!-- EN: Not installed -->
   <NotInstalled>未安裝</NotInstalled>
 
   <!-- Art -->
+  <!-- EN: Title -->
   <Title>標題</Title>
+  <!-- EN: Untitled -->
   <Untitled>未提名</Untitled>
-  
+
   <!-- Unfinished thing -->
+  <!-- EN: Unfinished {0} -->
   <UnfinishedItem>{0}半成品</UnfinishedItem>
+  <!-- EN: Unfinished {0} {1} -->
   <UnfinishedItemWithStuff>{0}{1}半成品</UnfinishedItemWithStuff>
 
   <!-- Quality -->
+  <!-- EN: Quality -->
   <Quality>品質</Quality>
+  <!-- EN: An item's quality is how well-made it is. -->
   <QualityDescription>此道具的生產品質。</QualityDescription>
+  <!-- EN: Quality: {0} -->
   <QualityIs>品質{0}</QualityIs>
-    
+
   <!-- Mood descriptions -->
+  <!-- EN: mental state -->
   <Mood_MentalState>精神狀態</Mood_MentalState>
+  <!-- EN: about to break -->
   <Mood_AboutToBreak>瀕臨崩潰</Mood_AboutToBreak>
+  <!-- EN: on edge -->
   <Mood_OnEdge>極限</Mood_OnEdge>
+  <!-- EN: stressed -->
   <Mood_Stressed>壓力</Mood_Stressed>
+  <!-- EN: neutral -->
   <Mood_Neutral>自然</Mood_Neutral>
+  <!-- EN: content -->
   <Mood_Content>滿足</Mood_Content>
+  <!-- EN: happy -->
   <Mood_Happy>快樂</Mood_Happy>
-  
+
   <!-- Game over -->
+  <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>所有人不是死了就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>
+  <!-- EN: You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
   <GameOverShipLaunched>你啟動了星艦！以下居民離開了:\n\n{0}\n以下居民被留下了:\n\n{1}\n現在，AI將會將這艘船導向某個安全的地方。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待某人在此打造一個新的閃耀世界。\n\n一切只有在你醒來後才會知道。</GameOverShipLaunched>
+  <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>一顆行星殺手以接近光速的高速撞擊這顆星球，引發了威力相當於數萬億顆氫彈的毀滅性爆炸，整顆星球就像被子彈貫穿的水球，在衝擊下液化，其核心物質噴發至宇宙中。\n\n一部分的{0}形成一個小行星帶，剩下的星體則成為滿佈熔岩而且強震環伺的輻射地獄。\n\n你未能生還。</GameOverPlanetkillerImpact>
+  <!-- EN: As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up. -->
   <GameOverArrivedAtJourneyDestination>你乘上了張開雙臂歡迎你的星艦，船員們看起來相當高興能夠至少多帶一個人與他們同行。\n\n以下居民逃離了：\n\n{0}\n以下居民被留下了：\n\n{1}\n現在，AI將會將這艘船導向某個安全的地方。也許它會將你帶到這個星系裡一個更好的星球上。也許它會花一個世紀來旅行到另一個星系去。它甚至會在一個流動的冰層下隱藏數千年，等待某人在此打造一個新的閃耀世界。\n\n你在進入休眠艙前猶豫了一會兒，對於這些人是否可信感到有點不確定。\n\n一切只有在你醒來後才會知道。</GameOverArrivedAtJourneyDestination>
+  <!-- EN: Keep playing -->
   <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
+  <!-- EN: Main menu -->
   <GameOverMainMenu>主畫面</GameOverMainMenu>
-  
+
   <!-- Generic lifespan -->
+  <!-- EN: Expires in: -->
   <LifespanExpiry>壽命：</LifespanExpiry>
 
-  <!-- Traps -->
-  <TrapArmed>啟動</TrapArmed>
-  <TrapNotArmed>未啟動</TrapNotArmed>
-  <TrapRearmingCost>重置消耗：{0}</TrapRearmingCost>
-  
   <!-- Facilities -->
+  <!-- EN: inactive -->
   <InactiveFacility>閒置</InactiveFacility>
-  
+
   <!-- Hediffs growth modes -->
+  <!-- EN: {0}'s {1} is now growing. -->
   <DiseaseGrowthModeChanged_Growing>{0}的{1}正在惡化。</DiseaseGrowthModeChanged_Growing>
+  <!-- EN: {0}'s {1} is now stable. -->
   <DiseaseGrowthModeChanged_Stable>{0}的{1}已經穩定下來。</DiseaseGrowthModeChanged_Stable>
+  <!-- EN: {0}'s {1} is now in remission. -->
   <DiseaseGrowthModeChanged_Remission>{0}的{1}正在逐漸痊癒。</DiseaseGrowthModeChanged_Remission>
-  
+
   <!-- Marriage spot -->
+  <!-- EN: Usable now. -->
   <MarriageSpotUsable>現可使用。</MarriageSpotUsable>
+  <!-- EN: Not usable: {0}. -->
   <MarriageSpotNotUsable>以下設施無法運作：{0}。</MarriageSpotNotUsable>
+  <!-- EN: blocked -->
   <MarriageSpotNotStandable>受到阻擋</MarriageSpotNotStandable>
+  <!-- EN: too dangerous for {0} -->
   <MarriageSpotDangerous>不安全的{0}</MarriageSpotDangerous>
+  <!-- EN: forbidden for {0} -->
   <MarriageSpotForbidden>{0}已禁止互動</MarriageSpotForbidden>
+  <!-- EN: reserved -->
   <MarriageSpotReserved>預留</MarriageSpotReserved>
+  <!-- EN: unreachable for {0} -->
   <MarriageSpotUnreachable>無有效路徑至{0}</MarriageSpotUnreachable>
+  <!-- EN: in prison cell -->
   <MarriageSpotInPrisonCell>位於俘虜房中</MarriageSpotInPrisonCell>
+  <!-- EN: uncomfortable temperature -->
   <NotEnjoyableOutsideTemperature>氣溫不合適</NotEnjoyableOutsideTemperature>
-  
+
   <!-- Colonist bar -->
+  <!-- EN: Medical rest -->
   <ActivityIconMedicalRest>養病中</ActivityIconMedicalRest>
+  <!-- EN: Sleeping -->
   <ActivityIconSleeping>睡眠中</ActivityIconSleeping>
+  <!-- EN: Fleeing -->
   <ActivityIconFleeing>逃跑中</ActivityIconFleeing>
+  <!-- EN: Fighting -->
   <ActivityIconAttacking>戰鬥中</ActivityIconAttacking>
+  <!-- EN: Idle -->
   <ActivityIconIdle>閒置中</ActivityIconIdle>
+  <!-- EN: Burning -->
   <ActivityIconBurning>著火中</ActivityIconBurning>
+  <!-- EN: Forming a caravan -->
   <ActivityIconFormingCaravan>組織旅隊中</ActivityIconFormingCaravan>
-  
+
   <!-- Maintainable -->
+  <!-- EN: Due for maintenance. -->
   <DueForMaintenance>需要維護。</DueForMaintenance>
+  <!-- EN: Deteriorating due to lack of maintenance. -->
   <DeterioratingDueToLackOfMaintenance>因缺乏維護而劣化。</DeterioratingDueToLackOfMaintenance>
-  
+
   <!-- Deep drill -->
+  <!-- EN: Progress to next lump -->
   <ProgressToNextLump>開採進度</ProgressToNextLump>
+  <!-- EN: Resource below -->
   <ResourceBelow>蘊含的資源</ResourceBelow>
+  <!-- EN: Progress to next portion -->
+  <ProgressToNextPortion>進展至下一階段</ProgressToNextPortion>
+  <!-- EN: No resources below. -->
   <DeepDrillNoResources>下方無資源。</DeepDrillNoResources>
+  <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
   <DeepDrillExhausted>礦藏已枯竭，礦機已自動停用，重新啟用以開始開採{0}。</DeepDrillExhausted>
+  <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>礦藏已枯竭。</DeepDrillExhaustedNoFallback>
-  
+
   <!-- Learning helper -->
+  <!-- EN: Learning helper -->
   <LearningHelper>教學幫手</LearningHelper>
+  <!-- EN: Mark as learned -->
   <MarkLearned>標記為已學習</MarkLearned>
+  <!-- EN: Already learned -->
   <AlreadyLearned>已學習</AlreadyLearned>
+  <!-- EN: Filter -->
   <Filter>篩選</Filter>
 
   <!-- Compass -->
+  <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
   <CompassTip>指出正北方向，點擊以旋轉鏡頭使北極向上。</CompassTip>
 
   <!-- World route planner -->
+  <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
   <RoutePlannerButtonTip>點擊進入計畫模式。在計畫模式中，你能夠規劃你的旅途，並計算各中途點之間的距離。</RoutePlannerButtonTip>
+  <!-- EN: Add two or more waypoints. -->
   <RoutePlannerAddTwoOrMoreWaypoints>新增兩個以上的中途點。</RoutePlannerAddTwoOrMoreWaypoints>
+  <!-- EN: Add one or more waypoints. -->
   <RoutePlannerAddOneOrMoreWaypoints>新增一個以上的中途點。</RoutePlannerAddOneOrMoreWaypoints>
+  <!-- EN: Total route time: {0} -->
   <RoutePlannerEstTimeToFinalDest>至最終目的地預估時間：{0}</RoutePlannerEstTimeToFinalDest>
+  <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
   <RoutePlannerUsingAverageTicksPerMoveWarning>計畫模式套用了預設的旅隊行動速度，實際速度可能改變。</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <!-- EN: Calculating for: {0} -->
   <RoutePlannerUsingTicksPerMoveOfCaravan>以{0}為準計算</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>滑鼠右鍵：新增或移除中途點。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC：離開計畫模式。</RoutePlannerPressEscapeToExit>
+  <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC：返回至旅隊組織畫面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>預估旅行時間：{0}</EstimatedTimeToWaypoint>
+  <!-- EN: Est. travel time (from previous waypoint): {0} -->
   <EstimatedTimeToWaypointFromPrevious>至中途點預估旅行時間：{0}</EstimatedTimeToWaypointFromPrevious>
+  <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToTile>預估旅行時間：{0}</EstimatedTimeToTile>
+  <!-- EN: Foraged food amount -->
   <ForagedFoodAmount>採集食物量</ForagedFoodAmount>
 
   <!-- Outfits -->
+  <!-- EN: Anything -->
   <OutfitAnything>不限</OutfitAnything>
+  <!-- EN: Worker -->
   <OutfitWorker>工人</OutfitWorker>
+  <!-- EN: Soldier -->
   <OutfitSoldier>戰士</OutfitSoldier>
+  <!-- EN: Nudist -->
   <OutfitNudist>裸體主義者</OutfitNudist>
 
   <!-- Hibernatable -->
+  <!-- EN: Hibernating -->
   <HibernatableHibernating>休眠中</HibernatableHibernating>
+  <!-- EN: Starting up -->
   <HibernatableStartingUp>啟動中</HibernatableStartingUp>
 
   <!-- Transport pods -->
+  <!-- EN: {0}: See available orders... -->
   <ClickToSeeAvailableOrders_WorldObject>{0}: See available orders...。</ClickToSeeAvailableOrders_WorldObject>
+  <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>See available orders...。</ClickToSeeAvailableOrders_Empty>
-  
+
 </LanguageData>

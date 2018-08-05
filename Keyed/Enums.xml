@@ -1,160 +1,298 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- glow -->
+  <!-- Glow -->
+  <!-- EN: Dark -->
   <Dark>黑暗</Dark>
+  <!-- EN: Lit -->
   <Lit>明亮</Lit>
+  <!-- EN: Brightly lit -->
   <LitBrightly>非常明亮</LitBrightly>
   
-  <!-- history upload pref -->
+  <!-- History upload pref -->
+  <!-- EN: Undecided -->
   <Unspecified>未决定</Unspecified>
+  <!-- EN: Allow -->
   <Always>允許</Always>
+  <!-- EN: Do not allow -->
   <Never>不允許</Never>
   
   <!-- Price types -->
+  <!-- EN: very cheap -->
   <PriceTypeVeryCheap>非常便宜</PriceTypeVeryCheap>
+  <!-- EN: cheap -->
   <PriceTypeCheap>便宜</PriceTypeCheap>
+  <!-- EN: normal -->
   <PriceTypeNormal>一般</PriceTypeNormal>
+  <!-- EN: expensive -->
   <PriceTypeExpensive>偏貴</PriceTypeExpensive>
+  <!-- EN: exorbitant -->
   <PriceTypeExorbitant>非常貴</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
+  <!-- EN: unstored -->
   <StoragePriorityUnstored>不儲存</StoragePriorityUnstored>
+  <!-- EN: low -->
   <StoragePriorityLow>低</StoragePriorityLow>
+  <!-- EN: normal -->
   <StoragePriorityNormal>普通</StoragePriorityNormal>
+  <!-- EN: preferred -->
   <StoragePriorityPreferred>偏好</StoragePriorityPreferred>
+  <!-- EN: important -->
   <StoragePriorityImportant>重要</StoragePriorityImportant>
+  <!-- EN: critical -->
   <StoragePriorityCritical>關鍵</StoragePriorityCritical>
 
   <!-- Food type flags -->
+  <!-- EN: vegetables -->
   <FoodTypeFlags_VegetableOrFruit>蔬食</FoodTypeFlags_VegetableOrFruit>
+  <!-- EN: raw meat -->
   <FoodTypeFlags_Meat>生肉</FoodTypeFlags_Meat>
+  <!-- EN: corpses -->
   <FoodTypeFlags_Corpse>屍體</FoodTypeFlags_Corpse>
+  <!-- EN: seeds -->
   <FoodTypeFlags_Seed>種子</FoodTypeFlags_Seed>
+  <!-- EN: animal products -->
   <FoodTypeFlags_AnimalProduct>畜產品</FoodTypeFlags_AnimalProduct>
+  <!-- EN: live plants -->
   <FoodTypeFlags_Plant>植物</FoodTypeFlags_Plant>
+  <!-- EN: live trees -->
   <FoodTypeFlags_Tree>樹木</FoodTypeFlags_Tree>
+  <!-- EN: meals -->
   <FoodTypeFlags_Meal>餐點</FoodTypeFlags_Meal>
+  <!-- EN: processed foods -->
   <FoodTypeFlags_Processed>加工食品</FoodTypeFlags_Processed>
+  <!-- EN: liquor -->
   <FoodTypeFlags_Liquor>酒精飲品</FoodTypeFlags_Liquor>
+  <!-- EN: kibble -->
   <FoodTypeFlags_Kibble>動物飼料</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
+  <!-- EN: awful -->
   <QualityCategory_Awful>差勁</QualityCategory_Awful>
+  <!-- EN: poor -->
   <QualityCategory_Poor>瑕疵</QualityCategory_Poor>
+  <!-- EN: normal -->
   <QualityCategory_Normal>普通</QualityCategory_Normal>
+  <!-- EN: good -->
   <QualityCategory_Good>優良</QualityCategory_Good>
+  <!-- EN: excellent -->
   <QualityCategory_Excellent>完美</QualityCategory_Excellent>
+  <!-- EN: masterwork -->
   <QualityCategory_Masterwork>大師</QualityCategory_Masterwork>
+  <!-- EN: legendary -->
   <QualityCategory_Legendary>傳奇</QualityCategory_Legendary>
+  <!-- EN: awfl -->
   <QualityCategoryShort_Awful>F</QualityCategoryShort_Awful>
+  <!-- EN: poor -->
   <QualityCategoryShort_Poor>E</QualityCategoryShort_Poor>
+  <!-- EN: norm -->
   <QualityCategoryShort_Normal>D</QualityCategoryShort_Normal>
+  <!-- EN: good -->
   <QualityCategoryShort_Good>C</QualityCategoryShort_Good>
+  <!-- EN: exc -->
   <QualityCategoryShort_Excellent>B</QualityCategoryShort_Excellent>
+  <!-- EN: mast -->
   <QualityCategoryShort_Masterwork>A</QualityCategoryShort_Masterwork>
+  <!-- EN: legd -->
   <QualityCategoryShort_Legendary>S</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
+  <!-- EN: Starving -->
   <HungerLevel_Starving>極度飢餓</HungerLevel_Starving>
+  <!-- EN: Urgently hungry -->
   <HungerLevel_UrgentlyHungry>飢腸轆轆</HungerLevel_UrgentlyHungry>
+  <!-- EN: Hungry -->
   <HungerLevel_Hungry>飢餓</HungerLevel_Hungry>
+  <!-- EN: Fed -->
   <HungerLevel_Fed>飽足</HungerLevel_Fed>
 
   <!-- -Fatigue -->
+  <!-- EN: Exhausted -->
   <HungerLevel_Exhausted>筋疲力竭</HungerLevel_Exhausted>
+  <!-- EN: Very tired -->
   <HungerLevel_VeryTired>疲憊</HungerLevel_VeryTired>
+  <!-- EN: Tired -->
   <HungerLevel_Tired>勞累</HungerLevel_Tired>
+  <!-- EN: Rested -->
   <HungerLevel_Rested>精神飽滿</HungerLevel_Rested>
 
   <!-- Hilliness -->
+  <!-- EN: flat -->
   <Hilliness_Flat>平地</Hilliness_Flat>
+  <!-- EN: small hills -->
   <Hilliness_SmallHills>丘陵</Hilliness_SmallHills>
+  <!-- EN: large hills -->
   <Hilliness_LargeHills>山丘</Hilliness_LargeHills>
+  <!-- EN: mountainous -->
   <Hilliness_Mountainous>山地</Hilliness_Mountainous>
+  <!-- EN: impassable -->
   <Hilliness_Impassable>無法通行</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
+  <!-- EN: Creating -->
   <WorkshopInteractStage_CreatingItem>建立</WorkshopInteractStage_CreatingItem>
+  <!-- EN: Submitting -->
   <WorkshopInteractStage_SubmittingItem>提交</WorkshopInteractStage_SubmittingItem>
+  <!-- EN: Invalid -->
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>無效</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <!-- EN: Preparing config data -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>準備配置資料</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <!-- EN: Preparing content files -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>準備內容文件</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <!-- EN: Uploading content -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>上傳內容</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <!-- EN: Uploading preview file -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>上傳預覽文件</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <!-- EN: Committing changes -->
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>上傳更新</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
+  <!-- EN: local folder -->
   <ContentSource_LocalFolder>本機資料夾</ContentSource_LocalFolder>
+  <!-- EN: Steam Workshop -->
   <ContentSource_SteamWorkshop>Steam創意工坊</ContentSource_SteamWorkshop>
-
+  
   <!-- Medical care category -->
+  <!-- EN: No medical care -->
   <MedicalCareCategory_NoCare>無醫療照顧</MedicalCareCategory_NoCare>
+  <!-- EN: Doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>給予醫生治療，但不供應藥物</MedicalCareCategory_NoMeds>
+  <!-- EN: Herbal medicine or worse -->
   <MedicalCareCategory_HerbalOrWorse>供應草藥或草藥等級以下的藥品</MedicalCareCategory_HerbalOrWorse>
+  <!-- EN: Industrial-tech medicine or worse -->
   <MedicalCareCategory_NormalOrWorse>供應普通藥品或普通藥品等級以下的藥品</MedicalCareCategory_NormalOrWorse>
+  <!-- EN: Best quality medicine -->
   <MedicalCareCategory_Best>給予最高品質的醫療照顧</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
+  <!-- EN: Ignore -->
   <HostilityResponseMode_Ignore>無視</HostilityResponseMode_Ignore>
+  <!-- EN: Attack -->
   <HostilityResponseMode_Attack>攻擊</HostilityResponseMode_Attack>
+  <!-- EN: Flee -->
   <HostilityResponseMode_Flee>逃跑</HostilityResponseMode_Flee>
   
   <!-- HediffGrowthMode -->
+  <!-- EN: growing -->
   <HediffGrowthMode_Growing>生長</HediffGrowthMode_Growing>
+  <!-- EN: stable -->
   <HediffGrowthMode_Stable>穩定</HediffGrowthMode_Stable>
+  <!-- EN: remission -->
   <HediffGrowthMode_Remission>減緩</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
+  <!-- EN: animal -->
   <TechLevel_Animal>動物</TechLevel_Animal>
+  <!-- EN: neolithic -->
   <TechLevel_Neolithic>原始部落</TechLevel_Neolithic>
+  <!-- EN: medieval -->
   <TechLevel_Medieval>中世紀</TechLevel_Medieval>
+  <!-- EN: industrial -->
   <TechLevel_Industrial>工業</TechLevel_Industrial>
+  <!-- EN: spacer -->
   <TechLevel_Spacer>太空</TechLevel_Spacer>
+  <!-- EN: ultra -->
   <TechLevel_Ultra>高科技</TechLevel_Ultra>
-  <TechLevel_Transcendent>超科技</TechLevel_Transcendent>
+  <!-- EN: archotech -->
+  <TechLevel_Archotech>古代科技</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
+  <!-- EN: Standing -->
   <PlayerPawnsArriveMethod_Standing>地面</PlayerPawnsArriveMethod_Standing>
+  <!-- EN: Drop pods -->
   <PlayerPawnsArriveMethod_DropPods>空降艙</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
+  <!-- EN: all characters -->
   <PawnGenerationContext_All>所有角色</PawnGenerationContext_All>
+  <!-- EN: player starting characters -->
   <PawnGenerationContext_PlayerStarter>玩家起始角色</PawnGenerationContext_PlayerStarter>
+  <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>非玩家角色</PawnGenerationContext_NonPlayer>
   
-  <!-- Animal Name display mode -->
+  <!-- Animal name display mode -->
+  <!-- EN: Show animal names -->
   <ShowAnimalNames>顯示動物名稱</ShowAnimalNames>
+  <!-- EN: Tame (named only) -->
   <AnimalNameDisplayMode_TameNamed>馴養(已命名)</AnimalNameDisplayMode_TameNamed>
+  <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>馴養(全部)</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->
+  <!-- EN: Celsius -->
   <Celsius>攝氏溫標(C)</Celsius>
+  <!-- EN: Fahrenheit -->
   <Fahrenheit>華氏溫標(F)</Fahrenheit>
+  <!-- EN: Kelvin -->
   <Kelvin>凱式溫標(K)</Kelvin>
   
   <!-- Direction8Way -->
+  <!-- EN: N -->
   <Direction8Way_North_Short>北</Direction8Way_North_Short>
+  <!-- EN: NE -->
   <Direction8Way_NorthEast_Short>東北</Direction8Way_NorthEast_Short>
+  <!-- EN: E -->
   <Direction8Way_East_Short>東</Direction8Way_East_Short>
+  <!-- EN: SE -->
   <Direction8Way_SouthEast_Short>東南</Direction8Way_SouthEast_Short>
+  <!-- EN: S -->
   <Direction8Way_South_Short>南</Direction8Way_South_Short>
+  <!-- EN: SW -->
   <Direction8Way_SouthWest_Short>西南</Direction8Way_SouthWest_Short>
+  <!-- EN: W -->
   <Direction8Way_West_Short>西</Direction8Way_West_Short>
+  <!-- EN: NW -->
   <Direction8Way_NorthWest_Short>西北</Direction8Way_NorthWest_Short>
-
-  <!-- Diet category -->
-  <DietCategory_NeverEats>不進食</DietCategory_NeverEats>
-  <DietCategory_Herbivorous>草食</DietCategory_Herbivorous>
-  <DietCategory_Dendrovorous>樹食</DietCategory_Dendrovorous>
-  <DietCategory_Ovivorous>卵食</DietCategory_Ovivorous>
-  <DietCategory_Omnivorous>雜食</DietCategory_Omnivorous>
-  <DietCategory_Carnivorous>肉食</DietCategory_Carnivorous>
-  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
-  <DietCategory_Herbivorous_Short>草</DietCategory_Herbivorous_Short>
-  <DietCategory_Dendrovorous_Short>樹</DietCategory_Dendrovorous_Short>
-  <DietCategory_Ovivorous_Short>卵</DietCategory_Ovivorous_Short>
-  <DietCategory_Omnivorous_Short>雜</DietCategory_Omnivorous_Short>
-  <DietCategory_Carnivorous_Short>肉</DietCategory_Carnivorous_Short>
   
+  <!-- Diet category -->
+  <!-- EN: Never eats -->
+  <DietCategory_NeverEats>不進食</DietCategory_NeverEats>
+  <!-- EN: Herbivorous -->
+  <DietCategory_Herbivorous>草食</DietCategory_Herbivorous>
+  <!-- EN: Dendrovorous -->
+  <DietCategory_Dendrovorous>樹食</DietCategory_Dendrovorous>
+  <!-- EN: Ovivorous -->
+  <DietCategory_Ovivorous>卵食</DietCategory_Ovivorous>
+  <!-- EN: Omnivorous -->
+  <DietCategory_Omnivorous>雜食</DietCategory_Omnivorous>
+  <!-- EN: Carnivorous -->
+  <DietCategory_Carnivorous>肉食</DietCategory_Carnivorous>
+  <!-- EN: - -->
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
+  <!-- EN: H -->
+  <DietCategory_Herbivorous_Short>草</DietCategory_Herbivorous_Short>
+  <!-- EN: D -->
+  <DietCategory_Dendrovorous_Short>樹</DietCategory_Dendrovorous_Short>
+  <!-- EN: Ov -->
+  <DietCategory_Ovivorous_Short>卵</DietCategory_Ovivorous_Short>
+  <!-- EN: O -->
+  <DietCategory_Omnivorous_Short>雜</DietCategory_Omnivorous_Short>
+  <!-- EN: C -->
+  <DietCategory_Carnivorous_Short>肉</DietCategory_Carnivorous_Short>
+
+  <!-- Food poison cause -->
+  <!-- EN: incompetent cook -->
+  <FoodPoisonCause_IncompetentCook>糟糕的廚藝</FoodPoisonCause_IncompetentCook>
+  <!-- EN: dirty cooking area -->
+  <FoodPoisonCause_FilthyKitchen>髒亂的烹調環境</FoodPoisonCause_FilthyKitchen>
+  <!-- EN: rotten food -->
+  <FoodPoisonCause_Rotten>腐敗的食物</FoodPoisonCause_Rotten>
+  <!-- EN: dangerous food type -->
+  <FoodPoisonCause_DangerousFoodType>危險的食物種類</FoodPoisonCause_DangerousFoodType>
+
+  <!-- Psychic drone level -->
+  <!-- EN: none -->
+  <PsychicDroneLevel_None>無</PsychicDroneLevel_None>
+  <!-- EN: medium -->
+  <PsychicDroneLevel_GoodMedium>中</PsychicDroneLevel_GoodMedium>
+  <!-- EN: low -->
+  <PsychicDroneLevel_BadLow>低</PsychicDroneLevel_BadLow>
+  <!-- EN: medium -->
+  <PsychicDroneLevel_BadMedium>中</PsychicDroneLevel_BadMedium>
+  <!-- EN: high -->
+  <PsychicDroneLevel_BadHigh>高</PsychicDroneLevel_BadHigh>
+  <!-- EN: extreme -->
+  <PsychicDroneLevel_BadExtreme>極端</PsychicDroneLevel_BadExtreme>
+
 </LanguageData>

@@ -1,192 +1,384 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!--=========== Main menu ==========-->
+  <!-- Main menu -->
+  <!-- EN: Tutorial -->
   <Tutorial>遊戲教學</Tutorial>
+  <!-- EN: New colony -->
   <NewColony>新殖民地</NewColony>
+  <!-- EN: Back to game -->
   <BackToGame>返回遊戲</BackToGame>
+  <!-- EN: Review scenario -->
   <ReviewScenario>瀏覽腳本</ReviewScenario>
+  <!-- EN: Save -->
   <Save>保存</Save>
+  <!-- EN: Load game -->
   <LoadGame>載入</LoadGame>
+  <!-- EN: Options -->
   <Options>選項</Options>
-  <Mods>Mods</Mods>
+  <!-- EN: Mods -->
+  <Mods>Mod</Mods>
+  <!-- EN: Save translation report -->
   <SaveTranslationReport>另存翻譯報告</SaveTranslationReport>
+  <!-- EN: Generating translation report -->
   <GeneratingTranslationReport>生成翻譯報告</GeneratingTranslationReport>
+  <!-- EN: Cleanup translation files -->
+  <CleanupTranslationFiles>整理翻譯文件</CleanupTranslationFiles>
+  <!-- EN: Cleaning translation files -->
+  <CleaningTranslationFiles>整理翻譯文件</CleaningTranslationFiles>
+  <!-- EN: Credits -->
   <Credits>開發團隊</Credits>
+  <!-- EN: Quit to main menu -->
   <QuitToMainMenu>返回主選單</QuitToMainMenu>
+  <!-- EN: Save and quit to menu -->
   <SaveAndQuitToMainMenu>儲存並返回主選單</SaveAndQuitToMainMenu>
+  <!-- EN: Quit to OS -->
   <QuitToOS>退出遊戲</QuitToOS>
+  <!-- EN: Save and quit to OS -->
   <SaveAndQuitToOS>儲存並退出遊戲</SaveAndQuitToOS>
+  <!-- EN: Fiction primer -->
   <FictionPrimer>遊戲背景</FictionPrimer>
+  <!-- EN: Ludeon blog -->
   <LudeonBlog>Ludeon部落格</LudeonBlog>
+  <!-- EN: Forums -->
   <Forums>論壇</Forums>
+  <!-- EN: Official wiki -->
   <OfficialWiki>官方維基</OfficialWiki>
+  <!-- EN: Tynan's twitter -->
   <TynansTwitter>Tynan的Twitter</TynansTwitter>
+  <!-- EN: Tynan's design book -->
   <TynansDesignBook>Tynan的設計指南書</TynansDesignBook>
+  <!-- EN: Help translate RimWorld -->
   <HelpTranslate>協助翻譯RimWorld</HelpTranslate>
+  <!-- EN: Buy soundtrack -->
   <BuySoundtrack>購買原聲帶</BuySoundtrack>
+  <!-- EN: Create world -->
   <CreateWorld>創造世界</CreateWorld>
-  
-  <!--=========== Create/review world ================-->
+
+  <!-- Main menu translations info window -->
+  <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
+  <TranslationThanks>RimWorld各語言的翻譯都是由遊戲愛好者提供，這些粉絲出品的翻譯出自下列傑出的志願者們：\n\n{0}</TranslationThanks>
+  <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
+  <TranslationHowToContribute>你也可以做出貢獻，點擊下方了解更多(開啟瀏覽器)。</TranslationHowToContribute>
+  <!-- EN: Learn more -->
+  <LearnMore>了解更多</LearnMore>
+
+  <!-- Main menu dev build -->
+  <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
+  <DevBuildWarning>警告：目前正運行開發中版本，這表示我們正進行設計實驗和技術開發。\n\n有時有些東西會暫時故意失去平衡性，這是一種經典的遊戲設計方法，為了掌握平衡性變化的影響，刻意的造就極端狀況。我們可以根據獲得的數據決定最終的平衡性設計。\n\n此外還有bug，包含那些會導致遊戲崩潰的，存檔兼容性隨時有可能崩潰。\n\n如果你可接受對上述情況，感謝你協助測試！如果你不想參與實驗，請遊玩最新的穩定版。</DevBuildWarning>
+
+  <!-- Create/review world -->
+  <!-- EN: Review world -->
   <ReviewWorld>查看世界</ReviewWorld>
+  <!-- EN: Generate -->
   <WorldGenerate>創造</WorldGenerate>
+  <!-- EN: Save and finish -->
   <WorldSaveAndFinish>保存並完成</WorldSaveAndFinish>
+  <!-- EN: Reset -->
   <Reset>重置</Reset>
+  <!-- EN: Globe coverage -->
   <PlanetCoverage>生成比例</PlanetCoverage>
+  <!-- EN: Overall rainfall -->
   <PlanetRainfall>整體降雨量</PlanetRainfall>
+  <!-- EN: Overall temperature -->
   <PlanetTemperature>整體氣溫</PlanetTemperature>
+  <!-- EN: Low -->
   <PlanetRainfall_Low>乾旱</PlanetRainfall_Low>
+  <!-- EN: Normal -->
   <PlanetRainfall_Normal>適中</PlanetRainfall_Normal>
+  <!-- EN: High -->
   <PlanetRainfall_High>溼潤</PlanetRainfall_High>
+  <!-- EN: Low -->
   <PlanetTemperature_Low>寒冷</PlanetTemperature_Low>
+  <!-- EN: Normal -->
   <PlanetTemperature_Normal>適中</PlanetTemperature_Normal>
+  <!-- EN: High -->
   <PlanetTemperature_High>炎熱</PlanetTemperature_High>
+  <!-- EN: Seed -->
   <WorldSeed>種子</WorldSeed>
+  <!-- EN: Randomize seed -->
   <RandomizeSeed>隨機種子</RandomizeSeed>
+  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>所有星球的直徑皆相同，但因為此大小已遠遠超出一般遊戲需求，因此我們不會生成整個星球地表，那會需要很長的時間。這是你想要生成的面積百分比。</PlanetCoverageTip>
+  <!-- EN: Factions -->
   <WorldFactionsTab>勢力</WorldFactionsTab>
-  
-  <!--=========== Select world ===================-->
+
+  <!-- Select world -->
+  <!-- EN: Select world -->
   <SelectWorld>選擇世界</SelectWorld>
+  <!-- EN: Select -->
   <WorldChooseButton>選擇</WorldChooseButton>
+  <!-- EN: No world files found. Create a world first. -->
   <NoWorldsFilesFound>沒有發現世界文件。請先創造一個世界。</NoWorldsFilesFound>
   
-  <!--=========== Version info ==========-->
+  <!-- Version info -->
+  <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
   <BuildNowAvailable>版本{0}已經發布。確認Ludeon.com以獲得更多資訊。</BuildNowAvailable>
+  <!-- EN: This is the latest version. -->
   <BuildUpToDate>最新版本。</BuildUpToDate>
+  <!-- EN: Error getting version info: {0} -->
   <ErrorGettingVersionInfo>獲取版本訊息錯誤：{0}</ErrorGettingVersionInfo>
+  <!-- EN: Loading version info... -->
   <LoadingVersionInfo>正在載入版本訊息...。</LoadingVersionInfo>
-  
-  <!--=========== World generator =========-->
+
+  <!-- World generator -->
+  <!-- EN: Generate world -->
   <GenerateWorld>創造世界</GenerateWorld>
-  
-  <!--=========== Mods screen ==========-->
+
+  <!-- Mods config -->
+  <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>開啟Steam創意工坊</OpenSteamWorkshop>
+  <!-- EN: Get mods from forum -->
   <GetModsFromForum>前往論壇取得更多Mod</GetModsFromForum>
+  <!-- EN: Open mods data folder -->
   <OpenModsDataFolder>開啟Mods資料夾</OpenModsDataFolder>
+  <!-- EN: Show mods data location -->
   <ShowModsDataLocation>顯示Mod地址</ShowModsDataLocation>
+  <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>你確定要關閉Core(核心)模組嗎？除非有完全替代遊戲核心所有功能的模組，否則遊戲將完全無法運行。\n\n記住，其它模組能透過使用同樣的defName來覆蓋遊戲內的設定。</ConfirmDisableCoreMod>
+  <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>你確定要完全刪除{0}？</ConfirmDeleteMod>
+  <!-- EN: Unsubscribe -->
   <Unsubscribe>取消訂閱</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribe>你確定要取消訂閱{0}？</ConfirmUnsubscribe>
+  <!-- EN: Author -->
   <Author>作者</Author>
+  <!-- EN: Workshop page -->
   <WorkshopPage>Workshop頁面</WorkshopPage>
+  <!-- EN: Upload to Steam Workshop -->
   <UploadToSteamWorkshop>上傳至Steam創意工坊</UploadToSteamWorkshop>
+  <!-- EN: Update on Steam Workshop -->
   <UpdateOnSteamWorkshop>更新至Steam創意工坊</UpdateOnSteamWorkshop>
+  <!-- EN: Upload already in progress. -->
   <UploadAlreadyInProgress>正在上傳。</UploadAlreadyInProgress>
+  <!-- EN: Workshop submission failed.\n\nReason: {0} -->
   <WorkshopSubmissionFailed>Workshop提取失敗\n\原因：{0}</WorkshopSubmissionFailed>
+  <!-- EN: Successfully uploaded {0}. -->
   <WorkshopUploadSucceeded>Ü{0}的傳輸已完成。</WorkshopUploadSucceeded>
+  <!-- EN: Downloading -->
   <Downloading>下載中</Downloading>
+  <!-- EN: Source -->
   <Source>來源</Source>
+  <!-- EN: For version: {0} -->
   <ModTargetVersion>Mod版本：{0}</ModTargetVersion>
+  <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>Mod必須在About.xml中指定格式正確的版本號，例如：&lt;targetVersion&gt;{0}&lt;/targetVersion&gt;。</MessageModNeedsWellFormattedTargetVersion>
-  <DragToReorder>Drag to reorder</DragToReorder>
+  <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
+  <MessageModNeedsWellFormattedTargetVersion>Mod必須在About.xml中指定格式正確的版本號，例如：&lt;targetVersion>{0}&lt;/targetVersion>。</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Drag to reorder -->
+  <DragToReorder>拖曳以重新排序</DragToReorder>
   
-  <!--=========== Select scenario =============-->
+  <!-- Select scenario -->
+  <!-- EN: Choose scenario -->
   <ChooseScenario>選擇腳本</ChooseScenario>
+  <!-- EN: Custom -->
   <ScenariosCustom>自訂腳本</ScenariosCustom>
+  <!-- EN: Steam Workshop -->
   <ScenariosSteamWorkshop>Steam創意工坊</ScenariosSteamWorkshop>
+  <!-- EN: Scenario editor -->
   <ScenarioEditor>腳本編輯器</ScenarioEditor>
+  <!-- EN: Delete -->
   <Delete>刪除</Delete>
   
-  <!--============ Scenario editor ===============-->
+  <!-- Scenario editor -->
+  <!-- EN: seed -->
   <Seed>種子</Seed>
+  <!-- EN: Load -->
   <Load>載入</Load>
+  <!-- EN: edit mode -->
   <EditMode>編輯模式</EditMode>
+  <!-- EN: Summary -->
   <Summary>概要</Summary>
+  <!-- EN: Add part -->
   <AddPart>新增項目</AddPart>
+  <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>所有文本不可空白。</TextFieldsMustBeFilled>
+  <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
   <ConfirmSteamWorkshopUpload>確定要上傳至Steam創意工坊？\n\n你必須同意Steam創意工坊的條款，前往下列網址檢視條款內容：\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
   <ConfirmContentAuthor>你所上傳的內容必須是你自己的作品。\n\n你確定這個項目是屬於你的創作嗎？</ConfirmContentAuthor>
+  <!-- EN: Incompatible -->
   <Incompatible>不相容</Incompatible>
+  <!-- EN: Too many (max {0}):  -->
   <TooMany>超過限制(最大值{0})：</TooMany>
+  <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>因為你是作者，所以能夠更新創意工坊。</CanBeUpdatedOnWorkshop>
   
-  <!--=========== Storyteller chooser ==========-->
+  <!-- Select storyteller -->
+  <!-- EN: Choose AI Storyteller -->
   <ChooseAIStoryteller>選擇AI故事敘述者</ChooseAIStoryteller>
+  <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
   <HowStorytellersWork>AI故事敘述者會製造海賊掠奪、資源墜落或動物襲擊這樣的事件。他們的選擇將會影響你的殖民地的故事。</HowStorytellersWork>
+  <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>請選擇遊戲難度。</MustChooseDifficulty>
+  <!-- EN: Difficulty -->
   <Difficulty>難度</Difficulty>
-  
-  <!--=========== Landing site select =========-->
+  <!-- EN: Commitment mode -->
+  <CommitmentMode>無悔模式</CommitmentMode>
+  <!-- EN: Reload anytime mode -->
+  <ReloadAnytimeMode>自由讀檔模式</ReloadAnytimeMode>
+  <!-- EN: Please choose commitment mode or reload anytime mode. -->
+  <MustChoosePermadeath>請選擇無悔模式或自由讀檔模式。</MustChoosePermadeath>
+  <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
+  <ReloadAnytimeModeInfo>你可以隨時讀檔或存檔。\n\n這適合還在摸索玩法的玩家，或符合你的遊玩風格，或你正使用可能導致遊戲崩潰的Mod，又或者你打算靠自我約束實現無悔模式。</ReloadAnytimeModeInfo>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his parents got killed - loss and recovery is dramatic! -->
+  <PermadeathModeInfo>你只能在離開遊戲時存檔。\n\n因為RimWorld是一個故事產生器，即便失去一切只剩最後一人也不到遊戲的結局。本遊戲的設計著重在失去之後浴火重生。\n\n擺脫悲慘的窘境，寫下悲喜交雜的故事，這就是RimWorld被設計帶來的遊玩體驗。\n\n當路克．天行者的父母被殺害時，他沒有讀檔是有原因的 - 得與失是戲劇性的！</PermadeathModeInfo>
+  <!-- EN: Storyteller and difficulty can be changed any time. -->
+  <CanChangeStorytellerSettingsDuringPlay>故事敘述者和難度可以隨時更換。</CanChangeStorytellerSettingsDuringPlay>
+
+  <!-- Landing site select -->
+  <!-- EN: Select landing site -->
   <SelectLandingSite>選擇著陸點</SelectLandingSite>
+  <!-- EN: Select random site -->
   <SelectRandomSite>隨機選擇著陸點</SelectRandomSite>
+  <!-- EN: Select site -->
   <SelectSite>選擇地點</SelectSite>
+  <!-- EN: Please select a landing site. -->
   <MustSelectLandingSite>請選擇一個著陸點。</MustSelectLandingSite>
+  <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>你不能在{0}上著陸</CannotLandBiome>
+  <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>此生態系統尚未實裝。</BiomeNotImplemented>
+  <!-- EN: You cannot land on impassable mountains. -->
   <CannotLandImpassableMountains>你無法降落在無法通行的山地上。</CannotLandImpassableMountains>
+  <!-- EN: {0} already have a base there. -->
   <BaseAlreadyThere>該地點已經有一座{0}基地了。</BaseAlreadyThere>
+  <!-- EN: You already have a base there. -->
   <YourBaseAlreadyThere>你已經由一座據點在這裡了。</YourBaseAlreadyThere>
+  <!-- EN: This tile is occupied. -->
   <TileOccupied>此地點已被佔領。</TileOccupied>
+  <!-- EN: Settlements cannot be directly adjacent to each other. -->
   <FactionBaseAdjacent>據點無法設置在與其他據點直接相鄰的位置。</FactionBaseAdjacent>
+  <!-- EN: Biome -->
   <Biome>生態系統</Biome>
+  <!-- EN: Terrain -->
   <Terrain>地形</Terrain>
+  <!-- EN: Road -->
   <Road>道路</Road>
+  <!-- EN: River -->
   <River>河流</River>
+  <!-- EN: Elevation -->
   <Elevation>海拔</Elevation>
+  <!-- EN: Fertility -->
   <Fertility>濕度</Fertility>
+  <!-- EN: Average temperature -->
   <AvgTemp>平均溫度</AvgTemp>
+  <!-- EN: Rainfall -->
   <Rainfall>降雨量</Rainfall>
+  <!-- EN: Special features -->
   <SpecialFeatures>特殊性</SpecialFeatures>
+  <!-- EN: northern coast -->
   <HasCoast0>北岸</HasCoast0>
+  <!-- EN: eastern coast -->
   <HasCoast1>東岸</HasCoast1>
+  <!-- EN: southern coast -->
   <HasCoast2>南岸</HasCoast2>
+  <!-- EN: western coast -->
   <HasCoast3>西岸</HasCoast3>
-  <HasCaves>caves</HasCaves>
+  <!-- EN: caves -->
+  <HasCaves>含有洞穴</HasCaves>
+  <!-- EN: Faction base -->
   <FactionBase>勢力根據地</FactionBase>
+  <!-- EN: Stone types -->
   <StoneTypesHere>地質類型</StoneTypesHere>
+  <!-- EN: Time zone -->
   <TimeZone>時區</TimeZone>
-  <MovementTimeNow>當前行動時間</MovementTimeNow>
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty>移動難度</MovementDifficulty>
+  <!-- EN: Animals can graze now -->
   <AnimalsCanGrazeNow>動物已可放牧</AnimalsCanGrazeNow>
+  <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>平均疾病頻率</AverageDiseaseFrequency>
+  <!-- EN: per year -->
   <PerYear>每年</PerYear>
+  <!-- EN: Forageability -->
   <Forageability>可覓食性</Forageability>
+  <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>被選取的人員皆無法進行以下工作：\n\n{0}\n\n這可以使遊戲難度高於一般，你確定要繼續？</ConfirmRequiredWorkTypeDisabledForEveryone>
 
-  
-  <!--=========== Character chooser ==========-->
+  <!-- Character chooser -->
+  <!-- EN: Create characters -->
   <CreateCharacters>創造角色</CreateCharacters>
+  <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>角色的名字。\n\n僅在部分清單中顯示。</FirstNameDesc>
+  <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
   <ShortIdentifierDesc>角色的簡稱。\n\n這會在所有情况下都顯示。可以和姓或名一樣，也可以是完全不一樣的綽號。</ShortIdentifierDesc>
+  <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
   <LastNameDesc>角色的姓氏。\n\n僅在部分清單中。</LastNameDesc>
+  <!-- EN: Randomize -->
   <Randomize>隨機生成</Randomize>
+  <!-- EN: age {0} -->
   <AgeIndicator>年紀：{0}</AgeIndicator>
+  <!-- EN: Backstory -->
   <Backstory>背景故事</Backstory>
+  <!-- EN: Incapable of -->
   <IncapableOf>無法執行的工作</IncapableOf>
+  <!-- EN: Traits -->
   <Traits>特性</Traits>
+  <!-- EN: Permanent mood effect -->
   <PermanentMoodEffect>永久心情效果</PermanentMoodEffect>
+  <!-- EN: Skills -->
   <Skills>技能</Skills>
+  <!-- EN: none -->
   <NoneLower>無</NoneLower>
+  <!-- EN: Adulthood -->
   <Adulthood>成年</Adulthood>
+  <!-- EN: Childhood -->
   <Childhood>童年</Childhood>
+  <!-- EN: Current -->
   <Current>當下</Current>
+  <!-- EN: male -->
   <Male>男性</Male>
+  <!-- EN: female -->
   <Female>女性</Female>
+  <!-- EN: male -->
+  <MaleAnimal>雄性</MaleAnimal>
+  <!-- EN: female -->
+  <FemaleAnimal>雌性</FemaleAnimal>
+  <!-- EN: Pain -->
   <Pain>傷痛</Pain>
+  <!-- EN: Health -->
   <Health>健康</Health>
+  <!-- EN: Relations -->
   <Relations>社交</Relations>
+  <!-- EN: Team skills -->
   <TeamSkills>團隊能力</TeamSkills>
+  <!-- EN: Selected -->
   <StartingPawnsSelected>已選擇</StartingPawnsSelected>
+  <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>遺棄</StartingPawnsLeftBehind>
   
-  <!--=========== Misc ==========-->
+  <!-- Misc -->
+  <!-- EN: Start -->
   <Start>開始</Start>
+  <!-- EN: Advanced -->
   <Advanced>進階設定</Advanced>
+  <!-- EN: Next -->
   <Next>繼續</Next>
+  <!-- EN: Back -->
   <Back>返回</Back>
+  <!-- EN: Gameplay -->
   <Gameplay>遊戲性</Gameplay>
+  <!-- EN: Really quit? You'll lose unsaved progress. -->
   <ConfirmQuit>確定要退出嗎？你將失去所有尚未保存的遊戲進度。</ConfirmQuit>
+  <!-- EN: Each person needs a valid name. -->
   <EveryoneNeedsValidName>每個角色都需要一個有效的名字。</EveryoneNeedsValidName>
+  <!-- EN: None of the selected people can do the following jobs -->
   <RequiredWorkTypeDisabledForEveryone>被選取的人員皆無法進行以下工作</RequiredWorkTypeDisabledForEveryone>
+  <!-- EN: Quit -->
   <Quit>離開</Quit>
+  <!-- EN: Ignore -->
   <Ignore>忽略</Ignore>
   
-  <!--============ Progress bar==============-->
+  <!-- Progress bar -->
+  <!-- EN: Generating world -->
   <GeneratingWorld>生成世界中</GeneratingWorld>
+  <!-- EN: Generating planet -->
   <GeneratingPlanet>生成星球中</GeneratingPlanet>
+  <!-- EN: Generating map -->
   <GeneratingMap>生成地圖中</GeneratingMap>
+  <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>生成新的遭遇地圖中</GeneratingMapForNewEncounter>
 
 </LanguageData>
