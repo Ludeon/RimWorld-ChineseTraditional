@@ -1,25 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: civil outlander union -->
   <OutlanderCivil.label>文明外鄉人</OutlanderCivil.label>
+  <!-- EN: These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard. -->
   <OutlanderCivil.description>一個由生還者組成的小團體。\n\n這些人在這裡生活了幾十年了。他們失去了絕大多數它們帶來的科技，他們主要使用簡單的機械工具，建造簡單的建築結構並用進階火藥時代的武器來自衛。\n\n他們主要關心日常交易、信任和生存等等實際的問題。\n\n這個群體重視文明行為。</OutlanderCivil.description>
-  <OutlanderCivil.pawnsPlural>外鄉人</OutlanderCivil.pawnsPlural>
+  <!-- EN: prime councilor -->
   <OutlanderCivil.leaderTitle>議長</OutlanderCivil.leaderTitle>
-
+  <!-- EN: outlander -->
+  <OutlanderCivil.pawnSingular>外鄉人</OutlanderCivil.pawnSingular>
+  <!-- EN: outlanders -->
+  <OutlanderCivil.pawnsPlural>外鄉人</OutlanderCivil.pawnsPlural>
+  
+  <!-- EN: rough outlander union -->
   <OutlanderRough.label>粗鄙外鄉人</OutlanderRough.label>
+  <!-- EN: These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group has a streak of barbarity in them. -->
   <OutlanderRough.description>一個由生還者組成的小團體。\n\n這些人在這裡生活了幾十年了。他們失去了絕大多數它們帶來的科技，他們主要使用簡單的機械工具，建造簡單的建築結構並用進階火藥時代的武器來自衛。\n\n他們主要關心日常交易、信任和生存等等實際的問題。\n\n這個特立獨行的群體具有一些野蠻的行徑。</OutlanderRough.description>
-  <OutlanderRough.pawnsPlural>外鄉人</OutlanderRough.pawnsPlural>
+  <!-- EN: prime councilor -->
   <OutlanderRough.leaderTitle>議長</OutlanderRough.leaderTitle>
-
-  <TribeCivil.label>部落</TribeCivil.label>
-  <TribeCivil.description>這些人已經在這裡生存了很久很久了。或許它們的祖先在一千年前就墜毀在了這裡，或許他們挺過了一場摧毀一切文明科技的大災難。這些部族的人主要由使用原始工具和武器的流浪者組成。\n\n儘管他們有明顯的科技劣勢，頑強的性格、眾多的人口以及冷兵器的精湛技術讓他們成為值得結交的盟友或危險的敵人。\n\n這個部落盡力維持和平的生活方式，即便是陌生人也願意與之交易。</TribeCivil.description>
-  <TribeCivil.pawnsPlural>土著</TribeCivil.pawnsPlural>
-  <TribeCivil.leaderTitle>酋長</TribeCivil.leaderTitle>
-
+  <!-- EN: outlander -->
+  <OutlanderRough.pawnSingular>外鄉人</OutlanderRough.pawnSingular>
+  <!-- EN: outlanders -->
+  <OutlanderRough.pawnsPlural>外鄉人</OutlanderRough.pawnsPlural>
+  
+  <!-- EN: pirate band -->
   <Pirate.label>宇宙海賊</Pirate.label>
+  <!-- EN: A loose confederation of pirate gangs who've agreed to mostly fight outsiders instead of fighting each other.\n\nPirates don't sow, they don't build, and they rarely trade. Driven by a blood-and-honor culture that values personal strength and ruthlessness, they enrich themselves by raiding and robbing their more productive neighbors.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range. -->
   <Pirate.description>一支組織鬆散的海盜團伙，他們只是彼此同意互相撻伐不如一起掠奪外鄉人。\n\n海賊們從不生產食物，不建造房子也很少交易。他們的文化建立在鮮血和榮譽之上，依據力量和殘暴衡量一個人的價值。他們的財富來自於掠奪與搶劫那些更有生產力的鄰居們。n\n他們的科技等級主要取決於他們最近都偷到些什麼。他們主要攜帶火藥武器，部分運氣好的人擁有高级的能量武器，也有人就只有一把捅人用的小刀。</Pirate.description>
-  <Pirate.pawnsPlural>宇宙海賊</Pirate.pawnsPlural>
+  <!-- EN: boss -->
   <Pirate.leaderTitle>海賊團長</Pirate.leaderTitle>
-
+  <!-- EN: pirate -->
+  <Pirate.pawnSingular>宇宙海賊</Pirate.pawnSingular>
+  <!-- EN: pirates -->
+  <Pirate.pawnsPlural>宇宙海賊</Pirate.pawnsPlural>
+  
+  <!-- EN: gentle tribe -->
+  <TribeCivil.label>部落</TribeCivil.label>
+  <!-- EN: These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples. -->
+  <TribeCivil.description>這些人已經在這裡生存了很久很久了。或許它們的祖先在一千年前就墜毀在了這裡，或許他們挺過了一場摧毀一切文明科技的大災難。這些部族的人主要由使用原始工具和武器的流浪者組成。\n\n儘管他們有明顯的科技劣勢，頑強的性格、眾多的人口以及冷兵器的精湛技術讓他們成為值得結交的盟友或危險的敵人。\n\n這個部落盡力維持和平的生活方式，即便是陌生人也願意與之交易。</TribeCivil.description>
+  <!-- EN: chief -->
+  <TribeCivil.leaderTitle>酋長</TribeCivil.leaderTitle>
+  <!-- EN: tribesman -->
+  <TribeCivil.pawnSingular>部落民</TribeCivil.pawnSingular>
+  <!-- EN: tribespeople -->
+  <TribeCivil.pawnsPlural>部落民</TribeCivil.pawnsPlural>
+  
+  <!-- EN: savage tribe -->
+  <TribeRough.label>野蠻部落</TribeRough.label>
+  <!-- EN: These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe values warlike dominance; it may be difficult to turn them into an ally. -->
+  <TribeRough.description>這些人已經在這裡生存了很久很久了。或許它們的祖先在一千年前就墜毀在了這裡，或許他們挺過了一場摧毀一切文明科技的大災難。這些部族的人主要由使用原始工具和武器的流浪者組成。\n\n儘管他們有明顯的科技劣勢，頑強的性格、眾多的人口以及冷兵器的精湛技術讓他們成為值得結交的盟友或危險的敵人。\n\n這個部落偏好依靠戰鬥來維持地位，這表示要和他們化敵為友會比較困難。</TribeRough.description>
+  <!-- EN: chief -->
+  <TribeRough.leaderTitle>酋長</TribeRough.leaderTitle>
+  <!-- EN: tribesman -->
+  <TribeRough.pawnSingular>部落民</TribeRough.pawnSingular>
+  <!-- EN: tribespeople -->
+  <TribeRough.pawnsPlural>部落民</TribeRough.pawnsPlural>
   
 </LanguageData>
