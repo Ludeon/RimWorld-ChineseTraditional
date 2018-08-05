@@ -1,144 +1,219 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Combat -->
-
-  <Kills.label>擊殺數</Kills.label>
-  <Kills.description>我殺死的生物的總數。</Kills.description>
-
-  <KillsHumanlikes.label>擊殺數(人類)</KillsHumanlikes.label>
-  <KillsHumanlikes.description>我殺死的人類數量。</KillsHumanlikes.description>
-
-  <KillsAnimals.label>擊殺數(動物)</KillsAnimals.label>
-  <KillsAnimals.description>我殺死的動物數量。</KillsAnimals.description>
-
-  <KillsMechanoids.label>擊殺數(機器人)</KillsMechanoids.label>
-  <KillsMechanoids.description>我殺死的機器人數量。</KillsMechanoids.description>
-
-  <PawnsDowned.label>擊倒數</PawnsDowned.label>
-  <PawnsDowned.description>我擊倒的物種的總數。</PawnsDowned.description>
-
-  <PawnsDownedHumanlikes.label>擊倒數(人類)</PawnsDownedHumanlikes.label>
-  <PawnsDownedHumanlikes.description>我擊倒的人類數量。</PawnsDownedHumanlikes.description>
-
-  <PawnsDownedAnimals.label>擊倒數(動物)</PawnsDownedAnimals.label>
-  <PawnsDownedAnimals.description>我擊倒的動物數量。</PawnsDownedAnimals.description>
-
-  <PawnsDownedMechanoids.label>擊倒數(機器人)</PawnsDownedMechanoids.label>
-  <PawnsDownedMechanoids.description>我擊倒的機器人數量。</PawnsDownedMechanoids.description>
-
-  <ShotsFired.label>開火次數</ShotsFired.label>
-  <ShotsFired.description>我開火的次數。</ShotsFired.description>
-
-  <Headshots.label>命中頭部數</Headshots.label>
-  <Headshots.description>我命中頭部的次數。</Headshots.description>
-
+  
+  <!-- EN: animals slaughtered -->
+  <AnimalsSlaughtered.label>宰殺次數</AnimalsSlaughtered.label>
+  <!-- EN: The number of animals I have slaughtered. -->
+  <AnimalsSlaughtered.description>我宰殺的動物數。</AnimalsSlaughtered.description>
+  
+  <!-- EN: animals tamed -->
+  <AnimalsTamed.label>馴服次數</AnimalsTamed.label>
+  <!-- EN: The number of animals I have tamed. -->
+  <AnimalsTamed.description>我馴服的動物數。</AnimalsTamed.description>
+  
+  <!-- EN: artifacts activated -->
+  <ArtifactsActivated.label>神器啟動數</ArtifactsActivated.label>
+  <!-- EN: The number of artifacts I have activated. -->
+  <ArtifactsActivated.description>我啟動的神器數量。</ArtifactsActivated.description>
+  
+  <!-- EN: bodies stripped -->
+  <BodiesStripped.label>掠奪次數</BodiesStripped.label>
+  <!-- EN: The number of bodies I have stripped. -->
+  <BodiesStripped.description>我進行掠奪的次數。</BodiesStripped.description>
+  
+  <!-- EN: cells mined -->
+  <CellsMined.label>開採次數</CellsMined.label>
+  <!-- EN: The number of cells I have mined out. -->
+  <CellsMined.description>我開採的岩石數。</CellsMined.description>
+  
+  <!-- EN: containers opened -->
+  <ContainersOpened.label>休眠艙開啟數</ContainersOpened.label>
+  <!-- EN: The number of containers I have opened. -->
+  <ContainersOpened.description>我開啟休眠艙的次數。</ContainersOpened.description>
+  
+  <!-- EN: corpses buried -->
+  <CorpsesBuried.label>埋葬屍體數</CorpsesBuried.label>
+  <!-- EN: The number of corpses I have buried. -->
+  <CorpsesBuried.description>我埋葬的屍體數。</CorpsesBuried.description>
+  
+  <!-- EN: damage dealt -->
   <DamageDealt.label>傷害輸出量</DamageDealt.label>
+  <!-- EN: The amount of damage I have dealt. -->
   <DamageDealt.description>我輸出的傷害量。</DamageDealt.description>
-
+  
+  <!-- EN: damage taken -->
   <DamageTaken.label>傷害量</DamageTaken.label>
+  <!-- EN: The amount of damage I have taken. -->
   <DamageTaken.description>我受到的傷害量。</DamageTaken.description>
   
-
-  <!-- Excitement -->
-
-  <TimesInMentalState.label>精神崩潰次數</TimesInMentalState.label>
-  <TimesInMentalState.description>我精神崩潰狀態的次數。</TimesInMentalState.description>
-
-  <TimesOnFire.label>著火次數</TimesOnFire.label>
-  <TimesOnFire.description>我傷上著火的次數。</TimesOnFire.description>
-
+  <!-- EN: fires extinguished -->
   <FiresExtinguished.label>撲滅火焰數</FiresExtinguished.label>
+  <!-- EN: The number of fires I have extinguished. -->
   <FiresExtinguished.description>我撲滅的火焰數。</FiresExtinguished.description>
   
-
-  <!-- Work -->
-
-  <OperationsReceived.label>接受手術次數</OperationsReceived.label>
-  <OperationsReceived.description>我接受手術的次數。</OperationsReceived.description>
-
-  <OperationsPerformed.label>執行手術次數</OperationsPerformed.label>
-  <OperationsPerformed.description>執行手術的次數。</OperationsPerformed.description>
-
-  <TimesTendedTo.label>被治療次數</TimesTendedTo.label>
-  <TimesTendedTo.description>我接受醫療照顧的次數。</TimesTendedTo.description>
-
-  <TimesTendedOther.label>執行治療次數</TimesTendedOther.label>
-  <TimesTendedOther.description>我為他人執行醫療行為的次數。</TimesTendedOther.description>
-
-  <PeopleCaptured.label>俘虜人數</PeopleCaptured.label>
-  <PeopleCaptured.description>我俘虜的人數。</PeopleCaptured.description>
-
-  <PrisonersRecruited.label>招募人數</PrisonersRecruited.label>
-  <PrisonersRecruited.description>我招募的人數。</PrisonersRecruited.description>
-
-  <PrisonersChatted.label>與俘虜交談次數</PrisonersChatted.label>
-  <PrisonersChatted.description>我與俘虜交談的次數。</PrisonersChatted.description>
-
-  <AnimalsTamed.label>馴服次數</AnimalsTamed.label>
-  <AnimalsTamed.description>我馴服的動物數。</AnimalsTamed.description>
-
-  <AnimalsSlaughtered.label>宰殺次數</AnimalsSlaughtered.label>
-  <AnimalsSlaughtered.description>我宰殺的動物數。</AnimalsSlaughtered.description>
-
+  <!-- EN: headshots -->
+  <Headshots.label>命中頭部數</Headshots.label>
+  <!-- EN: The number of headshots I have made. -->
+  <Headshots.description>我命中頭部的次數。</Headshots.description>
+  
+  <!-- EN: kills -->
+  <Kills.label>擊殺數</Kills.label>
+  <!-- EN: The number of creatures I have killed. -->
+  <Kills.description>我殺死的生物的總數。</Kills.description>
+  
+  <!-- EN: kills (animals) -->
+  <KillsAnimals.label>擊殺數(動物)</KillsAnimals.label>
+  <!-- EN: The number of animals I have killed. -->
+  <KillsAnimals.description>我殺死的動物數量。</KillsAnimals.description>
+  
+  <!-- EN: kills (humanlikes) -->
+  <KillsHumanlikes.label>擊殺數(人類)</KillsHumanlikes.label>
+  <!-- EN: The number of humanlike characters I have killed. -->
+  <KillsHumanlikes.description>我殺死的人類數量。</KillsHumanlikes.description>
+  
+  <!-- EN: kills (mechanoids) -->
+  <KillsMechanoids.label>擊殺數(機器人)</KillsMechanoids.label>
+  <!-- EN: The number of mechanoids I have killed. -->
+  <KillsMechanoids.description>我殺死的機器人數量。</KillsMechanoids.description>
+  
+  <!-- EN: meals cooked -->
   <MealsCooked.label>料理次數</MealsCooked.label>
+  <!-- EN: The number of meals I have cooked. -->
   <MealsCooked.description>我烹調料理的次數。</MealsCooked.description>
-
-  <ThingsConstructed.label>建築次數</ThingsConstructed.label>
-  <ThingsConstructed.description>我建造東西的數量。</ThingsConstructed.description>
-
-  <ThingsInstalled.label>安裝次數</ThingsInstalled.label>
-  <ThingsInstalled.description>我安裝東西的次數。</ThingsInstalled.description>
-
-  <ThingsRepaired.label>修理次數</ThingsRepaired.label>
-  <ThingsRepaired.description>我修理東西的次數。</ThingsRepaired.description>
-
-  <ThingsCrafted.label>製造次數</ThingsCrafted.label>
-  <ThingsCrafted.description>我製造的東西的數量。</ThingsCrafted.description>
-
-  <ThingsHauled.label>搬運次數</ThingsHauled.label>
-  <ThingsHauled.description>我搬運的東西的數量。</ThingsHauled.description>
-
-  <PlantsSown.label>種植次數</PlantsSown.label>
-  <PlantsSown.description>我種植的作物數。</PlantsSown.description>
-
-  <PlantsHarvested.label>收穫次數</PlantsHarvested.label>
-  <PlantsHarvested.description>我收穫的作物數。</PlantsHarvested.description>
-
-  <CellsMined.label>開採次數</CellsMined.label>
-  <CellsMined.description>我開採的岩石數。</CellsMined.description>
-
+  
+  <!-- EN: messes cleaned -->
   <MessesCleaned.label>清潔數量</MessesCleaned.label>
+  <!-- EN: The number of messes I have cleaned up. -->
   <MessesCleaned.description>我清潔的髒污數。</MessesCleaned.description>
-
-  <ResearchPointsResearched.label>研究點數產量</ResearchPointsResearched.label>
-  <ResearchPointsResearched.description>我貢獻的研究點數總量。</ResearchPointsResearched.description>
-
-  <CorpsesBuried.label>埋葬屍體數</CorpsesBuried.label>
-  <CorpsesBuried.description>我埋葬的屍體數。</CorpsesBuried.description>
-
+  
+  <!-- EN: nutrition eaten -->
   <NutritionEaten.label>營養攝取數</NutritionEaten.label>
+  <!-- EN: The amount of nutrition I have eaten. -->
   <NutritionEaten.description>我攝取的營養總量。</NutritionEaten.description>
-
-  <TrapsRearmed.label>陷阱重置數</TrapsRearmed.label>
-  <TrapsRearmed.description>我重置的陷阱數。</TrapsRearmed.description>
-
-  <BodiesStripped.label>掠奪次數</BodiesStripped.label>
-  <BodiesStripped.description>我進行掠奪的次數。</BodiesStripped.description>
-
-  <ThingsUninstalled.label>拆卸次數</ThingsUninstalled.label>
-  <ThingsUninstalled.description>我拆卸東西的次數。</ThingsUninstalled.description>
-
-  <ThingsDeconstructed.label>物件拆解數</ThingsDeconstructed.label>
-  <ThingsDeconstructed.description>我拆解東西的次數。</ThingsDeconstructed.description>
-
-  <ArtifactsActivated.label>神器啟動數</ArtifactsActivated.label>
-  <ArtifactsActivated.description>我啟動的神器數量。</ArtifactsActivated.description>
-
-  <ContainersOpened.label>休眠艙開啟數</ContainersOpened.label>
-  <ContainersOpened.description>我開啟休眠艙的次數。</ContainersOpened.description>
-
+  
+  <!-- EN: operations performed -->
+  <OperationsPerformed.label>執行手術次數</OperationsPerformed.label>
+  <!-- EN: How many medical operations I have performed. -->
+  <OperationsPerformed.description>執行手術的次數。</OperationsPerformed.description>
+  
+  <!-- EN: operations received -->
+  <OperationsReceived.label>接受手術次數</OperationsReceived.label>
+  <!-- EN: How many times I have been medically operated on. -->
+  <OperationsReceived.description>我接受手術的次數。</OperationsReceived.description>
+  
+  <!-- EN: enemies downed -->
+  <PawnsDowned.label>擊倒數</PawnsDowned.label>
+  <!-- EN: The number of creatures I have downed. -->
+  <PawnsDowned.description>我擊倒的物種的總數。</PawnsDowned.description>
+  
+  <!-- EN: enemies downed (animals) -->
+  <PawnsDownedAnimals.label>擊倒數(動物)</PawnsDownedAnimals.label>
+  <!-- EN: The number of animals I have downed, whether hunting or in combat. -->
+  <PawnsDownedAnimals.description>我擊倒的動物數量。</PawnsDownedAnimals.description>
+  
+  <!-- EN: enemies downed (humanlikes) -->
+  <PawnsDownedHumanlikes.label>擊倒數(人類)</PawnsDownedHumanlikes.label>
+  <!-- EN: The number of humanlike creatures I have downed. -->
+  <PawnsDownedHumanlikes.description>我擊倒的人類數量。</PawnsDownedHumanlikes.description>
+  
+  <!-- EN: enemies downed (mechanoids) -->
+  <PawnsDownedMechanoids.label>擊倒數(機器人)</PawnsDownedMechanoids.label>
+  <!-- EN: The number of mechanoids I have downed. -->
+  <PawnsDownedMechanoids.description>我擊倒的機器人數量。</PawnsDownedMechanoids.description>
+  
+  <!-- EN: people captured -->
+  <PeopleCaptured.label>俘虜人數</PeopleCaptured.label>
+  <!-- EN: The number of people I have captured. -->
+  <PeopleCaptured.description>我俘虜的人數。</PeopleCaptured.description>
+  
+  <!-- EN: plants harvested -->
+  <PlantsHarvested.label>收穫次數</PlantsHarvested.label>
+  <!-- EN: The number of plants I have harvested. -->
+  <PlantsHarvested.description>我收穫的作物數。</PlantsHarvested.description>
+  
+  <!-- EN: plants sown -->
+  <PlantsSown.label>種植次數</PlantsSown.label>
+  <!-- EN: The number of plants I have sown. -->
+  <PlantsSown.description>我種植的作物數。</PlantsSown.description>
+  
+  <!-- EN: prisoners chatted -->
+  <PrisonersChatted.label>與俘虜交談次數</PrisonersChatted.label>
+  <!-- EN: How many times I have chatted with prisoners. -->
+  <PrisonersChatted.description>我與俘虜交談的次數。</PrisonersChatted.description>
+  
+  <!-- EN: prisoners recruited -->
+  <PrisonersRecruited.label>招募人數</PrisonersRecruited.label>
+  <!-- EN: The number of prisoners I have recruited. -->
+  <PrisonersRecruited.description>我招募的人數。</PrisonersRecruited.description>
+  
+  <!-- EN: research points researched -->
+  <ResearchPointsResearched.label>研究點數產量</ResearchPointsResearched.label>
+  <!-- EN: The number of research points I have researched. -->
+  <ResearchPointsResearched.description>我貢獻的研究點數總量。</ResearchPointsResearched.description>
+  
+  <!-- EN: shots fired -->
+  <ShotsFired.label>開火次數</ShotsFired.label>
+  <!-- EN: The number of shots I have fired. -->
+  <ShotsFired.description>我開火的次數。</ShotsFired.description>
+  
+  <!-- EN: switches flicked -->
   <SwitchesFlicked.label>電源切換數</SwitchesFlicked.label>
+  <!-- EN: The number of switches I have flicked. -->
   <SwitchesFlicked.description>我切換電源開關的次數。</SwitchesFlicked.description>
-
+  
+  <!-- EN: things constructed -->
+  <ThingsConstructed.label>建築次數</ThingsConstructed.label>
+  <!-- EN: The number of things I have constructed. -->
+  <ThingsConstructed.description>我建造東西的數量。</ThingsConstructed.description>
+  
+  <!-- EN: things crafted -->
+  <ThingsCrafted.label>製造次數</ThingsCrafted.label>
+  <!-- EN: The number of things I have crafted. -->
+  <ThingsCrafted.description>我製造的東西的數量。</ThingsCrafted.description>
+  
+  <!-- EN: things deconstructed -->
+  <ThingsDeconstructed.label>物件拆解數</ThingsDeconstructed.label>
+  <!-- EN: The number of things I have deconstructed. -->
+  <ThingsDeconstructed.description>我拆解東西的次數。</ThingsDeconstructed.description>
+  
+  <!-- EN: things hauled -->
+  <ThingsHauled.label>搬運次數</ThingsHauled.label>
+  <!-- EN: The number of things I have hauled. -->
+  <ThingsHauled.description>我搬運的東西的數量。</ThingsHauled.description>
+  
+  <!-- EN: things installed -->
+  <ThingsInstalled.label>安裝次數</ThingsInstalled.label>
+  <!-- EN: The number of things I have installed. -->
+  <ThingsInstalled.description>我安裝東西的次數。</ThingsInstalled.description>
+  
+  <!-- EN: things repaired -->
+  <ThingsRepaired.label>修理次數</ThingsRepaired.label>
+  <!-- EN: The number of things I have repaired. -->
+  <ThingsRepaired.description>我修理東西的次數。</ThingsRepaired.description>
+  
+  <!-- EN: things uninstalled -->
+  <ThingsUninstalled.label>拆卸次數</ThingsUninstalled.label>
+  <!-- EN: The number of things I have uninstalled. -->
+  <ThingsUninstalled.description>我拆卸東西的次數。</ThingsUninstalled.description>
+  
+  <!-- EN: times in mental state -->
+  <TimesInMentalState.label>精神崩潰次數</TimesInMentalState.label>
+  <!-- EN: How many times I have suffered a mental break. -->
+  <TimesInMentalState.description>我精神崩潰狀態的次數。</TimesInMentalState.description>
+  
+  <!-- EN: times on fire -->
+  <TimesOnFire.label>著火次數</TimesOnFire.label>
+  <!-- EN: How many times I have been on fire. -->
+  <TimesOnFire.description>我傷上著火的次數。</TimesOnFire.description>
+  
+  <!-- EN: tends given -->
+  <TimesTendedOther.label>執行治療次數</TimesTendedOther.label>
+  <!-- EN: How many times I have tended to others' medical conditions. -->
+  <TimesTendedOther.description>我為他人執行醫療行為的次數。</TimesTendedOther.description>
+  
+  <!-- EN: tends received -->
+  <TimesTendedTo.label>被治療次數</TimesTendedTo.label>
+  <!-- EN: How many times I have had my medical conditions tended. -->
+  <TimesTendedTo.description>我接受醫療照顧的次數。</TimesTendedTo.description>
+  
 </LanguageData>

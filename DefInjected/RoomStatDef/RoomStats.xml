@@ -1,59 +1,112 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <Impressiveness.label>觀感</Impressiveness.label>
-  <Impressiveness.scoreStages.0.label>糟糕</Impressiveness.scoreStages.0.label>
-  <Impressiveness.scoreStages.1.label>乏味</Impressiveness.scoreStages.1.label>
-  <Impressiveness.scoreStages.2.label>無趣</Impressiveness.scoreStages.2.label>
-  <Impressiveness.scoreStages.3.label>普通</Impressiveness.scoreStages.3.label>
-  <Impressiveness.scoreStages.4.label>有趣</Impressiveness.scoreStages.4.label>
-  <Impressiveness.scoreStages.5.label>美好</Impressiveness.scoreStages.5.label>
-  <Impressiveness.scoreStages.6.label>新奇</Impressiveness.scoreStages.6.label>
-  <Impressiveness.scoreStages.7.label>令人印象深刻</Impressiveness.scoreStages.7.label>
-  <Impressiveness.scoreStages.8.label>令人難以置信</Impressiveness.scoreStages.8.label>
-  <Impressiveness.scoreStages.9.label>世界奇觀</Impressiveness.scoreStages.9.label>
-  
-  <Wealth.label>財富</Wealth.label>
-  <Wealth.scoreStages.0.label>窮困潦倒</Wealth.scoreStages.0.label>
-  <Wealth.scoreStages.1.label>家徒四壁</Wealth.scoreStages.1.label>
-  <Wealth.scoreStages.2.label>普通</Wealth.scoreStages.2.label>
-  <Wealth.scoreStages.3.label>小康</Wealth.scoreStages.3.label>
-  <Wealth.scoreStages.4.label>富有</Wealth.scoreStages.4.label>
-  <Wealth.scoreStages.5.label>豪華</Wealth.scoreStages.5.label>
-  <Wealth.scoreStages.6.label>金碧輝煌</Wealth.scoreStages.6.label>
-  <Wealth.scoreStages.7.label>窮奢極侈</Wealth.scoreStages.7.label>
-  <Wealth.scoreStages.8.label>富可敵國</Wealth.scoreStages.8.label>
-  
-  <Space.label>空間</Space.label>
-  <Space.scoreStages.0.label>壓迫</Space.scoreStages.0.label>
-  <Space.scoreStages.1.label>狹窄</Space.scoreStages.1.label>
-  <Space.scoreStages.2.label>普通</Space.scoreStages.2.label>
-  <Space.scoreStages.3.label>舒適</Space.scoreStages.3.label>
-  <Space.scoreStages.4.label>寬敞</Space.scoreStages.4.label>
-  <Space.scoreStages.5.label>十分寬敞</Space.scoreStages.5.label>
-  <Space.scoreStages.6.label>開闊</Space.scoreStages.6.label>
-  
+  <!-- EN: beauty -->
   <Beauty.label>美觀</Beauty.label>
-  <Beauty.scoreStages.0.label>醜陋</Beauty.scoreStages.0.label>
-  <Beauty.scoreStages.1.label>難看</Beauty.scoreStages.1.label>
-  <Beauty.scoreStages.2.label>普通</Beauty.scoreStages.2.label>
-  <Beauty.scoreStages.3.label>漂亮</Beauty.scoreStages.3.label>
-  <Beauty.scoreStages.4.label>華美</Beauty.scoreStages.4.label>
-  <Beauty.scoreStages.5.label>富麗</Beauty.scoreStages.5.label>
-  <Beauty.scoreStages.6.label>美輪美奐</Beauty.scoreStages.6.label>
-  <Beauty.scoreStages.7.label>山楶藻梲</Beauty.scoreStages.7.label>
+  <!-- EN: hideous -->
+  <Beauty.scoreStages.hideous.label>醜陋</Beauty.scoreStages.hideous.label>
+  <!-- EN: ugly -->
+  <Beauty.scoreStages.ugly.label>難看</Beauty.scoreStages.ugly.label>
+  <!-- EN: neutral -->
+  <Beauty.scoreStages.neutral.label>普通</Beauty.scoreStages.neutral.label>
+  <!-- EN: pretty -->
+  <Beauty.scoreStages.pretty.label>漂亮</Beauty.scoreStages.pretty.label>
+  <!-- EN: beautiful -->
+  <Beauty.scoreStages.beautiful.label>華美</Beauty.scoreStages.beautiful.label>
+  <!-- EN: very beautiful -->
+  <Beauty.scoreStages.very_beautiful.label>富麗</Beauty.scoreStages.very_beautiful.label>
+  <!-- EN: extremely beautiful -->
+  <Beauty.scoreStages.extremely_beautiful.label>美輪美奐</Beauty.scoreStages.extremely_beautiful.label>
+  <!-- EN: unbelievably beautiful -->
+  <Beauty.scoreStages.unbelievably_beautiful.label>山楶藻梲</Beauty.scoreStages.unbelievably_beautiful.label>
   
+  <!-- EN: cleanliness -->
   <Cleanliness.label>整潔</Cleanliness.label>
-  <Cleanliness.scoreStages.0.label>骯髒</Cleanliness.scoreStages.0.label>
-  <Cleanliness.scoreStages.1.label>髒亂</Cleanliness.scoreStages.1.label>
-  <Cleanliness.scoreStages.2.label>有點髒</Cleanliness.scoreStages.2.label>
-  <Cleanliness.scoreStages.3.label>乾淨</Cleanliness.scoreStages.3.label>
-  <Cleanliness.scoreStages.4.label>一塵不染</Cleanliness.scoreStages.4.label>
+  <!-- EN: very dirty -->
+  <Cleanliness.scoreStages.very_dirty.label>骯髒</Cleanliness.scoreStages.very_dirty.label>
+  <!-- EN: dirty -->
+  <Cleanliness.scoreStages.dirty.label>髒亂</Cleanliness.scoreStages.dirty.label>
+  <!-- EN: slightly dirty -->
+  <Cleanliness.scoreStages.slightly_dirty.label>有點髒</Cleanliness.scoreStages.slightly_dirty.label>
+  <!-- EN: clean -->
+  <Cleanliness.scoreStages.clean.label>乾淨</Cleanliness.scoreStages.clean.label>
+  <!-- EN: sterile -->
+  <Cleanliness.scoreStages.sterile.label>一塵不染</Cleanliness.scoreStages.sterile.label>
   
-  <InfectionChanceFactor.label>受感染機率倍率</InfectionChanceFactor.label>
-  <SurgerySuccessChanceCleanlinessFactor.label>手術成功率清潔度倍率</SurgerySuccessChanceCleanlinessFactor.label>
-  <ResearchSpeedFactor.label>研究速度倍率</ResearchSpeedFactor.label>
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>食物中毒機率</FoodPoisonChance.label>
+  
+  <!-- EN: grave visiting recreation factor -->
   <GraveVisitingJoyGainFactor.label>掃墓快樂增長倍率</GraveVisitingJoyGainFactor.label>
-  <FoodPoisonChanceFactor.label>食物中毒機率倍率</FoodPoisonChanceFactor.label>
+  
+  <!-- EN: impressiveness -->
+  <Impressiveness.label>觀感</Impressiveness.label>
+  <!-- EN: awful -->
+  <Impressiveness.scoreStages.awful.label>糟糕</Impressiveness.scoreStages.awful.label>
+  <!-- EN: dull -->
+  <Impressiveness.scoreStages.dull.label>乏味</Impressiveness.scoreStages.dull.label>
+  <!-- EN: mediocre -->
+  <Impressiveness.scoreStages.mediocre.label>無趣</Impressiveness.scoreStages.mediocre.label>
+  <!-- EN: decent -->
+  <Impressiveness.scoreStages.decent.label>普通</Impressiveness.scoreStages.decent.label>
+  <!-- EN: slightly impressive -->
+  <Impressiveness.scoreStages.slightly_impressive.label>有趣</Impressiveness.scoreStages.slightly_impressive.label>
+  <!-- EN: somewhat impressive -->
+  <Impressiveness.scoreStages.somewhat_impressive.label>美好</Impressiveness.scoreStages.somewhat_impressive.label>
+  <!-- EN: very impressive -->
+  <Impressiveness.scoreStages.very_impressive.label>新奇</Impressiveness.scoreStages.very_impressive.label>
+  <!-- EN: extremely impressive -->
+  <Impressiveness.scoreStages.extremely_impressive.label>令人印象深刻</Impressiveness.scoreStages.extremely_impressive.label>
+  <!-- EN: unbelievably impressive -->
+  <Impressiveness.scoreStages.unbelievably_impressive.label>令人難以置信</Impressiveness.scoreStages.unbelievably_impressive.label>
+  <!-- EN: wondrously impressive -->
+  <Impressiveness.scoreStages.wondrously_impressive.label>世界奇觀</Impressiveness.scoreStages.wondrously_impressive.label>
+  
+  <!-- EN: infection chance factor -->
+  <InfectionChanceFactor.label>受感染機率倍率</InfectionChanceFactor.label>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>研究速度倍率</ResearchSpeedFactor.label>
+  
+  <!-- EN: space -->
+  <Space.label>空間</Space.label>
+  <!-- EN: cramped -->
+  <Space.scoreStages.cramped.label>壓迫</Space.scoreStages.cramped.label>
+  <!-- EN: rather tight -->
+  <Space.scoreStages.rather_tight.label>狹窄</Space.scoreStages.rather_tight.label>
+  <!-- EN: average-sized -->
+  <Space.scoreStages.averagesized.label>普通</Space.scoreStages.averagesized.label>
+  <!-- EN: somewhat spacious -->
+  <Space.scoreStages.somewhat_spacious.label>舒適</Space.scoreStages.somewhat_spacious.label>
+  <!-- EN: quite spacious -->
+  <Space.scoreStages.quite_spacious.label>寬敞</Space.scoreStages.quite_spacious.label>
+  <!-- EN: very spacious -->
+  <Space.scoreStages.very_spacious.label>開放</Space.scoreStages.very_spacious.label>
+  <!-- EN: extremely spacious -->
+  <Space.scoreStages.extremely_spacious.label>廣闊</Space.scoreStages.extremely_spacious.label>
+  
+  <!-- EN: surgery success chance cleanliness factor -->
+  <SurgerySuccessChanceCleanlinessFactor.label>手術成功率清潔度倍率</SurgerySuccessChanceCleanlinessFactor.label>
+  
+  <!-- EN: wealth -->
+  <Wealth.label>財富</Wealth.label>
+  <!-- EN: impoverished -->
+  <Wealth.scoreStages.impoverished.label>窮困潦倒</Wealth.scoreStages.impoverished.label>
+  <!-- EN: somewhat poor -->
+  <Wealth.scoreStages.somewhat_poor.label>家徒四壁</Wealth.scoreStages.somewhat_poor.label>
+  <!-- EN: mediocre -->
+  <Wealth.scoreStages.mediocre.label>普通</Wealth.scoreStages.mediocre.label>
+  <!-- EN: somewhat rich -->
+  <Wealth.scoreStages.somewhat_rich.label>小康</Wealth.scoreStages.somewhat_rich.label>
+  <!-- EN: rich -->
+  <Wealth.scoreStages.rich.label>富有</Wealth.scoreStages.rich.label>
+  <!-- EN: luxurious -->
+  <Wealth.scoreStages.luxurious.label>豪華</Wealth.scoreStages.luxurious.label>
+  <!-- EN: very luxurious -->
+  <Wealth.scoreStages.very_luxurious.label>金碧輝煌</Wealth.scoreStages.very_luxurious.label>
+  <!-- EN: extremely luxurious -->
+  <Wealth.scoreStages.extremely_luxurious.label>窮奢極侈</Wealth.scoreStages.extremely_luxurious.label>
+  <!-- EN: unbelievably luxurious -->
+  <Wealth.scoreStages.unbelievably_luxurious.label>富可敵國</Wealth.scoreStages.unbelievably_luxurious.label>
   
 </LanguageData>

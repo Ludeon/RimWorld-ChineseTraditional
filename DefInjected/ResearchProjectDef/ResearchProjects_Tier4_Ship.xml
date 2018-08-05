@@ -1,24 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Tier 4: Hi-tech research bench with multi-analyzer -->
   
+  <!-- EN: starflight basics -->
   <ShipBasics.label>基本星艦建造</ShipBasics.label>
+  <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
   <ShipBasics.description>建造星艦的基本結構，這是逃離這個星球的第一步。</ShipBasics.description>
+  <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nMany desperate souls want off this planet. Ship reactors take 15 days to charge up. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures for their own mysterious reasons.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
+  <ShipBasics.discoveredLetterText>逃離這顆星球 - 終於獲得自由，或許有機會回到家鄉。\n\n但也能以估計的危險。\n\n許多絕望的靈魂盼望著離開這顆星球。星艦需要15天的時間充能，一旦你開始程序，星艦反應堆散發的訊號可以在數千公里外被偵測到，襲擊者將蜂擁而至，你將面對前所未見的強大襲擊。眾所皆知，機械軍團也會因為某種神秘的原因被吸引而來。\n\n襲擊要在你啟動反應爐後才會發生，一旦開始之後將是一場浩劫。如果你希望活著逃離，你需要儲備資源，武器和防禦武力。</ShipBasics.discoveredLetterText>
+  <!-- EN: About: Launching the ship -->
+  <ShipBasics.discoveredLetterTitle>起飛</ShipBasics.discoveredLetterTitle>
   
+  <!-- EN: AI persuasion -->
+  <ShipComputerCore.label>星艦AI核心</ShipComputerCore.label>
+  <!-- EN: Build a reward-signal system to persuade an existing AI persona core into serving as a ship's AI captain. Since people sleep during interstellar travel, an AI core is necessary to handle the complex decisions of a years-long starflight. -->
+  <ShipComputerCore.description>建造一個名為JT的AI為星艦提供駕駛。他能透過量子微觀效應將能量傳送到遙遠的星球，藉此推動星艦造宇宙中穿梭。當然，所有星艦都一樣，旅行到其他星系必須花費非常多年的時間。</ShipComputerCore.description>
+  
+  <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>星艦低溫休眠艙</ShipCryptosleep.label>
+  <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
   <ShipCryptosleep.description>建造經強化而足以耐受真空環境的冷凍休眠艙。用來搭載人類度過多年航程的星際旅行。</ShipCryptosleep.description>
   
-  <ShipReactor.label>星艦反物質反應爐</ShipReactor.label>
-  <ShipReactor.description>建造一座能長期運作的核反應爐來為星艦提供動力。請注意，反應爐的啟動過程很長，並且會引來不速之客。</ShipReactor.description>
-  
+  <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>星艦反物質推進器</ShipEngine.label>
+  <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
   <ShipEngine.description>讓你使用反物質牽制核心來建造一個反物質推進器。</ShipEngine.description>
   
-  <ShipComputerCore.label>星艦AI核心</ShipComputerCore.label>
-  <ShipComputerCore.description>建造一個名為JT的AI為星艦提供駕駛。他能透過量子微觀效應將能量傳送到遙遠的星球，藉此推動星艦造宇宙中穿梭。當然，所有星艦都一樣，旅行到其他星系必須花費非常多年的時間。</ShipComputerCore.description>
-
+  <!-- EN: starship reactor -->
+  <ShipReactor.label>星艦反物質反應爐</ShipReactor.label>
+  <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
+  <ShipReactor.description>建造一座能長期運作的核反應爐來為星艦提供動力。請注意，反應爐的啟動過程很長，並且會引來不速之客。</ShipReactor.description>
+  
+  <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>星艦傳感器群</ShipSensorCluster.label>
+  <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
   <ShipSensorCluster.description>建造星艦的長程感測器，這對星艦的導航、通信和避敵相當重要。</ShipSensorCluster.description>
   
 </LanguageData>

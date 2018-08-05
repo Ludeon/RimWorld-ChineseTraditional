@@ -1,73 +1,119 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: time as a colonist -->
   <TimeAsColonistOrColonyAnimal.label>加入殖民地</TimeAsColonistOrColonyAnimal.label>
+  <!-- EN: Total time spent loyal to your community. -->
   <TimeAsColonistOrColonyAnimal.description>效忠於你的勢力的時間。</TimeAsColonistOrColonyAnimal.description>
-
+  
+  <!-- EN: time as a prisoner -->
   <TimeAsPrisoner.label>身為俘虜</TimeAsPrisoner.label>
+  <!-- EN: Total time spent as a prisoner. -->
   <TimeAsPrisoner.description>身為俘虜的時間。</TimeAsPrisoner.description>
-
-  <TimeInBed.label>床上休息</TimeInBed.label>
-  <TimeInBed.description>床上休息的時間。</TimeInBed.description>
-
-  <TimeInBedForMedicalReasons.label>臥病在床</TimeInBedForMedicalReasons.label>
-  <TimeInBedForMedicalReasons.description>因各種健康因素而臥床的時間：等待治療、養病或接受手術。</TimeInBedForMedicalReasons.description>
-
-  <TimeDowned.label>動彈不得</TimeDowned.label>
-  <TimeDowned.description>動彈不得的時間。</TimeDowned.description>
-
-  <TimeGettingFood.label>覓食與進食</TimeGettingFood.label>
-  <TimeGettingFood.description>覓食與進食的時間。</TimeGettingFood.description>
-
-  <TimeGettingJoy.label>娛樂活動</TimeGettingJoy.label>
-  <TimeGettingJoy.description>進行娛樂活動的時間。</TimeGettingJoy.description>
-
-  <TimeUnderRoof.label>室內活動</TimeUnderRoof.label>
-  <TimeUnderRoof.description>於室內活動的時間。</TimeUnderRoof.description>
-
-  <TimeDrafted.label>徵召狀態</TimeDrafted.label>
-  <TimeDrafted.description>接受徵召的時間。</TimeDrafted.description>
-
-  <TimeOnFire.label>引火上身</TimeOnFire.label>
-  <TimeOnFire.description>被火焚身的時間。</TimeOnFire.description>
-
-  <TimeInMentalState.label>精神崩潰</TimeInMentalState.label>
-  <TimeInMentalState.description>處於精神崩潰狀態的時間。</TimeInMentalState.description>
-
-  <TimeHauling.label>搬運工作</TimeHauling.label>
-  <TimeHauling.description>進行搬運工作的時間。</TimeHauling.description>
-
-  <TimeHandlingAnimals.label>照顧動物</TimeHandlingAnimals.label>
-  <TimeHandlingAnimals.description>照顧動物的時間。</TimeHandlingAnimals.description>
-
-  <TimeFirefighting.label>滅火工作</TimeFirefighting.label>
-  <TimeFirefighting.description>進行滅火工作的時間。</TimeFirefighting.description>
-
-  <TimeWardening.label>監管工作</TimeWardening.label>
-  <TimeWardening.description>進行監管工作的時間。</TimeWardening.description>
-
-  <TimeHunting.label>狩獵工作</TimeHunting.label>
-  <TimeHunting.description>進行狩獵工作的時間。</TimeHunting.description>
-
-  <TimeConstructing.label>建築工作</TimeConstructing.label>
-  <TimeConstructing.description>建造以及拆除建築的時間。</TimeConstructing.description>
-
-  <TimeTreatingAndFeeding.label>照料與治療</TimeTreatingAndFeeding.label>
-  <TimeTreatingAndFeeding.description>照料與治療的時間。</TimeTreatingAndFeeding.description>
-
-  <TimeResearching.label>研究工作</TimeResearching.label>
-  <TimeResearching.description>進行研究工作的時間。</TimeResearching.description>
-
+  
+  <!-- EN: time cleaning -->
   <TimeCleaning.label>清潔工作</TimeCleaning.label>
+  <!-- EN: Total time spent cleaning. -->
   <TimeCleaning.description>進行清潔工作的時間。</TimeCleaning.description>
-
-  <TimeRepairing.label>修理工作</TimeRepairing.label>
-  <TimeRepairing.description>進行修理工作的時間。</TimeRepairing.description>
-
+  
+  <!-- EN: time constructing -->
+  <TimeConstructing.label>建築工作</TimeConstructing.label>
+  <!-- EN: Total time spent constructing and deconstructing buildings. -->
+  <TimeConstructing.description>建造以及拆除建築的時間。</TimeConstructing.description>
+  
+  <!-- EN: time downed -->
+  <TimeDowned.label>動彈不得</TimeDowned.label>
+  <!-- EN: Total time spent downed. -->
+  <TimeDowned.description>動彈不得的時間。</TimeDowned.description>
+  
+  <!-- EN: time drafted -->
+  <TimeDrafted.label>徵召狀態</TimeDrafted.label>
+  <!-- EN: Total time spent drafted. -->
+  <TimeDrafted.description>接受徵召的時間。</TimeDrafted.description>
+  
+  <!-- EN: time firefighting -->
+  <TimeFirefighting.label>滅火工作</TimeFirefighting.label>
+  <!-- EN: Total time spent firefighting. -->
+  <TimeFirefighting.description>進行滅火工作的時間。</TimeFirefighting.description>
+  
+  <!-- EN: time finding food and eating -->
+  <TimeGettingFood.label>覓食與進食</TimeGettingFood.label>
+  <!-- EN: Total time spent on finding food and eating. -->
+  <TimeGettingFood.description>覓食與進食的時間。</TimeGettingFood.description>
+  
+  <!-- EN: time spent on entertainment -->
+  <TimeGettingJoy.label>娛樂活動</TimeGettingJoy.label>
+  <!-- EN: Total time spent on entertainment. -->
+  <TimeGettingJoy.description>進行娛樂活動的時間。</TimeGettingJoy.description>
+  
+  <!-- EN: time handling animals -->
+  <TimeHandlingAnimals.label>照顧動物</TimeHandlingAnimals.label>
+  <!-- EN: Total time spent handling animals. -->
+  <TimeHandlingAnimals.description>照顧動物的時間。</TimeHandlingAnimals.description>
+  
+  <!-- EN: time hauling -->
+  <TimeHauling.label>搬運工作</TimeHauling.label>
+  <!-- EN: Total time spent hauling things. -->
+  <TimeHauling.description>進行搬運工作的時間。</TimeHauling.description>
+  
+  <!-- EN: time hunting -->
+  <TimeHunting.label>狩獵工作</TimeHunting.label>
+  <!-- EN: Total time spent hunting. -->
+  <TimeHunting.description>進行狩獵工作的時間。</TimeHunting.description>
+  
+  <!-- EN: time in a bed -->
+  <TimeInBed.label>床上休息</TimeInBed.label>
+  <!-- EN: Total time spent in bed. -->
+  <TimeInBed.description>床上休息的時間。</TimeInBed.description>
+  
+  <!-- EN: time in a bed for medical reasons -->
+  <TimeInBedForMedicalReasons.label>臥病在床</TimeInBedForMedicalReasons.label>
+  <!-- EN: Total time spent in bed for medical reasons: awaiting treatment, recovering from injuries or being operated on. -->
+  <TimeInBedForMedicalReasons.description>因各種健康因素而臥床的時間：等待治療、養病或接受手術。</TimeInBedForMedicalReasons.description>
+  
+  <!-- EN: time in mental state -->
+  <TimeInMentalState.label>精神崩潰</TimeInMentalState.label>
+  <!-- EN: Total time spent in an abnormal mental state. -->
+  <TimeInMentalState.description>處於精神崩潰狀態的時間。</TimeInMentalState.description>
+  
+  <!-- EN: time mining -->
   <TimeMining.label>採礦工作</TimeMining.label>
+  <!-- EN: Total time spent mining. -->
   <TimeMining.description>進行採礦工作的時間。</TimeMining.description>
-
+  
+  <!-- EN: time on fire -->
+  <TimeOnFire.label>引火上身</TimeOnFire.label>
+  <!-- EN: Total time spent on fire. -->
+  <TimeOnFire.description>被火焚身的時間。</TimeOnFire.description>
+  
+  <!-- EN: time repairing -->
+  <TimeRepairing.label>修理工作</TimeRepairing.label>
+  <!-- EN: Total time spent repairing. -->
+  <TimeRepairing.description>進行修理工作的時間。</TimeRepairing.description>
+  
+  <!-- EN: time researching -->
+  <TimeResearching.label>研究工作</TimeResearching.label>
+  <!-- EN: Total time spent researching. -->
+  <TimeResearching.description>進行研究工作的時間。</TimeResearching.description>
+  
+  <!-- EN: time sowing and harvesting -->
   <TimeSowingAndHarvesting.label>種植與收穫</TimeSowingAndHarvesting.label>
+  <!-- EN: Total time spent sowing, harvesting and cutting plants. -->
   <TimeSowingAndHarvesting.description>種植與收穫的時間。</TimeSowingAndHarvesting.description>
-
+  
+  <!-- EN: time treating and feeding -->
+  <TimeTreatingAndFeeding.label>照料與治療</TimeTreatingAndFeeding.label>
+  <!-- EN: Total time spent treating and feeding patients. -->
+  <TimeTreatingAndFeeding.description>照料與治療的時間。</TimeTreatingAndFeeding.description>
+  
+  <!-- EN: time under a roof -->
+  <TimeUnderRoof.label>室內活動</TimeUnderRoof.label>
+  <!-- EN: Total time spent under a roof. -->
+  <TimeUnderRoof.description>於室內活動的時間。</TimeUnderRoof.description>
+  
+  <!-- EN: time wardening -->
+  <TimeWardening.label>監管工作</TimeWardening.label>
+  <!-- EN: Total time spent wardening. -->
+  <TimeWardening.description>進行監管工作的時間。</TimeWardening.description>
+  
 </LanguageData>

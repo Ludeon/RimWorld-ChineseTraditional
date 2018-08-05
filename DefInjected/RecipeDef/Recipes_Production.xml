@@ -1,41 +1,67 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Make_StoneBlocksAny.label>石材加工</Make_StoneBlocksAny.label>
-  <Make_StoneBlocksAny.description>將石頭加工成有用的石材。</Make_StoneBlocksAny.description>
-  <Make_StoneBlocksAny.jobString>進行石材加工。</Make_StoneBlocksAny.jobString>
-    
+  
+  <!-- EN: destroy weapon -->
+  <DestroyWeapon.label>銷毀武器</DestroyWeapon.label>
+  <!-- EN: Use heat to destroy unwanted weapons. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <DestroyWeapon.description>利用高溫將不需要的武器銷毀。速度比熔煉武器更快，並可以銷毀無法熔煉的武器，但無法提煉任何資源。</DestroyWeapon.description>
+  <!-- EN: Destroying weapon. -->
+  <DestroyWeapon.jobString>銷毀武器。</DestroyWeapon.jobString>
+  
+  <!-- EN: smelt metal from slag -->
   <ExtractMetalFromSlag.label>從金屬碎片中提煉金屬</ExtractMetalFromSlag.label>
+  <!-- EN: Use heat and strong electromagnets to extract useful metal from slag chunks. -->
   <ExtractMetalFromSlag.description>利用高溫和電磁鐵將有用的金屬從金屬碎片中提煉出來。</ExtractMetalFromSlag.description>
+  <!-- EN: Smelting metal from slag. -->
   <ExtractMetalFromSlag.jobString>從金屬碎片中提煉金屬。</ExtractMetalFromSlag.jobString>
   
-  <SmeltWeapon.label>從武器中提煉金屬</SmeltWeapon.label>
-  <SmeltWeapon.description>利用高溫和電磁鐵將有用的金屬從武器中提煉出來。</SmeltWeapon.description>
-  <SmeltWeapon.jobString>從武器中提煉金屬。</SmeltWeapon.jobString>
-
-  <DestroyWeapon.label>銷毀武器</DestroyWeapon.label>
-  <DestroyWeapon.description>利用高溫將不需要的武器銷毀。速度比熔煉武器更快，並可以銷毀無法熔煉的武器，但無法提煉任何資源。</DestroyWeapon.description>
-  <DestroyWeapon.jobString>銷毀武器。</DestroyWeapon.jobString>
-
-  <Make_ChemfuelFromWood.label>以木頭製造化合燃料</Make_ChemfuelFromWood.label>
-  <Make_ChemfuelFromWood.description>萃取和冷凝木頭原料以提煉出化合燃料。</Make_ChemfuelFromWood.description>
-  <Make_ChemfuelFromWood.jobString>製造化合燃料</Make_ChemfuelFromWood.jobString>
-
+  <!-- EN: make chemfuel from organics -->
   <Make_ChemfuelFromOrganics.label>以有機物提煉化合燃料</Make_ChemfuelFromOrganics.label>
+  <!-- EN: Make a batch of chemfuel by extracting biofuel from organic feedstocks. -->
   <Make_ChemfuelFromOrganics.description>以有機物生產生質燃料再提煉出化合燃料。</Make_ChemfuelFromOrganics.description>
+  <!-- EN: Refining chemfuel from organics. -->
   <Make_ChemfuelFromOrganics.jobString>製造化合燃料</Make_ChemfuelFromOrganics.jobString>
-
+  
+  <!-- EN: make chemfuel from wood -->
+  <Make_ChemfuelFromWood.label>以木頭製造化合燃料</Make_ChemfuelFromWood.label>
+  <!-- EN: Make a batch of chemfuel by extracting and condensing wood gas from logs. -->
+  <Make_ChemfuelFromWood.description>萃取和冷凝木頭原料以提煉出化合燃料。</Make_ChemfuelFromWood.description>
+  <!-- EN: Refining chemfuel from wood. -->
+  <Make_ChemfuelFromWood.jobString>製造化合燃料</Make_ChemfuelFromWood.jobString>
+  
+  <!-- EN: make component -->
   <Make_ComponentIndustrial.label>製造電子零件</Make_ComponentIndustrial.label>
+  <!-- EN: Make a component. -->
   <Make_ComponentIndustrial.description>製造電子零件。</Make_ComponentIndustrial.description>
+  <!-- EN: Making component. -->
   <Make_ComponentIndustrial.jobString>製造電子零件。</Make_ComponentIndustrial.jobString>
-
+  
+  <!-- EN: make advanced component -->
   <Make_ComponentSpacer.label>製造高階電子零件</Make_ComponentSpacer.label>
+  <!-- EN: Make an advanced component. -->
   <Make_ComponentSpacer.description>製造高階電子零件。</Make_ComponentSpacer.description>
+  <!-- EN: Making advanced component. -->
   <Make_ComponentSpacer.jobString>製造高階電子零件。</Make_ComponentSpacer.jobString>
-
+  
+  <!-- EN: make patchleather -->
   <Make_Patchleather.label>製造組合皮革</Make_Patchleather.label>
+  <!-- EN: Combine various types of leather to create weak patchleather. -->
   <Make_Patchleather.description>結合幾種不同類型的皮革以製造出粗劣的組合皮革。</Make_Patchleather.description>
+  <!-- EN: Making patchleather. -->
   <Make_Patchleather.jobString>製造組合皮革。</Make_Patchleather.jobString>
   
- 
+  <!-- EN: make any stone blocks -->
+  <Make_StoneBlocksAny.label>石材加工</Make_StoneBlocksAny.label>
+  <!-- EN: Cut rock chunks into usable stone blocks. -->
+  <Make_StoneBlocksAny.description>將石頭加工成有用的石材。</Make_StoneBlocksAny.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksAny.jobString>進行石材加工。</Make_StoneBlocksAny.jobString>
+  
+  <!-- EN: smelt weapon -->
+  <SmeltWeapon.label>從武器中提煉金屬</SmeltWeapon.label>
+  <!-- EN: Use heat and strong electromagnets to break down weapons into useful resources. -->
+  <SmeltWeapon.description>利用高溫和電磁鐵將有用的金屬從武器中提煉出來。</SmeltWeapon.description>
+  <!-- EN: Smelting weapon. -->
+  <SmeltWeapon.jobString>從武器中提煉金屬。</SmeltWeapon.jobString>
+  
 </LanguageData>

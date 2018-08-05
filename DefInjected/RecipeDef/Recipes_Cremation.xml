@@ -1,20 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <CremateCorpse.label>火化屍體</CremateCorpse.label>
-  <CremateCorpse.description>將屍體火化以完全摧毀它。</CremateCorpse.description>
-  <CremateCorpse.jobString>火化屍體。</CremateCorpse.jobString>
-
-  <BurnApparel.label>燒毀衣物</BurnApparel.label>
-  <BurnApparel.description>燒毀多餘的衣物。</BurnApparel.description>
-  <BurnApparel.jobString>燒毀衣物。</BurnApparel.jobString>
-
-  <BurnApparelCampfire.label>燒毀衣物</BurnApparelCampfire.label>
-  <BurnApparelCampfire.description>燒毀多餘的衣物。</BurnApparelCampfire.description>
-  <BurnApparelCampfire.jobString>燒毀衣物。</BurnApparelCampfire.jobString>
   
+  <!-- EN: burn apparel -->
+  <BurnApparel.label>燒毀衣物</BurnApparel.label>
+  <!-- EN: Burn unwanted apparel to completely destroy it. -->
+  <BurnApparel.description>燒毀多餘的衣物。</BurnApparel.description>
+  <!-- EN: Burning apparel. -->
+  <BurnApparel.jobString>燒毀衣物。</BurnApparel.jobString>
+  
+  <!-- EN: burn drugs -->
   <BurnDrugs.label>焚毀藥物</BurnDrugs.label>
+  <!-- EN: Burn unwanted drugs to completely destroy them. -->
   <BurnDrugs.description>燒毀多餘的藥物。</BurnDrugs.description>
+  <!-- EN: Burning drugs. -->
   <BurnDrugs.jobString>焚毀藥物。</BurnDrugs.jobString>
- 
+  
+  <!-- EN: cremate corpse -->
+  <CremateCorpse.label>火化屍體</CremateCorpse.label>
+  <!-- EN: Cremate a corpse to completely destroy it. -->
+  <CremateCorpse.description>將屍體火化以完全摧毀它。</CremateCorpse.description>
+  <!-- EN: Cremating. -->
+  <CremateCorpse.jobString>火化屍體。</CremateCorpse.jobString>
+  
 </LanguageData>

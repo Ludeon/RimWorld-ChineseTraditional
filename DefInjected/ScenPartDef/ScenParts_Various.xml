@@ -1,50 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- player pawn filters -->
   
-  <GameStartDialog.label>開場訊息</GameStartDialog.label>
-  <PawnFilter_Age.label>年齡範圍</PawnFilter_Age.label>
-
-
-  <!-- player pawn modifier -->
-
-  <OnPawnDeathExplode.label>死亡時爆炸</OnPawnDeathExplode.label>
-  <ForcedTrait.label>預設特性</ForcedTrait.label>
+  <!-- EN: create incident -->
+  <CreateIncident.label>創建隨機事件</CreateIncident.label>
+  
+  <!-- EN: disable incident -->
+  <DisableIncident.label>禁用事件</DisableIncident.label>
+  
+  <!-- EN: forced health condition -->
   <ForcedHediff.label>預設健康狀態</ForcedHediff.label>
-  <Naked.label>裸體</Naked.label>
-  <SetNeedLevel.label>設定需求等級</SetNeedLevel.label>
-  <StartingResearch.label>預設科技</StartingResearch.label>
+  
+  <!-- EN: forced trait -->
+  <ForcedTrait.label>預設特性</ForcedTrait.label>
+  
+  <!-- EN: planetkiller weapon incoming -->
   <GameCondition_Planetkiller.label>行星殺手</GameCondition_Planetkiller.label>
-
-
-  <!-- rules changes -->
   
-  <Rule_DisallowDesignator_ZoneAdd_Growing.label>禁止種植</Rule_DisallowDesignator_ZoneAdd_Growing.label>
-  <Rule_DisallowDesignator_ZoneAdd_Growing.description>禁止在土壤中種植植物。</Rule_DisallowDesignator_ZoneAdd_Growing.description>
+  <!-- EN: game start dialog -->
+  <GameStartDialog.label>開場訊息</GameStartDialog.label>
   
-  <Rule_DisallowDesignator_Mine.label>禁止開採</Rule_DisallowDesignator_Mine.label>
-  <Rule_DisallowDesignator_Mine.description>禁止開採岩石或礦物。</Rule_DisallowDesignator_Mine.description>
+  <!-- EN: naked -->
+  <Naked.label>裸體</Naked.label>
   
+  <!-- EN: characters explode on death -->
+  <OnPawnDeathExplode.label>死亡時爆炸</OnPawnDeathExplode.label>
+  
+  <!-- EN: allowed age range -->
+  <PawnFilter_Age.label>年齡範圍</PawnFilter_Age.label>
+  
+  <!-- EN: permanent game condition -->
+  <PermanentGameCondition.label>永久狀態</PermanentGameCondition.label>
+  
+  <!-- EN: disallow building -->
+  <Rule_DisallowBuilding.label>禁用建設</Rule_DisallowBuilding.label>
+  
+  <!-- EN: cannot hunt -->
   <Rule_DisallowDesignator_Hunt.label>禁止狩獵</Rule_DisallowDesignator_Hunt.label>
+  <!-- EN: Cannot hunt. -->
   <Rule_DisallowDesignator_Hunt.description>禁止狩獵動物。</Rule_DisallowDesignator_Hunt.description>
   
+  <!-- EN: cannot mine -->
+  <Rule_DisallowDesignator_Mine.label>禁止開採</Rule_DisallowDesignator_Mine.label>
+  <!-- EN: Cannot mine. -->
+  <Rule_DisallowDesignator_Mine.description>禁止開採岩石或礦物。</Rule_DisallowDesignator_Mine.description>
+  
+  <!-- EN: cannot tame -->
   <Rule_DisallowDesignator_Tame.label>禁止馴養</Rule_DisallowDesignator_Tame.label>
+  <!-- EN: Cannot tame animals. -->
   <Rule_DisallowDesignator_Tame.description>禁止馴養動物。</Rule_DisallowDesignator_Tame.description>
   
-  <StatFactor.label>狀態倍率</StatFactor.label>
-
-
-  <!-- grouped -->
-
-  <DisableIncident.label>禁用事件</DisableIncident.label>
-  <CreateIncident.label>創建隨機事件</CreateIncident.label>
-  <Rule_DisallowBuilding.label>禁用建設</Rule_DisallowBuilding.label>
-  <PermanentGameCondition.label>永久狀態</PermanentGameCondition.label>
-  <StartingAnimal.label>初始動物</StartingAnimal.label>
-  <StartingThing_Defined.label>預設</StartingThing_Defined.label>
-  <ScatterThingsNearPlayerStart.label>初始位置</ScatterThingsNearPlayerStart.label>
+  <!-- EN: cannot sow -->
+  <Rule_DisallowDesignator_ZoneAdd_Growing.label>禁止種植</Rule_DisallowDesignator_ZoneAdd_Growing.label>
+  <!-- EN: Cannot sow plants on the ground. -->
+  <Rule_DisallowDesignator_ZoneAdd_Growing.description>禁止在土壤中種植植物。</Rule_DisallowDesignator_ZoneAdd_Growing.description>
+  
+  <!-- EN: scattered randomly -->
   <ScatterThingsAnywhere.label>隨機散佈</ScatterThingsAnywhere.label>
   
+  <!-- EN: start near -->
+  <ScatterThingsNearPlayerStart.label>初始位置</ScatterThingsNearPlayerStart.label>
+  
+  <!-- EN: set need level -->
+  <SetNeedLevel.label>設定需求等級</SetNeedLevel.label>
+  
+  <!-- EN: start with animal(s) -->
+  <StartingAnimal.label>初始動物</StartingAnimal.label>
+  
+  <!-- EN: start with research -->
+  <StartingResearch.label>預設科技</StartingResearch.label>
+  
+  <!-- EN: start with -->
+  <StartingThing_Defined.label>預設</StartingThing_Defined.label>
+  
+  <!-- EN: stat multiplier -->
+  <StatFactor.label>狀態倍率</StatFactor.label>
   
 </LanguageData>
