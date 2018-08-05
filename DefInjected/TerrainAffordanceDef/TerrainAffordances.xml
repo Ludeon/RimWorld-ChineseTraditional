@@ -1,49 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Supports light structure -->
-
-  <Light.label>輕</Light.label>
-
-
-  <!-- Supports medium structures (mainly walls) -->
-
-  <Medium.label>中等</Medium.label>
-
-
-  <!-- Supports heavy structures -->
-
-  <Heavy.label>重</Heavy.label>
-
-
-  <!-- Can be built on with things that are waterproof -->
-
-  <ShallowWater.label>靜止水域</ShallowWater.label>
-
-
-  <!-- Contains power usable for hydroelectrics -->
-
-  <MovingFluid.label>流動水域</MovingFluid.label>
-
-
-  <!-- Bridge can be built here -->
-
+  
+  <!-- EN: bridgeable -->
   <Bridgeable.label>可搭橋</Bridgeable.label>
-
-
-  <!-- Things can grow here -->
-
-  <GrowSoil.label>可種植</GrowSoil.label>
-
-
-  <!-- For graves -->
-
+  
+  <!-- EN: diggable -->
   <Diggable.label>可挖掘</Diggable.label>
-
-
-  <!-- Can be ground and smoothed into smooth stone -->
-
+  
+  <!-- EN: growable -->
+  <GrowSoil.label>可種植</GrowSoil.label>
+  
+  <!-- EN: heavy -->
+  <Heavy.label>重</Heavy.label>
+  
+  <!-- EN: light -->
+  <Light.label>輕</Light.label>
+  
+  <!-- EN: medium -->
+  <Medium.label>中等</Medium.label>
+  
+  <!-- EN: moving water -->
+  <MovingFluid.label>流動水域</MovingFluid.label>
+  
+  <!-- EN: shallow water -->
+  <ShallowWater.label>靜止水域</ShallowWater.label>
+  
+  <!-- EN: smoothable -->
   <SmoothableStone.label>可拋光</SmoothableStone.label>
-
-
+  
 </LanguageData>

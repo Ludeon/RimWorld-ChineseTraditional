@@ -1,21 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Shooting -->
   
-  <MeleeDPS.label>近戰DPS</MeleeDPS.label>
-  <MeleeDPS.description>肉搏戰鬥時平均每秒所能造成的傷害。此數值未考慮目標的防禦力，如迴避和護甲。</MeleeDPS.description>
+  <!-- EN: aiming time -->
+  <AimingDelayFactor.label>瞄準時間</AimingDelayFactor.label>
+  <!-- EN: How long it takes to shoot after choosing a target. -->
+  <AimingDelayFactor.description>射擊之後重新瞄準目標所需花費的時間。</AimingDelayFactor.description>
   
-  <MeleeHitChance.label>近身攻擊命中率</MeleeHitChance.label>
-  <MeleeHitChance.description>近身攻擊目標的基礎命中率。目標即使已經被打中也可能迴避。</MeleeHitChance.description>
-
+  <!-- EN: melee armor penetration -->
+  <MeleeArmorPenetration.label>近戰裝甲穿透率</MeleeArmorPenetration.label>
+  <!-- EN: Average armor penetration of all attacks in melee combat. This stat includes currently used weapon. -->
+  <MeleeArmorPenetration.description>所有攻擊類型的平均近戰裝甲穿透率。此數值包含了當前使用的武器。</MeleeArmorPenetration.description>
+  
+  <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>近身攻擊迴避率</MeleeDodgeChance.label>
+  <!-- EN: Chance to dodge a melee attack that would've otherwise hit. Characters will not dodge while aiming or firing a ranged weapon. -->
   <MeleeDodgeChance.description>近身攻擊的迴避機率，但人物在瞄準或射擊時不會閃避。</MeleeDodgeChance.description>
   
-  <ShootingAccuracy.label>射擊精度</ShootingAccuracy.label>
-  <ShootingAccuracy.description>對目標遠程射擊的基礎命中率。機率還同時受到許多其他參數的影響。選擇射手後再將游標移至目標上即可查看命中率資訊。</ShootingAccuracy.description>
+  <!-- EN: melee DPS -->
+  <MeleeDPS.label>近戰DPS</MeleeDPS.label>
+  <!-- EN: Average damage per second in melee combat. This stat ignores target defenses like dodging and armor. -->
+  <MeleeDPS.description>肉搏戰鬥時平均每秒所能造成的傷害。此數值未考慮目標的防禦力，如迴避和護甲。</MeleeDPS.description>
   
-  <AimingDelayFactor.label>瞄準時間</AimingDelayFactor.label>
-  <AimingDelayFactor.description>射擊之後重新瞄準目標所需花費的時間。</AimingDelayFactor.description>
+  <!-- EN: melee hit chance -->
+  <MeleeHitChance.label>近身攻擊命中率</MeleeHitChance.label>
+  <!-- EN: Chance to hit a target in melee. The target can still dodge even if we would've hit. -->
+  <MeleeHitChance.description>近身攻擊目標的基礎命中率。目標即使已經被打中也可能迴避。</MeleeHitChance.description>
+  
+  <!-- EN: shooting accuracy -->
+  <ShootingAccuracyPawn.label>射擊精度</ShootingAccuracyPawn.label>
+  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <ShootingAccuracyPawn.description>對目標遠程射擊的基礎命中率。機率還同時受到許多其他參數的影響。選擇射手後再將游標移至目標上即可查看命中率資訊。</ShootingAccuracyPawn.description>
   
 </LanguageData>
