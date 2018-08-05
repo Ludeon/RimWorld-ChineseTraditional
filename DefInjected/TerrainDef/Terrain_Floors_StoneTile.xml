@@ -1,35 +1,54 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-  <TileSandstone.label>砂岩地磚</TileSandstone.label>
-  <TileSandstone.description>精心裁切的城堡風格石質地磚，外觀看起來還不錯，但鋪設相當耗時。</TileSandstone.description>
   
+  <!-- EN: granite flagstone -->
+  <FlagstoneGranite.label>花崗岩石板</FlagstoneGranite.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneGranite.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneGranite.description>
+  
+  <!-- EN: limestone flagstone -->
+  <FlagstoneLimestone.label>石灰岩石板</FlagstoneLimestone.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneLimestone.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneLimestone.description>
+  
+  <!-- EN: marble flagstone -->
+  <FlagstoneMarble.label>大理石石板</FlagstoneMarble.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneMarble.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneMarble.description>
+  
+  <!-- EN: sandstone flagstone -->
+  <FlagstoneSandstone.label>砂岩石板</FlagstoneSandstone.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneSandstone.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneSandstone.description>
+  
+  <!-- EN: slate flagstone -->
+  <FlagstoneSlate.label>板岩石板</FlagstoneSlate.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneSlate.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneSlate.description>
+  
+  <!-- EN: granite tile -->
   <TileGranite.label>花崗岩地磚</TileGranite.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
   <TileGranite.description>精心裁切的城堡風格石質地磚，外觀看起來還不錯，但鋪設相當耗時。</TileGranite.description>
   
+  <!-- EN: limestone tile -->
   <TileLimestone.label>石灰岩地磚</TileLimestone.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
   <TileLimestone.description>精心裁切的城堡風格石質地磚，外觀看起來還不錯，但鋪設相當耗時。</TileLimestone.description>
   
-  <TileSlate.label>板岩地磚</TileSlate.label>
-  <TileSlate.description>精心裁切的城堡風格石質地磚，外觀看起來還不錯，但鋪設相當耗時。</TileSlate.description>
-  
+  <!-- EN: marble tile -->
   <TileMarble.label>大理石地磚</TileMarble.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
   <TileMarble.description>精心裁切的城堡風格石質地磚，外觀看起來還不錯，但鋪設相當耗時。</TileMarble.description>
-
-  <FlagstoneSandstone.label>砂岩石板</FlagstoneSandstone.label>
-  <FlagstoneSandstone.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneSandstone.description>
-
-  <FlagstoneGranite.label>花崗岩石板</FlagstoneGranite.label>
-  <FlagstoneGranite.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneGranite.description>
-
-  <FlagstoneLimestone.label>石灰岩石板</FlagstoneLimestone.label>
-  <FlagstoneLimestone.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneLimestone.description>
-
-  <FlagstoneSlate.label>板岩石板</FlagstoneSlate.label>
-  <FlagstoneSlate.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneSlate.description>
-
-  <FlagstoneMarble.label>大理石石板</FlagstoneMarble.label>
-  <FlagstoneMarble.description>粗略切割處理的石地磚，談不上漂亮，但相當適合用來鋪設道路和走道。拆除石板路並不會返還資源。</FlagstoneMarble.description>
-
+  
+  <!-- EN: sandstone tile -->
+  <TileSandstone.label>砂岩地磚</TileSandstone.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <TileSandstone.description>精心裁切的城堡風格石質地磚，外觀看起來還不錯，但鋪設相當耗時。</TileSandstone.description>
+  
+  <!-- EN: slate tile -->
+  <TileSlate.label>板岩地磚</TileSlate.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <TileSlate.description>精心裁切的城堡風格石質地磚，外觀看起來還不錯，但鋪設相當耗時。</TileSlate.description>
   
 </LanguageData>
