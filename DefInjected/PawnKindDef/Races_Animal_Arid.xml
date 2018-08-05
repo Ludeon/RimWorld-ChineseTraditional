@@ -1,29 +1,89 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <Muffalo.label>毛牛</Muffalo.label>
-  <Muffalo.lifeStages.0.label>毛牛寶寶</Muffalo.lifeStages.0.label>
-  <Muffalo.lifeStages.1.label>小毛牛</Muffalo.lifeStages.1.label>
-  <Muffalo.lifeStages.2.label>毛牛</Muffalo.lifeStages.2.label>
-
-  <Gazelle.label>羚羊</Gazelle.label>
-  <Gazelle.lifeStages.0.label>羚羊寶寶</Gazelle.lifeStages.0.label>
-  <Gazelle.lifeStages.1.label>小羚羊</Gazelle.lifeStages.1.label>
-  <Gazelle.lifeStages.2.label>羚羊</Gazelle.lifeStages.2.label>
-  
-  <Iguana.label>鬣蜥</Iguana.label>
-  <Iguana.lifeStages.0.label>鬣蜥寶寶</Iguana.lifeStages.0.label>
-  <Iguana.lifeStages.1.label>小鬣蜥</Iguana.lifeStages.1.label>
-  <Iguana.lifeStages.2.label>鬣蜥</Iguana.lifeStages.2.label>
-  
-  <Rhinoceros.label>犀牛</Rhinoceros.label>
-  <Rhinoceros.lifeStages.0.label>犀牛寶寶</Rhinoceros.lifeStages.0.label>
-  <Rhinoceros.lifeStages.1.label>小犀牛</Rhinoceros.lifeStages.1.label>
-  <Rhinoceros.lifeStages.2.label>犀牛</Rhinoceros.lifeStages.2.label>
-  
+  <!-- EN: dromedary -->
   <Dromedary.label>駱駝</Dromedary.label>
-  <Dromedary.lifeStages.0.label>駱駝寶寶</Dromedary.lifeStages.0.label>
-  <Dromedary.lifeStages.1.label>小駱駝</Dromedary.lifeStages.1.label>
-  <Dromedary.lifeStages.2.label>駱駝</Dromedary.lifeStages.2.label>
+  <Dromedary.labelFemale>母駱駝</Dromedary.labelFemale>
+  <Dromedary.labelFemalePlural>母駱駝</Dromedary.labelFemalePlural>
+  <Dromedary.labelMale>公駱駝</Dromedary.labelMale>
+  <Dromedary.labelMalePlural>公駱駝</Dromedary.labelMalePlural>
+  <!-- EN: dromedaries -->
+  <Dromedary.labelPlural>駱駝</Dromedary.labelPlural>
+  <!-- EN: dromedary calf -->
+  <Dromedary.lifeStages.dromedary_calf.label>駱駝</Dromedary.lifeStages.dromedary_calf.label>
+  <Dromedary.lifeStages.dromedary_calf.labelFemale>母駱駝</Dromedary.lifeStages.dromedary_calf.labelFemale>
+  <Dromedary.lifeStages.dromedary_calf.labelFemalePlural>母駱駝</Dromedary.lifeStages.dromedary_calf.labelFemalePlural>
+  <Dromedary.lifeStages.dromedary_calf.labelMale>公駱駝</Dromedary.lifeStages.dromedary_calf.labelMale>
+  <Dromedary.lifeStages.dromedary_calf.labelMalePlural>公駱駝</Dromedary.lifeStages.dromedary_calf.labelMalePlural>
+  <!-- EN: dromedary calves -->
+  <Dromedary.lifeStages.dromedary_calf.labelPlural>駱駝</Dromedary.lifeStages.dromedary_calf.labelPlural>
+  <Dromedary.lifeStages.1.label>駱駝</Dromedary.lifeStages.1.label>
+  <Dromedary.lifeStages.1.labelFemale>母駱駝</Dromedary.lifeStages.1.labelFemale>
+  <Dromedary.lifeStages.1.labelFemalePlural>母駱駝</Dromedary.lifeStages.1.labelFemalePlural>
+  <Dromedary.lifeStages.1.labelMale>公駱駝</Dromedary.lifeStages.1.labelMale>
+  <Dromedary.lifeStages.1.labelMalePlural>公駱駝</Dromedary.lifeStages.1.labelMalePlural>
+  <Dromedary.lifeStages.1.labelPlural>駱駝</Dromedary.lifeStages.1.labelPlural>
+  
+  <!-- EN: gazelle -->
+  <Gazelle.label>羚羊</Gazelle.label>
+  <Gazelle.labelFemale>母羚羊</Gazelle.labelFemale>
+  <Gazelle.labelFemalePlural>母羚羊</Gazelle.labelFemalePlural>
+  <Gazelle.labelMale>公羚羊</Gazelle.labelMale>
+  <Gazelle.labelMalePlural>公羚羊</Gazelle.labelMalePlural>
+  <Gazelle.labelPlural>羚羊</Gazelle.labelPlural>
+  <Gazelle.lifeStages.0.label>羚羊</Gazelle.lifeStages.0.label>
+  <Gazelle.lifeStages.0.labelFemale>母羚羊</Gazelle.lifeStages.0.labelFemale>
+  <Gazelle.lifeStages.0.labelFemalePlural>母羚羊</Gazelle.lifeStages.0.labelFemalePlural>
+  <Gazelle.lifeStages.0.labelMale>公羚羊</Gazelle.lifeStages.0.labelMale>
+  <Gazelle.lifeStages.0.labelMalePlural>公羚羊</Gazelle.lifeStages.0.labelMalePlural>
+  <Gazelle.lifeStages.0.labelPlural>羚羊</Gazelle.lifeStages.0.labelPlural>
+  <Gazelle.lifeStages.1.label>羚羊</Gazelle.lifeStages.1.label>
+  <Gazelle.lifeStages.1.labelFemale>母羚羊</Gazelle.lifeStages.1.labelFemale>
+  <Gazelle.lifeStages.1.labelFemalePlural>母羚羊</Gazelle.lifeStages.1.labelFemalePlural>
+  <Gazelle.lifeStages.1.labelMale>公羚羊</Gazelle.lifeStages.1.labelMale>
+  <Gazelle.lifeStages.1.labelMalePlural>公羚羊</Gazelle.lifeStages.1.labelMalePlural>
+  <Gazelle.lifeStages.1.labelPlural>羚羊</Gazelle.lifeStages.1.labelPlural>
+  
+  <!-- EN: iguana -->
+  <Iguana.label>鬣蜥</Iguana.label>
+  <Iguana.labelFemale>母鬣蜥</Iguana.labelFemale>
+  <Iguana.labelFemalePlural>母鬣蜥</Iguana.labelFemalePlural>
+  <Iguana.labelMale>公鬣蜥</Iguana.labelMale>
+  <Iguana.labelMalePlural>公鬣蜥</Iguana.labelMalePlural>
+  <Iguana.labelPlural>鬣蜥</Iguana.labelPlural>
+  <Iguana.lifeStages.0.label>鬣蜥</Iguana.lifeStages.0.label>
+  <Iguana.lifeStages.0.labelFemale>母鬣蜥</Iguana.lifeStages.0.labelFemale>
+  <Iguana.lifeStages.0.labelFemalePlural>母鬣蜥</Iguana.lifeStages.0.labelFemalePlural>
+  <Iguana.lifeStages.0.labelMale>公鬣蜥</Iguana.lifeStages.0.labelMale>
+  <Iguana.lifeStages.0.labelMalePlural>公鬣蜥</Iguana.lifeStages.0.labelMalePlural>
+  <Iguana.lifeStages.0.labelPlural>鬣蜥</Iguana.lifeStages.0.labelPlural>
+  <Iguana.lifeStages.1.label>鬣蜥</Iguana.lifeStages.1.label>
+  <Iguana.lifeStages.1.labelFemale>母鬣蜥</Iguana.lifeStages.1.labelFemale>
+  <Iguana.lifeStages.1.labelFemalePlural>母鬣蜥</Iguana.lifeStages.1.labelFemalePlural>
+  <Iguana.lifeStages.1.labelMale>公鬣蜥</Iguana.lifeStages.1.labelMale>
+  <Iguana.lifeStages.1.labelMalePlural>公鬣蜥</Iguana.lifeStages.1.labelMalePlural>
+  <Iguana.lifeStages.1.labelPlural>鬣蜥</Iguana.lifeStages.1.labelPlural>
+  
+  <!-- EN: muffalo -->
+  <Muffalo.label>毛牛</Muffalo.label>
+  <Muffalo.labelFemale>母毛牛</Muffalo.labelFemale>
+  <Muffalo.labelFemalePlural>母毛牛</Muffalo.labelFemalePlural>
+  <Muffalo.labelMale>公毛牛</Muffalo.labelMale>
+  <Muffalo.labelMalePlural>公毛牛</Muffalo.labelMalePlural>
+  <Muffalo.labelPlural>毛牛</Muffalo.labelPlural>
+  <!-- EN: muffalo calf -->
+  <Muffalo.lifeStages.muffalo_calf.label>毛牛寶寶</Muffalo.lifeStages.muffalo_calf.label>
+  <Muffalo.lifeStages.muffalo_calf.labelFemale>母毛牛寶寶</Muffalo.lifeStages.muffalo_calf.labelFemale>
+  <Muffalo.lifeStages.muffalo_calf.labelFemalePlural>母毛牛寶寶</Muffalo.lifeStages.muffalo_calf.labelFemalePlural>
+  <Muffalo.lifeStages.muffalo_calf.labelMale>公毛牛寶寶</Muffalo.lifeStages.muffalo_calf.labelMale>
+  <Muffalo.lifeStages.muffalo_calf.labelMalePlural>公毛牛寶寶</Muffalo.lifeStages.muffalo_calf.labelMalePlural>
+  <!-- EN: muffalo calves -->
+  <Muffalo.lifeStages.muffalo_calf.labelPlural>毛牛寶寶</Muffalo.lifeStages.muffalo_calf.labelPlural>
+  <Muffalo.lifeStages.1.label>毛牛</Muffalo.lifeStages.1.label>
+  <Muffalo.lifeStages.1.labelFemale>母毛牛</Muffalo.lifeStages.1.labelFemale>
+  <Muffalo.lifeStages.1.labelFemalePlural>母毛牛</Muffalo.lifeStages.1.labelFemalePlural>
+  <Muffalo.lifeStages.1.labelMale>公毛牛</Muffalo.lifeStages.1.labelMale>
+  <Muffalo.lifeStages.1.labelMalePlural>公毛牛</Muffalo.lifeStages.1.labelMalePlural>
+  <Muffalo.lifeStages.1.labelPlural>毛牛</Muffalo.lifeStages.1.labelPlural>
   
 </LanguageData>

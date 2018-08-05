@@ -1,36 +1,94 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <Chicken.label>雞</Chicken.label>
-  <Chicken.labelMale>公雞</Chicken.labelMale>
-  <Chicken.labelFemale>母雞</Chicken.labelFemale>
-  <Chicken.lifeStages.0.label>小雞</Chicken.lifeStages.0.label>
-  <Chicken.lifeStages.1.labelMale>小公雞</Chicken.lifeStages.1.labelMale>
-  <Chicken.lifeStages.1.labelFemale>小母雞</Chicken.lifeStages.1.labelFemale>
-  <Chicken.lifeStages.2.labelMale>公雞</Chicken.lifeStages.2.labelMale>
-  <Chicken.lifeStages.2.labelFemale>母雞</Chicken.lifeStages.2.labelFemale>
-  
-  <Pig.label>豬</Pig.label>
-  <Pig.lifeStages.0.label>豬寶寶</Pig.lifeStages.0.label>
-  <Pig.lifeStages.1.label>小豬</Pig.lifeStages.1.label>
-  <Pig.lifeStages.1.labelMale>小豬</Pig.lifeStages.1.labelMale>
-  <Pig.lifeStages.1.labelFemale>小豬</Pig.lifeStages.1.labelFemale>
-  <Pig.lifeStages.2.label>豬</Pig.lifeStages.2.label>
-  <Pig.lifeStages.2.labelMale>公豬</Pig.lifeStages.2.labelMale>
-  <Pig.lifeStages.2.labelFemale>母豬</Pig.lifeStages.2.labelFemale>
-  
-  <Cow.label>牛</Cow.label>
-  <Cow.lifeStages.0.label>牛寶寶</Cow.lifeStages.0.label>
-  <Cow.lifeStages.1.label>小牛</Cow.lifeStages.1.label>
-  <Cow.lifeStages.1.labelMale>小公牛</Cow.lifeStages.1.labelMale>
-  <Cow.lifeStages.1.labelFemale>小母牛</Cow.lifeStages.1.labelFemale>
-  <Cow.lifeStages.2.label>牛</Cow.lifeStages.2.label>
-  <Cow.lifeStages.2.labelMale>公牛</Cow.lifeStages.2.labelMale>
-  <Cow.lifeStages.2.labelFemale>母牛</Cow.lifeStages.2.labelFemale>
-  
+  <!-- EN: alpaca -->
   <Alpaca.label>羊駝</Alpaca.label>
+  <Alpaca.labelFemale>母羊駝</Alpaca.labelFemale>
+  <Alpaca.labelFemalePlural>母羊駝</Alpaca.labelFemalePlural>
+  <Alpaca.labelMale>公羊駝</Alpaca.labelMale>
+  <Alpaca.labelMalePlural>公羊駝</Alpaca.labelMalePlural>
+  <Alpaca.labelPlural>羊駝</Alpaca.labelPlural>
   <Alpaca.lifeStages.0.label>羊駝寶寶</Alpaca.lifeStages.0.label>
-  <Alpaca.lifeStages.1.label>小羊駝</Alpaca.lifeStages.1.label>
-  <Alpaca.lifeStages.2.label>羊駝</Alpaca.lifeStages.2.label>
+  <Alpaca.lifeStages.0.labelFemale>母羊駝寶寶</Alpaca.lifeStages.0.labelFemale>
+  <Alpaca.lifeStages.0.labelFemalePlural>母羊駝寶寶</Alpaca.lifeStages.0.labelFemalePlural>
+  <Alpaca.lifeStages.0.labelMale>公羊駝寶寶</Alpaca.lifeStages.0.labelMale>
+  <Alpaca.lifeStages.0.labelMalePlural>公羊駝寶寶</Alpaca.lifeStages.0.labelMalePlural>
+  <Alpaca.lifeStages.0.labelPlural>羊駝寶寶</Alpaca.lifeStages.0.labelPlural>
+  <Alpaca.lifeStages.1.label>羊駝</Alpaca.lifeStages.1.label>
+  <Alpaca.lifeStages.1.labelFemale>母羊駝</Alpaca.lifeStages.1.labelFemale>
+  <Alpaca.lifeStages.1.labelFemalePlural>母羊駝</Alpaca.lifeStages.1.labelFemalePlural>
+  <Alpaca.lifeStages.1.labelMale>公羊駝</Alpaca.lifeStages.1.labelMale>
+  <Alpaca.lifeStages.1.labelMalePlural>公羊駝</Alpaca.lifeStages.1.labelMalePlural>
+  <Alpaca.lifeStages.1.labelPlural>羊駝</Alpaca.lifeStages.1.labelPlural>
+  
+  <!-- EN: chicken -->
+  <Chicken.label>雞</Chicken.label>
+  <!-- EN: hen -->
+  <Chicken.labelFemale>母雞</Chicken.labelFemale>
+  <Chicken.labelFemalePlural>母雞</Chicken.labelFemalePlural>
+  <!-- EN: rooster -->
+  <Chicken.labelMale>公雞</Chicken.labelMale>
+  <Chicken.labelMalePlural>公雞</Chicken.labelMalePlural>
+  <Chicken.labelPlural>雞</Chicken.labelPlural>
+  <!-- EN: chick -->
+  <Chicken.lifeStages.chick.label>小雞寶寶</Chicken.lifeStages.chick.label>
+  <Chicken.lifeStages.chick.labelFemale>母雞寶寶</Chicken.lifeStages.chick.labelFemale>
+  <Chicken.lifeStages.chick.labelFemalePlural>母雞寶寶</Chicken.lifeStages.chick.labelFemalePlural>
+  <Chicken.lifeStages.chick.labelMale>公雞寶寶</Chicken.lifeStages.chick.labelMale>
+  <Chicken.lifeStages.chick.labelMalePlural>公雞寶寶</Chicken.lifeStages.chick.labelMalePlural>
+  <Chicken.lifeStages.chick.labelPlural>小雞寶寶</Chicken.lifeStages.chick.labelPlural>
+  <Chicken.lifeStages.cockerel.label>雞</Chicken.lifeStages.cockerel.label>
+  <Chicken.lifeStages.cockerel.labelFemale>母雞</Chicken.lifeStages.cockerel.labelFemale>
+  <Chicken.lifeStages.cockerel.labelFemalePlural>母雞</Chicken.lifeStages.cockerel.labelFemalePlural>
+  <!-- EN: cockerel -->
+  <Chicken.lifeStages.cockerel.labelMale>公雞</Chicken.lifeStages.cockerel.labelMale>
+  <Chicken.lifeStages.cockerel.labelMalePlural>公雞</Chicken.lifeStages.cockerel.labelMalePlural>
+  <Chicken.lifeStages.cockerel.labelPlural>雞</Chicken.lifeStages.cockerel.labelPlural>
+  
+  <!-- EN: cow -->
+  <Cow.label>牛</Cow.label>
+  <!-- EN: cow -->
+  <Cow.labelFemale>母牛</Cow.labelFemale>
+  <Cow.labelFemalePlural>母牛</Cow.labelFemalePlural>
+  <!-- EN: bull -->
+  <Cow.labelMale>公牛</Cow.labelMale>
+  <Cow.labelMalePlural>公牛</Cow.labelMalePlural>
+  <Cow.labelPlural>牛</Cow.labelPlural>
+  <!-- EN: calf -->
+  <Cow.lifeStages.calf.label>牛寶寶</Cow.lifeStages.calf.label>
+  <Cow.lifeStages.calf.labelFemale>母牛寶寶</Cow.lifeStages.calf.labelFemale>
+  <Cow.lifeStages.calf.labelFemalePlural>母牛寶寶</Cow.lifeStages.calf.labelFemalePlural>
+  <Cow.lifeStages.calf.labelMale>公牛寶寶</Cow.lifeStages.calf.labelMale>
+  <Cow.lifeStages.calf.labelMalePlural>公牛寶寶</Cow.lifeStages.calf.labelMalePlural>
+  <!-- EN: calves -->
+  <Cow.lifeStages.calf.labelPlural>牛寶寶</Cow.lifeStages.calf.labelPlural>
+  <Cow.lifeStages.1.label>牛</Cow.lifeStages.1.label>
+  <Cow.lifeStages.1.labelFemale>母牛</Cow.lifeStages.1.labelFemale>
+  <Cow.lifeStages.1.labelFemalePlural>母牛</Cow.lifeStages.1.labelFemalePlural>
+  <Cow.lifeStages.1.labelMale>公牛</Cow.lifeStages.1.labelMale>
+  <Cow.lifeStages.1.labelMalePlural>公牛</Cow.lifeStages.1.labelMalePlural>
+  <Cow.lifeStages.1.labelPlural>牛</Cow.lifeStages.1.labelPlural>
+  
+  <!-- EN: pig -->
+  <Pig.label>豬</Pig.label>
+  <!-- EN: sow -->
+  <Pig.labelFemale>母豬</Pig.labelFemale>
+  <Pig.labelFemalePlural>母豬</Pig.labelFemalePlural>
+  <Pig.labelMale>公豬</Pig.labelMale>
+  <Pig.labelMalePlural>公豬</Pig.labelMalePlural>
+  <Pig.labelPlural>豬</Pig.labelPlural>
+  <!-- EN: piglet -->
+  <Pig.lifeStages.piglet.label>小豬寶寶</Pig.lifeStages.piglet.label>
+  <Pig.lifeStages.piglet.labelFemale>母豬寶寶</Pig.lifeStages.piglet.labelFemale>
+  <Pig.lifeStages.piglet.labelFemalePlural>母豬寶寶</Pig.lifeStages.piglet.labelFemalePlural>
+  <Pig.lifeStages.piglet.labelMale>公豬寶寶</Pig.lifeStages.piglet.labelMale>
+  <Pig.lifeStages.piglet.labelMalePlural>公豬寶寶</Pig.lifeStages.piglet.labelMalePlural>
+  <Pig.lifeStages.piglet.labelPlural>小豬寶寶</Pig.lifeStages.piglet.labelPlural>
+  <Pig.lifeStages.1.label>豬</Pig.lifeStages.1.label>
+  <Pig.lifeStages.1.labelFemale>母豬</Pig.lifeStages.1.labelFemale>
+  <Pig.lifeStages.1.labelFemalePlural>母豬</Pig.lifeStages.1.labelFemalePlural>
+  <Pig.lifeStages.1.labelMale>公豬</Pig.lifeStages.1.labelMale>
+  <Pig.lifeStages.1.labelMalePlural>公豬</Pig.lifeStages.1.labelMalePlural>
+  <Pig.lifeStages.1.labelPlural>豬</Pig.lifeStages.1.labelPlural>
   
 </LanguageData>

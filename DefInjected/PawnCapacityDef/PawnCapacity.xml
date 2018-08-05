@@ -1,21 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: blood filtration -->
+  <BloodFiltration.label>血液過濾</BloodFiltration.label>
+  <!-- EN: fluid reprocessing -->
+  <BloodFiltration.labelMechanoids>體液再處理器</BloodFiltration.labelMechanoids>
+  
+  <!-- EN: blood pumping -->
+  <BloodPumping.label>血液循環</BloodPumping.label>
+  <!-- EN: power generation -->
+  <BloodPumping.labelMechanoids>發電機</BloodPumping.labelMechanoids>
+  
+  <!-- EN: breathing -->
+  <Breathing.label>呼吸</Breathing.label>
+  
+  <!-- EN: consciousness -->
   <Consciousness.label>意識</Consciousness.label>
+  <!-- EN: Data processing -->
   <Consciousness.labelMechanoids>系統運行</Consciousness.labelMechanoids>
   
-  <Moving.label>移動</Moving.label>
+  <!-- EN: eating -->
+  <Eating.label>食用</Eating.label>
+  
+  <!-- EN: hearing -->
+  <Hearing.label>聽力</Hearing.label>
+  
+  <!-- EN: manipulation -->
   <Manipulation.label>操作</Manipulation.label>
   
-  <Talking.label>交談</Talking.label>
-  <Talking.labelMechanoids>通聯</Talking.labelMechanoids>
-  
-  <Eating.label>食用</Eating.label>
-  <Sight.label>視野</Sight.label>
-  <Hearing.label>聽力</Hearing.label>
-  <Breathing.label>呼吸</Breathing.label>
-  <BloodFiltration.label>血液過濾</BloodFiltration.label>
-  <BloodPumping.label>血液循環</BloodPumping.label>
+  <!-- EN: metabolism -->
   <Metabolism.label>代謝</Metabolism.label>
+  
+  <!-- EN: moving -->
+  <Moving.label>移動</Moving.label>
+  
+  <!-- EN: sight -->
+  <Sight.label>視野</Sight.label>
+  
+  <!-- EN: talking -->
+  <Talking.label>交談</Talking.label>
+  <!-- EN: Communication -->
+  <Talking.labelMechanoids>通聯</Talking.labelMechanoids>
   
 </LanguageData>

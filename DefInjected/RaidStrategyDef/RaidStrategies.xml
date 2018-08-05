@@ -1,27 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <ImmediateAttack.arrivalTextFriendly>他們會立即支援你。</ImmediateAttack.arrivalTextFriendly>
+  <!-- EN: They are attacking immediately. -->
   <ImmediateAttack.arrivalTextEnemy>他們會立即開始進攻。</ImmediateAttack.arrivalTextEnemy>
+  <!-- EN: They are moving in to help you immediately. -->
+  <ImmediateAttack.arrivalTextFriendly>他們會立即支援你。</ImmediateAttack.arrivalTextFriendly>
+  <!-- EN: Raid -->
   <ImmediateAttack.letterLabelEnemy>突襲</ImmediateAttack.letterLabelEnemy>
+  <!-- EN: Friendlies -->
   <ImmediateAttack.letterLabelFriendly>支援</ImmediateAttack.letterLabelFriendly>
   
-  <StageThenAttack.arrivalTextFriendly>他們會在幫助你戰鬥之前準備一段時間。</StageThenAttack.arrivalTextFriendly>
-  <StageThenAttack.arrivalTextEnemy>他們會準備一段時間再進攻。\n\n準備好防禦或是先發制人去攻擊他們。</StageThenAttack.arrivalTextEnemy>
-  <StageThenAttack.letterLabelEnemy>襲擊</StageThenAttack.letterLabelEnemy>
-  <StageThenAttack.letterLabelFriendly>支援</StageThenAttack.letterLabelFriendly>
-
-  <ImmediateAttackSmart.arrivalTextFriendly>他們會立即支援你。</ImmediateAttackSmart.arrivalTextFriendly>
-  <ImmediateAttackSmart.arrivalTextEnemy>他們會立即開始進攻。\n\n請小心，這次的襲擊似乎有些不尋常。</ImmediateAttackSmart.arrivalTextEnemy>
-  <ImmediateAttackSmart.letterLabelEnemy>突襲</ImmediateAttackSmart.letterLabelEnemy>
-  <ImmediateAttackSmart.letterLabelFriendly>支援</ImmediateAttackSmart.letterLabelFriendly>
-  
+  <!-- EN: It looks like they want to use sappers to tunnel around your defenses. -->
   <ImmediateAttackSappers.arrivalTextEnemy>看來他們打算派出工兵破解你的防衛。</ImmediateAttackSappers.arrivalTextEnemy>
+  <!-- EN: Raid -->
   <ImmediateAttackSappers.letterLabelEnemy>突襲</ImmediateAttackSappers.letterLabelEnemy>
   
-  <Siege.arrivalTextFriendly>看來他們想用圍攻策略來援助你。</Siege.arrivalTextFriendly>
+  <!-- EN: They are attacking immediately.\n\nWatch out - they appear to be unusually clever with their tactics. They'll avoid your turrets' fields of fire and notice some of your traps. -->
+  <ImmediateAttackSmart.arrivalTextEnemy>他們會立即開始進攻。\n\n請小心，這次的襲擊似乎有些不尋常。</ImmediateAttackSmart.arrivalTextEnemy>
+  <!-- EN: They are moving in to help you immediately. -->
+  <ImmediateAttackSmart.arrivalTextFriendly>他們會立即支援你。</ImmediateAttackSmart.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <ImmediateAttackSmart.letterLabelEnemy>突襲</ImmediateAttackSmart.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <ImmediateAttackSmart.letterLabelFriendly>支援</ImmediateAttackSmart.letterLabelFriendly>
+  
+  <!-- EN: It looks like they want to besiege the colony and pound you with mortars from a distance. You can try to wait them out - or go get them. -->
   <Siege.arrivalTextEnemy>看來他們想圍攻殖民地。</Siege.arrivalTextEnemy>
+  <!-- EN: It looks like they want to use siege tactics to help you. -->
+  <Siege.arrivalTextFriendly>看來他們想用圍攻策略來援助你。</Siege.arrivalTextFriendly>
+  <!-- EN: Siege -->
   <Siege.letterLabelEnemy>圍攻</Siege.letterLabelEnemy>
+  <!-- EN: Friendlies -->
   <Siege.letterLabelFriendly>支援</Siege.letterLabelFriendly>
+  
+  <!-- EN: They will prepare for a while, then attack.\n\nPrepare a defense or attack them pre-emptively. -->
+  <StageThenAttack.arrivalTextEnemy>他們會準備一段時間再進攻。\n\n準備好防禦或是先發制人去攻擊他們。</StageThenAttack.arrivalTextEnemy>
+  <!-- EN: They will prepare for a while before moving in to help you. -->
+  <StageThenAttack.arrivalTextFriendly>他們會在幫助你戰鬥之前準備一段時間。</StageThenAttack.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <StageThenAttack.letterLabelEnemy>襲擊</StageThenAttack.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <StageThenAttack.letterLabelFriendly>支援</StageThenAttack.letterLabelFriendly>
   
 </LanguageData>

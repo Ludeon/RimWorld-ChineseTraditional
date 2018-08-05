@@ -1,39 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Warg.label>座狼</Warg.label>
-  <Warg.lifeStages.0.label>座狼寶寶</Warg.lifeStages.0.label>
-  <Warg.lifeStages.1.label>小座狼</Warg.lifeStages.1.label>
-  <Warg.lifeStages.2.label>座狼</Warg.lifeStages.2.label>
-
-  <Wolf_Timber.label>灰狼</Wolf_Timber.label>
-  <Wolf_Timber.labelPlural>灰狼</Wolf_Timber.labelPlural>
-  <Wolf_Timber.lifeStages.0.label>灰狼寶寶</Wolf_Timber.lifeStages.0.label>
-  <Wolf_Timber.lifeStages.1.label>小灰狼</Wolf_Timber.lifeStages.1.label>
-  <Wolf_Timber.lifeStages.2.label>灰狼</Wolf_Timber.lifeStages.2.label>
-
-  <Wolf_Arctic.label>雪狼</Wolf_Arctic.label>
-  <Wolf_Arctic.labelPlural>雪狼</Wolf_Arctic.labelPlural>
-  <Wolf_Arctic.lifeStages.0.label>雪狼寶寶</Wolf_Arctic.lifeStages.0.label>
-  <Wolf_Arctic.lifeStages.1.label>小雪狼</Wolf_Arctic.lifeStages.1.label>
-  <Wolf_Arctic.lifeStages.2.label>雪狼</Wolf_Arctic.lifeStages.2.label>
-
-  <Fox_Fennec.label>沙漠狐</Fox_Fennec.label>
-  <Fox_Fennec.labelPlural>沙漠狐</Fox_Fennec.labelPlural>
-  <Fox_Fennec.lifeStages.0.label>沙漠狐寶寶</Fox_Fennec.lifeStages.0.label>
-  <Fox_Fennec.lifeStages.1.label>小沙漠狐</Fox_Fennec.lifeStages.1.label>
-  <Fox_Fennec.lifeStages.2.label>沙漠狐</Fox_Fennec.lifeStages.2.label>
-
-  <Fox_Red.label>紅狐</Fox_Red.label>
-  <Fox_Red.labelPlural>紅狐</Fox_Red.labelPlural>
-  <Fox_Red.lifeStages.0.label>紅狐寶寶</Fox_Red.lifeStages.0.label>
-  <Fox_Red.lifeStages.1.label>小紅狐</Fox_Red.lifeStages.1.label>
-  <Fox_Red.lifeStages.2.label>紅狐</Fox_Red.lifeStages.2.label>
-
+  
+  <!-- EN: arctic fox -->
   <Fox_Arctic.label>北極狐</Fox_Arctic.label>
+  <Fox_Arctic.labelFemale>母北極狐</Fox_Arctic.labelFemale>
+  <Fox_Arctic.labelFemalePlural>母北極狐</Fox_Arctic.labelFemalePlural>
+  <Fox_Arctic.labelMale>公北極狐</Fox_Arctic.labelMale>
+  <Fox_Arctic.labelMalePlural>公北極狐</Fox_Arctic.labelMalePlural>
+  <!-- EN: arctic foxes -->
   <Fox_Arctic.labelPlural>北極狐</Fox_Arctic.labelPlural>
-  <Fox_Arctic.lifeStages.0.label>北極狐寶寶</Fox_Arctic.lifeStages.0.label>
-  <Fox_Arctic.lifeStages.1.label>小北極狐</Fox_Arctic.lifeStages.1.label>
-  <Fox_Arctic.lifeStages.2.label>北極狐</Fox_Arctic.lifeStages.2.label>
-
+  <!-- EN: arctic fox puppy -->
+  <Fox_Arctic.lifeStages.arctic_fox_puppy.label>北極狐寶寶</Fox_Arctic.lifeStages.arctic_fox_puppy.label>
+  <Fox_Arctic.lifeStages.arctic_fox_puppy.labelFemale>母北極狐寶寶</Fox_Arctic.lifeStages.arctic_fox_puppy.labelFemale>
+  <Fox_Arctic.lifeStages.arctic_fox_puppy.labelFemalePlural>母北極狐寶寶</Fox_Arctic.lifeStages.arctic_fox_puppy.labelFemalePlural>
+  <Fox_Arctic.lifeStages.arctic_fox_puppy.labelMale>公北極狐寶寶</Fox_Arctic.lifeStages.arctic_fox_puppy.labelMale>
+  <Fox_Arctic.lifeStages.arctic_fox_puppy.labelMalePlural>公北極狐寶寶</Fox_Arctic.lifeStages.arctic_fox_puppy.labelMalePlural>
+  <!-- EN: arctic fox puppies -->
+  <Fox_Arctic.lifeStages.arctic_fox_puppy.labelPlural>北極狐寶寶</Fox_Arctic.lifeStages.arctic_fox_puppy.labelPlural>
+  <Fox_Arctic.lifeStages.1.label>北極狐</Fox_Arctic.lifeStages.1.label>
+  <Fox_Arctic.lifeStages.1.labelFemale>母北極狐</Fox_Arctic.lifeStages.1.labelFemale>
+  <Fox_Arctic.lifeStages.1.labelFemalePlural>母北極狐</Fox_Arctic.lifeStages.1.labelFemalePlural>
+  <Fox_Arctic.lifeStages.1.labelMale>公北極狐</Fox_Arctic.lifeStages.1.labelMale>
+  <Fox_Arctic.lifeStages.1.labelMalePlural>公北極狐</Fox_Arctic.lifeStages.1.labelMalePlural>
+  <Fox_Arctic.lifeStages.1.labelPlural>北極狐</Fox_Arctic.lifeStages.1.labelPlural>
+  
+  <!-- EN: fennec fox -->
+  <Fox_Fennec.label>沙漠狐</Fox_Fennec.label>
+  <Fox_Fennec.labelFemale>母沙漠狐</Fox_Fennec.labelFemale>
+  <Fox_Fennec.labelFemalePlural>母沙漠狐</Fox_Fennec.labelFemalePlural>
+  <Fox_Fennec.labelMale>公沙漠狐</Fox_Fennec.labelMale>
+  <Fox_Fennec.labelMalePlural>公沙漠狐</Fox_Fennec.labelMalePlural>
+  <!-- EN: fennec foxes -->
+  <Fox_Fennec.labelPlural>沙漠狐</Fox_Fennec.labelPlural>
+  <!-- EN: fennec fox puppy -->
+  <Fox_Fennec.lifeStages.fennec_fox_puppy.label>沙漠狐寶寶</Fox_Fennec.lifeStages.fennec_fox_puppy.label>
+  <Fox_Fennec.lifeStages.fennec_fox_puppy.labelFemale>母沙漠狐寶寶</Fox_Fennec.lifeStages.fennec_fox_puppy.labelFemale>
+  <Fox_Fennec.lifeStages.fennec_fox_puppy.labelFemalePlural>母沙漠狐寶寶</Fox_Fennec.lifeStages.fennec_fox_puppy.labelFemalePlural>
+  <Fox_Fennec.lifeStages.fennec_fox_puppy.labelMale>公沙漠狐寶寶</Fox_Fennec.lifeStages.fennec_fox_puppy.labelMale>
+  <Fox_Fennec.lifeStages.fennec_fox_puppy.labelMalePlural>公沙漠狐寶寶</Fox_Fennec.lifeStages.fennec_fox_puppy.labelMalePlural>
+  <!-- EN: fennec fox puppies -->
+  <Fox_Fennec.lifeStages.fennec_fox_puppy.labelPlural>沙漠狐寶寶</Fox_Fennec.lifeStages.fennec_fox_puppy.labelPlural>
+  <Fox_Fennec.lifeStages.1.label>沙漠狐</Fox_Fennec.lifeStages.1.label>
+  <Fox_Fennec.lifeStages.1.labelFemale>母沙漠狐</Fox_Fennec.lifeStages.1.labelFemale>
+  <Fox_Fennec.lifeStages.1.labelFemalePlural>母沙漠狐</Fox_Fennec.lifeStages.1.labelFemalePlural>
+  <Fox_Fennec.lifeStages.1.labelMale>公沙漠狐</Fox_Fennec.lifeStages.1.labelMale>
+  <Fox_Fennec.lifeStages.1.labelMalePlural>公沙漠狐</Fox_Fennec.lifeStages.1.labelMalePlural>
+  <Fox_Fennec.lifeStages.1.labelPlural>沙漠狐</Fox_Fennec.lifeStages.1.labelPlural>
+  
+  <!-- EN: red fox -->
+  <Fox_Red.label>紅狐</Fox_Red.label>
+  <Fox_Red.labelFemale>母紅狐</Fox_Red.labelFemale>
+  <Fox_Red.labelFemalePlural>母紅狐</Fox_Red.labelFemalePlural>
+  <Fox_Red.labelMale>公紅狐</Fox_Red.labelMale>
+  <Fox_Red.labelMalePlural>公紅狐</Fox_Red.labelMalePlural>
+  <!-- EN: red foxes -->
+  <Fox_Red.labelPlural>紅狐</Fox_Red.labelPlural>
+  <!-- EN: red fox puppy -->
+  <Fox_Red.lifeStages.red_fox_puppy.label>紅狐寶寶</Fox_Red.lifeStages.red_fox_puppy.label>
+  <Fox_Red.lifeStages.red_fox_puppy.labelFemale>母紅狐寶寶</Fox_Red.lifeStages.red_fox_puppy.labelFemale>
+  <Fox_Red.lifeStages.red_fox_puppy.labelFemalePlural>母紅狐寶寶</Fox_Red.lifeStages.red_fox_puppy.labelFemalePlural>
+  <Fox_Red.lifeStages.red_fox_puppy.labelMale>公紅狐寶寶</Fox_Red.lifeStages.red_fox_puppy.labelMale>
+  <Fox_Red.lifeStages.red_fox_puppy.labelMalePlural>公紅狐寶寶</Fox_Red.lifeStages.red_fox_puppy.labelMalePlural>
+  <!-- EN: red fox puppies -->
+  <Fox_Red.lifeStages.red_fox_puppy.labelPlural>紅狐寶寶</Fox_Red.lifeStages.red_fox_puppy.labelPlural>
+  <Fox_Red.lifeStages.1.label>紅狐</Fox_Red.lifeStages.1.label>
+  <Fox_Red.lifeStages.1.labelFemale>母紅狐</Fox_Red.lifeStages.1.labelFemale>
+  <Fox_Red.lifeStages.1.labelFemalePlural>母紅狐</Fox_Red.lifeStages.1.labelFemalePlural>
+  <Fox_Red.lifeStages.1.labelMale>公紅狐</Fox_Red.lifeStages.1.labelMale>
+  <Fox_Red.lifeStages.1.labelMalePlural>公紅狐</Fox_Red.lifeStages.1.labelMalePlural>
+  <Fox_Red.lifeStages.1.labelPlural>紅狐</Fox_Red.lifeStages.1.labelPlural>
+  
+  <!-- EN: warg -->
+  <Warg.label>座狼</Warg.label>
+  <Warg.labelFemale>母座狼</Warg.labelFemale>
+  <Warg.labelFemalePlural>母座狼</Warg.labelFemalePlural>
+  <Warg.labelMale>公座狼</Warg.labelMale>
+  <Warg.labelMalePlural>公座狼</Warg.labelMalePlural>
+  <Warg.labelPlural>座狼</Warg.labelPlural>
+  <!-- EN: warg puppy -->
+  <Warg.lifeStages.warg_puppy.label>座狼寶寶</Warg.lifeStages.warg_puppy.label>
+  <Warg.lifeStages.warg_puppy.labelFemale>母座狼寶寶</Warg.lifeStages.warg_puppy.labelFemale>
+  <Warg.lifeStages.warg_puppy.labelFemalePlural>母座狼寶寶</Warg.lifeStages.warg_puppy.labelFemalePlural>
+  <Warg.lifeStages.warg_puppy.labelMale>公座狼寶寶</Warg.lifeStages.warg_puppy.labelMale>
+  <Warg.lifeStages.warg_puppy.labelMalePlural>公座狼寶寶</Warg.lifeStages.warg_puppy.labelMalePlural>
+  <!-- EN: warg puppies -->
+  <Warg.lifeStages.warg_puppy.labelPlural>座狼寶寶</Warg.lifeStages.warg_puppy.labelPlural>
+  <Warg.lifeStages.1.label>座狼</Warg.lifeStages.1.label>
+  <Warg.lifeStages.1.labelFemale>母座狼</Warg.lifeStages.1.labelFemale>
+  <Warg.lifeStages.1.labelFemalePlural>母座狼</Warg.lifeStages.1.labelFemalePlural>
+  <Warg.lifeStages.1.labelMale>公座狼</Warg.lifeStages.1.labelMale>
+  <Warg.lifeStages.1.labelMalePlural>公座狼</Warg.lifeStages.1.labelMalePlural>
+  <Warg.lifeStages.1.labelPlural>座狼</Warg.lifeStages.1.labelPlural>
+  
+  <!-- EN: arctic wolf -->
+  <Wolf_Arctic.label>雪狼</Wolf_Arctic.label>
+  <Wolf_Arctic.labelFemale>母雪狼</Wolf_Arctic.labelFemale>
+  <Wolf_Arctic.labelFemalePlural>母雪狼</Wolf_Arctic.labelFemalePlural>
+  <Wolf_Arctic.labelMale>公雪狼</Wolf_Arctic.labelMale>
+  <Wolf_Arctic.labelMalePlural>公雪狼</Wolf_Arctic.labelMalePlural>
+  <!-- EN: arctic wolves -->
+  <Wolf_Arctic.labelPlural>雪狼</Wolf_Arctic.labelPlural>
+  <!-- EN: arctic wolf puppy -->
+  <Wolf_Arctic.lifeStages.arctic_wolf_puppy.label>雪狼寶寶</Wolf_Arctic.lifeStages.arctic_wolf_puppy.label>
+  <Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelFemale>母雪狼寶寶</Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelFemale>
+  <Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelFemalePlural>母雪狼寶寶</Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelFemalePlural>
+  <Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelMale>公雪狼寶寶</Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelMale>
+  <Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelMalePlural>公雪狼寶寶</Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelMalePlural>
+  <!-- EN: arctic wolf puppies -->
+  <Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelPlural>雪狼寶寶</Wolf_Arctic.lifeStages.arctic_wolf_puppy.labelPlural>
+  <Wolf_Arctic.lifeStages.1.label>雪狼</Wolf_Arctic.lifeStages.1.label>
+  <Wolf_Arctic.lifeStages.1.labelFemale>母雪狼</Wolf_Arctic.lifeStages.1.labelFemale>
+  <Wolf_Arctic.lifeStages.1.labelFemalePlural>母雪狼</Wolf_Arctic.lifeStages.1.labelFemalePlural>
+  <Wolf_Arctic.lifeStages.1.labelMale>公雪狼</Wolf_Arctic.lifeStages.1.labelMale>
+  <Wolf_Arctic.lifeStages.1.labelMalePlural>公雪狼</Wolf_Arctic.lifeStages.1.labelMalePlural>
+  <Wolf_Arctic.lifeStages.1.labelPlural>雪狼</Wolf_Arctic.lifeStages.1.labelPlural>
+  
+  <!-- EN: timber wolf -->
+  <Wolf_Timber.label>灰狼</Wolf_Timber.label>
+  <Wolf_Timber.labelFemale>母灰狼</Wolf_Timber.labelFemale>
+  <Wolf_Timber.labelFemalePlural>母灰狼</Wolf_Timber.labelFemalePlural>
+  <Wolf_Timber.labelMale>公灰狼</Wolf_Timber.labelMale>
+  <Wolf_Timber.labelMalePlural>公灰狼</Wolf_Timber.labelMalePlural>
+  <!-- EN: timber wolves -->
+  <Wolf_Timber.labelPlural>灰狼 wolves</Wolf_Timber.labelPlural>
+  <!-- EN: timber wolf puppy -->
+  <Wolf_Timber.lifeStages.timber_wolf_puppy.label>灰狼寶寶</Wolf_Timber.lifeStages.timber_wolf_puppy.label>
+  <Wolf_Timber.lifeStages.timber_wolf_puppy.labelFemale>母灰狼寶寶</Wolf_Timber.lifeStages.timber_wolf_puppy.labelFemale>
+  <Wolf_Timber.lifeStages.timber_wolf_puppy.labelFemalePlural>母灰狼寶寶</Wolf_Timber.lifeStages.timber_wolf_puppy.labelFemalePlural>
+  <Wolf_Timber.lifeStages.timber_wolf_puppy.labelMale>公灰狼寶寶</Wolf_Timber.lifeStages.timber_wolf_puppy.labelMale>
+  <Wolf_Timber.lifeStages.timber_wolf_puppy.labelMalePlural>公灰狼寶寶</Wolf_Timber.lifeStages.timber_wolf_puppy.labelMalePlural>
+  <!-- EN: timber wolf puppies -->
+  <Wolf_Timber.lifeStages.timber_wolf_puppy.labelPlural>灰狼寶寶</Wolf_Timber.lifeStages.timber_wolf_puppy.labelPlural>
+  <Wolf_Timber.lifeStages.1.label>灰狼</Wolf_Timber.lifeStages.1.label>
+  <Wolf_Timber.lifeStages.1.labelFemale>母灰狼</Wolf_Timber.lifeStages.1.labelFemale>
+  <Wolf_Timber.lifeStages.1.labelFemalePlural>母灰狼</Wolf_Timber.lifeStages.1.labelFemalePlural>
+  <Wolf_Timber.lifeStages.1.labelMale>公灰狼</Wolf_Timber.lifeStages.1.labelMale>
+  <Wolf_Timber.lifeStages.1.labelMalePlural>公灰狼</Wolf_Timber.lifeStages.1.labelMalePlural>
+  <Wolf_Timber.lifeStages.1.labelPlural>灰狼</Wolf_Timber.lifeStages.1.labelPlural>
+  
 </LanguageData>
