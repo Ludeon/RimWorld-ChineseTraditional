@@ -236,11 +236,11 @@
   <!-- EN: All members of {0} have died. -->
   <LetterAllCaravanColonistsDied>{0}的成員已全數死亡。</LetterAllCaravanColonistsDied>
   
-  <!-- Caravan entered ambush map -->
-  <!-- EN: Caravan arrived at ambush -->
-  <LetterLabelCaravanEnteredAmbushMap>旅隊就位</LetterLabelCaravanEnteredAmbushMap>
-  <!-- EN: {0} has arrived at the ambush site. -->
-  <LetterCaravanEnteredAmbushMap>{0}已經抵達了埋伏地點。</LetterCaravanEnteredAmbushMap>
+  <!-- Caravan entered map -->
+  <!-- EN: Caravan arrived at {0_label} -->
+  <LetterLabelCaravanEnteredMap>旅隊已經抵達{0_label}。</LetterLabelCaravanEnteredMap>
+  <!-- EN: {0} has arrived at {1_definite}. -->
+  <LetterCaravanEnteredMap>{0}已經抵達{1_definite}。</LetterCaravanEnteredMap>
   
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
@@ -363,10 +363,6 @@
   <LetterLabelRescueQuestFinished>獲救者加入</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
   <LetterRescueQuestFinished>你救了{PAWN_nameDef}而{PAWN_pronoun}加入了你的團體。\n\n你可以在星球畫面選取區域並點擊「重組旅隊」讓{PAWN_objective}隨旅隊一起行動。</LetterRescueQuestFinished>
-
-  <!-- Player entered site (generic label) -->
-  <!-- EN: Arrived at site -->
-  <LetterLabelPlayerEnteredNewSiteGeneric>抵達目標點</LetterLabelPlayerEnteredNewSiteGeneric>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
