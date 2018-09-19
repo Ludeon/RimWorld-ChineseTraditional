@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: person captured -->
+  <Captured.label>俘獲人員</Captured.label>
+  <!-- EN:
+    <li>tale_noun->[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
+    <li>tale_noun->[PRISONER_nameDef] being captured by [CAPTURER_nameDef]</li>
+    <li>tale_noun->the capturing of [PRISONER_nameDef]</li>
+    <li>image->[CAPTURER_nameFull] capturing [PRISONER_nameFull] [circumstance_group]</li>
+    <li>image->[CAPTURER_nameFull] tying [PRISONER_nameFull]'s hands [circumstance_group]</li>
+    <li>image->[CAPTURER_nameFull] smacking [PRISONER_nameFull] while capturing [PRISONER_objective] [circumstance_group]</li>
+    <li>circumstance_phrase->as [PRISONER_pronoun] writhes on the ground</li>
+    <li>circumstance_phrase->as [PRISONER_pronoun] twists in pain</li>
+    <li>circumstance_phrase->with professional efficiency</li>
+    <li>circumstance_phrase->roughly and amateurishly</li>
+    <li>circumstance_phrase->with obviously excessive force</li>
+    <li>circumstance_phrase->with obvious pleasure</li>
+    <li>circumstance_phrase->while smiling with dominance</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is looking into [PRISONER_nameDef]'s eyes with a sense of dominance.</li>
+    <li>desc_sentence->[PRISONER_nameDef] is injured and seems to be in pain.</li>
+    <li>desc_sentence->[PRISONER_nameDef] looks resigned to [PRISONER_possessive] fate.</li>
+    <li>desc_sentence->[PRISONER_nameDef] is snarling with the fury of defeat.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is slapping [PRISONER_nameDef] to subdue [PRISONER_objective].</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is twisting [PRISONER_nameDef]'s ear.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is holding [PRISONER_nameDef] in a joint lock.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is spitting into [PRISONER_nameDef]'s face.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is laughing as tears well up in [PRISONER_nameDef]'s eyes.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
+  -->
+  <Captured.rulePack.rulesStrings>
+    <li>tale_noun->[CAPTURER_nameDef]俘獲了[PRISONER_nameDef]</li>
+    <li>tale_noun->[PRISONER_nameDef]被[CAPTURER_nameDef]俘虜了</li>
+    <li>tale_noun->俘獲[PRISONER_nameDef]</li>
+    <li>image->[CAPTURER_nameFull][circumstance_group]俘獲了[PRISONER_nameFull] </li>
+    <li>image->[CAPTURER_nameFull][circumstance_group]捆綁住[PRISONER_nameFull]的雙手</li>
+    <li>image->[CAPTURER_nameFull][circumstance_group]俘虜並毆打[PRISONER_nameFull]</li>
+    <li>circumstance_phrase->趁[PRISONER_pronoun]摔倒在地時</li>
+    <li>circumstance_phrase->在[PRISONER_pronoun]痛苦得蜷曲身體時</li>
+    <li>circumstance_phrase->迅速專業的</li>
+    <li>circumstance_phrase->生澀的</li>
+    <li>circumstance_phrase->明顯過度用力的</li>
+    <li>circumstance_phrase->樂在其中的</li>
+    <li>circumstance_phrase->語帶嘲諷的</li>
+    <li>desc_sentence->[CAPTURER_nameDef]用支配者般的眼神直盯著[PRISONER_nameDef]。</li>
+    <li>desc_sentence->[PRISONER_nameDef]受傷了而且似乎很痛苦。</li>
+    <li>desc_sentence->[PRISONER_nameDef]失去了對自己命運的掌控權。</li>
+    <li>desc_sentence->[PRISONER_nameDef]為自己的失敗發出憤怒的咆嘯。</li>
+    <li>desc_sentence->[CAPTURER_nameDef]正在毆打[PRISONER_nameDef]以制服[PRISONER_objective]。</li>
+    <li>desc_sentence->[CAPTURER_nameDef]狠狠扭轉[PRISONER_nameDef]的耳朵。</li>
+    <li>desc_sentence->[CAPTURER_nameDef]用關節技制服[PRISONER_nameDef]。</li>
+    <li>desc_sentence->[CAPTURER_nameDef]啐了[PRISONER_nameDef]一臉口水。</li>
+    <li>desc_sentence->當[PRISONER_nameDef]的淚水奪眶而出，受到了[CAPTURER_nameDef]狠狠嘲笑。</li>
+    <li>desc_sentence->[CAPTURER_nameDef]就這麼毫無理由的朝[PRISONER_nameDef]拳打腳踢。</li>
+  </Captured.rulePack.rulesStrings>
+  
+  <!-- EN: defeated hostile leader -->
+  <DefeatedHostileFactionLeader.label>擊敗敵方首領</DefeatedHostileFactionLeader.label>
+  
+  <!-- EN: surgery performed -->
+  <DidSurgery.label>手術進行</DidSurgery.label>
+  <!-- EN:
+    <li>tale_noun->[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
+    <li>tale_noun->[SURGEON_nameDef] performing a medical operation on [PATIENT_nameDef]</li>
+    <li>tale_noun->[PATIENT_nameDef]'s medical operation</li>
+    <li>image->[SURGEON_nameFull] putting [PATIENT_nameFull] to sleep with anesthetic [circumstance_group]</li>
+    <li>image->[SURGEON_nameFull] elbow-deep in [PATIENT_nameFull] during surgery [circumstance_group]</li>
+    <li>image->[SURGEON_nameFull] slicing into [PATIENT_nameFull] during surgery [circumstance_group]</li>
+    <li>circumstance_phrase->as [PATIENT_pronoun] trembles with fear</li>
+    <li>circumstance_phrase->as blood pools at [SURGEON_nameDef]'s feet</li>
+    <li>circumstance_phrase->while surrounded by scary-looking surgical tools</li>
+    <li>circumstance_phrase->with improvised but effective tools</li>
+    <li>desc_sentence->[SURGEON_nameDef] is sweating profusely.</li>
+    <li>desc_sentence->[SURGEON_nameDef] looks incredibly focused on the task.</li>
+    <li>desc_sentence->[SURGEON_nameDef] has blood smeared on [SURGEON_possessive] face.</li>
+    <li>desc_sentence->[PATIENT_nameDef] is shaking and writhing.</li>
+  -->
+  <DidSurgery.rulePack.rulesStrings>
+    <li>tale_noun->[SURGEON_nameDef]為[PATIENT_nameDef]的手術執刀</li>
+    <li>tale_noun->[SURGEON_nameDef]將進行[PATIENT_nameDef]的手術</li>
+    <li>tale_noun->[PATIENT_nameDef]的手術</li>
+    <li>image->[SURGEON_nameFull]對[PATIENT_nameFull]進行麻醉，[circumstance_group]</li>
+    <li>image->[SURGEON_nameFull]在手術中深深鑽進[PATIENT_nameFull]的體內，[circumstance_group]</li>
+    <li>image->[SURGEON_nameFull]在手術中切開[PATIENT_nameFull]的身體，[circumstance_group]</li>
+    <li>circumstance_phrase->[PATIENT_pronoun]害怕得瑟瑟發抖</li>
+    <li>circumstance_phrase->[SURGEON_nameDef]的腳下踏著一灘血跡</li>
+    <li>circumstance_phrase->身旁環繞著嚇人的手術工具</li>
+    <li>circumstance_phrase->用的是湊合但有效的工具</li>
+    <li>desc_sentence->[SURGEON_nameDef]滿頭大汗。</li>
+    <li>desc_sentence->[SURGEON_nameDef]看起來非常專注於手術。</li>
+    <li>desc_sentence->[SURGEON_nameDef]的臉上沾著一抹血漬。</li>
+    <li>desc_sentence->[PATIENT_nameDef]正在顫抖和扭動。</li>
+  </DidSurgery.rulePack.rulesStrings>
+  
+  <!-- EN: prisoner executed -->
+  <ExecutedPrisoner.label>處決俘虜</ExecutedPrisoner.label>
+  <!-- EN:
+    <li>tale_noun->[executioner] executing [PRISONER_nameDef]</li>
+    <li>tale_noun->[PRISONER_nameDef] being executed by [EXECUTIONER_nameDef]</li>
+    <li>tale_noun->the execution of [PRISONER_nameDef]</li>
+    <li>image->[EXECUTIONER_nameFull] executing [PRISONER_nameFull] [circumstance_group]</li>
+    <li>image->[EXECUTIONER_nameFull] putting [PRISONER_nameFull] to death [circumstance_group]</li>
+    <li>image->[EXECUTIONER_nameFull] preparing to execute [PRISONER_nameFull] [circumstance_group]</li>
+    <li>image->[EXECUTIONER_nameFull] entering a prison cell, going to execute [PRISONER_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->as [PRISONER_pronoun] writhes on the ground</li>
+    <li>circumstance_phrase->as [PRISONER_pronoun] twists in pain</li>
+    <li>circumstance_phrase->as [PRISONER_pronoun] cries out in terror</li>
+    <li>circumstance_phrase->with professional efficiency</li>
+    <li>circumstance_phrase->roughly and amateurishly</li>
+    <li>circumstance_phrase->with obviously excessive force</li>
+    <li>circumstance_phrase->with obvious pleasure</li>
+    <li>circumstance_phrase->while smiling with dominance</li>
+    <li>circumstance_phrase->with tears in [EXECUTIONER_possessive] eyes</li>
+    <li>circumstance_phrase->with a look of utter indifference</li>
+    <li>circumstance_phrase->while inflicting unnecessary pain</li>
+    <li>circumstance_phrase->while thinking of something else</li>
+    <li>circumstance_phrase->for the greater good</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef] is sweating profusely.</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef] is drooling a little bit.</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef] has blood smeared on [EXECUTIONER_possessive] face.</li>
+    <li>desc_sentence->[PRISONER_nameDef] is shaking and writhing.</li>
+    <li>desc_sentence->[PRISONER_nameDef] seems to have given up entirely.</li>
+    <li>desc_sentence->[PRISONER_nameDef] has closed [PRISONER_possessive] eyes, seeming to pray to a higher power.</li>
+    <li>desc_sentence->[PRISONER_nameDef] looks defiant.</li>
+  -->
+  <ExecutedPrisoner.rulePack.rulesStrings>
+    <li>tale_noun->[executioner]正在處決[PRISONER_nameDef]</li>
+    <li>tale_noun->[PRISONER_nameDef]將被處決[EXECUTIONER_nameDef]</li>
+    <li>tale_noun->[PRISONER_nameDef]的處刑</li>
+    <li>image->[EXECUTIONER_nameFull][circumstance_group]處決了[PRISONER_nameFull]</li>
+    <li>image->[EXECUTIONER_nameFull][circumstance_group]了結了[PRISONER_nameFull]的性命</li>
+    <li>image->[EXECUTIONER_nameFull][circumstance_group]準備好對[PRISONER_nameFull]行刑</li>
+    <li>image->[EXECUTIONER_nameFull][circumstance_group]走進牢房，準備對[PRISONER_nameFull]行刑</li>
+    <li>circumstance_phrase->當[PRISONER_pronoun]在地上打滾時</li>
+    <li>circumstance_phrase->在[PRISONER_pronoun]痛苦得蜷曲身體時</li>
+    <li>circumstance_phrase->當[PRISONER_pronoun]聲嘶力竭的痛哭時</li>
+    <li>circumstance_phrase->迅速專業的</li>
+    <li>circumstance_phrase->生澀的</li>
+    <li>circumstance_phrase->明顯過度用力的</li>
+    <li>circumstance_phrase->樂在其中的</li>
+    <li>circumstance_phrase->語帶嘲諷的</li>
+    <li>circumstance_phrase->眼中含淚的</li>
+    <li>circumstance_phrase->表情冷漠的</li>
+    <li>circumstance_phrase->刻意造成不必要的疼痛</li>
+    <li>circumstance_phrase->心不在焉的</li>
+    <li>circumstance_phrase->為了彰顯正義</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef]滿頭大汗。</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef]流出了一點口水。</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef]的臉上沾著一抹血漬。</li>
+    <li>desc_sentence->[PRISONER_nameDef]正在顫抖和扭動。</li>
+    <li>desc_sentence->[PRISONER_nameDef]看起來完全釋懷了。</li>
+    <li>desc_sentence->[PRISONER_nameDef]闔上雙眼，似乎在向某種超越一切的力量乞求。</li>
+    <li>desc_sentence->[PRISONER_nameDef]擺出一副無所謂的態度。</li>
+  </ExecutedPrisoner.rulePack.rulesStrings>
+  
+  <!-- EN: animal hunted -->
+  <Hunted.label>狩獵</Hunted.label>
+  <!-- EN:
+    <li>tale_noun->[HUNTER_nameDef] hunting [PREY_nameDef]</li>
+    <li>tale_noun->[PREY_nameDef] being hunted by [HUNTER_nameDef]</li>
+    <li>tale_noun->[HUNTER_nameDef]'s successful hunt</li>
+    <li>image->[PREY_nameFull] being hunted by [HUNTER_nameFull] [circumstance_group]</li>
+    <li>image->[HUNTER_nameFull] stalking [PREY_nameFull] from afar [circumstance_group]</li>
+    <li>image->[HUNTER_nameFull] hunting [PREY_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->as [PREY_nameDef] relaxes</li>
+    <li>circumstance_phrase->as [PREY_nameDef] travels</li>
+    <li>circumstance_phrase->as [PREY_nameDef] eats</li>
+    <li>desc_sentence->[PREY_nameDef] seems totally oblivious.</li>
+    <li>desc_sentence->[HUNTER_nameDef] is gripping [HUNTER_possessive] weapon tightly.</li>
+    <li>desc_sentence->[PREY_nameDef] is looking around as though [PREY_pronoun] senses that something is wrong.</li>
+  -->
+  <Hunted.rulePack.rulesStrings>
+    <li>tale_noun->[HUNTER_nameDef]正在狩獵[PREY_nameDef]</li>
+    <li>tale_noun->[PREY_nameDef]正被狩獵[HUNTER_nameDef]</li>
+    <li>tale_noun->[HUNTER_nameDef]狩獵成功</li>
+    <li>image->[circumstance_group]被[HUNTER_nameFull]狩獵了</li>
+    <li>image->[HUNTER_nameFull]趁[circumstance_group]從遠處悄悄接近[PREY_nameFull]</li>
+    <li>image->[HUNTER_nameFull]趁[circumstance_group]狩獵了[PREY_nameFull] </li>
+    <li>circumstance_phrase->[PREY_nameDef]放鬆警惕時</li>
+    <li>circumstance_phrase->[PREY_nameDef]遷徙時</li>
+    <li>circumstance_phrase->[PREY_nameDef]覓食時</li>
+    <li>desc_sentence->[PREY_nameDef]似乎渾然不覺。</li>
+    <li>desc_sentence->[HUNTER_nameDef]緊緊抓著[HUNTER_possessive]武器。</li>
+    <li>desc_sentence->[PREY_nameDef]張望四周，似乎察覺到什麼不對勁。</li>
+  </Hunted.rulePack.rulesStrings>
+  
+  <!-- EN: colonist kidnapped -->
+  <KidnappedColonist.label>居民被綁架</KidnappedColonist.label>
+  <!-- EN:
+    <li>tale_noun->[KIDNAPPER_nameDef] kidnapping [VICTIM_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] being kidnapped by [KIDNAPPER_nameDef]</li>
+    <li>tale_noun->the kidnapping of [VICTIM_nameDef]</li>
+    <li>image->[KIDNAPPER_nameFull] carrying [VICTIM_nameFull] away to [KIDNAPPER_factionName] [circumstance_group]</li>
+    <li>image->[KIDNAPPER_nameFull] of [KIDNAPPER_factionName] kidnapping [VICTIM_nameFull] [circumstance_group]</li>
+    <li>image->[KIDNAPPER_nameFull] kidnapping [VICTIM_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->as [VICTIM_pronoun] twists in pain</li>
+    <li>circumstance_phrase->with professional efficiency</li>
+    <li>circumstance_phrase->roughly and amateurishly</li>
+    <li>circumstance_phrase->with obviously excessive force</li>
+    <li>circumstance_phrase->with obvious pleasure</li>
+    <li>circumstance_phrase->while smiling with dominance</li>
+    <li>circumstance_phrase->while covered in blood and filth</li>
+    <li>desc_sentence->[VICTIM_nameDef] seems to have given up entirely.</li>
+    <li>desc_sentence->[VICTIM_nameDef] has closed [VICTIM_possessive] eyes, seeming to pray to a higher power.</li>
+    <li>desc_sentence->[VICTIM_nameDef] looks defiant.</li>
+    <li>desc_sentence->[VICTIM_nameDef] is screaming with rage and terror.</li>
+    <li>desc_sentence->[VICTIM_nameDef] looks broken and exhausted.</li>
+    <li>desc_sentence->[VICTIM_nameDef] appears to be badly wounded.</li>
+  -->
+  <KidnappedColonist.rulePack.rulesStrings>
+    <li>tale_noun->[KIDNAPPER_nameDef]綁架了[VICTIM_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef]被[KIDNAPPER_nameDef]綁架了</li>
+    <li>tale_noun->[VICTIM_nameDef]被綁架</li>
+    <li>image->[KIDNAPPER_nameFull][circumstance_group]把[VICTIM_nameFull]綁到了[KIDNAPPER_factionName]</li>
+    <li>image->[KIDNAPPER_factionName]的[KIDNAPPER_nameFull][circumstance_group]綁架了[VICTIM_nameFull]</li>
+    <li>image->[KIDNAPPER_nameFull][circumstance_group]綁架了[VICTIM_nameFull]</li>
+    <li>circumstance_phrase->在[VICTIM_pronoun]痛苦得蜷曲身體時</li>
+    <li>circumstance_phrase->迅速專業的</li>
+    <li>circumstance_phrase->生澀的</li>
+    <li>circumstance_phrase->明顯過度用力的</li>
+    <li>circumstance_phrase->樂在其中的</li>
+    <li>circumstance_phrase->語帶嘲諷的</li>
+    <li>circumstance_phrase->渾身沾滿血跡和沙塵</li>
+    <li>desc_sentence->[VICTIM_nameDef]看起來完全釋懷了。</li>
+    <li>desc_sentence->[VICTIM_nameDef]闔上雙眼，似乎在向某種超越一切的力量乞求。</li>
+    <li>desc_sentence->[VICTIM_nameDef]擺出一副無所謂的態度。</li>
+    <li>desc_sentence->[VICTIM_nameDef]恐懼而且憤怒的嘶吼著。</li>
+    <li>desc_sentence->[VICTIM_nameDef]看上去疲憊不堪。</li>
+    <li>desc_sentence->[VICTIM_nameDef]渾身傷痕。</li>
+  </KidnappedColonist.rulePack.rulesStrings>
+  
+  <!-- EN: death -->
+  <KilledBy.label>死亡</KilledBy.label>
+  <!-- EN:
+    <li>tale_noun->[KILLER_nameDef] killing [VICTIM_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] being killed by [KILLER_nameDef]</li>
+    <li>tale_noun->the killing of [VICTIM_nameDef] by [KILLER_nameDef]</li>
+    <li>tale_noun->the killing of [VICTIM_nameDef]</li>
+    <li>image->[VICTIM_nameFull] being killed by [KILLER_nameFull] [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] killing [VICTIM_nameFull] [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] ending [VICTIM_nameFull]'s life [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] brutally murdering [VICTIM_nameFull] [circumstance_group]</li>
+    <li>image->[VICTIM_nameFull] being killed [circumstance_group]</li>
+    <li>circumstance_phrase->seemingly without remorse</li>
+    <li>circumstance_phrase->with cold efficiency</li>
+    <li>circumstance_phrase->with passionate rage</li>
+    <li>circumstance_phrase->with quick, efficient movements</li>
+    <li>circumstance_phrase->without emotion or expression</li>
+    <li>circumstance_phrase->out of bleak necessity</li>
+    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
+    <li>desc_sentence->The sun is setting behind them in a symbolic echo of the event.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s look on.</li>
+    <li>desc_sentence->A [PersonJob] watches silently [side_position].</li>
+    <li>desc_sentence->Blood is pooling around [VICTIM_nameDef]'s body.</li>
+    <li>desc_sentence->[VICTIM_nameDef]'s eyes are rendered in a realistically lifeless fashion.</li>
+    <li>desc_sentence->[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
+    <li>desc_sentence->[KILLER_nameDef] seems satisfied.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
+  -->
+  <KilledBy.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef]殺了[VICTIM_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef]殺了</li>
+    <li>tale_noun->[KILLER_nameDef]出手殺死[VICTIM_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef]之死</li>
+    <li>image->[VICTIM_nameFull] being killed by [KILLER_nameFull] [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] killing [VICTIM_nameFull] [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] ending [VICTIM_nameFull]'s life [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] brutally murdering [VICTIM_nameFull] [circumstance_group]</li>
+    <li>image->[VICTIM_nameFull] being killed [circumstance_group]</li>
+    <li>circumstance_phrase->毫無悲憫的</li>
+    <li>circumstance_phrase->冷酷的</li>
+    <li>circumstance_phrase->憤怒而激動的</li>
+    <li>circumstance_phrase->神速而精確的</li>
+    <li>circumstance_phrase->毫無感情的</li>
+    <li>circumstance_phrase->基於必要之惡的</li>
+    <li>circumstance_phrase->畏畏縮縮的</li>
+    <li>desc_sentence->太陽落在他們身後，象徵著事件的迴聲。</li>
+    <li>desc_sentence->[Quantity_adjphrase]頭[Animal]目睹了這一幕。</li>
+    <li>desc_sentence->一名[PersonJob]在[side_position]沉默的見證了這一幕。</li>
+    <li>desc_sentence->鮮血在[VICTIM_nameDef]的身邊聚集成一灘血池。</li>
+    <li>desc_sentence->生氣從[VICTIM_nameDef]的眼神中逐漸流逝殆盡。</li>
+    <li>desc_sentence->[KILLER_nameDef]咧嘴微笑。</li>
+    <li>desc_sentence->滿足的神情浮現在[KILLER_nameDef]的臉上</li>
+    <li>desc_sentence->[KILLER_nameDef]看上去對自己的行為充滿徬徨。</li>
+    <li>desc_sentence->[KILLER_nameDef]看起來很滿意這種情況。</li>
+    <li>desc_sentence->[KILLER_nameDef]看起來很享受這場勝利。</li>
+  </KilledBy.rulePack.rulesStrings>
+  
+  <!-- EN: colonist killed -->
+  <KilledColonist.label>居民被殺</KilledColonist.label>
+  
+  <!-- EN: colony animal killed -->
+  <KilledColonyAnimal.label>動物被殺</KilledColonyAnimal.label>
+  
+  <!-- EN: person recruited -->
+  <Recruited.label>招降成功</Recruited.label>
+  <!-- EN:
+    <li>tale_noun->[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
+    <li>tale_noun->[JOINER_nameDef] being recruited by [RECRUITER_nameDef]</li>
+    <li>tale_noun->the recruitment of [JOINER_nameDef]</li>
+    <li>image->[RECRUITER_nameFull] recruiting [JOINER_nameFull] [circumstance_group]</li>
+    <li>image->[RECRUITER_nameFull] welcoming [JOINER_nameFull] as [JOINER_pronoun] becomes a colonist [circumstance_group]</li>
+    <li>image->[RECRUITER_nameFull] speaking convincingly to [JOINER_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->with obvious goodwill</li>
+    <li>circumstance_phrase->with a hearty handshake</li>
+    <li>circumstance_phrase->with smiles all around</li>
+    <li>circumstance_phrase->in front of the whole colony</li>
+    <li>circumstance_phrase->in a prison cell</li>
+    <li>desc_sentence->[JOINER_nameDef] is nodding in understanding.</li>
+    <li>desc_sentence->[JOINER_nameDef] is smiling and making eye contact.</li>
+    <li>desc_sentence->[JOINER_nameDef] looks relieved.</li>
+    <li>desc_sentence->[JOINER_nameDef] looks hopeful.</li>
+  -->
+  <Recruited.rulePack.rulesStrings>
+    <li>tale_noun->[RECRUITER_nameDef]成功招募了[JOINER_nameDef]</li>
+    <li>tale_noun->[JOINER_nameDef]被[RECRUITER_nameDef]招募了</li>
+    <li>tale_noun->[JOINER_nameDef]投誠</li>
+    <li>image->[RECRUITER_nameFull][circumstance_group]招募了[JOINER_nameFull]</li>
+    <li>image->[RECRUITER_nameFull][circumstance_group]歡迎[JOINER_nameFull]成為居民</li>
+    <li>image->[RECRUITER_nameFull][circumstance_group]說服了[JOINER_nameFull]</li>
+    <li>circumstance_phrase->表現得充滿善意</li>
+    <li>circumstance_phrase->做出一道爽朗的握手</li>
+    <li>circumstance_phrase->臉上掛著燦爛的笑容</li>
+    <li>circumstance_phrase->在整個據點之前</li>
+    <li>circumstance_phrase->在牢房中</li>
+    <li>desc_sentence->[JOINER_nameDef]正在點頭附和。</li>
+    <li>desc_sentence->[JOINER_nameDef]微笑著與眼神交會。</li>
+    <li>desc_sentence->[JOINER_nameDef]看起來鬆了一口氣。</li>
+    <li>desc_sentence->[JOINER_nameDef]看起來充滿希望。</li>
+  </Recruited.rulePack.rulesStrings>
+  
+  <!-- EN: prisoner sold -->
+  <SoldPrisoner.label>販賣俘虜</SoldPrisoner.label>
+  <!-- EN:
+    <li>tale_noun->the selling of [PRISONER_nameDef] to a trader</li>
+    <li>tale_noun->[SELLER_nameDef] selling [PRISONER_nameDef] as a slave</li>
+    <li>tale_noun->[PRISONER_nameDef] being sold as a slave by [SELLER_nameDef]</li>
+    <li>image->[TRADER_nameFull] buying [PRISONER_nameFull] from [SELLER_nameFull] [circumstance_group]</li>
+    <li>image->[SELLER_nameFull] selling [PRISONER_nameFull] to [TRADER_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->as the other colonists look on in disapproval</li>
+    <li>circumstance_phrase->while [SELLER_nameDef] counts [TRADER_possessive] money</li>
+    <li>circumstance_phrase->while [PRISONER_nameDef] moans plaintively</li>
+    <li>circumstance_phrase->to [PRISONER_nameDef]'s chagrin</li>
+    <li>desc_sentence->[TRADER_nameDef] is smiling devilishly.</li>
+    <li>desc_sentence->[SELLER_nameDef] is laughing maniacally.</li>
+    <li>desc_sentence->[SELLER_nameDef] reluctantly hands [PRISONER_nameDef] over to the trader.</li>
+    <li>desc_sentence->[PRISONER_nameDef] stares defiantly at [PRISONER_possessive] new master.</li>
+    <li>desc_sentence->[TRADER_nameDef] drags [PRISONER_nameDef] away by [PRISONER_possessive] chains.</li>
+    <li>desc_sentence->[PRISONER_nameDef] stares at [SELLER_nameDef], plotting [PRISONER_possessive] revenge.</li>
+    <li>desc_sentence->[PRISONER_nameDef] is crying.</li>
+    <li>desc_sentence->[PRISONER_nameDef] is spitting in [SELLER_nameDef]'s face.</li>
+    <li>desc_sentence->[PRISONER_nameDef] is melting into the ground.</li>
+    <li>desc_sentence->[SELLER_nameDef] is thrusting the chains of [PRISONER_nameDef] into [TRADER_nameDef]'s hands.</li>
+    <li>desc_sentence->An air of hopelessness pervades the situation.</li>
+  -->
+  <SoldPrisoner.rulePack.rulesStrings>
+    <li>tale_noun->[PRISONER_nameDef]交易</li>
+    <li>tale_noun->[SELLER_nameDef]將[PRISONER_nameDef]賣為奴隸</li>
+    <li>tale_noun->[PRISONER_nameDef]被[SELLER_nameDef]賣為奴隸</li>
+    <li>image->[TRADER_nameFull][circumstance_group]從[SELLER_nameFull]手上買下了[PRISONER_nameFull]</li>
+    <li>image->[SELLER_nameFull] selling [PRISONER_nameFull] to [TRADER_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->在眾居民的反對之下</li>
+    <li>circumstance_phrase->在[SELLER_nameDef]點著[TRADER_possessive]錢的同時</li>
+    <li>circumstance_phrase->在[PRISONER_nameDef]悲傷的嗚咽聲中</li>
+    <li>circumstance_phrase->在[PRISONER_nameDef]的悔恨中</li>
+    <li>desc_sentence->[TRADER_nameDef]露出邪惡的微笑。</li>
+    <li>desc_sentence->[SELLER_nameDef]發出發狂般的笑聲。</li>
+    <li>desc_sentence->[SELLER_nameDef]不情願的將[PRISONER_nameDef]交給商人。</li>
+    <li>desc_sentence->[PRISONER_nameDef]挑釁的盯著[PRISONER_possessive]新主人。</li>
+    <li>desc_sentence->[TRADER_nameDef]用鐵鍊將[PRISONER_nameDef]給拖走。</li>
+    <li>desc_sentence->[PRISONER_nameDef]盯著[SELLER_nameDef]，心中謀畫著一場復仇。</li>
+    <li>desc_sentence->[PRISONER_nameDef]不禁痛哭。</li>
+    <li>desc_sentence->[PRISONER_nameDef]啐了[SELLER_nameDef]一臉口水。</li>
+    <li>desc_sentence->[PRISONER_nameDef]躺在地上耍賴。</li>
+    <li>desc_sentence->[SELLER_nameDef]將連接[PRISONER_nameDef]的鐵鍊渡到[TRADER_nameDef]的手中。</li>
+    <li>desc_sentence->絕望的氣氛瀰漫在空氣當中。</li>
+  </SoldPrisoner.rulePack.rulesStrings>
+  
+  <!-- EN: animal tamed -->
+  <TamedAnimal.label>動物馴養</TamedAnimal.label>
+  <!-- EN:
+    <li>tale_noun->the taming of [ANIMAL_nameDef] by [TAMER_nameDef]</li>
+    <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
+    <li>image->[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->with great care and caution</li>
+    <li>circumstance_phrase->with a smile</li>
+    <li>circumstance_phrase->while exhausted but happy</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is snarling aggressively.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] looks sleepy and drunk with love.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] appears to be in some sort of hypnotic state.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] looks scared but interested.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] appears fascinated.</li>
+    <li>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
+  -->
+  <TamedAnimal.rulePack.rulesStrings>
+    <li>tale_noun->[ANIMAL_nameDef]被[TAMER_nameDef]馴養</li>
+    <li>tale_noun->[TAMER_nameDef]馴養了[ANIMAL_nameDef]</li>
+    <li>image->[TAMER_nameFull][circumstance_group]馴養了[ANIMAL_nameFull]</li>
+    <li>image->[TAMER_nameFull][circumstance_group]提供了[一些食物給[ANIMAL_nameFull] </li>
+    <li>image->[TAMER_nameFull][circumstance_group]對[ANIMAL_nameFull]低語呢喃</li>
+    <li>image->[TAMER_nameFull][circumstance_group]安撫了[ANIMAL_nameFull]</li>
+    <li>circumstance_phrase->細心謹慎的</li>
+    <li>circumstance_phrase->微笑著</li>
+    <li>circumstance_phrase->樂此不疲的</li>
+    <li>desc_sentence->[ANIMAL_nameDef]蠻橫的咆嘯著。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]看起來沉浸在愛裡昏昏欲睡。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]似乎處在某種催眠狀態中。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]看起來害怕但好奇。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]著迷了。</li>
+    <li>desc_sentence->[TAMER_nameDef]正向[ANIMAL_nameDef]展現強烈的關愛之情。</li>
+  </TamedAnimal.rulePack.rulesStrings>
+  
+  <!-- EN: traded with someone -->
+  <TradedWith.label>達成交易</TradedWith.label>
+  <!-- EN:
+    <li>tale_noun->a trade between [SELLER_nameFull] and [BUYER_nameFull]</li>
+    <li>image->[BUYER_nameFull] buying goods from [SELLER_nameFull] [circumstance_group]</li>
+    <li>image->[SELLER_nameFull] selling goods to [BUYER_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->with greedy intent</li>
+    <li>circumstance_phrase->while [SELLER_nameDef] smirks at [BUYER_shortNameDef]</li>
+    <li>desc_sentence->[BUYER_nameDef] is examining [SELLER_nameDef]'s wares.</li>
+    <li>desc_sentence->[SELLER_nameDef] considers an item.</li>
+    <li>desc_sentence->[SELLER_nameDef] starts haggling.</li>
+    <li>desc_sentence->[BUYER_nameDef] argues with [SELLER_nameDef].</li>
+    <li>desc_sentence->[SELLER_nameDef] and [BUYER_nameDef] agree on a price.</li>
+    <li>desc_sentence->[BUYER_nameDef] pays for the item.</li>
+    <li>desc_sentence->[SELLER_nameDef] is counting [SELLER_possessive] money.</li>
+    <li>desc_sentence->[BUYER_nameDef] is taking [BUYER_possessive] goods.</li>
+  -->
+  <TradedWith.rulePack.rulesStrings>
+    <li>tale_noun->[SELLER_nameFull]與[BUYER_nameFull]達成的交易</li>
+    <li>image->[BUYER_nameFull][circumstance_group]從[SELLER_nameFull]手中買下貨物</li>
+    <li>image->[SELLER_nameFull][circumstance_group]賣出貨物給[BUYER_nameFull]</li>
+    <li>circumstance_phrase->挾著貪婪的意圖</li>
+    <li>circumstance_phrase->在[SELLER_nameDef]對著[BUYER_shortNameDef]傻笑的時候</li>
+    <li>desc_sentence->[BUYER_nameDef]正在盤點[SELLER_nameDef]的貨物。</li>
+    <li>desc_sentence->[SELLER_nameDef]正在考慮一項商品。</li>
+    <li>desc_sentence->[SELLER_nameDef]開始討價還價。</li>
+    <li>desc_sentence->[BUYER_nameDef]與[SELLER_nameDef]發生了爭辯。</li>
+    <li>desc_sentence->[SELLER_nameDef]與[BUYER_nameDef]同意了一筆價格。</li>
+    <li>desc_sentence->[BUYER_nameDef]為商品買單。</li>
+    <li>desc_sentence->[SELLER_nameDef]正在清算[SELLER_possessive]的帳款。</li>
+    <li>desc_sentence->[BUYER_nameDef]正在收取[BUYER_possessive]貨物。</li>
+  </TradedWith.rulePack.rulesStrings>
+  
+  <!-- EN: animal trained -->
+  <TrainedAnimal.label>動物訓練</TrainedAnimal.label>
+  <!-- EN:
+    <li>tale_noun->[TRAINER_nameDef] training [ANIMAL_nameDef]</li>
+    <li>tale_noun->the training of [ANIMAL_nameDef]</li>
+    <li>tale_noun->the training of [ANIMAL_nameDef] by [TRAINER_nameDef]</li>
+    <li>image->[TRAINER_nameFull] [train_syn] [ANIMAL_nameFull] in [TRAINABLE_label] [circumstance_group]</li>
+    <li>image->[TRAINER_nameFull] teaching [TRAINABLE_label] to [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TRAINER_nameFull] practicing [TRAINABLE_label] with [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>train_syn->training</li>
+    <li>train_syn->drilling</li>
+    <li>train_syn->coaching</li>
+    <li>train_syn->indoctrinating</li>
+    <li>train_syn->educating</li>
+    <li>circumstance_phrase->as others look on</li>
+    <li>circumstance_phrase->as wild [Animal]s look on in disgust</li>
+    <li>circumstance_phrase->as [ANIMAL_nameDef] thinks of the simpler days when [ANIMAL_pronoun] was a feral beast</li>
+    <li>circumstance_phrase->as [TRAINER_nameDef] thinks of what's for lunch</li>
+    <li>circumstance_phrase->as the other colonists do actual work</li>
+    <li>desc_sentence->[TRAINER_nameDef] is showing pleasure.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is smiling.</li>
+    <li>desc_sentence->[TRAINER_nameDef] looks bored.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is threateningly brandishing [TRAINER_possessive] fist.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is wrinkling [TRAINER_possessive] brow in concentration.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] looks puzzled.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] has a weapon in [ANIMAL_possessive] mouth.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is emitting effortful grunts.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is shaking [TRAINER_possessive] head is frustration.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is trembling in fear.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] appears to be morphing into a [Vegetable].</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is represented as a pile of power tools.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is half [Color] and half [Color].</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is covered in scales.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is depicted with [quantity] arms.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
+  -->
+  <TrainedAnimal.rulePack.rulesStrings>
+    <li>tale_noun->[TRAINER_nameDef]正在訓練[ANIMAL_nameDef]</li>
+    <li>tale_noun->[ANIMAL_nameDef]的訓練</li>
+    <li>tale_noun->[TRAINER_nameDef]對[ANIMAL_nameDef]的訓練</li>
+    <li>image->[TRAINER_nameFull][circumstance_group][train_syn][ANIMAL_nameFull][TRAINABLE_label]</li>
+    <li>image->[TRAINER_nameFull] teaching [TRAINABLE_label] to [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TRAINER_nameFull] practicing [TRAINABLE_label] with [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>train_syn->訓練</li>
+    <li>train_syn->訓練</li>
+    <li>train_syn->訓練</li>
+    <li>train_syn->教</li>
+    <li>train_syn->教</li>
+    <li>circumstance_phrase->在旁人的注目之下</li>
+    <li>circumstance_phrase->在野生[Animal]不耐煩時</li>
+    <li>circumstance_phrase->在[ANIMAL_nameDef]覺得當一頭純粹的野獸還比較容易時</li>
+    <li>circumstance_phrase->在腦袋考慮著午餐的事時</li>
+    <li>circumstance_phrase->在其他居民都做正事時</li>
+    <li>desc_sentence->[TRAINER_nameDef]展現出誠意。</li>
+    <li>desc_sentence->[TRAINER_nameDef]微笑著。</li>
+    <li>desc_sentence->[TRAINER_nameDef]看起來很無聊。</li>
+    <li>desc_sentence->[TRAINER_nameDef]正作勢揮舞著拳頭。</li>
+    <li>desc_sentence->[TRAINER_nameDef]皺起[TRAINER_possessive]眉頭。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]看起來充滿困惑。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]有一把在[ANIMAL_possessive]口中。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]正在努力的發出咕嚕聲。</li>
+    <li>desc_sentence->[TRAINER_nameDef]正挫折的搖頭。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]害怕得瑟瑟發抖。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]似乎成了一個[Vegetable]。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]被當成一堆電動工具。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]有一半[Color]色和一半[Color]色。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]身上覆滿鱗片。</li>
+    <li>desc_sentence->[TRAINER_nameDef]正在比手畫腳。</li>
+    <li>desc_sentence->[TRAINER_nameDef]正試圖拉近與[ANIMAL_ShortDefinite]的距離。</li>
+  </TrainedAnimal.rulePack.rulesStrings>
+  
+</LanguageData>
