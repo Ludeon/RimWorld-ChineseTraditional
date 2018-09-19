@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
+    <li>r_logentry->[SUBJECT_definite] was [stunned] by [INITIATOR_definite]'s attack.</li>
+    <li>stunned(p=3)->stunned</li>
+    <li>stunned->staggered</li>
+    <li>stunned->dazed</li>
+    <li>stunned->disoriented</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered].</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] from the attack.</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] from [INITIATOR_definite]'s attack.</li>
+    <li>staggered(p=3)->staggered</li>
+    <li>staggered->faltered</li>
+    <li>staggered->wobbled</li>
+    <li>staggered->wavered</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled] around blearily.</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled] around in confusion.</li>
+    <li>stumbled(p=3)->stumbled</li>
+    <li>stumbled->wavered</li>
+    <li>stumbled->wobbled</li>
+    <li>stumbled->staggered</li>
+  -->
+  <Event_Stun.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite]在戰鬥中被[stunned]了。</li>
+    <li>r_logentry->[SUBJECT_definite]被[INITIATOR_definite]的攻擊[stunned]了。</li>
+    <li>stunned->擊暈</li>
+    <li>stunned->擊暈</li>
+    <li>stunned->擊暈</li>
+    <li>stunned->擊暈</li>
+    <li>r_logentry->[SUBJECT_definite][staggered]了。</li>
+    <li>r_logentry->[SUBJECT_definite]被攻擊而[staggered]了。</li>
+    <li>r_logentry->[SUBJECT_definite]被[INITIATOR_definite]攻擊而[staggered]了。</li>
+    <li>staggered(p=3)->失衡</li>
+    <li>staggered->失衡</li>
+    <li>staggered->失衡</li>
+    <li>staggered->失衡</li>
+    <li>r_logentry->[SUBJECT_definite][stumbled]而混亂了。</li>
+    <li>r_logentry->[SUBJECT_definite][stumbled]而混亂了。</li>
+    <li>stumbled(p=3)->失衡</li>
+    <li>stumbled->失衡</li>
+    <li>stumbled->失衡</li>
+    <li>stumbled->失衡</li>
+  </Event_Stun.rulePack.rulesStrings>
+  
+</LanguageData>

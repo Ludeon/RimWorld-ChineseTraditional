@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>image->a solitary [Character] [desc_pawn]</li>
+    <li>image->a solitary [Character] [desc_pawn] near a [TerrainFeature]</li>
+    <li>image->a solitary [Character] [desc_pawn] near a [Community]</li>
+    <li>image->a [Character] [desc_pawn] surrounded by [Character]s</li>
+    <li>image->[Character]s playing [Game]</li>
+    <li>image->a [Character] [desc_pawn] playing [Game] with [Quantity_adjphrase] [Character]s</li>
+    <li>image->a [Character] [desc_pawn] holding a [Weapon]</li>
+    <li>image->a [Character] [desc_pawn] eating a [Vegetable]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob]s and [PersonJob]s eating [Vegetable]s together</li>
+    <li>image->the minor celebrity [NamePerson] [desc_pawn]</li>
+    <li>image->a [Character] wearing a [Apparel] [desc_pawn]</li>
+    <li>image->a [Community]</li>
+    <li>image->a [TerrainFeature]</li>
+    <li>image->a [Weapon]</li>
+    <li>image->a [TreeType] tree</li>
+    <li>image->a [NaturalObject]</li>
+    <li>image->[Quantity_adjphrase] [Weapon]s</li>
+    <li>image->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>image->an empty [Apparel]</li>
+    <li>image->a [Shape]</li>
+    <li>image->a [Shape] surrounded by [Shape]s</li>
+    <li>image->an abstracted rendering of [ConceptAny]</li>
+    <li>image->a [AdjectiveAny] abstract shape</li>
+    <li>desc_pawn(p=12)-></li>
+    <li>desc_pawn->flying through the air</li>
+    <li>desc_pawn->suspended in the air</li>
+    <li>desc_pawn->moving to the left</li>
+    <li>desc_pawn->moving to the right</li>
+    <li>desc_pawn->sitting on a table</li>
+    <li>desc_pawn->seen through a looking glass</li>
+    <li>desc_pawn->rendered in silhouette</li>
+    <li>desc_pawn->riding on a [Animal] wearing a [Apparel]</li>
+    <li>desc_pawn->looking [AdjectiveAny]</li>
+    <li>desc_pawn->covered in [Gore]</li>
+  -->
+  <TalelessImages.rulePack.rulesStrings>
+    <!-- pawns -->
+    <li>image->一個[Character]單獨[desc_pawn]</li>
+    <li>image->在原野上，一個[Character]單獨[desc_pawn]</li>
+    <li>image->在一座[Community]附近，一個[Character]單獨[desc_pawn]</li>
+    <li>image->一名[Character][desc_pawn]被一群[Character]所包圍</li>
+    <li>image->一群[Character]正在玩[Game]</li>
+    <li>image->一名[Character][desc_pawn]和[Quantity_adjphrase]名[Character]玩著[Game]</li>
+    <li>image->一名[Character][desc_pawn]拿著一把[Weapon]</li>
+    <li>image->一名[Character][desc_pawn]正吃著一顆[Vegetable]</li>
+    <li>image->[Quantity_adjphrase]名[PersonJob]和[PersonJob]正一起吃著[Vegetable]</li>
+    <li>image->小有名氣的[NamePerson][desc_pawn]</li>
+    <li>image->一名[Character]穿著大衣，[desc_pawn]</li>
+    <li>image->一座[Community]</li>
+    <li>image->一座山丘</li>
+    <li>image->一座[Weapon]</li>
+    <li>image->一顆[TreeType]樹</li>
+    <li>image->一顆石頭</li>
+    <li>image->[Quantity_adjphrase]把[Weapon]</li>
+    <li>image->[Quantity_adjphrase]顆[Vegetable]</li>
+    <li>image->一件衣服</li>
+    <li>image->一個[Shape]</li>
+    <li>image->一個[Shape]被多個[Shape]所圍繞</li>
+    <li>image->一個抽象的描繪手法</li>
+    <li>image->一個抽象的造型</li>
+    <li>desc_pawn(p=12)-></li>
+    <li>desc_pawn->飛過半空中</li>
+    <li>desc_pawn->停滯在空中</li>
+    <li>desc_pawn->向左移動</li>
+    <li>desc_pawn->向右移動</li>
+    <li>desc_pawn->坐在桌上</li>
+    <li>desc_pawn->站在遠處</li>
+    <li>desc_pawn->在狂奔</li>
+    <li>desc_pawn->騎在一頭[animal]上</li>
+    <li>desc_pawn->站在地面上</li>
+    <li>desc_pawn->全身覆蓋著[Gore]</li>
+  </TalelessImages.rulePack.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>Trans->of</li>
+    <li>Trans->for</li>
+    <li>Trans->by</li>
+    <li>Trans->with</li>
+    <li>Character(p=6)->[PersonJob]</li>
+    <li>Character(p=4)->[Animal]</li>
+    <li>Character(p=3)->[Enemy]</li>
+    <li>Character->[Mechanoid]</li>
+    <li>Quantity_adjphrase->two</li>
+    <li>Quantity_adjphrase->three</li>
+    <li>Quantity_adjphrase->four</li>
+    <li>Quantity_adjphrase->five</li>
+    <li>Quantity_adjphrase->six</li>
+    <li>Quantity_adjphrase->seven</li>
+    <li>Quantity_adjphrase->eight</li>
+    <li>Quantity_adjphrase->nine</li>
+    <li>Quantity_adjphrase->ten</li>
+    <li>Quantity_adjphrase->several</li>
+    <li>Quantity_adjphrase->a group of</li>
+    <li>Quantity_adjphrase->a large group of</li>
+    <li>Quantity_adjphrase->dozens of</li>
+    <li>Quantity_adjphrase->hundreds of</li>
+    <li>Quantity_adjphrase->a thousand</li>
+    <li>Quantity_adjphrase->thousands of</li>
+    <li>Shape->triangle</li>
+    <li>Shape->square</li>
+    <li>Shape->rectangle</li>
+    <li>Shape->cone</li>
+    <li>Shape->line</li>
+    <li>Shape->heart</li>
+    <li>Shape->star</li>
+    <li>Shape->circle</li>
+    <li>Shape->ellipse</li>
+    <li>AdjectiveAny->[AdjectiveBadass]</li>
+    <li>AdjectiveAny->[AdjectiveAngsty]</li>
+    <li>AdjectiveAny->[AdjectiveFriendly]</li>
+    <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>ConceptAny->[ConceptPositive]</li>
+    <li>ConceptAny->[ConceptBadass]</li>
+    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>PersonalCharacteristic(p=0.15)->genitals</li>
+    <li>PersonalCharacteristic(p=0.15)->pubic hair</li>
+    <li>PersonalCharacteristic(p=0.15)->body hair</li>
+    <li>PersonalCharacteristic(p=0.15)->toilet habits</li>
+    <li>PersonalCharacteristic(p=0.15)->sexual prowess</li>
+    <li>PersonalCharacteristic(p=0.15)->sexual preferences</li>
+    <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
+  -->
+  <GlobalUtility.rulePack.rulesStrings>
+    <li>Trans->的</li>
+    <li>Trans->的</li>
+    <li>Trans->之</li>
+    <li>Trans->之</li>
+    <li>Character(p=6)->[PersonJob]</li>
+    <li>Character(p=4)->[Animal]</li>
+    <li>Character(p=3)->[Enemy]</li>
+    <li>Character->[Mechanoid]</li>
+    <li>Quantity_adjphrase->兩</li>
+    <li>Quantity_adjphrase->三</li>
+    <li>Quantity_adjphrase->四</li>
+    <li>Quantity_adjphrase->五</li>
+    <li>Quantity_adjphrase->六</li>
+    <li>Quantity_adjphrase->七</li>
+    <li>Quantity_adjphrase->八</li>
+    <li>Quantity_adjphrase->九</li>
+    <li>Quantity_adjphrase->十</li>
+    <li>Quantity_adjphrase->幾</li>
+    <li>Quantity_adjphrase->十幾</li>
+    <li>Quantity_adjphrase->近百</li>
+    <li>Quantity_adjphrase->幾十</li>
+    <li>Quantity_adjphrase->幾百</li>
+    <li>Quantity_adjphrase->一千</li>
+    <li>Quantity_adjphrase->幾千</li>
+    <li>Shape->三角形</li>
+    <li>Shape->方形</li>
+    <li>Shape->長方形</li>
+    <li>Shape->錐形</li>
+    <li>Shape->線形</li>
+    <li>Shape->心型</li>
+    <li>Shape->圓形</li>
+    <li>Shape->星形</li>
+    <li>Shape->半圓形</li>
+    <li>AdjectiveAny->[AdjectiveBadass]</li>
+    <li>AdjectiveAny->[AdjectiveAngsty]</li>
+    <li>AdjectiveAny->[AdjectiveFriendly]</li>
+    <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>ConceptAny->[ConceptPositive]</li>
+    <li>ConceptAny->[ConceptBadass]</li>
+    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>PersonalCharacteristic(p=0.15)->生殖器</li>
+    <li>PersonalCharacteristic(p=0.15)->陰毛</li>
+    <li>PersonalCharacteristic(p=0.15)->體毛</li>
+    <li>PersonalCharacteristic(p=0.15)->如廁習慣</li>
+    <li>PersonalCharacteristic(p=0.15)->性能力</li>
+    <li>PersonalCharacteristic(p=0.15)->性經驗</li>
+    <li>PersonalCharacteristic(p=0.15)->性癖</li>
+  </GlobalUtility.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>TalkTopicAny->[TalkTopicLight]</li>
+    <li>TalkTopicAny->[TalkTopicHeavy]</li>
+    <li>TalkTopicHeavy->[talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->the link between [talktopicheavyfile] and [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->the connection between [talktopicheavyfile] and [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->the relationship between [talktopicheavyfile] and [talktopicheavyfile]</li>
+    <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
+    <li>TalkTopicLight->[Vegetable]s</li>
+    <li>TalkTopicLight->eating [Vegetable]s</li>
+    <li>TalkTopicLight->cooking with [Vegetable]s</li>
+    <li>TalkTopicLight->[Game]</li>
+    <li>TalkTopicLight->playing [Game]</li>
+    <li>TalkTopicLight->practicing [Game]</li>
+    <li>TalkTopicLight->learning [Game]</li>
+    <li>TalkTopicLight->[Animal]s</li>
+    <li>TalkTopicLight->training [Animal]s</li>
+    <li>TalkTopicLight->taming [Animal]s</li>
+    <li>TalkTopicLight->fighting [Animal]s</li>
+    <li>TalkTopicLight->crazy [Animal]s</li>
+    <li>TalkTopicLight->[Weapon]s</li>
+    <li>TalkTopicLight->using [Weapon]s</li>
+    <li>TalkTopicLight->practicing with [Weapon]s</li>
+    <li>TalkTopicLight->[TerrainFeature]s</li>
+    <li>TalkTopicLight->[NaturalObject]s</li>
+    <li>TalkTopicLight->[TreeType] trees</li>
+    <li>TalkTopicLight->[PersonJob]s</li>
+    <li>TalkTopicLight->friendly [PersonJob]s</li>
+    <li>TalkTopicLight->hostile [PersonJob]s</li>
+    <li>TalkTopicLight->[Enemy]s</li>
+    <li>TalkTopicLight->fighting [Enemy]s</li>
+    <li>TalkTopicLight->[Apparel]s</li>
+    <li>TalkTopicLight->wearing [Apparel]s</li>
+    <li>TalkTopicLight->making [Apparel]s</li>
+    <li>talktopicheavyfile(p=0.15)->sex</li>
+    <li>talktopicheavyfile(p=0.15)->seduction</li>
+    <li>talktopicheavyfile(p=0.15)->animal sexuality</li>
+    <li>talktopicheavyfile(p=0.15)->sexual fetishes</li>
+  -->
+  <TalkTopicsUtility.rulePack.rulesStrings>
+    <li>TalkTopicAny->[TalkTopicLight]</li>
+    <li>TalkTopicAny->[TalkTopicHeavy]</li>
+    <li>TalkTopicHeavy->[talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile]和[talktopicheavyfile]之間的共通點</li>
+    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile]和[talktopicheavyfile]之間的關係</li>
+    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile]和[talktopicheavyfile]之間的關聯</li>
+    <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
+    <li>TalkTopicLight->[Vegetable]</li>
+    <li>TalkTopicLight->吃[Vegetable]</li>
+    <li>TalkTopicLight->烹飪[Vegetable]</li>
+    <li>TalkTopicLight->[Game]</li>
+    <li>TalkTopicLight->玩[Game]</li>
+    <li>TalkTopicLight->練習[Game]</li>
+    <li>TalkTopicLight->學玩[Game]</li>
+    <li>TalkTopicLight->[Animal]</li>
+    <li>TalkTopicLight->訓練[Animal]</li>
+    <li>TalkTopicLight->馴服[Animal]</li>
+    <li>TalkTopicLight->和[Animal]戰鬥</li>
+    <li>TalkTopicLight->瘋狂的[Animal]</li>
+    <li>TalkTopicLight->[Weapon]</li>
+    <li>TalkTopicLight->操作[Weapon]</li>
+    <li>TalkTopicLight->練習[Weapon]</li>
+    <li>TalkTopicLight->保養[Weapon]</li>
+    <li>TalkTopicLight->[NaturalObject]</li>
+    <li>TalkTopicLight->[TreeType]</li>
+    <li>TalkTopicLight->[PersonJob]</li>
+    <li>TalkTopicLight->友好的[PersonJob]</li>
+    <li>TalkTopicLight->敵對的[PersonJob]</li>
+    <li>TalkTopicLight->[Enemy]</li>
+    <li>TalkTopicLight->與[Enemy]作戰</li>
+    <li>TalkTopicLight->服裝</li>
+    <li>TalkTopicLight->服裝穿著</li>
+    <li>TalkTopicLight->服裝製作</li>
+    <li>talktopicheavyfile(p=0.15)->性欲</li>
+    <li>talktopicheavyfile(p=0.15)->誘惑</li>
+    <li>talktopicheavyfile(p=0.15)->動物的性慾</li>
+    <li>talktopicheavyfile(p=0.15)->戀物癖</li>
+  </TalkTopicsUtility.rulePack.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_art_description->[physical_description_root] [context_sentence]</li>
+    <li>circumstance_group->[circumstance_phrase]</li>
+    <li>desc_sentence_group->[desc_sentence] [style_group]</li>
+    <li>context_sentence->This [depiction] refers to [tale_noun] on [DATE].</li>
+    <li>context_sentence->This [depiction] relates to [tale_noun] on [DATE].</li>
+    <li>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</li>
+  -->
+  <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
+    <li>r_art_description->[physical_description_root]。[context_sentence]。</li>
+    <li>circumstance_group->[circumstance_phrase]</li>
+    <li>desc_sentence_group->[desc_sentence]，[style_group]。</li>
+    <li>context_sentence->這個[depiction]紀錄的是一件發生在[date]，[tale_noun]的故事。</li>
+    <li>context_sentence->這個[depiction]記述了一件發生在[date]，有關[tale_noun]的故事。</li>
+    <li>context_sentence->這個[depiction]述說了一件發生在[date]，[tale_noun]的故事。</li>
+  </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_art_description->[physical_description_root]</li>
+    <li>desc_sentence_group->[style_group]</li>
+  -->
+  <ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
+    <li>r_art_description->[physical_description_root]。</li>
+    <li>desc_sentence_group->[style_group]。</li>
+  </ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>style_group->[artextra_clause]. [style_clause].</li>
+    <li>style_group->[style_clause]. [artconjunction] [artextra_clause].</li>
+    <li>style_group->[style_clause].</li>
+    <li>style_group->[artextra_clause].</li>
+    <li>style_group-></li>
+    <li>artconjunction(p=6)-></li>
+    <li>artconjunction->as an interesting contrast,</li>
+    <li>artconjunction->rounding out the work,</li>
+    <li>artconjunction->in addition to that,</li>
+    <li>artconjunction->strikingly,</li>
+    <li>artconjunction->provocatively,</li>
+    <li>artconjunction->unusually for this kind of work,</li>
+    <li>artconjunction->though few would expect it,</li>
+    <li>artconjunction->besides that,</li>
+    <li>artextra_clause->the image is bordered by [subimageplural]</li>
+    <li>artextra_clause->at the edge of the image are [subimageplural]</li>
+    <li>artextra_clause->there is [subimagesingle] [side_position]</li>
+    <li>artextra_clause->the subjects are in front of [subimageany]</li>
+    <li>artextra_clause->the lower part of the image is dominated by [subimageany]</li>
+    <li>artextra_clause->the scene takes place in the middle of a [Community]</li>
+    <li>artextra_clause->the scene takes place on the outskirts of a [Community]</li>
+    <li>artextra_clause->the scene takes place inside a [Community] built near a [TerrainFeature]</li>
+    <li>artextra_clause->a [Character] [idles] [side_position]</li>
+    <li>artextra_clause->a [PAWN_adj] [Character] [idles] [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character]s appear [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [PAWN_adj] [Character]s appear [side_position]</li>
+    <li>artextra_clause->a [Animal] [idles] [side_position]</li>
+    <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of [subimageany]</li>
+    <li>artextra_clause->the [emotional_expression] head of a [PAWN_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->a [PAWN_adj] [PersonJob] watches over all while [emotional_expression]</li>
+    <li>artextra_clause->the head of a [PAWN_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->the whole image is depicted by the careful arrangement of [subimageplural]</li>
+    <li>subimageany->[subimagesingle]</li>
+    <li>subimageany->[subimageplural]</li>
+    <li>subimagesingle(p=4)->a [Character]</li>
+    <li>subimagesingle->a [TerrainFeature]</li>
+    <li>subimagesingle->a [Community]</li>
+    <li>subimagesingle->a [TreeType] tree</li>
+    <li>subimagesingle->a [Vegetable]</li>
+    <li>subimagesingle->a [AnimalGroup] of [Animal]s</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
+    <li>pawn_adj->dead</li>
+    <li>pawn_adj->dying</li>
+    <li>pawn_adj->injured</li>
+    <li>pawn_adj->sleeping</li>
+    <li>pawn_adj->standing</li>
+    <li>pawn_adj->sitting</li>
+    <li>pawn_adj->crazy</li>
+    <li>pawn_adj->young</li>
+    <li>pawn_adj->old</li>
+    <li>pawn_adj->[Gore]-covered</li>
+    <li>pawn_adj->filthy</li>
+    <li>pawn_adj->[Apparel]-wearing</li>
+    <li>pawn_adj->[Weapon]-wielding</li>
+    <li>pawn_adj->[Vegetable]-eating</li>
+    <li>emotional_expression->smiling</li>
+    <li>emotional_expression->frowning</li>
+    <li>emotional_expression->scowling</li>
+    <li>emotional_expression->laughing</li>
+    <li>emotional_expression->staring</li>
+    <li>emotional_expression->crying</li>
+    <li>emotional_expression->screaming</li>
+    <li>emotional_expression->overjoyed</li>
+    <li>idles->sits</li>
+    <li>idles->stands</li>
+    <li>idles->waits</li>
+    <li>idles->smiles</li>
+    <li>idles->lies</li>
+    <li>idles->poses</li>
+    <li>idles->appears</li>
+    <li>idles->is shown</li>
+    <li>idles->fades in</li>
+    <li>idles->floats</li>
+    <li>side_position->off to one side</li>
+    <li>side_position->in the background</li>
+    <li>side_position->in the distance</li>
+    <li>side_position->in the lower part of the image</li>
+    <li>side_position->in the upper part of the image</li>
+    <li>side_position->to the left of the main scene</li>
+    <li>side_position->to the right of the main scene</li>
+    <li>side_position->near the edge of the image</li>
+    <li>side_position->near the main subject</li>
+    <li>side_position->far from the main subject</li>
+    <li>side_position->beneath the main subject</li>
+    <li>side_position->behind the focal point</li>
+    <li>style_clause(p=4)->the work [symbolizes] [ConceptAny]</li>
+    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
+    <li>style_clause->the work is infused with the idea of [ConceptAny] and is done in a [artstyle_adj] style</li>
+    <li>style_clause->the work is executed in a [artstyle_adj] style</li>
+    <li>style_clause->the [artstyle_adj] style of the central scene clashes with the [artstyle_adj] depiction of the background</li>
+    <li>style_clause->the work has a [artstyle_adj] feeling and a [composition] structure</li>
+    <li>style_clause->the overall composition is [composition]</li>
+    <li>style_clause->the style is [artstyle_adj] with [artstyle_adj] elements</li>
+    <li>style_clause->the image somehow expresses both [ConceptAny] and [ConceptAny]</li>
+    <li>style_clause->the image contrasts [ConceptAny] with [ConceptAny]</li>
+    <li>style_clause->the [composition] structure of the image almost conflicts with its [artstyle_adj] style</li>
+    <li>style_clause->the work is shaded in hues of [Color] and [Color]</li>
+    <li>style_clause->almost every shape in the image seems to be [composition]</li>
+    <li>symbolizes->symbolizes</li>
+    <li>symbolizes->seems to symbolize</li>
+    <li>symbolizes->represents</li>
+    <li>symbolizes->seems to represent</li>
+    <li>symbolizes->seems to express</li>
+    <li>symbolizes->reminds the viewer of</li>
+    <li>symbolizes->conveys the emotions of</li>
+    <li>symbolizes->makes the viewer think of</li>
+    <li>symbolizes->represents the artist's</li>
+    <li>symbolizes->suggests the concept of</li>
+    <li>depicts->depicts</li>
+    <li>depicts->shows</li>
+    <li>depicts->portrays</li>
+    <li>depicts->resembles</li>
+    <li>depicts->illustrates</li>
+    <li>depicts->represents</li>
+    <li>depicts->is shaped like</li>
+    <li>depiction->depiction</li>
+    <li>depiction->image</li>
+    <li>depiction->portrayal</li>
+    <li>depiction->representation</li>
+    <li>depiction->illustration</li>
+    <li>depiction->artwork</li>
+    <li>composition->triangular</li>
+    <li>composition->rectangular</li>
+    <li>composition->square</li>
+    <li>composition->unbalanced</li>
+    <li>composition->well-balanced</li>
+    <li>composition->dynamic</li>
+    <li>composition->static</li>
+    <li>composition->vertical</li>
+    <li>composition->horizontal</li>
+    <li>composition->focused</li>
+    <li>artstyle_adj->unoriginal</li>
+    <li>artstyle_adj->simple</li>
+    <li>artstyle_adj->complex and realistic</li>
+    <li>artstyle_adj->surrealistic</li>
+    <li>artstyle_adj->classical</li>
+    <li>artstyle_adj->modern</li>
+    <li>artstyle_adj->symbolic</li>
+    <li>artstyle_adj->amateurish yet attractive</li>
+    <li>artstyle_adj->detail-oriented</li>
+    <li>artstyle_adj->blocky</li>
+    <li>artstyle_adj->cubist</li>
+    <li>artstyle_adj->impressionistic</li>
+    <li>artstyle_adj->expressionistic</li>
+    <li>artstyle_adj->photographic</li>
+    <li>artstyle_adj->baroque</li>
+    <li>artstyle_adj->dadaist</li>
+    <li>artstyle_adj->glitch-art</li>
+    <li>artstyle_adj->pixelated</li>
+    <li>artstyle_adj->fauvist</li>
+    <li>artstyle_adj->folksy</li>
+    <li>artstyle_adj->figurative</li>
+    <li>artstyle_adj->sinuous</li>
+    <li>artstyle_adj->geometric</li>
+    <li>artstyle_adj->abstract</li>
+    <li>artstyle_adj->hyper-realistic</li>
+    <li>artstyle_adj->pop art</li>
+    <li>artstyle_adj->minimalistic</li>
+    <li>artstyle_adj->neoclassical</li>
+    <li>artstyle_adj->cel-shaded</li>
+    <li>artstyle_adj->post-impressionistic</li>
+    <li>artstyle_adj->purist</li>
+    <li>artstyle_adj->rococo</li>
+    <li>artstyle_adj->romanesque</li>
+    <li>artstyle_adj->romantic</li>
+    <li>artstyle_adj->graffiti-like</li>
+    <li>artstyle_adj->erotic</li>
+    <li>artstyle_adj->sensual</li>
+    <li>artstyle_adj->heartfelt</li>
+  -->
+  <ArtDescriptionUtility_Global.rulePack.rulesStrings>
+    <li>style_group->[artextra_clause]，[style_clause]。</li>
+    <li>style_group->[style_clause]。[artconjunction]，[artextra_clause]。</li>
+    <li>style_group->[style_clause]。</li>
+    <li>style_group->[artextra_clause]。</li>
+    <li>style_group-></li>
+    <li>artconjunction(p=6)-></li>
+    <li>artconjunction->有趣的是</li>
+    <li>artconjunction->不僅如此</li>
+    <li>artconjunction->除此之外</li>
+    <li>artconjunction->驚人的是</li>
+    <li>artconjunction->刺激的是</li>
+    <li>artconjunction->在這類作品中罕見的是</li>
+    <li>artconjunction->鮮少有人察覺的是</li>
+    <li>artconjunction->順帶一提</li>
+    <li>artextra_clause->整個畫面被[subimageplural]包圍</li>
+    <li>artextra_clause->畫面的邊界有著[subimageplural]</li>
+    <li>artextra_clause->在[side_position]有著[subimagesingle]</li>
+    <li>artextra_clause->畫面的主題位在[subimageany]前方</li>
+    <li>artextra_clause->畫面下半部被[subimageany]所佔據</li>
+    <li>artextra_clause->畫面的景色是在一座[Community]中</li>
+    <li>artextra_clause->畫面的景色是在一座[Community]外圍</li>
+    <li>artextra_clause->畫面的景色是在一座位在[TerrainFeature]邊的[Community]中</li>
+    <li>artextra_clause->一名[Character][idles]在[side_position]</li>
+    <li>artextra_clause->一名[PAWN_adj]的[Character][idles]在[side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase]名[Character]出現在[side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase]名[PAWN_adj]的[Character]出現在[side_position]</li>
+    <li>artextra_clause->一隻[Animal][idles]在[side_position]</li>
+    <li>artextra_clause->如果你瞇眼細看，畫面裡的[composition]造型會浮現出一頭[subimageany]的輪廓</li>
+    <li>artextra_clause->[PAWN_adj]的[PersonJob]正[emotional_expression]著望著一切</li>
+    <li>artextra_clause->一名[PAWN_adj]的[PersonJob]望著一切同時[emotional_expression]著</li>
+    <li>artextra_clause->[PAWN_adj]的[PersonJob]正望著一切</li>
+    <li>artextra_clause->整幅畫面以[subimageplural]的精心安排所描繪</li>
+    <li>subimageany->[subimagesingle]</li>
+    <li>subimageany->[subimageplural]</li>
+    <li>subimagesingle(p=3)->一名[Character]</li>
+    <li>subimagesingle->一名[Character]</li>
+    <li>subimagesingle->一座[Community]</li>
+    <li>subimagesingle->一棵[TreeType]</li>
+    <li>subimagesingle->一個[Vegetable]</li>
+    <li>subimagesingle->一群[Animal]</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase]名[Character]</li>
+    <li>subimageplural->[Quantity_adjphrase]個[Vegetable]</li>
+    <li>subimageplural->[Quantity_adjphrase]個[Shape]</li>
+    <li>pawn_adj->死掉</li>
+    <li>pawn_adj->瀕死</li>
+    <li>pawn_adj->受傷</li>
+    <li>pawn_adj->正在呼呼大睡</li>
+    <li>pawn_adj->正站著</li>
+    <li>pawn_adj->正坐著</li>
+    <li>pawn_adj->發狂</li>
+    <li>pawn_adj->年輕</li>
+    <li>pawn_adj->年老</li>
+    <li>pawn_adj->染血</li>
+    <li>pawn_adj->灰頭土臉</li>
+    <li>pawn_adj->正穿著[Apparel]</li>
+    <li>pawn_adj->正裝備著[Weapon]</li>
+    <li>pawn_adj->正吃著[Vegetable]</li>
+    <li>emotional_expression->微笑</li>
+    <li>emotional_expression->皺著眉頭</li>
+    <li>emotional_expression->煩惱</li>
+    <li>emotional_expression->大笑</li>
+    <li>emotional_expression->凝視</li>
+    <li>emotional_expression->哭泣</li>
+    <li>emotional_expression->咆嘯</li>
+    <li>emotional_expression->欣喜</li>
+    <li>idles->坐</li>
+    <li>idles->站</li>
+    <li>idles->停</li>
+    <li>idles->倒</li>
+    <li>idles->躺</li>
+    <li>idles->蹲</li>
+    <li>idles->出現</li>
+    <li>idles->趴</li>
+    <li>idles->呆站</li>
+    <li>idles->漂浮</li>
+    <li>side_position->邊緣</li>
+    <li>side_position->背景中</li>
+    <li>side_position->遠處</li>
+    <li>side_position->畫面下緣</li>
+    <li>side_position->畫面上緣</li>
+    <li>side_position->畫面左側</li>
+    <li>side_position->畫面右側</li>
+    <li>side_position->畫面邊緣附近</li>
+    <li>side_position->主題附近</li>
+    <li>side_position->遠離主題處</li>
+    <li>side_position->主題下面</li>
+    <li>side_position->焦點之後</li>
+    <li>style_clause(p=4)->這個作品[symbolizes][ConceptAny]</li>
+    <li>artextra_clause->[side_position]的[subimagesingle][symbolizes][ConceptAny]</li>
+    <li>style_clause->這個作品模糊了[ConceptAny]的概念，並使用[artstyle_adj]風格表現出來</li>
+    <li>style_clause->這個作品運用了[artstyle_adj]風格的表現</li>
+    <li>style_clause->畫面中央的[artstyle_adj]風格和背景中的[artstyle_adj]風格產生出一種衝突感</li>
+    <li>style_clause->這個作品有著[artstyle_adj]的風格並以[composition]結構的造型呈現</li>
+    <li>style_clause->這個作品整體的造型以[composition]結構組合呈現</li>
+    <li>style_clause->這是個[artstyle_adj]風格的作品，同時混合了[artstyle_adj]的元素</li>
+    <li>style_clause->這個作品同時表現了[ConceptAny]和[ConceptAny]的概念</li>
+    <li>style_clause->這個作品跳脫了[ConceptAny]和[ConceptAny]的概念</li>
+    <li>style_clause->畫面中的[composition]結構似乎與其[artstyle_adj]風格相衝突</li>
+    <li>style_clause->這個作品充滿著幽暗的深[Color]色和深[Color]色調</li>
+    <li>style_clause->整個畫面幾乎完全由[composition]造型所組成</li>
+    <li>symbolizes->象徵著</li>
+    <li>symbolizes->象徵了</li>
+    <li>symbolizes->似乎象徵著</li>
+    <li>symbolizes->代表著</li>
+    <li>symbolizes->似乎代表著</li>
+    <li>symbolizes->似乎表現出</li>
+    <li>symbolizes->使觀賞者聯想到</li>
+    <li>symbolizes->傳達出作者的</li>
+    <li>depicts->述說著</li>
+    <li>depicts->述說著</li>
+    <li>depicts->展現了</li>
+    <li>depicts->展現了</li>
+    <li>depicts->表現了</li>
+    <li>depicts->表現了</li>
+    <li>depicts(p=2)->傳達了</li>
+    <li>depiction->畫面</li>
+    <li>depiction->畫面</li>
+    <li>depiction->圖片</li>
+    <li>depiction->圖片</li>
+    <li>depiction->文字</li>
+    <li>depiction->文字</li>
+    <li>composition->三角形</li>
+    <li>composition->長方形</li>
+    <li>composition->正方形</li>
+    <li>composition->不規則</li>
+    <li>composition->均衡</li>
+    <li>composition->動態</li>
+    <li>composition->靜態</li>
+    <li>composition->垂直</li>
+    <li>composition->橫向</li>
+    <li>composition->聚焦</li>
+    <li>artstyle_adj->非原創</li>
+    <li>artstyle_adj->極簡</li>
+    <li>artstyle_adj->寫實主義</li>
+    <li>artstyle_adj->超現實主義</li>
+    <li>artstyle_adj->古典</li>
+    <li>artstyle_adj->現代</li>
+    <li>artstyle_adj->象徵主義</li>
+    <li>artstyle_adj->業餘但有魅力</li>
+    <li>artstyle_adj->超寫實</li>
+    <li>artstyle_adj->方塊</li>
+    <li>artstyle_adj->立方體</li>
+    <li>artstyle_adj->印象派</li>
+    <li>artstyle_adj->表現主義</li>
+    <li>artstyle_adj->照相寫實主義</li>
+    <li>artstyle_adj->巴洛克</li>
+    <li>artstyle_adj->達達主義</li>
+    <li>artstyle_adj->閃耀世界</li>
+    <li>artstyle_adj->像素</li>
+    <li>artstyle_adj->野獸派</li>
+    <li>artstyle_adj->鄉村</li>
+    <li>artstyle_adj->太空</li>
+    <li>artstyle_adj->扭曲</li>
+    <li>artstyle_adj->幾何</li>
+    <li>artstyle_adj->抽象</li>
+    <li>artstyle_adj->超現實</li>
+    <li>artstyle_adj->流行藝術</li>
+    <li>artstyle_adj->簡約</li>
+    <li>artstyle_adj->新古典主義</li>
+    <li>artstyle_adj->卡通</li>
+    <li>artstyle_adj->後印象派</li>
+    <li>artstyle_adj->純粹主義</li>
+    <li>artstyle_adj->洛可可</li>
+    <li>artstyle_adj->古羅馬</li>
+    <li>artstyle_adj->浪漫主義</li>
+    <li>artstyle_adj->塗鴉</li>
+    <li>artstyle_adj->情色</li>
+    <li>artstyle_adj->感性</li>
+    <li>artstyle_adj->靈魂</li>
+  </ArtDescriptionUtility_Global.rulePack.rulesStrings>
+  
+</LanguageData>
