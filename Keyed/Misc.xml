@@ -82,8 +82,8 @@
   <CorpseLabel>{0}屍體</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>{0}的屍體。</CorpseDesc>
-  <!-- EN: {0} (dead) -->
-  <DeadLabel>{0}(死亡)</DeadLabel>
+  <!-- EN: {1_label} (dead) -->
+  <DeadLabel>{1_label}(死亡)</DeadLabel>
 
   <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>崎嶇{0}</RoughStoneTerrainLabel>
@@ -99,22 +99,22 @@
   <SmoothStoneTerrainDesc>天然光滑{0}地面。</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
-  <BlueprintLabelExtra> (藍圖)</BlueprintLabelExtra>
+  <BlueprintLabelExtra>預定地</BlueprintLabelExtra>
   <!-- EN:  (building) -->
-  <FrameLabelExtra>((建造中))</FrameLabelExtra>
+  <FrameLabelExtra>(建造中)</FrameLabelExtra>
 
   <!-- EN: Unaffiliated -->
-  <FactionUnaffiliated>不相關</FactionUnaffiliated>
+  <FactionUnaffiliated>大地之母</FactionUnaffiliated>
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
 
-  <!-- EN: {0}'s {1} -->
-  <SomeonesRoom>{0}的{1}</SomeonesRoom>
-  <!-- EN: {0} and {1}'s {2} -->
-  <CouplesRoom>{0}和{1}的{2}</CouplesRoom>
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <SomeonesRoom>{PAWN_labelShort}的{1}</SomeonesRoom>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
+  <CouplesRoom>{PAWN1_labelShort}和{PAWN2_labelShort}的{2}</CouplesRoom>
   
   <!-- EN: (various) -->
   <VariousLabel>(多種物件)</VariousLabel>

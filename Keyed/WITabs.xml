@@ -18,10 +18,10 @@
   <TabCaravanItems>貨物</TabCaravanItems>
   
   <!-- Misc -->
-  <!-- EN: Abandon {{0}}x {0} -->
-  <AbandonSliderText>拋棄{{0}}x{0}</AbandonSliderText>
-  <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
-  <ConfirmAbandonItemDialog>你確定要拋棄{0}？\n\n被拋棄的物品將會消失，永遠無法回復。</ConfirmAbandonItemDialog>
+  <!-- EN: Abandon {{1_labelShort}}x {1_labelShort} -->
+  <AbandonSliderText>拋棄{{1_labelShort}}x{1_labelShort}</AbandonSliderText>
+  <!-- EN: Do you really want to abandon {1_label}?\n\nAbandoned items vanish and can never be recovered. -->
+  <ConfirmAbandonItemDialog>你確定要拋棄{1_label}？\n\n被拋棄的物品將會消失，永遠無法回復。</ConfirmAbandonItemDialog>
   <!-- EN: Abandon -->
   <AbandonTip>拋棄</AbandonTip>
   <!-- EN: Banish -->
@@ -32,8 +32,8 @@
   <AbandonAllTip>全數拋棄</AbandonAllTip>
   <!-- EN: Abandoned items vanish and can never be recovered. -->
   <AbandonItemTipExtraText>被拋棄的物品將會消失，永遠無法回復。</AbandonItemTipExtraText>
-  <!-- EN: {0} will most likely die. -->
-  <BanishTipWillDie>{0}很有可能會死亡。</BanishTipWillDie>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <BanishTipWillDie>{1_labelShort}很有可能會死亡。</BanishTipWillDie>
   
   <!-- Caravan inspect -->
   <!-- EN: Colonists -->

@@ -40,6 +40,8 @@
   <TabLog>紀錄</TabLog>
   <!-- EN: Caravan -->
   <TabFormingCaravan>旅隊</TabFormingCaravan>
+  <!-- EN: Contents -->
+  <TabTransporterContents>內容物</TabTransporterContents>
 
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -50,8 +52,8 @@
   <MinimumSkill>最低技能等級</MinimumSkill>
   <!-- EN: SUSPENDED -->
   <SuspendedCaps>已暫停</SuspendedCaps>
-  <!-- EN: Worker: {0} -->
-  <BoundWorkerIs>執行者：{0}</BoundWorkerIs>
+  <!-- EN: Worker: {1_labelShort} -->
+  <BoundWorkerIs>執行者：{1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>種植</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
@@ -194,8 +196,8 @@
   <Trainability>可訓練度</Trainability>
   <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>需要{0}智能程度</CannotTrainNotSmartEnough>
-  <!-- EN: {0} is too small to train this. -->
-  <CannotTrainTooSmall>{0}的體型過小，無法接受這項訓練。</CannotTrainTooSmall>
+  <!-- EN: {1_labelShort} is too small to train this. -->
+  <CannotTrainTooSmall>{1_labelShort}的體型過小，無法接受這項訓練。</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>前提條件：{0}</TrainingNeedsPrerequisite>
@@ -211,10 +213,10 @@
   <Slave>奴隸</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>勢力首領</FactionLeader>
-  <!-- EN: Opinion of {0} -->
-  <OpinionOf>對{0}的看法</OpinionOf>
-  <!-- EN: {0}'s opinion of me -->
-  <SomeonesOpinionOfMe>{0}對我的看法</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {1_labelShort} -->
+  <OpinionOf>對{1_labelShort}的看法</OpinionOf>
+  <!-- EN: {1_labelShort}'s opinion of me -->
+  <SomeonesOpinionOfMe>{1_labelShort}對我的看法</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>我死了</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -277,5 +279,11 @@
   <PackAnimalsCountLower>動物群</PackAnimalsCountLower>
   <!-- EN: mentally broken -->
   <InMentalStateCountLower>精神崩潰</InMentalStateCountLower>
+
+  <!-- Transporter contents -->
+  <!-- EN: Remove {{0}}x {0} -->
+  <RemoveSliderText>移除{{0}}x{0}</RemoveSliderText>
+  <!-- EN: Do you really want to remove {0}? -->
+  <ConfirmRemoveItemDialog>確定要移除{0}嗎?</ConfirmRemoveItemDialog>
 
 </LanguageData>

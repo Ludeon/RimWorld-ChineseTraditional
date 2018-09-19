@@ -149,8 +149,8 @@
   <ZoneGainsName>這個區域的名稱被改為{0}。</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
-  <PawnGainsName>這名居民的暱稱已更改為{0}。[PAWN_possessive]現在叫做{1}。</PawnGainsName>
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
+  <PawnGainsName>這名居民的暱稱已更改為{0}。{PAWN_possessive}現在叫做{PAWN_title}。</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>此動物已更名為{0}。</AnimalGainsName>
 
@@ -177,7 +177,7 @@
   <ResolutionRevert>恢復</ResolutionRevert>
 
   <!-- Confirm permanently disable dev mode -->
-  <!-- EN: Do you really want to permanently disable development mode on this computer? -->
+  <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>你確定要在這台電腦上永久禁用開發者模式嗎？</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
@@ -334,6 +334,10 @@
   <GrowingTime>生長時間</GrowingTime>
   <!-- EN: Harvest yield -->
   <HarvestYield>收穫量</HarvestYield>
+  <!-- EN: Min growth temperature -->
+  <MinGrowthTemperature>最低生長氣溫</MinGrowthTemperature>
+  <!-- EN: Max growth temperature -->
+  <MaxGrowthTemperature>最高生長氣溫</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
   <GrowingTimeDesc>植物只會在一天的部分時段中生長，並且要有足夠的亮光。這個數值表示植物完全成熟全所需要的總生長時間，考慮到休眠、低溫、亮度不足都會降低植物的生長速度，實際需要大約兩倍的成長時間。</GrowingTimeDesc>
   <!-- EN: days -->
@@ -408,8 +412,6 @@
   <Skill>技能</Skill>
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>成功率倍率</SurgerySuccessChanceFactor>
-  <!-- EN: Requires bed -->
-  <SurgeryRequireBed>需要床鋪</SurgeryRequireBed>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>工作速度影響</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
@@ -466,10 +468,10 @@
   <TraderWillNotTrade>商人不接受此貨物。</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>談判代表</Negotiator>
-  <!-- EN: Your negotiator {0} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>你的代表{0}因健康因素無法正常談話。</NegotiatorTalkingImpaired>
-  <!-- EN: Your negotiator {0} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>你的代表{0}因健康因素無法正常聽話。</NegotiatorHearingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
+  <NegotiatorTalkingImpaired>你的代表{1_labelShort}因健康因素無法正常談話。</NegotiatorTalkingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
+  <NegotiatorHearingImpaired>你的代表{1_labelShort}因健康因素無法正常聽話。</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>這將會影響到交易價格。\n\n建議您選擇健康的居民擔任代表。</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
@@ -524,8 +526,8 @@
   <CaravanCouldNotFindPackingSpot>找不到任何有效的裝卸點。確保選擇的出口位置({0})可行。</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的居民無法抵達地圖出口({0})。</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {0} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{0}無法被任何被指派的居民接觸。</CaravanPawnIsUnreachable>
+  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
+  <CaravanPawnIsUnreachable>{1_labelShort}無法被任何被指派的居民接觸。</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>沒有任何被指派的居民能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -544,7 +546,7 @@
   <InfiniteDaysWorthOfFoodInfo>食物量永遠足夠</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>旅隊食物存量以天為單位的估算值。\n\n此計算值將人員及動物一併納入，並套用最嚴苛的狀況進行估算。這表示，經過這幾天之後，至少會有一個人或動物缺乏食物。</DaysWorthOfFoodTooltip>
-  <!-- EN: \n(only the first waypoint is taken into account) -->
+  <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(僅計算首個停留點)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>你的旅隊只剩下{0}天份的存糧，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog>
@@ -584,6 +586,8 @@
   <MassCapacity>容量</MassCapacity>
   <!-- EN: Mass -->
   <Mass>重量</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>旅隊負重</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>裝備及衣物重量。</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -648,8 +652,8 @@
   <TooBigTransportersMassUsage>目前指派的居民及物資超過運輸艙的最大負重。</TooBigTransportersMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>無法傳送空的運輸艙</CantSendEmptyTransportPods>
-  <!-- EN: {0} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{0}無法前往運輸艙。</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
+  <PawnCantReachTransporters>{1_labelShort}無法前往運輸艙。</PawnCantReachTransporters>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>沒有路經連接運輸艙和{0}。</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
@@ -792,20 +796,20 @@
   <ConfirmMoveAutoJoinableCaravan>有一些動物或俘虜正試圖與旅隊匯合，如果你移動旅隊，他們將無繼續匯合。\n\n動物、俘虜以及無法動彈的居民被遺留下而沒有其他可活動的居民在場時，將視為被遺棄並被敵人俘獲。\n\n你確定要移動旅隊？</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
-  <!-- EN: Do you really want to banish {0}? -->
-  <ConfirmBanishPawnDialog>你真的確定要拋棄{0}嗎？</ConfirmBanishPawnDialog>
-  <!-- EN: {0} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{0}很可能會死掉。</ConfirmBanishPawnDialog_LeftToDie>
-  <!-- EN: {0} will take the following items with [PAWN_objective]: -->
-  <ConfirmBanishPawnDialog_Items>{0}將會攜帶以下物品：</ConfirmBanishPawnDialog_Items>
+  <!-- EN: Do you really want to banish {1_label}? -->
+  <ConfirmBanishPawnDialog>你真的確定要拋棄{1_label}嗎？</ConfirmBanishPawnDialog>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort}很可能會死掉。</ConfirmBanishPawnDialog_LeftToDie>
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
+  <ConfirmBanishPawnDialog_Items>{1_labelShort}將會攜帶以下物品：</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>所有居民將會獲得以下心情：</ConfirmBanishPawnDialog_AllColonistsThoughts>
-  <!-- EN: Banishing {0} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>拋棄{0}將會導致以下人員得到以下心情：</ConfirmBanishPawnDialog_IndividualThoughts>
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
+  <ConfirmBanishPawnDialog_IndividualThoughts>拋棄{1_labelShort}將會導致以下人員得到以下心情：</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {0} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{0}失蹤了，仍然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
+  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}失蹤了，仍然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
@@ -816,5 +820,9 @@
   <ConfirmCleanupTranslationFiles>你確定要清除{0}的所有翻譯文件？\n\n這將會：\n  - 為keyed、def-injected和backstories添加佔位\n  - 加入或更新為原始、未經翻譯的文本\n  - 移動所有keyed與def-injected翻譯文件至適當的XML檔\n  - 自動套用格式至所有XML檔\n  - 更新更動過的def名\n  - 移除所有既存的XML文件(除非在輸入清單內)\n\n非XML文件將不被移除或修改。\n\n修改語言文件後記得在使用此工具前重啟遊戲以重新載入檔案。\n\n在使用此工具前確保已對文件已經進行備份。</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>是，我已經備份</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>如果你將這些運輸艙送到一個空白地區，旅隊將會無法行動，依然要繼續嗎?</TransportersCaravanWillBeImmobile>
 
 </LanguageData>

@@ -39,8 +39,8 @@
   <CommandUndraftLabel>取消徵召</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>切換徵召狀態。\n\n被徵召的人會遵守命令並戰鬥。他們不會工作、吃飯或休息。</CommandToggleDraftDesc>
-  <!-- EN: {0} cannot walk. -->
-  <IsIncapped>{0}無法動彈。</IsIncapped>
+  <!-- EN: {1_labelShort} cannot walk. -->
+  <IsIncapped>{1_labelShort}無法動彈。</IsIncapped>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>自由開火</CommandFireAtWillLabel>
@@ -227,6 +227,8 @@
   <CommandReleaseAnimalsLabel>放出動物</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>當啟用此選項時，動物能夠前往攻擊遠處的目標，反之，牠們就只會跟隨並護衛主人。</CommandReleaseAnimalsDesc>
+  <!-- EN: No animals available. -->
+  <CommandReleaseAnimalsFail_NoAnimals>無可用的動物</CommandReleaseAnimalsFail_NoAnimals>
   
   <!-- Squad attack -->
   <!-- EN: Attack -->
@@ -426,7 +428,7 @@
   <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>指定開/關</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
-  <CommandDesignateOpenCloseVentDesc>指定這個空調扇開啟或關閉，一名居民將盡快進行此工作。</CommandDesignateOpenCloseVentDesc>
+  <CommandDesignateOpenCloseVentDesc>指定這個通風口開啟或關閉，一名居民將盡快進行此工作。</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
@@ -437,7 +439,7 @@
   <!-- Pause caravan -->
   <!-- EN: Rest -->
   <CommandPauseCaravan>暫停</CommandPauseCaravan>
-  <!-- EN: Stop the caravan for a moment. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}\n  - Sick people can rest in bedrolls -->
+  <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
   <CommandToggleCaravanPauseDesc>暫停此旅隊的活動。這將有以下好處：\n\n  - 人員可以進行社交活動\n  - 食物採集速度提昇{0}倍\n  - 可見性變為{1}倍</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->

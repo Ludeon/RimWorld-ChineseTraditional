@@ -29,8 +29,8 @@
   <!-- EN: Death -->
   <Death>死亡</Death>
 
-  <!-- EN: A {0} has short-circuited in the rain and started a fire. -->
-  <ShortCircuitRain>一個{0}在雨中發生了短路並造成了一場火災。</ShortCircuitRain>
+  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
+  <ShortCircuitRain>一個{1_label}在雨中發生了短路並造成了一場火災。</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
   <LetterLabelAreaRevealed>發現新地區</LetterLabelAreaRevealed>
@@ -53,78 +53,76 @@
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
 
-  <!-- EN: [PAWN_nameDef] is {0}'s {1}. If [PAWN_nameDef] dies, {0} will suffer from long-lasting grief. However, if you manage to rescue [PAWN_nameDef], {0} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>[PAWN_NameDef]是{0}的{1}。若[PAWN_NameDef]不幸死亡，{0}將會陷入長時間的悲傷，但如果你能救援[PAWN_NameDef]，{0}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
+  <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
+  <RelatedPawnInvolvedInQuest>{PAWN_NameDef}是{RELATIVE_labelShort}的{1}。若{PAWN_NameDef}不幸死亡，{RELATIVE_labelShort}將會陷入長時間的悲傷，但如果你能救援{PAWN_NameDef}，{RELATIVE_labelShort}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
   <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而從曆法來計算，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
-  <!-- EN: {0} has reached the biological age of {1}.\n\nUnfortunately, {0} has gained the following diseases due to aging:\n{2} -->
+  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
   <BirthdayBiologicalAgeInjuries>{0}的生理年齡已滿{1}歲。\n\n不幸的是，因為{0}的年紀，{0}得到了這些疾病：\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
-  <!-- EN: {0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {2} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{0}感染了{1}。請確保{0}獲得妥善的醫療照顧，並盡可能讓{2}在床上休養以早日康復。</NewDisease>
-  <!-- EN: {0} has gotten sick from {3}. The infection is in [PAWN_possessive] {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {2} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{0}的{1}感染了{3}，請確保{0}獲得妥善的醫療照顧，並盡可能讓{2}在床上休養以早日康復。</NewPartDisease>
-  <!-- EN: {0} has developed an illness: {1} -->
-  <NewDiseaseAnimal>{0}感染了疾病：{1}</NewDiseaseAnimal>
-  <!-- EN: {0} has developed an illness: {3} in [PAWN_possessive] {1} -->
-  <NewPartDiseaseAnimal>{0}感染了疾病：{3}位於[PAWN_possessive]{1}</NewPartDiseaseAnimal>
+  <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
+  <NewDisease>{PAWN}感染了{1}。\n\n確保{PAWN_definite}獲得醫療床位和醫生醫療照顧，並盡可能在床上休養以早日康復。</NewDisease>
+  <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
+  <NewPartDisease>{PAWN}的{1}感染了{3}。\n\n確保{PAWN_definite}獲得醫療床位和醫生醫療照顧，並盡可能在床上休養以早日康復。</NewPartDisease>
+  <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
+  <NewDiseaseAnimal>{PAWN_labelShort}感染了疾病：{1}</NewDiseaseAnimal>
+  <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
+  <NewPartDiseaseAnimal>{PAWN_labelShort}感染了疾病：{3}。部位：{1}</NewPartDiseaseAnimal>
 
-  <!-- EN: {0} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{0}曾經是你的勢力的成員。</PawnWasFormerlyColonist>
-  <!-- EN: {0} has these relationships with your colonists: -->
-  <PawnHasTheseRelationshipsWithColonists>{0}與你的居民有以下關係：</PawnHasTheseRelationshipsWithColonists>
-  <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {1} again. -->
-  <PrisonerRescueTimeout>該營地將在{0}天後消失。如果你錯過這次機會，你可能永遠不會再有{1}的消息。</PrisonerRescueTimeout>
+  <!-- EN: {1_labelShort} was formerly part of your faction. -->
+  <PawnWasFormerlyColonist>{1_labelShort}曾經是你的勢力的成員。</PawnWasFormerlyColonist>
+  <!-- EN: {1_labelShort} has these relationships with your colonists: -->
+  <PawnHasTheseRelationshipsWithColonists>{1_labelShort}與你的居民有以下關係：</PawnHasTheseRelationshipsWithColonists>
+  <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
+  <PrisonerRescueTimeout>該營地將在{0}天後消失。如果你錯過這次機會，你可能永遠不會再有{PRISONER_labelShort}的消息。</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>遠古威脅</LetterLabelAncientShrineWarning>
-  <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes [PAWN_objective]. [PAWN_pronoun] isn't sure why, but [PAWN_pronoun] feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，HE感受到一股不祥之感。[PAWN_pronoun]無法解釋原因，HE就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
+  <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
+  <AncientShrineWarning>隨著{0}逐步接近這棟遠古的建築物，{PAWN_objective}感受到一股不祥之感。{PAWN_pronoun}無法解釋原因，就是覺得這棟滿佈沙塵的建築潛藏著某種危險。</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>我們開採到了{0}！</StruckMineable>
 
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0}反擊</LetterLabelAnimalManhunterRevenge>
-  <!-- EN: [PAWN_indefinite] is attacking after being harmed! -->
-  <AnimalManhunterFromDamage>一隻[PAWN_indefinite在受到傷害後開始向居民反擊！</AnimalManhunterFromDamage>
-  <!-- EN: [PAWN_indefinite] is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>因為你嘗試馴服牠，[PAWN_indefinite]開始攻擊你！</AnimalManhunterFromTaming>
-  <!-- EN: Other {0} nearby have also become enraged! -->
-  <AnimalManhunterOthers>周圍的{0}也跟著發怒了！</AnimalManhunterOthers>
+  <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
+  <AnimalManhunterFromDamage>一隻{1_indefinite}在受到傷害後開始向居民反擊！\n\n牠將攻擊任何所能接觸到的人類，直到疲勞時才會冷靜下來。</AnimalManhunterFromDamage>
+  <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
+  <AnimalManhunterFromTaming>因為你嘗試馴服牠，{1_indefinite}開始攻擊你！</AnimalManhunterFromTaming>
+  <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
+  <AnimalManhunterOthers>周圍的{1_kindBasePlural}也跟著發怒了！</AnimalManhunterOthers>
 
-  <!-- EN: {0} hit trap -->
-  <LetterFriendlyTrapSprungLabel>{0}觸發陷阱</LetterFriendlyTrapSprungLabel>
-  <!-- EN: {0} has accidentally sprung a trap and taken damage from it. -->
-  <LetterFriendlyTrapSprung>{0}意外的觸發了一個陷阱，並受到了傷害。</LetterFriendlyTrapSprung>
+  <!-- EN: {1_labelShort} hit trap -->
+  <LetterFriendlyTrapSprungLabel>{1_labelShort}觸發陷阱</LetterFriendlyTrapSprungLabel>
+  <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
+  <LetterFriendlyTrapSprung>{1_labelShort}意外的觸發了一個陷阱，並受到了傷害。</LetterFriendlyTrapSprung>
 
-  <!-- EN: {0} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{0}已經惡化成{1}。\n\n這是屬於{2}的併發症。</LetterHealthComplications>
-  <!-- EN: {0}: {1} -->
-  <LetterHealthComplicationsLabel>{0}{1}</LetterHealthComplicationsLabel>
+  <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
+  <LetterHealthComplications>{PAWN_labelShort}已經惡化成{1}。\n\n這是屬於{2}的併發症。</LetterHealthComplications>
+  <!-- EN: {PAWN_labelShort}: {1} -->
+  <LetterHealthComplicationsLabel>{PAWN_labelShort}{1}</LetterHealthComplicationsLabel>
   
-  <!-- EN: {0} has developed a health condition: {1}. -->
-  <LetterHediffFromRandomHediffGiver>{0}罹患了以下疾病：{1}</LetterHediffFromRandomHediffGiver>
-  <!-- EN: {0}: {1} -->
-  <LetterHediffFromRandomHediffGiverLabel>{0}{1}</LetterHediffFromRandomHediffGiverLabel>
+  <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort}罹患了以下疾病：{1}</LetterHediffFromRandomHediffGiver>
+  <!-- EN: {PAWN_labelShort}: {1} -->
+  <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}：{1}</LetterHediffFromRandomHediffGiverLabel>
   
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1}去逝：{0}</LetterLeadersDeathLabel>
-  <!-- EN: {0}, {3} of {1}, has died.\n\nThe new {3} is {2}. -->
-  <LetterLeadersDeath>{0}，{1}的{3}已去逝。\n\nn新的{3}是{2}。</LetterLeadersDeath>
+  <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
+  <LetterLeadersDeath>{OLDLEADER_nameFull}，{1}的{3}已去逝。\n\n新的{3}是{NEWLEADER_nameFull}。</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>新{1}：{0}</LetterLeaderChangedLabel>
-  <!-- EN: {0} is no longer {3} of {1}.\n\nThe new {3} is {2}. -->
-  <LetterLeaderChanged>{0}不再是{1}的{3}。\n\n新的{3}是{2}。</LetterLeaderChanged>
+  <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
+  <LetterLeaderChanged>{OLDLEADER_nameFull}不再是{1}的{3}。\n\n新的{3}是{NEWLEADER_nameFull}。</LetterLeaderChanged>
   
-  <!-- EN: Mental break -->
-  <MentalBreakLetterLabel>精神崩潰</MentalBreakLetterLabel>
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>最終崩潰原因：{0}。</FinalStraw>
   <!-- EN: The last event was -->
@@ -132,8 +130,8 @@
 
   <!-- EN: Read more -->
   <ReadMore>查看更多</ReadMore>
-  <!-- EN: The last events in {0}'s life -->
-  <LastEventsInLife>{0}生涯的最新事件</LastEventsInLife>
+  <!-- EN: The last events in {PAWN_definite}'s life -->
+  <LastEventsInLife>{PAWN_definite}生涯的最新事件</LastEventsInLife>
   
   <!-- Related pawns -->
   <!-- EN: Relationship -->
@@ -161,20 +159,20 @@
 
   <!-- EN: (relationship) -->
   <RelationshipAppendedLetterSuffix>(親友)</RelationshipAppendedLetterSuffix>
-  <!-- EN: [PAWN_nameDef] has a relationship with a colonist. [PAWN_pronoun] is {0}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>[PAWN_NameDef]是一名居民的親友，{0}的{1}。</RelationshipAppendedLetterTextColonist>
-  <!-- EN: [PAWN_nameDef] has a relationship with one of your prisoners. [PAWN_pronoun] is {0}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>[PAWN_NameDef]是一名俘虜的親友，{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
+  <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
+  <RelationshipAppendedLetterTextColonist>{PAWN_NameDef}是一名居民的親友，{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextColonist>
+  <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_NameDef}是一名俘虜的親友，{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
   <LetterLabelAffair>外遇</LetterLabelAffair>
-  <!-- EN: {0}, married to {1}, has begun an affair with {2}. -->
-  <LetterAffair>{0}，{1}的配偶，和{2}展開了新的關係。</LetterAffair>
+  <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
+  <LetterAffair>{PAWN1_labelShort}，{SPOUSE_labelShort}的配偶，和{PAWN2_labelShort}展開了新的關係。</LetterAffair>
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>新戀人</LetterLabelNewLovers>
-  <!-- EN: {0} and {1} are no longer in a relationship. -->
-  <LetterNoLongerLovers>{0}和{1}分手了。</LetterNoLongerLovers>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
+  <LetterNoLongerLovers>{PAWN1_labelShort}和{PAWN2_labelShort}分手了。</LetterNoLongerLovers>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>分手</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -183,8 +181,8 @@
   <LetterLabelRejectedProposal>求婚被拒</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>在未來幾天或幾季的某個時候，他們將舉行結婚典禮，並邀請所有居民參加典禮。如果你想，可以設置一個結婚點指定典禮進行的地點。</LetterAcceptedProposal>
-  <!-- EN: {0} is going to be unhappy about this. -->
-  <LetterRejectedProposal>{0}對此感到難以釋懷。</LetterRejectedProposal>
+  <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
+  <LetterRejectedProposal>{INITIATOR_nameFull}對此感到難以釋懷。</LetterRejectedProposal>
   
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
@@ -203,8 +201,8 @@
   <!-- Bonded animals -->
   <!-- EN: bonded animal -->
   <LetterLabelSuffixBondedAnimalDied>動物夥伴死亡</LetterLabelSuffixBondedAnimalDied>
-  <!-- EN: {0} was bonded to {1}. It will affect {1}'s mood. -->
-  <LetterPartBondedAnimalDied>{0}是{1}動物夥伴，這將會影響{1}的心情。</LetterPartBondedAnimalDied>
+  <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
+  <LetterPartBondedAnimalDied>{ANIMAL_definite}是{HUMAN_labelShort}動物夥伴，這將會影響{HUMAN_labelShort}的心情。</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
   <LetterPartBondedAnimalDiedMulti>這將會影響以下居民的心情：\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
@@ -217,20 +215,20 @@
   <!-- Party -->
   <!-- EN: Party -->
   <LetterLabelNewParty>派對</LetterLabelNewParty>
-  <!-- EN: {0} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost. -->
-  <LetterNewParty>{0}正在舉辦派對！任何參加派對的人都可以獲得娛樂和社交分數，以及持久的正向心情加分。</LetterNewParty>
+  <!-- EN: {1_labelShort} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost. -->
+  <LetterNewParty>{1_labelShort}正在舉辦派對！任何參加派對的人都可以獲得娛樂和社交分數，以及持久的正向心情加分。</LetterNewParty>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>{0}成癮</LetterLabelNewlyAddicted>
-  <!-- EN: {0} has developed an addiction to {1}.\n\n[PAWN_pronoun] now has a need for {1}, visible on [PAWN_possessive] Needs tab. [PAWN_pronoun] will automatically consume the drug to fulfil [PAWN_possessive] need. If [PAWN_pronoun] cannot get any {1}, [PAWN_pronoun] will go into withdrawal. -->
-  <LetterNewlyAddicted>{0}已對{1}成癮\n\n[PAWN_pronoun]現在有使用{1}的需求，可以在[PAWN_possessive]需求面板查看。[PAWN_pronoun]會自動使用藥物以滿足需求，倘若需求在一段時間內無法滿足便會產生戒斷反應。</LetterNewlyAddicted>
+  <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
+  <LetterNewlyAddicted>{PAWN_labelShort}已對{1}成癮\n\n{PAWN_pronoun}現在有使用{1}的需求，可以在{PAWN_possessive}需求面板查看。{PAWN_pronoun}會自動使用藥物以滿足需求，倘若需求在一段時間內無法滿足便會產生戒斷反應。</LetterNewlyAddicted>
   
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
   <LetterLabelDrugBinge>{0}濫用</LetterLabelDrugBinge>
-  <!-- EN: {0} is binging on {1}. -->
-  <LetterDrugBinge>{0}正在狂嗑{1}。</LetterDrugBinge>
+  <!-- EN: {2_label} is binging on {1}. -->
+  <LetterDrugBinge>{2_label}正在狂嗑{1}。</LetterDrugBinge>
   
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
@@ -273,8 +271,8 @@
   <!-- Found lump of precious resources -->
   <!-- EN: Precious minerals found -->
   <LetterLabelFoundPreciousLump>尋獲珍貴礦藏</LetterLabelFoundPreciousLump>
-  <!-- EN: Using your long-range mineral scanner, {3} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>{3}用長程礦物掃描儀在附近探索到了一座珍貴礦脈。\n\n只不過那礦脈不會存在太久，如果我們沒率先開挖，其他人會在{0}天後將那裡挖掘一空。\n\n{2}。</LetterFoundPreciousLump>
+  <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
+  <LetterFoundPreciousLump>{WORKER_labelShort}用長程礦物掃描儀在附近探索到了一座{0}礦脈。\n\n只不過那礦脈不會存在太久，如果我們沒率先開挖，其他人會在{1}天後將那裡挖掘一空。\n\n{2}。</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -303,26 +301,26 @@
   <LetterLabelPeaceTalks_Triumph>成果豐碩的會談</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
   <LetterPeaceTalks_Triumph>此次的會談取得了重大的成功！雙方代表們一見如故，並且立刻就在當今最難解的問題上理解對方的觀點。\n\n與{0}的關係增加了{1}。\n\n在你的旅隊離開時，{0}贈送了一份禮物：{2}。</LetterPeaceTalks_Triumph>
-  <!-- EN: {0}, your negotiator, has gained {1} social experience. -->
-  <PeaceTalksSocialXPGain>{0}你的談判者獲得了{1}社交技能經驗值。</PeaceTalksSocialXPGain>
+  <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
+  <PeaceTalksSocialXPGain>{PAWN_labelShort}你的談判者獲得了{1}社交技能經驗值。</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <!-- EN: {0} is fed up with civilization.\n\n[PAWN_pronoun] realized that wild creatures are always free. So, [PAWN_pronoun] has decided to leave your faction and live with the animals.\n\nYou can attempt to tame [PAWN_objective] to get [PAWN_objective] back. -->
+  <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame {0_objective} to get {0_objective} back. -->
   <LetterRunWildMentalBreak>{0}決定脫離你的勢力並和動物們一起生活。</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. [PAWN_pronoun] will recover in several days. -->
+  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {0_pronoun} will recover in several days. -->
   <LetterCatatonicMentalBreak>{0}發作了一場會持續數天的精神崩潰症狀。</LetterCatatonicMentalBreak>
 
   <!-- EN: AI Core Offer -->
   <LetterLabelAICoreOffer>AI核心任務</LetterLabelAICoreOffer>
-  <!-- EN: {0} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{1}的{0}聯絡上你並提供了一則資訊：一個AI核心的座標點。AI核心可以用來建造星艦的。他們還提醒了你AI核心是非常珍稀的，通常它的所有者會為它設下嚴密保護。\n\n如果你有興趣的話，使用通訊台聯絡他們。</LetterAICoreOffer>
+  <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
+  <LetterAICoreOffer>{1}的{PAWN_definite}聯絡上你並提供了一則資訊：一個AI核心的座標點。AI核心可以用來建造星艦的。他們還提醒了你AI核心是非常珍稀的，通常它的所有者會為它設下嚴密保護。\n\n如果你有興趣的話，使用通訊台聯絡他們。</LetterAICoreOffer>
 
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>傳奇巨作</LetterCraftedLegendaryLabel>
-  <!-- EN: {0} has created a {1}.\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessage>{0}創造了一個{1}。\n\n有關這價值連成的曠世巨作的消息將傳遍世界。</LetterCraftedLegendaryMessage>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
+  <LetterCraftedLegendaryMessage>{WORKER_labelShort}創造了一個{CRAFTED_labelShort}。\n\n有關這價值連成的曠世巨作的消息將傳遍世界。</LetterCraftedLegendaryMessage>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -343,10 +341,10 @@
   <LetterHibernateCompleteStandalone>反應爐的暖機程序已完成，反應爐現已準備好為升空提供充足的電力。</LetterHibernateCompleteStandalone>
 
   <!-- Visitors gave gift -->
-  <!-- EN: Gift -->
-  <LetterLabelVisitorsGaveGift>贈禮</LetterLabelVisitorsGaveGift>
-  <!-- EN: Since you're having a hard time, we're helping you out. -->
-  <LetterVisitorsGaveGift>看來你好像正經歷一段艱苦的時期，希望這能幫上一點忙。</LetterVisitorsGaveGift>
+  <!-- EN: Gift from {0} -->
+  <LetterLabelVisitorsGaveGift>{0}的贈禮</LetterLabelVisitorsGaveGift>
+  <!-- EN: {0} from {PAWN_factionName} have left a gift:\n\n{1} -->
+  <LetterVisitorsGaveGift>來自{PAWN_factionName}的{0}留下了一份禮物：\n\n{1}</LetterVisitorsGaveGift>
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
@@ -363,17 +361,25 @@
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>獲救者加入</LetterLabelRescueQuestFinished>
-  <!-- EN: You have rescued [PAWN_nameDef] and [PAWN_pronoun] has joined your group.\n\nYou can take [PAWN_objective] with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>你救了[PAWN_[PAWN_NameDef]Def]而[PAWN_pronoun]加入了你的團體。\n\n你可以在星球畫面選取區域並點擊「重組旅隊」讓[PAWN_objective]隨旅隊一起行動。</LetterRescueQuestFinished>
+  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
+  <LetterRescueQuestFinished>你救了{PAWN_nameDef}而{PAWN_pronoun}加入了你的團體。\n\n你可以在星球畫面選取區域並點擊「重組旅隊」讓{PAWN_objective}隨旅隊一起行動。</LetterRescueQuestFinished>
 
   <!-- Player entered site (generic label) -->
   <!-- EN: Arrived at site -->
   <LetterLabelPlayerEnteredNewSiteGeneric>抵達目標點</LetterLabelPlayerEnteredNewSiteGeneric>
 
   <!-- Predator hunting colonist -->
-  <!-- EN: {0} hunting {1} -->
-  <LetterLabelPredatorHuntingColonist>{0}正在狩獵{1}</LetterLabelPredatorHuntingColonist>
-  <!-- EN: {0} is hunting {1} for food! -->
-  <LetterPredatorHuntingColonist>{0}將{1}當成下一頓飯了！</LetterPredatorHuntingColonist>
+  <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort}正在狩獵{PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
+  <LetterPredatorHuntingColonist>{PREDATOR_labelShort}將{PREY_definite}當成下一頓飯了！</LetterPredatorHuntingColonist>
+
+  <!-- Disease -->
+  <!-- EN: {0} blocked {1} on: {2}. -->
+  <LetterDisease_Blocked>{0}阻擋住了{1}。位置：{2}。</LetterDisease_Blocked>
+  <!-- EN: Disease ({0}) -->
+  <LetterLabelTraitDisease>疾病({0})</LetterLabelTraitDisease>
+  <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
+  <LetterTraitDisease>{PAWN_label}因{1}的病而病倒了。\n\n確保{PAWN_pronoun}獲得醫療床位和醫生醫療照顧，並盡可能在床上休養以早日康復。</LetterTraitDisease>
 
 </LanguageData>

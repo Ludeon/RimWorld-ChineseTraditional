@@ -3,12 +3,12 @@
 
   <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
   <FactionGreetingHostile>{0}的代表憤怒的對你咒罵了幾句後切斷連線。</FactionGreetingHostile>
-  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of [PAWN_possessive] settlements or releasing [PAWN_possessive] faction's prisoners unharmed. Until then, [PAWN_pronoun] is unwilling to talk.\n\nMuttering an insult, [PAWN_pronoun] disconnects. -->
-  <FactionGreetingHostileAppreciative>{0}要求你以具體行動表達善意，例如帶禮物拜訪[PAWN_possessive]的據點或毫髮無損的釋放隸屬[PAWN_possessive]的俘虜。如果你辦到了，[PAWN_pronoun]才願意與你進一步溝通。\n\n[PAWN_pronoun]在咒罵的呢喃中切斷了通訊。</FactionGreetingHostileAppreciative>
-  <!-- EN: {0} greets {1} warily asks what business you want to handle. -->
-  <FactionGreetingWary>{0}的代表謹慎的問候了{1}並詢問HIS的來意。</FactionGreetingWary>
-  <!-- EN: {0} greets {1} warmly and asks what [PAWN_pronoun] can do to help you. -->
-  <FactionGreetingWarm>{0}的代表親切的問候了{1}並關心殖民地的近況。</FactionGreetingWarm>
+  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
+  <FactionGreetingHostileAppreciative>{0}要求你以具體行動表達善意，例如帶禮物拜訪{PAWN_possessive}的據點或毫髮無損的釋放隸屬{PAWN_possessive}的俘虜。如果你辦到了，{PAWN_pronoun}才願意與你進一步溝通。\n\n{PAWN_pronoun}在咒罵的呢喃中切斷了通訊。</FactionGreetingHostileAppreciative>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warily and asks what business you want to handle. -->
+  <FactionGreetingWary>{0}的代表謹慎的問候了{NEGOTIATOR_labelShort}並詢問你的來意。</FactionGreetingWary>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
+  <FactionGreetingWarm>{0}的代表親切的問候了{NEGOTIATOR_labelShort}並詢問{LEADER_pronoun}能幫上什麼忙。</FactionGreetingWarm>
 
   <!-- EN: Disconnect -->
   <Disconnect>切斷連線</Disconnect>
@@ -60,5 +60,7 @@
   <MilitaryAidSent>{0}的代表同意派遣部隊來幫助你。</MilitaryAidSent>
   <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
   <CantSendMilitaryAidInTime>{0}向你道歉並表示他們將無法如期抵達。\n\n(此勢力的科技水平過低而無法使用運輸艙)</CantSendMilitaryAidInTime>
+  <!-- EN: hostile visitors present -->
+  <HostileVisitorsPresent>有敵對的訪客在場</HostileVisitorsPresent>
 
 </LanguageData>
