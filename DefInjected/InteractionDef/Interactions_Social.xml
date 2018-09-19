@@ -21,21 +21,21 @@
     <li>commentedabout->told a joke about</li>
   -->
   <Chitchat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
-    <li>talkedabout(p=4)->chatted about</li>
-    <li>talkedabout->shared a word about</li>
-    <li>talkedabout->spoke about</li>
-    <li>talkedabout->gabbed about</li>
-    <li>talkedabout->talked about</li>
-    <li>talkedabout->joked about</li>
-    <li>talkedabout->quipped about</li>
-    <li>commentedabout->said something about</li>
-    <li>commentedabout->said a word about</li>
-    <li>commentedabout->made a comment about</li>
-    <li>commentedabout->commented about</li>
-    <li>commentedabout->told a joke about</li>
+    <li>r_logentry->[INITIATOR_nameDef]和[RECIPIENT_nameDef][talkedabout]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]與[RECIPIENT_nameDef][talkedabout]。</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][commentedabout]。</li>
+    <li>talkedabout(p=4)->聊了關於[TalkTopicLight]的事</li>
+    <li>talkedabout->小聊了關於[TalkTopicLight]的事</li>
+    <li>talkedabout->談到了關於[TalkTopicLight]的事</li>
+    <li>talkedabout->聊到了關於[TalkTopicLight]的事</li>
+    <li>talkedabout->談論了關於[TalkTopicLight]的事</li>
+    <li>talkedabout->交換了對於[TalkTopicLight]的看法</li>
+    <li>talkedabout->談論了對於[TalkTopicLight]的看法</li>
+    <li>commentedabout->說了有關[TalkTopicLight]的事</li>
+    <li>commentedabout->說了有關[TalkTopicLight]的字</li>
+    <li>commentedabout->評論了[TalkTopicLight]</li>
+    <li>commentedabout->評論了有關[TalkTopicLight]的事</li>
+    <li>commentedabout->說了關於[TalkTopicLight]的笑話</li>
   </Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
@@ -56,18 +56,18 @@
     <li>subject->[TalkTopicHeavy]</li>
   -->
   <DeepTalk.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
-    <li>talkedabout->communicated thoughts about</li>
-    <li>talkedabout->exchanged thoughts about</li>
-    <li>talkedabout->exchanged ideas about</li>
-    <li>talkedabout->shared views on</li>
-    <li>talkedabout->shared beliefs on</li>
-    <li>talkedabout->discussed the topic of</li>
-    <li>talkedabout->had a heartfelt conversation about</li>
-    <li>talkedabout->talked quietly about</li>
-    <li>talkedabout->talked deeply about</li>
-    <li>talkedabout->connected on the topic of</li>
+    <li>r_logentry->[INITIATOR_nameDef]和[RECIPIENT_nameDef][talkedabout][subject]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]與[RECIPIENT_nameDef][talkedabout][subject]。</li>
+    <li>talkedabout->聊了關於[subject]的事</li>
+    <li>talkedabout->小聊了關於[subject]的事</li>
+    <li>talkedabout->談到了關於[subject]的事</li>
+    <li>talkedabout->聊到了關於[subject]的事</li>
+    <li>talkedabout->談論了關於[subject]的事</li>
+    <li>talkedabout->交換了對於[subject]的看法</li>
+    <li>talkedabout->談論了對於[subject]的看法</li>
+    <li>talkedabout->小聲的談論了對於[subject]的看法</li>
+    <li>talkedabout->深度的討論了對於[subject]的看法</li>
+    <li>talkedabout->交流了彼此對[subject]的意見</li>
     <li>subject->[TalkTopicHeavy]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
@@ -93,21 +93,21 @@
     <li>insultcomparison->[Enemy]</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic].</li>
-    <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef][insulted]了[target]的[PersonalCharacteristic]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]把[target]拿來和[insultcomparison]比較。</li>
+    <li>r_logentry->[INITIATOR_nameDef]把[target]說成[insultcomparison]比較。</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
-    <li>insulted(p=3)->insulted</li>
-    <li>insulted->openly insulted</li>
-    <li>insulted->loudly insulted</li>
-    <li>insulted->flagrantly insulted</li>
-    <li>insulted->directly insulted</li>
-    <li>insulted->viciously insulted</li>
-    <li>insulted->flagrantly disrespected</li>
-    <li>insulted->slandered</li>
-    <li>insulted->hurled invective about</li>
-    <li>insulted->derided</li>
+    <li>insulted(p=3)->羞辱</li>
+    <li>insulted->公然的羞辱</li>
+    <li>insulted->大聲羞辱</li>
+    <li>insulted->咄咄逼人的羞辱</li>
+    <li>insulted->直接的羞辱</li>
+    <li>insulted->惡毒的羞辱</li>
+    <li>insulted->公然的侮辱</li>
+    <li>insulted->誹謗</li>
+    <li>insulted->貶低</li>
+    <li>insulted->譏諷</li>
     <li>insultcomparison(p=2)->[Animal]</li>
     <li>insultcomparison->[Enemy]</li>
   </Insult.logRulesInitiator.rulesStrings>
@@ -131,24 +131,24 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
-    <li>complimented(p=3)->complimented</li>
-    <li>complimented->praised</li>
-    <li>complimented->commended</li>
-    <li>complimented->lauded</li>
-    <li>complimented->applauded</li>
-    <li>complimented->celebrated</li>
-    <li>complimented->saluted</li>
-    <li>complimented->spoke kindly of</li>
-    <li>complimented->expressed good things about</li>
-    <li>complimented->offered kinds words about</li>
-    <li>complimented->verbally appreciated</li>
-    <li>complimented->expressed appreciation for</li>
-    <li>complimented->said good things about</li>
+    <li>r_logentry->[INITIATOR_nameDef][complimented]了[RECIPIENT_nameDef]的[PersonalCharacteristic]。</li>
+    <li>complimented(p=6)->讚美</li>
+    <li>complimented->稱讚</li>
+    <li>complimented->稱讚</li>
+    <li>complimented->稱讚</li>
+    <li>complimented->稱讚</li>
+    <li>complimented->誇讚</li>
+    <li>complimented->誇獎</li>
+    <li>complimented->誇獎</li>
+    <li>complimented->誇獎</li>
+    <li>complimented->誇獎</li>
+    <li>complimented->褒揚</li>
+    <li>complimented->褒揚</li>
+    <li>complimented->褒揚</li>
   </KindWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: slight -->
-  <Slight.label>冷落</Slight.label>
+  <Slight.label>嘲諷</Slight.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
@@ -167,21 +167,21 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef][madefunof][target]的[PersonalCharacteristic]。</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
-    <li>madefunof->made fun of</li>
-    <li>madefunof->disrespected</li>
-    <li>madefunof->subtly scorned</li>
-    <li>madefunof->subtly shamed</li>
-    <li>madefunof->spoke badly of</li>
-    <li>madefunof->spoke negatively of</li>
-    <li>madefunof->laughed at</li>
-    <li>madefunof->sniggered at</li>
-    <li>madefunof->implied negative things about</li>
-    <li>madefunof->belittled</li>
-    <li>madefunof->made a contemptuous remark about</li>
-    <li>madefunof->offered a backhanded compliment about</li>
+    <li>target->[RECIPIENT_nameDef]的[PersonFamily]</li>
+    <li>madefunof->嘲笑</li>
+    <li>madefunof->嘲笑</li>
+    <li>madefunof->嘲笑</li>
+    <li>madefunof->調侃</li>
+    <li>madefunof->拐個彎的嘲笑</li>
+    <li>madefunof->拐個彎的貶低</li>
+    <li>madefunof->訕笑</li>
+    <li>madefunof->譏笑</li>
+    <li>madefunof->諷刺</li>
+    <li>madefunof->冷嘲熱諷</li>
+    <li>madefunof->貼標籤到</li>
+    <li>madefunof->吐槽</li>
   </Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>

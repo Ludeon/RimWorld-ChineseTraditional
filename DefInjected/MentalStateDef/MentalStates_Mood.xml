@@ -6,8 +6,7 @@
   <!-- EN: Mental state: Tantrum -->
   <BedroomTantrum.baseInspectLine>心理狀態：發怒</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0}正在大發脾氣。\n\n[PAWN_pronoun]打算破壞[PAWN_possessive]房間裡的東西來洩忿。</BedroomTantrum.beginLetter>
-  <!-- EN: tantrum -->
+  <BedroomTantrum.beginLetter>{0}正在大發脾氣。\n\n{PAWN_pronoun}打算破壞{PAWN_possessive}房間裡的東西來洩忿。</BedroomTantrum.beginLetter>
   <BedroomTantrum.beginLetterLabel>發怒</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0}冷靜下來了。</BedroomTantrum.recoveryMessage>
@@ -17,8 +16,7 @@
   <!-- EN: Mental state: Berserk -->
   <Berserk.baseInspectLine>心理狀態：狂暴</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>{0}陷入狂暴了。\n\n[PAWN_pronoun]會攻擊[PAWN_pronoun]見到的任何人。</Berserk.beginLetter>
-  <!-- EN: berserk -->
+  <Berserk.beginLetter>{0}陷入狂暴了。\n\n{PAWN_pronoun}會攻擊{PAWN_pronoun}見到的任何人。</Berserk.beginLetter>
   <Berserk.beginLetterLabel>狂暴</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>{0}已經恢復理智。</Berserk.recoveryMessage>
@@ -49,8 +47,7 @@
   <!-- EN: Mental state: Corpse obsession -->
   <CorpseObsession.baseInspectLine>心理狀態：</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see. -->
-  <CorpseObsession.beginLetter>{0}的理智崩潰了，展現出對屍體的迷戀。\n\n[PAWN_pronoun]打算把屍體都挖出來並擺在顯眼的地方。</CorpseObsession.beginLetter>
-  <!-- EN: corpse obsession -->
+  <CorpseObsession.beginLetter>{0}的理智崩潰了，展現出對屍體的迷戀。\n\n{PAWN_pronoun}打算把屍體都挖出來並擺在顯眼的地方。</CorpseObsession.beginLetter>
   <CorpseObsession.beginLetterLabel>戀屍</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
   <CorpseObsession.recoveryMessage>{0}恢復正常了。</CorpseObsession.recoveryMessage>
@@ -60,8 +57,7 @@
   <!-- EN: Mental state: Fire starting spree -->
   <FireStartingSpree.baseInspectLine>心理狀態：縱火</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
-  <FireStartingSpree.beginLetter>{0}打算縱火以發洩壓力。\n\n[PAWN_pronoun]會先遊蕩一段時間，然後隨機引發火災。</FireStartingSpree.beginLetter>
-  <!-- EN: fire starting spree -->
+  <FireStartingSpree.beginLetter>{0}打算縱火以發洩壓力。\n\n{PAWN_pronoun}會先遊蕩一段時間，然後隨機引發火災。</FireStartingSpree.beginLetter>
   <FireStartingSpree.beginLetterLabel>縱火</FireStartingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on a fire starting spree. -->
   <FireStartingSpree.recoveryMessage>{0}已經恢復理智。</FireStartingSpree.recoveryMessage>
@@ -71,7 +67,7 @@
   <!-- EN: Mental state: Given up and leaving -->
   <GiveUpExit.baseInspectLine>心理狀態：萬念俱灰</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0}打算分道揚鑣。\n\n[PAWN_pronoun]打算離開並在其他地方開啟更好的人生。</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0}打算分道揚鑣。\n\n{PAWN_pronoun}打算離開並在其他地方開啟更好的人生。</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>萬念俱灰</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
@@ -82,8 +78,7 @@
   <!-- EN: Mental state: Insulting spree -->
   <InsultingSpree.baseInspectLine>心理狀態：羞辱洩忿</InsultingSpree.baseInspectLine>
   <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
-  <InsultingSpree.beginLetter>{0}正不停的羞辱他人以發洩情緒。\n\n[PAWN_pronoun]會四處遊蕩，隨機羞辱附近的人。</InsultingSpree.beginLetter>
-  <!-- EN: insulting spree -->
+  <InsultingSpree.beginLetter>{0}正不停的羞辱他人以發洩情緒。\n\n{PAWN_pronoun}會四處遊蕩，隨機羞辱附近的人。</InsultingSpree.beginLetter>
   <InsultingSpree.beginLetterLabel>羞辱洩忿</InsultingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on an insulting spree. -->
   <InsultingSpree.recoveryMessage>{0}終於住口了。</InsultingSpree.recoveryMessage>
@@ -104,8 +99,7 @@
   <!-- EN: Mental state: Murderous rage -->
   <MurderousRage.baseInspectLine>心理狀態：憤而謀殺</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
-  <MurderousRage.beginLetter>{0}發狂了。\n\n[PAWN_pronoun]打算殺死{1}。</MurderousRage.beginLetter>
-  <!-- EN: murderous rage -->
+  <MurderousRage.beginLetter>{0}發狂了。\n\n{PAWN_pronoun}打算殺死{1}。</MurderousRage.beginLetter>
   <MurderousRage.beginLetterLabel>憤而謀殺</MurderousRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a murderous rage. -->
   <MurderousRage.recoveryMessage>{0}恢復理智了。</MurderousRage.recoveryMessage>
@@ -115,8 +109,7 @@
   <!-- EN: Mental state: Sadistic rage -->
   <SadisticRage.baseInspectLine>心理狀態：</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0}壓抑不住情緒了。\n\n[PAWN_pronoun]要將[PAWN_possessive]怒火發洩在俘虜身上。</SadisticRage.beginLetter>
-  <!-- EN: sadistic rage -->
+  <SadisticRage.beginLetter>{0}壓抑不住情緒了。\n\n{PAWN_pronoun}要將{PAWN_possessive}怒火發洩在俘虜身上。</SadisticRage.beginLetter>
   <SadisticRage.beginLetterLabel>施虐</SadisticRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>{0}冷靜下來了。</SadisticRage.recoveryMessage>
@@ -126,8 +119,7 @@
   <!-- EN: Mental state: Slaughterer -->
   <Slaughterer.baseInspectLine>心理狀態：屠殺動物</Slaughterer.baseInspectLine>
   <!-- EN: {0} has a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>{0}壓抑不住情緒了，[PAWN_possessive]要將怒火發洩在你的動物身上。</Slaughterer.beginLetter>
-  <!-- EN: slaughterer -->
+  <Slaughterer.beginLetter>{0}壓抑不住情緒了，{PAWN_possessive}要將怒火發洩在你的動物身上。</Slaughterer.beginLetter>
   <Slaughterer.beginLetterLabel>屠殺動物</Slaughterer.beginLetterLabel>
   <!-- EN: {0} is no longer slaughtering random animals. -->
   <Slaughterer.recoveryMessage>{0}停止傷害動物了。</Slaughterer.recoveryMessage>
@@ -137,8 +129,7 @@
   <!-- EN: Mental state: Tantrum -->
   <Tantrum.baseInspectLine>心理狀態：發怒</Tantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
-  <Tantrum.beginLetter>{0}正在大發脾氣。\n\n[PAWN_pronoun]會隨機破壞家具、物品或建築。</Tantrum.beginLetter>
-  <!-- EN: tantrum -->
+  <Tantrum.beginLetter>{0}正在大發脾氣。\n\n{PAWN_pronoun}會隨機破壞家具、物品或建築。</Tantrum.beginLetter>
   <Tantrum.beginLetterLabel>發怒</Tantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <Tantrum.recoveryMessage>{0}冷靜下來了。</Tantrum.recoveryMessage>
@@ -148,8 +139,7 @@
   <!-- EN: Mental state: Insulting spree against {0} -->
   <TargetedInsultingSpree.baseInspectLine>心理狀態：羞辱{0}洩忿</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
-  <TargetedInsultingSpree.beginLetter>{0}正不停的羞辱{1}以發洩[PAWN_possessive]情緒。\n\n[PAWN_pronoun]會緊緊纏著並不停的羞辱{1}。</TargetedInsultingSpree.beginLetter>
-  <!-- EN: insulting spree -->
+  <TargetedInsultingSpree.beginLetter>{0}正不停的羞辱{1}以發洩{PAWN_possessive}情緒。\n\n{PAWN_pronoun}會緊緊纏著並不停的羞辱{1}。</TargetedInsultingSpree.beginLetter>
   <TargetedInsultingSpree.beginLetterLabel>羞辱洩忿</TargetedInsultingSpree.beginLetterLabel>
   <TargetedInsultingSpree.recoveryMessage>{0}終於住口了。</TargetedInsultingSpree.recoveryMessage>
   
@@ -158,8 +148,7 @@
   <!-- EN: Mental state: Tantrum -->
   <TargetedTantrum.baseInspectLine>心理狀態：發怒</TargetedTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
-  <TargetedTantrum.beginLetter>{0}正在大發脾氣。\n\n[PAWN_pronoun]打算毀了{1}。</TargetedTantrum.beginLetter>
-  <!-- EN: tantrum -->
+  <TargetedTantrum.beginLetter>{0}正在大發脾氣。\n\n{PAWN_pronoun}打算毀了{1}。</TargetedTantrum.beginLetter>
   <TargetedTantrum.beginLetterLabel>發怒</TargetedTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <TargetedTantrum.recoveryMessage>{0}冷靜下來了。</TargetedTantrum.recoveryMessage>
@@ -169,7 +158,7 @@
   <!-- EN: Mental state: Hiding in room -->
   <Wander_OwnRoom.baseInspectLine>心理狀態：閉門不出</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.beginLetter>{0}把自己鎖在[PAWN_possessive]房間中。</Wander_OwnRoom.beginLetter>
+  <Wander_OwnRoom.beginLetter>{0}把自己鎖在{PAWN_possessive}房間中。</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
   <Wander_OwnRoom.beginLetterLabel>閉門不出</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
