@@ -10,10 +10,10 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef]向[OTHER_nameIndef]提出分手。</li>
-    <li>r_logentry->[INITIATOR_nameDef]要求和[OTHER_nameIndef]結束這段關係。</li>
-    <li>r_logentry->[INITIATOR_nameDef]告訴[OTHER_nameIndef]兩人之間已經不可能了。</li>
-    <li>r_logentry->[INITIATOR_nameDef]告訴[OTHER_nameIndef]不希望彼此再相見。</li>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]提出分手。</li>
+    <li>r_logentry->[INITIATOR_nameDef]要求和[RECIPIENT_nameDef]結束這段關係。</li>
+    <li>r_logentry->[INITIATOR_nameDef]告訴[RECIPIENT_nameDef]兩人之間已經不可能了。</li>
+    <li>r_logentry->[INITIATOR_nameDef]告訴[RECIPIENT_nameDef]不希望彼此再相見。</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -24,9 +24,9 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef]向[OTHER_nameIndef]求婚。</li>
-    <li>r_logentry->[INITIATOR_nameDef]向[OTHER_nameIndef]承諾下半輩子要一起度過。</li>
-    <li>r_logentry->[INITIATOR_nameDef]向[OTHER_nameIndef]承諾會一輩子照顧[OTHER_objective]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]求婚。</li>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]承諾下半輩子要一起度過。</li>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]承諾會一輩子照顧[OTHER_objective]。</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -95,15 +95,15 @@
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameIndef][wooed]。</li>
-    <li>wooed->試圖[wootactic]吸引[OTHER_nameDef]的注意</li>
-    <li>wooed->[wootactic]來吸引[OTHER_nameDef]的目光</li>
-    <li>wooed->[wootactic]來勾引[OTHER_nameDef]</li>
-    <li>wooed->[wootactic]和[OTHER_nameDef]調情</li>
-    <li>wooed->試圖勾引[OTHER_nameDef]</li>
-    <li>wooed->向[OTHER_nameDef]調情</li>
-    <li>wooed->試著追求[OTHER_nameDef]</li>
-    <li>wooed->試著博得[OTHER_nameDef]的好感</li>
-    <li>wooed->試著討[OTHER_nameDef]的歡心</li>
+    <li>wooed->試圖[wootactic]吸引[RECIPIENT_nameDef]的注意</li>
+    <li>wooed->[wootactic]來吸引[RECIPIENT_nameDef]的目光</li>
+    <li>wooed->[wootactic]來勾引[RECIPIENT_nameDef]</li>
+    <li>wooed->[wootactic]和[RECIPIENT_nameDef]調情</li>
+    <li>wooed->試圖勾引[RECIPIENT_nameDef]</li>
+    <li>wooed->向[RECIPIENT_nameDef]調情</li>
+    <li>wooed->試著追求[RECIPIENT_nameDef]</li>
+    <li>wooed->試著博得[RECIPIENT_nameDef]的好感</li>
+    <li>wooed->試著討[RECIPIENT_nameDef]的歡心</li>
     <li>wootactic(p=4)->[complimenting][OTHER_possessive][PersonalCharacteristic]</li>
     <li>wootactic->說一個關於[TalkTopicAny]的故事</li>
     <li>wootactic->說一個關於[TalkTopicAny]的傳說</li>
