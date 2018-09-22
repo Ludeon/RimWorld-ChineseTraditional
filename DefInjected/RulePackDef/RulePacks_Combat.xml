@@ -83,8 +83,8 @@
     <li>result->but the attack was cleverly avoided</li>
   -->
   <Combat_Dodge.rulePack.rulesStrings>
-    <li>logentry(p=0.2)->[RECIPIENT_definite]閃過了[INITIATOR_definite]用[implement]使出的[damaged_inf]擊。</li>
-    <li>logentry(p=0.2)->[RECIPIENT_definite]避開了[INITIATOR_definite]的[damaged_inf]擊。</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite]閃過了[INITIATOR_definite]用[implement]使出的[damaged_inf]擊。</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite]避開了[INITIATOR_definite]的[damaged_inf]擊。</li>
     <li>result->但[RECIPIENT_definite]跳開了</li>
     <li>result->但被[RECIPIENT_definite]的假動作誤導了</li>
     <li>result->但被巧妙的避開了</li>
@@ -218,9 +218,9 @@
     <li>r_logentry(p=0.3)->[INITIATOR_definite]把[RECIPIENT_definite]的[destroyed_targets][destroyed_past][destroyed_suffix]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite][expertly][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets] with [implement]。</li>
-    <li>result(p=1,RECIPIENT_part_damaged_count==0)->[destroyed_present][recipient_possessive][destroyed_targets]</li>
-    <li>result(p=1,RECIPIENT_part_destroyed_count==0)->[damaged_present][recipient_possessive][damaged_targets]</li>
-    <li>result(p=1)->[destroyed_present][recipient_possessive][destroyed_targets]並且[damaged_present][recipient_possessive][damaged_targets]</li>
+    <li>result(p=1,RECIPIENT_part_damaged_count==0)->[destroyed_present][RECIPIENT_possessive][destroyed_targets]</li>
+    <li>result(p=1,RECIPIENT_part_destroyed_count==0)->[damaged_present][RECIPIENT_possessive][damaged_targets]</li>
+    <li>result(p=1)->[destroyed_present][RECIPIENT_possessive][destroyed_targets]並且[damaged_present][RECIPIENT_possessive][damaged_targets]</li>
     <li>action(p=0.3)->[INITIATOR_definite]用[implement][damaged_inf]傷[RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite]用[implement][damaged_inf]傷[RECIPIENT_definite]</li>
     <li>action->[INITIATOR_definite]用[implement][damaged_past]了[RECIPIENT_definite]</li>
@@ -340,7 +340,7 @@
     <li>to->into</li>
   -->
   <Combat_MeleeIncludes.rulePack.rulesStrings>
-    <li>r_logentry->logentry->[action]，[result]。</li>
+    <li>r_logentry->[action]，[result]。</li>
     <li>r_logentry(p=0.2)->[action]。</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive][WEAPON_label]的[TOOL_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive][WEAPON_label]</li>

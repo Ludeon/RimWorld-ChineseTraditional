@@ -68,7 +68,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
   <MessageTameSuccess>{RECRUITER_labelShort}成功馴服了{1}(成功率{2})。</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功馴服了{1}(成功率{2})，並將{PAWN_objective}命名為{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功馴服了{1}(成功率{2})，並將牠命名為{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>殖民地無法支付這筆資金。</MessageColonyCannotAfford>
@@ -280,7 +280,7 @@
   <MessageSettledInExistingMap>你已經成功在新地區建立新據點。</MessageSettledInExistingMap>
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
-  <MessagePermanentWoundHealed>{PAWN_labelShort}的{2}因為{0}痊癒了。</MessagePermanentWoundHealed>
+  <MessagePermanentWoundHealed>{PAWN_labelShort}的{2}痊癒了。原因：{0}</MessagePermanentWoundHealed>
 
   <!-- EN: Since you rescued {!_objective}, {1_labelShort} has joined your group! -->
   <MessageRescueeJoined>因為你救了{!_objective}的命，{1_labelShort}加入了你的隊伍！</MessageRescueeJoined>
@@ -306,7 +306,7 @@
   <MessageTransportPodsArrivedAndAddedToCaravan>你的運輸艙已經抵達，內容物已加入至{0}。</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Your colonists have finished loading the transport pods. -->
-  <MessageFinishedLoadingTransporters>你的居民已完成運輸艙的裝載。</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingTransporters>你的居民已完成運輸艙的裝載工作。</MessageFinishedLoadingTransporters>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>你的{1}無法完成運輸艙的裝載工作，因為無法接觸部份物品或人員({2_labelShort})。</MessageCantLoadMoreIntoTransporters>

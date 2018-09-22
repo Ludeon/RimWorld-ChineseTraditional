@@ -375,7 +375,7 @@
   <!-- EN: Base price -->
   <MarketValue>基本價值</MarketValue>
   <!-- EN: Covers -->
-  <Covers>掩護</Covers>
+  <Covers>覆蓋</Covers>
   <!-- EN: Layer -->
   <Layer>層</Layer>
   <!-- EN: Cover effectiveness -->
@@ -707,7 +707,9 @@
   <!-- EN: Delete policy... -->
   <DeleteDrugPolicy>刪除用藥計劃...。</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
-  <DrugPolicyInUse>用藥計劃已被{0}使用中。</DrugPolicyInUse>
+  <DrugPolicyInUse>{0}已在使用用藥計劃。</DrugPolicyInUse>
+  <!-- EN: Food restriction is in use by {0}. -->
+  <FoodRestrictionInUse>{0}已在使用客製化菜單。</FoodRestrictionInUse>
   <!-- EN: Social drugs -->
   <SocialDrugs>社交藥物</SocialDrugs>
   <!-- EN: No drugs -->
@@ -762,6 +764,30 @@
   <DrugUsageTipForJoy>娛樂目的\n\n為了滿足娛樂及社交需求而使用這個藥物，並滿足藥癮(如果有的話)。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
   <DrugUsageTipScheduled>計劃使用\n\n在滿足特定條件時根據計劃使用藥物。</DrugUsageTipScheduled>
+
+  <!-- Food restriction management -->
+  <!-- EN: Food restriction -->
+  <FoodRestriction>客製化菜單</FoodRestriction>
+  <!-- EN: Lavish -->
+  <FoodRestrictionLavish>豪華料理</FoodRestrictionLavish>
+  <!-- EN: Fine -->
+  <FoodRestrictionFine>精緻料理</FoodRestrictionFine>
+  <!-- EN: Simple -->
+  <FoodRestrictionSimple>簡單料理</FoodRestrictionSimple>
+  <!-- EN: Paste -->
+  <FoodRestrictionPaste>營養膏</FoodRestrictionPaste>
+  <!-- EN: Raw -->
+  <FoodRestrictionRaw>生食</FoodRestrictionRaw>
+  <!-- EN: Nothing -->
+  <FoodRestrictionNothing>無</FoodRestrictionNothing>
+  <!-- EN: Select food restriction -->
+  <SelectFoodRestriction>選擇菜單</SelectFoodRestriction>
+  <!-- EN: New food restriction -->
+  <NewFoodRestriction>新菜單</NewFoodRestriction>
+  <!-- EN: Delete food restriction -->
+  <DeleteFoodRestriction>刪除菜單</DeleteFoodRestriction>
+  <!-- EN: No food restriction selected -->
+  <NoFoodRestrictionSelected>未指定菜單</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
   <!-- EN: Defaults -->
