@@ -98,20 +98,20 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <Exhausted.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}筋疲力盡的倒下了</li>
-    <li>image->{PAWN_nameFull}躺在地上，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}倒在地上，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}躺在床上，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}癱在沙發上，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}睡死了過去，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]筋疲力盡的倒下了</li>
+    <li>image->[PAWN_nameFull]躺在地上，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]倒在地上，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在床上，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]癱在沙發上，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]睡死了過去，[circumstance_group]</li>
     <li>circumstance_phrase->眼皮像吊了鉛塊一般的沉重</li>
     <li>circumstance_phrase->明顯疲勞過度</li>
     <li>circumstance_phrase->滿身大汗</li>
     <li>circumstance_phrase->累得一根手指也動不了了</li>
-    <li>desc_sentence->{PAWN_nameDef}最新的工作成果就擺在一旁，全數完成。</li>
-    <li>desc_sentence->一個驚豔的工作成果擺在{PAWN_nameDef}身旁。</li>
-    <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]對{PAWN_nameDef}的努力奉獻表示感激。</li>
-    <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]像{PAWN_nameDef}一樣倒在附近。</li>
+    <li>desc_sentence->[PAWN_nameDef]最新的工作成果就擺在一旁，全數完成。</li>
+    <li>desc_sentence->一個驚豔的工作成果擺在[PAWN_nameDef]身旁。</li>
+    <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]對[PAWN_nameDef]的努力奉獻表示感激。</li>
+    <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]像[PAWN_nameDef]一樣倒在附近。</li>
     <li>desc_sentence->這幅景象出現在一座新建的[Community]。</li>
   </Exhausted.rulePack.rulesStrings>
   
@@ -177,19 +177,19 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HeatstrokeRevealed.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}中暑了</li>
-    <li>tale_noun->{PAWN_nameDef}熱壞身體了</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]走在沙地上</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]縮在一處蔭涼處</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]尋找著水源</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]尋找著蔭涼處</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]爬過被高溫烤得炙熱的地面</li>
+    <li>tale_noun->[PAWN_nameDef]中暑了</li>
+    <li>tale_noun->[PAWN_nameDef]熱壞身體了</li>
+    <li>image->[PAWN_nameFull][circumstance_group]走在沙地上</li>
+    <li>image->[PAWN_nameFull][circumstance_group]縮在一處蔭涼處</li>
+    <li>image->[PAWN_nameFull][circumstance_group]尋找著水源</li>
+    <li>image->[PAWN_nameFull][circumstance_group]尋找著蔭涼處</li>
+    <li>image->[PAWN_nameFull][circumstance_group]爬過被高溫烤得炙熱的地面</li>
     <li>circumstance_phrase->渾身通紅的</li>
     <li>circumstance_phrase->滿頭大汗的</li>
     <li>circumstance_phrase->嘴唇乾裂的</li>
     <li>circumstance_phrase->頻頻嘔吐的</li>
     <li>desc_sentence->[Quantity_adjphrase]具乾癟的[Animal]屍體散佈在四周。</li>
-    <li>desc_sentence->{PAWN_nameDef}的衣服已經破爛不堪。</li>
+    <li>desc_sentence->[PAWN_nameDef]的衣服已經破爛不堪。</li>
     <li>desc_sentence->隱約可見到熱辣辣的太陽無慈悲的閃耀著光芒。</li>
     <li>desc_sentence->這景象就像是在一座熱氣騰騰的沙漠。</li>
     <li>desc_sentence->這景象就像是在室內一台電暖爐旁。</li>
@@ -220,19 +220,19 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}出現了低體溫症</li>
-    <li>tale_noun->{PAWN_nameDef}快要冷死了</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，穿過雪地</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，縮在溫暖處</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，尋找著溫暖的衣服</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，臥倒在火焰旁</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，嘗試生火</li>
+    <li>tale_noun->[PAWN_nameDef]出現了低體溫症</li>
+    <li>tale_noun->[PAWN_nameDef]快要冷死了</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，穿過雪地</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，縮在溫暖處</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，尋找著溫暖的衣服</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，臥倒在火焰旁</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，嘗試生火</li>
     <li>circumstance_phrase->的臉色漸漸鐵青</li>
     <li>circumstance_phrase->無法控制的顫抖著</li>
     <li>circumstance_phrase->披著冰雪</li>
     <li>circumstance_phrase->每一口呼氣都散發著白霧</li>
     <li>desc_sentence->[Quantity_adjphrase]具凍成冰棒的[Animal]屍體散佈在周圍。</li>
-    <li>desc_sentence->{PAWN_nameDef}的衣服已經破爛不堪。</li>
+    <li>desc_sentence->[PAWN_nameDef]的衣服已經破爛不堪。</li>
     <li>desc_sentence->隱約可見淡藍色的月亮冷冷的照耀的地面。</li>
     <li>desc_sentence->這景象就像是在一片覆蓋著冰雪的[TreeType]林中。</li>
     <li>desc_sentence->這景象就像是在冷凍庫中。</li>
@@ -264,13 +264,13 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <IllnessRevealed.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}染上了[ILLNESS_label]</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，步履蹣跚的行走在田野上。</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]倒在地上</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]倒在床上</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]倒在病床上</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]倒在椅子上</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]臥倒在火焰旁</li>
+    <li>tale_noun->[PAWN_nameDef]染上了[ILLNESS_label]</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，步履蹣跚的行走在田野上。</li>
+    <li>image->[PAWN_nameFull][circumstance_group]倒在地上</li>
+    <li>image->[PAWN_nameFull][circumstance_group]倒在床上</li>
+    <li>image->[PAWN_nameFull][circumstance_group]倒在病床上</li>
+    <li>image->[PAWN_nameFull][circumstance_group]倒在椅子上</li>
+    <li>image->[PAWN_nameFull][circumstance_group]臥倒在火焰旁</li>
     <li>circumstance_phrase->不由自主的出著汗</li>
     <li>circumstance_phrase->無法控制的顫抖著</li>
     <li>circumstance_phrase->不由自主的出汗和顫抖著</li>
@@ -653,14 +653,14 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <ToxicityRevealed.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}的身體漸漸被毒素侵蝕</li>
-    <li>tale_noun->{PAWN_nameDef}中毒了</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，倒在地上</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，倒在床上</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，倒在病床上</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，臥倒在火焰旁</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，嘗試點燃火焰</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，無意識的脫去{PAWN_possessive}衣服</li>
+    <li>tale_noun->[PAWN_nameDef]的身體漸漸被毒素侵蝕</li>
+    <li>tale_noun->[PAWN_nameDef]中毒了</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，倒在地上</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，倒在床上</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，倒在病床上</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，臥倒在火焰旁</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，嘗試點燃火焰</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，無意識的脫去[PAWN_possessive]衣服</li>
     <li>circumstance_phrase->不由自主的直冒汗</li>
     <li>circumstance_phrase->無法控制的顫抖著</li>
     <li>circumstance_phrase->不由自主的冒汗和顫抖著</li>
@@ -668,7 +668,7 @@
     <li>circumstance_phrase->頻頻嘔吐</li>
     <li>circumstance_phrase->身上長出了皮疹</li>
     <li>desc_sentence->[Quantity_adjphrase]具扭曲的[Animal]屍體散佈在附近。</li>
-    <li>desc_sentence->{PAWN_nameDef}的衣服已經破爛不堪。</li>
+    <li>desc_sentence->[PAWN_nameDef]的衣服已經破爛不堪。</li>
     <li>desc_sentence->天空中籠罩著朦朧的綠色。</li>
     <li>desc_sentence->周圍的景象彷彿扭曲。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]也有類似的狀況。</li>

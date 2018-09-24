@@ -28,14 +28,14 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAmbushDefeated.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}的旅隊成功抵禦了一場攻擊</li>
-    <li>tale_noun->這場戰鬥以{PAWN_nameDef}的旅隊的勝利告終</li>
-    <li>image->{PAWN_nameFull}在[circumstance_group]的同時組織反抗</li>
-    <li>image->{PAWN_nameFull}揮舞著[Weapon]進行防禦的同時[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}用{PAWN_possessive}[Weapon]進行反擊的同時[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}在[circumstance_group]時站得和建築一樣高</li>
-    <li>image->{PAWN_nameFull}在[circumstance_group]時表現得毫無畏懼</li>
-    <li>image->{PAWN_nameFull}在[circumstance_group]時小心翼翼</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊成功抵禦了一場攻擊</li>
+    <li>tale_noun->這場戰鬥以[PAWN_nameDef]的旅隊的勝利告終</li>
+    <li>image->[PAWN_nameFull]在[circumstance_group]的同時組織反抗</li>
+    <li>image->[PAWN_nameFull]揮舞著[Weapon]進行防禦的同時[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]用[PAWN_possessive][Weapon]進行反擊的同時[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在[circumstance_group]時站得和建築一樣高</li>
+    <li>image->[PAWN_nameFull]在[circumstance_group]時表現得毫無畏懼</li>
+    <li>image->[PAWN_nameFull]在[circumstance_group]時小心翼翼</li>
     <li>circumstance_phrase->阻止敵人逼近</li>
     <li>circumstance_phrase->圍繞貨車移動</li>
     <li>circumstance_phrase->放聲大吼</li>
@@ -74,11 +74,11 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}的旅隊成功攻破了敵人的防衛</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，朝[Enemy]衝去</li>
-    <li>image->{PAWN_nameFull}揮舞著[Weapon]，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}舞動著[Weapon]，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}站得和建築一樣高，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊成功攻破了敵人的防衛</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，朝[Enemy]衝去</li>
+    <li>image->[PAWN_nameFull]揮舞著[Weapon]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]舞動著[Weapon]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]站得和建築一樣高，[circumstance_group]</li>
     <li>circumstance_phrase->眼中透出凶光</li>
     <li>circumstance_phrase->毫不畏懼</li>
     <li>circumstance_phrase->放聲大吼</li>
@@ -118,26 +118,26 @@
     <li>desc_sentence->[PAWN_nameDef] is gasping for breath.</li>
   -->
   <CaravanFled.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}的旅隊正在逃離危險</li>
-    <li>tale_noun->{PAWN_nameDef}的旅隊正在逃離敵人</li>
-    <li>tale_noun->{PAWN_nameDef}的旅隊驚險的逃離了危險</li>
-    <li>tale_noun->{PAWN_nameDef}正被敵人追擊</li>
-    <li>image->{PAWN_nameFull}死命的逃過了[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}狂奔逃過了[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}藏到一顆大石後面，躲避[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}一邊戰鬥一邊躲避[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}悄悄躲過了[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊正在逃離危險</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊正在逃離敵人</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊驚險的逃離了危險</li>
+    <li>tale_noun->[PAWN_nameDef]正被敵人追擊</li>
+    <li>image->[PAWN_nameFull]死命的逃過了[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]狂奔逃過了[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]藏到一顆大石後面，躲避[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]一邊戰鬥一邊躲避[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]悄悄躲過了[circumstance_group]</li>
     <li>circumstance_phrase->[Quantity_adjphrase]名[Enemy]的追殺</li>
     <li>circumstance_phrase->[Quantity_adjphrase]名[Enemy]搜索</li>
     <li>circumstance_phrase->[Quantity_adjphrase]名[Enemy]</li>
     <li>circumstance_phrase->[Quantity_adjphrase]頭敵人的[Animal]</li>
     <li>circumstance_phrase->一名虎背熊腰的敵人[Enemy]</li>
-    <li>desc_sentence->{PAWN_nameDef}身後的追兵正揮舞著[Weapon]。</li>
-    <li>desc_sentence->{PAWN_nameDef}身後的追兵渾身纏繞著[Color]色煙霧。</li>
-    <li>desc_sentence->{PAWN_nameDef}身後的追兵露出凶狠的眼神。</li>
-    <li>desc_sentence->{PAWN_nameDef}身後的追兵正揮舞著[Weapon]。</li>
-    <li>desc_sentence->{PAWN_nameDef}汗流浹背。</li>
-    <li>desc_sentence->{PAWN_nameDef}跑得上氣不接下氣。</li>
+    <li>desc_sentence->[PAWN_nameDef]身後的追兵正揮舞著[Weapon]。</li>
+    <li>desc_sentence->[PAWN_nameDef]身後的追兵渾身纏繞著[Color]色煙霧。</li>
+    <li>desc_sentence->[PAWN_nameDef]身後的追兵露出凶狠的眼神。</li>
+    <li>desc_sentence->[PAWN_nameDef]身後的追兵正揮舞著[Weapon]。</li>
+    <li>desc_sentence->[PAWN_nameDef]汗流浹背。</li>
+    <li>desc_sentence->[PAWN_nameDef]跑得上氣不接下氣。</li>
   </CaravanFled.rulePack.rulesStrings>
   
   <!-- EN: caravan formed -->
@@ -162,12 +162,12 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
   -->
   <CaravanFormed.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}正準備朝冒險出發</li>
-    <li>tale_noun->{PAWN_nameDef}正組織旅隊</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]向目的地進發</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，遙望地平線</li>
-    <li>image->{PAWN_nameFull}裝滿行囊，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]，規劃著行程。</li>
+    <li>tale_noun->[PAWN_nameDef]正準備朝冒險出發</li>
+    <li>tale_noun->[PAWN_nameDef]正組織旅隊</li>
+    <li>image->[PAWN_nameFull][circumstance_group]向目的地進發</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，遙望地平線</li>
+    <li>image->[PAWN_nameFull]裝滿行囊，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull][circumstance_group]，規劃著行程。</li>
     <li>circumstance_phrase->全副武裝</li>
     <li>circumstance_phrase->帶足補給</li>
     <li>circumstance_phrase->為探險做好萬全準備</li>
@@ -203,12 +203,12 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <CaravanRemoteMining.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}的旅隊正在外地採掘豐富的[MATERIAL_label]</li>
-    <li>image->{PAWN_nameFull}正[circumstance_group]的用工具開挖一面[MATERIAL_label]岩壁</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]的捧著一大塊[MATERIAL_label]原石</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]的依靠著一面[MATERIAL_label]岩壁稍做休息</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]的協調開採隊伍挖掘含量豐富的[MATERIAL_label]</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]的仔細檢查礦脈</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊正在外地採掘豐富的[MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]的用工具開挖一面[MATERIAL_label]岩壁</li>
+    <li>image->[PAWN_nameFull][circumstance_group]的捧著一大塊[MATERIAL_label]原石</li>
+    <li>image->[PAWN_nameFull][circumstance_group]的依靠著一面[MATERIAL_label]岩壁稍做休息</li>
+    <li>image->[PAWN_nameFull][circumstance_group]的協調開採隊伍挖掘含量豐富的[MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull][circumstance_group]的仔細檢查礦脈</li>
     <li>circumstance_phrase->滿頭大汗</li>
     <li>circumstance_phrase->雙眼發亮</li>
     <li>circumstance_phrase->開懷大笑</li>
@@ -219,7 +219,7 @@
     <li>desc_sentence->就在不遠處有著臨時搭建的住所。</li>
     <li>desc_sentence->遠處還能看見[Quantity_adjphrase]條礦脈。</li>
     <li>desc_sentence->遠處可以看見幾顆樹木。</li>
-    <li>desc_sentence->{PAWN_nameDef}在工作中渾身沾滿汗水和沙塵。</li>
+    <li>desc_sentence->[PAWN_nameDef]在工作中渾身沾滿汗水和沙塵。</li>
   </CaravanRemoteMining.rulePack.rulesStrings>
   
 </LanguageData>

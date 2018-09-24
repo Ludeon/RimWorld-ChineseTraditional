@@ -10,9 +10,9 @@
     <li>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</li>
   -->
   <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
-    <li>r_art_description->[physical_description_root]。[context_sentence]。</li>
+    <li>r_art_description->[physical_description_root]。[context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
-    <li>desc_sentence_group->[desc_sentence]，[style_group]。</li>
+    <li>desc_sentence_group->[desc_sentence]，[style_group]</li>
     <li>context_sentence->這個[depiction]紀錄的是一件發生在[date]，[tale_noun]的故事。</li>
     <li>context_sentence->這個[depiction]記述了一件發生在[date]，有關[tale_noun]的故事。</li>
     <li>context_sentence->這個[depiction]述說了一件發生在[date]，[tale_noun]的故事。</li>
@@ -23,8 +23,8 @@
     <li>desc_sentence_group->[style_group]</li>
   -->
   <ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
-    <li>r_art_description->[physical_description_root]。</li>
-    <li>desc_sentence_group->[style_group]。</li>
+    <li>r_art_description->[physical_description_root]</li>
+    <li>desc_sentence_group->[style_group]</li>
   </ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
   
   <!-- EN:
@@ -298,7 +298,7 @@
     <li>style_clause->這是個[artstyle_adj]風格的作品，同時混合了[artstyle_adj]的元素</li>
     <li>style_clause->這個作品同時表現了[ConceptAny]和[ConceptAny]的概念</li>
     <li>style_clause->這個作品跳脫了[ConceptAny]和[ConceptAny]的概念</li>
-    <li>style_clause->畫面中的[composition]結構似乎與其[artstyle_adj]風格相衝突</li>
+    <li>style_clause->畫面中的[composition]結構看起來與其[artstyle_adj]風格相衝突</li>
     <li>style_clause->這個作品充滿著幽暗的深[Color]色和深[Color]色調</li>
     <li>style_clause->整個畫面幾乎完全由[composition]造型所組成</li>
     <li>symbolizes->象徵著</li>

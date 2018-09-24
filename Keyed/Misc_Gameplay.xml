@@ -29,7 +29,7 @@
   <!-- EN: Nobody -->
   <Nobody>無</Nobody>
   <!-- EN: Unowned -->
-  <Unowned>無擁有者</Unowned>
+  <Unowned>空床</Unowned>
   <!-- EN: Dead for {0} -->
   <DeadTime>死亡的{0}</DeadTime>
   <!-- EN: walk speed {0} -->
@@ -641,11 +641,11 @@
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
-  <Indoors>室內氣溫</Indoors>
+  <Indoors>室內</Indoors>
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>露天區</IndoorsUnroofed>
   <!-- EN: Outdoors -->
-  <Outdoors>室外氣溫</Outdoors>
+  <Outdoors>室外</Outdoors>
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
@@ -663,7 +663,7 @@
   <!-- EN: over a decade -->
   <OverADecade>超過十年</OverADecade>
   <!-- EN: less than a day -->
-  <LessThanADay>一天內</LessThanADay>
+  <LessThanADay>少於一天</LessThanADay>
 
   <!-- Shooting tooltip -->
   <!-- EN: Shot by {1_labelShort} -->
@@ -1047,8 +1047,8 @@
 
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>{0}: See available orders...。</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}：查看可用的指令...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>See available orders...。</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>查看可用的指令...</ClickToSeeAvailableOrders_Empty>
 
 </LanguageData>

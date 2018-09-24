@@ -54,7 +54,7 @@
   <RecruitFail>{0}沒能成功招募{1}(成功率{2})。</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>{PAWN_NameDef}是{RELATIVE_labelShort}的{1}。若{PAWN_NameDef}不幸死亡，{RELATIVE_labelShort}將會陷入長時間的悲傷，但如果你能救援{PAWN_NameDef}，{RELATIVE_labelShort}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef}是{RELATIVE_labelShort}的{1}。若{PAWN_nameDef}不幸死亡，{RELATIVE_labelShort}將會陷入長時間的悲傷，但如果你能救援{PAWN_nameDef}，{RELATIVE_labelShort}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
   <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
@@ -160,9 +160,9 @@
   <!-- EN: (relationship) -->
   <RelationshipAppendedLetterSuffix>(親友)</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_NameDef}是一名居民的親友，{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef}是一名居民的親友，{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_NameDef}是一名俘虜的親友，{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef}是一名俘虜的親友，{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->

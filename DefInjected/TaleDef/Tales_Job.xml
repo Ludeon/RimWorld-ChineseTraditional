@@ -35,7 +35,7 @@
     <li>circumstance_phrase->自在的</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]加入了談話。</li>
     <li>desc_sentence->派對會場五光十色。</li>
-    <li>desc_sentence->[Quantity_adjphrase]頭[Animal] play nearby.</li>
+    <li>desc_sentence->[Quantity_adjphrase]頭[Animal]在附近玩耍。</li>
   </AttendedParty.rulePack.rulesStrings>
   
   <!-- EN: built snowman -->
@@ -57,16 +57,16 @@
     <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
   -->
   <BuiltSnowman.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}正在堆雪人</li>
-    <li>tale_noun->{PAWN_nameDef}正在玩雪</li>
-    <li>image->{PAWN_nameFull}捏出一顆雪球，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull} rolling a giant ball of snow on the ground [circumstance_group]</li>
-    <li>image->{PAWN_nameFull} arranging [Vegetable]s into a rough human face [circumstance_group]</li>
-    <li>image->{PAWN_nameFull} lying down in the snow [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]正在堆雪人</li>
+    <li>tale_noun->[PAWN_nameDef]正在玩雪</li>
+    <li>image->[PAWN_nameFull]捏出一顆雪球，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在地上滾出一大顆雪球，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]將許多[Vegetable]粗略的排列成一張人臉的形狀，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]仰躺在雪地裡，[circumstance_group]</li>
     <li>circumstance_phrase->身上披著好幾件大衣</li>
     <li>circumstance_phrase->浴身在一場小型的冰風暴中</li>
-    <li>circumstance_phrase->{PAWN_possessive}的朋友也用雪堆起了堡壘</li>
-    <li>circumstance_phrase->{PAWN_possessive}的朋友也用雪堆出了雪人一家</li>
+    <li>circumstance_phrase->[PAWN_possessive]的朋友也用雪堆起了堡壘</li>
+    <li>circumstance_phrase->[PAWN_possessive]的朋友也用雪堆出了雪人一家</li>
     <li>desc_sentence->遠方的空中躍動著美麗的極光。</li>
     <li>desc_sentence->遠方，一座[Community]被覆蓋在白雪之中。</li>
     <li>desc_sentence->[Vegetable]田完全被雪覆蓋。</li>
@@ -138,17 +138,17 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}完成了[OBJECT_label]的建造工作</li>
-    <li>image->{PAWN_nameFull}將複雜的設備組裝進[OBJECT_label]中，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}正在拋光[OBJECT_label]，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}對[OBJECT_label]增加表面細節處理，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}[OBJECT_label]上題名，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]完成了[OBJECT_label]的建造工作</li>
+    <li>image->[PAWN_nameFull]將複雜的設備組裝進[OBJECT_label]中，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在拋光[OBJECT_label]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]對[OBJECT_label]增加表面細節處理，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull][OBJECT_label]上題名，[circumstance_group]</li>
     <li>circumstance_phrase->眼神閃閃發光</li>
     <li>circumstance_phrase->額頭上滿是汗水</li>
     <li>circumstance_phrase->身上沾滿污垢</li>
     <li>circumstance_phrase->燦爛的笑著</li>
     <li>circumstance_phrase->臉上掛著滿足的表情</li>
-    <li>desc_sentence->[OBJECT_label]被{PAWN_nameDef}高舉在頭上。</li>
+    <li>desc_sentence->[OBJECT_label]被[PAWN_nameDef]高舉在頭上。</li>
     <li>desc_sentence->[OBJECT_label]微微散發著光芒。</li>
     <li>desc_sentence->[OBJECT_label]精緻巧妙。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]對[OBJECT_label]的精妙投以讚嘆的眼神。</li>
@@ -175,11 +175,11 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongCraftingProject.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}完成了[OBJECT_label]的製造工作</li>
-    <li>image->{PAWN_nameFull}將複雜的設備組裝進[OBJECT_label]中，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}正在拋光[OBJECT_label]，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}對[OBJECT_label]增加表面細節處理，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}[OBJECT_label]上題名，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]完成了[OBJECT_label]的製造工作</li>
+    <li>image->[PAWN_nameFull]將複雜的設備組裝進[OBJECT_label]中，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在拋光[OBJECT_label]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]對[OBJECT_label]增加表面細節處理，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull][OBJECT_label]上題名，[circumstance_group]</li>
     <li>circumstance_phrase->眼神閃閃發光</li>
     <li>circumstance_phrase->額頭上滿是汗水</li>
     <li>circumstance_phrase->身上沾滿污垢</li>
@@ -187,7 +187,7 @@
     <li>circumstance_phrase->臉上掛著滿足的表情</li>
     <li>desc_sentence->[OBJECT_label]微微散發著光芒。</li>
     <li>desc_sentence->[OBJECT_label]精緻巧妙。</li>
-    <li>desc_sentence->{PAWN_nameDef}看起來不費力的就將[OBJECT_label]抬起。</li>
+    <li>desc_sentence->[PAWN_nameDef]看起來不費力的就將[OBJECT_label]抬起。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]對[OBJECT_label]的精妙投以讚嘆的眼神。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]敬畏的凝視著。</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
@@ -212,19 +212,19 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <EnteredCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}進入了休眠艙</li>
-    <li>image->{PAWN_nameFull}躺進了休眠艙，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}開啟一具空的休眠艙，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}將自己封印進了休眠艙，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}從透過艙門看著這個他即將告別的世界，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]進入了休眠艙</li>
+    <li>image->[PAWN_nameFull]躺進了休眠艙，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]開啟一具空的休眠艙，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]將自己封印進了休眠艙，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]從透過艙門看著這個他即將告別的世界，[circumstance_group]</li>
     <li>circumstance_phrase->心中帶著一點緊張</li>
     <li>circumstance_phrase->陷入了沉思</li>
     <li>circumstance_phrase->凝視著遠方</li>
     <li>circumstance_phrase->對自己呢喃</li>
     <li>desc_sentence->[Quantity_adjphrase]頭[Animal]在現場附近休息。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[Enemy]抵達了附近。</li>
-    <li>desc_sentence->{PAWN_nameDef}下定了決心。</li>
-    <li>desc_sentence->{PAWN_nameDef}明顯受了傷。</li>
+    <li>desc_sentence->[PAWN_nameDef]下定了決心。</li>
+    <li>desc_sentence->[PAWN_nameDef]明顯受了傷。</li>
     <li>desc_sentence->遠方的空中躍動著美麗的極光。</li>
     <li>desc_sentence->[Quantity_adjphrase]具裝滿了的休眠艙放置在附近。</li>
   </EnteredCryptosleep.rulePack.rulesStrings>
@@ -250,19 +250,19 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}成為了[SKILL_label]方面的大師</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]苦練[SKILL_label]</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]閱讀[SKILL_label]相關的書籍。</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]正在接受[SKILL_label]相關的訓練</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]埋頭苦幹</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]完成了計畫</li>
+    <li>tale_noun->[PAWN_nameDef]成為了[SKILL_label]方面的大師</li>
+    <li>image->[PAWN_nameFull][circumstance_group]苦練[SKILL_label]</li>
+    <li>image->[PAWN_nameFull][circumstance_group]閱讀[SKILL_label]相關的書籍。</li>
+    <li>image->[PAWN_nameFull][circumstance_group]正在接受[SKILL_label]相關的訓練</li>
+    <li>image->[PAWN_nameFull][circumstance_group]埋頭苦幹</li>
+    <li>image->[PAWN_nameFull][circumstance_group]完成了計畫</li>
     <li>circumstance_phrase->滿頭大汗的</li>
     <li>circumstance_phrase->疲憊不堪的</li>
     <li>circumstance_phrase->全神貫注的</li>
     <li>circumstance_phrase->不耐煩的</li>
     <li>desc_sentence->現場散佈著[Quantity_adjphrase]個失敗的作品。</li>
     <li>desc_sentence->現場散佈著[Quantity_adjphrase]本相關的書籍。</li>
-    <li>desc_sentence->{PAWN_possessive}能力在工作中體現出來了。</li>
+    <li>desc_sentence->[PAWN_possessive]能力在工作中體現出來了。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]投以讚嘆的眼神。</li>
     <li>desc_sentence->[Quantity_adjphrase]頭[Animal]投以讚嘆的眼神。</li>
     <li>desc_sentence->[Quantity_adjphrase]個古代大師的靈魂正從天上看著。</li>
@@ -291,12 +291,12 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}成為了[SKILL_label]方面的大師</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]苦練[SKILL_label]</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]閱讀[SKILL_label]相關的書籍。</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]正在接受[SKILL_label]相關的訓練</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]埋頭苦幹</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]完成了計畫</li>
+    <li>tale_noun->[PAWN_nameDef]成為了[SKILL_label]方面的大師</li>
+    <li>image->[PAWN_nameFull][circumstance_group]苦練[SKILL_label]</li>
+    <li>image->[PAWN_nameFull][circumstance_group]閱讀[SKILL_label]相關的書籍。</li>
+    <li>image->[PAWN_nameFull][circumstance_group]正在接受[SKILL_label]相關的訓練</li>
+    <li>image->[PAWN_nameFull][circumstance_group]埋頭苦幹</li>
+    <li>image->[PAWN_nameFull][circumstance_group]完成了計畫</li>
     <li>circumstance_phrase->帶著滿足的眼神</li>
     <li>circumstance_phrase->快樂的</li>
     <li>circumstance_phrase->微笑著</li>
@@ -305,7 +305,7 @@
     <li>circumstance_phrase->疲憊不堪的</li>
     <li>desc_sentence->現場散佈著[Quantity_adjphrase]個失敗的作品。</li>
     <li>desc_sentence->現場散佈著[Quantity_adjphrase]本相關的書籍。</li>
-    <li>desc_sentence->{PAWN_possessive}能力在工作中體現出來了。</li>
+    <li>desc_sentence->[PAWN_possessive]能力在工作中體現出來了。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]投以讚嘆的眼神。</li>
     <li>desc_sentence->[Quantity_adjphrase]頭[Animal]投以讚嘆的眼神。</li>
     <li>desc_sentence->[Quantity_adjphrase]個古代大師的靈魂正從天上看著。</li>
@@ -371,18 +371,18 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Meditated.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}陷入了沉思</li>
-    <li>image->{PAWN_nameFull}坐在[TreeType]樹下，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}靜坐著，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}望著遠處，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}閉上眼睛，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]陷入了沉思</li>
+    <li>image->[PAWN_nameFull]坐在[TreeType]樹下，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]靜坐著，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]望著遠處，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]閉上眼睛，[circumstance_group]</li>
     <li>circumstance_phrase->歸於寧靜</li>
     <li>circumstance_phrase->帶著祥和的微笑</li>
     <li>circumstance_phrase->面無表情</li>
     <li>circumstance_phrase->散發出微微的光芒</li>
     <li>circumstance_phrase->被奇妙的光暈所包覆</li>
-    <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]凝視著{PAWN_pronoun}。</li>
-    <li>desc_sentence->{PAWN_pronoun}被[Quantity_adjphrase]頭[Animal]所包圍。</li>
+    <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]凝視著[PAWN_pronoun]。</li>
+    <li>desc_sentence->[PAWN_pronoun]被[Quantity_adjphrase]頭[Animal]所包圍。</li>
     <li>desc_sentence->[Quantity_adjphrase]頭[Animal]平靜的休息著。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[Enemy]對這幅景象心生敬畏。</li>
   </Meditated.rulePack.rulesStrings>
@@ -409,12 +409,12 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <MinedValuable.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}挖掘到了豐富的[MATERIAL_label]礦脈</li>
-    <li>image->{PAWN_nameFull}正用工具挖掘著一道[MATERIAL_label]岩壁，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}拿起一小塊[MATERIAL_label]，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}靠著[MATERIAL_label]岩壁稍作休息，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}協調採礦隊伍開採[MATERIAL_label]礦脈，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}仔細的檢查一個[MATERIAL_label]礦脈，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]挖掘到了豐富的[MATERIAL_label]礦脈</li>
+    <li>image->[PAWN_nameFull]正用工具挖掘著一道[MATERIAL_label]岩壁，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]拿起一小塊[MATERIAL_label]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]靠著[MATERIAL_label]岩壁稍作休息，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]協調採礦隊伍開採[MATERIAL_label]礦脈，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]仔細的檢查一個[MATERIAL_label]礦脈，[circumstance_group]</li>
     <li>circumstance_phrase->汗流浹背</li>
     <li>circumstance_phrase->雙眼炯炯有神</li>
     <li>circumstance_phrase->臉上掛著微笑</li>
@@ -425,7 +425,7 @@
     <li>desc_sentence->遠處有著一座[Community]。</li>
     <li>desc_sentence->遠處還能看見[Quantity_adjphrase]條礦脈。</li>
     <li>desc_sentence->遠處可以看見幾顆樹木。</li>
-    <li>desc_sentence->{PAWN_nameDef}在工作中渾身沾滿汗水和沙塵。</li>
+    <li>desc_sentence->[PAWN_nameDef]在工作中渾身沾滿汗水和沙塵。</li>
   </MinedValuable.rulePack.rulesStrings>
   
   <!-- EN: played game -->
@@ -457,18 +457,18 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
   -->
   <PlayedGame.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}正透過[OBJECT_label]放鬆</li>
-    <li>tale_noun->{PAWN_nameDef}正在用[OBJECT_label]娛樂</li>
-    <li>tale_noun->{PAWN_nameDef}正在[OBJECT_label]找樂子</li>
-    <li>image->{PAWN_nameFull}坐在椅子上等待，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}倚靠在[OBJECT_label]上，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}坐在[OBJECT_label]旁，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}在[OBJECT_label]上大勝了一場，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}在[OBJECT_label]上大輸了一場，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]正透過[OBJECT_label]放鬆</li>
+    <li>tale_noun->[PAWN_nameDef]正在用[OBJECT_label]娛樂</li>
+    <li>tale_noun->[PAWN_nameDef]正在[OBJECT_label]找樂子</li>
+    <li>image->[PAWN_nameFull]坐在椅子上等待，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]倚靠在[OBJECT_label]上，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]坐在[OBJECT_label]旁，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在[OBJECT_label]上大勝了一場，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在[OBJECT_label]上大輸了一場，[circumstance_group]</li>
     <li>circumstance_phrase->心情有些緊張</li>
-    <li>circumstance_phrase->伸展放鬆{PAWN_possessive}身體</li>
-    <li>circumstance_phrase->計畫{PAWN_possessive}下一步</li>
-    <li>circumstance_phrase->輕輕的按摩{PAWN_possessive}手腕</li>
+    <li>circumstance_phrase->伸展放鬆[PAWN_possessive]身體</li>
+    <li>circumstance_phrase->計畫[PAWN_possessive]下一步</li>
+    <li>circumstance_phrase->輕輕的按摩[PAWN_possessive]手腕</li>
     <li>circumstance_phrase->低頭沉思</li>
     <li>circumstance_phrase->帶著期待的眼神</li>
     <li>circumstance_phrase->開懷大笑</li>
@@ -477,9 +477,9 @@
     <li>desc_sentence->遠處可見一座山丘。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]開心的玩在一起。</li>
     <li>desc_sentence->[Quantity_adjphrase]頭[Animal]在一旁玩耍。</li>
-    <li>desc_sentence->{PAWN_nameDef}散發出微弱的光芒。</li>
-    <li>desc_sentence->{PAWN_nameDef}正在吹噓自己的成績。</li>
-    <li>desc_sentence->{PAWN_nameDef}格外引人注目。</li>
+    <li>desc_sentence->[PAWN_nameDef]散發出微弱的光芒。</li>
+    <li>desc_sentence->[PAWN_nameDef]正在吹噓自己的成績。</li>
+    <li>desc_sentence->[PAWN_nameDef]格外引人注目。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]被擊敗後換下場。</li>
   </PlayedGame.rulePack.rulesStrings>
   
@@ -503,19 +503,19 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Prayed.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}正在祈禱</li>
-    <li>tale_noun->{PAWN_nameDef}正向某古神秘力量禱告</li>
-    <li>image->{PAWN_nameFull}望著遠處，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}閉上眼睛，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}雙手合十，[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}凝望天空，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]正在祈禱</li>
+    <li>tale_noun->[PAWN_nameDef]正向某古神秘力量禱告</li>
+    <li>image->[PAWN_nameFull]望著遠處，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]閉上眼睛，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]雙手合十，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]凝望天空，[circumstance_group]</li>
     <li>circumstance_phrase->歸於寧靜</li>
     <li>circumstance_phrase->輕聲呢喃</li>
     <li>circumstance_phrase->表情充滿希望</li>
     <li>circumstance_phrase->散發出微微的光芒</li>
     <li>circumstance_phrase->被奇妙的光暈所包覆</li>
-    <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]凝視著{PAWN_pronoun}。</li>
-    <li>desc_sentence->{PAWN_pronoun}被[Quantity_adjphrase]頭[Animal]所包圍。</li>
+    <li>desc_sentence->[Quantity_adjphrase]名[PersonJob]凝視著[PAWN_pronoun]。</li>
+    <li>desc_sentence->[PAWN_pronoun]被[Quantity_adjphrase]頭[Animal]所包圍。</li>
     <li>desc_sentence->[Quantity_adjphrase]頭[Animal]平靜的休息著。</li>
     <li>desc_sentence->[Quantity_adjphrase]名[Enemy]對這幅景象心生敬畏。</li>
   </Prayed.rulePack.rulesStrings>

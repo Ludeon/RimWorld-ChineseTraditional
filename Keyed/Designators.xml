@@ -17,7 +17,7 @@
   <DesignatorDeconstructDesc>拆除建築並回收部分資源。</DesignatorDeconstructDesc>
 
   <!-- EN: Uninstall -->
-  <DesignatorUninstall>移除</DesignatorUninstall>
+  <DesignatorUninstall>拆除</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
   <DesignatorUninstallDesc>拆除這個物件，使它可以被移動、交易或重新安裝在其他位置。</DesignatorUninstallDesc>
 
@@ -27,7 +27,7 @@
   <DesignatorHarvestDesc>標記需要收穫的植物來獲取食物或產品。</DesignatorHarvestDesc>
 
   <!-- EN: Chop wood -->
-  <DesignatorHarvestWood>砍伐樹木</DesignatorHarvestWood>
+  <DesignatorHarvestWood>伐木</DesignatorHarvestWood>
   <!-- EN: Marks trees to be chopped down for wood. -->
   <DesignatorHarvestWoodDesc>標記要被砍掉的樹木以獲取木頭。</DesignatorHarvestWoodDesc>
 
@@ -36,7 +36,7 @@
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
   <DesignatorHaulThingsDesc>標記需要搬到儲存區的垃圾等物品。不需要對食物和屍體使用，此類項目會自動完成。</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
-  <MustHaulHaulables>只能標記可搬運但不會被自動搬運的物品。(如垃圾)</MustHaulHaulables>
+  <MustHaulHaulables>只能標記可搬運但不會被自動搬運的物品(如石塊)。</MustHaulHaulables>
 
   <!-- EN: Hunt -->
   <DesignatorHunt>狩獵</DesignatorHunt>
@@ -49,9 +49,9 @@
   <DesignatorMineDesc>標記要開採的岩石。</DesignatorMineDesc>
 
   <!-- EN: Smooth surface -->
-  <DesignatorSmoothSurface>拋光地面</DesignatorSmoothSurface>
+  <DesignatorSmoothSurface>拋光</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
-  <DesignatorSmoothSurfaceDesc>標記需要拋光的岩石地面。</DesignatorSmoothSurfaceDesc>
+  <DesignatorSmoothSurfaceDesc>標記需要拋光的岩石地面或牆面。</DesignatorSmoothSurfaceDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>計劃</DesignatorPlan>
@@ -115,7 +115,7 @@
   <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
   <DesignatorClearAreaAllowedDesc>移除活動區。\n\n你可以為居民指定個別的活動區，居民不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
   <!-- EN: Manage areas... -->
-  <ManageAreas>管理活動區...。</ManageAreas>
+  <ManageAreas>管理活動區...</ManageAreas>
 
   <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
   <DesignatorGrowingZoneDesc>劃設一片你希望讓居民種植作物的區域。</DesignatorGrowingZoneDesc>

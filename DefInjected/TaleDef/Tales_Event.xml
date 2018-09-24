@@ -19,19 +19,19 @@
     <li>desc_sentence->[PAWN_pronoun] has lost [PAWN_possessive] balance.</li>
   -->
   <CollapseDodged.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}躲過了一場坍塌</li>
-    <li>tale_noun->{PAWN_nameDef}差點就要被坍塌波及</li>
-    <li>image->{PAWN_nameFull}從坍塌的殘骸堆中跳了出來[circumstance_group]</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]躲過了坍塌</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]躲過了掉落下來的碎片</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]逃過一場來自頭上的死劫</li>
+    <li>tale_noun->[PAWN_nameDef]躲過了一場坍塌</li>
+    <li>tale_noun->[PAWN_nameDef]差點就要被坍塌波及</li>
+    <li>image->[PAWN_nameFull]從坍塌的殘骸堆中跳了出來[circumstance_group]</li>
+    <li>image->[PAWN_nameFull][circumstance_group]躲過了坍塌</li>
+    <li>image->[PAWN_nameFull][circumstance_group]躲過了掉落下來的碎片</li>
+    <li>image->[PAWN_nameFull][circumstance_group]逃過一場來自頭上的死劫</li>
     <li>circumstance_phrase->灰頭土臉的</li>
     <li>circumstance_phrase->千鈞一髮的</li>
     <li>circumstance_phrase->彷彿被某種神秘力量所庇護一般</li>
-    <li>desc_sentence->{PAWN_pronoun}渾身冷汗直冒。</li>
-    <li>desc_sentence->{PAWN_pronoun}驚魂未定。</li>
-    <li>desc_sentence->{PAWN_pronoun}被割傷的地方正汩汩的滲血。</li>
-    <li>desc_sentence->{PAWN_pronoun}還沒站穩腳步。</li>
+    <li>desc_sentence->[PAWN_pronoun]渾身冷汗直冒。</li>
+    <li>desc_sentence->[PAWN_pronoun]驚魂未定。</li>
+    <li>desc_sentence->[PAWN_pronoun]被割傷的地方正汩汩的滲血。</li>
+    <li>desc_sentence->[PAWN_pronoun]還沒站穩腳步。</li>
   </CollapseDodged.rulePack.rulesStrings>
   
   <!-- EN: launched ship -->
@@ -60,22 +60,22 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LaunchedShip.rulePack.rulesStrings>
-    <li>tale_noun->{PAWN_nameDef}正在逃離這顆星球</li>
-    <li>tale_noun->{PAWN_nameDef}在星艦中起飛</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]朝著宇宙中的繁星飛去</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]奔向天際</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]持續加速至星球逃離速度</li>
-    <li>image->{PAWN_nameFull}[circumstance_group]看著地面的景物越來越小</li>
+    <li>tale_noun->[PAWN_nameDef]正在逃離這顆星球</li>
+    <li>tale_noun->[PAWN_nameDef]在星艦中起飛</li>
+    <li>image->[PAWN_nameFull][circumstance_group]朝著宇宙中的繁星飛去</li>
+    <li>image->[PAWN_nameFull][circumstance_group]奔向天際</li>
+    <li>image->[PAWN_nameFull][circumstance_group]持續加速至星球逃離速度</li>
+    <li>image->[PAWN_nameFull][circumstance_group]看著地面的景物越來越小</li>
     <li>circumstance_phrase->一片曠野之中</li>
     <li>circumstance_phrase->挾著不可思議的力量</li>
     <li>circumstance_phrase->在一陣飛沙走石中</li>
     <li>circumstance_phrase->在推進器演出的華麗火焰秀中</li>
     <li>circumstance_phrase->精準的離地</li>
-    <li>desc_sentence->{PAWN_pronoun}專注在駕駛上。</li>
-    <li>desc_sentence->{PAWN_pronoun}輕輕閉上眼睛，臉上散發著自信。</li>
-    <li>desc_sentence->{PAWN_pronoun}靜靜閉上雙眼，進入夢鄉。</li>
-    <li>desc_sentence->{PAWN_pronoun}的臉上掛著冷冷的微笑。</li>
-    <li>desc_sentence->{PAWN_pronoun}完全掌握了飛船的控制。</li>
+    <li>desc_sentence->[PAWN_pronoun]專注在駕駛上。</li>
+    <li>desc_sentence->[PAWN_pronoun]輕輕閉上眼睛，臉上散發著自信。</li>
+    <li>desc_sentence->[PAWN_pronoun]靜靜閉上雙眼，進入夢鄉。</li>
+    <li>desc_sentence->[PAWN_pronoun]的臉上掛著冷冷的微笑。</li>
+    <li>desc_sentence->[PAWN_pronoun]完全掌握了飛船的控制。</li>
     <li>desc_sentence->一條火蛇連在飛船的尾部。</li>
     <li>desc_sentence->一頭[Animal]目瞪口呆的目睹了這一幕。</li>
     <li>desc_sentence->一頭[Animal]恐懼的逃離發射區。</li>
