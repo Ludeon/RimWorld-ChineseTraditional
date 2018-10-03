@@ -423,7 +423,9 @@
   <MessageCraftedMasterwork>{WORKER_labelShort}創造了一個{CRAFTED_labelShort}。</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid>使用世界地圖中的「重組旅隊」按鈕離開本區域。</MessagePlayerTriedToLeaveMapViaExitGrid>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>使用世界地圖中的「重組旅隊」按鈕離開本區域。</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <!-- EN: You can't leave the map now. -->
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>你現在無法離開這個區域。</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
   <MessageGoodwillChanged>和{0}的關係從{1}轉變為{2}。</MessageGoodwillChanged>
@@ -516,5 +518,8 @@
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>警告：俘虜{PAWN_nameDef}將會激怒{PAWN_possessive}的勢力{PAWN_factionName}。</MessageCapturingWillAngerFaction>
+
+  <!-- EN: Cannot shoot in melee. -->
+  <MessageCantShootInMelee>近戰中無法進行射擊</MessageCantShootInMelee>
 
 </LanguageData>

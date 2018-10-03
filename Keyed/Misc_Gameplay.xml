@@ -45,7 +45,7 @@
   <!-- EN: nothing -->
   <NothingLower>無</NothingLower>
   <!-- EN: Adapted -->
-  <Adapted>適合</Adapted>
+  <Adapted>狀態中</Adapted>
   <!-- EN: fresh -->
   <FreshMissingBodyPart>新鮮</FreshMissingBodyPart>
   <!-- EN: developed immunity -->
@@ -280,7 +280,7 @@
   <KnownSiteThreat>威脅：{0}</KnownSiteThreat>
   <!-- EN: Known threats: {0} -->
   <KnownSiteThreats>威脅{0}</KnownSiteThreats>
-  <!-- EN: Known threats: None -->
+  <!-- EN: Threats: Unknown -->
   <KnownSiteThreatsNone>威脅：無</KnownSiteThreatsNone>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>需要技能</SkillRequirements>
@@ -770,9 +770,7 @@
   <ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
-  <!-- EN: Fire -->
-  <Fire>火焰</Fire>
-  <!-- EN: Fire on {1_label} -->
+  <!-- EN: fire on {1_label} -->
   <FireOn>{1_label}上的火焰</FireOn>
   <!-- EN: Burning -->
   <Burning>燃燒中</Burning>

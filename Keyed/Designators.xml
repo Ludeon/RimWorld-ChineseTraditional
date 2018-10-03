@@ -68,9 +68,9 @@
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
   <DesignatorForbidDesc>將物品標記為禁用。居民將不會接觸被標記的物品。</DesignatorForbidDesc>
 
-  <!-- EN: Unforbid -->
+  <!-- EN: Allow -->
   <DesignatorUnforbid>解除禁用</DesignatorUnforbid>
-  <!-- EN: Mark items as unforbidden. Colonists will be able to interact with the designated items. -->
+  <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
   <DesignatorUnforbidDesc>將物品解除禁用。居民將可以接觸被標記的物品。</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
@@ -198,6 +198,8 @@
   <IdenticalBlueprintExists>已經在同地點存在相同的藍圖。</IdenticalBlueprintExists>
   <!-- EN: The terrain here cannot support this. -->
   <TerrainCannotSupport>地形無法支撐此物件。</TerrainCannotSupport>
+  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordance>{0_label}需要有足夠支撐力的地面：{1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>空間已被占用。</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->

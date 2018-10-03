@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>狂暴動物</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>狂暴{ANIMAL_labelShort}</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
   <AnimalInsanitySingle>一隻附近的{ANIMAL_label}發瘋了。牠會攻擊任何牠見到的人。</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
@@ -186,7 +186,7 @@
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>星艦已被摧毀</EscapeShipLostLabel>
   <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>夏隆向你傳送了一則訊息：\n\n他判斷你已經失去星艦的控制權，未免星艦落入敵人手中，他已經強制啟動了星艦的自毀機制，星艦已經化為一對廢鐵。\n\n你需要另尋辦法離開這顆星球了。</EscapeShipLost>
+  <EscapeShipLost>夏隆向你傳送了一則訊息。\n\n他判斷你已經失去星艦的控制權，未免星艦落入敵人手中，他已經強制啟動了星艦的自毀機制，星艦已經化為一對廢鐵。\n\n你需要另尋辦法離開這顆星球了。</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -208,9 +208,11 @@
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>一位在附近的{0}聯絡了你，並提出一項特別交易。他們希望購買：\n\n  {1}(價值{2})\n\n做為報酬，他們將提供：\n\n  {3}(價值{4})\n\n這項請求的期限至：{5}\n\n若你決定履行這項交易，派遣旅隊前去並帶上他們請求的物資。預計旅途所需時間為{6}。你可以在星球地圖上點選{0}重新確認這項交易。</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
-  <CaravanRequestInfo>請求：{0}({3})，報酬：{1}({4})(剩餘{2})</CaravanRequestInfo>
+  <CaravanRequestInfo>請求：{0}({3})，報酬：{1}({4})(剩下{2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>普通以上品質</NormalQualityOrBetter>
+  <!-- EN: not tainted -->
+  <NotTainted>非死人衣</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->

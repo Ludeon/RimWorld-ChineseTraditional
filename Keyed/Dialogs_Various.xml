@@ -287,7 +287,7 @@
   <!-- EN: Count equipped -->
   <IncludeEquipped>包含被持有</IncludeEquipped>
   <!-- EN: Count tainted -->
-  <IncludeTainted>包含被污染</IncludeTainted>
+  <IncludeTainted>包含被死人衣</IncludeTainted>
   <!-- EN: Only allowed ingredients -->
   <LimitToAllowedStuff>原料限制</LimitToAllowedStuff>
   <!-- EN: Look everywhere -->
@@ -434,6 +434,18 @@
   <TerrainRequirement>地形支撐力需求</TerrainRequirement>
   <!-- EN: Supports -->
   <Supports>支撐力</Supports>
+  <!-- EN: Trap armor penetration -->
+  <TrapArmorPenetration>陷阱裝甲穿透性</TrapArmorPenetration>
+  <!-- EN: Rearm cost -->
+  <RearmCost>維護花費</RearmCost>
+  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
+  <RearmCostExplanation>維護所需之耗材(根據遊戲難度浮動)。</RearmCostExplanation>
+  <!-- EN: Shots before rearm -->
+  <ShotsBeforeRearm>維護前剩餘作用次數</ShotsBeforeRearm>
+  <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
+  <ShotsBeforeRearmExplanation>這座砲塔在下次維護前所剩下的射擊次數。</ShotsBeforeRearmExplanation>
+  <!-- EN: Power consumption -->
+  <PowerConsumption>耗電量</PowerConsumption>
 
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->

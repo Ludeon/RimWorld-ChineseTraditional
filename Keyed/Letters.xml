@@ -124,7 +124,15 @@
   <LetterLeaderChanged>{OLDLEADER_nameFull}不再是{1}的{3}。\n\n新的{3}是{NEWLEADER_nameFull}。</LetterLeaderChanged>
   
   <!-- EN: The final straw was: {0} -->
-  <FinalStraw>最終崩潰原因：{0}。</FinalStraw>
+  <FinalStraw>最終崩潰原因：{0}</FinalStraw>
+  <!-- EN: This happened because of poor mood. -->
+  <MentalStateReason_Mood>因為心情不好。</MentalStateReason_Mood>
+  <!-- EN: This happened because of the trait: {0}. -->
+  <MentalStateReason_Trait>因為{0}特性。</MentalStateReason_Trait>
+  <!-- EN: This happened because of: {0}. -->
+  <MentalStateReason_Hediff>因為{0}。</MentalStateReason_Hediff>
+  <!-- EN: This happened because of {0_definite}'s death. -->
+  <MentalStateReason_BondedHumanDeath>因為{0_definite}死了。</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>最新事件</LastFactionRelationsEvent>
 
@@ -171,6 +179,8 @@
   <LetterAffair>{PAWN1_labelShort}，{SPOUSE_labelShort}的配偶，和{PAWN2_labelShort}展開了新的關係。</LetterAffair>
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>新戀人</LetterLabelNewLovers>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
+  <LetterNewLovers>TODO</LetterNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_labelShort}和{PAWN2_labelShort}分手了。</LetterNoLongerLovers>
   <!-- EN: Breakup -->
@@ -305,7 +315,7 @@
   <PeaceTalksSocialXPGain>{PAWN_labelShort}你的談判者獲得了{1}社交技能經驗值。</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame {0_objective} to get {0_objective} back. -->
+  <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {0_objective} to get {0_objective} back. -->
   <LetterRunWildMentalBreak>{0}決定脫離你的勢力並和動物們一起生活。</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
