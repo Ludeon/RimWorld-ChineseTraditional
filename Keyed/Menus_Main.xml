@@ -160,13 +160,13 @@
   <Downloading>下載中</Downloading>
   <!-- EN: Source -->
   <Source>來源</Source>
-  <!-- EN: For version: {0} -->
+  <!-- EN: For version(s): {0} -->
   <ModTargetVersion>Mod版本：{0}</ModTargetVersion>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>此Mod版本對應更新的RimWorld版本，可能無法正常運作。</ModNotMadeForThisVersion_Newer>
-  <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Mod必須在About.xml中指定格式正確的版本號，例如：&lt;targetVersion>{0}&lt;/targetVersion>。</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>拖曳以重新排序</DragToReorder>

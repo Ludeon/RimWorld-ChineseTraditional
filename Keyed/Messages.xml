@@ -134,7 +134,7 @@
 
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時出現細微的失誤。</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort.LabelShort}. -->
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}在對{PATIENT_LabelShort}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯下了荒謬的失誤。</MessageMedicalOperationFailureRidiculous>
@@ -282,7 +282,7 @@
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort}的{2}痊癒了。原因：{0}</MessagePermanentWoundHealed>
 
-  <!-- EN: Since you rescued {!_objective}, {1_labelShort} has joined your group! -->
+  <!-- EN: {1_labelShort} has joined your group after being rescued! -->
   <MessageRescueeJoined>因為你救了{!_objective}的命，{1_labelShort}加入了你的隊伍！</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
