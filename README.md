@@ -29,7 +29,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 2.刪除 遊戲根目錄\Mods\Core\Languages 中的 ChineseTraditional (繁體中文).tar 檔案  
 3.解壓縮，將 Core 資料夾更名為「ChineseTraditional (繁體中文)」  
 4.將得到的「ChineseTraditional (繁體中文)」資料夾，放入遊戲根目錄\Mods\Core\Languages  
-5.開始遊戲  
+5.開始遊戲    
   
 變更語言方法：  
 於遊戲主選單點選國旗圖案，即可選擇語言。或於遊戲選項內點選 Change Language 即可選擇語言。  
@@ -57,10 +57,10 @@ http://ludeon.com/forums/index.php?topic=2933.0
 使用權利：  
 本翻譯為玩家志願者無償與遊戲開發者合作推出的中文化，基本上屬於共享資源，任何人皆可不經授權的修改、散佈、再製，唯仍需符合各地法令。  
   
-歡迎加入 FB 社團：https://www.facebook.com/groups/261201480757707/
-巴哈姆特邊緣世界哈拉版：http://forum.gamer.com.tw/B.php?bsn=27313&gosn=195&subbsn=0&fromC=1#195
-翻譯問題回報：請透過 FB 社團或巴哈討論板(訊息跟信箱容易被忽略...)
-感謝支持 RimWorld
+歡迎加入 FB 社團：https://www.facebook.com/groups/261201480757707/  
+巴哈姆特邊緣世界哈拉版：http://forum.gamer.com.tw/B.php?bsn=27313&gosn=195&subbsn=0&fromC=1#195  
+翻譯問題回報：請透過 FB 社團或巴哈討論板(訊息跟信箱容易被忽略...)  
+感謝支持 RimWorld  
 
-Wilseanhsu 個人中文化。 2018/10/3
+Wilseanhsu 個人中文化。 2018/10/3  
 win50117 整理中文化。 2020/2/28
