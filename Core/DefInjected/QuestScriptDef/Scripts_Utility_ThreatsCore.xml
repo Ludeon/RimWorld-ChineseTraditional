@@ -3,27 +3,29 @@
   
   <!-- EN: <rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->there's a climate adjuster machine there shifting the regional temperature by [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->there's a psychic droner machine there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==PsychicSuppressor)->there's a psychic suppressor machine there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==WeatherController)->there's a weather controller machine there forcing weather in the whole region to [weather_label]</li><li>root(priority=1,sitePart==SmokeSpewer)->there's a smoke spewer machine there belching smoke over the whole region</li><li>root(priority=1,sitePart==SunBlocker)->there's a sun blocker machine there shadowing the whole region</li><li>root(priority=1,sitePart==EMIDynamo)->there's an EMI dynamo machine there which can disable electrical devices across the region</li><li>root(priority=1,sitePart==ToxicSpewer)->there's a toxic spewer machine there blanketing the whole region in poison</li><li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by [enemiesCount] enemies that will launch raids on you every [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by [enemiesCount] enemies</li><li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by [enemiesCount] enemies</li><li>root(priority=1,sitePart==Manhunters,count==1)->a manhunting [kindLabel] are wandering nearby</li><li>root(priority=1,sitePart==Manhunters,count>1)->[count] manhunting [kindLabel] are wandering nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->a mechanoid is sleeping nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->[count] mechanoids are sleeping nearby</li><li>root(priority=1,sitePart==Turrets)->[threatsInfo] defend the site</li><li>root(priority=1,sitePart==AmbushEdge)->an enemy force is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==AmbushHidden)->an enemy force is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==MechCluster)->there's a cluster of hostile mechanoid structures</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an unknown threat</li><li>root->there's [label]</li></rulesStrings> -->
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
-    <li>root(priority=1,sitePart==ClimateAdjuster)->這兒有一台可以將氣溫改變[temperatureOffset]度的氣候調節器</li>
-    <li>root(priority=1,sitePart==PsychicDroner)->這兒有一台對[affectedGender]性起效的心靈放射器</li>
-    <li>root(priority=1,sitePart==PsychicSuppressor)->這兒有一台對[affectedGender]性起效的心靈抑制器</li>
-    <li>root(priority=1,sitePart==WeatherController)->這兒有一台會將整個區域的天氣改變為[weather_label]的天氣控制器</li>
-    <li>root(priority=1,sitePart==SmokeSpewer)->這個地區有一台不斷噴射煙霧的機器</li>
-    <li>root(priority=1,sitePart==SunBlocker)->整個地區都在一台陽光阻隔器的陰影之下</li>
-    <li>root(priority=1,sitePart==EMIDynamo)->這兒有一台正在運作的強電磁發射裝置，導致這一區域的電子設備無法工作</li>
-    <li>root(priority=1,sitePart==ToxicSpewer)->這個地區有一台機器在不斷噴射毒氣</li>
-    <li>root(priority=1,sitePart==RaidSource)->這兒有一塊被[enemiesCount]名敵人防守的軍事集結區，他們每[mtbDays]天就會對你發動襲擊</li>
-    <li>root(priority=1,sitePart==Outpost)->這兒有一個被[enemiesCount]名敵人防守的哨站</li>
-    <li>root(priority=1,sitePart==BanditCamp)->這兒有一個被[enemiesCount]名敵人防守的土匪營地</li>
-    <li>root(priority=1,sitePart==Manhunters,count==1)->一群正在瘋狂獵殺人類的[kindLabel]在附近遊蕩</li>
-    <li>root(priority=1,sitePart==Manhunters,count>1)->[count]只獵殺人類的[kindLabel]正在附近遊蕩</li>
-    <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有一台休眠的機械體</li>
-    <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有[count]台休眠機械體</li>
-    <li>root(priority=1,sitePart==Turrets)->[threatsInfo]防守這個地點</li>
-    <li>root(priority=1,sitePart==AmbushEdge)->一支敵軍正等著伏擊任何靠近的人</li>
-    <li>root(priority=1,sitePart==AmbushHidden)->一支敵軍正等著伏擊任何靠近的人</li>
-    <li>root(priority=1,sitePart==MechCluster)->這兒有一堆帶有敵意的機械結構體</li>
-    <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->這兒可能有未知的威脅</li>
-    <li>root->這兒[label]</li>
+    <rulesStrings>
+      <li>root(priority=1,sitePart==ClimateAdjuster)->這兒有一台可以將氣溫改變[temperatureOffset]度的氣候調節器</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->這兒有一台對[affectedGender]性起效的心靈放射器</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->這兒有一台對[affectedGender]性起效的心靈抑制器</li>
+      <li>root(priority=1,sitePart==WeatherController)->這兒有一台會將整個區域的天氣改變為[weather_label]的天氣控制器</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->這個地區有一台不斷噴射煙霧的機器</li>
+      <li>root(priority=1,sitePart==SunBlocker)->整個地區都在一台陽光阻隔器的陰影之下</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->這兒有一台正在運作的強電磁發射裝置，導致這一區域的電子設備無法工作</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->這個地區有一台機器在不斷噴射毒氣</li>
+      <li>root(priority=1,sitePart==RaidSource)->這兒有一塊被[enemiesCount]名敵人防守的軍事集結區，他們每[mtbDays]天就會對你發動襲擊</li>
+      <li>root(priority=1,sitePart==Outpost)->這兒有一個被[enemiesCount]名敵人防守的哨站</li>
+      <li>root(priority=1,sitePart==BanditCamp)->這兒有一個被[enemiesCount]名敵人防守的土匪營地</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->一群正在瘋狂獵殺人類的[kindLabel]在附近遊蕩</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->[count]只獵殺人類的[kindLabel]正在附近遊蕩</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有一台休眠的機械體</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有[count]台休眠機械體</li>
+      <li>root(priority=1,sitePart==Turrets)->[threatsInfo]防守這個地點</li>
+      <li>root(priority=1,sitePart==AmbushEdge)->一支敵軍正等著伏擊任何靠近的人</li>
+      <li>root(priority=1,sitePart==AmbushHidden)->一支敵軍正等著伏擊任何靠近的人</li>
+      <li>root(priority=1,sitePart==MechCluster)->這兒有一堆帶有敵意的機械結構體</li>
+      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->這兒可能有未知的威脅</li>
+      <li>root->這兒[label]</li>
+    </rulesStrings>
   </Util_GenerateSite.root.singleSitePartRules.slateRef>
   
   <!-- EN:

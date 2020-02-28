@@ -186,7 +186,7 @@
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>該武器射擊時的隨機散佈半徑。越高的數值會使得炮彈在目標周圍分佈更散。</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
-  <Stat_Thing_Weapon_DirectHitChance_Desc>如果沒有被阻擋，閃避或停止，射擊將直接命中目標的概率。</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <Stat_Thing_Weapon_DirectHitChance_Desc>如果沒有被阻擋，閃避或停止，射擊將直接命中目標的機率。</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
   <Stat_Thing_MoodChange_Desc>該身體部件對心情影響的程度。</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
@@ -218,11 +218,11 @@
   <!-- EN: Natural healing factor -->
   <Stat_Hediff_NaturalHealingFactor_Name>自然治癒倍率</Stat_Hediff_NaturalHealingFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
-  <Stat_Hediff_NaturalHealingFactor_Desc>適用于傷口自然癒合的總體速度的倍率。</Stat_Hediff_NaturalHealingFactor_Desc>
+  <Stat_Hediff_NaturalHealingFactor_Desc>適用於傷口自然癒合的總體速度的倍率。</Stat_Hediff_NaturalHealingFactor_Desc>
   <!-- EN: Food poisoning chance factor -->
   <Stat_Hediff_FoodPoisoningChanceFactor_Name>食物中毒的倍率</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of accidentally cooking a meal with food poisoning. -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>適用于製作食物時偶然產生的食物中毒的機率倍率。</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>適用於製作食物時偶然產生的食物中毒的機率倍率。</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
   <!-- EN: The rate at which this condition is drains blood. -->
   <Stat_Hediff_BleedingRate_Desc>該情況下血液流失的速度。</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
@@ -254,8 +254,8 @@
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>這個身體部位的整體效率。</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Biocoding -->
-  <Stat_Thing_Weapon_Biocoded_Name>生體識別</Stat_Thing_Weapon_Biocoded_Name>
+  <Stat_Thing_Weapon_Biocoded_Name>生物識別</Stat_Thing_Weapon_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
-  <Stat_Thing_Weapon_Biocoded_Desc>該物品經過生體編譯只能給識別給特定的人使用。</Stat_Thing_Weapon_Biocoded_Desc>
+  <Stat_Thing_Weapon_Biocoded_Desc>該物品經過生物編譯只能識別給特定的人使用。</Stat_Thing_Weapon_Biocoded_Desc>
 
 </LanguageData>

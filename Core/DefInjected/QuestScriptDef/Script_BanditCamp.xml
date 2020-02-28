@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].\n\nIf we succeed, [allRewardsDescriptions]</li>
   -->
-  <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>questDescription->[asker_nameFull]，[asker_faction_name]的[asker_faction_leaderTitle]，向我們發送了一條信息。根據他們的情報，一個屬於[siteFaction_name]派系，由[siteFaction_pawnsPlural]建立的營地一直在襲擊他們的旅隊。\n\n[asker_nameDef]請求我們幫助他們摧毀這個營地，完全消滅他們的人員和炮塔。[asker_label]還告訴我們[sitePart0_description].\n\n如果我們完成任務，[allRewardsDescriptions]</OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
+  <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameFull]，[asker_faction_name]的[asker_faction_leaderTitle]，向我們發送了一條信息。根據他們的情報，一個屬於[siteFaction_name]派系，由[siteFaction_pawnsPlural]建立的營地一直在襲擊他們的旅隊。\n\n[asker_nameDef]請求我們幫助他們摧毀這個營地，完全消滅他們的人員和炮塔。[asker_label]還告訴我們[sitePart0_description].\n\n如果我們完成任務，[allRewardsDescriptions]</li>
+  </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s Camp Bounty</li>
     <li>questName->Camp of [enemyFaction_pawnsPlural]</li>
@@ -33,8 +35,5 @@
   <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] favor for this service. -->
   <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>殖民者們成功的完成了[resolvedQuestName]這項任務。[asker_definite]想要知道誰應該接受這[royalFavorReward_amount] [asker_faction_royalFavorLabel]。</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>
-  
-  <!-- UNUSED -->
-  <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>questDescription->[asker_nameFull]，[asker_faction_name]的[asker_faction_leaderTitle]，向我們發送了一條信息。根據他們的情報，一個屬於[siteFaction_name]派系，由[siteFaction_pawnsPlural]建立的營地一直在襲擊他們的旅隊。\n\n[asker_nameDef]請求我們幫助他們摧毀這個營地，完全消滅他們的人員和炮塔。[asker_label]還告訴我們[sitePart0_description].\n\n如果我們完成任務，[allRewardsDescriptions]</OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   
 </LanguageData>
