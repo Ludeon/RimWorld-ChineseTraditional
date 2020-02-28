@@ -3,6 +3,8 @@
   
   <!-- EN: bite -->
   <Bite.label>咬傷</Bite.label>
+  <!-- EN: A bite wound. -->
+  <Bite.description>咬傷傷口</Bite.description>
   <!-- EN: set -->
   <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -22,11 +24,13 @@
   
   <!-- EN: bruise -->
   <Bruise.label>撞傷</Bruise.label>
+  <!-- EN: A bruise. -->
+  <Bruise.description>撞傷傷口</Bruise.description>
   <!-- EN: set -->
   <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWell>已包紮</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>已縫合</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>喪失功能(撞傷)</Bruise.injuryProps.destroyedLabel>
@@ -37,11 +41,13 @@
   
   <!-- EN: burn -->
   <Burn.label>燒傷</Burn.label>
-  <!-- EN: set -->
+  <!-- EN: A burn. -->
+  <Burn.description>燒傷傷口</Burn.description>
+  <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWell>已包紮</Burn.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>已縫合</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: burn scar -->
   <Burn.comps.HediffComp_GetsPermanent.permanentLabel>燒傷疤痕</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -54,13 +60,30 @@
   <!-- EN: {0} in the {1} -->
   <Burn.labelNounPretty>{1}內的{0}</Burn.labelNounPretty>
   
+  <!-- EN: chemical burn -->
+  <ChemicalBurn.label>化學燒傷</ChemicalBurn.label>
+  <!-- EN: A chemical burn. -->
+  <ChemicalBurn.description>化學燒傷傷口</ChemicalBurn.description>
+  <!-- EN: chemical burn scar -->
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>化學燒傷疤痕</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedLabel>喪失功能(化學)</ChemicalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedOutLabel>喪失功能(化學)</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: a chemical burn -->
+  <ChemicalBurn.labelNoun>化學燒傷</ChemicalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ChemicalBurn.labelNounPretty>{1}內的{0}</ChemicalBurn.labelNounPretty>
+  
   <!-- EN: crack -->
   <Crack.label>撕裂傷</Crack.label>
+  <!-- EN: A crack. -->
+  <Crack.description>撕裂傷口</Crack.description>
   <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>已縫合</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWell>已縫合</Crack.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>已縫合</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent crack -->
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>撕裂傷疤痕</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -73,6 +96,8 @@
   
   <!-- EN: crush -->
   <Crush.label>壓傷</Crush.label>
+  <!-- EN: A crushing wound. -->
+  <Crush.description>壓傷傷口</Crush.description>
   <!-- EN: set -->
   <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -90,6 +115,8 @@
   
   <!-- EN: cut -->
   <Cut.label>割傷</Cut.label>
+  <!-- EN: A cut. -->
+  <Cut.description>割傷傷口</Cut.description>
   <!-- EN: set -->
   <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -109,11 +136,13 @@
   
   <!-- EN: frostbite -->
   <Frostbite.label>凍傷</Frostbite.label>
-  <!-- EN: set -->
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <Frostbite.description>凍傷是由於寒冷潮濕作用引起的患者局部或全身損傷。凍傷非常痛苦，患者經常會被迫失去凍傷的身體部位。</Frostbite.description>
+  <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>已上藥</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>已治療</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: frostbite scar -->
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>凍傷疤痕</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -124,6 +153,8 @@
   
   <!-- EN: gunshot -->
   <Gunshot.label>槍傷</Gunshot.label>
+  <!-- EN: A gunshot wound. -->
+  <Gunshot.description>槍傷傷口</Gunshot.description>
   <!-- EN: set -->
   <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -145,6 +176,8 @@
   
   <!-- EN: misc -->
   <Misc.label>其它</Misc.label>
+  <!-- EN: Miscellanous injuries. -->
+  <Misc.description>傷口</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -160,6 +193,8 @@
   
   <!-- EN: missing body part -->
   <MissingBodyPart.label>缺少身體部位</MissingBodyPart.label>
+  <!-- EN: A body part is entirely missing. -->
+  <MissingBodyPart.description>缺少身體的一部分了。</MissingBodyPart.description>
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>缺少身體部位</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
@@ -167,6 +202,8 @@
   
   <!-- EN: scratch -->
   <Scratch.label>抓傷</Scratch.label>
+  <!-- EN: A scratch or tear. -->
+  <Scratch.description>抓傷傷口</Scratch.description>
   <!-- EN: set -->
   <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -186,6 +223,8 @@
   
   <!-- EN: shredded -->
   <Shredded.label>炸傷</Shredded.label>
+  <!-- EN: A part of the body has been shredded and torn. -->
+  <Shredded.description>炸傷傷口</Shredded.description>
   <!-- EN: set -->
   <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -205,6 +244,8 @@
   
   <!-- EN: stab -->
   <Stab.label>刺傷</Stab.label>
+  <!-- EN: A stab wound. -->
+  <Stab.description>刺傷傷口</Stab.description>
   <!-- EN: set -->
   <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -224,6 +265,8 @@
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>手術傷</SurgicalCut.label>
+  <!-- EN: A cut made during surgery. -->
+  <SurgicalCut.description>手術傷口</SurgicalCut.description>
   <!-- EN: set -->
   <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->

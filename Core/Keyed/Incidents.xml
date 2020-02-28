@@ -10,9 +10,10 @@
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>某種干擾電波橫掃了整個地平線。你的居民們沒什麼問題，但是……\n\n看來這附近好多{0}都被這玩意兒搞瘋了。</AnimalInsanityMultiple>
 
-  <!-- EN: Blight -->
+  <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
-  <!-- EN: A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads. -->
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
+\nYou should cut or burn the affected plants before the blight spreads. -->
   <LetterCropBlight>一個居民發現作物受到枯萎病感染！你應該在疫情擴散前割除或燒毀受感染的作物。</LetterCropBlight>
 
   <!-- EN: Miracle -->
@@ -57,8 +58,12 @@
   <!-- EN: That really is a huge explosion. Wow. -->
   <ShortCircuitWasHuge>哇！真是場壯觀的爆炸。</ShortCircuitWasHuge>
 
-  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
+  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
   <TraderArrival>一艘商船正巧經過。\n\n他們是{1}{0}。</TraderArrival>
+  <!-- EN: They're affiliated with {FACTION_name}. -->
+  <TraderArrivalFromFaction>他們隸屬於{FACTION_name}。</TraderArrivalFromFaction>
+  <!-- EN: They are not affiliated with any faction. -->
+  <TraderArrivalNoFaction>他們不屬於任何派系。</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>一位從{1}來的{0}正巧路過。{PAWN_pronoun}名叫{PAWN_nameFull}。</SingleTravelerPassing>
@@ -90,12 +95,16 @@
   <ManhunterPackArrived>一票專門襲擊人類的{0}抵達了這附近，牠們會在此徘徊，獵殺他們見到的任何活人。\n\n牠們通常不會破門而入，待在室內是安全的選擇。未運作的機槍炮塔也不會成為攻擊目標，如果你想保住它們，記得關掉電源。\n\n在幾天內牠們是不會離開的。</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
-  <!-- EN: The ancient structure has emitted a psychic pulse that has driven nearby animals mad. -->
+  <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
   <MessageAnimalInsanityPulse>這塊遠古星艦碎片發射了一股心靈脈衝，這讓它附近的動物都發瘋了。</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>這塊遠古星艦碎片發射了一股心靈脈衝，它讓{0}發瘋了。</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>在{0}天前覺醒</AwokeDaysAgo>
+  <!-- EN: Activated {0} days ago -->
+  <ActivatedDaysAgo>在{0}天前啟動</ActivatedDaysAgo>
+  <!-- EN: Opened {0} days ago -->
+  <OpenedDaysAgo>在{0}天前打開</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>干擾電波等級：{0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
@@ -109,35 +118,12 @@
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
   <LetterAgentRevealed>{0}的身份被識破了，他是你的敵人{1}派來的一名間諜。\n\n他現在正試圖逃跑。</LetterAgentRevealed>
 
-  <!-- Distant psychic drone -->
-  <!-- EN: Psychic drone -->
-  <LetterLabelPsychicDrone>干擾電波</LetterLabelPsychicDrone>
-  <!-- EN: Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
-  <LetterIncidentPsychicDrone>所有{0}居民都感到十分痛苦！\n\n遠方的某個仇恨引擎正在運轉著，它向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會比以往更差一些。\n\n干擾電波等級為{1}。</LetterIncidentPsychicDrone>
-
-  <!-- EN: Psychic soothe -->
-  <LetterLabelPsychicSoothe>撫慰電波</LetterLabelPsychicSoothe>
-  <!-- EN: Every colonist of the {0} gender smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit better. -->
-  <LetterIncidentPsychicSoothe>所有{0}居民都在臉上掛上了滿足的笑容！\n\n遠方的某個快樂引擎正在運轉著，它向這個地區投射了一股強大的撫慰電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會特別愉快。</LetterIncidentPsychicSoothe>
-
   <!-- Beavers -->
   <!-- EN: Beavers! -->
   <LetterLabelBeaversArrived>海貍</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
   <BeaversArrived>一群飢腸轆轆的阿爾法海貍抵達了這個區域。\n\n在牠們將這片區域內的最後一棵樹啃食殆盡前剷除牠們！</BeaversArrived>
   
-  <!-- Refugee chased -->
-  <!-- EN: Refugee chased at {0} -->
-  <RefugeeChasedTitle>給{0}的庇護請求</RefugeeChasedTitle>
-  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>一位名叫{PAWN_nameDef}的{PAWN_titleIndef}從附近呼叫殖民地。{PAWN_pronoun}說他正被來自{3}的{2}追殺！\n\n{PAWN_pronoun}請求加入殖民地以獲得庇護。{PAWN_pronoun}表示{PAWN_pronoun}生理年齡是{4}歲，除此之外已經沒有時間追究更多細節了。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在{PAWN_possessive}身後的{2}，由下列單位組成的部隊：\n\n{5}</RefugeeChasedInitial>
-  <!-- EN: Offer safety -->
-  <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
-  <!-- EN: Ignore the message -->
-  <RefugeeChasedInitial_Reject>忽略訊息</RefugeeChasedInitial_Reject>
-  <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>在你切斷與{1_labelShort}的通訊之前，一陣淒厲的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
-
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
   <LetterLabelAnimalSelfTame>{1_kind}自然歸順了</LetterLabelAnimalSelfTame>
@@ -163,9 +149,11 @@
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>來自{0}的{1}</LetterLabelTraderCaravanArrival>
-  <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
+  <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
   <LetterTraderCaravanArrival>一團來自{0}的{1}抵達了這裡。\n\n他們將在殖民地附近停留幾天。你可以對他們發動攻擊，但此舉會激怒他們的勢力。</LetterTraderCaravanArrival>
-  
+  <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
+  <LetterCaravanArrivalCommonWarning>他們將在殖民地逗留幾天，然後離開。你可以攻擊他們，但這會激怒他們的派系！</LetterCaravanArrivalCommonWarning>
+    
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>給{0}的贖金要求</RansomDemandTitle>
@@ -177,15 +165,15 @@
   <RansomDemand_Reject>拒絕支付</RansomDemand_Reject>
   
   <!-- Journey-related -->
-  <!-- EN: A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars. -->
-  <JourneyOffer>一個與你舊識的友善AI夏隆．懷特史東向你傳送了一則訊息！\n\n夏隆表示他在這座星球上藏了一艘星艦，並附上了星艦的座標。\n\n那艘星艦目前處於深度休眠狀態，你將需要在你抵達後啟動系統，然後保衛星艦不被襲擊者奪走，直到星艦完成所有啟動程序。\n\n如果你能乘著星艦飛離地面，夏隆便能夠帶你離開這個邊緣世界，再度往天空中的星星飛去。</JourneyOffer>
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>發現星艦</EscapeShipFoundLabel>
-  <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <EscapeShipFound>你已經抵達夏隆提供的星艦藏匿點並發現了星艦。\n\n星艦的反應爐仍然處於深度休眠狀態，你可以透過電腦核心啟動反應爐。\n\n夏隆警告你，啟動程序需耗時15日，而星艦啟動間發出的能量識別訊號將會傳到極遠的距離外，這種訊號代表這艘星艦具有飛行能力，將會吸引絕望的掠奪者和寶藏獵人。當下的第一要務便是要確保擁有足夠的防禦力量。</EscapeShipFound>
+  <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days. -->
+  <EscapeShipFoundPeaceful>你已經抵達夏隆提供的星艦藏匿點並發現了星艦。\n\n星艦的反應爐仍然處於深度休眠狀態，你可以透過電腦核心啟動反應爐。\n\n夏隆警告你，啟動程序需耗時15日。</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>星艦已被摧毀</EscapeShipLostLabel>
-  <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
+  <!-- EN: <Name>Charlon Whitestone</Name> sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
   <EscapeShipLost>夏隆向你傳送了一則訊息。\n\n他判斷你已經失去星艦的控制權，未免星艦落入敵人手中，他已經強制啟動了星艦的自毀機制，星艦已經化為一對廢鐵。\n\n你需要另尋辦法離開這顆星球了。</EscapeShipLost>
 
   <!-- Caravan meeting -->
@@ -201,13 +189,15 @@
   <CaravanMeeting_MoveOn>離去</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>旅隊中沒有能夠進行交易的成員。</CaravanMeeting_TradeIncapable>
+  <!-- EN: need a trader with the title of {0} from {1_name} -->
+  <CaravanMeeting_NoPermit>需要{1_name}的一名{0}來進行交易。</CaravanMeeting_NoPermit>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>旅隊請求</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>一位在附近的{0}聯絡了你，並提出一項特別交易。他們希望購買：\n\n  {1}(價值{2})\n\n做為報酬，他們將提供：\n\n  {3}(價值{4})\n\n這項請求的期限至：{5}\n\n若你決定履行這項交易，派遣旅隊前去並帶上他們請求的物資。預計旅途所需時間為{6}。你可以在星球地圖上點選{0}重新確認這項交易。</LetterCaravanRequest>
-  <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
+  <!-- EN: Requesting: {0} ({2}) ({1} left) -->
   <CaravanRequestInfo>請求：{0}({3})，報酬：{1}({4})(剩下{2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>普通以上品質</NormalQualityOrBetter>
@@ -233,5 +223,35 @@
   <LetterSiteNoLongerHostile>因為你已不再與{0}敵對，地點{1}已不可接觸。</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>因為你已不再與{0}敵對，這些地點已不可接觸。</LetterSiteNoLongerHostileMulti>
+
+  <!-- Quest asker faction hostile -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerFactionHostile>任務失敗</LetterLabelQuestAskerFactionHostile>
+  <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
+  <LetterQuestAskerFactionHostile>由於和 {FACTION_name} 已經處於敵對狀態，因此該任務無法完成。</LetterQuestAskerFactionHostile>
+
+  <!-- Quest asker captured -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerCaptured>任務失敗</LetterLabelQuestAskerCaptured>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
+  <LetterQuestAskerCaptured>因為 {SUBJECT_definite} 已被捕獲，該任務已無法繼續進行。</LetterQuestAskerCaptured>
+
+  <!-- Quest asker died -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerDied>任務失敗</LetterLabelQuestAskerDied>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
+  <LetterQuestAskerDied>任務對象 {SUBJECT_definite} 已經死亡，導致該任務無法繼續完成。</LetterQuestAskerDied>
+
+  <!-- UNUSED -->
+  <LetterLabelPsychicDrone>干擾電波</LetterLabelPsychicDrone>
+  <LetterIncidentPsychicDrone>所有{0}居民都感到十分痛苦！\n\n遠方的某個仇恨引擎正在運轉著，它向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會比以往更差一些。\n\n干擾電波等級為{1}。</LetterIncidentPsychicDrone>
+  <LetterLabelPsychicSoothe>撫慰電波</LetterLabelPsychicSoothe>
+  <LetterIncidentPsychicSoothe>所有{0}居民都在臉上掛上了滿足的笑容！\n\n遠方的某個快樂引擎正在運轉著，它向這個地區投射了一股強大的撫慰電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會特別愉快。</LetterIncidentPsychicSoothe>
+  <RefugeeChasedTitle>給{0}的庇護請求</RefugeeChasedTitle>
+  <RefugeeChasedInitial>一位名叫{PAWN_nameDef}的{PAWN_titleIndef}從附近呼叫殖民地。{PAWN_pronoun}說他正被來自{3}的{2}追殺！\n\n{PAWN_pronoun}請求加入殖民地以獲得庇護。{PAWN_pronoun}表示{PAWN_pronoun}生理年齡是{4}歲，除此之外已經沒有時間追究更多細節了。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在{PAWN_possessive}身後的{2}，由下列單位組成的部隊：\n\n{5}</RefugeeChasedInitial>
+  <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
+  <RefugeeChasedInitial_Reject>忽略訊息</RefugeeChasedInitial_Reject>
+  <RefugeeChasedRejected>在你切斷與{1_labelShort}的通訊之前，一陣淒厲的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
+  <JourneyOffer>一個與你舊識的友善AI夏隆．懷特史東向你傳送了一則訊息！\n\n夏隆表示他在這座星球上藏了一艘星艦，並附上了星艦的座標。\n\n那艘星艦目前處於深度休眠狀態，你將需要在你抵達後啟動系統，然後保衛星艦不被襲擊者奪走，直到星艦完成所有啟動程序。\n\n如果你能乘著星艦飛離地面，夏隆便能夠帶你離開這個邊緣世界，再度往天空中的星星飛去。</JourneyOffer>
 
 </LanguageData>

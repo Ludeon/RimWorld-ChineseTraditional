@@ -20,6 +20,8 @@
   <PauseOnLoad>於讀取時暫停</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>於接到重要通知時暫停遊戲</PauseOnUrgentLetter>
+  <!-- EN: Pause on -->
+  <AutomaticPauseModeSetting>暫停</AutomaticPauseModeSetting>
   <!-- EN: Custom cursor -->
   <CustomCursor>替換鼠標</CustomCursor>
   <!-- EN: Hats shown only on game map -->
@@ -46,6 +48,10 @@
   <OpenSaveGameDataFolder>開啟存檔資料夾</OpenSaveGameDataFolder>
   <!-- EN: Show save data location -->
   <ShowSaveGameDataLocation>顯示存檔地址</ShowSaveGameDataLocation>
+  <!-- EN: Open log file folder -->
+  <OpenLogFileFolder>打開日誌資料夾</OpenLogFileFolder>
+  <!-- EN: Show log file location -->
+  <ShowLogFileLocation>顯示日誌資料位置</ShowLogFileLocation>
   <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
   <NamesYouWantToSee>在遊戲中或者背景故事中你想看到的角色姓氏：</NamesYouWantToSee>
   <!-- EN: Add name -->
@@ -92,5 +98,7 @@
   <RestoreToDefaultSettings>恢復為預設值</RestoreToDefaultSettings>
   <!-- EN: Your options have been reset. The game will now restart automatically. -->
   <ResetAndRestart>你的設定值已經重置，遊戲將自動重啟。</ResetAndRestart>
+  <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>你的所有設置都將重置為預設設置，並且遊戲將重新啟動。所有未保存的進度將遺失！\n\n是否繼續？</ResetAndRestartConfirmationDialog>
   
 </LanguageData>

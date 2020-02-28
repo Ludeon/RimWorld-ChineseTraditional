@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: AI persona core -->
+  <!-- EN: persona core -->
   <AIPersonaCore.label>AI人格核心</AIPersonaCore.label>
-  <!-- EN: A hyper-advanced computer core that houses a peak-human-equivalent AI persona. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of great power. -->
+  <!-- EN: A hyper-advanced computer core that houses a peak-human-equivalent machine persona. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of great power. -->
   <AIPersonaCore.description>一個搭載了高度纇人AI人格的先進電腦核心。這個核心本身沒有什麼能力，但如果裝在合適的機體上，它可以支配令人恐懼的力量。</AIPersonaCore.description>
   
   <!-- EN: elephant tusk -->
@@ -22,11 +22,9 @@
   <!-- EN: Use healer mech serum -->
   <MechSerumHealer.comps.CompUsable.useLabel>使用治療者機器劑</MechSerumHealer.comps.CompUsable.useLabel>
   
-  <!-- EN: neurotrainer mech serum -->
+  <!-- UNUSED -->
   <MechSerumNeurotrainer.label>神經訓練者機器劑</MechSerumNeurotrainer.label>
-  <!-- EN: A one-use super-dose of mechanites tuned to train a specific skill. The dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <MechSerumNeurotrainer.description>一種一次性使用的奈米機器劑，用於訓練特定的技能。神經技能訓練器透過使用者的眼球釋放奈米機器進入使用者的大腦，依照需求轉換成神經組織，迅速提高使用者特定的技能能力。</MechSerumNeurotrainer.description>
-  <!-- EN: Use neurotrainer mech serum to learn {0} -->
   <MechSerumNeurotrainer.comps.CompNeurotrainer.useLabel>使用神經訓練者機器劑學習{0}</MechSerumNeurotrainer.comps.CompNeurotrainer.useLabel>
   
   <!-- EN: resurrector mech serum -->

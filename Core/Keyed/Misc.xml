@@ -16,18 +16,28 @@
 
   <!-- EN: Version {0} -->
   <VersionIndicator>版本{0}</VersionIndicator>
+  <!-- EN: Game version -->
+  <GameVersionIndicator>遊戲版本</GameVersionIndicator>
   <!-- EN: development build -->
   <DevelopmentBuildLower>開發中版本</DevelopmentBuildLower>
   <!-- EN: Compiled {0} -->
   <CompiledOn>匯編於{0}</CompiledOn>
   <!-- EN: Logged into Steam as {0} -->
   <LoggedIntoSteamAs>以{0}登入Steam</LoggedIntoSteamAs>
-
+  
+  <!-- ToCommaList() -->
+  <!-- EN: {0} and {1} -->
+  <ToCommaListAnd>{0} and {1}</ToCommaListAnd>
+  
   <!-- General-use words -->
   <!-- EN: Yes -->
   <Yes>是</Yes>
   <!-- EN: No -->
   <No>否</No>
+  <!-- EN: new -->
+  <New>新的</New>
+  <!-- EN: Gender -->
+  <Gender>性別</Gender>
   <!-- EN: min -->
   <min>最小值</min>
   <!-- EN: max -->
@@ -42,6 +52,8 @@
   <damage>傷害</damage>
   <!-- EN: radius -->
   <radius>範圍</radius>
+  <!-- EN: expired -->
+  <expired>過期</expired>
   <!-- EN: duration (days) -->
   <durationDays>持續天數</durationDays>
   <!-- EN: interval (days) -->
@@ -66,6 +78,8 @@
   <Default>預設</Default>
   <!-- EN: Average -->
   <Average>平均</Average>
+  <!-- EN: Cause -->
+  <Cause>原因</Cause>
   <!-- EN: ${0} -->
   <MoneyFormat>${0}</MoneyFormat>
 
@@ -79,6 +93,16 @@
   <MeatInsectDesc>屠宰好的生肉。可以烹調成料理，有必要的話還能直接生吃，但十分噁心。</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
   <MeatHumanDesc>屠宰好的生肉。可以烹調成料理或直接生吃，但大概沒有人喜歡這個主意。</MeatHumanDesc>
+
+  <!-- EN: techprint ({PROJECT_label}) -->
+  <TechprintLabel>科技藍圖({PROJECT_label})</TechprintLabel>
+  <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
+\nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
+\nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
+\nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
+  <TechprintDesc>這是關於研究項目'{PROJECT_label}'的科技藍圖。\n\n科技藍圖的物理狀態可以是從畫有圖樣的碎紙片到先進的獨立教學設備中的任意形式。不管形式如何，它們都扮演著相同的角色。它們能給你的研究員們更多的信心，關於一個有可行性的點子或者一個關於更先進設計的粗略想法。\n\n你的研究員們需要有足夠多的基礎知識才能理解科技藍圖給定的科技要從何開始。只有在應用了足夠多的科技藍圖之後，你的研究員們才能找出在特定情況下要如何細緻地使用這項技術。\n\n在相對應的研究項目上使用科技藍圖能夠完成項目剩餘進度的一半。此外，即使這個項目已經完成，研究員們也能夠通過技術文檔來增進智識技能。</TechprintDesc>
+  <!-- EN: Unlocks -->
+  <Unlocks>解鎖</Unlocks>
 
   <!-- EN: {0} corpse -->
   <CorpseLabel>{0}屍體</CorpseLabel>
@@ -134,5 +158,8 @@
   <West>西方</West>
   <!-- EN: East -->
   <East>東方</East>
+
+  <!-- EN: applying techprint ({0}) -->
+  <ApplyingTechprint>正在應用科技藍圖 ({0})</ApplyingTechprint>
   
 </LanguageData>

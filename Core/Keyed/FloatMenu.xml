@@ -3,22 +3,24 @@
 
   <!-- EN: Call {0} -->
   <CallOnRadio>呼叫{0}</CallOnRadio>
-  <!-- EN: Cannot use ({0}) -->
+  <!-- EN: Cannot use: {0} -->
   <CannotUseReason>無法使用({0})</CannotUseReason>
-  <!-- EN: Cannot use (solar flare) -->
+  <!-- EN: Cannot use: EMP -->
   <CannotUseSolarFlare>無法使用(太陽閃焰)</CannotUseSolarFlare>
-  <!-- EN: Cannot use (no power) -->
+  <!-- EN: Cannot use: No power -->
   <CannotUseNoPower>無法使用(沒有電力)</CannotUseNoPower>
-  <!-- EN: Cannot use (no path) -->
+  <!-- EN: Cannot use: No path -->
   <CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
-  <!-- EN: Cannot use (reserved) -->
+  <!-- EN: Cannot use: Reserved -->
   <CannotUseReserved>無法使用(被預留)</CannotUseReserved>
-  <!-- EN: Cannot use (full) -->
+  <!-- EN: Cannot use: full -->
   <CannotUseFull>無法使用(已滿)</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>無法聯絡{1_labelShort}首領</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>對方勢力目前無首領</LeaderUnavailableNoLeader>
+  <!-- EN: Not allowed -->
+  <NotAllowed>不允許</NotAllowed>
   
   <!-- EN: Fire at {1_label} -->
   <FireAt>對{1_label}開火</FireAt>
@@ -27,7 +29,7 @@
   <OutOfRange>超出射程</OutOfRange>
   <!-- EN: too close -->
   <TooClose>距離過近</TooClose>
-  <!-- EN: cannot hit target -->
+  <!-- EN: Cannot hit target -->
   <CannotHitTarget>無法擊中目標</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
   <IsIncapableOfViolenceLower>{1_labelShort}無法執行暴力相關指令</IsIncapableOfViolenceLower>
@@ -49,6 +51,8 @@
   <MeleeAttackToDeath>近身攻擊直到殺死{1_label}</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>沒有路徑</NoPath>
+  <!-- EN: burying -->
+  <Burying>掩埋</Burying>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>禁止的</ForbiddenLower>
@@ -80,6 +84,8 @@
   <NoUsableFood>無可使用的食物</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>無食物</NoFood>
+  <!-- EN: below requirements of {0} -->
+  <FoodBelowTitleRequirements>低於{0}的要求</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>動物相關技能過低 - 需要{0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
@@ -88,8 +94,8 @@
   <CantInteractAnimalAsleep>動物睡眠中</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>動物忙碌中</CantInteractAnimalBusy>
-  <!-- EN: construction skill too low -->
-  <ConstructionSkillTooLow>建造技能不足</ConstructionSkillTooLow>
+  <!-- EN: {0} skill too low -->
+  <SkillTooLowForConstruction>{0}技能太低</SkillTooLowForConstruction>
   <!-- EN: need components -->
   <NoComponentsToRepair>需要電子零件</NoComponentsToRepair>
   <!-- EN: need {0} -->
@@ -120,18 +126,28 @@
   <IncapableOfMining>無法開採</IncapableOfMining>
   <!-- EN: angers faction -->
   <AngersFaction>憤怒的勢力</AngersFaction>
+  <!-- EN: no body part -->
+  <InstallImplantNoBodyPart>沒有身體部位</InstallImplantNoBodyPart>
+  <!-- EN: not a colonist -->
+  <InstallImplantNotAllowedForNonColonists>不是殖民者</InstallImplantNotAllowedForNonColonists>
+  <!-- EN: already installed -->
+  <InstallImplantAlreadyInstalled>已安裝</InstallImplantAlreadyInstalled>
+  <!-- EN: max level -->
+  <InstallImplantAlreadyMaxLevel>最大等級</InstallImplantAlreadyMaxLevel>
+  <!-- EN: Upgrade {0} to level {1} -->
+  <UpgradeImplant>將{0}升級到{1}級</UpgradeImplant>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>食用{1_labelShort}</ConsumeThing>
   
-  <!-- EN: Cannot go here (no path) -->
+  <!-- EN: Cannot go here: no path -->
   <CannotGoNoPath>無法走到目的地(沒有路徑)</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>移動到這裡</GoHere>
   
   <!-- EN: Arrest {0} -->
   <Arrest>拘捕{0}</Arrest>
-  <!-- EN: Try to arrest {1_label} -->
+  <!-- EN: Try to arrest {1_label} ({2} chance) -->
   <TryToArrest>試圖拘捕{1_label}</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>無法拘捕</CannotArrest>
@@ -151,8 +167,13 @@
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>無法帶至冷凍休眠艙</CannotCarryToCryptosleepCasket>
 
+  <!-- EN: Carry {0_label} to shuttle -->
+  <CarryToShuttle>攜帶{0_label}進入穿梭機</CarryToShuttle>
+
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>沒有閒置的冷凍休眠艙。</NoCryptosleepCasket>
+  <!-- EN: Temporary faction members not allowed. -->
+  <CryptosleepCasketGuestsNotAllowed>TODO</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>沒有在封閉房間中的俘虜床。</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -205,17 +226,17 @@
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>撿起{1_labelShort}x{{0}}</PickUpCount>
   
-  <!-- EN: Cannot give {1_label} to pack animal -->
+  <!-- EN: Load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>無法將{1_label}裝載上馱獸</CannotGiveToPackAnimal>
-  <!-- EN: Cannot give {1_label} (all) to pack animal -->
+  <!-- EN: Cannot load {1_label} (all) onto pack animal -->
   <CannotGiveToPackAnimalAll>無法將所有{1_label}裝載上馱獸</CannotGiveToPackAnimalAll>
-  <!-- EN: Give {1_label} to pack animal -->
+  <!-- EN: Load {1_label} onto pack animal -->
   <GiveToPackAnimal>將{1_label}裝載上馱獸</GiveToPackAnimal>
-  <!-- EN: Give {1_label} (all) to pack animal -->
+  <!-- EN: Load {1_label} (all) onto pack animal -->
   <GiveToPackAnimalAll>將所有{1_label}裝載上馱獸</GiveToPackAnimalAll>
-  <!-- EN: Give {1_labelShort} to pack animal... -->
+  <!-- EN: Load {1_labelShort} onto pack animal... -->
   <GiveToPackAnimalSome>將{1_labelShort}...裝載上馱獸</GiveToPackAnimalSome>
-  <!-- EN: Take {1_labelShort} x{{0}} -->
+  <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
   <GiveToPackAnimalCount>將{1_labelShort}x{{0}}裝載上馱獸</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
@@ -244,6 +265,14 @@
   <Strip>脱下{1_label}的衣物</Strip>
   <!-- EN: Cannot strip {1_label} -->
   <CannotStrip>無法脱下{1_label}</CannotStrip>
+  <!-- EN: Cannot drop {1_label} -->
+  <CannotDrop>無法刪除{1_label}</CannotDrop>
+  <!-- EN: temporary faction member -->
+  <QuestRelated>臨時派系成員</QuestRelated>
+  <!-- EN: Cannot change outfits on temporary faction members -->
+  <QuestRelated_Outfit>不能改變臨時成員的裝備</QuestRelated_Outfit>
+  <!-- EN: would replace locked apparel -->
+  <WouldReplaceLockedApparel>將取代鎖定的服裝</WouldReplaceLockedApparel>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>在此自我毀滅</SelfDestructHere>
@@ -284,12 +313,16 @@
   <ApproachingSite>接近{0}</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>發送禮物</OfferGifts>
+  <!-- EN: Trade with {0} -->
+  <TradeWithSettlement>和{0}交易</TradeWithSettlement>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
   <EnterCryptosleepCasket>進入低溫休眠艙</EnterCryptosleepCasket>
   <!-- EN: Open cryptosleep casket -->
   <OpenCryptosleepCasket>開啟低溫休眠艙</OpenCryptosleepCasket>
+  <!-- EN: Get in shuttle -->
+  <EnterShuttle>登上穿梭機</EnterShuttle>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
@@ -297,32 +330,36 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>無法{0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize (incapable of {0}) -->
+  <!-- EN: Cannot prioritize: incapable of {0} -->
   <CannotMissingHealthActivities>無法優先(原因{0})</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
   <CannotGenericAlreadyAm>已經在{0}{2_labelShort}中</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} -->
+  <CannotGenericAlreadyAmCustom>已經在{0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize (will never do {0}) -->
+  <!-- EN: Cannot prioritize: will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>無法優先進行當前任務(無法執行{0})</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: Cannot trade: lacking necessary title -->
+  <CannotTradeMissingTitleAbility>無法交易:缺乏必要的所有權</CannotTradeMissingTitleAbility>
 
-  <!-- EN: Cannot prioritize (will never {0}) -->
+  <!-- EN: Cannot prioritize: will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>無法優先進行當前任務(無法{0})</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>無法{0}</WillNever>
 
-  <!-- EN: Cannot prioritize (not assigned to {0}) -->
+  <!-- EN: Cannot prioritize: not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>無法優先進行當前任務(並未指派為{0})</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>未被指定</NotAssigned>
 
-  <!-- EN: Cannot prioritize (research is a long-term task) -->
+  <!-- EN: Cannot prioritize: research is a long-term task -->
   <CannotPrioritizeResearch>無法優先進行當前任務(研究是一項長時間的工作)</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize ({1_label} is forbidden) -->
+  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>無法優先進行當前任務({1_label}是禁用的)</CannotPrioritizeForbidden>
-  <!-- EN: Cannot prioritize (forbidden) -->
+  <!-- EN: Cannot prioritize: forbidden -->
   <CannotPrioritizeCellForbidden>無法優先進行當前任務(禁用)</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>位於允許的活動範圍外</CannotPrioritizeForbiddenOutsideAllowedArea>
@@ -378,5 +415,11 @@
   <FreePrisoner>釋放俘虜</FreePrisoner>
   <!-- EN: Offer help -->
   <OfferHelp>提供幫助</OfferHelp>
+
+  <!-- EN: apply {0} -->
+  <ApplyTechprint>應用{0}</ApplyTechprint>
   
+  <!-- UNUSED -->
+  <ConstructionSkillTooLow>建造技能不足</ConstructionSkillTooLow>
+
 </LanguageData>

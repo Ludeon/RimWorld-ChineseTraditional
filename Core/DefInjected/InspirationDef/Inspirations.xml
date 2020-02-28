@@ -5,8 +5,8 @@
   <Frenzy_Go.label>行動狂熱</Frenzy_Go.label>
   <!-- EN: Inspired: Go frenzy -->
   <Frenzy_Go.baseInspectLine>激勵：行動狂熱</Frenzy_Go.baseInspectLine>
-  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will move faster for the next 8 days. -->
-  <Frenzy_Go.beginLetter>{0}被激勵了。在接下來的24小時內，{PAWN_possessive}工作速度將提昇至1.5倍。</Frenzy_Go.beginLetter>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will move faster for the next 8 days. -->
+  <Frenzy_Go.beginLetter>[PAWN_nameIndef]被激勵了。在接下來的24小時內，{PAWN_possessive}工作速度將提昇至1.5倍。</Frenzy_Go.beginLetter>
   <Frenzy_Go.beginLetterLabel>激勵：行動狂熱</Frenzy_Go.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (go frenzy). -->
   <Frenzy_Go.endMessage>{0}的狂熱狀態已經結束(行動狂熱)。</Frenzy_Go.endMessage>
@@ -15,8 +15,8 @@
   <Frenzy_Shoot.label>射擊狂熱</Frenzy_Shoot.label>
   <!-- EN: Inspired: Shoot frenzy -->
   <Frenzy_Shoot.baseInspectLine>激勵：射擊狂熱</Frenzy_Shoot.baseInspectLine>
-  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will shoot more accurately for the next 8 days. -->
-  <Frenzy_Shoot.beginLetter>{0}被激勵了。在接下來的3天內，{PAWN_possessive}射擊命中率將大幅提昇。</Frenzy_Shoot.beginLetter>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will shoot more accurately for the next 8 days. -->
+  <Frenzy_Shoot.beginLetter>[PAWN_nameIndef]被激勵了。在接下來的3天內，{PAWN_possessive}射擊命中率將大幅提昇。</Frenzy_Shoot.beginLetter>
   <Frenzy_Shoot.beginLetterLabel>激勵：射擊狂熱</Frenzy_Shoot.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (shoot frenzy). -->
   <Frenzy_Shoot.endMessage>{0}的狂熱狀態已經結束(射擊狂熱)。</Frenzy_Shoot.endMessage>
@@ -25,8 +25,8 @@
   <Frenzy_Work.label>工作狂熱</Frenzy_Work.label>
   <!-- EN: Inspired: Work frenzy -->
   <Frenzy_Work.baseInspectLine>激勵：工作狂熱</Frenzy_Work.baseInspectLine>
-  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will work faster for the next 8 days. -->
-  <Frenzy_Work.beginLetter>{0}被激勵了。在接下來的24小時內，{PAWN_possessive}工作速度將提昇至2.5倍。</Frenzy_Work.beginLetter>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will work faster for the next 8 days. -->
+  <Frenzy_Work.beginLetter>[PAWN_nameIndef]被激勵了。在接下來的24小時內，{PAWN_possessive}工作速度將提昇至2.5倍。</Frenzy_Work.beginLetter>
   <Frenzy_Work.beginLetterLabel>激勵：工作狂熱</Frenzy_Work.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (work frenzy). -->
   <Frenzy_Work.endMessage>{0}的狂熱狀態已經結束(工作狂熱)。</Frenzy_Work.endMessage>
@@ -35,8 +35,8 @@
   <Inspired_Creativity.label>創作狂熱</Inspired_Creativity.label>
   <!-- EN: Inspired: Inspired creativity -->
   <Inspired_Creativity.baseInspectLine>激勵：藝術狂熱</Inspired_Creativity.baseInspectLine>
-  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\nThe next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
-  <Inspired_Creativity.beginLetter>{0}被激勵了。{PAWN_pronoun}完成的下一個作品將會比原有的水準高出三個品質等級。\n\n狂熱狀態將在8天後或是在下一個作品完成時結束。</Inspired_Creativity.beginLetter>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\nThe next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
+  <Inspired_Creativity.beginLetter>[PAWN_nameIndef]被激勵了。{PAWN_pronoun}完成的下一個作品將會比原有的水準高出三個品質等級。\n\n狂熱狀態將在8天後或是在下一個作品完成時結束。</Inspired_Creativity.beginLetter>
   <Inspired_Creativity.beginLetterLabel>激勵：藝術狂熱</Inspired_Creativity.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired creativity). -->
   <Inspired_Creativity.endMessage>{0}的狂熱狀態已經結束(藝術狂熱)。</Inspired_Creativity.endMessage>
@@ -45,8 +45,8 @@
   <Inspired_Recruitment.label>招募狂熱</Inspired_Recruitment.label>
   <!-- EN: Inspired: Inspired recruitment -->
   <Inspired_Recruitment.baseInspectLine>激勵：招募狂熱</Inspired_Recruitment.baseInspectLine>
-  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
-  <Inspired_Recruitment.beginLetter>{0}被激勵了。{PAWN_pronoun}將能夠排除萬難成功招募下一名俘虜。\n\n狂熱狀態將在8天後或是在下一名俘虜招募成功時結束。</Inspired_Recruitment.beginLetter>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
+  <Inspired_Recruitment.beginLetter>[PAWN_nameIndef]被激勵了。{PAWN_pronoun}將能夠排除萬難成功招募下一名俘虜。\n\n狂熱狀態將在8天後或是在下一名俘虜招募成功時結束。</Inspired_Recruitment.beginLetter>
   <Inspired_Recruitment.beginLetterLabel>激勵：招募狂熱</Inspired_Recruitment.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired recruitment). -->
   <Inspired_Recruitment.endMessage>{0}的狂熱狀態已經結束(招募狂熱)。</Inspired_Recruitment.endMessage>
@@ -55,17 +55,26 @@
   <Inspired_Surgery.label>醫術狂熱</Inspired_Surgery.label>
   <!-- EN: Inspired: Inspired surgery -->
   <Inspired_Surgery.baseInspectLine>激勵：醫術狂熱</Inspired_Surgery.baseInspectLine>
-  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\nThe next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
-  <Inspired_Surgery.beginLetter>{0}被激勵了。{PAWN_pronoun}下一場手術的失敗率將減少至一成。\n\n狂熱狀態將在8天後或是在下一次執行手術時結束。</Inspired_Surgery.beginLetter>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\nThe next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
+  <Inspired_Surgery.beginLetter>[PAWN_nameIndef]被激勵了。{PAWN_pronoun}下一場手術的失敗率將減少至一成。\n\n狂熱狀態將在8天後或是在下一次執行手術時結束。</Inspired_Surgery.beginLetter>
   <Inspired_Surgery.beginLetterLabel>激勵：醫術狂熱</Inspired_Surgery.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired surgery). -->
   <Inspired_Surgery.endMessage>{0}的狂熱狀態已經結束(醫術狂熱)。</Inspired_Surgery.endMessage>
+  
+  <!-- EN: inspired taming -->
+  <Inspired_Taming.label>馴服狂熱</Inspired_Taming.label>
+  <!-- EN: Inspired: Inspired taming -->
+  <Inspired_Taming.baseInspectLine>激勵：馴服狂熱</Inspired_Taming.baseInspectLine>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will successfully tame the next animal regardless of difficulty.\n\nThe inspiration will end after 8 days, or when an animal was tamed. -->
+  <Inspired_Taming.beginLetter>[PAWN_nameIndef]被激勵了。[PAWN_pronoun]在下一次馴服動物時必定成功。\n\n狂熱狀態將在8天後或是在下一次執行手術時結束。</Inspired_Taming.beginLetter>
+  <!-- EN: {0} is no longer inspired (inspired taming). -->
+  <Inspired_Taming.endMessage>{0}的狂熱狀態已經結束(馴服狂熱)。</Inspired_Taming.endMessage>
   
   <!-- EN: inspired trade -->
   <Inspired_Trade.label>交易狂熱</Inspired_Trade.label>
   <!-- EN: Inspired: Inspired trade -->
   <Inspired_Trade.baseInspectLine>激勵：交易狂熱</Inspired_Trade.baseInspectLine>
-  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
   <Inspired_Trade.beginLetter>{0}被激勵了。{PAWN_pronoun}將能夠在下一次的交易中獲得顯著的價格優惠。\n\n狂熱狀態將在8天後或是在下一次成交時結束。</Inspired_Trade.beginLetter>
   <Inspired_Trade.beginLetterLabel>激勵：交易狂熱</Inspired_Trade.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired trade). -->

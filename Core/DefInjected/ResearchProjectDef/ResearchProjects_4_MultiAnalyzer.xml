@@ -4,9 +4,9 @@
   <!-- EN: advanced fabrication -->
   <AdvancedFabrication.label>進階精密加工</AdvancedFabrication.label>
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
-  <AdvancedFabrication.description>使用電子零件和其他素材製造進階電子零件。</AdvancedFabrication.description>
+  <AdvancedFabrication.description>使用電子零件和其他素材製造高階電子零件。</AdvancedFabrication.description>
   
-  <!-- EN: bionics -->
+  <!-- EN: bionic replacements -->
   <Bionics.label>仿生學</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
   <Bionics.description>製作高科技仿生義體以取代缺少的肢體或器官。需要熟練的醫生才能為病人安裝義體。</Bionics.description>
@@ -30,21 +30,30 @@
   <Fabrication.label>精密加工</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
   <Fabrication.description>建造精密加工台，可以進行高科技範疇的生產工作，從電子零件組裝到動力裝甲製造。</Fabrication.description>
+  <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components.\n  -Some special threats drop them when defeated. -->
+  <Fabrication.discoveredLetterText>現在你可以建造精密裝配台了，但是還缺乏一些高階電子零件，你可以通過以下幾種方式得到：\n\n-所有外來者定居點都有高階電子零件出售。可以派出遠行隊去買一些。\n- 來訪的貿易旅隊有時候也會攜帶高級零部件。邀請或等待他們造訪。\n-一些任務會給予高階電子零件作為獎勵。\n -一些特殊威脅會在敗逃時遺落高階電子零件。</Fabrication.discoveredLetterText>
+  <!-- EN: About: Getting advanced components -->
+  <Fabrication.discoveredLetterTitle>關於：獲取高階電子零件</Fabrication.discoveredLetterTitle>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>地質探測儀</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires advanced components to construct. -->
-  <GroundPenetratingScanner.description>建造地質探測儀，可探測位在地底的可採掘礦物資源。需使用進階電子零件建造。</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner.description>建造地質探測儀，可探測位在地底的可採掘礦物資源。需使用高階電子零件建造。</GroundPenetratingScanner.description>
   
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>多重分析技術</MultiAnalyzer.label>
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
-  <MultiAnalyzer.description>建造多重分析裝置，可用來加快研究速度、解鎖更高階的科技。需使用進階電子零件建造。</MultiAnalyzer.description>
+  <MultiAnalyzer.description>建造多重分析裝置，可用來加快研究速度、解鎖更高階的科技。</MultiAnalyzer.description>
   
-  <!-- EN: powered armor -->
+  <!-- EN: marine armor -->
   <PoweredArmor.label>動力裝甲</PoweredArmor.label>
-  <!-- EN: Build the power armor and power armor helmets. Note that these also require advanced components. -->
+  <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
   <PoweredArmor.description>神經機械和先進的塑鋼塑形技術解鎖你生產動力裝甲以及動力裝甲頭盔。</PoweredArmor.description>
+  
+  <!-- EN: recon armor -->
+  <ReconArmor.label>斥候裝甲</ReconArmor.label>
+  <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
+  <ReconArmor.description>解鎖製作「斥候裝甲」，一種輕型裝甲，能為偵察部隊提供防護。注意，製作時需要高階電子零件。</ReconArmor.description>
   
   <!-- EN: uranium slug turret -->
   <SniperTurret.label>貧鈾彈砲塔</SniperTurret.label>

@@ -15,7 +15,6 @@
   <ColdSnap.label>寒流</ColdSnap.label>
   <!-- EN: Cold snap -->
   <ColdSnap.letterLabel>寒流</ColdSnap.letterLabel>
-  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
   <ColdSnap.letterText>一波不尋常的寒流正在凍結這個地區，\n\n低體溫症可以很快地殺死人，確保你有地方取暖，並且試著在作物凍死前搶先收穫。</ColdSnap.letterText>
   
   <!-- EN: crop blight -->
@@ -28,14 +27,12 @@
   <Flashstorm.label>雷暴</Flashstorm.label>
   <!-- EN: Flashstorm -->
   <Flashstorm.letterLabel>雷暴</Flashstorm.letterLabel>
-  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
   <Flashstorm.letterText>一場閃電雨正在密集轟炸這個地區，這可能會導致大規模的火災。</Flashstorm.letterText>
   
   <!-- EN: heat wave -->
   <HeatWave.label>熱浪</HeatWave.label>
   <!-- EN: Heat wave -->
   <HeatWave.letterLabel>熱浪</HeatWave.letterLabel>
-  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can kill quickly if people start getting heatstroke. Stay cool by building a cooler or getting deep under a mountain. -->
   <HeatWave.letterText>一波極端酷熱的熱浪正在烤熟這片地區，\n\n中暑可以很快地殺死人，建造冷氣或待在山洞深處以保持涼爽。</HeatWave.letterText>
   
   <!-- EN: herd migration -->
@@ -63,7 +60,7 @@
   <!-- EN: Ransom demand -->
   <RansomDemand.letterLabel>勒索贖金</RansomDemand.letterLabel>
   
-  <!-- EN: chased refugee -->
+  <!-- UNUSED -->
   <RefugeeChased.label>庇護請求</RefugeeChased.label>
   
   <!-- EN: transport pod crash -->
@@ -85,21 +82,19 @@
   <ToxicFallout.label>輻射塵</ToxicFallout.label>
   <!-- EN: Toxic fallout -->
   <ToxicFallout.letterLabel>輻射塵</ToxicFallout.letterLabel>
-  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
   <ToxicFallout.letterText>遠方一場激烈的化學作用釋放出危險的毒素到這個區域。\n\n任何暴露在露天之下的人類與生物將會被毒素緩慢侵蝕。\n\n有毒的大氣至少會瀰漫在整個區域數日，甚至長達一個月以上。</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>火山冬天</VolcanicWinter.label>
   <!-- EN: Volcanic winter -->
   <VolcanicWinter.letterLabel>火山冬天</VolcanicWinter.letterLabel>
-  <!-- EN: A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
   <VolcanicWinter.letterText>一個遙遠的超級火山開始了它的噴發，並且釋放出數百萬立方公里的火山灰至大氣中。\n\n大量的火山灰會遮蔽陽光，這個星球的氣溫會大幅下降，植物也會因為缺乏光線而難以生存。火山冬天最快可能會在幾周內結束，最長則可能延續數季。</VolcanicWinter.letterText>
   
   <!-- EN: wanderer join -->
   <WandererJoin.label>志願者</WandererJoin.label>
-  <!-- EN: Wanderer joins -->
+  <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <WandererJoin.letterLabel>志願者</WandererJoin.letterLabel>
-  <!-- EN: A {PAWN_kind} named {PAWN_nameDef} has arrived and is joining the colony. {PAWN_pronoun} is a {PAWN_title}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
   <WandererJoin.letterText>一個名叫{PAWN_nameDef}的[PAWN_kind]加入了你的陣營。{PAWN_pronoun}是一個[PAWN_title]。\n\n{PAWN_pronoun}自願加入你，但不會自願離開。如果你不想要{PAWN_nameDef}，你可以放逐{PAWN_objective}、當成奴隸賣掉{PAWN_objective}，或是乾脆殺掉{PAWN_objective}。但是，你的其他居民可能會對此有些意見。</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->

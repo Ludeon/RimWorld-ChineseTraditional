@@ -1,52 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: bandit camp quest -->
+  <!-- EN: journey offer -->
+  <GiveQuest_EndGame_ShipEscape.label>旅行邀請</GiveQuest_EndGame_ShipEscape.label>
+  <!-- EN: Journey offer -->
+  <GiveQuest_EndGame_ShipEscape.letterLabel>旅行邀請</GiveQuest_EndGame_ShipEscape.letterLabel>
+  
+  <!-- EN: quest -->
+  <GiveQuest_Random.label>任務</GiveQuest_Random.label>
+  <!-- EN: Quest available -->
+  <GiveQuest_Random.letterLabel>可用任務</GiveQuest_Random.letterLabel>
+  
+  <!-- UNUSED -->
   <Quest_BanditCamp.label>剿匪任務</Quest_BanditCamp.label>
-  <!-- EN: Bandit camp quest -->
   <Quest_BanditCamp.letterLabel>剿匪任務</Quest_BanditCamp.letterLabel>
-  <!-- EN: {0}, {1} of {2}, has sent us a message.\n\nApparently bandits based in a nearby camp have been raiding their caravans. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\n{0} says that {5}.\n\nIf we succeed, their relations will improve, and they'll send us this reward worth {6}:\n\n{3}\n\nIf we don't destroy the camp in {4} days, they will do it themselves. -->
   <Quest_BanditCamp.letterText>{0}，來自{2}的{1}傳來了一則訊息。\n\n看來他們的旅隊被這附近的一座土匪營寨襲擊了，他們請求我們消滅土匪，這表示我們得殲滅所有土匪和機槍塔。\n\n假如我們達成任務，我們將能夠贏得他們的尊重，以及以下報酬：\n\n{3}</Quest_BanditCamp.letterText>
   
-  <!-- EN: incapacitated refugee quest -->
+  <!-- UNUSED -->
   <Quest_DownedRefugee.label>求救訊號</Quest_DownedRefugee.label>
-  <!-- EN: Incapacitated refugee quest -->
   <Quest_DownedRefugee.letterLabel>求救訊號</Quest_DownedRefugee.letterLabel>
-  <!-- EN: {PAWN_nameDef} contacts you and requests help. {PAWN_pronoun} is wounded and unable to move. Without your help, {PAWN_pronoun} will die in {0} days.\n\n{PAWN_nameDef} is a {1}-year-old {2}. {PAWN_pronoun} promises to join you if you rescue {PAWN_objective}.\n\n{PAWN_nameDef} says that {3}. -->
   <Quest_DownedRefugee.letterText>{PAWN_nameDef}聯絡了你並尋求幫助。{PAWN_pronoun}受了傷並且動彈不得。如果你沒有伸出援手，{PAWN_pronoun}會在{0}天後死亡。\n\n{PAWN_nameDef}是一名{1}歲的{2}。{PAWN_pronoun}承諾被你拯救後會加入你的陣營。\n\n那裡可能潛藏著危險，請多加小心。</Quest_DownedRefugee.letterText>
   
-  <!-- EN: item stash quest -->
+  <!-- UNUSED -->
   <Quest_ItemStash.label>尋寶任務</Quest_ItemStash.label>
-  <!-- EN: Item stash quest -->
   <Quest_ItemStash.letterLabel>尋寶任務</Quest_ItemStash.letterLabel>
-  <!-- EN: {0}, {1} of {2}, has informed us of a collection of valuable items worth {6} not far from us. The collection consists of:\n\n{3}\n\nUnfortunately, it won't last - others will take the items in {4} days if we don't.\n\nBeware - valuables tend to attract danger. {0} says that {5}. -->
   <Quest_ItemStash.letterText>{0}，來自{2}的{1}捎來消息，告訴我們這附近有著獲得貴重物品的機會，其中包括：\n\n{3}\n\n只不過，寶藏可不會等人，如果我們沒有在{4}天內取走，那麼將會有其他人代勞。\n寶藏總是伴隨著危險，請保重。{5}</Quest_ItemStash.letterText>
   
-  <!-- EN: item stash quest (AI core) -->
+  <!-- UNUSED -->
   <Quest_ItemStashAICore.label>尋寶任務(AI核心)</Quest_ItemStashAICore.label>
-  <!-- EN: Item stash quest -->
   <Quest_ItemStashAICore.letterLabel>尋寶任務</Quest_ItemStashAICore.letterLabel>
-  <!-- EN: {0}, {1} of {2}, has informed us of a collection of valuable items worth {6} not far from us. The collection consists of:\n\n{3}\n\nUnfortunately, it won't last - others will take the items in {4} days if we don't.\n\nBeware - valuables tend to attract danger. {0} says that {5}. -->
   <Quest_ItemStashAICore.letterText>{0}，來自{2}的{1}捎來消息，告訴我們這附近有著獲得貴重物品的機會，其中包括：\n\n{3}\n\n只不過，寶藏可不會等人，如果我們沒有在{4}天內取走，那麼將會有其他人代勞。\n寶藏總是伴隨著危險，請保重。{5}</Quest_ItemStashAICore.letterText>
   
-  <!-- EN: escape ship quest -->
+  <!-- UNUSED -->
   <Quest_JourneyOffer.label>星艦任務</Quest_JourneyOffer.label>
   
-  <!-- EN: peace talks quest -->
+  <!-- UNUSED -->
   <Quest_PeaceTalks.label>會談邀請</Quest_PeaceTalks.label>
-  <!-- EN: Peace talks quest -->
   <Quest_PeaceTalks.letterLabel>會談提案</Quest_PeaceTalks.letterLabel>
-  <!-- EN: {PAWN_nameDef}, {0} of {1}, has sent us a message. {PAWN_pronoun} wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction and receive gifts, but beware - a poor negotiator can cause more harm than good and may even anger them.\n\nThe offer will expire after {2} days. -->
   <Quest_PeaceTalks.letterText>{PAWN_nameDef}，{1}的{0}，向你發來一則訊息。{PAWN_pronoun}希望與你在附近進行一場會談。\n\n這可能是與對方的勢力增進關係的大好良機，但是請注意，一個糟糕的會談代表可能弄巧成拙，甚至激怒他們。\n\n這份提案將會在{2}天後到期。</Quest_PeaceTalks.letterText>
   
-  <!-- EN: prisoner rescue quest -->
+  <!-- UNUSED -->
   <Quest_PrisonerRescue.label>救出俘虜</Quest_PrisonerRescue.label>
-  <!-- EN: Prisoner rescue quest -->
   <Quest_PrisonerRescue.letterLabel>救出俘虜</Quest_PrisonerRescue.letterLabel>
-  <!-- EN: A prisoner being held by {0} has managed to steal a radio and call you!\n\n{PAWN_nameDef} is being held at a camp nearby under armed guard. Rescue {PAWN_objective}, and {PAWN_pronoun} will join your colony. {PAWN_pronoun} is a {1}-year-old {2}. {PAWN_pronoun} says that {3}. -->
   <Quest_PrisonerRescue.letterText>一名{0}的俘虜竊取了一台無線電並向你發來訊息！\n\n{PAWN_nameDef}被監禁在一座有武裝人員守衛的營地，如果你解救了{PAWN_objective}，{PAWN_pronoun}便會加入你的陣營。{PAWN_pronoun}是一名{1}歲的{2}。{PAWN_pronoun}說{3}。</Quest_PrisonerRescue.letterText>
   
-  <!-- EN: trade request -->
+  <!-- UNUSED -->
   <Quest_TradeRequest.label>訂單任務</Quest_TradeRequest.label>
   
 </LanguageData>

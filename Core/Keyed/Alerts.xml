@@ -18,7 +18,7 @@
   <BreakRiskExtremeDesc>這名居民的情緒已經瀕臨崩潰，隨時有可能出現激進的行為，甚至有潛在的暴力危機：\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>確認這名殖民的心情面板，看看有哪些事情正困擾著他。\n\n想讓居民心情好點，你可以考慮提供更高級的餐點、設置更有趣的娛樂設施並分配更長的娛樂時間、將他們派遣至漂亮的環境、把他們灌醉或抽根菸等等。</BreakRiskDescEnding>
-  
+
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>有居民需要救援</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
@@ -62,6 +62,11 @@
   <NeedColonistBeds>需要居民床</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>你的居民人數比你擁有的床多，有人將會沒有地方睡覺。\n\n建造更多床，或者將一些俘虜床更改成居民床。\n\n若你沒有足夠資源可以造床，睡眠點可以提供免費且立即性的床位。</NeedColonistBedsDesc>
+  
+  <!-- EN: Colonist left unburied -->
+  <AlertColonistLeftUnburied>居民未埋葬</AlertColonistLeftUnburied>
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
+  <AlertColonistLeftUnburiedDesc>一個居民的屍體沒有被安葬。\n\n這可能會對你的居民心情產生負面影響。</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>獵人需要裝備武器</HunterLacksWeapon>
@@ -70,12 +75,12 @@
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>破損的衣物</AlertTatteredApparel>
-  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
   <AlertTatteredApparelDesc>穿著破損的衣物會產生負面心情，以下居民正穿著破損的衣物：\n\n{0}\n給他們找些狀況好一些的衣物。\n\n你可以在裁縫桌自行生產衣物，或是向商人購買。</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>衣不蔽體</AlertUnhappyNudity>
-  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
+  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
   <AlertUnhappyNudityDesc>以下居民因為沒有足夠的衣物而感到不愉快：\n\n{0}\n替他們張羅些衣物。\n\n你可以在裁縫桌自行生產衣物，或向商人購買。</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
@@ -140,11 +145,16 @@
   <NeedResearchProject>需要研究項目</NeedResearchProject>
   <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
   <NeedResearchProjectDesc>你有可以用來進行研究的設備但你沒有指定研究項目。\n\n開啟研究清單並指定一個研究項目。</NeedResearchProjectDesc>
-  
+
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0}位居民無事可做</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>這些居民們正無所事事的四處閒晃：\n\n{0}\n你應該給他們找點有意義的事情來做。</ColonistsIdleDesc>
+  
+  <!-- EN: Caravan idle -->
+  <CaravanIdle>旅隊閒置</CaravanIdle>
+  <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
+  <CaravanIdleDesc>遠行旅隊正在等待著你設定的下一個進發目的地\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>居民需要治療</ColonistNeedsTreatment>
@@ -153,7 +163,7 @@
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>體溫過低</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
   <AlertHypothermiaDesc>下列居民正受到體溫過低的折磨：\n\n{0}\n確保他們的服裝足夠保暖，並且提供溫暖的室內空間。</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
@@ -191,10 +201,48 @@
   <NeedWarmClothesDesc1All>你的所有居民在寒冷的季節來臨時將會缺乏禦寒衣物。</NeedWarmClothesDesc1All>
   <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
   <NeedWarmClothesDesc2>室外氣溫正逐漸降至{0}。\n\n你可以在裁縫桌自行生產衣物，或是向商人購買。</NeedWarmClothesDesc2>
-  
+
   <!-- EN: Immobile caravan -->
   <ImmobileCaravan>旅隊動彈不得</ImmobileCaravan>
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>你的其中一支旅隊因為攜帶過量物資而動彈不得。\n\n你可以在資源面板中下令拋棄部分資源以恢復旅隊的行動能力。</ImmobileCaravanDesc>
+
+  <!-- EN: Building unusable due to roof -->
+  <BuildingCantBeUsedRoofed>建築設施無法使用</BuildingCantBeUsedRoofed>
+  <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
+  <BuildingCantBeUsedRoofedDesc>你的一個或多個建築設施只有在無屋頂區域下才能正常使用。除非移除屋頂，否則這些建築物將無法使用。</BuildingCantBeUsedRoofedDesc>
+
+  <!-- EN: Heatstroke -->
+  <AlertHeatstroke>中暑</AlertHeatstroke>
+  <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <AlertHeatstrokeDesc>以下居民已中暑\n\n{0}\n儘快把他們帶到涼爽的地方。你可以使用「製冷器」或「冷氣」讓房間降溫。如果使用門來與室外隔絕，深層的洞穴裡也能保持涼爽。</AlertHeatstrokeDesc>
+
+  <!-- EN: Guest unhappy -->
+  <QuestPartMoodBelowThreshold>貴賓不高興</QuestPartMoodBelowThreshold>
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
+  <QuestPartMoodBelowThresholdDesc>{0}給予的任務要求是讓這些人保持好心情。但是現在，他們的心情很差。採取一些行動使他們感覺更好:\n\n{1}</QuestPartMoodBelowThresholdDesc>
   
+  <!-- EN: Shuttle leaving in {0} -->
+  <QuestPartShuttleLeaveDelay>穿梭機即將離開{0}</QuestPartShuttleLeaveDelay>
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleLeaveDelayDesc>穿梭機即將離開{1}。{0}的要求是在飛船起飛前把下列的人員或物品裝載上機:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+
+  <!-- EN: Monument will be destroyed -->
+  <DisallowedBuildingInsideMonument>紀念碑將被摧毀</DisallowedBuildingInsideMonument>
+  <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
+  <DisallowedBuildingInsideMonumentDesc>你在一座紀念碑內建了一座不允許的建築。這座紀念碑將在{0}內被毀。</DisallowedBuildingInsideMonumentDesc>
+
+  <!-- EN: Countdown activator {0} -->
+  <ActivatorCountdown>定時啟動器 {0}</ActivatorCountdown>
+  <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDesc>有一個定時啟動器滴答作響，準備喚醒附近的機械族。</ActivatorCountdownDesc>
+  <!-- EN: {0} countdown activators -->
+  <ActivatorCountdownMultiple>{0} 定時啟動器</ActivatorCountdownMultiple>
+  <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDescMultiple>有 {0} 個定時啟動器滴答作響，準備喚醒附近的機械族。</ActivatorCountdownDescMultiple>
+
+  <!-- EN: Quest expires in {0} -->
+  <QuestExpiresSoon>任務將在{0}後到期</QuestExpiresSoon>
+  <!-- EN: The quest '{0}' will expire in {1}. -->
+  <QuestExpiresSoonDesc>任務'{0}' 將在{1}後到期。</QuestExpiresSoonDesc>
 </LanguageData>

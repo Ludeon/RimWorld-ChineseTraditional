@@ -8,7 +8,7 @@
   
   <!-- EN: Maximum number of player colonies -->
   <MaxNumberOfPlayerSettlements.label>最大殖民地數量</MaxNumberOfPlayerSettlements.label>
-  <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Though it is possible to have more colonies, this will probably cause performance slowdowns and gameplay imbalances. We recommend that, at least at first, you play the game with a one colony maximum. -->
+  <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Multiple player colonies are allowed as an experimental testing feature only.\n\nPlaying with multiple colonies will cause gameplay imbalances and split your focus, as well as likely causing performance slowdowns.\n\nWe recommend that you play with the one-colony maximum the game was designed for, at least for your first few games. -->
   <MaxNumberOfPlayerSettlements.helpText>警告：RimWorld在設計上是用來在同時間遊玩單一座玩家基地，雖然同時建立多座據點是可能的，但這很可能會導致遊戲運行速度變慢而且破壞平衡性，我們建議，至少在剛接觸遊戲時只玩一座基地就好。</MaxNumberOfPlayerSettlements.helpText>
   
   <!-- EN: Flick designations only designate -->
@@ -20,5 +20,10 @@
   <TradeGoodsMustBeNearBeacon.label>商品及信標</TradeGoodsMustBeNearBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
   <TradeGoodsMustBeNearBeacon.helpText>欲送出商品或白銀至宇宙商船處，你必須建立一座軌道交易信標，並於其周圍設置一片可接受商品的儲存區。</TradeGoodsMustBeNearBeacon.helpText>
+  
+  <!-- EN: Trading permit requirements -->
+  <TradingRequiresPermit.label>需要貿易許可證</TradingRequiresPermit.label>
+  <!-- EN: Trading here requires the title of {0}.\n\nEnsure any trade caravan you send has someone with the title of {0} or higher. -->
+  <TradingRequiresPermit.helpText>這個地方需要持有{0}許可證。\n\n請確保你派出的任何貿易遠行隊都持有{0}或更高級的許可證。</TradingRequiresPermit.helpText>
   
 </LanguageData>

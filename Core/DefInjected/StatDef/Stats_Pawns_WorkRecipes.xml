@@ -3,7 +3,7 @@
   
   <!-- EN: butchery efficiency -->
   <ButcheryFleshEfficiency.label>屠宰效率</ButcheryFleshEfficiency.label>
-  <!-- EN: The amount of meat produced when butchering flesh creatures. The actual amount is also related to the creature's size. -->
+  <!-- EN: The amount of meat produced when butchering flesh creatures.\n\nThe actual amount is also related to the creature's size. -->
   <ButcheryFleshEfficiency.description>這名角色進行屠宰工作時的成品生產效率加成。實際的產量還與動物的體型相關。</ButcheryFleshEfficiency.description>
   
   <!-- EN: butchery speed -->
@@ -13,7 +13,7 @@
   
   <!-- EN: mechanoid disassembly efficiency -->
   <ButcheryMechanoidEfficiency.label>拆解效率</ButcheryMechanoidEfficiency.label>
-  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid. The actual amount is also related to the mechanoid's size. -->
+  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid.\n\nThe actual amount is also related to the mechanoid's size. -->
   <ButcheryMechanoidEfficiency.description>這名角色進行拆解工作時的成品生產效率加成。實際的產量還與機器的尺寸相關。</ButcheryMechanoidEfficiency.description>
   
   <!-- EN: mechanoid disassembly speed -->
@@ -38,12 +38,18 @@
   
   <!-- EN: food poison chance -->
   <FoodPoisonChance.label>烹調失敗率</FoodPoisonChance.label>
-  <!-- EN: The probability that this character will inadvertently poison a meal they cook. Food poison temporarily debilitates anyone it strikes. -->
+  <!-- EN: The probability that this character will inadvertently poison a meal they cook.\n\nAnyone who eats a food-poisoned meal will be temporarily debilitated with pain, weakness, and vomiting. -->
   <FoodPoisonChance.description>這名角色調理出有毒食物的機率。食物中毒會使中毒者暫時無法工作。</FoodPoisonChance.description>
+  <!-- EN: food poison chance (chance to poison a meal) -->
+  <FoodPoisonChance.labelForFullStatList>食物中毒機率（每一餐機率）</FoodPoisonChance.labelForFullStatList>
   
-  <!-- EN: sculpting speed -->
+  <!-- EN: general labor speed -->
+  <GeneralLaborSpeed.label>一般工作速度</GeneralLaborSpeed.label>
+  <!-- EN: The speed at which this person carries out general labor like making stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag. This stat applies both to activities that involve no skill, as well as those where the skill affects the quality of the product instead of the speed of production. -->
+  <GeneralLaborSpeed.description>此人的一般工作速度，例如切割石磚、精煉燃料、燒燬物品、縫製衣物、創作藝術品、鍛造盔甲和武器或熔煉鋼渣塊。這項能力，同時適用於不涉及技能的工作和技能影響產品質量但不是生產速度的工作。</GeneralLaborSpeed.description>
+  
+  <!-- UNUSED -->
   <SculptingSpeed.label>雕刻速度</SculptingSpeed.label>
-  <!-- EN: The speed at which this person creates sculptures.\n\nThis stat only affects how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill. -->
   <SculptingSpeed.description>這名角色進行雕刻創作時的效率加成。\n\n技能影響作品的品質而不影響工作速度，品質是根據作者技能等級決定。</SculptingSpeed.description>
   
   <!-- EN: smelting speed -->
@@ -51,19 +57,16 @@
   <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
   <SmeltingSpeed.description>這名角色進行金屬提煉工作時的工作速度。\n\n因為金屬提煉是低端的非技術工作，工作速度不受任何技能影響。</SmeltingSpeed.description>
   
-  <!-- EN: smithing speed -->
+  <!-- UNUSED -->
   <SmithingSpeed.label>鍛造速度</SmithingSpeed.label>
-  <!-- EN: Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill. -->
   <SmithingSpeed.description>這名角色進行製造武器、機械和彈藥時的工作速度。\n\n技能影響作品的品質而不影響工作速度，品質是根據作者技能等級決定。</SmithingSpeed.description>
   
-  <!-- EN: tailoring speed -->
+  <!-- UNUSED -->
   <TailoringSpeed.label>裁縫速度</TailoringSpeed.label>
-  <!-- EN: The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill. -->
   <TailoringSpeed.description>這名角色進行裁縫工作時的工作速度。\n\n技能影響作品的品質而不影響工作速度，品質是根據作者技能等級決定。</TailoringSpeed.description>
   
-  <!-- EN: unskilled labor speed -->
+  <!-- UNUSED -->
   <UnskilledLaborSpeed.label>無技能工作速度</UnskilledLaborSpeed.label>
-  <!-- EN: The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items. -->
   <UnskilledLaborSpeed.description>這名角色進行無技能工作時的工作速度，比如製作石塊，在提煉化合燃料或焚毀物品。</UnskilledLaborSpeed.description>
   
 </LanguageData>

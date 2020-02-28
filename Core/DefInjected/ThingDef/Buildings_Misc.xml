@@ -35,12 +35,12 @@
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>地質探測儀</GroundPenetratingScanner.label>
-  <!-- EN: A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity. -->
+  <!-- EN: A sensor unit used by researchers to search for buried resources. The chance to find a resource depends on the operator's research ability. It consumes a lot of electricity. If you find a buried resource, you'll need to use deep drills to extract it. It doesn't work under a roof. -->
   <GroundPenetratingScanner.description>一具朝向地面，專門探測地下礦脈位置(但無法辨別礦物種類)的雷達探測器，備有聲納與回波顯示器。需消耗巨量電力。</GroundPenetratingScanner.description>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>長程礦物探測儀</LongRangeMineralScanner.label>
-  <!-- EN: Can be used by researchers to detect a specific type of mineral across the planet. The time it takes to find the resource is somewhat random, and depends on researcher skill. -->
+  <!-- EN: A lateral sensor unit used by researchers to detect a specific type of mineral across the planet. The chance to find a resource depends on the operator's research ability. This sensor can be tuned to target a specific resource type. It consumes a lot of electricity. If you find a resource, you'll need to travel to collect it. -->
   <LongRangeMineralScanner.description>能夠自動偵測星球上蘊藏的珍貴礦物，例如黃金和翡翠。發現礦物的頻率為，在半徑三十地塊的範圍內，每三十天發現一次。在相同或鄰近區塊建造其他探測儀並不會提升探測效率。</LongRangeMineralScanner.description>
   
   <!-- EN: marriage spot -->
@@ -77,6 +77,16 @@
   <Sarcophagus.label>棺材</Sarcophagus.label>
   <!-- EN: An ornamented burial receptacle for the honored dead. -->
   <Sarcophagus.description>一個替光榮犧牲的死者準備的安身之處。</Sarcophagus.description>
+  
+  <!-- EN: grand stele -->
+  <SteleGrand.label>宏偉石碑</SteleGrand.label>
+  <!-- EN: A towering slab with extensive engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
+  <SteleGrand.description>周圍有大量雕刻的高聳石板。石碑自古以來都被用於紀念人物、戰役或者其他重要事件。</SteleGrand.description>
+  
+  <!-- EN: large stele -->
+  <SteleLarge.label>大型石碑</SteleLarge.label>
+  <!-- EN: A tall, thick slab with engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
+  <SteleLarge.description>一塊側面有雕刻的高而厚的石板。石碑自古以來都被用於紀念人物、戰役或者其他重要事件。</SteleLarge.description>
   
   <!-- EN: tool cabinet -->
   <ToolCabinet.label>工具櫃</ToolCabinet.label>

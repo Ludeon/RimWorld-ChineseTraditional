@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>scraped_present->glancing</li>
+    <li>scraped_present->bouncing</li>
+    <li>scraped_present->grazing</li>
+    <li>scraped_present->caroming</li>
+    <li>scraped_present->skipping</li>
+    <li>scraped_present->skating</li>
+    <li>scraped_past->glanced</li>
+    <li>scraped_past->bounced</li>
+    <li>scraped_past->grazed</li>
+    <li>scraped_past->caromed</li>
+    <li>scraped_past->skipped</li>
+    <li>scraped_past->skated</li>
+  -->
+  <Combat_DeflectIncludes.rulePack.rulesStrings>
+    <li>scraped_present->擦</li>
+    <li>scraped_present->擦</li>
+    <li>scraped_present->滑</li>
+    <li>scraped_present->滑</li>
+    <li>scraped_present->彈</li>
+    <li>scraped_present->彈</li>
+    <li>scraped_past->擦</li>
+    <li>scraped_past->擦</li>
+    <li>scraped_past->滑</li>
+    <li>scraped_past->滑</li>
+    <li>scraped_past->彈</li>
+    <li>scraped_past->彈</li>
+  </Combat_DeflectIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]</li>
+    <li>towardsat->towards</li>
+    <li>towardsat->at</li>
+    <li>verb_genericattack->swung</li>
+    <li>verb_genericattack->flailed</li>
+    <li>verb_genericattack->thrashed</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <Combat_FailIncludes.rulePack.rulesStrings>
+    <li>action->[INITIATOR_definite][tried][damaged_inf]傷[RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite][tried]用[implement][damaged_inf]傷[RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite]用[implement][tried][damaged_inf]傷[RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite]對[RECIPIENT_definite]揮舞[WEAPON_label]</li>
+    <li>action(p=0.3)->[INITIATOR_definite][towardsat][RECIPIENT_definite][verb_genericattack]著[implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite][verb_genericattack]著[implement]</li>
+    <li>towardsat->對</li>
+    <li>towardsat->朝</li>
+    <li>verb_genericattack->揮舞</li>
+    <li>verb_genericattack->舞動</li>
+    <li>verb_genericattack->揮動</li>
+    <li>tried->試圖</li>
+    <li>tried->嘗試</li>
+  </Combat_FailIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->painfully</li>
+    <li>strikeAdv->horribly</li>
+    <li>strikeAdv->savagely</li>
+    <li>strikeAdv->viciously</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence->leaving a horrific wound</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
+  -->
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+    <li>result(p=1)->[damaged_present][RECIPIENT_possessive][targetlist]</li>
+    <li>result(p=0.2)->[damaged_present][RECIPIENT_possessive][targetlist]，同時[flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->慘忍的</li>
+    <li>strikeAdv->可怕的</li>
+    <li>strikeAdv->野蠻的</li>
+    <li>strikeAdv->惡毒的</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一個噁心的傷口</li>
+    <li>flavortext_consequence->留下恐怖的傷口</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->讓[RECIPIENT_objective][painevent]而[wince]</li>
+    <li>flavortext_consequence(p=0.2)->讓[RECIPIENT_objective]失去平衡</li>
+  </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[action], [result].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->wounding</li>
+    <li>damaged_present(deflected!=True)->injuring</li>
+    <li>destroyed(p=0.5)->destroyed</li>
+    <li>destroyed(p=0.5)->demolished</li>
+    <li>destroyed(p=0.5)->ruined</li>
+    <li>destroyed(p=0.5)->wrecked</li>
+    <li>wince(recipient_flesh==Normal)->wince</li>
+    <li>wince(recipient_flesh==Normal)->grimace</li>
+    <li>wince(recipient_flesh==Normal)->cringe</li>
+    <li>wince(recipient_flesh==Normal)->groan</li>
+    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
+    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince->recoil</li>
+    <li>wince->stumble</li>
+    <li>painstate->in</li>
+    <li>painstate->with</li>
+    <li>painstate->from the</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent->from the injury</li>
+    <li>painevent->from the wound</li>
+    <li>to->to</li>
+    <li>to->into</li>
+  -->
+  <Combat_MeleeIncludes.rulePack.rulesStrings>
+    <li>r_logentry->[action]，[result]。</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive][WEAPON_label]的[TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive][WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->一把[WEAPON_label]的[TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->一把[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive][TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive][WEAPON_label]的[TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive][WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive][TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label]和[recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label]，[recipient_part1_label]和[recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label]，[recipient_part1_label]，[recipient_part2_label]和[recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->打傷</li>
+    <li>damaged_present(deflected!=True)->傷害</li>
+    <li>destroyed(p=0.5)->毀壞</li>
+    <li>destroyed(p=0.5)->摧毀</li>
+    <li>destroyed(p=0.5)->打壞</li>
+    <li>destroyed(p=0.5)->破壞</li>
+    <li>wince(recipient_flesh==Normal)->齜牙咧嘴</li>
+    <li>wince(recipient_flesh==Normal)->臉部扭曲</li>
+    <li>wince(recipient_flesh==Normal)->退縮</li>
+    <li>wince(recipient_flesh==Normal)->呻吟</li>
+    <li>wince(recipient_flesh!=Mechanoid)->尖叫</li>
+    <li>wince(recipient_flesh!=Mechanoid)->哀號</li>
+    <li>wince->退縮</li>
+    <li>wince->踉蹌</li>
+    <li>painstate->感到</li>
+    <li>painstate->覺得</li>
+    <li>painstate->因為</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->因為疼痛</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->因為痛苦</li>
+    <li>painevent(recipient_flesh==Normal)->因為劇痛</li>
+    <li>painevent->因為受傷</li>
+    <li>painevent->因為傷口</li>
+    <li>to->to</li>
+    <li>to->into</li>
+  </Combat_MeleeIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->wielding</li>
+    <li>wielding(p=3)->using</li>
+    <li>wielding(p=2)->handling</li>
+    <li>wielding->brandishing</li>
+    <li>wielding->manipulating</li>
+    <li>using(p=4)->using</li>
+    <li>using->driving</li>
+    <li>using->thrusting</li>
+    <li>using->utilizing</li>
+    <li>using->moving</li>
+    <li>skillAdv(INITIATOR_skill<=3)->incompetently</li>
+    <li>skillAdv(INITIATOR_skill<=3)->ineptly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->wildly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->randomly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->flailingly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->awkwardly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->clumsily</li>
+    <li>skillAdv(INITIATOR_skill<=5)->fearfully</li>
+    <li>skillAdv(INITIATOR_skill<=5)->falteringly</li>
+    <li>skillAdv(INITIATOR_skill<=5)->foolishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->hesitantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->reluctantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->slowly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->tentatively</li>
+    <li>skillAdv(INITIATOR_skill<=6)->inexpertly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->amateurishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->timidly</li>
+    <li>skillAdv(INITIATOR_skill<=8)->enthusiastically</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->proficiently</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->competently</li>
+    <li>skillAdv(INITIATOR_skill>=8)->professionally</li>
+    <li>skillAdv(INITIATOR_skill>=8)->deftly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->aptly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->cleverly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->dexterously</li>
+    <li>skillAdv(INITIATOR_skill>=8)->skillfully</li>
+    <li>skillAdv(INITIATOR_skill>=10)->adeptly</li>
+    <li>skillAdv(INITIATOR_skill>=10)->slickly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->expertly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->precisely</li>
+    <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
+    <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
+    <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
+  -->
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->拿著</li>
+    <li>wielding(p=3)->用著</li>
+    <li>wielding(p=2)->握著</li>
+    <li>wielding->揮舞著</li>
+    <li>wielding->操弄著</li>
+    <li>using(p=4)->使用</li>
+    <li>using->揮舞著</li>
+    <li>using->拿著</li>
+    <li>using->使用</li>
+    <li>using->揮動著</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->不熟練地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->無力地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->胡亂地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->隨意地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->搖搖擺擺地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->尷尬地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->笨拙地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->虛張聲勢地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->顫抖地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->愚蠢的</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->猶豫地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->勉強地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->緩慢地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->遲疑地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->不熟練地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->業餘地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->膽小地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->激動地</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->順手地</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->熟練地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->專業地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->靈巧地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->適當地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->機智地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->靈敏地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->熟練地</li>
+    <li>skillAdv(INITIATOR_skill>=10)->嫻熟地</li>
+    <li>skillAdv(INITIATOR_skill>=10)->利落地</li>
+    <li>skillAdv(INITIATOR_skill>=12)->如宗師一般地</li>
+    <li>skillAdv(INITIATOR_skill>=12)->精確地</li>
+    <li>skillAdv(INITIATOR_skill>=14)->不費吹灰之力地</li>
+    <li>skillAdv(INITIATOR_skill>=16)->如舞一般地</li>
+    <li>skillAdv(INITIATOR_skill>=16)->優雅地</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->機械地</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->機械地</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->直接地</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
+  -->
+  <Combat_WoundIncludes.rulePack.rulesStrings>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label]和[recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label]、[recipient_part_destroyed1_label]和[recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label]、[recipient_part_destroyed1_label]、[recipient_part_destroyed2_label]和[recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label]和[recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label]、[recipient_part_damaged1_label]和[recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label]、[recipient_part_damaged1_label]、[recipient_part_damaged2_label]和[recipient_part_damaged3_label]</li>
+  </Combat_WoundIncludes.rulePack.rulesStrings>
+  
+</LanguageData>

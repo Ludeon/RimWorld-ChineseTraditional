@@ -3,7 +3,7 @@
   
   <!-- EN: beauty -->
   <Beauty.label>美觀程度</Beauty.label>
-  <!-- EN: How enjoyable an object is to look at. Beautiful objects fulfill characters' need for beauty. -->
+  <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
   <Beauty.description>這個物件能給觀賞者帶來的的美觀程度。美麗的物件能提昇人物的美觀度需求。</Beauty.description>
   
   <!-- EN: cleanliness -->
@@ -13,12 +13,12 @@
   
   <!-- EN: comfort -->
   <Comfort.label>舒適度</Comfort.label>
-  <!-- EN: How comfortable an object is to sit or lay on. Using comfortable objects fulfills a character's need for comfort. -->
+  <!-- EN: How comfortable an object is to sit or lay on.\n\nUsing comfortable objects fulfills a character's need for comfort. -->
   <Comfort.description>坐或躺在這個物件上的舒適度。用舒適的家具滿足人物的舒適度需求。</Comfort.description>
   
   <!-- EN: deterioration rate -->
   <DeteriorationRate.label>衰敗速率</DeteriorationRate.label>
-  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day. Deterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
   <DeteriorationRate.description>此物件暴露在室外時的衰敗速度，一般狀況下每天衰敗的耐久值，某些情況下會衰敗的更快，如雨天。</DeteriorationRate.description>
   <!-- EN: {0} / day -->
   <DeteriorationRate.formatString>{0}/日</DeteriorationRate.formatString>
@@ -32,10 +32,12 @@
   <FoodPoisonChanceFixedHuman.label>食物致毒率</FoodPoisonChanceFixedHuman.label>
   <!-- EN: The chance this food will cause food poisoning. -->
   <FoodPoisonChanceFixedHuman.description>這個食物導致食物中毒的機率。</FoodPoisonChanceFixedHuman.description>
+  <!-- EN: food poison chance (food stat) -->
+  <FoodPoisonChanceFixedHuman.labelForFullStatList>食物致毒機率（食物属性）</FoodPoisonChanceFixedHuman.labelForFullStatList>
   
   <!-- EN: market value -->
   <MarketValue.label>市場價格</MarketValue.label>
-  <!-- EN: The market value of an object. The actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
+  <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
   <MarketValue.description>這個物件的市價。實際價格將會受到關係狀態與社交技能影響。</MarketValue.description>
   <!-- EN: ${0} -->
   <MarketValue.formatString>${0}</MarketValue.formatString>
@@ -49,13 +51,18 @@
   
   <!-- EN: max hit points -->
   <MaxHitPoints.label>最大耐久</MaxHitPoints.label>
-  <!-- EN: The maximum hit points of an object. This represents how much damage it can take before being destroyed. -->
+  <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
   <MaxHitPoints.description>此物件的最大耐久值。</MaxHitPoints.description>
   
   <!-- EN: nutrition -->
   <Nutrition.label>營養值</Nutrition.label>
   <!-- EN: How nutritious this food is. -->
   <Nutrition.description>這個食物所能提供的營養值。</Nutrition.description>
+  
+  <!-- EN: royal favor value -->
+  <RoyalFavorValue.label>王室點數</RoyalFavorValue.label>
+  <!-- EN: The amount of royal favor your trader will earn for giving this to a tribute collector. -->
+  <RoyalFavorValue.description>你的商人將此物品交給徵募官時能獲取的王室點數總值。</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>售價倍率</SellPriceFactor.label>
@@ -64,8 +71,10 @@
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyTurret.label>射擊精度</ShootingAccuracyTurret.label>
-  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyTurret.description>對目標遠程射擊的基礎命中率。機率還同時受到許多其他參數的影響。選擇射手後再將游標移至目標上即可查看命中率資訊。</ShootingAccuracyTurret.description>
+  <!-- EN: shooting accuracy (turrets) -->
+  <ShootingAccuracyTurret.labelForFullStatList>射擊精度（炮塔）</ShootingAccuracyTurret.labelForFullStatList>
   
   <!-- EN: work to make -->
   <WorkToMake.label>製造工作量</WorkToMake.label>

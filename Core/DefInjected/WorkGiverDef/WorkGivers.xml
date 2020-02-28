@@ -211,7 +211,7 @@
   <!-- EN: refine chemicals -->
   <DoBillsRefinery.verb>提煉</DoBillsRefinery.verb>
   
-  <!-- EN: make sculptures -->
+  <!-- EN: make things at art bench -->
   <DoBillsSculpt.label>雕刻</DoBillsSculpt.label>
   <!-- EN: sculpting at -->
   <DoBillsSculpt.gerund>雕刻於</DoBillsSculpt.gerund>
@@ -288,6 +288,13 @@
   <!-- EN: tend to -->
   <DoctorTendToSelf.verb>自行治療</DoctorTendToSelf.verb>
   
+  <!-- EN: tend to self -->
+  <DoctorTendToSelfEmergency.label>自行治療</DoctorTendToSelfEmergency.label>
+  <!-- EN: tending to -->
+  <DoctorTendToSelfEmergency.gerund>治療</DoctorTendToSelfEmergency.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToSelfEmergency.verb>自行治療</DoctorTendToSelfEmergency.verb>
+  
   <!-- EN: execute prisoners -->
   <DoExecution.label>執行死刑</DoExecution.label>
   <!-- EN: doing execution on -->
@@ -336,6 +343,13 @@
   <Flick.gerund>開關電源</Flick.gerund>
   <!-- EN: flick switch on -->
   <Flick.verb>開關電源</Flick.verb>
+  
+  <!-- EN: operate ground penetrating scanner -->
+  <GroundPenetratingScan.label>操作礦物掃描儀</GroundPenetratingScan.label>
+  <!-- EN: scanning at -->
+  <GroundPenetratingScan.gerund>掃描礦物於</GroundPenetratingScan.gerund>
+  <!-- EN: scan -->
+  <GroundPenetratingScan.verb>掃描礦物</GroundPenetratingScan.verb>
   
   <!-- EN: harvest crops -->
   <GrowerHarvest.label>收穫</GrowerHarvest.label>
@@ -399,6 +413,13 @@
   <LoadTransporters.gerund>裝載</LoadTransporters.gerund>
   <!-- EN: load -->
   <LoadTransporters.verb>裝載</LoadTransporters.verb>
+  
+  <!-- EN: operate long range scanner -->
+  <LongRangeScan.label>操作長程礦物掃描儀</LongRangeScan.label>
+  <!-- EN: scanning at -->
+  <LongRangeScan.gerund>掃描礦物於</LongRangeScan.gerund>
+  <!-- EN: scan -->
+  <LongRangeScan.verb>掃描礦物</LongRangeScan.verb>
   
   <!-- EN: milk animals -->
   <Milk.label>擠奶</Milk.label>
@@ -491,11 +512,9 @@
   <!-- EN: research -->
   <Research.verb>研究</Research.verb>
   
-  <!-- EN: operate scanner -->
+  <!-- UNUSED -->
   <Scan.label>啟動探測</Scan.label>
-  <!-- EN: scanning at -->
   <Scan.gerund>探測</Scan.gerund>
-  <!-- EN: scan -->
   <Scan.verb>探測</Scan.verb>
   
   <!-- EN: shear animals -->

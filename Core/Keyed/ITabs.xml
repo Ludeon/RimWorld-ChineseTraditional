@@ -42,7 +42,9 @@
   <TabFormingCaravan>旅隊</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>內容物</TabTransporterContents>
-
+  <!-- EN: Contents -->
+  <TabCasketContents>內容物</TabCasketContents>
+  
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
   <AddBill>新增工作</AddBill>
@@ -78,6 +80,24 @@
   <RecruitmentResistance>仍然保持抗拒</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>招募難度</RecruitmentDifficulty>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>招募機率</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>招募難度係數: {0}\n情緒係數: {1}\n綜合機率: {2}</RecruitmentChanceExplanation>
+  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\n上一次招募嘗試\n招募者: {3}\n談判能力係數: {4}\n意見係數: {5} ({6})\n最終機率 {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>抵抗降低: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>關係改善（釋放）</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>如果釋放該俘虜，你將獲得該派系關係的改善。 其程度受到俘虜健康和精神狀況的影響。</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>越獄間隔</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>兩次嘗試越獄之間的平均時間天數。自上次越獄以後的心情，活動能力和時間都是其影響的因素。\n\n該數值會忽略睡眠的時間，因此實際平均越獄間隔通常會更長。</PrisonBreakMTBDaysDescription>
+  <!-- EN: Slave price -->
+  <SlavePrice>奴隸價格</SlavePrice>
   <!-- EN: Gets food -->
   <GetsFood>供應食物</GetsFood>
   <!-- EN: Doctors care -->
@@ -194,7 +214,7 @@
   <!-- Training tab -->
   <!-- EN: Trainability -->
   <Trainability>可訓練度</Trainability>
-  <!-- EN: Requires trainability {0}. -->
+  <!-- EN: Requires {0} trainability. -->
   <CannotTrainNotSmartEnough>需要{0}智能程度</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
   <CannotTrainTooSmall>{1_labelShort}的體型過小，無法接受這項訓練。</CannotTrainTooSmall>
@@ -207,6 +227,8 @@
   <NoRelationships>(無社交關係)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>綁架</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>借給 {FACTION_name}, 返回 {1}</Lent>
   <!-- EN: Missing -->
   <Missing>失蹤</Missing>
   <!-- EN: Slave -->
@@ -287,7 +309,17 @@
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>移除{{0}}x{0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>包含的物品</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>確定要移除{0}嗎?</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>取消此任務並將其移至「歷史記錄」標籤。\n\n可以隨時取消任務。其影響和有效期將照常進行。你不會收到有關已取消任務的通知。</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>取消關閉此任務。\n\n該任務將返回到可用的或主動標籤，通知將重新啟用。</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>該任務已被撤消。\n\n你可以隨時取消其撤消的操作，在該任務到期之前。</QuestDismissed>
 
 </LanguageData>

@@ -11,6 +11,11 @@
   <!-- EN: Comfort is gained by sitting in or sleeping on comfortable furniture. It is acquired while laying in bed, sitting in a chair while working, or other times. -->
   <Comfort.description>舒適度在人物躺或坐在舒適的家具上時獲得。休息時躺在床上，或工作時坐在椅子上等等都能獲得舒適度。</Comfort.description>
   
+  <!-- EN: chemical -->
+  <DrugDesire.label>藥品</DrugDesire.label>
+  <!-- EN: Chemical expresses the desire to ingest drugs. When above a certain level it will create good mood, but when below a certain level it will create increasingly bad mood. -->
+  <DrugDesire.description>藥品值表示攝取藥物的慾望。當高於一定水平時，能夠提高心情。但當低於一定水平時，會對心情造成負面的影響。</DrugDesire.description>
+  
   <!-- EN: food -->
   <Food.label>食物值</Food.label>
   <!-- EN: Food is the amount of nutrition a creature has consumed recently. If it is at zero, a creature will become increasingly malnourished and eventually die. -->
@@ -23,7 +28,7 @@
   
   <!-- EN: mood -->
   <Mood.label>心情值</Mood.label>
-  <!-- EN: Mood represents how happy or stressed someone is. If mood gets too low, the person may suffer a mental break. Depending on how low his mood is, someone who has a mental break may hide in his room for a day, or may go on a murder spree. -->
+  <!-- EN: Mood represents how happy or stressed someone is. If mood gets too low, the person may suffer a mental break. Depending on how low his mood is, someone who has a mental break may have a minor breaks like hiding in his room for a day, or a major break like going on a murder spree. -->
   <Mood.description>心情值顯示這名角色有多麼快樂或多麼難過，如果心情值過低，便有可能發生精神崩潰。根據心情值的水平，精神崩潰者輕則會把自己關在房裡一整天、重則會殺傷他人。</Mood.description>
   
   <!-- EN: outdoors -->
