@@ -63,5 +63,5 @@ http://ludeon.com/forums/index.php?topic=2933.0
 感謝支持 RimWorld  
 
 Wilseanhsu 個人中文化。 2018/10/3  
-win50117 整理中文化。 2020/2/28
+win50117 整理中文化。 2020/2/28  
 ranke96 整理中文化。 2020/2/28
