@@ -304,14 +304,14 @@
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
   <MessageTransportersLoadCanceled_TransporterDestroyed>裝載工作已中止，因為其中一個運輸艙被摧毀。</MessageTransportersLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
-  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>因為穿梭機被毀，因此裝載的工作被取消了。</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
+  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>因為太空梭被毀，因此裝載的工作被取消了。</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>裝載工作已中止，因為其中一個發射座被摧毀。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>你的居民將會將指定的物品裝載至運輸艙內。</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>指定的物品和人員現已被裝載到穿梭機。</MessageTransporterSingleLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>指定的物品和人員現已被裝載到太空梭。</MessageTransporterSingleLoadingProcessStarted>
   
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>你的運輸艙已經抵達。</MessageTransportPodsArrived>
@@ -323,7 +323,7 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>你的居民已完成運輸艙的裝載工作。</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>穿梭機已裝載完所需的貨物，隨時可以發射。</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingTransporterSingle>太空梭已裝載完所需的貨物，隨時可以發射。</MessageFinishedLoadingTransporterSingle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>你的{1}無法完成運輸艙的裝載工作，因為無法接觸部份物品或人員({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
