@@ -6,7 +6,7 @@
     <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->我們截獲了一組信息，關於一批價值[itemStashContentsValue]的物資被匿藏在[map_definite]附近。物資包括：\n\n[itemStashContents]\n\n看起來[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->我們截獲了一組訊息，關於一批價值[itemStashContentsValue]的物資被匿藏在[map_definite]附近。物資包括：\n\n[itemStashContents]\n\n看起來[allSitePartsDescriptionsExceptFirst]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_label]，告知我們一批價值[itemStashContentsValue]的貴重物品被留在距離我們不遠處等待接收。這批物品包含:\n\n[itemStashContents]\n\n[asker_label]透露：[allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -38,6 +38,6 @@
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已失效：[resolvedQuestName]</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>根據截獲的信息表明，匿藏的物品已經被人捷足先登。任務[resolvedQuestName]已失效。</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>根據截獲的訊息表明，匿藏的物品已經被人捷足先登。任務[resolvedQuestName]已失效。</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
   
 </LanguageData>

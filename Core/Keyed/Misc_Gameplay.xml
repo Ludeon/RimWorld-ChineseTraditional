@@ -29,7 +29,7 @@
   <!-- EN: Nobody -->
   <Nobody>無</Nobody>
   <!-- EN: Unowned -->
-  <Unowned>空床</Unowned>
+  <Unowned>未設定</Unowned>
   <!-- EN: Dead for {0} -->
   <DeadTime>死亡的{0}</DeadTime>
   <!-- EN: walk speed {0} -->
@@ -415,7 +415,7 @@
   <!-- EN: Large explosion if damaged -->
   <ExplosionOnDamageWarning>若損壞會發生大爆炸</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
-  <MechCluster>機械集群</MechCluster>
+  <MechCluster>機械要塞</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>生成{0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1} -->
@@ -717,7 +717,7 @@
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
   <!-- EN: View information. -->
-  <DefInfoTip>查看關於這個物件的信息。</DefInfoTip>
+  <DefInfoTip>查看關於這個物件的訊息。</DefInfoTip>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -879,7 +879,7 @@
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
   <ShowFertilityOverlayToggleButton>開關肥沃度顯示。\n\n肥沃度反映了哪些植物可以生長，以及它們生長的速度。</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>開關地形支持能力顯示。\n\n地形支持能力反映了每個位置適合建造什麼樣的建築。\n\n例如，某些類型的地面僅支持輕型或中型建築物，而不支持重型建築物。橋樑只能在水上建造。</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>開關地形支撐能力顯示。\n\n地形支撐能力反映了每個位置適合建造什麼樣的建築。\n\n例如，某些類型的地面僅支撐輕型或中型建築物，而不支撐重型建築物。橋樑只能在水上建造。</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>鎖定攝影機使北方永遠朝上。</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
