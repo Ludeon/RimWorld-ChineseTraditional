@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>dangersDescription(priority=1)->\n\nThe pods contain these dangers:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
+    <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, a mechanoid cluster will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.\n\n[helpersParagraph]As a reward, [allRewardsDescriptions]</li>
+  -->
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\n這些運輸艙包含如下威脅：\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]頒布了一個任務。[commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的一名[asker_royalTitleInCurrentFaction]，[asker_nameDef]頒布了一個任務。[commonMainPart]</li>
+    <li>commonMainPart->一群機械軍團已經開始進攻[asker_possessive]的據點。[asker_pronoun]希望你能發出警告信號來吸引一部分機械軍團，以便於[asker_pronoun]能夠順利清除機械軍團。如果你接受這個提議，一支機械集團將會降落在[map_definite]。[dangersDescription]\n\n這個機械集團一開始將會處於休眠狀態，它們可能會被某個倒計時結束的程序啟動，也有可能在不受干擾的情況下一直休眠下去。\n\n[helpersParagraph]作為回報，[allRewardsDescriptions]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[menace] cluster</li>
+    <li>questName->[menace] pods</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->[asker_nameDef]'s mechs</li>
+    <li>nameBased->[asker_nameDef]'s mechanoids</li>
+    <li>nameBased->[asker_nameDef]'s mech cluster</li>
+    <li>nameBased->[asker_nameDef]'s mech [menace]</li>
+    <li>menace->threat</li>
+    <li>menace->menace</li>
+    <li>menace->scourge</li>
+    <li>menace->danger</li>
+    <li>menace->terror</li>
+    <li>menace->fear</li>
+  -->
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[menace]集團</li>
+    <li>questName->[menace]運輸艙</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->[asker_nameDef]的機械部隊</li>
+    <li>nameBased->[asker_nameDef]的機械軍團</li>
+    <li>nameBased->[asker_nameDef]的機械集團</li>
+    <li>nameBased->[asker_nameDef]的機械[menace]</li>
+    <li>menace->襲擊</li>
+    <li>menace->危機</li>
+    <li>menace->天災</li>
+    <li>menace->危害</li>
+    <li>menace->恐怖</li>
+    <li>menace->恐懼</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+  
+</LanguageData>
