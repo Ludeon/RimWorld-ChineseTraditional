@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Room requirements -->
+  <!-- EN: Need throneroom -->
+  <NeedThroneAssigned>需要謁見廳</NeedThroneAssigned>
+  <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nBuild a throne in a room, then assign the throne to the title holder. The throneroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
+  <NeedThroneAssignedDesc>你的一名持有"榮譽頭銜"的角色需要一個謁見廳，但現在沒有指定的謁見廳。\n\n在房間中建造一個王座，然後將王座分配給頭銜的持有者。謁見廳的尺寸大小和其裝飾要相匹配，以符合特定的頭銜的要求條件。</NeedThroneAssignedDesc>
+
+  <!-- EN: Undignified bedroom -->
+  <UndignifiedBedroom>不夠莊重的臥室</UndignifiedBedroom>
+  <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
+  <UndignifiedBedroomDesc>你的角色中有一個人擁有"榮譽頭銜"，需要為其分配一間帶有特定功能的臥室。目前沒有分配臥室，或是分配的臥室不滿足要求。</UndignifiedBedroomDesc>
+
+  <!-- EN: Title requires bedroom -->
+  <NeedBedroomAssigned>頭銜需求的臥室</NeedBedroomAssigned>
+  <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
+  <NeedBedroomAssignedDesc>你的一名持有"榮譽頭銜"的角色，需要一間私人臥室，但未分配其任何臥室。\n\n為其分配一間私人臥室。臥室的尺寸大小和其裝飾要相匹配，以滿足頭銜的特定要求條件。</NeedBedroomAssignedDesc>
+
+  <!-- EN: Undignified throneroom -->
+  <UndignifiedThroneroom>不得體的謁見廳</UndignifiedThroneroom>
+  <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
+  <UndignifiedThroneroomDesc>你的一名角色持有"榮譽頭銜"和王座，但謁見廳無法滿足頭銜的要求。</UndignifiedThroneroomDesc>
+  
+  <!-- EN: No acceptable food -->
+  <RoyalNoAcceptableFood>沒有可接受的食物</RoyalNoAcceptableFood>
+  <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
+  <RoyalNoAcceptableFoodDesc>你的角色中有一個人擁有" 榮譽頭銜"，需要特定的食物要求。但是現在沒有滿足要求的食物。</RoyalNoAcceptableFoodDesc>
+
+  <!-- EN: {0} days until requirement begins -->
+  <RoomRequirementGracePeriodDesc>需求開始前{0}天</RoomRequirementGracePeriodDesc>
+
+  <!-- EN: Throne not usable -->
+  <ThroneroomInvalidConfiguration>王座無法使用</ThroneroomInvalidConfiguration>
+  <!-- EN: A throne is not usable because of how it is set up: -->
+  <ThroneroomInvalidConfigurationDesc>王座因其設置方式而無法使用:</ThroneroomInvalidConfigurationDesc>
+  
+</LanguageData>

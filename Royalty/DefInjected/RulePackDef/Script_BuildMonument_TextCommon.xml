@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->A mysterious message has arrived. It seems it was transmitted by a machine persona that refuses to name itself. The message asks that you build a very specific monument.\n\n[commonEnding]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] is requesting that you build a monument [buildReason].\n\n[commonEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] is requesting that you build a monument [buildReason].\n\n[commonEnding]</li>
+    <li>asker2(askerIsNull==true)->the archotech</li>
+    <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
+    <li>asker2(asker_royalInCurrentFaction==True)->the [asker_royalTitleInCurrentFaction]</li>
+    <li>buildReason->to commemorate the [PersonalCharacteristic] of [asker_possessive] [PersonFamily]</li>
+    <li>buildReason->to commemorate [asker_possessive] own [PersonalCharacteristic]</li>
+    <li>buildReason->to insult the [PersonalCharacteristic] of [asker_possessive] rival</li>
+    <li>buildReason->to reduce feelings of [ConceptAngsty] amongst the people</li>
+    <li>buildReason->to express how [AdjectiveBadass] [asker_pronoun] is</li>
+    <li>buildReason->to commemorate [asker_possessive] [asker_faction_pawnsPlural] who have fallen in battle</li>
+    <li>buildReason->to honor [asker_possessive] [PersonFamily]</li>
+    <li>buildReason->to honor the work of [PersonJob]s</li>
+    <li>buildReason->to spread images of [asker_possessive] [glory] across the land</li>
+    <li>glory->glory</li>
+    <li>glory->martial honor</li>
+    <li>glory->victories</li>
+    <li>glory->throne</li>
+    <li>glory->great ship</li>
+    <li>glory->wealth</li>
+    <li>glory->family</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
+  -->
+  <QuestConstructionDescriptionCommon.rulePack.rulesStrings>
+    <li>questDescription(askerIsNull==true)->收到一條來自匿名機械體的神秘信息這條信息要求你建造一個非常特殊的紀念碑。\n\n[commonEnding]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]請求你建造一個紀念碑[buildReason]。\n\n[commonEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的[asker_royalTitleInCurrentFaction]，[asker_nameFull]要求你建造一個紀念碑[buildReason]。\n\n[commonEnding]</li>
+    <li>asker2(askerIsNull==true)->建造能力</li>
+    <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
+    <li>asker2(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction]</li>
+    <li>buildReason->以紀念[asker_possessive][PersonFamily]的[PersonalCharacteristic]</li>
+    <li>buildReason->以紀念[asker_possessive]自己的[PersonalCharacteristic]</li>
+    <li>buildReason->以侮辱[asker_possessive]對手的[PersonalCharacteristic]</li>
+    <li>buildReason->以降低人們[ConceptAngsty]的感覺</li>
+    <li>buildReason->以表達[asker_pronoun]的[AdjectiveBadass]</li>
+    <li>buildReason->以紀念[asker_possessive]那些在戰鬥中犧牲的[asker_faction_pawnsPlural]</li>
+    <li>buildReason->以紀念[asker_possessive][PersonFamily]</li>
+    <li>buildReason->以表達對[PersonJob]們的尊敬</li>
+    <li>buildReason->來向這個星球傳頌[asker_possessive][glory]</li>
+    <li>glory->榮光</li>
+    <li>glory->豐功偉績</li>
+    <li>glory->勝利</li>
+    <li>glory->王權</li>
+    <li>glory->無敵艦隊</li>
+    <li>glory->財富</li>
+    <li>glory->家族</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->你未能完成任務'[resolvedQuestName]'。</li>
+    <li>failLetterEndingCommon->你未能完成任務'[resolvedQuestName]'。\n\n你與[asker_faction_name]的關係下降[goodwillPenalty]。</li>
+  </QuestConstructionDescriptionCommon.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>questName->[constAdj] [construction]</li>
+    <li>questName->A [constAdj] [construction]</li>
+    <li>questName->The [constAdj] [construction]</li>
+    <li>constAdj(p=20)->[AdjectiveLarge]</li>
+    <li>constAdj->terrible</li>
+    <li>constAdj->great</li>
+    <li>constAdj->grand</li>
+    <li>constAdj->dangerous</li>
+    <li>constAdj->monumental</li>
+    <li>constAdj->extravagant</li>
+    <li>constAdj->foreboding</li>
+    <li>constAdj->frightening</li>
+    <li>constAdj->dreadful</li>
+    <li>constAdj->fearful</li>
+    <li>constAdj->awesome</li>
+    <li>constAdj->prophetic</li>
+    <li>constAdj->harrowing</li>
+    <li>constAdj->glittering</li>
+    <li>constAdj->shining</li>
+    <li>constAdj->amazing</li>
+    <li>construction(p=3)->construction</li>
+    <li>construction(p=2)->structure</li>
+    <li>construction(p=2)->building</li>
+    <li>construction->monument</li>
+    <li>construction->edifice</li>
+    <li>construction->blueprint</li>
+    <li>construction->assembly</li>
+  -->
+  <QuestConstructionNameCommon.rulePack.rulesStrings>
+    <li>questName->[constAdj]的[construction]</li>
+    <li>questName->[constAdj]的[construction]</li>
+    <li>questName->[constAdj]的[construction]</li>
+    <li>constAdj(p=20)->[AdjectiveLarge]</li>
+    <li>constAdj->可怕</li>
+    <li>constAdj->偉大</li>
+    <li>constAdj->宏偉</li>
+    <li>constAdj->危險</li>
+    <li>constAdj->永垂不朽</li>
+    <li>constAdj->奢靡</li>
+    <li>constAdj->不祥</li>
+    <li>constAdj->駭人</li>
+    <li>constAdj->可怕</li>
+    <li>constAdj->可怕</li>
+    <li>constAdj->令人驚嘆</li>
+    <li>constAdj->有預見性</li>
+    <li>constAdj->悲壯</li>
+    <li>constAdj->輝煌</li>
+    <li>constAdj->閃耀</li>
+    <li>constAdj->驚人</li>
+    <li>construction(p=3)->建築</li>
+    <li>construction(p=2)->建築物</li>
+    <li>construction(p=2)->紀念性建築</li>
+    <li>construction->紀念碑</li>
+    <li>construction->宏偉建築</li>
+    <li>construction->設計</li>
+    <li>construction->碑</li>
+  </QuestConstructionNameCommon.rulePack.rulesStrings>
+  
+</LanguageData>

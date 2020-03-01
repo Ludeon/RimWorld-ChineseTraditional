@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royalty and throne -->
+  <!-- EN: Appropriate for title: {0} -->
+  <ThroneTitleStature>適當的頭銜: {0}</ThroneTitleStature>
+  <!-- EN: Previous title satisfied: {0} -->
+  <ThronePrevTitleStature>滿足先前的頭銜: {0}</ThronePrevTitleStature>
+  <!-- EN: Next title satisfied: {0} -->
+  <ThroneNextTitleStature>下一個滿足的頭銜: {0}</ThroneNextTitleStature>
+  <!-- EN: ({0} impressiveness) -->
+  <ThroneRoomImpressivenessInfo>({0} 印象深刻)</ThroneRoomImpressivenessInfo>
+  <!-- EN: Throne must be placed indoors. -->
+  <ThroneMustBePlacedInside>王座必須放在室內。</ThroneMustBePlacedInside>
+  <!-- EN: Throne room contains more than one throne, but this is only allowed for married couples. -->
+  <ThroneRoomHasMoreThan1Throne>謁見廳中有多個王座，但這只適用於已婚夫婦。</ThroneRoomHasMoreThan1Throne>
+  <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
+  <MinimumRoyalTitleInspectString>最低頭銜 ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <!-- EN: Trading here requires title: {0} -->
+  <RequiresTradePermission>在這裡交易需要頭銜: {0}</RequiresTradePermission>
+  <!-- EN: Personal bedroom (partner allowed) -->
+  <RequirementPersonalBedroom>私人臥室(允許伴侶)</RequirementPersonalBedroom>
+  
+  <!-- Generated neurotrainers -->
+  <!-- EN: psytrainer ({0}) -->
+  <PsycastNeurotrainerLabel>心靈訓練器({0})</PsycastNeurotrainerLabel>
+  <!-- EN: Use neurotrainer to learn {0} psycast -->
+  <PsycastNeurotrainerUseLabel>使用神經訓練器來學習{0}心靈能力</PsycastNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
+  <PsycastNeurotrainerDescription>一次性使用的超劑量機械液可訓練特定的心靈能力。\n\n該藥劑是透過眼眶給藥的。一旦進入到大腦中，這些機械分子就形成了一種特定的心靈能力的知識，并根據需要將其轉化為神經組織。</PsycastNeurotrainerDescription>
+  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
+  <AbilityNeurotrainerUsed>{USER_labelShort}使用神經訓練器學會了{1}的心靈能力。</AbilityNeurotrainerUsed>
+  <!-- EN: {USER_labelShort} has reached psychic amplifer level {1} and has automatically learned this psycast: {2}. -->
+  <PsycastLearnedFromImplant>{USER_labelShort}已達到心靈增幅器等級{1}，并已自動習得此心靈能力: {2}。</PsycastLearnedFromImplant>
+  <!-- EN: Requires psychic amplifier -->
+  <PsycastNeurotrainerNoPsychicAmplifier>需要心靈增幅器</PsycastNeurotrainerNoPsychicAmplifier>
+
+  <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
+  <Reward_RoyalFavor>接受任務的人都會從{0_name}收到{1}{0_royalFavorLabel}</Reward_RoyalFavor>
+  <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
+  <Reward_RoyalFavor_ChoosePawn>你可以選擇一個參與的{2}之一從{0_name}接收{1}{0_royalFavorLabel}</Reward_RoyalFavor_ChoosePawn>
+  
+</LanguageData>

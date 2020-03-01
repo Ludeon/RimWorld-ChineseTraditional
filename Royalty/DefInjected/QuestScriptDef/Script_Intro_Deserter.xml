@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[asker_nameFull], [asker_titleIndef], is calling from nearby. [asker_pronoun] has deserted the army of [asker_factionName] and is being hunted by a loyalty squad. [asker_pronoun] wishes to join you at [map_definite].\n\n[asker_nameDef] knows the location of key outpost containing everything needed to develop secret psychic powers:\n\n[sitePart1_itemStashContents]\n\nBeware - If you accept [asker_nameDef], you will become an enemy of [asker_factionName]! The pursuing loyalty squad will attack immediately. It is composed of: \n\n[raid/raidPawnKinds]\n\nOnly accept if you wish to fight against [asker_factionName] and develop your psycasters in secret without gaining royal titles. You will have one year to attack the outpost it before it is moved.</li>
+  -->
+  <Intro_Deserter.questDescriptionRules.rulesStrings>
+    <li>questDescription->一位名叫[asker_nameFull]的[asker_titleIndef]在附近聯繫我們。 [asker_pronoun]因為選擇逃離[asker_factionName]的軍隊，現在正在被一隊忠誠衛士追捕。[asker_pronoun]希望能夠加入我們位於[map_definite]的殖民地。\n\n[asker_nameDef]知曉一個隱秘的關鍵哨站，其中包含了能夠開發神秘心靈力量的所有物資：\n\n[sitePart1_itemStashContents]\n\n請注意：如果你選擇接納[asker_nameDef]，你就選擇了與[asker_factionName]為敵！追擊而來的忠誠衛士小隊也會立即對你發起進攻。其隊伍組成為：\n\n[raid/raidPawnKinds]\n\n如果你不想透過得到榮譽頭銜來獲得心靈力量的秘密，並且選擇與[asker_factionName]為敵的話，你可以同意接納。並且在秘密哨站搬走之前，你有一年的進攻準備時間!</li>
+  </Intro_Deserter.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The Deserter</li>
+  -->
+  <Intro_Deserter.questNameRules.rulesStrings>
+    <li>questName->逃兵</li>
+  </Intro_Deserter.questNameRules.rulesStrings>
+  <!-- EN: {BASETEXT}\n\nBecause you accepted [asker_nameDef], [asker_factionName] has become hostile.\n\nThe loyalty squad that is hunting [asker_objective] will arrive soon. -->
+  <Intro_Deserter.root.nodes.PawnsArrive.customLetterText.slateRef>{BASETEXT}\n\n因為你選擇接納[asker_nameDef]，[asker_factionName]現在視你為敵人。\n\n追捕[asker_objective]的忠誠衛士小隊即將來襲。</Intro_Deserter.root.nodes.PawnsArrive.customLetterText.slateRef>
+  <!-- EN: {BASELABEL}: Loyalty squad -->
+  <Intro_Deserter.root.nodes.Delay.node.parms.customLetterLabel.value.slateRef>{BASELABEL}:忠誠衛士</Intro_Deserter.root.nodes.Delay.node.parms.customLetterLabel.value.slateRef>
+  <!-- EN: {BASETEXT}\n\nThis is the loyalty squad that was hunting [../asker_nameFull].\n               -->
+  <Intro_Deserter.root.nodes.Delay.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\n這是一支追捕[../asker_nameFull]的忠誠衛士小隊。</Intro_Deserter.root.nodes.Delay.node.parms.customLetterText.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務[resolvedQuestName]已失效</Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The key imperial outpost, containing items needed for secret psychic powers, has packed up and moved on. -->
+  <Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>那個包含神秘心靈力量資料的關鍵哨站已經搬離開。</Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
