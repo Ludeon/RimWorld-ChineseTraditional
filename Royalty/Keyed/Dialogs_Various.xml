@@ -15,7 +15,7 @@
   <!-- EN: Max allowed psycast level -->
   <RoyalTitleTooltipMaxPsycastLevel>允許的最大心靈等級</RoyalTitleTooltipMaxPsycastLevel>
   <!-- EN: The highest level of psycast that this title allows.\n\n{FACTION_name}'s laws prohibit using psycasts without a suitable title. Each time you perform an illegal psycast, there's a chance the psychic signature will be detected, leading to diplomatic consequences.\n\nPsychic signatures can be concealed with a psychic silencer implant. -->
-  <RoyalTitleTooltipMaxPsycastLevelDescription>該頭銜可以使用最高級別的心靈能力\n\n{FACTION_name}的法律禁止在沒有符合的頭銜的情況下使用心靈能力。每次施放不合法的心靈能力時，都有可能會檢測到心靈輻射，從而導致嚴重外交後果。\n\n心靈信號可以被心靈靜默植入物掩蓋。</RoyalTitleTooltipMaxPsycastLevelDescription>
+  <RoyalTitleTooltipMaxPsycastLevelDescription>該頭銜可以使用最高等級的心靈能力\n\n{FACTION_name}的法律禁止在沒有符合的頭銜的情況下使用心靈能力。每次施放不合法的心靈能力時，都有可能會檢測到心靈輻射，從而導致嚴重外交後果。\n\n心靈訊號可以被心靈靜默植入物掩蓋。</RoyalTitleTooltipMaxPsycastLevelDescription>
   <!-- EN: room area: {0} tiles -->
   <RoomRequirementArea>房間面積: {0} tiles</RoomRequirementArea>
   <!-- EN: room impressiveness -->
@@ -41,17 +41,17 @@
   
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of the {IMPLANT} without detection. -->
-  <RoyalImplantIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{IMPLANT}。\n\n{VIOLATIONTRIGGER},{FACTION_name}很有可能會檢測到其心靈信號。這將導致嚴重的外交矛盾。\n\n心靈靜默植入物可以掩蓋而可以繼續使用{IMPLANT}而不會被發現。</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{IMPLANT}。\n\n{VIOLATIONTRIGGER},{FACTION_name}很有可能會檢測到其心靈訊號。這將導致嚴重的外交矛盾。\n\n心靈靜默植入物可以掩蓋而可以繼續使用{IMPLANT}而不會被發現。</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>要安裝這個植入物嗎?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
   <RoyalImplantUpgradeConfirmation>要升級這個植入物嗎?</RoyalImplantUpgradeConfirmation>
   <!-- EN: Each time {PAWN_labelShort} performs a psycast above the allowed level -->
-  <PsychicAmplifierViolationTrigger>每次{PAWN_labelShort}施放超出其允許級別的心靈能力時</PsychicAmplifierViolationTrigger>
+  <PsychicAmplifierViolationTrigger>每次{PAWN_labelShort}施放超出其允許等級的心靈能力時</PsychicAmplifierViolationTrigger>
 
   <!-- Royal weapons -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use {WEAPON_indefinite}.\n\nEach time {PAWN_labelShort} attacks with a bladelink weapon, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of {WEAPON_definite} without detection. -->
-  <RoyalWeaponIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{WEAPON_indefinite}。\n\n每次使用牽絆武器的{PAWN_labelShort}攻擊時{PAWN_labelShort}，{FACTION_name} 都有能檢測出心靈信號。這將導致嚴重的外交矛盾。\n\n心靈靜默植入物可以在使用{WEAPON_definite}時不會被檢測。</RoyalWeaponIllegalUseWarning>
+  <RoyalWeaponIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{WEAPON_indefinite}。\n\n每次使用牽絆武器的{PAWN_labelShort}攻擊時{PAWN_labelShort}，{FACTION_name} 都有能檢測出心靈訊號。這將導致嚴重的外交矛盾。\n\n心靈靜默植入物可以在使用{WEAPON_definite}時不會被檢測。</RoyalWeaponIllegalUseWarning>
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>一旦被綁定到一名使用者身上，該武器的將無法給其他人使用。</BladelinkEquipWarning>
   <!-- EN: Are you sure you want to equip this item? -->
