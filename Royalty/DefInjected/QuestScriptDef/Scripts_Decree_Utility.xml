@@ -6,8 +6,8 @@
     <li>decreeThreatInfo->If you fail to fulfill this decree within [decreeDays] days, [asker_nameDef] will start to become unhappy. [asker_possessive] anger will increase over time until the decree is satisfied.</li>
   -->
   <DecreeSetup.questDescriptionRules.rulesStrings>
-  <li>decreeIntro->[asker_bestRoyalTitle] [asker_nameDef]發布了一條法令.</li>
-  <li>decreeThreatInfo-> 如果你未在 [decreeDays] 天內奉行旨意, [asker_nameDef] 將會變得不開心. [asker_possessive] 的怒氣隨時間增加，直到你完成旨意。</li>
+    <li>decreeIntro->[asker_bestRoyalTitle] [asker_nameDef]發布了一條法令.</li>
+    <li>decreeThreatInfo-> 如果你未在 [decreeDays] 天內奉行旨意, [asker_nameDef] 將會變得不開心. [asker_possessive] 的怒氣隨時間增加，直到你完成旨意。</li>
   </DecreeSetup.questDescriptionRules.rulesStrings>
   <!-- EN: [asker_nameDef]'s decree forgotten -->
   <DecreeSetup.root.nodes.Delay.node.nodes.Letter.label.slateRef>[asker_nameDef]的法令被遺忘</DecreeSetup.root.nodes.Delay.node.nodes.Letter.label.slateRef>
