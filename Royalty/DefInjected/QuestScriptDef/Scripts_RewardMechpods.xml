@@ -11,8 +11,8 @@
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
     <li>dangersDescription(priority=1)->\n\n這些運輸艙包含如下威脅：\n\n[allThreats]</li>
     <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]頒布了一個任務。[commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的一名[asker_royalTitleInCurrentFaction]，[asker_nameDef]頒布了一個任務。[commonMainPart]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]發布了一個任務。[commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的一名[asker_royalTitleInCurrentFaction]，[asker_nameDef]發布了一個任務。[commonMainPart]</li>
     <li>commonMainPart->一群機械軍團已經開始進攻[asker_possessive]的據點。[asker_pronoun]希望你能發出警告訊號來吸引一部分機械軍團，以便於[asker_pronoun]能夠順利清除機械軍團。如果你接受這個提議，一支機械集團將會降落在[map_definite]。[dangersDescription]\n\n這個機械集團一開始將會處於休眠狀態，它們可能會被某個倒計時結束的程序啟動，也有可能在不受干擾的情況下一直休眠下去。\n\n[helpersParagraph]作為回報，[allRewardsDescriptions]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
