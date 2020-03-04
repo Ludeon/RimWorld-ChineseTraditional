@@ -118,11 +118,15 @@
   <LetterLabelRandomDecree>{0_nameIndef}下達了命令</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>為了釋放{0_possessive}壓力，{0_nameIndef}發佈了一項突然的命令，要求立即執行該指令。\n    \n如果沒有及時執行，{0_nameIndef}將變得非常不高興。</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>為了釋放{0_possessive}壓力，{0_nameIndef}發佈了一項突然的命令，要求立即執行該指令。\n\n如果沒有及時執行，{0_nameIndef}將變得非常不高興。</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef}為了確認{0_bestRoyalTitleIndef}的{0_possessive}頭銜，已經發佈了一項指令，現在要求立即執行。\n    \n如果沒有及時執行，{0_nameIndef}將變得非常不高興。</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}為了確認{0_bestRoyalTitleIndef}的{0_possessive}頭銜，已經發佈了一項指令，現在要求立即執行。\n\n如果沒有及時執行，{0_nameIndef}將變得非常不高興。</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>這個指令是"{0}"。</LetterDecree_Quest>
+  
+  <!-- Lent colonist died -->
+  <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
+  <LentColonistDied>{PAWN_nameDef}已借給了{FACTION}。 他們不久將送回{PAWN_nameDef}的遺體</LentColonistDied>
 
 </LanguageData>

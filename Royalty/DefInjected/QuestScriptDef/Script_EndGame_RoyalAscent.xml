@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[intro][asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], will perform a customary visit with any Count of [asker_possessive] domain upon request. Invite [asker_objective], satisfy [asker_possessive] royal needs for [shuttleDelayTicks_duration], and all of you can ride the shuttle to the Imperial flotilla. You may then join the Imperial court, or escape to a new life among the stars.\n\nEarning the title of Count means completing quests to earn [asker_faction_royalFavorLabel] with [asker_faction_name]. It may take years to finally achieve the title of Count.\n\nDuring [asker_possessive] visit, you must keep [asker_nameDef]'s mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.[threatsInfo]\n\n[asker_nameDef] will bring four of [asker_possessive] personal guards and place them under your command. You must house these guards, but [asker_nameDef] will not complain if they are killed or unhappy.\n\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, you will have another chance at it later.</li>
+    <li>questDescription->[intro]The [asker_faction_leaderTitle] of [asker_faction_name] will perform a customary visit with any Count of his domain upon request. Invite him, satisfy his royal needs for [shuttleDelayTicks_duration], and all of you can ride the shuttle to the Imperial flotilla. You may then join the Imperial court, or escape to a new life among the stars.\n\nEarning the title of Count means completing quests to earn [asker_faction_royalFavorLabel] with [asker_faction_name]. It may take years to finally achieve the title of Count.\n\nDuring his visit, you must keep his mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.[threatsInfo]\n\nThe [asker_faction_leaderTitle] will bring four of his personal guards and place them under your command. You must house these guards, but the [asker_faction_leaderTitle] will not complain if they are killed or unhappy.\n\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, you will have another chance at it later.</li>
     <li>intro(sameQuestsCount==0)->You have learned of a way to escape this planet!\n\n</li>
     <li>intro(sameQuestsCount>=1)->You have been given another chance at royal ascent.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOthers will take the opportunity to try to kill the [asker_faction_leaderTitle], and will attack with great intensity. Be prepared to defend.</li>
@@ -35,16 +35,18 @@
     <li>titleEnd->主人</li>
     <li>titleEnd->勝利</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
+  <!-- EN: asker.NoLongerFactionLeader -->
+  <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>不再是派系領袖</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
   <EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>[asker_faction_leaderTitle]已抵達</EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>
-  <!-- EN: [asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect [asker_objective] and satisfy [asker_possessive] royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]，已經抵達。\n\n你必須在太空梭抵達前[shuttleDelayTicks_duration]內為[asker_objective]提供護衛並且滿足[asker_possessive]的各種需求。\n\n你們所有人都可以和[asker_faction_leaderTitle]同乘太空梭前往帝國艦隊駐地開始新生活。</EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>
+  <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
+  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]，已經抵達。\n\n你必須在太空梭抵達前[shuttleDelayTicks_duration]內為他提供護衛並且滿足他的各種需求。\n\n你們所有人都可以和[asker_faction_leaderTitle]同乘太空梭前往帝國艦隊駐地開始新生活。</EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>
   <!-- EN: Should depart on shuttle -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>應該乘坐太空梭離開</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>太空梭已抵達</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
-  <!-- EN: The shuttle has arrived to collect [asker_bestRoyalTitleDef].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>太空梭已經前來迎接[asker_bestRoyalTitleDef]。\n\n你們所有人都可以和[asker_faction_leaderTitle]同乘太空梭前往帝國艦隊駐地開始新生活。</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
+  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>太空梭已經前來迎接[asker_faction_leaderTitle]。\n\n你們所有人都可以和[asker_faction_leaderTitle]同乘太空梭前往帝國艦隊駐地開始新生活。</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.endingText.slateRef>至高星系主宰以對待榮譽貴族的規格歡迎你加入帝國艦隊。\n\n你可以選擇加入帝國上層，謀求更大的政治權力。可能你也只想安心享受帝國帶來的各種奢侈體驗，不願再經歷各種戲劇性的生活。或許，你也可以買一艘飛船，選擇衣錦還鄉。\n\n決定權在你手中。</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.endingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
@@ -71,11 +73,11 @@
   <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>需要你護衛的{SUBJECT_definite}失蹤在你的殖民地。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
   <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>太空梭已被毀</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
-  <!-- EN: The shuttle sent to collect [asker_bestRoyalTitleDef] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>前來迎接[asker_bestRoyalTitleDef]的太空梭被摧毀了。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>前來迎接[asker_faction_leaderTitle]的太空梭被摧毀了。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>任務[resolvedQuestName]已失敗。</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
-  <!-- EN: The shuttle sent to collect [asker_bestRoyalTitleDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>前來迎接[asker_bestRoyalTitleDef]的太空梭沒有接到[asker_objective]。[asker_pronoun]現在只能走回去。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without him. He will now leave on foot. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>前來迎接[asker_faction_leaderTitle]的太空梭沒有接到[asker_objective]。[asker_pronoun]現在只能走回去。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
