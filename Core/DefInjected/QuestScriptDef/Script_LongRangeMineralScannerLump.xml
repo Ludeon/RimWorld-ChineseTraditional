@@ -8,18 +8,42 @@
     <li>questDescription->透過使用長程礦物探測儀，[worker_definite]發現了附近的一塊[targetMineable_label]。\n\n很遺憾，它不會持續很久——如果我們不盡快開採，其他勢力將會在[timeoutTicks_duration]後開採並帶走這些資源。\n\n[allSitePartsDescriptionsExceptFirst]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[distant] resources</li>
-    <li>questName->[distant] minerals</li>
-    <li>distant->distant</li>
-    <li>distant->far</li>
-    <li>distant->long-range</li>
+    <li>questName->The [subName]</li>
+    <li>questName->[subName]</li>
+    <li>subName->[adj] Resources</li>
+    <li>subName->[adj] Minerals</li>
+    <li>subName->[adj] Ores</li>
+    <li>subName->[adj] Wealth</li>
+    <li>subName->[adj] Mineables</li>
+    <li>subName->[adj] Lump</li>
+    <li>subName->[adj] Mining Project</li>
+    <li>adj->Distant</li>
+    <li>adj->Far</li>
+    <li>adj->Long-Range</li>
+    <li>adj->Unknown</li>
+    <li>adj->Discovered</li>
+    <li>adj->Scanned</li>
+    <li>adj->Detected</li>
+    <li>adj->Found</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->[distant]資源</li>
-    <li>questName->[distant]礦物</li>
-    <li>distant->遠方的</li>
-    <li>distant->很遠的</li>
-    <li>distant->遠距離的</li>
+    <li>questName->[subName]</li>
+    <li>questName->[subName]</li>
+    <li>subName->[adj] 資源</li>
+    <li>subName->[adj] 礦物</li>
+    <li>subName->[adj] 礦</li>
+    <li>subName->[adj] 豐富</li>
+    <li>subName->[adj] 可開採</li>
+    <li>subName->[adj] 塊</li>
+    <li>subName->[adj] 採礦計畫</li>
+    <li>adj->遠方的</li>
+    <li>adj->很遠的</li>
+    <li>adj->遠距離的</li>
+    <li>adj->未知的</li>
+    <li>adj->已發現</li>
+    <li>adj->已檢測</li>
+    <li>adj->檢測到</li>
+    <li>adj->已找到</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務已失效：[resolvedQuestName]</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
