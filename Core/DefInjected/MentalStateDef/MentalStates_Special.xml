@@ -6,7 +6,7 @@
   <!-- EN: Maddened: Manhunter -->
   <Manhunter.baseInspectLine>心理狀態：殺戮</Manhunter.baseInspectLine>
   <!-- EN: {0} has become a manhunter! -->
-  <Manhunter.beginLetter>{0}發瘋似的攻擊他所見到的任何人。</Manhunter.beginLetter>
+  <Manhunter.beginLetter>{0}發瘋似的想殺掉他所見到的任何人。</Manhunter.beginLetter>
   <Manhunter.beginLetterLabel>殺戮</Manhunter.beginLetterLabel>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
   <Manhunter.recoveryMessage>{0}已經從瘋狂的殺戮衝動中清醒。</Manhunter.recoveryMessage>
@@ -16,7 +16,7 @@
   <!-- EN: Maddened: Manhunter -->
   <ManhunterPermanent.baseInspectLine>心理狀態：殺戮</ManhunterPermanent.baseInspectLine>
   <!-- EN: {0} has become a manhunter! -->
-  <ManhunterPermanent.beginLetter>{0}發瘋似的攻擊他所見到的任何人。</ManhunterPermanent.beginLetter>
+  <ManhunterPermanent.beginLetter>{0}發瘋似的想殺掉他所見到的任何人。</ManhunterPermanent.beginLetter>
   <ManhunterPermanent.beginLetterLabel>殺戮</ManhunterPermanent.beginLetterLabel>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
   <ManhunterPermanent.recoveryMessage>已經從瘋狂的殺戮衝動中清醒。</ManhunterPermanent.recoveryMessage>
@@ -33,10 +33,10 @@
   <PanicFlee.recoveryMessage>{0}已經冷靜下來了。</PanicFlee.recoveryMessage>
   
   <!-- EN: social fighting -->
-  <SocialFighting.label>吵架</SocialFighting.label>
+  <SocialFighting.label>爭吵</SocialFighting.label>
   <!-- EN: Mental state: Social fighting -->
-  <SocialFighting.baseInspectLine>心理狀態：吵架</SocialFighting.baseInspectLine>
-  <SocialFighting.recoveryMessage>{0}和{1}不再吵架了。</SocialFighting.recoveryMessage>
+  <SocialFighting.baseInspectLine>心理狀態：爭吵</SocialFighting.baseInspectLine>
+  <SocialFighting.recoveryMessage>{0}和{1}不再爭吵了。</SocialFighting.recoveryMessage>
   
   <!-- EN: confused wandering -->
   <WanderConfused.label>茫然徘徊</WanderConfused.label>
@@ -47,6 +47,6 @@
   <!-- EN: confusion -->
   <WanderConfused.beginLetterLabel>茫然</WanderConfused.beginLetterLabel>
   <!-- EN: {0} is no longer confused. -->
-  <WanderConfused.recoveryMessage>{0}已經從茫然中清醒。</WanderConfused.recoveryMessage>
+  <WanderConfused.recoveryMessage>{0}從茫然中清醒了。</WanderConfused.recoveryMessage>
   
 </LanguageData>

@@ -3,7 +3,7 @@
 
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>命中率</HitPointsBasic>
+  <HitPointsBasic>耐久值</HitPointsBasic>
   <!-- EN: Work left -->
   <WorkLeft>剩餘工作</WorkLeft>
   <!-- EN: Contents -->
@@ -91,7 +91,7 @@
   <!-- EN: Temporary faction members will not drop their items. -->
   <DropThingLodger>臨時派系成員不會丟掉他們身上的物品。</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
-  <DropThingLocked>此人拒絕丟掉。</DropThingLocked>
+  <DropThingLocked>這名角色拒絕丟掉。</DropThingLocked>
   <!-- EN: Rename -->
   <Rename>重新命名</Rename>
   <!-- EN: Rename animal -->
@@ -1207,7 +1207,7 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>心靈熵：{0}/{1}\n下降速率：{2}/{3}秒（{4}秒直到零）\n\n進行心靈投射後心靈熵增加。\n超出安全限制會導致後遺症。\n每當熵歸零都會產生心靈宿醉</PawnTooltipPsychicEntropy>
+  <PawnTooltipPsychicEntropy>心靈熵：{0}/{1}\n下降速率：{2}/{3}秒({4}秒直到零)\n\n進行心靈投射後心靈熵增加。\n超出安全限制會導致後遺症。\n每當熵歸零都會產生心靈宿醉</PawnTooltipPsychicEntropy>
   <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
   <PawnTooltipPsychicEntropyPainFocus>身體上的痛苦使思想集中並清除了無關的想法；同時能夠更快恢復心理熵。</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
@@ -1226,10 +1226,10 @@
   <Reward_Pawn_Caravan>一個名為{0_nameDef}的{0_age}歲的{0_titleIndef}將加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>運輸艙將會把以下獎勵送達（總價值 {1}）：\n\n{0}</Reward_Items>
+  <Reward_Items>運輸艙將會把以下獎勵送達(總價值 {1})：\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>您將收到（總價值{1}）：\n\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>您將收到(總價值{1})：\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>您與{0_name}的派系好感度將提高{1}</Reward_Goodwill>
   

@@ -4,42 +4,42 @@
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>搬運攜帶量</CarryingCapacity.label>
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
-  <CarryingCapacity.description>這個單位能夠用手、用嘴或其它裝置能搬運的最大物品數量。</CarryingCapacity.description>
+  <CarryingCapacity.description>此單位用手、嘴或其它機械的搬運數量。\n\n這和組織旅隊的攜帶量是分開計算的。</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
-  <ComfyTemperatureMax.label>可忍受的最高溫度</ComfyTemperatureMax.label>
+  <ComfyTemperatureMax.label>最高適應溫度</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>當溫度高於此標準，人物的心情值將會降低。若氣溫遠高於此標準，會導致人物中暑甚至死亡。</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>高過此溫度，角色們將會不開心。\n\n遠高於此溫度的話，他們將會中暑，甚至死亡。</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
-  <ComfyTemperatureMin.label>可忍受的最低溫度</ComfyTemperatureMin.label>
+  <ComfyTemperatureMin.label>最低適應溫度</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>當溫度低於此標準，人物的心情值將會降低。若氣溫遠低於此標準，會導致人物體溫過低、凍傷，甚至死亡。</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>低於此溫度，角色們將會不開心。\n\n遠低於此溫度的話，他們將會體溫過低、凍傷，甚至死亡。</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
-  <EatingSpeed.label>進食速度倍率</EatingSpeed.label>
+  <EatingSpeed.label>進食速度</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
-  <EatingSpeed.description>進食速度倍率。</EatingSpeed.description>
+  <EatingSpeed.description>進食的速度。</EatingSpeed.description>
   
   <!-- EN: foraged food amount -->
-  <ForagedNutritionPerDay.label>食物採集量</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.label>覓食量</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>這個人物作為旅隊成員每天能夠自動採集的營養值。</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.description>這名角色作為旅隊成員時，每天能夠自動覓食的營養值。</ForagedNutritionPerDay.description>
   
   <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>學習效率</GlobalLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for all skills. -->
-  <GlobalLearningFactor.description>人物對於學習所有技能的效率倍率。</GlobalLearningFactor.description>
+  <GlobalLearningFactor.description>所有技能的學習效率。</GlobalLearningFactor.description>
   
   <!-- EN: hunger rate multiplier -->
   <HungerRateMultiplier.label>飢餓率倍率</HungerRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
-  <HungerRateMultiplier.description>人物的飢餓速度倍率。</HungerRateMultiplier.description>
+  <HungerRateMultiplier.description>生物飢餓的速度倍率。</HungerRateMultiplier.description>
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>免疫力形成速度</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>此人物在面對疾病與感染時形成免疫力的速度，如果免疫力形成的速度過慢，這名人物就會在免疫力形成之前病重而死。</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>此角色感染疾病時，形成免疫力的速度。\n\n如果速度過慢，此角色就會在免疫力形成之前死亡。</ImmunityGainSpeed.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>毛皮數量</LeatherAmount.label>
@@ -57,52 +57,52 @@
   <MentalBreakThreshold.description>當人物的心情值達到這個臨界值，他們就有精神崩潰的危險。精神崩潰的嚴重程度依據的是與崩潰臨界值的差距。</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
-  <MinimumHandlingSkill.label>最低馴養技能等級</MinimumHandlingSkill.label>
+  <MinimumHandlingSkill.label>最低馴服技能等級</MinimumHandlingSkill.label>
   <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
-  <MinimumHandlingSkill.description>若馴養技能未高於此等級，將無法對此生物進行馴養、訓練或是任何形式的支配。</MinimumHandlingSkill.description>
+  <MinimumHandlingSkill.description>動物技能過低將無法對生物進行馴服、訓練或服從。</MinimumHandlingSkill.description>
   
   <!-- EN: move speed -->
   <MoveSpeed.label>移動速度</MoveSpeed.label>
   <!-- EN: Speed of movement in cells per second. -->
-  <MoveSpeed.description>人物移動時每秒鐘能夠穿越的地圖格數。</MoveSpeed.description>
+  <MoveSpeed.description>每秒移動一格的速度。</MoveSpeed.description>
   <!-- EN: {0} c/s -->
   <MoveSpeed.formatString>{0}格/秒</MoveSpeed.formatString>
   
   <!-- EN: pain shock threshold -->
   <PainShockThreshold.label>疼痛忍受值</PainShockThreshold.label>
   <!-- EN: The pain level at which this creature is downed from pain. -->
-  <PainShockThreshold.description>此生物在因疼痛而倒地前所能忍受的疼痛值。</PainShockThreshold.description>
+  <PainShockThreshold.description>此生物在倒地前所能忍受的疼痛等級。</PainShockThreshold.description>
   
   <!-- EN: psychic entropy gain -->
   <PsychicEntropyGain.label>心靈熵增益</PsychicEntropyGain.label>
   <!-- EN: A multiplier on psychic entropy gained from any source. -->
-  <PsychicEntropyGain.description>以任何方式獲得心靈熵值的倍率。</PsychicEntropyGain.description>
+  <PsychicEntropyGain.description>以任何方式獲得心靈熵的倍率。</PsychicEntropyGain.description>
   
   <!-- EN: psychic entropy limit -->
   <PsychicEntropyMax.label>心靈熵閥值</PsychicEntropyMax.label>
   <!-- EN: The maximum amount of psychic entropy individual can tolerate safely. -->
-  <PsychicEntropyMax.description>個體能夠安全承受的最大心靈熵值。</PsychicEntropyMax.description>
+  <PsychicEntropyMax.description>個人能夠安全承受的最大心靈熵值。</PsychicEntropyMax.description>
   
   <!-- EN: psychic entropy recovery rate -->
   <PsychicEntropyRecoveryRate.label>心靈熵降低速率</PsychicEntropyRecoveryRate.label>
   <!-- EN: The rate at which this person reduces psychic entropy. -->
-  <PsychicEntropyRecoveryRate.description>個體的心靈熵降低速率。</PsychicEntropyRecoveryRate.description>
+  <PsychicEntropyRecoveryRate.description>個人的心靈熵降低速率。</PsychicEntropyRecoveryRate.description>
   <!-- EN: {0}/30s -->
   <PsychicEntropyRecoveryRate.formatString>{0}/30秒</PsychicEntropyRecoveryRate.formatString>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>心靈敏感度</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases psychic entropy limit. -->
-  <PsychicSensitivity.description>干擾電波對該人物影響程度倍率。感性的人受到消極心理影響的負面影響更大，但受到正向心理影響的受益也更大。</PsychicSensitivity.description>
+  <PsychicSensitivity.description>這名角色對干擾電波的影響。心靈脆弱的人受到負面心理影響會更大，受到正面心理影響的也更大。</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
-  <RestRateMultiplier.label>休息效率倍率</RestRateMultiplier.label>
+  <RestRateMultiplier.label>休息效率</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
-  <RestRateMultiplier.description>人物休息時獲得休息度的速度倍率。</RestRateMultiplier.description>
+  <RestRateMultiplier.description>此生物在睡眠時獲得的休息效率。</RestRateMultiplier.description>
   
   <!-- EN: toxic sensitivity -->
   <ToxicSensitivity.label>毒素敏感度</ToxicSensitivity.label>
   <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
-  <ToxicSensitivity.description>這個生物遭受毒素影響的速度倍率。</ToxicSensitivity.description>
+  <ToxicSensitivity.description>此生物遭受毒素影響的速度倍率。</ToxicSensitivity.description>
   
 </LanguageData>

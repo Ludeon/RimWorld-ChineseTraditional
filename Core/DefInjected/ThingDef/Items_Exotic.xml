@@ -9,7 +9,7 @@
   <!-- EN: elephant tusk -->
   <ElephantTusk.label>象牙</ElephantTusk.label>
   <!-- EN: An elephant's tusk. It is very durable and valuable. While somewhat unwieldy as a melee weapon, it can still be deadly. -->
-  <ElephantTusk.description>大象的象牙，非常耐用且珍貴，雖然有些笨重，但作為武器仍然十分致命。</ElephantTusk.description>
+  <ElephantTusk.description>大象的象牙。非常耐用、珍貴。雖然有些笨重，但作為武器仍然十分致命。</ElephantTusk.description>
   <!-- EN: point -->
   <ElephantTusk.tools.point.label>尖端</ElephantTusk.tools.point.label>
   <!-- EN: base -->
@@ -18,33 +18,33 @@
   <!-- EN: healer mech serum -->
   <MechSerumHealer.label>治療者機器劑</MechSerumHealer.label>
   <!-- EN: A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed. -->
-  <MechSerumHealer.description>一種一次性使用的奈米機器劑，用於治癒健康狀況。奈米機器會會任何指定的時間鎖定並治癒某項最嚴重的健康狀況，即便是那些原本已無法治癒的健康狀況。奈米機器甚至可以將自身轉換成有機組織，組成所需的肢體或器官。</MechSerumHealer.description>
+  <MechSerumHealer.description>一次性使用，恢復健康狀態的奈米機械。它會自動將某人的一個最嚴重傷勢，恢復到完好狀態。必須在健康狀況下施用，否則無法痊癒。奈米機械甚至可以將自己轉化成有機物質，形成新的肢體或器官。</MechSerumHealer.description>
   <!-- EN: Use healer mech serum -->
   <MechSerumHealer.comps.CompUsable.useLabel>使用治療者機器劑</MechSerumHealer.comps.CompUsable.useLabel>
   
   <!-- UNUSED -->
   <MechSerumNeurotrainer.label>神經訓練者機器劑</MechSerumNeurotrainer.label>
-  <MechSerumNeurotrainer.description>一種一次性使用的奈米機器劑，用於訓練特定的技能。神經技能訓練器透過使用者的眼球釋放奈米機器進入使用者的大腦，依照需求轉換成神經組織，迅速提高使用者特定的技能能力。</MechSerumNeurotrainer.description>
+  <MechSerumNeurotrainer.description>一次性使用，訓練特定技能的奈米機械。奈米機械透過眼球進入到大腦，將自己轉化成神經組織，快速提高特定技能。</MechSerumNeurotrainer.description>
   <MechSerumNeurotrainer.comps.CompNeurotrainer.useLabel>使用神經訓練者機器劑學習{0}</MechSerumNeurotrainer.comps.CompNeurotrainer.useLabel>
   
   <!-- EN: resurrector mech serum -->
   <MechSerumResurrector.label>重生者機器劑</MechSerumResurrector.label>
   <!-- EN: A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death. -->
-  <MechSerumResurrector.description>一種一次性使用的奈米機器劑，用於復甦死者。施用在剛剛死亡的屍體上，奈米機器將會修復損壞的部位並使活化身體。不幸的是，復活經常伴隨著諸如大腦損傷、失明或是加重的精神問題等等的副作用，施用的對象越新鮮越好，但保存良好的屍體依然能夠復活，即便死亡已久。</MechSerumResurrector.description>
+  <MechSerumResurrector.description>一次性使用，將死者復甦的奈米機械。施用在屍體上，奈米機械就會修復破損的屍體，並使身體恢復活力。不幸的是，復活有可能會造成大腦損傷、失明或慢性的精神疾病。施用在越新鮮、保存良好的屍體上效果越好，即使死亡已久。</MechSerumResurrector.description>
   <!-- EN: Use resurrector mech serum -->
   <MechSerumResurrector.comps.CompUsable.useLabel>使用重生者機器劑</MechSerumResurrector.comps.CompUsable.useLabel>
   
   <!-- EN: techprof subpersona core -->
-  <TechprofSubpersonaCore.label>知識傳述者次人格核心</TechprofSubpersonaCore.label>
+  <TechprofSubpersonaCore.label>知識次人格核心</TechprofSubpersonaCore.label>
   <!-- EN: A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you the technology you're currently researching, instantly and for free. Can only be used once. -->
-  <TechprofSubpersonaCore.description>一個小型的AI核心，搭載著低階的亞人格，專門傳授技術。一旦啟用，其中的AI會立刻並無償的傳授一項你所沒有的科技，只能使用一次。</TechprofSubpersonaCore.description>
+  <TechprofSubpersonaCore.description>一個小型AI核心，內建一個專門從事技術教導的小小AI。一旦使用，AI會無條件立刻教導你正在研究的項目，只能使用一次。</TechprofSubpersonaCore.description>
   <!-- EN: Use techprof subpersona core -->
-  <TechprofSubpersonaCore.comps.CompUsable.useLabel>使用知識傳述者亞人格核心</TechprofSubpersonaCore.comps.CompUsable.useLabel>
+  <TechprofSubpersonaCore.comps.CompUsable.useLabel>使用知識次人格核心</TechprofSubpersonaCore.comps.CompUsable.useLabel>
   
   <!-- EN: thrumbo horn -->
   <ThrumboHorn.label>獨角獸角</ThrumboHorn.label>
   <!-- EN: A thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon. -->
-  <ThrumboHorn.description>獨角獸的角，如刀刃般鋒利，岩石般堅硬，還是個致命的近戰武器。</ThrumboHorn.description>
+  <ThrumboHorn.description>獨角獸的角。如刀刃般鋒利、岩石般堅硬，在市場中是無價之寶。這是一種真正的戰利品，也是一種致命的近戰武器。</ThrumboHorn.description>
   <!-- EN: point -->
   <ThrumboHorn.tools.point.label>尖端</ThrumboHorn.tools.point.label>
   <!-- EN: base -->

@@ -4,7 +4,7 @@
   <!-- EN: anesthetic -->
   <Anesthetic.label>麻醉</Anesthetic.label>
   <!-- EN: Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious. -->
-  <Anesthetic.description>麻醉藥物會讓生物失去知覺。</Anesthetic.description>
+  <Anesthetic.description>流淌在血液裡的麻醉藥。麻醉會使生物失去意識。</Anesthetic.description>
   <!-- EN: wearing off -->
   <Anesthetic.stages.wearing_off.label>漸漸恢復</Anesthetic.stages.wearing_off.label>
   <!-- EN: woozy -->
@@ -15,41 +15,41 @@
   <!-- EN: blood loss -->
   <BloodLoss.label>失血</BloodLoss.label>
   <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
-  <BloodLoss.description>患者由於大量出血而導致的體內血液含量減少\n輕微失血的影響相對較輕，但當失血變得嚴重時，因為其血液裡輸送氧氣的紅細胞不足，導致患者體內細胞缺氧死亡，最後讓患者因為多重器官衰竭而死。\n隨著時間的推移，身體內的造血幹細胞會慢慢恢復血液的供應，患者在會經過一段時間後因此而恢復。</BloodLoss.description>
+  <BloodLoss.description>漸漸失去血液。流血的影響較小，但變成失血時，氧氣的運輸會嚴重損害，使患者失去行動能力。嚴重失血時會導致死亡。\n\n身體會慢慢地產生血液，失血會隨著時間自然恢復。</BloodLoss.description>
   <!-- EN: minor -->
-  <BloodLoss.stages.minor-0.label>輕微失血</BloodLoss.stages.minor-0.label>
+  <BloodLoss.stages.minor-0.label>流血</BloodLoss.stages.minor-0.label>
   <!-- EN: minor -->
-  <BloodLoss.stages.minor-1.label>失血</BloodLoss.stages.minor-1.label>
+  <BloodLoss.stages.minor-1.label>流血</BloodLoss.stages.minor-1.label>
   <!-- EN: moderate -->
-  <BloodLoss.stages.moderate.label>嚴重失血</BloodLoss.stages.moderate.label>
+  <BloodLoss.stages.moderate.label>失血</BloodLoss.stages.moderate.label>
   <!-- EN: severe -->
-  <BloodLoss.stages.severe.label>大出血</BloodLoss.stages.severe.label>
+  <BloodLoss.stages.severe.label>大失血</BloodLoss.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodLoss.stages.extreme.label>大出血</BloodLoss.stages.extreme.label>
+  <BloodLoss.stages.extreme.label>嚴重失血</BloodLoss.stages.extreme.label>
   
   <!-- EN: brain shock -->
   <BrainShock.label>大腦休克</BrainShock.label>
   <!-- EN: After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses. -->
-  <BrainShock.description>大腦的異常反饋狀態。這通常是由EMP脈衝撞擊腦內移植物導致的異常反饋引起的。</BrainShock.description>
+  <BrainShock.description>大腦的異常回饋狀態。這通常是EMP衝擊腦內移植物造成的異常影響。</BrainShock.description>
   <!-- EN: a brain shock -->
   <BrainShock.labelNoun>大腦休克</BrainShock.labelNoun>
   
   <!-- EN: catatonic breakdown -->
   <CatatonicBreakdown.label>精神崩潰</CatatonicBreakdown.label>
   <!-- EN: A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious. -->
-  <CatatonicBreakdown.description>因極度崩潰導致的精神休克狀態。患者會失去知覺癱倒在地。</CatatonicBreakdown.description>
+  <CatatonicBreakdown.description>極度崩潰造成精神休克的狀態導致無法工作。患者失去知覺癱倒在地。</CatatonicBreakdown.description>
   <!-- EN: a catatonic breakdown -->
   <CatatonicBreakdown.labelNoun>精神崩潰</CatatonicBreakdown.labelNoun>
   
   <!-- EN: cryptosleep sickness -->
   <CryptosleepSickness.label>休眠艙症候群</CryptosleepSickness.label>
   <!-- EN: After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind. -->
-  <CryptosleepSickness.description>使用休眠艙所導致的不良反應。為了防止衰老和死亡，低溫休眠暫停並取代了許多身體機能。一旦解除休眠狀態，身體便會花些時間進行機能接管和平衡自然代謝的過程。在此過程中，患者通常會出現噁心、頭暈和精神恍惚的症狀。</CryptosleepSickness.description>
+  <CryptosleepSickness.description>使用休眠艙造成的影響。休眠會停止許多身體機能，防止衰老、死亡。從休眠艙出來後，身體需要時間重新適應，平衡它的新陳代謝能力。在過程中，患者會感到噁心、暈眩、神智不清。</CryptosleepSickness.description>
   
   <!-- EN: drug overdose -->
   <DrugOverdose.label>用藥過量</DrugOverdose.label>
   <!-- EN: Generalized toxic effects due to over-concentration of drugs in the bloodstream. -->
-  <DrugOverdose.description>血液中成癮品濃度過高引起的全身中毒反應。</DrugOverdose.description>
+  <DrugOverdose.description>血液中藥物濃度過高引起的中毒反應。</DrugOverdose.description>
   <!-- EN: Overdose: {0} -->
   <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>用藥過量：{0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is overdosing! -->
@@ -66,31 +66,31 @@
   <!-- EN: food poisoning -->
   <FoodPoisoning.label>食物中毒</FoodPoisoning.label>
   <!-- EN: Gastrointestinal illness caused by consuming decayed or unclean food. It can be caused by eating rotten food, by incompetent cooks accidentally poisoning meals, or by eating from unsafe wild sources. The patient will vomit and feel sick for some time. -->
-  <FoodPoisoning.description>因食用腐爛中或不乾淨的食物而引起的腸胃疾病。它可能是由於食用腐爛、不衛生或不安全的食物，又或者是因為不衛生的烹飪環境和不合格的廚師所導致的。病人通常會嘔吐，並感到噁心一段時間。</FoodPoisoning.description>
+  <FoodPoisoning.description>食用腐爛或不乾淨的食物而引起的腸胃疾病。可能原因是食用腐爛、生的食物，又或者是因為不衛生的烹飪環境和不合格的廚師造成。患者會嘔吐，並感到不適一段時間。</FoodPoisoning.description>
   <!-- EN: recovering -->
   <FoodPoisoning.stages.recovering.label>痊癒中</FoodPoisoning.stages.recovering.label>
   <!-- EN: major -->
-  <FoodPoisoning.stages.major.label>嚴重</FoodPoisoning.stages.major.label>
+  <FoodPoisoning.stages.major.label>重度</FoodPoisoning.stages.major.label>
   <!-- EN: initial -->
-  <FoodPoisoning.stages.initial.label>輕微</FoodPoisoning.stages.initial.label>
+  <FoodPoisoning.stages.initial.label>輕度</FoodPoisoning.stages.initial.label>
   
   <!-- EN: heart attack -->
   <HeartAttack.label>心臟衰竭</HeartAttack.label>
   <!-- EN: A disruption in the heart's normal beating rhythm. Heart attacks can be debilitatingly painful. They can worsen and lead to death, or recover. -->
-  <HeartAttack.description>心臟正常跳動節奏的紊亂或驟停。心臟衰竭會使人非常痛苦和虛弱。病症可能會持續惡化並導致死亡，但也可能漸漸好轉從而穩定。</HeartAttack.description>
+  <HeartAttack.description>心臟跳動的節奏紊亂。心臟衰竭會使人痛心疾首。病症可能會惡化導致死亡，或康復。</HeartAttack.description>
   <!-- EN: a heart attack -->
   <HeartAttack.labelNoun>心臟衰竭</HeartAttack.labelNoun>
   <!-- EN: painful -->
-  <HeartAttack.stages.painful.label>虛弱</HeartAttack.stages.painful.label>
+  <HeartAttack.stages.painful.label>痛苦</HeartAttack.stages.painful.label>
   <!-- EN: debilitating -->
-  <HeartAttack.stages.debilitating.label>痛苦</HeartAttack.stages.debilitating.label>
+  <HeartAttack.stages.debilitating.label>衰弱</HeartAttack.stages.debilitating.label>
   <!-- EN: fatal -->
   <HeartAttack.stages.fatal.label>致命</HeartAttack.stages.fatal.label>
   
   <!-- EN: pregnant -->
   <Pregnant.label>懷孕</Pregnant.label>
   <!-- EN: This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage. -->
-  <Pregnant.description>這隻動物正在孕育後代。如果懷孕足月，它就會自然分娩。但如果它在懷孕期間挨餓或受傷，它有可能會流產。</Pregnant.description>
+  <Pregnant.description>這生物正在孕育後代。如果懷孕就會分娩。如果挨餓或受傷，就可能會流產。</Pregnant.description>
   <!-- EN: {0} pregnant -->
   <Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>{0}懷孕</Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is pregnant! -->
@@ -107,7 +107,7 @@
   <!-- EN: psychic hangover -->
   <PsychicHangover.label>心靈宿醉</PsychicHangover.label>
   <!-- EN: An after-effect of psychic entropy. Psychic hangover is bothersome, but not dangerous. -->
-  <PsychicHangover.description>心理熵爆發的異常狀態。精神上的宿醉很煩人，但並不危險。</PsychicHangover.description>
+  <PsychicHangover.description>心靈熵造成的影響。精神宿醉很煩人，但並不危險。</PsychicHangover.description>
   <!-- EN: a psychic hangover -->
   <PsychicHangover.labelNoun>心靈宿醉</PsychicHangover.labelNoun>
   <!-- EN: forming -->
@@ -118,29 +118,29 @@
   <!-- EN: psychic shock -->
   <PsychicShock.label>心理衝擊</PsychicShock.label>
   <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of psychic entropy, this effect is debilitating until it wears off. -->
-  <PsychicShock.description>大腦的一種精神紊亂狀態。由精神波影響腦內激素失調或心靈熵的超標引起，這種效果會讓生物直到影響消失前都處於精神衰弱的狀態。</PsychicShock.description>
+  <PsychicShock.description>大腦、心靈的混亂狀態。由心靈攻擊或心靈熵的超標引起，這種效果會讓生物直到影響消失前都處於精神衰弱狀態。</PsychicShock.description>
   <!-- EN: a psychic shock -->
   <PsychicShock.labelNoun>心理衝擊</PsychicShock.labelNoun>
   
   <!-- EN: resurrection sickness -->
   <ResurrectionSickness.label>復活虛弱</ResurrectionSickness.label>
   <!-- EN: After-effects of being resurrected by mechanite injection. Artificially-kickstarted body processes take time to rebalance themselves. -->
-  <ResurrectionSickness.description>使用機械液復活屍體的後遺症。被覆活的軀體需要一定的時間來恢復機能。</ResurrectionSickness.description>
+  <ResurrectionSickness.description>使用機械注射器復活後的影響。被復活的身體需要花時間來恢復機能。</ResurrectionSickness.description>
   
   <!-- EN: toxic buildup -->
   <ToxicBuildup.label>中毒</ToxicBuildup.label>
   <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nCreatures who die with toxic buildup cannot be eaten. -->
-  <ToxicBuildup.description>流淌在血液裡的毒素。來源可能是：來自環境的毒素、有毒生物的叮咬、或有毒的武器。\n毒素的積聚是致命的，即使是低劑量，它也能引發癌症。而死於毒素積聚的生物會因為毒素濃度過高而不能食用。</ToxicBuildup.description>
+  <ToxicBuildup.description>流淌在血液裡的毒素。可能來自各種環境，包含環境的毒、毒咬、或有毒武器。\n\n中毒過深會致死。即使中毒不深，也會產生毒瘤。\n\n被毒死的生物無法食用。</ToxicBuildup.description>
   <!-- EN: initial -->
   <ToxicBuildup.stages.initial-0.label>輕微</ToxicBuildup.stages.initial-0.label>
   <!-- EN: initial -->
-  <ToxicBuildup.stages.initial-1.label>輕度</ToxicBuildup.stages.initial-1.label>
+  <ToxicBuildup.stages.initial-1.label>輕微</ToxicBuildup.stages.initial-1.label>
   <!-- EN: minor -->
-  <ToxicBuildup.stages.minor.label>中度</ToxicBuildup.stages.minor.label>
+  <ToxicBuildup.stages.minor.label>輕度</ToxicBuildup.stages.minor.label>
   <!-- EN: moderate -->
-  <ToxicBuildup.stages.moderate.label>重度</ToxicBuildup.stages.moderate.label>
+  <ToxicBuildup.stages.moderate.label>中度</ToxicBuildup.stages.moderate.label>
   <!-- EN: serious -->
-  <ToxicBuildup.stages.serious.label>極重度</ToxicBuildup.stages.serious.label>
+  <ToxicBuildup.stages.serious.label>重度</ToxicBuildup.stages.serious.label>
   <!-- EN: extreme -->
   <ToxicBuildup.stages.extreme.label>極重度</ToxicBuildup.stages.extreme.label>
   

@@ -4,49 +4,49 @@
   <!-- EN: butchery efficiency -->
   <ButcheryFleshEfficiency.label>屠宰效率</ButcheryFleshEfficiency.label>
   <!-- EN: The amount of meat produced when butchering flesh creatures.\n\nThe actual amount is also related to the creature's size. -->
-  <ButcheryFleshEfficiency.description>這名角色進行屠宰工作時的成品生產效率加成。實際的產量還與動物的體型相關。</ButcheryFleshEfficiency.description>
+  <ButcheryFleshEfficiency.description>屠宰生物時產生的肉量。\n\n實際產量與生物的大小有關。</ButcheryFleshEfficiency.description>
   
   <!-- EN: butchery speed -->
   <ButcheryFleshSpeed.label>屠宰速度</ButcheryFleshSpeed.label>
   <!-- EN: The speed at which this person butchers flesh creatures. -->
-  <ButcheryFleshSpeed.description>這名角色進行屠宰工作時的工作速度。</ButcheryFleshSpeed.description>
+  <ButcheryFleshSpeed.description>這名角色進行屠宰生物時的速度。</ButcheryFleshSpeed.description>
   
   <!-- EN: mechanoid disassembly efficiency -->
-  <ButcheryMechanoidEfficiency.label>拆解效率</ButcheryMechanoidEfficiency.label>
+  <ButcheryMechanoidEfficiency.label>機械拆解效率</ButcheryMechanoidEfficiency.label>
   <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid.\n\nThe actual amount is also related to the mechanoid's size. -->
-  <ButcheryMechanoidEfficiency.description>這名角色進行拆解工作時的成品生產效率加成。實際的產量還與機器的尺寸相關。</ButcheryMechanoidEfficiency.description>
+  <ButcheryMechanoidEfficiency.description>這名角色拆解損壞機器人時獲取的素材量。\n\n實際產量與機器的大小有關。</ButcheryMechanoidEfficiency.description>
   
   <!-- EN: mechanoid disassembly speed -->
   <ButcheryMechanoidSpeed.label>機械拆解速度</ButcheryMechanoidSpeed.label>
   <!-- EN: The speed at which this person can disassemble a mechanoid. -->
-  <ButcheryMechanoidSpeed.description>這名角色進行拆解工作時的工作速度。</ButcheryMechanoidSpeed.description>
+  <ButcheryMechanoidSpeed.description>這名角色拆解損壞機器人時的速度。</ButcheryMechanoidSpeed.description>
   
   <!-- EN: cooking speed -->
   <CookSpeed.label>烹飪速度</CookSpeed.label>
   <!-- EN: The speed at which this person cooks meals. -->
-  <CookSpeed.description>這名角色進行烹飪工作時的工作速度。</CookSpeed.description>
+  <CookSpeed.description>這名角色進行烹飪時的速度。</CookSpeed.description>
   
   <!-- EN: drug cooking speed -->
-  <DrugCookingSpeed.label>釀造速度</DrugCookingSpeed.label>
+  <DrugCookingSpeed.label>製毒速度</DrugCookingSpeed.label>
   <!-- EN: The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints. -->
-  <DrugCookingSpeed.description>這名角色進行釀造工作時的工作速度。</DrugCookingSpeed.description>
+  <DrugCookingSpeed.description>這名角色進行釀造、製作迷幻茶、捲菸時的速度。</DrugCookingSpeed.description>
   
   <!-- EN: drug synthesis speed -->
   <DrugSynthesisSpeed.label>藥物製作速度</DrugSynthesisSpeed.label>
   <!-- EN: How fast this character synthesizes complex chemical drugs. -->
-  <DrugSynthesisSpeed.description>這名角色製作藥物的工作速度。</DrugSynthesisSpeed.description>
+  <DrugSynthesisSpeed.description>這名角色合成複雜化學藥物時的速度。</DrugSynthesisSpeed.description>
   
   <!-- EN: food poison chance -->
   <FoodPoisonChance.label>烹調失敗率</FoodPoisonChance.label>
   <!-- EN: The probability that this character will inadvertently poison a meal they cook.\n\nAnyone who eats a food-poisoned meal will be temporarily debilitated with pain, weakness, and vomiting. -->
-  <FoodPoisonChance.description>這名角色調理出有毒食物的機率。食物中毒會使中毒者暫時無法工作。</FoodPoisonChance.description>
+  <FoodPoisonChance.description>這名角色不小心烹飪出有毒料理的可能性。\n\n任何吃過有毒料理的人都會覺得全身無力、痛苦、衰弱、嘔吐。</FoodPoisonChance.description>
   <!-- EN: food poison chance (chance to poison a meal) -->
-  <FoodPoisonChance.labelForFullStatList>食物中毒機率（每一餐機率）</FoodPoisonChance.labelForFullStatList>
+  <FoodPoisonChance.labelForFullStatList>烹調失敗率(每一餐機率)</FoodPoisonChance.labelForFullStatList>
   
   <!-- EN: general labor speed -->
   <GeneralLaborSpeed.label>一般工作速度</GeneralLaborSpeed.label>
   <!-- EN: The speed at which this person carries out general labor like making stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag. This stat applies both to activities that involve no skill, as well as those where the skill affects the quality of the product instead of the speed of production. -->
-  <GeneralLaborSpeed.description>此人的一般工作速度，例如切割石磚、精煉燃料、燒燬物品、縫製衣物、創作藝術品、鍛造盔甲和武器或熔煉鋼渣塊。這項能力，同時適用於不涉及技能的工作和技能影響產品質量但不是生產速度的工作。</GeneralLaborSpeed.description>
+  <GeneralLaborSpeed.description>這名角色進行一般工作時的速度，如石材加工、提煉化合燃料、銷毀物品、裁縫衣服、製作藝術品、鍛造裝甲、武器、提煉金屬。這項能力也適用於技能的產品品質、非技能的工作，但不適用於生產速度。</GeneralLaborSpeed.description>
   
   <!-- UNUSED -->
   <SculptingSpeed.label>雕刻速度</SculptingSpeed.label>
@@ -55,7 +55,7 @@
   <!-- EN: smelting speed -->
   <SmeltingSpeed.label>金屬提煉速度</SmeltingSpeed.label>
   <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
-  <SmeltingSpeed.description>這名角色進行金屬提煉工作時的工作速度。\n\n因為金屬提煉是低端的非技術工作，工作速度不受任何技能影響。</SmeltingSpeed.description>
+  <SmeltingSpeed.description>這名角色進行金屬提煉時的速度。\n\n由於提煉是一般工作，所以提煉速度不受任何技能影響。</SmeltingSpeed.description>
   
   <!-- UNUSED -->
   <SmithingSpeed.label>鍛造速度</SmithingSpeed.label>

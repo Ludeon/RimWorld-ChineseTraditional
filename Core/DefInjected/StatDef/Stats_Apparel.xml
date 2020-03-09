@@ -4,61 +4,61 @@
   <!-- EN: Armor - Blunt -->
   <ArmorRating_Blunt.label>防禦 - 鈍器</ArmorRating_Blunt.label>
   <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Blunt.description>能防禦住鈍器攻擊的機率。如：錘擊、石塊與爆炸。\n\n受到傷害時，護甲值首先減去攻擊武器的護甲穿透值。剩餘護甲值與0到100之間的隨機數進行比較。\n\n-若隨機數低於剩餘護甲值的一半，則傷害無效。\n-若隨機數大於剩餘護甲值的一半但不高於剩餘護甲值，則傷害減半，並且改為鈍器傷害。\n-若隨機數大於剩餘護甲值，則護甲無效。\n\n例如，對於10％護甲穿透的攻擊，若護甲等級為90％，則有40％幾率使攻擊無效，並有40％的幾率減輕傷害。\n\n擁有多層服裝時，判定將從外層開始，逐層檢測。</ArmorRating_Blunt.description>
+  <ArmorRating_Blunt.description>能防禦鈍器傷害的機率。如徒手攻擊、棍棒揮擊、崩落岩石。\n\n受到傷害時，護甲值會優先減去攻擊的護甲穿透值。剩餘的護甲值會取0到100之間的隨機數進行比較。\n\n-如果隨機數小於剩餘護甲值的一半，則傷害無效。\n-如果隨機數大於剩餘護甲值的一半，但不高於剩餘護甲值，則傷害減半。\n-如果隨機數大於剩餘護甲值，則無視護甲。\n\n例如，90%護甲等級被10%護甲穿透攻擊時，則有40％機率使攻擊無效，並有40％的機率減輕傷害。\n\n在護甲齊全的情況下，每層服裝都會分別發揮護甲作用。</ArmorRating_Blunt.description>
   <!-- EN: Armor - Blunt (armor stat) -->
   <ArmorRating_Blunt.labelForFullStatList>防禦 - 鈍器(護甲屬性)</ArmorRating_Blunt.labelForFullStatList>
   
   <!-- EN: Armor - Heat -->
   <ArmorRating_Heat.label>防禦 - 熱</ArmorRating_Heat.label>
   <!-- EN: The protection given against temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Heat.description>能防禦住溫度相關傷害的機率。如：燃燒。\n\n受到傷害時，護甲值首先減去攻擊武器的護甲穿透值。剩餘護甲值與0到100之間的隨機數進行比較。\n\n-若隨機數低於剩餘護甲值的一半，則傷害無效。\n-若隨機數大於剩餘護甲值的一半但不高於剩餘護甲值，則傷害減半，並且改為鈍器傷害。\n-若隨機數大於剩餘護甲值，則護甲無效。\n\n例如，對於10％護甲穿透的攻擊，若護甲等級為90％，則有40％幾率使攻擊無效，並有40％的幾率減輕傷害。\n\n擁有多層服裝時，判定將從外層開始，逐層檢測。</ArmorRating_Heat.description>
+  <ArmorRating_Heat.description>能防禦溫度相關傷害的機率。如燃燒。\n\n受到傷害時，護甲值會優先減去攻擊的護甲穿透值。剩餘的護甲值會取0到100之間的隨機數進行比較。\n\n-如果隨機數低於剩餘護甲值的一半，則傷害無效。\n-如果隨機數大於剩餘護甲值的一半但不高於剩餘護甲值，則傷害減半，並且改為鈍器傷害。\n-如果隨機數大於剩餘護甲值，則護甲無效。\n\n例如，90%護甲等級被10%護甲穿透攻擊時，則有40％機率使攻擊無效，並有40％的機率減輕傷害。\n\n在護甲齊全的情況下，每層服裝都會分別發揮護甲作用。</ArmorRating_Heat.description>
   <!-- EN: Armor - Heat (armor stat) -->
   <ArmorRating_Heat.labelForFullStatList>防禦 - 熱(護甲屬性)</ArmorRating_Heat.labelForFullStatList>
   
   <!-- EN: Armor - Sharp -->
   <ArmorRating_Sharp.label>防禦 - 利器</ArmorRating_Sharp.label>
   <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Sharp.description>能防禦住利器攻擊的機率。如：子彈、刀劍與利牙。\n\n受到傷害時，護甲值首先減去攻擊武器的護甲穿透值。剩餘護甲值與0到100之間的隨機數進行比較。\n\n-若隨機數低於剩餘護甲值的一半，則傷害無效。\n-若隨機數大於剩餘護甲值的一半但不高於剩餘護甲值，則傷害減半，並且改為鈍器傷害。。\n-若隨機數大於剩餘護甲值，則護甲無效。\n\n例如，對於10％護甲穿透的攻擊，若護甲等級為90％，則有40％幾率使攻擊無效，並有40％的幾率減輕傷害。\n\n擁有多層服裝時，判定將從外層開始，逐層檢測。</ArmorRating_Sharp.description>
+  <ArmorRating_Sharp.description>能防禦利器攻擊的機率。如子彈、利刃、爆破、動物啃咬。\n\n受到傷害時，護甲值會優先減去攻擊的護甲穿透值。剩餘的護甲值會取0到100之間的隨機數進行比較。\n\n-如果隨機數低於剩餘護甲值的一半，則傷害無效。\n-如果隨機數大於剩餘護甲值的一半但不高於剩餘護甲值，則傷害減半，並且改為鈍器傷害。。\n-如果隨機數大於剩餘護甲值，則護甲無效。\n\n例如，對於10％護甲穿透的攻擊，若護甲等級為90％，則有40％幾率使攻擊無效，並有40％的幾率減輕傷害。\n\n擁有多層服裝時，判定將從外層開始，逐層檢測。</ArmorRating_Sharp.description>
   <!-- EN: Armor - Sharp (armor stat) -->
   <ArmorRating_Sharp.labelForFullStatList>防禦 - 利器(護甲屬性)</ArmorRating_Sharp.labelForFullStatList>
   
   <!-- EN: Shield max energy -->
   <EnergyShieldEnergyMax.label>護盾腰帶能量最大值</EnergyShieldEnergyMax.label>
   <!-- EN: The maximum energy a shield belt can have at one time.\n\nMore energy absorbs more damage. -->
-  <EnergyShieldEnergyMax.description>護盾腰帶能維持的最大能量值，越多的能量能夠抵禦更多的傷害。</EnergyShieldEnergyMax.description>
+  <EnergyShieldEnergyMax.description>護盾腰帶能補充一次能量的最大值。越多能量吸收越多傷害。</EnergyShieldEnergyMax.description>
   
   <!-- EN: Shield recharge rate -->
   <EnergyShieldRechargeRate.label>護盾腰帶充能速度</EnergyShieldRechargeRate.label>
   <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
-  <EnergyShieldRechargeRate.description>當護盾尚未被突破時每秒的能量補充值。</EnergyShieldRechargeRate.description>
+  <EnergyShieldRechargeRate.description>護盾尚未破裂時的能量補充速度。</EnergyShieldRechargeRate.description>
   <!-- EN: {0}/s -->
   <EnergyShieldRechargeRate.formatString>{0}/秒</EnergyShieldRechargeRate.formatString>
   
   <!-- EN: equip delay -->
   <EquipDelay.label>裝備耗時</EquipDelay.label>
   <!-- EN: The time it takes to equip and unequip this item. -->
-  <EquipDelay.description>穿上這個裝備所需要花費的時間。</EquipDelay.description>
+  <EquipDelay.description>穿上、脫下裝備所需要花費的時間。</EquipDelay.description>
   <!-- EN: {0} s -->
   <EquipDelay.formatString>{0}秒</EquipDelay.formatString>
   
   <!-- EN: Insulation - Cold -->
-  <Insulation_Cold.label>保溫 - 耐冷</Insulation_Cold.label>
+  <Insulation_Cold.label>隔絕 - 冷</Insulation_Cold.label>
   <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature.\n\nGreater values allow surviving in colder temperatures. -->
-  <Insulation_Cold.description>此裝備能提供的低溫適應能力加成。更高的數值能在更冷的環境下生存。</Insulation_Cold.description>
+  <Insulation_Cold.description>此服裝提供多少的低溫適應。更高的數值能在更冷的環境下生存。</Insulation_Cold.description>
   <!-- EN: Insulation - Cold (armor stat) -->
-  <Insulation_Cold.labelForFullStatList>保溫 - 耐冷(護甲屬性)</Insulation_Cold.labelForFullStatList>
+  <Insulation_Cold.labelForFullStatList>隔絕 - 冷(護甲屬性)</Insulation_Cold.labelForFullStatList>
   
   <!-- EN: Insulation - Heat -->
-  <Insulation_Heat.label>保溫 - 耐熱</Insulation_Heat.label>
+  <Insulation_Heat.label>隔絕 - 熱</Insulation_Heat.label>
   <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature.\n\nGreater values allow surviving in warmer temperatures. -->
-  <Insulation_Heat.description>此裝備能提供的高溫適應能力加成。更高的數值能在更冷的環境下生存。</Insulation_Heat.description>
+  <Insulation_Heat.description>此服裝提供多少的高溫適應。更高的數值能在更熱的環境下生存。</Insulation_Heat.description>
   <!-- EN: Insulation - Heat (armor stat) -->
-  <Insulation_Heat.labelForFullStatList>保溫 - 耐熱(護甲屬性)</Insulation_Heat.labelForFullStatList>
+  <Insulation_Heat.labelForFullStatList>隔絕 - 熱(護甲屬性)</Insulation_Heat.labelForFullStatList>
   
   <!-- EN: Smokepop belt radius -->
-  <SmokepopBeltRadius.label>煙霧屏障半徑</SmokepopBeltRadius.label>
+  <SmokepopBeltRadius.label>煙霧半徑</SmokepopBeltRadius.label>
   <!-- EN: The area obscured when a smokepop belt detonates. -->
-  <SmokepopBeltRadius.description>煙霧腰帶發動時的屏蔽範圍。</SmokepopBeltRadius.description>
+  <SmokepopBeltRadius.description>煙霧腰帶發動時的覆蓋範圍。</SmokepopBeltRadius.description>
   <!-- EN: {0} c -->
   <SmokepopBeltRadius.formatString>{0}格</SmokepopBeltRadius.formatString>
   
@@ -66,9 +66,9 @@
   <StuffEffectMultiplierArmor.label>防禦 - 素材影響倍率</StuffEffectMultiplierArmor.label>
   
   <!-- EN: Insulation - Cold - Material effect multiplier -->
-  <StuffEffectMultiplierInsulation_Cold.label>保溫 - 冷 - 素材影響倍率</StuffEffectMultiplierInsulation_Cold.label>
+  <StuffEffectMultiplierInsulation_Cold.label>隔絕 - 冷 - 素材影響倍率</StuffEffectMultiplierInsulation_Cold.label>
   
   <!-- EN: Insulation - Heat - Material effect multiplier -->
-  <StuffEffectMultiplierInsulation_Heat.label>保溫 - 熱 - 素材影響倍率</StuffEffectMultiplierInsulation_Heat.label>
+  <StuffEffectMultiplierInsulation_Heat.label>隔絕 - 熱 - 素材影響倍率</StuffEffectMultiplierInsulation_Heat.label>
   
 </LanguageData>

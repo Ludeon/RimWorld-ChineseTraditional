@@ -2,38 +2,38 @@
 <LanguageData>
   
   <!-- EN: detection chance -->
-  <Bladelink_DetectionChance.label>偵測機率（羈絆物品）</Bladelink_DetectionChance.label>
+  <Bladelink_DetectionChance.label>偵測機率</Bladelink_DetectionChance.label>
   <!-- EN: The likelihood of the bladelink implant being detected each time it is used to attack in combat.\n\nSome factions try to enforce laws restricting the use of the bladelink to those holding specific titles. Using the bladelink emits a psychic signature which has a chance of being detected at a distance. If it is used illegally and detected, there will be diplomatic consequences.\n\nThe psychic signature can be silenced by use of a psychic silencer implant. -->
-  <Bladelink_DetectionChance.description>在戰鬥中使用羈絆武器進行攻擊被偵測到的可能性。\n\n某些派系可能會規定擁有特定頭銜的個體使用羈絆武器。使用這些羈絆武器會發出一個心靈訊號，並且可能會被遠距離偵測到。如果違規使用並且被發現，將會產生外交影響。\n\n這個心靈訊號可以透過一個心靈靜默裝置來抑制。</Bladelink_DetectionChance.description>
+  <Bladelink_DetectionChance.description>在戰鬥中使用羈絆武器進行攻擊被偵測到的可能性。\n\n某些派系可能會規定擁有特定頭銜的個體使用羈絆武器。使用這些羈絆武器會發出一個心靈訊號，並且可能會被遠距離偵測到。如果違規使用並且被發現，將會產生外交影響。\n\n這個心靈訊號可以通過一個心靈靜默裝置來抑制。</Bladelink_DetectionChance.description>
   
   <!-- EN: blunt damage -->
-  <BluntDamageMultiplier.label>近戰打擊傷害加成</BluntDamageMultiplier.label>
+  <BluntDamageMultiplier.label>鈍器傷害</BluntDamageMultiplier.label>
   <!-- EN: A multiplier on damage from blunt-type attacks for weapons made of this material. -->
-  <BluntDamageMultiplier.description>以此素材製造的武器的鈍擊攻擊的傷害加成。</BluntDamageMultiplier.description>
+  <BluntDamageMultiplier.description>此素材製作鈍器的傷害率。</BluntDamageMultiplier.description>
   
   <!-- EN: melee armor penetration -->
-  <MeleeWeapon_AverageArmorPenetration.label>近戰裝甲穿透平均值</MeleeWeapon_AverageArmorPenetration.label>
+  <MeleeWeapon_AverageArmorPenetration.label>近戰裝甲穿透值</MeleeWeapon_AverageArmorPenetration.label>
   <!-- EN: Average armor penetration in melee combat. -->
-  <MeleeWeapon_AverageArmorPenetration.description>近戰時穿透裝甲的平均值。</MeleeWeapon_AverageArmorPenetration.description>
+  <MeleeWeapon_AverageArmorPenetration.description>近戰護甲穿透的平均值。</MeleeWeapon_AverageArmorPenetration.description>
   
   <!-- EN: melee damage per second -->
   <MeleeWeapon_AverageDPS.label>近戰DPS</MeleeWeapon_AverageDPS.label>
   <!-- EN: Average damage dealt per second in melee combat, if all attacks hit. -->
-  <MeleeWeapon_AverageDPS.description>假設每道攻擊皆命中，每秒所能輸出的平均傷害值。</MeleeWeapon_AverageDPS.description>
+  <MeleeWeapon_AverageDPS.description>假設所有近戰攻擊都命中，每秒造成傷害的平均值。</MeleeWeapon_AverageDPS.description>
   
   <!-- EN: melee cooldown -->
   <MeleeWeapon_CooldownMultiplier.label>近戰冷卻時間</MeleeWeapon_CooldownMultiplier.label>
   <!-- EN: A multiplier on attack delay for weapons made of this material. -->
-  <MeleeWeapon_CooldownMultiplier.description>以此素材製造的武器的近戰攻擊間延遲時間倍率。</MeleeWeapon_CooldownMultiplier.description>
+  <MeleeWeapon_CooldownMultiplier.description>此素材製作的武器攻擊延遲。</MeleeWeapon_CooldownMultiplier.description>
   
   <!-- EN: melee damage multiplier -->
   <MeleeWeapon_DamageMultiplier.label>近戰傷害倍率</MeleeWeapon_DamageMultiplier.label>
   <!-- EN: A damage multiplier applied to melee combat. -->
-  <MeleeWeapon_DamageMultiplier.description>近戰傷害的傷害值倍率。</MeleeWeapon_DamageMultiplier.description>
+  <MeleeWeapon_DamageMultiplier.description>近戰的傷害倍率。</MeleeWeapon_DamageMultiplier.description>
   
   <!-- EN: sharp damage -->
-  <SharpDamageMultiplier.label>近戰銳利傷害加成</SharpDamageMultiplier.label>
+  <SharpDamageMultiplier.label>利器傷害</SharpDamageMultiplier.label>
   <!-- EN: A multiplier on damage from sharp-type attacks for weapons made of this material. -->
-  <SharpDamageMultiplier.description>以此素材製造的武器的銳利攻擊的傷害加成。</SharpDamageMultiplier.description>
+  <SharpDamageMultiplier.description>此素材製作利器的傷害率。</SharpDamageMultiplier.description>
   
 </LanguageData>

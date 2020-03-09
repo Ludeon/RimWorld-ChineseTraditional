@@ -12,35 +12,35 @@
   <IncomingDamageFactor.description>所有傷害的倍率</IncomingDamageFactor.description>
   
   <!-- EN: melee armor penetration -->
-  <MeleeArmorPenetration.label>近戰裝甲穿透率</MeleeArmorPenetration.label>
+  <MeleeArmorPenetration.label>近戰護甲穿透值</MeleeArmorPenetration.label>
   <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
-  <MeleeArmorPenetration.description>所有攻擊類型的平均近戰裝甲穿透率。此數值包含了當前使用的武器。</MeleeArmorPenetration.description>
+  <MeleeArmorPenetration.description>所有近戰攻擊的平均護甲穿透值。\n\n此數值包含了當前使用的武器。</MeleeArmorPenetration.description>
   
   <!-- EN: melee dodge chance -->
-  <MeleeDodgeChance.label>近身攻擊迴避率</MeleeDodgeChance.label>
+  <MeleeDodgeChance.label>近戰迴避率</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
-  <MeleeDodgeChance.description>近身攻擊的迴避機率，但人物在瞄準或射擊時不會閃避。</MeleeDodgeChance.description>
+  <MeleeDodgeChance.description>有機率可以迴避近戰攻擊。\n\n角色在瞄準或射擊時無法迴避。</MeleeDodgeChance.description>
   
   <!-- EN: melee DPS -->
   <MeleeDPS.label>近戰DPS</MeleeDPS.label>
   <!-- EN: Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor. -->
-  <MeleeDPS.description>肉搏戰鬥時平均每秒所能造成的傷害。此數值未考慮目標的防禦力，如迴避和護甲。</MeleeDPS.description>
+  <MeleeDPS.description>近戰攻擊的每秒傷害值。\n\n此數值無視目標的迴避率、護甲。</MeleeDPS.description>
   
   <!-- EN: melee hit chance -->
-  <MeleeHitChance.label>近身攻擊命中率</MeleeHitChance.label>
+  <MeleeHitChance.label>近戰命中率</MeleeHitChance.label>
   <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
-  <MeleeHitChance.description>近身攻擊目標的基礎命中率。目標即使已經被打中也可能迴避。</MeleeHitChance.description>
+  <MeleeHitChance.description>近戰攻擊的命中率。\n\n即使我們有擊中，目標仍然可以迴避。</MeleeHitChance.description>
   
   <!-- EN: trap spring chance -->
   <PawnTrapSpringChance.label>陷阱觸發機率</PawnTrapSpringChance.label>
   <!-- EN: Chance to spring a trap the character is unaware of. -->
-  <PawnTrapSpringChance.description>不知情者觸發陷阱的機率</PawnTrapSpringChance.description>
+  <PawnTrapSpringChance.description>不知情者觸發陷阱的機率。</PawnTrapSpringChance.description>
   
   <!-- EN: shooting accuracy -->
-  <ShootingAccuracyPawn.label>射擊精度</ShootingAccuracyPawn.label>
+  <ShootingAccuracyPawn.label>射擊準度</ShootingAccuracyPawn.label>
   <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
-  <ShootingAccuracyPawn.description>對目標遠程射擊的基礎命中率。機率還同時受到許多其他參數的影響。選擇射手後再將游標移至目標上即可查看命中率資訊。</ShootingAccuracyPawn.description>
+  <ShootingAccuracyPawn.description>遠程射擊的基礎命中率。機率會受到許多其他因素影響。\n\n點選射手後再將游標移至目標上，即可查看命中率資訊。</ShootingAccuracyPawn.description>
   <!-- EN: shooting accuracy (people) -->
-  <ShootingAccuracyPawn.labelForFullStatList>射擊精度（人）</ShootingAccuracyPawn.labelForFullStatList>
+  <ShootingAccuracyPawn.labelForFullStatList>射擊準度(人)</ShootingAccuracyPawn.labelForFullStatList>
   
 </LanguageData>

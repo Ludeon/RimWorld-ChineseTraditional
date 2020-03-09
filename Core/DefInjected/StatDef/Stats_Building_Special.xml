@@ -4,12 +4,12 @@
   <!-- EN: rest effectiveness -->
   <BedRestEffectiveness.label>休息效率</BedRestEffectiveness.label>
   <!-- EN: How fast people sleeping on this gain rest. -->
-  <BedRestEffectiveness.description>這張床所能提供的休息效率。</BedRestEffectiveness.description>
+  <BedRestEffectiveness.description>人們睡眠時的休息效率。</BedRestEffectiveness.description>
   
   <!-- EN: door opening speed -->
-  <DoorOpenSpeed.label>開啟速度</DoorOpenSpeed.label>
+  <DoorOpenSpeed.label>開門速度</DoorOpenSpeed.label>
   <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
-  <DoorOpenSpeed.description>這道門開啟的速度。</DoorOpenSpeed.description>
+  <DoorOpenSpeed.description>不用電源時開門的速度。\n\n開啟速度較慢的門會降低每個人的移動速度。</DoorOpenSpeed.description>
   
   <!-- EN: immunity gain speed factor -->
   <ImmunityGainSpeedFactor.label>免疫力形成速度倍率</ImmunityGainSpeedFactor.label>
@@ -19,36 +19,36 @@
   <!-- EN: recreation power -->
   <JoyGainFactor.label>娛樂度</JoyGainFactor.label>
   <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
-  <JoyGainFactor.description>此裝置提供人們娛樂並滿足娛樂需求的效果。</JoyGainFactor.description>
+  <JoyGainFactor.description>此物品提供人們的娛樂，滿足娛樂度的需求。</JoyGainFactor.description>
   
   <!-- EN: medical tend quality offset -->
-  <MedicalTendQualityOffset.label>醫療效果倍率</MedicalTendQualityOffset.label>
+  <MedicalTendQualityOffset.label>醫療效果補償</MedicalTendQualityOffset.label>
   <!-- EN: Medical tend quality is offset by this value. -->
-  <MedicalTendQualityOffset.description>進行醫療行為時的效果倍率。</MedicalTendQualityOffset.description>
+  <MedicalTendQualityOffset.description>進行醫療時的效果補償。</MedicalTendQualityOffset.description>
   
   <!-- EN: research speed factor -->
-  <ResearchSpeedFactor.label>研究速度倍率</ResearchSpeedFactor.label>
+  <ResearchSpeedFactor.label>研究速率</ResearchSpeedFactor.label>
   <!-- EN: The speed at which people do research is multiplied by this value. -->
-  <ResearchSpeedFactor.description>進行研究工作時的速度倍率。</ResearchSpeedFactor.description>
+  <ResearchSpeedFactor.description>進行研究工作時的速率。</ResearchSpeedFactor.description>
   <!-- EN: Room cleanliness -->
-  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>研究速度倍率</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>研究速率</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>手術成功率倍率</SurgerySuccessChanceFactor.label>
   <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
-  <SurgerySuccessChanceFactor.description>在這裡進行手術時的成功率倍率。手術成功率還同時受到許多其他因素，如醫生和藥品的影響。</SurgerySuccessChanceFactor.description>
+  <SurgerySuccessChanceFactor.description>在這裡進行手術時的成功率倍率。手術成功率受許多因素影響，包括醫療能力、藥品。</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
   <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>房間清潔度</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>陷阱殺傷力</TrapMeleeDamage.label>
   <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>這個陷阱能夠造成的傷害平均值，實際數值會根據平均值上下浮動。</TrapMeleeDamage.description>
+  <TrapMeleeDamage.description>陷阱造成的傷害平均值。\n\n實際數值會根據平均值上下浮動。</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
   <TrapSpringChance.label>陷阱觸發率</TrapSpringChance.label>
   <!-- EN: The likelihood that the trap will spring when an unaware creature passes over it. -->
-  <TrapSpringChance.description>當生物通過這個陷阱的正上方時，陷阱被觸發的機率。</TrapSpringChance.description>
+  <TrapSpringChance.description>當生物通過陷阱時，陷阱被觸發的機率。</TrapSpringChance.description>
   
   <!-- EN: work efficiency factor -->
   <WorkTableEfficiencyFactor.label>工作效果倍率</WorkTableEfficiencyFactor.label>
@@ -63,6 +63,6 @@
   <!-- EN: work to build -->
   <WorkToBuild.label>建造工作量</WorkToBuild.label>
   <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered. -->
-  <WorkToBuild.description>當所有素材備齊之後，建造這個物件所需的基本建造工作量。</WorkToBuild.description>
+  <WorkToBuild.description>備齊所有素材後，建造這個建築所需的基本工作量。</WorkToBuild.description>
   
 </LanguageData>

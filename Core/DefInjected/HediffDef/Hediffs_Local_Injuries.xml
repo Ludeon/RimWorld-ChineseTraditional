@@ -16,7 +16,7 @@
   <!-- EN: Bitten off -->
   <Bite.injuryProps.destroyedLabel>喪失功能(咬傷)</Bite.injuryProps.destroyedLabel>
   <!-- EN: Bitten out -->
-  <Bite.injuryProps.destroyedOutLabel>被咬下</Bite.injuryProps.destroyedOutLabel>
+  <Bite.injuryProps.destroyedOutLabel>被咬斷</Bite.injuryProps.destroyedOutLabel>
   <!-- EN: a bite wound -->
   <Bite.labelNoun>咬傷</Bite.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -54,7 +54,7 @@
   <!-- EN: Burned off -->
   <Burn.injuryProps.destroyedLabel>喪失功能(燒傷)</Burn.injuryProps.destroyedLabel>
   <!-- EN: Burned out -->
-  <Burn.injuryProps.destroyedOutLabel>燒毀</Burn.injuryProps.destroyedOutLabel>
+  <Burn.injuryProps.destroyedOutLabel>被燒掉</Burn.injuryProps.destroyedOutLabel>
   <!-- EN: a burn -->
   <Burn.labelNoun>燒傷</Burn.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -88,7 +88,7 @@
   <!-- EN: permanent crack -->
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>撕裂傷疤痕</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Shattered -->
-  <Crack.injuryProps.destroyedLabel>破碎</Crack.injuryProps.destroyedLabel>
+  <Crack.injuryProps.destroyedLabel>支離破碎</Crack.injuryProps.destroyedLabel>
   <!-- EN: a crack wound -->
   <Crack.labelNoun>撕裂傷</Crack.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -126,7 +126,7 @@
   <!-- EN: cut scar -->
   <Cut.comps.HediffComp_GetsPermanent.permanentLabel>割傷疤痕</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Cut off -->
-  <Cut.injuryProps.destroyedLabel>喪失功能</Cut.injuryProps.destroyedLabel>
+  <Cut.injuryProps.destroyedLabel>喪失功能(割傷)</Cut.injuryProps.destroyedLabel>
   <!-- EN: Cut out -->
   <Cut.injuryProps.destroyedOutLabel>切除</Cut.injuryProps.destroyedOutLabel>
   <!-- EN: a cut -->
@@ -137,7 +137,7 @@
   <!-- EN: frostbite -->
   <Frostbite.label>凍傷</Frostbite.label>
   <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
-  <Frostbite.description>凍傷是由於寒冷潮濕作用引起的患者局部或全身損傷。凍傷非常痛苦，患者經常會被迫失去凍傷的身體部位。</Frostbite.description>
+  <Frostbite.description>曝露在寒冷下沒有足夠的保暖所造成的凍傷。凍傷非常痛苦，身體部位常常因為凍傷而失去。</Frostbite.description>
   <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -168,7 +168,7 @@
   <!-- EN: Shot off -->
   <Gunshot.injuryProps.destroyedLabel>喪失功能(槍傷)</Gunshot.injuryProps.destroyedLabel>
   <!-- EN: Shot out -->
-  <Gunshot.injuryProps.destroyedOutLabel>被射下(槍傷)</Gunshot.injuryProps.destroyedOutLabel>
+  <Gunshot.injuryProps.destroyedOutLabel>被射下</Gunshot.injuryProps.destroyedOutLabel>
   <!-- EN: a gunshot wound -->
   <Gunshot.labelNoun>槍傷</Gunshot.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -194,7 +194,7 @@
   <!-- EN: missing body part -->
   <MissingBodyPart.label>缺少身體部位</MissingBodyPart.label>
   <!-- EN: A body part is entirely missing. -->
-  <MissingBodyPart.description>缺少身體的一部分了。</MissingBodyPart.description>
+  <MissingBodyPart.description>缺少身體的一部分。</MissingBodyPart.description>
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>缺少身體部位</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->

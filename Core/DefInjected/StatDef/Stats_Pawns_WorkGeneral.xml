@@ -4,66 +4,66 @@
   <!-- EN: animal gather speed -->
   <AnimalGatherSpeed.label>動物採集速度</AnimalGatherSpeed.label>
   <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
-  <AnimalGatherSpeed.description>這個人物進行諸如擠奶、剃毛等等收穫畜產的速度加成。</AnimalGatherSpeed.description>
+  <AnimalGatherSpeed.description>這名角色進行擠奶、剃毛、獲取畜牧品時的速度。</AnimalGatherSpeed.description>
   
   <!-- EN: animal gather yield -->
-  <AnimalGatherYield.label>動物採集倍率</AnimalGatherYield.label>
+  <AnimalGatherYield.label>動物採集產量</AnimalGatherYield.label>
   <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
-  <AnimalGatherYield.description>這個人物進行諸如擠奶、剃毛等等從活的動物身上收穫資源時的產量加成。越高的倍率越能避免產品的浪費。</AnimalGatherYield.description>
+  <AnimalGatherYield.description>這名角色進行擠奶、剃毛或從活的動物身上獲取資源時的百分比產量。\n\n百分比越高就能避免浪費產品。</AnimalGatherYield.description>
   
   <!-- EN: construction speed -->
-  <ConstructionSpeed.label>生產速度</ConstructionSpeed.label>
+  <ConstructionSpeed.label>建設速度</ConstructionSpeed.label>
   <!-- EN: The speed at which this person constructs and repairs buildings. -->
-  <ConstructionSpeed.description>這個人物進行生產工作時的速度加成。</ConstructionSpeed.description>
+  <ConstructionSpeed.description>這名角色進行建造、修理建築時的速度。</ConstructionSpeed.description>
   
   <!-- EN: construct success chance -->
   <ConstructSuccessChance.label>建設成功率</ConstructSuccessChance.label>
   <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
-  <ConstructSuccessChance.description>這個人物進行建造工作時的成功機率。建造失敗會浪費時間和一部分的材料。</ConstructSuccessChance.description>
+  <ConstructSuccessChance.description>這名角色進行建造時的成功機率。\n建造失敗會浪費時間、資源。</ConstructSuccessChance.description>
   
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>修理成功率</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
-  <FixBrokenDownBuildingSuccessChance.description>這個人物使用電子零件進行修理工作時的成功機率。建造失敗會浪費時間和一部分的材料。註記：此參數只作用在修理故障設備上，並不適用於修理受到傷害的設備。</FixBrokenDownBuildingSuccessChance.description>
+  <FixBrokenDownBuildingSuccessChance.description>這名角色用零件進行修理的成功機率。\n\n修理失敗會浪費時間、資源。\n注意：只適用於修理故障，不適用於修理耐久值。</FixBrokenDownBuildingSuccessChance.description>
   
   <!-- EN: hunting stealth -->
-  <HuntingStealth.label>狩獵匿蹤</HuntingStealth.label>
+  <HuntingStealth.label>狩獵隱匿</HuntingStealth.label>
   <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->
-  <HuntingStealth.description>這項數值降低獵物攻擊獵人的機率。0%代表沒有任何降低，100%代表動物永遠不會發動攻擊。</HuntingStealth.description>
+  <HuntingStealth.description>這會降低動物攻擊獵人的機率。\n\n0%代表動物會攻擊。100%代表動物不會攻擊。</HuntingStealth.description>
   
   <!-- EN: mining speed -->
   <MiningSpeed.label>採礦速度</MiningSpeed.label>
   <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
-  <MiningSpeed.description>這個人物進行採礦工作時的速度加成。</MiningSpeed.description>
+  <MiningSpeed.description>這名角色進行開採、採掘機時的速度。</MiningSpeed.description>
   
   <!-- EN: mining yield -->
-  <MiningYield.label>採礦產量倍率</MiningYield.label>
+  <MiningYield.label>採礦產量</MiningYield.label>
   <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks. -->
-  <MiningYield.description>這個人物採礦的產量加成，此參數同時作用於地表開採及地下採礦，但不影響開採岩石時產生岩塊的機率。</MiningYield.description>
+  <MiningYield.description>礦工採礦的資源百分比。\n\n只適用於採礦、採掘機。不適用於石塊的生產率。</MiningYield.description>
   
   <!-- EN: plant harvest yield -->
-  <PlantHarvestYield.label>作物收穫倍率</PlantHarvestYield.label>
+  <PlantHarvestYield.label>農作物收穫產量</PlantHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
-  <PlantHarvestYield.description>這個人物收穫作物時的產量加成。效率越低的角色越有可能會收穫失敗而破壞作物。</PlantHarvestYield.description>
+  <PlantHarvestYield.description>這名角色收穫農作物時的產量。\n\n產量低的人，有低機率收穫失敗。</PlantHarvestYield.description>
   
   <!-- EN: plant work speed -->
   <PlantWorkSpeed.label>種植速度</PlantWorkSpeed.label>
   <!-- EN: The speed at which this person sows and harvests plants. -->
-  <PlantWorkSpeed.description>這個人物進行種植工作時的速度加成。</PlantWorkSpeed.description>
+  <PlantWorkSpeed.description>這名角色進行種植、收穫時的速度。</PlantWorkSpeed.description>
   
   <!-- EN: research speed -->
   <ResearchSpeed.label>研究速度</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
-  <ResearchSpeed.description>這個人物進行研究工作時的速度加成。</ResearchSpeed.description>
+  <ResearchSpeed.description>這名角色進行研究工作、長程礦物掃瞄器時的速度。</ResearchSpeed.description>
   
   <!-- EN: smoothing speed -->
   <SmoothingSpeed.label>拋光速度</SmoothingSpeed.label>
   <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
-  <SmoothingSpeed.description>這個人物進行崎嶇岩石地面和崎嶇岩壁拋光工作時的速度加成。</SmoothingSpeed.description>
+  <SmoothingSpeed.description>這名角色進行拋光岩地、岩壁時的速度。</SmoothingSpeed.description>
   
   <!-- EN: global work speed -->
   <WorkSpeedGlobal.label>工作速度</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
-  <WorkSpeedGlobal.description>這個人物進行任何工作時的速度加成。</WorkSpeedGlobal.description>
+  <WorkSpeedGlobal.description>這名角色進行任何工作時的速度倍率。</WorkSpeedGlobal.description>
   
 </LanguageData>

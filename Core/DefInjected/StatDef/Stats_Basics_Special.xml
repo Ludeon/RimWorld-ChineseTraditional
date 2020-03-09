@@ -4,18 +4,18 @@
   <!-- EN: construction speed -->
   <ConstructionSpeedFactor.label>建造速度</ConstructionSpeedFactor.label>
   <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast. -->
-  <ConstructionSpeedFactor.description>當採用此素材進行建造時的建造速度倍率。有些材料如石頭建造起來很慢，而木材則快得多。</ConstructionSpeedFactor.description>
+  <ConstructionSpeedFactor.description>進行建造時的建造速度。有些素材建造起來很慢，如石材，有些素材建造起來很快，如木頭。</ConstructionSpeedFactor.description>
   <!-- EN: construction speed (material factor) -->
-  <ConstructionSpeedFactor.labelForFullStatList>建造速度係數（材料因素）</ConstructionSpeedFactor.labelForFullStatList>
+  <ConstructionSpeedFactor.labelForFullStatList>建造速度係數(素材因素)</ConstructionSpeedFactor.labelForFullStatList>
   
   <!-- EN: medical potency -->
-  <MedicalPotency.label>醫療效率</MedicalPotency.label>
+  <MedicalPotency.label>醫療效果</MedicalPotency.label>
   <!-- EN: How effective this is when used to tend wounds and diseases, or do surgery.\n\nHigher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery.\nMedical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck. -->
-  <MedicalPotency.description>治療創傷、疾病或是執行手術時的效率。越高的醫療效率提升醫生治療傷口的品質，並降低在手術中發生失誤的機會。手術成功率同時受到醫生和床的影響。</MedicalPotency.description>
+  <MedicalPotency.description>治療傷口、疾病或執行手術時的效果。越高的醫療效果可以提昇治療品質，並提昇手術的成功率。醫療因素包含醫療效果、醫生能力、設備、清潔度、運氣。</MedicalPotency.description>
   
   <!-- EN: medical tend quality maximum -->
-  <MedicalQualityMax.label>醫療效率最大值</MedicalQualityMax.label>
+  <MedicalQualityMax.label>醫療效果最大值</MedicalQualityMax.label>
   <!-- EN: The maximum quality of medical tending that can be achieved while using this.\n\nBetter tend quality allows skilled doctors to treat wounds better, as well as more reliably. -->
-  <MedicalQualityMax.description>使用這個時能獲得的醫療效率最大值。更好的醫療品質能讓醫生更好、更可靠的治療傷口</MedicalQualityMax.description>
+  <MedicalQualityMax.description>使用這個能獲得的醫療效果最大值。更好的醫療品質能讓醫生將傷口治療得更好、更可靠。</MedicalQualityMax.description>
   
 </LanguageData>

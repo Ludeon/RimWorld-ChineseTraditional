@@ -4,17 +4,17 @@
   <!-- EN: Arrest success chance -->
   <ArrestSuccessChance.label>拘捕成功機率</ArrestSuccessChance.label>
   <!-- EN: How effective this person is in arresting people.\n\nThis affects the success chance of arresting tries. -->
-  <ArrestSuccessChance.description>改變拘捕的效果。\n\n影響拘捕的成功率。</ArrestSuccessChance.description>
+  <ArrestSuccessChance.description>這名角色在拘捕時的影響能力。\n\n這會影響拘捕的成功機率。</ArrestSuccessChance.description>
   
   <!-- EN: negotiation ability -->
-  <NegotiationAbility.label>外交影響力</NegotiationAbility.label>
+  <NegotiationAbility.label>交涉能力</NegotiationAbility.label>
   <!-- EN: How effective this person is as a negotiator.\n\nThis affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
-  <NegotiationAbility.description>在外交行動中的影響力。作用於送禮給其他勢力以及與其他勢力會談的結果。</NegotiationAbility.description>
+  <NegotiationAbility.description>這名角色的交涉能力。\n\n這會影響招募囚犯的速度，贈與禮物給其他勢力的影響、和平會談的結果。</NegotiationAbility.description>
   
   <!-- EN: beauty -->
   <PawnBeauty.label>魅力</PawnBeauty.label>
   <!-- EN: How physically attractive this person is. This affects social interactions. -->
-  <PawnBeauty.description>此人的魅力值，這也會影響社交結果。</PawnBeauty.description>
+  <PawnBeauty.description>這名角色的魅力值。這會影響社交結果。</PawnBeauty.description>
   
   <!-- EN: social impact -->
   <SocialImpact.label>社交影響力</SocialImpact.label>
@@ -24,16 +24,16 @@
   <!-- EN: tame animal chance -->
   <TameAnimalChance.label>馴服動物機率</TameAnimalChance.label>
   <!-- EN: The base chance this person will successfully tame an animal on any given attempt.\n\nThe actual chance is also affected by the animal's wildness.\nFailed tame attempt can induce animal attacks, especially for more vicious animals. -->
-  <TameAnimalChance.description>成功馴服動物的基礎機率。實際機率還會受到動物野性影響。馴養失敗有被動物反擊的風險，尤其是兇猛的動物。</TameAnimalChance.description>
+  <TameAnimalChance.description>成功馴服動物的基礎機率。\n\n實際機率受到動物野性影響。\n\n馴養失敗時，有機率會被動物反擊，尤其是兇猛的動物。</TameAnimalChance.description>
   
   <!-- EN: trade price improvement -->
-  <TradePriceImprovement.label>交易價格影響力</TradePriceImprovement.label>
+  <TradePriceImprovement.label>議價能力</TradePriceImprovement.label>
   <!-- EN: When this person acts as a trade negotiator, buy and sell prices are improved by this percentage. -->
-  <TradePriceImprovement.description>當該角色議價時，購買或售出貨品的價格將受到這個倍率影響。</TradePriceImprovement.description>
+  <TradePriceImprovement.description>這名角色跟其他勢力交易時，購買、售出價格的百分比影響。</TradePriceImprovement.description>
   
   <!-- EN: train animal chance -->
   <TrainAnimalChance.label>動物訓練成功機率</TrainAnimalChance.label>
   <!-- EN: The base chance this person will make progress training an animal on a given attempt.\n\nThe actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
-  <TrainAnimalChance.description>進行動物訓練的基礎成功機率，實際機率還會受到動物野性影響，不論與訓練者之間是否為夥伴關係。</TrainAnimalChance.description>
+  <TrainAnimalChance.description>這名角色在進行動物訓練的基礎成功率。\n\n實際機率會受到動物野性影響，無論與訓練者是否為夥伴關係。</TrainAnimalChance.description>
   
 </LanguageData>
