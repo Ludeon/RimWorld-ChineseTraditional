@@ -20,8 +20,12 @@
   <LetterLostRoyalTitle>{PAWN_labelShort}不再帶有{FACTION_name}的{TITLE}頭銜。</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>頭銜獎勵</LetterLabelRewardsForNewTitle>
-  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent them following reward(s): -->
-  <LetterRewardsForNewTitle> 因{PAWN_labelShort}有所作為，受封為 {TITLE}, 來自{FACTION_name}的獎勵已經送達:</LetterRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
+  <LetterRewardsForNewTitle> 因{PAWN_labelShort}有所作為，受封為 {TITLE}, 來自{FACTION_name}的獎勵{PAWN_objective}已經送達:</LetterRewardsForNewTitle>
+  <!-- EN: Rewards have arrived to your colony via transport pods. -->
+  <LetterRewardsForNewTitleDeliveryBase>獎勵已透過運輸艙送達你的殖民地。</LetterRewardsForNewTitleDeliveryBase>
+  <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
+  <LetterRewardsForNewTitleDeliveryDirect>獎勵已直接送到{PAWN_labelShort}的行李中。</LetterRewardsForNewTitleDeliveryDirect>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun}獲得以下權限:</LetterRoyalTitlePermits>
