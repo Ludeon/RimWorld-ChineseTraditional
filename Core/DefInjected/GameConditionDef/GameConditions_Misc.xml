@@ -63,22 +63,22 @@
   <!-- EN: psychic drone -->
   <PsychicDrone.label>干擾電波</PsychicDrone.label>
   <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, driving people towards insanity. -->
-  <PsychicDrone.description>遙遠的宇宙外建築，正朝這個星球發射強大的干擾電波，讓居民失去理智。</PsychicDrone.description>
+  <PsychicDrone.description>遙遠方的建築物正在發射心靈電波，讓人們失去理智。</PsychicDrone.description>
   <!-- EN: a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender towards insanity -->
-  <PsychicDrone.descriptionFuture>一陣[psychicDroneLevel]的持續心靈訊號將會在[gameConditionDuration_duration]內不斷在[map_definite]迴響，所有的[psychicDroneGender]殖民者將會因此變得瘋狂。</PsychicDrone.descriptionFuture>
+  <PsychicDrone.descriptionFuture>[psychicDroneLevel]的干擾電波將會在[gameConditionDuration_duration]內不斷在[map_definite]迴響，使[psychicDroneGender]的人們陷入瘋狂。</PsychicDrone.descriptionFuture>
   <!-- EN: The psychic drone is ending. -->
   <PsychicDrone.endMessage>這場干擾電波已經結束。</PsychicDrone.endMessage>
   <!-- EN: Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of hatred is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
-  <PsychicDrone.letterText>每位{0}都會感到焦慮、憤怒！\n\n在遠方有個邪惡機器正在運作。它正透過一台軌道訊號放大器投射能讓人發瘋的心靈訊號，它只會影響{0}。幾天內，有些人的心情會變得比較糟。\n\n目前的干擾電波等級為{1}。</PsychicDrone.letterText>
+  <PsychicDrone.letterText>每位{0}的人們都會感到焦慮、憤怒！\n\n在遙遠方有個邪惡機器正在運作。它發射的干擾電波籠罩了整個區域，它只會影響{0}。幾天內，有些人的心情會變得非常糟。\n\n干擾電波的等級為{1}。</PsychicDrone.letterText>
   
   <!-- EN: psychic soothe -->
   <PsychicSoothe.label>撫慰電波</PsychicSoothe.label>
   <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, calming people and stabilizing their minds. -->
-  <PsychicSoothe.description>遙遠的宇宙外建築，正朝這個星球發射強大的強大的撫慰電波，安撫了居民，穩定他們的心靈。。</PsychicSoothe.description>
+  <PsychicSoothe.description>遙遠方的建築物正在發射心靈電波，安撫了人們，穩定他們的心靈。。</PsychicSoothe.description>
   <!-- EN: The psychic soothe is ending. -->
   <PsychicSoothe.endMessage>這場撫慰電波已經結束。</PsychicSoothe.endMessage>
   <!-- EN: Every {0} colonist smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit better. -->
-  <PsychicSoothe.letterText>每位{0}都會不禁微笑！\n\n在遠方有個幸福機器正在運作。它正透過一台軌道訊號放大器投射能讓人平靜的心靈訊號，它只會影響{0}。幾天內，有些人的心情會變得更好。</PsychicSoothe.letterText>
+  <PsychicSoothe.letterText>每位{0}的人們都會不禁微笑！\n\n在遙遠方有個快樂機器正在運作。它發射的撫慰電波籠罩了整個區域，它只會影響{0}。幾天內，有些人的心情會變得非常好。</PsychicSoothe.letterText>
   
   <!-- EN: solar flare -->
   <SolarFlare.label>太陽閃焰</SolarFlare.label>
@@ -87,7 +87,7 @@
   <!-- EN: The solar flare is ending. -->
   <SolarFlare.endMessage>這場太陽閃焰已經結束。</SolarFlare.endMessage>
   <!-- EN: A solar flare has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nIt should pass in about a day. -->
-  <SolarFlare.letterText>一場太陽閃焰已經開始。\n\n強烈的輻射導致電子設備無法運作。\n\n太陽閃焰會持續一天。</SolarFlare.letterText>
+  <SolarFlare.letterText>一場太陽閃焰已經開始。\n\n強烈的輻射導致電子設備無法運作。\n\n太陽閃焰會持續大約一天。</SolarFlare.letterText>
   
   <!-- EN: toxic fallout -->
   <ToxicFallout.label>輻射塵</ToxicFallout.label>
@@ -98,7 +98,7 @@
   <!-- EN: The worst of the toxic fallout has settled. -->
   <ToxicFallout.endMessage>幾乎所有輻射塵都沉澱下來了。</ToxicFallout.endMessage>
   <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a quadrum. -->
-  <ToxicFallout.letterText>在遠方，化學火災釋出的有毒物質籠罩了整個區域。\n\n任何沒有在屋頂下的人、動物都會被輻射塵慢慢侵蝕。\n\n輻射塵將會持續幾天或數季。</ToxicFallout.letterText>
+  <ToxicFallout.letterText>在遙遠方，化學火災釋出的有毒物質籠罩了整個區域。\n\n任何沒有在屋頂下的人、動物都會被輻射塵慢慢侵蝕。\n\n輻射塵將會持續幾天或數季。</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>火山冬天</VolcanicWinter.label>
