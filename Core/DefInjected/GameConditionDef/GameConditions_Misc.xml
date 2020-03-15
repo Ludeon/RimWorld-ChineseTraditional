@@ -4,16 +4,16 @@
   <!-- EN: aurora -->
   <Aurora.label>極光</Aurora.label>
   <!-- EN: An aurora is lighting up the sky. The breathtaking display will boost the mood of anyone outside to see it. -->
-  <Aurora.description>一道南極光點亮了夜空。在戶外的居民看見這絢麗光彩將會提昇心情。</Aurora.description>
+  <Aurora.description>一道極光點亮了夜空。在戶外的人看見這絢麗光彩將會提昇心情。</Aurora.description>
   <!-- EN: The aurora is ending. -->
   <Aurora.endMessage>極光已經結束。</Aurora.endMessage>
   <!-- EN: A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter. -->
-  <Aurora.letterText>一道美麗的極光點亮了天空。在戶外的居民看見這絢麗光彩將會提昇心情，並使夜晚明亮起來。</Aurora.letterText>
+  <Aurora.letterText>一道美麗的極光點亮了夜空。\n\n在戶外的人看見這絢麗光彩將會提昇心情，並使夜晚明亮起來。</Aurora.letterText>
   
   <!-- EN: climate cycle -->
   <ClimateCycle.label>氣候週期</ClimateCycle.label>
   <!-- EN: A multi-year climate cycle due to an elliptical orbit. -->
-  <ClimateCycle.description>由於星球繞行太陽的軌道呈現橢圓，這裡的季節週期長達數年。</ClimateCycle.description>
+  <ClimateCycle.description>由於星球的軌道呈現橢圓形，這裡的季節週期將長達數年。</ClimateCycle.description>
   
   <!-- EN: cold snap -->
   <ColdSnap.label>寒流</ColdSnap.label>
@@ -24,7 +24,7 @@
   <!-- EN: The cold snap is over. -->
   <ColdSnap.endMessage>這場寒流已經結束。</ColdSnap.endMessage>
   <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
-  <ColdSnap.letterText>一波不尋常的寒流來襲。\n\n寒流引發的低溫症會很快殺死生物。請確保有一個溫暖的地方，穿保暖的服裝，儘可能在農作物凍死之前搶收。</ColdSnap.letterText>
+  <ColdSnap.letterText>一波不尋常的寒流正撲面而來。\n\n寒流引發的低溫症會很快殺死生物。請確保有一個溫暖的地方，穿保暖的服裝，儘可能在農作物凍死之前搶收。</ColdSnap.letterText>
   
   <!-- EN: eclipse -->
   <Eclipse.label>日蝕</Eclipse.label>
@@ -38,11 +38,11 @@
   <!-- EN: flashstorm -->
   <Flashstorm.label>雷暴</Flashstorm.label>
   <!-- EN: A freak localized storm is blasting a small area with repeated lightning strikes. -->
-  <Flashstorm.description>一場閃電風暴正在這附近肆虐。</Flashstorm.description>
+  <Flashstorm.description>一場不尋常的閃電風暴正在這附近肆虐。</Flashstorm.description>
   <!-- EN: The flashstorm is over. -->
   <Flashstorm.endMessage>這場雷暴已經結束。</Flashstorm.endMessage>
   <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
-  <Flashstorm.letterText>一場不尋常的閃電風暴正在轟擊一小塊區域。這將會造成大規模的火災。</Flashstorm.letterText>
+  <Flashstorm.letterText>一場不尋常的閃電風暴正在這附近肆虐。這將會造成大規模的火災。</Flashstorm.letterText>
   
   <!-- EN: heat wave -->
   <HeatWave.label>熱浪</HeatWave.label>
@@ -53,7 +53,7 @@
   <!-- EN: The heat wave is over. -->
   <HeatWave.endMessage>這場熱浪已經結束。</HeatWave.endMessage>
   <!-- EN: An unusual heat wave has begun.\n\nHeat waves can induce deadly heatstroke. Stay cool by building either a passive or electric cooler, or by getting deep underground where the rocks are naturally cool. -->
-  <HeatWave.letterText>不尋常的熱浪已經開始。\n\n熱浪會引起致命的中暑。建造簡易冷卻器或冷氣保持涼爽，或者洞穴深處的岩石下避暑。</HeatWave.letterText>
+  <HeatWave.letterText>不尋常的熱浪已經開始。\n\n熱浪會引起致命的中暑。建造簡易冷卻器或冷氣保持涼爽，或到洞穴深處的岩石下避暑。</HeatWave.letterText>
   
   <!-- EN: planetkiller -->
   <Planetkiller.label>行星殺手</Planetkiller.label>
@@ -92,13 +92,13 @@
   <!-- EN: toxic fallout -->
   <ToxicFallout.label>輻射塵</ToxicFallout.label>
   <!-- EN: A plume of toxic dust from some distant source is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
-  <ToxicFallout.description>在不遠處，輻射塵漸漸地籠罩了整個區域。任何沒有待在屋頂下的生物、物品都會受到毒素慢慢侵蝕。</ToxicFallout.description>
+  <ToxicFallout.description>在不遠處，輻射塵漸漸地籠罩了整個區域。任何沒有待在屋頂下的生物都會被毒素慢慢侵蝕，在室外的物品也會慢慢腐蝕。</ToxicFallout.description>
   <!-- EN: a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life -->
-  <ToxicFallout.descriptionFuture>輻射塵將在[gameConditionDuration_duration]內籠罩著[map_definite]，殺死在戶外的動物、植物。</ToxicFallout.descriptionFuture>
+  <ToxicFallout.descriptionFuture>輻射塵將在[gameConditionDuration_duration]內籠罩著[map_definite]，殺死在室外的動物、植物。</ToxicFallout.descriptionFuture>
   <!-- EN: The worst of the toxic fallout has settled. -->
   <ToxicFallout.endMessage>幾乎所有輻射塵都沉澱下來了。</ToxicFallout.endMessage>
   <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a quadrum. -->
-  <ToxicFallout.letterText>在遙遠方，化學火災釋出的有毒物質籠罩了整個區域。\n\n任何沒有在屋頂下的人、動物都會被輻射塵慢慢侵蝕。\n\n輻射塵將會持續幾天或數季。</ToxicFallout.letterText>
+  <ToxicFallout.letterText>在遙遠方，化學火災釋出的有毒物質籠罩了整個區域。\n\n任何沒有在屋頂下的人或生物都會被大氣層中的輻射塵慢慢侵蝕。\n\n輻射塵將會持續幾天或數季。</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>火山冬天</VolcanicWinter.label>
@@ -109,6 +109,6 @@
   <!-- EN: Most of the ash has settled. -->
   <VolcanicWinter.endMessage>幾乎所有火山灰都沉澱下來了。</VolcanicWinter.endMessage>
   <!-- EN: Some distant volcano or fire has begun spewing massive quantities of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
-  <VolcanicWinter.letterText>不遠處的火山爆噴出大量的火山灰進入大氣層。\n\n大氣層中的火山灰遮住了陽光。氣溫會下降，植物也會缺乏陽光。火山冬天會持續幾週，或持續數季。</VolcanicWinter.letterText>
+  <VolcanicWinter.letterText>不遠處的火山爆噴出大量的火山灰進入大氣層。\n\n大氣層中的火山灰遮住了陽光。氣溫會下降，植物也會缺乏陽光。火山冬天會持續幾週或數季。</VolcanicWinter.letterText>
   
 </LanguageData>
