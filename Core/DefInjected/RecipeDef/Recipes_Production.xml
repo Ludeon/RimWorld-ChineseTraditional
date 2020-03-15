@@ -4,7 +4,7 @@
   <!-- EN: destroy apparel -->
   <DestroyApparel.label>銷毀衣物</DestroyApparel.label>
   <!-- EN: Use heat to destroy unwanted apparels. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
-  <DestroyApparel.description>利用高溫將不需要的服裝銷毀。速度比提煉還快，可以銷毀無法提煉的服裝，但無法獲得任何資源。</DestroyApparel.description>
+  <DestroyApparel.description>利用高溫將不需要的衣物銷毀。速度比提煉還快，可以銷毀無法提煉的服裝，但無法獲得任何資源。</DestroyApparel.description>
   <!-- EN: Destroying apparel. -->
   <DestroyApparel.jobString>銷毀衣物</DestroyApparel.jobString>
   
@@ -23,32 +23,32 @@
   <ExtractMetalFromSlag.jobString>提煉金屬碎片。</ExtractMetalFromSlag.jobString>
   
   <!-- EN: make chemfuel from organics -->
-  <Make_ChemfuelFromOrganics.label>以有機物提煉燃料</Make_ChemfuelFromOrganics.label>
+  <Make_ChemfuelFromOrganics.label>以有機物提煉化合燃料</Make_ChemfuelFromOrganics.label>
   <!-- EN: Make a batch of chemfuel by extracting biofuel from organic feedstocks. -->
-  <Make_ChemfuelFromOrganics.description>以有機物生產生質燃料再提煉出化合燃料。</Make_ChemfuelFromOrganics.description>
+  <Make_ChemfuelFromOrganics.description>以有機物萃取生質燃料再提煉出化合燃料。</Make_ChemfuelFromOrganics.description>
   <!-- EN: Refining chemfuel from organics. -->
   <Make_ChemfuelFromOrganics.jobString>製作化合燃料</Make_ChemfuelFromOrganics.jobString>
   
   <!-- EN: make chemfuel from wood -->
   <Make_ChemfuelFromWood.label>以木頭提煉化合燃料</Make_ChemfuelFromWood.label>
   <!-- EN: Make a batch of chemfuel by extracting and condensing wood gas from logs. -->
-  <Make_ChemfuelFromWood.description>萃取和冷凝木頭原料以提煉出化合燃料。</Make_ChemfuelFromWood.description>
+  <Make_ChemfuelFromWood.description>萃取、氣體壓縮原木以提煉出化合燃料。</Make_ChemfuelFromWood.description>
   <!-- EN: Refining chemfuel from wood. -->
   <Make_ChemfuelFromWood.jobString>製作化合燃料</Make_ChemfuelFromWood.jobString>
   
   <!-- EN: make component -->
-  <Make_ComponentIndustrial.label>製作電子零件</Make_ComponentIndustrial.label>
+  <Make_ComponentIndustrial.label>製作零件</Make_ComponentIndustrial.label>
   <!-- EN: Make a component. -->
-  <Make_ComponentIndustrial.description>製作電子零件。</Make_ComponentIndustrial.description>
+  <Make_ComponentIndustrial.description>製作零件。</Make_ComponentIndustrial.description>
   <!-- EN: Making component. -->
-  <Make_ComponentIndustrial.jobString>製作電子零件。</Make_ComponentIndustrial.jobString>
+  <Make_ComponentIndustrial.jobString>製作零件。</Make_ComponentIndustrial.jobString>
   
   <!-- EN: make advanced component -->
-  <Make_ComponentSpacer.label>製作高級電子零件</Make_ComponentSpacer.label>
+  <Make_ComponentSpacer.label>製作高級零件</Make_ComponentSpacer.label>
   <!-- EN: Make an advanced component. -->
-  <Make_ComponentSpacer.description>製作高級電子零件。</Make_ComponentSpacer.description>
+  <Make_ComponentSpacer.description>製作高級零件。</Make_ComponentSpacer.description>
   <!-- EN: Making advanced component. -->
-  <Make_ComponentSpacer.jobString>製作高級電子零件。</Make_ComponentSpacer.jobString>
+  <Make_ComponentSpacer.jobString>製作高級零件。</Make_ComponentSpacer.jobString>
   
   <!-- EN: make patchleather -->
   <Make_Patchleather.label>製作組合皮革</Make_Patchleather.label>
@@ -65,17 +65,17 @@
   <Make_StoneBlocksAny.jobString>進行石材加工。</Make_StoneBlocksAny.jobString>
   
   <!-- EN: smelt apparel -->
-  <SmeltApparel.label>熔煉衣物</SmeltApparel.label>
+  <SmeltApparel.label>提煉衣物</SmeltApparel.label>
   <!-- EN: Use heat and strong electromagnets to break down metallic apparel like armor into useful resources. -->
   <SmeltApparel.description>利用高溫、電磁鐵將服裝提煉出有用的資源。</SmeltApparel.description>
   <!-- EN: Smelting apparel. -->
-  <SmeltApparel.jobString>熔煉衣物</SmeltApparel.jobString>
+  <SmeltApparel.jobString>提煉衣物</SmeltApparel.jobString>
   
   <!-- EN: smelt weapon -->
-  <SmeltWeapon.label>熔煉武器</SmeltWeapon.label>
+  <SmeltWeapon.label>提煉武器</SmeltWeapon.label>
   <!-- EN: Use heat and strong electromagnets to break down weapons into useful resources. -->
   <SmeltWeapon.description>利用高溫、電磁鐵將武器提煉出有用的資源。</SmeltWeapon.description>
   <!-- EN: Smelting weapon. -->
-  <SmeltWeapon.jobString>熔煉武器。</SmeltWeapon.jobString>
+  <SmeltWeapon.jobString>提煉武器。</SmeltWeapon.jobString>
   
 </LanguageData>
