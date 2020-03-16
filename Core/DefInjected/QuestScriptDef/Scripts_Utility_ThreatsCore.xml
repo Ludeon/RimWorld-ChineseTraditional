@@ -5,7 +5,7 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->這兒有一台可以將氣溫改變[temperatureOffset]度的氣候調節器</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->這兒有一台對[affectedGender]性起效的心靈放射器</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->這兒有一台對[affectedGender]性起效的心靈干擾器</li>
       <li>root(priority=1,sitePart==PsychicSuppressor)->這兒有一台對[affectedGender]性起效的心靈抑制器</li>
       <li>root(priority=1,sitePart==WeatherController)->這兒有一台會將整個區域的天氣改變為[weather_label]的天氣控制器</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->這個地區有一台不斷噴射煙霧的機器</li>
@@ -32,7 +32,7 @@
     <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
   -->
   <Util_MechCluster.questDescriptionRules.rulesStrings>
-    <li>threatDescription->一群機械族將會在[map_definite]降落，其中包含：\n\n[allThreats]</li>
+    <li>threatDescription->一群機械軍團將會在[map_definite]降落，其中包含：\n\n[allThreats]</li>
   </Util_MechCluster.questDescriptionRules.rulesStrings>
   
   <!-- EN:
