@@ -27,16 +27,16 @@
   <MedicalTendQualityOffset.description>進行醫療時的效果補償。</MedicalTendQualityOffset.description>
   
   <!-- EN: research speed factor -->
-  <ResearchSpeedFactor.label>研究速度倍率</ResearchSpeedFactor.label>
+  <ResearchSpeedFactor.label>研究速度</ResearchSpeedFactor.label>
   <!-- EN: The speed at which people do research is multiplied by this value. -->
-  <ResearchSpeedFactor.description>進行研究工作時的速度加成。</ResearchSpeedFactor.description>
+  <ResearchSpeedFactor.description>進行研究工作時的速度。</ResearchSpeedFactor.description>
   <!-- EN: Room cleanliness -->
   <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>研究速率</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: surgery success chance factor -->
-  <SurgerySuccessChanceFactor.label>手術成功率倍率</SurgerySuccessChanceFactor.label>
+  <SurgerySuccessChanceFactor.label>手術成功率</SurgerySuccessChanceFactor.label>
   <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
-  <SurgerySuccessChanceFactor.description>在這裡進行手術時的成功率倍率。\n\n手術成功率受許多因素影響，包括醫療能力、藥品。</SurgerySuccessChanceFactor.description>
+  <SurgerySuccessChanceFactor.description>在這裡進行手術時的成功率。\n\n手術成功率受許多因素影響，包括醫療能力、藥品。</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
   <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>房間清潔度</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   
@@ -51,14 +51,14 @@
   <TrapSpringChance.description>當生物通過陷阱時，陷阱被觸發的機率。</TrapSpringChance.description>
   
   <!-- EN: work efficiency factor -->
-  <WorkTableEfficiencyFactor.label>工作效果倍率</WorkTableEfficiencyFactor.label>
+  <WorkTableEfficiencyFactor.label>工作效率</WorkTableEfficiencyFactor.label>
   <!-- EN: Work efficiency is multiplied by this value. -->
-  <WorkTableEfficiencyFactor.description>進行工作時的效果加成。</WorkTableEfficiencyFactor.description>
+  <WorkTableEfficiencyFactor.description>進行工作時的效率。</WorkTableEfficiencyFactor.description>
   
   <!-- EN: work speed factor -->
-  <WorkTableWorkSpeedFactor.label>工作速度倍率</WorkTableWorkSpeedFactor.label>
+  <WorkTableWorkSpeedFactor.label>工作速度</WorkTableWorkSpeedFactor.label>
   <!-- EN: Work speed is multiplied by this value. -->
-  <WorkTableWorkSpeedFactor.description>進行工作時的速度加成。</WorkTableWorkSpeedFactor.description>
+  <WorkTableWorkSpeedFactor.description>進行工作時的速度。</WorkTableWorkSpeedFactor.description>
   
   <!-- EN: work to build -->
   <WorkToBuild.label>建造工作量</WorkToBuild.label>
