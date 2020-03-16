@@ -12,9 +12,9 @@
   <AllowedAreas.helpText>活動區規範了居民和寵物的活動範圍，他們不會在活動區以外進行工作。\n\n你可以在選單的「區域」中新增、刪除及規劃活動區。\n\n在「管制」與「動物」中可以自訂各居民及動物的活動區。</AllowedAreas.helpText>
   
   <!-- EN: Animal taming -->
-  <AnimalTaming.label>馴養動物</AnimalTaming.label>
+  <AnimalTaming.label>馴服動物</AnimalTaming.label>
   <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
-  <AnimalTaming.helpText>你可以派遣居民前去馴養野生動物。\n\n馴養員會提供食物給動物，藉此馴服他們。\n\n注意：有些動物在馴服失敗時會轉為凶暴，反咬居民一口。</AnimalTaming.helpText>
+  <AnimalTaming.helpText>你可以派遣居民前去馴服野生動物。\n\n馴養員會提供食物給動物，藉此馴服他們。\n\n注意：有些動物在馴服失敗時會轉為凶暴，反咬居民一口。</AnimalTaming.helpText>
   
   <!-- EN: Animal training -->
   <AnimalTraining.label>訓練動物</AnimalTraining.label>
@@ -37,7 +37,7 @@
   <ClickingMessages.helpText>你可以點擊出現在畫面左上方的通知訊息來快速移動畫面至事件發生地。</ClickingMessages.helpText>
   
   <!-- EN: Cover and shooting -->
-  <CoverAndShooting.label>開火及掩護</CoverAndShooting.label>
+  <CoverAndShooting.label>射擊及掩護</CoverAndShooting.label>
   <!-- EN: The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree. -->
   <CoverAndShooting.helpText>遠距離交火中，掩體是生死關鍵。\n\n掩體必須位在火網之中且緊鄰居民時才有效。\n\n牆角也能作為掩體。\n\n大多物物體都能當作掩體，但效果不一，有棵樹總比什麼都沒有好，但效果遠不及沙包。</CoverAndShooting.helpText>
   
@@ -97,7 +97,7 @@
   <HomeArea.helpText>生活區域規範了你的居民進行清潔和滅火工作的範圍。\n\n用建設選單來劃設一片生活區。</HomeArea.helpText>
   
   <!-- EN: Hostility response modes -->
-  <HostilityResponse.label>遇敵反應</HostilityResponse.label>
+  <HostilityResponse.label>敵意反應</HostilityResponse.label>
   <!-- EN: You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu. -->
   <HostilityResponse.helpText>你可以自訂居民在遭遇危險(如掠食動物)時該如何反應\n\n開啟登錄面板，在「逃跑」、「戰鬥」以及「無視」之中選擇一項。</HostilityResponse.helpText>
   
@@ -137,14 +137,14 @@
   <Pause.helpText>按下{Key:TogglePause}可以暫停或繼續遊戲。\n\n你可以在暫停期間下達命令。\n\n記住，當事情變得麻煩的時候，按下{Key:TogglePause}就對了！</Pause.helpText>
   
   <!-- EN: Shot accuracy tooltip -->
-  <ShotAccuracyTooltip.label>射擊精度</ShotAccuracyTooltip.label>
+  <ShotAccuracyTooltip.label>射擊準度</ShotAccuracyTooltip.label>
   <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
   <ShotAccuracyTooltip.helpText>你可以查看角色開火的命中率。\n\n選擇一名射手，接著移動滑鼠游標至目標位置，命中率及細節便會顯示出來。</ShotAccuracyTooltip.helpText>
   
   <!-- EN: Spoilage and freezers -->
-  <SpoilageAndFreezers.label>腐敗及冷凍</SpoilageAndFreezers.label>
+  <SpoilageAndFreezers.label>腐爛及冷凍</SpoilageAndFreezers.label>
   <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
-  <SpoilageAndFreezers.helpText>大多數食物在短時間內會腐敗，這就是你需要一個冷凍庫(冰箱)的原因。\n\n要建立一個冷凍庫，首先要準備一個密閉非露天的房間，在牆上設置一台或多台冷氣，並將目標溫度調至零下。\n\n冷凍狀態的食物永遠不會腐敗。</SpoilageAndFreezers.helpText>
+  <SpoilageAndFreezers.helpText>大多數食物在短時間內會腐爛，這就是你需要一個冷凍庫的原因。\n\n要建立一個冷凍庫，首先要準備一個密閉非露天的房間，在牆上設置一台或多台空調，並將目標溫度調至零下。\n\n冷凍狀態的食物永遠不會腐爛。</SpoilageAndFreezers.helpText>
   
   <!-- EN: Stockpiles -->
   <Stockpiles.label>劃設儲存區</Stockpiles.label>
