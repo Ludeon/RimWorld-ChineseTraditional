@@ -4,11 +4,11 @@
   <!-- EN: aurora -->
   <Aurora.label>極光</Aurora.label>
   <!-- EN: An aurora is lighting up the sky. The breathtaking display will boost the mood of anyone outside to see it. -->
-  <Aurora.description>一道極光點亮了夜空。在戶外的人看見這絢麗光彩將會提昇心情。</Aurora.description>
+  <Aurora.description>一道極光點亮了夜空。在室外的人看見這絢麗光彩將會提昇心情。</Aurora.description>
   <!-- EN: The aurora is ending. -->
   <Aurora.endMessage>極光已經結束。</Aurora.endMessage>
   <!-- EN: A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter. -->
-  <Aurora.letterText>一道美麗的極光點亮了夜空。\n\n在戶外的人看見這絢麗光彩將會提昇心情，並使夜晚明亮起來。</Aurora.letterText>
+  <Aurora.letterText>一道美麗的極光點亮了夜空。\n\n在室外的人看見這絢麗光彩將會提昇心情，並使夜晚明亮起來。</Aurora.letterText>
   
   <!-- EN: climate cycle -->
   <ClimateCycle.label>氣候週期</ClimateCycle.label>
@@ -24,7 +24,7 @@
   <!-- EN: The cold snap is over. -->
   <ColdSnap.endMessage>這場寒流已經結束。</ColdSnap.endMessage>
   <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
-  <ColdSnap.letterText>一波不尋常的寒流正撲面而來。\n\n寒流引發的低溫症會很快殺死生物。請確保有一個溫暖的地方，穿保暖的服裝，儘可能在農作物凍死之前搶收。</ColdSnap.letterText>
+  <ColdSnap.letterText>一波不尋常的寒流正撲面而來。\n\n寒流引發的低溫症會很快殺死生物。請確保有一個溫暖的地方，穿溫暖的服裝，儘可能在農作物凍死之前搶收。</ColdSnap.letterText>
   
   <!-- EN: eclipse -->
   <Eclipse.label>日蝕</Eclipse.label>
@@ -61,24 +61,24 @@
   <Planetkiller.description>一個行星毀滅兵器正朝著這顆星球襲來。它將會以石擊卵般地擊碎整顆星球，摧毀所有生命。</Planetkiller.description>
   
   <!-- EN: psychic drone -->
-  <PsychicDrone.label>干擾電波</PsychicDrone.label>
+  <PsychicDrone.label>心靈干擾</PsychicDrone.label>
   <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, driving people towards insanity. -->
   <PsychicDrone.description>遙遠方的建築物正在發射心靈電波，讓人們失去理智。</PsychicDrone.description>
   <!-- EN: a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender towards insanity -->
   <PsychicDrone.descriptionFuture>[psychicDroneLevel]的干擾電波將會在[gameConditionDuration_duration]內不斷在[map_definite]迴響，使[psychicDroneGender]的人們陷入瘋狂。</PsychicDrone.descriptionFuture>
   <!-- EN: The psychic drone is ending. -->
-  <PsychicDrone.endMessage>這場干擾電波已經結束。</PsychicDrone.endMessage>
+  <PsychicDrone.endMessage>這場心靈干擾已經結束。</PsychicDrone.endMessage>
   <!-- EN: Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of hatred is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
-  <PsychicDrone.letterText>每位{0}的人們都會感到焦慮、憤怒！\n\n在遙遠方有個邪惡機器正在運作。它發射的干擾電波籠罩了整個區域，它只會影響{0}。幾天內，有些人的心情會變得非常糟。\n\n干擾電波的等級為{1}。</PsychicDrone.letterText>
+  <PsychicDrone.letterText>每位{0}的人們都會感到焦慮、憤怒！\n\n在遙遠方有個邪惡機器正在運作。它發射的心靈干擾籠罩了整個區域，它只會影響{0}。幾天內，有些人的心情會變得非常糟。\n\n干擾的等級為{1}。</PsychicDrone.letterText>
   
   <!-- EN: psychic soothe -->
-  <PsychicSoothe.label>撫慰電波</PsychicSoothe.label>
+  <PsychicSoothe.label>心靈安撫</PsychicSoothe.label>
   <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, calming people and stabilizing their minds. -->
-  <PsychicSoothe.description>遙遠方的建築物正在發射心靈電波，安撫了人們，穩定他們的心靈。。</PsychicSoothe.description>
+  <PsychicSoothe.description>遙遠方的建築物正在發射心靈電波，安撫了人們，穩定他們的心靈。</PsychicSoothe.description>
   <!-- EN: The psychic soothe is ending. -->
-  <PsychicSoothe.endMessage>這場撫慰電波已經結束。</PsychicSoothe.endMessage>
+  <PsychicSoothe.endMessage>這場心靈安撫已經結束。</PsychicSoothe.endMessage>
   <!-- EN: Every {0} colonist smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit better. -->
-  <PsychicSoothe.letterText>每位{0}的人們都會不禁微笑！\n\n在遙遠方有個快樂機器正在運作。它發射的撫慰電波籠罩了整個區域，它只會影響{0}。幾天內，有些人的心情會變得非常好。</PsychicSoothe.letterText>
+  <PsychicSoothe.letterText>每位{0}的人們都會不禁微笑！\n\n在遙遠方有個快樂機器正在運作。它發射的心靈安撫籠罩了整個區域，它只會影響{0}。幾天內，有些人的心情會變得非常好。</PsychicSoothe.letterText>
   
   <!-- EN: solar flare -->
   <SolarFlare.label>太陽閃焰</SolarFlare.label>
@@ -90,15 +90,15 @@
   <SolarFlare.letterText>一場太陽閃焰已經開始。\n\n強烈的輻射導致電子設備無法運作。\n\n太陽閃焰會持續大約一天。</SolarFlare.letterText>
   
   <!-- EN: toxic fallout -->
-  <ToxicFallout.label>輻射塵</ToxicFallout.label>
+  <ToxicFallout.label>毒霧霾</ToxicFallout.label>
   <!-- EN: A plume of toxic dust from some distant source is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
-  <ToxicFallout.description>在不遠處，輻射塵漸漸地籠罩了整個區域。任何沒有待在屋頂下的生物都會被毒素慢慢侵蝕，在室外的物品也會慢慢腐蝕。</ToxicFallout.description>
+  <ToxicFallout.description>在不遠處，毒霧霾漸漸地籠罩了整個區域。任何沒有待在屋頂下的生物都會被毒素慢慢侵蝕，在室外的物品也會慢慢腐蝕。</ToxicFallout.description>
   <!-- EN: a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life -->
-  <ToxicFallout.descriptionFuture>輻射塵將在[gameConditionDuration_duration]內籠罩著[map_definite]，殺死在室外的動物、植物。</ToxicFallout.descriptionFuture>
+  <ToxicFallout.descriptionFuture>毒霧霾將在[gameConditionDuration_duration]內籠罩著[map_definite]，殺死在室外的動物、植物。</ToxicFallout.descriptionFuture>
   <!-- EN: The worst of the toxic fallout has settled. -->
-  <ToxicFallout.endMessage>幾乎所有輻射塵都沉澱下來了。</ToxicFallout.endMessage>
+  <ToxicFallout.endMessage>幾乎所有毒霧霾都沉澱下來了。</ToxicFallout.endMessage>
   <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a quadrum. -->
-  <ToxicFallout.letterText>在遙遠方，化學火災釋出的有毒物質籠罩了整個區域。\n\n任何沒有在屋頂下的人或生物都會被大氣層中的輻射塵慢慢侵蝕。\n\n輻射塵將會持續幾天或數季。</ToxicFallout.letterText>
+  <ToxicFallout.letterText>在遙遠方，化學火災釋出的有毒物質籠罩了整個區域。\n\n任何沒有在屋頂下的人或生物都會被大氣層中的毒霧霾慢慢侵蝕。\n\n毒霧霾將會持續幾天或數季。</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>火山冬天</VolcanicWinter.label>
