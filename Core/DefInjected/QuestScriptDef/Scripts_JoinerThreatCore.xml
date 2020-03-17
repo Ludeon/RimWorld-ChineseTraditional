@@ -5,7 +5,7 @@
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off the [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->附近一位名叫[joiner_nameDef]的[joiner_age]歲[joiner_title]發來求救訊號。[joiner_pronoun]說自己正被來自[enemyFaction_name]的[enemyFaction_pawnsPlural]追捕！\n\n[joiner_pronoun]祈求得到保護並想加入位於[map_definite]的殖民地。[joiner_relationInfo]\n\n警告：如果你接受請求，你將要對抗追捕[joiner_possessive]的[enemyFaction_pawnsPlural]。[enemyFaction_pawnsPlural]的隊伍構成：\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef]過於緊張，已經開始語無倫次，你已經無法獲知更多訊息。</li>
+    <li>questDescription->附近一位名叫[joiner_nameDef]，[joiner_age]歲的[joiner_title]發出訊息。[joiner_pronoun]正被來自[enemyFaction_name]的[enemyFaction_pawnsPlural]追捕！\n\n[joiner_pronoun]請求保護並會加入[map_definite]。[joiner_relationInfo]\n\n如果你接受請求，你就必須要對抗追捕[joiner_possessive]的[enemyFaction_pawnsPlural]。[enemyFaction_pawnsPlural]的隊伍構成：\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef]過於緊張，已經無法獲得更多訊息。</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -38,6 +38,6 @@
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL}追捕[../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\n[enemyFaction_pawnsPlural]為了捕捉[../joiner_nameDef]。</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\n[enemyFaction_pawnsPlural]前來追捕[../joiner_nameDef]。</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
   
 </LanguageData>
