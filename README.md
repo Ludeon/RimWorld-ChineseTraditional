@@ -78,6 +78,8 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 # 中文化人員：
 
-Wilseanhsu 個人中文化。 2018/10/3  
+Wilseanhsu 個人中文化。 2018/10/3
 win50117 中文化。 2020/3/2  
 ranke96 中文化。 2020/3/2
+Jerifo 中文化 2020/3/16
+gast 中文化 2020/3/16
