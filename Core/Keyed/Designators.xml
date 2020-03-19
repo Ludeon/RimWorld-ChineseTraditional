@@ -7,9 +7,9 @@
   <DesignatorCancelDesc>取消指定的建造、採礦、搬運、收穫和其他所有的指令。</DesignatorCancelDesc>
 
   <!-- EN: Cut plants -->
-  <DesignatorCutPlants>清除植物</DesignatorCutPlants>
+  <DesignatorCutPlants>裁剪植物</DesignatorCutPlants>
   <!-- EN: Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested. -->
-  <DesignatorCutPlantsDesc>標記需要清除的植物。被選擇的植物將完全被清除，植物上的資源會自動收穫。</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>標記需要裁剪、清除的植物。植物將完全被清除，並收獲到食物或資源。</DesignatorCutPlantsDesc>
 
   <!-- EN: Deconstruct -->
   <DesignatorDeconstruct>拆除</DesignatorDeconstruct>
@@ -17,26 +17,26 @@
   <DesignatorDeconstructDesc>拆除建築並回收部分資源。</DesignatorDeconstructDesc>
 
   <!-- EN: Uninstall -->
-  <DesignatorUninstall>拆除</DesignatorUninstall>
+  <DesignatorUninstall>反安裝</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
-  <DesignatorUninstallDesc>拆除這個物件，使它可以被移動、交易或重新安裝在其他位置。</DesignatorUninstallDesc>
+  <DesignatorUninstallDesc>移除此物件以便移動、交易或重新安裝在其他地方。</DesignatorUninstallDesc>
 
   <!-- EN: Harvest -->
   <DesignatorHarvest>收穫</DesignatorHarvest>
   <!-- EN: Marks plants to be harvested for their food or other products. -->
-  <DesignatorHarvestDesc>標記需要收穫的植物來獲取食物或產品。</DesignatorHarvestDesc>
+  <DesignatorHarvestDesc>標記需要收穫的植物來獲取食物或其他產品。</DesignatorHarvestDesc>
 
   <!-- EN: Chop wood -->
   <DesignatorHarvestWood>伐木</DesignatorHarvestWood>
   <!-- EN: Marks trees to be chopped down for wood. -->
-  <DesignatorHarvestWoodDesc>標記要被砍掉的樹木以獲取木頭。</DesignatorHarvestWoodDesc>
+  <DesignatorHarvestWoodDesc>標記要砍伐的樹木。</DesignatorHarvestWoodDesc>
 
   <!-- EN: Haul things -->
   <DesignatorHaulThings>搬運</DesignatorHaulThings>
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
-  <DesignatorHaulThingsDesc>標記需要搬到儲存區的垃圾等物品。不需要對食物和屍體使用，此類項目會自動完成。</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>標記需要搬到儲存區的石塊或其他物品。食物或屍體不需要標記，它們會自動被搬運。</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
-  <MustHaulHaulables>只能標記可搬運但不會被自動搬運的物品(如石塊)。</MustHaulHaulables>
+  <MustHaulHaulables>只能標記可搬運的，不包含自動被搬運的物品(如石塊)。</MustHaulHaulables>
 
   <!-- EN: Hunt -->
   <DesignatorHunt>狩獵</DesignatorHunt>
@@ -46,7 +46,7 @@
   <!-- EN: Mine -->
   <DesignatorMine>開採</DesignatorMine>
   <!-- EN: Designate areas of rock to be mined out. -->
-  <DesignatorMineDesc>標記要開採的岩石。</DesignatorMineDesc>
+  <DesignatorMineDesc>標記要開採的岩石區域。</DesignatorMineDesc>
 
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>拋光</DesignatorSmoothSurface>
@@ -56,82 +56,82 @@
   <!-- EN: Plan -->
   <DesignatorPlan>計劃</DesignatorPlan>
   <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>設置計劃中的指令。除了協助你規劃擴張之外沒有別的功能。</DesignatorPlanDesc>
+  <DesignatorPlanDesc>設置計劃中的標記。除了協助你未來的擴展，沒有別的功能。</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>移除計劃</DesignatorPlanRemove>
   <!-- EN: Remove planning designations. -->
-  <DesignatorPlanRemoveDesc>移除計劃中的指令。</DesignatorPlanRemoveDesc>
+  <DesignatorPlanRemoveDesc>移除計劃中的標記。</DesignatorPlanRemoveDesc>
 
   <!-- EN: Forbid -->
   <DesignatorForbid>禁用</DesignatorForbid>
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
-  <DesignatorForbidDesc>將物品標記為禁用。居民將不會接觸被標記的物品。</DesignatorForbidDesc>
+  <DesignatorForbidDesc>將物品標記為禁用。居民們不會與被標記的物品互動。</DesignatorForbidDesc>
 
   <!-- EN: Allow -->
   <DesignatorUnforbid>解除禁用</DesignatorUnforbid>
   <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
-  <DesignatorUnforbidDesc>將物品解除禁用。居民將可以接觸被標記的物品。</DesignatorUnforbidDesc>
+  <DesignatorUnforbidDesc>將物品解除禁用。居民們會與接觸被標記的物品互動。</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
-  <DesignatorAreaHomeExpand>劃設生活區</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpand>規劃生活區</DesignatorAreaHomeExpand>
   <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
-  <DesignatorAreaHomeExpandDesc>居民只會修理、清潔生活區內的物件以及撲滅生活區中的火。</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeExpandDesc>居民們只會在生活區修理建築、清潔地面、撲滅火勢。</DesignatorAreaHomeExpandDesc>
   <!-- EN: Clear home area -->
   <DesignatorAreaHomeClear>移除生活區</DesignatorAreaHomeClear>
   <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
-  <DesignatorAreaHomeClearDesc>移除生活區後，居民將不再打掃、修理或撲滅這些區域中的火。</DesignatorAreaHomeClearDesc>
+  <DesignatorAreaHomeClearDesc>移除生活區後，居民們將不再打掃、修理或撲滅火勢。</DesignatorAreaHomeClearDesc>
 
   <!-- EN: Build roof area -->
-  <DesignatorAreaBuildRoofExpand>劃設屋頂區</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpand>規劃屋頂區</DesignatorAreaBuildRoofExpand>
   <!-- EN: Colonists will build roofs in this area. -->
-  <DesignatorAreaBuildRoofExpandDesc>居民會在區域內搭建屋頂。</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofExpandDesc>居民們將會在這個區域內搭建屋頂。</DesignatorAreaBuildRoofExpandDesc>
 
   <!-- EN: Remove roof area -->
-  <DesignatorAreaNoRoofExpand>劃設露天區</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpand>移除屋頂區</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
-  <DesignatorAreaNoRoofExpandDesc>居民會拆除這個區域内的屋頂(除了無法被移除的山岩頂)。</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpandDesc>居民們將會拆除這個區域内的屋頂(除了無法移除的山岩頂)。</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
-  <DesignatorAreaIgnoreRoofExpand>移除屋頂區</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpand>忽視屋頂區</DesignatorAreaIgnoreRoofExpand>
   <!-- EN: Colonists will ignore roofs in this area. -->
-  <DesignatorAreaIgnoreRoofExpandDesc>居民將會移除這個區域內的屋頂。</DesignatorAreaIgnoreRoofExpandDesc>
+  <DesignatorAreaIgnoreRoofExpandDesc>居民們將會忽視這個區域內是否有屋頂。</DesignatorAreaIgnoreRoofExpandDesc>
 
   <!-- EN: Expand snow clear area -->
-  <DesignatorAreaSnowClearExpand>劃設除雪區</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpand>規劃鏟雪區</DesignatorAreaSnowClearExpand>
   <!-- EN: Create a area which colonists will try to keep clear of snow. -->
-  <DesignatorAreaSnowClearExpandDesc>劃設需要除雪的區域，居民將會保持這片區域沒有積雪。</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearExpandDesc>建立鏟雪區，居民們將會試著持續去鏟雪。</DesignatorAreaSnowClearExpandDesc>
   <!-- EN: Clear snow clear Area -->
-  <DesignatorAreaSnowClearClear>移除除雪區</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClear>移除鏟雪區</DesignatorAreaSnowClearClear>
   <!-- EN: Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow. -->
-  <DesignatorAreaSnowClearClearDesc>移除除雪區後，居民將不再清理這片區域的積雪。</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowClearClearDesc>移除鏟雪區後，居民們將不會去鏟這個區域的雪。</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
-  <DesignatorExpandAreaAllowed>劃設活動區</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowed>規劃活動區</DesignatorExpandAreaAllowed>
   <!-- EN: Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorExpandAreaAllowedDesc>規劃活動區域。\n\n你可以為居民個別指定活動區，居民不會進行任何在自己的活動區以外的工作或活動。</DesignatorExpandAreaAllowedDesc>
+  <DesignatorExpandAreaAllowedDesc>規劃活動區。\n\n你可以為居民們個別指定活動區。居民們將不會進行活動區以外的工作或活動。</DesignatorExpandAreaAllowedDesc>
   <!-- EN: Clear allowed area -->
   <DesignatorClearAreaAllowed>移除活動區</DesignatorClearAreaAllowed>
   <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorClearAreaAllowedDesc>移除活動區。\n\n你可以為居民指定個別的活動區，居民不會進行任何在自己的活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
+  <DesignatorClearAreaAllowedDesc>移除活動區。\n\n你可以為居民們指定個別的活動區。居民們將不會進行活動區以外的工作或活動。</DesignatorClearAreaAllowedDesc>
   <!-- EN: Manage areas... -->
   <ManageAreas>管理活動區...</ManageAreas>
 
   <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
-  <DesignatorGrowingZoneDesc>劃設一片你希望讓居民種植作物的區域。</DesignatorGrowingZoneDesc>
+  <DesignatorGrowingZoneDesc>建立一個區域，你的居民們將會試著種植某些植物。</DesignatorGrowingZoneDesc>
 
   <!-- EN: Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageResourcesDesc>建立一個讓你的居民們存放資源的儲存區。\n此工具也可以用來擴張現有的儲存區。</DesignatorZoneCreateStorageResourcesDesc>
+  <DesignatorZoneCreateStorageResourcesDesc>建立一個儲存區，你的居民們將存放資源。\n此工具也可以用來擴展現有的儲存區。</DesignatorZoneCreateStorageResourcesDesc>
 
   <!-- EN: Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageDumpingDesc>建立一個讓你的居民們存放垃圾的儲存區。\n此工具也可以用來擴張現有的儲存區。</DesignatorZoneCreateStorageDumpingDesc>
+  <DesignatorZoneCreateStorageDumpingDesc>建立一個儲存區，你的居民們將存放垃圾。\n此工具也可以用來擴展現有的儲存區。</DesignatorZoneCreateStorageDumpingDesc>
 
   <!-- EN: Shrink zones -->
   <DesignatorZoneDelete>消除區域</DesignatorZoneDelete>
   <!-- EN: Shrink zone -->
   <DesignatorZoneDeleteSingular>消除區域</DesignatorZoneDeleteSingular>
   <!-- EN: Remove zones, like stockpile zones or growing zones. -->
-  <DesignatorZoneDeleteDesc>消除儲存區或是種植區等區域。</DesignatorZoneDeleteDesc>
+  <DesignatorZoneDeleteDesc>移除區域，如儲存區、種植區。</DesignatorZoneDeleteDesc>
 
   <!-- EN: Expand zone -->
   <DesignatorZoneExpand>擴展區域</DesignatorZoneExpand>
@@ -139,47 +139,47 @@
   <!-- EN: Claim -->
   <DesignatorClaim>佔據</DesignatorClaim>
   <!-- EN: Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists. -->
-  <DesignatorClaimDesc>將設施或建築標記為屬於你的殖民地，可佔據的物件包含遠古遺跡與被遺棄的陣地。佔據後的物件將可以被你的居民修理及保養。</DesignatorClaimDesc>
+  <DesignatorClaimDesc>佔據殖民地的中立建築，包含遠古遺跡、被遺棄的基地。居民們會去修理、保養佔據的建築物。</DesignatorClaimDesc>
 
   <!-- EN: Remove floor -->
   <DesignatorRemoveFloor>移除地板</DesignatorRemoveFloor>
   <!-- EN: Remove floors to reveal the terrain underneath. -->
-  <DesignatorRemoveFloorDesc>移除地板，並露出原始的地面。</DesignatorRemoveFloorDesc>
+  <DesignatorRemoveFloorDesc>移除地板，恢復原來的地面。</DesignatorRemoveFloorDesc>
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>移除橋</DesignatorRemoveBridge>
   <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>移除棧橋恢復原先的地面。</DesignatorRemoveBridgeDesc>
+  <DesignatorRemoveBridgeDesc>移除橋，恢復原來的地面。</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>掠奪</DesignatorStrip>
   <!-- EN: Strip apparel from corpses and the wounded. -->
-  <DesignatorStripDesc>掠奪屍體或失去行動能力者的衣物。</DesignatorStripDesc>
+  <DesignatorStripDesc>掠奪屍體或傷者的衣物。</DesignatorStripDesc>
 
   <!-- EN: Open -->
   <DesignatorOpen>開啟</DesignatorOpen>
   <!-- EN: Open containers. -->
-  <DesignatorOpenDesc>開啟棺材或容器。</DesignatorOpenDesc>
+  <DesignatorOpenDesc>開啟容器。</DesignatorOpenDesc>
   
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>宰殺</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
-  <DesignatorSlaughterDesc>宰殺一頭已馴養的生物。</DesignatorSlaughterDesc>
+  <DesignatorSlaughterDesc>宰殺馴服的動物。</DesignatorSlaughterDesc>
 
   <!-- EN: Tame -->
   <DesignatorTame>馴服</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
-  <DesignatorTameDesc>馴服一頭野生動物。</DesignatorTameDesc>
+  <DesignatorTameDesc>馴服野生動物。</DesignatorTameDesc>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>無法選擇的素材</UnchosenStuff>
   <!-- EN: Too close to map edge. -->
-  <TooCloseToMapEdge>過於接近距離地圖邊緣。</TooCloseToMapEdge>
+  <TooCloseToMapEdge>離地圖邊緣過近。</TooCloseToMapEdge>
   <!-- EN: Out of bounds. -->
   <OutOfBounds>在界線之外。</OutOfBounds>
   <!-- EN: Cannot place in undiscovered areas. -->
-  <CannotPlaceInUndiscovered>不能放置在未探索的區域內。</CannotPlaceInUndiscovered>
+  <CannotPlaceInUndiscovered>不能放置在未探索的區域。</CannotPlaceInUndiscovered>
   <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
   <InteractionSpotBlocked>互動點被{1_labelShort}擋住。</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
@@ -197,11 +197,11 @@
   <!-- EN: Identical blueprint already exists here. -->
   <IdenticalBlueprintExists>已經在同地點存在相同的藍圖。</IdenticalBlueprintExists>
   <!-- EN: {0_label} cannot be built on this terrain. -->
-  <TerrainCannotSupport>地形無法支撐此物件。</TerrainCannotSupport>
+  <TerrainCannotSupport>{0_label}無法在此地形上建造。</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label}需要有足夠支撐力的地面：{1_label}</TerrainCannotSupport_TerrainAffordance>
+  <TerrainCannotSupport_TerrainAffordance>{0_label}需要有支撐力的地面：{1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label}(使用{2_label}製作時)需要有足夠支撐力的地面：{1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label}(使用{2_label}製作時)需要有支撐力的地面：{1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>空間已被占用。</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -215,7 +215,7 @@
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
   <InteractionSpotOverlaps>活動區會與{1_labelShort}的活動區重疊。</InteractionSpotOverlaps>
   <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
-  <MonumentAdjacentToBuilding>紀念碑地基不能直接放置在任何建築物附近。</MonumentAdjacentToBuilding>
+  <MonumentAdjacentToBuilding>紀念碑不能直接放置在任何建築物附近。</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
