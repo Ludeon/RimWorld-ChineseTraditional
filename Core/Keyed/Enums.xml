@@ -37,7 +37,7 @@
 
   <!-- Food type flags -->
   <!-- EN: vegetables -->
-  <FoodTypeFlags_VegetableOrFruit>蔬食</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_VegetableOrFruit>農作物</FoodTypeFlags_VegetableOrFruit>
   <!-- EN: raw meat -->
   <FoodTypeFlags_Meat>生肉</FoodTypeFlags_Meat>
   <!-- EN: corpses -->
@@ -45,7 +45,7 @@
   <!-- EN: seeds -->
   <FoodTypeFlags_Seed>種子</FoodTypeFlags_Seed>
   <!-- EN: animal products -->
-  <FoodTypeFlags_AnimalProduct>畜產品</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_AnimalProduct>畜牧品</FoodTypeFlags_AnimalProduct>
   <!-- EN: live plants -->
   <FoodTypeFlags_Plant>植物</FoodTypeFlags_Plant>
   <!-- EN: live trees -->
@@ -91,21 +91,21 @@
   
   <!-- Hunger -->
   <!-- EN: Starving -->
-  <HungerLevel_Starving>極度飢餓</HungerLevel_Starving>
+  <HungerLevel_Starving>飢餓</HungerLevel_Starving>
   <!-- EN: Urgently hungry -->
-  <HungerLevel_UrgentlyHungry>飢腸轆轆</HungerLevel_UrgentlyHungry>
+  <HungerLevel_UrgentlyHungry>極度飢餓</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
-  <HungerLevel_Hungry>飢餓</HungerLevel_Hungry>
+  <HungerLevel_Hungry>肚子餓</HungerLevel_Hungry>
   <!-- EN: Fed -->
   <HungerLevel_Fed>飽足</HungerLevel_Fed>
 
   <!-- -Fatigue -->
   <!-- EN: Exhausted -->
-  <HungerLevel_Exhausted>筋疲力竭</HungerLevel_Exhausted>
+  <HungerLevel_Exhausted>精疲力盡</HungerLevel_Exhausted>
   <!-- EN: Very tired -->
-  <HungerLevel_VeryTired>疲憊</HungerLevel_VeryTired>
+  <HungerLevel_VeryTired>心力交瘁</HungerLevel_VeryTired>
   <!-- EN: Tired -->
-  <HungerLevel_Tired>勞累</HungerLevel_Tired>
+  <HungerLevel_Tired>疲憊不堪</HungerLevel_Tired>
   <!-- EN: Rested -->
   <HungerLevel_Rested>精神飽滿</HungerLevel_Rested>
 
@@ -151,13 +151,13 @@
   <!-- EN: No medical care -->
   <MedicalCareCategory_NoCare>無醫療照顧</MedicalCareCategory_NoCare>
   <!-- EN: Doctor care, but no medicine -->
-  <MedicalCareCategory_NoMeds>給予醫生治療，但不供應藥物</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_NoMeds>醫生治療，但不提供藥品</MedicalCareCategory_NoMeds>
   <!-- EN: Herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>供應草藥或草藥等級以下的藥品</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_HerbalOrWorse>提供草藥或以下的藥品</MedicalCareCategory_HerbalOrWorse>
   <!-- EN: Industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>供應普通藥品或普通藥品等級以下的藥品</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>提供醫療包或以下的藥品</MedicalCareCategory_NormalOrWorse>
   <!-- EN: Best quality medicine -->
-  <MedicalCareCategory_Best>給予最高品質的醫療照顧</MedicalCareCategory_Best>
+  <MedicalCareCategory_Best>提供最高級的醫療照顧</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <!-- EN: Ignore -->
@@ -189,7 +189,7 @@
   <!-- EN: ultra -->
   <TechLevel_Ultra>高科技</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>古代科技</TechLevel_Archotech>
+  <TechLevel_Archotech>遠古科技</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
@@ -209,9 +209,9 @@
   <!-- EN: Show animal names -->
   <ShowAnimalNames>顯示動物名稱</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
-  <AnimalNameDisplayMode_TameNamed>馴養(已命名)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>馴服(已命名)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
-  <AnimalNameDisplayMode_TameAll>馴養(全部)</AnimalNameDisplayMode_TameAll>
+  <AnimalNameDisplayMode_TameAll>馴服(全部)</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->
   <!-- EN: Celsius -->
@@ -271,7 +271,7 @@
   <!-- EN: dirty cooking area -->
   <FoodPoisonCause_FilthyKitchen>髒亂的烹調環境</FoodPoisonCause_FilthyKitchen>
   <!-- EN: rotten food -->
-  <FoodPoisonCause_Rotten>腐敗的食物</FoodPoisonCause_Rotten>
+  <FoodPoisonCause_Rotten>腐爛的食物</FoodPoisonCause_Rotten>
   <!-- EN: dangerous food type -->
   <FoodPoisonCause_DangerousFoodType>危險的食物種類</FoodPoisonCause_DangerousFoodType>
 
@@ -287,7 +287,7 @@
   <!-- EN: high -->
   <PsychicDroneLevel_BadHigh>高</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
-  <PsychicDroneLevel_BadExtreme>極端</PsychicDroneLevel_BadExtreme>
+  <PsychicDroneLevel_BadExtreme>超級</PsychicDroneLevel_BadExtreme>
   
   <!-- Automatic pause mode -->
   <!-- EN: Never -->
