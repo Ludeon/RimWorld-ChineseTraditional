@@ -6,7 +6,7 @@
   <!-- EN: damage -->
   <DamageLower>傷害</DamageLower>
   <!-- EN: seconds per attack -->
-  <SecondsPerAttackLower>攻擊間隔</SecondsPerAttackLower>
+  <SecondsPerAttackLower>每秒攻擊</SecondsPerAttackLower>
 
   <!-- EN: Base value -->
   <StatsReport_BaseValue>基準值</StatsReport_BaseValue>
@@ -39,7 +39,7 @@
   <!-- EN: Post-process curve -->
   <StatsReport_PostProcessed>曲線處理</StatsReport_PostProcessed>
   <!-- EN: Final value -->
-  <StatsReport_FinalValue>最終數值</StatsReport_FinalValue>
+  <StatsReport_FinalValue>最終值</StatsReport_FinalValue>
   <!-- EN: Materials and labor -->
   <StatsReport_MarketValueFromStuffsAndWork>市價是以使用材料與工作時程計算。</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
@@ -63,7 +63,7 @@
   <!-- EN: Multiplier for body size {0} -->
   <StatsReport_BodySize>體型倍率{0}</StatsReport_BodySize>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
-  <StatsReport_MeleeDPSExplanation>DPS = 近戰傷害X近戰命中率/冷卻時間(秒)</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDPSExplanation>DPS = 近戰傷害x近戰命中率/冷卻時間(秒)</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
   <StatsReport_MeleeDamage>近戰傷害</StatsReport_MeleeDamage>
   <!-- EN: Cooldown -->
@@ -81,7 +81,7 @@
   <!-- EN: Multiplier for worn by corpse -->
   <StatsReport_WornByCorpse>屍體穿著的損壞倍率</StatsReport_WornByCorpse>
   <!-- EN: average of all attacks -->
-  <AverageOfAllAttacks>全攻擊類型的平均值</AverageOfAllAttacks>
+  <AverageOfAllAttacks>全部攻擊平均值</AverageOfAllAttacks>
   <!-- EN: Scenario -->
   <StatsReport_ScenarioFactor>腳本設定</StatsReport_ScenarioFactor>
   <!-- EN: Ingredients -->
@@ -124,31 +124,31 @@
   <!-- EN: Stuff -->
   <Stat_Stuff_Name>材料</Stat_Stuff_Name>
   <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
-  <Stat_Stuff_Desc>這東西是由什麼做的。這會影響許多其他屬性，包括武器傷害、服裝護甲和隔熱、物品和建造生命值、外觀、市場價值等等。</Stat_Stuff_Desc>
+  <Stat_Stuff_Desc>這東西是由什麼做的。這會影響許多其他屬性，包括武器傷害、服裝護甲、隔絕性、物品、建築耐久值、美觀度、市場價值等等。</Stat_Stuff_Desc>
   <!-- EN: Weapon -->
   <Stat_Weapon_Name>武器</Stat_Weapon_Name>
   <!-- EN: The weapon used by this turret. -->
-  <Stat_Weapon_Desc>用作於炮塔的武器</Stat_Weapon_Desc>
+  <Stat_Weapon_Desc>用作於砲塔的武器</Stat_Weapon_Desc>
   <!-- EN: How much damage an object can take before being destroyed. -->
-  <Stat_HitPoints_Desc>物體被破壞之前能承受多少傷害。</Stat_HitPoints_Desc>
+  <Stat_HitPoints_Desc>物件被破壞之前能承受多少傷害。</Stat_HitPoints_Desc>
   <!-- EN: The amount of work it takes to uninstall this. -->
   <Stat_Thing_WorkToUninstall_Desc>移除它所需的工作量。</Stat_Thing_WorkToUninstall_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
   <Stat_Thing_CreatedAt_Desc>可以使用哪些設施來生產此產品。</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
-  <Stat_Thing_Damage_Desc>該武器造成的傷害值。\n\n這可能會被目標的護甲抵消或減輕。</Stat_Thing_Damage_Desc>
+  <Stat_Thing_Damage_Desc>此武器造成的傷害值。\n\n這可能會被目標的護甲抵消或減輕。</Stat_Thing_Damage_Desc>
   <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
-  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>醫生在照顧病人時獲得經驗的倍率。</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
+  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>醫生在照顧病患時獲得的經驗倍率。</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>這種植物的屬性。</Stat_Thing_Plant_Attributes_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
-  <Stat_Thing_Apparel_Covers_Desc>覆蓋了身體的哪些部位。\n\n盔甲不能保護它所沒有覆蓋到的部位。</Stat_Thing_Apparel_Covers_Desc>
+  <Stat_Thing_Apparel_Covers_Desc>覆蓋了身體哪些部位。\n\n盔甲無法保護沒有覆蓋到的部位。</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
-  <Stat_Thing_Apparel_Layer_Desc>表示覆蓋了哪些服裝層。\n\n對於給定的身體部位，每層只能穿一件衣服。</Stat_Thing_Apparel_Layer_Desc>
+  <Stat_Thing_Apparel_Layer_Desc>覆蓋了哪些服裝層。\n\n特定的身體部位，每層只能穿一件衣服。</Stat_Thing_Apparel_Layer_Desc>
   <!-- EN: The minimum soil fertility that this plant requires to grow. -->
   <Stat_Thing_Plant_FertilityRequirement_Desc>這種植物生長所需的最低的土壤肥沃度。</Stat_Thing_Plant_FertilityRequirement_Desc>
   <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
-  <Stat_Thing_Plant_FertilitySensitivity_Desc>這種植物對土壤肥沃度的敏感程度。低敏感度意味著植物在肥沃或貧瘠的土壤裡都能以同樣的速度生長。高敏感度意味著植物在貧瘠的土壤中生長緩慢，而在肥沃的土壤中生長較快。</Stat_Thing_Plant_FertilitySensitivity_Desc>
+  <Stat_Thing_Plant_FertilitySensitivity_Desc>這種植物對土壤肥沃度的敏感性。低敏感性意味著植物在肥沃或貧瘠的土壤中，都能以同樣的速度生長。高敏感性意味著植物在貧瘠的土壤中生長較慢，在肥沃的土壤中生長較快。</Stat_Thing_Plant_FertilitySensitivity_Desc>
   <!-- EN: The amount of light this plant requires to grow. -->
   <Stat_Thing_Plant_LightRequirement_Desc>這種植物生長所需要的光照量。</Stat_Thing_Plant_LightRequirement_Desc>
   <!-- EN: The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested. -->
@@ -156,41 +156,41 @@
   <!-- EN: The amount of product this plant will yield when harvested. -->
   <Stat_Thing_Plant_HarvestYield_Desc>這種植物收穫後的產量。</Stat_Thing_Plant_HarvestYield_Desc>
   <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
-  <Stat_Thing_Plant_MinGrowthTemperature_Desc>這種植物能生存的最低溫度。溫度低於這個數值將會隨著時間的推移造成損害。</Stat_Thing_Plant_MinGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MinGrowthTemperature_Desc>這種植物可以適應的最低溫度。\n\n溫度低於這個數值將會隨著時間造成損害。</Stat_Thing_Plant_MinGrowthTemperature_Desc>
   <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
-  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>這種植物能承受的最高溫度。溫度超過這個數值將會隨著時間的推移造成損害。</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>這種植物可以適應的最高溫度。\n\n溫度超過這個數值將會隨著時間造成損害。</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
   <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
   <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>播種這種植物所需要的最低的技能等級。</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
   <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
-  <Stat_Race_Diet_Desc>這種生物能吃的食物種類。\n\n可食用: {0}</Stat_Race_Diet_Desc>
+  <Stat_Race_Diet_Desc>這種生物能吃的食物種類。\n\n可食用:{0}</Stat_Race_Diet_Desc>
   <!-- EN: The type of leather this creature will yield when butchered. -->
   <Stat_Race_LeatherType_Desc>這種生物被屠宰時獲得的皮革類型。</Stat_Race_LeatherType_Desc>
   <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>當馴獸師在馴服失敗時，該生物會攻擊的機率。</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>馴服失敗時，這種生物反擊的機率。</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
-  <Stat_Race_Trainability_Desc>這種生物可以馴化的智力程度。這是智力與專注的結合。它決定了該生物可以學會哪些工作能力。</Stat_Race_Trainability_Desc>
+  <Stat_Race_Trainability_Desc>這種生物訓練的智能程度。這是智力與專注力的組合。這決定訓練這種生物可以做哪些工作。</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
   <Stat_Race_LifeExpectancy_Desc>這種生物的平均壽命。</Stat_Race_LifeExpectancy_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
-  <Stat_Thing_Ingestible_Joy_Desc>攝入該物品所獲得的娛樂值。更高的數值將滿足更多的娛樂需求。</Stat_Thing_Ingestible_Joy_Desc>
+  <Stat_Thing_Ingestible_Joy_Desc>攝入此物品所獲得的娛樂值。更高的數值將滿足更多的娛樂需求。</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
-  <Stat_Race_BodySize_Desc>與普通的成年種相比，這種生物的體形大小。</Stat_Race_BodySize_Desc>
+  <Stat_Race_BodySize_Desc>與普通的成年人相較下，這種生物的體形大小。</Stat_Race_BodySize_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
-  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>使用該武器的近戰攻擊開始到擊中目標之間的時間間隔。</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>此武器從近戰開始攻擊，到擊中目標的時間。</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
   <!-- EN: The amount of shots this weapon fires in each burst. -->
-  <Stat_Thing_Weapon_BurstShotCount_Desc>該武器在每次攻擊中發射的子彈數量。</Stat_Thing_Weapon_BurstShotCount_Desc>
+  <Stat_Thing_Weapon_BurstShotCount_Desc>此武器每次射擊的彈數。</Stat_Thing_Weapon_BurstShotCount_Desc>
   <!-- EN: The fire rate of this weapon during each burst. -->
-  <Stat_Thing_Weapon_BurstShotFireRate_Desc>該武器射擊時的子彈射速。</Stat_Thing_Weapon_BurstShotFireRate_Desc>
+  <Stat_Thing_Weapon_BurstShotFireRate_Desc>此武器每次射擊的射速。</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
-  <Stat_Thing_Weapon_Range_Desc>該武器的最大射程。</Stat_Thing_Weapon_Range_Desc>
+  <Stat_Thing_Weapon_Range_Desc>此武器的最大射程。</Stat_Thing_Weapon_Range_Desc>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
-  <Stat_Thing_Weapon_MissRadius_Desc>該武器射擊時的隨機散佈半徑。越高的數值會使得炮彈在目標周圍分佈更散。</Stat_Thing_Weapon_MissRadius_Desc>
+  <Stat_Thing_Weapon_MissRadius_Desc>此武器射擊時的隨機散佈的半徑。越高的數值會使砲彈在目標周圍分佈更散。</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
   <Stat_Thing_Weapon_DirectHitChance_Desc>如果沒有被阻擋，閃避或停止，射擊將直接命中目標的機率。</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
-  <Stat_Thing_MoodChange_Desc>該身體部件對心情影響的程度。</Stat_Thing_MoodChange_Desc>
+  <Stat_Thing_MoodChange_Desc>此身體部件對擁有者的心情影響。</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
-  <Stat_Recipe_Skill_Desc>執行此清單時使用的主要技能。\n\n它決定了製作產品的品質，並在進行製作時獲得相應的技能經驗。</Stat_Recipe_Skill_Desc>
+  <Stat_Recipe_Skill_Desc>執行此清單時使用的主要技能。\n\n它決定了產品品質，並在進行製作時獲得相應的技能經驗。</Stat_Recipe_Skill_Desc>
   <!-- EN: The ingredients required to perform this recipe. -->
   <Stat_Recipe_Ingredients_Desc>執行此清單所需的材料</Stat_Recipe_Ingredients_Desc>
   <!-- EN: The skills required to perform this recipe. -->
@@ -202,66 +202,66 @@
   <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
   <Stat_Recipe_EfficiencyStat_Desc>哪種狀態決定產出的品質或數量。\n\n工作者的狀態越高，品質或產量就越高。</Stat_Recipe_EfficiencyStat_Desc>
   <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>該操作的成功率。較困難的手術倍率較低。\n\n手術成功的實際機率還受到醫生，相關設備和所用藥物的影響。</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>此手術的成功率。困難的手術成功率較低。\n\n實際的手術成功率會受到醫生、醫療設備、藥品的影響。</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>不會失敗</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>執行此操作對患者是安全的。</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>執行此手術對患者是安全的。</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
   <Stat_Thing_Surgery_DeathOnFailChance_Desc>患者因手術失敗而死亡的機率。</Stat_Thing_Surgery_DeathOnFailChance_Desc>
   <!-- EN: The addictiveness of this drug. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>該藥物的成癮性。</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>藥物的成癮性。</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: Total bleed factor -->
-  <Stat_Hediff_TotalBleedFactor_Name>失血量倍率</Stat_Hediff_TotalBleedFactor_Name>
+  <Stat_Hediff_TotalBleedFactor_Name>失血率</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
-  <Stat_Hediff_TotalBleedFactor_Desc>一個適用於失血量的倍率。</Stat_Hediff_TotalBleedFactor_Desc>
+  <Stat_Hediff_TotalBleedFactor_Desc>適用於總失血率。</Stat_Hediff_TotalBleedFactor_Desc>
   <!-- EN: Natural healing factor -->
-  <Stat_Hediff_NaturalHealingFactor_Name>自然治癒倍率</Stat_Hediff_NaturalHealingFactor_Name>
+  <Stat_Hediff_NaturalHealingFactor_Name>自然癒合率</Stat_Hediff_NaturalHealingFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
-  <Stat_Hediff_NaturalHealingFactor_Desc>適用於傷口自然癒合的總體速度的倍率。</Stat_Hediff_NaturalHealingFactor_Desc>
+  <Stat_Hediff_NaturalHealingFactor_Desc>適用於傷口自然癒合的總體速率。</Stat_Hediff_NaturalHealingFactor_Desc>
   <!-- EN: Food poisoning chance factor -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Name>食物中毒的倍率</Stat_Hediff_FoodPoisoningChanceFactor_Name>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Name>食物中毒率</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of accidentally cooking a meal with food poisoning. -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>適用於製作食物時偶然產生的食物中毒的機率倍率。</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>適用於烹飪出有毒料理的意外機率。</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
   <!-- EN: The rate at which this condition is drains blood. -->
-  <Stat_Hediff_BleedingRate_Desc>該情況下血液流失的速度。</Stat_Hediff_BleedingRate_Desc>
+  <Stat_Hediff_BleedingRate_Desc>此情況的失血率。</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
-  <Stat_Hediff_Pain_Desc>該情況下引起的疼痛程度。</Stat_Hediff_Pain_Desc>
+  <Stat_Hediff_Pain_Desc>此情況引起的疼痛程度。</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
-  <Stat_Hediff_PartEfficiency_Desc>適用於受此影響的身體部位的效率偏移。</Stat_Hediff_PartEfficiency_Desc>
+  <Stat_Hediff_PartEfficiency_Desc>適用於身體部位影響的補償率。</Stat_Hediff_PartEfficiency_Desc>
   <!-- EN: The mental abilities this affects. -->
-  <Stat_Hediff_Affects_Desc>健康對精神狀況的影響。※</Stat_Hediff_Affects_Desc>
+  <Stat_Hediff_Affects_Desc>對精神方面的影響。※</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
-  <Stat_Hediff_HungerRateOffset_Name>饑餓率偏移</Stat_Hediff_HungerRateOffset_Name>
+  <Stat_Hediff_HungerRateOffset_Name>饑餓的補償率</Stat_Hediff_HungerRateOffset_Name>
   <!-- EN: A multiplier on the rate at which the food need depletes. -->
-  <Stat_Hediff_HungerRateFactor_Desc>食物消耗速度的倍率。</Stat_Hediff_HungerRateFactor_Desc>
+  <Stat_Hediff_HungerRateFactor_Desc>食物消耗的速率。</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
-  <Stat_Hediff_HungerRateOffset_Desc>食物需求消耗量的偏移</Stat_Hediff_HungerRateOffset_Desc>
+  <Stat_Hediff_HungerRateOffset_Desc>食物消耗的補償率</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Rest fall rate -->
-  <Stat_Hediff_TirednessOffset_Name>休息值消耗率</Stat_Hediff_TirednessOffset_Name>
+  <Stat_Hediff_TirednessOffset_Name>休息消耗率</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>適用於生物休息所需速率的偏移量。</Stat_Hediff_TirednessOffset_Desc>
+  <Stat_Hediff_TirednessOffset_Desc>適用於生物休息消耗的補償率。</Stat_Hediff_TirednessOffset_Desc>
   <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>適用於生物休息需求下降速率的倍率。</Stat_Hediff_TirednessFactor_Desc>
+  <Stat_Hediff_TirednessFactor_Desc>適用於生物休息消耗率。</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
   <Stat_Hediff_PreventsInfection_Desc>是否可以防止感染。</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
-  <Stat_Thing_Terrain_Supports_Desc>這個地形支撐的東西。</Stat_Thing_Terrain_Supports_Desc>
+  <Stat_Thing_Terrain_Supports_Desc>地形支撐的物品。</Stat_Thing_Terrain_Supports_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
-  <Stat_Thing_TerrainRequirement_Desc>只能將其放置在這些類型的地形上。</Stat_Thing_TerrainRequirement_Desc>
+  <Stat_Thing_TerrainRequirement_Desc>只能放置在這些類型的地形上。</Stat_Thing_TerrainRequirement_Desc>
   <!-- EN: Considered -->
   <Stat_Thing_Terrain_Fine_Name>考慮</Stat_Thing_Terrain_Fine_Name>
   <!-- EN: Fine -->
   <Stat_Thing_Terrain_Fine_Value>優秀</Stat_Thing_Terrain_Fine_Value>
   <!-- EN: This floor is considered fine and suitable for royalty. -->
-  <Stat_Thing_Terrain_Fine_Desc>這地板經考慮覺得很優秀，很適合皇室使用。</Stat_Thing_Terrain_Fine_Desc>
+  <Stat_Thing_Terrain_Fine_Desc>這地板被公認為很優秀，適合皇室使用。</Stat_Thing_Terrain_Fine_Desc>
   <!-- EN: The amount of power this building will draw from the power grid. -->
-  <Stat_Thing_PowerConsumption_Desc>該建築物將從電線中獲取的電量。</Stat_Thing_PowerConsumption_Desc>
+  <Stat_Thing_PowerConsumption_Desc>此建築物將從電線中獲取的電量。</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>這個身體部位的整體效率。</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Biocoding -->
   <Stat_Thing_Weapon_Biocoded_Name>生物識別</Stat_Thing_Weapon_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
-  <Stat_Thing_Weapon_Biocoded_Desc>該物品經過生物編譯只能識別給特定的人使用。</Stat_Thing_Weapon_Biocoded_Desc>
+  <Stat_Thing_Weapon_Biocoded_Desc>此物品經過生物編譯只能識別給特定的人使用。</Stat_Thing_Weapon_Biocoded_Desc>
 
 </LanguageData>
