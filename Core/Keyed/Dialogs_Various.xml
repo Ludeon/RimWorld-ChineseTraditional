@@ -112,7 +112,7 @@
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
   <ProblemSavingFile>存檔時發生問題{0}：\n\n{1}\n\n查看錯誤紀錄以獲得更多訊息。</ProblemSavingFile>
   <!-- EN: Load anyway -->
-  <LoadAnyway>仍要載入</LoadAnyway>
+  <LoadAnyway>強制載入</LoadAnyway>
   <!-- EN: Load mod list from save -->
   <ChangeLoadedMods>載入Mod清單</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
@@ -128,25 +128,25 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>{0}認為你應該替你的勢力取個名字。該叫做什麼好呢？</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>看來你得在這裡待上一段時間了。{0}認為你應該替你的勢力取個名字。該取什麼好呢？</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
-  <PlayerFactionGainsName>你的勢力現在被稱為{0}了。</PlayerFactionGainsName>
+  <PlayerFactionGainsName>你的勢力現在稱為{0}了。</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionNameIsInvalid>無效的勢力名稱。</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>看來你得在這裡待上一段時間了。{0}希望你能給這座據點取個名字。該叫做什麼好呢？</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0}認為你應該替此據點取個名字。該取什麼好呢？</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
-  <PlayerFactionBaseGainsName>這個基地現在被稱為{0}了。</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseGainsName>這個基地現在稱為{0}。</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionBaseNameIsInvalid>無效的據點名稱。</PlayerFactionBaseNameIsInvalid>
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>看來你會在這裡待上一段時間。{0}建議你也替這座據點取名。該叫做什麼好呢？</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0}認為你應該替此據點取個名字。該取什麼好呢？</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>你的勢力現在被稱為{0}，而這座據點則被叫做{1}。</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>你的勢力現在稱為{0}，此據點稱為{1}。</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
@@ -154,13 +154,13 @@
   <!-- EN: Name is already in use. -->
   <NameIsInUse>這個名稱已被使用。</NameIsInUse>
   <!-- EN: The zone is now called {0}. -->
-  <ZoneGainsName>這個區域的名稱被改為{0}。</ZoneGainsName>
+  <ZoneGainsName>這個區域的名稱現在稱為{0}。</ZoneGainsName>
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>這名居民的暱稱已更改為{0}。{PAWN_possessive}現在叫做{PAWN_title}。</PawnGainsName>
+  <PawnGainsName>此人現在的暱稱為{0}。{PAWN_possessive}現在叫做{PAWN_title}。</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
-  <AnimalGainsName>此動物已更名為{0}。</AnimalGainsName>
+  <AnimalGainsName>此動物現在的暱稱為{0}。</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -285,11 +285,11 @@
   <!-- EN: Damage -->
   <Damage>傷害</Damage>
   <!-- EN: Armor penetration -->
-  <ArmorPenetration>護甲穿透性</ArmorPenetration>
+  <ArmorPenetration>護甲穿透值</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>護甲穿透性是每次擊中敵人時會忽略的護甲值。\n\n如果護甲穿透性大於對方的護甲值，則可視對方為無護甲。反之，穿透性會被護甲所抵銷。</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>護甲穿透值是每次擊中目標時所無視的護甲值。\n\n如果護甲穿透值高於目標護甲值，可以無視目標的護甲，這表示目標沒有穿裝備。但是低於目標護甲值的話，則會先扣掉目標的護甲值。</ArmorPenetrationExplanation>
   <!-- EN: Accuracy -->
-  <Accuracy>精度</Accuracy>
+  <Accuracy>準度</Accuracy>
   <!-- EN: Burst shot count -->
   <BurstShotCount>連發次數</BurstShotCount>
   <!-- EN: Warmup -->
@@ -301,9 +301,9 @@
   <!-- EN: Disarmed -->
   <DisarmedTime>解除武裝</DisarmedTime>
   <!-- EN: Charging -->
-  <ChargingTime>充電中</ChargingTime>
+  <ChargingTime>充能中</ChargingTime>
   <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
-  <ChargingNext>下一次充電 (對於 {1}) 在: {0}\n充電週期: {2}</ChargingNext>
+  <ChargingNext>下一次充能(對於{1})在:{0}\n充能週期:{2}</ChargingNext>
   <!-- EN: Shut down -->
   <ShutDown>關閉</ShutDown>
   <!-- EN: Fire rate -->
@@ -311,11 +311,11 @@
   <!-- EN: Range -->
   <Range>射程</Range>
   <!-- EN: Stopping power -->
-  <StoppingPower>抑止力</StoppingPower>
+  <StoppingPower>攔截力</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>被此武器擊中的目標會被打亂腳步，降低移動速度數秒鐘。體型大於抑止力數值的對象將不受影響。</StoppingPowerExplanation>
+  <StoppingPowerExplanation>被此武器擊中會使目標站立不穩，降低他們的移動速度幾秒鐘。體型大的目標不受攔截力的影響。</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
-  <DirectHitChance>直接命中機率</DirectHitChance>
+  <DirectHitChance>直接命中率</DirectHitChance>
   <!-- EN: Miss radius -->
   <MissRadius>彈著點擴散半徑</MissRadius>
   <!-- EN: Grows wild -->
@@ -323,17 +323,17 @@
   <!-- EN: Harvestable -->
   <Harvestable>可收穫</Harvestable>
   <!-- EN: Limited lifespan -->
-  <LimitedLifespan>壽命有限</LimitedLifespan>
+  <LimitedLifespan>壽命上限</LimitedLifespan>
   <!-- EN: Growing time -->
   <GrowingTime>生長時間</GrowingTime>
   <!-- EN: Harvest yield -->
   <HarvestYield>收穫量</HarvestYield>
   <!-- EN: Min growth temperature -->
-  <MinGrowthTemperature>最低生長氣溫</MinGrowthTemperature>
+  <MinGrowthTemperature>最低生長溫度</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
-  <MaxGrowthTemperature>最高生長氣溫</MaxGrowthTemperature>
+  <MaxGrowthTemperature>最高生長溫度</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
-  <GrowingTimeDesc>植物只會在一天的部分時段中生長，並且要有足夠的亮光。這個數值表示植物完全成熟全所需要的總生長時間，考慮到休眠、低溫、亮度不足都會降低植物的生長速度，實際需要大約兩倍的成長時間。</GrowingTimeDesc>
+  <GrowingTimeDesc>植物只會在一天當中有陽光的照曜下才會生長。\n\n這個數值表示植物到完全成熟所需要的時間。\n實際的生長時間大約是兩倍。\n溫度過低也會讓植物難以生長。</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>天</Days>
   <!-- EN: Minimum growing skill to sow -->
@@ -353,11 +353,11 @@
   <!-- EN: Recreation -->
   <Joy>娛樂</Joy>
   <!-- EN: Food quality -->
-  <FoodQuality>食物價值</FoodQuality>
+  <FoodQuality>食物品質</FoodQuality>
   <!-- EN: Walk speed -->
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
   <!-- EN: Min. food quality -->
-  <MinFoodQuality>最低食物重量</MinFoodQuality>
+  <MinFoodQuality>最低食物品質</MinFoodQuality>
   <!-- EN: Diet -->
   <Diet>飲食</Diet>
   <!-- EN: Nutrition need per day -->
@@ -373,13 +373,13 @@
   <!-- EN: Covers -->
   <Covers>覆蓋</Covers>
   <!-- EN: Created at -->
-  <CreatedAt>製作於</CreatedAt>
+  <CreatedAt>製作</CreatedAt>
   <!-- EN: Layer -->
   <Layer>層</Layer>
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>掩體效果</CoverEffectiveness>
   <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
-  <CoverEffectivenessExplanation>作為掩體在槍火中能發揮的掩護效果，百分比越高可提供越好的掩護能力。</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>在槍戰中使用它的掩體效果。\n\n百分比越高越能阻擋子彈。</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>藥物經驗影響</MedicineXpGainFactor>
   <!-- EN: Mood change -->
@@ -387,15 +387,15 @@
   <!-- EN: Wildness -->
   <Wildness>野性</Wildness>
   <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
-  <WildnessExplanation>野性越強烈的生物自然更加的難以馴養、訓練及掌握。</WildnessExplanation>
+  <WildnessExplanation>野性越強的生物自然更加的難以馴服、訓練、掌握。</WildnessExplanation>
   <!-- EN: Training decay interval -->
-  <TrainingDecayInterval>訓練度衰退間隔</TrainingDecayInterval>
+  <TrainingDecayInterval>訓練度衰減間隔</TrainingDecayInterval>
   <!-- EN: Tameness will never decay. -->
-  <TamenessWillNotDecay>馴養度永遠不會衰減。</TamenessWillNotDecay>
+  <TamenessWillNotDecay>馴服度永遠不會衰減。</TamenessWillNotDecay>
   <!-- EN: Animal filth rate -->
-  <AnimalFilthRate>動物排泄物產生速率</AnimalFilthRate>
+  <AnimalFilthRate>動物排泄率</AnimalFilthRate>
   <!-- EN: Animals produce filth when moving around on constructed floors.\n\nThis is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
-  <AnimalFilthRateExplanation>當動物在建築地面行動時會產生髒污，這個物種平均每移動{0}格就會產生髒汙。\n\n體型越大或是非典型的寵物會產生更多髒污。</AnimalFilthRateExplanation>
+  <AnimalFilthRateExplanation>當動物在建築地面移動時會產生排泄。\n\n此生物平均每移動{0}格就會產生排泄。\n\n體型越大或非寵物的動物會產生排泄。</AnimalFilthRateExplanation>
   <!-- EN: Time -->
   <TimeRecordsCategory>經歷時間</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -403,15 +403,15 @@
   <!-- EN: Addictiveness -->
   <Addictiveness>成癮性</Addictiveness>
   <!-- EN: Pack animal -->
-  <PackAnimal>駝獸</PackAnimal>
+  <PackAnimal>搬運動物</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
-  <PackAnimalExplanation>此種動物是否適合旅隊長距離搬運貨物。</PackAnimalExplanation>
+  <PackAnimalExplanation>此動物是否適合在旅隊旅行時搬運貨物。</PackAnimalExplanation>
   <!-- EN: Skill -->
   <Skill>技能</Skill>
   <!-- EN: Success rate multiplier -->
-  <SurgerySuccessChanceFactor>成功率倍率</SurgerySuccessChanceFactor>
+  <SurgerySuccessChanceFactor>成功率</SurgerySuccessChanceFactor>
   <!-- EN: Death chance on fail -->
-  <SurgeryDeathOnFailChance>失敗的死亡機率</SurgeryDeathOnFailChance>
+  <SurgeryDeathOnFailChance>失敗時的死亡率</SurgeryDeathOnFailChance>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>工作速度影響</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
@@ -419,31 +419,31 @@
   <!-- EN: {0} skill required -->
   <SkillRequiredToBuild>{0}所需技能</SkillRequiredToBuild>
   <!-- EN: Requires this level of {0} in order to build. -->
-  <SkillRequiredToBuildExplanation>需要此級別的{0}才能進行建造。</SkillRequiredToBuildExplanation>
+  <SkillRequiredToBuildExplanation>需要等級{0}才能進行建造。</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>撒嬌間隔</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
-  <NuzzleIntervalExplanation>此動物向友好居民撒嬌的平均間隔時間。\n\n撒嬌是多種物種共通的一種行為，牠們會用鼻子或臉依偎在關係良好的對象身上，是一種表達信任的行為。大部分人類認為這種行為很可愛，並會留下持續一段時間的心情加成。</NuzzleIntervalExplanation>
+  <NuzzleIntervalExplanation>動物向友好居民撒嬌的平均時間。\n\n撒嬌是多種動物共通的行為，牠們會用鼻子或臉依偎在對方身上表示友好。大多數人類覺得這種行為很可愛，這會讓他們提昇心情一段時間。</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>受傷反擊率</HarmedRevengeChance>
   <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>這個物種在受到攻擊者遠程攻擊時發起反擊的機率。\n\n較近的攻擊距離會提高這項機率，在至近距離下的攻擊會使反擊率變為三倍。\n\n這項機率觸發機制為每次傷害獨立計算，因此單發傷害高的武器比較不容易觸發反擊。\n\n要最小化反擊觸發率，最好使用射速低的武器在步槍射程外進行攻擊。</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>此生物在受到遠程攻擊時觸發的反擊率。\n\n攻擊者越近，觸發機率越大。如果在近距離下被攻擊，觸發機率增加三倍。\n每次受到傷害時都有機率會觸發，所以射速慢、傷害高的武器觸發率比較低。\n射程遠、射速慢的武器，可以讓受傷反擊率最小化。</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>馴服失敗反擊率</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
-  <TerrainRequirement>地形支撐力需求</TerrainRequirement>
+  <TerrainRequirement>地形需求</TerrainRequirement>
   <!-- EN: Supports -->
   <Supports>支撐力</Supports>
   <!-- EN: Trap armor penetration -->
-  <TrapArmorPenetration>陷阱裝甲穿透性</TrapArmorPenetration>
+  <TrapArmorPenetration>陷阱護甲穿透值</TrapArmorPenetration>
   <!-- EN: Rearm cost -->
   <RearmCost>維護花費</RearmCost>
   <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
-  <RearmCostExplanation>維護所需之耗材(根據遊戲難度浮動)。</RearmCostExplanation>
+  <RearmCostExplanation>此機槍塔重新裝填所需的資源(根據遊戲難度而浮動)。</RearmCostExplanation>
   <!-- EN: Shots before rearm -->
-  <ShotsBeforeRearm>維護前剩餘作用次數</ShotsBeforeRearm>
+  <ShotsBeforeRearm>重新裝填前的射擊次數</ShotsBeforeRearm>
   <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
-  <ShotsBeforeRearmExplanation>這座砲塔在下次維護前所剩下的射擊次數。</ShotsBeforeRearmExplanation>
+  <ShotsBeforeRearmExplanation>此機槍塔重新裝填前的剩餘射擊次數。</ShotsBeforeRearmExplanation>
   <!-- EN: Power consumption -->
   <PowerConsumption>耗電量</PowerConsumption>
   <!-- EN: Target -->
@@ -465,17 +465,17 @@
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
   <PositiveBuysNegativeSells>買入。\n賣出。</PositiveBuysNegativeSells>
   <!-- EN: Price you pay to buy this. -->
-  <BuyPriceDesc>購買此商品的價格。</BuyPriceDesc>
+  <BuyPriceDesc>購買此貨物的價格。</BuyPriceDesc>
   <!-- EN: Price you receive for selling this. -->
-  <SellPriceDesc>販賣此商品的獲利。</SellPriceDesc>
+  <SellPriceDesc>販賣此貨物的價格。</SellPriceDesc>
   <!-- EN: For this item, this price is {0}. -->
-  <PriceTypeDesc>以這項商品來說，這個價格{0}。</PriceTypeDesc>
+  <PriceTypeDesc>對這商品來說，這個價格是{0}。</PriceTypeDesc>
   <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
-  <ColonyCount>殖民地可用於交易的貨品數量。\n\n你只能將位於室外且量近於軌道交易信標的貨品賣給路過的商船。</ColonyCount>
+  <ColonyCount>殖民地可以交易的物品數量。\n\n如果軌道商人在軌道交易信標的附近，你就可以賣物品給他們。</ColonyCount>
   <!-- EN: How many of this item the trader has to trade. -->
-  <TraderCount>商人可用於交易的貨品數量。</TraderCount>
+  <TraderCount>商人可以交易的物品數量。</TraderCount>
   <!-- EN: Accept -->
-  <AcceptButton>確定</AcceptButton>
+  <AcceptButton>確認</AcceptButton>
   <!-- EN: Reset -->
   <ResetButton>重置</ResetButton>
   <!-- EN: Cancel -->
@@ -483,37 +483,37 @@
   <!-- EN: Close -->
   <CloseButton>關閉</CloseButton>
   <!-- EN: Your tradeable silver: {0} -->
-  <YourTradeableSilver>目前可用於交易的白銀: {0}</YourTradeableSilver>
+  <YourTradeableSilver>你可以交易的白銀:{0}</YourTradeableSilver>
   <!-- EN: You can only trade with silver that is near an orbital trade beacon and not under a roof. -->
-  <YourTradeableSilverTip>你只能使用軌道交易信標周圍而且沒有屋頂覆蓋的白銀來交易。</YourTradeableSilverTip>
+  <YourTradeableSilverTip>你只能使用軌道交易信標附近，並且沒有屋頂含蓋的白銀來交易。</YourTradeableSilverTip>
   <!-- EN: Trader has no more. -->
-  <TraderHasNoMore>商人貨品數量不足。</TraderHasNoMore>
+  <TraderHasNoMore>商人貨物數量不足。</TraderHasNoMore>
   <!-- EN: No more to sell. -->
-  <ColonyHasNoMore>殖民地貨品數量不足。</ColonyHasNoMore>
+  <ColonyHasNoMore>殖民地貨物數量不足。</ColonyHasNoMore>
   <!-- EN: Trader is not willing to buy this. -->
   <TraderWillNotTrade>商人不接受此貨物。</TraderWillNotTrade>
   <!-- EN: Negotiator -->
-  <Negotiator>談判代表</Negotiator>
+  <Negotiator>會談代表</Negotiator>
   <!-- EN: Negotiator: {0} (+{1}) -->
-  <NegotiatorTradeDialogInfo>談判者: {0} (+{1})</NegotiatorTradeDialogInfo>
+  <NegotiatorTradeDialogInfo>會談代表:{0}(+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>你的代表{1_labelShort}因健康因素無法正常談話。</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>你的會談代表{1_labelShort}因為健康因素無法正常談話。</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>你的代表{1_labelShort}因健康因素無法正常聽話。</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>你的會談代表{1_labelShort}因為健康因素無法正常聽話。</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
-  <NegotiatorCapacityImpaired>這將會影響到交易價格。\n\n建議您選擇健康的居民擔任代表。</NegotiatorCapacityImpaired>
+  <NegotiatorCapacityImpaired>這將會影響交易價格。\n\n建議選擇健康的居民做為代表。</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
-  <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易，仍然要成交嗎？</ConfirmTraderShortFunds>
+  <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易。要成交嗎？</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
-  <SortBy>排列方式以</SortBy>
+  <SortBy>排列方式</SortBy>
   <!-- EN: trader type -->
   <TraderTypePrice>商人類型</TraderTypePrice>
   <!-- EN: selling -->
-  <Selling>銷售</Selling>
+  <Selling>販售</Selling>
   <!-- EN: buying -->
   <Buying>購買</Buying>
   <!-- EN: item sell price multiplier -->
-  <ItemSellPriceFactor>物品售價倍率</ItemSellPriceFactor>
+  <ItemSellPriceFactor>物品售價率</ItemSellPriceFactor>
   <!-- EN: difficulty level -->
   <DifficultyLevel>難度等級</DifficultyLevel>
   <!-- EN: global post-process curve -->
@@ -533,21 +533,21 @@
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
-  <SellableItemsTitle>這個商人願意購買的貨物類型</SellableItemsTitle>
+  <SellableItemsTitle>此商人願意購買的物品類型</SellableItemsTitle>
   <!-- EN: Never visited - stock unknown -->
-  <TraderNotVisitedYet>從未拜訪過-庫存不明</TraderNotVisitedYet>
+  <TraderNotVisitedYet>從未拜訪過 - 庫存不明</TraderNotVisitedYet>
   <!-- EN: Restocked since your last visit -->
   <TraderRestockedSinceLastVisit>上次拜訪後已補貨</TraderRestockedSinceLastVisit>
   <!-- EN: Next restock: {0} days -->
-  <NextTraderRestock>下次補貨: {0} 天</NextTraderRestock>
+  <NextTraderRestock>下次補貨:{0}天</NextTraderRestock>
   <!-- EN: Creatures -->
-  <PawnsTabShort>物種</PawnsTabShort>
+  <PawnsTabShort>生物</PawnsTabShort>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>組織旅隊</FormCaravan>
   <!-- EN: Number available to send with the caravan. -->
-  <FormCaravanColonyThingCountTip>此物品已被分配至旅隊的數量。</FormCaravanColonyThingCountTip>
+  <FormCaravanColonyThingCountTip>此物品分配至旅隊的數量。</FormCaravanColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>人員與動物</PawnsTab>
   <!-- EN: Items -->
@@ -559,61 +559,61 @@
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
   <CaravanCouldNotFindPackingSpot>找不到任何有效的裝卸點。確保選擇的出口位置({0})可行。</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
-  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的居民無法抵達地圖出口({0})。</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的居民無法抵達出口位置({0})。</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{1_labelShort}無法被任何被指派的居民接觸。</CaravanPawnIsUnreachable>
+  <CaravanPawnIsUnreachable>{1_labelShort}無法被任何指派的居民接觸。</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>沒有任何被指派的居民能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
   <CaravanItemIsUnreachableMulti>沒有任何被指派的居民能夠接觸到{0}x{1}。</CaravanItemIsUnreachableMulti>
   <!-- EN: The caravan can't carry that much. -->
-  <TooBigCaravanMassUsage>旅隊無法負荷超量物資。</TooBigCaravanMassUsage>
+  <TooBigCaravanMassUsage>旅隊無法攜帶過多物資。</TooBigCaravanMassUsage>
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
-  <CaravanMassUsageTooltip>當前重量與容量。\n\n重量包含所有旅隊攜帶的物資及人員身上的裝備。\n\n如果重量超過容量，旅隊將會無法行動。</CaravanMassUsageTooltip>
+  <CaravanMassUsageTooltip>包含了攜帶物品、裝備物品。攜帶量少於最大值的話有速度加成。</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>可見性是你的旅隊被敵人注意到的可能性。\n\n這會影響你的旅隊被敵人攔截的機率。\n\n可見性並不影響你發現東西的機率。\n\n可見性的數值是根據所有旅隊人員、動物的體型來計算。</CaravanVisibilityTip>
+  <CaravanVisibilityTip>可見性是你的旅隊被注意到的可能性。\n\n這是旅隊被敵人攔截的機率。\n\n可見性並不影響你發現東西的機率。\n\n可見性的數值是根據所有旅隊的人員、動物的體型來計算。</CaravanVisibilityTip>
   <!-- EN: Days of food -->
-  <DaysWorthOfFood>糧食可支應天數</DaysWorthOfFood>
+  <DaysWorthOfFood>食物支援天數</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
-  <DaysWorthOfFoodInfoRot>{0}天內腐敗</DaysWorthOfFoodInfoRot>
+  <DaysWorthOfFoodInfoRot>{0}天內腐爛</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
-  <InfiniteDaysWorthOfFoodInfo>食物量永遠足夠</InfiniteDaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>食物充足</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>旅隊食物存量以天為單位的估算值。\n\n此計算值將人員及動物一併納入，並套用最嚴苛的狀況進行估算。這表示，經過這幾天之後，至少會有一個人或動物缺乏食物。</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>人或動物沒有食物的情況下可支撐的大約天數。不同的物種有不同的飲食，所以有物種可能會先把食物消耗光。選擇路線後，再精心做好準備。\n\n影響因素：\n - 當前的攜帶貨物\n - 攜帶的食物種類、數量\n - 旅隊人員和他們的飲食\n - 覓食率\n - 動物是否可以放牧\n - 食物腐爛的時間\n - 炎熱的天氣加快腐爛速度</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(僅計算首個停留點)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(只考慮第一個目的地)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
-  <DaysWorthOfFoodWarningDialog>你的旅隊只剩下{0}天份的存糧，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog>你的旅隊只有{0}天份食物，這將會陷入飢荒。</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
-  <DaysWorthOfFoodWarningDialog_NoFood>你的旅隊存糧已經耗盡，很快將會陷入飢荒。\n\n你確定你仍然要組織這支旅隊？</DaysWorthOfFoodWarningDialog_NoFood>
+  <DaysWorthOfFoodWarningDialog_NoFood>你的旅隊食物耗盡，將會很快陷入飢荒。</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>你的居民每日採集的食物量平均值。這項數值會根據你路過食物產量不同的生態系而變化。</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>你的居民每日覓食的平均值。此數值會根據你覓食產量不同的生態系而變化。</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
-  <ForagedFoodPerDay>每日糧食採集量</ForagedFoodPerDay>
+  <ForagedFoodPerDay>每日覓食</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
-  <CaravanFoodWillRotSoonWarningDialog>指定的食物中有大部分即將腐敗。\n\n你確定你仍然要組織這支旅隊？</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanFoodWillRotSoonWarningDialog>旅隊有大部分的食物即將腐爛。</CaravanFoodWillRotSoonWarningDialog>
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
-  <CaravanIncapableOfSocial>你的旅隊沒有具備外交及交易能力的成員。</CaravanIncapableOfSocial>
+  <CaravanIncapableOfSocial>你沒有能夠進行外交或交易的旅隊人員。</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
   <CaravanAreYouSure>你確定要組織這支旅隊嗎？?</CaravanAreYouSure>
   <!-- EN: You must choose a route for the caravan first. -->
-  <MessageMustChooseRouteFirst>你必須先選取一條路線。</MessageMustChooseRouteFirst>
+  <MessageMustChooseRouteFirst>你必須先選取一條旅隊路線。</MessageMustChooseRouteFirst>
   <!-- EN: Your caravan is unable to leave the area. Make sure that at least one side is reachable. -->
-  <MessageNoValidExitTile>你的旅隊無法離開本區域，確保區域中至少有一側邊界可以抵達。</MessageNoValidExitTile>
+  <MessageNoValidExitTile>你的旅隊無法離開本區域。確保區域中有一側邊界可以抵達。</MessageNoValidExitTile>
   <!-- EN: Weight of this item. -->
   <ItemWeightTip>此物品的重量。</ItemWeightTip>
   <!-- EN: Market value -->
   <MarketValueTip>市場價格</MarketValueTip>
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
-  <DaysUntilRotTip>此物品腐敗的天數是根據當前區域的氣溫來推算。</DaysUntilRotTip>
+  <DaysUntilRotTip>此物品腐爛敗的天數是根據當前區域的平均溫度來推算。</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
   <ItemNutritionTip>這個食物所能提供的營養值。\n\n參考：成年人類每日需要{0}營養值。</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
-  <AnimalCanGrazeTip>此動物能在環境中放牧而不消耗旅隊糧食。放牧只能在部份生態系且合適的氣溫下進行。</AnimalCanGrazeTip>
+  <AnimalCanGrazeTip>此動物能在環境中放牧吃草，而不是吃旅隊食物。只能在部份生態系和合適的氣溫下進行放牧。</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>每日採集營養值。實際的數值同時受到生態系的可覓食性影響。\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>每日覓食的營養值。實際的覓食量也會受到生態系的影響。\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
-  <NutritionEatenPerDayTip>每日營養值攝取量。參考：一份簡單料理可提供{0}營養值。\n\n可食用：{2}\n\n圖例：\n{1}。</NutritionEatenPerDayTip>
+  <NutritionEatenPerDayTip>每日攝取的營養值。參考：簡單料理有{0}營養值。\n\n可食用：{2}\n\n圖例：\n{1}。</NutritionEatenPerDayTip>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>目前負重</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -627,7 +627,7 @@
   <!-- EN: Inventory mass -->
   <InventoryMass>貨物重量。</InventoryMass>
   <!-- EN: Your colonists will now gather the items and leave the area. -->
-  <CaravanFormationProcessStarted>現在你的居民將會盡快裝載指定的貨物並出發。</CaravanFormationProcessStarted>
+  <CaravanFormationProcessStarted>你的居民們將會裝載貨物並離開區域。</CaravanFormationProcessStarted>
   <!-- EN: Reform caravan -->
   <ReformCaravan>重組旅隊</ReformCaravan>
   <!-- EN: Colonists -->
@@ -647,25 +647,25 @@
   <!-- EN: tiles/day -->
   <TilesPerDay>格/日</TilesPerDay>
   <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
-  <CaravanMovementSpeedTip>移動速度的計算是根據旅隊所有人類和動物的平均移動速度、載重及地區通行難度計算。</CaravanMovementSpeedTip>
+  <CaravanMovementSpeedTip>移動速度取決於全部人類和動物的平均速度、負重量、地形移動的困難度。</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
-  <AnimalsWillBeAbleToGraze>將可以放牧動物</AnimalsWillBeAbleToGraze>
+  <AnimalsWillBeAbleToGraze>動物可以放牧</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
   <AnimalsCanGraze>可放牧的動物</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
   <PossibleToGrazeFor>(剩餘{0}天)</PossibleToGrazeFor>
   <!-- EN: (forever) -->
-  <PossibleToGrazeForever>(永續)</PossibleToGrazeForever>
+  <PossibleToGrazeForever>(永遠)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
   <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>({0}天後將過冷)</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>({0}天後將變冷)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
   <TotalNutrition>總營養值</TotalNutrition>
   <!-- EN: Not moving -->
-  <CaravanNotMoving>停滯</CaravanNotMoving>
+  <CaravanNotMoving>待命</CaravanNotMoving>
   <!-- EN: Foraged nutrition per day -->
-  <ForagedNutritionPerDay>每日採集營養值</ForagedNutritionPerDay>
+  <ForagedNutritionPerDay>每日覓食營養值</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
   <FactionType>勢力類型</FactionType>
   <!-- EN: Total body size -->
@@ -675,29 +675,29 @@
   <!-- EN: Split caravan -->
   <SplitCaravan>重分旅隊</SplitCaravan>
   <!-- EN: You must leave at least one non-downed colonist. -->
-  <SourceCaravanMustHaveAtLeastOneColonist>你必須保留至少一名具行動能力的居民。</SourceCaravanMustHaveAtLeastOneColonist>
+  <SourceCaravanMustHaveAtLeastOneColonist>你至少要留下一位有行動能力的居民。</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
-  <SplitCaravanThingCountTip>此物品已被分配至旅隊的數量。</SplitCaravanThingCountTip>
+  <SplitCaravanThingCountTip>此物品被分配至新旅隊的數量。</SplitCaravanThingCountTip>
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>您確定要攻擊{0}嗎?\n\n這將使{1}與你敵對，最終他們會開始襲擊你的殖民地!</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>您確定要攻擊{0}嗎?\n\n這將使{1}與你敵對，他們會開始襲擊你的殖民地！</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
   <LoadTransporters>裝載{0}</LoadTransporters>
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
-  <TooBigTransportersMassUsage>目前指派的居民及物資超過運輸艙的最大負重。</TooBigTransportersMassUsage>
+  <TooBigTransportersMassUsage>被指派的居民及物資超過運輸艙的最大負重。</TooBigTransportersMassUsage>
   <!-- EN: The assigned people and items are too heavy for the shuttle. -->
-  <TooBigTransporterSingleMassUsage>指定的人和物品的重量超過太空梭的最大載重能力。</TooBigTransporterSingleMassUsage>
+  <TooBigTransporterSingleMassUsage>被指派的居民及物資超過太空梭的最大負重。</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
-  <CantSendEmptyTransportPods>無法傳送空的運輸艙</CantSendEmptyTransportPods>
+  <CantSendEmptyTransportPods>你無法發射空的運輸艙。</CantSendEmptyTransportPods>
   <!-- EN: You can't send empty shuttle. -->
   <CantSendEmptyTransporterSingle>你無法發射空的太空梭。</CantSendEmptyTransporterSingle>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
   <PawnCantReachTransporters>{1_labelShort}無法前往運輸艙。</PawnCantReachTransporters>
   <!-- EN: {1_labelShort} can't reach the shuttle. -->
-  <PawnCantReachTransporterSingle>{1_labelShort}無法到達到太空梭。</PawnCantReachTransporterSingle>
+  <PawnCantReachTransporterSingle>{1_labelShort}無法到前往太空梭。</PawnCantReachTransporterSingle>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>運輸艙與{0}之間沒有路徑。</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the shuttle and the {0}. -->
@@ -715,7 +715,7 @@
   <!-- EN: Research finished: {0} -->
   <ResearchFinished>完成研究：{0}</ResearchFinished>
   <!-- EN: Research Screen -->
-  <ResearchScreen>研究清單</ResearchScreen>
+  <ResearchScreen>研究項目</ResearchScreen>
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
@@ -795,21 +795,21 @@
   <!-- EN: Delete this drug. -->
   <DeleteDrugTooltip>刪除這個藥物。</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
-  <DrugNameColumnDesc>此藥物的名稱。</DrugNameColumnDesc>
+  <DrugNameColumnDesc>藥物的名稱。</DrugNameColumnDesc>
   <!-- EN: How the drug is allowed to be used. -->
   <DrugUsageColumnDesc>用藥計畫。</DrugUsageColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
-  <FrequencyColumnDesc>居民使用此藥物的頻率。</FrequencyColumnDesc>
+  <FrequencyColumnDesc>居民們使用此藥物的頻率。</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
-  <MoodThresholdColumnDesc>居民只會在心情值低於這個門檻時使用這個藥物。</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>居民們只會在心情值低於這個界限時使用此藥物。</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>居民只會在娛樂值低於這個門檻時使用這個藥物。</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>居民們只會在娛樂值低於這個限時使用此藥物。</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
-  <TakeToInventoryColumnDesc>居民會隨身攜帶的藥物輛，如此便不必經常前往倉庫領取庫存。</TakeToInventoryColumnDesc>
+  <TakeToInventoryColumnDesc>為了避免每次都要去儲存區拿藥物，在拿藥物的時候會多拿一份。</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForAddiction>針對成癮\n\n使用此藥物以滿足已成癮的藥物需求。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForAddiction>
+  <DrugUsageTipForAddiction>針對成癮\n\n使用此藥物滿足已成癮的藥物需求。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForJoy>娛樂目的\n\n為了滿足娛樂及社交需求而使用這個藥物，並滿足藥癮(如果有的話)。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>娛樂目的\n\n為了滿足娛樂及社交需求而使用這個藥物，並滿足藥癮(如果有的話)。\n\n即使禁用藥物，帶有某些特性或精神崩潰的角色還是會強制使用藥物。</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
   <DrugUsageTipScheduled>計劃使用\n\n在滿足特定條件時根據計劃使用藥物。</DrugUsageTipScheduled>
 
@@ -845,49 +845,49 @@
   <!-- EN: Imprisoned colonist -->
   <MedGroupImprisonedColonist>被俘虜的居民</MedGroupImprisonedColonist>
   <!-- EN: Colony animal -->
-  <MedGroupColonyAnimal>馴養動物</MedGroupColonyAnimal>
+  <MedGroupColonyAnimal>馴服動物</MedGroupColonyAnimal>
   <!-- EN: Neutral animal -->
   <MedGroupNeutralAnimal>野生動物</MedGroupNeutralAnimal>
   <!-- EN: Neutral faction -->
-  <MedGroupNeutralFaction>友方</MedGroupNeutralFaction>
+  <MedGroupNeutralFaction>中立勢力</MedGroupNeutralFaction>
   <!-- EN: Hostile faction -->
-  <MedGroupHostileFaction>敵人</MedGroupHostileFaction>
+  <MedGroupHostileFaction>敵方勢力</MedGroupHostileFaction>
   
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
-  <NoGrowerCanPlant>種植{0}需要種植等級{1}的農夫。\n\n你的殖民地沒有符合條件的居民，因此植物不會被種植。</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0}需要種植等級{1}。\n\n你的農夫們技能等級都不到，所以此植物無法被播種。</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>還有一些屬於你的居民或動物存在此區域，你確定要拋棄他們？\n\n以下人員及動物將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>有些你的居民或動物還在此區域。你確定要拋棄他們？\n\n以下人員及動物將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
-  <ConfirmAbandonHomeNegativeThoughts>遺棄{0}將導致以下人員產生以下心情：</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts>遺棄{0}將導致以下人員得到以下心情：</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
   <ConfirmAbandonHomeNegativeThoughts_Everyone>全員：</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>有一些動物或俘虜正試圖與旅隊匯合，如果你移動旅隊，他們將無繼續匯合。\n\n動物、俘虜以及無法動彈的居民被遺留下而沒有其他可活動的居民在場時，將視為被遺棄並被敵人俘獲。\n\n你確定要移動旅隊？</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>有一些動物或俘虜正試圖加入這支旅隊。如果你移動旅隊，他們將無法加入。\n\n地圖上的動物、俘虜、無法行動的居民在沒有其他健康居民們的幫助下，將被視為遺棄，並被敵人俘獲。\n\n你確定要移動旅隊？</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
-  <ConfirmBanishPawnDialog>你真的確定要拋棄{1_label}嗎？</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>你真的確定要遺棄{1_label}嗎？</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort}很可能會死掉。</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
   <ConfirmBanishPawnDialog_Items>{1_labelShort}將會攜帶以下物品：</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
-  <ConfirmBanishPawnDialog_AllColonistsThoughts>所有居民將會獲得以下心情：</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>所有居民們將會獲得以下心情：</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>拋棄{1_labelShort}將會導致以下人員得到以下心情：</ConfirmBanishPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>遺棄{1_labelShort}將會導致以下人員得到以下心情：</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}失蹤了，仍然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}不見了，依然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>因為此地距離其他勢力的據點僅有{0}格遠，他們會將此視為對他們領地的侵略，造成每日{1}點的關係惡化。\n\n仍要在此建立據點？</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>因為此地距離其他勢力據點僅有{0}格遠，他們會覺得你在侵犯他們的領地，造成每日{1}點的關係惡化。\n\n依然要在這建立據點嗎？</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -901,7 +901,7 @@
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
-  <ConfirmCancelMonumentMarker>確定要消除紀念碑上的標記嘛？</ConfirmCancelMonumentMarker>
+  <ConfirmCancelMonumentMarker>確定要移除紀念碑上的標記嗎？</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
