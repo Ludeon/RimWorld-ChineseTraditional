@@ -60,7 +60,7 @@
   <RelatedPawnInvolvedInQuest>{PAWN_nameDef}是{RELATIVE_labelShort}的{1}。若{PAWN_nameDef}不幸死亡，{RELATIVE_labelShort}將會陷入長時間的悲傷，但如果你能救援{PAWN_nameDef}，{RELATIVE_labelShort}將會為此高興很長一段時間。</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
-  <LetterLabelBirthday>生日快樂！</LetterLabelBirthday>
+  <LetterLabelBirthday>生日快樂</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>今天是{0}的生日！於生理上，{1}已經{3}歲了。\n\n而從曆法來計算，{1}已經年滿{2}歲。\n\n需要注意的是，當人們在冷凍休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
@@ -171,7 +171,7 @@
   <LetterRelatedPawnsSite>在該區域中有與你的{0}或俘虜相關的人：</LetterRelatedPawnsSite>
 
   <!-- EN: relationship -->
-  <RelationshipAppendedLetterSuffix>(親友)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterSuffix>親友</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
   <RelationshipAppendedLetterTextColonist>{PAWN_nameDef}是一名居民的親友，{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
