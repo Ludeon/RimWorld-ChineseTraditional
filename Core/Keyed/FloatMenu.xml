@@ -227,17 +227,17 @@
   <PickUpCount>撿起{1_labelShort}x{{0}}</PickUpCount>
   
   <!-- EN: Load {1_label} onto pack animal -->
-  <CannotGiveToPackAnimal>無法將{1_label}裝載上搬運動物</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimal>無法將{1_label}裝載至搬運動物</CannotGiveToPackAnimal>
   <!-- EN: Cannot load {1_label} (all) onto pack animal -->
-  <CannotGiveToPackAnimalAll>無法將所有{1_label}裝載上搬運動物</CannotGiveToPackAnimalAll>
+  <CannotGiveToPackAnimalAll>無法將所有{1_label}裝載至搬運動物</CannotGiveToPackAnimalAll>
   <!-- EN: Load {1_label} onto pack animal -->
-  <GiveToPackAnimal>將{1_label}裝載上搬運動物</GiveToPackAnimal>
+  <GiveToPackAnimal>將{1_label}裝載至搬運動物</GiveToPackAnimal>
   <!-- EN: Load {1_label} (all) onto pack animal -->
-  <GiveToPackAnimalAll>將所有{1_label}裝載上搬運動物</GiveToPackAnimalAll>
+  <GiveToPackAnimalAll>將所有{1_label}裝載至搬運動物</GiveToPackAnimalAll>
   <!-- EN: Load {1_labelShort} onto pack animal... -->
-  <GiveToPackAnimalSome>將{1_labelShort}裝載上搬運動物...</GiveToPackAnimalSome>
+  <GiveToPackAnimalSome>將{1_labelShort}裝載至搬運動物...</GiveToPackAnimalSome>
   <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
-  <GiveToPackAnimalCount>將{1_labelShort}x{{0}}裝載上搬運動物</GiveToPackAnimalCount>
+  <GiveToPackAnimalCount>將{1_labelShort}x{{0}}裝載至搬運動物</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
   <CannotLoadIntoCaravan>無法將{1_label}裝載至旅隊</CannotLoadIntoCaravan>
@@ -331,7 +331,7 @@
   <CannotGenericWorkCustom>無法{0}</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize: incapable of {0} -->
-  <CannotMissingHealthActivities>無法優先(原因{0})</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>無法優先：{0}原因)</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
