@@ -379,7 +379,7 @@
   </SoldPrisoner.rulePack.rulesStrings>
   
   <!-- EN: animal tamed -->
-  <TamedAnimal.label>動物馴養</TamedAnimal.label>
+  <TamedAnimal.label>動物馴服</TamedAnimal.label>
   <!-- EN:
     <li>tale_noun->the taming of [ANIMAL_nameDef] by [TAMER_nameDef]</li>
     <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
@@ -398,9 +398,9 @@
     <li>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
   -->
   <TamedAnimal.rulePack.rulesStrings>
-    <li>tale_noun->[ANIMAL_nameDef]被[TAMER_nameDef]馴養</li>
-    <li>tale_noun->[TAMER_nameDef]馴養了[ANIMAL_nameDef]</li>
-    <li>image->[TAMER_nameFull][circumstance_group]馴養了[ANIMAL_nameFull]</li>
+    <li>tale_noun->[ANIMAL_nameDef]被[TAMER_nameDef]馴服</li>
+    <li>tale_noun->[TAMER_nameDef]馴服了[ANIMAL_nameDef]</li>
+    <li>image->[TAMER_nameFull][circumstance_group]馴服了[ANIMAL_nameFull]</li>
     <li>image->[TAMER_nameFull][circumstance_group]提供了[一些食物給[ANIMAL_nameFull] </li>
     <li>image->[TAMER_nameFull][circumstance_group]對[ANIMAL_nameFull]低語呢喃</li>
     <li>image->[TAMER_nameFull][circumstance_group]安撫了[ANIMAL_nameFull]</li>
