@@ -45,7 +45,7 @@
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
-  <CaravanAmbushedByHumanlike.label>旅隊伏擊</CaravanAmbushedByHumanlike.label>
+  <CaravanAmbushedByHumanlike.label>旅隊被埋伏</CaravanAmbushedByHumanlike.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
@@ -68,7 +68,7 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]的旅隊遭受伏擊</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊遭受埋伏</li>
     <li>image->[PAWN_nameFull]一邊撤退一邊[circumstance_group]</li>
     <li>image->[PAWN_nameFull]一邊上前保護同伴一邊[circumstance_group]</li>
     <li>image->[PAWN_nameFull]一邊作戰一邊[circumstance_group]</li>
@@ -90,7 +90,7 @@
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed by manhunter -->
-  <CaravanAmbushedByManhunter.label>旅隊伏擊(動物)</CaravanAmbushedByManhunter.label>
+  <CaravanAmbushedByManhunter.label>旅隊被獸群埋伏</CaravanAmbushedByManhunter.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
@@ -111,7 +111,7 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]的旅隊遭受伏擊</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊遭受埋伏</li>
     <li>image->[PAWN_nameFull]一邊撤退一邊[circumstance_group]</li>
     <li>image->[PAWN_nameFull]一邊上前保護同伴一邊[circumstance_group]</li>
     <li>image->[PAWN_nameFull]一邊作戰一邊[circumstance_group]</li>
@@ -131,7 +131,7 @@
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
   <!-- EN: caravan demand -->
-  <CaravanDemand.label>旅隊恐嚇</CaravanDemand.label>
+  <CaravanDemand.label>旅隊被勒索</CaravanDemand.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan being threatened</li>
@@ -157,8 +157,8 @@
     <li>action->taunting [PAWN_nameDef]</li>
   -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]的旅隊接收到了恐嚇</li>
-    <li>tale_noun->[PAWN_nameDef]的旅隊受到了恐嚇</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊接收到了勒索</li>
+    <li>tale_noun->[PAWN_nameDef]的旅隊受到了威脅</li>
     <li>image->[PAWN_nameFull][circumstance_group]退縮了</li>
     <li>image->[PAWN_nameFull][circumstance_group]發出憤怒的咆嘯</li>
     <li>image->[PAWN_nameFull][circumstance_group]陷入沉思</li>
@@ -767,7 +767,7 @@
   </TornadoFromItem.rulePack.rulesStrings>
   
   <!-- EN: toxic fallout -->
-  <ToxicFallout.label>輻射塵</ToxicFallout.label>
+  <ToxicFallout.label>毒霧霾</ToxicFallout.label>
   <!-- EN:
     <li>tale_noun->fallout settling over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming toxic</li>
@@ -789,8 +789,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <ToxicFallout.rulePack.rulesStrings>
-    <li>tale_noun->輻射塵瀰漫在[PAWN_nameDef]的[Community]四周</li>
-    <li>tale_noun->[PAWN_nameDef]的[Community]周圍的大氣瀰漫著高濃度的輻射塵</li>
+    <li>tale_noun->毒霧瀰漫在[PAWN_nameDef]的[Community]四周</li>
+    <li>tale_noun->[PAWN_nameDef]的[Community]周圍的大氣瀰漫著高濃度的毒霧</li>
     <li>image->不詳之氣瀰漫在天空中，[circumstance_group]</li>
     <li>image->空氣變得凝重，[circumstance_group]</li>
     <li>image->地面發出淡淡的綠光，[circumstance_group]</li>
