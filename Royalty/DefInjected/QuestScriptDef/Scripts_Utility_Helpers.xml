@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: helperKind -->
-  <Util_ChooseRandomQuestHelperKind.root.nodes.GetRandomPawnKindForFaction.storeAs.slateRef>幫助者類型</Util_ChooseRandomQuestHelperKind.root.nodes.GetRandomPawnKindForFaction.storeAs.slateRef>
+  <Util_ChooseRandomQuestHelperKind.root.nodes.GetRandomPawnKindForFaction.storeAs.slateRef>TODO</Util_ChooseRandomQuestHelperKind.root.nodes.GetRandomPawnKindForFaction.storeAs.slateRef>
   
   <!-- EN:
     <li>helpersParagraph(helpersCount==0)-></li>
@@ -38,11 +38,4 @@
   <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.Letter.label.slateRef>[helpersLabelSingOrPlural]正在離開</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.Letter.label.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
   <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.Letter.text.slateRef>由[asker_nameDef]向你派出以支援任務工作的[helpersLabelSingOrPlural][helpersHasHave]在你這裡消耗了太多時間，現在[helpersIsAre]要離開了。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.Letter.text.slateRef>
-  
-  <!-- UNUSED -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.node.nodes.Letter.label.slateRef>[helpersLabelSingOrPlural]正在離開</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.node.nodes.Letter.label.slateRef>
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.node.nodes.Letter.text.slateRef>由[asker_nameDef]向你派出以支援任務工作的[helpersLabelSingOrPlural][helpersHasHave]在你這裡消耗了太多時間，現在[helpersIsAre]要離開了。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.node.nodes.Letter.text.slateRef>
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.label.slateRef>[helpersLabelSingOrPlural]正在離開</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.label.slateRef>
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.text.slateRef>由[asker_nameDef]向你派出以支援任務工作的[helpersLabelSingOrPlural][helpersHasHave]在你這裡消耗了太多時間，現在[helpersIsAre]離開的時候了。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.text.slateRef>
-  
 </LanguageData>
