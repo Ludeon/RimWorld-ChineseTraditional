@@ -27,7 +27,7 @@
   
   <!-- ToCommaList() -->
   <!-- EN: {0} and {1} -->
-  <ToCommaListAnd>{0} 和 {1}</ToCommaListAnd>
+  <ToCommaListAnd>{0}和{1}</ToCommaListAnd>
   
   <!-- General-use words -->
   <!-- EN: Yes -->
@@ -55,7 +55,7 @@
   <!-- EN: expired -->
   <expired>過期</expired>
   <!-- EN: duration (days) -->
-  <durationDays>持續天數</durationDays>
+  <durationDays>持續時間(天)</durationDays>
   <!-- EN: interval (days) -->
   <intervalDays>間隔(天)</intervalDays>
   <!-- EN: repeat -->
@@ -88,9 +88,9 @@
   <!-- EN: {0} meat -->
   <MeatLabel>{0}肉</MeatLabel>
   <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
-  <MeatDesc>屠宰好的生肉，可以烹調成料理或是生吃。</MeatDesc>
+  <MeatDesc>屠宰好的生肉。可以烹調成料理或直接生吃。</MeatDesc>
   <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
-  <MeatInsectDesc>屠宰好的生肉。可以烹調成料理，有必要的話還能直接生吃，但十分噁心。</MeatInsectDesc>
+  <MeatInsectDesc>屠宰好的生肉。如有必要，可以烹調成料理，或直接生吃。這會令人非常倒胃。</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
   <MeatHumanDesc>屠宰好的生肉。可以烹調成料理或直接生吃，但大概沒有人喜歡這個主意。</MeatHumanDesc>
 
@@ -118,14 +118,14 @@
   <!-- EN: rough-hewn {0} -->
   <RoughHewnStoneTerrainLabel>開鑿出的崎嶇{0}</RoughHewnStoneTerrainLabel>
   <!-- EN: Roughly cut natural {0} floor. -->
-  <RoughHewnStoneTerrainDesc>開鑿出的崎嶇{0}地面。</RoughHewnStoneTerrainDesc>
+  <RoughHewnStoneTerrainDesc>開鑿出的天然崎嶇{0}地面。</RoughHewnStoneTerrainDesc>
   <!-- EN: smooth {0} -->
   <SmoothStoneTerrainLabel>光滑{0}</SmoothStoneTerrainLabel>
   <!-- EN: Smoothed natural {0} floor. -->
   <SmoothStoneTerrainDesc>天然光滑{0}地面。</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
-  <BlueprintLabelExtra>預定地</BlueprintLabelExtra>
+  <BlueprintLabelExtra>(預定地)</BlueprintLabelExtra>
   <!-- EN:  (building) -->
   <FrameLabelExtra>(建造中)</FrameLabelExtra>
 
