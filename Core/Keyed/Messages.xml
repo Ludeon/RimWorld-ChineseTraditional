@@ -2,40 +2,40 @@
 <LanguageData>
 
   <!-- EN: Sieging {0} from {1} are assaulting the colony. -->
-  <MessageSiegersAssaulting>圍攻殖民地的{1}{0}開始突擊殖民地。</MessageSiegersAssaulting>
+  <MessageSiegersAssaulting>圍攻殖民地的{1}{0}開始進攻殖民地。</MessageSiegersAssaulting>
 
   <!-- EN: {0} from {1} are beginning their assault. -->
-  <MessageRaidersBeginningAssault>來自{1}的{0}開始了他們的進攻。</MessageRaidersBeginningAssault>
+  <MessageRaidersBeginningAssault>{1}的{0}開始了他們的進攻。</MessageRaidersBeginningAssault>
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
-  <MessageRaidersDetectedEarlyAssault>來自{1}的{0}發現了你並提前開始了進攻。</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersDetectedEarlyAssault>{1}的{0}發現了你並提前開始進攻。</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
-  <MessageRaidersKidnapping>來自{1}的{0}打算绑架他們能帶走的人並離開。</MessageRaidersKidnapping>
+  <MessageRaidersKidnapping>{1}的{0}打算绑架人質後離開。</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
-  <MessageRaidersStealing>來自{1}的{0}打算大肆搜刮一番後離開這個地區。</MessageRaidersStealing>
+  <MessageRaidersStealing>{1}的{0}打算大肆搜刮後離開。</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} are leaving. -->
-  <MessageRaidersLeaving>來自{1}的{0}離開了。</MessageRaidersLeaving>
+  <MessageRaidersLeaving>{1}的{0}離開了。</MessageRaidersLeaving>
   <!-- EN: {0} from {1} have given up and are leaving. -->
-  <MessageRaidersGivenUpLeaving>來自{1}的{0}已經放棄攻擊並離開了。</MessageRaidersGivenUpLeaving>
+  <MessageRaidersGivenUpLeaving>{1}的{0}已經放棄攻擊並離開了。</MessageRaidersGivenUpLeaving>
   <!-- EN: {0} from {1} are satisfied with the damage done and are leaving. -->
-  <MessageRaidersSatisfiedLeaving>來自{1}的{0}對於他們造成的破壞感到滿意並離開了。</MessageRaidersSatisfiedLeaving>
+  <MessageRaidersSatisfiedLeaving>{1}的{0}對於造成的破壞感到滿意並離開了。</MessageRaidersSatisfiedLeaving>
 
   <!-- EN: {0} from {1} are fleeing. -->
-  <MessageFightersFleeing>來自{1}的{0}的成員正在逃跑。</MessageFightersFleeing>
+  <MessageFightersFleeing>{1}的{0}正在逃跑。</MessageFightersFleeing>
   <!-- EN: Friendly {0} from {1} are leaving. -->
-  <MessageFriendlyFightersLeaving>來自{1}的友好{0}離開了。</MessageFriendlyFightersLeaving>
+  <MessageFriendlyFightersLeaving>{1}的友好{0}離開了。</MessageFriendlyFightersLeaving>
 
   <!-- EN: {0} from {1} are taking a wounded guest. -->
-  <MessageVisitorsTakingWounded>來自{1}的{0}帶走一名受傷的訪客。</MessageVisitorsTakingWounded>
+  <MessageVisitorsTakingWounded>{1}的{0}帶走一名受傷的訪客。</MessageVisitorsTakingWounded>
   <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
-  <MessageVisitorsTrappedLeaving>來自{1}的{0}受困了，他正嘗試脫逃。</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsTrappedLeaving>{1}的{0}受困了，他正嘗試脫逃。</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
-  <MessageVisitorsDangerousTemperature>因為危險的氣溫，來自{1}的{0}正在離開這個地區。</MessageVisitorsDangerousTemperature>
+  <MessageVisitorsDangerousTemperature>由於危險的氣溫，{1}的{0}正打算離開。</MessageVisitorsDangerousTemperature>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>{1_nameFull}穿著的{0}已經損壞。</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>{1_nameFull}穿的{0}破損到不能再穿了。</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>{0}在儲存區中因老化而損毀。</MessageDeterioratedAway>
+  <MessageDeterioratedAway>{0}在儲存區中損毀。</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>{0}到來了。</MessageSeasonBegun>
@@ -44,7 +44,7 @@
   <MessageShipHasLeftCommsRange>{0}遠離了通訊範圍。</MessageShipHasLeftCommsRange>
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
-  <MessageNeedBeaconToTradeWithShip>你需要一個軌道交易信標才能和飛船交易交易。\n\n信標必須連接電力。</MessageNeedBeaconToTradeWithShip>
+  <MessageNeedBeaconToTradeWithShip>你需要一個軌道交易信標才能和飛船交易。</MessageNeedBeaconToTradeWithShip>
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0}已被摧毀。</MessageConditionCauserDespawned>
@@ -62,21 +62,21 @@
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort}的附近找不到可供{GUN_label}使用的砲彈。</MessageOutOfNearbyShellsFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>警告：{ANIMAL_kindBasePlural}在受到攻擊後很可能會展開反擊(在步槍射程外有{1}機率觸發，距離越短機率越高，隱蔽性越高機率越低)。</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>警告：{ANIMAL_kindBasePlural}在受到傷害後有{1}的攻擊機率。機率取決於射程範圍、獵人的隱匿技巧。</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>警告：若馴服失敗，{ANIMAL_kindBasePlural}很可能會對你展開攻擊(機率{1})。</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalManhuntsOnTameFailed>警告：{ANIMAL_kindBasePlural}可能在馴服失敗時攻擊(機率{1})。</MessageAnimalManhuntsOnTameFailed>
   
   <!-- EN: New recruit -->
-  <LetterLabelMessageRecruitSuccess>新成員！</LetterLabelMessageRecruitSuccess>
+  <LetterLabelMessageRecruitSuccess>新成員</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull}成功招募了{RECRUITEE_nameFull}(成功率{2})。</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull}成功招募了{RECRUITEE_nameFull}(機率{2})。</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{RECRUITER_labelShort}成功馴服了{1}(成功率{2})。</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort}成功馴服了{1}(機率{2})。</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功馴服了{1}(成功率{2})，並將牠命名為{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功馴服了{1}(機率{2})。牠現在命名為{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
-  <MessageColonyCannotAfford>殖民地無法支付這筆資金。</MessageColonyCannotAfford>
+  <MessageColonyCannotAfford>殖民地無法支付這筆交易。</MessageColonyCannotAfford>
   <!-- EN: You do not have enough silver ready to trade. -->
   <MessageColonyNotEnoughSilver>可用於交易的白銀不足。</MessageColonyNotEnoughSilver>
 
@@ -84,13 +84,13 @@
   <MessageCriticalAlert>嚴重警報：{0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>必須指定已長成可收穫的植物。</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestable>必須指定已成熟可收穫的植物。</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>必須指定已長成可收穫木頭的樹木。</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestableWood>必須指定已成熟可收穫木頭的樹木。</MessageMustDesignateHarvestableWood>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>必須指定植物。</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
-  <MessageMustDesignateHaulable>必須指定可以搬運的物品。</MessageMustDesignateHaulable>
+  <MessageMustDesignateHaulable>必須指定可以搬運的物品。有些物品會自動被搬運，無法指定</MessageMustDesignateHaulable>
   <!-- EN: Must designate impassable mineable rocks. -->
   <MessageMustDesignateMineable>必須指定可開採的岩石。</MessageMustDesignateMineable>
   <!-- EN: Must designate huntable animals. -->
@@ -98,19 +98,19 @@
   <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>必須指定可馴服的動物。</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned artificial structures. -->
-  <MessageMustDesignateClaimable>必須指定無主的人造建築。</MessageMustDesignateClaimable>
+  <MessageMustDesignateClaimable>必須指定被遺棄的人造建築。</MessageMustDesignateClaimable>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>你必須先破壞機械群集，才能進行拆解。</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>你必須先擊敗機械軍團，才能進行拆解。</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
-  <MessageMustDesignateSmoothableSurface>必須指定可拋光的崎嶇岩石地面。</MessageMustDesignateSmoothableSurface>
+  <MessageMustDesignateSmoothableSurface>必須指定崎嶇的岩石地面。</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>無法移除厚山岩屋頂。</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
-  <MessageAlreadyInStorage>這個物件已經被儲存，並且會被移至優先度最高的儲存區。</MessageAlreadyInStorage>
+  <MessageAlreadyInStorage>此物件已經在儲存區，並且會被移至優先度最高的儲存區。</MessageAlreadyInStorage>
   <!-- EN: Must designate corpse or downed character with strippable apparel. -->
-  <MessageMustDesignateStrippable>必須指定已死亡或倒地的角色。</MessageMustDesignateStrippable>
+  <MessageMustDesignateStrippable>必須指定已死亡或被掠奪的倒地角色。</MessageMustDesignateStrippable>
   <!-- EN: Must designate tame animal that belongs to the colony. -->
-  <MessageMustDesignateSlaughterable>必須指定隸屬殖民地的馴養動物。</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateSlaughterable>必須指定殖民地的馴服動物。</MessageMustDesignateSlaughterable>
   <!-- EN: Must designate full graves or containers. -->
   <MessageMustDesignateOpenable>必須指定已滿的墳墓或休眠艙。</MessageMustDesignateOpenable>
   <!-- EN: Must designate unforbidden items. -->
@@ -122,11 +122,11 @@
   <MessageRefusedArrest>{1_labelShort}拒絕被拘捕！</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
-  <MessageNoMedicalBeds>沒有可用的病床或醫療床。</MessageNoMedicalBeds>
+  <MessageNoMedicalBeds>沒有可用的醫療床。</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>沒有可用的動物床。</MessageNoAnimalBeds>
   <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>{0}手術需要更高的照護等級，但目前{PAWN_labelShort}的照護等級只有{2}。</MessageTooLowMedCare>
+  <MessageTooLowMedCare>手術需要{0}或更高的醫療等級，但目前{PAWN_labelShort}的醫療照顧等級是{2}。</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort}死亡了。死因：{1}。</PawnDiedBecauseOf>
@@ -140,13 +140,13 @@
   <MessageInvoluntarySleep>極度的疲勞使得{1_labelShort}倒下了。</MessageInvoluntarySleep>
 
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時出現細微的失誤。</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了小失誤({RECIPE_label})。</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}在對{PATIENT_LabelShort}執行手術時出現重大的失誤。</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}在對{PATIENT_LabelShort}執行手術時犯了災難性的失誤({RECIPE_label})。</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯下了荒謬的失誤。</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了愚蠢的失誤({RECIPE_label})。</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯下了致命的失誤。原因是一個特殊的挑戰：{2}</MessageMedicalOperationFailureFatal>
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了致命的失誤，原因是一個特殊的挑戰：{2}</MessageMedicalOperationFailureFatal>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>這項行動將會激怒{0}。</MessageMedicalOperationWillAngerFaction>
@@ -156,7 +156,7 @@
   <!-- EN: {0} has miscarried due to poor health. -->
   <MessageMiscarriedPoorHealth>{0}因健康狀況不佳而流產了。</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
-  <MessageGaveBirth>{0}生產了！</MessageGaveBirth>
+  <MessageGaveBirth>{0}出生了！</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psychic amplifier while {PAWN_pronoun} has zero psychic sensitivity. -->
   <MessagePsychicAmplifierNoSensitivity>{PAWN_labelShort}無法使用心靈增幅器，而{PAWN_pronoun}的心靈敏感度為零。</MessagePsychicAmplifierNoSensitivity>
@@ -168,10 +168,10 @@
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}已經超過了心靈熵值的安全極限。</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>在被撒嬌後，{NAMER_nameFull}決定將{1}取名為{NAMEE_nameFull}。</MessageNuzzledPawnGaveNameTo>
+  <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull}在被撒嬌後，決定將{1}取名為{NAMEE_nameFull}。</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>沒有馴養員能夠馴服{ANIMAL_kindBase}(需要等級{1}的{2}，最好的馴養員{HANDLER_labelShort}只有等級{4})。</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>沒有馴服員能夠馴服{ANIMAL_kindBase}(需要等級{1}的{2}，最好的馴養員{HANDLER_labelShort}只有等級{4})。</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort}被{PREDATOR}吃掉了。</MessageEatenByPredator>
@@ -182,18 +182,18 @@
   <MessageHiveReproduced>一個蟲巢蔓延了。</MessageHiveReproduced>
   
   <!-- EN: The trade caravan from {0} is leaving. -->
-  <MessageTraderCaravanLeaving>來自{0}的旅隊離開了。</MessageTraderCaravanLeaving>
+  <MessageTraderCaravanLeaving>{0}的旅隊離開了。</MessageTraderCaravanLeaving>
   
   <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{1_labelShort}已經死亡。</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
-  <MessageCantSelectOffMapPawn>{1_labelShort}目前不在地圖中。</MessageCantSelectOffMapPawn>
+  <MessageCantSelectOffMapPawn>{1_labelShort}不在地圖中。</MessageCantSelectOffMapPawn>
   
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
-  <MessageSocialFight>{PAWN1_labelShort}和{PAWN2_labelShort}打了起來。</MessageSocialFight>
+  <MessageSocialFight>{PAWN1_labelShort}和{PAWN2_labelShort}吵起來了。</MessageSocialFight>
   
   <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}’s marriage. -->
-  <MessageNewMarriageCeremony>居民們聚集在一塊，準備參加{PAWN1_labelShort}和{PAWN2_labelShort}的婚禮</MessageNewMarriageCeremony>
+  <MessageNewMarriageCeremony>居民們聚集在一起慶祝{PAWN1_labelShort}和{PAWN2_labelShort}的婚禮。</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{PAWN1_labelShort}和{PAWN2_labelShort}的婚禮開始了！</MessageMarriageCeremonyStarts>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
@@ -219,13 +219,13 @@
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort}成功移除了{PATIENT_labelShort}的{HEDIFF}。</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
-  <MessageShipChunkDrop>有星艦的碎片墜落到了附近。</MessageShipChunkDrop>
+  <MessageShipChunkDrop>有星艦的碎片墜落到了附近。你可以拆解它們來獲取資源。</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>因為下列原因，商品無法交易：</MessageCannotSellItemsReason>
+  <MessageCannotSellItemsReason>有些商品無法交易。原因：</MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort}沒能建好{0}，有一部份材料被浪費掉了。</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort}建造{0}失敗。有些資源被浪費掉了。</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>螢幕截圖已儲存為：{0}</MessageScreenshotSavedAs>
@@ -234,13 +234,13 @@
   <MessageNoLongerSocialFighting>{PAWN1_labelShort}和{PAWN2_labelShort}不再吵架了。</MessageNoLongerSocialFighting>
   
   <!-- EN: {2_labelShort} is no longer binging on {1}. -->
-  <MessageNoLongerBingingOnDrug>{2_labelShort}不再暴食{1}了。</MessageNoLongerBingingOnDrug>
+  <MessageNoLongerBingingOnDrug>{2_labelShort}不再濫用{1}了。</MessageNoLongerBingingOnDrug>
 
   <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort}停止了對{TARGET_label}的瘋狂侮辱。</MessageNoLongerOnTargetedInsultingSpree>
 
   <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_label}腐敗了。</MessageRottedAwayInStorage>
+  <MessageRottedAwayInStorage>{1_label}腐爛掉了。</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{PAWN_labelShort}吃了{FOOD_labelShort}而食物中毒了。原因：{2}。</MessageFoodPoisoning>
@@ -248,11 +248,11 @@
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0}被移除出旅隊。</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
-  <MessagePawnLostWhileFormingCaravan_AllLost>旅隊組織行動以被中止。</MessagePawnLostWhileFormingCaravan_AllLost>
+  <MessagePawnLostWhileFormingCaravan_AllLost>旅隊行動被中止了。</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
-  <MessageCaravanFormationPaused>旅隊組織行動將會在所有成員恢復理智後繼續。</MessageCaravanFormationPaused>
+  <MessageCaravanFormationPaused>旅隊將會在所有成員恢復理智後繼續行動。</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
-  <MessageCaravanFormationUnpaused>你的居民將開始組織旅隊。</MessageCaravanFormationUnpaused>
+  <MessageCaravanFormationUnpaused>你的居民開始組織旅隊。</MessageCaravanFormationUnpaused>
   
   <!-- EN: One of the caravan members has had a mental break. -->
   <MessageCaravanMemberHasExtremeMentalBreak>其中一名旅隊成員精神崩潰了。</MessageCaravanMemberHasExtremeMentalBreak>
@@ -261,20 +261,20 @@
   <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整顆星球可能需要不少時間。</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>{0}因低溫而凍死了。</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfCold>{0}因為低溫而凍死了。</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>{0}因過長時間未收穫而凋零了。</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0}因為長時間未收穫而凋零了。</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
-  <MessagePlantDiedOfRot_ExposedToLight>{0}因曝光而凋零了。</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot_ExposedToLight>{0}因為曝光而凋零了。</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
   <MessagePlantDiedOfRot>{0}凋零了。</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
-  <MessagePlantDiedOfPoison>{0}因毒素而凋零了。</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfPoison>{0}因為毒素而凋零了。</MessagePlantDiedOfPoison>
   <!-- EN: {1_label} has died because of blight. -->
-  <MessagePlantDiedOfBlight>{1_label}因病凋零了。</MessagePlantDiedOfBlight>
+  <MessagePlantDiedOfBlight>{1_label}因為枯萎病而凋零了。</MessagePlantDiedOfBlight>
 
   <!-- EN: {1_labelShort} is being burned by superheated air! -->
-  <MessagePawnBeingBurned>{1_labelShort}被高溫烤乾枯萎了！</MessagePawnBeingBurned>
+  <MessagePawnBeingBurned>{1_labelShort}因為高溫而枯萎了！</MessagePawnBeingBurned>
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
   <MessageAccidentalOverdose>{INGESTER}不小心用了太多{DRUG_labelShort}！</MessageAccidentalOverdose>
@@ -283,12 +283,12 @@
   <MessageCaravanArrivedAtDestination>{0}已經抵達目的地。</MessageCaravanArrivedAtDestination>
   
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
-  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort}已經離開地圖並組成旅隊。</MessagePawnLeftMapAndCreatedCaravan>
+  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort}已經離開區域並組成旅隊。</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>你的動物已經動身加入。</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
   
   <!-- EN: You have successfully settled in a new area. -->
-  <MessageSettledInExistingMap>你已經成功在新地區建立新據點。</MessageSettledInExistingMap>
+  <MessageSettledInExistingMap>你已經成功在新地區建立據點。</MessageSettledInExistingMap>
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort}的{2}痊癒了。原因：{0}</MessagePermanentWoundHealed>
@@ -299,48 +299,48 @@
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>部分運輸艙受到阻擋。</MessageTransporterUnreachable>
   <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
-  <MessageTransportersNotAdjacent>所有與運輸艙相連的發射座必須相鄰。</MessageTransportersNotAdjacent>
+  <MessageTransportersNotAdjacent>所有與運輸艙相連的發射平台必須相鄰。</MessageTransportersNotAdjacent>
   
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
-  <MessageTransportersLoadCanceled_TransporterDestroyed>裝載工作已中止，因為其中一個運輸艙被摧毀。</MessageTransportersLoadCanceled_TransporterDestroyed>
+  <MessageTransportersLoadCanceled_TransporterDestroyed>因為其中一個運輸艙被摧毀，裝載工作被取消了。</MessageTransportersLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
-  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>因為太空梭被毀，因此裝載的工作被取消了。</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
+  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>因為太空梭被摧毀，裝載工作被取消了。</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
-  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>裝載工作已中止，因為其中一個發射座被摧毀。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>因為其中一個發射平台被摧毀，裝載工作已被取消。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
-  <MessageTransportersLoadingProcessStarted>你的居民將會將指定的物品裝載至運輸艙內。</MessageTransportersLoadingProcessStarted>
+  <MessageTransportersLoadingProcessStarted>被指定的物品、人員將會被裝載到運輸艙。</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>指定的物品和人員現已被裝載到太空梭。</MessageTransporterSingleLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>被指定的物品、人員將會被裝載到太空梭。</MessageTransporterSingleLoadingProcessStarted>
   
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>你的運輸艙已經抵達。</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
-  <MessageTransportPodsArrivedAndLost>你的運輸艙已經抵達，但因為沒有人員在內，你遺失了內容物。</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndLost>你的運輸艙已經抵達，但因為沒有人員在內，所以遺失了內容物。</MessageTransportPodsArrivedAndLost>
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
-  <MessageTransportPodsArrivedAndAddedToCaravan>你的運輸艙已經抵達，內容物已加入至{0}。</MessageTransportPodsArrivedAndAddedToCaravan>
+  <MessageTransportPodsArrivedAndAddedToCaravan>你的運輸艙已經抵達。內容物已加入至{0}。</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>你的居民已完成運輸艙的裝載工作。</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingTransporters>運輸艙的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>太空梭已裝載完所需的貨物，隨時可以發射。</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingTransporterSingle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporterSingle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>你的{1}無法完成運輸艙的裝載工作，因為無法接觸部份物品或人員({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoTransporters>你的{1}無法完成運輸艙的裝載工作，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
   
   <!-- EN: Selected destination is invalid. -->
-  <MessageTransportPodsDestinationIsInvalid>所選目的地無效。</MessageTransportPodsDestinationIsInvalid>
+  <MessageTransportPodsDestinationIsInvalid>選擇的目的地無效。</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
-  <MessageTransportPodsDestinationIsTooFar>每個發射座都需要至少{0}單位的化合燃料才能發送的這個距離外的目的地。</MessageTransportPodsDestinationIsTooFar>
+  <MessageTransportPodsDestinationIsTooFar>每個發射平台都需要至少{0}單位的化合燃料才能發射到這個距離。</MessageTransportPodsDestinationIsTooFar>
   
   <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>旅隊已被重組。</MessageReformedCaravan>
   
   <!-- EN: You can't banish the last colonist. -->
-  <MessageCantBanishLastColonist>你不能放逐最後一名居民。</MessageCantBanishLastColonist>
+  <MessageCantBanishLastColonist>你不能放逐最後一位居民。</MessageCantBanishLastColonist>
 
   <!-- EN: Cannot equip: {0}. -->
-  <MessageCantEquipCustom>無法裝備: {0}。</MessageCantEquipCustom>
+  <MessageCantEquipCustom>無法裝備:{0}。</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>無法裝備：{1_labelShort}排斥暴力。</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: Incapable. -->
@@ -353,33 +353,33 @@
   <MessageWouldReplaceLockedApparel>無法穿上：這將替換服裝{1_labelShort}拒絕解除。</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageSlaughteringBondedAnimal>宰殺{DESIGNATED_labelShort}將會讓{BONDED_labelShort}不開心，因為他們是夥伴。</MessageSlaughteringBondedAnimal>
+  <MessageSlaughteringBondedAnimal>因為他們是夥伴，宰殺{DESIGNATED_labelShort}將會讓{BONDED_labelShort}不開心。</MessageSlaughteringBondedAnimal>
   
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
-  <MessageCaravanRanOutOfFood>{0}耗盡了糧食({PAWN_label})。</MessageCaravanRanOutOfFood>
+  <MessageCaravanRanOutOfFood>{0}的食物耗盡了({PAWN_label})。</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
   <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite}的屍體被旅隊拾起。因為屍體很重，可能會限制旅隊的行動，可以在旅隊的「物品」選項找到並丟棄。</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
-  <MessageSelectOwnBaseToFormCaravan>要組織旅隊，選擇你的據點或你的居民所在的地點。</MessageSelectOwnBaseToFormCaravan>
+  <MessageSelectOwnBaseToFormCaravan>要組織旅隊，選擇你的殖民地或是你的居民所在的據點。</MessageSelectOwnBaseToFormCaravan>
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>根據目前的解析度及UI比例，螢幕將無法容納遊戲界面，請降低UI比例或調高解析度。</MessageScreenResTooSmallForUIScale>
   
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
-  <MessageYouHaveToReformCaravanNow>你必須立刻重組旅隊，任何被拋下的人將會被遺棄。</MessageYouHaveToReformCaravanNow>
+  <MessageYouHaveToReformCaravanNow>你必須立刻重組旅隊。任何被拋下的人將會被遺棄。</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>來自{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
+  <MessageDefendersAttacking>{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and are attacking. -->
-  <MessageMechanoidsAssembled>機械族已經甦醒並且正在開始攻擊。</MessageMechanoidsAssembled>
+  <MessageMechanoidsAssembled>機械族已經甦醒，開始攻擊你。</MessageMechanoidsAssembled>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
-  <MessageMechanoidsReinforcementsDrop>機械族信標召喚了一批增援部隊在附近區域降落。</MessageMechanoidsReinforcementsDrop>
+  <MessageMechanoidsReinforcementsDrop>機械族信標召喚了增援部隊在附近降落。</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>{1_labelShort}需被指定醫護工作才能夠自行治療。</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>{1_labelShort}需被指派醫生工作才能夠自行治療。</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
-  <MessageCannotSelfTendEver>{1_labelShort}無法執行醫護工作，因此也無法自行治療</MessageCannotSelfTendEver>
+  <MessageCannotSelfTendEver>{1_labelShort}無法執行醫生工作，所以無法自行治療。</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>此地塊無法通行。</MessageCantAddWaypointBecauseImpassable>
@@ -388,23 +388,23 @@
   <!-- EN: You can't add more than {0} waypoints. -->
   <MessageCantAddWaypointBecauseLimit>你無法新增超過{0}個中途點。</MessageCantAddWaypointBecauseLimit>
   <!-- EN: You can't remove this waypoint. -->
-  <MessageCantRemoveWaypointBecauseFirst>你無法移除這個中途點。</MessageCantRemoveWaypointBecauseFirst>
+  <MessageCantRemoveWaypointBecauseFirst>你無法移除此中途點。</MessageCantRemoveWaypointBecauseFirst>
   
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
-  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>你的監管人中沒有允許使用暴力的人員，因此處刑將不被執行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>你的獄卒沒有使用暴力的人員。處決無法執行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
   <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
-  <MessageSiteCountdownBecauseNoMoreEnemies>你殲滅了所有敵人，旅隊將在{0}內自動重組。</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoMoreEnemies>你殲滅了所有敵人。旅隊將在{0}內自動重組。</MessageSiteCountdownBecauseNoMoreEnemies>
   <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
-  <MessageSiteCountdownBecauseNoEnemiesInitially>旅隊將在{0}內自動重組，你也可以在世界畫面立刻重組旅隊。</MessageSiteCountdownBecauseNoEnemiesInitially>
+  <MessageSiteCountdownBecauseNoEnemiesInitially>旅隊將在{0}內自動重組。你也可以在世界畫面中重組旅隊。</MessageSiteCountdownBecauseNoEnemiesInitially>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
-  <MessageCantBanishDownedPawn>在{1_labelShort}動彈不得時無法放逐{1_pronoun}。</MessageCantBanishDownedPawn>
+  <MessageCantBanishDownedPawn>無法放逐{1_labelShort}，因為{1_pronoun}無法行動。</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>{0}已經醒來。</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
-  <MessageMechClusterDefeated>機械要塞建築已被摧毀。</MessageMechClusterDefeated>
+  <MessageMechClusterDefeated>機械軍團的建築已被摧毀。</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>物件已生產：{0}。</MessageCompSpawnerSpawnedItem>
@@ -420,12 +420,12 @@
   <MessagePawnResurrected>{0}被救活了！</MessagePawnResurrected>
 
   <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
-  <MessageFailedToRescueRelative>你沒能成功救援{PAWN_labelShort}，這使得{RELATIVE_labelShort}陷入哀傷。</MessageFailedToRescueRelative>
+  <MessageFailedToRescueRelative>你救援{PAWN_labelShort}失敗。這使得{RELATIVE_labelShort}陷入悲傷。</MessageFailedToRescueRelative>
   <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
-  <MessageRescuedRelative>你成功救援了{PAWN_labelShort}，這使得{RELATIVE_labelShort}心情振奮。</MessageRescuedRelative>
+  <MessageRescuedRelative>你救援了{PAWN_labelShort}。這使得{RELATIVE_labelShort}心情振奮。</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
-  <MessageTornadoLeftMap>龍捲風已經離開這個區域。</MessageTornadoLeftMap>
+  <MessageTornadoLeftMap>龍捲風已經離開地圖。</MessageTornadoLeftMap>
   <!-- EN: The tornado has dissipated. -->
   <MessageTornadoDissipated>龍捲風已經消散。</MessageTornadoDissipated>
 
@@ -436,13 +436,13 @@
   <MessageWarningCavePlantsExposedToLight>警告：{0}無法在曝光狀態下存活。</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將怒氣轉而發洩在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將怒氣轉而發洩在{TARGET_label}身上。</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageMurderousRageChangedTarget>{PAWN_labelShort}決定將{PAWN_possessive}怒氣轉而發洩在{TARGET_label}身上。</MessageMurderousRageChangedTarget>
+  <MessageMurderousRageChangedTarget>{PAWN_labelShort}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageMurderousRageChangedTarget>
 
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0}無法在屋頂下生長。</MessagePlantIncompatibleWithRoof>
@@ -450,12 +450,12 @@
   <MessageRoofIncompatibleWithPlant>無法在{0}上方搭建屋頂。</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
-  <MessageChoseRoute>旅隊將自動旅行至第一個目的點。</MessageChoseRoute>
+  <MessageChoseRoute>旅隊將自動旅行至第一個目的地。</MessageChoseRoute>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>使用世界地圖中的「重組旅隊」按鈕離開本區域。</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>在世界地圖中使用'重組旅隊'按鈕離開區域。</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>你現在無法離開這個區域。</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>你現在無法離開地圖。</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
   <MessageGoodwillChanged>和{0}的關係從{1}轉變為{2}。</MessageGoodwillChanged>
@@ -466,7 +466,7 @@
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
   <GoodwillChangedReason_UsedItem>在{ITEM_labelShort}身上使用{TARGET_labelShort}</GoodwillChangedReason_UsedItem>
   <!-- EN: used {0} on {1} -->
-  <GoodwillChangedReason_UsedAbility>在 {0} 上使用 {1}</GoodwillChangedReason_UsedAbility>
+  <GoodwillChangedReason_UsedAbility>在{0}上使用{1}</GoodwillChangedReason_UsedAbility>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>摘除了{0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: removed {0} -->
@@ -482,62 +482,62 @@
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort}死了</GoodwillChangedReason_PawnDied>
   <!-- EN: traded -->
-  <GoodwillChangedReason_Traded>貿易</GoodwillChangedReason_Traded>
+  <GoodwillChangedReason_Traded>交易</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>攻擊了旅隊</GoodwillChangedReason_AttackedCaravan>
   <!-- EN: natural tendency to reach {0} over time -->
   <GoodwillChangedReason_NaturallyOverTime>隨著時間自然趨向{0}</GoodwillChangedReason_NaturallyOverTime>
   <!-- EN: {1_labelShort} exited the map healthy -->
-  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort}健康的離開了此區域</GoodwillChangedReason_ExitedMapHealthy>
+  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort}健康的離開地圖</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {1_labelShort} -->
   <GoodwillChangedReason_Tended>治療到{1_labelShort}</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
   <GoodwillChangedReason_ReceivedGift>收到禮物</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
-  <GoodwillChangedReason_FulfilledTradeRequest>滿足了貿易請求</GoodwillChangedReason_FulfilledTradeRequest>
+  <GoodwillChangedReason_FulfilledTradeRequest>滿足了交易請求</GoodwillChangedReason_FulfilledTradeRequest>
   <!-- EN: finished a quest -->
   <GoodwillChangedReason_FinishedQuest>完成一個任務</GoodwillChangedReason_FinishedQuest>
   <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
-  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} 使用 {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
+  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort}使用{CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
   <!-- EN: sold {0_labelShort} -->
   <GoodwillChangedReason_SoldPawn>出售{0_labelShort}</GoodwillChangedReason_SoldPawn>
   <!-- EN: euthanized {PAWN_labelShort} -->
-  <GoodwillChangedReason_EuthanizedPawn>安樂死 {PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
+  <GoodwillChangedReason_EuthanizedPawn>安樂死{PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
   <!-- EN: requested military aid -->
   <GoodwillChangedReason_RequestedMilitaryAid>請求軍事支援</GoodwillChangedReason_RequestedMilitaryAid>
   <!-- EN: requested trader caravan -->
   <GoodwillChangedReason_RequestedTrader>請求派出旅隊</GoodwillChangedReason_RequestedTrader>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
-  <MessageGiftGivenButNotAppreciated>{0}接受了你的贈禮但不抱持絲毫謝意。</MessageGiftGivenButNotAppreciated>
+  <MessageGiftGivenButNotAppreciated>{0}接受了你的贈禮但不抱絲毫感謝。</MessageGiftGivenButNotAppreciated>
 
   <!-- EN: The caravan is already encumbered and can't carry anything else. -->
   <MessageCantGiveGiftBecauseCantCarryEncumbered>旅隊已經滿載，無法再攜帶其他物品。</MessageCantGiveGiftBecauseCantCarryEncumbered>
   <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
-  <MessageCantGiveGiftBecauseCantCarry>旅隊已經滿載。禮物總重{0}，但旅隊只能再攜帶{1}。</MessageCantGiveGiftBecauseCantCarry>
+  <MessageCantGiveGiftBecauseCantCarry>旅隊已經滿載。禮物總重{0}，旅隊只能再攜帶{1}。</MessageCantGiveGiftBecauseCantCarry>
 
   <!-- EN: {0} has formed and is now traveling on the world map. -->
-  <MessageFormedCaravan>{0}已經組織完成並且正在世界地圖上旅行。</MessageFormedCaravan>
+  <MessageFormedCaravan>{0}已經組織完成，現在正在世界地圖上旅行。</MessageFormedCaravan>
   <!-- EN: Orders -->
   <MessageFormedCaravan_Orders>命令</MessageFormedCaravan_Orders>
 
   <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
-  <MessageBillValidationStoreZoneDeleted>{1}的「{0}」無法再運送至已刪除的儲存區{2}。</MessageBillValidationStoreZoneDeleted>
+  <MessageBillValidationStoreZoneDeleted>{1}的"{0}"無法運送到已刪除的儲存區{2}。</MessageBillValidationStoreZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
-  <MessageBillValidationStoreZoneUnavailable>{1}的「{0}」無法再運送至已拒絕接受的儲存區{2}。</MessageBillValidationStoreZoneUnavailable>
+  <MessageBillValidationStoreZoneUnavailable>{1}的"{0}"無法運送到不允許的儲存區{2}。</MessageBillValidationStoreZoneUnavailable>
   <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
-  <MessageBillValidationPawnUnavailable>{0}已無法繼續在{2}的「{1}」工作，限制以被解除。</MessageBillValidationPawnUnavailable>
+  <MessageBillValidationPawnUnavailable>{0}無法繼續在{2}做"{1}"的工作。限制被移除。</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
-  <MessageBillValidationIncludeZoneDeleted>{1}的「{0}」已無法於已刪除的儲存區{2}進行統計。</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeZoneDeleted>{1}的"{0}"無法在已刪除的儲存區{2}進行統計。</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
-  <MessageBillValidationIncludeZoneUnavailable>{1}的「{0}」已無法於已拒絕接受的儲存區{2}進行統計。</MessageBillValidationIncludeZoneUnavailable>
+  <MessageBillValidationIncludeZoneUnavailable>{1}的"{0}"無法在不允許的儲存區{2}進行統計。</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
-  <MessageBillValidationStoreZoneInsufficient>{1}的「{0}」已無法再運送任何產品至儲存區{2}。</MessageBillValidationStoreZoneInsufficient>
+  <MessageBillValidationStoreZoneInsufficient>{1}的"{0}"無法運送任何產品至儲存區{2}。</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
-  <MessageAnimalReturnedWild>因為缺乏持續訓練，{1_labelShort}已回歸野生。</MessageAnimalReturnedWild>
+  <MessageAnimalReturnedWild>因為缺乏持續訓練，{1_labelShort}恢復野性了。</MessageAnimalReturnedWild>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
-  <MessageAnimalLostSkill>因為缺乏持續訓練，{ANIMAL_labelShort}喪失了技能：{1}</MessageAnimalLostSkill>
+  <MessageAnimalLostSkill>因為缺乏持續訓練，{ANIMAL_labelShort}遺忘了技能：{1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>翻譯報告已儲存至{0}</MessageTranslationReportSaved>
@@ -549,15 +549,15 @@
   <MessageEnterCooldownBlocksEntering>你在{0}天內無法再次進入此地。</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
-  <MessagePermitCooldownFinished>{0_labelShort} 現在可以自由使用 "{1}"。</MessagePermitCooldownFinished>
+  <MessagePermitCooldownFinished>{0_labelShort}現在可以自由使用"{1}"。</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR}將{PREY_definite}當成下一頓飯！</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR}將{PREY_definite}({PREY_kindBase})當成下一頓飯！</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
-  <MessagePrisonerResistanceBroken>俘虜{PRISONER_labelShort}的心房已被{WARDEN_labelShort}化解。</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken>俘虜{PRISONER_labelShort}的心房被{WARDEN_labelShort}化解了。</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
-  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>將開始進行招募。</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>開始嘗試招募。</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
   <MessageModWithPackageIdAlreadyEnabled>另一個package ID為{0}的mod已經被啟動。在嘗試啟動之前先關閉{1}。</MessageModWithPackageIdAlreadyEnabled>
@@ -575,39 +575,39 @@
   <MessageCapturingWillAngerFaction>警告：俘虜{PAWN_nameDef}將會激怒{PAWN_possessive}的勢力{PAWN_factionName}。</MessageCapturingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
-  <MessageCantShootInMelee>近戰中無法進行射擊</MessageCantShootInMelee>
+  <MessageCantShootInMelee>近戰中無法射擊。</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
   <MessageNoColonistCanAcceptQuest>你的{0}現在都無法接受此任務。</MessageNoColonistCanAcceptQuest>
   <!-- EN: Cannot accept this quest. -->
   <MessageCannotAcceptQuest>無法接受此任務。</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->
-  <MessageQuestAccepted>{0_definite}已接受一個任務: {1}</MessageQuestAccepted>
+  <MessageQuestAccepted>{0_definite}已接受一個任務:{1}</MessageQuestAccepted>
   <!-- EN: {0} is leaving. -->
   <MessagePawnLeaving>{0}正在離開。</MessagePawnLeaving>
   <!-- EN: {0} are leaving. -->
   <MessagePawnsLeaving>{0}離開了。</MessagePawnsLeaving>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
-  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>紀念碑被毀了，因為你在其中建了一座不被允許的建築。</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>紀念碑被毀了，因為你在其中建造了違禁建築物。</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
-  <MessageNoResearchBenchForTechprint>不適用：沒有可到達，未預留的研究平臺。</MessageNoResearchBenchForTechprint>
+  <MessageNoResearchBenchForTechprint>不適用：沒有可到達，未預留的研究桌。</MessageNoResearchBenchForTechprint>
 
   <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>找不到{0}的有效目的地</NoValidDestinationFound>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
-  <MessageResearchMenuWithoutBench>警告: 只有製造了研究台後，研究才能開始。</MessageResearchMenuWithoutBench>
+  <MessageResearchMenuWithoutBench>警告：直到你建造研究桌後，研究才會開始。</MessageResearchMenuWithoutBench>
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
-  <MessageActivatorProximityTriggered>{0_indefinite}觸發了一個鄰近的啟動器。</MessageActivatorProximityTriggered>
+  <MessageActivatorProximityTriggered>{0_indefinite}觸發了一個鄰近啟動器。</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label}當前是隱藏的。</MessageCannotSelectInvisibleStat>
 
   <!-- UNUSED -->
-  <MessageThingInstalledPermanently>警告: {0_label}安裝後不能移動。</MessageThingInstalledPermanently>
+  <MessageThingInstalledPermanently>警告：{0_label}安裝後不能移動。</MessageThingInstalledPermanently>
 
 </LanguageData>
