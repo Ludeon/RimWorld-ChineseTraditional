@@ -405,7 +405,7 @@
   <!-- EN: Complete -->
   <Complete>完成</Complete>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>點擊任務卡中查看此任務</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>點擊任務查看此任務</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
   <Mood>心情</Mood>
   <!-- EN: Quest -->
@@ -467,7 +467,7 @@
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
-  <ContainsWort>含有{0}/{1}桶麥芽。</ContainsWort>
+  <ContainsWort>含有{0}/{1}桶麥汁。</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>含有{0}/{1}桶啤酒。</ContainsBeer>
   <!-- EN: Fermented -->
@@ -665,9 +665,9 @@
   <!-- EN: Administering {0}. -->
   <RecipeAdministerJobString>正在施用{0}。</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
-  <TeetotalerUnhappy>無癮主義者將會不開心</TeetotalerUnhappy>
+  <TeetotalerUnhappy>菸酒不沾將會不開心</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>天生主義者將會不開心</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>人體主義將會不開心</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
@@ -749,15 +749,15 @@
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
-  <PowerNotConnected>未連結電網。</PowerNotConnected>
+  <PowerNotConnected>未連結電源。</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>電網發電量/蓄電量：{0}W/{1}Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>電網發電量/儲電量：{0}W/{1}Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
-  <PowerNeeded>電力消耗</PowerNeeded>
+  <PowerNeeded>電力需求</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>電力輸出</PowerOutput>
   <!-- EN: Stored -->
-  <PowerBatteryStored>蓄電</PowerBatteryStored>
+  <PowerBatteryStored>儲電量</PowerBatteryStored>
   <!-- EN: Efficiency -->
   <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
   <!-- EN: Self-discharging -->
@@ -777,7 +777,7 @@
   <!-- EN: Indoors -->
   <Indoors>室內</Indoors>
   <!-- EN: Unroofed -->
-  <IndoorsUnroofed>露天區</IndoorsUnroofed>
+  <IndoorsUnroofed>沒有屋頂</IndoorsUnroofed>
   <!-- EN: Outdoors -->
   <Outdoors>室外</Outdoors>
 
@@ -789,11 +789,11 @@
   <!-- EN: Dessicated -->
   <RotStateDessicated>白骨</RotStateDessicated>
   <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>冷凍(不會腐壞)</CurrentlyFrozen>
+  <CurrentlyFrozen>冷凍(不會變質)</CurrentlyFrozen>
   <!-- EN: Refrigerated (spoils in {0}) -->
-  <CurrentlyRefrigerated>冷藏({0}後腐壞)</CurrentlyRefrigerated>
+  <CurrentlyRefrigerated>冷藏({0}後變質)</CurrentlyRefrigerated>
   <!-- EN: Not refrigerated (spoils in {0}) -->
-  <NotRefrigerated>非冷藏({0}後腐壞)</NotRefrigerated>
+  <NotRefrigerated>非冷藏({0}後變質)</NotRefrigerated>
   <!-- EN: over a decade -->
   <OverADecade>超過十年</OverADecade>
   <!-- EN: less than a day -->
@@ -823,9 +823,9 @@
   <!-- EN: Resting -->
   <PlantResting>休眠中</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
-  <OutOfIdealTemperatureRange>不適合的環境溫度(以{0}%的速度生長)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>不理想的溫度。在這溫度下的生長倍率：{0}%</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
-  <OutOfIdealTemperatureRangeNotGrowing>不適合的環境溫度(停止生長)</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>不理想的溫度。不會生長</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>待收穫</ReadyToHarvest>
   <!-- EN: Mature. -->
@@ -839,9 +839,9 @@
   <!-- EN: Growing season here now. -->
   <GrowSeasonHereNow>合適的生長條件。</GrowSeasonHereNow>
   <!-- EN: Cannot grow (bad seasonal temperature). -->
-  <CannotGrowBadSeasonTemperature>無法生長(極端的氣候溫度)。</CannotGrowBadSeasonTemperature>
+  <CannotGrowBadSeasonTemperature>無法生長(惡劣的季節溫度)。</CannotGrowBadSeasonTemperature>
   <!-- EN: Blighted -->
-  <Blighted>枯死</Blighted>
+  <Blighted>枯萎病</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>因曝光而凋零中</DyingBecauseExposedToLight>
 
@@ -935,7 +935,7 @@
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
-  <WillGetWorkSpeedPenalty>{0}會受到工作速率懲罰</WillGetWorkSpeedPenalty>
+  <WillGetWorkSpeedPenalty>{0}會受到工作速度懲罰</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>不能放置在室內。</MustPlaceUnroofed>
   <!-- EN: Must place with head attached to ship structural beam. -->
@@ -999,13 +999,13 @@
 
   <!-- Neurotrainer -->
   <!-- EN: neurotrainer ({0}) -->
-  <SkillNeurotrainerLabel>神經技能訓練器 ({0}) </SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>學習機械液({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skill neurotrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>使用技能神經技能訓練器學習{0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>使用學習機械液學習{0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>為訓練特定技能而準備的一次性超級藥劑奈米機器人。這種藥劑透過眼眶給藥。一旦釋放進入大腦，奈米機器人會迅速提升特定區域內的學科技能，將其自身轉換為所需的神經組織。</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort}使用神經技能訓練器將{1}技能從{2}級升至{3}級。</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort}使用學習機械液將{1}技能從{2}級升至{3}級。</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1029,7 +1029,7 @@
   <!-- EN: Quality -->
   <Quality>品質</Quality>
   <!-- EN: An item's quality is how well-made it is. -->
-  <QualityDescription>此道具的生產品質。</QualityDescription>
+  <QualityDescription>此物品生產的品質。</QualityDescription>
   <!-- EN: Quality: {0} -->
   <QualityIs>品質{0}</QualityIs>
 
