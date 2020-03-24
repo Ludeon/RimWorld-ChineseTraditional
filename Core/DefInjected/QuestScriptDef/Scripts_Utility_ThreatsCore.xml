@@ -13,8 +13,8 @@
       <li>root(priority=1,sitePart==EMIDynamo)->這有一台正在運作的強電磁發射裝置，導致這一區域的電子設備無法工作</li>
       <li>root(priority=1,sitePart==ToxicSpewer)->這個地區有一台機器在不斷噴射毒氣</li>
       <li>root(priority=1,sitePart==RaidSource)->這有一塊被[enemiesCount]名敵人防守的軍事集結區，他們每[mtbDays]天就會對你發動襲擊</li>
-      <li>root(priority=1,sitePart==Outpost)->這有一個被[enemiesCount]名敵人防守的哨站</li>
-      <li>root(priority=1,sitePart==BanditCamp)->這有一個被[enemiesCount]名敵人防守的土匪營地</li>
+      <li>root(priority=1,sitePart==Outpost)->那裡有[enemiesCount]名敵人防衛著哨站</li>
+      <li>root(priority=1,sitePart==BanditCamp)->那裡有[enemiesCount]名敵人防衛著土匪營地</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->一群正在瘋狂獵殺人類的[kindLabel]在附近遊蕩</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->[count]只獵殺人類的[kindLabel]正在附近遊蕩</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有一台休眠的機械體</li>
