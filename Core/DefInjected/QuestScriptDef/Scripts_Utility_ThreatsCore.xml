@@ -15,8 +15,8 @@
       <li>root(priority=1,sitePart==RaidSource)->這有一塊被[enemiesCount]名敵人防守的軍事集結區，他們每[mtbDays]天就會對你發動襲擊</li>
       <li>root(priority=1,sitePart==Outpost)->那裡有[enemiesCount]名敵人防衛著哨站</li>
       <li>root(priority=1,sitePart==BanditCamp)->那裡有[enemiesCount]名敵人防衛著土匪營地</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->一群正在瘋狂獵殺人類的[kindLabel]在附近遊蕩</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->[count]只獵殺人類的[kindLabel]正在附近遊蕩</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->有獸群[kindLabel]在附近徘徊</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->數量[count]的獸群[kindLabel]在附近徘徊</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有一台休眠的機械體</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有[count]台休眠機械體</li>
       <li>root(priority=1,sitePart==Turrets)->[threatsInfo]防守這個地點</li>
