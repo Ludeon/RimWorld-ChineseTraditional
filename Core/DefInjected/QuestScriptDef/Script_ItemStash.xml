@@ -7,7 +7,7 @@
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->我們攔截到一些訊息，是關於有貴重品的[itemStashContentsValue]，距離[map_definite]不遠。物資包含：\n\n[itemStashContents]\n\n看起來[allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_label]，通知我們去獲取價值貴重的物品，[itemStashContentsValue]離我們不遠。物品包含:\n\n[itemStashContents]\n\n[asker_label]說[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_label]，通知我們去獲取價值[itemStashContentsValue]的貴重物品，離我們不遠。物品包含:\n\n[itemStashContents]\n\n[asker_label]說[allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
@@ -38,6 +38,6 @@
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務失效：[resolvedQuestName]</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>根據攔截的訊息，匿藏物品已經被其他人捷足先登。任務[resolvedQuestName]失效。</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>根據攔截的訊息，物品已經被其他人捷足先登。任務[resolvedQuestName]失效。</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
