@@ -13,12 +13,12 @@
       <li>root(priority=1,sitePart==EMIDynamo)->這有一台正在運作的強電磁發射裝置，導致這一區域的電子設備無法工作</li>
       <li>root(priority=1,sitePart==ToxicSpewer)->這個地區有一台機器在不斷噴射毒氣</li>
       <li>root(priority=1,sitePart==RaidSource)->這有一塊被[enemiesCount]名敵人防守的軍事集結區，他們每[mtbDays]天就會對你發動襲擊</li>
-      <li>root(priority=1,sitePart==Outpost)->那裡有[enemiesCount]名敵人防衛著哨站</li>
-      <li>root(priority=1,sitePart==BanditCamp)->那裡有[enemiesCount]名敵人防衛著土匪營地</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->有[kindLabel]獸群在附近徘徊</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->數量[count]的[kindLabel]獸群在附近徘徊</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有一台休眠的機械體</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有[count]台休眠機械體</li>
+      <li>root(priority=1,sitePart==Outpost)->那裡有 [enemiesCount] 名敵人防衛著哨站</li>
+      <li>root(priority=1,sitePart==BanditCamp)->那裡有 [enemiesCount] 名敵人防衛著土匪營地</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->有 [kindLabel] 獸群在附近徘徊</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->數量 [count] 的 [kindLabel] 獸群在附近徘徊</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有休眠中的機械族</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有 [count] 架休眠中的機械族</li>
       <li>root(priority=1,sitePart==Turrets)->[threatsInfo]防守這個地點</li>
       <li>root(priority=1,sitePart==AmbushEdge)->一支敵軍正等著伏擊任何靠近的人</li>
       <li>root(priority=1,sitePart==AmbushHidden)->一支敵軍正等著伏擊任何靠近的人</li>
