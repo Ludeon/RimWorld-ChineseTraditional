@@ -4,7 +4,7 @@
   <!-- EN: Cancel -->
   <DesignatorCancel>取消</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
-  <DesignatorCancelDesc>取消指定的建造、採礦、搬運、收穫和其他所有的指令。</DesignatorCancelDesc>
+  <DesignatorCancelDesc>取消指定的建造、採礦、運送、收穫和其他所有的指令。</DesignatorCancelDesc>
 
   <!-- EN: Cut plants -->
   <DesignatorCutPlants>裁剪植物</DesignatorCutPlants>
@@ -32,11 +32,11 @@
   <DesignatorHarvestWoodDesc>標記要砍伐的樹木。</DesignatorHarvestWoodDesc>
 
   <!-- EN: Haul things -->
-  <DesignatorHaulThings>搬運</DesignatorHaulThings>
+  <DesignatorHaulThings>運送</DesignatorHaulThings>
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
-  <DesignatorHaulThingsDesc>標記需要搬到儲存區的石塊或其他物品。食物或屍體不需要標記，它們會自動被搬運。</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>標記需要運送到儲存區的石塊或其他物品。食物或屍體不需要標記，它們會自動被運送。</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
-  <MustHaulHaulables>只能標記可搬運的，不包含自動被搬運的物品(如石塊)。</MustHaulHaulables>
+  <MustHaulHaulables>只能標記可運送的(如石塊)，不包含自動被運送的物品。</MustHaulHaulables>
 
   <!-- EN: Hunt -->
   <DesignatorHunt>狩獵</DesignatorHunt>
