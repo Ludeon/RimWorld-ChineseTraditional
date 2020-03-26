@@ -380,15 +380,15 @@
 
   <!-- Set target fuel level -->
   <!-- EN: Set target fuel level -->
-  <CommandSetTargetFuelLevel>設定燃料充填量</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevel>設定燃料補充量</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
-  <CommandSetTargetFuelLevelDesc>設定燃料充填量。居民們會填充燃料至設定的填充量。</CommandSetTargetFuelLevelDesc>
+  <CommandSetTargetFuelLevelDesc>設定燃料補充量。殖民者會補充燃料至設定量。</CommandSetTargetFuelLevelDesc>
 
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
-  <CommandToggleAllowAutoRefuel>切換自動添加燃料</CommandToggleAllowAutoRefuel>
+  <CommandToggleAllowAutoRefuel>自動補充燃料</CommandToggleAllowAutoRefuel>
   <!-- EN: Sets whether or not automatic refueling is allowed. -->
-  <CommandToggleAllowAutoRefuelDesc>設置是否允許自動添加燃料。</CommandToggleAllowAutoRefuelDesc>
+  <CommandToggleAllowAutoRefuelDesc>設置是否允許自動補充燃料。</CommandToggleAllowAutoRefuelDesc>
   
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
@@ -402,21 +402,21 @@
   <!-- EN: Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together. -->
   <CommandLaunchGroupDesc>啟動定位程序，發射多數運輸艙。下一步是選擇目的地。運輸艙將會同時一起起飛、降落。</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
-  <CommandLaunchGroupFailNotConnectedToFuelingPort>此發射組有些運輸艙未連接燃料槽。</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>此發射組運輸艙未連接燃料槽。</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Some pod launchers in this group have no fuel. -->
-  <CommandLaunchGroupFailNoFuel>有些發射平台缺乏燃料。</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailNoFuel>此發射組的發射平台缺乏燃料。</CommandLaunchGroupFailNoFuel>
   <!-- EN: Some pod launchers are under a roof. -->
   <CommandLaunchGroupFailUnderRoof>有些發射平台位於屋頂之下。</CommandLaunchGroupFailUnderRoof>
   
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
-  <CommandLoadTransporter>載入{0}發射組</CommandLoadTransporter>
+  <CommandLoadTransporter>裝載第{0}發射組</CommandLoadTransporter>
   <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandLoadTransporterDesc>將選取的運輸艙設為發射組。你可以在裝載清單指定要裝載的人或物品。</CommandLoadTransporterDesc>
+  <CommandLoadTransporterDesc>將選取的運輸艙設為發射組。你可以在裝載清單指定要裝載的人員或物品。</CommandLoadTransporterDesc>
   <!-- EN: The transport pod is not connected to a fueling port. -->
-  <CommandLoadTransporterFailNotConnectedToFuelingPort>此運輸艙未連接燃料槽。</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>運輸艙未連接燃料槽。</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
-  <CommandLoadTransporterFailNoFuel>此發射平台缺乏燃料。</CommandLoadTransporterFailNoFuel>
+  <CommandLoadTransporterFailNoFuel>發射平台缺乏燃料。</CommandLoadTransporterFailNoFuel>
   
   <!-- Load transporter (single) -->
   <!-- EN: Load -->
