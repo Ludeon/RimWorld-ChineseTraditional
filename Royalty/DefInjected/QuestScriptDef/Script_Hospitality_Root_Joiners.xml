@@ -156,12 +156,12 @@
     <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->盟友們</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->一個[asker_royalTitleInCurrentFaction]</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->一個上層貴族</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->一個中層貴族</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->一個下層貴族</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->上層貴族們</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->中層貴族們</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->下層貴族們</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->一個上級貴族</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->一個中級貴族</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->一個下級貴族</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->上級貴族們</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->中級貴族們</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->下級貴族們</li>
   </Hospitality_Joiners.questNameRules.rulesStrings>
   <!-- EN: Guest unhappy: {SUBJECT_definite} -->
   <Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.label.slateRef>訪客感到不悅: {SUBJECT_definite} </Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.label.slateRef>
