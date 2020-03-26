@@ -16,10 +16,10 @@
       <li>root(priority=1,sitePart==Outpost)->那裡有[enemiesCount]名敵人防衛著哨站</li>
       <li>root(priority=1,sitePart==BanditCamp)->那裡有[enemiesCount]名敵人防衛著土匪營地</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->有[kindLabel]獸群在附近徘徊</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->數量[count]的[kindLabel]獸群在附近徘徊</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有一台休眠的機械體</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有[count]台休眠機械體</li>
-      <li>root(priority=1,sitePart==Turrets)->[threatsInfo]防守這個地點</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->有[count]的[kindLabel]獸群在附近徘徊</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有休眠中的機械族</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有[count]架休眠中的機械族</li>
+      <li>root(priority=1,sitePart==Turrets)->有[threatsInfo]防衛這個地點</li>
       <li>root(priority=1,sitePart==AmbushEdge)->一支敵軍正等著伏擊任何靠近的人</li>
       <li>root(priority=1,sitePart==AmbushHidden)->一支敵軍正等著伏擊任何靠近的人</li>
       <li>root(priority=1,sitePart==MechCluster)->這有一堆帶有敵意的機械結構體</li>

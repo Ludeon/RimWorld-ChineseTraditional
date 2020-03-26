@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: Armor - Blunt -->
-  <ArmorRating_Blunt.label>防禦 - 鈍器</ArmorRating_Blunt.label>
+  <ArmorRating_Blunt.label>防禦 - 鈍擊</ArmorRating_Blunt.label>
   <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
   <ArmorRating_Blunt.description>能防禦鈍器傷害的機率。如徒手攻擊、棍棒揮擊、崩落岩石。\n\n受到傷害時，護甲值會優先減去攻擊的護甲穿透值。剩餘的護甲值會取0到100之間的隨機數進行比較。\n\n-如果隨機數小於剩餘護甲值的一半，則傷害無效。\n-如果隨機數大於剩餘護甲值的一半，但不高於總護甲值，則傷害減半。\n-如果隨機數高於總護甲值，則護甲無效。\n\n例如，90%護甲等級被10%護甲穿透攻擊時，則有40％機率使攻擊無效，並有40％的機率減輕傷害。\n\n在護甲齊全的情況下，每層衣物都會分別發揮護甲作用。</ArmorRating_Blunt.description>
   <!-- EN: Armor - Blunt (armor stat) -->
@@ -11,14 +11,14 @@
   <!-- EN: Armor - Heat -->
   <ArmorRating_Heat.label>防禦 - 熱</ArmorRating_Heat.label>
   <!-- EN: The protection given against temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Heat.description>能防禦溫度相關傷害的機率。如燃燒。\n\n受到傷害時，總護甲值會優先減去攻擊的護甲穿透值。剩餘的護甲值會取0到100之間的隨機數進行比較。\n\n-如果隨機數低於剩餘護甲值的一半，則傷害無效。\n-如果隨機數高於剩餘護甲值的一半，但不高於總護甲值，則傷害減半，並且改為鈍器傷害。\n-如果隨機數高於總護甲值，則護甲無效。\n\n例如，90%護甲等級被10%護甲穿透攻擊時，則有40％機率使攻擊無效，並有40％的機率減輕傷害。\n\n在護甲齊全的情況下，每層衣物都會分別發揮護甲作用。</ArmorRating_Heat.description>
+  <ArmorRating_Heat.description>能防禦溫度相關傷害的機率。如燃燒。\n\n受到傷害時，總護甲值會優先減去攻擊的護甲穿透值。剩餘的護甲值會取0到100之間的隨機數進行比較。\n\n-如果隨機數低於剩餘護甲值的一半，則傷害無效。\n-如果隨機數高於剩餘護甲值的一半，但不高於總護甲值，則傷害減半，並且改為鈍擊傷害。\n-如果隨機數高於總護甲值，則護甲無效。\n\n如，90%護甲等級被10%護甲穿透攻擊時，則有40％機率使攻擊無效，並有40％的機率減輕傷害。\n\n在護甲齊全的情況下，每層衣物都會分別發揮護甲作用。</ArmorRating_Heat.description>
   <!-- EN: Armor - Heat (armor stat) -->
   <ArmorRating_Heat.labelForFullStatList>防禦 - 熱(護甲屬性)</ArmorRating_Heat.labelForFullStatList>
   
   <!-- EN: Armor - Sharp -->
-  <ArmorRating_Sharp.label>防禦 - 利器</ArmorRating_Sharp.label>
+  <ArmorRating_Sharp.label>防禦 - 利刃</ArmorRating_Sharp.label>
   <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Sharp.description>能防禦利器攻擊的機率。如子彈、利刃、爆破、動物啃咬。\n\n受到傷害時，總護甲值會優先減去攻擊的護甲穿透值。剩餘的護甲值會取0到100之間的隨機數進行比較。\n\n-如果隨機數低於剩餘護甲值的一半，則傷害無效。\n-如果隨機數高於剩餘護甲值的一半，但不高於總護甲值，則傷害減半，並且改為鈍器傷害。。\n-如果隨機數高於剩總甲值，則護甲無效。\n\n例如，90%護甲等級被10%護甲穿透攻擊時，則有40％機率使攻擊無效，並有40％的機率減輕傷害。\n\n在護甲齊全的情況下，每層衣物都會分別發揮護甲作用。</ArmorRating_Sharp.description>
+  <ArmorRating_Sharp.description>能防禦利器攻擊的機率。如子彈、利刃、爆破、動物啃咬。\n\n受到傷害時，總護甲值會優先減去攻擊的護甲穿透值。剩餘的護甲值會取0到100之間的隨機數進行比較。\n\n-如果隨機數低於剩餘護甲值的一半，則傷害無效。\n-如果隨機數高於剩餘護甲值的一半，但不高於總護甲值，則傷害減半，並且改為鈍擊傷害。\n-如果隨機數高於剩總甲值，則護甲無效。\n\n如，90%護甲等級被10%護甲穿透攻擊時，則有40％機率使攻擊無效，並有40％的機率減輕傷害。\n\n在護甲齊全的情況下，每層衣物都會分別發揮護甲作用。</ArmorRating_Sharp.description>
   <!-- EN: Armor - Sharp (armor stat) -->
   <ArmorRating_Sharp.labelForFullStatList>防禦 - 利器(護甲屬性)</ArmorRating_Sharp.labelForFullStatList>
   

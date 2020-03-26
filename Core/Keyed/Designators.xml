@@ -4,7 +4,7 @@
   <!-- EN: Cancel -->
   <DesignatorCancel>取消</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
-  <DesignatorCancelDesc>取消指定的建造、採礦、搬運、收穫和其他所有的指令。</DesignatorCancelDesc>
+  <DesignatorCancelDesc>取消指定的建造、採礦、運送、收穫和其他所有的指令。</DesignatorCancelDesc>
 
   <!-- EN: Cut plants -->
   <DesignatorCutPlants>裁剪植物</DesignatorCutPlants>
@@ -19,7 +19,7 @@
   <!-- EN: Uninstall -->
   <DesignatorUninstall>移除</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
-  <DesignatorUninstallDesc>移除此物件以便移動、交易或重新安裝在其他地方。</DesignatorUninstallDesc>
+  <DesignatorUninstallDesc>移除此物件以便移動、出售或重新安裝在其他地方。</DesignatorUninstallDesc>
 
   <!-- EN: Harvest -->
   <DesignatorHarvest>收穫</DesignatorHarvest>
@@ -32,11 +32,11 @@
   <DesignatorHarvestWoodDesc>標記要砍伐的樹木。</DesignatorHarvestWoodDesc>
 
   <!-- EN: Haul things -->
-  <DesignatorHaulThings>搬運</DesignatorHaulThings>
+  <DesignatorHaulThings>運送</DesignatorHaulThings>
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
-  <DesignatorHaulThingsDesc>標記需要搬到儲存區的石塊或其他物品。食物或屍體不需要標記，它們會自動被搬運。</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>標記需要運送到儲存區的石塊或其他物品。食物或屍體不需要標記，它們會自動被運送。</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
-  <MustHaulHaulables>只能標記可搬運的，不包含自動被搬運的物品(如石塊)。</MustHaulHaulables>
+  <MustHaulHaulables>只能標記可運送的(如石塊)，不包含自動被運送的物品。</MustHaulHaulables>
 
   <!-- EN: Hunt -->
   <DesignatorHunt>狩獵</DesignatorHunt>
@@ -127,9 +127,9 @@
   <DesignatorZoneCreateStorageDumpingDesc>建立一個儲存區，你的居民們將存放垃圾。\n此工具也可以用來擴展現有的儲存區。</DesignatorZoneCreateStorageDumpingDesc>
 
   <!-- EN: Shrink zones -->
-  <DesignatorZoneDelete>消除區域</DesignatorZoneDelete>
+  <DesignatorZoneDelete>移除區域</DesignatorZoneDelete>
   <!-- EN: Shrink zone -->
-  <DesignatorZoneDeleteSingular>消除區域</DesignatorZoneDeleteSingular>
+  <DesignatorZoneDeleteSingular>移除區域</DesignatorZoneDeleteSingular>
   <!-- EN: Remove zones, like stockpile zones or growing zones. -->
   <DesignatorZoneDeleteDesc>移除區域，如儲存區、種植區。</DesignatorZoneDeleteDesc>
 
@@ -193,9 +193,9 @@
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>這裡的地面已經拋光過了。</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
-  <IdenticalThingExists>已經在同地點存在相同的物件。</IdenticalThingExists>
+  <IdenticalThingExists>同地點已經有相同的物件。</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
-  <IdenticalBlueprintExists>已經在同地點存在相同的藍圖。</IdenticalBlueprintExists>
+  <IdenticalBlueprintExists>同地點已經有相同的藍圖。</IdenticalBlueprintExists>
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>{0_label}無法在此地形上建造。</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->

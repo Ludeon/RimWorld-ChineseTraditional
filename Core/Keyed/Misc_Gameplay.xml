@@ -209,7 +209,7 @@
   <!-- EN: Waiting. -->
   <CaravanWaiting>正在等待。</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>因疾病而被搬運</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>因疾病而被運送</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
   <UsingBedrollsDueToIllness>因疾病而使用睡袋</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
@@ -329,7 +329,7 @@
   <!-- EN: downed -->
   <DownedLower>無法行動</DownedLower>
   <!-- EN: resting -->
-  <Carried>被搬運</Carried>
+  <Carried>被運送</Carried>
   <!-- EN: Avg. person move speed -->
   <AverageCaravanMemberMoveSpeed>人員平均移動速度</AverageCaravanMemberMoveSpeed>
   <!-- EN: Multiplier for carried mass: {0} -->
@@ -575,13 +575,13 @@
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>將{THING_label}運至{DESTINATION}。</ReportHaulingTo>
+  <ReportHaulingTo>將{THING_label}運送到{DESTINATION}。</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
   <ReportHaulingToGrave>將{THING_label}埋入{DESTINATION}。</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>搬運{1_label}中。</ReportHauling>
+  <ReportHauling>運送{1_label}中。</ReportHauling>
   <!-- EN: hauling. -->
-  <ReportHaulingUnknown>搬運中。</ReportHaulingUnknown>
+  <ReportHaulingUnknown>運送中。</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
   <ReportSleeping>睡眠中。</ReportSleeping>
   <!-- EN: resting. -->
@@ -605,7 +605,7 @@
   <!-- EN: cowering. -->
   <ReportCowering>逃避。</ReportCowering>
   <!-- EN: standing. -->
-  <ReportStanding>呆站著。</ReportStanding>
+  <ReportStanding>發呆。</ReportStanding>
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>滅火。</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
@@ -1003,7 +1003,7 @@
   <!-- EN: Use skill neurotrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>使用學習機械液學習{0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>為訓練特定技能而準備的一次性超級藥劑奈米機器人。這種藥劑透過眼眶給藥。一旦釋放進入大腦，奈米機器人會迅速提升特定區域內的學科技能，將其自身轉換為所需的神經組織。</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>一次性使用，訓練特定技能的機械分子。機械分子透過眼球進入到大腦，將自己轉化成神經組織，快速提高特定技能。</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <SkillNeurotrainerUsed>{USER_labelShort}使用學習機械液將{1}技能從{2}級升至{3}級。</SkillNeurotrainerUsed>
 
@@ -1157,23 +1157,23 @@
 
   <!-- World route planner -->
   <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
-  <RoutePlannerButtonTip>點擊進入計畫模式。在計畫模式中，你能夠規劃你的旅途，並計算各中途點之間的距離。</RoutePlannerButtonTip>
+  <RoutePlannerButtonTip>點擊進入計畫模式。讓你能夠規劃你的旅行，計算各中途點之間的距離。</RoutePlannerButtonTip>
   <!-- EN: Add two or more waypoints. -->
   <RoutePlannerAddTwoOrMoreWaypoints>新增兩個以上的中途點。</RoutePlannerAddTwoOrMoreWaypoints>
   <!-- EN: Add one or more waypoints. -->
   <RoutePlannerAddOneOrMoreWaypoints>新增一個以上的中途點。</RoutePlannerAddOneOrMoreWaypoints>
   <!-- EN: Total route time: {0} -->
-  <RoutePlannerEstTimeToFinalDest>至最終目的地預估時間：{0}</RoutePlannerEstTimeToFinalDest>
+  <RoutePlannerEstTimeToFinalDest>旅行時間：{0}</RoutePlannerEstTimeToFinalDest>
   <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
-  <RoutePlannerUsingAverageTicksPerMoveWarning>計畫模式套用了預設的旅隊行動速度，實際速度可能改變。</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>計畫模式套用了預設的旅行速度。實際速度可能改變。</RoutePlannerUsingAverageTicksPerMoveWarning>
   <!-- EN: Calculating for: {0} -->
   <RoutePlannerUsingTicksPerMoveOfCaravan>以{0}為準計算</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypoints>滑鼠右鍵：新增或移除中途點。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>滑鼠右鍵：新增/移除中途點。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC：離開計畫模式。</RoutePlannerPressEscapeToExit>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC：返回至旅隊組織畫面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC：返回至組織旅隊畫面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>預估旅行時間：{0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1181,7 +1181,7 @@
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToTile>預估旅行時間：{0}</EstimatedTimeToTile>
   <!-- EN: Foraged food amount -->
-  <ForagedFoodAmount>採集食物量</ForagedFoodAmount>
+  <ForagedFoodAmount>覓食量</ForagedFoodAmount>
 
   <!-- Outfits -->
   <!-- EN: Anything -->
@@ -1191,7 +1191,7 @@
   <!-- EN: Soldier -->
   <OutfitSoldier>戰士</OutfitSoldier>
   <!-- EN: Nudist -->
-  <OutfitNudist>裸體主義者</OutfitNudist>
+  <OutfitNudist>裸體主義</OutfitNudist>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1237,7 +1237,7 @@
   <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>你會收到(總價值 {1})：\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>你與{0_name}的勢力友好度會提昇 {1}</Reward_Goodwill>
+  <Reward_Goodwill>你與{0_name}的勢力友好度會提昇{1}</Reward_Goodwill>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
