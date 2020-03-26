@@ -575,13 +575,13 @@
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>將{THING_label}運至{DESTINATION}。</ReportHaulingTo>
+  <ReportHaulingTo>將{THING_label}運送到{DESTINATION}。</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
   <ReportHaulingToGrave>將{THING_label}埋入{DESTINATION}。</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>搬運{1_label}中。</ReportHauling>
+  <ReportHauling>運送{1_label}中。</ReportHauling>
   <!-- EN: hauling. -->
-  <ReportHaulingUnknown>搬運中。</ReportHaulingUnknown>
+  <ReportHaulingUnknown>運送中。</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
   <ReportSleeping>睡眠中。</ReportSleeping>
   <!-- EN: resting. -->
@@ -605,7 +605,7 @@
   <!-- EN: cowering. -->
   <ReportCowering>逃避。</ReportCowering>
   <!-- EN: standing. -->
-  <ReportStanding>呆站著。</ReportStanding>
+  <ReportStanding>發呆。</ReportStanding>
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>滅火。</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
@@ -1003,7 +1003,7 @@
   <!-- EN: Use skill neurotrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>使用學習機械液學習{0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>為訓練特定技能而準備的一次性超級藥劑奈米機器人。這種藥劑透過眼眶給藥。一旦釋放進入大腦，奈米機器人會迅速提升特定區域內的學科技能，將其自身轉換為所需的神經組織。</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>一次性使用，訓練特定技能的機械分子。機械分子透過眼球進入到大腦，將自己轉化成神經組織，快速提高特定技能。</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <SkillNeurotrainerUsed>{USER_labelShort}使用學習機械液將{1}技能從{2}級升至{3}級。</SkillNeurotrainerUsed>
 
