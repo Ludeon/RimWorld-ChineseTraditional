@@ -78,7 +78,7 @@
   <!-- EN: Spawning things -->
   <SpawningAllThings>正在生成物件</SpawningAllThings>
   <!-- EN: Spawning colonists -->
-  <SpawningColonists>正在生成居民</SpawningColonists>
+  <SpawningColonists>正在生成殖民者</SpawningColonists>
   
   <!-- Save/load -->
   <!-- EN: Save -->
@@ -423,7 +423,7 @@
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>撒嬌間隔</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
-  <NuzzleIntervalExplanation>動物向友好居民撒嬌的平均時間。\n\n撒嬌是多種動物共通的行為，牠們會用鼻子或臉依偎在對方身上表示友好。大多數人類覺得這種行為很可愛，這會讓他們提昇心情一段時間。</NuzzleIntervalExplanation>
+  <NuzzleIntervalExplanation>動物向友好殖民者撒嬌的平均時間。\n\n撒嬌是多種動物共通的行為，牠們會用鼻子或臉依偎在對方身上表示友好。大多數人類覺得這種行為很可愛，這會讓他們提昇心情一段時間。</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>受傷反擊率</HarmedRevengeChance>
   <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
@@ -501,7 +501,7 @@
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
   <NegotiatorHearingImpaired>你的會談代表{1_labelShort}因為健康因素無法正常聽話。</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
-  <NegotiatorCapacityImpaired>這將會影響交易價格。\n\n建議選擇健康的居民做為代表。</NegotiatorCapacityImpaired>
+  <NegotiatorCapacityImpaired>這將會影響交易價格。\n\n建議選擇健康的殖民者做為代表。</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
   <ConfirmTraderShortFunds>商人沒有足夠的白銀支付這筆交易。要成交嗎？</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
@@ -555,19 +555,19 @@
   <!-- EN: Items -->
   <ItemsTab>物品</ItemsTab>
   <!-- EN: You must assign at least one non-downed colonist. -->
-  <CaravanMustHaveAtLeastOneColonist>你必須指派至少一名有行動能力的居民。</CaravanMustHaveAtLeastOneColonist>
+  <CaravanMustHaveAtLeastOneColonist>你必須指派至少一名有行動能力的殖民者。</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
   <CaravanCouldNotFindExitSpot>選擇的出口位置({0})無法通行。</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
   <CaravanCouldNotFindPackingSpot>找不到任何有效的裝卸點。確保選擇的出口位置({0})可行。</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
-  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的居民無法抵達出口位置({0})。</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的殖民者無法抵達出口位置({0})。</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{1_labelShort}無法被任何指派的居民接觸。</CaravanPawnIsUnreachable>
+  <CaravanPawnIsUnreachable>{1_labelShort}無法被任何指派的殖民者接觸。</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
-  <CaravanItemIsUnreachableSingle>沒有任何被指派的居民能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableSingle>沒有任何被指派的殖民者能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
-  <CaravanItemIsUnreachableMulti>沒有任何被指派的居民能夠接觸到{0}x{1}。</CaravanItemIsUnreachableMulti>
+  <CaravanItemIsUnreachableMulti>沒有任何被指派的殖民者能夠接觸到{0}x{1}。</CaravanItemIsUnreachableMulti>
   <!-- EN: The caravan can't carry that much. -->
   <TooBigCaravanMassUsage>旅隊無法攜帶過多物資。</TooBigCaravanMassUsage>
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
@@ -589,7 +589,7 @@
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>你的旅隊食物耗盡，將會很快陷入飢荒。</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>你的居民每日覓食的平均值。此數值會根據你覓食產量不同的生態系而變化。</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>你的殖民者每日覓食的平均值。此數值會根據你覓食產量不同的生態系而變化。</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>每日覓食</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
@@ -629,11 +629,11 @@
   <!-- EN: Inventory mass -->
   <InventoryMass>貨物重量。</InventoryMass>
   <!-- EN: Your colonists will now gather the items and leave the area. -->
-  <CaravanFormationProcessStarted>你的居民們將會裝載貨物並離開區域。</CaravanFormationProcessStarted>
+  <CaravanFormationProcessStarted>你的殖民者將會裝載貨物並離開區域。</CaravanFormationProcessStarted>
   <!-- EN: Reform caravan -->
   <ReformCaravan>重組旅隊</ReformCaravan>
   <!-- EN: Colonists -->
-  <ColonistsSection>居民</ColonistsSection>
+  <ColonistsSection>殖民者</ColonistsSection>
   <!-- EN: Prisoners -->
   <PrisonersSection>俘虜</PrisonersSection>
   <!-- EN: Capture -->
@@ -677,7 +677,7 @@
   <!-- EN: Split caravan -->
   <SplitCaravan>重分旅隊</SplitCaravan>
   <!-- EN: You must leave at least one non-downed colonist. -->
-  <SourceCaravanMustHaveAtLeastOneColonist>你至少要留下一位有行動能力的居民。</SourceCaravanMustHaveAtLeastOneColonist>
+  <SourceCaravanMustHaveAtLeastOneColonist>你至少要留下一位有行動能力的殖民者。</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>此物品被分配至新旅隊的數量。</SplitCaravanThingCountTip>
   
@@ -689,9 +689,9 @@
   <!-- EN: Load {0} -->
   <LoadTransporters>裝載{0}</LoadTransporters>
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
-  <TooBigTransportersMassUsage>被指派的居民及物資超過運輸艙的最大負重。</TooBigTransportersMassUsage>
+  <TooBigTransportersMassUsage>被指派的殖民者、物資超過運輸艙的最大負重。</TooBigTransportersMassUsage>
   <!-- EN: The assigned people and items are too heavy for the shuttle. -->
-  <TooBigTransporterSingleMassUsage>被指派的居民及物資超過太空梭的最大負重。</TooBigTransporterSingleMassUsage>
+  <TooBigTransporterSingleMassUsage>被指派的殖民者、物資超過太空梭的最大負重。</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>你無法發射空的運輸艙。</CantSendEmptyTransportPods>
   <!-- EN: You can't send empty shuttle. -->
@@ -801,11 +801,11 @@
   <!-- EN: How the drug is allowed to be used. -->
   <DrugUsageColumnDesc>用藥計畫。</DrugUsageColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
-  <FrequencyColumnDesc>居民們使用此藥物的頻率。</FrequencyColumnDesc>
+  <FrequencyColumnDesc>殖民者使用此藥物的頻率。</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
-  <MoodThresholdColumnDesc>居民們只會在心情值低於這個界限時使用此藥物。</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>殖民者只會在心情值低於這個界限時使用此藥物。</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>居民們只會在娛樂值低於這個限時使用此藥物。</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>殖民者只會在娛樂值低於這個限時使用此藥物。</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>為了避免每次都要去儲存區拿藥物，在拿藥物的時候會多拿一份。</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
@@ -843,9 +843,9 @@
   <!-- EN: Defaults -->
   <MedGroupDefaults>預設</MedGroupDefaults>
   <!-- EN: Colonist -->
-  <MedGroupColonist>居民</MedGroupColonist>
+  <MedGroupColonist>殖民者</MedGroupColonist>
   <!-- EN: Imprisoned colonist -->
-  <MedGroupImprisonedColonist>被俘虜的居民</MedGroupImprisonedColonist>
+  <MedGroupImprisonedColonist>被俘虜的殖民者</MedGroupImprisonedColonist>
   <!-- EN: Colony animal -->
   <MedGroupColonyAnimal>馴服動物</MedGroupColonyAnimal>
   <!-- EN: Neutral animal -->
@@ -861,7 +861,7 @@
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>有些你的居民或動物還在此區域。你確定要拋棄他們？\n\n以下人員及動物將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>有些你的殖民者或動物還在此區域。你確定要拋棄他們？\n\n以下人員及動物將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
   <ConfirmAbandonHomeNegativeThoughts>遺棄{0}將導致以下人員得到以下心情：</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
@@ -869,7 +869,7 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>有一些動物或俘虜正試圖加入這支旅隊。如果你移動旅隊，他們將無法加入。\n\n地圖上的動物、俘虜、無法行動的居民在沒有其他健康居民們的幫助下，將被視為遺棄，並被敵人俘獲。\n\n你確定要移動旅隊？</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>有一些動物或俘虜正試圖加入這支旅隊。如果你移動旅隊，他們將無法加入。\n\n地圖上的動物、俘虜、無法行動的殖民者在沒有其他健康居民們的幫助下，將被視為遺棄，並被敵人俘獲。\n\n你確定要移動旅隊？</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
@@ -879,7 +879,7 @@
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
   <ConfirmBanishPawnDialog_Items>{1_labelShort}將會攜帶以下物品：</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
-  <ConfirmBanishPawnDialog_AllColonistsThoughts>所有居民們將會獲得以下心情：</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>所有殖民者將會獲得以下心情：</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
   <ConfirmBanishPawnDialog_IndividualThoughts>遺棄{1_labelShort}將會導致以下人員得到以下心情：</ConfirmBanishPawnDialog_IndividualThoughts>
 
@@ -924,7 +924,7 @@
   <AbilityUnwalkable>{0}必須瞄準可移動區域。</AbilityUnwalkable>
   
   <!-- UNUSED -->
-  <ResearchMenuWithoutBench>你的居民們在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>你的殖民者在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>
   <ConstructionSkillRequired>需要建築技能</ConstructionSkillRequired>
   <ConstructionSkillRequiredExplanation>需要以下建築等級才能建造。</ConstructionSkillRequiredExplanation>
 
