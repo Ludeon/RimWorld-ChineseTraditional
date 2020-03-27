@@ -7,9 +7,9 @@
   <!-- EN: Allow -->
   <CommandAllow>可用</CommandAllow>
   <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
-  <CommandForbiddenDesc>禁用：你的居民們無法接觸此物件。請解除禁用。</CommandForbiddenDesc>
+  <CommandForbiddenDesc>禁用：你的殖民者無法接觸此物件。請解除禁用。</CommandForbiddenDesc>
   <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
-  <CommandNotForbiddenDesc>可用：你的居民們可以接觸此物件。請禁用。</CommandNotForbiddenDesc>
+  <CommandNotForbiddenDesc>可用：你的殖民者可以接觸此物件。請禁用。</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <!-- EN: Toggle power -->
@@ -30,9 +30,9 @@
   <!-- EN: Gather spot -->
   <CommandGatherSpotToggleLabel>聚集點</CommandGatherSpotToggleLabel>
   <!-- EN: Active - colonists will gather around this object. -->
-  <CommandGatherSpotToggleDescActive>開啟 - 居民們會在這個物件附近聚集。</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescActive>開啟 - 殖民者會在這個物件附近聚集。</CommandGatherSpotToggleDescActive>
   <!-- EN: Inactive - colonists will not gather around this object. -->
-  <CommandGatherSpotToggleDescInactive>關閉 - 居民們不會在這個物件附近聚集。</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescInactive>關閉 - 殖民者不會在這個物件附近聚集。</CommandGatherSpotToggleDescInactive>
   
   <!-- Drafting -->
   <!-- EN: Draft -->
@@ -67,13 +67,13 @@
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>設定擁有者</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific colonist. -->
-  <CommandBedSetOwnerDesc>將此床分配給特定的居民。</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>將此床分配給特定的殖民者。</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
-  <CommandThroneSetOwnerDesc>將此王座分配給特定的居民。</CommandThroneSetOwnerDesc>
+  <CommandThroneSetOwnerDesc>將此王座分配給特定的殖民者。</CommandThroneSetOwnerDesc>
   <!-- EN: Assign colonist -->
-  <CommandGraveAssignColonistLabel>登錄居民</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistLabel>登錄殖民者</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
-  <CommandGraveAssignColonistDesc>將此墓位分配給特定的居民。</CommandGraveAssignColonistDesc>
+  <CommandGraveAssignColonistDesc>將此墓位分配給特定的殖民者。</CommandGraveAssignColonistDesc>
   <!-- EN: Assign -->
   <BuildingAssign>登錄</BuildingAssign>
   <!-- EN: Reassign -->
@@ -91,9 +91,9 @@
   <!-- EN: Whether this bed is for medical use. -->
   <CommandBedSetAsMedicalDesc>將這個床設為病床。</CommandBedSetAsMedicalDesc>
   <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(俘虜和居民不能睡在同一個房間)。\n\n以下角色將會失去他們擁有的床：</TurningOnPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>開啟囚房模式將影響整個房間(俘虜和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們擁有的床：</TurningOnPrisonerBedWarning>
   <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(俘虜和居民不能睡在同一個房間)。\n\n以下角色將會失去他們擁有的床：</TurningOffPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>關閉囚房模式將影響整個房間(俘虜和殖民者不能睡在同一個房間)。\n\n以下角色將會失去他們擁有的床：</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>你確定要這麼做嗎？</AreYouSure>
 
@@ -132,7 +132,7 @@
   <!-- EN: Allow sowing -->
   <CommandAllowSow>允許播種</CommandAllowSow>
   <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>禁止播種後，居民們不會在此區域種植植物。但他們還是會收獲植物。</CommandAllowSowDesc>
+  <CommandAllowSowDesc>禁止播種後，殖民者不會在此區域種植植物。但他們還是會收獲植物。</CommandAllowSowDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -182,11 +182,11 @@
   <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>切換門鎖</CommandToggleDoorForbid>
   <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
-  <CommandToggleDoorForbidDesc>門鎖上後，居民和盟友將無法通過。這不會影響敵人或動物與門的互動。</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>門鎖上後，殖民者和盟友將無法通過。這不會影響敵人或動物與門的互動。</CommandToggleDoorForbidDesc>
   <!-- EN: Hold open -->
   <CommandToggleDoorHoldOpen>保持敞開</CommandToggleDoorHoldOpen>
   <!-- EN: When active, your colonists will not close the door after passing through. -->
-  <CommandToggleDoorHoldOpenDesc>開啟後，居民們通過門時不會把門關上。</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>開啟後，殖民者通過門時不會把門關上。</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <!-- EN: Reset -->
@@ -224,7 +224,7 @@
   <!-- EN: Auto Rearm -->
   <CommandAutoRearm>自動重置陷阱</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>開啟後，此陷阱觸發後將會被居民自動重置。</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>開啟後，此陷阱觸發後將會被殖民者自動重置。</CommandAutoRearmDesc>
   
   <!-- Animal control -->
   <!-- EN: Release animals -->
@@ -238,13 +238,13 @@
   <!-- EN: Attack -->
   <CommandSquadAttack>攻擊</CommandSquadAttack>
   <!-- EN: Order selected colonists to attack designated target. -->
-  <CommandSquadAttackDesc>命令選擇的居民們攻擊指定目標。</CommandSquadAttackDesc>
+  <CommandSquadAttackDesc>命令選擇的殖民者攻擊指定目標。</CommandSquadAttackDesc>
   
   <!-- Melee attack -->
   <!-- EN: Melee attack -->
   <CommandMeleeAttack>近戰攻擊</CommandMeleeAttack>
   <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
-  <CommandMeleeAttackDesc>命令選擇居民們用拳頭或近戰武器攻擊指定目標。</CommandMeleeAttackDesc>
+  <CommandMeleeAttackDesc>命令選擇殖民者用拳頭或近戰武器攻擊指定目標。</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
   <!-- EN: Hold fire -->
@@ -274,13 +274,13 @@
   <!-- EN: Form caravan -->
   <CommandFormCaravan>組織旅隊</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
-  <CommandFormCaravanDesc>組織一群前往新區域的居民們。居民們會集合所有指定的物資及同行的動物，離開所在的區域，等待下一步命令。</CommandFormCaravanDesc>
+  <CommandFormCaravanDesc>組織一群前往新區域的殖民者。殖民者會集合所有指定的物資及同行的動物，離開所在的區域，等待下一步命令。</CommandFormCaravanDesc>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
   <CommandReformCaravan>重組旅隊</CommandReformCaravan>
   <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
-  <CommandReformCaravanDesc>重新組織居民們。居民們會離開當前區域，等待下一步命令。</CommandReformCaravanDesc>
+  <CommandReformCaravanDesc>重新組織殖民者。殖民者會離開當前區域，等待下一步命令。</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>仍有敵人在此區域內。</CommandReformCaravanFailHostilePawns>
   
@@ -302,7 +302,7 @@
   <!-- EN: Settle -->
   <CommandSettle>設點</CommandSettle>
   <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
-  <CommandSettleDesc>在此區域建立據點。你的居民們會進入此區域，你可以在這建立一座新據點</CommandSettleDesc>
+  <CommandSettleDesc>在此區域建立據點。你的殖民者會進入此區域，你可以在這建立一座新據點</CommandSettleDesc>
   <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>你的勢力只能擁有一座據點。</CommandSettleFailAlreadyHaveBase>
   <!-- EN: Reached maximum number of colonies. -->
@@ -318,7 +318,7 @@
   <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
   <CommandAbandonHomeDesc>遺棄此區域。你將無法進入或訪問此區域。遺棄你的家園之後，你可以命令你的旅隊建立一個新據點。</CommandAbandonHomeDesc>
   <!-- EN: All of your colonists are there. -->
-  <CommandAbandonHomeFailAllColonistsThere>你所有的居民們都在區域內。</CommandAbandonHomeFailAllColonistsThere>
+  <CommandAbandonHomeFailAllColonistsThere>你所有的殖民者都在區域內。</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
   <!-- EN: Cancel forming caravan -->
@@ -458,7 +458,7 @@
   <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>指定開/關</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
-  <CommandDesignateOpenCloseVentDesc>指定這個通風口開啟或關閉，一名居民將盡快進行此工作。</CommandDesignateOpenCloseVentDesc>
+  <CommandDesignateOpenCloseVentDesc>指定這個通風口開啟或關閉，一名殖民者將盡快進行此工作。</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
