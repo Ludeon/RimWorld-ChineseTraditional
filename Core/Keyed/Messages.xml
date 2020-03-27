@@ -193,13 +193,13 @@
   <MessageSocialFight>{PAWN1_labelShort}和{PAWN2_labelShort}吵起來了。</MessageSocialFight>
   
   <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}’s marriage. -->
-  <MessageNewMarriageCeremony>居民們聚集在一起慶祝{PAWN1_labelShort}和{PAWN2_labelShort}的婚禮。</MessageNewMarriageCeremony>
+  <MessageNewMarriageCeremony>殖民者聚集在一起慶祝{PAWN1_labelShort}和{PAWN2_labelShort}的婚禮。</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{PAWN1_labelShort}和{PAWN2_labelShort}的婚禮開始了！</MessageMarriageCeremonyStarts>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
   <MessageMarriageCeremonyCalledOff>{PAWN1_labelShort}和{PAWN2_labelShort}婚禮取消了。</MessageMarriageCeremonyCalledOff>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
-  <MessageNewlyMarried>{PAWN1_labelShort}和{PAWN2_labelShort}結婚了。居民們開始慶祝這項喜事。</MessageNewlyMarried>
+  <MessageNewlyMarried>{PAWN1_labelShort}和{PAWN2_labelShort}結婚了。殖民者開始慶祝這項喜事。</MessageNewlyMarried>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>{PAWN1_labelShort}和{PAWN2_labelShort}的婚禮已經結束。</MessageMarriageCeremonyAfterPartyFinished>
   
@@ -252,7 +252,7 @@
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>旅隊將會在所有成員恢復理智後繼續行動。</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
-  <MessageCaravanFormationUnpaused>你的居民開始組織旅隊。</MessageCaravanFormationUnpaused>
+  <MessageCaravanFormationUnpaused>你的殖民者開始組織旅隊。</MessageCaravanFormationUnpaused>
   
   <!-- EN: One of the caravan members has had a mental break. -->
   <MessageCaravanMemberHasExtremeMentalBreak>其中一名旅隊成員精神崩潰了。</MessageCaravanMemberHasExtremeMentalBreak>
@@ -337,7 +337,7 @@
   <MessageReformedCaravan>旅隊已被重組。</MessageReformedCaravan>
   
   <!-- EN: You can't banish the last colonist. -->
-  <MessageCantBanishLastColonist>你不能放逐最後一位居民。</MessageCantBanishLastColonist>
+  <MessageCantBanishLastColonist>你不能放逐最後一位殖民者。</MessageCantBanishLastColonist>
 
   <!-- EN: Cannot equip: {0}. -->
   <MessageCantEquipCustom>無法裝備:{0}。</MessageCantEquipCustom>
@@ -361,7 +361,7 @@
   <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite}的屍體被旅隊拾起。因為屍體很重，可能會限制旅隊的行動，可以在旅隊的「物品」選項找到並丟棄。</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
-  <MessageSelectOwnBaseToFormCaravan>要組織旅隊，選擇你的殖民地或是你的居民所在的據點。</MessageSelectOwnBaseToFormCaravan>
+  <MessageSelectOwnBaseToFormCaravan>要組織旅隊，選擇你的殖民地或是你的殖民者所在的據點。</MessageSelectOwnBaseToFormCaravan>
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>根據目前的解析度及UI比例，螢幕將無法容納遊戲界面，請降低UI比例或調高解析度。</MessageScreenResTooSmallForUIScale>
