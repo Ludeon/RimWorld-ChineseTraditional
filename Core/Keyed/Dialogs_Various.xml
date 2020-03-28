@@ -245,19 +245,19 @@
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
   <RecipeCannotHaveTargetCount>(因為這個配方有多個或是不可預估的成品，因此無法指定目標數量)</RecipeCannotHaveTargetCount>
   <!-- EN: Work amount -->
-  <WorkAmount>工作時程</WorkAmount>
+  <WorkAmount>工作量</WorkAmount>
   <!-- EN: Minimum skills: -->
-  <MinimumSkills>最低技能值:</MinimumSkills>
+  <MinimumSkills>最低技能：</MinimumSkills>
   <!-- EN: Requires {0} {1} -->
   <BillRequires>需要{0}個{1}</BillRequires>
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>需要{0}營養值</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>(數量可能會因為非標準體積的原料而有不同，例如黃金為{0}倍。)</BillRequiresMayVary>
+  <BillRequiresMayVary>注意：小份量的材料需要{10}倍，如黃金。</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>這是一個小體積的原料。每單位只有一般的1/{0}。因此，如果要達到相同質量，所需要的單位數量將是一般的{0}倍。</ThisIsSmallVolume>
+  <ThisIsSmallVolume>這是一個小份量的材料。這表示每個單位只有正常的1/{0}。所以要達到相同的條件，你通常會需要{0}倍。</ThisIsSmallVolume>
   <!-- EN: ingredients -->
-  <UsableIngredients>可用的原料</UsableIngredients>
+  <UsableIngredients>材料</UsableIngredients>
   <!-- EN: To {0} -->
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
 
@@ -271,11 +271,11 @@
   <Unpause>解除暫停</Unpause>
 
   <!-- EN: Count equipped -->
-  <IncludeEquipped>包含被持有</IncludeEquipped>
+  <IncludeEquipped>包含持有</IncludeEquipped>
   <!-- EN: Count tainted -->
-  <IncludeTainted>包含被死人衣</IncludeTainted>
+  <IncludeTainted>包含死人衣物</IncludeTainted>
   <!-- EN: Only allowed ingredients -->
-  <LimitToAllowedStuff>原料限制</LimitToAllowedStuff>
+  <LimitToAllowedStuff>材料限制</LimitToAllowedStuff>
   <!-- EN: Look everywhere -->
   <IncludeFromAll>全區域</IncludeFromAll>
   <!-- EN: Look in {0} -->
