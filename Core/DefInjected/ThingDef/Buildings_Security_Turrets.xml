@@ -27,7 +27,7 @@
   <!-- EN: mini-turret gun -->
   <Gun_MiniTurret.label>迷你砲塔</Gun_MiniTurret.label>
   <!-- EN: A simple automatic gun made to be mounted on a turret. -->
-  <Gun_MiniTurret.description>一種架在槍架上的自動砲槍。</Gun_MiniTurret.description>
+  <Gun_MiniTurret.description>一種架在砲架上的自動砲塔。</Gun_MiniTurret.description>
   <!-- EN: mini-turret gun -->
   <Gun_MiniTurret.verbs.Verb_Shoot.label>迷你砲塔</Gun_MiniTurret.verbs.Verb_Shoot.label>
   
@@ -45,7 +45,7 @@
   <!-- EN: Barrel durability -->
   <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>砲管耐久值</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until barrel change -->
-  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>更換砲管後繼續開火</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>砲管耐久值</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
   <!-- EN: Cannot shoot: Needs new barrel -->
   <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>無法開火：需更換砲管</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
   
@@ -56,7 +56,7 @@
   <!-- EN: Barrel durability -->
   <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>砲管耐久值</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until barrel change -->
-  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>更換砲管後繼續開火</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>砲管耐久值</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
   <!-- EN: Cannot shoot: Needs new barrel -->
   <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>無法開火：需更換砲管</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
   
@@ -72,7 +72,7 @@
   <!-- EN: Barrel durability -->
   <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>砲管耐久值</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until rearm -->
-  <Turret_Sniper.comps.CompRefuelable.fuelLabel>重新裝填後繼續開火</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+  <Turret_Sniper.comps.CompRefuelable.fuelLabel>砲管耐久值</Turret_Sniper.comps.CompRefuelable.fuelLabel>
   <!-- EN: Cannot shoot: Needs rearm -->
   <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>無法開火：需要裝填</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
   
