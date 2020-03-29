@@ -581,7 +581,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>食物充足</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>人或動物沒有食物的情況下可支撐的大約天數。不同的物種有不同的飲食，所以有物種可能會先把食物消耗光。選擇路線後，再精心做好準備。\n\n影響因素：\n - 當前的攜帶貨物\n - 攜帶的食物種類、數量\n - 旅隊人員和他們的飲食\n - 覓食率\n - 動物是否可以放牧\n - 食物腐爛的時間\n - 炎熱的天氣加快腐爛速度</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>人或動物沒有食物的情況下可支撐的大約天數。不同的物種有不同的飲食，所以有物種可能會先把食物消耗光。選擇路線後，再做好精心準備。\n\n影響因素：\n - 當前的攜帶貨物\n - 攜帶的食物種類、數量\n - 旅隊人員和他們的飲食\n - 覓食效率\n - 動物是否可以放牧\n - 食物腐爛的時間\n - 炎熱的天氣加快腐爛速度</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(只考慮第一個目的地)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -589,7 +589,7 @@
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>你的旅隊食物耗盡，將會很快陷入飢荒。</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>你的殖民者每日覓食的平均值。此數值會根據你覓食產量不同的生態系而變化。</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>你的人員每日覓食的平均值。此數值會根據生態系、覓食量而變化。</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>每日覓食</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
