@@ -221,7 +221,7 @@
   <Stat_Hediff_NaturalHealingFactor_Desc>適用於傷口自然癒合的總體速率。</Stat_Hediff_NaturalHealingFactor_Desc>
   <!-- EN: Food poisoning chance factor -->
   <Stat_Hediff_FoodPoisoningChanceFactor_Name>食物中毒率</Stat_Hediff_FoodPoisoningChanceFactor_Name>
-  <!-- EN: A multiplier applied to the chance of accidentally cooking a meal with food poisoning. -->
+  <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
   <Stat_Hediff_FoodPoisoningChanceFactor_Desc>適用於烹飪出有毒料理的意外機率。</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
   <!-- EN: The rate at which this condition is drains blood. -->
   <Stat_Hediff_BleedingRate_Desc>此情況的失血率。</Stat_Hediff_BleedingRate_Desc>
@@ -260,8 +260,12 @@
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>這個身體部位的整體效率。</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Biocoding -->
-  <Stat_Thing_Weapon_Biocoded_Name>生物識別</Stat_Thing_Weapon_Biocoded_Name>
+  <Stat_Thing_Biocoded_Name>生物識別</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
+  <Stat_Thing_Biocoded_Desc>TODO</Stat_Thing_Biocoded_Desc>
+
+  <!-- UNUSED -->
+  <Stat_Thing_Weapon_Biocoded_Name>生物識別</Stat_Thing_Weapon_Biocoded_Name>
   <Stat_Thing_Weapon_Biocoded_Desc>此物品經過生物編譯只能識別給特定的人使用。</Stat_Thing_Weapon_Biocoded_Desc>
 
 </LanguageData>

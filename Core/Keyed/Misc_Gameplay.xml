@@ -446,6 +446,8 @@
   <DormantCompBeacon>準備投放機械族</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>已過期</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>TODO</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>在{0}中啟動</SendSignalOnCountdownCompTime>
   <!-- EN: Psychic entropy -->
@@ -456,6 +458,8 @@
   <ConditionCauserRadius>半徑{0}</ConditionCauserRadius>
   <!-- EN: {0} left -->
   <DurationLeft>剩下{0}</DurationLeft>
+  <!-- EN: Any of -->
+  <AnyOf>TODO</AnyOf>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1216,7 +1220,7 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
   <PawnTooltipPsychicEntropy>心靈熵：{0}/{1}\n下降速率：{2}/{3}秒({4}秒直到零)\n\n進行心靈投射後心靈熵增加。\n超出安全限制會導致後遺症。\n每當熵歸零都會產生心靈宿醉</PawnTooltipPsychicEntropy>
-  <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
+  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>身體上的痛苦使思想集中並清除了無關的想法；同時能夠更快恢復心理熵。</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
   <PawnTooltipPsychicEntropyLimit>切換心理熵限制器。\n\n心靈熵超限制可能會導致嚴重的健康後果，包括長期的心理崩潰，甚至會因嚴重超量而損害大腦。熵的極限值越高，超限的後果越嚴重。</PawnTooltipPsychicEntropyLimit>
@@ -1232,10 +1236,10 @@
   <Reward_Pawn_WalkIn>一個名為{0_nameDef}的{0_age}歲的{0_titleIndef}將到達並加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>一個名為{0_nameDef}的{0_age}歲的{0_titleIndef}將加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
-  <Reward_Items>運輸艙會把以下獎勵送達(總價值 {1})：\n\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n\n{0} -->
-  <Reward_Items_Caravan>你會收到(總價值 {1})：\n\n{0}</Reward_Items_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
+  <Reward_Items>運輸艙會把以下獎勵送達(總價值 {1})：\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n{0} -->
+  <Reward_Items_Caravan>你會收到(總價值 {1})：\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>你與{0_name}的勢力友好度會提昇{1}</Reward_Goodwill>
   
