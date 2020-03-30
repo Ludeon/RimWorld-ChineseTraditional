@@ -4,17 +4,17 @@
   <!-- EN: Call {0} -->
   <CallOnRadio>呼叫{0}</CallOnRadio>
   <!-- EN: Cannot use: {0} -->
-  <CannotUseReason>無法使用({0})</CannotUseReason>
+  <CannotUseReason>無法使用：{0}</CannotUseReason>
   <!-- EN: Cannot use: EMP -->
-  <CannotUseSolarFlare>無法使用(太陽閃焰)</CannotUseSolarFlare>
+  <CannotUseSolarFlare>無法使用：太陽閃焰</CannotUseSolarFlare>
   <!-- EN: Cannot use: No power -->
-  <CannotUseNoPower>無法使用(沒有電力)</CannotUseNoPower>
+  <CannotUseNoPower>無法使用：沒有電力</CannotUseNoPower>
   <!-- EN: Cannot use: No path -->
-  <CannotUseNoPath>無法使用(沒有路徑)</CannotUseNoPath>
+  <CannotUseNoPath>無法使用：沒有路徑</CannotUseNoPath>
   <!-- EN: Cannot use: Reserved -->
-  <CannotUseReserved>無法使用(被預留)</CannotUseReserved>
+  <CannotUseReserved>無法使用：被預留</CannotUseReserved>
   <!-- EN: Cannot use: full -->
-  <CannotUseFull>無法使用(已滿)</CannotUseFull>
+  <CannotUseFull>無法使用：已滿</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>無法聯絡{1_labelShort}首領</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
@@ -32,13 +32,13 @@
   <!-- EN: Cannot hit target -->
   <CannotHitTarget>無法擊中目標</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
-  <IsIncapableOfViolenceLower>{1_labelShort}無法執行暴力相關指令</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{1_labelShort}反對暴力</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
-  <IncapableOfViolenceLower>無法執行暴力相關指令</IncapableOfViolenceLower>
+  <IncapableOfViolenceLower>反對暴力</IncapableOfViolenceLower>
   <!-- EN: {1_labelShort} is not drafted -->
   <IsNotDraftedLower>{1_labelShort}未受徵召</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
-  <CannotOrderNonControlledLower>無法命令失控的單位</CannotOrderNonControlledLower>
+  <CannotOrderNonControlledLower>無法命令失控的角色</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>無法攻擊自己</CannotAttackSelf>
 
@@ -48,7 +48,7 @@
   <!-- EN: Melee attack {1_label} -->
   <MeleeAttack>近身攻擊{1_label}</MeleeAttack>
   <!-- EN: Melee attack {1_label} to death -->
-  <MeleeAttackToDeath>近身攻擊直到殺死{1_label}</MeleeAttackToDeath>
+  <MeleeAttackToDeath>近身攻擊殺死{1_label}</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>沒有路徑</NoPath>
   <!-- EN: burying -->
@@ -89,7 +89,7 @@
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>動物技能過低 - 需要{0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
-  <CantInteractAnimalDowned>動物無法動彈</CantInteractAnimalDowned>
+  <CantInteractAnimalDowned>動物無法行動</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
   <CantInteractAnimalAsleep>動物睡眠中</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
@@ -173,7 +173,7 @@
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>沒有閒置的休眠艙。</NoCryptosleepCasket>
   <!-- EN: Temporary faction members not allowed. -->
-  <CryptosleepCasketGuestsNotAllowed>TODO</CryptosleepCasketGuestsNotAllowed>
+  <CryptosleepCasketGuestsNotAllowed>不允許臨時勢力成員。</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>無法前往、沒有可用的、沒有密閉空間的俘虜床。</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -281,7 +281,7 @@
   <Drop>卸下{1_label}</Drop>
 
   <!-- EN: Rest until healed -->
-  <UseMedicalBed>休養直到痊癒</UseMedicalBed>
+  <UseMedicalBed>休養到痊癒</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>健康</NotInjured>
   <!-- EN: occupied by {0} -->
