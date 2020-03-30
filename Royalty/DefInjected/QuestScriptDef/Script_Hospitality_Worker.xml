@@ -31,6 +31,8 @@
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>訪客失蹤：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>指定由你保護的[letterSubject]不見了。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>訪客失蹤：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>指定由你保護的[letterSubject]已經加入了另一個派系。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
@@ -40,7 +42,7 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>被指派去裝載[lodgersLabelSingOrPluralDef]的太空梭已經起飛。[lodgersLabelSingOrPluralDef]將嘗試步行離開。[failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>被指派去裝載[lodgersLabelSingOrPluralDef]的太空梭已經起飛。[lodgersLabelSingOrPluralDef]將嘗試步行離開。[failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>  
   <!-- EN: Shuttle destroyed -->
   <Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.label.slateRef>太空梭摧毀</Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to drop off [lodgersLabelSingOrPluralDef] has been destroyed. [failLetterEndingCommon] -->
