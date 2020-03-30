@@ -9,7 +9,7 @@
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
     <li>commonEnding->建造這個[monumentSize]的紀念碑需要以下資源(總價值：[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n一旦接受這項任務，建設必須在[constructionTimeoutTicks_duration]內完成。\n\n完成後，[allRewardsDescriptions][dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
-    <li>dontDestroyMonument->\n\n如果紀念碑在建造的[keepMonumentTicks_duration]天內被摧毀，則您與[asker_factionName]的關係將下降[goodwillChangeIfMonumentDestroyed]。</li>
+    <li>dontDestroyMonument->\n\n如果紀念碑在建造的[keepMonumentTicks_duration]天內被摧毀，則你與[asker_factionName]的關係將下降[goodwillChangeIfMonumentDestroyed]。</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>
