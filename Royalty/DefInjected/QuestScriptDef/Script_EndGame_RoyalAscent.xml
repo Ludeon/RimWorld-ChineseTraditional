@@ -35,12 +35,16 @@
     <li>titleEnd->主人</li>
     <li>titleEnd->勝利</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>任務失敗： [resolvedQuestName]</EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>
+  <!-- EN: [faction_name] became hostile to you.  -->
+  <EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>[faction_name]對你懷有敵意。</EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>
   <!-- EN: asker.NoLongerFactionLeader -->
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>不再是派系領袖</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>[asker_faction_leaderTitle]已抵達</EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>[asker_faction_leaderTitle]已抵達</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]，已經抵達。\n\n你必須在太空梭抵達前[shuttleDelayTicks_duration]內為他提供護衛並且滿足他的各種需求。\n\n你們所有人都可以和[asker_faction_leaderTitle]同乘太空梭前往帝國艦隊駐地開始新生活。</EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]，已經抵達。\n\n你必須在太空梭抵達前[shuttleDelayTicks_duration]內為他提供護衛並且滿足他的各種需求。\n\n你們所有人都可以和[asker_faction_leaderTitle]同乘太空梭前往帝國艦隊駐地開始新生活。</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>應該乘坐太空梭離開</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->

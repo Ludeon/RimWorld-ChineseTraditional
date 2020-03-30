@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: helperKind -->
-  <Util_ChooseRandomQuestHelperKind.root.nodes.GetRandomPawnKindForFaction.storeAs.slateRef>TODO</Util_ChooseRandomQuestHelperKind.root.nodes.GetRandomPawnKindForFaction.storeAs.slateRef>
-  
   <!-- EN:
     <li>helpersParagraph(helpersCount==0)-></li>
     <li>helpersParagraph(helpersCount==1)->[asker_nameDef] will send a [helperKind_label] to assist you under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
@@ -31,9 +28,9 @@
     <li>helpersIsAre(helpersCount>=2)->是</li>
   </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterLabel.slateRef>[helpersLabelSingOrPlural]已抵達</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterLabel.slateRef>
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>[helpersLabelSingOrPlural]已抵達</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterText.slateRef>[asker_nameDef][helpersHasHave]向你派出[helpersLabelSingOrPlural]進行支援，隨後將協助你執行'[resolvedQuestName]'任務。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterText.slateRef>
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>[asker_nameDef][helpersHasHave]向你派出[helpersLabelSingOrPlural]進行支援，隨後將協助你執行'[resolvedQuestName]'任務。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
   <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.Letter.label.slateRef>[helpersLabelSingOrPlural]正在離開</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.Letter.label.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
