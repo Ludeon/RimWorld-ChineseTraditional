@@ -158,15 +158,15 @@
   
   <!-- Ship computer core -->
   <!-- EN: Launch ship -->
-  <CommandShipLaunch>起飛</CommandShipLaunch>
+  <CommandShipLaunch>發射星艦</CommandShipLaunch>
   <!-- EN: Start the ship launch sequence with the current configuration. -->
-  <CommandShipLaunchDesc>使用目前的星艦設定開始星艦啟航程序。</CommandShipLaunchDesc>
+  <CommandShipLaunchDesc>使用目前的配置發射星艦。</CommandShipLaunchDesc>
   <!-- EN: Show launch report -->
-  <CommandShipLaunchReport>顯示啟航報告</CommandShipLaunchReport>
+  <CommandShipLaunchReport>顯示發射報告</CommandShipLaunchReport>
   <!-- EN: Show a readiness report about the ship's launch capability. -->
-  <CommandShipLaunchReportDesc>顯示一份關於星艦啟動能力的報告。</CommandShipLaunchReportDesc>
+  <CommandShipLaunchReportDesc>顯示發射星艦的準備報告。</CommandShipLaunchReportDesc>
   <!-- EN: Start ship -->
-  <CommandShipStartup>發動星艦</CommandShipStartup>
+  <CommandShipStartup>啟動星艦</CommandShipStartup>
   <!-- EN: Wake up hibernating ship components. -->
   <CommandShipStartupDesc>喚醒待機中的星艦部件。</CommandShipStartupDesc>
 
@@ -176,7 +176,7 @@
   <!-- EN: Wake up the cryptosleeper and eject them. -->
   <CommandPodEjectDesc>喚醒休眠者並將他們彈出。</CommandPodEjectDesc>
   <!-- EN: Contains nobody. -->
-  <CommandPodEjectFailEmpty>艙內無人。</CommandPodEjectFailEmpty>
+  <CommandPodEjectFailEmpty>艙內無殖民者。</CommandPodEjectFailEmpty>
 
   <!-- Door -->
   <!-- EN: Passage forbidden -->
