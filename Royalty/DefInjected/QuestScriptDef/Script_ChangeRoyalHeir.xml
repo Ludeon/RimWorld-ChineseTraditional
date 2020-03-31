@@ -18,7 +18,7 @@
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->
   <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.label.slateRef>[titleHolder_nameDef]的繼承變更失敗</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.label.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
-  <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>得罪了[asker_nameDef]，你承諾奉獻新繼承權，而沒有在規定時間內建造紀念碑。\n\n你與[asker_faction_name]的關係降低25。</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>得罪了[asker_nameDef]，你承諾為新繼承人祝聖，而沒有在規定時間內建造紀念碑。\n\n你與[asker_faction_name]的關係降低25。</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
   <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>頭銜持有者{SUBJECT_definite}已死亡。</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
@@ -30,7 +30,7 @@
   <!-- EN: Monument destroyed -->
   <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>紀念碑摧毀</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>得罪了[asker_nameDef]，你承諾奉獻新繼承權，但是在完成後不久就讓紀念碑毀了。\n\n你與[asker_faction_name]的關係因[goodwillChangeIfMonumentDestroyed]而消失。</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>得罪了[asker_nameDef]，你承諾為新繼承人祝聖，但是在完成後不久就讓紀念碑毀了。\n\n你與[asker_faction_name]的關係因[goodwillChangeIfMonumentDestroyed]而消失。</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: New heir: [titleHeir_nameDef] -->
   <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>新繼承人：[titleHeir_nameDef]</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
   <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->
