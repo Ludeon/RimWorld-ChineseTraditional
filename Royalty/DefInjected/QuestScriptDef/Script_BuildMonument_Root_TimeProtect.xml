@@ -5,11 +5,11 @@
     <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task.\n\nAfter completion, you'll have to protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription]\n\nWhen you finish construction, [allRewardsDescriptions]</li>
   -->
   <BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
-    <li>commonEnding->建造這個[monumentSize]的紀念碑需要以下資源(總價值：[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n一旦開始這項工程，建設必須在[constructionTimeoutTicks_duration]內完成。\n\n建造完成後，你需要在[haveToProtectForTicks_duration]內持續保護好紀念碑。如果紀念碑受到一點損傷，[asker2]的執行系統將會啟動並且[threatDescription]\n\n當你完成所有工作後，[allRewardsDescriptions]</li>
+    <li>commonEnding->建造這個[monumentSize]的紀念碑需要以下資源(總價值：[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n一旦開始這項工程，建設必須在[constructionTimeoutTicks_duration]內完成。\n\n建造完成後，你需要在[haveToProtectForTicks_duration]內持續保護好紀念碑。如果任一部分被摧毀，[asker2]的執行系統將會啟動並且[threatDescription]\n\n當你完成所有工作後，[allRewardsDescriptions]</li>
   </BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
   <!-- EN: Monument completed -->
   <BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.label.slateRef>紀念碑已完成</BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.label.slateRef>
   <!-- EN: You completed construction of the monument.\n\nYou must now protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription] -->
-  <BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.text.slateRef>你已經建好了紀念碑。\n\n你需要在[haveToProtectForTicks_duration]內持續保護好紀念碑。如果紀念碑受到一點損傷，[asker2]的執行系統將會啟動並且[threatDescription]</BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.text.slateRef>
+  <BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.text.slateRef>你已經建好了紀念碑。\n\n你需要在[haveToProtectForTicks_duration]內保護好紀念碑。如果任一部分被摧毀，[asker2]的執行系統將會啟動並且[threatDescription]</BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.text.slateRef>
   
 </LanguageData>
