@@ -8,8 +8,8 @@
     <li>pawnInvolvedInQuestInfo-></li>
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef]聯繫了你並尋求幫助。[refugee_pronoun]受傷了無法行動。\n\n[refugee_nameDef]是一名[refugee_age]歲的[refugee_title]。如果你救援[refugee_objective]，[refugee_pronoun]保證會加入你。\n\n[refugee_nameDef]說[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]說[asker_possessive]朋友在旅行時受傷了。這名朋友名叫[refugee_nameIndef]，是一名[refugee_age]歲的[refugee_title]。\n\n[asker_nameDef]沒有人手可以派去救援[refugee_nameDef]，不過如果我們能趕到[refugee_nameDef]的位置救援[refugee_objective]，[refugee_pronoun]就會加入你。\n\n[asker_nameDef]說[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef]聯繫了你並尋求幫助。[refugee_pronoun]受傷了無法行動。\n\n[refugee_nameDef]是一名 [refugee_age] 歲的[refugee_title]。如果你救援[refugee_objective]，[refugee_pronoun]保證會加入你。\n\n[refugee_nameDef]說[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]說[asker_possessive]朋友在旅行時受傷了。這名朋友名叫 [refugee_nameIndef] ，是一名 [refugee_age] 歲的[refugee_title]。\n\n[asker_nameDef]沒有人手可以派去救援[refugee_nameDef]，不過如果我們能趕到 [refugee_nameDef] 的位置救援[refugee_objective]，[refugee_pronoun]就會加入你。\n\n[asker_nameDef]說[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
