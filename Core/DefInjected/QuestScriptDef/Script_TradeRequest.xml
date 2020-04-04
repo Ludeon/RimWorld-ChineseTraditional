@@ -7,7 +7,7 @@
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->附近的[settlement_label]提出了一場交易。他們想收購：\n\n[requestedThing_label]x[requestedThingCount] [qualityInfo](價值 [requestedThingMarketValue_money])\n\n作為回報，[allRewardsDescriptions]\n\n如果你同意這場交易，請派出旅隊攜帶要求物品前往交易。旅途預估時間為[estimatedTravelTime_duration]。</li>
+    <li>questDescription->附近的[settlement_label]提出了一場交易。他們想收購：\n\n[requestedThing_label]x[requestedThingCount] [qualityInfo](價值 [requestedThingMarketValue_money] )\n\n作為回報，[allRewardsDescriptions]\n\n如果你同意這場交易，請派出旅隊攜帶要求物品前往交易。旅途預估時間為 [estimatedTravelTime_duration] 。</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->普通品質以上</li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
