@@ -51,10 +51,10 @@
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says giant insects are hunting [joiner_objective] after he poisoned an underground colony and they soaked [joiner_objective] in threat pheromones!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says giant insects are hunting [joiner_objective] after [joiner_pronoun] poisoned an underground colony and they soaked [joiner_objective] in threat pheromones!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一個名叫[joiner_nameDef]的[joiner_age]歲[joiner_title]從附近呼叫殖民地。[joiner_pronoun]說一群蟲族正在追獵[joiner_objective]，因為[joiner_objective]在毒殺一片巨蟲巢穴的時候沾染了費洛蒙！\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一群擁有[hivesCount]個蟲巢的巨蟲將會在[infestationDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
+    <li>questDescription->一個名叫[joiner_nameDef]的[joiner_age]歲[joiner_title]從附近呼叫殖民地。[joiner_pronoun]說一群蟲族正在追獵[joiner_objective]，因為[joiner_objective]在[joiner_pronoun]毒殺巨蟲巢穴時，他們讓[joiner_objective]沾染了費洛蒙！\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一群擁有[hivesCount]個蟲巢的巨蟲將會在[infestationDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
