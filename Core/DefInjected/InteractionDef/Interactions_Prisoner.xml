@@ -85,14 +85,14 @@
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef]試圖招募[RECIPIENT_nameDef]加入。</li>
-    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]承諾了[goodthing]，並嘗試說服[RECIPIENT_objective]加入。</li>
-    <li>goodthing(p=15)->自由和溫飽</li>
-    <li>goodthing->免費而新鮮的[Vegetable]</li>
+    <li>r_logentry->[INITIATOR_nameDef]說服[RECIPIENT_nameDef]加入。</li>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]承諾了[goodthing]，並說服[RECIPIENT_objective]加入。</li>
+    <li>goodthing(p=15)->[ConceptPositive]</li>
+    <li>goodthing->免費、新鮮的[Vegetable]</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
-  <SparkJailbreak.label>煽動越獄</SparkJailbreak.label>
+  <SparkJailbreak.label>越獄</SparkJailbreak.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
@@ -104,14 +104,14 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef]諂媚了[freedom]的美好，並提供越獄的手段。</li>
-    <li>r_logentry->[INITIATOR_nameDef]述說了自由世界的美麗景緻，並願意給予自由。</li>
-    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]展示了越獄的辦法。</li>
-    <li>r_logentry->[INITIATOR_nameDef]告訴[RECIPIENT_nameDef]安保正鬆散，是越獄的好時機。</li>
+    <li>r_logentry->[INITIATOR_nameDef]說了美好的[freedom]，並提供越獄的手段。</li>
+    <li>r_logentry->[INITIATOR_nameDef]說了關於[TerrainFeature]的美好，並提供自由。</li>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]展示如何越獄，並承諾了[freedom]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]告訴[RECIPIENT_nameDef]安保正鬆散，並煽動越獄。</li>
     <li>freedom->自由</li>
-    <li>freedom->擺脫拘束</li>
+    <li>freedom->時機</li>
     <li>freedom->家鄉</li>
-    <li>freedom->把持自己命運</li>
+    <li>freedom->自由意志</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>
