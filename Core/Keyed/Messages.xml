@@ -62,9 +62,9 @@
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort}的附近找不到可供{GUN_label}使用的砲彈。</MessageOutOfNearbyShellsFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>警告：{ANIMAL_kindBasePlural}在受到傷害後有{1}的攻擊機率。機率取決於射程範圍、獵人的隱匿技巧。</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>警告：{ANIMAL_kindBasePlural}在受到傷害後有{1}的反擊機率。機率取決於射程範圍、獵人的隱匿技巧。</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>警告：{ANIMAL_kindBasePlural}可能在馴服失敗時反擊 (機率{1})。</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalManhuntsOnTameFailed>警告：馴服{ANIMAL_kindBasePlural}失敗時會被反擊(機率{1})。</MessageAnimalManhuntsOnTameFailed>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>新成員</LetterLabelMessageRecruitSuccess>
