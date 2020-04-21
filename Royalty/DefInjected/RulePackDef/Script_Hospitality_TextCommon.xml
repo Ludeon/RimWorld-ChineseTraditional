@@ -15,11 +15,18 @@
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] is an expert fighter.</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are expert fighters.</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->You are required to keep [lodgers0_possessive] mood above [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->You are required to keep the [lodgersLabelPlural]' moods above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1,lodgersCount==1)->You must keep [lodgers0_possessive] mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1,lodgersCount>=2)->You must keep the [lodgersLabelPlural]' moods above [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
-    <li>enemyGroupsParagraph->Raids will arrive roughly once per [threatsIntervalTicks_duration]. The raids will be of similar size to this:\n\n[threatExample]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->a mech cluster will deploy nearby.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->a double-strength mech cluster will deploy nearby.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->a triple-strength mech cluster will deploy nearby.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->two double-strength mech clusters will deploy nearby.</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->two mech clusters will deploy nearby.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->You must keep [lodgers0_nameDef] at [map_definite] and not send [lodgers0_objective] anywhere else.</li>
@@ -59,7 +66,14 @@
     <li>minMoodInfo(priority=1,lodgersCount>=2)->你必須將[lodgersLabelPlural]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
-    <li>enemyGroupsParagraph->襲擊每[threatsIntervalTicks_duration]會發生一次。襲擊規模與以下情況相當：\n\n[threatExample]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->將會有大約[threatCount]這個規模的襲擊:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->將會有大約[threatCount]這個規模的襲擊:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->機械軍團將部屬在附近。</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->一個雙重強度的機械軍團將部屬在附近。</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->一個三重強度的機械軍團將部屬在附近。</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->兩個雙重強度的機械軍團將部屬在附近。</li>
+    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->兩個機械軍團將部屬在附近。</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]後，一艘負責運送[lodgers0_nameDef]的太空梭將會到達。如果你能將[lodgers0_objective]安全送上太空梭，[allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]後，一艘負責運送[lodgersLabelPlural]的太空梭將會到達。如果你能將他們安全送上太空梭，[allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->你必須確保[lodgers0_nameDef]處於[map_definite]並且不會將[lodgers0_objective]派遣到其他任何地方。</li>

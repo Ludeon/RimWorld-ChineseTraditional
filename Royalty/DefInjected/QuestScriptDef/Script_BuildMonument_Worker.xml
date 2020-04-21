@@ -11,10 +11,12 @@
   <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>得罪了[asker_nameDef]，你在完成後不久便摧毀紀念碑。\n\n你與[asker_faction_name]的關係下降了[goodwillChangeIfMonumentDestroyed]。</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
   <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>請勿摧毀紀念碑{0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPartTip.slateRef>請勿摧毀紀念碑{0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPartTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>保留紀念碑{0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>
   <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Punishment will now occur. -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>任務'[resolvedQuestName]'中的紀念碑已被污損。懲罰即將來臨。</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>
+  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>任務'[resolvedQuestName]'中的紀念碑已被污損。後果將隨之而來。</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>
   <!-- EN: Protect the monument for {0} -->
   <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPart.slateRef>保護紀念碑{0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPart.slateRef>
   <!-- EN: Protect the monument until {0} -->

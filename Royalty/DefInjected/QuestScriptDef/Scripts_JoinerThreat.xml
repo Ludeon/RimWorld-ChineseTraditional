@@ -16,9 +16,9 @@
     <li>hidingFrom(gameCondition==WeatherController)->a malfunctioning weather control satellite</li>
     <li>condDesc(gameCondition==WeatherController)->If [joiner_pronoun] comes to you, the weather will be [forcedWeather_label] for [gameConditionDuration_duration] until the satellite resets.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->a vengeful machine persona who [joiner_pronoun] recently offended</li>
-    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] comes to you, the machine mind will blast [map_definite] with a [psychicDroneGender]-tuned [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
+    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] comes to you, the machine mind will blast [map_definite] with a [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->a stirring machine persona who [joiner_pronoun] recently awoke</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with [psychicSuppressorGender]-tuned psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->一位名叫[joiner_nameFull]的[joiner_age]歲[joiner_title]請求我們幫助！[joiner_pronoun]一直在躲避[hidingFrom]。[joiner_pronoun]想要到[map_definite]與你會合 。[joiner_relationInfo]\n\n[condDesc]\n\n由於聯繫我們會有極大風險，[joiner_nameDef]表示無法告知我們更多關於[joiner_objective]自己的情報。</li>
@@ -35,9 +35,9 @@
     <li>hidingFrom(gameCondition==WeatherController)->一顆故障的天氣控制衛星</li>
     <li>condDesc(gameCondition==WeatherController)->如果[joiner_pronoun]投奔你而來，天氣將會強制變為[forcedWeather_label]並持續[gameConditionDuration_duration]，衛星系統自動重置後將會恢複正常。</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->一台被[joiner_pronoun]冒犯的複仇機器</li>
-    <li>condDesc(gameCondition==PsychicDrone)->如果[joiner_pronoun]投奔你而來，機器意志將會把一台干擾電波發射器調整為[psychicDroneLevel]級強度，並在[gameConditionDuration_duration]內持續向[map_definite]發射影響[psychicDroneGender]的心靈干擾，這將會使所有的[psychicDroneGender]殖民者情緒低落。</li>
+    <li>condDesc(gameCondition==PsychicDrone)->如果[joiner_pronoun]投奔你而來，機器意志將會把一台干擾電波發射器調整為[psychicDroneLevel]級強度，並在[gameConditionDuration_duration]內持續向[map_definite]發射心靈干擾，這將會使所有的[psychicDroneGender]殖民者情緒低落。</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->一台被[joiner_pronoun]喚醒的混亂機器</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->如果[joiner_pronoun]投奔你而來，機器意志將會[gameConditionDuration_duration]內持續向[map_definite]發射影響[psychicSuppressorGender]的心靈抑制波，這將會使所有[psychicSuppressorGender]殖民者的意識混亂。</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->如果[joiner_pronoun]投奔你而來，機器意志將會[gameConditionDuration_duration]內持續向[map_definite]發射心靈抑制波，這將會使所有[psychicSuppressorGender]殖民者的意識混亂。</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
@@ -51,10 +51,10 @@
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says giant insects are hunting [joiner_objective] after [joiner_pronoun] poisoned an underground colony and they soaked [joiner_objective] in threat pheromones!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting him!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一個名叫[joiner_nameDef]的[joiner_age]歲[joiner_title]從附近呼叫殖民地。[joiner_pronoun]說一群蟲族正在追獵[joiner_objective]，因為[joiner_objective]在[joiner_pronoun]毒殺巨蟲巢穴時，他們讓[joiner_objective]沾染了費洛蒙！\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一群擁有[hivesCount]個蟲巢的巨蟲將會在[infestationDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
+    <li>questDescription->一個名叫[joiner_nameDef]的[joiner_age]歲[joiner_title]從附近呼叫殖民地。[joiner_pronoun]說[joiner_pronoun]毒殺了一個巨蟲巢穴，但現在[joiner_pronoun]沾染了費洛蒙，蟲子正在追殺他!\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一群擁有[hivesCount]個蟲巢的巨蟲將會在[infestationDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
@@ -170,16 +170,24 @@
   
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
-    <li>threat(priority=1)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
-    <li>threat->unknown enemies</li>
-    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
+    <li>threat->[joiner_possessive] enemies</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->一個名叫[joiner_nameFull]的[joiner_age]歲[joiner_title]從附近呼叫殖民地。[joiner_pronoun]正在躲避[threat]。[joiner_pronoun]想要從[joiner_possessive]的隱藏地逃出來並加入你位於[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接納[joiner_objective]，[joinersEnemies]將會在附近建立一個襲擾據點。[site/allSitePartsDescriptions]\n\n摧毀這個據點，否則對你的襲擊將會源源不斷。</li>
-    <li>threat(priority=1)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
-    <li>threat->未知敵人</li>
-    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->機械族</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->機械族</li>
+    <li>threat->[joiner_possessive] 的敵人</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->機械族</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->機械族</li>
     <li>joinersEnemies->[joiner_possessive]的敵人</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
