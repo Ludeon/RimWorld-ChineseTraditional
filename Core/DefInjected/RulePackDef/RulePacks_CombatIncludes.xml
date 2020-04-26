@@ -79,11 +79,11 @@
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
     <li>result(p=1)->[damaged_present][RECIPIENT_possessive][targetlist]</li>
     <li>result(p=0.2)->[damaged_present][RECIPIENT_possessive][targetlist]，同時[flavortext_consequence]</li>
-    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
-    <li>strikeAdv->慘忍的</li>
-    <li>strikeAdv->可怕的</li>
-    <li>strikeAdv->野蠻的</li>
-    <li>strikeAdv->惡毒的</li>
+    <li>result(p=0.1)->[damaged_present][strikeAdv][RECIPIENT_possessive][targetlist]</li>
+    <li>strikeAdv->慘忍地</li>
+    <li>strikeAdv->可怕地</li>
+    <li>strikeAdv->野蠻地</li>
+    <li>strikeAdv->惡毒地</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一個噁心的傷口</li>
     <li>flavortext_consequence->留下恐怖的傷口</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->讓[RECIPIENT_objective][painevent]而[wince]</li>
