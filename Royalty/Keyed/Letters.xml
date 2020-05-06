@@ -15,7 +15,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive}期望永遠不會低於{1}。</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>因為{PAWN_labelShort}為{1}，因此{PAWN_pronoun}將要求完全尊重此頭銜的權力。{PAWN_pronoun}可能會拒絕從事某些工作，吃低等食物並且會頒布法令。</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>因為{PAWN_labelShort}為{1}，因此{PAWN_pronoun}將要求完全尊重此頭銜的權力。{PAWN_pronoun}可能會拒絕從事某些工作或吃低等食物，並且會頒布法令。</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort}從{FACTION_name}獲得了{TITLE}的頭銜！</LetterGainedRoyalTitle>
@@ -78,6 +78,8 @@
   <LetterTitleHeirLostLabel>繼承者死了</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
   <LetterTitleHeirLost>{HEIR_nameFull}死亡，{HOLDER_labelShort}沒有繼承自{FACTION_name}的頭銜。你可以透過通訊台與{FACTION_name}聯系，以指定新的繼承人。</LetterTitleHeirLost>
+  <!-- EN: The title of {TITLE} cannot be inherited. -->
+  <LetterRoyalTitleCantBeInherited>{TITLE}的頭銜無法繼承。</LetterRoyalTitleCantBeInherited>
 
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>頭銜繼承</LetterTitleInheritance>
