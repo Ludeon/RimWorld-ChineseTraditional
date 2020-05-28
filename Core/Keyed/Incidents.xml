@@ -12,7 +12,8 @@
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>枯萎病：{PLANTDEF_labelPlural}</LetterLabelCropBlight>
-  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!\nYou should cut or burn the affected plants before the blight spreads. -->
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
+\nYou should cut or burn the affected plants before the blight spreads. -->
   <LetterCropBlight>在{PLANTDEF_labelPlural}上發現了枯萎病！\n你應該要在枯萎病擴散之前，裁剪或燒掉受感染的植物。</LetterCropBlight>
 
   <!-- EN: Miracle -->
@@ -90,7 +91,7 @@
 
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>獸群襲擊</LetterLabelManhunterPackArrived>
-  <!-- EN: A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
+  <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
   <ManhunterPackArrived>一群獵殺人類的{0}進入此區域。牠們會在此徘徊，獵殺任何人形生物。\n\n除非看到有人進門去，否則牠們不會攻擊門。待在室內是安全的選擇。牠們也不會去攻擊未運作的砲塔，請關掉砲塔電源以避免被破壞。\n\n{0}將會在一、兩天內離開區域。你可以躲起來、等牠們離開、或跟牠們戰鬥。</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
@@ -166,13 +167,13 @@
   <!-- Journey-related -->
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>發現星艦</EscapeShipFoundLabel>
-  <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <EscapeShipFound>你已經抵達Charlon Whitestone提供的星艦藏匿點座標。\n\n星艦反應爐仍然處於休眠模式，所以現在還無法飛行。你可以用電腦核心啟動它。\n\nCharlon Whitestone警告你，啟動過程大約需要15天，而且從很遠的距離就能看到能量信號。這種能量信號代表這艘星艦具有飛行能力，這將會引來一群襲擊者、致命的機械族。\n\n你將會受到前所未有的襲擊。請確保好你的防衛工事。</EscapeShipFound>
-  <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days. -->
+  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
   <EscapeShipFoundPeaceful>你已經抵達Charlon Whitestone提供的星艦藏匿點座標。\n\n星艦反應爐仍然處於休眠模式，所以現在還無法飛行。你可以用電腦核心啟動它。\n\nCharlon Whitestone警告你，啟動過程大約需要15天。</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>星艦已被摧毀</EscapeShipLostLabel>
-  <!-- EN: <Name>Charlon Whitestone</Name> sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
   <EscapeShipLost>Charlon Whitestone向你發送一條訊息。\n\n他判斷你已經失去星艦的控制權。為了阻止星艦落入敵人之手，他已經強制啟動星艦的自毀模式。星艦現在已經是一堆廢鐵。\n\n你得找其他方法離開這顆星球了。</EscapeShipLost>
 
   <!-- Caravan meeting -->

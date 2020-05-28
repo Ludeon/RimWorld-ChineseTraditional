@@ -10,7 +10,7 @@
   
   <!-- EN: high on wake-up -->
   <WakeUpHigh.label>醒神劑亢奮</WakeUpHigh.label>
-  <!-- EN: Wake-up in the bloodstream. Fills the need for rest by stimulating the brain. -->
+  <!-- EN: Wake-up in the bloodstream. It fills the need for rest by stimulating the brain, and increases focus, allowing faster work. It also increases the psyfocus gains from meditation. -->
   <WakeUpHigh.description>流淌在血液裡的醒神劑。透過大腦的刺激來滿足休息的需求。</WakeUpHigh.description>
   <!-- EN: a wake-up high -->
   <WakeUpHigh.labelNoun>醒神劑亢奮</WakeUpHigh.labelNoun>
@@ -20,12 +20,13 @@
   <!-- EN: A built-up tolerance to wake-up. The more severe this tolerance is, the more wake-up it takes to get the same effect. -->
   <WakeUpTolerance.description>對醒神劑的耐受性。耐受性越嚴重，達到同樣效果所需要的醒神劑也就越多。</WakeUpTolerance.description>
   <!-- EN: small -->
-  <WakeUpTolerance.stages.small-0.label>輕微</WakeUpTolerance.stages.small-0.label>
-  <!-- EN: small -->
-  <WakeUpTolerance.stages.small-1.label>輕微</WakeUpTolerance.stages.small-1.label>
+  <WakeUpTolerance.stages.small.label>輕微</WakeUpTolerance.stages.small.label>
   <!-- EN: large -->
   <WakeUpTolerance.stages.large.label>強烈</WakeUpTolerance.stages.large.label>
   <!-- EN: massive -->
   <WakeUpTolerance.stages.massive.label>極強</WakeUpTolerance.stages.massive.label>
+  
+  <!-- UNUSED -->
+  <WakeUpTolerance.stages.small-1.label>輕微</WakeUpTolerance.stages.small-1.label>
   
 </LanguageData>

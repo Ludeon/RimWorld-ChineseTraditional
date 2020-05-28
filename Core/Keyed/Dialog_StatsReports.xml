@@ -62,6 +62,8 @@
   <StatsReport_Facilities>設施</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
   <StatsReport_BodySize>體型倍率{0}</StatsReport_BodySize>
+  <!-- EN: Carefully slaughtered without wounds -->
+  <StatsReport_HasHediffExplanation>TODO</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
   <StatsReport_MeleeDPSExplanation>DPS = 近戰傷害x近戰命中率/冷卻時間(秒)</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
@@ -112,6 +114,25 @@
   <StatsReport_WildMan>野人</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>攻擊</StatsReport_NonToolAttack>
+  
+  <!-- EN: Possible offsets -->
+  <StatReport_PossibleOffsets>TODO</StatReport_PossibleOffsets>
+  <!-- EN: Room impressiveness -->
+  <StatsReport_RoomImpressiveness>TODO</StatsReport_RoomImpressiveness>
+  <!-- EN: Lit -->
+  <StatsReport_Lit>TODO</StatsReport_Lit>
+  <!-- EN: Contains {0} -->
+  <StatsReport_GraveFull>TODO</StatsReport_GraveFull>
+  <!-- EN: Contains a human corpse -->
+  <StatsReport_GraveFullAbstract>TODO</StatsReport_GraveFullAbstract>
+  <!-- EN: Meditator is related to the corpse inside -->
+  <StatsReport_GraveCorpseRelatedAbstract>TODO</StatsReport_GraveCorpseRelatedAbstract>
+  <!-- EN: From quality -->
+  <StatsReport_FromQuality>TODO</StatsReport_FromQuality>
+  <!-- EN: Nearby artificial structures -->
+  <StatsReport_NearbyArtificialStructures>TODO</StatsReport_NearbyArtificialStructures>
+  <!-- EN: Satisfies user's title requirements -->
+  <StatsReport_SatisfiesTitle>TODO</StatsReport_SatisfiesTitle>
 
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>不同的娛樂設施提供不同的娛樂類型。殖民者重複相同的娛樂類型會感到厭倦，因此提供不同娛樂類型很重要。</Stat_RecreationType_Desc>
@@ -213,8 +234,6 @@
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>執行此手術對患者是安全的。</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
   <Stat_Thing_Surgery_DeathOnFailChance_Desc>患者因手術失敗而死亡的機率。</Stat_Thing_Surgery_DeathOnFailChance_Desc>
-  <!-- EN: The addictiveness of this drug. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>藥物的成癮性。</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: Total bleed factor -->
   <Stat_Hediff_TotalBleedFactor_Name>失血率</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
@@ -227,7 +246,7 @@
   <Stat_Hediff_FoodPoisoningChanceFactor_Name>食物中毒率</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
   <Stat_Hediff_FoodPoisoningChanceFactor_Desc>適用於烹飪出有毒料理的意外機率。</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
-  <!-- EN: The rate at which this condition is drains blood. -->
+  <!-- EN: The rate at which this condition causes blood loss. -->
   <Stat_Hediff_BleedingRate_Desc>此情況的失血率。</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
   <Stat_Hediff_Pain_Desc>此情況引起的疼痛程度。</Stat_Hediff_Pain_Desc>
@@ -267,6 +286,42 @@
   <Stat_Thing_Biocoded_Name>生物鎖</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>此物品經過生物鎖，只能給特定的人使用。</Stat_Thing_Biocoded_Desc>
+
+  <!-- Drugs -->
+  <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
+  <Stat_Thing_Drug_Chemical_Desc>TODO</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The intensity of high gained per dose of this drug. -->
+  <Stat_Thing_Drug_HighGainPerDose_Desc>TODO</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <!-- EN: How much this drug's high will decay each day. -->
+  <Stat_Thing_Drug_HighFallPerDay_Desc>TODO</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>TODO</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>TODO</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>TODO</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>TODO</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>TODO</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
+  <Stat_Thing_Drug_RandomODChance_Desc>TODO</Stat_Thing_Drug_RandomODChance_Desc>
+  <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>藥物的成癮性。</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>TODO</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>TODO</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>TODO</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>TODO</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>TODO</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <!-- EN: How quickly an addict's need for the chemical will fall. -->
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>TODO</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
+  <Stat_Thing_Drug_AddictionCost_Desc>TODO</Stat_Thing_Drug_AddictionCost_Desc>
 
   <!-- UNUSED -->
   <Stat_Thing_Weapon_Biocoded_Name>生物鎖</Stat_Thing_Weapon_Biocoded_Name>

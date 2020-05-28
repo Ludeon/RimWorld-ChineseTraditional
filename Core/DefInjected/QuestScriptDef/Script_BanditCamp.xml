@@ -2,18 +2,27 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].\n\nIf we succeed, [allRewardsDescriptions]</li>
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
     <li>questDescription->[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]向我們發送了一則訊息。根據情報，[siteFaction_pawnsPlural]附近的營地襲擊他們的旅隊。營地屬於[siteFaction_name]。\n\n[asker_nameDef]請求我們摧毀營地，意思就是殲滅所有的敵人、砲塔。[asker_label]說[sitePart0_description].\n\n如果我們完成任務，[allRewardsDescriptions]</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[asker_nameDef]'s Camp Bounty</li>
-    <li>questName->Camp of [enemyFaction_pawnsPlural]</li>
-    <li>questName->The Bandit Camp</li>
-    <li>questName->The Raider Camp</li>
-    <li>questName->Destroy the Camp</li>
-    <li>questName->Helping [asker_nameDef]</li>
+    <li>questName->The [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Camp</li>
+    <li>camp->Outpost</li>
+    <li>camp->Lair</li>
+    <li>camp->Encampment</li>
+    <li>bandit->Bandit</li>
+    <li>bandit->Raider</li>
+    <li>bandit->Outlaw</li>
+    <li>bandit->Desperado</li>
+    <li>bandit->Fugitive</li>
+    <li>bandit->Marauder</li>
+    <li>bandit->Robber</li>
+    <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[asker_nameDef]的營地獎勵</li>
@@ -24,20 +33,20 @@
     <li>questName->幫助[asker_nameDef]</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務失效：[resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>任務失效：[resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>土匪們已經滿載而歸了。任務[resolvedQuestName]失敗。</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>土匪們已經滿載而歸了。任務[resolvedQuestName]失敗。</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任務失敗： [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
-  <!-- EN: The bandit camp has packed up and moved on. -->
-  <OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>土匪們已經滿載而歸了。</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>任務失敗： [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>土匪們已經滿載而歸了。</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
   <!-- EN: Payment arrived -->
-  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>獎勵已送達</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>獎勵已送達</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
-  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>你已經擊敗了土匪營地！\n\n來自[asker_faction_name]的獎勵已經送達。</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>你已經擊敗了土匪營地！\n\n來自[asker_faction_name]的獎勵已經送達。</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
-  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] favor for this service. -->
-  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>這些殖民者成功的完成了[resolvedQuestName]任務。[asker_definite]想要知道誰應該接受這[royalFavorReward_amount][asker_faction_royalFavorLabel]。</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>這些殖民者成功的完成了[resolvedQuestName]任務。[asker_definite]想要知道誰應該接受這[royalFavorReward_amount][asker_faction_royalFavorLabel]。</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

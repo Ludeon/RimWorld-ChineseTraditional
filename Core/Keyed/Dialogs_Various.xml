@@ -402,8 +402,46 @@
   <TimeRecordsCategory>經歷時間</TimeRecordsCategory>
   <!-- EN: Misc -->
   <MiscRecordsCategory>其它</MiscRecordsCategory>
-  <!-- EN: Addictiveness -->
+  <!-- EN: Chemical -->
+  <Chemical>TODO</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>TODO</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>TODO</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>TODO</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>TODO</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>TODO</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>TODO</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval -->
+  <SafeDoseInterval>TODO</SafeDoseInterval>
+  <!-- EN: New addiction chance -->
   <Addictiveness>成癮性</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>TODO</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>TODO</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>TODO</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>TODO</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>TODO</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>TODO</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>TODO</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>TODO</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>TODO</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>TODO</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>TODO</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>貨運動物</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -464,6 +502,30 @@
   <ClickToLearnMore>點擊了解更多</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>點擊以查看派系</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>TODO</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>TODO</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>TODO</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>TODO</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>TODO</MeditationFocusCanUse>
+  <!-- EN: {0} focus objects -->
+  <MeditationFocusObjects>TODO</MeditationFocusObjects>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>TODO</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>TODO</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>TODO</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>TODO</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>TODO</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>TODO</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -618,8 +680,12 @@
   <AnimalCanGrazeTip>此動物能在環境中放牧吃草，而不是吃旅隊食物。只能在部份生態系和合適的氣溫下進行放牧。</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>每日覓食的營養值。實際的覓食量也會受到生態系的影響。\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>每日攝取的營養值。參考：簡單料理有{0}營養值。\n\n可食用：{2}\n\n圖例：\n{1}。</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>TODO</CanEat>
+  <!-- EN: Legend -->
+  <Legend>TODO</Legend>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>目前負重</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -912,8 +978,10 @@
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>所需視線</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
+  <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>熵增益</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>TODO</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>效果持續時間</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -926,6 +994,10 @@
   <AbilityOccupiedCells>{0}必須瞄準空白區域。</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0}必須瞄準可移動區域。</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>TODO</AbilityRoofed>
+  <!-- EN: {0} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>TODO</AbilityCantApplyToMentallyBroken>
   
   <!-- UNUSED -->
   <ResearchMenuWithoutBench>你的殖民者在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>

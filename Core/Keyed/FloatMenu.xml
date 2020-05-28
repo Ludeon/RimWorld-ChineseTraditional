@@ -174,6 +174,8 @@
   <NoCryptosleepCasket>沒有閒置的休眠艙。</NoCryptosleepCasket>
   <!-- EN: Temporary faction members not allowed. -->
   <CryptosleepCasketGuestsNotAllowed>不允許臨時勢力成員。</CryptosleepCasketGuestsNotAllowed>
+  <!-- EN: Hosted prisoners not allowed. -->
+  <CryptosleepCasketGuestPrisonersNotAllowed>TODO</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>無法前往、沒有可用的、沒有密閉空間的俘虜床。</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -226,7 +228,7 @@
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>撿起{1_labelShort}x{{0}}</PickUpCount>
   
-  <!-- EN: Load {1_label} onto pack animal -->
+  <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>無法將{1_label}裝載至貨運動物</CannotGiveToPackAnimal>
   <!-- EN: Cannot load {1_label} (all) onto pack animal -->
   <CannotGiveToPackAnimalAll>無法將所有{1_label}裝載至貨運動物</CannotGiveToPackAnimalAll>

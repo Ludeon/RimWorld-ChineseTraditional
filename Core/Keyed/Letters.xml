@@ -146,6 +146,9 @@
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>{PAWN_definite}生涯的最新事件</LastEventsInLife>
 
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginThanksToHighMoodPart>TODO</LetterInspirationBeginThanksToHighMoodPart>
+
   <!-- Related pawns -->
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>親友</LetterLabelNoticedRelatedPawns>
@@ -362,7 +365,7 @@
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>反應爐就緒</LetterLabelHibernateComplete>
-  <!-- EN: <Name>Charlon Whitestone</Name> has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
   <LetterHibernateComplete>Charlon Whitestone已經完成反應爐的開機程序。反應爐已經準備好升空的動力了。</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>反應爐的開機程序已完成。已經準備好升空的動力了。</LetterHibernateCompleteStandalone>
@@ -462,7 +465,8 @@
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
   <LetterLabelPawnsKidnapped>{PAWN_nameDef}被綁架</LetterLabelPawnsKidnapped>
-  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
+  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
+\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
   <LetterPawnsKidnapped>{PAWN_nameDef}被{FACTION_name}綁架了！\n但是，{PAWN_pronoun}不會就此失蹤。救援{PAWN_objective}的機會可能會在未來幾天或幾年內出現。</LetterPawnsKidnapped>
   
   <!-- Techprints -->
@@ -494,11 +498,12 @@
   <LetterQuestCompletedFail>你的任務「{0}」失敗。</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
   <LetterQuestCompletedConcluded>你的任務「{0}」結束。</LetterQuestCompletedConcluded>
-  
+
   <!-- Bladelink -->
-  <!-- EN: Bladelink bond: {PAWN_labelShort} -->
+  <!-- EN: Persona bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>羈絆武器: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
-  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
+  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
+\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
   <LetterBladelinkWeaponBonded>{PAWN_labelShort}與{WEAPON_labelShort}建立起特殊的聯繫。\n\n從現在開始，{WEAPON_labelShort}除了{PAWN_labelShort}以外的任何使用者都拒絕。</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
