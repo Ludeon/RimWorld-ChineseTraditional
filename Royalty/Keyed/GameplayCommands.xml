@@ -27,14 +27,22 @@
   <CommandCallRoyalAidFavorOption>剩餘{0}天，費用為{1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
 
   <!-- Abilities -->
-  <!-- EN: Psychic entropy would overflow. -->
-  <CommandPsycastWouldExceedEntropy>心理熵會溢出。</CommandPsycastWouldExceedEntropy>
-  <!-- EN: Psychic amplifier brain implant needed. -->
-  <CommandPsycastNoAmplifier>需要心靈增幅器的大腦植入物。</CommandPsycastNoAmplifier>
-  <!-- EN: {0}x level psychic amplifier needed. -->
-  <CommandPsycastHigherLevelAmplifierRequired>需要{0}等心靈增幅器。</CommandPsycastHigherLevelAmplifierRequired>
+  <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
+  <CommandPsycastWouldExceedEntropy>神經熱會溢出。禁用神經熱限制來施展能力。</CommandPsycastWouldExceedEntropy>
+  <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}消耗{0}心靈集中，而{CASTERNAME}只消耗{1}。</CommandPsycastNotEnoughPsyfocus>
+  <!-- EN: level {0} psylink is required. -->
+  <CommandPsycastHigherLevelPsylinkRequired>需要等級{0}心靈連結。</CommandPsycastHigherLevelPsylinkRequired>
+  <!-- EN: Zero psychic sensitivity. -->
+  <CommandPsycastZeroPsychicSensitivity>零心靈敏感度</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>能力使用者不省人事。</CommandPsycastPawnIsUnconscious>
+  <!-- EN: Need at least {0} psyfocus to cast this. -->
+  <CommandPsycastLowPsyfocus>至少需要{0}心靈集中才能進行施放。</CommandPsycastLowPsyfocus>
+  <!-- EN: H -->
+  <NeuralHeatLetter>H</NeuralHeatLetter>
+  <!-- EN: P -->
+  <PsyfocusLetter>P</PsyfocusLetter>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->

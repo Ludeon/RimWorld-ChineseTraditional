@@ -3,8 +3,8 @@
   
   <!-- EN:
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] will send a [helperKind_label] to assist you under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] will send [helpersCount] [helperKind_labelPlural] to assist you under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nA [helperKind_label] will be placed under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] will be placed under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] been sent to assist you.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef]派出的[helperKind_label]將會聽命於你。你需要為[helpers0_objective]提供各種基本生活條件，而且[helpers0_pronoun]在戰鬥中英勇犧牲的話，其派系也不會遷怒於你。\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef]派出的[helpersCount]個[helperKind_labelPlural]將會聽命於你。你需要為這些人提供各種基本生活條件，而且他們在戰鬥中英勇犧牲的話，其派系也不會遷怒於你。\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\n一個[helperKind_label]將會聽命於你。你需要為[helpers0_objective]提供各種基本生活條件，而且[helpers0_pronoun]在戰鬥中英勇犧牲的話，其派系也不會遷怒於你。\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural]將會聽命於你。你需要為這些人提供各種基本生活條件，而且他們在戰鬥中英勇犧牲的話，其派系也不會遷怒於你。\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount]個[helpersLabelSingOrPlural][helpersHasHave]前來協助你。</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
@@ -28,14 +28,14 @@
     <li>helpersIsAre(helpersCount>=2)->是</li>
   </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>[helpersLabelSingOrPlural]已抵達</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural]已抵達</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>[asker_nameDef][helpersHasHave]向你派出[helpersLabelSingOrPlural]進行支援，隨後將協助你執行'[resolvedQuestName]'任務。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>[asker_nameDef][helpersHasHave]向你派出[helpersLabelSingOrPlural]進行支援，隨後將協助你執行'[resolvedQuestName]'任務。</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
   <!-- EN: the [helpersLabelSingOrPlural] -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.arrivingPawnsLabelDef.value.slateRef>[helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.arrivingPawnsLabelDef.value.slateRef>
+  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>[helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>[helpersLabelSingOrPlural]正在離開</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>[helpersLabelSingOrPlural]正在離開</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>由[asker_nameDef]向你派出以支援任務工作的[helpersLabelSingOrPlural][helpersHasHave]在你這裡消耗了太多時間，現在[helpersIsAre]要離開了。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>由[asker_nameDef]向你派出以支援任務工作的[helpersLabelSingOrPlural][helpersHasHave]在你這裡消耗了太多時間，現在[helpersIsAre]要離開了。</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
   
 </LanguageData>

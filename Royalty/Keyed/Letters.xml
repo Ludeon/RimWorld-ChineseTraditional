@@ -49,8 +49,6 @@
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}不再被允許使用以下植入物:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>必須在五天的限期內提取植入物，以避免產生外交後果。</LetterRoyalTitleImplantGracePeriod>
-  <!-- EN: {PAWN_pronoun} now has a need for authority. Satisfying this means sitting on a throne and reigning. While thronerooms can be shared, each noble needs their own personally-assigned throne. -->
-  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}現在需要威嚴。滿足此需求表示要坐在王座上進行支配當政。雖然可以共享王座，但每個貴族都需要分配到自己的王座。</LetterRoyalTitleAuthorityNeed>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
   <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}現在可以在王座上演講。如果進展順利，聽眾會受到鼓舞。如果進展不順利，演講將造成社交傷害。結果取決於{PAWN_labelShort}的社交能力。</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
@@ -135,5 +133,18 @@
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
   <LentColonistDied>{PAWN_nameDef}已借給了{FACTION}。 他們不久將送回{PAWN_nameDef}的遺體。</LentColonistDied>  
+
+  <!-- Psylink -->
+  <!-- EN: Psylink gained -->
+  <LetterLabelPsylinkLevelGained>獲得心靈連結</LetterLabelPsylinkLevelGained>
+  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psycasts, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
+  <LetterPsylinkLevelGained_First>{USER_labelShort}已獲得{USER_possessive}的第一級心靈連結！ {USER_pronoun}現在是一個心靈能力者。\n\n要使用心靈能力，{USER_labelShort}必須通過冥想來建立心靈集中。 如果人們在冥想時可以專注於特定的物體，可以提高冥想的效率。\n\n不同的人可以專注於不同的物體。 這取決於此人的背景、特徵和頭銜。 例如：\n\n-擁有榮譽頭銜的心靈能力者冥想於王座上。\n-有部落童年的心靈能力者冥想於生物和自然神社。\n-苦行僧的心靈能力者在對著空白牆壁冥想。 精神變態的心靈能力者會冥想於墳墓。\n\n你可以通過使用"i"按鈕看某人的訊息來查看他們的冥想焦點類型。</LetterPsylinkLevelGained_First>
+  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psycasts of that higher level, but {USER_pronoun} needs to learn them first. -->
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}獲得了更高級的心靈連結！ {USER_pronoun}現在可以使用更高等級的心靈能力，但是{USER_pronoun}首先需要學習它們。</LetterPsylinkLevelGained_NotFirst>
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned this psycast: {2}. -->
+  <LetterPsylinkLevelGained_PsycastLearned>在獲得新的心靈連結等級後，{USER_labelShort}自動學會了這個心靈能力：{2}。</LetterPsylinkLevelGained_PsycastLearned>
+
+  <!-- UNUSED -->
+  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}現在需要威嚴。滿足此需求表示要坐在王座上進行支配當政。雖然可以共享王座，但每個貴族都需要分配到自己的王座。</LetterRoyalTitleAuthorityNeed>
 
 </LanguageData>

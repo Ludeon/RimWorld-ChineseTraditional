@@ -3,8 +3,14 @@
   
   <!-- EN: entropy link -->
   <EntropyLink.label>心靈連結</EntropyLink.label>
-  <!-- EN: A psychic link with another individual. Gain or loss of psychic entropy incurred by one will be shared equally between both. -->
-  <EntropyLink.description>與另一個人的精神連結。一個人心靈熵的得失將在兩者之間平等分享。</EntropyLink.description>
+  <!-- EN: A psychic link with another individual. Gain or loss of neural heat incurred by one will be shared equally between both. -->
+  <EntropyLink.description>與另一個人的精神連結。一個人神經熱的得失將在兩者之間平等分享。</EntropyLink.description>
+  
+  <!-- EN: psylink -->
+  <PsychicAmplifier.label>心靈增幅裝置</PsychicAmplifier.label>
+  <!-- EN: An organic connection to a larger psychic field. This allows a person to use specific psycasts that they have learned to influence reality in ways that seem impossible.\n\nHigher levels of psylink permit the use of more powerful psycasts. Regardless of psylink level, a person can only use specific psycasts that they have learned.\n\nPsylink comes from a variety of sources. Single-use psylink neuroformer devices can create a psylink. Tribal peoples also know how to develop it through ritual linking with psychically-connected lifeforms.\n\nAs a physical phenomenon in the brain, psylink is poorly-understood by scientists, not least because it seems to actively conceal itself if studied too closely. One thing most agree on is that it somehow connects people to archotechs and harnesses their power, possibly through some sort of negotiation or sympathy mechanism. -->
+  <PsychicAmplifier.description>一個安裝在人體的心靈增幅裝置。</PsychicAmplifier.description>
+  <PsychicAmplifier.labelNoun>一個心靈增幅裝置</PsychicAmplifier.labelNoun>
   
   <!-- EN: psychic anesthesia -->
   <PsychicAnesthesia.label>心靈麻痺</PsychicAnesthesia.label>
@@ -18,8 +24,8 @@
   
   <!-- EN: psychic breakdown -->
   <PsychicBreakdown.label>心靈崩潰</PsychicBreakdown.label>
-  <!-- EN: Long-term psychic destabilization of the mind, usually caused by excessive psychic entropy. Even when the entropy clears, the breakdown can last for many days, causing mental disturbances of various kinds. -->
-  <PsychicBreakdown.description>精神上的長期不穩定，通常由過度的心靈熵引起。即使熵消失了，崩潰也會持續很多天，引起各種各樣的精神紊亂。</PsychicBreakdown.description>
+  <!-- EN: Deep psychic destabilization of the mind. Psychic breakdown last for days, causing mental disturbances of various kinds. It resolves itself with time. -->
+  <PsychicBreakdown.description>精神深處的不穩定。精神崩潰持續很多天，引起各種各樣的精神紊亂。它會隨時間流逝而解決。</PsychicBreakdown.description>
   <!-- EN: minor -->
   <PsychicBreakdown.stages.minor.label>輕微</PsychicBreakdown.stages.minor.label>
   <!-- EN: major -->
@@ -32,19 +38,24 @@
   <!-- EN: Psychically-induced difficulty in locomotion. -->
   <PsychicBurden.description>精神上引起的行動困難。</PsychicBurden.description>
   
-  <!-- EN: psychic entropy -->
-  <PsychicEntropy.label>心靈熵</PsychicEntropy.label>
-  <!-- EN: Chaotic psychic energy built up in the mind. Entropy falls over time. After it clears, it leaves a psychic hangover for several days. If psychic entropy becomes very high, it can cause psychosis, long-term psychic breakdown, destruction of psychic amplifiers, and even brain damage. -->
-  <PsychicEntropy.description>混亂的心靈能量在頭腦中作祟。心靈熵隨時間逐漸下降，當它被清除後，會留下好幾天的精神宿醉。如果心理熵變得非常高，會導致精神病、長期的精神崩潰、情緒失控、甚至腦損傷。</PsychicEntropy.description>
+  <!-- EN: neural heat -->
+  <PsychicEntropy.label>神經熱</PsychicEntropy.label>
+  <!-- EN: Despite being called "heat", neural heat is not a measure of temperature. It refers to a type of chaotic psychic energy in the mind which is built up when using psycasts and dissipates over the course of a few seconds or minutes.\n\nIf neural heat is pushed past normal limits, it may cause temporary psychic breakdown, psylink degradation and finally unconsciousness due to psychic shock. None of these conditions cause permanent damage, but they can knock someone unconscious for days. -->
+  <PsychicEntropy.description>儘管被稱為"熱量"，但神經熱卻無法測量溫度。它指的是一種心靈混亂的精神能量，這種精神能量是在使用精神能力時累積的，並且會在幾秒或幾分鐘後消散。\n\n如果神經熱超過正常限制，可能導致暫時的精神崩潰，基於心理震盪，最終神經損害造成失去知覺。這些條件都不會造成永久性損傷，但他們可以使某人昏迷數日。</PsychicEntropy.description>
   <!-- EN: safe -->
   <PsychicEntropy.stages.safe.label>安全</PsychicEntropy.stages.safe.label>
   <!-- EN: overloaded -->
   <PsychicEntropy.stages.overloaded.label>過載</PsychicEntropy.stages.overloaded.label>
-  <!-- EN: hyperloaded -->
+  <!-- EN: very overloaded -->
+  <PsychicEntropy.stages.very_overloaded.label>非常過載</PsychicEntropy.stages.very_overloaded.label>
+  <!-- EN: extreme -->
+  <PsychicEntropy.stages.extreme.label>極度</PsychicEntropy.stages.extreme.label>
+  <!-- EN: overwhelming -->
+  <PsychicEntropy.stages.overwhelming.label>招架不住</PsychicEntropy.stages.overwhelming.label>
+  
+  <!-- UNUSED -->
   <PsychicEntropy.stages.hyperloaded.label>超負荷</PsychicEntropy.stages.hyperloaded.label>
-  <!-- EN: brain charring -->
   <PsychicEntropy.stages.brain_charring.label>腦損傷</PsychicEntropy.stages.brain_charring.label>
-  <!-- EN: brain roasting -->
   <PsychicEntropy.stages.brain_roasting.label>腦死亡</PsychicEntropy.stages.brain_roasting.label>
   
   <!-- EN: psychic focus -->
