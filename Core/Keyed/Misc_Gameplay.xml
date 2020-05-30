@@ -915,7 +915,7 @@
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>顯示屋頂區域。</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>開關肥沃度顯示。\n\n肥沃度反映了哪些植物可以生長，以及它們生長的速度。</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>開關肥沃度顯示。\n\n肥沃度會影響植物能否在此種植，以及它們生長的速度。</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
   <ShowTerrainAffordanceOverlayToggleButton>開關地形支撐能力顯示。\n\n地形支撐能力反映了每個位置適合建造什麼樣的建築。\n\n例如，某些類型的地面僅支撐輕型或中型建築物，而不支撐重型建築物。橋樑只能在水上建造。</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
@@ -1011,7 +1011,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>部件尚未完成準備</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Charlon Whitestone已經準備好啟動反應爐的程序。\n\n他警告你，啟動程序需要 15天 ，從很遠的距離外就能注意到此能量訊號\n\n這種能量訊號代表這艘星艦具有飛行能力，這將會引來瘋狂的襲擊者和致命的機械族。你將會受到前所未有的猛烈攻擊，請先提前準備好防衛工事。</HibernateWarning>
+  <HibernateWarning>Charlon Whitestone已經準備好啟動反應爐的程序。\n\n他警告你，啟動程序需要15天，從很遠的距離外就能注意到此能量訊號\n\n這種能量訊號代表這艘星艦具有飛行能力，這將會引來瘋狂的襲擊者和致命的機械族。你將會受到前所未有的猛烈攻擊，請先提前準備好防衛工事。</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>反應爐已經準備好開始啟動。\n\n啟動程序需要 15天 ，從很遠的距離外就能注意到此能量訊號。這種能量訊號代表這艘星艦具有飛行能力，這將會引來瘋狂的襲擊者和致命的機械族。你將會受到前所未有的猛烈攻擊，請先提前準備好防衛工事。</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
@@ -1267,15 +1267,15 @@
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>你與{0_name}的勢力友好度會提昇 {1} </Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
-  <Reward_PassageOffworld>TODO</Reward_PassageOffworld>
+  <Reward_PassageOffworld>您將進入星空</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
   <Reward_PassageOffworld_Label>TODO</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
-  <Reward_CampLoot>TODO</Reward_CampLoot>
+  <Reward_CampLoot>你可以從營地裡掠奪一切</Reward_CampLoot>
   <!-- EN: Camp loot -->
-  <Reward_CampLoot_Label>TODO</Reward_CampLoot_Label>
+  <Reward_CampLoot_Label>營地戰利品</Reward_CampLoot_Label>
   <!-- EN: value {0} -->
-  <TotalValue>TODO</TotalValue>
+  <TotalValue>價值：{0}</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
@@ -1310,9 +1310,5 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>TODO</CausedByHediff>
-  
-  <!-- UNUSED -->
-  <PawnTooltipPsychicEntropy>心靈熵：{0}/{1}\n下降速率：{2}/{3}秒({4}秒直到零)\n\n進行心靈投射後心靈熵增加。\n超出安全限制會導致後遺症。\n每當熵歸零都會產生心靈宿醉</PawnTooltipPsychicEntropy>
-  <Complete>完成</Complete>
 
 </LanguageData>
