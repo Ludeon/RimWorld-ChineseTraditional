@@ -393,7 +393,7 @@
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>訓練度衰減間隔</TrainingDecayInterval>
   <!-- EN: Tameness will never decay. -->
-  <TamenessWillNotDecay>馴服度永遠不會衰減。</TamenessWillNotDecay>
+  <TamenessWillNotDecay>馴服度永不衰減。</TamenessWillNotDecay>
   <!-- EN: Animal filth rate -->
   <AnimalFilthRate>動物排泄率</AnimalFilthRate>
   <!-- EN: Animals produce filth when moving around on constructed floors.\n\nThis is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
@@ -403,45 +403,45 @@
   <!-- EN: Misc -->
   <MiscRecordsCategory>其它</MiscRecordsCategory>
   <!-- EN: Chemical -->
-  <Chemical>TODO</Chemical>
+  <Chemical>藥物</Chemical>
   <!-- EN: High gain per dose -->
-  <HighGain>TODO</HighGain>
+  <HighGain>快樂度獲得率</HighGain>
   <!-- EN: High fall rate -->
-  <HighFallRate>TODO</HighFallRate>
+  <HighFallRate>快樂度下降率</HighFallRate>
   <!-- EN: High duration per dose -->
-  <HighDuration>TODO</HighDuration>
+  <HighDuration>快樂度持久率</HighDuration>
   <!-- EN: Tolerance gain per dose -->
-  <ToleranceGain>TODO</ToleranceGain>
+  <ToleranceGain>耐受性獲得率</ToleranceGain>
   <!-- EN: Tolerance fall rate -->
-  <ToleranceFallRate>TODO</ToleranceFallRate>
+  <ToleranceFallRate>耐受性下降率</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
-  <MinimumToleranceForAddiction>TODO</MinimumToleranceForAddiction>
+  <MinimumToleranceForAddiction>成癮性最小耐受性</MinimumToleranceForAddiction>
   <!-- EN: Safe dose interval -->
-  <SafeDoseInterval>TODO</SafeDoseInterval>
+  <SafeDoseInterval>藥物安全間隔</SafeDoseInterval>
   <!-- EN: New addiction chance -->
   <Addictiveness>成癮性</Addictiveness>
   <!-- EN: Addiction initial severity -->
-  <AddictionSeverityInitial>TODO</AddictionSeverityInitial>
+  <AddictionSeverityInitial>初期成癮嚴重度</AddictionSeverityInitial>
   <!-- EN: Addiction severity per dose -->
-  <AddictionSeverityPerDose>TODO</AddictionSeverityPerDose>
+  <AddictionSeverityPerDose>初期成癮獲得率</AddictionSeverityPerDose>
   <!-- EN: Addiction need fill per dose -->
-  <AddictionNeedOffset>TODO</AddictionNeedOffset>
+  <AddictionNeedOffset>成隱藥物需求度</AddictionNeedOffset>
   <!-- EN: Addiction need fall rate -->
-  <AddictionNeedFallRate>TODO</AddictionNeedFallRate>
+  <AddictionNeedFallRate>成癮需求下降率</AddictionNeedFallRate>
   <!-- EN: Addiction need dose interval -->
-  <AddictionNeedDoseInterval>TODO</AddictionNeedDoseInterval>
+  <AddictionNeedDoseInterval>成隱藥物需求間隔</AddictionNeedDoseInterval>
   <!-- EN: Addiction recovery time -->
-  <AddictionRecoveryTime>TODO</AddictionRecoveryTime>
+  <AddictionRecoveryTime>成癮恢復時間</AddictionRecoveryTime>
   <!-- EN: Addiction cost -->
-  <AddictionCost>TODO</AddictionCost>
+  <AddictionCost>成癮消耗</AddictionCost>
   <!-- EN: Random overdose chance -->
-  <RandomODChance>TODO</RandomODChance>
+  <RandomODChance>藥物過量機率</RandomODChance>
   <!-- EN: Always safe -->
-  <AlwaysSafe>TODO</AlwaysSafe>
+  <AlwaysSafe>安全</AlwaysSafe>
   <!-- EN: Never safe -->
-  <NeverSafe>TODO</NeverSafe>
+  <NeverSafe>不安全</NeverSafe>
   <!-- EN: {0} / day -->
-  <PerDay>TODO</PerDay>
+  <PerDay>{0} / 天</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>貨運動物</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
