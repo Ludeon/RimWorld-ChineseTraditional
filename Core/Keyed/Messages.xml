@@ -486,7 +486,7 @@
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort}死了</GoodwillChangedReason_PawnDied>
   <!-- EN: {0_labelShort} stripped -->
-  <GoodwillChangedReason_PawnStripped>TODO</GoodwillChangedReason_PawnStripped>
+  <GoodwillChangedReason_PawnStripped>{0_labelShort}被掠奪了</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>交易</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
@@ -581,7 +581,7 @@
   <MessageCapturingWillAngerFaction>警告：俘虜{PAWN_nameDef}將會激怒{PAWN_possessive}的勢力{PAWN_factionName}。</MessageCapturingWillAngerFaction>
 
   <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
-  <MessageStrippingWillAngerFaction>TODO</MessageStrippingWillAngerFaction>
+  <MessageStrippingWillAngerFaction>警告：掠奪 {PAWN_nameDef} 將激怒 {PAWN_factionName}。</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>近戰中無法射擊。</MessageCantShootInMelee>
