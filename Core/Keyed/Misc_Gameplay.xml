@@ -363,9 +363,9 @@
   <!-- EN: {0} trainability -->
   <CreatureTrainability>{0}的智能程度</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>TODO</CreatureFollowDrafted>
+  <CreatureFollowDrafted>徵召時跟隨主人</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>TODO</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>工作時跟隨主人</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}和{1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
@@ -433,7 +433,7 @@
   <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>{0}裝配在{1}中完成</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
-  <MechAssemblyNextType>TODO</MechAssemblyNextType>
+  <MechAssemblyNextType>將組裝</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>生產</ThingsProduced>
   <!-- EN: harvested -->
@@ -457,21 +457,21 @@
   <!-- EN: Neural heat -->
   <PsychicEntropy>心靈熵</PsychicEntropy>
   <!-- EN: Heat -->
-  <PsychicEntropyShort>TODO</PsychicEntropyShort>
+  <PsychicEntropyShort>熱</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
   <PsychicEntropyPainFocus>{0}疼痛焦點</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>半徑{0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>TODO</LowPsyfocus>
+  <LowPsyfocus>低心靈集中</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>剩下{0}</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>任何的</AnyOf>
   <!-- EN: Goodwill -->
-  <Goodwill>TODO</Goodwill>
+  <Goodwill>友好度</Goodwill>
   <!-- EN: reducing resistance of {0_nameIndef} -->
-  <JobReport_ReduceResistance>TODO</JobReport_ReduceResistance>
+  <JobReport_ReduceResistance>降低 {0_nameIndef} 的抵抗力</JobReport_ReduceResistance>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -483,7 +483,7 @@
   
   <!-- Meditation -->
   <!-- EN: meditating at -->
-  <MeditatingAt>TODO</MeditatingAt>
+  <MeditatingAt>冥想於</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -947,7 +947,7 @@
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>點擊以跳轉置來源</ClickToJumpToSource>
   <!-- EN: Click to jump to the flashstorm. -->
-  <ClickToJumpToFlashstorm>TODO</ClickToJumpToFlashstorm>
+  <ClickToJumpToFlashstorm>擊擊跳至閃電風暴。</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>由任務引起：{0}</CausedByQuest>
 
@@ -1269,7 +1269,7 @@
   <!-- EN: you will be taken to the stars -->
   <Reward_PassageOffworld>您將進入星空</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
-  <Reward_PassageOffworld_Label>TODO</Reward_PassageOffworld_Label>
+  <Reward_PassageOffworld_Label>穿越世界</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
   <Reward_CampLoot>你可以從營地裡掠奪一切</Reward_CampLoot>
   <!-- EN: Camp loot -->
@@ -1309,6 +1309,6 @@
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
-  <CausedByHediff>TODO</CausedByHediff>
+  <CausedByHediff>原因：{0}</CausedByHediff>
 
 </LanguageData>
