@@ -503,29 +503,29 @@
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>點擊以查看派系</ClickToViewFactions>
   <!-- EN: meditation focus types -->
-  <MeditationFocuses>TODO</MeditationFocuses>
+  <MeditationFocuses>集中冥想類型</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
-  <MeditationFocusesUnlocked>TODO</MeditationFocusesUnlocked>
+  <MeditationFocusesUnlocked>解鎖集中冥想類型</MeditationFocusesUnlocked>
   <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
-  <MeditationFocusesPawnDesc>TODO</MeditationFocusesPawnDesc>
+  <MeditationFocusesPawnDesc>此人可以使用集中冥想的類型。冥想的人可以專注在一個物件上，以改善心靈集中的成長，但前提是該物件可以提供的集中類型。每個人的冥想類型取決於他們的背景、特性、社會地位等。</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
-  <MeditationFocusesDesc>TODO</MeditationFocusesDesc>
+  <MeditationFocusesDesc>此物件提供的集中冥想類型。冥想的人可以專注在一個物件上，以改善心靈集中的成長，但前提是他們能夠使用的冥想類型。 每個人可以使用的冥想類型取決於他們的背景，特性，社會地位等。</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
-  <MeditationFocusCanUse>TODO</MeditationFocusCanUse>
+  <MeditationFocusCanUse>可以使用 {0} 的集中類型，因為</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
-  <MeditationFocusObjects>TODO</MeditationFocusObjects>
+  <MeditationFocusObjects>{0} 集中物件</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
-  <MeditationFocusEnabledByTitle>TODO</MeditationFocusEnabledByTitle>
+  <MeditationFocusEnabledByTitle>擁有的頭銜： {TITLE} ( {FACTION_name} )。</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
-  <MeditationFocusEnabledByChildhood>TODO</MeditationFocusEnabledByChildhood>
+  <MeditationFocusEnabledByChildhood>童年的集中冥想</MeditationFocusEnabledByChildhood>
   <!-- EN: has adulthood -->
-  <MeditationFocusEnabledByAdulthood>TODO</MeditationFocusEnabledByAdulthood>
+  <MeditationFocusEnabledByAdulthood>成年的集中冥想</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
-  <MeditationFocusEnabledByTrait>TODO</MeditationFocusEnabledByTrait>
+  <MeditationFocusEnabledByTrait>特性的集中冥想</MeditationFocusEnabledByTrait>
   <!-- EN: does not have trait -->
-  <MeditationFocusDisabledByTrait>TODO</MeditationFocusDisabledByTrait>
+  <MeditationFocusDisabledByTrait>特性影響的集中冥想</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
-  <EnablesMeditationFocusType>TODO</EnablesMeditationFocusType>
+  <EnablesMeditationFocusType>使用集中冥想類型</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -683,9 +683,9 @@
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>每日攝取的營養值。參考：簡單料理有{0}營養值。\n\n可食用：{2}\n\n圖例：\n{1}。</NutritionEatenPerDayTip>
   <!-- EN: Can eat -->
-  <CanEat>TODO</CanEat>
+  <CanEat>可食用</CanEat>
   <!-- EN: Legend -->
-  <Legend>TODO</Legend>
+  <Legend>傳奇</Legend>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>目前負重</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -981,7 +981,7 @@
   <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>熵增益</AbilityEntropyGain>
   <!-- EN: Psyfocus cost -->
-  <AbilityPsyfocusCost>TODO</AbilityPsyfocusCost>
+  <AbilityPsyfocusCost>心靈集中消耗</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>效果持續時間</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -995,9 +995,9 @@
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0}必須瞄準可移動區域。</AbilityUnwalkable>
   <!-- EN: {0} must target an unroofed area. -->
-  <AbilityRoofed>TODO</AbilityRoofed>
+  <AbilityRoofed>{0} 必須瞄準無屋頂區域。</AbilityRoofed>
   <!-- EN: {0} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>TODO</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0} 的心靈壞掉了。</AbilityCantApplyToMentallyBroken>
   
   <!-- UNUSED -->
   <ResearchMenuWithoutBench>你的殖民者在你建造研究桌之前是無法進行研究的。\n\n不過，你仍然可以查看並選擇研究項目。</ResearchMenuWithoutBench>
