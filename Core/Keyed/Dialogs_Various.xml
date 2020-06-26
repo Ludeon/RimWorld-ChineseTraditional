@@ -503,29 +503,29 @@
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>點擊以查看派系</ClickToViewFactions>
   <!-- EN: meditation focus types -->
-  <MeditationFocuses>集中冥想類型</MeditationFocuses>
+  <MeditationFocuses>冥想專注類型</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
-  <MeditationFocusesUnlocked>解鎖集中冥想類型</MeditationFocusesUnlocked>
+  <MeditationFocusesUnlocked>解鎖冥想專注類型</MeditationFocusesUnlocked>
   <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
-  <MeditationFocusesPawnDesc>此人可以使用集中冥想的類型。冥想的人可以專注在一個物件上，以改善心靈集中的成長，但前提是該物件可以提供的集中類型。每個人的冥想類型取決於他們的背景、特性、社會地位等。</MeditationFocusesPawnDesc>
+  <MeditationFocusesPawnDesc>此人可以使用冥想專注的類型。冥想的人可以專注在一個物件上，以改善精神力的成長，但前提是該物件可以提供的集中類型。每個人的冥想類型取決於他們的背景、特性、社會地位等。</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
-  <MeditationFocusesDesc>此物件提供的集中冥想類型。冥想的人可以專注在一個物件上，以改善心靈集中的成長，但前提是他們能夠使用的冥想類型。 每個人可以使用的冥想類型取決於他們的背景，特性，社會地位等。</MeditationFocusesDesc>
+  <MeditationFocusesDesc>此物件提供的冥想專注類型。冥想的人可以專注在一個物件上，以改善精神力的成長，但前提是他們能夠使用的冥想類型。 每個人可以使用的冥想類型取決於他們的背景，特性，社會地位等。</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
   <MeditationFocusCanUse>可以使用 {0} 的集中類型，因為</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
-  <MeditationFocusObjects>{0} 集中物件</MeditationFocusObjects>
+  <MeditationFocusObjects>{0} 專注物件</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
   <MeditationFocusEnabledByTitle>擁有的頭銜： {TITLE} ( {FACTION_name} )。</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
-  <MeditationFocusEnabledByChildhood>童年的集中冥想</MeditationFocusEnabledByChildhood>
+  <MeditationFocusEnabledByChildhood>童年的冥想專注</MeditationFocusEnabledByChildhood>
   <!-- EN: has adulthood -->
-  <MeditationFocusEnabledByAdulthood>成年的集中冥想</MeditationFocusEnabledByAdulthood>
+  <MeditationFocusEnabledByAdulthood>成年的冥想專注</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
-  <MeditationFocusEnabledByTrait>特性的集中冥想</MeditationFocusEnabledByTrait>
+  <MeditationFocusEnabledByTrait>特性的冥想專注</MeditationFocusEnabledByTrait>
   <!-- EN: does not have trait -->
-  <MeditationFocusDisabledByTrait>特性影響的集中冥想</MeditationFocusDisabledByTrait>
+  <MeditationFocusDisabledByTrait>特性影響的冥想專注</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
-  <EnablesMeditationFocusType>使用集中冥想類型</EnablesMeditationFocusType>
+  <EnablesMeditationFocusType>使用冥想專注類型</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -981,7 +981,7 @@
   <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>熵增益</AbilityEntropyGain>
   <!-- EN: Psyfocus cost -->
-  <AbilityPsyfocusCost>心靈集中消耗</AbilityPsyfocusCost>
+  <AbilityPsyfocusCost>精神力消耗</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>效果持續時間</AbilityDuration>
   <!-- EN: Effect radius -->

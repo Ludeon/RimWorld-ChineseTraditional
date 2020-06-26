@@ -51,21 +51,25 @@
   <!-- Meditation -->
 
   <!-- EN: Psyfocus -->
-  <Psyfocus>心靈集中</Psyfocus>
+  <Psyfocus>精神力</Psyfocus>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
-  <PsyfocusDesc>心靈集中是施放心靈能力所必需的一種特殊的心理結構。 心靈集中會隨著時間消散，並且必須通過冥想來建立。 失去所有心靈集中會無法執行心靈能力，但沒有其他後果。\n\n較高的心靈集中等級允許較高等級的心靈能力，但也會提高心靈集中消散速率。</PsyfocusDesc>
+  <PsyfocusDesc>精神力是施放心靈能力所必需的一種特殊的心理結構。 精神力會隨著時間消散，並且必須通過冥想來建立。 失去所有精神力會無法執行心靈能力，但沒有其他後果。\n\n較高的精神力等級允許較高等級的心靈能力，但也會提高精神力消散速率。</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} psycasts. -->
   <PsyfocusLevelInfoPsycasts>達到{0}級心靈能力。</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
-  <PsyfocusLevelInfoFallRate>心靈集中每天下降{0}。</PsyfocusLevelInfoFallRate>
+  <PsyfocusLevelInfoFallRate>精神力每天下降{0}。</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
   <UserMeditationFocusStrength>{LASTUSER_labelShort}的冥想焦點強度</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>聚焦效果受影響於</MeditationFocusImpacted>
   <!-- EN: Psyfocus gain rate: {0}/d -->
-  <PsyfocusPerDayOfMeditation>心靈集中效率：{0}/天</PsyfocusPerDayOfMeditation>
+  <PsyfocusPerDayOfMeditation>精神力效率：{0}/天</PsyfocusPerDayOfMeditation>
+  <!-- EN: Desired psyfocus -->
+  <DesiredPsyfocus>所需精神力</DesiredPsyfocus>
+  <!-- EN: Click to set desired psyfocus. -->
+  <DesiredPsyfocusDesc>點擊已設置所需精神力</DesiredPsyfocusDesc>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->

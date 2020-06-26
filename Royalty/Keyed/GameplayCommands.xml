@@ -30,7 +30,7 @@
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
   <CommandPsycastWouldExceedEntropy>神經熱會溢出。禁用神經熱限制來施展能力。</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
-  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}消耗{0}心靈集中，而{CASTERNAME}只消耗{1}。</CommandPsycastNotEnoughPsyfocus>
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}消耗{0}精神力，而{CASTERNAME}只消耗{1}。</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: level {0} psylink is required. -->
   <CommandPsycastHigherLevelPsylinkRequired>需要等級{0}心靈連結。</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
@@ -38,7 +38,7 @@
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>能力使用者不省人事。</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
-  <CommandPsycastLowPsyfocus>至少需要{0}心靈集中才能進行施放。</CommandPsycastLowPsyfocus>
+  <CommandPsycastLowPsyfocus>至少需要{0}精神力才能進行施放。</CommandPsycastLowPsyfocus>
   <!-- EN: H -->
   <NeuralHeatLetter>H</NeuralHeatLetter>
   <!-- EN: P -->
@@ -49,5 +49,11 @@
   <CommandSelectMonumentMarker>選擇紀念碑</CommandSelectMonumentMarker>
   <!-- EN: Select the monument marker this belongs to. -->
   <CommandSelectMonumentMarkerDesc>選擇所屬的紀念碑標誌。</CommandSelectMonumentMarkerDesc>
+
+  <!-- Warn in building radius -->
+  <!-- EN: Build radius warning -->
+  <CommandWarnInBuildingRadius>建築半徑緊告</CommandWarnInBuildingRadius>
+  <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
+  <CommandWarnInBuildingRadiusDesc>如果啟用，如果它們因太靠近而干擾冥想，此物件將在您使用建築物清單放置建築物時畫一條紅線。\n\n如果您不打算將其用於冥想，則可以關閉。</CommandWarnInBuildingRadiusDesc>
   
 </LanguageData>

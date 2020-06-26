@@ -59,25 +59,25 @@
   </PawnLend.questNameRules.rulesStrings>
   <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
   <PawnLend.DutyRulesAny.slateRef>
-  	<rulesStrings> 
-  	<li>dutyDescription->收集收穫</li>
-  	<li>dutyDescription->強化鄉村</li>
-  	<li>dutyDescription->建立鄉村</li>
-  	<li>dutyDescription->注意入侵者</li>
-  	<li>dutyDescription->建立醫院</li>
-  	<li>dutyDescription->包含[disease]爆發</li>
-  	</rulesStrings>
+    <rulesStrings>
+      <li>dutyDescription->收集收穫</li>
+      <li>dutyDescription->強化鄉村</li>
+      <li>dutyDescription->建立鄉村</li>
+      <li>dutyDescription->注意入侵者</li>
+      <li>dutyDescription->建立醫院</li>
+      <li>dutyDescription->包含[disease]爆發</li>
+    </rulesStrings>
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
   <PawnLend.LetterTextReturnAfterHelping.slateRef>在幫助[asker_faction_name]的[asker_nameFull]順利[dutyDescription]後，{PAWNS}安全的回來了。</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>entertainerDescription->real hardy surface survivors</li><li>entertainerDescription->goofy jesters</li><li>entertainerDescription->foreign-accented servants</li><li>entertainerDescription->exotic human specimens</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
-  	<rulesStrings>
-  	<li>entertainerDescription->真正堅強的倖存者</li>
-  	<li>entertainerDescription->愚蠢的小丑</li>
-  	<li>entertainerDescription->外籍從者</li>
-  	<li>entertainerDescription->異人類標本</li>
-  	</rulesStrings>
+    <rulesStrings>
+      <li>entertainerDescription->真正堅強的倖存者</li>
+      <li>entertainerDescription->愚蠢的小丑</li>
+      <li>entertainerDescription->外籍從者</li>
+      <li>entertainerDescription->異人類標本</li>
+    </rulesStrings>
   </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
   <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>在作為[entertainerDescription]被[asker_nameFull]帶到[asker_faction_name]展示後，{PAWNS}安全的回來了。</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
