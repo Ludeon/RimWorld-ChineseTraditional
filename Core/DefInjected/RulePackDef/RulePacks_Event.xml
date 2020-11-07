@@ -9,6 +9,13 @@
   </Event_AbilityUsed.rulePack.rulesStrings>
   
   <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].</li>
+  -->
+  <Event_ItemUsed.rulePack.rulesStrings>
+  	<li>r_logentry->[INITIATOR_definite]對[SUBJECT_definite]使用了[ITEM_indefinite]。</li>
+  </Event_ItemUsed.rulePack.rulesStrings>
+  
+  <!-- EN:
     <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
     <li>r_logentry->[SUBJECT_definite] was [stunned] by [INITIATOR_definite]'s attack.</li>
     <li>stunned(p=3)->stunned</li>
@@ -32,23 +39,23 @@
   <Event_Stun.rulePack.rulesStrings>
     <li>r_logentry->[SUBJECT_definite]在戰鬥中被[stunned]了。</li>
     <li>r_logentry->[SUBJECT_definite]被[INITIATOR_definite]的攻擊[stunned]了。</li>
-    <li>stunned->擊暈</li>
-    <li>stunned->擊暈</li>
-    <li>stunned->擊暈</li>
-    <li>stunned->擊暈</li>
+    <li>stunned->眩暈</li>
+    <li>stunned->暈頭轉向</li>
+    <li>stunned->昏迷</li>
+    <li>stunned->迷失方向</li>
     <li>r_logentry->[SUBJECT_definite][staggered]了。</li>
     <li>r_logentry->[SUBJECT_definite]被攻擊而[staggered]了。</li>
     <li>r_logentry->[SUBJECT_definite]被[INITIATOR_definite]攻擊而[staggered]了。</li>
-    <li>staggered(p=3)->失衡</li>
-    <li>staggered->失衡</li>
-    <li>staggered->失衡</li>
-    <li>staggered->失衡</li>
+    <li>staggered(p=3)->眼冒金星</li>
+    <li>staggered->步履蹣跚</li>
+    <li>staggered->失去重心</li>
+    <li>staggered->暈頭轉向</li>
     <li>r_logentry->[SUBJECT_definite][stumbled]而混亂了。</li>
     <li>r_logentry->[SUBJECT_definite][stumbled]而混亂了。</li>
-    <li>stumbled(p=3)->失衡</li>
-    <li>stumbled->失衡</li>
-    <li>stumbled->失衡</li>
-    <li>stumbled->失衡</li>
+    <li>stumbled(p=3)->東倒西歪</li>
+    <li>stumbled->站不穩</li>
+    <li>stumbled->失去重心</li>
+    <li>stumbled->眼冒金星</li>
   </Event_Stun.rulePack.rulesStrings>
   
 </LanguageData>

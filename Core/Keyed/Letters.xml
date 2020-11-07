@@ -16,14 +16,25 @@
   <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>夏天來臨！而冬天正悄悄接近中。\n\n寒冷的冬天會讓你的農作物無法生長。確保儲備充足的食物過冬。你可以建造冷凍庫，以確保食物不會腐爛。\n\n買、偷或製作一些大衣，否則你將會在外頭被凍僵。</FirstSummerWarning>
 
-  <!-- EN: Relations with {0} have broken down completely. They are now hostile to you.\n\nThey will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({1}) has fallen below {2}. In order to restore neutral relations, goodwill must reach {3} again. -->
-  <LetterRelationsChange_Hostile>和{0}的關係破裂了。他們現在敵視你。\n\n他們不時攻擊你的殖民地、旅隊，並拒絕與你交易。如果你想改善關係，還是可以透過旅隊或運輸艙贈送他們禮物。\n\n這種狀況在友好度({1})低於{2}時發生。想恢復中立關係必須將友好度提昇至{3}。</LetterRelationsChange_Hostile>
-  <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you.\n\nThis happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostile>和{0}的關係改善了。他們現在對你保持中立，不會再攻擊你。\n\n這種狀況在友好度({1})高於{2}時發生。如果友好度低於{3}，{0}會再次與你敵對。如果友好度高於{4}，他們將與你結盟，為你而戰。</LetterRelationsChange_NeutralFromHostile>
-  <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAlly>和{0}的關係變冷漠了。他們現在對你保持中立，不再是盟友了。\n\n雖然他們跟你保持和平關係，但當你受到威脅時，他們不再會派遣援軍支援你。\n\n這種狀況在友好度({1})低於{2}時發生。如果友好度低於{3}，{0}會再次與你敵對。如果友好度高於{4}，他們會再次與你結盟。</LetterRelationsChange_NeutralFromAlly>
-  <!-- EN: Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral. -->
-  <LetterRelationsChange_Ally>和{0}的關係變親密了。他們現在與你結盟。\n\n當你受到威脅時，盟友有時候會派遣援軍為你而戰。你也可以花費友好度，隨時向他們請求援軍。\n\n因為你們的友好度({1})達到{2}而結盟。如果友好度低於{3}，關係會回到中立。</LetterRelationsChange_Ally>
+  <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
+  <LetterRelationsChange_Hostile>和{0}的關係破裂了。他們現在敵視你。</LetterRelationsChange_Hostile>  
+  <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
+  <LetterRelationsChange_HostileGoodwillDescription>他們不時攻擊你的殖民地、旅隊，並拒絕與你交易。如果你想改善關係，還是可以透過旅隊或運輸艙贈送他們禮物。\n\n這種狀況在友好度({0})低於{1}時發生。想恢復中立關係必須將友好度提昇至{2}。</LetterRelationsChange_HostileGoodwillDescription>  
+
+  <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
+  <LetterRelationsChange_NeutralFromHostile>和{0}的關係改善了。他們現在對你保持中立，不會再攻擊你。</LetterRelationsChange_NeutralFromHostile>
+  <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>這種狀況在友好度({1})高於{2}時發生。如果友好度低於{3}，{0}會再次與你敵對。如果友好度高於{4}，他們將與你結盟，為你而戰。</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  
+  <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
+  <LetterRelationsChange_NeutralFromAlly>和{0}的關係變冷漠了。他們現在對你保持中立，不再是盟友了。</LetterRelationsChange_NeutralFromAlly>
+  <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>雖然他們跟你保持和平關係，但當你受到威脅時，他們不再會派遣援軍支援你。\n\n這種狀況在友好度({1})低於{2}時發生。如果友好度低於{3}，{0}會再次與你敵對。如果友好度高於{4}，他們會再次與你結盟。</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  
+  <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
+  <LetterRelationsChange_Ally>和{0}的關係變親密了。他們現在與你結盟。</LetterRelationsChange_Ally>
+  <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
+  <LetterRelationsChange_AllyGoodwillDescription>當你受到威脅時，盟友有時候會派遣援軍為你而戰。你也可以花費友好度，隨時向他們請求援軍。\n\n因為你們的友好度({0})達到{1}而結盟。如果友好度低於{2}，關係會回到中立。</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>友好度</goodwill>
@@ -118,13 +129,16 @@
 
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1}去逝：{0}</LetterLeadersDeathLabel>
-  <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeadersDeath>{OLDLEADER_nameFull}，{1}的{3}已去逝。\n\n新的{3}是{NEWLEADER_nameFull}。</LetterLeadersDeath>
+  <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
+  <LetterLeadersDeath>{OLDLEADER_nameFull}，{0}的{1}已去逝。</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>新{1}：{0}</LetterLeaderChangedLabel>
-  <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
+  <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
   <LetterLeaderChanged>{OLDLEADER_nameFull}不再是{1}的{3}。\n\n新的{3}是{NEWLEADER_nameFull}。</LetterLeaderChanged>
+
+  <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
+  <LetterNewLeader>新任{0}是{NEWLEADER_nameFull}。</LetterNewLeader>
 
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>最終崩潰原因：{0}</FinalStraw>
@@ -267,13 +281,15 @@
   <LetterLabelTransportPodsLandedInEnemyBase>攻擊前準備</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
   <LetterTransportPodsLandedInEnemyBase>你的運輸艙已經抵達{0}。</LetterTransportPodsLandedInEnemyBase>
+  <!-- EN: The shuttle has arrived at {0}. -->
+  <LetterShuttleLandedInEnemyBase>太空梭已抵達{0}。</LetterShuttleLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>擊敗據點</LetterLabelFactionBaseDefeated>
-  <!-- EN: The enemy base {0} has been destroyed.\n\nIn {1}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the destroyed base and choosing the "Reform caravan" option. -->
-  <LetterFactionBaseDefeated>敵人的{0}據點已被擊敗。\n\n旅隊在 {1} 會自動重組。你現在可以在世界選項中點選被攻陷的據點，選擇重組旅隊。</LetterFactionBaseDefeated>
-  <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
+  <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
+  <LetterFactionBaseDefeated>敵人的{0}據點已被摧毀。\n\n殖民者重組遠行隊之前你有{1}來收集物資，你也可以在世界地圖中選擇已摧毀的基地來收集物資。</LetterFactionBaseDefeated>
+  <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>這是{0}的最後一座據點，這代表這個勢力已經不存在了。</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
@@ -385,8 +401,8 @@
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>旅隊戰勝</LetterLabelCaravansBattlefieldVictory>
-  <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, the caravan will be reformed automatically. -->
-  <LetterCaravansBattlefieldVictory>你的旅隊贏得一場戰鬥。\n\n你現在可以在世界畫面點選戰場，選擇重組旅隊。\n\n無需手動蒐集物品，重組旅隊即可完成蒐集。\n\n旅隊將在 {0} 後自動重組。</LetterCaravansBattlefieldVictory>
+  <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
+  <LetterCaravansBattlefieldVictory>你的旅隊贏得一場戰鬥。\n\n你現在可以在世界畫面點選戰場，選擇重組旅隊。\n\n這樣可以直接收集物品而不需要手動操作。\n\n在{0}內，你的遠征隊將會被敵人攻擊。他們會派出部隊來攻擊你的遠征隊，直到你離開這裡。</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
@@ -408,10 +424,22 @@
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_label}感染了{1}。\n\n確保你有醫療床、醫生。讓{PAWN_pronoun}得到適當的治療，盡可能在床上休養早日康復。</LetterTraitDisease>
 
+  <!-- Surgery -->
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <LetterLabelSurgeryFailed>{PATIENT_labelShort}的手術失敗了。</LetterLabelSurgeryFailed>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了小失誤({RECIPE_label})。</MessageMedicalOperationFailureMinor> <!-- NewTemp rename to LetterTextOperationFailureMinor globally-->
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了災難性的失誤({RECIPE_label})。</MessageMedicalOperationFailureCatastrophic> <!-- NewTemp rename to LetterTextOperationFailureCatastrophic globally-->
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了愚蠢的失誤({RECIPE_label})。</MessageMedicalOperationFailureRidiculous> <!-- NewTemp rename to LetterTextOperationFailureRidiculous globally-->
+  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了致命的失誤，原因是一個特殊的挑戰：{2}</MessageMedicalOperationFailureFatal> <!-- NewTemp rename to LetterTextOperationFailureFatal globally-->
+
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
   <LetterQuestBecameAvailable>有新任務可以接取。任務名「{0}」。</LetterQuestBecameAvailable>
-  <!-- EN: If you don’t accept the quest within {0}, it will expire. -->
+  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>如果你不在{0}內接取任務，它會到期。</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
   <LetterQuestBecameActive>有新任務在進行中。任務名「{0}」。</LetterQuestBecameActive>
@@ -512,10 +540,9 @@
   <!-- EN: Mechanoids have arrived. -->
   <LetterMechClusterArrived>機械族抵達了。</LetterMechClusterArrived>
 
-  <!-- UNUSED -->
-  <PrisonerRescueTimeout>該營地將在{0}天後消失。如果你錯過這次機會，你可能永遠不會再有{PRISONER_labelShort}的消息。</PrisonerRescueTimeout>
-  <LetterLabelMentalBreakdown>精神崩潰</LetterLabelMentalBreakdown>
-  <LetterLabelNewParty>派對</LetterLabelNewParty>
-  <LetterNewParty>{1_labelShort}正在舉辦派對！任何參加派對的人都可以獲得娛樂和社交分數，以及持久的正向心情加分。</LetterNewParty>
+  <!-- EN: Caravan detected -->
+  <LetterLabelSiteCountdownStarted>旅隊被發現了</LetterLabelSiteCountdownStarted>
+  <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
+  <LetterTextSiteCountdownStarted>你的旅隊被發現了。在{0}，來自{2}的{1}將會到達這片區域。\n請重組你的旅隊並開始移動避開{1}。現在對方抵達的計時已經可以看見。</LetterTextSiteCountdownStarted>
 
 </LanguageData>

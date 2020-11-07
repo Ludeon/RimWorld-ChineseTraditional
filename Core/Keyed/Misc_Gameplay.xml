@@ -176,8 +176,8 @@
   <UsingBedrolls>使用{0}個睡袋</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>預計抵達時間：{0}天</CaravanEstimatedTimeToDestination>
-  <!-- EN: Estimated days to arrive: {0} -->
-  <CaravanEstimatedDaysToDestination>預計抵達天數：{0}</CaravanEstimatedDaysToDestination>
+  <!-- EN: Route travel time: {0} days -->
+  <CaravanEstimatedDaysToDestination>路線旅行天數：{0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>無法行動：負重過量。</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
@@ -246,10 +246,10 @@
   <DeterioratingBecauseOf>逐漸衰敗的原因</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>地圖</Map>
-  <!-- EN: {0} until leaving -->
-  <ForceExitAndRemoveMapCountdown>{0}後離開</ForceExitAndRemoveMapCountdown>
-  <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>你的殖民者將會在{0}後自動重組旅隊並離開此區域。</ForceExitAndRemoveMapCountdownTip>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>{0}直到敵人到達</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <CaravanDetectedRaidCountdownTip>敵軍增援部隊將在{0}內到達本區域</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>房間</Room>
   <!-- EN: Beauty here -->
@@ -368,18 +368,18 @@
   <CreatureFollowFieldwork>工作時跟隨主人</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}和{1}</ProximitySingleGoodwillChange>
-  <!-- EN: You can't re-enter for another {0} days. -->
-  <EnterCooldown>你在{0}天內無法再次進入此區域。</EnterCooldown>
+  <!-- EN: Too dangerous to re-enter for {0}. -->
+  <EnterCooldown>還有{0}天才能再次進入。</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>旅隊</Caravan>
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>可能有危險潛伏在該處</HiddenOrNoSitePartDescription>
+  <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
+  <PreciousLumpHostileThreat>掃瞄器正在探測礦區附近的活動，它可能是敵對的。</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>一堆{0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>無研究項目</NoActiveResearchProjectToFinish>
-  <!-- EN: Cannot research: No research bench -->
-  <CannotResearchNoBench>無法研究：沒有研究桌</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>砲塔</Turret>
   <!-- EN: turrets -->
@@ -532,6 +532,8 @@
   <TextMote_Immune>免疫</TextMote_Immune>
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0}已治療</TextMote_Tended>
+  <!-- EN: level {0} -->
+  <TextMote_SkillUp>等級{0}</TextMote_SkillUp>
   <!-- EN: low mood -->
   <lowMood>情緒低落</lowMood>
   <!-- EN: low opinion -->
@@ -620,6 +622,8 @@
   <WatchingAurora>欣賞極光美景。</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
   <UsingVerb>對{1}使用{0}。</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>正在使用{0}</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>區域</AreaLower>
   <!-- EN: cowering. -->
@@ -722,8 +726,8 @@
   <Faction>勢力</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>{PAWN_labelShort}當前所屬派系。</FactionDesc>
-  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
-  <ExtraFactionDesc>{PAWN_labelShort}原屬派系。{PAWN_pronoun}在離開當前派系後會回到原派系。</ExtraFactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
+  <ExtraFactionDesc>{PAWN_labelShort}原屬派系。</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>裝備</Equipped>
   <!-- EN: nothing -->
@@ -1020,14 +1024,14 @@
   <HibernateWarningStandalonePacifist>反應爐已經準備好開始啟動。啟動程序需要 15天 。</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: neurotrainer ({0}) -->
-  <SkillNeurotrainerLabel>學習機械液({0})</SkillNeurotrainerLabel>
-  <!-- EN: Use skill neurotrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>使用學習機械液學習{0}</SkillNeurotrainerUseLabel>
+  <!-- EN: skilltrainer ({0}) -->
+  <SkillNeurotrainerLabel>技能訓練器({0})</SkillNeurotrainerLabel>
+  <!-- EN: Use skilltrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>使用技能訓練器學習{0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>一次性使用，訓練特定技能的機械分子。機械分子透過眼球進入到大腦，將自己轉化成神經組織，快速提高特定技能。</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort}使用學習機械液將{1}技能從{2}級升至{3}級。</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort}使用技能訓練器將{1}技能從{2}級升至{3}級。</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1163,6 +1167,10 @@
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>深鑽機挖的資源枯竭。</DeepDrillExhaustedNoFallback>
 
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>剩餘充能</ChargesRemaining>
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>教學幫手</LearningHelper>
@@ -1238,7 +1246,7 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>神經超載： {0} / {1} \n下降率： {2} /秒 ( {3} 秒後歸零)</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>心靈施放後會導致神經超載。超過極限時可能會導致數天的精神崩潰。\n\n神經超載會隨著時間恢復。穿上心靈衣物或感受疼痛可加快恢復速度。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>身體上的痛苦使思想集中並清除了無關的想法；同時能夠更快恢復心理熵。</PawnTooltipPsychicEntropyPainFocus>
@@ -1274,6 +1282,26 @@
   <Reward_CampLoot>你可以從營地裡掠奪一切</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>營地戰利品</Reward_CampLoot_Label>
+  <!-- EN: the visitors will work and fight for you -->
+  <Reward_VisitorsHelp>訪客們將為你而戰</Reward_VisitorsHelp>
+  <!-- EN: Visitors' help -->
+  <Reward_VisitorsHelp_Label>訪客幫助</Reward_VisitorsHelp_Label>
+  <!-- EN: New psylink level -->
+  <Reward_BestowingCeremony_Label>新的心靈連結等級</Reward_BestowingCeremony_Label>
+  <!-- EN: {PAWNNAME} gains psylink -->
+  <Reward_BestowingCeremony>{PAWNNAME}獲得心靈連結</Reward_BestowingCeremony>
+  <!-- EN: Shuttle loot -->
+  <Reward_ShuttleLoot_Label>太空梭掠奪</Reward_ShuttleLoot_Label>
+  <!-- EN: you can deconstruct and loot the shuttle -->
+  <Reward_ShuttleLoot>你可以拆除太空梭來掠奪資源</Reward_ShuttleLoot>
+  <!-- EN: Possible future reward -->
+  <Reward_PossibleFutureReward_Label>未來可能的報酬</Reward_PossibleFutureReward_Label>
+  <!-- EN: a reward possibly granted in the future -->
+  <Reward_PossibleFutureReward>將來可能會給與的報酬。</Reward_PossibleFutureReward>
+  <!-- EN: {TITLE} title -->
+  <Reward_Title_Label>{TITLE}頭銜</Reward_Title_Label>
+  <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
+  <Reward_Title>{PAWNNAME}從{FACTION}獲得{TITLE}頭銜</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>價值：{0}</TotalValue>
   
@@ -1284,6 +1312,12 @@
   <NotBonded>尚未綁定</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>綁定到其他人</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>（已绑定）</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>一個人只能在同一時間與一個羈絆武器進行綁定。\n\n若要裝備並綁定{WEAPON_labelShort}，必須先銷毀{PAWN_nameDef}當前綁定的武器{BONDEDWEAPON_labelShort}。</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef}已經與{BONDEDWEAPON_labelShort}綁定</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->

@@ -112,6 +112,8 @@
   <ShouldTryToRecruit>嘗試招募</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>被判有罪({0}後到期)</ConsideredGuilty>
+  <!-- EN: Considered guilty -->
+  <ConsideredGuiltyNoTimer>被判有罪</ConsideredGuiltyNoTimer>
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -277,18 +279,10 @@
   <CopyLogTip>複製到剪貼版。</CopyLogTip>
 
   <!-- Forming caravan tab -->
-  <!-- EN: Gathering animals -->
-  <FormingCaravanStatus_GatheringAnimals>正在集中動物</FormingCaravanStatus_GatheringAnimals>
-  <!-- EN: Gathering animals (waiting) -->
-  <FormingCaravanStatus_GatheringAnimals_Pause>正在集中動物(等待中)</FormingCaravanStatus_GatheringAnimals_Pause>
   <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>正在蒐集物品</FormingCaravanStatus_GatheringItems>
   <!-- EN: Gathering items (waiting) -->
   <FormingCaravanStatus_GatheringItems_Pause>正在蒐集物品(等待中)</FormingCaravanStatus_GatheringItems_Pause>
-  <!-- EN: Gathering slaves -->
-  <FormingCaravanStatus_GatheringSlaves>正在集中奴隸</FormingCaravanStatus_GatheringSlaves>
-  <!-- EN: Gathering slaves (waiting) -->
-  <FormingCaravanStatus_GatheringSlaves_Pause>正在集中奴隸(等待中)</FormingCaravanStatus_GatheringSlaves_Pause>
   <!-- EN: Gathering downed people -->
   <FormingCaravanStatus_GatheringDownedPawns>正在集中傷員</FormingCaravanStatus_GatheringDownedPawns>
   <!-- EN: Gathering downed people (waiting) -->
@@ -303,9 +297,9 @@
   <CaravanMembers>成員</CaravanMembers>
   <!-- EN: Animals -->
   <CaravanAnimals>動物</CaravanAnimals>
-  <!-- EN: Items to load -->
+  <!-- EN: To load -->
   <ItemsToLoad>要裝載的貨物</ItemsToLoad>
-  <!-- EN: Loaded items -->
+  <!-- EN: Loaded -->
   <LoadedItems>已裝載的貨物</LoadedItems>
   <!-- EN: pack animals -->
   <PackAnimalsCountLower>動物群</PackAnimalsCountLower>

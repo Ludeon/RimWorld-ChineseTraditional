@@ -65,7 +65,7 @@
   
   <!-- EN: Colonist left unburied -->
   <AlertColonistLeftUnburied>殖民者未埋葬</AlertColonistLeftUnburied>
-  <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>有殖民者沒有被安葬。\n\n這可能會讓你的殖民者降低心情。</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
@@ -226,6 +226,15 @@
   <QuestPartShuttleLeaveDelay>太空梭即將離開{0}</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
   <QuestPartShuttleLeaveDelayDesc>太空梭將在{1}離開。{0}的要求是在飛船起飛前把下列的人員或物品裝載上機:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <!-- EN: The shuttle will leave in {0}. -->
+  <QuestPartShuttleLeaveDelayDescHidden>太空梭將在{0}離開。</QuestPartShuttleLeaveDelayDescHidden>
+
+  <!-- EN: Shuttle arriving in {0} -->
+  <QuestPartShuttleArriveDelay>太空梭即將抵達{0}</QuestPartShuttleArriveDelay>
+  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleArriveDelayDesc>太空梭將在{1}抵達。{0}的要求是在飛船起飛前把下列的人員或物品裝載上機:\n\n{2}</QuestPartShuttleArriveDelayDesc>
+  <!-- EN: A shuttle will arrive in {0}. -->
+  <QuestPartShuttleArriveDelayDescHidden>太空梭將在{0}抵達。</QuestPartShuttleArriveDelayDescHidden>
 
   <!-- EN: Monument will be destroyed -->
   <DisallowedBuildingInsideMonument>紀念碑將被摧毀</DisallowedBuildingInsideMonument>

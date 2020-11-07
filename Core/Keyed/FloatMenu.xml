@@ -41,6 +41,8 @@
   <CannotOrderNonControlledLower>無法命令失控的角色</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>無法攻擊自己</CannotAttackSelf>
+  <!-- EN: cannot attack faction ally -->
+  <CannotAttackSameFactionMember>無法攻擊友方派系</CannotAttackSameFactionMember>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>操控{1_labelShort}</OrderManThing>
@@ -136,6 +138,8 @@
   <InstallImplantAlreadyMaxLevel>最大等級</InstallImplantAlreadyMaxLevel>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>將{0}升級到{1}級</UpgradeImplant>
+  <!-- EN: violation of faction ally -->
+  <SurgeryViolationFellowFactionMember>對友方派系違規</SurgeryViolationFellowFactionMember>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>食用{1_labelShort}</ConsumeThing>
@@ -190,6 +194,8 @@
   <IsReservedBy>{0}被預留给{1}。</IsReservedBy>
   <!-- EN: Too heavy -->
   <TooHeavy>超重</TooHeavy>
+  <!-- EN: {0_labelShort} is in the same faction. -->
+  <SameFaction>{0_labelShort}正在相同的派系。</SameFaction>
 
   <!-- EN: incapable -->
   <Incapable>無能力</Incapable>
@@ -212,8 +218,19 @@
   <ForceWear>穿上{1_labelShort}</ForceWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>無法穿上{1_label}</CannotWear>
+  <!-- EN: Force equip {1_labelShort} -->
+  <ForceEquipApparel>強制裝備{1_labelShort}</ForceEquipApparel>
+  <!-- EN: Cannot equip {1_label} -->
+  <CannotEquipApparel>無法裝備{1_label}</CannotEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>缺少身體部位</CannotWearBecauseOfMissingBodyParts>
+  
+  <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
+  <Reload>以{AMMO_label}重新裝填{GEAR_labelShort}</Reload>
+  <!-- EN: Full -->
+  <ReloadFull>滿</ReloadFull>
+  <!-- EN: Too few -->
+  <ReloadNotEnough>過少</ReloadNotEnough>
   
   <!-- EN: Cannot pick up {1_label} -->
   <CannotPickUp>無法撿起{1_label}</CannotPickUp>
@@ -374,6 +391,8 @@
   <DropAtEdge>放置在邊緣</DropAtEdge>
   <!-- EN: Drop in center -->
   <DropInCenter>放置在中央</DropInCenter>
+  <!-- EN: Attack {0} -->
+  <AttackShuttle>攻擊{0}</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
   <AttackAndDropAtEdge>攻擊{0}：空投於邊界</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
@@ -420,8 +439,8 @@
 
   <!-- EN: apply {0} -->
   <ApplyTechprint>使用{0}</ApplyTechprint>
-  
-  <!-- UNUSED -->
-  <ConstructionSkillTooLow>建造技能不足</ConstructionSkillTooLow>
+
+  <!-- EN: Too dangerous -->
+  <EnterCooldownBlocksEntering>過於危險</EnterCooldownBlocksEntering>
 
 </LanguageData>

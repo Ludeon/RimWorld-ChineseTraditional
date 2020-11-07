@@ -23,9 +23,9 @@
   <EdgeDropGroups.textWillArrive>{0_pawnsPluralDef}的多數運輸艙即將抵達。</EdgeDropGroups.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived nearby. -->
-  <EdgeWalkIn.textEnemy>一群{1}的{0}來到了附近。</EdgeWalkIn.textEnemy>
+  <EdgeWalkIn.textEnemy>一隊{1}的{0}來到了附近。</EdgeWalkIn.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived nearby. -->
-  <EdgeWalkIn.textFriendly>一群{1}的友好{0}來到了附近。</EdgeWalkIn.textFriendly>
+  <EdgeWalkIn.textFriendly>一隊{1}的友好{0}來到了附近。</EdgeWalkIn.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive on foot. -->
   <EdgeWalkIn.textWillArrive>{0_pawnsPluralDef}即將步行抵達。</EdgeWalkIn.textWillArrive>
   
@@ -42,10 +42,15 @@
   <MechClusterDrop.textWillArrive>機械軍團搭乘運輸艙在附近抵達。</MechClusterDrop.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area! -->
-  <RandomDrop.textEnemy>一群{1}的{0}搭乘運輸艙在附近抵達。他們的運輸艙發生故障，散落在區域各處。</RandomDrop.textEnemy>
+  <RandomDrop.textEnemy>一隊{1}的{0}搭乘運輸艙在附近抵達。他們的運輸艙發生故障，散落在區域各處。</RandomDrop.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area! -->
-  <RandomDrop.textFriendly>一群{1}的友好{0}搭乘運輸艙在附近抵達。他們的運輸艙發生故障，散落在區域各處。</RandomDrop.textFriendly>
+  <RandomDrop.textFriendly>一隊{1}的友好{0}搭乘運輸艙在附近抵達。他們的運輸艙發生故障，散落在區域各處。</RandomDrop.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
   <RandomDrop.textWillArrive>{0_pawnsPluralDef}的運輸艙即將抵達。</RandomDrop.textWillArrive>
+  
+  <!-- EN: A group of {0} from {1} have arrived in a shuttle. -->
+  <Shuttle.textEnemy>一隊{1}的{0}搭乘太空梭抵達。</Shuttle.textEnemy>
+  <!-- EN: A friendly group of {0} from {1} have arrived in a shuttle. -->
+  <Shuttle.textFriendly>一隊{1}的友好{0}搭乘太空梭抵達。</Shuttle.textFriendly>
   
 </LanguageData>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Main menu -->
   <!-- EN: Tutorial -->
   <Tutorial>遊戲教學</Tutorial>
@@ -58,7 +58,7 @@
   <BuySoundtrack>購買原聲帶</BuySoundtrack>
   <!-- EN: Create world -->
   <CreateWorld>創造世界</CreateWorld>
-
+  
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
   <TranslationThanks>RimWorld各語言的翻譯都是由遊戲愛好者提供，這些粉絲出品的翻譯出自下列傑出的志願者們：\n\n{0}</TranslationThanks>
@@ -66,11 +66,11 @@
   <TranslationHowToContribute>你也可以做出貢獻，點擊下方了解更多(開啟瀏覽器)。</TranslationHowToContribute>
   <!-- EN: Learn more -->
   <LearnMore>了解更多</LearnMore>
-
+  
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
   <DevBuildWarning>警告：目前正運行開發中版本，這表示我們正進行設計實驗和技術開發。\n\n有時有些東西會暫時故意失去平衡性，這是一種經典的遊戲設計方法，為了掌握平衡性變化的影響，刻意的造就極端狀況。我們可以根據獲得的數據決定最終的平衡性設計。\n\n此外還有bug，包含那些會導致遊戲崩潰的，存檔兼容性隨時有可能崩潰。\n\n如果你可接受對上述情況，感謝你協助測試！如果你不想參與實驗，請遊玩最新的穩定版。</DevBuildWarning>
-
+  
   <!-- Create/review world -->
   <!-- EN: Review world -->
   <ReviewWorld>查看世界</ReviewWorld>
@@ -110,11 +110,11 @@
   <WorldSeed>種子</WorldSeed>
   <!-- EN: Randomize seed -->
   <RandomizeSeed>隨機種子</RandomizeSeed>
-  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>所有星球的直徑皆相同，但因為此大小已遠遠超出一般遊戲需求，因此我們不會生成整個星球地表，那會需要很長的時間。這是你想要生成的面積百分比。</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>勢力</WorldFactionsTab>
-
+  
   <!-- Select world -->
   <!-- EN: Select world -->
   <SelectWorld>選擇世界</SelectWorld>
@@ -132,11 +132,11 @@
   <ErrorGettingVersionInfo>獲取版本訊息錯誤：{0}</ErrorGettingVersionInfo>
   <!-- EN: Loading version info... -->
   <LoadingVersionInfo>正在載入版本訊息...</LoadingVersionInfo>
-
+  
   <!-- World generator -->
   <!-- EN: Generate world -->
   <GenerateWorld>創造世界</GenerateWorld>
-
+  
   <!-- Mods config -->
   <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>開啟Steam創意工坊</OpenSteamWorkshop>
@@ -204,11 +204,13 @@
   <ModUnsatisfiedDependency>這需要以下MOD組模才能運行: {0}。</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
+  <!-- EN: This mod is not made for this version of RimWorld. -->
+  <ModNotMadeForThisVersionShort>此Mod並不適用於此版本。</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>此Mod版本對應更新的RimWorld版本，可能無法正常運作。</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Mod必須在About.xml中指定格式正確的版本號，例如：{0}。</MessageModNeedsWellFormattedTargetVersion>
-  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n- Alphanumeric characters and dot only.\n- No spaces.\n- At least one dot.\n- No repeated dots in a row, or starting or ending with a dot.\n- 60 characters or less.\n- Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
   <MessageModNeedsWellFormattedPackageId>Mod需要有一個格式適當且唯一的[packageId]寫入到[About.xml]文件中。[packageId]必須滿足這些要求：\n\n - 僅限字母、數字和半角句號「.」。\n - 不包含空格。\n - 至少有一個點。\n - 沒有連續的點，且不以點為開頭或結尾。\n - 最多60個字節。\n - 不允許包含單詞「Ludeon」。\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>這個mod在LoadFolders.xml中有問題。在上傳之前需要解決的問題:</ModHadLoadFolderIssues>
@@ -224,11 +226,13 @@
   <ModLoadFolderOutOfOrder>無效版本順序:{0}應該在{1}之前。</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>無效的版本順序:應該首先定義「default」。</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
+  <ModLoadFolderDefaultDeprecated>不推薦在載入資料中使用「default」格式的版本目錄。請為每個版本的目錄加上類似『v...』的標籤。</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>版本{0}是在載入資料夾中定義的，但是在mod的About.xml的'supportedGameVersions'中沒有列出</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>拖曳以重新排序</DragToReorder>
-
+  
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
   <ChooseScenario>選擇腳本</ChooseScenario>
@@ -260,7 +264,9 @@
   <ConfirmContentAuthor>你所上傳的內容必須是你自己的作品。\n\n你確定這個項目是屬於你的創作嗎？</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
   <Incompatible>不相容</Incompatible>
-  <!-- EN: Too many (max {0}):  -->
+  <!-- EN: Tag as translation -->
+  <TagAsTranslation>標籤已翻譯</TagAsTranslation>
+  <!-- EN: Too many (max {0}):-->
   <TooMany>超過限制(最大值{0})：</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>因為你是作者，所以能夠更新創意工坊。</CanBeUpdatedOnWorkshop>
@@ -284,13 +290,163 @@
   <ReloadAnytimeModeInfo>你可以隨時讀檔或存檔。\n\n這適合還在摸索玩法的玩家，或符合你的遊玩風格，或你正使用可能導致遊戲崩潰的Mod，又或者你打算靠自我約束實現無悔模式。</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>你只能在離開遊戲時存檔。\n\n因為RimWorld是一個故事產生器，即便失去一切只剩最後一人也不到遊戲的結局。本遊戲的設計著重在失去之後浴火重生。\n\n擺脫悲慘的窘境，寫下悲喜交雜的故事，這就是RimWorld被設計帶來的遊玩體驗。\n\n當路克．天行者的父母被殺害時，他沒有讀檔是有原因的 - 得與失是戲劇性的！</PermadeathModeInfo>
-  <!-- EN: Storyteller and difficulty can be changed any time. -->
+  <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>故事敘述者和難度可以隨時更換。</CanChangeStorytellerSettingsDuringPlay>
-  <!-- EN: Merciless mode -->
-  <UnlockExtremeDifficulty>無情模式</UnlockExtremeDifficulty>
-  <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>無情模式是一種特殊的遊戲模式，遊戲的各項挑戰都被提昇至極端難度。\n\n無情模式會在你達到特定的里程碑後自動解鎖，然而，你現在已經可以解鎖了。\n\n這個選項只推薦給已經體驗過一兩次高難度遊戲，而期望一場全力以赴後壯烈犧牲的玩家。</ConfirmUnlockExtremeDifficulty>
-
+  
+  <!-- custom difficulty settings -->
+  <!-- EN: Custom playstyle settings -->
+  <DifficultyCustomSectionLabel>自定義遊戲方式設定</DifficultyCustomSectionLabel>
+  <!-- EN: Set to standard playstyle... -->
+  <DifficultyReset>設定為標準遊戲方式...</DifficultyReset>
+  
+  <!-- EN: Threats -->
+  <DifficultyThreatSection>威脅</DifficultyThreatSection>
+  <!-- EN: Threat scale -->
+  <Difficulty_ThreatScale_Label>威脅規模</Difficulty_ThreatScale_Label>
+  <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
+  <Difficulty_ThreatScale_Info>調整威脅的規模，類似於襲擊和蟲害，以及任務難度。</Difficulty_ThreatScale_Info>
+  <!-- EN: Major threats -->
+  <Difficulty_AllowBigThreats_Label>大型威脅</Difficulty_AllowBigThreats_Label>
+  <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
+  <Difficulty_AllowBigThreats_Info>允許大型威脅的出現，例如襲擊、蟲害、獵殺人類、機械飛船墜毀等等。</Difficulty_AllowBigThreats_Info>
+  <!-- EN: Quest threats -->
+  <Difficulty_AllowViolentQuests_Label>任務威脅</Difficulty_AllowViolentQuests_Label>
+  <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
+  <Difficulty_AllowViolentQuests_Info>允許任務中出現暴力威脅和挑戰。如果此選項關閉，那麼任務將會更改為非暴力類型。</Difficulty_AllowViolentQuests_Info>
+  <!-- EN: Intro threats -->
+  <Difficulty_AllowIntroThreats_Label>介紹性威脅</Difficulty_AllowIntroThreats_Label>
+  <!-- EN: Enable the fixed intro threats that appear near game start. -->
+  <Difficulty_AllowIntroThreats_Info>允許在遊戲開始時出現一個介紹性的威脅。</Difficulty_AllowIntroThreats_Info>
+  <!-- EN: Predators hunt humans -->
+  <Difficulty_PredatorsHuntHumanlikes_Label>肉食動物獵殺人類</Difficulty_PredatorsHuntHumanlikes_Label>
+  <!-- EN: Allow wild predators to hunt humans. -->
+  <Difficulty_PredatorsHuntHumanlikes_Info>允許野生的肉食動物以人類為目標。</Difficulty_PredatorsHuntHumanlikes_Info>
+  <!-- EN: Extreme weather -->
+  <Difficulty_AllowExtremeWeatherIncidents_Label>極端氣候</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
+  <Difficulty_AllowExtremeWeatherIncidents_Info>允許極端氣候事件的出現，例如有毒霧霾、火山冬天和雷暴。</Difficulty_AllowExtremeWeatherIncidents_Info>
+  
+  <!-- EN: Economy -->
+  <DifficultyEconomySection>經濟</DifficultyEconomySection>
+  <!-- EN: Trade price disadvantage -->
+  <Difficulty_TradePriceFactorLoss_Label>貿易價格劣勢</Difficulty_TradePriceFactorLoss_Label>
+  <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
+  <Difficulty_TradePriceFactorLoss_Info>交易時，買入價格提升和賣出價格下降的數值。</Difficulty_TradePriceFactorLoss_Info>
+  <!-- EN: Harvest yield -->
+  <Difficulty_CropYieldFactor_Label>收穫量</Difficulty_CropYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
+  <Difficulty_CropYieldFactor_Info>調整收穫植物和作物的產量。這包括了收穫植物和砍伐樹木。</Difficulty_CropYieldFactor_Info>
+  <!-- EN: Mining yield -->
+  <Difficulty_MineYieldFactor_Label>開採量</Difficulty_MineYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when mining. -->
+  <Difficulty_MineYieldFactor_Info>調整開採時的產量。</Difficulty_MineYieldFactor_Info>
+  <!-- EN: Butchering yield -->
+  <Difficulty_ButcherYieldFactor_Label>屠宰量</Difficulty_ButcherYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
+  <Difficulty_ButcherYieldFactor_Info>調整屠宰時獲得原料的產量。這包擴肉、皮革以及拆解機械體獲得的產出。</Difficulty_ButcherYieldFactor_Info>
+  <!-- EN: Research speed -->
+  <Difficulty_ResearchSpeedFactor_Label>研究速率</Difficulty_ResearchSpeedFactor_Label>
+  <!-- EN: Adjust the speed of research. -->
+  <Difficulty_ResearchSpeedFactor_Info>調整研究速度。</Difficulty_ResearchSpeedFactor_Info>
+  <!-- EN: Quest rewards -->
+  <Difficulty_QuestRewardValueFactor_Label>任務獎勵</Difficulty_QuestRewardValueFactor_Label>
+  <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_QuestRewardValueFactor_Info>調整任務給與的獎勵數值。\n\n註：任務獎勵也會自動根據威脅等級進行補償調整。如果你調整了這個選項，你會獲得一個額外的乘數。</Difficulty_QuestRewardValueFactor_Info>
+  <!-- EN: Raid loot -->
+  <Difficulty_RaidLootPointsFactor_Label>贓物</Difficulty_RaidLootPointsFactor_Label>
+  <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_RaidLootPointsFactor_Info>調整襲擊者攜帶的戰利品數量。\n\n註：襲擊戰利品也會自動根據威脅等級進行補償調整。如果你調整了這個選項，你會獲得一個額外的乘數。</Difficulty_RaidLootPointsFactor_Info>
+  <!-- EN: Turret rearm cost -->
+  <Difficulty_MaintenanceCostFactor_Label>炮塔整備成本</Difficulty_MaintenanceCostFactor_Label>
+  <!-- EN: Adjust the cost of rearming turrets. -->
+  <Difficulty_MaintenanceCostFactor_Info>調整整備炮塔的成本。</Difficulty_MaintenanceCostFactor_Info>
+  <!-- EN: Scaria rot chance -->
+  <Difficulty_ScariaRotChance_Label>狂暴症腐爛幾率</Difficulty_ScariaRotChance_Label>
+  <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
+  <Difficulty_ScariaRotChance_Info>患有狂暴症的生物死亡時立即腐爛的幾率。\n\n註：默認設置的目的是使所有難度都獲得相接近的肉獎勵而平衡，因為高難度模式下動物會變多。</Difficulty_ScariaRotChance_Info>
+  <!-- EN: Enemy death on downed -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>敵人倒地死亡幾率</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>調整敵人在被擊倒時直接死亡的幾率。這影響了俘虜的機會，從而影響到殖民地的人口增長率。</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <!-- EN: General -->
+  <DifficultyGeneralSection>通用</DifficultyGeneralSection>
+  <!-- EN: Colonist mood -->
+  <Difficulty_ColonistMoodOffset_Label>殖民者心情</Difficulty_ColonistMoodOffset_Label>
+  <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
+  <Difficulty_ColonistMoodOffset_Info>適用於所有殖民者和囚犯的永久心情補償。殖民者基礎心情為50%。</Difficulty_ColonistMoodOffset_Info>
+  <!-- EN: Food poison chance -->
+  <Difficulty_FoodPoisonChanceFactor_Label>食物有毒幾率</Difficulty_FoodPoisonChanceFactor_Label>
+  <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
+  <Difficulty_FoodPoisonChanceFactor_Info>調整一個人吃了可能有毒的食物中毒的幾率。</Difficulty_FoodPoisonChanceFactor_Info>
+  <!-- EN: Animal revenge chance -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>動物反擊幾率</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>調整攻擊野生動物使其產生反擊的幾率。</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <!-- EN: Friendly fire -->
+  <Difficulty_FriendlyFireChanceFactor_Label>友方傷害</Difficulty_FriendlyFireChanceFactor_Label>
+  <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
+  <Difficulty_FriendlyFireChanceFactor_Info>調整友方誤傷的幾率。\n\n註：此設置隻影響會命中目標的直接射擊。它並不能防止爆炸造成的傷害，也不能防止子彈擊中目標產生的傷害。</Difficulty_FriendlyFireChanceFactor_Info>
+  <!-- EN: Colonist instant kills -->
+  <Difficulty_AllowInstantKillChance_Label>殖民者直接死亡</Difficulty_AllowInstantKillChance_Label>
+  <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AllowInstantKillChance_Info>調整殖民者因攻擊而當場死亡的幾率。受到的傷害會進行調整，它會使殖民者倒地而不是致死。\n\n不過這只會影響到一些直接殺死殖民者的傷害，殖民者仍然會被擊倒、流血致死，或者死於火災、爆炸、疾病等。</Difficulty_AllowInstantKillChance_Info>
+  <!-- EN: Infection chance -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>感染幾率</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <!-- EN: Adjust the chance that a wound will become infected. -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>調整傷口感染的幾率。</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <!-- EN: Disease frequency -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>疾病頻率</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <!-- EN: Adjust the frequency of random disease events. -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>調整隨機疾病事件的頻率。</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <!-- EN: Insect spawning rate -->
+  <Difficulty_EnemyReproductionRateFactor_Label>蟲族繁殖率</Difficulty_EnemyReproductionRateFactor_Label>
+  <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
+  <Difficulty_EnemyReproductionRateFactor_Info>調整蟲巢繁殖新昆蟲的幾率。較低的值表示繁殖事件之間的間隔時間會更長。\n\n這不會影響是否會發生蟲害事件，只會影響到活躍的蟲巢繁殖昆蟲的速度。</Difficulty_EnemyReproductionRateFactor_Info>
+  <!-- EN: Deep drilling infestations -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>深鑽井蟲害</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>調整深鑽井發生蟲害的幾率。</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <!-- EN: Map generation ancient threats -->
+  <Difficulty_PeacefulTemples_Inverted_Label>遠古威脅</Difficulty_PeacefulTemples_Inverted_Label>
+  <!-- EN: Ancient structures may contain dangerous threats. -->
+  <Difficulty_PeacefulTemples_Inverted_Info>古代遺蹟可能含有危險的威脅。</Difficulty_PeacefulTemples_Inverted_Info>
+  <!-- EN: Map generation natural hives -->
+  <Difficulty_AllowCaveHives_Label>自然蟲巢</Difficulty_AllowCaveHives_Label>
+  <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
+  <Difficulty_AllowCaveHives_Info>自然洞穴中可能會生成休眠的蟲巢。\n\n此選項只會影響地圖生成，而不會影響到遊戲中挖掘隧道的活躍蟲群。</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Player tools -->
+  <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
+  <!-- EN: Player can build traps -->
+  <Difficulty_AllowTraps_Label>玩家可以製作陷阱</Difficulty_AllowTraps_Label>
+  <!-- EN: Player can build traps like spike traps and IED traps. -->
+  <Difficulty_AllowTraps_Info>玩家可以製作類似尖刺陷阱或者爆炸陷阱。</Difficulty_AllowTraps_Info>
+  <!-- EN: Player can build turrets -->
+  <Difficulty_AllowTurrets_Label>玩家可以建造炮塔</Difficulty_AllowTurrets_Label>
+  <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
+  <Difficulty_AllowTurrets_Info>玩家可以建造類似簡易無人機槍塔、自動加農炮塔之類的靜態炮塔。\n\n你依然可以在禁用此選項時使用繳獲的炮塔。</Difficulty_AllowTurrets_Info>
+  <!-- EN: Player can build mortars -->
+  <Difficulty_AllowMortars_Label>玩家可以建造迫擊炮</Difficulty_AllowMortars_Label>
+  <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
+  <Difficulty_AllowMortars_Info>允許玩家建造迫擊炮。\n\n你依然可以在禁用此選項時使用繳獲的迫擊炮。</Difficulty_AllowMortars_Info>
+  <!-- EN: Adaptation -->
+  <DifficultyAdaptationSection>適應性調整</DifficultyAdaptationSection>
+  <!-- EN: Damage adaptation growth -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>適應性增長</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>適應性表示玩家對當前遊戲的適應能力，故事敘述者會在你遊刃有餘的情況下隨著時間的推移使遊戲更富挑戰性。這與財富和人口對故事的影響效果不同。\n\n這個選項會調整挑戰性增長的倍率。</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Damage adaptation effect -->
+  <Difficulty_AdaptationEffectFactor_Label>適應性影響</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
+  <Difficulty_AdaptationEffectFactor_Info>適應性表示玩家對當前遊戲的適應能力，故事敘述者會在你遊刃有餘的情況下隨著時間的推移使遊戲更富挑戰性。這與財富和人口對故事的影響效果不同。\n\n這個選項會調整適應性數值對實際威脅的影響。</Difficulty_AdaptationEffectFactor_Info>
+  <!-- EN: Wealth-independent progress mode -->
+  <Difficulty_FixedWealthMode_Label>固定財富模式</Difficulty_FixedWealthMode_Label>
+  <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <Difficulty_FixedWealthMode_Info>在固定財富模式下進行遊戲。\n\n普通模式中，故事敘述者會根據殖民者、人口、財富值和其他因素來衡量威脅的強度。固定財富模式下移除了財富因素，並用基於時間的固定進度曲線來代替它。這個時間曲線從殖民地建立開始計算。\n\n這個方案只推薦給那些尋求嚴格技能挑戰的玩家。在固定財富模式下，除非你找到新的解決方案，否則幾乎不可能從嚴重損失中恢復。當然也可能因為超前發展而使遊戲變得過分簡單。</Difficulty_FixedWealthMode_Info>
+  <!-- EN: Years until maximum threat -->
+  <Difficulty_FixedWealthTimeFactor_Label>最大威脅年限</Difficulty_FixedWealthTimeFactor_Label>
+  <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
+  <Difficulty_FixedWealthTimeFactor_Info>在固定財富模式下，達到最大威脅等級所需的遊戲年數。\n\n注意，故事敘述者依然會根據殖民者數量和其他各種因素來調整威脅強度。</Difficulty_FixedWealthTimeFactor_Info>
+  
   <!-- Site select -->
   <!-- EN: Select starting site -->
   <SelectStartingSite>選擇降落點</SelectStartingSite>
@@ -440,8 +596,8 @@
   <Next>繼續</Next>
   <!-- EN: Back -->
   <Back>返回</Back>
-  <!-- EN: Show Materials -->
-  <ShowMaterials>顯示資料</ShowMaterials>
+  <!-- EN: Change material... -->
+  <ShowMaterials>變更材料...</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>遊戲性</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
@@ -469,5 +625,5 @@
   <ClickForMoreInfo>點擊瞭解更多資訊</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>沒有可用的資訊。</NoMoreInfoAvailable>
-
+    
 </LanguageData>

@@ -34,6 +34,8 @@
   <Priority3>中優先度</Priority3>
   <!-- EN: Low priority -->
   <Priority4>低優先度</Priority4>
+  <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
+  <PawnFactionInfo>{0}\n\n當前屬於{1_nameDef}。\n\n點擊以查看派系。</PawnFactionInfo>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -90,6 +92,8 @@
   <EnemyOf>敵對的:</EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>目前與此勢力關係的友好度。</CurrentGoodwillTip>
+  <!-- EN: Current relations with this faction. -->
+  <CurrentRelationTip>當前與此派系的關係。</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>此勢力是永久敵對的。他們會襲擊你的據點、旅隊。與他們的關係不會因為任何原因而改善。</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -202,6 +206,8 @@
   <ResearchTechprintsFromFactions>這些科技藍圖可以透過勢力的交易、任務來獲取:</ResearchTechprintsFromFactions>
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
   <TechLevelTooLow>你的勢力文明等級為{0}，但此項目的技術等級為{1}。研究速度將乘以{2}。</TechLevelTooLow>
+  <!-- EN: Unlocked with -->
+  <UnlockedWith>解鎖</UnlockedWith>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -240,6 +246,10 @@
   <ShuttleDepartsIn>太空梭{0}後離開</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
   <ShuttleDepartsOn>太空梭於{0}離開</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>訪客{0}後離開</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>訪客於{0}離開</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
   <QuestFinishedAgo>{0}之前的任務</QuestFinishedAgo>
   <!-- EN: Accept quest -->
@@ -270,8 +280,16 @@
   <QuestBedroomRequirementsUnsatisfied>滿足頭銜要求的個人臥室</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>滿足頭銜要求的個人臥室</QuestBedroomRequirementsUnsatisfiedSingle>
-  <!-- EN: a colonist with the title of {0}. -->
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>滿足{PAWN_definite}的{TITLE}頭銜要求的謁見廳。</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestNoThroneRoom>滿足{PAWN_definite}的{TITLE}頭銜要求的謁見廳。</QuestNoThroneRoom>
+  <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>一名擁有{0}頭銜的殖民者。</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} to be in your home colony -->
+  <QuestPawnNotOnColonyMap>{PAWN_definite}在主殖民地</QuestPawnNotOnColonyMap>
+  <!-- EN: the map clear of enemies of the bestower's faction -->
+  <QuestRequiresNoDangerOnMap>佈施者的敵人都必須被消滅！</QuestRequiresNoDangerOnMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>報酬偏好</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -292,6 +310,10 @@
   <GoodwillTip>你與 {0_name} 的友好度將提昇 {1} 。\n\n目前的友好度： {4} ( {5} )。\n\n友好度是與各勢力之間的關係。如果低於 {2} ，該勢力就會敵視你，並會襲擊你的據點和旅隊。如果高於 {3} ，該勢力就會變成盟友，並盡可能的幫助你。除此之外，該勢力則保持中立，並會跟你交易和對話。</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} 加入</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>背叛：存在{0}個目標</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>{0}將因你殺死{1}的所有成員而獎勵你。</QuestBetrayalOfferTip>
   
   <!-- Health tab -->
   <!-- EN: Creates need -->

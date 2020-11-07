@@ -8,42 +8,46 @@
     <li>questDescription->透過長程礦物掃瞄器，[worker_definite]發現到附近的[targetMineable_label]。\n\n很遺憾，時間不等人，如果我們不去開採，其他人將會在 [timeoutTicks_duration] 後去開採。\n\n[allSitePartsDescriptionsExceptFirst]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->The [subName]</li>
-    <li>questName->[subName]</li>
-    <li>subName->[adj] Resources</li>
-    <li>subName->[adj] Minerals</li>
-    <li>subName->[adj] Ores</li>
-    <li>subName->[adj] Wealth</li>
-    <li>subName->[adj] Mineables</li>
-    <li>subName->[adj] Lump</li>
-    <li>subName->[adj] Mining Project</li>
-    <li>adj->Distant</li>
-    <li>adj->Far</li>
-    <li>adj->Long-Range</li>
-    <li>adj->Unknown</li>
-    <li>adj->Discovered</li>
-    <li>adj->Scanned</li>
-    <li>adj->Detected</li>
-    <li>adj->Found</li>
+    <li>questName->[lump] of [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->The [targetMineableThing_label] [lump]</li>
+    <li>questName->[adj] [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [discovered]</li>
+    <li>lump->lump</li>
+    <li>lump->pile</li>
+    <li>lump->deposit</li>
+    <li>lump->seam</li>
+    <li>lump->chunk</li>
+    <li>lump->pile</li>
+    <li>adj->distant</li>
+    <li>adj->far</li>
+    <li>adj->unknown</li>
+    <li>adj->scanned</li>
+    <li>discovered->discovered</li>
+    <li>discovered->detected</li>
+    <li>discovered->found</li>
+    <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->[subName]</li>
-    <li>questName->[subName]</li>
-    <li>subName->[adj] 資源</li>
-    <li>subName->[adj] 礦物</li>
-    <li>subName->[adj] 礦</li>
-    <li>subName->[adj] 豐富</li>
-    <li>subName->[adj] 可採礦</li>
-    <li>subName->[adj] 塊</li>
-    <li>subName->[adj] 採礦計畫</li>
-    <li>adj->遠方的</li>
-    <li>adj->很遠的</li>
-    <li>adj->遠距離的</li>
+    <li>questName->[targetMineableThing_label] 的 [lump]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->[adj] [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [discovered]</li>
+    <li>lump->隆起</li>
+    <li>lump->塊堆</li>
+    <li>lump->沈澱</li>
+    <li>lump->裂缝</li>
+    <li>lump->岩層</li>
+    <li>lump->垛</li>
+    <li>adj->遙遠的</li>
+    <li>adj->較遠的</li>
     <li>adj->未知的</li>
-    <li>adj->已發現</li>
-    <li>adj->已掃瞄</li>
-    <li>adj->檢測到</li>
-    <li>adj->已找到</li>
+    <li>adj->探測到的</li>
+    <li>discovered->被發現的</li>
+    <li>discovered->被查明的</li>
+    <li>discovered->被找到的</li>
+    <li>discovered->被掃描的</li>    
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>任務失效：[resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>

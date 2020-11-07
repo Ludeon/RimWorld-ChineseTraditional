@@ -41,6 +41,9 @@
   <MarketValue.description>一個物件的市價。實際價格會因社交技能、勢力關係、其他情況而調整。</MarketValue.description>
   <MarketValue.formatString>${0}</MarketValue.formatString>
   
+  <!-- EN: market value ignoring hitpoints -->
+  <MarketValueIgnoreHp.label>市場價格忽略耐久度</MarketValueIgnoreHp.label>
+  
   <!-- EN: mass -->
   <Mass.label>質量</Mass.label>
   <!-- EN: The physical mass of an object. -->
@@ -58,10 +61,10 @@
   <!-- EN: How nutritious this food is. -->
   <Nutrition.description>此食物所提供的營養值。</Nutrition.description>
   
-  <!-- EN: royal favor value -->
-  <RoyalFavorValue.label>皇家威望點數</RoyalFavorValue.label>
-  <!-- EN: The amount of royal favor your trader will earn for giving this to a tribute collector. -->
-  <RoyalFavorValue.description>你的商人將此物品交給徵募官時能獲取的皇家威望點數總值。</RoyalFavorValue.description>
+  <!-- EN: honor value -->
+  <RoyalFavorValue.label>榮譽值</RoyalFavorValue.label>
+  <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
+  <RoyalFavorValue.description>你的商人將此物品交給徵募官時能獲取的榮譽值總值。</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>售價倍率</SellPriceFactor.label>

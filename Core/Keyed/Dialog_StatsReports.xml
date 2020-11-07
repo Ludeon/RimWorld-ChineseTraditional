@@ -50,6 +50,10 @@
   <StatsReport_AgeMultiplier>年齡倍率{0}</StatsReport_AgeMultiplier>
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>健康倍率{0}</StatsReport_HealthMultiplier>
+  <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
+  <StatsReport_ReloadMarketValue>裝填消耗（{COUNT}x{AMMO_label}）</StatsReport_ReloadMarketValue>
+  <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
+  <StatsReport_ReloadRemainingChargesMultipler>剩餘{CHARGENOUN_plural} ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
   <StatsReport_MoodMultiplier>心情倍率{0}</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
@@ -142,6 +146,10 @@
   <Stat_MineableThing_Name>開採物品</Stat_MineableThing_Name>
   <!-- EN: The item that will be yielded when mining this. -->
   <Stat_MineableThing_Desc>開採時所產生的物品。</Stat_MineableThing_Desc>
+  <!-- EN: Mining yield -->
+  <Stat_MiningYield_Name>開採產量</Stat_MiningYield_Name>
+  <!-- EN: The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner. -->
+  <Stat_MiningYield_Desc>開採此物體時產出的最大數量。實際產量會根據礦工的採礦技能來進行調整。</Stat_MiningYield_Desc>
   <!-- EN: Source species -->
   <Stat_SourceSpecies_Name>源物種</Stat_SourceSpecies_Name>
   <!-- EN: The species of creature from which this was taken. -->
@@ -280,6 +288,26 @@
   <Stat_Thing_Terrain_Fine_Desc>這地板被公認為很優秀，適合皇室使用。</Stat_Thing_Terrain_Fine_Desc>
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>此建築物將從電線中獲取的電量。</Stat_Thing_PowerConsumption_Desc>
+  <!-- EN: {CHARGENOUN_plural} remaining -->
+  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural}剩餘</Stat_Thing_ReloadChargesRemaining_Name>
+  <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
+  <Stat_Thing_ReloadChargesRemaining_Desc>此物體上剩餘的{CHARGENOUN_plural}數量。如果用完了，這個特殊的能力將無法使用。</Stat_Thing_ReloadChargesRemaining_Desc>
+  <!-- EN: {CHARGENOUN_plural} -->
+  <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
+  <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
+  <Stat_Thing_ReloadMaxCharges_Desc>這個物體最多能保持的{CHARGENOUN_plural}數量。</Stat_Thing_ReloadMaxCharges_Desc>
+  <!-- EN: {CHARGENOUN} reload cost -->
+  <Stat_Thing_ReloadRefill_Name>{CHARGENOUN}裝填消耗</Stat_Thing_ReloadRefill_Name>
+  <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
+  <Stat_Thing_ReloadRefill_Desc>此物體完全裝填需要消耗的物品數量。\n\n此物體在用完之前也可以重新裝填，但是消耗和從零裝填一致。</Stat_Thing_ReloadRefill_Desc>
+  <!-- EN: Reload cost per {CHARGENOUN} -->
+  <Stat_Thing_ReloadPerCharge_Name>每{CHARGENOUN}裝填消耗</Stat_Thing_ReloadPerCharge_Name>
+  <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
+  <Stat_Thing_ReloadPerCharge_Desc>每裝填一{CHARGENOUN}需要消耗物品的數量。多個{CHARGENOUN_plural}能一次裝填。</Stat_Thing_ReloadPerCharge_Desc>
+  <!-- EN: Vanish on exhaust -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>用盡時消失</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>這個道具會在最後一個{CHARGENOUN}使用完後消失。</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>這個身體部位的整體效率。</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Biocoding -->
@@ -322,9 +350,5 @@
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>成癮者對化學藥物需求的下降率。</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
   <Stat_Thing_Drug_AddictionCost_Desc>成癮每天不停消耗的藥物市場價值。\n\n這是根據成癮者藥物需求量、需求下降率、藥物市場價值計算得出的。\n\n請注意，可能有其他方法可以用不同價格獲得同樣的化學藥物。</Stat_Thing_Drug_AddictionCost_Desc>
-
-  <!-- UNUSED -->
-  <Stat_Thing_Weapon_Biocoded_Name>生物鎖</Stat_Thing_Weapon_Biocoded_Name>
-  <Stat_Thing_Weapon_Biocoded_Desc>此物品經過生物鎖，只能給特定的人使用。</Stat_Thing_Weapon_Biocoded_Desc>
 
 </LanguageData>

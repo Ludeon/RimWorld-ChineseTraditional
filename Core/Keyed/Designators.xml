@@ -214,14 +214,14 @@
   <InteractionSpotWillOverlap>活動區會與{1_labelShort}的活動區重疊。</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
   <InteractionSpotOverlaps>活動區會與{1_labelShort}的活動區重疊。</InteractionSpotOverlaps>
-  <!-- EN: Monuments cannot be placed over other buildings. -->
-  <MonumentOverlapsBuilding>紀念碑不能放置在其他建築物上。</MonumentOverlapsBuilding>
-  <!-- EN: Monument cannot be placed adjacent to a building. -->
-  <MonumentAdjacentToBuilding>紀念碑不能放置在建築物附近。</MonumentAdjacentToBuilding>
-  <!-- EN: Monuments cannot be placed on incompatible terrain. -->
-  <MonumentBadTerrain>紀念碑不能放置在不相容的地形上。</MonumentBadTerrain>
-  <!-- EN: Monuments cannot be placed over permanent obstructions. -->
-  <MonumentBlockedPermanently>紀念碑不能放置在障礙物上。</MonumentBlockedPermanently>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>紀念碑不能放置在此建築物上: {0}。</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>不能在此建造：{0}。</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <MonumentOverlapsBuilding>紀念碑不能放置在此建築物上: {0}。</MonumentOverlapsBuilding>
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
+  <MonumentAdjacentToBuilding>紀念碑不能放置在此建築物附近: {0}。</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
