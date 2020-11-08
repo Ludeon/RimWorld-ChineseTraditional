@@ -61,7 +61,7 @@
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
   -->
   <Hospitality_Refugee.questContentRules.rulesStrings>
-  <li>lastOrNot(lodgerCount==1)-></li>
+    <li>lastOrNot(lodgerCount==1)-></li>
     <li>lastOrNot(lodgerCount>=2)->最後的</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>

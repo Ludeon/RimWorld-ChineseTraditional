@@ -70,23 +70,15 @@
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
   <PawnLend.LetterTextReturnAfterHelping.slateRef>在幫助[asker_faction_name]的[asker_nameFull]順利[dutyDescription]後，{PAWNS}安全的回來了。</PawnLend.LetterTextReturnAfterHelping.slateRef>
-  <!-- EN: 
-  	<rulesStrings>
-  	  <li>dutyRoyalDescription->prepare a ceremony</li>
-  	  <li>dutyRoyalDescription->negotiate with a tribe</li>
-  	  <li>dutyRoyalDescription->explore a swamp</li>
-  	  <li>dutyRoyalDescription->translate a book</li>
-  	  <li>dutyRoyalDescription->set up a training ground</li>
-  	  <li>dutyRoyalDescription->harvest crops</li></rulesStrings> 
-  -->
+  <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
     <rulesStrings>
       <li>dutyRoyalDescription->準備儀式</li>
-  	  <li>dutyRoyalDescription->與部落談判</li>
-  	  <li>dutyRoyalDescription->探索沼澤</li>
-  	  <li>dutyRoyalDescription->翻譯一本書</li>
-  	  <li>dutyRoyalDescription->設置訓練場</li>
-  	  <li>dutyRoyalDescription->收穫作物</li></rulesStrings> 
+      <li>dutyRoyalDescription->與部落談判</li>
+      <li>dutyRoyalDescription->探索沼澤</li>
+      <li>dutyRoyalDescription->翻譯一本書</li>
+      <li>dutyRoyalDescription->設置訓練場</li>
+      <li>dutyRoyalDescription->收穫作物</li>
     </rulesStrings>
   </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
@@ -101,17 +93,5 @@
   <PawnLend.LetterTextShuttleDestroyed.slateRef>被派來接殖民者的太空梭被摧毀了。</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Colonists returned -->
   <PawnLend.LetterLabelColonistsReturned.slateRef>殖民者返回</PawnLend.LetterLabelColonistsReturned.slateRef>
-  
-  <!-- UNUSED -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>收穫莊稼</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>加固城防</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>建立定居點</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>戒備襲擊者</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>建立醫院</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>控制[disease]疫情爆發</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>地表生存大師</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>滑稽的小丑</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>外地口音的僕侍</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>外來人類展品</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
   
 </LanguageData>

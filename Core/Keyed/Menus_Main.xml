@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- Main menu -->
   <!-- EN: Tutorial -->
   <Tutorial>遊戲教學</Tutorial>
@@ -58,7 +58,7 @@
   <BuySoundtrack>購買原聲帶</BuySoundtrack>
   <!-- EN: Create world -->
   <CreateWorld>創造世界</CreateWorld>
-  
+
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
   <TranslationThanks>RimWorld各語言的翻譯都是由遊戲愛好者提供，這些粉絲出品的翻譯出自下列傑出的志願者們：\n\n{0}</TranslationThanks>
@@ -66,11 +66,11 @@
   <TranslationHowToContribute>你也可以做出貢獻，點擊下方了解更多(開啟瀏覽器)。</TranslationHowToContribute>
   <!-- EN: Learn more -->
   <LearnMore>了解更多</LearnMore>
-  
+
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
   <DevBuildWarning>警告：目前正運行開發中版本，這表示我們正進行設計實驗和技術開發。\n\n有時有些東西會暫時故意失去平衡性，這是一種經典的遊戲設計方法，為了掌握平衡性變化的影響，刻意的造就極端狀況。我們可以根據獲得的數據決定最終的平衡性設計。\n\n此外還有bug，包含那些會導致遊戲崩潰的，存檔兼容性隨時有可能崩潰。\n\n如果你可接受對上述情況，感謝你協助測試！如果你不想參與實驗，請遊玩最新的穩定版。</DevBuildWarning>
-  
+
   <!-- Create/review world -->
   <!-- EN: Review world -->
   <ReviewWorld>查看世界</ReviewWorld>
@@ -114,7 +114,7 @@
   <PlanetCoverageTip>所有星球的直徑皆相同，但因為此大小已遠遠超出一般遊戲需求，因此我們不會生成整個星球地表，那會需要很長的時間。這是你想要生成的面積百分比。</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>勢力</WorldFactionsTab>
-  
+
   <!-- Select world -->
   <!-- EN: Select world -->
   <SelectWorld>選擇世界</SelectWorld>
@@ -132,11 +132,11 @@
   <ErrorGettingVersionInfo>獲取版本訊息錯誤：{0}</ErrorGettingVersionInfo>
   <!-- EN: Loading version info... -->
   <LoadingVersionInfo>正在載入版本訊息...</LoadingVersionInfo>
-  
+
   <!-- World generator -->
   <!-- EN: Generate world -->
   <GenerateWorld>創造世界</GenerateWorld>
-  
+
   <!-- Mods config -->
   <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>開啟Steam創意工坊</OpenSteamWorkshop>
@@ -210,7 +210,7 @@
   <ModNotMadeForThisVersion_Newer>此Mod版本對應更新的RimWorld版本，可能無法正常運作。</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Mod必須在About.xml中指定格式正確的版本號，例如：{0}。</MessageModNeedsWellFormattedTargetVersion>
-  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n- Alphanumeric characters and dot only.\n- No spaces.\n- At least one dot.\n- No repeated dots in a row, or starting or ending with a dot.\n- 60 characters or less.\n- Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
   <MessageModNeedsWellFormattedPackageId>Mod需要有一個格式適當且唯一的[packageId]寫入到[About.xml]文件中。[packageId]必須滿足這些要求：\n\n - 僅限字母、數字和半角句號「.」。\n - 不包含空格。\n - 至少有一個點。\n - 沒有連續的點，且不以點為開頭或結尾。\n - 最多60個字節。\n - 不允許包含單詞「Ludeon」。\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>這個mod在LoadFolders.xml中有問題。在上傳之前需要解決的問題:</ModHadLoadFolderIssues>
@@ -232,7 +232,7 @@
   <ModLoadFolderDefinesUnsupportedGameVersion>版本{0}是在載入資料夾中定義的，但是在mod的About.xml的'supportedGameVersions'中沒有列出</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>拖曳以重新排序</DragToReorder>
-  
+
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
   <ChooseScenario>選擇腳本</ChooseScenario>
@@ -266,7 +266,7 @@
   <Incompatible>不相容</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>標籤已翻譯</TagAsTranslation>
-  <!-- EN: Too many (max {0}):-->
+  <!-- EN: Too many (max {0}):  -->
   <TooMany>超過限制(最大值{0})：</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>因為你是作者，所以能夠更新創意工坊。</CanBeUpdatedOnWorkshop>
@@ -292,7 +292,7 @@
   <PermadeathModeInfo>你只能在離開遊戲時存檔。\n\n因為RimWorld是一個故事產生器，即便失去一切只剩最後一人也不到遊戲的結局。本遊戲的設計著重在失去之後浴火重生。\n\n擺脫悲慘的窘境，寫下悲喜交雜的故事，這就是RimWorld被設計帶來的遊玩體驗。\n\n當路克．天行者的父母被殺害時，他沒有讀檔是有原因的 - 得與失是戲劇性的！</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>故事敘述者和難度可以隨時更換。</CanChangeStorytellerSettingsDuringPlay>
-  
+
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
   <DifficultyCustomSectionLabel>自定義遊戲方式設定</DifficultyCustomSectionLabel>
@@ -325,7 +325,7 @@
   <Difficulty_AllowExtremeWeatherIncidents_Label>極端氣候</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
   <Difficulty_AllowExtremeWeatherIncidents_Info>允許極端氣候事件的出現，例如有毒霧霾、火山冬天和雷暴。</Difficulty_AllowExtremeWeatherIncidents_Info>
-  
+
   <!-- EN: Economy -->
   <DifficultyEconomySection>經濟</DifficultyEconomySection>
   <!-- EN: Trade price disadvantage -->
@@ -368,6 +368,7 @@
   <Difficulty_EnemyDeathOnDownedChanceFactor_Label>敵人倒地死亡幾率</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
   <Difficulty_EnemyDeathOnDownedChanceFactor_Info>調整敵人在被擊倒時直接死亡的幾率。這影響了俘虜的機會，從而影響到殖民地的人口增長率。</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+
   <!-- EN: General -->
   <DifficultyGeneralSection>通用</DifficultyGeneralSection>
   <!-- EN: Colonist mood -->
@@ -414,6 +415,7 @@
   <Difficulty_AllowCaveHives_Label>自然蟲巢</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>自然洞穴中可能會生成休眠的蟲巢。\n\n此選項只會影響地圖生成，而不會影響到遊戲中挖掘隧道的活躍蟲群。</Difficulty_AllowCaveHives_Info>
+
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
   <!-- EN: Player can build traps -->
@@ -428,6 +430,7 @@
   <Difficulty_AllowMortars_Label>玩家可以建造迫擊炮</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
   <Difficulty_AllowMortars_Info>允許玩家建造迫擊炮。\n\n你依然可以在禁用此選項時使用繳獲的迫擊炮。</Difficulty_AllowMortars_Info>
+  
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>適應性調整</DifficultyAdaptationSection>
   <!-- EN: Damage adaptation growth -->
@@ -446,7 +449,7 @@
   <Difficulty_FixedWealthTimeFactor_Label>最大威脅年限</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
   <Difficulty_FixedWealthTimeFactor_Info>在固定財富模式下，達到最大威脅等級所需的遊戲年數。\n\n注意，故事敘述者依然會根據殖民者數量和其他各種因素來調整威脅強度。</Difficulty_FixedWealthTimeFactor_Info>
-  
+
   <!-- Site select -->
   <!-- EN: Select starting site -->
   <SelectStartingSite>選擇降落點</SelectStartingSite>
@@ -625,5 +628,5 @@
   <ClickForMoreInfo>點擊瞭解更多資訊</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>沒有可用的資訊。</NoMoreInfoAvailable>
-    
+
 </LanguageData>
