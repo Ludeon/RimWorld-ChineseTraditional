@@ -2,12 +2,39 @@
 <LanguageData>
 
   <!-- Shuttle landing zones -->
-  <!-- EN: Shuttle could not land on pad: {0}. -->
-  <ShuttleBlocked>太空梭無法降落在著陸區：{0}。</ShuttleBlocked>
-  <!-- EN: blocked by {0_label} -->
-  <BlockedBy>被{0_label}阻礙</BlockedBy>
+  <!-- EN: Shuttle could not land on pad: {0} -->
+  <ShuttleBlocked>太空梭無法降落在著陸區：{0}</ShuttleBlocked>
+  <!-- EN: blocked by {0_label}. -->
+  <BlockedBy>被{0_label}阻礙。</BlockedBy>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>太空梭已抵達</MessageShuttleArrived>
+  <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
+  <MessageShuttleArrivedContentsLost>太空梭已抵達，但由於裡面沒有殖民者，包含的所有貨物已丟失。</MessageShuttleArrivedContentsLost>
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>無法呼叫太空梭</CannotCallShuttle>
+
+  <!-- EN: Cannot land in undiscovered area. -->
+  <ShuttleCannotLand_Fogged>無法降落在未發現的區域。</ShuttleCannotLand_Fogged>
+  <!-- EN: Area must be walkable. -->
+  <ShuttleCannotLand_Unwalkable>區域必須可以行走。</ShuttleCannotLand_Unwalkable>
 
   <!-- EN: Warning: Anima tree has been marked for cutting. -->
   <MessageWarningCutAnimaTree>警告：生命之樹已標記為可砍伐。</MessageWarningCutAnimaTree>
+  <!-- EN: Select {TARGET_definite} and right-click the bestower to begin the bestowing ceremony. -->
+  <MessageBestowerWaiting>選擇{TARGET_definite}並右鍵佈施者來開始一場授勳儀式。</MessageBestowerWaiting>
+  <!-- EN: Cannot reach bestower! -->
+  <MessageBestowerUnreachable>無法接觸佈施者！</MessageBestowerUnreachable>
+  <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
+  <MessageBestowingSpotUnreachable>佈施者對這種干擾很惱火並決定離開了。</MessageBestowingSpotUnreachable>
+
+  <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
+  <MessageBestowingCeremonyStarted>{PAWN_definite}的授勳儀式已經開始。</MessageBestowingCeremonyStarted>
+  <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
+  <MessageMissionGetBackToShuttle>你擊敗了{FACTION_pawnsPlural}！回到太空梭並發射它。</MessageMissionGetBackToShuttle>
+
+  <!-- EN: {FACTION_name} has dropped resources nearby. -->
+  <MessagePermitTransportDrop>{FACTION_name}已經在附近投下了一些資源。</MessagePermitTransportDrop>
+  <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
+  <MessagePermitTransportDropCaravan>{FACTION_name}已經將物資交給了{PAWN_nameDef}的旅隊。</MessagePermitTransportDropCaravan>
 
 </LanguageData>

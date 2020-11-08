@@ -31,7 +31,7 @@
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>此頭銜的持有者必須在以下幾種方式組合使用</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
-  <ApparelRequirementAnyPrestigeArmor>任意威風裝甲</ApparelRequirementAnyPrestigeArmor>
+  <ApparelRequirementAnyPrestigeArmor>任意威嚴裝甲</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>任意心靈服裝</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: Disallowed work types -->
@@ -70,15 +70,11 @@
   <RoyalWithConceitedTrait>由於{PAWN_labelShort}為{2}，因此{PAWN_pronoun}將要求頭銜的權力應受到充分尊重。 {PAWN_labelShort}可能會拒絕從事某些工作或吃低等食物，並且會頒布法令。另一個殖民者可能會更有彈性。</RoyalWithConceitedTrait>
   <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
   <RoyalWithTraitAffectingPsylinkNegatively>由於{PAWN_labelShort}為{2}，因此心靈連結可能對{PAWN_objective}無效。</RoyalWithTraitAffectingPsylinkNegatively>
-  <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain the psycast anyways? -->
+  <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
   <PsylinkTooLowForGainAbility>{PAWN_labelShort}的心靈連結不夠高，無法使用{ABILITY}。\n\n無論如何都要獲得心靈能力？</PsylinkTooLowForGainAbility>
-
-  <!-- UNUSED -->
-  <RoyalTitleTooltipMaxPsycastLevel>允許的最大心靈等級</RoyalTitleTooltipMaxPsycastLevel>
-  <RoyalTitleTooltipMaxPsycastLevelDescription>該頭銜可以使用最高等級的心靈能力\n\n{FACTION_name}的法律禁止在沒有符合的頭銜的情況下使用心靈能力。每次施放不合法的心靈能力時，都有可能會檢測到心靈輻射，從而導致嚴重外交後果。\n\n心靈訊號可以被心靈靜默植入物掩蓋。</RoyalTitleTooltipMaxPsycastLevelDescription>
-  <ApparelRequirementAnyPowerArmor>任意動力裝甲</ApparelRequirementAnyPowerArmor>
-  <PsychicAmplifierViolationTrigger>每次{PAWN_labelShort}施放超出其允許等級的心靈能力時</PsychicAmplifierViolationTrigger>
-  <RoyalWeaponIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{WEAPON_indefinite}。\n\n每次使用牽絆武器的{PAWN_labelShort}攻擊時{PAWN_labelShort}，{FACTION_name} 都有能檢測出心靈訊號。這將導致嚴重的外交矛盾。\n\n心靈靜默植入物可以在使用{WEAPON_definite}時不會被檢測。</RoyalWeaponIllegalUseWarning>
-  <PsycastRequiredAmplifierLevel>增幅器等級</PsycastRequiredAmplifierLevel>
+  <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
+  <SendShuttleWithNoContents>這個太空梭是空的，如果你將它發射出去，你將再也無法使用它。\n\n真的要將它送走嗎？</SendShuttleWithNoContents>
+  <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
+  <DropResourcesOverweightConfirm>這些資源會讓你的旅隊因超載而無法繼續移動。\n\n無論如何也要帶上這些資源嗎？</DropResourcesOverweightConfirm>
 
 </LanguageData>

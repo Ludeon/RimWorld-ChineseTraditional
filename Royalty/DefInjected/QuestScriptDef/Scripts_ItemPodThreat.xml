@@ -25,19 +25,19 @@
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with the pheromone, provoking an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with the pheromone, provoking (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->The hives were attracted by a pheromone sweep from an orbiting research ship.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you. This will provoke an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->The hives were originally infesting nearby sites belonging to [asker_nameFull] of [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is having trouble landing near [map_definite] due to repeated infestations. [asker_pronoun] wants to draw the bugs to you to be dealt with. This will provoke an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is having trouble landing near [map_definite] due to repeated infestations. [asker_pronoun] wants to draw the bugs to you to be dealt with. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->一艘在軌科研船想測試一種新興的蟲族費洛蒙。如果你同意，他們將在[map_definite]釋放費洛蒙，這樣將喚醒規模為 [hivesCount]的蟲巢。\n\n[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->一艘在軌科研船想測試一種新興的蟲族費洛蒙。如果你同意，他們將在[map_definite]釋放費洛蒙，這樣將喚醒規模為(*Threat)[hivesCount]的蟲巢(/Threat)。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->蟲巢被在軌研究船釋放的費洛蒙所喚醒。</li>
-    <li>questDescription(asker_factionLeader==True)->來自[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]聲稱其在[map_definite]附近的哨站總是受到蟲災侵害。[asker_pronoun]希望把蟲害引到你這。這會招致[hivesCount]入侵。\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->來自[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]聲稱其在[map_definite]附近的哨站總是受到蟲災侵害。[asker_pronoun]希望把蟲害引到你這。這會招致(*Threat)[hivesCount]入侵(/Threat)。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->蟲巢最早出現在[asker_faction_name]的[asker_nameFull]附近。</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，由於出了問題，無法在[map_definite]附近著陸。 [asker_pronoun]希望你將這些蟲子處理掉。這會招惹[hivesCount]入侵。\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，由於出了問題，無法在[map_definite]附近著陸。 [asker_pronoun]希望你將這些蟲子處理掉。這會招惹(*Threat)[hivesCount]入侵(/Threat)。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->這起蟲災是由來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]為了尋開心所製造的。</li>
   </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -64,37 +64,37 @@
   <!-- EN:
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
-    <li>manhuntingBeastIndef(animalCount==1)->a manhunting [animalKind_label]</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->a pack of [animalCount] manhunting [animalKind_labelPlural]</li>
-    <li>endSection->\n\n[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. A wild [animalKind_label] is hunting him! He wants your help to draw the beast away from him.[endSection]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->a (*Threat)manhunting [animalKind_label](/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat)</li>
+    <li>endSection->[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. (*Threat)A wild [animalKind_label](/Threat) is hunting him! He wants your help to draw the beast away from him.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->The [animalKind_label] was hunting a nearby trader.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of [animalCount] wild [animalKind_labelPlural] are hunting him! He wants your help to draw the animals away from him.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of (*Threat)[animalCount] wild [animalKind_labelPlural](/Threat) are hunting him! He wants your help to draw the animals away from him.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->The [animalKind_labelPlural] were hunting a nearby trader.</li>
     <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants your help to draw the beasts away from the caravans.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->The [animalKind_label] was harassing caravans from [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->The [animalKind_labelPlural] were harassing caravans from [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to a manhunting [animalKind_label]. [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to (*Threat)a manhunting [animalKind_label](/Threat). [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->This is the [animalKind_label] that killed the scout of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of [animalCount] manhunting [animalKind_labelPlural]. [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat). [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These are the [animalKind_labelPlural] that killed the scouting party of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
-    <li>manhuntingBeastIndef(animalCount==1)->一隻獵殺人類的[animalKind_label]</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->一群達[animalCount]只獵殺人類的[animalKind_labelPlural]</li>
-    <li>endSection->\n\n[helpersParagraph]你接受後，[animalKindLabelCorrect]將到達[map_definite] [manhuntersDelayTicks_duration]。</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->一名商人向你發來求救訊號。一隻野生的[animalKind_label]正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->一隻(*Threat)獵殺人類的[animalKind_label](/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->一群(*Threat)[animalCount]獵殺人類的[animalKind_labelPlural](/Threat)</li>
+    <li>endSection->[helpersParagraph]你接受後，[animalKindLabelCorrect]將到達[map_definite] [manhuntersDelayTicks_duration]。</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->一名商人向你發來求救訊號。一隻(*Threat)野生的[animalKind_label](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label]正在襲擊附近一名商人的。</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->附近的一名商人向你發來求救訊號。 表示有[animalCount]隻野生[animalKind_labelPlural]正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->附近的一名商人向你發來求救訊號。 表示有(*Threat)[animalCount]隻野生[animalKind_labelPlural](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural]正在襲擊附近一名商人。</li>
     <li>questDescription(asker_factionLeader==True)->來自[asker_faction_name]的商隊在[map_definite]附近被[manhuntingBeastIndef]襲擊。[asker_faction_leaderTitle][asker_nameFull]n作為回報，希望你幫助他將野獸從商隊上拉開。[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label]正在襲擊來自[asker_faction_name]的商隊。</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural]正在襲擊來自[asker_faction_name]的商隊。</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，最近因追捕[animalKind_label]而失去了一名偵察員。 [asker_pronoun]希望將其引導至你這來殺死，以維持[asker_possessive]榮譽。[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，最近因追捕(*Threat)[animalKind_label](/Threat)而失去了一名偵察員。 [asker_pronoun]希望將其引導至你這來殺死，以維持[asker_possessive]榮譽。[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->這隻[animalKind_label]，殺死了[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]的偵察員。</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，最近在一個[animalCount]追捕[animalKind_labelPlural]中失去了一個偵查隊。 [asker_pronoun]希望將其引導至你這來殺死，以維持[asker_possessive]的榮譽。[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，最近在(*Threat)一個[animalCount]追捕[animalKind_labelPlural](/Threat)中失去了一個偵查隊。 [asker_pronoun]希望將其引導至你這來殺死，以維持[asker_possessive]的榮譽。[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->這隻[animalKind_labelPlural]，它殺死了[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]的偵察隊。</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:

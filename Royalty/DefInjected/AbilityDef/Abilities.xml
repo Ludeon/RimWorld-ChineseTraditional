@@ -21,8 +21,8 @@
   <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
   <BlindingPulse.description>透過干擾大腦的視覺中樞，使目標點周圍的每個人視覺模糊。</BlindingPulse.description>
   
-  <!-- EN: bullet shield -->
-  <BulletShield.label>槍彈屏障</BulletShield.label>
+  <!-- EN: skipshield -->
+  <BulletShield.label>折躍護盾</BulletShield.label>
   <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. People and items are not affected. -->
   <BulletShield.description>產生一個球形折躍閘，將所有進出的槍彈傳送到某個遠方。人員和物品不受影響。</BulletShield.description>
   
@@ -36,15 +36,25 @@
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>把目標傳送到附近的一個隨機位置。</ChaosSkip.description>
   
+  <!-- EN: chunk skip -->
+  <Chunkskip.label>塊堆折躍</Chunkskip.label>
+  <!-- EN: Skip the 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
+  <Chunkskip.description>將5塊石塊或者礦渣之類的塊堆折躍並分散到目標位置附近。這對於在進攻行動中快速製造掩體非常有用。</Chunkskip.description>
+  
   <!-- EN: neural heat dump -->
   <EntropyDump.label>神經放熱</EntropyDump.label>
   <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
   <EntropyDump.description>立即將你所有的神經熱量傾瀉到其他人身上。而副作用讓目標在大約一天的時間內陷入使人衰弱但不會造成傷害的昏迷。目標必須接受這種精神侵入，所以只有意識清楚的盟友才能成為目標。</EntropyDump.description>
   
+  <!-- EN: farskip -->
+  <Farskip.label>遠程折躍</Farskip.label>
+  <!-- EN: Skip the caster, along with anyone standing near him, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
+  <Farskip.description>折躍施法者以及站在他附近的所有人，去往一個遠處的盟友位置。這能夠讓人們抵達星球上很遠的位置，但必須在目標位置有一個願意充當道標的盟友時才有效果。被折躍的人總是出現在目標地圖上的隨機盟友附近。</Farskip.description>
+  
   <!-- EN: flashstorm -->
   <Flashstorm.label>閃電風暴</Flashstorm.label>
   <!-- EN: Use differential-pressure skipgates in the atmosphere to generate a localized flashstorm. The storm will strike the area with lightning for some time before dissipating. -->
-  <Flashstorm.description>在大氣中使用差壓折躍閘來產生局部閃電風暴。在消散之前，風暴將用閃電襲擊該地區一段時間。</Flashstorm.description>
+  <Flashstorm.description>在大氣中利用差壓折躍閘來產生局部閃電風暴。在消散之前，風暴將用閃電襲擊該地區一段時間。</Flashstorm.description>
   
   <!-- EN: focus -->
   <Focus.label>精神集中</Focus.label>
@@ -66,6 +76,13 @@
   <!-- EN: Skip everyone near a target point to a random location nearby. -->
   <MassChaosSkip.description>把目標點周圍的人傳送到附近的一個隨機位置。</MassChaosSkip.description>
   
+  <!-- EN: neuroquake -->
+  <Neuroquake.label>神經震盪</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>找到一個不連續的心靈領域並展開它，釋放出大量的精神能量。地圖上在靠近施法者的安全圈之外的所有生物都會被瘋狂驅使。釋放這個能力需要三個小時的冥想，在這之後施法者會進入三天的心靈休克狀態。令人不安的神經震盪迴響會給周圍數公里內的每個人造成痛苦，並且對所有派系產生外交影響。</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>如果你使用神經震盪，這個地區的所有人都會感受到「神經震盪」的迴響，你將失去與所有非敵對派系的友好關係。\n\n神經震盪需要三個小時的釋放時間，並且不能被打斷。施法者也會進入心靈休克數天。\n\n地圖上除了施法者周圍一個小範圍的人之外，其他人都會受到影響。\n\n你真的要釋放神經震盪嗎？</Neuroquake.confirmationDialogText>
+  
   <!-- EN: painblock -->
   <Painblock.label>止痛</Painblock.label>
   <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->
@@ -80,6 +97,11 @@
   <Smokepop.label>煙霧</Smokepop.label>
   <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
   <Smokepop.description>利用地上的灰塵揚起一團厚厚的煙霧，這會降低透過它發射的任何砲彈的精準度，並防止被砲塔精確鎖定。</Smokepop.description>
+  
+  <!-- EN: solar pinhole -->
+  <SolarPinhole.label>日光針孔</SolarPinhole.label>
+  <!-- EN: Generate a microscopic skipgate linked to the core of a nearby star. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes. The light is enough to work by, but not enough to grow plants. -->
+  <SolarPinhole.description>產生一個與附近恆星相連的微小折躍閘。日光粒子在時空中穿過針孔，直到它關閉之前照亮並加熱周圍的區域。這個亮度足以讓你照常工作，但是還不足以供應植物生長。</SolarPinhole.description>
   
   <!-- EN: throne speech -->
   <Speech.label>政治演講</Speech.label>
@@ -105,5 +127,30 @@
   <Waterskip.label>湧水</Waterskip.label>
   <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
   <Waterskip.description>將目標區域浸入水中，撲滅大火。從考古學來說，水是從遙遠的水體或地下水層中湧出。</Waterskip.description>
+  
+  <!-- EN: word of inspiration -->
+  <WordOfInspiration.label>靈感之語</WordOfInspiration.label>
+  <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
+  <WordOfInspiration.description>通過鼓勵的話傳遞心靈能量，使目標的精神受到啟發。目標將獲得一個適合的隨機靈感。</WordOfInspiration.description>
+  
+  <!-- EN: word of joy -->
+  <WordOfJoy.label>喜悅之語</WordOfJoy.label>
+  <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in his mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
+  <WordOfJoy.description>通過快樂平靜的話語傳遞心靈能量，同時用心靈暗示在目標腦中植入一個歡愉暗示。歡愉暗示會抑制目標不愉快的想法以改善情緒。這樣做的副作用是使人感覺遲鈍而降低意識。</WordOfJoy.description>
+  
+  <!-- EN: word of love -->
+  <WordOfLove.label>愛情之語</WordOfLove.label>
+  <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
+  <WordOfLove.description>談論關於某人的浪漫同時並使用心理暗示向聽者灌輸浪漫的慾望。在接下來的幾天裡，聽者會感覺到心裡對另一個人產生浪漫吸引力。這大大增強了他們的看法，使他們更有可能在有機會的情況下表達愛意。這個心靈能力可以用來連接另外兩人，誘導對施法者的愛，甚至對自己的愛。</WordOfLove.description>
+  
+  <!-- EN: word of serenity -->
+  <WordOfSerenity.label>寧靜之語</WordOfSerenity.label>
+  <!-- EN: Use calming words and psychic suggestion to end a mental break on a person or animal. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
+  <WordOfSerenity.description>通過平靜的話語和心理暗示來結束人或動物的精神崩潰狀態。目標會進入短暫的心靈沉睡。精神力的代價取決於目標的精神崩潰強度。</WordOfSerenity.description>
+  
+  <!-- EN: word of trust -->
+  <WordOfTrust.label>信賴之語</WordOfTrust.label>
+  <!-- EN: Speak to the prisoner while using psychic suggestion to reduce his resistance to recruitment. This can only reduce a prisoner's resistance, but cannot recruit him. -->
+  <WordOfTrust.description>與囚犯交談，同時使用心理暗示來降低他對招募的抵抗情緒。這個心靈能力只能降低囚犯的抵抗，並不能招募他。</WordOfTrust.description>
   
 </LanguageData>

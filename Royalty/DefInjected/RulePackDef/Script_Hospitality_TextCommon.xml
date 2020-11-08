@@ -19,14 +19,14 @@
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] will not do any work.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be a raid of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be a raid of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be [threatCount] raids of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->a mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->two mech clusters will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->a mech cluster of [threatSize]x size will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be (*Threat)a raid(/Threat) of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be (*Threat)a raid(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be (*Threat)[threatCount] raids(/Threat) of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be (*Threat)[threatCount] raids(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)a mech cluster(/Threat) will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)two mech clusters(/Threat) will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)a mech cluster(/Threat) of [threatSize]x size will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)two mech clusters(/Threat) of [threatSize]x size will deploy nearby.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -45,8 +45,9 @@
     <li>areIs(lodgersCount>=2)->are</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
-    <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
+    <li>failLetterEndingQuest->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
     <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
@@ -66,14 +67,14 @@
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef]不會做任何工作。</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->將會發生大約這個規模的襲擊:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->將進行一次強度為[threatSize]x的襲擊，大約為以下規模：\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->將會有大約這個規模的[threatCount]個襲擊：\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->將會有[threatCount]次[threatSize]x襲擊，大約是這個大小：\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->一個機械軍團將部屬在附近。</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->兩個機械軍團將部屬在附近。</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->一個規模[threatSize]x的機械軍團將部屬在附近。</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->兩個規模[threatSize]x的機械軍團將部屬在附近。</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->將會發生大約這個規模的(*Threat)襲擊(/Threat):\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->將進行一次強度為[threatSize]x的(*Threat)襲擊(/Threat)，大約為以下規模：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->將會有大約這個規模的(*Threat)[threatCount]個襲擊(/Threat)：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->將會有[threatCount]次[threatSize]x(*Threat)襲擊(/Threat)，大約是這個大小：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)一個機械軍團(/Threat)將部屬在附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)兩個機械軍團(/Threat)將部屬在附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->一個規模[threatSize]x的(*Threat)機械軍團(/Threat)將部屬在附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->兩個規模[threatSize]x的(*Threat)機械軍團(/Threat)將部屬在附近。</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已經被在軌道的大批機械軍團鎖定。</li>
     <li>threatsInfoMechClustersMultiPrisoners->囚犯們近期[mechViolation]，已經被在軌道的大批機械軍團鎖定。</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已經被大批機械軍團鎖定。</li>
@@ -92,8 +93,9 @@
     <li>areIs(lodgersCount>=2)->是</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->現在所有剩餘的[lodgersLabelPlural]都將離開。</li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->你未能完成任務'[resolvedQuestName]'。</li>
-    <li>failLetterEndingCommon->你未能完成任務'[resolvedQuestName]'。\n\n你與[asker_faction_name]的關係下降[goodwillPenalty]。</li>
+    <li>failLetterEndingQuest->你未能完成任務'[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\n你與[asker_faction_name]的關係下降[goodwillPenalty]。</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

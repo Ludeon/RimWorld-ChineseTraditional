@@ -2,12 +2,8 @@
 <LanguageData>
 
   <!-- Royalty and throne -->
-  <!-- EN: Appropriate for title: {0} -->
-  <ThroneTitleStature>適當的頭銜: {0}</ThroneTitleStature>
-  <!-- EN: Previous title satisfied: {0} -->
-  <ThronePrevTitleStature>滿足先前的頭銜: {0}</ThronePrevTitleStature>
-  <!-- EN: Next title satisfied: {0} -->
-  <ThroneNextTitleStature>下一個滿足的頭銜: {0}</ThroneNextTitleStature>
+  <!-- EN: Satisfies title -->
+  <ThroneMaxSatisfiedTitle>符合頭銜</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>({0} 印象深刻)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
@@ -22,11 +18,11 @@
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>心靈訓練器({0})</PsycastNeurotrainerLabel>
-  <!-- EN: Use neurotrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>使用神經訓練器來學習{0}心靈能力</PsycastNeurotrainerUseLabel>
-  <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
+  <!-- EN: Use psytrainer to learn {0} psycast -->
+  <PsycastNeurotrainerUseLabel>使用心靈訓練器來學習{0}心靈能力</PsycastNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
   <PsycastNeurotrainerDescription>一次性使用的超劑量機械液可訓練特定的心靈能力。\n\n該藥劑是透過眼眶給藥的。一旦進入到大腦中，這些機械分子就形成了一種特定的心靈能力的知識，并根據需要將其轉化為神經組織。</PsycastNeurotrainerDescription>
-  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
+  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort}使用神經訓練器學會了{1}的心靈能力。</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>需要心靈連結</PsycastNeurotrainerNoPsylink>
@@ -49,14 +45,15 @@
   <TooCloseToOtherBeacon>距離其他信標太近</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
-
   <!-- EN: Psyfocus -->
   <Psyfocus>精神力</Psyfocus>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
+  <!-- EN: Psyfocus -->
+  <PsyfocusLabelGizmo>精神力</PsyfocusLabelGizmo>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
   <PsyfocusDesc>精神力是施放心靈能力所必需的一種特殊的心理結構。 精神力會隨著時間消散，並且必須通過冥想來建立。 失去所有精神力會無法執行心靈能力，但沒有其他後果。\n\n較高的精神力等級允許較高等級的心靈能力，但也會提高精神力消散速率。</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
-  <!-- EN: Up to level {0} psycasts. -->
+  <!-- EN: Up to level {0} powers. -->
   <PsyfocusLevelInfoPsycasts>達到{0}級心靈能力。</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
   <PsyfocusLevelInfoFallRate>精神力每天下降{0}。</PsyfocusLevelInfoFallRate>
@@ -64,6 +61,26 @@
   <UserMeditationFocusStrength>{LASTUSER_labelShort}的冥想焦點強度</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>聚焦效果受影響於</MeditationFocusImpacted>
+  <!-- EN: {1} per nearby animus stone (max {0}) -->
+  <MeditationFocusPerAnimusStoneAbstract>{1} 附近每有一塊法石（最高{0}）</MeditationFocusPerAnimusStoneAbstract>
+  <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
+  <MeditationFocusPerAnimusStone>{2} 附近每有一塊法石（{0}/{1}）</MeditationFocusPerAnimusStone>
+  <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>附近每有一塊法石 {2}， 自然聖地 {1} （最高{0}）</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
+  <MeditationFocusPerAnimusStoneAndShrine>附近每有一塊法石 {3}， 自然聖地 {2} （{0} / {1}）</MeditationFocusPerAnimusStoneAndShrine>
+  <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
+  <MeditationFocusPerSculptureAbstract>最多{1} 附近每有一個雕塑，包含品質因素（最高{0}）</MeditationFocusPerSculptureAbstract>
+  <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
+  <MeditationFocusPerSculpture>最多{2} 附近每有一個雕塑，包含品質因素（{0}/{1}）</MeditationFocusPerSculpture>
+  <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
+  <MeditationFocusPerGraveAbstract>附近每有一個墳墓，{1}空的，{2}包含人類屍體（最高{0}）</MeditationFocusPerGraveAbstract>
+  <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
+  <MeditationFocusPerGrave>附近每有一個墳墓，{2}空的，{3}包含人類屍體（{0}/{1}）</MeditationFocusPerGrave>
+  <!-- EN: {1} per nearby lit flame source (up to {0}) -->
+  <MeditationFocusPerFlameAbstract>{1} 附近每個點燃的火源（最高{0}）</MeditationFocusPerFlameAbstract>
+  <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
+  <MeditationFocusPerFlame>{2}附近每個點燃的火源（{0}/{1}）</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
   <PsyfocusPerDayOfMeditation>精神力效率：{0}/天</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
@@ -95,6 +112,8 @@
   <AbilitySpeechDisabledNoThroneUndignified>王座不可使用，因為他不夠莊重。</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>已完成演講。</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>另一個聚會正在進行中。</AbilitySpeechDisabledAnotherGatheringInProgress>
   <!-- EN: Next speech ready in -->
   <AbilitySpeechCooldown>準備下一個演講</AbilitySpeechCooldown>
   <!-- EN: Outcome chances -->
@@ -102,22 +121,34 @@
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{ORGANIZER_labelShort}的{1}統計</AbilitySpeechStatInfo>
 
-  <!-- EN: Progress to next {0}: {1} -->
+  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
+  <TotalMeditationToday>今日冥想：{0}（進度倍率{1}）</TotalMeditationToday>
+  <!-- EN: progress {0} -->
   <ProgressToNextSubplant>前進到下一個{0}: {1}</ProgressToNextSubplant>
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>開始連結儀式</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>這裡需要{0} {1}（擁有{2}）</BeginLinkingRitualNeedSubplants>
-  <!-- EN: Need {0} pyslink focus -->
-  <BeginLinkingRitualNeedFocus>需要{0} 心靈連結焦點</BeginLinkingRitualNeedFocus>
+  <!-- EN: Need {0} psylink focus type -->
+  <BeginLinkingRitualNeedFocus>需要{0} 心靈連結焦點類型</BeginLinkingRitualNeedFocus>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>需要3格自由、可抵達的位置進行連結</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>連結儀式完成</LetterLabelLinkingRitualCompleted>
-  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
+  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort}已完成與{LINKABLE_labelShort}的連結儀式。\n\n {PAWN_pronoun}現在具有升級的心靈連結，允許使用新的心靈能力。</LetterTextLinkingRitualCompleted>
-  <!-- UNUSED -->
-  <PsycastLearnedFromImplant>{USER_labelShort}已達到心靈增幅器等級{1}，并已自動習得此心靈能力: {2}。</PsycastLearnedFromImplant>
-  <PsycastNeurotrainerNoPsychicAmplifier>需要心靈增幅器</PsycastNeurotrainerNoPsychicAmplifier>
+
+  <!-- EN: Land shuttle here -->
+  <LandHere>太空梭在此著陸</LandHere>
+  <!-- EN: Destination is out of range. -->
+  <MessageShuttleDestinationIsTooFar>目標超出範圍。</MessageShuttleDestinationIsTooFar>
+
+  <!-- EN: Do bestowing ceremony -->
+  <BeginCeremony>執行授勳儀式</BeginCeremony>
+  <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>佈施者因{PAWN_definite}的謁見廳不符合{TITLE}頭銜的要求而氣憤，授勳儀式被取消了。</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+
+  <!-- EN: Not all required cargo is loaded yet! -->
+  <ShuttleRequiredItemsNotSatisfied>所需物資還沒有全部裝載！</ShuttleRequiredItemsNotSatisfied>
 
 </LanguageData>

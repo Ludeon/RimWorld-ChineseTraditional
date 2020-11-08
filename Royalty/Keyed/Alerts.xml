@@ -42,7 +42,7 @@
 
   <!-- EN: Beacon unusable -->
   <ShipLandingBeaconUnusable>信標不可使用</ShipLandingBeaconUnusable>
-  <!-- EN: A ship landing beacon is powered but can’t be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
+  <!-- EN: A ship landing beacon is powered but can't be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
   <ShipLandingBeaconUnusableDesc>星艦登陸信標已供電，但是無法使用。為了能夠使用，必須將其中四個放置在至少9格寬的方形角上，整個方形區域必須沒有障礙物，包括建築物、人、動物。</ShipLandingBeaconUnusableDesc>
 
   <!-- EN: Need meditation spot -->
@@ -54,4 +54,15 @@
   <UnusableMeditationFocusAlert>無法使用的冥想焦點</UnusableMeditationFocusAlert>
   <!-- EN: These colonists are meditating near a focus object they can't use.\n\n{0}\n\nEach person can meditate to different objects, depending on their meditation focus types. A person's focus types depend on their backstories, traits, and titles. To see a person's meditation focus types, look at their details window by selecting them and clicking the 'i' button. -->
   <UnusableMeditationFocusAlertDesc>這些殖民者無法使用聚焦物體來冥想。\n\n{0}\n\n每個人都可以冥想到不同的對象，這取決於他們的冥想焦點類型。一個人的冥想焦點類型來自於他們的背景、特徵和頭銜。要查看某人的冥想焦點類型，請選擇他們的詳細訊息視窗，然後點擊"i"按鈕。</UnusableMeditationFocusAlertDesc>
+
+  <!-- EN: Permit choice ready -->
+  <PermitChoiceReadyAlert>許可選擇就緒</PermitChoiceReadyAlert>
+  <!-- EN: {PAWN_nameDef} can choose a new permit. -->
+  <PermitChoiceReadyAlertDesc>{PAWN_nameDef}能夠選擇一個新的許可。</PermitChoiceReadyAlertDesc>
+  
+  <!-- EN: Bestower waiting -->
+  <BestowerWaitingAlert>佈施者等待中</BestowerWaitingAlert>
+  <!-- EN: A bestower is waiting to begin the bestowing ceremony. -->
+  <BestowerWaitingAlertDesc>一位佈施者正在等待進行授勳儀式。</BestowerWaitingAlertDesc>
+
 </LanguageData>
