@@ -70,7 +70,7 @@
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->將會發生大約這個規模的(*Threat)襲擊(/Threat):\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->將進行一次強度為[threatSize]x的(*Threat)襲擊(/Threat)，大約為以下規模：\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->將會有大約這個規模的(*Threat)[threatCount]個襲擊(/Threat)：\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->將會有[threatCount]次[threatSize]x(*Threat)襲擊(/Threat)，大約是這個大小：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->將會有[threatCount]次[threatSize]x(*Threat)襲擊(/Threat)，大約為以下規模：\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)一個機械軍團(/Threat)將部屬在附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)兩個機械軍團(/Threat)將部屬在附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->一個規模[threatSize]x的(*Threat)機械軍團(/Threat)將部屬在附近。</li>
