@@ -89,7 +89,7 @@
   <!-- EN: Drop -->
   <DropThing>卸下</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>臨時勢力成員不會丟掉他們身上的物品。</DropThingLodger>
+  <DropThingLodger>臨時派系成員不會丟掉他們身上的物品。</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
   <DropThingLocked>此人拒絕丟掉。</DropThingLocked>
   <!-- EN: Rename -->
@@ -401,7 +401,7 @@
   <!-- EN: Required -->
   <Required>必須</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你無法使用運輸艙完成交易請求。\n如果發射這批貨物，據點會直接當作禮物收下，並不會給你報酬。\n\n如果你希望交易，請以旅隊形式拜訪據點！\n\n你確定要將裝載的禮物發送給目標勢力嗎？</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你無法使用運輸艙完成交易請求。\n如果發射這批貨物，據點會直接當作禮物收下，並不會給你報酬。\n\n如果你希望交易，請以旅隊形式拜訪據點！\n\n你確定要將裝載的禮物發送給目標派系嗎？</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
   <PrisonerLower>俘虜</PrisonerLower>
   <!-- EN: prisoners -->
@@ -723,7 +723,7 @@
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective}{0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
-  <Faction>勢力</Faction>
+  <Faction>派系</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>{PAWN_labelShort}當前所屬派系。</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
@@ -1273,7 +1273,7 @@
 \n{0} -->
   <Reward_Items_Caravan>你會收到(總價值 {1} )：\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>你與{0_name}的勢力友好度會提昇 {1} </Reward_Goodwill>
+  <Reward_Goodwill>你與{0_name}的派系友好度會提昇 {1} </Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
   <Reward_PassageOffworld>您將進入星空</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
