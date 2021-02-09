@@ -23,22 +23,22 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>其中一名{LEADER_factionPawnsPlural} - {LEADER_labelShort}，是該勢力的首領。</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>其中一名{LEADER_factionPawnsPlural} - {LEADER_labelShort}，是該派系的首領。</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>其中一名{LEADER_factionPawnsPlural} - {LEADER_labelShort}，是該勢力的首領。</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>其中一名{LEADER_factionPawnsPlural} - {LEADER_labelShort}，是該派系的首領。</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>運輸艙墜落</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
   <RefugeePodCrash>一名{PAWN_titleIndef}的{PAWN_nameDef}搭乘的運輸墜毀在附近。如果{PAWN_pronoun}倖免於難，恐怕也身受重傷。</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>{PAWN_nameDef}不屬於任何勢力。你可以救援{PAWN_objective}並盼望{PAWN_pronoun}主動加入你，或是俘虜{PAWN_objective}以招募或奴役。</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef}不屬於任何派系。你可以救援{PAWN_objective}並盼望{PAWN_pronoun}主動加入你，或是俘虜{PAWN_objective}以招募或奴役。</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_nameDef}來自敵對勢力{PAWN_factionName}。你可以俘虜{PAWN_objective}以招募或奴役。</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef}來自敵對派系{PAWN_factionName}。你可以俘虜{PAWN_objective}以招募或奴役。</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef}來自{PAWN_factionName}。如果你拯救{PAWN_objective}，{PAWN_pronoun}可能會主動加入你。或是{PAWN_pronoun}會回到家鄉，在勢力之間傳播你的善意。\n\n你也可以俘虜{PAWN_objective}以招募或奴役，但這將會激怒{PAWN_possessive}勢力。</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef}來自{PAWN_factionName}。如果你拯救{PAWN_objective}，{PAWN_pronoun}可能會主動加入你。或是{PAWN_pronoun}會回到家鄉，在派系之間傳播你的善意。\n\n你也可以俘虜{PAWN_objective}以招募或奴役，但這將會激怒{PAWN_possessive}派系。</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>貨艙</LetterLabelCargoPodCrash>
@@ -63,7 +63,7 @@
   <!-- EN: They're affiliated with {FACTION_name}. -->
   <TraderArrivalFromFaction>他們屬於{FACTION_name}。</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
-  <TraderArrivalNoFaction>他們不屬於任何勢力。</TraderArrivalNoFaction>
+  <TraderArrivalNoFaction>他們不屬於任何派系。</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>一位{1}的{PAWN_title}正巧路過。{PAWN_pronoun}叫{PAWN_nameFull}。</SingleTravelerPassing>
@@ -77,7 +77,7 @@
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>{PAWN_pronoun}似乎有一些要交易的物品。</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun}他是該勢力的首領。</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun}他是該派系的首領。</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>參訪團</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
@@ -85,7 +85,7 @@
   <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>他們似乎有一些要交易的物品。</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>參訪團的其中一名 - {1_labelShort}，是該勢力的首領。</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>參訪團的其中一名 - {1_labelShort}，是該派系的首領。</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>{0}的參訪團離開了。</VisitorsLeaving>
 
@@ -152,7 +152,7 @@
   <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
   <LetterTraderCaravanArrival>{0}的旅隊抵達了這裡。他們是{1}。</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
-  <LetterCaravanArrivalCommonWarning>他們會在殖民地徘徊幾天，然後才離開。你可以攻擊他們 - 但這將會激怒他們的勢力！</LetterCaravanArrivalCommonWarning>
+  <LetterCaravanArrivalCommonWarning>他們會在殖民地徘徊幾天，然後才離開。你可以攻擊他們 - 但這將會激怒他們的派系！</LetterCaravanArrivalCommonWarning>
     
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
