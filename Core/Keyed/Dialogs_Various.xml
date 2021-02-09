@@ -132,11 +132,11 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>看來你得在這裡待上一段時間了。{0}認為你應該替你的勢力取個名字。該取什麼好呢？</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>看來你得在這裡待上一段時間了。{0}認為你應該替你的派系取個名字。該取什麼好呢？</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
-  <PlayerFactionGainsName>你的勢力現在稱為{0}了。</PlayerFactionGainsName>
+  <PlayerFactionGainsName>你的派系現在稱為{0}了。</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
-  <PlayerFactionNameIsInvalid>無效的勢力名稱。</PlayerFactionNameIsInvalid>
+  <PlayerFactionNameIsInvalid>無效的派系名稱。</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
@@ -150,7 +150,7 @@
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
   <NamePlayerFactionBaseMessage_NameFactionContinuation>{0}認為你應該替此據點取個名字。該取什麼好呢？</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>你的勢力現在稱為{0}，此據點稱為{1}。</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>你的派系現在稱為{0}，此據點稱為{1}。</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
@@ -591,7 +591,7 @@
   <!-- EN: Your negotiator bonus -->
   <YourNegotiatorBonus>交涉紅利</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
-  <TradeWithFactionBaseBonus>勢力據點交易紅利</TradeWithFactionBaseBonus>
+  <TradeWithFactionBaseBonus>派系據點交易紅利</TradeWithFactionBaseBonus>
   <!-- EN: minimum -->
   <minimum>最低</minimum>
   <!-- EN: Final price -->
@@ -749,7 +749,7 @@
   <!-- EN: Foraged nutrition per day -->
   <ForagedNutritionPerDay>每日覓食營養值</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
-  <FactionType>勢力類型</FactionType>
+  <FactionType>派系類型</FactionType>
   <!-- EN: Total body size -->
   <TotalBodySize>總體型大小值</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
@@ -935,9 +935,9 @@
   <!-- EN: Neutral animal -->
   <MedGroupNeutralAnimal>野生動物</MedGroupNeutralAnimal>
   <!-- EN: Neutral faction -->
-  <MedGroupNeutralFaction>中立勢力</MedGroupNeutralFaction>
+  <MedGroupNeutralFaction>中立派系</MedGroupNeutralFaction>
   <!-- EN: Hostile faction -->
-  <MedGroupHostileFaction>敵方勢力</MedGroupHostileFaction>
+  <MedGroupHostileFaction>敵方派系</MedGroupHostileFaction>
   
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
@@ -973,7 +973,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>因為此地距離其他勢力據點僅有{0}格遠，他們會覺得你在侵犯他們的領地，造成每日{1}點的關係惡化。\n\n依然要在這建立據點嗎？</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>因為此地距離其他派系據點僅有{0}格遠，他們會覺得你在侵犯他們的領地，造成每日{1}點的關係惡化。\n\n依然要在這建立據點嗎？</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
