@@ -91,19 +91,19 @@
   <!-- EN: Enemy of:  -->
   <EnemyOf>敵對的:</EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
-  <CurrentGoodwillTip>目前與此勢力關係的友好度。</CurrentGoodwillTip>
+  <CurrentGoodwillTip>目前與此派系關係的友好度。</CurrentGoodwillTip>
   <!-- EN: Current relations with this faction. -->
   <CurrentRelationTip>當前與此派系的關係。</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
-  <CurrentGoodwillTip_PermanentEnemy>此勢力是永久敵對的。他們會襲擊你的據點、旅隊。與他們的關係不會因為任何原因而改善。</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_PermanentEnemy>此派系是永久敵對的。他們會襲擊你的據點、旅隊。與他們的關係不會因為任何原因而改善。</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Ally>此勢力是盟友。他們有餘力時會派遣援軍來幫助你。如果友好度低於{0}，他們就會變成中立狀態。</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Ally>此派系是盟友。他們有餘力時會派遣援軍來幫助你。如果友好度低於{0}，他們就會變成中立狀態。</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
-  <CurrentGoodwillTip_Neutral>此勢力保持中立。你可以跟他們對話、交易。如果友好度低於{0}，他們將會敵視你。如果友好度高於{1}，他們將成為盟友，開始踴躍地幫助你。</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Neutral>此派系保持中立。你可以跟他們對話、交易。如果友好度低於{0}，他們將會敵視你。如果友好度高於{1}，他們將成為盟友，開始踴躍地幫助你。</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Hostile>此勢力是敵對的。他們會襲擊你的據點、旅隊。如果友好度高於{0}，他們就會變成中立狀態。</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_Hostile>此派系是敵對的。他們會襲擊你的據點、旅隊。如果友好度高於{0}，他們就會變成中立狀態。</CurrentGoodwillTip_Hostile>
   <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
-  <CurrentGoodwillTip_NaturalGoodwill>此勢力的中立友好度範圍是{0}至{1}。</CurrentGoodwillTip_NaturalGoodwill>
+  <CurrentGoodwillTip_NaturalGoodwill>此派系的中立友好度範圍是{0}至{1}。</CurrentGoodwillTip_NaturalGoodwill>
   <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
   <CurrentGoodwillTip_NaturalGoodwillRise>如果友好度低於{0}，每年會提昇{1}。</CurrentGoodwillTip_NaturalGoodwillRise>
   <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
@@ -203,9 +203,9 @@
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>根據你的文明等級，基本研究消耗由{0}變為{1}。</ResearchCostComparison>
   <!-- EN: Techprints are available from these factions via trade and quests: -->
-  <ResearchTechprintsFromFactions>這些科技藍圖可以透過勢力的交易、任務來獲取:</ResearchTechprintsFromFactions>
+  <ResearchTechprintsFromFactions>這些科技藍圖可以透過派系的交易、任務來獲取:</ResearchTechprintsFromFactions>
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
-  <TechLevelTooLow>你的勢力文明等級為{0}，但此項目的技術等級為{1}。研究速度將乘以{2}。</TechLevelTooLow>
+  <TechLevelTooLow>你的派系文明等級為{0}，但此項目的技術等級為{1}。研究速度將乘以{2}。</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>解鎖</UnlockedWith>
 
@@ -293,7 +293,7 @@
   <!-- EN: Reward preferences -->
   <ChooseRewards>報酬偏好</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
-  <ChooseRewardsDesc>告訴其他勢力您在未來的任務中想要什麼樣的報酬。這不會影響已經接取的任務。</ChooseRewardsDesc>
+  <ChooseRewardsDesc>告訴其他派系你在未來的任務中想要什麼樣的報酬。這不會影響已經接取的任務。</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>接受{FACTION_royalFavorLabel}的任務</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
@@ -307,7 +307,7 @@
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>當前選擇不接受{FACTION_royalFavorLabel}任務。</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>你與 {0_name} 的友好度將提昇 {1} 。\n\n目前的友好度： {4} ( {5} )。\n\n友好度是與各勢力之間的關係。如果低於 {2} ，該勢力就會敵視你，並會襲擊你的據點和旅隊。如果高於 {3} ，該勢力就會變成盟友，並盡可能的幫助你。除此之外，該勢力則保持中立，並會跟你交易和對話。</GoodwillTip>
+  <GoodwillTip>你與 {0_name} 的友好度將提昇 {1} 。\n\n目前的友好度： {4} ( {5} )。\n\n友好度是與各派系之間的關係。如果低於 {2} ，該派系就會敵視你，並會襲擊你的據點和旅隊。如果高於 {3} ，該派系就會變成盟友，並盡可能的幫助你。除此之外，該勢力則保持中立，並會跟你交易和對話。</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} 加入</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
