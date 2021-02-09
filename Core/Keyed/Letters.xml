@@ -89,7 +89,7 @@
   <NewPartDiseaseAnimal>{PAWN_labelShort}感染了疾病：{3}在{PAWN_possessive}{1}</NewPartDiseaseAnimal>
 
   <!-- EN: {0} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{0}曾經是你的勢力成員。</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{0}曾經是你的派系成員。</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
   <PawnWasFormerlyLodger>你先前主辦過{0}。</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
@@ -167,7 +167,7 @@
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>親友</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>{0}或俘虜的親友，隨著{1}抵達了這裡。\n\n請謹記，即使他們之間有關係，仍然會因為敵對勢力而互相攻擊。\n\n這些人是：</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>{0}或俘虜的親友，隨著{1}抵達了這裡。\n\n請謹記，即使他們之間有關係，仍然會因為敵對派系而互相攻擊。\n\n這些人是：</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
   <LetterRelatedPawnsRaidFriendly>{0}或俘虜的親友，隨著友好的{1}抵達了這裡：</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
@@ -290,13 +290,13 @@
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>敵人的{0}據點已被摧毀。\n\n殖民者重組遠行隊之前你有{1}來收集物資，你也可以在世界地圖中選擇已摧毀的基地來收集物資。</LetterFactionBaseDefeated>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>這是{0}的最後一座據點，這代表這個勢力已經不存在了。</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>這是{0}的最後一座據點，這代表這個派系已經不存在了。</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>任務完成</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
-  <LetterDefeatAllEnemiesQuestCompleted>你成功擊敗敵人的哨站！\n\n{0}的報酬已經送到，勢力關係提昇了{1}。</LetterDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>你成功擊敗敵人的哨站！\n\n{0}的報酬已經送到，派系關係提昇了{1}。</LetterDefeatAllEnemiesQuestCompleted>
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
@@ -342,7 +342,7 @@
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0}厭倦了文明社會。\n\n{PAWN_pronoun}意識到野生動物是自由的。所以{PAWN_pronoun}決定離開你的勢力，與動物們一起生活。\n\n你可以嘗試馴服或逮捕{PAWN_objective}，將{PAWN_objective}帶回來。</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0}厭倦了文明社會。\n\n{PAWN_pronoun}意識到野生動物是自由的。所以{PAWN_pronoun}決定離開你的派系，與動物們一起生活。\n\n你可以嘗試馴服或逮捕{PAWN_objective}，將{PAWN_objective}帶回來。</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
@@ -394,9 +394,9 @@
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
-  <LetterLabelFactionBaseProximity>勢力據點過近</LetterLabelFactionBaseProximity>
+  <LetterLabelFactionBaseProximity>派系據點過近</LetterLabelFactionBaseProximity>
   <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
-  <LetterFactionBaseProximity>由於你與其他勢力的距離過近，他們認為你正在侵犯他們的領土。\n\n勢力的關係在上個月降低了：</LetterFactionBaseProximity>
+  <LetterFactionBaseProximity>由於你與其他派系的距離過近，他們認為你正在侵犯他們的領土。\n\n派系的關係在上個月降低了：</LetterFactionBaseProximity>
 
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
