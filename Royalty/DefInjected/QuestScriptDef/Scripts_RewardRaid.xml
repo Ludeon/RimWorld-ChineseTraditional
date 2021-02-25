@@ -14,8 +14,8 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] 的 [asker_royalTitleInCurrentFaction]，[asker_nameFull]，向你發佈了一個任務。\n\n[enemyFaction_name] 的 (*Threat) [groupsOf] (/Threat) 一直在這個區域襲擾[asker_possessive]旅隊。[asker_nameDef]要求你向他們發起挑釁，吸引他們攻擊並殲滅他們。[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf]隊[enemyFaction_pawnsPlural]</li>
-    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\n[helpersParagraph]如果你接受這個提議， [enemyFaction_pawnsPlural]將會於[firstRaidDelayTicks_duration]內到達。</li>
-    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]如果你接受這個提議， [enemyFaction_pawnsPlural]將會於[firstRaidDelayTicks_duration]內到達。</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\n[helpersParagraph]如果你接受這個任務，[enemyFaction_pawnsPlural]將會於 [firstRaidDelayTicks_duration] 內到達。</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]如果你接受這個任務，[enemyFaction_pawnsPlural]將會於 [firstRaidDelayTicks_duration] 內到達。</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
