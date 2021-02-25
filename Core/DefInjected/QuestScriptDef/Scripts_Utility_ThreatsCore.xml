@@ -39,7 +39,7 @@
     <li>threatDescription->[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack you. Their group is composed of:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   -->
   <Util_Raid.questDescriptionRules.rulesStrings>
-    <li>threatDescription->來自[enemyFaction_name]的一群[enemyFaction_pawnsPlural]即將發起進攻。他們的組成為：\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
+    <li>threatDescription->來自[enemyFaction_name]的一群[enemyFaction_pawnsPlural]即將發起進攻。他們的隊伍如下：\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   </Util_Raid.questDescriptionRules.rulesStrings>
   
   <!-- EN:
@@ -53,10 +53,10 @@
     <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
   -->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
-    <li>pawnKindsParagraph(raidCount==1)->[enemyFaction_pawnsPlural]的攻擊集群組成為：\n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
-    <li>pawnKindsParagraph(raidCount==2)->[enemyFaction_pawnsPlural]的第一攻擊集群組成為：\n\n[raid0/raidPawnKinds]\n\n第二支規模相仿的隊伍即將到來。</li>
-    <li>pawnKindsParagraph(raidCount==3)->[enemyFaction_pawnsPlural]的第一攻擊集群組成為：\n\n[raid0/raidPawnKinds]\n\n兩支規模相仿的隊伍即將到來。</li>
-    <li>pawnKindsParagraph(raidCount>=4)->[enemyFaction_pawnsPlural]的第一攻擊集群組成為：\n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne]支規模相仿的隊伍即將到來。</li>
+    <li>pawnKindsParagraph(raidCount==1)->[enemyFaction_pawnsPlural]的隊伍如下：\n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->[enemyFaction_pawnsPlural]的第一支隊伍如下：\n\n[raid0/raidPawnKinds]\n\n第二支隊伍即將到來。</li>
+    <li>pawnKindsParagraph(raidCount==3)->[enemyFaction_pawnsPlural]的第一支隊伍如下：\n\n[raid0/raidPawnKinds]\n\n還有兩支隊伍即將到來。</li>
+    <li>pawnKindsParagraph(raidCount>=4)->[enemyFaction_pawnsPlural]的第一支隊伍如下：\n\n[raid0/raidPawnKinds]\n\n還有[raidCountMinusOne]支隊伍即將到來。</li>
     <li>numGroupsOf(raidCount==1)->一支</li>
     <li>numGroupsOf(raidCount==2)->兩支</li>
     <li>numGroupsOf(raidCount==3)->三支</li>
