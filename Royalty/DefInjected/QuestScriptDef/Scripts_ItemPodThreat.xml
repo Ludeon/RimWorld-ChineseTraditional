@@ -85,13 +85,13 @@
     <li>manhuntingBeastIndef(animalCount==1)->一隻(*Threat)獵殺人類的[animalKind_label](/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->一群(*Threat)[animalCount]獵殺人類的[animalKind_labelPlural](/Threat)</li>
     <li>endSection->[helpersParagraph]你接受後，[animalKindLabelCorrect]將到達[map_definite] [manhuntersDelayTicks_duration]。</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->一名商人向你發來求救訊號。一隻(*Threat)野生的[animalKind_label](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->一名商人正在呼救。一隻(*Threat)野生[animalKind_label](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label]正在襲擊附近一名商人的。</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->附近的一名商人向你發來求救訊號。 表示有(*Threat)[animalCount]隻野生[animalKind_labelPlural](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->>一名商人正在呼救。有(*Threat)[animalCount]隻野生[animalKind_labelPlural](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural]正在襲擊附近一名商人。</li>
-    <li>questDescription(asker_factionLeader==True)->來自[asker_faction_name]的商隊在[map_definite]附近被[manhuntingBeastIndef]襲擊。[asker_faction_leaderTitle][asker_nameFull]n作為回報，希望你幫助他將野獸從商隊上拉開。[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label]正在襲擊來自[asker_faction_name]的商隊。</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural]正在襲擊來自[asker_faction_name]的商隊。</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的旅隊在被[manhuntingBeastIndef]襲擊。[asker_faction_leaderTitle][asker_nameFull]想要你幫助旅隊擺脫獸群。[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label]正在襲擊來自[asker_faction_name]的旅隊。</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural]正在襲擊來自[asker_faction_name]的旅隊。</li>
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，最近因追捕(*Threat)[animalKind_label](/Threat)而失去了一名偵察員。 [asker_pronoun]希望將其引導至你這來殺死，以維持[asker_possessive]榮譽。[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->這隻[animalKind_label]，殺死了[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]的偵察員。</li>
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，最近因狩獵(*Threat) [animalCount] [animalKind_labelPlural](/Threat)而中失去了一隊偵查隊。[asker_pronoun]希望將獸群引導到你這來殺死，以維護[asker_possessive]的榮耀。[endSection]</li>
