@@ -19,12 +19,12 @@
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>和{0}的關係破裂了。他們現在敵視你。</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>他們不時攻擊你的殖民地、旅隊，並拒絕與你交易。如果你想改善關係，還是可以透過旅隊或運輸艙贈送他們禮物。\n\n這種狀況在友好度({0})低於{1}時發生。想恢復中立關係必須將友好度提昇至{2}。</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>他們不時攻擊你的殖民地、旅隊，並拒絕與你交易。如果你想改善關係，還是可以透過旅隊或運輸艙贈送他們禮物。\n\n此情況在友好度低於{1}時發生，目前友好度({0})。想恢復中立關係必須將友好度提昇至{2}。</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>和{0}的關係改善了。他們現在對你保持中立，不會再攻擊你。</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>這種狀況在友好度({1})高於{2}時發生。如果友好度低於{3}，{0}會再次與你敵對。如果友好度高於{4}，他們將與你結盟，為你而戰。</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>此情況在友好度高於{2}時發生，目前友好度({1})。低於{3}，{0}會再次與你敵對。高於{4}，他們將與你結盟，為你而戰。</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>和{0}的關係變冷漠了。他們現在對你保持中立，不再是盟友了。</LetterRelationsChange_NeutralFromAlly>
@@ -34,7 +34,7 @@
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>和{0}的關係變親密了。他們現在與你結盟。</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>當你受到威脅時，盟友有時候會派遣援軍為你而戰。你也可以花費友好度，隨時向他們請求援軍。\n\n因為你們的友好度({0})達到{1}而結盟。如果友好度低於{2}，關係會回到中立。</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>當你受到威脅時，盟友有時候會派遣援軍為你而戰。你也可以花費友好度，隨時向他們請求援軍。\n\n因為你們的友好度達到{1}而結盟，目前友好度({0})。低於{2}，關係會回到中立。</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>友好度</goodwill>
