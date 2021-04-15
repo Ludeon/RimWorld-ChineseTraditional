@@ -71,7 +71,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->一艘屬於[asker_faction_name]的受損飛船正在尋找著陸位置。飛船的指揮官[asker_nameDef]希望讓飛船降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]會攻擊墜毀的飛船以試圖殺死其中的平民，你需要保護他們。\n\n這艘飛船的人員包括[asker_nameDef][andOtherCivilians]和[soldiers_count][soldiers0_kind]。你需要保護指揮者[andCivilians]，但可以犧牲[soldiers0_kind]。\n\n在[rescueDelay_duration]之後，會有一艘救援飛船來接倖存者，你需要在在[leaveDelay_duration]讓他們登上飛船。</li>
+    <li>questDescription->一艘[asker_faction_name]的太空梭受損，正在尋找著陸位置。太空梭指揮官[asker_nameDef]希望能降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]會攻擊墜毀的太空梭並殺死其中的乘客。你必須保護他們。\n\n太空梭的乘客包含 [asker_nameDef][andOtherCivilians] 和 [soldiers0_kind] x[soldiers_count]。[soldiers0_kind]死了無妨，但指揮者[andCivilians]必須存活。\n\n在[rescueDelay_duration]之後，會有一艘太空梭來接倖存者。你需要在[leaveDelay_duration]內讓他們登上太空梭。</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->，[pawnLabel]</li>
     <li>andOtherCivilians(civilians_count>=3)->，[civilianCountMinusOne]，其他[pawnLabelSingleOrPlural]</li>
