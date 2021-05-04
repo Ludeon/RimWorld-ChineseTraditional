@@ -5,7 +5,7 @@
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\n你必須建造一個紀念碑。建造這個[monumentSize]的紀念碑需要以下資源(總價值：[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n你必須在完成[keepMonumentTicks_duration]後維持紀念碑安全，否則[asker_nameDef]會感到不滿。</li>
+    <li>questDescription->[decreeIntro]\n\n你必須建造一個紀念碑。這會需要[monumentSize]的領地大小和以下資源 (總價值 [monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n你必須在完成[keepMonumentTicks_duration]後維持紀念碑安全，否則[asker_nameDef]將會感到不滿。</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
