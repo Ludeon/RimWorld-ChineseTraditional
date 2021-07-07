@@ -225,9 +225,18 @@
     <!-- EN: caretaker -->
     <titleShort>照顧者</titleShort>
     <!-- EN: Born on a medieval farm, [PAWN_nameDef] was tasked with caring for domestic animals. [PAWN_pronoun] grew to love them.\n\nWith time, [PAWN_pronoun] learned to tame wild animals. [PAWN_pronoun] dreamed of one day meeting a thrumbo and taming it. -->
-    <desc>出生於一座中世紀的農場，[PAWN_nameDef]的工作室照顧家畜們，而[PAWN_pronoun]也逐漸喜歡上動物們。\n\n漸漸的，[PAWN_pronoun]學會馴服野生動物，[PAWN_pronoun]夢想有一天能夠遇見一支獨角獸並且馴服牠。</desc>
+    <desc>出生於一座中世紀的農場，[PAWN_nameDef]的工作是照顧家畜們，而[PAWN_pronoun]也逐漸喜歡上動物們。\n\n漸漸的，[PAWN_pronoun]學會馴服野生動物，[PAWN_pronoun]夢想有一天能夠遇見一支獨角獸並且馴服牠。</desc>
   </AnimalCaretaker20>
-  
+        
+  <AnimalFarmer21>
+    <!-- EN: animal farmer -->
+    <title>畜牧商</title>
+    <!-- EN: animal farmer -->
+    <titleShort>畜牧商</titleShort>
+    <!-- EN: [PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather. -->
+    <desc>[Pawn_namedef]飼養了各種各樣的動物，以提供肉，牛奶，雞蛋和皮革。</desc>
+  </AnimalFarmer21>
+        
   <AnimalLabTech39>
     <!-- EN: animal lab tech -->
     <title>動物實驗室技術員</title>
@@ -243,7 +252,7 @@
     <!-- EN: antisocial -->
     <titleShort>反社會者</titleShort>
     <!-- EN: [PAWN_nameDef] lacked typical social skills, and avoided social interaction.\n\n[PAWN_pronoun] gained satisfaction only from steady work. [PAWN_pronoun] especially disliked speaking with overly creative or outgoing individuals. -->
-    <desc>[PAWN_nameDef]缺乏典型的社交技能，並且逃避與人接觸。\n\n[PAWN_pronoun]從單調的工作中獲得滿足。[PAWN_pronoun]特別討厭與太活躍或是外向的人相處。</desc>
+    <desc>[PAWN_nameDef]缺乏的社交技能，並且逃避與人接觸。\n\n[PAWN_pronoun]從單調的工作中獲得滿足。[PAWN_pronoun]特別討厭與太活躍或是外向的人相處。</desc>
   </AntisocialChild83>
   
   <ApocalypseChild23>
@@ -270,7 +279,7 @@
     <!-- EN: oracle -->
     <titleShort>祭司</titleShort>
     <!-- EN: [PAWN_nameDef] was chosen at an early age by the village elders to keep the sacred rituals of the Oracle.\n\nAn irrepressibly curious child, [PAWN_nameDef] caused a religious crisis for [PAWN_possessive] tribe when [PAWN_pronoun] accidentally flipped a switch to open the "tombs" of the Gods - cryptosleep caskets inhabited by some very confused ancestors. -->
-    <desc>[PAWN_nameDef]很小的時候被村裏的長老所選中，以傳承神聖的神諭儀式。\n\n當這個好奇到極點的孩子誤觸了開啟「神之墓」的開關，給[PAWN_possessive]村落帶來了一場宗教危機────在休眠艙裡的是一群一頭霧水的遠古祖先。</desc>
+    <desc>[PAWN_nameDef]很小的時候被村裡的長老所選中，以傳承神聖的神諭儀式。\n\n當這個好奇到極點的孩子誤觸了開啟「神之墓」的開關，給[PAWN_possessive]村落帶來了一場宗教危機────在休眠艙裡的是一群一頭霧水的遠古祖先。</desc>
   </ApprenticeOracle83>
   
   <ApprenticeSmith37>
@@ -288,7 +297,7 @@
     <!-- EN: explorer -->
     <titleShort>探索者</titleShort>
     <!-- EN: [PAWN_pronoun] was trapped in an uninspired life. One day, [PAWN_pronoun] jumped on a ship to learn archaeology and see the universe.\n\n[PAWN_pronoun] learned how to survive. [PAWN_pronoun] also learned about people - although [PAWN_pronoun] understood the dead better than the living. -->
-    <desc>[PAWN_pronoun]曾被困在一個無趣的世界。一天，[PAWN_pronoun]跳上了一艘船，去學習考古學知識並見識浩瀚的宇宙。\n\n[PAWN_pronoun]學會生存的方法。[PAWN_pronoun]也學會關於人的事────雖然[PAWN_pronoun]對死人的了解更勝活人。</desc>
+    <desc>[PAWN_pronoun]曾被困在一個無趣的世界。一天，[PAWN_pronoun]跳上了一艘飛船，去學習考古學知識並見識浩瀚的宇宙。\n\n[PAWN_pronoun]學會生存的方法。[PAWN_pronoun]也學會關於人的事────雖然[PAWN_pronoun]對死人的了解更勝活人。</desc>
   </Archaeologist85>
   
   <Archer25>
@@ -297,7 +306,7 @@
     <!-- EN: archer -->
     <titleShort>部落弓箭手</titleShort>
     <!-- EN: [PAWN_nameDef] fought for [PAWN_possessive] tribe. [PAWN_pronoun] and specialized in the use of bows, pila, and other ranged weapons. -->
-    <desc>[PAWN_nameDef]為[PAWN_possessive]部落作戰. [PAWN_pronoun]專精於使用弓箭，投矛和其他遠程武器</desc>
+    <desc>[PAWN_nameDef]為[PAWN_possessive]部落作戰。[PAWN_pronoun]專精於使用弓箭，投矛和其他遠程武器</desc>
   </Archer25>
   
   <Architect28>
@@ -324,7 +333,7 @@
     <!-- EN: cook -->
     <titleShort>食勤兵</titleShort>
     <!-- EN: [PAWN_nameDef] joined the army as a worker and spent most of [PAWN_possessive] time cooking and repairing. While [PAWN_pronoun] was stationed on a dangerous planet, [PAWN_pronoun] underwent basic shooting and survival training. -->
-    <desc>[PAWN_nameDef]加入了軍隊，多數的時間都忙著做飯和修理東西。當[PAWN_pronoun]被派駐到醫科危險的星球之後，接受了基本的射擊和生存訓練。</desc>
+    <desc>[PAWN_nameDef]加入了軍隊，多數的時間都忙著做飯和修理東西。當[PAWN_pronoun]被派駐到一顆危險的星球之後，接受了基本的射擊和生存訓練。</desc>
   </ArmyCook0>
   
   <ArmyScientist35>
@@ -378,7 +387,7 @@
     <!-- EN: artificer -->
     <titleShort>發明家</titleShort>
     <!-- EN: Fuelled by the thrill of discovery and [PAWN_possessive] own megalomania, [PAWN_nameDef] set out to invent new devices and improve existing ones, breaking laws and customs as necessary.\n\n[PAWN_pronoun] formed a crew to gather materials for [PAWN_possessive] work - and to deal with outsiders who might interfere. -->
-    <desc>出於[PAWN_pronoun]自身的自大以及對於探索新發現的興奮，[PAWN_nameDef]開始發明新的以及改良現有的設備，必要時無視慣例和法律規範。\n\n[PAWN_pronoun]組成了一個團隊，專門替[PAWN_pronoun]蒐集素材────以及排除任何可能造成幹擾的外人。</desc>
+    <desc>出於[PAWN_pronoun]自身的自大以及對於探索新發現的興奮，[PAWN_nameDef]開始發明新的或改良現有的設備，必要時無視慣例和法律規範。\n\n[PAWN_pronoun]組成了一個團隊，專門替[PAWN_pronoun]蒐集素材────以及排除任何可能造成干擾的外人。</desc>
   </ArtificerRampant95>
   
   <Artilleryman28>
@@ -470,7 +479,7 @@
     <!-- EN: student -->
     <titleShort>學生</titleShort>
     <!-- EN: The daughter of an engineer and doctor, [PAWN_nameDef]'s early life was intellectually rich. After visiting a physics lab, [PAWN_pronoun] decided [PAWN_pronoun] wanted to be a quantum physicist.\n\nBitten by a camel, kicked off a horse, and chased by dogs, [PAWN_nameDef] developed a fear of animals. -->
-    <desc>身為工程師和醫生的後代，[PAWN_nameDef]早年才高八鬥，在參觀了一間物理實驗室後，[PAWN_pronoun]決定將來要成為一名量子物理學家。\n\n被駱駝很咬、被馬兒踢飛還有被狗群追逐的經驗讓[PAWN_nameDef]對動物產生了陰影。</desc>
+    <desc>身為工程師和醫生的後代，[PAWN_nameDef]早年才高八鬥，在參觀了一間物理實驗室後，[PAWN_pronoun]決定將來要成為一名量子物理學家。\n\n被駱駝咬傷、被馬兒踢飛還有狗群追逐的經驗讓[PAWN_nameDef]對動物產生了陰影。</desc>
   </AspiringPhysicist47>
   
   <AspiringPopIdol28>
@@ -479,7 +488,7 @@
     <!-- EN: pop idol -->
     <titleShort>流行偶像</titleShort>
     <!-- EN: [PAWN_nameDef] was being trained in song and dance to become the next big pop idol. [PAWN_pronoun] grew up being taken care of by company handlers.\n\n[PAWN_pronoun] never knew manual labor, but learned a lot about music and social etiquette. -->
-    <desc>[PAWN_nameDef]由經紀公司的經營者照顧長大，接受歌唱與舞蹈訓練，為了成為下一個閃亮的超級巨星。\n\n[PAWN_pronoun]從不接觸體力勞動，但學到了很多關於音樂和社會禮儀的知識。</desc>
+    <desc>[PAWN_nameDef]由經紀公司的經營者照顧長大，接受歌唱與舞蹈訓練，為了成為下一個閃亮的超級巨星。\n\n[PAWN_pronoun]從不接觸體力勞動，但學到了很多關於音樂和社交禮儀的知識。</desc>
   </AspiringPopIdol28>
   
   <Assassin20>
@@ -488,7 +497,7 @@
     <!-- EN: assassin -->
     <titleShort>刺客</titleShort>
     <!-- EN: [PAWN_nameDef] was a professional assassin. [PAWN_pronoun] was cold, calculating, and made a good profit. In this business, an utter lack of empathy was an asset. -->
-    <desc>[PAWN_nameDef]是一名職業殺手。[PAWN_pronoun]冷酷、慎重而且能獲得非常不錯的報酬。在這門生意裡，無血無淚是一種正資產。</desc>
+    <desc>[PAWN_nameDef]是一名職業殺手。[PAWN_pronoun]冷酷、慎重而且能獲得非常不錯的報酬。在這門生意裡，缺乏同理心是一種資產。</desc>
   </Assassin20>
   
   <Assassin7>
@@ -697,7 +706,7 @@
     <!-- EN: bloodgamer -->
     <titleShort>血腥遊戲玩家</titleShort>
     <!-- EN: [PAWN_nameDef] was sold to the Corestars Entertainment Company and used as meat in one of the company's system-wide broadcast shows.\n \n[PAWN_possessive] manipulative nature made [PAWN_objective] quite a nightmare, even to the audience. [PAWN_pronoun] was kicked out and exiled to a planet full of deadly animals, criminals and armed camera-drones. -->
-    <desc>[PAWN_nameDef]被賣到星核娛樂後，在公司的全系統播送節目中被當作一塊餌食。\n\n[PAWN_pronoun]天生的能力使[PAWN_pronoun]儼然是個噩夢，對觀眾而言亦然。[PAWN_pronoun]被趕走，放逐到一個滿佈致命野獸、罪犯和武裝無人攝影飛行器的星球上。</desc>
+    <desc>[PAWN_nameDef]被賣到星核娛樂後，在公司的全系統播送節目中被當作一塊餌食。\n\n[PAWN_pronoun]天生的能力使[PAWN_pronoun]儼然是個噩夢，對觀眾而言亦然。[PAWN_pronoun]被趕走，放逐到一個滿是致命野獸、罪犯和武裝無人攝影飛行器的星球上。</desc>
   </BloodgameSurvivor6>
   
   <BloodyDentist9>
@@ -751,7 +760,7 @@
     <!-- EN: bookworm -->
     <titleShort>書蟲</titleShort>
     <!-- EN: Rather than socialize with the other children, [PAWN_nameDef] preferred to get lost in literature. [PAWN_pronoun] taught [PAWN_objective]self to read at an early age with books bought from passing traders. -->
-    <desc>相比於與同齡人一起玩耍，,[PAWN_nameDef]更願意迷失在文學的海洋中。[PAWN_pronoun]從小就從過往商人那裡買書來自學成才。</desc>
+    <desc>相比於與同齡人一起玩耍，[PAWN_nameDef]更願意迷失在文學的海洋中。[PAWN_pronoun]從小就從過往商人那裡買書來自學成才。</desc>
   </Bookworm19>
   
   <Bookworm3>
@@ -760,7 +769,7 @@
     <!-- EN: bookworm -->
     <titleShort>書蟲</titleShort>
     <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] youth in the library, reading every book [PAWN_pronoun] could about the technical marvels of space travel, the engineering ingenuity of the space-faring pioneers, and the horrible yet fascinating tales of mechanoid wars. [PAWN_pronoun] vowed that one day, [PAWN_pronoun] would see these things for [PAWN_objective]self. -->
-    <desc>[PAWN_nameDef]的童年全泡在圖書館哩，閱讀每一本[PAWN_pronoun]取得的書籍，特別是關於科技新知與太空旅行、宇宙航行的尖端工程技術，以及機械競賽那些可怕卻又迷人的故事。[PAWN_pronoun]期盼著有朝一日能夠親眼見識書中的一切。</desc>
+    <desc>[PAWN_nameDef]的童年全泡在圖書館裡，閱讀每一本[PAWN_pronoun]取得的書籍，特別是關於科技新知與太空旅行、宇宙航行的尖端工程技術，以及機械競賽那些可怕卻又迷人的故事。[PAWN_pronoun]期盼著有朝一日能夠親眼見識書中的一切。</desc>
   </Bookworm3>
   
   <BountyHunter17>
@@ -1012,7 +1021,7 @@
     <!-- EN: cave child -->
     <titleShort>洞穴之子</titleShort>
     <!-- EN: [PAWN_nameDef] grew up in a large and intricate cave complex that extended deep into a mountainside. [PAWN_pronoun] helped the adults maintain and improve the deep caves. -->
-    <desc>[PAWN_nameDef]在一顆苔原星球上的洞穴中長大，被一團被稱為「巫師」的巡遊賣藝團體收養。每當巡遊歸來，巫師的人都會告訴[PAWN_pronoun]關於宇宙的驚奇故事。\n\n有一天，巫師再也沒有回來，經過了數年的等待，[PAWN_nameDef]決定飛往宇宙尋找他們。</desc>
+    <desc>[PAWN_nameDef]在一個大而復雜的洞穴群中長大，這個洞穴群一直延伸到山腰深處。[PAWN_pronoun]幫助大人們維護和改善洞穴。</desc>
   </CaveChild30>
   
   <CaveworldIlluminator23>
@@ -1462,7 +1471,7 @@
     <!-- EN: builder -->
     <titleShort>建築工</titleShort>
     <!-- EN: Growing up in [PAWN_possessive] father's lab, [PAWN_nameDef] was given the life of an intellectual elite. [PAWN_pronoun] got everything [PAWN_pronoun] desired, and price was never an object.\n\nHowever [PAWN_nameDef] did not partake in the luxury given to him. Instead, [PAWN_pronoun] pursued more physical, and - in [PAWN_possessive] father's eyes - lower-class jobs. -->
-    <desc>在父親的實驗室裡長大，[PAWN_nameDef]被賦予了學識精英的生命。[PAWN_pronoun]得到[PAWN_pronoun]想要的一切，代價從來不是問題。\n\n然而，Jackson並沒有接受[PAWN_pronoun]父親給予的榮華富貴，相反的，[PAWN_pronoun]追求更多勞力以及────在[PAWN_pronoun]父親眼中────下賤的工作。</desc>
+    <desc>在父親的實驗室裡長大，[PAWN_nameDef]被賦予了學識精英的生命。[PAWN_pronoun]得到[PAWN_pronoun]想要的一切，代價從來不是問題。\n\n然而，[PAWN_nameDef]並沒有接受[PAWN_pronoun]父親給予的榮華富貴，相反的，[PAWN_pronoun]追求更多勞力以及────在[PAWN_pronoun]父親眼中────下賤的工作。</desc>
   </ConstructionGrunt84>
   
   <ConventChild16>
@@ -1637,7 +1646,7 @@
     <!-- EN: field lady -->
     <titleShortFemale>領主夫人</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up in a noble family's manor in the outer country. [PAWN_possessive] early years were full of lessons in horseback riding, politics, and religion.\n\n[PAWN_nameDef] and [PAWN_possessive] friends found many ways to break the rules and have fun in the fields and forests. -->
-    <desc>[PAWN_nameDef]在一處偏遠貴族家庭的莊園裏長大。[PAWN_nameDef]從小學習騎馬、政治、宗教方面的知識。\n\n但是[PAWN_nameDef]和[PAWN_possessive]朋友們總能找到插科打諢的辦法，在山野之間開心玩耍。</desc>
+    <desc>[PAWN_nameDef]在一處偏遠貴族家庭的莊園裡長大。[PAWN_nameDef]從小學習騎馬、政治、宗教方面的知識。\n\n但是[PAWN_nameDef]和[PAWN_possessive]朋友們總能找到插科打諢的辦法，在山野之間開心玩耍。</desc>
   </CountryLordling92>
   
   <CowFarmer39>
@@ -1754,16 +1763,16 @@
     <!-- EN: miner -->
     <titleShort>礦工</titleShort>
     <!-- EN: [PAWN_nameDef] did the sweaty, grimy work of pulling metal out of asteroids on a deep space rig. [PAWN_pronoun] used [PAWN_possessive] hands-on industrial skills daily - and wasn't bad in a bar fight either. -->
-    <desc>[PAWN_nameDef]滿身是汗，一身汙泥的將礦石從深空鑽掘機中拉出，[PAWN_pronoun]的這雙手天天做著繁重的勞動────在酒吧裡打起架來也很好用。</desc>
+    <desc>[PAWN_nameDef]滿身是汗，一身汙泥的將礦石從太空鑽掘機中拉出，[PAWN_pronoun]的這雙手天天做著繁重的勞動────在酒吧裡打起架來也很好用。</desc>
   </DeepSpaceMiner3>
   
   <DeepSpaceSurveyor1>
     <!-- EN: deep space surveyor -->
-    <title>深空測量師</title>
+    <title>太空測量師</title>
     <!-- EN: surveyor -->
     <titleShort>測量師</titleShort>
     <!-- EN: [PAWN_nameDef] was a deep space surveyor. [PAWN_pronoun] studied which worlds were the most suitable for colonization.\n\n[PAWN_possessive] expeditions were met by hostile natives, green-painted space-women, and wannabe Greek gods. Surviving many firefights, [PAWN_pronoun] learned to build rudimentary lathes and rock cannons to fend off enemies. -->
-    <desc>[PAWN_nameDef]是一名深空測量師。[PAWN_pronoun]研究哪些世界最適合殖民。\n\n[PAWN_possessive]考察地點會遭遇敵對的土著、全身塗綠的太空女人和自稱古希臘神的偽神者。從多場火拚生還後，[PAWN_pronoun]學會了自己打造基本的設備，以及投石機來保衛自己。</desc>
+    <desc>[PAWN_nameDef]是一名太空測量師。[PAWN_pronoun]研究哪些世界最適合殖民。\n\n[PAWN_possessive]考察地點會遭遇敵對的土著、全身塗綠的太空女人和自稱古希臘神的偽神者。從多場火拚生還後，[PAWN_pronoun]學會了自己打造基本的設備，以及投石機來保衛自己。</desc>
   </DeepSpaceSurveyor1>
   
   <Defector78>
@@ -2087,7 +2096,6 @@
     <!-- EN: executive -->
     <titleShort>執行長</titleShort>
     <!-- EN: [PAWN_nameDef] was an executive officer for a large space trading corporation. After a failed attempt at manipulating [PAWN_possessive] way up the corporate ladder, [PAWN_pronoun] was framed for the rape and murder of another executive and [PAWN_possessive] family.\n\n[PAWN_pronoun] was found guilty. However, because of [PAWN_possessive] family's influence, [PAWN_pronoun] was exiled instead of put to death. -->
-    <desc>[PAWN_nameDef]是一家大型宇宙貿易公司的執行長。在一次操控公司人事升遷案的事件失敗曝光後，[PAWN_pronoun]被控性侵以及謀殺另一名執行長與她的家人。\n\n[PAWN_pronoun]被判有罪。然而，在[PAWN_possessive]家族影響力幹涉之下，[PAWN_pronoun]被流放而非處死。</desc>
   </ExecutiveOfficer5>
   
   <ExiledPrince58>
@@ -2168,7 +2176,7 @@
     <!-- EN: worker -->
     <titleShort>勞工</titleShort>
     <!-- EN: [PAWN_nameDef] grew up in a large factory city on an industrial world.\n\nSince poverty was rampant and food scarce, [PAWN_pronoun] worked for whatever wages [PAWN_pronoun] could get. This wasn't an easy life, but [PAWN_nameDef] never shied away from a hard day's work. -->
-    <desc>[PAWN_nameDef]在一個工業世界上的工廠城市中長大。\n\n由於食物匱乏，貧窮氾濫, [PAWN_pronoun]接下了所能拿到薪水的工作。生活並不輕鬆，但[PAWN_nameDef]從未逃避過一天的工作.</desc>
+    <desc>[PAWN_nameDef]在一個工業世界上的工廠城市中長大。\n\n由於食物匱乏，貧窮氾濫, [PAWN_pronoun]接下了所有能拿到薪水的工作。生活並不輕鬆，但[PAWN_nameDef]從未逃避過每一天的工作。</desc>
   </FactoryDrone58>
   
   <FactoryWorker58>
@@ -2222,7 +2230,7 @@
     <!-- EN: farm girl -->
     <titleShort>農場女孩</titleShort>
     <!-- EN: [PAWN_nameDef] grew up on [PAWN_possessive] parents' vineyard. [PAWN_pronoun] spent [PAWN_possessive] youth exploring the land and making friends with various bugs and insects.\n\nHaving heard stories about all the fascinating things out there in the universe, [PAWN_pronoun] always dreamed of venturing out to see it for [PAWN_objective]self. -->
-    <desc>[PAWN_nameDef]在父母的葡萄園中長大。[PAWN_possessive]童年都在探索土地以及和蟲子交朋友。\n\n自從聽說了關於星際中那些迷人的故事後，[PAWN_pronoun]夢想冒險一場，親眼一睹宇宙的萬種風採。</desc>
+    <desc>[PAWN_nameDef]在父母的葡萄園中長大。[PAWN_possessive]童年都在探索土地以及和蟲子交朋友。\n\n自從聽說了關於星際中那些迷人的故事後，[PAWN_pronoun]夢想冒險一場，親眼一睹宇宙的萬種風采。</desc>
   </FarmersDaughter81>
   
   <FarmersSon20>
@@ -2231,7 +2239,7 @@
     <!-- EN: farmer -->
     <titleShort>農夫</titleShort>
     <!-- EN: [PAWN_nameDef] spent much of [PAWN_possessive] childhood learning biome farming. In [PAWN_possessive] biome they kept animals to investigate which would cope best in the alien environment.\n\nDue to this, the travel restrictions and oxygen rationing system, [PAWN_pronoun] rarely got to meet anyone from outside [PAWN_possessive] family. -->
-    <desc>[PAWN_nameDef]的童年花了很多時間在研究生態系農業。在[PAWN_pronoun]居住的生態系裡，他們讓動物去測試誰能在外星環境裡適應得最好。\n\n因為旅行限制和氧氣配給等因素，[PAWN_pronoun]險少有機會與家人之外的人接觸。</desc>
+    <desc>[PAWN_nameDef]的童年花了很多時間在研究生態系農業。在[PAWN_pronoun]居住的生態系裡，他們讓動物去測試誰能在外星環境裡適應得最好。\n\n因為旅行限制和氧氣配給等因素，[PAWN_pronoun]鮮少有機會與家人之外的人接觸。</desc>
   </FarmersSon20>
   
   <FarmHand2>
@@ -2285,7 +2293,7 @@
     <!-- EN: survivor -->
     <titleShort>倖存者</titleShort>
     <!-- EN: [PAWN_nameDef] and [PAWN_possessive] family lived a hard but prosperous life along with their fellow colonists on an outlying rimworld.\n\nOne day, a group of mechanoids attacked, killing everyone aside from [PAWN_nameDef]. [PAWN_pronoun] then lived alone in the desert until a group of raiders found him. -->
-    <desc>[PAWN_nameDef]和[PAWN_possessive]家族居住在一個辛苦但富足的遙遠邊緣世界。\n\n一天，一群機器人來襲，殺了Robert之外的所有人，從那時起[PAWN_pronoun]便獨自住在沙漠中，直到一群掠奪者發現了[PAWN_pronoun]。</desc>
+    <desc>[PAWN_nameDef]和[PAWN_possessive]家族居住在一個辛苦但富足的遙遠邊緣世界。\n\n一天，一群機器族來襲，殺了[PAWN_nameDef]之外的所有人，從那時起[PAWN_pronoun]便獨自住在沙漠中，直到一群掠奪者發現了[PAWN_pronoun]。</desc>
   </FeralChild85>
   
   <FeralChild96>
@@ -2294,7 +2302,7 @@
     <!-- EN: feral -->
     <titleShort>野人</titleShort>
     <!-- EN: Abandoned on an animal planet as a small child with nought but a blanket with a name embroidered on it, [PAWN_nameDef] made [PAWN_objective]self one with the wilderness.\n\nWhen [PAWN_pronoun] was 13, [PAWN_pronoun] encountered a team of mineral surveyors, who "offered" [PAWN_objective] passage off of the planet. -->
-    <desc>[PAWN_nameDef]還是孩子時就被遺棄在一座動物星球上，身上只有一條繡著名字的毛毯。[PAWN_pronoun]使自己成為了荒野的一份子。\n\n當牠13歲時巧遇一支礦物探測隊，他們「提供」了[PAWN_pronoun]離開星球的方法。</desc>
+    <desc>[PAWN_nameDef]還是孩子時就被遺棄在一座動物星球上，身上只有一條繡著名字的毛毯。[PAWN_pronoun]使自己成為了荒野的一份子。\n\n當[PAWN_pronoun]13歲時巧遇一支礦物探測隊，他們「提供」了[PAWN_pronoun]離開星球的方法。</desc>
   </FeralChild96>
   
   <FerventResearcher72>
@@ -3844,7 +3852,7 @@
     <!-- EN: merc lord -->
     <titleShort>傭兵團長</titleShort>
     <!-- EN: [PAWN_nameDef] formed a mercenary company out of freelancers who wanted to make good money while also making slightly better-than-average moral choices. [PAWN_pronoun] called it the Ashmarines.\n\nTo avoid the coreworlds' military forces, [PAWN_pronoun] moved [PAWN_possessive] company to the rimworlds. There, [PAWN_pronoun] established bases and communities. In ruling, [PAWN_pronoun] maintained a form of order among the raiders and madmen of deep space. -->
-    <desc>[PAWN_nameDef]組織了一支由自由職業者組成的傭兵團，他們想賺乾淨的錢，同時製造一個略高於道德水準的選擇。[PAWN_pronoun]稱之為Ashmarines。\n\n為了避開核心世界的軍隊，[PAWN_pronoun]將公司轉移到邊緣世界，在那裡，[PAWN_pronoun]建立了基地和社區。在統治方面，[PAWN_pronoun]與掠奪者和深空狂襲者之間保持著某種形式的秩序。</desc>
+    <desc>[PAWN_nameDef]組織了一支由自由職業者組成的傭兵團，他們想賺乾淨的錢，同時製造一個略高於道德水準的選擇。[PAWN_pronoun]稱之為Ashmarines。\n\n為了避開核心世界的軍隊，[PAWN_pronoun]將公司轉移到邊緣世界，在那裡，[PAWN_pronoun]建立了基地和社區。在統治方面，[PAWN_pronoun]與掠奪者和太空狂襲者之間保持著某種形式的秩序。</desc>
   </MercenaryLord13>
   
   <MercenaryPilot63>
@@ -4186,7 +4194,7 @@
     <!-- EN: pathfinder -->
     <titleShort>航線開拓者</titleShort>
     <!-- EN: [PAWN_nameDef] was raised and trained by a group of military explorers dedicated to charting pathways through deep space and on remote planets. -->
-    <desc>[PAWN_nameDef]由一群軍事探險家扶養和訓練，他們致力於繪製通過深空和遙遠星球的航線。</desc>
+    <desc>[PAWN_nameDef]由一群軍事探險家扶養和訓練，他們致力於繪製通過太空和遙遠星球的航線。</desc>
   </NavyPathfinder53>
   
   <NavyScientist52>
@@ -4348,7 +4356,7 @@
     <!-- EN: orphan -->
     <titleShort>孤兒</titleShort>
     <!-- EN: Born on a deep space station, [PAWN_nameDef] was orphaned at a young age. In the orphanage, [PAWN_pronoun] stood up for the weaker kids and fought off the bullies. -->
-    <desc>出生於某座深空太空站，[PAWN_nameDef]小小年紀便成了孤兒。在孤兒院，[PAWN_pronoun]為弱勢的孩子出頭對抗霸淩。</desc>
+    <desc>出生於某座太空站，[PAWN_nameDef]小小年紀便成了孤兒。在孤兒院，[PAWN_pronoun]為弱勢的孩子出頭對抗霸淩。</desc>
   </Orphan15>
   
   <Orphan25>
@@ -5209,7 +5217,7 @@
     <!-- EN: scavenger -->
     <titleShort>拾荒者</titleShort>
     <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] childhood escaping grunt work to go digging through wrecks and ruins for treasures. [PAWN_possessive] natural curiosity got [PAWN_objective] into a lot of trouble, but it also yielded many interesting finds. -->
-    <desc>[PAWN_nameDef]在一個被核戰爭摧殘後的世界中少數殘存的城市中長大。\n\n[PAWN_pronoun]學會撿拾有用的科技和用品好在這末世廢土中生存。</desc>
+    <desc>[PAWN_nameDef]度過了[PAWN_possessive]童年，逃避繁重的工作，在沉船和廢墟中挖掘寶藏。\n\n[PAWN_pronoun]天生的好奇心給[PAWN_objective] 帶來了很多麻煩，但也帶來了很多有趣的發現。</desc>
   </Scavenger22>
   
   <Scavenger62>
@@ -5419,7 +5427,7 @@
     <!-- EN: shocktroop -->
     <titleShort>突擊兵</titleShort>
     <!-- EN: [PAWN_nameDef] was in a deep space shock troop unit deployed on multiple planets in various wars.\n\nDuring a risky assault, [PAWN_possessive] whole unit was wiped out. Nobody else knew what happened on the field that day, but [PAWN_nameDef] will carry the burden forever. -->
-    <desc>作為深空突擊兵的一員，[PAWN_nameDef]曾被派遣至多個星球，各個戰場上。\n\n在一場冒險的突擊後，[PAWN_possessive]整個部隊被殲滅，沒有人知道那天在戰場上究竟發生了什麼事，但[PAWN_nameDef]將永遠背負著這份包袱。</desc>
+    <desc>作為太空突擊兵的一員，[PAWN_nameDef]曾被派遣至多個星球，各個戰場上。\n\n在一場冒險的突擊後，[PAWN_possessive]整個部隊被殲滅，沒有人知道那天在戰場上究竟發生了什麼事，但[PAWN_nameDef]將永遠背負著這份包袱。</desc>
   </ShockTrooper15>
   
   <ShootingComa59>
@@ -7016,7 +7024,7 @@
     <!-- EN: refugee -->
     <titleShort>難民</titleShort>
     <!-- EN: A war broke on out [PAWN_nameDef]'s home planet.\n\nGathering what little food and belongings they could, [PAWN_nameDef] and [PAWN_possessive] father stole a ship and escaped into space. -->
-    <desc>[PAWN_nameDef]的母星爆發一場戰爭。\n\n[PAWN_pronoun]和父親匆忙間帶著一丁點食物和隨身物品，偷了一條飛船逃入太空。他們進入睡眠倉後開始漫無目的的飛行，期望能有好運。</desc>
+    <desc>[PAWN_nameDef]的母星爆發一場戰爭。\n\n[PAWN_pronoun]和父親匆忙間帶著一丁點食物和隨身物品，偷了一條飛船逃入太空。他們進入睡眠艙後開始漫無目的的飛行，期望能有好運。</desc>
   </WarRefugee96>
   
   <Warrior73>
@@ -7025,7 +7033,7 @@
     <!-- EN: warrior -->
     <titleShort>戰士</titleShort>
     <!-- EN: [PAWN_nameDef] was a war hero during [PAWN_possessive] planet's third world war. [PAWN_pronoun] helped prevent the launch of nuclear weapons during a particularly tense standoff. -->
-    <desc>[PAWN_nameDef]在[PAWN_possessive]星球的第三次世界大戰中成了英雄。[PAWN_pronoun]在情勢最緊繃的時候協助防止了核彈的發射。</desc>
+    <desc>[PAWN_nameDef]在[PAWN_possessive]星球的第三次世界大戰中成了英雄。[PAWN_pronoun]在情勢最緊繃的時候協助阻止了核彈的發射。</desc>
   </Warrior73>
   
   <Warrior94>
@@ -7043,7 +7051,7 @@
     <!-- EN: captain -->
     <titleShort>艦長</titleShort>
     <!-- EN: Years of being commanding officer of an advanced corvette taught [PAWN_nameDef] the art of leadership, the techniques of higher engineering, and how to stay calm while enemies try to kill you.\n\nUnfortunately, [PAWN_nameDef] only very rarely had contact with nature. -->
-    <desc>擔任先進護衛艦艦長多年的經驗教導了[PAWN_nameDef]領導的藝術、更高級的工程技術以及如何在敵人試著殺死自己時保持冷靜？\n\n不幸的是，[PAWN_nameDef]對於自然相關的事幾乎是一竅不通。</desc>
+    <desc>[PAWN_nameDef]擔任先進護衛艦艦長，多年的經驗教導了領導的藝術、更高級的工程技術以及如何在敵人試著殺死自己時保持冷靜？\n\n不幸的是，[PAWN_nameDef]對於自然相關的事幾乎是一竅不通。</desc>
   </WarshipCaptain67>
   
   <WastelandWanderer81>
