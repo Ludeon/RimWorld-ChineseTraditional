@@ -227,16 +227,16 @@
     <!-- EN: Born on a medieval farm, [PAWN_nameDef] was tasked with caring for domestic animals. [PAWN_pronoun] grew to love them.\n\nWith time, [PAWN_pronoun] learned to tame wild animals. [PAWN_pronoun] dreamed of one day meeting a thrumbo and taming it. -->
     <desc>出生於一座中世紀的農場，[PAWN_nameDef]的工作是照顧家畜們，而[PAWN_pronoun]也逐漸喜歡上動物們。\n\n漸漸的，[PAWN_pronoun]學會馴服野生動物，[PAWN_pronoun]夢想有一天能夠遇見一支獨角獸並且馴服牠。</desc>
   </AnimalCaretaker20>
-        
   <AnimalFarmer21>
     <!-- EN: animal farmer -->
-    <title>畜牧商</title>
+    <title>畜牧業者</title>
     <!-- EN: animal farmer -->
-    <titleShort>畜牧商</titleShort>
+    <titleShort>畜牧業者</titleShort>
     <!-- EN: [PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather. -->
     <desc>[Pawn_namedef]飼養了各種各樣的動物，以提供肉，牛奶，雞蛋和皮革。</desc>
   </AnimalFarmer21>
-        
+  
+  
   <AnimalLabTech39>
     <!-- EN: animal lab tech -->
     <title>動物實驗室技術員</title>
@@ -326,6 +326,15 @@
     <!-- EN: [PAWN_nameDef] was a cybernetic researcher. Studying a transcended world, [PAWN_pronoun] became too involved with [PAWN_possessive] subjects. Over time, the archotech recruited [PAWN_objective] into its service, and used [PAWN_objective] as a spy.\n\nWhen [PAWN_pronoun] later rebelled against [PAWN_possessive] inhuman master, it sent mechanoids across space to hunt [PAWN_objective] down. -->
     <desc>[PAWN_nameDef]是一名神經機械學的研究者，向先進的世界學習著，[PAWN_pronoun]變得過於投入[PAWN_possessive]研究。一段時間之後，遠古機械的核心吸收了[PAWN_pronoun]，使[PAWN_pronoun]作為間諜為機械服務。\n\n之後，當[PAWN_pronoun]起身反抗[PAWN_possessive]非人類主人時，它們派遣了許多機器人穿過宇宙，只為了逐之入死地。</desc>
   </ArchotechSpy75>
+  
+  <ArmyCommander14>
+    <!-- EN: Army commander -->
+    <title>軍隊指揮官</title>
+    <!-- EN: Commander -->
+    <titleShort>指揮官</titleShort>
+    <!-- EN: Unquenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
+    <desc>無法抑制的野心將 [PAWN_nameDef] 推向了最高級別的軍事指揮。\n\n[PAWN_pronoun] 滿足於[PAWN_objective]用自我的力量指揮死亡及痛苦於 [PAWN_possessive] 敵人以及 [PAWN_possessive] 我方士兵之上。 </desc>
+  </ArmyCommander14>
   
   <ArmyCook0>
     <!-- EN: army cook -->
@@ -438,9 +447,9 @@
   </ArtsPatron54>
   
   <ArtStudent79>
-    <!-- EN: Art student -->
+    <!-- EN: art student -->
     <title>美術系學生</title>
-    <!-- EN: Artist -->
+    <!-- EN: artist -->
     <titleShort>藝術家</titleShort>
     <!-- EN: After years of practice, Freya was able to enrol into an art university and take her skills further. She sought art industry work after graduating with good grades. She made some progress with private commissions, managing to make a decent living from heart. -->
     <desc>經過多年的練習，[PAWN_nameDef]得以進入藝術大學就讀，並進一步提高[PAWN_pronoun]的技巧。[PAWN_pronoun]以優良成績畢業後，開始從事藝術行業的工作。[PAWN_pronoun]在私人委託上取得了一些名聲，試圖靠著[PAWN_pronoun]的藝術過上像樣的生活。</desc>
@@ -916,6 +925,15 @@
     <desc>搶先法律一步，[PAWN_nameDef]成為了一名合法的商人、擁有妓院、酒館和餐廳的大老闆，並讓每張說閒話的嘴全都閉上。在遭逢一連串不幸和無法解釋的意外之後，[PAWN_nameDef]的好運還沒用盡。</desc>
   </BusinessGangster58>
   
+  <Butcher40>
+    <!-- EN: butcher -->
+    <title>屠夫</title>
+    <!-- EN: butcher -->
+    <titleShort>屠夫</titleShort>
+    <!-- EN: [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time. -->
+    <desc>[PAWN_nameDef] 在狩獵隊的主要工作是屠宰動物。 [PAWN_pronoun] 成為了用刀的高手，能夠在短時間內從一具屍體中取出每一點價值。 </desc>
+  </Butcher40>
+  
   <Cadet96>
     <!-- EN: cadet -->
     <title>斯巴達兒童</title>
@@ -925,14 +943,23 @@
     <desc>[PAWN_nameDef]出生在新中國星球上，父親是一名警察局長，對自己的孩子保持嚴密的監控。\n\n[PAWN_nameDef]每天都必須進行軍隊式的操演、保持自己房間的絕對整潔，隨時等待檢查。受此影響，[PAWN_pronoun]變得厭惡暴力。</desc>
   </Cadet96>
   
-  <CaravanChild29>
+  <CaesicMarshal72>
+    <!-- EN: Caesic marshal -->
+    <title>凱西元帥</title>
+    <!-- EN: marshal -->
+    <titleShort>元帥</titleShort>
+    <!-- EN: They say that the Caesics soldiers are recruited from the dead. Rising through such ranks, most return whence they came. [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others. -->
+    <desc>人們說凱西的士兵是從死亡中招募的。 在這些隊伍中崛起，在這樣的隊伍中崛起，而大多數人回到了他們來的地方。[PAWN_nameDef] 佔據了主導地位，因為 [PAWN_possessive]是戰略天才、機器般的專注力和對痛苦的容忍度 - [PAWN_objective] 自己和他人。</desc>
+  </CaesicMarshal72>
+  
+  <CaravanChild53>
     <!-- EN: caravan child -->
     <title>商船兒童</title>
     <!-- EN: child -->
     <titleShort>兒童</titleShort>
-    <!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother’s things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
+    <!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother's things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
     <desc>[PAWN_nameDef]出生在都市世界的商船上，母親是貿易公司的創辦人，但[PAWN_pronoun]從小就沒有父親。生為一個男孩，[PAWN_pronoun]卻不喜歡男孩的身分，經常拿母親的衣服或首飾穿戴。\n\n最後，[PAWN_pronoun]和[PAWN_possessive]母親旅行到一個閃耀世界，花光所有的積蓄改造了身體。</desc>
-  </CaravanChild29>
+  </CaravanChild53>
   
   <Caravaneer53>
     <!-- EN: caravaneer -->
@@ -951,6 +978,15 @@
     <!-- EN: Born to a family of traveling merchants, [PAWN_nameDef] was mentored by [PAWN_possessive] father in the ways of being a trader. [PAWN_pronoun] was often tasked with caring for the pack animals. Due to [PAWN_possessive] nomadic lifestyle, [PAWN_pronoun] hunted and bartered for [PAWN_possessive] food. -->
     <desc>[PAWN_nameDef]誕生於邊緣世界上的一個遊牧旅隊家族。[PAWN_possessive]父親是旅隊領袖，教授了[PAWN_pronoun]旅隊經商的手段。[PAWN_pronoun]經常負責照料動物。基於[PAWN_pronoun]的遊牧生活方式，[PAWN_pronoun]經常打獵以及以物易物來獲取食物。</desc>
   </CaravanTraveler6>
+  
+  <CardCounter25>
+    <!-- EN: card counter -->
+    <title>卡牌計數員</title>
+    <!-- EN: card counter -->
+    <titleShort>卡牌計數員</titleShort>
+    <!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids. -->
+    <desc>在城市世界的底層，強壯的孩子學會打架，聰明的孩子學會作弊，而其他的孩子會死去。 [PAWN_nameDef] 是聰明的孩子之一。 </desc>
+  </CardCounter25>
   
   <CargoPilot58>
     <!-- EN: cargo pilot -->
@@ -1006,6 +1042,15 @@
     <desc>[PAWN_nameDef]在父親身邊協助養貓生意，陪伴、餵養數百隻貓。\n\n當[PAWN_pronoun]受夠了替貓咪善後之後，[PAWN_pronoun]轉而投向育種技術部門。</desc>
   </CatHerder4>
   
+  <CaveBuilder81>
+    <!-- EN: cave builder -->
+    <title>洞穴建造師</title>
+    <!-- EN: cave builder -->
+    <titleShort>洞穴建造師</titleShort>
+    <!-- EN: [PAWN_nameDef] specialized in cave complex excavation and construction. -->
+    <desc>[PAWN_nameDef] 專門從事複雜的洞穴挖掘和建設。</desc>
+  </CaveBuilder81>
+  
   <CaveChild17>
     <!-- EN: cave child -->
     <title>洞穴兒童</title>
@@ -1024,23 +1069,32 @@
     <desc>[PAWN_nameDef]在一個大而復雜的洞穴群中長大，這個洞穴群一直延伸到山腰深處。[PAWN_pronoun]幫助大人們維護和改善洞穴。</desc>
   </CaveChild30>
   
-  <CaveworldIlluminator23>
+  <CaveExplorer45>
+    <!-- EN: cave explorer -->
+    <title>洞穴探險家</title>
+    <!-- EN: cave explorer -->
+    <titleShort>洞穴探險家</titleShort>
+    <!-- EN: [PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good. -->
+    <desc>[PAWN_nameDef] 靠繪製黑暗的隧道圖以及幾乎無法進入的裂縫中尋找有價值的礦物為生。 [PAWN_possessive] 工作很危險，但薪水不錯。 </desc>
+  </CaveExplorer45>
+  
+  <CaveworldIlluminator95>
     <!-- EN: caveworld illuminator -->
     <title>洞穴世界照明者</title>
     <!-- EN: illuminator -->
     <titleShort>照明者</titleShort>
-    <!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]’s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
+    <!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]'s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
     <desc>在洞穴居民當中，那些視力和[PAWN_nameDef]一樣好的人被尊為聖者。[PAWN_pronoun]為民指路，用發光真菌標記挖掘點並警告他人避開危險。</desc>
-  </CaveworldIlluminator23>
+  </CaveworldIlluminator95>
   
-  <CaveworldTender20>
+  <CaveworldTender26>
     <!-- EN: caveworld tender -->
     <title>洞穴世界看護員</title>
     <!-- EN: cave kid -->
     <titleShort>洞穴世界兒童</titleShort>
-    <!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe’s fungus crops. -->
+    <!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe's fungus crops. -->
     <desc>[PAWN_nameDef]在深埋地底複雜而荒涼的洞穴世界長大。[PAWN_pronoun]和其他兒童一起照料部落的菌菇作物。</desc>
-  </CaveworldTender20>
+  </CaveworldTender26>
   
   <CaveworldTunneler48>
     <!-- EN: caveworld tunneler -->
@@ -1204,14 +1258,14 @@
     <desc>[PAWN_nameDef]任職於帝國審判庭。\n\n[PAWN_nameDef]透過訓練自己的精神力量來感知週遭人們的思維與情感，為帝皇驅除異端。</desc>
   </ChurchPsychic98>
   
-  <CircusPerformer93>
+  <CircusPerformer37>
     <!-- EN: circus performer -->
     <title>馬戲團表演者</title>
     <!-- EN: performer -->
     <titleShort>表演者</titleShort>
-    <!-- EN: Growing up in the circus, [PAWN_nameDef] learned a lot of interesting things. More interesting then the balls [PAWN_pronoun] juggled were the pockets [PAWN_pronoun] picked between shows.\n\nA mistake with some firesticks made [PAWN_objective] develop a deathly fear of fire. -->
+    <!-- EN: Growing up in the circus, [PAWN_nameDef] learned a lot of interesting things. More interesting than the balls [PAWN_pronoun] juggled were the pockets [PAWN_pronoun] picked between shows.\n\nA mistake with some firesticks made [PAWN_objective] develop a deathly fear of fire. -->
     <desc>在一個馬戲團裡長大，[PAWN_nameDef]學會了許多有趣的事物，還有更有趣的是，在[PAWN_pronoun]表演雜耍的當中摸空觀眾的口袋。\n\n一次火炬表演的失誤使[PAWN_pronoun]對火焰產生了極度的恐懼。</desc>
-  </CircusPerformer93>
+  </CircusPerformer37>
   
   <CivilEngineer2>
     <!-- EN: civil engineer -->
@@ -1330,14 +1384,14 @@
     <desc>[PAWN_nameDef]是這座新殖民地的首批成員之一。\n\n從零開始的生活是非常艱難的，需要一名熟悉各種基本工作的人。</desc>
   </ColonySettler53>
   
-  <ComaChild57>
+  <ComaChild93>
     <!-- EN: coma child -->
     <title>昏迷兒童</title>
     <!-- EN: coma child -->
     <titleShort>昏迷者</titleShort>
-    <!-- EN: A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn’t wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story. -->
+    <!-- EN: A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn't wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story. -->
     <desc>童年的一場事故使得[PAWN_nameDef]陷入昏迷，直到十幾歲才甦醒過來。多年來缺乏活動導致[PAWN_possessive]身體機能無法恢復正常，當人們聽聞[PAWN_possessive]故事實往往對[PAWN_pronoun]感到同情。</desc>
-  </ComaChild57>
+  </ComaChild93>
   
   <CombatEngineer30>
     <!-- EN: combat engineer -->
@@ -1385,18 +1439,18 @@
   </CombatNegotiator31>
   
   <CommonerHeir5>
-    <!-- EN: Commoner heir -->
+    <!-- EN: commoner heir -->
     <title>平民繼承者</title>
-    <!-- EN: Heir -->
+    <!-- EN: heir -->
     <titleShort>繼承者</titleShort>
     <!-- EN: [PAWN_nameDef] was a street urchin on a feudal steamworld.\n\n        After [PAWN_pronoun] tried to steal food from the palace, the emperor, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne. -->
     <desc>[PAWN_nameDef]曾是一個封建蒸汽世界的街頭頑童。\n\n當[PAWN_pronoun]嘗試從皇宮偷取食物，迫切需要繼承人的皇帝收養了[PAWN_objective]並培養[PAWN_objective]成為下一任皇位的繼承者。</desc>
   </CommonerHeir5>
   
   <CommonerLord45>
-    <!-- EN: Commoner lord -->
+    <!-- EN: commoner lord -->
     <title>平民領主</title>
-    <!-- EN: Lord -->
+    <!-- EN: lord -->
     <titleShort>領主</titleShort>
     <!-- EN: After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.\n\n        Because of [PAWN_nameDef]'s commoner heritage, the other lords disapproved. They framed [PAWN_objective] for a heinous crime, and the emperor had no choice but to exile [PAWN_objective]. -->
     <desc>經過了數年的武術與外交訓練，[PAWN_nameDef]終於即將被賜予統治一片領土與臣民的權利。\n\n因[PAWN_nameDef]的平民血統，其他領主反對了這項提議。他們誣陷[PAWN_objective]犯下了滔天罪行，於是皇帝不得不放逐[PAWN_objective]。</desc>
@@ -1473,6 +1527,15 @@
     <!-- EN: Growing up in [PAWN_possessive] father's lab, [PAWN_nameDef] was given the life of an intellectual elite. [PAWN_pronoun] got everything [PAWN_pronoun] desired, and price was never an object.\n\nHowever [PAWN_nameDef] did not partake in the luxury given to him. Instead, [PAWN_pronoun] pursued more physical, and - in [PAWN_possessive] father's eyes - lower-class jobs. -->
     <desc>在父親的實驗室裡長大，[PAWN_nameDef]被賦予了學識精英的生命。[PAWN_pronoun]得到[PAWN_pronoun]想要的一切，代價從來不是問題。\n\n然而，[PAWN_nameDef]並沒有接受[PAWN_pronoun]父親給予的榮華富貴，相反的，[PAWN_pronoun]追求更多勞力以及────在[PAWN_pronoun]父親眼中────下賤的工作。</desc>
   </ConstructionGrunt84>
+  
+  <ContractMiner86>
+    <!-- EN: contract miner -->
+    <title>合約礦工</title>
+    <!-- EN: contract miner -->
+    <titleShort>合約礦工</titleShort>
+    <!-- EN: [PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding. -->
+    <desc>[PAWN_nameDef] 的工作一個換一個，在隧道和礦坑中提取礦物和古代貴重遺物。 這項工作既艱鉅又骯髒，但 [PAWN_pronoun] 發現這很有價值。 </desc>
+  </ContractMiner86>
   
   <ConventChild16>
     <!-- EN: convent child -->
@@ -1820,6 +1883,15 @@
     <desc>[PAWN_nameDef]熱衷於使用炸藥摧毀敵人的防禦系統。每天都在處理爆炸物的[PAWN_objective]時刻提醒自己注意保持頭腦清醒、手腳穩健。</desc>
   </Demolitionist39>
   
+  <DepartmentHead61>
+    <!-- EN: Department head -->
+    <title>部門主管</title>
+    <!-- EN: Boss -->
+    <titleShort>老闆</titleShort>
+    <!-- EN: Seeking to satiate an unconscious thirst for power, [PAWN_nameDef] entered government. [PAWN_pronoun] rose through the ranks by ruining the careers of those around [PAWN_objective].\n\nOnce established, [PAWN_possessive] bureaucratic fief allowed him to get away with severe moral transgressions. -->
+    <desc>為了滿足下意識對權力的渴望，[PAWN_nameDef] 進入了政府。 [PAWN_pronoun] 通過毀掉 [PAWN_objective] 周遭人們的職業生涯而晉升。\n\n一旦建立了官僚封地，[PAWN_possessive] 允許他逃脫嚴重的道德犯罪。 </desc>
+  </DepartmentHead61>
+  
   <Deserter65>
     <!-- EN: deserter -->
     <title>逃兵</title>
@@ -1846,6 +1918,15 @@
     <!-- EN: [PAWN_nameDef] held the rank of Destroyer-General in a powerful midworld military.\n\n[PAWN_pronoun] was known for [PAWN_possessive] mastery of weapons, and was also a good ship pilot. -->
     <desc>[PAWN_nameDef]在一個強大的中古世界軍隊中獲得了「毀滅將軍」的稱號。\n\n[PAWN_pronoun]以擅長使用各型武器聞名，同時也是一位優秀的飛行員。</desc>
   </DestroyerGeneral26>
+  
+  <Digger31>
+    <!-- EN: digger -->
+    <title>挖掘者</title>
+    <!-- EN: digger -->
+    <titleShort>挖掘者</titleShort>
+    <!-- EN: [PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions. -->
+    <desc>[PAWN_nameDef] 在礦坑和洞穴中工作，挖掘空間存放物品並躲避威脅。 [PAWN_possessive] 作品多次為[PAWN_possessive] 朋友提供藏身之處。</desc>
+  </Digger31>
   
   <Digger66>
     <!-- EN: digger -->
@@ -1919,23 +2000,32 @@
     <desc>[PAWN_nameDef]是一名帝國衛隊的軍官。[PAWN_pronoun]擅長指揮作戰，受到士兵的尊敬。\n\n但當部隊遇襲時，[PAWN_nameDef]卻選擇躲藏起來，[PAWN_pronoun]因此被降職，再也抬不起頭來。</desc>
   </DisgracedOfficer19>
   
-  <DisplacedNoble83>
+  <DisplacedNoble67>
     <!-- EN: displaced noble -->
     <title>落難貴族</title>
     <!-- EN: noble -->
     <titleShort>貴族</titleShort>
-    <!-- EN: Born on an urbworld to the ruler of three megacities, [PAWN_nameDef]’s prospects looked good - until a violent insurrection overthrew [PAWN_possessive] family. Exile introduced [PAWN_nameDef] to hard work and combat, but some high-born squeamishness remains. -->
+    <!-- EN: Born on an urbworld to the ruler of three megacities, [PAWN_nameDef]'s prospects looked good - until a violent insurrection overthrew [PAWN_possessive] family. Exile introduced [PAWN_nameDef] to hard work and combat, but some high-born squeamishness remains. -->
     <desc>生於統治某個都市世界三座超級都市的貴族，[PAWN_nameDef]的願景似乎一片光明────直到暴動推翻了[PAWN_possessive]家族。流亡促使[PAWN_nameDef]學會辛勤工作和打鬥，但某些出身高貴的氣質仍殘留在[PAWN_possessive]血統中。</desc>
-  </DisplacedNoble83>
+  </DisplacedNoble67>
   
-  <DoomsdayPariah24>
+  <DivorceKid95>
+    <!-- EN: divorce kid -->
+    <title>單親兒童</title>
+    <!-- EN: divorce -->
+    <titleShort>TODO</titleShort>
+    <!-- EN: [PAWN_nameDef] was fortunate enough to attend one of the best private schools on [PAWN_possessive] homeworld.\n\n[PAWN_nameDef] was also unfortuante enough to see [PAWN_possessive] parents separate at a young age. -->
+    <desc>[PAWN_nameDef] 有幸進入 [PAWN_possessive] 家鄉中最好的私立學校之一。\n\n[PAWN_nameDef] 也很不幸地看到 [PAWN_possessive] 父母在很小的時候就離婚了。</desc>
+  </DivorceKid95>
+  
+  <DoomsdayPariah18>
     <!-- EN: doomsday pariah -->
-    <title>末日混蛋</title>
+    <title>末日賤民</title>
     <!-- EN: pariah -->
-    <titleShort>混蛋</titleShort>
-    <!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault’s spacecraft and departed to find more relics to abuse. -->
+    <titleShort>賤民</titleShort>
+    <!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault's spacecraft and departed to find more relics to abuse. -->
     <desc>[PAWN_nameDef]在搜刮某個挖掘地點時開啟了一座埋藏著異世界科技的地堡，無意間觸發了一個末日裝置，消滅了星球上的所有生物。比起人命，[PAWN_nameDef]更在意這裡的科技，[PAWN_pronoun]登上了地堡中的星艦，出發去找尋更多可供[PAWN_pronoun]玩弄的遺跡。</desc>
-  </DoomsdayPariah24>
+  </DoomsdayPariah18>
   
   <DreadedBaby56>
     <!-- EN: dreaded baby -->
@@ -2090,6 +2180,15 @@
     <desc>二十一歲生日時，[PAWN_nameDef]領悟了宗教的力量。[PAWN_pronoun]一生都投入宗教，傳播神明的啟示、美好的文化和奇異的藥學知識。</desc>
   </Evangelist39>
   
+  <Excavator55>
+    <!-- EN: excavator -->
+    <title>挖掘者</title>
+    <!-- EN: excavator -->
+    <titleShort>挖掘者</titleShort>
+    <!-- EN: [PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools. -->
+    <desc>[PAWN_nameDef] 在挖掘場工作，從古老的遺跡中尋找有價值的物品和材料。 [PAWN_pronoun] 學會了如何在地下發現貴重物品並使用各種挖掘工具。 </desc>
+  </Excavator55>
+  
   <ExecutiveOfficer5>
     <!-- EN: executive officer -->
     <title>執行長</title>
@@ -2116,6 +2215,15 @@
     <!-- EN: [PAWN_nameDef]'s love of robotics was not appreciated in [PAWN_possessive] technophobic empire. The High Cardinal of the system excommunicated her, and [PAWN_pronoun] was never allowed to return. -->
     <desc>[PAWN_nameDef]對機器人學的熱愛在[PAWN_pronoun]那對科技懷有恐懼的帝國不受歡迎，帝國體制的最高主教將[PAWN_pronoun]驅逐，永遠不得返回。</desc>
   </ExiledResearcher44>
+  
+  <ExMilitary9>
+    <!-- EN: ex-military -->
+    <title>退伍軍人</title>
+    <!-- EN: ex-military -->
+    <titleShort>退伍軍人</titleShort>
+    <!-- EN: [PAWN_nameDef] always had an appetite for risk. Military life satisfied that need for a while, but eventually it wasn't enough.\n\nSeeking greater gambles, [PAWN_nameDef] took an offer from a mysterious machine persona and traveled to an unknown rimworld with a mysterious implant in [PAWN_possessive] head. -->
+    <desc>[PAWN_nameDef] 總是喜歡承擔風險。 軍旅生活暫時滿足了這種需要，但最終還是不夠。\n\n為了尋求更大的賭注，[PAWN_nameDef] 接受了一個神秘機器人的邀請，並帶著 [PAWN_possessive] 頭部的神秘植入物前往了一個未知的邊緣世界。</desc>
+  </ExMilitary9>
   
   <ExoticChef96>
     <!-- EN: exotic chef -->
@@ -2387,6 +2495,15 @@
     <desc>當[PAWN_pronoun]還是嬰兒時，[PAWN_nameDef]的母親將[PAWN_objective]遺棄在森林之中。\n\n被野人們養大的[PAWN_nameDef]同時擅長關愛和屠殺動物。</desc>
   </ForestChild83>
   
+  <Forester96>
+    <!-- EN: forester -->
+    <title>林務員</title>
+    <!-- EN: forester -->
+    <titleShort>林務員</titleShort>
+    <!-- EN: [PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth. -->
+    <desc>[PAWN_nameDef] 種植和砍伐森林。 [PAWN_pronoun] 了解土壤的類型、風和雨的實用技術，以及促進森林生長的長期規劃。</desc>
+  </Forester96>
+  
   <ForestProwler15>
     <!-- EN: forest prowler -->
     <title>森林飛賊</title>
@@ -2458,6 +2575,15 @@
     <!-- EN: [PAWN_nameDef] rebelled against the corporation [PAWN_pronoun] worked for. [PAWN_pronoun] failed, and was forced [PAWN_objective] to go on the run.\n\n[PAWN_pronoun] was always on the move, always leaving everything behind. [PAWN_pronoun] tried to gain supporters for [PAWN_possessive] cause, but failed due to [PAWN_possessive] poor social skills. -->
     <desc>[PAWN_nameDef]起身反抗[PAWN_pronoun]工作的企業卻失敗了，被迫亡命天涯。\n\n[PAWN_pronoun]總是不停的移動，不停的拋下一切。[PAWN_pronoun]曾經試著以自己的經歷尋求援助，卻被自己糟糕的社交能力給搞砸了。</desc>
   </Fugitive4>
+  
+  <FurnitureBuilder50>
+    <!-- EN: furniture builder -->
+    <title>家具製造者</title>
+    <!-- EN: builder -->
+    <titleShort>製造者</titleShort>
+    <!-- EN: [PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent his time building beautiful furniture for wealthy glitterworld clients. -->
+    <desc>[PAWN_nameDef]在森林附近長大。 [PAWN_pronoun] 花費時間為富有的閃耀世界客戶製造漂亮的家具。</desc>
+  </FurnitureBuilder50>
   
   <GalacticPage37>
     <!-- EN: galactic page -->
@@ -2670,14 +2796,14 @@
     <desc>[PAWN_nameDef]被設計為一所實驗室的小矮人計畫的部分。[PAWN_pronoun]在誕生的同時被植入了關於異種生物的一切知識。\n\n計畫的科學家給[PAWN_pronoun]起了名稱：[PAWN_nameDef]，並安排[PAWN_pronoun]去雕刻小矮人，[PAWN_pronoun]也因此對雕刻與製作小矮人的配件產生了熱忱。</desc>
   </GNomeSculptor34>
   
-  <GovernmentAgent47>
+  <GovernmentAgent61>
     <!-- EN: government agent -->
     <title>政府特務</title>
     <!-- EN: agent -->
     <titleShort>特務</titleShort>
-    <!-- EN: [PAWN_nameDef] worked for the government against rebel groups and excelled in this capacity. During [PAWN_possessive] training [PAWN_pronoun] was taught firearms, melee combat and medical skills.\n\nHaving grown up in a war-ravaged city, dirt, blood and dead bodies don’t bother [PAWN_objective] and [PAWN_pronoun] sees no reason to clean them up. -->
+    <!-- EN: [PAWN_nameDef] worked for the government against rebel groups and excelled in this capacity. During [PAWN_possessive] training [PAWN_pronoun] was taught firearms, melee combat and medical skills.\n\nHaving grown up in a war-ravaged city, dirt, blood and dead bodies don't bother [PAWN_objective] and [PAWN_pronoun] sees no reason to clean them up. -->
     <desc>[PAWN_nameDef]為政府打擊叛亂團體，並且表現得非常出色。[PAWN_pronoun]在培訓期間受過射擊、肉搏以及醫療訓練。\n\n[PAWN_pronoun]在一個戰火瀰漫的城市中長大，對髒汙、鮮血和死屍習以為常，[PAWN_pronoun]認為沒必要特地清理他們。</desc>
-  </GovernmentAgent47>
+  </GovernmentAgent61>
   
   <GraphicDesigner33>
     <!-- EN: graphic designer -->
@@ -2687,6 +2813,15 @@
     <!-- EN: [PAWN_nameDef]' interest in artistic expression led [PAWN_objective] to become a designer. [PAWN_possessive] eye for detail made [PAWN_objective] a reasonably well-known artist on [PAWN_possessive] planet, though [PAWN_possessive] meticulousness often led [PAWN_objective] to spend too much time perfecting a single project. -->
     <desc>[PAWN_nameDef]對藝術表現的興趣使[PAWN_pronoun]成為了一名設計師。[PAWN_pronoun]有著細膩的眼光，這讓[PAWN_pronoun]在星球上頗有名氣，只不過對細節的堅持常常導致[PAWN_pronoun]花費太多時間完成一份作品。</desc>
   </GraphicDesigner33>
+  
+  <GrownMate56>
+    <!-- EN: grown mate -->
+    <title>成人伴侶</title>
+    <!-- EN: mate -->
+    <titleShort>成人伴侶</titleShort>
+    <!-- EN: [PAWN_nameDef] was vatgrown in a hyper-expensive clinic to serve the tastes of a specific client.\n\nEngineered, raised and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. -->
+    <desc>[PAWN_nameDef] 是在一家超級昂貴的診所裡培育出來的，用以滿足特定客戶的癖好。\n\n被精心設計、培養和訓練，成為一個完美的歡愉伴侶，[PAWN_pronoun] 所學的技巧成為了富有魅力的人類情侶們的阻礙。</desc>
+  </GrownMate56>
   
   <Guardian55>
     <!-- EN: guardian -->
@@ -2769,15 +2904,6 @@
     <desc>透過電腦連上了Headjacker幾天後，[PAWN_nameDef]發現自己比較喜歡虛擬世界的人和寵物。</desc>
   </HeadjackAddict4>
   
-  <Healer0>
-    <!-- EN: healer -->
-    <title>治療者</title>
-    <!-- EN: healer -->
-    <titleShort>治療者</titleShort>
-    <!-- EN: After [PAWN_possessive] tribe’s elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
-    <desc>在[PAWN_possessive]部落的治療者長老在襲擊中被殺害，[PAWN_nameDef]接替了這個角色。[PAWN_pronoun]花費許多日子在鄰近地區尋覓草藥和礦物素材，用來製作效果出奇的藥物。</desc>
-  </Healer0>
-  
   <Healer35>
     <!-- EN: healer -->
     <title>治療者</title>
@@ -2786,6 +2912,15 @@
     <!-- EN: [PAWN_nameDef] took the time to admire the beauty of the world. \n\n[PAWN_possessive] passive-aggressiveness surfaced once in a while, but [PAWN_pronoun] tried to adapt to [PAWN_possessive] changing life. -->
     <desc>[PAWN_nameDef]曾經見過這世界美麗的一面。\n\n[PAWN_possessive]殺戮衝動曾經控制了[PAWN_pronoun]一段時間，但現在，[PAWN_pronoun]努力適應[PAWN_possessive]新生活。</desc>
   </Healer35>
+  
+  <Healer46>
+    <!-- EN: healer -->
+    <title>治療者</title>
+    <!-- EN: healer -->
+    <titleShort>治療者</titleShort>
+    <!-- EN: After [PAWN_possessive] tribe's elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
+    <desc>在[PAWN_possessive]部落的治療者長老在襲擊中被殺害，[PAWN_nameDef]接替了這個角色。[PAWN_pronoun]花費許多日子在鄰近地區尋覓草藥和礦物素材，用來製作效果出奇的藥物。</desc>
+  </Healer46>
   
   <HearthTender66>
     <!-- EN: hearth tender -->
@@ -2831,6 +2966,15 @@
     <!-- EN: [PAWN_nameDef] tended the muffalo herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people. -->
     <desc>[PAWN_nameDef]負責照料部落的毛牛群，保護牠們不受掠食者攻擊並照顧生病者。工作相當辛苦，但[PAWN_nameDef]很享受遠離人群的生活。</desc>
   </Herder19>
+  
+  <Herder33>
+    <!-- EN: herder -->
+    <title>牧人</title>
+    <!-- EN: herder -->
+    <titleShort>牧人</titleShort>
+    <!-- EN: [PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail. -->
+    <desc>[PAWN_nameDef] 放牧各種動物， 在[PAWN_possessive] 部落移動時幫助餵養和提供衣物。 [PAWN_nameDef] 學會如何安撫和指揮野獸，以及如何在小徑上獵殺 [PAWN_possessive] 自己的食物。</desc>
+  </Herder33>
   
   <Hermit82>
     <!-- EN: hermit -->
@@ -2913,14 +3057,14 @@
     <desc>深知街頭生活的真實面貌，[PAWN_nameDef]進入了警察的職業生涯中。然而，[PAWN_pronoun]在一起格外難纏的案件失手打死了嫌犯。\n\n不光彩的卸下警徽後，[PAWN_pronoun]利用自己的人脈和技能成為受人僱用的打手。</desc>
   </HiredMuscle5>
   
-  <HistoryStudent78>
+  <HistoryStudent12>
     <!-- EN: history student -->
     <title>歷史學生</title>
     <!-- EN: student -->
     <titleShort>學生</titleShort>
-    <!-- EN: As a child, [PAWN_nameDef] spent learned many artistic forms including music and novel writing. As [PAWN_pronoun] grew older, [PAWN_pronoun] began to study legends from [PAWN_possessive] home world - legends of the lizard-like beings at the center of [PAWN_possessive] culture's folklore. -->
-    <desc>從小，[PAWN_nameDef]花了許多時間學習各種不同類型的藝術作品，包括音樂和小說。長大以後，[PAWN_pronoun]開始學習[PAWN_pronoun]家鄉世界的傳說────[PAWN_pronoun]家鄉的民俗文化中有關長得像蜥蜴的物種的傳說。</desc>
-  </HistoryStudent78>
+    <!-- EN: As a child, [PAWN_nameDef] learned many artistic forms including music and novel writing. As [PAWN_pronoun] grew older, [PAWN_pronoun] began to study legends from [PAWN_possessive] home world - legends of the lizard-like beings at the center of [PAWN_possessive] culture's folklore. -->
+    <desc>從小，[PAWN_nameDef]學習各種不同類型的藝術作品，包括音樂和小說。長大以後，[PAWN_pronoun]開始學習[PAWN_pronoun]家鄉世界的傳說────[PAWN_pronoun]家鄉的民俗文化中有關長得像蜥蜴的物種的傳說。</desc>
+  </HistoryStudent12>
   
   <Housemate8>
     <!-- EN: housemate -->
@@ -2989,6 +3133,15 @@
     <desc>[PAWN_nameDef]追蹤，陷住並殺死動物用以獲取它們的皮毛和肉。\n\n[PAWN_nameDef]同時熟用遠程與近戰武器。有時[PAWN_pronoun]也與其他掠食性動物共同捕獵</desc>
   </Hunter74>
   
+  <Hunter89>
+    <!-- EN: hunter -->
+    <title>獵人</title>
+    <!-- EN: hunter -->
+    <titleShort>獵人</titleShort>
+    <!-- EN: [PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season. -->
+    <desc>[PAWN_nameDef] 獵殺野生動物來養活 [PAWN_possessive] 社群。 當日子變得艱難時，其他人將 [PAWN_objective] 視為幫助人們度過艱難時期的人。 </desc>
+  </Hunter89>
+  
   <HunterOfTheKing53>
     <!-- EN: hunter of the king -->
     <title>國王的獵人</title>
@@ -3008,9 +3161,9 @@
   </HunterScavenger64>
   
   <HypnocultLeader61>
-    <!-- EN: Hypnocult leader -->
+    <!-- EN: hypnocult leader -->
     <title>邪教徒領袖</title>
-    <!-- EN: Cultist -->
+    <!-- EN: cultist -->
     <titleShort>邪教徒</titleShort>
     <!-- EN: Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n        [PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested. -->
     <desc>致力於理解別人，[PAWN_nameDef]學習了催眠手法並發現了[PAWN_possessive]在此藝上的天賦。\n\n[PAWN_pronoun]集中了追隨者們並組建了一個以[PAWN_possessive]多變的人格為核心的邪教。當局很快就發現了[PAWN_possessive]非法行為，而[PAWN_nameDef]也在被拘捕之前逃之夭夭。</desc>
@@ -3155,6 +3308,15 @@
     <desc>[PAWN_nameDef]跳上了開往下一個星系的星艦，展開了旅行和學習的人生，很快的便從各種各樣的人們身上學到了大量的知識。\n\n[PAWN_pronoun]學會將[PAWN_possessive]知識轉變成龐大的利潤，成為了一名專業的智庫經理人。</desc>
   </InformationBroker77>
   
+  <InsuranceBroker9>
+    <!-- EN: insurance broker -->
+    <title>保險經紀人</title>
+    <!-- EN: broker -->
+    <titleShort>經紀人</titleShort>
+    <!-- EN: A life of insurance dealing consumed [PAWN_nameDef]'s hopes and dreams. When a mysterious machine persona offered the gambler implant, it seemed like a way to add color to a gray existence.\n\n[PAWN_nameDef] did not, however, plan on being captured by pirates and sent across the galaxy to a distant rimworld. -->
+    <desc>保險交易的生活虛耗了[PAWN_nameDef]的希望和夢想。 當一個神秘的機器角色提供賭徒植入物時，這似乎是添加人生色彩的一種灰色地帶的存在。\n\n不過[PAWN_nameDef] 並沒有打算被海盜抓住並穿越銀河系被送到遙遠的邊緣世界。</desc>
+  </InsuranceBroker9>
+  
   <IntelligenceAgent10>
     <!-- EN: intelligence agent -->
     <title>情報員</title>
@@ -3191,14 +3353,14 @@
     <desc>在[PAWN_possessive]家鄉世界，[PAWN_nameDef]是一名成功的發明家，專門開發小型技術。</desc>
   </Inventor6>
   
-  <InvoluntaryHermit24>
+  <InvoluntaryHermit38>
     <!-- EN: involuntary hermit -->
     <title>非自願的隱士</title>
     <!-- EN: hermit -->
     <titleShort>隱士</titleShort>
-    <!-- EN: [PAWN_nameDef]’s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
+    <!-- EN: [PAWN_nameDef]'s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
     <desc>[PAWN_nameDef]的逃生艙墜落在一個未被探索過的遙遠外世界，在只有一群毛牛的陪伴下展開了孤獨的生活。\n\n後來，[PAWN_pronoun]被人發現穿著袋熊皮衣正在與一群老毛牛講述足蹄衛生的重要性。</desc>
-  </InvoluntaryHermit24>
+  </InvoluntaryHermit38>
   
   <Jailbird40>
     <!-- EN: jailbird -->
@@ -3227,14 +3389,14 @@
     <desc>[PAWN_nameDef]在都市世界的實驗室裡開發一款尖端的樂絲軟體以最大限度地提高用戶的快樂度。\n\n當地方政府開始嚴厲限制樂絲軟體的開發後，[PAWN_pronoun]開始在黑市中販售自己的產品。</desc>
   </JoywireArtist8>
   
-  <JungleKid31>
+  <JungleKid35>
     <!-- EN: jungle kid -->
     <title>叢林之子</title>
     <!-- EN: jungle kid -->
     <titleShort>叢林之子</titleShort>
-    <!-- EN: [PAWN_nameDef] was abandoned as a newborn, and grew up among the animals of [PAWN_possessive] homeworld’s dense jungles.\n\nWhen [PAWN_pronoun] was a teenager, a traveling doctor found [PAWN_objective] injured near a road, hissing and meowing. [PAWN_pronoun] rescued [PAWN_objective] and took [PAWN_objective] on as an apprentice. -->
+    <!-- EN: [PAWN_nameDef] was abandoned as a newborn, and grew up among the animals of [PAWN_possessive] homeworld's dense jungles.\n\nWhen [PAWN_pronoun] was a teenager, a traveling doctor found [PAWN_objective] injured near a road, hissing and meowing. [PAWN_pronoun] rescued [PAWN_objective] and took [PAWN_objective] on as an apprentice. -->
     <desc>[PAWN_nameDef]剛出生就被遺棄，與動物們一起在[PAWN_possessive]家鄉世界的密林中長大。\n\n在[PAWN_pronoun]青少年時，一名旅行的醫生發現了[PAWN_pronoun]受傷倒在路旁，發出動物般的叫聲。醫生救了[PAWN_pronoun]並收[PAWN_pronoun]作為徒弟。</desc>
-  </JungleKid31>
+  </JungleKid35>
   
   <JunkyardMechanic51>
     <!-- EN: junkyard mechanic -->
@@ -3317,6 +3479,15 @@
     <desc>[PAWN_nameDef]獨立開發軟體，並與幾個當地都市世界的企業佔有競爭優勢。\n\n在司法方面，越來越多人質疑[PAWN_nameDef]剽竊他人的智慧財產。</desc>
   </LazyProgrammer3>
   
+  <LazyWorker78>
+    <!-- EN: lazy worker -->
+    <title>怠惰工人</title>
+    <!-- EN: lazy worker -->
+    <titleShort>怠惰工人</titleShort>
+    <!-- EN: When [PAWN_nameDef] was offered [PAWN_possessive] yearly salary in order to test a new implant, [PAWN_pronoun] jumped at the chance. Ever since then, [PAWN_nameDef] has been looking for a way to get it removed. -->
+    <desc>當 [PAWN_nameDef] 被提供了[PAWN_possessive] 年薪來測試新款植入物時，[PAWN_pronoun] 抓住了這個機會。 從那時起，[PAWN_nameDef]就一直在尋找將其移除的方法。</desc>
+  </LazyWorker78>
+  
   <LineInfanteer20>
     <!-- EN: line infanteer -->
     <title>軍武步兵</title>
@@ -3343,6 +3514,15 @@
     <!-- EN: [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo. -->
     <desc>[PAWN_nameDef]為部落砍倒並搬運原木。  [PAWN_pronoun]持有著[PAWN_possessive]斧頭，擁有著藝術家一樣的技巧和像雪牛一樣大的力量</desc>
   </Logger16>
+  
+  <Logger95>
+    <!-- EN: logger -->
+    <title>記錄員</title>
+    <!-- EN: logger -->
+    <titleShort>記錄員</titleShort>
+    <!-- EN: [PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy. -->
+    <desc>[PAWN_nameDef] 在丘陵和峽谷中砍伐樹木並收集木材。 [PAWN_pronoun] 學會如何安全的伐木，以及如何管理森林以保持其健康。</desc>
+  </Logger95>
   
   <LogicalChild2>
     <!-- EN: logical child -->
@@ -3452,15 +3632,6 @@
     <desc>身為一個會計師，[PAWN_nameDef]經常與同事來往，並且在高層結交不少朋友。\n\n一天，[PAWN_nameDef]發現了一起由[PAWN_possessive]老闆所主導的弊端。報告此事後，[PAWN_pronoun]就被炒了，為了獵殺那些該為此負責的人，[PAWN_pronoun]發起了一場屠殺。</desc>
   </MadAccountant61>
   
-  <MadScientist0>
-    <!-- EN: mad scientist -->
-    <title>瘋狂科學家</title>
-    <!-- EN: scientist -->
-    <titleShort>科學家</titleShort>
-    <!-- EN: Stripped of [PAWN_possessive] life’s work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
-    <desc>在[PAWN_pronoun]對Callos IX事件的倖存者進行的不人道實驗曝光後，[PAWN_nameDef]被剝奪了事業並放逐。[PAWN_pronoun]學會了在邊緣世界生存所需的必要技能。\n\n在無所能失的境地，[PAWN_pronoun]繼續著[PAWN_pronoun]的研究，讓手下處理[PAWN_pronoun]不願碰觸的麻煩事。</desc>
-  </MadScientist0>
-  
   <MadScientist2>
     <!-- EN: mad scientist -->
     <title>瘋狂科學家</title>
@@ -3469,6 +3640,15 @@
     <!-- EN: [PAWN_nameDef]'s lust for knowledge was only matched by [PAWN_possessive] disdain for anyone who would stand in the way of [PAWN_possessive] research.\n\nTraveling from world to world, [PAWN_pronoun] sought answers to questions few dared to ask. -->
     <desc>只有[PAWN_pronoun]對任何阻礙它的研究的人的蔑視比得上[PAWN_nameDef]對知識的渴望。\n\n周遊於各世界之間，[PAWN_pronoun]尋求的解答極少有人敢於質問。</desc>
   </MadScientist2>
+  
+  <MadScientist22>
+    <!-- EN: mad scientist -->
+    <title>瘋狂科學家</title>
+    <!-- EN: scientist -->
+    <titleShort>科學家</titleShort>
+    <!-- EN: Stripped of [PAWN_possessive] life's work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
+    <desc>在[PAWN_pronoun]對Callos IX事件的倖存者進行的不人道實驗曝光後，[PAWN_nameDef]被剝奪了事業並放逐。[PAWN_pronoun]學會了在邊緣世界生存所需的必要技能。\n\n在無所能失的境地，[PAWN_pronoun]繼續著[PAWN_pronoun]的研究，讓手下處理[PAWN_pronoun]不願碰觸的麻煩事。</desc>
+  </MadScientist22>
   
   <MadScientist31>
     <!-- EN: mad scientist -->
@@ -3713,9 +3893,9 @@
   </MedievalMinstrel95>
   
   <MedievalNomad12>
-    <!-- EN: Medieval nomad -->
+    <!-- EN: medieval nomad -->
     <title>中世紀部落</title>
-    <!-- EN: Nomad -->
+    <!-- EN: nomad -->
     <titleShort>部落人</titleShort>
     <!-- EN: Born to a nomadic family in a feudal society, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.\n\n        [PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family. -->
     <desc>[PAWN_nameDef]出生在中古世界的一個游牧部落家庭，接受過口才、魔術表演、和騎馬方面的教育。\n\n[PAWN_pronoun]總是來回奔波在附近的營地做零工，以幫助[PAWN_possessive]大家庭。</desc>
@@ -3821,9 +4001,9 @@
   </Mercenary55>
   
   <MercenaryCaptain98>
-    <!-- EN: Mercenary captain -->
+    <!-- EN: mercenary captain -->
     <title>傭兵隊長</title>
-    <!-- EN: Captain -->
+    <!-- EN: captain -->
     <titleShort>隊長</titleShort>
     <!-- EN: [PAWN_nameDef] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_pronoun] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
     <desc>[PAWN_pronoun]是傭兵戰艦的一名船員。[PAWN_nameDef]守序且自信，很快就在隊伍中嶄露頭角，結交了不少朋友。\n\n在[PAWN_nameDef]傭兵隊長生涯中，[PAWN_pronoun]以善於社交和冷靜而知名——這可能是樂絲晶片的功勞。</desc>
@@ -3874,14 +4054,14 @@
     <desc>出生在長遠的傭兵血脈，[PAWN_nameDef]在一個繁華的交易站長大，年紀輕輕便被招募進傭兵組織。</desc>
   </MercenaryRecruit18>
   
-  <MercenaryRecruit64>
+  <MercenaryRecruit36>
     <!-- EN: mercenary recruit -->
     <title>菜鳥傭兵</title>
     <!-- EN: mercenary -->
     <titleShort>新兵</titleShort>
-    <!-- EN: Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.\n\n[PAWN_possessive]'s interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training. -->
+    <!-- EN: Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.\n\n[PAWN_possessive] interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training. -->
     <desc>出身自長遠的傭兵血脈，[PAWN_nameDef]在一個繁華的交易站長大。\n\n[PAWN_pronoun]對市場裡珍奇的異星貨品的興趣經常分散他在日常生活與訓練的注意力。</desc>
-  </MercenaryRecruit64>
+  </MercenaryRecruit36>
   
   <MessageCarrier77>
     <!-- EN: message carrier -->
@@ -4370,9 +4550,9 @@
   </Orphan25>
   
   <OrphanedAcrobat84>
-    <!-- EN: Orphaned acrobat -->
+    <!-- EN: orphaned acrobat -->
     <title>孤兒雜技演員</title>
-    <!-- EN: Acrobat -->
+    <!-- EN: acrobat -->
     <titleShort>雜技演員</titleShort>
     <!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end. -->
     <desc>作為一個出生於安靜的都市世界的孤兒，[PAWN_nameDef]被邀請加入一個巡迴馬戲團。[PAWN_possessive]矮小的身材和天然的觀察能力幫助[PAWN_nameDef]成為了著名的雜技演員。\n\n遺憾的是，[PAWN_possessive]暴力傾向讓[PAWN_possessive]雜技演員生涯提前結束了。</desc>
@@ -4461,6 +4641,15 @@
     <desc>[PAWN_nameDef]的童年幾乎都花在照顧[PAWN_pronoun]贖買下和拯救的動物。\n\n[PAWN_pronoun]在大自然中看見的美遠多於虛假的人造物，並且選擇與動物為伍而非[PAWN_possessive]同儕。</desc>
   </PetKeeper7>
   
+  <PetTorturer60>
+    <!-- EN: pet torturer -->
+    <title>動物虐待者</title>
+    <!-- EN: pet torturer -->
+    <titleShort>動物虐待者</titleShort>
+    <!-- EN: [PAWN_nameDef]'s affluent family helped conceal [PAWN_possessive] habit of torturing animals.\n\nDespite years of therapy, [PAWN_pronoun] could never bring [PAWN_objective]self to interact with the little beasts in any normal way. [PAWN_pronoun] did learn a few things about how bodies live and die. -->
+    <desc>[PAWN_nameDef] 富裕的家庭幫忙掩蓋了 [PAWN_possessive] 虐待動物的習慣。\n\n儘管經過多年的治療，[PAWN_pronoun] 始終無法讓 [PAWN_objective] 自己以任何正常的方式與小野獸互動。 [PAWN_pronoun] 確實了解了一些關於生命是如何生存和死亡的。</desc>
+  </PetTorturer60>
+  
   <Philosopher82>
     <!-- EN: philosopher -->
     <title>哲學家</title>
@@ -4542,14 +4731,14 @@
     <desc>[PAWN_nameDef]對醫學有著熱情，但從沒想過要拿到醫學學位。只有捉襟見肘的海賊和恐部份子搶著僱用[PAWN_pronoun]，而[PAWN_pronoun]經手的患者從活率大約有50%。\n\n儘管如此，[PAWN_pronoun]繼續抱持著樂觀的態度治療有需要的人，只要他們掏錢。</desc>
   </PirateDoctor0>
   
-  <PirateKing81>
+  <PirateKing69>
     <!-- EN: pirate king -->
     <title>海賊王</title>
     <!-- EN: pirate -->
     <titleShort>海賊</titleShort>
-    <!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objecive] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
+    <!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objective] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
     <desc>對他人毫不關心，曾為俘虜的[PAWN_nameDef]完美融入了海賊群體中。沒多久，[PAWN_nameDef]成了神擋殺神、佛擋殺佛的魔鬼────即使是自己的海賊同伴也毫不留情。</desc>
-  </PirateKing81>
+  </PirateKing69>
   
   <PirateSympathizer24>
     <!-- EN: pirate sympathizer -->
@@ -4650,6 +4839,15 @@
     <desc>[PAWN_nameDef]是一家大型行星礦業公司的採礦工程師。[PAWN_pronoun]的工作性質決定了[PAWN_objective]總是需要在地下待數週，這使[PAWN_pronoun]變得偏愛黑暗的環境。</desc>
   </PlanetaryMiner64>
   
+  <PlankCutter72>
+    <!-- EN: plank cutter -->
+    <title>木匠</title>
+    <!-- EN: plank cutter -->
+    <titleShort>木匠</titleShort>
+    <!-- EN: [PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits. -->
+    <desc>[PAWN_nameDef] 將樹木切割成堅固的木板來建造巨大的木製建築來幫助[PAWN_possessive] 部落。 [PAWN_nameDef] 理解對木材的生長和切割方式。</desc>
+  </PlankCutter72>
+  
   <PoisonGardener29>
     <!-- EN: poison gardener -->
     <title>毒物園丁</title>
@@ -4698,6 +4896,15 @@
     <!-- EN: [PAWN_nameDef] was kidnapped by a rival family and held for ransom. To pass the time in captivity, [PAWN_pronoun] read books and practiced martial arts. [PAWN_nameDef] had few opportunities to develop [PAWN_possessive] social skills. -->
     <desc>[PAWN_nameDef]被一個敵對的家庭綁架並勒索贖金。為了在囚禁中消磨時間，[PAWN_pronoun]讀書練武，但很少有機會發展社交技能。</desc>
   </PoliticalCaptive7>
+  
+  <PoliticalClimber28>
+    <!-- EN: political climber -->
+    <title>政治野心家</title>
+    <!-- EN: political climber -->
+    <titleShort>政治野心家</titleShort>
+    <!-- EN: [PAWN_nameDef] was a smart kid, so everyone encouraged [PAWN_possessive] ambition to become a politician.\n\n[PAWN_pronoun] would use any tactic to win, including direct psychological attacks.\n\nDuring one school election, the other candidate hung himself. [PAWN_nameDef] won by default. -->
+    <desc>[PAWN_nameDef] 是個聰明的孩子，所以每個人都鼓勵 [PAWN_possessive] 成為一名政治家的志向。\n\n[PAWN_pronoun] 會使用任何策略來獲勝，包括直接的心理攻擊。\n\n在一次學校選舉中，另一名候選人上吊自殺了。 [PAWN_nameDef] 因此勝選。</desc>
+  </PoliticalClimber28>
   
   <Politician57>
     <!-- EN: politician -->
@@ -4879,6 +5086,15 @@
     <desc>[PAWN_nameDef]從小就對火焰有著病態的迷戀，[PAWN_pronoun]會放火燃燒垃圾堆，看著火焰竄燒，自己也會亢奮起來，甚至一不小心誤燒到自己。\n\n某天[PAWN_nameDef]在玩火柴時，不小心把家給燒了。</desc>
   </Pyromaniac18>
   
+  <QuarryWorker29>
+    <!-- EN: quarry worker -->
+    <title>採石場工人</title>
+    <!-- EN: quarry worker -->
+    <titleShort>採石場工人</titleShort>
+    <!-- EN: [PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition. -->
+    <desc>[PAWN_nameDef] 在採石場工作，從山坡上提取有價值的石頭。 [PAWN_pronoun] 學會了透過視覺、觸覺和直覺來感知石頭中暗藏的機會和危險。</desc>
+  </QuarryWorker29>
+  
   <QuietNerd97>
     <!-- EN: quiet nerd -->
     <title>沈默的書呆子</title>
@@ -4915,6 +5131,15 @@
     <desc>[PAWN_nameDef]獨自隱居於深林之中。[PAWN_pronoun]保護野生動物免於盜獵，並學會了如何在無外界的支援下滿足自身的物質需求。</desc>
   </Ranger6>
   
+  <Ranger96>
+    <!-- EN: ranger -->
+    <title>遊俠</title>
+    <!-- EN: ranger -->
+    <titleShort>遊俠</titleShort>
+    <!-- EN: [PAWN_nameDef] tracked animals and people for a wide range of clients. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey. -->
+    <desc>[PAWN_nameDef] 為廣泛的客戶追蹤動物和人們。 [PAWN_pronoun] 變得擅長解析蹤跡、在野外尋找食物和跟踪獵物。</desc>
+  </Ranger96>
+  
   <RangerChild57>
     <!-- EN: ranger child -->
     <title>遊俠之子</title>
@@ -4943,9 +5168,9 @@
   </RebelFighter39>
   
   <RebelliousStudent74>
-    <!-- EN: Rebellious student -->
+    <!-- EN: rebellious student -->
     <title>叛逆的學生</title>
-    <!-- EN: Student -->
+    <!-- EN: student -->
     <titleShort>學生</titleShort>
     <!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques. -->
     <desc>[PAWN_nameDef]本有機會接受教育，但卻因為替人打抱不平而被三所學校開除。這讓[PAWN_nameDef]充滿正直感，但缺乏社交能力。\n\n為了尋求自我實現，[PAWN_nameDef]整日冥想和練習武士刀和棍棒格鬥技巧。</desc>
@@ -5333,6 +5558,19 @@
     <desc>[PAWN_nameDef]是家僕的孩子，受過家政業務的培訓。\n\n[PAWN_pronoun]下得了廚房，但上不了廳堂。</desc>
   </ServingBoy97>
   
+  <SewerKid57>
+    <!-- EN: sewer kid -->
+    <title>陰溝孩童</title>
+    <!-- EN: sewer girl -->
+    <titleFemale>陰溝少女</titleFemale>
+    <!-- EN: sewer boy -->
+    <titleShort>陰溝少年</titleShort>
+    <!-- EN: sewer girl -->
+    <titleShortFemale>陰溝少女</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] grew up in the sludge-smeared sewers of a polluted industrial world.\n\n[PAWN_pronoun] befriended the strange insects in the darkness, and learned to love them. -->
+    <desc>[PAWN_nameDef] 在被污染的工業世界中淤泥塗抹的下水道長大。\n\n[PAWN_pronoun] 在黑暗中與奇怪的昆蟲成為朋友，並學著愛上它們。</desc>
+  </SewerKid57>
+  
   <ShadowMarine63>
     <!-- EN: shadow marine -->
     <title>暗影陸戰隊</title>
@@ -5450,9 +5688,9 @@
   </ShopKid36>
   
   <ShunnedGirl30>
-    <!-- EN: Shunned girl -->
+    <!-- EN: shunned girl -->
     <title>逃避的孩子</title>
-    <!-- EN: Shunned -->
+    <!-- EN: shunned -->
     <titleShort>逃避</titleShort>
     <!-- EN: Freya was born into a small, poor family. She was bullied relentlessly, beaten and hated. As she grew up she developed an   interest in guns. She usually studied from books, but occasionally managed to get some practice time with the real thing. Freya later   discovered a talent for art and began to teach herself how to draw and paint. -->
     <desc>[PAWN_nameDef]出生在一個貧窮的小家庭，[PAWN_pronoun]不斷的被欺負、毆打和厭惡。隨著[PAWN_pronoun]的成長，[PAWN_pronoun]對槍枝產生了興趣。[PAWN_pronoun]通常是從書本上學習，但偶爾可以花點時間來練習實際的事物。[PAWN_nameDef]後來發現[PAWN_pronoun]具有藝術天份，並開始自學如何繪畫。</desc>
@@ -5493,6 +5731,15 @@
     <!-- EN: [PAWN_nameDef] traveled the stars. [PAWN_pronoun] could barely scrape together travel costs doing odd-jobs, but it was all worth it.\n\n[PAWN_pronoun] loved camping in exotic places and learning the patterns of strange wildlife. [PAWN_pronoun] never could focus on intellectual endeavors, as [PAWN_possessive] sightseeing distracted [PAWN_objective] far too much. -->
     <desc>[PAWN_nameDef]在行星之間旅行。[PAWN_pronoun]幾乎只能在太空站打打雜勉強湊齊盤纏，但一切都相當值得的。\n\n[PAWN_pronoun]喜歡在充滿異星情調的世界露營，觀察陌生生物的生態。[PAWN_pronoun]從不能像個讀書人那樣專注，觀光這件事總是佔據[PAWN_possessive]注意力。</desc>
   </Sightseer70>
+  
+  <Slaughterer58>
+    <!-- EN: slaughterer -->
+    <title>屠夫</title>
+    <!-- EN: slaughterer -->
+    <titleShort>屠夫</titleShort>
+    <!-- EN: [PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple. -->
+    <desc>[PAWN_nameDef] 以屠宰動物為生。 其他人認為這項工作骯髒，但管理和乾淨地屠宰大量動物所需的技能是從來都不簡單。</desc>
+  </Slaughterer58>
   
   <SlaveChemist84>
     <!-- EN: slave chemist -->
@@ -5737,14 +5984,14 @@
     <desc>[PAWN_nameDef]曾在幾艘宇宙戰艦上擔任軍醫，服役了相當長的時間，保衛[PAWN_possessive]家鄉世界。[PAWN_pronoun]在對抗突襲登船的海賊時學會了戰鬥技巧，並成為了醫治嚴重創傷的專家。</desc>
   </SpaceNavyDoctor72>
   
-  <SpaceNavyTech12>
+  <SpaceNavyTech37>
     <!-- EN: space navy tech -->
     <title>太空艦隊技術員</title>
     <!-- EN: navy tech -->
     <titleShort>艦隊技術員</titleShort>
-    <!-- EN: [PAWN_nameDef] was in a space navy for the the most powerful planet in the local star group. [PAWN_pronoun] developed skills in maintenance, electronic systems, radar and imaging, and logistics management.\n\n[PAWN_pronoun] served with pride and patriotic love for [PAWN_possessive] planet. -->
+    <!-- EN: [PAWN_nameDef] was in a space navy for the most powerful planet in the local star group. [PAWN_pronoun] developed skills in maintenance, electronic systems, radar and imaging, and logistics management.\n\n[PAWN_pronoun] served with pride and patriotic love for [PAWN_possessive] planet. -->
     <desc>[PAWN_nameDef]曾在當地星群中最強大的太空艦隊中服役。[PAWN_pronoun]學會了保修、機工、探測繪圖以及後勤管理。\n\n[PAWN_pronoun]懷抱著驕傲與愛國心為[PAWN_possessive]星球奉獻自己。</desc>
-  </SpaceNavyTech12>
+  </SpaceNavyTech37>
   
   <SpaceNerd97>
     <!-- EN: space nerd -->
@@ -5855,22 +6102,22 @@
   </SpaceTrafficker68>
   
   <SpaceyachtPilot89>
-    <!-- EN: Spaceyacht pilot -->
+    <!-- EN: spaceyacht pilot -->
     <title>太空遊艇駕駛員</title>
-    <!-- EN: Pilot -->
+    <!-- EN: pilot -->
     <titleShort>駕駛員</titleShort>
     <!-- EN: [PAWN_nameDef] ferried wealthy businessmen and politicians to and from his home world.\n\n        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood. -->
     <desc>[PAWN_nameDef]負責接送富有的商人和政治家往返各地。\n\n[PAWN_nameDef]目睹了享樂主義的深淵，被潛移默化地影響了。</desc>
   </SpaceyachtPilot89>
   
-  <SpecialForces53>
+  <SpecialForces13>
     <!-- EN: special forces -->
     <title>特種部隊士兵</title>
     <!-- EN: specialist -->
     <titleShort>特種軍人</titleShort>
-    <!-- EN: Give me a reason to kill - a good reason!\n\nMarkus was a soldier and a skilled one - so skilled that [PAWN_pronoun] entered the special forces to battle militants and xenohuman raiders. [PAWN_pronoun] never imagined [PAWN_objective]self as lone hero, but [PAWN_pronoun] played [PAWN_possessive] part in the group well. -->
+    <!-- EN: Give me a reason to kill - a good reason!\n\n[PAWN_nameDef] was a soldier and a skilled one - so skilled that [PAWN_pronoun] entered the special forces to battle militants and xenohuman raiders. [PAWN_pronoun] never imagined [PAWN_objective]self as lone hero, but [PAWN_pronoun] played [PAWN_possessive] part in the group well. -->
     <desc>給我一個理由殺人────一個正當的理由！\n\n[PAWN_nameDef]是一名身懷絕技士兵，這讓[PAWN_pronoun]得以加入特種部隊去對付好戰份子與異族入侵者。[PAWN_pronoun]從沒想過要當個出風頭的英雄，[PAWN_pronoun]盡可能扮演好自己在團隊裡的角色。</desc>
-  </SpecialForces53>
+  </SpecialForces13>
   
   <SpeederRacer71>
     <!-- EN: speeder racer -->
@@ -5881,14 +6128,14 @@
     <desc>[PAWN_nameDef]是一名在Khalderia高聳樹林中的蕨類農夫之子。\n\n[PAWN_pronoun]愛上了高速賽車，愛上了家鄉魁偉壯闊的風景從[PAWN_possessive]車窗外流過的景緻。地下賽車的黑暗面也迫使[PAWN_pronoun]必須用快言或快槍來保護自己。</desc>
   </SpeederRacer71>
   
-  <Spiceminer9>
+  <Spiceminer81>
     <!-- EN: spiceminer -->
     <title>香料礦工</title>
     <!-- EN: spiceminer -->
     <titleShort>香料礦工</titleShort>
-    <!-- EN: [PAWN_nameDef] made [PAWN_possessive] mark on the universe as a spice miner assigned to the lucrative mining colony of Rural Pen’The.\n\nLittle did [PAWN_pronoun] know, [PAWN_nameDef] was about to embark on a career path that would change [PAWN_possessive] life. -->
+    <!-- EN: [PAWN_nameDef] made [PAWN_possessive] mark on the universe as a spice miner assigned to the lucrative mining colony of Rural Pen'The.\n\nLittle did [PAWN_pronoun] know, [PAWN_nameDef] was about to embark on a career path that would change [PAWN_possessive] life. -->
     <desc>[PAWN_nameDef]在一座利潤豐厚的Rural Pen’The殖民地中是一名有頭有臉的香料礦工。\n\n[PAWN_pronoun]不知道的是，[PAWN_pronoun]正踏上一條徹底顛覆[PAWN_pronoun]人生的道路。</desc>
-  </Spiceminer9>
+  </Spiceminer81>
   
   <SpoiledBrat59>
     <!-- EN: spoiled brat -->
@@ -6142,14 +6389,14 @@
     <desc>[PAWN_nameDef]是一個街頭賊幫的一份子。[PAWN_possessive]所有時間大多都用來偷東西，爭奪地盤，或是吸著任何[PAWN_pronoun]能拿到手的毒品。</desc>
   </StreetRat81>
   
-  <StreetUrchin11>
+  <StreetUrchin22>
     <!-- EN: street urchin -->
     <title>流浪兒</title>
-    <!-- EN: grifter -->
-    <titleShort>流浪兒</titleShort>
-    <!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with her. -->
-    <desc>逃家之後，[PAWN_nameDef]只能在街頭過活。\n\n[PAWN_pronoun]被迫長大，而且很快就學會如何愚弄人。</desc>
-  </StreetUrchin11>
+    <!-- EN: urchin -->
+    <titleShort>頑童</titleShort>
+    <!-- EN: [PAWN_nameDef] was raised by two drug-addicted gamblers who didn't provide a decent standard of living. [PAWN_nameDef] learned to survive by pursuing dangerous and often poorly-planned schemes and swindles that sometimes resulted in food. -->
+    <desc>[PAWN_nameDef] 是由兩個吸毒成癮的賭徒撫養長大，他們沒有提供像樣的生活水準。 [PAWN_nameDef] 透過危險且規劃不周的計畫和騙局來獲得食物以學習生存。 </desc>
+  </StreetUrchin22>
   
   <StreetUrchin45>
     <!-- EN: street urchin -->
@@ -6168,6 +6415,15 @@
     <!-- EN: Born to a poor family on an urbworld, [PAWN_nameDef] was abandoned on the streets at a young age.\n\n[PAWN_pronoun] learned to steal and kill to survive the ruthless streets, gaining skills in melee and ranged combat. There was little time for talk in [PAWN_possessive] life. -->
     <desc>出生在都市世界的一個貧困家庭，[PAWN_nameDef]還小時就被遺棄在街頭。\n\n[PAWN_pronoun]學會偷盜和殺人以在這無情的街頭生存，習得了遠近戰的技能。在[PAWN_pronoun]的生活中鮮少與人交流。</desc>
   </StreetUrchin53>
+  
+  <StreetUrchin74>
+    <!-- EN: street urchin -->
+    <title>流浪兒</title>
+    <!-- EN: grifter -->
+    <titleShort>詐欺犯</titleShort>
+    <!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with [PAWN_objective]. -->
+    <desc>離家出走後，[PAWN_nameDef]不得不流落街頭。\n\n[PAWN_pronoun]成長的很快，很早就理解[PAWN_pronoun] 必須想辦法欺騙別人來與[PAWN_objective]建立關係。 </desc>
+  </StreetUrchin74>
   
   <Student65>
     <!-- EN: student -->
@@ -6431,9 +6687,9 @@
   </Torturer37>
   
   <TournamentFighter28>
-    <!-- EN: Tournament fighter -->
+    <!-- EN: tournament fighter -->
     <title>格鬥家</title>
-    <!-- EN: Fighter -->
+    <!-- EN: fighter -->
     <titleShort>鬥士</titleShort>
     <!-- EN: Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills. -->
     <desc>受到暴力環境的影響，[PAWN_nameDef]不斷修習近身武術，最終加入了某個巨蛋體育場地下的空手格鬥競技場。\n\n和[PAWN_possessive]敵人不同，[PAWN_nameDef]從古代武術家那裡汲取經驗，從早到晚的苦練著[PAWN_possessive]流武術。</desc>
@@ -6501,6 +6757,15 @@
     <!-- EN: [PAWN_nameDef] explored outlying rimworlds in hopes of finding rare treasures.\n\nAfter succeeding in finding one legendary sculpture, [PAWN_pronoun] was betrayed by [PAWN_possessive] men. [PAWN_pronoun] survived their treasonous attack, but the sculpture was taken.\n\n[PAWN_pronoun] created the Anvil Mercenary Company to help [PAWN_objective] seek revenge. -->
     <desc>[PAWN_nameDef]探索遙遠的邊緣世界，希望找到希世珍寶。\n\n當[PAWN_pronoun]成功發現一尊傳奇的雕像，卻被手下背叛了。雖然[PAWN_pronoun]保住一命，但雕像也被奪走了。\n\n[PAWN_pronoun]創建了鐵砧傭兵團以尋求報復。</desc>
   </TreasureHunter82>
+  
+  <TreehouseBuilder86>
+    <!-- EN: treehouse builder -->
+    <title>樹屋建築師</title>
+    <!-- EN: treehouse builder -->
+    <titleShort>樹屋建築師</titleShort>
+    <!-- EN: [PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals. -->
+    <desc>[PAWN_nameDef] 在樹木之間建造房屋，有時還懸掛在樹木中，供 [PAWN_possessive] 人在旅行或覓食時使用。 [PAWN_nameDef] 學會如何高效的尋找和利用野生植物，以及如何對抗野生動物。</desc>
+  </TreehouseBuilder86>
   
   <TribalThunderer45>
     <!-- EN: tribal thunderer -->
@@ -6614,14 +6879,14 @@
     <desc>[PAWN_nameDef]的童年總是很孤單。因為恐高，[PAWN_objective]總是呆在室內，導致[PAWN_possessive]非常內向。\n\n當[PAWN_pronoun]偶爾出去玩的時候，[PAWN_possessive]非常喜歡玩戰爭遊戲，從而對各種模擬武器非常上手。</desc>
   </UrbworldChild56>
   
-  <UrbworldCriminal80>
+  <UrbworldCriminal6>
     <!-- EN: urbworld criminal -->
     <title>都市世界罪犯</title>
     <!-- EN: criminal -->
     <titleShort>罪犯</titleShort>
-    <!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for him. [PAWN_nameDef] learned that surviving was winning. -->
+    <!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for [PAWN_objective]. [PAWN_nameDef] learned that surviving was winning. -->
     <desc>出生於一個人口過剩、環境惡劣的都市世界，[PAWN_nameDef]靠著犯罪讓自己免於捱餓受凍。\n\n搶劫和謀殺對[PAWN_pronoun]來說都是家常便飯，[PAWN_nameDef]學會了活著就是贏家的道理。</desc>
-  </UrbworldCriminal80>
+  </UrbworldCriminal6>
   
   <UrbworldDrone32>
     <!-- EN: urbworld drone -->
@@ -6704,6 +6969,15 @@
     <desc>[PAWN_nameDef]被當作性奴隸商品販賣。[PAWN_pronoun]被設計成擅長吸引人們的機器，而絲毫不敢反抗[PAWN_possessive]主人。[PAWN_pronoun]在幾十個買主之間轉手，從不知自由為何物。</desc>
   </UrbworldSexSlave25>
   
+  <UrbworldUrchin6>
+    <!-- EN: urbworld urchin -->
+    <title>都市世界流浪兒</title>
+    <!-- EN: urchin -->
+    <titleShort>TODO</titleShort>
+    <!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
+    <desc>[PAWN_nameDef]出身自[PAWN_possessive]家鄉都市世界中最黑暗的那座貧民窟。 被母親棄養後，[PAWN_pronoun]學會靠自己生存，為了眼前了每一點食物而奮鬥。\n\n最終，[PAWN_pronoun]超越同儕的天賦帶[PAWN_pronoun]爬出深淵，將[PAWN_possessive]母親拋在身後。</desc>
+  </UrbworldUrchin6>
+  
   <UrbworldUrchin61>
     <!-- EN: urbworld urchin -->
     <title>都市世界流浪兒</title>
@@ -6712,15 +6986,6 @@
     <!-- EN: The urbworlds - ancient and deep industrial cityscapes bursting with humanity and poison. [PAWN_nameDef] grew up in the dark, unwanted reaches of such a place. [PAWN_pronoun] had to fight for every scrap of food. -->
     <desc>都市世界，古老而深刻的都市風景充滿著人性和毒素。[PAWN_nameDef]在黑暗中長大，不受歡迎的地方。[PAWN_pronoun]必須為了任何一點食物殘渣而奮鬥。</desc>
   </UrbworldUrchin61>
-  
-  <UrbworldUrchin87>
-    <!-- EN: urbworld urchin -->
-    <title>都市世界流浪兒</title>
-    <!-- EN: urchin -->
-    <titleShort>流浪兒</titleShort>
-    <!-- EN: Meredith was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
-    <desc>Meredith出身自[PAWN_possessive]家鄉都市世界中最黑暗的那座貧民窟。 被母親棄養後，[PAWN_pronoun]學會靠自己生存，為了眼前了每一點食物而奮鬥。\n\n最終，[PAWN_pronoun]超越同儕的天賦帶[PAWN_pronoun]爬出深淵，將[PAWN_possessive]母親拋在身後。</desc>
-  </UrbworldUrchin87>
   
   <UrbworldUrchin90>
     <!-- EN: urbworld urchin -->
@@ -6767,14 +7032,14 @@
     <desc>[PAWN_nameDef]誕生來作為一名完美的科學家，有著一顆對於物理學和化學來說完美特化的腦袋。\n\n[PAWN_possessive]創造者將[PAWN_pronoun]當作大腦設計的教具，希望[PAWN_pronoun]最終會擁有一個偉大的頭腦，並延續他們的研究。</desc>
   </VatgrownScientist91>
   
-  <VatgrownSlavegirl67>
+  <VatgrownSlavegirl8>
     <!-- EN: vatgrown slavegirl -->
     <title>人造人女奴</title>
     <!-- EN: slave girl -->
     <titleShort>女奴</titleShort>
-    <!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a yound child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
+    <!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a young child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
     <desc>[PAWN_nameDef]在都市行星中的非法實驗室裡成長為女奴。年幼的[PAWN_pronoun]只學到了烹飪、清潔和用各種方式服侍主人。童年的大部分時間，[PAWN_pronoun]都一無所知。</desc>
-  </VatgrownSlavegirl67>
+  </VatgrownSlavegirl8>
   
   <VatgrownSoldier8>
     <!-- EN: vatgrown soldier -->
@@ -6813,9 +7078,9 @@
   </VengefulHunter32>
   
   <VengefulNomad67>
-    <!-- EN: Vengeful nomad -->
+    <!-- EN: vengeful nomad -->
     <title>復仇的部落民</title>
-    <!-- EN: Nomad -->
+    <!-- EN: nomad -->
     <titleShort>部落人</titleShort>
     <!-- EN: After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n        [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge. -->
     <desc>[PAWN_nameDef]的游牧樂隊拒絕了一位暴虐國王的野蠻要求後，樂隊被通緝為非法組織遭人獵殺。\n\n最終[PAWN_nameDef]跟[PAWN_pronoun]家人被俘虜。 那些沒有被殺的人被當作奴隸。 [PAWN_nameDef]被賣給一家工廠的老闆，[PAWN_pronoun]發誓會總有一天要復仇。</desc>
@@ -6983,14 +7248,14 @@
     <desc>Mushinto的父母受到徵召參加了[PAWN_pronoun]祖國的內戰。在戰亂與死亡環繞之下長大，[PAWN_pronoun]對於悲劇已經司空見慣，心靈像岩石一樣堅強。只不過，[PAWN_possessive]情感表達能力也因此發展不全。</desc>
   </WarChild24>
   
-  <Warlordess14>
+  <Warlordess56>
     <!-- EN: warlordess -->
     <title>軍閥</title>
     <!-- EN: warlordess -->
     <titleShort>軍閥</titleShort>
-    <!-- EN: [PAWN_nameDef] was the tough leader of a pirate band.\n\n[PAWN_pronoun] would accept any challenge, no matter how violent or dangerous. Others called [PAWN_pronoun] a killing machine. -->
+    <!-- EN: [PAWN_nameDef] was the tough leader of a pirate band.\n\n[PAWN_pronoun] would accept any challenge, no matter how violent or dangerous. Others called [PAWN_objective] a killing machine. -->
     <desc>[PAWN_nameDef]是一幫海賊的首領。\n\n[PAWN_pronoun]能接下任何要求，不論多暴力多危險。其他人將[PAWN_pronoun]稱為殺戮機器。</desc>
-  </Warlordess14>
+  </Warlordess56>
   
   <Warmaster54>
     <!-- EN: warmaster -->
