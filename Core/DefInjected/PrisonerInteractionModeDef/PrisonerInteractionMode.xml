@@ -3,17 +3,27 @@
   
   <!-- EN: recruit -->
   <AttemptRecruit.label>招募</AttemptRecruit.label>
+  <!-- EN: Wardens will attempt to recruit the prisoner. If the prisoner still has resistance, wardens will speak to them to reduce it. -->
+  <AttemptRecruit.description>獄卒會嘗試招募俘虜。如果俘虜扔然有反抗情緒，獄卒將與他們交談以減少反抗情緒。</AttemptRecruit.description>
   
   <!-- EN: execute -->
   <Execution.label>處決</Execution.label>
+  <!-- EN: A warden will execute the prisoner on the spot by cutting. This can affect the mood of other prisoners and colonists. -->
+  <Execution.description>獄卒會當場處決該俘虜。這會影響其他俘虜和殖民者的心情。</Execution.description>
   
   <!-- EN: no interaction -->
   <NoInteraction.label>不互動</NoInteraction.label>
+  <!-- EN: Wardens will not interact with the prisoner. -->
+  <NoInteraction.description>獄卒不會和俘虜互動。</NoInteraction.description>
   
   <!-- EN: reduce resistance -->
   <ReduceResistance.label>化解心防</ReduceResistance.label>
+  <!-- EN: If the prisoner still has resistance, wardens will speak to them to reduce it. No recruit attempts will be made. -->
+  <ReduceResistance.description>如果俘虜扔然有反抗情緒，獄卒將與他們交談以減少反抗情緒。不會嘗試進行招募。</ReduceResistance.description>
   
   <!-- EN: release -->
   <Release.label>釋放</Release.label>
+  <!-- EN: A warden will release the prisoner. -->
+  <Release.description>一名獄卒會釋放俘虜。</Release.description>
   
 </LanguageData>

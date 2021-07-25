@@ -21,6 +21,11 @@
   <!-- EN: Food is the amount of nutrition a creature has consumed recently. If it is at zero, a creature will become increasingly malnourished and eventually die. -->
   <Food.description>食物值表示這名角色或生物的飽足程度，如果數值降為0，生物將會漸漸缺乏營養至死</Food.description>
   
+  <!-- EN: indoors -->
+  <Indoors.label>室內</Indoors.label>
+  <!-- EN: Indoors expresses the need to be within walls and under a roof. It is harmed by spending time in outdoor areas or not under roofs. To raise this need past 50%, a person must be under an overhead mountain, not just a normal roof. -->
+  <Indoors.description>室內表示需要在牆內和屋頂下。 長時間在戶外或不在屋頂下活動會使它降低。但如果想讓室內需求提高到50%以上，那就必須在厚岩頂下，而不是普通的屋頂。</Indoors.description>
+  
   <!-- EN: recreation -->
   <Joy.label>娛樂值</Joy.label>
   <!-- EN: Recreation is the need to have fun. Repeating the same kind of activity makes it less fun, so variety is necessary. -->
