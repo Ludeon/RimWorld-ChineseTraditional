@@ -94,14 +94,16 @@
   <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
   <ChopTrees.text>如果你想砍些木頭用，指定一些要砍伐的樹木。\n\n使用「砍伐」工具指定10顆樹木。\n\n(小技巧：你可以一次劃過大範圍來指定多棵樹木。)</ChopTrees.text>
   
-  <!-- EN: Welcome to RimWorld! This tutorial will teach you how to play the game.\n\nThe first step is to generate a world to play in.\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
-  <CreateWorldParams.text>歡迎來到RimWorld！本教學將會教你如何遊玩本遊戲。\n\n第一步是要創造一個世界(星球)。\n\n在這個畫面，世界是依據你設定的種子碼生成的。\n\n這裡已經有預設的種子碼，點擊「創造世界」即可生成世界！</CreateWorldParams.text>
+  <!-- EN: Click GENERATE to generate your world. -->
+  <CreateWorldParams.rejectInputMessage>點擊「創造世界」即可生成世界。</CreateWorldParams.rejectInputMessage>
+  <!-- EN: Welcome to RimWorld!\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <CreateWorldParams.text>歡迎來到邊緣世界(RimWorld)！\n\n本教學將會教你如何遊玩本遊戲。\n\n第一步是要創造一個世界(星球)。\n\n在這個畫面，世界是依據你設定的種子碼生成的。\n\n這裡已經有預設的種子碼，點擊「創造世界」即可！</CreateWorldParams.text>
   
   <!-- EN: Send colonists here\ntouching sandbags for cover -->
   <DownRaider.onMapInstruction>將居民派遣至此\n緊鄰沙包</DownRaider.onMapInstruction>
   <!-- EN: Please focus on winning the fight! -->
   <DownRaider.rejectInputMessage>請專注於打贏這場戰鬥！</DownRaider.rejectInputMessage>
-  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
   <DownRaider.text>我已經向你的殖民地發派出了一名襲擊者。\n\n1. 按下{Key:TogglePause}暫停時間。\n2. 閱讀畫面右下角的紅色信封通知。\n3. 選取你的殖民者後，點擊「徵召」按鈕徵召他們。\n4. 右鍵點擊將居民派遣至沙包陣地，緊鄰沙包的位置。\n5. 解除暫停。\n\n居民必須緊臨掩體才能獲得掩護效果。當居民們就位，等待襲擊者到達。居民們會自動開火攻擊。</DownRaider.text>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
@@ -203,7 +205,7 @@
   <UnforbidStartingResources.onMapInstruction>解鎖此物件</UnforbidStartingResources.onMapInstruction>
   <!-- EN: Please allow your starting items. -->
   <UnforbidStartingResources.rejectInputMessage>請解鎖你的開局物資。</UnforbidStartingResources.rejectInputMessage>
-  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must remove their "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
-  <UnforbidStartingResources.text>現在，要讓你的殖民者將東西運送到儲存區，你必須取消物品的禁止互動狀態。\n\n1. 選取你的開局物資。\n2. 點擊「切換禁止互動」取消禁止互動狀態。\n\n(小技巧：快速連點兩下可以選取畫面中所有同類型的物件。) </UnforbidStartingResources.text>
+  <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
+  <UnforbidStartingResources.text>要讓你的殖民者將東西運送到儲存區，你必須取消物品的禁止互動狀態。\n\n1. 選取你的開局物資。\n2. 點擊「切換禁止互動」取消禁止互動狀態。\n\n(小技巧：快速連點兩下可以選取畫面中所有同類型的物件。) </UnforbidStartingResources.text>
   
 </LanguageData>

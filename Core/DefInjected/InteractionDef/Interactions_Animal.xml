@@ -107,6 +107,35 @@
     <li>rubbedpart->手臂</li>
   </Nuzzle.logRulesInitiator.rulesStrings>
   
+  <!-- EN: release to the wild -->
+  <ReleaseToWild.label>放生</ReleaseToWild.label>
+  <!-- EN:
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
+    <li>farewell->[INITIATOR_nameDef] said some warm words to [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] removed [RECIPIENT_nameDef]'s collar</li>
+    <li>farewell->[INITIATOR_nameDef] reminisced about the good time [INITIATOR_objective] had with [RECIPIENT_nameDef]</li>
+    <li>released->and released [RECIPIENT_objective] to the wild.</li>
+    <li>released->and set [RECIPIENT_objective] free.</li>
+    <li>released->and sent [RECIPIENT_objective] off.</li>
+    <li>released->and let [RECIPIENT_objective] go.</li>
+    <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
+    <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
+  -->
+  <ReleaseToWild.logRulesInitiator.rulesStrings>
+  	<li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] 最後一次寵愛 [RECIPIENT_nameDef] </li>
+    <li>farewell->[INITIATOR_nameDef] 對 [RECIPIENT_nameDef] 說了些溫暖的話</li>
+    <li>farewell->[INITIATOR_nameDef] 取下 [RECIPIENT_nameDef]的項圈</li>
+    <li>farewell->[INITIATOR_nameDef] 回憶著 [INITIATOR_objective] 與 [RECIPIENT_nameDef] 度過的美好時光</li>
+    <li>released->並將 [RECIPIENT_objective] 放回野外。</li>
+    <li>released->並給了 [RECIPIENT_objective] 自由。</li>
+    <li>released->並將 [RECIPIENT_objective] 送走了。</li>
+    <li>released->並讓 [RECIPIENT_objective] 離開。</li>
+    <li>released->然後轉身過去讓 [RECIPIENT_objective] 離開了殖民地。</li>
+    <li>released->並讓 [RECIPIENT_objective] 自己去尋找自由的生活。</li>
+  </ReleaseToWild.logRulesInitiator.rulesStrings>
+  
   <!-- EN: tame attempt -->
   <TameAttempt.label>嘗試馴服</TameAttempt.label>
   <!-- EN:
