@@ -4,30 +4,86 @@
   <!-- EN: cook fine meal -->
   <CookMealFine.label>烹調精緻料理</CookMealFine.label>
   <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
-  <CookMealFine.description>用肉類、農作物食材烹調成有些水準的料理。</CookMealFine.description>
+  <CookMealFine.description>用肉類、植物食材烹調成有些水準的料理。</CookMealFine.description>
   <!-- EN: Cooking fine meal. -->
   <CookMealFine.jobString>烹調精緻料理。</CookMealFine.jobString>
   
+  <!-- EN: cook carnivore fine meal -->
+  <CookMealFine_Meat.label>烹調精緻肉食</CookMealFine_Meat.label>
+  <!-- EN: Cook a somewhat complex meal from meat ingredients. -->
+  <CookMealFine_Meat.description>用肉類食材烹調成有些水準的料理。</CookMealFine_Meat.description>
+  <!-- EN: Cooking carnivore fine meal. -->
+  <CookMealFine_Meat.jobString>烹調精緻肉食。</CookMealFine_Meat.jobString>
+  
+  <!-- EN: cook vegetarian fine meal -->
+  <CookMealFine_Veg.label>烹調精緻素食</CookMealFine_Veg.label>
+  <!-- EN: Cook a somewhat complex meal from plant ingredients. -->
+  <CookMealFine_Veg.description>用農作物食材烹調成有些水準的料理。</CookMealFine_Veg.description>
+  <!-- EN: Cooking vegetarian fine meal. -->
+  <CookMealFine_Veg.jobString>烹調精緻素食。</CookMealFine_Veg.jobString>
+  
   <!-- EN: cook fine meal x4 -->
   <CookMealFineBulk.label>烹調精緻料理x4</CookMealFineBulk.label>
-  <!-- EN: Cook 4 somewhat complex meals from a combination of meat and plant ingredients. -->
-  <CookMealFineBulk.description>用肉類、農作物食材烹調成有些水準的4份料理。</CookMealFineBulk.description>
+  <!-- EN: Cook 4 somewhat complex meals from a combination of meat and plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. -->
+  <CookMealFineBulk.description>用肉類、植物食材烹調成有些水準的4份料理。為了更好的用餐體驗，一些食材會被浪費掉。</CookMealFineBulk.description>
   <!-- EN: Cooking 4 fine meals. -->
   <CookMealFineBulk.jobString>烹調4份精緻料理。</CookMealFineBulk.jobString>
   
+  <!-- EN: cook carnivore fine meal x4 -->
+  <CookMealFineBulk_Meat.label>烹調精緻肉食x4</CookMealFineBulk_Meat.label>
+  <!-- EN: Cook 4 somewhat complex meals from meat ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealFineBulk_Meat.description>用肉類食材烹調成有些水準的4份料理。為了更好的用餐體驗，一些食材會被浪費掉。只使用肉類來生產各種口味會使效率降低。</CookMealFineBulk_Meat.description>
+  <!-- EN: Cooking 4 carnivore fine meals. -->
+  <CookMealFineBulk_Meat.jobString>烹調4份精緻肉食</CookMealFineBulk_Meat.jobString>
+  
+  <!-- EN: cook vegetarian fine meal x4 -->
+  <CookMealFineBulk_Veg.label>烹調精緻素食x4</CookMealFineBulk_Veg.label>
+  <!-- EN: Cook 4 somewhat complex meals from plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealFineBulk_Veg.description>用農作物食材烹調成有些水準的4份料理。為了更好的用餐體驗，一些食材會被浪費掉。只使用植物來生產各種口味會使效率降低。</CookMealFineBulk_Veg.description>
+  <!-- EN: Cooking 4 vegetarian fine meals. -->
+  <CookMealFineBulk_Veg.jobString>TODO</CookMealFineBulk_Veg.jobString>
+  
   <!-- EN: cook lavish meal -->
   <CookMealLavish.label>烹調豪華料理</CookMealLavish.label>
-  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted. -->
-  <CookMealLavish.description>用肉類、農作物食材烹調成高水準的料理。大部份的食材會被浪費掉。</CookMealLavish.description>
+  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
+  <CookMealLavish.description>用肉類、農作物食材烹調成高水準的料理。為了更好的用餐體驗，大部份的食材會被浪費掉。</CookMealLavish.description>
   <!-- EN: Cooking lavish meal. -->
   <CookMealLavish.jobString>烹調豪華料理。</CookMealLavish.jobString>
   
+  <!-- EN: cook carnivore lavish meal -->
+  <CookMealLavish_Meat.label>烹調豪華肉食</CookMealLavish_Meat.label>
+  <!-- EN: Cook a very complex meal from meat ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealLavish_Meat.description>用肉類食材烹調成高水準的料理。為了更好的用餐體驗，大部份的食材會被浪費掉。只使用肉類來生產各種口味會使效率降低。</CookMealLavish_Meat.description>
+  <!-- EN: Cooking carnivore lavish meal. -->
+  <CookMealLavish_Meat.jobString>烹調豪華肉食。</CookMealLavish_Meat.jobString>
+  
+  <!-- EN: cook vegetarian lavish meal -->
+  <CookMealLavish_Veg.label>烹調豪華素食</CookMealLavish_Veg.label>
+  <!-- EN: Cook a very complex meal from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealLavish_Veg.description>用植物食材烹調成高水準的料理。為了更好的用餐體驗，大部份的食材會被浪費掉。只使用植物來生產各種口味會使效率降低。</CookMealLavish_Veg.description>
+  <!-- EN: Cooking vegetarian lavish meal. -->
+  <CookMealLavish_Veg.jobString>烹調豪華素食。</CookMealLavish_Veg.jobString>
+  
   <!-- EN: cook lavish meal x4 -->
   <CookMealLavishBulk.label>烹調豪華料理x4</CookMealLavishBulk.label>
-  <!-- EN: Cook 4 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted. -->
-  <CookMealLavishBulk.description>用肉類、農作物食材烹調成高水準的4份料理。大部份的食材會被浪費掉。</CookMealLavishBulk.description>
+  <!-- EN: Cook 4 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
+  <CookMealLavishBulk.description>用肉類、農作物食材烹調成高水準的4份料理。為了更好的用餐體驗，大部份的食材會被浪費掉。</CookMealLavishBulk.description>
   <!-- EN: Cooking 4 lavish meals. -->
   <CookMealLavishBulk.jobString>烹調4份豪華料理。</CookMealLavishBulk.jobString>
+  
+  <!-- EN: cook carnivore lavish meal x4 -->
+  <CookMealLavishBulk_Meat.label>烹調豪華肉食x4</CookMealLavishBulk_Meat.label>
+  <!-- EN: Cook 4 very complex meals from meat ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealLavishBulk_Meat.description>用肉類食材烹調成高水準的4份料理。為了更好的用餐體驗，大部份的食材會被浪費掉。只使用肉類來生產各種口味會使效率降低。</CookMealLavishBulk_Meat.description>
+  <!-- EN: Cooking 4 carnivore lavish meals. -->
+  <CookMealLavishBulk_Meat.jobString>烹調4份豪華肉食。</CookMealLavishBulk_Meat.jobString>
+  
+  <!-- EN: cook vegetarian lavish meal x4 -->
+  <CookMealLavishBulk_Veg.label>烹調豪華素食</CookMealLavishBulk_Veg.label>
+  <!-- EN: Cook 4 very complex meals from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealLavishBulk_Veg.description>用植物食材烹調成高水準的4份料理。為了更好的用餐體驗，大部份的食材會被浪費掉。只使用植物來生產各種口味會使效率降低。</CookMealLavishBulk_Veg.description>
+  <!-- EN: Cooking 4 vegetarian lavish meals. -->
+  <CookMealLavishBulk_Veg.jobString>烹調4份豪華素食。</CookMealLavishBulk_Veg.jobString>
   
   <!-- EN: cook simple meal -->
   <CookMealSimple.label>烹調簡單料理</CookMealSimple.label>
