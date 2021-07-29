@@ -8,6 +8,11 @@
   <!-- EN: construction speed (material factor) -->
   <ConstructionSpeedFactor.labelForFullStatList>建造速度(素材系數)</ConstructionSpeedFactor.labelForFullStatList>
   
+  <!-- EN: filth multiplier -->
+  <FilthMultiplier.label>骯髒倍率</FilthMultiplier.label>
+  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. -->
+  <FilthMultiplier.description>這個物體表面的易髒程度。如果小於100%，一些堆積在此處的髒污會在接觸後消失。</FilthMultiplier.description>
+  
   <!-- EN: medical potency -->
   <MedicalPotency.label>醫療效果</MedicalPotency.label>
   <!-- EN: How effective this is when used to tend wounds and diseases, or do surgery.\n\nHigher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery.\nMedical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck. -->
