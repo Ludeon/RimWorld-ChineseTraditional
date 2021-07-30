@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: animal flap -->
+  <AnimalFlap.label>圍欄門簾</AnimalFlap.label>
+  <!-- EN: A doorway hung with thick overlapping strips of fabric or leather. It allows animals to pass while insulating the temperature. Animal flaps are commonly used as barn doors to give penned animals a sheltered place to sleep. -->
+  <AnimalFlap.description>門口掛著厚厚的織物或皮革條。它允許動物通過同時保持室內溫度。通常用作穀倉門，為圈養動物提供一個庇護所睡覺。</AnimalFlap.description>
+  
   <!-- EN: autodoor -->
   <Autodoor.label>自動門</Autodoor.label>
   <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
@@ -15,6 +20,16 @@
   <Door.label>門</Door.label>
   <!-- EN: Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. -->
   <Door.description>用來分隔房間。必須手動開關的門，人們在通行時會減速，減速量取決於門的製作方式。</Door.description>
+  
+  <!-- EN: fence -->
+  <Fence.label>柵欄</Fence.label>
+  <!-- EN: A fence made of posts joined by crossbars used for building pens for certain kinds of animals. Fences only block certain kinds of animals. -->
+  <Fence.description>由柱子和橫梁製成的柵欄，用於為某些種類的動物建造圍欄。柵欄只能阻擋某些種類的動物。</Fence.description>
+  
+  <!-- EN: fence gate -->
+  <FenceGate.label>柵欄門</FenceGate.label>
+  <!-- EN: A simple gate made of posts and crossbars. It blocks some animals like a fence. Handlers can lead animals in and out of the pen through these gates. -->
+  <FenceGate.description>由柱子和橫梁製成的簡易門。它像柵欄一樣擋住了動物。人員可以通過門將動物帶入和帶出圍欄。</FenceGate.description>
   
   <!-- EN: wall -->
   <Wall.label>牆</Wall.label>
