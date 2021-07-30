@@ -133,7 +133,7 @@
   <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>孵化進度已停止(未受精)</ProgressStoppedUntilFertilized>
   <!-- EN: Hatches in -->
-  <HatchesIn>孵化</HatchesIn>
+  <HatchesIn>TODO</HatchesIn>
   <!-- EN: need {0} level {2}, have {1} -->
   <SkillTooLow>需要等級{2}的{0}，目前只有{1}級。</SkillTooLow>
   <!-- EN: Freezing -->
@@ -1526,8 +1526,8 @@
   <RitualQualityLowWarning>TODO</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>TODO</AbilitySpeechDisabledNoSpot>
-  <!-- EN: {0_labelShort} is incapable of talking. -->
-  <AbilitySpeechDisabledCantSpeak>TODO</AbilitySpeechDisabledCantSpeak>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>TODO</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>TODO</RitualOutcomeExtraDesc_Mood>
   
@@ -1585,7 +1585,4 @@
   <!-- EN: {0} max -->
   <MaxValue>TODO</MaxValue>
   
-  <!-- UNUSED -->
-  <AverageCaravanMemberMoveSpeed>人員平均移動速度</AverageCaravanMemberMoveSpeed>
-
 </LanguageData>
