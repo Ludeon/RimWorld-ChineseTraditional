@@ -26,6 +26,11 @@
   <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
   <DeepDrillingSpeed.description>此人操作深鑽機獲取資源的速度。</DeepDrillingSpeed.description>
   
+  <!-- EN: drug crop harvest yield -->
+  <DrugHarvestYield.label>藥用植物收穫量</DrugHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
+  <DrugHarvestYield.description>此人在收成藥用植物時的收穫量。\n\n低收穫量讓此人可能產生浪費。高收穫量增加了每株植物的產量。</DrugHarvestYield.description>
+  
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>修理成功率</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->

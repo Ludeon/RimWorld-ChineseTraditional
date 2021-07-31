@@ -31,6 +31,11 @@
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>進食的速度。</EatingSpeed.description>
   
+  <!-- EN: filth rate -->
+  <FilthRate.label>髒污率</FilthRate.label>
+  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
+  <FilthRate.description>這種生物會產生多少髒污。\n\n為了避免牠們的髒污造成問題，最好將產生髒污的動物置於戶外或草蓆上。</FilthRate.description>
+  
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>覓食量</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
@@ -51,15 +56,20 @@
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>此角色感染疾病時，形成免疫力的速度。\n\n如果速度過慢，此角色就會在免疫力形成之前死亡。</ImmunityGainSpeed.description>
   
+  <!-- EN: injury healing factor -->
+  <InjuryHealingFactor.label>傷口癒合效率</InjuryHealingFactor.label>
+  <!-- EN: The multiplier applied to a person's injury healing rate. -->
+  <InjuryHealingFactor.description>一個人傷口癒合的速度係數。</InjuryHealingFactor.description>
+  
   <!-- EN: leather amount -->
   <LeatherAmount.label>毛皮數量</LeatherAmount.label>
-  <!-- EN: The amount of leather yielded when butchering this creature. -->
-  <LeatherAmount.description>屠宰此生物時可獲得的毛皮數量。</LeatherAmount.description>
+  <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <LeatherAmount.description>屠宰此生物時可獲得的毛皮數量。如果此生物沒有被屠宰乾淨，或是在被殺死時受了傷，則數量會降低。</LeatherAmount.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>肉類產量</MeatAmount.label>
-  <!-- EN: The amount of meat yielded when butchering this creature. -->
-  <MeatAmount.description>屠宰此生物時可獲得的生肉數量。</MeatAmount.description>
+  <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <MeatAmount.description>屠宰此生物時可獲得的生肉數量。如果此生物沒有被屠宰乾淨，或是在被殺死時受了傷，則數量會降低。</MeatAmount.description>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>崩潰臨界值</MentalBreakThreshold.label>

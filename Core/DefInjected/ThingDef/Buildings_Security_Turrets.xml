@@ -45,7 +45,7 @@
   <!-- EN: Barrel durability -->
   <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>砲管耐久值</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until barrel change -->
-  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>砲管耐久值</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>持續射擊到更換砲管</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
   <!-- EN: Cannot shoot: Needs new barrel -->
   <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>無法開火：需更換砲管</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
   
@@ -64,16 +64,22 @@
   <Turret_Mortar.label>迫擊砲</Turret_Mortar.label>
   <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
   <Turret_Mortar.description>一種能夠發射各種砲彈的迫擊砲。雖然可以造成毀滅性的破壞，但迫擊砲固有的低精準度不適合攻擊範圍內的敵軍，比較適合攻擊大型防禦工事。</Turret_Mortar.description>
+  <!-- EN: Barrel durability -->
+  <Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>砲管耐久值</Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Turret_Mortar.comps.CompRefuelable.fuelLabel>持續射擊到更換砲管</Turret_Mortar.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new reinforced barrel -->
+  <Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>無法開火：需更換強化砲管</Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>
   
   <!-- EN: uranium slug turret -->
   <Turret_Sniper.label>鈾彈砲塔</Turret_Sniper.label>
   <!-- EN: An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
-  <Turret_Sniper.description>一種穿甲砲塔。超高速的鈾彈可以穿透重型護甲，但在射擊後必須重新裝填鈾彈。遠距離射擊很精準，近距離無法射擊。損壞時可能會爆炸。</Turret_Sniper.description>
+  <Turret_Sniper.description>一種穿甲砲塔。超高密度的鈾彈可以穿透重型裝甲，但在射擊後必須重新裝填鈾彈。遠距離射擊很精準，近距離無法射擊。損壞時可能會爆炸。</Turret_Sniper.description>
   <!-- EN: Uranium slugs -->
-  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>砲管耐久值</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>鈾彈</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until rearm -->
-  <Turret_Sniper.comps.CompRefuelable.fuelLabel>砲管耐久值</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+  <Turret_Sniper.comps.CompRefuelable.fuelLabel>持續射擊到重新整備</Turret_Sniper.comps.CompRefuelable.fuelLabel>
   <!-- EN: Cannot shoot: No slugs -->
-  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>無法開火：需要裝填</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>無法開火：沒有彈藥</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
   
 </LanguageData>
