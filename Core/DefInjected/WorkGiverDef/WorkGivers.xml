@@ -152,7 +152,7 @@
   <DoBillsFabricationBench.label>製作物品</DoBillsFabricationBench.label>
   <!-- EN: fabricating things at -->
   <DoBillsFabricationBench.gerund>製作</DoBillsFabricationBench.gerund>
-  <!-- EN: fabricating things -->
+  <!-- EN: fabricate -->
   <DoBillsFabricationBench.verb>製作</DoBillsFabricationBench.verb>
   
   <!-- EN: do bills at campfire -->
@@ -297,9 +297,9 @@
   
   <!-- EN: execute prisoners -->
   <DoExecution.label>執行死刑</DoExecution.label>
-  <!-- EN: doing execution on -->
+  <!-- EN: executing -->
   <DoExecution.gerund>執行死刑</DoExecution.gerund>
-  <!-- EN: do execution on -->
+  <!-- EN: execute -->
   <DoExecution.verb>執行死刑</DoExecution.verb>
   
   <!-- EN: drill at deep drill -->
@@ -308,6 +308,20 @@
   <Drill.gerund>深鑽</Drill.gerund>
   <!-- EN: drill -->
   <Drill.verb>深鑽</Drill.verb>
+  
+  <!-- EN: empty egg box -->
+  <EmptyEggBox.label>TODO</EmptyEggBox.label>
+  <!-- EN: emptying -->
+  <EmptyEggBox.gerund>TODO</EmptyEggBox.gerund>
+  <!-- EN: empty -->
+  <EmptyEggBox.verb>TODO</EmptyEggBox.verb>
+  
+  <!-- EN: execute guilty colonists -->
+  <ExecuteGuiltyColonist.label>TODO</ExecuteGuiltyColonist.label>
+  <!-- EN: executing -->
+  <ExecuteGuiltyColonist.gerund>TODO</ExecuteGuiltyColonist.gerund>
+  <!-- EN: execute -->
+  <ExecuteGuiltyColonist.verb>TODO</ExecuteGuiltyColonist.verb>
   
   <!-- EN: feed prisoners -->
   <FeedPrisoner.label>餵食俘虜</FeedPrisoner.label>
@@ -477,6 +491,13 @@
   <!-- EN: rearm -->
   <RearmTurrets.verb>整備</RearmTurrets.verb>
   
+  <!-- EN: rebalance penned animals -->
+  <RebalanceAnimalsInPens.label>TODO</RebalanceAnimalsInPens.label>
+  <!-- EN: roping -->
+  <RebalanceAnimalsInPens.gerund>TODO</RebalanceAnimalsInPens.gerund>
+  <!-- EN: rope -->
+  <RebalanceAnimalsInPens.verb>TODO</RebalanceAnimalsInPens.verb>
+  
   <!-- EN: refuel fuelable buildings -->
   <Refuel.label>補充燃料</Refuel.label>
   <!-- EN: refueling -->
@@ -490,6 +511,13 @@
   <ReleasePrisoner.gerund>釋放</ReleasePrisoner.gerund>
   <!-- EN: release -->
   <ReleasePrisoner.verb>釋放俘虜</ReleasePrisoner.verb>
+  
+  <!-- EN: release to wild -->
+  <ReleaseToWild.label>釋放野外</ReleaseToWild.label>
+  <!-- EN: releasing -->
+  <ReleaseToWild.gerund>釋放</ReleaseToWild.gerund>
+  <!-- EN: release -->
+  <ReleaseToWild.verb>釋放野外</ReleaseToWild.verb>
   
   <!-- EN: remove roofs -->
   <RemoveRoofs.label>拆除屋頂</RemoveRoofs.label>
@@ -538,6 +566,13 @@
   <!-- EN: strip -->
   <Strip.verb>掠奪</Strip.verb>
   
+  <!-- EN: study -->
+  <StudyThing.label>TODO</StudyThing.label>
+  <!-- EN: studying -->
+  <StudyThing.gerund>TODO</StudyThing.gerund>
+  <!-- EN: research -->
+  <StudyThing.verb>TODO</StudyThing.verb>
+  
   <!-- EN: take beer out of fermenting barrels -->
   <TakeBeerOutOfFermentingBarrel.label>從發酵桶內的取出啤酒</TakeBeerOutOfFermentingBarrel.label>
   <!-- EN: taking beer from -->
@@ -552,12 +587,26 @@
   <!-- EN: take to bed -->
   <TakePrisonerToBed.verb>押送</TakePrisonerToBed.verb>
   
+  <!-- EN: rope roaming animals -->
+  <TakeRoamingAnimalsToPen.label>TODO</TakeRoamingAnimalsToPen.label>
+  <!-- EN: roping -->
+  <TakeRoamingAnimalsToPen.gerund>TODO</TakeRoamingAnimalsToPen.gerund>
+  <!-- EN: rope -->
+  <TakeRoamingAnimalsToPen.verb>TODO</TakeRoamingAnimalsToPen.verb>
+  
   <!-- EN: take patients to bed for operations -->
   <TakeToBedToOperate.label>將病患帶至手術地點</TakeToBedToOperate.label>
   <!-- EN: taking to operate -->
   <TakeToBedToOperate.gerund>動手術</TakeToBedToOperate.gerund>
   <!-- EN: take to operate -->
   <TakeToBedToOperate.verb>動手術</TakeToBedToOperate.verb>
+  
+  <!-- EN: rope animals -->
+  <TakeToPen.label>TODO</TakeToPen.label>
+  <!-- EN: roping -->
+  <TakeToPen.gerund>TODO</TakeToPen.gerund>
+  <!-- EN: rope -->
+  <TakeToPen.verb>TODO</TakeToPen.verb>
   
   <!-- EN: tame animals -->
   <Tame.label>馴服</Tame.label>
