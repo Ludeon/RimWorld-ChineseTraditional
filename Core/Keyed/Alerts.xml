@@ -23,7 +23,7 @@
   <ColonistNeedsRescue>有殖民者需要救援</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>多數殖民者需要救援</ColonistsNeedRescue>
-  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue. -->
+  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>這些殖民者倒在地上無法行動：\n\n{0}\n派遣另一名殖民者去救援他們並帶到床上。\n\n先選擇其他殖民者，然後右鍵點擊需要救援的人並選擇「救援」。</ColonistsNeedRescueDesc>
 
   <!-- EN: Need defenses -->
@@ -254,4 +254,63 @@
   <QuestExpiresSoon>任務將在{0}後到期</QuestExpiresSoon>
   <!-- EN: The quest '{0}' will expire in {1}. -->
   <QuestExpiresSoonDesc>任務「{0}」將在{1}後到期。</QuestExpiresSoonDesc>
+
+  <!-- EN: Animal filth -->
+  <AlertAnimalFilth>動物糞便</AlertAnimalFilth>
+  <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
+  <AlertAnimalFilthDesc>一個產生髒污的動物在室內的乾淨地板上。\n\n動物在一般地板上走動時會產生大量的髒污。把產生髒污的動物放在室外，或放在草蓆上，這樣它們產生的髒污會少很多。\n\n你可以透過點擊 "I"鍵，在動物的統計資料中檢查動物的排泄率。\n\n這些動物是有問題的：\n{0}</AlertAnimalFilthDesc>
+
+  <!-- EN: Pen needed -->
+  <AlertAnimalPenNeeded>需要圍欄</AlertAnimalPenNeeded>
+  <!-- EN: Some of your tame animals are roamers. If not kept in an animal pen, they will wander away. -->
+  <AlertAnimalPenNeededDesc>你的一些馴服的動物正在遊蕩。如果不把牠們關在圍欄裡，牠們就會到處亂跑。</AlertAnimalPenNeededDesc>
+  <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
+  <AlertAnimalPenNeededNoHandlers>你沒有任何馴獸師可以把動物帶到圍欄。\n\n指定一個居民分配馴服工作類型。</AlertAnimalPenNeededNoHandlers>
+  <!-- EN: None of your assigned handlers have the required animals skill needed to take the following animals to a pen. -->
+  <AlertAnimalPenNeededLowSkillHandlers>你指定的馴獸師中沒有足夠的技能需求將以下的動物帶到圍欄內。</AlertAnimalPenNeededLowSkillHandlers>
+  <!-- EN: needs {MINSKILL}, {HANDLER_labelShort} has {BESTSKILL} -->
+  <AlertAnimalPenNeededLowSkillHandlersDetail>最低需要{MINSKILL}，{HANDLER_labelShort}只有{BESTSKILL}</AlertAnimalPenNeededLowSkillHandlersDetail>
+  <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
+  <AlertAnimalPenNeededDescExplanation>透過在有柵欄、路障或牆壁區域內建造動物圍欄。選擇圍欄標記查看他接受哪些動物，以及可以容納多少動物。\n\n你的馴獸師會自動將動物帶到指定的圍欄中，圍欄需要有門或柵欄門才能讓動物進入。</AlertAnimalPenNeededDescExplanation>
+
+  <!-- EN: Pen not enclosed -->
+  <AlertAnimalPenNotEnclosed>圍欄未封閉</AlertAnimalPenNotEnclosed>
+  <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
+  <AlertAnimalPenNotEnclosedDesc>一個動物圍欄標記未封閉。\n\n使用柵欄、路障、柵欄門、牆壁或門將圍欄封閉起來，以防止動物四處遊蕩。\n\n如果你只有未封閉的圍欄標記，你的馴獸師扔然可以帶領動物遊蕩動物回家 - 但當動物再次遊蕩，就必須不斷重複這樣的行為。</AlertAnimalPenNotEnclosedDesc>
+
+  <!-- EN: Animal wandering away -->
+  <AlertAnimalIsRoaming>動物走失</AlertAnimalIsRoaming>
+  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
+  <AlertAnimalIsRoamingDesc>你的一些馴服的動物開始流浪了。如果他們到達地圖的邊緣，牠們最終會離開。\n\n如果你有一個封閉的圍欄，你的馴獸師可以把動物帶回來。圍欄中的動物不再流浪。\n\n以下動物正在流浪：\n\n{0}</AlertAnimalIsRoamingDesc>
+
+  <!-- EN: Hungry pen animals -->
+  <AlertPennedAnimalHungry>飢餓的圍欄動物</AlertPennedAnimalHungry>
+  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
+  <AlertPennedAnimalHungryDesc>一些圍欄中的動物正在挨餓。\n\n選擇一個圍欄標記，使用「食物」面板查看更多細節。\n\n草食動物可能需要一個更大的圍欄來提供足夠的草。其他動物可能需要用儲備的牧草或類似的食物來供應。\n\n以下這些動物正在挨餓：\n\n{0}</AlertPennedAnimalHungryDesc>
+
+  <!-- EN: Raids arriving in {0} -->
+  <AlertTimedRaidsArrivingIn>襲擊將在{0}到來</AlertTimedRaidsArrivingIn>
+  <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
+  <AlertTimedRaidsArrivingInDesc>敵人已經被吸引到以下地點，並將開始大舉進攻。\n\n{0}</AlertTimedRaidsArrivingInDesc>
+  <!-- EN: Arriving at {0} in {1} -->
+  <AlertTimedRaidsArrivingAt>於{1}抵達{0}</AlertTimedRaidsArrivingAt>
+
+  <!-- EN: Slave rebellion likely -->
+  <AlertSlaveRebellionLikely>奴隸叛亂徵兆</AlertSlaveRebellionLikely>
+  <!-- EN: There are {0} slaves that are likely to initiate a rebellion soon. -->
+  <AlertSlaveRebellionMultipleLikelySlavesHeader>有{0}奴隸開始蠢蠢欲動。</AlertSlaveRebellionMultipleLikelySlavesHeader>
+  <!-- EN: A slave rebellion is expected to happen roughly once every {0}. -->
+  <AlertSlaveRebellionMultipleSlavesInterval>奴隸叛亂大约每{0}就會發生一次。</AlertSlaveRebellionMultipleSlavesInterval>
+  <!-- EN: {REBEL_labelShort} is the most rebellious slave and -->
+  <AlertSlaveRebellionMultipleLikelySlavesPrefix>{REBEL_labelShort}的反抗情緒最高並且</AlertSlaveRebellionMultipleLikelySlavesPrefix>
+  <!-- EN: is expected to rebel roughly once every {0}. These are the factors which are adjusting how soon they will rebel: -->
+  <AlertSlaveRebellionLikelyExplanation>預計每{0}左右就會叛亂一次。這些是發生叛亂的因素：</AlertSlaveRebellionLikelyExplanation>
+  <!-- EN: Each slave's rebellion chance is independent. If any one slave rebels, others nearby are likely to join. -->
+  <AlertSlaveRebellionLikelyNote>奴隸們並沒有互通叛亂計畫，各自會自己考慮叛亂。如果任何一个奴隸發起了叛亂，在附近的其他奴隸就有可能會加入。</AlertSlaveRebellionLikelyNote>
+
+  <!-- EN: Faction will become hostile if you stay -->
+  <FactionWillBecomeHostileIfNotLeavingWithin>派系將轉變為敵對</FactionWillBecomeHostileIfNotLeavingWithin>
+  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
+  <FactionWillBecomeHostileIfNotLeavingWithinDesc>如果你在他們的定居點或哨站停留的時間較長，這些派系會變為敵對：\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+
 </LanguageData>

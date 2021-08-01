@@ -19,10 +19,10 @@
   <GameplayTips.WorkTabChangeAllColonists>在「工作」選項中按住Shift鍵並按一下工作類型名稱，即可一次性更改所有殖民者的該項設置。</GameplayTips.WorkTabChangeAllColonists>
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
   <GameplayTips.WorkTabDecreasePriority>在「工作」選項的手動優先順序模式下，對數字按右鍵會降低優先順序。</GameplayTips.WorkTabDecreasePriority>
-  <!-- EN: In a gunfight, always be behind cover! -->
-  <GameplayTips.GunfightCover>在槍戰中，請躲在掩體後面！</GameplayTips.GunfightCover>
-  <!-- EN: In a gunfight, spread your colonists out! Bunched-up targets are easy to hit. -->
-  <GameplayTips.GunfightSpread>在槍戰中，讓您的殖民者分散。聚在一起更容易被擊中。</GameplayTips.GunfightSpread>
+  <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
+  <GameplayTips.GunfightCover>在槍戰中，請躲在掩體後面！按住滑鼠右鍵拖動讓您徵招的戰士列成一條線。</GameplayTips.GunfightCover>
+  <!-- EN: Right-click and drag to have your drafted fighters form a line. Bunched-up targets are easy to hit! -->
+  <GameplayTips.GunfightSpread>按住滑鼠右鍵拖動讓您徵招的戰士列成一條線。聚在一起更容易被擊中。</GameplayTips.GunfightSpread>
   <!-- EN: Smoke totally prevents turrets from detecting targets, but people can still shoot with reduced accuracy. -->
   <GameplayTips.ShootingAccuracySmoke>煙霧能夠讓砲塔無法鎖定目標，但人們仍然能夠以較低命中率射擊煙霧內的目標。</GameplayTips.ShootingAccuracySmoke>
   <!-- EN: When designing defences, assume enemies will get inside using drop pods or tunnels. Build internal defensive positions. -->
@@ -57,14 +57,16 @@
   <GameplayTips.CaravanPackingSpot>設置旅隊裝卸點，以指定旅隊形成的位置。</GameplayTips.CaravanPackingSpot>
   <!-- EN: Single-person caravans can be very useful in certain situations. -->
   <GameplayTips.CaravanSinglePerson>某些情況下，單人旅隊非常實用。</GameplayTips.CaravanSinglePerson>
-  <!-- EN: Faster animals make faster caravans. -->
-  <GameplayTips.CaravanFasterAnimals>較快的動物能提高旅隊移動速度。</GameplayTips.CaravanFasterAnimals>
-  <!-- EN: Smaller caravans will be attacked less often because they're less visible. -->
+  <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
+  <GameplayTips.CaravanRideableAnimals>如果旅隊中有像馬、驢、駱駝一樣可騎乘的動物，旅隊的移動速度會更快。</GameplayTips.CaravanRideableAnimals>
+  <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>小型旅隊比較不會受到埋伏，因為可見性比較低。</GameplayTips.CaravanSmallerLessVisible>
   <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing spot. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>組織旅隊之前，將物資運送到旅隊裝卸點附近的儲存區，以提昇效率。</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>如果您的旅隊中有尚未訓練的動物，可以在戰鬥前拆分成單獨旅隊，以防出現意外。</GameplayTips.CaravanUntrainedAnimals>
+  <!-- EN: Don't forget to pack medicine on your caravans. -->
+  <GameplayTips.CaravanDontForgetMedicine>不要忘記為您的旅隊準備藥品。</GameplayTips.CaravanDontForgetMedicine>
   <!-- EN: RimWorld is a story generator, not a skill test. A ruined colony is a dramatic tragedy, not a failure. -->
   <GameplayTips.StoryGenerator>RimWorld是一個故事生成器，而非技能測試系統。殖民地的毀滅是一幕悲劇，並不是失敗。一些殖民者甚至比一無是處更差勁，這些“定時炸彈”也是挑戰的一部分。</GameplayTips.StoryGenerator>
   <!-- EN: Some colonists are worse than useless. Bad allies are part of the challenge. -->
@@ -123,6 +125,12 @@
   <GameplayTips.ExtinguishFireArtillery>爆炸能撲滅爆炸範圍內的火焰。在毫無選擇的情況下可使用高爆炮彈撲滅火焰。</GameplayTips.ExtinguishFireArtillery>
   <!-- EN: Even serious setbacks don't mean the game has to end. Try playing out a lost battle - often the best stories come from the darkest situations. -->
   <GameplayTips.BestStoriesFromDarkestSituations>即使遭受重創也不意味著遊戲結束。失敗乃成功之母。</GameplayTips.BestStoriesFromDarkestSituations>
+  <!-- EN: Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives. -->
+  <GameplayTips.KeepWeaponsAwayFromPrisoners>讓武器庫遠離您的監獄。俘虜有了槍枝炸藥的越獄行動就更危險。</GameplayTips.KeepWeaponsAwayFromPrisoners>
+  <!-- EN: When taming animals, make sure you have enough food of the correct type to feed them. -->
+  <GameplayTips.MakeSureYouHaveFoodForTamedAnimals>TODO</GameplayTips.MakeSureYouHaveFoodForTamedAnimals>
+  <!-- EN: Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders. -->
+  <GameplayTips.DroppingChunksWillForceDoorsOpen>TODO</GameplayTips.DroppingChunksWillForceDoorsOpen>
   <!-- EN: Clean labs with sterile tile give research speed bonuses. -->
   <GameplayTips.CleanLabs>抗菌地磚的潔淨研究室可以提昇研究速度。</GameplayTips.CleanLabs>
   <!-- EN: You can change storyteller and playstyle at any time through the options menu. -->
@@ -133,5 +141,11 @@
   <GameplayTips.CombatDrugsFromInventory>您可以使用藥物管制，例如讓您的戰鬥員攜帶能量果飲。在戰鬥時迅速飲用可以贏得戰鬥。</GameplayTips.CombatDrugsFromInventory>
   <!-- EN: Set schedules with long stretches of one activity to minimize travel time. -->
   <GameplayTips.SchedulesSetLong>制定一個長期計畫來讓旅行時間最短化。</GameplayTips.SchedulesSetLong>
+  <!-- EN: Straw matting ignores filth. Use it as the floor for your barn. -->
+  <GameplayTips.StrawMatting>草蓆無視髒污。很適合用他來當穀倉的地板。</GameplayTips.StrawMatting>
+  <!-- EN: Some animals produce a lot of filth. Keep your elephants and cattle outside. -->
+  <GameplayTips.AnimalFilth>有些動物會產生很多髒污。最好把你的大象和牛留在戶外。</GameplayTips.AnimalFilth>
+  <!-- EN: Predators are less likely to hunt animals which are enclosed by fences or barricades. -->
+  <GameplayTips.PredatorsAndFences>掠食者不太可能狩獵被柵欄或路障包圍的動物。</GameplayTips.PredatorsAndFences>
   
 </LanguageData>
