@@ -1461,14 +1461,14 @@
   <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>TODO</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>警告：在這裡建造會惹怒{FACTION_name}！</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
-  <ChooseLandingSite>TODO</ChooseLandingSite>
+  <ChooseLandingSite>選擇降落地點</ChooseLandingSite>
   
   <!-- Rituals -->
   <!-- EN: ritual -->
-  <Ritual>TODO</Ritual>
+  <Ritual>儀式</Ritual>
 
   <!-- EN: Takes place at -->
   <RitualTakesPlaceAt>TODO</RitualTakesPlaceAt>
@@ -1495,7 +1495,7 @@
   <!-- EN: Spectators -->
   <Spectators>TODO</Spectators>
   <!-- EN: Not participating -->
-  <NotParticipating>TODO</NotParticipating>
+  <NotParticipating>未參與</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>TODO</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
@@ -1519,7 +1519,7 @@
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>TODO</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <RitualQualityExpectations>TODO</RitualQualityExpectations>
+  <RitualQualityExpectations>{0} 期望</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>TODO</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
@@ -1532,11 +1532,11 @@
   <RitualOutcomeExtraDesc_Mood>TODO</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>TODO</ChooseParticipants>
+  <ChooseParticipants>選擇誰需要參與{RITUAL_labelDef}</ChooseParticipants>
   <!-- EN: Begin -->
-  <Begin>TODO</Begin>
+  <Begin>開始</Begin>
   <!-- EN: Begin {0} -->
-  <BeginRitual>TODO</BeginRitual>
+  <BeginRitual>開始{0}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
   <BeginRitualFor>TODO</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
@@ -1560,7 +1560,7 @@
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>TODO</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: Participants -->
-  <RitualPredictedOutcomeDescParticipantCount>TODO</RitualPredictedOutcomeDescParticipantCount>
+  <RitualPredictedOutcomeDescParticipantCount>參與人數</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>TODO</RitualPredictedOutcomeDescPawnExpectations>
 
