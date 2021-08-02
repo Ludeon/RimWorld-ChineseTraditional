@@ -18,6 +18,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 方法：
 向ludeonhelp@gmail.com 寄 你的github用戶名跟想翻譯的語言就可加入
+
 ===========================
 
 本繁體中文補丁對應遊戲版本：1.1.2753
