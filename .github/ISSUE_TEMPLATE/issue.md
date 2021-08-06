@@ -2,9 +2,8 @@
 name: 翻譯問題
 about: 遊戲中的誤譯及錯字問題
 title: 翻譯問題
-labels: bug
+labels: question
 assignees: darkborderman
-
 ---
 
 ## 檔案名稱
