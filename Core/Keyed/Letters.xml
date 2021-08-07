@@ -40,6 +40,8 @@
   <goodwill>友好度</goodwill>
   <!-- EN: Neutral -->
   <Neutral>中立</Neutral>
+  <!-- EN: neutral -->
+  <NeutralLower>中立</NeutralLower>
   <!-- EN: Death -->
   <Death>死亡</Death>
 
@@ -428,13 +430,13 @@
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
   <LetterLabelSurgeryFailed>{PATIENT_labelShort}的手術失敗了。</LetterLabelSurgeryFailed>
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了小失誤({RECIPE_label})。</MessageMedicalOperationFailureMinor> <!-- NewTemp rename to LetterTextOperationFailureMinor globally-->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了小失誤({RECIPE_label})。</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了災難性的失誤({RECIPE_label})。</MessageMedicalOperationFailureCatastrophic> <!-- NewTemp rename to LetterTextOperationFailureCatastrophic globally-->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了災難性的失誤({RECIPE_label})。</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了愚蠢的失誤({RECIPE_label})。</MessageMedicalOperationFailureRidiculous> <!-- NewTemp rename to LetterTextOperationFailureRidiculous globally-->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了愚蠢的失誤({RECIPE_label})。</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了致命的失誤，原因是一個特殊的挑戰：{2}</MessageMedicalOperationFailureFatal> <!-- NewTemp rename to LetterTextOperationFailureFatal globally-->
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了致命的失誤，原因是一個特殊的挑戰：{2}</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -453,6 +455,12 @@
   <LetterLabelQuestDropPodsArrived>運輸艙抵達</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
   <LetterQuestDropPodsArrived>裝載以下內容物的運輸艙抵達:\n\n{0}</LetterQuestDropPodsArrived>
+
+  <!-- Quest items added to caravan inventory -->
+  <!-- EN: {CARAVAN_label} received items -->
+  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label}收到了物資</LetterLabelQuestItemsAddedToCaravanInventory>
+  <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
+  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label}收到了以下物資：\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->

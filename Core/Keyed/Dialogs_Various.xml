@@ -292,6 +292,18 @@
   <ArmorPenetration>護甲穿透值</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
   <ArmorPenetrationExplanation>護甲穿透值是每次擊中目標時所無視的護甲值。\n\n如果護甲穿透值高於目標護甲值，可以無視目標的護甲，這表示目標沒有穿裝備。但是低於目標護甲值的話，則會先扣掉目標的護甲值。</ArmorPenetrationExplanation>
+  <!-- EN: Building damage factor -->
+  <BuildingDamageFactor>建築傷害倍率</BuildingDamageFactor>
+  <!-- EN: Damage to all buildings is multiplied by this value. -->
+  <BuildingDamageFactorExplanation>所有對建築的傷害都會乘上這個數值。</BuildingDamageFactorExplanation>
+  <!-- EN: Building damage factor (impassable) -->
+  <BuildingDamageFactorImpassable>建築傷害倍率（無法通行）</BuildingDamageFactorImpassable>
+  <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
+  <BuildingDamageFactorImpassableExplanation>所有對無法通行的建築的傷害都會乘上這個數值。</BuildingDamageFactorImpassableExplanation>
+  <!-- EN: Building damage factor (passable) -->
+  <BuildingDamageFactorPassable>建築傷害倍率（可通行）</BuildingDamageFactorPassable>
+  <!-- EN: Damage to all passable buildings is multiplied by this value. -->
+  <BuildingDamageFactorPassableExplanation>所有對可通行的建築的傷害都會乘上這個數值。</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>準度</Accuracy>
   <!-- EN: Burst shot count -->
@@ -370,6 +382,8 @@
   <LeatherType>毛皮類型</LeatherType>
   <!-- EN: Body size -->
   <BodySize>體型</BodySize>
+  <!-- EN: Growth -->
+  <Growth>生長</Growth>
   <!-- EN: Recruit difficulty -->
   <RecruitDifficulty>招募難度</RecruitDifficulty>
   <!-- EN: Base price -->
@@ -394,12 +408,10 @@
   <WildnessExplanation>野性越強的生物自然更加難以馴服、訓練、掌握。</WildnessExplanation>
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>訓練度衰減間隔</TrainingDecayInterval>
-  <!-- EN: Tameness will never decay. -->
-  <TamenessWillNotDecay>馴服度永不衰減。</TamenessWillNotDecay>
-  <!-- EN: Animal filth rate -->
-  <AnimalFilthRate>動物排泄率</AnimalFilthRate>
-  <!-- EN: Animals produce filth when moving around on constructed floors.\n\nThis is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
-  <AnimalFilthRateExplanation>當動物在建築地面移動時會產生排泄。\n\n此生物平均每移動{0}格就會產生排泄。\n\n體型越大或非寵物的動物會產生排泄。</AnimalFilthRateExplanation>
+  <!-- EN: Tameness will never decay for animals of very low wildness. -->
+  <TamenessWillNotDecay>野性非常低的動物馴服度永不衰減。</TamenessWillNotDecay>
+  <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
+  <TamenessWillNotDecayFenceBlocked>可以被圍欄關起來的動物，訓練度不會衰減。</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>經歷時間</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -444,6 +456,8 @@
   <NeverSafe>不安全</NeverSafe>
   <!-- EN: {0} / day -->
   <PerDay>{0} / 天</PerDay>
+  <!-- EN: {0} / hour -->
+  <PerHour>{0} / 小時</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>貨運動物</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -468,8 +482,8 @@
   <NuzzleIntervalExplanation>動物向友好殖民者撒嬌的平均時間。\n\n撒嬌是多種動物共通的行為，牠們會用鼻子或臉依偎在對方身上表示友好。大多數人類覺得這種行為很可愛，這會讓他們提昇心情一段時間。</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>受傷反擊率</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>此生物在受到遠程攻擊時觸發的反擊率。\n\n攻擊者越近，觸發機率越大。如果在近距離下被攻擊，觸發機率增加三倍。\n每次受到傷害時都有機率會觸發，所以射速慢、傷害高的武器觸發率比較低。\n射程遠、射速慢的武器，可以讓受傷反擊率最小化。</HarmedRevengeChanceExplanation>
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <HarmedRevengeChanceExplanation>此生物在受到攻擊時觸發的反擊率。\n\n攻擊者越近，觸發機率越大。如果在近距離下被攻擊，觸發機率增加三倍。\n每次受到傷害時都有機率會觸發，所以射速慢、傷害高的武器在狩獵時不太可能觸發。</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>馴服失敗反擊率</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -592,6 +606,16 @@
   <YourNegotiatorBonus>交涉紅利</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>派系據點交易紅利</TradeWithFactionBaseBonus>
+  <!-- EN: Joins as slave -->
+  <JoinsAsSlave>以奴隸身份加入</JoinsAsSlave>
+  <!-- EN: Joins as colonist -->
+  <JoinsAsColonist>以殖民者身份加入</JoinsAsColonist>
+  <!-- EN: If purchased, this person will join your colony as a slave. -->
+  <JoinsAsSlaveDesc>如果購買他，此人將作為奴隸加入你的殖民地。</JoinsAsSlaveDesc> <!--  -->
+  <!-- EN: If purchased, this person will join your colony as a colonist. -->
+  <JoinsAsColonistDesc>如果購買他，此人將作為殖民者加入你的殖民地。<</JoinsAsColonistDesc>
+  <!-- EN: Trading drugs bonus -->
+  <TradingDrugsBonus>藥物貿易紅利</TradingDrugsBonus>
   <!-- EN: minimum -->
   <minimum>最低</minimum>
   <!-- EN: Final price -->
@@ -636,8 +660,8 @@
   <CaravanCouldNotFindPackingSpot>找不到任何有效的裝卸點。確保選擇的出口位置({0})可行。</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的殖民者無法抵達出口位置({0})。</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{1_labelShort}無法被任何指派的殖民者接觸。</CaravanPawnIsUnreachable>
+  <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
+  <CaravanRoamerCannotReachSpots>{1_labelShort} 在任何指派的殖民者帶領下，無法到達裝卸點或出口位置。</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>沒有任何被指派的殖民者能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -728,7 +752,11 @@
   <CaravanMovementSpeed>移動速度</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
   <TilesPerDay>格/日</TilesPerDay>
-  <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
+  <!-- EN: None - too heavy -->
+  <TilesPerDayImmobile>無 - 太重</TilesPerDayImmobile>
+  <!-- EN: None -->
+  <TilesPerDayImmobileShort>無</TilesPerDayImmobileShort>
+  <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
   <CaravanMovementSpeedTip>移動速度取決於全部人類和動物的平均速度、負重量、地形移動的困難度。</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
   <AnimalsWillBeAbleToGraze>動物可以放牧</AnimalsWillBeAbleToGraze>
@@ -753,7 +781,7 @@
   <!-- EN: Total body size -->
   <TotalBodySize>總體型大小值</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
-  <AutomaticallySelectFoodAndMedicine>自動選擇旅行必備的物資</AutomaticallySelectFoodAndMedicine>
+  <AutomaticallySelectTravelSupplies>自動選擇旅行必備的物資</AutomaticallySelectTravelSupplies>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -805,17 +833,17 @@
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
-  <HistoryUploadMessage>你是否同意將遊戲數據上傳至RimWorld伺服器以幫助開發者完善遊戲平衡嗎? 如果你同意，每隔{0}天你的遊戲數據就會被自動上傳(以及在遊戲結束等其他情況下上傳)。隱私設定可在選項清單內更改。</HistoryUploadMessage>
+  <HistoryUploadMessage>你是否同意將遊戲資料上傳至RimWorld伺服器以幫助開發者完善遊戲平衡嗎? 如果你同意，每隔{0}天你的遊戲資料就會被自動上傳(以及在遊戲結束等其他情況下上傳)。隱私設定可在選項清單內更改。</HistoryUploadMessage>
   <!-- EN: Even though history is sent anonymously, you can attach your name. -->
-  <HistoryUploadMessagePlayerName>儘管遊戲數據默認是匿名上傳的，但你仍然可以選擇附上你的名字。</HistoryUploadMessagePlayerName>
+  <HistoryUploadMessagePlayerName>儘管遊戲資料默認是匿名上傳的，但你仍然可以選擇附上你的名字。</HistoryUploadMessagePlayerName>
   <!-- EN: Allow uploading gameplay data -->
-  <HistoryUploadYes>允許上傳遊戲數據</HistoryUploadYes>
+  <HistoryUploadYes>允許上傳遊戲資料</HistoryUploadYes>
   <!-- EN: Do not allow uploading gameplay data -->
-  <HistoryUploadNo>不允許上傳遊戲數據</HistoryUploadNo>
+  <HistoryUploadNo>不允許上傳遊戲資料</HistoryUploadNo>
   <!-- EN: Upload only this time -->
-  <HistoryUploadYesOnce>僅上傳本次的數據</HistoryUploadYesOnce>
+  <HistoryUploadYesOnce>僅上傳本次的資料</HistoryUploadYesOnce>
   <!-- EN: Do not upload this time, ask me later -->
-  <HistoryUploadNoOnce>不上傳本次的數據，並稍後再問我</HistoryUploadNoOnce>
+  <HistoryUploadNoOnce>不上傳本次的資料，並稍後再問我</HistoryUploadNoOnce>
   
   <!-- Outfit management -->
   <!-- EN: Outfit -->
@@ -844,14 +872,6 @@
   <DrugPolicyInUse>{0}已在使用用藥計劃。</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>{0}已在使用客製化菜單。</FoodRestrictionInUse>
-  <!-- EN: Social drugs -->
-  <SocialDrugs>社交藥物</SocialDrugs>
-  <!-- EN: No drugs -->
-  <NoDrugs>禁用藥物</NoDrugs>
-  <!-- EN: One drink per day -->
-  <OneDrinkPerDay>每日一次</OneDrinkPerDay>
-  <!-- EN: Unrestricted -->
-  <Unrestricted>無限制</Unrestricted>
   <!-- EN: No drug policy selected -->
   <NoDrugPolicySelected>未套用用藥計劃</NoDrugPolicySelected>
   <!-- EN: Add drug... -->
@@ -1018,10 +1038,16 @@
   <AbilityCantApplyToMentallyBroken>{0_labelShort} 的心靈壞掉了。</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
   <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} 的心靈沒有壞掉。</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not maddened. -->
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} 沒有陷入瘋狂</AbilityCanOnlyApplyToManhunter>
+  <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
+  <AbilityCantApplyToScaria>{0_labelShort} 患有狂亂症，只能透過藥物治療。</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0}無法作用於'{1}'精神狀態。</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort}已經毫無抵抗。</AbilityCantApplyNoResistance>
+  <!-- EN: {0_labelShort} is downed. -->
+  <AbilityCantApplyDowned>{0_labelShort} 被擊倒。</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>無法使用：{0}無性。</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
@@ -1032,6 +1058,22 @@
   <AbilityAlreadyInspired>{0_labelShort}已經處於激勵狀態。</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort}當前無法獲取激勵。</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
+  <AbilityMustBeNotSameIdeo>{0_labelShort}必須與{1_labelShort}的理念不同。</AbilityMustBeNotSameIdeo>
+  <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
+  <AbilityMustBeSameIdeo>{0_labelShort}必須與{1_labelShort}有相同的理念。</AbilityMustBeSameIdeo>
+  <!-- EN: {0_labelShort} must be sick or injured. -->
+  <AbilityMustBeSickOrInjured>{0_labelShort}必須是生病或受傷。</AbilityMustBeSickOrInjured>
+  <!-- EN: {0} can only counsel {1}s. -->
+  <AbilityMustBeSameIdeoCounsel>{0}只能審議{1}。</AbilityMustBeSameIdeoCounsel>
+  <!-- EN: {0_labelShort} is already considered guilty. -->
+  <AbilityMustBeNotGuilty>{0_labelShort}已被視為有罪。</AbilityMustBeNotGuilty>
+  <!-- EN: Must target a human. -->
+  <AbilityMustBeHuman>必須指定人類為目標。</AbilityMustBeHuman>
+  <!-- EN: Must target a non-wild human. -->
+  <AbilityMustBeHumanNonWild>必須指定非野人。</AbilityMustBeHumanNonWild>
+  <!-- EN: Must target an animal. -->
+  <AbilityMustBeAnimal>必須指定動物。</AbilityMustBeAnimal>
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort}失去意識。</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
@@ -1059,5 +1101,87 @@
   <MentalBreakIntensityMajor>中度</MentalBreakIntensityMajor>
   <!-- EN: extreme -->
   <MentalBreakIntensityExtreme>重度</MentalBreakIntensityExtreme>
-  
+
+  <!-- Auto slaughter -->
+  <!-- EN: Animal -->
+  <AutoSlaugtherHeaderColLabel>動物</AutoSlaugtherHeaderColLabel>
+  <!-- EN: Current -->
+  <AutoSlaugtherHeaderColCurrent>目前</AutoSlaugtherHeaderColCurrent>
+  <!-- EN: Max -->
+  <AutoSlaugtherHeaderColMax>最大</AutoSlaugtherHeaderColMax>
+  <!-- EN: Total -->
+  <AutoSlaugtherHeaderColTotal>總和</AutoSlaugtherHeaderColTotal>
+  <!-- EN: Other -->
+  <AutoSlaugtherHeaderColOther>其他</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
+  <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
+  <AutoSlaugtherTip>殖民者會按照年齡大到小的順序屠宰沒有懷孕的動物，接著是很久之前懷孕到最近懷孕的動物順序。</AutoSlaugtherTip>
+  <!-- EN: Male adult -->
+  <AnimalMaleAdult>成年雄性</AnimalMaleAdult>
+  <!-- EN: Male young -->
+  <AnimalMaleYoung>未成年雄性</AnimalMaleYoung>
+  <!-- EN: Female adult -->
+  <AnimalFemaleAdult>成年雌性</AnimalFemaleAdult>
+  <!-- EN: Female young -->
+  <AnimalFemaleYoung>未成年雌性</AnimalFemaleYoung>
+  <!-- EN: Pregnant -->
+  <AnimalPregnant>懷孕</AnimalPregnant>
+  <!-- EN: Bonded -->
+  <AnimalBonded>羈絆</AnimalBonded>
+  <!-- EN: Slaughter -->
+  <AllowSlaughterPregnant>屠宰</AllowSlaughterPregnant>
+
+  <!-- EN: The animal to be automatically slaughtered. -->
+  <AutoSlaugtherHeaderTooltipLabel>即將被自動屠宰的動物。</AutoSlaugtherHeaderTooltipLabel>
+  <!-- EN: The current number of animals in the colony, both male and female. -->
+  <AutoSlaugtherHeaderTooltipCurrentTotal>目前殖民地內的動物數量，包含雄性與雌性。</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxTotal>殖民地內的最大動物數量，包含雄性與雌性\n\n馴獸師會自動屠宰任何多餘的動物。</AutoSlaugtherHeaderTooltipMaxTotal>
+  <!-- EN: The current number of males of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentMales>目前殖民地內的成年雄性動物數量。</AutoSlaugtherHeaderTooltipCurrentMales>
+  <!-- EN: The current number of baby and juvenile males in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>目前殖民地內的未成年雄性動物數量。</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxMales>殖民地內的最大成年雄性動物數量。\n\n馴獸師會自動屠宰任何多餘的動物。</AutoSlaugtherHeaderTooltipMaxMales>
+  <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>殖民地內的最大未成年雄性動物數量。\n\n馴獸師會自動屠宰任何多餘的動物。</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <!-- EN: The current number of females of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemales>目前殖民地內的成年雌性動物數量。</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <!-- EN: The current number of baby and juvenile females in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>目前殖民地內的未成年雌性動物數量。</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxFemales>殖民地內的最大成年雌性動物數量。\n\n馴獸師會自動屠宰任何多餘的動物。</AutoSlaugtherHeaderTooltipMaxFemales>
+  <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>殖民地內的最大未成年雌性動物數量。\n\n馴獸師會自動屠宰任何多餘的動物。</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <!-- EN: The current number of pregnant animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentPregnant>目前殖民地內懷孕的動物數量。</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>允許懷孕動物與同一物種的其他雌性動物一起被屠宰。</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+
+  <!-- EN: The current number of bonded animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentBonded>目前殖民地動物夥伴的數量。</AutoSlaughterHeaderTooltipCurrentBonded>
+  <!-- EN: Allow bonded animals to be slaughtered. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>允許屠宰動物夥伴。</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
+
+
+  <!-- EN: Click to set an animal count limit. -->
+  <AutoSlaughterTooltipSetLimit>點擊設置動物數量限制。</AutoSlaughterTooltipSetLimit>
+
+  <!-- Room requirements -->
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>沒有允許的床</RoomRequirementNoBeds>
+  <!-- EN: room area: {0} tiles -->
+  <RoomRequirementArea>房間面積: {0} 格</RoomRequirementArea>
+  <!-- EN: room impressiveness -->
+  <RoomRequirementImpressiveness>房間印象</RoomRequirementImpressiveness>
+  <!-- EN: all floored -->
+  <RoomRequirementAllFloored>所有地板</RoomRequirementAllFloored>
+  <!-- EN: all braziers must be lit -->
+  <RoomRequirementAllBraziersMustBeLit>所有火盆必須點燃</RoomRequirementAllBraziersMustBeLit>
+  <!-- EN: all fine floored -->
+  <RoomRequirementAllFineFloored>所有合適的地板</RoomRequirementAllFineFloored>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>沒有允許的生產設施</RoomRequirementNoProductionFacilities>
+  <!-- EN: no altars allowed -->
+  <RoomRequirementNoAltars>沒有允許的祭壇</RoomRequirementNoAltars>
+
 </LanguageData>
