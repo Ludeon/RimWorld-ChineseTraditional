@@ -152,6 +152,10 @@
   <ConfirmDeleteMod>你確定要完全刪除{0}？</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>自動排序</ResolveModOrder>
+  <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
+  <ModReorderConflict_MustLoadAfter>無法移動{0}：它必須在{1}之後讀取。</ModReorderConflict_MustLoadAfter>
+  <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
+  <ModReorderConflict_MustLoadBefore>無法移動{0}：它必須在{1}之前讀取。</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>取消訂閱</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -430,17 +434,21 @@
   <Difficulty_AllowMortars_Label>玩家可以建造迫擊炮</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
   <Difficulty_AllowMortars_Info>允許玩家建造迫擊炮。\n\n你依然可以在禁用此選項時使用繳獲的迫擊炮。</Difficulty_AllowMortars_Info>
+  <!-- EN: Classic mortars -->
+  <Difficulty_ClassicMortars_Label>經典迫擊砲</Difficulty_ClassicMortars_Label>
+  <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
+  <Difficulty_ClassicMortars_Info>迫擊砲將不需要強化砲管來建造或重新裝填，並為這方便性進行平衡性調整。</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>適應性調整</DifficultyAdaptationSection>
-  <!-- EN: Damage adaptation growth -->
+  <!-- EN: Adaptation growth rate -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>適應性增長</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>適應性表示玩家對當前遊戲的適應能力，故事敘述者會在你遊刃有餘的情況下隨著時間的推移使遊戲更富挑戰性。這與財富和人口對故事的影響效果不同。\n\n這個選項會調整挑戰性增長的倍率。</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
-  <!-- EN: Damage adaptation effect -->
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>適應性表示玩家對當前遊戲的適應能力，故事敘述者會在你遊刃有餘的情況下使遊戲更富挑戰性。適應性會隨著時間的推移而增長，並在你受到傷害時降低。\n\n這個選項會調整適應性增長的倍率。</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Adaptation impact -->
   <Difficulty_AdaptationEffectFactor_Label>適應性影響</Difficulty_AdaptationEffectFactor_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
-  <Difficulty_AdaptationEffectFactor_Info>適應性表示玩家對當前遊戲的適應能力，故事敘述者會在你遊刃有餘的情況下隨著時間的推移使遊戲更富挑戰性。這與財富和人口對故事的影響效果不同。\n\n這個選項會調整適應性數值對實際威脅的影響。</Difficulty_AdaptationEffectFactor_Info>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
+  <Difficulty_AdaptationEffectFactor_Info>適應性表示玩家對當前遊戲的適應能力，故事敘述者會在你遊刃有餘的情況下使遊戲更富挑戰性。適應性會隨著時間的推移而增長，並在你受到傷害時降低。\n\n這個選項會調整適應性對實際威脅的影響。</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>固定財富模式</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
@@ -555,6 +563,8 @@
   <IncapableOfTooltipWorkTypes>禁用的工作類型：</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by quest status: {0} -->
   <IncapableOfTooltipQuest>任務導致的原因：{0}</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role: {0} -->
+  <IncapableOfTooltipRole>由於角色：{0}</IncapableOfTooltipRole>
   <!-- EN: Traits -->
   <Traits>特性</Traits>
   <!-- EN: Permanent mood effect -->
@@ -573,6 +583,8 @@
   <Male>男性</Male>
   <!-- EN: female -->
   <Female>女性</Female>
+  <!-- EN: male and female -->
+  <MaleAndFemale>男性和女性</MaleAndFemale>
   <!-- EN: male -->
   <MaleAnimal>雄性</MaleAnimal>
   <!-- EN: female -->
@@ -589,6 +601,8 @@
   <StartingPawnsSelected>已選擇</StartingPawnsSelected>
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>遺棄</StartingPawnsLeftBehind>
+  <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
+  <GuiltyDesc>這個殖民者被認定是有罪的。你可以自由的放逐、處決或是逮捕他們，其他人也不會感到困擾。\n\n在有罪判定終止前</GuiltyDesc>
   
   <!-- Misc -->
   <!-- EN: Start -->
@@ -628,5 +642,27 @@
   <ClickForMoreInfo>點擊瞭解更多資訊</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>沒有可用的資訊。</NoMoreInfoAvailable>
+
+  <!-- Factions -->
+  <!-- EN: Factions -->
+  <Factions>派系</Factions>
+  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
+  <RecommendedFactionCount>派系數量超過{0}可能會使遊戲出現問題。</RecommendedFactionCount>
+  <!-- EN: Maximum {0} visible factions allowed. -->
+  <TotalFactionsAllowed>最多允許{0}個現有派系。</TotalFactionsAllowed>
+  <!-- EN: There can be no more than {0} {1}. -->
+  <MaxFactionsForType>不可以超過{0} {1}。</MaxFactionsForType>
+  <!-- EN: Restore defaults -->
+  <ResetFactionsToDefault>恢復預設值</ResetFactionsToDefault>
+  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
+  <FactionSelectionDesc>選擇出現在世界上的派系。你最多可以選擇{0}個派系。</FactionSelectionDesc>
+  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
+  <FactionDisabledContentWarning>禁用{0}表示任務種類和其他內容減少。</FactionDisabledContentWarning>
+  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
+  <InsectsDisabledContentWarning>禁用{0}表示減少自動觸發的威脅種類。</InsectsDisabledContentWarning>
+  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
+  <MechanoidsDisabledContentWarning>禁用{0}表示減少任務和自動出發的威脅種類。</MechanoidsDisabledContentWarning>
+  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
+  <FactionsDisabledWarning>沒有其他派系，襲擊、貿易和任務就不會正常發生。</FactionsDisabledWarning>
 
 </LanguageData>

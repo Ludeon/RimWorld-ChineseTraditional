@@ -8,8 +8,8 @@
   <HigherPriority>高優先度</HigherPriority>
   <!-- EN: lower priority -->
   <LowerPriority>低優先度</LowerPriority>
-  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
-  <RelevantSkills>相關技能：{0}\n相關技能平均等級：{1}/{2}</RelevantSkills>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
+  <RelevantSkills>相關技能：{0}\n相關技能平均等級：{1}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>點擊跳至：</ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
@@ -36,6 +36,12 @@
   <Priority4>低優先度</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\n當前屬於{1_nameDef}。\n\n點擊以查看派系。</PawnFactionInfo>
+  <!-- EN: Disabled by backstory: {0} -->
+  <WorkDisabledByBackstory>禁用背景故事：{0}</WorkDisabledByBackstory>
+  <!-- EN: Disabled by trait: {0} -->
+  <WorkDisabledByTrait>禁用特性：{0}</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest: {0} -->
+  <WorkDisabledByQuest>禁用任務：{0}</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -84,16 +90,20 @@
   <Hostile>敵對</Hostile>
   <!-- EN: Ally -->
   <Ally>同盟</Ally>
+  <!-- EN: hostile -->
+  <HostileLower>敵對</HostileLower>
+  <!-- EN: ally -->
+  <AllyLower>同盟</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>已擊敗</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>敵對的{0}</HostileTo>
   <!-- EN: Enemy of:  -->
   <EnemyOf>敵對的:</EnemyOf>
-  <!-- EN: Current goodwill and relations status with this faction. -->
-  <CurrentGoodwillTip>目前與此派系關係的友好度。</CurrentGoodwillTip>
-  <!-- EN: Current relations with this faction. -->
-  <CurrentRelationTip>當前與此派系的關係。</CurrentRelationTip>
+  <!-- EN: Recent events -->
+  <RecentEvents>近期事件</RecentEvents>
+  <!-- EN: Ongoing events -->
+  <OngoingEvents>持續事件</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>此派系是永久敵對的。他們會襲擊你的據點、旅隊。與他們的關係不會因為任何原因而改善。</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -102,13 +112,7 @@
   <CurrentGoodwillTip_Neutral>此派系保持中立。你可以跟他們對話、交易。如果友好度低於{0}，他們將會敵視你。如果友好度高於{1}，他們將成為盟友，開始踴躍地幫助你。</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>此派系是敵對的。他們會襲擊你的據點、旅隊。如果友好度高於{0}，他們就會變成中立狀態。</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
-  <CurrentGoodwillTip_NaturalGoodwill>此派系的中立友好度範圍是{0}至{1}。</CurrentGoodwillTip_NaturalGoodwill>
-  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillRise>如果友好度低於{0}，每年會提昇{1}。</CurrentGoodwillTip_NaturalGoodwillRise>
-  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillFall>如果友好度高於{0}，每年會降低{1}。</CurrentGoodwillTip_NaturalGoodwillFall>
-  
+
   <!-- Social tab -->
   <!-- EN: Friend -->
   <Friend>朋友</Friend>
@@ -178,8 +182,8 @@
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>研究</Research>
-  <!-- EN: Researched -->
-  <Researched>已研究</Researched>
+  <!-- EN: Study -->
+  <Study>研究</Study>
   <!-- EN: Unresearched -->
   <Unresearched>未研究</Unresearched>
   <!-- EN: Finished -->
@@ -208,6 +212,12 @@
   <TechLevelTooLow>你的派系文明等級為{0}，但此項目的技術等級為{1}。研究速度將乘以{2}。</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>解鎖</UnlockedWith>
+
+  <!-- Factions tab -->
+  <!-- EN: Factions -->
+  <FactionsTab>派系</FactionsTab>
+  <!-- EN: No known factions -->
+  <NoFactions>沒有已知的派系</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -282,8 +292,8 @@
   <QuestBedroomRequirementsUnsatisfiedSingle>滿足頭銜要求的個人臥室</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestThroneRoomRequirementsUnsatisfied>滿足{PAWN_definite}的{TITLE}頭銜要求的謁見廳。</QuestThroneRoomRequirementsUnsatisfied>
-  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestNoThroneRoom>滿足{PAWN_definite}的{TITLE}頭銜要求的謁見廳。</QuestNoThroneRoom>
+  <!-- EN: assign a throne for {PAWN_definite} -->
+  <QuestNoThroneRoom>為{PAWN_definite}分配一個王座</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>一名擁有{0}頭銜的殖民者。</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
@@ -316,7 +326,17 @@
   <QuestBetrayalOffer>背叛：存在{0}個目標</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0}將因你殺死{1}的所有成員而獎勵你。</QuestBetrayalOfferTip>
-  
+  <!-- EN: a colony wealth of at least {0} -->
+  <QuestRequiredPlayerWealth>一個財富值至少為{0}的殖民地</QuestRequiredPlayerWealth>
+  <!-- EN: alliance with {0} -->
+  <QuestAlliedTo>與{0}同盟</QuestAlliedTo>
+  <!-- EN: hostile to {0} -->
+  <QuestHostileTo>與{0}敵對</QuestHostileTo>
+  <!-- EN: neutral to {0} -->
+  <QuestNeutralTo>與{0}中立</QuestNeutralTo>
+  <!-- EN: studied {0_labelShort} -->
+  <QuestRequiredThingStudied>已研究{0_labelShort}</QuestRequiredThingStudied>
+
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>製作需求</CreatesNeed>
