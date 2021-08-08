@@ -458,6 +458,13 @@
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
   <Difficulty_FixedWealthTimeFactor_Info>在固定財富模式下，達到最大威脅等級所需的遊戲年數。\n\n注意，故事敘述者依然會根據殖民者數量和其他各種因素來調整威脅強度。</Difficulty_FixedWealthTimeFactor_Info>
 
+  <!-- EN: Ideology -->
+  <DifficultyIdeologySection>理念</DifficultyIdeologySection>
+  <!-- EN: Low pop conversion boost -->
+  <Difficulty_LowPopConversionBoost_Label>低人口皈依補正</Difficulty_LowPopConversionBoost_Label>
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <Difficulty_LowPopConversionBoost_Info>當玩家的起始理念追隨者只有一人時，轉化其他人到此理念的機率會乘上此數值。\n\n當玩家的起始理念追蹤者有兩個人時，此補正效果減半。\n\n當玩家的起始理念追隨者至少三個人時，此補正無效。</Difficulty_LowPopConversionBoost_Info>
+
   <!-- Site select -->
   <!-- EN: Select starting site -->
   <SelectStartingSite>選擇降落點</SelectStartingSite>

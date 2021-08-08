@@ -1485,7 +1485,7 @@
   <!-- EN: ends in {0} -->
   <RitualEndsIn>結束於{0}</RitualEndsIn>
   <!-- EN: Organizers -->
-  <Organizers>組織者Organizers>
+  <Organizers>組織者Organizers></Organizers>
   <!-- EN: Quality factors -->
   <QualityFactors>品質倍率</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
@@ -1526,8 +1526,8 @@
   <RitualQualityLowWarning>總和{0}品質</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>沒有合適的位置來交談。</AbilitySpeechDisabledNoSpot>
-  <!-- EN: {0_labelShort} is incapable of talking. -->
-  <AbilitySpeechDisabledCantSpeak>{0_labelShort}的{1}不足。</AbilitySpeechDisabledCantSpeak>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>{0_labelShort}的{1}不足。</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>每個儀式的參與者都會獲得持續{1}天的好心情。</RitualOutcomeExtraDesc_Mood>
   
@@ -1584,5 +1584,5 @@
   <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>{0}最大</MaxValue>
-  
+
 </LanguageData>
