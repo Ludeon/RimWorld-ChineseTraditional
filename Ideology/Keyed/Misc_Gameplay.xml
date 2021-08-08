@@ -32,9 +32,9 @@
   <!-- EN: Info about {0} -->
   <Reward_RelicInfoLabel>TODO</Reward_RelicInfoLabel>
   <!-- EN: Relic of {IDEO_name} -->
-  <RelicOf>TODO</RelicOf>
+  <RelicOf>{IDEO_name}的聖物</RelicOf>
   <!-- EN: altar -->
-  <Altar>TODO</Altar>
+  <Altar>祭壇</Altar>
   <!-- EN: base -->
   <Base>TODO</Base>
   <!-- EN: min expectation -->
@@ -52,15 +52,15 @@
   <!-- EN: Expecting at least {0} body size per colonist. -->
   <MinAnimalBodySizePerColonist>TODO</MinAnimalBodySizePerColonist>
   <!-- EN: Plant {0_label} -->
-  <PlantThing>TODO</PlantThing>
+  <PlantThing>種植{0_label}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>TODO</PlantThingDesc>
+  <PlantThingDesc>在選定的區域種植{0_label}</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>TODO</CancelPlantThing>
+  <CancelPlantThing>取消種植{0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>TODO</CancelPlantThingDesc>
+  <CancelPlantThingDesc>取消種植{0_label}</CancelPlantThingDesc>
   <!-- EN: Disables -->
-  <Disables>TODO</Disables>
+  <Disables>禁用</Disables>
   <!-- EN: Requires one of precepts -->
   <RequiresOnePrecept>TODO</RequiresOnePrecept>
   <!-- EN: Required precepts -->
@@ -68,9 +68,9 @@
   <!-- EN: Required rituals -->
   <RequiredRituals>TODO</RequiredRituals>
   <!-- EN: Disables precepts -->
-  <DisablesPrecepts>TODO</DisablesPrecepts>
+  <DisablesPrecepts>禁用戒律</DisablesPrecepts>
   <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>TODO</DisablesPreceptsCount>
+  <DisablesPreceptsCount>禁用{0}條戒律</DisablesPreceptsCount>
   <!-- EN: Styles -->
   <Styles>TODO</Styles>
   <!-- EN: Chance to have precept -->
@@ -78,13 +78,13 @@
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>TODO</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
-  <SetIdeoColor>TODO</SetIdeoColor>
+  <SetIdeoColor>設定為理念顏色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
-  <SetFavoriteColor>TODO</SetFavoriteColor>
+  <SetFavoriteColor>設定為喜愛顏色</SetFavoriteColor>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>TODO</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
-  <NotEnoughDye>TODO</NotEnoughDye>
+  <NotEnoughDye>染劑不足</NotEnoughDye>
   <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
   <ApparelLockedCannotRecolor>TODO</ApparelLockedCannotRecolor>
   <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
@@ -94,7 +94,7 @@
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
   <IdeoCertaintyTooltip>TODO</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
-  <DisabledByPrecept>TODO</DisabledByPrecept>
+  <DisabledByPrecept>因戒律{0}禁用</DisabledByPrecept>
   <!-- EN: Everyone -->
   <Everyone>所有人</Everyone>
   <!-- EN: Narrative -->
@@ -124,9 +124,9 @@
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>TODO</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
-  <RitualTargetGatherSpotInfo>TODO</RitualTargetGatherSpotInfo>
+  <RitualTargetGatherSpotInfo>任何聚集點，例如桌子</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
-  <RitualTargetGatherAltarOrRitualSpotInfo>TODO</RitualTargetGatherAltarOrRitualSpotInfo>
+  <RitualTargetGatherAltarOrRitualSpotInfo>祭壇或任何儀式點</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>TODO</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
@@ -178,13 +178,13 @@
   <RitualOutcomeExtraDesc_Execution>TODO</RitualOutcomeExtraDesc_Execution>
 
   <!-- EN: Additional reward -->
-  <RitualAttachedReward>TODO</RitualAttachedReward>
+  <RitualAttachedReward>額外獎賞</RitualAttachedReward>
   <!-- EN: Choose -->
-  <RitualAttachedRewardChoose>TODO</RitualAttachedRewardChoose>
+  <RitualAttachedRewardChoose>選擇</RitualAttachedRewardChoose>
   <!-- EN: Can't use {0} with {1}. -->
   <RitualAttachedRewardCantUseWithRitual>TODO</RitualAttachedRewardCantUseWithRitual>
   <!-- EN: Requires any of memes -->
-  <RitualAttachedRewardRequiredMemeAny>TODO</RitualAttachedRewardRequiredMemeAny>
+  <RitualAttachedRewardRequiredMemeAny>需要任一模因</RitualAttachedRewardRequiredMemeAny>
   <!-- EN: Requires {0} faction -->
   <RitualAttachedRewardRequiredFaction>TODO</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
@@ -240,7 +240,7 @@
   <RitualOutcomeCompTip_RitualTargetDefsPart2>TODO</RitualOutcomeCompTip_RitualTargetDefsPart2>
 
   <!-- EN: For slave use -->
-  <ForSlaveUse>TODO</ForSlaveUse>
+  <ForSlaveUse>給奴隸使用</ForSlaveUse>
   <!-- EN: Slave -->
   <Slave>奴隸</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
@@ -249,9 +249,9 @@
   <SellingAsRansom>TODO</SellingAsRansom>
 
   <!-- EN: We are {0} -->
-  <MemeGoodwillImpact_Player>TODO</MemeGoodwillImpact_Player>
+  <MemeGoodwillImpact_Player>我們是{0}</MemeGoodwillImpact_Player>
   <!-- EN: They are {0} -->
-  <MemeGoodwillImpact_Other>TODO</MemeGoodwillImpact_Other>
+  <MemeGoodwillImpact_Other>他們是{0}</MemeGoodwillImpact_Other>
 
   <!-- TextMotes -->
   <!-- EN: Slave suppression: {0} -->
