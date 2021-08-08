@@ -32,9 +32,9 @@
   <!-- EN: Info about {0} -->
   <Reward_RelicInfoLabel>TODO</Reward_RelicInfoLabel>
   <!-- EN: Relic of {IDEO_name} -->
-  <RelicOf>TODO</RelicOf>
+  <RelicOf>{IDEO_name}的聖物</RelicOf>
   <!-- EN: altar -->
-  <Altar>TODO</Altar>
+  <Altar>祭壇</Altar>
   <!-- EN: base -->
   <Base>TODO</Base>
   <!-- EN: min expectation -->
@@ -124,9 +124,9 @@
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>TODO</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
-  <RitualTargetGatherSpotInfo>TODO</RitualTargetGatherSpotInfo>
+  <RitualTargetGatherSpotInfo>任何聚集點，例如桌子</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
-  <RitualTargetGatherAltarOrRitualSpotInfo>TODO</RitualTargetGatherAltarOrRitualSpotInfo>
+  <RitualTargetGatherAltarOrRitualSpotInfo>祭壇或任何儀式點</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>TODO</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
@@ -178,13 +178,13 @@
   <RitualOutcomeExtraDesc_Execution>TODO</RitualOutcomeExtraDesc_Execution>
 
   <!-- EN: Additional reward -->
-  <RitualAttachedReward>TODO</RitualAttachedReward>
+  <RitualAttachedReward>額外獎賞</RitualAttachedReward>
   <!-- EN: Choose -->
-  <RitualAttachedRewardChoose>TODO</RitualAttachedRewardChoose>
+  <RitualAttachedRewardChoose>選擇</RitualAttachedRewardChoose>
   <!-- EN: Can't use {0} with {1}. -->
   <RitualAttachedRewardCantUseWithRitual>TODO</RitualAttachedRewardCantUseWithRitual>
   <!-- EN: Requires any of memes -->
-  <RitualAttachedRewardRequiredMemeAny>TODO</RitualAttachedRewardRequiredMemeAny>
+  <RitualAttachedRewardRequiredMemeAny>需要任一模因</RitualAttachedRewardRequiredMemeAny>
   <!-- EN: Requires {0} faction -->
   <RitualAttachedRewardRequiredFaction>TODO</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
@@ -240,7 +240,7 @@
   <RitualOutcomeCompTip_RitualTargetDefsPart2>TODO</RitualOutcomeCompTip_RitualTargetDefsPart2>
 
   <!-- EN: For slave use -->
-  <ForSlaveUse>TODO</ForSlaveUse>
+  <ForSlaveUse>給奴隸使用</ForSlaveUse>
   <!-- EN: Slave -->
   <Slave>奴隸</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
@@ -249,9 +249,9 @@
   <SellingAsRansom>TODO</SellingAsRansom>
 
   <!-- EN: We are {0} -->
-  <MemeGoodwillImpact_Player>TODO</MemeGoodwillImpact_Player>
+  <MemeGoodwillImpact_Player>我們是{0}</MemeGoodwillImpact_Player>
   <!-- EN: They are {0} -->
-  <MemeGoodwillImpact_Other>TODO</MemeGoodwillImpact_Other>
+  <MemeGoodwillImpact_Other>他們是{0}</MemeGoodwillImpact_Other>
 
   <!-- TextMotes -->
   <!-- EN: Slave suppression: {0} -->
