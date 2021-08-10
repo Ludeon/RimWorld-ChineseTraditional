@@ -3,45 +3,45 @@
 
   <!-- Misc -->
   <!-- EN: add -->
-  <Add>TODO</Add>
+  <Add>新增</Add>
   <!-- EN: Trading animal products bonus -->
   <TradingAnimalProduceBonus>TODO</TradingAnimalProduceBonus>
   <!-- EN: Slaves -->
-  <SlavesSection>TODO</SlavesSection>
+  <SlavesSection>奴隸</SlavesSection>
   <!-- EN: dominant style -->
   <DominantStyle>TODO</DominantStyle>
   <!-- EN: Date -->
-  <Date>TODO</Date>
+  <Date>日期</Date>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>TODO</ChooseStructureMemesInfo>
   <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. Some of these have much more gameplay impact than others. -->
   <ChooseNormalMemesInfo>TODO</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
-  <NotEnoughMemes>TODO</NotEnoughMemes>
+  <NotEnoughMemes>至少選擇{0}個模因。</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
-  <TooManyMemes>TODO</TooManyMemes>
+  <TooManyMemes>至多選擇{0}個模因。</TooManyMemes>
   <!-- EN: Choose structure. -->
   <ChooseStructureMeme>TODO</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
-  <IncompatibleMemes>TODO</IncompatibleMemes>
+  <IncompatibleMemes>{0_label}與{1_label}不相容。</IncompatibleMemes>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
   <ChangesRandomizePrecepts>TODO</ChangesRandomizePrecepts>
   
   <!-- EN: Room requirements -->
-  <RoomRequirements>TODO</RoomRequirements>
+  <RoomRequirements>房間需求</RoomRequirements>
   
   <!-- EN: role -->
-  <Role>TODO</Role>
+  <Role>職位</Role>
   <!-- EN: Assign role -->
-  <ChooseRole>TODO</ChooseRole>
+  <ChooseRole>分配職位</ChooseRole>
   <!-- EN: No role assigned -->
-  <NoRoleAssigned>TODO</NoRoleAssigned>
+  <NoRoleAssigned>未分配職位</NoRoleAssigned>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
-  <ChooseRoleConfirmAssign>TODO</ChooseRoleConfirmAssign>
+  <ChooseRoleConfirmAssign>將為{PAWN_labelShort}分配{ROLE_labelDef}職位。</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
-  <ChooseRoleConfirmAssignPostfix>TODO</ChooseRoleConfirmAssignPostfix>
+  <ChooseRoleConfirmAssignPostfix>你確定嗎？</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignReplace>TODO</ChooseRoleConfirmAssignReplace>
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
@@ -101,18 +101,18 @@
 
   <!-- Slavery -->
   <!-- EN: Slave -->
-  <CannotAssignBedToSlave>TODO</CannotAssignBedToSlave>
+  <CannotAssignBedToSlave>奴隸</CannotAssignBedToSlave>
   <!-- EN: Colonist -->
-  <CannotAssignBedToColonist>TODO</CannotAssignBedToColonist>
+  <CannotAssignBedToColonist>殖民者</CannotAssignBedToColonist>
   <!-- EN: Any slave -->
-  <AnySlave>TODO</AnySlave>
+  <AnySlave>任何奴隸</AnySlave>
   <!-- EN: Negotiator will not sell people into slavery. -->
   <NegotiatorWillNotTradeSlaves>TODO</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
   <NegotiatorWillNotTradeSlavesTip>TODO</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
-  <LastHumanMeat>TODO</LastHumanMeat>
+  <LastHumanMeat>最後進食人肉時間</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>TODO</LastHumanMeatDesc>
   <!-- EN: Last large animal slaughter -->
@@ -128,25 +128,25 @@
 
   <!-- Style -->
   <!-- EN: Style -->
-  <StylePawn>TODO</StylePawn>
+  <StylePawn>風格</StylePawn>
   <!-- EN: Cancel -->
-  <Cancel>TODO</Cancel>
+  <Cancel>取消</Cancel>
   <!-- EN: hair -->
-  <Hair>TODO</Hair>
+  <Hair>頭髮</Hair>
   <!-- EN: beard -->
-  <Beard>TODO</Beard>
+  <Beard>鬍鬚</Beard>
   <!-- EN: face tattoo -->
-  <TattooFace>TODO</TattooFace>
+  <TattooFace>紋面</TattooFace>
   <!-- EN: body tattoo -->
-  <TattooBody>TODO</TattooBody>
+  <TattooBody>紋身</TattooBody>
   <!-- EN: apparel color -->
-  <ApparelColor>TODO</ApparelColor>
+  <ApparelColor>服裝顏色</ApparelColor>
   <!-- EN: hair color -->
-  <HairColor>TODO</HairColor>
+  <HairColor>髮色</HairColor>
   <!-- EN: Show headgear -->
-  <ShowHeadgear>TODO</ShowHeadgear>
+  <ShowHeadgear>顯示頭飾</ShowHeadgear>
   <!-- EN: Show apparel -->
-  <ShowApparel>TODO</ShowApparel>
+  <ShowApparel>顯示服裝</ShowApparel>
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
   <PawnUnhappyWithStyleItems>TODO</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
@@ -208,11 +208,11 @@
   <!-- EN: Choose dryad caste -->
   <ChangeMode>TODO</ChangeMode>
   <!-- EN: Required memes -->
-  <RequiredMemes>TODO</RequiredMemes>
+  <RequiredMemes>需要模因</RequiredMemes>
   <!-- EN: Required caste -->
   <RequiredStage>TODO</RequiredStage>
   <!-- EN: Missing required memes -->
-  <MissingRequiredMemes>TODO</MissingRequiredMemes>
+  <MissingRequiredMemes>缺少模因</MissingRequiredMemes>
   <!-- EN: Missing required caste -->
   <MissingRequiredCaste>TODO</MissingRequiredCaste>
   <!-- EN: Already selected -->
@@ -226,13 +226,13 @@
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
   <ChooseColonistsForIdeoDesc>TODO</ChooseColonistsForIdeoDesc>
   <!-- EN: New Colony -->
-  <ChooseThingsForNewColonyTitle>TODO</ChooseThingsForNewColonyTitle>
+  <ChooseThingsForNewColonyTitle>新殖民地</ChooseThingsForNewColonyTitle>
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
   <ChooseThingsForNewColonyDesc>TODO</ChooseThingsForNewColonyDesc>
   <!-- EN: Choose up to {0} {1}. -->
-  <ChooseThingsDesc>TODO</ChooseThingsDesc>
+  <ChooseThingsDesc>最多選擇{0}{1}。</ChooseThingsDesc>
   <!-- EN: Choose up to {0} people. -->
-  <ChoosePeopleDesc>TODO</ChoosePeopleDesc>
+  <ChoosePeopleDesc>最多選擇{0}個人。</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
   <ChooseOnlySlavesInfo>TODO</ChooseOnlySlavesInfo>
   <!-- EN: Convert -->
@@ -248,6 +248,6 @@
   <ConfirmHackEnenyTerminal>TODO</ConfirmHackEnenyTerminal>
 
   <!-- EN: Relics -->
-  <RelicsSection>TODO</RelicsSection>
+  <RelicsSection>聖物</RelicsSection>
 
 </LanguageData>
