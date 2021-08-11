@@ -261,32 +261,32 @@
   <AlertAnimalFilthDesc>一個產生髒污的動物在室內的乾淨地板上。\n\n動物在一般地板上走動時會產生大量的髒污。把產生髒污的動物放在室外，或放在草蓆上，這樣它們產生的髒污會少很多。\n\n你可以透過點擊 "I"鍵，在動物的統計資料中檢查動物的排泄率。\n\n這些動物是有問題的：\n{0}</AlertAnimalFilthDesc>
 
   <!-- EN: Pen needed -->
-  <AlertAnimalPenNeeded>需要圍欄</AlertAnimalPenNeeded>
+  <AlertAnimalPenNeeded>需要飼養圈</AlertAnimalPenNeeded>
   <!-- EN: Some of your tame animals are roamers. If not kept in an animal pen, they will wander away. -->
-  <AlertAnimalPenNeededDesc>你的一些馴服的動物正在遊蕩。如果不把牠們關在圍欄裡，牠們就會到處亂跑。</AlertAnimalPenNeededDesc>
+  <AlertAnimalPenNeededDesc>你的一些馴服動物正在遊蕩。如果不把牠們關在飼養圈內，牠們將會亂跑。</AlertAnimalPenNeededDesc>
   <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
-  <AlertAnimalPenNeededNoHandlers>你沒有任何馴獸師可以把動物帶到圍欄。\n\n指定一個居民分配馴服工作類型。</AlertAnimalPenNeededNoHandlers>
+  <AlertAnimalPenNeededNoHandlers>你沒有馴獸師可以將動物帶到飼養圈內。\n\n指定一個殖民者分配馴獸師的工作。</AlertAnimalPenNeededNoHandlers>
   <!-- EN: None of your assigned handlers have the required animals skill needed to take the following animals to a pen. -->
-  <AlertAnimalPenNeededLowSkillHandlers>你指定的馴獸師中沒有足夠的技能需求將以下的動物帶到圍欄內。</AlertAnimalPenNeededLowSkillHandlers>
+  <AlertAnimalPenNeededLowSkillHandlers>你指定的馴獸師中沒有足夠的技能將以下的動物帶到飼養圈內。</AlertAnimalPenNeededLowSkillHandlers>
   <!-- EN: needs {MINSKILL}, {HANDLER_labelShort} has {BESTSKILL} -->
   <AlertAnimalPenNeededLowSkillHandlersDetail>最低需要{MINSKILL}，{HANDLER_labelShort}只有{BESTSKILL}</AlertAnimalPenNeededLowSkillHandlersDetail>
   <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
-  <AlertAnimalPenNeededDescExplanation>透過在有柵欄、路障或牆壁區域內建造動物圍欄。選擇圍欄標記查看他接受哪些動物，以及可以容納多少動物。\n\n你的馴獸師會自動將動物帶到指定的圍欄中，圍欄需要有門或柵欄門才能讓動物進入。</AlertAnimalPenNeededDescExplanation>
+  <AlertAnimalPenNeededDescExplanation>在柵欄、路障或牆的區域內，建立動物飼養圈。選擇飼養圈標誌查看指定的動物，以及飼養動物的數量。\n\n你的馴獸師會自動將動物帶到指定的飼養圈，飼養圈需要門或柵欄門才能讓動物進入。</AlertAnimalPenNeededDescExplanation>
 
   <!-- EN: Pen not enclosed -->
-  <AlertAnimalPenNotEnclosed>圍欄未封閉</AlertAnimalPenNotEnclosed>
+  <AlertAnimalPenNotEnclosed>飼養圈未圍住</AlertAnimalPenNotEnclosed>
   <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
-  <AlertAnimalPenNotEnclosedDesc>一個動物圍欄標記未封閉。\n\n使用柵欄、路障、柵欄門、牆壁或門將圍欄封閉起來，以防止動物四處遊蕩。\n\n如果你只有未封閉的圍欄標記，你的馴獸師扔然可以帶領動物遊蕩動物回家 - 但當動物再次遊蕩，就必須不斷重複這樣的行為。</AlertAnimalPenNotEnclosedDesc>
+  <AlertAnimalPenNotEnclosedDesc>動物飼養圈目前沒有圍住。\n\n使用柵欄、路障、柵欄門、牆或門將飼養圈圍起來，以防止動物四處遊蕩。\n\n如果你的飼養圈尚未圍起來，馴獸師依然可以將遊蕩的動物帶回家 - 但當動物再次遊蕩時，就必須重蹈覆轍之前的行為。</AlertAnimalPenNotEnclosedDesc>
 
   <!-- EN: Animal wandering away -->
-  <AlertAnimalIsRoaming>動物走失</AlertAnimalIsRoaming>
+  <AlertAnimalIsRoaming>動物遊蕩</AlertAnimalIsRoaming>
   <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
-  <AlertAnimalIsRoamingDesc>你的一些馴服的動物開始流浪了。如果他們到達地圖的邊緣，牠們最終會離開。\n\n如果你有一個封閉的圍欄，你的馴獸師可以把動物帶回來。圍欄中的動物不再流浪。\n\n以下動物正在流浪：\n\n{0}</AlertAnimalIsRoamingDesc>
+  <AlertAnimalIsRoamingDesc>你有一些馴服動物開始四處遊蕩了。如果牠們到達地圖的邊緣，將會離開。\n\n如果你有一個圍住的動物飼養圈，你的馴獸師可以把動物帶回來。飼養圈中的動物不會遊蕩。\n\n以下動物正在遊蕩：\n\n{0}</AlertAnimalIsRoamingDesc>
 
   <!-- EN: Hungry pen animals -->
-  <AlertPennedAnimalHungry>飢餓的圍欄動物</AlertPennedAnimalHungry>
+  <AlertPennedAnimalHungry>飼養圈動物飢餓</AlertPennedAnimalHungry>
   <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
-  <AlertPennedAnimalHungryDesc>一些圍欄中的動物正在挨餓。\n\n選擇一個圍欄標記，使用「食物」面板查看更多細節。\n\n草食動物可能需要一個更大的圍欄來提供足夠的草。其他動物可能需要用儲備的牧草或類似的食物來供應。\n\n以下這些動物正在挨餓：\n\n{0}</AlertPennedAnimalHungryDesc>
+  <AlertPennedAnimalHungryDesc>有些飼養圈中的動物正在挨餓。\n\n選擇一個飼養圈標誌，使用「食物」面板查看更多細節。\n\n草食動物需要更大的飼養圈以提供足夠的草。其他動物需要提供囤積的牧草或類似的食物。\n\n以下這些動物正在挨餓：\n\n{0}</AlertPennedAnimalHungryDesc>
 
   <!-- EN: Raids arriving in {0} -->
   <AlertTimedRaidsArrivingIn>襲擊將在{0}到來</AlertTimedRaidsArrivingIn>
