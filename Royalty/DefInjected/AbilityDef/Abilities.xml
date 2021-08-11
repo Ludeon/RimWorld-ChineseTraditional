@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: anima tree linking -->
+  <AnimaTreeLinking.label>連結生命之樹</AnimaTreeLinking.label>
+  <!-- EN: Start the anima tree linking ceremony. The linking person will meditate near the tree to gain a psylink level. Other psychically-sensitive colonists can also  help enhance the psychic link. More participants will accelerate the ceremony and cause some of the anima grass to re-grow as the ritual completes. -->
+  <AnimaTreeLinking.description>開始連結生命之樹儀式。連結人之後在樹附近冥想可獲得一層心靈連結等級。其他心靈敏感的殖民者也可得以增強精神連結。更多的參與者將加速儀式的進行，並使一些生命之草在儀式完成後重新生長。</AnimaTreeLinking.description>
+  
   <!-- EN: beckon -->
   <Beckon.label>吸引</Beckon.label>
   <!-- EN: Psychically command the target to approach the caster. -->
@@ -78,10 +83,10 @@
   
   <!-- EN: neuroquake -->
   <Neuroquake.label>神經震盪</Neuroquake.label>
-  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
-  <Neuroquake.description>找到一個不連續的心靈領域並展開它，釋放出大量的精神能量。地圖上在靠近施法者的安全圈之外的所有生物都會被瘋狂驅使。釋放這個能力需要三個小時的冥想，在這之後施法者會進入三天的心靈休克狀態。令人不安的神經震盪迴響會給周圍數公里內的每個人造成痛苦，並且對所有派系產生外交影響。</Neuroquake.description>
-  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
-  <Neuroquake.confirmationDialogText>如果你使用神經震盪，這個地區的所有人都會感受到「神經震盪」的迴響，你將失去與所有非敵對派系的友好關係。\n\n神經震盪需要三個小時的釋放時間，並且不能被打斷。施法者也會進入心靈休克數天。\n\n地圖上除了施法者周圍一個小範圍的人之外，其他人都會受到影響。\n\n你真的要釋放神經震盪嗎？</Neuroquake.confirmationDialogText>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature in range but outside of the safe, inner, circle will be driven violently insane. Casting this takes 12 seconds of meditation, and afterwards, the caster will go into a five-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>找到一個不連續的心靈領域並展開它，釋放出大量的精神能量。地圖上在靠近施法者的安全圈之外的所有生物都會被瘋狂驅使。釋放這個能力需要12秒的冥想，在這之後施法者會進入五天的心靈休克狀態。令人不安的神經震盪迴響會給周圍數公里內的每個人造成痛苦，並且對所有派系產生外交影響。</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes 12 seconds to cast, and cannot be interrupted. When complete, the caster will fall into a psychic coma for 5 days.\n\nEveryone in range except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>如果你使用神經震盪，這個地區的所有人都會感受到「神經震盪」的迴響，你將失去與所有非敵對派系的友好關係。\n\n神經震盪需要12秒的釋放時間，並且不能被打斷。施法者也會進入心靈休克數天。\n\n地圖上除了施法者周圍一個小範圍的人之外，其他人都會受到影響。\n\n你真的要釋放神經震盪嗎？</Neuroquake.confirmationDialogText>
   
   <!-- EN: painblock -->
   <Painblock.label>止痛</Painblock.label>
@@ -95,7 +100,7 @@
   
   <!-- EN: smokepop -->
   <Smokepop.label>煙霧</Smokepop.label>
-  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
+  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely. -->
   <Smokepop.description>利用地上的灰塵揚起一團厚厚的煙霧，這會降低透過它發射的任何砲彈的精準度，並防止被砲塔精確鎖定。</Smokepop.description>
   
   <!-- EN: solar pinhole -->
@@ -110,7 +115,7 @@
   
   <!-- EN: stun -->
   <Stun.label>麻痺</Stun.label>
-  <!-- EN: Momentarily disrupt motor function in target's brain, preventing any movement. -->
+  <!-- EN: Momentarily disrupt motor function in the target's brain, preventing any movement. -->
   <Stun.description>瞬間擾亂目標大腦的運動中樞，使其麻痺無法行動。</Stun.description>
   
   <!-- EN: vertigo pulse -->
@@ -141,7 +146,7 @@
   <!-- EN: word of love -->
   <WordOfLove.label>愛情之語</WordOfLove.label>
   <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
-  <WordOfLove.description>談論關於某人的浪漫同時並使用心理暗示向聽者灌輸浪漫的慾望。在接下來的幾天裡，聽者會感覺到心裡對另一個人產生浪漫吸引力。這大大增強了對他人的見解，使聽者更有可能在有機會的情況下表達愛意。這個心靈能力可以用來連接另外兩人，誘導對施法者的愛，甚至對他人的愛。</WordOfLove.description>
+  <WordOfLove.description>談論關於某人的浪漫行為時並使用心理暗示向聽者灌輸戀愛的慾望。在接下來的幾天裡，聽者會感覺到心裡對另一個人產生浪漫吸引力。這大大增強了對他人的理解，使聽者更有可能在有機會的情況下表達愛意。這個心靈能力可以用來連接另外兩人，誘導對施法者的愛，甚至對他人的愛。</WordOfLove.description>
   
   <!-- EN: word of serenity -->
   <WordOfSerenity.label>寧靜之語</WordOfSerenity.label>
@@ -151,6 +156,6 @@
   <!-- EN: word of trust -->
   <WordOfTrust.label>信賴之語</WordOfTrust.label>
   <!-- EN: Speak to the prisoner while using psychic suggestion to reduce his resistance to recruitment. This can only reduce a prisoner's resistance, but cannot recruit him. -->
-  <WordOfTrust.description>與囚犯交談，同時使用心理暗示來降低他對招募的抵抗情緒。這個心靈能力只能降低囚犯的抵抗，並不能招募他。</WordOfTrust.description>
+  <WordOfTrust.description>與俘虜交談，同時使用心理暗示來降低他對招募的抵抗情緒。這個心靈能力只能降低俘虜的抵抗，並不能招募他。</WordOfTrust.description>
   
 </LanguageData>
