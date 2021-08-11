@@ -21,6 +21,11 @@
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
   <DesignatorUninstallDesc>移除此物件以便移動、出售或重新安裝在其他地方。</DesignatorUninstallDesc>
 
+  <!-- EN: Extract tree -->
+  <DesignatorExtractTree>移植樹木</DesignatorExtractTree>
+  <!-- EN: Extract this tree while keeping it alive so it can be replanted somewhere else. -->
+  <DesignatorExtractTreeDesc>小心挖起並保證這棵樹的性命，以便它可以重新種植在其他地方。</DesignatorExtractTreeDesc>
+
   <!-- EN: Harvest -->
   <DesignatorHarvest>收穫</DesignatorHarvest>
   <!-- EN: Marks plants to be harvested for their food or other products. -->
@@ -234,6 +239,8 @@
   <MonumentOverlapsBuilding>紀念碑不能放置在此建築物上: {0}。</MonumentOverlapsBuilding>
   <!-- EN: Monument cannot be placed adjacent to: {0}. -->
   <MonumentAdjacentToBuilding>紀念碑不能放置在此建築物附近: {0}。</MonumentAdjacentToBuilding>
+  <!-- EN: Cannot be planted here -->
+  <CannotBePlantedHere>這裡不能種植</CannotBePlantedHere>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
