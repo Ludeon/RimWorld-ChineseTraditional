@@ -43,7 +43,9 @@
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>當遊戲崩潰時自動重置Mod</ResetModsConfigOnCrash>
   <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>模擬為未持有皇權DLC</SimulateNotOwningRoyalty>
+  <SimulateNotOwningRoyalty>模擬為未持有「皇權」DLC</SimulateNotOwningRoyalty>
+  <!-- EN: Simulate not owning Ideology -->
+  <SimulateNotOwningIdeology>模擬未持有「理念」DLC</SimulateNotOwningIdeology>
   <!-- EN: Verbose logging -->
   <LogVerbose>詳細日誌紀錄</LogVerbose>
   <!-- EN: Open save data folder -->
@@ -105,4 +107,8 @@
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>你的所有設置都將重置為預設設置，並且遊戲將重新啟動。所有未保存的進度將遺失！\n\n是否繼續？</ResetAndRestartConfirmationDialog>
   
+  <!-- Background image -->
+  <!-- EN: Menu background -->
+  <SetBackgroundImage>主選單背景</SetBackgroundImage>
+
 </LanguageData>

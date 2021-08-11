@@ -295,22 +295,16 @@
   <!-- EN: Arriving at {0} in {1} -->
   <AlertTimedRaidsArrivingAt>於{1}抵達{0}</AlertTimedRaidsArrivingAt>
 
-  <!-- EN: Slave rebellion likely -->
-  <AlertSlaveRebellionLikely>奴隸叛亂徵兆</AlertSlaveRebellionLikely>
-  <!-- EN: There are {0} slaves that are likely to initiate a rebellion soon. -->
-  <AlertSlaveRebellionMultipleLikelySlavesHeader>有{0}奴隸開始蠢蠢欲動。</AlertSlaveRebellionMultipleLikelySlavesHeader>
-  <!-- EN: A slave rebellion is expected to happen roughly once every {0}. -->
-  <AlertSlaveRebellionMultipleSlavesInterval>奴隸叛亂大约每{0}就會發生一次。</AlertSlaveRebellionMultipleSlavesInterval>
-  <!-- EN: {REBEL_labelShort} is the most rebellious slave and -->
-  <AlertSlaveRebellionMultipleLikelySlavesPrefix>{REBEL_labelShort}的反抗情緒最高並且</AlertSlaveRebellionMultipleLikelySlavesPrefix>
-  <!-- EN: is expected to rebel roughly once every {0}. These are the factors which are adjusting how soon they will rebel: -->
-  <AlertSlaveRebellionLikelyExplanation>預計每{0}左右就會叛亂一次。這些是發生叛亂的因素：</AlertSlaveRebellionLikelyExplanation>
-  <!-- EN: Each slave's rebellion chance is independent. If any one slave rebels, others nearby are likely to join. -->
-  <AlertSlaveRebellionLikelyNote>奴隸們並沒有互通叛亂計畫，各自會自己考慮叛亂。如果任何一个奴隸發起了叛亂，在附近的其他奴隸就有可能會加入。</AlertSlaveRebellionLikelyNote>
-
   <!-- EN: Faction will become hostile if you stay -->
   <FactionWillBecomeHostileIfNotLeavingWithin>派系將轉變為敵對</FactionWillBecomeHostileIfNotLeavingWithin>
   <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>如果你在他們的定居點或哨站停留的時間較長，這些派系會變為敵對：\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+
+  <!-- UNUSED -->
+  <AlertSlaveRebellionMultipleLikelySlavesHeader>有{0}奴隸開始蠢蠢欲動。</AlertSlaveRebellionMultipleLikelySlavesHeader>
+  <AlertSlaveRebellionMultipleSlavesInterval>奴隸叛亂大约每{0}就會發生一次。</AlertSlaveRebellionMultipleSlavesInterval>
+  <AlertSlaveRebellionMultipleLikelySlavesPrefix>{REBEL_labelShort}的反抗情緒最高並且</AlertSlaveRebellionMultipleLikelySlavesPrefix>
+  <AlertSlaveRebellionLikelyExplanation>預計每{0}左右就會叛亂一次。這些是發生叛亂的因素：</AlertSlaveRebellionLikelyExplanation>
+  <AlertSlaveRebellionLikelyNote>奴隸們並沒有互通叛亂計畫，各自會自己考慮叛亂。如果任何一个奴隸發起了叛亂，在附近的其他奴隸就有可能會加入。</AlertSlaveRebellionLikelyNote>
 
 </LanguageData>

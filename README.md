@@ -16,12 +16,18 @@ RimWorld 繁體中文化(台灣)
 
 http://ludeon.com/forums/index.php?topic=2933.0
 
+方法：
+向ludeonhelp@gmail.com 寄 你的github用戶名跟想翻譯的語言就可加入
+
+DC：https://discord.gg/96sZ5RgW2G
+統一翻譯用詞跟交流用詞使用，不強制加入
+
 ===========================
 
-本繁體中文補丁對應遊戲版本：1.1.2753
+本繁體中文補丁對應遊戲版本：1.3.3080
 
 注意事項：  
-本補丁為 1.1.2753 版本專用，注意，即使同屬 1.1 版，各版間仍存在大量不相容，未更新至 1.1.2753 版以上的玩家請自行斟酌是否使用此補丁。
+本補丁為 1.3.3080 版本專用，注意，即使同屬 1.3 版，各版間仍存在大量不相容，未更新至 1.3.3080 版以上的玩家請自行斟酌是否使用此補丁。
 
 # 安裝方法：
 
@@ -32,6 +38,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 5. 開始遊戲
 
 若有購買 Royalty DLC，則需要再把 DLC 的中文化放入指定位置。
+Ideology DLC同樣操作。
 
 1. 刪除 遊戲根目錄\Mods\Royalty\Languages 中的 ChineseTraditional (繁體中文).tar 檔案
 2. 解壓縮的 Royalty 資料夾更名為「ChineseTraditional (繁體中文)」
@@ -86,3 +93,7 @@ ranke96 中文化。 2020/3/2
 Jerifo 中文化 2020/3/16
 
 Gast 2020/4/24
+
+Darkborderman
+
+TrashGrass

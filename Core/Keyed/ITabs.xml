@@ -32,18 +32,18 @@
   <TabStats>屬性</TabStats>
   <!-- EN: Records -->
   <TabRecords>紀錄</TabRecords>
-  <!-- EN: Animals -->
-  <TabPenAnimals>動物</TabPenAnimals>
-  <!-- EN: Food -->
-  <TabPenFood>食物</TabPenFood>
-  <!-- EN: Auto-cut -->
-  <TabPenAutoCut>自動收割</TabPenAutoCut>
   <!-- EN: Art -->
   <TabArt>藝術</TabArt>
   <!-- EN: Social -->
   <TabSocial>社交</TabSocial>
   <!-- EN: Log -->
   <TabLog>紀錄</TabLog>
+  <!-- EN: Animals -->
+  <TabPenAnimals>動物</TabPenAnimals>
+  <!-- EN: Food -->
+  <TabPenFood>食物</TabPenFood>
+  <!-- EN: Auto-cut -->
+  <TabPenAutoCut>自動收割</TabPenAutoCut>
   <!-- EN: Caravan -->
   <TabFormingCaravan>旅隊</TabFormingCaravan>
   <!-- EN: Contents -->
@@ -64,7 +64,7 @@
   <BoundWorkerIs>執行者：{1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>種植</PlantVerb>
-  <!-- EN: Copied bill cannot be pasted here. -->
+  <!-- EN: Copied bill cannot be pasted here -->
   <ClipboardBillNotAvailableHere>無法套用目前複製的清單。</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>上移</ReorderBillUpTip>
@@ -82,30 +82,30 @@
   <PasteBillTip_LimitReached>無法繼續添加</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
-  <!-- EN: Resistance remaining -->
-  <RecruitmentResistance>保持抗拒</RecruitmentResistance>
-  <!-- EN: Recruitment difficulty -->
-  <RecruitmentDifficulty>招募難度</RecruitmentDifficulty>
-  <!-- EN: Recruitment chance -->
-  <RecruitmentChance>招募機率</RecruitmentChance>
-  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
-  <RecruitmentChanceExplanation>招募難度係數:{0}\n情緒係數:{1}\n綜合機率:{2}</RecruitmentChanceExplanation>
-  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
-  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\n上一次招募嘗試\n招募者:{3}\n談判能力係數:{4}\n意見係數:{5}({6})\n最終機率{3}:{7}</RecruitmentChanceWithLastRecruiterExplanationPart>
-  <!-- EN: \nResistance reduction: {0} -->
-  <RecruitmentLastRecruiterResistanceReduceExplanationPart>抵抗降低:{0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Resistance -->
+  <RecruitmentResistance>反抗</RecruitmentResistance>
+  <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
+  <RecruitmentResistanceDesc>這個俘虜對加入你的派系感到懷疑。當這個數值為零時，他們就可以被招募。</RecruitmentResistanceDesc>
+  <!-- EN: {0} base resistance -->
+  <RecruitmentResistanceFromPawnKind>基礎反抗值{0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>釋放改善關係</PrisonerReleasePotentialRelationGains>
-  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>如果你釋放派系的俘虜，你將獲得該派系關係的改善。這會受到俘虜健康狀況、精神狀況影響。</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>如果你釋放派系的俘虜，你將獲得該派系的好感度。這會受到俘虜的理念、健康、精神狀況影響。</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>越獄間隔</PrisonBreakMTBDays>
-  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
-  <PrisonBreakMTBDaysDescription>俘虜嘗試越獄的平均天數。這會受到心情、活動力、上次越獄時間的影響。\n\n此數值不包含睡眠時間，因此實際平均越獄間隔通常會更長。</PrisonBreakMTBDaysDescription>
+  <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
+  <PrisonBreakMTBDaysDescription>俘虜再次越獄之間清醒的平均天數。這會受到心情、活動力、監獄門的數量和上次越獄時間的影響。\n\n此數值不包含睡眠時間，因此實際平均越獄間隔通常會更長。</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>永不</Never>
   <!-- EN: Not while asleep -->
   <NotWhileAsleep>計劃中</NotWhileAsleep>
+  <!-- EN: Breaking out now -->
+  <CurrentlyPrisonBreaking>正在突破</CurrentlyPrisonBreaking>
+  <!-- EN: Multiplier for door count -->
+  <FactorForDoorCount>TODO</FactorForDoorCount>
+  <!-- EN: Multiplier for movement -->
+  <FactorForMovement>TODO</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>奴隸價格</SlavePrice>
   <!-- EN: The base market value of this {0} if sold. -->
@@ -196,6 +196,8 @@
   <SelfTend>自行治療</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>若允許{0}自行治療，他將會以{1}於一般治療的速度治療自己。</SelfTendTip>
+  <!-- EN: death in {0} -->
+  <DeathIn>死於{0}</DeathIn>
   
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
@@ -398,5 +400,5 @@
   <AutocutUnenclosedPen>圍欄未封閉</AutocutUnenclosedPen>
   <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
   <AutocutUnenclosedPenTip>圍欄現在沒有封閉，所以自動清除不生效。</AutocutUnenclosedPenTip>
-  
+
 </LanguageData>

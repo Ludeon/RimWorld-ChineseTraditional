@@ -44,6 +44,8 @@
   <StatsReport_MarketValueFromStuffsAndWork>市價是以使用材料與工作時程計算。</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
   <StatsReport_QualityMultiplier>品質倍率</StatsReport_QualityMultiplier>
+  <!-- EN: Quality offset -->
+  <StatsReport_QualityOffset>TODO</StatsReport_QualityOffset>
   <!-- EN: Max gain -->
   <StatsReport_MaxGain>最大收益</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
@@ -66,8 +68,8 @@
   <StatsReport_Facilities>設施</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
   <StatsReport_BodySize>體型倍率{0}</StatsReport_BodySize>
-  <!-- EN: Carefully slaughtered without wounds -->
-  <StatsReport_HasHediffExplanation>屠宰細心度</StatsReport_HasHediffExplanation>
+  <!-- EN: Damaged -->
+  <StatsReport_HasHediffExplanation>傷害</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
   <StatsReport_MeleeDPSExplanation>DPS = 近戰傷害x近戰命中率/冷卻時間(秒)</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
@@ -78,6 +80,12 @@
   <StatsReport_MeleeHitChance>近戰命中率</StatsReport_MeleeHitChance>
   <!-- EN: {0} s -->
   <StatsReport_CooldownFormat>{0}秒</StatsReport_CooldownFormat>
+  <!-- EN: Blocked by fences -->
+  <StatsReport_BlockedByFences>被柵欄阻擋</StatsReport_BlockedByFences>
+  <!-- EN: Roam interval -->
+  <StatsReport_RoamInterval>走失間隔</StatsReport_RoamInterval>
+  <!-- EN: Caravan rideable age -->
+  <StatsReport_CaravanRideableAge>可騎乘年齡</StatsReport_CaravanRideableAge>
   <!-- EN: Life expectancy -->
   <StatsReport_LifeExpectancy>預期壽命</StatsReport_LifeExpectancy>
   <!-- EN: Multiplier for missing body parts -->
@@ -106,6 +114,8 @@
   <StatsReport_JoyKind>娛樂類型</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
   <StatsReport_WorkToUninstall>進行移除工作</StatsReport_WorkToUninstall>
+  <!-- EN: Fence -->
+  <StatsReport_Fence>柵欄</StatsReport_Fence>
   <!-- EN: Multiplier for growth {0} -->
   <StatsReport_PlantGrowth>{0}生長倍率</StatsReport_PlantGrowth>
   <!-- EN: scaled because wild -->
@@ -118,6 +128,10 @@
   <StatsReport_WildMan>野人</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>攻擊</StatsReport_NonToolAttack>
+  <!-- EN: Ideoligion -->
+  <StatsReport_Ideoligion>理念</StatsReport_Ideoligion>
+  <!-- EN: Multiplier for malnutrition {0} -->
+  <StatsReport_Malnutrition>營養不良倍率{0}</StatsReport_Malnutrition>
   
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>補償率</StatReport_PossibleOffsets>
@@ -166,6 +180,8 @@
   <Stat_HitPoints_Desc>物件被破壞之前能承受多少傷害。</Stat_HitPoints_Desc>
   <!-- EN: The amount of work it takes to uninstall this. -->
   <Stat_Thing_WorkToUninstall_Desc>移除它所需的工作量。</Stat_Thing_WorkToUninstall_Desc>
+  <!-- EN: Whether this building is a type of fence. Fences block these animals -->
+  <Stat_Thing_Fence_Desc>這建築是否屬於柵欄的一種類型。柵欄阻擋了這些動物</Stat_Thing_Fence_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
   <Stat_Thing_CreatedAt_Desc>可以使用哪些設施來生產此產品。</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
@@ -174,6 +190,10 @@
   <Stat_Thing_Drug_MedicineXpGainFactor_Desc>醫生在照顧病患時獲得的經驗倍率。</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>這種植物的屬性。</Stat_Thing_Plant_Attributes_Desc>
+  <!-- EN: Clothing (for nudity) -->
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>衣物（裸體主義者）</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
+  <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>裸體主義者是否認為這件東西是一件衣服。如果不是，裸體主義者將永遠不會因為穿這個而感到困擾。</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>覆蓋了身體哪些部位。\n\n盔甲無法保護沒有覆蓋到的部位。</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -204,10 +224,16 @@
   <Stat_Race_Trainability_Desc>這種生物訓練的智能程度。這是智力與專注力的組合。這決定訓練這種生物可以做哪些工作。</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
   <Stat_Race_LifeExpectancy_Desc>這種生物的平均壽命。</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: Whether this creature is blocked by fences and barricades. -->
+  <Stat_Race_BlockedByFences_Desc>這種生物是否被柵欄和路障阻擋。</Stat_Race_BlockedByFences_Desc>
+  <!-- EN: How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen. -->
+  <Stat_Race_RoamInterval_Desc>一個被馴服的動物多久會嘗試流浪並離開地圖。動物只有在有一條直接通往地圖邊緣的路線時才會流浪。你可以使用柵欄、路障、牆壁和門來防止這種狀況。\n\n馴獸師可以用繩子拴住流浪的動物，並把牠們帶回圍欄裡。</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>攝入此物品所獲得的娛樂值。更高的數值將滿足更多的娛樂需求。</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>與普通的成年人相較下，這種生物的體形大小。</Stat_Race_BodySize_Desc>
+  <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
+  <Stat_Race_Growth_Desc>這個生物有多接近成年。\n\n成長需要足夠的營養。一個飢餓的動物與一個吃飽的動物相比，成長速度比較慢。</Stat_Race_Growth_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
   <Stat_Thing_Weapon_MeleeWarmupTime_Desc>此武器從近戰開始攻擊，到擊中目標的時間。</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
   <!-- EN: The amount of shots this weapon fires in each burst. -->
@@ -314,10 +340,14 @@
   <Stat_Thing_Biocoded_Name>生物鎖</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>此物品經過生物鎖，只能給特定的人使用。</Stat_Thing_Biocoded_Desc>
+  <!-- EN: Required apparel -->
+  <Stat_Pawn_RequiredApparel_Name>需要衣物</Stat_Pawn_RequiredApparel_Name>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
   <Stat_Thing_Drug_Chemical_Desc>裡頭的化學藥物。\n\n在某些情況下，多種不同藥物中存在相同的化學物質。這些不同的藥物將滿足不同的成癮性。</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The category this drug belongs to. -->
+  <Stat_Thing_Drug_Category_Desc>這種藥物所屬的類別。</Stat_Thing_Drug_Category_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
   <Stat_Thing_Drug_HighGainPerDose_Desc>每次服用此藥物獲得的快樂度</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
@@ -351,4 +381,109 @@
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
   <Stat_Thing_Drug_AddictionCost_Desc>成癮每天不停消耗的藥物市場價值。\n\n這是根據成癮者藥物需求量、需求下降率、藥物市場價值計算得出的。\n\n請注意，可能有其他方法可以用不同價格獲得同樣的化學藥物。</Stat_Thing_Drug_AddictionCost_Desc>
 
+  <!-- EN: Style -->
+  <Stat_Thing_StyleLabel>風格</Stat_Thing_StyleLabel>
+  <!-- EN: An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures. -->
+  <Stat_Thing_StyleDesc>一個物體的風格決定了它的外觀。這沒有游戲的效果。風格通常由不同信仰和文化的人透過使用不同的建築方法形成。</Stat_Thing_StyleDesc>
+
+  <!-- EN: Gestation time -->
+  <Stat_Animal_GestationTime>妊娠週期</Stat_Animal_GestationTime>
+  <!-- EN: The time this species takes to gestate its offspring or eggs. -->
+  <Stat_Animal_GestationTimeDesc>這個物種孕育其後代或產卵的時間。</Stat_Animal_GestationTimeDesc>
+  <!-- EN: Litter size -->
+  <Stat_Animal_LitterSize>後代規模</Stat_Animal_LitterSize>
+  <!-- EN: The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range. -->
+  <Stat_Animal_LitterSizeDesc>這個生物每胎生產的後代數量。如果這是一個區間，任何特定的子代數量都是這區間內的隨機數。</Stat_Animal_LitterSizeDesc>
+  <!-- EN: Adult meat amount -->
+  <Stat_Animal_AdultMeatAmount>成年產肉量</Stat_Animal_AdultMeatAmount>
+  <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
+  <Stat_Animal_AdultMeatAmountDesc>屠宰該物種的成年成員所產生的基本肉量。實際產量受其他因素的影響，如對身體的損害和屠夫的技能。</Stat_Animal_AdultMeatAmountDesc>
+  <!-- EN: Growth time -->
+  <Stat_Animal_GrowthTime>成長時間</Stat_Animal_GrowthTime>
+  <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
+  <Stat_Animal_GrowthTimeDesc>這種生物通常需要多長時間才能達到成年。如果該生物挨餓，這個時間會更長。</Stat_Animal_GrowthTimeDesc>
+  <!-- EN: Meat per day during growth -->
+  <Stat_Animal_MeatPerDayDuringGrowth>每日成長肉量</Stat_Animal_MeatPerDayDuringGrowth>
+  <!-- EN: This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time. -->
+  <Stat_Animal_MeatPerDayDuringGrowthDesc>這種生物每生長一天就會獲得這個數量的肉，直到它達到成年。\n\n這個值是由肉量和生長時間計算出來的。</Stat_Animal_MeatPerDayDuringGrowthDesc>
+  <!-- EN: Grass to maintain -->
+  <Stat_Animal_GrassToMaintain>供養草量</Stat_Animal_GrassToMaintain>
+  <!-- EN: The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter. -->
+  <Stat_Animal_GrassToMaintainDesc>該生物為滿足其飲食需求而需要的草數量。這是基於一般草的生長速度，並忽略了冬季。</Stat_Animal_GrassToMaintainDesc>
+  <!-- EN: Egg type -->
+  <Stat_Animal_EggType>卵類型</Stat_Animal_EggType>
+  <!-- EN: The type of egg this creature lays. -->
+  <Stat_Animal_EggTypeDesc>這種生物所產卵的類型。</Stat_Animal_EggTypeDesc>
+  <!-- EN: Eggs per year -->
+  <Stat_Animal_EggsPerYear>每年產卵</Stat_Animal_EggsPerYear>
+  <!-- EN: The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves. -->
+  <Stat_Animal_EggsPerYearDesc>這種生物每年會產多少個卵。有些生物需要受精後才能產卵。如果該生物挨餓，產卵速度會變慢。</Stat_Animal_EggsPerYearDesc>
+  <!-- EN: Egg nutrition -->
+  <Stat_Animal_EggNutrition>卵營養值</Stat_Animal_EggNutrition>
+  <!-- EN: The amount of nutrition in a single egg laid by this creature. -->
+  <Stat_Animal_EggNutritionDesc>這種生物所產的一個卵中的營養值。</Stat_Animal_EggNutritionDesc>
+  <!-- EN: Egg nutrition per year -->
+  <Stat_Animal_EggNutritionYearly>每年產卵營養值</Stat_Animal_EggNutritionYearly>
+  <!-- EN: The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition. -->
+  <Stat_Animal_EggNutritionYearlyDesc>這種生物每年產的卵所產生的營養值。\n\n這個值是由每年的卵和卵營養計算出來的。</Stat_Animal_EggNutritionYearlyDesc>
+  <!-- EN: Egg market value -->
+  <Stat_Animal_EggMarketValue>卵市場價</Stat_Animal_EggMarketValue>
+  <!-- EN: The market value of a single laid egg. -->
+  <Stat_Animal_EggMarketValueDesc>一顆卵的市場價。</Stat_Animal_EggMarketValueDesc>
+  <!-- EN: Egg value per year -->
+  <Stat_Animal_EggMarketValueYearly>每年卵市場價</Stat_Animal_EggMarketValueYearly>
+  <!-- EN: The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value. -->
+  <Stat_Animal_EggMarketValueYearlyDesc>通常一年中所產卵的總價值。\n\n這是由每年的卵產量和卵的市場價值計算出來的。</Stat_Animal_EggMarketValueYearlyDesc>
+  <!-- EN: Milk type -->
+  <Stat_Animal_MilkType>奶類型</Stat_Animal_MilkType>
+  <!-- EN: The type of milk this creature produces. -->
+  <Stat_Animal_MilkTypeDesc>這種生物生產的奶的類型。</Stat_Animal_MilkTypeDesc>
+  <!-- EN: Milk amount -->
+  <Stat_Animal_MilkAmount>產奶量</Stat_Animal_MilkAmount>
+  <!-- EN: The amount of milk this creature produces each time it is milked. -->
+  <Stat_Animal_MilkAmountDesc>這種生物每次擠奶時產生的奶量。</Stat_Animal_MilkAmountDesc>
+  <!-- EN: Milking interval -->
+  <Stat_Animal_MilkGrowthTime>產奶週期</Stat_Animal_MilkGrowthTime>
+  <!-- EN: The amount of time this creature needs between milkings. -->
+  <Stat_Animal_MilkGrowthTimeDesc>這種生物在兩次擠奶之間需要多少時間。</Stat_Animal_MilkGrowthTimeDesc>
+  <!-- EN: Milk per year -->
+  <Stat_Animal_MilkPerYear>每年產奶量</Stat_Animal_MilkPerYear>
+  <!-- EN: The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval. -->
+  <Stat_Animal_MilkPerYearDesc>該動物在一年中的產奶量。\n\n這是由產奶量和擠奶間隔時間計算出來的。</Stat_Animal_MilkPerYearDesc>
+  <!-- EN: Milk market value -->
+  <Stat_Animal_MilkValue>奶市場價格</Stat_Animal_MilkValue>
+  <!-- EN: The value of one unit of this creature's milk. -->
+  <Stat_Animal_MilkValueDesc>一個單位此生物的奶的價值。</Stat_Animal_MilkValueDesc>
+  <!-- EN: Milk value per year -->
+  <Stat_Animal_MilkValuePerYear>每年產奶價值</Stat_Animal_MilkValuePerYear>
+  <!-- EN: The market value of one year's worth of milk from this creature, assuming it never goes hungry and is milked instantly at the end of each milk interval.\n\nThis is calculated from milk per year and milk market value. -->
+  <Stat_Animal_MilkValuePerYearDesc>這種動物一年的牛奶的市場價值，假設它從不挨餓，在每個擠奶間隔結束時立即擠奶。\n\n這是由每年的產奶量和奶的市場價值計算出來的。</Stat_Animal_MilkValuePerYearDesc>
+  <!-- EN: Wool type -->
+  <Stat_Animal_WoolType>毛類型</Stat_Animal_WoolType>
+  <!-- EN: The type of wool produced by this creature. -->
+  <Stat_Animal_WoolTypeDesc>這種生物生產的毛的類型。</Stat_Animal_WoolTypeDesc>
+  <!-- EN: Wool amount -->
+  <Stat_Animal_WoolAmount>產毛量</Stat_Animal_WoolAmount>
+  <!-- EN: The amount of wool yielded by this creature each time it is shorn. -->
+  <Stat_Animal_WoolAmountDesc>這種生物每次剪羊毛時產生的數量。</Stat_Animal_WoolAmountDesc>
+  <!-- EN: Wool shearing interval -->
+  <Stat_Animal_WoolGrowthTime>產毛週期</Stat_Animal_WoolGrowthTime>
+  <!-- EN: The time after shearing before this creature can be shorn again. -->
+  <Stat_Animal_WoolGrowthTimeDesc>剪毛後該生物可以再次剪毛的時間。</Stat_Animal_WoolGrowthTimeDesc>
+  <!-- EN: Wool amount per year -->
+  <Stat_Animal_WoolPerYear>每年產毛量</Stat_Animal_WoolPerYear>
+  <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval. -->
+  <Stat_Animal_WoolPerYearDesc>這種動物每年生產的毛數量。\n\n這是由產毛量和產毛週期計算出來的。</Stat_Animal_WoolPerYearDesc>
+  <!-- EN: Wool market value -->
+  <Stat_Animal_WoolValue>毛市場價</Stat_Animal_WoolValue>
+  <!-- EN: The market value of one unit of this creature's wool. -->
+  <Stat_Animal_WoolValueDesc>一單位這種生物產毛的市場價。</Stat_Animal_WoolValueDesc>
+  <!-- EN: Wool value per year -->
+  <Stat_Animal_WoolValuePerYear>每年產毛價值</Stat_Animal_WoolValuePerYear>
+  <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
+  <Stat_Animal_WoolValuePerYearDesc>這種動物一年的毛的市場價值。\n\n這是由每年的產毛量和毛的市場價值計算出來的。</Stat_Animal_WoolValuePerYearDesc>
+
+  <!-- EN: How much of the total possible study you have performed on this object. -->
+  <Stat_Studiable_Desc>可對此對象進行研究的總點數。</Stat_Studiable_Desc>
+  
 </LanguageData>

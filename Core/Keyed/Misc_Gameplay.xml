@@ -641,7 +641,7 @@
   <!-- EN: {ANIMALDEF_label} capacity -->
   <PenCapacityDesc>{ANIMALDEF_label} 數量</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>TODO</PenExampleAnimals>
+  <PenExampleAnimals>動物樣本</PenExampleAnimals>
 
 
   <!-- Control -->
@@ -1456,9 +1456,9 @@
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>TODO</HealingCureHediff>
+  <HealingCureHediff>{0_nameDef}的{1}已經治癒。</HealingCureHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
-  <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
+  <HealingRestoreBodyPart>{0_nameDef}的{1}已經恢復。</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
   <WarningBuildingCausesHostility>警告：在這裡建造會惹怒{FACTION_name}！</WarningBuildingCausesHostility>
@@ -1471,65 +1471,65 @@
   <Ritual>儀式</Ritual>
 
   <!-- EN: Takes place at -->
-  <RitualTakesPlaceAt>TODO</RitualTakesPlaceAt>
+  <RitualTakesPlaceAt>位於</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
-  <RitualTargetThingDefsInfo>TODO</RitualTargetThingDefsInfo>
+  <RitualTargetThingDefsInfo>任意{0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending -->
-  <LordReportAttending>TODO</LordReportAttending>
+  <LordReportAttending>出席</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
-  <RitualCalledOff>TODO</RitualCalledOff>
+  <RitualCalledOff>{0}已經被取消了。</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
-  <RitualNobodyAttended>TODO</RitualNobodyAttended>
+  <RitualNobodyAttended>{0}因無法出席而未完成。</RitualNobodyAttended>
   <!-- EN: {0} has been completed. -->
-  <RitualFinished>TODO</RitualFinished>
+  <RitualFinished>{0}已經完成了。</RitualFinished>
   <!-- EN: ends in {0} -->
-  <RitualEndsIn>TODO</RitualEndsIn>
+  <RitualEndsIn>結束於{0}</RitualEndsIn>
   <!-- EN: Organizers -->
-  <Organizers>TODO</Organizers>
+  <Organizers>組織者Organizers></Organizers>
   <!-- EN: Quality factors -->
-  <QualityFactors>TODO</QualityFactors>
+  <QualityFactors>品質倍率</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>TODO</QualityFactorTooltipUncertain>
+  <QualityFactorTooltipUncertain>這個條件可能會滿足，這取決於事情的發展情況。\n\n如果它被滿足，會適用於品質紅利。</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
-  <QualityFactorTooltipNotFulfilled>TODO</QualityFactorTooltipNotFulfilled>
+  <QualityFactorTooltipNotFulfilled>這個條件沒有得到滿足。\n\n不適用品質紅利。</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
-  <Spectators>TODO</Spectators>
+  <Spectators>觀眾</Spectators>
   <!-- EN: Not participating -->
   <NotParticipating>未參與</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>TODO</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>拖放或左/右點擊來移動人們。</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
-  <RitualBeginSlaveDesc>TODO</RitualBeginSlaveDesc>
+  <RitualBeginSlaveDesc>一個奴隸。他人的人類財產。</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>TODO</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort}正在睡覺。如果被包括在儀式中，{0_pronoun}將醒過來參與儀式。</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>TODO</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>一些被選中的參與者正在睡覺。一旦你開始儀式，他們就會醒過來。</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>TODO</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>這個職位最好由持有{0}社會角色的殖民者完成。\n\n如果沒有這個角色的人擔任這個職位，你將不會得到以下獎勵。</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
-  <RitualRoleCantSubstitute>TODO</RitualRoleCantSubstitute>
+  <RitualRoleCantSubstitute>沒有可以取代{0}的角色。</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
-  <RitualOutcomeProgress>TODO</RitualOutcomeProgress>
+  <RitualOutcomeProgress>{0}進度</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
-  <RitualOutcomeQualityAbstract>TODO</RitualOutcomeQualityAbstract>
+  <RitualOutcomeQualityAbstract>{0}品質取決於</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>TODO</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>{0}總體品質為{1}，由於以下因素</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>TODO</RitualOutcomeChances>
+  <RitualOutcomeChances>在{0}品質下的結果機率</RitualOutcomeChances>
   <!-- EN: Performed recently -->
-  <RitualOutcomePerformedRecently>TODO</RitualOutcomePerformedRecently>
+  <RitualOutcomePerformedRecently>最近進行的</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
   <RitualQualityExpectations>{0} 期望</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
-  <RitualAmbienceSound>TODO</RitualAmbienceSound>
+  <RitualAmbienceSound>儀式氛圍音</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>TODO</RitualQualityLowWarning>
+  <RitualQualityLowWarning>總和{0}品質</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
-  <AbilitySpeechDisabledNoSpot>TODO</AbilitySpeechDisabledNoSpot>
+  <AbilitySpeechDisabledNoSpot>沒有合適的位置來交談。</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of {1}. -->
-  <AbilityDisabledNoCapacity>TODO</AbilityDisabledNoCapacity>
+  <AbilityDisabledNoCapacity>{0_labelShort}的{1}不足。</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>TODO</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>每個儀式的參與者都會獲得持續{1}天的好心情。</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>選擇誰需要參與{RITUAL_labelDef}</ChooseParticipants>
@@ -1538,51 +1538,51 @@
   <!-- EN: Begin {0} -->
   <BeginRitual>開始{0}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>TODO</BeginRitualFor>
+  <BeginRitualFor>為了{1}開始{0}</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
-  <QualityOutOf>TODO</QualityOutOf>
+  <QualityOutOf>{0}(在{1}之外)</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>TODO</DateRitualNoObligation>
+  <DateRitualNoObligation>{0}是一個特定日期的儀式。你可以在{1}之後舉行，於{2}。</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>TODO</PreceptReplaceWith>
+  <PreceptReplaceWith>替換成</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>TODO</RitualSeatOf>
+  <RitualSeatOf>{IDEOS}的儀式席位</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedRitualQuality>TODO</ExpectedRitualQuality>
+  <ExpectedRitualQuality>預期品質</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>TODO</StartingQuality>
+  <StartingQuality>起始品質</StartingQuality>
   <!-- EN: Expected duration -->
-  <ExpectedRitualDuration>TODO</ExpectedRitualDuration>
+  <ExpectedRitualDuration>預計持續</ExpectedRitualDuration>
   
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <RitualPredictedOutcomeDescPawnStat>TODO</RitualPredictedOutcomeDescPawnStat>
+  <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}的{1}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
-  <RitualPredictedOutcomeDescRoomBeauty>TODO</RitualPredictedOutcomeDescRoomBeauty>
+  <RitualPredictedOutcomeDescRoomBeauty>房間美觀</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: Participants -->
   <RitualPredictedOutcomeDescParticipantCount>參與人數</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
-  <RitualPredictedOutcomeDescPawnExpectations>TODO</RitualPredictedOutcomeDescPawnExpectations>
+  <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}的期望</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>這些中的任何一個</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
-  <RitualRoleReplaces>TODO</RitualRoleReplaces>
+  <RitualRoleReplaces>取代{PAWN_labelShort}</RitualRoleReplaces>
 
   <!-- EN: present -->
-  <Present>TODO</Present>
+  <Present>出席的</Present>
   <!-- EN: {0} used -->
-  <Used>TODO</Used>
+  <Used>{0}已使用</Used>
   <!-- EN: {0} starting quality -->
-  <StartingRitualQuality>TODO</StartingRitualQuality>
+  <StartingRitualQuality>{0}起始品質</StartingRitualQuality>
 
   <!-- EN: up to {0} quality -->
-  <OutcomeBonusDesc_Quality>TODO</OutcomeBonusDesc_Quality>
+  <OutcomeBonusDesc_Quality>達到{0}品質</OutcomeBonusDesc_Quality>
   <!-- EN: {0} quality -->
-  <OutcomeBonusDesc_QualitySingleOffset>TODO</OutcomeBonusDesc_QualitySingleOffset>
+  <OutcomeBonusDesc_QualitySingleOffset>{0}品質</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>TODO</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
-  <MaxValue>TODO</MaxValue>
-  
+  <MaxValue>{0}最大</MaxValue>
+
 </LanguageData>

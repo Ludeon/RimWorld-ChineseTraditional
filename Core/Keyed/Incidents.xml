@@ -32,13 +32,18 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>運輸艙墜落</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>一名{PAWN_titleIndef}的{PAWN_nameDef}搭乘的運輸墜毀在附近。如果{PAWN_pronoun}倖免於難，恐怕也身受重傷。</RefugeePodCrash>
+  <RefugeePodCrash>一名{PAWN_titleIndef}的{PAWN_nameDef}搭乘的運輸墜毀在附近。如果{PAWN_pronoun}倖免於難，恐怕也身受重傷。</RefugeePodCrash>  
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef}不屬於任何派系。你可以救援{PAWN_objective}並盼望{PAWN_pronoun}主動加入你，或是俘虜{PAWN_objective}以招募或奴役。</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>{PAWN_nameDef}來自敵對派系{PAWN_factionName}。你可以俘虜{PAWN_objective}以招募或奴役。</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>{PAWN_nameDef}來自{PAWN_factionName}。如果你拯救{PAWN_objective}，{PAWN_pronoun}可能會主動加入你。或是{PAWN_pronoun}會回到家鄉，在派系之間傳播你的善意。\n\n你也可以俘虜{PAWN_objective}以招募或奴役，但這將會激怒{PAWN_possessive}派系。</RefugeePodCrash_NonHostile>
+
+  <!-- EN: Wanderer joins: {PAWN_nameDef} -->
+  <LetterLabelWandererJoins>流浪者加入：{PAWN_nameDef}</LetterLabelWandererJoins>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
+  <LetterWandererJoins>一位名叫{PAWN_nameDef}的{PAWN_title}來到這裡，想要加入殖民地。</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>貨艙</LetterLabelCargoPodCrash>
@@ -241,17 +246,5 @@
   <LetterLabelQuestAskerDied>任務失敗</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
   <LetterQuestAskerDied>因為{SUBJECT_definite}已死亡，所以任務無法完成。</LetterQuestAskerDied>
-
-  <!-- UNUSED -->
-  <LetterLabelPsychicDrone>干擾電波</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>所有{0}殖民者都感到十分痛苦！\n\n遠方的某個仇恨引擎正在運轉著，它向這個地區投射了一股強大的干擾電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會比以往更差一些。\n\n干擾電波等級為{1}。</LetterIncidentPsychicDrone>
-  <LetterLabelPsychicSoothe>安撫電波</LetterLabelPsychicSoothe>
-  <LetterIncidentPsychicSoothe>所有{0}殖民者都在臉上掛上了滿足的笑容！\n\n遠方的某個快樂引擎正在運轉著，它向這個地區投射了一股強大的撫慰電波，它的頻率似乎只影響{0}。接下來幾天之内，有些人的心情會特別愉快。</LetterIncidentPsychicSoothe>
-  <RefugeeChasedTitle>給{0}的庇護請求</RefugeeChasedTitle>
-  <RefugeeChasedInitial>一位名叫{PAWN_nameDef}的{PAWN_titleIndef}從附近呼叫殖民地。{PAWN_pronoun}說他正被來自{3}的{2}追殺！\n\n{PAWN_pronoun}請求加入殖民地以獲得庇護。{PAWN_pronoun}表示{PAWN_pronoun}生理年齡是{4}歲，除此之外已經沒有時間追究更多細節了。\n\n警告：如果你同意提供庇護，你將必須擊敗緊追在{PAWN_possessive}身後的{2}，由下列單位組成的部隊：\n\n{5}</RefugeeChasedInitial>
-  <RefugeeChasedInitial_Accept>同意庇護</RefugeeChasedInitial_Accept>
-  <RefugeeChasedInitial_Reject>忽略訊息</RefugeeChasedInitial_Reject>
-  <RefugeeChasedRejected>在你切斷與{1_labelShort}的通訊之前，一陣淒厲的尖叫聲從喇叭中傳來。</RefugeeChasedRejected>
-  <JourneyOffer>一個與你舊識的友善AI夏隆．懷特史東向你傳送了一則訊息！\n\n夏隆表示他在這座星球上藏了一艘星艦，並附上了星艦的座標。\n\n那艘星艦目前處於深度休眠狀態，你將需要在你抵達後啟動系統，然後保衛星艦不被襲擊者奪走，直到星艦完成所有啟動程序。\n\n如果你能乘著星艦飛離地面，夏隆便能夠帶你離開這個邊緣世界，再度往天空中的星星飛去。</JourneyOffer>
 
 </LanguageData>

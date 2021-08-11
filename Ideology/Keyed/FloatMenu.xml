@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Ideoligion forbids -->
+  <IdeoligionForbids>TODO</IdeoligionForbids>
+  <!-- EN: Only {0}s can build -->
+  <OnlyMembersCanBuild>TODO</OnlyMembersCanBuild>
+  <!-- EN: {0} is already in progress. -->
+  <CantStartRitualAlreadyInProgress>TODO</CantStartRitualAlreadyInProgress>
+  <!-- EN: {0} is already participating in a ritual. -->
+  <CantStartRitualTargetIsAlreadyInRitual>TODO</CantStartRitualTargetIsAlreadyInRitual>
+  <!-- EN: You must assign the role of {0} in order to start this ritual. -->
+  <CantStartRitualRoleNotAssigned>TODO</CantStartRitualRoleNotAssigned>
+  <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
+  <CantStartRitualNoConvertee>TODO</CantStartRitualNoConvertee>
+  <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef}無法擔任{ROLE}。</CantStartRitualSelectedPawnCannotBeRole>
+  <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
+  <CantStartRitualSelectedPawnMustBeMember>TODO</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>TODO</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuel>TODO</CantStartNotEnoughSpaceDuel>
+  <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
+  <CantStartFuneralForSlave>TODO</CantStartFuneralForSlave>
+  <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
+  <NoSlaveBed>TODO</NoSlaveBed>
+  <!-- EN: Return to slave bed -->
+  <ReturnToSlaveBed>回到奴隸床</ReturnToSlaveBed>
+  <!-- EN: not allowed for faction -->
+  <NotAllowedForFaction>TODO</NotAllowedForFaction>
+
+  <!-- EN: Remove -->
+  <Remove>移除</Remove>
+  <!-- EN: Remove precept -->
+  <RemovePrecept>移除戒律</RemovePrecept>
+  <!-- EN: Regenerate -->
+  <Regenerate>重新生成</Regenerate>
+  <!-- EN: Cannot edit -->
+  <CannotEdit>無法編輯</CannotEdit>
+  <!-- EN: No choices available -->
+  <NoChoicesAvailable>TODO</NoChoicesAvailable>
+  <!-- EN: Required by meme {0} -->
+  <RequiredByMeme>TODO</RequiredByMeme>
+  <!-- EN: Required -->
+  <Required>必須</Required>
+  <!-- EN: Style category -->
+  <StyleCategory>TODO</StyleCategory>
+  <!-- EN: Add style category -->
+  <AddStyleCategory>TODO</AddStyleCategory>
+  <!-- EN: Can't add more than {0} rituals. -->
+  <MaxRitualCount>TODO</MaxRitualCount>
+  <!-- EN: Can't add more than {0} relics. -->
+  <MaxRelicCount>TODO</MaxRelicCount>
+  <!-- EN: can't have more than {0} specialists. -->
+  <MaxMultiRolesCount>TODO</MaxMultiRolesCount>
+  <!-- EN: max {0} -->
+  <MaxPreceptCount>最多{0}</MaxPreceptCount>
+  <!-- EN: Set gender -->
+  <SetTargetGender>TODO</SetTargetGender>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>必須為{0}勢力</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>部落</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>非部落</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>TODO</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <!-- EN: cannot be worn with assigned apparel -->
+  <BodyPartAlreadyCovered>TODO</BodyPartAlreadyCovered>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>TODO</AlreadyAssigned>
+  <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
+  <NoteRoleApparelRequirementEffects>TODO</NoteRoleApparelRequirementEffects>
+  <!-- EN: supercharge not ready -->
+  <NeuralSuperchargeNotReady>TODO</NeuralSuperchargeNotReady>
+  <!-- EN: already getting -->
+  <NeuralSuperchargeAlreadyGetting>TODO</NeuralSuperchargeAlreadyGetting>
+  <!-- EN: Set type -->
+  <SetApparelType>TODO</SetApparelType>
+
+  <!-- EN: change style -->
+  <ChangeStyle>TODO</ChangeStyle>
+  <!-- EN: {0} {DEITYNOUN} required -->
+  <DeitiesRequired>需要{0}{DEITYNOUN}</DeitiesRequired>
+  <!-- EN: deity -->
+  <Deity>神明</Deity>
+  <!-- EN: requires meme -->
+  <RequiresMeme>需要模因</RequiresMeme>
+  <!-- EN: requires one of -->
+  <RequiresOneOfMemes>需要其一</RequiresOneOfMemes>
+  <!-- EN: conflicts with meme -->
+  <ConflictsWithMeme>衝突的模因</ConflictsWithMeme>
+  <!-- EN: conflicts with memes -->
+  <ConflictsWithMemes>衝突的模因</ConflictsWithMemes>
+  <!-- EN: can only have one altar/ideogram -->
+  <IdeoAlreadyHasAltar>TODO</IdeoAlreadyHasAltar>
+  <!-- EN: recolor apparel -->
+  <RecolorApparel>服裝重新染色</RecolorApparel>
+
+  <!-- EN: Hack {0} -->
+  <Hack>駭入{0}</Hack>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>無法駭入{0}</CannotHack>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>已經駭入</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>無法進行駭入</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>TODO</ToDropSupplies>
+
+  <!-- EN: Install {0} -->
+  <InstallRelic>TODO</InstallRelic>
+  <!-- EN: Extract {0} -->
+  <ExtractRelic>TODO</ExtractRelic>
+  <!-- EN: Extract {0} to inventory ({1}) -->
+  <ExtractRelicToInventory>TODO</ExtractRelicToInventory>
+  <!-- EN: No relic to install -->
+  <NoRelicToInstall>TODO</NoRelicToInstall>
+  <!-- EN: Install in reliquary -->
+  <InstallInReliquary>TODO</InstallInReliquary>
+  <!-- EN: no empty accessible reliquary -->
+  <NoEmptyReliquary>TODO</NoEmptyReliquary>
+
+  <!-- EN: No {MEMBERNAME} warden -->
+  <NoWardenOfIdeo>TODO</NoWardenOfIdeo>
+
+  <!-- EN: Remove current role -->
+  <RemoveCurrentRole>移除現在職位</RemoveCurrentRole>
+
+  <!-- EN: Enter biosculpter pod -->
+  <EnterBiosculpterPod>TODO</EnterBiosculpterPod>
+  <!-- EN: Biotuned to someone else. -->
+  <BiosculpterBiotunedToAnother>TODO</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>TODO</UnderMinBiosculpterAgeReversalAge>
+  <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
+  <CarryToBiosculpterPod>TODO</CarryToBiosculpterPod>
+  <!-- EN: Cannot carry to biosculpter pod -->
+  <CannotCarryToBiosculpterPod>TODO</CannotCarryToBiosculpterPod>
+  <!-- EN: No available biosculpter pod. -->
+  <NoBiosculpterPod>TODO</NoBiosculpterPod>
+
+</LanguageData>
