@@ -340,21 +340,21 @@
 
   <!-- Animal pen food tab -->
   <!-- EN: enclose the pen marker to calculate food information -->
-  <PenFoodTab_NotEnclosed>圍欄標記計算食物的信息</PenFoodTab_NotEnclosed>
+  <PenFoodTab_NotEnclosed>飼養圈標誌計算食物的資訊</PenFoodTab_NotEnclosed>
 
   <!-- EN: Nutrition stockpiled -->
-  <PenFoodTab_StockpileTotal>營養儲備</PenFoodTab_StockpileTotal>
+  <PenFoodTab_StockpileTotal>囤積的營養物</PenFoodTab_StockpileTotal>
   <!-- EN: The total nutrition of stockpiled food in the pen. -->
-  <PenFoodTab_StockpileTotalDescription>圍欄中儲存食物的總營養價值。</PenFoodTab_StockpileTotalDescription>
+  <PenFoodTab_StockpileTotalDescription>飼養圈中囤積的營養食物。</PenFoodTab_StockpileTotalDescription>
   <!-- EN: Days to stockpile exhaustion -->
-  <PenFoodTab_StockpileEmptyDays>預估耗盡倒數</PenFoodTab_StockpileEmptyDays>
+  <PenFoodTab_StockpileEmptyDays>囤積物耗盡</PenFoodTab_StockpileEmptyDays>
   <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
-  <PenFoodTab_StockpileEmptyDaysDescription>圍欄中的動物營養消耗大過營養增長率。這些動物最終會吃掉所有儲存的食物並餓死。</PenFoodTab_StockpileEmptyDaysDescription>
+  <PenFoodTab_StockpileEmptyDaysDescription>飼養圈中營養消耗大於營養生長。動物最終會吃掉所有囤積的食物並餓死。</PenFoodTab_StockpileEmptyDaysDescription>
 
   <!-- EN: Animal type -->
   <PenFoodTab_AnimalType>動物類型</PenFoodTab_AnimalType>
   <!-- EN: Count -->
-  <PenFoodTab_Count>統計</PenFoodTab_Count>
+  <PenFoodTab_Count>數量</PenFoodTab_Count>
   <!-- EN: Today -->
   <PenFoodTab_CurrentDay>今天</PenFoodTab_CurrentDay>
   <!-- EN: nutrition -->
@@ -362,7 +362,7 @@
   <!-- EN: per day -->
   <PenFoodTab_NutritionPerDay_Unit>每天</PenFoodTab_NutritionPerDay_Unit>
   <!-- EN: Force display animal... -->
-  <PenFoodTab_AddAnimal>強制顯示動物...</PenFoodTab_AddAnimal>
+  <PenFoodTab_AddAnimal>顯示動物...</PenFoodTab_AddAnimal>
 
   <!-- EN: Nutrition growth -->
   <PenFoodTab_NaturalNutritionGrowthRate>營養生長</PenFoodTab_NaturalNutritionGrowthRate>
@@ -371,22 +371,22 @@
   <!-- EN: Nutrition consumption -->
   <PenFoodTab_TotalNutritionConsumptionRate>營養消耗</PenFoodTab_TotalNutritionConsumptionRate>
   <!-- EN: The average nutrition provided by edible plants in this pen. -->
-  <PenFoodTab_NaturalNutritionGrowthRateDescription>圍欄中可食用植物提供的平均營養。</PenFoodTab_NaturalNutritionGrowthRateDescription>
+  <PenFoodTab_NaturalNutritionGrowthRateDescription>飼養圈中可食用植物提供的平均營養。</PenFoodTab_NaturalNutritionGrowthRateDescription>
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
-  <PenFoodTab_NutritionConsumptionDescription>圍欄中動物目前所需的營養。\n\n要獲得更多食物，請擴大圍欄以覆蓋更多野生植物生長，或將乾草等儲存的食物運送到圍欄。</PenFoodTab_NutritionConsumptionDescription>
+  <PenFoodTab_NutritionConsumptionDescription>飼養圈中動物目前所需的營養。\n\n擴大飼養圈，將更多的野生植物圍住，以獲得更多食物，或運送囤積的食物到飼養圈，例如牧草堆。</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
-  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>注：植物生長速度因季節、天氣、野生動物盜竊等因素而異。這些計算是接近值。</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>注意：植物生長速度因季節、天氣、野生動物等因素而異。這些計算是粗略估計。</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
   <!-- EN: Total consumption -->
   <PenFoodTab_NutritionConsumedPerDay_ColumLabel>總消耗</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
   <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
-  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>此圍欄中每種動物每天將消耗的總營養。</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>此飼養圈中每種動物每天消耗的營養。</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
   <!-- EN: Daily consumption per {ANIMALDEF_label} -->
   <PenFoodTab_NutritionConsumedPerDay>每個 {ANIMALDEF_label} 的每日消耗量</PenFoodTab_NutritionConsumedPerDay>
   <!-- EN: each {CONSUMEDAMOUNT} -->
   <PenFoodTab_NutritionConsumedEachAnimalLabel>每 {CONSUMEDAMOUNT}</PenFoodTab_NutritionConsumedEachAnimalLabel>
   <!-- EN: Count that could be supported with no other animals in the pen -->
-  <PenFoodTab_AnimalTypeAnimalCapacity>TODO</PenFoodTab_AnimalTypeAnimalCapacity>
+  <PenFoodTab_AnimalTypeAnimalCapacity>可以提供其他飼養圈的動物數量</PenFoodTab_AnimalTypeAnimalCapacity>
 
   <!-- EN: Edible now -->
   <PenFoodTab_EdibleNow>立即食用</PenFoodTab_EdibleNow>
