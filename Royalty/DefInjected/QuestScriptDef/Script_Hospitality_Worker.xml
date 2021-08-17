@@ -20,9 +20,13 @@
   <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingQuest] -->
   <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>指定由你保護的[letterSubject]已經被俘虜了。[remainingWillNowLeave][failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
   <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>囚犯被招募：{SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
+  <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>俘虜被招募：{SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
   <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>你已經招募了指定由你看守的{SUBJECT_definite}。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>
+  <Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>你已經招募了由你看守的{SUBJECT_definite}。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>
+  <!-- EN: Prisoner enslaved: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersEnslaved.node.nodes.Letter.label.slateRef>使俘虜作為奴隸：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersEnslaved.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have enslaved {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersEnslaved.node.nodes.Letter.text.slateRef>你奴役了由你看守的{SUBJECT_definite}。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersEnslaved.node.nodes.Letter.text.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>未經授權的手術：{SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->

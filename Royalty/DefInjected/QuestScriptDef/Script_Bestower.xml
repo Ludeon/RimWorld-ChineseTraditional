@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[faction_name] is ready to grant [pawn_definite] the title of [newTitle] and the power of a level [psylinkLevel] psylink in a bestowing ceremony.\n\nThe bestower will arrive by shuttle and perform the ceremony.\n\nThe bestower will only give a title if any throneroom requirements are satisfied.\n\nYou can betray the bestower to steal psylink neuroformers, but this will make [faction_name] your enemy.\n\nIf you miss or fail this ceremony, there will be another opportunity later. If the bestower or guards are harmed for any reason, there will be diplomatic consequences.</li>
+    <li>questDescription->[faction_name] is ready to grant [pawn_definite] the title of [newTitle] and the power of a level [psylinkLevel] psylink in a bestowing ceremony.\n\nThe bestower will arrive by shuttle and perform the ceremony.\n\nThe bestower will only give a title if any throneroom requirements are satisfied. There's a chance of gaining extra honor, depending on how many viewers attend the ceremony. Additionally, every viewer gains a mood bonus.\n\nYou can betray the bestower to steal psylink neuroformers, but this will make [faction_name] your enemy.\n\nIf you miss or fail this ceremony, there will be another opportunity later. If the bestower or guards are harmed for any reason, there will be diplomatic consequences.</li>
   -->
   <BestowingCeremony.questDescriptionRules.rulesStrings>
-    <li>questDescription->[faction_name] 準備在表揚儀式中授予 [pawn_definite] [newTitle] 頭銜以及等級 [psylinkLevel] 的心靈連結。 \n\n表揚者將乘坐太空梭來執行儀式。 \n\n你需要有一個與頭銜相匹配的謁見廳，表揚者才會授予頭銜。 \n\n你可以背叛表揚者來竊取心靈連結構造裝置， 但這會使 [faction_name] 成為你的敵人。 \n\n如果你錯過了儀式，或者儀式失敗了，過些時候會有新的儀式機會。如果表揚者和守衛因任何原因受到傷害，都會產生相應的外交影響。</li>
+    <li>questDescription->[faction_name] 準備在表揚儀式中授予 [pawn_definite] [newTitle] 頭銜以及等級 [psylinkLevel] 的心靈連結。 \n\n表揚者將乘坐太空梭來執行儀式。 \n\n你需要有一個與頭銜相匹配的謁見廳，表揚者才會授予頭銜。參加這場儀式的觀眾越多，就有機會獲得額外的榮譽值。此外，所有觀眾都可以獲得好心情。\n\n你可以背叛表揚者來竊取心靈連結構造裝置， 但這會使 [faction_name] 成為你的敵人。 \n\n如果你錯過了儀式，或者儀式失敗了，過些時候會有新的機會。如果表揚者和守衛因任何原因受到傷害，都會產生相應的外交影響。</li>
   </BestowingCeremony.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[pawn_definite]'s [newTitle] ceremony</li>
