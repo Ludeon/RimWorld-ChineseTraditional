@@ -71,7 +71,7 @@ Ideology DLC同樣操作。
 
 本翻譯為玩家志願者無償與遊戲開發者合作推出的中文化，基本上屬於共享資源，任何人皆可不經授權的修改、散佈、再製，唯仍需符合各地法令。
 
-歡迎加入 FB 社團：https://www.facebook.com/groups/261201480757707/  
+歡迎加入 FB 社團：https://www.facebook.com/groups/261201480757707/
 Discord群組：https://discord.gg/96sZ5RgW2G
 巴哈姆特邊緣世界哈拉版：https://forum.gamer.com.tw/B.php?bsn=27313
 
