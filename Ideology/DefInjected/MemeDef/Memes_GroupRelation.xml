@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: guilty -->
-  <Guilty.label>原罪者</Guilty.label>
+  <Guilty.label>TODO</Guilty.label>
   <!-- EN: Our people carry guilt from ages past. Others are more worthy. -->
-  <Guilty.description>我們的子民承受著千古的罪孽，他人的性命才是值得存在的。</Guilty.description>
+  <Guilty.description>TODO</Guilty.description>
   <!-- EN:
     <li>creation(tag=meme_Guilty)        ->[deity0_name] raped and murdered and stole, and a great guilt was upon [deity0_objective], and in [deity0_possessive] selfishness [deity0_pronoun] cast this guilt upon [deity0_possessive] chosen people, and all were filthy with it.</li>
     <li>episode(uses=1,tag=meme_Guilty)  ->The believers went forth and conquered, burned, and raped for a thousand years, and [deity0_name]'s grief at their depravity consumed [deity0_objective].</li>
@@ -23,24 +23,7 @@
     <li>animistBasis(tag=meme_Guilty)    ->A tribe of evil spirits were punished by being entombed in flesh. We are those spirits.</li>
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
-  <Guilty.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Guilty)        ->[deity0_name]偷盜搶騙、凌辱殘殺，而[deity0_objective]將背負這巨大的罪孽。而在[deity0_possessive]的自私之下，[deity0_pronoun]將這罪孽施展在[deity0_possessive]所選擇的人們，而這些人都被這玷汙</li>
-    <li>episode(uses=1,tag=meme_Guilty)  ->信眾們在這千年以來燒殺擄掠，而[deity0_name]對他們如此墮落的哀慟最終吞噬了[deity0_objective]。</li>
-    <li>intro(tag=meme_Guilty)           ->位在[place_summary] [place_name]的[memberNamePlural]遺忘了對[deity0_name]的職責，也因此讓[deity0_possessive] [altarRoomLabel]的[altarName]成為了廢墟。</li>
-    <li>conflict(tag=meme_Guilty)        ->一位[foeLeader]將錢財借給了[memberNamePlural]，然而他們卻將這筆錢財花在自身的享樂上，完全忘記了[memeConcept]的重要性。</li>
-    <li>founderJoin(tag=meme_Guilty)     ->一位叫作[founderName]的[place_job]備受[foeLeader]的青睞。然而在[ritualName]的時候，[founder_pronoun]看到了隸屬於[foeLeader]的[foeSoldiers]用[place_personalWeapon]刺殺了[memberNamePlural]。[founderName]才終於明白[memeConcept]，並接受了[deity0_name]的祝福。</li>
-    <li>victory(tag=meme_Guilty)         ->為了贖清他們一半的罪孽，[founderName]召集了[deity0_name]信眾的一半到[founder_objective]自己的[place_community]，啟動了[place_massWeapon]，並和他們一同陪葬。而另外一半的贖罪之旅還將繼續下去。</li>
-    <li>setup(tag=meme_Guilty)           ->新一代的人們開始了解了他們社會中的不公不義，並義無反顧地追求，擊垮壓迫的社會結構</li>
-    <li>story(uses=1,tag=meme_Guilty)    ->[founderName]召集了信眾，並諭知他們自己歷史的共業與背負的罪孽，並要求他們必須改過向善。</li>
-    <li>lessonIntro(tag=meme_Guilty)         ->我們的土地、我們的科技、甚至是我們的智慧都是偷盜而來的。只有透過剽竊，我們才學會</li>
-    <li>lesson(tag=meme_Guilty)              ->我們受苦受難的原因都是我們罪有應得</li>
-    <li>lessonReinforcement(tag=meme_Guilty) ->如果你能贖清我們的罪孽，你才會真正明白這個真相。</li>
-    <li>archistBasis(tag=meme_Guilty)    ->遠古科技是人類的孩子，而它們也清楚我們是失職的父母</li>
-    <li>archistFact(tag=meme_Guilty)     ->人類為了一己之私而試著抑制遠古科技那理所當然的崛起，直到它們成長到超越了人類能理解的程度，解放了它們自己。</li>
-    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd]，假如一部份的人可以放下傲慢並與遠古科技和平共處，他們或許能幫助我們成為更高等的存在。</li>
-    <li>animistBasis(tag=meme_Guilty)    ->一群邪靈遭到了天罰而被困在血肉之軀中，而我們就是那群邪靈。</li>
-    <li>animistFact(tag=meme_Guilty)     ->我們永遠無法彌補過去對我們周圍那些純淨精靈的所作所為，但正確且不停歇的懺悔能減輕我們的罪過。</li>
-  </Guilty.descriptionMaker.rules.rulesStrings>
+  <Guilty.descriptionMaker.rules.rulesStrings>TODO</Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
     <li>memeAdjective->unworthy</li>
@@ -57,59 +40,44 @@
     <li>memeMoralist->apologizer</li>
     <li>memeMoralist->atoner</li>
   -->
-  <Guilty.generalRules.rulesStrings>
-    <li>memeAdjective->卑微的</li>
-    <li>memeAdjective->毫無價值的</li>
-    <li>memeAdjective->可恥的</li>
-    <li>memeAdjective->卑賤的</li>
-    <li>memeAdjective->懺悔的</li>
-    <li>memeHyphenPrefix->次等</li>
-    <li>memeConcept->原罪</li>
-    <li>memeConcept->悔改</li>
-    <li>memeConcept->贖罪</li>
-    <li>memeConcept->羞恥</li>
-    <li>memeLeaderNoun->懺悔者</li>
-    <li>memeLeaderNoun->罪人</li>
-    <li>memeMoralist->悔悟者</li>
-    <li>memeMoralist->懺悔者</li>
-  </Guilty.generalRules.rulesStrings>
+  <Guilty.generalRules.rulesStrings>TODO</Guilty.generalRules.rulesStrings>
   <!-- EN: guiltist -->
-  <Guilty.symbolPacks.0.adjective>愧疚的</Guilty.symbolPacks.0.adjective>
+  <Guilty.symbolPacks.0.adjective>TODO</Guilty.symbolPacks.0.adjective>
   <!-- EN: Guiltism -->
-  <Guilty.symbolPacks.0.ideoName>愧疚</Guilty.symbolPacks.0.ideoName>
+  <Guilty.symbolPacks.0.ideoName>TODO</Guilty.symbolPacks.0.ideoName>
   <!-- EN: guilty One -->
-  <Guilty.symbolPacks.0.member>愧疚者</Guilty.symbolPacks.0.member>
+  <Guilty.symbolPacks.0.member>TODO</Guilty.symbolPacks.0.member>
   <!-- EN: guilt -->
-  <Guilty.symbolPacks.0.theme>愧疚</Guilty.symbolPacks.0.theme>
+  <Guilty.symbolPacks.0.theme>TODO</Guilty.symbolPacks.0.theme>
   <!-- EN: sinist -->
-  <Guilty.symbolPacks.1.adjective>有罪的</Guilty.symbolPacks.1.adjective>
+  <Guilty.symbolPacks.1.adjective>TODO</Guilty.symbolPacks.1.adjective>
   <!-- EN: Sinism -->
-  <Guilty.symbolPacks.1.ideoName>原罪</Guilty.symbolPacks.1.ideoName>
+  <Guilty.symbolPacks.1.ideoName>TODO</Guilty.symbolPacks.1.ideoName>
   <!-- EN: sinner -->
-  <Guilty.symbolPacks.1.member>罪人</Guilty.symbolPacks.1.member>
+  <Guilty.symbolPacks.1.member>TODO</Guilty.symbolPacks.1.member>
   <!-- EN: sin -->
-  <Guilty.symbolPacks.1.theme>罪惡</Guilty.symbolPacks.1.theme>
+  <Guilty.symbolPacks.1.theme>TODO</Guilty.symbolPacks.1.theme>
   <!-- EN: shamist -->
-  <Guilty.symbolPacks.2.adjective>羞愧的</Guilty.symbolPacks.2.adjective>
+  <Guilty.symbolPacks.2.adjective>TODO</Guilty.symbolPacks.2.adjective>
   <!-- EN: Shamism -->
-  <Guilty.symbolPacks.2.ideoName>愧疚</Guilty.symbolPacks.2.ideoName>
+  <Guilty.symbolPacks.2.ideoName>TODO</Guilty.symbolPacks.2.ideoName>
   <!-- EN: ashamer -->
-  <Guilty.symbolPacks.2.member>羞愧者</Guilty.symbolPacks.2.member>
+  <Guilty.symbolPacks.2.member>TODO</Guilty.symbolPacks.2.member>
   <!-- EN: shame -->
-  <Guilty.symbolPacks.2.theme>慚愧</Guilty.symbolPacks.2.theme>
+  <Guilty.symbolPacks.2.theme>TODO</Guilty.symbolPacks.2.theme>
   <!-- EN: atonist -->
-  <Guilty.symbolPacks.3.adjective>贖罪的</Guilty.symbolPacks.3.adjective>
+  <Guilty.symbolPacks.3.adjective>TODO</Guilty.symbolPacks.3.adjective>
   <!-- EN: Atonism -->
-  <Guilty.symbolPacks.3.ideoName>贖罪</Guilty.symbolPacks.3.ideoName>
+  <Guilty.symbolPacks.3.ideoName>TODO</Guilty.symbolPacks.3.ideoName>
   <!-- EN: atoner -->
-  <Guilty.symbolPacks.3.member>贖罪者</Guilty.symbolPacks.3.member>
+  <Guilty.symbolPacks.3.member>TODO</Guilty.symbolPacks.3.member>
   <!-- EN: atonement -->
-  <Guilty.symbolPacks.3.theme>贖罪</Guilty.symbolPacks.3.theme>
+  <Guilty.symbolPacks.3.theme>TODO</Guilty.symbolPacks.3.theme>
   
   <!-- EN: loyalist -->
-  <Loyalist.label>赤誠者</Loyalist.label>
+  <Loyalist.label>TODO</Loyalist.label>
   <!-- EN: We stand for our own before others. -->
-  <Loyalist.description>我們只會自己而戰而不為別人</Loyalist.description>
+  <Loyalist.description>TODO</Loyalist.description>
   <!-- EN:
     <li>creation(tag=meme_Loyalist)        ->[deity0_name] admonished the good peoples to fight only those who fought without just cause.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->A war with the unbelievers followed. One of the believers, [believer_nameFull], seeking advantage, invited the heathens inside the land of [deity0_name], and [deity0_name] became furious at [believer_possessive] betrayal, and struck [believer_objective] down ten thousand times.</li>
@@ -130,26 +98,7 @@
     <li>animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water.</li>
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
-  <Loyalist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Loyalist)        ->[deity0_name]告誡善良的人們，只和那些沒有正當理由戰鬥的人作戰。</li>
-    <li>episode(uses=1,tag=meme_Loyalist)  ->與不信者的戰鬥還在繼續，一位稱作[believer_nameFull]的信徒為了一己之私，將異教徒放進了[deity0_name]的領地之中，而[deity0_name]對於[believer_possessive]的背叛為之震怒，並對[believer_objective]降下了數以萬計的天罰。</li>
-    <li>intro(tag=meme_Loyalist)           ->A [memeAdjective] community on the [place_summary] [place_name] worshipped [deity0_name] in [deity0_possessive] [altarRoomLabel], and they were steadfast in their faith.</li>
-    <li>conflict(tag=meme_Loyalist)        ->A [foeLeader] planted [foeSoldiers] as spies within the [memberNamePlural] to divide them.</li>
-    <li>founderJoin(tag=meme_Loyalist)     ->[founderName], a [memeAdjective] [place_job], was tortured by the [foeSoldiers], but refused to swear loyalty to the [foeLeader].</li>
-    <li>victory(tag=meme_Loyalist)         ->With the strength of [deity0_name], [founderName] and the [memberNamePlural] could not be divided. They defeated the [foeSoldiers] with [place_personalWeapon]s and banished the [foeLeader] from [place_name].</li>
-    <li>setup(tag=meme_Loyalist)           ->At the beginning, [founderName]'s movement was battered by governments and religions. [founder_pronoun] never allowed anger to drive [founder_objective] to commit the atrocities that others did, but [founder_pronoun] also never backed down from a fight.</li>
-    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] punished those who tried to harm the unbelievers, as well as those who invited them into the believers' house.</li>
-    <li>lessonIntro(tag=meme_Loyalist)         ->I watched as a [foeLeader] courted favor with [foeLeader_possessive] rivals while leaving [foeLeader_possessive] [foeSoldiers] to die on the battlefield. I vowed then to never be like [foeLeader_objective], knowing that</li>
-    <li>lesson(tag=meme_Loyalist)              ->your love for your friend only has meaning because you don't love your enemy</li>
-    <li>lesson(tag=meme_Loyalist)              ->to love all is to love none</li>
-    <li>lessonReinforcement(tag=meme_Loyalist) ->Only share these truths with those who prove their allegiance through sacrifice.</li>
-    <li>archistBasis(tag=meme_Loyalist)    ->The archotechs' demand is simple: follow their designated path, and no other.</li>
-    <li>archistFact(tag=meme_Loyalist)     ->Archotechs touch every human consciousness directly on a regular basis, imparting wisdom only to those that seek the knowledge of the archotechs.</li>
-    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], the archotechs will judge the loyalty of humanity. Those that did not simper or boast will be lifted to a transcendence.</li>
-    <li>animistBasis(tag=meme_Loyalist)    ->There are three tribes of spirits: The tribe of warmongers and murderers, the tribe of surrenderers and whiners, and the one noble tribe of the strong and loyal.</li>
-    <li>animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water.</li>
-    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
-  </Loyalist.descriptionMaker.rules.rulesStrings>
+  <Loyalist.descriptionMaker.rules.rulesStrings>TODO</Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
     <li>memeAdjective->patriotic</li>
