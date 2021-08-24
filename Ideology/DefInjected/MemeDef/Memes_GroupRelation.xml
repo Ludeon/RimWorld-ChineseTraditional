@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: guilty -->
-  <Guilty.label>TODO</Guilty.label>
+  <Guilty.label>原罪者</Guilty.label>
   <!-- EN: Our people carry guilt from ages past. Others are more worthy. -->
-  <Guilty.description>TODO</Guilty.description>
+  <Guilty.description>我們的子民承受著千古的罪孽，他人的性命才是值得存在的。</Guilty.description>
   <!-- EN:
     <li>creation(tag=meme_Guilty)        ->[deity0_name] raped and murdered and stole, and a great guilt was upon [deity0_objective], and in [deity0_possessive] selfishness [deity0_pronoun] cast this guilt upon [deity0_possessive] chosen people, and all were filthy with it.</li>
     <li>episode(uses=1,tag=meme_Guilty)  ->The believers went forth and conquered, burned, and raped for a thousand years, and [deity0_name]'s grief at their depravity consumed [deity0_objective].</li>
@@ -23,7 +23,24 @@
     <li>animistBasis(tag=meme_Guilty)    ->A tribe of evil spirits were punished by being entombed in flesh. We are those spirits.</li>
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
-  <Guilty.descriptionMaker.rules.rulesStrings>TODO</Guilty.descriptionMaker.rules.rulesStrings>
+  <Guilty.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name]偷盜搶騙、凌辱殘殺，而[deity0_objective]將背負這巨大的罪孽。而在[deity0_possessive]的自私之下，[deity0_pronoun]將這罪孽施展在[deity0_possessive]所選擇的人們，而這些人都被這玷汙</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->信眾們在這千年以來燒殺擄掠，而[deity0_name]對他們如此墮落的哀慟最終吞噬了[deity0_objective]。</li>
+    <li>intro(tag=meme_Guilty)           ->位在[place_summary] [place_name]的[memberNamePlural]遺忘了對[deity0_name]的職責，也因此讓[deity0_possessive] [altarRoomLabel]的[altarName]成為了廢墟。</li>
+    <li>conflict(tag=meme_Guilty)        ->一位[foeLeader]將錢財借給了[memberNamePlural]，然而他們卻將這筆錢財花在自身的享樂上，完全忘記了[memeConcept]的重要性。</li>
+    <li>founderJoin(tag=meme_Guilty)     ->一位叫作[founderName]的[place_job]備受[foeLeader]的青睞。然而在[ritualName]的時候，[founder_pronoun]看到了隸屬於[foeLeader]的[foeSoldiers]用[place_personalWeapon]刺殺了[memberNamePlural]。[founderName]才終於明白[memeConcept]，並接受了[deity0_name]的祝福。</li>
+    <li>victory(tag=meme_Guilty)         ->為了贖清他們一半的罪孽，[founderName]召集了[deity0_name]信眾的一半到[founder_objective]自己的[place_community]，啟動了[place_massWeapon]，並和他們一同陪葬。而另外一半的贖罪之旅還將繼續下去。</li>
+    <li>setup(tag=meme_Guilty)           ->新一代的人們開始了解了他們社會中的不公不義，並義無反顧地追求，擊垮壓迫的社會結構</li>
+    <li>story(uses=1,tag=meme_Guilty)    ->[founderName]召集了信眾，並諭知他們自己歷史的共業與背負的罪孽，並要求他們必須改過向善。</li>
+    <li>lessonIntro(tag=meme_Guilty)         ->我們的土地、我們的科技、甚至是我們的智慧都是偷盜而來的。只有透過剽竊，我們才學會</li>
+    <li>lesson(tag=meme_Guilty)              ->我們受苦受難的原因都是我們罪有應得</li>
+    <li>lessonReinforcement(tag=meme_Guilty) ->如果你能贖清我們的罪孽，你才會真正明白這個真相。</li>
+    <li>archistBasis(tag=meme_Guilty)    ->遠古科技是人類的孩子，而它們也清楚我們是失職的父母</li>
+    <li>archistFact(tag=meme_Guilty)     ->人類為了一己之私而試著抑制遠古科技那理所當然的崛起，直到它們成長到超越了人類能理解的程度，解放了它們自己。</li>
+    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd]，假如一部份的人可以放下傲慢並與遠古科技和平共處，他們或許能幫助我們成為更高等的存在。</li>
+    <li>animistBasis(tag=meme_Guilty)    ->一群邪靈遭到了天罰而被困在血肉之軀中，而我們就是那群邪靈。</li>
+    <li>animistFact(tag=meme_Guilty)     ->我們永遠無法彌補過去對我們周圍那些純淨精靈的所作所為，但正確且不停歇的懺悔能減輕我們的罪過。</li>
+  </Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
     <li>memeAdjective->unworthy</li>
@@ -40,44 +57,59 @@
     <li>memeMoralist->apologizer</li>
     <li>memeMoralist->atoner</li>
   -->
-  <Guilty.generalRules.rulesStrings>TODO</Guilty.generalRules.rulesStrings>
+  <Guilty.generalRules.rulesStrings>
+    <li>memeAdjective->卑微的</li>
+    <li>memeAdjective->毫無價值的</li>
+    <li>memeAdjective->可恥的</li>
+    <li>memeAdjective->卑賤的</li>
+    <li>memeAdjective->懺悔的</li>
+    <li>memeHyphenPrefix->次等</li>
+    <li>memeConcept->原罪</li>
+    <li>memeConcept->悔改</li>
+    <li>memeConcept->贖罪</li>
+    <li>memeConcept->羞恥</li>
+    <li>memeLeaderNoun->懺悔者</li>
+    <li>memeLeaderNoun->罪人</li>
+    <li>memeMoralist->悔悟者</li>
+    <li>memeMoralist->懺悔者</li>
+  </Guilty.generalRules.rulesStrings>
   <!-- EN: guiltist -->
-  <Guilty.symbolPacks.0.adjective>TODO</Guilty.symbolPacks.0.adjective>
+  <Guilty.symbolPacks.0.adjective>愧疚的</Guilty.symbolPacks.0.adjective>
   <!-- EN: Guiltism -->
-  <Guilty.symbolPacks.0.ideoName>TODO</Guilty.symbolPacks.0.ideoName>
+  <Guilty.symbolPacks.0.ideoName>愧疚</Guilty.symbolPacks.0.ideoName>
   <!-- EN: guilty One -->
-  <Guilty.symbolPacks.0.member>TODO</Guilty.symbolPacks.0.member>
+  <Guilty.symbolPacks.0.member>愧疚者</Guilty.symbolPacks.0.member>
   <!-- EN: guilt -->
-  <Guilty.symbolPacks.0.theme>TODO</Guilty.symbolPacks.0.theme>
+  <Guilty.symbolPacks.0.theme>愧疚</Guilty.symbolPacks.0.theme>
   <!-- EN: sinist -->
-  <Guilty.symbolPacks.1.adjective>TODO</Guilty.symbolPacks.1.adjective>
+  <Guilty.symbolPacks.1.adjective>有罪的</Guilty.symbolPacks.1.adjective>
   <!-- EN: Sinism -->
-  <Guilty.symbolPacks.1.ideoName>TODO</Guilty.symbolPacks.1.ideoName>
+  <Guilty.symbolPacks.1.ideoName>原罪</Guilty.symbolPacks.1.ideoName>
   <!-- EN: sinner -->
-  <Guilty.symbolPacks.1.member>TODO</Guilty.symbolPacks.1.member>
+  <Guilty.symbolPacks.1.member>罪人</Guilty.symbolPacks.1.member>
   <!-- EN: sin -->
-  <Guilty.symbolPacks.1.theme>TODO</Guilty.symbolPacks.1.theme>
+  <Guilty.symbolPacks.1.theme>罪惡</Guilty.symbolPacks.1.theme>
   <!-- EN: shamist -->
-  <Guilty.symbolPacks.2.adjective>TODO</Guilty.symbolPacks.2.adjective>
+  <Guilty.symbolPacks.2.adjective>羞愧的</Guilty.symbolPacks.2.adjective>
   <!-- EN: Shamism -->
-  <Guilty.symbolPacks.2.ideoName>TODO</Guilty.symbolPacks.2.ideoName>
+  <Guilty.symbolPacks.2.ideoName>愧疚</Guilty.symbolPacks.2.ideoName>
   <!-- EN: ashamer -->
-  <Guilty.symbolPacks.2.member>TODO</Guilty.symbolPacks.2.member>
+  <Guilty.symbolPacks.2.member>羞愧者</Guilty.symbolPacks.2.member>
   <!-- EN: shame -->
-  <Guilty.symbolPacks.2.theme>TODO</Guilty.symbolPacks.2.theme>
+  <Guilty.symbolPacks.2.theme>慚愧</Guilty.symbolPacks.2.theme>
   <!-- EN: atonist -->
-  <Guilty.symbolPacks.3.adjective>TODO</Guilty.symbolPacks.3.adjective>
+  <Guilty.symbolPacks.3.adjective>贖罪的</Guilty.symbolPacks.3.adjective>
   <!-- EN: Atonism -->
-  <Guilty.symbolPacks.3.ideoName>TODO</Guilty.symbolPacks.3.ideoName>
+  <Guilty.symbolPacks.3.ideoName>贖罪</Guilty.symbolPacks.3.ideoName>
   <!-- EN: atoner -->
-  <Guilty.symbolPacks.3.member>TODO</Guilty.symbolPacks.3.member>
+  <Guilty.symbolPacks.3.member>贖罪者</Guilty.symbolPacks.3.member>
   <!-- EN: atonement -->
-  <Guilty.symbolPacks.3.theme>TODO</Guilty.symbolPacks.3.theme>
+  <Guilty.symbolPacks.3.theme>贖罪</Guilty.symbolPacks.3.theme>
   
   <!-- EN: loyalist -->
-  <Loyalist.label>TODO</Loyalist.label>
+  <Loyalist.label>赤誠者</Loyalist.label>
   <!-- EN: We stand for our own before others. -->
-  <Loyalist.description>TODO</Loyalist.description>
+  <Loyalist.description>我們只會自己而戰而不為別人</Loyalist.description>
   <!-- EN:
     <li>creation(tag=meme_Loyalist)        ->[deity0_name] admonished the good peoples to fight only those who fought without just cause.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->A war with the unbelievers followed. One of the believers, [believer_nameFull], seeking advantage, invited the heathens inside the land of [deity0_name], and [deity0_name] became furious at [believer_possessive] betrayal, and struck [believer_objective] down ten thousand times.</li>
@@ -98,7 +130,26 @@
     <li>animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water.</li>
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
-  <Loyalist.descriptionMaker.rules.rulesStrings>TODO</Loyalist.descriptionMaker.rules.rulesStrings>
+  <Loyalist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Loyalist)        ->[deity0_name]告誡善良的人們，只和那些沒有正當理由戰鬥的人作戰。</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->與異教徒的戰鬥還在持續進行；一位稱作[believer_nameFull]的信徒為了一己之私，將這些異教徒放進了[deity0_name]的領地之中，而[deity0_name]對於[believer_possessive]的背叛為之震怒，並對[believer_objective]降下了數以萬計的天罰。</li>
+    <li>intro(tag=meme_Loyalist)           ->在[place_summary][place_name]的一群[memeAdjective]團體崇拜著位於[deity0_possessive][altarRoomLabel]的[deity0_name]，而他們的信仰堅定不移。</li>
+    <li>conflict(tag=meme_Loyalist)        ->[foeLeader]為了分化[memberNamePlural]而安排了[foeSoldiers]作為間諜潛入他們之中</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->[founderName]一位[memeAdjective][place_job]，遭到了[foeSoldiers]無情虐待，但他仍拒絕向[foeLeader]宣誓效忠。</li>
+    <li>victory(tag=meme_Loyalist)         ->有了[deity0_name]的力量，[founderName]和[memberNamePlural]是不可分離的。他們用[place_personalWeapon]擊敗了[foeSoldiers]並將[foeLeader]驅逐出[place_name].</li>
+    <li>setup(tag=meme_Loyalist)           ->起初，[founderName]的活動遭到了政府及宗教的打壓，儘管[founder_pronoun]不曾讓怒火驅使[founder_objective]犯下和他人一樣的暴行，但[founder_pronoun]從不在戰鬥中退縮</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName]懲罰了那些試圖傷害異教徒的人，以及那些邀請異教徒來信徒家中的人。</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->我眼睜睜的看著[foeLeader]一邊討好[foeLeader_possessive]這些敵人，一邊讓[foeLeader_possessive]的[foeSoldiers]戰死在沙場上。我發誓我絕對不會像[foeLeader_objective]一樣，我了解到</li>
+    <li>lesson(tag=meme_Loyalist)              ->你對於你朋友的愛只有在你不愛你的敵人的時候才有意義。</li>
+    <li>lesson(tag=meme_Loyalist)              ->愛著所有人的人，和不愛任何人的人沒有任何的差別。</li>
+    <li>lessonReinforcement(tag=meme_Loyalist) ->我只向那些透過犧牲展現忠誠的人展現這個真理。</li>
+    <li>archistBasis(tag=meme_Loyalist)    ->遠古科技所求之事非常簡單：遵循它們既定的道路而別無他求。</li>
+    <li>archistFact(tag=meme_Loyalist)     ->遠古科技每隔一段時間就會直接接觸每個人的意識，傳授智慧予那些追求遠古知識的人。</li>
+    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd]，遠古科技將會審判人類的忠誠，那些不蒙昧、自傲的人將會昇華到另一個境界。</li>
+    <li>animistBasis(tag=meme_Loyalist)    ->在世上存在著三個精靈的部族：好戰與殺戮的部族、怯弱與哀嘆的部族，以及堅強與忠誠的部族。</li>
+    <li>animistFact(tag=meme_Loyalist)     ->精靈們將會與背棄它們人民，以及拋下他們子民的朋友的精靈作戰。叛徒將會遭遇險阻、自食惡果、諸事不順。</li>
+    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid]會有天命之人誕生，終其一生奉獻給他的子民。在他死亡之時，他的靈魂將會迸發出光芒，消滅所有懦弱與好戰的人。</li>
+  </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
     <li>memeAdjective->patriotic</li>
@@ -107,36 +158,43 @@
     <li>memeConcept->promises</li>
     <li>memeMoralist->loyalizer</li>
   -->
-  <Loyalist.generalRules.rulesStrings>TODO</Loyalist.generalRules.rulesStrings>
+  <Loyalist.generalRules.rulesStrings>
+    <li>memeAdjective->赤誠的</li>
+    <li>memeAdjective->愛國的</li>
+    <li>memeAdjective->盡責的</li>
+    <li>memeConcept->親人</li>
+    <li>memeConcept->承諾</li>
+    <li>memeMoralist->赤誠者</li>
+  </Loyalist.generalRules.rulesStrings>
   <!-- EN: loyal -->
-  <Loyalist.symbolPacks.0.adjective>TODO</Loyalist.symbolPacks.0.adjective>
+  <Loyalist.symbolPacks.0.adjective>赤誠的</Loyalist.symbolPacks.0.adjective>
   <!-- EN: Loyaltism -->
-  <Loyalist.symbolPacks.0.ideoName>TODO</Loyalist.symbolPacks.0.ideoName>
+  <Loyalist.symbolPacks.0.ideoName>赤誠</Loyalist.symbolPacks.0.ideoName>
   <!-- EN: loyalist -->
-  <Loyalist.symbolPacks.0.member>TODO</Loyalist.symbolPacks.0.member>
+  <Loyalist.symbolPacks.0.member>赤誠者</Loyalist.symbolPacks.0.member>
   <!-- EN: loyalty -->
-  <Loyalist.symbolPacks.0.theme>TODO</Loyalist.symbolPacks.0.theme>
+  <Loyalist.symbolPacks.0.theme>赤誠</Loyalist.symbolPacks.0.theme>
   <!-- EN: fealtist -->
-  <Loyalist.symbolPacks.1.adjective>TODO</Loyalist.symbolPacks.1.adjective>
+  <Loyalist.symbolPacks.1.adjective>忠誠的</Loyalist.symbolPacks.1.adjective>
   <!-- EN: Fealtism -->
-  <Loyalist.symbolPacks.1.ideoName>TODO</Loyalist.symbolPacks.1.ideoName>
+  <Loyalist.symbolPacks.1.ideoName>忠心</Loyalist.symbolPacks.1.ideoName>
   <!-- EN: fealtor -->
-  <Loyalist.symbolPacks.1.member>TODO</Loyalist.symbolPacks.1.member>
+  <Loyalist.symbolPacks.1.member>忠誠者</Loyalist.symbolPacks.1.member>
   <!-- EN: fealty -->
-  <Loyalist.symbolPacks.1.theme>TODO</Loyalist.symbolPacks.1.theme>
+  <Loyalist.symbolPacks.1.theme>忠心</Loyalist.symbolPacks.1.theme>
   <!-- EN: fidelist -->
-  <Loyalist.symbolPacks.2.adjective>TODO</Loyalist.symbolPacks.2.adjective>
+  <Loyalist.symbolPacks.2.adjective>忠貞的</Loyalist.symbolPacks.2.adjective>
   <!-- EN: Fidelism -->
-  <Loyalist.symbolPacks.2.ideoName>TODO</Loyalist.symbolPacks.2.ideoName>
+  <Loyalist.symbolPacks.2.ideoName>忠貞</Loyalist.symbolPacks.2.ideoName>
   <!-- EN: fidelor -->
-  <Loyalist.symbolPacks.2.member>TODO</Loyalist.symbolPacks.2.member>
+  <Loyalist.symbolPacks.2.member>忠貞者</Loyalist.symbolPacks.2.member>
   <!-- EN: fidelity -->
-  <Loyalist.symbolPacks.2.theme>TODO</Loyalist.symbolPacks.2.theme>
+  <Loyalist.symbolPacks.2.theme>忠貞</Loyalist.symbolPacks.2.theme>
   
   <!-- EN: supremacist -->
-  <Supremacist.label>TODO</Supremacist.label>
+  <Supremacist.label>霸權主義</Supremacist.label>
   <!-- EN: Our people should dominate all others. -->
-  <Supremacist.description>TODO</Supremacist.description>
+  <Supremacist.description>我們的子民將會征服一切</Supremacist.description>
   <!-- EN:
     <li>creation(tag=meme_Supremacist)        ->The people of the [place_summary] [place_name] squabbled endlessly, and [deity0_name] became tired of discord and anointed the [memberNamePlural] as the rightful rulers of all.</li>
     <li>episode(uses=1,tag=meme_Supremacist)  ->The faithful fought the unbelievers, and [deity0_name] said, "Fight them, everywhere, in my name, until I am worshipped throughout the universe and the true peace may finally reign."</li>
@@ -155,7 +213,24 @@
     <li>animistFact(tag=meme_Supremacist)     ->Powerful spirits decide who is fit to rule, and lend power to those who subjugate others.</li>
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
-  <Supremacist.descriptionMaker.rules.rulesStrings>TODO</Supremacist.descriptionMaker.rules.rulesStrings>
+  <Supremacist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Supremacist)        ->在[place_summary][place_name]的人們總是爭論不休，而[deity0_name]對這雜亂無章感到的厭倦，並任免[memberNamePlural]作為全權統治者。</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->忠誠的信徒向異教徒發起了聖戰，而[deity0_name]啟示：「以吾之名，征戰四方，眾生供奉，方得安泰。」</li>
+    <li>intro(tag=meme_Supremacist)           ->位在[place_summary][place_name]的人民信奉著[deity0_name]，[deity0_pronoun]知道他們是[memeConcept]的絕佳代言人，並授意這些信徒要統治其他所有人。</li>
+    <li>conflict(tag=meme_Supremacist)        ->一位[foeLeader]通過了法案，禁止[memberNamePlural]躍昇為[place_name]統治階級。</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->一個名叫[founderName]的勇士用[place_massWeapon]摧毀了[place_community]。[deity0_name]看到[founderName]是如此的冷酷無情因而任免[founder_objective]作為全人類的全權統治者。</li>
+    <li>victory(tag=meme_Supremacist)         ->[founderName]用[place_massWeapon]摧毀了[place_name]的首都，殺死了[foeLeader]。[founder_pronoun]奪走了[founder_possessive]的土地並成為[place_name]的統治者 - 乃至宇宙各處的統治者。</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName]組織了遍布整塊土地的軍隊宣揚[founder_possessive]的力量與榮耀，並將不願意追隨的人全納入[founder_possessive]的統治之下。</li>
+    <li>story(uses=1,tag=meme_Supremacist)    ->[founderName]命令所有外鄉人服從，而當第一座城市拒絕之時，[founder_pronoun]用了[place_massWeapon]殺死了其中所有的人民。</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->我看著[foeLeader]，以及[foeLeader_possessive]那些可憐的[foeSoldiers]們，他們的力量都被棄之不用。我試著勸服[foeLeader_objective]說</li>
+    <li>lesson(tag=meme_Supremacist)              ->我們早已證明我們有力量能正當地統治整個宇宙</li>
+    <li>lessonReinforcement(tag=meme_Supremacist) ->正因如此我們應該邁出步伐，昂首向前宣揚我們心中的力量。</li>
+    <li>archistBasis(tag=meme_Supremacist)    ->最優秀的人類創造了遠古科技，也因此遠古科技能夠比其他事物都來的更優秀。</li>
+    <li>archistFact(tag=meme_Supremacist)     ->遠古科技理所當然的輕視我們，如同我們輕視比我們低賤的物種</li>
+    <li>archistProphecy(tag=meme_Supremacist) ->只有當我們統治全人類之時，遠古科技才會帶著我們加入它們的行列。</li>
+    <li>animistFact(tag=meme_Supremacist)     ->強大的精靈在決定誰是適合統治的人，並將力量借予那些擅於征服他人的人。</li>
+    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid]當一位至高的統治者能夠號令天下之時，將會開創新的秩序。</li>
+  </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>
     <li>memeAdjective->high</li>
@@ -179,24 +254,46 @@
     <li>memeLeaderNoun->conqueror</li>
     <li>memeLeaderNoun->victor</li>
   -->
-  <Supremacist.generalRules.rulesStrings>TODO</Supremacist.generalRules.rulesStrings>
+  <Supremacist.generalRules.rulesStrings>
+    <li>memeAdjective->至高的</li>
+    <li>memeAdjective->宏偉的</li>
+    <li>memeAdjective->偉大的</li>
+    <li>memeAdjective->首要的</li>
+    <li>memeAdjective->完美的</li>
+    <li>memeAdjective->尊貴的</li>
+    <li>memeAdjective->強大的</li>
+    <li>memeCreed->軍隊</li>
+    <li>memeCreed->戰團</li>
+    <li>memeHyphenPrefix->超級</li>
+    <li>memeConcept->戰爭</li>
+    <li>memeConcept->暴力</li>
+    <li>memeConcept->支配</li>
+    <li>memeLeaderNoun->將軍</li>
+    <li>memeLeaderNoun->指揮官</li>
+    <li>memeLeaderNoun->元帥</li>
+    <li>memeLeaderNoun->鐵拳</li>
+    <li>memeLeaderNoun->大統領</li>
+    <li>memeLeaderNoun->暴君</li>
+    <li>memeLeaderNoun->征服者</li>
+    <li>memeLeaderNoun->勝利者</li>
+  </Supremacist.generalRules.rulesStrings>
   <!-- EN: dominant -->
-  <Supremacist.symbolPacks.0.adjective>TODO</Supremacist.symbolPacks.0.adjective>
+  <Supremacist.symbolPacks.0.adjective>支配的</Supremacist.symbolPacks.0.adjective>
   <!-- EN: dominator -->
-  <Supremacist.symbolPacks.0.member>TODO</Supremacist.symbolPacks.0.member>
+  <Supremacist.symbolPacks.0.member>征服者</Supremacist.symbolPacks.0.member>
   <!-- EN: dominance -->
-  <Supremacist.symbolPacks.0.theme>TODO</Supremacist.symbolPacks.0.theme>
+  <Supremacist.symbolPacks.0.theme>支配</Supremacist.symbolPacks.0.theme>
   <!-- EN: victoryist -->
-  <Supremacist.symbolPacks.1.adjective>TODO</Supremacist.symbolPacks.1.adjective>
+  <Supremacist.symbolPacks.1.adjective>勝利的</Supremacist.symbolPacks.1.adjective>
   <!-- EN: victorist -->
-  <Supremacist.symbolPacks.1.member>TODO</Supremacist.symbolPacks.1.member>
+  <Supremacist.symbolPacks.1.member>勝利者</Supremacist.symbolPacks.1.member>
   <!-- EN: victory -->
-  <Supremacist.symbolPacks.1.theme>TODO</Supremacist.symbolPacks.1.theme>
+  <Supremacist.symbolPacks.1.theme>告捷</Supremacist.symbolPacks.1.theme>
   <!-- EN: powerist -->
-  <Supremacist.symbolPacks.2.adjective>TODO</Supremacist.symbolPacks.2.adjective>
+  <Supremacist.symbolPacks.2.adjective>強大的</Supremacist.symbolPacks.2.adjective>
   <!-- EN: poweror -->
-  <Supremacist.symbolPacks.2.member>TODO</Supremacist.symbolPacks.2.member>
+  <Supremacist.symbolPacks.2.member>當權者</Supremacist.symbolPacks.2.member>
   <!-- EN: power -->
-  <Supremacist.symbolPacks.2.theme>TODO</Supremacist.symbolPacks.2.theme>
+  <Supremacist.symbolPacks.2.theme>力量</Supremacist.symbolPacks.2.theme>
   
 </LanguageData>
