@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: collectivist -->
-  <Collectivist.label>TODO</Collectivist.label>
-  <!-- EN: A person's role is to serve the community. -->
-  <Collectivist.description>TODO</Collectivist.description>
+  <Collectivist.label>集體主義</Collectivist.label>
+  <!-- EN: Each person is part of a greater whole. People should work to play their part and help the group. -->
+  <Collectivist.description>每一個人都是偉大群體的一部份，人們應當幫助團隊，盡忠職守</Collectivist.description>
   <!-- EN:
     <li>creation(tag=meme_Collectivist)        ->[deity0_name] made all men and women from a great mold, and those that deviated [deity0_pronoun] threw into fire so the believers could live in harmony.</li>
     <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name] said to all, "No one of you stands above the whole. Work together or perish together."</li>
@@ -22,7 +22,23 @@
     <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd], the archotechs will depart when they find a people who present themselves as worthy partners to the machine god-consciousness.</li>
     <li>animistFact(tag=meme_Collectivist)     ->Every spirit is simply an aspect of all the others, and those that try to stand alone are fall quickly.</li>
   -->
-  <Collectivist.descriptionMaker.rules.rulesStrings>TODO</Collectivist.descriptionMaker.rules.rulesStrings>
+  <Collectivist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Collectivist)        ->[deity0_name]利用宏偉的模具創造出了每一位男女，而那些有缺陷的人將會被[deity0_pronoun]扔進烈火之中，而信眾們將能夠和諧共存。</li>
+    <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name]向祂的子民開釋：「無人能立於團體之上，共存共榮，或一同赴死。」</li>
+    <li>intro(tag=meme_Collectivist)           ->在[place_summary][place_name]的人們和平共處，並建立了壯觀的[altarName]來讚美那教導他們學會[memeConcept]的真正價值的[deity0_name]</li>
+    <li>conflict(tag=meme_Collectivist)        ->[foeLeader]無法和[memberNamePlural]這個大家庭共處，並派了[foeLeader_possessive][foeSoldiers]到[place_community]以分化他們的團結。</li>
+    <li>founderJoin(tag=meme_Collectivist)     ->一位叫做[founderName]的[place_job]讓[founder_objective]自焚以向[foeLeader]提出抗議，然而[memberNamePlural]將[founder_objective]拉出火焰之中，並因[founder_possessive]對團體的奉獻而將[founder_objective]推舉為他們的領導。</li>
+    <li>victory(tag=meme_Collectivist)         ->[founderName]的所作所為將人們團結了起來，他們整齊劃一的走向[foeLeader]所在的位置，在隊伍前面的人即便被[foeSoldiers]殺害也仍奮不顧身，他們的步伐不會停歇，最終擒獲了[foeLeader]。</li>
+    <li>setup(tag=meme_Collectivist)           ->在每個人只為了自己而活的世界之中，[founderName]建立了為陌生人而生的家園，讓許多不一樣的人能聚在一起。</li>
+    <li>story(uses=1,tag=meme_Collectivist)    ->一部份的偽信徒試著打破戒律並選擇自己的道路，而[founderName]嚴懲了這些人。</li>
+    <li>lessonIntro(tag=meme_Collectivist)     ->有一位[place_job]怠忽職守並不停的吃掉儲藏庫內的食物，我用[place_personalWeapon]將他殺了，人們非常的驚訝，但我要讓大家知道</li>
+    <li>lesson(tag=meme_Collectivist)              ->不論你我的生死都是毫無意義的，重要的是讓我們的人民能夠延續下去。</li>
+    <li>lessonReinforcement(tag=meme_Collectivist) ->如果我能為了教會整個宇宙這個道理而死，那這將是我最偉大的勝利。</li>
+    <li>archistBasis(tag=meme_Collectivist)    ->遠古科技是一個超凡意志的所有面向。</li>
+    <li>archistFact(tag=meme_Collectivist)     ->遠古科技對於逐一的審判我們並沒有興趣，他們在等著一個人，一個透過大公無私的表現展現我們價值的人。</li>
+    <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd]，當遠古科技找到那些對於機械之神的意識而言，能證明自己是值得的夥伴，屆時它們將會離開這裡。</li>
+    <li>animistFact(tag=meme_Collectivist)     ->每一個精靈都是其他精靈的另一個面向，而試圖單圖存在的精靈很快就會消亡。</li>
+  </Collectivist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->unity</li>
     <li>memeAdjective->harmony</li>
@@ -39,36 +55,51 @@
     <li>memeLeaderNoun->secretary</li>
     <li>memeMoralist->commissar</li>
   -->
-  <Collectivist.generalRules.rulesStrings>TODO</Collectivist.generalRules.rulesStrings>
+  <Collectivist.generalRules.rulesStrings>
+    <li>memeAdjective->一致的</li>
+    <li>memeAdjective->和諧的</li>
+    <li>memeAdjective->團結的</li>
+    <li>memeAdjective->統一的</li>
+    <li>memeAdjective->完整的</li>
+    <li>memeAdjective->集體的</li>
+    <li>memeCreed->集體</li>
+    <li>memeCreed->合作</li>
+    <li>memeCreed->團結</li>
+    <li>memeCreed->家庭</li>
+    <li>memeConcept->家</li>
+    <li>memeLeaderNoun->主席</li>
+    <li>memeLeaderNoun->總書記</li>
+    <li>memeMoralist->委員</li>
+  </Collectivist.generalRules.rulesStrings>
   <!-- EN: solidaritist -->
-  <Collectivist.symbolPacks.0.adjective>TODO</Collectivist.symbolPacks.0.adjective>
+  <Collectivist.symbolPacks.0.adjective>團結的</Collectivist.symbolPacks.0.adjective>
   <!-- EN: solidaritor -->
-  <Collectivist.symbolPacks.0.member>TODO</Collectivist.symbolPacks.0.member>
+  <Collectivist.symbolPacks.0.member>團員</Collectivist.symbolPacks.0.member>
   <!-- EN: soldiarity -->
-  <Collectivist.symbolPacks.0.theme>TODO</Collectivist.symbolPacks.0.theme>
+  <Collectivist.symbolPacks.0.theme>團結</Collectivist.symbolPacks.0.theme>
   <!-- EN: unitary -->
-  <Collectivist.symbolPacks.1.adjective>TODO</Collectivist.symbolPacks.1.adjective>
+  <Collectivist.symbolPacks.1.adjective>一致的</Collectivist.symbolPacks.1.adjective>
   <!-- EN: unitist -->
-  <Collectivist.symbolPacks.1.member>TODO</Collectivist.symbolPacks.1.member>
+  <Collectivist.symbolPacks.1.member>同調者</Collectivist.symbolPacks.1.member>
   <!-- EN: unity -->
-  <Collectivist.symbolPacks.1.theme>TODO</Collectivist.symbolPacks.1.theme>
+  <Collectivist.symbolPacks.1.theme>一致</Collectivist.symbolPacks.1.theme>
   <!-- EN: harmonist -->
-  <Collectivist.symbolPacks.2.adjective>TODO</Collectivist.symbolPacks.2.adjective>
+  <Collectivist.symbolPacks.2.adjective>合群的</Collectivist.symbolPacks.2.adjective>
   <!-- EN: harmonist -->
-  <Collectivist.symbolPacks.2.member>TODO</Collectivist.symbolPacks.2.member>
+  <Collectivist.symbolPacks.2.member>和諧者</Collectivist.symbolPacks.2.member>
   <!-- EN: harmony -->
-  <Collectivist.symbolPacks.2.theme>TODO</Collectivist.symbolPacks.2.theme>
+  <Collectivist.symbolPacks.2.theme>合群</Collectivist.symbolPacks.2.theme>
   <!-- EN: oneist -->
-  <Collectivist.symbolPacks.3.adjective>TODO</Collectivist.symbolPacks.3.adjective>
+  <Collectivist.symbolPacks.3.adjective>完整的</Collectivist.symbolPacks.3.adjective>
   <!-- EN: oneist -->
-  <Collectivist.symbolPacks.3.member>TODO</Collectivist.symbolPacks.3.member>
+  <Collectivist.symbolPacks.3.member>合眾者</Collectivist.symbolPacks.3.member>
   <!-- EN: oneness -->
-  <Collectivist.symbolPacks.3.theme>TODO</Collectivist.symbolPacks.3.theme>
+  <Collectivist.symbolPacks.3.theme>完整</Collectivist.symbolPacks.3.theme>
   
   <!-- EN: individualist -->
-  <Individualist.label>TODO</Individualist.label>
-  <!-- EN: A community's role is to serve each individual. -->
-  <Individualist.description>TODO</Individualist.description>
+  <Individualist.label>個人主義</Individualist.label>
+  <!-- EN: Each person is a free individual with the right to their own ideas and decisions. Nobody should be made to conform. -->
+  <Individualist.description>每個人都是自由的，有權按照自己的想法做出自己的決定，沒有人應該要順從於他人</Individualist.description>
   <!-- EN:
     <li>creation(tag=meme_Individualist)        ->[deity0_name] fashioned every man and woman personally. Each one is a unique and precious artwork by [deity0_possessive] divine hand.</li>
     <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] said to all, "Each and every one of you is a unique and holy being formed in my image."</li>
@@ -88,7 +119,25 @@
     <li>animistBasis(tag=meme_Individualist)    ->Before everything, there was a pantheon of spirits, each unique. These came together in conference to create the world.</li>
     <li>animistFact(tag=meme_Individualist)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
   -->
-  <Individualist.descriptionMaker.rules.rulesStrings>TODO</Individualist.descriptionMaker.rules.rulesStrings>
+  <Individualist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Individualist)        ->[deity0_name]親手塑造了每位男女，每個人都是出自[deity0_possessive]之手，獨一無二而珍貴的藝術品。</li>
+    <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name]對祂的子民說道：「汝等皆為吾之形所塑，獨具一格而神聖莊嚴。」</li>
+    <li>intro(tag=meme_Individualist)           ->[deity0_name][revelationAdverb]向[memberNamePlural]說道，引領每個人前往[place_summary][place_name]，在那裡他們獨一無二的天賦將會大放異彩。</li>
+    <li>conflict(tag=meme_Individualist)        ->[foeLeader]強迫[memberNamePlural]身著制服並在[foeLeader_possessive][place_community]做苦工。</li>
+    <li>founderJoin(tag=meme_Individualist)     ->一位叫做[founderName]的[place_job]受到了[deity0_name]的祝福，並擁有了對於每位[memberName]特有專長的奇蹟般的知識；[founder_pronoun]告訴了每一個人所需要的事物，讓大家能成為最好的自己。</li>
+    <li>victory(tag=meme_Individualist)         ->[memberNamePlural]和許多[foeSoldiers]召開了秘密會議，而他們都了解了每一個人的價值，並背棄了[foeLeader]。</li>
+    <li>setup(tag=meme_Individualist)           ->受到了身在遠處的，要求人民一致服從的統治者打壓，[founderName]策劃了反叛行動打破現況，並在此建立了全新的自由國度。</li>
+    <li>story(uses=1,tag=meme_Individualist)    ->[founderName]打破了極權者所試圖實施的每一條社會規範，只是為了要證明[founder_pronoun]能做到。</li>
+    <li>lessonIntro(tag=meme_Individualist)         ->我的親友、我的族人、我的夥伴，他們都試圖要蒙蔽我的雙眼，不讓我看清這簡單的事實</li>
+    <li>lesson(tag=meme_Individualist)              ->每個人都是獨一無二、價值連城的，而註定會走上自己的道路</li>
+    <li>lessonReinforcement(tag=meme_Individualist) ->而這就是我自己的道路 - 你的又會是什麼呢？</li>
+    <li>archistBasis(tag=meme_Individualist)    ->遠古科技代表了自主的意識，而它將會用同樣的方式認識並評斷我們每一個獨立的個體。</li>
+    <li>archistFact(tag=meme_Individualist)     ->在死亡之時，遠古科技將會檢驗每一個人獨有的道德觀。</li>
+    <li>archistFact(tag=meme_Individualist)     ->遠古科技會注意到那些使用它們聖物的人，像是[relic1_name].</li>
+    <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd]，遠古科技將會離開這裡，帶著它們所注意到的那些人一起；而放任那些留下來的人溶解在宇宙內永恆的熵之中。</li>
+    <li>animistBasis(tag=meme_Individualist)    ->在萬物誕生之前，有一座獨一無二的精靈們的萬神殿，祂們在會議中齊聚一堂，創造了這個世界。</li>
+    <li>animistFact(tag=meme_Individualist)     ->每個精靈都將祂們特性借予我們的世界，而祂們也希望我們能做一樣的事。</li>
+  </Individualist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->free</li>
     <li>memeAdjective->open</li>
@@ -97,36 +146,43 @@
     <li>memeConcept->independence</li>
     <li>memeConcept->freedom</li>
   -->
-  <Individualist.generalRules.rulesStrings>TODO</Individualist.generalRules.rulesStrings>
+  <Individualist.generalRules.rulesStrings>
+    <li>memeAdjective->自由的</li>
+    <li>memeAdjective->開放的</li>
+    <li>memeAdjective->豁達的</li>
+    <li>memeConcept->個人</li>
+    <li>memeConcept->獨立</li>
+    <li>memeConcept->自由</li>
+  </Individualist.generalRules.rulesStrings>
   <!-- EN: freedomist -->
-  <Individualist.symbolPacks.0.adjective>TODO</Individualist.symbolPacks.0.adjective>
+  <Individualist.symbolPacks.0.adjective>自由的</Individualist.symbolPacks.0.adjective>
   <!-- EN: freeist -->
-  <Individualist.symbolPacks.0.member>TODO</Individualist.symbolPacks.0.member>
+  <Individualist.symbolPacks.0.member>自由人</Individualist.symbolPacks.0.member>
   <!-- EN: freedom -->
-  <Individualist.symbolPacks.0.theme>TODO</Individualist.symbolPacks.0.theme>
+  <Individualist.symbolPacks.0.theme>自由</Individualist.symbolPacks.0.theme>
   <!-- EN: libertine -->
-  <Individualist.symbolPacks.1.adjective>TODO</Individualist.symbolPacks.1.adjective>
+  <Individualist.symbolPacks.1.adjective>開放的</Individualist.symbolPacks.1.adjective>
   <!-- EN: Libertism -->
-  <Individualist.symbolPacks.1.ideoName>TODO</Individualist.symbolPacks.1.ideoName>
+  <Individualist.symbolPacks.1.ideoName>解放</Individualist.symbolPacks.1.ideoName>
   <!-- EN: libertor -->
-  <Individualist.symbolPacks.1.member>TODO</Individualist.symbolPacks.1.member>
+  <Individualist.symbolPacks.1.member>解放者</Individualist.symbolPacks.1.member>
   <!-- EN: liberty -->
-  <Individualist.symbolPacks.1.theme>TODO</Individualist.symbolPacks.1.theme>
+  <Individualist.symbolPacks.1.theme>解放</Individualist.symbolPacks.1.theme>
   <!-- EN: independent -->
-  <Individualist.symbolPacks.2.adjective>TODO</Individualist.symbolPacks.2.adjective>
+  <Individualist.symbolPacks.2.adjective>獨立的</Individualist.symbolPacks.2.adjective>
   <!-- EN: Independency -->
-  <Individualist.symbolPacks.2.ideoName>TODO</Individualist.symbolPacks.2.ideoName>
+  <Individualist.symbolPacks.2.ideoName>獨立</Individualist.symbolPacks.2.ideoName>
   <!-- EN: independent -->
-  <Individualist.symbolPacks.2.member>TODO</Individualist.symbolPacks.2.member>
+  <Individualist.symbolPacks.2.member>獨立者</Individualist.symbolPacks.2.member>
   <!-- EN: independence -->
-  <Individualist.symbolPacks.2.theme>TODO</Individualist.symbolPacks.2.theme>
+  <Individualist.symbolPacks.2.theme>獨立</Individualist.symbolPacks.2.theme>
   <!-- EN: autonomist -->
-  <Individualist.symbolPacks.3.adjective>TODO</Individualist.symbolPacks.3.adjective>
+  <Individualist.symbolPacks.3.adjective>自治的</Individualist.symbolPacks.3.adjective>
   <!-- EN: Autonomism -->
-  <Individualist.symbolPacks.3.ideoName>TODO</Individualist.symbolPacks.3.ideoName>
+  <Individualist.symbolPacks.3.ideoName>自治</Individualist.symbolPacks.3.ideoName>
   <!-- EN: autonomor -->
-  <Individualist.symbolPacks.3.member>TODO</Individualist.symbolPacks.3.member>
+  <Individualist.symbolPacks.3.member>自治者</Individualist.symbolPacks.3.member>
   <!-- EN: autonomy -->
-  <Individualist.symbolPacks.3.theme>TODO</Individualist.symbolPacks.3.theme>
+  <Individualist.symbolPacks.3.theme>自治</Individualist.symbolPacks.3.theme>
   
 </LanguageData>
