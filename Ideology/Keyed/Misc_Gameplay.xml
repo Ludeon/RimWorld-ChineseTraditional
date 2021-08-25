@@ -1,8 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: Choose your faction's ideoligion -->
-  <ChooseIdeoligion>TODO</ChooseIdeoligion>
+  <!-- EN: Customize ideoligion -->
+  <CustomizeIdeoligion>TODO</CustomizeIdeoligion>
+  <!-- EN: Choose your ideoligion -->
+  <ChooseYourIdeoligion>TODO</ChooseYourIdeoligion>
+  <!-- EN: Random -->
+  <Random>TODO</Random>
+  <!-- EN: A random structure will be used for your ideoligion. -->
+  <RandomStructureTip>TODO</RandomStructureTip>
+  <!-- EN: A random style will be used for your ideoligion. -->
+  <RandomStyleTip>TODO</RandomStyleTip>
+  <!-- EN: Customize -->
+  <Customize>TODO</Customize>
+  <!-- EN: Play classic -->
+  <PlayClassic>TODO</PlayClassic>
+  <!-- EN: Create fluid... -->
+  <CreateFluid>TODO</CreateFluid>
+  <!-- EN: Load saved -->
+  <LoadSaved>TODO</LoadSaved>
+  <!-- EN: Structure -->
+  <Structure>TODO</Structure>
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <ChooseYourIdeoligionDesc>TODO</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>TODO</CreateCustom>
   <!-- EN: Create new -->
@@ -105,13 +125,22 @@
   <PreceptName>戒律名</PreceptName>
   <!-- EN: precept name -->
   <PreceptNameLower>戒律名</PreceptNameLower>
-  <!-- EN: Changing -->
+  <!-- EN: Changing {0} -->
   <Changing>TODO</Changing>
   <!-- EN: structures -->
   <StructuresLower>TODO</StructuresLower>
   <!-- EN: memes -->
   <MemesLower>模因</MemesLower>
-  
+  <!-- EN: Development points -->
+  <Reward_DevelopmentPointsLabel>TODO</Reward_DevelopmentPointsLabel>
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <Reward_DevelopmentPoints>TODO</Reward_DevelopmentPoints>
+  <!-- EN: Current points -->
+  <CurrentDevelopmentPoints>TODO</CurrentDevelopmentPoints>
+  <!-- EN: Points needed to reform -->
+  <ReformDevelopmentPoints>TODO</ReformDevelopmentPoints>
+  <!-- EN: quest -->
+  <QuestLower>TODO</QuestLower>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>TODO</RitualTargetGraveInfo>
@@ -176,6 +205,11 @@
   <RitualOutcomeExtraDesc_SkylanternWanderers>TODO</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>TODO</RitualOutcomeExtraDesc_Execution>
+  
+  <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>TODO</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>TODO</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <!-- EN: Additional reward -->
   <RitualAttachedReward>額外獎賞</RitualAttachedReward>
@@ -238,6 +272,10 @@
   <RitualOutcomeCompTip_RitualTargetDefsPart1>TODO</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>TODO</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <!-- EN: Development points -->
+  <RitualDevelopmentPoints>TODO</RitualDevelopmentPoints>
+  <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
+  <RitualDevelopmentPointsTip>TODO</RitualDevelopmentPointsTip>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>給奴隸使用</ForSlaveUse>
@@ -281,6 +319,8 @@
   <RoleExpectationOffset>TODO</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
   <RoleRaisedExpectation>TODO</RoleRaisedExpectation>
+  <!-- EN: The {0} will have higher expectations in {1}. -->
+  <RoleRaisedExpectationGracePeriod>TODO</RoleRaisedExpectationGracePeriod>
   <!-- EN: Led by {0} -->
   <IdeoLeaderDifferentIdeoThoughtLabel>TODO</IdeoLeaderDifferentIdeoThoughtLabel>
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
@@ -351,8 +391,6 @@
   <WorshippedTerminalRaidIncoming>TODO</WorshippedTerminalRaidIncoming>
 
   <!-- Relic hunt -->
-  <!-- EN: First, you need to find the {0}. Watch for opportunities to gather information about it. -->
-  <RelicHuntFindRelicSite>TODO</RelicHuntFindRelicSite>
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
   <RelicHuntFoundRelicSite>TODO</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
@@ -458,6 +496,8 @@
   <CurrentlyAffectedBy>TODO</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
   <NotEnoughConnectionStrengthForSingleDryad>TODO</NotEnoughConnectionStrengthForSingleDryad>
+  <!-- EN: Cannot assign allowed area -->
+  <CannotAssignAllowedAreaToDryad>TODO</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
@@ -492,7 +532,7 @@
   <AssignColonists>TODO</AssignColonists>
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>TODO</RemoveNewIdeoligion>
-  <!-- EN: Make this your primary ideologion -->
+  <!-- EN: Make this your primary ideoligion -->
   <MakeIdeoligionPrimary>TODO</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
@@ -552,7 +592,7 @@
   <BiosculpterNoPowerEjectedMessage>TODO</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>TODO</BiosculpterHealCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured. -->
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>TODO</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>TODO</BiosculpterAgeReversalCompletedMessage>
@@ -560,5 +600,11 @@
   <BiosculpterPleasureCompletedMessage>TODO</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>TODO</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: These conditions will be healed -->
+  <HealingCycleWillHeal>TODO</HealingCycleWillHeal>
+  <!-- EN: One of these conditions will be healed -->
+  <HealingCycleOneWillHeal>TODO</HealingCycleOneWillHeal>
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>TODO</MissingRequiredResearch>
 
 </LanguageData>
