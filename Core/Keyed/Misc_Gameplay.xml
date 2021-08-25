@@ -103,15 +103,19 @@
   <!-- EN: Execute -->
   <Execute>TODO</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>TODO</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>TODO</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>TODO</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{1}的{0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>此操作將讓{PAWN_nameDef}失去{PAWN_possessive} {TITLE}頭銜。放棄頭銜不會獲得任何補償。\n\n這將會產生以下影響:\n\n{EFFECTS}</RenounceTitleDescription>
-  <!-- EN: {PAWN_possessive} will lose these permissions -->
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_possessive}將失去這些權限</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>未知</UnknownLower>
   <!-- EN: On -->
@@ -410,6 +414,8 @@
   <Location>位置</Location>
   <!-- EN: animals -->
   <AnimalsLower>動物</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>TODO</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -1141,6 +1147,8 @@
   <Installed>已安裝</Installed>
   <!-- EN: Not installed -->
   <NotInstalled>未安裝</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>TODO</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1474,7 +1482,7 @@
   <RitualTakesPlaceAt>位於</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>任意{0}</RitualTargetThingDefsInfo>
-  <!-- EN: Attending -->
+  <!-- EN: Attending {0} -->
   <LordReportAttending>出席</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0}已經被取消了。</RitualCalledOff>
@@ -1545,13 +1553,13 @@
   <DateRitualNoObligation>{0}是一個特定日期的儀式。你可以在{1}之後舉行，於{2}。</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>替換成</PreceptReplaceWith>
+  <PreceptReplaceWith>TODO</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>{IDEOS}的儀式席位</RitualSeatOf>
+  <RitualSeatOf>TODO</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>預期品質</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>起始品質</StartingQuality>
+  <StartingQuality>TODO</StartingQuality>
   <!-- EN: Expected duration -->
   <ExpectedRitualDuration>預計持續</ExpectedRitualDuration>
   
@@ -1565,7 +1573,7 @@
   <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}的期望</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>這些中的任何一個</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>取代{PAWN_labelShort}</RitualRoleReplaces>
 
@@ -1584,5 +1592,10 @@
   <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>{0}最大</MaxValue>
+
+  <!-- EN: {0} of -->
+  <ThingOf>TODO</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>TODO</ThingOfSource>
 
 </LanguageData>

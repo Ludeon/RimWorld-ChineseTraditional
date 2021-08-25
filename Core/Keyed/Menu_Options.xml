@@ -86,6 +86,10 @@
   <ModSettings>Mod設定</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>永久禁用開發者模式</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>TODO</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>TODO</TextureCompression_Tooltip>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -106,6 +110,8 @@
   <ResetAndRestart>你的設定值已經重置，遊戲將自動重啟。</ResetAndRestart>
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>你的所有設置都將重置為預設設置，並且遊戲將重新啟動。所有未保存的進度將遺失！\n\n是否繼續？</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <ChangedTextureCompressionRestart>TODO</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->

@@ -176,10 +176,6 @@
   <EscapeShipFound>你已經抵達Charlon Whitestone提供的星艦藏匿點座標。\n\n星艦反應爐仍然處於休眠模式，所以現在還無法飛行。你可以用電腦核心啟動它。\n\nCharlon Whitestone警告你，啟動過程大約需要15天，而且從很遠的距離就能看到能量信號。這種能量信號代表這艘星艦具有飛行能力，這將會引來一群襲擊者、致命的機械族。\n\n你將會受到前所未有的襲擊。請確保好你的防衛工事。</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
   <EscapeShipFoundPeaceful>你已經抵達Charlon Whitestone提供的星艦藏匿點座標。\n\n星艦反應爐仍然處於休眠模式，所以現在還無法飛行。你可以用電腦核心啟動它。\n\nCharlon Whitestone警告你，啟動過程大約需要15天。</EscapeShipFoundPeaceful>
-  <!-- EN: Ship destroyed -->
-  <EscapeShipLostLabel>星艦已被摧毀</EscapeShipLostLabel>
-  <!-- EN: (*Name)Charlon Whitestone(/Name) sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>Charlon Whitestone向你發送一條訊息。\n\n他判斷你已經失去星艦的控制權。為了阻止星艦落入敵人之手，他已經強制啟動星艦的自毀模式。星艦現在已經是一堆廢鐵。\n\n你得找其他方法離開這顆星球了。</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -246,5 +242,9 @@
   <LetterLabelQuestAskerDied>任務失敗</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
   <LetterQuestAskerDied>因為{SUBJECT_definite}已死亡，所以任務無法完成。</LetterQuestAskerDied>
+
+  <!-- UNUSED -->
+  <EscapeShipLostLabel>星艦已被摧毀</EscapeShipLostLabel>
+  <EscapeShipLost>Charlon Whitestone向你發送一條訊息。\n\n他判斷你已經失去星艦的控制權。為了阻止星艦落入敵人之手，他已經強制啟動星艦的自毀模式。星艦現在已經是一堆廢鐵。\n\n你得找其他方法離開這顆星球了。</EscapeShipLost>
 
 </LanguageData>

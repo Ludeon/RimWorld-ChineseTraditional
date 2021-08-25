@@ -278,6 +278,11 @@
   <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
   <AlertAnimalPenNotEnclosedDesc>動物飼養圈目前沒有圍住。\n\n使用柵欄、路障、柵欄門、牆或門將飼養圈圍起來，以防止動物四處遊蕩。\n\n如果你的飼養圈尚未圍起來，馴獸師依然可以將遊蕩的動物帶回家 - 但當動物再次遊蕩時，就必須重蹈覆轍之前的行為。</AlertAnimalPenNotEnclosedDesc>
 
+  <!-- EN: {ANIMAL_labelShort} in animal pen -->
+  <AlertPredatorInAnimalPen>TODO</AlertPredatorInAnimalPen>
+  <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
+  <AlertPredatorInAnimalPenDesc>TODO</AlertPredatorInAnimalPenDesc>
+
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>動物遊蕩</AlertAnimalIsRoaming>
   <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
@@ -299,6 +304,11 @@
   <FactionWillBecomeHostileIfNotLeavingWithin>派系將轉變為敵對</FactionWillBecomeHostileIfNotLeavingWithin>
   <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>如果你在他們的定居點或哨站停留的時間較長，這些派系會變為敵對：\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+
+  <!-- EN: {0} trees dying -->
+  <AlertMinifiedTreeAboutToDie>TODO</AlertMinifiedTreeAboutToDie>
+  <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
+  <AlertMinifiedTreeAboutToDieDesc>TODO</AlertMinifiedTreeAboutToDieDesc>
 
   <!-- UNUSED -->
   <AlertSlaveRebellionMultipleLikelySlavesHeader>有{0}奴隸開始蠢蠢欲動。</AlertSlaveRebellionMultipleLikelySlavesHeader>
