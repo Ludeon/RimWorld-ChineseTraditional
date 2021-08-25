@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- EN: Need slave beds -->
@@ -42,7 +42,7 @@
 
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>殖民者期望 {0} 的建築</IdeoBuildingMissing>
-  <!-- EN: {1} requires that you have a {0} in your colony as long as {2} or higher.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingMissingDesc>只要你的殖民地有{2}或更高時，{1}需要你有{0}。{4}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingMissingDesc>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>為了維持{0}的威嚴，這房間必須滿足要求</IdeoBuildingRoomRequirementsDesc>
@@ -134,4 +134,11 @@
   <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
   <AlertCasketOpeningDesc>即將開啟的休眠艙含有未知的威脅</AlertCasketOpeningDesc>
 
+  <!-- EN: Slave rebellion likely -->
+  <AlertSlaveRebellionLikely>TODO</AlertSlaveRebellionLikely>
+  <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
+  <AlertSlaveRebellionLikelyRebelliousCount>TODO</AlertSlaveRebellionLikelyRebelliousCount>
+  <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
+  <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
+  
 </LanguageData>

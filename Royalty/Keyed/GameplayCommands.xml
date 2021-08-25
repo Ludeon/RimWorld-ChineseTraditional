@@ -19,6 +19,8 @@
   <CommandCallRoyalAidDesc>使用特殊的榮譽特權申請軍事援助。\n\n每種類型的援助可以免費使用一次，之後你必須等待再次免費使用它。你可以更頻繁地使用援助，但這樣做會讓你失去很多榮譽值。</CommandCallRoyalAidDesc>
   <!-- EN: Guests will not use their aid permits. -->
   <CommandCallRoyalAidLodger>訪客將不會使用他們的支援。</CommandCallRoyalAidLodger>
+  <!-- EN: Slaves cannot use their permits. -->
+  <CommandCallRoyalAidSlave>TODO</CommandCallRoyalAidSlave>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>你與{FACTION_name}的派系關係充滿敵意。</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
@@ -77,5 +79,15 @@
   <ChooseRoyalPermit>選擇許可</ChooseRoyalPermit>
   <!-- EN: Open the permit selection screen and choose a new permit. -->
   <ChooseRoyalPermit_Desc>打開許可選擇窗並且選擇一個新的許可。</ChooseRoyalPermit_Desc>
-  
+
+  <!-- EN: Leave bestowing ceremony -->
+  <CommandLeaveBestowingCeremony>TODO</CommandLeaveBestowingCeremony>
+  <!-- EN: Stop participating in the bestowing ceremony. -->
+  <CommandLeaveBestowingCeremonyDesc>TODO</CommandLeaveBestowingCeremonyDesc>
+  <!-- EN: Cancel bestowing ceremony -->
+  <CommandCancelBestowingCeremony>TODO</CommandCancelBestowingCeremony>
+  <!-- EN: End the bestowing ceremony immediately. The bestower will leave, but another opportunity to perform the ceremony will arise soon. -->
+  <CommandCancelBestowingCeremonyDesc>TODO</CommandCancelBestowingCeremonyDesc>
+  <!-- EN: Are you sure you want to cancel bestowing ceremony? -->
+  <CommandCancelBestowingCeremonyConfirm>TODO</CommandCancelBestowingCeremonyConfirm>
 </LanguageData>
