@@ -3,45 +3,45 @@
 
   <!-- Character -->
   <!-- EN: Overrides some precepts related to -->
-  <OverridesSomePrecepts>TODO</OverridesSomePrecepts>
+  <OverridesSomePrecepts>暫時忽視戒律</OverridesSomePrecepts>
   <!-- EN: Agrees with memes -->
-  <AgreeableMemes>TODO</AgreeableMemes>
+  <AgreeableMemes>認同的模因</AgreeableMemes>
   <!-- EN: Conflicts with memes -->
-  <DisagreeableMemes>TODO</DisagreeableMemes>
+  <DisagreeableMemes>抗拒的模因</DisagreeableMemes>
 
   <!-- ITab titles -->
   <!-- EN: Slave -->
-  <TabSlave>TODO</TabSlave>
+  <TabSlave>奴隸</TabSlave>
   <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
-  <SlaveReleaseRelationGainsDesc>TODO</SlaveReleaseRelationGainsDesc>
+  <SlaveReleaseRelationGainsDesc>如果你釋放派系的奴隸，你將獲得該派系的好感度。這會受到奴隸的健康、精神狀況影響。</SlaveReleaseRelationGainsDesc>
   <!-- EN: Relations gain on release -->
-  <SlaveReleasePotentialRelationGains>TODO</SlaveReleasePotentialRelationGains>
+  <SlaveReleasePotentialRelationGains>釋放改善關係</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
-  <SlaveRebellionMTBDays>TODO</SlaveRebellionMTBDays>
+  <SlaveRebellionMTBDays>叛變間隔</SlaveRebellionMTBDays>
   <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>TODO</SlaveRebellionMTBDaysDescription>
+  <SlaveRebellionMTBDaysDescription>奴隸再次叛變之間清醒的平均天數。這會受到壓制力、心情、健康、周圍的武器、地圖上的奴隸數量、和地圖上殖民者數量的影響。</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
-  <Suppression>TODO</Suppression>
+  <Suppression>壓制力</Suppression>
   <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
-  <SuppressionDesc>TODO</SuppressionDesc>
+  <SuppressionDesc>壓制力是透過恐懼對於奴隸心理上的影響和控制。奴隸們容易在壓制程度較低的時候發起叛變。</SuppressionDesc>
   <!-- EN: Suppression fall rate -->
-  <SuppressionFallRate>TODO</SuppressionFallRate>
+  <SuppressionFallRate>壓制力下降率</SuppressionFallRate>
   <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
-  <SuppressionFallRateDesc>TODO</SuppressionFallRateDesc>
+  <SuppressionFallRateDesc>視乎現有的程度，壓制力會隨時間下降︰\n\n- {1}+ 壓制力︰ {0}每天\n- {4}-{3} 壓制力︰ {2}每天\n- {6}- 壓制力︰ {5}每天\n\n服飾和威嚇也能影響壓制力下降率。此奴隸的下降率是</SuppressionFallRateDesc>
   <!-- EN: Cannot emancipate -->
-  <CannotEmancipate>TODO</CannotEmancipate>
+  <CannotEmancipate>不能解放</CannotEmancipate>
   <!-- EN: Cannot imprison -->
-  <CannotImprison>TODO</CannotImprison>
+  <CannotImprison>不能囚禁</CannotImprison>
   <!-- EN: Current suppression -->
-  <CurrentSuppression>TODO</CurrentSuppression>
+  <CurrentSuppression>目前的壓制力</CurrentSuppression>
   <!-- EN: Terror -->
-  <Terror>TODO</Terror>
+  <Terror>威嚇</Terror>
   <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
-  <TerrorDescription>TODO</TerrorDescription>
+  <TerrorDescription>威嚇是維持奴隸壓制力的手段。它會在奴隸靠近可怕的東西時提升，例如恐怖雕像。一名奴隸只能同時被三個可怕東西影響。\n\n當威嚇夠高，壓制力下降得較慢</TerrorDescription>
   <!-- EN: Recent terrifying observations -->
-  <TerrorCurrentThoughts>TODO</TerrorCurrentThoughts>
+  <TerrorCurrentThoughts>最近的恐怖事物</TerrorCurrentThoughts>
 
   <!-- EN: Base interval -->
   <SuppressionBaseInterval>TODO</SuppressionBaseInterval>
