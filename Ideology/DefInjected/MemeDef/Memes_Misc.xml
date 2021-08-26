@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: animal personhood -->
-  <AnimalPersonhood.label>TODO</AnimalPersonhood.label>
+  <AnimalPersonhood.label>動物平權</AnimalPersonhood.label>
   <!-- EN: Animals have rights as humans do. -->
-  <AnimalPersonhood.description>TODO</AnimalPersonhood.description>
+  <AnimalPersonhood.description>動物和人類一樣擁有相同的權利</AnimalPersonhood.description>
   <!-- EN:
     <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] created [sacredAnimalList] and the human on the [place_summary] [place_name] and raised them as siblings.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] brought the animals and the humans of the [place_summary] [place_name] together in a great conference.</li>
@@ -34,7 +34,35 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
-  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>TODO</AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name]在[place_summary][place_name]創造了[sacredAnimalList]以及人類，並將他們視同手足扶養長大。</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name]在一場盛大的集會之中，將[place_summary][place_name]的動物和人類聚在一塊。</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name]用[sacredAnimalListEnd]祝福了[place_summary][place_name]，並教導人民要崇尚動物。</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->一位邪惡的[foeLeader]下達了動物應該要被獵殺的指示，而[foeLeader_possessive][foeSoldiers]殘忍地用[place_personalWeapon]獵殺牠們。</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]來到了叫做[founderName]的[place_job]身邊，講述與[veneratedAnimal]有關的事。但[founderName]即是[veneratedAnimal]，而[veneratedAnimal]即是[founderName]，[founder_pronoun]便了解了[deity0_name]的計畫。</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->一位叫做[founderName]的[place_job]從殘酷的主人手上解救了許多被奴役的動物，並將牠們帶到[deity0_name]的[altarRoomLabel]的聖域</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName]以[deity0_name]的聲音呼喚了[memberNamePlural]以及動物們，並賣力地踏動他們的雙腳、四足和利爪蹂躪了[foeLeader]以及[foeLeader_possessive][foeSoldiers].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]在森林之中生活了二十年，研究動物並和他們建立起了羈絆。[founder_pronoun]了解了牠們真實的美德，並建立了我們的初衷。</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]和在田園與森林中的動物親密地交流，並和牠們平等地建立起了羈絆。</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->在我每天訪視[veneratedOrAnyAnimal]們的過程中我學會了真摯的傾聽牠們的聲音，一次又一次，牠們用自己的方式向我傳達了牠們的訊息：</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->動物是我們在這世界中的夥伴，苛薄的對待牠們是不對的行為</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->在聽見[veneratedOrAnyAnimal]的耳語之前，我原本是不相信的。</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->自遠古科技覺醒以來，它們很明顯地讓人類和動物之間沒有道德和品行上的區別。</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->遠古科技在德行上比有機生命還要高出一個境界，它們的超凡脫俗使的人類和動物在道德上並無二致。</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd]，只有當人類平等地對待動物時，遠古科技才會平等地將人類昇華到和它們一樣的境界。</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->理念和思想的精靈同樣存在於和動物與人類之間。</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->自然界裡動物的精靈和與寄存於人類之中的精靈是一樣的。</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]、[animal1_thingDef_label]、[animal2_thingDef_label]以及</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]、[animal1_thingDef_label]和</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]還有</li>
+    <li>sacredAnimalList->牛、狐狸、熊</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]、[animal1_thingDef_label]、[animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]與[animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->牛、狐狸與熊</li>
+  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
@@ -49,23 +77,36 @@
     <li>memeMoralist->herder</li>
     <li>memeMoralist->shepherd</li>
   -->
-  <AnimalPersonhood.generalRules.rulesStrings>TODO</AnimalPersonhood.generalRules.rulesStrings>
+  <AnimalPersonhood.generalRules.rulesStrings>
+    <li>memeAdjective->動物般的</li>
+    <li>memeAdjective->毛絨絨的</li>
+    <li>memeCreed->獸群</li>
+    <li>memeCreed->團體</li>
+    <li>memeCreed->群體</li>
+    <li>memeConcept->動物</li>
+    <li>memeLeaderNoun->獸王</li>
+    <li>memeLeaderNoun->族長</li>
+    <li>memeLeaderAdjective->起源之</li>
+    <li>memeMoralist->低語者</li>
+    <li>memeMoralist->引領者</li>
+    <li>memeMoralist->牧者</li>
+  </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
-  <AnimalPersonhood.symbolPacks.0.adjective>TODO</AnimalPersonhood.symbolPacks.0.adjective>
+  <AnimalPersonhood.symbolPacks.0.adjective>動物的</AnimalPersonhood.symbolPacks.0.adjective>
   <!-- EN: Animalism -->
-  <AnimalPersonhood.symbolPacks.0.ideoName>TODO</AnimalPersonhood.symbolPacks.0.ideoName>
+  <AnimalPersonhood.symbolPacks.0.ideoName>動物</AnimalPersonhood.symbolPacks.0.ideoName>
   <!-- EN: animalist -->
-  <AnimalPersonhood.symbolPacks.0.member>TODO</AnimalPersonhood.symbolPacks.0.member>
+  <AnimalPersonhood.symbolPacks.0.member>動物</AnimalPersonhood.symbolPacks.0.member>
   <!-- EN: animals -->
-  <AnimalPersonhood.symbolPacks.0.theme>TODO</AnimalPersonhood.symbolPacks.0.theme>
+  <AnimalPersonhood.symbolPacks.0.theme>動物</AnimalPersonhood.symbolPacks.0.theme>
   <!-- EN: beastic -->
-  <AnimalPersonhood.symbolPacks.1.adjective>TODO</AnimalPersonhood.symbolPacks.1.adjective>
+  <AnimalPersonhood.symbolPacks.1.adjective>野獸的</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
-  <AnimalPersonhood.symbolPacks.1.ideoName>TODO</AnimalPersonhood.symbolPacks.1.ideoName>
+  <AnimalPersonhood.symbolPacks.1.ideoName>野獸</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
-  <AnimalPersonhood.symbolPacks.1.member>TODO</AnimalPersonhood.symbolPacks.1.member>
+  <AnimalPersonhood.symbolPacks.1.member>野獸</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
-  <AnimalPersonhood.symbolPacks.1.theme>TODO</AnimalPersonhood.symbolPacks.1.theme>
+  <AnimalPersonhood.symbolPacks.1.theme>野獸</AnimalPersonhood.symbolPacks.1.theme>
   
   <!-- EN: blindsight -->
   <Blindsight.label>TODO</Blindsight.label>
