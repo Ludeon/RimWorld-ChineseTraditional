@@ -108,21 +108,21 @@
   <!-- EN: Dryad caste not set -->
   <AlertGauranlenTreeWithoutDryadTypeLabel>樹精的種類未設置</AlertGauranlenTreeWithoutDryadTypeLabel>
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
-  <AlertGauranlenTreeWithoutDryadTypeDesc>一棵或多棵母樹沒有設置他們的樹精種類。\n\n選擇母樹並按下「{0}」按鈕以設置樹精種類。</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <AlertGauranlenTreeWithoutDryadTypeDesc>一棵或多棵高嵐樹沒有設置他們的樹精種類。\n\n選擇高嵐樹並按下「{0}」按鈕以設置樹精種類。</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>母樹連結者未被分配採收工作</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>高嵐樹連結者未被分配採收工作</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有母樹設置為需要修剪，但他們的連結者未被分配採收工作。\n\n你應該分配採收工作給以下的人</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有高嵐樹設置為需要修剪，但他們的連結者未被分配採收工作。\n\n你應該分配採收工作給以下的人</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>燃料節點將在{0}爆炸</AlertFuelNodeIgniting>
   <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
-  <AlertFuelNodeIgnitingDesc>一個燃料節點已經點燃！ 它很快就會熔化並爆炸。\n\n離開並準備好撲救或逃離火災。</AlertFuelNodeIgnitingDesc>
+  <AlertFuelNodeIgnitingDesc>一個燃料節點已經點燃！它很快就會熔化並爆炸。\n\n離開並準備好撲救或逃離火災。</AlertFuelNodeIgnitingDesc>
 
   <!-- EN: Insects arriving in {0} -->
   <AlertInfestationArriving>蟲災將在{0}到達</AlertInfestationArriving>
   <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
-  <AlertInfestationArrivingDesc>巨型昆蟲已經感應到您的活動，並從地下挖洞進行攻擊。 侵擾即將開始。</AlertInfestationArrivingDesc>
+  <AlertInfestationArrivingDesc>巨型昆蟲已經感應到您的活動，並從地下挖洞進行攻擊。侵擾即將開始。</AlertInfestationArrivingDesc>
 
   <!-- EN: {0_pawnsPlural} waking in {1} -->
   <AlertHostilesWakingUp>{0_pawnsPlural}將在{1}醒來</AlertHostilesWakingUp>
@@ -135,10 +135,10 @@
   <AlertCasketOpeningDesc>即將開啟的休眠艙含有未知的威脅</AlertCasketOpeningDesc>
 
   <!-- EN: Slave rebellion likely -->
-  <AlertSlaveRebellionLikely>TODO</AlertSlaveRebellionLikely>
+  <AlertSlaveRebellionLikely>奴隸叛變隱患</AlertSlaveRebellionLikely>
   <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
-  <AlertSlaveRebellionLikelyRebelliousCount>TODO</AlertSlaveRebellionLikelyRebelliousCount>
+  <AlertSlaveRebellionLikelyRebelliousCount>{REBELLIOUSCOUNT}名奴隸正密謀叛變</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
-  <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
+  <AlertSlaveRebellionLikelyMostRebellious>約每{COMBINEDTIME}可能會有一場奴隸叛變。留意，每名奴隸有著不同的叛變機率，所以他們之中任何一名叛變都有可能帶動其他人一起作反。\n\n{REBEL_labelShort}是最有可能叛變的奴隸，並可能會每{INDIVIDUALTIME}發動一場叛變。以下是影響他們叛變頻率的因素︰</AlertSlaveRebellionLikelyMostRebellious>
   
 </LanguageData>
