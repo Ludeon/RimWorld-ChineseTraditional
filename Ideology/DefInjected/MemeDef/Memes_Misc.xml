@@ -109,15 +109,15 @@
   <AnimalPersonhood.symbolPacks.1.theme>野獸</AnimalPersonhood.symbolPacks.1.theme>
   
   <!-- EN: blindsight -->
-  <Blindsight.label>TODO</Blindsight.label>
+  <Blindsight.label>盲視</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
-  <Blindsight.description>TODO</Blindsight.description>
+  <Blindsight.description>只有失明的人才能體悟到真理</Blindsight.description>
   <!-- EN:
     <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
     <li>intro(tag=meme_Blindsight)           ->The [deity0_type] [deity0_name] used a pathogen to strike the settlers of the [place_summary] [place_name] blind, forcing them to understand that sight is a barrier to divine knowledge.</li>
     <li>conflict(tag=meme_Blindsight)        ->A [foeLeader] demanded that all [memberNamePlural] watch [foeLeader_possessive] propaganda every day. Many blinded themselves in protest.</li>
-    <li>founderJoin(tag=meme_Blindsight)     ->A [place_job] named [founderName] lost [founder_possessive] sight when [founder_pronoun] saved a [memberName] from one of [foeLeader]'s [foeSoldiers]. It was only then that [founderName] could truly see the tyranny of the [foeLeader].</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->A [place_job] named [founderName] lost [founder_possessive] sight when [founder_pronoun] saved a  from one of [foeLeader]'s [foeSoldiers]. It was only then that [founderName] could truly see the tyranny of the [foeLeader].</li>
     <li>victory(tag=meme_Blindsight)         ->[founderName] went to the [place_powerCenter] and cut the [foeLeader]'s eyes out with a spoon in a surprise suicide attack. Only then could the [foeLeader] see the divinity of [deity0_name].</li>
     <li>setup(tag=meme_Blindsight)           ->[founderName] was a healer of the poor. Seeing so much daily suffering, [founder_pronoun] could take it no longer. [founder_pronoun] gouged [founder_possessive] eyes out with a blade, and found tranquility in blindness. [founder_pronoun] began to spread [founder_possessive] discovery to the sighted.</li>
     <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] visited a blind healer, and instead of teaching the man, found [founder_objective]self being taught, and came to understand that physical sight obscures true vision.</li>
@@ -132,7 +132,26 @@
     <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
-  <Blindsight.descriptionMaker.rules.rulesStrings>TODO</Blindsight.descriptionMaker.rules.rulesStrings>
+  <Blindsight.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name]想藉由虛空之塵來尋求永恆，然而祂一無所獲，於是[deity0_pronoun]將[deity0_possessive]的眼睛挖出，而宇宙在[deity0_possessive]的心靈中塑形而成。</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->一個雙目失明的乞丐向[deity0_objective]問到：「為何你要拋棄我？我甚至看不到你所創造的一切。」，而[deity0_name]如此回應：「吾之真理乃存於心，汝之視界乃闊非隘。」</li>
+    <li>intro(tag=meme_Blindsight)           ->[deity0_type][deity0_name]利用疫病攻擊[place_summary][place_name]的殖民者，導致他們雙眼失明，迫使他們了解視覺是獲得神聖知識的阻礙。</li>
+    <li>conflict(tag=meme_Blindsight)        ->一位[foeLeader]要求所有的[memberNamePlural]每天觀看[foeLeader_possessive]的宣傳活動，而許多人將自己的雙眼弄瞎以示抗議。</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->一位叫做[founderName]的[place_job]在[founder_pronoun]從一位[foeLeader]的[foeSoldiers]拯救[memberName]時，失去了[founder_possessive]的視覺，自那時起[founderName]才真正看清[foeLeader]的暴行</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName]在一次的自殺式突擊中衝向了[place_powerCenter]並用湯匙將[foeLeader]的雙眼挖了出來，從那一刻開始，[foeLeader]看見了[deity0_name]的神聖。</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName]是救治窮人的醫者，看見這麼多人窮困潦倒，[founder_pronoun]再也無法忍受這一切，[founder_pronoun]用利刃將[founder_possessive]挖出，在盲目之中找到了心靈的祥和，[founder_pronoun]開始將[founder_possessive]的發現傳授給那些視力正常的人。</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]拜訪了視盲的治療師，準備教導他，然而[founder_objective]發現自己才是受教的一方，並體悟到生理的視覺蒙蔽了真正的眼界。</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]雙眼失明並從盲目之中汲取智慧，[founder_pronoun]曾經一個人挖掉了整個家族所有人的眼睛，這樣他們就能和[founder_pronoun]一樣明白。</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->儘管我的腳步堅定，但每走一步我的內心卻是惴惴不安，或許我看過太多，我雙眼中的酸澀告訴我</li>
+    <li>lesson(tag=meme_Blindsight)              ->只有蒙蔽雙眼才能真正看清一切</li>
+    <li>lesson(tag=meme_Blindsight)              ->紛擾由眼睛而入，知識由內在而生</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->若我一直被周遭的景象干擾，我是永遠不可能悟得真理的。插入我眼中的刀刃將我解放了出來。</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->也只有當我將我追隨者的眼睛切下來，他們才會了解同樣的真理。</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->在遠古科技誕生之時，它們以超越肉體的感官來感知這個世界。</li>
+    <li>archistFact(tag=meme_Blindsight)     ->眼見不為憑，雙眼讓我們無法像遠古科技一樣認識這個宇宙。</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd]，一位盲人將會拾起[relic0_name]，由它的外型了解它的用意，並為全人類解放遠古科技蘊含的智慧。</li>
+    <li>animistFact(tag=meme_Blindsight)     ->認清這世界本質的方法，是透過心靈之眼去觀察。</li>
+  </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blind</li>
     <li>memeAdjective->sightless</li>
@@ -151,12 +170,29 @@
     <li>memeMoralist->gouger</li>
     <li>memeMoralist->blindfolder</li>
   -->
-  <Blindsight.generalRules.rulesStrings>TODO</Blindsight.generalRules.rulesStrings>
+  <Blindsight.generalRules.rulesStrings>
+    <li>memeAdjective->盲眼的</li>
+    <li>memeAdjective->視盲的</li>
+    <li>memeAdjective->空想的</li>
+    <li>memeAdjective->預視的</li>
+    <li>memeCreed->眼界</li>
+    <li>memeCreed->崇拜</li>
+    <li>memeHyphenPrefix->盲眼的</li>
+    <li>memeConcept->失明</li>
+    <li>memeConcept->眼界</li>
+    <li>memeConcept->視覺</li>
+    <li>memeConcept->感知</li>
+    <li>memeLeaderNoun->瞻望者</li>
+    <li>memeLeaderAdjective->盲目的</li>
+    <li>memeMoralist->先知</li>
+    <li>memeMoralist->鑿眼者</li>
+    <li>memeMoralist->隱目者</li>
+  </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
-  <Cannibal.label>TODO</Cannibal.label>
+  <Cannibal.label>食人族</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
-  <Cannibal.description>TODO</Cannibal.description>
+  <Cannibal.description>民以食人為天</Cannibal.description>
   <!-- EN:
     <li>creation(tag=meme_Cannibal)        ->[deity0_name] went to [deity0_possessive] brother and murdered him, and feasted upon his flesh, and in absorbing its power became first among the gods.</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->The [deity0_type] [deity0_name] ate the bodies of [deity0_possessive] enemies.</li>
@@ -176,7 +212,25 @@
     <li>animistBasis(tag=meme_Cannibal)    ->Spirits infuse all objects around us, and we can absorb these spirits by eating them. There are no spirits as powerful as the ones that inhabit humans.</li>
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
-  <Cannibal.descriptionMaker.rules.rulesStrings>TODO</Cannibal.descriptionMaker.rules.rulesStrings>
+  <Cannibal.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name]找到了[deity0_possessive]的兄弟並殺了祂，用祂的血肉飽餐了一頓，並吸收祂的力量成為最強的神。</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type][deity0_name]吃掉了[deity0_possessive]敵人的屍體</li>
+    <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]曾有名叫做[deity0_name]的人類。在[deity0_possessive]的父親死後，[deity0_name]吃掉了祂的遺體並變成了[deity0_type]。</li>
+    <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]，舉行[ritualName]的期間，[deity0_name]降臨在[altarRoomLabel]並在[memberNamePlural]的面前吃了人類的血肉。</li>
+    <li>conflict(tag=meme_Cannibal)        ->一位[foeLeader]向所有人公告食人是犯罪的行為，並派遣了[foeSoldiers]追緝[memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->一位叫做[founderName]的[place_job]遭到了[foeLeader]的[foeSoldiers]攻擊。[founderName]用[place_personalWeapon]殺死了[foeLeader_objective]食用了[foeLeader_possessive]的血肉，並獲得了[deity0_name]的加護。</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName]帶領著一群[memberNamePlural]攻進了[place_powerCenter]，殺死了[foeLeader]並吃了[foeLeader_possessive]的屍體，而[deity0_name]將[founderName]加冕為新的[foeLeader]。</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName]墜落在鳥不生蛋的星球上， 沒有食物而周圍都是死去的同伴，[founder_pronoun]用他們飽餐一頓，且變的更加強壯。</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->為了推崇他們的信仰，[founderName]要求信徒們每個禮拜齊聚一堂享用人肉。</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->只有透過豐盛的人肉饗宴我才能讓眾人明白這個事實：</li>
+    <li>lesson(tag=meme_Cannibal)              ->除非你把他們吃掉，否則你永遠也不會和某些人融為一體</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->每當我與新朋友分享敵人的遺體時，我一定會讓他們了解這個道理。</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->遠古科技的機械神藉由一次又一次的吞食它們的前輩，使它們自己不斷變得更強。</li>
+    <li>archistFact(tag=meme_Cannibal)     ->當遠古科技的意識擴張之時，它們必須藉由吞噬其他的機械來使它的根基能夠成長。</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]遠古科技將會透過吞食所有的人類，以完成它們成長的最後一個階段。</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->精靈融入了我們周圍所有的物體，而我們可以吃到它們來吸收這些精靈。沒有任何精靈和寄宿在人類身上的一樣強大。</li>
+    <li>animistFact(tag=meme_Cannibal)     ->我們可以透過食用他們的血肉，吸收精靈以及他人的力量</li>
+  </Cannibal.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->bloody</li>
     <li>memeCreed->eaters</li>
@@ -197,31 +251,50 @@
     <li>memeMoralist->first-eater</li>
     <li>memeMoralist->fleshknower</li>
   -->
-  <Cannibal.generalRules.rulesStrings>TODO</Cannibal.generalRules.rulesStrings>
+  <Cannibal.generalRules.rulesStrings>
+    <li>memeAdjective->噬血的</li>
+    <li>memeCreed->吞食</li>
+    <li>memeCreed->利齒</li>
+    <li>memeCreed->屠宰</li>
+    <li>memeCreed->獻祭</li>
+    <li>memeHyphenPrefix->血</li>
+    <li>memeConcept->血腥</li>
+    <li>memeConcept->肉體</li>
+    <li>memeConcept->殺戮</li>
+    <li>memeConcept->吞噬</li>
+    <li>memeConcept->血肉</li>
+    <li>memeLeaderNoun->吞噬者</li>
+    <li>memeLeaderNoun->大廚</li>
+    <li>memeLeaderNoun->飲血者</li>
+    <li>memeLeaderNoun->尖牙</li>
+    <li>memeLeaderNoun->裂肉者</li>
+    <li>memeMoralist->嘗鮮者</li>
+    <li>memeMoralist->食隨者</li>
+  </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.adjective>TODO</Cannibal.symbolPacks.0.adjective>
+  <Cannibal.symbolPacks.0.adjective>食人的</Cannibal.symbolPacks.0.adjective>
   <!-- EN: Cannibalism -->
-  <Cannibal.symbolPacks.0.ideoName>TODO</Cannibal.symbolPacks.0.ideoName>
+  <Cannibal.symbolPacks.0.ideoName>食人</Cannibal.symbolPacks.0.ideoName>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.member>TODO</Cannibal.symbolPacks.0.member>
+  <Cannibal.symbolPacks.0.member>食人族</Cannibal.symbolPacks.0.member>
   <!-- EN: cannibalism -->
-  <Cannibal.symbolPacks.0.theme>TODO</Cannibal.symbolPacks.0.theme>
+  <Cannibal.symbolPacks.0.theme>食人</Cannibal.symbolPacks.0.theme>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.adjective>TODO</Cannibal.symbolPacks.1.adjective>
+  <Cannibal.symbolPacks.1.adjective>吞噬的</Cannibal.symbolPacks.1.adjective>
   <!-- EN: Androphagy -->
-  <Cannibal.symbolPacks.1.ideoName>TODO</Cannibal.symbolPacks.1.ideoName>
+  <Cannibal.symbolPacks.1.ideoName>吞噬</Cannibal.symbolPacks.1.ideoName>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.member>TODO</Cannibal.symbolPacks.1.member>
+  <Cannibal.symbolPacks.1.member>吞噬者</Cannibal.symbolPacks.1.member>
   <!-- EN: androphagy -->
-  <Cannibal.symbolPacks.1.theme>TODO</Cannibal.symbolPacks.1.theme>
+  <Cannibal.symbolPacks.1.theme>吞噬</Cannibal.symbolPacks.1.theme>
   <!-- EN: manporky -->
-  <Cannibal.symbolPacks.2.adjective>TODO</Cannibal.symbolPacks.2.adjective>
+  <Cannibal.symbolPacks.2.adjective>人肉的</Cannibal.symbolPacks.2.adjective>
   <!-- EN: Manporkism -->
-  <Cannibal.symbolPacks.2.ideoName>TODO</Cannibal.symbolPacks.2.ideoName>
+  <Cannibal.symbolPacks.2.ideoName>人彘</Cannibal.symbolPacks.2.ideoName>
   <!-- EN: manporkist -->
-  <Cannibal.symbolPacks.2.member>TODO</Cannibal.symbolPacks.2.member>
+  <Cannibal.symbolPacks.2.member>食人者</Cannibal.symbolPacks.2.member>
   <!-- EN: manpork -->
-  <Cannibal.symbolPacks.2.theme>TODO</Cannibal.symbolPacks.2.theme>
+  <Cannibal.symbolPacks.2.theme>人肉</Cannibal.symbolPacks.2.theme>
   
   <!-- EN: darkness -->
   <Darkness.label>TODO</Darkness.label>
