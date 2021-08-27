@@ -66,16 +66,16 @@
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
-  <LetterSpeechConvertedListeners>{PAWN_pronoun}的演講把以下的人改為信奉{IDEO}。</LetterSpeechConvertedListeners>
+  <LetterSpeechConvertedListeners>{PAWN_pronoun}的演講成功把以下的人皈依{IDEO}。</LetterSpeechConvertedListeners>
 
   <!-- EN: {0} rituals activated -->
   <LetterTitleObligationsActivated>{0}儀式可用了。</LetterTitleObligationsActivated>
   <!-- EN: {0} rituals deactivated -->
   <LetterTitleObligationsDeactivated>{0}儀式不可用了。</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
-  <LetterTitleObligationsDeactivatedTooFewBelievers>你的派系少於{1}個{IDEO_memberNamePlural}。因此，{IDEO_memberNamePlural}不再要求舉行{IDEO}儀式直至你的派系中至少有{1}個他們。</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <LetterTitleObligationsDeactivatedTooFewBelievers>你的派系少於{1}位{IDEO_memberNamePlural}。因此，{IDEO_memberNamePlural}不再要求舉行{IDEO}儀式直至你的派系中至少有{1}個他們。</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedEnoughBelievers>由於你的派系現在有 {1} 個{IDEO_memberNamePlural}，他們會要求舉行{IDEO}儀式。</LetterTitleObligationsActivatedEnoughBelievers>
+  <LetterTitleObligationsActivatedEnoughBelievers>由於你的派系現在有 {1} 位{IDEO_memberNamePlural}，他們會要求舉行{IDEO}儀式。</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
   <LetterTitleObligationsActivatedIdeoBecameMajor>由於現在{IDEO}是你的派系的主要理念, {IDEO_memberNamePlural}會要求舉行{IDEO}儀式。</LetterTitleObligationsActivatedIdeoBecameMajor>
 
@@ -106,11 +106,11 @@
 
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
-  <LetterIdeoChangeConverted>{PAWN_pronoun}決定{PAWN_possessive}不再信奉{OLDIDEO_name}。\n\n{PAWN_pronoun}現在信奉{NEWIDEO_name}。</LetterIdeoChangeConverted>
+  <LetterIdeoChangeConverted>{PAWN_pronoun}決定不再信奉{OLDIDEO_name}的{PAWN_possessive}。\n\n{PAWN_pronoun}現在信奉{NEWIDEO_name}。</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
-  <LetterIdeoChangeNotConverted>{PAWN_nameDef}對於{PAWN_possessive}信奉{OLDIDEO_name}的感悟已降至{NEWCERTAINTY}。</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangeNotConverted>{PAWN_nameDef}對於信奉{OLDIDEO_name}的{PAWN_possessive}的感悟已降至{NEWCERTAINTY}。</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>為適應{PAWN_possessive}的信仰, {PAWN_nameDef}現在正於{PAWN_possessive}房間閉門不出。</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>為適應對{PAWN_possessive}的信仰, {PAWN_nameDef}現在正於{PAWN_possessive}房間閉門不出。</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
   <LetterIdeoChangedSadWander>{PAWN_nameDef}因為與{PAWN_possessive}的信仰衝突而恍惚遊走</LetterIdeoChangedSadWander>
 
@@ -130,7 +130,7 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>整容需求</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>{PAWN_nameDef}希望改變{PAWN_possessive}的樣貌，因為這不再符合{PAWN_pronoun}的信仰.\n\n{PAWN_pronoun}將自動進入有空的塑體站並挑選外貌。如果你希望調整{PAWN_possessive}的外貌，選擇{PAWN_objective}並右鍵點擊塑體站。</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef}希望改變{PAWN_possessive}的樣貌，因為這不再符合{PAWN_pronoun}的信仰.\n\n{PAWN_pronoun}將自動進入有空的梳妝台並挑選外貌。如果你希望調整{PAWN_possessive}的外貌，選擇{PAWN_objective}並右鍵點擊梳妝台。</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
