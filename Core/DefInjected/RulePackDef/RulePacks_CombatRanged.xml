@@ -127,11 +127,11 @@
     <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets][destroyed_suffix]。</li>
     <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][expertly][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]。</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]而[destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]。</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]而[destroyed_present]了[RECIPIENT_definite]的[destroyed_targets]。</li>
-    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]了。</li>
-    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[expert][WEAPON_projectile_label][destroyed_past]了。</li>
-    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets] was [destroyed_past]了[destroyed_suffix]被[INITIATOR_definite]的[WEAPON_projectile_label]。</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]而[destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]而[destroyed_present][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]。</li>
+    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[expert][WEAPON_projectile_label][destroyed_past]。</li>
+    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][destroyed_suffix]。</li>
     <!-- various damaged options; don't show if something was destroyed -->
     <li>r_logentry(recipient_partDestroyed_count==0)->[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past]了[RECIPIENT_definite]的[damaged_targets]。</li>
     <li>r_logentry(recipient_partDestroyed_count==0)->[INITIATOR_definite][expertly][WEAPON_projectile_label][damaged_past]了[RECIPIENT_definite]的[damaged_targets]。</li>
@@ -147,7 +147,7 @@
     <li>r_logentry(p=0.2)->[INITIATOR_definite]的[WEAPON_projectile_label]打中了[RECIPIENT_definite]。</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]用[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]而打中了[RECIPIENT_definite]。</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]而打中了[RECIPIENT_definite]。</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]原本要攻擊[ORIGINALTARGET_definite]卻打中了[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]原本要攻擊[ORIGINALTARGET_definite]卻打中[RECIPIENT_definite]。</li>
     <!-- fallback, also a little variety -->
     <li>WEAPON_projectile_label(p=0.05)->攻擊</li>
     <li>destroyed_past->打爆</li>
@@ -165,11 +165,11 @@
     <li>destroyed_present->射掉</li>
     <li>destroyed_present->射壞</li>
     <li>destroyed_suffix->成碎片</li>
-    <li>destroyed_suffix->得稀八爛</li>
-    <li>destroyed_suffix->得面目全非</li>
+    <li>destroyed_suffix->成稀八爛</li>
+    <li>destroyed_suffix->成面目全非</li>
     <li>destroyed_suffix->成渣</li>
-    <li>destroyed_suffix(p=0.5)->得他老木都認不出來</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->得血肉糢糊</li>
+    <li>destroyed_suffix(p=0.5)->成碎塊</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->成血肉糢糊</li>
     <li>damaged_past->攻擊</li>
     <li>damaged_past->攻擊</li>
     <li>damaged_past->攻擊</li>
