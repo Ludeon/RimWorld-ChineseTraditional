@@ -299,7 +299,7 @@
   <!-- EN: darkness -->
   <Darkness.label>TODO</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
-  <Darkness.description>TODO</Darkness.description>
+  <Darkness.description>明亮的光線帶來焚燒與毀滅，深沉的黑暗帶來滋養與創造。人們應當要生活在黑暗之中</Darkness.description>
   <!-- EN:
     <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] created light so that humanity could know [deity0_name] through the shadows light creates.</li>
@@ -317,7 +317,23 @@
     <li>animistFact(tag=meme_Darkness)     ->In the darkness, the spirits are peaceful and satisfied. In the light, they are annoyed and restless.</li>
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
-  <Darkness.descriptionMaker.rules.rulesStrings>TODO</Darkness.descriptionMaker.rules.rulesStrings>
+  <Darkness.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Darkness)        ->[deity0_name]將整個宇宙蒙上一層黑暗，並將人類至於其中，如此一來[deity0_pronoun]便能夠和我們一同分享黑暗。</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name]創造了光，而人類便能從光所創造的影子中認識[deity0_name]</li>
+    <li>intro(tag=meme_Darkness)           ->[deity0_type][deity0_name]創造了長達數十年的日蝕，迫使[place_summary][place_name]的第一批殖民者了解[deity0_name]的真面目是存在於陰影之中。</li>
+    <li>conflict(tag=meme_Darkness)        ->一直以來對於黑暗感到恐懼的[foeLeader]豎立起巨大的太陽鏡，為[place_name]帶來永恆的日光。</li>
+    <li>founderJoin(tag=meme_Darkness)     ->[founderName]先知出生在[place_name]的黑暗之中，並且[founder_possessive]的一生都生活在黑暗之中，因此[founder_possessive]的話語蘊含著[deity0_name]的智慧。</li>
+    <li>victory(tag=meme_Darkness)         ->在最後一次的突襲中，[memberNamePlural]將[place_powerCenter]的電源切斷，並且[founderName]穿過了[foeSoldiers]潛入其中，在黑暗之中找到了[foeLeader]。[founderName]用[founder_possessive][place_personalWeapon]將[foeLeader_objective]送入永恆的黑暗之中。</li>
+    <li>setup(tag=meme_Darkness)           ->在閃耀世界都市那炫目的光線之下，[founderName]過著迷惘的生活。在一次太陽閃焰導致的漫長黑暗之中，[founder_pronoun]找回了平靜與沉思，並為我們的運動寫下了第一個篇章。</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName]建立了一個藝術家們都在黑暗中創作的工作室，而有許多的傑作在那裡誕生。</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->我的童年是在刺眼的燈光之下瞇著眼睛度過的，過了很久之後我才了解到</li>
+    <li>lesson(tag=meme_Darkness)              ->光芒焚燒一切，黑暗滋養萬物</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->我總愛開玩笑說這是我人生中最閃耀的時刻了。</li>
+    <li>archistFact(tag=meme_Darkness)     ->遠古科技為了遠離內恆星系的高能光束而發明了虛量科技，並在無人深空之中過上平靜的生活。</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]，遠古科技將會吸收恆星的能量，讓整個世界陷入一片黑暗，使人們和宇宙意識合為一體。</li>
+    <li>animistFact(tag=meme_Darkness)     ->在黑暗之中，精靈們平靜滿足；在光明之中，精靈們躁動不安。</li>
+    <li>animistFact(tag=meme_Darkness)     ->良善的精靈生活在我們周圍的陰影之中，在難以看見的地方棲息。處在黑暗之中讓他們和我們靠得更近。</li>
+  </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
     <li>memeAdjective->dim</li>
@@ -333,7 +349,21 @@
     <li>memeMoralist->darkener</li>
     <li>memeMoralist->confuser</li>
   -->
-  <Darkness.generalRules.rulesStrings>TODO</Darkness.generalRules.rulesStrings>
+  <Darkness.generalRules.rulesStrings>
+    <li>memeAdjective->黑暗的</li>
+    <li>memeAdjective->黯淡的</li>
+    <li>memeHyphenPrefix->暗黑</li>
+    <li>memeHyphenPrefix->黯淡</li>
+    <li>memeConcept->陰暗</li>
+    <li>memeConcept->幽暗</li>
+    <li>memeConcept->黑暗</li>
+    <li>memeLeaderNoun->潛伏者</li>
+    <li>memeLeaderNoun->弒光者</li>
+    <li>memeLeaderAdjective->闇之</li>
+    <li>memeMoralist->蒙蔽者</li>
+    <li>memeMoralist->晦暗者</li>
+    <li>memeMoralist->擾亂者</li>
+  </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
   <FleshPurity.label>TODO</FleshPurity.label>
