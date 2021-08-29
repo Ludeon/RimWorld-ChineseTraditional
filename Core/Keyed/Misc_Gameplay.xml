@@ -101,11 +101,11 @@
   <!-- EN: Renounce title -->
   <RenounceTitle>放棄頭銜</RenounceTitle>
   <!-- EN: Execute -->
-  <Execute>TODO</Execute>
+  <Execute>處死</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>TODO</ExecuteColonist>
+  <ExecuteColonist>處死有罪的殖民者\n\n如果開啟這個選項，一位獄卒將會處死這位殖民者。</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>TODO</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>{0_labelShort}被標記處死。一位可用的獄卒將會處死{0_objective}。</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{1}的{0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
@@ -173,7 +173,7 @@
   <!-- EN: enemies -->
   <Enemies>敵人</Enemies>
   <!-- EN: people -->
-  <People>TODO</People>
+  <People>人</People>
   <!-- EN: time passed -->
   <TimePassed>經過時間</TimePassed>
   <!-- EN: current radius -->
@@ -415,7 +415,7 @@
   <!-- EN: animals -->
   <AnimalsLower>動物</AnimalsLower>
   <!-- EN: items -->
-  <ItemsLower>TODO</ItemsLower>
+  <ItemsLower>物品</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -503,27 +503,27 @@
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>化解 {0_nameIndef} 的心房</JobReport_ReduceResistance>
   <!-- EN: Too large -->
-  <TooLargeForBed>TODO</TooLargeForBed>
+  <TooLargeForBed>過大</TooLargeForBed>
   <!-- EN: Warning -->
-  <Warning>TODO</Warning>
+  <Warning>警告</Warning>
   <!-- EN: Has subquest -->
   <HasSubquest>TODO</HasSubquest>
   <!-- EN: Subquest of -->
   <SubquestOf>TODO</SubquestOf>
   <!-- EN: Raid -->
-  <Raid>TODO</Raid>
+  <Raid>突襲</Raid>
   <!-- EN: Disabled by -->
   <ApparelRequirementDisabledLabel>TODO</ApparelRequirementDisabledLabel>
   <!-- EN: Nudism -->
-  <Nudism>TODO</Nudism>
+  <Nudism>裸體主義</Nudism>
   <!-- EN: Study progress -->
-  <StudyProgress>TODO</StudyProgress>
+  <StudyProgress>研究進度</StudyProgress>
   <!-- EN: completed -->
-  <StudyCompleted>TODO</StudyCompleted>
+  <StudyCompleted>完成</StudyCompleted>
   <!-- EN: Attack this to destroy it. -->
-  <AttackToDestroy>TODO</AttackToDestroy>
+  <AttackToDestroy>對其攻擊以摧毀</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
-  <RemoveByAttackingTooltip>TODO</RemoveByAttackingTooltip>
+  <RemoveByAttackingTooltip>對其攻擊以移除</RemoveByAttackingTooltip>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -543,7 +543,7 @@
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>含有{0}/{1}桶啤酒。</ContainsBeer>
   <!-- EN: Contains -->
-  <Contains>TODO</Contains>
+  <Contains>含有</Contains>
   <!-- EN: Fermented -->
   <Fermented>釀造完成</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
@@ -704,7 +704,7 @@
   <!-- EN: resting. -->
   <ReportResting>休息中。</ReportResting>
   <!-- EN: laying down. -->
-  <ReportLayingDown>TODO</ReportLayingDown>
+  <ReportLayingDown>躺著。</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
   <WatchingSunrise>欣賞日出美景。</WatchingSunrise>
   <!-- EN: cloudwatching. -->
@@ -1070,7 +1070,7 @@
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>不能放置在室內。</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
-  <MustPlaceUnderThickRoof>TODO</MustPlaceUnderThickRoof>
+  <MustPlaceUnderThickRoof>必須放置在厚屋頂下</MustPlaceUnderThickRoof>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>必須與星艦結構柱連接。</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1166,7 +1166,7 @@
   <!-- EN: Quality -->
   <Quality>品質</Quality>
   <!-- EN: quality -->
-  <quality>TODO</quality>
+  <quality>品質</quality>
   <!-- EN: An item's quality is how well-made it is. -->
   <QualityDescription>此物品生產的品質。</QualityDescription>
   <!-- EN: Quality: {0} -->
