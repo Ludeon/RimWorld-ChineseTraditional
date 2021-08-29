@@ -26,7 +26,7 @@
   <!-- EN: You can't choose more than {0} memes. -->
   <MessageTooManyMemes>你不能選擇多於{0}個模因。</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>你必須選擇一個結構名稱。</MessageNotEnoughStructureMemes>
+  <MessageNotEnoughStructureMemes>你必須選擇一個結構模因。</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
   <MessageIncompatibleMemes>{0_label}和{1_label}互不相容。</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
@@ -102,13 +102,13 @@
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>你已發現遠古終端，裡面有{0}的資訊!</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>你已發現遠古終端機，裡面有{0}的資訊!</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
   <MessageAncientComplexBackToShuttle>你已發現關於{0}的秘密資訊!返回太空梭並發射。</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
   <MessageAncientSignalActivated>遠古補給衛星已被啟用。補給將被投至附近。</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
-  <MessageAncientSignalHostileDetected>來自{1}的{1}追蹤到補給訊號並發起攻擊。</MessageAncientSignalHostileDetected>
+  <MessageAncientSignalHostileDetected>來自{1}的{0}追蹤到補給訊號並發起攻擊。</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
@@ -119,7 +119,7 @@
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>警告︰{PAWNKINDLABELPLURAL}是所有{PAWNS}所崇拜的，且不會受傷害。</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>警告︰{PAWNKINDLABELPLURAL}是所有{PAWNS}所崇拜的，因此不應傷害牠。</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
@@ -129,7 +129,7 @@
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>{0}已被引發並即將爆炸!</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>{0}已被點燃並即將爆炸!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
@@ -137,7 +137,7 @@
   <!-- EN: Infestation arriving. -->
   <MessageInfestationDelayActivated>蟲災正在接近。</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>{0}被阻擋了並隨時爆炸!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>{0}被干擾了並隨時爆炸!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->
