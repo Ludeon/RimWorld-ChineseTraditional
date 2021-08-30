@@ -106,7 +106,7 @@
   <!-- EN: Not enough dye. -->
   <NotEnoughDye>染劑不足</NotEnoughDye>
   <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
-  <ApparelLockedCannotRecolor>{PAWN_nameDef}拒絕漂染{PAWN_possessive} {APPAREL_labelShort}。</ApparelLockedCannotRecolor>
+  <ApparelLockedCannotRecolor>{PAWN_nameDef}拒絕漂染{PAWN_possessive}{APPAREL_labelShort}。</ApparelLockedCannotRecolor>
   <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
   <NotEnoughDyeWillRecolorApparel>居民會在染劑足夠時漂染服裝。</NotEnoughDyeWillRecolorApparel>
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
@@ -169,11 +169,11 @@
   <!-- EN: No nearby drum. -->
   <RitualTargetNoDrum>附近沒有鼓。</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
-  <RitualTargetNeedUnroofedCells>需要至少{0}露天的電池。</RitualTargetNeedUnroofedCells>
+  <RitualTargetNeedUnroofedCells>需要至少{0}露天的方格。</RitualTargetNeedUnroofedCells>
   <!-- EN: A lit campfire or ritual spot. -->
   <RitualTargetCampfirePartyInfo>一個點燃的營火或儀式點。</RitualTargetCampfirePartyInfo>
   <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>一個點燃的營火或儀式點。儀式點必須露天和附近至少要有25個露天電池。</RitualTargetCampfireSkylanternsInfo>
+  <RitualTargetCampfireSkylanternsInfo>一個點燃的營火或儀式點。儀式點必須露天和附近至少要有25個露天的方格。</RitualTargetCampfireSkylanternsInfo>
   <!-- EN: An unconnected Gauranlen tree. -->
   <RitualTargetUnconnectedGaruanlenTreeInfo>未聯結的高嵐樹。</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
@@ -204,12 +204,12 @@
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
   <RitualOutcomeExtraDesc_SkylanternWanderers>你的天燈吸引了一些友善的訪客。他們會登門到訪並留下禮物。</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
-  <RitualOutcomeExtraDesc_Execution>所有參與的奴隸被死亡凶氣震懾住。他們的壓制力已飆至最高。</RitualOutcomeExtraDesc_Execution>
+  <RitualOutcomeExtraDesc_Execution>所有參與的奴隸被死亡凶氣震懾住。他們的壓制力已提升至最高。</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>得益於儀式的表現，你的發展點數已增加{2}點(由{0}升至{1})。</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
-  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>由於強差人意的儀式，沒有賺取到發展點數。</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>由於差強人意的儀式，沒有賺取到發展點數。</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <!-- EN: Additional reward -->
   <RitualAttachedReward>額外獎賞</RitualAttachedReward>
