@@ -427,39 +427,39 @@
     <li>memeConcept->血肉之軀</li>
     <li>memeConcept->純粹</li>
     <li>memeConcept->無垢</li>
-    <li>memeLeaderNoun->being</li>
-    <li>memeLeaderNoun->human</li>
-    <li>memeMoralist->purifier</li>
+    <li>memeLeaderNoun->純血</li>
+    <li>memeLeaderNoun->智人</li>
+    <li>memeMoralist->淨化者</li>
   </FleshPurity.generalRules.rulesStrings>
   <!-- EN: purist -->
-  <FleshPurity.symbolPacks.0.adjective>TODO</FleshPurity.symbolPacks.0.adjective>
+  <FleshPurity.symbolPacks.0.adjective>純淨的</FleshPurity.symbolPacks.0.adjective>
   <!-- EN: Purism -->
-  <FleshPurity.symbolPacks.0.ideoName>TODO</FleshPurity.symbolPacks.0.ideoName>
+  <FleshPurity.symbolPacks.0.ideoName>純潔</FleshPurity.symbolPacks.0.ideoName>
   <!-- EN: purifier -->
-  <FleshPurity.symbolPacks.0.member>TODO</FleshPurity.symbolPacks.0.member>
+  <FleshPurity.symbolPacks.0.member>淨化者</FleshPurity.symbolPacks.0.member>
   <!-- EN: purity -->
-  <FleshPurity.symbolPacks.0.theme>TODO</FleshPurity.symbolPacks.0.theme>
+  <FleshPurity.symbolPacks.0.theme>純潔</FleshPurity.symbolPacks.0.theme>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.adjective>TODO</FleshPurity.symbolPacks.1.adjective>
+  <FleshPurity.symbolPacks.1.adjective>軀體的</FleshPurity.symbolPacks.1.adjective>
   <!-- EN: Fleshism -->
-  <FleshPurity.symbolPacks.1.ideoName>TODO</FleshPurity.symbolPacks.1.ideoName>
+  <FleshPurity.symbolPacks.1.ideoName>身軀</FleshPurity.symbolPacks.1.ideoName>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.member>TODO</FleshPurity.symbolPacks.1.member>
+  <FleshPurity.symbolPacks.1.member>血肉之軀</FleshPurity.symbolPacks.1.member>
   <!-- EN: flesh -->
-  <FleshPurity.symbolPacks.1.theme>TODO</FleshPurity.symbolPacks.1.theme>
+  <FleshPurity.symbolPacks.1.theme>肉體</FleshPurity.symbolPacks.1.theme>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.adjective>TODO</FleshPurity.symbolPacks.2.adjective>
+  <FleshPurity.symbolPacks.2.adjective>聖潔的</FleshPurity.symbolPacks.2.adjective>
   <!-- EN: Sanctism -->
-  <FleshPurity.symbolPacks.2.ideoName>TODO</FleshPurity.symbolPacks.2.ideoName>
+  <FleshPurity.symbolPacks.2.ideoName>聖潔</FleshPurity.symbolPacks.2.ideoName>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.member>TODO</FleshPurity.symbolPacks.2.member>
+  <FleshPurity.symbolPacks.2.member>聖潔之人</FleshPurity.symbolPacks.2.member>
   <!-- EN: sanctity -->
-  <FleshPurity.symbolPacks.2.theme>TODO</FleshPurity.symbolPacks.2.theme>
+  <FleshPurity.symbolPacks.2.theme>聖潔</FleshPurity.symbolPacks.2.theme>
   
   <!-- EN: high life -->
-  <HighLife.label>TODO</HighLife.label>
+  <HighLife.label>藥物狂歡</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
-  <HighLife.description>TODO</HighLife.description>
+  <HighLife.description>有藥嗑的日子，才是好日子</HighLife.description>
   <!-- EN:
     <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
     <li>episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind.</li>
@@ -477,7 +477,23 @@
     <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey.</li>
     <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
   -->
-  <HighLife.descriptionMaker.rules.rulesStrings>TODO</HighLife.descriptionMaker.rules.rulesStrings>
+  <HighLife.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_HighLife)           ->煙霧瀰漫在宇宙之中，而[deity0_name]與磷火合而為一，就此復甦。</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type][deity0_name]將[deity0_possessive]的真理隱藏在現實的狹縫之間，清楚的神智無法瞥見其中奧秘。</li>
+    <li>intro(tag=meme_HighLife)              ->在[deity0_name]的恩惠之下發現了[place_summary][place_name]，而當時一位醉醺醺的星艦艦長差點墜毀在其中。</li>
+    <li>conflict(tag=meme_HighLife)           ->禁慾的[foeLeader]瞧不起[memberNamePlural]，而為了消除他們的特性，他禁止了改變精神狀態的物質使用。</li>
+    <li>founderJoin(tag=meme_HighLife)        ->在彈盡援絕之時，[deity0_name]來到[founderName]的身邊，並用迷幻的煙霧給予他啟示，讓[founder_objective]有一個獨特的視角使他能擊敗[foeSoldiers]。</li>
+    <li>victory(tag=meme_HighLife)            ->隸屬於[foeLeader]，配備[place_personalWeapon]的[foeSoldiers]突擊了[memberNamePlural]的[place_community]，然而[founderName]分給他們一些帶來和平的煙管，[foeSoldiers]便放下了武器。</li>
+    <li>setup(tag=meme_HighLife)              ->被社會所唾棄，我們的創始人[founderName]旅行到了叢林之中，並在那裡嗑了一些奇異的草，而[founder_pronoun]在[founder_possessive]自己變異的意識之中發現了真理。</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->為了加深他們的理解，[founderName]帶著[founder_possessive]的追隨者們每個禮拜齊聚一堂，分享新的化學物質調劑身心。</li>
+    <li>lessonIntro(tag=meme_HighLife)         ->嗨一次不夠，我們要嗨到無法無天，在我嗨爆的腦袋裡面所有的謎團就會拼湊起來，就像房子垮下來...呃...我是說反過來那樣。我知道</li>
+    <li>lesson(tag=meme_HighLife)              ->如果沒有一起在恍惚的世界神遊一番，那種人才不是朋友</li>
+    <li>lessonReinforcement(tag=meme_HighLife) ->欸大哥，這是很嚴肅的過程，你懂嗎？我很慶幸我懂，這支菸給你哈一口你也能懂。</li>
+    <li>archistBasis(tag=meme_HighLife)       ->遠古科技的心智向我們展現了超能意識並不是非黑即白的機械邏輯，而是一個多重型態的思維。</li>
+    <li>archistFact(tag=meme_HighLife)        ->只要有了正確的化學作用，人類的心智就能擁有和遠古科技溝通的潛力。</li>
+    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd]遠古科技將會給每個人類一顆藥丸，吞下藥的人就能永遠的變生，並在最後的旅途和遠古科技同行。</li>
+    <li>animistFact(tag=meme_HighLife)        ->當我們使用那些被賦予來拓展我們意識的工具之時，精靈們就會向我們展現他們的本質。</li>
+  </HighLife.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->party</li>
     <li>memeAdjective->high</li>
@@ -497,39 +513,57 @@
     <li>memeMoralist->laugher</li>
     <li>memeMoralist->giggler</li>
   -->
-  <HighLife.generalRules.rulesStrings>TODO</HighLife.generalRules.rulesStrings>
+  <HighLife.generalRules.rulesStrings>
+    <li>memeCreed->派對</li>
+    <li>memeAdjective->興奮的</li>
+    <li>memeAdjective->恍惚的</li>
+    <li>memeAdjective->沉醉的</li>
+    <li>memeConcept->藥物</li>
+    <li>memeConcept->幸福</li>
+    <li>memeConcept->幻夢</li>
+    <li>memeHyphenPrefix->藥</li>
+    <li>memeHyphenPrefix->毒</li>
+    <li>memeLeaderNoun->醉夢者</li>
+    <li>memeLeaderNoun->麻痺者</li>
+    <li>memeLeaderNoun->生煙者</li>
+    <li>memeLeaderNoun->顫動者</li>
+    <li>memeMoralist->哲人</li>
+    <li>memeMoralist->萃取師</li>
+    <li>memeMoralist->狂喜者</li>
+    <li>memeMoralist->奸笑者</li>
+  </HighLife.generalRules.rulesStrings>
   <!-- EN: euphorist -->
-  <HighLife.symbolPacks.0.adjective>TODO</HighLife.symbolPacks.0.adjective>
+  <HighLife.symbolPacks.0.adjective>亢奮的</HighLife.symbolPacks.0.adjective>
   <!-- EN: Euphorism -->
-  <HighLife.symbolPacks.0.ideoName>TODO</HighLife.symbolPacks.0.ideoName>
+  <HighLife.symbolPacks.0.ideoName>亢奮</HighLife.symbolPacks.0.ideoName>
   <!-- EN: euphor -->
-  <HighLife.symbolPacks.0.member>TODO</HighLife.symbolPacks.0.member>
+  <HighLife.symbolPacks.0.member>亢奮者</HighLife.symbolPacks.0.member>
   <!-- EN: euphoria -->
-  <HighLife.symbolPacks.0.theme>TODO</HighLife.symbolPacks.0.theme>
+  <HighLife.symbolPacks.0.theme>亢奮</HighLife.symbolPacks.0.theme>
   <!-- EN: dopist -->
-  <HighLife.symbolPacks.1.adjective>TODO</HighLife.symbolPacks.1.adjective>
+  <HighLife.symbolPacks.1.adjective>嗑藥的</HighLife.symbolPacks.1.adjective>
   <!-- EN: Dopistry -->
-  <HighLife.symbolPacks.1.ideoName>TODO</HighLife.symbolPacks.1.ideoName>
+  <HighLife.symbolPacks.1.ideoName>嗑藥</HighLife.symbolPacks.1.ideoName>
   <!-- EN: doper -->
-  <HighLife.symbolPacks.1.member>TODO</HighLife.symbolPacks.1.member>
+  <HighLife.symbolPacks.1.member>毒蟲</HighLife.symbolPacks.1.member>
   <!-- EN: dope -->
-  <HighLife.symbolPacks.1.theme>TODO</HighLife.symbolPacks.1.theme>
+  <HighLife.symbolPacks.1.theme>嗑藥</HighLife.symbolPacks.1.theme>
   <!-- EN: smokist -->
-  <HighLife.symbolPacks.2.adjective>TODO</HighLife.symbolPacks.2.adjective>
+  <HighLife.symbolPacks.2.adjective>呼麻的</HighLife.symbolPacks.2.adjective>
   <!-- EN: Smokism -->
-  <HighLife.symbolPacks.2.ideoName>TODO</HighLife.symbolPacks.2.ideoName>
+  <HighLife.symbolPacks.2.ideoName>吸食</HighLife.symbolPacks.2.ideoName>
   <!-- EN: smoker -->
-  <HighLife.symbolPacks.2.member>TODO</HighLife.symbolPacks.2.member>
+  <HighLife.symbolPacks.2.member>呼麻者</HighLife.symbolPacks.2.member>
   <!-- EN: smoke -->
-  <HighLife.symbolPacks.2.theme>TODO</HighLife.symbolPacks.2.theme>
+  <HighLife.symbolPacks.2.theme>吸食</HighLife.symbolPacks.2.theme>
   <!-- EN: ecstatic -->
-  <HighLife.symbolPacks.3.adjective>TODO</HighLife.symbolPacks.3.adjective>
+  <HighLife.symbolPacks.3.adjective>狂喜的</HighLife.symbolPacks.3.adjective>
   <!-- EN: Ecstasy -->
-  <HighLife.symbolPacks.3.ideoName>TODO</HighLife.symbolPacks.3.ideoName>
+  <HighLife.symbolPacks.3.ideoName>狂喜</HighLife.symbolPacks.3.ideoName>
   <!-- EN: ecstator -->
-  <HighLife.symbolPacks.3.member>TODO</HighLife.symbolPacks.3.member>
+  <HighLife.symbolPacks.3.member>欣喜者</HighLife.symbolPacks.3.member>
   <!-- EN: ecstasy -->
-  <HighLife.symbolPacks.3.theme>TODO</HighLife.symbolPacks.3.theme>
+  <HighLife.symbolPacks.3.theme>狂喜</HighLife.symbolPacks.3.theme>
   
   <!-- EN: nudism -->
   <Nudism.label>TODO</Nudism.label>
