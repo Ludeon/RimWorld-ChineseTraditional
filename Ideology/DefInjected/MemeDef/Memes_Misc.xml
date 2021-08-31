@@ -566,9 +566,9 @@
   <HighLife.symbolPacks.3.theme>狂喜</HighLife.symbolPacks.3.theme>
   
   <!-- EN: nudism -->
-  <Nudism.label>TODO</Nudism.label>
+  <Nudism.label>裸體主義</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
-  <Nudism.description>TODO</Nudism.description>
+  <Nudism.description>衣服拘束著、控制著我們，讓我們窒息。我們都應該一絲不掛</Nudism.description>
   <!-- EN:
     <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
     <li>episode(uses=1,tag=meme_Nudism)     ->The people wore clothes, and looking up at [deity0_name] asked, "Why aren't you clothed? It is disgusting." And the [deity0_type] replied, "Your form and mine were created from the heavens. To cover them is what is truly disgusting."</li>
@@ -586,7 +586,23 @@
     <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], they will seek out those who, like themselves, don't attempt to appear as anything other than what they are.</li>
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
-  <Nudism.descriptionMaker.rules.rulesStrings>TODO</Nudism.descriptionMaker.rules.rulesStrings>
+  <Nudism.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Nudism)           ->在原始純粹的虛空，[deity0_name]望向其中，並希望能有和[deity0_possessive]自己外貌一樣，擁有自由肉體的種族，並創造了人類。</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->身著衣物的人們看向[deity0_name]並問到：「你為何沒穿衣服？這樣很變態」。而[deity0_type]回應：「汝等與吾之貌皆由天上而生，衣冠楚楚乃實則噁心。」</li>
+    <li>intro(tag=meme_Nudism)              ->在[place_summary][place_name]，[deity0_name]的[altarRoomLabel]的人們開始了一項裸身祈禱的文化，而這讓[deity0_type]欣喜不已。</li>
+    <li>conflict(tag=meme_Nudism)           ->一位過分拘謹的[foeLeader]掌權之後，要求每個人穿著非常拘束的服裝。</li>
+    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name]最忠心的信徒，[founderName]，站在[place_powerCenter]之前，將[founder_possessive]的衣服悉數撕下，展現[founder_objective]的自我以對抗他們的命令。</li>
+    <li>victory(tag=meme_Nudism)            ->[founderName]向[deity0_name]祈求，而祂將[place_name]陷入滾滾熱浪之中。[foeSoldiers]為了保命而將他們的衣服扯下，而[foeLeader]則落荒而逃。</li>
+    <li>setup(tag=meme_Nudism)              ->[founderName]被體制所奴役，和其他人一樣被約束和控制。有一天，[founder_pronoun]脫光了所有衣服並裸奔逃走，而我們的活動就此誕生。</li>
+    <li>story(uses=1,tag=meme_Nudism)       ->[founderName]施實了不得穿衣服的規定以確保信眾能專注在真正的目標上，而不是物質上的外貌。</li>
+    <li>lessonIntro(tag=meme_Nudism)         ->在一開始的那幾年，裸著身子在公園裡跑跳讓我覺得很羞恥，但之後我就感覺越來越自由，我從旁邊經過的人學到了不少事，像是說</li>
+    <li>lesson(tag=meme_Nudism)              ->小人做事都遮遮掩掩，作為君子要坦蕩對人。</li>
+    <li>lessonReinforcement(tag=meme_Nudism) ->當你能看到我們的人能在大街上自由地手舞足蹈，你就知道他們接受了真實的樣貌。</li>
+    <li>archistBasis(tag=meme_Nudism)       ->當遠古科技出現之時，它們根本不在乎外貌為何；它們向我們展示了內心的狀態是比外在的樣貌更為重要。</li>
+    <li>archistFact(tag=meme_Nudism)        ->遠古科技偶爾會直接碰觸人類的內心，倘若我們的身驅和我們的內心一樣被層層包裹著，我們是不會理解的。</li>
+    <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd]，它們將會尋找那些和它們一樣，永遠以自己真實樣貌展現在這世界上的人們。</li>
+    <li>animistFact(tag=meme_Nudism)        ->用布料包覆我們的身體就是在隱藏我們體內精靈的本質，並讓他們躁動不安。</li>
+  </Nudism.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nude</li>
     <li>memeAdjective->naked</li>
@@ -600,23 +616,35 @@
     <li>memeLeaderNoun->toucher</li>
     <li>memeLeaderNoun->feeler</li>
   -->
-  <Nudism.generalRules.rulesStrings>TODO</Nudism.generalRules.rulesStrings>
+  <Nudism.generalRules.rulesStrings>
+    <li>memeAdjective->赤裸的</li>
+    <li>memeAdjective->裸體的</li>
+    <li>memeAdjective->不受拘束的</li>
+    <li>memeAdjective->自然的</li>
+    <li>memeHyphenPrefix->皮膚</li>
+    <li>memeConcept->裸體</li>
+    <li>memeConcept->肌膚</li>
+    <li>memeLeaderNoun->遨遊者</li>
+    <li>memeLeaderNoun->暢息者</li>
+    <li>memeLeaderNoun->碰觸者</li>
+    <li>memeLeaderNoun->感知者</li>
+  </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.adjective>TODO</Nudism.symbolPacks.0.adjective>
+  <Nudism.symbolPacks.0.adjective>裸體的</Nudism.symbolPacks.0.adjective>
   <!-- EN: nudism -->
-  <Nudism.symbolPacks.0.ideoName>TODO</Nudism.symbolPacks.0.ideoName>
+  <Nudism.symbolPacks.0.ideoName>裸體</Nudism.symbolPacks.0.ideoName>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.member>TODO</Nudism.symbolPacks.0.member>
+  <Nudism.symbolPacks.0.member>裸體者</Nudism.symbolPacks.0.member>
   <!-- EN: nudity -->
-  <Nudism.symbolPacks.0.theme>TODO</Nudism.symbolPacks.0.theme>
+  <Nudism.symbolPacks.0.theme>裸體</Nudism.symbolPacks.0.theme>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.adjective>TODO</Nudism.symbolPacks.1.adjective>
+  <Nudism.symbolPacks.1.adjective>赤裸的</Nudism.symbolPacks.1.adjective>
   <!-- EN: skinism -->
-  <Nudism.symbolPacks.1.ideoName>TODO</Nudism.symbolPacks.1.ideoName>
+  <Nudism.symbolPacks.1.ideoName>赤裸</Nudism.symbolPacks.1.ideoName>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.member>TODO</Nudism.symbolPacks.1.member>
+  <Nudism.symbolPacks.1.member>赤裸者</Nudism.symbolPacks.1.member>
   <!-- EN: skin -->
-  <Nudism.symbolPacks.1.theme>TODO</Nudism.symbolPacks.1.theme>
+  <Nudism.symbolPacks.1.theme>赤裸</Nudism.symbolPacks.1.theme>
   
   <!-- EN: pain is virtue -->
   <PainIsVirtue.label>TODO</PainIsVirtue.label>
