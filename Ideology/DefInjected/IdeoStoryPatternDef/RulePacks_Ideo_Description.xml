@@ -87,7 +87,7 @@
     <li>story(uses=1,priority=-10)->如果沒有[founderName]的指引，[memberNamePlural]不可能了解到[memeConcept]的真諦。</li>
     <li>story(uses=1,priority=-10)->[founderName]在[ritualName]的講道啟發我們，帶領我們步向[memeAdjective]的生命。</li>
     <li>story(uses=1,priority=-10)->沒有人能超越[founderName]對於[memeConcept]的理解，而[founder_pronoun]正是[memberNamePlural]的首席[leaderTitle]。</li>
-    <li>story(uses=1,priority=-10)->[founderName]帶著名為[relic0_name]的relic0_thingDef_label]與[founder_objective]到處走，提醒人們要活出[memeAdjective]的生命。</li>
+    <li>story(uses=1,priority=-10)->[founderName]帶著名為[relic0_name]的[relic0_thingDef_label]與[founder_objective]到處走，提醒人們要活出[memeAdjective]的生命。</li>
   </IdeologicalFounder.rules.rulesStrings>
   
   <!-- EN:
@@ -154,67 +154,67 @@
     <li>lessonReinforcement->It is something I'll never forget.</li>
   -->
   <IdeologicalLesson.rules.rulesStrings>
-    <li>lesson(priority=-1)->stuff happens</li>
-    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+    <li>lesson(priority=-1)->有事發生了</li>
+    <li>r_pattern->「[r_lessonIntro][r_lesson]。[r_lessonReinforcement]\n\n-[lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> by [founder_nameFull]</li>
-    <li>lessonAttribution->[founder_nameFull]'s letter to [believer_nameFull]</li>
-    <li>lessonAttribution->[founder_nameFull], from the keynote to [memeConference_titleCase]</li>
-    <li>lessonAttribution->[founder_nameFull], on [founder_possessive] deathbed</li>
-    <li>lessonAttribution->[founder_nameFull], just before execution</li>
-    <li>lessonAttribution->[founder_nameFull], [speech] on the [TerrainFeature]</li>
-    <li>lessonAttribution->[founder_nameFull], [speech] in the [Community]</li>
+    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i>[founder_nameFull]字</li>
+    <li>lessonAttribution->[founder_nameFull]給[believer_nameFull]的信</li>
+    <li>lessonAttribution->[founder_nameFull]，基於[memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull]，[founder_possessive]的遺言</li>
+    <li>lessonAttribution->[founder_nameFull]，處死前留下的話</li>
+    <li>lessonAttribution->[founder_nameFull]，於[TerrainFeature]的[speech]</li>
+    <li>lessonAttribution->[founder_nameFull]，於[Community]的[speech]</li>
     <li>attributionSource->[memeConcept]</li>
-    <li>attributionSource->[memeAdjective] [memeConcept]</li>
-    <li>attributionSource->A [memeAdjective] Life</li>
-    <li>attributionSource->Reflections by a [attributionJob]</li>
-    <li>attributionSource->Memoir of a [attributionJob]</li>
-    <li>attributionSource->Thoughts of a [attributionJob]</li>
-    <li>attributionSource->Life of a [attributionJob]</li>
-    <li>attributionJob->[memeAdjective] [place_job]</li>
+    <li>attributionSource->[memeAdjective][memeConcept]</li>
+    <li>attributionSource->[memeAdjective]的生命</li>
+    <li>attributionSource->[attributionJob]的反映</li>
+    <li>attributionSource->[attributionJob]的回憶錄</li>
+    <li>attributionSource->[attributionJob]的想法</li>
+    <li>attributionSource->[attributionJob]的生命</li>
+    <li>attributionJob->[memeAdjective][place_job]</li>
     <li>attributionJob->[place_job]</li>
-    <li>memeConference(p=3)->The [conferencePrefix] [memeConcept] [conferenceType]</li>
-    <li>memeConference(p=2)->The [memeConcept] [conferenceType]</li>
-    <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
-    <li>conferencePrefix->First</li>
-    <li>conferencePrefix->Second</li>
-    <li>conferencePrefix->Third</li>
-    <li>conferencePrefix->Fourth</li>
-    <li>conferencePrefix->Last</li>
-    <li>conferencePrefix->Ultimate</li>
-    <li>conferencePrefix->Interplanetary</li>
-    <li>conferencePrefix->Planetary</li>
-    <li>conferencePrefix->Universal</li>
-    <li>conferenceType->Conference</li>
-    <li>conferenceType->Assembly</li>
-    <li>conferenceType->Meeting</li>
-    <li>conferenceType->Discussion</li>
-    <li>conferenceType->Forum</li>
-    <li>speech->Speech</li>
-    <li>speech->Address</li>
-    <li>lessonIntro->One lesson was hardest for my followers to accept:</li>
-    <li>lessonIntro->My greatest crime was taking so long to understand that</li>
-    <li>lessonIntro->My struggle against the [foeLeader] seemed endless. But it did teach me one thing:</li>
-    <li>lessonIntro->Even as a child on the [place_summary] [place_name], I knew that</li>
-    <li>lessonIntro->During a school class in the [place_community], a student thew a [thrownObject] and it hit me in the head. It was then I realized that</li>
-    <li>lessonIntro->I say this not so that you might live the life I lived, but so you might learn the things I learned. That</li>
-    <li>lessonIntro->Once the doctor had finished [doctor_possessive] grisly work, I finally knew that</li>
-    <li>lessonIntro->As each year passed on the [place_summary] [place_name], one thing became increasingly clear: that</li>
-    <li>lessonIntro->Looking back, I wish I'd realized this earlier - that</li>
-    <li>lessonIntro->They all seemed so lost. I told them that</li>
-    <li>lessonIntro->They cried for guidance. I showed them that</li>
-    <li>thrownObject->book</li>
-    <li>thrownObject->sandwich</li>
-    <li>thrownObject->toy [place_personalWeapon]</li>
-    <li>thrownObject->stuffed [Animal]</li>
-    <li>doctor_possessive->his</li>
-    <li>doctor_possessive->her</li>
-    <li>lessonReinforcement->No one can argue with that.</li>
-    <li>lessonReinforcement->Only fools think otherwise.</li>
-    <li>lessonReinforcement->And as we now know, that was soon to become evident to everyone.</li>
-    <li>lessonReinforcement->Everything that has happened since has reinforced that fact.</li>
-    <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
-    <li>lessonReinforcement->It is something I'll never forget.</li>
+    <li>memeConference(p=3)->[conferencePrefix][memeConcept][conferenceType]</li>
+    <li>memeConference(p=2)->[memeConcept][conferenceType]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]大會</li>
+    <li>conferencePrefix->第一</li>
+    <li>conferencePrefix->第二</li>
+    <li>conferencePrefix->第三</li>
+    <li>conferencePrefix->第四</li>
+    <li>conferencePrefix->最後的</li>
+    <li>conferencePrefix->終極的</li>
+    <li>conferencePrefix->星際</li>
+    <li>conferencePrefix->行星</li>
+    <li>conferencePrefix->宇宙</li>
+    <li>conferenceType->會議</li>
+    <li>conferenceType->集會</li>
+    <li>conferenceType->會面</li>
+    <li>conferenceType->討論</li>
+    <li>conferenceType->論壇</li>
+    <li>speech->演講</li>
+    <li>speech->演講</li>
+    <li>lessonIntro->一個讓我的信徒們難以接受的事實：</li>
+    <li>lessonIntro->我最大的罪就是花費太多時間去了解這件事</li>
+    <li>lessonIntro->雖然我對於[foeLeader]的糾纏看似無了期。但他的確教會了我一件事：</li>
+    <li>lessonIntro->即使我是在[place_summary][place_name]過的童年，我知道</li>
+    <li>lessonIntro->當年在[place_community]的學校，一名學生把[thrownObject]丟中我的頭。然後我醒悟到</li>
+    <li>lessonIntro->我不是要你們活出像我一樣的人生，但你應當學會我所學會的事。那就是</li>
+    <li>lessonIntro->當醫生完成了[doctor_possessive]的高超手術，我終於了解</li>
+    <li>lessonIntro->隨在[place_summary][place_name]經過的歲月，有一件事逐漸變得清晰：那就是</li>
+    <li>lessonIntro->回望過去，我真希望我能早點發現—那就是</li>
+    <li>lessonIntro->他們看起來很失落。而我告訴他們</li>
+    <li>lessonIntro->他們呼喊著要得到指引。我展示給他們</li>
+    <li>thrownObject->一本書</li>
+    <li>thrownObject->一份三明治</li>
+    <li>thrownObject->一個玩具[place_personalWeapon]</li>
+    <li>thrownObject->一個填充[Animal]玩偶</li>
+    <li>doctor_possessive->他的</li>
+    <li>doctor_possessive->她的</li>
+    <li>lessonReinforcement->沒有人能反駁。</li>
+    <li>lessonReinforcement->只有愚者不同意。</li>
+    <li>lessonReinforcement->就如我們現在所知，這很快變成人盡皆知的常識。</li>
+    <li>lessonReinforcement->此後發生的一切都證明了這個事實。</li>
+    <li>lessonReinforcement->這件事就像刻在我的腦海中。</li>
+    <li>lessonReinforcement->這件事我永不忘記。</li>
   </IdeologicalLesson.rules.rulesStrings>
   
   <!-- EN:
@@ -247,33 +247,33 @@
     <li>revelationObject->an ancient [Weapon]</li>
   -->
   <TheistFounder.rules.rulesStrings>
-    <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
-    <li>intro->The people of the [place_summary] [place_name], both [memberNamePlural] and others, lived in peace for many years under the watchful eye of [deity0_name].</li>
-    <li>intro->The [deity0_type], [deity0_name], revealed [deity0_objective]self to the people of [place_name] so that they may understand [memeConcept], and guided them.</li>
-    <li>intro->[deity0_name] guided humanity to [place_name], and helped them settle there.</li>
-    <li>intro->On the [place_summary] [place_name], during the [ritualName], people would come to the [altarName] at the [altarRoomLabel] of [deity0_name] and pray with [memeConcept] in their hearts.</li>
-    <li>conflict->A [foeLeader] arose and threatened to destroy [deity0_name] [deity0_objective]self using [place_massWeapon].</li>
-    <li>conflict->An evil [foeLeader] and [foeLeader_possessive] [foeSoldiers] enslaved the worshippers of [deity0_name].</li>
-    <li>conflict->Then the [foeLeader] came. [foeLeader_possessive] [foeSoldiers] killed many worshippers of [deity0_name] with [place_personalWeapon]s.</li>
-    <li>conflict->A group of [foeSoldiers] arose under a terrible [foeLeader]. They trapped the [memberNamePlural] in a single [place_community].</li>
-    <li>conflict->There was peace, until a [foeLeader] and [foeLeader_possessive] [foeSoldiers] rebelled against [deity0_name]'s dominion. The [memberNamePlural] were forced to flee to a hidden [place_community].</li>
-    <li>founderJoin->A hero named [founderName] tried to assassinate the [foeLeader]. [founder_pronoun] failed, but [deity0_name] witnessed [founderName]'s struggle, and anointed [founder_objective] as the prophet of the [memberNamePlural].</li>
-    <li>founderJoin->[deity0_name] came to the [place_job] [founderName] [revelationAdverb], and spoke to [founder_objective] about [memeConcept].</li>
-    <li>founderJoin->[founderName] encountered [revelationObject], which spoke in [deity0_name]'s voice about [memeConcept].</li>
-    <li>founderJoin->A renowned [place_job] named [founderName] brought the [memberNamePlural] together, and even recruited some of the [foeSoldiers].</li>
-    <li>founderJoin->A [place_job] named [founderName] stood up and spoke out against the [foeLeader], and [deity0_name] blessed [founderName].</li>
-    <li>founderJoin->[deity0_name] decided to come to [place_name] as a human named [founderName] to help the [memberNamePlural].</li>
-    <li>founderJoin->One hero named [founderName] killed a hundred of the [foeSoldiers] using a [place_personalWeapon], and [deity0_name] guided [founder_objective] by speaking through the [relic0_name].</li>
-    <li>victory->[founderName] gathered the [memberNamePlural] in a [place_community] and taught them of [deity0_name]'s wisdom.</li>
-    <li>victory->[founderName] sacrificed [founder_objective]self to personally kill the [foeLeader].</li>
-    <li>revelationAdverb->in a vision</li>
-    <li>revelationAdverb->in a dream</li>
-    <li>revelationAdverb->in a nightmare</li>
-    <li>revelationAdverb->as a [Animal]</li>
-    <li>revelationAdverb->as a beggar</li>
-    <li>revelationObject->a hidden [NaturalObject]</li>
-    <li>revelationObject->a glowing [Vegetable]</li>
-    <li>revelationObject->an ancient [Weapon]</li>
+    <li>intro->[place_summary][place_name]的人民在[deity0_name]的[memeAdjective]支配下生活。</li>
+    <li>intro->[place_summary][place_name]的人民，包括[memberNamePlural]和其他人，在[deity0_name]的眼底下和平地生活了許多年。</li>
+    <li>intro->[deity0_type]的[deity0_name]，向[place_name]的人展現出[deity0_objective]自己，使他們了解[memeConcept]，並帶領他們。</li>
+    <li>intro->[deity0_name]帶領人類走到[place_name]，並協助他們定居於此。</li>
+    <li>intro->在[place_summary][place_name]，進行[ritualName]之時，人們會聚集到[deity0_name]的[altarRoomLabel]中的[altarName]，並衷心向[memeConcept]祈禱。</li>
+    <li>conflict->[foeLeader]出現並威脅到要用[place_massWeapon]剷除[deity0_name][deity0_objective]自己。</li>
+    <li>conflict->邪惡的[foeLeader]和[foeLeader_possessive][foeSoldiers]奴役著[deity0_name]的信徒。</li>
+    <li>conflict->然後[foeLeader]來臨。[foeLeader_possessive][foeSoldiers]用[place_personalWeapon]殺死許多[deity0_name]的信徒。</li>
+    <li>conflict->整隊[foeSoldiers]在可怕的[foeLeader]統治下誕生了。他們把[memberNamePlural]囚禁在一處[place_community]。</li>
+    <li>conflict->從前十分和平，直至[foeLeader]和[foeLeader_possessive][foeSoldiers]發起叛亂，反抗[deity0_name]的統治。[memberNamePlural]被迫逃難至隱蔽的[place_community]。</li>
+    <li>founderJoin->英雄[founderName]試圖暗殺[foeLeader]。[founder_pronoun]失敗了，但[deity0_name]看到[founderName]的奮鬥，於是選定[founder_objective]為[memberNamePlural]的先知。</li>
+    <li>founderJoin->[deity0_name][revelationAdverb]降臨到[place_job][founderName]，並向[founder_objective]說出關於[memeConcept]的事.</li>
+    <li>founderJoin->[founderName]碰到[revelationObject]，[deity0_name]的聲音盪然響起，並說到[memeConcept]的事.</li>
+    <li>founderJoin->有一位著名的[place_job]名為[founderName]把[memberNamePlural]聚在一起，甚至招攬到一些[foeSoldiers]。</li>
+    <li>founderJoin->一位[place_job]名為[founderName]挺身而出並出言駁斥[foeLeader]，之後[deity0_name]便祝福了[founderName]。</li>
+    <li>founderJoin->[deity0_name]以人型之軀來到[place_name]，名為[founderName]，以幫助[memberNamePlural]。</li>
+    <li>founderJoin->一位名為[founderName]的英雄使用[place_personalWeapon]滅掉上百名[foeSoldiers]，因此[deity0_name]通過[relic0_name]的聲音引領[founder_objective]。</li>
+    <li>victory->[founderName]把[memberNamePlural]聚集在[place_community]並向他們傳揚[deity0_name]的智慧。</li>
+    <li>victory->[founderName]犧牲[founder_objective]自己，與[foeLeader]同歸於盡。</li>
+    <li>revelationAdverb->在幻象中</li>
+    <li>revelationAdverb->在夢中</li>
+    <li>revelationAdverb->在惡夢中</li>
+    <li>revelationAdverb->以[Animal]之軀</li>
+    <li>revelationAdverb->以乞丐之相</li>
+    <li>revelationObject->一個秘密[NaturalObject]</li>
+    <li>revelationObject->一棵發光[Vegetable]</li>
+    <li>revelationObject->一支遠古[Weapon]</li>
   </TheistFounder.rules.rulesStrings>
   
   <!-- EN:
@@ -297,22 +297,22 @@
   -->
   <TheistMyth.rules.rulesStrings>
     <li>episode(priority=-1)-></li>
-    <li>creation->For an eternity, there was a world of [Color] [materialOrigin], until [deity0_name] created the planets and stars.</li>
-    <li>creation->In an old universe of strife, [deity0_name] whipped up great fire that swept away the last age, and brought forth a new one.</li>
-    <li>creation->[deity0_name] gave birth to humans in a grand accident, and looked upon them with curiosity.</li>
-    <li>creation->The universe was a void. Then, [deity0_name], bored with eternity, fashioned man and woman from [bodilyOrigin].</li>
-    <li>episode(uses=1)->Looking upon mankind, [deity0_name] found them as children, and declared [deity0_possessive] dominion over them.</li>
-    <li>episode(uses=1)->Across the vast stellar distances, [deity0_name]'s will sustained the life of mankind against the void.</li>
-    <li>episode(uses=1)->Though many adventurers moved against [deity0_objective], [deity0_name] prevented them easily, for [deity0_pronoun] was [deity0_type].</li>
-    <li>episode(uses=1)->Humanity's suffering brought [deity0_name] to terrible grief.</li>
-    <li>materialOrigin->clay</li>
-    <li>materialOrigin->gas</li>
-    <li>materialOrigin->water</li>
-    <li>materialOrigin->space</li>
-    <li>materialOrigin->dust</li>
-    <li>bodilyOrigin->clay</li>
-    <li>bodilyOrigin->stone</li>
-    <li>bodilyOrigin->sweat</li>
+    <li>creation->曾有一段很長的時間，整片世界只充滿著[Color]的[materialOrigin]，直至[deity0_name]創造了星球和恆星。</li>
+    <li>creation->在充滿紛爭的舊世界，[deity0_name]揚起末日之火，把舊時代抹去，並在餘燼中誕生出新世界。</li>
+    <li>creation->[deity0_name]意外地創造出人類，而衪帶著好奇開始觀察他們。</li>
+    <li>creation->世界曾是一片空洞。但[deity0_name]對永恆感到厭倦，因而從[bodilyOrigin]中製作出男人和女人。</li>
+    <li>episode(uses=1)->觀察人類後，[deity0_name]發現他們如孩童般幼稚，因此宣告[deity0_possessive]要統治他們。</li>
+    <li>episode(uses=1)->浩瀚宇宙的另一邊，[deity0_name]的意志從空洞的侵蝕中延續了人類的生命。</li>
+    <li>episode(uses=1)->雖然許多冒險者起義反抗了[deity0_objective]，但[deity0_name]對他們只是嗤之以鼻，只因[deity0_pronoun]是[deity0_type]。</li>
+    <li>episode(uses=1)->看到人類的苦厄，使[deity0_name]感到悲傷。</li>
+    <li>materialOrigin->黏土</li>
+    <li>materialOrigin->氣體</li>
+    <li>materialOrigin->水</li>
+    <li>materialOrigin->空間</li>
+    <li>materialOrigin->塵土</li>
+    <li>bodilyOrigin->黏土</li>
+    <li>bodilyOrigin->石頭</li>
+    <li>bodilyOrigin->汗水</li>
   </TheistMyth.rules.rulesStrings>
   
 </LanguageData>
