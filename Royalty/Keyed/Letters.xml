@@ -169,19 +169,19 @@
   <!-- EN: Bestowing ceremony expired -->
   <LetterLabelBestowingCeremonyExpired>表揚儀式結束</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
-  <LetterTextBestowingCeremonyExpired>{TARGET_definite}沒有出現在表揚儀式上。表揚儀式被取消了</LetterTextBestowingCeremonyExpired>
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite}沒有出現在表揚儀式上。表揚儀式被取消了。</LetterTextBestowingCeremonyExpired>
 
   <!-- EN: {TARGET_definite}'s title changed -->
-  <LetterLabelBestowingCeremonyTitleUpdated>TODO</LetterLabelBestowingCeremonyTitleUpdated>
+  <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite}的頭銜變動了</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>TODO</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}的頭銜在表揚儀式訂下以後發生變動，表揚儀式會重新排程以因應新的頭銜。\n\n新一場的表揚儀式會給予至今應得的心靈連結等級。</LetterTextBestowingCeremonyTitleUpdated>
   
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>TODO</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort}獲得了額外的{1}榮譽作為來自{FACTION_name}的敬意，因為聚集了{3}個觀眾。</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
-  <LetterPartNoExtraHonor>TODO</LetterPartNoExtraHonor>
+  <LetterPartNoExtraHonor>{PAWN_labelShort}沒有獲得額外的榮譽，因為觀眾不夠多。</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
-  <LetterPartMoodBonus>TODO</LetterPartMoodBonus>
+  <LetterPartMoodBonus>表揚儀式的觀眾獲得了心情加成。</LetterPartMoodBonus>
 
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
   <LetterTextHonorAward_BanditCamp>誰應該因擊敗匪徒營地而獲得{0}的獎勵？</LetterTextHonorAward_BanditCamp>
@@ -194,8 +194,8 @@
 
   <!-- Wanderer joins -->
   <!-- EN: Transport pod crash: {0_nameDef} -->
-  <LetterLabelWandererJoinsAbasia>TODO</LetterLabelWandererJoinsAbasia>
+  <LetterLabelWandererJoinsAbasia>運輸艙墜毀：{0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>TODO</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>一個名為{0_nameDef}的{0_title}搭著運輸艙在附近墜毀了。\n\n{0_nameDef}因為{1_label}而無法行走。\n\n{0_pronoun}會需要一段時間自然恢復，也有機會在短時間內復原。{1_label}可以用特別的手術治癒，該手術需要大量的高科技藥物。\n\n{0_pronoun}希望恢復後留在這裡貢獻，{0_pronoun}不會自願離開。如果你不想留著{0_nameDef}，你可以放逐{0_objective}、將{0_objective}賣給奴隸商人或任由{0_objective}自生自滅。但是你的殖民者會對此不滿。</LetterTextWandererJoinsAbasia>
 
 </LanguageData>
