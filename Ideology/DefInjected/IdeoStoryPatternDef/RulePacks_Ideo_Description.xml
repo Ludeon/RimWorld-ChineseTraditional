@@ -154,67 +154,67 @@
     <li>lessonReinforcement->It is something I'll never forget.</li>
   -->
   <IdeologicalLesson.rules.rulesStrings>
-    <li>lesson(priority=-1)->stuff happens</li>
-    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+    <li>lesson(priority=-1)->有事發生了</li>
+    <li>r_pattern->「[r_lessonIntro][r_lesson]。[r_lessonReinforcement]\n\n-[lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> by [founder_nameFull]</li>
-    <li>lessonAttribution->[founder_nameFull]'s letter to [believer_nameFull]</li>
-    <li>lessonAttribution->[founder_nameFull], from the keynote to [memeConference_titleCase]</li>
-    <li>lessonAttribution->[founder_nameFull], on [founder_possessive] deathbed</li>
-    <li>lessonAttribution->[founder_nameFull], just before execution</li>
-    <li>lessonAttribution->[founder_nameFull], [speech] on the [TerrainFeature]</li>
-    <li>lessonAttribution->[founder_nameFull], [speech] in the [Community]</li>
+    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i>[founder_nameFull]字</li>
+    <li>lessonAttribution->[founder_nameFull]給[believer_nameFull]的信</li>
+    <li>lessonAttribution->[founder_nameFull]，基於[memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull]，[founder_possessive]的遺言</li>
+    <li>lessonAttribution->[founder_nameFull]，處死前留下的話</li>
+    <li>lessonAttribution->[founder_nameFull]，於[TerrainFeature]的[speech]</li>
+    <li>lessonAttribution->[founder_nameFull]，於[Community]的[speech]</li>
     <li>attributionSource->[memeConcept]</li>
-    <li>attributionSource->[memeAdjective] [memeConcept]</li>
-    <li>attributionSource->A [memeAdjective] Life</li>
-    <li>attributionSource->Reflections by a [attributionJob]</li>
-    <li>attributionSource->Memoir of a [attributionJob]</li>
-    <li>attributionSource->Thoughts of a [attributionJob]</li>
-    <li>attributionSource->Life of a [attributionJob]</li>
-    <li>attributionJob->[memeAdjective] [place_job]</li>
+    <li>attributionSource->[memeAdjective][memeConcept]</li>
+    <li>attributionSource->[memeAdjective]的生命</li>
+    <li>attributionSource->[attributionJob]的反映</li>
+    <li>attributionSource->[attributionJob]的回憶錄</li>
+    <li>attributionSource->[attributionJob]的想法</li>
+    <li>attributionSource->[attributionJob]的生命</li>
+    <li>attributionJob->[memeAdjective][place_job]</li>
     <li>attributionJob->[place_job]</li>
-    <li>memeConference(p=3)->The [conferencePrefix] [memeConcept] [conferenceType]</li>
-    <li>memeConference(p=2)->The [memeConcept] [conferenceType]</li>
-    <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
-    <li>conferencePrefix->First</li>
-    <li>conferencePrefix->Second</li>
-    <li>conferencePrefix->Third</li>
-    <li>conferencePrefix->Fourth</li>
-    <li>conferencePrefix->Last</li>
-    <li>conferencePrefix->Ultimate</li>
-    <li>conferencePrefix->Interplanetary</li>
-    <li>conferencePrefix->Planetary</li>
-    <li>conferencePrefix->Universal</li>
-    <li>conferenceType->Conference</li>
-    <li>conferenceType->Assembly</li>
-    <li>conferenceType->Meeting</li>
-    <li>conferenceType->Discussion</li>
-    <li>conferenceType->Forum</li>
-    <li>speech->Speech</li>
-    <li>speech->Address</li>
-    <li>lessonIntro->One lesson was hardest for my followers to accept:</li>
-    <li>lessonIntro->My greatest crime was taking so long to understand that</li>
-    <li>lessonIntro->My struggle against the [foeLeader] seemed endless. But it did teach me one thing:</li>
-    <li>lessonIntro->Even as a child on the [place_summary] [place_name], I knew that</li>
-    <li>lessonIntro->During a school class in the [place_community], a student thew a [thrownObject] and it hit me in the head. It was then I realized that</li>
-    <li>lessonIntro->I say this not so that you might live the life I lived, but so you might learn the things I learned. That</li>
-    <li>lessonIntro->Once the doctor had finished [doctor_possessive] grisly work, I finally knew that</li>
-    <li>lessonIntro->As each year passed on the [place_summary] [place_name], one thing became increasingly clear: that</li>
-    <li>lessonIntro->Looking back, I wish I'd realized this earlier - that</li>
-    <li>lessonIntro->They all seemed so lost. I told them that</li>
-    <li>lessonIntro->They cried for guidance. I showed them that</li>
-    <li>thrownObject->book</li>
-    <li>thrownObject->sandwich</li>
-    <li>thrownObject->toy [place_personalWeapon]</li>
-    <li>thrownObject->stuffed [Animal]</li>
-    <li>doctor_possessive->his</li>
-    <li>doctor_possessive->her</li>
-    <li>lessonReinforcement->No one can argue with that.</li>
-    <li>lessonReinforcement->Only fools think otherwise.</li>
-    <li>lessonReinforcement->And as we now know, that was soon to become evident to everyone.</li>
-    <li>lessonReinforcement->Everything that has happened since has reinforced that fact.</li>
-    <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
-    <li>lessonReinforcement->It is something I'll never forget.</li>
+    <li>memeConference(p=3)->[conferencePrefix][memeConcept][conferenceType]</li>
+    <li>memeConference(p=2)->[memeConcept][conferenceType]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]大會</li>
+    <li>conferencePrefix->第一</li>
+    <li>conferencePrefix->第二</li>
+    <li>conferencePrefix->第三</li>
+    <li>conferencePrefix->第四</li>
+    <li>conferencePrefix->最後的</li>
+    <li>conferencePrefix->終極的</li>
+    <li>conferencePrefix->星際</li>
+    <li>conferencePrefix->行星</li>
+    <li>conferencePrefix->宇宙</li>
+    <li>conferenceType->會議</li>
+    <li>conferenceType->集會</li>
+    <li>conferenceType->會面</li>
+    <li>conferenceType->討論</li>
+    <li>conferenceType->論壇</li>
+    <li>speech->演講</li>
+    <li>speech->演講</li>
+    <li>lessonIntro->一個讓我的信徒們難以接受的事實：</li>
+    <li>lessonIntro->我最大的罪就是花費太多時間去了解這件事</li>
+    <li>lessonIntro->雖然我對於[foeLeader]的糾纏看似無了期。但他的確教會了我一件事：</li>
+    <li>lessonIntro->即使我是在[place_summary][place_name]過的童年，我知道</li>
+    <li>lessonIntro->當年在[place_community]的學校，一名學生把[thrownObject]丟中我的頭。然後我醒悟到</li>
+    <li>lessonIntro->我不是要你們活出像我一樣的人生，但你應當學會我所學會的事。那就是</li>
+    <li>lessonIntro->當醫生完成了[doctor_possessive]的高超手術，我終於了解</li>
+    <li>lessonIntro->隨在[place_summary][place_name]經過的歲月，有一件事逐漸變得清晰：那就是</li>
+    <li>lessonIntro->回望過去，我真希望我能早點發現—那就是</li>
+    <li>lessonIntro->他們看起來很失落。而我告訴他們</li>
+    <li>lessonIntro->他們呼喊著要得到指引。我展示給他們</li>
+    <li>thrownObject->一本書</li>
+    <li>thrownObject->一份三明治</li>
+    <li>thrownObject->一個玩具[place_personalWeapon]</li>
+    <li>thrownObject->一個填充[Animal]玩偶</li>
+    <li>doctor_possessive->他的</li>
+    <li>doctor_possessive->她的</li>
+    <li>lessonReinforcement->沒有人能反駁。</li>
+    <li>lessonReinforcement->只有愚者不同意。</li>
+    <li>lessonReinforcement->就如我們現在所知，這很快變成人盡皆知的常識。</li>
+    <li>lessonReinforcement->此後發生的一切都證明了這個事實。</li>
+    <li>lessonReinforcement->這件事就像刻在我的腦海中。</li>
+    <li>lessonReinforcement->這件事我永不忘記。</li>
   </IdeologicalLesson.rules.rulesStrings>
   
   <!-- EN:
