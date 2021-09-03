@@ -14,9 +14,9 @@
   <BerserkTrance.description>施法者讓自己的思想充滿憤怒，突破身體的極限，但也會讓他失控並攻擊附近所有敵人。狂暴狀態會持續3個小時。</BerserkTrance.description>
   
   <!-- EN: combat command -->
-  <CombatCommand.label>戰鬥指令</CombatCommand.label>
+  <CombatCommand.label>戰鬥指揮</CombatCommand.label>
   <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
-  <CombatCommand.description>創造一個強化附近所有人戰鬥技能的光環，效果在24小時之內會依附在領導人身上。</CombatCommand.description>
+  <CombatCommand.description>創造一個強化附近所有人戰鬥能力的氣場，效果在24小時之內會依附在領導人身上。</CombatCommand.description>
   
   <!-- EN: conversion ritual -->
   <ConversionRitual.label>皈依儀式</ConversionRitual.label>
@@ -44,7 +44,7 @@
   <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort}成功輔導了{RECIPIENT_labelShort},{RECIPIENT_possessive}的心情增加{MOODBONUS}。</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   
   <!-- EN: farming command -->
-  <FarmingCommand.label>種植指令</FarmingCommand.label>
+  <FarmingCommand.label>種植指揮</FarmingCommand.label>
   <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <FarmingCommand.description>提供耕作的指導，提高附近每個人的種植能力，效果在24小時之內會依附在施法者身上。</FarmingCommand.description>
   
@@ -59,14 +59,14 @@
   <LeaderSpeech.description>發起領導談話。如果進展順利，聽眾將提高情緒和對演講者的尊重，並可能獲得激勵。若失敗則會造成社交傷害。</LeaderSpeech.description>
   
   <!-- EN: marksman command -->
-  <MarksmanCommand.label>射手指令</MarksmanCommand.label>
+  <MarksmanCommand.label>射手指揮</MarksmanCommand.label>
   <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <MarksmanCommand.description>指揮射擊，提高附近每個人的射擊能力。效果在24小時之內會依附在施法者身上。</MarksmanCommand.description>
   
   <!-- EN: mining command -->
-  <MiningCommand.label>採礦指令</MiningCommand.label>
+  <MiningCommand.label>採礦指揮</MiningCommand.label>
   <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MiningCommand.description>提供挖掘的指導，提高附近每個人的採礦能力，效果在24小時之內會依附在施法者身上。</MiningCommand.description>
+  <MiningCommand.description>提供採礦的指導，提高附近每個人的採礦能力，效果在24小時之內會依附在施法者身上。</MiningCommand.description>
   
   <!-- EN: preach health -->
   <PreachHealth.label>病床講道</PreachHealth.label>
@@ -74,9 +74,9 @@
   <PreachHealth.description>通過你的信仰向生病或受傷的人講道提供精神支持，這將加速他們的傷口癒合和免疫力形成。</PreachHealth.description>
   
   <!-- EN: production command -->
-  <ProductionCommand.label>生產指令</ProductionCommand.label>
+  <ProductionCommand.label>生產指揮</ProductionCommand.label>
   <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ProductionCommand.description>提供建築的指導，提高附近每個人的建造和手工能力，效果在24小時之內會依附在施法者身上。</ProductionCommand.description>
+  <ProductionCommand.description>提供生產的指導，提高附近每個人的建造和手工能力，效果在24小時之內會依附在施法者身上。</ProductionCommand.description>
   
   <!-- EN: reassure -->
   <Reassure.label>鼓舞</Reassure.label>
@@ -86,7 +86,7 @@
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort}鼓舞了{RECIPIENT_labelShort}，將{RECIPIENT_possessive}在{IDEO}中的信心從{BEFORECERTAINTY}提高到{AFTERCERTAINTY}。</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
   <!-- EN: research command -->
-  <ResearchCommand.label>研究指令</ResearchCommand.label>
+  <ResearchCommand.label>研究指揮</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <ResearchCommand.description>提供建議和心理支持，提高附近每個人的研究速度，效果在24小時之內會依附在施法者身上。</ResearchCommand.description>
   
@@ -96,7 +96,7 @@
   <Trial.description>以嚴重的不當行為起訴某人並發動審判，結果可能會定罪或無罪，如果被告被定罪，你可以自由地監禁、處決或是放逐他。定罪的機率取決於被告和原告的社交技能。</Trial.description>
   
   <!-- EN: work drive -->
-  <WorkDrive.label>工作指令</WorkDrive.label>
+  <WorkDrive.label>工作指揮</WorkDrive.label>
   <!-- EN: Call on a person to work harder for some time. -->
   <WorkDrive.description>指示某人在一段時間內更賣力的工作。</WorkDrive.description>
   
