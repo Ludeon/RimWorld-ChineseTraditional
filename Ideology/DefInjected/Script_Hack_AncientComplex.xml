@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
+    <li>allTerminalsHackedMessage->You've hacked all of the terminals and discovered secret information about [relic_name]! You can now leave.</li>
+  -->
+  <AncientComplex_Standard.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->成破解終端機。完成了{COUNT}/[terminalCount]。</li>
+    <li>allTerminalsHackedMessage->你已破解所有終端機並發現關於[relic_name]的秘密情報!你可以離開這裡了。</li>
+  </AncientComplex_Standard.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You've learned of an ancient complex nearby. It is said to contain information about [relic_name].\n\nIf you can break into the structure and hack the computers inside, you can collect the information.\n\nWatch out - there may be all manner of dangers inside, and other enemies may also be attracted by activity at the structure.</li>
+  -->
+  <AncientComplex_Standard.questDescriptionRules.rulesStrings><li>questDescription->你已研究附近的遠古建築群。研究顯示它記載了關於[relic_name]的情報。\n\n如果你攻入建築並破解裡面的電腦，你就可以收集到那些情報。\n\n小心 — 裡面可能有各種的危險，其他敵人也可能被建築物的活動吸引而至。</li></AncientComplex_Standard.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=6)->The [complexAdj] [complex]</li>
+    <li>questName->The [dig]</li>
+    <li>complexAdj->ancient</li>
+    <li>complexAdj->old</li>
+    <li>complexAdj->dusty</li>
+    <li>complexAdj->secret</li>
+    <li>complex->complex</li>
+    <li>complex->compound</li>
+    <li>complex->installation</li>
+    <li>dig->dig</li>
+    <li>dig->excavation</li>
+  -->
+  <AncientComplex_Standard.questNameRules.rulesStrings>
+    <li>questName(p=6)->[complexAdj][complex]</li>
+    <li>questName->[dig]</li>
+    <li>complexAdj->遠古的</li>
+    <li>complexAdj->陳舊的</li>
+    <li>complexAdj->古舊的</li>
+    <li>complexAdj->秘密的</li>
+    <li>complex->建築群</li>
+    <li>complex->壁壘</li>
+    <li>complex->設施</li>
+    <li>dig->發掘</li>
+    <li>dig->開鑿</li>
+  </AncientComplex_Standard.questNameRules.rulesStrings>
+  
+</LanguageData>

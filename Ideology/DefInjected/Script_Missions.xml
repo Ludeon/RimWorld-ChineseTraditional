@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] incapable of hacking.</li>
+    <li>passengersIncapableOfHackingDialogText->The shuttle for the quest '[resolvedQuestName]' has no passenger capable of hacking. You must send at least one person capable of hacking to investigate the ancient complex.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->passenger</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
+  -->
+  <AncientComplex_Mission.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->成功破解終端機。完成了{COUNT}/[terminalCount]。</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural]無法進行破解工作。</li>
+    <li>passengersIncapableOfHackingDialogText->進行「[resolvedQuestName]」任務的太空梭中沒有懂得破解的人員。你必須至少派來一位能夠進行破解的人才能調查遠古聯繫。</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->此人</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->所有人員</li>
+  </AncientComplex_Mission.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>complex->complex</li>
+    <li>complex->compound</li>
+    <li>complex->installation</li>
+    <li>complex->structure</li>
+    <li>complex->construction</li>
+    <li>investigation->investigation</li>
+    <li>investigation->examination</li>
+    <li>investigation->mission</li>
+    <li>investigation->excavation</li>
+    <li>investigation->hacking</li>
+  -->
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+    <li>complex->建築群</li>
+    <li>complex->壁壘</li>
+    <li>complex->設施</li>
+    <li>complex->建築物</li>
+    <li>complex->建築</li>
+    <li>investigation->的調查</li>
+    <li>investigation->的研究</li>
+    <li>investigation->的任務</li>
+    <li>investigation->的發掘n</li>
+    <li>investigation->的破解</li>
+  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->colonist</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
+  -->
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameDef]，[asker_faction_name]的[asker_faction_leaderTitle]發現遠方有一處遠古建築物。[asker_pronoun]認為那裡載有關於聖物[relic_name]的情報。\n\n[asker_nameDef]無法分派人員去調查它，但希望你能提供[colonistCount][colonistsSingularOrPlural]去調查。\n\n建築群存在著未知的危險，並且也被[asker_nameDef]的敵人，[enemyFaction_name]，覷覦著。\n\n[asker_pronoun]會派一艘太空梭來接載你的人員，帶他們前往建築群，並在事成後帶他們回家。他們在路上會被悉心照料。\n\n當你到埗後，你必須在[timeoutTicks_duration]內破解所有在建築群的終端機。</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->位殖民者</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->位殖民者</li>
+  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[missionAdj] [complex] [investigation]</li>
+    <li>missionAdj->hidden</li>
+    <li>missionAdj->covert</li>
+    <li>missionAdj->secret</li>
+  -->
+  <AncientComplex_Mission.questNameRules.rulesStrings>
+    <li>questName->[missionAdj][complex][investigation]</li>
+    <li>missionAdj->隱蔽的</li>
+    <li>missionAdj->偏僻的</li>
+    <li>missionAdj->秘密的</li>
+  </AncientComplex_Mission.questNameRules.rulesStrings>
+  
+</LanguageData>

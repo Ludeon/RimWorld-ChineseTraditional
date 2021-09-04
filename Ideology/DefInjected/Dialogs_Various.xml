@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+  <!-- EN: add -->
+  <Add>新增</Add>
+  <!-- EN: Trading animal products bonus -->
+  <TradingAnimalProduceBonus>畜牧產品交易紅利</TradingAnimalProduceBonus>
+  <!-- EN: Slaves -->
+  <SlavesSection>奴隸</SlavesSection>
+  <!-- EN: dominant style -->
+  <DominantStyle>主要風格</DominantStyle>
+  <!-- EN: Date -->
+  <Date>日期</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
+  <RitualDevelopmentPointRewards>依儀式結果給予以下發展點數</RitualDevelopmentPointRewards>
+
+  <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
+  <ChooseStructureMemesInfo>選擇你的理念的象徵結構。這只影響標誌，但不影響遊玩。</ChooseStructureMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
+  <ChooseNormalMemesInfo>選擇{0}-{1}個模因以建立此理念的基礎概念。</ChooseNormalMemesInfo>
+  <!-- EN: Choose at least {0} meme. -->
+  <NotEnoughMemes>至少選擇{0}個模因。</NotEnoughMemes>
+  <!-- EN: Choose at most {0} memes. -->
+  <TooManyMemes>至多選擇{0}個模因。</TooManyMemes>
+  <!-- EN: Choose structure. -->
+  <ChooseStructureMeme>選擇結構。</ChooseStructureMeme>
+  <!-- EN: {0_label} and {1_label} are incompatible. -->
+  <IncompatibleMemes>{0_label}與{1_label}不相容。</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
+  <SomeMemesHaveMoreImpact>其中某些對遊玩有更大的影響。</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
+  <ChooseNormalMemesFluidIdeoInfo>選擇一個模因以建立此理念的初步概念。隨理念的發展，你將會加入更多的模因。</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
+  <ChooseOrRemoveMeme>選擇模因或是移除模因。</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
+  <ReformIdeoResetChanges>重置</ReformIdeoResetChanges>
+  <!-- EN: Choose {0} meme. -->
+  <NotEnoughMemesFluidIdeo>選擇{0}個模因。</NotEnoughMemesFluidIdeo>
+
+  <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
+  <ChangesRandomizePrecepts>{0}會把你修改過的戒律隨機重置。\n\n確定要繼續嗎？</ChangesRandomizePrecepts>
+  <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
+  <ChangesRemovePrecepts>以下戒律和新的模因選項不相容，因此將被移除︰\n\n{0}\n\n確定要繼續嗎？</ChangesRemovePrecepts>
+  
+  <!-- EN: Room requirements -->
+  <RoomRequirements>房間需求</RoomRequirements>
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). The following memes are incompatible:\n\n{0}\n\nWould you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeo>你現在載入的理念有部份模因與新的流動式理念衝突，因此需要重新選擇模因(可以只憑一個低影響力的模因來開始流動理念)。以下模因不相容︰\n\n{0}\n確定要繼續嗎？</ConfirmChangeMemesForFluidIdeo>
+  
+  <!-- EN: role -->
+  <Role>職位</Role>
+  <!-- EN: Assign role -->
+  <ChooseRole>分配職位</ChooseRole>
+  <!-- EN: No role assigned -->
+  <NoRoleAssigned>未分配職位</NoRoleAssigned>
+  <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
+  <ChooseRoleConfirmAssign>將為{PAWN_labelShort}分配{ROLE_labelDef}職位。</ChooseRoleConfirmAssign>
+  <!-- EN: Are you sure? -->
+  <ChooseRoleConfirmAssignPostfix>你確定嗎？</ChooseRoleConfirmAssignPostfix>
+  <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort}現正身任這個職位，失去它會使他不高興。</ChooseRoleConfirmAssignReplace>
+  <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort}現正身任{ROLE_label}，失去它會使他不高興。</ChooseRoleConfirmAssignHasOtherRole>
+  <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
+  <ChooseRoleConfirmAssignReplaceLeader>只能任命一位領袖。此舉會令{PAWN_labelShort}卸任{OTHERROLE_labelDef}，使得{PAWN_objective}不高興。</ChooseRoleConfirmAssignReplaceLeader>
+  <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
+  <ChooseRoleConfirmUnassign>將使{PAWN_labelShort}卸任{ROLE_labelIndef}，{PAWN_objective}會不高興。</ChooseRoleConfirmUnassign>
+  <!-- EN: {PAWN_labelShort} will gain the following abilities -->
+  <ChooseRoleListAbilities>{PAWN_labelShort}將得到以下能力</ChooseRoleListAbilities>
+  <!-- EN: The {ROLE_label} role requires the following apparel -->
+  <ChooseRoleListApparelDemands>{ROLE_label}的職位需要下列服裝</ChooseRoleListApparelDemands>
+  <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
+  <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort}將會拒絕進行下列工作</ChooseRoleListWorkTypeRestrictions>
+  <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
+  <ChooseRoleHint>等到你的殖民地更加成熟後再指派職位可能更好。</ChooseRoleHint>
+  <!-- EN: Unlocked by -->
+  <UnlockedByMeme>解鎖自</UnlockedByMeme>
+  <!-- EN: Unlocked roles -->
+  <MemeUnlocksRoles>解鎖了職位</MemeUnlocksRoles>
+  <!-- EN: Unlocked rituals -->
+  <MemeUnlocksRituals>解鎖了儀式</MemeUnlocksRituals>
+  <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
+  <ChooseRoleRequiredWorkTagsDisabled>警告︰{PAWN_nameDef}無法履行{ROLE_label}的工作。如果你要給予{PAWN_objective}此職位，{PAWN_pronoun}可能無法使用{ROLE_label}帶來的能力。缺失的工種有</ChooseRoleRequiredWorkTagsDisabled>
+  <!-- EN: Leader bonus -->
+  <YourLeaderTradeBonus>領袖紅利</YourLeaderTradeBonus>
+  <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
+  <CannotNotAddRoleApparelDueToMeme>模因防止了職位的服裝需求。</CannotNotAddRoleApparelDueToMeme>
+  <!-- EN: cannot be worn with {0_label} -->
+  <CannotBeWornWith>不能與{0_label}一同穿著</CannotBeWornWith>
+
+  <!-- EN: Certainty reduction -->
+  <AbilityIdeoConvertBreakdownLabel>感悟下降</AbilityIdeoConvertBreakdownLabel>
+  <!-- EN: Using {ABILITY} ability -->
+  <AbilityIdeoConvertBreakdownUsingAbility>使用{ABILITY}能力</AbilityIdeoConvertBreakdownUsingAbility>
+  <!-- EN: {PAWN_labelShort}'s conversion power -->
+  <AbilityIdeoConvertBreakdownConversionPower>{PAWN_labelShort}的改信強度</AbilityIdeoConvertBreakdownConversionPower>
+  <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
+  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>因{IDEO_name}使{PAWN_labelShort}的感悟下降因素</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
+  <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort}是{ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
+  <!-- EN: Trait {TRAIT} -->
+  <AbilityIdeoConvertBreakdownTrait>特性{TRAIT}</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: {RELICCOUNT} installed relics on map -->
+  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT}個聖物安置了在地圖上</AbilityIdeoConvertBreakdownRelic>
+  <!-- EN: {PAWN_labelShort}'s social skill -->
+  <AbilityIdeoConvertBreakdownSocialSkill>{PAWN_labelShort}的社交技能</AbilityIdeoConvertBreakdownSocialSkill>
+  <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
+  <AbilityIdeoConvertBreakdownOpinion>{RECIPIENT_labelShort}對{INITIATOR_labelShort}的看法</AbilityIdeoConvertBreakdownOpinion>
+  <!-- EN: {PAWN_nameDef}'s ideoligion -->
+  <AbilityIdeoConvertBreakdownPawnIdeo>{PAWN_nameDef}的理念</AbilityIdeoConvertBreakdownPawnIdeo>
+  <!-- EN: {MEME} vs {TRAIT} trait -->
+  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} VS {TRAIT}特性</AbilityIdeoConvertBreakdownMemeVsTrait>
+
+  <!-- EN: {PAWN_labelShort} was already counselled recently. -->
+  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort}近來已被商談過了。</AbilityCantApplyAlreadyCounselled>
+
+  <!-- EN: Reform... -->
+  <ReformIdeo>重組</ReformIdeo>
+  <!-- EN: Reform ideoligion -->
+  <ReformIdeoligion>重組理念</ReformIdeoligion>
+  <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
+  <ReformIdeoligionDesc>改變結構、模因和風格來重組你的理念。</ReformIdeoligionDesc>
+  <!-- EN: Change styles -->
+  <ReformIdeoChangeStyles>改變風格</ReformIdeoChangeStyles>
+  <!-- EN: Add or remove a meme -->
+  <ReformIdeoAddOrRemoveMeme>加入或移除模因</ReformIdeoAddOrRemoveMeme>
+  <!-- EN: Add a meme -->
+  <ReformIdeoAddMeme>加入模因</ReformIdeoAddMeme>
+  <!-- EN: Choose one -->
+  <ReformIdeoChooseOneChange>選擇一個</ReformIdeoChooseOneChange>
+  <!-- EN: Change structure -->
+  <ReformIdeoChangeStructure>改變結構</ReformIdeoChangeStructure>
+  <!-- EN: Change any of the following -->
+  <ReformIdeoChangeAny>改變下列選項</ReformIdeoChangeAny>
+  <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
+  <ReformIdeoRelicHuntQuestEnd>重組此理念後，聖物{0}不會被你的居民崇拜。因為任務「{0}」是搜尋此聖物，所以它將被無效化。</ReformIdeoRelicHuntQuestEnd>
+  <!-- EN: The ritual {0} is in progress and will be cancelled. -->
+  <ReformIdeoCancelRituals>將取消進行中的{0}儀式</ReformIdeoCancelRituals>
+  <!-- EN: Do you wish to continue? -->
+  <ReformIdeoContinue>你確定嗎？</ReformIdeoContinue>
+
+  <!-- Slavery -->
+  <!-- EN: Slave -->
+  <CannotAssignBedToSlave>奴隸</CannotAssignBedToSlave>
+  <!-- EN: Colonist -->
+  <CannotAssignBedToColonist>殖民者</CannotAssignBedToColonist>
+  <!-- EN: Any slave -->
+  <AnySlave>任何奴隸</AnySlave>
+  <!-- EN: Negotiator will not sell people into slavery. -->
+  <NegotiatorWillNotTradeSlaves>會談代表不會販賣奴隸。</NegotiatorWillNotTradeSlaves>
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
+  <NegotiatorWillNotTradeSlavesTip>基於{1}的{0_possessive}，會談代表{0_nameDef}不會視人為奴隸。\n\n{0_nameDef}仍會把某人贖回至他們的派系，但不會把人販賣至其他派系。</NegotiatorWillNotTradeSlavesTip>
+
+  <!-- EN: Last human meat -->
+  <LastHumanMeat>最後進食人肉時間</LastHumanMeat>
+  <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
+  <LastHumanMeatDesc>因為{PAWN_possessive}信奉{IDEO_name}，如果{PAWN_nameDef}{DURATION}天內沒有食人，{PAWN_pronoun}會不高興。</LastHumanMeatDesc>
+  <!-- EN: Last large animal slaughter -->
+  <LastAnimalSlaughter>最後的大型動物屠宰</LastAnimalSlaughter>
+
+  <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
+  <ExectueNeutralFactionSlave>實施{PAWN_labelShort}會帶來與{FACTION_name}的負面影響。</ExectueNeutralFactionSlave>
+
+  <!-- EN: You must assign at least one non-slave colonist who can walk. -->
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>你必須至少指派一位能行動的非奴隸居民。</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <!-- EN: You must leave at least non-slave colonist who can walk. -->
+  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>你必須至少留下一位能行動的非奴隸居民。</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+
+  <!-- Style -->
+  <!-- EN: Style -->
+  <StylePawn>風格</StylePawn>
+  <!-- EN: Cancel -->
+  <Cancel>取消</Cancel>
+  <!-- EN: hair -->
+  <Hair>頭髮</Hair>
+  <!-- EN: beard -->
+  <Beard>鬍鬚</Beard>
+  <!-- EN: face tattoo -->
+  <TattooFace>紋面</TattooFace>
+  <!-- EN: body tattoo -->
+  <TattooBody>紋身</TattooBody>
+  <!-- EN: apparel color -->
+  <ApparelColor>服裝顏色</ApparelColor>
+  <!-- EN: hair color -->
+  <HairColor>髮色</HairColor>
+  <!-- EN: Show headgear -->
+  <ShowHeadgear>顯示頭飾</ShowHeadgear>
+  <!-- EN: Show apparel -->
+  <ShowApparel>顯示服裝</ShowApparel>
+  <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
+  <PawnUnhappyWithStyleItems>{PAWN_nameDef}對以下事物不高興</PawnUnhappyWithStyleItems>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescription>風格會影響部份建築物的外觀、服裝以及{IDEO_memberNamePlural}製作的武器。如果多個範疇影響同一事物，優先應用最左邊的。</StyleCategoryDescription>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescriptionAbstract>風格會影響部份建築物的外觀、服裝以及你的居民製作的武器。如果多個範疇影響同一事物，優先應用最左邊的。</StyleCategoryDescriptionAbstract>
+  <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominance>當{IDEO_memberNamePlural}注意到建築物、地板和藝術品符合這個風格，他們會感到高興。</StyleCategoryDescStyleDominance>
+  <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominanceAbstract>信徒注意到建築物、地板和藝術品符合這個風格，他們會感到高興。</StyleCategoryDescStyleDominanceAbstract>
+  <!-- EN: {0} style category affects -->
+  <StyleCategoryDetails>{0}個風格效果</StyleCategoryDetails>
+  <!-- EN: Overriden by {0} -->
+  <OverriddenByStyle>被{0}覆蓋了</OverriddenByStyle>
+  <!-- EN: New buildables -->
+  <IdeoMakesBuildingBuildable>新的可用建築物</IdeoMakesBuildingBuildable>
+  <!-- EN: none usable for {PAWN_nameDef} -->
+  <NoneUsableForPawn>沒有{PAWN_nameDef}可用的</NoneUsableForPawn> 
+  <!-- EN: Hair and beards -->
+  <HairAndBeards>頭髮和鬍鬚</HairAndBeards>
+  <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
+  <HairAndBeardsDesc>這些設定決定了每個風格在信徒中有多常見。</HairAndBeardsDesc>
+  <!-- EN: Tattoos -->
+  <Tattoos>紋身</Tattoos>
+  <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
+  <TattoosDesc>這些設定決定了每個風格在信徒中有多常見。</TattoosDesc>
+  <!-- EN: Never -->
+  <StyleItemFrequencyNever>從不</StyleItemFrequencyNever>
+  <!-- EN: Rare -->
+  <StyleItemFrequencyRare>罕見</StyleItemFrequencyRare>
+  <!-- EN: Uncommon -->
+  <StyleItemFrequencyUncommon>不常見</StyleItemFrequencyUncommon>
+  <!-- EN: Normal -->
+  <StyleItemFrequencyNormal>普通</StyleItemFrequencyNormal>
+  <!-- EN: Common -->
+  <StyleItemFrequencyCommon>常見</StyleItemFrequencyCommon>
+  <!-- EN: Frequent -->
+  <StyleItemFrequencyFrequent>經常</StyleItemFrequencyFrequent>
+  <!-- EN: Edit appearance -->
+  <EditAppearanceItems>修改外觀</EditAppearanceItems>
+  <!-- EN: {0} in use -->
+  <NumAvailable>使用了{0}個</NumAvailable>
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>展開全部</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>摺疊全部</CollapseAllCategories>
+  <!-- EN: Resets all style items to their default values. -->
+  <ResetButtonDesc>重置所有風格選項。</ResetButtonDesc>
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>染料可以經種植七色花或購買而得。</TooltipDyeExplanation>
+
+  <!-- Ancient complex mission -->
+  <!-- EN: Send shuttle anyway -->
+  <SendShuttleAnyway>總是發射太空梭</SendShuttleAnyway>
+  <!-- EN: Re-load shuttle -->
+  <ReLoadShuttle>重新補給太空梭</ReLoadShuttle>
+
+  <!-- Medical settings -->
+  <!-- EN: Enslaved colonist -->
+  <MedGroupEnslavedColonist>奴隸</MedGroupEnslavedColonist>
+
+  <!-- Dryad upgrades -->
+  <!-- EN: Choose dryad caste -->
+  <ChangeMode>選擇樹精種類</ChangeMode>
+  <!-- EN: Required memes -->
+  <RequiredMemes>需要模因</RequiredMemes>
+  <!-- EN: Required caste -->
+  <RequiredStage>需要種類</RequiredStage>
+  <!-- EN: Missing required memes -->
+  <MissingRequiredMemes>缺少模因</MissingRequiredMemes>
+  <!-- EN: Missing required caste -->
+  <MissingRequiredCaste>缺少種類</MissingRequiredCaste>
+  <!-- EN: Already selected -->
+  <AlreadySelected>已選擇</AlreadySelected>
+  <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
+  <ChooseProductionModeInitialDesc>你可以選擇{TREE_label}所生成的樹精種類。\n\n樹精會從樹基的莢囊中出現。最大樹精數量取決於{TREE_definite}與聯結者的聯結強度。</ChooseProductionModeInitialDesc>
+
+  <!-- Archonexus -->
+  <!-- EN: Choose who to convert to your ideoligion -->
+  <ChooseColonistsForIdeoTitle>選擇皈依你的理念的人</ChooseColonistsForIdeoTitle>
+  <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
+  <ChooseColonistsForIdeoDesc>建立新殖民地時，你可以使人們皈依你的首要理念。</ChooseColonistsForIdeoDesc>
+  <!-- EN: New Colony -->
+  <ChooseThingsForNewColonyTitle>新殖民地</ChooseThingsForNewColonyTitle>
+  <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
+  <ChooseThingsForNewColonyDesc>選擇帶到新殖民地的殖民者、動物和聖物。</ChooseThingsForNewColonyDesc>
+  <!-- EN: Choose up to {0} {1}. -->
+  <ChooseThingsDesc>最多選擇{0}{1}。</ChooseThingsDesc>
+  <!-- EN: Choose up to {0} people. -->
+  <ChoosePeopleDesc>最多選擇{0}個人。</ChoosePeopleDesc>
+  <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
+  <ChooseOnlySlavesInfo>如果你只選擇奴隸，他們將以殖民者身份在新殖民地聽從你的指揮。</ChooseOnlySlavesInfo>
+  <!-- EN: Confirm decisions -->
+  <ConfirmDecisionsTitle>確認</ConfirmDecisionsTitle>
+  <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
+  <ShipEscapeWillEndDescription>由AI(*Name)Charlon Whitestone(/Name)通報的那艘休眠星艦將會在新殖民地建立完成後飛離。到時將不能利用它逃離此星球。</ShipEscapeWillEndDescription>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
+  <RemoveEquippedRelicsDescription>殖民地的買家只容許你拿走一件聖物。任何未被選擇的聖物將被留下，包括︰</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? -->
+  <WantToProceed>你確定繼續嗎？</WantToProceed>
+  <!-- EN: Convert -->
+  <ConvertToPlayerIdeoligion>轉換</ConvertToPlayerIdeoligion>
+  <!-- EN: Revert -->
+  <RevertToPreviousIdeoligion>回復</RevertToPreviousIdeoligion>
+  <!-- EN: Existing follower -->
+  <ExistingFollowerOfPlayerIdeoligion>現有信徒</ExistingFollowerOfPlayerIdeoligion>
+  <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
+  <AbandonArchotechStructuresWarningDialog>你現在打算放棄的據點存在尚未完全探勘的遠古遺跡。\n\n你以後可以再回來這裡，但你的殖民地將被清除。</AbandonArchotechStructuresWarningDialog>
+  <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
+  <ItemQuantityTooltip>{0}件東西可以帶到新的殖民地。\n\n最大容許數量︰{1}</ItemQuantityTooltip>
+
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
+  <ConfirmHackEnenyTerminal>破解{0}將會警醒敵人並使他們攻擊你。你確定要破解{0}嗎?</ConfirmHackEnenyTerminal>
+
+  <!-- EN: Relics -->
+  <RelicsSection>聖物</RelicsSection>
+
+</LanguageData>

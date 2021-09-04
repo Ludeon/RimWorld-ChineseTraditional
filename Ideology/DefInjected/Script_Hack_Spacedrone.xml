@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've detected an orbiting spacedrone that may contain information about [relic_name]. You have the code that will force it to land at [map_definite].\n\nTo get the information, hack into the drone's computer. Hacking takes time, but those strong in intellectual skill can speed up the process.[raidsDescription]\n\nAfter landing, the spacedrone will self-destruct in [destroyDelayTicks_duration].</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will [droneDetectionMethod]. As long as it's present, they'll send attackers approximately every [raidIntervalAvg_duration] to destroy it and steal the wealth they think it contains. You will have some time to prepare defenses around it before they arrive.</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
+  -->
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings>
+    <li>questDescription->你已發現到一艘可能載有[relic_name]的情報的太空無人機在天空飛近。你也有令它迫降至[map_definite]的指令。\n\n你需要破解太空無人機才能取得情報。但破解需時，而擅長知識技能的居民可以加速破解。[raidsDescription]\n\n降落後，無人機將在[destroyDelayTicks_duration]後自毀。</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]會[droneDetectionMethod]。只要它在此，他們會大約每[raidIntervalAvg_duration]發動襲擊，為的就是破壞無人機，並搶奪他們認為在它裡面的寶物。在每次襲擊前你都會有一些時間作準備。</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->在那艘無人機降落時發現它</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->發現無人機的能量訊號</li>
+  </Hack_Spacedrone.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[droneAdj] [drone] hack</li>
+    <li>questName->[drone] [data] hack</li>
+    <li>droneAdj->orbital</li>
+    <li>droneAdj->data</li>
+    <li>droneAdj->ancient</li>
+    <li>drone->drone</li>
+    <li>drone->spacecraft</li>
+    <li>drone->spacedrone</li>
+    <li>drone->cryptodrone</li>
+    <li>data->data</li>
+    <li>data->intel</li>
+    <li>data->info</li>
+  -->
+  <Hack_Spacedrone.questNameRules.rulesStrings>
+    <li>questName->破解[droneAdj][drone]</li>
+    <li>questName->破解[drone][data]</li>
+    <li>droneAdj->飛行中的</li>
+    <li>droneAdj->資料庫</li>
+    <li>droneAdj->遠古的</li>
+    <li>drone->無人機</li>
+    <li>drone->飛機</li>
+    <li>drone->太空無人機</li>
+    <li>drone->加密無人機</li>
+    <li>data->的資料</li>
+    <li>data->的智能</li>
+    <li>data->的資訊</li>
+  </Hack_Spacedrone.questNameRules.rulesStrings>
+  
+</LanguageData>

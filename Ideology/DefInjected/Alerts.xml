@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Need slave beds -->
+  <NeedSlaveBeds>需要奴隸床</NeedSlaveBeds>
+  <!-- EN: You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
+  <NeedSlaveBedsDesc>奴隸的數量比奴隸床還要多。請增加奴隸床的數量，或是將殖民者或俘虜的床轉換成奴隸床。</NeedSlaveBedsDesc>
+
+  <!-- EN: Slave unsuppressed -->
+  <SlavesUnsuppressedLabel>未壓制的奴隸</SlavesUnsuppressedLabel>
+  <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
+  <SlavesUnsuppressedDesc>{0_nameDef}的壓制度過低，{0_pronoun}引起暴動的可能性很高。\n\n請確認是否有負責獄卒的殖民者。獄卒會為了防止奴隸暴動而定期的去壓制奴隸</SlavesUnsuppressedDesc>
+  <!-- EN: Slave unattended -->
+  <SlaveUnattendedLabel>未監視的奴隸</SlaveUnattendedLabel>
+  <!-- EN: Slaves unattended -->
+  <SlaveUnattendedMultipleLabel>未監視的奴隸</SlaveUnattendedMultipleLabel>
+  <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
+  <SlavesUnattendedDesc>地圖上有多名奴隸獨處，周圍沒有殖民者存在。\n\n持續沒有人監視奴隸的話，數天又或者數小時內發生暴動的可能性很高。</SlavesUnattendedDesc>
+
+  <!-- EN: {0} expected -->
+  <RitualExpected>殖民者期望 {0} 的儀式</RitualExpected>
+  <!-- EN: {0} expected for -->
+  <RitualExpectedFor>{0}的預計</RitualExpectedFor>
+  <!-- EN: {0} days: Ritual opportunity ends. -->
+  <RitualExpirationTime>{0}日: 儀式時機就會結束</RitualExpirationTime>
+  <!-- EN: Expires in -->
+  <RitualExpiresIn>期限結束還有</RitualExpiresIn>
+  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
+  <RitualCompletionEffects>{RITUAL_labelDef}結束時，將獲得以下效果</RitualCompletionEffects>
+  <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
+  <RitualTargetsExplanation>若想開始儀式，請選擇目標對象，按下「{RITUAL_label}開始」指令按鈕，以下是可選擇的目標對象:\n{1}</RitualTargetsExplanation>
+  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
+  <RitualRolesExplanation>以下的職責是包含在{RITUAL_label}內:\n{1}</RitualRolesExplanation>
+  <!-- EN: Click to jump to targets -->
+  <RitualJumpToTargets>請點擊以跳轉到目標</RitualJumpToTargets>
+  <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
+  <RitualObligationDelayEffects>若{RITUAL_labelDef}延期，會產生以下的影響</RitualObligationDelayEffects>
+  <!-- EN: {0} days: {1} mood on all {2}s. -->
+  <RitualObligationDelayEffectDesc>{0}天: 全部的{2}的心情將{1}</RitualObligationDelayEffectDesc>
+  <!-- EN: In order to perform {0} you need to fill these roles -->
+  <RitualUnfilledRoles>若想執行{0}，需要有以下職位的人</RitualUnfilledRoles>
+
+  <!-- EN: {0} desired -->
+  <IdeoBuildingMissing>殖民者期望 {0} 的建築</IdeoBuildingMissing>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>只要你的殖民地有{2}或更高時，{1}需要你有{0}。{4}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN: In order to dignify {0}, these room requirements must be met -->
+  <IdeoBuildingRoomRequirementsDesc>為了維持{0}的威嚴，這房間必須滿足要求</IdeoBuildingRoomRequirementsDesc>
+  <!-- EN: expectations are -->
+  <IdeoBuildingExpectations>期望是</IdeoBuildingExpectations>
+
+  <!-- EN: {0} disrespected -->
+  <IdeoBuildingDisrespected>不尊重{0}</IdeoBuildingDisrespected>
+  <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingDisrespectedDesc>{0}需要{1}在一個莊嚴的房間。這房間必須滿足要求:\n{2}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingDisrespectedDesc>
+  
+  <!-- EN: Raids arriving in {0} -->
+  <QuestPartRaidsDelay>襲擊將在{0}後到來</QuestPartRaidsDelay>
+  <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
+  <QuestPartRaidsDelayDesc>襲擊將在{0}後到來。\n\n襲擊者將會以太空無人機為目標並試圖摧毀它。保護太空無人機以便你的殖民者可以破解其電腦並取得資料。</QuestPartRaidsDelayDesc>
+
+  <!-- EN: {0} role unfilled -->
+  <IdeoRoleEmpty>{0} 職位未被分配</IdeoRoleEmpty>
+  <!-- EN: {0} roles unfilled -->
+  <IdeoRolesEmpty>{0} 職位未被分配</IdeoRolesEmpty>
+  <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab.\n\nIf these roles remain empty, the following people will be unhappy -->
+  <IdeoRolesEmptyDesc>這些職位未被分配:\n{0}\n\n你可以在殖民者的「社交」欄位上為其分配職位。\n\n若是這些職位被空著，信徒將會不開心。</IdeoRolesEmptyDesc>
+
+  <!-- EN: Security threats activated in {0} -->
+  <AncientAltarThreatsWaking>安全威脅將在{0}後啟動</AncientAltarThreatsWaking>
+  <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
+  <AncientAltarThreatsWakingDesc>安全威脅將在{0}後啟動，他們將會攻擊任何威脅到聖物的人。</AncientAltarThreatsWakingDesc>
+
+  <!-- EN: No recent slaughter -->
+  <AlertNoRecentSlaughter>近期沒有屠宰</AlertNoRecentSlaughter>
+  <!-- EN: No large {0} animal has been slaughtered recently. This is a requirement of the following ideoligions -->
+  <AlertNoRecentSlaughterDesc>近期沒有屠宰大型{0}動物。這對以下信仰是必要的</AlertNoRecentSlaughterDesc>
+  <!-- EN: {0} body size or above -->
+  <BodySizeOrAbove>身體大小為{0}或以上</BodySizeOrAbove>
+  <!-- EN: If no slaughter is performed, these colonists will remain unhappy -->
+  <AlertNoRecentSlaughterDescPost>如果不進行屠殺，這些殖民者將持續不高興</AlertNoRecentSlaughterDescPost>
+  
+  <!-- EN: Ritual opportunity soon -->
+  <AlertRitualComing>儀式時機即將來臨</AlertRitualComing>
+  <!-- EN: A ritual opportunity is coming soon for following rituals -->
+  <AlertRitualComingDesc>以下的儀式時機將近</AlertRitualComingDesc>
+  <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
+  <AlertRitualComingExtra>時機將在{0}天後結束，並在每年的同一天再次發生。</AlertRitualComingExtra>
+  <!-- EN: {0} on {1}, {2} left -->
+  <AlertRitualComingEntry>{0} 於 {1}，剩下{2}</AlertRitualComingEntry>
+
+  <!-- EN: Age reversal demanded -->
+  <AlertAgeReversalDemandNear>返老還童的要求</AlertAgeReversalDemandNear>
+  <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
+  <AlertAgeReversalDemandDesc>基於信仰，你的一些殖民者需要在塑體艙中定期接受返老的治療。如果沒得到治療，他們會不高興。\n\n以下人要求返老治療</AlertAgeReversalDemandDesc>
+  <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Recruit>{PAWN}最近加入了{FACTION}，並希望在 {DURATION}內開始返老治療。</AlertAgeReversalDemandDesc_Recruit>
+  <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Next>{PAWN}希望在{DURATION}內接受下一次治療。</AlertAgeReversalDemandDesc_Next>
+  <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Initial>{PAWN}希望在{DURATION}內進行第一次治療。</AlertAgeReversalDemandDesc_Initial>
+  <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Overdue>{PAWN}的治療已在{DURATION}過期。</AlertAgeReversalDemandDesc_Overdue>
+
+  <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
+  <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_nameDef} 對 {IDEO_name} 的信念阻止了 {PAWN_objective} 吃 {ANIMALS} 的肉。</AlertRoyalTitleNoVeneratedAnimalMeat>
+
+  <!-- EN: Dryad caste not set -->
+  <AlertGauranlenTreeWithoutDryadTypeLabel>樹精的種類未設置</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
+  <AlertGauranlenTreeWithoutDryadTypeDesc>一棵或多棵高嵐樹沒有設置他們的樹精種類。\n\n選擇高嵐樹並按下「{0}」按鈕以設置樹精種類。</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <!-- EN: Connector not assigned to plant cutting -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>高嵐樹連結者未被分配採收工作</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有高嵐樹設置為需要修剪，但他們的連結者未被分配採收工作。\n\n你應該分配採收工作給以下的人</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+
+  <!-- EN: Fuel node explodes in {0} -->
+  <AlertFuelNodeIgniting>燃料節點將在{0}爆炸</AlertFuelNodeIgniting>
+  <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
+  <AlertFuelNodeIgnitingDesc>一個燃料節點已經點燃！它很快就會熔化並爆炸。\n\n離開並準備好撲救或逃離火災。</AlertFuelNodeIgnitingDesc>
+
+  <!-- EN: Insects arriving in {0} -->
+  <AlertInfestationArriving>蟲災將在{0}到達</AlertInfestationArriving>
+  <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
+  <AlertInfestationArrivingDesc>巨型昆蟲已經感應到您的活動，並從地下挖洞進行攻擊。侵擾即將開始。</AlertInfestationArrivingDesc>
+
+  <!-- EN: {0_pawnsPlural} waking in {1} -->
+  <AlertHostilesWakingUp>{0_pawnsPlural}將在{1}醒來</AlertHostilesWakingUp>
+  <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
+  <AlertHostilesWakingUpDesc>一個或多個 {0_pawnsPlural} 正在醒來。\n\n如果被他們發現，他們就會攻擊你。</AlertHostilesWakingUpDesc>
+
+  <!-- EN: Cryptosleep caskets opening in {0} -->
+  <AlertCasketOpening>休眠艙將在{0}後開啟</AlertCasketOpening>
+  <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
+  <AlertCasketOpeningDesc>即將開啟的休眠艙含有未知的威脅</AlertCasketOpeningDesc>
+
+  <!-- EN: Slave rebellion likely -->
+  <AlertSlaveRebellionLikely>奴隸叛變隱患</AlertSlaveRebellionLikely>
+  <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
+  <AlertSlaveRebellionLikelyRebelliousCount>{REBELLIOUSCOUNT}名奴隸正密謀叛變</AlertSlaveRebellionLikelyRebelliousCount>
+  <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
+  <AlertSlaveRebellionLikelyMostRebellious>約每{COMBINEDTIME}可能會有一場奴隸叛變。留意，每名奴隸有著不同的叛變機率，所以他們之中任何一名叛變都有可能帶動其他人一起作反。\n\n{REBEL_labelShort}是最有可能叛變的奴隸，並可能會每{INDIVIDUALTIME}發動一場叛變。以下是影響他們叛變頻率的因素︰</AlertSlaveRebellionLikelyMostRebellious>
+  
+</LanguageData>

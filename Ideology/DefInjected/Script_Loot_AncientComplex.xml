@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've learned of an ancient complex nearby that is said to contain ancient treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
+  -->
+  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings><li>questDescription->你已研究附近的遠古建築群並解讀出這裡藏有遠古財寶。\n\n你可以攻進裡面並搜集戰利品。\n\n警告 — 這類建築裡面可能有各種的危險。而且，你在建築群內的活動也可能引起敵人的注意。</li></OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
+    <li>questName->[complex] [finalWord]</li>
+    <li>complexAdj->secret</li>
+    <li>complexAdj->mysterious</li>
+    <li>complexAdj->ancient</li>
+    <li>complexAdj->old</li>
+    <li>complexAdj->hidden</li>
+    <li>complexAdj->deathly</li>
+    <li>complex->complex</li>
+    <li>complex->installation</li>
+    <li>complex->structure</li>
+    <li>finalWord->treasure</li>
+    <li>finalWord->riches</li>
+    <li>finalWord->trove</li>
+    <li>finalWord->cache</li>
+    <li>finalWord->loot</li>
+    <li>finalWord->robbing</li>
+    <li>finalWord->looting</li>
+    <li>finalWord->raiding</li>
+    <li>finalWord->theft</li>
+    <li>finalWord->heist</li>
+    <li>finalWord->caper</li>
+    <li>finalWord->booty</li>
+  -->
+  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj][complex][finalWord]</li>
+    <li>questName->[complex][finalWord]</li>
+    <li>complexAdj->秘密的</li>
+    <li>complexAdj->神秘的</li>
+    <li>complexAdj->遠古的</li>
+    <li>complexAdj->古老的</li>
+    <li>complexAdj->隱蔽的</li>
+    <li>complexAdj->危險的</li>
+    <li>complex->建築群</li>
+    <li>complex->設施</li>
+    <li>complex->建築物</li>
+    <li>finalWord->的財寶</li>
+    <li>finalWord->的財富</li>
+    <li>finalWord->的寶物</li>
+    <li>finalWord->的收藏</li>
+    <li>finalWord->的戰利品</li>
+    <li>finalWord->的偷竊</li>
+    <li>finalWord->的搜刮</li>
+    <li>finalWord->的洗劫</li>
+    <li>finalWord->的賊人</li>
+    <li>finalWord->的劫匪</li>
+    <li>finalWord->的不法之徒</li>
+    <li>finalWord->的贓物</li>
+  </OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+  
+</LanguageData>
