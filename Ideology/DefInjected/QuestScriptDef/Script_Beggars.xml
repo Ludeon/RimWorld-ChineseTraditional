@@ -12,8 +12,8 @@
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
   <Beggars.questContentRules.rulesStrings>
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural]背叛了</li>
-    <li>letterTextBeggarsBetrayed->曾經在此接受你的幫助的[groupLabelSingleOrPlural]背叛了。具善行信仰的信徒們將會變得不高興。 Colonists with charitable beliefs will be unhappy.</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural]被背叛了</li>
+    <li>letterTextBeggarsBetrayed->請求你的幫助的[groupLabelSingleOrPlural]被背叛了。具善行信仰的信徒們將會變得不高興。</li>
     <li>groupLabelSingleOrPlural(beggarCount==1)->流浪者</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->流浪者們</li>
     </Beggars.questContentRules.rulesStrings>
@@ -53,7 +53,7 @@
     <li>beggingForInfo->[requestedThingCount][requestedThing_label]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->他們</li>
-    <li>questDescription->[approachInfo]。[requestInfo]。[claimInfo]。\n\n[interactionInfo]。\n\n[moveOnInfo]。\n\n[travelerInfo] 不是任何派系的一員。視乎你的意向，你可以選擇殺掉他們、俘虜、當奴隸販賣甚至摘除[traverObjective]的器官，而不會有外交關系影響。</li>
+    <li>questDescription->[approachInfo]。[requestInfo]。[claimInfo]。\n\n[interactionInfo]。\n\n[moveOnInfo]。\n\n[travelerInfo]不是任何派系的一員。視乎你的意向，你可以選擇殺掉他們、俘虜、當奴隸販賣甚至摘除[traverObjective]的器官，而不會有外交關系影響。</li>
     <li>approachInfo(beggarCount==1)-一名叫做[beggars0_nameDef]的窮困[groupLabelSingle]正在接近殖民地乞求援助</li>
     <li>approachInfo(beggarCount>=2)->一群[groupLabelPlural]正在接近殖民地乞求援助</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef]想要[beggingForInfo]</li>
