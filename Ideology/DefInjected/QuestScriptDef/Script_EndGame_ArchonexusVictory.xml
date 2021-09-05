@@ -4,11 +4,11 @@
   <!-- EN:
     <li>questDescription-></li>
   -->
-  <EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>TODO</EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings><li>questDescription-></li></EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName-></li>
   -->
-  <EndGame_ArchonexusVictory.questNameRules.rulesStrings>TODO</EndGame_ArchonexusVictory.questNameRules.rulesStrings>
+  <EndGame_ArchonexusVictory.questNameRules.rulesStrings><li>questName-></li></EndGame_ArchonexusVictory.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[descriptionIntro] looking to expand their territory, and are interested in taking over [playerSettlements] with all [itsTheir] wealth and technology. If you can increase your total wealth to [requiredWealth_money], they will take the [settlementsSingularOrPlural].\n\nIn trade, they offer you part of a map showing the location of an ancient archotech nexus. The archonexus is thought to be a conduit through which an archotech superintelligence influences the physical world. If you could invoke its power, what happens next could go beyond physical reality.\n\n[onlyHaveHas] one piece of the map. The other parts are held by other factions.\n\nIf you accept their offer, the [factionPawnsPlural] will take possession of [playerSettlements], including all items, people, and recorded research. They'll bring [colonistsAllowed] of your people and [animalsAllowed] of your animals to anywhere you want on the planet to start a new colony.\n\nLater, you can trade with others for the final two parts of the map.</li>
@@ -23,11 +23,23 @@
     <li>descriptionIntro(factionless==false)->[civilOutlander_name] is</li>
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>TODO</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription->[descriptionIntro]打算擴張他們的領地，並有興趣接管[playerSettlements]以及[itsTheir]財富及科技。如果你可以把財富增加至[requiredWealth_money]，他們將會接管[settlementsSingularOrPlural].\n\n作為交易，他們會給你一部份的地圖顯示古代遠古聯繫的位置。遠古聯繫被認為是遠古超智能科技操控世界的渠道。如果你可以喚醒它的力量，將能引發超越現實範疇的事。\n\n[onlyHaveHas]其中一片地圖。其餘地圖在別的派系手上。\n\n如果你接受此提案，[factionPawnsPlural]就會進駐[playerSettlements]，包括擁有所有物品，人，和完成的研究。他們會把[colonistsAllowed]個人和[animalsAllowed]頭動物帶到你指定的地方以開始新的殖民地。\n\n之後，你可以與其他人交易得其餘兩片地圖。</li>
+    <li>itsTheir(playerSettlementsCount==1)->那</li>
+    <li>itsTheir(playerSettlementsCount>=2)->那些</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount==1)->殖民地</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->這些殖民地</li>
+    <li>onlyHaveHas(factionless==false)->[civilOutlander_name]只擁有</li>
+    <li>onlyHaveHas(factionless==true)->那群自由人只擁有</li>
+    <li>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</li>
+    <li>factionPawnsPlural(factionless==true)->那群自由人</li>
+    <li>descriptionIntro(factionless==false)->[civilOutlander_name]正</li>
+    <li>descriptionIntro(factionless==true)->一群自由人正在</li>
+  </EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
-  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>TODO</EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
+  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings><li>questName->遠古聯繫</li></EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->With the first archonexus map part securely recorded, you prepare for the next step of your journey.\n\n[cycle1Faction] told you of the cataclysm that destroyed this world. Humans built a great thinking machine here centuries ago. It turned against the people and there was a great war. Only a few were left when the machine transcended and fell dormant.\n\nThe map to the archonexus has three parts, and you hold one of them. [otherMapPartHolders] also each hold parts of the map. They'll trade their parts to you for a wealthy new colony and all of its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building.</li>
@@ -41,11 +53,23 @@
     <li>descriptionStudyRequirement(studyRequirement==true)->\n\nThe next map part is encoded in a very strange way. In order to interpret it, you must first learn more about archotechnology by studying the structure here.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>TODO</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription->安全地保管好第一張遠古聯繫地圖後，你將預備你的旅程的下一步。\n\n[cycle1Faction]和你分享了關於曾經毀滅世界的一場大災難。一世紀前人類在此製作了一台超級智能機器。它轉向對付人類並引發大戰。直至那台機器超然至另一世界並陷入沉睡，剩下幾名人類才得以倖存。\n\n前往遠古聯繫的地圖總共有三片，而你擁有其中一片。[otherMapPartHolders]也每人擁有一片地圖。他們會以他們的地圖和你交易你富有的新殖民地以及研究到的科技。[descriptionStudyRequirement]\n\n是時候建設新地方了。</li>
+    <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
+    <li>cycle1Faction(factionless==true)->[wildPeople]</li>
+    <li>otherMapPartHolders(factionless==false)->[roughOutlander_name]和[roughTribe_name]</li>
+    <li>otherMapPartHolders(factionless==true)->其他[wildPeople]</li>
+    <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
+    <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
+    <li>wildPeople->自由人</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n下一場地圖碎片以一個非常罕見的方法加密了。為了理解它，你必須先研究手上地圖的結構以了解更多關於遠古科技的事。</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+  </EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
-  <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>TODO</EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
+  <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings><li>questName->遠古聯繫</li></EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questAcceptedLetterLabel->archonexus discovered</li>
@@ -61,14 +85,27 @@
     <li>descriptionThreats(threatsEnabled==true)->The archonexus will likely have mechanoid defenders, so go prepared.\n\n</li>
     <li>descriptionThreats(threatsEnabled==false)-></li>
   -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>TODO</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+    <li>questAcceptedLetterLabel->發現遠古聯繫</li>
+    <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
+    <li>questDescriptionBeforeAccepted->你擁有兩片遠古聯繫地圖碎片了。[factionName]則擁有最後一片自他們那位從大災難活下來的祖先承傳下來的地圖碎片。他們會以他們的地圖和你交易你富有的新殖民地以及研究到的科技。[descriptionStudyRequirement]\n\n是時候建設新地方了。</li>
+    <li>questDescriptionAfterAccepted->[descriptionIntro]給了你最後一片遠古聯繫地圖碎片。運用你對於遠古科技的資訊加密的認識，你成功把地圖解碼並找到遠古聯繫的地點。\n\n你的盟友沒想過你會有回來的一天，所以當你離開這裡，他們將接管[playerSettlements]。\n\n[descriptionThreats]現在剩下的所有都被帶到遠古聯繫，喚醒機械之神的力量，以及了解那些故事是否真實。</li>
+    <li>factionName(factionless==false)->[roughTribe_name]</li>
+    <li>factionName(factionless==true)->自由人</li>
+    <li>descriptionIntro(factionless==false)->[roughTribe_name]的領袖[roughTribe_leader_nameDef]</li>
+    <li>descriptionIntro(factionless==true)->自由人</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n像之前一樣，地圖被加密了。為了解密它，你必須先研究那遠古科技結構。</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+    <li>descriptionThreats(threatsEnabled==true)->遠古聯繫那裡很可能駐紮許多機械守衛，所以你最好預備一下。\n\n</li>
+    <li>descriptionThreats(threatsEnabled==false)-></li>
+  </EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription-></li>
   -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>TODO</EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings><li>questDescription-></li></EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>TODO</EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
+  <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings><li>questName->遠古聯繫</li></EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
   
 </LanguageData>
