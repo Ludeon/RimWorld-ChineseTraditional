@@ -3,9 +3,9 @@
 
   <!-- Convert ideo attempt -->
   <!-- EN: Conversion -->
-  <LetterLabelConvertIdeoAttempt_Success>改信</LetterLabelConvertIdeoAttempt_Success>
+  <LetterLabelConvertIdeoAttempt_Success>傳教</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
-  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} 成功讓 {RECIPIENT_nameDef} 從 {OLDIDEO_name} 皈依為 {IDEO_name}。</LetterConvertIdeoAttempt_Success>
+  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef}成功讓{RECIPIENT_nameDef}從{OLDIDEO_name}皈依為{IDEO_name}。</LetterConvertIdeoAttempt_Success>
 
   <!-- Slave rebellion -->
   <!-- EN: Grand slave rebellion -->
@@ -15,7 +15,7 @@
   <!-- EN: Local slave rebellion -->
   <LetterLabelLocalSlaveRebellion>部份奴隸叛變</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>發生部份的奴隸叛變!{0_nameDef}以及一些周圍的奴隸正起義反抗你。他們會尋找武器並試圖殲滅你的殖民者。\n\n包括以下奴隸:\n\n {1}</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>發生部份的奴隸叛變!{0_nameDef}以及一些周圍的奴隸正起義反抗你。他們會尋找武器並試圖殲滅你的殖民者。\n\n包括以下奴隸:\n\n{1}</LetterLocalSlaveRebellion> 
   <!-- EN: Slave rebellion -->
   <LetterLabelSingleSlaveRebellion>奴隸叛變</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
@@ -75,14 +75,14 @@
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
   <LetterTitleObligationsDeactivatedTooFewBelievers>你的派系少於{1}位{IDEO_memberNamePlural}。因此，{IDEO_memberNamePlural}不再要求舉行{IDEO}儀式直至你的派系中至少有{1}個他們。</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedEnoughBelievers>由於你的派系現在有 {1} 位{IDEO_memberNamePlural}，他們會要求舉行{IDEO}儀式。</LetterTitleObligationsActivatedEnoughBelievers>
+  <LetterTitleObligationsActivatedEnoughBelievers>由於你的派系現在有{1}位{IDEO_memberNamePlural}，他們會要求舉行{IDEO}儀式。</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedIdeoBecameMajor>由於現在{IDEO}是你的派系的主要理念, {IDEO_memberNamePlural}會要求舉行{IDEO}儀式。</LetterTitleObligationsActivatedIdeoBecameMajor>
+  <LetterTitleObligationsActivatedIdeoBecameMajor>由於現在{IDEO}是你的派系的主要理念,{IDEO_memberNamePlural}會要求舉行{IDEO}儀式。</LetterTitleObligationsActivatedIdeoBecameMajor>
 
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>羈絆已移除</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
-  <LetterBondRemovedDesc>{PAWN_nameDef}已改信{IDEO}。由於{IDEO}不容許與動物的羈絆，{PAWN_pronoun}已放棄了{PAWN_possessive}與以下動物的羈絆:\n\n{BONDS}</LetterBondRemovedDesc>
+  <LetterBondRemovedDesc>{PAWN_nameDef}已皈依{IDEO}。由於{IDEO}不容許與動物的羈絆，{PAWN_pronoun}已放棄了{PAWN_possessive}與以下動物的羈絆:\n\n{BONDS}</LetterBondRemovedDesc>
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
@@ -110,7 +110,7 @@
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
   <LetterIdeoChangeNotConverted>{PAWN_nameDef}對於信奉{OLDIDEO_name}的{PAWN_possessive}的感悟已降至{NEWCERTAINTY}。</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>為適應對{PAWN_possessive}的信仰, {PAWN_nameDef}現在正於{PAWN_possessive}房間閉門不出。</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>為適應對{PAWN_possessive}的信仰，{PAWN_nameDef}現在正於{PAWN_possessive}房間閉門不出。</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
   <LetterIdeoChangedSadWander>{PAWN_nameDef}因為與{PAWN_possessive}的信仰衝突而恍惚遊走</LetterIdeoChangedSadWander>
 
