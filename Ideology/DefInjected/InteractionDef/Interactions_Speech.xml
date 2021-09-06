@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: blinding speech -->
-  <Speech_Blinding.label>TODO</Speech_Blinding.label>
+  <Speech_Blinding.label>心視佈道</Speech_Blinding.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->blindness</li>
@@ -19,10 +19,25 @@
     <li>speechtopic->the true layers of reality under the visual</li>
     <li>speechtopic->psychic connections</li>
   -->
-  <Speech_Blinding.logRulesInitiator.rulesStrings>TODO</Speech_Blinding.logRulesInitiator.rulesStrings>
+  <Speech_Blinding.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->心視</li>
+    <li>speechtopic->心視的純潔</li>
+    <li>speechtopic->心視的精神意義</li>
+    <li>speechtopic->目視背後所隱藏的真理</li>
+    <li>speechtopic->我們所目視的世界的假象</li>
+    <li>speechtopic->除目的技巧</li>
+    <li>speechtopic->目視帶來的詛咒</li>
+    <li>speechtopic->眼球中的漿液</li>
+    <li>speechtopic->目視人生的成長</li>
+    <li>speechtopic->心視人生的成長</li>
+    <li>speechtopic->摒除目視和移動來探索四周</li>
+    <li>speechtopic->被目視所掩蓋的那層真實</li>
+    <li>speechtopic->心靈的連結</li>
+  </Speech_Blinding.logRulesInitiator.rulesStrings>
   
   <!-- EN: conversion speech -->
-  <Speech_Conversion.label>TODO</Speech_Conversion.label>
+  <Speech_Conversion.label>傳教佈道</Speech_Conversion.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->uniting for the greater good</li>
@@ -41,10 +56,27 @@
     <li>speechtopic->false other beliefs</li>
     <li>speechtopic->progress towards the future</li>
   -->
-  <Speech_Conversion.logRulesInitiator.rulesStrings>TODO</Speech_Conversion.logRulesInitiator.rulesStrings>
+  <Speech_Conversion.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->團結一起集結出更大成果</li>
+    <li>speechtopic->叛教的壞處</li>
+    <li>speechtopic->選擇正確的信仰</li>
+    <li>speechtopic->宇宙間的道德架構</li>
+    <li>speechtopic->善與惡</li>
+    <li>speechtopic->生命的目標</li>
+    <li>speechtopic->生命的意義</li>
+    <li>speechtopic->人類的歷史</li>
+    <li>speechtopic->人類的未來</li>
+    <li>speechtopic->愛與恨</li>
+    <li>speechtopic->惶恐與安逸</li>
+    <li>speechtopic->信奉的好處</li>
+    <li>speechtopic->加入與信奉</li>
+    <li>speechtopic->其他信仰的虛假</li>
+    <li>speechtopic->邁向未來的步伐</li>
+  </Speech_Conversion.logRulesInitiator.rulesStrings>
   
   <!-- EN: celebration speech -->
-  <Speech_DateRitual.label>TODO</Speech_DateRitual.label>
+  <Speech_DateRitual.label>慶祝演講</Speech_DateRitual.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
     <li>praisetopic->the joy of ideological celebrations</li>
@@ -56,10 +88,20 @@
     <li>praisetopic->sharing ideas</li>
     <li>praisetopic->[INITIATOR_possessive] own group</li>
   -->
-  <Speech_DateRitual.logRulesInitiator.rulesStrings>TODO</Speech_DateRitual.logRulesInitiator.rulesStrings>
+  <Speech_DateRitual.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][praised][praisetopic]。</li>
+    <li>praisetopic->理念慶典的喜悅</li>
+    <li>praisetopic->正確的意念</li>
+    <li>praisetopic->宇宙間的道德架構</li>
+    <li>praisetopic->[INITIATOR_possessive]的信仰</li>
+    <li>praisetopic->團結的力量</li>
+    <li>praisetopic->齊心合力</li>
+    <li>praisetopic->多元意見</li>
+    <li>praisetopic->[INITIATOR_possessive]的團體</li>
+  </Speech_DateRitual.logRulesInitiator.rulesStrings>
   
   <!-- EN: duel speech -->
-  <Speech_Duel.label>TODO</Speech_Duel.label>
+  <Speech_Duel.label>比試演講</Speech_Duel.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
     <li>praisetopic->death by blade</li>
@@ -78,10 +120,27 @@
     <li>praisetopic->anger and hope</li>
     <li>praisetopic->rage and strength</li>
   -->
-  <Speech_Duel.logRulesInitiator.rulesStrings>TODO</Speech_Duel.logRulesInitiator.rulesStrings>
+  <Speech_Duel.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][praised][praisetopic]。</li>
+    <li>praisetopic->刀下亡魂</li>
+    <li>praisetopic->痛苦之死</li>
+    <li>praisetopic->光榮之死</li>
+    <li>praisetopic->光榮之戰</li>
+    <li>praisetopic->毅力與爭扎</li>
+    <li>praisetopic->[AdjectiveBadass]武器和鬥士</li>
+    <li>praisetopic->刀劍交鋒的純潔</li>
+    <li>praisetopic->以死傳遞愛</li>
+    <li>praisetopic->為生命驅逐憎恨</li>
+    <li>praisetopic->一山還有一山高</li>
+    <li>praisetopic->宇宙間亙古的爭鬥</li>
+    <li>praisetopic->血與塵土</li>
+    <li>praisetopic->人生如戲</li>
+    <li>praisetopic->憤怒與祈禱</li>
+    <li>praisetopic->狂暴與力量</li>
+  </Speech_Duel.logRulesInitiator.rulesStrings>
   
   <!-- EN: exceution speech -->
-  <Speech_Execution.label>TODO</Speech_Execution.label>
+  <Speech_Execution.label>處刑演講</Speech_Execution.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->life and death</li>
@@ -94,10 +153,21 @@
     <li>speechtopic->capital punishment and its history</li>
     <li>speechtopic->the reasons for the execution</li>
   -->
-  <Speech_Execution.logRulesInitiator.rulesStrings>TODO</Speech_Execution.logRulesInitiator.rulesStrings>
+  <Speech_Execution.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->生與死</li>
+    <li>speechtopic->正義的必要性</li>
+    <li>speechtopic->處刑的方式</li>
+    <li>speechtopic->死亡與暴行</li>
+    <li>speechtopic->仁慈地處死</li>
+    <li>speechtopic->正當處死的慈悲</li>
+    <li>speechtopic->死亡的象徵意義</li>
+    <li>speechtopic->極刑和它的歷史</li>
+    <li>speechtopic->處刑的原因</li>
+  </Speech_Execution.logRulesInitiator.rulesStrings>
   
   <!-- EN: funeral speech -->
-  <Speech_Funeral.label>TODO</Speech_Funeral.label>
+  <Speech_Funeral.label>喪禮演講</Speech_Funeral.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->the nobility of sacrifice</li>
@@ -113,10 +183,24 @@
     <li>speechtopic->life and joy</li>
     <li>speechtopic->carrying forward unfinished work</li>
   -->
-  <Speech_Funeral.logRulesInitiator.rulesStrings>TODO</Speech_Funeral.logRulesInitiator.rulesStrings>
+  <Speech_Funeral.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->死者的高尚情操</li>
+    <li>speechtopic->逝世</li>
+    <li>speechtopic->極樂世界</li>
+    <li>speechtopic->逝世與家庭</li>
+    <li>speechtopic->何謂完滿的人生</li>
+    <li>speechtopic->為尊嚴而死</li>
+    <li>speechtopic->起始與結束</li>
+    <li>speechtopic->死後會發生的事</li>
+    <li>speechtopic->祝賀邁進下一步</li>
+    <li>speechtopic->逝去的摯友</li>
+    <li>speechtopic->生命與喜悅</li>
+    <li>speechtopic->承傳未了之使命</li>
+  </Speech_Funeral.logRulesInitiator.rulesStrings>
   
   <!-- EN: leader speech -->
-  <Speech_Leader.label>TODO</Speech_Leader.label>
+  <Speech_Leader.label>領袖演講</Speech_Leader.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->searching for [Vegetable]s</li>
@@ -153,10 +237,45 @@
     <li>speechtopic(p=0.25)->strong hands and hearts</li>
     <li>speechtopic(p=0.25)->the right to survive</li>
   -->
-  <Speech_Leader.logRulesInitiator.rulesStrings>TODO</Speech_Leader.logRulesInitiator.rulesStrings>
+  <Speech_Leader.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->尋找[Vegetable]</li>
+    <li>speechtopic->如何變得[AdjectiveFriendly]</li>
+    <li>speechtopic->迴避[AnimalBadass]s</li>
+    <li>speechtopic->人生如[Game]</li>
+    <li>speechtopic->[Weapon]的思維</li>
+    <li>speechtopic->探索[TerrainFeature]和[TerrainFeature]</li>
+    <li>speechtopic->承諾向著[Direction]</li>
+    <li>speechtopic->模仿[Animal]生活</li>
+    <li>speechtopic->[NaturalObject]和[NaturalObject]的象徵意義</li>
+    <li>speechtopic->大家都是[PersonFamily]和[PersonFamily]</li>
+    <li>speechtopic->如何變成好[PersonAlly]</li>
+    <li>speechtopic->[PersonJob]的重要性</li>
+    <li>speechtopic->避免成為[PersonBadass]</li>
+    <li>speechtopic->心懷[ConceptPositive]打倒[Enemy]</li>
+    <li>speechtopic->在戰鬥中看見[Gore]</li>
+    <li>speechtopic->[Mechanoid]的歷史</li>
+    <li>speechtopic->[ConceptPositive]的意義</li>
+    <li>speechtopic->殖民地的[ConceptPositive]</li>
+    <li>speechtopic->如何變得[AdjectiveBadass]而不[AdjectiveBadass]</li>
+    <li>speechtopic->殖民地有多麼[AdjectiveBadass]</li>
+    <li>speechtopic->[AdjectiveNatural]的[TerrainFeature]</li>
+    <li>speechtopic->殖民地的[AdjectiveLarge]潛質</li>
+    <li>speechtopic->每位居民的[PersonalCharacteristic]</li>
+    <li>speechtopic->敵方可怕的[PersonalCharacteristic]</li>
+    <li>speechtopic(p=0.25)->聚首一堂</li>
+    <li>speechtopic(p=0.25)->跨越萬難的道路</li>
+    <li>speechtopic(p=0.25)->社會的重要性</li>
+    <li>speechtopic(p=0.25)->生存VS生活</li>
+    <li>speechtopic(p=0.25)->困難中找到快樂</li>
+    <li>speechtopic(p=0.25)->苦難中尋求安定</li>
+    <li>speechtopic(p=0.25)->視死如歸</li>
+    <li>speechtopic(p=0.25)->強大的力量與心智</li>
+    <li>speechtopic(p=0.25)->生存的權利</li>
+  </Speech_Leader.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
-  <Speech_Sacrifice.label>TODO</Speech_Sacrifice.label>
+  <Speech_Sacrifice.label>祭獻佈道</Speech_Sacrifice.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
@@ -180,10 +299,32 @@
     <li>crazy->brandished a blade</li>
     <li>crazy->muttered repetitively</li>
   -->
-  <Speech_Sacrifice.logRulesInitiator.rulesStrings>TODO</Speech_Sacrifice.logRulesInitiator.rulesStrings>
+  <Speech_Sacrifice.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_nameDef][crazy]。</li>
+    <li>speechtopic->死亡的意義與真理</li>
+    <li>speechtopic->痛苦的展現</li>
+    <li>speechtopic->制馭殘酷</li>
+    <li>speechtopic->血液的溫度</li>
+    <li>speechtopic->死亡的意義</li>
+    <li>speechtopic->愛與死亡</li>
+    <li>speechtopic->痛苦的象徵</li>
+    <li>speechtopic->刀與血肉</li>
+    <li>speechtopic->切割的藝術</li>
+    <li>speechtopic->血的魅力</li>
+    <li>speechtopic->慘叫的交響曲</li>
+    <li>speechtopic->滿地的內臟</li>
+    <li>crazy->瘋狂尖叫</li>
+    <li>crazy->突然反複念誦</li>
+    <li>crazy->向天堂念誦</li>
+    <li>crazy->向祭品的眼睛吐口水</li>
+    <li>crazy->嘎嘎咯咯</li>
+    <li>crazy->揮舞匕首</li>
+    <li>crazy->反複地喃喃自語</li>
+  </Speech_Sacrifice.logRulesInitiator.rulesStrings>
   
   <!-- EN: scarification speech -->
-  <Speech_Scarification.label>TODO</Speech_Scarification.label>
+  <Speech_Scarification.label>紋禮佈道</Speech_Scarification.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
@@ -205,10 +346,30 @@
     <li>crazy->brandished a blade</li>
     <li>crazy->muttered repetitively</li>
   -->
-  <Speech_Scarification.logRulesInitiator.rulesStrings>TODO</Speech_Scarification.logRulesInitiator.rulesStrings>
+  <Speech_Scarification.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_nameDef][crazy]。</li>
+    <li>speechtopic->將痛苦劃印在身體上</li>
+    <li>speechtopic->痛苦的展現</li>
+    <li>speechtopic->制馭殘酷</li>
+    <li>speechtopic->血液的溫度</li>
+    <li>speechtopic->傷疤的意義</li>
+    <li>speechtopic->愛與痛楚</li>
+    <li>speechtopic->痛苦的象徵</li>
+    <li>speechtopic->刀與血肉</li>
+    <li>speechtopic->切割的藝術</li>
+    <li>speechtopic->血的魅力</li>
+    <li>speechtopic->慘叫的交響曲</li>
+    <li>crazy->瘋狂尖叫<</li>
+    <li>crazy->突然反複念誦</li>
+    <li>crazy->向天堂念誦</li>
+    <li>crazy->嘎嘎咯咯</li>
+    <li>crazy->揮舞匕首</li>
+    <li>crazy->反複地喃喃自語</li>
+  </Speech_Scarification.logRulesInitiator.rulesStrings>
   
   <!-- EN: tree connection speech -->
-  <Speech_TreeConnection.label>TODO</Speech_TreeConnection.label>
+  <Speech_TreeConnection.label>樹木聯結佈道</Speech_TreeConnection.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->the trees and the people</li>
@@ -224,6 +385,20 @@
     <li>speechtopic->plant life and eternity</li>
     <li>speechtopic->connecting with nature</li>
   -->
-  <Speech_TreeConnection.logRulesInitiator.rulesStrings>TODO</Speech_TreeConnection.logRulesInitiator.rulesStrings>
+  <Speech_TreeConnection.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->樹與人</li>
+    <li>speechtopic->樹與心靈力量</li>
+    <li>speechtopic->樹精</li>
+    <li>speechtopic->高嵐樹的生命循環</li>
+    <li>speechtopic->高嵐樹的精神意義</li>
+    <li>speechtopic->樹木精神療法</li>
+    <li>speechtopic->樹精有多麼可愛</li>
+    <li>speechtopic->樹精的高貴</li>
+    <li>speechtopic->樹木的年齡</li>
+    <li>speechtopic->人類在樹下擔當的角色</li>
+    <li>speechtopic->植物的生命與永恆</li>
+    <li>speechtopic->與自然連結</li>
+  </Speech_TreeConnection.logRulesInitiator.rulesStrings>
   
 </LanguageData>

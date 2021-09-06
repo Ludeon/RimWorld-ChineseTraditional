@@ -2,35 +2,35 @@
 <LanguageData>
   
   <!-- EN: failed conversion -->
-  <Convert_Failure.label>TODO</Convert_Failure.label>
+  <Convert_Failure.label>傳教失敗</Convert_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
   -->
-  <Convert_Failure.logRulesInitiator.rulesStrings>TODO</Convert_Failure.logRulesInitiator.rulesStrings>
+  <Convert_Failure.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]試圖向[RECIPIENT_nameDef]傳教但失敗了。</li></Convert_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful conversion -->
-  <Convert_Success.label>TODO</Convert_Success.label>
+  <Convert_Success.label>傳教成功</Convert_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
   -->
-  <Convert_Success.logRulesInitiator.rulesStrings>TODO</Convert_Success.logRulesInitiator.rulesStrings>
+  <Convert_Success.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]試圖向[RECIPIENT_nameDef]傳教並成功了。</li></Convert_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: convert ideoligion attempt -->
-  <ConvertIdeoAttempt.label>TODO</ConvertIdeoAttempt.label>
+  <ConvertIdeoAttempt.label>試圖傳教</ConvertIdeoAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
   -->
-  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>TODO</ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]試圖讓[RECIPIENT_nameDef]皈依[INITIATOR_possessive]的理念。</li></ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: failed counsel -->
-  <Counsel_Failure.label>TODO</Counsel_Failure.label>
+  <Counsel_Failure.label>輔導失敗</Counsel_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
   -->
-  <Counsel_Failure.logRulesInitiator.rulesStrings>TODO</Counsel_Failure.logRulesInitiator.rulesStrings>
+  <Counsel_Failure.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]試圖輔導[RECIPIENT_nameDef]，但拙劣的談話使事情變得更糟糕了。</li></Counsel_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful counsel -->
-  <Counsel_Success.label>TODO</Counsel_Success.label>
+  <Counsel_Success.label>輔導成功</Counsel_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
     <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
@@ -40,27 +40,40 @@
     <li>problems->[RECIPIENT_possessive] painful feelings</li>
     <li>problems->recent difficulties</li>
   -->
-  <Counsel_Success.logRulesInitiator.rulesStrings>TODO</Counsel_Success.logRulesInitiator.rulesStrings>
+  <Counsel_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]開解了[RECIPIENT_nameDef]的[problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef]幫助[RECIPIENT_nameDef]渡過了[problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef]給予[RECIPIENT_nameDef]跨過難關的建議。</li>
+    <li>problems->[RECIPIENT_possessive]問題</li>
+    <li>problems->[RECIPIENT_possessive]困擾</li>
+    <li>problems->[RECIPIENT_possessive]傷痛</li>
+    <li>problems->最近的煩惱</li>
+  </Counsel_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: preached health -->
-  <PreachHealth.label>TODO</PreachHealth.label>
+  <PreachHealth.label>治癒加持</PreachHealth.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>
     <li>preaching_topic->reasons to live</li>
     <li>preaching_topic->higher ideoligious goals</li>
     <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
   -->
-  <PreachHealth.logRulesInitiator.rulesStrings>TODO</PreachHealth.logRulesInitiator.rulesStrings>
+  <PreachHealth.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]通過[preaching_topic]的講道強化了[RECIPIENT_nameDef]的治癒效果。</li>
+    <li>preaching_topic->關於生命意義</li>
+    <li>preaching_topic->關於高尚的理念目標</li>
+    <li>preaching_topic->[RECIPIENT_possessive]存在的意義</li>
+  </PreachHealth.logRulesInitiator.rulesStrings>
   
   <!-- EN: reassurance -->
-  <Reassure.label>TODO</Reassure.label>
+  <Reassure.label>鞏固</Reassure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
   -->
-  <Reassure.logRulesInitiator.rulesStrings>TODO</Reassure.logRulesInitiator.rulesStrings>
+  <Reassure.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]鞏固了[RECIPIENT_nameDef]的信念。</li></Reassure.logRulesInitiator.rulesStrings>
   
   <!-- EN: accuse -->
-  <Trial_Accuse.label>TODO</Trial_Accuse.label>
+  <Trial_Accuse.label>指控</Trial_Accuse.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] presented some evidence.</li>
     <li>r_logentry->[INITIATOR_nameDef] appealed to the emotions of the spectators.</li>
@@ -79,10 +92,27 @@
     <li>wrongdoing->hateful thinking</li>
     <li>wrongdoing->disloyalty</li>
   -->
-  <Trial_Accuse.logRulesInitiator.rulesStrings>TODO</Trial_Accuse.logRulesInitiator.rulesStrings>
+  <Trial_Accuse.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]舉出一些證據。</li>
+    <li>r_logentry->[INITIATOR_nameDef]喚起旁觀者的情緒。</li>
+    <li>r_logentry->[INITIATOR_nameDef]指控[RECIPIENT_nameDef][wrongdoing].</li>
+    <li>wrongdoing->破壞殖民地</li>
+    <li>wrongdoing->過份懶散</li>
+    <li>wrongdoing->吃光食物</li>
+    <li>wrongdoing->偷竊</li>
+    <li>wrongdoing->是一個可怕的人</li>
+    <li>wrongdoing->不尊重崇高的理念disrespecting sacred ideas</li>
+    <li>wrongdoing->不尊重聖像</li>
+    <li>wrongdoing->是異教徒</li>
+    <li>wrongdoing->是殺人犯</li>
+    <li>wrongdoing->褻瀆神明</li>
+    <li>wrongdoing->密謀叛變</li>
+    <li>wrongdoing->心存恨念</li>
+    <li>wrongdoing->不忠誠</li>
+  </Trial_Accuse.logRulesInitiator.rulesStrings>
   
   <!-- EN: defend -->
-  <Trial_Defend.label>TODO</Trial_Defend.label>
+  <Trial_Defend.label>辯解</Trial_Defend.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] deflected the accusation.</li>
     <li>r_logentry->[INITIATOR_nameDef] presented another interpretation.</li>
@@ -92,13 +122,21 @@
     <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
     <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
   -->
-  <Trial_Defend.logRulesInitiator.rulesStrings>TODO</Trial_Defend.logRulesInitiator.rulesStrings>
+  <Trial_Defend.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]否認指控。</li>
+    <li>r_logentry->[INITIATOR_nameDef]舉出另一說法。</li>
+    <li>r_logentry->[INITIATOR_nameDef]向陪審團求情。</li>
+    <li>r_logentry->[INITIATOR_nameDef]懇求網開一面。</li>
+    <li>r_logentry->[INITIATOR_nameDef]拖延審訊。</li>
+    <li>r_logentry->[INITIATOR_nameDef]反駁指控。</li>
+    <li>r_logentry->[INITIATOR_nameDef]稱這場審判不公正。</li>
+  </Trial_Defend.logRulesInitiator.rulesStrings>
   
   <!-- EN: work drive -->
-  <WorkDrive.label>TODO</WorkDrive.label>
+  <WorkDrive.label>工作指揮</WorkDrive.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
-  <WorkDrive.logRulesInitiator.rulesStrings>TODO</WorkDrive.logRulesInitiator.rulesStrings>
+  <WorkDrive.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]跟[RECIPIENT_nameDef]說要為殖民地加倍努力工作。</li></WorkDrive.logRulesInitiator.rulesStrings>
   
 </LanguageData>

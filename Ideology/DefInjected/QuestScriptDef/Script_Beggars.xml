@@ -11,7 +11,12 @@
     <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
-  <Beggars.questContentRules.rulesStrings>TODO</Beggars.questContentRules.rulesStrings>
+  <Beggars.questContentRules.rulesStrings>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural]被背叛了</li>
+    <li>letterTextBeggarsBetrayed->請求你的幫助的[groupLabelSingleOrPlural]被背叛了。具善行信仰的信徒們將會變得不高興。</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->流浪者</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->流浪者們</li>
+    </Beggars.questContentRules.rulesStrings>
   <!-- EN:
     <li>groupLabelPlural->travelers</li>
     <li>groupLabelSingle->traveler</li>
@@ -40,7 +45,34 @@
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
   -->
-  <Beggars.questDescriptionRules.rulesStrings>TODO</Beggars.questDescriptionRules.rulesStrings>
+  <Beggars.questDescriptionRules.rulesStrings>
+    <li>groupLabelPlural->流浪者們</li>
+    <li>groupLabelSingle->流浪者</li>
+    <li>travelerInfo(beggarCount==1)->這[groupLabelSingle]</li>
+    <li>travelerInfo(beggarCount>=2)->這群[groupLabelPlural]</li>
+    <li>beggingForInfo->[requestedThingCount][requestedThing_label]</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>traverObjective(beggarCount>=2)->他們</li>
+    <li>questDescription->[approachInfo]。[requestInfo]。[claimInfo]。\n\n[interactionInfo]。\n\n[moveOnInfo]。\n\n[travelerInfo]不是任何派系的一員。視乎你的意向，你可以選擇殺掉他們、俘虜、當奴隸販賣甚至摘除[traverObjective]的器官，而不會有外交關系影響。</li>
+    <li>approachInfo(beggarCount==1)-一名叫做[beggars0_nameDef]的窮困[groupLabelSingle]正在接近殖民地乞求援助</li>
+    <li>approachInfo(beggarCount>=2)->一群[groupLabelPlural]正在接近殖民地乞求援助</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef]想要[beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->這群[groupLabelPlural]想要[beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef]需要白銀去支付給海賊團伙的欠債，他們正在追捕[beggars0_objective]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef]需要藥品去治療附近一位受傷的流浪者。</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef]需要藥品去治療[beggars0_possessive] 的愛寵，牠在路上受傷了</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef]需要[requestedThing_label]來為他的一位身體虛弱的朋友接種以抵抗致命疾病</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef]需要以酒澆愁，因為[beggars0_possessive]一名同伴在路上遭遇意外死去，使他感到哀傷</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->他們需要白銀去贖回被綁架的朋友</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->他們需要藥品去為他們的一名因機械族而受傷的同伴進行緊急手術</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->他們需要藥品去救一名留在附近的一處被洗劫過的定居點的朋友</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->他們需要[requestedThing_label]去繼續安全地旅行至他們能稱為家的地方</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->他們需要以酒澆愁，因為他們的家園在一場突襲中被洗劫一空了</li>
+    <li>interactionInfo(beggarCount==1)->你可以點選一名居民並右鍵點擊[beggars0_nameDef]來幫助[beggars0_objective]</li>
+    <li>interactionInfo(beggarCount>=2)->你可以點選一名居民並右鍵點擊[groupLabelPlural]來幫助[beggars0_nameDef]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef]會在[visitDurationTicks_duration]後離開</li>
+    <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural]會在[visitDurationTicks_duration]後離開</li>
+  </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
     <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
@@ -66,6 +98,30 @@
     <li>alms->charity</li>
     <li>alms->resources</li>
   -->
-  <Beggars.questNameRules.rulesStrings>TODO</Beggars.questNameRules.rulesStrings>
+  <Beggars.questNameRules.rulesStrings>
+    <li>questName(beggarCount==1)->[beggarSingle][seekingSingle][alms]</li>
+    <li>questName(beggarCount>=2)->[beggarPlural][seekingPlural][alms]</li>
+    <li>beggarSingle->乞丐</li>
+    <li>beggarSingle->無家者</li>
+    <li>beggarSingle->流浪者</li>
+    <li>beggarSingle->旅行者</li>
+    <li>beggarPlural->[beggarSingle]們</li>
+    <li>seekingSingle->尋求</li>
+    <li>seekingSingle->要求</li>
+    <li>seekingSingle->希望得到</li>
+    <li>seekingSingle->想要</li>
+    <li>seekingSingle->需要</li>
+    <li>seekingSingle->乞求</li>
+    <li>seekingPlural->尋求</li>
+    <li>seekingPlural->要求</li>
+    <li>seekingPlural->希望得到</li>
+    <li>seekingPlural->想要</li>
+    <li>seekingPlural->需要</li>
+    <li>seekingPlural->乞求</li>
+    <li>alms->救濟</li>
+    <li>alms->援助</li>
+    <li>alms->幫助</li>
+    <li>alms->物資</li>
+  </Beggars.questNameRules.rulesStrings>
   
 </LanguageData>
