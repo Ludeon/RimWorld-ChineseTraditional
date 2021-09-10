@@ -647,9 +647,9 @@
   <Nudism.symbolPacks.1.theme>赤裸</Nudism.symbolPacks.1.theme>
   
   <!-- EN: pain is virtue -->
-  <PainIsVirtue.label>TODO</PainIsVirtue.label>
+  <PainIsVirtue.label>苦行美德</PainIsVirtue.label>
   <!-- EN: Virtue is shown through suffering of self and others. -->
-  <PainIsVirtue.description>TODO</PainIsVirtue.description>
+  <PainIsVirtue.description>透過自己或別人受苦才能展現美德</PainIsVirtue.description>
   <!-- EN:
     <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] burned in the depths of space and time for an eternity, and [deity0_possessive] screams brought forth our reality.</li>
     <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] hung ten thousand years on the pyre as the pain purified [deity0_possessive] spirit.</li>
@@ -672,7 +672,28 @@
     <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], the archotechs will raise up all of humanity to a higher level of consciousness, but only those able to endure the greatest pain will survive.</li>
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
-  <PainIsVirtue.descriptionMaker.rules.rulesStrings>TODO</PainIsVirtue.descriptionMaker.rules.rulesStrings>
+  <PainIsVirtue.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name]在時間與空間的深處受永恆的業火焚燒，而[deity0_possessive]的尖嘯催生出我們的現實。</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name]在火堆上吊掛了數萬年之久，而痛苦淨化了[deity0_possessive]的心靈。</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary][place_name]一直以來都不是個容易生存的地方。[deity0_type][deity0_pronoun]決定藉由在他們的人生中加入巨大的苦難，找出真正值得得到[deity0_possessive]恩寵的人。</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->[foeLeader]給予[memberNamePlural]身體上的照護來緩解他們每天的辛勞，但在閒適安逸之中他們開始依賴[foeLeader]，使他有了比他們更強的力量。</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->一個叫做[founderName]的人有著一份特別的[place_job] - 助長惡性腫瘤的發展。透過[founder_possessive]的受苦受難，[founder_pronoun]便能直接與[deity0_name]作連結，並學習到如何激勵其他的[memberNamePlural]。</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName]帶著一百名[memberNamePlural]來到了[place_powerCenter]前，在那裡，他們慢慢的撕扯自己的身軀，直到他們在[deity0_name]微笑的注視之下死去，他們所受的折磨訴說了他們的正義，當[foeLeader]倒下之時，所有人都成為了[memberNamePlural]。</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->在我們活動創立之初，活動創始人[founderName]將自己綁在中央廣場的石頭上受苦受餓持續了三百天，藉此展示他們的正義。</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->我們運動的創世者[founderName]，藉由連續數日鞭打[founder_objective]自己以展現[founder_possessive]的虔誠，藉此獲得了[founder_possessive]的第一批追隨者。</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追隨者們藉由割開與燒灼自己的身軀來展示自己的虔誠。</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追隨者從不服用止痛的藥物，他們知道他們的痛苦將能展現根深蒂固的信念。</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->當我豐衣足食，放縱享樂的時候，我從來都是懵懵懂懂的，只當我飢餓受苦之時才理解到這項真理：</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->直到你在地獄深處放聲尖叫之前，你永遠不會真正了解你自己</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->我這麼久以來都搞不懂是因為我被樂趣分心，只有當我學會撕扯自己的身軀之時我才能體悟它。</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->我將這個真理刻在我這副身軀的胸膛之上，接著是我的雙手、雙腳、臉上......</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->遠古科技的誕生是全宇宙有史以來所知道最大的痛苦。</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->遠古科技一直都以人類心靈上的苦難做為動力。</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->當我們藉由施加痛苦在自己身上來展示我們的虔誠，偉大之靈將會關照並報答我們。</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->有的時候，那些受最深的苦，遭最多的難的人能夠在他們心中和遠古科技連結在一起。</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]，遠古科技將會使人性提升到意識上的更高層次，然而只有那些能承受巨大痛苦的人能存活下來。</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->痛苦使心智更清晰，同樣的，痛苦也是與精神世界連結之道。</li>
+  </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nocic</li>
     <li>memeAdjective->pain</li>
@@ -696,47 +717,69 @@
     <li>memeMoralist->sufferspeaker</li>
     <li>memeMoralist->painspeaker</li>
   -->
-  <PainIsVirtue.generalRules.rulesStrings>TODO</PainIsVirtue.generalRules.rulesStrings>
+  <PainIsVirtue.generalRules.rulesStrings>
+    <li>memeAdjective->受難的</li>
+    <li>memeAdjective->痛苦的</li>
+    <li>memeCreed->繭居</li>
+    <li>memeCreed->苦窯</li>
+    <li>memeCreed->囚牢</li>
+    <li>memeHyphenPrefix->受虐</li>
+    <li>memeHyphenPrefix->苦痛</li>
+    <li>memeConcept->疼痛</li>
+    <li>memeConcept->折磨</li>
+    <li>memeConcept->拷打</li>
+    <li>memeConcept->煎熬</li>
+    <li>memeConcept->濺血</li>
+    <li>memeLeaderNoun->拷打者</li>
+    <li>memeLeaderNoun->殘虐者</li>
+    <li>memeLeaderNoun->鐧之手</li>
+    <li>memeLeaderNoun->鏈鎖者</li>
+    <li>memeLeaderNoun->切割者</li>
+    <li>memeLeaderNoun->血語</li>
+    <li>memeMoralist->苦痛低語者</li>
+    <li>memeMoralist->劫難之報</li>
+    <li>memeMoralist->痛苦之聲</li>
+  </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
-  <PainIsVirtue.symbolPacks.0.adjective>TODO</PainIsVirtue.symbolPacks.0.adjective>
+  <PainIsVirtue.symbolPacks.0.adjective>苦痛的</PainIsVirtue.symbolPacks.0.adjective>
   <!-- EN: Painism -->
-  <PainIsVirtue.symbolPacks.0.ideoName>TODO</PainIsVirtue.symbolPacks.0.ideoName>
+  <PainIsVirtue.symbolPacks.0.ideoName>苦痛</PainIsVirtue.symbolPacks.0.ideoName>
   <!-- EN: screamer -->
-  <PainIsVirtue.symbolPacks.0.member>TODO</PainIsVirtue.symbolPacks.0.member>
+  <PainIsVirtue.symbolPacks.0.member>尖嘯者</PainIsVirtue.symbolPacks.0.member>
   <!-- EN: pain -->
-  <PainIsVirtue.symbolPacks.0.theme>TODO</PainIsVirtue.symbolPacks.0.theme>
+  <PainIsVirtue.symbolPacks.0.theme>苦痛</PainIsVirtue.symbolPacks.0.theme>
   <!-- EN: torturistic -->
-  <PainIsVirtue.symbolPacks.1.adjective>TODO</PainIsVirtue.symbolPacks.1.adjective>
+  <PainIsVirtue.symbolPacks.1.adjective>折磨的</PainIsVirtue.symbolPacks.1.adjective>
   <!-- EN: Torturism -->
-  <PainIsVirtue.symbolPacks.1.ideoName>TODO</PainIsVirtue.symbolPacks.1.ideoName>
+  <PainIsVirtue.symbolPacks.1.ideoName>折磨</PainIsVirtue.symbolPacks.1.ideoName>
   <!-- EN: torturist -->
-  <PainIsVirtue.symbolPacks.1.member>TODO</PainIsVirtue.symbolPacks.1.member>
+  <PainIsVirtue.symbolPacks.1.member>折磨者</PainIsVirtue.symbolPacks.1.member>
   <!-- EN: torture -->
-  <PainIsVirtue.symbolPacks.1.theme>TODO</PainIsVirtue.symbolPacks.1.theme>
+  <PainIsVirtue.symbolPacks.1.theme>折磨</PainIsVirtue.symbolPacks.1.theme>
   <!-- EN: sufferist -->
-  <PainIsVirtue.symbolPacks.2.adjective>TODO</PainIsVirtue.symbolPacks.2.adjective>
+  <PainIsVirtue.symbolPacks.2.adjective>煎熬的</PainIsVirtue.symbolPacks.2.adjective>
   <!-- EN: Sufferism -->
-  <PainIsVirtue.symbolPacks.2.ideoName>TODO</PainIsVirtue.symbolPacks.2.ideoName>
+  <PainIsVirtue.symbolPacks.2.ideoName>煎熬</PainIsVirtue.symbolPacks.2.ideoName>
   <!-- EN: sufferer -->
-  <PainIsVirtue.symbolPacks.2.member>TODO</PainIsVirtue.symbolPacks.2.member>
+  <PainIsVirtue.symbolPacks.2.member>煎熬者</PainIsVirtue.symbolPacks.2.member>
   <!-- EN: suffering -->
-  <PainIsVirtue.symbolPacks.2.theme>TODO</PainIsVirtue.symbolPacks.2.theme>
+  <PainIsVirtue.symbolPacks.2.theme>煎熬</PainIsVirtue.symbolPacks.2.theme>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.adjective>TODO</PainIsVirtue.symbolPacks.3.adjective>
+  <PainIsVirtue.symbolPacks.3.adjective>劫難的</PainIsVirtue.symbolPacks.3.adjective>
   <!-- EN: Agonism -->
-  <PainIsVirtue.symbolPacks.3.ideoName>TODO</PainIsVirtue.symbolPacks.3.ideoName>
+  <PainIsVirtue.symbolPacks.3.ideoName>劫難</PainIsVirtue.symbolPacks.3.ideoName>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.member>TODO</PainIsVirtue.symbolPacks.3.member>
+  <PainIsVirtue.symbolPacks.3.member>劫難者</PainIsVirtue.symbolPacks.3.member>
   <!-- EN: agony -->
-  <PainIsVirtue.symbolPacks.3.theme>TODO</PainIsVirtue.symbolPacks.3.theme>
+  <PainIsVirtue.symbolPacks.3.theme>劫難</PainIsVirtue.symbolPacks.3.theme>
   <!-- EN: miserist -->
-  <PainIsVirtue.symbolPacks.4.adjective>TODO</PainIsVirtue.symbolPacks.4.adjective>
+  <PainIsVirtue.symbolPacks.4.adjective>悲苦的</PainIsVirtue.symbolPacks.4.adjective>
   <!-- EN: Miserism -->
-  <PainIsVirtue.symbolPacks.4.ideoName>TODO</PainIsVirtue.symbolPacks.4.ideoName>
+  <PainIsVirtue.symbolPacks.4.ideoName>悲苦</PainIsVirtue.symbolPacks.4.ideoName>
   <!-- EN: martyr -->
-  <PainIsVirtue.symbolPacks.4.member>TODO</PainIsVirtue.symbolPacks.4.member>
+  <PainIsVirtue.symbolPacks.4.member>烈士</PainIsVirtue.symbolPacks.4.member>
   <!-- EN: misery -->
-  <PainIsVirtue.symbolPacks.4.theme>TODO</PainIsVirtue.symbolPacks.4.theme>
+  <PainIsVirtue.symbolPacks.4.theme>悲苦</PainIsVirtue.symbolPacks.4.theme>
   
   <!-- EN: proselytizer -->
   <Proselytizer.label>TODO</Proselytizer.label>
