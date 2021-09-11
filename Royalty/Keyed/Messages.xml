@@ -20,17 +20,19 @@
   <MessageWarningCutAnimaTree>警告：生命之樹已標記為可砍伐。</MessageWarningCutAnimaTree>
 
   <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
-  <MessageBestowerWaiting>選擇{TARGET_definite}並用滑鼠右鍵點擊表揚者開始表揚儀式。</MessageBestowerWaiting>
+  <MessageBestowerWaiting>選擇{BESTOWER_definite}並用滑鼠點擊"開始授勛儀式"來開始儀式。</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
-  <MessageBestowerUnreachable>無法接觸表揚者！</MessageBestowerUnreachable>
+  <MessageBestowerUnreachable>無法接觸賜予者！</MessageBestowerUnreachable>
   <!-- EN: {0} is busy. -->
-  <MessageBestowingTargetIsBusy>TODO</MessageBestowingTargetIsBusy>
+  <MessageBestowingTargetIsBusy>{0}正在忙。</MessageBestowingTargetIsBusy>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
-  <MessageBestowingSpotUnreachable>表揚者對這種干擾很惱火並決定離開了。</MessageBestowingSpotUnreachable>
+  <MessageBestowingSpotUnreachable>賜予者對這種干擾很不快並決定離開了。</MessageBestowingSpotUnreachable>
   <!-- EN: The bestower is leaving due to life-threatening danger. -->
-  <MessageBestowingDanger>TODO</MessageBestowingDanger>
+  <MessageBestowingDanger>賜予者由於生命威脅而離開。</MessageBestowingDanger>
+  <!-- EN: The bestower is leaving due to life-threatening temperature. -->
+  <MessageBestowingDangerTemperature>賜予者由於致命的溫度而離開。</MessageBestowingDangerTemperature>
   <!-- EN: The bestowing ceremony has been interrupted. -->
-  <MessageBestowingInterrupted>TODO</MessageBestowingInterrupted>
+  <MessageBestowingInterrupted>授勛儀式已經被打斷。</MessageBestowingInterrupted>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
   <MessageBestowingCeremonyStarted>{PAWN_definite}的表揚儀式已經開始。</MessageBestowingCeremonyStarted>
@@ -43,6 +45,6 @@
   <MessagePermitTransportDropCaravan>{FACTION_name}已經將物資交給了{PAWN_nameDef}的旅隊。</MessagePermitTransportDropCaravan>
 
   <!-- EN: No orbiting mechanoids found. -->
-  <MessageNoFactionForVerbMechCluster>TODO</MessageNoFactionForVerbMechCluster>
+  <MessageNoFactionForVerbMechCluster>沒有發現軌道上的機械族。</MessageNoFactionForVerbMechCluster>
 
 </LanguageData>

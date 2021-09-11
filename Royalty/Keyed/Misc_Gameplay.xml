@@ -119,14 +119,14 @@
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{ORGANIZER_labelShort}的{1}統計</AbilitySpeechStatInfo>
   <!-- EN: Initiated at -->
-  <AbilitySpeechTargetsLabel>TODO</AbilitySpeechTargetsLabel>
+  <AbilitySpeechTargetsLabel>發起於</AbilitySpeechTargetsLabel>
   <!-- EN: Dignified throne -->
-  <AbilitySpeechTargetDescThrone>TODO</AbilitySpeechTargetDescThrone>
+  <AbilitySpeechTargetDescThrone>莊嚴的王座</AbilitySpeechTargetDescThrone>
   
   <!-- EN: no accessible altar. -->
-  <RitualDisabledNoAltar>TODO</RitualDisabledNoAltar>
+  <RitualDisabledNoAltar>沒有可進入的祭壇。</RitualDisabledNoAltar>
   <!-- EN: Bestowing Ceremony -->
-  <RitualBestowingCeremony>TODO</RitualBestowingCeremony>
+  <RitualBestowingCeremony>授勛儀式</RitualBestowingCeremony>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>今日冥想：{0}（進度倍率{1}）</TotalMeditationToday>
@@ -139,7 +139,7 @@
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>需要{0} 心靈連結焦點類型</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
-  <BeginLinkingRitualMaxPsylinkLevel>TODO</BeginLinkingRitualMaxPsylinkLevel>
+  <BeginLinkingRitualMaxPsylinkLevel>最大心靈連結等級</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>需要3格自由、可抵達的位置進行連結</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
@@ -147,7 +147,7 @@
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort}已完成與{LINKABLE_labelShort}的連結儀式。\n\n {PAWN_pronoun}現在具有升級的心靈連結，允許使用新的心靈能力。</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
-  <LetterTextLinkingRitualCompletedAnimaGrass>TODO</LetterTextLinkingRitualCompletedAnimaGrass>
+  <LetterTextLinkingRitualCompletedAnimaGrass>此外，{0}生命之草已經恢復。</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <!-- EN: Land shuttle here -->
   <LandHere>太空梭在此著陸</LandHere>
@@ -155,31 +155,31 @@
   <MessageShuttleDestinationIsTooFar>目標超出範圍。</MessageShuttleDestinationIsTooFar>
 
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
-  <BeginCeremony>執行表揚儀式</BeginCeremony>
+  <BeginCeremony>執行授勛儀式</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>TODO</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>{PAWN_definite}的謁見廳不符合{TITLE}頭銜的要求。</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>表揚者因{PAWN_definite}的謁見廳不符合{TITLE}頭銜的要求而氣憤，表揚儀式被取消了。</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>賜予者因{PAWN_definite}的謁見廳不符合{TITLE}頭銜的要求而氣憤，授勛儀式被取消了。</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->
-  <BestowingCeremonyLabel>TODO</BestowingCeremonyLabel>
+  <BestowingCeremonyLabel>授勛儀式</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
-  <BestowingOutcomeQualitySpecific>TODO</BestowingOutcomeQualitySpecific>
+  <BestowingOutcomeQualitySpecific>授勛儀式的總體品質為{0}，由於以下因素</BestowingOutcomeQualitySpecific>
   
   <!-- EN: No colonists that can link with anima tree right now. -->
-  <RitualTargetAnimaTreeNoPawnsToLink>TODO</RitualTargetAnimaTreeNoPawnsToLink>
+  <RitualTargetAnimaTreeNoPawnsToLink>目前沒有能與生命之樹連結的殖民者。</RitualTargetAnimaTreeNoPawnsToLink>
   <!-- EN: No colonists with the natural meditation focus type. -->
-  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>TODO</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>目前沒有自然冥想專注類型的殖民者。</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
-  <RitualTargetAnimaTreeNotEnoughAnimaGrass>TODO</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>需要至少{0}x生命之草</RitualTargetAnimaTreeNotEnoughAnimaGrass>
   <!-- EN: An anima tree. -->
-  <RitualTargetAnimaTreeInfo>TODO</RitualTargetAnimaTreeInfo>
+  <RitualTargetAnimaTreeInfo>一顆生命之樹。</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
-  <RitualTargetAnimaTreeMustBeCapableOfNature>TODO</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <RitualTargetAnimaTreeMustBeCapableOfNature>必須是一名心靈連結等級低於最大值，且具有自然冥想專注類型的殖民者。</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
-  <RitualTargetAnimaTreeMustBePsychicallySensitive>TODO</RitualTargetAnimaTreeMustBePsychicallySensitive>
+  <RitualTargetAnimaTreeMustBePsychicallySensitive>不能有心靈障壁。</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
-  <AnimaLinkingExplanationBase>TODO</AnimaLinkingExplanationBase>
+  <AnimaLinkingExplanationBase>參與者越多，生命之樹連結儀式就越有力量。參加的人越多，儀式所需的時間就越短，會有更多的生命之草生長。\n\n有了{0}名額外的參與者，{1}株生命之草將在儀式結束後恢復。</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>所需物資還沒有全部裝載！</ShuttleRequiredItemsNotSatisfied>
   <!-- UNUSED -->
