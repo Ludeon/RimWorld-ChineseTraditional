@@ -782,9 +782,9 @@
   <PainIsVirtue.symbolPacks.4.theme>悲苦</PainIsVirtue.symbolPacks.4.theme>
   
   <!-- EN: proselytizer -->
-  <Proselytizer.label>TODO</Proselytizer.label>
+  <Proselytizer.label>佈道者</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
-  <Proselytizer.description>TODO</Proselytizer.description>
+  <Proselytizer.description>傳播我們的信仰是我們的職責</Proselytizer.description>
   <!-- EN:
     <li>creation(tag=meme_Proselytizer)        ->[deity0_name] anointed a few among mortals to carry [deity0_possessive] word.</li>
     <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] said to all the [memberNamePlural], "Go forth and spread my word to all corners of the universe."</li>
@@ -802,7 +802,23 @@
     <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], the archotechs will voice their final wisdom to the holder of the [relic0_name], who must preach this wisdom to those who would listen.</li>
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
-  <Proselytizer.descriptionMaker.rules.rulesStrings>TODO</Proselytizer.descriptionMaker.rules.rulesStrings>
+  <Proselytizer.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name]在凡人之中揀選一些人作為受膏者，傳達[deity0_possessive]的箴言。</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]向所有[memberNamePlural]言道：「驅身向前，廣申真言，無邊無際，不遺一隅」。</li>
+    <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural]在在[place_summary][place_name]建造了宏偉的[altarName]，讓許多人能來傾聽[deity0_name]神聖的箴言。</li>
+    <li>conflict(tag=meme_Proselytizer)        ->可恨的[foeLeader]試圖否定[deity0_name]的箴言，唆使[foeLeader_possessive][foeSoldiers]割下那些提及[deity0_type]的人的舌頭。</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name]以優異的領袖氣質祝福了一位叫做[founderName]的[place_job]，而當[founder_pronoun]說話時沒有人能抗拒他的話語。</li>
+    <li>victory(tag=meme_Proselytizer)         ->[founderName]懲戒了[foeSoldiers]並讓他們再次想起了[deity0_name]的力量，而他們也丟棄了[place_personalWeapon]。</li>
+    <li>setup(tag=meme_Proselytizer)           ->我們的創始者[founderName]是偉大的演說家，在[founder_pronoun]周遊列國之時說服了成千上萬的人</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->信眾們在鄉鎮都市之間巡遊，宣揚新的正義。</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->在我弘揚真理的這幾年，我學到最重要的一課就是：</li>
+    <li>lesson(tag=meme_Proselytizer)              ->只將這個好消息留給我們自己是一種罪過</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->這就是我們必須要一而再再而三不斷傳播出去的真理，為了所有人類，祝大家平安喜樂！</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->遠古科技從天空、由內心宣示了它們的存在，而顯然地它們希望能被眾人所知。</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->遠古科技與信者接觸，並藉由他們作為散播智慧給其他人的媒介。</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd]，遠古科技將會傳達它們最後的智慧給[relic0_name]的持有者，而他將必須要將這智慧傳遞給願意傾聽的人們。</li>
+    <li>animistFact(tag=meme_Proselytizer)     ->精靈們想要被人們所知道，但祂們只與少數的人對話，祂們要我們向其他人展示真理。</li>
+  </Proselytizer.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->true</li>
     <li>memeAdjective->real</li>
@@ -812,31 +828,39 @@
     <li>memeMoralist->proselytizer</li>
     <li>memeMoralist->converter</li>
   -->
-  <Proselytizer.generalRules.rulesStrings>TODO</Proselytizer.generalRules.rulesStrings>
+  <Proselytizer.generalRules.rulesStrings>
+    <li>memeAdjective->誠摯的</li>
+    <li>memeAdjective->真實的</li>
+    <li>memeHyphenPrefix->真理</li>
+    <li>memeConcept->真理</li>
+    <li>memeLeaderNoun->弘道者</li>
+    <li>memeMoralist->佈道者</li>
+    <li>memeMoralist->皈依者</li>
+  </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.adjective>TODO</Proselytizer.symbolPacks.0.adjective>
+  <Proselytizer.symbolPacks.0.adjective>真理的</Proselytizer.symbolPacks.0.adjective>
   <!-- EN: Truth -->
-  <Proselytizer.symbolPacks.0.ideoName>TODO</Proselytizer.symbolPacks.0.ideoName>
+  <Proselytizer.symbolPacks.0.ideoName>真理</Proselytizer.symbolPacks.0.ideoName>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.member>TODO</Proselytizer.symbolPacks.0.member>
+  <Proselytizer.symbolPacks.0.member>真理者</Proselytizer.symbolPacks.0.member>
   <!-- EN: truth -->
-  <Proselytizer.symbolPacks.0.theme>TODO</Proselytizer.symbolPacks.0.theme>
+  <Proselytizer.symbolPacks.0.theme>真理</Proselytizer.symbolPacks.0.theme>
   <!-- EN: veritic -->
-  <Proselytizer.symbolPacks.1.adjective>TODO</Proselytizer.symbolPacks.1.adjective>
+  <Proselytizer.symbolPacks.1.adjective>真實的</Proselytizer.symbolPacks.1.adjective>
   <!-- EN: Verity -->
-  <Proselytizer.symbolPacks.1.ideoName>TODO</Proselytizer.symbolPacks.1.ideoName>
+  <Proselytizer.symbolPacks.1.ideoName>真實</Proselytizer.symbolPacks.1.ideoName>
   <!-- EN: veritist -->
-  <Proselytizer.symbolPacks.1.member>TODO</Proselytizer.symbolPacks.1.member>
+  <Proselytizer.symbolPacks.1.member>真實者</Proselytizer.symbolPacks.1.member>
   <!-- EN: verity -->
-  <Proselytizer.symbolPacks.1.theme>TODO</Proselytizer.symbolPacks.1.theme>
+  <Proselytizer.symbolPacks.1.theme>真實</Proselytizer.symbolPacks.1.theme>
   <!-- EN: realitic -->
-  <Proselytizer.symbolPacks.2.adjective>TODO</Proselytizer.symbolPacks.2.adjective>
+  <Proselytizer.symbolPacks.2.adjective>現實的</Proselytizer.symbolPacks.2.adjective>
   <!-- EN: Reality -->
-  <Proselytizer.symbolPacks.2.ideoName>TODO</Proselytizer.symbolPacks.2.ideoName>
+  <Proselytizer.symbolPacks.2.ideoName>現實</Proselytizer.symbolPacks.2.ideoName>
   <!-- EN: realitist -->
-  <Proselytizer.symbolPacks.2.member>TODO</Proselytizer.symbolPacks.2.member>
+  <Proselytizer.symbolPacks.2.member>實現者</Proselytizer.symbolPacks.2.member>
   <!-- EN: reality -->
-  <Proselytizer.symbolPacks.2.theme>TODO</Proselytizer.symbolPacks.2.theme>
+  <Proselytizer.symbolPacks.2.theme>現實</Proselytizer.symbolPacks.2.theme>
   
   <!-- EN: raider -->
   <Raider.label>TODO</Raider.label>
