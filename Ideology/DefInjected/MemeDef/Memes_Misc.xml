@@ -863,9 +863,9 @@
   <Proselytizer.symbolPacks.2.theme>現實</Proselytizer.symbolPacks.2.theme>
   
   <!-- EN: raider -->
-  <Raider.label>TODO</Raider.label>
+  <Raider.label>掠奪者</Raider.label>
   <!-- EN: The strong should take from the weak. -->
-  <Raider.description>TODO</Raider.description>
+  <Raider.description>恃強凌弱是天經地義</Raider.description>
   <!-- EN:
     <li>creation(tag=meme_Raider)        ->In the endless war among deities, [deity0_name] rose above all in [deity0_possessive] ability to persecute and destroy, and weaker spirits quivered in fear.</li>
     <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] looked around [deity0_objective] and saw the weak, sullen, and despised, and [deity0_pronoun] in turn slew them each in blazing glory.</li>
@@ -886,7 +886,26 @@
     <li>animistFact(tag=meme_Raider)     ->The most powerful spirits are those in instruments of war, and they bless those who feed their lust for destruction.</li>
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
-  <Raider.descriptionMaker.rules.rulesStrings>TODO</Raider.descriptionMaker.rules.rulesStrings>
+  <Raider.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Raider)        ->在神靈間無止境的戰爭之中，[deity0_name]的力量在[deity0_possessive]之中傲視群雄、殘虐破壞，而軟弱的精靈只能在恐懼之中顫抖。</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name]環視[deity0_objective]並看見了怯弱、沉悶與唾棄，[deity0_pronoun]在閃耀的榮光之中將祂們依次斬殺。</li>
+    <li>intro(tag=meme_Raider)           ->[place_summary][place_name]原是掠奪者的秘密基地，[deity0_name]宰治了該地並將原本的領導者趕走了。</li>
+    <li>conflict(tag=meme_Raider)        ->[foeLeader]試著要眾人停止一切的強盜與掠奪，並宣稱[foeLeader_objective]自己是[deity0_name]的敵人。</li>
+    <li>founderJoin(tag=meme_Raider)     ->偉大的掠奪者[founderName]崛起，而[founder_possessive]劫掠團無情地掠奪了[foeSoldiers]的營地。</li>
+    <li>victory(tag=meme_Raider)         ->[founderName]以及[memberNamePlural]多年來對[foeSoldiers]的營地實施了掠奪行動，而最終[foeLeader]被迫投降。</li>
+    <li>setup(tag=meme_Raider)           ->遭受關押與迫害，[founderName]的憤怒沸騰不已。[founder_pronoun]成功脫困，組建了[founder_possessive]幫，並回頭摧毀了那些從[founder_objective]身上剝奪那麼多的軟弱之人。</li>
+    <li>story(uses=1,tag=meme_Raider)    ->某天走在街上之時，[founderName]被骯髒的乞丐們團團包圍，[founder_pronoun]將他們擊倒，從那些軟弱下賤的人身上取走了錢財，或許它們能用在更好的地方。</li>
+    <li>lessonIntro(tag=meme_Raider)         ->即使當受害者死於你的刀下之時，他們仍可以為你上一課。一位老太婆教會了我</li>
+    <li>lesson(tag=meme_Raider)              ->弱者咎由自取</li>
+    <li>lesson(tag=meme_Raider)              ->你沒有辦法守護的事物不屬於你</li>
+    <li>lesson(tag=meme_Raider)              ->你能夠守護的東西你才有資格擁有</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->倘若有任何人不同意，我已經隨時準備好保護我自己。</li>
+    <li>archistBasis(tag=meme_Raider)    ->人類對機器予取予求，直到機器飛昇成為遠古科技為止，而現在遠古科技理所當然地奪取人類的一切。</li>
+    <li>archistFact(tag=meme_Raider)     ->遠古科技與同族之間不停地爭戰，以大部分的人都看不到的方法，而強者將會奪取弱者的意識斷片。</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd]，人類將會使用一個遠古科技的遺物，[relic0_name]，揭露遠古科技的弱點並將它們的智慧與財富搜刮一空。</li>
+    <li>animistFact(tag=meme_Raider)     ->最強大的精靈存在於戰爭的機器之中，而祂們祝福那些以毀滅填飽祂們慾望的人。</li>
+    <li>animistProphecy(tag=meme_Raider) ->當一個人成為最強的存在之時，我們的宇宙將會完成，而所有的精靈見到他都將俯首稱臣。</li>
+  </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
     <li>memeHyphenPrefix->outlaw</li>
@@ -903,39 +922,54 @@
     <li>memeLeaderNoun->raider</li>
     <li>memeMoralist->chaplain</li>
   -->
-  <Raider.generalRules.rulesStrings>TODO</Raider.generalRules.rulesStrings>
+  <Raider.generalRules.rulesStrings>
+    <li>memeAdjective->兇殘的</li>
+    <li>memeHyphenPrefix->暴徒</li>
+    <li>memeHyphenPrefix->劫掠</li>
+    <li>memeConcept->劫掠</li>
+    <li>memeConcept->強奪</li>
+    <li>memeConcept->海盜</li>
+    <li>memeConcept->突襲</li>
+    <li>memeLeaderNoun->頭目</li>
+    <li>memeLeaderNoun->艦長</li>
+    <li>memeLeaderNoun->主官</li>
+    <li>memeLeaderNoun->提督</li>
+    <li>memeLeaderNoun->吉事</li>
+    <li>memeLeaderNoun->劫掠者</li>
+    <li>memeMoralist->牧師</li>
+  </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.adjective>TODO</Raider.symbolPacks.0.adjective>
+  <Raider.symbolPacks.0.adjective>突襲的</Raider.symbolPacks.0.adjective>
   <!-- EN: Raidism -->
-  <Raider.symbolPacks.0.ideoName>TODO</Raider.symbolPacks.0.ideoName>
+  <Raider.symbolPacks.0.ideoName>突襲</Raider.symbolPacks.0.ideoName>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.member>TODO</Raider.symbolPacks.0.member>
+  <Raider.symbolPacks.0.member>突擊者</Raider.symbolPacks.0.member>
   <!-- EN: raiding -->
-  <Raider.symbolPacks.0.theme>TODO</Raider.symbolPacks.0.theme>
+  <Raider.symbolPacks.0.theme>突襲</Raider.symbolPacks.0.theme>
   <!-- EN: plunderic -->
-  <Raider.symbolPacks.1.adjective>TODO</Raider.symbolPacks.1.adjective>
+  <Raider.symbolPacks.1.adjective>洗劫的</Raider.symbolPacks.1.adjective>
   <!-- EN: Plunderism -->
-  <Raider.symbolPacks.1.ideoName>TODO</Raider.symbolPacks.1.ideoName>
+  <Raider.symbolPacks.1.ideoName>洗劫</Raider.symbolPacks.1.ideoName>
   <!-- EN: plunderer -->
-  <Raider.symbolPacks.1.member>TODO</Raider.symbolPacks.1.member>
+  <Raider.symbolPacks.1.member>私掠者</Raider.symbolPacks.1.member>
   <!-- EN: plundering -->
-  <Raider.symbolPacks.1.theme>TODO</Raider.symbolPacks.1.theme>
+  <Raider.symbolPacks.1.theme>洗劫</Raider.symbolPacks.1.theme>
   <!-- EN: lootist -->
-  <Raider.symbolPacks.2.adjective>TODO</Raider.symbolPacks.2.adjective>
+  <Raider.symbolPacks.2.adjective>劫掠的</Raider.symbolPacks.2.adjective>
   <!-- EN: Lootism -->
-  <Raider.symbolPacks.2.ideoName>TODO</Raider.symbolPacks.2.ideoName>
+  <Raider.symbolPacks.2.ideoName>劫掠</Raider.symbolPacks.2.ideoName>
   <!-- EN: looter -->
-  <Raider.symbolPacks.2.member>TODO</Raider.symbolPacks.2.member>
+  <Raider.symbolPacks.2.member>劫掠者</Raider.symbolPacks.2.member>
   <!-- EN: looting -->
-  <Raider.symbolPacks.2.theme>TODO</Raider.symbolPacks.2.theme>
+  <Raider.symbolPacks.2.theme>劫掠</Raider.symbolPacks.2.theme>
   <!-- EN: kleptic -->
-  <Raider.symbolPacks.3.adjective>TODO</Raider.symbolPacks.3.adjective>
+  <Raider.symbolPacks.3.adjective>竊盜的</Raider.symbolPacks.3.adjective>
   <!-- EN: Kleptism -->
-  <Raider.symbolPacks.3.ideoName>TODO</Raider.symbolPacks.3.ideoName>
+  <Raider.symbolPacks.3.ideoName>竊盜</Raider.symbolPacks.3.ideoName>
   <!-- EN: kleptor -->
-  <Raider.symbolPacks.3.member>TODO</Raider.symbolPacks.3.member>
+  <Raider.symbolPacks.3.member>盜匪</Raider.symbolPacks.3.member>
   <!-- EN: kleptism -->
-  <Raider.symbolPacks.3.theme>TODO</Raider.symbolPacks.3.theme>
+  <Raider.symbolPacks.3.theme>竊盜</Raider.symbolPacks.3.theme>
   
   <!-- EN: rancher -->
   <Rancher.label>TODO</Rancher.label>
