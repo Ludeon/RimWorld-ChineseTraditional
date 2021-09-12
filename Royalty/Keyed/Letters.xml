@@ -120,7 +120,7 @@
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>由於演講進度在{0}後被打斷，因此效果不佳。</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>{ORGANIZER_bestRoyalTitleDef}的演講在講到50%前被取消。因此沒有效果。</LetterSpeechCancelled>
+  <LetterSpeechCancelled>{0}的演講在講到50%前被取消。因此沒有效果。</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>演講被取消了</LetterLabelSpeechCancelled>
 
@@ -167,21 +167,21 @@
   <LetterJoinOfferAccept>接受</LetterJoinOfferAccept>
 
   <!-- EN: Bestowing ceremony expired -->
-  <LetterLabelBestowingCeremonyExpired>表揚儀式結束</LetterLabelBestowingCeremonyExpired>
+  <LetterLabelBestowingCeremonyExpired>授勛儀式結束</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
-  <LetterTextBestowingCeremonyExpired>{TARGET_definite}沒有出現在表揚儀式上。表揚儀式被取消了。</LetterTextBestowingCeremonyExpired>
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite}沒有出現在授勛儀式上。授勛儀式被取消了。</LetterTextBestowingCeremonyExpired>
 
   <!-- EN: {TARGET_definite}'s title changed -->
   <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite}的頭銜變動了</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}的頭銜在表揚儀式訂下以後發生變動，表揚儀式會重新排程以因應新的頭銜。\n\n新一場的表揚儀式會給予至今應得的心靈連結等級。</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}的頭銜在授勛儀式訂下以後發生變動，授勛儀式會重新排程以因應新的頭銜。\n\n新一場的授勛儀式會給予至今應得的心靈連結等級。</LetterTextBestowingCeremonyTitleUpdated>
   
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
   <LetterPartBestowingExtraHonor>{PAWN_labelShort}獲得了額外的{1}榮譽作為來自{FACTION_name}的敬意，因為聚集了{3}個觀眾。</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
   <LetterPartNoExtraHonor>{PAWN_labelShort}沒有獲得額外的榮譽，因為觀眾不夠多。</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
-  <LetterPartMoodBonus>表揚儀式的觀眾獲得了心情加成。</LetterPartMoodBonus>
+  <LetterPartMoodBonus>授勛儀式的觀眾獲得了心情加成。</LetterPartMoodBonus>
 
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
   <LetterTextHonorAward_BanditCamp>誰應該因擊敗匪徒營地而獲得{0}的獎勵？</LetterTextHonorAward_BanditCamp>
