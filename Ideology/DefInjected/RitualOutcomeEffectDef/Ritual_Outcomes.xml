@@ -4,7 +4,7 @@
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <AttendedFuneral.description>視乎儀式結果，參與者將獲得{MOODDAYS}天{MINMOOD}至{MAXMOOD}的心情加成。</AttendedFuneral.description>
   <!-- EN: moral guide present -->
-  <AttendedFuneral.comps.0.label>道德指引獎勵</AttendedFuneral.comps.0.label>
+  <AttendedFuneral.comps.0.label>教義導師在場</AttendedFuneral.comps.0.label>
   <!-- EN: participant count -->
   <AttendedFuneral.comps.1.label>參與人數</AttendedFuneral.comps.1.label>
   <!-- EN: Terrible -->
@@ -27,7 +27,7 @@
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <AttendedFuneralNoCorpse.description>視乎儀式結果，參與者將獲得{MOODDAYS}天{MINMOOD}至{MAXMOOD}的心情加成。</AttendedFuneralNoCorpse.description>
   <!-- EN: moral guide present -->
-  <AttendedFuneralNoCorpse.comps.0.label>道德指引獎勵</AttendedFuneralNoCorpse.comps.0.label>
+  <AttendedFuneralNoCorpse.comps.0.label>教義導師在場</AttendedFuneralNoCorpse.comps.0.label>
   <!-- EN: participant count -->
   <AttendedFuneralNoCorpse.comps.1.label>參與者</AttendedFuneralNoCorpse.comps.1.label>
   <!-- EN: Terrible -->
@@ -50,7 +50,7 @@
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <BlindingCeremony.description>視乎儀式結果，參與者將獲得{MOODDAYS}天{MINMOOD}至{MAXMOOD}的心情加成。</BlindingCeremony.description>
   <!-- EN: moral guide present -->
-  <BlindingCeremony.comps.2.label>道德指引獎勵</BlindingCeremony.comps.2.label>
+  <BlindingCeremony.comps.2.label>教義導師在場</BlindingCeremony.comps.2.label>
   <!-- EN: participant count -->
   <BlindingCeremony.comps.3.label>參與人數</BlindingCeremony.comps.3.label>
   <!-- EN: started at altar -->
@@ -276,7 +276,7 @@
   <Conversion.outcomeChances.3.description>{0}十分精湛!舊信仰輕易地被瓦解，而我們的真理被接受了。</Conversion.outcomeChances.3.description>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding.description>儀式目標將會被摧毀。</DestroyConsumableBuilding.description>
+  <DestroyConsumableBuilding.description>儀式道具將會被銷毀。</DestroyConsumableBuilding.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding.comps.0.label>參與人數</DestroyConsumableBuilding.comps.0.label>
   <!-- EN: room impressiveness -->
@@ -303,7 +303,7 @@
   <DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>有10%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_Burnbong.description>儀式目標將會被摧毀。</DestroyConsumableBuilding_Burnbong.description>
+  <DestroyConsumableBuilding_Burnbong.description>煙筒將會被銷毀。</DestroyConsumableBuilding_Burnbong.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_Burnbong.comps.0.label>參與人數</DestroyConsumableBuilding_Burnbong.comps.0.label>
   <!-- EN: room impressiveness -->
@@ -330,7 +330,7 @@
   <DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>有10%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_CannibalPlatter.description>儀式目標將會被摧毀。</DestroyConsumableBuilding_CannibalPlatter.description>
+  <DestroyConsumableBuilding_CannibalPlatter.description>人肉盤將會被銷毀。</DestroyConsumableBuilding_CannibalPlatter.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_CannibalPlatter.comps.0.label>參與人數</DestroyConsumableBuilding_CannibalPlatter.comps.0.label>
   <!-- EN: room impressiveness -->
@@ -357,7 +357,7 @@
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>有10%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_ChristmasTree.description>儀式目標將會被摧毀。</DestroyConsumableBuilding_ChristmasTree.description>
+  <DestroyConsumableBuilding_ChristmasTree.description>聖誕樹將會被銷毀。</DestroyConsumableBuilding_ChristmasTree.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_ChristmasTree.comps.0.label>參與人數</DestroyConsumableBuilding_ChristmasTree.comps.0.label>
   <!-- EN: room impressiveness -->
@@ -384,7 +384,7 @@
   <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>有10%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_Pyre.description>儀式目標將會被摧毀。</DestroyConsumableBuilding_Pyre.description>
+  <DestroyConsumableBuilding_Pyre.description>篝火將會被摧毀。</DestroyConsumableBuilding_Pyre.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_Pyre.comps.0.label>參與人數</DestroyConsumableBuilding_Pyre.comps.0.label>
   <!-- EN: room impressiveness -->
@@ -465,7 +465,7 @@
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <Sacrifice.description>視乎儀式結果，參與者將獲得{MOODDAYS}天{MINMOOD}至{MAXMOOD}的心情加成。</Sacrifice.description>
   <!-- EN: moral guide present -->
-  <Sacrifice.comps.2.label>道德指引獎勵</Sacrifice.comps.2.label>
+  <Sacrifice.comps.2.label>教義導師在場</Sacrifice.comps.2.label>
   <!-- EN: participant count -->
   <Sacrifice.comps.3.label>參與人數</Sacrifice.comps.3.label>
   <!-- EN: started at altar -->
@@ -498,7 +498,7 @@
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <ScarificationCeremony.description>視乎儀式結果，參與者將獲得{MOODDAYS}天{MINMOOD}至{MAXMOOD}的心情加成。</ScarificationCeremony.description>
   <!-- EN: moral guide present -->
-  <ScarificationCeremony.comps.2.label>道德指引獎勵</ScarificationCeremony.comps.2.label>
+  <ScarificationCeremony.comps.2.label>教義導師在場</ScarificationCeremony.comps.2.label>
   <!-- EN: participant count -->
   <ScarificationCeremony.comps.3.label>參與人數</ScarificationCeremony.comps.3.label>
   <!-- EN: started at altar -->
