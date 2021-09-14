@@ -934,9 +934,9 @@
     <li>memeLeaderNoun->艦長</li>
     <li>memeLeaderNoun->主官</li>
     <li>memeLeaderNoun->提督</li>
-    <li>memeLeaderNoun->吉事</li>
+    <li>memeLeaderNoun->首領</li>
     <li>memeLeaderNoun->劫掠者</li>
-    <li>memeMoralist->牧師</li>
+    <li>memeMoralist->戰團牧師</li>
   </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
   <Raider.symbolPacks.0.adjective>突襲的</Raider.symbolPacks.0.adjective>
@@ -972,9 +972,9 @@
   <Raider.symbolPacks.3.theme>竊盜</Raider.symbolPacks.3.theme>
   
   <!-- EN: rancher -->
-  <Rancher.label>TODO</Rancher.label>
+  <Rancher.label>畜牧主義</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
-  <Rancher.description>TODO</Rancher.description>
+  <Rancher.description>圈養動物才是正道，種植作物是旁門左道</Rancher.description>
   <!-- EN:
     <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
@@ -999,7 +999,30 @@
     <li>rancherParent2->dairy queen</li>
     <li>rancherParent2->butcher</li>
   -->
-  <Rancher.descriptionMaker.rules.rulesStrings>TODO</Rancher.descriptionMaker.rules.rulesStrings>
+  <Rancher.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Rancher)        ->[deity0_name]先是創造了動物，再來是人類，並將動物給予人類寵愛撫養並屠宰，作為對於[deity0_objective]的崇敬。</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]創造了這片土地上所有尊貴的動物與野獸，並啟示：「攜尊貴之獸，致使豐腴，以耀吾名。」</li>
+    <li>intro(tag=meme_Rancher)           ->早期位在[place_summary][place_name]的牧者建造了雄偉的[altarName]獻予[deity0_name]。</li>
+    <li>conflict(tag=meme_Rancher)        ->握有權勢的[foeLeader]看不起[memberNamePlural]和他們的生存之道，並購置了所有草原種植[Vegetable]。</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[memberName]的救世主[founderName]於春天的早晨出生在簡約的農莊，被[ranchingAnimal]所圍繞，而[founder_possessive]的雙親是[rancherParent1]和[rancherParent2]。</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName]騎著駿馬來到了[place_community]，並在午時用[place_personalWeapon]向[foeLeader]發起了決鬥，[foeLeader]無法拒絕，否則他將失去[foeSoldiers]的信任，最終[founderName]斬殺了[foeLeader]。</li>
+    <li>setup(tag=meme_Rancher)           ->牧人們受到了迫害，因此他們逃往鄉村地區，在那裡建設美好的牧場社會。</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->信徒們遍布在這塊大地之上，並生活在田園牧場之中成長茁壯。</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->朋友，在圍欄之外，我們的耆老之間有著這麼一段傳說：</li>
+    <li>lesson(tag=meme_Rancher)              ->在牧場之中可以找到美好幸福的生活</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->這是你遲早會接受的事情，朋友，走在圍欄中孤寂的小徑，傾聽動物們酣睡的聲音，而你坐在溫暖的篝火旁。</li>
+    <li>archistFact(tag=meme_Rancher)     ->遠古科技像牧羊人一般關照著人類，而我們是它們最珍貴的羊群。</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd]，遠古科技將會離開，並帶著那些悉心照料獸群的人一起，而剩下來的人將會被拋棄在荒蕪之中。</li>
+    <li>animistFact(tag=meme_Rancher)     ->大自然的動物是精靈的奴僕，而應當服侍牠們的主人。</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
+    <li>ranchingAnimal->[Animal]</li>
+    <li>rancherParent1->牧羊人</li>
+    <li>rancherParent1->蹄鐵匠</li>
+    <li>rancherParent1->乳酪製造者</li>
+    <li>rancherParent2->牛仔</li>
+    <li>rancherParent2->乳品加工商</li>
+    <li>rancherParent2->屠夫</li>
+  </Rancher.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
@@ -1012,7 +1035,18 @@
     <li>memeLeaderNoun->herder</li>
     <li>memeLeaderNoun->sheepdog</li>
   -->
-  <Rancher.generalRules.rulesStrings>TODO</Rancher.generalRules.rulesStrings>
+  <Rancher.generalRules.rulesStrings>
+    <li>memeAdjective->牧場的</li>
+    <li>memeAdjective->田園的</li>
+    <li>memeAdjective->鄉村的</li>
+    <li>memeHyphenPrefix->牧場</li>
+    <li>memeConcept->畜牧</li>
+    <li>memeLeaderNoun->牧場主</li>
+    <li>memeLeaderNoun->飼育者</li>
+    <li>memeLeaderNoun->牛仔</li>
+    <li>memeLeaderNoun->牧羊者</li>
+    <li>memeLeaderNoun->牧犬</li>
+  </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
   <Rancher.symbolPacks.0.adjective>TODO</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
