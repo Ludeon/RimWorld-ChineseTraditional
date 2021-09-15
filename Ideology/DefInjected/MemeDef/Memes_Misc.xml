@@ -1048,34 +1048,34 @@
     <li>memeLeaderNoun->牧犬</li>
   </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
-  <Rancher.symbolPacks.0.adjective>TODO</Rancher.symbolPacks.0.adjective>
+  <Rancher.symbolPacks.0.adjective>牧場的</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
-  <Rancher.symbolPacks.0.ideoName>TODO</Rancher.symbolPacks.0.ideoName>
+  <Rancher.symbolPacks.0.ideoName>牧場</Rancher.symbolPacks.0.ideoName>
   <!-- EN: rancher -->
-  <Rancher.symbolPacks.0.member>TODO</Rancher.symbolPacks.0.member>
+  <Rancher.symbolPacks.0.member>飼養員</Rancher.symbolPacks.0.member>
   <!-- EN: ranching -->
-  <Rancher.symbolPacks.0.theme>TODO</Rancher.symbolPacks.0.theme>
+  <Rancher.symbolPacks.0.theme>牧場</Rancher.symbolPacks.0.theme>
   <!-- EN: herdic -->
-  <Rancher.symbolPacks.1.adjective>TODO</Rancher.symbolPacks.1.adjective>
+  <Rancher.symbolPacks.1.adjective>成群的</Rancher.symbolPacks.1.adjective>
   <!-- EN: Herdism -->
-  <Rancher.symbolPacks.1.ideoName>TODO</Rancher.symbolPacks.1.ideoName>
+  <Rancher.symbolPacks.1.ideoName>獸群</Rancher.symbolPacks.1.ideoName>
   <!-- EN: herder -->
-  <Rancher.symbolPacks.1.member>TODO</Rancher.symbolPacks.1.member>
+  <Rancher.symbolPacks.1.member>牧羊人</Rancher.symbolPacks.1.member>
   <!-- EN: herding -->
-  <Rancher.symbolPacks.1.theme>TODO</Rancher.symbolPacks.1.theme>
+  <Rancher.symbolPacks.1.theme>獸群</Rancher.symbolPacks.1.theme>
   <!-- EN: pasturic -->
-  <Rancher.symbolPacks.2.adjective>TODO</Rancher.symbolPacks.2.adjective>
+  <Rancher.symbolPacks.2.adjective>飼養的</Rancher.symbolPacks.2.adjective>
   <!-- EN: Pasturism -->
-  <Rancher.symbolPacks.2.ideoName>TODO</Rancher.symbolPacks.2.ideoName>
+  <Rancher.symbolPacks.2.ideoName>飼養</Rancher.symbolPacks.2.ideoName>
   <!-- EN: pasturist -->
-  <Rancher.symbolPacks.2.member>TODO</Rancher.symbolPacks.2.member>
+  <Rancher.symbolPacks.2.member>飼主</Rancher.symbolPacks.2.member>
   <!-- EN: pastures -->
-  <Rancher.symbolPacks.2.theme>TODO</Rancher.symbolPacks.2.theme>
+  <Rancher.symbolPacks.2.theme>飼養</Rancher.symbolPacks.2.theme>
   
   <!-- EN: transhumanist -->
-  <Transhumanist.label>TODO</Transhumanist.label>
+  <Transhumanist.label>仿生主義</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
-  <Transhumanist.description>TODO</Transhumanist.description>
+  <Transhumanist.description>人類的進步就是與科技的融合</Transhumanist.description>
   <!-- EN:
     <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
     <li>episode(uses=1,tag=meme_Transhumanist)  ->Human bio-engineers studied the works of [deity0_name], which pleased [deity0_objective].</li>
@@ -1096,7 +1096,26 @@
     <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
-  <Transhumanist.descriptionMaker.rules.rulesStrings>TODO</Transhumanist.descriptionMaker.rules.rulesStrings>
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name]賜予我們科技的知識，我們將能夠用這些知識改良重鑄我們自己，成為[deity0_possessive]理想的樣貌。</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->人類的生物工程師鑽研著[deity0_name]的傑作，使得[deity0_objective]歡欣無比。</li>
+    <li>intro(tag=meme_Transhumanist)           ->在[place_summary][place_name]，[memberNamePlural]發現了[deity0_name]透過機器向他們呢喃的話語。</li>
+    <li>conflict(tag=meme_Transhumanist)        ->反對革新的[foeLeader]嫉恨[memberNamePlural]卓絕的進步，而[foeLeader_possessive][foeSoldiers]使用[place_personalWeapon]摧毀了他們的工坊。</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->名為[founderName]的狡猾[place_job]設計了探測型的植入裝置，以便警告[memberNamePlural]他們[foeSoldiers]的到來。</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName]獲得了來自[deity0_name]神聖的科技知識，並用他強化[memberNamePlural]的身體與意志，讓他們能打敗[foeSoldiers]。</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName]是人類星際殖民時代早期的生物科學家。看不慣多數殖民地之間繁瑣的限制，[founder_pronoun]開走了一艘小船，建立了[founder_possessive]自己的活動。</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName]集結了一個有著卓越的科學家及發明家的團隊，以重新定義人類。</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->在我部門裡最年長的研究員教導我科技的歷史，從石器時代到遠古科技。但這並非他真正想教的，他其實是想要引導我來了解</li>
+    <li>lesson(tag=meme_Transhumanist)              ->人類如天堂般美好的未來並非血肉與骨頭，而是矽晶與鉻鋼</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->我甚至編寫了模擬程式驗證這個說法。</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->人類對於科技的追求催生出這些強大的遠古科技，作為心智發展的正確的下一步。</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->科技讓人類能與遠古科技更相似。</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]，遠古科技將會離開，只有得到充分改造的人們可以與它們同行。</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->精靈的世界主導著宇宙中的每一件大小事，只有學習並控制宇宙的法則我們才能與他們合為一體。</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->同類會互相吸引，為某種目的打造的裝置將會充滿與其本質相似的精靈。</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->當科技與血肉合而為一之時，雙方的精靈將會融合在一起並變得更加強大。</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid]有一天[relic0_name]的使用者將會召喚它的精靈，並教導人類終極的生化融合科技。</li>
+  </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
@@ -1124,55 +1143,81 @@
     <li>memeMoralist->uplifter</li>
     <li>memeMoralist->technologist</li>
   -->
-  <Transhumanist.generalRules.rulesStrings>TODO</Transhumanist.generalRules.rulesStrings>
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective->科技的</li>
+    <li>memeAdjective->機械的</li>
+    <li>memeAdjective->工業的</li>
+    <li>memeCreed->專校</li>
+    <li>memeCreed->學院</li>
+    <li>memeCreed->大學</li>
+    <li>memeCreed->哲學</li>
+    <li>memeHyphenPrefix->科技</li>
+    <li>memeHyphenPrefix->網路</li>
+    <li>memeHyphenPrefix->腳本</li>
+    <li>memeHyphenPrefix->導線</li>
+    <li>memeConcept->科技</li>
+    <li>memeConcept->矽晶</li>
+    <li>memeConcept->關鍵</li>
+    <li>memeConcept->改造</li>
+    <li>memeConcept->強化</li>
+    <li>memeLeaderNoun->駭客</li>
+    <li>memeLeaderNoun->主機總管</li>
+    <li>memeLeaderNoun->驅動者</li>
+    <li>memeLeaderAdjective->高科技</li>
+    <li>memeLeaderAdjective->聯網</li>
+    <li>memeMoralist->安裝者</li>
+    <li>memeMoralist->維護者</li>
+    <li>memeMoralist->升級者</li>
+    <li>memeMoralist->技術員</li>
+  </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
-  <Transhumanist.symbolPacks.0.adjective>TODO</Transhumanist.symbolPacks.0.adjective>
+  <Transhumanist.symbolPacks.0.adjective>科技的</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->
-  <Transhumanist.symbolPacks.0.ideoName>TODO</Transhumanist.symbolPacks.0.ideoName>
+  <Transhumanist.symbolPacks.0.ideoName>科技</Transhumanist.symbolPacks.0.ideoName>
   <!-- EN: technologist -->
-  <Transhumanist.symbolPacks.0.member>TODO</Transhumanist.symbolPacks.0.member>
+  <Transhumanist.symbolPacks.0.member>技術員</Transhumanist.symbolPacks.0.member>
   <!-- EN: technology -->
-  <Transhumanist.symbolPacks.0.theme>TODO</Transhumanist.symbolPacks.0.theme>
+  <Transhumanist.symbolPacks.0.theme>科技</Transhumanist.symbolPacks.0.theme>
   <!-- EN: progressist -->
-  <Transhumanist.symbolPacks.1.adjective>TODO</Transhumanist.symbolPacks.1.adjective>
+  <Transhumanist.symbolPacks.1.adjective>先進的</Transhumanist.symbolPacks.1.adjective>
   <!-- EN: Progressism -->
-  <Transhumanist.symbolPacks.1.ideoName>TODO</Transhumanist.symbolPacks.1.ideoName>
+  <Transhumanist.symbolPacks.1.ideoName>進步</Transhumanist.symbolPacks.1.ideoName>
   <!-- EN: progressor -->
-  <Transhumanist.symbolPacks.1.member>TODO</Transhumanist.symbolPacks.1.member>
+  <Transhumanist.symbolPacks.1.member>策展者</Transhumanist.symbolPacks.1.member>
   <!-- EN: progress -->
-  <Transhumanist.symbolPacks.1.theme>TODO</Transhumanist.symbolPacks.1.theme>
+  <Transhumanist.symbolPacks.1.theme>進步</Transhumanist.symbolPacks.1.theme>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.adjective>TODO</Transhumanist.symbolPacks.2.adjective>
+  <Transhumanist.symbolPacks.2.adjective>器械的</Transhumanist.symbolPacks.2.adjective>
   <!-- EN: Machinism -->
-  <Transhumanist.symbolPacks.2.ideoName>TODO</Transhumanist.symbolPacks.2.ideoName>
+  <Transhumanist.symbolPacks.2.ideoName>器械</Transhumanist.symbolPacks.2.ideoName>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.member>TODO</Transhumanist.symbolPacks.2.member>
+  <Transhumanist.symbolPacks.2.member>技工</Transhumanist.symbolPacks.2.member>
   <!-- EN: machinery -->
-  <Transhumanist.symbolPacks.2.theme>TODO</Transhumanist.symbolPacks.2.theme>
+  <Transhumanist.symbolPacks.2.theme>器械</Transhumanist.symbolPacks.2.theme>
   <!-- EN: steelist -->
-  <Transhumanist.symbolPacks.3.adjective>TODO</Transhumanist.symbolPacks.3.adjective>
+  <Transhumanist.symbolPacks.3.adjective>鋼鐵的</Transhumanist.symbolPacks.3.adjective>
   <!-- EN: Steelism -->
-  <Transhumanist.symbolPacks.3.ideoName>TODO</Transhumanist.symbolPacks.3.ideoName>
+  <Transhumanist.symbolPacks.3.ideoName>鋼鐵</Transhumanist.symbolPacks.3.ideoName>
   <!-- EN: steeler -->
-  <Transhumanist.symbolPacks.3.member>TODO</Transhumanist.symbolPacks.3.member>
+  <Transhumanist.symbolPacks.3.member>鐵人</Transhumanist.symbolPacks.3.member>
   <!-- EN: steel -->
-  <Transhumanist.symbolPacks.3.theme>TODO</Transhumanist.symbolPacks.3.theme>
+  <Transhumanist.symbolPacks.3.theme>鋼鐵</Transhumanist.symbolPacks.3.theme>
   <!-- EN: automatist -->
-  <Transhumanist.symbolPacks.4.adjective>TODO</Transhumanist.symbolPacks.4.adjective>
+  <Transhumanist.symbolPacks.4.adjective>自動化的</Transhumanist.symbolPacks.4.adjective>
   <!-- EN: Automatism -->
-  <Transhumanist.symbolPacks.4.ideoName>TODO</Transhumanist.symbolPacks.4.ideoName>
+  <Transhumanist.symbolPacks.4.ideoName>自動化</Transhumanist.symbolPacks.4.ideoName>
   <!-- EN: automator -->
-  <Transhumanist.symbolPacks.4.member>TODO</Transhumanist.symbolPacks.4.member>
+  <Transhumanist.symbolPacks.4.member>驅動者</Transhumanist.symbolPacks.4.member>
   <!-- EN: automata -->
-  <Transhumanist.symbolPacks.4.theme>TODO</Transhumanist.symbolPacks.4.theme>
+  <Transhumanist.symbolPacks.4.theme>自動人形</Transhumanist.symbolPacks.4.theme>
   <!-- EN: augmentist -->
-  <Transhumanist.symbolPacks.5.adjective>TODO</Transhumanist.symbolPacks.5.adjective>
+  <Transhumanist.symbolPacks.5.adjective>改造的</Transhumanist.symbolPacks.5.adjective>
   <!-- EN: Augmentism -->
-  <Transhumanist.symbolPacks.5.ideoName>TODO</Transhumanist.symbolPacks.5.ideoName>
+  <Transhumanist.symbolPacks.5.ideoName>改造</Transhumanist.symbolPacks.5.ideoName>
   <!-- EN: augmentor -->
-  <Transhumanist.symbolPacks.5.member>TODO</Transhumanist.symbolPacks.5.member>
+  <Transhumanist.symbolPacks.5.member>改裝者</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
-  <Transhumanist.symbolPacks.5.theme>TODO</Transhumanist.symbolPacks.5.theme>
+  <Transhumanist.symbolPacks.5.theme>改造</Transhumanist.symbolPacks.5.theme>
   
   <!-- EN: tree connection -->
   <TreeConnection.label>TODO</TreeConnection.label>
