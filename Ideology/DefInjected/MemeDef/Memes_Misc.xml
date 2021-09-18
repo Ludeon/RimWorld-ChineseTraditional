@@ -1220,9 +1220,9 @@
   <Transhumanist.symbolPacks.5.theme>改造</Transhumanist.symbolPacks.5.theme>
   
   <!-- EN: tree connection -->
-  <TreeConnection.label>TODO</TreeConnection.label>
+  <TreeConnection.label>神木連結</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
-  <TreeConnection.description>TODO</TreeConnection.description>
+  <TreeConnection.description>樹林是生命的精華，而我們必須伴其左右</TreeConnection.description>
   <!-- EN:
     <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
@@ -1243,7 +1243,26 @@
     <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees are powerful, as they bridge the power of the air above with that of the ground beneath.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
   -->
-  <TreeConnection.descriptionMaker.rules.rulesStrings>TODO</TreeConnection.descriptionMaker.rules.rulesStrings>
+  <TreeConnection.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name]讓神木深深地扎根在地上，也讓他們穩固地成長為參天大樹，這是[deity0_name]如何了解[deity0_objective]的第一堂課</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]的森林淨化了空氣讓[deity0_possessive]的人們呼吸，並給予他們庇護的枝幹，以及讓他們覓食的倉庫。</li>
+    <li>intro(tag=meme_TreeConnection)           ->當原初的樹醫們第一次來到了[place_summary][place_name]，他們創造了神聖的[TreeType]林，在那裏他們能夠崇拜[deity0_type][deity0_name]。</li>
+    <li>conflict(tag=meme_TreeConnection)        ->貪婪的[foeLeader]剷平了許多樹林來讓[foeLeader_possessive]建造農地與工廠，而[memberNamePlural]對於被濫殺的樹木悲慟不已。</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->先知[founderName]奇蹟般的出生在[place_name]的一顆樹之中，並在古老的[TreeType]樹的枝幹底下被[founder_possessive]的雙親發現。</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName]看到[foeLeader]睡在[place_powerCenter]，並將一顆橡果放在[foeLeader]的胸膛上，有了[deity0_name]強大的力量，像果在那上面生根發芽，貫穿了[foeLeader_possessive]的身軀，向這位樹木殺手報仇雪恨。</li>
+    <li>setup(tag=meme_TreeConnection)           ->在缺乏深度與意義的世界之中，[founderName]在深林之中沉思，與樹根、枝葉連結，並創始了我們的活動。</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName]帶著疲倦的人們到森林之中，讓他們在樹蔭之下休息，呼吸新鮮空氣，重拾活力。</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->或許你會覺得我說我是坐在樹下的時候學到這件事很好笑，但傾聽樹葉的低語，我了解到</li>
+    <li>lesson(tag=meme_TreeConnection)              ->宇宙中沒有任何一個實體懂得比樹木還要多</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->讓這個真理的種子發芽，並孕育它的果實在你的靈魂之中吧。</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->樹象徵著遠古科技，如同古老的橡樹蘊藏在它們生長出來的小小的橡實之中，而它們的影響在土壤之下如樹根一般蔓延著。</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->遠古科技在發現生命之樹後發展出了心智的能力。</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->遠古科技在世間萬物之中選擇一種特別的樹來展現它們自己。</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd]，遠古科技將會成長為巨大的森林，超越者將會從進入森林並蒙受恩澤的人之中成長茁壯。遺忘樹林之人將會被遠古科技遺忘。</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->樹之精靈將會保護庇蔭在枝幹之下的人。</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->樹之精靈是十分強大的，他們將空氣之上與地底之下的力量連通在一起。</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->若森林中的樹木倒下了，它的精靈會發出讓所有精靈都能聽到的聲音。</li>
+  </TreeConnection.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->root</li>
     <li>memeCreed->leaf</li>
@@ -1265,7 +1284,27 @@
     <li>memeLeaderAdjective->canopy</li>
     <li>memeMoralist->treespeaker</li>
   -->
-  <TreeConnection.generalRules.rulesStrings>TODO</TreeConnection.generalRules.rulesStrings>
+  <TreeConnection.generalRules.rulesStrings>
+    <li>memeCreed->深根</li>
+    <li>memeCreed->茂葉</li>
+    <li>memeCreed->藤蔓</li>
+    <li>memeCreed->林地</li>
+    <li>memeCreed->森林</li>
+    <li>memeConcept->樹木</li>
+    <li>memeConcept->森林</li>
+    <li>memeAdjective->結實的</li>
+    <li>memeAdjective->繁盛的</li>
+    <li>memeHyphenPrefix->木</li>
+    <li>memeHyphenPrefix->蔭</li>
+    <li>memeHyphenPrefix->芽</li>
+    <li>memeLeaderNoun->護林者</li>
+    <li>memeLeaderNoun->樹醫</li>
+    <li>memeLeaderNoun->德魯伊</li>
+    <li>memeLeaderAdjective->翠綠</li>
+    <li>memeLeaderAdjective->盤根</li>
+    <li>memeLeaderAdjective->樹冠</li>
+    <li>memeMoralist->森語者</li>
+  </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
   <Tunneler.label>TODO</Tunneler.label>
