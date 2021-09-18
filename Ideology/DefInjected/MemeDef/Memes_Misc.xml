@@ -1307,9 +1307,9 @@
   </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
-  <Tunneler.label>TODO</Tunneler.label>
+  <Tunneler.label>穴居者</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
-  <Tunneler.description>TODO</Tunneler.description>
+  <Tunneler.description>人類應當活在地底，並享受深處那豐滿的果實</Tunneler.description>
   <!-- EN:
     <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
@@ -1332,7 +1332,28 @@
     <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
-  <Tunneler.descriptionMaker.rules.rulesStrings>TODO</Tunneler.descriptionMaker.rules.rulesStrings>
+  <Tunneler.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name]在世界中心深處的土壤之中誕生，[deity0_pronoun]祝福著最靠近[deity0_objective]，居住在深谷與隧道之中的人們。</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name]用豐富的礦藏與資源填滿了石頭，作為禮物贈予了那些為了更接近[deity0_name]而深掘的聰明人。</li>
+    <li>intro(tag=meme_Tunneler)           ->當第一批殖民者來到了[place_summary][place_name]，[deity0_type][deity0_name]施展了殘酷的太陽閃焰迫使他們居住在地底下，讓他們在寂靜的隧道之中能聽見[deity0_possessive]的智慧。</li>
+    <li>conflict(tag=meme_Tunneler)        ->患有幽閉恐懼症的[foeLeader]提議用[dangerousMining]來開採礦藏，導致[memberNamePlural]的地底家園陷入危險之中。</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->先知[founderName]奇蹟似的出生在[place_name]的石頭之中，並在[founder_possessive]的雙親打開蓋滿著蕈菇的晶簇之時被發現。</li>
+    <li>victory(tag=meme_Tunneler)         ->[memberNamePlural]挖出一條通往[foeLeader]的[place_powerCenter]的隧道，而[founderName]使用費洛蒙引來了巨大的昆蟲蹂躪了[foeLeader]的[foeSoldiers]們，[founderName]將[foeLeader]拖入深邃的地牢之中並將[foeLeader_objective]囚禁在那。</li>
+    <li>dangerousMining->露天發掘</li>
+    <li>dangerousMining->晶片植入的昆蟲</li>
+    <li>dangerousMining->核子爆破</li>
+    <li>setup(tag=meme_Tunneler)           ->在膚淺而無意義的世界裡，[founderName]在深邃的洞窟之中沉思並悟得了深意，開創了我們的活動。</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName]將珍寶藏在深谷之中，使得[memberNamePlural]能夠學著為它們往深處挖掘。</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->我在深邃之城找到得古籍教會了我比任何東西都還要重要的一課：</li>
+    <li>lesson(tag=meme_Tunneler)              ->艷陽高照的戶外並非人類能夠繁榮的地方，而是死亡之地</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->所以拿起你的鏟子，和我一起挖，如果我們停駐於此，這裡將會是葬身之地。</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->遠古科技的身軀是深沉的地底，所以它們的意識感官不會受到伽瑪射線及太陽閃焰的影響，挖的越深人們就離它們越近。</li>
+    <li>archistFact(tag=meme_Tunneler)     ->遠古科技利用生化工程為我們創造了營養菇，讓人類能在地底下蓬勃發展，在接近遠古科技心智的地方。</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]，遠古科技將會接納我們到它們地底下的天堂。</li>
+    <li>animistFact(tag=meme_Tunneler)     ->基岩之中的精靈將會保護見到祂們的人。</li>
+    <li>animistFact(tag=meme_Tunneler)     ->最尊貴的精靈是石頭之中的精靈，而位在越深處的石頭將會比上層的更強大、更優越。</li>
+    <li>animistFact(tag=meme_Tunneler)     ->焦躁不安的人類使得岩石的精靈躁動難安，而這引來了巨大的昆蟲。</li>
+  </Tunneler.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->cave</li>
     <li>memeCreed->bunker</li>
@@ -1355,6 +1376,27 @@
     <li>memeMoralist->thoughtdigger</li>
     <li>memeMoralist->mindminer</li>
   -->
-  <Tunneler.generalRules.rulesStrings>TODO</Tunneler.generalRules.rulesStrings>
+  <Tunneler.generalRules.rulesStrings>
+    <li>memeCreed->洞穴</li>
+    <li>memeCreed->地堡</li>
+    <li>memeCreed->礦井</li>
+    <li>memeAdjective->深邃</li>
+    <li>memeHyphenPrefix->石</li>
+    <li>memeHyphenPrefix->洞穴</li>
+    <li>memeHyphenPrefix->深</li>
+    <li>memeHyphenPrefix->潛</li>
+    <li>memeHyphenPrefix->地下</li>
+    <li>memeConcept->土壤</li>
+    <li>memeConcept->石頭</li>
+    <li>memeConcept->深谷</li>
+    <li>memeConcept->埋藏</li>
+    <li>memeLeaderNoun->領掘者</li>
+    <li>memeLeaderNoun->邃聆者</li>
+    <li>memeLeaderNoun->穿隧者</li>
+    <li>memeLeaderAdjective->深淵</li>
+    <li>memeMoralist->實掘者</li>
+    <li>memeMoralist->思掘者</li>
+    <li>memeMoralist->念鑿者</li>
+  </Tunneler.generalRules.rulesStrings>
   
 </LanguageData>
