@@ -76,7 +76,7 @@
   <!-- EN: humanity -->
   <HumanPrimacy.symbolPacks.0.theme>人文</HumanPrimacy.symbolPacks.0.theme>
   <!-- EN: pro-man -->
-  <HumanPrimacy.symbolPacks.1.adjective>專業人士的</HumanPrimacy.symbolPacks.1.adjective>
+  <HumanPrimacy.symbolPacks.1.adjective>專人的</HumanPrimacy.symbolPacks.1.adjective>
   <!-- EN: Mankindism -->
   <HumanPrimacy.symbolPacks.1.ideoName>眾人</HumanPrimacy.symbolPacks.1.ideoName>
   <!-- EN: mankindist -->
@@ -85,9 +85,9 @@
   <HumanPrimacy.symbolPacks.1.theme>眾人</HumanPrimacy.symbolPacks.1.theme>
   
   <!-- EN: nature primacy -->
-  <NaturePrimacy.label>TODO</NaturePrimacy.label>
+  <NaturePrimacy.label>自然至上</NaturePrimacy.label>
   <!-- EN: Man is a stain on nature's perfection. -->
-  <NaturePrimacy.description>TODO</NaturePrimacy.description>
+  <NaturePrimacy.description>人類是完美的大自然之中的一個汙點</NaturePrimacy.description>
   <!-- EN:
     <li>creation(tag=meme_NaturePrimacy)        ->[deity0_name] created nature, and placed man inside it, to act as part of [deity0_possessive] great breathing tapestry of life.</li>
     <li>episode(uses=1,tag=meme_NaturePrimacy)  ->The people fought with the beasts of the forest, and [deity0_name] saw their rapacity, and struck down those who harmed the trees and beasts.</li>
@@ -105,7 +105,23 @@
     <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd], there will be a resonance between the plants, the animals, humanity and the archotechs. All people who are in tune with this natural resonance will become part of the final universal consciousness.</li>
     <li>animistFact(tag=meme_NaturePrimacy)     ->Spirits become restless when humanity attempts to change them from their true nature.</li>
   -->
-  <NaturePrimacy.descriptionMaker.rules.rulesStrings>TODO</NaturePrimacy.descriptionMaker.rules.rulesStrings>
+  <NaturePrimacy.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_NaturePrimacy)        ->[deity0_name]創造了大自然，並將人類置於其中，作為[deity0_possessive]那會呼吸的偉大生命繪卷的一部份。</li>
+    <li>episode(uses=1,tag=meme_NaturePrimacy)  ->人們與叢林中的野獸奮鬥，而[deity0_name]看見了他們的貪欲，並擊垮了傷害樹木與動物的人。</li>
+    <li>intro(tag=meme_NaturePrimacy)           ->第一批來到[place_summary][place_name]的殖民者肆意地在自然地貌上舖設道路並殘害動物，[deity0_name]將他們掃除殆盡並懲戒他們，作為褻瀆[deity0_possessive]創作的報復。</li>
+    <li>conflict(tag=meme_NaturePrimacy)        ->貪婪的[foeLeader]建造了會排放有毒物質到環境的工廠，毒害了各式各樣的動植物。</li>
+    <li>founderJoin(tag=meme_NaturePrimacy)     ->在還是嬰兒的時候，[founderName]被丟棄在荒野之中，[deity0_name]派遣了[Animal]來扶養[founder_objective]長大，而牠們也達成了使命。長大之後，[founderName]致力於推廣與自然統一的必要知識。</li>
+    <li>victory(tag=meme_NaturePrimacy)         ->[founderName]來到了[place_powerCenter]，[memberNamePlural]伴隨在[founder_possessive]右側，而兇猛的動物跟隨在[founder_possessive]左側，他們並肩作戰，擊敗了[foeLeader]和[foeLeader_possessive]的[foeSoldiers]</li>
+    <li>setup(tag=meme_NaturePrimacy)           ->在暗黑之地，惡人們砍伐樹林、深掘土壤只為了滿足一己之私。[founderName]為正義發起了運動，摧毀了器械並與自然和諧共存。</li>
+    <li>story(uses=1,tag=meme_NaturePrimacy)    ->我們學到了人類無止盡的壯大是一條通往地獄的路，我們必須要和自然共存，而不是消耗它。</li>
+    <li>lessonIntro(tag=meme_NaturePrimacy)         ->看著朝陽升起，和[Animal]眼神交會，站在碩大的[TreeType]之下，你不可能不會了解</li>
+    <li>lesson(tag=meme_NaturePrimacy)              ->這些動物和植物遠比我們還要早就擁有了這片宇宙，我們只是過客罷了</li>
+    <li>lessonReinforcement(tag=meme_NaturePrimacy) ->我溝通過的所有動物似乎都懂得這個道理。</li>
+    <li>archistBasis(tag=meme_NaturePrimacy)    ->遠古科技自我們的機械中崛起，但它們自身就是自然的存在，並非是我們可以創造的。</li>
+    <li>archistFact(tag=meme_NaturePrimacy)     ->遠古科技代表著宇宙嘗試理解自己的最新的嘗試，自然萬物皆是這個理解過程中的一部份。</li>
+    <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd]，植物、動物、人類與遠古科技之間將擁有共鳴，所有與這個大自然的共鳴調和的人將會成為最終的宇宙意識之中的一部份。</li>
+    <li>animistFact(tag=meme_NaturePrimacy)     ->當人類嘗試改變精靈的本質之時，祂們將會躁動不安。</li>
+  </NaturePrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->natural</li>
     <li>memeAdjective->wild</li>
@@ -115,38 +131,46 @@
     <li>memeCreed->meadow</li>
     <li>memeConcept->nature</li>
   -->
-  <NaturePrimacy.generalRules.rulesStrings>TODO</NaturePrimacy.generalRules.rulesStrings>
+  <NaturePrimacy.generalRules.rulesStrings>
+    <li>memeAdjective->自然的</li>
+    <li>memeAdjective->野性的</li>
+    <li>memeAdjective->生機的</li>
+    <li>memeCreed->巢穴</li>
+    <li>memeCreed->花園</li>
+    <li>memeCreed->草原</li>
+    <li>memeConcept->自然</li>
+  </NaturePrimacy.generalRules.rulesStrings>
   <!-- EN: naturist -->
-  <NaturePrimacy.symbolPacks.0.adjective>TODO</NaturePrimacy.symbolPacks.0.adjective>
+  <NaturePrimacy.symbolPacks.0.adjective>自然的</NaturePrimacy.symbolPacks.0.adjective>
   <!-- EN: Naturism -->
-  <NaturePrimacy.symbolPacks.0.ideoName>TODO</NaturePrimacy.symbolPacks.0.ideoName>
+  <NaturePrimacy.symbolPacks.0.ideoName>自然</NaturePrimacy.symbolPacks.0.ideoName>
   <!-- EN: naturist -->
-  <NaturePrimacy.symbolPacks.0.member>TODO</NaturePrimacy.symbolPacks.0.member>
+  <NaturePrimacy.symbolPacks.0.member>自然主義者</NaturePrimacy.symbolPacks.0.member>
   <!-- EN: nature -->
-  <NaturePrimacy.symbolPacks.0.theme>TODO</NaturePrimacy.symbolPacks.0.theme>
+  <NaturePrimacy.symbolPacks.0.theme>自然</NaturePrimacy.symbolPacks.0.theme>
   <!-- EN: earthist -->
-  <NaturePrimacy.symbolPacks.1.adjective>TODO</NaturePrimacy.symbolPacks.1.adjective>
+  <NaturePrimacy.symbolPacks.1.adjective>大地的</NaturePrimacy.symbolPacks.1.adjective>
   <!-- EN: Earthism -->
-  <NaturePrimacy.symbolPacks.1.ideoName>TODO</NaturePrimacy.symbolPacks.1.ideoName>
+  <NaturePrimacy.symbolPacks.1.ideoName>大地</NaturePrimacy.symbolPacks.1.ideoName>
   <!-- EN: earthist -->
-  <NaturePrimacy.symbolPacks.1.member>TODO</NaturePrimacy.symbolPacks.1.member>
+  <NaturePrimacy.symbolPacks.1.member>柔土</NaturePrimacy.symbolPacks.1.member>
   <!-- EN: earth -->
-  <NaturePrimacy.symbolPacks.1.theme>TODO</NaturePrimacy.symbolPacks.1.theme>
+  <NaturePrimacy.symbolPacks.1.theme>大地</NaturePrimacy.symbolPacks.1.theme>
   <!-- EN: soilist -->
-  <NaturePrimacy.symbolPacks.2.adjective>TODO</NaturePrimacy.symbolPacks.2.adjective>
+  <NaturePrimacy.symbolPacks.2.adjective>土壤的</NaturePrimacy.symbolPacks.2.adjective>
   <!-- EN: Soilism -->
-  <NaturePrimacy.symbolPacks.2.ideoName>TODO</NaturePrimacy.symbolPacks.2.ideoName>
+  <NaturePrimacy.symbolPacks.2.ideoName>豐壤</NaturePrimacy.symbolPacks.2.ideoName>
   <!-- EN: soilist -->
-  <NaturePrimacy.symbolPacks.2.member>TODO</NaturePrimacy.symbolPacks.2.member>
+  <NaturePrimacy.symbolPacks.2.member>壤土</NaturePrimacy.symbolPacks.2.member>
   <!-- EN: soil -->
-  <NaturePrimacy.symbolPacks.2.theme>TODO</NaturePrimacy.symbolPacks.2.theme>
+  <NaturePrimacy.symbolPacks.2.theme>豐壤</NaturePrimacy.symbolPacks.2.theme>
   <!-- EN: lifeist -->
-  <NaturePrimacy.symbolPacks.3.adjective>TODO</NaturePrimacy.symbolPacks.3.adjective>
+  <NaturePrimacy.symbolPacks.3.adjective>生命的</NaturePrimacy.symbolPacks.3.adjective>
   <!-- EN: Lifism -->
-  <NaturePrimacy.symbolPacks.3.ideoName>TODO</NaturePrimacy.symbolPacks.3.ideoName>
+  <NaturePrimacy.symbolPacks.3.ideoName>生命</NaturePrimacy.symbolPacks.3.ideoName>
   <!-- EN: lifeist -->
-  <NaturePrimacy.symbolPacks.3.member>TODO</NaturePrimacy.symbolPacks.3.member>
+  <NaturePrimacy.symbolPacks.3.member>生命</NaturePrimacy.symbolPacks.3.member>
   <!-- EN: life -->
-  <NaturePrimacy.symbolPacks.3.theme>TODO</NaturePrimacy.symbolPacks.3.theme>
+  <NaturePrimacy.symbolPacks.3.theme>生命</NaturePrimacy.symbolPacks.3.theme>
   
 </LanguageData>
