@@ -96,7 +96,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>得到戒律的機會</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色。在{PAWN_possessive}的服裝擁有多於{PERCENTAGE}這種顏色，或是{PAWN_possessive}的理念顏色，會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色草將服裝染色。</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色。在{PAWN_possessive}的服裝擁有多於{PERCENTAGE}這種顏色，或是{PAWN_possessive}的理念顏色，會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>設定為理念顏色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -145,11 +145,11 @@
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>一個埋著{PAWN_labelShort}的墳墓</RitualTargetGraveInfo>
   <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
-  <RitualTargetEmptyGraveInfo>一個悼念{PAWN_labelShort}的逝世的空墳。</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>一個悼念{PAWN_labelShort}的逝世的衣冠冢。</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>一個埋著{IDEO_memberNameIndef}的墳墓</RitualTargetGraveInfoAbstract>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
-  <RitualTargetEmptyGraveInfoAbstract>一個悼念{IDEO_memberNameIndef}的逝世的空墳。</RitualTargetEmptyGraveInfoAbstract>
+  <RitualTargetEmptyGraveInfoAbstract>一個悼念{IDEO_memberNameIndef}的逝世的衣冠冢。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort}的遺體必須先被埋葬</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
@@ -234,7 +234,7 @@
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
   <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>來自{0}的騷動吸引了一些好奇的動物!\n\n牠們似乎習慣與人類接觸，並加入了殖民地。</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
-  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0}誘生了一顆高嵐樹莢囊，可以將它種下。</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0}誘生了一顆高嵐樹莢果，可以將它種下。</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
   <RitualAttachedOutcomeCantApply>無法使用獎賞</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
@@ -485,7 +485,7 @@
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
   <DryadCannotChangeMaster>{ANIMAL_nameDef}通過{ANIMAL_possessive}高嵐樹與{MASTER_nameDef}聯結了。{ANIMAL_possessive}的主人不能改變。</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
-  <ConnectionStrengthTooWeakForGaumakerPod>聯結力不足以生產高嵐樹莢。</ConnectionStrengthTooWeakForGaumakerPod>
+  <ConnectionStrengthTooWeakForGaumakerPod>聯結力不足以生產高嵐樹莢果。</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
   <Unconnected>未聯結</Unconnected>
   <!-- EN: Dryads -->
