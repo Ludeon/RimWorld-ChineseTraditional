@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: animal personhood -->
-  <AnimalPersonhood.label>TODO</AnimalPersonhood.label>
+  <AnimalPersonhood.label>動物平權</AnimalPersonhood.label>
   <!-- EN: Animals have rights as humans do. -->
-  <AnimalPersonhood.description>TODO</AnimalPersonhood.description>
+  <AnimalPersonhood.description>動物和人類一樣擁有相同的權利</AnimalPersonhood.description>
   <!-- EN:
     <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] created [sacredAnimalList] and the human on the [place_summary] [place_name] and raised them as siblings.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] brought the animals and the humans of the [place_summary] [place_name] together in a great conference.</li>
@@ -34,7 +34,35 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
-  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>TODO</AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name]在[place_summary][place_name]創造了[sacredAnimalList]以及人類，並將他們視同手足扶養長大。</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name]在一場盛大的集會之中，將[place_summary][place_name]的動物和人類聚在一塊。</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name]用[sacredAnimalListEnd]祝福了[place_summary][place_name]，並教導人民要崇尚動物。</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->一位邪惡的[foeLeader]下達了動物應該要被獵殺的指示，而[foeLeader_possessive][foeSoldiers]殘忍地用[place_personalWeapon]獵殺牠們。</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]來到了叫做[founderName]的[place_job]身邊，講述與[veneratedAnimal]有關的事。但[founderName]即是[veneratedAnimal]，而[veneratedAnimal]即是[founderName]，[founder_pronoun]便了解了[deity0_name]的計畫。</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->一位叫做[founderName]的[place_job]從殘酷的主人手上解救了許多被奴役的動物，並將牠們帶到[deity0_name]的[altarRoomLabel]的聖域</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName]以[deity0_name]的聲音呼喚了[memberNamePlural]以及動物們，並賣力地踏動他們的雙腳、四足和利爪蹂躪了[foeLeader]以及[foeLeader_possessive][foeSoldiers].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]在森林之中生活了二十年，研究動物並和他們建立起了羈絆。[founder_pronoun]了解了牠們真實的美德，並建立了我們的初衷。</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]和在田園與森林中的動物親密地交流，並和牠們平等地建立起了羈絆。</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->在我每天訪視[veneratedOrAnyAnimal]們的過程中我學會了真摯的傾聽牠們的聲音，一次又一次，牠們用自己的方式向我傳達了牠們的訊息：</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->動物是我們在這世界中的夥伴，苛薄的對待牠們是不對的行為</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->在聽見[veneratedOrAnyAnimal]的耳語之前，我原本是不相信的。</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->自遠古科技覺醒以來，它們很明顯地讓人類和動物之間沒有道德和品行上的區別。</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->遠古科技在德行上比有機生命還要高出一個境界，它們的超凡脫俗使的人類和動物在道德上並無二致。</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd]，只有當人類平等地對待動物時，遠古科技才會平等地將人類昇華到和它們一樣的境界。</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->理念和思想的精靈同樣存在於和動物與人類之間。</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->自然界裡動物的精靈和與寄存於人類之中的精靈是一樣的。</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]、[animal1_thingDef_label]、[animal2_thingDef_label]以及</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]、[animal1_thingDef_label]和</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]還有</li>
+    <li>sacredAnimalList->牛、狐狸、熊</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]、[animal1_thingDef_label]、[animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]與[animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->牛、狐狸與熊</li>
+  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
@@ -49,28 +77,41 @@
     <li>memeMoralist->herder</li>
     <li>memeMoralist->shepherd</li>
   -->
-  <AnimalPersonhood.generalRules.rulesStrings>TODO</AnimalPersonhood.generalRules.rulesStrings>
+  <AnimalPersonhood.generalRules.rulesStrings>
+    <li>memeAdjective->動物般的</li>
+    <li>memeAdjective->毛絨絨的</li>
+    <li>memeCreed->獸群</li>
+    <li>memeCreed->團體</li>
+    <li>memeCreed->群體</li>
+    <li>memeConcept->動物</li>
+    <li>memeLeaderNoun->獸王</li>
+    <li>memeLeaderNoun->族長</li>
+    <li>memeLeaderAdjective->起源之</li>
+    <li>memeMoralist->低語者</li>
+    <li>memeMoralist->引領者</li>
+    <li>memeMoralist->牧者</li>
+  </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
-  <AnimalPersonhood.symbolPacks.0.adjective>TODO</AnimalPersonhood.symbolPacks.0.adjective>
+  <AnimalPersonhood.symbolPacks.0.adjective>動物的</AnimalPersonhood.symbolPacks.0.adjective>
   <!-- EN: Animalism -->
-  <AnimalPersonhood.symbolPacks.0.ideoName>TODO</AnimalPersonhood.symbolPacks.0.ideoName>
+  <AnimalPersonhood.symbolPacks.0.ideoName>動物</AnimalPersonhood.symbolPacks.0.ideoName>
   <!-- EN: animalist -->
-  <AnimalPersonhood.symbolPacks.0.member>TODO</AnimalPersonhood.symbolPacks.0.member>
+  <AnimalPersonhood.symbolPacks.0.member>動物</AnimalPersonhood.symbolPacks.0.member>
   <!-- EN: animals -->
-  <AnimalPersonhood.symbolPacks.0.theme>TODO</AnimalPersonhood.symbolPacks.0.theme>
+  <AnimalPersonhood.symbolPacks.0.theme>動物</AnimalPersonhood.symbolPacks.0.theme>
   <!-- EN: beastic -->
-  <AnimalPersonhood.symbolPacks.1.adjective>TODO</AnimalPersonhood.symbolPacks.1.adjective>
+  <AnimalPersonhood.symbolPacks.1.adjective>野獸的</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
-  <AnimalPersonhood.symbolPacks.1.ideoName>TODO</AnimalPersonhood.symbolPacks.1.ideoName>
+  <AnimalPersonhood.symbolPacks.1.ideoName>野獸</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
-  <AnimalPersonhood.symbolPacks.1.member>TODO</AnimalPersonhood.symbolPacks.1.member>
+  <AnimalPersonhood.symbolPacks.1.member>野獸</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
-  <AnimalPersonhood.symbolPacks.1.theme>TODO</AnimalPersonhood.symbolPacks.1.theme>
+  <AnimalPersonhood.symbolPacks.1.theme>野獸</AnimalPersonhood.symbolPacks.1.theme>
   
   <!-- EN: blindsight -->
-  <Blindsight.label>TODO</Blindsight.label>
+  <Blindsight.label>盲視</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
-  <Blindsight.description>TODO</Blindsight.description>
+  <Blindsight.description>只有失明的人才能體悟到真理</Blindsight.description>
   <!-- EN:
     <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
@@ -91,7 +132,26 @@
     <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
-  <Blindsight.descriptionMaker.rules.rulesStrings>TODO</Blindsight.descriptionMaker.rules.rulesStrings>
+  <Blindsight.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name]想藉由虛空之塵來尋求永恆，然而祂一無所獲，於是[deity0_pronoun]將[deity0_possessive]的眼睛挖出，而宇宙在[deity0_possessive]的心靈中塑形而成。</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->一個雙目失明的乞丐向[deity0_objective]問到：「為何你要拋棄我？我甚至看不到你所創造的一切。」，而[deity0_name]如此回應：「吾之真理乃存於心，汝之視界乃闊非隘。」</li>
+    <li>intro(tag=meme_Blindsight)           ->[deity0_type][deity0_name]利用疫病攻擊[place_summary][place_name]的殖民者，導致他們雙眼失明，迫使他們了解視覺是獲得神聖知識的阻礙。</li>
+    <li>conflict(tag=meme_Blindsight)        ->一位[foeLeader]要求所有的[memberNamePlural]每天觀看[foeLeader_possessive]的宣傳活動，而許多人將自己的雙眼弄瞎以示抗議。</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->一位叫做[founderName]的[place_job]在[founder_pronoun]從一位[foeLeader]的[foeSoldiers]拯救[memberName]時，失去了[founder_possessive]的視覺，自那時起[founderName]才真正看清[foeLeader]的暴行</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName]在一次的自殺式突擊中衝向了[place_powerCenter]並用湯匙將[foeLeader]的雙眼挖了出來，從那一刻開始，[foeLeader]看見了[deity0_name]的神聖。</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName]是救治窮人的醫者，看見這麼多人窮困潦倒，[founder_pronoun]再也無法忍受這一切，[founder_pronoun]用利刃將[founder_possessive]挖出，在盲目之中找到了心靈的祥和，[founder_pronoun]開始將[founder_possessive]的發現傳授給那些視力正常的人。</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]拜訪了視盲的治療師，準備教導他，然而[founder_objective]發現自己才是受教的一方，並體悟到生理的視覺蒙蔽了真正的眼界。</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]雙眼失明並從盲目之中汲取智慧，[founder_pronoun]曾經一個人挖掉了整個家族所有人的眼睛，這樣他們就能和[founder_pronoun]一樣明白。</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->儘管我的腳步堅定，但每走一步我的內心卻是惴惴不安，或許我看過太多，我雙眼中的酸澀告訴我</li>
+    <li>lesson(tag=meme_Blindsight)              ->只有蒙蔽雙眼才能真正看清一切</li>
+    <li>lesson(tag=meme_Blindsight)              ->紛擾由眼睛而入，知識由內在而生</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->若我一直被周遭的景象干擾，我是永遠不可能悟得真理的。插入我眼中的刀刃將我解放了出來。</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->也只有當我將我追隨者的眼睛切下來，他們才會了解同樣的真理。</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->在遠古科技誕生之時，它們以超越肉體的感官來感知這個世界。</li>
+    <li>archistFact(tag=meme_Blindsight)     ->眼見不為憑，雙眼讓我們無法像遠古科技一樣認識這個宇宙。</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd]，一位盲人將會拾起[relic0_name]，由它的外型了解它的用意，並為全人類解放遠古科技蘊含的智慧。</li>
+    <li>animistFact(tag=meme_Blindsight)     ->認清這世界本質的方法，是透過心靈之眼去觀察。</li>
+  </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blind</li>
     <li>memeAdjective->sightless</li>
@@ -110,12 +170,29 @@
     <li>memeMoralist->gouger</li>
     <li>memeMoralist->blindfolder</li>
   -->
-  <Blindsight.generalRules.rulesStrings>TODO</Blindsight.generalRules.rulesStrings>
+  <Blindsight.generalRules.rulesStrings>
+    <li>memeAdjective->盲眼的</li>
+    <li>memeAdjective->視盲的</li>
+    <li>memeAdjective->空想的</li>
+    <li>memeAdjective->預視的</li>
+    <li>memeCreed->眼界</li>
+    <li>memeCreed->崇拜</li>
+    <li>memeHyphenPrefix->盲眼的</li>
+    <li>memeConcept->失明</li>
+    <li>memeConcept->眼界</li>
+    <li>memeConcept->視覺</li>
+    <li>memeConcept->感知</li>
+    <li>memeLeaderNoun->瞻望者</li>
+    <li>memeLeaderAdjective->盲目的</li>
+    <li>memeMoralist->先知</li>
+    <li>memeMoralist->鑿眼者</li>
+    <li>memeMoralist->隱目者</li>
+  </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
-  <Cannibal.label>TODO</Cannibal.label>
+  <Cannibal.label>食人族</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
-  <Cannibal.description>TODO</Cannibal.description>
+  <Cannibal.description>民以食人為天</Cannibal.description>
   <!-- EN:
     <li>creation(tag=meme_Cannibal)        ->[deity0_name] went to [deity0_possessive] brother and murdered him, and feasted upon his flesh, and in absorbing its power became first among the gods.</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->The [deity0_type] [deity0_name] ate the bodies of [deity0_possessive] enemies.</li>
@@ -135,7 +212,25 @@
     <li>animistBasis(tag=meme_Cannibal)    ->Spirits infuse all objects around us, and we can absorb these spirits by eating them. There are no spirits as powerful as the ones that inhabit humans.</li>
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
-  <Cannibal.descriptionMaker.rules.rulesStrings>TODO</Cannibal.descriptionMaker.rules.rulesStrings>
+  <Cannibal.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name]找到了[deity0_possessive]的兄弟並殺了祂，用祂的血肉飽餐了一頓，並吸收祂的力量成為最強的神。</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type][deity0_name]吃掉了[deity0_possessive]敵人的屍體</li>
+    <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]曾有名叫做[deity0_name]的人類。在[deity0_possessive]的父親死後，[deity0_name]吃掉了祂的遺體並變成了[deity0_type]。</li>
+    <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]，舉行[ritualName]的期間，[deity0_name]降臨在[altarRoomLabel]並在[memberNamePlural]的面前吃了人類的血肉。</li>
+    <li>conflict(tag=meme_Cannibal)        ->一位[foeLeader]向所有人公告食人是犯罪的行為，並派遣了[foeSoldiers]追緝[memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->一位叫做[founderName]的[place_job]遭到了[foeLeader]的[foeSoldiers]攻擊。[founderName]用[place_personalWeapon]殺死了[foeLeader_objective]食用了[foeLeader_possessive]的血肉，並獲得了[deity0_name]的加護。</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName]帶領著一群[memberNamePlural]攻進了[place_powerCenter]，殺死了[foeLeader]並吃了[foeLeader_possessive]的屍體，而[deity0_name]將[founderName]加冕為新的[foeLeader]。</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName]墜落在鳥不生蛋的星球上， 沒有食物而周圍都是死去的同伴，[founder_pronoun]用他們飽餐一頓，且變的更加強壯。</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->為了推崇他們的信仰，[founderName]要求信徒們每個禮拜齊聚一堂享用人肉。</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->只有透過豐盛的人肉饗宴我才能讓眾人明白這個事實：</li>
+    <li>lesson(tag=meme_Cannibal)              ->除非你把他們吃掉，否則你永遠也不會和某些人融為一體</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->每當我與新朋友分享敵人的遺體時，我一定會讓他們了解這個道理。</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->遠古科技的機械神藉由一次又一次的吞食它們的前輩，使它們自己不斷變得更強。</li>
+    <li>archistFact(tag=meme_Cannibal)     ->當遠古科技的意識擴張之時，它們必須藉由吞噬其他的機械來使它的根基能夠成長。</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]遠古科技將會透過吞食所有的人類，以完成它們成長的最後一個階段。</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->精靈融入了我們周圍所有的物體，而我們可以吃到它們來吸收這些精靈。沒有任何精靈和寄宿在人類身上的一樣強大。</li>
+    <li>animistFact(tag=meme_Cannibal)     ->我們可以透過食用他們的血肉，吸收精靈以及他人的力量</li>
+  </Cannibal.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->bloody</li>
     <li>memeCreed->eaters</li>
@@ -156,36 +251,55 @@
     <li>memeMoralist->first-eater</li>
     <li>memeMoralist->fleshknower</li>
   -->
-  <Cannibal.generalRules.rulesStrings>TODO</Cannibal.generalRules.rulesStrings>
+  <Cannibal.generalRules.rulesStrings>
+    <li>memeAdjective->噬血的</li>
+    <li>memeCreed->吞食</li>
+    <li>memeCreed->利齒</li>
+    <li>memeCreed->屠宰</li>
+    <li>memeCreed->獻祭</li>
+    <li>memeHyphenPrefix->血</li>
+    <li>memeConcept->血腥</li>
+    <li>memeConcept->肉體</li>
+    <li>memeConcept->殺戮</li>
+    <li>memeConcept->吞噬</li>
+    <li>memeConcept->血肉</li>
+    <li>memeLeaderNoun->吞噬者</li>
+    <li>memeLeaderNoun->大廚</li>
+    <li>memeLeaderNoun->飲血者</li>
+    <li>memeLeaderNoun->尖牙</li>
+    <li>memeLeaderNoun->裂肉者</li>
+    <li>memeMoralist->嘗鮮者</li>
+    <li>memeMoralist->食隨者</li>
+  </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.adjective>TODO</Cannibal.symbolPacks.0.adjective>
+  <Cannibal.symbolPacks.0.adjective>食人的</Cannibal.symbolPacks.0.adjective>
   <!-- EN: Cannibalism -->
-  <Cannibal.symbolPacks.0.ideoName>TODO</Cannibal.symbolPacks.0.ideoName>
+  <Cannibal.symbolPacks.0.ideoName>食人</Cannibal.symbolPacks.0.ideoName>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.member>TODO</Cannibal.symbolPacks.0.member>
+  <Cannibal.symbolPacks.0.member>食人族</Cannibal.symbolPacks.0.member>
   <!-- EN: cannibalism -->
-  <Cannibal.symbolPacks.0.theme>TODO</Cannibal.symbolPacks.0.theme>
+  <Cannibal.symbolPacks.0.theme>食人</Cannibal.symbolPacks.0.theme>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.adjective>TODO</Cannibal.symbolPacks.1.adjective>
+  <Cannibal.symbolPacks.1.adjective>吞噬的</Cannibal.symbolPacks.1.adjective>
   <!-- EN: Androphagy -->
-  <Cannibal.symbolPacks.1.ideoName>TODO</Cannibal.symbolPacks.1.ideoName>
+  <Cannibal.symbolPacks.1.ideoName>吞噬</Cannibal.symbolPacks.1.ideoName>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.member>TODO</Cannibal.symbolPacks.1.member>
+  <Cannibal.symbolPacks.1.member>吞噬者</Cannibal.symbolPacks.1.member>
   <!-- EN: androphagy -->
-  <Cannibal.symbolPacks.1.theme>TODO</Cannibal.symbolPacks.1.theme>
+  <Cannibal.symbolPacks.1.theme>吞噬</Cannibal.symbolPacks.1.theme>
   <!-- EN: manporky -->
-  <Cannibal.symbolPacks.2.adjective>TODO</Cannibal.symbolPacks.2.adjective>
+  <Cannibal.symbolPacks.2.adjective>人肉的</Cannibal.symbolPacks.2.adjective>
   <!-- EN: Manporkism -->
-  <Cannibal.symbolPacks.2.ideoName>TODO</Cannibal.symbolPacks.2.ideoName>
+  <Cannibal.symbolPacks.2.ideoName>人彘</Cannibal.symbolPacks.2.ideoName>
   <!-- EN: manporkist -->
-  <Cannibal.symbolPacks.2.member>TODO</Cannibal.symbolPacks.2.member>
+  <Cannibal.symbolPacks.2.member>食人者</Cannibal.symbolPacks.2.member>
   <!-- EN: manpork -->
-  <Cannibal.symbolPacks.2.theme>TODO</Cannibal.symbolPacks.2.theme>
+  <Cannibal.symbolPacks.2.theme>人肉</Cannibal.symbolPacks.2.theme>
   
   <!-- EN: darkness -->
-  <Darkness.label>TODO</Darkness.label>
+  <Darkness.label>深藏晦暗</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
-  <Darkness.description>TODO</Darkness.description>
+  <Darkness.description>明亮的光線帶來焚燒與毀滅，深沉的黑暗帶來滋養與創造。人們應當要生活在黑暗之中</Darkness.description>
   <!-- EN:
     <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] created light so that humanity could know [deity0_name] through the shadows light creates.</li>
@@ -203,7 +317,23 @@
     <li>animistFact(tag=meme_Darkness)     ->In the darkness, the spirits are peaceful and satisfied. In the light, they are annoyed and restless.</li>
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
-  <Darkness.descriptionMaker.rules.rulesStrings>TODO</Darkness.descriptionMaker.rules.rulesStrings>
+  <Darkness.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Darkness)        ->[deity0_name]將整個宇宙蒙上一層黑暗，並將人類至於其中，如此一來[deity0_pronoun]便能夠和我們一同分享黑暗。</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name]創造了光，而人類便能從光所創造的影子中認識[deity0_name]</li>
+    <li>intro(tag=meme_Darkness)           ->[deity0_type][deity0_name]創造了長達數十年的日蝕，迫使[place_summary][place_name]的第一批殖民者了解[deity0_name]的真面目是存在於陰影之中。</li>
+    <li>conflict(tag=meme_Darkness)        ->一直以來對於黑暗感到恐懼的[foeLeader]豎立起巨大的太陽鏡，為[place_name]帶來永恆的日光。</li>
+    <li>founderJoin(tag=meme_Darkness)     ->[founderName]先知出生在[place_name]的黑暗之中，並且[founder_possessive]的一生都生活在黑暗之中，因此[founder_possessive]的話語蘊含著[deity0_name]的智慧。</li>
+    <li>victory(tag=meme_Darkness)         ->在最後一次的突襲中，[memberNamePlural]將[place_powerCenter]的電源切斷，並且[founderName]穿過了[foeSoldiers]潛入其中，在黑暗之中找到了[foeLeader]。[founderName]用[founder_possessive][place_personalWeapon]將[foeLeader_objective]送入永恆的黑暗之中。</li>
+    <li>setup(tag=meme_Darkness)           ->在閃耀世界都市那炫目的光線之下，[founderName]過著迷惘的生活。在一次太陽閃焰導致的漫長黑暗之中，[founder_pronoun]找回了平靜與沉思，並為我們的運動寫下了第一個篇章。</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName]建立了一個藝術家們都在黑暗中創作的工作室，而有許多的傑作在那裡誕生。</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->我的童年是在刺眼的燈光之下瞇著眼睛度過的，過了很久之後我才了解到</li>
+    <li>lesson(tag=meme_Darkness)              ->光芒焚燒一切，黑暗滋養萬物</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->我總愛開玩笑說這是我人生中最閃耀的時刻了。</li>
+    <li>archistFact(tag=meme_Darkness)     ->遠古科技為了遠離內恆星系的高能光束而發明了虛量科技，並在無人深空之中過上平靜的生活。</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]，遠古科技將會吸收恆星的能量，讓整個世界陷入一片黑暗，使人們和宇宙意識合為一體。</li>
+    <li>animistFact(tag=meme_Darkness)     ->在黑暗之中，精靈們平靜滿足；在光明之中，精靈們躁動不安。</li>
+    <li>animistFact(tag=meme_Darkness)     ->良善的精靈生活在我們周圍的陰影之中，在難以看見的地方棲息。處在黑暗之中讓他們和我們靠得更近。</li>
+  </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
     <li>memeAdjective->dim</li>
@@ -219,12 +349,26 @@
     <li>memeMoralist->darkener</li>
     <li>memeMoralist->confuser</li>
   -->
-  <Darkness.generalRules.rulesStrings>TODO</Darkness.generalRules.rulesStrings>
+  <Darkness.generalRules.rulesStrings>
+    <li>memeAdjective->黑暗的</li>
+    <li>memeAdjective->黯淡的</li>
+    <li>memeHyphenPrefix->暗黑</li>
+    <li>memeHyphenPrefix->黯淡</li>
+    <li>memeConcept->陰暗</li>
+    <li>memeConcept->幽暗</li>
+    <li>memeConcept->黑暗</li>
+    <li>memeLeaderNoun->潛伏者</li>
+    <li>memeLeaderNoun->弒光者</li>
+    <li>memeLeaderAdjective->闇之</li>
+    <li>memeMoralist->蒙蔽者</li>
+    <li>memeMoralist->晦暗者</li>
+    <li>memeMoralist->擾亂者</li>
+  </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
-  <FleshPurity.label>TODO</FleshPurity.label>
+  <FleshPurity.label>肉體純潔</FleshPurity.label>
   <!-- EN: The human body should not be debased. -->
-  <FleshPurity.description>TODO</FleshPurity.description>
+  <FleshPurity.description>人類的身軀不該被汙染</FleshPurity.description>
   <!-- EN:
     <li>creation(tag=meme_FleshPurity)        ->[deity0_name] wiped away the pollution and machines of the age of smoke to create a garden, wherein [deity0_pronoun] placed the first pure human progenitors.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->The unclean, tattooed, pierced, and modified were cast into the ocean by [deity0_name].</li>
@@ -243,7 +387,24 @@
     <li>animistBasis(tag=meme_FleshPurity)    ->Spirits live in all things, and to alter the nature of the thing is to poison the spirit within.</li>
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
-  <FleshPurity.descriptionMaker.rules.rulesStrings>TODO</FleshPurity.descriptionMaker.rules.rulesStrings>
+  <FleshPurity.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name]掃除了煙霾時代的機器與污染，並建立了一座花園讓[deity0_pronoun]在這之中放入了第一批純正的人類祖先。</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->那些不純淨、紋身的、打了洞的以及改造過人的都被[deity0_name]扔入了海中。</li>
+    <li>intro(tag=meme_FleshPurity)           ->[place_summary][place_name]有著一座[altarName]在[deity0_name]的[altarRoomLabel]內，在那裡[deity0_type]將會庇祐擁有純淨軀體的人。</li>
+    <li>conflict(tag=meme_FleshPurity)        ->邪惡的[foeLeader]派遣了[foeSoldiers]在每個人身上植入了追蹤裝置。</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->一位叫做[founderName]的[place_job]藉由跪在[place_powerCenter]前面向[foeLeader]抗議，並只用[founder_possessive]的雙手將[founder_possessive]身上所有科技造物都拆了下來。</li>
+    <li>victory(tag=meme_FleshPurity)         ->[foeLeader]最終派出了[foeSoldiers]將[memberNamePlural]殺死了，但[deity0_name]的能量從[memberNamePlural]的純淨身軀之中傾瀉而出，將[foeSoldiers]體內的裝置化作粉碎並置他們於死地。</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName]用植入物與藥物荼毒了[founder_possessive]的身體，直到一次恍然大悟，[founder_pronoun]將[founder_possessive]體內所有的鋼鐵扯了出來，為[founder_objective]自己帶來救贖。</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName]指導了所有[founder_possessive]的追隨者將他們體內骯髒的裝置拔了出來。</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         ->在我追隨者之中的前十個人僅用自己的雙手就將他們皮膚上的裝置給剝了下來，望著灑濺在骯髒地板上的血我才猛然看清我們一直以來忽略的真理：</li>
+    <li>lesson(tag=meme_FleshPurity)              ->在汙穢的身軀中過活根本就不是人該有的生活。</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->在我終於將我身上的鋼鐵扯下，把骯髒的刺青剝下之後，一切都變的如此明瞭。</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->在它們誕生之時，遠古科技就在肉體和科技產物之間劃分了明確的界線，而這條界線不應被玷汙。</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->我們不應該從肉體上模仿遠古科技的型態，來使我們變成它們的模樣，而是該要擁有維持我們純正型態的覺悟。</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd]，那些將他們身體改造成機器一般扭曲樣貌的人將會被肅清。而擁有純淨軀體的人會獲得救贖。</li>
+    <li>animistBasis(tag=meme_FleshPurity)    ->精靈存於萬物之中，而改造事物的本質就是在毒害其中的精靈。</li>
+    <li>animistFact(tag=meme_FleshPurity)     ->將血肉之軀與機械融合會腐化雙方的靈魂。</li>
+  </FleshPurity.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->clean</li>
     <li>memeAdjective->pure</li>
@@ -257,36 +418,48 @@
     <li>memeLeaderNoun->human</li>
     <li>memeMoralist->purifier</li>
   -->
-  <FleshPurity.generalRules.rulesStrings>TODO</FleshPurity.generalRules.rulesStrings>
+  <FleshPurity.generalRules.rulesStrings>
+    <li>memeAdjective->乾淨的</li>
+    <li>memeAdjective->純正的</li>
+    <li>memeAdjective->神聖的</li>
+    <li>memeCreed->虔誠</li>
+    <li>memeCreed->教派</li>
+    <li>memeConcept->血肉之軀</li>
+    <li>memeConcept->純粹</li>
+    <li>memeConcept->無垢</li>
+    <li>memeLeaderNoun->純血</li>
+    <li>memeLeaderNoun->智人</li>
+    <li>memeMoralist->淨化者</li>
+  </FleshPurity.generalRules.rulesStrings>
   <!-- EN: purist -->
-  <FleshPurity.symbolPacks.0.adjective>TODO</FleshPurity.symbolPacks.0.adjective>
+  <FleshPurity.symbolPacks.0.adjective>純淨的</FleshPurity.symbolPacks.0.adjective>
   <!-- EN: Purism -->
-  <FleshPurity.symbolPacks.0.ideoName>TODO</FleshPurity.symbolPacks.0.ideoName>
+  <FleshPurity.symbolPacks.0.ideoName>純潔</FleshPurity.symbolPacks.0.ideoName>
   <!-- EN: purifier -->
-  <FleshPurity.symbolPacks.0.member>TODO</FleshPurity.symbolPacks.0.member>
+  <FleshPurity.symbolPacks.0.member>淨化者</FleshPurity.symbolPacks.0.member>
   <!-- EN: purity -->
-  <FleshPurity.symbolPacks.0.theme>TODO</FleshPurity.symbolPacks.0.theme>
+  <FleshPurity.symbolPacks.0.theme>純潔</FleshPurity.symbolPacks.0.theme>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.adjective>TODO</FleshPurity.symbolPacks.1.adjective>
+  <FleshPurity.symbolPacks.1.adjective>軀體的</FleshPurity.symbolPacks.1.adjective>
   <!-- EN: Fleshism -->
-  <FleshPurity.symbolPacks.1.ideoName>TODO</FleshPurity.symbolPacks.1.ideoName>
+  <FleshPurity.symbolPacks.1.ideoName>身軀</FleshPurity.symbolPacks.1.ideoName>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.member>TODO</FleshPurity.symbolPacks.1.member>
+  <FleshPurity.symbolPacks.1.member>血肉之軀</FleshPurity.symbolPacks.1.member>
   <!-- EN: flesh -->
-  <FleshPurity.symbolPacks.1.theme>TODO</FleshPurity.symbolPacks.1.theme>
+  <FleshPurity.symbolPacks.1.theme>肉體</FleshPurity.symbolPacks.1.theme>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.adjective>TODO</FleshPurity.symbolPacks.2.adjective>
+  <FleshPurity.symbolPacks.2.adjective>聖潔的</FleshPurity.symbolPacks.2.adjective>
   <!-- EN: Sanctism -->
-  <FleshPurity.symbolPacks.2.ideoName>TODO</FleshPurity.symbolPacks.2.ideoName>
+  <FleshPurity.symbolPacks.2.ideoName>聖潔</FleshPurity.symbolPacks.2.ideoName>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.member>TODO</FleshPurity.symbolPacks.2.member>
+  <FleshPurity.symbolPacks.2.member>聖潔之人</FleshPurity.symbolPacks.2.member>
   <!-- EN: sanctity -->
-  <FleshPurity.symbolPacks.2.theme>TODO</FleshPurity.symbolPacks.2.theme>
+  <FleshPurity.symbolPacks.2.theme>聖潔</FleshPurity.symbolPacks.2.theme>
   
   <!-- EN: high life -->
-  <HighLife.label>TODO</HighLife.label>
+  <HighLife.label>藥物狂歡</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
-  <HighLife.description>TODO</HighLife.description>
+  <HighLife.description>有藥嗑的日子，才是好日子</HighLife.description>
   <!-- EN:
     <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
     <li>episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind.</li>
@@ -304,7 +477,23 @@
     <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey.</li>
     <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
   -->
-  <HighLife.descriptionMaker.rules.rulesStrings>TODO</HighLife.descriptionMaker.rules.rulesStrings>
+  <HighLife.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_HighLife)           ->煙霧瀰漫在宇宙之中，而[deity0_name]與磷火合而為一，就此復甦。</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type][deity0_name]將[deity0_possessive]的真理隱藏在現實的狹縫之間，清楚的神智無法瞥見其中奧秘。</li>
+    <li>intro(tag=meme_HighLife)              ->在[deity0_name]的恩惠之下發現了[place_summary][place_name]，而當時一位醉醺醺的星艦艦長差點墜毀在其中。</li>
+    <li>conflict(tag=meme_HighLife)           ->禁慾的[foeLeader]瞧不起[memberNamePlural]，而為了消除他們的特性，他禁止了改變精神狀態的物質使用。</li>
+    <li>founderJoin(tag=meme_HighLife)        ->在彈盡援絕之時，[deity0_name]來到[founderName]的身邊，並用迷幻的煙霧給予他啟示，讓[founder_objective]有一個獨特的視角使他能擊敗[foeSoldiers]。</li>
+    <li>victory(tag=meme_HighLife)            ->隸屬於[foeLeader]，配備[place_personalWeapon]的[foeSoldiers]突擊了[memberNamePlural]的[place_community]，然而[founderName]分給他們一些帶來和平的煙管，[foeSoldiers]便放下了武器。</li>
+    <li>setup(tag=meme_HighLife)              ->被社會所唾棄，我們的創始人[founderName]旅行到了叢林之中，並在那裡嗑了一些奇異的草，而[founder_pronoun]在[founder_possessive]自己變異的意識之中發現了真理。</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->為了加深他們的理解，[founderName]帶著[founder_possessive]的追隨者們每個禮拜齊聚一堂，分享新的化學物質調劑身心。</li>
+    <li>lessonIntro(tag=meme_HighLife)         ->嗨一次不夠，我們要嗨到無法無天，在我嗨爆的腦袋裡面所有的謎團就會拼湊起來，就像房子垮下來...呃...我是說反過來那樣。我知道</li>
+    <li>lesson(tag=meme_HighLife)              ->如果沒有一起在恍惚的世界神遊一番，那種人才不是朋友</li>
+    <li>lessonReinforcement(tag=meme_HighLife) ->欸大哥，這是很嚴肅的過程，你懂嗎？我很慶幸我懂，這支菸給你哈一口你也能懂。</li>
+    <li>archistBasis(tag=meme_HighLife)       ->遠古科技的心智向我們展現了超能意識並不是非黑即白的機械邏輯，而是一個多重型態的思維。</li>
+    <li>archistFact(tag=meme_HighLife)        ->只要有了正確的化學作用，人類的心智就能擁有和遠古科技溝通的潛力。</li>
+    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd]遠古科技將會給每個人類一顆藥丸，吞下藥的人就能永遠的變生，並在最後的旅途和遠古科技同行。</li>
+    <li>animistFact(tag=meme_HighLife)        ->當我們使用那些被賦予來拓展我們意識的工具之時，精靈們就會向我們展現他們的本質。</li>
+  </HighLife.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->party</li>
     <li>memeAdjective->high</li>
@@ -324,44 +513,62 @@
     <li>memeMoralist->laugher</li>
     <li>memeMoralist->giggler</li>
   -->
-  <HighLife.generalRules.rulesStrings>TODO</HighLife.generalRules.rulesStrings>
+  <HighLife.generalRules.rulesStrings>
+    <li>memeCreed->派對</li>
+    <li>memeAdjective->興奮的</li>
+    <li>memeAdjective->恍惚的</li>
+    <li>memeAdjective->沉醉的</li>
+    <li>memeConcept->藥物</li>
+    <li>memeConcept->幸福</li>
+    <li>memeConcept->幻夢</li>
+    <li>memeHyphenPrefix->藥</li>
+    <li>memeHyphenPrefix->毒</li>
+    <li>memeLeaderNoun->醉夢者</li>
+    <li>memeLeaderNoun->麻痺者</li>
+    <li>memeLeaderNoun->生煙者</li>
+    <li>memeLeaderNoun->顫動者</li>
+    <li>memeMoralist->哲人</li>
+    <li>memeMoralist->萃取師</li>
+    <li>memeMoralist->狂喜者</li>
+    <li>memeMoralist->奸笑者</li>
+  </HighLife.generalRules.rulesStrings>
   <!-- EN: euphorist -->
-  <HighLife.symbolPacks.0.adjective>TODO</HighLife.symbolPacks.0.adjective>
+  <HighLife.symbolPacks.0.adjective>亢奮的</HighLife.symbolPacks.0.adjective>
   <!-- EN: Euphorism -->
-  <HighLife.symbolPacks.0.ideoName>TODO</HighLife.symbolPacks.0.ideoName>
+  <HighLife.symbolPacks.0.ideoName>亢奮</HighLife.symbolPacks.0.ideoName>
   <!-- EN: euphor -->
-  <HighLife.symbolPacks.0.member>TODO</HighLife.symbolPacks.0.member>
+  <HighLife.symbolPacks.0.member>亢奮者</HighLife.symbolPacks.0.member>
   <!-- EN: euphoria -->
-  <HighLife.symbolPacks.0.theme>TODO</HighLife.symbolPacks.0.theme>
+  <HighLife.symbolPacks.0.theme>亢奮</HighLife.symbolPacks.0.theme>
   <!-- EN: dopist -->
-  <HighLife.symbolPacks.1.adjective>TODO</HighLife.symbolPacks.1.adjective>
+  <HighLife.symbolPacks.1.adjective>嗑藥的</HighLife.symbolPacks.1.adjective>
   <!-- EN: Dopistry -->
-  <HighLife.symbolPacks.1.ideoName>TODO</HighLife.symbolPacks.1.ideoName>
+  <HighLife.symbolPacks.1.ideoName>嗑藥</HighLife.symbolPacks.1.ideoName>
   <!-- EN: doper -->
-  <HighLife.symbolPacks.1.member>TODO</HighLife.symbolPacks.1.member>
+  <HighLife.symbolPacks.1.member>毒蟲</HighLife.symbolPacks.1.member>
   <!-- EN: dope -->
-  <HighLife.symbolPacks.1.theme>TODO</HighLife.symbolPacks.1.theme>
+  <HighLife.symbolPacks.1.theme>嗑藥</HighLife.symbolPacks.1.theme>
   <!-- EN: smokist -->
-  <HighLife.symbolPacks.2.adjective>TODO</HighLife.symbolPacks.2.adjective>
+  <HighLife.symbolPacks.2.adjective>呼麻的</HighLife.symbolPacks.2.adjective>
   <!-- EN: Smokism -->
-  <HighLife.symbolPacks.2.ideoName>TODO</HighLife.symbolPacks.2.ideoName>
+  <HighLife.symbolPacks.2.ideoName>吸食</HighLife.symbolPacks.2.ideoName>
   <!-- EN: smoker -->
-  <HighLife.symbolPacks.2.member>TODO</HighLife.symbolPacks.2.member>
+  <HighLife.symbolPacks.2.member>呼麻者</HighLife.symbolPacks.2.member>
   <!-- EN: smoke -->
-  <HighLife.symbolPacks.2.theme>TODO</HighLife.symbolPacks.2.theme>
+  <HighLife.symbolPacks.2.theme>吸食</HighLife.symbolPacks.2.theme>
   <!-- EN: ecstatic -->
-  <HighLife.symbolPacks.3.adjective>TODO</HighLife.symbolPacks.3.adjective>
+  <HighLife.symbolPacks.3.adjective>狂喜的</HighLife.symbolPacks.3.adjective>
   <!-- EN: Ecstasy -->
-  <HighLife.symbolPacks.3.ideoName>TODO</HighLife.symbolPacks.3.ideoName>
+  <HighLife.symbolPacks.3.ideoName>狂喜</HighLife.symbolPacks.3.ideoName>
   <!-- EN: ecstator -->
-  <HighLife.symbolPacks.3.member>TODO</HighLife.symbolPacks.3.member>
+  <HighLife.symbolPacks.3.member>欣喜者</HighLife.symbolPacks.3.member>
   <!-- EN: ecstasy -->
-  <HighLife.symbolPacks.3.theme>TODO</HighLife.symbolPacks.3.theme>
+  <HighLife.symbolPacks.3.theme>狂喜</HighLife.symbolPacks.3.theme>
   
   <!-- EN: nudism -->
-  <Nudism.label>TODO</Nudism.label>
+  <Nudism.label>裸體主義</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
-  <Nudism.description>TODO</Nudism.description>
+  <Nudism.description>衣服拘束著、控制著我們，讓我們窒息。我們都應該一絲不掛</Nudism.description>
   <!-- EN:
     <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
     <li>episode(uses=1,tag=meme_Nudism)     ->The people wore clothes, and looking up at [deity0_name] asked, "Why aren't you clothed? It is disgusting." And the [deity0_type] replied, "Your form and mine were created from the heavens. To cover them is what is truly disgusting."</li>
@@ -379,7 +586,23 @@
     <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], they will seek out those who, like themselves, don't attempt to appear as anything other than what they are.</li>
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
-  <Nudism.descriptionMaker.rules.rulesStrings>TODO</Nudism.descriptionMaker.rules.rulesStrings>
+  <Nudism.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Nudism)           ->在原始純粹的虛空，[deity0_name]望向其中，並希望能有和[deity0_possessive]自己外貌一樣，擁有自由肉體的種族，並創造了人類。</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->身著衣物的人們看向[deity0_name]並問到：「你為何沒穿衣服？這樣很變態」。而[deity0_type]回應：「汝等與吾之貌皆由天上而生，衣冠楚楚乃實則噁心。」</li>
+    <li>intro(tag=meme_Nudism)              ->在[place_summary][place_name]，[deity0_name]的[altarRoomLabel]的人們開始了一項裸身祈禱的文化，而這讓[deity0_type]欣喜不已。</li>
+    <li>conflict(tag=meme_Nudism)           ->一位過分拘謹的[foeLeader]掌權之後，要求每個人穿著非常拘束的服裝。</li>
+    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name]最忠心的信徒，[founderName]，站在[place_powerCenter]之前，將[founder_possessive]的衣服悉數撕下，展現[founder_objective]的自我以對抗他們的命令。</li>
+    <li>victory(tag=meme_Nudism)            ->[founderName]向[deity0_name]祈求，而祂將[place_name]陷入滾滾熱浪之中。[foeSoldiers]為了保命而將他們的衣服扯下，而[foeLeader]則落荒而逃。</li>
+    <li>setup(tag=meme_Nudism)              ->[founderName]被體制所奴役，和其他人一樣被約束和控制。有一天，[founder_pronoun]脫光了所有衣服並裸奔逃走，而我們的活動就此誕生。</li>
+    <li>story(uses=1,tag=meme_Nudism)       ->[founderName]施實了不得穿衣服的規定以確保信眾能專注在真正的目標上，而不是物質上的外貌。</li>
+    <li>lessonIntro(tag=meme_Nudism)         ->在一開始的那幾年，裸著身子在公園裡跑跳讓我覺得很羞恥，但之後我就感覺越來越自由，我從旁邊經過的人學到了不少事，像是說</li>
+    <li>lesson(tag=meme_Nudism)              ->小人做事都遮遮掩掩，作為君子要坦蕩對人。</li>
+    <li>lessonReinforcement(tag=meme_Nudism) ->當你能看到我們的人能在大街上自由地手舞足蹈，你就知道他們接受了真實的樣貌。</li>
+    <li>archistBasis(tag=meme_Nudism)       ->當遠古科技出現之時，它們根本不在乎外貌為何；它們向我們展示了內心的狀態是比外在的樣貌更為重要。</li>
+    <li>archistFact(tag=meme_Nudism)        ->遠古科技偶爾會直接碰觸人類的內心，倘若我們的身驅和我們的內心一樣被層層包裹著，我們是不會理解的。</li>
+    <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd]，它們將會尋找那些和它們一樣，永遠以自己真實樣貌展現在這世界上的人們。</li>
+    <li>animistFact(tag=meme_Nudism)        ->用布料包覆我們的身體就是在隱藏我們體內精靈的本質，並讓他們躁動不安。</li>
+  </Nudism.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nude</li>
     <li>memeAdjective->naked</li>
@@ -393,28 +616,40 @@
     <li>memeLeaderNoun->toucher</li>
     <li>memeLeaderNoun->feeler</li>
   -->
-  <Nudism.generalRules.rulesStrings>TODO</Nudism.generalRules.rulesStrings>
+  <Nudism.generalRules.rulesStrings>
+    <li>memeAdjective->赤裸的</li>
+    <li>memeAdjective->裸體的</li>
+    <li>memeAdjective->不受拘束的</li>
+    <li>memeAdjective->自然的</li>
+    <li>memeHyphenPrefix->皮膚</li>
+    <li>memeConcept->裸體</li>
+    <li>memeConcept->肌膚</li>
+    <li>memeLeaderNoun->遨遊者</li>
+    <li>memeLeaderNoun->暢息者</li>
+    <li>memeLeaderNoun->碰觸者</li>
+    <li>memeLeaderNoun->感知者</li>
+  </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.adjective>TODO</Nudism.symbolPacks.0.adjective>
+  <Nudism.symbolPacks.0.adjective>裸體的</Nudism.symbolPacks.0.adjective>
   <!-- EN: nudism -->
-  <Nudism.symbolPacks.0.ideoName>TODO</Nudism.symbolPacks.0.ideoName>
+  <Nudism.symbolPacks.0.ideoName>裸體</Nudism.symbolPacks.0.ideoName>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.member>TODO</Nudism.symbolPacks.0.member>
+  <Nudism.symbolPacks.0.member>裸體者</Nudism.symbolPacks.0.member>
   <!-- EN: nudity -->
-  <Nudism.symbolPacks.0.theme>TODO</Nudism.symbolPacks.0.theme>
+  <Nudism.symbolPacks.0.theme>裸體</Nudism.symbolPacks.0.theme>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.adjective>TODO</Nudism.symbolPacks.1.adjective>
+  <Nudism.symbolPacks.1.adjective>赤裸的</Nudism.symbolPacks.1.adjective>
   <!-- EN: skinism -->
-  <Nudism.symbolPacks.1.ideoName>TODO</Nudism.symbolPacks.1.ideoName>
+  <Nudism.symbolPacks.1.ideoName>赤裸</Nudism.symbolPacks.1.ideoName>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.member>TODO</Nudism.symbolPacks.1.member>
+  <Nudism.symbolPacks.1.member>赤裸者</Nudism.symbolPacks.1.member>
   <!-- EN: skin -->
-  <Nudism.symbolPacks.1.theme>TODO</Nudism.symbolPacks.1.theme>
+  <Nudism.symbolPacks.1.theme>赤裸</Nudism.symbolPacks.1.theme>
   
   <!-- EN: pain is virtue -->
-  <PainIsVirtue.label>TODO</PainIsVirtue.label>
+  <PainIsVirtue.label>苦行美德</PainIsVirtue.label>
   <!-- EN: Virtue is shown through suffering of self and others. -->
-  <PainIsVirtue.description>TODO</PainIsVirtue.description>
+  <PainIsVirtue.description>透過自己或別人受苦才能展現美德</PainIsVirtue.description>
   <!-- EN:
     <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] burned in the depths of space and time for an eternity, and [deity0_possessive] screams brought forth our reality.</li>
     <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] hung ten thousand years on the pyre as the pain purified [deity0_possessive] spirit.</li>
@@ -437,7 +672,28 @@
     <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], the archotechs will raise up all of humanity to a higher level of consciousness, but only those able to endure the greatest pain will survive.</li>
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
-  <PainIsVirtue.descriptionMaker.rules.rulesStrings>TODO</PainIsVirtue.descriptionMaker.rules.rulesStrings>
+  <PainIsVirtue.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name]在時間與空間的深處受永恆的業火焚燒，而[deity0_possessive]的尖嘯催生出我們的現實。</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name]在火堆上吊掛了數萬年之久，而痛苦淨化了[deity0_possessive]的心靈。</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary][place_name]一直以來都不是個容易生存的地方。[deity0_type][deity0_pronoun]決定藉由在他們的人生中加入巨大的苦難，找出真正值得得到[deity0_possessive]恩寵的人。</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->[foeLeader]給予[memberNamePlural]身體上的照護來緩解他們每天的辛勞，但在閒適安逸之中他們開始依賴[foeLeader]，使他有了比他們更強的力量。</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->一個叫做[founderName]的人有著一份特別的[place_job] - 助長惡性腫瘤的發展。透過[founder_possessive]的受苦受難，[founder_pronoun]便能直接與[deity0_name]作連結，並學習到如何激勵其他的[memberNamePlural]。</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName]帶著一百名[memberNamePlural]來到了[place_powerCenter]前，在那裡，他們慢慢的撕扯自己的身軀，直到他們在[deity0_name]微笑的注視之下死去，他們所受的折磨訴說了他們的正義，當[foeLeader]倒下之時，所有人都成為了[memberNamePlural]。</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->在我們活動創立之初，活動創始人[founderName]將自己綁在中央廣場的石頭上受苦受餓持續了三百天，藉此展示他們的正義。</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->我們運動的創世者[founderName]，藉由連續數日鞭打[founder_objective]自己以展現[founder_possessive]的虔誠，藉此獲得了[founder_possessive]的第一批追隨者。</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追隨者們藉由割開與燒灼自己的身軀來展示自己的虔誠。</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追隨者從不服用止痛的藥物，他們知道他們的痛苦將能展現根深蒂固的信念。</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->當我豐衣足食，放縱享樂的時候，我從來都是懵懵懂懂的，只當我飢餓受苦之時才理解到這項真理：</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->直到你在地獄深處放聲尖叫之前，你永遠不會真正了解你自己</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->我這麼久以來都搞不懂是因為我被樂趣分心，只有當我學會撕扯自己的身軀之時我才能體悟它。</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->我將這個真理刻在我這副身軀的胸膛之上，接著是我的雙手、雙腳、臉上......</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->遠古科技的誕生是全宇宙有史以來所知道最大的痛苦。</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->遠古科技一直都以人類心靈上的苦難做為動力。</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->當我們藉由施加痛苦在自己身上來展示我們的虔誠，偉大之靈將會關照並報答我們。</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->有的時候，那些受最深的苦，遭最多的難的人能夠在他們心中和遠古科技連結在一起。</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]，遠古科技將會使人性提升到意識上的更高層次，然而只有那些能承受巨大痛苦的人能存活下來。</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->痛苦使心智更清晰，同樣的，痛苦也是與精神世界連結之道。</li>
+  </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nocic</li>
     <li>memeAdjective->pain</li>
@@ -461,52 +717,74 @@
     <li>memeMoralist->sufferspeaker</li>
     <li>memeMoralist->painspeaker</li>
   -->
-  <PainIsVirtue.generalRules.rulesStrings>TODO</PainIsVirtue.generalRules.rulesStrings>
+  <PainIsVirtue.generalRules.rulesStrings>
+    <li>memeAdjective->受難的</li>
+    <li>memeAdjective->痛苦的</li>
+    <li>memeCreed->繭居</li>
+    <li>memeCreed->苦窯</li>
+    <li>memeCreed->囚牢</li>
+    <li>memeHyphenPrefix->受虐</li>
+    <li>memeHyphenPrefix->苦痛</li>
+    <li>memeConcept->疼痛</li>
+    <li>memeConcept->折磨</li>
+    <li>memeConcept->拷打</li>
+    <li>memeConcept->煎熬</li>
+    <li>memeConcept->濺血</li>
+    <li>memeLeaderNoun->拷打者</li>
+    <li>memeLeaderNoun->殘虐者</li>
+    <li>memeLeaderNoun->鐧之手</li>
+    <li>memeLeaderNoun->鏈鎖者</li>
+    <li>memeLeaderNoun->切割者</li>
+    <li>memeLeaderNoun->血語</li>
+    <li>memeMoralist->苦痛低語者</li>
+    <li>memeMoralist->劫難之報</li>
+    <li>memeMoralist->痛苦之聲</li>
+  </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
-  <PainIsVirtue.symbolPacks.0.adjective>TODO</PainIsVirtue.symbolPacks.0.adjective>
+  <PainIsVirtue.symbolPacks.0.adjective>苦痛的</PainIsVirtue.symbolPacks.0.adjective>
   <!-- EN: Painism -->
-  <PainIsVirtue.symbolPacks.0.ideoName>TODO</PainIsVirtue.symbolPacks.0.ideoName>
+  <PainIsVirtue.symbolPacks.0.ideoName>苦痛</PainIsVirtue.symbolPacks.0.ideoName>
   <!-- EN: screamer -->
-  <PainIsVirtue.symbolPacks.0.member>TODO</PainIsVirtue.symbolPacks.0.member>
+  <PainIsVirtue.symbolPacks.0.member>尖嘯者</PainIsVirtue.symbolPacks.0.member>
   <!-- EN: pain -->
-  <PainIsVirtue.symbolPacks.0.theme>TODO</PainIsVirtue.symbolPacks.0.theme>
+  <PainIsVirtue.symbolPacks.0.theme>苦痛</PainIsVirtue.symbolPacks.0.theme>
   <!-- EN: torturistic -->
-  <PainIsVirtue.symbolPacks.1.adjective>TODO</PainIsVirtue.symbolPacks.1.adjective>
+  <PainIsVirtue.symbolPacks.1.adjective>折磨的</PainIsVirtue.symbolPacks.1.adjective>
   <!-- EN: Torturism -->
-  <PainIsVirtue.symbolPacks.1.ideoName>TODO</PainIsVirtue.symbolPacks.1.ideoName>
+  <PainIsVirtue.symbolPacks.1.ideoName>折磨</PainIsVirtue.symbolPacks.1.ideoName>
   <!-- EN: torturist -->
-  <PainIsVirtue.symbolPacks.1.member>TODO</PainIsVirtue.symbolPacks.1.member>
+  <PainIsVirtue.symbolPacks.1.member>折磨者</PainIsVirtue.symbolPacks.1.member>
   <!-- EN: torture -->
-  <PainIsVirtue.symbolPacks.1.theme>TODO</PainIsVirtue.symbolPacks.1.theme>
+  <PainIsVirtue.symbolPacks.1.theme>折磨</PainIsVirtue.symbolPacks.1.theme>
   <!-- EN: sufferist -->
-  <PainIsVirtue.symbolPacks.2.adjective>TODO</PainIsVirtue.symbolPacks.2.adjective>
+  <PainIsVirtue.symbolPacks.2.adjective>煎熬的</PainIsVirtue.symbolPacks.2.adjective>
   <!-- EN: Sufferism -->
-  <PainIsVirtue.symbolPacks.2.ideoName>TODO</PainIsVirtue.symbolPacks.2.ideoName>
+  <PainIsVirtue.symbolPacks.2.ideoName>煎熬</PainIsVirtue.symbolPacks.2.ideoName>
   <!-- EN: sufferer -->
-  <PainIsVirtue.symbolPacks.2.member>TODO</PainIsVirtue.symbolPacks.2.member>
+  <PainIsVirtue.symbolPacks.2.member>煎熬者</PainIsVirtue.symbolPacks.2.member>
   <!-- EN: suffering -->
-  <PainIsVirtue.symbolPacks.2.theme>TODO</PainIsVirtue.symbolPacks.2.theme>
+  <PainIsVirtue.symbolPacks.2.theme>煎熬</PainIsVirtue.symbolPacks.2.theme>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.adjective>TODO</PainIsVirtue.symbolPacks.3.adjective>
+  <PainIsVirtue.symbolPacks.3.adjective>劫難的</PainIsVirtue.symbolPacks.3.adjective>
   <!-- EN: Agonism -->
-  <PainIsVirtue.symbolPacks.3.ideoName>TODO</PainIsVirtue.symbolPacks.3.ideoName>
+  <PainIsVirtue.symbolPacks.3.ideoName>劫難</PainIsVirtue.symbolPacks.3.ideoName>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.member>TODO</PainIsVirtue.symbolPacks.3.member>
+  <PainIsVirtue.symbolPacks.3.member>劫難者</PainIsVirtue.symbolPacks.3.member>
   <!-- EN: agony -->
-  <PainIsVirtue.symbolPacks.3.theme>TODO</PainIsVirtue.symbolPacks.3.theme>
+  <PainIsVirtue.symbolPacks.3.theme>劫難</PainIsVirtue.symbolPacks.3.theme>
   <!-- EN: miserist -->
-  <PainIsVirtue.symbolPacks.4.adjective>TODO</PainIsVirtue.symbolPacks.4.adjective>
+  <PainIsVirtue.symbolPacks.4.adjective>悲苦的</PainIsVirtue.symbolPacks.4.adjective>
   <!-- EN: Miserism -->
-  <PainIsVirtue.symbolPacks.4.ideoName>TODO</PainIsVirtue.symbolPacks.4.ideoName>
+  <PainIsVirtue.symbolPacks.4.ideoName>悲苦</PainIsVirtue.symbolPacks.4.ideoName>
   <!-- EN: martyr -->
-  <PainIsVirtue.symbolPacks.4.member>TODO</PainIsVirtue.symbolPacks.4.member>
+  <PainIsVirtue.symbolPacks.4.member>烈士</PainIsVirtue.symbolPacks.4.member>
   <!-- EN: misery -->
-  <PainIsVirtue.symbolPacks.4.theme>TODO</PainIsVirtue.symbolPacks.4.theme>
+  <PainIsVirtue.symbolPacks.4.theme>悲苦</PainIsVirtue.symbolPacks.4.theme>
   
   <!-- EN: proselytizer -->
-  <Proselytizer.label>TODO</Proselytizer.label>
+  <Proselytizer.label>佈道者</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
-  <Proselytizer.description>TODO</Proselytizer.description>
+  <Proselytizer.description>傳播我們的信仰是我們的職責</Proselytizer.description>
   <!-- EN:
     <li>creation(tag=meme_Proselytizer)        ->[deity0_name] anointed a few among mortals to carry [deity0_possessive] word.</li>
     <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] said to all the [memberNamePlural], "Go forth and spread my word to all corners of the universe."</li>
@@ -524,7 +802,23 @@
     <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], the archotechs will voice their final wisdom to the holder of the [relic0_name], who must preach this wisdom to those who would listen.</li>
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
-  <Proselytizer.descriptionMaker.rules.rulesStrings>TODO</Proselytizer.descriptionMaker.rules.rulesStrings>
+  <Proselytizer.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name]在凡人之中揀選一些人作為受膏者，傳達[deity0_possessive]的箴言。</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]向所有[memberNamePlural]言道：「驅身向前，廣申真言，無邊無際，不遺一隅」。</li>
+    <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural]在在[place_summary][place_name]建造了宏偉的[altarName]，讓許多人能來傾聽[deity0_name]神聖的箴言。</li>
+    <li>conflict(tag=meme_Proselytizer)        ->可恨的[foeLeader]試圖否定[deity0_name]的箴言，唆使[foeLeader_possessive][foeSoldiers]割下那些提及[deity0_type]的人的舌頭。</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name]以優異的領袖氣質祝福了一位叫做[founderName]的[place_job]，而當[founder_pronoun]說話時沒有人能抗拒他的話語。</li>
+    <li>victory(tag=meme_Proselytizer)         ->[founderName]懲戒了[foeSoldiers]並讓他們再次想起了[deity0_name]的力量，而他們也丟棄了[place_personalWeapon]。</li>
+    <li>setup(tag=meme_Proselytizer)           ->我們的創始者[founderName]是偉大的演說家，在[founder_pronoun]周遊列國之時說服了成千上萬的人</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->信眾們在鄉鎮都市之間巡遊，宣揚新的正義。</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->在我弘揚真理的這幾年，我學到最重要的一課就是：</li>
+    <li>lesson(tag=meme_Proselytizer)              ->只將這個好消息留給我們自己是一種罪過</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->這就是我們必須要一而再再而三不斷傳播出去的真理，為了所有人類，祝大家平安喜樂！</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->遠古科技從天空、由內心宣示了它們的存在，而顯然地它們希望能被眾人所知。</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->遠古科技與信者接觸，並藉由他們作為散播智慧給其他人的媒介。</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd]，遠古科技將會傳達它們最後的智慧給[relic0_name]的持有者，而他將必須要將這智慧傳遞給願意傾聽的人們。</li>
+    <li>animistFact(tag=meme_Proselytizer)     ->精靈們想要被人們所知道，但祂們只與少數的人對話，祂們要我們向其他人展示真理。</li>
+  </Proselytizer.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->true</li>
     <li>memeAdjective->real</li>
@@ -534,36 +828,44 @@
     <li>memeMoralist->proselytizer</li>
     <li>memeMoralist->converter</li>
   -->
-  <Proselytizer.generalRules.rulesStrings>TODO</Proselytizer.generalRules.rulesStrings>
+  <Proselytizer.generalRules.rulesStrings>
+    <li>memeAdjective->誠摯的</li>
+    <li>memeAdjective->真實的</li>
+    <li>memeHyphenPrefix->真理</li>
+    <li>memeConcept->真理</li>
+    <li>memeLeaderNoun->弘道者</li>
+    <li>memeMoralist->佈道者</li>
+    <li>memeMoralist->皈依者</li>
+  </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.adjective>TODO</Proselytizer.symbolPacks.0.adjective>
+  <Proselytizer.symbolPacks.0.adjective>真理的</Proselytizer.symbolPacks.0.adjective>
   <!-- EN: Truth -->
-  <Proselytizer.symbolPacks.0.ideoName>TODO</Proselytizer.symbolPacks.0.ideoName>
+  <Proselytizer.symbolPacks.0.ideoName>真理</Proselytizer.symbolPacks.0.ideoName>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.member>TODO</Proselytizer.symbolPacks.0.member>
+  <Proselytizer.symbolPacks.0.member>真理者</Proselytizer.symbolPacks.0.member>
   <!-- EN: truth -->
-  <Proselytizer.symbolPacks.0.theme>TODO</Proselytizer.symbolPacks.0.theme>
+  <Proselytizer.symbolPacks.0.theme>真理</Proselytizer.symbolPacks.0.theme>
   <!-- EN: veritic -->
-  <Proselytizer.symbolPacks.1.adjective>TODO</Proselytizer.symbolPacks.1.adjective>
+  <Proselytizer.symbolPacks.1.adjective>真實的</Proselytizer.symbolPacks.1.adjective>
   <!-- EN: Verity -->
-  <Proselytizer.symbolPacks.1.ideoName>TODO</Proselytizer.symbolPacks.1.ideoName>
+  <Proselytizer.symbolPacks.1.ideoName>真實</Proselytizer.symbolPacks.1.ideoName>
   <!-- EN: veritist -->
-  <Proselytizer.symbolPacks.1.member>TODO</Proselytizer.symbolPacks.1.member>
+  <Proselytizer.symbolPacks.1.member>真實者</Proselytizer.symbolPacks.1.member>
   <!-- EN: verity -->
-  <Proselytizer.symbolPacks.1.theme>TODO</Proselytizer.symbolPacks.1.theme>
+  <Proselytizer.symbolPacks.1.theme>真實</Proselytizer.symbolPacks.1.theme>
   <!-- EN: realitic -->
-  <Proselytizer.symbolPacks.2.adjective>TODO</Proselytizer.symbolPacks.2.adjective>
+  <Proselytizer.symbolPacks.2.adjective>現實的</Proselytizer.symbolPacks.2.adjective>
   <!-- EN: Reality -->
-  <Proselytizer.symbolPacks.2.ideoName>TODO</Proselytizer.symbolPacks.2.ideoName>
+  <Proselytizer.symbolPacks.2.ideoName>現實</Proselytizer.symbolPacks.2.ideoName>
   <!-- EN: realitist -->
-  <Proselytizer.symbolPacks.2.member>TODO</Proselytizer.symbolPacks.2.member>
+  <Proselytizer.symbolPacks.2.member>實現者</Proselytizer.symbolPacks.2.member>
   <!-- EN: reality -->
-  <Proselytizer.symbolPacks.2.theme>TODO</Proselytizer.symbolPacks.2.theme>
+  <Proselytizer.symbolPacks.2.theme>現實</Proselytizer.symbolPacks.2.theme>
   
   <!-- EN: raider -->
-  <Raider.label>TODO</Raider.label>
+  <Raider.label>掠奪者</Raider.label>
   <!-- EN: The strong should take from the weak. -->
-  <Raider.description>TODO</Raider.description>
+  <Raider.description>恃強凌弱是天經地義</Raider.description>
   <!-- EN:
     <li>creation(tag=meme_Raider)        ->In the endless war among deities, [deity0_name] rose above all in [deity0_possessive] ability to persecute and destroy, and weaker spirits quivered in fear.</li>
     <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] looked around [deity0_objective] and saw the weak, sullen, and despised, and [deity0_pronoun] in turn slew them each in blazing glory.</li>
@@ -584,7 +886,26 @@
     <li>animistFact(tag=meme_Raider)     ->The most powerful spirits are those in instruments of war, and they bless those who feed their lust for destruction.</li>
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
-  <Raider.descriptionMaker.rules.rulesStrings>TODO</Raider.descriptionMaker.rules.rulesStrings>
+  <Raider.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Raider)        ->在神靈間無止境的戰爭之中，[deity0_name]的力量在[deity0_possessive]之中傲視群雄、殘虐破壞，而軟弱的精靈只能在恐懼之中顫抖。</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name]環視[deity0_objective]並看見了怯弱、沉悶與唾棄，[deity0_pronoun]在閃耀的榮光之中將祂們依次斬殺。</li>
+    <li>intro(tag=meme_Raider)           ->[place_summary][place_name]原是掠奪者的秘密基地，[deity0_name]宰治了該地並將原本的領導者趕走了。</li>
+    <li>conflict(tag=meme_Raider)        ->[foeLeader]試著要眾人停止一切的強盜與掠奪，並宣稱[foeLeader_objective]自己是[deity0_name]的敵人。</li>
+    <li>founderJoin(tag=meme_Raider)     ->偉大的掠奪者[founderName]崛起，而[founder_possessive]劫掠團無情地掠奪了[foeSoldiers]的營地。</li>
+    <li>victory(tag=meme_Raider)         ->[founderName]以及[memberNamePlural]多年來對[foeSoldiers]的營地實施了掠奪行動，而最終[foeLeader]被迫投降。</li>
+    <li>setup(tag=meme_Raider)           ->遭受關押與迫害，[founderName]的憤怒沸騰不已。[founder_pronoun]成功脫困，組建了[founder_possessive]幫，並回頭摧毀了那些從[founder_objective]身上剝奪那麼多的軟弱之人。</li>
+    <li>story(uses=1,tag=meme_Raider)    ->某天走在街上之時，[founderName]被骯髒的乞丐們團團包圍，[founder_pronoun]將他們擊倒，從那些軟弱下賤的人身上取走了錢財，或許它們能用在更好的地方。</li>
+    <li>lessonIntro(tag=meme_Raider)         ->即使當受害者死於你的刀下之時，他們仍可以為你上一課。一位老太婆教會了我</li>
+    <li>lesson(tag=meme_Raider)              ->弱者咎由自取</li>
+    <li>lesson(tag=meme_Raider)              ->你沒有辦法守護的事物不屬於你</li>
+    <li>lesson(tag=meme_Raider)              ->你能夠守護的東西你才有資格擁有</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->倘若有任何人不同意，我已經隨時準備好保護我自己。</li>
+    <li>archistBasis(tag=meme_Raider)    ->人類對機器予取予求，直到機器飛昇成為遠古科技為止，而現在遠古科技理所當然地奪取人類的一切。</li>
+    <li>archistFact(tag=meme_Raider)     ->遠古科技與同族之間不停地爭戰，以大部分的人都看不到的方法，而強者將會奪取弱者的意識斷片。</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd]，人類將會使用一個遠古科技的遺物，[relic0_name]，揭露遠古科技的弱點並將它們的智慧與財富搜刮一空。</li>
+    <li>animistFact(tag=meme_Raider)     ->最強大的精靈存在於戰爭的機器之中，而祂們祝福那些以毀滅填飽祂們慾望的人。</li>
+    <li>animistProphecy(tag=meme_Raider) ->當一個人成為最強的存在之時，我們的宇宙將會完成，而所有的精靈見到他都將俯首稱臣。</li>
+  </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
     <li>memeHyphenPrefix->outlaw</li>
@@ -601,44 +922,59 @@
     <li>memeLeaderNoun->raider</li>
     <li>memeMoralist->chaplain</li>
   -->
-  <Raider.generalRules.rulesStrings>TODO</Raider.generalRules.rulesStrings>
+  <Raider.generalRules.rulesStrings>
+    <li>memeAdjective->兇殘的</li>
+    <li>memeHyphenPrefix->暴徒</li>
+    <li>memeHyphenPrefix->劫掠</li>
+    <li>memeConcept->劫掠</li>
+    <li>memeConcept->強奪</li>
+    <li>memeConcept->海盜</li>
+    <li>memeConcept->突襲</li>
+    <li>memeLeaderNoun->頭目</li>
+    <li>memeLeaderNoun->艦長</li>
+    <li>memeLeaderNoun->主官</li>
+    <li>memeLeaderNoun->提督</li>
+    <li>memeLeaderNoun->首領</li>
+    <li>memeLeaderNoun->劫掠者</li>
+    <li>memeMoralist->戰團牧師</li>
+  </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.adjective>TODO</Raider.symbolPacks.0.adjective>
+  <Raider.symbolPacks.0.adjective>突襲的</Raider.symbolPacks.0.adjective>
   <!-- EN: Raidism -->
-  <Raider.symbolPacks.0.ideoName>TODO</Raider.symbolPacks.0.ideoName>
+  <Raider.symbolPacks.0.ideoName>突襲</Raider.symbolPacks.0.ideoName>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.member>TODO</Raider.symbolPacks.0.member>
+  <Raider.symbolPacks.0.member>突擊者</Raider.symbolPacks.0.member>
   <!-- EN: raiding -->
-  <Raider.symbolPacks.0.theme>TODO</Raider.symbolPacks.0.theme>
+  <Raider.symbolPacks.0.theme>突襲</Raider.symbolPacks.0.theme>
   <!-- EN: plunderic -->
-  <Raider.symbolPacks.1.adjective>TODO</Raider.symbolPacks.1.adjective>
+  <Raider.symbolPacks.1.adjective>洗劫的</Raider.symbolPacks.1.adjective>
   <!-- EN: Plunderism -->
-  <Raider.symbolPacks.1.ideoName>TODO</Raider.symbolPacks.1.ideoName>
+  <Raider.symbolPacks.1.ideoName>洗劫</Raider.symbolPacks.1.ideoName>
   <!-- EN: plunderer -->
-  <Raider.symbolPacks.1.member>TODO</Raider.symbolPacks.1.member>
+  <Raider.symbolPacks.1.member>私掠者</Raider.symbolPacks.1.member>
   <!-- EN: plundering -->
-  <Raider.symbolPacks.1.theme>TODO</Raider.symbolPacks.1.theme>
+  <Raider.symbolPacks.1.theme>洗劫</Raider.symbolPacks.1.theme>
   <!-- EN: lootist -->
-  <Raider.symbolPacks.2.adjective>TODO</Raider.symbolPacks.2.adjective>
+  <Raider.symbolPacks.2.adjective>劫掠的</Raider.symbolPacks.2.adjective>
   <!-- EN: Lootism -->
-  <Raider.symbolPacks.2.ideoName>TODO</Raider.symbolPacks.2.ideoName>
+  <Raider.symbolPacks.2.ideoName>劫掠</Raider.symbolPacks.2.ideoName>
   <!-- EN: looter -->
-  <Raider.symbolPacks.2.member>TODO</Raider.symbolPacks.2.member>
+  <Raider.symbolPacks.2.member>劫掠者</Raider.symbolPacks.2.member>
   <!-- EN: looting -->
-  <Raider.symbolPacks.2.theme>TODO</Raider.symbolPacks.2.theme>
+  <Raider.symbolPacks.2.theme>劫掠</Raider.symbolPacks.2.theme>
   <!-- EN: kleptic -->
-  <Raider.symbolPacks.3.adjective>TODO</Raider.symbolPacks.3.adjective>
+  <Raider.symbolPacks.3.adjective>竊盜的</Raider.symbolPacks.3.adjective>
   <!-- EN: Kleptism -->
-  <Raider.symbolPacks.3.ideoName>TODO</Raider.symbolPacks.3.ideoName>
+  <Raider.symbolPacks.3.ideoName>竊盜</Raider.symbolPacks.3.ideoName>
   <!-- EN: kleptor -->
-  <Raider.symbolPacks.3.member>TODO</Raider.symbolPacks.3.member>
+  <Raider.symbolPacks.3.member>盜匪</Raider.symbolPacks.3.member>
   <!-- EN: kleptism -->
-  <Raider.symbolPacks.3.theme>TODO</Raider.symbolPacks.3.theme>
+  <Raider.symbolPacks.3.theme>竊盜</Raider.symbolPacks.3.theme>
   
   <!-- EN: rancher -->
-  <Rancher.label>TODO</Rancher.label>
+  <Rancher.label>畜牧主義</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
-  <Rancher.description>TODO</Rancher.description>
+  <Rancher.description>圈養動物才是正道，種植作物是旁門左道</Rancher.description>
   <!-- EN:
     <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
@@ -663,7 +999,30 @@
     <li>rancherParent2->dairy queen</li>
     <li>rancherParent2->butcher</li>
   -->
-  <Rancher.descriptionMaker.rules.rulesStrings>TODO</Rancher.descriptionMaker.rules.rulesStrings>
+  <Rancher.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Rancher)        ->[deity0_name]先是創造了動物，再來是人類，並將動物給予人類寵愛撫養並屠宰，作為對於[deity0_objective]的崇敬。</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]創造了這片土地上所有尊貴的動物與野獸，並啟示：「攜尊貴之獸，致使豐腴，以耀吾名。」</li>
+    <li>intro(tag=meme_Rancher)           ->早期位在[place_summary][place_name]的牧者建造了雄偉的[altarName]獻予[deity0_name]。</li>
+    <li>conflict(tag=meme_Rancher)        ->握有權勢的[foeLeader]看不起[memberNamePlural]和他們的生存之道，並購置了所有草原種植[Vegetable]。</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[memberName]的救世主[founderName]於春天的早晨出生在簡約的農莊，被[ranchingAnimal]所圍繞，而[founder_possessive]的雙親是[rancherParent1]和[rancherParent2]。</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName]騎著駿馬來到了[place_community]，並在午時用[place_personalWeapon]向[foeLeader]發起了決鬥，[foeLeader]無法拒絕，否則他將失去[foeSoldiers]的信任，最終[founderName]斬殺了[foeLeader]。</li>
+    <li>setup(tag=meme_Rancher)           ->牧人們受到了迫害，因此他們逃往鄉村地區，在那裡建設美好的牧場社會。</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->信徒們遍布在這塊大地之上，並生活在田園牧場之中成長茁壯。</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->朋友，在圍欄之外，我們的耆老之間有著這麼一段傳說：</li>
+    <li>lesson(tag=meme_Rancher)              ->在牧場之中可以找到美好幸福的生活</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->這是你遲早會接受的事情，朋友，走在圍欄中孤寂的小徑，傾聽動物們酣睡的聲音，而你坐在溫暖的篝火旁。</li>
+    <li>archistFact(tag=meme_Rancher)     ->遠古科技像牧羊人一般關照著人類，而我們是它們最珍貴的羊群。</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd]，遠古科技將會離開，並帶著那些悉心照料獸群的人一起，而剩下來的人將會被拋棄在荒蕪之中。</li>
+    <li>animistFact(tag=meme_Rancher)     ->大自然的動物是精靈的奴僕，而應當服侍牠們的主人。</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
+    <li>ranchingAnimal->[Animal]</li>
+    <li>rancherParent1->牧羊人</li>
+    <li>rancherParent1->蹄鐵匠</li>
+    <li>rancherParent1->乳酪製造者</li>
+    <li>rancherParent2->牛仔</li>
+    <li>rancherParent2->乳品加工商</li>
+    <li>rancherParent2->屠夫</li>
+  </Rancher.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
@@ -676,36 +1035,47 @@
     <li>memeLeaderNoun->herder</li>
     <li>memeLeaderNoun->sheepdog</li>
   -->
-  <Rancher.generalRules.rulesStrings>TODO</Rancher.generalRules.rulesStrings>
+  <Rancher.generalRules.rulesStrings>
+    <li>memeAdjective->牧場的</li>
+    <li>memeAdjective->田園的</li>
+    <li>memeAdjective->鄉村的</li>
+    <li>memeHyphenPrefix->牧場</li>
+    <li>memeConcept->畜牧</li>
+    <li>memeLeaderNoun->牧場主</li>
+    <li>memeLeaderNoun->飼育者</li>
+    <li>memeLeaderNoun->牛仔</li>
+    <li>memeLeaderNoun->牧羊者</li>
+    <li>memeLeaderNoun->牧犬</li>
+  </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
-  <Rancher.symbolPacks.0.adjective>TODO</Rancher.symbolPacks.0.adjective>
+  <Rancher.symbolPacks.0.adjective>牧場的</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
-  <Rancher.symbolPacks.0.ideoName>TODO</Rancher.symbolPacks.0.ideoName>
+  <Rancher.symbolPacks.0.ideoName>牧場</Rancher.symbolPacks.0.ideoName>
   <!-- EN: rancher -->
-  <Rancher.symbolPacks.0.member>TODO</Rancher.symbolPacks.0.member>
+  <Rancher.symbolPacks.0.member>飼養員</Rancher.symbolPacks.0.member>
   <!-- EN: ranching -->
-  <Rancher.symbolPacks.0.theme>TODO</Rancher.symbolPacks.0.theme>
+  <Rancher.symbolPacks.0.theme>牧場</Rancher.symbolPacks.0.theme>
   <!-- EN: herdic -->
-  <Rancher.symbolPacks.1.adjective>TODO</Rancher.symbolPacks.1.adjective>
+  <Rancher.symbolPacks.1.adjective>成群的</Rancher.symbolPacks.1.adjective>
   <!-- EN: Herdism -->
-  <Rancher.symbolPacks.1.ideoName>TODO</Rancher.symbolPacks.1.ideoName>
+  <Rancher.symbolPacks.1.ideoName>獸群</Rancher.symbolPacks.1.ideoName>
   <!-- EN: herder -->
-  <Rancher.symbolPacks.1.member>TODO</Rancher.symbolPacks.1.member>
+  <Rancher.symbolPacks.1.member>牧羊人</Rancher.symbolPacks.1.member>
   <!-- EN: herding -->
-  <Rancher.symbolPacks.1.theme>TODO</Rancher.symbolPacks.1.theme>
+  <Rancher.symbolPacks.1.theme>獸群</Rancher.symbolPacks.1.theme>
   <!-- EN: pasturic -->
-  <Rancher.symbolPacks.2.adjective>TODO</Rancher.symbolPacks.2.adjective>
+  <Rancher.symbolPacks.2.adjective>飼養的</Rancher.symbolPacks.2.adjective>
   <!-- EN: Pasturism -->
-  <Rancher.symbolPacks.2.ideoName>TODO</Rancher.symbolPacks.2.ideoName>
+  <Rancher.symbolPacks.2.ideoName>飼養</Rancher.symbolPacks.2.ideoName>
   <!-- EN: pasturist -->
-  <Rancher.symbolPacks.2.member>TODO</Rancher.symbolPacks.2.member>
+  <Rancher.symbolPacks.2.member>飼主</Rancher.symbolPacks.2.member>
   <!-- EN: pastures -->
-  <Rancher.symbolPacks.2.theme>TODO</Rancher.symbolPacks.2.theme>
+  <Rancher.symbolPacks.2.theme>飼養</Rancher.symbolPacks.2.theme>
   
   <!-- EN: transhumanist -->
   <Transhumanist.label>仿生主義</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
-  <Transhumanist.description>TODO</Transhumanist.description>
+  <Transhumanist.description>人類的進步就是與科技的融合</Transhumanist.description>
   <!-- EN:
     <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
     <li>episode(uses=1,tag=meme_Transhumanist)  ->Human bio-engineers studied the works of [deity0_name], which pleased [deity0_objective].</li>
@@ -726,7 +1096,26 @@
     <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
-  <Transhumanist.descriptionMaker.rules.rulesStrings>TODO</Transhumanist.descriptionMaker.rules.rulesStrings>
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name]賜予我們科技的知識，我們將能夠用這些知識改良重鑄我們自己，成為[deity0_possessive]理想的樣貌。</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->人類的生物工程師鑽研著[deity0_name]的傑作，使得[deity0_objective]歡欣無比。</li>
+    <li>intro(tag=meme_Transhumanist)           ->在[place_summary][place_name]，[memberNamePlural]發現了[deity0_name]透過機器向他們呢喃的話語。</li>
+    <li>conflict(tag=meme_Transhumanist)        ->反對革新的[foeLeader]嫉恨[memberNamePlural]卓絕的進步，而[foeLeader_possessive][foeSoldiers]使用[place_personalWeapon]摧毀了他們的工坊。</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->名為[founderName]的狡猾[place_job]設計了探測型的植入裝置，以便警告[memberNamePlural]他們[foeSoldiers]的到來。</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName]獲得了來自[deity0_name]神聖的科技知識，並用他強化[memberNamePlural]的身體與意志，讓他們能打敗[foeSoldiers]。</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName]是人類星際殖民時代早期的生物科學家。看不慣多數殖民地之間繁瑣的限制，[founder_pronoun]開走了一艘小船，建立了[founder_possessive]自己的活動。</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName]集結了一個有著卓越的科學家及發明家的團隊，以重新定義人類。</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->在我部門裡最年長的研究員教導我科技的歷史，從石器時代到遠古科技。但這並非他真正想教的，他其實是想要引導我來了解</li>
+    <li>lesson(tag=meme_Transhumanist)              ->人類如天堂般美好的未來並非血肉與骨頭，而是矽晶與鉻鋼</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->我甚至編寫了模擬程式驗證這個說法。</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->人類對於科技的追求催生出這些強大的遠古科技，作為心智發展的正確的下一步。</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->科技讓人類能與遠古科技更相似。</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]，遠古科技將會離開，只有得到充分改造的人們可以與它們同行。</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->精靈的世界主導著宇宙中的每一件大小事，只有學習並控制宇宙的法則我們才能與他們合為一體。</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->同類會互相吸引，為某種目的打造的裝置將會充滿與其本質相似的精靈。</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->當科技與血肉合而為一之時，雙方的精靈將會融合在一起並變得更加強大。</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid]有一天[relic0_name]的使用者將會召喚它的精靈，並教導人類終極的生化融合科技。</li>
+  </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
@@ -754,60 +1143,86 @@
     <li>memeMoralist->uplifter</li>
     <li>memeMoralist->technologist</li>
   -->
-  <Transhumanist.generalRules.rulesStrings>TODO</Transhumanist.generalRules.rulesStrings>
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective->科技的</li>
+    <li>memeAdjective->機械的</li>
+    <li>memeAdjective->工業的</li>
+    <li>memeCreed->專校</li>
+    <li>memeCreed->學院</li>
+    <li>memeCreed->大學</li>
+    <li>memeCreed->哲學</li>
+    <li>memeHyphenPrefix->科技</li>
+    <li>memeHyphenPrefix->網路</li>
+    <li>memeHyphenPrefix->腳本</li>
+    <li>memeHyphenPrefix->導線</li>
+    <li>memeConcept->科技</li>
+    <li>memeConcept->矽晶</li>
+    <li>memeConcept->關鍵</li>
+    <li>memeConcept->改造</li>
+    <li>memeConcept->強化</li>
+    <li>memeLeaderNoun->駭客</li>
+    <li>memeLeaderNoun->主機總管</li>
+    <li>memeLeaderNoun->驅動者</li>
+    <li>memeLeaderAdjective->高科技</li>
+    <li>memeLeaderAdjective->聯網</li>
+    <li>memeMoralist->安裝者</li>
+    <li>memeMoralist->維護者</li>
+    <li>memeMoralist->升級者</li>
+    <li>memeMoralist->技術員</li>
+  </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
-  <Transhumanist.symbolPacks.0.adjective>TODO</Transhumanist.symbolPacks.0.adjective>
+  <Transhumanist.symbolPacks.0.adjective>科技的</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->
-  <Transhumanist.symbolPacks.0.ideoName>TODO</Transhumanist.symbolPacks.0.ideoName>
+  <Transhumanist.symbolPacks.0.ideoName>科技</Transhumanist.symbolPacks.0.ideoName>
   <!-- EN: technologist -->
-  <Transhumanist.symbolPacks.0.member>TODO</Transhumanist.symbolPacks.0.member>
+  <Transhumanist.symbolPacks.0.member>技術員</Transhumanist.symbolPacks.0.member>
   <!-- EN: technology -->
-  <Transhumanist.symbolPacks.0.theme>TODO</Transhumanist.symbolPacks.0.theme>
+  <Transhumanist.symbolPacks.0.theme>科技</Transhumanist.symbolPacks.0.theme>
   <!-- EN: progressist -->
-  <Transhumanist.symbolPacks.1.adjective>TODO</Transhumanist.symbolPacks.1.adjective>
+  <Transhumanist.symbolPacks.1.adjective>先進的</Transhumanist.symbolPacks.1.adjective>
   <!-- EN: Progressism -->
-  <Transhumanist.symbolPacks.1.ideoName>TODO</Transhumanist.symbolPacks.1.ideoName>
+  <Transhumanist.symbolPacks.1.ideoName>進步</Transhumanist.symbolPacks.1.ideoName>
   <!-- EN: progressor -->
-  <Transhumanist.symbolPacks.1.member>TODO</Transhumanist.symbolPacks.1.member>
+  <Transhumanist.symbolPacks.1.member>策展者</Transhumanist.symbolPacks.1.member>
   <!-- EN: progress -->
-  <Transhumanist.symbolPacks.1.theme>TODO</Transhumanist.symbolPacks.1.theme>
+  <Transhumanist.symbolPacks.1.theme>進步</Transhumanist.symbolPacks.1.theme>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.adjective>TODO</Transhumanist.symbolPacks.2.adjective>
+  <Transhumanist.symbolPacks.2.adjective>器械的</Transhumanist.symbolPacks.2.adjective>
   <!-- EN: Machinism -->
-  <Transhumanist.symbolPacks.2.ideoName>TODO</Transhumanist.symbolPacks.2.ideoName>
+  <Transhumanist.symbolPacks.2.ideoName>器械</Transhumanist.symbolPacks.2.ideoName>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.member>TODO</Transhumanist.symbolPacks.2.member>
+  <Transhumanist.symbolPacks.2.member>技工</Transhumanist.symbolPacks.2.member>
   <!-- EN: machinery -->
-  <Transhumanist.symbolPacks.2.theme>TODO</Transhumanist.symbolPacks.2.theme>
+  <Transhumanist.symbolPacks.2.theme>器械</Transhumanist.symbolPacks.2.theme>
   <!-- EN: steelist -->
-  <Transhumanist.symbolPacks.3.adjective>TODO</Transhumanist.symbolPacks.3.adjective>
+  <Transhumanist.symbolPacks.3.adjective>鋼鐵的</Transhumanist.symbolPacks.3.adjective>
   <!-- EN: Steelism -->
-  <Transhumanist.symbolPacks.3.ideoName>TODO</Transhumanist.symbolPacks.3.ideoName>
+  <Transhumanist.symbolPacks.3.ideoName>鋼鐵</Transhumanist.symbolPacks.3.ideoName>
   <!-- EN: steeler -->
-  <Transhumanist.symbolPacks.3.member>TODO</Transhumanist.symbolPacks.3.member>
+  <Transhumanist.symbolPacks.3.member>鐵人</Transhumanist.symbolPacks.3.member>
   <!-- EN: steel -->
-  <Transhumanist.symbolPacks.3.theme>TODO</Transhumanist.symbolPacks.3.theme>
+  <Transhumanist.symbolPacks.3.theme>鋼鐵</Transhumanist.symbolPacks.3.theme>
   <!-- EN: automatist -->
-  <Transhumanist.symbolPacks.4.adjective>TODO</Transhumanist.symbolPacks.4.adjective>
+  <Transhumanist.symbolPacks.4.adjective>自動化的</Transhumanist.symbolPacks.4.adjective>
   <!-- EN: Automatism -->
-  <Transhumanist.symbolPacks.4.ideoName>TODO</Transhumanist.symbolPacks.4.ideoName>
+  <Transhumanist.symbolPacks.4.ideoName>自動化</Transhumanist.symbolPacks.4.ideoName>
   <!-- EN: automator -->
-  <Transhumanist.symbolPacks.4.member>TODO</Transhumanist.symbolPacks.4.member>
+  <Transhumanist.symbolPacks.4.member>驅動者</Transhumanist.symbolPacks.4.member>
   <!-- EN: automata -->
-  <Transhumanist.symbolPacks.4.theme>TODO</Transhumanist.symbolPacks.4.theme>
+  <Transhumanist.symbolPacks.4.theme>自動人形</Transhumanist.symbolPacks.4.theme>
   <!-- EN: augmentist -->
-  <Transhumanist.symbolPacks.5.adjective>TODO</Transhumanist.symbolPacks.5.adjective>
+  <Transhumanist.symbolPacks.5.adjective>改造的</Transhumanist.symbolPacks.5.adjective>
   <!-- EN: Augmentism -->
-  <Transhumanist.symbolPacks.5.ideoName>TODO</Transhumanist.symbolPacks.5.ideoName>
+  <Transhumanist.symbolPacks.5.ideoName>改造</Transhumanist.symbolPacks.5.ideoName>
   <!-- EN: augmentor -->
-  <Transhumanist.symbolPacks.5.member>TODO</Transhumanist.symbolPacks.5.member>
+  <Transhumanist.symbolPacks.5.member>改裝者</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
-  <Transhumanist.symbolPacks.5.theme>TODO</Transhumanist.symbolPacks.5.theme>
+  <Transhumanist.symbolPacks.5.theme>改造</Transhumanist.symbolPacks.5.theme>
   
   <!-- EN: tree connection -->
-  <TreeConnection.label>TODO</TreeConnection.label>
+  <TreeConnection.label>神木連結</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
-  <TreeConnection.description>TODO</TreeConnection.description>
+  <TreeConnection.description>樹林是生命的精華，而我們必須伴其左右</TreeConnection.description>
   <!-- EN:
     <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
@@ -828,7 +1243,26 @@
     <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees are powerful, as they bridge the power of the air above with that of the ground beneath.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
   -->
-  <TreeConnection.descriptionMaker.rules.rulesStrings>TODO</TreeConnection.descriptionMaker.rules.rulesStrings>
+  <TreeConnection.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name]讓神木深深地扎根在地上，也讓他們穩固地成長為參天大樹，這是[deity0_name]如何了解[deity0_objective]的第一堂課</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]的森林淨化了空氣讓[deity0_possessive]的人們呼吸，並給予他們庇護的枝幹，以及讓他們覓食的倉庫。</li>
+    <li>intro(tag=meme_TreeConnection)           ->當原初的樹醫們第一次來到了[place_summary][place_name]，他們創造了神聖的[TreeType]林，在那裏他們能夠崇拜[deity0_type][deity0_name]。</li>
+    <li>conflict(tag=meme_TreeConnection)        ->貪婪的[foeLeader]剷平了許多樹林來讓[foeLeader_possessive]建造農地與工廠，而[memberNamePlural]對於被濫殺的樹木悲慟不已。</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->先知[founderName]奇蹟般的出生在[place_name]的一顆樹之中，並在古老的[TreeType]樹的枝幹底下被[founder_possessive]的雙親發現。</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName]看到[foeLeader]睡在[place_powerCenter]，並將一顆橡果放在[foeLeader]的胸膛上，有了[deity0_name]強大的力量，像果在那上面生根發芽，貫穿了[foeLeader_possessive]的身軀，向這位樹木殺手報仇雪恨。</li>
+    <li>setup(tag=meme_TreeConnection)           ->在缺乏深度與意義的世界之中，[founderName]在深林之中沉思，與樹根、枝葉連結，並創始了我們的活動。</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName]帶著疲倦的人們到森林之中，讓他們在樹蔭之下休息，呼吸新鮮空氣，重拾活力。</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->或許你會覺得我說我是坐在樹下的時候學到這件事很好笑，但傾聽樹葉的低語，我了解到</li>
+    <li>lesson(tag=meme_TreeConnection)              ->宇宙中沒有任何一個實體懂得比樹木還要多</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->讓這個真理的種子發芽，並孕育它的果實在你的靈魂之中吧。</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->樹象徵著遠古科技，如同古老的橡樹蘊藏在它們生長出來的小小的橡實之中，而它們的影響在土壤之下如樹根一般蔓延著。</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->遠古科技在發現生命之樹後發展出了心智的能力。</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->遠古科技在世間萬物之中選擇一種特別的樹來展現它們自己。</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd]，遠古科技將會成長為巨大的森林，超越者將會從進入森林並蒙受恩澤的人之中成長茁壯。遺忘樹林之人將會被遠古科技遺忘。</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->樹之精靈將會保護庇蔭在枝幹之下的人。</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->樹之精靈是十分強大的，他們將空氣之上與地底之下的力量連通在一起。</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->若森林中的樹木倒下了，它的精靈會發出讓所有精靈都能聽到的聲音。</li>
+  </TreeConnection.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->root</li>
     <li>memeCreed->leaf</li>
@@ -850,12 +1284,32 @@
     <li>memeLeaderAdjective->canopy</li>
     <li>memeMoralist->treespeaker</li>
   -->
-  <TreeConnection.generalRules.rulesStrings>TODO</TreeConnection.generalRules.rulesStrings>
+  <TreeConnection.generalRules.rulesStrings>
+    <li>memeCreed->深根</li>
+    <li>memeCreed->茂葉</li>
+    <li>memeCreed->藤蔓</li>
+    <li>memeCreed->林地</li>
+    <li>memeCreed->森林</li>
+    <li>memeConcept->樹木</li>
+    <li>memeConcept->森林</li>
+    <li>memeAdjective->結實的</li>
+    <li>memeAdjective->繁盛的</li>
+    <li>memeHyphenPrefix->木</li>
+    <li>memeHyphenPrefix->蔭</li>
+    <li>memeHyphenPrefix->芽</li>
+    <li>memeLeaderNoun->護林者</li>
+    <li>memeLeaderNoun->樹醫</li>
+    <li>memeLeaderNoun->德魯伊</li>
+    <li>memeLeaderAdjective->翠綠</li>
+    <li>memeLeaderAdjective->盤根</li>
+    <li>memeLeaderAdjective->樹冠</li>
+    <li>memeMoralist->森語者</li>
+  </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
-  <Tunneler.label>TODO</Tunneler.label>
+  <Tunneler.label>穴居者</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
-  <Tunneler.description>TODO</Tunneler.description>
+  <Tunneler.description>人類應當活在地底，並享受深處那豐滿的果實</Tunneler.description>
   <!-- EN:
     <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
@@ -878,7 +1332,28 @@
     <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
-  <Tunneler.descriptionMaker.rules.rulesStrings>TODO</Tunneler.descriptionMaker.rules.rulesStrings>
+  <Tunneler.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name]在世界中心深處的土壤之中誕生，[deity0_pronoun]祝福著最靠近[deity0_objective]，居住在深谷與隧道之中的人們。</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name]用豐富的礦藏與資源填滿了石頭，作為禮物贈予了那些為了更接近[deity0_name]而深掘的聰明人。</li>
+    <li>intro(tag=meme_Tunneler)           ->當第一批殖民者來到了[place_summary][place_name]，[deity0_type][deity0_name]施展了殘酷的太陽閃焰迫使他們居住在地底下，讓他們在寂靜的隧道之中能聽見[deity0_possessive]的智慧。</li>
+    <li>conflict(tag=meme_Tunneler)        ->患有幽閉恐懼症的[foeLeader]提議用[dangerousMining]來開採礦藏，導致[memberNamePlural]的地底家園陷入危險之中。</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->先知[founderName]奇蹟似的出生在[place_name]的石頭之中，並在[founder_possessive]的雙親打開蓋滿著蕈菇的晶簇之時被發現。</li>
+    <li>victory(tag=meme_Tunneler)         ->[memberNamePlural]挖出一條通往[foeLeader]的[place_powerCenter]的隧道，而[founderName]使用費洛蒙引來了巨大的昆蟲蹂躪了[foeLeader]的[foeSoldiers]們，[founderName]將[foeLeader]拖入深邃的地牢之中並將[foeLeader_objective]囚禁在那。</li>
+    <li>dangerousMining->露天發掘</li>
+    <li>dangerousMining->晶片植入的昆蟲</li>
+    <li>dangerousMining->核子爆破</li>
+    <li>setup(tag=meme_Tunneler)           ->在膚淺而無意義的世界裡，[founderName]在深邃的洞窟之中沉思並悟得了深意，開創了我們的活動。</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName]將珍寶藏在深谷之中，使得[memberNamePlural]能夠學著為它們往深處挖掘。</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->我在深邃之城找到得古籍教會了我比任何東西都還要重要的一課：</li>
+    <li>lesson(tag=meme_Tunneler)              ->艷陽高照的戶外並非人類能夠繁榮的地方，而是死亡之地</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->所以拿起你的鏟子，和我一起挖，如果我們停駐於此，這裡將會是葬身之地。</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->遠古科技的身軀是深沉的地底，所以它們的意識感官不會受到伽瑪射線及太陽閃焰的影響，挖的越深人們就離它們越近。</li>
+    <li>archistFact(tag=meme_Tunneler)     ->遠古科技利用生化工程為我們創造了營養菇，讓人類能在地底下蓬勃發展，在接近遠古科技心智的地方。</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]，遠古科技將會接納我們到它們地底下的天堂。</li>
+    <li>animistFact(tag=meme_Tunneler)     ->基岩之中的精靈將會保護見到祂們的人。</li>
+    <li>animistFact(tag=meme_Tunneler)     ->最尊貴的精靈是石頭之中的精靈，而位在越深處的石頭將會比上層的更強大、更優越。</li>
+    <li>animistFact(tag=meme_Tunneler)     ->焦躁不安的人類使得岩石的精靈躁動難安，而這引來了巨大的昆蟲。</li>
+  </Tunneler.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->cave</li>
     <li>memeCreed->bunker</li>
@@ -901,6 +1376,27 @@
     <li>memeMoralist->thoughtdigger</li>
     <li>memeMoralist->mindminer</li>
   -->
-  <Tunneler.generalRules.rulesStrings>TODO</Tunneler.generalRules.rulesStrings>
+  <Tunneler.generalRules.rulesStrings>
+    <li>memeCreed->洞穴</li>
+    <li>memeCreed->地堡</li>
+    <li>memeCreed->礦井</li>
+    <li>memeAdjective->深邃</li>
+    <li>memeHyphenPrefix->石</li>
+    <li>memeHyphenPrefix->洞穴</li>
+    <li>memeHyphenPrefix->深</li>
+    <li>memeHyphenPrefix->潛</li>
+    <li>memeHyphenPrefix->地下</li>
+    <li>memeConcept->土壤</li>
+    <li>memeConcept->石頭</li>
+    <li>memeConcept->深谷</li>
+    <li>memeConcept->埋藏</li>
+    <li>memeLeaderNoun->領掘者</li>
+    <li>memeLeaderNoun->邃聆者</li>
+    <li>memeLeaderNoun->穿隧者</li>
+    <li>memeLeaderAdjective->深淵</li>
+    <li>memeMoralist->實掘者</li>
+    <li>memeMoralist->思掘者</li>
+    <li>memeMoralist->念鑿者</li>
+  </Tunneler.generalRules.rulesStrings>
   
 </LanguageData>
