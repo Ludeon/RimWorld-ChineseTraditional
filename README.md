@@ -2,19 +2,23 @@
 
 Traditional Chinese translation of RimWorld.
 
-See this page for license info:
+See this page for license info and guidelines for how to contribute to the localization:
 
-http://ludeon.com/forums/index.php?topic=2933.0
+<http://ludeon.com/forums/index.php?topic=2933.0>
 
 ===========================
 
-# RimWorld-ChineseTraditional
+## RimWorld 繁體中文化
 
 RimWorld 繁體中文化(台灣)
 
 授權憑證:
 
-http://ludeon.com/forums/index.php?topic=2933.0
+<http://ludeon.com/forums/index.php?topic=2933.0>
+
+本翻譯為玩家志願者無償與遊戲開發者合作推出的中文化，屬於共享資源，Ludeon Studios 將會將本翻譯內容應用在官方釋出的 RimWorld 遊戲之中，而並不會提供任何形式上的酬勞與獎勵給予參與者(但你可以將你的名字放在中文化參與者的名單中並顯示在遊戲裡)。
+
+參與本專案表示你同意 Ludeon Studios 可以任意使用你所提供的內容，且任何人皆可不經授權的修改、散佈、再製，惟仍需符合各地法令。
 
 ===========================
 
@@ -23,31 +27,46 @@ http://ludeon.com/forums/index.php?topic=2933.0
 注意事項：  
 本補丁為 1.3.3101 版本專用，注意，即使同屬 1.3 版，各版間仍存在大量不相容，未更新至 1.3.3101 版以上的玩家請自行斟酌是否使用此補丁。
 
-# 安裝方法：
+## 安裝方法
 
-1. 下載壓縮檔
-2. 刪除 遊戲根目錄\Mods\Core\Languages 中的 ChineseTraditional (繁體中文).tar 檔案
-3. 解壓縮，將 Core 資料夾更名為「ChineseTraditional (繁體中文)」
-4. 將得到的「ChineseTraditional (繁體中文)」資料夾，放入遊戲根目錄\Mods\Core\Languages
-5. 開始遊戲
-
-若有購買 Royalty DLC，則需要再把 DLC 的中文化放入指定位置。
-Ideology DLC同樣操作。
-
-1. 刪除 遊戲根目錄\Mods\Royalty\Languages 中的 ChineseTraditional (繁體中文).tar 檔案
-2. 解壓縮的 Royalty 資料夾更名為「ChineseTraditional (繁體中文)」
-3. 將得到的「ChineseTraditional (繁體中文)」資料夾，放入遊戲根目錄\Mods\Royalty\Languages
-4. 開始遊戲
+1. 下載壓縮檔(請點擊本頁上方的`Code▾` 點選`Download ZIP`)並解壓縮，得到`Core`、`Royalty`、`Ideology`三個資料夾與本說明文件
+    >
+    > - 若未來有新的 DLC 發布則會有更多資料夾
+    > - `.github` 的資料夾與 `.gitattributes` 為 git 的版本控制設定及 github 平台的相關設定，若只是想更新語言的人刪除或忽略即可
+    >
+2. 刪除或重新命名 `遊戲根目錄(Rimworld安裝的位置)\Data\Core\Languages` 中的 `ChineseTraditional (繁體中文).tar` 檔案
+    >
+    > - 此步驟可以省略，只要名稱不要和下一步驟的資料夾重複即可
+    > - 若有購買並安裝DLC：Royalty 及 Ideology 則 `Data` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(三個資料夾要重複三次本安裝流程)
+    >
+3. 在同一資料夾下新增「ChineseTraditional (繁體中文)」的資料夾
+    >
+    > - 此步驟的資料夾名稱可以自訂，遊戲內會顯示相對應的資料夾名稱
+    >
+4. 將下載下來的 `Core` 資料夾內的東西，放入剛剛新建的資料夾
+    >
+    > - Core 的資料夾內應有：`Backstories` 、 `DefInjected` 、`Keyed` 、 `Strings` 四個資料夾與 `LangIcon.png` 、 `LanguageInfo.xml` 兩個檔案
+    > - Royalty 與 Ideology 應有：`DefInjected` 、 `Keyed` 兩個資料夾
+    > - 請注意以上檔案放置的位置是否正確，若不正確將導致所有文本無法正常顯示！
+    >
+5. 開始遊戲並在遊戲內選擇語言
 
 官方會把 github 這裡的翻譯放到遊戲中，只是會稍微晚一點，  
 過一段時間，官方放到遊戲內就不用做以上安裝步驟，直接遊戲中切換語言即可。
 
-# 變更語言方法：
+### FAQ
+
+- 問：我的遊戲根目錄在哪裡？我找不到
+    > 答：看你的Steam安裝在哪裡，Rimworld 的資料夾會放在`Steam\steamapps\common\RimWorld` 這個位置，至於你的Steam又安裝在哪裡，假如直接放在你的D槽的話就是`D:\Steam` 或是 `本機\本機磁碟 (D:)\Steam`
+    >
+    > 也可以在 Steam 上面滑鼠右鍵點選 Rimworld，選擇 `管理` > `瀏覽本機檔案` 就會打開檔案總管到那個資料夾了
+
+## 變更語言方法
 
 於遊戲主選單點選國旗圖案，即可選擇語言。或於遊戲選項內點選 Change Language 即可選擇語言。  
 本補丁可無痛套用，無須重開新檔。
 
-# 中文化說明：
+## 中文化說明
 
 本繁體中文化翻譯在 A6 版本前的部分內容是基於翻譯得極為優秀的簡體中文內容修改而成，  
 將對岸用字用語修改為台灣地區熟悉通用的字詞語，一方面可極大節省翻譯時程，  
@@ -67,18 +86,16 @@ Ideology DLC同樣操作。
 - 快捷鍵設定中的部分按鍵名稱
 - 開發者模式之內容(官方未提供翻譯接口)
 
-# 使用權利：
+## 其他連結
 
-本翻譯為玩家志願者無償與遊戲開發者合作推出的中文化，基本上屬於共享資源，任何人皆可不經授權的修改、散佈、再製，唯仍需符合各地法令。
-
-歡迎加入 FB 社團：https://www.facebook.com/groups/261201480757707/  
-Discord群組：https://discord.gg/96sZ5RgW2G  
-巴哈姆特邊緣世界哈拉版：https://forum.gamer.com.tw/B.php?bsn=27313  
+歡迎加入 FB 社團：<https://www.facebook.com/groups/261201480757707/>  
+Discord群組：<https://discord.gg/96sZ5RgW2G>  
+巴哈姆特邊緣世界哈拉版：<https://forum.gamer.com.tw/B.php?bsn=27313>  
   
 翻譯問題回報：請透過Discord或巴哈討論板(訊息跟信箱容易被忽略...)  
 感謝支持 RimWorld
 
-# 中文化人員：
+## 中文化人員
 
 Wilseanhsu 個人中文化。 2018/10/3
 
