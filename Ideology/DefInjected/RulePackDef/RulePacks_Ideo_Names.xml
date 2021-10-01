@@ -9,12 +9,21 @@
     <li>globalHyphenPrefix->astro</li>
     <li>globalHyphenPrefix->stello</li>
   -->
-  <CultureSpacer.rulePack.rulesStrings>TODO</CultureSpacer.rulePack.rulesStrings>
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective->太空的</li>
+    <li>globalAdjective->星球的</li>
+    <li>globalAdjective->恆星的</li>
+    <li>globalAdjective->星際的</li>
+    <li>globalHyphenPrefix->太空</li>
+    <li>globalHyphenPrefix->恆星</li>
+  </CultureSpacer.rulePack.rulesStrings>
   
   <!-- EN:
     <li>globalAdjective(p=15)->Tribal</li>
   -->
-  <NamerIdeoCorunan.rulePack.rulesStrings>TODO</NamerIdeoCorunan.rulePack.rulesStrings>
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)->部落的</li>
+  </NamerIdeoCorunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ideoName->[keyDeity]ism</li>
@@ -59,6 +68,48 @@
     <li>globalHyphenPrefix->archaeo</li>
     <li>globalHyphenPrefix->hyper</li>
   -->
-  <NamerIdeoGlobal.rulePack.rulesStrings>TODO</NamerIdeoGlobal.rulePack.rulesStrings>
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName->[keyDeity]主義</li>
+    <li>r_ideoName->[hyphenPrefix]-[keyDeity]主義</li>
+    <li>r_ideoName->[keyDeity]之[creed]</li>
+    <li>r_ideoName->[keyDeity]的[creed]</li>
+    <li>r_ideoAdjective->[keyDeity]的</li>
+    <li>r_memberName->[keyDeity]主義者</li>
+    <li>r_memberName->[keyDeity]人</li>
+    <li>r_ideoName(p=2)->[globalAdjective][packIdeoName]</li>
+    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName->[memeAdjective][packIdeoName]</li>
+    <li>r_ideoName(p=0.5)->[memeAdjective][creed]</li>
+    <li>r_ideoName(p=0.2)->[packTheme]的[creed]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->教條</li>
+    <li>genericCreed->教義</li>
+    <li>genericCreed->道</li>
+    <li>genericCreed->路</li>
+    <li>globalAdjective->[Color]</li>
+    <li>globalAdjective->新的</li>
+    <li>globalAdjective->富足的</li>
+    <li>globalAdjective->老的</li>
+    <li>globalAdjective->遠古</li>
+    <li>globalAdjective->具歷史的</li>
+    <li>globalAdjective->修訂的</li>
+    <li>globalAdjective->重組的</li>
+    <li>globalAdjective->硬</li>
+    <li>globalAdjective->基本的<li>
+    <li>globalAdjective->真</li>
+    <li>globalAdjective->民間的</li>
+    <li>globalAdjective->重組的</li>
+    <li>globalAdjective->[place_adjective]</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->前</li>
+    <li>globalHyphenPrefix(p=2)->後</li>
+    <li>globalHyphenPrefix->新</li>
+    <li>globalHyphenPrefix->古</li>
+    <li>globalHyphenPrefix->超</li>
+  </NamerIdeoGlobal.rulePack.rulesStrings>
   
 </LanguageData>
