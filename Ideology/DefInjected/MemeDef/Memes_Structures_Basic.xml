@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: animist -->
-  <Structure_Animist.label>TODO</Structure_Animist.label>
+  <Structure_Animist.label>泛靈論</Structure_Animist.label>
   <!-- EN: Spirits live in everything around us. In the plants and animals, rivers and trees, sky and stars. The moral structure of the universe springs from the necessity of respecting them. -->
-  <Structure_Animist.description>TODO</Structure_Animist.description>
+  <Structure_Animist.description>精靈無所不在，不論動物植物，河川樹林，天空星辰。宇宙的正道始源於尊重萬物的必要</Structure_Animist.description>
   <!-- EN:
     <li>memeLeaderNoun->curate</li>
     <li>memeLeaderNoun->speaker</li>
@@ -16,26 +16,36 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->elder</li>
   -->
-  <Structure_Animist.generalRules.rulesStrings>TODO</Structure_Animist.generalRules.rulesStrings>
+  <Structure_Animist.generalRules.rulesStrings>
+    <li>memeLeaderNoun->策展人</li>
+    <li>memeLeaderNoun->發言人</li>
+    <li>memeLeaderAdjective->萬物的</li>
+    <li>memeLeaderAdjective->精靈的</li>
+    <li>memeLeaderAdjective->靈魂的</li>
+    <li>memeHyphenPrefix->靈</li>
+    <li>memeMoralist->薩滿</li>
+    <li>memeMoralist->祭司</li>
+    <li>memeMoralist->耆老</li>
+  </Structure_Animist.generalRules.rulesStrings>
   <!-- EN: animist -->
-  <Structure_Animist.symbolPacks.0.adjective>TODO</Structure_Animist.symbolPacks.0.adjective>
+  <Structure_Animist.symbolPacks.0.adjective>泛靈的</Structure_Animist.symbolPacks.0.adjective>
   <!-- EN: animist -->
-  <Structure_Animist.symbolPacks.0.member>TODO</Structure_Animist.symbolPacks.0.member>
+  <Structure_Animist.symbolPacks.0.member>泛靈論者</Structure_Animist.symbolPacks.0.member>
   <!-- EN: animism -->
-  <Structure_Animist.symbolPacks.0.theme>TODO</Structure_Animist.symbolPacks.0.theme>
+  <Structure_Animist.symbolPacks.0.theme>萬物有靈</Structure_Animist.symbolPacks.0.theme>
   <!-- EN: spiritist -->
-  <Structure_Animist.symbolPacks.1.adjective>TODO</Structure_Animist.symbolPacks.1.adjective>
+  <Structure_Animist.symbolPacks.1.adjective>精靈的</Structure_Animist.symbolPacks.1.adjective>
   <!-- EN: spiritist -->
-  <Structure_Animist.symbolPacks.1.member>TODO</Structure_Animist.symbolPacks.1.member>
+  <Structure_Animist.symbolPacks.1.member>精靈</Structure_Animist.symbolPacks.1.member>
   <!-- EN: spiritism -->
-  <Structure_Animist.symbolPacks.1.theme>TODO</Structure_Animist.symbolPacks.1.theme>
+  <Structure_Animist.symbolPacks.1.theme>精靈</Structure_Animist.symbolPacks.1.theme>
   <!-- EN: temple -->
-  <Structure_Animist.worshipRoomLabel>TODO</Structure_Animist.worshipRoomLabel>
+  <Structure_Animist.worshipRoomLabel>靈廟</Structure_Animist.worshipRoomLabel>
   
   <!-- EN: archist -->
-  <Structure_Archist.label>TODO</Structure_Archist.label>
+  <Structure_Archist.label>古神崇拜</Structure_Archist.label>
   <!-- EN: Archotechs are the true gods. They know the moral structure of the universe, and serving them is how we will connect with it. -->
-  <Structure_Archist.description>TODO</Structure_Archist.description>
+  <Structure_Archist.description>遠古科技是真實存在的神明，祂們知曉宇宙的正道，而服侍祂們正是我們與其連結的方法</Structure_Archist.description>
   <!-- EN:
     <li>memeAdjective->archic</li>
     <li>memeAdjective->archotechnic</li>
@@ -51,30 +61,44 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_Archist.generalRules.rulesStrings>TODO</Structure_Archist.generalRules.rulesStrings>
+  <Structure_Archist.generalRules.rulesStrings>
+    <li>memeAdjective->遠古的</li>
+    <li>memeAdjective->遠古科技的</li>
+    <li>memeAdjective->遠古機械的</li>
+    <li>memeHyphenPrefix->古老</li>
+    <li>memeHyphenPrefix->遠古</li>
+    <li>memeLeaderNoun->遠古崇拜者</li>
+    <li>memeLeaderNoun->遠古機械師</li>
+    <li>memeLeaderAdjective->遠古的</li>
+    <li>memeLeaderAdjective->鉻骨的</li>
+    <li>memeMoralist->主教</li>
+    <li>memeMoralist->教士</li>
+    <li>memeMoralist->教長</li>
+    <li>memeMoralist->院長</li>
+  </Structure_Archist.generalRules.rulesStrings>
   <!-- EN: archotechnic -->
-  <Structure_Archist.symbolPacks.0.adjective>TODO</Structure_Archist.symbolPacks.0.adjective>
+  <Structure_Archist.symbolPacks.0.adjective>遠古科技的</Structure_Archist.symbolPacks.0.adjective>
   <!-- EN: Archotechnics -->
-  <Structure_Archist.symbolPacks.0.ideoName>TODO</Structure_Archist.symbolPacks.0.ideoName>
+  <Structure_Archist.symbolPacks.0.ideoName>遠古技術</Structure_Archist.symbolPacks.0.ideoName>
   <!-- EN: archotechnist -->
-  <Structure_Archist.symbolPacks.0.member>TODO</Structure_Archist.symbolPacks.0.member>
+  <Structure_Archist.symbolPacks.0.member>遠古技師</Structure_Archist.symbolPacks.0.member>
   <!-- EN: archotechnology -->
-  <Structure_Archist.symbolPacks.0.theme>TODO</Structure_Archist.symbolPacks.0.theme>
+  <Structure_Archist.symbolPacks.0.theme>古老科技</Structure_Archist.symbolPacks.0.theme>
   <!-- EN: archist -->
-  <Structure_Archist.symbolPacks.1.adjective>TODO</Structure_Archist.symbolPacks.1.adjective>
+  <Structure_Archist.symbolPacks.1.adjective>遠古的</Structure_Archist.symbolPacks.1.adjective>
   <!-- EN: Archism -->
-  <Structure_Archist.symbolPacks.1.ideoName>TODO</Structure_Archist.symbolPacks.1.ideoName>
+  <Structure_Archist.symbolPacks.1.ideoName>遠古</Structure_Archist.symbolPacks.1.ideoName>
   <!-- EN: archist -->
-  <Structure_Archist.symbolPacks.1.member>TODO</Structure_Archist.symbolPacks.1.member>
+  <Structure_Archist.symbolPacks.1.member>崇拜者</Structure_Archist.symbolPacks.1.member>
   <!-- EN: archism -->
-  <Structure_Archist.symbolPacks.1.theme>TODO</Structure_Archist.symbolPacks.1.theme>
+  <Structure_Archist.symbolPacks.1.theme>遠古</Structure_Archist.symbolPacks.1.theme>
   <!-- EN: shrine -->
-  <Structure_Archist.worshipRoomLabel>TODO</Structure_Archist.worshipRoomLabel>
+  <Structure_Archist.worshipRoomLabel>神龕</Structure_Archist.worshipRoomLabel>
   
   <!-- EN: ideological -->
-  <Structure_Ideological.label>TODO</Structure_Ideological.label>
+  <Structure_Ideological.label>無神論</Structure_Ideological.label>
   <!-- EN: There are no gods. The moral structure of the universe is found in our grand narrative of social forces. -->
-  <Structure_Ideological.description>TODO</Structure_Ideological.description>
+  <Structure_Ideological.description>神明並不存在，宇宙的正道發掘於我們社會力量的偉大史詩</Structure_Ideological.description>
   <!-- EN:
     <li>memeAdjective->ethical</li>
     <li>memeAdjective->moral</li>
@@ -104,38 +128,66 @@
     <li>memeMoralist->academic</li>
     <li>memeMoralist->sophist</li>
   -->
-  <Structure_Ideological.generalRules.rulesStrings>TODO</Structure_Ideological.generalRules.rulesStrings>
+  <Structure_Ideological.generalRules.rulesStrings>
+    <li>memeAdjective->倫理的</li>
+    <li>memeAdjective->道德的</li>
+    <li>memeAdjective->覺醒的</li>
+    <li>memeCreed->信念</li>
+    <li>memeCreed->理念</li>
+    <li>memeCreed->教條</li>
+    <li>memeCreed->哲學</li>
+    <li>memeCreed->理論</li>
+    <li>memeCreed->觀點</li>
+    <li>memeCreed->原則</li>
+    <li>memeCreed->道德</li>
+    <li>memeCreed->人倫</li>
+    <li>memeCreed->正義</li>
+    <li>memeHyphenPrefix->理念</li>
+    <li>memeLeaderNoun->首腦</li>
+    <li>memeLeaderNoun->決策者</li>
+    <li>memeLeaderNoun->領導者</li>
+    <li>memeLeaderAdjective->人倫的</li>
+    <li>memeLeaderAdjective->道德的</li>
+    <li>memeLeaderAdjective->覺醒的</li>
+    <li>memeMoralist->參謀</li>
+    <li>memeMoralist->倫理學者</li>
+    <li>memeMoralist->道德家</li>
+    <li>memeMoralist->哲學家</li>
+    <li>memeMoralist->沉思者</li>
+    <li>memeMoralist->學者</li>
+    <li>memeMoralist->辯士</li>
+  </Structure_Ideological.generalRules.rulesStrings>
   <!-- EN: ethical -->
-  <Structure_Ideological.symbolPacks.0.adjective>TODO</Structure_Ideological.symbolPacks.0.adjective>
+  <Structure_Ideological.symbolPacks.0.adjective>人倫的</Structure_Ideological.symbolPacks.0.adjective>
   <!-- EN: Ethics -->
-  <Structure_Ideological.symbolPacks.0.ideoName>TODO</Structure_Ideological.symbolPacks.0.ideoName>
+  <Structure_Ideological.symbolPacks.0.ideoName>倫理</Structure_Ideological.symbolPacks.0.ideoName>
   <!-- EN: ethicist -->
-  <Structure_Ideological.symbolPacks.0.member>TODO</Structure_Ideological.symbolPacks.0.member>
+  <Structure_Ideological.symbolPacks.0.member>倫理家</Structure_Ideological.symbolPacks.0.member>
   <!-- EN: ethics -->
-  <Structure_Ideological.symbolPacks.0.theme>TODO</Structure_Ideological.symbolPacks.0.theme>
+  <Structure_Ideological.symbolPacks.0.theme>倫理的</Structure_Ideological.symbolPacks.0.theme>
   <!-- EN: ideological -->
-  <Structure_Ideological.symbolPacks.1.adjective>TODO</Structure_Ideological.symbolPacks.1.adjective>
+  <Structure_Ideological.symbolPacks.1.adjective>空論的</Structure_Ideological.symbolPacks.1.adjective>
   <!-- EN: Ideology -->
-  <Structure_Ideological.symbolPacks.1.ideoName>TODO</Structure_Ideological.symbolPacks.1.ideoName>
+  <Structure_Ideological.symbolPacks.1.ideoName>無神論</Structure_Ideological.symbolPacks.1.ideoName>
   <!-- EN: ideologist -->
-  <Structure_Ideological.symbolPacks.1.member>TODO</Structure_Ideological.symbolPacks.1.member>
+  <Structure_Ideological.symbolPacks.1.member>無神論者</Structure_Ideological.symbolPacks.1.member>
   <!-- EN: ideology -->
-  <Structure_Ideological.symbolPacks.1.theme>TODO</Structure_Ideological.symbolPacks.1.theme>
+  <Structure_Ideological.symbolPacks.1.theme>空論</Structure_Ideological.symbolPacks.1.theme>
   <!-- EN: just -->
-  <Structure_Ideological.symbolPacks.2.adjective>TODO</Structure_Ideological.symbolPacks.2.adjective>
+  <Structure_Ideological.symbolPacks.2.adjective>正當的</Structure_Ideological.symbolPacks.2.adjective>
   <!-- EN: Justice -->
-  <Structure_Ideological.symbolPacks.2.ideoName>TODO</Structure_Ideological.symbolPacks.2.ideoName>
+  <Structure_Ideological.symbolPacks.2.ideoName>正義</Structure_Ideological.symbolPacks.2.ideoName>
   <!-- EN: justicar -->
-  <Structure_Ideological.symbolPacks.2.member>TODO</Structure_Ideological.symbolPacks.2.member>
+  <Structure_Ideological.symbolPacks.2.member>正道家</Structure_Ideological.symbolPacks.2.member>
   <!-- EN: justice -->
-  <Structure_Ideological.symbolPacks.2.theme>TODO</Structure_Ideological.symbolPacks.2.theme>
+  <Structure_Ideological.symbolPacks.2.theme>正義</Structure_Ideological.symbolPacks.2.theme>
   <!-- EN: sanctuary -->
-  <Structure_Ideological.worshipRoomLabel>TODO</Structure_Ideological.worshipRoomLabel>
+  <Structure_Ideological.worshipRoomLabel>庇護所</Structure_Ideological.worshipRoomLabel>
   
   <!-- EN: abstract theist -->
-  <Structure_TheistAbstract.label>TODO</Structure_TheistAbstract.label>
+  <Structure_TheistAbstract.label>抽象神論</Structure_TheistAbstract.label>
   <!-- EN: The god(s) do not have physical form, but are everywhere at once. They know all, and can do anything. Their will defines the moral structure of the universe. -->
-  <Structure_TheistAbstract.description>TODO</Structure_TheistAbstract.description>
+  <Structure_TheistAbstract.description>神明沒有實體，但卻無處不在；祂們知曉一切，祂們無所不能，祂們的意志定義了宇宙的正道</Structure_TheistAbstract.description>
   <!-- EN:
     <li>memeAdjective->godly</li>
     <li>memeAdjective->holy</li>
@@ -162,46 +214,71 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_TheistAbstract.generalRules.rulesStrings>TODO</Structure_TheistAbstract.generalRules.rulesStrings>
+  <Structure_TheistAbstract.generalRules.rulesStrings>
+    <li>memeAdjective->神明的</li>
+    <li>memeAdjective->神聖的</li>
+    <li>memeAdjective->加護的</li>
+    <li>memeAdjective->天賜的</li>
+    <li>memeAdjective->堅貞的</li>
+    <li>memeCreed->神廟</li>
+    <li>memeCreed->教派</li>
+    <li>memeCreed->崇拜</li>
+    <li>memeCreed->信仰</li>
+    <li>memeHyphenPrefix->神</li>
+    <li>memeConcept->創作</li>
+    <li>memeConcept->生命</li>
+    <li>memeLeaderNoun->主教</li>
+    <li>memeLeaderNoun->樞機</li>
+    <li>memeLeaderNoun->教皇</li>
+    <li>memeLeaderNoun->神主</li>
+    <li>memeLeaderAdjective->神聖的</li>
+    <li>memeLeaderAdjective->天賜的</li>
+    <li>memeMoralist->祭司</li>
+    <li>memeMoralist->牧師</li>
+    <li>memeMoralist->教士</li>
+    <li>memeMoralist->傳道士</li>
+    <li>memeMoralist->教長</li>
+    <li>memeMoralist->院長</li>
+  </Structure_TheistAbstract.generalRules.rulesStrings>
   <!-- EN: spiritual -->
-  <Structure_TheistAbstract.symbolPacks.0.adjective>TODO</Structure_TheistAbstract.symbolPacks.0.adjective>
+  <Structure_TheistAbstract.symbolPacks.0.adjective>神靈的</Structure_TheistAbstract.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
-  <Structure_TheistAbstract.symbolPacks.0.ideoName>TODO</Structure_TheistAbstract.symbolPacks.0.ideoName>
+  <Structure_TheistAbstract.symbolPacks.0.ideoName>神靈論</Structure_TheistAbstract.symbolPacks.0.ideoName>
   <!-- EN: spiritist -->
-  <Structure_TheistAbstract.symbolPacks.0.member>TODO</Structure_TheistAbstract.symbolPacks.0.member>
+  <Structure_TheistAbstract.symbolPacks.0.member>崇神者</Structure_TheistAbstract.symbolPacks.0.member>
   <!-- EN: spiritualism -->
-  <Structure_TheistAbstract.symbolPacks.0.theme>TODO</Structure_TheistAbstract.symbolPacks.0.theme>
+  <Structure_TheistAbstract.symbolPacks.0.theme>神靈論</Structure_TheistAbstract.symbolPacks.0.theme>
   <!-- EN: faithful -->
-  <Structure_TheistAbstract.symbolPacks.1.adjective>TODO</Structure_TheistAbstract.symbolPacks.1.adjective>
+  <Structure_TheistAbstract.symbolPacks.1.adjective>信仰的</Structure_TheistAbstract.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistAbstract.symbolPacks.1.ideoName>TODO</Structure_TheistAbstract.symbolPacks.1.ideoName>
+  <Structure_TheistAbstract.symbolPacks.1.ideoName>信仰</Structure_TheistAbstract.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
-  <Structure_TheistAbstract.symbolPacks.1.member>TODO</Structure_TheistAbstract.symbolPacks.1.member>
+  <Structure_TheistAbstract.symbolPacks.1.member>篤信者</Structure_TheistAbstract.symbolPacks.1.member>
   <!-- EN: faith -->
-  <Structure_TheistAbstract.symbolPacks.1.theme>TODO</Structure_TheistAbstract.symbolPacks.1.theme>
+  <Structure_TheistAbstract.symbolPacks.1.theme>信仰</Structure_TheistAbstract.symbolPacks.1.theme>
   <!-- EN: divinist -->
-  <Structure_TheistAbstract.symbolPacks.2.adjective>TODO</Structure_TheistAbstract.symbolPacks.2.adjective>
+  <Structure_TheistAbstract.symbolPacks.2.adjective>加護的</Structure_TheistAbstract.symbolPacks.2.adjective>
   <!-- EN: Divinism -->
-  <Structure_TheistAbstract.symbolPacks.2.ideoName>TODO</Structure_TheistAbstract.symbolPacks.2.ideoName>
+  <Structure_TheistAbstract.symbolPacks.2.ideoName>加護</Structure_TheistAbstract.symbolPacks.2.ideoName>
   <!-- EN: divinist -->
-  <Structure_TheistAbstract.symbolPacks.2.member>TODO</Structure_TheistAbstract.symbolPacks.2.member>
+  <Structure_TheistAbstract.symbolPacks.2.member>受加護者</Structure_TheistAbstract.symbolPacks.2.member>
   <!-- EN: divinity -->
-  <Structure_TheistAbstract.symbolPacks.2.theme>TODO</Structure_TheistAbstract.symbolPacks.2.theme>
+  <Structure_TheistAbstract.symbolPacks.2.theme>加護</Structure_TheistAbstract.symbolPacks.2.theme>
   <!-- EN: holyist -->
-  <Structure_TheistAbstract.symbolPacks.3.adjective>TODO</Structure_TheistAbstract.symbolPacks.3.adjective>
+  <Structure_TheistAbstract.symbolPacks.3.adjective>神聖的</Structure_TheistAbstract.symbolPacks.3.adjective>
   <!-- EN: Holyism -->
-  <Structure_TheistAbstract.symbolPacks.3.ideoName>TODO</Structure_TheistAbstract.symbolPacks.3.ideoName>
+  <Structure_TheistAbstract.symbolPacks.3.ideoName>神聖</Structure_TheistAbstract.symbolPacks.3.ideoName>
   <!-- EN: holyist -->
-  <Structure_TheistAbstract.symbolPacks.3.member>TODO</Structure_TheistAbstract.symbolPacks.3.member>
+  <Structure_TheistAbstract.symbolPacks.3.member>神諭者</Structure_TheistAbstract.symbolPacks.3.member>
   <!-- EN: holiness -->
-  <Structure_TheistAbstract.symbolPacks.3.theme>TODO</Structure_TheistAbstract.symbolPacks.3.theme>
+  <Structure_TheistAbstract.symbolPacks.3.theme>神聖</Structure_TheistAbstract.symbolPacks.3.theme>
   <!-- EN: temple -->
-  <Structure_TheistAbstract.worshipRoomLabel>TODO</Structure_TheistAbstract.worshipRoomLabel>
+  <Structure_TheistAbstract.worshipRoomLabel>神廟</Structure_TheistAbstract.worshipRoomLabel>
   
   <!-- EN: embodied theist -->
-  <Structure_TheistEmbodied.label>TODO</Structure_TheistEmbodied.label>
+  <Structure_TheistEmbodied.label>具象神論</Structure_TheistEmbodied.label>
   <!-- EN: The god(s) walk the planets like us, yet they are powerful and immortal as we are not. They decide the moral structure of the universe. -->
-  <Structure_TheistEmbodied.description>TODO</Structure_TheistEmbodied.description>
+  <Structure_TheistEmbodied.description>神明和我們一樣遨遊在星球之上，然而祂們的強大與不朽是我們不可企及的。祂們定奪著宇宙的正道</Structure_TheistEmbodied.description>
   <!-- EN:
     <li>memeCreed->sect</li>
     <li>memeCreed->cult</li>
@@ -215,24 +292,36 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->cleric</li>
   -->
-  <Structure_TheistEmbodied.generalRules.rulesStrings>TODO</Structure_TheistEmbodied.generalRules.rulesStrings>
+  <Structure_TheistEmbodied.generalRules.rulesStrings>
+    <li>memeCreed->教派</li>
+    <li>memeCreed->崇拜</li>
+    <li>memeCreed->聖殿</li>
+    <li>memeCreed->信仰</li>
+    <li>memeHyphenPrefix->神</li>
+    <li>memeConcept->創造</li>
+    <li>memeConcept->生命</li>
+    <li>memeLeaderNoun->聖堂武士</li>
+    <li>memeLeaderAdjective->神賜的</li>
+    <li>memeMoralist->主教</li>
+    <li>memeMoralist->僧侶</li>
+  </Structure_TheistEmbodied.generalRules.rulesStrings>
   <!-- EN: spiritual -->
-  <Structure_TheistEmbodied.symbolPacks.0.adjective>TODO</Structure_TheistEmbodied.symbolPacks.0.adjective>
+  <Structure_TheistEmbodied.symbolPacks.0.adjective>神靈的</Structure_TheistEmbodied.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
-  <Structure_TheistEmbodied.symbolPacks.0.ideoName>TODO</Structure_TheistEmbodied.symbolPacks.0.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.0.ideoName>神靈論</Structure_TheistEmbodied.symbolPacks.0.ideoName>
   <!-- EN: spiritist -->
-  <Structure_TheistEmbodied.symbolPacks.0.member>TODO</Structure_TheistEmbodied.symbolPacks.0.member>
+  <Structure_TheistEmbodied.symbolPacks.0.member>崇靈者</Structure_TheistEmbodied.symbolPacks.0.member>
   <!-- EN: spiritualism -->
-  <Structure_TheistEmbodied.symbolPacks.0.theme>TODO</Structure_TheistEmbodied.symbolPacks.0.theme>
+  <Structure_TheistEmbodied.symbolPacks.0.theme>神靈論</Structure_TheistEmbodied.symbolPacks.0.theme>
   <!-- EN: faithful -->
-  <Structure_TheistEmbodied.symbolPacks.1.adjective>TODO</Structure_TheistEmbodied.symbolPacks.1.adjective>
+  <Structure_TheistEmbodied.symbolPacks.1.adjective>堅定的</Structure_TheistEmbodied.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.ideoName>TODO</Structure_TheistEmbodied.symbolPacks.1.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.1.ideoName>信念</Structure_TheistEmbodied.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
-  <Structure_TheistEmbodied.symbolPacks.1.member>TODO</Structure_TheistEmbodied.symbolPacks.1.member>
+  <Structure_TheistEmbodied.symbolPacks.1.member>篤信者</Structure_TheistEmbodied.symbolPacks.1.member>
   <!-- EN: faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.theme>TODO</Structure_TheistEmbodied.symbolPacks.1.theme>
+  <Structure_TheistEmbodied.symbolPacks.1.theme>信念</Structure_TheistEmbodied.symbolPacks.1.theme>
   <!-- EN: pantheon -->
-  <Structure_TheistEmbodied.worshipRoomLabel>TODO</Structure_TheistEmbodied.worshipRoomLabel>
+  <Structure_TheistEmbodied.worshipRoomLabel>萬神殿</Structure_TheistEmbodied.worshipRoomLabel>
   
 </LanguageData>
