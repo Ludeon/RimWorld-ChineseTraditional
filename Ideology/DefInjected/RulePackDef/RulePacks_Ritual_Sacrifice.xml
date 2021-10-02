@@ -15,6 +15,19 @@
     <li>sacrifice->oblation</li>
     <li>sacrifice->slaughtering</li>
   -->
-  <NamerRitualSacrifice.rulePack.rulesStrings>TODO</NamerRitualSacrifice.rulePack.rulesStrings>
+  <NamerRitualSacrifice.rulePack.rulesStrings>
+    <li>r_ritualName(p=2)->[memeAdjective][sacrifice]</li>
+    <li>r_ritualName->[chosenTheme]的[sacrifice]</li>
+    <li>r_ritualName->[chosenAdjective][sacrifice]</li>
+    <li>r_ritualName->[keyDeity]的[sacrifice]</li>
+    <li>r_ritualName->[keyDeity]的[sacrifice]</li>
+    <li>r_ritualName->[memeConcept]的[sacrifice]</li>
+    <li>r_ritualName->[chosenIdeoName]的[sacrifice]</li>
+    <li>sacrifice->獻祭</li>
+    <li>sacrifice->奉獻</li>
+    <li>sacrifice->犧牲</li>
+    <li>sacrifice->供奉</li>
+    <li>sacrifice->宰殺</li>
+  </NamerRitualSacrifice.rulePack.rulesStrings>
   
 </LanguageData>

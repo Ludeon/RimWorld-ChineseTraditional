@@ -585,7 +585,7 @@
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>中斷目前的療程。佔用者會以原樣退出，並會患上短期塑體艙症候群。</BiosculpterInteruptCycleDesc>
   <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
-  <BiosculpterUnderageAgeReversalMessage>警告︰返老療程無法在塑體艙被{PAWN_labelShort}使用時啟動，因為{PAWN_labelShort}少於{ADULTAGE}歲。</BiosculpterUnderageAgeReversalMessage>
+  <BiosculpterUnderageAgeReversalMessage>警告︰逆齡療程無法在塑體艙被{PAWN_labelShort}使用時啟動，因為{PAWN_labelShort}少於{ADULTAGE}歲。</BiosculpterUnderageAgeReversalMessage>
   <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
   <BiosculpterLoadingStartedMessage>當塑體艙注滿{NUTRITION}營養後，選擇一位居民並右鍵點擊塑體艙或一位倒下人士以開始療程。</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -595,7 +595,7 @@
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了復原療程，而{PAWN_possessive} {HEDIFF_label}被治好了。</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}返老療程。{PAWN_pronoun}預計在{DEADLINE}天後進行下一次的返老。</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}逆齡療程。{PAWN_pronoun}預計在{DEADLINE}天後進行下一次的逆齡。</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}完成了樂活療程。</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
