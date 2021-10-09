@@ -26,11 +26,11 @@
   <!-- EN: convert -->
   <Convert.label>傳教</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>讓他人皈依為你的信仰，使他人對自己信仰的信心減少。減少的量取決於講者的談判技巧。</Convert.description>
+  <Convert.description>讓他人皈依為你的信仰，或使他人對自己信仰的信心減少。減少的量取決於講者的談判技巧。</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}對{RECIPIENT_labelShort}的傳教失敗了.{RECIPIENT_labelShort}對這項舉動感到不滿，但{RECIPIENT_possessive}的信仰從{CERTAINTYBEFORE}更靠向了{CERTAINTYAFTER}。</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}對{RECIPIENT_labelShort}的傳教失敗了.{RECIPIENT_labelShort}對這項舉動感到不滿，但{RECIPIENT_possessive}的信仰從{CERTAINTYBEFORE}變為{CERTAINTYAFTER}。</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
-  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort}成功轉化了{RECIPIENT_labelShort}，使其皈依{IDEO}。</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort}成功使{RECIPIENT_labelShort}改信，使其皈依{IDEO}。</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
   <!-- EN: Counsel -->
   <Counsel.label>顧問</Counsel.label>
