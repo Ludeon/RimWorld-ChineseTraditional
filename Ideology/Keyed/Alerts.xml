@@ -90,20 +90,20 @@
   <AlertRitualComingEntry>{0}於{1}，剩下{2}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
-  <AlertAgeReversalDemandNear>返老還童的要求</AlertAgeReversalDemandNear>
+  <AlertAgeReversalDemandNear>需要逆齡</AlertAgeReversalDemandNear>
   <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
-  <AlertAgeReversalDemandDesc>基於信仰，你的一些殖民者需要在塑體艙中定期接受返老的治療。如果沒得到治療，他們會不高興。\n\n以下人要求返老治療</AlertAgeReversalDemandDesc>
+  <AlertAgeReversalDemandDesc>基於信仰，你的一些殖民者需要在塑體艙中定期接受逆齡療程。如果沒進行療程，他們會不高興。\n\n以下人要求逆齡療程</AlertAgeReversalDemandDesc>
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Recruit>{PAWN}最近加入了{FACTION}，並希望在{DURATION}內開始返老治療。</AlertAgeReversalDemandDesc_Recruit>
+  <AlertAgeReversalDemandDesc_Recruit>{PAWN}最近加入了{FACTION}，並希望在{DURATION}內開始逆齡療程。</AlertAgeReversalDemandDesc_Recruit>
   <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Next>{PAWN}希望在{DURATION}內接受下一次治療。</AlertAgeReversalDemandDesc_Next>
+  <AlertAgeReversalDemandDesc_Next>{PAWN}希望在{DURATION}內接受下一次療程。</AlertAgeReversalDemandDesc_Next>
   <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Initial>{PAWN}希望在{DURATION}內進行第一次治療。</AlertAgeReversalDemandDesc_Initial>
+  <AlertAgeReversalDemandDesc_Initial>{PAWN}希望在{DURATION}內進行第一次療程。</AlertAgeReversalDemandDesc_Initial>
   <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Overdue>{PAWN}的治療已在{DURATION}過期。</AlertAgeReversalDemandDesc_Overdue>
+  <AlertAgeReversalDemandDesc_Overdue>{PAWN}的療程已在{DURATION}過期。</AlertAgeReversalDemandDesc_Overdue>
 
   <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
-  <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_nameDef}對{IDEO_name}的信念阻止了{PAWN_objective}吃{ANIMALS} 的肉。</AlertRoyalTitleNoVeneratedAnimalMeat>
+  <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_nameDef}對{IDEO_name}的信念阻止了{PAWN_objective}吃{ANIMALS}的肉。</AlertRoyalTitleNoVeneratedAnimalMeat>
 
   <!-- EN: Dryad caste not set -->
   <AlertGauranlenTreeWithoutDryadTypeLabel>樹精的種類未設置</AlertGauranlenTreeWithoutDryadTypeLabel>
