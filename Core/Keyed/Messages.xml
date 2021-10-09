@@ -76,7 +76,7 @@
   <MessageInsectTameDesignated>只有那些具有蟲族共鳴特性的人才能馴服{INSECT_indefinite}。</MessageInsectTameDesignated>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
-  <MessageInsectsHostileOnTaming>TODO</MessageInsectsHostileOnTaming>
+  <MessageInsectsHostileOnTaming>警告：{PAWN_labelShort}是敵對的，當你的居民試圖馴服它時將會引起它的攻擊。</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>新成員</LetterLabelMessageRecruitSuccess>
@@ -640,7 +640,7 @@
   <MessageCannotSelectInvisibleStat>{0_label}當前是隱藏的。</MessageCannotSelectInvisibleStat>
 
   <!-- EN: {PAWN_nameDef} is a prisoner -->
-  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef}是一名囚犯</MessagePrisonerCannotEquipWeapon>
+  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef}是一名俘虜</MessagePrisonerCannotEquipWeapon>
 
   <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
   <MessageIdeoOpposedWorkTypeSelected>警告：{0_nameDef}的信念排斥{1}工作。{0_pronoun}可能會變的不開心。</MessageIdeoOpposedWorkTypeSelected>
@@ -652,7 +652,7 @@
 
   <!-- Rituals -->
   <!-- EN: spectate -->
-  <Spectate>出席</Spectate>
+  <Spectate>旁觀</Spectate>
   <!-- EN: Assign to {0} -->
   <AssignToRole>指派給{0}</AssignToRole>
   <!-- EN: {0} has begun. -->
@@ -726,9 +726,9 @@
   <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
   <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort}不能擔任觀眾以外的任何其他角色。</MessageRitualCannotAssignAnyRoleFromSpectating>
   <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
-  <MessageRitualRoleMustNotBeImprisonedWildMan>TODO</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <MessageRitualRoleMustNotBeImprisonedWildMan>{0}不能是被囚禁的野人。</MessageRitualRoleMustNotBeImprisonedWildMan>
   <!-- EN: {0} must be free. -->
-  <MessageRitualRoleMustNotBeImprisoned>TODO</MessageRitualRoleMustNotBeImprisoned>
+  <MessageRitualRoleMustNotBeImprisoned>{0}必須是自由的。</MessageRitualRoleMustNotBeImprisoned>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>你必須選擇一個位置繼續。</MessagePlayerMustSelectTile>

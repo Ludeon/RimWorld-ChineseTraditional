@@ -113,9 +113,9 @@
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_possessive}將失去這些權限</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
-  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef}會失去{POINTS}點{FACTION_name}的未使用的許可點數。</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun}會保留所有{PAWN_possessive}心靈連結等級和心靈能力。</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>未知</UnknownLower>
   <!-- EN: On -->
@@ -345,15 +345,15 @@
   <!-- EN: resting -->
   <Carried>被運送</Carried>
   <!-- EN: Rideable animals / people -->
-  <RideableAnimalsPerPeople>TODO</RideableAnimalsPerPeople>
+  <RideableAnimalsPerPeople>人均可騎乘動物</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
-  <MultiplierFromRiddenAnimals>TODO</MultiplierFromRiddenAnimals>
+  <MultiplierFromRiddenAnimals>騎乘動物倍率</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>負重影響倍率：{0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>此動物可以騎乘。旅隊的人們會騎乘速度較快的動物，提昇旅隊整體的移動速度。</RideableAnimalTip>
   <!-- EN: This caravan can't move because it carries too much. -->
-  <EncumberedCaravanTilesPerDayTip>TODO</EncumberedCaravanTilesPerDayTip>
+  <EncumberedCaravanTilesPerDayTip>此旅隊因為超出負荷而無法移動。</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
   <FinalCaravanPawnsMovementSpeed>旅隊成員速度</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
@@ -507,13 +507,13 @@
   <!-- EN: Warning -->
   <Warning>警告</Warning>
   <!-- EN: Has subquest -->
-  <HasSubquest>TODO</HasSubquest>
+  <HasSubquest>有子任務</HasSubquest>
   <!-- EN: Subquest of -->
-  <SubquestOf>TODO</SubquestOf>
+  <SubquestOf>子任務於</SubquestOf>
   <!-- EN: Raid -->
   <Raid>突襲</Raid>
   <!-- EN: Disabled by -->
-  <ApparelRequirementDisabledLabel>TODO</ApparelRequirementDisabledLabel>
+  <ApparelRequirementDisabledLabel>禁止於</ApparelRequirementDisabledLabel>
   <!-- EN: Nudism -->
   <Nudism>裸體主義</Nudism>
   <!-- EN: Study progress -->
@@ -660,7 +660,7 @@
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort}未受徵召。</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
+  <ApparelPreventsShooting>{PAWN_nameDef}因為{PAWN_possessive}{APPAREL_label}無法使用遠程武器。</ApparelPreventsShooting>
 
   <!-- Snow -->
   <!-- EN: No snow -->
@@ -932,7 +932,7 @@
   <!-- EN: Ingredients -->
   <Ingredients>食材</Ingredients>
   <!-- EN: only stacks with similar meals -->
-  <OnlyStacksWithCompatibleMeals>TODO</OnlyStacksWithCompatibleMeals>
+  <OnlyStacksWithCompatibleMeal>只能與同類餐點堆疊</OnlyStacksWithCompatibleMeals>
 
   <!-- Plants -->
   <!-- EN: {0} grown -->
@@ -1090,7 +1090,7 @@
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>無法放置於陷阱旁。</CannotPlaceAdjacentTrap>
   <!-- EN: Cannot be placed next to another building of the same type. -->
-  <CannotPlaceAdjacentSameDef>TODO</CannotPlaceAdjacentSameDef>
+  <CannotPlaceAdjacentSameDef>無法放置於同類的建築旁。</CannotPlaceAdjacentSameDef>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
@@ -1483,17 +1483,17 @@
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>任意{0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending {0} -->
-  <LordReportAttending>出席{0}</LordReportAttending>
+  <LordReportAttending>參加{0}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0}已經被取消了。</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
-  <RitualNobodyAttended>{0}因無法出席而未完成。</RitualNobodyAttended>
+  <RitualNobodyAttended>{0}因沒有人參加而未完成。</RitualNobodyAttended>
   <!-- EN: {0} has been completed. -->
   <RitualFinished>{0}已經完成了。</RitualFinished>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>結束於{0}</RitualEndsIn>
   <!-- EN: Organizers -->
-  <Organizers>組織者Organizers></Organizers>
+  <Organizers>組織者</Organizers>
   <!-- EN: Quality factors -->
   <QualityFactors>品質倍率</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
@@ -1594,8 +1594,8 @@
   <MaxValue>{0}最大</MaxValue>
 
   <!-- EN: {0} of -->
-  <ThingOf>TODO</ThingOf>
+  <ThingOf>{0}個</ThingOf>
   <!-- EN: {0} of {1} -->
-  <ThingOfSource>TODO</ThingOfSource>
+  <ThingOfSource>{0}個{1}</ThingOfSource>
 
 </LanguageData>
