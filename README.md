@@ -12,6 +12,8 @@ See this page for license info and guidelines for how to contribute to the local
 
 RimWorld 繁體中文化(台灣)
 
+本專案專為核心遊戲製作(包含DLC)，模組相關疑問或翻譯「請勿」在此詢問或請求。
+
 授權憑證:
 
 <http://ludeon.com/forums/index.php?topic=2933.0>
@@ -42,6 +44,7 @@ RimWorld 繁體中文化(台灣)
 3. 在同一資料夾下新增「ChineseTraditional (繁體中文)」的資料夾
     >
     > - 此步驟的資料夾名稱可以自訂，遊戲內會顯示相對應的資料夾名稱
+    > - 注意！若有安裝可選擇「ChineseTraditional (繁體中文)」的模組時，請務必將資料夾名稱取作「ChineseTraditional (繁體中文)」而非自訂名稱，否則模組無法正常套用繁中翻譯
     >
 4. 將下載下來的 `Core` 資料夾內的東西，放入剛剛新建的資料夾
     >
