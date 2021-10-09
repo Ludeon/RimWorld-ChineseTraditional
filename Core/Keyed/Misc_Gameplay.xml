@@ -1483,7 +1483,7 @@
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>任意{0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending {0} -->
-  <LordReportAttending>出席</LordReportAttending>
+  <LordReportAttending>出席{0}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0}已經被取消了。</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
@@ -1531,13 +1531,13 @@
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>儀式氛圍音</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>總和{0}品質</RitualQualityLowWarning>
+  <RitualQualityLowWarning>{0}總體品質少於{1}。繼續進行很可能會對您的殖民地產生負面影響。\n\n你確定嗎?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>沒有合適的位置來交談。</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of {1}. -->
   <AbilityDisabledNoCapacity>{0_labelShort}的{1}不足。</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>每個儀式的參與者都會獲得持續{1}天的好心情。</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>每個儀式的參與者都會獲得持續{1}天的{0}點心情。</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>選擇誰需要參與{RITUAL_labelDef}</ChooseParticipants>

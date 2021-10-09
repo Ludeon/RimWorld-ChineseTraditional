@@ -200,7 +200,7 @@
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
   <RitualOutcomeExtraDesc_BlindingPsylinkAbility>伴隨新的心靈連結等級，{PAWN_pronoun}獲得了{0}心靈能力</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
-  <RitualOutcomeExtraDesc_ConsumableInspiration>得益於完滿的{RITUAL}，PAWN_labelShort}獲得了{INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <RitualOutcomeExtraDesc_ConsumableInspiration>得益於完滿的{RITUAL}，{PAWN_labelShort}獲得了{INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
   <RitualOutcomeExtraDesc_SkylanternWanderers>你的天燈吸引了一些友善的訪客。他們會登門到訪並留下禮物。</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
@@ -463,7 +463,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>目標</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}會經常修剪(TREE_definite}直至聯結力高於以上水平。\n\n更高的聯結力容許承載更多樹精，但也下降得更快，因此將需要花更多時間修剪才能維持。\n\n你可以點擊進度條去設置目標聯結力。\n\n每天聯結力下降︰{FALL}\n\n聯結力也受周邊建築物影響。</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}會經常修剪{TREE_definite}直至聯結力高於以上水平。\n\n更高的聯結力容許承載更多樹精，但也下降得更快，因此將需要花更多時間修剪才能維持。\n\n你可以點擊進度條去設置目標聯結力。\n\n每天聯結力下降︰{FALL}\n\n聯結力也受周邊建築物影響。</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}更改樹精種類。</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -586,8 +586,8 @@
   <BiosculpterInteruptCycleDesc>中斷目前的療程。佔用者會以原樣退出，並會患上短期塑體艙症候群。</BiosculpterInteruptCycleDesc>
   <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
   <BiosculpterUnderageAgeReversalMessage>警告︰逆齡療程無法在塑體艙被{PAWN_labelShort}使用時啟動，因為{PAWN_labelShort}少於{ADULTAGE}歲。</BiosculpterUnderageAgeReversalMessage>
-  <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
-  <BiosculpterLoadingStartedMessage>當塑體艙注滿{NUTRITION}營養後，選擇一位居民並右鍵點擊塑體艙或一位倒下人士以開始療程。</BiosculpterLoadingStartedMessage>
+  <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
+  <BiosculpterLoadingStartedMessage>當塑體艙注滿{INGREDIENTS}後，選擇一位居民並右鍵點擊塑體艙或一位倒下人士以開始療程。</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}被塑體艙退出，因為電力不足。</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
