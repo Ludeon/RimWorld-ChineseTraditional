@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: Buddhist origin -->
-  <Structure_OriginBuddhist.label>TODO</Structure_OriginBuddhist.label>
+  <Structure_OriginBuddhist.label>佛教起源</Structure_OriginBuddhist.label>
   <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-  <Structure_OriginBuddhist.description>TODO</Structure_OriginBuddhist.description>
+  <Structure_OriginBuddhist.description>這個信仰是由遠古的佛教流傳下來的，它的戒律與數千年前相比或許大有不同，但它所象徵之物是類似的</Structure_OriginBuddhist.description>
   <!-- EN:
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -22,76 +22,92 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->monk</li>
   -->
-  <Structure_OriginBuddhist.generalRules.rulesStrings>TODO</Structure_OriginBuddhist.generalRules.rulesStrings>
+  <Structure_OriginBuddhist.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->菩薩</li>
+    <li>memeLeaderNoun->薩埵</li>
+    <li>memeLeaderNoun->喇嘛</li>
+    <li>memeLeaderAdjective->開明的</li>
+    <li>memeLeaderAdjective->睿智的</li>
+    <li>memeLeaderAdjective->靈性的</li>
+    <li>memeLeaderAdjective->菩提</li>
+    <li>memeLeaderAdjective->達賴</li>
+    <li>memeMoralist(p=2)->bhikkhu</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->monk</li>
+  </Structure_OriginBuddhist.generalRules.rulesStrings>
   <!-- EN: Buddhist -->
-  <Structure_OriginBuddhist.symbolPacks.0.adjective>TODO</Structure_OriginBuddhist.symbolPacks.0.adjective>
+  <Structure_OriginBuddhist.symbolPacks.0.adjective>佛教的</Structure_OriginBuddhist.symbolPacks.0.adjective>
   <!-- EN: Buddhism -->
-  <Structure_OriginBuddhist.symbolPacks.0.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.0.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.0.ideoName>佛教</Structure_OriginBuddhist.symbolPacks.0.ideoName>
   <!-- EN: Buddhist -->
-  <Structure_OriginBuddhist.symbolPacks.0.member>TODO</Structure_OriginBuddhist.symbolPacks.0.member>
+  <Structure_OriginBuddhist.symbolPacks.0.member>佛祖</Structure_OriginBuddhist.symbolPacks.0.member>
   <!-- EN: Buddha -->
-  <Structure_OriginBuddhist.symbolPacks.0.theme>TODO</Structure_OriginBuddhist.symbolPacks.0.theme>
+  <Structure_OriginBuddhist.symbolPacks.0.theme>佛</Structure_OriginBuddhist.symbolPacks.0.theme>
   <!-- EN: Theric -->
-  <Structure_OriginBuddhist.symbolPacks.1.adjective>TODO</Structure_OriginBuddhist.symbolPacks.1.adjective>
+  <Structure_OriginBuddhist.symbolPacks.1.adjective>他毗利部</Structure_OriginBuddhist.symbolPacks.1.adjective>
   <!-- EN: Theravada -->
-  <Structure_OriginBuddhist.symbolPacks.1.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.1.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.1.ideoName>他毗利部</Structure_OriginBuddhist.symbolPacks.1.ideoName>
   <!-- EN: Therist -->
-  <Structure_OriginBuddhist.symbolPacks.1.member>TODO</Structure_OriginBuddhist.symbolPacks.1.member>
+  <Structure_OriginBuddhist.symbolPacks.1.member>他毗利部教徒</Structure_OriginBuddhist.symbolPacks.1.member>
   <!-- EN: Mahic -->
-  <Structure_OriginBuddhist.symbolPacks.2.adjective>TODO</Structure_OriginBuddhist.symbolPacks.2.adjective>
+  <Structure_OriginBuddhist.symbolPacks.2.adjective>摩訶衍那</Structure_OriginBuddhist.symbolPacks.2.adjective>
   <!-- EN: Mahayana -->
-  <Structure_OriginBuddhist.symbolPacks.2.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.2.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.2.ideoName>摩訶衍那</Structure_OriginBuddhist.symbolPacks.2.ideoName>
   <!-- EN: Mahist -->
-  <Structure_OriginBuddhist.symbolPacks.2.member>TODO</Structure_OriginBuddhist.symbolPacks.2.member>
+  <Structure_OriginBuddhist.symbolPacks.2.member>摩訶衍那教徒</Structure_OriginBuddhist.symbolPacks.2.member>
   <!-- EN: Vajric -->
-  <Structure_OriginBuddhist.symbolPacks.3.adjective>TODO</Structure_OriginBuddhist.symbolPacks.3.adjective>
+  <Structure_OriginBuddhist.symbolPacks.3.adjective>密宗</Structure_OriginBuddhist.symbolPacks.3.adjective>
   <!-- EN: Vajrayana -->
-  <Structure_OriginBuddhist.symbolPacks.3.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.3.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.3.ideoName>密宗</Structure_OriginBuddhist.symbolPacks.3.ideoName>
   <!-- EN: Vajrist -->
-  <Structure_OriginBuddhist.symbolPacks.3.member>TODO</Structure_OriginBuddhist.symbolPacks.3.member>
+  <Structure_OriginBuddhist.symbolPacks.3.member>密宗教徒</Structure_OriginBuddhist.symbolPacks.3.member>
   <!-- EN: Zen -->
-  <Structure_OriginBuddhist.symbolPacks.4.adjective>TODO</Structure_OriginBuddhist.symbolPacks.4.adjective>
+  <Structure_OriginBuddhist.symbolPacks.4.adjective>禪宗</Structure_OriginBuddhist.symbolPacks.4.adjective>
   <!-- EN: Zen -->
-  <Structure_OriginBuddhist.symbolPacks.4.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.4.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.4.ideoName>禪宗</Structure_OriginBuddhist.symbolPacks.4.ideoName>
   <!-- EN: Zenist -->
-  <Structure_OriginBuddhist.symbolPacks.4.member>TODO</Structure_OriginBuddhist.symbolPacks.4.member>
+  <Structure_OriginBuddhist.symbolPacks.4.member>禪宗教徒</Structure_OriginBuddhist.symbolPacks.4.member>
   <!-- EN: Seonic -->
-  <Structure_OriginBuddhist.symbolPacks.5.adjective>TODO</Structure_OriginBuddhist.symbolPacks.5.adjective>
+  <Structure_OriginBuddhist.symbolPacks.5.adjective>禪</Structure_OriginBuddhist.symbolPacks.5.adjective>
   <!-- EN: Seon -->
-  <Structure_OriginBuddhist.symbolPacks.5.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.5.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.5.ideoName>禪</Structure_OriginBuddhist.symbolPacks.5.ideoName>
   <!-- EN: Seonist -->
-  <Structure_OriginBuddhist.symbolPacks.5.member>TODO</Structure_OriginBuddhist.symbolPacks.5.member>
+  <Structure_OriginBuddhist.symbolPacks.5.member>禪教徒</Structure_OriginBuddhist.symbolPacks.5.member>
   <!-- EN: Ekist -->
-  <Structure_OriginBuddhist.symbolPacks.6.adjective>TODO</Structure_OriginBuddhist.symbolPacks.6.adjective>
+  <Structure_OriginBuddhist.symbolPacks.6.adjective>一佛乘</Structure_OriginBuddhist.symbolPacks.6.adjective>
   <!-- EN: Ekayana -->
-  <Structure_OriginBuddhist.symbolPacks.6.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.6.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.6.ideoName>一佛乘</Structure_OriginBuddhist.symbolPacks.6.ideoName>
   <!-- EN: Ekist -->
-  <Structure_OriginBuddhist.symbolPacks.6.member>TODO</Structure_OriginBuddhist.symbolPacks.6.member>
+  <Structure_OriginBuddhist.symbolPacks.6.member>一佛乘教徒</Structure_OriginBuddhist.symbolPacks.6.member>
   <!-- EN: Navic -->
-  <Structure_OriginBuddhist.symbolPacks.7.adjective>TODO</Structure_OriginBuddhist.symbolPacks.7.adjective>
+  <Structure_OriginBuddhist.symbolPacks.7.adjective>新佛教</Structure_OriginBuddhist.symbolPacks.7.adjective>
   <!-- EN: Navayana -->
-  <Structure_OriginBuddhist.symbolPacks.7.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.7.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.7.ideoName>新佛教</Structure_OriginBuddhist.symbolPacks.7.ideoName>
   <!-- EN: Navist -->
-  <Structure_OriginBuddhist.symbolPacks.7.member>TODO</Structure_OriginBuddhist.symbolPacks.7.member>
+  <Structure_OriginBuddhist.symbolPacks.7.member>新佛教教徒</Structure_OriginBuddhist.symbolPacks.7.member>
   <!-- EN: Tantric -->
-  <Structure_OriginBuddhist.symbolPacks.8.adjective>TODO</Structure_OriginBuddhist.symbolPacks.8.adjective>
+  <Structure_OriginBuddhist.symbolPacks.8.adjective>怛特羅佛教的</Structure_OriginBuddhist.symbolPacks.8.adjective>
   <!-- EN: Tantrayana -->
-  <Structure_OriginBuddhist.symbolPacks.8.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.8.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.8.ideoName>怛特羅衍那</Structure_OriginBuddhist.symbolPacks.8.ideoName>
   <!-- EN: Tantran -->
-  <Structure_OriginBuddhist.symbolPacks.8.member>TODO</Structure_OriginBuddhist.symbolPacks.8.member>
+  <Structure_OriginBuddhist.symbolPacks.8.member>怛特羅佛教徒</Structure_OriginBuddhist.symbolPacks.8.member>
   <!-- EN: Gelugist -->
-  <Structure_OriginBuddhist.symbolPacks.9.adjective>TODO</Structure_OriginBuddhist.symbolPacks.9.adjective>
+  <Structure_OriginBuddhist.symbolPacks.9.adjective>格魯派教的</Structure_OriginBuddhist.symbolPacks.9.adjective>
   <!-- EN: Gelug -->
-  <Structure_OriginBuddhist.symbolPacks.9.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.9.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.9.ideoName>格魯派</Structure_OriginBuddhist.symbolPacks.9.ideoName>
   <!-- EN: Gelugist -->
-  <Structure_OriginBuddhist.symbolPacks.9.member>TODO</Structure_OriginBuddhist.symbolPacks.9.member>
+  <Structure_OriginBuddhist.symbolPacks.9.member>格魯派教徒</Structure_OriginBuddhist.symbolPacks.9.member>
   <!-- EN: pagoda -->
-  <Structure_OriginBuddhist.worshipRoomLabel>TODO</Structure_OriginBuddhist.worshipRoomLabel>
+  <Structure_OriginBuddhist.worshipRoomLabel>浮屠</Structure_OriginBuddhist.worshipRoomLabel>
   
   <!-- EN: Christian origin -->
-  <Structure_OriginChristian.label>TODO</Structure_OriginChristian.label>
+  <Structure_OriginChristian.label>基督教起源</Structure_OriginChristian.label>
   <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-  <Structure_OriginChristian.description>TODO</Structure_OriginChristian.description>
+  <Structure_OriginChristian.description>抽象一神論架構的一個變體，這個信仰是由遠古的基督教所傳承而來。或許有許多教條與數千年前不盡相同，但它所象徵的意涵相當類似</Structure_OriginChristian.description>
   <!-- EN:
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -116,162 +132,185 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_OriginChristian.generalRules.rulesStrings>TODO</Structure_OriginChristian.generalRules.rulesStrings>
+  <Structure_OriginChristian.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->主教</li>
+    <li>memeLeaderNoun->樞機</li>
+    <li>memeLeaderNoun->教皇</li>
+    <li>memeLeaderNoun->大祭司</li>
+    <li>memeLeaderNoun->使徒</li>
+    <li>memeLeaderNoun->聖座</li>
+    <li>memeLeaderNoun->神主</li>
+    <li>memeLeaderNoun->教長</li>
+    <li>memeLeaderAdjective->神聖的</li>
+    <li>memeLeaderAdjective->天賜的</li>
+    <li>memeLeaderAdjective->基督的</li>
+    <li>memeLeaderAdjective->上帝的</li>
+    <li>memeMoralist->祭司</li>
+    <li>memeMoralist->牧師</li>
+    <li>memeMoralist->教士</li>
+    <li>memeMoralist->傳道士</li>
+    <li>memeMoralist->教會人員</li>
+    <li>memeMoralist->院士</li>
+  </Structure_OriginChristian.generalRules.rulesStrings>
   <!-- EN: Christian -->
-  <Structure_OriginChristian.symbolPacks.0.adjective>TODO</Structure_OriginChristian.symbolPacks.0.adjective>
+  <Structure_OriginChristian.symbolPacks.0.adjective>基督教的</Structure_OriginChristian.symbolPacks.0.adjective>
   <!-- EN: Christianity -->
-  <Structure_OriginChristian.symbolPacks.0.ideoName>TODO</Structure_OriginChristian.symbolPacks.0.ideoName>
+  <Structure_OriginChristian.symbolPacks.0.ideoName>基督教</Structure_OriginChristian.symbolPacks.0.ideoName>
   <!-- EN: Christian -->
-  <Structure_OriginChristian.symbolPacks.0.member>TODO</Structure_OriginChristian.symbolPacks.0.member>
+  <Structure_OriginChristian.symbolPacks.0.member>基督教徒</Structure_OriginChristian.symbolPacks.0.member>
   <!-- EN: Catholic -->
-  <Structure_OriginChristian.symbolPacks.1.adjective>TODO</Structure_OriginChristian.symbolPacks.1.adjective>
+  <Structure_OriginChristian.symbolPacks.1.adjective>天主教的</Structure_OriginChristian.symbolPacks.1.adjective>
   <!-- EN: Catholicism -->
-  <Structure_OriginChristian.symbolPacks.1.ideoName>TODO</Structure_OriginChristian.symbolPacks.1.ideoName>
+  <Structure_OriginChristian.symbolPacks.1.ideoName>天主教</Structure_OriginChristian.symbolPacks.1.ideoName>
   <!-- EN: Catholic -->
-  <Structure_OriginChristian.symbolPacks.1.member>TODO</Structure_OriginChristian.symbolPacks.1.member>
+  <Structure_OriginChristian.symbolPacks.1.member>天主教徒</Structure_OriginChristian.symbolPacks.1.member>
   <!-- EN: Protestant -->
-  <Structure_OriginChristian.symbolPacks.2.adjective>TODO</Structure_OriginChristian.symbolPacks.2.adjective>
+  <Structure_OriginChristian.symbolPacks.2.adjective>新教的</Structure_OriginChristian.symbolPacks.2.adjective>
   <!-- EN: Protestantism -->
-  <Structure_OriginChristian.symbolPacks.2.ideoName>TODO</Structure_OriginChristian.symbolPacks.2.ideoName>
+  <Structure_OriginChristian.symbolPacks.2.ideoName>新教</Structure_OriginChristian.symbolPacks.2.ideoName>
   <!-- EN: Protestant -->
-  <Structure_OriginChristian.symbolPacks.2.member>TODO</Structure_OriginChristian.symbolPacks.2.member>
+  <Structure_OriginChristian.symbolPacks.2.member>新教徒</Structure_OriginChristian.symbolPacks.2.member>
   <!-- EN: Orthodox -->
-  <Structure_OriginChristian.symbolPacks.3.adjective>TODO</Structure_OriginChristian.symbolPacks.3.adjective>
+  <Structure_OriginChristian.symbolPacks.3.adjective>東正教的</Structure_OriginChristian.symbolPacks.3.adjective>
   <!-- EN: Orthodoxy -->
-  <Structure_OriginChristian.symbolPacks.3.ideoName>TODO</Structure_OriginChristian.symbolPacks.3.ideoName>
+  <Structure_OriginChristian.symbolPacks.3.ideoName>東正教</Structure_OriginChristian.symbolPacks.3.ideoName>
   <!-- EN: Orthodoxist -->
-  <Structure_OriginChristian.symbolPacks.3.member>TODO</Structure_OriginChristian.symbolPacks.3.member>
+  <Structure_OriginChristian.symbolPacks.3.member>東正教徒</Structure_OriginChristian.symbolPacks.3.member>
   <!-- EN: Nestorian -->
-  <Structure_OriginChristian.symbolPacks.4.adjective>TODO</Structure_OriginChristian.symbolPacks.4.adjective>
+  <Structure_OriginChristian.symbolPacks.4.adjective>景教的</Structure_OriginChristian.symbolPacks.4.adjective>
   <!-- EN: Nestorianism -->
-  <Structure_OriginChristian.symbolPacks.4.ideoName>TODO</Structure_OriginChristian.symbolPacks.4.ideoName>
+  <Structure_OriginChristian.symbolPacks.4.ideoName>景教</Structure_OriginChristian.symbolPacks.4.ideoName>
   <!-- EN: Nestorian -->
-  <Structure_OriginChristian.symbolPacks.4.member>TODO</Structure_OriginChristian.symbolPacks.4.member>
+  <Structure_OriginChristian.symbolPacks.4.member>景教徒</Structure_OriginChristian.symbolPacks.4.member>
   <!-- EN: Anglican -->
-  <Structure_OriginChristian.symbolPacks.5.adjective>TODO</Structure_OriginChristian.symbolPacks.5.adjective>
+  <Structure_OriginChristian.symbolPacks.5.adjective>聖公宗的</Structure_OriginChristian.symbolPacks.5.adjective>
   <!-- EN: Anglicanism -->
-  <Structure_OriginChristian.symbolPacks.5.ideoName>TODO</Structure_OriginChristian.symbolPacks.5.ideoName>
+  <Structure_OriginChristian.symbolPacks.5.ideoName>聖公宗</Structure_OriginChristian.symbolPacks.5.ideoName>
   <!-- EN: Anglican -->
-  <Structure_OriginChristian.symbolPacks.5.member>TODO</Structure_OriginChristian.symbolPacks.5.member>
+  <Structure_OriginChristian.symbolPacks.5.member>聖公宗徒</Structure_OriginChristian.symbolPacks.5.member>
   <!-- EN: Baptist -->
-  <Structure_OriginChristian.symbolPacks.6.adjective>TODO</Structure_OriginChristian.symbolPacks.6.adjective>
+  <Structure_OriginChristian.symbolPacks.6.adjective>浸信會的</Structure_OriginChristian.symbolPacks.6.adjective>
   <!-- EN: Baptism -->
-  <Structure_OriginChristian.symbolPacks.6.ideoName>TODO</Structure_OriginChristian.symbolPacks.6.ideoName>
+  <Structure_OriginChristian.symbolPacks.6.ideoName>浸信會</Structure_OriginChristian.symbolPacks.6.ideoName>
   <!-- EN: Baptist -->
-  <Structure_OriginChristian.symbolPacks.6.member>TODO</Structure_OriginChristian.symbolPacks.6.member>
+  <Structure_OriginChristian.symbolPacks.6.member>浸信會成員</Structure_OriginChristian.symbolPacks.6.member>
   <!-- EN: Anabaptist -->
-  <Structure_OriginChristian.symbolPacks.7.adjective>TODO</Structure_OriginChristian.symbolPacks.7.adjective>
+  <Structure_OriginChristian.symbolPacks.7.adjective>重浸派的</Structure_OriginChristian.symbolPacks.7.adjective>
   <!-- EN: Anabaptism -->
-  <Structure_OriginChristian.symbolPacks.7.ideoName>TODO</Structure_OriginChristian.symbolPacks.7.ideoName>
+  <Structure_OriginChristian.symbolPacks.7.ideoName>重浸派</Structure_OriginChristian.symbolPacks.7.ideoName>
   <!-- EN: Anabaptist -->
-  <Structure_OriginChristian.symbolPacks.7.member>TODO</Structure_OriginChristian.symbolPacks.7.member>
+  <Structure_OriginChristian.symbolPacks.7.member>重浸派教徒</Structure_OriginChristian.symbolPacks.7.member>
   <!-- EN: Calvinist -->
-  <Structure_OriginChristian.symbolPacks.8.adjective>TODO</Structure_OriginChristian.symbolPacks.8.adjective>
+  <Structure_OriginChristian.symbolPacks.8.adjective>喀爾文主義的</Structure_OriginChristian.symbolPacks.8.adjective>
   <!-- EN: Calvinism -->
-  <Structure_OriginChristian.symbolPacks.8.ideoName>TODO</Structure_OriginChristian.symbolPacks.8.ideoName>
+  <Structure_OriginChristian.symbolPacks.8.ideoName>喀爾文主義</Structure_OriginChristian.symbolPacks.8.ideoName>
   <!-- EN: Calvinist -->
-  <Structure_OriginChristian.symbolPacks.8.member>TODO</Structure_OriginChristian.symbolPacks.8.member>
+  <Structure_OriginChristian.symbolPacks.8.member>喀爾文主義派</Structure_OriginChristian.symbolPacks.8.member>
   <!-- EN: Lutheran -->
-  <Structure_OriginChristian.symbolPacks.9.adjective>TODO</Structure_OriginChristian.symbolPacks.9.adjective>
+  <Structure_OriginChristian.symbolPacks.9.adjective>信義宗的</Structure_OriginChristian.symbolPacks.9.adjective>
   <!-- EN: Lutheranism -->
-  <Structure_OriginChristian.symbolPacks.9.ideoName>TODO</Structure_OriginChristian.symbolPacks.9.ideoName>
+  <Structure_OriginChristian.symbolPacks.9.ideoName>信義宗</Structure_OriginChristian.symbolPacks.9.ideoName>
   <!-- EN: Lutheran -->
-  <Structure_OriginChristian.symbolPacks.9.member>TODO</Structure_OriginChristian.symbolPacks.9.member>
+  <Structure_OriginChristian.symbolPacks.9.member>信義宗徒</Structure_OriginChristian.symbolPacks.9.member>
   <!-- EN: Adventist -->
-  <Structure_OriginChristian.symbolPacks.10.adjective>TODO</Structure_OriginChristian.symbolPacks.10.adjective>
+  <Structure_OriginChristian.symbolPacks.10.adjective>再臨宗的</Structure_OriginChristian.symbolPacks.10.adjective>
   <!-- EN: Adventism -->
-  <Structure_OriginChristian.symbolPacks.10.ideoName>TODO</Structure_OriginChristian.symbolPacks.10.ideoName>
+  <Structure_OriginChristian.symbolPacks.10.ideoName>再臨宗</Structure_OriginChristian.symbolPacks.10.ideoName>
   <!-- EN: Adventist -->
-  <Structure_OriginChristian.symbolPacks.10.member>TODO</Structure_OriginChristian.symbolPacks.10.member>
+  <Structure_OriginChristian.symbolPacks.10.member>再臨宗徒</Structure_OriginChristian.symbolPacks.10.member>
   <!-- EN: Methodist -->
-  <Structure_OriginChristian.symbolPacks.11.adjective>TODO</Structure_OriginChristian.symbolPacks.11.adjective>
+  <Structure_OriginChristian.symbolPacks.11.adjective>循道宗的</Structure_OriginChristian.symbolPacks.11.adjective>
   <!-- EN: Methodism -->
-  <Structure_OriginChristian.symbolPacks.11.ideoName>TODO</Structure_OriginChristian.symbolPacks.11.ideoName>
+  <Structure_OriginChristian.symbolPacks.11.ideoName>循道宗</Structure_OriginChristian.symbolPacks.11.ideoName>
   <!-- EN: Methodist -->
-  <Structure_OriginChristian.symbolPacks.11.member>TODO</Structure_OriginChristian.symbolPacks.11.member>
+  <Structure_OriginChristian.symbolPacks.11.member>循道宗徒</Structure_OriginChristian.symbolPacks.11.member>
   <!-- EN: Mormon -->
-  <Structure_OriginChristian.symbolPacks.12.adjective>TODO</Structure_OriginChristian.symbolPacks.12.adjective>
+  <Structure_OriginChristian.symbolPacks.12.adjective>摩門教的</Structure_OriginChristian.symbolPacks.12.adjective>
   <!-- EN: Mormonism -->
-  <Structure_OriginChristian.symbolPacks.12.ideoName>TODO</Structure_OriginChristian.symbolPacks.12.ideoName>
+  <Structure_OriginChristian.symbolPacks.12.ideoName>摩門教</Structure_OriginChristian.symbolPacks.12.ideoName>
   <!-- EN: Mormon -->
-  <Structure_OriginChristian.symbolPacks.12.member>TODO</Structure_OriginChristian.symbolPacks.12.member>
+  <Structure_OriginChristian.symbolPacks.12.member>摩門教徒</Structure_OriginChristian.symbolPacks.12.member>
   <!-- EN: Theonomic -->
-  <Structure_OriginChristian.symbolPacks.13.adjective>TODO</Structure_OriginChristian.symbolPacks.13.adjective>
+  <Structure_OriginChristian.symbolPacks.13.adjective>神權的</Structure_OriginChristian.symbolPacks.13.adjective>
   <!-- EN: Theonomy -->
-  <Structure_OriginChristian.symbolPacks.13.ideoName>TODO</Structure_OriginChristian.symbolPacks.13.ideoName>
+  <Structure_OriginChristian.symbolPacks.13.ideoName>神權</Structure_OriginChristian.symbolPacks.13.ideoName>
   <!-- EN: Theonomist -->
-  <Structure_OriginChristian.symbolPacks.13.member>TODO</Structure_OriginChristian.symbolPacks.13.member>
+  <Structure_OriginChristian.symbolPacks.13.member>神權主義者</Structure_OriginChristian.symbolPacks.13.member>
   <!-- EN: church -->
-  <Structure_OriginChristian.worshipRoomLabel>TODO</Structure_OriginChristian.worshipRoomLabel>
+  <Structure_OriginChristian.worshipRoomLabel>教會</Structure_OriginChristian.worshipRoomLabel>
   
   <!-- EN: Hindu origin -->
-  <Structure_OriginHindu.label>TODO</Structure_OriginHindu.label>
+  <Structure_OriginHindu.label>印度教起源</Structure_OriginHindu.label>
   <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-  <Structure_OriginHindu.description>TODO</Structure_OriginHindu.description>
+  <Structure_OriginHindu.description>具象神架構的一種變體，這個宗教是傳承自古老的印度教。其教義或許與千年前大逕相庭，但它的象徵依然相似</Structure_OriginHindu.description>
   <!-- EN: God of Creation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.0.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.0.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.0.type>創造之神</Structure_OriginHindu.fixedDeityNameTypes.0.type>
   <!-- EN: God of Preservation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.1.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.1.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.1.type>維護之神</Structure_OriginHindu.fixedDeityNameTypes.1.type>
   <!-- EN: God of Destruction -->
-  <Structure_OriginHindu.fixedDeityNameTypes.2.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.2.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.2.type>毀滅之神</Structure_OriginHindu.fixedDeityNameTypes.2.type>
   <!-- EN: God of Dawn -->
-  <Structure_OriginHindu.fixedDeityNameTypes.3.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.3.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.3.type>破曉之神</Structure_OriginHindu.fixedDeityNameTypes.3.type>
   <!-- EN: God of Femininity -->
-  <Structure_OriginHindu.fixedDeityNameTypes.4.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.4.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.4.type>美貌之神</Structure_OriginHindu.fixedDeityNameTypes.4.type>
   <!-- EN: God of Goals -->
-  <Structure_OriginHindu.fixedDeityNameTypes.5.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.5.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.5.type>成就之神</Structure_OriginHindu.fixedDeityNameTypes.5.type>
   <!-- EN: God of Fertility -->
-  <Structure_OriginHindu.fixedDeityNameTypes.6.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.6.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.6.type>豐饒之神</Structure_OriginHindu.fixedDeityNameTypes.6.type>
   <!-- EN: God of Protection -->
-  <Structure_OriginHindu.fixedDeityNameTypes.7.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.7.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.7.type>守護之神</Structure_OriginHindu.fixedDeityNameTypes.7.type>
   <!-- EN: God of Earth -->
-  <Structure_OriginHindu.fixedDeityNameTypes.8.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.8.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.8.type>大地之神</Structure_OriginHindu.fixedDeityNameTypes.8.type>
   <!-- EN: God of Wisdom -->
-  <Structure_OriginHindu.fixedDeityNameTypes.9.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.9.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.9.type>智慧之神</Structure_OriginHindu.fixedDeityNameTypes.9.type>
   <!-- EN: God of Life -->
-  <Structure_OriginHindu.fixedDeityNameTypes.10.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.10.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.10.type>生命之神</Structure_OriginHindu.fixedDeityNameTypes.10.type>
   <!-- EN: God of Food -->
-  <Structure_OriginHindu.fixedDeityNameTypes.11.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.11.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.11.type>食物之神</Structure_OriginHindu.fixedDeityNameTypes.11.type>
   <!-- EN: God of Sleep -->
-  <Structure_OriginHindu.fixedDeityNameTypes.12.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.12.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.12.type>酣睡之神</Structure_OriginHindu.fixedDeityNameTypes.12.type>
   <!-- EN: God of Children -->
-  <Structure_OriginHindu.fixedDeityNameTypes.13.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.13.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.13.type>孩童之神</Structure_OriginHindu.fixedDeityNameTypes.13.type>
   <!-- EN: God of Snakes -->
-  <Structure_OriginHindu.fixedDeityNameTypes.14.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.14.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.14.type>猛蛇之神</Structure_OriginHindu.fixedDeityNameTypes.14.type>
   <!-- EN: God of Ash -->
-  <Structure_OriginHindu.fixedDeityNameTypes.15.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.15.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.15.type>灰燼之神</Structure_OriginHindu.fixedDeityNameTypes.15.type>
   <!-- EN: God of Annihilation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.16.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.16.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.16.type>破壞之神</Structure_OriginHindu.fixedDeityNameTypes.16.type>
   <!-- EN: God of Compassion -->
-  <Structure_OriginHindu.fixedDeityNameTypes.17.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.17.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.17.type>憐憫之神</Structure_OriginHindu.fixedDeityNameTypes.17.type>
   <!-- EN: Sun God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.18.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.18.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.18.type>太陽之神</Structure_OriginHindu.fixedDeityNameTypes.18.type>
   <!-- EN: Sky God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.19.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.19.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.19.type>天空之神</Structure_OriginHindu.fixedDeityNameTypes.19.type>
   <!-- EN: God of Friendship -->
-  <Structure_OriginHindu.fixedDeityNameTypes.20.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.20.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.20.type>友情之神</Structure_OriginHindu.fixedDeityNameTypes.20.type>
   <!-- EN: God of Heaven -->
-  <Structure_OriginHindu.fixedDeityNameTypes.21.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.21.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.21.type>天界之神</Structure_OriginHindu.fixedDeityNameTypes.21.type>
   <!-- EN: Fire God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.22.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.22.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.22.type>烈焰之神</Structure_OriginHindu.fixedDeityNameTypes.22.type>
   <!-- EN: Moon God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.23.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.23.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.23.type>皎月之神</Structure_OriginHindu.fixedDeityNameTypes.23.type>
   <!-- EN: God of Wind -->
-  <Structure_OriginHindu.fixedDeityNameTypes.24.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.24.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.24.type>烈風之神</Structure_OriginHindu.fixedDeityNameTypes.24.type>
   <!-- EN: God of Earth -->
-  <Structure_OriginHindu.fixedDeityNameTypes.25.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.25.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.25.type>大地之神</Structure_OriginHindu.fixedDeityNameTypes.25.type>
   <!-- EN: God of Morality -->
-  <Structure_OriginHindu.fixedDeityNameTypes.26.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.26.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.26.type>道義之神</Structure_OriginHindu.fixedDeityNameTypes.26.type>
   <!-- EN: God of Sound -->
-  <Structure_OriginHindu.fixedDeityNameTypes.27.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.27.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.27.type>響聲之神</Structure_OriginHindu.fixedDeityNameTypes.27.type>
   <!-- EN: God of Destruction -->
-  <Structure_OriginHindu.fixedDeityNameTypes.28.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.28.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.28.type>破滅之神</Structure_OriginHindu.fixedDeityNameTypes.28.type>
   <!-- EN: God of Night -->
-  <Structure_OriginHindu.fixedDeityNameTypes.29.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.29.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.29.type>夜晚之神</Structure_OriginHindu.fixedDeityNameTypes.29.type>
   <!-- EN: Forest God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.30.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.30.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.30.type>森林之神</Structure_OriginHindu.fixedDeityNameTypes.30.type>
   <!-- EN: Warrior Goddess -->
-  <Structure_OriginHindu.fixedDeityNameTypes.31.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.31.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.31.type>戰爭女神</Structure_OriginHindu.fixedDeityNameTypes.31.type>
   <!-- EN:
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -292,98 +331,117 @@
     <li>memeMoralist->archaka</li>
     <li>memeMoralist->brahmin</li>
   -->
-  <Structure_OriginHindu.generalRules.rulesStrings>TODO</Structure_OriginHindu.generalRules.rulesStrings>
+  <Structure_OriginHindu.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->聖雄</li>
+    <li>memeLeaderNoun->自在主</li>
+    <li>memeLeaderNoun->瑜伽</li>
+    <li>memeLeaderNoun->班智達</li>
+    <li>memeLeaderNoun->阿凡達</li>
+    <li>memeLeaderAdjective->天賜的</li>
+    <li>memeLeaderAdjective->印度的</li>
+    <li>memeLeaderAdjective->印地的</li>
+    <li>memeLeaderAdjective->瑜珈</li>
+    <li>memeLeaderAdjective->蒂爾薩</li>
+    <li>memeMoralist(p=3)->普加里</li>
+    <li>memeMoralist->普羅悉</li>
+    <li>memeMoralist->阿察卡</li>
+    <li>memeMoralist->婆羅門</li>
+  </Structure_OriginHindu.generalRules.rulesStrings>
   <!-- EN: Hindu -->
-  <Structure_OriginHindu.symbolPacks.0.adjective>TODO</Structure_OriginHindu.symbolPacks.0.adjective>
+  <Structure_OriginHindu.symbolPacks.0.adjective>印度的</Structure_OriginHindu.symbolPacks.0.adjective>
   <!-- EN: Hinduism -->
-  <Structure_OriginHindu.symbolPacks.0.ideoName>TODO</Structure_OriginHindu.symbolPacks.0.ideoName>
+  <Structure_OriginHindu.symbolPacks.0.ideoName>印度</Structure_OriginHindu.symbolPacks.0.ideoName>
   <!-- EN: Hindu -->
-  <Structure_OriginHindu.symbolPacks.0.member>TODO</Structure_OriginHindu.symbolPacks.0.member>
+  <Structure_OriginHindu.symbolPacks.0.member>印度人</Structure_OriginHindu.symbolPacks.0.member>
   <!-- EN: Indu -->
-  <Structure_OriginHindu.symbolPacks.1.adjective>TODO</Structure_OriginHindu.symbolPacks.1.adjective>
+  <Structure_OriginHindu.symbolPacks.1.adjective>印地的</Structure_OriginHindu.symbolPacks.1.adjective>
   <!-- EN: Induism -->
-  <Structure_OriginHindu.symbolPacks.1.ideoName>TODO</Structure_OriginHindu.symbolPacks.1.ideoName>
+  <Structure_OriginHindu.symbolPacks.1.ideoName>印地</Structure_OriginHindu.symbolPacks.1.ideoName>
   <!-- EN: Indu -->
-  <Structure_OriginHindu.symbolPacks.1.member>TODO</Structure_OriginHindu.symbolPacks.1.member>
+  <Structure_OriginHindu.symbolPacks.1.member>印地人</Structure_OriginHindu.symbolPacks.1.member>
   <!-- EN: Sindu -->
-  <Structure_OriginHindu.symbolPacks.2.adjective>TODO</Structure_OriginHindu.symbolPacks.2.adjective>
+  <Structure_OriginHindu.symbolPacks.2.adjective>身毒的</Structure_OriginHindu.symbolPacks.2.adjective>
   <!-- EN: Sinduism -->
-  <Structure_OriginHindu.symbolPacks.2.ideoName>TODO</Structure_OriginHindu.symbolPacks.2.ideoName>
+  <Structure_OriginHindu.symbolPacks.2.ideoName>身毒</Structure_OriginHindu.symbolPacks.2.ideoName>
   <!-- EN: Sindu -->
-  <Structure_OriginHindu.symbolPacks.2.member>TODO</Structure_OriginHindu.symbolPacks.2.member>
+  <Structure_OriginHindu.symbolPacks.2.member>身毒人</Structure_OriginHindu.symbolPacks.2.member>
   <!-- EN: Tantric -->
-  <Structure_OriginHindu.symbolPacks.3.adjective>TODO</Structure_OriginHindu.symbolPacks.3.adjective>
+  <Structure_OriginHindu.symbolPacks.3.adjective>怛特羅</Structure_OriginHindu.symbolPacks.3.adjective>
   <!-- EN: Tantra -->
-  <Structure_OriginHindu.symbolPacks.3.ideoName>TODO</Structure_OriginHindu.symbolPacks.3.ideoName>
+  <Structure_OriginHindu.symbolPacks.3.ideoName>怛特羅密教</Structure_OriginHindu.symbolPacks.3.ideoName>
   <!-- EN: Tantran -->
-  <Structure_OriginHindu.symbolPacks.3.member>TODO</Structure_OriginHindu.symbolPacks.3.member>
+  <Structure_OriginHindu.symbolPacks.3.member>怛特羅人</Structure_OriginHindu.symbolPacks.3.member>
   <!-- EN: Vedic -->
-  <Structure_OriginHindu.symbolPacks.4.adjective>TODO</Structure_OriginHindu.symbolPacks.4.adjective>
+  <Structure_OriginHindu.symbolPacks.4.adjective>吠陀</Structure_OriginHindu.symbolPacks.4.adjective>
   <!-- EN: Vedism -->
-  <Structure_OriginHindu.symbolPacks.4.ideoName>TODO</Structure_OriginHindu.symbolPacks.4.ideoName>
+  <Structure_OriginHindu.symbolPacks.4.ideoName>吠陀</Structure_OriginHindu.symbolPacks.4.ideoName>
   <!-- EN: Vedi -->
-  <Structure_OriginHindu.symbolPacks.4.member>TODO</Structure_OriginHindu.symbolPacks.4.member>
+  <Structure_OriginHindu.symbolPacks.4.member>吠陀人</Structure_OriginHindu.symbolPacks.4.member>
   <!-- EN: Dharmic -->
-  <Structure_OriginHindu.symbolPacks.5.adjective>TODO</Structure_OriginHindu.symbolPacks.5.adjective>
+  <Structure_OriginHindu.symbolPacks.5.adjective>達摩</Structure_OriginHindu.symbolPacks.5.adjective>
   <!-- EN: Dharmism -->
-  <Structure_OriginHindu.symbolPacks.5.ideoName>TODO</Structure_OriginHindu.symbolPacks.5.ideoName>
+  <Structure_OriginHindu.symbolPacks.5.ideoName>達摩</Structure_OriginHindu.symbolPacks.5.ideoName>
   <!-- EN: Dharmi -->
-  <Structure_OriginHindu.symbolPacks.5.member>TODO</Structure_OriginHindu.symbolPacks.5.member>
+  <Structure_OriginHindu.symbolPacks.5.member>達摩</Structure_OriginHindu.symbolPacks.5.member>
   <!-- EN: Vaishmayan -->
-  <Structure_OriginHindu.symbolPacks.6.adjective>TODO</Structure_OriginHindu.symbolPacks.6.adjective>
+  <Structure_OriginHindu.symbolPacks.6.adjective>毗濕奴</Structure_OriginHindu.symbolPacks.6.adjective>
   <!-- EN: Vaishmaya -->
-  <Structure_OriginHindu.symbolPacks.6.ideoName>TODO</Structure_OriginHindu.symbolPacks.6.ideoName>
+  <Structure_OriginHindu.symbolPacks.6.ideoName>毗濕奴</Structure_OriginHindu.symbolPacks.6.ideoName>
   <!-- EN: Vaishnava -->
-  <Structure_OriginHindu.symbolPacks.6.member>TODO</Structure_OriginHindu.symbolPacks.6.member>
+  <Structure_OriginHindu.symbolPacks.6.member>毗濕奴</Structure_OriginHindu.symbolPacks.6.member>
   <!-- EN: Shaivan -->
-  <Structure_OriginHindu.symbolPacks.7.adjective>TODO</Structure_OriginHindu.symbolPacks.7.adjective>
+  <Structure_OriginHindu.symbolPacks.7.adjective>濕婆</Structure_OriginHindu.symbolPacks.7.adjective>
   <!-- EN: Shaivmaya -->
-  <Structure_OriginHindu.symbolPacks.7.ideoName>TODO</Structure_OriginHindu.symbolPacks.7.ideoName>
+  <Structure_OriginHindu.symbolPacks.7.ideoName>濕婆</Structure_OriginHindu.symbolPacks.7.ideoName>
   <!-- EN: Shaiva -->
-  <Structure_OriginHindu.symbolPacks.7.member>TODO</Structure_OriginHindu.symbolPacks.7.member>
+  <Structure_OriginHindu.symbolPacks.7.member>濕婆</Structure_OriginHindu.symbolPacks.7.member>
   <!-- EN: Yogic -->
-  <Structure_OriginHindu.symbolPacks.8.adjective>TODO</Structure_OriginHindu.symbolPacks.8.adjective>
+  <Structure_OriginHindu.symbolPacks.8.adjective>瑜珈的</Structure_OriginHindu.symbolPacks.8.adjective>
   <!-- EN: Yoga -->
-  <Structure_OriginHindu.symbolPacks.8.ideoName>TODO</Structure_OriginHindu.symbolPacks.8.ideoName>
+  <Structure_OriginHindu.symbolPacks.8.ideoName>瑜珈</Structure_OriginHindu.symbolPacks.8.ideoName>
   <!-- EN: Yogi -->
-  <Structure_OriginHindu.symbolPacks.8.member>TODO</Structure_OriginHindu.symbolPacks.8.member>
+  <Structure_OriginHindu.symbolPacks.8.member>瑜珈士</Structure_OriginHindu.symbolPacks.8.member>
   <!-- EN: Nyayan -->
-  <Structure_OriginHindu.symbolPacks.9.adjective>TODO</Structure_OriginHindu.symbolPacks.9.adjective>
+  <Structure_OriginHindu.symbolPacks.9.adjective>法則的</Structure_OriginHindu.symbolPacks.9.adjective>
   <!-- EN: Nyaya -->
-  <Structure_OriginHindu.symbolPacks.9.ideoName>TODO</Structure_OriginHindu.symbolPacks.9.ideoName>
+  <Structure_OriginHindu.symbolPacks.9.ideoName>正理論</Structure_OriginHindu.symbolPacks.9.ideoName>
   <!-- EN: Nyava -->
-  <Structure_OriginHindu.symbolPacks.9.member>TODO</Structure_OriginHindu.symbolPacks.9.member>
+  <Structure_OriginHindu.symbolPacks.9.member>正理論家</Structure_OriginHindu.symbolPacks.9.member>
   <!-- EN: Vaisesikan -->
-  <Structure_OriginHindu.symbolPacks.10.adjective>TODO</Structure_OriginHindu.symbolPacks.10.adjective>
+  <Structure_OriginHindu.symbolPacks.10.adjective>勝論學</Structure_OriginHindu.symbolPacks.10.adjective>
   <!-- EN: Vaisesika -->
-  <Structure_OriginHindu.symbolPacks.10.ideoName>TODO</Structure_OriginHindu.symbolPacks.10.ideoName>
+  <Structure_OriginHindu.symbolPacks.10.ideoName>勝論</Structure_OriginHindu.symbolPacks.10.ideoName>
   <!-- EN: Vaisesikaya -->
-  <Structure_OriginHindu.symbolPacks.10.member>TODO</Structure_OriginHindu.symbolPacks.10.member>
+  <Structure_OriginHindu.symbolPacks.10.member>勝論家</Structure_OriginHindu.symbolPacks.10.member>
   <!-- EN: Samkhyan -->
-  <Structure_OriginHindu.symbolPacks.11.adjective>TODO</Structure_OriginHindu.symbolPacks.11.adjective>
+  <Structure_OriginHindu.symbolPacks.11.adjective>數論</Structure_OriginHindu.symbolPacks.11.adjective>
   <!-- EN: Samkhya -->
-  <Structure_OriginHindu.symbolPacks.11.ideoName>TODO</Structure_OriginHindu.symbolPacks.11.ideoName>
+  <Structure_OriginHindu.symbolPacks.11.ideoName>數論的</Structure_OriginHindu.symbolPacks.11.ideoName>
   <!-- EN: Samkhyan -->
-  <Structure_OriginHindu.symbolPacks.11.member>TODO</Structure_OriginHindu.symbolPacks.11.member>
+  <Structure_OriginHindu.symbolPacks.11.member>數論家</Structure_OriginHindu.symbolPacks.11.member>
   <!-- EN: Mimamsan -->
-  <Structure_OriginHindu.symbolPacks.12.adjective>TODO</Structure_OriginHindu.symbolPacks.12.adjective>
+  <Structure_OriginHindu.symbolPacks.12.adjective>彌息伽</Structure_OriginHindu.symbolPacks.12.adjective>
   <!-- EN: Mimamsa -->
-  <Structure_OriginHindu.symbolPacks.12.ideoName>TODO</Structure_OriginHindu.symbolPacks.12.ideoName>
+  <Structure_OriginHindu.symbolPacks.12.ideoName>彌息伽</Structure_OriginHindu.symbolPacks.12.ideoName>
   <!-- EN: Mimamsan -->
-  <Structure_OriginHindu.symbolPacks.12.member>TODO</Structure_OriginHindu.symbolPacks.12.member>
+  <Structure_OriginHindu.symbolPacks.12.member>彌息伽派</Structure_OriginHindu.symbolPacks.12.member>
   <!-- EN: Vedantan -->
-  <Structure_OriginHindu.symbolPacks.13.adjective>TODO</Structure_OriginHindu.symbolPacks.13.adjective>
+  <Structure_OriginHindu.symbolPacks.13.adjective>吠檀多</Structure_OriginHindu.symbolPacks.13.adjective>
   <!-- EN: Vedanta -->
-  <Structure_OriginHindu.symbolPacks.13.ideoName>TODO</Structure_OriginHindu.symbolPacks.13.ideoName>
+  <Structure_OriginHindu.symbolPacks.13.ideoName>吠檀多</Structure_OriginHindu.symbolPacks.13.ideoName>
   <!-- EN: Vedantan -->
-  <Structure_OriginHindu.symbolPacks.13.member>TODO</Structure_OriginHindu.symbolPacks.13.member>
+  <Structure_OriginHindu.symbolPacks.13.member>吠檀多派</Structure_OriginHindu.symbolPacks.13.member>
   <!-- EN: shrine -->
-  <Structure_OriginHindu.worshipRoomLabel>TODO</Structure_OriginHindu.worshipRoomLabel>
+  <Structure_OriginHindu.worshipRoomLabel>神壇</Structure_OriginHindu.worshipRoomLabel>
   
   <!-- EN: Islamic origin -->
-  <Structure_OriginIslamic.label>TODO</Structure_OriginIslamic.label>
+  <Structure_OriginIslamic.label>伊斯蘭起源</Structure_OriginIslamic.label>
   <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islam. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-  <Structure_OriginIslamic.description>TODO</Structure_OriginIslamic.description>
+  <Structure_OriginIslamic.description>抽象一神論架構的一個變體，這個信仰是從古老的伊斯蘭所繼承而來，或許在許多面向與數千年前相差甚遠，但內在的象徵有幾分神似</Structure_OriginIslamic.description>
   <!-- EN:
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -405,98 +463,118 @@
     <li>memeMoralist->mujtahid</li>
     <li>memeMoralist->cleric</li>
   -->
-  <Structure_OriginIslamic.generalRules.rulesStrings>TODO</Structure_OriginIslamic.generalRules.rulesStrings>
+  <Structure_OriginIslamic.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->穆拉</li>
+    <li>memeLeaderNoun->伊瑪目</li>
+    <li>memeLeaderNoun->哈里發</li>
+    <li>memeLeaderNoun->穆夫提</li>
+    <li>memeLeaderNoun->阿爾馬尼</li>
+    <li>memeLeaderNoun->奇埃伊</li>
+    <li>memeLeaderNoun->阿亞圖拉</li>
+    <li>memeLeaderAdjective->偉大的</li>
+    <li>memeMoralist(p=4)->伊瑪目</li>
+    <li>memeMoralist->卡迪</li>
+    <li>memeMoralist->阿利姆</li>
+    <li>memeMoralist->阿拉瑪</li>
+    <li>memeMoralist->穆安津</li>
+    <li>memeMoralist->穆智台希德</li>
+    <li>memeMoralist->聖職者</li>
+  </Structure_OriginIslamic.generalRules.rulesStrings>
   <!-- EN: Islamic -->
-  <Structure_OriginIslamic.symbolPacks.0.adjective>TODO</Structure_OriginIslamic.symbolPacks.0.adjective>
+  <Structure_OriginIslamic.symbolPacks.0.adjective>伊斯蘭</Structure_OriginIslamic.symbolPacks.0.adjective>
   <!-- EN: Islam -->
-  <Structure_OriginIslamic.symbolPacks.0.ideoName>TODO</Structure_OriginIslamic.symbolPacks.0.ideoName>
+  <Structure_OriginIslamic.symbolPacks.0.ideoName>伊斯蘭</Structure_OriginIslamic.symbolPacks.0.ideoName>
   <!-- EN: Muslim -->
-  <Structure_OriginIslamic.symbolPacks.0.member>TODO</Structure_OriginIslamic.symbolPacks.0.member>
+  <Structure_OriginIslamic.symbolPacks.0.member>穆斯林</Structure_OriginIslamic.symbolPacks.0.member>
   <!-- EN: Islamist -->
-  <Structure_OriginIslamic.symbolPacks.1.adjective>TODO</Structure_OriginIslamic.symbolPacks.1.adjective>
+  <Structure_OriginIslamic.symbolPacks.1.adjective>伊斯蘭教的</Structure_OriginIslamic.symbolPacks.1.adjective>
   <!-- EN: Islamism -->
-  <Structure_OriginIslamic.symbolPacks.1.ideoName>TODO</Structure_OriginIslamic.symbolPacks.1.ideoName>
+  <Structure_OriginIslamic.symbolPacks.1.ideoName>伊斯蘭主義</Structure_OriginIslamic.symbolPacks.1.ideoName>
   <!-- EN: Islamist -->
-  <Structure_OriginIslamic.symbolPacks.1.member>TODO</Structure_OriginIslamic.symbolPacks.1.member>
+  <Structure_OriginIslamic.symbolPacks.1.member>伊斯蘭教徒</Structure_OriginIslamic.symbolPacks.1.member>
   <!-- EN: Shiite -->
-  <Structure_OriginIslamic.symbolPacks.2.adjective>TODO</Structure_OriginIslamic.symbolPacks.2.adjective>
+  <Structure_OriginIslamic.symbolPacks.2.adjective>什葉</Structure_OriginIslamic.symbolPacks.2.adjective>
   <!-- EN: Shiism -->
-  <Structure_OriginIslamic.symbolPacks.2.ideoName>TODO</Structure_OriginIslamic.symbolPacks.2.ideoName>
+  <Structure_OriginIslamic.symbolPacks.2.ideoName>什葉</Structure_OriginIslamic.symbolPacks.2.ideoName>
   <!-- EN: Shiite -->
-  <Structure_OriginIslamic.symbolPacks.2.member>TODO</Structure_OriginIslamic.symbolPacks.2.member>
+  <Structure_OriginIslamic.symbolPacks.2.member>什葉派</Structure_OriginIslamic.symbolPacks.2.member>
   <!-- EN: Sunni -->
-  <Structure_OriginIslamic.symbolPacks.3.adjective>TODO</Structure_OriginIslamic.symbolPacks.3.adjective>
+  <Structure_OriginIslamic.symbolPacks.3.adjective>遜尼</Structure_OriginIslamic.symbolPacks.3.adjective>
   <!-- EN: Sunnism -->
-  <Structure_OriginIslamic.symbolPacks.3.ideoName>TODO</Structure_OriginIslamic.symbolPacks.3.ideoName>
+  <Structure_OriginIslamic.symbolPacks.3.ideoName>遜尼</Structure_OriginIslamic.symbolPacks.3.ideoName>
   <!-- EN: Sunni -->
-  <Structure_OriginIslamic.symbolPacks.3.member>TODO</Structure_OriginIslamic.symbolPacks.3.member>
+  <Structure_OriginIslamic.symbolPacks.3.member>遜尼派</Structure_OriginIslamic.symbolPacks.3.member>
   <!-- EN: Ibadi -->
-  <Structure_OriginIslamic.symbolPacks.4.adjective>TODO</Structure_OriginIslamic.symbolPacks.4.adjective>
+  <Structure_OriginIslamic.symbolPacks.4.adjective>伊巴德</Structure_OriginIslamic.symbolPacks.4.adjective>
   <!-- EN: Ibadism -->
-  <Structure_OriginIslamic.symbolPacks.4.ideoName>TODO</Structure_OriginIslamic.symbolPacks.4.ideoName>
+  <Structure_OriginIslamic.symbolPacks.4.ideoName>伊巴德</Structure_OriginIslamic.symbolPacks.4.ideoName>
   <!-- EN: Ibadi -->
-  <Structure_OriginIslamic.symbolPacks.4.member>TODO</Structure_OriginIslamic.symbolPacks.4.member>
+  <Structure_OriginIslamic.symbolPacks.4.member>伊巴德派</Structure_OriginIslamic.symbolPacks.4.member>
   <!-- EN: Ismaili -->
-  <Structure_OriginIslamic.symbolPacks.5.adjective>TODO</Structure_OriginIslamic.symbolPacks.5.adjective>
+  <Structure_OriginIslamic.symbolPacks.5.adjective>伊斯瑪儀</Structure_OriginIslamic.symbolPacks.5.adjective>
   <!-- EN: Ismailism -->
-  <Structure_OriginIslamic.symbolPacks.5.ideoName>TODO</Structure_OriginIslamic.symbolPacks.5.ideoName>
+  <Structure_OriginIslamic.symbolPacks.5.ideoName>伊斯瑪儀</Structure_OriginIslamic.symbolPacks.5.ideoName>
   <!-- EN: Ismaili -->
-  <Structure_OriginIslamic.symbolPacks.5.member>TODO</Structure_OriginIslamic.symbolPacks.5.member>
+  <Structure_OriginIslamic.symbolPacks.5.member>伊斯瑪儀派</Structure_OriginIslamic.symbolPacks.5.member>
   <!-- EN: Mustalic -->
-  <Structure_OriginIslamic.symbolPacks.6.adjective>TODO</Structure_OriginIslamic.symbolPacks.6.adjective>
+  <Structure_OriginIslamic.symbolPacks.6.adjective>穆斯塔里</Structure_OriginIslamic.symbolPacks.6.adjective>
   <!-- EN: Mustalism -->
-  <Structure_OriginIslamic.symbolPacks.6.ideoName>TODO</Structure_OriginIslamic.symbolPacks.6.ideoName>
+  <Structure_OriginIslamic.symbolPacks.6.ideoName>穆斯塔里</Structure_OriginIslamic.symbolPacks.6.ideoName>
   <!-- EN: Mustali -->
-  <Structure_OriginIslamic.symbolPacks.6.member>TODO</Structure_OriginIslamic.symbolPacks.6.member>
+  <Structure_OriginIslamic.symbolPacks.6.member>穆斯塔里派</Structure_OriginIslamic.symbolPacks.6.member>
   <!-- EN: Tayyibic -->
-  <Structure_OriginIslamic.symbolPacks.7.adjective>TODO</Structure_OriginIslamic.symbolPacks.7.adjective>
+  <Structure_OriginIslamic.symbolPacks.7.adjective>塔伊比斯</Structure_OriginIslamic.symbolPacks.7.adjective>
   <!-- EN: Tayyibism -->
-  <Structure_OriginIslamic.symbolPacks.7.ideoName>TODO</Structure_OriginIslamic.symbolPacks.7.ideoName>
+  <Structure_OriginIslamic.symbolPacks.7.ideoName>塔伊比斯</Structure_OriginIslamic.symbolPacks.7.ideoName>
   <!-- EN: Tayyibist -->
-  <Structure_OriginIslamic.symbolPacks.7.member>TODO</Structure_OriginIslamic.symbolPacks.7.member>
+  <Structure_OriginIslamic.symbolPacks.7.member>塔伊比斯派</Structure_OriginIslamic.symbolPacks.7.member>
   <!-- EN: Nizalist -->
-  <Structure_OriginIslamic.symbolPacks.8.adjective>TODO</Structure_OriginIslamic.symbolPacks.8.adjective>
+  <Structure_OriginIslamic.symbolPacks.8.adjective>尼扎兒</Structure_OriginIslamic.symbolPacks.8.adjective>
   <!-- EN: Nizalism -->
-  <Structure_OriginIslamic.symbolPacks.8.ideoName>TODO</Structure_OriginIslamic.symbolPacks.8.ideoName>
+  <Structure_OriginIslamic.symbolPacks.8.ideoName>尼扎兒</Structure_OriginIslamic.symbolPacks.8.ideoName>
   <!-- EN: Nizalist -->
-  <Structure_OriginIslamic.symbolPacks.8.member>TODO</Structure_OriginIslamic.symbolPacks.8.member>
+  <Structure_OriginIslamic.symbolPacks.8.member>尼扎兒派</Structure_OriginIslamic.symbolPacks.8.member>
   <!-- EN: Surfrist -->
-  <Structure_OriginIslamic.symbolPacks.9.adjective>TODO</Structure_OriginIslamic.symbolPacks.9.adjective>
+  <Structure_OriginIslamic.symbolPacks.9.adjective>薩菲斯特</Structure_OriginIslamic.symbolPacks.9.adjective>
   <!-- EN: Sufrism -->
-  <Structure_OriginIslamic.symbolPacks.9.ideoName>TODO</Structure_OriginIslamic.symbolPacks.9.ideoName>
+  <Structure_OriginIslamic.symbolPacks.9.ideoName>薩菲斯特</Structure_OriginIslamic.symbolPacks.9.ideoName>
   <!-- EN: Surfist -->
-  <Structure_OriginIslamic.symbolPacks.9.member>TODO</Structure_OriginIslamic.symbolPacks.9.member>
+  <Structure_OriginIslamic.symbolPacks.9.member>薩菲斯特派</Structure_OriginIslamic.symbolPacks.9.member>
   <!-- EN: Qadirist -->
-  <Structure_OriginIslamic.symbolPacks.10.adjective>TODO</Structure_OriginIslamic.symbolPacks.10.adjective>
+  <Structure_OriginIslamic.symbolPacks.10.adjective>卡迪里耶</Structure_OriginIslamic.symbolPacks.10.adjective>
   <!-- EN: Qadirism -->
-  <Structure_OriginIslamic.symbolPacks.10.ideoName>TODO</Structure_OriginIslamic.symbolPacks.10.ideoName>
+  <Structure_OriginIslamic.symbolPacks.10.ideoName>卡迪里耶</Structure_OriginIslamic.symbolPacks.10.ideoName>
   <!-- EN: Qadirist -->
-  <Structure_OriginIslamic.symbolPacks.10.member>TODO</Structure_OriginIslamic.symbolPacks.10.member>
+  <Structure_OriginIslamic.symbolPacks.10.member>卡迪里耶派</Structure_OriginIslamic.symbolPacks.10.member>
   <!-- EN: Zahirist -->
-  <Structure_OriginIslamic.symbolPacks.11.adjective>TODO</Structure_OriginIslamic.symbolPacks.11.adjective>
+  <Structure_OriginIslamic.symbolPacks.11.adjective>扎希麗</Structure_OriginIslamic.symbolPacks.11.adjective>
   <!-- EN: Zahirism -->
-  <Structure_OriginIslamic.symbolPacks.11.ideoName>TODO</Structure_OriginIslamic.symbolPacks.11.ideoName>
+  <Structure_OriginIslamic.symbolPacks.11.ideoName>扎希麗</Structure_OriginIslamic.symbolPacks.11.ideoName>
   <!-- EN: Zahirist -->
-  <Structure_OriginIslamic.symbolPacks.11.member>TODO</Structure_OriginIslamic.symbolPacks.11.member>
+  <Structure_OriginIslamic.symbolPacks.11.member>扎希麗派</Structure_OriginIslamic.symbolPacks.11.member>
   <!-- EN: Azraqi -->
-  <Structure_OriginIslamic.symbolPacks.12.adjective>TODO</Structure_OriginIslamic.symbolPacks.12.adjective>
+  <Structure_OriginIslamic.symbolPacks.12.adjective>艾扎里蓋</Structure_OriginIslamic.symbolPacks.12.adjective>
   <!-- EN: Azraqism -->
-  <Structure_OriginIslamic.symbolPacks.12.ideoName>TODO</Structure_OriginIslamic.symbolPacks.12.ideoName>
+  <Structure_OriginIslamic.symbolPacks.12.ideoName>艾扎里蓋</Structure_OriginIslamic.symbolPacks.12.ideoName>
   <!-- EN: Azraqi -->
-  <Structure_OriginIslamic.symbolPacks.12.member>TODO</Structure_OriginIslamic.symbolPacks.12.member>
+  <Structure_OriginIslamic.symbolPacks.12.member>艾扎里蓋派</Structure_OriginIslamic.symbolPacks.12.member>
   <!-- EN: Wahhabi -->
-  <Structure_OriginIslamic.symbolPacks.13.adjective>TODO</Structure_OriginIslamic.symbolPacks.13.adjective>
+  <Structure_OriginIslamic.symbolPacks.13.adjective>瓦哈比</Structure_OriginIslamic.symbolPacks.13.adjective>
   <!-- EN: Wahhabism -->
-  <Structure_OriginIslamic.symbolPacks.13.ideoName>TODO</Structure_OriginIslamic.symbolPacks.13.ideoName>
+  <Structure_OriginIslamic.symbolPacks.13.ideoName>瓦哈比</Structure_OriginIslamic.symbolPacks.13.ideoName>
   <!-- EN: Wahhabi -->
-  <Structure_OriginIslamic.symbolPacks.13.member>TODO</Structure_OriginIslamic.symbolPacks.13.member>
+  <Structure_OriginIslamic.symbolPacks.13.member>瓦哈比派</Structure_OriginIslamic.symbolPacks.13.member>
   <!-- EN: Caliphic -->
-  <Structure_OriginIslamic.symbolPacks.14.adjective>TODO</Structure_OriginIslamic.symbolPacks.14.adjective>
+  <Structure_OriginIslamic.symbolPacks.14.adjective>哈里發</Structure_OriginIslamic.symbolPacks.14.adjective>
   <!-- EN: Caliphate -->
-  <Structure_OriginIslamic.symbolPacks.14.ideoName>TODO</Structure_OriginIslamic.symbolPacks.14.ideoName>
+  <Structure_OriginIslamic.symbolPacks.14.ideoName>哈里發</Structure_OriginIslamic.symbolPacks.14.ideoName>
   <!-- EN: Caliphist -->
-  <Structure_OriginIslamic.symbolPacks.14.member>TODO</Structure_OriginIslamic.symbolPacks.14.member>
+  <Structure_OriginIslamic.symbolPacks.14.member>哈里發</Structure_OriginIslamic.symbolPacks.14.member>
   <!-- EN: mosque -->
-  <Structure_OriginIslamic.worshipRoomLabel>TODO</Structure_OriginIslamic.worshipRoomLabel>
+  <Structure_OriginIslamic.worshipRoomLabel>清真寺</Structure_OriginIslamic.worshipRoomLabel>
   
 </LanguageData>
