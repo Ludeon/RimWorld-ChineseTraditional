@@ -13,7 +13,18 @@
     <li>end->teas</li>
     <li>end->dio</li>
   -->
-  <GodContent_Byzantine.rulePack.rulesStrings>TODO</GodContent_Byzantine.rulePack.rulesStrings>
+  <GodContent_Byzantine.rulePack.rulesStrings>
+    <li>name->[syl][end]</li>
+    <li>name->[syl][syl][end]</li>
+    <li>name->[syl]-[syl][end]</li>
+    <li>syl->[SylB]</li>
+    <li>end->哥斯</li>
+    <li>end->布斯</li>
+    <li>end->彭</li>
+    <li>end->泰</li>
+    <li>end->迪斯</li>
+    <li>end->迪奧</li>
+  </GodContent_Byzantine.rulePack.rulesStrings>
   
   <!-- EN:
     <li>name->[start][middle][end]</li>
@@ -123,7 +134,114 @@
     <li>end->ton</li>
     <li>end->tar</li>
   -->
-  <GodContent_English.rulePack.rulesStrings>TODO</GodContent_English.rulePack.rulesStrings>
+  <GodContent_English.rulePack.rulesStrings>
+    <li>name->[start][middle][end]</li>
+    <li>start->亞</li>
+    <li>start->艾</li>
+    <li>start->安</li>
+    <li>start->阿</li>
+    <li>start->阿斯</li>
+    <li>start->艾特</li>
+    <li>start->波</li>
+    <li>start->畢</li>
+    <li>start->班</li>
+    <li>start->賓</li>
+    <li>start->本</li>
+    <li>start->斯</li>
+    <li>start->卡</li>
+    <li>start->可</li>
+    <li>start->特</li>
+    <li>start->度</li>
+    <li>start->戴</li>
+    <li>start->戴爾</li>
+    <li>start->愛德</li>
+    <li>start->英</li>
+    <li>start->英特</li>
+    <li>start->俄</li>
+    <li>start->艾斯</li>
+    <li>start->法</li>
+    <li>start->科</li>
+    <li>start->化</li>
+    <li>start->芬</li>
+    <li>start->夫</li>
+    <li>start->霍</li>
+    <li>start->哥</li>
+    <li>start->夏</li>
+    <li>start->夏特</li>
+    <li>start->肯特</li>
+    <li>start->肯</li>
+    <li>start->黑</li>
+    <li>start->亨</li>
+    <li>start->希斯</li>
+    <li>start->然</li>
+    <li>start->易斯</li>
+    <li>start->易特</li>
+    <li>start->依夫</li>
+    <li>start->積</li>
+    <li>start->亢</li>
+    <li>start->萊</li>
+    <li>start->隆</li>
+    <li>start->李</li>
+    <li>start->拉</li>
+    <li>start->莫</li>
+    <li>start->明</li>
+    <li>start->芒</li>
+    <li>start->文</li>
+    <li>start->伍</li>
+    <li>start->安</li>
+    <li>start->柯</li>
+    <li>start->柯魯</li>
+    <li>start->柯拿</li>
+    <li>start->柏</li>
+    <li>start->齊</li>
+    <li>start->略</li>
+    <li>start->斯</li>
+    <li>start->索</li>
+    <li>start->薛</li>
+    <li>start->特</li>
+    <li>start->迪</li>
+    <li>start->第</li>
+    <li>start->烏</li>
+    <li>start->威</li>
+    <li>start->弗</li>
+    <li>start->華</li>
+    <li>start->爾</li>
+    <li>middle->亞</li>
+    <li>middle->雅</li>
+    <li>middle->依</li>
+    <li>middle->俄</li>
+    <li>middle->烏</li>
+    <li>middle->而</li>
+    <li>middle->歐</li>
+    <li>middle->愛</li>
+    <li>middle->侯</li>
+    <li>end(p=4)-></li>
+    <li>end->格斯</li>
+    <li>end->拉斯</li>
+    <li>end->勒斯</li>
+    <li>end->樂斯</li>
+    <li>end->魯斯</li>
+    <li>end->文</li>
+    <li>end->爾</li>
+    <li>end->洛斯</li>
+    <li>end->皮烏斯</li>
+    <li>end->亞</li>
+    <li>end->拉</li>
+    <li>end->拉斯</li>
+    <li>end->拉夫</li>
+    <li>end->洛夫</li>
+    <li>end->萊姆</li>
+    <li>end->魯殊</li>
+    <li>end->郎</li>
+    <li>end->斯</li>
+    <li>end->史迪斯</li>
+    <li>end->史多</li>
+    <li>end->提烏斯</li>
+    <li>end->夫</li>
+    <li>end->多</li>
+    <li>end->頓</li>
+    <li>end->泰</li>
+  </GodContent_English.rulePack.rulesStrings>
   
   <!-- EN:
     <li>name->[syl][end]</li>
@@ -137,7 +255,18 @@
     <li>end->bai</li>
     <li>end->bust</li>
   -->
-  <NamerDeityCorunan.rulePack.rulesStrings>TODO</NamerDeityCorunan.rulePack.rulesStrings>
+  <NamerDeityCorunan.rulePack.rulesStrings>
+    <li>name->[syl][end]</li>
+    <li>name->[syl][syl][end]</li>
+    <li>name->[syl]'[syl][end]</li>
+    <li>syl->[SylG]</li>
+    <li>end->亞畢利爾</li>
+    <li>end->度</li>
+    <li>end->亞斯</li>
+    <li>end->布林</li>
+    <li>end->拜爾</li>
+    <li>end->巴斯特</li>
+  </NamerDeityCorunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_deityName->[name]</li>
