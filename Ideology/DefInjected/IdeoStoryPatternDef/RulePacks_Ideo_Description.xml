@@ -157,7 +157,7 @@
     <li>lesson(priority=-1)->有事發生了</li>
     <li>r_pattern->「[r_lessonIntro][r_lesson]。[r_lessonReinforcement]\n\n-[lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i>[founder_nameFull]字</li>
+    <li>lessonAttribution(p=2)->[attributionSource_titleCase][founder_nameFull]字</li>
     <li>lessonAttribution->[founder_nameFull]給[believer_nameFull]的信</li>
     <li>lessonAttribution->[founder_nameFull]，基於[memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull]，[founder_possessive]的遺言</li>
