@@ -31,8 +31,14 @@
   <MessageIncompatibleMemes>{0_label}和{1_label}互不相容。</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
   <MessageNoRequiredRolePawnToBeginRitual>你需要{0}以開始{1}。</MessageNoRequiredRolePawnToBeginRitual>
+  <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
+  <MessageNotEnoughSpectators>TODO</MessageNotEnoughSpectators>
+  <!-- EN: You must choose a role. -->
+  <MessageRoleChangeChooseDifferentRole>TODO</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
   <MessageNeedAssignedRoleToBeginRitual>開始{1}之前，你必須指派某人擔任{0}。</MessageNeedAssignedRoleToBeginRitual>
+  <!-- EN: Need at least one {0} participating. -->
+  <MessageNeedAtLeastOneParticipantOfIdeo>TODO</MessageNeedAtLeastOneParticipantOfIdeo>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort}現在起擔任{1}。</MessageRoleAssigned>
@@ -114,8 +120,7 @@
   <!-- EN: All security systems are waking up! -->
   <MessageAncientAltarThreatsWokenUp>所有保安系統已被觸發!</MessageAncientAltarThreatsWokenUp>
   <!-- EN: All security systems are alerted to your presence. -->
-  <MessageAncientAltarThreatsAlerted>所有保安系統對你的到來警醒了。
-  </MessageAncientAltarThreatsAlerted>
+  <MessageAncientAltarThreatsAlerted>所有保安系統對你的到來警醒了。\n  </MessageAncientAltarThreatsAlerted>
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
