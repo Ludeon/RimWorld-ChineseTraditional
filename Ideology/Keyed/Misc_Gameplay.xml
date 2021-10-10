@@ -25,12 +25,18 @@
   <ChooseYourIdeoligionDesc>你的殖民地應先信奉什麼?這些信仰影響遊戲和外觀。你可以招募人們來皈依，或皈依別人的信仰。</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>製作自訂</CreateCustom>
+  <!-- EN: Delete custom -->
+  <DeleteCustom>TODO</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>製作全新</CreateNew>
   <!-- EN: Load existing -->
   <LoadExisting>載入已有</LoadExisting>
   <!-- EN: Create custom ideoligion -->
   <CreateCustomIdeoligion>製作自訂理念</CreateCustomIdeoligion>
+  <!-- EN: Custom ideoligion -->
+  <CustomIdeoligionSectionHeader>TODO</CustomIdeoligionSectionHeader>
+  <!-- EN: Faction ideoligions -->
+  <FactionIdeoligionSectionHeader>TODO</FactionIdeoligionSectionHeader>
   <!-- EN: Load saved ideoligion -->
   <LoadExistingIdeoligion>載入存儲理念</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
@@ -142,6 +148,17 @@
   <!-- EN: quest -->
   <QuestLower>任務</QuestLower>
 
+  <!-- EN: Could not load ideoligion -->
+  <UnableToLoadIdeoTitle>TODO</UnableToLoadIdeoTitle>
+  <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
+  <UnableToLoadIdeoDescription>TODO</UnableToLoadIdeoDescription>
+  <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeNotAllowed>TODO</UnableToLoadIdeoMemeNotAllowed>
+  <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeRequired>TODO</UnableToLoadIdeoMemeRequired>
+  <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
+  <UnableToLoadIdeoPreceptNotAllowed>TODO</UnableToLoadIdeoPreceptNotAllowed>
+
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>一個埋著{PAWN_labelShort}的墳墓</RitualTargetGraveInfo>
   <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
@@ -156,6 +173,8 @@
   <RitualTargetGatherSpotInfo>任何聚集點，例如桌子</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>祭壇或任何儀式點</RitualTargetGatherAltarOrRitualSpotInfo>
+  <!-- EN: Altar, ideogram or any ritual spot. -->
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>TODO</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>一個燈球或是儀式點。燈球和擴音器必須通電。</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
@@ -327,6 +346,8 @@
   <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef}不會進行{1}工作。</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>沒有可用的祭壇或儀式點。</AbilityDisabledNoAltarOrRitualsSpot>
+  <!-- EN: No reachable altar, ideogram or ritual spot. -->
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>TODO</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>意志\n{0}至{1}</TextMote_WillReduced>
@@ -570,8 +591,8 @@
   <!-- Bioscuplter pod -->
   <!-- EN: Cycle -->
   <BiosculpterPodCycleLabel>療程</BiosculpterPodCycleLabel>
-  <!-- EN: loading nutrition -->
-  <BiosculpterPodCycleLabelLoading>輸入營養中</BiosculpterPodCycleLabelLoading>
+  <!-- EN: loading ingredients -->
+  <BiosculpterPodCycleLabelLoading>輸入材料中</BiosculpterPodCycleLabelLoading>
   <!-- EN: ready -->
   <BiosculpterPodCycleLabelReady>預備</BiosculpterPodCycleLabelReady>
   <!-- EN: Prepare {0} cycle -->
@@ -588,6 +609,8 @@
   <BiosculpterUnderageAgeReversalMessage>警告︰逆齡療程無法在塑體艙被{PAWN_labelShort}使用時啟動，因為{PAWN_labelShort}少於{ADULTAGE}歲。</BiosculpterUnderageAgeReversalMessage>
   <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
   <BiosculpterLoadingStartedMessage>當塑體艙注滿{INGREDIENTS}後，選擇一位居民並右鍵點擊塑體艙或一位倒下人士以開始療程。</BiosculpterLoadingStartedMessage>
+  <!-- EN: {0} nutrition -->
+  <NumNutrition>TODO</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}被塑體艙退出，因為電力不足。</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
@@ -606,5 +629,11 @@
   <HealingCycleOneWillHeal>以下一項傷勢會被治癒</HealingCycleOneWillHeal>
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>缺少必要研究</MissingRequiredResearch>
+  <!-- EN: Requires -->
+  <BiosculpterRequiresIngredients>TODO</BiosculpterRequiresIngredients>
+  <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
+  <OnCompletionOfCycle>TODO</OnCompletionOfCycle>
+  <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
+  <BiosculpterNoCoditionsToHeal>TODO</BiosculpterNoCoditionsToHeal>
 
 </LanguageData>

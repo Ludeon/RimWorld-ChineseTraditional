@@ -6,28 +6,36 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
   -->
-  <Convert_Failure.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]試圖向[RECIPIENT_nameDef]傳教但失敗了。</li></Convert_Failure.logRulesInitiator.rulesStrings>
+  <Convert_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]試圖向[RECIPIENT_nameDef]傳教但失敗了。</li>
+  </Convert_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful conversion -->
   <Convert_Success.label>傳教成功</Convert_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
   -->
-  <Convert_Success.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]試圖向[RECIPIENT_nameDef]傳教並成功了。</li></Convert_Success.logRulesInitiator.rulesStrings>
+  <Convert_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]試圖向[RECIPIENT_nameDef]傳教並成功了。</li>
+  </Convert_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: convert ideoligion attempt -->
   <ConvertIdeoAttempt.label>試圖傳教</ConvertIdeoAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
   -->
-  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]試圖讓[RECIPIENT_nameDef]皈依[INITIATOR_possessive]的理念。</li></ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]試圖讓[RECIPIENT_nameDef]皈依[INITIATOR_possessive]的理念。</li>
+  </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: failed counsel -->
   <Counsel_Failure.label>輔導失敗</Counsel_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
   -->
-  <Counsel_Failure.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]試圖輔導[RECIPIENT_nameDef]，但拙劣的談話使事情變得更糟糕了。</li></Counsel_Failure.logRulesInitiator.rulesStrings>
+  <Counsel_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]試圖輔導[RECIPIENT_nameDef]，但拙劣的談話使事情變得更糟糕了。</li>
+  </Counsel_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful counsel -->
   <Counsel_Success.label>輔導成功</Counsel_Success.label>
@@ -70,7 +78,9 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
   -->
-  <Reassure.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]鞏固了[RECIPIENT_nameDef]的信念。</li></Reassure.logRulesInitiator.rulesStrings>
+  <Reassure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]鞏固了[RECIPIENT_nameDef]的信念。</li>
+  </Reassure.logRulesInitiator.rulesStrings>
   
   <!-- EN: accuse -->
   <Trial_Accuse.label>指控</Trial_Accuse.label>
@@ -137,6 +147,8 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
-  <WorkDrive.logRulesInitiator.rulesStrings><li>r_logentry->[INITIATOR_nameDef]跟[RECIPIENT_nameDef]說要為殖民地加倍努力工作。</li></WorkDrive.logRulesInitiator.rulesStrings>
+  <WorkDrive.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]跟[RECIPIENT_nameDef]說要為殖民地加倍努力工作。</li>
+  </WorkDrive.logRulesInitiator.rulesStrings>
   
 </LanguageData>

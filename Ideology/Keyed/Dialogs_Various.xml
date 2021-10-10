@@ -45,15 +45,23 @@
   
   <!-- EN: Room requirements -->
   <RoomRequirements>房間需求</RoomRequirements>
-  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). The following memes are incompatible:\n\n{0}\n\nWould you like to continue? -->
-  <ConfirmChangeMemesForFluidIdeo>你現在載入的理念有部份模因與新的流動式理念衝突，因此需要重新選擇模因(可以只憑一個低影響力的模因來開始流動理念)。以下模因不相容︰\n\n{0}\n確定要繼續嗎？</ConfirmChangeMemesForFluidIdeo>
-  
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
+  <ConfirmChangeMemesForFluidIdeo>你現在載入的理念有部份模因與新的流動式理念衝突，因此需要重新選擇模因(可以只憑一個低影響力的模因來開始流動理念)。</ConfirmChangeMemesForFluidIdeo>
+  <!-- EN: The following memes are incompatible -->
+  <ConfirmIncompatibleMemes>TODO</ConfirmIncompatibleMemes>
+  <!-- EN: Would you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeoContinue>TODO</ConfirmChangeMemesForFluidIdeoContinue>
+
   <!-- EN: role -->
   <Role>職位</Role>
   <!-- EN: Assign role -->
   <ChooseRole>分配職位</ChooseRole>
+  <!-- EN: Choose new role -->
+  <ChooseNewRole>TODO</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>未分配職位</NoRoleAssigned>
+  <!-- EN: Remove {0} role -->
+  <RemoveRole>TODO</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
   <ChooseRoleConfirmAssign>將為{PAWN_labelShort}分配{ROLE_labelDef}職位。</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
@@ -149,8 +157,8 @@
   <AnySlave>任何奴隸</AnySlave>
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
   <NegotiatorWillNotTradeSlaves>{0_nameDef}基於{0_possessive}信仰而拒絕販賣奴隸。</NegotiatorWillNotTradeSlaves>
-  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
-  <NegotiatorWillNotTradeSlavesTip>基於{0_possessive}信奉的{1}，會談代表{0_nameDef}不會進行奴隸行為。\n\n注意，{0_nameDef}仍會把某人贖回至他們的派系，但不會把人販賣至其他派系。</NegotiatorWillNotTradeSlavesTip>
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
+  <NegotiatorWillNotTradeSlavesTip>基於{0_possessive}信奉的{1}，會談代表{0_nameDef}不會進行奴隸行為。\n\n注意，{0_nameDef}仍會把某人贖回至{0_possessive}派系，但不會把人販賣至其他派系。</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>最後進食人肉時間</LastHumanMeat>
