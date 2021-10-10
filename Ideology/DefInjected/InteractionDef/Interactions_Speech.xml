@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: role acceptance speech -->
-  <Speech_AcceptRole.label>TODO</Speech_AcceptRole.label>
+  <Speech_AcceptRole.label>受職演講</Speech_AcceptRole.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->[INITIATOR_possessive] new role in the community</li>
@@ -29,7 +29,32 @@
     <li>speechtopic->taking responsibility</li>
     <li>speechtopic->putting a role above [INITIATOR_possessive] personal desires</li>
   -->
-  <Speech_AcceptRole.logRulesInitiator.rulesStrings>TODO</Speech_AcceptRole.logRulesInitiator.rulesStrings>
+  <Speech_AcceptRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->[INITIATOR_possessive]新職位</li>
+    <li>speechtopic->[INITIATOR_possessive]新職位的責任</li>
+    <li>speechtopic->[INITIATOR_possessive]新職位的舉足輕重</li>
+    <li>speechtopic->[INITIATOR_possessive]長處</li>
+    <li>speechtopic->[INITIATOR_possessive]強項以及如何發揮它們</li>
+    <li>speechtopic->[INITIATOR_possessive]短處</li>
+    <li>speechtopic->[INITIATOR_possessive]弱項以及如何克服它們</li>
+    <li>speechtopic->[INITIATOR_possessive]服務社會的心</li>
+    <li>speechtopic->[INITIATOR_possessive]多麼致力於[INITIATOR_possessive]信念</li>
+    <li>speechtopic->[INITIATOR_possessive]對於未來的信念</li>
+    <li>speechtopic->[INITIATOR_possessive]為更大的理想服務的心</li>
+    <li>speechtopic->[INITIATOR_possessive][PersonalCharacteristic]以及它如何關係到職位</li>
+    <li>speechtopic->[INITIATOR_possessive][PersonalCharacteristic]怎樣使[INITIATOR_objective]勝任</li>
+    <li>speechtopic->[INITIATOR_pronoun]會如何利用[INITIATOR_possessive][PersonalCharacteristic]克服障礙</li>
+    <li>speechtopic->感恩的心</li>
+    <li>speechtopic->表示謝意</li>
+    <li>speechtopic->一生的使命</li>
+    <li>speechtopic->殖民地的未來</li>
+    <li>speechtopic->改善殖民地</li>
+    <li>speechtopic->在壓力下作出決定</li>
+    <li>speechtopic->社會的結構</li>
+    <li>speechtopic->承擔責任</li>
+    <li>speechtopic->將職位放在[INITIATOR_possessive]個人慾望之上</li>
+  </Speech_AcceptRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: blinding speech -->
   <Speech_Blinding.label>心視佈道</Speech_Blinding.label>
@@ -305,7 +330,7 @@
   </Speech_Leader.logRulesInitiator.rulesStrings>
   
   <!-- EN: role removal speech -->
-  <Speech_RemoveRole.label>TODO</Speech_RemoveRole.label>
+  <Speech_RemoveRole.label>撤職演講</Speech_RemoveRole.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->[INITIATOR_possessive] past role in the community</li>
@@ -327,7 +352,27 @@
     <li>speechtopic->better candidates</li>
     <li>speechtopic->putting community goals above [INITIATOR_possessive] personal ambitions</li>
   -->
-  <Speech_RemoveRole.logRulesInitiator.rulesStrings>TODO</Speech_RemoveRole.logRulesInitiator.rulesStrings>
+  <Speech_RemoveRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->[INITIATOR_possessive]過往的職位</li>
+    <li>speechtopic->[INITIATOR_possessive]舊職的責任</li>
+    <li>speechtopic->[INITIATOR_possessive]舊職的難處</li>
+    <li>speechtopic->[INITIATOR_possessive]短處</li>
+    <li>speechtopic->[INITIATOR_possessive]弱項以及如何克服它們</li>
+    <li>speechtopic->[INITIATOR_possessive]對社會的失望</li>
+    <li>speechtopic->[INITIATOR_possessive]多麼致力於[INITIATOR_possessive]信念</li>
+    <li>speechtopic->[INITIATOR_possessive]對於未來的信念</li>
+    <li>speechtopic->[INITIATOR_possessive]追求[INITIATOR_possessive]個人目標的心</li>
+    <li>speechtopic->[INITIATOR_possessive]缺乏[PersonalCharacteristic]</li>
+    <li>speechtopic->[INITIATOR_possessive]過去</li>
+    <li>speechtopic->表示謙虛</li>
+    <li>speechtopic->一生的使命</li>
+    <li>speechtopic->殖民地的未來</li>
+    <li>speechtopic->改善殖民地</li>
+    <li>speechtopic->社會的結構</li>
+    <li>speechtopic->更佳的人選</li>
+    <li>speechtopic->將共同目標放在[INITIATOR_possessive]個人志向之上</li>
+  </Speech_RemoveRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
   <Speech_Sacrifice.label>獻祭佈道</Speech_Sacrifice.label>
