@@ -212,9 +212,9 @@
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort}生性懦弱因此不想被除目。</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
-  <RitualScarificationTriggerExtraDesc>TODO</RitualScarificationTriggerExtraDesc>
+  <RitualScarificationTriggerExtraDesc>當這裡少於{0}位受到瘢痕紋身的{IDEOMEMBERPLURAL}，{IDEOMEMBERPLURAL}就應該進行紋禮。</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
-  <RitualBlindingTriggerExtraDesc>TODO</RitualBlindingTriggerExtraDesc>
+  <RitualBlindingTriggerExtraDesc>所有新加入和現有{IDEOMEMBER}的居民都應進行除目。</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>所有參與儀式的居民將獲得一整天工作專注加成({PERCENTAGE}全體工作速度)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
@@ -598,29 +598,29 @@
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>輸入材料中</BiosculpterPodCycleLabelLoading>
   <!-- EN: (and biotuning) -->
-  <BiosculpterPodCycleWillBiotune>TODO</BiosculpterPodCycleWillBiotune>
+  <BiosculpterPodCycleWillBiotune>(和調整)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
-  <BiosculpterPodCycleCommand>設定{0}療程</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleCommand>開始{0}療程</BiosculpterPodCycleCommand>
   <!-- EN: Ready for cycle selection -->
-  <BiosculpterPodCycleSelection>TODO</BiosculpterPodCycleSelection>
+  <BiosculpterPodCycleSelection>準備選擇療程</BiosculpterPodCycleSelection>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>TODO</BiosculpterPodCycleSelectionNoPower>
+  <BiosculpterPodCycleSelectionNoPower>營養已注入，未供電</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>完結於</BiosculpterCycleTimeRemaining>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
-  <BiosculpterCycleNoPowerInterrupt>TODO</BiosculpterCycleNoPowerInterrupt>
+  <BiosculpterCycleNoPowerInterrupt>暫停︰停電(在{TIME}後中斷)</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
-  <BiosculpterBiotunedTo>塑造成</BiosculpterBiotunedTo>
+  <BiosculpterBiotunedTo>已調整給</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>中斷療程</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>中斷目前的療程。佔用者會以原樣退出，並會患上短期塑體艙症候群。</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>TODO</BiosculpterEnteringMessage>
+  <BiosculpterEnteringMessage>{PAWN_labelShort}將進入塑體艙並開始{CYCLE}療程。</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
-  <BiosculpterLoadingStartedMessage>當塑體艙注滿{INGREDIENTS}後，選擇一位居民並右鍵點擊塑體艙或一位倒下人士以開始療程。</BiosculpterLoadingStartedMessage>
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort}將收集{INGREDIENTS}，並開始{CYCLE}療程。</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>TODO</BiosculpterCarryStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort}將收集{INGREDIENTS}，將{DOWNED_labelShort}放在塑體艙內，並開始{CYCLE}療程。</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0}營養度</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -632,11 +632,11 @@
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}逆齡療程。{PAWN_pronoun}預計在{DEADLINE}天後進行下一次的逆齡。</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}完成了樂活療程。</BiosculpterPleasureCompletedMessage>
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}的樂活療程已完成。</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>潔淨環境加速度</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
-  <BiosculpterBiotunedSpeedFactor>TODO</BiosculpterBiotunedSpeedFactor>
+  <BiosculpterBiotunedSpeedFactor>調整加速度</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>以下傷勢會被治癒</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
