@@ -53,15 +53,17 @@
   <GameplayTips.AnimalDeathExplosionRain>如果您在雨天時狩獵爆炸鼠、爆炸艾洛普，那牠們死後的爆炸不會引起森林大火。</GameplayTips.AnimalDeathExplosionRain>
   <!-- EN: Carefully-slaughtered animals yield more meat and leather than those who were killed violently. -->
   <GameplayTips.GreaterSlaughterYield>被宰殺的動物比被獵殺的動物生產更多的肉、毛皮。</GameplayTips.GreaterSlaughterYield>
-  <!-- EN: Place a caravan packing spot to designate where you want your caravans to form up. -->
-  <GameplayTips.CaravanPackingSpot>設置旅隊裝卸點，以指定旅隊形成的位置。</GameplayTips.CaravanPackingSpot>
+  <!-- EN: Place the caravan hitching spot where you want your caravans to form up. It's usually best to place it near your storage areas. -->
+  <GameplayTips.CaravanHitchingSpot>TODO</GameplayTips.CaravanHitchingSpot>
+  <!-- EN: During encounters away from home, you can place a caravan hitching spot to keep your animals from wandering. -->
+  <GameplayTips.CaravanHitchingSpotRoamers>TODO</GameplayTips.CaravanHitchingSpotRoamers>
   <!-- EN: Single-person caravans can be very useful in certain situations. -->
   <GameplayTips.CaravanSinglePerson>某些情況下，單人旅隊非常實用。</GameplayTips.CaravanSinglePerson>
   <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
   <GameplayTips.CaravanRideableAnimals>如果旅隊中有像馬、驢、駱駝一樣可騎乘的動物，旅隊的移動速度會更快。</GameplayTips.CaravanRideableAnimals>
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>小型旅隊比較不會受到埋伏，因為可見性比較低。</GameplayTips.CaravanSmallerLessVisible>
-  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing spot. This will make packing much faster. -->
+  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing post. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>組織旅隊之前，將物資運送到旅隊裝卸點附近的儲存區，以提昇效率。</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>如果您的旅隊中有尚未訓練的動物，可以在戰鬥前拆分成單獨旅隊，以防出現意外。</GameplayTips.CaravanUntrainedAnimals>
@@ -145,7 +147,10 @@
   <GameplayTips.StrawMatting>草蓆無視髒污。很適合用他來當穀倉的地板。</GameplayTips.StrawMatting>
   <!-- EN: Some animals produce a lot of filth. Keep your elephants and cattle outside. -->
   <GameplayTips.AnimalFilth>有些動物會產生很多髒污。最好把你的大象和牛留在戶外。</GameplayTips.AnimalFilth>
-  <!-- EN: Predators are less likely to hunt animals which are enclosed by fences or barricades. -->
+  <!-- EN: Predators won't hunt animals which are on the other side of fences or barricades. -->
   <GameplayTips.PredatorsAndFences>掠食者不太可能狩獵被柵欄或路障包圍的動物。</GameplayTips.PredatorsAndFences>
+  
+  <!-- UNUSED -->
+  <GameplayTips.CaravanPackingSpot>設置旅隊裝卸點，以指定旅隊形成的位置。</GameplayTips.CaravanPackingSpot>
   
 </LanguageData>
