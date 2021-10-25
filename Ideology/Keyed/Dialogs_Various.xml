@@ -292,10 +292,14 @@
   <ConfirmDecisionsTitle>確認</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>由AI(*Name)Charlon Whitestone(/Name)通報的那艘休眠星艦將會在新殖民地建立完成後飛離。到時將不能利用它逃離此星球。</ShipEscapeWillEndDescription>
-  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
-  <RemoveEquippedRelicsDescription>殖民地的買家只容許你拿走一件聖物。任何未被選擇的聖物將被留下，包括︰</RemoveEquippedRelicsDescription>
-  <!-- EN: Would you like to proceed? -->
-  <WantToProceed>你確定繼續嗎？</WantToProceed>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>沒有選擇到要帶到新殖民地的聖物。</ArchonexusRelicNotChosen>
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>{1}件東西中有{0}件東西被選擇要帶到新殖民地。</ArchonexusItemsNotChosen>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
+  <RemoveEquippedRelicsDescription>殖民地的買家只容許你拿走一件聖物。任何未被選擇的聖物將被留下(即使居民拿在手上)，包括︰</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
+  <WantToProceed>你確定繼續嗎？確定後不能取消。</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>轉換</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -306,6 +310,8 @@
   <AbandonArchotechStructuresWarningDialog>你現在打算放棄的據點存在尚未完全探勘的遠古遺跡。\n\n你以後可以再回來這裡，但你的殖民地將被清除。</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>{0}件東西可以帶到新的殖民地。\n\n最大容許數量︰{1}</ItemQuantityTooltip>
+  <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
+  <SoldColonyDescription>你已賣出殖民地。買家正等待你選擇新的落腳點。</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>破解{0}將會警醒敵人並使他們攻擊你。你確定要破解{0}嗎?</ConfirmHackEnenyTerminal>

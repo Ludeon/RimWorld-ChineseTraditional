@@ -88,20 +88,6 @@
   <!-- EN: Click to set desired psyfocus. -->
   <DesiredPsyfocusDesc>點擊已設置所需精神力</DesiredPsyfocusDesc>
 
-  <!-- Abilities -->
-  <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>必須徵招</AbilityDisabledUndrafted>
-  <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>能力冷卻。他將在{0}後可使用。</AbilityOnCooldown>
-  <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>能力已佇列。</AbilityAlreadyQueued>
-  <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>沒有認量可以傾瀉。</AbilityNoEntropyToDump>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>準備就緒: {0}</AbilityReadyLabel>
-  <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef}已準備使用{1}。</AbilityReadyText>
-  
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>未分配王座</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -182,6 +168,10 @@
   <AnimaLinkingExplanationBase>參與者越多，生命之樹連結儀式就越有力量。參加的人越多，儀式所需的時間就越短，會有更多的生命之草生長。\n\n有了{0}名額外的參與者，{1}株生命之草將在儀式結束後恢復。</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>所需物資還沒有全部裝載！</ShuttleRequiredItemsNotSatisfied>
+
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>沒有神經熱量可以傾瀉。</AbilityNoEntropyToDump>
+
   <!-- UNUSED -->
   <AbilitySpeechTooltip>在王座上演講。{ORGANIZER_labelShort}將前往{ORGANIZER_labelShort}王座，並通知所有殖民者聆聽演講。如果進展順利，聽眾會受到鼓舞且會尊重{ORGANIZER_labelShort}。如果進展不順利，演講將造成社交傷害。結果取決於{ORGANIZER_labelShort}的社交能力。</AbilitySpeechTooltip>
 
