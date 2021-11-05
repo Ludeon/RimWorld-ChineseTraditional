@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: allow food with meat -->
+  <AllowCarnivore.label>允許葷食</AllowCarnivore.label>
+  <!-- EN: Allow food that is acceptable to meat eaters but unacceptable to vegetarians. This accounts for food that may be vegetarian or may contain meat depending on its ingredients. -->
+  <AllowCarnivore.description>允許肉食者接受而素食者不接受的食物。這幫助分辨食物的材料是全素或包含肉類。</AllowCarnivore.description>
+  
   <!-- EN: allow slave corpses -->
   <AllowCorpsesSlave.label>允許奴隸屍體</AllowCorpsesSlave.label>
   <!-- EN: Allow the dead bodies of slaves. -->
   <AllowCorpsesSlave.description>允許奴隸的屍體</AllowCorpsesSlave.description>
+  
+  <!-- EN: allow vegetarian food -->
+  <AllowVegetarian.label>允許素食</AllowVegetarian.label>
+  <!-- EN: Allow food that is acceptable to vegetarians but unacceptable to those that only eat meat. This accounts for food that may be vegetarian or may contain meat depending on its ingredients. -->
+  <AllowVegetarian.description>允許素食者接受而肉食者不接受的食物。這幫助分辨食物的材料是全素或包含肉類。</AllowVegetarian.description>
   
 </LanguageData>
