@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: allow food with meat -->
+  <!-- EN: allow food with human meat -->
+  <AllowCannibal.label>允許人肉</AllowCannibal.label>
+  <!-- EN: Allow food that is acceptable to cannibals (contains human meat). This accounts for food that may or may not contain human meat depending on its ingredients. -->
+  <AllowCannibal.description>允許食人族接受的食物(即包含人肉)。這幫助分辨食物的材料是否包含人肉。</AllowCannibal.description>
+  
+  <!-- EN: allow food with appetizing meat -->
   <AllowCarnivore.label>允許葷食</AllowCarnivore.label>
-  <!-- EN: Allow food that is acceptable to meat eaters but unacceptable to vegetarians. This accounts for food that may be vegetarian or may contain meat depending on its ingredients. -->
-  <AllowCarnivore.description>允許肉食者接受而素食者不接受的食物。這幫助分辨食物的材料是全素或包含肉類。</AllowCarnivore.description>
+  <!-- EN: Allow food that is generally acceptable to meat eaters but unacceptable to vegetarians. This accounts for food that may be vegetarian or may contain meat depending on its ingredients. This does not control human and insect meat. -->
+  <AllowCarnivore.description>允許普遍肉食者接受而素食者不接受的食物。這幫助分辨食物的材料是全素或包含肉類。這並不考慮人肉和蟲肉。</AllowCarnivore.description>
   
   <!-- EN: allow slave corpses -->
   <AllowCorpsesSlave.label>允許奴隸屍體</AllowCorpsesSlave.label>
   <!-- EN: Allow the dead bodies of slaves. -->
   <AllowCorpsesSlave.description>允許奴隸的屍體</AllowCorpsesSlave.description>
+  
+  <!-- EN: allow food with insect meat -->
+  <AllowInsectMeat.label>允許蟲肉</AllowInsectMeat.label>
+  <!-- EN: Allow food that contains insect meat. This accounts for food that may or may not contain insect meat depending on its ingredients. -->
+  <AllowInsectMeat.description>允許包含蟲肉的食物。這幫助分辨食物的材料是否包含蟲肉。</AllowInsectMeat.description>
   
   <!-- EN: allow vegetarian food -->
   <AllowVegetarian.label>允許素食</AllowVegetarian.label>
