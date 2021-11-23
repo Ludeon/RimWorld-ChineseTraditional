@@ -31,10 +31,17 @@
   <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
   <MeleeHitChance.description>近戰攻擊的命中率。\n\n即使我們有擊中，目標仍然可以迴避。</MeleeHitChance.description>
   
+  <!-- EN: Mortar miss radius factor -->
+  <MortarMissRadiusFactor.label>迫擊炮失誤半徑倍率</MortarMissRadiusFactor.label>
+  <!-- EN: A factor that affects the miss-radius of a mortar. A smaller factor means more accurate shots. Based on the shooters skill level and other health factors. -->
+  <MortarMissRadiusFactor.description>影響迫擊炮的失誤半徑的倍率。較小的數字代表更精準的發射。取決於射手的技能等級以及其他健康因素。</MortarMissRadiusFactor.description>
+  <!-- EN: Mortar miss radius factor -->
+  <MortarMissRadiusFactor.labelForFullStatList>迫擊炮失誤半徑倍率</MortarMissRadiusFactor.labelForFullStatList>
+  
   <!-- EN: trap spring chance -->
   <PawnTrapSpringChance.label>陷阱觸發率</PawnTrapSpringChance.label>
   <!-- EN: Chance to spring a trap the character is unaware of. -->
-  <PawnTrapSpringChance.description>不知情者觸發陷阱的機率。</PawnTrapSpringChance.description>
+  <PawnTrapSpringChance.description>角色不慎觸發陷阱的機率。</PawnTrapSpringChance.description>
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyPawn.label>射擊準度</ShootingAccuracyPawn.label>
