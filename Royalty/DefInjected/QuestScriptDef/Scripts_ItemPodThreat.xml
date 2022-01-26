@@ -35,7 +35,7 @@
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->一艘在軌科研船想測試一種新興的蟲族費洛蒙。如果你同意，他們將在[map_definite]釋放費洛蒙，這樣將喚醒規模為(*Threat)[hivesCount]的蟲巢(/Threat)。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->蟲巢被在軌研究船釋放的費洛蒙所喚醒。</li>
-    <li>questDescription(asker_factionLeader==True)->來自[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]聲稱其在[map_definite]附近的哨站總是受到蟲災侵害。[asker_pronoun]希望把蟲害引到你這。這會招致(*Threat)[hivesCount]入侵(/Threat)。[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->來自[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]聲稱其在[map_definite]附近的哨站總是受到蟲災侵害。[asker_pronoun]希望把蟲災引到你這。這會招致(*Threat)[hivesCount]入侵(/Threat)。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->蟲巢最早出現在[asker_faction_name]的[asker_nameFull]附近。</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]，由於出了問題，無法在[map_definite]附近著陸。 [asker_pronoun]希望你將這些蟲子處理掉。這會招惹(*Threat)[hivesCount]入侵(/Threat)。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->這起蟲災是由來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]為了尋開心所製造的。</li>

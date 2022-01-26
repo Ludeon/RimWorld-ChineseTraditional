@@ -279,7 +279,7 @@
   <!-- EN: Choose AI Storyteller -->
   <ChooseAIStoryteller>選擇AI故事敘述者</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>AI故事敘述者會製造海賊掠奪、資源墜落或動物襲擊這樣的事件。他們的選擇將會影響你的殖民地的故事。</HowStorytellersWork>
+  <HowStorytellersWork>AI故事敘述者會製造海賊掠奪、資源墜落或動物襲擊這樣的事件。他們的選擇將會影響你的殖民地的故事。你可以隨時改動這些設定。</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>請選擇遊戲難度。</MustChooseDifficulty>
   <!-- EN: Difficulty -->
@@ -291,7 +291,7 @@
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>請選擇無悔模式或自由讀檔模式。</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>你可以隨時讀檔或存檔。\n\n這適合還在摸索玩法的玩家，或符合你的遊玩風格，或你正使用可能導致遊戲崩潰的Mod，又或者你打算靠自我約束實現無悔模式。</ReloadAnytimeModeInfo>
+  <ReloadAnytimeModeInfo>你可以隨時讀檔或存檔。\n\n這適合還在摸索玩法的玩家，或正尋找符合你的遊戲難度，或你正使用可能導致遊戲崩潰的Mod，又或者你打算靠自我約束實現無悔模式。</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>你只能在離開遊戲時存檔。\n\n因為RimWorld是一個故事產生器，即便失去一切只剩最後一人也不到遊戲的結局。本遊戲的設計著重在失去之後浴火重生。\n\n擺脫悲慘的窘境，寫下悲喜交雜的故事，這就是RimWorld被設計帶來的遊玩體驗。\n\n當路克．天行者的父母被殺害時，他沒有讀檔是有原因的 - 得與失是戲劇性的！</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
@@ -299,20 +299,20 @@
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
-  <DifficultyCustomSectionLabel>自定義遊戲方式設定</DifficultyCustomSectionLabel>
+  <DifficultyCustomSectionLabel>自定義難度設定</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
-  <DifficultyReset>設定為標準遊戲方式...</DifficultyReset>
+  <DifficultyReset>設定為預設難度...</DifficultyReset>
   
   <!-- EN: Threats -->
   <DifficultyThreatSection>威脅</DifficultyThreatSection>
   <!-- EN: Threat scale -->
   <Difficulty_ThreatScale_Label>威脅規模</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
-  <Difficulty_ThreatScale_Info>調整威脅的規模，類似於襲擊和蟲害，以及任務難度。</Difficulty_ThreatScale_Info>
+  <Difficulty_ThreatScale_Info>調整威脅的規模，例如襲擊和蟲災，以及任務難度。</Difficulty_ThreatScale_Info>
   <!-- EN: Major threats -->
   <Difficulty_AllowBigThreats_Label>大型威脅</Difficulty_AllowBigThreats_Label>
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
-  <Difficulty_AllowBigThreats_Info>允許大型威脅的出現，例如襲擊、蟲害、獵殺人類、機械飛船墜毀等等。</Difficulty_AllowBigThreats_Info>
+  <Difficulty_AllowBigThreats_Info>允許大型威脅的出現，例如襲擊、蟲災、獸群襲擊、機械飛船墜毀等等。</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
   <Difficulty_AllowViolentQuests_Label>任務威脅</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
@@ -328,7 +328,7 @@
   <!-- EN: Extreme weather -->
   <Difficulty_AllowExtremeWeatherIncidents_Label>極端氣候</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
-  <Difficulty_AllowExtremeWeatherIncidents_Info>允許極端氣候事件的出現，例如有毒霧霾、火山冬天和雷暴。</Difficulty_AllowExtremeWeatherIncidents_Info>
+  <Difficulty_AllowExtremeWeatherIncidents_Info>允許極端氣候事件的出現，例如毒霧霾、火山冬天和雷暴。</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
   <DifficultyEconomySection>經濟</DifficultyEconomySection>
@@ -347,7 +347,7 @@
   <!-- EN: Butchering yield -->
   <Difficulty_ButcherYieldFactor_Label>屠宰量</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>調整屠宰時獲得原料的產量。這包擴肉、皮革以及拆解機械體獲得的產出。</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>調整屠宰時獲得原料的產量。這包括肉、皮革以及拆解機械體獲得的產出。</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
   <Difficulty_ResearchSpeedFactor_Label>研究速率</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
@@ -355,23 +355,23 @@
   <!-- EN: Quest rewards -->
   <Difficulty_QuestRewardValueFactor_Label>任務獎勵</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_QuestRewardValueFactor_Info>調整任務給與的獎勵數值。\n\n註：任務獎勵也會自動根據威脅等級進行補償調整。如果你調整了這個選項，你會獲得一個額外的乘數。</Difficulty_QuestRewardValueFactor_Info>
+  <Difficulty_QuestRewardValueFactor_Info>調整任務給與的獎勵份量。\n\n註：任務獎勵也會自動根據威脅等級進行補償調整。如果你調整了這個選項，你會獲得一個額外的倍率。</Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
   <Difficulty_RaidLootPointsFactor_Label>贓物</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>調整襲擊者攜帶的戰利品數量。\n\n註：襲擊戰利品也會自動根據威脅等級進行補償調整。如果你調整了這個選項，你會獲得一個額外的乘數。</Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>調整襲擊者攜帶的戰利品份量。\n\n註：襲擊戰利品也會自動根據威脅等級進行補償調整。如果你調整了這個選項，你會獲得一個額外的倍率。</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
   <Difficulty_MaintenanceCostFactor_Label>炮塔整備成本</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
   <Difficulty_MaintenanceCostFactor_Info>調整整備炮塔的成本。</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
-  <Difficulty_ScariaRotChance_Label>狂暴症腐爛幾率</Difficulty_ScariaRotChance_Label>
+  <Difficulty_ScariaRotChance_Label>狂暴症腐爛機率</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
-  <Difficulty_ScariaRotChance_Info>患有狂暴症的生物死亡時立即腐爛的幾率。\n\n註：默認設置的目的是使所有難度都獲得相接近的肉獎勵而平衡，因為高難度模式下動物會變多。</Difficulty_ScariaRotChance_Info>
+  <Difficulty_ScariaRotChance_Info>患有狂暴症的生物死亡時立即腐爛的機率。\n\n註：默認設置的目的是平衡因高難度而變多的動物，使所有難度都獲得相對接近的肉類獎勵。</Difficulty_ScariaRotChance_Info>
   <!-- EN: Enemy death on downed -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>敵人倒地死亡幾率</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>敵人倒地死亡機率</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>調整敵人在被擊倒時直接死亡的幾率。這影響了俘虜的機會，從而影響到殖民地的人口增長率。</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>調整敵人在被擊倒時直接死亡的機率。這影響了俘虜的機會，從而影響到殖民地的人口增長率。</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
   <DifficultyGeneralSection>通用</DifficultyGeneralSection>
@@ -380,25 +380,25 @@
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
   <Difficulty_ColonistMoodOffset_Info>適用於所有殖民者和俘虜的永久心情補償。殖民者基礎心情為50%。</Difficulty_ColonistMoodOffset_Info>
   <!-- EN: Food poison chance -->
-  <Difficulty_FoodPoisonChanceFactor_Label>食物有毒幾率</Difficulty_FoodPoisonChanceFactor_Label>
+  <Difficulty_FoodPoisonChanceFactor_Label>食物中毒機率</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
-  <Difficulty_FoodPoisonChanceFactor_Info>調整一個人吃了可能有毒的食物中毒的幾率。</Difficulty_FoodPoisonChanceFactor_Info>
+  <Difficulty_FoodPoisonChanceFactor_Info>調整一個人吃了可能有毒的食物而中毒的機率。</Difficulty_FoodPoisonChanceFactor_Info>
   <!-- EN: Animal revenge chance -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Label>動物反擊幾率</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>動物反擊機率</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Info>調整攻擊野生動物使其產生反擊的幾率。</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>調整攻擊野生動物使其產生反擊的機率。</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>友方傷害</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>調整友方誤傷的幾率。\n\n註：此設置隻影響會命中目標的直接射擊。它並不能防止爆炸造成的傷害，也不能防止子彈擊中目標產生的傷害。</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>調整友方誤傷的機率。\n\n註：此設置只影響會命中目標的直接射擊。它並不能防止爆炸造成的傷害，也不能防止流彈產生的傷害。</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
   <Difficulty_AllowInstantKillChance_Label>殖民者直接死亡</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>調整殖民者因攻擊而當場死亡的幾率。受到的傷害會進行調整，它會使殖民者倒地而不是致死。\n\n不過這只會影響到一些直接殺死殖民者的傷害，殖民者仍然會被擊倒、流血致死，或者死於火災、爆炸、疾病等。</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>調整殖民者受到攻擊而當場死亡的機率。受到的傷害會被調整，使殖民者倒地而不是致死。\n\n不過這只會影響到一些直接殺死殖民者的傷害，殖民者仍然會被擊倒、流血致死，或者死於火災、爆炸、疾病等。</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Label>感染幾率</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>感染機率</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Info>調整傷口感染的幾率。</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>調整傷口感染的機率。</Difficulty_PlayerPawnInfectionChanceFactor_Info>
   <!-- EN: Disease frequency -->
   <Difficulty_DiseaseIntervalFactor_Inverted_Label>疾病頻率</Difficulty_DiseaseIntervalFactor_Inverted_Label>
   <!-- EN: Adjust the frequency of random disease events. -->
@@ -406,30 +406,30 @@
   <!-- EN: Insect spawning rate -->
   <Difficulty_EnemyReproductionRateFactor_Label>蟲族繁殖率</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>調整蟲巢繁殖新昆蟲的幾率。較低的值表示繁殖事件之間的間隔時間會更長。\n\n這不會影響是否會發生蟲害事件，只會影響到活躍的蟲巢繁殖昆蟲的速度。</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>調整蟲巢生成新蟲族的速率。較低的數值表示繁殖事件之間的間隔時間會更長。\n\n這不會影響是否會發生蟲災事件，只會影響到活躍的蟲巢生成出蟲族的速度。</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Label>深鑽井蟲害</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>深鑽井蟲災</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Info>調整深鑽井發生蟲害的幾率。</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>調整深鑽井引發蟲災的機率。</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <!-- EN: Map generation ancient threats -->
   <Difficulty_PeacefulTemples_Inverted_Label>遠古威脅</Difficulty_PeacefulTemples_Inverted_Label>
   <!-- EN: Ancient structures may contain dangerous threats. -->
-  <Difficulty_PeacefulTemples_Inverted_Info>古代遺蹟可能含有危險的威脅。</Difficulty_PeacefulTemples_Inverted_Info>
+  <Difficulty_PeacefulTemples_Inverted_Info>可能含有危險的威脅的古代遺蹟。</Difficulty_PeacefulTemples_Inverted_Info>
   <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>自然蟲巢</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>自然洞穴中可能會生成休眠的蟲巢。\n\n此選項只會影響地圖生成，而不會影響到遊戲中挖掘隧道的活躍蟲群。</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>自然洞穴中可能會生成休眠的蟲巢。\n\n此選項只會影響地圖生成，而不會影響到中途穿地而出的活躍蟲群。</Difficulty_AllowCaveHives_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
   <!-- EN: Player can build traps -->
   <Difficulty_AllowTraps_Label>玩家可以製作陷阱</Difficulty_AllowTraps_Label>
   <!-- EN: Player can build traps like spike traps and IED traps. -->
-  <Difficulty_AllowTraps_Info>玩家可以製作類似尖刺陷阱或者爆炸陷阱。</Difficulty_AllowTraps_Info>
+  <Difficulty_AllowTraps_Info>玩家可以製作如尖刺陷阱或者地雷之類的陷阱。</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
   <Difficulty_AllowTurrets_Label>玩家可以建造炮塔</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>玩家可以建造類似簡易無人機槍塔、自動加農炮塔之類的靜態炮塔。\n\n你依然可以在禁用此選項時使用繳獲的炮塔。</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>玩家可以建造如簡易無人機槍塔、自動加農炮塔之類的靜態炮塔。\n\n你依然可以在禁用此選項時使用繳獲的炮塔。</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>玩家可以建造迫擊砲</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
@@ -437,14 +437,14 @@
   <!-- EN: Classic mortars -->
   <Difficulty_ClassicMortars_Label>經典迫擊砲</Difficulty_ClassicMortars_Label>
   <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
-  <Difficulty_ClassicMortars_Info>迫擊砲將不需要強化砲管來建造或重新裝填，並為這方便性進行平衡性調整。</Difficulty_ClassicMortars_Info>
+  <Difficulty_ClassicMortars_Info>迫擊砲將不需要強化砲管來建造或重新裝填，並會因應此便利措施而進行平衡性調整。</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>適應性調整</DifficultyAdaptationSection>
   <!-- EN: Adaptation growth rate -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>適應性增長</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>適應性表示玩家對當前遊戲的適應能力，故事敘述者會在你遊刃有餘的情況下使遊戲更富挑戰性。適應性會隨著時間的推移而增長，並在你受到傷害時降低。\n\n這個選項會調整適應性增長的倍率。</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>適應性表示玩家對當前遊戲的適應能力，故事敘述者會在你遊刃有餘的情況下使遊戲更富挑戰性。適應性會隨著時間的推移而增長，並在你受到傷害時降低。\n\n這個選項會調整適應性增長的速率。</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
   <!-- EN: Adaptation impact -->
   <Difficulty_AdaptationEffectFactor_Label>適應性影響</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
@@ -463,7 +463,7 @@
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>低人口皈依補正</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>當玩家的起始理念追隨者只有一人時，轉化其他人到此理念的機率會乘上此數值。\n\n當玩家的起始理念追蹤者有兩個人時，此補正效果減半。\n\n當玩家的起始理念追隨者至少三個人時，此補正無效。</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>當玩家的起始理念追隨者只有一人時，轉化其他人到此理念的機率會乘上此數值。\n\n當玩家的起始理念追隨者有兩個人時，此補正效果減半。\n\n當玩家的起始理念追隨者至少三個人時，此補正無效。</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
