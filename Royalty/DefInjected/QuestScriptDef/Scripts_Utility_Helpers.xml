@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\n一個[helperKind_label]將會聽命於你。你需要為[helpers0_objective]提供各種基本生活條件，而且[helpers0_pronoun]在戰鬥中英勇犧牲的話，其派系也不會遷怒於你。\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural]將會聽命於你。你需要為這些人提供各種基本生活條件，而且他們在戰鬥中英勇犧牲的話，其派系也不會遷怒於你。\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\n[helperKind_label]將會歸你掌握。你需要為[helpers0_objective]提供基本生活條件，即使[helpers0_pronoun]在戰鬥中犧牲也無所謂。\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helperKind_labelPlural]x[helpersCount]將會歸你掌握。你需要為這些人提供基本生活條件，即使他們在戰鬥中犧牲也無所謂。\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount]個[helpersLabelSingOrPlural][helpersHasHave]前來協助你。</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
