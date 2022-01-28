@@ -44,8 +44,12 @@
 
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>殖民者期望{0}的建築</IdeoBuildingMissing>
-  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>只要你的殖民地有{2}或更高時，{IDEO_name}需要你有{0}。\n\n這項要求只會在{IDEO_name}是你的派系的首要理念，或{MINBELIEVERS}名信徒在你的派系中，才會出現。{4}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>一旦你的殖民地有{2}或更高時，{IDEO_name}就需要你有一個{0}。\n\n{0}是{BASEBUILDING_label}的變體。{BUILDINGINFO}\n\n這項要求只會在{IDEO_name}是你的派系的首要理念，或{MINBELIEVERS}名信徒在你的派系中，才會出現。{4}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingMissingDesc> <!-- text_todo -->
+  <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
+  <IdeoBuildingArchitectTabDesc>你可以在建築清單中選擇「{TABNAME}」來找到它。</IdeoBuildingArchitectTabDesc> <!-- text_todo -->
+  <!-- EN:  It can be created at:\n{0}. -->
+  <IdeoBuildingCanBeCraftedAt>可以在以下地方建造它︰\n{0}。</IdeoBuildingCanBeCraftedAt> <!-- text_todo -->
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>為了維持{0}的威嚴，這房間必須滿足要求</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
