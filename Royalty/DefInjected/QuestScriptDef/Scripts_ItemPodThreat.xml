@@ -84,7 +84,7 @@
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
     <li>manhuntingBeastIndef(animalCount==1)->一隻(*Threat)獵殺人類的[animalKind_label](/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->一群(*Threat)[animalCount]獵殺人類的[animalKind_labelPlural](/Threat)</li>
-    <li>endSection->[helpersParagraph]你接受後，[animalKindLabelCorrect]將到達[map_definite] [manhuntersDelayTicks_duration]。</li>
+    <li>endSection->[helpersParagraph]你接受後，[animalKindLabelCorrect][manhuntersDelayTicks_duration]後將到達[map_definite]。</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->一名商人正在呼救。一隻(*Threat)野生[animalKind_label](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label]正在襲擊附近一名商人的。</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->>一名商人正在呼救。有(*Threat)[animalCount]隻野生[animalKind_labelPlural](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
