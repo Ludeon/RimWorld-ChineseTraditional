@@ -9,7 +9,7 @@
   <!-- EN: Slave unsuppressed -->
   <SlavesUnsuppressedLabel>未壓制的奴隸</SlavesUnsuppressedLabel>
   <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
-  <SlavesUnsuppressedDesc>{0_nameDef}的壓制度過低，{0_pronoun}引起暴動的可能性很高。\n\n請確認是否有負責獄卒的殖民者。獄卒會為了防止奴隸暴動而定期的去壓制奴隸</SlavesUnsuppressedDesc>
+  <SlavesUnsuppressedDesc>{0_nameDef}的壓制度過低，{0_pronoun}引起暴動的可能性很高。\n\n請確認是否有擔任獄卒的殖民者。獄卒會為了防止奴隸暴動而定期的去壓制奴隸</SlavesUnsuppressedDesc>
   <!-- EN: Slave unattended -->
   <SlaveUnattendedLabel>未監視的奴隸</SlaveUnattendedLabel>
   <!-- EN: Slaves unattended -->
@@ -43,9 +43,9 @@
   <RitualUnfilledRoles>若想執行{0}，需要有以下職位的人</RitualUnfilledRoles>
 
   <!-- EN: {0} desired -->
-  <IdeoBuildingMissing>殖民者期望{0}的建築</IdeoBuildingMissing>
+  <IdeoBuildingMissing>殖民者想要{0}</IdeoBuildingMissing>
   <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>一旦你的殖民地有{2}或更高時，{IDEO_name}就需要你有一個{0}。\n\n{0}是{BASEBUILDING_label}的變體。{BUILDINGINFO}\n\n這項要求只會在{IDEO_name}是你的派系的首要理念，或{MINBELIEVERS}名信徒在你的派系中，才會出現。{4}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingMissingDesc> <!-- text_todo -->
+  <IdeoBuildingMissingDesc>一旦你的殖民地的{2}或更高時，{IDEO_name}就需要你有一個{0}。\n\n{0}是{BASEBUILDING_label}的變體。{BUILDINGINFO}\n\n這項要求只會在{IDEO_name}是你的派系的首要理念，或{MINBELIEVERS}名信徒在你的派系中，才會出現。{4}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingMissingDesc> <!-- text_todo -->
   <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
   <IdeoBuildingArchitectTabDesc>你可以在建築清單中選擇「{TABNAME}」來找到它。</IdeoBuildingArchitectTabDesc> <!-- text_todo -->
   <!-- EN:  It can be created at:\n{0}. -->
@@ -91,7 +91,7 @@
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
   <AlertRitualComingDesc>以下的儀式時機將近</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
-  <AlertRitualComingExtra>時機將在{0}天後結束，並在每年的同一天再次發生。</AlertRitualComingExtra>
+  <AlertRitualComingExtra>將會在{0}天後錯過，直至明年的同一天才再有機會。</AlertRitualComingExtra>
   <!-- EN: {0} on {1}, {2} left -->
   <AlertRitualComingEntry>{0}於{1}，剩下{2}</AlertRitualComingEntry>
 

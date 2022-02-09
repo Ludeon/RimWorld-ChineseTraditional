@@ -458,7 +458,7 @@
   <!-- EN: Autoload -->
   <CommandAutoloadTransporters>自動裝載</CommandAutoloadTransporters>
   <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
-  <CommandAutoloadTransportersDesc>一旦所有需要的貨物可用，便自動切換裝載。</CommandAutoloadTransportersDesc>
+  <CommandAutoloadTransportersDesc>當所有指定貨物可用時自動裝載。</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
@@ -530,9 +530,9 @@
   <!-- EN: Place all required blueprints where possible. -->
   <CommandPlaceBlueprintsDesc>盡可能放置所有必需的藍圖。</CommandPlaceBlueprintsDesc>
   <!-- EN: Place {0} blueprints -->
-  <CommandPlaceBlueprintsSpecific>放置{0}x藍圖</CommandPlaceBlueprintsSpecific>
+  <CommandPlaceBlueprintsSpecific>放置{0}藍圖</CommandPlaceBlueprintsSpecific>
   <!-- EN: Place all {0} blueprints where possible. -->
-  <CommandPlaceBlueprintsSpecificDesc>儘可能放置{0}x藍圖。</CommandPlaceBlueprintsSpecificDesc>
+  <CommandPlaceBlueprintsSpecificDesc>儘可能放置{0}藍圖。</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->

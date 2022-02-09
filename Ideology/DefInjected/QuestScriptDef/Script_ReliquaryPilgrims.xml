@@ -20,7 +20,7 @@
   <ReliquaryPilgrims.questContentRules.rulesStrings>
     <li>pilgrimsArrivedLetterLabel->[factionAdj][pilgrimSingularOrPlural]來訪</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef]感謝你讓[pawns0_objective][andFollowers]在[venerateDate]朝拜[relic_name]。作為謝禮，[pawns0_nameDef]正利用運輸艙給你送來以下貢品︰(總值[rewardsMarketValue_money])︰\n\n[rewards]。</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef]感謝你讓[pawns0_objective][andFollowers]在[venerateDate]朝拜[relic_name]。作為謝禮，[pawns0_nameDef]正利用運輸艙給你送來以下貢品(價值[rewardsMarketValue_money])︰\n\n[rewards]。</li>
     <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural][hasHave]完成對[relic_name]的朝拜並正在離開。</li>
     <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural]離開了地圖。</li>
     <li>areIs(pilgrimCount==1)-></li>

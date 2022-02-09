@@ -62,7 +62,7 @@
   <!-- EN: altar -->
   <Altar>祭壇</Altar>
   <!-- EN: base -->
-  <Base>基座</Base>
+  <Base>基礎</Base>
   <!-- EN: min expectation -->
   <MinExpectation>最低期望</MinExpectation>
   <!-- EN: {0} to {1} -->
@@ -180,7 +180,7 @@
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>祭壇或任何儀式點</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
-  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>祭壇，標誌或任何儀式點。</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>祭壇，符號或任何儀式點。</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>一個燈球或是儀式點。燈球和擴音器必須通電。</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
@@ -347,7 +347,7 @@
   <!-- EN: Raised by {0} levels. -->
   <RoleExpectationOffset>提升了{0}等級。</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
-  <RoleRaisedExpectation>{0}有更高的期望了。</RoleRaisedExpectation>
+  <RoleRaisedExpectation>{0}有著更高的期望。</RoleRaisedExpectation>
   <!-- EN: The {0} will have higher expectations in {1}. -->
   <RoleRaisedExpectationGracePeriod>{0}將在{1}內得到更高期望。</RoleRaisedExpectationGracePeriod>
   <!-- EN: Led by {0} -->
@@ -357,7 +357,7 @@
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>沒有可用的祭壇或儀式點。</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
-  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>沒有可用的祭壇，標誌或儀式點。</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>沒有可用的祭壇，符號或儀式點。</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>意志\n{0}至{1}</TextMote_WillReduced>
@@ -462,7 +462,7 @@
   <!-- EN: Nobody -->
   <Nobody>無</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>與{TREE_label}聯結的人。如果聯結者死亡，{TREE_label}將不能{DURATION}內與其他人聯結。</ConnectedPawnDesc>
+  <ConnectedPawnDesc>與{TREE_label}聯結的人。如果聯結者死亡，{TREE_label}{DURATION}內將不能與其他人聯結。</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
   <ConnectionTorn>聯結被破壞。可以在{0}後再聯結。</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
@@ -470,7 +470,7 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>在人工建築物旁種植{PLANT_definite}會使聯結力隨時間消失。聯結力決定了{PLANT_definite}同時可承載最大樹精量。\n\n你確定要把它種在這裡?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>更改{TREE_definite}的樹精種類會消耗時間和能量。\n\n當聯結者與樹木互動後，所有樹精需要在繭中花{DURATION}天變態成新種類。\n\n現存的繭會取消，使本來在繭中的也能一起變態。</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>更改{TREE_definite}的樹精種類會消耗時間和能量。\n\n當聯結者對樹木互動後，所有樹精需要在繭中花{DURATION}天變態成新種類。\n\n現有的繭會解除，使本來在繭中的樹精也能重頭一起變態。</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>更改由{TREE_definite}生成的樹精種類。</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -478,7 +478,7 @@
   <!-- EN: Connection strength -->
   <ConnectionStrength>聯結力</ConnectionStrength>
   <!-- EN: {0} strength -->
-  <ConnectionStrengthDisplay>{0}度</ConnectionStrengthDisplay>
+  <ConnectionStrengthDisplay>{0}聯結力</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
   <ConnectionStrengthDesc>決定此樹最大承載樹精量。</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
@@ -570,7 +570,7 @@
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>你已喚醒遠古聯繫核心。世界充斥著刺眼的光芒，時間似乎慢了下來...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>機械之神告誡你。無人知曉之後會發生什麼。它可能殺你一個措手不及，也可能與你來一場面談，甚或可能會將你的意識傳送到另一個現實。\n\n你感受到一個淵博且非人類，有著無限碎形的複雜結構流進你的大腦。時間和空間混在一起。可怕得令人恐懼，亦美麗得令人讚嘆。...</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>機械之神察覺到你的存在了。無人知曉之後會發生什麼。它可能殺你一個措手不及，也可能與你來一場面談，甚或可能會將你的意識傳送到另一個現實。\n\n你感受到一個淵博得非人類所能描述的無限碎形複雜結構流進你的大腦。時間和空間分崩離析。可怕得令人恐懼，亦美麗得令人讚嘆...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>以下殖民者已昇華︰\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
@@ -665,4 +665,3 @@
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef}沒有任何需要被{CYCLE}療程治癒的病痛。\n\n你確定要繼續嗎?</BiosculpterNoCoditionsToHeal>
 
 </LanguageData>
-

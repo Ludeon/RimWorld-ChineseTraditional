@@ -223,18 +223,18 @@
   <QuestPartMoodBelowThresholdDesc>{0}給予的任務要求是讓這些人保持好心情。但是現在，他們的心情很差。採取一些行動使他們感覺更好:\n\n{1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
-  <QuestPartShuttleLeaveDelay>太空梭即將離開{0}</QuestPartShuttleLeaveDelay>
+  <QuestPartShuttleLeaveDelay>太空梭在{0}內離開</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>太空梭將在{1}離開。{0}的要求是在飛船起飛前把下列的人員或物品裝載上機:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <QuestPartShuttleLeaveDelayDesc>太空梭將在{1}後離開。{0}的要求是在飛船起飛前把下列的人員或物品裝載上機:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
   <!-- EN: The shuttle will leave in {0}. -->
-  <QuestPartShuttleLeaveDelayDescHidden>太空梭將在{0}離開。</QuestPartShuttleLeaveDelayDescHidden>
+  <QuestPartShuttleLeaveDelayDescHidden>太空梭將在{0}後離開。</QuestPartShuttleLeaveDelayDescHidden>
 
   <!-- EN: Shuttle arriving in {0} -->
-  <QuestPartShuttleArriveDelay>太空梭即將抵達{0}</QuestPartShuttleArriveDelay>
+  <QuestPartShuttleArriveDelay>太空梭在{0}內抵達</QuestPartShuttleArriveDelay>
   <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleArriveDelayDesc>太空梭將在{1}抵達。{0}的要求是在飛船起飛前把下列的人員或物品裝載上機:\n\n{2}</QuestPartShuttleArriveDelayDesc>
+  <QuestPartShuttleArriveDelayDesc>太空梭將在{1}後抵達。{0}的要求是在飛船起飛前把下列的人員或物品裝載上機:\n\n{2}</QuestPartShuttleArriveDelayDesc>
   <!-- EN: A shuttle will arrive in {0}. -->
-  <QuestPartShuttleArriveDelayDescHidden>太空梭將在{0}抵達。</QuestPartShuttleArriveDelayDescHidden>
+  <QuestPartShuttleArriveDelayDescHidden>太空梭將在{0}後抵達。</QuestPartShuttleArriveDelayDescHidden>
 
   <!-- EN: Monument will be destroyed -->
   <DisallowedBuildingInsideMonument>紀念碑將被摧毀</DisallowedBuildingInsideMonument>
@@ -258,7 +258,7 @@
   <!-- EN: Animal filth -->
   <AlertAnimalFilth>動物糞便</AlertAnimalFilth>
   <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
-  <AlertAnimalFilthDesc>有動物在室內的地板上製造髒污。\n\n動物在一般地板上走動時會製造大量的髒污。將動物放在室外，或放在草蓆上，這樣牠們製造的髒污會少很多。\n\n你可以點擊動物身上的 " i "鍵，察看基本訊息裡的排泄率。\n\n以下動物是有問題的：\n{0}</AlertAnimalFilthDesc>
+  <AlertAnimalFilthDesc>有動物在室內的地板上製造髒污。\n\n動物在一般地板上走動時會製造大量的髒污。將動物放在室外，或放在草蓆上，這樣牠們製造的髒污會少很多。\n\n你可以點擊動物身上的'i'鍵，察看基本訊息裡的排泄率。\n\n問題出於以下動物：\n{0}</AlertAnimalFilthDesc>
 
   <!-- EN: Pen needed -->
   <AlertAnimalPenNeeded>需要飼養圈</AlertAnimalPenNeeded>
@@ -277,12 +277,12 @@
   <!-- EN: {ANIMAL_labelShort} in animal pen -->
   <AlertPredatorInAnimalPen>{ANIMAL_labelShort}在飼養圈內</AlertPredatorInAnimalPen>
   <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
-  <AlertPredatorInAnimalPenDesc>掠食者{ANIMAL_labelShort}遊蕩進了飼養圈內。\n\n他可能會決定狩獵你的動物。\n\n你可以殺死他，或是等待期待他離開。</AlertPredatorInAnimalPenDesc>
+  <AlertPredatorInAnimalPenDesc>掠食者{ANIMAL_labelShort}遊蕩進了飼養圈內。\n\n他可能會決定狩獵你的動物。\n\n你可以殺死他，或是等待並祈求他自行離開。</AlertPredatorInAnimalPenDesc>
 
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>動物遊蕩</AlertAnimalIsRoaming>
   <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
-  <AlertAnimalIsRoamingDesc>你有一些馴服動物開始四處遊蕩了。如果牠們到達地圖的邊緣，將會離開。\n\n如果你有一個圍住的動物飼養圈，你的馴獸師可以把動物帶回來。飼養圈中的動物不會遊蕩。\n\n以下動物正在遊蕩：\n\n{0}</AlertAnimalIsRoamingDesc>
+  <AlertAnimalIsRoamingDesc>你有一些未被管控的馴服動物開始四處遊蕩了。如果牠們到達地圖的邊緣，將會離開。\n\n如果你有一個圍住的動物飼養圈，你的馴獸師可以把動物帶回來。飼養圈中的動物不會遊蕩。\n\n以下動物正在遊蕩：\n\n{0}</AlertAnimalIsRoamingDesc>
 
   <!-- EN: Hungry pen animals -->
   <AlertPennedAnimalHungry>飼養圈動物飢餓</AlertPennedAnimalHungry>
@@ -295,11 +295,11 @@
   <AlertHitchedAnimalHungryNoFoodDesc>有些拴在拴繫點的動物正在挨餓。牠們所及之處可能沒有適當的食物。\n\n給牠們帶來食物，或移除拴繫點，讓牠們可以自己找食物。\n\n以下這些拴繫動物正在挨餓：\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
   <!-- EN: Raids arriving in {0} -->
-  <AlertTimedRaidsArrivingIn>襲擊將在{0}到來</AlertTimedRaidsArrivingIn>
+  <AlertTimedRaidsArrivingIn>襲擊將在{0}後到來</AlertTimedRaidsArrivingIn>
   <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
   <AlertTimedRaidsArrivingInDesc>敵人已經被吸引到以下地點，並將開始大舉進攻。\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <!-- EN: Arriving at {0} in {1} -->
-  <AlertTimedRaidsArrivingAt>於{1}抵達{0}</AlertTimedRaidsArrivingAt>
+  <AlertTimedRaidsArrivingAt>將於{1}後抵達{0}</AlertTimedRaidsArrivingAt>
 
   <!-- EN: Faction will become hostile if you stay -->
   <FactionWillBecomeHostileIfNotLeavingWithin>派系將轉變為敵對</FactionWillBecomeHostileIfNotLeavingWithin>
