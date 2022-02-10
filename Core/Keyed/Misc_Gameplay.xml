@@ -633,11 +633,11 @@
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
   <UnpennedTooltip>在圍住的區域內建立動物飼養圈。你的馴獸師會將動物帶到合適的飼養圈內。飼養圈可以用柵欄、路障、牆和門圍起來。</UnpennedTooltip>
   <!-- EN: Roped by -->
-  <RopedByPawn>被以下馴獸師帶領</RopedByPawn>
+  <RopedByPawn>領頭人</RopedByPawn>
   <!-- EN: Roped to -->
   <RopedToThing>被帶領至</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>被帶領至地點</RopedToSpot>
+  <RopedToSpot>被綁在拴繫點</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>飼養圈範圍</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -1591,13 +1591,13 @@
   <StartingRitualQuality>{0}起始品質</StartingRitualQuality>
 
   <!-- EN: up to {0} quality -->
-  <OutcomeBonusDesc_Quality>達到{0}品質</OutcomeBonusDesc_Quality>
+  <OutcomeBonusDesc_Quality>可達{0}品質</OutcomeBonusDesc_Quality>
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>{0}品質</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
   <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
-  <MaxValue>{0}最大</MaxValue>
+  <MaxValue>上限{0}</MaxValue>
 
   <!-- EN: {0} of -->
   <ThingOf>{0}個</ThingOf>
