@@ -85,9 +85,9 @@
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>解鎖自</UnlockedByMeme>
   <!-- EN: Unlocked roles -->
-  <MemeUnlocksRoles>解鎖了職位</MemeUnlocksRoles>
+  <MemeUnlocksRoles>解鎖職位</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
-  <MemeUnlocksRituals>解鎖了儀式</MemeUnlocksRituals>
+  <MemeUnlocksRituals>解鎖儀式</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
   <ChooseRoleRequiredWorkTagsDisabled>警告︰{PAWN_nameDef}無法履行{ROLE_label}的工作。如果你要給予{PAWN_objective}此職位，{PAWN_pronoun}可能無法使用{ROLE_label}帶來的能力。缺失的工種有</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
@@ -108,7 +108,7 @@
   <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
   <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort}是{ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
-  <AbilityIdeoConvertBreakdownTrait>特性{TRAIT}</AbilityIdeoConvertBreakdownTrait>
+  <AbilityIdeoConvertBreakdownTrait>{TRAIT}特性</AbilityIdeoConvertBreakdownTrait>
   <!-- EN: {RELICCOUNT} installed relics on map -->
   <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT}個聖物安置了在地圖上</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
@@ -118,7 +118,7 @@
   <!-- EN: {PAWN_nameDef}'s ideoligion -->
   <AbilityIdeoConvertBreakdownPawnIdeo>{PAWN_nameDef}的理念</AbilityIdeoConvertBreakdownPawnIdeo>
   <!-- EN: {MEME} vs {TRAIT} trait -->
-  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} VS {TRAIT}特性</AbilityIdeoConvertBreakdownMemeVsTrait>
+  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME}VS{TRAIT}特性</AbilityIdeoConvertBreakdownMemeVsTrait>
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort}近來已被商談過了。</AbilityCantApplyAlreadyCounselled>

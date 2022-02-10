@@ -893,7 +893,7 @@
   <!-- EN: Only if recreation below -->
   <JoyThresholdColumnLabel>只在娛樂值低時使用</JoyThresholdColumnLabel>
   <!-- EN: Keep in inventory -->
-  <TakeToInventoryColumnLabel>維持庫存量</TakeToInventoryColumnLabel>
+  <TakeToInventoryColumnLabel>隨身攜帶</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
   <NoDrugsBrackets>(無藥物)</NoDrugsBrackets>
   <!-- EN: Every day -->
@@ -917,7 +917,7 @@
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
   <JoyThresholdColumnDesc>殖民者只會在娛樂值低於這個限時使用此藥物。</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
-  <TakeToInventoryColumnDesc>為了避免每次都要去儲存區拿藥物，在拿藥物的時候會多拿一份。</TakeToInventoryColumnDesc>
+  <TakeToInventoryColumnDesc>為了避免每次都要去儲存區拿藥物，在拿藥物的時候會多拿一些。</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
   <DrugUsageTipForAddiction>針對成癮\n\n使用此藥物滿足已成癮的藥物需求。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
@@ -1041,11 +1041,11 @@
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0} 必須瞄準無屋頂區域。</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0_labelShort} 的心靈壞掉了。</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0_labelShort}精神崩潰了。</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} 的心靈沒有壞掉。</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort}沒有精神崩潰。</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not maddened. -->
-  <AbilityCanOnlyApplyToManhunter>{0_labelShort} 沒有陷入瘋狂</AbilityCanOnlyApplyToManhunter>
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort}沒有陷入瘋狂</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
   <AbilityCantApplyToScaria>{0_labelShort} 患有狂亂症，只能透過藥物治療。</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
@@ -1120,7 +1120,7 @@
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>其他</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>殖民者會按照年齡大到小的順序屠宰沒有懷孕的動物，接著是很久之前懷孕到最近懷孕的動物順序。</AutoSlaugtherTip>
+  <AutoSlaugtherTip>殖民者會按照年齡大到小的順序屠宰沒有懷孕的動物，接著是最近懷孕到最久懷孕的動物順序。</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>成年雄性</AnimalMaleAdult>
   <!-- EN: Male young -->
@@ -1172,20 +1172,20 @@
 
   <!-- Room requirements -->
   <!-- EN: no beds allowed -->
-  <RoomRequirementNoBeds>沒有允許的床</RoomRequirementNoBeds>
+  <RoomRequirementNoBeds>不可以有床</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>房間面積: {0} 格</RoomRequirementArea>
+  <RoomRequirementArea>房間面積:{0}格</RoomRequirementArea>
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>房間印象</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
-  <RoomRequirementAllFloored>所有地板</RoomRequirementAllFloored>
+  <RoomRequirementAllFloored>鋪滿地板</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->
   <RoomRequirementAllBraziersMustBeLit>所有火盆必須點燃</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>所有合適的地板</RoomRequirementAllFineFloored>
+  <RoomRequirementAllFineFloored>鋪滿精美的地板</RoomRequirementAllFineFloored>
   <!-- EN: no work facilities allowed -->
-  <RoomRequirementNoProductionFacilities>沒有允許的生產設施</RoomRequirementNoProductionFacilities>
+  <RoomRequirementNoProductionFacilities>不可以有生產設施</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
-  <RoomRequirementNoAltars>沒有允許的祭壇</RoomRequirementNoAltars>
+  <RoomRequirementNoAltars>不可以有祭壇</RoomRequirementNoAltars>
 
 </LanguageData>

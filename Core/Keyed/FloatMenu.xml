@@ -178,7 +178,7 @@
   <!-- EN: Arrest {0} -->
   <Arrest>拘捕{0}</Arrest>
   <!-- EN: Try to arrest {1_label} ({2} chance) -->
-  <TryToArrest>試圖拘捕{1_label} (拘捕率{2})</TryToArrest>
+  <TryToArrest>試圖拘捕{1_label} ({2}成功)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>無法拘捕</CannotArrest>
   <!-- EN: {0} chance of arrest -->
@@ -432,7 +432,7 @@
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
-  <PrioritizeGeneric>優先{0}於{1}</PrioritizeGeneric>
+  <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
   
   <!-- EN: Drop at edge -->
   <DropAtEdge>放置在邊緣</DropAtEdge>

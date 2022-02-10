@@ -35,9 +35,9 @@
   <!-- EN: Relics -->
   <IdeoRelics>聖物</IdeoRelics>
   <!-- EN: Preferred apparel -->
-  <IdeoApparel>偏好服裝</IdeoApparel>
+  <IdeoApparel>服裝偏好</IdeoApparel>
   <!-- EN: apparel desire -->
-  <IdeoApparelDesire>服裝期望</IdeoApparelDesire>
+  <IdeoApparelDesire>服裝喜好</IdeoApparelDesire>
   <!-- EN: Won't do -->
   <UnwillingToDoIdeoAction>不會執行</UnwillingToDoIdeoAction>
   <!-- EN: Stats -->
@@ -97,7 +97,7 @@
   <!-- EN: Edit -->
   <Edit>修改</Edit>
   <!-- EN: Randomize symbols -->
-  <RandomizeSymbols>隨機符號</RandomizeSymbols>
+  <RandomizeSymbols>隨機圖案</RandomizeSymbols>
   <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
   <RandomizeSymbolsTooltip>隨機理念名稱、標誌、敍述、領袖頭銜和其他文字例如儀式名稱和職位名稱。這對遊戲沒有影響，諸如模因和戒律。</RandomizeSymbolsTooltip>
   <!-- EN: Click any element to edit it -->
@@ -139,15 +139,15 @@
   <!-- EN: Venerated animals -->
   <VeneratedAnimals>聖獸</VeneratedAnimals>
   <!-- EN: weapon pair -->
-  <IdeoWeapon>武器對</IdeoWeapon>
+  <IdeoWeapon>武器組合</IdeoWeapon>
   <!-- EN: Weapons -->
   <IdeoWeapons>武器</IdeoWeapons>
   <!-- EN: Swap noble and despised -->
-  <SwapNobleAndDespised>交換尊貴和討厭的</SwapNobleAndDespised>
+  <SwapNobleAndDespised>交換高尚和鄙劣的</SwapNobleAndDespised>
   <!-- EN: noble -->
-  <Noble>尊貴</Noble>
+  <Noble>高尚</Noble>
   <!-- EN: despised -->
-  <Despised>討厭</Despised>
+  <Despised>鄙劣</Despised>
   <!-- EN: Unlocked craftables -->
   <UnlockedRecipes>解鎖生產台</UnlockedRecipes>
   <!-- EN: Start with research -->
@@ -200,7 +200,7 @@
   <FluidIdeoTipGetPoinsByConversion>使某人皈依你的理念</FluidIdeoTipGetPoinsByConversion>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
-  <ResearchProjectHasDefsWithMissingMemes>{0}解鎖你無法建造的東西，因為它需求的模因不在你任何一位居民的信仰。</ResearchProjectHasDefsWithMissingMemes>
+  <ResearchProjectHasDefsWithMissingMemes>{0}也解鎖了你無法建造的東西，因為它需求的模因不在你任何一位居民的信仰中。</ResearchProjectHasDefsWithMissingMemes>
   <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
   <SelectedWorkTypeOpposedByIdeo>警告︰這類型工作違反{0_possessive}的理念，所以他可能會不高興。</SelectedWorkTypeOpposedByIdeo>
 

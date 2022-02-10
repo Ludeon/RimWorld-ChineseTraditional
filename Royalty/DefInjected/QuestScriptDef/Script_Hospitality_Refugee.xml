@@ -117,7 +117,7 @@
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> 和 [faction_name] 的所有其他成員</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] 離開</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} 感謝你允許 {FACTION_leaderObjective} 在 [questDurationTicks_duration] 裡待在 [map_definite]。 {FACTION_leaderPronoun} 現在正與 {FACTION_leaderPossessive} 一同前進。\n\n{FACTION_leaderNameDef} 說 {FACTION_leaderPronoun} 永遠不會忘記你做的這些事。</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef}感謝你允許{FACTION_leaderObjective}在 [questDurationTicks_duration]裡待在[map_definite]。{FACTION_leaderPronoun}現在正與 {FACTION_leaderPossessive}同伴一同繼續旅程。\n\n{FACTION_leaderNameDef}說{FACTION_leaderPronoun}永遠不會忘記你做的這些事。</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -264,7 +264,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->訪客報酬</li>
-    <li>rewardLetterText->[rewardGiver_nameDef] 已經聯繫過你。 [rewardDelayTicks_duration] 之前， 你在[rewardGiver_objective]十分絕望的時候給與了幫助。\n\n後來，[rewardGiver_pronoun]靠著[rewardGiver_possessive]雙腿重新站了起來， 現在 [rewardGiver_pronoun] 想要對你的幫助給與得體的報酬。 [rewardGiver_pronoun]通過空投艙向你發送了如下物資：\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef]向你發了訊息。在[rewardDelayTicks_duration]之前，你在[rewardGiver_objective]十分絕望的時候伸出援手。\n\n日子過去，[rewardGiver_pronoun]終於靠著[rewardGiver_possessive]雙腿重新站了起來，現在[rewardGiver_pronoun]想要對你的幫助給予得體的報酬。 [rewardGiver_pronoun]通過空投艙向你發送了以下物資：\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
