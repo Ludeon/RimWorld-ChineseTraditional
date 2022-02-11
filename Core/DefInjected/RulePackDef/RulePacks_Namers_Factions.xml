@@ -26,7 +26,7 @@
     <li>msyl->lite</li>
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
-    <li>r_name->[msyl][msyl] [mechhive]</li>
+    <li>r_name->[msyl][msyl][mechhive]</li>
     <li>mechhive->機械巢</li>
     <li>msyl->尼爾</li>
     <li>msyl->奧格</li>
@@ -62,11 +62,11 @@
   <NamerFactionOutlander.rulePack.rulesStrings>
     <li>r_name->[Apparel][political_union_outlander]</li>
     <li>r_name->[Apparel][political_union_outlander]</li>
-    <li>r_name->[Apparel] - [Apparel][political_union_outlander]</li>
-    <li>r_name->[Apparel] - [Apparel][political_union_outlander]</li>
-    <li>r_name->[Apparel] - [Apparel] - [Apparel][political_union_outlander]</li>
+    <li>r_name->[Apparel]-[Apparel][political_union_outlander]</li>
+    <li>r_name->[Apparel]-[Apparel][political_union_outlander]</li>
+    <li>r_name->[Apparel]-[Apparel]-[Apparel][political_union_outlander]</li>
     <li>r_name->[Direction][Apparel][political_union_outlander]</li>
-    <li>r_name->[Direction][Apparel] - [Apparel][political_union_outlander]</li>
+    <li>r_name->[Direction][Apparel]-[Apparel][political_union_outlander]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
   
   <!-- EN:
@@ -137,12 +137,12 @@
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[WordTribal] [political_union_tribal]</li>
-    <li>r_name->[WordTribal] [political_union_tribal]</li>
-    <li>r_name->[Color] [TerrainFeature] [political_union_tribal]</li>
-    <li>r_name->[political_union_tribal] 的 [WordTribal]</li>
-    <li>r_name->[Color] [Animal] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] 的 [TerrainFeature]</li>
+    <li>r_name->[WordTribal][political_union_tribal]</li>
+    <li>r_name->[WordTribal][political_union_tribal]</li>
+    <li>r_name->[Color][TerrainFeature][political_union_tribal]</li>
+    <li>r_name->[political_union_tribal]的[WordTribal]</li>
+    <li>r_name->[Color][Animal][WordTribal]</li>
+    <li>r_name->[political_union_tribal]的[TerrainFeature]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
@@ -219,15 +219,15 @@
     <li>topicalnoun->[Vegetable]</li>
     <li>topicalnoun->[Game]</li>
     <li>topicalnoun->[BodyPart]</li>
-    <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
-    <li>townname_combo->[topicalnoun] [Community]</li>
-    <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
-    <li>townname_combo->[topicalnoun]'s [Community]</li>
-    <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
-    <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
-    <li>townname_combo(p=2)->[concept_positive] [Community]</li>
-    <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
-    <li>townname_combo(p=3)->[Character]'s [Community]</li>
+    <li>townname_combo->[topicalnoun][TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun][Community]</li>
+    <li>townname_combo->[topicalnoun]'s[TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun]'s[Community]</li>
+    <li>townname_combo(p=2)->[concept_positive]'s[TerrainFeature]</li>
+    <li>townname_combo(p=2)->[concept_positive][TerrainFeature]</li>
+    <li>townname_combo(p=2)->[concept_positive][Community]</li>
+    <li>townname_combo(p=3)->[Character]'s[TerrainFeature]</li>
+    <li>townname_combo(p=3)->[Character]'s[Community]</li>
     <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
     <li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
     <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
@@ -309,15 +309,15 @@
     <li>r_name->[townname_wordgen]</li>
     <li>topicalnoun->[Game]</li>
     <li>topicalnoun->[BodyPart]</li>
-    <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
-    <li>townname_combo->[topicalnoun] [Community]</li>
-    <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
-    <li>townname_combo->[topicalnoun]'s [Community]</li>
-    <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
-    <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
-    <li>townname_combo(p=2)->[concept_positive] [Community]</li>
-    <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
-    <li>townname_combo(p=3)->[Character]'s [Community]</li>
+    <li>townname_combo->[topicalnoun][TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun][Community]</li>
+    <li>townname_combo->[topicalnoun]'s[TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun]'s[Community]</li>
+    <li>townname_combo(p=2)->[concept_positive]'s[TerrainFeature]</li>
+    <li>townname_combo(p=2)->[concept_positive][TerrainFeature]</li>
+    <li>townname_combo(p=2)->[concept_positive][Community]</li>
+    <li>townname_combo(p=3)->[Character]'s[TerrainFeature]</li>
+    <li>townname_combo(p=3)->[Character]'s[Community]</li>
     <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
     <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
     <li>nearnameinitial->[townname_wordgen]</li>

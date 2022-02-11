@@ -111,7 +111,7 @@
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{1}的{0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>此操作將讓{PAWN_nameDef}失去{PAWN_possessive} {TITLE}頭銜。放棄頭銜不會獲得任何補償。\n\n這將會產生以下影響:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>此操作將讓{PAWN_nameDef}失去{PAWN_possessive}{TITLE}頭銜。放棄頭銜不會獲得任何補償。\n\n這將會產生以下影響:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_possessive}將失去這些權限</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
@@ -325,7 +325,7 @@
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift+左鍵：全選\nShift+右鍵：全部取消</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{0}{1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>需要技能</SkillRequirements>
   <!-- EN: Products -->
@@ -419,7 +419,7 @@
   <!-- EN: items -->
   <ItemsLower>物品</ItemsLower>
   <!-- EN: {0} x{1} -->
-  <FilthLabel>{0} x{1}</FilthLabel>
+  <FilthLabel>{0}x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>{1}的{0}x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
@@ -501,9 +501,9 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>平常友好度範圍</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>平常友好度基於派系的身份和理念。如果當前友好度與平常友好度差距太大，會隨著時間慢慢推向平常友好度。當推向平常有好度時，友好度的效果為 {0}。</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>平常友好度基於派系的身份和理念。如果當前友好度與平常友好度差距太大，會隨著時間慢慢推向平常友好度。當推向平常有好度時，友好度的效果為{0}。</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
-  <JobReport_ReduceResistance>化解 {0_nameIndef} 的心房</JobReport_ReduceResistance>
+  <JobReport_ReduceResistance>化解{0_nameIndef}的心房</JobReport_ReduceResistance>
   <!-- EN: Too large -->
   <TooLargeForBed>過大</TooLargeForBed>
   <!-- EN: Warning -->
@@ -625,7 +625,7 @@
   <!-- EN: Rename pen -->
   <RenameAnimalPen>重新命名飼養圈</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
-  <AnimalPenMarkerDefaultLabel>飼養圈標誌 {0}</AnimalPenMarkerDefaultLabel>
+  <AnimalPenMarkerDefaultLabel>飼養圈標誌{0}</AnimalPenMarkerDefaultLabel>
   <!-- EN: In pen -->
   <InPen>在飼養圈中</InPen>
   <!-- EN: not in a pen -->
@@ -651,7 +651,7 @@
   <!-- EN: Not enclosed - build fences -->
   <PenSizeDesc_Unenclosed>尚未圍住 - 建造柵欄</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>{ANIMALDEF_label} 數量</PenCapacityDesc>
+  <PenCapacityDesc>{ANIMALDEF_label}數量</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>動物樣本</PenExampleAnimals>
 
@@ -878,7 +878,7 @@
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>未連結電源。</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>電網發電量/儲電量：{0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>電網發電量/儲電量：{0}W /{1}Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>電力需求</PowerNeeded>
   <!-- EN: Power output -->
@@ -1360,15 +1360,15 @@
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
-  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
+  <PawnTooltipWithDescAndPrimaryEquip>{0}({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
   <!-- EN: {0} ({1})\n{2} -->
-  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
+  <PawnTooltipWithDescNoPrimaryEquip>{0}({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
   <!-- EN: {0}\n{1}\n{2} -->
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>神經超載： {0} / {1} \n下降率： {2} /秒 ( {3} 秒後歸零)</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>神經超載：{0}/{1}\n下降率：{2}/秒 ({3}秒後歸零)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>心靈施放後會導致神經超載。超過極限時可能會導致數天的精神崩潰。\n\n神經超載會隨著時間恢復。穿上心靈衣物或感受疼痛可加快恢復速度。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
@@ -1380,7 +1380,7 @@
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{0}{1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
@@ -1388,15 +1388,15 @@
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_WalkIn>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將抵達並加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將加入 {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>運輸艙會把以下資源送達(總價值 {1})：\n{0}</Reward_Items>
+  <Reward_Items>運輸艙會把以下資源送達(總價值{1})：\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>你會收到(總價值 {1} )：\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>你會收到(總價值{1})：\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>你與{0_name}的派系友好度會提昇 {1} </Reward_Goodwill>
+  <Reward_Goodwill>你與{0_name}的派系友好度會提昇{1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
   <Reward_PassageOffworld>您將進入星空</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
@@ -1444,7 +1444,7 @@
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>{0} 生物鎖</Biocoded>
+  <Biocoded>{0}生物鎖</Biocoded>
   <!-- EN: Biocoding: {0} -->
   <CodedFor>生物鎖：{0}</CodedFor>
   <!-- EN: biocoded -->
@@ -1533,7 +1533,7 @@
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>最近進行的</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <RitualQualityExpectations>{0} 期望</RitualQualityExpectations>
+  <RitualQualityExpectations>{0}期望</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>儀式氛圍音</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
@@ -1595,7 +1595,7 @@
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>{0}品質</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{OUTCOMELABEL}{RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>上限{0}</MaxValue>
 
@@ -1612,7 +1612,7 @@
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>能力已佇列。</AbilityAlreadyQueued>
   <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>準備就緒: {0}</AbilityReadyLabel>
+  <AbilityReadyLabel>準備就緒:{0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef}已準備使用{1}。</AbilityReadyText>
 

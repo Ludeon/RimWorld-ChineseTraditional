@@ -3,9 +3,9 @@
 
   <!-- Royal titles -->
   <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
-  <LetterLabelLostRoyalTitle>{TITLE}頭銜丟失: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
+  <LetterLabelLostRoyalTitle>{TITLE}頭銜丟失:{PAWN_labelShort}</LetterLabelLostRoyalTitle>
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
-  <LetterLabelGainedRoyalTitle>{TITLE}頭銜獲得: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
+  <LetterLabelGainedRoyalTitle>{TITLE}頭銜獲得:{PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
   <!-- EN: Permit points awarded: {0}. -->
   <PermitPointsAwarded>許可點數獎勵：{0}</PermitPointsAwarded>
@@ -27,7 +27,7 @@
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>頭銜獎勵</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
-  <LetterRewardsForNewTitle> 因{PAWN_labelShort}有所作為，受封為 {TITLE}, 來自{FACTION_name}的獎勵{PAWN_objective}已經送達:</LetterRewardsForNewTitle>
+  <LetterRewardsForNewTitle> 因{PAWN_labelShort}有所作為，受封為{TITLE}, 來自{FACTION_name}的獎勵{PAWN_objective}已經送達:</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>獎勵已透過運輸艙送達你的殖民地。</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
@@ -88,19 +88,19 @@
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
   <LetterTitleInheritance_Base>自從{PAWN_nameFull}逝世後，{PAWN_possessive}頭銜已根據授予頭銜的派系之律法傳授給{PAWN_possessive}繼承人。</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
-  <LetterTitleInheritance_AsReplacement>根據{FACTION_name}的繼承規則，{PAWN_possessive} {TITLE}頭銜均由{HEIR_nameFull}來繼承。取代了{HEIR_possessive} {REPLACEDTITLE}頭銜。</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>根據{FACTION_name}的繼承規則，{PAWN_possessive}{TITLE}頭銜均由{HEIR_nameFull}來繼承。取代了{HEIR_possessive}{REPLACEDTITLE}頭銜。</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>根據{FACTION_name}的繼承規則，{PAWN_possessive} {TITLE}頭銜由{HEIR_nameFull}來繼承。但是{HEIR_pronoun}已擁有了{HIGHERTITLE}頭銜。</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>根據{FACTION_name}的繼承規則，{PAWN_possessive}{TITLE}頭銜由{HEIR_nameFull}來繼承。但是{HEIR_pronoun}已擁有了{HIGHERTITLE}頭銜。</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>根據{FACTION_name}的繼承法， {PAWN_possessive}{TITLE}頭銜將在完成授予儀式之後由{HEIR_nameFull}繼承。</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>根據{FACTION_name}的繼承法，{PAWN_possessive}{TITLE}頭銜將在完成授予儀式之後由{HEIR_nameFull}繼承。</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
   <LetterTitleInheritance_NoHeirFound>{PAWN_possessive}{TITLE}頭銜未被任何人繼承，因為{PAWN_pronoun}沒有指定該頭銜的繼承人。</LetterTitleInheritance_NoHeirFound>
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
-  <LetterLawViolationDetectedLabel>違法者: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
+  <LetterLawViolationDetectedLabel>違法者:{PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}檢測到{PAWN_labelShort}被非法使用: {CULPRIT} (detection chance {CHANCE}).\n\n根據{FACTION_name}的法律，只有擁有{TITLE}頭銜的人才能使用{CULPRIT}。\n\n作為懲罰，與你的派系關係下降了{GOODWILL}。</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}檢測到{PAWN_labelShort}被非法使用:{CULPRIT}(detection chance{CHANCE}).\n\n根據{FACTION_name}的法律，只有擁有{TITLE}頭銜的人才能使用{CULPRIT}。\n\n作為懲罰，與你的派系關係下降了{GOODWILL}。</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
@@ -146,9 +146,9 @@
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>獲得心靈連結</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort}已獲得{USER_possessive}的第一級心靈連結！ {USER_pronoun}現在是一個心靈能力者。\n\n要使用心靈能力，{USER_labelShort}必須通過冥想來建立精神力。如果人們在冥想時可以專注於特定的物體，可以提高冥想的效率。\n\n不同的人可以專注於不同的物體。這取決於此人的背景、特徵和頭銜。例如：\n\n-擁有榮譽頭銜的心靈能力者冥想於王座上。\n-有部落童年的心靈能力者冥想於生物和自然神社。\n-苦行主義的心靈能力者在對著空白牆壁冥想。心理病態的心靈能力者會冥想於墳墓。\n\n你可以通過使用"i"按鈕看某人的訊息來查看他們的冥想焦點類型。</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort}已獲得{USER_possessive}的第一級心靈連結！{USER_pronoun}現在是一個心靈能力者。\n\n要使用心靈能力，{USER_labelShort}必須通過冥想來建立精神力。如果人們在冥想時可以專注於特定的物體，可以提高冥想的效率。\n\n不同的人可以專注於不同的物體。這取決於此人的背景、特徵和頭銜。例如：\n\n-擁有榮譽頭銜的心靈能力者冥想於王座上。\n-有部落童年的心靈能力者冥想於生物和自然神社。\n-苦行主義的心靈能力者在對著空白牆壁冥想。心理病態的心靈能力者會冥想於墳墓。\n\n你可以通過使用"i"按鈕看某人的訊息來查看他們的冥想焦點類型。</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}獲得了更高級的心靈連結！ {USER_pronoun}現在可以使用更高等級的心靈能力，但是{USER_pronoun}首先需要學習它們。</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}獲得了更高級的心靈連結！{USER_pronoun}現在可以使用更高等級的心靈能力，但是{USER_pronoun}首先需要學習它們。</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>在獲得新的心靈連結等級後，{USER_labelShort}自動學會了這個心靈能力：{2}。</LetterPsylinkLevelGained_PsycastLearned>
   
