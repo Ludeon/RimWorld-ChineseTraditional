@@ -24,7 +24,7 @@
     <li>disease->傷口感染</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]需要一些人手來幫忙[dutyRoyalDescription]。\n\n[asker_pronoun]請求你派遣[colonistCountToLend]去為[asker_objective]服務[lendForDays]天。\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->一位殖民者</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount]殖民者</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount]位殖民者</li>
     <li>willSendShuttle->[asker_pronoun]將發送太空梭接送[colonists].</li>
     <li>colonists(colonistsToLendCount==1)->殖民者</li>
     <li>colonists(colonistsToLendCount>1)->殖民者</li>
