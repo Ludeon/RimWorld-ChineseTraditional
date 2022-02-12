@@ -199,7 +199,7 @@
     <li>terrain_word(p=0.3)->loch</li>
   -->
   <NamerLake.rulePack.rulesStrings>
-    <li>r_name->lake [narrative_name]</li>
+    <li>r_name->lake[narrative_name]</li>
     <li>terrain_word->湖</li>
     <li>terrain_word->湖</li>
     <li>terrain_word->湖</li>
@@ -219,7 +219,7 @@
     <li>terrain_word->cliffs</li>
   -->
   <NamerMountainRange.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->mount [narrative_name]</li>
+    <li>r_name(p=0.2)->mount[narrative_name]</li>
     <li>terrain_word(p=5)->山</li>
     <li>terrain_word(p=2)->峰</li>
     <li>terrain_word->山</li>
@@ -247,7 +247,7 @@
     <li>terrain_word->expanse</li>
   -->
   <NamerOcean.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
+    <li>r_name(p=0.4)->[ocean_adjective][narrative_name]</li>
     <li>ocean_adjective-></li>
     <li>ocean_adjective-></li>
     <li>ocean_adjective-></li>
@@ -356,7 +356,7 @@
     <li>terrain_word->tangle</li>
   -->
   <NamerTropicalRainforest.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+    <li>r_name(p=0.3)->[rainforest_adjective][narrative_name]</li>
     <li>rainforest_adjective-></li>
     <li>rainforest_adjective-></li>
     <li>rainforest_adjective-></li>

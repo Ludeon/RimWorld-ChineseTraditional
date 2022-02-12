@@ -52,7 +52,7 @@
     <li>action->[INITIATOR_definite]用[implement][tried][damaged_inf]傷[RECIPIENT_definite]</li>
     <li>action->[INITIATOR_definite]對[RECIPIENT_definite]揮舞[WEAPON_label]</li>
     <li>action(p=0.3)->[INITIATOR_definite][towardsat][RECIPIENT_definite][verb_genericattack]著[implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite][verb_genericattack][towardsat][RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite][verb_genericattack]著[implement]</li>
     <li>towardsat->對</li>
     <li>towardsat->朝</li>
@@ -222,8 +222,8 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
   <Combat_SkillIncludes.rulePack.rulesStrings>
-    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
-    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>skillDescMelee->[wielding][INITIATOR_possessive][WEAPON_label][skillAdv]</li>
+    <li>skillDescMelee->[using][implement][skillAdv]</li>
     <li>wielding(p=4)->拿著</li>
     <li>wielding(p=3)->用著</li>
     <li>wielding(p=2)->握著</li>

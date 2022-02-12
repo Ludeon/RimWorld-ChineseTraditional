@@ -5,13 +5,13 @@
   <!-- EN: Satisfies title -->
   <ThroneMaxSatisfiedTitle>符合頭銜</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
-  <ThroneRoomImpressivenessInfo>({0} 印象深刻)</ThroneRoomImpressivenessInfo>
+  <ThroneRoomImpressivenessInfo>({0}印象深刻)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>王座必須放在室內。</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>最低頭銜 ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <MinimumRoyalTitleInspectString>最低頭銜 ({FACTION_name}):{TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
-  <RequiresTradePermission>在這裡交易需要頭銜: {0}</RequiresTradePermission>
+  <RequiresTradePermission>在這裡交易需要頭銜:{0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
   <RequirementPersonalBedroom>私人臥室(允許伴侶)</RequirementPersonalBedroom>
   
@@ -62,23 +62,23 @@
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>聚焦效果受影響於</MeditationFocusImpacted>
   <!-- EN: {1} per nearby animus stone (max {0}) -->
-  <MeditationFocusPerAnimusStoneAbstract>{1} 附近每有一塊法石（最高{0}）</MeditationFocusPerAnimusStoneAbstract>
+  <MeditationFocusPerAnimusStoneAbstract>{1}附近每有一塊法石（最高{0}）</MeditationFocusPerAnimusStoneAbstract>
   <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
-  <MeditationFocusPerAnimusStone>{2} 附近每有一塊法石（{0}/{1}）</MeditationFocusPerAnimusStone>
+  <MeditationFocusPerAnimusStone>{2}附近每有一塊法石（{0}/{1}）</MeditationFocusPerAnimusStone>
   <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
-  <MeditationFocusPerAnimusStoneAndShrineAbstract>附近每有一塊法石 {2}， 自然聖地 {1} （最高{0}）</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>附近每有一塊法石{2}， 自然聖地{1}（最高{0}）</MeditationFocusPerAnimusStoneAndShrineAbstract>
   <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
-  <MeditationFocusPerAnimusStoneAndShrine>附近每有一塊法石 {3}， 自然聖地 {2} （{0} / {1}）</MeditationFocusPerAnimusStoneAndShrine>
+  <MeditationFocusPerAnimusStoneAndShrine>附近每有一塊法石{3}， 自然聖地{2}（{0}/{1}）</MeditationFocusPerAnimusStoneAndShrine>
   <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
-  <MeditationFocusPerSculptureAbstract>最多{1} 附近每有一個雕塑，包含品質因素（最高{0}）</MeditationFocusPerSculptureAbstract>
+  <MeditationFocusPerSculptureAbstract>最多{1}附近每有一個雕塑，包含品質因素（最高{0}）</MeditationFocusPerSculptureAbstract>
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
-  <MeditationFocusPerSculpture>最多{2} 附近每有一個雕塑，包含品質因素（{0}/{1}）</MeditationFocusPerSculpture>
+  <MeditationFocusPerSculpture>最多{2}附近每有一個雕塑，包含品質因素（{0}/{1}）</MeditationFocusPerSculpture>
   <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
   <MeditationFocusPerGraveAbstract>附近每有一個墳墓，{1}空的，{2}包含人類屍體（最高{0}）</MeditationFocusPerGraveAbstract>
   <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
   <MeditationFocusPerGrave>附近每有一個墳墓，{2}空的，{3}包含人類屍體（{0}/{1}）</MeditationFocusPerGrave>
   <!-- EN: {1} per nearby lit flame source (up to {0}) -->
-  <MeditationFocusPerFlameAbstract>{1} 附近每個點燃的火源（最高{0}）</MeditationFocusPerFlameAbstract>
+  <MeditationFocusPerFlameAbstract>{1}附近每個點燃的火源（最高{0}）</MeditationFocusPerFlameAbstract>
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
   <MeditationFocusPerFlame>{2}附近每個點燃的火源（{0}/{1}）</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
@@ -121,9 +121,9 @@
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>開始連結儀式</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>這裡需要{0} {1}（擁有{2}）</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>這裡需要{0}{1}（擁有{2}）</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
-  <BeginLinkingRitualNeedFocus>需要{0} 心靈連結焦點類型</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualNeedFocus>需要{0}心靈連結焦點類型</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
   <BeginLinkingRitualMaxPsylinkLevel>最大心靈連結等級</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
@@ -131,7 +131,7 @@
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>連結儀式完成</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}已完成與{LINKABLE_labelShort}的連結儀式。\n\n {PAWN_pronoun}現在具有升級的心靈連結，允許使用新的心靈能力。</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}已完成與{LINKABLE_labelShort}的連結儀式。\n\n{PAWN_pronoun}現在具有升級的心靈連結，允許使用新的心靈能力。</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
   <LetterTextLinkingRitualCompletedAnimaGrass>此外，{0}生命之草已經恢復。</LetterTextLinkingRitualCompletedAnimaGrass>
 

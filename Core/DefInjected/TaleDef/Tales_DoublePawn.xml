@@ -32,7 +32,7 @@
     <li>tale_noun->[CAPTURER_nameDef]俘獲了[PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef]被[CAPTURER_nameDef]俘虜了</li>
     <li>tale_noun->俘獲[PRISONER_nameDef]</li>
-    <li>image->[CAPTURER_nameFull][circumstance_group]俘獲了[PRISONER_nameFull] </li>
+    <li>image->[CAPTURER_nameFull][circumstance_group]俘獲了[PRISONER_nameFull]</li>
     <li>image->[CAPTURER_nameFull][circumstance_group]捆綁住[PRISONER_nameFull]的雙手</li>
     <li>image->[CAPTURER_nameFull][circumstance_group]俘虜並毆打[PRISONER_nameFull]</li>
     <li>circumstance_phrase->趁[PRISONER_pronoun]摔倒在地時</li>
@@ -175,7 +175,7 @@
     <li>tale_noun->[HUNTER_nameDef]狩獵成功</li>
     <li>image->[circumstance_group]被[HUNTER_nameFull]狩獵了</li>
     <li>image->[HUNTER_nameFull]趁[circumstance_group]從遠處悄悄接近[PREY_nameFull]</li>
-    <li>image->[HUNTER_nameFull]趁[circumstance_group]狩獵了[PREY_nameFull] </li>
+    <li>image->[HUNTER_nameFull]趁[circumstance_group]狩獵了[PREY_nameFull]</li>
     <li>circumstance_phrase->[PREY_nameDef]放鬆警惕時</li>
     <li>circumstance_phrase->[PREY_nameDef]遷徙時</li>
     <li>circumstance_phrase->[PREY_nameDef]覓食時</li>
@@ -264,11 +264,11 @@
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef]殺了</li>
     <li>tale_noun->[KILLER_nameDef]出手殺死[VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef]之死</li>
-    <li>image->[VICTIM_nameFull] being killed by [KILLER_nameFull] [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] killing [VICTIM_nameFull] [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] ending [VICTIM_nameFull]'s life [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] brutally murdering [VICTIM_nameFull] [circumstance_group]</li>
-    <li>image->[VICTIM_nameFull] being killed [circumstance_group]</li>
+    <li>image->[VICTIM_nameFull]being killed by[KILLER_nameFull][circumstance_group]</li>
+    <li>image->[KILLER_nameFull]killing[VICTIM_nameFull][circumstance_group]</li>
+    <li>image->[KILLER_nameFull]ending[VICTIM_nameFull]'s life[circumstance_group]</li>
+    <li>image->[KILLER_nameFull]brutally murdering[VICTIM_nameFull][circumstance_group]</li>
+    <li>image->[VICTIM_nameFull]being killed[circumstance_group]</li>
     <li>circumstance_phrase->毫無悲憫的</li>
     <li>circumstance_phrase->冷酷的</li>
     <li>circumstance_phrase->憤怒而激動的</li>
@@ -360,7 +360,7 @@
     <li>tale_noun->[SELLER_nameDef]將[PRISONER_nameDef]賣為奴隸</li>
     <li>tale_noun->[PRISONER_nameDef]被[SELLER_nameDef]賣為奴隸</li>
     <li>image->[TRADER_nameFull][circumstance_group]從[SELLER_nameFull]手上買下了[PRISONER_nameFull]</li>
-    <li>image->[SELLER_nameFull] selling [PRISONER_nameFull] to [TRADER_nameFull] [circumstance_group]</li>
+    <li>image->[SELLER_nameFull]selling[PRISONER_nameFull]to[TRADER_nameFull][circumstance_group]</li>
     <li>circumstance_phrase->在其他殖民者的反對之下</li>
     <li>circumstance_phrase->在[SELLER_nameDef]點著[TRADER_possessive]錢的同時</li>
     <li>circumstance_phrase->在[PRISONER_nameDef]悲傷的嗚咽聲中</li>
@@ -401,7 +401,7 @@
     <li>tale_noun->[ANIMAL_nameDef]被[TAMER_nameDef]馴服</li>
     <li>tale_noun->[TAMER_nameDef]馴服了[ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull][circumstance_group]馴服了[ANIMAL_nameFull]</li>
-    <li>image->[TAMER_nameFull][circumstance_group]提供了[一些食物給[ANIMAL_nameFull] </li>
+    <li>image->[TAMER_nameFull][circumstance_group]提供了[一些食物給[ANIMAL_nameFull]</li>
     <li>image->[TAMER_nameFull][circumstance_group]對[ANIMAL_nameFull]低語呢喃</li>
     <li>image->[TAMER_nameFull][circumstance_group]安撫了[ANIMAL_nameFull]</li>
     <li>circumstance_phrase->細心謹慎的</li>
@@ -489,8 +489,8 @@
     <li>tale_noun->[ANIMAL_nameDef]的訓練</li>
     <li>tale_noun->[TRAINER_nameDef]對[ANIMAL_nameDef]的訓練</li>
     <li>image->[TRAINER_nameFull][circumstance_group][train_syn][ANIMAL_nameFull][TRAINABLE_label]</li>
-    <li>image->[TRAINER_nameFull] teaching [TRAINABLE_label] to [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TRAINER_nameFull] practicing [TRAINABLE_label] with [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TRAINER_nameFull]teaching[TRAINABLE_label]to[ANIMAL_nameFull][circumstance_group]</li>
+    <li>image->[TRAINER_nameFull]practicing[TRAINABLE_label]with[ANIMAL_nameFull][circumstance_group]</li>
     <li>train_syn->訓練</li>
     <li>train_syn->訓練</li>
     <li>train_syn->訓練</li>

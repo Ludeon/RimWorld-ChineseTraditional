@@ -6,8 +6,8 @@
     <li>decreeThreatInfo->If you fail to fulfill this decree within [decreeDays] days, [asker_nameDef] will start to become unhappy. [asker_possessive] anger will increase over time until the decree is satisfied.</li>
   -->
   <DecreeSetup.questDescriptionRules.rulesStrings>
-    <li>decreeIntro->[asker_bestRoyalTitle] [asker_nameDef]下達了一條指令.</li>
-    <li>decreeThreatInfo-> 如果你未在 [decreeDays] 天內奉行旨意, [asker_nameDef] 將會變得不開心。\n\n[asker_possessive] 的怒氣會隨時間增加，直到你完成指令。</li>
+    <li>decreeIntro->[asker_bestRoyalTitle][asker_nameDef]下達了一條指令.</li>
+    <li>decreeThreatInfo-> 如果你未在[decreeDays]天內奉行旨意,[asker_nameDef]將會變得不開心。\n\n[asker_possessive]的怒氣會隨時間增加，直到你完成指令。</li>
   </DecreeSetup.questDescriptionRules.rulesStrings>
   <!-- EN: [asker_nameDef]'s decree forgotten -->
   <DecreeSetup.LetterLabelDecreeForgotten.slateRef>[asker_nameDef]的指令被遺忘</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
@@ -16,6 +16,6 @@
   <!-- EN: Decree cancelled -->
   <DecreeSetup.LetterLabelDecreeCancelled.slateRef>指令取消</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
   <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
-  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef]勉強取消了“ [resolvedQuestName]”指令，因為它無法完成。</DecreeSetup.LetterTextDecreeCancelled.slateRef>
+  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef]勉強取消了“[resolvedQuestName]”指令，因為它無法完成。</DecreeSetup.LetterTextDecreeCancelled.slateRef>
   
 </LanguageData>
