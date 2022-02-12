@@ -189,23 +189,23 @@
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>必須在這些mod之前載入: {0}。</ModMustLoadBefore>
+  <ModMustLoadBefore>必須在這些mod之前載入:{0}。</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>必須在這些mod之後載入: {0}。</ModMustLoadAfter>
+  <ModMustLoadAfter>必須在這些mod之後載入:{0}。</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
-  <ModDependsOn>必要的: {0}</ModDependsOn>
+  <ModDependsOn>必要的:{0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
-  <ModIncompatibleWith>不兼容: {0}</ModIncompatibleWith>
+  <ModIncompatibleWith>不兼容:{0}</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
-  <ModIncompatibleWithTip>與這個MOD不兼容的有: {0}。</ModIncompatibleWithTip>
+  <ModIncompatibleWithTip>與這個MOD不兼容的有:{0}。</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
   <ModOrderingWarning>相對於另一個mod，此mod載入順序錯誤。使用「自動排序」按鈕，或手動重新排列MOD組模。</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
-  <ModWithSameIdAlreadyActive>另一個啟動的mod使用了相同的ID: {0}。</ModWithSameIdAlreadyActive>
+  <ModWithSameIdAlreadyActive>另一個啟動的mod使用了相同的ID:{0}。</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>與{0}產生了循環依賴。</ModCyclicDependency>
   <!-- EN: This requires following mods to work: {0}. -->
-  <ModUnsatisfiedDependency>這需要以下MOD組模才能運行: {0}。</ModUnsatisfiedDependency>
+  <ModUnsatisfiedDependency>這需要以下MOD組模才能運行:{0}。</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
@@ -549,9 +549,9 @@
   <!-- EN: age {0} -->
   <AgeIndicator>年齡：{0}</AgeIndicator>
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummary>{PAWN_race}, 年齡 {PAWN_ageFull}</PawnSummary>
+  <PawnSummary>{PAWN_race}, 年齡{PAWN_ageFull}</PawnSummary>
   <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, 年齡 {PAWN_ageFull}</PawnSummaryWithGender>
+  <PawnSummaryWithGender>{PAWN_gender}{PAWN_race}, 年齡{PAWN_ageFull}</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>背景故事</Backstory>
   <!-- EN: Incapable of -->
@@ -658,7 +658,7 @@
   <!-- EN: Maximum {0} visible factions allowed. -->
   <TotalFactionsAllowed>最多允許{0}個現有派系。</TotalFactionsAllowed>
   <!-- EN: There can be no more than {0} {1}. -->
-  <MaxFactionsForType>不可以超過{0} {1}。</MaxFactionsForType>
+  <MaxFactionsForType>不可以超過{0}{1}。</MaxFactionsForType>
   <!-- EN: Restore defaults -->
   <ResetFactionsToDefault>恢復預設值</ResetFactionsToDefault>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->

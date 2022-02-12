@@ -200,7 +200,7 @@
   <!-- EN: Map size -->
   <MapSize>地圖大小</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
-  <MapSizeDesc>{0}x{0} ({1}個方格)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0}({1}個方格)</MapSizeDesc>
   <!-- EN: Small -->
   <MapSizeSmall>小</MapSizeSmall>
   <!-- EN: Medium -->
@@ -457,9 +457,9 @@
   <!-- EN: Never safe -->
   <NeverSafe>不安全</NeverSafe>
   <!-- EN: {0} / day -->
-  <PerDay>{0} / 天</PerDay>
+  <PerDay>{0}/ 天</PerDay>
   <!-- EN: {0} / hour -->
-  <PerHour>{0} / 小時</PerHour>
+  <PerHour>{0}/ 小時</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>貨運動物</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -531,11 +531,11 @@
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>此物件提供的冥想專注類型。冥想的人可以專注在一個物件上，以改善精神力的成長，但前提是他們能夠使用的冥想類型。 每個人可以使用的冥想類型取決於他們的背景，特性，社會地位等。</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
-  <MeditationFocusCanUse>可以使用 {0} 的集中類型，因為</MeditationFocusCanUse>
+  <MeditationFocusCanUse>可以使用{0}的集中類型，因為</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
-  <MeditationFocusObjects>{0} 專注物件</MeditationFocusObjects>
+  <MeditationFocusObjects>{0}專注物件</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
-  <MeditationFocusEnabledByTitle>擁有的頭銜： {TITLE} ( {FACTION_name} )。</MeditationFocusEnabledByTitle>
+  <MeditationFocusEnabledByTitle>擁有的頭銜：{TITLE}({FACTION_name})。</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
   <MeditationFocusEnabledByChildhood>童年的冥想專注</MeditationFocusEnabledByChildhood>
   <!-- EN: has adulthood -->
@@ -665,7 +665,7 @@
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的殖民者無法抵達出口位置({0})。</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
-  <CaravanRoamerCannotReachSpots>{1_labelShort} 在任何指派的殖民者帶領下，無法到達裝卸點或出口位置。</CaravanRoamerCannotReachSpots>
+  <CaravanRoamerCannotReachSpots>{1_labelShort}在任何指派的殖民者帶領下，無法到達裝卸點或出口位置。</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>沒有任何被指派的殖民者能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -1039,7 +1039,7 @@
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0}必須瞄準可移動區域。</AbilityUnwalkable>
   <!-- EN: {0} must target an unroofed area. -->
-  <AbilityRoofed>{0} 必須瞄準無屋頂區域。</AbilityRoofed>
+  <AbilityRoofed>{0}必須瞄準無屋頂區域。</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_labelShort}精神崩潰了。</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
@@ -1047,13 +1047,13 @@
   <!-- EN: {0_labelShort} is not maddened. -->
   <AbilityCanOnlyApplyToManhunter>{0_labelShort}沒有陷入瘋狂</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <AbilityCantApplyToScaria>{0_labelShort} 患有狂亂症，只能透過藥物治療。</AbilityCantApplyToScaria>
+  <AbilityCantApplyToScaria>{0_labelShort}患有狂亂症，只能透過藥物治療。</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0}無法作用於'{1}'精神狀態。</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort}已經毫無抵抗。</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
-  <AbilityCantApplyDowned>{0_labelShort} 被擊倒。</AbilityCantApplyDowned>
+  <AbilityCantApplyDowned>{0_labelShort}被擊倒。</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>無法使用：{0}無性。</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
@@ -1069,7 +1069,7 @@
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
   <AbilityMustBeSameIdeo>{0_labelShort}必須與{1_labelShort}有相同的理念。</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
-  <AbilityMustBeSickOrInjured>{0_labelShort}必須是生病或受傷。</AbilityMustBeSickOrInjured>
+  <AbilityMustBeSickOrInjured>{0_labelShort}必須是生病或受傷的人。</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
   <AbilityMustBeSameIdeoCounsel>{0}只能審議{1}。</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->

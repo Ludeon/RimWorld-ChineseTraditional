@@ -28,8 +28,8 @@
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
     <li>failLetterEndingCommon->你未完成任務'[resolvedQuestName]'.</li>
     <li>successLetterEndingCommon->你已成功完成任務'[resolvedQuestName]'.</li>
-    <li>goodwillSomeCiviliansLost->並非所有[asker_faction_pawnSingular] [pawnLabel]都存活下來。[goodwillNegativelyAffected]</li>
-    <li>goodwillAllCiviliansLost->所有的[asker_faction_pawnSingular] [pawnLabelPlural]都沒存活下來。[goodwillNegativelyAffected]</li>
+    <li>goodwillSomeCiviliansLost->並非所有[asker_faction_pawnSingular][pawnLabel]都存活下來。[goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->所有的[asker_faction_pawnSingular][pawnLabelPlural]都沒存活下來。[goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Your goodwill with 每個未能返回的[pawnLabel]都會使[asker_faction_name]對你的好感下降。</li>
     <li>commanderLandingDesc->把太空梭迫降在[map_definite]的指揮官[asker_nameDef]</li>
     <li>raidArrivedLetterLabel->襲擊：[enemyFaction_name]</li>
@@ -71,7 +71,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->一艘[asker_faction_name]的太空梭受損，正在尋找著陸位置。太空梭指揮官[asker_nameDef]希望能降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]會攻擊墜毀的太空梭並殺死其中的乘客。你必須保護他們。\n\n太空梭的乘客包含 [asker_nameDef][andOtherCivilians] 和 [soldiers0_kind] x[soldiers_count]。[soldiers0_kind]死了無妨，但指揮者[andCivilians]必須存活。\n\n在[rescueDelay_duration]之後，會有一艘太空梭來接倖存者。你需要在[leaveDelay_duration]內讓他們登上太空梭。</li>
+    <li>questDescription->一艘[asker_faction_name]的太空梭受損，正在尋找著陸位置。太空梭指揮官[asker_nameDef]希望能降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]會攻擊墜毀的太空梭並殺死其中的乘客。你必須保護他們。\n\n太空梭的乘客包含[asker_nameDef][andOtherCivilians]和[soldiers0_kind]x[soldiers_count]。[soldiers0_kind]死了無妨，但指揮者[andCivilians]必須存活。\n\n在[rescueDelay_duration]之後，會有一艘太空梭來接倖存者。你需要在[leaveDelay_duration]內讓他們登上太空梭。</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->，[pawnLabel]</li>
     <li>andOtherCivilians(civilians_count>=3)->，[civilianCountMinusOne]，其他[pawnLabelSingleOrPlural]</li>

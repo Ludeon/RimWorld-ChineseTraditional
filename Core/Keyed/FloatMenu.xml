@@ -36,7 +36,7 @@
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>反對暴力</IncapableOfViolenceLower>
   <!-- EN: {0_labelShort} is incapable of shooting -->
-  <IsIncapableOfShootingLower>{0_labelShort} 無法射擊。</IsIncapableOfShootingLower>
+  <IsIncapableOfShootingLower>{0_labelShort}無法射擊。</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
   <IsNotDraftedLower>{1_labelShort}未受徵召</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
@@ -58,7 +58,7 @@
   <!-- EN: burying -->
   <Burying>掩埋</Burying>
   <!-- EN: designated for {0} -->
-  <DesignatedFor>指派為 {0}</DesignatedFor>
+  <DesignatedFor>指派為{0}</DesignatedFor>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>禁止的</ForbiddenLower>
@@ -178,11 +178,11 @@
   <!-- EN: Arrest {0} -->
   <Arrest>拘捕{0}</Arrest>
   <!-- EN: Try to arrest {1_label} ({2} chance) -->
-  <TryToArrest>試圖拘捕{1_label} ({2}成功)</TryToArrest>
+  <TryToArrest>試圖拘捕{1_label}({2}成功)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>無法拘捕</CannotArrest>
   <!-- EN: {0} chance of arrest -->
-  <ArrestChance>被拘捕機率 {0}</ArrestChance>
+  <ArrestChance>被拘捕機率{0}</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
   <Capture>俘虜{1_label}</Capture>
@@ -277,7 +277,7 @@
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUpSome>無法撿起{1_labelShort}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
-  <MaxPickUpAllowed>允許{0} {1}</MaxPickUpAllowed>
+  <MaxPickUpAllowed>允許{0}{1}</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>無法將{1_label}裝載至貨運動物</CannotGiveToPackAnimal>
@@ -497,9 +497,9 @@
   <NoCommsTarget>沒有呼叫的對象</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
-  <Invoke>呼叫 {0}</Invoke>
+  <Invoke>呼叫{0}</Invoke>
   <!-- EN: Cannot invoke {0} -->
-  <CannotInvoke>無法呼叫 {0}</CannotInvoke>
+  <CannotInvoke>無法呼叫{0}</CannotInvoke>
   <!-- EN: power -->
   <Power>電源</Power>
   <!-- EN: already invoked -->

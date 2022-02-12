@@ -11,18 +11,18 @@
   <RandomStructureTip>隨機選擇你的理念的結構。</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>隨機選擇你的理念的風格。</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>自訂</Customize>
-  <!-- EN: Play classic -->
-  <PlayClassic>經典模式</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>生成流動理念</CreateFluid>
+  <!-- EN: Classic\nRimWorld -->
+  <PlayClassic>經典\n邊緣世界</PlayClassic> <!-- text_todo -->
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>新增自訂\n(流動)</CreateCustomFluid> <!-- text_todo -->
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>新增自訂\n(固定)</CreateCustomFixed>  <!-- text_todo -->
   <!-- EN: Load saved -->
   <LoadSaved>載入紀錄</LoadSaved>
   <!-- EN: Structure -->
   <Structure>結構</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>你的殖民地應先信奉什麼?這些信仰影響遊戲和外觀。你可以招募人們來皈依，或皈依別人的信仰。</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>你的殖民地應先信奉什麼?這些信仰影響玩法和物件造型。你可以招募人們來皈依，或皈依別人的信仰。</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>製作自訂</CreateCustom>
   <!-- EN: Delete custom -->
@@ -171,6 +171,8 @@
   <RitualTargetEmptyGraveInfo>一個悼念{PAWN_labelShort}的逝世的衣冠冢。</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>一個埋著{IDEO_memberNameIndef}的墳墓</RitualTargetGraveInfoAbstract>
+  <!-- EN: A grave containing a corpse. -->
+  <RitualTargetGraveInfoAbstractNoIdeo>一個埋著屍體的墳墓</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>一個悼念{IDEO_memberNameIndef}的逝世的衣冠冢。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
@@ -642,7 +644,7 @@
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了復原療程。</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了復原療程，而{PAWN_possessive} {HEDIFF_label}被治好了。</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了復原療程，而{PAWN_possessive}{HEDIFF_label}被治好了。</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}逆齡療程。{PAWN_pronoun}預計在{DEADLINE}天後進行下一次的逆齡。</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
@@ -663,5 +665,9 @@
   <OnCompletionOfCycle>當{CYCLE}療程完成時，將會發生</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef}沒有任何需要被{CYCLE}療程治癒的病痛。\n\n你確定要繼續嗎?</BiosculpterNoCoditionsToHeal>
+
+  <!-- UNUSED -->
+  <Customize>自訂</Customize>
+  <CreateFluid>生成流動理念</CreateFluid>
 
 </LanguageData>

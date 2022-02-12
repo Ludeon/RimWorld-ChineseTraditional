@@ -56,11 +56,11 @@
     <li>r_art_name->[NaturalObject]</li>
     <li>r_art_name->[PersonFamily]</li>
     <li>r_art_name->[Enemy]</li>
-    <li>r_art_name(p=2)->[Artwork] No. [art_name_numeric]</li>
-    <li>r_art_name->No. [art_name_numeric]</li>
+    <li>r_art_name(p=2)->[Artwork]No.[art_name_numeric]</li>
+    <li>r_art_name->No.[art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric]</li>
     <li>r_art_name->[Artwork][art_name_numeric]</li>
-    <li>r_art_name->[ConceptAny] No. [art_name_numeric]</li>
+    <li>r_art_name->[ConceptAny]No.[art_name_numeric]</li>
     <li>r_art_name->[ANYPAWN_nameIndef][Trans][art_name_numeric]</li>
     <li>r_art_name(p=6)->[ANYPAWN_nameIndef]之[Artwork]</li>
     <li>r_art_name(p=3)->[Color][Trans][Artwork]</li>
@@ -105,7 +105,7 @@
   <NamerArtWeapon.rulePack.rulesStrings>
     <!-- General -->
     <li>r_art_name->[ConceptBadass]</li>
-    <li>r_art_name->Die [AnimalBadass]</li>
+    <li>r_art_name->Die[AnimalBadass]</li>
     <li>r_art_name->[AdjectiveBadass][AnimalBadass]</li>
     <li>r_art_name->[ColorBadass][AnimalBadass]</li>
     <li>r_art_name->[ConceptBadass][ColorBadass]</li>

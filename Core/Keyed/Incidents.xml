@@ -23,11 +23,11 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>其中一名{LEADER_factionPawnsPlural} - {LEADER_labelShort}，是該派系的首領。</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>其中一名{LEADER_factionPawnsPlural}-{LEADER_labelShort}，是該派系的首領。</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>其中一名{LEADER_factionPawnsPlural} - {LEADER_labelShort}，是該派系的首領。</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>其中一名{LEADER_factionPawnsPlural}-{LEADER_labelShort}，是該派系的首領。</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>運輸艙墜落</LetterLabelRefugeePodCrash>
@@ -90,7 +90,7 @@
   <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>他們似乎有一些要交易的物品。</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>參訪團的其中一名 - {1_labelShort}，是該派系的首領。</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>參訪團的其中一名 -{1_labelShort}，是該派系的首領。</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>{0}的參訪團離開了。</VisitorsLeaving>
 
@@ -197,9 +197,9 @@
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>旅隊請求</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>附近的{0}聯繫了你，並提出特別的交易請求。他們希望購買：\n\n  {1}(價值{2})\n\n做為回報，他們將提供：\n\n  {3}(價值{4})\n\n這份請求的期限至：{5}\n\n如果你想要進行這項交易，派遣旅隊前去並帶上他們請求的物資。預計旅途所需時間為{6}。你可以在世界地圖上點選{0}確認這項交易。</LetterCaravanRequest>
+  <LetterCaravanRequest>附近的{0}聯繫了你，並提出特別的交易請求。他們希望購買：\n\n {1}(價值{2})\n\n做為回報，他們將提供：\n\n {3}(價值{4})\n\n這份請求的期限至：{5}\n\n如果你想要進行這項交易，派遣旅隊前去並帶上他們請求的物資。預計旅途所需時間為{6}。你可以在世界地圖上點選{0}確認這項交易。</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
-  <CaravanRequestInfo>請求：{0} ({2}) (剩下{1})</CaravanRequestInfo>
+  <CaravanRequestInfo>請求：{0}({2}) (剩下{1})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>普通以上品質</NormalQualityOrBetter>
   <!-- EN: not tainted -->
