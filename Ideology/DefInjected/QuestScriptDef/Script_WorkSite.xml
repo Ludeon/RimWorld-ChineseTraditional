@@ -7,9 +7,9 @@
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
-    <li>questDescription->你發現到[faction_name]所控制的[siteLabel]在附近駐紮。\n\n視乎你的意向，你可以突襲營地並獲得戰利品([loot])。[raidConsequences]\n\n他們將在[timeout_duration]後收拾行裝離開。</li>
+    <li>questDescription->你發現到[faction_name]所控制的[siteLabel]在附近駐紮。\n\n你可以決定是否突襲營地獲得戰利品([loot])。[raidConsequences]\n\n他們將在[timeout_duration]後收拾離開。</li>
     <li>raidConsequences(faction_temporary==false)->如果你這樣做，[faction_name]將會變成敵對。</li>
-    <li>raidConsequences(faction_temporary==true)->因為[faction_name]只是一個小型而且獨立的團體，你可以攻擊他們而不遭受任何外交後果。</li>
+    <li>raidConsequences(faction_temporary==true)->因為[faction_name]只是一個小型獨立的團體，你攻擊他們而不會有任何外交結果。</li>
   </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
