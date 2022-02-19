@@ -16,7 +16,7 @@
   <!-- EN: {PRECEPT} needs an associated ritual. -->
   <MessageBuildingMissingRitual>{PRECEPT}需要關聯的儀式</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort}拒絕進行因為{0_possessive}的理念</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort}拒絕進行因為{0_possessive}理念</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
   <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef}試圖讓{RECIPIENT_nameDef}皈依{INITIATOR_possessive}理念。{RECIPIENT_nameDef}的感悟已由{CERTAINTYBEFORE}降至{CERTAINTYAFTER}。{RECIPIENT_pronoun}不滿這次的傳教。</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
@@ -65,7 +65,7 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>沒有獄卒能進行奴役。</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>向{PRISONER_nameDef}傳教的{MEMBERNAME}獄卒不在此。{PRISONER_possessive}的互動模式已改為「不互動」。</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>向{PRISONER_nameDef}傳教的{MEMBERNAME}獄卒不在此。{PRISONER_possessive}互動模式已改為「不互動」。</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->

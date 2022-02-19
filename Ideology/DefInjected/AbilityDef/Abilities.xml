@@ -28,9 +28,9 @@
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
   <Convert.description>讓他人皈依為你的信仰，或使他人對自己信仰的感悟減少。減少的量取決於講者的談判技巧。</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}對{RECIPIENT_labelShort}的傳教失敗了。{RECIPIENT_labelShort}對這項舉動感到不滿，但{RECIPIENT_possessive}的感悟從{CERTAINTYBEFORE}降至{CERTAINTYAFTER}。</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}對{RECIPIENT_labelShort}的傳教失敗了。{RECIPIENT_labelShort}對這項舉動感到不滿，但{RECIPIENT_possessive}感悟從{CERTAINTYBEFORE}降至{CERTAINTYAFTER}。</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
-  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort}成功使{RECIPIENT_labelShort}改信，使其皈依{IDEO}。</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort}成功使{RECIPIENT_labelShort}皈依{IDEO}。</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
   <!-- EN: Counsel -->
   <Counsel.label>顧問</Counsel.label>
@@ -41,7 +41,7 @@
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
   <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort}成功輔導了{RECIPIENT_labelShort}，消除了{2}的負面影響。</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort}成功輔導了{RECIPIENT_labelShort},{RECIPIENT_possessive}的心情增加{MOODBONUS}。</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort}成功輔導了{RECIPIENT_labelShort},{RECIPIENT_possessive}心情增加{MOODBONUS}。</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   
   <!-- EN: farming command -->
   <FarmingCommand.label>種植指揮</FarmingCommand.label>
@@ -71,7 +71,7 @@
   <!-- EN: preach health -->
   <PreachHealth.label>復原講道</PreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
-  <PreachHealth.description>通過你的信仰向生病或受傷的人講道提供精神支持，這將加速他們的傷口癒合和免疫力形成。</PreachHealth.description>
+  <PreachHealth.description>向生病或受傷的信徒講道來宣揚信念的力量，從而加速他們的傷口癒合和免疫力形成。</PreachHealth.description>
   
   <!-- EN: production command -->
   <ProductionCommand.label>生產指揮</ProductionCommand.label>
@@ -81,14 +81,14 @@
   <!-- EN: reassure -->
   <Reassure.label>鼓舞</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
-  <Reassure.description>增加他人對自己信仰的信心。效果取決於說話者的談判能力。</Reassure.description>
+  <Reassure.description>增加他人對自己信仰的感悟。效果取決於說話者的談判能力。</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
-  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort}鼓舞了{RECIPIENT_labelShort}，將{RECIPIENT_possessive}在{IDEO}中的信心從{BEFORECERTAINTY}提高到{AFTERCERTAINTY}。</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort}鼓舞了{RECIPIENT_labelShort}，將{RECIPIENT_possessive}在{IDEO}中的感悟從{BEFORECERTAINTY}提高到{AFTERCERTAINTY}。</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
   <!-- EN: research command -->
   <ResearchCommand.label>研究指揮</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ResearchCommand.description>提供建議和心理支持，提高附近每個人的研究速度，效果在24小時之內會依附在施法者身上。</ResearchCommand.description>
+  <ResearchCommand.description>藉著提供建議和心理支持，提高附近每個人的研究速度，效果在24小時之內會依附在施法者身上。</ResearchCommand.description>
   
   <!-- EN: trial -->
   <Trial.label>審判</Trial.label>

@@ -180,7 +180,7 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一個名叫[joiner_nameFull]的[joiner_age]歲[joiner_title]從附近呼叫殖民地。[joiner_pronoun]正在躲避[threat]。[joiner_pronoun]想要從[joiner_possessive]的隱藏地逃出來並加入你位於[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接納[joiner_objective]，[joinersEnemies]將會在附近建立一個襲擾據點。[site/allSitePartsDescriptions]\n\n摧毀這個據點，否則對你的襲擊將會源源不斷。</li>
+    <li>questDescription->一個名叫[joiner_nameFull]的[joiner_age]歲[joiner_title]從附近呼叫殖民地。[joiner_pronoun]正在躲避[threat]。[joiner_pronoun]想要從[joiner_possessive]隱藏地逃出來並加入你位於[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接納[joiner_objective]，[joinersEnemies]將會在附近建立一個襲擾據點。[site/allSitePartsDescriptions]\n\n摧毀這個據點，否則對你的襲擊將會源源不斷。</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->機械族</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->機械族</li>
