@@ -89,8 +89,8 @@
     <li>lodgersHasHave(lodgersCount>=2)->有</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->他們</li>
-    <li>areIs(lodgersCount==1)->是</li>
-    <li>areIs(lodgersCount>=2)->是</li>
+    <li>areIs(lodgersCount==1)-></li>
+    <li>areIs(lodgersCount>=2)-></li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->現在所有剩餘的[lodgersLabelPlural]都將離開。</li>
     <li>failLetterEndingQuest->你未能完成任務'[resolvedQuestName]'.</li>
