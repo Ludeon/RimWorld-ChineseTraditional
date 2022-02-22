@@ -11,12 +11,14 @@
   <RandomStructureTip>隨機選擇你的理念的結構。</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>隨機選擇你的理念的風格。</RandomStyleTip>
-  <!-- EN: Classic\nRimWorld -->
-  <PlayClassic>經典\n邊緣世界</PlayClassic> <!-- text_todo -->
+  <!-- EN: Ideology system inactive -->
+  <PlayClassic>禁用理念系統</PlayClassic> <!-- text_todo -->
   <!-- EN: Create custom\n(fluid) -->
   <CreateCustomFluid>新增自訂\n(流動)</CreateCustomFluid> <!-- text_todo -->
   <!-- EN: Create custom\n(fixed) -->
   <CreateCustomFixed>新增自訂\n(固定)</CreateCustomFixed>  <!-- text_todo -->
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>自訂理念</CustomIdeoligions> <!-- text_todo -->
   <!-- EN: Load saved -->
   <LoadSaved>載入紀錄</LoadSaved>
   <!-- EN: Structure -->
@@ -42,7 +44,7 @@
   <!-- EN: Select an ideoligion for your faction on the left, or -->
   <SelectAnIdeo>在左邊為你的派系選擇理念，或</SelectAnIdeo>
   <!-- EN: ideoligion -->
-  <Ideo>理念</Ideo> 
+  <Ideo>理念</Ideo>
   <!-- EN: Randomize all -->
   <RandomizeAll>全部隨機</RandomizeAll>
   <!-- EN: Appearance -->
@@ -102,7 +104,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>得到戒律的機會</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色。在{PAWN_possessive}的服裝擁有多於{PERCENTAGE}這種顏色，或是{PAWN_possessive}的理念顏色，會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色。在{PAWN_possessive}服裝擁有多於{PERCENTAGE}這種顏色，或是{PAWN_possessive}理念顏色，會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>設定為理念顏色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -267,13 +269,13 @@
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
   <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0}誘生了一顆高嵐樹莢果，可以將它種下。</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
-  <RitualAttachedOutcomeCantApply>無法使用獎賞</RitualAttachedOutcomeCantApply>
+  <RitualAttachedOutcomeCantApply>無法實現獎勵</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
   <RitualAttachedOutcomeCantApply_NoValidSpot>缺少有效的儀式點</RitualAttachedOutcomeCantApply_NoValidSpot>
   <!-- EN: Extreme biome -->
   <RitualAttachedOutcomeCantApply_ExtremeBiome>極端生態系</RitualAttachedOutcomeCantApply_ExtremeBiome>
   <!-- EN: There is already a known ancient complex to explore. -->
-  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>可以在此探尋已知的遠古建築群</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
+  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>已有遠古建築群待探尋</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
   <!-- EN: Not available right now. -->
   <RitualAttachedOutcomeCantApply_NotAvailableRightNow>現在不可用</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
   
@@ -516,7 +518,7 @@
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>{DRYAD_labelPlural}每{DURATION}生產{RESOURCES}。</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
-  <DryadCannotChangeMaster>{ANIMAL_nameDef}通過{ANIMAL_possessive}高嵐樹與{MASTER_nameDef}聯結了。{ANIMAL_possessive}的主人不能改變。</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef}通過{ANIMAL_possessive}高嵐樹與{MASTER_nameDef}聯結了。{ANIMAL_possessive}主人不能改變。</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>聯結力不足以生產高嵐樹莢果。</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
@@ -540,7 +542,7 @@
   <!-- EN: Target outdoors and daytime -->
   <TargetDayOutdoors>戶外目標和日間</TargetDayOutdoors>
   <!-- EN: Target indoors and lit -->
-  <TargetLitIndoors>戶外目標和明亮</TargetLitIndoors>  
+  <TargetLitIndoors>戶外目標和明亮</TargetLitIndoors>
   <!-- EN: Charging -->
   <RechargeableCharging>充能中</RechargeableCharging>
   <!-- EN: Ready -->
@@ -606,7 +608,7 @@
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>輸入材料中</BiosculpterPodCycleLabelLoading>
   <!-- EN: (and biotuning) -->
-  <BiosculpterPodCycleWillBiotune>(和調整)</BiosculpterPodCycleWillBiotune>
+  <BiosculpterPodCycleWillBiotune>(及生物配對)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
   <BiosculpterPodCycleCommand>開始{0}療程</BiosculpterPodCycleCommand>
   <!-- EN: Duration -->
@@ -626,7 +628,7 @@
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
   <BiosculpterCycleNoPowerInterrupt>暫停︰停電(在{TIME}後中斷)</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
-  <BiosculpterBiotunedTo>已調整給</BiosculpterBiotunedTo>
+  <BiosculpterBiotunedTo>已配對給</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>中斷療程</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
@@ -652,7 +654,7 @@
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>潔淨環境加速度</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
-  <BiosculpterBiotunedSpeedFactor>調整加速度</BiosculpterBiotunedSpeedFactor>
+  <BiosculpterBiotunedSpeedFactor>生物配對加速度</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>以下傷勢會被治癒</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->

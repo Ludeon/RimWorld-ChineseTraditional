@@ -57,7 +57,7 @@
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman][enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman][enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]從敵方派系逮捕了[lodgersCount]人，現在的問題是無處安置這些俘虜，[asker_nameDef]希望你能幫助看管這些俘虜，[shuttleDelayTicks_duration]後[asker_possessive]為這些俘虜準備的的新監獄就能建好。[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]從敵方派系逮捕了[lodgersCount]人，現在的問題是無處安置這些俘虜，[asker_nameDef]希望你能幫助看管這些俘虜，[shuttleDelayTicks_duration]後[asker_possessive]為這些俘虜準備的新監獄就能建好。[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n這些俘虜與簽訂了[enemyFaction_name]付費營救契約，所以他們會在你之後派出[enemyFaction_pawnsPlural]。[enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]的敵人們已經啟動了一個機械軍團用於獵殺俘虜，機械軍團攻擊部隊將在隨後到達。[enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners][enemyGroupsParagraph]</li>

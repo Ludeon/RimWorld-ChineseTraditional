@@ -15,7 +15,7 @@
   <!-- EN: Local slave rebellion -->
   <LetterLabelLocalSlaveRebellion>部份奴隸叛變</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>發生部份的奴隸叛變!{0_nameDef}以及一些周圍的奴隸正起義反抗你。他們會尋找武器並試圖殲滅你的殖民者。\n\n包括以下奴隸:\n\n{1}</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>發生部份的奴隸叛變!{0_nameDef}以及一些周圍的奴隸正起義反抗你。他們會尋找武器並試圖殲滅你的殖民者。\n\n包括以下奴隸:\n\n{1}</LetterLocalSlaveRebellion>
   <!-- EN: Slave rebellion -->
   <LetterLabelSingleSlaveRebellion>奴隸叛變</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
@@ -106,13 +106,13 @@
 
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
-  <LetterIdeoChangeConverted>{PAWN_pronoun}決定不再信奉{OLDIDEO_name}的{PAWN_possessive}。\n\n{PAWN_pronoun}現在信奉{NEWIDEO_name}。</LetterIdeoChangeConverted>
+  <LetterIdeoChangeConverted>{PAWN_pronoun}認為{PAWN_possessive}理念{OLDIDEO_name}不再值得信奉了。\n\n{PAWN_pronoun}現在信奉{NEWIDEO_name}。</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
-  <LetterIdeoChangeNotConverted>{PAWN_nameDef}對於信奉{OLDIDEO_name}的{PAWN_possessive}的感悟已降至{NEWCERTAINTY}。</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangeNotConverted>{PAWN_nameDef}對於信奉{OLDIDEO_name}的{PAWN_possessive}感悟已降至{NEWCERTAINTY}。</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>為適應對{PAWN_possessive}的信仰，{PAWN_nameDef}現在正於{PAWN_possessive}房間閉門不出。</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>為適應對{PAWN_possessive}信仰，{PAWN_nameDef}現在正於{PAWN_possessive}房間閉門不出。</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>{PAWN_nameDef}因為與{PAWN_possessive}的信仰衝突而恍惚遊走</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef}因為與{PAWN_possessive}信仰衝突而恍惚遊走</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
@@ -130,7 +130,7 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>整容需求</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>{PAWN_nameDef}希望改變{PAWN_possessive}的外貌，因為這不再符合{PAWN_pronoun}的信仰.\n\n{PAWN_pronoun}將自動前往閒置的梳妝台並挑選外貌。如果你希望客製化{PAWN_possessive}的外貌，選擇{PAWN_objective}並右鍵點擊梳妝台。</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef}希望改變{PAWN_possessive}外貌，因為這不再符合{PAWN_pronoun}的信仰.\n\n{PAWN_pronoun}將自動進入有空的梳妝台並挑選外貌。如果你希望調整{PAWN_possessive}外貌，選擇{PAWN_objective}並右鍵點擊梳妝台。</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->

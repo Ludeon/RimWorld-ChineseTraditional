@@ -72,7 +72,7 @@
     <li>lodgersDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>joinerEnding(priority=1)-></li>
     <li>joinerEnding->你可以直接控制[lodgersDef]，如同指揮你自己的殖民者那樣。[specialNeedsExplanation]</li>
-    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> 你必須滿足[lodgersLabelPlural]的各種需求。</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)->你必須滿足[lodgersLabelPlural]的各種需求。</li>
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>theirHisHer(lodgersCount>=2)->他們</li>

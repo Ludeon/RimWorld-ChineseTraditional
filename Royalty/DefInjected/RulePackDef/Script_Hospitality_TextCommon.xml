@@ -60,7 +60,7 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef][areIs]患有麻痺性重症，必須臥床休息。</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef][areIs]得了血腐病，需要每日治療。可以通過高品質的護理和藥物來減緩該疾病，旦通常無法徹底治療。如果疾病變得嚴重[lodgersLabelSingOrPluralDef]將會死亡，因此請確保你有必要的醫療用品。</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef][areIs]得了血腐病，需要每日治療。可以通過高品質的護理和藥物來減緩該疾病，但通常無法徹底治療。如果疾病變得嚴重[lodgersLabelSingOrPluralDef]將會死亡，因此請確保你有必要的醫療用品。</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n你必須將[lodgersLabelSingOrPluralDef]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
     <li>workInfo-></li>
@@ -89,8 +89,8 @@
     <li>lodgersHasHave(lodgersCount>=2)->有</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->他們</li>
-    <li>areIs(lodgersCount==1)->是</li>
-    <li>areIs(lodgersCount>=2)->是</li>
+    <li>areIs(lodgersCount==1)-></li>
+    <li>areIs(lodgersCount>=2)-></li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->現在所有剩餘的[lodgersLabelPlural]都將離開。</li>
     <li>failLetterEndingQuest->你未能完成任務'[resolvedQuestName]'.</li>

@@ -385,9 +385,9 @@
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
-  <MessageMechanoidsAssembled>機械族已經甦醒並開始防衛它們的軍團。</MessageMechanoidsAssembled>
+  <MessageMechanoidsAssembled>機械族被組裝完成並加入它們的軍團。</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to assemble -->
-  <MessageMechanoidsLeftToAssemble>機械族開始集結</MessageMechanoidsLeftToAssemble>
+  <MessageMechanoidsLeftToAssemble>尚未組裝的機械族</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>機械族空投信標召喚了增援部隊在附近降落。</MessageMechanoidsReinforcementsDrop>
 
@@ -451,13 +451,13 @@
   <MessageWarningCavePlantsExposedToLight>警告：{0}無法在曝光狀態下存活。</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}憤怒發洩在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}憤怒發洩在{TARGET_label}身上。</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageMurderousRageChangedTarget>{PAWN_labelShort}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageMurderousRageChangedTarget>
+  <MessageMurderousRageChangedTarget>{PAWN_labelShort}決定將{PAWN_possessive}憤怒發洩在{TARGET_label}身上。</MessageMurderousRageChangedTarget>
 
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0}無法在屋頂下生長。</MessagePlantIncompatibleWithRoof>
@@ -598,7 +598,7 @@
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>無法載入翻譯檔案({0})。所有XML解析錯誤必須優先解決。</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
-  <MessageCapturingWillAngerFaction>警告：俘虜{PAWN_nameDef}將會激怒{PAWN_possessive}的派系{PAWN_factionName}。</MessageCapturingWillAngerFaction>
+  <MessageCapturingWillAngerFaction>警告：俘虜{PAWN_nameDef}將會激怒{PAWN_possessive}派系{PAWN_factionName}。</MessageCapturingWillAngerFaction>
 
   <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
   <MessageStrippingWillAngerFaction>警告：掠奪{PAWN_nameDef}將激怒{PAWN_factionName}。</MessageStrippingWillAngerFaction>
@@ -702,9 +702,9 @@
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>此角色不能選其他人。</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort}無法與高嵐樹接觸，因為{0_possessive}的接觸最近被中斷。</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort}無法與高嵐樹接觸，因為{0_possessive}接觸最近被中斷。</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
-  <MessageRitualRolePawnHasSameIdeo>{0_labelShort}和教化者具有相同的理念。</MessageRitualRolePawnHasSameIdeo>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort}和傳教者具有相同的理念。</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort}必須有監管能力。</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->

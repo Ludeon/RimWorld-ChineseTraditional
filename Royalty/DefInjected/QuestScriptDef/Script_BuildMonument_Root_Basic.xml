@@ -7,7 +7,7 @@
     <li>dontDestroyMonument->\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days of construction, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
-    <li>commonEnding->這會需要[monumentSize]的領地大小和以下資源 (總價值[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n一旦接受這項任務，建設必須在[constructionTimeoutTicks_duration]內完成。\n\n完成後，你將獲得獎勵。[dontDestroyMonument]</li>
+    <li>commonEnding->這會需要佔地[monumentSize]和以下資源(總價值[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n一旦接受這項任務，建設必須在[constructionTimeoutTicks_duration]內完成。\n\n完成後，你將獲得獎勵。[dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
     <li>dontDestroyMonument->\n\n如果紀念碑在建造的[keepMonumentTicks_duration]天內被破壞，你與[asker_factionName]的關係將下降[goodwillChangeIfMonumentDestroyed]。</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
