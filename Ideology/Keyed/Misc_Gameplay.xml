@@ -12,13 +12,13 @@
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>隨機選擇你的理念的風格。</RandomStyleTip>
   <!-- EN: Ideology system inactive -->
-  <PlayClassic>禁用理念系統</PlayClassic> <!-- text_todo -->
+  <PlayClassic>禁用理念系統</PlayClassic>
   <!-- EN: Create custom\n(fluid) -->
-  <CreateCustomFluid>新增自訂\n(流動)</CreateCustomFluid> <!-- text_todo -->
+  <CreateCustomFluid>新增自訂\n(流動)</CreateCustomFluid>
   <!-- EN: Create custom\n(fixed) -->
-  <CreateCustomFixed>新增自訂\n(固定)</CreateCustomFixed>  <!-- text_todo -->
+  <CreateCustomFixed>新增自訂\n(固定)</CreateCustomFixed>
   <!-- EN: Custom ideoligions -->
-  <CustomIdeoligions>自訂理念</CustomIdeoligions> <!-- text_todo -->
+  <CustomIdeoligions>自訂理念</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>載入紀錄</LoadSaved>
   <!-- EN: Structure -->
@@ -44,7 +44,7 @@
   <!-- EN: Select an ideoligion for your faction on the left, or -->
   <SelectAnIdeo>在左邊為你的派系選擇理念，或</SelectAnIdeo>
   <!-- EN: ideoligion -->
-  <Ideo>理念</Ideo>
+  <Ideo>理念</Ideo> 
   <!-- EN: Randomize all -->
   <RandomizeAll>全部隨機</RandomizeAll>
   <!-- EN: Appearance -->
@@ -95,10 +95,8 @@
   <RequiredPrecepts>需要戒律</RequiredPrecepts>
   <!-- EN: Required rituals -->
   <RequiredRituals>需要儀式</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>禁用戒律</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>禁用{0}條戒律</DisablesPreceptsCount>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>妨礙戒律</PreventsPrecepts> <!-- text_todo -->
   <!-- EN: Styles -->
   <Styles>風格</Styles>
   <!-- EN: Chance to have precept -->
@@ -174,7 +172,7 @@
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>一個埋著{IDEO_memberNameIndef}的墳墓</RitualTargetGraveInfoAbstract>
   <!-- EN: A grave containing a corpse. -->
-  <RitualTargetGraveInfoAbstractNoIdeo>一個埋著屍體的墳墓</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
+  <RitualTargetGraveInfoAbstractNoIdeo>一個埋著屍體的墳墓</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>一個悼念{IDEO_memberNameIndef}的逝世的衣冠冢。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
@@ -542,7 +540,7 @@
   <!-- EN: Target outdoors and daytime -->
   <TargetDayOutdoors>戶外目標和日間</TargetDayOutdoors>
   <!-- EN: Target indoors and lit -->
-  <TargetLitIndoors>戶外目標和明亮</TargetLitIndoors>
+  <TargetLitIndoors>戶外目標和明亮</TargetLitIndoors>  
   <!-- EN: Charging -->
   <RechargeableCharging>充能中</RechargeableCharging>
   <!-- EN: Ready -->
@@ -669,6 +667,8 @@
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef}沒有任何需要被{CYCLE}療程治癒的病痛。\n\n你確定要繼續嗎?</BiosculpterNoCoditionsToHeal>
 
   <!-- UNUSED -->
+  <DisablesPrecepts>禁用戒律</DisablesPrecepts>
+  <DisablesPreceptsCount>禁用{0}條戒律</DisablesPreceptsCount>
   <Customize>自訂</Customize>
   <CreateFluid>生成流動理念</CreateFluid>
 

@@ -45,11 +45,11 @@
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>殖民者想要{0}</IdeoBuildingMissing>
   <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>一旦你的殖民地的{2}或更高時，{IDEO_name}就需要你有一個{0}。\n\n{0}是{BASEBUILDING_label}的變體。{BUILDINGINFO}\n\n這項要求只會在{IDEO_name}是你的派系的首要理念，或{MINBELIEVERS}名信徒在你的派系中，才會出現。{4}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingMissingDesc> <!-- text_todo -->
+  <IdeoBuildingMissingDesc>一旦你的殖民地的{2}或更高時，{IDEO_name}就需要你有一個{0}。\n\n{0}是{BASEBUILDING_label}的變體。{BUILDINGINFO}\n\n這項要求只會在{IDEO_name}是你的派系的首要理念，或{MINBELIEVERS}名信徒在你的派系中，才會出現。{4}\n\n如果不滿足要求，這些信徒就會不高興:\n{3}</IdeoBuildingMissingDesc>
   <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
-  <IdeoBuildingArchitectTabDesc>你可以在建築清單中選擇「{TABNAME}」來找到它。</IdeoBuildingArchitectTabDesc> <!-- text_todo -->
+  <IdeoBuildingArchitectTabDesc>你可以在建築清單中選擇「{TABNAME}」來找到它。</IdeoBuildingArchitectTabDesc>
   <!-- EN:  It can be created at:\n{0}. -->
-  <IdeoBuildingCanBeCraftedAt>可以在以下地方建造它︰\n{0}。</IdeoBuildingCanBeCraftedAt> <!-- text_todo -->
+  <IdeoBuildingCanBeCraftedAt>可以在以下地方建造它︰\n{0}。</IdeoBuildingCanBeCraftedAt>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>為了維持{0}的威嚴，這房間必須滿足要求</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
@@ -77,15 +77,6 @@
   <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
   <AncientAltarThreatsWakingDesc>安全威脅將在{0}後啟動，他們將會攻擊任何威脅到聖物的人。</AncientAltarThreatsWakingDesc>
 
-  <!-- EN: No recent slaughter -->
-  <AlertNoRecentSlaughter>近期沒有屠宰</AlertNoRecentSlaughter>
-  <!-- EN: No large {0} animal has been slaughtered recently. This is a requirement of the following ideoligions -->
-  <AlertNoRecentSlaughterDesc>近期沒有屠宰大型{0}動物。這對以下信仰是必要的</AlertNoRecentSlaughterDesc>
-  <!-- EN: {0} body size or above -->
-  <BodySizeOrAbove>身體大小為{0}或以上</BodySizeOrAbove>
-  <!-- EN: If no slaughter is performed, these colonists will remain unhappy -->
-  <AlertNoRecentSlaughterDescPost>如果不進行屠殺，這些殖民者將持續不高興</AlertNoRecentSlaughterDescPost>
-  
   <!-- EN: Ritual opportunity soon -->
   <AlertRitualComing>儀式時機即將來臨</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
@@ -147,4 +138,10 @@
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>約每{COMBINEDTIME}可能會有一場奴隸叛變。留意，每名奴隸有著不同的叛變機率，所以他們之中任何一名叛變都有可能帶動其他人一起作反。\n\n{REBEL_labelShort}是最有可能叛變的奴隸，並可能會每{INDIVIDUALTIME}發動一場叛變。以下是影響他們叛變頻率的因素︰</AlertSlaveRebellionLikelyMostRebellious>
   
+  <!-- UNUSED -->
+  <AlertNoRecentSlaughter>近期沒有屠宰</AlertNoRecentSlaughter>
+  <AlertNoRecentSlaughterDesc>近期沒有屠宰大型{0}動物。這對以下信仰是必要的</AlertNoRecentSlaughterDesc>
+  <BodySizeOrAbove>身體大小為{0}或以上</BodySizeOrAbove>
+  <AlertNoRecentSlaughterDescPost>如果不進行屠殺，這些殖民者將持續不高興</AlertNoRecentSlaughterDescPost>
+
 </LanguageData>
