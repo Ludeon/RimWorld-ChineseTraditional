@@ -164,8 +164,6 @@
   <LastHumanMeat>最後進食人肉時間</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>因為{PAWN_possessive}信奉{IDEO_name}，如果{PAWN_nameDef}{DURATION}天內沒有食人，{PAWN_pronoun}會不高興。</LastHumanMeatDesc>
-  <!-- EN: Last large animal slaughter -->
-  <LastAnimalSlaughter>最後的大型動物屠宰</LastAnimalSlaughter>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>實施{PAWN_labelShort}會帶來與{FACTION_name}的負面影響。</ExectueNeutralFactionSlave>
@@ -213,7 +211,7 @@
   <!-- EN: New buildables -->
   <IdeoMakesBuildingBuildable>新的可用建築物</IdeoMakesBuildingBuildable>
   <!-- EN: none usable for {PAWN_nameDef} -->
-  <NoneUsableForPawn>沒有{PAWN_nameDef}可用的</NoneUsableForPawn>
+  <NoneUsableForPawn>沒有{PAWN_nameDef}可用的</NoneUsableForPawn> 
   <!-- EN: Hair and beards -->
   <HairAndBeards>頭髮和鬍鬚</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
@@ -328,4 +326,7 @@
   <FoodRestrictionCannibal>食人</FoodRestrictionCannibal>
   <!-- EN: Insect meat -->
   <FoodRestrictionInsectMeat>蟲肉</FoodRestrictionInsectMeat>
+  <!-- UNUSED -->
+  <LastAnimalSlaughter>最後的大型動物屠宰</LastAnimalSlaughter>
+
 </LanguageData>
