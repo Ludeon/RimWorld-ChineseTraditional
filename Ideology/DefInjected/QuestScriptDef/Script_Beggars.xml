@@ -65,7 +65,7 @@
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef]需要以酒澆愁，因為[beggars0_possessive]一名同伴在路上遭遇意外死去，使他感到哀傷</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->他們需要白銀去贖回被綁架的朋友</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->他們需要藥品去為他們的一名因機械族而受傷的同伴進行緊急手術</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->他們需要藥品去救一名留在附近的一處被洗劫過的定居點的朋友</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->他們需要藥品去救一名留在附近的一處被洗劫過的據點的朋友</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->他們需要[requestedThing_label]去繼續安全地旅行至他們能稱為家的地方</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->他們需要以酒澆愁，因為他們的家園在一場突襲中被洗劫一空了</li>
     <li>interactionInfo(beggarCount==1)->你可以點選一名居民並右鍵點擊[beggars0_nameDef]來幫助[beggars0_objective]</li>
