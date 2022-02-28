@@ -33,7 +33,7 @@
     <li>goodwillNegativelyAffected->每個未能返回的[pawnLabel]都會使[asker_faction_name]對你的好感下降。</li>
     <li>commanderLandingDesc->把太空梭迫降在[map_definite]的指揮官[asker_nameDef]</li>
     <li>raidArrivedLetterLabel->襲擊：[enemyFaction_name]</li>
-    <li>raidArrivedLetterText->[enemyFaction_name]的[enemyFaction_pawnsPlural]已經來到[map_definite]。他們將會攻擊[asker_faction_pawnsPlural]。\n\n保護[asker_faction_pawnsPlural]直到他們的救援飛船[rescueShuttleAfterRaidDelay_duration]後抵達。</li>
+    <li>raidArrivedLetterText->[enemyFaction_name]的[enemyFaction_pawnsPlural]已經來到[map_definite]。他們將會攻擊[asker_faction_pawnsPlural]。\n\n保護[asker_faction_pawnsPlural]，直到[rescueShuttleAfterRaidDelay_duration]後他們的救援飛船抵達。</li>
     <li>rescueShuttleArrivedLetterLabel->救援飛船抵達</li>
     <li>rescueShuttleArrivedLetterText->前來救援[pawnLabelSingleOrPlural]的救援飛船已經抵達。確保在[rescueDelay_duration]使這些人登上飛船：\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->任務完成：[resolvedQuestName]</li>
