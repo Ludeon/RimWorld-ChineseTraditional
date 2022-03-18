@@ -535,15 +535,15 @@
   <!-- EN: {0} focus objects -->
   <MeditationFocusObjects>{0}專注物件</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
-  <MeditationFocusEnabledByTitle>擁有的頭銜：{TITLE}({FACTION_name})。</MeditationFocusEnabledByTitle>
+  <MeditationFocusEnabledByTitle>擁有頭銜：{TITLE}({FACTION_name})。</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
-  <MeditationFocusEnabledByChildhood>童年的冥想專注</MeditationFocusEnabledByChildhood>
+  <MeditationFocusEnabledByChildhood>童年背景</MeditationFocusEnabledByChildhood>
   <!-- EN: has adulthood -->
-  <MeditationFocusEnabledByAdulthood>成年的冥想專注</MeditationFocusEnabledByAdulthood>
+  <MeditationFocusEnabledByAdulthood>成年背景</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
-  <MeditationFocusEnabledByTrait>特性的冥想專注</MeditationFocusEnabledByTrait>
+  <MeditationFocusEnabledByTrait>擁有特性</MeditationFocusEnabledByTrait>
   <!-- EN: does not have trait -->
-  <MeditationFocusDisabledByTrait>特性影響的冥想專注</MeditationFocusDisabledByTrait>
+  <MeditationFocusDisabledByTrait>沒有抵觸特性</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
   <EnablesMeditationFocusType>使用冥想專注類型</EnablesMeditationFocusType>
   
@@ -928,6 +928,8 @@
   <!-- Food restriction management -->
   <!-- EN: Food restriction -->
   <FoodRestriction>客製化菜單</FoodRestriction>
+  <!-- EN: Food -->
+  <FoodRestrictionShort>食物</FoodRestrictionShort>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>豪華料理</FoodRestrictionLavish>
   <!-- EN: Fine -->
