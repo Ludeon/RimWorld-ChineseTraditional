@@ -65,11 +65,11 @@
       <li>dutyDescription->建立鄉村</li>
       <li>dutyDescription->注意入侵者</li>
       <li>dutyDescription->建立醫院</li>
-      <li>dutyDescription->包含[disease]爆發</li>
+      <li>dutyDescription->阻截[disease]爆發</li>
     </rulesStrings>
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.LetterTextReturnAfterHelping.slateRef>在幫助[asker_faction_name]的[asker_nameFull]順利[dutyDescription]後，{PAWNS}安全的回來了。</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS}替[asker_faction_name]的[asker_nameFull][dutyRoyalDescription]之後回來了。</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
     <rulesStrings>
@@ -82,7 +82,7 @@
     </rulesStrings>
   </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
-  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS}[pawnListHaveConjugation]在幫助[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull][dutyRoyalDescription]之後回來了。</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS}替[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull][dutyRoyalDescription]之後回來了。</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
   <PawnLend.LetterLabelShuttleArrived.slateRef>太空梭抵達</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
