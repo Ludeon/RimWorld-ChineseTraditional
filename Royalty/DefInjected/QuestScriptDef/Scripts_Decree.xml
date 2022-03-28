@@ -5,7 +5,7 @@
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\n你必須建造一個紀念碑。這會需要佔地[monumentSize]和以下資源 (總價值[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n你必須在完成[keepMonumentTicks_duration]後維持紀念碑安全，否則[asker_nameDef]將會感到不滿。</li>
+    <li>questDescription->[decreeIntro]\n\n你必須建造一個紀念碑。這會需要佔地[monumentSize]和以下資源 (總價值[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n你必須在完成後在[keepMonumentTicks_duration]內維持紀念碑安全，否則[asker_nameDef]將會感到不滿。</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
@@ -20,15 +20,15 @@
   <!-- EN: Monument completed -->
   <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>紀念碑完成</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
   <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration], otherwise [asker_nameDef] will be displeased. -->
-  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>你已經完成紀念碑的建造。\n\n你必須在[keepMonumentTicks_duration]內將其安全保存，否則[asker_nameDef]將不滿。</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>你已經完成紀念碑的建造。\n\n你必須在[keepMonumentTicks_duration]內將其安全保存，否則[asker_nameDef]將會感到不滿。</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
   <!-- EN: Monument destroyed -->
   <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>紀念碑摧毀</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
   <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>得罪了[asker_nameDef]，你在完成後不久便摧毀紀念碑。\n\n[asker_pronoun]對此不滿。</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>請勿摧毀紀念碑{0}</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>{0}內勿摧毀紀念碑</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>請勿摧毀紀念碑{0}</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>{0}內勿摧毀紀念碑</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <Decree_BuildMonument.KeepMonument.slateRef>保留紀念碑{0}</Decree_BuildMonument.KeepMonument.slateRef>
   
