@@ -241,13 +241,13 @@
   <!-- EN: Accepted on {0} by {1} -->
   <AcceptedOnBy>{1}已於{0}接受</AcceptedOnBy>
   <!-- EN: Expires in {0} -->
-  <QuestExpiresIn>於{0}過期</QuestExpiresIn>
+  <QuestExpiresIn>於{0}後過期</QuestExpiresIn>
   <!-- EN: Expires on {0} -->
   <QuestExpiresOn>於{0}到期</QuestExpiresOn>
   <!-- EN: Average guest mood (previous {0}): {1} -->
-  <QuestAveragePawnMood>訪客平均心情 (之前為{0})：{1}</QuestAveragePawnMood>
+  <QuestAveragePawnMood>訪客平均心情 (過往{0})：{1}</QuestAveragePawnMood>
   <!-- EN: The average mood of {0} over the previous {1} -->
-  <QuestAveragePawnMoodTargets>{0}的平均心情超過之前的{1}</QuestAveragePawnMoodTargets>
+  <QuestAveragePawnMoodTargets>{0}在過往{1}的平均心情</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
   <ShuttleArrivesIn>太空梭於{0}抵達</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
@@ -339,6 +339,6 @@
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
-  <CreatesNeed>製作需求</CreatesNeed>
+  <CreatesNeed>引起需求</CreatesNeed>
 
 </LanguageData>

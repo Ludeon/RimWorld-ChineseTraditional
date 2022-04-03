@@ -57,7 +57,7 @@
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
   <MessagePrisonerEnslaved>{0_nameDef}已被{1_nameDef}奴役了。</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>俘虜{1_nameDef}的意志已被{0_nameDef}摧毀了。</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>俘虜{1_nameDef}的意志已被{0_nameDef}瓦解了。</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
   <MessagePrisonerWillBroken_RecruitAttempsWillBegin>將會接著奴役。</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
@@ -65,11 +65,11 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>沒有獄卒能進行奴役。</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>向{PRISONER_nameDef}傳教的{MEMBERNAME}獄卒不在此。{PRISONER_possessive}互動模式已改為「不互動」。</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>你沒有{MEMBERNAME}的獄卒可以向{PRISONER_nameDef}傳教。{PRISONER_possessive}互動模式已改為「不互動」。</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>你發現被{FACTION_name}控制的{CAMP_label}在附近。</MessageCampDetected>
+  <MessageCampDetected>你發現到附近有一處被{FACTION_name}控制的{CAMP_label}。</MessageCampDetected>
 
   <!-- Charity -->
   <!-- EN: Charity refused -->

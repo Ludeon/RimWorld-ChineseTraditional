@@ -13,7 +13,7 @@
   <!-- EN: Relevant traits -->
   <StatsReport_RelevantTraits>相關特性</StatsReport_RelevantTraits>
   <!-- EN: Relevant gear -->
-  <StatsReport_RelevantGear>相關設備</StatsReport_RelevantGear>
+  <StatsReport_RelevantGear>相關裝備</StatsReport_RelevantGear>
   <!-- EN: Relevant health conditions -->
   <StatsReport_RelevantHediffs>相關健康狀況</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
@@ -49,7 +49,7 @@
   <!-- EN: Max gain -->
   <StatsReport_MaxGain>最大收益</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
-  <StatsReport_AgeMultiplier>年齡倍率{0}</StatsReport_AgeMultiplier>
+  <StatsReport_AgeMultiplier>{0}歲年齡倍率</StatsReport_AgeMultiplier>
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>健康倍率{0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
@@ -59,15 +59,15 @@
   <!-- EN: Multiplier for mood {0} -->
   <StatsReport_MoodMultiplier>心情倍率{0}</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
-  <StatsReport_LightMultiplier>光線倍率{0}</StatsReport_LightMultiplier>
+  <StatsReport_LightMultiplier>{0}以上光線倍率</StatsReport_LightMultiplier>
   <!-- EN: Multiplier for difficulty {0} -->
-  <StatsReport_DifficultyMultiplier>難度倍率{0}</StatsReport_DifficultyMultiplier>
+  <StatsReport_DifficultyMultiplier>{0}難度倍率</StatsReport_DifficultyMultiplier>
   <!-- EN: In bed -->
   <StatsReport_InBed>臥床</StatsReport_InBed>
   <!-- EN: Facilities -->
   <StatsReport_Facilities>設施</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
-  <StatsReport_BodySize>體型倍率{0}</StatsReport_BodySize>
+  <StatsReport_BodySize>{0}體型倍率</StatsReport_BodySize>
   <!-- EN: Damaged -->
   <StatsReport_HasHediffExplanation>傷害</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
@@ -89,7 +89,7 @@
   <!-- EN: Life expectancy -->
   <StatsReport_LifeExpectancy>預期壽命</StatsReport_LifeExpectancy>
   <!-- EN: Multiplier for missing body parts -->
-  <StatsReport_MissingBodyParts>喪失的身體部位</StatsReport_MissingBodyParts>
+  <StatsReport_MissingBodyParts>損失身體部位倍率</StatsReport_MissingBodyParts>
   <!-- EN: Gear and inventory -->
   <StatsReport_GearAndInventoryMass>裝備與行李</StatsReport_GearAndInventoryMass>
   <!-- EN: Multiplier for worn by corpse -->
@@ -309,7 +309,7 @@
   <!-- EN: This can only be placed on terrain of these types. -->
   <Stat_Thing_TerrainRequirement_Desc>只能放置在這些類型的地形上。</Stat_Thing_TerrainRequirement_Desc>
   <!-- EN: Considered -->
-  <Stat_Thing_Terrain_Fine_Name>考慮</Stat_Thing_Terrain_Fine_Name>
+  <Stat_Thing_Terrain_Fine_Name>評鑑</Stat_Thing_Terrain_Fine_Name>
   <!-- EN: Fine -->
   <Stat_Thing_Terrain_Fine_Value>優秀</Stat_Thing_Terrain_Fine_Value>
   <!-- EN: This floor is considered fine and suitable for royalty. -->
@@ -347,41 +347,41 @@
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
-  <Stat_Thing_Drug_Chemical_Desc>裡頭的化學藥物。\n\n在某些情況下，多種不同藥物中存在相同的化學物質。這些不同的藥物將滿足不同的成癮性。</Stat_Thing_Drug_Chemical_Desc>
+  <Stat_Thing_Drug_Chemical_Desc>此藥物裡頭的化學物質。\n\n在某些情況下，不同藥物會含有相同的化學物質。這些不同的藥物將滿足同一種成癮性。</Stat_Thing_Drug_Chemical_Desc>
   <!-- EN: The category this drug belongs to. -->
   <Stat_Thing_Drug_Category_Desc>這種藥物所屬的類別。</Stat_Thing_Drug_Category_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>每次服用此藥物獲得的快樂度</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>每次服用此藥物獲得的亢奮度</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>每日服用此藥物的快樂衰減度</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>服用此藥物後的每日亢奮衰減度</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>此藥物的快樂度能持續多長時間。\n\n這是根據快樂度的獲得率和下降率計算出來的。</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>此藥物的亢奮度能持續多長時間。\n\n這是根據亢奮度的獲得率和下降率計算出來的。</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
-  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>使用者對每種藥物的耐受性會增加多少。\n\n同樣的化學藥物，會因為不同的形式，產生不同的結果。</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>使用者對此藥物的耐受性會增加多少。\n\n同樣的化學物質，會因為不同的形式，產生不同的數值。</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
-  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>使用者對化學藥物耐受性的每日下降率</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>使用者對化學物質耐受性的每日下降率</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
   <Stat_Thing_Drug_MinToleranceForAddiction_Desc>新藥物成癮所需的最低耐受性。\n\n如果使用者低於此水平，他們就不會因服用某種藥物而上癮。</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>如果使用者從未服用過藥物，則永遠不會成癮。\n\n這是根據成癮者對藥物的最低耐受性、每次服用的耐受性增加、下降速率計算得出的。\n\n請注意，某些藥物並不安全。這樣的藥物只要一服用就會成癮。</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>如果使用者不會比這更頻繁地服用藥物，則永遠不會成癮。\n\n這是根據成癮者對藥物的最低耐受性、每次服用的耐受性增加、下降速率計算得出的。\n\n請注意，某些藥物並不安全。這樣的藥物只要一服用就會成癮。</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
-  <Stat_Thing_Drug_RandomODChance_Desc>服用此藥物的成癮機率。無論服用多少、有無經驗，都有機會成癮。</Stat_Thing_Drug_RandomODChance_Desc>
+  <Stat_Thing_Drug_RandomODChance_Desc>服用此藥物的而發生用藥過量的機率。無論服用多少、有無經驗，都有機會發生用藥過量。</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>藥物的成癮性。\n\n如果藥物對成癮者有最低耐受性，則耐受性必須高於此水平才會成癮。如果沒有最低耐受性，就隨時有可能成癮。</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>服用此藥物而成癮的機率。\n\n如果藥物對成癮者有最低耐受性，則耐受性必須高於那水平才會成癮。如果沒有最低耐受性，就隨時有可能成癮。</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
-  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>此藥物的嚴重度所引起的新成癮。\n\n服用更多藥物會增加成癮的嚴重度，這會隨著時間而減少。</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>此藥物所引起的新成癮的起始嚴重度。\n\n服用更多藥物會增加成癮的嚴重度，否則會隨著時間而減少。</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
-  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>此藥物的成癮恢復所需的時間。\n\n這是根據成癮嚴重度除以成癮恢復率計算得出的。繼續服用藥物的話，成癮恢復時間就越長。</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>此藥物的成癮恢復所需的時間。\n\n這是根據初期成癮嚴重度除以成癮恢復率計算得出的。繼續服用藥物的話，成癮恢復時間就越長。</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
-  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>每次服用此藥物會增加多少的成癮嚴重度。\n\n成癮嚴重度不能超過100％。</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>每次服用此藥物會增加多少的成癮嚴重度。\n\n成癮嚴重度不會超過100％。</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
   <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>成癮者需要服用多少藥物才能預防藥物戒斷。\n\n這是根據成癮者的需求下降率和需求量來計算的。</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
-  <Stat_Thing_Drug_AddictionNeedOffset_Desc>成癮者需要多少此藥物才能滿足的化學藥物。</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>成癮者服用此藥物所獲得的化學物質需求。</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
-  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>成癮者對化學藥物需求的下降率。</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>成癮者對化學物質需求的下降率。</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc>成癮每天不停消耗的藥物市場價值。\n\n這是根據成癮者藥物需求量、需求下降率、藥物市場價值計算得出的。\n\n請注意，可能有其他方法可以用不同價格獲得同樣的化學藥物。</Stat_Thing_Drug_AddictionCost_Desc>
+  <Stat_Thing_Drug_AddictionCost_Desc>為滿足成癮而每天不斷消耗的藥物市場價值。\n\n這是根據成癮者藥物需求量、需求下降率、藥物市場價值計算得出的。\n\n請注意，可能有其他方法可以用不同價格獲得同樣的化學物質。</Stat_Thing_Drug_AddictionCost_Desc>
 
   <!-- EN: Style -->
   <Stat_Thing_StyleLabel>風格</Stat_Thing_StyleLabel>
