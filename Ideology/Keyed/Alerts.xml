@@ -32,7 +32,7 @@
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>若想開始儀式，請選擇目標對象，按下「{RITUAL_label}開始」指令按鈕，以下是可選擇的目標對象:\n{1}</RitualTargetsExplanation>
   <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>以下的職責是包含在{RITUAL_label}內:\n{1}</RitualRolesExplanation>
+  <RitualRolesExplanation>以下的職責是{RITUAL_label}的一部份:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>請點擊以跳轉到目標</RitualJumpToTargets>
   <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
@@ -78,13 +78,13 @@
   <AncientAltarThreatsWakingDesc>安全威脅將在{0}後啟動，他們將會攻擊任何威脅到聖物的人。</AncientAltarThreatsWakingDesc>
 
   <!-- EN: Ritual opportunity soon -->
-  <AlertRitualComing>儀式時機即將來臨</AlertRitualComing>
+  <AlertRitualComing>儀式日即將來臨</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
-  <AlertRitualComingDesc>以下的儀式時機將近</AlertRitualComingDesc>
+  <AlertRitualComingDesc>將可以舉行以下的儀式</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
-  <AlertRitualComingExtra>將會在{0}天後錯過，直至明年的同一天才再有機會。</AlertRitualComingExtra>
+  <AlertRitualComingExtra>需要在{0}天內舉行，否則要待明年才能再辦。</AlertRitualComingExtra>
   <!-- EN: {0} on {1}, {2} left -->
-  <AlertRitualComingEntry>{0}於{1}，剩下{2}</AlertRitualComingEntry>
+  <AlertRitualComingEntry>在{2}後，於{1}舉行的{0}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>需要逆齡</AlertAgeReversalDemandNear>
@@ -97,19 +97,19 @@
   <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
   <AlertAgeReversalDemandDesc_Initial>{PAWN}希望在{DURATION}內進行第一次療程。</AlertAgeReversalDemandDesc_Initial>
   <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Overdue>{PAWN}的療程已過期了{DURATION}。</AlertAgeReversalDemandDesc_Overdue>
+  <AlertAgeReversalDemandDesc_Overdue>{PAWN}的療程已超時了{DURATION}。</AlertAgeReversalDemandDesc_Overdue>
 
   <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
   <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_nameDef}對{IDEO_name}的信念阻止了{PAWN_objective}吃{ANIMALS}的肉。</AlertRoyalTitleNoVeneratedAnimalMeat>
 
   <!-- EN: Dryad caste not set -->
-  <AlertGauranlenTreeWithoutDryadTypeLabel>樹精的種類未設置</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <AlertGauranlenTreeWithoutDryadTypeLabel>未設置樹精種類</AlertGauranlenTreeWithoutDryadTypeLabel>
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
   <AlertGauranlenTreeWithoutDryadTypeDesc>一棵或多棵高嵐樹沒有設置他們的樹精種類。\n\n選擇高嵐樹並按下「{0}」按鈕以設置樹精種類。</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
   <AlertConnectedPawnNotAssignedToPlantCuttingLabel>高嵐樹連結者未被分配採收工作</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有高嵐樹設置為需要修剪，但他們的連結者未被分配採收工作。\n\n你應該分配採收工作給以下的人</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有高嵐樹設置為需要修剪，但他們的聯結者未被分配採收工作。\n\n你應該分配採收工作給以下的人</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>燃料節點將在{0}爆炸</AlertFuelNodeIgniting>
