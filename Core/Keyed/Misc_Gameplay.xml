@@ -91,9 +91,9 @@
   <!-- EN: Drop -->
   <DropThing>卸下</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>臨時派系成員不會丟掉他們身上的物品。</DropThingLodger>
+  <DropThingLodger>臨時派系成員不會放下他們身上的物品。</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
-  <DropThingLocked>此人拒絕丟掉。</DropThingLocked>
+  <DropThingLocked>此人拒絕放下。</DropThingLocked>
   <!-- EN: Rename -->
   <Rename>重新命名</Rename>
   <!-- EN: Rename animal -->
@@ -649,7 +649,7 @@
   <!-- EN: Large pen -->
   <PenSizeDesc_Large>大飼養圈</PenSizeDesc_Large>
   <!-- EN: Not enclosed - build fences -->
-  <PenSizeDesc_Unenclosed>尚未圍住 - 建造柵欄</PenSizeDesc_Unenclosed>
+  <PenSizeDesc_Unenclosed>尚未圍住 - 請建造柵欄</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
   <PenCapacityDesc>{ANIMALDEF_label}</PenCapacityDesc>
   <!-- EN: Example animals -->
@@ -854,7 +854,7 @@
   <!-- EN: Queued -->
   <Queued>等候處理中</Queued>
   <!-- EN: State -->
-  <State>屬性</State>
+  <State>狀態</State>
   <!-- EN: stun -->
   <StunLower>暈眩</StunLower>
 
