@@ -15,7 +15,7 @@
   <!-- EN: Title privileges -->
   <RoyalTitleTooltipPermits>頭銜特權</RoyalTitleTooltipPermits>
   <!-- EN: Holders of this title must be covered in some combination of -->
-  <RoyalTitleRequiredApparelStatDescription>此頭銜的持有者必須在以下幾種方式組合使用</RoyalTitleRequiredApparelStatDescription>
+  <RoyalTitleRequiredApparelStatDescription>此頭銜的持有者必須從以下服裝挑選穿搭</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
   <ApparelRequirementAnyPrestigeArmor>任意威嚴裝甲</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
@@ -33,7 +33,7 @@
 
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
-  <RoyalImplantIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{IMPLANT}。\n\n{VIOLATIONTRIGGER},{FACTION_name}很有可能會檢測到其心靈訊號。這將導致嚴重的外交矛盾。</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{IMPLANT}。\n\n{VIOLATIONTRIGGER}，{FACTION_name}很有可能會檢測到其心靈訊號。這將導致嚴重的外交後果。</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>要安裝這個植入物嗎?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
@@ -49,7 +49,7 @@
   
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
-  <AbilityTargetPsychicallyDeaf>目標對象為心靈失聰者。</AbilityTargetPsychicallyDeaf>
+  <AbilityTargetPsychicallyDeaf>目標對象為心靈障壁者。</AbilityTargetPsychicallyDeaf>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>對於{PAWN_labelShort}，這是非法的。需要{TITLE}頭銜。</PsycastIsIllegal>
 
