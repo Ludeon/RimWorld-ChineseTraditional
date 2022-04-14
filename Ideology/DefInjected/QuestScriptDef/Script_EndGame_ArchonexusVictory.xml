@@ -60,7 +60,7 @@
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   -->
   <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->安全地保管好第一張遠古聯繫地圖後，你將預備你的旅程的下一步。\n\n[cycle1Faction]和你分享了關於曾經毀滅世界的一場大災難。一世紀前人類在此製作了一台超級智能機器。它轉向對付人類並引發大戰。直至那台機器超然至另一世界並陷入沉睡，剩下幾名人類才得以倖存。\n\n前往遠古聯繫的地圖總共有三片，而你擁有其中一片。[otherMapPartHolders]也每人擁有一片地圖。他們會以他們的地圖和你交易你富有的新殖民地以及研究到的科技。[descriptionStudyRequirement]\n\n是時候建設新地方了。</li>
+    <li>questDescription->安全地保管好第一張遠古聯繫地圖後，你將預備你的旅程的下一步。\n\n[cycle1Faction]和你分享了關於曾經毀滅世界的一場大災難。許多世紀前，人類製作了一台超級智能機器。它轉向對付人類並引發大戰。直至那台機器昇華至另一世界並陷入沉睡，剩下幾名人類才得以倖存。\n\n前往遠古聯繫的地圖總共有三片，而你擁有其中一片。[otherMapPartHolders]也每人擁有一片地圖。他們會以他們的地圖和你交易你富有的新殖民地以及研究到的科技。[descriptionStudyRequirement]\n\n是時候建設新地方了。</li>
     <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
     <li>cycle1Faction(factionless==true)->[wildPeople]</li>
     <li>otherMapPartHolders(factionless==false)->[roughOutlander_name]和[roughTribe_name]</li>
