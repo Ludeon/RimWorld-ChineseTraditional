@@ -18,7 +18,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive}期望永遠不會低於{1}。</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>因為{PAWN_labelShort}為{1}，因此{PAWN_pronoun}將要求完全尊重此頭銜的權力。{PAWN_pronoun}可能會拒絕從事某些工作或吃低等食物，並且會頒布法令。</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>因為{PAWN_labelShort}為{1}，因此{PAWN_pronoun}將要求完全尊重此頭銜的待遇。{PAWN_pronoun}可能會拒絕從事某些工作或吃低等食物，並且會頒布法令。</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort}從{FACTION_name}獲得了{TITLE}的頭銜！</LetterGainedRoyalTitle>
@@ -116,7 +116,7 @@
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
   <LetterSpeechInspiredListeners>這些人被這場演講感動，現在受到啟發：</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>感謝{SPEAKER_nameIndef}的精彩演講，{PAWN_nameIndef}獲得了一個靈感！</LetterSpeechInspiration>
+  <LetterSpeechInspiration>由於{SPEAKER_nameIndef}的精彩演講，{PAWN_nameIndef}獲得了激勵！</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>由於演講進度在{0}後被打斷，因此效果不佳。</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
@@ -154,7 +154,7 @@
   
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterPsychicInspiration>感謝{CASTER_nameIndef}的心靈暗示，{PAWN_nameIndef}獲得了一個靈感！</LetterPsychicInspiration>
+  <LetterPsychicInspiration>由於{CASTER_nameIndef}的心靈暗示，{PAWN_nameIndef}獲得了激勵！</LetterPsychicInspiration>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->

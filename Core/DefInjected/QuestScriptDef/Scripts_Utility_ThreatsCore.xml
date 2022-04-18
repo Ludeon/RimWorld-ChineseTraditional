@@ -5,26 +5,26 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->這有一台可以將氣溫改變[temperatureOffset]度的(*Threat)氣候調節器(/Threat)</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->這有一台對[affectedGender]性起效的心靈干擾器</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->這有一台對[affectedGender]性起效的心靈抑制器</li>
-      <li>root(priority=1,sitePart==WeatherController)->這有一台會將整個區域的天氣改變為[weather_label]的天氣控制器</li>
-      <li>root(priority=1,sitePart==SmokeSpewer)->這個地區有一台不斷噴射煙霧的機器</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->這有一台對[affectedGender]性起效的(*Threat)心靈干擾器(/Threat)</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->這有一台對[affectedGender]性起效的(*Threat)心靈抑制器(/Threat)</li>
+      <li>root(priority=1,sitePart==WeatherController)->這有一台會將整個區域的天氣改變為[weather_label]的(*Threat)天氣控制器(/Threat)</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->這個地區有一台不斷噴射煙霧的(*Threat)煙霧產生器(/Threat)</li>
       <li>root(priority=1,sitePart==SunBlocker)->(*Threat)遮陽器(/Threat)讓整個地區都處於陰影之下</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->這有一台電磁干擾裝置正在運作，導致範圍內的電子設備無法運作</li>
-      <li>root(priority=1,sitePart==ToxicSpewer)->這個地區有一台機器在不斷噴射毒氣</li>
-      <li>root(priority=1,sitePart==RaidSource)->這有一塊被敵人x[enemiesCount]防守的軍事集結區，他們每[mtbDays]天就會對你發動襲擊</li>
-      <li>root(priority=1,sitePart==Outpost)->那裡有敵人x[enemiesCount]防衛的哨站</li>
-      <li>root(priority=1,sitePart==BanditCamp)->那裡有敵人x[enemiesCount]防衛的土匪營地</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->有[kindLabel]獸群在附近徘徊</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->有[kindLabel]x[count]的獸群在附近徘徊</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有休眠中的機械族</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有休眠中的機械族x[count]</li>
-      <li>root(priority=1,sitePart==Turrets)->有[threatsInfo]防衛這個地點</li>
-      <li>root(priority=1,sitePart==AmbushEdge)->一支敵軍正等著伏擊任何靠近的人</li>
-      <li>root(priority=1,sitePart==AmbushHidden)->一支敵軍正等著伏擊任何靠近的人</li>
-      <li>root(priority=1,sitePart==MechCluster)->這有一堆帶有敵意的機械結構體</li>
-      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->可能有未知的威脅</li>
-      <li>root->這[label]</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->這有一台(*Threat)電磁干擾裝置(/Threat)正在運作，導致範圍內的電子設備無法運作</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->這個地區有一台(*Threat)毒霧產生器(/Threat)在不斷噴射毒氣</li>
+      <li>root(priority=1,sitePart==RaidSource)->這有一塊被(*Threat)[enemiesLabel]x[enemiesCount](/Threat)防守的軍事集結區，他們每[mtbDays]天就會對你發動襲擊</li>
+      <li>root(priority=1,sitePart==Outpost)->那裡有(*Threat)[enemiesLabel]x[enemiesCount](/Threat)防衛的哨站</li>
+      <li>root(priority=1,sitePart==BanditCamp)->那裡有(*Threat)[enemiesLabel]x[enemiesCount](/Threat)防衛的土匪營地</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->有(*Threat)狂暴的[kindLabel]x1(/Threat)在附近徘徊</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->有(*Threat)狂暴的[kindLabel]x[count](/Threat)在附近徘徊</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有休眠中的(*Threat)機械族x1(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有休眠中的(*Threat)機械族x[count](/Threat)</li>
+      <li>root(priority=1,sitePart==Turrets)->有(*Threat)[threatsInfo](/Threat)防衛這個地點</li>
+      <li>root(priority=1,sitePart==AmbushEdge)->一支(*Threat)敵軍(/Threat)正等著伏擊任何靠近的人</li>
+      <li>root(priority=1,sitePart==AmbushHidden)->一支(*Threat)敵軍(/Threat)正等著伏擊任何靠近的人</li>
+      <li>root(priority=1,sitePart==MechCluster)->那裡有(*Threat)一堆帶有敵意的機械族建築(/Threat)</li>
+      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->可能有(*Threat)未知的威脅(/Threat)</li>
+      <li>root->這有一個[label]</li>
     </rulesStrings>
   </Util_GenerateSite.root.singleSitePartRules.slateRef>
   
