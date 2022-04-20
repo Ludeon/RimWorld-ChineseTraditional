@@ -18,7 +18,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive}期望永遠不會低於{1}。</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>因為{PAWN_labelShort}為{1}，因此{PAWN_pronoun}將要求完全尊重此頭銜的權力。{PAWN_pronoun}可能會拒絕從事某些工作或吃低等食物，並且會頒布法令。</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>因為{PAWN_labelShort}為{1}，因此{PAWN_pronoun}將要求完全尊重此頭銜的待遇。{PAWN_pronoun}可能會拒絕從事某些工作或吃低等食物，並且會頒布法令。</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort}從{FACTION_name}獲得了{TITLE}的頭銜！</LetterGainedRoyalTitle>
@@ -116,7 +116,7 @@
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
   <LetterSpeechInspiredListeners>這些人被這場演講感動，現在受到啟發：</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>感謝{SPEAKER_nameIndef}的精彩演講，{PAWN_nameIndef}獲得了一個靈感！</LetterSpeechInspiration>
+  <LetterSpeechInspiration>由於{SPEAKER_nameIndef}的精彩演講，{PAWN_nameIndef}獲得了激勵！</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>由於演講進度在{0}後被打斷，因此效果不佳。</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
@@ -146,7 +146,7 @@
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>獲得心靈連結</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort}已獲得{USER_possessive}第一級心靈連結！{USER_pronoun}現在是一個心靈能力者。\n\n要使用心靈能力，{USER_labelShort}必須通過冥想來建立精神力。如果人們在冥想時可以專注於特定的物體，可以提高冥想的效率。\n\n不同的人可以專注於不同的物體。這取決於此人的背景、特性和頭銜。例如：\n\n-擁有榮譽頭銜的心靈能力者會對王座冥想。\n-有部落童年的心靈能力者會對生命之樹和自然神社冥想。\n-苦行主義的心靈能力者會對空白牆壁冥想。\n-心理病態的心靈能力者會對墳墓冥想。\n\n你可以通過使用"i"按鈕看某人的訊息來查看他們的冥想焦點類型。</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort}已獲得{USER_possessive}第一級心靈連結！{USER_pronoun}現在是一個心靈能力者。\n\n要使用心靈能力，{USER_labelShort}必須通過冥想來建立精神力。如果人們在冥想時可以聚焦於特定的物體，可以提高冥想的效率。\n\n不同的人各有不同的焦點。這取決於此人的背景、特性和頭銜。例如：\n\n-擁有榮譽頭銜的心靈能力者會對王座冥想。\n-有部落童年的心靈能力者會對生命之樹和自然神社冥想。\n-苦行主義的心靈能力者會對空白牆壁冥想。\n-心理病態的心靈能力者會對墳墓冥想。\n\n你可以通過使用"i"按鈕看某人的訊息來查看他們的冥想焦點類型。</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
   <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}獲得了更高級的心靈連結！{USER_pronoun}現在可以使用更高等級的心靈能力，但是{USER_pronoun}需要先學習到它們。</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
@@ -154,7 +154,7 @@
   
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterPsychicInspiration>感謝{CASTER_nameIndef}的心靈暗示，{PAWN_nameIndef}獲得了一個靈感！</LetterPsychicInspiration>
+  <LetterPsychicInspiration>由於{CASTER_nameIndef}的心靈暗示，{PAWN_nameIndef}獲得了激勵！</LetterPsychicInspiration>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->

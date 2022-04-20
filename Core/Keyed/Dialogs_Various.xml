@@ -523,17 +523,17 @@
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>點擊以查看派系</ClickToViewFactions>
   <!-- EN: meditation focus types -->
-  <MeditationFocuses>冥想專注類型</MeditationFocuses>
+  <MeditationFocuses>冥想焦點類型</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
-  <MeditationFocusesUnlocked>解鎖冥想專注類型</MeditationFocusesUnlocked>
+  <MeditationFocusesUnlocked>解鎖冥想焦點類型</MeditationFocusesUnlocked>
   <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
-  <MeditationFocusesPawnDesc>此人可以使用冥想專注的類型。冥想的人可以專注在一個物件上，以改善精神力的成長，但前提是該物件可以提供的集中類型。每個人的冥想類型取決於他們的背景、特性、社會地位等。</MeditationFocusesPawnDesc>
+  <MeditationFocusesPawnDesc>此人可以使用冥想焦點的類型。冥想的人可以聚焦在一個物件上，以加速獲取精神力，但前提是該物件是可用的焦點類型。每個人的冥想類型取決於他們的背景、特性、社會地位等。</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
-  <MeditationFocusesDesc>此物件提供的冥想專注類型。冥想的人可以專注在一個物件上，以改善精神力的成長，但前提是他們能夠使用的冥想類型。 每個人可以使用的冥想類型取決於他們的背景，特性，社會地位等。</MeditationFocusesDesc>
+  <MeditationFocusesDesc>此物件提供的冥想焦點類型。冥想的人可以聚焦在此物件上，以加速獲取精神力，但前提是他們可以使用它的焦點類型。 每個人可以使用的冥想類型取決於他們的背景，特性，社會地位等。</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
-  <MeditationFocusCanUse>可以使用{0}的集中類型，因為</MeditationFocusCanUse>
+  <MeditationFocusCanUse>可以使用{0}的焦點類型，因為</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
-  <MeditationFocusObjects>{0}專注物件</MeditationFocusObjects>
+  <MeditationFocusObjects>{0}焦點</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
   <MeditationFocusEnabledByTitle>擁有頭銜：{TITLE}({FACTION_name})</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
@@ -545,7 +545,7 @@
   <!-- EN: does not have trait -->
   <MeditationFocusDisabledByTrait>沒有抵觸特性</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
-  <EnablesMeditationFocusType>使用冥想專注類型</EnablesMeditationFocusType>
+  <EnablesMeditationFocusType>允許冥想焦點類型</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
