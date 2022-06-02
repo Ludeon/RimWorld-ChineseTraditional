@@ -423,7 +423,7 @@
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>{1}的{0}x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>必須</Required>
+  <Required>要求</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>警告：你無法使用運輸艙完成交易請求。\n如果發射這批貨物，據點會直接當作禮物收下，並不會給你報酬。\n\n如果你希望交易，請以旅隊形式拜訪據點！\n\n你確定要將裝載的禮物發送給目標派系嗎？</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
@@ -860,9 +860,11 @@
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速重複點擊同一點來選擇。</SelectNextInSquareTip>
+  <SelectNextInSquareTip>選擇同一方格的下一個物件。\n\n快捷鍵：{0}\n\n你也可以慢速再次點擊同一點來選擇。</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>查看關於這個物件的訊息。</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>選擇同一方格的下一個物件。\n\n你也可以慢速再次點擊同一點來選擇。</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1013,12 +1015,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>當沒有新訊息時隱藏教學幫手。\n\n當有新的教學時會顯示教學幫手，開啟這項功能能在沒有東西可以學習時隱藏教學幫手。</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>切換區域的可見性。</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
   <ShowBeautyToggleButton>切換美觀度的可見性。\n\n以滑鼠游標模擬角色所在的位置，顯示周圍環境的美觀度。</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
   <ShowRoomStatsToggleButton>切換房間屬性的可見性。\n\n顯示滑鼠游標所在房間的房間屬性。</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>顯示或隱藏殖民者快捷列。\n\n殖民者快捷列會將所有殖民者的圖像顯示在畫面頂部。</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>顯示或隱藏殖民者快捷列。\n\n殖民者快捷列會將所有殖民者的圖像顯示在畫面頂部。\n\n你可以長按右鍵拖曳來排列殖民者們。</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>顯示或隱藏殖民者快捷列。\n\n殖民者快捷列會將所有殖民者的圖像顯示在畫面頂部。\n\n你可以長按LT拖曳來排列殖民者們。</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>自動於新建造的建築附近添加生活區。</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1323,10 +1327,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>以{0}為準計算</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>滑鼠右鍵：新增/移除中途點。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>LT：新增/移除中途點。</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC：離開計畫模式。</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}：離開計畫模式。</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC：返回至組織旅隊畫面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}：返回至組織旅隊畫面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>預估旅行時間：{0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1512,6 +1522,8 @@
   <NotParticipating>未參與</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>拖放或左/右點擊來移動人們。</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>拖放或點擊來移動人們。</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>一個奴隸。他人的人類財產。</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
