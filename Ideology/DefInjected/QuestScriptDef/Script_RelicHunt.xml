@@ -2,17 +2,19 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
+    <li>questDescription(classicMode==True)->You've learned that a valuable relic is nearby.\n\nThe [relic_name] is one of [relicGlobalCount] ancient objects venerated by many people. If you could collect it, you could build a reliquary to make your colonists happy and attract wealthy pilgrims.</li>
+    <li>questDescription(classicMode==False)->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
   <RelicHunt.questDescriptionRules.rulesStrings>
-    <li>questDescription->你已得知[ideo_name]的聖物位於附近。\n\n[relic_name]是被所有[ideo_memberNamePlural]崇拜的遠古文物。如果你獲得了它，你就可以建造聖物箱，使[ideo_memberNamePlural]變得高興、吸引朝聖者、並為[ideo_name]帶來更多信徒。</li>
+    <li>questDescription(classicMode==True)->你已得知珍貴的聖物位於附近。\n\n[relic_name]是[relicGlobalCount]個受眾人崇拜的遠古文物的其中之一。如果你獲得了它，你就可以建造聖物箱，使你的居民變得高興、並吸引朝聖者。</li>
+    <li>questDescription(classicMode==False)->你已得知[ideo_name]的聖物位於附近。\n\n[relic_name]是被所有[ideo_memberNamePlural]崇拜的遠古文物。如果你獲得了它，你就可以建造聖物箱，使[ideo_memberNamePlural]變得高興、吸引朝聖者、並為[ideo_name]帶來更多信徒。</li>
     <li>questDescriptionPartBeforeDiscovery->首先，你需要找到[relic_name]。保持留意那些能夠獲取情報的機會。</li>
   </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [hunt] for the [item]</li>
-    <li>questName->The [item] of [ideo_name]</li>
     <li>questName->The [itemAdj] [item]</li>
+    <li>questName(classicMode==False)->The [item] of [ideo_name]</li>
     <li>hunt->hunt</li>
     <li>hunt->search</li>
     <li>hunt->quest</li>
@@ -25,8 +27,8 @@
   -->
   <RelicHunt.questNameRules.rulesStrings>
     <li>questName->[item][hunt]</li>
-    <li>questName->[ideo_name]的[item]</li>
     <li>questName->[itemAdj][item]</li>
+    <li>questName(classicMode==False)->[ideo_name]的[item]</li>
     <li>hunt->尋蹤</li>
     <li>hunt->的搜索行動</li>
     <li>hunt->的任務</li>

@@ -24,7 +24,9 @@
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>多數殖民者需要救援</ColonistsNeedRescue>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDesc>這些殖民者倒在地上無法行動：\n\n{0}\n派遣另一名殖民者去救援他們並帶到床上。\n\n先選擇其他殖民者，然後右鍵點擊需要救援的人並選擇「救援」。</ColonistsNeedRescueDesc>
+  <ColonistsNeedRescueDesc>這些殖民者倒在地上無法行動：\n\n{0}\n派遣另一名殖民者去救援他們並帶到床上。\n\n(先選擇其他殖民者，然後右鍵點擊需要救援的人並選擇「救援」。)</ColonistsNeedRescueDesc>
+  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
+  <ColonistsNeedRescueDescController>這些殖民者倒在地上無法行動：\n\n{0}\n派遣另一名殖民者去救援他們並帶到床上。\n\n(先選擇其他殖民者，然後在需要救援的人身上按下LT並選擇「救援」。)</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>需要防衛工事</NeedDefenses>
@@ -159,7 +161,9 @@
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
   <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>這些殖民者需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的居民，右擊點擊病床將他們設為患者。)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDesc>這些殖民者需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的居民，右擊點擊病床給他們安置好。)</ColonistNeedsTreatmentDesc>
+  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and press the left trigger button on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDescController>這些殖民者需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的居民，在病床上按下LT給他們安置好。)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>低溫症</AlertHypothermia>

@@ -17,14 +17,10 @@
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
   <SlavesUnattendedDesc>地圖上有多名奴隸獨處，周圍沒有殖民者存在。\n\n持續沒有人監視奴隸的話，數天又或者數小時內發生暴動的可能性很高。</SlavesUnattendedDesc>
 
-  <!-- EN: {0} expected -->
-  <RitualExpected>殖民者期望{0}的儀式</RitualExpected>
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>{0}的時機</RitualOpportunity>
-  <!-- EN: {0} expected for -->
-  <RitualExpectedFor>期望{0}給</RitualExpectedFor>
-  <!-- EN: {0} days: Ritual opportunity ends. -->
-  <RitualExpirationTime>{0}日: 儀式時機就會結束</RitualExpirationTime>
+  <!-- EN: {0} opportunity for -->
+  <RitualOpportunityFor>{0}的時機於</RitualOpportunityFor>
   <!-- EN: Expires in -->
   <RitualExpiresIn>離期限結束還有</RitualExpiresIn>
   <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
@@ -35,10 +31,6 @@
   <RitualRolesExplanation>以下的職責是{RITUAL_label}的一部份:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>請點擊以跳轉到目標</RitualJumpToTargets>
-  <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
-  <RitualObligationDelayEffects>若{RITUAL_labelDef}延期，會產生以下的影響</RitualObligationDelayEffects>
-  <!-- EN: {0} days: {1} mood on all {2}s. -->
-  <RitualObligationDelayEffectDesc>{0}天: 全部的{2}的心情將{1}</RitualObligationDelayEffectDesc>
   <!-- EN: In order to perform {0} you need to fill these roles -->
   <RitualUnfilledRoles>若想執行{0}，需要有以下職位的人</RitualUnfilledRoles>
 
@@ -139,6 +131,11 @@
   <AlertSlaveRebellionLikelyMostRebellious>約每{COMBINEDTIME}可能會有一場奴隸叛變。留意，每名奴隸有著不同的叛變機率，所以他們之中任何一名叛變都有可能帶動其他人一起作反。\n\n{REBEL_labelShort}是最有可能叛變的奴隸，並可能會每{INDIVIDUALTIME}發動一場叛變。以下是影響他們叛變頻率的因素︰</AlertSlaveRebellionLikelyMostRebellious>
   
   <!-- UNUSED -->
+  <RitualExpected>殖民者期望{0}的儀式</RitualExpected>
+  <RitualExpectedFor>期望{0}給</RitualExpectedFor>
+  <RitualExpirationTime>{0}日: 儀式時機就會結束</RitualExpirationTime>
+  <RitualObligationDelayEffects>若{RITUAL_labelDef}延期，會產生以下的影響</RitualObligationDelayEffects>
+  <RitualObligationDelayEffectDesc>{0}天: 全部的{2}的心情將{1}</RitualObligationDelayEffectDesc>
   <AlertNoRecentSlaughter>近期沒有屠宰</AlertNoRecentSlaughter>
   <AlertNoRecentSlaughterDesc>近期沒有屠宰大型{0}動物。這對以下信仰是必要的</AlertNoRecentSlaughterDesc>
   <BodySizeOrAbove>身體大小為{0}或以上</BodySizeOrAbove>
