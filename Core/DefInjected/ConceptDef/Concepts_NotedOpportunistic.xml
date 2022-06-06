@@ -20,6 +20,8 @@
   <Capturing.label>俘虜</Capturing.label>
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
   <Capturing.helpText>如果有敵人倒在地上而未死亡，你可以俘虜他們。\n\n選擇一名居民，右鍵點擊欲俘虜的對象，再選擇「俘虜」。\n\n你需要一張指定為俘虜專用的空床才可進行俘虜。</Capturing.helpText>
+  <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
+  <Capturing.helpTextController>如果有敵人倒在地上而未死亡，你可以俘虜他們。\n\n選擇一名居民，在欲俘虜的對象上按下LT，再選擇「俘虜」。\n\n你需要一張指定為俘虜專用的空床才可進行俘虜。</Capturing.helpTextController>
   
   <!-- EN: Door opening speeds -->
   <DoorOpenSpeed.label>開門速度</DoorOpenSpeed.label>
@@ -50,16 +52,22 @@
   <GroupGotoHereDragging.label>列隊定位</GroupGotoHereDragging.label>
   <!-- EN: Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
   <GroupGotoHereDragging.helpText>右鍵單擊並拖動，讓徵召士兵排成一列。\n\n散開 - 大群集中的目標很容易被擊中！ </GroupGotoHereDragging.helpText>
+  <!-- EN: Hold the left trigger button and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
+  <GroupGotoHereDragging.helpTextController>按住LT並拖動，讓徵召士兵排成一列。\n\n散開 - 大群集中的目標很容易被擊中！</GroupGotoHereDragging.helpTextController>
   
   <!-- EN: Interacting with traders -->
   <InteractingWithTraders.label>旅隊交易</InteractingWithTraders.label>
   <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to his head. -->
   <InteractingWithTraders.helpText>你可以與頭上帶有「？」標誌的角色交易。\n\n選擇一名居民，然後右鍵點擊帶有？標誌的對象。</InteractingWithTraders.helpText>
+  <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and press the left trigger button on the character with ? attached to his head. -->
+  <InteractingWithTraders.helpTextController>你可以與頭上帶有「？」標誌的角色交易。\n\n然後在帶有？標誌的對象身上按下LT。</InteractingWithTraders.helpTextController>
   
   <!-- EN: Using the comms console -->
   <OpeningComms.label>通訊台</OpeningComms.label>
   <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
   <OpeningComms.helpText>要進行通訊，選擇一名居民並右鍵點擊通訊台。</OpeningComms.helpText>
+  <!-- EN: To communicate, select a colonist and press the left trigger button on the comms console. -->
+  <OpeningComms.helpTextController>要進行通訊，選擇一名居民並在通訊台上按下LT。</OpeningComms.helpTextController>
   
   <!-- EN: Prisoner tab -->
   <PrisonerTab.label>俘虜介面</PrisonerTab.label>
@@ -70,6 +78,8 @@
   <QueueOrders.label>排程命令</QueueOrders.label>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
   <QueueOrders.helpText>向單位下令時，你可以透過長按Shift鍵連續指派多個指令，這也適用於未徵召的單位。</QueueOrders.helpText>
+  <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns. -->
+  <QueueOrders.helpTextController>向單位下令時，你可以透過長按{Key:QueueOrder}鍵連續指派多個指令，這也適用於未徵召的單位。</QueueOrders.helpTextController>
   
   <!-- EN: Reforming caravans -->
   <ReformCaravan.label>重組旅隊</ReformCaravan.label>
@@ -80,6 +90,8 @@
   <Rescuing.label>救援</Rescuing.label>
   <!-- EN: To rescue a wounded person, select a healthy colonist and then right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
   <Rescuing.helpText>想要救援倒地的人員，選擇一名能夠行動的居民，再右鍵點擊救援對象。\n\n如果你救援的不是殖民地的居民，他們不會加入你的殖民地，而是在恢復行動能力後離開。如果你希望他加入殖民地，選擇俘虜後再招募他。</Rescuing.helpText>
+  <!-- EN: To rescue a wounded person, select a healthy colonist and then press the left trigger button on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <Rescuing.helpTextController>想要救援倒地的人員，選擇一名能夠行動的居民，再在救援對象身上按下LT。\n\n如果你救援的不是殖民地的居民，他們不會加入你的殖民地，而是在恢復行動能力後離開。如果你希望他加入殖民地，選擇俘虜後再招募他。</Rescuing.helpTextController>
   
   <!-- EN: Set what plant to grow -->
   <SetGrowingZonePlant.label>劃設種植區</SetGrowingZonePlant.label>
