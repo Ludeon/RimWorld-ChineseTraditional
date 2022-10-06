@@ -50,6 +50,8 @@
   <TabTransporterContents>內容物</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>內容物</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>TODO</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -122,6 +124,23 @@
   <ConsideredGuilty>被判有罪({0}後到期)</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>被判有罪</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>TODO</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>TODO</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>TODO</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>TODO</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>TODO</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>TODO</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>TODO</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -168,9 +187,9 @@
   <WontBleedOutSoon>無立即危險</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>概觀</HealthOverview>
-  <!-- EN: Operations ({0}) -->
+  <!-- EN: Operations -->
   <MedicalOperationsShort>手術({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
+  <!-- EN: Modifications -->
   <MedicalOperationsMechanoidsShort>修正({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>手術</MedicalOperations>
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>社交影響</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>飢餓率</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>TODO</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>疲勞率</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>前提條件：{0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(無社交關係)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>綁架</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,9 +272,9 @@
   <Slave>奴隸</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>派系首領</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
+  <!-- EN: Opinion of {0} -->
   <OpinionOf>對{1_labelShort}的看法</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
+  <!-- EN: {0}'s opinion of me -->
   <SomeonesOpinionOfMe>{1_labelShort}對我的看法</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>我死了</IAmDead>
@@ -398,7 +417,13 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>飼養圈未圍住</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>飼養圈目前沒有圍住，無法執行自動裁剪植物。</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>TODO</WindTurbineAutoCut_EnabledCheckbox>
+
+  <!-- UNUSED -->
+  <NoRelationships>(無社交關係)</NoRelationships>
 
 </LanguageData>

@@ -1,15 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
   <Audiovisuals>視聽</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>TODO</MasterVolume>
   <!-- EN: Game volume -->
   <GameVolume>遊戲音量</GameVolume>
   <!-- EN: Music volume -->
   <MusicVolume>音樂音量</MusicVolume>
-  <!-- EN: Ambient volume -->
+  <!-- EN: Ambience volume -->
   <AmbientVolume>環境音量</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>TODO</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>TODO</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>TODO</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>TODO</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>TODO</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>TODO</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>抗鋸齒</Antialiasing>
 
@@ -20,11 +34,11 @@
   <PauseOnLoad>於讀取時暫停</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>於接到重要通知時暫停遊戲</PauseOnUrgentLetter>
-  <!-- EN: Pause on -->
+  <!-- EN: Pause on letter -->
   <AutomaticPauseModeSetting>暫停</AutomaticPauseModeSetting>
-  <!-- EN: Custom cursor -->
+  <!-- EN: Disable game-specific cursor -->
   <CustomCursor>替換游標</CustomCursor>
-  <!-- EN: Hats shown only on game map -->
+  <!-- EN: Hide hats on UI -->
   <HatsShownOnlyOnMap>只在遊戲地圖中顯示帽子</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>UI尺寸</UIScale>
@@ -32,6 +46,8 @@
   <KeyboardConfig>快捷鍵設定</KeyboardConfig>
   <!-- EN: Controller configuration -->
   <ControllerConfig>控制器設定</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>TODO</ModifyConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>變更語言</ChooseLanguage>
   <!-- EN: Reset learning helper -->
@@ -47,21 +63,29 @@
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>當遊戲崩潰時自動重置Mod</ResetModsConfigOnCrash>
   <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>模擬未持有「皇權」DLC</SimulateNotOwningRoyalty>
+  <SimulateNotOwningRoyalty>模擬為未持有「皇權」DLC</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>模擬未持有「理念」DLC</SimulateNotOwningIdeology>
+  <!-- EN: Simulate not owning Biotech -->
+  <SimulateNotOwningBiotech>TODO</SimulateNotOwningBiotech>
   <!-- EN: Verbose logging -->
   <LogVerbose>詳細日誌紀錄</LogVerbose>
-  <!-- EN: Open save data folder -->
-  <OpenSaveGameDataFolder>開啟存檔資料夾</OpenSaveGameDataFolder>
-  <!-- EN: Show save data location -->
-  <ShowSaveGameDataLocation>顯示存檔地址</ShowSaveGameDataLocation>
-  <!-- EN: Open log file folder -->
-  <OpenLogFileFolder>打開日誌資料夾</OpenLogFileFolder>
-  <!-- EN: Show log file location -->
-  <ShowLogFileLocation>顯示日誌資料位置</ShowLogFileLocation>
-  <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>TODO</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>TODO</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>TODO</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>TODO</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>TODO</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>TODO</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
   <NamesYouWantToSee>優先選擇玩家創作的角色。這些角色可能在遊戲中隨機出現：</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>TODO</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
   <AddName>新增名字</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
@@ -72,11 +96,13 @@
   <ChangeStoryteller>選擇故事敘述者</ChangeStoryteller>
   <!-- EN: Autosave interval -->
   <AutosaveInterval>自動保存間隔</AutosaveInterval>
-  <!-- EN: Temperature mode -->
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>TODO</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
   <TemperatureMode>溫度單位</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>顯示現實時間</ShowRealtimeClock>
-  <!-- EN: Disable tiny fonts -->
+  <!-- EN: Disable tiny font -->
   <DisableTinyText>禁用縮小字體</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>最大據點數量：{0}</MaxNumberOfPlayerSettlements>
@@ -96,12 +122,20 @@
   <TextureCompression>紋理壓縮</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>關閉紋理壓縮會使用更多影像記憶體，但會令紋理在細節中有更佳的表現。僅當你知道自己有多餘的影像記憶體才關閉此功能。\n\n注意使用某些Mod會消耗更多的影像記憶體，因此你可能需要在添加某些Mod後開啟它。</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>TODO</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>TODO</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
   <Resolution>解析度</Resolution>
   <!-- EN: Fullscreen -->
   <Fullscreen>全螢幕顯示</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>TODO</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>TODO</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
@@ -110,17 +144,25 @@
   <NoConfigurableMods>未載入任何可使用的mod。</NoConfigurableMods>
   
   <!-- Options reset -->
-  <!-- EN: Restore to default settings -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>TODO</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
   <RestoreToDefaultSettings>恢復為預設值</RestoreToDefaultSettings>
-  <!-- EN: Your options have been reset. The game will now restart automatically. -->
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
   <ResetAndRestart>你的設定值已經重置，遊戲將自動重啟。</ResetAndRestart>
-  <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>你的所有設置都將重置為預設設置，並且遊戲將重新啟動。所有未保存的進度將遺失！\n\n是否繼續？</ResetAndRestartConfirmationDialog>
-  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
   <ChangedTextureCompressionRestart>更改紋理壓縮選項需要重啟遊戲。未被儲存的進度將會遺失!\n\n是否繼續?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->
   <SetBackgroundImage>主選單背景</SetBackgroundImage>
+
+  <!-- UNUSED -->
+  <OpenSaveGameDataFolder>開啟存檔資料夾</OpenSaveGameDataFolder>
+  <ShowSaveGameDataLocation>顯示存檔地址</ShowSaveGameDataLocation>
+  <OpenLogFileFolder>打開日誌資料夾</OpenLogFileFolder>
+  <ShowLogFileLocation>顯示日誌資料位置</ShowLogFileLocation>
 
 </LanguageData>
