@@ -19,6 +19,8 @@
   <GameplayTips.WorkTabChangeAllColonists>在「工作」選項中按住Shift鍵並按一下工作類型名稱，即可一次性更改所有殖民者的該項設置。</GameplayTips.WorkTabChangeAllColonists>
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
   <GameplayTips.WorkTabDecreasePriority>在「工作」選項的手動優先順序模式下，對數字按右鍵會降低優先順序。</GameplayTips.WorkTabDecreasePriority>
+  <!-- EN: You can hold the alt key to show detailed information about a specific tile. -->
+  <GameplayTips.CellInspector>TODO</GameplayTips.CellInspector>
   <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
   <GameplayTips.GunfightCover>在槍戰中，請躲在掩體後面！按住滑鼠右鍵拖動讓你徵召的戰士列成一條線。</GameplayTips.GunfightCover>
   <!-- EN: Right-click and drag to have your drafted fighters form a line. Bunched-up targets are easy to hit! -->
@@ -57,13 +59,11 @@
   <GameplayTips.CaravanHitchingSpot>將旅隊拴繫點放在你想你的旅隊集結的位置。通常最好放在儲物區附近。</GameplayTips.CaravanHitchingSpot>
   <!-- EN: During encounters away from home, you can place a caravan hitching spot to keep your animals from wandering. -->
   <GameplayTips.CaravanHitchingSpotRoamers>在旅途中，你可以放置旅隊拴繫點來防止動物亂跑。</GameplayTips.CaravanHitchingSpotRoamers>
-  <!-- EN: Single-person caravans can be very useful in certain situations. -->
-  <GameplayTips.CaravanSinglePerson>某些情況下，單人旅隊非常實用。</GameplayTips.CaravanSinglePerson>
   <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
   <GameplayTips.CaravanRideableAnimals>如果旅隊中有像馬、驢、駱駝一樣可騎乘的動物，旅隊的移動速度會更快。</GameplayTips.CaravanRideableAnimals>
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>小型旅隊比較不會受到埋伏，因為可見性比較低。</GameplayTips.CaravanSmallerLessVisible>
-  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing post. This will make packing much faster. -->
+  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan hitching spot. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>組織旅隊之前，將物資運送到旅隊拴繫點附近的儲存區，以提昇效率。</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>如果你的旅隊中有尚未訓練的動物，可以在戰鬥前拆分成單獨旅隊，以防出現意外。</GameplayTips.CaravanUntrainedAnimals>
@@ -93,7 +93,9 @@
   <GameplayTips.TerrainMovementSpeed>地形會影響移動速度。建造地板以幫助你的殖民者更快地移動。</GameplayTips.TerrainMovementSpeed>
   <!-- EN: Different terrain has different inherent cleanliness levels. Tiles are inherently clean; dirt is inherently dirty. -->
   <GameplayTips.TerrainCleanliness>不同的地形有不同的清潔度。比如地磚本身就是乾淨的；泥土本身就是髒的。</GameplayTips.TerrainCleanliness>
-  <!-- EN: You can give prisoners as gifts. Giving a prisoner back to his own faction will be highly appreciated. -->
+  <!-- EN: Some floor types are faster to clean than others. It takes much longer to clean carpet compared to metal tile. -->
+  <GameplayTips.TerrainCleanSpeed>TODO</GameplayTips.TerrainCleanSpeed>
+  <!-- EN: You can give prisoners as gifts. Giving a prisoner back to their own faction will be highly appreciated. -->
   <GameplayTips.PrisonersAsGifts>你可以把俘虜當作禮物。或將俘虜還給該派系獲得讚賞。</GameplayTips.PrisonersAsGifts>
   <!-- EN: You can request specific types of trade caravans using the comms console. -->
   <GameplayTips.RequestTradeCaravans>你可以使用通訊台請求指定類型的旅隊。</GameplayTips.RequestTradeCaravans>
@@ -153,6 +155,7 @@
   <GameplayTips.PredatorsAndFences>掠食者不會狩獵在柵欄或路障對面的動物。</GameplayTips.PredatorsAndFences>
   
   <!-- UNUSED -->
+  <GameplayTips.CaravanSinglePerson>某些情況下，單人旅隊非常實用。</GameplayTips.CaravanSinglePerson>
   <GameplayTips.CaravanPackingSpot>設置旅隊裝卸點，以指定旅隊形成的位置。</GameplayTips.CaravanPackingSpot>
   
 </LanguageData>

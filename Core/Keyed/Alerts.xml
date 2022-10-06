@@ -72,7 +72,7 @@
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>獵人缺少遠程武器</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
+  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
   <HunterLacksWeaponDesc>有殖民者被指派做狩獵工作，但卻沒有遠程武器。\n\n在持有遠程武器之前，他們是不會去狩獵的。</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
@@ -130,8 +130,12 @@
 
   <!-- EN: Need batteries -->
   <NeedBatteries>需要電池</NeedBatteries>
-  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
+  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
   <NeedBatteriesDesc>你擁有太陽能板或風力風電機，卻沒有電池。這表示每次太陽下山後或是沒有風時，你就會斷電。\n\n建造一、兩個電池以確保電力持續供應。</NeedBatteriesDesc>
+  <!-- EN: Build a battery or two to guarantee sustained power. -->
+  <NeedBatteriesResearchedDesc>TODO</NeedBatteriesResearchedDesc>
+  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
+  <NeedBatteriesNotResearchedDesc>TODO</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>格鬥狂持有遠程武器</BrawlerHasRangedWeapon>
@@ -158,11 +162,11 @@
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
   <CaravanIdleDesc>旅隊正在等待著你設定的下一個目的地\n\n{0}</CaravanIdleDesc>
 
-  <!-- EN: Colonist needs treatment -->
+  <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>這些殖民者需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的居民，右擊點擊病床給他們安置好。)</ColonistNeedsTreatmentDesc>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and press the left trigger button on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDescController>這些殖民者需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的居民，在病床上按下LT給他們安置好。)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
@@ -191,6 +195,16 @@
   <BilliardsNeedsSpace>撞球桌需要空間</BilliardsNeedsSpace>
   <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>你有一張撞球桌的周圍受到阻擋，這將使你的殖民者無法使用它。\n\n撞球桌四周需要保持淨空才能使用。</BilliardsNeedsSpaceDesc>
+
+  <!-- EN: Chess table needs chairs -->
+  <ChessTablesNeedChairs>TODO</ChessTablesNeedChairs>
+  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
+  <ChessTablesNeedChairsDesc>TODO</ChessTablesNeedChairsDesc>
+
+  <!-- EN: Poker table needs chairs -->
+  <PokerTablesNeedChairs>TODO</PokerTablesNeedChairs>
+  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
+  <PokerTablesNeedChairsDesc>TODO</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>獵人持有護盾腰帶及遠程武器</HunterHasShieldAndRangedWeapon>
@@ -315,4 +329,9 @@
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
   <AlertMinifiedTreeAboutToDieDesc>{0}棵待移植的樹將在一天內逐漸凋零死亡。這可能會導致一些殖民者因理念關係而不開心。\n\n你可以藉由重新種植避免他們凋零。</AlertMinifiedTreeAboutToDieDesc>
 
+  <!-- EN: Need research bench -->
+  <NeedResearchBench>TODO</NeedResearchBench>
+  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
+  <NeedResearchBenchDesc>TODO</NeedResearchBenchDesc>
+  
 </LanguageData>
