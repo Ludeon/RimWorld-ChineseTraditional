@@ -114,13 +114,13 @@
   <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>必須指定可馴服的動物。</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned claimable structures or items. -->
-  <MessageMustDesignateClaimable>必須指定被遺棄的人造建築。</MessageMustDesignateClaimable>
+  <MessageMustDesignateClaimable>必須指定被遺棄的可佔據建築或物品。</MessageMustDesignateClaimable>
   <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
-  <MessageMustDesignatePaintableBuildings>TODO</MessageMustDesignatePaintableBuildings>
+  <MessageMustDesignatePaintableBuildings>必須指定可上漆的建築且未被漆成{0_label}。</MessageMustDesignatePaintableBuildings>
   <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
-  <MessageMustDesignatePaintableFloors>TODO</MessageMustDesignatePaintableFloors>
+  <MessageMustDesignatePaintableFloors>必須指定可上漆的地板且未被漆成{0_label}。</MessageMustDesignatePaintableFloors>
   <!-- EN: Must designate painted buildings or floors. -->
-  <MessageMustDesignatePainted>TODO</MessageMustDesignatePainted>
+  <MessageMustDesignatePainted>必須指定已上漆的建築或地板。</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
   <MessageMustDesignateDeconstructibleMechCluster>你必須先擊敗機械軍團，才能進行拆解。</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
@@ -140,9 +140,9 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>必須指定被禁用的物品。</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>TODO</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenThreatsAreNear>當附近有能夠戰鬥的{THREAT_factionPawnsPlural}，則無法佔據{CLAIMABLE_labelShort}。</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>TODO</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotAdoptWhileThreatsAreNear>當附近有能夠戰鬥的{THREAT_factionPawnsPlural}，則無法收下{CLAIMABLE_labelShort}。</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort}拒絕被拘捕！</MessageRefusedArrest>
@@ -152,7 +152,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>沒有可用的動物床。</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
-  <MessageWarningNoMedicineForRestriction>TODO</MessageWarningNoMedicineForRestriction>
+  <MessageWarningNoMedicineForRestriction>警告︰{PAWN_nameDef}的藥品限制({RESTRICTIONLABEL})妨礙手術正常進行。請考慮更改{PAWN_possessive}藥品限制。</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort}死亡了。死因：{1}。</PawnDiedBecauseOf>
@@ -698,7 +698,7 @@
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0}必須是人類。</MessageRitualRoleMustBeHumanlike>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeABaby>TODO</MessageRitualRoleCannotBeABaby>
+  <MessageRitualRoleCannotBeABaby>{0}不能是一名嬰兒。</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>{0_labelShort}沒有可用的角色。</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
@@ -708,7 +708,7 @@
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort}不需要更多的傷痕。</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0_labelShort} does not require blinding. -->
-  <MessageRitualRoleMustRequireBlinding>TODO</MessageRitualRoleMustRequireBlinding>
+  <MessageRitualRoleMustRequireBlinding>{0_labelShort}不需要除目。</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0}必須是俘虜或奴隸。</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -732,9 +732,9 @@
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>{0}角色必須是殖民者。</MessageRitualRoleMustBeColonist>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
-  <MessageRitualWontAttendExtremeTemperature>TODO</MessageRitualWontAttendExtremeTemperature>
+  <MessageRitualWontAttendExtremeTemperature>由於儀式場地的極端溫度，{0_labelShort}不會參與儀式。</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
-  <MessageRitualRoleMustBeFreeColonist>TODO</MessageRitualRoleMustBeFreeColonist>
+  <MessageRitualRoleMustBeFreeColonist>{0}職位的擔任者必須是一名居民且非奴隸。</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0}必須擁有一隻體型至少{1}的動物。</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -748,9 +748,9 @@
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0}必須是自由的。</MessageRitualRoleMustNotBeImprisoned>
   <!-- EN: {0} cannot be a child. -->
-  <MessageRitualRoleCannotBeChild>TODO</MessageRitualRoleCannotBeChild>
+  <MessageRitualRoleCannotBeChild>{0}不能是一名兒童。</MessageRitualRoleCannotBeChild>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeBaby>TODO</MessageRitualRoleCannotBeBaby>
+  <MessageRitualRoleCannotBeBaby>{0}不能是一名嬰兒。</MessageRitualRoleCannotBeBaby>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>你必須選擇一個位置繼續。</MessagePlayerMustSelectTile>
@@ -772,22 +772,22 @@
   <MessageWarningCutImportantPlant>警告：{0}已被標記切除。</MessageWarningCutImportantPlant>
 
   <!-- EN: {0_labelShort} is incapable of manipulation. -->
-  <MessageIncapableOfManipulation>TODO</MessageIncapableOfManipulation>
+  <MessageIncapableOfManipulation>{0_labelShort}不能負責操作。</MessageIncapableOfManipulation>
 
   <!-- EN: {0_labelShort} activation canceled -->
-  <MessageActivationCanceled>TODO</MessageActivationCanceled>
+  <MessageActivationCanceled>{0_labelShort}的啟動取消了</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
-  <NothingAvailableInCategory>TODO</NothingAvailableInCategory>
+  <NothingAvailableInCategory>此分類下暫時未有可建築的東西</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
-  <SettingsLinkedFor>TODO</SettingsLinkedFor>
+  <SettingsLinkedFor>連結了{0}個建築物的儲存設定。</SettingsLinkedFor>
   <!-- EN: Storage settings unlinked for {0} buildings. -->
-  <SettingsUnlinkedFor>TODO</SettingsUnlinkedFor>
+  <SettingsUnlinkedFor>解除連結了{0}個建築物的儲存設定。</SettingsUnlinkedFor>
   <!-- EN: Storage settings copied to clipboard. -->
-  <StorageSettingsCopiedToClipboard>TODO</StorageSettingsCopiedToClipboard>
+  <StorageSettingsCopiedToClipboard>複製了儲存設定。</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
-  <StorageSettingsPastedFromClipboard>TODO</StorageSettingsPastedFromClipboard>
+  <StorageSettingsPastedFromClipboard>貼上了儲存設定。</StorageSettingsPastedFromClipboard>
 
   <!-- UNUSED -->
   <MessageTooLowMedCare>手術需要{0}或更高的醫療等級，但目前{PAWN_labelShort}的醫療照顧等級是{2}。</MessageTooLowMedCare>
