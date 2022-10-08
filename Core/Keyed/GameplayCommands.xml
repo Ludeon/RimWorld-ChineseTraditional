@@ -128,12 +128,12 @@
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>複製區域設定值</CommandCopyZoneSettingsLabel>
-  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
   <CommandCopyZoneSettingsDesc>複製此區域的設定值，你可以在其他區域貼上這些設定值。</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>貼上區域設定值</CommandPasteZoneSettingsLabel>
-  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
   <CommandPasteZoneSettingsDesc>貼上你之前復製的設定值。</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
@@ -143,8 +143,13 @@
 
   <!-- EN: Allow cutting -->
   <CommandAllowCut>允許收穫</CommandAllowCut>
-  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
   <CommandAllowCutDesc>禁止收穫後，殖民者不會在此區域收穫植物。但他們還是會在已經空出的空間種植新的植物，並進行收穫。</CommandAllowCutDesc>
+  
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>TODO</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>TODO</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -271,6 +276,8 @@
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>沒有{CHARGENOUN_plural}。</CommandReload_NoCharges>
+  <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
+  <CommandReload_Cooldown>TODO</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>重新裝填需要{COUNT}x{AMMO_label}。</CommandReload_NoAmmo>
   
@@ -297,6 +304,8 @@
   <CommandFormCaravan>組織旅隊</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>組織一群前往新區域的殖民者。殖民者會集合所有指定的物資及同行的動物，離開所在的區域，等待下一步命令。</CommandFormCaravanDesc>
+  <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
+  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -555,7 +564,31 @@
   <CommandDropPawn>放下{0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>放下正抬著的人。</CommandDropPawnDesc>
-  
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <!-- EN: Select the creature being carried. -->
+  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectCarriedThing>TODO</CommandSelectCarriedThing>
+  <!-- EN: Select the carried item. -->
+  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainerThing>TODO</CommandSelectContainerThing>
+  <!-- EN: Select the containing item. -->
+  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <!-- EN: Select the carrying creature. -->
+  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectContainedPawn>TODO</CommandSelectContainedPawn>
+  <!-- EN: Select the contained creature. -->
+  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainedThing>TODO</CommandSelectContainedThing>
+  <!-- EN: Select the contained item. -->
+  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>服用...</TakeDrug>
@@ -580,5 +613,29 @@
   <CommandCancelRitualDesc>立刻結束{RITUAL_labelDef}。儀式的需求將會保留。你可以在之後重新舉辦儀式。</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>你確定你想要取消{RITUAL_labelDef}？</CommandCancelRitualConfirm>
+
+  <!-- Storage linking -->
+  <!-- EN: Link settings -->
+  <LinkStorageSettings>TODO</LinkStorageSettings>
+  <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
+  <LinkStorageSettingsDesc>TODO</LinkStorageSettingsDesc>
+  <!-- EN: You must select two or more buildings to link their storage settings. -->
+  <LinkStorageDisabledSelectTwo>TODO</LinkStorageDisabledSelectTwo>
+  <!-- EN: Already linked. -->
+  <AlreadyLinked>TODO</AlreadyLinked>
+  <!-- EN: Unlink settings -->
+  <UnlinkStorageSettings>TODO</UnlinkStorageSettings>
+  <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
+  <UnlinkStorageSettingsDesc>TODO</UnlinkStorageSettingsDesc>
+  <!-- EN: Linked storage settings -->
+  <LinkedStorageSettings>TODO</LinkedStorageSettings>
+  <!-- EN: {0} buildings -->
+  <NumBuildings>TODO</NumBuildings>
+  <!-- EN: Stores -->
+  <StoresThings>TODO</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>TODO</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>TODO</SelectAllLinkedDesc>
   
 </LanguageData>

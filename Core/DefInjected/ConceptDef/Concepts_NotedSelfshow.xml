@@ -79,7 +79,7 @@
   
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>友軍誤擊</FriendlyFireSafety.label>
-  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
   <FriendlyFireSafety.helpText>在友軍相鄰的情況下，彼此的槍火不會傷到對方。\n\n舉例來說，你可以安排一名持劍者站在另一名持槍者之前，射手會越過同伴的肩膀開火。\n\n這是一個遠近戰相互搭配的好方法。</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
@@ -112,9 +112,8 @@
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
   <InfoCard.helpText>訊息面板顯示了所有物件、人物與建築結構的詳細資訊。\n\n選取一個物件或人物並點選觀察面板上的「i」按鈕以確認更詳細的訊息。</InfoCard.helpText>
   
-  <!-- EN: Room stats inspector -->
+  <!-- UNUSED -->
   <InspectRoomStats.label>房間屬性值</InspectRoomStats.label>
-  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
   <InspectRoomStats.helpText>你可以開啟畫面右下方的「查看房間屬性質」以查看滑鼠游標所在的室內空間的觀感、財富和美觀度。</InspectRoomStats.helpText>
   
   <!-- EN: Manual work priorities -->
@@ -161,6 +160,11 @@
   <StorageTab.label>儲存設定</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
   <StorageTab.helpText>你可以透過選擇儲存區和儲存建築並開啟在觀察面板上方的儲存選單來自訂它們的儲存設置。</StorageTab.helpText>
+  
+  <!-- EN: Tile inspector -->
+  <TileInspector.label>TODO</TileInspector.label>
+  <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
+  <TileInspector.helpText>TODO</TileInspector.helpText>
   
   <!-- EN: Time assignments -->
   <TimeAssignments.label>時間管理</TimeAssignments.label>

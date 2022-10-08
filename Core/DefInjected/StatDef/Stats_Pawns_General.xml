@@ -6,6 +6,9 @@
   <!-- EN: A multiplier on the learning rate for animals skill. -->
   <AnimalsLearningFactor.description>動物技能的學習效率。</AnimalsLearningFactor.description>
   
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>TODO</BedHungerRateFactor.label>
+  
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>旅隊騎乘速度</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
@@ -46,9 +49,8 @@
   <!-- EN: A multiplier on the learning rate for all skills. -->
   <GlobalLearningFactor.description>所有技能的學習效率。</GlobalLearningFactor.description>
   
-  <!-- EN: hunger rate multiplier -->
+  <!-- UNUSED -->
   <HungerRateMultiplier.label>飢餓率</HungerRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
   <HungerRateMultiplier.description>生物飢餓的速度。</HungerRateMultiplier.description>
   
   <!-- EN: immunity gain speed -->
@@ -65,6 +67,16 @@
   <LeatherAmount.label>毛皮數量</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>屠宰此生物時可獲得的毛皮數量。如果此生物沒有被屠宰乾淨，或是在被殺死時受了傷，則數量會降低。</LeatherAmount.description>
+  
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>TODO</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>TODO</LifespanFactor.description>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>TODO</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>TODO</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>肉類產量</MeatAmount.label>
@@ -103,9 +115,18 @@
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>此生物在睡眠時獲得的休息效率。</RestRateMultiplier.description>
   
-  <!-- EN: toxic sensitivity -->
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>TODO</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
+  <ToxicEnvironmentResistance.description>TODO</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>TODO</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>TODO</ToxicResistance.description>
+  
+  <!-- UNUSED -->
   <ToxicSensitivity.label>毒素敏感度</ToxicSensitivity.label>
-  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
   <ToxicSensitivity.description>此生物遭受毒素影響的速度。</ToxicSensitivity.description>
   
 </LanguageData>

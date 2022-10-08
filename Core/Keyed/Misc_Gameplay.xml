@@ -726,7 +726,6 @@
   <!-- EN: Time to destination -->
   <CaravanTTD_Label>尚需時間</CaravanTTD_Label>
   
-
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>無法命令不受控制的單位。</CannotOrderNonControlled>
@@ -1089,6 +1088,7 @@
   <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
   <CutAllBlightDesc>把所有枯萎病植物標記裁剪。枯萎病植物不會生產任何食物或資源，而且應該在枯萎病傳播前盡早剷除。</CutAllBlightDesc>
 
+
   <!-- Zones -->
   <!-- EN: Zone -->
   <Zone>區域</Zone>
@@ -1154,6 +1154,7 @@
   <ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
   <ShowTemperatureOverlayToggleButton>開關溫度檢視。能夠顯示室內和室外的氣溫。\n\n如果氣溫過高或過低居民會感到不高興。曝露在極端氣溫更會引致低溫症、凍傷、中暑、燒傷，甚至死亡。</ShowTemperatureOverlayToggleButton>
+
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1412,6 +1413,7 @@
   <LearningHelper>教學幫手</LearningHelper>
   <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
   <LearningHelperTooltip>針對你的殖民地目前狀態而作出引導的內置指導</LearningHelperTooltip>
+
   <!-- EN: Mark as learned -->
   <MarkLearned>標記為已學習</MarkLearned>
   <!-- EN: Already learned -->
@@ -1632,7 +1634,7 @@
   <!-- EN: Quality factors -->
   <QualityFactors>品質倍率</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>這個條件可能會滿足，這取決於事情的發展情況。\n\n如果它被滿足，會適用於品質紅利。</QualityFactorTooltipUncertain>
+  <QualityFactorTooltiertain>這個條件可能會滿足，這取決於事情的發展情況。\n\n如果它被滿足，會適用於品質紅利。</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
   <QualityFactorTooltipNotFulfilled>這個條件沒有得到滿足。\n\n不適用品質紅利。</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
@@ -1677,7 +1679,6 @@
   <RitualOutcomeExtraDesc_Mood>每個儀式的參與者都會獲得持續{1}天的{0}點心情。</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>此儀式並無品質之分，因此只會得到最佳結果。</RitualOutcomeNoQuality>
-  
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>選擇誰需要參與{RITUAL_labelDef}</ChooseParticipants>
   <!-- EN: Begin -->

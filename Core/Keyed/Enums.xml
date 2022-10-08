@@ -148,15 +148,15 @@
   <ContentSource_SteamWorkshop>Steam創意工坊</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
-  <!-- EN: No medical care -->
+  <!-- EN: no medical care -->
   <MedicalCareCategory_NoCare>無醫療照顧</MedicalCareCategory_NoCare>
-  <!-- EN: Doctor care, but no medicine -->
+  <!-- EN: doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>醫生治療，但不提供藥品</MedicalCareCategory_NoMeds>
-  <!-- EN: Herbal medicine or worse -->
+  <!-- EN: herbal medicine or worse -->
   <MedicalCareCategory_HerbalOrWorse>提供草藥或以下的藥品</MedicalCareCategory_HerbalOrWorse>
-  <!-- EN: Industrial-tech medicine or worse -->
+  <!-- EN: industrial-tech medicine or worse -->
   <MedicalCareCategory_NormalOrWorse>提供醫療包或以下的藥品</MedicalCareCategory_NormalOrWorse>
-  <!-- EN: Best quality medicine -->
+  <!-- EN: best quality medicine -->
   <MedicalCareCategory_Best>提供最高級的醫療照顧</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
@@ -204,6 +204,10 @@
   <PawnGenerationContext_PlayerStarter>玩家起始角色</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>非玩家角色</PawnGenerationContext_NonPlayer>
+
+  <!-- Screen shake mode -->
+  <!-- EN: Screen shake intensity -->
+  <ScreenShakeIntensity>TODO</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
@@ -213,6 +217,24 @@
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>馴服(全部)</AnimalNameDisplayMode_TameAll>
   
+  <!-- Mech name display mode -->
+  <!-- EN: Show player mech names -->
+  <ShowMechNames>TODO</ShowMechNames>
+  <!-- EN: While drafted -->
+  <MechNameDisplayMode_WhileDrafted>TODO</MechNameDisplayMode_WhileDrafted>
+  <!-- EN: always -->
+  <MechNameDisplayMode_Always>TODO</MechNameDisplayMode_Always>
+
+  <!-- Show weapons under portrait mode -->
+  <!-- EN: Weapons below portrait -->
+  <ShowWeaponsUnderPortrait>TODO</ShowWeaponsUnderPortrait>
+  <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
+  <ShowWeaponsUnderPortraitTooltip>TODO</ShowWeaponsUnderPortraitTooltip>
+  <!-- EN: always -->
+  <ShowWeapons_Always>TODO</ShowWeapons_Always>
+  <!-- EN: while drafted -->
+  <ShowWeapons_WhileDrafted>TODO</ShowWeapons_WhileDrafted>
+
   <!-- Temperature -->
   <!-- EN: Celsius -->
   <Celsius>攝氏溫標(C)</Celsius>
