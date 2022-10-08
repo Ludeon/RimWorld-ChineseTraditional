@@ -7,6 +7,8 @@
   <OrbitalTargeterBombardment.description>一種軌道轟炸系統的古老瞄準裝置。這個裝置會指定目標並將座標傳送到衛星網路，然後用動能衝擊器轟炸目標區域。本裝置已被破解為接受未經授權的使用者，一旦使用，衛星網路會偵測到入侵，永久切斷連線。</OrbitalTargeterBombardment.description>
   <!-- EN: charge -->
   <OrbitalTargeterBombardment.comps.CompReloadable.chargeNoun>充能</OrbitalTargeterBombardment.comps.CompReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <OrbitalTargeterBombardment.comps.CompReloadable.cooldownGerund>TODO</OrbitalTargeterBombardment.comps.CompReloadable.cooldownGerund>
   <!-- EN: orbital bombardment targeter -->
   <OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>軌道轟炸導航器</OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>
   
@@ -16,6 +18,8 @@
   <OrbitalTargeterPowerBeam.description>一種網路衛星收集能量的古老瞄準裝置。一旦瞄準目標，它會指示古老衛星開始聚集能量，向下發射一道光柱。光柱可以安全地收集在巨大天線盤中。由於你沒有天線盤，那就把它瞄準敵人。此時，光柱就會將該區域變成地獄火海。這將持續到衛星偵測到不安全的目標，才會自行關閉、永久停用導航器。</OrbitalTargeterPowerBeam.description>
   <!-- EN: charge -->
   <OrbitalTargeterPowerBeam.comps.CompReloadable.chargeNoun>充能</OrbitalTargeterPowerBeam.comps.CompReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <OrbitalTargeterPowerBeam.comps.CompReloadable.cooldownGerund>TODO</OrbitalTargeterPowerBeam.comps.CompReloadable.cooldownGerund>
   <!-- EN: orbital power beam targeter -->
   <OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>軌道光束導航器</OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>
   
@@ -25,6 +29,8 @@
   <TornadoGenerator.description>一種網路衛星控制天候的古老控制裝置。此裝置能夠避免不安定因素；它能夠引起大規模的氣流干擾，在指定的位置產生龍捲風。網路衛星偵測到這種未經授權的入侵使用，就會被鎖定，龍捲風也會隨著時間逐漸消失。</TornadoGenerator.description>
   <!-- EN: charge -->
   <TornadoGenerator.comps.CompReloadable.chargeNoun>充能</TornadoGenerator.comps.CompReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <TornadoGenerator.comps.CompReloadable.cooldownGerund>TODO</TornadoGenerator.comps.CompReloadable.cooldownGerund>
   <!-- EN: tornado generator -->
   <TornadoGenerator.verbs.Verb_Spawn.label>龍捲風產生器</TornadoGenerator.verbs.Verb_Spawn.label>
   
