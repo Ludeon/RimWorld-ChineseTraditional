@@ -25,9 +25,9 @@
   <!-- EN: Assigned colonist -->
   <AssignedColonist>被指定的殖民者</AssignedColonist>
   <!-- EN: Uncomfortable room temperature -->
-  <BedUncomfortableTemperature>TODO</BedUncomfortableTemperature>
+  <BedUncomfortableTemperature>不舒適的房間溫度</BedUncomfortableTemperature>
   <!-- EN: Unsafe room temperature -->
-  <BedUnsafeTemperature>TODO</BedUnsafeTemperature>
+  <BedUnsafeTemperature>危險的房間溫度</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>死於{0}</DiedOn>
   <!-- EN: Nobody -->
@@ -263,11 +263,11 @@
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>室外</DeterioratingOutdoors>
   <!-- EN: protected -->
-  <Protected>TODO</Protected>
+  <Protected>受保護</Protected>
   <!-- EN: Deteriorating -->
-  <DeterioratingBecauseOf>逐漸衰敗的原因</DeterioratingBecauseOf>
+  <DeterioratingBecauseOf>逐漸衰敗中</DeterioratingBecauseOf>
   <!-- EN: Will deteriorate in {0}. -->
-  <DeteriorateInDuration>TODO</DeteriorateInDuration>
+  <DeteriorateInDuration>{0}內衰敗。</DeteriorateInDuration>
   <!-- EN: Map -->
   <Map>地圖</Map>
   <!-- EN: {0} until enemies arrive -->
@@ -339,9 +339,9 @@
   <!-- EN: Products -->
   <Products>產物</Products>
   <!-- EN: Requires -->
-  <Requires>TODO</Requires>
+  <Requires>需要</Requires>
   <!-- EN: {0}x any of -->
-  <NumAnyOf>TODO</NumAnyOf>
+  <NumAnyOf>{0}x任何東西</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{1}的{0}</Relationship>
   <!-- EN: Prisoner -->
@@ -461,7 +461,7 @@
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>在{0}天內觸發</DetonationCountdown>
   <!-- EN: Large fire explosion if damaged. -->
-  <ExplosionOnDamageWarning>若損壞會發生大爆炸</ExplosionOnDamageWarning>
+  <ExplosionOnDamageWarning>若損壞會發生大爆炸。</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>機械要塞</MechCluster>
   <!-- EN: Spawning in {0} -->
@@ -543,21 +543,21 @@
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>材料</ThoughtFoodEatenIngredients>
   <!-- EN: Shield pack -->
-  <ShieldInbuilt>TODO</ShieldInbuilt>
+  <ShieldInbuilt>便攜護盾背包</ShieldInbuilt>
   <!-- EN: Punctured - will explode soon. -->
-  <PuncturedWillExplode>TODO</PuncturedWillExplode>
+  <PuncturedWillExplode>已擊穿 - 即將爆炸。</PuncturedWillExplode>
   <!-- EN: Click to open research window -->
-  <ClickToOpenResearchTab>TODO</ClickToOpenResearchTab>
+  <ClickToOpenResearchTab>點擊打開研究視窗</ClickToOpenResearchTab>
   <!-- EN: Target belongs to another faction. -->
-  <TargetBelongsToNPCFaction>TODO</TargetBelongsToNPCFaction>
+  <TargetBelongsToNPCFaction>目標屬於其他派系。</TargetBelongsToNPCFaction>
   <!-- EN: more -->
-  <MoreLower>TODO</MoreLower>
+  <MoreLower>更多</MoreLower>
   <!-- EN: Requires -->
-  <RequiredTechprintTip>TODO</RequiredTechprintTip>
+  <RequiredTechprintTip>需要</RequiredTechprintTip>
   <!-- EN: size -->
-  <Size>TODO</Size>
+  <Size>尺寸</Size>
   <!-- EN: cost -->
-  <Cost>TODO</Cost>
+  <Cost>消費</Cost>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -683,50 +683,49 @@
   <!-- EN: Example animals -->
   <PenExampleAnimals>可容納動物</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
-  <NoExteriorAccess>TODO</NoExteriorAccess>
+  <NoExteriorAccess>沒有對外出入口 - 動物們無法進出。</NoExteriorAccess>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
-  <Beauty_Label>TODO</Beauty_Label>
+  <Beauty_Label>美觀</Beauty_Label>
   <!-- EN: Zone -->
-  <Zone_Label>TODO</Zone_Label>
+  <Zone_Label>區域</Zone_Label>
   <!-- EN: Roof -->
-  <Roof_Label>TODO</Roof_Label>
+  <Roof_Label>屋頂</Roof_Label>
   <!-- EN: Terrain -->
-  <Terrain_Label>TODO</Terrain_Label>
+  <Terrain_Label>地形</Terrain_Label>
   <!-- EN: Snow -->
-  <Snow_Label>TODO</Snow_Label>
+  <Snow_Label>雪</Snow_Label>
   <!-- EN: Walk speed -->
-  <WalkSpeed_Label>TODO</WalkSpeed_Label>
+  <WalkSpeed_Label>行走速度</WalkSpeed_Label>
   <!-- EN: Fertility -->
-  <Fertility_Label>TODO</Fertility_Label>
+  <Fertility_Label>肥沃度</Fertility_Label>
   <!-- EN: Temperature -->
-  <Temperature_Label>TODO</Temperature_Label>
+  <Temperature_Label>溫度</Temperature_Label>
   <!-- EN: Light level -->
-  <LightLevel_Label>TODO</LightLevel_Label>
+  <LightLevel_Label>光線等級</LightLevel_Label>
   <!-- EN: Biome -->
-  <Biome_Label>TODO</Biome_Label>
+  <Biome_Label>生態系統</Biome_Label>
   <!-- EN: Hilliness -->
-  <Hilliness_Label>TODO</Hilliness_Label>
+  <Hilliness_Label>山勢</Hilliness_Label>
   <!-- EN: Road -->
-  <Road_Label>TODO</Road_Label>
+  <Road_Label>道路</Road_Label>
   <!-- EN: Movement difficulty -->
-  <MovementDifficulty_Label>TODO</MovementDifficulty_Label>
+  <MovementDifficulty_Label>移動難度</MovementDifficulty_Label>
   <!-- EN: Pollution -->
-  <Pollution_Label>TODO</Pollution_Label>
+  <Pollution_Label>污染</Pollution_Label>
   
   <!-- EN: Faction -->
-  <Faction_Label>TODO</Faction_Label>
+  <Faction_Label>派系</Faction_Label>
   <!-- EN: Relationship -->
-  <Relationship_Label>TODO</Relationship_Label>
+  <Relationship_Label>關係</Relationship_Label>
   <!-- EN: Colonists -->
-  <CaravanColonists_Label>TODO</CaravanColonists_Label>
+  <CaravanColonists_Label>殖民者</CaravanColonists_Label>
   <!-- EN: Status -->
-  <CaravanStatus_Label>TODO</CaravanStatus_Label>
+  <CaravanStatus_Label>狀態</CaravanStatus_Label>
   <!-- EN: Time to destination -->
-  <CaravanTTD_Label>TODO</CaravanTTD_Label>
+  <CaravanTTD_Label>尚需時間</CaravanTTD_Label>
   
-
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>無法命令不受控制的單位。</CannotOrderNonControlled>
@@ -741,17 +740,17 @@
 
   <!-- Snow -->
   <!-- EN: Snow -->
-  <Snow>TODO</Snow>
+  <Snow>雪</Snow>
   <!-- EN: No snow -->
   <SnowNone>無積雪</SnowNone>
   <!-- EN: dusting -->
-  <SnowDusting>雪(薄)</SnowDusting>
+  <SnowDusting>薄</SnowDusting>
   <!-- EN: thin -->
-  <SnowThin>雪(淺)</SnowThin>
+  <SnowThin>淺</SnowThin>
   <!-- EN: medium -->
-  <SnowMedium>雪(厚)</SnowMedium>
+  <SnowMedium>厚</SnowMedium>
   <!-- EN: thick -->
-  <SnowThick>雪(深)</SnowThick>
+  <SnowThick>深</SnowThick>
 
   <!-- Turrets -->
   <!-- EN: Installed -->
@@ -769,21 +768,21 @@
   <!-- EN: Not loaded -->
   <ShellNotLoaded>彈藥未裝填</ShellNotLoaded>
   <!-- EN: Already active -->
-  <AlreadyActive>TODO</AlreadyActive>
+  <AlreadyActive>已經啟用</AlreadyActive>
   <!-- EN: Order activation -->
-  <OrderActivation>TODO</OrderActivation>
+  <OrderActivation>命令啟用</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
-  <OrderActivationDesc>TODO</OrderActivationDesc>
+  <OrderActivationDesc>命令一名居民啟用{THING_definite}。</OrderActivationDesc>
   <!-- EN: Must be activated by a colonist. -->
-  <MustBeActivatedByColonist>TODO</MustBeActivatedByColonist>
+  <MustBeActivatedByColonist>必須由一名居民啟用。</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
-  <NoNearbyFire>TODO</NoNearbyFire>
+  <NoNearbyFire>周圍沒有火焰</NoNearbyFire>
   <!-- EN: No nearby fire. No fuel was used. -->
-  <NoNearbyFireNoFuelUsed>TODO</NoNearbyFireNoFuelUsed>
+  <NoNearbyFireNoFuelUsed>周圍沒有火焰。沒有消耗燃料。</NoNearbyFireNoFuelUsed>
   <!-- EN: Choose who should activate this. -->
-  <ChooseWhoShouldActivate>TODO</ChooseWhoShouldActivate>
+  <ChooseWhoShouldActivate>選擇負責啟用人員。</ChooseWhoShouldActivate>
   <!-- EN: No fuel -->
-  <NoFuel>TODO</NoFuel>
+  <NoFuel>沒有燃料</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -829,9 +828,9 @@
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>挖出屍體。</ReportDiggingUpCorpse>
   <!-- EN: being carried by {0_labelShort}. -->
-  <CarriedBy>TODO</CarriedBy> 
+  <CarriedBy>被{0_labelShort}帶著。</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>TODO</InContainer> 
+  <InContainer>在{0_labelShort}內。</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -949,7 +948,7 @@
   <!-- EN: stun -->
   <StunLower>暈眩</StunLower>
   <!-- EN: Slowed by damage -->
-  <SlowedByDamage>TODO</SlowedByDamage>
+  <SlowedByDamage>因受傷而減慢</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
@@ -1033,11 +1032,11 @@
   <!-- EN: Ingredients -->
   <Ingredients>食材</Ingredients>
   <!-- EN: The ingredients used to make this meal. -->
-  <IngredientsDesc>TODO</IngredientsDesc>
+  <IngredientsDesc>用於烹調此餐點的食材。</IngredientsDesc>
   <!-- EN: Dietary type -->
-  <DietaryType>TODO</DietaryType>
+  <DietaryType>葷素種類</DietaryType>
   <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
-  <DietaryTypeDesc>TODO</DietaryTypeDesc>
+  <DietaryTypeDesc>所製作的餐點的種類。有些人只會吃某種餐點。</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>只能與同類餐點堆疊</OnlyStacksWithCompatibleMeals>
 
@@ -1061,9 +1060,9 @@
   <!-- EN: Mature. -->
   <Mature>成熟</Mature>
   <!-- EN: Average plant age -->
-  <AveragePlantAge>TODO</AveragePlantAge>
+  <AveragePlantAge>平均植物年齡</AveragePlantAge>
   <!-- EN: Oldest plant age -->
-  <OldestPlantAge>TODO</OldestPlantAge>
+  <OldestPlantAge>最大植物年齡</OldestPlantAge>
   <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>植物生長季</OutdoorGrowingPeriod>
   <!-- EN: Never -->
@@ -1085,9 +1084,10 @@
   <!-- EN: cutting -->
   <CutGerund>裁剪</CutGerund>
   <!-- EN: Cut all blight -->
-  <CutAllBlight>TODO</CutAllBlight>
+  <CutAllBlight>剷除所有枯萎病</CutAllBlight>
   <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
-  <CutAllBlightDesc>TODO</CutAllBlightDesc>
+  <CutAllBlightDesc>把所有枯萎病植物標記裁剪。枯萎病植物不會生產任何食物或資源，而且應該在枯萎病傳播前盡早剷除。</CutAllBlightDesc>
+
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1153,7 +1153,8 @@
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>TODO</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>開關溫度檢視。能夠顯示室內和室外的氣溫。\n\n如果氣溫過高或過低居民會感到不高興。曝露在極端氣溫更會引致低溫症、凍傷、中暑、燒傷，甚至死亡。</ShowTemperatureOverlayToggleButton>
+
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1411,7 +1412,8 @@
   <!-- EN: Learning helper -->
   <LearningHelper>教學幫手</LearningHelper>
   <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
-  <LearningHelperTooltip>TODO</LearningHelperTooltip>
+  <LearningHelperTooltip>針對你的殖民地目前狀態而作出引導的內置指導</LearningHelperTooltip>
+
   <!-- EN: Mark as learned -->
   <MarkLearned>標記為已學習</MarkLearned>
   <!-- EN: Already learned -->
@@ -1489,7 +1491,7 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>神經熱：{0}/{1}\n下降率：{2}/秒 ({3}秒後歸零)</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>下降率：{0}/秒 ({1}秒後歸零)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>施放心靈能力後會累積神經熱。超過極限時可能會導致數天的精神崩潰。\n\n神經熱會隨著時間消散。穿上心靈衣物或感受疼痛可加快速度。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
@@ -1620,19 +1622,19 @@
   <!-- EN: ends in {0} -->
   <RitualEndsIn>結束於{0}</RitualEndsIn>
   <!-- EN: Can start any time -->
-  <RitualStartAnyTime>TODO</RitualStartAnyTime>
+  <RitualStartAnyTime>可以隨時舉行</RitualStartAnyTime>
   <!-- EN: Can start after event -->
-  <RitualStartEvent>TODO</RitualStartEvent>
+  <RitualStartEvent>可以在事件後舉行</RitualStartEvent>
   <!-- EN: Focus objects -->
-  <RitualFocusObjects>TODO</RitualFocusObjects>
+  <RitualFocusObjects>重點事物</RitualFocusObjects>
   <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>TODO</RitualParticipatingRoles>
+  <RitualParticipatingRoles>參與的職位</RitualParticipatingRoles>
   <!-- EN: Organizers -->
   <Organizers>組織者</Organizers>
   <!-- EN: Quality factors -->
   <QualityFactors>品質倍率</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>這個條件可能會滿足，這取決於事情的發展情況。\n\n如果它被滿足，會適用於品質紅利。</QualityFactorTooltipUncertain>
+  <QualityFactorTooltiertain>這個條件可能會滿足，這取決於事情的發展情況。\n\n如果它被滿足，會適用於品質紅利。</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
   <QualityFactorTooltipNotFulfilled>這個條件沒有得到滿足。\n\n不適用品質紅利。</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
@@ -1676,8 +1678,7 @@
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>每個儀式的參與者都會獲得持續{1}天的{0}點心情。</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
-  <RitualOutcomeNoQuality>TODO</RitualOutcomeNoQuality>
-  
+  <RitualOutcomeNoQuality>此儀式並無品質之分，因此只會得到最佳結果。</RitualOutcomeNoQuality>
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>選擇誰需要參與{RITUAL_labelDef}</ChooseParticipants>
   <!-- EN: Begin -->
@@ -1711,9 +1712,9 @@
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}的期望</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
-  <RitualOutcomeLovedOnePresentLabel>TODO</RitualOutcomeLovedOnePresentLabel>
+  <RitualOutcomeLovedOnePresentLabel>親友獻禮</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
-  <RitualOutcomeLovedOnePresentTip>TODO</RitualOutcomeLovedOnePresentTip>
+  <RitualOutcomeLovedOnePresentTip>任何{PAWN_labelShort}認為是朋友或更親密的人。</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>任何之一</RitualOutcomeLabelAnyOfThese>
@@ -1741,15 +1742,15 @@
   <!-- EN: {0} of {1} -->
   <ThingOfSource>{0}個{1}</ThingOfSource>
   <!-- EN: {0} of {1} and {2} -->
-  <ThingOfTwoSources>TODO</ThingOfTwoSources>
+  <ThingOfTwoSources>{0}個{1}和{2}</ThingOfTwoSources>
 
   <!-- Gas types -->
   <!-- EN: blind smoke -->
-  <BlindSmoke>TODO</BlindSmoke>
+  <BlindSmoke>遮蔽煙霧</BlindSmoke>
   <!-- EN: tox gas -->
-  <ToxGas>TODO</ToxGas>
+  <ToxGas>有毒瓦斯</ToxGas>
   <!-- EN: rot stink -->
-  <RotStink>TODO</RotStink>
+  <RotStink>腐爛臭氣</RotStink>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1763,33 +1764,33 @@
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef}已準備使用{1}。</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <AbilityDisabledInRitual>TODO</AbilityDisabledInRitual>
+  <AbilityDisabledInRitual>{0_labelShort}正在參與{1}。</AbilityDisabledInRitual>
   <!-- EN: Charges -->
-  <Charges>TODO</Charges>
+  <Charges>充能</Charges>
 
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInMentalState>TODO</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef}正處於攻擊性崩潰狀態。</PawnIsInMentalState>
 
   <!-- EN: Disabled work -->
-  <DisabledWorkLabel>TODO</DisabledWorkLabel>
+  <DisabledWorkLabel>禁止的工作</DisabledWorkLabel>
 
   <!-- Glowers -->
   <!-- EN: change color -->
-  <GlowerChangeColor>TODO</GlowerChangeColor>
+  <GlowerChangeColor>更改顏色</GlowerChangeColor>
   <!-- EN: Change the color of the light. -->
-  <GlowerChangeColorDescription>TODO</GlowerChangeColorDescription>
+  <GlowerChangeColorDescription>更改燈具的顏色。</GlowerChangeColorDescription>
   <!-- EN: You must research {0} to change light color. -->
-  <GlowerChangeColorNeedsResearch>TODO</GlowerChangeColorNeedsResearch>
+  <GlowerChangeColorNeedsResearch>你必須先研究{0}才能更改燈具顏色。</GlowerChangeColorNeedsResearch>
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>TODO</ShieldPersonalTip>
+  <ShieldPersonalTip>可以阻截射來的槍彈或利器。它能在槍林彈雨間保護穿戴者，及防止因EMP攻擊而即時倒地。</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>TODO</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef}對{PAWN_possessive}家鄉十分忠誠，因此即使{PAWN_pronoun}被俘虜，也會拒絕任何招募。</UnrecruitableDesc>
 
   <!-- EN: Random -->
-  <Random>TODO</Random>
+  <Random>隨機</Random>
 
   <!-- UNUSED -->
   <PawnMainDescTempFactionedWrap>{1}下屬的{0}\n原派系：{2}</PawnMainDescTempFactionedWrap>
