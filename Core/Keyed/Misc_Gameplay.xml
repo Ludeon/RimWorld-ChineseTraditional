@@ -725,7 +725,49 @@
   <CaravanStatus_Label>狀態</CaravanStatus_Label>
   <!-- EN: Time to destination -->
   <CaravanTTD_Label>尚需時間</CaravanTTD_Label>
+  
+  <!-- Control -->
+  <!-- EN: Cannot order characters you do not control. -->
+  <CannotOrderNonControlled>無法命令不受控制的單位。</CannotOrderNonControlled>
+  <!-- EN: {1_labelShort} is incapable of violence. -->
+  <IsIncapableOfViolence>{1_labelShort}無法進行暴力相關行為。</IsIncapableOfViolence>
+  <!-- EN: incapable of violence -->
+  <IsIncapableOfViolenceShort>無法進行暴力相關行為</IsIncapableOfViolenceShort>
+  <!-- EN: {1_labelShort} is not drafted. -->
+  <IsNotDrafted>{1_labelShort}未受徵召。</IsNotDrafted>
+  <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
+  <ApparelPreventsShooting>{PAWN_nameDef}因為{PAWN_possessive}{APPAREL_label}無法使用遠程武器。</ApparelPreventsShooting>
 
+  <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>雪</Snow>
+  <!-- EN: No snow -->
+  <SnowNone>無積雪</SnowNone>
+  <!-- EN: dusting -->
+  <SnowDusting>薄</SnowDusting>
+  <!-- EN: thin -->
+  <SnowThin>淺</SnowThin>
+  <!-- EN: medium -->
+  <SnowMedium>厚</SnowMedium>
+  <!-- EN: thick -->
+  <SnowThick>深</SnowThick>
+
+  <!-- Turrets -->
+  <!-- EN: Installed -->
+  <GunInstalled>已安裝</GunInstalled>
+  <!-- EN: Minimum range -->
+  <MinimumRange>最小距離</MinimumRange>
+  <!-- EN: Can fire in -->
+  <CanFireIn>開火時機</CanFireIn>
+  <!-- EN: Cannot fire -->
+  <CannotFire>無法開火</CannotFire>
+  <!-- EN: roofed -->
+  <Roofed>被屋頂覆蓋</Roofed>
+  <!-- EN: Shell loaded: {1_label} -->
+  <ShellLoaded>已裝填彈藥：{1_label}</ShellLoaded>
+  <!-- EN: Not loaded -->
+  <ShellNotLoaded>彈藥未裝填</ShellNotLoaded>
+  <!-- EN: Already active -->
   <AlreadyActive>已經啟用</AlreadyActive>
   <!-- EN: Order activation -->
   <OrderActivation>命令啟用</OrderActivation>
