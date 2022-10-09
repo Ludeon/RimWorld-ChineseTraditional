@@ -31,7 +31,7 @@
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>整理翻譯文件</CleaningTranslationFiles>
   <!-- EN: Dev quicktest -->
-  <DevQuickTest>TODO</DevQuickTest>
+  <DevQuickTest>Dev快速測試</DevQuickTest>
   <!-- EN: Credits -->
   <Credits>開發團隊</Credits>
   <!-- EN: Quit to main menu -->
@@ -81,7 +81,7 @@
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>保存並完成</WorldSaveAndFinish>
   <!-- EN: Reset factions -->
-  <ResetFactions>TODO</ResetFactions>
+  <ResetFactions>重置派系</ResetFactions>
   <!-- EN: Globe coverage -->
   <PlanetCoverage>生成比例</PlanetCoverage>
   <!-- EN: Overall rainfall -->
@@ -155,9 +155,9 @@
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>自動排序</ResolveModOrder>
   <!-- EN: Save and apply changes -->
-  <SaveModChanges>TODO</SaveModChanges>
+  <SaveModChanges>保存和應用更改</SaveModChanges>
   <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
-  <DiscardModChanges>TODO</DiscardModChanges>
+  <DiscardModChanges>Mod更改尚未保存。你確定你要繼續嗎？</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>無法移動{0}：它必須在{1}之後讀取。</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
@@ -165,55 +165,55 @@
   <!-- EN: Unsubscribe -->
   <Unsubscribe>取消訂閱</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe? -->
-  <ConfirmUnsubscribe>你確定要取消訂閱{0}？</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>您確定要取消訂閱嗎？</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
-  <ConfirmUnsubscribeFrom>TODO</ConfirmUnsubscribeFrom>
+  <ConfirmUnsubscribeFrom>你確定要取消訂閱{0}？</ConfirmUnsubscribeFrom>
   <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
-  <ConfirmUnsubscribeFromMultiple>TODO</ConfirmUnsubscribeFromMultiple>
+  <ConfirmUnsubscribeFromMultiple>是否確定要取消訂閱：\n\n{0}</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>作者</Author>
   <!-- EN: Enabled -->
-  <Enabled>TODO</Enabled>
+  <Enabled>啟用</Enabled>
   <!-- EN: Disabled -->
-  <Disabled>TODO</Disabled>
+  <Disabled>停用</Disabled>
   <!-- EN: Enable -->
-  <Enable>TODO</Enable>
+  <Enable>啟用</Enable>
   <!-- EN: Disable -->
-  <Disable>TODO</Disable>
+  <Disable>停用</Disable>
   <!-- EN: Get mods from... -->
-  <GetMods>TODO</GetMods>
+  <GetMods>從...獲取模組</GetMods>
   <!-- EN: Unsubscribe from... -->
-  <UnsubscribeMultiple>TODO</UnsubscribeMultiple>
+  <UnsubscribeMultiple>取消訂閱...</UnsubscribeMultiple>
   <!-- EN: Save / load list... -->
-  <SaveLoadList>TODO</SaveLoadList>
+  <SaveLoadList>保存/加載列表...</SaveLoadList>
   <!-- EN: Save mod list -->
-  <SaveModList>TODO</SaveModList>
+  <SaveModList>保存mod清單</SaveModList>
   <!-- EN: Load mod list -->
-  <LoadModList>TODO</LoadModList>
+  <LoadModList>加載mod清單</LoadModList>
   <!-- EN: Added mods -->
-  <AddedModsList>TODO</AddedModsList>
+  <AddedModsList>添加Mod</AddedModsList>
   <!-- EN: Missing mods -->
-  <MissingModsList>TODO</MissingModsList>
+  <MissingModsList>缺少Mod</MissingModsList>
   <!-- EN: Shared mods -->
-  <SharedModsList>TODO</SharedModsList>
+  <SharedModsList>共用Mod</SharedModsList>
   <!-- EN: Website -->
-  <ModWebsite>TODO</ModWebsite>
+  <ModWebsite>網站</ModWebsite>
   <!-- EN: Open folder -->
-  <ModFolder>TODO</ModFolder>
+  <ModFolder>打開文件夾</ModFolder>
   <!-- EN: Mod options -->
-  <ModOptions>TODO</ModOptions>
+  <ModOptions>Mod選項</ModOptions>
   <!-- EN: Workshop -->
-  <FromWorkshop>TODO</FromWorkshop>
+  <FromWorkshop>Workshop</FromWorkshop>
   <!-- EN: Forum -->
-  <FromForum>TODO</FromForum>
+  <FromForum>論壇</FromForum>
   <!-- EN: Advanced... -->
-  <MoreActions>TODO</MoreActions>
+  <MoreActions>進階...</MoreActions>
   <!-- EN: All selected mods -->
-  <AllSelectedMods>TODO</AllSelectedMods>
+  <AllSelectedMods>所有選定的Mod</AllSelectedMods>
   <!-- EN: All disabled mods -->
-  <AllDisabledMods>TODO</AllDisabledMods>
+  <AllDisabledMods>所有禁用的Mod</AllDisabledMods>
   <!-- EN: All incompatible mods -->
-  <AllIncompatibleMods>TODO</AllIncompatibleMods>
+  <AllIncompatibleMods>所有不兼容的Mod</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Workshop頁面</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -229,7 +229,7 @@
   <!-- EN: Downloading -->
   <Downloading>下載中</Downloading>
   <!-- EN: Workshop ID -->
-  <WorkshopId>TODO</WorkshopId>
+  <WorkshopId>工作坊 ID</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>顯示符合要求</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
@@ -241,13 +241,13 @@
   <!-- EN: Game versions -->
   <ModTargetVersion>可用版本</ModTargetVersion>
   <!-- EN: Mod version -->
-  <ModVersion>TODO</ModVersion>
+  <ModVersion>Mod版本</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>必須在這些mod之前載入:{0}。</ModMustLoadBefore>
+  <ModMustLoadBefore>必須在這些Mod之前載入:{0}。</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>必須在這些mod之後載入:{0}。</ModMustLoadAfter>
+  <ModMustLoadAfter>必須在這些Mod之後載入:{0}。</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
   <ModDependsOn>必要的:{0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
@@ -255,7 +255,7 @@
   <!-- EN: This mod is incompatible with: {0}. -->
   <ModIncompatibleWithTip>與這個MOD不兼容的有:{0}。</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>相對於另一個mod，此mod載入順序錯誤。使用「自動排序」按鈕，或手動重新排列MOD組模。</ModOrderingWarning>
+  <ModOrderingWarning>相對於另一個Mod，此Mod載入順序錯誤。使用「自動排序」按鈕，或手動重新排列Mod組模。</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>另一個啟動的mod使用了相同的ID:{0}。</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
@@ -331,7 +331,7 @@
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>因為你是作者，所以能夠更新創意工坊。</CanBeUpdatedOnWorkshop>
   <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
-  <ScenarioChangedSavePrompt>TODO</ScenarioChangedSavePrompt>
+  <ScenarioChangedSavePrompt>此腳本已編輯\n\n是否要在繼續之前保存它？</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
@@ -478,9 +478,9 @@
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>自然洞穴中可能會生成休眠的蟲巢。\n\n此選項只會影響地圖生成，而不會影響到中途穿地而出的活躍蟲群。</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
-  <Difficulty_UnwaveringPrisoners_Label>TODO</Difficulty_UnwaveringPrisoners_Label>
+  <Difficulty_UnwaveringPrisoners_Label>添加堅定的俘虜</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoner - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
-  <Difficulty_UnwaveringPrisoners_Info>TODO</Difficulty_UnwaveringPrisoners_Info>
+  <Difficulty_UnwaveringPrisoners_Info>此選項讓遊戲增加額外的可拘禁的俘虜，這些囚犯由於堅定不移的忠誠而無法被招募.\n\n這些堅定的俘虜是在普通俘虜之上額外添加的，因此關閉此選項不會出現更多可招募的俘虜 - 它只是刪除了堅定不移的俘虜。\n\n堅定的俘虜仍然可以被釋放以換取外交獎勵、販賣、奴役、摘取器官，或其他用途。一般而言，他們提供了更多的選項和資源，並使遊戲更加豐富和容易。</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
@@ -563,7 +563,7 @@
   <!-- EN: Fertility -->
   <Fertility>濕度</Fertility>
   <!-- EN: fertility -->
-  <FertilityLower>TODO</FertilityLower>
+  <FertilityLower>肥沃度</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>平均溫度</AvgTemp>
   <!-- EN: Rainfall -->
@@ -599,9 +599,9 @@
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>被選取的人員皆無法進行以下工作：\n\n{0}\n\n這可以使遊戲難度高於一般，你確定要繼續？</ConfirmRequiredWorkTypeDisabledForEveryone>
   <!-- EN: temperature -->
-  <TemperatureLower>TODO</TemperatureLower>
+  <TemperatureLower>溫度</TemperatureLower>
   <!-- EN: light -->
-  <LightLower>TODO</LightLower>
+  <LightLower>光亮</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
@@ -641,7 +641,7 @@
   <!-- EN: Caused by role -->
   <IncapableOfTooltipRole>由於角色：{0}</IncapableOfTooltipRole>
   <!-- EN: Caused by gene -->
-  <IncapableOfTooltipGene>TODO</IncapableOfTooltipGene>
+  <IncapableOfTooltipGene>由基因引起</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>特性</Traits>
   <!-- EN: Permanent mood effect -->
@@ -673,7 +673,7 @@
   <!-- EN: Relations -->
   <Relations>社交</Relations>
   <!-- EN: Possessions -->
-  <Possessions>TODO</Possessions>
+  <Possessions>財產</Possessions>
   <!-- EN: Team skills -->
   <TeamSkills>團隊能力</TeamSkills>
   <!-- EN: Selected -->
