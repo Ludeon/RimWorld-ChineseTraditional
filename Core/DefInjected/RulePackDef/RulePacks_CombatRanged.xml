@@ -225,7 +225,7 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite]用[projectile][missed][ORIGINALTARGET_definite]而打中了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]的[projectile][missed][ORIGINALTARGET_definite]而打中了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]原本要用[projectile]攻擊[ORIGINALTARGET_definite]卻打中了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
-    <li>projectile(p=0.05)->攻擊</li>
+    <li>projectile(p=0.05)->子彈</li>
     <li>damaged_target_possessive_opt-></li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->的[RECIPIENT_part_damaged0_label]</li>
     <li>deflected_result->，[adverb_deflected]</li>
