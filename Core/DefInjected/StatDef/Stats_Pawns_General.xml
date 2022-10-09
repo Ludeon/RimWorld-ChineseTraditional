@@ -7,7 +7,7 @@
   <AnimalsLearningFactor.description>動物技能的學習效率。</AnimalsLearningFactor.description>
   
   <!-- EN: bed hunger rate multiplier -->
-  <BedHungerRateFactor.label>TODO</BedHungerRateFactor.label>
+  <BedHungerRateFactor.label>床上飢餓倍率</BedHungerRateFactor.label>
   
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>旅隊騎乘速度</CaravanRidingSpeedFactor.label>
@@ -69,14 +69,14 @@
   <LeatherAmount.description>屠宰此生物時可獲得的毛皮數量。如果此生物沒有被屠宰乾淨，或是在被殺死時受了傷，則數量會降低。</LeatherAmount.description>
   
   <!-- EN: lifespan factor -->
-  <LifespanFactor.label>TODO</LifespanFactor.label>
+  <LifespanFactor.label>壽命倍率</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
-  <LifespanFactor.description>TODO</LifespanFactor.description>
+  <LifespanFactor.description>壽命倍率通過減短或加長年齡相關的疾病來影響生物的有效壽命。高於100%的壽命倍率會延遲疾病的開始，和延長整體壽命，當壽命倍率少於100%，則會加速疾病到來並減短壽命。</LifespanFactor.description>
   
   <!-- EN: max nutrition -->
-  <MaxNutrition.label>TODO</MaxNutrition.label>
+  <MaxNutrition.label>最大營養值</MaxNutrition.label>
   <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
-  <MaxNutrition.description>TODO</MaxNutrition.description>
+  <MaxNutrition.description>完全滿足此生物的胃所需的營養值。</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>肉類產量</MeatAmount.label>
@@ -116,14 +116,14 @@
   <RestRateMultiplier.description>此生物在睡眠時獲得的休息效率。</RestRateMultiplier.description>
   
   <!-- EN: toxic environment resistance -->
-  <ToxicEnvironmentResistance.label>TODO</ToxicEnvironmentResistance.label>
+  <ToxicEnvironmentResistance.label>有毒環境抗性</ToxicEnvironmentResistance.label>
   <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
-  <ToxicEnvironmentResistance.description>TODO</ToxicEnvironmentResistance.description>
+  <ToxicEnvironmentResistance.description>此生物對於有毒環境的效應有多高的抵抗力。可以抵禦毒霧霾和腐爛臭氣接觸，但不能抵擋直接的毒物攻擊或毒藥注射。</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
-  <ToxicResistance.label>TODO</ToxicResistance.label>
+  <ToxicResistance.label>毒素抗性</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
-  <ToxicResistance.description>TODO</ToxicResistance.description>
+  <ToxicResistance.description>此生物對於毒性累積有多高的抵抗力。</ToxicResistance.description>
   
   <!-- UNUSED -->
   <ToxicSensitivity.label>毒素敏感度</ToxicSensitivity.label>
