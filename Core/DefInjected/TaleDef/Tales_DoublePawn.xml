@@ -402,8 +402,8 @@
     <li>tale_noun->[TAMER_nameDef]馴服了[ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull][circumstance_group]馴服了[ANIMAL_nameFull]</li>
     <li>image->[TAMER_nameFull][circumstance_group]提供了[一些食物給[ANIMAL_nameFull]</li>
-    <li>image->[TAMER_nameFull][circumstance_group]對[ANIMAL_nameFull]低語呢喃</li>
-    <li>image->[TAMER_nameFull][circumstance_group]安撫了[ANIMAL_nameFull]</li>
+    <li>image->[TAMER_nameFull][circumstance_group]對[ANIMAL_label]低語呢喃</li>
+    <li>image->[TAMER_nameFull][circumstance_group]安撫了[ANIMAL_label]</li>
     <li>circumstance_phrase->細心謹慎的</li>
     <li>circumstance_phrase->微笑著</li>
     <li>circumstance_phrase->樂此不疲的</li>
@@ -516,7 +516,7 @@
     <li>desc_sentence->[ANIMAL_nameDef]有一半[Color]色和一半[Color]色。</li>
     <li>desc_sentence->[ANIMAL_nameDef]身上覆滿鱗片。</li>
     <li>desc_sentence->[TRAINER_nameDef]正在比手畫腳。</li>
-    <li>desc_sentence->[TRAINER_nameDef]正試圖拉近與[ANIMAL_ShortDefinite]的距離。</li>
+    <li>desc_sentence->[TRAINER_nameDef]正試圖拉近與[ANIMAL_definite]的距離。</li>
   </TrainedAnimal.rulePack.rulesStrings>
   
 </LanguageData>
