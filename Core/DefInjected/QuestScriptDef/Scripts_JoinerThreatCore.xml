@@ -7,7 +7,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_age]歲的[joiner_title]，[joiner_nameDef]在附近發送了訊息。[joiner_pronoun]正被[enemyFaction_name]的[enemyFaction_pawnsPlural]追捕！\n\n[joiner_pronoun]請求保護並會加入[map_definite]。[joiner_relationInfo]\n\n如果你接受請求，你就必須要對抗追捕[joiner_possessive][enemyFaction_pawnsPlural]。[enemyFaction_pawnsPlural]的隊伍構成：\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef]過於緊張，已經無法提供更多訊息。</li>
+    <li>questDescription->[introduction]，[joiner_nameDef]在附近發送了訊息。[joiner_pronoun]正被[enemyFaction_name]的[enemyFaction_pawnsPlural]追捕！\n\n[joiner_pronoun]請求保護並會加入[map_definite]。[joiner_relationInfo]\n\n如果你接受請求，你就必須要對抗追捕[joiner_possessive][enemyFaction_pawnsPlural]。[enemyFaction_pawnsPlural]的隊伍構成：\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef]過於緊張，已經無法提供更多訊息。</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age]歲兒童</li>
+    <li>introduction->[joiner_age]歲[joiner_title]</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
