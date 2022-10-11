@@ -46,7 +46,7 @@
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>無法攻擊友方派系</CannotAttackSameFactionMember>
   <!-- EN: Incapable of firefighting. -->
-  <IncapableOfFirefighting>TODO</IncapableOfFirefighting>
+  <IncapableOfFirefighting>無法滅火</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>操控{1_labelShort}</OrderManThing>
@@ -77,9 +77,9 @@
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>已經裝滿了</AlreadyFilledLower>
   <!-- EN: missing {0} -->
-  <MissingMaterials>需要材料</MissingMaterials>
+  <MissingMaterials>需要材料{0}</MissingMaterials>
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
-  <NoMedicineMatchingCategory>TODO</NoMedicineMatchingCategory>
+  <NoMedicineMatchingCategory>沒有限制的藥物「{CATEGORY}」</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>技能等級低於最低需求{0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -93,13 +93,13 @@
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>最近已和動物互動過了</AnimalInteractedTooRecently>
   <!-- EN: interacted with too recently -->
-  <PrisonerInteractedTooRecently>TODO</PrisonerInteractedTooRecently>
+  <PrisonerInteractedTooRecently>最近已經互動過了</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>無可使用的食物</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>無食物</NoFood>
   <!-- EN: no food matching restrictions -->
-  <NoFoodMatchingRestrictions>TODO</NoFoodMatchingRestrictions>
+  <NoFoodMatchingRestrictions>沒有食物搭配限制</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>沒有{0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -167,11 +167,11 @@
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>已安裝</InstallImplantAlreadyInstalled>
   <!-- EN: requires an existing {0} -->
-  <InstallImplantHediffRequired>TODO</InstallImplantHediffRequired>
+  <InstallImplantHediffRequired>需要一個現有的{0}</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>最大等級</InstallImplantAlreadyMaxLevel>
   <!-- EN: psychically deaf -->
-  <InstallImplantPsychicallyDeaf>TODO</InstallImplantPsychicallyDeaf>
+  <InstallImplantPsychicallyDeaf>精神失聰</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>將{0}升級到{1}級</UpgradeImplant>
   <!-- EN: violation of faction ally -->
@@ -179,9 +179,9 @@
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>被{0_labelShort}攜帶</BeingCarriedBy>
   <!-- EN: full -->
-  <ContainerFull>TODO</ContainerFull>
+  <ContainerFull>滿的</ContainerFull>
   <!-- EN: already assigned -->
-  <AlreadyAssigned>TODO</AlreadyAssigned>
+  <AlreadyAssigned>已經分配</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>食用{1_labelShort}</ConsumeThing>
@@ -205,14 +205,14 @@
   <!-- EN: Cannot capture -->
   <CannotCapture>無法俘虜</CannotCapture>
   <!-- EN: unwaveringly loyal -->
-  <Unrecruitable>TODO</Unrecruitable>
+  <Unrecruitable>忠貞不移</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>救援{1_label}</Rescue>
   <!-- EN: Put {1_label} somewhere safe -->
-  <PutSomewhereSafe>TODO</PutSomewhereSafe>
+  <PutSomewhereSafe>將{1_label}帶到安全地帶</PutSomewhereSafe>
   <!-- EN: Taking {0_labelShort} to bed. -->
-  <TakingToBed>TODO</TakingToBed>
+  <TakingToBed>帶{1_label}到床上</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>無法救援</CannotRescue>
 
@@ -254,7 +254,7 @@
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>不具有{0}能力</IncapableOfCapacity>
   <!-- EN: Must have {0_label} -->
-  <MustHaveHediff>TODO</MustHaveHediff>
+  <MustHaveHediff>必須要有{0_label}</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>最低技能等級</MinSkill>
@@ -286,14 +286,14 @@
   <!-- EN: Too few -->
   <ReloadNotEnough>過少</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
-  <ReloadCannotCarryEnough>TODO</ReloadCannotCarryEnough>
+  <ReloadCannotCarryEnough>沒有辦法搬運足夠發射一發的{AMMO_label}</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>無法撿起{1_label}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>無法撿起所有{1_label}</CannotPickUpAll>
   <!-- EN: Pick up {1_labelShort} x1 -->
-  <PickUpOne>TODO</PickUpOne>
+  <PickUpOne>撿起{1_labelShort}x1</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>撿起所有{1_label}</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -546,13 +546,13 @@
   <CannotRepair>無法修理{0}</CannotRepair>
 
   <!-- EN: Cannot enter -->
-  <CannotEnter>TODO</CannotEnter>
+  <CannotEnter>無法進入</CannotEnter>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
-  <CannotRomance>TODO</CannotRomance>
+  <CannotRomance>無法和{0}約會</CannotRomance>
   <!-- EN: Romance {0} -->
-  <CanRomance>TODO</CanRomance>
+  <CanRomance>和{0}約會</CanRomance>
 
   <!-- UNUSED -->
   <PickUp>撿起{1_label}</PickUp>
