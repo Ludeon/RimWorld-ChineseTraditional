@@ -18,7 +18,7 @@
   <!-- EN: Reset -->
   <Reset>重置</Reset>
   <!-- EN: Reset all -->
-  <ResetAll>全部重製</ResetAll>
+  <ResetAll>全部重置</ResetAll>
   <!-- EN: Disable -->
   <Disable>禁用</Disable>
   <!-- EN: Modify -->
@@ -34,21 +34,21 @@
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
   <GameUpdatedToNewVersionInitial>RimWorld已從{0}版升級至{1}版。</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
-  <GameUpdatedToNewVersionSavesIncompatible>這可能導致舊版本存檔及Mod無法繼續使用。</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesIncompatible>這可能導致舊版本存檔及模組無法繼續使用。</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
-  <GameUpdatedToNewVersionSavesCompatible>舊版本的存檔應該適用，但Mod有可能無法正常運作。</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionSavesCompatible>舊版本的存檔應該適用，但模組有可能無法正常運作。</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
   <GameUpdatedToNewVersionNonSteam>因為你使用的是DRM-free版本，因此你可以分別在兩個資料夾安裝新舊版本的RimWorld，同時遊玩不同的遊戲版本。</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
-  <GameUpdatedToNewVersionSteam>如果你想繼續使用舊版本，你可以選擇Steam的測試版功能。\n\n  1. 在Steam遊戲庫，點選Rimworld。\n  2. 點選「屬性」\n  3. 點選「Betas Tab」\n  4. 在選單中選擇你要的版本。\n\n此服務只是為了避免舊版的遊戲進度中斷，而舊版本終究會從此清單中下架。\n\n請記住，若Mod開發者將Mod升級至新版本，他們很可能就此停止對舊版本的開發，你可以關閉Mod自動更新以避免Mod更新成不相容的版本。</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>如果你想繼續使用舊版本，你可以選擇Steam的測試版功能。\n\n  1. 在Steam遊戲庫，點選Rimworld。\n  2. 點選「屬性」\n  3. 點選「Betas Tab」\n  4. 在選單中選擇你要的版本。</GameUpdatedToNewVersionSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
   <GameUpdatedToNewVersionSteamController>如果你想繼續使用舊版本，你可以選擇Steam的測試版功能。</GameUpdatedToNewVersionSteamController>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
-  <RecoveredFromErrorsDialogTitle>從不相容或損壞的Mod中復原</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsDialogTitle>從不相容或損壞的模組中復原</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
-  <RecoveredFromErrorsText>有部分Mod導致了嚴重的錯誤。\n\n原因可能是Mod之間的衝突、與當前RimWorld遊戲版本不相容，或是Mod已經損壞。\n\n目前所有Mod已自動停用並可於Mods列表再次啟用。</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>有部分模組導致了嚴重的錯誤。\n\n原因可能是模組之間的衝突、與當前RimWorld遊戲版本不相容，或是模組已經損壞。\n\n目前所有模組已自動停用並可於模組列表再次啟用。</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
@@ -68,9 +68,9 @@
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
-  <ModsChanged>Mod設置已更動，遊戲將自動重啟。</ModsChanged>
+  <ModsChanged>模組設置已更動，遊戲將自動重啟。</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
-  <FailedToRestart>遊戲無法完全卸載由Mod導入的程式碼，因此來自某些已卸載的Mod的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並停用所有使用中的Mod後再次進行遊戲。</FailedToRestart>
+  <FailedToRestart>遊戲無法完全卸載由模組導入的程式碼，因此來自某些已卸載的模組的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並停用所有使用中的模組後再次進行遊戲。</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>重新啟動中</Restarting>
   
@@ -84,7 +84,7 @@
   <!-- EN: Unloading unused assets -->
   <UnloadingUnusedAssets>正在卸載非使用中的元件</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
-  <LoadingAllActiveMods>正在載入已啟用的Mods</LoadingAllActiveMods>
+  <LoadingAllActiveMods>正在載入已啟用的模組</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
   <LoadingDefs>正在載入定義檔</LoadingDefs>
   <!-- EN: Loading assets -->
@@ -136,9 +136,9 @@
   <!-- EN: Load anyway -->
   <LoadAnyway>強制載入</LoadAnyway>
   <!-- EN: Load mod list from save -->
-  <ChangeLoadedMods>載入Mod清單</ChangeLoadedMods>
+  <ChangeLoadedMods>載入模組清單</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
-  <MissingMods>部分Mod無法使用，需要安裝</MissingMods>
+  <MissingMods>部分模組無法使用，需要安裝</MissingMods>
   <!-- EN: Official content -->
   <OfficialContent>官方內容</OfficialContent>
   <!-- EN: Active -->
@@ -216,7 +216,7 @@
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>模組版本不符</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
-  <ModsMismatchWarningText>本地圖存檔包含了與當前不同的模組設定，視模組的功能與影響而定，這也許能正常運作，但也有可能會導致問題。\n\n此存檔包含了以下模組(依順序排列):\n\n{0}\n\n當前運行的模組：\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningText>本地圖存檔包含了與當前不同的模組設定，視模組的功能與影響而定，這也許能正常運作，但也有可能會導致問題。</ModsMismatchWarningText>
   <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
   <ModsMismatchOrderChanged>沒有添加或移除模組，但是模組清單的順序有變動。</ModsMismatchOrderChanged>
   <!-- EN: Are you sure you want to load the mod list from this save file? -->
@@ -236,7 +236,7 @@
 
   <!-- Confirm reset learning helper -->
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
-  <ConfirmResetLearningHelper>你確定要重製教學幫手嗎?\n\所有你學習過的紀錄都會被清除，而系統再次會從頭開始教學。</ConfirmResetLearningHelper>
+  <ConfirmResetLearningHelper>你確定要重置教學幫手嗎?\n\所有你學習過的紀錄都會被清除，而系統再次會從頭開始教學。</ConfirmResetLearningHelper>
 
   <!-- Backstory translation restart dialog -->
   <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
