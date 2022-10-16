@@ -17,9 +17,9 @@
   <!-- EN: Options -->
   <Options>選項</Options>
   <!-- EN: Mod -->
-  <Mod>Mod</Mod>
+  <Mod>模組</Mod>
   <!-- EN: Mods -->
-  <Mods>Mods</Mods>
+  <Mods>模組</Mods>
   <!-- EN: Save translation report -->
   <SaveTranslationReport>另存翻譯報告</SaveTranslationReport>
   <!-- EN: Generating translation report -->
@@ -143,11 +143,11 @@
   <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>開啟Steam創意工坊</OpenSteamWorkshop>
   <!-- EN: Get mods from forum -->
-  <GetModsFromForum>前往論壇取得更多Mod</GetModsFromForum>
+  <GetModsFromForum>前往論壇取得更多模組</GetModsFromForum>
   <!-- EN: Open mods data folder -->
-  <OpenModsDataFolder>開啟Mods資料夾</OpenModsDataFolder>
+  <OpenModsDataFolder>開啟模組資料夾</OpenModsDataFolder>
   <!-- EN: Show mods data location -->
-  <ShowModsDataLocation>顯示Mod地址</ShowModsDataLocation>
+  <ShowModsDataLocation>顯示模組地址</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>你確定要關閉Core(核心)模組嗎？除非有完全替代遊戲核心所有功能的模組，否則遊戲將完全無法運行。\n\n記住，其它模組能透過使用同樣的defName來覆蓋遊戲內的設定。</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
@@ -157,7 +157,7 @@
   <!-- EN: Save and apply changes -->
   <SaveModChanges>保存和應用更改</SaveModChanges>
   <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
-  <DiscardModChanges>Mod更改尚未保存。你確定你要繼續嗎？</DiscardModChanges>
+  <DiscardModChanges>模組更改尚未保存。你確定你要繼續嗎？</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>無法移動{0}：它必須在{1}之後讀取。</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
@@ -187,15 +187,15 @@
   <!-- EN: Save / load list... -->
   <SaveLoadList>保存/加載列表...</SaveLoadList>
   <!-- EN: Save mod list -->
-  <SaveModList>保存mod清單</SaveModList>
+  <SaveModList>保存模組清單</SaveModList>
   <!-- EN: Load mod list -->
-  <LoadModList>加載mod清單</LoadModList>
+  <LoadModList>加載模組清單</LoadModList>
   <!-- EN: Added mods -->
-  <AddedModsList>添加Mod</AddedModsList>
+  <AddedModsList>添加模組</AddedModsList>
   <!-- EN: Missing mods -->
-  <MissingModsList>缺少Mod</MissingModsList>
+  <MissingModsList>缺少模組</MissingModsList>
   <!-- EN: Shared mods -->
-  <SharedModsList>共用Mod</SharedModsList>
+  <SharedModsList>共用模組</SharedModsList>
   <!-- EN: Website -->
   <ModWebsite>網站</ModWebsite>
   <!-- EN: Open folder -->
@@ -257,23 +257,23 @@
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
   <ModOrderingWarning>相對於另一個模組，此模組載入順序錯誤。使用「自動排序」按鈕，或手動重新排列模組。</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
-  <ModWithSameIdAlreadyActive>另一個啟動的mod使用了相同的ID:{0}。</ModWithSameIdAlreadyActive>
+  <ModWithSameIdAlreadyActive>另一個啟動的模組使用了相同的ID:{0}。</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>與{0}產生了循環依賴。</ModCyclicDependency>
   <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>這需要以下模組才能運行:{0}。</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion>此模組版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
-  <ModNotMadeForThisVersionShort>此Mod並不適用於此版本。</ModNotMadeForThisVersionShort>
+  <ModNotMadeForThisVersionShort>此模組並不適用於此版本。</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion_Newer>此Mod版本對應更新的RimWorld版本，可能無法正常運作。</ModNotMadeForThisVersion_Newer>
+  <ModNotMadeForThisVersion_Newer>此模組版本對應更新的RimWorld版本，可能無法正常運作。</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mod必須在About.xml中指定格式正確的版本號，例如：{0}。</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>模組必須在About.xml中指定格式正確的版本號，例如：{0}。</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod需要有一個格式適當且唯一的[packageId]寫入到[About.xml]文件中。[packageId]必須滿足這些要求：\n\n - 僅限字母、數字和半角句號「.」。\n - 不包含空格。\n - 至少有一個點。\n - 沒有連續的點，且不以點為開頭或結尾。\n - 最多60個字節。\n - 不允許包含單詞「Ludeon」。\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>模組需要有一個格式適當且唯一的[packageId]寫入到[About.xml]文件中。[packageId]必須滿足這些要求：\n\n - 僅限字母、數字和半角句號「.」。\n - 不包含空格。\n - 至少有一個點。\n - 沒有連續的點，且不以點為開頭或結尾。\n - 最多60個字節。\n - 不允許包含單詞「Ludeon」。\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>這個mod在LoadFolders.xml中有問題。在上傳之前需要解決的問題:</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>這個模組在LoadFolders.xml中有問題。在上傳之前需要解決的問題:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>為版本{1}指定的資料夾{0}不存在。</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
@@ -289,7 +289,7 @@
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
   <ModLoadFolderDefaultDeprecated>不推薦在載入資料中使用「default」格式的版本目錄。請為每個版本的目錄加上類似『v...』的標籤。</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>版本{0}是在載入資料夾中定義的，但是在mod的About.xml的'supportedGameVersions'中沒有列出</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>版本{0}是在載入資料夾中定義的，但是在模組的About.xml的'supportedGameVersions'中沒有列出</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>拖曳以重新排序</DragToReorder>
 
