@@ -28,7 +28,7 @@
   -->
   <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
     <li>questName->挽救[runnerIndef]</li>
-    <li>questName->[runnerIndef]的救贖</li>
+    <li>questName->拯救[runnerIndef]</li>
     <li>questName->幫助[runnerIndef]</li>
     <li>questName->接受[runnerIndef]</li>
     <li>questName->[enemyFaction_pawnsPlural]追捕[runnerIndef]</li>
@@ -39,11 +39,12 @@
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
     <li>runnerIndef->難民</li>
+    <li>runnerIndef(childCount==1,priority=1)->兒童</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>TODO</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL}追捕[../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>TODO</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n              \n[enemyFaction_pawnsPlural]前來追捕[../joiner_nameDef]。</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
   
   <!-- UNUSED -->
   <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL}追捕[../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>
