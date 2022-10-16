@@ -129,12 +129,12 @@
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>複製區域設定值</CommandCopyZoneSettingsLabel>
   <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>複製此區域的設定值，你可以在其他區域貼上這些設定值。</CommandCopyZoneSettingsDesc>
+  <CommandCopyZoneSettingsDesc>複製此儲存區的設定值，你可以在其他區域貼上這些設定值。</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>貼上區域設定值</CommandPasteZoneSettingsLabel>
   <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>貼上你之前復製的設定值。</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>貼上你之前複製的設定值。</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>允許播種</CommandAllowSow>
@@ -144,12 +144,12 @@
   <!-- EN: Allow cutting -->
   <CommandAllowCut>允許收穫</CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
-  <CommandAllowCutDesc>禁止收穫後，殖民者不會在此區域收穫植物。但他們還是會在已經空出的空間種植新的植物，並進行收穫。</CommandAllowCutDesc>
+  <CommandAllowCutDesc>禁止收穫後，殖民者不會在此區域收穫植物。但他們還是會在已經空出的空間種植新的植物，並收穫種植區指定的植物類型。</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
-  <CommandSelectStoredThing>TODO</CommandSelectStoredThing>
+  <CommandSelectStoredThing>選取{0_label}</CommandSelectStoredThing>
   <!-- EN: Select the item stored in here. -->
-  <CommandSelectStoredThingDesc>TODO</CommandSelectStoredThingDesc>
+  <CommandSelectStoredThingDesc>選取存放在這裡的物品。</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -277,7 +277,7 @@
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>沒有{CHARGENOUN_plural}。</CommandReload_NoCharges>
   <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
-  <CommandReload_Cooldown>TODO</CommandReload_Cooldown>
+  <CommandReload_Cooldown>需{COOLDOWNGERUND}{TIME}。</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>重新裝填需要{COUNT}x{AMMO_label}。</CommandReload_NoAmmo>
   
@@ -305,7 +305,7 @@
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>組織一群前往新區域的殖民者。殖民者會集合所有指定的物資及同行的動物，離開所在的區域，等待下一步命令。</CommandFormCaravanDesc>
   <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
-  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
+  <CommandFormCaravanDescAtSpot>此位置將被用作旅隊集合點。在離開前，所有物品和動物會先被帶到這裡。</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -565,17 +565,17 @@
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>放下正抬著的人。</CommandDropPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <CommandSelectCarriedPawn>選取{0_nameDef}</CommandSelectCarriedPawn>
   <!-- EN: Select the creature being carried. -->
-  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <CommandSelectCarriedPawnDesc>選取被帶著的生物。</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectCarriedThing>TODO</CommandSelectCarriedThing>
+  <CommandSelectCarriedThing>選取{0_label}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
-  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <CommandSelectCarriedThingDesc>選取被帶著的物品。</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainerThing>TODO</CommandSelectContainerThing>
+  <CommandSelectContainerThing>選取{0_label}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>選取裝載的物品。</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
   <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->

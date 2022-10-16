@@ -73,7 +73,7 @@
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>獵人缺少遠程武器</HunterLacksWeapon>
   <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
-  <HunterLacksWeaponDesc>有殖民者被指派做狩獵工作，但卻沒有遠程武器。\n\n在持有遠程武器之前，他們是不會去狩獵的。</HunterLacksWeaponDesc>
+  <HunterLacksWeaponDesc>有殖民者被指派做狩獵工作，但卻沒有遠程武器。\n\n在持有遠程武器之前，他們是不會去狩獵的。\n\n以下殖民者被指派為獵人並需要遠程武器</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>破損的衣物</AlertTatteredApparel>
@@ -163,11 +163,11 @@
   <CaravanIdleDesc>旅隊正在等待著你設定的下一個目的地\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Medical treatment needed -->
-  <ColonistNeedsTreatment>殖民者需要治療</ColonistNeedsTreatment>
+  <ColonistNeedsTreatment>需要治療</ColonistNeedsTreatment>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>這些殖民者需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的居民，右擊點擊病床給他們安置好。)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDesc>這些人需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的人，右擊點擊病床給他們安置好。)</ColonistNeedsTreatmentDesc>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>這些殖民者需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的居民，在病床上按下LT給他們安置好。)</ColonistNeedsTreatmentDescController>
+  <ColonistNeedsTreatmentDescController>這些人需要接受治療。如果沒有被治療，他們可能因為這些傷口而死，或他們的傷口變成永久性傷痕。\n\n{0}\n將他們送到醫療床上治療他們。\n\n(首先將一張床設為病床，接著選擇受傷的人，在病床上按下LT給他們安置好。)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>低溫症</AlertHypothermia>
