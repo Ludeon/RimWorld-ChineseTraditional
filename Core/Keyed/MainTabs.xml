@@ -37,11 +37,11 @@
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\n當前屬於{1_nameDef}。\n\n點擊以查看派系。</PawnFactionInfo>
   <!-- EN: Disabled by {0} backstory -->
-  <WorkDisabledByBackstory>背景故事禁用：{0}</WorkDisabledByBackstory>
+  <WorkDisabledByBackstory>{0}的背景故事禁用</WorkDisabledByBackstory>
   <!-- EN: Disabled by {0} trait -->
-  <WorkDisabledByTrait>特性禁用：{0}</WorkDisabledByTrait>
+  <WorkDisabledByTrait>{0}的特性禁用</WorkDisabledByTrait>
   <!-- EN: Disabled by quest '{0}' -->
-  <WorkDisabledByQuest>任務禁用：{0}</WorkDisabledByQuest>
+  <WorkDisabledByQuest>任務「{0}」所禁用</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -79,9 +79,9 @@
   <!-- EN: Bonded to -->
   <BondedTo>夥伴與</BondedTo>
   <!-- EN: Sterilize animal. -->
-  <SterilizeAnimal>TODO</SterilizeAnimal>
+  <SterilizeAnimal>絕育。</SterilizeAnimal>
   <!-- EN: Animal sterile. -->
-  <AnimalAlreadySterile>TODO</AnimalAlreadySterile>
+  <AnimalAlreadySterile>動物絕育。</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
@@ -189,7 +189,7 @@
   <!-- EN: Study -->
   <Study>研究</Study>
   <!-- EN: Study {0} -->
-  <StudyThing>TODO</StudyThing>
+  <StudyThing>研究{0}</StudyThing>
   <!-- EN: Unresearched -->
   <Unresearched>未研究</Unresearched>
   <!-- EN: Finished -->
@@ -207,7 +207,7 @@
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>前置條件未完成</PrerequisitesNotCompleted>
   <!-- EN: Missing required research facilities -->
-  <MissingRequiredResearchFacilities>TODO</MissingRequiredResearchFacilities>
+  <MissingRequiredResearchFacilities>缺乏必要的研究設施</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
   <RequiredResearchBench>需要研究桌</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
@@ -351,6 +351,6 @@
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
-  <ClickToEdit>TODO</ClickToEdit>
+  <ClickToEdit>點擊編輯</ClickToEdit>
 
 </LanguageData>

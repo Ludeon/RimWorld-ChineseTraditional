@@ -201,7 +201,7 @@
   <!-- EN: Open folder -->
   <ModFolder>打開文件夾</ModFolder>
   <!-- EN: Mod options -->
-  <ModOptions>Mod選項</ModOptions>
+  <ModOptions>模組選項</ModOptions>
   <!-- EN: Workshop -->
   <FromWorkshop>Workshop</FromWorkshop>
   <!-- EN: Forum -->
@@ -209,11 +209,11 @@
   <!-- EN: Advanced... -->
   <MoreActions>進階...</MoreActions>
   <!-- EN: All selected mods -->
-  <AllSelectedMods>所有選定的Mod</AllSelectedMods>
+  <AllSelectedMods>所有選定的模組</AllSelectedMods>
   <!-- EN: All disabled mods -->
-  <AllDisabledMods>所有禁用的Mod</AllDisabledMods>
+  <AllDisabledMods>所有禁用的模組</AllDisabledMods>
   <!-- EN: All incompatible mods -->
-  <AllIncompatibleMods>所有不兼容的Mod</AllIncompatibleMods>
+  <AllIncompatibleMods>所有不兼容的模組</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Workshop頁面</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -241,27 +241,27 @@
   <!-- EN: Game versions -->
   <ModTargetVersion>可用版本</ModTargetVersion>
   <!-- EN: Mod version -->
-  <ModVersion>Mod版本</ModVersion>
+  <ModVersion>模組版本</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>必須在這些Mod之前載入:{0}。</ModMustLoadBefore>
+  <ModMustLoadBefore>必須在這些模組之前載入:{0}。</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>必須在這些Mod之後載入:{0}。</ModMustLoadAfter>
+  <ModMustLoadAfter>必須在這些模組之後載入:{0}。</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
   <ModDependsOn>必要的:{0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
   <ModIncompatibleWith>不兼容:{0}</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
-  <ModIncompatibleWithTip>與這個MOD不兼容的有:{0}。</ModIncompatibleWithTip>
+  <ModIncompatibleWithTip>與這個模組不兼容的有:{0}。</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>相對於另一個Mod，此Mod載入順序錯誤。使用「自動排序」按鈕，或手動重新排列Mod組模。</ModOrderingWarning>
+  <ModOrderingWarning>相對於另一個模組，此模組載入順序錯誤。使用「自動排序」按鈕，或手動重新排列模組。</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>另一個啟動的mod使用了相同的ID:{0}。</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>與{0}產生了循環依賴。</ModCyclicDependency>
   <!-- EN: This requires the following mods to work: {0}. -->
-  <ModUnsatisfiedDependency>這需要以下MOD組模才能運行:{0}。</ModUnsatisfiedDependency>
+  <ModUnsatisfiedDependency>這需要以下模組才能運行:{0}。</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
@@ -478,9 +478,9 @@
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>自然洞穴中可能會生成休眠的蟲巢。\n\n此選項只會影響地圖生成，而不會影響到中途穿地而出的活躍蟲群。</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
-  <Difficulty_UnwaveringPrisoners_Label>添加堅定的俘虜</Difficulty_UnwaveringPrisoners_Label>
+  <Difficulty_UnwaveringPrisoners_Label>添加忠貞不二的俘虜</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoner - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
-  <Difficulty_UnwaveringPrisoners_Info>此選項讓遊戲增加額外的可拘禁的俘虜，這些囚犯由於堅定不移的忠誠而無法被招募.\n\n這些堅定的俘虜是在普通俘虜之上額外添加的，因此關閉此選項不會出現更多可招募的俘虜 - 它只是刪除了堅定不移的俘虜。\n\n堅定的俘虜仍然可以被釋放以換取外交獎勵、販賣、奴役、摘取器官，或其他用途。一般而言，他們提供了更多的選項和資源，並使遊戲更加豐富和容易。</Difficulty_UnwaveringPrisoners_Info>
+  <Difficulty_UnwaveringPrisoners_Info>此選項讓遊戲增加額外的可拘禁的俘虜，這些俘虜由於堅定不移的忠誠而無法被招募.\n\n這些堅定的俘虜是在普通俘虜之上額外添加的，因此關閉此選項不會出現更多可招募的俘虜 - 它只是刪除了堅定不移的俘虜。\n\n堅定的俘虜仍然可以被釋放以換取外交獎勵、販賣、奴役、摘取器官，或其他用途。一般而言，他們提供了更多的選項和資源，並使遊戲更加豐富和容易。</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
@@ -631,17 +631,17 @@
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>禁用的工作類型：</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by backstory -->
-  <IncapableOfTooltipBackstory>由於背景故事：{0}</IncapableOfTooltipBackstory>
+  <IncapableOfTooltipBackstory>由於背景故事</IncapableOfTooltipBackstory>
   <!-- EN: Caused by title -->
-  <IncapableOfTooltipTitle>由於頭銜：{0}</IncapableOfTooltipTitle>
+  <IncapableOfTooltipTitle>由於頭銜</IncapableOfTooltipTitle>
   <!-- EN: Caused by trait -->
-  <IncapableOfTooltipTrait>由於特性：{0}</IncapableOfTooltipTrait>
+  <IncapableOfTooltipTrait>由於特性</IncapableOfTooltipTrait>
   <!-- EN: Caused by quest status -->
-  <IncapableOfTooltipQuest>任務導致的原因：{0}</IncapableOfTooltipQuest>
+  <IncapableOfTooltipQuest>任務導致的原因</IncapableOfTooltipQuest>
   <!-- EN: Caused by role -->
-  <IncapableOfTooltipRole>由於角色：{0}</IncapableOfTooltipRole>
+  <IncapableOfTooltipRole>由於角色</IncapableOfTooltipRole>
   <!-- EN: Caused by gene -->
-  <IncapableOfTooltipGene>由基因引起</IncapableOfTooltipGene>
+  <IncapableOfTooltipGene>由於基因</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>特性</Traits>
   <!-- EN: Permanent mood effect -->
@@ -718,7 +718,7 @@
   <GeneratingMapForNewEncounter>生成新的遭遇地圖中</GeneratingMapForNewEncounter>
 
   <!-- EN: Click for more info. -->
-  <ClickForMoreInfo>點擊瞭解更多資訊</ClickForMoreInfo>
+  <ClickForMoreInfo>點擊瞭解更多資訊。</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>沒有可用的資訊。</NoMoreInfoAvailable>
 
@@ -728,9 +728,9 @@
   <!-- EN: Gameplay problems can occur with more than {0} factions. -->
   <RecommendedFactionCount>派系數量超過{0}可能會使遊戲出現問題。</RecommendedFactionCount>
   <!-- EN: max {0} visible factions allowed -->
-  <TotalFactionsAllowed>最多允許{0}個現有派系。</TotalFactionsAllowed>
+  <TotalFactionsAllowed>允許最多{0}個具體派系。</TotalFactionsAllowed>
   <!-- EN: max {0} -->
-  <MaxFactionsForType>不可以超過{0}{1}。</MaxFactionsForType>
+  <MaxFactionsForType>不可以超過{0}。</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>選擇出現在世界上的派系。你最多可以選擇{0}個派系。</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->

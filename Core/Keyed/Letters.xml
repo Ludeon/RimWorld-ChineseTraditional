@@ -11,12 +11,12 @@
   <!-- EN: Read more -->
   <ReadMore>查看更多</ReadMore>
   <!-- EN: You have {0} more letters -->
-  <MoreLetters>TODO</MoreLetters>
+  <MoreLetters>你還有{0}封信件</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>夏天</LetterLabelFirstSummerWarning>
   <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
-  <FirstSummerWarning>夏天來臨！而冬天正悄悄接近中。\n\n寒冷的冬天會讓你的農作物無法生長。確保儲備充足的食物過冬。你可以建造冷凍庫，以確保食物不會腐爛。\n\n買、偷或製作一些大衣，否則你將會在外頭被凍僵。</FirstSummerWarning>
+  <FirstSummerWarning>夏天來臨！而冬天正悄悄接近中。\n\n寒冷的冬天會讓你的農作物無法生長。確保儲備充足的食物過冬。你可以建造冷凍庫，以確保食物不會腐爛。\n\n為了過冬，買、偷或製作一些大衣，否則你將會在外頭被凍僵。</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>和{0}的關係破裂了。他們現在敵視你。</LetterRelationsChange_Hostile>  
@@ -79,9 +79,9 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>今天是{0}的生日！生理年齡，{1}已經{3}歲了。\n\n實際年齡，{1}已經{2}歲了。\n\n注意，人們在休眠時不會老化，因此生理年齡與實際年齡是區分開來的。</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
-  <LetterBirthdayBiological>TODO</LetterBirthdayBiological>
+  <LetterBirthdayBiological>{0_nameFull}的生理年齡已經到{1}歲了。</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
-  <BirthdayBiologicalAgeInjuries>{0_nameFull}的生理年齡已經{1}歲。\n\n很不幸地，因為{0_nameFull}年老，羅患了以下疾病：\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>很不幸地，因為{0_nameFull}年老，羅患了以下疾病</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
@@ -424,7 +424,7 @@
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->
-  <LetterDisease_Blocked>{0}擋住了{1}。位置：{2}。</LetterDisease_Blocked>
+  <LetterDisease_Blocked>{0}擋住了{1}於</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>疾病：{0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
@@ -546,15 +546,15 @@
   <LetterTextSiteCountdownStarted>你的旅隊被發現了。在{0}，來自{2}的{1}將會到達這片區域。\n請重組你的旅隊並開始移動避開{1}。現在對方抵達的計時已經可以看見。</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
-  <LetterLabelUnrecruitablePawnCaptured>TODO</LetterLabelUnrecruitablePawnCaptured>
+  <LetterLabelUnrecruitablePawnCaptured>忠貞不二的俘虜</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
-  <LetterTextUnrecruitablePawnCaptured>TODO</LetterTextUnrecruitablePawnCaptured>
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef}對他們的家鄉實在忠貞不二而絕對拒絕任何招募。\n\n你可以透過選取該人得知是否忠貞不二。</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
-  <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
+  <OptionalEnslaveDesc>奴役{PAWN_objective}</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>TODO</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN}由於長期曝露在腐爛臭氣中而患上了{1}。\n\n確保你有醫療床、醫生。讓{PAWN_definite}得到適當的治療。</LetterTextLungRot>
 
   <!-- UNUSED -->
   <LetterLabelSurgeryFailed>{PATIENT_labelShort}的手術失敗了。</LetterLabelSurgeryFailed>

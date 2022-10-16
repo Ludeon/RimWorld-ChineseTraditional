@@ -575,19 +575,19 @@
   <!-- EN: Select {0_label} -->
   <CommandSelectContainerThing>選取{0_label}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>選取裝載的物品。</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>選取裝載的容器。</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <CommandSelectCarryingPawn>選取{0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
-  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <CommandSelectCarryingPawnDesc>選取帶著東西的生物。</CommandSelectCarryingPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectContainedPawn>TODO</CommandSelectContainedPawn>
+  <CommandSelectContainedPawn>選取{0_nameDef}</CommandSelectContainedPawn>
   <!-- EN: Select the contained creature. -->
-  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <CommandSelectContainedPawnDesc>選取帶著東西的生物。</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainedThing>TODO</CommandSelectContainedThing>
+  <CommandSelectContainedThing>選取{0_label}</CommandSelectContainedThing>
   <!-- EN: Select the contained item. -->
-  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+  <CommandSelectContainedThingDesc>選取裝載的物品。</CommandSelectContainedThingDesc>
 
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
@@ -616,26 +616,26 @@
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
-  <LinkStorageSettings>TODO</LinkStorageSettings>
+  <LinkStorageSettings>連結設定</LinkStorageSettings>
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
-  <LinkStorageSettingsDesc>TODO</LinkStorageSettingsDesc>
+  <LinkStorageSettingsDesc>為多個選取的建築物連結儲存設定，從而讓他們擁有同一設定。\n\n整組設定會跟隨最先選中的那個。</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
-  <LinkStorageDisabledSelectTwo>TODO</LinkStorageDisabledSelectTwo>
+  <LinkStorageDisabledSelectTwo>你必須選取兩個或以上建築物才能連結儲存設定。</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
-  <AlreadyLinked>TODO</AlreadyLinked>
+  <AlreadyLinked>已被連接。</AlreadyLinked>
   <!-- EN: Unlink settings -->
-  <UnlinkStorageSettings>TODO</UnlinkStorageSettings>
+  <UnlinkStorageSettings>解除連接</UnlinkStorageSettings>
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
-  <UnlinkStorageSettingsDesc>TODO</UnlinkStorageSettingsDesc>
+  <UnlinkStorageSettingsDesc>解除與其他建築物連結的儲存設定，使它能被單獨設定。</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
-  <LinkedStorageSettings>TODO</LinkedStorageSettings>
+  <LinkedStorageSettings>連接儲存設定</LinkedStorageSettings>
   <!-- EN: {0} buildings -->
-  <NumBuildings>TODO</NumBuildings>
+  <NumBuildings>{0}建築物</NumBuildings>
   <!-- EN: Stores -->
-  <StoresThings>TODO</StoresThings>
+  <StoresThings>倉庫</StoresThings>
   <!-- EN: Select all linked -->
-  <SelectAllLinked>TODO</SelectAllLinked>
+  <SelectAllLinked>選取所有已連接的</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
-  <SelectAllLinkedDesc>TODO</SelectAllLinkedDesc>
+  <SelectAllLinkedDesc>選取所有連接至此的收納建築。</SelectAllLinkedDesc>
   
 </LanguageData>

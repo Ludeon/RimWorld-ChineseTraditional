@@ -51,7 +51,7 @@
   <!-- EN: Contents -->
   <TabCasketContents>內容物</TabCasketContents>
   <!-- EN: Auto-cut -->
-  <TabWindTurbineAutoCut>TODO</TabWindTurbineAutoCut>
+  <TabWindTurbineAutoCut>自動裁剪</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -125,19 +125,19 @@
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>被判有罪</ConsideredGuiltyNoTimer>
   <!-- EN: Last resistance reduction -->
-  <LastRecruitment>TODO</LastRecruitment>
+  <LastRecruitment>上次心防減少值</LastRecruitment>
   <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
-  <LastRecruitmentDescription>TODO</LastRecruitmentDescription>
+  <LastRecruitmentDescription>當{0_nameDef}上次被{1}招募的時候減少的心防。</LastRecruitmentDescription>
   <!-- EN: Opinion of recruiter -->
-  <OpinionOfRecruiter>TODO</OpinionOfRecruiter>
+  <OpinionOfRecruiter>招募者意見</OpinionOfRecruiter>
   <!-- EN: Recruiter negotiation ability -->
-  <RecruiterNegotiationAbility>TODO</RecruiterNegotiationAbility>
+  <RecruiterNegotiationAbility>招募者談判能力</RecruiterNegotiationAbility>
   <!-- EN: Unwavering loyalty -->
-  <NonRecruitable>TODO</NonRecruitable>
+  <NonRecruitable>忠貞不二</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
-  <NonRecruitableTip>TODO</NonRecruitableTip>
+  <NonRecruitableTip>此俘虜對他們的家鄉實在忠貞不二而絕對拒絕任何招募。</NonRecruitableTip>
   <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>TODO</NonRecruitableTipCannotConvert>
+  <NonRecruitableTipCannotConvert>他們的忠誠延伸至他們的信仰因此無法傳教。</NonRecruitableTipCannotConvert>
 
 
 
@@ -188,9 +188,9 @@
   <!-- EN: Overview -->
   <HealthOverview>概觀</HealthOverview>
   <!-- EN: Operations -->
-  <MedicalOperationsShort>手術({0})</MedicalOperationsShort>
+  <MedicalOperationsShort>手術</MedicalOperationsShort>
   <!-- EN: Modifications -->
-  <MedicalOperationsMechanoidsShort>修正({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperationsMechanoidsShort>修正</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>手術</MedicalOperations>
   <!-- EN: amputate -->
@@ -206,7 +206,7 @@
   <!-- EN: Hunger rate -->
   <HungerRate>飢餓率</HungerRate>
   <!-- EN: Food consumption -->
-  <FoodConsumption>TODO</FoodConsumption>
+  <FoodConsumption>食物消耗</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>疲勞率</Tiredness>
   <!-- EN: Pain -->
@@ -273,9 +273,9 @@
   <!-- EN: Faction leader -->
   <FactionLeader>派系首領</FactionLeader>
   <!-- EN: Opinion of {0} -->
-  <OpinionOf>對{1_labelShort}的看法</OpinionOf>
+  <OpinionOf>對{0}的看法</OpinionOf>
   <!-- EN: {0}'s opinion of me -->
-  <SomeonesOpinionOfMe>{1_labelShort}對我的看法</SomeonesOpinionOfMe>
+  <SomeonesOpinionOfMe>{0}對我的看法</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>我死了</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -421,7 +421,7 @@
   <AutocutUnenclosedPenTip>飼養圈目前沒有圍住，無法執行自動裁剪植物。</AutocutUnenclosedPenTip>
 
   <!-- EN: Auto-cut plants blocking wind turbine -->
-  <WindTurbineAutoCut_EnabledCheckbox>TODO</WindTurbineAutoCut_EnabledCheckbox>
+  <WindTurbineAutoCut_EnabledCheckbox>自動裁剪阻礙風力發電機的植物</WindTurbineAutoCut_EnabledCheckbox>
 
   <!-- UNUSED -->
   <NoRelationships>(無社交關係)</NoRelationships>
