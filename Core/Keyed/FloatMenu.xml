@@ -79,7 +79,7 @@
   <!-- EN: missing {0} -->
   <MissingMaterials>需要材料{0}</MissingMaterials>
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
-  <NoMedicineMatchingCategory>沒有限制的藥物「{CATEGORY}」</NoMedicineMatchingCategory>
+  <NoMedicineMatchingCategory>沒有藥物能供應「{CATEGORY}」</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>技能等級低於最低需求{0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -99,7 +99,7 @@
   <!-- EN: no food -->
   <NoFood>無食物</NoFood>
   <!-- EN: no food matching restrictions -->
-  <NoFoodMatchingRestrictions>沒有食物搭配限制</NoFoodMatchingRestrictions>
+  <NoFoodMatchingRestrictions>沒有食物符合限制</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>沒有{0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -171,7 +171,7 @@
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>最大等級</InstallImplantAlreadyMaxLevel>
   <!-- EN: psychically deaf -->
-  <InstallImplantPsychicallyDeaf>精神失聰</InstallImplantPsychicallyDeaf>
+  <InstallImplantPsychicallyDeaf>心靈障壁</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>將{0}升級到{1}級</UpgradeImplant>
   <!-- EN: violation of faction ally -->
@@ -205,7 +205,7 @@
   <!-- EN: Cannot capture -->
   <CannotCapture>無法俘虜</CannotCapture>
   <!-- EN: unwaveringly loyal -->
-  <Unrecruitable>忠貞不渝</Unrecruitable>
+  <Unrecruitable>忠貞不二</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>救援{1_label}</Rescue>
@@ -286,7 +286,7 @@
   <!-- EN: Too few -->
   <ReloadNotEnough>過少</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
-  <ReloadCannotCarryEnough>沒有辦法搬運足夠發射一發的{AMMO_label}</ReloadCannotCarryEnough>
+  <ReloadCannotCarryEnough>沒有辦法搬運足夠發射一發的{AMMO_label}。</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>無法撿起{1_label}</CannotPickUp>
