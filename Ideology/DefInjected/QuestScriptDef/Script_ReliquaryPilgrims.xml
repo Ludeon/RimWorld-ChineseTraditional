@@ -51,6 +51,10 @@
   </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], a child, [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->A group of [pilgrimsLabelSingularOrPlural] including a child has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->A group of [pilgrimsLabelSingularOrPlural] including some children has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->A group of child [pilgrimsLabelSingularOrPlural] has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
     <li>isAre(pilgrimCount==1)->is</li>
     <li>isAre(pilgrimCount>=2)->are</li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
@@ -60,6 +64,10 @@
   -->
   <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
     <li>questDescription->[pilgrimsLabelSingularOrPlural]為朝拜[relic_name]來訪。\n\n如果你能確保[pronounSingularOrPlural]朝拜遠古聖物時是安全而且受尊重的，[pronounSingularOrPlural]可能會給予你謝禮。</li>
+    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural]，一名兒童，為朝拜[relic_name]來訪。\n\n如果你能確保[pronounSingularOrPlural]朝拜遠古聖物時是安全而且受尊重的，[pronounSingularOrPlural]可能會給予你謝禮。</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->一群帶著一名兒童的[pilgrimsLabelSingularOrPlural]為朝拜[relic_name]來訪。\n\n如果你能確保[pronounSingularOrPlural]朝拜遠古聖物時是安全而且受尊重的，[pronounSingularOrPlural]可能會給予你謝禮。</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->一群帶著兒童的[pilgrimsLabelSingularOrPlural]為朝拜[relic_name]來訪。\n\n如果你能確保[pronounSingularOrPlural]朝拜遠古聖物時是安全而且受尊重的，[pronounSingularOrPlural]可能會給予你謝禮。</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->A group of child [pilgrimsLabelSingularOrPlural] has arrived to venerate the [relic_name].\n\n如果你能確保[pronounSingularOrPlural]朝拜遠古聖物時是安全而且受尊重的，[pronounSingularOrPlural]可能會給予你謝禮。</li>
     <li>isAre(pilgrimCount==1)-></li>
     <li>isAre(pilgrimCount>=2)-></li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>

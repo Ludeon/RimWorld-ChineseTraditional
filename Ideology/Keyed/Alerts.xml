@@ -19,16 +19,16 @@
 
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>{0}的時機</RitualOpportunity>
-  <!-- EN: {0} opportunity for -->
-  <RitualOpportunityFor>{0}的時機於</RitualOpportunityFor>
-  <!-- EN: Expires in -->
-  <RitualExpiresIn>離期限結束還有</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>{RITUAL_labelDef}結束時，將獲得以下效果</RitualCompletionEffects>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>為{1}舉行{0}的時機</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>離{1}的期限，還有{0}。</RitualExpiresIn>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>若想開始儀式，請選擇{FOCUS}，按下「{RITUAL_label}開始」指令按鈕。</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>若想開始儀式，請選擇以下其中之一，按下「{RITUAL_label}開始」指令按鈕。</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>若想開始儀式，請選擇目標對象，按下「{RITUAL_label}開始」指令按鈕，以下是可選擇的目標對象:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>以下的職責是{RITUAL_label}的一部份:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>請點擊以跳轉到目標</RitualJumpToTargets>
   <!-- EN: In order to perform {0} you need to fill these roles -->
@@ -75,8 +75,8 @@
   <AlertRitualComingDesc>將可以舉行以下的儀式</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>需要在{0}天內舉行，否則要待明年才能再辦。</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
-  <AlertRitualComingEntry>在{2}後，於{1}舉行的{0}</AlertRitualComingEntry>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>還有{2}，在{1}舉行的{0}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>需要逆齡</AlertAgeReversalDemandNear>
@@ -131,6 +131,8 @@
   <AlertSlaveRebellionLikelyMostRebellious>約每{COMBINEDTIME}可能會有一場奴隸叛變。留意，每名奴隸有著不同的叛變機率，所以他們之中任何一名叛變都有可能帶動其他人一起作反。\n\n{REBEL_labelShort}是最有可能叛變的奴隸，並可能會每{INDIVIDUALTIME}發動一場叛變。以下是影響他們叛變頻率的因素︰</AlertSlaveRebellionLikelyMostRebellious>
   
   <!-- UNUSED -->
+  <RitualCompletionEffects>{RITUAL_labelDef}結束時，將獲得以下效果</RitualCompletionEffects>
+  <RitualRolesExplanation>以下的職責是{RITUAL_label}的一部份:\n{1}</RitualRolesExplanation>
   <RitualExpected>殖民者期望{0}的儀式</RitualExpected>
   <RitualExpectedFor>期望{0}給</RitualExpectedFor>
   <RitualExpirationTime>{0}日: 儀式時機就會結束</RitualExpirationTime>

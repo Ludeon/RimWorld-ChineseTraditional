@@ -7,6 +7,8 @@
   <OnlyMembersCanBuild>只有{0}位能建造</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0}已在進行中</CantStartRitualAlreadyInProgress>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>一名或以上的參加者由於極端氣溫無法參加。</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0}已正在參與儀式</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
@@ -19,8 +21,12 @@
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef}必須擔任{IDEO_memberName}。</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef}是心靈障壁人士。</CantStartRitualSelectedPawnPsychicallyDeaf>
-  <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuel>空間不足。必須要清空{MINRADIUS}半徑的圓形。</CantStartNotEnoughSpaceDuel>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>觀戰者空間不足。必須要清空{MINRADIUS}半徑的圓圈。至少要有{1}個可站立位置在圓圈中。</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>角鬥士空間不足。必須要清空{MINRADIUS}半徑的圓圈。至少要有{1}個可站立位置在圓圈中。</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>主持空間不足。必須要清空{MINRADIUS}半徑的圓圈。</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort}是一名奴隸。奴隸不配有喪禮。</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
@@ -68,8 +74,6 @@
   <RoleApparelRequirementIncompatibleAnyMemeRequired>需要以下任一模因</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>無法穿著指定服裝</BodyPartAlreadyCovered>
-  <!-- EN: already assigned -->
-  <AlreadyAssigned>已指定</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>滿足人們的服裝要求會使他們感到高興，違反要求則會不高興。</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
@@ -168,4 +172,7 @@
   <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort}已經需要{PAWN_possessive}下一次療程，並會在它啟用時自動進行。</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
   <BiosculpterJobReportCollectIngredients>為塑體艙療程收集材料</BiosculpterJobReportCollectIngredients>
+  <!-- UNUSED -->
+  <CantStartNotEnoughSpaceDuel>空間不足。必須要清空{MINRADIUS}半徑的圓形。</CantStartNotEnoughSpaceDuel>
+
 </LanguageData>

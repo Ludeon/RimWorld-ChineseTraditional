@@ -252,8 +252,8 @@
   <CaravanAttacking>攻擊{0}。</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>贈送禮物給{0}</CaravanOfferingGifts>
-  <!-- EN: Trading with {0} -->
-  <CaravanTrading>與{0}進行交易</CaravanTrading>
+  <!-- EN: Trading with {0}. -->
+  <CaravanTrading>與{0}進行交易。</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>曾被死者穿過。</WasWornByCorpse>
   <!-- EN: T -->
@@ -262,6 +262,8 @@
   <DeterioratingUnroofed>沒有屋頂</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>室外</DeterioratingOutdoors>
+  <!-- EN: raining -->
+  <DeterioratingRaining>下雨</DeterioratingRaining> <!-- text_todo -->
   <!-- EN: protected -->
   <Protected>受保護</Protected>
   <!-- EN: Deteriorating -->
@@ -280,8 +282,8 @@
   <BeautyHere>美觀度</BeautyHere>
   <!-- EN: no power -->
   <NoPower>無電力</NoPower>
-  <!-- EN: Work speed penalty -->
-  <WorkSpeedPenalty>工作速度懲罰</WorkSpeedPenalty>
+  <!-- EN: Work speed -->
+  <WorkSpeedPenalty>工作速度</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>禁用</DisabledCommand>
   <!-- EN: Ready for launch. -->
@@ -710,10 +712,14 @@
   <Hilliness_Label>山勢</Hilliness_Label>
   <!-- EN: Road -->
   <Road_Label>道路</Road_Label>
+  <!-- EN: River -->
+  <River_Label>河流</River_Label> <!-- text_todo -->
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>移動難度</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>污染</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>髒污</Filth_Label><!-- text_todo -->
   
   <!-- EN: Faction -->
   <Faction_Label>派系</Faction_Label>
@@ -726,6 +732,7 @@
   <!-- EN: Time to destination -->
   <CaravanTTD_Label>尚需時間</CaravanTTD_Label>
   
+
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>無法命令不受控制的單位。</CannotOrderNonControlled>
@@ -1088,7 +1095,6 @@
   <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
   <CutAllBlightDesc>把所有枯萎病植物標記裁剪。枯萎病植物不會生產任何食物或資源，而且應該在枯萎病傳播前盡早剷除。</CutAllBlightDesc>
 
-
   <!-- Zones -->
   <!-- EN: Zone -->
   <Zone>區域</Zone>
@@ -1154,7 +1160,6 @@
   <ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
   <ShowTemperatureOverlayToggleButton>開關溫度檢視。能夠顯示室內和室外的氣溫。\n\n如果氣溫過高或過低居民會感到不高興。曝露在極端氣溫更會引致低溫症、凍傷、中暑、燒傷，甚至死亡。</ShowTemperatureOverlayToggleButton>
-
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1413,7 +1418,6 @@
   <LearningHelper>教學幫手</LearningHelper>
   <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
   <LearningHelperTooltip>針對你的殖民地目前狀態而作出引導的內置指導</LearningHelperTooltip>
-
   <!-- EN: Mark as learned -->
   <MarkLearned>標記為已學習</MarkLearned>
   <!-- EN: Already learned -->
@@ -1679,6 +1683,7 @@
   <RitualOutcomeExtraDesc_Mood>每個儀式的參與者都會獲得持續{1}天的{0}點心情。</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>此儀式並無品質之分，因此只會得到最佳結果。</RitualOutcomeNoQuality>
+  
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>選擇誰需要參與{RITUAL_labelDef}</ChooseParticipants>
   <!-- EN: Begin -->
