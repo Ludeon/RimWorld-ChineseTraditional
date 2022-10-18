@@ -2,8 +2,6 @@
 <LanguageData>
 
   <!-- Misc -->
-  <!-- EN: add -->
-  <Add>新增</Add>
   <!-- EN: Trading animal products bonus -->
   <TradingAnimalProduceBonus>畜牧品交易紅利</TradingAnimalProduceBonus>
   <!-- EN: Slaves -->
@@ -14,6 +12,10 @@
   <Date>日期</Date>
   <!-- EN: The following development points will be awarded depending on the ritual outcome -->
   <RitualDevelopmentPointRewards>依儀式結果給予以下發展點數</RitualDevelopmentPointRewards>
+  <!-- EN: Use global style -->
+  <UseGlobalStyle>使用大眾風格</UseGlobalStyle>
+  <!-- EN: No style variations available -->
+  <NoStylesAvailable>沒有風格變種可選</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>選擇你的理念的象徵結構。這只影響標誌，但不影響遊玩。</ChooseStructureMemesInfo>
@@ -60,6 +62,8 @@
   <ChooseNewRole>選擇新職位</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>未分配職位</NoRoleAssigned>
+  <!-- EN: Children cannot take on roles -->
+  <ChildNoRoleAssigned>兒童不可擔任職位</ChildNoRoleAssigned>
   <!-- EN: Remove {0} role -->
   <RemoveRole>移除{0}職位</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
@@ -176,8 +180,6 @@
   <!-- Style -->
   <!-- EN: Style -->
   <StylePawn>風格</StylePawn>
-  <!-- EN: Cancel -->
-  <Cancel>取消</Cancel>
   <!-- EN: hair -->
   <Hair>頭髮</Hair>
   <!-- EN: beard -->
@@ -236,14 +238,8 @@
   <EditAppearanceItems>修改外觀</EditAppearanceItems>
   <!-- EN: {0} in use -->
   <NumAvailable>使用了{0}個</NumAvailable>
-  <!-- EN: Expand all -->
-  <ExpandAllCategories>展開全部</ExpandAllCategories>
-  <!-- EN: Collapse all -->
-  <CollapseAllCategories>摺疊全部</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>重置所有風格選項。</ResetButtonDesc>
-  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
-  <TooltipDyeExplanation>染料可以經種植七色花或購買而得。</TooltipDyeExplanation>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
@@ -326,6 +322,11 @@
   <FoodRestrictionCannibal>食人</FoodRestrictionCannibal>
   <!-- EN: Insect meat -->
   <FoodRestrictionInsectMeat>蟲肉</FoodRestrictionInsectMeat>
+
+  <!-- EN: Styles in use -->
+  <StylesInUse>使用中的風格</StylesInUse>
+  <!-- EN: Add a style. -->
+  <StyleCategoryAddDesc>加入風格。</StyleCategoryAddDesc>
   <!-- UNUSED -->
   <LastAnimalSlaughter>最後的大型動物屠宰</LastAnimalSlaughter>
 

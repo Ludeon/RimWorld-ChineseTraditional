@@ -6,24 +6,24 @@
   
   <!-- EN: A ritualistic burning of a hated symbol. Participants will gather around a sacrificial structure, light it on fire, and celebrate as it burns to ash. -->
   <BurnCircle.descOverride>把可惡的象徵燒毀的儀式。參加者會圍住祭品，然後點火，並為之燃燒殆盡而慶祝。</BurnCircle.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <BurnCircle.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</BurnCircle.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <BurnCircle.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</BurnCircle.ritualExpectedDesc>
   <!-- EN: symbol burning -->
   <BurnCircle.shortDescOverride>燃燒祭</BurnCircle.shortDescOverride>
   
   <!-- UNUSED -->
   <BurnCircle.ritualExpectedPostfix>{0}位{1}想盡快舉行祭典。</BurnCircle.ritualExpectedPostfix>
   
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <CelebrationPartyChat.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</CelebrationPartyChat.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationPartyChat.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</CelebrationPartyChat.ritualExpectedDesc>
   
   <!-- UNUSED -->
   <CelebrationPartyChat.ritualExpectedPostfix>{0}位{1}想盡快舉行祭典。</CelebrationPartyChat.ritualExpectedPostfix>
   
   <!-- EN: A dance party with drums. Participants will gather, socialize, play drums, and dance to have fun and connect with each other. -->
   <CelebrationPartyDanceDrum.descOverride>有鼓的舞蹈派對。參加者會聚在一起、聊天、打鼓以及一起跳舞享樂，互相增進感情。</CelebrationPartyDanceDrum.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <CelebrationPartyDanceDrum.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</CelebrationPartyDanceDrum.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationPartyDanceDrum.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</CelebrationPartyDanceDrum.ritualExpectedDesc>
   <!-- EN: drum party -->
   <CelebrationPartyDanceDrum.shortDescOverride>鼓樂派對</CelebrationPartyDanceDrum.shortDescOverride>
   
@@ -32,8 +32,8 @@
   
   <!-- EN: A dance party with loud music. Participants will gather, socialize, and dance to have fun and connect with each other. -->
   <CelebrationPartyDanceTech.descOverride>放著澎湃音樂的舞會。參加者會聚在一起、聊天、打鼓以及一起跳舞享樂，互相增進感情。</CelebrationPartyDanceTech.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <CelebrationPartyDanceTech.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</CelebrationPartyDanceTech.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationPartyDanceTech.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</CelebrationPartyDanceTech.ritualExpectedDesc>
   <!-- EN: dance party -->
   <CelebrationPartyDanceTech.shortDescOverride>舞會</CelebrationPartyDanceTech.shortDescOverride>
   
@@ -42,8 +42,8 @@
   
   <!-- EN: A social ritual where people release skylanterns. Participants will assemble wooden skylanterns while socializing, then release them and watch them drift away. -->
   <CelebrationSkyLanterns.descOverride>人們可以放天燈的節日。參加者會在聊天的同時製作天燈，然後釋放到天上看著它們隨風飄盪</CelebrationSkyLanterns.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <CelebrationSkyLanterns.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</CelebrationSkyLanterns.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationSkyLanterns.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</CelebrationSkyLanterns.ritualExpectedDesc>
   <!-- EN: skylantern festival -->
   <CelebrationSkyLanterns.shortDescOverride>天燈節</CelebrationSkyLanterns.shortDescOverride>
   
@@ -52,8 +52,8 @@
   
   <!-- EN: A party around a Christmas tree. Participants will gather around a Christmas tree and make merry. -->
   <CelebrationTree.descOverride>圍著聖誕樹的派對。參加者會在聖誕樹周圍聚集並盡情享樂。</CelebrationTree.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <CelebrationTree.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</CelebrationTree.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <CelebrationTree.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</CelebrationTree.ritualExpectedDesc>
   <!-- EN: christmas tree party -->
   <CelebrationTree.shortDescOverride>聖誕樹派對</CelebrationTree.shortDescOverride>
   
@@ -65,27 +65,31 @@
   
   <!-- EN: A ritualistic flesh-eating meal. Participants gather around a platter of human flesh and bloodily feast on it. -->
   <FeastCannibal.descOverride>享用人肉盛宴的儀式。參加者會聚在一個大盤周圍，上面放著人肉和血淋淋的大餐。</FeastCannibal.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <FeastCannibal.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</FeastCannibal.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <FeastCannibal.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</FeastCannibal.ritualExpectedDesc>
   <!-- EN: cannibal feast -->
   <FeastCannibal.shortDescOverride>食人盛宴</FeastCannibal.shortDescOverride>
   
   <!-- UNUSED -->
   <FeastCannibal.ritualExpectedPostfix>{0}位{1}想盡快舉行祭典。</FeastCannibal.ritualExpectedPostfix>
   
-  <!-- EN: Once a {IDEO} member dies and the body is lost, other {MEMBERS} gather around an empty grave for {RITUAL_labelDef}. -->
-  <FuneralNoCorpse.ritualExpectedDesc>一旦{IDEO}的信徒逝世而且屍首無蹤，其他{MEMBERS}會聚在衣冠冢前舉行{RITUAL_labelDef}。</FuneralNoCorpse.ritualExpectedDesc>
+  <!-- EN: You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef} even though the body was lost. -->
+  <FuneralNoCorpse.ritualExpectedDesc>即使{PAWN_nameDef}的屍首無蹤，您也可以舉行{IDEOLIGION_adjective}喪禮。</FuneralNoCorpse.ritualExpectedDesc>
+  <!-- EN: You can hold a funeral for {PAWN_nameDef} even though the body was lost. -->
+  <FuneralNoCorpse.ritualExpectedDescNoAdjective>即使{PAWN_nameDef}的屍首無蹤，您也可以舉行喪禮。</FuneralNoCorpse.ritualExpectedDescNoAdjective>
   
-  <!-- EN: Once a {IDEO} member dies, other {MEMBERS} gather around their grave for {RITUAL_labelDef}. -->
-  <FuneralStandard.ritualExpectedDesc>一旦{IDEO}的信徒逝世，其他{MEMBERS}會聚在他們的墳前舉行{RITUAL_labelDef}。</FuneralStandard.ritualExpectedDesc>
+  <!-- EN: You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef}. -->
+  <FuneralStandard.ritualExpectedDesc>您可以為{PAWN_nameDef}舉行{IDEOLIGION_adjective}喪禮。</FuneralStandard.ritualExpectedDesc>
+  <!-- EN: You can hold a funeral for {PAWN_nameDef}. -->
+  <FuneralStandard.ritualExpectedDescNoAdjective>您可以為{PAWN_nameDef}舉行喪禮。</FuneralStandard.ritualExpectedDescNoAdjective>
   
   <!-- UNUSED -->
   <FuneralStandard.ritualExpectedPostfix>{0}位{1}想盡快舉行喪禮。</FuneralStandard.ritualExpectedPostfix>
   
   <!-- EN: A ritualistic animal sacrifice. The organizer will give a speech to excite the crowd, then cut the animal's throat. Once the animal is dead, the organizer will speak some finishing words. -->
   <SacrificeAnimal.descOverride>獻祭動物的儀式。主辦者會進行佈道帶動氣氛，隨之割斷動物的喉脈。當動物死去後，主辦者就會致詞作結。</SacrificeAnimal.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <SacrificeAnimal.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</SacrificeAnimal.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <SacrificeAnimal.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</SacrificeAnimal.ritualExpectedDesc>
   <!-- EN: animal sacrifice -->
   <SacrificeAnimal.shortDescOverride>動物獻祭</SacrificeAnimal.shortDescOverride>
   
@@ -94,8 +98,8 @@
   
   <!-- EN: A ritualistic prisoner sacrifice. The organizer will give a speech to excite the crowd, then cut the prisoner's throat. Once the prisoner is dead, organizer will speak some finishing words. -->
   <SacrificePrisoner.descOverride>獻祭俘虜的儀式。主辦者會進行佈道帶動氣氛，隨之割斷俘虜的喉脈。當俘虜死去後，主辦者就會致詞作結。</SacrificePrisoner.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <SacrificePrisoner.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</SacrificePrisoner.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <SacrificePrisoner.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</SacrificePrisoner.ritualExpectedDesc>
   <!-- EN: prisoner sacrifice -->
   <SacrificePrisoner.shortDescOverride>俘虜獻祭</SacrificePrisoner.shortDescOverride>
   
@@ -107,8 +111,8 @@
   
   <!-- EN: A ritualistic smoking of large amounts of smokeleaf. Participants will gather around a burnbong or incense shrine, light it on fire, and celebrate while inhaling the fumes. -->
   <SmokeCircle.descOverride>吸食大量菸草的儀式。參加者會聚在煙筒或是香爐周圍，然後點火，並吸入煙霧享樂。</SmokeCircle.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
-  <SmokeCircle.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會慶祝{RITUAL_labelDef}。</SmokeCircle.ritualExpectedDesc>
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+  <SmokeCircle.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</SmokeCircle.ritualExpectedDesc>
   <!-- EN: smokeleaf circle -->
   <SmokeCircle.shortDescOverride>菸草祭</SmokeCircle.shortDescOverride>
   
