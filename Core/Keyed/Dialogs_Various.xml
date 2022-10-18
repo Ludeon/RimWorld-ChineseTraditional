@@ -307,7 +307,7 @@
   <!-- EN: Minimum skills: -->
   <MinimumSkills>最低技能：</MinimumSkills>
   <!-- EN: Requires -->
-  <BillRequires>需要{0}個{1}</BillRequires>
+  <BillRequires>需要</BillRequires>
   <!-- EN: nutrition -->
   <BillNutrition>營養</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
@@ -367,7 +367,7 @@
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>近戰預熱時間</MeleeWarmupTime>
   <!-- EN: Aiming time -->
-  <RangedWarmupTime>遠程預熱時間</RangedWarmupTime>
+  <RangedWarmupTime>瞄準時間</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>冷卻時間</CooldownTime>
   <!-- EN: Disarmed -->
@@ -487,7 +487,7 @@
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>成癮性最小耐受性</MinimumToleranceForAddiction>
   <!-- EN: Safe dose interval for adults -->
-  <SafeDoseInterval>藥物安全間隔</SafeDoseInterval>
+  <SafeDoseInterval>成年人藥物安全間隔</SafeDoseInterval>
   <!-- EN: age {0}-{1} -->
   <AgeXToY>年齡{0}~{1}</AgeXToY>
   <!-- EN: age {0}+ -->
@@ -1063,7 +1063,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
-  <ConfirmSettleNearFactionBase>因為此地距離其他派系據點僅有{0}格遠，他們會覺得你在侵犯他們的領地，造成每日{1}點的關係惡化。\n\n依然要在這建立據點嗎？</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>因為此地距離其他派系據點僅有{0}格遠，他們會覺得你在侵犯他們的領地，造成每隔{1}天的關係惡化。</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1103,11 +1103,11 @@
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>沒有足夠的空間</AbilityNotEnoughFreeSpace>
   <!-- EN: Must target an empty area. -->
-  <AbilityOccupiedCells>{0}必須瞄準空白區域。</AbilityOccupiedCells>
+  <AbilityOccupiedCells>必須瞄準空白區域。</AbilityOccupiedCells>
   <!-- EN: Must target a walkable area. -->
-  <AbilityUnwalkable>{0}必須瞄準可移動區域。</AbilityUnwalkable>
+  <AbilityUnwalkable>必須瞄準可移動區域。</AbilityUnwalkable>
   <!-- EN: Must target an unroofed area. -->
-  <AbilityRoofed>{0}必須瞄準無屋頂區域。</AbilityRoofed>
+  <AbilityRoofed>必須瞄準無屋頂區域。</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_labelShort}精神崩潰了。</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->

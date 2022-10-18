@@ -17,9 +17,9 @@
   <!-- EN: Options -->
   <Options>選項</Options>
   <!-- EN: Mod -->
-  <Mod>Mod</Mod>
+  <Mod>模組</Mod>
   <!-- EN: Mods -->
-  <Mods>Mods</Mods>
+  <Mods>模組</Mods>
   <!-- EN: Save translation report -->
   <SaveTranslationReport>另存翻譯報告</SaveTranslationReport>
   <!-- EN: Generating translation report -->
@@ -31,7 +31,7 @@
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>整理翻譯文件</CleaningTranslationFiles>
   <!-- EN: Dev quicktest -->
-  <DevQuickTest>Dev快速測試</DevQuickTest>
+  <DevQuickTest>開發者快速測試</DevQuickTest>
   <!-- EN: Credits -->
   <Credits>開發團隊</Credits>
   <!-- EN: Quit to main menu -->
@@ -143,11 +143,11 @@
   <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>開啟Steam創意工坊</OpenSteamWorkshop>
   <!-- EN: Get mods from forum -->
-  <GetModsFromForum>前往論壇取得更多Mod</GetModsFromForum>
+  <GetModsFromForum>前往論壇取得更多模組</GetModsFromForum>
   <!-- EN: Open mods data folder -->
-  <OpenModsDataFolder>開啟Mods資料夾</OpenModsDataFolder>
+  <OpenModsDataFolder>開啟模組資料夾</OpenModsDataFolder>
   <!-- EN: Show mods data location -->
-  <ShowModsDataLocation>顯示Mod地址</ShowModsDataLocation>
+  <ShowModsDataLocation>顯示模組地址</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>你確定要關閉Core(核心)模組嗎？除非有完全替代遊戲核心所有功能的模組，否則遊戲將完全無法運行。\n\n記住，其它模組能透過使用同樣的defName來覆蓋遊戲內的設定。</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
@@ -157,7 +157,7 @@
   <!-- EN: Save and apply changes -->
   <SaveModChanges>保存和應用更改</SaveModChanges>
   <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
-  <DiscardModChanges>Mod更改尚未保存。你確定你要繼續嗎？</DiscardModChanges>
+  <DiscardModChanges>模組更改尚未保存。你確定你要繼續嗎？</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>無法移動{0}：它必須在{1}之後讀取。</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
@@ -187,21 +187,21 @@
   <!-- EN: Save / load list... -->
   <SaveLoadList>保存/加載列表...</SaveLoadList>
   <!-- EN: Save mod list -->
-  <SaveModList>保存mod清單</SaveModList>
+  <SaveModList>保存模組清單</SaveModList>
   <!-- EN: Load mod list -->
-  <LoadModList>加載mod清單</LoadModList>
+  <LoadModList>加載模組清單</LoadModList>
   <!-- EN: Added mods -->
-  <AddedModsList>添加Mod</AddedModsList>
+  <AddedModsList>添加模組</AddedModsList>
   <!-- EN: Missing mods -->
-  <MissingModsList>缺少Mod</MissingModsList>
+  <MissingModsList>缺少模組</MissingModsList>
   <!-- EN: Shared mods -->
-  <SharedModsList>共用Mod</SharedModsList>
+  <SharedModsList>共用模組</SharedModsList>
   <!-- EN: Website -->
   <ModWebsite>網站</ModWebsite>
   <!-- EN: Open folder -->
   <ModFolder>打開文件夾</ModFolder>
   <!-- EN: Mod options -->
-  <ModOptions>Mod選項</ModOptions>
+  <ModOptions>模組選項</ModOptions>
   <!-- EN: Workshop -->
   <FromWorkshop>Workshop</FromWorkshop>
   <!-- EN: Forum -->
@@ -209,11 +209,11 @@
   <!-- EN: Advanced... -->
   <MoreActions>進階...</MoreActions>
   <!-- EN: All selected mods -->
-  <AllSelectedMods>所有選定的Mod</AllSelectedMods>
+  <AllSelectedMods>所有選定的模組</AllSelectedMods>
   <!-- EN: All disabled mods -->
-  <AllDisabledMods>所有禁用的Mod</AllDisabledMods>
+  <AllDisabledMods>所有禁用的模組</AllDisabledMods>
   <!-- EN: All incompatible mods -->
-  <AllIncompatibleMods>所有不兼容的Mod</AllIncompatibleMods>
+  <AllIncompatibleMods>所有不兼容的模組</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Workshop頁面</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -241,39 +241,39 @@
   <!-- EN: Game versions -->
   <ModTargetVersion>可用版本</ModTargetVersion>
   <!-- EN: Mod version -->
-  <ModVersion>Mod版本</ModVersion>
+  <ModVersion>模組版本</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>必須在這些Mod之前載入:{0}。</ModMustLoadBefore>
+  <ModMustLoadBefore>必須在這些模組之前載入:{0}。</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>必須在這些Mod之後載入:{0}。</ModMustLoadAfter>
+  <ModMustLoadAfter>必須在這些模組之後載入:{0}。</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
   <ModDependsOn>必要的:{0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
   <ModIncompatibleWith>不兼容:{0}</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
-  <ModIncompatibleWithTip>與這個MOD不兼容的有:{0}。</ModIncompatibleWithTip>
+  <ModIncompatibleWithTip>與這個模組不兼容的有:{0}。</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>相對於另一個Mod，此Mod載入順序錯誤。使用「自動排序」按鈕，或手動重新排列Mod組模。</ModOrderingWarning>
+  <ModOrderingWarning>相對於另一個模組，此模組載入順序錯誤。使用「自動排序」按鈕，或手動重新排列模組。</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
-  <ModWithSameIdAlreadyActive>另一個啟動的mod使用了相同的ID:{0}。</ModWithSameIdAlreadyActive>
+  <ModWithSameIdAlreadyActive>另一個啟動的模組使用了相同的ID:{0}。</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>與{0}產生了循環依賴。</ModCyclicDependency>
   <!-- EN: This requires the following mods to work: {0}. -->
-  <ModUnsatisfiedDependency>這需要以下MOD組模才能運行:{0}。</ModUnsatisfiedDependency>
+  <ModUnsatisfiedDependency>這需要以下模組才能運行:{0}。</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion>此Mod版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion>此模組版本與當前RimWorld版本不符，可能無法正常運作。</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
-  <ModNotMadeForThisVersionShort>此Mod並不適用於此版本。</ModNotMadeForThisVersionShort>
+  <ModNotMadeForThisVersionShort>此模組並不適用於此版本。</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion_Newer>此Mod版本對應更新的RimWorld版本，可能無法正常運作。</ModNotMadeForThisVersion_Newer>
+  <ModNotMadeForThisVersion_Newer>此模組版本對應更新的RimWorld版本，可能無法正常運作。</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mod必須在About.xml中指定格式正確的版本號，例如：{0}。</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>模組必須在About.xml中指定格式正確的版本號，例如：{0}。</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod需要有一個格式適當且唯一的[packageId]寫入到[About.xml]文件中。[packageId]必須滿足這些要求：\n\n - 僅限字母、數字和半角句號「.」。\n - 不包含空格。\n - 至少有一個點。\n - 沒有連續的點，且不以點為開頭或結尾。\n - 最多60個字節。\n - 不允許包含單詞「Ludeon」。\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>模組需要有一個格式適當且唯一的[packageId]寫入到[About.xml]文件中。[packageId]必須滿足這些要求：\n\n - 僅限字母、數字和半角句號「.」。\n - 不包含空格。\n - 至少有一個點。\n - 沒有連續的點，且不以點為開頭或結尾。\n - 最多60個字節。\n - 不允許包含單詞「Ludeon」。\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>這個mod在LoadFolders.xml中有問題。在上傳之前需要解決的問題:</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>這個模組在LoadFolders.xml中有問題。在上傳之前需要解決的問題:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>為版本{1}指定的資料夾{0}不存在。</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
@@ -289,7 +289,7 @@
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
   <ModLoadFolderDefaultDeprecated>不推薦在載入資料中使用「default」格式的版本目錄。請為每個版本的目錄加上類似『v...』的標籤。</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>版本{0}是在載入資料夾中定義的，但是在mod的About.xml的'supportedGameVersions'中沒有列出</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>版本{0}是在載入資料夾中定義的，但是在模組的About.xml的'supportedGameVersions'中沒有列出</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>拖曳以重新排序</DragToReorder>
 
@@ -478,9 +478,9 @@
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>自然洞穴中可能會生成休眠的蟲巢。\n\n此選項只會影響地圖生成，而不會影響到中途穿地而出的活躍蟲群。</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
-  <Difficulty_UnwaveringPrisoners_Label>添加堅定的俘虜</Difficulty_UnwaveringPrisoners_Label>
+  <Difficulty_UnwaveringPrisoners_Label>添加愚忠的俘虜</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoner - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
-  <Difficulty_UnwaveringPrisoners_Info>此選項讓遊戲增加額外的可拘禁的俘虜，這些囚犯由於堅定不移的忠誠而無法被招募.\n\n這些堅定的俘虜是在普通俘虜之上額外添加的，因此關閉此選項不會出現更多可招募的俘虜 - 它只是刪除了堅定不移的俘虜。\n\n堅定的俘虜仍然可以被釋放以換取外交獎勵、販賣、奴役、摘取器官，或其他用途。一般而言，他們提供了更多的選項和資源，並使遊戲更加豐富和容易。</Difficulty_UnwaveringPrisoners_Info>
+  <Difficulty_UnwaveringPrisoners_Info>此選項讓遊戲增加額外的可拘禁的俘虜，這些俘虜由於極度忠誠而無法被招募.\n\n這些愚忠的俘虜是在普通俘虜之上額外添加的，因此關閉此選項不會出現更多可招募的俘虜 - 它只是刪除了愚忠的俘虜。\n\n愚忠的俘虜仍然可以被釋放以換取外交獎勵、販賣、奴役、摘取器官，或其他用途。一般而言，他們提供了更多的選項和資源，並使遊戲更加豐富和容易。</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
@@ -631,17 +631,17 @@
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>禁用的工作類型：</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by backstory -->
-  <IncapableOfTooltipBackstory>由於背景故事：{0}</IncapableOfTooltipBackstory>
+  <IncapableOfTooltipBackstory>由於背景故事</IncapableOfTooltipBackstory>
   <!-- EN: Caused by title -->
-  <IncapableOfTooltipTitle>由於頭銜：{0}</IncapableOfTooltipTitle>
+  <IncapableOfTooltipTitle>由於頭銜</IncapableOfTooltipTitle>
   <!-- EN: Caused by trait -->
-  <IncapableOfTooltipTrait>由於特性：{0}</IncapableOfTooltipTrait>
+  <IncapableOfTooltipTrait>由於特性</IncapableOfTooltipTrait>
   <!-- EN: Caused by quest status -->
-  <IncapableOfTooltipQuest>任務導致的原因：{0}</IncapableOfTooltipQuest>
+  <IncapableOfTooltipQuest>任務導致的原因</IncapableOfTooltipQuest>
   <!-- EN: Caused by role -->
-  <IncapableOfTooltipRole>由於角色：{0}</IncapableOfTooltipRole>
+  <IncapableOfTooltipRole>由於角色</IncapableOfTooltipRole>
   <!-- EN: Caused by gene -->
-  <IncapableOfTooltipGene>由基因引起</IncapableOfTooltipGene>
+  <IncapableOfTooltipGene>由於基因</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>特性</Traits>
   <!-- EN: Permanent mood effect -->
@@ -718,7 +718,7 @@
   <GeneratingMapForNewEncounter>生成新的遭遇地圖中</GeneratingMapForNewEncounter>
 
   <!-- EN: Click for more info. -->
-  <ClickForMoreInfo>點擊瞭解更多資訊</ClickForMoreInfo>
+  <ClickForMoreInfo>點擊瞭解更多資訊。</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>沒有可用的資訊。</NoMoreInfoAvailable>
 
@@ -728,9 +728,9 @@
   <!-- EN: Gameplay problems can occur with more than {0} factions. -->
   <RecommendedFactionCount>派系數量超過{0}可能會使遊戲出現問題。</RecommendedFactionCount>
   <!-- EN: max {0} visible factions allowed -->
-  <TotalFactionsAllowed>最多允許{0}個現有派系。</TotalFactionsAllowed>
+  <TotalFactionsAllowed>允許最多{0}個具體派系。</TotalFactionsAllowed>
   <!-- EN: max {0} -->
-  <MaxFactionsForType>不可以超過{0}{1}。</MaxFactionsForType>
+  <MaxFactionsForType>不可以超過{0}。</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>選擇出現在世界上的派系。你最多可以選擇{0}個派系。</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
