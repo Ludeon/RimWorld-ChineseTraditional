@@ -723,10 +723,8 @@
   <!-- Factions -->
   <!-- EN: Factions -->
   <Factions>派系</Factions>
-  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>派系數量超過{0}可能會使遊戲出現問題。</RecommendedFactionCount>
-  <!-- EN: max {0} visible factions allowed -->
-  <TotalFactionsAllowed>允許最多{0}個具體派系。</TotalFactionsAllowed>
+  <!-- EN: max {0} basic factions allowed -->
+  <TotalFactionsAllowed>允許最多{0}個基本派系。</TotalFactionsAllowed>
   <!-- EN: max {0} -->
   <MaxFactionsForType>不可以超過{0}。</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
@@ -741,6 +739,7 @@
   <FactionsDisabledWarning>沒有其他派系，襲擊、貿易和任務就不會正常發生。</FactionsDisabledWarning>
 
   <!-- UNUSED -->
+  <RecommendedFactionCount>派系數量超過{0}可能會使遊戲出現問題。</RecommendedFactionCount>
   <Current>現在</Current>
   <ResetFactionsToDefault>恢復預設值</ResetFactionsToDefault>
 
