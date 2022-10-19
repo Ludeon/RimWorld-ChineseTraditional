@@ -555,6 +555,16 @@
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
   <LetterTextLungRot>{PAWN}由於長期曝露在腐爛臭氣中而患上了{1}。\n\n確保你有醫療床、醫生。讓{PAWN_definite}得到適當的治療。</LetterTextLungRot>
+  
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>加入請求：{PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef}希望加入你的派系。</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef}相信{PAWN_pronoun}會在{MAP_definite}過的開心。{PAWN_pronoun}希望能夠永遠加入你。</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>接受</LetterJoinOfferAccept>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->
