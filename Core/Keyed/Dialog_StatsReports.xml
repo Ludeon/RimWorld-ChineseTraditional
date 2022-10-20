@@ -302,10 +302,10 @@
   <Stat_Hediff_HungerRateOffset_Desc>饑餓率</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>疲憊率</Stat_Hediff_TirednessOffset_Name>
-  <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>適用於生物疲憊率。</Stat_Hediff_TirednessOffset_Desc>
-  <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>適用於生物疲憊率。</Stat_Hediff_TirednessFactor_Desc>
+  <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessOffset_Desc>生物睡眠需求的偏移。</Stat_Hediff_TirednessOffset_Desc>
+  <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>生物睡眠需求的倍率。</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
   <Stat_Hediff_PreventsInfection_Desc>是否可以防止感染。</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
@@ -366,8 +366,6 @@
   <Stat_Thing_Plant_AgeDesc>已經歷的時間。</Stat_Thing_Plant_AgeDesc>
   <!-- EN: Lifespan -->
   <Stat_Thing_Plant_Lifespan>壽命</Stat_Thing_Plant_Lifespan>
-  <!-- EN: How long this plant can survive after planting. Regardless of growth or damage, plants die if they become too old. -->
-  <Stat_Thing_Plant_LifespanDesc>此植物種下後可以生存的時間。無關成長度或損傷，植物會在他們過老的時候死亡。</Stat_Thing_Plant_LifespanDesc>
   <!-- EN: Paintable -->
   <Stat_Building_Paintable>可否粉刷</Stat_Building_Paintable>
   <!-- EN: Whether this can be painted using dye. -->
@@ -527,4 +525,7 @@
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>這個內容來自於模組</Stat_Source_ModReport>
   
+  <!-- UNUSED -->
+  <Stat_Thing_Plant_LifespanDesc>此植物種下後可以生存的時間。無關成長度或損傷，植物會在他們過老的時候死亡。</Stat_Thing_Plant_LifespanDesc>
+
 </LanguageData>

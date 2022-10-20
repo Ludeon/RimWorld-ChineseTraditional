@@ -49,7 +49,7 @@
   <Psyfocus>精神力</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>精神力</PsyfocusLabelGizmo>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
   <PsyfocusDesc>精神力是施放心靈能力所必需的一種特殊的心理結構。 精神力會隨著時間消散，並且必須通過冥想來建立。 失去所有精神力會無法執行心靈能力，但沒有其他後果。\n\n較高的精神力等級允許較高等級的心靈能力，但也會提高精神力消散速率</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
@@ -157,8 +157,8 @@
   <RitualTargetAnimaTreeNoPawnsWithNatureFocus>目前沒有自然冥想焦點類型的殖民者。</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
   <RitualTargetAnimaTreeNotEnoughAnimaGrass>需要至少{0}x生命之草</RitualTargetAnimaTreeNotEnoughAnimaGrass>
-  <!-- EN: An anima tree. -->
-  <RitualTargetAnimaTreeInfo>一顆生命之樹。</RitualTargetAnimaTreeInfo>
+  <!-- EN: an anima tree -->
+  <RitualTargetAnimaTreeInfo>一棵生命之樹</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>必須是一名心靈連結等級低於最大值，且具有自然冥想焦點類型的殖民者。</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
@@ -171,5 +171,8 @@
 
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>沒有神經熱量可以傾瀉。</AbilityNoEntropyToDump>
+
+  <!-- EN: level {0} -->
+  <LevelNum>TODO</LevelNum> <!-- Psylink level as reported in health tab-->
 
 </LanguageData>
