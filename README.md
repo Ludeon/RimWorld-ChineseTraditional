@@ -12,7 +12,7 @@ See this page for license info and guidelines for how to contribute to the local
 
 RimWorld 繁體中文化(台灣)
 
-本專案專為核心遊戲製作(包含DLC)，模組相關疑問或翻譯「請勿」在此詢問或請求。
+本專案專為核心遊戲製作(包含 DLC)，模組相關疑問或翻譯「請勿」在此詢問或請求。
 
 授權憑證:
 
@@ -31,7 +31,7 @@ RimWorld 繁體中文化(台灣)
 
 ## 安裝方法
 
-1. 下載壓縮檔(請點擊本頁上方的`Code▾` 點選`Download ZIP`)並解壓縮，得到`Core`、`Royalty`、`Ideology`、`Biotech`三個資料夾與本說明文件
+1. 下載壓縮檔(請點擊本頁上方的`Code▾` 點選`Download ZIP`)並解壓縮，得到`Core`、`Royalty`、`Ideology`、`Biotech`四個資料夾與本說明文件
     >
     > - 若未來有新的 DLC 發布則會有更多資料夾
     > - `.github` 的資料夾與 `.gitattributes` 為 git 的版本控制設定及 github 平台的相關設定，若只是想更新語言的人刪除或忽略即可
@@ -39,7 +39,7 @@ RimWorld 繁體中文化(台灣)
 2. 刪除或重新命名 `遊戲根目錄(Rimworld安裝的位置)\Data\Core\Languages` 中的 `ChineseTraditional (繁體中文).tar` 檔案
     >
     > - 此步驟可以省略，只要名稱不要和下一步驟的資料夾重複即可
-    > - 若有購買並安裝DLC：Royalty 及 Ideology 則 `Data` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(三個資料夾要重複三次本安裝流程)
+    > - 若有購買並安裝DLC：Royalty, Ideology 及 Biotech 則 `Data` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(四個資料夾要重複四次本安裝流程)
     >
 3. 在同一資料夾下新增「ChineseTraditional (繁體中文)」的資料夾
     >
@@ -49,7 +49,7 @@ RimWorld 繁體中文化(台灣)
 4. 將下載下來的 `Core` 資料夾內的東西，放入剛剛新建的資料夾
     >
     > - Core 的資料夾內應有：`Backstories` 、 `DefInjected` 、`Keyed` 、 `Strings` 四個資料夾與 `LangIcon.png` 、 `LanguageInfo.xml` 兩個檔案
-    > - Royalty 、 Ideology 與 Biotech 應有：`DefInjected` 、 `Keyed` 兩個資料夾
+    > - Royalty 、 Ideology 與 Biotech 則應只有：`DefInjected` 、 `Keyed` 兩個資料夾
     > - 請注意以上檔案放置的位置是否正確，若不正確將導致所有文本無法正常顯示！
     >
 5. 開始遊戲並在遊戲內選擇語言
@@ -78,7 +78,7 @@ RimWorld 繁體中文化(台灣)
 
 原則上每次的翻譯工作都會在取得所需文件後盡速展開，依照各版本更新規模還有文件釋出時間點不同，進行翻譯工作所需的時間也不同。  
 每次翻譯完成後將會率先發布在巴哈姆特供巴友們使用， 
-如想給予翻譯建議或與其他玩家交流，歡迎加入 Rimwolrd繁體翻譯群的Discord群組，群組連結位於本文最末。
+如想給予翻譯建議或與其他玩家交流，歡迎加入 Rimworld 繁體翻譯群的 Discord 群組，群組連結位於本文最末。
 
 目前的繁體中文化完成度仍有極限，遊戲有部分內容無法以一般方式中文化，因此目前不劃入繁體中文化的翻譯範圍內。  
 另外也有部分內容將保持原文。  
@@ -95,7 +95,7 @@ RimWorld 繁體中文化(台灣)
 Discord群組：<https://discord.gg/96sZ5RgW2G>  
 巴哈姆特邊緣世界哈拉版：<https://forum.gamer.com.tw/B.php?bsn=27313>  
   
-翻譯問題回報：請透過Discord或巴哈討論板(訊息跟信箱容易被忽略...)  
+翻譯問題回報：請透過 Discord 或巴哈討論板(訊息跟信箱容易被忽略...)  
 感謝支持 RimWorld
 
 ## 中文化人員
@@ -117,3 +117,7 @@ TrashGrass
 Hangalice2156
 
 SCThunder
+
+BathBall
+
+shiromifox
