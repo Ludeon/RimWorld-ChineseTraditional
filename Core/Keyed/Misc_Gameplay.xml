@@ -1743,11 +1743,11 @@
   <MaxValue>上限{0}</MaxValue>
 
   <!-- EN: {0} of -->
-  <ThingOf>{0}個</ThingOf>
+  <ThingOf>{0}來自</ThingOf>
   <!-- EN: {0} of {1} -->
-  <ThingOfSource>{0}個{1}</ThingOfSource>
+  <ThingOfSource>{1}的{0}</ThingOfSource>
   <!-- EN: {0} of {1} and {2} -->
-  <ThingOfTwoSources>{0}個{1}和{2}</ThingOfTwoSources>
+  <ThingOfTwoSources>{1}和{2}的{0}</ThingOfTwoSources>
 
   <!-- Gas types -->
   <!-- EN: blind smoke -->
@@ -1789,7 +1789,7 @@
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>可以阻截射來的槍彈或利器。它能在槍林彈雨間保護穿戴者，及防止因EMP攻擊而即時倒地。</ShieldPersonalTip>
+  <ShieldPersonalTip>可以阻截射來的槍彈或利器。它能在槍林彈雨間保護穿戴者，及防止因 EMP 攻擊而即時倒地。</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
   <UnrecruitableDesc>{PAWN_nameDef}對{PAWN_possessive}家鄉十分忠誠，因此即使{PAWN_pronoun}被俘虜，也會拒絕任何招募。</UnrecruitableDesc>
