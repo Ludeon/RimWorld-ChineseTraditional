@@ -12,12 +12,12 @@
   <Deathrest.description>持續數天的深層昏睡，恢復身體的資源。特定基因構成絕息的需求。絕息可以被數種支援建築來強化，為絕息者帶來額外特殊效果。</Deathrest.description>
   
   <!-- EN: deathrest exhaustion -->
-  <DeathrestExhaustion.label>絕息力竭</DeathrestExhaustion.label>
+  <DeathrestExhaustion.label>絕息虛弱</DeathrestExhaustion.label>
   <!-- EN: This person desperately needs to deathrest to rebalance their metabolism. -->
   <DeathrestExhaustion.description>此人極需要進行絕息來重新平衡其新陳代謝。</DeathrestExhaustion.description>
   
   <!-- EN: chemical dependency -->
-  <GeneticDrugNeed.label>化學依賴</GeneticDrugNeed.label>
+  <GeneticDrugNeed.label>藥物依賴</GeneticDrugNeed.label>
   <!-- EN: This person has a genetically-induced biochemical dependency on a specific drug. Without regular doses of the drug, their body cannot maintain itself in a healthy state and they will suffer degrading health and mood until they die.\n\nTakes effect after age: 13. -->
   <GeneticDrugNeed.description>此人受基因影響而對特定藥物產生依賴。若不定期攝取藥物，他們的身體會無法維持健康狀態，並會持續損害健康和心情直至死亡。\n\n13歲後開始生效。</GeneticDrugNeed.description>
   <!-- EN: deficiency -->
@@ -82,18 +82,18 @@
   <!-- EN: xenogermination coma -->
   <XenogerminationComa.label>異種細胞發作昏迷</XenogerminationComa.label>
   <!-- EN: A xenogerm was implanted in this person. The xenogerm needs time to integrate itself into the host and modify the genes and chemistry of various tissues throughout the body. During this time, the person cannot safely wake up, so the xenogerm keeps them in a coma.\n\nThe duration of this coma can be reduced by implanting a xenogerm with better medical facilities and more skilled doctors. -->
-  <XenogerminationComa.description>異種細胞被植入於此人體內。異種細胞需要時間去把自己融入宿主，並修改全身各種組織的基因和化學成分。在此期間，此人無法安全地醒來，因此異種細胞讓他們保持昏迷。\n\n昏迷時間可以藉由更好的醫療設施和熟練的醫生負責植入異種細胞來縮短。</XenogerminationComa.description>
+  <XenogerminationComa.description>異種細胞被移植於此人體內。異種細胞需要時間去把自己融入宿主，並修改全身各種組織的基因和化學成分。在此期間，此人無法安全地醒來，因此異種細胞讓他們保持昏迷。\n\n昏迷時間可以藉由更好的醫療設施和熟練的醫生負責移植異種細胞來縮短。</XenogerminationComa.description>
   
   <!-- EN: gene loss shock -->
   <XenogermLossShock.label>基因缺失休克</XenogermLossShock.label>
   <!-- EN: This person's genes were recently removed or expelled. This has destabilized the person's metabolism and hormones, leaving them temporarily weak and drowsy, with a weakened immune system. -->
-  <XenogermLossShock.description>此人的基因最近被移除或驅逐過。此人的新陳代謝和荷爾蒙處於不穩定狀態，使他們暫時變得虛弱困倦，免疫系統亦會變差。</XenogermLossShock.description>
+  <XenogermLossShock.description>此人的基因最近被抽取或轉移過。此人的新陳代謝和荷爾蒙處於不穩定狀態，使他們暫時變得虛弱困倦，免疫系統亦會變差。</XenogermLossShock.description>
   
   <!-- EN: genes regrowing -->
-  <XenogermReplicating.label>基因重生中</XenogermReplicating.label>
+  <XenogermReplicating.label>基因再生中</XenogermReplicating.label>
   <!-- EN: This person's genetic material is regrowing. This process doesn't have any direct health effects. However, extracting their genes while they are regrowing will kill them. -->
-  <XenogermReplicating.description>此人的基因物質正在重生。此狀態對健康無直接影響。然而，若在重生期間提取他們的基因會導致他們死亡。</XenogermReplicating.description>
+  <XenogermReplicating.description>此人的基因物質正在再生。此狀態對健康無直接影響。然而，若在再生期間提取他們的基因會導致他們死亡。</XenogermReplicating.description>
   <!-- EN: {PAWN_nameDef}'s genes have finished regrowing. -->
-  <XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>{PAWN_nameDef}的基因重生完成。</XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>
+  <XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>{PAWN_nameDef}的基因再生完成。</XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>
   
 </LanguageData>
