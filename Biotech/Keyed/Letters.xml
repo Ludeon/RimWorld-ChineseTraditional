@@ -62,7 +62,7 @@
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
   <LetterChildLegalStatus>傳統上{0_nameDef}，{0_parentage}，是{0_legalStatus}身分，但是可以有例外……{0_nameDef}要維持{0_legalStatus}身分嗎？</LetterChildLegalStatus>
   <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
-  <LetterChildFollowIdeo>{0_labelShort}決定要追隨理念{1_name}。</LetterChildFollowIdeo>
+  <LetterChildFollowIdeo>{0_labelShort}決定要信奉{1_name}。</LetterChildFollowIdeo>
   <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
   <CannotChangeChildStatusReason>{0_nameDef}自從{0_possessive}誕生以來奴隸狀態就變更了。</CannotChangeChildStatusReason>
   <!-- EN: enslave -->
@@ -92,13 +92,13 @@
   <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
   <LetterVatInfantIllnessNoParents>胚胎在發育艙裡發育完成並成為了嬰兒。不幸的是，嬰兒生病了。</LetterVatInfantIllnessNoParents>
   <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
-  <LetterVatStillborn>{0_nameDef}和{1_nameDef}在發育艙內成長為嬰兒的胚胎是個死胎。</LetterVatStillborn>
+  <LetterVatStillborn>{0_nameDef}和{1_nameDef}在發育艙內的胚胎成長為嬰兒但夭折了。</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
-  <LetterVatSillbornNoParents>在發育艙內成長為嬰兒的胚胎是個死胎。</LetterVatSillbornNoParents>
+  <LetterVatSillbornNoParents>在發育艙內成長為嬰兒的胚胎夭折了。</LetterVatSillbornNoParents>
   <!-- EN: {0_labelShort} in labor! -->
-  <LetterColonistPregnancyLaborLabel>{0_labelShort}臨產了！</LetterColonistPregnancyLaborLabel>
+  <LetterColonistPregnancyLaborLabel>{0_labelShort}臨盆在即！</LetterColonistPregnancyLaborLabel>
   <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
-  <LetterColonistPregnancyLabor>{0_labelShort}臨產了！在生產前幾個小時會開始有宮縮。生產過程中會經歷數個階段的困難和危險。\n\n爲了增加接生的成功率，召集一位醫生和其他人來幫忙接生。選取{0_labelShort}並按下「召集接生」來開始流程。</LetterColonistPregnancyLabor>
+  <LetterColonistPregnancyLabor>{0_labelShort}臨盆了！在生產前幾個小時會開始有宮縮。生產過程中會經歷數個階段的困難和危險。\n\n爲了增加接生的成功率，召集一位醫生和其他人來幫忙接生。選取{0_labelShort}並按下「召集接生」來開始流程。</LetterColonistPregnancyLabor>
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
   <LetterPartColonistDiedAfterChildbirth>{0_labelShort}在生產後死於併發症。</LetterPartColonistDiedAfterChildbirth>
   <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
@@ -115,9 +115,9 @@
   <!-- EN: within -->
   <Within>內</Within>
   <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>嬰兒被取了乳名{0_nameFull}。你最晚可以在出生後{1}改名。</LetterPartNameBaby>
+  <LetterPartNameBaby>嬰兒被取了乳名{0_nameFull}。你可以在出生後{1}內改名。</LetterPartNameBaby>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>嬰兒被取了乳名{0_nameFull}。在嬰兒出生滿{1}之前你可以隨時改名。</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>嬰兒被取了乳名{0_nameFull}。在嬰兒出生滿{1}歲之前你可以隨時改名。</LetterPartNameBabyAdopt> 
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME}的轉捩點</BirthdayGrowthMoment>
@@ -126,9 +126,9 @@
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
   <BirthdayBiologicalAgeWorkTypes>{0_nameDef} 現在大到能做以下工作</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>為{0_nameDef}選擇一項技能來提升{0_possessive}熱情</BirthdayPickPassion>
+  <BirthdayPickPassion>為{0_nameDef}提升一項技能的熱情</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>為{0_nameDef}選擇{1}項技能來提升{0_possessive}熱情</BirthdayPickPassions>
+  <BirthdayPickPassions>為{0_nameDef}提升{1}項技能的熱情</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>為{0_nameDef}選擇一項新特性</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
@@ -142,7 +142,7 @@
   <BirthdayTraitArchive>獲得了{0}特性。</BirthdayTraitArchive>
   
   <!-- EN: Make choices to close -->
-  <BirthdayMakeChoices>選擇完自動關閉</BirthdayMakeChoices>
+  <BirthdayMakeChoices>選擇完即可關閉</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
   <BirthdayNickname>{0}被取了暱稱{1}。</BirthdayNickname>
   <!-- EN: Select a trait. -->
@@ -150,7 +150,7 @@
   <!-- EN: Select a passion. -->
   <SelectPassionSingular>選擇一項熱情。</SelectPassionSingular>
   <!-- EN: Select {0} passions. -->
-  <SelectPassionsPlural>選擇{0}項特性。</SelectPassionsPlural>
+  <SelectPassionsPlural>選擇{0}項熱情。</SelectPassionsPlural>
   <!-- EN: Later -->
   <Later>晚點</Later>
   
