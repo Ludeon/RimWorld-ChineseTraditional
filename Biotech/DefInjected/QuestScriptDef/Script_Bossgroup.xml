@@ -9,14 +9,25 @@
     <li>manufacture->\n\nThe chip can also be used to create more advanced mechanoids.</li>
     <li>study->\n\nYou can study the [reward_label] by selecting a mechanitor and right-clicking the chip. Studying a [reward_label] helps unlock higher tiers of mechtech research.</li>
   -->
-  <Bossgroup.questContentRules.rulesStrings>TODO</Bossgroup.questContentRules.rulesStrings>
+  <Bossgroup.questContentRules.rulesStrings>
+    <li>bossDefeatedLetterLabel->[escortees0_label]被擊敗︰[reward_label]</li>
+    <li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]</li>
+    <li>bossDefeatedLetterText->[defeated][manufacture]</li>
+    <li>defeated->敵對的[escortees0_label]已被擊敗並掉落了[reward_label]!</li>
+    <li>manufacture->\n\n此晶片也能用於製造更高級的機械族。</li>
+    <li>study->\n\n你可以選取御機使並右鍵點擊晶片來研究[reward_label]。研究[reward_label]能讓你解鎖高級的機械科技研究。</li>
+  </Bossgroup.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->bossgroup</li>
   -->
-  <Bossgroup.questDescriptionRules.rulesStrings>TODO</Bossgroup.questDescriptionRules.rulesStrings>
+  <Bossgroup.questDescriptionRules.rulesStrings>
+    <li>questDescription->頭目群</li>
+  </Bossgroup.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->bossgroup</li>
   -->
-  <Bossgroup.questNameRules.rulesStrings>TODO</Bossgroup.questNameRules.rulesStrings>
+  <Bossgroup.questNameRules.rulesStrings>
+    <li>questName->頭目群</li>
+  </Bossgroup.questNameRules.rulesStrings>
   
 </LanguageData>
