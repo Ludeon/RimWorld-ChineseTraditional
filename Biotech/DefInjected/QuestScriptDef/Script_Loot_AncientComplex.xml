@@ -7,9 +7,9 @@
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
-    <li>questDescription->You've [discoveryDesc] of an ancient complex nearby that contains the remains of a long-dead mechanitor.\n\nMechanitors can create, control, and manipulate mechanoids for work and combat. If you can break into the complex and collect the mechanitor's corpse, you can extract their mechlink and turn one of your own colonists into a mechanitor.\n\nBe warned - these kinds of structures can contain a variety of threats, and your activity at the complex might draw unwanted attention.</li>
-    <li>discoveryDesc(discovered==false)->learned</li>
-    <li>discoveryDesc(discovered==true)->determined the location</li>
+    <li>questDescription->你已[discoveryDesc]附近的一個遠古建築群裡面有一個逝世已久的御機使的遺體。\n\n御機使可以製造、操控和指揮機械族工作和戰鬥。如果你可以入侵建築群內並找到御機使的遺體，你可以把他們的機絆取走，從而把你的一名殖民者變成御機使。\n\n注意 - 這種地方潛藏各種危機，而你在建築群中的一舉一動都可能會招惹麻煩。</li>
+    <li>discoveryDesc(discovered==false)->得知</li>
+    <li>discoveryDesc(discovered==true)->發現</li>
   </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
@@ -30,22 +30,22 @@
     <li>complex->mechsite</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
-    <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
-    <li>questName->mechanitor [complex]</li>
-    <li>complexAdj->secret</li>
-    <li>complexAdj->ancient</li>
-    <li>complexAdj->old</li>
-    <li>complexAdj->hidden</li>
-    <li>complexAdj->dusty</li>
-    <li>complexAdj->dangerous</li>
-    <li>complexAdj->hidden</li>
-    <li>complex->complex</li>
-    <li>complex->lair</li>
-    <li>complex->base</li>
-    <li>complex->compound</li>
-    <li>complex->crypt</li>
-    <li>complex->mechplex</li>
-    <li>complex->mechsite</li>
+    <li>questName(p=3)->[complexAdj]御機使[complex]</li>
+    <li>questName->御機使的[complex]</li>
+    <li>complexAdj->秘密的</li>
+    <li>complexAdj->遠古的</li>
+    <li>complexAdj->老舊的</li>
+    <li>complexAdj->隱藏的</li>
+    <li>complexAdj->塵封已久的</li>
+    <li>complexAdj->危險的</li>
+    <li>complexAdj->人煙罕至的</li>
+    <li>complex->建築群</li>
+    <li>complex->藏身處</li>
+    <li>complex->基地</li>
+    <li>complex->地方</li>
+    <li>complex->地下室</li>
+    <li>complex->機械室</li>
+    <li>complex->機械場</li>
   </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>
