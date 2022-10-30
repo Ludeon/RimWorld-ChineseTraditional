@@ -9,11 +9,20 @@
     <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]'s mechlink available</li>
     <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
   -->
-  <MechanitorShip.questContentRules.rulesStrings>TODO</MechanitorShip.questContentRules.rulesStrings>
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel->御機使戰艦</li>
+    <li>mechanitorShuttleCrashedLetterText->一艘載有失控機械族的戰艦在附近墜毀了。機械族會走出戰艦殘骸並預備開打。</li>
+    <li>assaultBeginLetterLabel->機械族襲擊</li>
+    <li>assaultBeginLetterText->失控的機械族正向殖民地展開攻擊！</li>
+    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]的機絆可用了</li>
+    <li>mechlinkAvailableLetterText->墜毀的戰艦裡面有遠古御機使的遺體。\n\n選取一名殖民者並右鍵點擊遺體提取[mechanitor_possessive]機絆。</li>
+  </MechanitorShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
-  <MechanitorShip.questDescriptionRules.rulesStrings>TODO</MechanitorShip.questDescriptionRules.rulesStrings>
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->你已破解一台遠古應答機，在裡面找到軌道上的機械族戰艦的位置。那艘艦已破敗不堪，但你仍能指示它降落到附近。\n\n艦上載有逝世已久的御機使遺體。御機使能製造和操控機械族，用於工作和戰鬥。把已故的御機使的機絆取走，你就可以把你的一名殖民者變成御機使。\n\n注意 - 艦上也載有敵對的機械族。這群機械族包括：\n\n[mechList]</li>
+  </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
     <li>shipAdjective->mechanitor</li>
@@ -27,6 +36,18 @@
     <li>shipNoun->wreckage</li>
     <li>shipNoun->transport</li>
   -->
-  <MechanitorShip.questNameRules.rulesStrings>TODO</MechanitorShip.questNameRules.rulesStrings>
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName->[shipAdjective][shipNoun]</li>
+    <li>shipAdjective->御機使的</li>
+    <li>shipAdjective->監督者的</li>
+    <li>shipAdjective->遠古的</li>
+    <li>shipAdjective->機械族的</li>
+    <li>shipNoun->戰艦</li>
+    <li>shipNoun->太空梭</li>
+    <li>shipNoun->飛船</li>
+    <li>shipNoun->空難</li>
+    <li>shipNoun->殘骸</li>
+    <li>shipNoun->載具</li>
+  </MechanitorShip.questNameRules.rulesStrings>
   
 </LanguageData>

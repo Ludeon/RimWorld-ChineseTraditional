@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: play -->
-  <BabyPlay.label>TODO</BabyPlay.label>
+  <BabyPlay.label>遊玩</BabyPlay.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] made [RECIPIENT_nameDef] [reaction].</li>
     <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
@@ -35,10 +35,41 @@
     <li>babyGame->show-and-tell</li>
     <li>babyGame->fingerpuppets</li>
   -->
-  <BabyPlay.logRulesInitiator.rulesStrings>TODO</BabyPlay.logRulesInitiator.rulesStrings>
+  <BabyPlay.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]使[RECIPIENT_nameDef][reaction]。</li>
+    <li>r_logentry->[INITIATOR_nameDef][interaction][RECIPIENT_nameDef]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]與[RECIPIENT_nameDef]玩[babyGame]。</li>
+    <li>reaction->咯咯笑</li>
+    <li>reaction->笑</li>
+    <li>reaction->高興地扭動</li>
+    <li>reaction->哈哈大笑</li>
+    <li>reaction->不自覺地流口水</li>
+    <li>reaction->嘻嘻笑</li>
+    <li>reaction->尖叫</li>
+    <li>reaction->打嗝</li>
+    <li>reaction->目不轉睛</li>
+    <li>interaction->逗笑</li>
+    <li>interaction->玩</li>
+    <li>interaction->娛樂</li>
+    <li>interaction->逗樂</li>
+    <li>interaction->搔</li>
+    <li>interaction->擦</li>
+    <li>interaction->嗅</li>
+    <li>interaction->抱住</li>
+    <li>interaction->拋起</li>
+    <li>interaction->唱歌給</li>
+    <li>interaction->說故事給</li>
+    <li>interaction->表演魔術給</li>
+    <li>babyGame->捉迷藏</li>
+    <li>babyGame->躲貓貓</li>
+    <li>babyGame->手指</li>
+    <li>babyGame->模仿遊戲</li>
+    <li>babyGame->講名字遊戲</li>
+    <li>babyGame->手指玩偶</li>
+  </BabyPlay.logRulesInitiator.rulesStrings>
   
   <!-- EN: animal lesson -->
-  <LessonAnimals.label>TODO</LessonAnimals.label>
+  <LessonAnimals.label>動物課</LessonAnimals.label>
   <!-- EN:
     <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] how to [animal_verb] [article_animal] to [RECIPIENT_nameDef].</li>
     <li>article_animal->a megasloth</li>
@@ -67,10 +98,37 @@
     <li>subject->scaria</li>
     <li>subject->kibble</li>
   -->
-  <LessonAnimals.logRulesInitiator.rulesStrings>TODO</LessonAnimals.logRulesInitiator.rulesStrings>
+  <LessonAnimals.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][teach_verb]如何[animal_verb][article_animal]。</li>
+    <li>article_animal->巨型地懶</li>
+    <li>article_animal->巨蛛</li>
+    <li>article_animal->獨角獸</li>
+    <li>article_animal->爆炸鼠</li>
+    <li>article_animal->栗鼠</li>
+    <li>article_animal->天竺鼠</li>
+    <li>article_animal->眼鏡蛇</li>
+    <li>article_animal->鴯鶓</li>
+    <li>article_animal->鬣蜥</li>
+    <li>article_animal->浣熊</li>
+    <li>article_animal->座狼</li>
+    <li>article_animal->氂牛</li>
+    <li>article_animal->松鼠</li>
+    <li>article_animal->毛牛</li>
+    <li>animal_verb-馴服</li>
+    <li>animal_verb->餵飼</li>
+    <li>animal_verb->安撫</li>
+    <li>animal_verb->威嚇</li>
+    <li>animal_verb->吸引</li>
+    <li>subject->動物心理學</li>
+    <li>subject->馴服技巧</li>
+    <li>subject->危險的大自然</li>
+    <li>subject->爬蟲類</li>
+    <li>subject->狂亂症</li>
+    <li>subject->飼料</li>
+  </LessonAnimals.logRulesInitiator.rulesStrings>
   
   <!-- EN: art lesson -->
-  <LessonArtistic.label>TODO</LessonArtistic.label>
+  <LessonArtistic.label>藝術課</LessonArtistic.label>
   <!-- EN:
     <li>article_tool->a paint brush</li>
     <li>article_tool->a charcoal pencil</li>
@@ -91,10 +149,29 @@
     <li>subject->abstract art</li>
     <li>subject->mixing paints</li>
   -->
-  <LessonArtistic.logRulesInitiator.rulesStrings>TODO</LessonArtistic.logRulesInitiator.rulesStrings>
+  <LessonArtistic.logRulesInitiator.rulesStrings>
+    <li>article_tool->畫筆</li>
+    <li>article_tool->炭筆</li>
+    <li>article_tool->鑿子</li>
+    <li>article_tool->畫布</li>
+    <li>article_tool->黏土</li>
+    <li>action->發揮藝術在</li>
+    <li>action->使用</li>
+    <li>action->展現自我在</li>
+    <li>action_gerund->發揮藝術在</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->展現自我在</li>
+    <li>subject->雕塑材料</li>
+    <li>subject->著名的藝術家</li>
+    <li>subject->著名的畫作</li>
+    <li>subject->閃耀世界的畫廊</li>
+    <li>subject->肖像畫</li>
+    <li>subject->抽象藝術</li>
+    <li>subject->混合顏料</li>
+  </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
-  <LessonConstruction.label>TODO</LessonConstruction.label>
+  <LessonConstruction.label>建造課</LessonConstruction.label>
   <!-- EN:
     <li>article_tool->a hammer</li>
     <li>article_tool->a table saw</li>
@@ -114,10 +191,28 @@
     <li>subject->modeling software</li>
     <li>subject->blueprints</li>
   -->
-  <LessonConstruction.logRulesInitiator.rulesStrings>TODO</LessonConstruction.logRulesInitiator.rulesStrings>
+  <LessonConstruction.logRulesInitiator.rulesStrings>
+    <li>article_tool->鎚子</li>
+    <li>article_tool->鋸子</li>
+    <li>article_tool->尺</li>
+    <li>article_tool->梯子</li>
+    <li>article_tool->水平儀</li>
+    <li>action->使用</li>
+    <li>action->操作</li>
+    <li>action->檢查</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->操作</li>
+    <li>action_gerund->檢查</li>
+    <li>subject->建築學</li>
+    <li>subject->建築技術</li>
+    <li>subject->拆除技術</li>
+    <li>subject->建築材料</li>
+    <li>subject->模型軟體</li>
+    <li>subject->藍圖</li>
+  </LessonConstruction.logRulesInitiator.rulesStrings>
   
   <!-- EN: cooking lesson -->
-  <LessonCooking.label>TODO</LessonCooking.label>
+  <LessonCooking.label>料理課</LessonCooking.label>
   <!-- EN:
     <li>article_tool->a stove</li>
     <li>article_tool->a spatula</li>
@@ -140,10 +235,31 @@
     <li>situation->in a hurry</li>
     <li>situation->safely</li>
   -->
-  <LessonCooking.logRulesInitiator.rulesStrings>TODO</LessonCooking.logRulesInitiator.rulesStrings>
+  <LessonCooking.logRulesInitiator.rulesStrings>
+    <li>article_tool->爐灶</li>
+    <li>article_tool->鍋鏟</li>
+    <li>article_tool->烤箱</li>
+    <li>article_tool->燉鍋</li>
+    <li>article_tool->營養膏合成機</li>
+    <li>article_tool->屠宰桌</li>
+    <li>action->清潔</li>
+    <li>action->煮食在</li>
+    <li>action_gerund->清潔</li>
+    <li>action_gerund->煮食在</li>
+    <li>subject->調味料</li>
+    <li>subject->生存食品包</li>
+    <li>subject->蛋的種類</li>
+    <li>subject->肉的種類</li>
+    <li>subject->味道</li>
+    <li>subject->食譜</li>
+    <li>situation->旅行時</li>
+    <li>situation->蒙著眼時</li>
+    <li>situation->匆忙時</li>
+    <li>situation->安全的情況</li>
+  </LessonCooking.logRulesInitiator.rulesStrings>
   
   <!-- EN: crafting lesson -->
-  <LessonCrafting.label>TODO</LessonCrafting.label>
+  <LessonCrafting.label>手工課</LessonCrafting.label>
   <!-- EN:
     <li>article_tool->a screwdriver</li>
     <li>article_tool->a pair of pliers</li>
@@ -170,17 +286,44 @@
     <li>situation->by candlelight</li>
     <li>situation(p=0.1)->while drunk</li>
   -->
-  <LessonCrafting.logRulesInitiator.rulesStrings>TODO</LessonCrafting.logRulesInitiator.rulesStrings>
+  <LessonCrafting.logRulesInitiator.rulesStrings>
+    <li>article_tool->螺絲起子</li>
+    <li>article_tool->鉗子</li>
+    <li>article_tool->電路板</li>
+    <li>article_tool->裁縫桌</li>
+    <li>article_tool->機械加工桌</li>
+    <li>article_tool->精密製作桌</li>
+    <li>action->使用</li>
+    <li>action->操作</li>
+    <li>action->檢查</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->操作</li>
+    <li>action_gerund->檢查</li>
+    <li>subject->整理工具</li>
+    <li>subject->手工工藝</li>
+    <li>subject->器件</li>
+    <li>subject->紡織品的種類</li>
+    <li>subject->織布技術</li>
+    <li>subject->板甲</li>
+    <li>subject->附件腰帶</li>
+    <li>subject->仿生體</li>
+    <li>situation->安全的情況</li>
+    <li>situation->沒有指引時</li>
+    <li>situation->只有燭光時</li>
+    <li>situation(p=0.1)->醉醺醺時</li>
+  </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
-  <LessonGeneric.label>TODO</LessonGeneric.label>
+  <LessonGeneric.label>課程</LessonGeneric.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
-  <LessonGeneric.logRulesInitiator.rulesStrings>TODO</LessonGeneric.logRulesInitiator.rulesStrings>
+  <LessonGeneric.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]授課</li>
+  </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
-  <LessonIntellectual.label>TODO</LessonIntellectual.label>
+  <LessonIntellectual.label>知識課</LessonIntellectual.label>
   <!-- EN:
     <li>subject->genetics</li>
     <li>subject->techprints</li>
@@ -195,10 +338,23 @@
     <li>subject->seminal whitepapers</li>
     <li>subject->Johnson-Tanaka propulsion</li>
   -->
-  <LessonIntellectual.logRulesInitiator.rulesStrings>TODO</LessonIntellectual.logRulesInitiator.rulesStrings>
+  <LessonIntellectual.logRulesInitiator.rulesStrings>
+    <li>subject->遺傳學</li>
+    <li>subject->科技藍圖</li>
+    <li>subject->多重分析裝置的功能</li>
+    <li>subject->哲學</li>
+    <li>subject->數學</li>
+    <li>subject->生物學</li>
+    <li>subject->化學</li>
+    <li>subject->遠古科技的謎團</li>
+    <li>subject->星艦反應爐</li>
+    <li>subject->科學的方法</li>
+    <li>subject->創新白皮書</li>
+    <li>subject->Johnson-Tanaka推進力</li>
+  </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
-  <LessonMedicine.label>TODO</LessonMedicine.label>
+  <LessonMedicine.label>醫療課</LessonMedicine.label>
   <!-- EN:
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] how to [medical_verb] [hediff] to [RECIPIENT_nameDef].</li>
     <li>article_tool->a medicine pack</li>
@@ -233,10 +389,43 @@
     <li>subject->bedside manner</li>
     <li>subject->sterilization methods</li>
   -->
-  <LessonMedicine.logRulesInitiator.rulesStrings>TODO</LessonMedicine.logRulesInitiator.rulesStrings>
+  <LessonMedicine.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][teach_verb]如何[medical_verb][hediff]。</li>
+    <li>article_tool->醫療包</li>
+    <li>article_tool->繃帶</li>
+    <li>article_tool->針筒</li>
+    <li>article_tool->藥草</li>
+    <li>article_tool->生命體徵檢測器</li>
+    <li>article_tool->解剖刀</li>
+    <li>article_tool->痊癒機械液</li>
+    <li>article_tool->止痛晶片</li>
+    <li>action->使用</li>
+    <li>action->檢查</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->檢查</li>
+    <li>hediff->失血</li>
+    <li>hediff->心臟病</li>
+    <li>hediff->中暑</li>
+    <li>hediff->食物中毒</li>
+    <li>hediff->癌症</li>
+    <li>hediff->蛔蟲</li>
+    <li>hediff->肌肉寄生蟲</li>
+    <li>hediff->麻痺性癱瘓</li>
+    <li>hediff->瘧疾</li>
+    <li>hediff->流感</li>
+    <li>hediff->肝硬化</li>
+    <li>medical_verb->診斷</li>
+    <li>medical_verb->鑒別</li>
+    <li>medical_verb->治療</li>
+    <li>subject->麻醉劑的使用</li>
+    <li>subject->癌症的種類</li>
+    <li>subject->手術流程</li>
+    <li>subject->照料方法</li>
+    <li>subject->絕育方法</li>
+  </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
-  <LessonMelee.label>TODO</LessonMelee.label>
+  <LessonMelee.label>格鬥課</LessonMelee.label>
   <!-- EN:
     <li>article_tool->an axe</li>
     <li>article_tool->a club</li>
@@ -263,10 +452,35 @@
     <li>action_gerund->using</li>
     <li>action_gerund->swinging</li>
   -->
-  <LessonMelee.logRulesInitiator.rulesStrings>TODO</LessonMelee.logRulesInitiator.rulesStrings>
+  <LessonMelee.logRulesInitiator.rulesStrings>
+    <li>article_tool->戰斧</li>
+    <li>article_tool->棍棒</li>
+    <li>article_tool->劍</li>
+    <li>article_tool->肘刃</li>
+    <li>article_tool->手爪</li>
+    <li>article_tool->長劍</li>
+    <li>article_tool->單分子劍</li>
+    <li>article_tool->等離子劍</li>
+    <li>article_tool->長矛</li>
+    <li>article_tool->錘子</li>
+    <li>article_tool->戰錘</li>
+    <li>article_tool->拳頭</li>
+    <li>action->招架</li>
+    <li>action->利用</li>
+    <li>action->反擊</li>
+    <li>action->保養</li>
+    <li>action->使用</li>
+    <li>action->揮舞</li>
+    <li>action_gerund->招架</li>
+    <li>action_gerund->利用</li>
+    <li>action_gerund->反擊</li>
+    <li>action_gerund->保養</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->揮舞</li>
+  </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
-  <LessonMining.label>TODO</LessonMining.label>
+  <LessonMining.label>採礦課</LessonMining.label>
   <!-- EN:
     <li>article_tool->a pickaxe</li>
     <li>article_tool->a deep drill</li>
@@ -289,10 +503,31 @@
     <li>subject->cave-dwelling insects</li>
     <li>situation(p=2)->underground</li>
   -->
-  <LessonMining.logRulesInitiator.rulesStrings>TODO</LessonMining.logRulesInitiator.rulesStrings>
+  <LessonMining.logRulesInitiator.rulesStrings>
+    <li>article_tool->十字鎬</li>
+    <li>article_tool->深鑽機</li>
+    <li>article_tool->鏟子</li>
+    <li>article_tool->長程礦物掃瞄器</li>
+    <li>article_tool->地質掃瞄器</li>
+    <li>action->使用</li>
+    <li>action->利用</li>
+    <li>action->操作</li>
+    <li>action->檢查</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->利用</li>
+    <li>action_gerund->操作</li>
+    <li>action_gerund->檢查</li>
+    <li>subject->礦脈</li>
+    <li>subject->珍貴的寶石</li>
+    <li>subject->地質學</li>
+    <li>subject->鑽探</li>
+    <li>subject->沉積物分析學</li>
+    <li>subject->穴居蟲族</li>
+    <li>situation(p=2)->地底</li>
+  </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
-  <LessonPlants.label>TODO</LessonPlants.label>
+  <LessonPlants.label>園藝課</LessonPlants.label>
   <!-- EN:
     <li>article_tool->a sun lamp</li>
     <li>article_tool->a hydroponics basin</li>
@@ -312,10 +547,28 @@
     <li>subject->anima trees</li>
     <li>subject->gauranlen trees</li>
   -->
-  <LessonPlants.logRulesInitiator.rulesStrings>TODO</LessonPlants.logRulesInitiator.rulesStrings>
+  <LessonPlants.logRulesInitiator.rulesStrings>
+    <li>article_tool->太陽燈</li>
+    <li>article_tool->水耕植物盆</li>
+    <li>article_tool->灑水器</li>
+    <li>article_tool->鏟子</li>
+    <li>article_tool->園藝剪</li>
+    <li>action->利用</li>
+    <li>action->使用</li>
+    <li>action->檢查</li>
+    <li>action_gerund->利用</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->檢查</li>
+    <li>subject->泥土的種類</li>
+    <li>subject->農藥</li>
+    <li>subject->灌溉技術</li>
+    <li>subject->仙人掌的種類</li>
+    <li>subject->生命之樹</li>
+    <li>subject->高嵐樹</li>
+  </LessonPlants.logRulesInitiator.rulesStrings>
   
   <!-- EN: shooting lesson -->
-  <LessonShooting.label>TODO</LessonShooting.label>
+  <LessonShooting.label>射擊課</LessonShooting.label>
   <!-- EN:
     <li>article_tool->a rifle</li>
     <li>article_tool->a pistol</li>
@@ -335,10 +588,28 @@
     <li>action_gerund->caring for</li>
     <li>action_gerund->reloading</li>
   -->
-  <LessonShooting.logRulesInitiator.rulesStrings>TODO</LessonShooting.logRulesInitiator.rulesStrings>
+  <LessonShooting.logRulesInitiator.rulesStrings>
+    <li>article_tool->步槍</li>
+    <li>article_tool->手槍</li>
+    <li>article_tool->霰彈槍</li>
+    <li>article_tool->火箭砲</li>
+    <li>article_tool->衝鋒槍</li>
+    <li>article_tool->旋轉機槍</li>
+    <li>article_tool->短弓</li>
+    <li>article_tool->反曲弓</li>
+    <li>article_tool->長弓</li>
+    <li>action->瞄準</li>
+    <li>action->發射</li>
+    <li>action->保養</li>
+    <li>action->裝填子彈</li>
+    <li>action_gerund->瞄準</li>
+    <li>action_gerund->發射</li>
+    <li>action_gerund->保養</li>
+    <li>action_gerund->裝填子彈</li>
+  </LessonShooting.logRulesInitiator.rulesStrings>
   
   <!-- EN: social lesson -->
-  <LessonSocial.label>TODO</LessonSocial.label>
+  <LessonSocial.label>社交課</LessonSocial.label>
   <!-- EN:
     <li>subject->public speaking</li>
     <li>subject->faction relations</li>
@@ -350,10 +621,20 @@
     <li>subject->naughty words</li>
     <li>subject->sign language</li>
   -->
-  <LessonSocial.logRulesInitiator.rulesStrings>TODO</LessonSocial.logRulesInitiator.rulesStrings>
+  <LessonSocial.logRulesInitiator.rulesStrings>
+    <li>subject->公眾演說</li>
+    <li>subject->派系外交</li>
+    <li>subject->招募俘虜</li>
+    <li>subject->討價還價的技巧</li>
+    <li>subject->維持關係</li>
+    <li>subject->通訊禮儀</li>
+    <li>subject->提升士氣</li>
+    <li>subject->髒話</li>
+    <li>subject->手語</li>
+  </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
-  <SanguophageChat.label>TODO</SanguophageChat.label>
+  <SanguophageChat.label>噬血者聊天</SanguophageChat.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
@@ -426,6 +707,77 @@
     <li>planType->destroying sanguophage hunters</li>
     <li>planType->enjoying endless life</li>
   -->
-  <SanguophageChat.logRulesInitiator.rulesStrings>TODO</SanguophageChat.logRulesInitiator.rulesStrings>
+  <SanguophageChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]和[RECIPIENT_nameDef][talkedabout][subject]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]跟[RECIPIENT_nameDef][talkedabout][subject]。</li>
+    <li>talkedabout->談及</li>
+    <li>talkedabout->聊到</li>
+    <li>talkedabout->悄悄說關於</li>
+    <li>talkedabout(p=0.5)->[adverb]談及</li>
+    <li>talkedabout(p=0.5)->[adverb]聊到</li>
+    <li>talkedabout(p=0.5)->[adverb]悄悄說關於</li>
+    <li>talkedabout->訴說關於</li>
+    <li>talkedabout->交流關於</li>
+    <li>talkedabout->分享關於</li>
+    <li>talkedabout->有興趣想知道關於</li>
+    <li>talkedabout->討論關於</li>
+    <li>talkedabout->爭論關於</li>
+    <li>talkedabout->提及關於</li>
+    <li>adverb->心平氣和地</li>
+    <li>adverb->小聲地</li>
+    <li>adverb->輕聲地</li>
+    <li>adverb->憎惡地</li>
+    <li>adverb->憤怒地</li>
+    <li>adverb->疲倦地</li>
+    <li>adverb->語重心長地</li>
+    <li>adverb->嚴肅地</li>
+    <li>adverb->絕望地</li>
+    <li>adverb->莊嚴地</li>
+    <li>subject(p=20)->[planType]的計劃</li>
+    <li>subject(p=0.1)->[TalkTopicHeavy]</li>
+    <li>subject->血原的事</li>
+    <li>subject->血液質量的事</li>
+    <li>subject->食人族的事</li>
+    <li>subject->不死的事</li>
+    <li>subject->熵的事</li>
+    <li>subject->永恆的事</li>
+    <li>subject->時間流逝的事</li>
+    <li>subject->生與死的事</li>
+    <li>subject->絕息的事</li>
+    <li>subject->欺騙死神的事</li>
+    <li>subject->血奴的事</li>
+    <li>subject->人類的事</li>
+    <li>subject->火焰的事</li>
+    <li>subject->燃燒的事</li>
+    <li>subject->痛楚的事</li>
+    <li>subject->極度痛苦的事</li>
+    <li>subject->斬首的事</li>
+    <li>subject->如何把敵人打得皮開肉綻</li>
+    <li>subject->折磨的事</li>
+    <li>subject->遠古分子的事</li>
+    <li>subject->遺傳學</li>
+    <li>subject->基因的事</li>
+    <li>subject->異種人的事</li>
+    <li>subject->噬血者的事</li>
+    <li>subject->hussars的事</li>
+    <li>subject->魔人的事</li>
+    <li>subject->泥鼴人的事</li>
+    <li>subject->genies的事</li>
+    <li>subject->尼安德特人的事</li>
+    <li>subject->豬皮人的事</li>
+    <li>subject->荒地人的事</li>
+    <li>subject->古老歷史</li>
+    <li>subject->未來的歷史</li>
+    <li>planType->統治</li>
+    <li>planType->逃跑</li>
+    <li>planType->融入</li>
+    <li>planType->影響他人</li>
+    <li>planType->收集血原</li>
+    <li>planType->掌握科技</li>
+    <li>planType->擴展到其他世界</li>
+    <li>planType->影響人類</li>
+    <li>planType->打倒噬血者獵人</li>
+    <li>planType->享受無盡生活</li>
+  </SanguophageChat.logRulesInitiator.rulesStrings>
   
 </LanguageData>
