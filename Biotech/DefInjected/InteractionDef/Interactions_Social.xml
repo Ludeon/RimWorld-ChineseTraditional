@@ -199,10 +199,10 @@
     <li>article_tool->水平儀</li>
     <li>action->使用</li>
     <li>action->操作</li>
-    <li>action->觀察</li>
+    <li>action->檢查</li>
     <li>action_gerund->使用</li>
     <li>action_gerund->操作</li>
-    <li>action_gerund->觀察</li>
+    <li>action_gerund->檢查</li>
     <li>subject->建築學</li>
     <li>subject->建築技術</li>
     <li>subject->拆除技術</li>
@@ -295,10 +295,10 @@
     <li>article_tool->精密製作桌</li>
     <li>action->使用</li>
     <li>action->操作</li>
-    <li>action->觀察</li>
+    <li>action->檢查</li>
     <li>action_gerund->使用</li>
     <li>action_gerund->操作</li>
-    <li>action_gerund->觀察</li>
+    <li>action_gerund->檢查</li>
     <li>subject->整理工具</li>
     <li>subject->手工工藝</li>
     <li>subject->器件</li>
@@ -390,38 +390,38 @@
     <li>subject->sterilization methods</li>
   -->
   <LessonMedicine.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] how to [medical_verb] [hediff] to [RECIPIENT_nameDef].</li>
-    <li>article_tool->a medicine pack</li>
-    <li>article_tool->a bandage</li>
-    <li>article_tool->a syringe</li>
-    <li>article_tool->a healroot plant</li>
-    <li>article_tool->a vitals monitor</li>
-    <li>article_tool->a scalpel</li>
-    <li>article_tool->a healer mech serum dose</li>
-    <li>article_tool->a painstopper</li>
-    <li>action->use</li>
-    <li>action->inspect</li>
-    <li>action_gerund->using</li>
-    <li>action_gerund->inspecting</li>
-    <li>hediff->blood loss</li>
-    <li>hediff->a heart attack</li>
-    <li>hediff->heatstroke</li>
-    <li>hediff->food poisoning</li>
-    <li>hediff->carcinoma</li>
-    <li>hediff->gut worms</li>
-    <li>hediff->muscle parasites</li>
-    <li>hediff->paralytic abasia</li>
-    <li>hediff->malaria</li>
-    <li>hediff->the flu</li>
-    <li>hediff->cirrhosis</li>
-    <li>medical_verb->diagnose</li>
-    <li>medical_verb->triage</li>
-    <li>medical_verb->treat</li>
-    <li>subject->anesthesia dosing</li>
-    <li>subject->types of cancer</li>
-    <li>subject->surgical procedures</li>
-    <li>subject->bedside manner</li>
-    <li>subject->sterilization methods</li>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][teach_verb]如何[medical_verb][hediff]。</li>
+    <li>article_tool->醫療包</li>
+    <li>article_tool->繃帶</li>
+    <li>article_tool->針筒</li>
+    <li>article_tool->藥草</li>
+    <li>article_tool->生命體徵檢測器</li>
+    <li>article_tool->解剖刀</li>
+    <li>article_tool->痊癒機械液</li>
+    <li>article_tool->止痛晶片</li>
+    <li>action->使用</li>
+    <li>action->檢查</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->檢查</li>
+    <li>hediff->失血</li>
+    <li>hediff->心臟病</li>
+    <li>hediff->中暑</li>
+    <li>hediff->食物中毒</li>
+    <li>hediff->癌症</li>
+    <li>hediff->蛔蟲</li>
+    <li>hediff->肌肉寄生蟲</li>
+    <li>hediff->麻痺性癱瘓</li>
+    <li>hediff->瘧疾</li>
+    <li>hediff->流感</li>
+    <li>hediff->肝硬化</li>
+    <li>medical_verb->診斷</li>
+    <li>medical_verb->鑒別</li>
+    <li>medical_verb->治療</li>
+    <li>subject->麻醉劑的使用</li>
+    <li>subject->癌症的種類</li>
+    <li>subject->手術流程</li>
+    <li>subject->照料方法</li>
+    <li>subject->絕育方法</li>
   </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
@@ -453,30 +453,30 @@
     <li>action_gerund->swinging</li>
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
-    <li>article_tool->an axe</li>
-    <li>article_tool->a club</li>
-    <li>article_tool->a sword</li>
-    <li>article_tool->an elbow blade</li>
-    <li>article_tool->a hand talon</li>
-    <li>article_tool->a longsword</li>
-    <li>article_tool->a monosword</li>
-    <li>article_tool->a plasmasword</li>
-    <li>article_tool->a spear</li>
-    <li>article_tool->a mace</li>
-    <li>article_tool->a warhammer</li>
-    <li>article_tool->a fist</li>
-    <li>action->parry</li>
-    <li>action->fight with</li>
-    <li>action->counter</li>
-    <li>action->care for</li>
-    <li>action->use</li>
-    <li>action->swing</li>
-    <li>action_gerund->parrying</li>
-    <li>action_gerund->fighting with</li>
-    <li>action_gerund->countering</li>
-    <li>action_gerund->caring for</li>
-    <li>action_gerund->using</li>
-    <li>action_gerund->swinging</li>
+    <li>article_tool->戰斧</li>
+    <li>article_tool->棍棒</li>
+    <li>article_tool->劍</li>
+    <li>article_tool->肘刃</li>
+    <li>article_tool->手爪</li>
+    <li>article_tool->長劍</li>
+    <li>article_tool->單分子劍</li>
+    <li>article_tool->等離子劍</li>
+    <li>article_tool->長矛</li>
+    <li>article_tool->錘子</li>
+    <li>article_tool->戰錘</li>
+    <li>article_tool->拳頭</li>
+    <li>action->招架</li>
+    <li>action->利用</li>
+    <li>action->反擊</li>
+    <li>action->保養</li>
+    <li>action->使用</li>
+    <li>action->揮舞</li>
+    <li>action_gerund->招架</li>
+    <li>action_gerund->利用</li>
+    <li>action_gerund->反擊</li>
+    <li>action_gerund->保養</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->揮舞</li>
   </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
@@ -504,26 +504,26 @@
     <li>situation(p=2)->underground</li>
   -->
   <LessonMining.logRulesInitiator.rulesStrings>
-    <li>article_tool->a pickaxe</li>
-    <li>article_tool->a deep drill</li>
-    <li>article_tool->a shovel</li>
-    <li>article_tool->a long-range mineral scanner</li>
-    <li>article_tool->a ground-penetrating scanner</li>
-    <li>action->use</li>
-    <li>action->mine with</li>
-    <li>action->work with</li>
-    <li>action->inspect</li>
-    <li>action_gerund->using</li>
-    <li>action_gerund->mining with</li>
-    <li>action_gerund->working with</li>
-    <li>action_gerund->inspecting</li>
-    <li>subject->mineral veins</li>
-    <li>subject->precious gemstones</li>
-    <li>subject->geology</li>
-    <li>subject->tunneling</li>
-    <li>subject->sediment analysis</li>
-    <li>subject->cave-dwelling insects</li>
-    <li>situation(p=2)->underground</li>
+    <li>article_tool->十字鎬</li>
+    <li>article_tool->深鑽機</li>
+    <li>article_tool->鏟子</li>
+    <li>article_tool->長程礦物掃瞄器</li>
+    <li>article_tool->地質掃瞄器</li>
+    <li>action->使用</li>
+    <li>action->利用</li>
+    <li>action->操作</li>
+    <li>action->檢查</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->利用</li>
+    <li>action_gerund->操作</li>
+    <li>action_gerund->檢查</li>
+    <li>subject->礦脈</li>
+    <li>subject->珍貴的寶石</li>
+    <li>subject->地質學</li>
+    <li>subject->鑽探</li>
+    <li>subject->沉積物分析學</li>
+    <li>subject->穴居蟲族</li>
+    <li>situation(p=2)->地底</li>
   </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
@@ -548,23 +548,23 @@
     <li>subject->gauranlen trees</li>
   -->
   <LessonPlants.logRulesInitiator.rulesStrings>
-    <li>article_tool->a sun lamp</li>
-    <li>article_tool->a hydroponics basin</li>
-    <li>article_tool->a sprinkler</li>
-    <li>article_tool->a shovel</li>
-    <li>article_tool->pruning shears</li>
-    <li>action->garden with</li>
-    <li>action->use</li>
-    <li>action->inspect</li>
-    <li>action_gerund->using</li>
-    <li>action_gerund->gardening with</li>
-    <li>action_gerund->inspecting</li>
-    <li>subject->types of soil</li>
-    <li>subject->pesticides</li>
-    <li>subject->irrigation techniques</li>
-    <li>subject->varieties of cacti</li>
-    <li>subject->anima trees</li>
-    <li>subject->gauranlen trees</li>
+    <li>article_tool->太陽燈</li>
+    <li>article_tool->水耕植物盆</li>
+    <li>article_tool->灑水器</li>
+    <li>article_tool->鏟子</li>
+    <li>article_tool->園藝剪</li>
+    <li>action->利用</li>
+    <li>action->使用</li>
+    <li>action->檢查</li>
+    <li>action_gerund->利用</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->檢查</li>
+    <li>subject->泥土的種類</li>
+    <li>subject->農藥</li>
+    <li>subject->灌溉技術</li>
+    <li>subject->仙人掌的種類</li>
+    <li>subject->生命之樹</li>
+    <li>subject->高嵐樹</li>
   </LessonPlants.logRulesInitiator.rulesStrings>
   
   <!-- EN: shooting lesson -->
@@ -589,23 +589,23 @@
     <li>action_gerund->reloading</li>
   -->
   <LessonShooting.logRulesInitiator.rulesStrings>
-    <li>article_tool->a rifle</li>
-    <li>article_tool->a pistol</li>
-    <li>article_tool->a shotgun</li>
-    <li>article_tool->a rocket launcher</li>
-    <li>article_tool->an SMG</li>
-    <li>article_tool->a minigun</li>
-    <li>article_tool->a short bow</li>
-    <li>article_tool->a recurve bow</li>
-    <li>article_tool->a greatbow</li>
-    <li>action->aim</li>
-    <li>action->shoot</li>
-    <li>action->care for</li>
-    <li>action->reload</li>
-    <li>action_gerund->aiming</li>
-    <li>action_gerund->shooting</li>
-    <li>action_gerund->caring for</li>
-    <li>action_gerund->reloading</li>
+    <li>article_tool->步槍</li>
+    <li>article_tool->手槍</li>
+    <li>article_tool->霰彈槍</li>
+    <li>article_tool->火箭砲</li>
+    <li>article_tool->衝鋒槍</li>
+    <li>article_tool->旋轉機槍</li>
+    <li>article_tool->短弓</li>
+    <li>article_tool->反曲弓</li>
+    <li>article_tool->長弓</li>
+    <li>action->瞄準</li>
+    <li>action->發射</li>
+    <li>action->保養</li>
+    <li>action->裝填子彈</li>
+    <li>action_gerund->瞄準</li>
+    <li>action_gerund->發射</li>
+    <li>action_gerund->保養</li>
+    <li>action_gerund->裝填子彈</li>
   </LessonShooting.logRulesInitiator.rulesStrings>
   
   <!-- EN: social lesson -->
@@ -622,15 +622,15 @@
     <li>subject->sign language</li>
   -->
   <LessonSocial.logRulesInitiator.rulesStrings>
-    <li>subject->public speaking</li>
-    <li>subject->faction relations</li>
-    <li>subject->recruiting prisoners</li>
-    <li>subject->haggling techniques</li>
-    <li>subject->maintaining relationships</li>
-    <li>subject->comms console etiquette</li>
-    <li>subject->boosting morale</li>
-    <li>subject->naughty words</li>
-    <li>subject->sign language</li>
+    <li>subject->公眾演說</li>
+    <li>subject->派系外交</li>
+    <li>subject->招募俘虜</li>
+    <li>subject->討價還價的技巧</li>
+    <li>subject->維持關係</li>
+    <li>subject->通訊禮儀</li>
+    <li>subject->提升士氣</li>
+    <li>subject->髒話</li>
+    <li>subject->手語</li>
   </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
@@ -708,76 +708,76 @@
     <li>planType->enjoying endless life</li>
   -->
   <SanguophageChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
-    <li>talkedabout->spoke about</li>
-    <li>talkedabout->talked about</li>
-    <li>talkedabout->whispered about</li>
-    <li>talkedabout(p=0.5)->spoke [adverb] about</li>
-    <li>talkedabout(p=0.5)->talked [adverb] about</li>
-    <li>talkedabout(p=0.5)->whispered [adverb] about</li>
-    <li>talkedabout->shared a word about</li>
-    <li>talkedabout->exchanged thoughts about</li>
-    <li>talkedabout->exchanged ideas about</li>
-    <li>talkedabout->expressed shared interest in</li>
-    <li>talkedabout->debated about</li>
-    <li>talkedabout->argued about</li>
-    <li>talkedabout->shared stories of</li>
-    <li>adverb->amicably</li>
-    <li>adverb->quietly</li>
-    <li>adverb->softly</li>
-    <li>adverb->disgustedly</li>
-    <li>adverb->bitterly</li>
-    <li>adverb->wearily</li>
-    <li>adverb->thoughtfully</li>
-    <li>adverb->soberly</li>
-    <li>adverb->grimly</li>
-    <li>adverb->solemnly</li>
-    <li>subject(p=20)->plans for [planType]</li>
+    <li>r_logentry->[INITIATOR_nameDef]和[RECIPIENT_nameDef][talkedabout][subject]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]跟[RECIPIENT_nameDef][talkedabout][subject]。</li>
+    <li>talkedabout->談及</li>
+    <li>talkedabout->聊到</li>
+    <li>talkedabout->悄悄說關於</li>
+    <li>talkedabout(p=0.5)->[adverb]談及</li>
+    <li>talkedabout(p=0.5)->[adverb]聊到</li>
+    <li>talkedabout(p=0.5)->[adverb]悄悄說關於</li>
+    <li>talkedabout->訴說關於</li>
+    <li>talkedabout->交流關於</li>
+    <li>talkedabout->分享關於</li>
+    <li>talkedabout->有興趣想知道關於</li>
+    <li>talkedabout->討論關於</li>
+    <li>talkedabout->爭論關於</li>
+    <li>talkedabout->提及關於</li>
+    <li>adverb->心平氣和地</li>
+    <li>adverb->小聲地</li>
+    <li>adverb->輕聲地</li>
+    <li>adverb->憎惡地</li>
+    <li>adverb->憤怒地</li>
+    <li>adverb->疲倦地</li>
+    <li>adverb->語重心長地</li>
+    <li>adverb->嚴肅地</li>
+    <li>adverb->絕望地</li>
+    <li>adverb->莊嚴地</li>
+    <li>subject(p=20)->[planType]的計劃</li>
     <li>subject(p=0.1)->[TalkTopicHeavy]</li>
-    <li>subject->hemogen</li>
-    <li>subject->blood quality</li>
-    <li>subject->cannibalism</li>
-    <li>subject->deathlessness</li>
-    <li>subject->entropy</li>
-    <li>subject->eternity</li>
-    <li>subject->the passage of time</li>
-    <li>subject->life and death</li>
-    <li>subject->deathrest</li>
-    <li>subject->cheating death</li>
-    <li>subject->thralls</li>
-    <li>subject->humanity</li>
-    <li>subject->fire</li>
-    <li>subject->burning</li>
-    <li>subject->pain</li>
-    <li>subject->agony</li>
-    <li>subject->beheading</li>
-    <li>subject->flaying enemies</li>
-    <li>subject->torture</li>
-    <li>subject->archites</li>
-    <li>subject->genetics</li>
-    <li>subject->genes</li>
-    <li>subject->xenotypes</li>
-    <li>subject->sanguophages</li>
-    <li>subject->hussars</li>
-    <li>subject->impids</li>
-    <li>subject->dirtmoles</li>
-    <li>subject->genies</li>
-    <li>subject->neanderthals</li>
-    <li>subject->pigskins</li>
-    <li>subject->wasters</li>
-    <li>subject->deep history</li>
-    <li>subject->the history of the future</li>
-    <li>planType->domination</li>
-    <li>planType->escape</li>
-    <li>planType->blending in</li>
-    <li>planType->wielding influence</li>
-    <li>planType->collecting hemogen</li>
-    <li>planType->mastering technology</li>
-    <li>planType->spreading to other worlds</li>
-    <li>planType->influencing humans</li>
-    <li>planType->destroying sanguophage hunters</li>
-    <li>planType->enjoying endless life</li>
+    <li>subject->血原的事</li>
+    <li>subject->血液質量的事</li>
+    <li>subject->食人族的事</li>
+    <li>subject->不死的事</li>
+    <li>subject->熵的事</li>
+    <li>subject->永恆的事</li>
+    <li>subject->時間流逝的事</li>
+    <li>subject->生與死的事</li>
+    <li>subject->絕息的事</li>
+    <li>subject->欺騙死神的事</li>
+    <li>subject->血奴的事</li>
+    <li>subject->人類的事</li>
+    <li>subject->火焰的事</li>
+    <li>subject->燃燒的事</li>
+    <li>subject->痛楚的事</li>
+    <li>subject->極度痛苦的事</li>
+    <li>subject->斬首的事</li>
+    <li>subject->如何把敵人打得皮開肉綻</li>
+    <li>subject->折磨的事</li>
+    <li>subject->遠古分子的事</li>
+    <li>subject->遺傳學</li>
+    <li>subject->基因的事</li>
+    <li>subject->異種人的事</li>
+    <li>subject->噬血者的事</li>
+    <li>subject->hussars的事</li>
+    <li>subject->魔人的事</li>
+    <li>subject->泥鼴人的事</li>
+    <li>subject->genies的事</li>
+    <li>subject->尼安德特人的事</li>
+    <li>subject->豬皮人的事</li>
+    <li>subject->荒地人的事</li>
+    <li>subject->古老歷史</li>
+    <li>subject->未來的歷史</li>
+    <li>planType->統治</li>
+    <li>planType->逃跑</li>
+    <li>planType->融入</li>
+    <li>planType->影響他人</li>
+    <li>planType->收集血原</li>
+    <li>planType->掌握科技</li>
+    <li>planType->擴展到其他世界</li>
+    <li>planType->影響人類</li>
+    <li>planType->打倒噬血者獵人</li>
+    <li>planType->享受無盡生活</li>
   </SanguophageChat.logRulesInitiator.rulesStrings>
   
 </LanguageData>
