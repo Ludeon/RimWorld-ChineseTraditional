@@ -4,7 +4,7 @@
   <!-- EN: bandwidth cost -->
   <BandwidthCost.label>頻寬佔用</BandwidthCost.label>
   <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
-  <BandwidthCost.description>若在御機使的控制下，這台機械族會佔用多少頻寬。</BandwidthCost.description>
+  <BandwidthCost.description>若在御機使的操控下，這台機械族會佔用多少頻寬。</BandwidthCost.description>
   
   <!-- EN: cancer rate factor -->
   <CancerRate.label>罹癌率</CancerRate.label>
@@ -39,9 +39,9 @@
   <MechBandwidth.description>表示御機使有多少頻寬。更多的頻寬允許御機使製造和操控共多的機械族。\n\n失去頻寬就表示失去對機械族的操控，使它們沒有監督者。如果不重新駕馭，最終會變為失控機械人。</MechBandwidth.description>
   
   <!-- EN: mech control groups -->
-  <MechControlGroups.label>機械控制組</MechControlGroups.label>
+  <MechControlGroups.label>機械操控組</MechControlGroups.label>
   <!-- EN: How many control groups this mechanitor can direct independently. Each control group can be given its own separate orders. -->
-  <MechControlGroups.description>御機使可以指揮的控制組數量。每個控制組都可設定各別的指令。</MechControlGroups.description>
+  <MechControlGroups.description>御機使可以指揮的操控組數量。每個操控組都可設定各別的指令。</MechControlGroups.description>
   
   <!-- EN: repair energy cost -->
   <MechEnergyLossPerHP.label>維修能源消耗</MechEnergyLossPerHP.label>
@@ -59,19 +59,19 @@
   <MechFormingSpeed.description>御機使在培養艙形成新機械族的速度倍率。</MechFormingSpeed.description>
   
   <!-- EN: mech remote repair distance -->
-  <MechRemoteRepairDistance.label>機械人遠端修復距離</MechRemoteRepairDistance.label>
+  <MechRemoteRepairDistance.label>機械人遙距修復距離</MechRemoteRepairDistance.label>
   <!-- EN: How far away a mech can be during remote repair. -->
-  <MechRemoteRepairDistance.description>可以遠端修復離機械人的最遠距離。</MechRemoteRepairDistance.description>
+  <MechRemoteRepairDistance.description>可以遙距修復離機械人的最遠距離。</MechRemoteRepairDistance.description>
   
   <!-- EN: mech remote shield distance -->
-  <MechRemoteShieldDistance.label>機械人遠端護盾距離</MechRemoteShieldDistance.label>
+  <MechRemoteShieldDistance.label>機械人遙距護盾距離</MechRemoteShieldDistance.label>
   <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
   <MechRemoteShieldDistance.description>御機使可以在機械族身上放置護盾的最大範圍。</MechRemoteShieldDistance.description>
   
   <!-- EN: mech remote shield energy -->
-  <MechRemoteShieldEnergy.label>機械人遠端護盾能源</MechRemoteShieldEnergy.label>
+  <MechRemoteShieldEnergy.label>機械人遙距護盾能源</MechRemoteShieldEnergy.label>
   <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
-  <MechRemoteShieldEnergy.description>被御機使放置遠端護盾時所具有的能源。</MechRemoteShieldEnergy.description>
+  <MechRemoteShieldEnergy.description>被御機使放置遙距護盾時所具有的能源。</MechRemoteShieldEnergy.description>
   
   <!-- EN: mech repair speed -->
   <MechRepairSpeed.label>機械人修復速度</MechRepairSpeed.label>
