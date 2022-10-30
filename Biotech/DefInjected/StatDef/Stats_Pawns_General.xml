@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: bandwidth cost -->
-  <BandwidthCost.label>頻寬占用</BandwidthCost.label>
+  <BandwidthCost.label>頻寬佔用</BandwidthCost.label>
   <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
-  <BandwidthCost.description>在御機使的控制下，這台機械族占用了多少頻寬。</BandwidthCost.description>
+  <BandwidthCost.description>若在御機使的控制下，這台機械族會佔用多少頻寬。</BandwidthCost.description>
   
   <!-- EN: cancer rate factor -->
   <CancerRate.label>罹癌率</CancerRate.label>
@@ -12,16 +12,16 @@
   <CancerRate.description>這名角色在任何時間中，罹患癌症的倍率。</CancerRate.description>
   
   <!-- EN: control taking time -->
-  <ControlTakingTime.label>控制耗時</ControlTakingTime.label>
+  <ControlTakingTime.label>操控耗時</ControlTakingTime.label>
   <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
-  <ControlTakingTime.description>御機使控制這台機械族所需的時間。</ControlTakingTime.description>
+  <ControlTakingTime.description>御機使操控這台機械族所需的時間。</ControlTakingTime.description>
   <!-- EN: {0}s -->
   <ControlTakingTime.formatString>{0}秒</ControlTakingTime.formatString>
   
   <!-- EN: EMP resistance -->
-  <EMPResistance.label>EMP抗性</EMPResistance.label>
+  <EMPResistance.label>EMP 抗性</EMPResistance.label>
   <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
-  <EMPResistance.description>這種機械人具有特殊的防護和抗衝裝置，可以降低此百分比的 EMP 的效果。減少由 EMP 引起的昏迷持續時間。</EMPResistance.description>
+  <EMPResistance.description>這種機械族具有特殊的防護和抗衝裝置，可以降低此百分比的 EMP 的效果。減少由 EMP 引起的昏迷持續時間。</EMPResistance.description>
   
   <!-- EN: fertility -->
   <Fertility.label>生育能力</Fertility.label>
@@ -36,7 +36,7 @@
   <!-- EN: mech bandwidth -->
   <MechBandwidth.label>機械族頻寬</MechBandwidth.label>
   <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
-  <MechBandwidth.description>表示御機使有多少頻寬。更多的頻寬允許御機使製造和控制共多的機械人。\n\n失去頻寬就表示失去對機械人的控制，使它們沒有監督者。如果不重新駕馭，最終會變為無主機械人。</MechBandwidth.description>
+  <MechBandwidth.description>表示御機使有多少頻寬。更多的頻寬允許御機使製造和操控共多的機械族。\n\n失去頻寬就表示失去對機械族的操控，使它們沒有監督者。如果不重新駕馭，最終會變為失控機械人。</MechBandwidth.description>
   
   <!-- EN: mech control groups -->
   <MechControlGroups.label>機械控制組</MechControlGroups.label>
@@ -46,17 +46,17 @@
   <!-- EN: repair energy cost -->
   <MechEnergyLossPerHP.label>維修能源消耗</MechEnergyLossPerHP.label>
   <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
-  <MechEnergyLossPerHP.description>機械人每修復100傷害所消耗的能源。</MechEnergyLossPerHP.description>
+  <MechEnergyLossPerHP.description>機械族每修復100傷害所消耗的能源。</MechEnergyLossPerHP.description>
   
   <!-- EN: energy usage multiplier -->
   <MechEnergyUsageFactor.label>能源使用倍率</MechEnergyUsageFactor.label>
   <!-- EN: A multiplier on how fast a mechanoid consumes its energy reserves while operating. -->
-  <MechEnergyUsageFactor.description>機械人運作時消耗儲備能源的速度倍率。</MechEnergyUsageFactor.description>
+  <MechEnergyUsageFactor.description>機械族運作時消耗儲備能源的速度倍率。</MechEnergyUsageFactor.description>
   
   <!-- EN: mech gestation speed -->
-  <MechFormingSpeed.label>機械人培育速度</MechFormingSpeed.label>
+  <MechFormingSpeed.label>機械人培養速度</MechFormingSpeed.label>
   <!-- EN: A multiplier on the speed at which this mechanitor can form new mechanoids at a gestator. -->
-  <MechFormingSpeed.description>御機使在培育期形成新機械族的速度倍率。</MechFormingSpeed.description>
+  <MechFormingSpeed.description>御機使在培養艙形成新機械族的速度倍率。</MechFormingSpeed.description>
   
   <!-- EN: mech remote repair distance -->
   <MechRemoteRepairDistance.label>機械人遠端修復距離</MechRemoteRepairDistance.label>
@@ -66,12 +66,12 @@
   <!-- EN: mech remote shield distance -->
   <MechRemoteShieldDistance.label>機械人遠端護盾距離</MechRemoteShieldDistance.label>
   <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
-  <MechRemoteShieldDistance.description>御機使可以在機械人身上放置護盾的最大範圍。</MechRemoteShieldDistance.description>
+  <MechRemoteShieldDistance.description>御機使可以在機械族身上放置護盾的最大範圍。</MechRemoteShieldDistance.description>
   
   <!-- EN: mech remote shield energy -->
   <MechRemoteShieldEnergy.label>機械人遠端護盾能源</MechRemoteShieldEnergy.label>
   <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
-  <MechRemoteShieldEnergy.description>由御機使製造遠端護盾時所具有的能源。</MechRemoteShieldEnergy.description>
+  <MechRemoteShieldEnergy.description>被御機使放置遠端護盾時所具有的能源。</MechRemoteShieldEnergy.description>
   
   <!-- EN: mech repair speed -->
   <MechRepairSpeed.label>機械人修復速度</MechRepairSpeed.label>
@@ -89,14 +89,14 @@
   <RestFallRateFactor.description>一個人睡眠值的降低倍率。</RestFallRateFactor.description>
   
   <!-- EN: subcore encoding speed -->
-  <SubcoreEncodingSpeed.label>子核心編碼速度</SubcoreEncodingSpeed.label>
+  <SubcoreEncodingSpeed.label>次核心編碼速度</SubcoreEncodingSpeed.label>
   <!-- EN: A multiplier on how fast a mechanitor can create subcores. -->
-  <SubcoreEncodingSpeed.description>御機使創建子核心的速度倍率。</SubcoreEncodingSpeed.description>
+  <SubcoreEncodingSpeed.description>御機使製造次核心的速度倍率。</SubcoreEncodingSpeed.description>
   
   <!-- EN: wastepacks per recharge -->
-  <WastepacksPerRecharge.label>充電廢料</WastepacksPerRecharge.label>
+  <WastepacksPerRecharge.label>充電廢料量</WastepacksPerRecharge.label>
   <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
-  <WastepacksPerRecharge.description>當機械族能源由0充至100%時，機械充電站會產生多少的有毒廢料包。通常較大的機械族會產生更多的有毒廢料包。</WastepacksPerRecharge.description>
+  <WastepacksPerRecharge.description>當機械族能源由0充至100%時，機械充電站會產生多少的廢料袋。通常較大型的機械族會產生更多的廢料袋。</WastepacksPerRecharge.description>
   <!-- EN: Relevant stats -->
   <WastepacksPerRecharge.statFactorsExplanationHeader>相關屬性</WastepacksPerRecharge.statFactorsExplanationHeader>
   
