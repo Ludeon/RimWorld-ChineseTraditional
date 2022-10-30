@@ -99,32 +99,32 @@
     <li>subject->kibble</li>
   -->
   <LessonAnimals.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] how to [animal_verb] [article_animal] to [RECIPIENT_nameDef].</li>
-    <li>article_animal->a megasloth</li>
-    <li>article_animal->a megaspider</li>
-    <li>article_animal->a thrumbo</li>
-    <li>article_animal->a boomrat</li>
-    <li>article_animal->a chinchilla</li>
-    <li>article_animal->a guinea pig</li>
-    <li>article_animal->a cobra</li>
-    <li>article_animal->an emu</li>
-    <li>article_animal->an iguana</li>
-    <li>article_animal->a raccoon</li>
-    <li>article_animal->a warg</li>
-    <li>article_animal->a yak</li>
-    <li>article_animal->a squirrel</li>
-    <li>article_animal->a muffalo</li>
-    <li>animal_verb->tame</li>
-    <li>animal_verb->feed</li>
-    <li>animal_verb->calm</li>
-    <li>animal_verb->spook</li>
-    <li>animal_verb->gain the trust of</li>
-    <li>subject->animal psychology</li>
-    <li>subject->taming techniques</li>
-    <li>subject->dangerous wildlife</li>
-    <li>subject->reptiles</li>
-    <li>subject->scaria</li>
-    <li>subject->kibble</li>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][teach_verb]如何[animal_verb][article_animal]。</li>
+    <li>article_animal->巨型地懶</li>
+    <li>article_animal->巨蛛</li>
+    <li>article_animal->獨角獸</li>
+    <li>article_animal->爆炸鼠</li>
+    <li>article_animal->栗鼠</li>
+    <li>article_animal->天竺鼠</li>
+    <li>article_animal->眼鏡蛇</li>
+    <li>article_animal->鴯鶓</li>
+    <li>article_animal->鬣蜥</li>
+    <li>article_animal->浣熊</li>
+    <li>article_animal->座狼</li>
+    <li>article_animal->氂牛</li>
+    <li>article_animal->松鼠</li>
+    <li>article_animal->毛牛</li>
+    <li>animal_verb-馴服</li>
+    <li>animal_verb->餵飼</li>
+    <li>animal_verb->安撫</li>
+    <li>animal_verb->威嚇</li>
+    <li>animal_verb->吸引</li>
+    <li>subject->動物心理學</li>
+    <li>subject->馴服技巧</li>
+    <li>subject->危險的大自然</li>
+    <li>subject->爬蟲類</li>
+    <li>subject->狂亂症</li>
+    <li>subject->飼料</li>
   </LessonAnimals.logRulesInitiator.rulesStrings>
   
   <!-- EN: art lesson -->
@@ -150,24 +150,24 @@
     <li>subject->mixing paints</li>
   -->
   <LessonArtistic.logRulesInitiator.rulesStrings>
-    <li>article_tool->a paint brush</li>
-    <li>article_tool->a charcoal pencil</li>
-    <li>article_tool->a chisel</li>
-    <li>article_tool->a canvas</li>
-    <li>article_tool->a lump of clay</li>
-    <li>action->make art with</li>
-    <li>action->use</li>
-    <li>action->express one's self with</li>
-    <li>action_gerund->making art with</li>
-    <li>action_gerund->using</li>
-    <li>action_gerund->expressing one's self with</li>
-    <li>subject->sculpture materials</li>
-    <li>subject->famous artists</li>
-    <li>subject->famous paintings</li>
-    <li>subject->glitterworld galleries</li>
-    <li>subject->portraiture</li>
-    <li>subject->abstract art</li>
-    <li>subject->mixing paints</li>
+    <li>article_tool->畫筆</li>
+    <li>article_tool->炭筆</li>
+    <li>article_tool->鑿子</li>
+    <li>article_tool->畫布</li>
+    <li>article_tool->黏土</li>
+    <li>action->發揮藝術在</li>
+    <li>action->使用</li>
+    <li>action->展現自我在</li>
+    <li>action_gerund->發揮藝術在</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->展現自我在</li>
+    <li>subject->雕塑材料</li>
+    <li>subject->著名的藝術家</li>
+    <li>subject->著名的畫作</li>
+    <li>subject->閃耀世界的畫廊</li>
+    <li>subject->肖像畫</li>
+    <li>subject->抽象藝術</li>
+    <li>subject->混合顏料</li>
   </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
@@ -192,23 +192,23 @@
     <li>subject->blueprints</li>
   -->
   <LessonConstruction.logRulesInitiator.rulesStrings>
-    <li>article_tool->a hammer</li>
-    <li>article_tool->a table saw</li>
-    <li>article_tool->a ruler</li>
-    <li>article_tool->a ladder</li>
-    <li>article_tool->a level</li>
-    <li>action->use</li>
-    <li>action->work with</li>
-    <li>action->inspect</li>
-    <li>action_gerund->using</li>
-    <li>action_gerund->working with</li>
-    <li>action_gerund->inspecting</li>
-    <li>subject->architecture</li>
-    <li>subject->construction techniques</li>
-    <li>subject->deconstruction techniques</li>
-    <li>subject->building materials</li>
-    <li>subject->modeling software</li>
-    <li>subject->blueprints</li>
+    <li>article_tool->鎚子</li>
+    <li>article_tool->鋸子</li>
+    <li>article_tool->尺</li>
+    <li>article_tool->梯子</li>
+    <li>article_tool->水平儀</li>
+    <li>action->使用</li>
+    <li>action->操作</li>
+    <li>action->觀察</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->操作</li>
+    <li>action_gerund->觀察</li>
+    <li>subject->建築學</li>
+    <li>subject->建築技術</li>
+    <li>subject->拆除技術</li>
+    <li>subject->建築材料</li>
+    <li>subject->模型軟體</li>
+    <li>subject->藍圖</li>
   </LessonConstruction.logRulesInitiator.rulesStrings>
   
   <!-- EN: cooking lesson -->
@@ -236,26 +236,26 @@
     <li>situation->safely</li>
   -->
   <LessonCooking.logRulesInitiator.rulesStrings>
-    <li>article_tool->a stove</li>
-    <li>article_tool->a spatula</li>
-    <li>article_tool->an oven</li>
-    <li>article_tool->a saucepan</li>
-    <li>article_tool->a nutrient paste dispenser</li>
-    <li>article_tool->a butcher table</li>
-    <li>action->clean</li>
-    <li>action->cook with</li>
-    <li>action_gerund->cleaning</li>
-    <li>action_gerund->cooking with</li>
-    <li>subject->spices</li>
-    <li>subject->packaged survival meals</li>
-    <li>subject->egg varieties</li>
-    <li>subject->varieties of meats</li>
-    <li>subject->flavors</li>
-    <li>subject->recipes</li>
-    <li>situation->while caravaning</li>
-    <li>situation->blindfolded</li>
-    <li>situation->in a hurry</li>
-    <li>situation->safely</li>
+    <li>article_tool->爐灶</li>
+    <li>article_tool->鍋鏟</li>
+    <li>article_tool->烤箱</li>
+    <li>article_tool->燉鍋</li>
+    <li>article_tool->營養膏合成機</li>
+    <li>article_tool->屠宰桌</li>
+    <li>action->清潔</li>
+    <li>action->煮食在</li>
+    <li>action_gerund->清潔</li>
+    <li>action_gerund->煮食在</li>
+    <li>subject->調味料</li>
+    <li>subject->生存食品包</li>
+    <li>subject->蛋的種類</li>
+    <li>subject->肉的種類</li>
+    <li>subject->味道</li>
+    <li>subject->食譜</li>
+    <li>situation->旅行時</li>
+    <li>situation->蒙著眼時</li>
+    <li>situation->匆忙時</li>
+    <li>situation->安全的情況</li>
   </LessonCooking.logRulesInitiator.rulesStrings>
   
   <!-- EN: crafting lesson -->
@@ -287,30 +287,30 @@
     <li>situation(p=0.1)->while drunk</li>
   -->
   <LessonCrafting.logRulesInitiator.rulesStrings>
-    <li>article_tool->a screwdriver</li>
-    <li>article_tool->a pair of pliers</li>
-    <li>article_tool->a circuit board</li>
-    <li>article_tool->a tailor bench</li>
-    <li>article_tool->a machining table</li>
-    <li>article_tool->a fabricator</li>
-    <li>action->use</li>
-    <li>action->work with</li>
-    <li>action->inspect</li>
-    <li>action_gerund->using</li>
-    <li>action_gerund->working with</li>
-    <li>action_gerund->inspecting</li>
-    <li>subject->organizing tools</li>
-    <li>subject->tinkering accomplishments</li>
-    <li>subject->gadgets</li>
-    <li>subject->fabric varieties</li>
-    <li>subject->cloth weaving techniques</li>
-    <li>subject->plate armor</li>
-    <li>subject->utility belts</li>
-    <li>subject->bionics</li>
-    <li>situation->safely</li>
-    <li>situation->without instructions</li>
-    <li>situation->by candlelight</li>
-    <li>situation(p=0.1)->while drunk</li>
+    <li>article_tool->螺絲起子</li>
+    <li>article_tool->鉗子</li>
+    <li>article_tool->電路板</li>
+    <li>article_tool->裁縫桌</li>
+    <li>article_tool->機械加工桌</li>
+    <li>article_tool->精密製作桌</li>
+    <li>action->使用</li>
+    <li>action->操作</li>
+    <li>action->觀察</li>
+    <li>action_gerund->使用</li>
+    <li>action_gerund->操作</li>
+    <li>action_gerund->觀察</li>
+    <li>subject->整理工具</li>
+    <li>subject->手工工藝</li>
+    <li>subject->器件</li>
+    <li>subject->紡織品的種類</li>
+    <li>subject->織布技術</li>
+    <li>subject->板甲</li>
+    <li>subject->附件腰帶</li>
+    <li>subject->仿生體</li>
+    <li>situation->安全的情況</li>
+    <li>situation->沒有指引時</li>
+    <li>situation->只有燭光時</li>
+    <li>situation(p=0.1)->醉醺醺時</li>
   </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
@@ -339,18 +339,18 @@
     <li>subject->Johnson-Tanaka propulsion</li>
   -->
   <LessonIntellectual.logRulesInitiator.rulesStrings>
-    <li>subject->genetics</li>
-    <li>subject->techprints</li>
-    <li>subject->multi-analyzer functions</li>
-    <li>subject->philosophy</li>
-    <li>subject->mathematics</li>
-    <li>subject->biology</li>
-    <li>subject->chemistry</li>
-    <li>subject->archotech mysteries</li>
-    <li>subject->starship reactors</li>
-    <li>subject->the scientific method</li>
-    <li>subject->seminal whitepapers</li>
-    <li>subject->Johnson-Tanaka propulsion</li>
+    <li>subject->遺傳學</li>
+    <li>subject->科技藍圖</li>
+    <li>subject->多重分析裝置的功能</li>
+    <li>subject->哲學</li>
+    <li>subject->數學</li>
+    <li>subject->生物學</li>
+    <li>subject->化學</li>
+    <li>subject->遠古科技的謎團</li>
+    <li>subject->星艦反應爐</li>
+    <li>subject->科學的方法</li>
+    <li>subject->創新白皮書</li>
+    <li>subject->Johnson-Tanaka推進力</li>
   </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
