@@ -8,13 +8,22 @@
     <li>situation->while injured</li>
     <li>situation(p=0.2)->while drunk</li>
   -->
-  <LessonInteractionCommonSituations.rulePack.rulesStrings>TODO</LessonInteractionCommonSituations.rulePack.rulesStrings>
+  <LessonInteractionCommonSituations.rulePack.rulesStrings>
+    <li>situation(p=2)->在安全的情況</li>
+    <li>situation->在晚上</li>
+    <li>situation->在寒風中</li>
+    <li>situation->受傷時</li>
+    <li>situation(p=0.2)->醉倒時</li>
+  </LessonInteractionCommonSituations.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
-  <LessonInteractionHowTo.rulePack.rulesStrings>TODO</LessonInteractionHowTo.rulePack.rulesStrings>
+  <LessonInteractionHowTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][teach_adverb][teach_verb]如何[action][article_tool]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef][teach_verb]如何[action][article_tool]。</li>
+  </LessonInteractionHowTo.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
@@ -23,7 +32,13 @@
     <li>teach_test->grilled</li>
     <li>teach_test->cross-examined</li>
   -->
-  <LessonInteractionQuiz.rulePack.rulesStrings>TODO</LessonInteractionQuiz.rulePack.rulesStrings>
+  <LessonInteractionQuiz.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef][teach_test][RECIPIENT_nameDef][situation][action_gerund][article_tool]。</li>
+    <li>teach_test->測驗</li>
+    <li>teach_test->測試</li>
+    <li>teach_test->考驗</li>
+    <li>teach_test->考試</li>
+  </LessonInteractionQuiz.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
@@ -33,7 +48,14 @@
     <li>study_verb->researched</li>
     <li>study_verb->studied</li>
   -->
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>TODO</LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef]跟[RECIPIENT_nameDef]一起[teach_adverb][study_verb][subject]。</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef]跟[RECIPIENT_nameDef]一起[study_verb][subject]。</li>
+    <li>study_verb->重溫</li>
+    <li>study_verb->溫習</li>
+    <li>study_verb->研究</li>
+    <li>study_verb->探討</li>
+  </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   
   <!-- EN:
     <li>teach_adverb->calmly</li>
@@ -43,7 +65,14 @@
     <li>teach_adverb->lightheartedly</li>
     <li>teach_adverb->carefully</li>
   -->
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>TODO</LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+    <li>teach_adverb->冷靜地</li>
+    <li>teach_adverb->生動地</li>
+    <li>teach_adverb->專注地</li>
+    <li>teach_adverb->快速地</li>
+    <li>teach_adverb->輕鬆愉快地</li>
+    <li>teach_adverb->仔細地</li>
+  </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
   
   <!-- EN:
     <li>teach_verb->demonstrated</li>
@@ -51,7 +80,12 @@
     <li>teach_verb->showed</li>
     <li>teach_verb->taught</li>
   -->
-  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>TODO</LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+    <li>teach_verb->示範</li>
+    <li>teach_verb->講解</li>
+    <li>teach_verb->展示</li>
+    <li>teach_verb->教導</li>
+  </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
@@ -61,6 +95,13 @@
     <li>talk_verb->gave a summary of</li>
     <li>talk_verb->lectured about</li>
   -->
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>TODO</LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][teach_adverb][talk_verb][subject]。</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][talk_verb][subject]。</li>
+    <li>talk_verb->談及</li>
+    <li>talk_verb->簡述一下關於</li>
+    <li>talk_verb->總結一下關於</li>
+    <li>talk_verb->詳細講解關於</li>
+  </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   
 </LanguageData>
