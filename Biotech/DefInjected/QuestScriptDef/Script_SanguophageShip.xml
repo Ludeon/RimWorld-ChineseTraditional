@@ -9,12 +9,22 @@
     <li>assaultBeginLetterLabel->Assault begun</li>
     <li>assaultBeginLetterText->The hostile sanguophage master and [sanguophage_possessive] thralls have initiated an assault on the colony!</li>
   -->
-  <SanguophageShip.questContentRules.rulesStrings>TODO</SanguophageShip.questContentRules.rulesStrings>
+  <SanguophageShip.questContentRules.rulesStrings>
+    <li>sanguophageShuttleCrashedLetterLabel->墜落的太空梭</li>
+    <li>sanguophageShuttleCrashedLetterText->一艘載著一名噬血者和[thrallCount]名血奴的太空梭在附近迫降。逃出太空梭的他們將預備開打。</li>
+    <li>reinforcementsArrivedLetterLabel->血奴增援</li>
+    <li>reinforcementsArrivedLetterText->血奴乘著運輸艙前來為噬血者增援。</li>
+    <li>assaultBeginLetterLabel->襲擊開始</li>
+    <li>assaultBeginLetterText->帶有敵意的噬血者和[sanguophage_possessive]血奴正向殖民地展開攻擊！</li>
+  </SanguophageShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
-  <SanguophageShip.questDescriptionRules.rulesStrings>TODO</SanguophageShip.questDescriptionRules.rulesStrings>
+  <SanguophageShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->你攔截到一條遇難信號！帶有敵意的噬血者和[thrallCount]名血奴的引擎發生問題。你可以利用信號引導他們迫降於。\n\n一旦太空梭著陸，你可以與噬血者和[sanguophage_possessive]手下開戰。如果你能俘虜領頭的噬血者，你可以迫使[sanguophage_objective]把你的殖民者變成噬血者。\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)關於噬血者：噬血者不老不死，他們是血液中含有遠古分子的超級人類。他們既美麗，也極聰明。他們可以治療所有傷口，並無視所有疾病與毒素。戰鬥時，他們可以發射致命的骨刺，另一頭治療受傷的戰友。相對的，噬血者必須消耗從人類鮮血提取的血原才能生存，而且他們須定期進入絕息一段時間。他們的弱點是火攻，若在紫外光下移動會減慢。(/Gray)</li>
+  </SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
     <li>shipAdjective->sanguophage</li>
@@ -34,6 +44,24 @@
     <li>shipNoun->crash</li>
     <li>shipNoun->wreck</li>
   -->
-  <SanguophageShip.questNameRules.rulesStrings>TODO</SanguophageShip.questNameRules.rulesStrings>
+  <SanguophageShip.questNameRules.rulesStrings>
+    <li>questName->[shipAdjective][shipNoun]</li>
+    <li>shipAdjective->噬血者的</li>
+    <li>shipAdjective->渴血的</li>
+    <li>shipAdjective->赤血的</li>
+    <li>shipAdjective->暗影的</li>
+    <li>shipAdjective->暗黑的</li>
+    <li>shipAdjective->深紅的</li>
+    <li>shipAdjective->赤色的</li>
+    <li>shipAdjective->血痕的</li>
+    <li>shipAdjective->血原的</li>
+    <li>shipAdjective->血紅的</li>
+    <li>shipNoun->飛船</li>
+    <li>shipNoun->太空梭</li>
+    <li>shipNoun->艦</li>
+    <li>shipNoun->破船</li>
+    <li>shipNoun->墜落</li>
+    <li>shipNoun->空難</li>
+  </SanguophageShip.questNameRules.rulesStrings>
   
 </LanguageData>
