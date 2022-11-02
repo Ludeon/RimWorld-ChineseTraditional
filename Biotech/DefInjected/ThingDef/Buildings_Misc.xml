@@ -2,87 +2,87 @@
 <LanguageData>
   
   <!-- EN: band node -->
-  <BandNode.label>TODO</BandNode.label>
+  <BandNode.label>頻道節點</BandNode.label>
   <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
-  <BandNode.description>TODO</BandNode.description>
+  <BandNode.description>機械族頻道訊號增強器。頻道節點必須要同調至一位特定御機使。這會使那位御機使的總頻寬增加1，使他能夠操控更多機械族。\n\n當頻道節點建成後，能很快地跟御機使同調。然而，重新同調頻道節點至另一位御機使要花費更多時間。</BandNode.description>
   
   <!-- EN: mechband antenna -->
-  <BurnoutMechlinkBooster.label>TODO</BurnoutMechlinkBooster.label>
+  <BurnoutMechlinkBooster.label>機頻天線</BurnoutMechlinkBooster.label>
   <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
-  <BurnoutMechlinkBooster.description>TODO</BurnoutMechlinkBooster.description>
+  <BurnoutMechlinkBooster.description>以機械頻率發訊的裝置。啟動時，它會送出強力的機械訊號脈衝波，能夠吸引超重量級失控機械族和它的護衛一同前來襲擊。如果你能擊敗它，就能從它的屍體取得特殊科技。訊號脈衝波會燒壞發訊器，所以這建築只能使用一次。</BurnoutMechlinkBooster.description>
   <!-- EN: Summon warqueen threat -->
-  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>TODO</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>召喚烽火戰后劫難</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
   
   <!-- EN: gene assembler -->
-  <GeneAssembler.label>TODO</GeneAssembler.label>
+  <GeneAssembler.label>基因組合機</GeneAssembler.label>
   <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
-  <GeneAssembler.description>TODO</GeneAssembler.description>
+  <GeneAssembler.description>使用附近的基因庫中的基因包，製造可植入的異種細胞的工作台。基因包在過程中不會被消耗因此可以重複使用。</GeneAssembler.description>
   
   <!-- EN: gene bank -->
-  <GeneBank.label>TODO</GeneBank.label>
+  <GeneBank.label>基因庫</GeneBank.label>
   <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
-  <GeneBank.description>TODO</GeneBank.description>
+  <GeneBank.description>放置在基因組合機附近使用，此建築可以儲存用來製作異種細胞的基因包。\n\n通電時，基因庫會防止基因包衰敗並且慢慢地修復衰敗造成的損傷。</GeneBank.description>
   
   <!-- EN: gene extractor -->
-  <GeneExtractor.label>TODO</GeneExtractor.label>
+  <GeneExtractor.label>基因抽取器</GeneExtractor.label>
   <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
-  <GeneExtractor.description>TODO</GeneExtractor.description>
+  <GeneExtractor.description>自動抽取基因並製成基因包的機器。抽取的基因是從被抽取者的種系基因和異種基因中隨機選取的。你可以強迫某人進入機器，但他們絕對不會喜歡的。\n\n當被抽取者的基因還在再生時再抽取基因會殺死他們。除此之外，抽取基因不會造成永久性損傷。\n\n需要遠古分子膠囊的基因因為過於複雜無法被抽取。</GeneExtractor.description>
   
   <!-- EN: gene processor -->
-  <GeneProcessor.label>TODO</GeneProcessor.label>
+  <GeneProcessor.label>基因處理器</GeneProcessor.label>
   <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
-  <GeneProcessor.description>TODO</GeneProcessor.description>
+  <GeneProcessor.description>基因分析與處理系統。放置於基因組合機附近能提升組合出來異種基因的最大基因複雜度。建造多台基因處理器能夠將基因複雜度的上限再提高。</GeneProcessor.description>
   
   <!-- EN: growth vat -->
-  <GrowthVat.label>TODO</GrowthVat.label>
+  <GrowthVat.label>發育艙</GrowthVat.label>
   <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
-  <GrowthVat.description>TODO</GrowthVat.description>
+  <GrowthVat.description>充滿能夠培育胚胎或加速兒童成長液體的艙體。\n\n成長或培育時，發育艙必須要維持穩定的營養供給才能提供成長的原料。培育胎兒所需的營養是加速兒童成長的兩倍。\n\n胚胎發育至嬰兒為期九天。期間有併發症的風險。\n\n兒童成長最多只能加速到18歲。成長時，兒童的技能會緩慢增加。發育艙中長大的孩子獲得的技能和熱情會比正常長大的孩子還要少。\n\n此裝置使用化學注射、電極刺激、簡易機械分子療程來提升身體成長。發育艙常用來快速生產出改造工人或改造戰士。</GrowthVat.description>
   
   <!-- EN: mechband dish -->
-  <MechbandDish.label>TODO</MechbandDish.label>
+  <MechbandDish.label>機頻碟型天線</MechbandDish.label>
   <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
-  <MechbandDish.description>TODO</MechbandDish.description>
+  <MechbandDish.description>比機頻天線還要強力的機械族頻率發訊裝置。啟動時，它會送出強力的機械訊號脈衝波，能夠吸引機械司令和它的護衛一同前來襲擊。如果你能擊敗它，就能從它的屍體取得特殊科技。訊號脈衝波會燒壞碟型天線，所以這建築只能使用一次。</MechbandDish.description>
   <!-- EN: Summon apocriton threat -->
-  <MechbandDish.comps.CompUsable.useLabel>TODO</MechbandDish.comps.CompUsable.useLabel>
+  <MechbandDish.comps.CompUsable.useLabel>召喚阿布機頓劫難</MechbandDish.comps.CompUsable.useLabel>
   
   <!-- EN: mech booster -->
-  <MechBooster.label>TODO</MechBooster.label>
+  <MechBooster.label>機械增幅器</MechBooster.label>
   <!-- EN: A remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. -->
-  <MechBooster.description>TODO</MechBooster.description>
+  <MechBooster.description>遠端增強能量與計算的裝置。在作用範圍的所有己方機械族加速移動與工作速度。</MechBooster.description>
   
   <!-- EN: pollution pump -->
-  <PollutionPump.label>TODO</PollutionPump.label>
+  <PollutionPump.label>排污泵</PollutionPump.label>
   <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
-  <PollutionPump.description>TODO</PollutionPump.description>
+  <PollutionPump.description>能淨化污染地形的地下水過濾泵。抽取出的污染會裝在廢料袋中並且需要運走。</PollutionPump.description>
   
   <!-- EN: blood torch -->
-  <SanguphageMeetingTorch.label>TODO</SanguphageMeetingTorch.label>
+  <SanguphageMeetingTorch.label>血火把</SanguphageMeetingTorch.label>
   <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
-  <SanguphageMeetingTorch.description>TODO</SanguphageMeetingTorch.description>
+  <SanguphageMeetingTorch.description>特殊處理過的木製火把，為附近區域發出紅光。噬血者會在像這樣的火把開始他們的儀式會議。擁有吸血者基因的人很喜歡這種歡樂光芒。需要定期補充木頭燃料。會產生少量的熱能。</SanguphageMeetingTorch.description>
   
   <!-- EN: crashed shuttle -->
-  <ShuttleCrashed_Exitable.label>TODO</ShuttleCrashed_Exitable.label>
+  <ShuttleCrashed_Exitable.label>墜落的太空梭</ShuttleCrashed_Exitable.label>
   <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
-  <ShuttleCrashed_Exitable.description>TODO</ShuttleCrashed_Exitable.description>
+  <ShuttleCrashed_Exitable.description>用於穿梭在地表和軌道或者衛星和行星之間的太空梭。</ShuttleCrashed_Exitable.description>
   
   <!-- EN: crashed mechanitor ship -->
-  <ShuttleCrashed_Exitable_Mechanitor.label>TODO</ShuttleCrashed_Exitable_Mechanitor.label>
+  <ShuttleCrashed_Exitable_Mechanitor.label>墜落的御機使戰艦</ShuttleCrashed_Exitable_Mechanitor.label>
   <!-- EN: A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. -->
-  <ShuttleCrashed_Exitable_Mechanitor.description>TODO</ShuttleCrashed_Exitable_Mechanitor.description>
+  <ShuttleCrashed_Exitable_Mechanitor.description>御機使用來在低軌道或行星間運輸機械族的短程戰艦。</ShuttleCrashed_Exitable_Mechanitor.description>
   
   <!-- EN: toxifier generator -->
-  <ToxifierGenerator.label>TODO</ToxifierGenerator.label>
+  <ToxifierGenerator.label>毒能發電機</ToxifierGenerator.label>
   <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
-  <ToxifierGenerator.description>TODO</ToxifierGenerator.description>
+  <ToxifierGenerator.description>會在發電過程中慢慢地污染範圍內的環境的發電機。範圍內的環境如果都被污染的話發電機就會關機。</ToxifierGenerator.description>
   
   <!-- EN: IED tox trap -->
-  <TrapIED_ToxGas.label>TODO</TrapIED_ToxGas.label>
+  <TrapIED_ToxGas.label>毒氣地雷</TrapIED_ToxGas.label>
   <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_ToxGas.description>TODO</TrapIED_ToxGas.description>
+  <TrapIED_ToxGas.description>一對毒氣罐連接到觸發器上，能在被碰觸或被彈頭撞擊時引爆。由於隱藏在周圍的地形，因此不能安置在其他陷阱的旁邊。動物在平靜時可以感測到地雷。</TrapIED_ToxGas.description>
   
   <!-- EN: wastepack atomizer -->
-  <WastepackAtomizer.label>TODO</WastepackAtomizer.label>
+  <WastepackAtomizer.label>廢料袋原子化機器</WastepackAtomizer.label>
   <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
-  <WastepackAtomizer.description>TODO</WastepackAtomizer.description>
+  <WastepackAtomizer.description>使用先進分子製程，將廢料袋分解成惰性氣體的閃耀科技裝置。過程中需要相當可觀的電力。</WastepackAtomizer.description>
   
 </LanguageData>

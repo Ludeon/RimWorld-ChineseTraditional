@@ -3,7 +3,7 @@
   <!-- EN: Auto-repair -->
   <CommandAutoRepair>自動修復</CommandAutoRepair>
   <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
-  <CommandAutoRepairDesc>啟用後，御機使會自動修復此機械族。修復機械族時會消耗其能量。</CommandAutoRepairDesc>
+  <CommandAutoRepairDesc>若啟用，御機使會自動修復機械人。修復機械人會消秏它的能量。</CommandAutoRepairDesc>
 
   <!-- EN: {0_labelShort} is deathresting. -->
   <CommandDisabledDeathresting>{0_labelShort}正在絕息。</CommandDisabledDeathresting>
@@ -43,11 +43,11 @@
   <!-- EN: Select all mechs -->
   <CommandSelectAllMechs>選取所有機械族</CommandSelectAllMechs>
   <!-- EN: Select all mechanoids controlled by this mechanitor. -->
-  <CommandSelectAllMechsDesc>選取所有由此御機使操控的機械族。</CommandSelectAllMechsDesc>
+  <CommandSelectAllMechsDesc>選取所有由此御機使操控的機器族。</CommandSelectAllMechsDesc>
 
   <!-- EN: Turret enabled -->
-  <CommandToggleTurret>砲塔啟用</CommandToggleTurret>
+  <CommandToggleTurret>啟動砲塔</CommandToggleTurret>
   <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
-  <CommandToggleTurretDesc>砲塔是否自由開火。\n\n關閉後，砲塔不會自動開火。在溜近敵人時有用。</CommandToggleTurretDesc>
+  <CommandToggleTurretDesc>切換砲塔是否自動開火攻擊。\n\n若關閉，砲塔將不會自動開火攻擊。此功能有助於進行偷襲敵人的行動。</CommandToggleTurretDesc>
 
 </LanguageData>
