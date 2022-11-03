@@ -2,118 +2,117 @@
 <LanguageData>
 
   <!-- EN: Uncontrolled mechs -->
-  <AlertMechLacksOverseer>TODO</AlertMechLacksOverseer>
+  <AlertMechLacksOverseer>機械族斷線</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>TODO</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>你的一個或多個機械族不受操控。把你的機械族與一名擁有足夠頻寬的御機使連接來操控他們。\n\n如果任由他們處於斷線狀態多於一天，機械族會失控。那時他們將會加入{0}並對你抱有敵意。一旦有機械族失控，會慫恿周圍其他機械族一起失控。\n\n失控機械族死後再也不能在培養艙復活。</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
-  <AlertMechLacksOverseerUncontrolled>TODO</AlertMechLacksOverseerUncontrolled>
+  <AlertMechLacksOverseerUncontrolled>以下機械族斷線了</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
-  <AlertMechLacksOverseerMayGoFeral>TODO</AlertMechLacksOverseerMayGoFeral>
+  <AlertMechLacksOverseerMayGoFeral>以下機械族斷線了且隨時失控</AlertMechLacksOverseerMayGoFeral>
 
   <!-- EN: {0} is low on resources -->
-  <AlertWarqueenHasLowResources>TODO</AlertWarqueenHasLowResources>
+  <AlertWarqueenHasLowResources>{0}的原料不足</AlertWarqueenHasLowResources>
   <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
-  <AlertWarqueenHasLowResourcesDesc>TODO</AlertWarqueenHasLowResourcesDesc>
+  <AlertWarqueenHasLowResourcesDesc>一個或多個{0}的原料不足。若花光所有原料，他們將無法根據命令生產機械族。</AlertWarqueenHasLowResourcesDesc>
 
   <!-- EN: {PAWN} needs deathrest -->
-  <AlertLowDeathrestPawn>TODO</AlertLowDeathrestPawn>
+  <AlertLowDeathrestPawn>{PAWN}需要絕息</AlertLowDeathrestPawn>
   <!-- EN: {NUMCULPRITS} colonists need deathrest -->
-  <AlertLowDeathrestPawns>TODO</AlertLowDeathrestPawns>
+  <AlertLowDeathrestPawns>{NUMCULPRITS}名殖民者需要絕息</AlertLowDeathrestPawns>
   <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
-  <AlertLowDeathrestDesc>TODO</AlertLowDeathrestDesc>
+  <AlertLowDeathrestDesc>一名殖民者太久沒有絕息了。如果他們一直不絕息的話，他們會他們會陷入絕息虛弱。\n\n要進行絕息，選取殖民者，然後右鍵點擊分配給他們的床或絕息棺材。\n\以下人士需要絕息：\n{CULPRITS}</AlertLowDeathrestDesc>
 
   <!-- EN: Low hemogen -->
-  <AlertLowHemogen>TODO</AlertLowHemogen>
+  <AlertLowHemogen>血原量低</AlertLowHemogen>
   <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
-  <AlertLowHemogenDesc>TODO</AlertLowHemogenDesc>
+  <AlertLowHemogenDesc>有殖民者的血原量低。若血原量降至0，他們會陷入血原渴求。\n\n給他們攝取血原包來舒緩狀況。你可以對非血原性人類進行「抽取血原包」手術來獲取血原包。\n\n以下殖民者血原量低</AlertLowHemogenDesc>
 
   <!-- EN: Recharger full -->
-  <AlertRechargerFull>TODO</AlertRechargerFull>
+  <AlertRechargerFull>充電站已滿</AlertRechargerFull>
   <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
-  <AlertRechargerFullDesc>TODO</AlertRechargerFullDesc>
+  <AlertRechargerFullDesc>一些機械充電站的廢料包存量已滿。機械族無法使用這些充電站，直至廢料包被移走。\n\n選取殖民者並右鍵點擊充電站，把廢料包拿走。</AlertRechargerFullDesc>
 
   <!-- EN: Need mech rechargers -->
-  <AlertNeedMechChargers>TODO</AlertNeedMechChargers>
+  <AlertNeedMechChargers>需要機械充電站</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>TODO</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>你的充電站數目不足以供應你的機械族。如果機械族花光能量，它會進入休眠自充狀態，非常緩慢地充電。\n\n建造這些充電站：\n\n{0}\n\n注意：只有輕量級機械族能用標準充電站。中量級或以上的機械族需要大型充電站。</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
-  <AlertNeedMechChargerBasicMechtech>TODO</AlertNeedMechChargerBasicMechtech>
+  <AlertNeedMechChargerBasicMechtech>研究基礎機械科技或更高級科技來建造充電站。</AlertNeedMechChargerBasicMechtech>
 
   <!-- EN: Reimplantation available -->
-  <AlertReimplantationAvailable>TODO</AlertReimplantationAvailable>
+  <AlertReimplantationAvailable>準備移植</AlertReimplantationAvailable>
   <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
-  <AlertReimplantationAvailableDesc>TODO</AlertReimplantationAvailableDesc>
+  <AlertReimplantationAvailableDesc>{0_nameDef}正等待把{0_possessive}異種細胞移植到你的殖民者身上。</AlertReimplantationAvailableDesc>
 
   <!-- EN: Low baby food -->
-  <AlertLowBabyFood>TODO</AlertLowBabyFood>
+  <AlertLowBabyFood>嬰兒食品不足</AlertLowBabyFood>
   <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
-  <AlertLowBabyFoodDesc>TODO</AlertLowBabyFoodDesc>
+  <AlertLowBabyFoodDesc>你的嬰兒食品存量嚴重不足。\n\n    嬰兒消耗的食品：{0}\n    嬰兒食品可支撐的天數：{1}\n\n購買、尋找或烹調一些嬰兒食品。包括{2}。</AlertLowBabyFoodDesc>
   <!-- EN: No baby feeders -->
-  <AlertNoBabyFeeder>TODO</AlertNoBabyFeeder>
+  <AlertNoBabyFeeder>需要嬰兒餵養者</AlertNoBabyFeeder>
   <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
-  <AlertNoBabyFeederDesc>TODO</AlertNoBabyFeederDesc>
+  <AlertNoBabyFeederDesc>沒有被指派餵養嬰兒的{FACTION_pawnsPlural}，或他們都倒下了。\n\n指派一名{FACTION_pawnsPlural}進行育兒工作或在嬰兒的餵養面板中選取緊急優先度指派泌乳中的{FACTION_pawnSingular}來餵哺嬰兒，並確保至少有一名餵養者能活動。</AlertNoBabyFeederDesc>
 
   <!-- EN: No baby food in caravan -->
-  <AlertNoBabyFoodCaravan>TODO</AlertNoBabyFoodCaravan>
+  <AlertNoBabyFoodCaravan>旅隊缺乏嬰兒食品</AlertNoBabyFoodCaravan>
   <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
-  <AlertNoBabyFoodCaravanDesc>TODO</AlertNoBabyFoodCaravanDesc>
+  <AlertNoBabyFoodCaravanDesc>此旅隊的嬰兒需要嬰兒食品或設定餵哺他們的泌乳中的{FACTION_pawnsPlural}。</AlertNoBabyFoodCaravanDesc>
 
   <!-- EN: Toxic buildup -->
-  <AlertToxicBuildup>TODO</AlertToxicBuildup>
+  <AlertToxicBuildup>中毒</AlertToxicBuildup>
   <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
-  <AlertToxicBuildupDesc>TODO</AlertToxicBuildupDesc>
+  <AlertToxicBuildupDesc>這些殖民者陷入嚴重的中毒狀態︰\n\n{0}\n\n把他們移離毒素源頭。\n\n中毒可由多種事物引致，包括毒霧霾、毒氣和受污染地帶。</AlertToxicBuildupDesc>
 
   <!-- EN: Need baby cribs -->
-  <AlertNeedBabyCribs>TODO</AlertNeedBabyCribs>
+  <AlertNeedBabyCribs>需要嬰兒床</AlertNeedBabyCribs>
   <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
-  <AlertNeedBabyCribsDesc>TODO</AlertNeedBabyCribsDesc>
+  <AlertNeedBabyCribsDesc>你的嬰兒人數多於嬰兒床數目。\n\n建造更多嬰兒床，或者如果你沒有多餘的資源，也可以放置嬰兒睡眠點作即時代替。</AlertNeedBabyCribsDesc>
   <!-- EN: Need slave cribs -->
-  <AlertNeedSlaveCribs>TODO</AlertNeedSlaveCribs>
+  <AlertNeedSlaveCribs>需要奴隸嬰兒床</AlertNeedSlaveCribs>
   <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
-  <AlertNeedSlaveCribsDesc>TODO</AlertNeedSlaveCribsDesc>
+  <AlertNeedSlaveCribsDesc>你的奴隸嬰兒人數多於奴隸專用的嬰兒床數目。\n\n建造更多嬰兒床或把殖民者嬰兒床轉為奴隸專用。\n\n如果你沒有多餘的資源，也可以放置嬰兒睡眠點作即時代替。</AlertNeedSlaveCribsDesc>
 
   <!-- EN: Polluted terrain -->
-  <AlertPollutedTerrain>TODO</AlertPollutedTerrain>
+  <AlertPollutedTerrain>受污染地帶</AlertPollutedTerrain>
   <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
-  <AlertPollutedTerrainDesc>TODO</AlertPollutedTerrainDesc>
+  <AlertPollutedTerrainDesc>有人或動物陷入中毒狀態並正身處受污染地帶。只要有人站在受污染地帶內，他們就會不斷積累毒素直至死亡。\n\n這些人或動物正受影響︰\n\n{0}\n\n讓人們與受污染地帶保持距離，或找一些能保護他們免受影響的方法。特定的服裝、植入物和基因改造都能防止中毒。受污染地帶不能靠鋪設地板解決，但可以靠人手或其他方法清理。</AlertPollutedTerrainDesc>
 
   <!-- EN: Mechanoid missing part -->
-  <AlertMechMissingBodyPart>TODO</AlertMechMissingBodyPart>
+  <AlertMechMissingBodyPart>機械族部件殘缺</AlertMechMissingBodyPart>
   <!-- EN: Mechanoids missing parts -->
-  <AlertMechsMissingBodyPart>TODO</AlertMechsMissingBodyPart>
+  <AlertMechsMissingBodyPart>多個機械族部件殘缺</AlertMechsMissingBodyPart>
   <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
-  <AlertMechMissingBodyPartDesc>TODO</AlertMechMissingBodyPartDesc>
+  <AlertMechMissingBodyPartDesc>你的一個或多個機械族欠缺身體部件。御機使可以修復缺失的部件。\n\n部件殘缺的機械族包括</AlertMechMissingBodyPartDesc>
 
   <!-- EN: Mechanoid repair needed -->
-  <AlertMechNeedsRepair>TODO</AlertMechNeedsRepair>
+  <AlertMechNeedsRepair>需要修復機械族</AlertMechNeedsRepair>
   <!-- EN: These mechanoids are damaged and need repair -->
-  <AlertMechNeedsRepairDescPrefix>TODO</AlertMechNeedsRepairDescPrefix>
+  <AlertMechNeedsRepairDescPrefix>這些機械族受傷並需要修復</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>TODO</AlertMechNeedsRepairDesc>
+  <AlertMechNeedsRepairDesc>命令御機使修復他們，或選取該機械族開啟自動修復。修復機械族會消耗能量。如果機械族的能量過低以致無法移動，便需要有人把他們帶到充電站。</AlertMechNeedsRepairDesc>
   
   <!-- EN: {0} stopped -->
-  <AlertToxifierGeneratorStopped>TODO</AlertToxifierGeneratorStopped>
+  <AlertToxifierGeneratorStopped>{0}停止運作</AlertToxifierGeneratorStopped>
   <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
-  <AlertToxifierGeneratorStoppedDesc>TODO</AlertToxifierGeneratorStoppedDesc>
+  <AlertToxifierGeneratorStoppedDesc>你的{0}停止輸出電力了，因為周圍沒有未受污染地帶可以轉化。\n\n使用污染泵清潔受污染地帶，或劃定清污區。</AlertToxifierGeneratorStoppedDesc>
 
   <!-- EN: Psychic bond distance -->
-  <AlertPsychicBondedPawnsSeparated>TODO</AlertPsychicBondedPawnsSeparated>
+  <AlertPsychicBondedPawnsSeparated>心靈伴侶走遠</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
-  <AlertPsychicBondedPawnsSeparatedDesc>TODO</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertPsychicBondedPawnsSeparatedDesc>有些建立了心靈羈絆的殖民者分隔兩地，並因此而感到傷心。防止發生此事，心靈伴侶必須處於同一地圖、旅隊或交通工具。而且，他們不能處於休眠或類似的假死狀態。\n\n以下人士受到影響</AlertPsychicBondedPawnsSeparatedDesc>
 
   <!-- EN: Gene bank needs power -->
-  <AlertGenebankUnpowered>TODO</AlertGenebankUnpowered>
+  <AlertGenebankUnpowered>基因庫需要電力</AlertGenebankUnpowered>
   <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
-  <AlertGenebankUnpoweredDesc>TODO</AlertGenebankUnpoweredDesc>
-
-  <!-- EN: Deathrest complete -->
-  <AlertDeathrestComplete>TODO</AlertDeathrestComplete><!-- text_todo -->
-  <!-- EN: These deathresters have completed their deathrest and can be awoken safely without negative side effects: -->
-  <AlertDeathrestCompleteDesc>TODO</AlertDeathrestCompleteDesc><!-- text_todo -->
+  <AlertGenebankUnpoweredDesc>基因庫未接上電源，因此裡面的基因包正逐漸衰敗。給基因庫恢復電力便可防止基因包衰敗。\n\n一旦基因庫回復正常運作，它會慢慢地逆轉基因包的衰敗程度。</AlertGenebankUnpoweredDesc>
 
   <!-- EN: {0} incoming -->
-  <AlertBossgroupIncoming>TODO</AlertBossgroupIncoming><!-- text_todo -->
+  <AlertBossgroupIncoming>{0}來臨</AlertBossgroupIncoming><!-- text_todo -->
   <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
-  <AlertBossgroupIncomingDesc>TODO</AlertBossgroupIncomingDesc><!-- text_todo -->
+  <AlertBossgroupIncomingDesc>因為你的御機使召喚，敵人{0}正帶著它的戰鬥護衛前來。做好準備，這場戰鬥非同小可。敵方機械族會在數小時或天內到達。</AlertBossgroupIncomingDesc><!-- text_todo -->
+
+  <!-- UNUSED -->
+  <AlertDeathrestComplete>絕息完成</AlertDeathrestComplete>
+  <AlertDeathrestCompleteDesc>以下絕息者已完成他們的絕息，可以安全地叫醒他們而不會受任何負面影響︰</AlertDeathrestCompleteDesc>
 
 </LanguageData>
