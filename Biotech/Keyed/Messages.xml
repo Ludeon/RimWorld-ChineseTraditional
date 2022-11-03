@@ -105,7 +105,9 @@
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>{PAWN_nameDef}的大腦被次核心強性掃瞄器破壞了。</MessagePawnKilledRipscanner> 
+  <MessagePawnKilledRipscanner>{PAWN_nameDef}的大腦被次核心強性掃瞄器破壞了。</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef}的弱性掃瞄完成了。</MessageSubcoreSoftscannerCompleted><!-- text_todo -->
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>無法復活乾枯的屍體。</MessageCannotResurrectDessicatedCorpse>
@@ -140,5 +142,7 @@
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>注意︰{0_labelShort}被徵召時手持嬰兒。</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}把{BABY_nameDef}帶到溫度較安全的場所。</MessageTakingBabyToSafeTemperature><!-- text_todo -->
 
 </LanguageData>
