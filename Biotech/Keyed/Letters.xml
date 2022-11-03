@@ -169,28 +169,28 @@
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
   <XenogermOrderedImplantedMedicineNeeded>\n\n你沒有足夠藥品來移植異種細胞。須待你得到{MEDICNENEEDED}藥品才能進行移植。</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
-  <LetterLabelInvoluntaryDeathrest>TODO</LetterLabelInvoluntaryDeathrest>
+  <LetterLabelInvoluntaryDeathrest>昏倒絕息</LetterLabelInvoluntaryDeathrest>
   <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>TODO</LetterTextInvoluntaryDeathrest>
+  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef}陷入絕息狀態。</LetterTextInvoluntaryDeathrest>
   <!-- EN: Lethal damage taken. -->
-  <DeathrestLethalDamage>TODO</DeathrestLethalDamage>
+  <DeathrestLethalDamage>受到致命傷害。</DeathrestLethalDamage>
 
   <!-- EN: Xenogerm implantation -->
-  <LetterLabelSanguophageWaitingToReimplant>TODO</LetterLabelSanguophageWaitingToReimplant>
+  <LetterLabelSanguophageWaitingToReimplant>移植異種細胞</LetterLabelSanguophageWaitingToReimplant>
   <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
-  <LetterTextSanguophageWaitingToReimplant>TODO</LetterTextSanguophageWaitingToReimplant>
+  <LetterTextSanguophageWaitingToReimplant>作為感謝你讓{PAWN_objective}和{PAWN_possessive}噬血者同伴在此會面的回報，{PAWN_nameDef}想把{PAWN_possessive}異種細胞與你的一名殖民者分享。此舉會把你的殖民者變成噬向者。\n\n若要接受，選取一名殖民者並右鍵點擊在{PAWN_nameDef}身上。\n\n如果{DURATION}內沒有殖民者接受此回禮，噬血者將會徑自離開。</LetterTextSanguophageWaitingToReimplant>
 
   <!-- EN: Genes reimplanted -->
-  <LetterLabelGenesImplanted>TODO</LetterLabelGenesImplanted>
+  <LetterLabelGenesImplanted>基因移植了</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>TODO</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef}已把{CASTER_possessive}異種細胞移植到{TARGET_nameDef}身上，把所有異種基因傳給了{TARGET_objective}。\n\n{TARGET_nameDef}將會在未來{COMADURATION}陷入異種細胞發作昏迷，讓{TARGET_possessive}身體適應如此轉變。\n\n{CASTER_nameDef}則會在未來{SHOCKDURATION}陷入基因缺失休克。{CASTER_possessive}基因亦需要時間再生。如果{CASTER_nameDef}在{CASTER_possessive}基因再生前再次把{CASTER_possessive}基因移植給他人，{CASTER_pronoun}就會死亡。</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
-  <RefugeePodCrashBaby>TODO</RefugeePodCrashBaby>
+  <RefugeePodCrashBaby>來自{PAWN_factionName}的嬰兒，{PAWN_nameDef}，所乘坐的運輸艙在附近墜落了。\n\n你可以按下「收養」指令選擇收養{PAWN_objective}，或無視{PAWN_objective}。</RefugeePodCrashBaby>
   <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
-  <RefugeePodCrashBabyHasParent>TODO</RefugeePodCrashBabyHasParent>
+  <RefugeePodCrashBabyHasParent>{PAWN_nameDef}的父母遺體也在運輸艙中。</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>TODO</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>本能驅使下，{BONDPAWN_nameDef}與{OTHERPAWN_nameDef}建立了心靈羈絆。{OTHERPAWN_nameDef}的精神因為與{BONDPAWN_nameDef}的羈絆而有所提升，但如果他們分隔兩地，雙方都會陷入精神壓力。甚至如果一方死亡，另一方就會發瘋。</LetterPsychicBondCreated>
 
 </LanguageData>
