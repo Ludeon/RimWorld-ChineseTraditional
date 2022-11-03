@@ -2,133 +2,133 @@
 <LanguageData>
 
   <!-- EN: Dormant self-charging -->
-  <SelfShutdown>TODO</SelfShutdown>
+  <SelfShutdown>休眠自充中</SelfShutdown>
   <!-- EN: Carry to recharger -->
-  <CarryToRecharger>TODO</CarryToRecharger>
+  <CarryToRecharger>帶到充電站</CarryToRecharger>
   <!-- EN: Must be carried to recharger. -->
-  <MustBeCarriedToRecharger>TODO</MustBeCarriedToRecharger>
+  <MustBeCarriedToRecharger>必須被帶到充電站。</MustBeCarriedToRecharger>
   <!-- EN: Danger -->
-  <Danger>TODO</Danger>
+  <Danger>危險</Danger>
   <!-- EN: {0} damage -->
-  <DamageType>TODO</DamageType>
+  <DamageType>{0}傷害</DamageType>
   <!-- EN: Contained {0_labelPlural} -->
-  <ContainedThings>TODO</ContainedThings>
+  <ContainedThings>載有{0_labelPlural}</ContainedThings>
   <!-- EN: Time until next atomization -->
-  <DurationUntilNextAtomization>TODO</DurationUntilNextAtomization>
+  <DurationUntilNextAtomization>下次原子化時間</DurationUntilNextAtomization>
   <!-- EN: Finishes in -->
-  <FinishesIn>TODO</FinishesIn>
+  <FinishesIn>完成於</FinishesIn>
   <!-- EN: with -->
-  <WithLower>TODO</WithLower>
+  <WithLower>與</WithLower>
   <!-- EN: tiles -->
-  <TilesLower>TODO</TilesLower>
+  <TilesLower>格</TilesLower>
   <!-- EN: 1 mech -->
-  <CaravanMech>TODO</CaravanMech>
+  <CaravanMech>1機械族</CaravanMech>
   <!-- EN: {0} mechs -->
-  <CaravanMechsCount>TODO</CaravanMechsCount>
+  <CaravanMechsCount>{0}機械族</CaravanMechsCount>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
-  <ReportRemovingMechlink>TODO</ReportRemovingMechlink>
+  <ReportRemovingMechlink>移除{0}</ReportRemovingMechlink>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
-  <PollutionClear>TODO</PollutionClear>
+  <PollutionClear>無污染</PollutionClear>
 
   <!-- Mechanitor -->
   <!-- EN: Overseer -->
-  <Overseer>TODO</Overseer>
+  <Overseer>監督者</Overseer>
   <!-- EN: None (not under control) -->
-  <OverseerNone>TODO</OverseerNone>
+  <OverseerNone>無(未受操控)</OverseerNone>
   <!-- EN: May go feral at any moment -->
-  <MayGoFeral>TODO</MayGoFeral>
+  <MayGoFeral>隨時都會失控</MayGoFeral>
   <!-- EN: Bandwidth -->
-  <Bandwidth>TODO</Bandwidth>
+  <Bandwidth>頻寬</Bandwidth>
   <!-- EN: bandwidth -->
-  <BandwidthLower>TODO</BandwidthLower>
+  <BandwidthLower>頻寬 </BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>TODO</BandwidthGizmoTip>
+  <BandwidthGizmoTip>御機使只能有足夠頻寬時才能監督機械族。每種機械族都需要不同量的頻寬。\n\n建造頻道節點並把御機使與之同調，或裝備特殊的御機使服裝。</BandwidthGizmoTip>
   <!-- EN: Control group -->
-  <ControlGroup>TODO</ControlGroup>
+  <ControlGroup>操控組</ControlGroup>
   <!-- EN: Current mode -->
-  <CurrentMechWorkMode>TODO</CurrentMechWorkMode>
+  <CurrentMechWorkMode>目前模式</CurrentMechWorkMode>
   <!-- EN: Assigned mechs -->
-  <AssignedMechs>TODO</AssignedMechs>
+  <AssignedMechs>分配的機械族</AssignedMechs>
   <!-- EN: Tuned to -->
-  <BandNodeTunedTo>TODO</BandNodeTunedTo>
+  <BandNodeTunedTo>同調至</BandNodeTunedTo>
   <!-- EN: Tune to -->
-  <BandNodeTuneTo>TODO</BandNodeTuneTo>
+  <BandNodeTuneTo>同調至</BandNodeTuneTo>
   <!-- EN: Tuning to -->
-  <BandNodeTuningTo>TODO</BandNodeTuningTo>
+  <BandNodeTuningTo>同調至</BandNodeTuningTo>
   <!-- EN: Retune -->
-  <BandNodeRetuneTo>TODO</BandNodeRetuneTo>
+  <BandNodeRetuneTo>重新同調</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>TODO</BandNodeTuningDesc>
+  <BandNodeTuningDesc>把此頻道節點與一名御機使同調。需要{0}才能完成。</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>TODO</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>把此頻道節點重新同調至另一名御機使。需要{0}才能完成。</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
-  <DropThingBandwidthApparel>TODO</DropThingBandwidthApparel>
+  <DropThingBandwidthApparel>移除{0}會把{1_labelShort}的頻寬由{2}降為{3}。即是以下機械族將不受操控</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
-  <NoMechs>TODO</NoMechs>
+  <NoMechs>無機械族</NoMechs>
   <!-- EN: Group -->
-  <Group>TODO</Group>
+  <Group>組</Group>
   <!-- EN: Groups -->
-  <Groups>TODO</Groups>
+  <Groups>組</Groups>
   <!-- EN: Loading mech gestation resources -->
-  <LoadingMechGestator>TODO</LoadingMechGestator>
+  <LoadingMechGestator>填充機械培養資源</LoadingMechGestator>
   <!-- EN: Initiating mech gestation cycle -->
-  <InitMechGestationCycle>TODO</InitMechGestationCycle>
+  <InitMechGestationCycle>啟動機械培養</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
-  <InitMechBirth>TODO</InitMechBirth>
+  <InitMechBirth>啟動機械出生</InitMechBirth>
   <!-- EN: Mech energy -->
-  <MechEnergy>TODO</MechEnergy>
+  <MechEnergy>機械能量</MechEnergy>
   <!-- EN: Energy -->
-  <Energy>TODO</Energy>
+  <Energy>能量</Energy>
   <!-- EN: energy -->
-  <EnergyLower>TODO</EnergyLower>
+  <EnergyLower>能量</EnergyLower>
   <!-- EN: Bandwidth usage -->
-  <BandwidthUsage>TODO</BandwidthUsage>
+  <BandwidthUsage>佔用頻寬</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
-  <MechGestationBandwidthUsed>TODO</MechGestationBandwidthUsed>
+  <MechGestationBandwidthUsed>機械培養頻寬</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
-  <CannotSummon>TODO</CannotSummon>
+  <CannotSummon>無法召喚{0}劫難</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
-  <ReadyToSummonThreat>TODO</ReadyToSummonThreat>
+  <ReadyToSummonThreat>準備召喚{0}劫難</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
-  <Summon>TODO</Summon>
+  <Summon>召喚{0}劫難</Summon>
   <!-- EN: No reachable {0} -->
-  <NoReachableBossgroupCaller>TODO</NoReachableBossgroupCaller>
+  <NoReachableBossgroupCaller>沒有可到達的{0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
-  <NoReservableBossgroupCaller>TODO</NoReservableBossgroupCaller>
+  <NoReservableBossgroupCaller>沒有可用的{0}</NoReservableBossgroupCaller>
   <!-- EN: No powered {0} -->
-  <NoPoweredBossgroupCaller>TODO</NoPoweredBossgroupCaller>
+  <NoPoweredBossgroupCaller>沒有運作中的{0}</NoPoweredBossgroupCaller>
   <!-- EN: already used -->
-  <AlreadyUsed>TODO</AlreadyUsed>
+  <AlreadyUsed>正在使用</AlreadyUsed>
   <!-- EN: Gestating -->
-  <Gestating>TODO</Gestating>
+  <Gestating>培養中</Gestating>
   <!-- EN: Escorting {TARGET_labelShort}. -->
-  <Escorting>TODO</Escorting>
+  <Escorting>為{TARGET_labelShort}護衛。</Escorting>
   <!-- EN: Worker -->
-  <Worker>TODO</Worker>
+  <Worker>勞工</Worker>
   <!-- EN: Waiting for -->
-  <WaitingFor>TODO</WaitingFor>
+  <WaitingFor>等待</WaitingFor>
   <!-- EN: Uncontrolled -->
-  <Uncontrolled>TODO</Uncontrolled>
+  <Uncontrolled>斷線</Uncontrolled>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
-  <Hemogen>TODO</Hemogen>
+  <Hemogen>血原</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>TODO</HemogenDesc>
+  <HemogenDesc>血原是一種從人類鮮血提取的生物能源。一般人類能藉由內在平衡自然地產生和消耗血原。一些異種人把它作為驅動特定能力的燃料，而有些異種人而且它才能生存。</HemogenDesc>
   <!-- EN: deathrest capacity -->
-  <DeathrestCapacity>TODO</DeathrestCapacity>
+  <DeathrestCapacity>絕息容量</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>TODO</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>決定此人絕息時能連接的絕息建築上限。每個絕息建築都能賦予不同效果，因此能連接越多越好。\n\n使用絕息容量血清可以增加絕息容量。可以從商人購買而得。</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>TODO</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef}連接到{CURRENT}/{MAX}(上限)個絕息建築。</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
-  <Wake>TODO</Wake>
+  <Wake>喚醒</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>TODO</WakeDesc>
+  <WakeDesc>從絕息中醒來。\n\n{PAWN_nameDef}已絕息了{DURATION}。</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
   <WakeExtraDesc_Exhaustion>TODO</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
