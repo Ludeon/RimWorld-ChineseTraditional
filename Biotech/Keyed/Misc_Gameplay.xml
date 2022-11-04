@@ -14,7 +14,7 @@
   <!-- EN: Contained {0_labelPlural} -->
   <ContainedThings>載有{0_labelPlural}</ContainedThings>
   <!-- EN: Time until next atomization -->
-  <DurationUntilNextAtomization>下次原子化時間</DurationUntilNextAtomization>
+  <DurationUntilNextAtomization>距離下次原子化還有</DurationUntilNextAtomization>
   <!-- EN: Finishes in -->
   <FinishesIn>完成於</FinishesIn>
   <!-- EN: with -->
@@ -348,419 +348,419 @@
   <!-- EN: Order implantation -->
   <ImplantXenogerm>預約移植</ImplantXenogerm>
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
-  <ImplantXenogermDesc>TODO</ImplantXenogermDesc>
+  <ImplantXenogermDesc>在人身上移植後會覆蓋他們一部份的遺傳密碼。\n\n這是一個手術，因此需要一名醫生、醫療床和{MEDICINEAMOUNT}藥品。</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
-  <ImplantXenogermWarningDesc>TODO</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningDesc>移植異種細胞會讓{PAWN_nameDef}因異種細胞融入其體內而陷入昏迷。一般這場昏迷會持續{COMADURATION}。昏迷時間的長度取決於醫生的醫療技能和你的醫療設備的品質。</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>TODO</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>而且，移植異種細胞會覆蓋現有的異種基因。{PAWN_nameDef}現有的異種型為「{XENOTYPE}」。{PAWN_pronoun}擁有以下異種基因︰\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
-  <ImplantXenogermWarningNewMetabolism>TODO</ImplantXenogermWarningNewMetabolism>
+  <ImplantXenogermWarningNewMetabolism>移植過後，{PAWN_nameDef}的新陳代謝會變成{MET}而食物消耗倍率變成{CONSUMPTION}。</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
-  <WouldYouLikeToContinue>TODO</WouldYouLikeToContinue>
+  <WouldYouLikeToContinue>你確定要繼續嗎?</WouldYouLikeToContinue>
   <!-- EN: Cancel implanting -->
-  <CancelImplanting>TODO</CancelImplanting>
+  <CancelImplanting>取消移植</CancelImplanting>
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
-  <CancelImplantingDesc>TODO</CancelImplantingDesc>
+  <CancelImplantingDesc>取消為{PAWN_nameDef}移植此異種細胞。</CancelImplantingDesc>
   <!-- EN: Xenotype -->
-  <Xenotype>TODO</Xenotype>
+  <Xenotype>異種型</Xenotype>
   <!-- EN: unique -->
-  <Unique>TODO</Unique>
+  <Unique>獨特</Unique>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
-  <UniqueXenotypeDesc>TODO</UniqueXenotypeDesc>
+  <UniqueXenotypeDesc>獨特的人類變種，其擁有的基因未能被分類至任何已知的異種人。</UniqueXenotypeDesc>
   <!-- EN: Factor for genetic metabolism -->
-  <FactorForMetabolism>TODO</FactorForMetabolism>
+  <FactorForMetabolism>基因代謝系數</FactorForMetabolism>
   <!-- EN: Progress -->
-  <Progress>TODO</Progress>
+  <Progress>進度</Progress>
   <!-- EN: In sunlight -->
-  <InSunlight>TODO</InSunlight>
+  <InSunlight>陽光下</InSunlight>
   <!-- EN: {0_labelShort} is exposed to the sky. -->
-  <ThingIsSkyExposed>TODO</ThingIsSkyExposed>
+  <ThingIsSkyExposed>{0_labelShort}曝露在天空下。</ThingIsSkyExposed>
   <!-- EN: Insert person -->
-  <InsertPerson>TODO</InsertPerson>
+  <InsertPerson>安置人員</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
-  <InsertPersonGeneExtractorDesc>TODO</InsertPersonGeneExtractorDesc>
+  <InsertPersonGeneExtractorDesc>安置一名人員進基因抽取器。他們的基因材料會被抽取，並從他們的基因中隨機抽選，製成基因包。\n\n基因抽取是很痛苦且會令本體陷入數天的虛弱與昏昏欲睡。此過程對基因正在再生的人是致命的。</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <ConfirmExtractXenogermWillKill>TODO</ConfirmExtractXenogermWillKill>
+  <ConfirmExtractXenogermWillKill>警告︰{PAWN_nameDef}的基因正在再生。在基因再生時抽取{PAWN_possessive}基因會把{PAWN_objective}殺死。\n\n你確定要繼續嗎?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
-  <GeneExtractionComplete>TODO</GeneExtractionComplete>
+  <GeneExtractionComplete>{PAWN_nameDef}的基因抽取完成了。抽取了</GeneExtractionComplete>
   <!-- EN: Insert xenogerm -->
-  <InsertXenogerm>TODO</InsertXenogerm>
+  <InsertXenogerm>插入異種細胞</InsertXenogerm>
   <!-- EN: Insert a xenogerm to apply during growth. -->
-  <InsertXenogermDesc>TODO</InsertXenogermDesc>
+  <InsertXenogermDesc>在生長時插入異種細胞。</InsertXenogermDesc>
   <!-- EN: Waiting for {PAWN_nameDef}. -->
-  <WaitingForPawn>TODO</WaitingForPawn>
+  <WaitingForPawn>等待{PAWN_nameDef}。</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
-  <ExtractingXenogermFrom>TODO</ExtractingXenogermFrom>
+  <ExtractingXenogermFrom>從{PAWN_nameDef}抽取基因。</ExtractingXenogermFrom>
   <!-- EN: Extraction paused: No power -->
-  <ExtractionPausedNoPower>TODO</ExtractionPausedNoPower>
+  <ExtractionPausedNoPower>暫停基因抽取︰未通電</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
-  <LastIngestedDurationAgo>TODO</LastIngestedDurationAgo>
+  <LastIngestedDurationAgo>最後攝取{CHEMICAL_label}是在{DURATION}前。</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
-  <NamedXenogerm>TODO</NamedXenogerm>
+  <NamedXenogerm>{NAME}異種細胞</NamedXenogerm>
   <!-- EN: Inserted {0} -->
-  <InsertedThing>TODO</InsertedThing>
+  <InsertedThing>插入{0}</InsertedThing>
   <!-- EN: Assembly paused -->
-  <AssemblyPaused>TODO</AssemblyPaused>
+  <AssemblyPaused>暫停組合</AssemblyPaused>
   <!-- EN: Required gene bank unpowered -->
-  <GenebankUnpowered>TODO</GenebankUnpowered>
+  <GenebankUnpowered>所需的基因庫未通電</GenebankUnpowered>
   <!-- EN: deathless -->
-  <Deathless>TODO</Deathless>
+  <Deathless>不死</Deathless>
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
-  <GeneDefChemicalNeedDurationDesc>TODO</GeneDefChemicalNeedDurationDesc>
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef}需要定期攝取{0}才能生存。若{DEFICIENCYDURATION}沒有{0}，{PAWN_pronoun}將會患上{0}缺乏症。{COMADURATION}後，{PAWN_pronoun}會陷入昏迷。{DEATHDURATION}後，{PAWN_pronoun}會喪命。</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
-  <ChemicalDependency>TODO</ChemicalDependency>
+  <ChemicalDependency>{CHEMICAL_label}依賴</ChemicalDependency>
   <!-- EN: Xenogerm -->
-  <Xenogerm>TODO</Xenogerm>
+  <Xenogerm>異種細胞</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>TODO</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>只要{PAWN_nameDef}身負致命傷，就會持續絕息。</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepRegeneratingLethalInjuries>TODO</PawnWillKeepRegeneratingLethalInjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>只要{PAWN_nameDef}身負致命傷，就會持續陷入再生昏迷。</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
-  <DeathrestPaused>TODO</DeathrestPaused>
+  <DeathrestPaused>絕息停止了</DeathrestPaused>
   <!-- EN: Lethal injuries -->
-  <LethalInjuries>TODO</LethalInjuries>
+  <LethalInjuries>致命傷</LethalInjuries>
   <!-- EN: deathrest -->
-  <Deathrest>TODO</Deathrest>
+  <Deathrest>絕息</Deathrest>
   <!-- EN: Buildings -->
-  <Buildings>TODO</Buildings>
+  <Buildings>建築</Buildings>
   <!-- EN: capacity -->
-  <Capacity>TODO</Capacity>
+  <Capacity>容量</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
-  <MissingGeneRomanceChance>TODO</MissingGeneRomanceChance>
+  <MissingGeneRomanceChance>非{GENE}的約會機率</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
-  <NotInGeneBank>TODO</NotInGeneBank>
+  <NotInGeneBank>不在基因庫中</NotInGeneBank>
 
   <!-- Child birth -->
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
-  <ChildBirthAlwaysHealthy_Desc>TODO</ChildBirthAlwaysHealthy_Desc>
+  <ChildBirthAlwaysHealthy_Desc>聚集起來協助產婦分娩。醫生能負責接生。</ChildBirthAlwaysHealthy_Desc>
   <!-- EN: until the baby is born -->
-  <UntilBabyIsBorn>TODO</UntilBabyIsBorn>
+  <UntilBabyIsBorn>直至嬰兒出生</UntilBabyIsBorn>
 
   <!-- EN: Children want to learn from different activities at different times. -->
-  <LearningDesireTooltip>TODO</LearningDesireTooltip>
+  <LearningDesireTooltip>兒童在不同時候會想從不同的活動中學習。</LearningDesireTooltip>
   <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>TODO</LearningDesireTooltip_CurrentDesire>
+  <LearningDesireTooltip_CurrentDesire>{0_nameDef}目前的學習目標︰</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
-  <DevelopmentHealthGizmoTooltip>TODO</DevelopmentHealthGizmoTooltip>
+  <DevelopmentHealthGizmoTooltip>發展狀況是從上次生日起計，兒童的平均學習需求滿足量。\n\n發展狀況更高的兒童在成長時刻中會有更多的選擇，並能獲取更多在技能熱情。</DevelopmentHealthGizmoTooltip>
 
   <!-- EN: Must not be placed close to another {0_label} -->
-  <MustNotBePlacedCloseToAnother>TODO</MustNotBePlacedCloseToAnother>
+  <MustNotBePlacedCloseToAnother>不可放在其他{0_label}旁邊</MustNotBePlacedCloseToAnother>
   <!-- EN: Next terrain pollution in -->
-  <PollutingTerrainProgress>TODO</PollutingTerrainProgress>
+  <PollutingTerrainProgress>下一次地帶污染在</PollutingTerrainProgress>
   <!-- EN: Poisoned {0} -->
-  <PoisonedTerrain>TODO</PoisonedTerrain>
+  <PoisonedTerrain>有毒的{0}</PoisonedTerrain>
   <!-- EN: Assign to control group {0} -->
-  <AssignMechToControlGroup>TODO</AssignMechToControlGroup>
+  <AssignMechToControlGroup>分配到操控組{0}</AssignMechToControlGroup>
   <!-- EN: Fall per day -->
-  <CurrentMechEnergyFallPerDay>TODO</CurrentMechEnergyFallPerDay>
+  <CurrentMechEnergyFallPerDay>每天消耗量</CurrentMechEnergyFallPerDay>
   <!-- EN: Cannot assign to control group {0} -->
-  <CannotAssignMechToControlGroup>TODO</CannotAssignMechToControlGroup>
+  <CannotAssignMechToControlGroup>無法分配至操控組{0}</CannotAssignMechToControlGroup>
   <!-- EN: Already assigned -->
-  <AssignMechAlreadyAssigned>TODO</AssignMechAlreadyAssigned>
+  <AssignMechAlreadyAssigned>已分配</AssignMechAlreadyAssigned>
 
   <!-- Lactation -->
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
-  <LactatingAddedNutritionPerDay>TODO</LactatingAddedNutritionPerDay>
+  <LactatingAddedNutritionPerDay>每天需要額外{0}營養值來泌乳(根據目前飢餓水平，泌乳速度是{1_percentage})。</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
-  <LactatingStoppedBecauseFull>TODO</LactatingStoppedBecauseFull>
+  <LactatingStoppedBecauseFull>暫停泌乳，因為母乳存量已達100%</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
-  <LactatingStoppedBecauseHungry>TODO</LactatingStoppedBecauseHungry>
+  <LactatingStoppedBecauseHungry>因為營養不良而暫停泌乳。</LactatingStoppedBecauseHungry>
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
-  <CurrentGestationCycle>TODO</CurrentGestationCycle>
+  <CurrentGestationCycle>目前培養</CurrentGestationCycle>
   <!-- EN: Gestation cycles remaining -->
-  <RemainingGestationCycles>TODO</RemainingGestationCycles>
+  <RemainingGestationCycles>剩餘培養時間</RemainingGestationCycles>
   <!-- EN: Gestation cycles -->
-  <GestationCycles>TODO</GestationCycles>
+  <GestationCycles>培養</GestationCycles>
   <!-- EN: Gestating {0} -->
-  <GestatingMech>TODO</GestatingMech>
+  <GestatingMech>培養{0}</GestatingMech>
   <!-- EN: Gestated {0} -->
-  <GestatedMech>TODO</GestatedMech>
+  <GestatedMech>培養{0}</GestatedMech>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
-  <GestatedMechRequiresMechanitor>TODO</GestatedMechRequiresMechanitor>
+  <GestatedMechRequiresMechanitor>需要{PAWN_nameDef}來完成</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
-  <GestationComplete>TODO</GestationComplete>
+  <GestationComplete>培養完成</GestationComplete>
   <!-- EN: Resurrecting {0} -->
-  <ResurrectingMech>TODO</ResurrectingMech>
+  <ResurrectingMech>復活{0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
-  <ResurrectedMech>TODO</ResurrectedMech>
+  <ResurrectedMech>復活{0}</ResurrectedMech>
 
   <!-- Carrier -->
   <!-- EN: Release {0} -->
-  <MechCarrierRelease>TODO</MechCarrierRelease>
+  <MechCarrierRelease>釋放{0}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
-  <MechCarrierDesc>TODO</MechCarrierDesc>
+  <MechCarrierDesc>釋放多達{0}個{1}的兵群。每個{2}需要{3}個{4}來製造。如果母體被破壞，所有連著的{1}也會跟著死亡。{1}無法充電，當他們電力耗盡時就會死亡。</MechCarrierDesc>
   <!-- EN: Not enough resources -->
-  <MechCarrierNotEnoughResources>TODO</MechCarrierNotEnoughResources>
+  <MechCarrierNotEnoughResources>資源不足</MechCarrierNotEnoughResources>
   <!-- EN: Autofill -->
-  <MechCarrierAutofillResources>TODO</MechCarrierAutofillResources>
+  <MechCarrierAutofillResources>自動裝填</MechCarrierAutofillResources>
   <!-- EN: Click to set the desired autofill amount. -->
-  <MechCarrierClickToSetAutofillAmount>TODO</MechCarrierClickToSetAutofillAmount>
+  <MechCarrierClickToSetAutofillAmount>點擊設置自動裝填的量。</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
-  <MechCarrierAutofillDesc>TODO</MechCarrierAutofillDesc>
+  <MechCarrierAutofillDesc>此自動裝填量決定你的殖民者會為此{0}裝填的資源上限。這些資源用於製造{1}。</MechCarrierAutofillDesc>
 
   <!-- Mech power cell -->
   <!-- EN: Power cell -->
-  <MechPowerCell>TODO</MechPowerCell>
+  <MechPowerCell>電池</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
-  <MechPowerCellTip>TODO</MechPowerCellTip>
+  <MechPowerCellTip>機械戰灰有著一次性的電池。當電力耗盡，他們就會死亡。</MechPowerCellTip>
   
 
   <!-- Bossgroup -->
   <!-- EN: available in {0}. -->
-  <BossgroupAvailableIn>TODO</BossgroupAvailableIn>
+  <BossgroupAvailableIn>在{0}後可用。</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
-  <RequiresMechanitor>TODO</RequiresMechanitor>
+  <RequiresMechanitor>需要御機使</RequiresMechanitor>
 
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
-  <AbilityDisabledNoHemogenGene>TODO</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogenGene>{0_labelShort}並非血原性人士。</AbilityDisabledNoHemogenGene>
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
-  <AbilityDisabledNoHemogen>TODO</AbilityDisabledNoHemogen>
+  <AbilityDisabledNoHemogen>{0_labelShort}血原不足。</AbilityDisabledNoHemogen>
   <!-- EN: children cannot do this. -->
-  <AbilityStartRitualDisabledChild>TODO</AbilityStartRitualDisabledChild>
+  <AbilityStartRitualDisabledChild>兒童無法進行。</AbilityStartRitualDisabledChild>
   <!-- EN: need a {0}. -->
-  <AbilityStartRitualNoMembersOfIdeo>TODO</AbilityStartRitualNoMembersOfIdeo>
+  <AbilityStartRitualNoMembersOfIdeo>需要{0}</AbilityStartRitualNoMembersOfIdeo>
   <!-- EN: Hemogen cost -->
-  <AbilityHemogenCost>TODO</AbilityHemogenCost>
+  <AbilityHemogenCost>血原消耗</AbilityHemogenCost>
   <!-- EN: Base hemogen gain -->
-  <AbilityHemogenGain>TODO</AbilityHemogenGain>
+  <AbilityHemogenGain>基礎血原所得</AbilityHemogenGain>
   <!-- EN: Smokepop charged -->
-  <AbilityMechSmokepopCharged>TODO</AbilityMechSmokepopCharged>
+  <AbilityMechSmokepopCharged>煙霧彈預備</AbilityMechSmokepopCharged>
   <!-- EN: Smokepop recharged in {0} -->
-  <AbilityMechSmokepopRecharging>TODO</AbilityMechSmokepopRecharging>
+  <AbilityMechSmokepopRecharging>煙霧彈需要{0}準備</AbilityMechSmokepopRecharging>
   <!-- EN: Firefoam pop charged -->
-  <AbilityMechFirefoampopCharged>TODO</AbilityMechFirefoampopCharged>
+  <AbilityMechFirefoampopCharged>消防泡沫預備</AbilityMechFirefoampopCharged>
   <!-- EN: Firefoam pop recharged in {0} -->
-  <AbilityMechFirefoampopRecharging>TODO</AbilityMechFirefoampopRecharging>
+  <AbilityMechFirefoampopRecharging>消防泡沫需要{0}準備</AbilityMechFirefoampopRecharging>
 
   <!-- EN: Polluted {0} -->
-  <PollutedTerrain>TODO</PollutedTerrain>
+  <PollutedTerrain>受污染{0}</PollutedTerrain>
 
   <!-- Growth vat -->
   <!-- EN: Biostarvation -->
-  <Biostarvation>TODO</Biostarvation>
+  <Biostarvation>生理饑餓</Biostarvation>
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
-  <BiostarvationExplanation>TODO</BiostarvationExplanation>
+  <BiostarvationExplanation>一個或以上的發育艙正陷入生理饑餓，因為營養或電力不足。\n\n如果生理饑餓達到100%，艙內的人會死亡。</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
-  <InsertPersonGrowthVatDesc>TODO</InsertPersonGrowthVatDesc>
+  <InsertPersonGrowthVatDesc>把一個人放進發育艙。他們會以20倍速度成長。</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>TODO</InsertEmbryoGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>把一個胚胎植入發育艙。18天的培養後，一個完全成型的嬰兒會在艙內出現，希望健康。</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
-  <ImplantEmbryo>TODO</ImplantEmbryo>
+  <ImplantEmbryo>放入胚胎</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
-  <CannotInsertEmbryo>TODO</CannotInsertEmbryo>
+  <CannotInsertEmbryo>無法放入胚胎</CannotInsertEmbryo>
   <!-- EN: Already contains embryo. -->
-  <EmbryoAlreadyInside>TODO</EmbryoAlreadyInside>
+  <EmbryoAlreadyInside>已載有胚胎。</EmbryoAlreadyInside>
   <!-- EN: No embryos -->
-  <ImplantNoEmbryos>TODO</ImplantNoEmbryos>
+  <ImplantNoEmbryos>沒有胚胎</ImplantNoEmbryos>
   <!-- EN: Time until birth -->
-  <EmbryoTimeUntilBirth>TODO</EmbryoTimeUntilBirth>
+  <EmbryoTimeUntilBirth>距離出生還有</EmbryoTimeUntilBirth>
   <!-- EN: Birth quality -->
-  <EmbryoBirthQuality>TODO</EmbryoBirthQuality>
+  <EmbryoBirthQuality>出生品質</EmbryoBirthQuality>
   <!-- EN: Embryo selected -->
-  <EmbryoSelected>TODO</EmbryoSelected>
+  <EmbryoSelected>選取的胚胎</EmbryoSelected>
   <!-- EN: Person selected -->
-  <PersonSelected>TODO</PersonSelected>
+  <PersonSelected>選取的人</PersonSelected>
   <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
-  <NoPawnsCanEnterGrowthVat>TODO</NoPawnsCanEnterGrowthVat>
+  <NoPawnsCanEnterGrowthVat>沒有非生理饑餓的適齡人員。要進入發育艙，此人必須少於{0}歲並且未陷入生理饑餓。</NoPawnsCanEnterGrowthVat>
   <!-- EN: Aging speed -->
-  <AgingSpeed>TODO</AgingSpeed>
+  <AgingSpeed>成長速度</AgingSpeed>
 
   <!-- Mech charger -->
   <!-- EN: Waste -->
-  <WasteLevel>TODO</WasteLevel>
+  <WasteLevel>廢料</WasteLevel>
 
   <!-- Dissolution -->
   <!-- EN: indoors -->
-  <DissolutionRateIndoors>TODO</DissolutionRateIndoors>
+  <DissolutionRateIndoors>室內</DissolutionRateIndoors>
   <!-- EN: raining -->
-  <DissolutionRain>TODO</DissolutionRain>
+  <DissolutionRain>雨天</DissolutionRain>
   <!-- EN: One wastepack dissolves every {0} -->
-  <DissolvesEvery>TODO</DissolvesEvery>
+  <DissolvesEvery>每{0}就會分解一個廢料袋</DissolvesEvery>
   <!-- EN: Frozen (won't dissolve). -->
-  <DissolutionFrozen>TODO</DissolutionFrozen>
+  <DissolutionFrozen>冷凍(不會分解)(</DissolutionFrozen>
 
   <!-- EN: {0} cells / day -->
-  <CellsPerDay>TODO</CellsPerDay>
+  <CellsPerDay>{0}格/天</CellsPerDay>
 
   <!-- EN: {0} cannot wear clothing for {1} -->
-  <WrongDevelopmentalStageForClothing>TODO</WrongDevelopmentalStageForClothing> 
+  <WrongDevelopmentalStageForClothing>{0}無法穿上{1}</WrongDevelopmentalStageForClothing> 
 
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
-  <SubcoreScannerStart>TODO</SubcoreScannerStart>
+  <SubcoreScannerStart>啟動掃瞄器</SubcoreScannerStart>
   <!-- EN: Produces -->
-  <SubcoreScannerProduces>TODO</SubcoreScannerProduces>
+  <SubcoreScannerProduces>生產</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>TODO</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>一旦{0}填進所需材料，{1}，選取一名殖民者並右鍵點擊{0}或倒下的人來啟動掃瞄器。</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
-  <SubcoreScannerCompletesIn>TODO</SubcoreScannerCompletesIn>
+  <SubcoreScannerCompletesIn>完成於</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
-  <SubcoreScannerWaitingForOccupant>TODO</SubcoreScannerWaitingForOccupant>
+  <SubcoreScannerWaitingForOccupant>等待使用者</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
-  <SubcoreScannerWaitingForIngredients>TODO</SubcoreScannerWaitingForIngredients>
+  <SubcoreScannerWaitingForIngredients>等待材料</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
+  <SubcoreScannerWaitingForIngredientsDesc>以下材料必須先裝填</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
   <!-- EN: Has {0} -->
-  <SubcoreScannerPawnHasSickness>TODO</SubcoreScannerPawnHasSickness>
+  <SubcoreScannerPawnHasSickness>患有{0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
-  <SubcoreScannerBabyNotAllowed>TODO</SubcoreScannerBabyNotAllowed>
+  <SubcoreScannerBabyNotAllowed>不可是嬰兒。</SubcoreScannerBabyNotAllowed>
   <!-- EN: Insert a person into the {0}. -->
-  <InsertPersonSubcoreScannerDesc>TODO</InsertPersonSubcoreScannerDesc>
+  <InsertPersonSubcoreScannerDesc>把一個人放進{0}。</InsertPersonSubcoreScannerDesc>
 
   <!-- EN: Duration (hours) -->
-  <DurationHours>TODO</DurationHours>
+  <DurationHours>需時(小時)</DurationHours>
 
   <!-- Age -->
   <!-- EN: adult -->
-  <Adult>TODO</Adult>
+  <Adult>成人</Adult>
   <!-- EN: adults -->
-  <Adults>TODO</Adults>
+  <Adults>成人</Adults>
   <!-- EN: child -->
-  <Child>TODO</Child>
+  <Child>兒童</Child>
   <!-- EN: children -->
-  <Children>TODO</Children>
+  <Children>兒童</Children>
   <!-- EN: baby -->
-  <Baby>TODO</Baby>
+  <Baby>嬰兒</Baby>
   <!-- EN: babies -->
-  <Babies>TODO</Babies>
+  <Babies>嬰兒</Babies>
   <!-- EN: person -->
-  <Person>TODO</Person>
+  <Person>人</Person>
   <!-- EN: feral child -->
-  <FeralChild>TODO</FeralChild>
+  <FeralChild>孤兒</FeralChild>
   <!-- EN: Wearable by -->
-  <WearableBy>TODO</WearableBy>
+  <WearableBy>可穿在</WearableBy>
 
   <!-- EN: Xenogerm implantation -->
-  <Reward_ReimplantXenogerm_Label>TODO</Reward_ReimplantXenogerm_Label>
+  <Reward_ReimplantXenogerm_Label>異種細胞移植</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>TODO</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>他們其中一人會基於你的選擇對你的殖民者移植他們的異種細胞，從而把你的殖民者變為他們的同類。你的殖民者仍是你的派系成員且聽從你的命令。</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
-  <MechResurrectionCharges>TODO</MechResurrectionCharges>
+  <MechResurrectionCharges>復活機械需要</MechResurrectionCharges>
 
   <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->
-  <MechStunPulseWarning>TODO</MechStunPulseWarning>
+  <MechStunPulseWarning>機械族死亡時發出暈眩脈衝</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
-  <IsLowEnergySelfShutdown>TODO</IsLowEnergySelfShutdown>
+  <IsLowEnergySelfShutdown>{PAWN_nameDef}因能量過低而自我關機。</IsLowEnergySelfShutdown>
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
-  <ShowPollutionOverlayToggleButton>TODO</ShowPollutionOverlayToggleButton>
+  <ShowPollutionOverlayToggleButton>開關污染度顯示。呈現哪些範圍的地帶受到污染。\n\n接觸受污染地帶會引致中毒，甚至死亡。大多數植物無法在受污染地帶存活。</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
-  <TilePollutionNone>TODO</TilePollutionNone>
+  <TilePollutionNone>無</TilePollutionNone>
   <!-- EN: Light -->
-  <TilePollutionLight>TODO</TilePollutionLight>
+  <TilePollutionLight>輕度</TilePollutionLight>
   <!-- EN: Moderate -->
-  <TilePollutionModerate>TODO</TilePollutionModerate>
+  <TilePollutionModerate>中度</TilePollutionModerate>
   <!-- EN: Extreme -->
-  <TilePollutionExtreme>TODO</TilePollutionExtreme>
+  <TilePollutionExtreme>重度</TilePollutionExtreme>
   <!-- EN: Pollution -->
-  <TilePollution>TODO</TilePollution>
+  <TilePollution>污染</TilePollution>
   <!-- EN: Nearby pollution -->
-  <TilePollutionNearby>TODO</TilePollutionNearby>
+  <TilePollutionNearby>周邊污染</TilePollutionNearby>
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
-  <NearbyPollutionTip>TODO</NearbyPollutionTip>
+  <NearbyPollutionTip>{0}格半徑範圍內的所有地塊污染程度的總和。距離此地塊越遠，污染的影響就會越少︰\n\n{1}\n\n越高的周邊污染，越有可能發生酸性霧霾。</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
-  <NoxiousHazeInterval>TODO</NoxiousHazeInterval>
+  <NoxiousHazeInterval>此地塊平均{0}天會發生一次酸性霧霾。</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
-  <NoxiousHazeNeverOccurring>TODO</NoxiousHazeNeverOccurring>
+  <NoxiousHazeNeverOccurring>此地塊永不發生酸性霧霾。</NoxiousHazeNeverOccurring>
   <!-- EN: tiles away -->
-  <NearbyPollutionTilesAway>TODO</NearbyPollutionTilesAway>
+  <NearbyPollutionTilesAway>距離地塊</NearbyPollutionTilesAway>
   <!-- EN: pollution -->
-  <PollutionLower>TODO</PollutionLower>
+  <PollutionLower>污染</PollutionLower>
   <!-- EN: Cannot absorb pollution: Buildings too close -->
-  <CannotAbsorbPollution>TODO</CannotAbsorbPollution>
+  <CannotAbsorbPollution>無法吸收污染︰建築物過近</CannotAbsorbPollution>
   <!-- EN: Can absorb pollution from nearby terrain -->
-  <CanAbsorbPollution>TODO</CanAbsorbPollution>
+  <CanAbsorbPollution>無法吸收附近地帶的污染</CanAbsorbPollution>
   <!-- EN: Absorbing pollution: Next in {0} -->
-  <AbsorbingPollutionNext>TODO</AbsorbingPollutionNext>
+  <AbsorbingPollutionNext>吸收污染中︰下次在{0}後</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>TODO</TerrainPollutionTip>
+  <TerrainPollutionTip>此地塊的地帶有多污染。\n\n接觸受污染地帶會引致中毒，甚至死亡。大多數植物無法在受污染地帶存活。</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
-  <StudyRequirementTip>TODO</StudyRequirementTip>
+  <StudyRequirementTip>需要研究</StudyRequirementTip>
 
   <!-- Insect -->
   <!-- EN: Trigger radius -->
-  <TriggerRadius>TODO</TriggerRadius>
+  <TriggerRadius>觸發半徑</TriggerRadius>
   <!-- EN: Opening -->
-  <DormantCompOpening>TODO</DormantCompOpening>
+  <DormantCompOpening>打開中</DormantCompOpening>
   
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
-  <SurgeryDisableReasonOvumExtracted>TODO</SurgeryDisableReasonOvumExtracted>
+  <SurgeryDisableReasonOvumExtracted>最近取卵了</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize {0_label} -->
-  <Fertilize>TODO</Fertilize><!-- text_todo -->
+  <Fertilize>對{0_label}授精</Fertilize><!-- text_todo -->
   <!-- EN: Cannot fertilize -->
-  <FertilizeCannotFloatOption>TODO</FertilizeCannotFloatOption>
+  <FertilizeCannotFloatOption>無法授精</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
-  <FertilizeGizmoDescription>TODO</FertilizeGizmoDescription>
+  <FertilizeGizmoDescription>選取一名男性對於卵子授精來製造胚胎。隨後胚胎可以植入母體開始懷孕過程，或放進發育艙中。孩子的生父生母是提供卵子的女性和對之授精的男性。</FertilizeGizmoDescription>
   <!-- EN: Cancel fertilization by {0} -->
-  <FertilizeCancel>TODO</FertilizeCancel>
+  <FertilizeCancel>取消{0}的授精</FertilizeCancel>
   <!-- EN: sterile -->
-  <CannotSterile>TODO</CannotSterile>
+  <CannotSterile>已絕育</CannotSterile>
   <!-- EN: pregnant -->
-  <CannotPregnant>TODO</CannotPregnant>
+  <CannotPregnant>懷孕中</CannotPregnant>
   <!-- EN: must be {0} -->
-  <CannotMustBeAge>TODO</CannotMustBeAge>
+  <CannotMustBeAge>必須為{0}</CannotMustBeAge>
   <!-- EN: already having embryo implanted -->
-  <CannotImplantingOtherEmbryo>TODO</CannotImplantingOtherEmbryo>
+  <CannotImplantingOtherEmbryo>已植入胚胎</CannotImplantingOtherEmbryo>
   <!-- EN: {0} ({1}) -->
-  <DisabledOption>TODO</DisabledOption>
+  <DisabledOption>{0}({1})</DisabledOption>
   <!-- EN: No men can fertilize this ovum. -->
-  <FertilizeDisabledNoMales>TODO</FertilizeDisabledNoMales>
+  <FertilizeDisabledNoMales>沒有可對此卵子授精的男性。</FertilizeDisabledNoMales>
   
   <!-- EN: Implant embryo -->
-  <ImplantLabel>TODO</ImplantLabel>
+  <ImplantLabel>植入胚胎</ImplantLabel>
   <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
-  <ImplantDescription>TODO</ImplantDescription>
+  <ImplantDescription>把此胚胎植入代母體內開始懷孕過程。</ImplantDescription>
   <!-- EN: Insert in growth vat -->
-  <InsertGrowthVatLabel>TODO</InsertGrowthVatLabel>
+  <InsertGrowthVatLabel>放進發育艙中</InsertGrowthVatLabel>
 
   <!-- EN: Cannot implant -->
-  <ImplantCannotFloatOption>TODO</ImplantCannotFloatOption>
+  <ImplantCannotFloatOption>無法植入</ImplantCannotFloatOption>
   <!-- EN: No woman can be a surrogate mother. -->
-  <ImplantDisabledNoWomen>TODO</ImplantDisabledNoWomen>
+  <ImplantDisabledNoWomen>沒有可作為代母的女性。</ImplantDisabledNoWomen>
   <!-- EN: No available growth vats. -->
-  <ImplantDisabledNoVats>TODO</ImplantDisabledNoVats>
+  <ImplantDisabledNoVats>沒有可用的發育艙。</ImplantDisabledNoVats>
   <!-- EN: Implant {0} -->
-  <ImplantSurgeryLabel>TODO</ImplantSurgeryLabel>
+  <ImplantSurgeryLabel>植入{0}</ImplantSurgeryLabel>
   <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
-  <ImplantSurgeryConfirm>TODO</ImplantSurgeryConfirm>
+  <ImplantSurgeryConfirm>在{1}植入{0}的成功率是{2}。\n\n植入成功率取決於代母的生育能力。若代母太老或太年輕也會讓成功率下降。</ImplantSurgeryConfirm>
   <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
-  <ImplantEmbryoCancelVat>TODO</ImplantEmbryoCancelVat>
+  <ImplantEmbryoCancelVat>現在把未形成嬰兒的{0}從發育艙出彈出會將之破壞。\n\n你確定要繼續嗎?</ImplantEmbryoCancelVat>
   <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
-  <ImplantFailedMessage>TODO</ImplantFailedMessage>
+  <ImplantFailedMessage>把{0}植入{1}失敗。</ImplantFailedMessage>
   <!-- EN: Cancel embryo insertion -->
-  <ImplantEmbryoCancel>TODO</ImplantEmbryoCancel>
+  <ImplantEmbryoCancel>取消放置胚胎</ImplantEmbryoCancel>
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
-  <EmbryoEjectedFromGrowthVat>TODO</EmbryoEjectedFromGrowthVat>
+  <EmbryoEjectedFromGrowthVat>{0}被彈出發育艙並破壞了。</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
-  <EmbryoEjectedFromGrowthVatBiostarvation>TODO</EmbryoEjectedFromGrowthVatBiostarvation>
+  <EmbryoEjectedFromGrowthVatBiostarvation>{0}在發育艙中因為生理饑餓而破壞了。</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
-  <IvfPregnancyLetterText>TODO</IvfPregnancyLetterText>
+  <IvfPregnancyLetterText>{0}成功透過胚胎植入成為孕婦!</IvfPregnancyLetterText>
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
-  <IvfPregnancyLetterParents>TODO</IvfPregnancyLetterParents>
+  <IvfPregnancyLetterParents>嬰兒會受{0}和{1}遺傳。</IvfPregnancyLetterParents>
 
   <!-- Projectile interceptor -->
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>TODO</ProjectileInterceptorTip>
+  <ProjectileInterceptorTip>阻截射來的槍彈與榴彈的低角護盾。若受 EMP 攻擊會即時失效。</ProjectileInterceptorTip>
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>TODO</RemoteMechShieldTip>
+  <RemoteMechShieldTip>由御機使投射的一面遙距護盾。它會阻截射來的槍彈與榴彈，但無法應付近戰和火攻。它會阻止裝備者向外射擊，若受 EMP 攻擊會即時失效。</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
-  <MyChildIsHappy>TODO</MyChildIsHappy>
+  <MyChildIsHappy>我的孩子感到高興</MyChildIsHappy>
   <!-- EN: my child is sad -->
-  <MyChildIsSad>TODO</MyChildIsSad> 
+  <MyChildIsSad>我的孩子感到傷心</MyChildIsSad> 
 
 </LanguageData>
