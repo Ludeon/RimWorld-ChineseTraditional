@@ -130,207 +130,207 @@
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
   <WakeDesc>從絕息中醒來。\n\n{PAWN_nameDef}已絕息了{DURATION}。</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>TODO</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef}至少需要絕息{TOTAL}。提早喚醒{PAWN_objective}會導致{PAWN_objective}感到不適，而且{PAWN_pronoun}不會獲得絕息建築的效果。</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
-  <WakeExtraDesc_Safe>TODO</WakeExtraDesc_Safe>
+  <WakeExtraDesc_Safe>{PAWN_nameDef}現在可以安全地醒來。</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
-  <CannotWakeNotEnoughHemogen>TODO</CannotWakeNotEnoughHemogen>
+  <CannotWakeNotEnoughHemogen>無法喚醒。至少要有{0}血原。</CannotWakeNotEnoughHemogen>
   <!-- EN: Auto-wake -->
-  <AutoWake>TODO</AutoWake>
+  <AutoWake>自動甦醒</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>TODO</AutoWakeDesc>
+  <AutoWakeDesc>開啟後，{PAWN_nameDef}會在{PAWN_possessive}絕息完成後自動甦醒。\n\n若關閉，{PAWN_pronoun}會繼續絕息，直至你手動喚醒{PAWN_objective}。</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
-  <IsDeathresting>TODO</IsDeathresting>
+  <IsDeathresting>{PAWN_nameDef}正絕息中。</IsDeathresting>
   <!-- EN: Cannot deathrest -->
-  <CannotDeathrest>TODO</CannotDeathrest>
+  <CannotDeathrest>無法絕息</CannotDeathrest>
   <!-- EN: Start deathrest -->
-  <StartDeathrest>TODO</StartDeathrest>
+  <StartDeathrest>開始絕息</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>TODO</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>絕息要經過{MINDURATION}才能安全完成，但{PAWN_nameDef}只絕息了{CURDURATION}。\n\n現在喚醒{PAWN_nameDef}會干擾{PAWN_possessive}絕息，打亂{PAWN_possessive}新陳代謝，讓{PAWN_objective}陷入不適數天。\n\n你確定要喚醒{PAWN_objective}嗎？</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
-  <Deathresting>TODO</Deathresting>
+  <Deathresting>絕息中</Deathresting>
   <!-- EN: complete -->
-  <Complete>TODO</Complete>
+  <Complete>完成</Complete>
   <!-- EN: can wake safely now. -->
-  <CanWakeSafely>TODO</CanWakeSafely>
+  <CanWakeSafely>現在可以安全地醒來。</CanWakeSafely>
   <!-- EN: Disabled by gene -->
-  <DisabledByGene>TODO</DisabledByGene>
+  <DisabledByGene>受基因禁止</DisabledByGene>
   <!-- EN: {PAWN_nameDef} is in critical condition. -->
-  <WakeDisabledCriticalCondition>TODO</WakeDisabledCriticalCondition>
+  <WakeDisabledCriticalCondition>{PAWN_nameDef}正陷入危殆狀況。</WakeDisabledCriticalCondition>
   <!-- EN: Drain rate -->
-  <DrainRate>TODO</DrainRate>
+  <DrainRate>流失速率</DrainRate>
   <!-- EN: Regeneration rate -->
-  <RegenerationRate>TODO</RegenerationRate>
+  <RegenerationRate>再生速率</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
-  <NextDeathrestNeed>TODO</NextDeathrestNeed>
+  <NextDeathrestNeed>{PAWN_nameDef}應要在{DURATION}內絕息避免陷入虛弱。</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
-  <PawnShouldDeathrestNow>TODO</PawnShouldDeathrestNow>
+  <PawnShouldDeathrestNow>{PAWN_nameDef}應要盡快絕息避免陷入虛弱。</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc><!-- text_todo -->
+  <AutoTakeHemogenDesc>是否讓{PAWN_nameDef}在{PAWN_possessive}血原低於{MIN}時自動攝取血原包。\n\n現在是{ONOFF}。</AutoTakeHemogenDesc><!-- text_todo -->
   <!-- EN: Consume hemogen below -->
-  <ConsumeHemogenBelow>TODO</ConsumeHemogenBelow>
+  <ConsumeHemogenBelow>攝取血原若低於</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
-  <NeverConsumeHemogen>TODO</NeverConsumeHemogen>
+  <NeverConsumeHemogen>永不攝取血原。</NeverConsumeHemogen>
   <!-- EN: Will kill -->
-  <WillKill>TODO</WillKill>
+  <WillKill>會殺死</WillKill>
   <!-- EN: Will cause major blood loss -->
-  <WillCauseSeriousBloodloss>TODO</WillCauseSeriousBloodloss>
+  <WillCauseSeriousBloodloss>會引致嚴重失血</WillCauseSeriousBloodloss>
   <!-- EN: too small -->
-  <TooSmall>TODO</TooSmall>
+  <TooSmall>太小</TooSmall>
 
   <!-- Deathrest buildings -->
   <!-- EN: Bound to -->
-  <BoundTo>TODO</BoundTo>
+  <BoundTo>連接至</BoundTo>
   <!-- EN: Will bind permanently on first use. -->
-  <WillBindOnFirstUse>TODO</WillBindOnFirstUse>
+  <WillBindOnFirstUse>首次使用後將永久綁定。</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
-  <TimeActiveThisDeathrest>TODO</TimeActiveThisDeathrest>
+  <TimeActiveThisDeathrest>此絕息經過的時間</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
-  <MinimumNeededToApply>TODO</MinimumNeededToApply>
+  <MinimumNeededToApply>最少需要{0}</MinimumNeededToApply>
   <!-- EN: Cannot deathrest -->
-  <CannotAssignBedCannotDeathrest>TODO</CannotAssignBedCannotDeathrest>
+  <CannotAssignBedCannotDeathrest>無法絕息</CannotAssignBedCannotDeathrest>
   <!-- EN: Already bound to {0_nameDef} -->
-  <CannotAssignAlreadyBound>TODO</CannotAssignAlreadyBound>
+  <CannotAssignAlreadyBound>已連接到{0_nameDef}</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
-  <CannotAssignBedCannotBindToMoreBuildings>TODO</CannotAssignBedCannotBindToMoreBuildings>
+  <CannotAssignBedCannotBindToMoreBuildings>無法綁定更多{BUILDING_labelPlural}</CannotAssignBedCannotBindToMoreBuildings>
 
   <!-- Aptitudes -->
   <!-- EN: aptitude -->
-  <Aptitude>TODO</Aptitude>
+  <Aptitude>天資</Aptitude>
   <!-- EN: aptitudes -->
-  <Aptitudes>TODO</Aptitudes>
+  <Aptitudes>天資</Aptitudes>
   <!-- EN: aptitudes -->
-  <AptitudePlural>TODO</AptitudePlural>
+  <AptitudePlural>天資</AptitudePlural>
   <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
-  <AptitudesDesc>TODO</AptitudesDesc>
+  <AptitudesDesc>天資使某人的技能表現比他們實際習得的等級更高或更低。\n\n例如+1的天資代表擁有5級技能的人會呈現出6級的能力。\n\n最終總等級不可高於20級或低於1級。</AptitudesDesc>
   <!-- EN: total -->
-  <Total>TODO</Total>
+  <Total>總計</Total>
   
   <!-- Human pregnancy -->
   <!-- EN: Father -->
-  <FatherTip>TODO</FatherTip>
+  <FatherTip>父親</FatherTip>
   <!-- EN: Genetic mother -->
-  <MotherTip>TODO</MotherTip>
+  <MotherTip>母親</MotherTip>
   <!-- EN: an unoccupied bed -->
-  <RitualTargetChildBirth>TODO</RitualTargetChildBirth>
+  <RitualTargetChildBirth>未被佔用的床</RitualTargetChildBirth>
   <!-- EN: No appropriate bed for giving birth. -->
-  <NoAppropriateBedChildBirth>TODO</NoAppropriateBedChildBirth>
+  <NoAppropriateBedChildBirth>不可作為產床。</NoAppropriateBedChildBirth>
   <!-- EN: No doctor around. -->
-  <NoDoctorChildBirth>TODO</NoDoctorChildBirth>
+  <NoDoctorChildBirth>沒有醫生。</NoDoctorChildBirth>
   <!-- EN: Can't use this bed. -->
-  <CantUseThisBed>TODO</CantUseThisBed>
+  <CantUseThisBed>無法使用此床。</CantUseThisBed>
   <!-- EN: Not in labor. -->
-  <NotInLabor>TODO</NotInLabor>
+  <NotInLabor>不是臨盆狀態。</NotInLabor>
   <!-- EN: labor -->
-  <Labor>TODO</Labor>
+  <Labor>臨盆</Labor>
   <!-- EN: dilation -->
-  <LaborDilation>TODO</LaborDilation>
+  <LaborDilation>擴張</LaborDilation>
   <!-- EN: normal -->
-  <PregnancyApproach_Normal>TODO</PregnancyApproach_Normal>
+  <PregnancyApproach_Normal>普通</PregnancyApproach_Normal>
   <!-- EN: avoid pregnancy -->
-  <PregnancyApproach_AvoidPregnancy>TODO</PregnancyApproach_AvoidPregnancy>
+  <PregnancyApproach_AvoidPregnancy>避孕</PregnancyApproach_AvoidPregnancy>
   <!-- EN: try for baby -->
-  <PregnancyApproach_TryForBaby>TODO</PregnancyApproach_TryForBaby>
+  <PregnancyApproach_TryForBaby>嘗試嬰兒</PregnancyApproach_TryForBaby>
   <!-- EN: pregnancy chance -->
-  <PregnancyChance>TODO</PregnancyChance>
+  <PregnancyChance>懷孕機率</PregnancyChance>
   <!-- EN: Pregnancy approach -->
-  <PregnancyApproach>TODO</PregnancyApproach>
+  <PregnancyApproach>懷孕方法</PregnancyApproach>
   <!-- EN: Click to change pregnancy approach. -->
-  <ClickToChangePregnancyApproach>TODO</ClickToChangePregnancyApproach>
+  <ClickToChangePregnancyApproach>點擊改變懷孕方法。</ClickToChangePregnancyApproach>
   <!-- EN: Pregnancy is not possible -->
-  <PregnancyNotPossible>TODO</PregnancyNotPossible>
+  <PregnancyNotPossible>不可能懷孕</PregnancyNotPossible>
   <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
-  <BirthRitualHealthyBabyChance>TODO</BirthRitualHealthyBabyChance>
+  <BirthRitualHealthyBabyChance>此品質下生出健康嬰兒的機率是{0_percentage}。</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
-  <GivingBirth>TODO</GivingBirth>
+  <GivingBirth>分娩。</GivingBirth>
 
   <!-- Shield comp -->
   <!-- EN: Shield energy -->
-  <ShieldEnergy>TODO</ShieldEnergy>
+  <ShieldEnergy>護盾能量</ShieldEnergy>
   <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>TODO</ShieldTimeToRecovery>
+  <ShieldTimeToRecovery>回復時間</ShieldTimeToRecovery>
 
   <!-- Genes -->
   <!-- EN: genes -->
-  <Genes>TODO</Genes>
+  <Genes>基因</Genes>
   <!-- EN: The genes associated with this xenotype. -->
-  <GenesDesc>TODO</GenesDesc>
+  <GenesDesc>伴隨此異種型的基因</GenesDesc>
   <!-- EN: suppressed -->
-  <Suppressed>TODO</Suppressed>
+  <Suppressed>抑制</Suppressed>
   <!-- EN: active -->
-  <Active>TODO</Active>
+  <Active>有效</Active>
   <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
-  <SuppressedDesc>TODO</SuppressedDesc>
+  <SuppressedDesc>此特性受衝突的強制遺傳特性或基因所抑制。除非所有衝突被移除，否則不會生效。</SuppressedDesc>
   <!-- EN: trait -->
-  <Trait>TODO</Trait>
+  <Trait>特性</Trait>
   <!-- EN: gene -->
-  <Gene>TODO</Gene>
+  <Gene>基因</Gene>
   <!-- EN: Added by gene -->
-  <AddedByGene>TODO</AddedByGene>
+  <AddedByGene>受基因加入</AddedByGene>
   <!-- EN: Eject all -->
-  <EjectAll>TODO</EjectAll>
+  <EjectAll>彈出所有</EjectAll>
   <!-- EN: Drop all contained genepacks onto the ground. -->
-  <EjectAllDesc>TODO</EjectAllDesc>
+  <EjectAllDesc>把所有裝載的基因包丟到地上。</EjectAllDesc>
   <!-- EN: Genepacks stored -->
-  <GenepacksStored>TODO</GenepacksStored>
+  <GenepacksStored>裝載的基因包</GenepacksStored>
   <!-- EN: Forced traits -->
-  <ForcedTraits>TODO</ForcedTraits>
+  <ForcedTraits>強制特性</ForcedTraits>
   <!-- EN: Suppressed traits -->
-  <SuppressedTraits>TODO</SuppressedTraits>
+  <SuppressedTraits>受抑制特性</SuppressedTraits>
   <!-- EN: These traits will be added. All conflicting traits will become suppressed. -->
-  <ForcedTraitsDesc>TODO</ForcedTraitsDesc>
+  <ForcedTraitsDesc>這些特性將會加入。所有衝突的特性會被抑制。</ForcedTraitsDesc>
   <!-- EN: Complexity -->
-  <Complexity>TODO</Complexity>
+  <Complexity>複雜度</Complexity>
   <!-- EN: How much complexity this adds to the process of gene assembly. -->
-  <ComplexityDesc>TODO</ComplexityDesc>
+  <ComplexityDesc>此基因對組合過程所增加的複雜度。</ComplexityDesc>
   <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
-  <MaxComplexityDesc>TODO</MaxComplexityDesc>
+  <MaxComplexityDesc>可以在基因組合機附近建造基因處理器來增加複雜度上限。</MaxComplexityDesc>
   <!-- EN: Total complexity -->
-  <ComplexityTotal>TODO</ComplexityTotal>
+  <ComplexityTotal>總複雜度</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
-  <ComplexityTotalDesc>TODO</ComplexityTotalDesc>
+  <ComplexityTotalDesc>所有選中的基因的總複雜度。</ComplexityTotalDesc>
   <!-- EN: Metabolic efficiency -->
-  <Metabolism>TODO</Metabolism>
+  <Metabolism>代謝效率</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismDesc>TODO</MetabolismDesc>
+  <MetabolismDesc>這些基因組合起來後的總代謝效率。高代謝代表需要較少的食物，低代謝則需要吃更多。</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
-  <MetabolismTotal>TODO</MetabolismTotal>
+  <MetabolismTotal>代謝效率</MetabolismTotal>
   <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismTotalDesc>TODO</MetabolismTotalDesc>
+  <MetabolismTotalDesc>此基因組中的總代謝效率。高代謝代表需要較少的食物，低代謝則需要吃更多。</MetabolismTotalDesc>
   <!-- EN: Number of genes -->
-  <NumberOfGenes>TODO</NumberOfGenes>
+  <NumberOfGenes>基因數量</NumberOfGenes>
   <!-- EN: Gene price factors -->
-  <GenePriceFactors>TODO</GenePriceFactors>
+  <GenePriceFactors>基因代價因素</GenePriceFactors>
   <!-- EN: any -->
-  <AnyLower>TODO</AnyLower>
+  <AnyLower>任何</AnyLower>
   <!-- EN: Archite total -->
-  <ArchitesTotal>TODO</ArchitesTotal>
+  <ArchitesTotal>總遠古分子</ArchitesTotal>
   <!-- EN: Archite capsules -->
-  <ArchitesRequired>TODO</ArchitesRequired>
+  <ArchitesRequired>遠古分子膠囊</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>TODO</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>遠古分子是遠古的機械分子 - 由超智慧遠古科技製造的微型裝置，能夠直接改造細胞與分子。他們能達成許多無法解釋的事，而有些基因只能靠這些超自然的遠古科技運作。人類無法製造遠古分子 - 只可以憑探索來取得這些不知為何而造的遠古科技。</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
-  <CancelXenogerm>TODO</CancelXenogerm>
+  <CancelXenogerm>取消異種細胞</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
-  <CancelXenogermDesc>TODO</CancelXenogermDesc>
+  <CancelXenogermDesc>停止所有目前異種細胞的工作。</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
-  <AllowAllGenepacks>TODO</AllowAllGenepacks> 
+  <AllowAllGenepacks>容許所有基因包</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>TODO</AllowAllGenepacksDesc> 
+  <AllowAllGenepacksDesc>是否讓殖民者自動把任何基因包放進此容器。如果你想在此指定儲存某種基因包，就該關閉。</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
-  <ContainedGenepacksDesc>TODO</ContainedGenepacksDesc> 
+  <ContainedGenepacksDesc>目前在此容器的基因包。</ContainedGenepacksDesc> 
   <!-- EN: The genepacks designated to be loaded into this container. -->
-  <GenepacksToLoadDesc>TODO</GenepacksToLoadDesc> 
+  <GenepacksToLoadDesc>指定裝載至此容器的基因包。</GenepacksToLoadDesc> 
   <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
-  <GenepacksIgnoredDesc>TODO</GenepacksIgnoredDesc> 
+  <GenepacksIgnoredDesc>拿走沒有指定裝載至此容器的基因包。</GenepacksIgnoredDesc> 
   <!-- EN: Genepacks to load -->
-  <GenepacksToLoad>TODO</GenepacksToLoad> 
+  <GenepacksToLoad>要裝載的基因包</GenepacksToLoad> 
   <!-- EN: Genepacks to ignore -->
-  <GenepacksToIgnore>TODO</GenepacksToIgnore> 
+  <GenepacksToIgnore>無視的基因包</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>TODO</EjectGenepackDesc> 
+  <EjectGenepackDesc>把此基因包彈出。</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
-  <ConfirmRemoveGenepack>TODO</ConfirmRemoveGenepack> 
+  <ConfirmRemoveGenepack>你確定要彈出{0}嗎？</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>缺少必要研究</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
