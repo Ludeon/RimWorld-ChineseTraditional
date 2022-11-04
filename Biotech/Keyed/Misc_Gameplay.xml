@@ -326,7 +326,7 @@
   <!-- EN: Genepacks to load -->
   <GenepacksToLoad>要裝載的基因包</GenepacksToLoad> 
   <!-- EN: Genepacks to ignore -->
-  <GenepacksToIgnore>無視的基因包</GenepacksToIgnore> 
+  <GenepacksToIgnore>忽略的基因包</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
   <EjectGenepackDesc>把此基因包彈出。</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
@@ -334,19 +334,19 @@
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>缺少必要研究</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
-  <NoGenepacksAvailable>TODO</NoGenepacksAvailable> 
+  <NoGenepacksAvailable>附近的基因庫中沒有可用的基因包。</NoGenepacksAvailable> 
   <!-- EN: Allow this genepack to be loaded into this container. -->
-  <AddToLoadingListDesc>TODO</AddToLoadingListDesc> 
+  <AddToLoadingListDesc>容許此基因包裝載至此容器中。</AddToLoadingListDesc> 
   <!-- EN: Remove this genepack from the loading list. -->
-  <RemoveFromLoadingListDesc>TODO</RemoveFromLoadingListDesc> 
+  <RemoveFromLoadingListDesc>從載貨列表中移除此基因包。</RemoveFromLoadingListDesc> 
   <!-- EN: Recombine -->
-  <Recombine>TODO</Recombine>
+  <Recombine>重組</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
-  <RecombineDesc>TODO</RecombineDesc>
+  <RecombineDesc>用你的基因庫中的基因包數據來創造新的可移植異種細胞。</RecombineDesc>
   <!-- EN: Genes -->
-  <ContainedGenesDesc>TODO</ContainedGenesDesc>
+  <ContainedGenesDesc>基因</ContainedGenesDesc>
   <!-- EN: Order implantation -->
-  <ImplantXenogerm>TODO</ImplantXenogerm>
+  <ImplantXenogerm>預約移植</ImplantXenogerm>
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
   <ImplantXenogermDesc>TODO</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
