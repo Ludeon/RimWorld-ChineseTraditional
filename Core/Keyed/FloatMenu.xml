@@ -227,7 +227,7 @@
   <CarryToShuttle>攜帶{0_label}進入太空梭</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
-  <NoCryptosleepCasket>沒有閒置的休眠艙。</NoCryptosleepCasket>
+  <NoCryptosleepCasket>沒有可用的休眠艙。</NoCryptosleepCasket>
   <!-- EN: Temporary faction members not allowed. -->
   <CryptosleepCasketGuestsNotAllowed>不允許臨時派系成員。</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
@@ -235,11 +235,11 @@
   <!-- EN: Already occupied -->
   <CryptosleepCasketOccupied>已被佔用</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
-  <NoPrisonerBed>無法前往、沒有可用的、沒有密閉空間的俘虜床。</NoPrisonerBed>
+  <NoPrisonerBed>無法前往、沒有可用的或沒有於密閉空間的俘虜床。</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
-  <NoNonPrisonerBed>無法前往、沒有可用的非俘虜床。</NoNonPrisonerBed>
+  <NoNonPrisonerBed>無法前往或沒有可用的非俘虜床。</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
-  <NoAnimalBed>無法前往、沒有可用的動物床。</NoAnimalBed>
+  <NoAnimalBed>無法前往或沒有可用的動物床。</NoAnimalBed>
   <!-- EN: Reserved by someone else. -->
   <Reserved>被預留給其他人。</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -374,6 +374,8 @@
   <UseMedicalBed>休養到痊癒</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>健康</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>沒有醫生</NoDoctor><!-- text_todo -->
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>已被{0}佔用</SomeoneElseSleeping>
   
