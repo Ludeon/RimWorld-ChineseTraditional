@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: acidic smog -->
-  <NoxiousHaze.label>TODO</NoxiousHaze.label>
+  <NoxiousHaze.label>酸性霧霾</NoxiousHaze.label>
   <!-- EN:
     <li>tale_noun->acidic smog sweeping over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming noxious</li>
@@ -18,6 +18,20 @@
     <li>desc_sentence->[Quantity_adjphrase] suffocating [Animal]s lay on the ground.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee.</li>
   -->
-  <NoxiousHaze.rulePack.rulesStrings>TODO</NoxiousHaze.rulePack.rulesStrings>
+  <NoxiousHaze.rulePack.rulesStrings>
+    <li>tale_noun->酸性霧霾席捲[PAWN_nameDef]的[Community]</li>
+    <li>tale_noun->[PAWN_nameDef]的[Community]周遭的大氣變得有毒</li>
+    <li>image->不祥的天色，[circumstance_group]</li>
+    <li>image->空氣變得濃厚且[circumstance_group]</li>
+    <li>circumstance_phrase->放眼並無生物</li>
+    <li>circumstance_phrase->等待酸性霧霾消散</li>
+    <li>circumstance_phrase->目睹動物四處奔逃</li>
+    <li>desc_sentence->[PAWN_nameDef]躲在[TerrainFeature]旁，以[AdjectiveAngsty]一雙眼向外凝視。</li>
+    <li>desc_sentence->臉上圍著布的[PAWN_nameDef]在遠處觀望。</li>
+    <li>desc_sentence->[Quantity_adjphrase]死去的[Animal]倒在地上。</li>
+    <li>desc_sentence->[Quantity_adjphrase]瀕死的[Animal]倒在地上。</li>
+    <li>desc_sentence->[Quantity_adjphrase]窒息的[Animal]倒在地上。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]四處奔逃。</li>
+  </NoxiousHaze.rulePack.rulesStrings>
   
 </LanguageData>
