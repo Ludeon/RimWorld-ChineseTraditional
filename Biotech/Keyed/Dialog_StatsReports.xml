@@ -2,121 +2,121 @@
 <LanguageData>
 
   <!-- EN: Relevant genes -->
-  <StatsReport_Genes>TODO</StatsReport_Genes>
+  <StatsReport_Genes>相關基因</StatsReport_Genes>
   <!-- EN: in sunlight -->
-  <StatsReport_InSunlight>TODO</StatsReport_InSunlight>
+  <StatsReport_InSunlight>陽光下</StatsReport_InSunlight>
   <!-- EN: clothed -->
-  <StatsReport_Clothed>TODO</StatsReport_Clothed>
+  <StatsReport_Clothed>著衣</StatsReport_Clothed>
   <!-- EN: unclothed -->
-  <StatsReport_Unclothed>TODO</StatsReport_Unclothed>
+  <StatsReport_Unclothed>裸體</StatsReport_Unclothed>
 
   <!-- EN: Required weight class -->
-  <StatsReport_RechargerWeightClass>TODO</StatsReport_RechargerWeightClass>
+  <StatsReport_RechargerWeightClass>量級要求</StatsReport_RechargerWeightClass>
   <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
-  <StatsReport_RechargerWeightClass_Desc>TODO</StatsReport_RechargerWeightClass_Desc>
+  <StatsReport_RechargerWeightClass_Desc>可以使用此充電站的機械族量級。以下機械族合符要求</StatsReport_RechargerWeightClass_Desc>
 
   <!-- EN: Recharger needed -->
-  <StatsReport_RechargerNeeded>TODO</StatsReport_RechargerNeeded>
+  <StatsReport_RechargerNeeded>充電站需求</StatsReport_RechargerNeeded>
   <!-- EN: The type of recharger that this mechanoid can use to recover energy. This is based on the mechanoid's weight class. -->
-  <StatsReport_RechargerNeeded_Desc>TODO</StatsReport_RechargerNeeded_Desc>
+  <StatsReport_RechargerNeeded_Desc>此機械族可以使用的充電站類型。視乎機械族的量級而定。</StatsReport_RechargerNeeded_Desc>
 
   <!-- EN: Deathrest effectiveness -->
-  <StatsReport_DeathrestEffectiveness>TODO</StatsReport_DeathrestEffectiveness>
+  <StatsReport_DeathrestEffectiveness>絕息效率</StatsReport_DeathrestEffectiveness>
   <!-- EN: A multiplier on how effective this is when used for deathrest. The higher this is, the less time a user needs to deathrest here. -->
-  <StatsReport_DeathrestEffectiveness_Desc>TODO</StatsReport_DeathrestEffectiveness_Desc>
+  <StatsReport_DeathrestEffectiveness_Desc>當用於絕息時的效率倍率。越高的效率，需要越少時間絕息。</StatsReport_DeathrestEffectiveness_Desc>
 
   <!-- EN: Deathrest connection limit -->
-  <StatsReport_DeathrestConnectionLimit>TODO</StatsReport_DeathrestConnectionLimit>
+  <StatsReport_DeathrestConnectionLimit>絕息連接上限</StatsReport_DeathrestConnectionLimit>
   <!-- EN: How many of these buildings can connect to a deathrester while deathresting. This number is also limited by the person's deathrest capacity. -->
-  <StatsReport_DeathrestConnectionLimit_Desc>TODO</StatsReport_DeathrestConnectionLimit_Desc>
+  <StatsReport_DeathrestConnectionLimit_Desc>當絕息者絕息時連接此建築的上限。此數目亦受該人的絕息容量限制。</StatsReport_DeathrestConnectionLimit_Desc>
 
   <!-- EN: Growth tier -->
   <StatsReport_GrowthTier>成長等級</StatsReport_GrowthTier>
   <!-- EN: Children progress through growth tiers over time. The higher the learning need, the faster the progress. When a growth moment comes (at age 7, 10, and 13), the child's growth tier determines how many trait and passion options you can choose from. Growth tier resets after each growth moment. -->
-  <StatsReport_GrowthTierDesc>TODO</StatsReport_GrowthTierDesc>
+  <StatsReport_GrowthTierDesc>兒童會隨時間獲得成長等級。越高的學習需求，越快獲得等級。到達成長時刻時(7、10、13歲)，兒童的成長等級會決定你有多少特性和熱情可以選擇。成長等級會在每次成長時刻重置。</StatsReport_GrowthTierDesc>
 
   <!-- EN: Life stage -->
-  <StatsReport_DevelopmentStage>TODO</StatsReport_DevelopmentStage>
+  <StatsReport_DevelopmentStage>生命階段</StatsReport_DevelopmentStage>
   <!-- EN: A baby. Babies cannot move on their own. Their life revolves around the simple needs of food, sleep, and play. When they giggle, nearby adults' moods are lifted, and when they cry, nearby adults are annoyed.\n\nAt age 3, human babies become children. -->
-  <StatsReport_DevelopmentStageDesc_Baby>TODO</StatsReport_DevelopmentStageDesc_Baby>
+  <StatsReport_DevelopmentStageDesc_Baby>嬰兒。嬰兒無法自行移動。他們的生命圍繞著簡單需求，食物、睡覺和遊玩。他們笑的時候，附近的成人心情會變好，若他們哭鬧，附近的成人則感到心煩。\n\n3歲的時候，人類嬰兒就會變成兒童。</StatsReport_DevelopmentStageDesc_Baby>
   <!-- EN: A child. In general, children are slower and less skilled than adults. However, children have a natural optimism. When their mood is high, this optimism can raise the mood of adult colonists.\n\nChildren can do various types of work, depending on their age -->
-  <StatsReport_DevelopmentStageDesc_ChildPart1>TODO</StatsReport_DevelopmentStageDesc_ChildPart1>
+  <StatsReport_DevelopmentStageDesc_ChildPart1>兒童。一般而言，兒童比成人走得較慢且沒有技能。然而，兒童有著天生的樂觀態度。當他們心情好的時候，這份樂觀會傳播到成人的身上。\n\n兒童因應不同年齡，可以達成各種工作。</StatsReport_DevelopmentStageDesc_ChildPart1>
   <!-- EN: As a child ages, they will gain additional passions and traits.\n\nChildren have various child-specific learning needs and require special child-sized apparel.\n\nAt age 13, human children become adults. -->
-  <StatsReport_DevelopmentStageDesc_ChildPart2>TODO</StatsReport_DevelopmentStageDesc_ChildPart2>
+  <StatsReport_DevelopmentStageDesc_ChildPart2>隨著兒童成長，他們會得到額外的熱情與特性。\n\n兒童有著各式各樣特有的學習需求，並需要特別的童裝服裝。\n\n13歲的時候，人類兒童就會變成成人。</StatsReport_DevelopmentStageDesc_ChildPart2>
   <!-- EN: An adult. Human adults fully mature at the age of 18. -->
-  <StatsReport_DevelopmentStageDesc_Adult>TODO</StatsReport_DevelopmentStageDesc_Adult>
+  <StatsReport_DevelopmentStageDesc_Adult>成人。人類成人在18歲時才完全成熟。</StatsReport_DevelopmentStageDesc_Adult>
 
   <!-- EN: Multiplier for pollution -->
-  <StatsReport_Pollution>TODO</StatsReport_Pollution>
+  <StatsReport_Pollution>污染倍率</StatsReport_Pollution>
 
   <!-- EN: Age factor -->
-  <StatsReport_FertilityAgeFactor>TODO</StatsReport_FertilityAgeFactor>
+  <StatsReport_FertilityAgeFactor>年齡因素</StatsReport_FertilityAgeFactor>
   <!-- EN: Has {0_label} gene -->
-  <StatsReport_HasGene>TODO</StatsReport_HasGene>
+  <StatsReport_HasGene>擁有{0_label}基因</StatsReport_HasGene>
   <!-- EN: A person of the {0} xenotype.\n\nAbout {0}s: -->
-  <StatsReport_NonBaselinerDescription>TODO</StatsReport_NonBaselinerDescription>
+  <StatsReport_NonBaselinerDescription>{0}異種。\n\n關於{0}︰</StatsReport_NonBaselinerDescription>
   
   <!-- EN: Lifestage -->
-  <Stat_Thing_Apparel_ValidLifestage>TODO</Stat_Thing_Apparel_ValidLifestage>
+  <Stat_Thing_Apparel_ValidLifestage>生命階段</Stat_Thing_Apparel_ValidLifestage>
   <!-- EN: Certain apparel requires that the wearer be within a specific age range. -->
-  <Stat_Thing_Apparel_ValidLifestage_Desc>TODO</Stat_Thing_Apparel_ValidLifestage_Desc>
+  <Stat_Thing_Apparel_ValidLifestage_Desc>特定服裝要求穿戴者在此年齡範圍內。</Stat_Thing_Apparel_ValidLifestage_Desc>
 
   <!-- EN: Connected {0} -->
-  <StatsReport_Connected>TODO</StatsReport_Connected>
+  <StatsReport_Connected>與{0}連接</StatsReport_Connected>
 
   <!-- EN: Effects -->
-  <Effects>TODO</Effects>
+  <Effects>效果</Effects>
   <!-- EN: A multiplier on chance of having a romantic relationship with someone who does not have this gene. -->
-  <StatsReport_MissingGeneRomanceChance>TODO</StatsReport_MissingGeneRomanceChance>
+  <StatsReport_MissingGeneRomanceChance>與一位沒有此基因的人擁有更進一步關係的機會。</StatsReport_MissingGeneRomanceChance>
   <!-- EN: Immune to -->
-  <ImmuneTo>TODO</ImmuneTo>
+  <ImmuneTo>免疫於</ImmuneTo>
   <!-- EN: Social fight chance factor -->
-  <SocialFightChanceFactor>TODO</SocialFightChanceFactor>
+  <SocialFightChanceFactor>打架機率因素</SocialFightChanceFactor>
   <!-- EN: Chance mental break is violent -->
-  <AggroMentalBreakSelectionChanceFactor>TODO</AggroMentalBreakSelectionChanceFactor>
+  <AggroMentalBreakSelectionChanceFactor>攻擊性精神崩潰機率</AggroMentalBreakSelectionChanceFactor>
   <!-- EN: Prison break interval factor -->
-  <PrisonBreakIntervalFactor>TODO</PrisonBreakIntervalFactor>
+  <PrisonBreakIntervalFactor>越獄間隔因素</PrisonBreakIntervalFactor>
   <!-- EN: Will never prison break. -->
-  <WillNeverPrisonBreak>TODO</WillNeverPrisonBreak>
+  <WillNeverPrisonBreak>永不越獄。</WillNeverPrisonBreak>
   <!-- EN: Mental breaks are always violent. -->
-  <AlwaysAggroMentalBreak>TODO</AlwaysAggroMentalBreak>
+  <AlwaysAggroMentalBreak>總是攻擊性的精神崩潰。</AlwaysAggroMentalBreak>
   <!-- EN: Mental breaks are never violent. -->
-  <NeverAggroMentalBreak>TODO</NeverAggroMentalBreak>
+  <NeverAggroMentalBreak>永不攻擊性的精神崩潰。</NeverAggroMentalBreak>
   <!-- EN: {0_label} addiction chance factor -->
-  <AddictionChanceFactor>TODO</AddictionChanceFactor>
+  <AddictionChanceFactor>{0_label}上癮機率因素</AddictionChanceFactor>
   <!-- EN: Immune to {0_label} addiction. -->
-  <AddictionImmune>TODO</AddictionImmune>
+  <AddictionImmune>免疫於{0_label}上癮。</AddictionImmune>
   <!-- EN: Immune to food poisoning. -->
-  <FoodPoisoningImmune>TODO</FoodPoisoningImmune>
+  <FoodPoisoningImmune>免疫於食物中毒。</FoodPoisoningImmune>
   <!-- EN: Will never do social fights. -->
-  <WillNeverSocialFight>TODO</WillNeverSocialFight>
+  <WillNeverSocialFight>永不打架。</WillNeverSocialFight>
   <!-- EN: Aging factors -->
-  <AgeFactors>TODO</AgeFactors>
+  <AgeFactors>衰老系數</AgeFactors>
   <!-- EN: Work speed is unaffected by darkness. -->
-  <UnaffectedByDarkness>TODO</UnaffectedByDarkness>
+  <UnaffectedByDarkness>工作速度不受黑暗影響。</UnaffectedByDarkness>
   <!-- EN: Adds one level of passion in {0_label}. -->
-  <PassionModAdd>TODO</PassionModAdd>
+  <PassionModAdd>為{0_label}增加1級熱情。</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
-  <PassionModDrop>TODO</PassionModDrop>
+  <PassionModDrop>移除所有{0_label}的熱情。</PassionModDrop>
   <!-- EN: Causes need -->
-  <CausesNeed>TODO</CausesNeed>
+  <CausesNeed>引起需求</CausesNeed>
   <!-- EN: Gives ability -->
-  <GivesAbility>TODO</GivesAbility>
+  <GivesAbility>賦予能力</GivesAbility>
   <!-- EN: Gives abilities -->
-  <GivesAbilities>TODO</GivesAbilities>
+  <GivesAbilities>賦予能力</GivesAbilities>
   <!-- EN: {RESOURCE}: {OFFSET} per day. -->
-  <ResourceLossPerDay>TODO</ResourceLossPerDay>
+  <ResourceLossPerDay>{RESOURCE}︰{OFFSET}/天</ResourceLossPerDay>
   <!-- EN: Removes -->
-  <Removes>TODO</Removes>
+  <Removes>移除</Removes>
   <!-- EN: Disables need -->
-  <DisablesNeed>TODO</DisablesNeed>
+  <DisablesNeed>禁用需求</DisablesNeed>
   <!-- EN: Disables needs -->
-  <DisablesNeeds>TODO</DisablesNeeds>
+  <DisablesNeeds>禁用需求</DisablesNeeds>
   <!-- EN: Baby -->
-  <DevelopmentStage_Baby>TODO</DevelopmentStage_Baby>
+  <DevelopmentStage_Baby>嬰兒</DevelopmentStage_Baby>
   <!-- EN: Child -->
-  <DevelopmentStage_Child>TODO</DevelopmentStage_Child>
+  <DevelopmentStage_Child>兒童</DevelopmentStage_Child>
   <!-- EN: Adult -->
-  <DevelopmentStage_Adult>TODO</DevelopmentStage_Adult>
+  <DevelopmentStage_Adult>成人</DevelopmentStage_Adult>
 
 </LanguageData>
