@@ -2,143 +2,147 @@
 <LanguageData>
   
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
-  <MessageColonistReaching2ndTrimesterPregnancy>TODO</MessageColonistReaching2ndTrimesterPregnancy>
+  <MessageColonistReaching2ndTrimesterPregnancy>{PAWN_labelShort}由懷孕第一期踏入第二期。</MessageColonistReaching2ndTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
-  <MessageColonistReaching3rdTrimesterPregnancy>TODO</MessageColonistReaching3rdTrimesterPregnancy>
+  <MessageColonistReaching3rdTrimesterPregnancy>{PAWN_labelShort}由懷孕第二期踏入第三期。</MessageColonistReaching3rdTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s labor has begun the final stages. -->
-  <MessageColonistInFinalStagesOfLabor>TODO</MessageColonistInFinalStagesOfLabor>
+  <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort}臨盆在即。</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>TODO</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>一台充電站在{PAWN_nameDef}充電時被破壞了!電力干擾使它的大腦受損，並進入狂暴化。</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
-  <MessageCantUseOnResistingPerson>TODO</MessageCantUseOnResistingPerson>
+  <MessageCantUseOnResistingPerson>無法在主動抗拒的人身上使用{ABILITY_label}。</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
-  <MessageCannotUseOnSameXenotype>TODO</MessageCannotUseOnSameXenotype>
+  <MessageCannotUseOnSameXenotype>{0_labelShort}早已是{0_xenotype}異種人。</MessageCannotUseOnSameXenotype>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
-  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>TODO</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>異種細胞只能移植到殖民者、俘虜和奴隸身上。</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
-  <MessageCannotImplantInTempFactionMembers>TODO</MessageCannotImplantInTempFactionMembers>
+  <MessageCannotImplantInTempFactionMembers>無法移植在臨時派系成員上。</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
-  <MessageXenogermCompleted>TODO</MessageXenogermCompleted>
+  <MessageXenogermCompleted>異種細胞已被完成。</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>TODO</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>在{0_labelShort}的異種細胞工作被取消了︰缺少所需的基因包。</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
-  <MessageAbsorbingXenogermWillAngerFaction>TODO</MessageAbsorbingXenogermWillAngerFaction>
+  <MessageAbsorbingXenogermWillAngerFaction>吸收{PAWN_nameDef}的異種細胞會惹怒{0}。</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
-  <MessageCannotUseOnOtherFactions>TODO</MessageCannotUseOnOtherFactions>
+  <MessageCannotUseOnOtherFactions>{ABILITY_label}只能對殖民者、俘虜和奴隸使用。</MessageCannotUseOnOtherFactions>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanAddingEscortingMech>TODO</MessageCaravanAddingEscortingMech> 
+  <MessageCaravanAddingEscortingMech>自動添加{MECH_nameDef}到旅隊中，因為它是{OVERSEER_nameDef}的護衛。</MessageCaravanAddingEscortingMech> 
   <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanRemovingEscortingMech>TODO</MessageCaravanRemovingEscortingMech>
+  <MessageCaravanRemovingEscortingMech>自動從旅隊移除{MECH_nameDef}，因為它是{OVERSEER_nameDef}的護衛。</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>TODO</MessageMechanitorCasketOpened>
+  <MessageMechanitorCasketOpened>{0}曾是一名御機使。你可以移除{0_possessive}{1_label}並給殖民者使用。</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>TODO</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>有些俘虜的互動模式需要吸血者存在。由於最後的吸血者不在了，他們的互動模式已重置為「不互動」。</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
-  <MessagePregnancyTerminated>TODO</MessagePregnancyTerminated>
+  <MessagePregnancyTerminated>{PAWN_nameDef}已成功終止懷孕。</MessagePregnancyTerminated>
   
   <!-- Pollution -->
   <!-- EN: Need unpolluted terrain. -->
-  <MessageWarningPollutedCell>TODO</MessageWarningPollutedCell>
+  <MessageWarningPollutedCell>需要未受污染地帶。</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
-  <MessageWarningNotPollutedCell>TODO</MessageWarningNotPollutedCell>
+  <MessageWarningNotPollutedCell>需要受污染地帶。</MessageWarningNotPollutedCell>
   <!-- EN: {0} has died because of pollution. -->
-  <MessagePlantDiedOfPollution>TODO</MessagePlantDiedOfPollution>
+  <MessagePlantDiedOfPollution>{0}死於污染。</MessagePlantDiedOfPollution>
   <!-- EN: {0} has died because of a lack of pollution. -->
-  <MessagePlantDiedOfNoPollution>TODO</MessagePlantDiedOfNoPollution>
+  <MessagePlantDiedOfNoPollution>{0}死於缺乏污染。</MessagePlantDiedOfNoPollution>
   <!-- EN: Pollution has increased by {0} at {1}. -->
-  <MessageWorldTilePollutionChanged>TODO</MessageWorldTilePollutionChanged>
+  <MessageWorldTilePollutionChanged>污染由{0}增加至{1}。</MessageWorldTilePollutionChanged>
   <!-- EN: A cocoon has been disturbed and is opening! -->
-  <MessageCocoonDisturbed>TODO</MessageCocoonDisturbed>
+  <MessageCocoonDisturbed>蟲繭受到騷擾並正在打開!</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
-  <MessageCocoonDisturbedPlural>TODO</MessageCocoonDisturbedPlural>
+  <MessageCocoonDisturbedPlural>蟲繭受到騷擾並正在打開!</MessageCocoonDisturbedPlural>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>TODO</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef}必須倒下才能強行移植{PAWN_possessive}異種細胞。</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
-  <MessageWorkTypeDisabledAge>TODO</MessageWorkTypeDisabledAge>
+  <MessageWorkTypeDisabledAge>{0_nameDef}只有{1}歲。至少要{3}歲才能進行{2}工作。</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
-  <MessageDeathrestingPawnCanWakeSafely>TODO</MessageDeathrestingPawnCanWakeSafely>
+  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef}現在可以安全地從絕息中甦醒。</MessageDeathrestingPawnCanWakeSafely>
 
   <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
-  <MessageMechanitorLostControlOfMech>TODO</MessageMechanitorLostControlOfMech>
+  <MessageMechanitorLostControlOfMech>{0_nameDef}無法操控{1_kindBase}機械族。</MessageMechanitorLostControlOfMech>
   <!-- EN: {0_nameDef} has disconnected from {1_nameDef} mech. -->
-  <MessageMechanitorDisconnectedFromMech>TODO</MessageMechanitorDisconnectedFromMech>
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef}與{1_nameDef}機械族斷線了。</MessageMechanitorDisconnectedFromMech>
 
   <!-- Xenogerm -->
   <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
-  <MetabolismTooLowToCreateXenogerm>TODO</MetabolismTooLowToCreateXenogerm>
+  <MetabolismTooLowToCreateXenogerm>所選的基因總新陳代謝至少要有{MIN}或以上才能繼續，但現在只有{AMOUNT}。</MetabolismTooLowToCreateXenogerm>
   <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
-  <ComplexityTooHighToCreateXenogerm>TODO</ComplexityTooHighToCreateXenogerm>
+  <ComplexityTooHighToCreateXenogerm>所選的基因總複雜度必須只有{MAX}或以下才能繼續，但現在是{AMOUNT}。</ComplexityTooHighToCreateXenogerm>
   <!-- EN: Cannot create a xenogerm with no genes. -->
-  <MessageNoSelectedGenepacks>TODO</MessageNoSelectedGenepacks>
+  <MessageNoSelectedGenepacks>無法創造沒有基因的異種細胞。</MessageNoSelectedGenepacks>
   <!-- EN: Cannot create a xenotype with no genes. -->
-  <MessageNoSelectedGenes>TODO</MessageNoSelectedGenes>
+  <MessageNoSelectedGenes>無法創造沒有基因的異種型。</MessageNoSelectedGenes>
   <!-- EN: {0_label} can only store {1} genepacks. -->
-  <CanOnlyStoreNumGenepacks>TODO</CanOnlyStoreNumGenepacks>
+  <CanOnlyStoreNumGenepacks>{0_label}只能儲存{1}個基因包。</CanOnlyStoreNumGenepacks>
   <!-- EN: Xenotype name cannot be empty. -->
-  <XenotypeNameCannotBeEmpty>TODO</XenotypeNameCannotBeEmpty>
+  <XenotypeNameCannotBeEmpty>異種型名字不可為空。</XenotypeNameCannotBeEmpty>
   <!-- EN: {0} lacks a prerequisite gene -->
-  <MessageGeneMissingPrerequisite>TODO</MessageGeneMissingPrerequisite>
+  <MessageGeneMissingPrerequisite>{0}欠缺必備的基因。</MessageGeneMissingPrerequisite>
 
   <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
-  <MessageDeathrestCapacityChanged>TODO</MessageDeathrestCapacityChanged>
+  <MessageDeathrestCapacityChanged>{PAWN_nameDef}的絕息容量由{OLD}增加至{NEW}。</MessageDeathrestCapacityChanged>
 
   <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
-  <SanguophagesArrivingSoon>TODO</SanguophagesArrivingSoon>
+  <SanguophagesArrivingSoon>噬血者會在數小時內到達聚會。</SanguophagesArrivingSoon>
   <!-- EN: The sanguophages have begun their meeting. -->
-  <SanguophagesBegunMeeting>TODO</SanguophagesBegunMeeting>
+  <SanguophagesBegunMeeting>噬血者已開始他們的聚會。</SanguophagesBegunMeeting>
   <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
-  <SanguophagesLeavingTemperature>TODO</SanguophagesLeavingTemperature>
+  <SanguophagesLeavingTemperature>噬血者由於致命的溫度而離開。</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
-  <MessagePawnWokenFromSunlight>TODO</MessagePawnWokenFromSunlight>
+  <MessagePawnWokenFromSunlight>由於照射到陽光，{PAWN_nameDef}已由絕息中甦醒。</MessagePawnWokenFromSunlight>
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
-  <MessageBedExposedToSunlight>TODO</MessageBedExposedToSunlight>
+  <MessageBedExposedToSunlight>分配給{PAWN_nameDef}用於絕息的{BED_labelShort}受陽光照射。{PAWN_nameDef}無法在此絕息。</MessageBedExposedToSunlight>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>TODO</MessagePawnKilledRipscanner> 
+  <MessagePawnKilledRipscanner>{PAWN_nameDef}的大腦被次核心強性掃瞄器破壞了。</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef}的弱性掃瞄完成了。</MessageSubcoreSoftscannerCompleted><!-- text_todo -->
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
-  <MessageCannotResurrectDessicatedCorpse>TODO</MessageCannotResurrectDessicatedCorpse>
+  <MessageCannotResurrectDessicatedCorpse>無法復活乾枯的屍體。</MessageCannotResurrectDessicatedCorpse>
 
   <!-- EN: {0} is about to explode! -->
-  <MessageAboutToExplode>TODO</MessageAboutToExplode>
+  <MessageAboutToExplode>{0}即將爆炸!</MessageAboutToExplode>
 
   <!-- Childcare -->
   <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
-  <MessageChildcareDisabled>TODO</MessageChildcareDisabled>
+  <MessageChildcareDisabled>{FEEDER_labelShort}無法進行育兒工作。</MessageChildcareDisabled>
   <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
-  <MessageChildcareNotAssigned>TODO</MessageChildcareNotAssigned>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort}未被指派育兒工作。</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>TODO</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>你的自訂異種型數目已達上限。你必須刪除一些才能創造新的。</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>TODO</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>無法儲存帶有衝突基因的異種型。</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
-  <MessageDeathrestBuildingBound>TODO</MessageDeathrestBuildingBound>
+  <MessageDeathrestBuildingBound>{BUILDING_labelShort}已連接到{PAWN_nameDef}({CUR}/{MAX}絕息容量)。</MessageDeathrestBuildingBound>
 
   <!-- EN: Developmental stage selection disabled by scenario. -->
-  <MessageDevelopmentalStageSelectionDisabledByScenario>TODO</MessageDevelopmentalStageSelectionDisabledByScenario>
+  <MessageDevelopmentalStageSelectionDisabledByScenario>發展階段受腳本禁用。</MessageDevelopmentalStageSelectionDisabledByScenario>
 
   <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
-  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>TODO</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef}血量不足以生產血原包。</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
   <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
-  <MessageCannotStartHemogenExtraction>TODO</MessageCannotStartHemogenExtraction>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef}沒有足夠血液生產血原包。</MessageCannotStartHemogenExtraction>
 
   <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
-  <MessageCannotPostponeGrowthMoment>TODO</MessageCannotPostponeGrowthMoment>
+  <MessageCannotPostponeGrowthMoment>你現在必須選擇{PAWN_nameDef}要如何成長。</MessageCannotPostponeGrowthMoment>
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
-  <MessageDraftedPawnCarryingBaby>TODO</MessageDraftedPawnCarryingBaby>
+  <MessageDraftedPawnCarryingBaby>注意︰{0_labelShort}被徵召時手持嬰兒。</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}把{BABY_nameDef}帶到溫度較安全的場所。</MessageTakingBabyToSafeTemperature><!-- text_todo -->
 
 </LanguageData>
