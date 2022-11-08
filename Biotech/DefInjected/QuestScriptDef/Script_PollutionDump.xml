@@ -17,7 +17,7 @@
   <PollutionDump.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==True)->在軌道飛船中的機械人格發來了一個特別的請求。她希望卸下一些過量的廢料袋並希望你能妥善保存。\n\n若你答應，她會用運輸艙發送[wastepackCount]個廢料袋。\n\n如果不保持冷凍，廢料袋會在一段時間後分解，污染周邊的地帶。</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]，[asker_faction_name]的[asker_royalTitleInCurrentFaction]有一個特別的請求。[asker_pronoun]產生了很多廢料袋而不想儲在[asker_pronoun]那。\n\n若你答應，[asker_nameDef]會用運輸艙發送[wastepackCount]個廢料袋。\n\n如果不保持冷凍，廢料袋會在一段時間後分解，污染周邊的地帶。</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle] [asker_nameFull]有一個特別的請求。有人棄置了一堆廢料袋在[asker_possessive]其中一個據點，而[asker_pronoun]無力儲存這些廢料袋。\n\n若你答應，[asker_nameDef]會用運輸艙發送[wastepackCount]個廢料袋。\n\n如果不保持冷凍，廢料袋會在一段時間後分解，污染周邊的地帶。</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]有一個特別的請求。有人棄置了一堆廢料袋在[asker_possessive]其中一個據點，而[asker_pronoun]無力儲存這些廢料袋。\n\n若你答應，[asker_nameDef]會用運輸艙發送[wastepackCount]個廢料袋。\n\n如果不保持冷凍，廢料袋會在一段時間後分解，污染周邊的地帶。</li>
   </PollutionDump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[waste] [dump]</li>
