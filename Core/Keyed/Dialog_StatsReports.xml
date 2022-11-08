@@ -235,7 +235,7 @@
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>攝入此物品所獲得的娛樂值。更高的數值將滿足更多的娛樂需求。</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
-  <Stat_Race_BodySize_Desc>與普通的成年人相較下，這種生物的體形大小。</Stat_Race_BodySize_Desc>
+  <Stat_Race_BodySize_Desc>與普通的成人相較下，這種生物的體形大小。</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
   <Stat_Race_Growth_Desc>這個生物有多接近成年。\n\n成長需要足夠的營養。一個飢餓的動物與一個吃飽的動物相比，成長速度比較慢。</Stat_Race_Growth_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
@@ -393,7 +393,7 @@
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
   <Stat_Thing_Drug_MinToleranceForAddiction_Desc>引發藥物成癮所需的最低耐受性。\n\n如果使用者低於此水平，他們就不會因服用某種藥物而上癮。</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>成年人如果比這間隔更頻繁地服用藥物才會成癮。\n\n這是根據成癮者對藥物的最低耐受性、每次服用的耐受性增加、下降速率計算得出的。某些藥物並不安全。這樣的藥物只要一服用就有可能成癮。\n\n請注意，藥物安全間隔視乎個人的體型而變。</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>成人如果比這間隔更頻繁地服用藥物才會成癮。\n\n這是根據成癮者對藥物的最低耐受性、每次服用的耐受性增加、下降速率計算得出的。某些藥物並不安全。這樣的藥物只要一服用就有可能成癮。\n\n請注意，藥物安全間隔視乎個人的體型而變。</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>服用此藥物的而發生用藥過量的機率。無論服用多少、有無經驗，都有機會發生用藥過量。</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
