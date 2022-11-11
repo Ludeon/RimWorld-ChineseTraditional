@@ -76,9 +76,9 @@
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>填充機械培養資源</LoadingMechGestator>
   <!-- EN: Initiating mech gestation cycle -->
-  <InitMechGestationCycle>啟動機械培養</InitMechGestationCycle>
+  <InitMechGestationCycle>啟動機械培養週期</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
-  <InitMechBirth>啟動機械出生</InitMechBirth>
+  <InitMechBirth>啟動新生機械</InitMechBirth>
   <!-- EN: Mech energy -->
   <MechEnergy>機械能量</MechEnergy>
   <!-- EN: Energy -->
@@ -122,7 +122,7 @@
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>絕息容量</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>決定此人絕息時能連接的絕息建築上限。每個絕息建築都能賦予不同效果，因此能連接越多越好。\n\n使用絕息容量血清可以增加絕息容量。可以從商人購買而得。</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>決定此人絕息時能連接的絕息建築上限。每個絕息建築都能賦予不同效果，因此能連接越多越好。\n\n注射絕息容量血清可以增加絕息容量。可以從商人購買而得。</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
   <PawnIsConnectedToBuildings>{PAWN_nameDef}連接到{CURRENT}/{MAX}(上限)個絕息建築。</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
@@ -308,7 +308,7 @@
   <!-- EN: Archite capsules -->
   <ArchitesRequired>遠古分子膠囊</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>遠古分子是遠古的機械分子 - 由超智慧遠古科技製造的微型裝置，能夠直接改造細胞與分子。他們能達成許多無法解釋的事，而有些基因只能靠這些超自然的遠古科技運作。人類無法製造遠古分子 - 只可以憑探索來取得這些不知為何而造的遠古科技。</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>遠古分子是遠古的機械分子 - 由超智慧遠古科技製造的微型裝置，能夠直接改造細胞與分子。他們能達成許多無法解釋的事，而有些基因只能靠這些超自然的遠古科技運作。人類無法製造遠古分子 - 只能從遠古科技為某種原因而製造的產物中搜刮得到。</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
   <CancelXenogerm>取消異種細胞</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
@@ -468,11 +468,11 @@
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
-  <CurrentGestationCycle>目前培養</CurrentGestationCycle>
+  <CurrentGestationCycle>目前培養週期需時</CurrentGestationCycle>
   <!-- EN: Gestation cycles remaining -->
-  <RemainingGestationCycles>剩餘培養時間</RemainingGestationCycles>
+  <RemainingGestationCycles>剩餘培養週期</RemainingGestationCycles>
   <!-- EN: Gestation cycles -->
-  <GestationCycles>培養</GestationCycles>
+  <GestationCycles>培養週期</GestationCycles>
   <!-- EN: Gestating {0} -->
   <GestatingMech>培養{0}</GestatingMech>
   <!-- EN: Gestated {0} -->
