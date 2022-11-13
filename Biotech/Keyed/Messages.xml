@@ -27,6 +27,8 @@
   <MessageAbsorbingXenogermWillAngerFaction>吸收{PAWN_nameDef}的異種細胞會惹怒{0}。</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label}只能對殖民者、俘虜和奴隸使用。</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} will not become a non-preferred xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort}不會變成厭惡的異種人。</MessageCannotBecomeNonPreferredXenotype><!-- text_todo -->
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>自動添加{MECH_nameDef}到旅隊中，因為它是{OVERSEER_nameDef}的護衛。</MessageCaravanAddingEscortingMech> 
@@ -43,6 +45,8 @@
   <MessagePregnancyTerminated>{PAWN_nameDef}已成功終止懷孕。</MessagePregnancyTerminated>
   
   <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>{0}被激怒了({1})</MessageAngeredPollutedCell> <!-- text_todo -->
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>需要未受污染地帶。</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -103,11 +107,14 @@
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
   <MessageBedExposedToSunlight>分配給{PAWN_nameDef}用於絕息的{BED_labelShort}受陽光照射。{PAWN_nameDef}無法在此絕息。</MessageBedExposedToSunlight>
 
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>因為電力不足，{PAWN_labelShort}從基因抽取器彈出了。</GeneExtractorNoPowerEjectedMessage><!-- text_todo -->
+
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
   <MessagePawnKilledRipscanner>{PAWN_nameDef}的大腦被次核心強性掃描儀破壞了。</MessagePawnKilledRipscanner>
   <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef}的弱性掃描完成了。</MessageSubcoreSoftscannerCompleted><!-- text_todo -->
+  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef}的弱性掃描完成了。</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>無法復活乾枯的屍體。</MessageCannotResurrectDessicatedCorpse>
@@ -143,6 +150,13 @@
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>注意︰{0_labelShort}被徵召時手持嬰兒。</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
-  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}把{BABY_nameDef}帶到溫度較安全的場所。</MessageTakingBabyToSafeTemperature><!-- text_todo -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}把{BABY_nameDef}帶到溫度較安全的場所。</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>{MOTHER_nameDef}和{FATHER_nameDef}的妊娠失敗了。</MessagePregnancyFailed><!-- text_todo -->
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>{PAWN_nameDef}對卵子授精失敗</MessageFerilizeFailed><!-- text_todo -->
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>合成的基因超出代謝上限。</CombinedGenesExceedMetabolismLimits><!-- text_todo -->
 
 </LanguageData>

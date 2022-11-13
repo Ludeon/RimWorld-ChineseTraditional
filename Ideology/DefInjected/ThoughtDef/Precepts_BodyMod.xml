@@ -1,69 +1,104 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: no artificial part -->
+  <!-- EN: no artificial enhancement -->
+  <HasNoProsthetic_Disapproved.stages.no_artificial_enhancement.label>沒有改造</HasNoProsthetic_Disapproved.stages.no_artificial_enhancement.label>
+  <!-- EN: I don't have any artificial enhancements. It's against my beliefs to be so unenhanced. -->
+  <HasNoProsthetic_Disapproved.stages.no_artificial_enhancement.description>我沒有任何改造。這違反我的信仰，實在太弱了。</HasNoProsthetic_Disapproved.stages.no_artificial_enhancement.description>
+  
+  <!-- UNUSED -->
   <HasNoProsthetic_Disapproved.stages.no_artificial_part.label>沒有義體</HasNoProsthetic_Disapproved.stages.no_artificial_part.label>
-  <!-- EN: I don't have any artificial body parts. It's against my beliefs to be so unenhanced. -->
   <HasNoProsthetic_Disapproved.stages.no_artificial_part.description>我沒有任何義體。這違反我的信仰，實在太弱了。</HasNoProsthetic_Disapproved.stages.no_artificial_part.description>
   
-  <!-- EN: no artificial part -->
+  <!-- EN: no artificial enhancement -->
+  <HasNoProsthetic_Disapproved_Social.stages.no_artificial_enhancement.label>沒有改造</HasNoProsthetic_Disapproved_Social.stages.no_artificial_enhancement.label>
+  
+  <!-- UNUSED -->
   <HasNoProsthetic_Disapproved_Social.stages.no_artificial_part.label>沒有義體</HasNoProsthetic_Disapproved_Social.stages.no_artificial_part.label>
   
-  <!-- EN: artificial part -->
+  <!-- EN: artificial enhancement -->
+  <HasProsthetic_Abhorrent.stages.artificial_enhancement.label>擁有改造</HasProsthetic_Abhorrent.stages.artificial_enhancement.label>
+  <!-- EN: I have an artificial enhancement in me. It's an abhorrent offense against everything I believe! -->
+  <HasProsthetic_Abhorrent.stages.artificial_enhancement.description>我擁有一種改造。這實在是對我的信仰的一大侮辱。</HasProsthetic_Abhorrent.stages.artificial_enhancement.description>
+  
+  <!-- UNUSED -->
   <HasProsthetic_Abhorrent.stages.artificial_part.label>擁有義體</HasProsthetic_Abhorrent.stages.artificial_part.label>
-  <!-- EN: I have an artificial body part in me. It's an abhorrent offense against everything I believe! -->
   <HasProsthetic_Abhorrent.stages.artificial_part.description>我擁有一個義體。這實在是對我的信仰的一大侮辱。</HasProsthetic_Abhorrent.stages.artificial_part.description>
   
-  <!-- EN: artificial part -->
+  <!-- EN: artificial enhancement -->
+  <HasProsthetic_Abhorrent_Social.stages.artificial_enhancement.label>擁有改造</HasProsthetic_Abhorrent_Social.stages.artificial_enhancement.label>
+  
+  <!-- UNUSED -->
   <HasProsthetic_Abhorrent_Social.stages.artificial_part.label>擁有義體</HasProsthetic_Abhorrent_Social.stages.artificial_part.label>
   
   <!-- EN: transhumanist modded -->
   <HasProsthetic_Approved.stages.transhumanist_modded.label>仿生主義者的改造</HasProsthetic_Approved.stages.transhumanist_modded.label>
-  <!-- EN: This artificial body part matches my belief. -->
-  <HasProsthetic_Approved.stages.transhumanist_modded.description>這個義體符合我的信仰。</HasProsthetic_Approved.stages.transhumanist_modded.description>
+  <!-- EN: This artificial enhancement matches my belief. -->
+  <HasProsthetic_Approved.stages.transhumanist_modded.description>這種改造符合我的信仰。</HasProsthetic_Approved.stages.transhumanist_modded.description>
   <!-- EN: transhumanist connected -->
   <HasProsthetic_Approved.stages.transhumanist_connected.label>仿生主義者的連繫</HasProsthetic_Approved.stages.transhumanist_connected.label>
-  <!-- EN: The more artificial body parts I get, the stronger my expression of my beliefs. -->
-  <HasProsthetic_Approved.stages.transhumanist_connected.description>我擁有越多義體，就有更強的信念。</HasProsthetic_Approved.stages.transhumanist_connected.description>
+  <!-- EN: The more artificial enhancements I get, the stronger my expression of my beliefs. -->
+  <HasProsthetic_Approved.stages.transhumanist_connected.description>我擁有越多改造，就有更強的信念。</HasProsthetic_Approved.stages.transhumanist_connected.description>
   <!-- EN: transhumanist enhanced -->
   <HasProsthetic_Approved.stages.transhumanist_enhanced.label>仿生主義者的強化</HasProsthetic_Approved.stages.transhumanist_enhanced.label>
-  <!-- EN: My connection to my belief is enhanced by my third artificial body part. But I could use more. -->
-  <HasProsthetic_Approved.stages.transhumanist_enhanced.description>我的信念被第三個義體強化了。但這只是才剛開始。</HasProsthetic_Approved.stages.transhumanist_enhanced.description>
+  <!-- EN: My connection to my belief is increased by my third artificial enhancement. But I could use more. -->
+  <HasProsthetic_Approved.stages.transhumanist_enhanced.description>我的信念被第三種改造強化了。但這只是才剛開始。</HasProsthetic_Approved.stages.transhumanist_enhanced.description>
   <!-- EN: transhumanist synchronized -->
   <HasProsthetic_Approved.stages.transhumanist_synchronized.label>仿生主義者的同步</HasProsthetic_Approved.stages.transhumanist_synchronized.label>
-  <!-- EN: Only two more artificial body parts are required to fully synchronize with my beliefs. -->
-  <HasProsthetic_Approved.stages.transhumanist_synchronized.description>只差兩個義體我就能與信仰完全同步。</HasProsthetic_Approved.stages.transhumanist_synchronized.description>
+  <!-- EN: Only two more artificial enhancements are required to fully synchronize with my beliefs. -->
+  <HasProsthetic_Approved.stages.transhumanist_synchronized.description>只差兩種改造我就能與信仰完全同步。</HasProsthetic_Approved.stages.transhumanist_synchronized.description>
   <!-- EN: transhumanist integrated -->
   <HasProsthetic_Approved.stages.transhumanist_integrated.label>仿生主義者的融合</HasProsthetic_Approved.stages.transhumanist_integrated.label>
-  <!-- EN: Five artificial body parts! I'm beginning to feel perfect integration with my beliefs. -->
-  <HasProsthetic_Approved.stages.transhumanist_integrated.description>五個義體!我開始感到與信仰的融合。</HasProsthetic_Approved.stages.transhumanist_integrated.description>
+  <!-- EN: Five artificial enhancements! I'm beginning to feel perfect integration with my beliefs. -->
+  <HasProsthetic_Approved.stages.transhumanist_integrated.description>五種改造!我開始感到與信仰的融合。</HasProsthetic_Approved.stages.transhumanist_integrated.description>
   <!-- EN: transhumanist transformed -->
   <HasProsthetic_Approved.stages.transhumanist_transformed.label>仿生主義者的蛻變</HasProsthetic_Approved.stages.transhumanist_transformed.label>
   <!-- EN: It's as though I've left the weak flesh behind. -->
   <HasProsthetic_Approved.stages.transhumanist_transformed.description>彷彿，我已將脆弱的肉體拋在身後了。</HasProsthetic_Approved.stages.transhumanist_transformed.description>
   
-  <!-- EN: artificial part -->
+  <!-- EN: artificial enhancement -->
+  <HasProsthetic_Disapproved.stages.artificial_enhancement.label>擁有改造</HasProsthetic_Disapproved.stages.artificial_enhancement.label>
+  <!-- EN: I have an artificial enhancement in me. I don't believe such things are acceptable. -->
+  <HasProsthetic_Disapproved.stages.artificial_enhancement.description>我擁有一種改造。難以相信居然可以接受這種事。</HasProsthetic_Disapproved.stages.artificial_enhancement.description>
+  
+  <!-- UNUSED -->
   <HasProsthetic_Disapproved.stages.artificial_part.label>擁有義體</HasProsthetic_Disapproved.stages.artificial_part.label>
-  <!-- EN: I have an artificial body part in me. I don't believe such things are acceptable. -->
   <HasProsthetic_Disapproved.stages.artificial_part.description>我擁有一個義體。難以相信居然可以接受這種事。</HasProsthetic_Disapproved.stages.artificial_part.description>
   
-  <!-- EN: artificial part -->
+  <!-- EN: artificial enhancement -->
+  <HasProsthetic_Disapproved_Social.stages.artificial_enhancement.label>擁有改造</HasProsthetic_Disapproved_Social.stages.artificial_enhancement.label>
+  
+  <!-- UNUSED -->
   <HasProsthetic_Disapproved_Social.stages.artificial_part.label>擁有義體</HasProsthetic_Disapproved_Social.stages.artificial_part.label>
   
-  <!-- EN: installed prosthetic -->
+  <!-- EN: installed enhancement -->
+  <InstalledProsthetic_Abhorrent.stages.installed_enhancement.label>進行了改造</InstalledProsthetic_Abhorrent.stages.installed_enhancement.label>
+  <!-- EN: I had to install an enhancement. This was deeply offensive to my beliefs. -->
+  <InstalledProsthetic_Abhorrent.stages.installed_enhancement.description>我被迫改造了。這嚴重侵犯我的信仰。</InstalledProsthetic_Abhorrent.stages.installed_enhancement.description>
+  
+  <!-- UNUSED -->
   <InstalledProsthetic_Abhorrent.stages.installed_prosthetic.label>安裝了義體</InstalledProsthetic_Abhorrent.stages.installed_prosthetic.label>
-  <!-- EN: I had to install a prosthetic. This was deeply offensive to my beliefs. -->
   <InstalledProsthetic_Abhorrent.stages.installed_prosthetic.description>我被迫安裝義體了。這嚴重侵犯我的信仰。</InstalledProsthetic_Abhorrent.stages.installed_prosthetic.description>
   
-  <!-- EN: installed prosthetic -->
+  <!-- EN: installed enhancement -->
+  <InstalledProsthetic_Disapproved.stages.installed_enhancement.label>進行了改造</InstalledProsthetic_Disapproved.stages.installed_enhancement.label>
+  <!-- EN: I had to install an enhancement. This was clearly against my beliefs. -->
+  <InstalledProsthetic_Disapproved.stages.installed_enhancement.description>我被迫改造了。這很明顯違反我的信仰。</InstalledProsthetic_Disapproved.stages.installed_enhancement.description>
+  
+  <!-- UNUSED -->
   <InstalledProsthetic_Disapproved.stages.installed_prosthetic.label>安裝了義體</InstalledProsthetic_Disapproved.stages.installed_prosthetic.label>
-  <!-- EN: I had to install a prosthetic. This was clearly against my beliefs. -->
   <InstalledProsthetic_Disapproved.stages.installed_prosthetic.description>我被迫安裝義體了。這很明顯違反我的信仰。</InstalledProsthetic_Disapproved.stages.installed_prosthetic.description>
   
-  <!-- EN: installed prosthetic -->
+  <!-- EN: installed enhancement -->
+  <InstalledProsthetic_Know_Abhorrent.stages.installed_enhancement.label>進行了改造</InstalledProsthetic_Know_Abhorrent.stages.installed_enhancement.label>
+  
+  <!-- UNUSED -->
   <InstalledProsthetic_Know_Abhorrent.stages.installed_prosthetic.label>安裝了義體</InstalledProsthetic_Know_Abhorrent.stages.installed_prosthetic.label>
   
-  <!-- EN: installed prosthetic -->
+  <!-- EN: installed enhancement -->
+  <InstalledProsthetic_Know_Disapproved.stages.installed_enhancement.label>進行了改造</InstalledProsthetic_Know_Disapproved.stages.installed_enhancement.label>
+  
+  <!-- UNUSED -->
   <InstalledProsthetic_Know_Disapproved.stages.installed_prosthetic.label>安裝了義體</InstalledProsthetic_Know_Disapproved.stages.installed_prosthetic.label>
   
 </LanguageData>
