@@ -6,7 +6,11 @@
     <li>otherGenesInfo(geneCount==1)-></li>
     <li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
   -->
-  <NamerGenepack.rulePack.rulesStrings>TODO</NamerGenepack.rulePack.rulesStrings>
+  <NamerGenepack.rulePack.rulesStrings>
+    <li>r_name->基因包([geneWord][otherGenesInfo])</li>
+    <li>otherGenesInfo(geneCount==1)-></li>
+    <li>otherGenesInfo(geneCount>=2)->+[geneCountMinusOne]</li>
+  </NamerGenepack.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=1)->[anyPrefix][anySuffix]</li>
@@ -72,6 +76,41 @@
     <li>commonSuffix->ur</li>
     <li>commonSuffix->ux</li>
   -->
-  <NamerXenotype.rulePack.rulesStrings>TODO</NamerXenotype.rulePack.rulesStrings>
+  <NamerXenotype.rulePack.rulesStrings>
+    <li>r_name(p=1)->[anyPrefix][anySuffix]</li>
+    <li>r_name(p=0.1)->[wholeName]</li>
+    <li>anyPrefix(p=2)->[genePrefix]</li>
+    <li>anyPrefix->[commonPrefix]</li>
+    <li>anySuffix->[geneSuffix]</li>
+    <li>anySuffix(p=3)->[commonSuffix]</li>
+    <li>commonPrefix->異種</li>
+    <li>commonPrefix->遠古</li>
+    <li>commonPrefix->非</li>
+    <li>commonPrefix->外來</li>
+    <li>commonPrefix->亞</li>
+    <li>commonPrefix->外</li>
+    <li>commonPrefix->試管</li>
+    <li>commonPrefix->實驗</li>
+    <li>commonPrefix->莢</li>
+    <li>commonPrefix->細胞</li>
+    <li>commonPrefix->代</li>
+    <li>commonPrefix->武裝</li>
+    <li>commonPrefix->科</li>
+    <li>commonPrefix->魅</li>
+    <li>commonPrefix->去甲基</li>
+    <li>commonPrefix->超越</li>
+    <li>commonPrefix->全</li>
+    <li>commonPrefix->接近</li>
+    <li>commonPrefix->矽</li>
+    <li>commonPrefix->超</li>
+    <li>commonPrefix->異</li>
+    <li>commonSuffix->種</li>
+    <li>commonSuffix->族</li>
+    <li>commonSuffix(p=3)->人</li>
+    <li>commonSuffix(p=2)->者</li>
+    <li>commonSuffix->家</li>
+    <li>commonSuffix->子</li>
+    <li>commonSuffix->類</li>
+  </NamerXenotype.rulePack.rulesStrings>
   
 </LanguageData>
