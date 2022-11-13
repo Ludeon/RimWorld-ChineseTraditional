@@ -44,10 +44,10 @@
   <LetterMechanitorCasketFound>你發現了一個御機使休眠艙!\n\n打開它瞧瞧裡面有什麼。</LetterMechanitorCasketFound>
   
   <!-- Pawns lost because map closed (including mechs) -->
-  <!-- EN: Your caravan has been lost. The following people, animals and mechs have been lost with it -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>你的旅隊失蹤了。以下的人員、動物和機械族失蹤</LetterPawnsLostIncMechsBecauseMapClosed_Caravan><!-- text_todo -->
-  <!-- EN: The following people, animals and mechs have been abandoned -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Home>以下的人員、動物和機械族被遺棄</LetterPawnsLostIncMechsBecauseMapClosed_Home><!-- text_todo -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>你的旅隊失蹤了。以下的人員、動物和機械族失蹤</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>以下的人員、動物和機械族被遺棄</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
   <!-- Children -->
@@ -114,10 +114,14 @@
   <Immediately>立刻</Immediately>
   <!-- EN: within -->
   <Within>內</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>嬰兒被取了乳名{0_nameFull}。你可以在出生後{1}內改名。</LetterPartNameBaby>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>嬰兒被取了乳名{0_nameFull}。</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>你可以在出生後{0}內改名。</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>你想要為嬰兒另取新名嗎?</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>嬰兒被取了乳名{0_nameFull}。在嬰兒出生滿{1}歲之前你可以隨時改名。</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>嬰兒被取了乳名{0_nameFull}。在嬰兒出生滿{1}歲之前你可以隨時改名。</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME}的成長時刻</BirthdayGrowthMoment>
@@ -140,7 +144,11 @@
   <BirthdayPassionArchive>熱情增加了{0}。</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>獲得了{0}特性。</BirthdayTraitArchive>
-  
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>沒有特性</BirthdayNoTraitChoice> <!-- text_todo -->
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>{0}沒有獲得特性。</BirthdayNoTraitChoiceTooltip> <!-- text_todo -->
+
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>選擇完即可關閉</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -170,8 +178,16 @@
   <XenogermOrderedImplantedMedicineNeeded>\n\n你沒有足夠藥品來移植異種細胞。須待你得到{MEDICNENEEDED}藥品才能進行移植。</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>昏倒絕息</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef}陷入絕息狀態。</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>再生昏迷</LetterLabelRegenerationComa><!-- text_todo -->
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef}的絕息基因防止了{PAWN_objective}的死亡。{HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa><!-- text_todo -->
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>取而代之，{PAWN_pronoun}陷入絕息狀態了。</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>取而代之，{PAWN_pronoun}陷入再生昏迷了。</LetterTextRegenerationComa>
+  <!-- EN: As a result of the traumatic process, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>由於受到重傷，{PAWN_nameDef}的{SKILL}技能損失了{XPLOSS}點經驗。</DeathrestLostSkill><!-- text_todo -->
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>受到致命傷害。</DeathrestLethalDamage>
 
@@ -192,5 +208,14 @@
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>本能驅使下，{BONDPAWN_nameDef}與{OTHERPAWN_nameDef}建立了心靈羈絆。{OTHERPAWN_nameDef}的精神因為與{BONDPAWN_nameDef}的羈絆而有所提升，但如果他們分隔兩地，雙方都會陷入精神壓力。甚至如果一方死亡，另一方就會發瘋。</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>心靈羈絆</LetterPsychicBondCreatedLovinLabel><!-- text_todo -->
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}與{OTHERPAWN_nameDef}建立了心靈羈絆。{OTHERPAWN_nameDef}的精神因為與{BONDPAWN_nameDef}的羈絆而有所提升，但如果他們分隔兩地，雙方都會陷入精神壓力。甚至如果一方死亡，另一方就會發瘋。</LetterPsychicBondCreatedLovinText><!-- text_todo -->
+
+  <!-- UNUSED -->
+  <LetterPartNameBaby>嬰兒被取了乳名{0_nameFull}。你可以在出生後{1}內改名。</LetterPartNameBaby>
+  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef}陷入絕息狀態。</LetterTextInvoluntaryDeathrest>
 
 </LanguageData>

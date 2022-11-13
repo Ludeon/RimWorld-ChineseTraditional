@@ -25,6 +25,8 @@
   <CaravanMech>1機械族</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0}機械族</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>裝著{APPAREL}的{BOSS}</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -113,6 +115,8 @@
   <WaitingFor>等待</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>斷線</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>{0}襲來</BossgroupIncoming><!-- text_todo -->
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -166,7 +170,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef}應要盡快絕息避免陷入虛弱。</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>是否讓{PAWN_nameDef}在{PAWN_possessive}血原低於{MIN}時自動攝取血原包。\n\n現在是{ONOFF}。</AutoTakeHemogenDesc><!-- text_todo -->
+  <AutoTakeHemogenDesc>是否讓{PAWN_nameDef}在{PAWN_possessive}血原低於{MIN}時自動攝取血原包。\n\n現在是{ONOFF}。</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>攝取血原若低於</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -273,6 +277,10 @@
   <EjectAllDesc>把所有裝載的基因包丟到地上。</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>裝載的基因包</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>自動裝載</GenepackAutoLoad><!-- text_todo -->
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>打開後，搬運工會自動把此基因包存進基因庫。</GenepackAutoLoadDesc><!-- text_todo -->
   <!-- EN: Forced traits -->
   <ForcedTraits>強制特性</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -391,8 +399,8 @@
   <WaitingForPawn>等待{PAWN_nameDef}。</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>從{PAWN_nameDef}抽取基因。</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
-  <ExtractionPausedNoPower>暫停基因抽取︰未通電</ExtractionPausedNoPower>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>暫停基因抽取︰未通電({TIME}內停止)</ExtractionPausedNoPower><!-- text_todo -->
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>最後攝取{CHEMICAL_label}是在{DURATION}前。</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -602,7 +610,7 @@
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>等待材料</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>以下材料必須先裝填</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
+  <SubcoreScannerWaitingForIngredientsDesc>以下材料必須先裝填</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>患有{0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -695,8 +703,10 @@
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>最近取卵了</SurgeryDisableReasonOvumExtracted>
+  <!-- EN: Fertilize -->
+  <Fertilize>授精</Fertilize>
   <!-- EN: Fertilize {0_label} -->
-  <Fertilize>對{0_label}授精</Fertilize><!-- text_todo -->
+  <FertilizeThing>對{0_label}授精</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>無法授精</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->

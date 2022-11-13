@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>retaliationLetterLabel->wastepack retaliation</li>
+    <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] wastepack retaliation</li>
+    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef]'s wastepack retaliation</li>
+    <li>retaliationLetterText(senderIsNull==True)->Your pollution has not gone unnoticed, angered neighbours are bombarding your base with toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_nameFull], a [sender_royalTitleInCurrentFaction] of [sender_faction_name] is bombarding your base with toxic wastepacks. [sender_pronoun] claims that your reckless polluting has done harm to [sender_possessive] faction.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_nameFull] of [sender_faction_name] is bombarding your base with toxic wastepacks. [sender_pronoun] claims that your reckless polluting has done harm to [sender_possessive] faction.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+  -->
+  <PollutionRetaliation.questContentRules.rulesStrings>
+    <li>retaliationLetterLabel->廢料袋反擊</li>
+    <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular]的廢料袋反擊</li>
+    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef]的廢料袋反擊</li>
+    <li>retaliationLetterText(senderIsNull==True)->你的污染並非無人知曉，鄰居們生氣得要向你的殖民地投射廢料袋。\n\n如果廢料袋沒被冷凍，就會隨時間逐漸分解，污染周圍的地帶。</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_nameFull]，[sender_faction_name]的[sender_royalTitleInCurrentFaction]正向你的殖民地投射廢料袋。[sender_pronoun]投訴你的魯莽污染行為危害到[sender_possessive]派系。\n\n如果廢料袋沒被冷凍，就會隨時間逐漸分解，污染周圍的地帶。</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_name]的[sender_faction_leaderTitle][sender_nameFull]正向你的殖民地投射廢料袋。[sender_pronoun]投訴你的魯莽污染行為危害到[sender_possessive]派系。\n\n如果廢料袋沒被冷凍，就會隨時間逐漸分解，污染周圍的地帶。</li>
+    </PollutionRetaliation.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->pollutionretaliation</li>
+  -->
+  <PollutionRetaliation.questDescriptionRules.rulesStrings>
+    <li>questDescription->污染反擊</li>
+  </PollutionRetaliation.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->pollutionretaliation</li>
+  -->
+  <PollutionRetaliation.questNameRules.rulesStrings>
+    <li>questDescription->污染反擊</li>
+  </PollutionRetaliation.questNameRules.rulesStrings>
+  
+</LanguageData>

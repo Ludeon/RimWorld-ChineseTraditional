@@ -28,15 +28,25 @@
   <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
   <Fertility.description>生育能力影響懷孕的機率。懷孕機率取決於雙方的生育能力。這也會影響代孕植入胚胎時的成功率。</Fertility.description>
   
+  <!-- EN: growth vat occupant speed -->
+  <GrowthVatOccupantSpeed.label>發育速度</GrowthVatOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
+  <GrowthVatOccupantSpeed.description>發育艙中的人成長速度的倍率。</GrowthVatOccupantSpeed.description>
+  
   <!-- EN: hemogen gain multiplier -->
   <HemogenGainFactor.label>血原獲取倍率</HemogenGainFactor.label>
   <!-- EN: A multiplier on the amount of hemogen gained. -->
   <HemogenGainFactor.description>獲取血原數量的倍率。</HemogenGainFactor.description>
   
+  <!-- EN: learning rate factor -->
+  <LearningRateFactor.label>學習速度</LearningRateFactor.label>
+  <!-- EN: A multiplier on how quickly a child's learning need rises from learning activities. -->
+  <LearningRateFactor.description>兒童從學習活動中滿足學習需求的速度。</LearningRateFactor.description>
+  
   <!-- EN: mech bandwidth -->
   <MechBandwidth.label>機械族頻寬</MechBandwidth.label>
   <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
-  <MechBandwidth.description>表示御機使有多少頻寬。更多的頻寬允許御機使製造和操控共多的機械族。\n\n失去頻寬就表示失去對機械族的操控，使它們沒有監督者。如果不重新駕馭，最終會變為失控機械人。</MechBandwidth.description>
+  <MechBandwidth.description>御機使擁有的頻寬。更多的頻寬允許御機使製造和操控更多的機械族。\n\n失去頻寬就表示失去對機械族的操控，使它們沒有監督者。如果不重新駕馭，最終會變為失控機械人。</MechBandwidth.description>
   
   <!-- EN: mech control groups -->
   <MechControlGroups.label>機械操控組</MechControlGroups.label>

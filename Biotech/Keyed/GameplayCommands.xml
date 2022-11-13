@@ -50,4 +50,13 @@
   <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
   <CommandToggleTurretDesc>切換砲塔是否自動開火攻擊。\n\n若關閉，砲塔將不會自動開火攻擊。此功能有助於進行偷襲敵人的行動。</CommandToggleTurretDesc>
 
+  <!-- EN: Cancel scan -->
+  <CommandCancelSubcoreScan>取消掃描</CommandCancelSubcoreScan><!-- text_todo -->
+  <!-- EN: Cancel the scan process. The contained person will be ejected. -->
+  <CommandCancelSubcoreScanDesc>取消掃描工作。內裡的人會被彈出。</CommandCancelSubcoreScanDesc><!-- text_todo -->
+
+  <!-- EN: Force xenogerm implantation -->
+  <ForceXenogermImplantation>強制移植異種細胞</ForceXenogermImplantation><!-- text_todo -->
+  <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target’s xenogenes. Germline genes will be unaffected. -->
+  <ForceXenogermImplantationDesc>強制此人對另一人利用特殊的注射器官移植其異種細胞。如果此人的基因正在再生，他們會因此而死。\n\n移植後，異種細胞會覆蓋目標原有的異種基因。種系基因不受影響。</ForceXenogermImplantationDesc><!-- text_todo -->
 </LanguageData>

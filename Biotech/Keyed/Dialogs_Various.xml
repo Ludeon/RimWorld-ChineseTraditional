@@ -22,12 +22,14 @@
   <ConfirmInstallMechlink>一名御機使必須能夠進行鍛造工作才能製造機械族\n\n你確定要繼續嗎?</ConfirmInstallMechlink>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>頻寬不足</InsufficientBandwidth>
+  <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
+  <MechanitorLeftMapWithoutMechs>以下機械族被{PAWN_labelShort}拋下了︰\n\n{MECHS}\n\n機械族會留在原地直至被帶走。\n\n你要把他們的工作模式設為護送，讓他們隨{PAWN_labelShort}離開地圖嗎?</MechanitorLeftMapWithoutMechs><!-- text_todo -->
 
   <!-- Apparel -->
   <!-- EN: Any mechlord apparel -->
-  <ApparelRequirementAnyMechlordApparel>任何御機王服裝</ApparelRequirementAnyMechlordApparel> <!-- text_todo -->
+  <ApparelRequirementAnyMechlordApparel>任何御機王服裝</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>或任何心靈、威嚴或御機王服裝</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord> <!-- text_todo -->
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>或任何心靈、威嚴或御機王服裝</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
@@ -38,6 +40,8 @@
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
   <ConfirmRipscanPawn>強性掃描{PAWN_nameDef}會將{PAWN_objective}殺死。你確定要繼續嗎?</ConfirmRipscanPawn>
+  <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
+  <ConfirmCancelRipscan>取消強性掃描仍會殺死{PAWN_nameDef}。你確定要繼續嗎?</ConfirmCancelRipscan><!-- text_todo -->
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
@@ -241,7 +245,7 @@
   <!-- EN: Any mech -->
   <AnyMech>任何機械族</AnyMech>
   <!-- EN: Any human -->
-  <AnyNonMech>何何人類</AnyNonMech> <!-- text_todo -->
+  <AnyNonMech>任何人類</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
   <CaravanLacksMechMechanitorWarning>你的旅隊帶上機械族但沒有帶上其監督者。當你到達目的地時，只能有限地操控機械族。</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
@@ -353,7 +357,7 @@
   <AbilityMustHaveTendableWound>{0_labelShort}必須有可治療的傷口。</AbilityMustHaveTendableWound>
 
   <!-- Abandon home (including mechs) -->
-  <!-- EN: Some of your colonists, animals or mechs are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawnsIncMechs>有些你的殖民者、動物或機械族還在此區域。你確定要拋棄他們？\n\n以下人員、動物及機械族將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs><!-- text_todo -->
+  <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>有些你的殖民者、動物或機械族還在此區域。你確定要拋棄他們？\n\n以下人員、動物及機械族將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
 
 </LanguageData>
