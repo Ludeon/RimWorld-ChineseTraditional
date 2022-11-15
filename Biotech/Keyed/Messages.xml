@@ -84,11 +84,11 @@
   <!-- EN: Cannot create a xenogerm with no genes. -->
   <MessageNoSelectedGenepacks>無法創造沒有基因的異種細胞。</MessageNoSelectedGenepacks>
   <!-- EN: Cannot create a xenotype with no genes. -->
-  <MessageNoSelectedGenes>無法創造沒有基因的異種型。</MessageNoSelectedGenes>
+  <MessageNoSelectedGenes>無法創造沒有基因的異種人。</MessageNoSelectedGenes>
   <!-- EN: {0_label} can only store {1} genepacks. -->
   <CanOnlyStoreNumGenepacks>{0_label}只能儲存{1}個基因包。</CanOnlyStoreNumGenepacks>
   <!-- EN: Xenotype name cannot be empty. -->
-  <XenotypeNameCannotBeEmpty>異種型名字不可為空。</XenotypeNameCannotBeEmpty>
+  <XenotypeNameCannotBeEmpty>異種人名字不可為空。</XenotypeNameCannotBeEmpty>
   <!-- EN: {0} lacks a prerequisite gene -->
   <MessageGeneMissingPrerequisite>{0}欠缺必備的基因。</MessageGeneMissingPrerequisite>
 
@@ -129,9 +129,9 @@
   <MessageChildcareNotAssigned>{FEEDER_labelShort}未被指派育兒工作。</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>你的自訂異種型數目已達上限。你必須刪除一些才能創造新的。</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>你的自訂異種人數目已達上限。你必須刪除一些才能創造新的。</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>無法儲存帶有衝突基因的異種型。</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>無法儲存帶有衝突基因的異種人。</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
   <MessageDeathrestBuildingBound>{BUILDING_labelShort}已連接到{PAWN_nameDef}({CUR}/{MAX}絕息容量)。</MessageDeathrestBuildingBound>

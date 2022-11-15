@@ -258,7 +258,7 @@
   <!-- EN: genes -->
   <Genes>基因</Genes>
   <!-- EN: The genes associated with this xenotype. -->
-  <GenesDesc>伴隨此異種型的基因</GenesDesc>
+  <GenesDesc>伴隨此異種人的基因</GenesDesc>
   <!-- EN: suppressed -->
   <Suppressed>抑制</Suppressed>
   <!-- EN: active -->
@@ -360,7 +360,7 @@
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
   <ImplantXenogermWarningDesc>移植異種細胞會讓{PAWN_nameDef}因異種細胞融入其體內而陷入昏迷。一般這場昏迷會持續{COMADURATION}。昏迷時間的長度取決於醫生的醫療技能和你的醫療設備的品質。</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>而且，移植異種細胞會覆蓋現有的異種基因。{PAWN_nameDef}現有的異種型為「{XENOTYPE}」。{PAWN_pronoun}擁有以下異種基因︰\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>而且，移植異種細胞會覆蓋現有的異種基因。{PAWN_nameDef}現有的異種人為「{XENOTYPE}」。{PAWN_pronoun}擁有以下異種基因︰\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>移植過後，{PAWN_nameDef}的新陳代謝會變成{MET}而食物消耗倍率變成{CONSUMPTION}。</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
@@ -370,7 +370,7 @@
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
   <CancelImplantingDesc>取消為{PAWN_nameDef}移植此異種細胞。</CancelImplantingDesc>
   <!-- EN: Xenotype -->
-  <Xenotype>異種型</Xenotype>
+  <Xenotype>異種人</Xenotype>
   <!-- EN: unique -->
   <Unique>獨特</Unique>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->

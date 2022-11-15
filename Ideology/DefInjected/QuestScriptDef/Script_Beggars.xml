@@ -72,7 +72,7 @@
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef]想要[beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->這群[groupLabelPlural]想要[beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef]需要白銀去支付給海賊團伙的欠債，他們正在追捕[beggars0_objective]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef]需要白銀去贖回被海盜們奴役的姊姊。</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef]需要白銀去贖回被海賊們奴役的姊姊。</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef]需要藥品去治療附近一位受傷的流浪者。</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef]需要藥品去治療[beggars0_possessive]在附近受傷的小弟弟。</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef]需要藥品去治療[beggars0_possessive]的愛寵，牠在路上受傷了</li>

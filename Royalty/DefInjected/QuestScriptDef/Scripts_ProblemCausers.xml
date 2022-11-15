@@ -6,7 +6,7 @@
     <li>questDescription(siteFaction==Mechanoids)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   -->
   <ProblemCauser.questDescriptionRules.rulesStrings>
-    <li>questDescription(siteFaction==Pirate)->海盜在[map_definite]附近建立了哨站騷擾你。[allSitePartsDescriptions]\n\n哨站會一直停留，直到你派遣一支隊伍去進行殲滅。</li>
+    <li>questDescription(siteFaction==Pirate)->海賊在[map_definite]附近建立了哨站騷擾你。[allSitePartsDescriptions]\n\n哨站會一直停留，直到你派遣一支隊伍去進行殲滅。</li>
     <li>questDescription(siteFaction==Mechanoids)->機械軍團降落在[map_definite]的不遠處。[allSitePartsDescriptions]\n\n機械軍團會一直停留，直到你派遣一支隊伍去進行殲滅。</li>
   </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -14,7 +14,7 @@
     <li>questName(siteFaction==Mechanoids)->Mech cluster with a [problemCauserLabel]</li>
   -->
   <ProblemCauser.questNameRules.rulesStrings>
-    <li>questName(siteFaction==Pirate)->海盜與[problemCauserLabel]</li>
+    <li>questName(siteFaction==Pirate)->海賊與[problemCauserLabel]</li>
     <li>questName(siteFaction==Mechanoids)->機械軍團與[problemCauserLabel]</li>
   </ProblemCauser.questNameRules.rulesStrings>
   <!-- EN: [problemCauserLabel] destroyed -->
