@@ -145,9 +145,9 @@
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>獲得了{0}特性。</BirthdayTraitArchive>
   <!-- EN: No trait -->
-  <BirthdayNoTraitChoice>沒有特性</BirthdayNoTraitChoice> <!-- text_todo -->
+  <BirthdayNoTraitChoice>沒有特性</BirthdayNoTraitChoice>
   <!-- EN: {0} does not gain a trait. -->
-  <BirthdayNoTraitChoiceTooltip>{0}沒有獲得特性。</BirthdayNoTraitChoiceTooltip> <!-- text_todo -->
+  <BirthdayNoTraitChoiceTooltip>{0}沒有獲得特性。</BirthdayNoTraitChoiceTooltip>
 
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>選擇完即可關閉</BirthdayMakeChoices>
@@ -179,15 +179,15 @@
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>昏倒絕息</LetterLabelInvoluntaryDeathrest>
   <!-- EN: Regeneration coma -->
-  <LetterLabelRegenerationComa>再生昏迷</LetterLabelRegenerationComa><!-- text_todo -->
+  <LetterLabelRegenerationComa>再生昏迷</LetterLabelRegenerationComa>
   <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
-  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef}的絕息基因防止了{PAWN_objective}的死亡。{HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa><!-- text_todo -->
+  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef}的絕息基因防止了{PAWN_objective}的死亡。{HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
   <LetterTextDeathrest>取而代之，{PAWN_pronoun}陷入絕息狀態了。</LetterTextDeathrest>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
   <LetterTextRegenerationComa>取而代之，{PAWN_pronoun}陷入再生昏迷了。</LetterTextRegenerationComa>
-  <!-- EN: As a result of the traumatic process, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
-  <DeathrestLostSkill>由於受到重傷，{PAWN_nameDef}的{SKILL}技能損失了{XPLOSS}點經驗。</DeathrestLostSkill><!-- text_todo -->
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>由於創傷性絕息造成的神經休克，{PAWN_nameDef}的{SKILL}技能損失了{XPLOSS}點經驗。</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>受到致命傷害。</DeathrestLethalDamage>
 
@@ -210,9 +210,9 @@
   <LetterPsychicBondCreated>本能驅使下，{BONDPAWN_nameDef}與{OTHERPAWN_nameDef}建立了心靈羈絆。{OTHERPAWN_nameDef}的精神因為與{BONDPAWN_nameDef}的羈絆而有所提升，但如果他們分隔兩地，雙方都會陷入精神壓力。甚至如果一方死亡，另一方就會發瘋。</LetterPsychicBondCreated>
 
   <!-- EN: Psychic bond -->
-  <LetterPsychicBondCreatedLovinLabel>心靈羈絆</LetterPsychicBondCreatedLovinLabel><!-- text_todo -->
+  <LetterPsychicBondCreatedLovinLabel>心靈羈絆</LetterPsychicBondCreatedLovinLabel>
   <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}與{OTHERPAWN_nameDef}建立了心靈羈絆。{OTHERPAWN_nameDef}的精神因為與{BONDPAWN_nameDef}的羈絆而有所提升，但如果他們分隔兩地，雙方都會陷入精神壓力。甚至如果一方死亡，另一方就會發瘋。</LetterPsychicBondCreatedLovinText><!-- text_todo -->
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}與{OTHERPAWN_nameDef}建立了心靈羈絆。{OTHERPAWN_nameDef}的精神因為與{BONDPAWN_nameDef}的羈絆而有所提升，但如果他們分隔兩地，雙方都會陷入精神壓力。甚至如果一方死亡，另一方就會發瘋。</LetterPsychicBondCreatedLovinText>
 
   <!-- UNUSED -->
   <LetterPartNameBaby>嬰兒被取了乳名{0_nameFull}。你可以在出生後{1}內改名。</LetterPartNameBaby>

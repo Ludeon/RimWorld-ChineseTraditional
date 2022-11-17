@@ -77,14 +77,6 @@
   <VeneratedAnimalsBodySizePerColonist>附近人均總尺寸</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Expecting at least {0} body size per colonist. -->
   <MinAnimalBodySizePerColonist>期望有至少{0}人均尺寸</MinAnimalBodySizePerColonist>
-  <!-- EN: Plant {0_label} -->
-  <PlantThing>種植{0_label}</PlantThing>
-  <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>在選定的區域種植{0_label}</PlantThingDesc>
-  <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>取消種植{0_label}</CancelPlantThing>
-  <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>取消種植{0_label}</CancelPlantThingDesc>
   <!-- EN: Disables -->
   <Disables>禁用</Disables>
   <!-- EN: Requires one of precepts -->
@@ -604,7 +596,7 @@
   <!-- EN: Duration -->
   <BiosculpterPodCycleDuration>需時</BiosculpterPodCycleDuration>
   <!-- EN: Duration (transhumanists) -->
-  <BiosculpterPodCycleDurationTranshumanists>需時(仿生主義)</BiosculpterPodCycleDurationTranshumanists>
+  <BiosculpterPodCycleDurationTranshumanists>需時(超人類主義)</BiosculpterPodCycleDurationTranshumanists>
   <!-- EN: Ready for cycle selection -->
   <BiosculpterPodCycleSelection>準備選擇療程</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
@@ -614,7 +606,7 @@
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>完結於</BiosculpterCycleTimeRemaining>
   <!-- EN: accelerated for transhumanists -->
-  <BiosculpterCycleAccelerated>仿生主義加速</BiosculpterCycleAccelerated>
+  <BiosculpterCycleAccelerated>超人類主義加速</BiosculpterCycleAccelerated>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
   <BiosculpterCycleNoPowerInterrupt>暫停︰停電(在{TIME}後中斷)</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
