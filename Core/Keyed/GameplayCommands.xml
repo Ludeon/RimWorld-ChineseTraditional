@@ -142,9 +142,9 @@
   <CommandAllowSowDesc>禁止播種後，殖民者不會在此區域種植植物。但他們還是會收獲植物。</CommandAllowSowDesc>
 
   <!-- EN: Allow cutting -->
-  <CommandAllowCut>允許收穫</CommandAllowCut>
+  <CommandAllowCut>允許裁剪</CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
-  <CommandAllowCutDesc>禁止收穫後，殖民者不會在此區域收穫植物。但他們還是會在已經空出的空間種植新的植物，並收穫種植區指定的植物類型。</CommandAllowCutDesc>
+  <CommandAllowCutDesc>禁止裁剪後，殖民者不會裁剪此區域的植物。但他們還是會在本來空出的空間種植新的植物，並只收穫種植區指定的植物類型。</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
   <CommandSelectStoredThing>選取{0_label}</CommandSelectStoredThing>
