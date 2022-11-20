@@ -10,6 +10,11 @@
   <!-- EN: unclothed -->
   <StatsReport_Unclothed>裸體</StatsReport_Unclothed>
 
+  <!-- EN: Age rate multiplier -->
+  <StatsReport_AgeRateMultiplier>成長速度倍率</StatsReport_AgeRateMultiplier><!-- text_todo -->
+  <!-- EN: A multiplier on how quickly this person ages biologically based on their current age. -->
+  <StatsReport_AgeRateMultiplier_Desc>基於此人目前年齡，其年老的速度倍率。</StatsReport_AgeRateMultiplier_Desc><!-- text_todo -->
+
   <!-- EN: Required weight class -->
   <StatsReport_RechargerWeightClass>量級要求</StatsReport_RechargerWeightClass>
   <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
@@ -125,6 +130,7 @@
 
   <!-- EN: Growth vat speed -->
   <StatsReport_GrowthVatSpeedFactor>發育艙速度</StatsReport_GrowthVatSpeedFactor>
+
   <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
   <GeneToleranceBuildupImmune>擁有者不會對{0_label}累積耐受性。</GeneToleranceBuildupImmune><!-- text_todo -->
   <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
