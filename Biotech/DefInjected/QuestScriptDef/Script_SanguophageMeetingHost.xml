@@ -28,7 +28,7 @@
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
-    <li>questDescription->一名噬血者[asker_nameDef]正尋找一處安全地點來與其他[sanguophageCountMinusOne]名[sanguophageSingOrPlural]進行會議，以防被人跟蹤。他們的主持人[asker_nameDef]現請求你讓他們在[map_definite]舉行會議。\n\n若你同意，[sanguophageCount]名噬血者將從四方八面來到[map_definite]。他們會用上幾小時討論完他們的秘密才會離開。他們承諾事成後會留下禮物。n\n你可以選擇背叛噬血者們並攻擊他們。你可以強迫倒下的噬血者把你的一名殖民者變成噬血者。\n\n[sanguophageInfo]</li>
+    <li>questDescription->一名噬血者[asker_nameDef]正尋找一處安全地點來與其他[sanguophageCountMinusOne]名[sanguophageSingOrPlural]進行會議，以防被人跟蹤。他們的主持人[asker_nameDef]現請求你讓他們在[map_definite]舉行會議。\n\n若你同意，[sanguophageCount]名噬血者將從四方八面來到[map_definite]。他們會用上幾小時討論完他們的秘密才會離開。他們承諾事成後會留下禮物。\n\n你可以選擇背叛噬血者們並攻擊他們。你可以強迫倒下的噬血者把你的一名殖民者變成噬血者。\n\n[sanguophageInfo]</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->噬血者</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->噬血者</li>
     <li>sanguophageInfo->(*Gray)關於噬血者：噬血者不老不死，他們是血液中含有遠古分子的超級人類。他們既美麗，也極聰明。他們可以治療所有傷口，並無視所有疾病與毒素。戰鬥時，他們可以發射致命的骨刺，另一頭治療受傷的戰友。相對的，噬血者必須消耗從人類鮮血提取的血原才能生存，而且他們須定期進入絕息一段時間。他們的弱點是火攻，若在紫外光下移動會減慢。(/Gray)</li>
