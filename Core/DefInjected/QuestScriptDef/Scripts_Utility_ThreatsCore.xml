@@ -15,8 +15,8 @@
       <li>root(priority=1,sitePart==RaidSource)->這有一塊被(*Threat)[enemiesLabel]x[enemiesCount](/Threat)防守的軍事集結區，他們每[mtbDays]天就會對你發動襲擊</li>
       <li>root(priority=1,sitePart==Outpost)->那裡有(*Threat)[enemiesLabel]x[enemiesCount](/Threat)防衛的哨站</li>
       <li>root(priority=1,sitePart==BanditCamp)->那裡有(*Threat)[enemiesLabel]x[enemiesCount](/Threat)防衛的土匪營地</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->有(*Threat)狂暴的[kindLabel]x1(/Threat)在附近徘徊</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->有(*Threat)狂暴的[kindLabel]x[count](/Threat)在附近徘徊</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->有(*Threat)狂亂的[kindLabel]x1(/Threat)在附近徘徊</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->有(*Threat)狂亂的[kindLabel]x[count](/Threat)在附近徘徊</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->附近有休眠中的(*Threat)機械族x1(/Threat)</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->附近有休眠中的(*Threat)機械族x[count](/Threat)</li>
       <li>root(priority=1,sitePart==Turrets)->有(*Threat)[threatsInfo](/Threat)防衛這個地點</li>
