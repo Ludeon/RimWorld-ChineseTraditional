@@ -562,6 +562,8 @@
   <Cost>消費</Cost>
   <!-- EN: Title -->
   <BackstoryTitle>標題</BackstoryTitle><!-- text_todo -->
+  <!-- EN: person -->
+  <Person>人</Person>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1809,6 +1811,13 @@
   <CancelPlantThing>取消種植{0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
   <CancelPlantThingDesc>取消種植{0_label}</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>另一個聚會正在進行中。</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>準備下一個演講</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>發起於</AbilitySpeechTargetsLabel>
 
   <!-- UNUSED -->
   <PawnMainDescTempFactionedWrap>{1}下屬的{0}\n原派系：{2}</PawnMainDescTempFactionedWrap>

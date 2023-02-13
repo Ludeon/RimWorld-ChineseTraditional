@@ -102,28 +102,6 @@
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
   <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}檢測到{PAWN_labelShort}被非法使用:{CULPRIT}(detection chance{CHANCE}).\n\n根據{FACTION_name}的法律，只有擁有{TITLE}頭銜的人才能使用{CULPRIT}。\n\n作為懲罰，與你的派系關係下降了{GOODWILL}。</LetterLawViolationDetectedForbiddenThingUse>
 
-  <!-- Throne Speech -->
-  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>{ORGANIZER_labelShort}完成了{ORGANIZER_possessive}演講。</LetterFinishedSpeech>
-  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
-  <LetterTerribleSpeech>糟透了，令人尷尬的笑話和不知所云的故事。</LetterTerribleSpeech>
-  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
-  <LetterUninspiringSpeech>平淡無奇的演說，乏味的語句裡沒有一絲激情可言。</LetterUninspiringSpeech>
-  <!-- EN: It was encouraging and well-delivered. -->
-  <LetterEncouragingSpeech>演說振奮人心，傳遞的訊息十分明確。</LetterEncouragingSpeech>
-  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
-  <LetterInspirationalSpeech>激情澎湃的演說，充滿了昂揚的鬥志與堅定的目標。</LetterInspirationalSpeech>
-  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
-  <LetterSpeechInspiredListeners>這些人被這場演講感動，現在受到啟發：</LetterSpeechInspiredListeners>
-  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>由於{SPEAKER_nameIndef}的精彩演講，{PAWN_nameIndef}獲得了激勵！</LetterSpeechInspiration>
-  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>由於演講進度在{0}後被打斷，因此效果不佳。</LetterSpeechInterrupted>
-  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>{0}的演講在講到50%前被取消。因此沒有效果。</LetterSpeechCancelled>
-  <!-- EN: Speech cancelled -->
-  <LetterLabelSpeechCancelled>演講被取消了</LetterLabelSpeechCancelled>
-
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
   <WildDecree>強制命令</WildDecree>
