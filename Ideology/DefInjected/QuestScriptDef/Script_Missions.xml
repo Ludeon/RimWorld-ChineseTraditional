@@ -45,7 +45,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef]，[asker_faction_name]的[asker_faction_leaderTitle]發現遠方有一處遠古建築物。[asker_pronoun]認為那裡載有關於聖物[relic_name]的情報。\n\n[asker_nameDef]無法分派人員去調查它，但希望你能提供[colonistCount]名[colonistsSingularOrPlural]去調查。\n\n建築群存在著未知的危險，並且也被[asker_nameDef]的敵人，[enemyFaction_name]，覷覦著。\n\n[asker_pronoun]會派一艘太空梭來接載你的人員，帶他們前往建築群，並在事成後帶他們回家。他們在路上會被悉心照料。\n\n當你到埗後，你必須在[timeoutTicks_duration]內破解所有在建築群的終端機。</li>
+    <li>questDescription->[asker_nameDef]，[asker_faction_name]的[asker_faction_leaderTitle]發現遠方有一處遠古建築物。 [asker_pronoun]認為那裡載有關於聖物[relic_name]的情報。\n\n[asker_nameDef]無法分派人員去調查它，但希望你能提供[colonistCount]名[colonistsSingularOrPlural]去調查。\n\n建築群存在著未知的危險，並且也被[asker_nameDef]的敵人，[enemyFaction_name]，覷覦著。\n\n[asker_pronoun]會派一艘太空梭來接載你的人員，帶他們前往建築群，並在事成後帶他們回家。他們在路上會被悉心照料。\n\n當你到埗後，你必須在[timeoutTicks_duration]內破解所有在建築群的終端機。</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->位殖民者</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->位殖民者</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>

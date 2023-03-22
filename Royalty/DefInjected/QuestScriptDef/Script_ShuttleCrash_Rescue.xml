@@ -37,7 +37,7 @@
     <li>rescueShuttleArrivedLetterLabel->救援飛船抵達</li>
     <li>rescueShuttleArrivedLetterText->前來救援[pawnLabelSingleOrPlural]的救援飛船已經抵達。確保在[leaveDelay_duration]使這些人登上飛船：\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->任務完成：[resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc]順利逃生。[asker_pronoun]非常感激[asker_pronoun]能得到[map_definite]的援助。\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc]順利逃生。 [asker_pronoun]非常感激[asker_pronoun]能得到[map_definite]的援助。\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->任務完成：[resolvedQuestName]</li>
     <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc]順利逃生。\n\n但[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->任務失敗：[resolvedQuestName]</li>
@@ -47,7 +47,7 @@
     <li>askerDiedLetterLabel->任務失敗：[resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc]死了。\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->任務失敗：[resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->負責援救[asker_faction_pawnsPlural]的飛船摧毀了。[asker_faction_pawnsPlural]現在將試圖步行離開。\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterText->負責援救[asker_faction_pawnsPlural]的飛船摧毀了。 [asker_faction_pawnsPlural]現在將試圖步行離開。\n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
