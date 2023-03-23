@@ -155,7 +155,7 @@
     <li>lodgersPossessive(lodgerCount>=2)->他們的</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo][claimInfo][asker_nameDef]請求你讓[lodgersPronoun]在[map_definite]待上[questDurationTicks_duration]來重整旗鼓。\n\n作為回報，[lodgersPronoun][offer]在此期間內免費為你工作和戰鬥。\n\n[joinInfo][lodgersPronoun]也可能會在事後感謝你對[lodgersObjective]的幫助 — 但你不會知曉[lodgersPossessive]實際如何打算。\n\n[travelerInfo]不屬於任何派系。你可以選擇殺害、逮捕、販售或屠宰[lodgersObjective]，不會影響外交效果。</li>
+    <li>questDescription->[approachInfo][claimInfo][asker_nameDef] 請求你讓[lodgersPronoun]在[map_definite]待上[questDurationTicks_duration]來重整旗鼓。\n\n作為回報，[lodgersPronoun][offer]在此期間內免費為你工作和戰鬥。\n\n[joinInfo][lodgersPronoun]也可能會在事後感謝你對[lodgersObjective]的幫助 — 但你不會知曉[lodgersPronoun]實際如何打算。\n\n[travelerInfo]不屬於任何派系。如果你想，也可以選擇殺害、逮捕、販售或屠宰[lodgersObjective]，而不會影響外交效果。</li>
     <li>approachInfo(lodgerCount==1)->名叫[asker_nameDef]的絕望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef]和其他絕望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef]正在帶著小孩靠近。</li>
@@ -170,7 +170,7 @@
     <li>claimInfo(lodgerCount>=2)->他們聲稱在最近一次襲擊中失去了家園。</li>
     <li>claimInfo(lodgerCount>=2)->他們聲稱逃離了器官採割手術。</li>
     <li>claimInfo(lodgerCount>=2)->他們說他們是從一個奴隸商隊中逃出來的。</li>
-    <li>claimInfo(lodgerCount>=2)->他們說一場枯萎病讓他們無法繼續在社區生存。</li>
+    <li>claimInfo(lodgerCount>=2)->他們說一場枯萎病讓他們無法繼續在部落生存。</li>
     <li>claimInfo(lodgerCount>=2)->他們說一場大風暴毀了他們的家園。</li>
     <li>claimInfo(lodgerCount>=2)->他們說他們的商隊遭到襲擊，所有的貨物都被搶走了。</li>
     <li>claimInfo(lodgerCount>=2)->他們說由於道德觀不同，他們被趕出了城鎮。</li>
