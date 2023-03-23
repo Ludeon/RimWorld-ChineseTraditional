@@ -208,11 +208,11 @@
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->機械族</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->機械族</li>
-    <li>threat->[joiner_possessive]的敵人</li>
+    <li>threat->[joiner_possessive]敵人</li>
     <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
     <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->機械族</li>
     <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->機械族</li>
-    <li>joinersEnemies->[joiner_possessive]的敵人</li>
+    <li>joinersEnemies->[joiner_possessive]敵人</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [site/site_label]</li>

@@ -19,7 +19,7 @@
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]需要一些人手幫忙[dutyDescription]。\n\n[asker_pronoun]請求你將派遣[colonistCountToLend]去為[asker_objective]服務[lendForDays]天。\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]需要一些人手幫忙[dutyDescription]。\n\n[asker_pronoun]請求你派遣[colonistCountToLend]去為[asker_objective]服務[lendForDays]天。\n\n[willSendShuttle]</li>
     <li>disease->流感</li>
     <li>disease->瘟疫</li>
     <li>disease->瘧疾</li>
@@ -65,15 +65,15 @@
   <PawnLend.DutyRulesAny.slateRef>
     <rulesStrings>
       <li>dutyDescription->收集收穫</li>
-      <li>dutyDescription->強化鄉村</li>
-      <li>dutyDescription->建立鄉村</li>
+      <li>dutyDescription->加強據點防禦</li>
+      <li>dutyDescription->建立據點</li>
       <li>dutyDescription->注意入侵者</li>
       <li>dutyDescription->建立醫院</li>
       <li>dutyDescription->阻截[disease]爆發</li>
     </rulesStrings>
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS}替[asker_faction_name]的[asker_nameFull][dutyRoyalDescription]之後回來了。</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS}替[asker_faction_name]的[asker_nameFull][dutyDescription]之後回來了。</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
     <rulesStrings>

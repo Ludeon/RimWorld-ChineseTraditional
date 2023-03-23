@@ -82,8 +82,8 @@
     <li>story(priority=-999)-></li>
     <li>setup->分崩離析的世界中，[founderName]感到世界過於敗壞，因而開始了我們的宗教。</li>
     <li>setup->因受夠了世界諸多不公不義之事，[founderName]著手研究歷史和哲學，最終發現了能夠指引我們的新真理。</li>
-    <li>setup->在稀鬆平常的勞動日，[founderName]一時頓悟，醍醐灌頂。[founder_pronoun]拋下了[founder_possessive]的工具並開始向周圍的勞工傳揚[founder_possessive]的信念。</li>
-    <li>setup->[founderName]在公園的長椅一邊打坐長達二十年，一邊環視我們的世界。憑[founder_possessive]的所見所聞，[founder_pronoun]寫出了我們的開教天經。</li>
+    <li>setup->在稀鬆平常的勞動日，[founderName]一時頓悟，醍醐灌頂。[founder_pronoun]拋下了[founder_possessive]工具並開始向周圍的勞工傳揚[founder_possessive]信念。</li>
+    <li>setup->[founderName]在公園的長椅一邊打坐長達二十年，一邊環視我們的世界。憑[founder_possessive]所見所聞，[founder_pronoun]寫出了我們的開教天經。</li>
     <li>story(uses=1,priority=-10)->如果沒有[founderName]的指引，[memberNamePlural]不可能了解到[memeConcept]的真諦。</li>
     <li>story(uses=1,priority=-10)->[founderName]在[ritualName]的講道啟發我們，帶領我們步向[memeAdjective]的生命。</li>
     <li>story(uses=1,priority=-10)->沒有人能超越[founderName]對於[memeConcept]的理解，而[founder_pronoun]正是[memberNamePlural]的首席[leaderTitle]。</li>
@@ -160,7 +160,7 @@
     <li>lessonAttribution(p=2)->[attributionSource_titleCase]，[founder_nameFull]字</li>
     <li>lessonAttribution->[founder_nameFull]給[believer_nameFull]的信</li>
     <li>lessonAttribution->[founder_nameFull]，基於[memeConference_titleCase]</li>
-    <li>lessonAttribution->[founder_nameFull]，[founder_possessive]的遺言</li>
+    <li>lessonAttribution->[founder_nameFull]，[founder_possessive]遺言</li>
     <li>lessonAttribution->[founder_nameFull]，處死前留下的話</li>
     <li>lessonAttribution->[founder_nameFull]，於[TerrainFeature]的[speech]</li>
     <li>lessonAttribution->[founder_nameFull]，於[Community]的[speech]</li>
@@ -198,7 +198,7 @@
     <li>lessonIntro->即使我是在[place_summary][place_name]過的童年，我知道</li>
     <li>lessonIntro->當年在[place_community]的學校，一名學生把[thrownObject]丟中我的頭。然後我醒悟到</li>
     <li>lessonIntro->我不是要你們活出像我一樣的人生，但你應當學會我所學會的事。那就是</li>
-    <li>lessonIntro->當醫生完成了[doctor_possessive]的高超手術，我終於了解</li>
+    <li>lessonIntro->當醫生完成了[doctor_possessive]高超手術，我終於了解</li>
     <li>lessonIntro->隨在[place_summary][place_name]經過的歲月，有一件事逐漸變得清晰：那就是</li>
     <li>lessonIntro->回望過去，我真希望我能早點發現——那就是</li>
     <li>lessonIntro->他們看起來很失落。而我告訴他們</li>
