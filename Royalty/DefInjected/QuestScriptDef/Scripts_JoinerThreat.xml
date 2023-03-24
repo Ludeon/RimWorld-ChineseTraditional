@@ -23,7 +23,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一位名叫[joiner_nameFull]的[introduction]請求我們幫助！[joiner_pronoun]一直在躲避[hidingFrom]。[joiner_pronoun]想要到[map_definite]與你會合 。[joiner_relationInfo]\n\n[condDesc]\n\n由於聯繫我們會有極大風險，[joiner_nameDef]表示無法告知我們更多關於[joiner_objective]自己的情報。</li>
+    <li>questDescription->一位名叫[joiner_nameFull]的[introduction]請求我們幫助！ [joiner_pronoun]一直在躲避[hidingFrom]。[joiner_pronoun]想要到[map_definite]與你會合 。[joiner_relationInfo]\n\n[condDesc]\n\n由於聯繫我們會有極大風險，[joiner_nameDef]表示無法告知我們更多關於[joiner_objective]自己的情報。</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->一群餓狼</li>
     <li>condDesc(gameCondition==ToxicFallout)->然而，[joiner_nameDef]只能透過放火引燃附近的一個大型劇毒化學廢料場來殺死這些餓狼。因此接下來的[gameConditionDuration_duration]將會有持續的毒霧霾。</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->一群食人族</li>
