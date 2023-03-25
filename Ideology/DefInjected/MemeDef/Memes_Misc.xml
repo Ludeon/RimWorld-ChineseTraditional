@@ -42,7 +42,7 @@
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]來到了叫做[founderName]的[place_job]身邊，講述與[veneratedAnimal]有關的事。但[founderName]即是[veneratedAnimal]，而[veneratedAnimal]即是[founderName]，[founder_pronoun]便了解了[deity0_name]的計畫。</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->一位叫做[founderName]的[place_job]從殘酷的主人手上解救了許多被奴役的動物，並將牠們帶到[deity0_name]的[altarRoomLabel]的聖域</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->[founderName]以[deity0_name]的聲音呼喚了[memberNamePlural]以及動物們，並賣力地踏動他們的雙腳、四足和利爪蹂躪了[foeLeader]以及[foeLeader_possessive][foeSoldiers].</li>
-    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]在森林之中生活了二十年，研究動物並和他們建立起了羈絆。[founder_pronoun]了解了牠們真實的美德，並建立了我們的初衷。</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]在森林之中生活了二十年， 研究動物並和他們建立起了羈絆。[founder_pronoun]了解了牠們真實的美德，並建立了我們的初衷。</li>
     <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]和在田園與森林中的動物親密地交流，並和牠們平等地建立起了羈絆。</li>
     <li>lessonIntro(tag=meme_AnimalPersonhood)         ->在我每天訪視[veneratedOrAnyAnimal]們的過程中我學會了真摯的傾聽牠們的聲音，一次又一次，牠們用自己的方式向我傳達了牠們的訊息：</li>
     <li>lesson(tag=meme_AnimalPersonhood)              ->動物是我們在這世界中的夥伴，苛薄的對待牠們是不對的行為</li>
@@ -220,7 +220,7 @@
     <li>conflict(tag=meme_Cannibal)        ->一位[foeLeader]向所有人公告食人是犯罪的行為，並派遣了[foeSoldiers]追緝[memberNamePlural]。</li>
     <li>founderJoin(tag=meme_Cannibal)     ->一位叫做[founderName]的[place_job]遭到了[foeLeader]的[foeSoldiers]攻擊。[founderName]用[place_personalWeapon]殺死了[foeLeader_objective]食用了[foeLeader_possessive]血肉，並獲得了[deity0_name]的加護。</li>
     <li>victory(tag=meme_Cannibal)         ->[founderName]帶領著一群[memberNamePlural]攻進了[place_powerCenter]，殺死了[foeLeader]並吃了[foeLeader_possessive]屍體，而[deity0_name]將[founderName]加冕為新的[foeLeader]。</li>
-    <li>setup(tag=meme_Cannibal)           ->[founderName]墜落在鳥不生蛋的星球上，沒有食物而周圍都是死去的同伴，[founder_pronoun]用他們飽餐一頓，且變的更加強壯。</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName]墜落在鳥不生蛋的星球上， 沒有食物而周圍都是死去的同伴，[founder_pronoun]用他們飽餐一頓，且變的更加強壯。</li>
     <li>story(uses=1,tag=meme_Cannibal)    ->為了推崇他們的信仰，[founderName]要求信徒們每個禮拜齊聚一堂享用人肉。</li>
     <li>lessonIntro(tag=meme_Cannibal)         ->只有透過豐盛的人肉饗宴我才能讓眾人明白這個事實：</li>
     <li>lesson(tag=meme_Cannibal)              ->除非你把他們吃掉，否則你永遠也不會和某些人融為一體</li>
@@ -392,9 +392,9 @@
     <li>episode(uses=1,tag=meme_FleshPurity)  ->那些不純淨、紋身的、打了洞的以及改造過人的都被[deity0_name]扔入了海中。</li>
     <li>intro(tag=meme_FleshPurity)           ->[place_summary][place_name]有著一座[altarName]在[deity0_name]的[altarRoomLabel]內，在那裡[deity0_type]將會庇祐擁有純淨軀體的人。</li>
     <li>conflict(tag=meme_FleshPurity)        ->邪惡的[foeLeader]派遣了[foeSoldiers]在每個人身上植入了追蹤裝置。</li>
-    <li>founderJoin(tag=meme_FleshPurity)     ->一位叫做[founderName]的[place_job]藉由跪在[place_powerCenter]前面向[foeLeader]抗議，並只用[founder_possessive]雙手將[founder_possessive]身上所有科技造物都拆了下來。</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->一位叫做[founderName]的[place_job]藉由跪在[place_powerCenter]前面向[foeLeader]抗議， 並只用[founder_possessive]雙手將[founder_possessive]身上所有科技造物都拆了下來。</li>
     <li>victory(tag=meme_FleshPurity)         ->[foeLeader]最終派出了[foeSoldiers]將[memberNamePlural]殺死了，但[deity0_name]的能量從[memberNamePlural]的純淨身軀之中傾瀉而出，將[foeSoldiers]體內的裝置化作粉碎並置他們於死地。</li>
-    <li>setup(tag=meme_FleshPurity)           ->[founderName]用植入物與藥物荼毒了[founder_possessive]身體，直到一次恍然大悟，[founder_pronoun]將[founder_possessive]體內所有的鋼鐵扯了出來，為[founder_objective]自己帶來救贖。</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName]用植入物與藥物荼毒了[founder_possessive]身體， 直到一次恍然大悟，[founder_pronoun]將[founder_possessive]體內所有的鋼鐵扯了出來，為[founder_objective]自己帶來救贖。</li>
     <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName]指導了所有[founder_possessive]追隨者將他們體內骯髒的裝置拔了出來。</li>
     <li>lessonIntro(tag=meme_FleshPurity)         ->在我追隨者之中的前十個人僅用自己的雙手就將他們皮膚上的裝置給剝了下來，望著灑濺在骯髒地板上的血我才猛然看清我們一直以來忽略的真理：</li>
     <li>lesson(tag=meme_FleshPurity)              ->在污穢的身軀中過活根本就不是人該有的生活。</li>
@@ -893,7 +893,7 @@
     <li>conflict(tag=meme_Raider)        ->[foeLeader]試著要眾人停止一切的強盜與掠奪，並宣稱[foeLeader_objective]自己是[deity0_name]的敵人。</li>
     <li>founderJoin(tag=meme_Raider)     ->偉大的掠奪者[founderName]崛起，而[founder_possessive]劫掠團無情地掠奪了[foeSoldiers]的營地。</li>
     <li>victory(tag=meme_Raider)         ->[founderName]以及[memberNamePlural]多年來對[foeSoldiers]的營地實施了掠奪行動，而最終[foeLeader]被迫投降。</li>
-    <li>setup(tag=meme_Raider)           ->遭受關押與迫害，[founderName]的憤怒沸騰不已。[founder_pronoun]成功脫困，組建了[founder_possessive]幫，並回頭摧毀了那些從[founder_objective]身上剝奪那麼多的軟弱之人。</li>
+    <li>setup(tag=meme_Raider)           ->遭受關押與迫害，[founderName]的憤怒沸騰不已。 [founder_pronoun]成功脫困，組建了[founder_possessive]幫，並回頭摧毀了那些從[founder_objective]身上剝奪那麼多的軟弱之人。</li>
     <li>story(uses=1,tag=meme_Raider)    ->某天走在街上之時，[founderName]被骯髒的乞丐們團團包圍，[founder_pronoun]將他們擊倒，從那些軟弱下賤的人身上取走了錢財，或許它們能用在更好的地方。</li>
     <li>lessonIntro(tag=meme_Raider)         ->即使當受害者死於你的刀下之時，他們仍可以為你上一課。一位老太婆教會了我</li>
     <li>lesson(tag=meme_Raider)              ->弱者咎由自取</li>
