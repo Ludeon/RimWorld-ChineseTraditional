@@ -89,7 +89,7 @@
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label]正在襲擊附近一名商人的。</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->一名商人正在呼救。有(*Threat)[animalCount]隻野生[animalKind_labelPlural](/Threat)正在襲擊他！他想要你幫助他擺脫野獸。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural]正在襲擊附近一名商人。</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的旅隊正在被[manhuntingBeastIndef]襲擊。 [asker_faction_leaderTitle][asker_nameFull]想要你幫助旅隊擺脫獸群。[endSection]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的旅隊正在被[manhuntingBeastIndef]襲擊。\n[asker_faction_leaderTitle][asker_nameFull]想要你幫助旅隊擺脫獸群。 [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label]正在襲擊來自[asker_faction_name]的旅隊。</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural]正在襲擊來自[asker_faction_name]的旅隊。</li>
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]， 最近因遇上(*Threat)狂亂的[animalKind_label](/Threat)而失去了一名偵察員。 [asker_pronoun]希望將其引導至你這來殺死，以維護[asker_possessive]榮耀。[endSection]</li>
