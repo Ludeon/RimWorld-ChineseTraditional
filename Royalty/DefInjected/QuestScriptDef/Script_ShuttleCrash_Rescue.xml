@@ -37,7 +37,7 @@
     <li>rescueShuttleArrivedLetterLabel->救援飛船抵達</li>
     <li>rescueShuttleArrivedLetterText->前來救援[pawnLabelSingleOrPlural]的救援飛船已經抵達。確保在[leaveDelay_duration]使這些人登上飛船：\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->任務完成：[resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc]順利逃生。[asker_pronoun]非常感激[asker_pronoun]能得到[map_definite]的援助。\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc]順利逃生。 [asker_pronoun]非常感激[asker_pronoun]能得到[map_definite]的援助。\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->任務完成：[resolvedQuestName]</li>
     <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc]順利逃生。\n\n但[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->任務失敗：[resolvedQuestName]</li>
@@ -47,7 +47,7 @@
     <li>askerDiedLetterLabel->任務失敗：[resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc]死了。\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->任務失敗：[resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->負責援救[asker_faction_pawnsPlural]的飛船摧毀了。[asker_faction_pawnsPlural]現在將試圖步行離開。\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterText->負責援救[asker_faction_pawnsPlural]的飛船摧毀了。 [asker_faction_pawnsPlural]現在將試圖步行離開。\n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
@@ -73,10 +73,10 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->一艘[asker_faction_name]的太空梭受損，正在尋找著陸位置。太空梭指揮官[asker_nameDef]希望能降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]會攻擊墜毀的太空梭並殺死其中的乘客。你必須保護他們。\n\n太空梭的乘客包含[asker_nameDef][andOtherCivilians]和[soldierCountKinds]。[soldiers0_kindPlural]死了無妨，但指揮者[andCivilians]必須存活。\n\n在[rescueDelay_duration]之後，會有一艘太空梭來接倖存者。你需要在[leaveDelay_duration]內讓他們登上太空梭。</li>
+    <li>questDescription->一艘[asker_faction_name]的太空梭受損，正在尋找著陸位置。太空梭指揮官[asker_nameDef]希望能降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]會攻擊墜毀的太空梭並殺死其中的乘客。你必須保護他們。\n\n太空梭的乘客包含[asker_nameDef][andOtherCivilians]和[soldierCountKinds]。[soldiers0_kindPlural]死了無妨，但指揮官[andCivilians]必須存活。\n\n在[rescueDelay_duration]之後，會有一艘太空梭來接倖存者。你需要在[leaveDelay_duration]內讓他們登上太空梭。</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
-    <li>andOtherCivilians(civilians_count==2)->，[pawnLabel]</li>
-    <li>andOtherCivilians(civilians_count>=3)->，[civilianCountMinusOne]名其他[pawnLabelSingleOrPlural]</li>
+    <li>andOtherCivilians(civilians_count==2)->和[pawnLabel]</li>
+    <li>andOtherCivilians(civilians_count>=3)->和[civilianCountMinusOne]名其他[pawnLabelSingleOrPlural]</li>
     <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->和[pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->和[pawnLabelPlural]</li>

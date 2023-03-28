@@ -23,7 +23,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一位名叫[joiner_nameFull]的[introduction]請求我們幫助！[joiner_pronoun]一直在躲避[hidingFrom]。[joiner_pronoun]想要到[map_definite]與你會合 。[joiner_relationInfo]\n\n[condDesc]\n\n由於聯繫我們會有極大風險，[joiner_nameDef]表示無法告知我們更多關於[joiner_objective]自己的情報。</li>
+    <li>questDescription->一位名叫[joiner_nameFull]的[introduction]請求我們幫助！ [joiner_pronoun]一直在躲避[hidingFrom]。[joiner_pronoun]想要到[map_definite]與你會合 。[joiner_relationInfo]\n\n[condDesc]\n\n由於聯繫我們會有極大風險，[joiner_nameDef]表示無法告知我們更多關於[joiner_objective]自己的情報。</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->一群餓狼</li>
     <li>condDesc(gameCondition==ToxicFallout)->然而，[joiner_nameDef]只能透過放火引燃附近的一個大型劇毒化學廢料場來殺死這些餓狼。因此接下來的[gameConditionDuration_duration]將會有持續的毒霧霾。</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->一群食人族</li>
@@ -60,7 +60,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一個名叫[joiner_nameDef]的[introduction]從附近呼叫殖民地。[joiner_pronoun]說[joiner_pronoun]毒殺了一個巨蟲巢穴，但現在[joiner_pronoun]沾染了費洛蒙，蟲子正在追殺他!\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一群擁有(*Threat)[hivesCount]個蟲巢的蟲災(/Threat)將會在[infestationDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
+    <li>questDescription->一個名叫[joiner_nameDef]的[introduction]從附近呼叫殖民地。[joiner_pronoun]說[joiner_pronoun]毒殺了一個巨蟲巢穴，但現在[joiner_pronoun]沾染了費洛蒙，蟲子正在追殺他!\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的請求，一群擁有(*Threat)[hivesCount]個蟲巢的蟲災(/Threat)將會在[infestationDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]歲兒童</li>
     <li>introduction->[joiner_age]歲[joiner_title]</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
@@ -92,9 +92,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription(animalCount==1)->一個名叫[joiner_nameDef]的[introduction]從附近呼叫殖民地。[joiner_pronoun]說(*Threat)一隻狂亂的[animalKind_label](/Threat)正在獵殺[joiner_objective]！\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一隻狂亂的[animalKind_label]將會在[manhuntersDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
+    <li>questDescription(animalCount==1)->一個名叫[joiner_nameDef]的[introduction]從附近呼叫殖民地。[joiner_pronoun]說(*Threat)一隻狂亂的[animalKind_label](/Threat)正在獵殺[joiner_objective]！\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的請求，一隻狂亂的[animalKind_label]將會在[manhuntersDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
     <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKind_label]正在追逐[joiner_nameDef].</li>
-    <li>questDescription(animalCount>=2)->一個名叫[joiner_nameDef]的[introduction]從附近呼叫殖民地。[joiner_pronoun]說(*Threat)一群[animalCount]隻狂亂的[animalKind_labelPlural](/Threat)正在獵殺[joiner_objective]！\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一群狂亂的[animalKind_label]將會在[manhuntersDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
+    <li>questDescription(animalCount>=2)->一個名叫[joiner_nameDef]的[introduction]從附近呼叫殖民地。[joiner_pronoun]說(*Threat)一群[animalCount]隻狂亂的[animalKind_labelPlural](/Threat)正在獵殺[joiner_objective]！\n\n[joiner_pronoun]請求加入殖民地[map_definite]以獲得庇護。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的請求，一群狂亂的[animalKind_label]將會在[manhuntersDelayTicks_duration]內出現。\n\n[joiner_nameDef]過於害怕以至於已經開始語無倫次，你也無法獲得更多情報。</li>
     <li>manhunterArrivalLetterEnd(animalCount>=2)->[animalKind_labelPlural]正在追逐[joiner_nameDef].</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]歲兒童</li>
     <li>introduction->[joiner_age]歲[joiner_title]</li>
@@ -208,11 +208,11 @@
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->機械族</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->機械族</li>
-    <li>threat->[joiner_possessive]的敵人</li>
+    <li>threat->[joiner_possessive]敵人</li>
     <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
     <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->機械族</li>
     <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->機械族</li>
-    <li>joinersEnemies->[joiner_possessive]的敵人</li>
+    <li>joinersEnemies->[joiner_possessive]敵人</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [site/site_label]</li>

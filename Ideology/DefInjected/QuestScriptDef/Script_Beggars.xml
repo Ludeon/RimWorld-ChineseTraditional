@@ -64,7 +64,7 @@
     <li>beggingForInfo->[requestedThing_label]x[requestedThingCount]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->他們</li>
-    <li>questDescription->[approachInfo]。[requestInfo]。[claimInfo]。\n\n[interactionInfo]。\n\n[moveOnInfo]。\n\n[travelerInfo]不是任何派系的一員。視乎你的意向，你可以選擇殺掉他們、俘虜、當奴隸販賣甚至摘除[traverObjective]的器官，而不會有外交關係後果。</li>
+    <li>questDescription->[approachInfo]。[requestInfo]。[claimInfo]。\n\n[interactionInfo]。\n\n[moveOnInfo]。\n\n[travelerInfo]不屬於任何派系。如果你想，也可以選擇殺掉他們、俘虜、當奴隸販賣甚至摘除[traverObjective]的器官，而不會有外交關係後果。</li>
     <li>approachInfo(beggarCount==1)->一名叫做[beggars0_nameDef]的窮困[groupLabelSingle]正在接近殖民地乞求援助</li>
     <li>approachInfo(beggarCount>=2)->一群窮困的[groupLabelPlural]正在接近殖民地乞求援助</li>
     <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->一群帶著一名小孩的窮困的[groupLabelPlural]正在接近殖民地乞求援助</li>
@@ -75,7 +75,7 @@
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef]需要白銀去贖回被海賊們奴役的姊姊。</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef]需要藥品去治療附近一位受傷的流浪者。</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef]需要藥品去治療[beggars0_possessive]在附近受傷的小弟弟。</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef]需要藥品去治療[beggars0_possessive]的愛寵，牠在路上受傷了</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef]需要藥品去治療[beggars0_possessive]愛寵，牠在路上受傷了</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef]需要[requestedThing_label]來為他的一位身體虛弱的朋友接種以抵抗致命疾病</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef]需要以酒澆愁，因為[beggars0_possessive]一名同伴在路上遭遇意外死去，使他感到哀傷</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef]需要[requestedThing_label]來舒緩[beggars0_possessive]患病叔叔的痛苦。</li>

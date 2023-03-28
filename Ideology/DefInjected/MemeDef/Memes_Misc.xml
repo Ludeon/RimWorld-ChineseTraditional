@@ -39,10 +39,10 @@
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name]在一場盛大的集會之中，將[place_summary][place_name]的動物和人類聚在一塊。</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name]用[sacredAnimalListEnd]祝福了[place_summary][place_name]，並教導人民要崇尚動物。</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->一位邪惡的[foeLeader]下達了動物應該要被獵殺的指示，而[foeLeader_possessive][foeSoldiers]殘忍地用[place_personalWeapon]獵殺牠們。</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]來到了叫做[founderName]的[place_job]身邊，講述與[veneratedAnimal]有關的事。但[founderName]即是[veneratedAnimal]，而[veneratedAnimal]即是[founderName]，[founder_pronoun]便了解了[deity0_name]的計畫。</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]來到了叫做[founderName]的[place_job]身邊， 講述與[veneratedAnimal]有關的事。但[founderName]即是[veneratedAnimal]，而[veneratedAnimal]即是[founderName]，[founder_pronoun]便了解了[deity0_name]的計畫。</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->一位叫做[founderName]的[place_job]從殘酷的主人手上解救了許多被奴役的動物，並將牠們帶到[deity0_name]的[altarRoomLabel]的聖域</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->[founderName]以[deity0_name]的聲音呼喚了[memberNamePlural]以及動物們，並賣力地踏動他們的雙腳、四足和利爪蹂躪了[foeLeader]以及[foeLeader_possessive][foeSoldiers].</li>
-    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]在森林之中生活了二十年，研究動物並和他們建立起了羈絆。[founder_pronoun]了解了牠們真實的美德，並建立了我們的初衷。</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]在森林之中生活了二十年， 研究動物並和他們建立起了羈絆。[founder_pronoun]了解了牠們真實的美德，並建立了我們的初衷。</li>
     <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]和在田園與森林中的動物親密地交流，並和牠們平等地建立起了羈絆。</li>
     <li>lessonIntro(tag=meme_AnimalPersonhood)         ->在我每天訪視[veneratedOrAnyAnimal]們的過程中我學會了真摯的傾聽牠們的聲音，一次又一次，牠們用自己的方式向我傳達了牠們的訊息：</li>
     <li>lesson(tag=meme_AnimalPersonhood)              ->動物是我們在這世界中的夥伴，苛薄的對待牠們是不對的行為</li>
@@ -133,13 +133,13 @@
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Blindsight)        ->[deity0_name]想藉由虛空之塵來尋求永恆，然而祂一無所獲，於是[deity0_pronoun]將[deity0_possessive]的眼睛挖出，而宇宙在[deity0_possessive]的心靈中塑形而成。</li>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name]想藉由虛空之塵來尋求永恆，然而祂一無所獲，於是[deity0_pronoun]將[deity0_possessive]眼睛挖出，而宇宙在[deity0_possessive]心靈中塑形而成。</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->一個雙目失明的乞丐向[deity0_objective]問到：「為何你要拋棄我？我甚至看不到你所創造的一切。」，而[deity0_name]如此回應：「吾之真理乃存於心，汝之視界乃闊非隘。」</li>
     <li>intro(tag=meme_Blindsight)           ->[deity0_type][deity0_name]利用疫病攻擊[place_summary][place_name]的殖民者，導致他們雙眼失明，迫使他們了解視覺是獲得神聖知識的阻礙。</li>
-    <li>conflict(tag=meme_Blindsight)        ->一位[foeLeader]要求所有的[memberNamePlural]每天觀看[foeLeader_possessive]的宣傳活動，而許多人將自己的雙眼弄瞎以示抗議。</li>
-    <li>founderJoin(tag=meme_Blindsight)     ->一位叫做[founderName]的[place_job]在[founder_pronoun]從一位[foeLeader]的[foeSoldiers]拯救[memberName]時，失去了[founder_possessive]的視覺，自那時起[founderName]才真正看清[foeLeader]的暴行</li>
+    <li>conflict(tag=meme_Blindsight)        ->一位[foeLeader]要求所有的[memberNamePlural]每天觀看[foeLeader_possessive]宣傳活動，而許多人將自己的雙眼弄瞎以示抗議。</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->一位叫做[founderName]的[place_job]在[founder_pronoun]從一位[foeLeader]的[foeSoldiers]拯救[memberName]時，失去了[founder_possessive]視覺，自那時起[founderName]才真正看清[foeLeader]的暴行</li>
     <li>victory(tag=meme_Blindsight)         ->[founderName]在一次的自殺式突擊中衝向了[place_powerCenter]並用湯匙將[foeLeader]的雙眼挖了出來，從那一刻開始，[foeLeader]看見了[deity0_name]的神聖。</li>
-    <li>setup(tag=meme_Blindsight)           ->[founderName]是救治窮人的醫者，看見這麼多人窮困潦倒，[founder_pronoun]再也無法忍受這一切，[founder_pronoun]用利刃將[founder_possessive]挖出，在盲目之中找到了心靈的祥和，[founder_pronoun]開始將[founder_possessive]的發現傳授給那些視力正常的人。</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName]是救治窮人的醫者，看見這麼多人窮困潦倒，[founder_pronoun]再也無法忍受這一切，[founder_pronoun]用利刃將[founder_possessive]挖出，在盲目之中找到了心靈的祥和，[founder_pronoun]開始將[founder_possessive]發現傳授給那些視力正常的人。</li>
     <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]拜訪了視盲的治療師，準備教導他，然而[founder_objective]發現自己才是受教的一方，並體悟到生理的視覺蒙蔽了真正的眼界。</li>
     <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]雙眼失明並從盲目之中汲取智慧，[founder_pronoun]曾經一個人挖掉了整個家族所有人的眼睛，這樣他們就能和[founder_pronoun]一樣明白。</li>
     <li>lessonIntro(tag=meme_Blindsight)         ->儘管我的腳步堅定，但每走一步我的內心卻是惴惴不安，或許我看過太多，我雙眼中的酸澀告訴我</li>
@@ -213,14 +213,14 @@
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
   <Cannibal.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Cannibal)        ->[deity0_name]找到了[deity0_possessive]的兄弟並殺了祂，用祂的血肉飽餐了一頓，並吸收祂的力量成為最強的神。</li>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name]找到了[deity0_possessive]兄弟並殺了祂，用祂的血肉飽餐了一頓，並吸收祂的力量成為最強的神。</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type][deity0_name]吃掉了[deity0_possessive]敵人的屍體</li>
-    <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]曾有名叫做[deity0_name]的人類。在[deity0_possessive]的父親死後，[deity0_name]吃掉了祂的遺體並變成了[deity0_type]。</li>
+    <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]曾有名叫做[deity0_name]的人類。在[deity0_possessive]父親死後，[deity0_name]吃掉了祂的遺體並變成了[deity0_type]。</li>
     <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]，舉行[ritualName]的期間，[deity0_name]降臨在[altarRoomLabel]並在[memberNamePlural]的面前吃了人類的血肉。</li>
     <li>conflict(tag=meme_Cannibal)        ->一位[foeLeader]向所有人公告食人是犯罪的行為，並派遣了[foeSoldiers]追緝[memberNamePlural]。</li>
-    <li>founderJoin(tag=meme_Cannibal)     ->一位叫做[founderName]的[place_job]遭到了[foeLeader]的[foeSoldiers]攻擊。[founderName]用[place_personalWeapon]殺死了[foeLeader_objective]食用了[foeLeader_possessive]的血肉，並獲得了[deity0_name]的加護。</li>
-    <li>victory(tag=meme_Cannibal)         ->[founderName]帶領著一群[memberNamePlural]攻進了[place_powerCenter]，殺死了[foeLeader]並吃了[foeLeader_possessive]的屍體，而[deity0_name]將[founderName]加冕為新的[foeLeader]。</li>
-    <li>setup(tag=meme_Cannibal)           ->[founderName]墜落在鳥不生蛋的星球上，沒有食物而周圍都是死去的同伴，[founder_pronoun]用他們飽餐一頓，且變的更加強壯。</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->一位叫做[founderName]的[place_job]遭到了[foeLeader]的[foeSoldiers]攻擊。[founderName]用[place_personalWeapon]殺死了[foeLeader_objective]食用了[foeLeader_possessive]血肉，並獲得了[deity0_name]的加護。</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName]帶領著一群[memberNamePlural]攻進了[place_powerCenter]，殺死了[foeLeader]並吃了[foeLeader_possessive]屍體，而[deity0_name]將[founderName]加冕為新的[foeLeader]。</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName]墜落在鳥不生蛋的星球上， 沒有食物而周圍都是死去的同伴，[founder_pronoun]用他們飽餐一頓，且變的更加強壯。</li>
     <li>story(uses=1,tag=meme_Cannibal)    ->為了推崇他們的信仰，[founderName]要求信徒們每個禮拜齊聚一堂享用人肉。</li>
     <li>lessonIntro(tag=meme_Cannibal)         ->只有透過豐盛的人肉饗宴我才能讓眾人明白這個事實：</li>
     <li>lesson(tag=meme_Cannibal)              ->除非你把他們吃掉，否則你永遠也不會和某些人融為一體</li>
@@ -322,9 +322,9 @@
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name]創造了光，而人類便能從光所創造的影子中認識[deity0_name]</li>
     <li>intro(tag=meme_Darkness)           ->[deity0_type][deity0_name]創造了長達數十年的日蝕，迫使[place_summary][place_name]的第一批殖民者了解[deity0_name]的真面目是存在於陰影之中。</li>
     <li>conflict(tag=meme_Darkness)        ->一直以來對於黑暗感到恐懼的[foeLeader]豎立起巨大的太陽鏡，為[place_name]帶來永恆的日光。</li>
-    <li>founderJoin(tag=meme_Darkness)     ->[founderName]先知出生在[place_name]的黑暗之中，並且[founder_possessive]的一生都生活在黑暗之中，因此[founder_possessive]的話語蘊含著[deity0_name]的智慧。</li>
+    <li>founderJoin(tag=meme_Darkness)     ->[founderName]先知出生在[place_name]的黑暗之中，並且[founder_possessive]一生都生活在黑暗之中，因此[founder_possessive]話語蘊含著[deity0_name]的智慧。</li>
     <li>victory(tag=meme_Darkness)         ->在最後一次的突襲中，[memberNamePlural]將[place_powerCenter]的電源切斷，並且[founderName]穿過了[foeSoldiers]潛入其中，在黑暗之中找到了[foeLeader]。[founderName]用[founder_possessive][place_personalWeapon]將[foeLeader_objective]送入永恆的黑暗之中。</li>
-    <li>setup(tag=meme_Darkness)           ->在閃耀世界都市那炫目的光線之下，[founderName]過著迷惘的生活。在一次太陽閃焰導致的漫長黑暗之中，[founder_pronoun]找回了平靜與沉思，並為我們的運動寫下了第一個篇章。</li>
+    <li>setup(tag=meme_Darkness)           ->在閃耀世界都市那炫目的光線之下，[founderName]過著迷惘的生活。在一次太陽閃焰導致的漫長黑暗之中，[founder_pronoun]找回了平靜與沉思， 並為我們的運動寫下了第一個篇章。</li>
     <li>story(uses=1,tag=meme_Darkness)    ->[founderName]建立了一個藝術家們都在黑暗中創作的工作室，而有許多的傑作在那裡誕生。</li>
     <li>lessonIntro(tag=meme_Darkness)         ->我的童年是在刺眼的燈光之下瞇著眼睛度過的，過了很久之後我才了解到</li>
     <li>lesson(tag=meme_Darkness)              ->光芒焚燒一切，黑暗滋養萬物</li>
@@ -392,10 +392,10 @@
     <li>episode(uses=1,tag=meme_FleshPurity)  ->那些不純淨、紋身的、打了洞的以及改造過人的都被[deity0_name]扔入了海中。</li>
     <li>intro(tag=meme_FleshPurity)           ->[place_summary][place_name]有著一座[altarName]在[deity0_name]的[altarRoomLabel]內，在那裡[deity0_type]將會庇祐擁有純淨軀體的人。</li>
     <li>conflict(tag=meme_FleshPurity)        ->邪惡的[foeLeader]派遣了[foeSoldiers]在每個人身上植入了追蹤裝置。</li>
-    <li>founderJoin(tag=meme_FleshPurity)     ->一位叫做[founderName]的[place_job]藉由跪在[place_powerCenter]前面向[foeLeader]抗議，並只用[founder_possessive]的雙手將[founder_possessive]身上所有科技造物都拆了下來。</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->一位叫做[founderName]的[place_job]藉由跪在[place_powerCenter]前面向[foeLeader]抗議， 並只用[founder_possessive]雙手將[founder_possessive]身上所有科技造物都拆了下來。</li>
     <li>victory(tag=meme_FleshPurity)         ->[foeLeader]最終派出了[foeSoldiers]將[memberNamePlural]殺死了，但[deity0_name]的能量從[memberNamePlural]的純淨身軀之中傾瀉而出，將[foeSoldiers]體內的裝置化作粉碎並置他們於死地。</li>
-    <li>setup(tag=meme_FleshPurity)           ->[founderName]用植入物與藥物荼毒了[founder_possessive]的身體，直到一次恍然大悟，[founder_pronoun]將[founder_possessive]體內所有的鋼鐵扯了出來，為[founder_objective]自己帶來救贖。</li>
-    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName]指導了所有[founder_possessive]的追隨者將他們體內骯髒的裝置拔了出來。</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName]用植入物與藥物荼毒了[founder_possessive]身體， 直到一次恍然大悟，[founder_pronoun]將[founder_possessive]體內所有的鋼鐵扯了出來，為[founder_objective]自己帶來救贖。</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName]指導了所有[founder_possessive]追隨者將他們體內骯髒的裝置拔了出來。</li>
     <li>lessonIntro(tag=meme_FleshPurity)         ->在我追隨者之中的前十個人僅用自己的雙手就將他們皮膚上的裝置給剝了下來，望著灑濺在骯髒地板上的血我才猛然看清我們一直以來忽略的真理：</li>
     <li>lesson(tag=meme_FleshPurity)              ->在污穢的身軀中過活根本就不是人該有的生活。</li>
     <li>lessonReinforcement(tag=meme_FleshPurity) ->在我終於將我身上的鋼鐵扯下，把骯髒的刺青剝下之後，一切都變的如此明瞭。</li>
@@ -479,13 +479,13 @@
   -->
   <HighLife.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_HighLife)           ->煙霧瀰漫在宇宙之中，而[deity0_name]與磷火合而為一，就此復甦。</li>
-    <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type][deity0_name]將[deity0_possessive]的真理隱藏在現實的狹縫之間，清楚的神智無法瞥見其中奧秘。</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type][deity0_name]將[deity0_possessive]真理隱藏在現實的狹縫之間，清楚的神智無法瞥見其中奧秘。</li>
     <li>intro(tag=meme_HighLife)              ->在[deity0_name]的恩惠之下發現了[place_summary][place_name]，而當時一位醉醺醺的星艦艦長差點墜毀在其中。</li>
     <li>conflict(tag=meme_HighLife)           ->禁慾的[foeLeader]瞧不起[memberNamePlural]，而為了消除他們的特性，他禁止了改變精神狀態的物質使用。</li>
-    <li>founderJoin(tag=meme_HighLife)        ->在彈盡援絕之時，[deity0_name]來到[founderName]的身邊，並用迷幻的煙霧給予他啟示，讓[founder_objective]有一個獨特的視角使他能擊敗[foeSoldiers]。</li>
+    <li>founderJoin(tag=meme_HighLife)        ->在彈盡援絕之時，[deity0_name]來到[founderName]的身邊， 並用迷幻的煙霧給予他啟示，讓[founder_objective]有一個獨特的視角使他能擊敗[foeSoldiers]。</li>
     <li>victory(tag=meme_HighLife)            ->隸屬於[foeLeader]，配備[place_personalWeapon]的[foeSoldiers]突擊了[memberNamePlural]的[place_community]，然而[founderName]分給他們一些帶來和平的煙管，[foeSoldiers]便放下了武器。</li>
     <li>setup(tag=meme_HighLife)              ->被社會所唾棄，我們的創始人[founderName]旅行到了叢林之中，並在那裡嗑了一些奇異的草，而[founder_pronoun]在[founder_possessive]自己變異的意識之中發現了真理。</li>
-    <li>story(uses=1,tag=meme_HighLife)       ->為了加深他們的理解，[founderName]帶著[founder_possessive]的追隨者們每個禮拜齊聚一堂，分享新的化學物質調劑身心。</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->為了加深他們的理解，[founderName]帶著[founder_possessive]追隨者們每個禮拜齊聚一堂，分享新的化學物質調劑身心。</li>
     <li>lessonIntro(tag=meme_HighLife)         ->嗨一次不夠，我們要嗨到無法無天，在我嗨爆的腦袋裡面所有的謎團就會拼湊起來，就像房子垮下來...呃...我是說反過來那樣。我知道</li>
     <li>lesson(tag=meme_HighLife)              ->如果沒有一起在恍惚的世界神遊一番，那種人才不是朋友</li>
     <li>lessonReinforcement(tag=meme_HighLife) ->欸大哥，這是很嚴肅的過程，你懂嗎？我很慶幸我懂，這支菸給你哈一口你也能懂。</li>
@@ -591,7 +591,7 @@
     <li>episode(uses=1,tag=meme_Nudism)     ->身著衣物的人們看向[deity0_name]並問到：「你為何沒穿衣服？這樣很變態」。而[deity0_type]回應：「汝等與吾之貌皆由天上而生，衣冠楚楚乃實則噁心。」</li>
     <li>intro(tag=meme_Nudism)              ->在[place_summary][place_name]，[deity0_name]的[altarRoomLabel]的人們開始了一項裸身祈禱的文化，而這讓[deity0_type]欣喜不已。</li>
     <li>conflict(tag=meme_Nudism)           ->一位過分拘謹的[foeLeader]掌權之後，要求每個人穿著非常拘束的服裝。</li>
-    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name]最忠心的信徒，[founderName]，站在[place_powerCenter]之前，將[founder_possessive]的衣服悉數撕下，展現[founder_objective]的自我以對抗他們的命令。</li>
+    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name]最忠心的信徒，[founderName]，站在[place_powerCenter]之前，將[founder_possessive]衣服悉數撕下，展現[founder_objective]的自我以對抗他們的命令。</li>
     <li>victory(tag=meme_Nudism)            ->[founderName]向[deity0_name]祈求，而祂將[place_name]陷入滾滾熱浪之中。[foeSoldiers]為了保命而將他們的衣服扯下，而[foeLeader]則落荒而逃。</li>
     <li>setup(tag=meme_Nudism)              ->[founderName]被體制所奴役，和其他人一樣被約束和控制。有一天，[founder_pronoun]脫光了所有衣服並裸奔逃走，而我們的活動就此誕生。</li>
     <li>story(uses=1,tag=meme_Nudism)       ->[founderName]施實了不得穿衣服的規定以確保信眾能專注在真正的目標上，而不是物質上的外貌。</li>
@@ -673,14 +673,14 @@
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
   <PainIsVirtue.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name]在時間與空間的深處受永恆的業火焚燒，而[deity0_possessive]的尖嘯催生出我們的現實。</li>
-    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name]在火堆上吊掛了數萬年之久，而痛苦淨化了[deity0_possessive]的心靈。</li>
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name]在時間與空間的深處受永恆的業火焚燒，而[deity0_possessive]尖嘯催生出我們的現實。</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name]在火堆上吊掛了數萬年之久，而痛苦淨化了[deity0_possessive]心靈。</li>
     <li>intro(tag=meme_PainIsVirtue)           ->[place_summary][place_name]一直以來都不是個容易生存的地方。[deity0_type][deity0_pronoun]決定藉由在他們的人生中加入巨大的苦難，找出真正值得得到[deity0_possessive]恩寵的人。</li>
     <li>conflict(tag=meme_PainIsVirtue)        ->[foeLeader]給予[memberNamePlural]身體上的照護來緩解他們每天的辛勞，但在閒適安逸之中他們開始依賴[foeLeader]，使他有了比他們更強的力量。</li>
-    <li>founderJoin(tag=meme_PainIsVirtue)     ->一個叫做[founderName]的人有著一份特別的[place_job]- 助長惡性腫瘤的發展。透過[founder_possessive]的受苦受難，[founder_pronoun]便能直接與[deity0_name]作連結，並學習到如何激勵其他的[memberNamePlural]。</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->一個叫做[founderName]的人有著一份特別的[place_job]- 助長惡性腫瘤的發展。透過[founder_possessive]受苦受難，[founder_pronoun]便能直接與[deity0_name]作連結，並學習到如何激勵其他的[memberNamePlural]。</li>
     <li>victory(tag=meme_PainIsVirtue)         ->[founderName]帶著一百名[memberNamePlural]來到了[place_powerCenter]前，在那裡，他們慢慢的撕扯自己的身軀，直到他們在[deity0_name]微笑的注視之下死去，他們所受的折磨訴說了他們的正義，當[foeLeader]倒下之時，所有人都成為了[memberNamePlural]。</li>
     <li>setup(tag=meme_PainIsVirtue)           ->在我們活動創立之初，活動創始人[founderName]將自己綁在中央廣場的石頭上受苦受餓持續了三百天，藉此展示他們的正義。</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->我們運動的創世者[founderName]，藉由連續數日鞭打[founder_objective]自己以展現[founder_possessive]的虔誠，藉此獲得了[founder_possessive]的第一批追隨者。</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->我們運動的創世者[founderName]，藉由連續數日鞭打[founder_objective]自己以展現[founder_possessive]虔誠，藉此獲得了[founder_possessive]第一批追隨者。</li>
     <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追隨者們藉由割開與燒灼自己的身軀來展示自己的虔誠。</li>
     <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追隨者從不服用止痛的藥物，他們知道他們的痛苦將能展現根深蒂固的信念。</li>
     <li>lessonIntro(tag=meme_PainIsVirtue)         ->當我豐衣足食，放縱享樂的時候，我從來都是懵懵懂懂的，只當我飢餓受苦之時才理解到這項真理：</li>
@@ -803,7 +803,7 @@
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
   <Proselytizer.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Proselytizer)        ->[deity0_name]在凡人之中揀選一些人作為受膏者，傳達[deity0_possessive]的箴言。</li>
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name]在凡人之中揀選一些人作為受膏者，傳達[deity0_possessive]箴言。</li>
     <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]向所有[memberNamePlural]言道：「驅身向前，廣申真言，無邊無際，不遺一隅」。</li>
     <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural]在在[place_summary][place_name]建造了宏偉的[altarName]，讓許多人能來傾聽[deity0_name]神聖的箴言。</li>
     <li>conflict(tag=meme_Proselytizer)        ->可恨的[foeLeader]試圖否定[deity0_name]的箴言，唆使[foeLeader_possessive][foeSoldiers]割下那些提及[deity0_type]的人的舌頭。</li>
@@ -893,7 +893,7 @@
     <li>conflict(tag=meme_Raider)        ->[foeLeader]試著要眾人停止一切的強盜與掠奪，並宣稱[foeLeader_objective]自己是[deity0_name]的敵人。</li>
     <li>founderJoin(tag=meme_Raider)     ->偉大的掠奪者[founderName]崛起，而[founder_possessive]劫掠團無情地掠奪了[foeSoldiers]的營地。</li>
     <li>victory(tag=meme_Raider)         ->[founderName]以及[memberNamePlural]多年來對[foeSoldiers]的營地實施了掠奪行動，而最終[foeLeader]被迫投降。</li>
-    <li>setup(tag=meme_Raider)           ->遭受關押與迫害，[founderName]的憤怒沸騰不已。[founder_pronoun]成功脫困，組建了[founder_possessive]幫，並回頭摧毀了那些從[founder_objective]身上剝奪那麼多的軟弱之人。</li>
+    <li>setup(tag=meme_Raider)           ->遭受關押與迫害，[founderName]的憤怒沸騰不已。 [founder_pronoun]成功脫困，組建了[founder_possessive]幫，並回頭摧毀了那些從[founder_objective]身上剝奪那麼多的軟弱之人。</li>
     <li>story(uses=1,tag=meme_Raider)    ->某天走在街上之時，[founderName]被骯髒的乞丐們團團包圍，[founder_pronoun]將他們擊倒，從那些軟弱下賤的人身上取走了錢財，或許它們能用在更好的地方。</li>
     <li>lessonIntro(tag=meme_Raider)         ->即使當受害者死於你的刀下之時，他們仍可以為你上一課。一位老太婆教會了我</li>
     <li>lesson(tag=meme_Raider)              ->弱者咎由自取</li>
@@ -1004,7 +1004,7 @@
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]創造了這片土地上所有尊貴的動物與野獸，並啟示：「攜尊貴之獸，致使豐腴，以耀吾名。」</li>
     <li>intro(tag=meme_Rancher)           ->早期位在[place_summary][place_name]的牧者建造了雄偉的[altarName]獻予[deity0_name]。</li>
     <li>conflict(tag=meme_Rancher)        ->握有權勢的[foeLeader]看不起[memberNamePlural]和他們的生存之道，並購置了所有草原種植[Vegetable]。</li>
-    <li>founderJoin(tag=meme_Rancher)     ->[memberName]的救世主[founderName]於春天的早晨出生在簡約的農莊，被[ranchingAnimal]所圍繞，而[founder_possessive]的雙親是[rancherParent1]和[rancherParent2]。</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[memberName]的救世主[founderName]於春天的早晨出生在簡約的農莊，被[ranchingAnimal]所圍繞，而[founder_possessive]雙親是[rancherParent1]和[rancherParent2]。</li>
     <li>victory(tag=meme_Rancher)         ->[founderName]騎著駿馬來到了[place_community]，並在午時用[place_personalWeapon]向[foeLeader]發起了決鬥，[foeLeader]無法拒絕，否則他將失去[foeSoldiers]的信任，最終[founderName]斬殺了[foeLeader]。</li>
     <li>setup(tag=meme_Rancher)           ->牧人們受到了迫害，因此他們逃往鄉村地區，在那裡建設美好的牧場社會。</li>
     <li>story(uses=1,tag=meme_Rancher)    ->信徒們遍布在這塊大地之上，並生活在田園牧場之中成長茁壯。</li>
@@ -1101,7 +1101,7 @@
     <li>episode(uses=1,tag=meme_Transhumanist)  ->人類的生物工程師鑽研著[deity0_name]的傑作，使得[deity0_objective]歡欣無比。</li>
     <li>intro(tag=meme_Transhumanist)           ->在[place_summary][place_name]，[memberNamePlural]發現了[deity0_name]透過機器向他們呢喃的話語。</li>
     <li>conflict(tag=meme_Transhumanist)        ->反對革新的[foeLeader]嫉恨[memberNamePlural]卓絕的進步，而[foeLeader_possessive][foeSoldiers]使用[place_personalWeapon]摧毀了他們的工坊。</li>
-    <li>founderJoin(tag=meme_Transhumanist)     ->名為[founderName]的狡猾[place_job]設計了探測型的植入裝置，以便警告[memberNamePlural]他們[foeSoldiers]的到來。</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->名為[founderName]的狡猾[place_job]設計了探測型的植入裝置， 以便警告[memberNamePlural]他們[foeSoldiers]的到來。</li>
     <li>victory(tag=meme_Transhumanist)         ->[founderName]獲得了來自[deity0_name]神聖的科技知識，並用他強化[memberNamePlural]的身體與意志，讓他們能打敗[foeSoldiers]。</li>
     <li>setup(tag=meme_Transhumanist)           ->[founderName]是人類星際殖民時代早期的生物科學家。看不慣多數殖民地之間繁瑣的限制，[founder_pronoun]開走了一艘小船，建立了[founder_possessive]自己的活動。</li>
     <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName]集結了一個有著卓越的科學家及發明家的團隊，以重新定義人類。</li>
@@ -1245,12 +1245,12 @@
   -->
   <TreeConnection.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_TreeConnection)        ->[deity0_name]讓神木深深地扎根在地上，也讓他們穩固地成長為參天大樹，這是[deity0_name]如何了解[deity0_objective]的第一堂課</li>
-    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]的森林淨化了空氣讓[deity0_possessive]的人們呼吸，並給予他們庇護的枝幹，以及讓他們覓食的倉庫。</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]的森林淨化了空氣讓[deity0_possessive]人們呼吸，並給予他們庇護的枝幹，以及讓他們覓食的倉庫。</li>
     <li>intro(tag=meme_TreeConnection)           ->當原初的樹醫們第一次來到了[place_summary][place_name]，他們創造了神聖的[TreeType]林，在那裏他們能夠崇拜[deity0_type][deity0_name]。</li>
     <li>conflict(tag=meme_TreeConnection)        ->貪婪的[foeLeader]剷平了許多樹林來讓[foeLeader_possessive]建造農地與工廠，而[memberNamePlural]對於被濫殺的樹木悲慟不已。</li>
-    <li>founderJoin(tag=meme_TreeConnection)     ->先知[founderName]奇蹟般的出生在[place_name]的一顆樹之中，並在古老的[TreeType]樹的枝幹底下被[founder_possessive]的雙親發現。</li>
-    <li>victory(tag=meme_TreeConnection)         ->[founderName]看到[foeLeader]睡在[place_powerCenter]，並將一顆橡果放在[foeLeader]的胸膛上，有了[deity0_name]強大的力量，像果在那上面生根發芽，貫穿了[foeLeader_possessive]的身軀，向這位樹木殺手報仇雪恨。</li>
-    <li>setup(tag=meme_TreeConnection)           ->在缺乏深度與意義的世界之中，[founderName]在深林之中沉思，與樹根、枝葉連結，並創始了我們的活動。</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->先知[founderName]奇蹟般的出生在[place_name]的一顆樹之中，並在古老的[TreeType]樹的枝幹底下被[founder_possessive]雙親發現。</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName]看到[foeLeader]睡在[place_powerCenter]，並將一顆橡果放在[foeLeader]的胸膛上，有了[deity0_name]強大的力量，像果在那上面生根發芽，貫穿了[foeLeader_possessive]身軀，向這位樹木殺手報仇雪恨。</li>
+    <li>setup(tag=meme_TreeConnection)           ->在缺乏深度與意義的世界之中，[founderName]在深林之中沉思， 與樹根、枝葉連結，並創始了我們的活動。</li>
     <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName]帶著疲倦的人們到森林之中，讓他們在樹蔭之下休息，呼吸新鮮空氣，重拾活力。</li>
     <li>lessonIntro(tag=meme_TreeConnection)         ->或許你會覺得我說我是坐在樹下的時候學到這件事很好笑，但傾聽樹葉的低語，我了解到</li>
     <li>lesson(tag=meme_TreeConnection)              ->宇宙中沒有任何一個實體懂得比樹木還要多</li>
@@ -1335,9 +1335,9 @@
   <Tunneler.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Tunneler)        ->[deity0_name]在世界中心深處的土壤之中誕生，[deity0_pronoun]祝福著最靠近[deity0_objective]，居住在深谷與隧道之中的人們。</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name]用豐富的礦藏與資源填滿了石頭，作為禮物贈予了那些為了更接近[deity0_name]而深掘的聰明人。</li>
-    <li>intro(tag=meme_Tunneler)           ->當第一批殖民者來到了[place_summary][place_name]，[deity0_type][deity0_name]施展了殘酷的太陽閃焰迫使他們居住在地底下，讓他們在寂靜的隧道之中能聽見[deity0_possessive]的智慧。</li>
+    <li>intro(tag=meme_Tunneler)           ->當第一批殖民者來到了[place_summary][place_name]，[deity0_type][deity0_name]施展了殘酷的太陽閃焰迫使他們居住在地底下，讓他們在寂靜的隧道之中能聽見[deity0_possessive]智慧。</li>
     <li>conflict(tag=meme_Tunneler)        ->患有幽閉恐懼症的[foeLeader]提議用[dangerousMining]來開採礦藏，導致[memberNamePlural]的地底家園陷入危險之中。</li>
-    <li>founderJoin(tag=meme_Tunneler)     ->先知[founderName]奇蹟似的出生在[place_name]的石頭之中，並在[founder_possessive]的雙親打開蓋滿著蕈菇的晶簇之時被發現。</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->先知[founderName]奇蹟似的出生在[place_name]的石頭之中，並在[founder_possessive]雙親打開蓋滿著蕈菇的晶簇之時被發現。</li>
     <li>victory(tag=meme_Tunneler)         ->[memberNamePlural]挖出一條通往[foeLeader]的[place_powerCenter]的隧道，而[founderName]使用費洛蒙引來了巨大的昆蟲蹂躪了[foeLeader]的[foeSoldiers]們，[founderName]將[foeLeader]拖入深邃的地牢之中並將[foeLeader_objective]囚禁在那。</li>
     <li>dangerousMining->露天發掘</li>
     <li>dangerousMining->晶片植入的昆蟲</li>

@@ -13,7 +13,7 @@
   <!-- EN: An electromagnetic interference dynamo is projecting an EM interference field, disabling electrical devices. -->
   <EMIField.description>電磁干擾裝置正在放射電磁干擾，使附近的電氣設備無法使用。</EMIField.description>
   <!-- EN: a distant EMI dynamo will blast [map_definite] with an EMI field, shutting down electrical devices for [gameConditionDuration_duration] -->
-  <EMIField.descriptionFuture>一台遠處的電磁干擾裝置將向[map_definite]發出電磁干擾，在[gameConditionDuration_duration]裡關閉電氣設備。</EMIField.descriptionFuture>
+  <EMIField.descriptionFuture>一台遠處的電磁干擾裝置將向[map_definite]發出電磁干擾，在[gameConditionDuration_duration]裡關閉電氣設備</EMIField.descriptionFuture>
   <!-- EN: The EMI field has disappeared. -->
   <EMIField.endMessage>電磁干擾力場消失了</EMIField.endMessage>
   <!-- EN: An EMI field has been generated. It is disabling electrical devices. -->
@@ -29,9 +29,9 @@
   <!-- EN: psychic suppression -->
   <PsychicSuppression.label>心靈抑制</PsychicSuppression.label>
   <!-- EN: A psychic suppression field is affecting {0}s and reducing their consciousness. The effect is modulated by an individual's psychic sensitivity. -->
-  <PsychicSuppression.description>一個心靈抑制脈衝正在影響{0}並剝奪他們的意識。這個效果會因為心靈敏感度而有所不同。</PsychicSuppression.description>
+  <PsychicSuppression.description>一個心靈抑制脈衝正在影響{0}並削減他們的意識。這個效果會因為心靈敏感度而有所不同。</PsychicSuppression.description>
   <!-- EN: a psychic suppression wave will reduce the consciousness of all [psychicSuppressorGender]s around [map_definite] for [gameConditionDuration_duration] -->
-  <PsychicSuppression.descriptionFuture>一個心靈抑制脈衝會在[gameConditionDuration_duration]裡削減所有[map_definite]內的[psychicSuppressorGender]成員。</PsychicSuppression.descriptionFuture>
+  <PsychicSuppression.descriptionFuture>一個心靈抑制脈衝會在[gameConditionDuration_duration]裡削減所有[map_definite]內[psychicSuppressorGender]成員的意識</PsychicSuppression.descriptionFuture>
   <!-- EN: The psychic suppressor field has dissipated. -->
   <PsychicSuppression.endMessage>心靈抑制脈衝已經消散。</PsychicSuppression.endMessage>
   <!-- EN: A psychic suppressor field has begun reducing the consciousness of {0}s across the whole region. The effect is modulated by an individual's psychic sensitivity. -->
@@ -52,11 +52,11 @@
   <ToxicSpewer.letterText>附近的一個毒霧產生器已經開始向這個區域散布有毒氣體。</ToxicSpewer.letterText>
   
   <!-- EN: forced weather -->
-  <WeatherController.label>天氣控制</WeatherController.label>
+  <WeatherController.label>天氣干涉</WeatherController.label>
   <!-- EN: A nearby weather controller is forcing the weather into this configuration. -->
   <WeatherController.description>附近的一個天氣控制器正在強行將天氣改變為機器內的設定。</WeatherController.description>
   <!-- EN: a weather-control system will force the weather around [map_definite] to be [forcedWeather_indefinite] for [gameConditionDuration_duration] -->
-  <WeatherController.descriptionFuture>天氣控制系統將會強制在[gameConditionDuration_duration]內將[map_definite]的天氣變為[forcedWeather_indefinite]。</WeatherController.descriptionFuture>
+  <WeatherController.descriptionFuture>天氣控制系統將會強制在[gameConditionDuration_duration]內將[map_definite]的天氣變為[forcedWeather_indefinite]</WeatherController.descriptionFuture>
   <!-- EN: The weather controller is no longer changing the weather. -->
   <WeatherController.endMessage>天氣控制器不再影響天氣了。</WeatherController.endMessage>
   <!-- EN: A weather controller machine has begun affecting the weather. -->
