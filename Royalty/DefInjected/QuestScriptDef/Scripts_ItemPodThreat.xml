@@ -95,7 +95,7 @@
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]， 最近因遇上(*Threat)狂亂的[animalKind_label](/Threat)而失去了一名偵察員。 [asker_pronoun]希望將其引導至你這來殺死，以維護[asker_possessive]榮耀。[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->這隻[animalKind_label]，殺死了[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]的偵察員。</li>
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]， 最近因一群(*Threat)狂亂的[animalCount]隻[animalKind_labelPlural](/Threat)而失去了一隊偵查隊。 [asker_pronoun]希望將獸群引導到你這來殺死，以維護[asker_possessive]榮耀。[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->這隻[animalKind_labelPlural]，它殺死了[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]的偵察隊。</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->這隻[animalKind_labelPlural]，殺死了[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]的偵查隊。</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->The [AdjectiveBadass] [beast]</li>

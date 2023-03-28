@@ -39,7 +39,7 @@
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name]在一場盛大的集會之中，將[place_summary][place_name]的動物和人類聚在一塊。</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name]用[sacredAnimalListEnd]祝福了[place_summary][place_name]，並教導人民要崇尚動物。</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->一位邪惡的[foeLeader]下達了動物應該要被獵殺的指示，而[foeLeader_possessive][foeSoldiers]殘忍地用[place_personalWeapon]獵殺牠們。</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]來到了叫做[founderName]的[place_job]身邊，講述與[veneratedAnimal]有關的事。但[founderName]即是[veneratedAnimal]，而[veneratedAnimal]即是[founderName]，[founder_pronoun]便了解了[deity0_name]的計畫。</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]來到了叫做[founderName]的[place_job]身邊， 講述與[veneratedAnimal]有關的事。但[founderName]即是[veneratedAnimal]，而[veneratedAnimal]即是[founderName]，[founder_pronoun]便了解了[deity0_name]的計畫。</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->一位叫做[founderName]的[place_job]從殘酷的主人手上解救了許多被奴役的動物，並將牠們帶到[deity0_name]的[altarRoomLabel]的聖域</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->[founderName]以[deity0_name]的聲音呼喚了[memberNamePlural]以及動物們，並賣力地踏動他們的雙腳、四足和利爪蹂躪了[foeLeader]以及[foeLeader_possessive][foeSoldiers].</li>
     <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]在森林之中生活了二十年， 研究動物並和他們建立起了羈絆。[founder_pronoun]了解了牠們真實的美德，並建立了我們的初衷。</li>
@@ -324,7 +324,7 @@
     <li>conflict(tag=meme_Darkness)        ->一直以來對於黑暗感到恐懼的[foeLeader]豎立起巨大的太陽鏡，為[place_name]帶來永恆的日光。</li>
     <li>founderJoin(tag=meme_Darkness)     ->[founderName]先知出生在[place_name]的黑暗之中，並且[founder_possessive]一生都生活在黑暗之中，因此[founder_possessive]話語蘊含著[deity0_name]的智慧。</li>
     <li>victory(tag=meme_Darkness)         ->在最後一次的突襲中，[memberNamePlural]將[place_powerCenter]的電源切斷，並且[founderName]穿過了[foeSoldiers]潛入其中，在黑暗之中找到了[foeLeader]。[founderName]用[founder_possessive][place_personalWeapon]將[foeLeader_objective]送入永恆的黑暗之中。</li>
-    <li>setup(tag=meme_Darkness)           ->在閃耀世界都市那炫目的光線之下，[founderName]過著迷惘的生活。在一次太陽閃焰導致的漫長黑暗之中，[founder_pronoun]找回了平靜與沉思，並為我們的運動寫下了第一個篇章。</li>
+    <li>setup(tag=meme_Darkness)           ->在閃耀世界都市那炫目的光線之下，[founderName]過著迷惘的生活。在一次太陽閃焰導致的漫長黑暗之中，[founder_pronoun]找回了平靜與沉思， 並為我們的運動寫下了第一個篇章。</li>
     <li>story(uses=1,tag=meme_Darkness)    ->[founderName]建立了一個藝術家們都在黑暗中創作的工作室，而有許多的傑作在那裡誕生。</li>
     <li>lessonIntro(tag=meme_Darkness)         ->我的童年是在刺眼的燈光之下瞇著眼睛度過的，過了很久之後我才了解到</li>
     <li>lesson(tag=meme_Darkness)              ->光芒焚燒一切，黑暗滋養萬物</li>
@@ -482,7 +482,7 @@
     <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type][deity0_name]將[deity0_possessive]真理隱藏在現實的狹縫之間，清楚的神智無法瞥見其中奧秘。</li>
     <li>intro(tag=meme_HighLife)              ->在[deity0_name]的恩惠之下發現了[place_summary][place_name]，而當時一位醉醺醺的星艦艦長差點墜毀在其中。</li>
     <li>conflict(tag=meme_HighLife)           ->禁慾的[foeLeader]瞧不起[memberNamePlural]，而為了消除他們的特性，他禁止了改變精神狀態的物質使用。</li>
-    <li>founderJoin(tag=meme_HighLife)        ->在彈盡援絕之時，[deity0_name]來到[founderName]的身邊，並用迷幻的煙霧給予他啟示，讓[founder_objective]有一個獨特的視角使他能擊敗[foeSoldiers]。</li>
+    <li>founderJoin(tag=meme_HighLife)        ->在彈盡援絕之時，[deity0_name]來到[founderName]的身邊， 並用迷幻的煙霧給予他啟示，讓[founder_objective]有一個獨特的視角使他能擊敗[foeSoldiers]。</li>
     <li>victory(tag=meme_HighLife)            ->隸屬於[foeLeader]，配備[place_personalWeapon]的[foeSoldiers]突擊了[memberNamePlural]的[place_community]，然而[founderName]分給他們一些帶來和平的煙管，[foeSoldiers]便放下了武器。</li>
     <li>setup(tag=meme_HighLife)              ->被社會所唾棄，我們的創始人[founderName]旅行到了叢林之中，並在那裡嗑了一些奇異的草，而[founder_pronoun]在[founder_possessive]自己變異的意識之中發現了真理。</li>
     <li>story(uses=1,tag=meme_HighLife)       ->為了加深他們的理解，[founderName]帶著[founder_possessive]追隨者們每個禮拜齊聚一堂，分享新的化學物質調劑身心。</li>
@@ -1250,7 +1250,7 @@
     <li>conflict(tag=meme_TreeConnection)        ->貪婪的[foeLeader]剷平了許多樹林來讓[foeLeader_possessive]建造農地與工廠，而[memberNamePlural]對於被濫殺的樹木悲慟不已。</li>
     <li>founderJoin(tag=meme_TreeConnection)     ->先知[founderName]奇蹟般的出生在[place_name]的一顆樹之中，並在古老的[TreeType]樹的枝幹底下被[founder_possessive]雙親發現。</li>
     <li>victory(tag=meme_TreeConnection)         ->[founderName]看到[foeLeader]睡在[place_powerCenter]，並將一顆橡果放在[foeLeader]的胸膛上，有了[deity0_name]強大的力量，像果在那上面生根發芽，貫穿了[foeLeader_possessive]身軀，向這位樹木殺手報仇雪恨。</li>
-    <li>setup(tag=meme_TreeConnection)           ->在缺乏深度與意義的世界之中，[founderName]在深林之中沉思，與樹根、枝葉連結，並創始了我們的活動。</li>
+    <li>setup(tag=meme_TreeConnection)           ->在缺乏深度與意義的世界之中，[founderName]在深林之中沉思， 與樹根、枝葉連結，並創始了我們的活動。</li>
     <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName]帶著疲倦的人們到森林之中，讓他們在樹蔭之下休息，呼吸新鮮空氣，重拾活力。</li>
     <li>lessonIntro(tag=meme_TreeConnection)         ->或許你會覺得我說我是坐在樹下的時候學到這件事很好笑，但傾聽樹葉的低語，我了解到</li>
     <li>lesson(tag=meme_TreeConnection)              ->宇宙中沒有任何一個實體懂得比樹木還要多</li>
