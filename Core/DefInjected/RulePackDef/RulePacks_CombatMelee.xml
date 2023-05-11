@@ -103,7 +103,7 @@
     <li>r_logentry(p=0.3)->[INITIATOR_definite][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]把[RECIPIENT_definite]的[destroyed_targets][destroyed_past][destroyed_suffix]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite][expertly][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]。</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]with[implement]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>result(p=1,RECIPIENT_part_damaged_count==0)->[destroyed_present][RECIPIENT_possessive][destroyed_targets]</li>
     <li>result(p=1,RECIPIENT_part_destroyed_count==0)->[damaged_present][RECIPIENT_possessive][damaged_targets]</li>
     <li>result(p=1)->[destroyed_present][RECIPIENT_possessive][destroyed_targets]並且[damaged_present][RECIPIENT_possessive][damaged_targets]</li>
