@@ -489,8 +489,8 @@
     <li>tale_noun->[ANIMAL_nameDef]的訓練</li>
     <li>tale_noun->[TRAINER_nameDef]對[ANIMAL_nameDef]的訓練</li>
     <li>image->[TRAINER_nameFull][circumstance_group][train_syn][ANIMAL_nameFull][TRAINABLE_label]</li>
-    <li>image->[TRAINER_nameFull]teaching[TRAINABLE_label]to[ANIMAL_nameFull][circumstance_group]</li>
-    <li>image->[TRAINER_nameFull]practicing[TRAINABLE_label]with[ANIMAL_nameFull][circumstance_group]</li>
+    <li>image->[TRAINER_nameFull][circumstance_group]訓練[ANIMAL_nameFull]的[TRAINABLE_label]能力</li>
+    <li>image->[TRAINER_nameFull][circumstance_group]與[ANIMAL_nameFull]一起練習[TRAINABLE_label]</li>
     <li>train_syn->訓練</li>
     <li>train_syn->訓練</li>
     <li>train_syn->訓練</li>
