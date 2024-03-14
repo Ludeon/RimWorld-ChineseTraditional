@@ -3,47 +3,144 @@
   
   <!-- EN: archogenetics -->
   <Archogenetics.label>遠古遺傳學</Archogenetics.label>
-  <!-- EN: Allows a gene assembler to use archite capsules to create seemingly-impossible genes. Archite genes and archite capsules can be obtained from traders. -->
+  <!-- EN: Allows a gene assembler to use archite capsules to create seemingly impossible genes. Archite genes and archite capsules can be obtained from traders. -->
   <Archogenetics.description>讓基因組合機可以使用遠古分子膠囊，製造看似不可能的基因。遠古分子基因和遠古分子膠囊可以從商人購買而得。</Archogenetics.description>
+  <!-- EN:
+    <li>subject->archogenetics</li>
+    <li>subject_story->excavated archite genes from the transcendent moon of Ix</li>
+    <li>subject_story->made a good living as an archite gene trader</li>
+    <li>subject_story->led a research expedition to an ancient monolith and returned changed</li>
+    <li>subject_gerund->assembling archite genes</li>
+    <li>subject_gerund->creating seemingly impossible genes</li>
+  -->
+  <Archogenetics.generalRules.rulesStrings>
+    <li>subject->遠古遺傳學</li>
+    <li>subject_story->從超凡的第九衛星中發掘出遠古分子基因</li>
+    <li>subject_story->藉買賣遠古分子基因過著不賴的日子</li>
+    <li>subject_story->發起了研究遠古巨碑的遠征，並以另一樣貌回來了</li>
+    <li>subject_gerund->組合遠古分子基因</li>
+    <li>subject_gerund->製造出看似不可能的基因</li>
+  </Archogenetics.generalRules.rulesStrings>
   
   <!-- EN: deathrest -->
   <Deathrest.label>絕息</Deathrest.label>
   <!-- EN: Those with the deathrest gene must periodically undergo a special deathrest coma that lasts several days. This research project allows you to construct buildings which accelerate the deathrest coma and confer specific bonuses on the deathrester. Over time, you can build a grand deathrest temple. -->
   <Deathrest.description>絕息基因擁有者必須定期進行特殊的絕息昏迷數天。此研究讓你可以建造能夠加速絕息昏迷和為絕息者帶來額外效果的建築。假以時日，你可以建成一座宏偉的絕息寺。</Deathrest.description>
+  <!-- EN:
+    <li>subject->deathrest</li>
+    <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
+    <li>subject_story->interviewed a celebrity who never seemed to age, eventually learning her secrets</li>
+    <li>subject_story->attempted to replicate the technology and fell into a coma, only to wake weeks later</li>
+    <li>subject_gerund->constructing deathrest facilities</li>
+    <li>subject_gerund->improving deathrest</li>
+  -->
+  <Deathrest.generalRules.rulesStrings>
+    <li>subject->絕息</li>
+    <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
+    <li>subject_story->interviewed a celebrity who never seemed to age, eventually learning her secrets</li>
+    <li>subject_story->attempted to replicate the technology and fell into a coma, only to wake weeks later</li>
+    <li>subject_gerund->constructing deathrest facilities</li>
+    <li>subject_gerund->改善絕息</li>
+  </Deathrest.generalRules.rulesStrings>
   
   <!-- EN: fertility procedures -->
   <FertilityProcedures.label>生殖手術</FertilityProcedures.label>
   <!-- EN: Perform the surgeries necessary to create a test tube embryo from a fertile man and woman, then implant the embryo in a surrogate mother or growth vat. Also, perform sterilization surgeries on men and women. -->
   <FertilityProcedures.description>為有生育能力的男女進行特定的手術來製造試管胚胎，然後把胚胎植入代理孕母中或發育艙中。</FertilityProcedures.description>
+  <!-- EN:
+    <li>subject->fertility procedures</li>
+    <li>subject_story->helped families in the coreworlds achieve their dream of parenthood with test-tube embryos</li>
+    <li>subject_story->saved the rare Callopian boomrat from extinction with dangerous hand-fertilization techniques.</li>
+    <li>subject_story->solved the population crisis on an urbworld with fertility interventions and growth vats</li>
+    <li>subject_gerund->altering human fertility</li>
+    <li>subject_gerund->improving or blocking human fertility</li>
+  -->
+  <FertilityProcedures.generalRules.rulesStrings>TODO</FertilityProcedures.generalRules.rulesStrings>
   
   <!-- EN: gene processor -->
   <GeneProcessor.label>基因處理器</GeneProcessor.label>
   <!-- EN: Build gene processors, which allow a gene assembler to create xenogerms of higher genetic complexity. -->
   <GeneProcessor.description>建造基因處理器，讓基因組合機可以製造具有更複雜基因的異種細胞。</GeneProcessor.description>
+  <!-- EN:
+    <li>subject->gene processors</li>
+    <li>subject_story->extracted Glitterworld genes from a drifting derelict</li>
+    <li>subject_story->processed an entire village to create one set of higher genes</li>
+    <li>subject_story->began the slow process of uplift by implanting xenogerms into a primitive tribe</li>
+    <li>subject_gerund->constructing gene processors</li>
+    <li>subject_gerund->processing genes</li>
+  -->
+  <GeneProcessor.generalRules.rulesStrings>TODO</GeneProcessor.generalRules.rulesStrings>
   
   <!-- EN: growth vats -->
   <GrowthVats.label>發育艙</GrowthVats.label>
   <!-- EN: Construct growth vats which can gestate an embryo or accelerate a child's growth. -->
   <GrowthVats.description>建造發育艙，可以培養胚胎或加速兒童成長。</GrowthVats.description>
+  <!-- EN:
+    <li>subject->advanced gestation</li>
+    <li>subject->artificial wombs</li>
+    <li>subject_story->ran a cloning facility to supply servants for the coreworlds</li>
+    <li>subject_story->created a new army for a warworld junta</li>
+    <li>subject_story->helped families of all backgrounds have children</li>
+    <li>subject_gerund->gestating embryos in artificial wombs</li>
+    <li>subject_gerund->accelerating human growth</li>
+    <li>subject_gerund->constructing growth vats</li>
+  -->
+  <GrowthVats.generalRules.rulesStrings>TODO</GrowthVats.generalRules.rulesStrings>
   
   <!-- EN: toxin filtration -->
   <ToxFiltration.label>毒素過濾</ToxFiltration.label>
   <!-- EN: Craft and install bionic organs that can filter out toxins from the environment and from enemy attacks. -->
   <ToxFiltration.description>製造和安裝能夠過濾環境毒素和敵人毒素攻擊的仿生器官。</ToxFiltration.description>
+  <!-- EN:
+    <li>subject->toxin filtration</li>
+    <li>subject->toxin metabolisation</li>
+    <li>subject_story->helped milworld combat survivors breathe again</li>
+    <li>subject_story->skipped chemistry practicals for extra ethics classes</li>
+    <li>subject_story->joined a mine-corp as a filtration specialist</li>
+    <li>subject_gerund->metabolising toxins</li>
+    <li>subject_gerund->crafting antitoxin organs</li>
+  -->
+  <ToxFiltration.generalRules.rulesStrings>TODO</ToxFiltration.generalRules.rulesStrings>
   
   <!-- EN: tox gas -->
   <ToxGas.label>毒氣</ToxGas.label>
   <!-- EN: Produce weapons that utilize caustic tox gas. -->
   <ToxGas.description>製造能夠應用腐蝕性毒氣的武器。</ToxGas.description>
+  <!-- EN:
+    <li>subject->gas weaponry</li>
+    <li>subject->chemical warfare</li>
+    <li>subject_story->dreamed of a weapon to end all wars</li>
+    <li>subject_story->skipped ethics classes for extra chemistry practice</li>
+    <li>subject_story->researched cloud control tech for the tyrannocracy of a deathworld</li>
+    <li>subject_gerund->crafting toxic gas weapons</li>
+  -->
+  <ToxGas.generalRules.rulesStrings>TODO</ToxGas.generalRules.rulesStrings>
   
   <!-- EN: toxifier generator -->
   <ToxifierGenerator.label>毒能發電機</ToxifierGenerator.label>
   <!-- EN: Create toxifier generators which generate electricity, but also spread pollution around themselves. -->
   <ToxifierGenerator.description>建造毒能發電機生產電力，但會向周圍釋放污染。</ToxifierGenerator.description>
+  <!-- EN:
+    <li>subject->toxifier generator</li>
+    <li>subject_story->led a clean-up crew to a toxic planetoid</li>
+    <li>subject_story->learned about toxifiers in the deep sump of a skyripper</li>
+    <li>subject_story->researched cheap and dirty power sources for an urbcorp</li>
+    <li>subject_gerund->constructing toxifier generators</li>
+  -->
+  <ToxifierGenerator.generalRules.rulesStrings>TODO</ToxifierGenerator.generalRules.rulesStrings>
   
   <!-- EN: xenogenetics -->
   <Xenogermination.label>異種遺傳學</Xenogermination.label>
   <!-- EN: Create xenogerms which can be implanted in a person to genetically modify them. Extract genepacks from living people using a gene extractor so you can reimplant their genes into someone else. -->
   <Xenogermination.description>製造異種細胞，可以移植至某人體內，改變其基因。使用基因抽取器，從活人身上抽取基因包，你就可以把他們的基因移植到其他人身上。</Xenogermination.description>
+  <!-- EN:
+    <li>subject->xenogermination</li>
+    <li>subject->genetic implantation</li>
+    <li>subject_story->was uplifted by a glitterworld charity that focused on the genetically disadvantaged</li>
+    <li>subject_story->had their genes stolen by a rogue biologist</li>
+    <li>subject_story->ran a genetic transfer clinic for the glitterworld elite</li>
+    <li>subject_gerund->crafting xenogerms</li>
+  -->
+  <Xenogermination.generalRules.rulesStrings>TODO</Xenogermination.generalRules.rulesStrings>
   
 </LanguageData>
