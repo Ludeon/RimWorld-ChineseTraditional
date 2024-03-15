@@ -25,7 +25,7 @@
   <!-- EN: deathrest -->
   <Deathrest.label>絕息</Deathrest.label>
   <!-- EN: Those with the deathrest gene must periodically undergo a special deathrest coma that lasts several days. This research project allows you to construct buildings which accelerate the deathrest coma and confer specific bonuses on the deathrester. Over time, you can build a grand deathrest temple. -->
-  <Deathrest.description>絕息基因擁有者必須定期進行特殊的絕息昏迷數天。此研究讓你可以建造能夠加速絕息昏迷和為絕息者帶來額外效果的建築。假以時日，你可以建成一座宏偉的絕息寺。</Deathrest.description>
+  <Deathrest.description>絕息基因擁有者必須定期進行特殊的絕息昏迷數天。此研究讓你可以建造能夠加速絕息昏迷和為絕息者帶來額外效果的建築。假以時日，你可以建成一座宏偉的絕息神殿。</Deathrest.description>
   <!-- EN:
     <li>subject->deathrest</li>
     <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
@@ -36,10 +36,10 @@
   -->
   <Deathrest.generalRules.rulesStrings>
     <li>subject->絕息</li>
-    <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
-    <li>subject_story->interviewed a celebrity who never seemed to age, eventually learning her secrets</li>
-    <li>subject_story->attempted to replicate the technology and fell into a coma, only to wake weeks later</li>
-    <li>subject_gerund->constructing deathrest facilities</li>
+    <li>subject_story->解剖從絕息神殿取得的屍體，終於了解是如何運作的</li>
+    <li>subject_story->訪問了一位不老的名人，最後得知她的青春秘密</li>
+    <li>subject_story->試圖重現絕息的科技並陷入沉睡，代價只是數周後醒來</li>
+    <li>subject_gerund->建造絕息的建築</li>
     <li>subject_gerund->改善絕息</li>
   </Deathrest.generalRules.rulesStrings>
   
@@ -55,7 +55,14 @@
     <li>subject_gerund->altering human fertility</li>
     <li>subject_gerund->improving or blocking human fertility</li>
   -->
-  <FertilityProcedures.generalRules.rulesStrings>TODO</FertilityProcedures.generalRules.rulesStrings>
+  <FertilityProcedures.generalRules.rulesStrings>
+    <li>subject->生殖手術</li>
+    <li>subject_story->利用試管胚胎幫助了核心世界的家庭實現為人父母的夢想</li>
+    <li>subject_story->以危險的人工繁殖技術幫助罕見的卡羅普爆炸鼠免於滅絕</li>
+    <li>subject_story->透過干預生殖力和發育艙，解決了都市世界的人口危機</li>
+    <li>subject_gerund->改變人類的生殖力</li>
+    <li>subject_gerund->助長或阻礙人類的生殖力</li>
+  </FertilityProcedures.generalRules.rulesStrings>
   
   <!-- EN: gene processor -->
   <GeneProcessor.label>基因處理器</GeneProcessor.label>
@@ -69,7 +76,14 @@
     <li>subject_gerund->constructing gene processors</li>
     <li>subject_gerund->processing genes</li>
   -->
-  <GeneProcessor.generalRules.rulesStrings>TODO</GeneProcessor.generalRules.rulesStrings>
+  <GeneProcessor.generalRules.rulesStrings>
+    <li>subject->基因處理器</li>
+    <li>subject_story->從一名無家的流浪漢提取到閃耀世界基因</li>
+    <li>subject_story->把一整個部落處理分析，從而得到一組優秀基因</li>
+    <li>subject_story->透過植入異種細胞，使一個原始部落漸漸振興起來</li>
+    <li>subject_gerund->建造基因處理器</li>
+    <li>subject_gerund->處理基因</li>
+  </GeneProcessor.generalRules.rulesStrings>
   
   <!-- EN: growth vats -->
   <GrowthVats.label>發育艙</GrowthVats.label>
@@ -85,7 +99,16 @@
     <li>subject_gerund->accelerating human growth</li>
     <li>subject_gerund->constructing growth vats</li>
   -->
-  <GrowthVats.generalRules.rulesStrings>TODO</GrowthVats.generalRules.rulesStrings>
+  <GrowthVats.generalRules.rulesStrings>
+    <li>subject->先進培養技術</li>
+    <li>subject->人造子宮</li>
+    <li>subject_story->營運著一間為核心世界提供奴隸的複製人設施</li>
+    <li>subject_story->為戰爭世界的軍政府製造了一隊士兵</li>
+    <li>subject_story->幫助不同背景的家庭生育</li>
+    <li>subject_gerund->在人造子宮中培養著胚胎</li>
+    <li>subject_gerund->加速人類成長</li>
+    <li>subject_gerund->建造發育艙</li>
+  </GrowthVats.generalRules.rulesStrings>
   
   <!-- EN: toxin filtration -->
   <ToxFiltration.label>毒素過濾</ToxFiltration.label>
@@ -100,7 +123,15 @@
     <li>subject_gerund->metabolising toxins</li>
     <li>subject_gerund->crafting antitoxin organs</li>
   -->
-  <ToxFiltration.generalRules.rulesStrings>TODO</ToxFiltration.generalRules.rulesStrings>
+  <ToxFiltration.generalRules.rulesStrings>
+    <li>subject->毒素過濾</li>
+    <li>subject->毒素代謝</li>
+    <li>subject_story->幫助戰爭世界的倖存戰士再次呼吸</li>
+    <li>subject_story->為了上倫理課程而蹺掉了化學實驗課</li>
+    <li>subject_story->加入礦業公司擔任過濾專家</li>
+    <li>subject_gerund->代謝毒素</li>
+    <li>subject_gerund->製造排毒器官</li>
+  </ToxFiltration.generalRules.rulesStrings>
   
   <!-- EN: tox gas -->
   <ToxGas.label>毒氣</ToxGas.label>
@@ -114,7 +145,14 @@
     <li>subject_story->researched cloud control tech for the tyrannocracy of a deathworld</li>
     <li>subject_gerund->crafting toxic gas weapons</li>
   -->
-  <ToxGas.generalRules.rulesStrings>TODO</ToxGas.generalRules.rulesStrings>
+  <ToxGas.generalRules.rulesStrings>
+    <li>subject->氣體武器</li>
+    <li>subject->化學戰爭</li>
+    <li>subject_story->夢想有一個武器能終止所有戰爭</li>
+    <li>subject_story->為了上化學實驗課而蹺掉了倫理課程</li>
+    <li>subject_story->為死亡世界的暴政者研發了雲層控制技術</li>
+    <li>subject_gerund->製造毒氣武器</li>
+  </ToxGas.generalRules.rulesStrings>
   
   <!-- EN: toxifier generator -->
   <ToxifierGenerator.label>毒能發電機</ToxifierGenerator.label>
@@ -127,7 +165,13 @@
     <li>subject_story->researched cheap and dirty power sources for an urbcorp</li>
     <li>subject_gerund->constructing toxifier generators</li>
   -->
-  <ToxifierGenerator.generalRules.rulesStrings>TODO</ToxifierGenerator.generalRules.rulesStrings>
+  <ToxifierGenerator.generalRules.rulesStrings>
+    <li>subject->毒能發電機</li>
+    <li>subject_story->帶領一隊清理人員前往有毒小行星</li>
+    <li>subject_story->在一個破天者的秘坑中認識到毒化器</li>
+    <li>subject_story->為都市企業研發廉價且不潔淨的能源</li>
+    <li>subject_gerund->建造毒能發電機</li>
+  </ToxifierGenerator.generalRules.rulesStrings>
   
   <!-- EN: xenogenetics -->
   <Xenogermination.label>異種遺傳學</Xenogermination.label>
@@ -141,6 +185,13 @@
     <li>subject_story->ran a genetic transfer clinic for the glitterworld elite</li>
     <li>subject_gerund->crafting xenogerms</li>
   -->
-  <Xenogermination.generalRules.rulesStrings>TODO</Xenogermination.generalRules.rulesStrings>
+  <Xenogermination.generalRules.rulesStrings>
+    <li>subject->異種遺傳</li>
+    <li>subject->基因植入</li>
+    <li>subject_story->受致力改善天生弱勢的閃耀世界慈善者的幫助</li>
+    <li>subject_story->他們的基因被一個流氓生物學家偷走了</li>
+    <li>subject_story->營運一間為閃耀世界精英服務的基因轉移中心</li>
+    <li>subject_gerund->製造異種細胞</li>
+  </Xenogermination.generalRules.rulesStrings>
   
 </LanguageData>
