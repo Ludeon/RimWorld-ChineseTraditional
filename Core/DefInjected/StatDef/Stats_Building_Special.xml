@@ -17,14 +17,19 @@
   <ImmunityGainSpeedFactor.description>免疫力形成時的速度。</ImmunityGainSpeedFactor.description>
   
   <!-- EN: recreation power -->
-  <JoyGainFactor.label>娛樂度</JoyGainFactor.label>
+  <JoyGainFactor.label>娛樂值</JoyGainFactor.label>
   <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
-  <JoyGainFactor.description>此物品提供人們的娛樂，滿足娛樂度的需求。</JoyGainFactor.description>
+  <JoyGainFactor.description>此物品提供人們的娛樂，滿足娛樂值的需求。</JoyGainFactor.description>
   
   <!-- EN: medical tend quality offset -->
   <MedicalTendQualityOffset.label>醫療品質偏移</MedicalTendQualityOffset.label>
   <!-- EN: Medical tend quality is offset by this value. -->
   <MedicalTendQualityOffset.description>進行醫療時的品質會受此數值偏移。</MedicalTendQualityOffset.description>
+  
+  <!-- EN: max power output -->
+  <PowerPlantMaxPowerOuput.label>最大電力輸出</PowerPlantMaxPowerOuput.label>
+  <!-- EN: The maximum power that this generator can output in ideal conditions. -->
+  <PowerPlantMaxPowerOuput.description>此發電機在理想情況下所能輸出的最大電力。</PowerPlantMaxPowerOuput.description>
   
   <!-- EN: research speed factor -->
   <ResearchSpeedFactor.label>研究速度</ResearchSpeedFactor.label>
@@ -32,6 +37,15 @@
   <ResearchSpeedFactor.description>進行研究工作時的速度。</ResearchSpeedFactor.description>
   <!-- EN: Room cleanliness -->
   <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>房間清潔度</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <!-- EN: Reading bonus -->
+  <ResearchSpeedFactor.parts.Reading_bonus.customLabel>閱讀加成</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
+  
+  <!-- EN: reading bonus -->
+  <RoomReadingBonus.label>閱讀加成</RoomReadingBonus.label>
+  <!-- EN: Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase. -->
+  <RoomReadingBonus.description>對書櫃所在房間的研究速度、閱讀所得的經驗值和閱讀所得的娛樂值的加成。此數值會隨放置更多高品質書籍在書櫃之中而提升。</RoomReadingBonus.description>
+  <!-- EN: Reading bonus -->
+  <RoomReadingBonus.parts.Reading_bonus.customLabel>閱讀加成</RoomReadingBonus.parts.Reading_bonus.customLabel>
   
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>手術成功率</SurgerySuccessChanceFactor.label>
@@ -42,8 +56,8 @@
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>陷阱殺傷力</TrapMeleeDamage.label>
-  <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>陷阱造成的傷害平均值。\n\n實際數值會根據平均值上下浮動。</TrapMeleeDamage.description>
+  <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
+  <TrapMeleeDamage.description>陷阱每次擊中造成的傷害平均值。一個陷阱會擊中數次。\n\n實際數值會上下隨機浮動。</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
   <TrapSpringChance.label>陷阱觸發率</TrapSpringChance.label>

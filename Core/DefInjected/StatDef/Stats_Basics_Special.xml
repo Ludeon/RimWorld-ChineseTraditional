@@ -15,8 +15,8 @@
   
   <!-- EN: filth multiplier -->
   <FilthMultiplier.label>髒污倍率</FilthMultiplier.label>
-  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. -->
-  <FilthMultiplier.description>這個物體表面的易髒程度。如果小於100%，一些堆積在此處的髒污會在接觸後消失。</FilthMultiplier.description>
+  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth. -->
+  <FilthMultiplier.description>這個物體表面的易髒程度。如果小於100%，一些堆積在此處的髒污會在接觸後消失。只適用於有機髒污。</FilthMultiplier.description>
   
   <!-- EN: medical potency -->
   <MedicalPotency.label>醫療效果</MedicalPotency.label>
@@ -36,6 +36,23 @@
   <MeditationFocusStrength.formatString>{0}/天</MeditationFocusStrength.formatString>
   <!-- EN: {0} / day -->
   <MeditationFocusStrength.formatStringUnfinalized>{0}/天</MeditationFocusStrength.formatStringUnfinalized>
+  
+  <!-- EN: neural heat limit offset -->
+  <PsychicEntropyMaxOffset.label>神經熱上限偏移</PsychicEntropyMaxOffset.label>
+  <!-- EN: An offset applied to the user's neural heat limit. -->
+  <PsychicEntropyMaxOffset.description>應用於使用者的神經熱上限的偏移量。</PsychicEntropyMaxOffset.description>
+  
+  <!-- EN: neural heat recovery rate offset -->
+  <PsychicEntropyRecoveryRateOffset.label>神經熱恢復率偏移</PsychicEntropyRecoveryRateOffset.label>
+  <!-- EN: An offset applied to the user's neural heat recovery rate. -->
+  <PsychicEntropyRecoveryRateOffset.description>應用於使用者的神經熱恢復率的偏移量。</PsychicEntropyRecoveryRateOffset.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRateOffset.formatString>{0}/秒</PsychicEntropyRecoveryRateOffset.formatString>
+  
+  <!-- EN: psychic sensitivity factor -->
+  <PsychicSensitivityFactor.label>心靈敏感度倍率</PsychicSensitivityFactor.label>
+  <!-- EN: A factor applied to the user's psychic sensitivity. -->
+  <PsychicSensitivityFactor.description>應用於使用者的心靈敏感度的倍率。</PsychicSensitivityFactor.description>
   
   <!-- EN: psychic sensitivity offset -->
   <PsychicSensitivityOffset.label>心靈敏感度偏移</PsychicSensitivityOffset.label>
