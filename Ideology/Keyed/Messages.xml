@@ -78,8 +78,10 @@
   <MessageCharityEventFulfilled>達成了善行</MessageCharityEventFulfilled>
   <!-- EN: {0} are leaving empty-handed. -->
   <MessageBeggarsLeavingWithNoItems>{0}兩手空空地離開了。</MessageBeggarsLeavingWithNoItems>
+  <!-- EN: The {0} has accepted the requested items and is leaving. -->
+  <MessageBeggarsLeavingWithItemsSingular>TODO</MessageBeggarsLeavingWithItemsSingular>
   <!-- EN: {0} have accepted the requested items and are leaving. -->
-  <MessageBeggarsLeavingWithItems>{0}收下了所需物品並起程離去。</MessageBeggarsLeavingWithItems>
+  <MessageBeggarsLeavingWithItemsPlural>TODO</MessageBeggarsLeavingWithItemsPlural>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef}失救而死。</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
@@ -151,5 +153,8 @@
   <MessageDevelopmentPointsEarned>發展點數由{0}變成{1}({2})。</MessageDevelopmentPointsEarned>
   <!-- EN: Only one change to structures, memes and styles is allowed. -->
   <MessageFluidIdeoOneChangeAllowed>只容許一項結構、模因和風格的修改。</MessageFluidIdeoOneChangeAllowed>
+
+  <!-- UNUSED -->
+  <MessageBeggarsLeavingWithItems>{0}收下了所需物品並起程離去。</MessageBeggarsLeavingWithItems>
 
 </LanguageData>

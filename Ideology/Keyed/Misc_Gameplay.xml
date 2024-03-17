@@ -29,6 +29,8 @@
   <DeleteCustom>刪除自訂</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>製作全新</CreateNew>
+  <!-- EN: Create fluid -->
+  <CreateFluid>生成流動理念</CreateFluid>
   <!-- EN: Load existing -->
   <LoadExisting>載入已有</LoadExisting>
   <!-- EN: Create custom ideoligion -->
@@ -99,6 +101,10 @@
   <SetIdeoColor>設定為理念顏色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>設定為喜愛顏色</SetFavoriteColor>
+  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>TODO</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>TODO</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>設定你的派系理念</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -388,7 +394,7 @@
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>找到聖物資訊</RelicInfoFound>
-  <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
+  <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
   <InactiveRoleRequiresMoreBelievers>未生效，需要至少{0}個{1}(現有{2})</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
@@ -667,6 +673,5 @@
   <DisablesPrecepts>禁用戒律</DisablesPrecepts>
   <DisablesPreceptsCount>禁用{0}條戒律</DisablesPreceptsCount>
   <Customize>自訂</Customize>
-  <CreateFluid>生成流動理念</CreateFluid>
 
 </LanguageData>
