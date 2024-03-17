@@ -127,6 +127,11 @@
   <!-- EN: buzzing -->
   <PsychicHangover.stages.buzzing.label>爆發</PsychicHangover.stages.buzzing.label>
   
+  <!-- EN: psychic invisibility -->
+  <PsychicInvisibility.label>心靈隱身</PsychicInvisibility.label>
+  <!-- EN: Psychically-induced invisibility. This actually affects others nearby, making their brains unable to perceive the sight of this individual, even if the eyes are unaffected. -->
+  <PsychicInvisibility.description>利用心靈能量隱身。這實際上是對附近的人施加影響，使他們的大腦無法感知到自己的存在，即使眼睛沒有受到影響。</PsychicInvisibility.description>
+  
   <!-- EN: psychic shock -->
   <PsychicShock.label>心靈衝擊</PsychicShock.label>
   <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of neural heat, this effect is debilitating until it wears off. -->
@@ -143,6 +148,8 @@
   <ToxicBuildup.label>中毒</ToxicBuildup.label>
   <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
   <ToxicBuildup.description>流淌在血液裡的毒素。可能來自各種環境，包含環境的毒、毒咬、或有毒武器。\n\n中毒過深會致死。即使中毒不深，也會產生毒瘤。\n\n如果一個生物中毒身亡，有機會變得無法被食用。越高的毒性累積，則有越高的機會。</ToxicBuildup.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of toxic buildup. Keep {PAWN_objective} away from sources of toxins. -->
+  <ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: initial -->
   <ToxicBuildup.stages.initial-0.label>輕微</ToxicBuildup.stages.initial-0.label>
   <!-- EN: initial -->

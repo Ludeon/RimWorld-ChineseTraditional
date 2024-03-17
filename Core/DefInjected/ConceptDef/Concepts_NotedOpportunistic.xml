@@ -11,6 +11,11 @@
   <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
   <BillsTab.helpText>要讓居民執行工作台的工作，選擇一張工作台後點擊「選單」開啟工作面板。在這裡你可以指定要烹煮何種料理、要打造什麼裝備、要屠宰哪些生物。</BillsTab.helpText>
   
+  <!-- EN: books -->
+  <Books.label>書籍</Books.label>
+  <!-- EN: Colonists read books for recreation, to gain skills, to unlock research, and more. You can see a specific book's effects by selecting it and opening its 'Details' tab.\n\nTo choose what colonists will read, open the 'Assign' tab and configure READING POLICIES.\n\nStore books in bookcases to passively enhance intellectual and reading work done nearby, and increase the beauty of the bookcase. Bookcases passively increase research speed, XP gained from reading, and recreation gained from reading in the same room. -->
+  <Books.helpText>居民會閱讀書本以作消閑、學習技能、解鎖研究等等。你可以打開書本的「詳情」面板查看每本書的效果。\n\n在「分配」面板可以指定「閱讀規定」來指定居民閱讀的種類。\n\n把書籍儲存在書櫃中可以加強周邊的知識和閱讀效果，並能提升書櫃的美觀度。房間中的書櫃會加快研究速度，閱讀所得的經驗值，和閱讀所得的娛樂度。</Books.helpText>
+  
   <!-- EN: Build orbital trade beacon -->
   <BuildOrbitalTradeBeacon.label>建造信標</BuildOrbitalTradeBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
@@ -71,8 +76,8 @@
   
   <!-- EN: Prisoner tab -->
   <PrisonerTab.label>俘虜介面</PrisonerTab.label>
-  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored or executed, whether they eat, and what kind of medical care they get.\n\nColonists with the Warden work type will interact with the prisoner. -->
-  <PrisonerTab.helpText>開啟「俘虜」面板以設定這名俘虜要被如何對待。\n\n你可以選擇對他進行招募、處決或不互動、提供他什麼食物、獲得何種程度的醫療照顧。\n\n分派有獄卒工作的居民會依照設定執行相應的處置。</PrisonerTab.helpText>
+  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\n\nColonists with the Warden work type will interact with the prisoner. -->
+  <PrisonerTab.helpText>開啟「俘虜」面板以設定這名俘虜要被如何對待。\n\n你可以選擇對他進行招募、處決或不互動，設定何種程度的醫療照顧。你亦可以在「健康」面板設定俘虜的食物限制。\n\n分派有獄卒工作的居民會依照設定執行相應的處置。</PrisonerTab.helpText>
   
   <!-- EN: Order queueing -->
   <QueueOrders.label>排程命令</QueueOrders.label>
