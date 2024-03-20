@@ -149,7 +149,7 @@
   <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
   <ToxicBuildup.description>流淌在血液裡的毒素。可能來自各種環境，包含環境的毒、毒咬、或有毒武器。\n\n中毒過深會致死。即使中毒不深，也會產生毒瘤。\n\n如果一個生物中毒身亡，有機會變得無法被食用。越高的毒性累積，則有越高的機會。</ToxicBuildup.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of toxic buildup. Keep {PAWN_objective} away from sources of toxins. -->
-  <ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}有早期中毒的跡象。讓{PAWN_objective}遠離任何毒素的來源。</ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: initial -->
   <ToxicBuildup.stages.initial-0.label>輕微</ToxicBuildup.stages.initial-0.label>
   <!-- EN: initial -->
