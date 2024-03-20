@@ -27,9 +27,12 @@
   <!-- EN: Fast human-sized combat mechanoids built for medium and long-range combat. Their bodies are light, making them vulnerable targets at close range - especially in melee combat. -->
   <Mech_Lancer.description>一種人體大小的快速戰鬥機械，擅長中距離、遠距離戰鬥。它們的身體很輕，很容易成為近距離攻擊的目標——特是別是近戰中。</Mech_Lancer.description>
   <!-- EN: left fist -->
-  <Mech_Lancer.tools.left_fist.label>左手</Mech_Lancer.tools.left_fist.label>
-  <!-- EN: right fist -->
-  <Mech_Lancer.tools.right_fist.label>右手</Mech_Lancer.tools.right_fist.label>
+  <Mech_Lancer.tools.left_fist.label>左拳</Mech_Lancer.tools.left_fist.label>
+  <!-- EN: fist -->
+拳  <!-- EN: right fist -->
+  <Mech_Lancer.tools.right_fist.label>右拳</Mech_Lancer.tools.right_fist.label>
+  <!-- EN: fist -->
+  <Mech_Lancer.tools.right_fist.labelNoLocation>拳</Mech_Lancer.tools.right_fist.labelNoLocation>
   <!-- EN: head -->
   <Mech_Lancer.tools.head.label>頭部</Mech_Lancer.tools.head.label>
   
@@ -39,8 +42,12 @@
   <Mech_Pikeman.description>一種搭載遠程武器的笨重、多條腿戰鬥機械。擅長遠距離射擊，對於近距離戰鬥很弱。\n\n經歷過機械大戰的老兵都清楚，對抗看守者最安全的做法就是近距離攻擊。</Mech_Pikeman.description>
   <!-- EN: front left leg -->
   <Mech_Pikeman.tools.front_left_leg.label>左前腿</Mech_Pikeman.tools.front_left_leg.label>
+  <!-- EN: leg -->
+  <Mech_Pikeman.tools.front_left_leg.labelNoLocation>腿</Mech_Pikeman.tools.front_left_leg.labelNoLocation>
   <!-- EN: front right leg -->
   <Mech_Pikeman.tools.front_right_leg.label>右前腿</Mech_Pikeman.tools.front_right_leg.label>
+  <!-- EN: leg -->
+  <Mech_Pikeman.tools.front_right_leg.labelNoLocation>腿</Mech_Pikeman.tools.front_right_leg.labelNoLocation>
   <!-- EN: head -->
   <Mech_Pikeman.tools.head.label>頭</Mech_Pikeman.tools.head.label>
   
@@ -50,8 +57,12 @@
   <Mech_Scyther.description>快速、纖細、人型化的戰鬥機械。擅長快速衝鋒進行近距離作戰。它們的身體全身都是尖刺、刀刃，但它們大多只使用手臂機械刃砍下四肢，不取性命。</Mech_Scyther.description>
   <!-- EN: left blade -->
   <Mech_Scyther.tools.left_blade.label>左機械刃</Mech_Scyther.tools.left_blade.label>
+  <!-- EN: blade -->
+  <Mech_Scyther.tools.left_blade.labelNoLocation>機械刃</Mech_Scyther.tools.left_blade.labelNoLocation>
   <!-- EN: right blade -->
   <Mech_Scyther.tools.right_blade.label>右機械刃</Mech_Scyther.tools.right_blade.label>
+  <!-- EN: blade -->
+  <Mech_Scyther.tools.right_blade.labelNoLocation>機械刃</Mech_Scyther.tools.right_blade.labelNoLocation>
   <!-- EN: head -->
   <Mech_Scyther.tools.head.label>頭</Mech_Scyther.tools.head.label>
   
