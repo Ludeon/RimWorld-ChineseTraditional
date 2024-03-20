@@ -323,6 +323,13 @@
   <!-- EN: execute -->
   <ExecuteGuiltyColonist.verb>執行</ExecuteGuiltyColonist.verb>
   
+  <!-- EN: extract skull -->
+  <ExtractSkull.label>取出頭骨</ExtractSkull.label>
+  <!-- EN: extracting skull of -->
+  <ExtractSkull.gerund>取出頭骨於</ExtractSkull.gerund>
+  <!-- EN: extract -->
+  <ExtractSkull.verb>取出</ExtractSkull.verb>
+  
   <!-- EN: extract trees -->
   <ExtractTree.label>移植樹木</ExtractTree.label>
   <!-- EN: extracting -->
@@ -413,6 +420,13 @@
   <HaulMerge.gerund>合併</HaulMerge.gerund>
   <!-- EN: merge -->
   <HaulMerge.verb>合併</HaulMerge.verb>
+  
+  <!-- EN: haul to map -->
+  <HaulToPortal.label>運送到地圖</HaulToPortal.label>
+  <!-- EN: loading -->
+  <HaulToPortal.gerund>裝卸</HaulToPortal.gerund>
+  <!-- EN: load -->
+  <HaulToPortal.verb>裝卸</HaulToPortal.verb>
   
   <!-- EN: load caravan -->
   <HelpGatheringItemsForCaravan.label>裝卸旅隊貨物</HelpGatheringItemsForCaravan.label>
@@ -615,11 +629,16 @@
   <!-- EN: strip -->
   <Strip.verb>掠奪</Strip.verb>
   
-  <!-- EN: study -->
-  <StudyThing.label>研究 </StudyThing.label>
+  <!-- EN: study archotech structures -->
+  <StudyArchotechStructures.label>研究遠古遺跡</StudyArchotechStructures.label>
   <!-- EN: studying -->
+  <StudyArchotechStructures.gerund>研究</StudyArchotechStructures.gerund>
+  <!-- EN: study -->
+  <StudyArchotechStructures.verb>研究</StudyArchotechStructures.verb>
+  
+  <!-- UNUSED -->
+  <StudyThing.label>研究 </StudyThing.label>
   <StudyThing.gerund>研究</StudyThing.gerund>
-  <!-- EN: research -->
   <StudyThing.verb>研究</StudyThing.verb>
   
   <!-- EN: take beer out of fermenting barrels -->
