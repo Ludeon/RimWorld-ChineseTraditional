@@ -99,8 +99,8 @@
   
   <!-- EN: organ decay -->
   <OrganDecay.label>器官侵蝕</OrganDecay.label>
-  <!-- EN: A degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people. -->
-  <OrganDecay.description>出現於單個器官的退化性疾病。病因可能是細菌或病毒。這種疾病似乎是從一個未知的自然宿主中隨機入侵;它不會在人與人之間直接傳染。</OrganDecay.description>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecay.description>出現於單個器官的退化性絕症。病因可能是細菌或病毒。這種疾病似乎是從一個未知的自然宿主中隨機入侵;它不會在人與人之間直接傳染。\n\n此器官會逐漸失去功能，直至侵蝕殆盡。用仿生或天然器官替換它。</OrganDecay.description>
   <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
   <OrganDecay.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort}的{1}因器官侵蝕而摧毀。</OrganDecay.comps.HediffComp_DestroyOrgan.messageText>
   <!-- EN: minor -->
