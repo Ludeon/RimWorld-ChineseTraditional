@@ -48,8 +48,14 @@
   <TabFormingCaravan>旅隊</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>內容物</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>旅行</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>內容物</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>詳情</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>研究</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>自動裁剪</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>貼上</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>無法繼續添加</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>完成於</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,10 +112,10 @@
   <NotWhileAsleep>睡眠中</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>正在突破</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
-  <FactorForDoorCount>門數量倍率</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
-  <FactorForMovement>移動速度倍率</FactorForMovement>
+  <!-- EN: Door count -->
+  <FactorForDoorCount>門數量</FactorForDoorCount>
+  <!-- EN: Movement -->
+  <FactorForMovement>移動速度</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>奴隸價格</SlavePrice>
   <!-- EN: The base market value of this slave if sold. -->
@@ -138,6 +146,8 @@
   <NonRecruitableTip>此俘虜對他們的派系極為忠誠而絕對拒絕任何招募。</NonRecruitableTip>
   <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
   <NonRecruitableTipCannotConvert>他們的忠誠延伸至他們的信仰因此無法傳教。</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>允許給予此俘虜的藥品。</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -213,13 +223,19 @@
   <PainFactor>疼痛</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>預防感染</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>自行治療</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>允許自行治療</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>若允許{0}自行治療，他將會以{1}於一般治療的速度治療自己。</SelfTendTip>
+  <AllowSelfTendTip>若允許{0}自行治療，他將會以{1}於一般治療的速度治療自己。</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>死於{0}</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>允許的藥品</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>允許給予此人的藥品。</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>允許給予此人的食物。</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>無</None>
@@ -422,8 +438,22 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>自動裁剪阻礙的植物</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>研究進度</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>進行中</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>完成</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>研究</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>未有發現</StudyNotesTab_NoDiscoveries>
 
   <!-- UNUSED -->
+  <SelfTend>自行治療</SelfTend>
+  <SelfTendTip>若允許{0}自行治療，他將會以{1}於一般治療的速度治療自己。</SelfTendTip>
   <NoRelationships>(無社交關係)</NoRelationships>
 
 </LanguageData>

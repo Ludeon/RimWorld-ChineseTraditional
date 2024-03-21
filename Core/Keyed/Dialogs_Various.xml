@@ -201,6 +201,10 @@
   <LastName>姓</LastName>
   <!-- EN: suggested -->
   <Suggested>建議</Suggested>
+  
+  <!-- Choose new wanderers -->
+  <!-- EN: Choose new wanderers -->
+  <ChooseNewWanderers>選擇新的流浪者</ChooseNewWanderers>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -289,8 +293,8 @@
   <CountingProducts>計算</CountingProducts>
   <!-- EN: Infinite -->
   <Infinite>無限</Infinite>
-  <!-- EN: Allowed {0} skill: -->
-  <AllowedSkillRange>允許等級{0}：</AllowedSkillRange>
+  <!-- EN: Allowed {0} skill -->
+  <AllowedSkillRange>允許{0}等級</AllowedSkillRange>
   <!-- EN: incompatible -->
   <IncompatibleLower>不相容</IncompatibleLower>
   <!-- EN: Any worker -->
@@ -336,6 +340,12 @@
   <IncludeFromAll>全區域</IncludeFromAll>
   <!-- EN: Look in {0} -->
   <IncludeSpecific>{0}</IncludeSpecific>
+  <!-- EN: Stockpiles -->
+  <StockpilePlural>儲存區</StockpilePlural>
+  <!-- EN: Shelves -->
+  <ShelfPlural>置物架</ShelfPlural>
+  <!-- EN: Groups -->
+  <GroupPlural>組</GroupPlural>
   
   <!-- Info card -->
   <!-- EN: Damage -->
@@ -402,8 +412,8 @@
   <MinGrowthTemperature>最低生長溫度</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>最高生長溫度</MaxGrowthTemperature>
-  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
-  <GrowingTimeDesc>植物只會在一天當中有陽光的照曜下才會生長。\n\n這個數值表示植物到完全成熟所需要的時間。\n實際的生長時間大約是兩倍。\n溫度過低也會讓植物難以生長。</GrowingTimeDesc>
+  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\n\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
+  <GrowingTimeDesc>植物只會在一天當中有陽光的照曜下才會生長。\n這個數值表示植物到完全成熟所需要的時間。\n實際的生長時間大約是兩倍。\n溫度過低也會讓植物難以生長。</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>天</Days>
   <!-- EN: Minimum growing skill to sow -->
@@ -516,6 +526,8 @@
   <PerDay>{0}/天</PerDay>
   <!-- EN: {0} / hour -->
   <PerHour>{0}/小時</PerHour>
+  <!-- EN: {0} XP / hour -->
+  <XpPerHour>{0}經驗值/小時</XpPerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>貨運動物</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -598,6 +610,8 @@
   <MeditationFocusEnabledByAdulthood>成年背景</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
   <MeditationFocusEnabledByTrait>擁有特性</MeditationFocusEnabledByTrait>
+  <!-- EN: has health condition -->
+  <MeditationFocusEnabledByHediff>擁有健康狀況</MeditationFocusEnabledByHediff> 
   <!-- EN: does not have trait -->
   <MeditationFocusDisabledByTrait>沒有抵觸特性</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
@@ -698,6 +712,14 @@
   <NextTraderRestock>下次補貨:{0}天</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>生物</PawnsTabShort>
+  
+  <!-- Select caravan settlement -->
+  <!-- EN: Select colony to send caravan -->
+  <SelectCaravanOrigin>選擇派出旅隊的殖民地</SelectCaravanOrigin> 
+  <!-- EN: Send a caravan from {0}. -->
+  <SelectCaravanDesc>由{0}派出旅隊。</SelectCaravanDesc> 
+  <!-- EN: Colonists -->
+  <SelectCaravanColonists>名殖民者</SelectCaravanColonists>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
@@ -894,6 +916,8 @@
   <ResearchFinished>完成研究：{0}</ResearchFinished>
   <!-- EN: Research Screen -->
   <ResearchScreen>研究項目</ResearchScreen>
+  <!-- EN: By researching {0} you have discovered the {1} research project. -->
+  <ResearchUnknownProjectRevealed>研究{0}後，你發現了{1}研究項目。</ResearchUnknownProjectRevealed>
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
@@ -909,41 +933,53 @@
   <!-- EN: Do not upload this time, ask me later -->
   <HistoryUploadNoOnce>不上傳本次的資料，並稍後再問我</HistoryUploadNoOnce>
   
+  <!-- Policies -->
+  <!-- EN: Available policies -->
+  <AvailablePolicies>允許計畫</AvailablePolicies>
+  <!-- EN: Unnamed -->
+  <UnnamedPolicy>未命名</UnnamedPolicy>
+  <!-- EN: New... -->
+  <NewPolicy>新增...</NewPolicy>
+  <!-- EN: Invalid policy name -->
+  <InvalidName>無效的計畫名字</InvalidName>
+  <!-- EN: Delete the selected policy. -->
+  <DeletePolicyTip>刪除選取的計畫。</DeletePolicyTip>
+  <!-- EN: Create a duplicate of the selected policy. -->
+  <DuplicatePolicyTip>複製選取的計畫。</DuplicatePolicyTip>
+  <!-- EN: Rename this policy. -->
+  <RenamePolicyTip>重新命名計畫。</RenamePolicyTip>
+  <!-- EN: Are you sure you want to delete the policy: {0}? -->
+  <DeletePolicyConfirm>你確定要刪除計畫:{0}?</DeletePolicyConfirm>
+  <!-- EN: Delete -->
+  <DeletePolicyConfirmButton>刪除</DeletePolicyConfirmButton>
+  <!-- EN: No policy selected -->
+  <NoPolicySelected>沒有選取計畫</NoPolicySelected>
+  
   <!-- Outfit management -->
-  <!-- EN: Outfit -->
-  <Outfit>裝備</Outfit>
-  <!-- EN: Select outfit... -->
-  <SelectOutfit>選取裝備...</SelectOutfit>
-  <!-- EN: New outfit -->
-  <NewOutfit>新裝備</NewOutfit>
-  <!-- EN: Delete outfit... -->
-  <DeleteOutfit>刪除裝備...</DeleteOutfit>
-  <!-- EN: Outfit is in use by {0}. -->
-  <OutfitInUse>此裝備已被{0}使用</OutfitInUse>
-  <!-- EN: No outfit selected -->
-  <NoOutfitSelected>尚未選取裝備</NoOutfitSelected>
+  <!-- EN: Apparel policies -->
+  <ApparelPolicyTitle>穿著計畫</ApparelPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
+  <ApparelPolicyTip>訂立和調整管理殖民地成員穿著服裝的計畫。</ApparelPolicyTip>
+  <!-- EN: Apparel policy -->
+  <ApparelPolicy>穿著計畫</ApparelPolicy>
+  <!-- EN: Apparel policy is in use by {0}. -->
+  <OutfitInUse>{0}已在使用穿著計畫</OutfitInUse>
   
   <!-- Drug policy management -->
+  <!-- EN: Drug policies -->
+  <DrugPolicyTitle>用藥計畫</DrugPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
+  <DrugPolicyTip>訂立和管理控制殖民地成員攝取藥物的計畫。</DrugPolicyTip>
   <!-- EN: Drug policy -->
-  <DrugPolicy>用藥計劃</DrugPolicy>
-  <!-- EN: Select policy... -->
-  <SelectDrugPolicy>選擇用藥計劃...</SelectDrugPolicy>
-  <!-- EN: New policy -->
-  <NewDrugPolicy>新用藥計劃</NewDrugPolicy>
-  <!-- EN: Delete policy... -->
-  <DeleteDrugPolicy>刪除用藥計劃...</DeleteDrugPolicy>
+  <DrugPolicy>用藥計畫</DrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
-  <DrugPolicyInUse>{0}已在使用用藥計劃。</DrugPolicyInUse>
+  <DrugPolicyInUse>{0}已在使用用藥計畫。</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
-  <FoodRestrictionInUse>{0}已在使用客製化菜單。</FoodRestrictionInUse>
-  <!-- EN: No drug policy selected -->
-  <NoDrugPolicySelected>未套用用藥計劃</NoDrugPolicySelected>
+  <FoodRestrictionInUse>{0}已在使用食物計畫。</FoodRestrictionInUse>
   <!-- EN: Add drug... -->
   <AddDrug>新增藥物...</AddDrug>
   <!-- EN: Drug -->
   <DrugColumnLabel>藥物</DrugColumnLabel>
-  <!-- EN: Usage -->
-  <DrugUsageColumnLabel>用藥</DrugUsageColumnLabel>
   <!-- EN: Frequency -->
   <FrequencyColumnLabel>用藥頻率</FrequencyColumnLabel>
   <!-- EN: Only if mood below -->
@@ -966,8 +1002,6 @@
   <DeleteDrugTooltip>刪除這個藥物。</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
   <DrugNameColumnDesc>藥物的名稱。</DrugNameColumnDesc>
-  <!-- EN: How the drug is allowed to be used. -->
-  <DrugUsageColumnDesc>用藥計畫。</DrugUsageColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
   <FrequencyColumnDesc>殖民者使用此藥物的頻率。</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
@@ -981,13 +1015,17 @@
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
   <DrugUsageTipForJoy>娛樂目的\n\n為了滿足娛樂及社交需求而使用這個藥物，並滿足藥癮(如果有的話)。\n\n即使禁用藥物，帶有某些特性或精神崩潰的角色還是會強制使用藥物。</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
-  <DrugUsageTipScheduled>計劃使用\n\n在滿足特定條件時根據計劃使用藥物。</DrugUsageTipScheduled>
+  <DrugUsageTipScheduled>計畫使用\n\n在滿足特定條件時根據計畫使用藥物。</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
-  <!-- EN: Food restriction -->
-  <FoodRestriction>客製化菜單</FoodRestriction>
-  <!-- EN: Food -->
-  <FoodRestrictionShort>食物</FoodRestrictionShort>
+  <!-- EN: Food policies -->
+  <FoodPolicyTitle>食物計畫</FoodPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
+  <FoodPolicyTip>訂立和調整管理殖民地成員食物種類的計畫。</FoodPolicyTip>
+  <!-- EN: Food policy -->
+  <FoodPolicy>食物計畫</FoodPolicy>
+  <!-- EN: Allow food -->
+  <AllowFood>容許食物</AllowFood>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>豪華料理</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -1000,33 +1038,75 @@
   <FoodRestrictionRaw>生食</FoodRestrictionRaw>
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>無</FoodRestrictionNothing>
-  <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>選擇菜單</SelectFoodRestriction>
-  <!-- EN: New food restriction -->
-  <NewFoodRestriction>新菜單</NewFoodRestriction>
-  <!-- EN: Delete food restriction -->
-  <DeleteFoodRestriction>刪除菜單</DeleteFoodRestriction>
-  <!-- EN: No food restriction selected -->
-  <NoFoodRestrictionSelected>未指定菜單</NoFoodRestrictionSelected>
+  
+  <!-- Reading management -->
+  <!-- EN: Reading policies -->
+  <ReadingPolicyTitle>閱讀計畫</ReadingPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
+  <ReadingPolicyTip>訂立和調整管理殖民地成員閱讀書籍的規定。</ReadingPolicyTip>
+  <!-- EN: Reading policy -->
+  <ReadingPolicy>閱讀計畫</ReadingPolicy>
+  
+  <!-- EN: Anything -->
+  <AllReadingPolicy>不限</AllReadingPolicy>
+  <!-- EN: None -->
+  <NoneReadingPolicy>禁止</NoneReadingPolicy>
+  <!-- EN: Textbooks -->
+  <TextbookPolicy>課本</TextbookPolicy>
+  <!-- EN: Schematics -->
+  <SchematicPolicy>圖紙</SchematicPolicy>
+  <!-- EN: Novels -->
+  <NovelPolicy>小說</NovelPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>預設藥品設置</DefaultMedicineSettings>
+  <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
+  <DefaultMedicineSettingsDesc>在某生物第一次獲指定為某群組時，將會被分配到相應的藥品設置。你可以在「健康」分頁為單一個體調整設置。\n\n注意︰如果該生物加入了另一群組，即使你為他調整過，他們皆會按新群組的設置再次被分配。</DefaultMedicineSettingsDesc>
+  
   <!-- EN: Defaults -->
   <MedGroupDefaults>預設</MedGroupDefaults>
-  <!-- EN: Colonist -->
-  <MedGroupColonist>殖民者</MedGroupColonist>
-  <!-- EN: Imprisoned colonist -->
-  <MedGroupImprisonedColonist>被俘虜的殖民者</MedGroupImprisonedColonist>
-  <!-- EN: Colony animal -->
-  <MedGroupColonyAnimal>馴服動物</MedGroupColonyAnimal>
-  <!-- EN: Neutral animal -->
-  <MedGroupNeutralAnimal>野生動物</MedGroupNeutralAnimal>
-  <!-- EN: Neutral faction -->
-  <MedGroupNeutralFaction>中立派系</MedGroupNeutralFaction>
-  <!-- EN: Hostile faction -->
-  <MedGroupHostileFaction>敵方派系</MedGroupHostileFaction>
   
+  <!-- EN: Colonists -->
+  <MedGroupColonists>殖民者</MedGroupColonists>
+  <!-- EN: Free members of your colony -->
+  <MedGroupColonistsDesc>你的殖民地中的自由人</MedGroupColonistsDesc>
+  
+  <!-- EN: Prisoners -->
+  <MedGroupPrisoners>俘虜</MedGroupPrisoners>
+  <!-- EN: Prisoners in your colony, regardless of faction. -->
+  <MedGroupPrisonersDesc>你的殖民地中的俘虜，不論派系。</MedGroupPrisonersDesc>
+
+  <!-- EN: Tamed animals -->
+  <MedGroupTamedAnimals>馴服動物</MedGroupTamedAnimals>
+  <!-- EN: Animals which have been tamed by your colony. -->
+  <MedGroupTamedAnimalsDesc>你的殖民地中已被馴服的動物。</MedGroupTamedAnimalsDesc>
+
+  <!-- EN: Friendly faction members -->
+  <MedGroupFriendlyFaction>友好的派系成員</MedGroupFriendlyFaction>
+  <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
+  <MedGroupFriendlyFactionDesc>來自友好派系(友好度高於75)的人類或動物。</MedGroupFriendlyFactionDesc>
+  
+  <!-- EN: Neutral faction members -->
+  <MedGroupNeutralFaction>中立派系</MedGroupNeutralFaction>
+  <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
+  <MedGroupNeutralFactionDesc>來自中立派系(友好度介乎75至-75)的人類或動物。</MedGroupNeutralFactionDesc>
+
+  <!-- EN: Hostile faction members -->
+  <MedGroupHostileFaction>敵方派系</MedGroupHostileFaction>
+  <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
+  <MedGroupHostileFactionDesc>來自敵方派系(友好度低於-75)的人類或動物。</MedGroupHostileFactionDesc>
+
+  <!-- EN: Other humans -->
+  <MedGroupNoFaction>其他人類</MedGroupNoFaction>
+  <!-- EN: Humans who are not members of any faction. -->
+  <MedGroupNoFactionDesc>不屬於任何派系的人類。</MedGroupNoFactionDesc>
+  
+  <!-- EN: Wildlife -->
+  <MedGroupWildlife>野生生物</MedGroupWildlife>
+  <!-- EN: Animals and other creatures which are not members of any faction. -->
+  <MedGroupWildlifeDesc>不屬於任何派系的動物或其他生物。</MedGroupWildlifeDesc>
+
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
   <NoGrowerCanPlant>{0}需要種植等級{1}。\n\n你的農夫們技能等級都不到，所以此植物無法被播種。</NoGrowerCanPlant>
@@ -1122,6 +1202,8 @@
   <AbilityCantApplyDowned>{0_labelShort}被擊倒。</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>無法使用：{0}無性。</AbilityCantApplyOnAsexual>
+  <!-- EN: {PAWN_labelShort} has no healable injuries. -->
+  <AbilityCannotCastNoHealableInjury>{PAWN_labelShort}沒有可治療的傷處。</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort}對於{0_labelShort}有一個錯誤的性別。</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
@@ -1322,7 +1404,42 @@
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
   <ColorTemperatureTooltip>通過設置色溫來選擇顏色。注意：這只影響視覺顏色，不影響熱量輸出</ColorTemperatureTooltip>
 
+  <!-- EN: {0_labelShort} is psychically deaf. -->
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort}是心靈障壁者。</CannotShootPawnIsPsychicallyDeaf>
+
+  <!-- EN: Search the current map. -->
+  <SearchTheMap>在目前地圖搜尋。</SearchTheMap>
+  <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
+  <SearchTheMapDesc>在目前地圖搜尋物品、建築物、人類、動物、植物等等。</SearchTheMapDesc>
+  <!-- EN: {0} results found -->
+  <MapSearchResults>{0}個搜尋結果</MapSearchResults>
+  <!-- EN: 1 result found -->
+  <MapSearchResultSingular>1個搜尋結果</MapSearchResultSingular>
+  <!-- EN: Searching -->
+  <Searching>搜尋中</Searching>
+
   <!-- UNUSED -->
+  <Outfit>裝備</Outfit>
+  <SelectOutfit>選取裝備...</SelectOutfit>
+  <NewOutfit>新裝備</NewOutfit>
+  <DeleteOutfit>刪除裝備...</DeleteOutfit>
+  <NoOutfitSelected>尚未選取裝備</NoOutfitSelected>
+  <SelectDrugPolicy>選擇用藥計畫...</SelectDrugPolicy>
+  <NewDrugPolicy>新用藥計畫</NewDrugPolicy>
+  <DeleteDrugPolicy>刪除用藥計畫...</DeleteDrugPolicy>
+  <NoDrugPolicySelected>未套用用藥計畫</NoDrugPolicySelected>
+  <DrugUsageColumnLabel>用藥</DrugUsageColumnLabel>
+  <DrugUsageColumnDesc>用藥計畫。</DrugUsageColumnDesc>
+  <FoodRestriction>客製化菜單</FoodRestriction>
+  <FoodRestrictionShort>食物</FoodRestrictionShort>
+  <SelectFoodRestriction>選擇菜單</SelectFoodRestriction>
+  <NewFoodRestriction>新菜單</NewFoodRestriction>
+  <DeleteFoodRestriction>刪除菜單</DeleteFoodRestriction>
+  <NoFoodRestrictionSelected>未指定菜單</NoFoodRestrictionSelected>
+  <MedGroupColonist>殖民者</MedGroupColonist>
+  <MedGroupImprisonedColonist>被俘虜的殖民者</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>馴服動物</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>野生動物</MedGroupNeutralAnimal>
   <BillRequiresNutrition>需要{0}營養值</BillRequiresNutrition>
 
 </LanguageData>

@@ -30,6 +30,8 @@
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>畫面邊緣滾動</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>往游標縮放</ZoomToMouse>
   <!-- EN: Pause on load -->
   <PauseOnLoad>於讀取時暫停</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
@@ -62,12 +64,22 @@
   <DevelopmentMode>開發者模式</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>當遊戲崩潰時自動重置Mod</ResetModsConfigOnCrash>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>快速開始時不再有休眠艙症候群</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>開啟遊戲同時打開開發者調色盤</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>出現警告時打開日誌</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>按下取消關閉日誌</CloseLogWindowOnEscape>
   <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>模擬未持有「皇權」DLC</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>模擬未持有「理念」DLC</SimulateNotOwningIdeology>
   <!-- EN: Simulate not owning Biotech -->
   <SimulateNotOwningBiotech>模擬未持有「生機」DLC</SimulateNotOwningBiotech>
+  <!-- EN: Simulate not owning Anomaly -->
+  <SimulateNotOwningAnomaly>模擬未持有「異常」DLC</SimulateNotOwningAnomaly>
   <!-- EN: Verbose logging -->
   <LogVerbose>詳細日誌紀錄</LogVerbose>
   <!-- EN: Save data folder -->
@@ -102,10 +114,14 @@
   <TemperatureMode>溫度單位</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>顯示現實時間</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>使用12小時制</TwelveHourClockMode>
   <!-- EN: Disable tiny font -->
   <DisableTinyText>禁用縮小字體</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>最大據點數量：{0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>自動儲存次數︰{0}</AutosavesCount>
   <!-- EN: Map mouse drag sensitivity -->
   <MapDragSensitivity>滑鼠拖移地圖靈敏度</MapDragSensitivity>
   <!-- EN: Plant wind sway -->
