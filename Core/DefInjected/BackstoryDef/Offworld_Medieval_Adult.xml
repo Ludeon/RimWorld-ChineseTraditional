@@ -2,6 +2,7 @@
 <LanguageData>
   
   <!-- EN: As a smith on a medieval world, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either. -->
+  <Blacksmith72.description>作為一名生活在中世紀世界的鐵匠，[PAWN_nameDef]的工作品質替[PAWN_pronoun]帶來不錯的評價。[PAWN_pronoun]也擅長使用[PAWN_pronoun]自己打造的劍。</Blacksmith72.description>
   <Blacksmith72.baseDesc>作為一名生活在中世紀世界的鐵匠，[PAWN_nameDef]的工作品質替[PAWN_pronoun]帶來不錯的評價。[PAWN_pronoun]也擅長使用[PAWN_pronoun]自己打造的劍。</Blacksmith72.baseDesc>
   <!-- EN: blacksmith -->
   <Blacksmith72.title>鐵匠</Blacksmith72.title>
@@ -9,6 +10,7 @@
   <Blacksmith72.titleShort>鐵匠</Blacksmith72.titleShort>
   
   <!-- EN: [PAWN_nameDef] lived in the forest near a village. Though many of the villagers feared [PAWN_objective], sick villagers would come to [PAWN_objective] to purchase salves and poultices made from the herbs [PAWN_pronoun] grew in [PAWN_possessive] garden. [PAWN_pronoun] was happy to help them — for a price. -->
+  <Herbalist54.description>[PAWN_nameDef]居住在村莊旁的森林裡。雖然許多村民對[PAWN_pronoun]感到害怕，生病的村民還是會來向[PAWN_pronoun]購買用[PAWN_pronoun]花園裡種植的藥草製成的藥膏，[PAWN_pronoun]很高興能夠幫助他們────以這個價格。</Herbalist54.description>
   <Herbalist54.baseDesc>[PAWN_nameDef]居住在村莊旁的森林裡。雖然許多村民對[PAWN_pronoun]感到害怕，生病的村民還是會來向[PAWN_pronoun]購買用[PAWN_pronoun]花園裡種植的藥草製成的藥膏，[PAWN_pronoun]很高興能夠幫助他們────以這個價格。</Herbalist54.baseDesc>
   <!-- EN: herbalist -->
   <Herbalist54.title>草藥學家</Herbalist54.title>
@@ -16,49 +18,56 @@
   <Herbalist54.titleShort>草藥學家</Herbalist54.titleShort>
   
   <!-- EN: [PAWN_nameDef] worked as a doctor on a medieval planet. [PAWN_pronoun] firmly believes that most ailments can be cured with a little bloodletting.\n\n[PAWN_pronoun] was also a master anaesthetist, developing a specialty technique that involved a heavy blow to the head. -->
-  <MedievalDoctor40.baseDesc>[PAWN_nameDef]在中古星球上是名醫生，堅定的認為大多數疾病都可以用小小的放血來治癒。\n\n[PAWN_pronoun]也是一名麻醉師，發明一種涉及到沈重打擊頭部的專業技術。</MedievalDoctor40.baseDesc>
+  <MedievalDoctor40.description>[PAWN_nameDef]在中世紀星球上是名醫生，堅定的認為大多數疾病都可以用小小的放血來治癒。\n\n[PAWN_pronoun]也是一名麻醉師，發明一種涉及到沈重打擊頭部的專業技術。</MedievalDoctor40.description>
+  <MedievalDoctor40.baseDesc>[PAWN_nameDef]在中世紀星球上是名醫生，堅定的認為大多數疾病都可以用小小的放血來治癒。\n\n[PAWN_pronoun]也是一名麻醉師，發明一種涉及到沈重打擊頭部的專業技術。</MedievalDoctor40.baseDesc>
   <!-- EN: medieval doctor -->
   <MedievalDoctor40.title>中世紀醫生</MedievalDoctor40.title>
   <!-- EN: quack -->
   <MedievalDoctor40.titleShort>庸醫</MedievalDoctor40.titleShort>
   
-  <!-- EN: Tilling, hoeing, guiding ox carts, pushing wheelbarrows. Digging ditches, planting seeds, predicting the harvest.\n\nMedieval-level farmers aren't educated in the usual sense, but they know a lot about growing plants without technology. That said, such a life leaves one essentially incapable of participating in intellectual, technology-driven activities. -->
+  <!-- EN: Tilling, hoeing, guiding ox carts, pushing wheelbarrows. Digging ditches, planting seeds, predicting the harvest.\n\nMedieval-level farmers aren't educated in the usual sense, but they know a lot about growing plants without technology. That said, such a life can leave one  incapable of participating in technology-driven activities. -->
+  <MedievalFarmOaf58.description>耕種、鋤田、駕牛車、推手托車，挖溝掘渠，播種收割。\n\n中世紀的農民沒有接受過一般人認知的那種教育，但他們知道如何種植植物。也就是說，[PAWN_pronoun]基本上無法參與任何有關知識和科技的活動。</MedievalFarmOaf58.description>
   <MedievalFarmOaf58.baseDesc>耕種、鋤田、駕牛車、推手托車，挖溝掘渠，播種收割。\n\n中世紀的農民沒有接受過一般人認知的那種教育，但他們知道如何種植植物。也就是說，[PAWN_pronoun]基本上無法參與任何有關知識和科技的活動。</MedievalFarmOaf58.baseDesc>
   <!-- EN: medieval farm oaf -->
   <MedievalFarmOaf58.title>中世紀農民</MedievalFarmOaf58.title>
   <!-- EN: oaf -->
   <MedievalFarmOaf58.titleShort>農民</MedievalFarmOaf58.titleShort>
   
-  <!-- EN: [PAWN_nameDef] was a lord on a preindustrial planet. [PAWN_pronoun] went to parties, managed the underlings, and even learned some swordplay.\n\n[PAWN_possessive] soft hands did not hold a work tool during that entire time. [PAWN_pronoun] considers manual labor to be beneath [PAWN_objective]. -->
-  <MedievalLord57.baseDesc>[PAWN_nameDef]在某個尚未工業化的星球上是一名領主。[PAWN_pronoun]參加宴會、管理屬下，甚至學會了一些劍術。\n\n[PAWN_possessive]雙手從不需要碰過任何一個工具。[PAWN_pronoun]自認為勞動者的地位都在[PAWN_pronoun]之下。</MedievalLord57.baseDesc>
+  <!-- EN: [PAWN_nameDef] was a lord on a pre-industrial planet. [PAWN_pronoun] went to parties, managed the underlings, and even learned some swordplay.\n\n[PAWN_possessive] soft hands did not hold a tool once during that entire time. Now, [PAWN_pronoun] considers manual labor to be beneath [PAWN_objective]. -->
+  <MedievalLord57.description>[PAWN_nameDef]在某個尚未工業化的星球上是一名領主。[PAWN_pronoun]參加宴會、管理屬下，甚至學會了一些劍術。\n\n[PAWN_possessive]雙手從未碰過任何一個工具。現在，[PAWN_pronoun]自認為勞動者的地位都在[PAWN_pronoun]之下。</MedievalLord57.description>
+  <MedievalLord57.baseDesc>[PAWN_nameDef]在某個尚未工業化的星球上是一名領主。[PAWN_pronoun]參加宴會、管理屬下，甚至學會了一些劍術。\n\n[PAWN_possessive]雙手從未碰過任何一個工具。現在，[PAWN_pronoun]自認為勞動者的地位都在[PAWN_pronoun]之下。</MedievalLord57.baseDesc>
   <!-- EN: medieval lord -->
   <MedievalLord57.title>中世紀領主</MedievalLord57.title>
   <!-- EN: noble -->
   <MedievalLord57.titleShort>貴族</MedievalLord57.titleShort>
   
-  <!-- EN: [PAWN_nameDef] was a traveling entertainer on a medieval world.\n\n[PAWN_pronoun] could always be found telling stories or singing songs, and is capable of protecting [PAWN_objective]self from the dangers of the road. However, [PAWN_pronoun] was always conspicuously absent whenever there was hard labour to be done. -->
-  <MedievalMinstrel95.baseDesc>[PAWN_nameDef]是位在中古世界四處旅行的吟遊詩人。\n\n[PAWN_pronoun]總能發現可述說的故事或可傳唱的歌曲，並且在危險的道路上有能力保護自己。然而，每當有勞動工作時，[PAWN_nameDef]總是不見蹤影。</MedievalMinstrel95.baseDesc>
+  <!-- EN: [PAWN_nameDef] was a traveling entertainer on a medieval world and [PAWN_pronoun] could always be found telling stories or singing songs.\n\nThe roads were dangerous, so [PAWN_pronoun] is capable of protecting [PAWN_objective]self. However, [PAWN_pronoun] would always move on when there was hard labour to be done. -->
+  <MedievalMinstrel95.description>[PAWN_nameDef]是位在中世紀世界四處旅行的吟遊詩人，[PAWN_pronoun]總有說不完的故事，唱不完的樂曲。\n\n路上危機四伏，因此[PAWN_pronoun]也有保護自己的能力。然而，每當有勞動工作時，[PAWN_pronoun]總是不見蹤影。</MedievalMinstrel95.description>
+  <MedievalMinstrel95.baseDesc>[PAWN_nameDef]是位在中世紀世界四處旅行的吟遊詩人，[PAWN_pronoun]總有說不完的故事，唱不完的樂曲。\n\n路上危機四伏，因此[PAWN_pronoun]也有保護自己的能力。然而，每當有勞動工作時，[PAWN_pronoun]總是不見蹤影。</MedievalMinstrel95.baseDesc>
   <!-- EN: medieval minstrel -->
   <MedievalMinstrel95.title>中世紀吟遊詩人</MedievalMinstrel95.title>
   <!-- EN: minstrel -->
   <MedievalMinstrel95.titleShort>吟遊詩人</MedievalMinstrel95.titleShort>
   
-  <!-- EN: [PAWN_nameDef] explored the oceans on a wooden ship, seeking out plant and animal specimens from exotic places, and occasionally fending off pirates. [PAWN_pronoun] loved the sea so much [PAWN_pronoun] refused to do all but the barest minimum of work on land, except to sell the treasures [PAWN_pronoun] collected. -->
-  <MedievalSailor97.baseDesc>[PAWN_nameDef]熱衷於乘船出海探查，收集動植物標本，偶爾抵禦海賊的進攻。[PAWN_pronoun]是如此的熱愛大海，以至於無法勝任陸地上大部分的工作，除了收集物品。</MedievalSailor97.baseDesc>
+  <!-- EN: [PAWN_nameDef] explored the oceans on a wooden ship, seeking out plant and animal specimens from exotic places, and occasionally fending off pirates. [PAWN_pronoun] loved the sea so much [PAWN_pronoun] refused to do all but the barest minimum of work on land, except to sell the treasures [PAWN_pronoun] had collected. -->
+  <MedievalSailor97.description>[PAWN_nameDef]熱衷於乘船出海探查，收集動植物標本，偶爾抵禦海賊的進攻。[PAWN_pronoun]是如此的熱愛大海，以至於無法勝任陸地上大部分的工作，除了售賣[PAWN_pronoun]的珍藏。</MedievalSailor97.description>
+  <MedievalSailor97.baseDesc>[PAWN_nameDef]熱衷於乘船出海探查，收集動植物標本，偶爾抵禦海賊的進攻。[PAWN_pronoun]是如此的熱愛大海，以至於無法勝任陸地上大部分的工作，除了售賣[PAWN_pronoun]的珍藏。</MedievalSailor97.baseDesc>
   <!-- EN: medieval sailor -->
   <MedievalSailor97.title>中世紀水手</MedievalSailor97.title>
   <!-- EN: sailor -->
   <MedievalSailor97.titleShort>水手</MedievalSailor97.titleShort>
   
   <!-- EN: On a medieval world, the fastest way to send a message is to give it to somebody on a horse and hope they survive the journey. [PAWN_nameDef] was that somebody. -->
+  <MessageCarrier77.description>在中世紀世界中，傳遞一則消息最快的方式便是交給某個騎馬的人，然後期待他們不要在途中死掉。[PAWN_nameDef]就是騎馬的那位。</MessageCarrier77.description>
   <MessageCarrier77.baseDesc>在中世紀世界中，傳遞一則消息最快的方式便是交給某個騎馬的人，然後期待他們不要在途中死掉。[PAWN_nameDef]就是騎馬的那位。</MessageCarrier77.baseDesc>
   <!-- EN: message carrier -->
   <MessageCarrier77.title>傳令</MessageCarrier77.title>
   <!-- EN: messenger -->
   <MessageCarrier77.titleShort>傳令</MessageCarrier77.titleShort>
   
-  <!-- EN: As the taster for a medieval king, any dish served at the royal table had to be sampled first by [PAWN_nameDef]. [PAWN_pronoun] lived a decadent lifestyle at court, getting fat and doing very little work. -->
-  <Taster16.baseDesc>身為中世紀國王的侍膳官，任何要呈上王家餐桌的料理都必須先經過[PAWN_possessive]試吃。[PAWN_pronoun]在宮廷過著安逸的人生，肥胖上身而缺乏勞動。</Taster16.baseDesc>
+  <!-- EN: As the food taster for a medieval king, [PAWN_nameDef] sampled any dish served at the royal table. [PAWN_pronoun] lived a decadent lifestyle at court, growing fat and doing very little real work. -->
+  <Taster16.description>身為中世紀國王的侍膳官，任何要呈上王家餐桌的料理都必須先經[PAWN_nameDef]試吃。[PAWN_pronoun]在宮廷過著安逸的人生，日漸變胖且極少勞動。</Taster16.description>
+  <Taster16.baseDesc>身為中世紀國王的侍膳官，任何要呈上王家餐桌的料理都必須先經[PAWN_nameDef]試吃。[PAWN_pronoun]在宮廷過著安逸的人生，日漸變胖且極少勞動。</Taster16.baseDesc>
   <!-- EN: taster -->
   <Taster16.title>侍膳官</Taster16.title>
   <!-- EN: taster -->

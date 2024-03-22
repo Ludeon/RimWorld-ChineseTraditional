@@ -18,8 +18,10 @@
   <MechControllerMentalState>{PAWN_labelShort}正陷入「{MENTALSTATE_label}」。</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>你真的要永久分解{0}?\n\n永久分解{0}會得到</ConfirmDisassemblingMech>
-  <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>一名御機使必須能夠進行鍛造工作才能製造機械族\n\n你確定要繼續嗎?</ConfirmInstallMechlink>
+  <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Smithing>一名御機使必須能夠進行鍛造工作才能製造機械族。\n\n你確定要繼續嗎?</ConfirmInstallMechlink_Smithing>
+  <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Intellectual>一名御機使必須能夠進行研究工作才能解鎖御機使相關研究。\n\n你確定要繼續嗎?</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>頻寬不足</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
@@ -359,5 +361,8 @@
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
   <ConfirmAbandonHomeWithColonyPawnsIncMechs>有些你的殖民者、動物或機械族還在此區域。你確定要拋棄他們？\n\n以下人員、動物及機械族將被拋棄：\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
+
+  <!-- UNUSED -->
+  <ConfirmInstallMechlink>一名御機使必須能夠進行鍛造工作才能製造機械族\n\n你確定要繼續嗎?</ConfirmInstallMechlink>
 
 </LanguageData>

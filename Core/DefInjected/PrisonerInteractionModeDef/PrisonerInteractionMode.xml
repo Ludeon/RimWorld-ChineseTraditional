@@ -11,12 +11,16 @@
   <!-- EN: A warden will execute the prisoner on the spot by cutting. This can affect the mood of other prisoners and colonists. -->
   <Execution.description>獄卒會當場處決該俘虜。這會影響其他俘虜和殖民者的心情。</Execution.description>
   
-  <!-- EN: no interaction -->
+  <!-- EN: maintain only -->
+  <MaintainOnly.label>維生</MaintainOnly.label>
+  <!-- EN: Just feed the prisoner and provide for their basic needs, without attempting any other interaction. -->
+  <MaintainOnly.description>只會為俘虜提供足夠維生的食物和需要，不會有其他互動。</MaintainOnly.description>
+  
+  <!-- UNUSED -->
   <NoInteraction.label>不互動</NoInteraction.label>
-  <!-- EN: Wardens will not interact with the prisoner. -->
   <NoInteraction.description>獄卒不會和俘虜互動。</NoInteraction.description>
   
-  <!-- EN: reduce resistance -->
+  <!-- EN: reduce resistance only -->
   <ReduceResistance.label>化解心防</ReduceResistance.label>
   <!-- EN: If the prisoner still has resistance, wardens will speak to them to reduce it. No recruit attempts will be made. -->
   <ReduceResistance.description>如果俘虜扔然有反抗情緒，獄卒將與他們交談以減少反抗情緒。不會嘗試進行招募。</ReduceResistance.description>

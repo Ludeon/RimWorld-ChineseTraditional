@@ -361,6 +361,37 @@
     <li>desc_sentence->[PAWN_pronoun]披頭散髮。</li>
   </MentalStateGaveUp.rulePack.rulesStrings>
   
+  <!-- EN: read a book -->
+  <ReadBook.label>閱讀書籍</ReadBook.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
+    <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] turning the pages of [THING_title], absorbing the knowledge within [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] placing [THING_title] back on the shelf, a sense of accomplishment radiating from [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting in quiet contemplation, reflecting on the profound truths within [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->while relaxing in [PAWN_possessive] favorite reading nook</li>
+    <li>circumstance_phrase->with a cup of tea by [PAWN_possessive] side</li>
+    <li>circumstance_phrase->under the soft glow of a reading lamp</li>
+    <li>desc_sentence->[PAWN_nameDef] is surrounded by [PAWN_possessive] notes on [THING_title].</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes sparkle with newfound wisdom.</li>
+    <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
+    <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
+  -->
+  <ReadBook.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]即將看完[THING_title]</li>
+    <li>image->[circumstance_group]，[PAWN_nameFull]最後一次合上[THING_title]，在[PAWN_possessive]臉上露出滿意的笑容</li>
+    <li>image->[PAWN_nameFull]翻著[THING_title]的頁，[circumstance_group]吸收知識</li>
+    <li>image->[circumstance_group]，[PAWN_nameFull]把[THING_title]放回書櫃上，一種成就感從[PAWN_objective]身上散發出來</li>
+    <li>image->[circumstance_group]，[PAWN_nameFull]在安靜的沉思中坐著，反思[THING_title]中的深刻真理</li>
+    <li>circumstance_phrase->在[PAWN_possessive]最喜歡的閱讀角落放鬆身心時</li>
+    <li>circumstance_phrase->在沖好的一壺茶旁</li>
+    <li>circumstance_phrase->在檯燈柔和的光芒下</li>
+    <li>desc_sentence->[PAWN_nameDef]身邊堆滿[PAWN_possessive]對[THING_title]的筆記。</li>
+    <li>desc_sentence->[PAWN_nameDef]的眼睛因新發現的智慧而閃爍著。</li>
+    <li>desc_sentence->[PAWN_nameDef]受[THING_title]的教導而成長了。</li>
+    <li>desc_sentence->有一種有些秘密尚未揭開的感覺。</li>
+  </ReadBook.rulePack.rulesStrings>
+  
   <!-- EN: struck mineable -->
   <StruckMineable.label>挖到礦物</StruckMineable.label>
   <!-- EN:

@@ -55,11 +55,16 @@
   <!-- EN: Insulation - Heat (armor stat) -->
   <Insulation_Heat.labelForFullStatList>隔絕 - 熱(護甲屬性)</Insulation_Heat.labelForFullStatList>
   
-  <!-- EN: Smokepop pack radius -->
-  <SmokepopBeltRadius.label>煙霧半徑</SmokepopBeltRadius.label>
-  <!-- EN: The area obscured when a smokepop pack detonates. -->
-  <SmokepopBeltRadius.description>煙霧包發動時的覆蓋範圍。</SmokepopBeltRadius.description>
+  <!-- EN: Effect radius -->
+  <PackRadius.label>效果半徑</PackRadius.label>
+  <!-- EN: The area affected when this pack detonates. -->
+  <PackRadius.description>此裝備包發動時的覆蓋範圍。</PackRadius.description>
   <!-- EN: {0} c -->
+  <PackRadius.formatString>{0}格</PackRadius.formatString>
+  
+  <!-- UNUSED -->
+  <SmokepopBeltRadius.label>煙霧半徑</SmokepopBeltRadius.label>
+  <SmokepopBeltRadius.description>煙霧包發動時的覆蓋範圍。</SmokepopBeltRadius.description>
   <SmokepopBeltRadius.formatString>{0}格</SmokepopBeltRadius.formatString>
   
   <!-- EN: Armor - Material effect multiplier -->

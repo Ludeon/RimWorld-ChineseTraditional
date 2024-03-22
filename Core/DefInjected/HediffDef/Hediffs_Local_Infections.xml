@@ -70,6 +70,8 @@
   <LungRotExposure.label>腐爛臭氣接觸</LungRotExposure.label>
   <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
   <LungRotExposure.description>長期曝露在腐爛臭氣。腐爛臭氣接觸並無直接健康影響。然而，重度腐爛臭氣接觸有機會誘發令人痛苦的細菌疾病，肺腐病。當遠離腐爛臭氣後，腐爛臭氣接觸會逐漸減退。</LungRotExposure.description>
+  <!-- EN: {PAWN_nameDef} is beginning to suffer from exposure to rot stink gas. Keep {PAWN_objective} away from rotting corpses and other sources of rot stink. -->
+  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}接觸到腐爛臭氣。請保持遠離腐爛的屍體和其他發出腐爛臭氣的來源。</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: minor -->
   <LungRotExposure.stages.minor.label>輕度</LungRotExposure.stages.minor.label>
   <!-- EN: major -->

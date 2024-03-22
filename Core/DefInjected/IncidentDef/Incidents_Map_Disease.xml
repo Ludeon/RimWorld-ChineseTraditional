@@ -50,6 +50,15 @@
   <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick -->
   <Disease_MuscleParasites.letterText>你的{0}名{1}感染了{2}。\n\n確保你有醫療床、醫生。盡可能提供他們適當的醫療、休養。\n\n下列{1}生病了</Disease_MuscleParasites.letterText>
   
+  <!-- EN: organ decay -->
+  <Disease_OrganDecay.label>器官侵蝕</Disease_OrganDecay.label>
+  <!-- EN: Without a cure or replacement of some kind, {PAWN_labelShort} will die. -->
+  <Disease_OrganDecay.diseaseLethalLetterText>若沒有任何治療或某種取替方法，{PAWN_labelShort}將會死亡。</Disease_OrganDecay.diseaseLethalLetterText>
+  <!-- EN: Organ decay: {PAWN_labelShort} -->
+  <Disease_OrganDecay.letterLabel>器官侵蝕︰{PAWN_labelShort}</Disease_OrganDecay.letterLabel>
+  <!-- EN: {PAWN_labelShort} has developed a flesh-eating infection known as organ decay in {PAWN_possessive} {2}!\n\nThe affected organ will slowly lose function over the next {3} days, before dying completely.\n\nIf you want {PAWN_labelShort} to stay healthly, install a replacement {2}. This could be a bionic, or a natural organ taken from a donor. -->
+  <Disease_OrganDecay.letterText>{PAWN_labelShort}在{PAWN_possessive}{2}罹患了一種食肉疾病，器官侵蝕！\n\n受影響的器官會在接下來的{3}天內逐漸失去功能，直至侵蝕殆盡。\n\n如果你想治好{PAWN_labelShort}，便需要安裝或替換{2}。可以是仿生器官，或由他人捐贈的天然器官。</Disease_OrganDecay.letterText>
+  
   <!-- EN: plague -->
   <Disease_Plague.label>瘟疫</Disease_Plague.label>
   <!-- EN: Disease: Plague -->

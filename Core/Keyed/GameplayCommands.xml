@@ -109,11 +109,6 @@
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>開始爆破倒數計時。</CommandDetonateDesc>
 
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>重新命名</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>重新命名這個區域。</CommandRenameZoneDesc>
-
   <!-- EN: Hide -->
   <CommandHideZoneLabel>隱藏</CommandHideZoneLabel>
   <!-- EN: Unhide -->
@@ -242,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>建立種植區</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
+  <!-- EN: Auto rearm -->
   <CommandAutoRearm>自動重置陷阱</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>開啟後，此陷阱觸發後將會被殖民者自動重置。</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>開啟後，殖民者將會在陷阱觸發後自動換上新的。</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>自動重建</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>開啟後，殖民者將會在{BUILDING_definite}觸發後自動換上新的。</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -293,7 +294,7 @@
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>調整為</CommandSelectMineralToScanFor>
   <!-- EN: Select the mineral type to scan for. -->
-  <CommandSelectMineralToScanForDesc>選擇要掃描的礦物。</CommandSelectMineralToScanForDesc><!-- text_todo -->
+  <CommandSelectMineralToScanForDesc>選擇要掃描的礦物。</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -316,7 +317,17 @@
   <CommandReformCaravanDesc>重新組織殖民者。殖民者會離開當前區域，等待下一步命令。</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>仍有敵人在此區域內。</CommandReformCaravanFailHostilePawns>
-  
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>派出旅隊</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>派出旅隊...</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>從選中的殖民地派出一隊旅隊前往此地點。</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>你的據點無法前往此地點。</CommandSendCaravanCantReach>
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>重分旅隊</CommandSplitCaravan>
@@ -631,6 +642,8 @@
   <UnlinkStorageSettingsDesc>解除與其他建築物連結的存儲設定，使它能被單獨設定。</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>連結存儲設定</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>1建築物</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0}建築物</NumBuildings>
   <!-- EN: Stores -->
@@ -642,5 +655,19 @@
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort}失去知覺。</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>研究</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>獄卒是否可以自動研究。禁止的物品將不會被研究。</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>花光剩餘次數了。</CommandNoUsesLeft>
   
+  <!-- UNUSED -->
+  <CommandRenameZoneLabel>重新命名</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>重新命名這個區域。</CommandRenameZoneDesc>
+
 </LanguageData>
