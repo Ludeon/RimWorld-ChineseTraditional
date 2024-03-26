@@ -95,7 +95,7 @@
     <li>subject_story->藉由分發免費的情愛增強裝置和藥物，阻止了城市世界人口的下降</li>
     <li>subject_story->被聘為美容診所的首席塑形師，整日製作美觀的肢體</li>
     <li>subject_story->將閃耀世界的孩子們聚集在營火邊，講述把他們的美型鼻拿下來的恐怖故事</li>
-    <li>subject_gerund->製作美容相關的仿生物</li>
+    <li>subject_gerund->製作美容相關的仿生體</li>
   </FleshShaping.generalRules.rulesStrings>
   
   <!-- EN: healing factors -->
@@ -109,7 +109,13 @@
     <li>subject_story->studied the ancient corpses found in a cryptosleep shrine and harvested rapid healing devices from them</li>
     <li>subject_gerund->crafting regeneration bionics</li>
   -->
-  <HealingFactors.generalRules.rulesStrings>TODO</HealingFactors.generalRules.rulesStrings>
+  <HealingFactors.generalRules.rulesStrings>
+    <li>subject->癒合仿生體</li>
+    <li>subject_story->研究帝國皇室，從血統確認是否擁有貴族血統。他們沒有，但他們的血液凝結速度令人難以置信的快</li>
+    <li>subject_story->確保所有擂台戰士都有癒合增強裝置和癒合相關的異種細胞，這樣他們就可以更頻繁地進行戰鬥</li>
+    <li>subject_story->研究在休眠艙發現的古代屍體，並從中獲得了癒合增強裝置</li>
+    <li>subject_gerund->製作癒合相關的仿生體</li>
+  </HealingFactors.generalRules.rulesStrings>
   
   <!-- EN: molecular analysis -->
   <MolecularAnalysis.label>分子分析</MolecularAnalysis.label>
@@ -122,7 +128,13 @@
     <li>subject_story->lectured on the potential hardware conflicts between bionic parts and molecular analysis implants</li>
     <li>subject_gerund->crafting molecular analysis bionics</li>
   -->
-  <MolecularAnalysis.generalRules.rulesStrings>TODO</MolecularAnalysis.generalRules.rulesStrings>
+  <MolecularAnalysis.generalRules.rulesStrings>
+    <li>subject->分子分析仿生體</li>
+    <li>subject_story->和烹飪學校的廚師們解釋絕不能安裝美型鼻，否則美食分析裝置會失效</li>
+    <li>subject_story->安裝了免疫增強裝置，能夠在隔離的殖民地自由活動</li>
+    <li>subject_story->講授關於仿生部位與分子分析植物物的硬體衝突</li>
+    <li>subject_gerund->製作分子分析相關的仿生體</li>
+  </MolecularAnalysis.generalRules.rulesStrings>
   
   <!-- EN: neural computation -->
   <NeuralComputation.label>神經計算</NeuralComputation.label>
