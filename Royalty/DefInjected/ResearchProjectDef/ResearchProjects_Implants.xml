@@ -13,7 +13,14 @@
     <li>subject_gerund->crafting digestion-related bionics</li>
     <li>subject_gerund->crafting artificial guts</li>
   -->
-  <ArtificialMetabolism.generalRules.rulesStrings>TODO</ArtificialMetabolism.generalRules.rulesStrings>
+  <ArtificialMetabolism.generalRules.rulesStrings>
+    <li>subject->人工代謝</li>
+    <li>subject_story->因無法克制極強的飢餓感而必須安裝人工胃</li>
+    <li>subject_story->沒有告訴女王關於排毒胃的安裝，而繼續擔任她的食品測試員</li>
+    <li>subject_story->對食物產生厭惡。儘管放射性是個麻煩，核能胃大大減少了食物攝取量</li>
+    <li>subject_gerund->製作消化相關的人工植入物</li>
+    <li>subject_gerund->製作人工器官</li>
+  </ArtificialMetabolism.generalRules.rulesStrings>
   
   <!-- EN: brain wiring -->
   <BrainWiring.label>大腦連結</BrainWiring.label>
@@ -26,7 +33,13 @@
     <li>subject_story->had a joywire installed and, though happy after that, stumbled simply through life</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <BrainWiring.generalRules.rulesStrings>TODO</BrainWiring.generalRules.rulesStrings>
+  <BrainWiring.generalRules.rulesStrings>
+    <li>subject->腦部植入物</li>
+    <li>subject_story->寫了一篇關於虐待狂邪教如何使用顱釘提升士氣的論文</li>
+    <li>subject_story->幫突擊隊植入了止痛晶片。他們雖消滅了一批規模更大的部隊，但全都受了致命傷或死亡</li>
+    <li>subject_story->安裝了樂絲晶片。儘管安裝後感到快樂，但生活卻變得毫無目標</li>
+    <li>subject_gerund->製作腦部植入物</li>
+  </BrainWiring.generalRules.rulesStrings>
   
   <!-- EN: circadian influence -->
   <CircadianInfluence.label>作息節律</CircadianInfluence.label>
@@ -39,7 +52,13 @@
     <li>subject_story->studied bullfrogs and giraffes to ascertain what  xenogerms would be necessary for a circadian assistance gland</li>
     <li>subject_gerund->crafting sleep reduction implants</li>
   -->
-  <CircadianInfluence.generalRules.rulesStrings>TODO</CircadianInfluence.generalRules.rulesStrings>
+  <CircadianInfluence.generalRules.rulesStrings>
+    <li>subject->睡眠降低植入物</li>
+    <li>subject_story->研究鯨豚類的半球睡眠模式，提出一種新型的作息節律器</li>
+    <li>subject_story->強制所有申請擔任城市警衛的人安裝作息節律器，以便在必要時可以無限期地留在崗位上</li>
+    <li>subject_story->研究牛蛙和長頸鹿，以確定製作作息節律器的腺體需要哪些異種細胞</li>
+    <li>subject_gerund->製作睡眠降低植入物</li>
+  </CircadianInfluence.generalRules.rulesStrings>
   
   <!-- EN: compact weaponry -->
   <CompactWeaponry.label>小型武器</CompactWeaponry.label>
