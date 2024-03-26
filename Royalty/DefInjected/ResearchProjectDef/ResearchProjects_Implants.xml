@@ -18,7 +18,7 @@
     <li>subject_story->因無法克制極強的飢餓感而必須安裝人工胃</li>
     <li>subject_story->沒有告訴女王關於排毒胃的安裝，而繼續擔任她的食品測試員</li>
     <li>subject_story->對食物產生厭惡。儘管放射性是個麻煩，核能胃大大減少了食物攝取量</li>
-    <li>subject_gerund->製作消化相關的人工植入物</li>
+    <li>subject_gerund->製作消化相關的仿生器官</li>
     <li>subject_gerund->製作人工器官</li>
   </ArtificialMetabolism.generalRules.rulesStrings>
   
@@ -68,10 +68,16 @@
     <li>subject->compact weaponry</li>
     <li>subject_story->was employed as a detective and was saved more than once by the concealed knee spike</li>
     <li>subject_story->spent a summer recovering from being slashed by an escaped slave's hand talon</li>
-    <li>subject_story-was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
+    <li>subject_story->was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
     <li>subject_gerund->crafting compact bionic weapons</li>
   -->
-  <CompactWeaponry.generalRules.rulesStrings>TODO</CompactWeaponry.generalRules.rulesStrings>
+  <CompactWeaponry.generalRules.rulesStrings>
+    <li>subject->小型武器</li>
+    <li>subject_story->被聘為偵探，過程中膝釘不止一次救了他的命</li>
+    <li>subject_story->花了一個夏天從逃跑奴隸的手爪抓傷中康復</li>
+    <li>subject_story->正在安全部門工作，掃描大廳的訪客，而此時機器人正嘗試進入</li>
+    <li>subject_gerund->製作小型仿生武器</li>
+  </CompactWeaponry.generalRules.rulesStrings>
   
   <!-- EN: flesh shaping -->
   <FleshShaping.label>軀體整形</FleshShaping.label>
@@ -84,7 +90,13 @@
     <li>subject_story->gathered the glitterworld children around the campfire and told horror stories about getting their non-aesthetic noses back</li>
     <li>subject_gerund->crafting aesthetic bionics</li>
   -->
-  <FleshShaping.generalRules.rulesStrings>TODO</FleshShaping.generalRules.rulesStrings>
+  <FleshShaping.generalRules.rulesStrings>
+    <li>subject->美學手術</li>
+    <li>subject_story->藉由分發免費的情愛增強裝置和藥物，阻止了城市世界人口的下降</li>
+    <li>subject_story->被聘為美容診所的首席塑形師，整日製作美觀的肢體</li>
+    <li>subject_story->將閃耀世界的孩子們聚集在營火邊，講述把他們的美型鼻拿下來的恐怖故事</li>
+    <li>subject_gerund->製作美容相關的仿生物</li>
+  </FleshShaping.generalRules.rulesStrings>
   
   <!-- EN: healing factors -->
   <HealingFactors.label>癒合因子</HealingFactors.label>
