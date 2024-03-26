@@ -112,7 +112,7 @@
   <HealingFactors.generalRules.rulesStrings>
     <li>subject->癒合仿生體</li>
     <li>subject_story->研究帝國皇室，從血統確認是否擁有貴族血統。他們沒有，但他們的血液凝結速度令人難以置信的快</li>
-    <li>subject_story->確保所有擂台戰士都有癒合增強裝置和癒合相關的異種細胞，這樣他們就可以更頻繁地進行戰鬥</li>
+    <li>subject_story->確保所有角鬥士都有癒合增強裝置和癒合相關的異種細胞，這樣他們就可以更頻繁地進行戰鬥</li>
     <li>subject_story->研究在休眠艙發現的古代屍體，並從中獲得了癒合增強裝置</li>
     <li>subject_gerund->製作癒合相關的仿生體</li>
   </HealingFactors.generalRules.rulesStrings>
@@ -187,7 +187,13 @@
     <li>subject_story->worked as a surgeon on the rim, replacing missing arms with everything from a woodhand to a power claw</li>
     <li>subject_gerund->crafting specialized bionic arms</li>
   -->
-  <SpecializedLimbs.generalRules.rulesStrings>TODO</SpecializedLimbs.generalRules.rulesStrings>
+  <SpecializedLimbs.generalRules.rulesStrings>
+    <li>subject->特殊義肢</li>
+    <li>subject_story->在封建世界採訪契約農民關於安裝了務農手的前後差別</li>
+    <li>subject_story->觀賞裝有手爪的角鬥士與裝了一對挖掘臂的角鬥士之間的對決</li>
+    <li>subject_story->在邊緣世界擔任外科醫生，用木手到動力爪來取代安裝者失去的手臂</li>
+    <li>subject_gerund->製作特殊仿生手臂</li>
+  </SpecializedLimbs.generalRules.rulesStrings>
   
   <!-- EN: poison synthesis -->
   <VenomSynthesis.label>毒素合成</VenomSynthesis.label>
@@ -200,6 +206,12 @@
     <li>subject_story->learned to love sharp little cutting edges, which could kill with a mere nick</li>
     <li>subject_gerund->crafting poisonous bionic weapons</li>
   -->
-  <VenomSynthesis.generalRules.rulesStrings>TODO</VenomSynthesis.generalRules.rulesStrings>
+  <VenomSynthesis.generalRules.rulesStrings>
+    <li>subject->有毒仿生體</li>
+    <li>subject_story->研究可以縮小並安裝在體內，小尺度的化學反應器</li>
+    <li>subject_story->研究在垃圾世界的荒地鼠並寫了一篇關於他們咬傷中獨特毒素的論文</li>
+    <li>subject_story->喜歡上了銳利的刀口，僅需輕輕劃傷就能致人於死</li>
+    <li>subject_gerund->製作有毒的仿生武器</li>
+  </VenomSynthesis.generalRules.rulesStrings>
   
 </LanguageData>
