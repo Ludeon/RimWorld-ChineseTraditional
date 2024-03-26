@@ -5,15 +5,71 @@
   <Bioregeneration.label>再生</Bioregeneration.label>
   <!-- EN: Unlock the biosculpter pod's bioregeneration cycle. This cycle heals old scars, regenerates small lost body parts like fingers and toes, and cures many of the physical maladies that come with old age. -->
   <Bioregeneration.description>解鎖塑體艙的再生療程。此療程能治好舊傷疤，再生小型身體部份，諸如手指和腳趾。並能治癒各種因為老化帶來的後遺症。</Bioregeneration.description>
+  <!-- EN:
+    <li>subject->bioregeneration</li>
+    <li>subject_story->studied Boomalope antler regrowth for parallels with human regeneration</li>
+    <li>subject_story->spliced salamander genetic data into [ANYPAWN_possessive] own body</li>
+    <li>subject_story->trained in a Glitterworld hospital</li>
+    <li>subject_story->completed a correspondence course in Glitterworld aesthetics</li>
+    <li>subject_gerund->regenerating the human form</li>
+    <li>subject_gerund->activating regeneration with biosculpters</li>
+  -->
+  <Bioregeneration.generalRules.rulesStrings>
+    <li>subject->再生</li>
+    <li>subject_story->研究爆炸艾洛普角的再生方式，尋找與人類再生相似之處</li>
+    <li>subject_story->嫁接蠑螈的基因數據到[ANYPAWN_possessive]的身體內</li>
+    <li>subject_story->在閃耀世界的醫院接受訓練</li>
+    <li>subject_story->完成了閃耀世界美學的相關課程</li>
+    <li>subject_gerund->重生人體型態</li>
+    <li>subject_gerund->啟用塑體艙的再生療程</li>
+  </Bioregeneration.generalRules.rulesStrings>
   
   <!-- EN: biosculpting -->
   <Biosculpting.label>塑體</Biosculpting.label>
   <!-- EN: Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism. -->
   <Biosculpting.description>塑體艙能為居民實施多種生理改造。對於超人類主義信徒尤其重要。</Biosculpting.description>
+  <!-- EN:
+    <li>subject->biosculpting</li>
+    <li>subject_story->constructed biosculpter pods on contract for various colonies</li>
+    <li>subject_story->studied transhumanist precepts, including the necessity of biosculpture</li>
+    <li>subject_story->researched which biological alterations could be made safely</li>
+    <li>subject_story->escaped a glitterworld support farm with these plans.</li>
+    <li>subject_story->was welcomed into a transhumanist colony</li>
+    <li>subject_gerund->constructing biosculpter pods</li>
+    <li>subject_gerund->sculpting the human form</li>
+  -->
+  <Biosculpting.generalRules.rulesStrings>
+    <li>subject->塑體</li>
+    <li>subject_story->替各類殖民地興建塑體艙</li>
+    <li>subject_story->研究義體主義的原則，包含生物雕塑的必要性</li>
+    <li>subject_story->研究可以安全進行的生物學改變</li>
+    <li>subject_story->帶著這些計畫逃離閃耀世界的支援農場</li>
+    <li>subject_story->受到義體主義殖民地的歡迎</li>
+    <li>subject_gerund->建造塑體艙</li>
+    <li>subject_gerund->雕塑人體型態</li>
+  </Biosculpting.generalRules.rulesStrings>
   
   <!-- EN: neural supercharger -->
   <NeuralSupercharger.label>神經超載器</NeuralSupercharger.label>
   <!-- EN: Construct neural supercharger devices. Neural superchargers improve consciousness and learning rate, but they also increase hunger and the effect must be refreshed daily. Transhumanists often hold neural supercharging as an important practice. -->
   <NeuralSupercharger.description>神經超載器能改善意識和學習效率，但它亦加快飢餓，而且效果只能維持一天。超人類主義者視保持神經超載為重要的習慣。</NeuralSupercharger.description>
+  <!-- EN:
+    <li>subject->neural superchargers</li>
+    <li>subject_story->implemented neural superchargers in [ANYPAWN_possessive] boarding school</li>
+    <li>subject_story->supercharged the neurons of farmed clones to massively accelerate their development</li>
+    <li>subject_story->attempted to ban neural supercharging in the university course [ANYPAWN_pronoun] taught</li>
+    <li>subject_story->joined a transhumanist sect where neural supercharging was mandatory</li>
+    <li>subject_gerund->supercharging a human's intellect</li>
+    <li>subject_gerund->constructing neural superchargers</li>
+  -->
+  <NeuralSupercharger.generalRules.rulesStrings>
+    <li>subject->神經超載器</li>
+    <li>subject_story->在[ANYPAWN_possessive]寄宿學校製作了神經超載器</li>
+    <li>subject_story->超載養殖複製人的神經元，大大加速了他們的發育</li>
+    <li>subject_story->嘗試在[ANYPAWN_pronoun]教授的大學課程中禁止使用神經超載器</li>
+    <li>subject_story->加入了一個必須進行神經超載的義體主義教派</li>
+    <li>subject_gerund->超載人類智力</li>
+    <li>subject_gerund->建造神經超載器</li>
+  </NeuralSupercharger.generalRules.rulesStrings>
   
 </LanguageData>
