@@ -12,7 +12,13 @@
     <li>subject_story->fought with the rebels and studied the armor of a captured cataphract</li>
     <li>subject_gerund->crafting cataphract armor</li>
   -->
-  <CataphractArmor.generalRules.rulesStrings>TODO</CataphractArmor.generalRules.rulesStrings>
+  <CataphractArmor.generalRules.rulesStrings>
+    <li>subject->全覆式裝甲</li>
+    <li>subject_story->開發出了近全覆式裝甲的護具作為探索活火山的方法</li>
+    <li>subject_story->被帝國新軍隊委託生產客制的全覆式裝甲</li>
+    <li>subject_story->與叛軍作戰，並研究被俘的全覆式裝甲</li>
+    <li>subject_gerund->製作全覆式裝甲</li>
+  </CataphractArmor.generalRules.rulesStrings>
   
   <!-- EN: gunlink -->
   <Gunlink.label>助瞄器</Gunlink.label>
@@ -25,7 +31,13 @@
     <li>subject_story->bulk-purchased gunlinks for the snipers in the army, forbidding them to front-line soldiers</li>
     <li>subject_gerund->enhancing accuracy with gunlinks</li>
   -->
-  <Gunlink.generalRules.rulesStrings>TODO</Gunlink.generalRules.rulesStrings>
+  <Gunlink.generalRules.rulesStrings>
+    <li>subject->瞄準加強</li>
+    <li>subject_story->將閃耀世界的眼睛植入物改裝成更通用的瞄準計算機</li>
+    <li>subject_story->對助瞄器表現良好感到開心，儘管由於不配戴頭盔導致的死亡率令人擔憂</li>
+    <li>subject_story->為軍隊的狙擊手大量採購了助瞄器，並禁止前線士兵使用</li>
+    <li>subject_gerund->用助瞄器加強射擊精準度</li>
+  </Gunlink.generalRules.rulesStrings>
   
   <!-- EN: jump packs -->
   <JumpPack.label>跳躍背包</JumpPack.label>
@@ -40,7 +52,15 @@
     <li>subject_gerund->performing aerial assaults</li>
     <li>subject_gerund->crafting jump packs</li>
   -->
-  <JumpPack.generalRules.rulesStrings>TODO</JumpPack.generalRules.rulesStrings>
+  <JumpPack.generalRules.rulesStrings>
+    <li>subject->跳躍背包</li>
+    <li>subject->短距離飛行</li>
+    <li>subject_story->經營一個專注於極端體驗的娛樂公園，包括馴養爆炸鼠和體驗跳躍背包</li>
+    <li>subject_story->在低重力行星上開展登山之旅，跳躍背包和氧氣面罩是必須的。</li>
+    <li>subject_story->利用跳躍背包突襲，繞過了軍官訓練的砲塔防禦</li>
+    <li>subject_gerund->執行空中突擊</li>
+    <li>subject_gerund->製作跳躍背包</li>
+  </JumpPack.generalRules.rulesStrings>
   
   <!-- EN: noble apparel -->
   <NobleApparel.label>貴族服飾</NobleApparel.label>
@@ -55,7 +75,15 @@
     <li>subject_gerund->tailoring for the nobility</li>
     <li>subject_gerund->crafting noble apparel</li>
   -->
-  <NobleApparel.generalRules.rulesStrings>TODO</NobleApparel.generalRules.rulesStrings>
+  <NobleApparel.generalRules.rulesStrings>
+    <li>subject->正規服飾</li>
+    <li>subject->貴族服飾</li>
+    <li>subject_story->替都市世界的學生畢業典禮製作正式的束腹</li>
+    <li>subject_story->被貴族家庭僱傭來製作他們的禮帽</li>
+    <li>subject_story->發明了一種新款式的貝雷帽，風靡了一整個季節</li>
+    <li>subject_gerund->為貴族裁縫</li>
+    <li>subject_gerund->製作貴族服飾</li>
+  </NobleApparel.generalRules.rulesStrings>
   
   <!-- EN: royal apparel -->
   <RoyalApparel.label>皇家服飾</RoyalApparel.label>
@@ -69,6 +97,13 @@
     <li>subject_gerund->tailoring for monarchs</li>
     <li>subject_gerund->crafting royal apparel</li>
   -->
-  <RoyalApparel.generalRules.rulesStrings>TODO</RoyalApparel.generalRules.rulesStrings>
+  <RoyalApparel.generalRules.rulesStrings>
+    <li>subject->皇家服飾</li>
+    <li>subject_story->整整一年為加冕典禮製作皇家長袍</li>
+    <li>subject_story->研究了不同貴族群體的紋章要求，確保任何服裝都適宜</li>
+    <li>subject_story->被帝國貴族扶養成人，並接受他們製作長袍和冠冕的委託</li>
+    <li>subject_gerund->為君主裁縫</li>
+    <li>subject_gerund->製作皇家服飾</li>
+  </RoyalApparel.generalRules.rulesStrings>
   
 </LanguageData>
