@@ -13,7 +13,7 @@
   <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>{0}的原料不足</AlertWarqueenHasLowResources>
   <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
-  <AlertWarqueenHasLowResourcesDesc>一個或多個{0}的原料不足。若花光所有原料，他們將無法根據命令生產機械族。</AlertWarqueenHasLowResourcesDesc>
+  <AlertWarqueenHasLowResourcesDesc>一個或多個{0}的原料不足。若耗盡所有原料，他們將無法根據命令生產機械族。</AlertWarqueenHasLowResourcesDesc>
 
   <!-- EN: {PAWN} needs deathrest -->
   <AlertLowDeathrestPawn>{PAWN}需要絕息</AlertLowDeathrestPawn>
@@ -35,7 +35,7 @@
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>需要機械充電站</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>你的充電站數目不足以供應你的機械族。如果機械族花光能量，它會進入休眠自充狀態，非常緩慢地充電。\n\n建造這些充電站：\n{0}\n\n注意：只有輕量級機械族能用標準充電站。中量級或以上的機械族需要大型充電站。</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>你的充電站數目不足以供應你的機械族。如果機械族耗盡能量，它會進入休眠自充狀態，非常緩慢地充電。\n\n建造這些充電站：\n{0}\n\n注意：只有輕量級機械族能用標準充電站。中量級或以上的機械族需要大型充電站。</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
   <AlertNeedMechChargerBasicMechtech>研究基礎機械科技或更高級科技來建造充電站。</AlertNeedMechChargerBasicMechtech>
 
