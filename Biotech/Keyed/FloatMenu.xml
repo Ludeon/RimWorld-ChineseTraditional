@@ -132,9 +132,9 @@
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
   <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort}未被指派育兒工作</BreastfeedFailReason_MomNotAssignedToChildcare>
   <!-- EN: {MOM_labelShort} is inside a container -->
-  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort}身處容器之中</BreastfeedFailReason_MomInsideContainer> <!-- text_todo -->
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort}身處容器之中</BreastfeedFailReason_MomInsideContainer>
   <!-- EN: {MOM_labelShort} is being carried -->
-  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort}正被帶著走</BreastfeedFailReason_MomBeingCarried> <!-- text_todo -->
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort}正被帶著走</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
   <OrderImplantationIntoPawn>為{PAWN_nameDef}預約移植</OrderImplantationIntoPawn>
@@ -148,13 +148,6 @@
   <!-- EN: No available recharger -->
   <CannotCarryToRechargerNoneAvailable>沒有可用的充電站</CannotCarryToRechargerNoneAvailable>
 
-  <!-- EN: Cannot study -->
-  <CannotStudy>無法研究</CannotStudy>
-  <!-- EN: already studied -->
-  <AlreadyStudied>已經研究</AlreadyStudied>
-  <!-- EN: no reachable, un-reserved research bench available -->
-  <NoResearchBench>無法前往或沒有可用的研究桌</NoResearchBench>
-
   <!-- EN: Hemogen packs disabled by food restriction. -->
   <NotAllowedHemogen>血原包受客製化菜單禁止。</NotAllowedHemogen>
 
@@ -165,6 +158,15 @@
   <ResultingMetTooLow>可能導致新陳代謝過低</ResultingMetTooLow>
 
   <!-- EN: attempted romance too recently -->
-  <RomanceOnCooldown>離上次試圖約會不久</RomanceOnCooldown><!-- text_todo -->
+  <RomanceOnCooldown>離上次試圖約會不久</RomanceOnCooldown>
+
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>帶到安全地點</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>無法帶到安全地點</CannotCarryToSafePlace>
+
+  <!-- UNUSED -->
+  <CannotStudy>無法研究</CannotStudy>
+  <AlreadyStudied>已經研究</AlreadyStudied>
 
 </LanguageData>
