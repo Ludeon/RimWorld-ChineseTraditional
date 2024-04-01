@@ -209,211 +209,211 @@
     <li>bookType->epic poem</li>
   -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->This [writingQualityAdjective] [bookType] [follows] a [PersonJob] as [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
-    <li>desc->In this [writingQualityAdjective] [bookType], the [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
-    <li>follows->follows</li>
-    <li>follows->covers</li>
-    <li>follows->tells the story of</li>
-    <li>follows->is written from the point of view of</li>
-    <li>protagHe->he</li>
-    <li>protagHis->his</li>
-    <li>protagHim->him</li>
-    <li>storyStruggles->[struggles] against [opponent]</li>
-    <li>storyStruggles->[seeks] [seekObjective]</li>
-    <li>struggles->struggles</li>
-    <li>struggles->fights</li>
-    <li>struggles->strives</li>
-    <li>opponent->injustice</li>
-    <li>opponent->fear</li>
-    <li>opponent->a dangerous [Enemy]</li>
-    <li>opponent->a rival [PersonJob]</li>
-    <li>opponent->the meaninglessness of [ConceptPositive]</li>
-    <li>opponent->[protagHis] evil [PersonFamily]</li>
-    <li>opponent->[protagHis] community's social norms</li>
-    <li>seeks->seeks</li>
-    <li>seeks->searches the universe for</li>
-    <li>seeks->tries to find</li>
-    <li>seeks->looks inside [protagHim]self and across the world to find</li>
-    <li>seeks->desperately searches for</li>
-    <li>seeks->struggles to find</li>
-    <li>seeks->scours the land for</li>
-    <li>seeks->hunts down</li>
-    <li>seeks->deliberately pursues</li>
-    <li>seeks->expends every effort to find</li>
-    <li>seeks->doggedly pursues</li>
-    <li>seeks->leaves no stone unturned in search of</li>
-    <li>seeks->embarks on a quest for</li>
-    <li>seeks->rends [protagHis] flesh while seeking</li>
-    <li>seeks->strives to locate</li>
-    <li>seeks->diligently seeks out</li>
-    <li>seeks->wanders in search of</li>
-    <li>seeks->goes on a mission to find</li>
-    <li>seekObjective->a mysterious golden cube</li>
-    <li>seekObjective->a demon inside [protagHis] own head</li>
-    <li>seekObjective->the best-tasting [Vegetable] in the universe</li>
-    <li>seekObjective->a shiny new [Weapon]</li>
-    <li>seekObjective->[protagHis] lost pet [Animal]</li>
-    <li>seekObjective->parts to rebuild a destroyed [Mechanoid]</li>
-    <li>seekObjective->a [TerrainFeature] that [protagHe] saw in a dream</li>
-    <li>seekObjective->an old flame</li>
-    <li>seekObjective->romantic satisfaction</li>
-    <li>seekObjective->a new kidney to replace [protagHis] own diseased kidney</li>
-    <li>seekObjective->food in a vast wasteland</li>
-    <li>seekObjective->the warmth and safety of home</li>
-    <li>seekObjective->love in a world full of hate</li>
-    <li>seekObjective->a long-lost family recipe</li>
-    <li>seekObjective->a childhood toy left behind</li>
-    <li>seekObjective->a stolen family heirloom</li>
-    <li>seekObjective->a mentor's lost journal</li>
-    <li>seekObjective->a rare collectible from [protagHis] favorite series</li>
-    <li>seekObjective->the perfect spot for a picnic</li>
-    <li>seekObjective->a missing piece from a prized collection</li>
-    <li>seekObjective->an apology for a past mistake</li>
-    <li>seekObjective->closure from a past relationship</li>
-    <li>seekObjective->a lost treasure map from childhood</li>
-    <li>seekObjective->a meaningful memento from a deceased loved one</li>
-    <li>seekObjective->a recipe for a cure to an illness</li>
-    <li>seekObjective->a rare plant for a personal garden</li>
-    <li>seekObjective->a letter written but never sent</li>
-    <li>seekObjective->an elusive answer to a philosophical question</li>
-    <li>seekObjective->a quiet moment away from the chaos</li>
-    <li>seekObjective->an old friend in a new city</li>
-    <li>seekObjective->the thrill of a forgotten hobby</li>
-    <li>seekObjective->a single moment of pure happiness</li>
-    <li>tellsAStoryOf->tells a tale about</li>
-    <li>tellsAStoryOf->goes into detail about</li>
-    <li>tellsAStoryOf->explores a story about</li>
-    <li>tellsAStoryOf->tells a story about</li>
-    <li>tellsAStoryOf->spins a narrative about</li>
-    <li>tellsAStoryOf->paints a picture of</li>
-    <li>tellsAStoryOf->dives deep into</li>
-    <li>tellsAStoryOf->unravels the tale of</li>
-    <li>tellsAStoryOf->reveals the journey of</li>
-    <li>tellsAStoryOf->captures the essence of</li>
-    <li>tellsAStoryOf->sheds light on</li>
-    <li>tellsAStoryOf->weaves together</li>
-    <li>tellsAStoryOf->portrays the experience of</li>
-    <li>tellsAStoryOf->embarks on the narrative of</li>
-    <li>tellsAStoryOf->depicts the story of</li>
-    <li>tellsAStoryOf->touches upon the tale of</li>
-    <li>tellsAStoryOf->presents the story of</li>
-    <li>tellsAStoryOf->conveys the journey of</li>
-    <li>tellsAStoryOf->delves into the story of</li>
-    <li>tellsAStoryOf->illuminates the narrative of</li>
-    <li>tellsAStoryOf->captures the saga of</li>
-    <li>tellsAStoryOf->paints a vivid picture of</li>
-    <li>tellsAStoryOf->weaves the tapestry of</li>
-    <li>tellsAStoryOf->explores the chronicle of</li>
-    <li>author->author</li>
-    <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
-    <li>author(p=2)->unnamed [authorTitle]</li>
-    <li>authorTitle->author</li>
-    <li>authorTitle->scribe</li>
-    <li>authorTitle->writer</li>
-    <li>authorTitle->poet</li>
-    <li>authorTitle->storyteller</li>
-    <li>storySource->personal experiences</li>
-    <li>storySource->youth</li>
-    <li>storySource->childhood</li>
-    <li>storySource->nation</li>
-    <li>storySource->home planet</li>
-    <li>storySource->grandfather</li>
-    <li>storySource->grandmother</li>
-    <li>storySource->experiences in the war</li>
-    <li>storySource->deepest fears</li>
-    <li>storySource->dreams of traveling to the stars</li>
-    <li>storySource->love of fresh [Vegetable]s</li>
-    <li>storySource->time as a [PersonJob]</li>
-    <li>storySource->favorite [Weapon]</li>
-    <li>storySource->experience fighting against [Mechanoid]s</li>
-    <li>storySource->youth growing up in a [Community]</li>
-    <li>storySource->gigantic [BodyPart]</li>
-    <li>storySource->memories of a lost friend</li>
-    <li>storySource->passion for music</li>
-    <li>storySource->curiosity about ancient ruins</li>
-    <li>storySource->attachment to a family heirloom</li>
-    <li>storySource->fascination with a mysterious figure</li>
-    <li>storySource->efforts to preserve a dying language</li>
-    <li>storySource->dreams of inventing something groundbreaking</li>
-    <li>storySource->connection to a mythical creature</li>
-    <li>storySource->affection for a particular landscape</li>
-    <li>storySource->aspirations of becoming a renowned [PersonJob]</li>
-    <li>storySource->struggles with social anxiety</li>
-    <li>storySource->longing for adventure beyond the horizon</li>
-    <li>storySource->bond with a robotic companion</li>
-    <li>storySource->adventures as a pirate in the past</li>
-    <li>storySource->close ties to a secret society</li>
-    <li>storySource->time spent as a nomad</li>
-    <li>storySource->fascination with time travel</li>
-    <li>storySource->connection to a legendary artifact</li>
-    <li>writingQualityAdjective(quality==6)->remarkably well-written</li>
-    <li>writingQualityAdjective(quality==5)->smart and insightful</li>
-    <li>writingQualityAdjective(quality==4)->thoughtful and eloquent</li>
-    <li>writingQualityAdjective(quality==3)->well-written</li>
-    <li>writingQualityAdjective(quality==2)->mediocre</li>
-    <li>writingQualityAdjective(quality==1)->poorly-written</li>
-    <li>writingQualityAdjective(quality==0)->nearly-incoherent</li>
-    <li>writingQualitySentence(quality[greater_than]4)->It is [excellentDesc] [excellentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->It is [decentDesc] [decentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]2)->It is [awfulDesc] [awfulExtra]</li>
-    <li>excellentDesc->a heart-pounding tale of excitement</li>
-    <li>excellentDesc->a thoughtful exploration of the human spirit</li>
-    <li>excellentDesc->deeply insightful about the complexity of the world</li>
-    <li>excellentDesc->tightly-written and rich with emotion</li>
-    <li>excellentDesc->creative and original</li>
-    <li>excellentDesc->wildly original and remarkably well-crafted</li>
-    <li>excellentDesc->filled with relatable humor</li>
-    <li>excellentExtra->. Each story beat flows naturally into the next</li>
-    <li>excellentExtra->. It is a page-turner and very hard to put down</li>
-    <li>excellentExtra->. It blows the reader's mind at least three times</li>
-    <li>excellentExtra->. The plot twists are unpredictable but also feel inevitable</li>
-    <li>excellentExtra->. The characters feel like real people</li>
-    <li>decentDesc->a decent story</li>
-    <li>decentDesc->interesting and engaging</li>
-    <li>decentDesc->focused on one interesting idea</li>
-    <li>decentDesc->somewhat humorous from time to time</li>
-    <li>decentDesc->gripping during some parts</li>
-    <li>decentDesc->original and quirky</li>
-    <li>decentDesc->appealing to a certain type of reader</li>
-    <li>decentExtra-> but has some glaring plot holes</li>
-    <li>decentExtra-> but is often hard to follow</li>
-    <li>decentExtra-> but is riddled with continuity errors</li>
-    <li>decentExtra-> but lacks any deep emotions</li>
-    <li>decentExtra-> but the characters are trite and cartoonish</li>
-    <li>decentExtra-> but the author constantly uses words inappropriately in an attempt to sound smart</li>
-    <li>decentExtra-> but the world is unoriginal and dull</li>
-    <li>decentExtra-> but the writing is excessively flowery</li>
-    <li>decentExtra-> but many of the story beats are unnecessary and fail to move the plot forward</li>
-    <li>awfulDesc->very poorly written</li>
-    <li>awfulDesc->terribly written</li>
-    <li>awfulDesc->hard to read</li>
-    <li>awfulDesc->hard to follow</li>
-    <li>awfulDesc->lacking in artistic vision</li>
-    <li>awfulDesc->filled with plot holes and generic characters</li>
-    <li>awfulDesc->dominated by an author self-insert character</li>
-    <li>awfulDesc->bizarre yet unoriginal</li>
-    <li>awfulDesc->far, far too long</li>
-    <li>awfulExtra-> and the writing is borderline incoherent</li>
-    <li>awfulExtra-> and is extremely hard to follow</li>
-    <li>awfulExtra-> and fails to assemble a coherent plot</li>
-    <li>awfulExtra-> and lacks any sense of theme or meaning</li>
-    <li>awfulExtra-> and doesn't present any interesting ideas at all</li>
-    <li>awfulExtra-> and every character is boring</li>
-    <li>awfulExtra-> and there is no identifiable protagonist at any point</li>
+    <li>desc->這本[writingQualityAdjective][bookType][follows]當[protagHe]還是個[PersonJob]時[storyStruggles]的事。[writingQualitySentence]。[maybe_date]</li>
+    <li>desc->這本[writingQualityAdjective][bookType]中，[author][tellsAStoryOf] [ANYPAWN_possessive][storySource]。[writingQualitySentence]。[maybe_date]</li>
+    <li>follows->關於</li>
+    <li>follows->涵蓋</li>
+    <li>follows->講述</li>
+    <li>follows->論述</li>
+    <li>protagHe->他</li>
+    <li>protagHis->他的</li>
+    <li>protagHim->他</li>
+    <li>storyStruggles->與[opponent]的[struggles]</li>
+    <li>storyStruggles->[seeks][seekObjective]</li>
+    <li>struggles->掙扎</li>
+    <li>struggles->對抗</li>
+    <li>struggles->爭鬥</li>
+    <li>opponent->不正義</li>
+    <li>opponent->恐懼</li>
+    <li>opponent->危險的[Enemy]</li>
+    <li>opponent->[PersonJob]界的對手</li>
+    <li>opponent->[ConceptPositive]的無意義</li>
+    <li>opponent->[protagHis]惡毒[PersonFamily]</li>
+    <li>opponent->[protagHis]環境的社會規範</li>
+    <li>seeks->尋求</li>
+    <li>seeks->尋找一個宇宙可以</li>
+    <li>seeks->試圖去找</li>
+    <li>seeks->探索[protagHim]自己並跨越世界去找</li>
+    <li>seeks->拼命尋找</li>
+    <li>seeks->努力尋找</li>
+    <li>seeks->尋找一處土地可以</li>
+    <li>seeks->追捕</li>
+    <li>seeks->刻意追求</li>
+    <li>seeks->竭盡全力去尋找</li>
+    <li>seeks->頑強地追趕</li>
+    <li>seeks->千方百計地尋找</li>
+    <li>seeks->展開旅程去尋找</li>
+    <li>seeks->即使皮開肉綻也要尋找</li>
+    <li>seeks->努力去找</li>
+    <li>seeks->孜孜不倦地尋找</li>
+    <li>seeks->徘徊尋找</li>
+    <li>seeks->去執行任務尋找</li>
+    <li>seekObjective->一個神秘的黃金立方體</li>
+    <li>seekObjective->在[protagHis]腦內的一個魔鬼</li>
+    <li>seekObjective->宇宙間最美味的[Vegetable]</li>
+    <li>seekObjective->新得發亮的[Weapon]</li>
+    <li>seekObjective->[protagHis]寵物[Animal]</li>
+    <li>seekObjective->零件來復修壞掉的[Mechanoid]</li>
+    <li>seekObjective->一處[protagHe]曾在夢中看過的[TerrainFeature]</li>
+    <li>seekObjective->舊情人</li>
+    <li>seekObjective->滿足浪漫的慾望</li>
+    <li>seekObjective->一個新的腎臟來取代[protagHis]患病的腎臟</li>
+    <li>seekObjective->在廣闊的荒地上罕見的食物</li>
+    <li>seekObjective->家的溫暖與安全</li>
+    <li>seekObjective->充滿仇恨的世界裡的愛</li>
+    <li>seekObjective->失傳已久的家庭食譜</li>
+    <li>seekObjective->童年時丟失的玩具</li>
+    <li>seekObjective->被偷走的傳家寶</li>
+    <li>seekObjective->導師遺失的日記</li>
+    <li>seekObjective->[protagHe]最喜歡的系列中的稀有收藏品</li>
+    <li>seekObjective->野餐的完美地點</li>
+    <li>seekObjective->珍貴收藏中缺失的一部份</li>
+    <li>seekObjective->為過去的錯誤道歉</li>
+    <li>seekObjective->結束過去的關係</li>
+    <li>seekObjective->一張童年遺失的藏寶圖</li>
+    <li>seekObjective->已故親人的充滿意義的紀念品</li>
+    <li>seekObjective->治癒疾病的良方</li>
+    <li>seekObjective->稀有植物種在自己的私人花園</li>
+    <li>seekObjective->一封已寫但從未寄出的信</li>
+    <li>seekObjective->一個哲學問題的難以捉摸的答案</li>
+    <li>seekObjective->遠離喧囂的寧靜時刻</li>
+    <li>seekObjective->在新城市的老朋友</li>
+    <li>seekObjective->被遺忘的嗜好帶來的快感</li>
+    <li>seekObjective->純粹幸福的一刻</li>
+    <li>tellsAStoryOf->講述一個故事關於</li>
+    <li>tellsAStoryOf->詳細介紹</li>
+    <li>tellsAStoryOf->探索一個故事關於</li>
+    <li>tellsAStoryOf->講述一個傳說關於</li>
+    <li>tellsAStoryOf->講述一件事關於</li>
+    <li>tellsAStoryOf->描繪了一幅畫關於</li>
+    <li>tellsAStoryOf->深入關於</li>
+    <li>tellsAStoryOf->揭開故事的謎底關於</li>
+    <li>tellsAStoryOf->揭示了旅程關於</li>
+    <li>tellsAStoryOf->抓住了本質關於</li>
+    <li>tellsAStoryOf->揭開迷團關於</li>
+    <li>tellsAStoryOf->編織在一起</li>
+    <li>tellsAStoryOf->描繪了經歷</li>
+    <li>tellsAStoryOf->開始敘述</li>
+    <li>tellsAStoryOf->描繪了一個故事</li>
+    <li>tellsAStoryOf->涉及到的故事</li>
+    <li>tellsAStoryOf->呈現的故事</li>
+    <li>tellsAStoryOf->傳達了旅程</li>
+    <li>tellsAStoryOf->深入研究的故事</li>
+    <li>tellsAStoryOf->闡明了敘述</li>
+    <li>tellsAStoryOf->捕捉傳奇</li>
+    <li>tellsAStoryOf->生動地描繪了</li>
+    <li>tellsAStoryOf->編織掛毯</li>
+    <li>tellsAStoryOf->探索編年史</li>
+    <li>author->作者</li>
+    <li>author->[authorTitle]，[ANYPAWN_nameIndef]</li>
+    <li>author(p=2)->未命名[authorTitle]</li>
+    <li>authorTitle->作者</li>
+    <li>authorTitle->抄寫員</li>
+    <li>authorTitle->作家</li>
+    <li>authorTitle->詩人</li>
+    <li>authorTitle->說故事的人</li>
+    <li>storySource->個人的經歷</li>
+    <li>storySource->青年</li>
+    <li>storySource->童年</li>
+    <li>storySource->國家</li>
+    <li>storySource->家鄉星球</li>
+    <li>storySource->祖父</li>
+    <li>storySource->祖母</li>
+    <li>storySource->戰爭經歷</li>
+    <li>storySource->最深的恐懼</li>
+    <li>storySource->夢想去星星旅行</li>
+    <li>storySource->熱愛新鮮[Vegetable]</li>
+    <li>storySource->作為[PersonJob]的時候</li>
+    <li>storySource->最喜歡的[Weapon]</li>
+    <li>storySource->與[Mechanoid]作戰的經驗</li>
+    <li>storySource->在[Community]中成長的青少年</li>
+    <li>storySource->巨大的[BodyPart]</li>
+    <li>storySource->失去朋友的回憶</li>
+    <li>storySource->對音樂的熱情</li>
+    <li>storySource->對古代遺跡的好奇</li>
+    <li>storySource->對傳家寶的依戀</li>
+    <li>storySource->對神秘人物的迷戀</li>
+    <li>storySource->保護瀕臨消失的語言的努力</li>
+    <li>storySource->夢想發明突破性的東西</li>
+    <li>storySource->與神話生物的聯繫</li>
+    <li>storySource->對特定風景的熱愛</li>
+    <li>storySource->成為知名人士的願望[PersonJob]</li>
+    <li>storySource->與社交焦慮作鬥爭</li>
+    <li>storySource->渴望超越地平線的冒險</li>
+    <li>storySource->與機器人伴侶建立聯繫</li>
+    <li>storySource->過去作為海盜的冒險</li>
+    <li>storySource->與秘密社團有密切聯繫</li>
+    <li>storySource->游牧的時間</li>
+    <li>storySource->對時光旅行的迷戀</li>
+    <li>storySource->與傳說神器的聯繫</li>
+    <li>writingQualityAdjective(quality==6)->寫得非常好</li>
+    <li>writingQualityAdjective(quality==5)->聰明而有洞察力</li>
+    <li>writingQualityAdjective(quality==4)->深思熟慮且雄辯</li>
+    <li>writingQualityAdjective(quality==3)->寫得好</li>
+    <li>writingQualityAdjective(quality==2)->平庸</li>
+    <li>writingQualityAdjective(quality==1)->寫得不好</li>
+    <li>writingQualityAdjective(quality==0)->幾乎不連貫</li>
+    <li>writingQualitySentence(quality[greater_than]4)->它是[excellentDesc][excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->這是 [decentDesc][decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->這是[awfulDesc][awfulExtra]</li>
+    <li>excellentDesc->一個激動人心的故事</li>
+    <li>excellentDesc->對人類精神的深思熟慮的探索</li>
+    <li>excellentDesc->對世界複雜性的深刻洞察</li>
+    <li>excellentDesc->文筆嚴謹，情感豐富</li>
+    <li>excellentDesc->創意和原創</li>
+    <li>excellentDesc->極其原創且製作精良</li>
+    <li>excellentDesc->充滿了相關的幽默</li>
+    <li>excellentExtra->。每個故事節拍自然地流入下一個故事節拍</li>
+    <li>excellentExtra->。這是一本引人入勝的書，讓人難以放下</li>
+    <li>excellentExtra->。至少讓讀者大吃一驚三遍</li>
+    <li>excellentExtra->。情節的曲折難以預測，但又感覺不可避免</li>
+    <li>excellentExtra->。角色感覺就像真人一樣</li>
+    <li>decentDesc->一個不錯的故事</li>
+    <li>decentDesc->有趣且引人入勝</li>
+    <li>decentDesc->專注於一個有趣的想法</li>
+    <li>decentDesc->時不時有些幽默</li>
+    <li>decentDesc->某些部位的抓握</li>
+    <li>decentDesc->原創而古怪</li>
+    <li>decentDesc->吸引特定類型的讀者</li>
+    <li>decentExtra->但有一些明顯的劇情漏洞</li>
+    <li>decentExtra->但往往很難跟上</li>
+    <li>decentExtra->但充滿了連續性錯誤</li>
+    <li>decentExtra->但缺乏深刻的情感</li>
+    <li>decentExtra->但人物都是陳腐且卡通化的</li>
+    <li>decentExtra->但作者常使用不恰當的詞語，試圖顯得聰明</li>
+    <li>decentExtra->但世界是平淡無奇的</li>
+    <li>decentExtra->但文筆過於華麗</li>
+    <li>decentExtra->但很多故事節奏都是不必要的，無法推動劇情發展</li>
+    <li>awfulDesc->寫得很差</li>
+    <li>awfulDesc->寫得很糟糕</li>
+    <li>awfulDesc->很難讀</li>
+    <li>awfulDesc->很難跟上</li>
+    <li>awfulDesc->缺乏藝術眼光</li>
+    <li>awfulDesc->充滿了情節漏洞和通用角色</li>
+    <li>awfulDesc->以作者自我插入的角色為主</li>
+    <li>awfulDesc->奇怪但不原創</li>
+    <li>awfulDesc->太遠太長</li>
+    <li>awfulExtra->而且文筆極度不連貫</li>
+    <li>awfulExtra->並且非常難以遵循</li>
+    <li>awfulExtra->並且無法建構一個連貫的情節</li>
+    <li>awfulExtra->並且缺乏任何主題感或意義</li>
+    <li>awfulExtra->並且根本沒有提出任何有趣的想法</li>
+    <li>awfulExtra->而且每個角色都很無聊</li>
+    <li>awfulExtra->並且在任何時候都沒有可識別的主角</li>
     <li>maybe_date-></li>
-    <li>maybe_date->The book was published [date_form].</li>
-    <li>maybe_date->The text was first printed [date_form].</li>
-    <li>maybe_date->It's unclear exactly when the book was written.</li>
-    <li>date_form->recently</li>
-    <li>date_form->many centuries ago</li>
-    <li>date_form->on the [date]</li>
-    <li>date_form->in [date_season]</li>
-    <li>bookType(p=4)->novel</li>
-    <li>bookType(p=2)->novella</li>
-    <li>bookType->story</li>
-    <li>bookType->narrative</li>
-    <li>bookType->biography</li>
-    <li>bookType->epic poem</li>
+    <li>maybe_date->該書出版於[date_form]。</li>
+    <li>maybe_date->文字首次列印[date_form]。</li>
+    <li>maybe_date->目前尚不清楚這本書的具體寫作時間。</li>
+    <li>date_form->最近</li>
+    <li>date_form->許多世紀前</li>
+    <li>date_form->在[date]</li>
+    <li>date_form->在[date_season]</li>
+    <li>bookType(p=4)->小說</li>
+    <li>bookType(p=2)->中篇小說</li>
+    <li>bookType->故事</li>
+    <li>bookType->敘述</li>
+    <li>bookType->傳</li>
+    <li>bookType->史詩</li>
   </Description_Novel.rulePack.rulesStrings>
   
   <!-- EN:
@@ -448,7 +448,7 @@
     <li>schematic_desc_first->this is only a fragment of a full [schematic_synonym] for [subject_primary_gerund] </li>
     <li>schematic_desc_first->this [schematic_synonym] is [negative_adjective] in several places</li>
     <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is incomplete</li>
-    <li>schematic_desc_first->[subject_primary_gerund] with these [schematic_synonyms]s is complicated by contradictory annotations</li>
+    <li>schematic_desc_first->[subject_primary_gerund] with these [schematic_synonym]s is complicated by contradictory annotations</li>
     <li>schematic_desc_first->the author's [negative_adjective] understanding of [subject_primary_gerund] is apparent throughout</li>
     <li>schematic_desc_first->part of the [schematic_synonym] has been torn away</li>
     <li>schematic_desc_first->fire and soot have marred the paper</li>
@@ -484,7 +484,7 @@
     <li>schematic_desc_second(quality[greater_than]4)->. Yet, the content is exceptional for the era</li>
     <li>schematic_desc_second(quality[greater_than]4)->, yet it conveys advanced concepts with ease</li>
     <li>schematic_desc_second(quality[greater_than]4)->, but it is still full of wisdom for all learners</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. Despite this, every student will benefit from reading it, no matter how experienced.</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Despite this, every student will benefit from reading it, no matter how experienced</li>
     <li>schematic_desc_second(quality[greater_than]4)->, but the issues are minor compared to the wealth of knowledge it contains</li>
     <li>schematic_desc_second(quality[greater_than]4)->. However, the lessons it teaches are timeless</li>
     <li>medium->An in-built sensory system [tells_verb]s to listeners [schematic_origin]</li>
@@ -520,7 +520,7 @@
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
     <li>author_storyname->the unnamed [authorTitle]</li>
     <li>author_intent-> was hungry for knowledge about [subject] from a young age and questioned everyone in [ANYPAWN_possessive] hometown</li>
-    <li>author_intent-> dreamed of rejuvenating [subject] and leading a scientific revolution on Kuhn[worldname]</li>
+    <li>author_intent-> dreamed of rejuvenating [subject], leading a scientific revolution on Kuhn[worldname]</li>
     <li>author_intent-> made [subject] [ANYPAWN_possessive] life's work</li>
     <li>author_intent-> shared [ANYPAWN_possessive] views on [subject] in a [physical_adjective] book, written [written_when]</li>
     <li>author_intent-> knew of no calling finer than the study of [subject] and created this schematic [written_when]</li>
@@ -534,7 +534,7 @@
     <li>learning_story-> traveled far and wide, seeking wisdom about [subject]</li>
     <li>learning_story-> lived an identical day every day, working on [subject] in the cyclical cities of [midworld]</li>
     <li>learning_story-> came up through a [subject]-focused slumschool on [urbworld]</li>
-    <li>learning_story-> graduated with honors in [subject] from the [world-name] Academy </li>
+    <li>learning_story-> graduated with honors in [subject] from the [worldname] Academy</li>
     <li>learning_story-> taught [ANYPAWN_objective]self about [subject] on the feral world of [animalworld]</li>
     <li>learning_story-> discovered a trove of lost schematics about [subject] in the ruins of [ruinworld]</li>
     <li>learning_story-> traversed the blackened streets of [steamworld], chasing [subject] amidst the sootfall</li>
@@ -542,7 +542,7 @@
     <li>learning_story-> scoured the melted suburbs of the glassed world of [glassworld], searching for knowledge of [subject]</li>
     <li>learning_story-> orbited the transcendent sphere of [transcendentworld], learning of [subject] by intercepting comms traffic</li>
     <li>learning_story-> went with the mules into the depths of [mineworld], listening to old miners tell stories of [subject] and learning its secrets</li>
-    <li>learning_story-> was an indentured [subject] expert on the coreworld of [coreworld] </li>
+    <li>learning_story-> was an indentured [subject] expert on the coreworld of [coreworld]</li>
     <li>learning_story-> owned the factories on the indworld of [indworld], indulging [ANYPAWN_possessive] love of [subject] whilst [ANYPAWN_possessive] workers slaved away</li>
     <li>learning_story-> learned about [subject] incarcerated in Cellcity V on [prisonworld], forever protesting [ANYPAWN_possessive] innocence</li>
     <li>learning_story-> pieced together this [subject] schematic in the hive-heaps of the trashworld [trashworld], collecting fragments discarded by idle glitterworld citizens</li>
@@ -553,8 +553,8 @@
     <li>calltoadventure-> was entrusted with starting a new colony, on [ANYPAWN_possessive] own, focused on [subject]</li>
     <li>calltoadventure->'s older sibling passed away, leaving [ANYPAWN_objective] as the family [subject] specialist</li>
     <li>calltoadventure-> learned of an abandoned Glitterworld colony that focused on [subject]</li>
-    <li>calltoadventure-> was on a solar cruiser when it was captured by [feudalworld] pirates. As a [subject] expert, they ransomed him for a high price </li>
-    <li>calltoadventure-> was blown off course to the deadworld of [deadworld], where she learned about [subject]</li>
+    <li>calltoadventure-> was on a solar cruiser when it was captured by [feudalworld] pirates. As a [subject] expert, they ransomed him for a high price</li>
+    <li>calltoadventure-> was blown off course to the deadworld of [deadworld], where [ANYPAWN_pronoun] learned about [subject]</li>
     <li>calltoadventure-> discovered a data file about [subject] in a broken mechanoid and learned from it</li>
     <li>calltoadventure-> followed a dirtmole down its burrow, where it taught [ANYPAWN_objective] about [subject]</li>
     <li>calltoadventure-> was brought up by a [subject]-loving Yttakin clan on [iceworld]</li>
@@ -604,8 +604,8 @@
     <li>digression_subject->neutroamine barter in the rich skyrippers of [coreworld]</li>
     <li>aftermath->The pages communicate nothing more of the [author]'s story</li>
     <li>aftermath->A [note] in a different hand says that the [author] was last seen heading for [deathworld]</li>
-    <li>aftermath->Pages are torn out here.</li>
-    <li>aftermath->The leaves are dotted with brown stains.</li>
+    <li>aftermath->Pages are torn out here</li>
+    <li>aftermath->The leaves are dotted with brown stains</li>
     <li>aftermath->Despite [ANYPAWN_possessive] adventures, [ANYPAWN_pronoun] managed to create this schematic</li>
     <li>aftermath->[ANYPAWN_pronoun] devoted [ANYPAWN_possessive] last years to this schematic</li>
     <li>aftermath->Later, [ANYPAWN_pronoun] found peace in this work. [subject_chat]</li>
@@ -614,6 +614,9 @@
     <li>subject_chat->Few dispute the findings in this [subject] document</li>
     <li>subject_chat->This document will be inspirational to anyone interested in [subject]</li>
     <li>subject_chat->Though the diagrams are faded, the [author]'s lessons on [subject] are valuable</li>
+    <li>authorTitle->author</li>
+    <li>authorTitle->scribe</li>
+    <li>authorTitle->writer</li>
     <li>linkage->this inspired [ANYPAWN_objective] and [ANYPAWN_pronoun] </li>
     <li>linkage->this proved useful later when [ANYPAWN_pronoun] </li>
     <li>linkage->using this knowledge, [ANYPAWN_pronoun] </li>
@@ -1050,326 +1053,329 @@
   -->
   <Description_Schematic.rulePack.rulesStrings>
     <li>subject->[subject_primary]</li>
-    <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
-    <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
-    <li>desc(p=2)->[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li>
+    <li>desc(p=3)->[maybe_intro][schematic_desc]。</li>
+    <li>desc->[maybe_intro][schematic_desc]。\n\n[maybe_medium][author_story]。[linkage][subject_consequence]。</li>
+    <li>desc(p=2)->[maybe_medium][author_story]。[linkage][subject_primary_story]。[maybe_outro]</li>
     <li>maybe_intro(p=6)-></li>
-    <li>maybe_intro->[appearance]. </li>
-    <li>maybe_intro->[subject_intro]. </li>
+    <li>maybe_intro->[appearance]。</li>
+    <li>maybe_intro->[subject_intro]。</li>
     <li>maybe_subject_intro(p=6)-></li>
-    <li>maybe_subject_intro->[subject_intro]. </li>
+    <li>maybe_subject_intro->[subject_intro]。</li>
     <li>maybe_medium(p=6)-></li>
-    <li>maybe_medium->[medium]. </li>
+    <li>maybe_medium->[medium]。</li>
     <li>maybe_outro(p=5)-></li>
-    <li>maybe_outro->[aftermath]. </li>
-    <li>maybe_outro->[dates]. </li>
-    <li>maybe_outro->[appearance]. </li>
+    <li>maybe_outro->[aftermath]。</li>
+    <li>maybe_outro->[dates]。</li>
+    <li>maybe_outro->[appearance]。</li>
     <li>maybe_physical_adjective-></li>
-    <li>maybe_physical_adjective->[physical_adjective] </li>
+    <li>maybe_physical_adjective->[physical_adjective]</li>
     <li>maybe_date(p=3)-></li>
     <li>maybe_date->[dates]</li>
-    <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject]</li>
-    <li>subject_intro->in this [schematic_synonym], the [author] [shows_synonym_verb]s [ANYPAWN_possessive] [theory_synonym_adj] of [subject]</li>
-    <li>subject_intro->this [physical_adjective] [schematic_synonym] [contain_verb]s [schematic_synonym]s focused on [subject]</li>
-    <li>subject_intro->the [author] has employed [notable_adjective] [image_types] to communicate [ANYPAWN_possessive] [theory_synonym_adj] of [subject]</li>
-    <li>subject_intro->[device_synonym]s associated with [subject_primary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
-    <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject_primary] and [subject_secondary]</li>
-    <li>subject_intro->[device_synonym]s associated with [subject_primary] and [subject_secondary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
+    <li>subject_intro->[schematic_synonym][shows_synonym_verb]關於[subject]的[state_adjective][diagram_type]</li>
+    <li>subject_intro->這份[schematic_synonym]，[author][shows_synonym_verb][ANYPAWN_possessive]對於[subject]的[theory_synonym_adj]。</li>
+    <li>subject_intro->這份[physical_adjective][schematic_synonym][contain_verb]關於[subject]的[schematic_synonym]</li>
+    <li>subject_intro->[author]使用了[notable_adjective][image_types]來傳達[ANYPAWN_possessive][theory_synonym_adj][subject]</li>
+    <li>subject_intro->此[maybe_physical_adjective][schematic_synonym]中[shows_synonym_verb1]了與[subject_primary]關聯的[device_synonym]</li>
+    <li>subject_intro->[schematic_synonym][shows_synonym_verb]關於[subject_primary]和[subject_secondary]的[state_adjective][diagram_type]</li>
+    <li>subject_intro->與[subject_primary]和[subject_secondary]相關的[device_synonym][shows_synonym_verb1]在此[maybe_physical_adjective][schematic_synonym]</li>
     <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
-    <li>schematic_desc_first->the ancient technology described here for [subject_primary_gerund] is [negative_adjective] compared to present systems</li>
-    <li>schematic_desc_first->this is only a fragment of a full [schematic_synonym] for [subject_primary_gerund] </li>
-    <li>schematic_desc_first->this [schematic_synonym] is [negative_adjective] in several places</li>
-    <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is incomplete</li>
-    <li>schematic_desc_first->[subject_primary_gerund] with these [schematic_synonyms]s is complicated by contradictory annotations</li>
-    <li>schematic_desc_first->the author's [negative_adjective] understanding of [subject_primary_gerund] is apparent throughout</li>
-    <li>schematic_desc_first->part of the [schematic_synonym] has been torn away</li>
-    <li>schematic_desc_first->fire and soot have marred the paper</li>
-    <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is too [negative_adjective]</li>
-    <li>schematic_desc_first->the limited [other_subject] for [subject_primary_gerund] compromised this [schematic_synonym]</li>
-    <li>schematic_desc_first->imprecise details about [subject_primary_gerund] make implementing this [schematic_synonym] difficult</li>
-    <li>schematic_desc_first->this [negative_adjective] [schematic_synonym] sometimes causes errors when [subject_primary_gerund]</li>
-    <li>schematic_desc_first->this [schematic_synonym] for [subject_primary_gerund] fails aesthetically</li>
-    <li>schematic_desc_first->a lack of imagination about [subject_primary_gerund] has limited this [schematic_synonym]</li>
-    <li>schematic_desc_first->this [schematic_container] provides many contradictory specifications for [subject_primary_gerund]</li>
-    <li>schematic_desc_first->disagreements over [other_subject] have left ambiguities in this [schematic_synonym] for [subject_primary_gerund]</li>
-    <li>schematic_desc_first->sloppy draftsmanship undermines the [author]'s meticulous plans for [subject_primary_gerund]</li>
-    <li>schematic_desc_first->worries about the [other_subject] for [subject_primary_gerund] limited this [schematic_synonym]</li>
-    <li>schematic_desc_first->this [schematic_synonym] for [subject_primary_gerund] has been copied repeatedly, obscuring its contents</li>
-    <li>schematic_desc_first->this [schematic_synonym] establishes no real connection between [subject_primary_gerund] and [subject_secondary_gerund]</li>
-    <li>schematic_desc_first->[subject_primary_gerund] and [subject_secondary_gerund] are not easily paired</li>
-    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_secondary_gerund]</li>
-    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_tertiary_gerund] and [subject_secondary_gerund]</li>
-    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_tertiary_gerund]</li>
-    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on  [subject_primary_gerund], [subject_secondary_gerund] and [subject_tertiary_gerund]</li>
-    <li>schematic_desc_second(quality[less_than]2)->. This is frustrating for those learning the subject</li>
-    <li>schematic_desc_second(quality[less_than]2)->, making it valueless for most purposes</li>
-    <li>schematic_desc_second(quality[less_than]2)->, undermining the lessons that it communicates</li>
-    <li>schematic_desc_second(quality[less_than]2)->. Only beginners will benefit from its lessons</li>
-    <li>schematic_desc_second(quality[less_than]2)->. A misleading schematic can be worse than having no schematic at all</li>
-    <li>schematic_desc_second(quality[less_than]2)->, rendering it of questionable utility</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, but the basics are present</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, but it still [contain_verb]s enough data to provide insights</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. However, this doesn't detract from its utility to experienced practitioners</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, though it still has some value to most students</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Beginners will still benefit from its teachings</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. However, only experts will notice the flaws</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. Yet, the content is exceptional for the era</li>
-    <li>schematic_desc_second(quality[greater_than]4)->, yet it conveys advanced concepts with ease</li>
-    <li>schematic_desc_second(quality[greater_than]4)->, but it is still full of wisdom for all learners</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. Despite this, every student will benefit from reading it, no matter how experienced.</li>
-    <li>schematic_desc_second(quality[greater_than]4)->, but the issues are minor compared to the wealth of knowledge it contains</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. However, the lessons it teaches are timeless</li>
-    <li>medium->An in-built sensory system [tells_verb]s to listeners [schematic_origin]</li>
-    <li>medium->Rolled inside is a sheaf of personal papers, [tells_verb]ing [schematic_origin]</li>
-    <li>medium->A sticker [tells_verb]s limited information about [schematic_origin]</li>
-    <li>medium->An included informational pamphlet [tells_verb]s [schematic_origin]</li>
-    <li>medium->Loose leaves of parchment [tells_verb] [schematic_origin]</li>
-    <li>medium->A second sheet of paper [tells_verb]s [schematic_origin]</li>
-    <li>medium->Inscribed stone tablets [tells_verb] [schematic_origin]</li>
-    <li>medium->A plasteel [schematic_container] is inscribed with [schematic_origin]</li>
-    <li>medium->A scrawled note falls out, which [tells_verb]s [schematic_origin]</li>
-    <li>medium->The rear of the document [tells_verb]s more about [schematic_origin]</li>
-    <li>medium->A recording plays, [tells_verb]ing [schematic_origin]</li>
-    <li>medium->[schematic_origin] would be a matter of conjecture, if not for notes on the document</li>
-    <li>medium(p=4)->[schematic_origin] is known but included in the document's notes</li>
-    <li>medium->An attached diary tells [schematic_origin]</li>
-    <li>medium->An archaic mechanism [tells_verb]s [schematic_origin]</li>
-    <li>medium->A miniature mechanoid whirrs into life, telling [schematic_origin]</li>
-    <li>tells_verb->tell</li>
-    <li>tells_verb->relay</li>
-    <li>tells_verb->recount</li>
-    <li>tells_verb->report</li>
-    <li>schematic_origin->the [notable_adjective] story of the schematic's creation</li>
-    <li>schematic_origin->how the author came to create the schematic</li>
-    <li>schematic_origin->the [notable_adjective] life of the schematic's author</li>
-    <li>schematic_origin->a story about this schematic's creation</li>
-    <li>schematic_origin->the origin of this [notable_adjective] diagram</li>
-    <li>schematic_origin->a [notable_adjective] tale about the author's life</li>
-    <li>schematic_origin->a rumor about why this [notable_adjective] document ended up on the Rim and who wrote it</li>
+    <li>schematic_desc_first->與現有系統相比，這裡描述的[subject_primary_gerund]古代技術是[negative_adjective]</li>
+    <li>schematic_desc_first->這只是[subject_primary_gerund]的完整[schematic_synonym]的一小部份</li>
+    <li>schematic_desc_first->這個[schematic_synonym]在好幾個地方都是[negative_adjective]</li>
+    <li>schematic_desc_first->這[subject_primary_gerund]的[schematic_synonym]是不完整的</li>
+    <li>schematic_desc_first->這些[subject_primary_gerund]的[schematic_synonym]因相互矛盾的註釋而變得複雜</li>
+    <li>schematic_desc_first->作者對[subject_primary_gerund]的理解自始至終都很明顯[negative_adjective]</li>
+    <li>schematic_desc_first->部份的[schematic_synonym]已被撕掉</li>
+    <li>schematic_desc_first->火和煤灰早已把紙張弄損了</li>
+    <li>schematic_desc_first->[subject_primary_gerund]的[schematic_synonym]太[negative_adjective]了</li>
+    <li>schematic_desc_first->[subject_primary_gerund]的有限[other_subject]損害了此 [schematic_synonym]</li>
+    <li>schematic_desc_first->有關[subject_primary_gerund]的細節不夠精確，使得實施此[schematic_synonym]變得困難</li>
+    <li>schematic_desc_first->此[negative_adjective][schematic_synonym]有時會導致在[subject_primary_gerund]的錯誤</li>
+    <li>schematic_desc_first->記載[subject_primary_gerund]的這個[schematic_synonym]非常難看</li>
+    <li>schematic_desc_first->對[subject_primary_gerund]缺乏想像力限制了這[schematic_synonym]</li>
+    <li>schematic_desc_first->這個[schematic_container]為[subject_primary_gerund]提供了許多相互矛盾的規範</li>
+    <li>schematic_desc_first->關於[other_subject]的分歧導致[subject_primary_gerund]的[schematic_synonym]內容模稜兩可</li>
+    <li>schematic_desc_first->草率的繪圖破壞了[author]對[subject_primary_gerund]的精心計畫</li>
+    <li>schematic_desc_first->對[subject_primary_gerund]的[other_subject]的擔憂限制了這個[schematic_synonym]</li>
+    <li>schematic_desc_first->[subject_primary_gerund]的這個[schematic_synonym]已被重複複製好幾次，其內容變得模糊了</li>
+    <li>schematic_desc_first->此[schematic_synonym]在[subject_primary_gerund]和[subject_secondary_gerund]之間沒有建立真正的聯繫</li>
+    <li>schematic_desc_first->[subject_primary_gerund]和[subject_secondary_gerund]不容易對上</li>
+    <li>schematic_desc_first->此[schematic_container]在[subject_primary_gerund]和[subject_secondary_gerund]都有[schematic_synonym]</li>
+    <li>schematic_desc_first->此[schematic_container]在[subject_tertiary_gerund]和[subject_secondary_gerund]都有[schematic_synonym]</li>
+    <li>schematic_desc_first->此[schematic_container]在[subject_primary_gerund]和[subject_tertiary_gerund]上都有[schematic_synonym]</li>
+    <li>schematic_desc_first->此[schematic_container]在[subject_primary_gerund]、[subject_secondary_gerund]和[subject_tertiary_gerund]上都有[schematic_synonym]</li>
+    <li>schematic_desc_second(quality[less_than]2)->。這對於學習該主題的人來說十分沮喪</li>
+    <li>schematic_desc_second(quality[less_than]2)->，使其對於大多數用途來說毫無價值</li>
+    <li>schematic_desc_second(quality[less_than]2)->，破壞了它所傳達的教訓</li>
+    <li>schematic_desc_second(quality[less_than]2)->。只有初學者才能從其教授中受益</li>
+    <li>schematic_desc_second(quality[less_than]2)->。令人誤導的圖紙可能比根本沒有圖紙更糟</li>
+    <li>schematic_desc_second(quality[less_than]2)->，使其實用性值得懷疑</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->，但基礎知識仍存在</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->，但它仍然[contain_verb]足夠的數據來提供見解</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->。然而，這並不影響它對經驗豐富的從業者的實用性</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->，儘管它對大多數學生仍然有一定的價值</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->。初學者仍然可以從其教學中受益</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->。然而，只有專家才會注意到其中的缺陷</li>
+    <li>schematic_desc_second(quality[greater_than]4)->。然而，其內容對於這個時代來說是特別的</li>
+    <li>schematic_desc_second(quality[greater_than]4)->，卻輕鬆傳達進階概念</li>
+    <li>schematic_desc_second(quality[greater_than]4)->，但對所有學習者來說仍然充滿智慧</li>
+    <li>schematic_desc_second(quality[greater_than]4)->。儘管如此，每個學生都會從閱讀它中受益，無論是否有經驗</li>
+    <li>schematic_desc_second(quality[greater_than]4)->，但與它所包含的知識財富相比，這些問題是次要的</li>
+    <li>schematic_desc_second(quality[greater_than]4)->。然而，它所教導的教訓是永恆的</li>
+    <li>medium->內建的感官系統[tells_verb]給聽眾[schematic_origin]</li>
+    <li>medium->裡面捲著一疊個人文件，[tells_verb]著[schematic_origin]</li>
+    <li>medium->[tells_verb]到有關[schematic_origin]的有限信息的一張貼紙</li>
+    <li>medium->[tells_verb][schematic_origin]隨附的資訊小冊子</li>
+    <li>medium->[tells_verb][schematic_origin]的鬆散的羊皮紙頁</li>
+    <li>medium->[tells_verb][schematic_origin]的第二張紙</li>
+    <li>medium->[tells_verb][schematic_origin]的刻字石碑</li>
+    <li>medium->刻有[schematic_origin]的塑鋼[schematic_container]</li>
+    <li>medium->一張潦草的字條掉了出來，[tells_verb]是[schematic_origin]</li>
+    <li>medium->文件的背面[tells_verb]更多關於[schematic_origin]</li>
+    <li>medium->播放一段錄音，[tells_verb]著[schematic_origin]</li>
+    <li>medium->如果沒有文檔上的註釋，[schematic_origin]將是一個猜測</li>
+    <li>medium(p=4)->[schematic_origin]已知但包含在文件的註解中</li>
+    <li>medium->隨附的日記講述了[schematic_origin]</li>
+    <li>medium->[tells_verb][schematic_origin]的古老的機制</li>
+    <li>medium->一個微型機械人嗡嗡地開始運作，講述著[schematic_origin]</li>
+    <li>tells_verb->告訴</li>
+    <li>tells_verb->傳達</li>
+    <li>tells_verb->敘事</li>
+    <li>tells_verb->報告</li>
+    <li>schematic_origin->這圖紙被創造的[notable_adjective]故事</li>
+    <li>schematic_origin->作者是如何創造圖紙的</li>
+    <li>schematic_origin->圖紙作者的[notable_adjective]生活</li>
+    <li>schematic_origin->關於此圖紙創作時的故事</li>
+    <li>schematic_origin->這個[notable_adjective]圖紙的起源</li>
+    <li>schematic_origin->關於作者生活的[notable_adjective]故事</li>
+    <li>schematic_origin->關於為什麼這份[notable_adjective]文件最終會出現在邊緣世界上以及是誰寫的謠言</li>
     <li>author_story->[author_storyname][author_intent]</li>
     <li>author_story->[author_storyname][learning_story]</li>
     <li>author_story->[author_storyname][calltoadventure]</li>
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
-    <li>author_storyname->the unnamed [authorTitle]</li>
-    <li>author_intent-> was hungry for knowledge about [subject] from a young age and questioned everyone in [ANYPAWN_possessive] hometown</li>
-    <li>author_intent-> dreamed of rejuvenating [subject] and leading a scientific revolution on Kuhn[worldname]</li>
-    <li>author_intent-> made [subject] [ANYPAWN_possessive] life's work</li>
-    <li>author_intent-> shared [ANYPAWN_possessive] views on [subject] in a [physical_adjective] book, written [written_when]</li>
-    <li>author_intent-> knew of no calling finer than the study of [subject] and created this schematic [written_when]</li>
-    <li>author_intent-> happened across the secrets of [subject] in [ANYPAWN_possessive] mother's [physical_adjective] study</li>
-    <li>author_intent-> was severely ill as a child but used the time to study [subject]</li>
-    <li>author_intent-> wanted the world to know about [subject] and, [written_when], created this schematic</li>
-    <li>author_intent-> needed the galaxy to know about [subject]</li>
-    <li>author_intent-> was lured into a love of [subject] by a children's book series</li>
-    <li>author_intent-> never loved the study of [subject] but was obliged to do it</li>
-    <li>author_intent-> felt [subject] was [ANYPAWN_possessive] calling</li>
-    <li>learning_story-> traveled far and wide, seeking wisdom about [subject]</li>
-    <li>learning_story-> lived an identical day every day, working on [subject] in the cyclical cities of [midworld]</li>
-    <li>learning_story-> came up through a [subject]-focused slumschool on [urbworld]</li>
-    <li>learning_story-> graduated with honors in [subject] from the [world-name] Academy </li>
-    <li>learning_story-> taught [ANYPAWN_objective]self about [subject] on the feral world of [animalworld]</li>
-    <li>learning_story-> discovered a trove of lost schematics about [subject] in the ruins of [ruinworld]</li>
-    <li>learning_story-> traversed the blackened streets of [steamworld], chasing [subject] amidst the sootfall</li>
-    <li>learning_story-> somehow survived the toxin swamps of [toxicworld], where rumors spread of [subject] experts</li>
-    <li>learning_story-> scoured the melted suburbs of the glassed world of [glassworld], searching for knowledge of [subject]</li>
-    <li>learning_story-> orbited the transcendent sphere of [transcendentworld], learning of [subject] by intercepting comms traffic</li>
-    <li>learning_story-> went with the mules into the depths of [mineworld], listening to old miners tell stories of [subject] and learning its secrets</li>
-    <li>learning_story-> was an indentured [subject] expert on the coreworld of [coreworld] </li>
-    <li>learning_story-> owned the factories on the indworld of [indworld], indulging [ANYPAWN_possessive] love of [subject] whilst [ANYPAWN_possessive] workers slaved away</li>
-    <li>learning_story-> learned about [subject] incarcerated in Cellcity V on [prisonworld], forever protesting [ANYPAWN_possessive] innocence</li>
-    <li>learning_story-> pieced together this [subject] schematic in the hive-heaps of the trashworld [trashworld], collecting fragments discarded by idle glitterworld citizens</li>
-    <li>learning_story-> raised cloned apatovores on [dinoworld] and traded their meat for knowledge of [subject]</li>
-    <li>learning_story-> lived in the skyrippers of [urbworld], where knowledge of [subject] was common</li>
-    <li>learning_story-> was raised in the outer deadlands of [ruinworld], learning [subject] to survive</li>
-    <li>calltoadventure-> felt [ANYPAWN_possessive] life was stagnant. Then one day, [ANYPAWN_pronoun] found [subject]</li>
-    <li>calltoadventure-> was entrusted with starting a new colony, on [ANYPAWN_possessive] own, focused on [subject]</li>
-    <li>calltoadventure->'s older sibling passed away, leaving [ANYPAWN_objective] as the family [subject] specialist</li>
-    <li>calltoadventure-> learned of an abandoned Glitterworld colony that focused on [subject]</li>
-    <li>calltoadventure-> was on a solar cruiser when it was captured by [feudalworld] pirates. As a [subject] expert, they ransomed him for a high price </li>
-    <li>calltoadventure-> was blown off course to the deadworld of [deadworld], where she learned about [subject]</li>
-    <li>calltoadventure-> discovered a data file about [subject] in a broken mechanoid and learned from it</li>
-    <li>calltoadventure-> followed a dirtmole down its burrow, where it taught [ANYPAWN_objective] about [subject]</li>
-    <li>calltoadventure-> was brought up by a [subject]-loving Yttakin clan on [iceworld]</li>
-    <li>calltoadventure-> was created by sanguophage cloners and found pleasure in [subject]</li>
-    <li>calltoadventure-> was raised on [warworld], escaping in a stolen cargo pod. The only reading for months was a [subject] manual</li>
-    <li>calltoadventure-> spent [ANYPAWN_possessive] lifetime travelling up through the layers of the shellworld [shellworld], chasing a malfunctioning [subject] mechanoid</li>
-    <li>calltoadventure-> escaped serfdom in the hamlets of [medievalworld] by stowing away on the starship of a trader who was an expert in [subject]</li>
-    <li>calltoadventure-> traveled to the rim and back, learning about [subject] on [rimworld]</li>
-    <li>calltoadventure-> sailed the seas of [oceanicworld], claiming to learn [subject] secrets from the living oceans themselves</li>
-    <li>calltoadventure-> was a zero-g scavenger across [worldname]'s asteroid belt, finding the secrets of [subject] on either [asteroid] A3 or [asteroid] 7DD</li>
-    <li>written_when-> the night before [ANYPAWN_possessive] execution</li>
-    <li>written_when-> in [ANYPAWN_possessive] early years</li>
-    <li>written_when-> during the Blue Period of [worldname]</li>
-    <li>written_when-> as part of [ANYPAWN_possessive] post-doctoral thesis</li>
-    <li>written_when-> in [ANYPAWN_possessive] wanderings across the rim</li>
-    <li>written_when-> in the ur-[worldname] clone facilities</li>
-    <li>written_when-> as the final part of the [notable_adjective] ka'[worldname] ritual</li>
-    <li>written_when-> idly, upon the back of a scrap of letter-scrip from [ANYPAWN_possessive] parents</li>
-    <li>written_when-> many years after they first conceived of it</li>
-    <li>written_when-> in [ANYPAWN_possessive] old age</li>
-    <li>written_when-> in the evenings, in time snatched from sleep</li>
-    <li>written_when-> when not caring for [ANYPAWN_possessive] children</li>
-    <li>written_when-> in a rush, on the way to the front</li>
-    <li>written_when-> at leisure, whilst sipping cooled drinks on [ANYPAWN_possessive] verandah</li>
-    <li>written_when-> at a young age, working alone while [ANYPAWN_possessive] peers played</li>
+    <li>author_storyname->未命名的[authorTitle]</li>
+    <li>author_intent->從小就對[subject]的知識如飢似渴，並對[ANYPAWN_possessive]家鄉的每個人都提出了質疑</li>
+    <li>author_intent->夢想復興[subject]並在庫恩[worldname]領導科學革命</li>
+    <li>author_intent->做了[subject][ANYPAWN_possessive]一生的工作</li>
+    <li>author_intent->在一本[physical_adjective]書中分享了對[subject]的[ANYPAWN_possessive]觀點，寫於[written_when]</li>
+    <li>author_intent->知道沒有什麼比研究[subject]更好的事情了，並在[written_when]留下了這個圖紙</li>
+    <li>author_intent->在[ANYPAWN_possessive]母親的[physical_adjective]研究中發現了[subject]的秘密</li>
+    <li>author_intent->小時候得了重病，但利用時間學習[subject]</li>
+    <li>author_intent->希望世界了解[subject]並且在[written_when]創造了這個圖紙</li>
+    <li>author_intent->需要銀河系知道[subject]</li>
+    <li>author_intent->被兒童讀物系列所吸引，而愛上了[subject]</li>
+    <li>author_intent->從來不喜歡研究[subject]，但不得不這樣做</li>
+    <li>author_intent->感覺[subject]是[ANYPAWN_possessive]使命</li>
+    <li>learning_story->走遍各地，尋求有關[subject]的智慧</li>
+    <li>learning_story->每天過著相同的一天，在[midworld]的循環城市中研究[subject]</li>
+    <li>learning_story->透過[urbworld]上的一所以[subject]為重點的貧民窟學校開始接觸</li>
+    <li>learning_story->以優異的成績從[worldname]的學院的[subject]學科畢業</li>
+    <li>learning_story->在[animalworld]的野生世界中自學有關[subject]的知識</li>
+    <li>learning_story->在[ruinworld]的廢墟中發現了一批關於[subject]的失傳圖紙</li>
+    <li>learning_story->穿過[steamworld]漆黑的街道，在煙塵之中追求[subject]的學識</li>
+    <li>learning_story->以某種方式從[toxicworld]的毒素沼澤中倖存下來，[subject]專家的謠言在那裡傳播</li>
+    <li>learning_story->在[glassworld]玻璃世界的融化郊區搜尋，尋找[subject]的知識</li>
+    <li>learning_story->圍繞著[transcendentworld]的超然球體運行，透過攔截通訊流量來學習[subject]</li>
+    <li>learning_story->跟著騾子深入[mineworld]深處，聽老礦工說[subject]的故事，了解它的秘密</li>
+    <li>learning_story->是[coreworld]核心世界的契約[subject]專家</li>
+    <li>learning_story->擁有[indworld]工業世界的工廠，沉迷於對[subject]的[ANYPAWN_possessive]熱愛，而[ANYPAWN_possessive]工人卻在苦苦勞作</li>
+    <li>learning_story->被囚禁在[prisonworld]的Cellcity V中學習[subject]，永遠為[ANYPAWN_possessive]無罪抗議</li>
+    <li>learning_story->在[trashworld]垃圾世界收集失業的閃耀世界公民丟棄的紙碎，在蜂巢堆中拼湊出這個[subject]圖紙</li>
+    <li>learning_story->在[dinoworld]上飼養複製阿帕托動物並用它們的肉換取[subject]的知識</li>
+    <li>learning_story->生活在[urbworld]的破天者中，在那裡，[subject]的知識很常見</li>
+    <li>learning_story->在[ruinworld]的外圍死地長大，學習[subject]求生</li>
+    <li>calltoadventure->感覺[ANYPAWN_possessive]生活停滯不前。然後有一天，[ANYPAWN_pronoun]發現了[subject]</li>
+    <li>calltoadventure->被委託以[ANYPAWN_possessive][subject]知識，自己建立一個新的殖民地</li>
+    <li>calltoadventure->的哥哥過世了，家族中剩下[ANYPAWN_objective]為[subject]專家</li>
+    <li>calltoadventure->了解到一個專注於[subject]的廢棄閃耀世界殖民地</li>
+    <li>calltoadventure->當一艘太陽巡洋艦被[feudalworld]海盜捕獲時，它正在其中。作為[subject]專家，他們高價贖回了他</li>
+    <li>calltoadventure->被風吹到了[deadworld]死亡世界，在那裡[ANYPAWN_pronoun]了解了[subject]</li>
+    <li>calltoadventure->在一個損壞的機械裝置中發現了一個關於[subject]的資料檔案並從中學習</li>
+    <li>calltoadventure->跟著一隻泥鼴人進入它的洞穴，它在那裡教授[ANYPAWN_objective]關於[subject]的知識</li>
+    <li>calltoadventure->由[iceworld]上熱愛[subject]的依達家族撫養長大</li>
+    <li>calltoadventure->是由噬血者複製體創造的，並在[subject]中找到樂趣</li>
+    <li>calltoadventure->在[warworld]中長大，乘坐被盜的貨艙逃跑。幾個月來唯一的閱讀內容是一本[subject]手冊</li>
+    <li>calltoadventure->花了[ANYPAWN_possessive]一生，穿越[shellworld]貝殼世界的各層，追逐一個發生故障的[subject]機械族</li>
+    <li>calltoadventure->透過偷偷乘坐一位精通[subject]的商人的星艦，逃離了[medievalworld]小村莊的農奴制</li>
+    <li>calltoadventure->前往邊緣並折返，在[rimworld]上了解[subject]</li>
+    <li>calltoadventure->航行於[oceanicworld]的海洋，聲稱從活生生的海洋本身中了解[subject]的秘密</li>
+    <li>calltoadventure->是穿越[worldname]小行星帶的零重力拾荒者，在[asteroid]A3或[asteroid]7DD上尋找[subject]的秘密</li>
+    <li>written_when->[ANYPAWN_possessive]受處決的前一天晚上</li>
+    <li>written_when->[ANYPAWN_possessive]早年</li>
+    <li>written_when->[worldname]的藍色時期</li>
+    <li>written_when->[ANYPAWN_possessive]博士後論文的一部分</li>
+    <li>written_when->徘徊在邊緣的時候</li>
+    <li>written_when->烏[worldname]複製人設施中</li>
+    <li>written_when->[notable_adjective]卡[worldname]儀式的最後一部分時</li>
+    <li>written_when->無所事事時，寫給[ANYPAWN_possessive]父母的一張信箋背面</li>
+    <li>written_when->他們第一次構思它之後很多年後</li>
+    <li>written_when->[ANYPAWN_possessive]年老時</li>
+    <li>written_when->晚上，從睡眠中抽出時間</li>
+    <li>written_when->不用照顧[ANYPAWN_possessive]孩子時</li>
+    <li>written_when->在前往前線的路上匆忙地</li>
+    <li>written_when->在[ANYPAWN_possessive]陽台上啜著冷飲，休閒地</li>
+    <li>written_when->年輕時，在[ANYPAWN_possessive]同齡人玩耍而自己獨自工作時</li>
     <li>subject_consequence(p=18)->[subject_primary_story]</li>
     <li>subject_consequence->[digression]</li>
-    <li>digression->At one point, the story veers into a confusing discussion about [digression_subject]</li>
-    <li>digression->The schematic's narrative loses its way here, digressing into [digression_subject]</li>
-    <li>digression->the [author] has inserted a footnote here, about [digression_subject]</li>
-    <li>digression->It is unclear why the story turns to [digression_subject]</li>
-    <li>digression->It is a surprise that the schematic [contain_verb]s information about [digression_subject]</li>
-    <li>digression->The section on [digression_subject] is irrelevant</li>
-    <li>digression_subject->love and war</li>
-    <li>digression_subject->interminable, increasingly minor political distinctions</li>
-    <li>digression_subject->Glitterworld cuisine trends</li>
-    <li>digression_subject->the fashion markets of [animalworld] and [urbworld]</li>
-    <li>digression_subject->scurrilous gossip about the widespread use of love enhancers</li>
-    <li>digression_subject->the military dispositions of the [glitterworld] fleet a century earlier</li>
-    <li>digression_subject->the mysterious coreworld relationships with supermassive black holes</li>
-    <li>digression_subject->the deadworld of [deadworld] and rumors of its fate</li>
-    <li>digression_subject->the species variants on the dinosaur planet of [dinoworld]</li>
-    <li>digression_subject->[ANYPAWN_possessive] experience of feudalism on [feudalworld]</li>
-    <li>digression_subject->the lack of microbes in the fallen cities of [glassworld]</li>
-    <li>digression_subject->the short lives of the paupers of [indworld]</li>
-    <li>digression_subject->the adaptations of hi-ruin scavengers in the post [worldname]-war urbworlds</li>
-    <li>digression_subject->neutroamine barter in the rich skyrippers of [coreworld]</li>
-    <li>aftermath->The pages communicate nothing more of the [author]'s story</li>
-    <li>aftermath->A [note] in a different hand says that the [author] was last seen heading for [deathworld]</li>
-    <li>aftermath->Pages are torn out here.</li>
-    <li>aftermath->The leaves are dotted with brown stains.</li>
-    <li>aftermath->Despite [ANYPAWN_possessive] adventures, [ANYPAWN_pronoun] managed to create this schematic</li>
-    <li>aftermath->[ANYPAWN_pronoun] devoted [ANYPAWN_possessive] last years to this schematic</li>
-    <li>aftermath->Later, [ANYPAWN_pronoun] found peace in this work. [subject_chat]</li>
-    <li>aftermath->[ANYPAWN_possessive] story ends here, with a technical description of [ANYPAWN_possessive] work on [worldname]. [subject_chat]</li>
-    <li>subject_chat->the [author]'s work proves [ANYPAWN_objective] authoritative on [subject]</li>
-    <li>subject_chat->Few dispute the findings in this [subject] document</li>
-    <li>subject_chat->This document will be inspirational to anyone interested in [subject]</li>
-    <li>subject_chat->Though the diagrams are faded, the [author]'s lessons on [subject] are valuable</li>
-    <li>linkage->this inspired [ANYPAWN_objective] and [ANYPAWN_pronoun] </li>
-    <li>linkage->this proved useful later when [ANYPAWN_pronoun] </li>
-    <li>linkage->using this knowledge, [ANYPAWN_pronoun] </li>
-    <li>linkage->[ANYPAWN_pronoun] found this useful when [ANYPAWN_pronoun] </li>
-    <li>linkage->that was why [ANYPAWN_pronoun] </li>
-    <li>linkage->on [worldname], [ANYPAWN_pronoun] used [ANYPAWN_possessive] insight and </li>
-    <li>linkage->to master it, [ANYPAWN_pronoun] traveled to [worldname] where [ANYPAWN_pronoun] </li>
-    <li>notable_adjective->famous</li>
-    <li>notable_adjective->obscure</li>
-    <li>notable_adjective->iconic</li>
-    <li>notable_adjective->classic</li>
-    <li>notable_adjective->common</li>
-    <li>notable_adjective->familiar</li>
-    <li>negative_adjective->rudimentary</li>
-    <li>negative_adjective->simplistic</li>
-    <li>negative_adjective->primitive</li>
-    <li>negative_adjective->mediocre</li>
-    <li>negative_adjective->inaccurate</li>
-    <li>negative_adjective->deficient</li>
+    <li>digression->在某一時刻，故事轉向了一場關於[digression_subject]的令人困惑的討論</li>
+    <li>digression->圖紙的敘述在這裡迷失了方向，扯到[digression_subject]</li>
+    <li>digression->[author]在這裡插入了一個腳註，關於[digression_subject]</li>
+    <li>digression->目前尚不清楚故事為何轉向[digression_subject]</li>
+    <li>digression->令人驚訝的是，圖紙[contain_verb]有關[digression_subject]的信息</li>
+    <li>digression->而[digression_subject]部分不相關</li>
+    <li>digression_subject->愛情和戰爭</li>
+    <li>digression_subject->無休無止、逐漸變多但無關痛癢的政治分歧</li>
+    <li>digression_subject->閃耀世界的美食趨勢</li>
+    <li>digression_subject->[animalworld]與[urbworld]的時尚市場</li>
+    <li>digression_subject->關於愛情增強劑廣泛使用的粗俗八卦</li>
+    <li>digression_subject->一個世紀前[glitterworld]艦隊的軍事部署</li>
+    <li>digression_subject->神秘的核心世界與超大質量黑洞的關係</li>
+    <li>digression_subject->[deadworld]死亡世界及其命運的謠言</li>
+    <li>digression_subject->[dinoworld]恐龍星球上的物種變體</li>
+    <li>digression_subject->[ANYPAWN_possessive]在[feudalworld]上的封建體驗</li>
+    <li>digression_subject->[glassworld]淪陷城市中缺乏微生物</li>
+    <li>digression_subject->[indworld]窮人的短暫生命</li>
+    <li>digression_subject->在[worldname]戰爭後的都市世界中高地廢墟拾荒者的適應力</li>
+    <li>digression_subject->[coreworld]中與富有的破天者以物易物換得中性胺的事</li>
+    <li>aftermath->這些頁面僅傳達[author]的故事</li>
+    <li>aftermath->另一張[note]寫著[author]最後一次被看到時正在前往[deathworld]</li>
+    <li>aftermath->這裡的頁面被撕掉了</li>
+    <li>aftermath->頁面上佈滿了棕色污漬</li>
+    <li>aftermath->儘管經歷了如此的冒險，[ANYPAWN_pronoun]還是成功地創作了這個圖紙</li>
+    <li>aftermath->[ANYPAWN_pronoun]晚年致力於創作此圖紙</li>
+    <li>aftermath->後來，[ANYPAWN_pronoun]在這項工作中找到了平靜。[subject_chat]</li>
+    <li>aftermath->[ANYPAWN_possessive]故事到此結束，並對[worldname]上的工作進行了技術描述。[subject_chat]</li>
+    <li>subject_chat->[author]的作品證明了[ANYPAWN_objective]對[subject]的權威</li>
+    <li>subject_chat->很少有人對這[subject]文件中的發現提出異議</li>
+    <li>subject_chat->這份文件將對任何對[subject]感興趣的人有所啟發</li>
+    <li>subject_chat->雖然裡面的圖示已經褪色，但[author]關於[subject]的課程仍很有價值</li>
+    <li>authorTitle->作者</li>
+    <li>authorTitle->抄寫員</li>
+    <li>authorTitle->作家</li>
+    <li>linkage->這啟發了[ANYPAWN_objective]和[ANYPAWN_pronoun]</li>
+    <li>linkage->後來證明這很有用，當[ANYPAWN_pronoun]</li>
+    <li>linkage->利用這些知識，[ANYPAWN_pronoun]</li>
+    <li>linkage->[ANYPAWN_pronoun]發現這很有用，當[ANYPAWN_pronoun]</li>
+    <li>linkage->這就是為什麼[ANYPAWN_pronoun]</li>
+    <li>linkage->在[worldname]上，[ANYPAWN_pronoun]使用了[ANYPAWN_possessive]洞察力和</li>
+    <li>linkage->為了掌握它，[ANYPAWN_pronoun]前往[worldname]，在那裡[ANYPAWN_pronoun]</li>
+    <li>notable_adjective->著名的</li>
+    <li>notable_adjective->無名的</li>
+    <li>notable_adjective->受歡迎的</li>
+    <li>notable_adjective->經典的</li>
+    <li>notable_adjective->常見的</li>
+    <li>notable_adjective->為人熟悉的</li>
+    <li>negative_adjective->初步的</li>
+    <li>negative_adjective->過分簡化的</li>
+    <li>negative_adjective->原始的</li>
+    <li>negative_adjective->平庸的</li>
+    <li>negative_adjective->不精確的</li>
+    <li>negative_adjective->不足的</li>
     <li>appearance(p=3)->[phys_desc]</li>
     <li>appearance->[nonphys_desc]</li>
     <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
     <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
     <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
     <li>phys_desc(p=2)->[physical_yet_statement]</li>
-    <li>phys_desc(quality[less_than]3)->this document [badsmells] of [stink]</li>
-    <li>phys_desc(quality[greater_than]4)->this document [smells] of [scent]</li>
+    <li>phys_desc(quality[less_than]3)->這份文件有[stink]的[badsmells]</li>
+    <li>phys_desc(quality[greater_than]4)->這份文件有[scent]的[smells]</li>
     <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
     <li>nonphys_desc->[technical_nonphys_desc]</li>
     <li>nonphys_desc->[academic_nonphys_desc]</li>
-    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] but [positive_physical_statement2]</li>
-    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] but [negative_physical_statement2]</li>
-    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] and [positive_physical_statement2]</li>
-    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Also, [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1]但[positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1]但[negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1]而且[positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]。另外，[negative_physical_statement2]</li>
     <li>negative_physical_statement->[negative_physical_statement1]</li>
     <li>negative_physical_statement->[negative_physical_statement2]</li>
-    <li>negative_physical_statement1->jagged tears mar the calfskin cover</li>
-    <li>negative_physical_statement1->one of the [author]'s pupils signed the front leaf</li>
-    <li>negative_physical_statement1->a sour-tasting ichor coats it</li>
-    <li>negative_physical_statement2->the decayed cover sticks to the reader's hands</li>
-    <li>negative_physical_statement2->maggots have made their home beneath the foolscap and flies flutter out as the book is opened</li>
-    <li>negative_physical_statement2->the pages appear to be written on crumbling parchment</li>
-    <li>negative_physical_statement2->the pages are saturated with red ink</li>
+    <li>negative_physical_statement1->鋸齒狀的淚痕破壞了牛皮封面</li>
+    <li>negative_physical_statement1->[author]的一名學生在前頁簽名</li>
+    <li>negative_physical_statement1->上面覆蓋著一層酸味的膿液</li>
+    <li>negative_physical_statement2->腐爛的封面黏著讀者的手</li>
+    <li>negative_physical_statement2->蛆蟲在傻瓜蓋下安了家，打開書時蒼蠅飛了出去</li>
+    <li>negative_physical_statement2->這些紙張似乎寫在破碎的羊皮紙上</li>
+    <li>negative_physical_statement2->紙張被紅色墨水浸透</li>
     <li>positive_physical_statement->[positive_physical_statement1]</li>
     <li>positive_physical_statement->[positive_physical_statement2]</li>
-    <li>positive_physical_statement1->inside the pages are pristine</li>
-    <li>positive_physical_statement1->the pages are composed of a thin plasteel derivative</li>
-    <li>positive_physical_statement1->each page is made of a flexible, diamond-like structure</li>
-    <li>positive_physical_statement1->it is warm to the touch</li>
-    <li>positive_physical_statement2->it bears the kitemark of a respected coreworld publishing house - [coreworld] Schematics</li>
-    <li>positive_physical_statement2->the edges of the page are still un-cut</li>
-    <li>positive_physical_statement2->semi-precious plastics glisten on its surface</li>
-    <li>otherwordly_nonphys_desc->holding the [author]'s schematic, the room swims</li>
-    <li>otherwordly_nonphys_desc->just looking at the schematic hurts the reader's head</li>
-    <li>otherwordly_nonphys_desc->looking at the schematic, the runes seem to move in the corner of the reader's eye</li>
-    <li>otherwordly_nonphys_desc->whispers permeate the area around the [author]'s schematic</li>
-    <li>otherwordly_nonphys_desc->the [author]'s schematic bears the psychic imprint of something impossibly ancient</li>
-    <li>technical_nonphys_desc->the complexity of the schematic is beyond the average reader</li>
-    <li>technical_nonphys_desc->the notation is unusual, drawn from an extinct Impid dialect</li>
-    <li>technical_nonphys_desc->wires run through the pages of the schematic, though the device is nearly defunct</li>
-    <li>technical_nonphys_desc->the same mechanism is explained by the [author] in three different languages</li>
-    <li>academic_nonphys_desc->this schematic is dedicated to a genie tutor who inspired the [author]</li>
-    <li>academic_nonphys_desc->this document is marked with the crest of the institution which sponsored the [author]</li>
-    <li>badsmells->smells heavily</li>
-    <li>badsmells->has the stench</li>
-    <li>badsmells->smells weakly</li>
-    <li>badsmells->reeks</li>
-    <li>badsmells->stinks</li>
-    <li>stink->corpse slime</li>
-    <li>stink->brimstone and rotten eggs</li>
-    <li>stink->slow, ancient death</li>
-    <li>stink->something akin to Yttakin sweat</li>
-    <li>stink->Waster breath</li>
-    <li>stink->a Hussar locker room</li>
-    <li>smells->has a heady scent</li>
-    <li>smells->has an odor</li>
-    <li>smells->has a perfume</li>
-    <li>smells->has an aroma</li>
-    <li>scent->must, like the bottom of a grape barrel</li>
-    <li>scent->Highmate pheromones</li>
-    <li>scent->frankincense</li>
-    <li>scent->sandalwood</li>
-    <li>scent->sweet boomrat juice</li>
-    <li>scent->Glitterworld spice</li>
-    <li>scent->fresh Gauranlen seeds</li>
-    <li>conjunction->and </li>
-    <li>conjunction->but </li>
-    <li>conjunction->yet </li>
-    <li>conjunction->though </li>
-    <li>conjunction->besides </li>
-    <li>conjunction->. In addition,</li>
-    <li>author(p=4)->author</li>
-    <li>author(p=4)->writer</li>
-    <li>author->inventor</li>
-    <li>author->creator</li>
-    <li>author(p=2)->developer</li>
-    <li>author(p=4)->designer</li>
-    <li>author->engineer</li>
-    <li>author->artificer</li>
-    <li>author->boffin</li>
-    <li>author->specialist</li>
-    <li>author->technician</li>
-    <li>author->expert</li>
-    <li>author->craftsman</li>
-    <li>anAuthorDesc(p=2)->a</li>
-    <li>anAuthorDesc->a young</li>
-    <li>anAuthorDesc->an old</li>
-    <li>anAuthorDesc->a terrified</li>
-    <li>anAuthorDesc->a sorrowful</li>
-    <li>anAuthorDesc->an elderly</li>
-    <li>anAuthorDesc->a wise</li>
-    <li>anAuthorDesc->a headstrong</li>
-    <li>anAuthorDesc->a foolish</li>
-    <li>anAuthorDesc->an innocent</li>
-    <li>anAuthorDesc->a disturbed</li>
-    <li>anAuthorDesc->an eldritch</li>
-    <li>anAuthorDesc->an outrageous</li>
-    <li>anAuthorDesc->an archetypal</li>
-    <li>anAuthorDesc->a boring</li>
-    <li>anAuthorDesc->a crazed</li>
-    <li>anAuthorDesc->an immoral</li>
-    <li>anAuthorDesc->a moral</li>
-    <li>anAuthorDesc->an amoral</li>
-    <li>anAuthorDesc->a shadowy</li>
+    <li>positive_physical_statement1->裡面的紙張仍是狀態良好的</li>
+    <li>positive_physical_statement1->這些紙張由薄塑鋼衍生物製造而成</li>
+    <li>positive_physical_statement1->每一頁都由彈性的鑽石形結構組成</li>
+    <li>positive_physical_statement1->摸起來很溫暖</li>
+    <li>positive_physical_statement2->它帶有受人尊敬的核心世界出版社的風箏標誌——[coreworld]圖紙</li>
+    <li>positive_physical_statement2->頁面的邊緣仍未被切割</li>
+    <li>positive_physical_statement2->半貴重塑膠表面閃閃發光</li>
+    <li>otherwordly_nonphys_desc->拿著[author]的圖紙時，房間在游泳</li>
+    <li>otherwordly_nonphys_desc->單是看著圖紙就讓讀者的頭昏腦脹</li>
+    <li>otherwordly_nonphys_desc->看著圖紙，符文似乎在讀者的眼角移動</li>
+    <li>otherwordly_nonphys_desc->竊竊私語瀰漫在[author]的圖紙周圍的區域</li>
+    <li>otherwordly_nonphys_desc->[author]的圖紙帶有某種不可思議的遠古的心靈印記</li>
+    <li>technical_nonphys_desc->圖紙的複雜性超出了一般讀者的理解範圍</li>
+    <li>technical_nonphys_desc->該符號很不尋常，源自於一種已滅絕的魔人方言</li>
+    <li>technical_nonphys_desc->儘管該設備幾乎報廢，但電線貫穿圖紙的頁面</li>
+    <li>technical_nonphys_desc->[author]用三種不同的語言解釋了相同的機制</li>
+    <li>academic_nonphys_desc->這圖紙獻給一位啟發了[author]的精靈人導師</li>
+    <li>academic_nonphys_desc->本文件標有贊助[author]的機構的徽章</li>
+    <li>badsmells->濃濃臭味</li>
+    <li>badsmells->惡臭</li>
+    <li>badsmells->微弱氣味</li>
+    <li>badsmells->難聞氣味</li>
+    <li>badsmells->異味</li>
+    <li>stink->屍體黏液</li>
+    <li>stink->硫磺和臭雞蛋</li>
+    <li>stink->慢慢滲出的遠古死亡</li>
+    <li>stink->類似依達人汗水</li>
+    <li>stink->荒地人口氣</li>
+    <li>stink->驃騎兵更衣室</li>
+    <li>smells->令人陶醉的氣味</li>
+    <li>smells->氣味</li>
+    <li>smells->香水味</li>
+    <li>smells->香氣</li>
+    <li>scent->像葡萄桶的底部</li>
+    <li>scent->高級信息素</li>
+    <li>scent->乳香</li>
+    <li>scent->檀香</li>
+    <li>scent->甜果汁</li>
+    <li>scent->閃耀世界香料</li>
+    <li>scent->新鮮的高嵐樹種子</li>
+    <li>conjunction->和</li>
+    <li>conjunction->但</li>
+    <li>conjunction->然而</li>
+    <li>conjunction->儘管</li>
+    <li>conjunction->除了</li>
+    <li>conjunction->。此外，</li>
+    <li>author(p=4)->作者</li>
+    <li>author(p=4)->作家</li>
+    <li>author->發明者</li>
+    <li>author->創造者</li>
+    <li>author(p=2)->開發商</li>
+    <li>author(p=4)->設計師</li>
+    <li>author->工程師</li>
+    <li>author->技師</li>
+    <li>author->科學家</li>
+    <li>author->專家</li>
+    <li>author->技術員</li>
+    <li>author->專家</li>
+    <li>author->工匠</li>
+    <li>anAuthorDesc(p=2)->一個</li>
+    <li>anAuthorDesc->一個年輕的</li>
+    <li>anAuthorDesc->一個舊的</li>
+    <li>anAuthorDesc->一個受驚的</li>
+    <li>anAuthorDesc->一個悲傷的</li>
+    <li>anAuthorDesc->一個年老的</li>
+    <li>anAuthorDesc->一個明智的</li>
+    <li>anAuthorDesc->一個任性的</li>
+    <li>anAuthorDesc->一個愚蠢的</li>
+    <li>anAuthorDesc->一個無辜的</li>
+    <li>anAuthorDesc->一個不安的</li>
+    <li>anAuthorDesc->一個可怕的</li>
+    <li>anAuthorDesc->一個令人髮指的</li>
+    <li>anAuthorDesc->一個典型的</li>
+    <li>anAuthorDesc->一個無聊的</li>
+    <li>anAuthorDesc->一個瘋狂的</li>
+    <li>anAuthorDesc->一個不道德的</li>
+    <li>anAuthorDesc->一個道德的</li>
+    <li>anAuthorDesc->一個不道德的</li>
+    <li>anAuthorDesc->一個陰暗的</li>
     <li>worldname->[glitterworld]</li>
     <li>worldname->[urbworld]</li>
     <li>worldname->[deadworld]</li>
@@ -1397,7 +1403,7 @@
     <li>worldname->[animalworld]</li>
     <li>feralworld->[animalworld]</li>
     <li>milworld->[warworld]</li>
-    <li>animalworld->Sorne</li>
+    <li>animalworld->索恩</li>
     <li>animalworld->Rhydell</li>
     <li>animalworld->Zoutera</li>
     <li>animalworld->Thylacine</li>
@@ -1572,113 +1578,113 @@
     <li>warworld->Punica</li>
     <li>warworld->Cimbria XII</li>
     <li>warworld->Barkitos</li>
-    <li>schematic_container->manual</li>
-    <li>schematic_container->compendium</li>
-    <li>schematic_container->binder</li>
-    <li>schematic_container->folder</li>
-    <li>schematic_container->booklet</li>
-    <li>schematic_container->wrapping</li>
-    <li>schematic_container->holder</li>
-    <li>schematic_container->bundle</li>
-    <li>schematic_container->dossier</li>
-    <li>schematic_container->packet</li>
-    <li>schematic_container->case</li>
-    <li>schematic_container->container</li>
-    <li>physical_adjective->grubby</li>
-    <li>physical_adjective->tiny</li>
-    <li>physical_adjective->rough</li>
-    <li>physical_adjective->huge</li>
-    <li>physical_adjective->elegant</li>
-    <li>physical_adjective->simple</li>
-    <li>physical_adjective->new</li>
-    <li>physical_adjective->delicate</li>
-    <li>physical_adjective->ancient</li>
-    <li>physical_adjective->abandoned</li>
-    <li>physical_adjective->damaged</li>
-    <li>physical_adjective->worn</li>
-    <li>physical_adjective->warped</li>
-    <li>physical_adjective->archaic</li>
-    <li>physical_adjective->greasy</li>
-    <li>physical_adjective->warm</li>
-    <li>physical_adjective->lumpen</li>
-    <li>physical_adjective->wooden</li>
-    <li>physical_adjective->prickly</li>
-    <li>physical_adjective->singed</li>
-    <li>physical_adjective->smooth</li>
-    <li>physical_adjective->rustic</li>
-    <li>physical_adjective->functional</li>
-    <li>physical_adjective->obsolete</li>
-    <li>physical_adjective->puzzling</li>
-    <li>physical_adjective->precious</li>
+    <li>schematic_container->指南</li>
+    <li>schematic_container->概要</li>
+    <li>schematic_container->活頁夾</li>
+    <li>schematic_container->資料夾</li>
+    <li>schematic_container->小冊子</li>
+    <li>schematic_container->包裹</li>
+    <li>schematic_container->袋子</li>
+    <li>schematic_container->捆</li>
+    <li>schematic_container->檔案</li>
+    <li>schematic_container->文件包</li>
+    <li>schematic_container->盒子</li>
+    <li>schematic_container->容器</li>
+    <li>physical_adjective->骯髒的</li>
+    <li>physical_adjective->微小的</li>
+    <li>physical_adjective->粗糙的</li>
+    <li>physical_adjective->巨大的</li>
+    <li>physical_adjective->優雅的</li>
+    <li>physical_adjective->簡單的</li>
+    <li>physical_adjective->新的</li>
+    <li>physical_adjective->精美的</li>
+    <li>physical_adjective->古老的</li>
+    <li>physical_adjective->被遺棄的</li>
+    <li>physical_adjective->損壞的</li>
+    <li>physical_adjective->磨損的</li>
+    <li>physical_adjective->扭曲的</li>
+    <li>physical_adjective->古老的</li>
+    <li>physical_adjective->油膩的</li>
+    <li>physical_adjective->溫暖的</li>
+    <li>physical_adjective->無知的</li>
+    <li>physical_adjective->木製的</li>
+    <li>physical_adjective->多刺的</li>
+    <li>physical_adjective->燒焦的</li>
+    <li>physical_adjective->光滑的</li>
+    <li>physical_adjective->鄉村的</li>
+    <li>physical_adjective->功能性的</li>
+    <li>physical_adjective->過時的</li>
+    <li>physical_adjective->令人費解的</li>
+    <li>physical_adjective->寶貴的</li>
     <li>shows_synonym_verb->[shows_synonym_verb1]</li>
     <li>shows_synonym_verb->[shows_synonym_verb2]</li>
-    <li>shows_synonym_verb1->depict</li>
-    <li>shows_synonym_verb1->portray</li>
-    <li>shows_synonym_verb1->present</li>
-    <li>shows_synonym_verb1->exhibit</li>
-    <li>shows_synonym_verb1->display</li>
-    <li>shows_synonym_verb2->show</li>
-    <li>shows_synonym_verb2->outline</li>
-    <li>shows_synonym_verb2->describe</li>
-    <li>contain_verb->contain</li>
-    <li>contain_verb->hold</li>
-    <li>contain_verb->bear</li>
-    <li>contain_verb->store</li>
-    <li>contain_verb->enclose</li>
-    <li>schematic_synonym->schematic</li>
-    <li>schematic_synonym->diagram</li>
-    <li>schematic_synonym->blueprint</li>
-    <li>schematic_synonym->design</li>
-    <li>schematic_synonym->prototype</li>
-    <li>schematic_synonym->product specification</li>
-    <li>schematic_synonym->instruction set</li>
-    <li>state_adjective->draft</li>
-    <li>state_adjective->finished</li>
-    <li>state_adjective->work-in-progress</li>
-    <li>state_adjective->complete</li>
-    <li>diagram_type->illustration</li>
-    <li>diagram_type->depiction</li>
-    <li>diagram_type->diagram</li>
-    <li>diagram_type->blueprint</li>
-    <li>diagram_type->infographic</li>
-    <li>diagram_type->schema</li>
-    <li>diagram_type->cutaway</li>
-    <li>diagram_type->graph</li>
-    <li>diagram_type->chart</li>
-    <li>theory_synonym_adj->theory</li>
-    <li>theory_synonym_adj->concept</li>
-    <li>theory_synonym_adj->notion</li>
-    <li>theory_synonym_adj->hypothesis</li>
-    <li>theory_synonym_adj->idea</li>
-    <li>device_synonym->mechanism</li>
-    <li>device_synonym->device</li>
-    <li>device_synonym->contrivance</li>
-    <li>device_synonym->invention</li>
-    <li>device_synonym->widget</li>
-    <li>device_synonym->creation</li>
-    <li>device_synonym->gadget</li>
-    <li>device_synonym->fixture</li>
-    <li>device_synonym->module</li>
-    <li>image_types->photographs</li>
-    <li>image_types->drawings</li>
-    <li>image_types->engravings</li>
-    <li>image_types->watercolors</li>
-    <li>image_types->blueprints</li>
-    <li>image_types->sketches</li>
-    <li>image_types->cartoons</li>
-    <li>other_subject->infrastructure</li>
-    <li>other_subject->personnel</li>
-    <li>other_subject->communication</li>
-    <li>other_subject->scope</li>
-    <li>other_subject->budget</li>
-    <li>other_subject->resources</li>
-    <li>dates->The schematic was published [date_form]</li>
-    <li>dates->The schematic was first printed [date_form]</li>
-    <li>dates->It's unclear exactly when the schematic was created</li>
-    <li>date_form->recently</li>
-    <li>date_form->many centuries ago</li>
-    <li>date_form->on the [date]</li>
-    <li>date_form->in [date_season]</li>
+    <li>shows_synonym_verb1->描繪</li>
+    <li>shows_synonym_verb1->寫真</li>
+    <li>shows_synonym_verb1->展示</li>
+    <li>shows_synonym_verb1->呈現</li>
+    <li>shows_synonym_verb1->顯示</li>
+    <li>shows_synonym_verb2->演示</li>
+    <li>shows_synonym_verb2->概述</li>
+    <li>shows_synonym_verb2->描述</li>
+    <li>contain_verb->包含</li>
+    <li>contain_verb->裝著</li>
+    <li>contain_verb->帶有</li>
+    <li>contain_verb->儲存</li>
+    <li>contain_verb->包住</li>
+    <li>schematic_synonym->圖紙</li>
+    <li>schematic_synonym->圖示</li>
+    <li>schematic_synonym->藍圖</li>
+    <li>schematic_synonym->設計</li>
+    <li>schematic_synonym->原型</li>
+    <li>schematic_synonym->產品規格</li>
+    <li>schematic_synonym->指引</li>
+    <li>state_adjective->草稿的</li>
+    <li>state_adjective->完成的</li>
+    <li>state_adjective->半完成的</li>
+    <li>state_adjective->完結的</li>
+    <li>diagram_type->插畫</li>
+    <li>diagram_type->描寫</li>
+    <li>diagram_type->圖示</li>
+    <li>diagram_type->藍圖</li>
+    <li>diagram_type->資訊圖表</li>
+    <li>diagram_type->圖解</li>
+    <li>diagram_type->剖面圖</li>
+    <li>diagram_type->圖形</li>
+    <li>diagram_type->圖表</li>
+    <li>theory_synonym_adj->理論</li>
+    <li>theory_synonym_adj->概念</li>
+    <li>theory_synonym_adj->概念</li>
+    <li>theory_synonym_adj->假設</li>
+    <li>theory_synonym_adj->主意</li>
+    <li>device_synonym->機制</li>
+    <li>device_synonym->裝置</li>
+    <li>device_synonym->發明</li>
+    <li>device_synonym->發明</li>
+    <li>device_synonym->小部件</li>
+    <li>device_synonym->創建</li>
+    <li>device_synonym->小工具</li>
+    <li>device_synonym->夾具</li>
+    <li>device_synonym->模組</li>
+    <li>image_types->照片</li>
+    <li>image_types->圖紙</li>
+    <li>image_types->版畫</li>
+    <li>image_types->水彩畫</li>
+    <li>image_types->藍圖</li>
+    <li>image_types->草圖</li>
+    <li>image_types->卡通</li>
+    <li>other_subject->基建</li>
+    <li>other_subject->人員</li>
+    <li>other_subject->溝通</li>
+    <li>other_subject->範圍</li>
+    <li>other_subject->預算</li>
+    <li>other_subject->資源</li>
+    <li>dates->圖紙是[date_form]發布的</li>
+    <li>dates->圖紙是[date_form]首次列印的</li>
+    <li>dates->不清楚圖紙的確切創作時間</li>
+    <li>date_form->最近</li>
+    <li>date_form->許多世紀前</li>
+    <li>date_form->在[date]</li>
+    <li>date_form->在[date_season]</li>
   </Description_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
@@ -1704,10 +1710,10 @@
     <li>detail->. The author's rhetoric in the [precis_synonym] does not distract from the core concepts</li>
     <li>production->The [precis_synonym] says that this was printed by hand on [worldname]</li>
     <li>production->The [precis_synonym] says that the University of [worldname] made this a set text</li>
-    <li>production->The [precis_synonym] says that, though these notes were made for [ANYPAWN_label]'s personal use, they have been widely shared[maybe_detail]</li>
+    <li>production->The [precis_synonym] says that, though these notes were made for [ANYPAWN_label]'s personal use, they have been widely shared</li>
     <li>production->The useful parts of this [textbook] are hidden among the biographical details</li>
     <li>production->A handwritten [note] on the [note_location] says that the [worldname] print-house shut down after the [worldname] Riots, so these later editions are rare</li>
-    <li>production->A inscribed [note] says that most copies of this [textbook] were lost during the [worldname] Incident</li>
+    <li>production->An inscribed [note] says that most copies of this [textbook] were lost during the [worldname] Incident</li>
     <li>production->The [precis_synonym] makes clear that readers with knowledge of archotech information dissemination techniques tend to avoid this [textbook] series - but not why</li>
     <li>production->From the [note_location], it is clear that the [subject] proselytes of [worldname] spent a fortune printing copies of this book, and then having it widely distributed</li>
     <li>production->The [note_location] explains that the early copies of this book were handwritten by [ANYPAWN_label] [ANYPAWN_objective]self</li>
@@ -1827,7 +1833,7 @@
     <li>page_decent->are in a decent condition</li>
     <li>page_decent->are legible, if crumpled</li>
     <li>page_decent->are perfectly readable</li>
-    <li>page_decent->are decent, if slightly scored </li>
+    <li>page_decent->are decent, if slightly scored</li>
     <li>page_awful->appear to be written on crumbling parchment</li>
     <li>page_awful->are badly damaged</li>
     <li>page_awful->are stained with a dark substance</li>
@@ -1917,7 +1923,7 @@
     <li>glassworld->Shechem</li>
     <li>glassworld->Yelhazor</li>
     <li>glitterworld->Kalthas IV</li>
-    <li>glitterworld->Amen-Ti	</li>
+    <li>glitterworld->Amen-Ti</li>
     <li>glitterworld->Sophiamunda </li>
     <li>glitterworld->Rogia</li>
     <li>glitterworld->Utmaior</li>
@@ -2038,156 +2044,156 @@
   -->
   <Description_SkillBook.rulePack.rulesStrings>
     <li>subject->[subject_primary]</li>
-    <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
-    <li>discussion->This [textbook] provides [useful_information] about [subject][detail]</li>
-    <li>discussion->This [textbook] establishes the author's authority on the subject of [subject][detail]</li>
-    <li>discussion->Those seeking [understanding_synonym] [subject] head to this [notable_adjective] [textbook][detail]</li>
-    <li>discussion->A standardized [textbook] on [subject][detail]</li>
-    <li>discussion->An early edition of the author's [textbook] on [subject][detail]</li>
-    <li>detail->. The [precis_synonym] focuses on the more skilled aspects of the subject</li>
-    <li>detail->. It is a succinct [precis_synonym] of a complex subject</li>
-    <li>detail->. The [precis_synonym] says that, when [ANYPAWN_label] wrote this, it was the cutting edge in the field</li>
-    <li>detail->. A quote on the [note_location] says, 'True [students] of [subject] cannot ignore [ANYPAWN_label]'s book'</li>
-    <li>students->students</li>
-    <li>students->lovers</li>
-    <li>students->practitioners</li>
-    <li>detail->. It takes you through the subject step-by-step</li>
-    <li>detail(quality[less_than]4)->, even though the author rushes through the subject</li>
-    <li>detail(quality[greater_than]3)->. It is a comprehensive treatment of the subject</li>
-    <li>detail->. The author claims in [ANYPAWN_possessive] [precis_synonym] that fraudulent copies of this book exist but that this is not one</li>
-    <li>detail(quality[less_than]4)->, though perhaps the attempt to communicate its ideas through an imagined dialogue was a mistake</li>
-    <li>detail->. The author's rhetoric in the [precis_synonym] does not distract from the core concepts</li>
-    <li>production->The [precis_synonym] says that this was printed by hand on [worldname]</li>
-    <li>production->The [precis_synonym] says that the University of [worldname] made this a set text</li>
-    <li>production->The [precis_synonym] says that, though these notes were made for [ANYPAWN_label]'s personal use, they have been widely shared[maybe_detail]</li>
-    <li>production->The useful parts of this [textbook] are hidden among the biographical details</li>
-    <li>production->A handwritten [note] on the [note_location] says that the [worldname] print-house shut down after the [worldname] Riots, so these later editions are rare</li>
-    <li>production->A inscribed [note] says that most copies of this [textbook] were lost during the [worldname] Incident</li>
-    <li>production->The [precis_synonym] makes clear that readers with knowledge of archotech information dissemination techniques tend to avoid this [textbook] series - but not why</li>
-    <li>production->From the [note_location], it is clear that the [subject] proselytes of [worldname] spent a fortune printing copies of this book, and then having it widely distributed</li>
-    <li>production->The [note_location] explains that the early copies of this book were handwritten by [ANYPAWN_label] [ANYPAWN_objective]self</li>
-    <li>production->The Duchess of [worldname] sponsored this [textbook], with the condition that it be freely available</li>
-    <li>production->A note says that a subscription of the booksellers of [coreworld] produced the first edition of this [textbook]</li>
-    <li>production->At the book's rear, the publisher advertises a larger series that tackles all subjects necessary for survival on the rim</li>
-    <li>production->The publishers perhaps could have been more forthright in their editorial duties, given the sloppy grammar</li>
-    <li>quality_statement->[exterior_quality] [page_quality]</li>
-    <li>anecdote->Given the large gap between [ANYPAWN_nameFull]'s birth year and the publication date of this book, it is unlikely that [ANYPAWN_pronoun] lived to see this published</li>
-    <li>anecdote->On the [note_location], someone has pasted an excoriating review of the book</li>
-    <li>anecdote->The [precis_synonym] indicates that this book passed through the public library system of [urbworld]</li>
-    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was known for being a master of many subjects</li>
-    <li>anecdote->According to the [note_location], the people of [worldname] still talk of [ANYPAWN_nameFull] and reminisce about [ANYPAWN_possessive] love of [subject]</li>
-    <li>anecdote->According to the [note_location], a freak entanglement accident killed the author, [ANYPAWN_nameFull], shortly after publication</li>
-    <li>anecdote->According to the [precis_synonym], [ANYPAWN_nameFull] spent [ANYPAWN_possessive] days teaching in the academy on [coreworld]. This book is taken from [ANYPAWN_possessive] lectures</li>
-    <li>anecdote->According to the [precis_synonym], [ANYPAWN_nameFull]'s knowledge of [subject] was so renowned that people would stop [ANYPAWN_objective] in the street to question [ANYPAWN_objective] about it</li>
-    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was impoverished and sold the rights to this series for very little</li>
-    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was blind from birth, so never saw [ANYPAWN_possessive] book</li>
-    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull]'s first draft of the textbook infamously featured fifty pages of digression. It was cut for the second edition</li>
-    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull]'s reputation was so terrible that [ANYPAWN_pronoun] published this book under a pseudonym</li>
-    <li>anecdote->According to the [note_location], as a child, [ANYPAWN_nameFull] was so idle that [ANYPAWN_possessive] parents despaired. This textbook is a vindication of [ANYPAWN_possessive] skill</li>
-    <li>anecdote->According to the [precis_synonym], it was during [ANYPAWN_nameFull]'s fourth marriage that [ANYPAWN_pronoun] conceived of a textbook on [subject]. (This led to [ANYPAWN_possessive] fourth divorce)</li>
-    <li>textbook->primer</li>
-    <li>textbook->manual</li>
-    <li>textbook->textbook</li>
-    <li>textbook(p=6)->book</li>
-    <li>textbook->workbook</li>
-    <li>textbook->reference book</li>
-    <li>textbook->compendium</li>
-    <li>textbook->guidebook</li>
-    <li>textbook->booklet</li>
-    <li>textbook->syllabus</li>
-    <li>textbook->coursebook</li>
-    <li>textbook->reference book</li>
-    <li>textbook->school book</li>
-    <li>textbook->encyclopedia</li>
-    <li>textbook->handbook</li>
-    <li>textbook->tradebook</li>
-    <li>textbook->work</li>
-    <li>precis_synonym->précis</li>
-    <li>precis_synonym->frontispiece</li>
-    <li>precis_synonym->abstract</li>
-    <li>precis_synonym->synopsis</li>
-    <li>precis_synonym->outline</li>
-    <li>precis_synonym->digest</li>
-    <li>note_location->front cover</li>
-    <li>note_location->back cover</li>
-    <li>note_location->front flap</li>
-    <li>note_location->back flap</li>
-    <li>note_location->first page</li>
-    <li>note_location->last page</li>
-    <li>note_location->margins</li>
-    <li>note_location->title page</li>
-    <li>note_location->footnote</li>
-    <li>note_location->endnote</li>
-    <li>note_location->author's biography</li>
-    <li>note_location->shipping label</li>
-    <li>note->note</li>
-    <li>note->addendum</li>
-    <li>note->postscript</li>
-    <li>note->afterword</li>
-    <li>note->appendix</li>
-    <li>note->coda</li>
-    <li>note->footnote</li>
-    <li>note->endnote</li>
-    <li>useful_information->useful tidbits of information</li>
-    <li>useful_information->useful information</li>
-    <li>useful_information->interesting facts</li>
-    <li>useful_information->valuable insights</li>
-    <li>useful_information->practical insights</li>
-    <li>useful_information->helpful tips</li>
-    <li>useful_information->informative details</li>
-    <li>understanding_synonym->knowledge of</li>
-    <li>understanding_synonym->self-improvement in</li>
-    <li>understanding_synonym->an understanding of</li>
-    <li>understanding_synonym->scholarship in</li>
-    <li>understanding_synonym->erudition in</li>
-    <li>understanding_synonym->expertise in</li>
-    <li>understanding_synonym->a philosophy of</li>
-    <li>understanding_synonym->the ethics of</li>
-    <li>notable_adjective->famous</li>
-    <li>notable_adjective->obscure</li>
-    <li>notable_adjective->iconic</li>
-    <li>notable_adjective->classic</li>
-    <li>notable_adjective->common</li>
-    <li>notable_adjective->familiar</li>
-    <li>notable_adjective->timeless</li>
-    <li>notable_adjective->lopsided</li>
-    <li>notable_adjective->harmonious</li>
-    <li>notable_adjective->elegant</li>
-    <li>notable_adjective->simple</li>
-    <li>notable_adjective->functional</li>
-    <li>notable_adjective->urbworld</li>
-    <li>notable_adjective->Glitterworld</li>
-    <li>notable_adjective->primitive</li>
-    <li>notable_adjective->decorative</li>
-    <li>exterior_quality(quality[greater_than]4)->The exterior of this book is finely bound and</li>
-    <li>exterior_quality(quality[greater_than]4)->A masterpiece of the printer's art, this book shines and</li>
-    <li>exterior_quality(quality[greater_than]4)->Its leather cover is rough yet</li>
-    <li>exterior_quality(quality[greater_than]4)->Though the cover is very plain,</li>
-    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->This textbook has seen better days, but</li>
-    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Despite being a second-hand schoolbook,</li>
-    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->This book has had many owners, but</li>
-    <li>exterior_quality(quality[less_than]2)->The front of this book seems attractive but</li>
-    <li>exterior_quality(quality[less_than]2)->Someone has torn away the first third of the book and</li>
-    <li>exterior_quality(quality[less_than]2)->The cover is soaked in a strong-smelling liquid and</li>
-    <li>exterior_quality(quality[less_than]2)->At first sight nothing is wrong with the book, but</li>
-    <li>page_quality->the pages [page_condition]</li>
+    <li>desc->[discussion]。\n\n[anecdote]。[production]。\n\n[quality_statement]。</li>
+    <li>discussion->這本[textbook]記載關於[subject]的[useful_information][detail]</li>
+    <li>discussion->這本[textbook]確立了作者在[subject][detail]範疇的權威</li>
+    <li>discussion->那些尋找[subject][understanding_synonym]的人都讀過這本[notable_adjective][textbook][detail]</li>
+    <li>discussion->一本平平無奇的[textbook]記載著[subject][detail]</li>
+    <li>discussion->一本記載著[subject]的初版[textbook][detail]</li>
+    <li>detail->。其[precis_synonym]集中描述其主題的實用技巧</li>
+    <li>detail->。這是一門複雜主題的[precis_synonym]</li>
+    <li>detail->。[precis_synonym]提到，在[ANYPAWN_label]下筆的時候，其內容在該範疇是最尖端的知識</li>
+    <li>detail->。在[note_location]上有一句話，「真正的[subject][students]絕不能忽略[ANYPAWN_label]的書」</li>
+    <li>students->學生</li>
+    <li>students->愛好者</li>
+    <li>students->從業人員</li>
+    <li>detail->。它會循序漸進地帶你領悟其主題</li>
+    <li>detail(quality[less_than]4)->，雖然作者在其主題上只是蜻蜓點水</li>
+    <li>detail(quality[greater_than]3)->。它對整合濃縮了主題的精華</li>
+    <li>detail->。作者在[ANYPAWN_possessive][precis_synonym]提到雖然世上有無數偽冒的複本，但這本絕對是正版</li>
+    <li>detail(quality[less_than]4)->，雖然試圖利用文字代替言語來傳達其想法是一項錯誤</li>
+    <li>detail->。作者在[precis_synonym]的誇張用字並不影響表達其核心概念</li>
+    <li>production->其[precis_synonym]提到這是在[worldname]上人手印刷的</li>
+    <li>production->其[precis_synonym]提到[worldname]的一所大學將它納入必修教材當中</li>
+    <li>production->其[precis_synonym]提到，雖然這些資料本來是給[ANYPAWN_label]作個人筆記之用，但受人廣為流傳</li>
+    <li>production->這本[textbook]的有用部分隱藏在生平簡介中</li>
+    <li>production->[note_location]上的手寫[note]表明[worldname]印刷廠在[worldname]騷亂後關閉，因此這些後來的版本很少見</li>
+    <li>production->刻有的[note]說這本[textbook]的大部分副本在[worldname]事件期間丟失了</li>
+    <li>production->[precis_synonym]清楚地表明，了解遠古科技資訊傳播技術的讀者傾向於避開這個[textbook]系列——但沒說為什麼</li>
+    <li>production->從[note_location]可以明顯看出，[worldname]的[subject]信眾花了巨資印刷了這本書，然後廣泛分發</li>
+    <li>production->[note_location]解釋這本書的早期版本是由[ANYPAWN_label][ANYPAWN_objective]自己手寫的</li>
+    <li>production->[worldname]的公爵夫人贊助了這本[textbook]，條件是免費派發</li>
+    <li>production->註釋說，[coreworld]書商的訂閱製作了這本[textbook]的第一版</li>
+    <li>production->在這本書的後面，出版商宣傳了一個更大的系列，涵蓋了在邊緣生存所需的所有主題</li>
+    <li>production->看到裡面雜亂的文法，出版商也許可以更加率直地履行編輯職責</li>
+    <li>quality_statement->[exterior_quality][page_quality]</li>
+    <li>anecdote->鑑於[ANYPAWN_nameFull]的出生年份與本書的出版日期之間存在巨大差距，[ANYPAWN_pronoun]不太可能活著看到這本書出版</li>
+    <li>anecdote->在[note_location]上，有人貼上了對此書的嚴厲評論</li>
+    <li>anecdote->[precis_synonym]顯示這本書通過了[urbworld]的公共圖書館系統</li>
+    <li>anecdote->根據 [note_location]，[ANYPAWN_nameFull] 因精通多種學科而聞名</li>
+    <li>anecdote->根據[note_location]，[worldname]的人們仍在談論[ANYPAWN_nameFull]並回憶起[ANYPAWN_possessive]對[subject]的愛</li>
+    <li>anecdote->據[note_location]寫到，出版後不久，作者[ANYPAWN_nameFull]因一場不尋常的糾纏事故而喪生</li>
+    <li>anecdote->根據[precis_synonym]，[ANYPAWN_nameFull]在[coreworld]的學院裡整天都在教課。本書內容摘自[ANYPAWN_possessive]講座</li>
+    <li>anecdote->根據[precis_synonym]，[ANYPAWN_nameFull]對[subject]的了解非常有名，以至於人們會在街上叫停[ANYPAWN_objective]來詢問相關問題</li>
+    <li>anecdote->根據[note_location]，[ANYPAWN_nameFull]窮困潦倒，以極低的價格出售了該系列的版權</li>
+    <li>anecdote->根據[note_location]，[ANYPAWN_nameFull]從出生起就失明，因此從未親眼目睹[ANYPAWN_possessive]書</li>
+    <li>anecdote->根據[note_location]，[ANYPAWN_nameFull]的教科書初稿因有長達五十頁的離題而臭名昭著。接著第二版就被刪減了</li>
+    <li>anecdote->根據[note_location]，[ANYPAWN_nameFull]的聲譽非常糟糕，以至於[ANYPAWN_pronoun]以筆名出版了這本書</li>
+    <li>anecdote->根據[note_location]，[ANYPAWN_nameFull]在兒時無所事事，以至於[ANYPAWN_possessive]父母感到絕望。而這本教科書是[ANYPAWN_possessive]技能的證明</li>
+    <li>anecdote->根據[precis_synonym]，[ANYPAWN_nameFull]第四次婚姻期間，[ANYPAWN_pronoun]構思了一本關於[subject]的教科書。(這導致了[ANYPAWN_possessive]第四次離婚)</li>
+    <li>textbook->入門書</li>
+    <li>textbook->指南</li>
+    <li>textbook->教科書</li>
+    <li>textbook(p=6)->書</li>
+    <li>textbook->作業簿</li>
+    <li>textbook->參考書</li>
+    <li>textbook->概要</li>
+    <li>textbook->指南</li>
+    <li>textbook->小冊子</li>
+    <li>textbook->教學大綱</li>
+    <li>textbook->課本</li>
+    <li>textbook->參考書</li>
+    <li>textbook->教科書</li>
+    <li>textbook->百科全書</li>
+    <li>textbook->手冊</li>
+    <li>textbook->貿易手冊</li>
+    <li>textbook->著作</li>
+    <li>precis_synonym->概要</li>
+    <li>precis_synonym->卷首插畫</li>
+    <li>precis_synonym->摘要</li>
+    <li>precis_synonym->提要</li>
+    <li>precis_synonym->大綱</li>
+    <li>precis_synonym->文摘</li>
+    <li>note_location->封面</li>
+    <li>note_location->封底</li>
+    <li>note_location->前蓋</li>
+    <li>note_location->後蓋</li>
+    <li>note_location->第一頁</li>
+    <li>note_location->最後一頁</li>
+    <li>note_location->頁邊</li>
+    <li>note_location->標題頁</li>
+    <li>note_location->註腳</li>
+    <li>note_location->尾註</li>
+    <li>note_location->作者簡介</li>
+    <li>note_location->運輸標籤</li>
+    <li>note->筆記</li>
+    <li>note->附錄</li>
+    <li>note->附言</li>
+    <li>note->後記</li>
+    <li>note->附錄</li>
+    <li>note->結尾</li>
+    <li>note->註腳</li>
+    <li>note->尾註</li>
+    <li>useful_information->有用的花絮訊息</li>
+    <li>useful_information->有用的信息</li>
+    <li>useful_information->有趣的事實</li>
+    <li>useful_information->有價值的見解</li>
+    <li>useful_information->實際見解</li>
+    <li>useful_information->有用的提示</li>
+    <li>useful_information->資訊豐富的細節</li>
+    <li>understanding_synonym->的知識</li>
+    <li>understanding_synonym->的自我提升</li>
+    <li>understanding_synonym->的理解</li>
+    <li>understanding_synonym->的學問</li>
+    <li>understanding_synonym->的睿智</li>
+    <li>understanding_synonym->的專業知識</li>
+    <li>understanding_synonym->的哲學</li>
+    <li>understanding_synonym->的道德</li>
+    <li>notable_adjective->著名的</li>
+    <li>notable_adjective->默默無聞的</li>
+    <li>notable_adjective->標誌性的</li>
+    <li>notable_adjective->經典的</li>
+    <li>notable_adjective->常見的</li>
+    <li>notable_adjective->熟悉的</li>
+    <li>notable_adjective->永恆的</li>
+    <li>notable_adjective->片面的</li>
+    <li>notable_adjective->和諧的</li>
+    <li>notable_adjective->優雅的</li>
+    <li>notable_adjective->簡單的</li>
+    <li>notable_adjective->功能性的</li>
+    <li>notable_adjective->都市世界的</li>
+    <li>notable_adjective->閃耀世界的</li>
+    <li>notable_adjective->原始的</li>
+    <li>notable_adjective->裝飾性的</li>
+    <li>exterior_quality(quality[greater_than]4)->這本書的封面裝幀精美且</li>
+    <li>exterior_quality(quality[greater_than]4)->這本書是印刷藝術的傑作，光芒四射且</li>
+    <li>exterior_quality(quality[greater_than]4)->它的皮套很粗糙但</li>
+    <li>exterior_quality(quality[greater_than]4)->雖然封面很樸素，</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->這本教科書已經過時了，但是</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->儘管是二手教科書，</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->這本書有很多擁有者，但是</li>
+    <li>exterior_quality(quality[less_than]2)->這本書的封面看起來很吸引人，但是</li>
+    <li>exterior_quality(quality[less_than]2)->有人撕掉了這本書的前三分之一而</li>
+    <li>exterior_quality(quality[less_than]2)->蓋子浸在有強烈氣味的液體中，</li>
+    <li>exterior_quality(quality[less_than]2)->乍看這本書沒有什麼問題，但是</li>
+    <li>page_quality->紙張[page_condition]</li>
     <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
     <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>
     <li>page_condition(quality[less_than]2)->[page_awful]</li>
-    <li>page_excellent->are in amazing condition, as if never touched</li>
-    <li>page_excellent->are in great condition</li>
-    <li>page_excellent->are pristine</li>
-    <li>page_excellent->are bright and clean</li>
-    <li>page_excellent->are uniquely well-preserved</li>
-    <li>page_decent->are in a decent condition</li>
-    <li>page_decent->are legible, if crumpled</li>
-    <li>page_decent->are perfectly readable</li>
-    <li>page_decent->are decent, if slightly scored </li>
-    <li>page_awful->appear to be written on crumbling parchment</li>
-    <li>page_awful->are badly damaged</li>
-    <li>page_awful->are stained with a dark substance</li>
-    <li>page_awful->are illegible</li>
-    <li>page_awful->have been annotated in an unreadable hand</li>
+    <li>page_excellent->狀態極佳，就好像從未被碰過一樣</li>
+    <li>page_excellent->狀況良好</li>
+    <li>page_excellent->是原始的</li>
+    <li>page_excellent->明亮乾淨</li>
+    <li>page_excellent->保存得非常完好</li>
+    <li>page_decent->狀況良好</li>
+    <li>page_decent->清晰可辨，只是皺巴巴的</li>
+    <li>page_decent->完全可讀</li>
+    <li>page_decent->還不錯，只是有點劃痕</li>
+    <li>page_awful->像寫在破碎的羊皮紙上</li>
+    <li>page_awful->受到嚴重損壞</li>
+    <li>page_awful->被深色物質染色</li>
+    <li>page_awful->難以辨認</li>
+    <li>page_awful->用難以辨認的手寫註釋</li>
     <li>worldname->[glitterworld]</li>
     <li>worldname->[urbworld]</li>
     <li>worldname->[deadworld]</li>
@@ -2215,7 +2221,7 @@
     <li>worldname->[animalworld]</li>
     <li>feralworld->[animalworld]</li>
     <li>milworld->[warworld]</li>
-    <li>animalworld->Sorne</li>
+    <li>animalworld->索恩</li>
     <li>animalworld->Rhydell</li>
     <li>animalworld->Zoutera</li>
     <li>animalworld->Thylacine</li>
@@ -2391,5 +2397,280 @@
     <li>warworld->Cimbria XII</li>
     <li>warworld->Barkitos</li>
   </Description_SkillBook.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Description_Tome.rulePack.rulesStrings>
+    <li>desc->[inThisBook]，[author][experiencesWithMonsters]。[specificHorrorStory][writingQualitySentence]。</li>
+    <li>inThisBook->在這[writingQualityAdjective][bookTypeSingle]</li>
+    <li>inThisBook->在這些[writingQualityAdjective] [bookTypePlural]</li>
+    <li>bookTypeSingle->記述</li>
+    <li>bookTypeSingle->年鑑</li>
+    <li>bookTypeSingle->分析</li>
+    <li>bookTypeSingle->文章</li>
+    <li>bookTypeSingle->書本</li>
+    <li>bookTypeSingle->紀事</li>
+    <li>bookTypeSingle->作文</li>
+    <li>bookTypeSingle->總結</li>
+    <li>bookTypeSingle->評論文</li>
+    <li>bookTypeSingle->撒旦文書</li>
+    <li>bookTypeSingle->專題論述</li>
+    <li>bookTypeSingle->論文</li>
+    <li>bookTypeSingle->社論</li>
+    <li>bookTypeSingle->散文</li>
+    <li>bookTypeSingle->爆料</li>
+    <li>bookTypeSingle->調查結果</li>
+    <li>bookTypeSingle->魔法書</li>
+    <li>bookTypeSingle->詢問</li>
+    <li>bookTypeSingle->調查</li>
+    <li>bookTypeSingle->宣言</li>
+    <li>bookTypeSingle->手稿</li>
+    <li>bookTypeSingle->巨作</li>
+    <li>bookTypeSingle->文件</li>
+    <li>bookTypeSingle->作品</li>
+    <li>bookTypeSingle->研究</li>
+    <li>bookTypeSingle->紀錄</li>
+    <li>bookTypeSingle->報告</li>
+    <li>bookTypeSingle->評論</li>
+    <li>bookTypeSingle->調查報告</li>
+    <li>bookTypeSingle->遺囑</li>
+    <li>bookTypeSingle->法度</li>
+    <li>bookTypeSingle->文字</li>
+    <li>bookTypeSingle->論題</li>
+    <li>bookTypeSingle->傳單</li>
+    <li>bookTypeSingle->專著</li>
+    <li>bookTypeSingle->論述</li>
+    <li>bookTypeSingle->書籍</li>
+    <li>bookTypeSingle->著作</li>
+    <li>bookTypePlural->寫作</li>
+    <li>bookTypePlural->編年史</li>
+    <li>bookTypePlural->哀嘆歌</li>
+    <li>bookTypePlural->古記</li>
+    <li>bookTypePlural->天啟</li>
+    <li>author(p=3)->作者</li>
+    <li>author(p=3)->[anAuthorDesc][PersonJob]</li>
+    <li>author->[anAuthorDesc]研究員</li>
+    <li>author->[anAuthorDesc]靈媒</li>
+    <li>author->[anAuthorDesc]神秘學者</li>
+    <li>author->[anAuthorDesc]邪教徒</li>
+    <li>author->[anAuthorDesc]邪教成員</li>
+    <li>author->[anAuthorDesc]逃離邪教者</li>
+    <li>author->[anAuthorDesc]古董商人</li>
+    <li>author->[anAuthorDesc]掘墓人</li>
+    <li>author->[anAuthorDesc]虛空研究者</li>
+    <li>author->[anAuthorDesc]遊蕩者</li>
+    <li>author->[anAuthorDesc]懷疑論者</li>
+    <li>author->[anAuthorDesc]學者</li>
+    <li>author->[anAuthorDesc]獵人</li>
+    <li>author->[anAuthorDesc]調查員</li>
+    <li>author->[anAuthorDesc]長者</li>
+    <li>author->[anAuthorDesc]信者</li>
+    <li>author->[anAuthorDesc]先驅</li>
+    <li>author->[anAuthorDesc]繼承人</li>
+    <li>author->[anAuthorDesc]貴族</li>
+    <li>author->[anAuthorDesc]譯者</li>
+    <li>author->[anAuthorDesc]僧人</li>
+    <li>author->[anAuthorDesc]分身</li>
+    <li>author->[anAuthorDesc]作者</li>
+    <li>author->[anAuthorDesc]特務</li>
+    <li>author->[anAuthorDesc]英雄</li>
+    <li>author->[anAuthorDesc]作者</li>
+    <li>anAuthorDesc(p=2)->一名</li>
+    <li>anAuthorDesc->一名年輕</li>
+    <li>anAuthorDesc->一名老年</li>
+    <li>anAuthorDesc->一名驚恐的</li>
+    <li>anAuthorDesc->一名悲傷的</li>
+    <li>anAuthorDesc->一名年長的</li>
+    <li>anAuthorDesc->一名聰穎的</li>
+    <li>anAuthorDesc->一名固執的</li>
+    <li>anAuthorDesc->一名愚蠢的</li>
+    <li>anAuthorDesc->一名天真的</li>
+    <li>anAuthorDesc->一名不安的</li>
+    <li>anAuthorDesc->一名怪異的</li>
+    <li>anAuthorDesc->一名駭人的</li>
+    <li>anAuthorDesc->一名典型的</li>
+    <li>anAuthorDesc->一名無趣的</li>
+    <li>anAuthorDesc->一名瘋狂的</li>
+    <li>anAuthorDesc->一名無良的</li>
+    <li>anAuthorDesc->一名品行端正的</li>
+    <li>anAuthorDesc->一名無道德感的</li>
+    <li>anAuthorDesc->一名難以捉摸的</li>
+    <li>tellsAStoryOf->訴說一個故事，是</li>
+    <li>tellsAStoryOf->揭開</li>
+    <li>tellsAStoryOf->探討</li>
+    <li>tellsAStoryOf->描述</li>
+    <li>tellsAStoryOf->詳細描述</li>
+    <li>tellsAStoryOf->詳細說明</li>
+    <li>tellsAStoryOf->詳細解說</li>
+    <li>tellsAStoryOf->述說</li>
+    <li>tellsAStoryOf->講述 </li>
+    <li>tellsAStoryOf->報告</li>
+    <li>tellsAStoryOf->編年史 </li>
+    <li>tellsAStoryOf->描繪</li>
+    <li>tellsAStoryOf->揭開</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf][ANYPAWN_pronoun]遇上[shared][entities]的經驗</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]在偏遠地帶的[TerrainFeature]探索秘密邪教的基地</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]追尋神秘的黃金立方體</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]由邪教的高等奴僕引導的深度冥想</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]在霍拉克斯的心靈影響下[ANYPAWN_possessive]精神崩潰</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]在一場考古挖掘遠征中，研究員一個個陷入瘋狂</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]一個部落不知何故變成侍奉黑暗神祇，尋求血腥歡愉的邪教</li>
+    <li>experiencesWithMonsters->試圖描述一個部落，他們有著在火光下以生鏽刀刃進行自殘獻祭的傳統</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]一名教師，學生會說出她不可能知曉的絕對真理</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]一名科學家，嘗試以遠古科技手段復活他那已逝的妻子</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]一名外來者的探險，在一片血雨和幾乎令他喪命的漆黑天空中倖存下來</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]一支隊伍探索古老的地洞，裡頭住滿了恐怖的血肉生物</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]一個部落薩滿尋找著方法，阻止復活的死亡[Animal]夜襲村莊</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf]一個部落傳說，述說一個憤怒古神影響了祂接觸的所有人，英雄們將古神封印在一處狹小的石牢中</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive]對抓住的[entity]進行殘酷實驗</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive]不斷看見幻象，[vision]</li>
+    <li>vision->數個黑暗人形深入[ANYPAWN_possessive]的心智，並奪走了[ANYPAWN_possessive]記憶</li>
+    <li>vision->[ANYPAWN_pronoun]被[ANYPAWN_objective]追逐著，不論[ANYPAWN_pronoun]逃了多遠都無法擺脫</li>
+    <li>vision->[ANYPAWN_pronoun]被一個[entity]撕碎</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf][ANYPAWN_possessive][findings][objectove]</li>
+    <li>findings->經驗，是</li>
+    <li>findings->研究，是</li>
+    <li>findings->故事，是</li>
+    <li>objective->事件引發了[maybeAdjectiveEvil]儀式，那時[ritual_incident]</li>
+    <li>objective->在[entity_incident]後發生的黑暗科學</li>
+    <li>ritual_incident->[ANYPAWN_pronoun]看見[targetHuman]從半空中出現</li>
+    <li>targetHuman->[anAuthorDesc]女人</li>
+    <li>targetHuman->[anAuthorDesc]男人</li>
+    <li>ritual_incident->天空下起血雨下了三天三夜，讓[ANYPAWN_possessive]的朋友發瘋了</li>
+    <li>ritual_incident->[entity_incident]</li>
+    <li>entity_incident->[ANYPAWN_pronoun]在[entity]的一次攻擊時失去了[ANYPAWN_possessive][BodyPart]</li>
+    <li>entity_incident->[ANYPAWN_pronoun]凝視著一個[entity]</li>
+    <li>specificHorrorStory->作者在其中一段講述了黑暗儀式，受害者被迫用碎玻璃自殘。</li>
+    <li>specificHorrorStory->其中一段講述主角偶然碰見一場儀式，目睹血腥人形一邊念著詭異咒語，一邊用著黑曜石碎片自殘。</li>
+    <li>specificHorrorStory->書中畫有許多插圖，嘗試描繪其所提到的「黑暗海」。看來是對心靈平面的隱喻，這個平面是被恐怖卻誘人的超智慧實體所支配。</li>
+    <li>specificHorrorStory->故事不斷暗示著現實的多平面性質，世上實際存在的維度比我們所見更多，所以某個物體或存在可能就在你身旁，你只是感知不到。</li>
+    <li>specificHorrorStory->用很長的篇幅嘗試形容一個名為「霍拉克斯」的超智慧實體，存在於與現實相鄰的平面。</li>
+    <li>specificHorrorStory->其中一段描述黑暗心靈影響力的原理，另一個平面的存在可能會與人類的情感共鳴同步，因此在無意間影響人類的思緒。</li>
+    <li>specificHorrorStory->其中一段描述著不同的遠古科技超智慧，以及其情感和心靈散發的多變性質。部分被認為是中性甚至有益的，但有些實體則是純粹的憤怒組成。</li>
+    <li>specificHorrorStory->[ANYPAWN_pronoun]描述[ANYPAWN_possessive]其心智受更高智慧的黑暗心靈所影響，而被強制改造心智的感受。</li>
+    <li>specificHorrorStory->作者在其中一段嘗試自殺，卻被一名善良的[PersonJob]發現，並拯救了他的性命。</li>
+    <li>specificHorrorStory->書籍中畫著令人不安的插圖，描述了一個超脫現實的怪異實體，其無形的漆黑觸手在書頁間扭動，喚起恐懼又引人入迷的感受。</li>
+    <li>specificHorrorStory->文章中一再提及平行維度的概念，角色所遇到的實體存在於感知能力之外，雖然與我們共存於現實中，卻無法被肉眼所見。</li>
+    <li>specificHorrorStory->書中闡述了令人毛骨悚然的「霍拉克斯」，它是一個超智慧機械，藏身在名為虛空的隱藏次元中。</li>
+    <li>specificHorrorStory->其中一章描述了一個理論，一個存在於遠方的超智慧存在能藉由心靈力量操弄人類感知，改造人的思想，讓人與它的思維模式同步。</li>
+    <li>specificHorrorStory->主角講述了[ANYPAWN_possessive]心智被不知從何而來的不祥之力強行連結的感受。</li>
+    <li>entities->魔鬼</li>
+    <li>entities->活屍</li>
+    <li>entities->渴求痛苦的怪物</li>
+    <li>entities->血肉與外露骨架組成的生物</li>
+    <li>entities->[Animal]活屍</li>
+    <li>entities->金屬與刀劍組成的類人人形</li>
+    <li>entities->散播疼痛的飄浮球體</li>
+    <li>entities->摧毀心智的美麗黃金立方體</li>
+    <li>entities->血肉組成的野獸</li>
+    <li>entities->肉眼不可見的黑暗形體</li>
+    <li>entities->竊魂獵手</li>
+    <li>entity->魔鬼</li>
+    <li>entity->活屍</li>
+    <li>entity->渴求痛苦的怪物</li>
+    <li>entity->血肉與外露骨架組成的生物</li>
+    <li>entity->[Animal]活屍</li>
+    <li>entity->金屬與刀劍組成的類人人形</li>
+    <li>entity->散播疼痛的飄浮球體</li>
+    <li>entity->摧毀心智的美麗黃金立方體</li>
+    <li>entity->血肉組成的野獸</li>
+    <li>entity->肉眼不可見的黑暗形體</li>
+    <li>entity->竊魂獵手</li>
+    <li>maybeAdjectiveEvil(p=2)-></li>
+    <li>maybeAdjectiveEvil->[adjectiveEvil] </li>
+    <li>adjectiveEvil->致命</li>
+    <li>adjectiveEvil->古老</li>
+    <li>adjectiveEvil->血腥</li>
+    <li>adjectiveEvil->扭曲</li>
+    <li>adjectiveEvil->強力</li>
+    <li>adjectiveEvil->惡毒</li>
+    <li>adjectiveEvil->幽靈</li>
+    <li>adjectiveEvil->超凡</li>
+    <li>adjectiveEvil->不祥</li>
+    <li>adjectiveEvil->奧秘</li>
+    <li>adjectiveEvil->離奇</li>
+    <li>adjectiveEvil->奇怪</li>
+    <li>adjectiveEvil->鬼魅</li>
+    <li>adjectiveEvil->神秘</li>
+    <li>adjectiveEvil->煉獄</li>
+    <li>adjectiveEvil->畸變</li>
+    <li>writingQualityAdjective(quality==0)->雜亂無章</li>
+    <li>writingQualityAdjective(quality==0)->語無倫次</li>
+    <li>writingQualityAdjective(quality==0)->毫無意義</li>
+    <li>writingQualityAdjective(quality==0)->低劣至極</li>
+    <li>writingQualityAdjective(quality==0)->幼稚傻氣</li>
+    <li>writingQualityAdjective(quality==1)->乾巴巴</li>
+    <li>writingQualityAdjective(quality==1)->潦草</li>
+    <li>writingQualityAdjective(quality==1)->冗長</li>
+    <li>writingQualityAdjective(quality==1)->前後不一</li>
+    <li>writingQualityAdjective(quality==1)->無邊漫談</li>
+    <li>writingQualityAdjective(quality==2)->內容混亂</li>
+    <li>writingQualityAdjective(quality==2)->乏味</li>
+    <li>writingQualityAdjective(quality==2)->內容平平</li>
+    <li>writingQualityAdjective(quality==2)->無可取之處</li>
+    <li>writingQualityAdjective(quality==2)->平凡</li>
+    <li>writingQualityAdjective(quality==2)->尚可</li>
+    <li>writingQualityAdjective(quality==3)->單調</li>
+    <li>writingQualityAdjective(quality==3)->文筆可嘉</li>
+    <li>writingQualityAdjective(quality==3)->結構完善</li>
+    <li>writingQualityAdjective(quality==3)->思想周到</li>
+    <li>writingQualityAdjective(quality==3)->還能一讀</li>
+    <li>writingQualityAdjective(quality==3)->品質普普</li>
+    <li>writingQualityAdjective(quality==4)->有趣</li>
+    <li>writingQualityAdjective(quality==4)->文筆通順</li>
+    <li>writingQualityAdjective(quality==4)->富有情感</li>
+    <li>writingQualityAdjective(quality==4)->結構嚴謹</li>
+    <li>writingQualityAdjective(quality==4)->有說服力</li>
+    <li>writingQualityAdjective(quality==4)->品質不錯</li>
+    <li>writingQualityAdjective(quality==5)->優秀</li>
+    <li>writingQualityAdjective(quality==5)->造詣深厚</li>
+    <li>writingQualityAdjective(quality==5)->洞察敏銳</li>
+    <li>writingQualityAdjective(quality==5)->可圈可點</li>
+    <li>writingQualityAdjective(quality==5)->首屈一指</li>
+    <li>writingQualityAdjective(quality==5)->品質卓越</li>
+    <li>writingQualityAdjective(quality==6)->巧妙</li>
+    <li>writingQualityAdjective(quality==6)->見解獨到</li>
+    <li>writingQualityAdjective(quality==6)->無可匹敵</li>
+    <li>writingQualityAdjective(quality==6)->首屈一指</li>
+    <li>writingQualityAdjective(quality==6)->大師之作</li>
+    <li>writingQualityAdjective(quality==6)->精美</li>
+    <li>writingQualitySentence(quality[greater_than]4)->這本書[excellentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->這本書[decentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]2)->這本書[awfulDesc]</li>
+    <li>awfulDesc->難以閱讀</li>
+    <li>awfulDesc->用顫抖的手潦草寫出</li>
+    <li>awfulDesc->上頭有酒漬</li>
+    <li>awfulDesc->幾乎語無倫次</li>
+    <li>awfulDesc->不斷重複且缺乏細節</li>
+    <li>awfulDesc->許多部分已褪色到難以辨認</li>
+    <li>awfulDesc->缺了很多頁數</li>
+    <li>awfulDesc->雜亂無章且經常離題</li>
+    <li>awfulDesc->以失傳的語言寫成</li>
+    <li>awfulDesc->滿是難懂行話</li>
+    <li>awfulDesc->行文幼稚</li>
+    <li>awfulDesc->混雜著現實與幻想</li>
+    <li>awfulDesc->讀起來像是文章產生器寫的</li>
+    <li>awfulDesc->沾滿膿液和血</li>
+    <li>awfulDesc->主要是兩個[entities]的愛情史</li>
+    <li>decentDesc->結構完整，但校訂一下會更好</li>
+    <li>decentDesc->部分內容思想獨到，但其他部分不值一讀</li>
+    <li>decentDesc->洞察深入，但觀點病態扭曲</li>
+    <li>decentDesc->細節豐富，但缺乏解釋</li>
+    <li>decentDesc->缺了一些頁數</li>
+    <li>decentDesc->雖然實用，但作者只關注自己的利益</li>
+    <li>decentDesc->充滿有用資訊，但</li>
+    <li>decentDesc->至少投入了很多努力</li>
+    <li>decentDesc->雖然不太實用，但讀起來很有趣</li>
+    <li>decentDesc->想法引人入勝，但得費力理解</li>
+    <li>decentDesc->作者智識一流，品格二流</li>
+    <li>decentDesc->外觀很像樣，內容卻是徹底墮落</li>
+    <li>decentDesc->內容驚天動地，實作起來卻哈欠連連</li>
+    <li>excellentDesc->是文學的顛峰</li>
+    <li>excellentDesc->見解極為深刻</li>
+    <li>excellentDesc->撰文出色精良</li>
+    <li>excellentDesc->結構專業嚴謹</li>
+    <li>excellentDesc->許多部分讀起來詩情畫意</li>
+    <li>excellentDesc->描寫十分精彩，許多段落充滿詩意</li>
+    <li>excellentDesc->顛覆思想</li>
+  </Description_Tome.rulePack.rulesStrings>
   
 </LanguageData>
