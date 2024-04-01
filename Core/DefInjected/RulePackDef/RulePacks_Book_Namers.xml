@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>title(p=3)->[titleNaked]</li>
+    <li>title->[ANYPAWN_nameIndef]'s [titleNaked]</li>
+    <li>title->[Character]'s [story]</li>
+    <li>title->[Character]'s [objectAny]</li>
+    <li>title->[Character] [linkagePlace] [place]</li>
+    <li>title->The [adjective] [Character]</li>
+    <li>title->The [adjective] [objectAny]</li>
+    <li>titleNaked->[ConceptAny]</li>
+    <li>titleNaked->[adjective] [ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [linkagePlace] [place]</li>
+    <li>titleNaked->[objectAny] [linkage] [ConceptAny]</li>
+    <li>objectAny->[Game]</li>
+    <li>objectAny->[Weapon]</li>
+    <li>linkage->of</li>
+    <li>linkage->by</li>
+    <li>linkage->for</li>
+    <li>linkage->without</li>
+    <li>linkage->with</li>
+    <li>linkagePlace->in the</li>
+    <li>linkagePlace->by the</li>
+    <li>linkagePlace->on the</li>
+    <li>linkagePlace->Near the</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>place(p=25)->[TerrainFeature]</li>
+    <li>place->Abyss</li>
+    <li>place->Amphitheater</li>
+    <li>place->Aquarium</li>
+    <li>place->Aqueduct</li>
+    <li>place->Arena</li>
+    <li>place->Asylum</li>
+    <li>place->Barracks</li>
+    <li>place->Base</li>
+    <li>place->Bunker</li>
+    <li>place->Cabin</li>
+    <li>place->Camp</li>
+    <li>place->Castle</li>
+    <li>place->Cathedral</li>
+    <li>place->Cavern</li>
+    <li>place->Citadel</li>
+    <li>place->City</li>
+    <li>place->Coliseum</li>
+    <li>place->Colony</li>
+    <li>place->Depths</li>
+    <li>place->Desert</li>
+    <li>place->Elevator</li>
+    <li>place->Factory</li>
+    <li>place->Festival</li>
+    <li>place->Fortress</li>
+    <li>place->Glade</li>
+    <li>place->Graveyard</li>
+    <li>place->Greenhouse</li>
+    <li>place->Grove</li>
+    <li>place->Harbor</li>
+    <li>place->Heart</li>
+    <li>place->Hive</li>
+    <li>place->Hospital</li>
+    <li>place->Island</li>
+    <li>place->Jungle</li>
+    <li>place->Labor Camp</li>
+    <li>place->Laboratory</li>
+    <li>place->Labyrinth</li>
+    <li>place->Launchpad</li>
+    <li>place->Library</li>
+    <li>place->Lighthouse</li>
+    <li>place->Manor</li>
+    <li>place->Mansion</li>
+    <li>place->Marketplace</li>
+    <li>place->Mine</li>
+    <li>place->Monastery</li>
+    <li>place->Mountain</li>
+    <li>place->Nexus</li>
+    <li>place->Oasis</li>
+    <li>place->Observatory</li>
+    <li>place->Orchard</li>
+    <li>place->Outpost</li>
+    <li>place->Palace</li>
+    <li>place->Plateau</li>
+    <li>place->Prison</li>
+    <li>place->Refinery</li>
+    <li>place->Resort</li>
+    <li>place->Rift</li>
+    <li>place->Ruins</li>
+    <li>place->Sanctuary</li>
+    <li>place->School</li>
+    <li>place->Settlement</li>
+    <li>place->Ship</li>
+    <li>place->Soul</li>
+    <li>place->Space Station</li>
+    <li>place->Spaceport</li>
+    <li>place->Spire</li>
+    <li>place->Swamp</li>
+    <li>place->Tavern</li>
+    <li>place->Temple</li>
+    <li>place->Town</li>
+    <li>place->Tundra</li>
+    <li>place->University</li>
+    <li>place->Village</li>
+    <li>place->Volcano</li>
+    <li>place->Warehouse</li>
+    <li>place->Wasteland</li>
+    <li>place->Wilderness</li>
+    <li>place->Zoo</li>
+    <li>story->Adventure</li>
+    <li>story->Adventures</li>
+    <li>story->Allegory</li>
+    <li>story->Anecdote</li>
+    <li>story->Annals</li>
+    <li>story->Ballad</li>
+    <li>story->Biography</li>
+    <li>story->Chapters</li>
+    <li>story->Chronicle</li>
+    <li>story->Chronicles</li>
+    <li>story->Chronology</li>
+    <li>story->Comedy</li>
+    <li>story->Compendium</li>
+    <li>story->Compilation</li>
+    <li>story->Dialogue</li>
+    <li>story->Diary</li>
+    <li>story->Discourse</li>
+    <li>story->Drama</li>
+    <li>story->Dream</li>
+    <li>story->Enigma</li>
+    <li>story->Epic</li>
+    <li>story->Epiphany</li>
+    <li>story->Epistle</li>
+    <li>story->Fable</li>
+    <li>story->Fables</li>
+    <li>story->Fairy Tale</li>
+    <li>story->Fantasia</li>
+    <li>story->Fantasy</li>
+    <li>story->Fantasy</li>
+    <li>story->Fiction</li>
+    <li>story->Folklore</li>
+    <li>story->History</li>
+    <li>story->Imagination</li>
+    <li>story->Imaginings</li>
+    <li>story->Insight</li>
+    <li>story->Jottings</li>
+    <li>story->Journal</li>
+    <li>story->Journey</li>
+    <li>story->Legacy</li>
+    <li>story->Legend</li>
+    <li>story->Legends</li>
+    <li>story->Literature</li>
+    <li>story->Log</li>
+    <li>story->Memoir</li>
+    <li>story->Memoirs</li>
+    <li>story->Memories</li>
+    <li>story->Mind</li>
+    <li>story->Musical</li>
+    <li>story->Musings</li>
+    <li>story->Myth</li>
+    <li>story->Mythology</li>
+    <li>story->Mythos</li>
+    <li>story->Narration</li>
+    <li>story->Narrative</li>
+    <li>story->Novel</li>
+    <li>story->Observations</li>
+    <li>story->Ode</li>
+    <li>story->Pages</li>
+    <li>story->Papers</li>
+    <li>story->Parable</li>
+    <li>story->Prose</li>
+    <li>story->Recollections</li>
+    <li>story->Recount</li>
+    <li>story->Reflection</li>
+    <li>story->Reflections</li>
+    <li>story->Reminiscences</li>
+    <li>story->Revelation</li>
+    <li>story->Rhapsody</li>
+    <li>story->Saga</li>
+    <li>story->Scribblings</li>
+    <li>story->Script</li>
+    <li>story->Sketch</li>
+    <li>story->Sketches</li>
+    <li>story->Story</li>
+    <li>story->Tale</li>
+    <li>story->Tales</li>
+    <li>story->Testament</li>
+    <li>story->Testimony</li>
+    <li>story->Tragedy</li>
+    <li>story->Tribute</li>
+    <li>story->Verse</li>
+    <li>story->Volume</li>
+    <li>story->Whimsy</li>
+  -->
+  <Namer_Novel.rulePack.rulesStrings>
+    <li>title(p=3)->[titleNaked]</li>
+    <li>title->[ANYPAWN_nameIndef]的[titleNaked]</li>
+    <li>title->[Character]的[story]</li>
+    <li>title->[Character]的[objectAny]</li>
+    <li>title->[Character][linkagePlace][place]</li>
+    <li>title->[adjective][Character]</li>
+    <li>title->[adjective][objectAny]</li>
+    <li>titleNaked->[ConceptAny]</li>
+    <li>titleNaked->[adjective][ConceptAny]</li>
+    <li>titleNaked->[ConceptAny][linkage][ConceptAny]</li>
+    <li>titleNaked->[ConceptAny][linkagePlace][place]</li>
+    <li>titleNaked->[objectAny][linkage][ConceptAny]</li>
+    <li>objectAny->[Game]</li>
+    <li>objectAny->[Weapon]</li>
+    <li>linkage->的</li>
+    <li>linkage->及</li>
+    <li>linkage->之</li>
+    <li>linkage->與沒有</li>
+    <li>linkage->與</li>
+    <li>linkagePlace->在</li>
+    <li>linkagePlace->處於</li>
+    <li>linkagePlace->一遊</li>
+    <li>linkagePlace->到了</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>place(p=25)->[TerrainFeature]</li>
+    <li>place->深淵</li>
+    <li>place->露天劇場</li>
+    <li>place->水族館</li>
+    <li>place->引水道</li>
+    <li>place->競技場</li>
+    <li>place->庇護</li>
+    <li>place->軍營</li>
+    <li>place->基地</li>
+    <li>place->地堡</li>
+    <li>place->船艙</li>
+    <li>place->營地</li>
+    <li>place->城堡</li>
+    <li>place->大教堂</li>
+    <li>place->洞穴</li>
+    <li>place->堡壘</li>
+    <li>place->城市</li>
+    <li>place->體育館</li>
+    <li>place->殖民地</li>
+    <li>place->深處</li>
+    <li>place->沙漠</li>
+    <li>place->升降機</li>
+    <li>place->工廠</li>
+    <li>place->慶典</li>
+    <li>place->要塞</li>
+    <li>place->沼澤地</li>
+    <li>place->墓地</li>
+    <li>place->溫室</li>
+    <li>place->樹林</li>
+    <li>place->港口</li>
+    <li>place->心中</li>
+    <li>place->蜂巢</li>
+    <li>place->醫院</li>
+    <li>place->島</li>
+    <li>place->叢林</li>
+    <li>place->勞改營</li>
+    <li>place->實驗室</li>
+    <li>place->迷宮</li>
+    <li>place->發射台</li>
+    <li>place->圖書館</li>
+    <li>place->燈塔</li>
+    <li>place->莊園</li>
+    <li>place->大宅</li>
+    <li>place->市場</li>
+    <li>place->礦坑</li>
+    <li>place->修道院</li>
+    <li>place->山</li>
+    <li>place->紐帶</li>
+    <li>place->綠洲</li>
+    <li>place->天文台</li>
+    <li>place->果園</li>
+    <li>place->前哨</li>
+    <li>place->宮殿</li>
+    <li>place->高原</li>
+    <li>place->監獄</li>
+    <li>place->煉油廠</li>
+    <li>place->渡假勝地</li>
+    <li>place->隙縫</li>
+    <li>place->廢墟</li>
+    <li>place->避難所</li>
+    <li>place->學校</li>
+    <li>place->沉澱</li>
+    <li>place->船</li>
+    <li>place->靈魂</li>
+    <li>place->太空站</li>
+    <li>place->太空港</li>
+    <li>place->尖塔</li>
+    <li>place->沼澤</li>
+    <li>place->酒館</li>
+    <li>place->神殿</li>
+    <li>place->城鎮</li>
+    <li>place->苔原</li>
+    <li>place->大學</li>
+    <li>place->部落</li>
+    <li>place->火山</li>
+    <li>place->倉庫</li>
+    <li>place->荒地</li>
+    <li>place->荒野</li>
+    <li>place->動物園</li>
+    <li>story->冒險</li>
+    <li>story->歷險</li>
+    <li>story->寓言</li>
+    <li>story->軼事</li>
+    <li>story->志</li>
+    <li>story->民謠</li>
+    <li>story->傳</li>
+    <li>story->章節</li>
+    <li>story->年代記</li>
+    <li>story->編年史</li>
+    <li>story->年表</li>
+    <li>story->喜劇</li>
+    <li>story->概略</li>
+    <li>story->彙編</li>
+    <li>story->語錄</li>
+    <li>story->日記</li>
+    <li>story->論</li>
+    <li>story->戲劇</li>
+    <li>story->夢</li>
+    <li>story->謎</li>
+    <li>story->史詩</li>
+    <li>story->頓悟</li>
+    <li>story->書信</li>
+    <li>story->寓言</li>
+    <li>story->寓言</li>
+    <li>story->童話</li>
+    <li>story->幻想曲</li>
+    <li>story->幻想</li>
+    <li>story->幻想</li>
+    <li>story->小說</li>
+    <li>story->傳說</li>
+    <li>story->史</li>
+    <li>story->想像</li>
+    <li>story->空想</li>
+    <li>story->見聞錄</li>
+    <li>story->隨筆</li>
+    <li>story->日誌</li>
+    <li>story->旅</li>
+    <li>story->遺產</li>
+    <li>story->傳奇</li>
+    <li>story->傳奇</li>
+    <li>story->文獻</li>
+    <li>story->紀錄</li>
+    <li>story->回憶錄</li>
+    <li>story->追憶錄</li>
+    <li>story->回憶</li>
+    <li>story->精神</li>
+    <li>story->音樂劇</li>
+    <li>story->沉思</li>
+    <li>story->迷思</li>
+    <li>story->神話</li>
+    <li>story->神話</li>
+    <li>story->記敘文</li>
+    <li>story->記敘文</li>
+    <li>story->小說</li>
+    <li>story->觀察</li>
+    <li>story->頌</li>
+    <li>story->一頁</li>
+    <li>story->紙</li>
+    <li>story->寓言</li>
+    <li>story->散文</li>
+    <li>story->回憶</li>
+    <li>story->敘事</li>
+    <li>story->鑒</li>
+    <li>story->鑒</li>
+    <li>story->舊事</li>
+    <li>story->啟示</li>
+    <li>story->狂想曲</li>
+    <li>story->冒險記</li>
+    <li>story->塗鴉</li>
+    <li>story->腳本</li>
+    <li>story->草圖</li>
+    <li>story->草圖集</li>
+    <li>story->故事</li>
+    <li>story->誹語</li>
+    <li>story->誹語</li>
+    <li>story->遺囑</li>
+    <li>story->見證</li>
+    <li>story->悲劇</li>
+    <li>story->感謝辭</li>
+    <li>story->詩</li>
+    <li>story->卷集</li>
+    <li>story->奇思妙想</li>
+  </Namer_Novel.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>title->The Design of [subject_primary]</li>
+    <li>title->Notes on [subject_primary]</li>
+    <li>title->A Breakthrough in [subject_primary]</li>
+    <li>title->A Study in [subject_primary]</li>
+    <li>title->Novel Applications for [subject_primary]</li>
+    <li>title->Understanding [subject_primary]</li>
+    <li>title->Principles of [subject_primary]</li>
+    <li>title->The Fundamentals of [subject_primary]</li>
+    <li>title->[subject_primary]: Part [volNumeral]</li>
+    <li>title->[subject_primary] Vol. [volNumeral]</li>
+    <li>title->[randAdjective] [subject_primary]</li>
+    <li>title->[randAdjective] [subject_primary] Vol. [volNumeral]</li>
+    <li>title->[maybe_authored_title]</li>
+    <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] in the [subject_secondary] sector</li>
+    <li>title->[studiesStart] [subject_primary] following [lifeEvent]</li>
+    <li>title->[studiesStart] [subject_primary]: anecdotes</li>
+    <li>title->[studiesStart] [subject_primary]: a [anomAdj][discussionNoun]</li>
+    <li>title->The [anomAdj][subject_primary] [referenceType]</li>
+    <li>title->The [referenceType] of [anomAdj][subject_primary], Vol. [volNumeral]</li>
+    <li>title->[studiesStart] [anomAdj][subject_primary], Vol. [volNumeral]</li>
+    <li>title->The [referenceType] of [studiesStart] [anomAdj][subject_primary]</li>
+    <li>title->The [lifeEvent] [discussionNoun] and [subject_primary]</li>
+    <li>title->A [bookCompound] [referenceType]</li>
+    <li>studiesStart->Studies in</li>
+    <li>studiesStart->Fundamentals of </li>
+    <li>studiesStart->Managing</li>
+    <li>studiesStart->Histories of</li>
+    <li>studiesStart->Working in</li>
+    <li>studiesStart->Representation of</li>
+    <li>studiesStart->Surviving</li>
+    <li>studiesStart->Advances in</li>
+    <li>studiesStart->Applications of</li>
+    <li>studiesStart->Shaping the future of</li>
+    <li>studiesStart->Documenting of</li>
+    <li>referenceType->Encyclopedia</li>
+    <li>referenceType->Dictionary</li>
+    <li>referenceType->Almanac</li>
+    <li>referenceType->Register</li>
+    <li>referenceType->Annal</li>
+    <li>referenceType->Record</li>
+    <li>referenceType->Guidebook</li>
+    <li>referenceType->Chronicle</li>
+    <li>referenceType->Mentor</li>
+    <li>referenceType->Toolbox</li>
+    <li>anecdotes->thoughts</li>
+    <li>anecdotes->anecdotes</li>
+    <li>anecdotes->folk tales</li>
+    <li>anecdotes->hearsay</li>
+    <li>anecdotes->stories</li>
+    <li>anecdotes->narratives</li>
+    <li>discussionNoun->discussion</li>
+    <li>discussionNoun->debate</li>
+    <li>discussionNoun->discourse</li>
+    <li>discussionNoun->dialog</li>
+    <li>discussionNoun->dialectic</li>
+    <li>discussionNoun->examination</li>
+    <li>discussionNoun->consultation</li>
+    <li>discussionNoun->controversy</li>
+    <li>lifeEvent->injury</li>
+    <li>lifeEvent->cloning</li>
+    <li>lifeEvent->trauma</li>
+    <li>lifeEvent->separation</li>
+    <li>lifeEvent->landing</li>
+    <li>lifeEvent->revolution</li>
+    <li>lifeEvent->archotech invocation</li>
+    <li>lifeEvent->Horax</li>
+    <li>lifeEvent->childbirth</li>
+    <li>lifeEvent->accident</li>
+    <li>lifeEvent->fleshmelding</li>
+    <li>lifeEvent->deathrest</li>
+    <li>lifeEvent->uprising</li>
+    <li>lifeEvent->chimera</li>
+    <li>lifeEvent->reverie</li>
+    <li>lifeEvent->ripperfall</li>
+    <li>lifeEvent->lobotomy</li>
+    <li>lifeEvent->archite infection</li>
+    <li>volNumeral->I</li>
+    <li>volNumeral->II</li>
+    <li>volNumeral->III</li>
+    <li>volNumeral->IV</li>
+    <li>volNumeral->V</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
+    <li>titleTwoSubjects->An Intro to [subjectsTuple]</li>
+    <li>titleTwoSubjects->Analysis of [subjectsTuple]</li>
+    <li>maybe_authored_title->[author_gen]</li>
+    <li>author_gen->[ANYPAWN_nameIndef]'s Studies</li>
+    <li>author_gen->[ANYPAWN_nameIndef]'s Notes</li>
+    <li>author_gen->[ANYPAWN_nameIndef]'s Seminars</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
+    <li>authored_title_gen->[ANYPAWN_nameIndef]'s Guide to [subject_primary]</li>
+    <li>authored_title_gen->[ANYPAWN_nameIndef]'s Intro to [subject_primary]</li>
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] and [subject_secondary]</li>
+    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] and [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] and [randTheme]</li>
+    <li>randAdjective->Basic</li>
+    <li>randAdjective->The Best</li>
+    <li>randAdjective->Glitterworld</li>
+    <li>randAdjective->Medieval</li>
+    <li>randAdjective->Archaic</li>
+    <li>randAdjective->Lurid</li>
+    <li>randAdjective->Twilight</li>
+    <li>randAdjective->Deathworld</li>
+    <li>randAdjective->Grotesque</li>
+    <li>randAdjective->Sepulchral</li>
+    <li>randAdjective->Holy</li>
+    <li>randAdjective->The Darkest</li>
+    <li>randAdjective->Subworld</li>
+    <li>randAdjective->Primitive</li>
+    <li>randAdjective->Survival</li>
+    <li>randAdjective->Stygian</li>
+    <li>randAdjective->Morose</li>
+    <li>randAdjective->Haunting</li>
+    <li>randAdjective->Cryptic</li>
+    <li>randAdjective->Cursed</li>
+    <li>randTheme->engineering</li>
+    <li>randTheme->folklore</li>
+    <li>randTheme->science fiction</li>
+    <li>randTheme->survival tips</li>
+    <li>randTheme->the rim</li>
+    <li>randTheme->autophagy</li>
+    <li>randTheme->faith</li>
+    <li>randTheme->rights</li>
+    <li>randTheme->ethics</li>
+  -->
+  <Namer_Schematic.rulePack.rulesStrings>
+    <li>title->[subject_primary]的設計</li>
+    <li>title->[subject_primary]詳解</li>
+    <li>title->[subject_primary]的突破</li>
+    <li>title->[subject_primary]的論文</li>
+    <li>title->[subject_primary]的創新應用</li>
+    <li>title->新手也能理解的[subject_primary]</li>
+    <li>title->[subject_primary]概論</li>
+    <li>title->[subject_primary]入門</li>
+    <li>title->[subject_primary]︰第[volNumeral]冊</li>
+    <li>title->[subject_primary]Vol.[volNumeral]</li>
+    <li>title->[randAdjective][subject_primary]</li>
+    <li>title->[randAdjective][subject_primary]Vol.[volNumeral]</li>
+    <li>title->[maybe_authored_title]</li>
+    <li>title(has_subject_secondary==true)->[subject_primary]在[subject_secondary]部分的[studiesStart]</li>
+    <li>title->在[lifeEvent]後對[subject_primary]的[studiesStart]</li>
+    <li>title->[subject_primary]的[studiesStart]︰軼事</li>
+    <li>title->[subject_primary]的[studiesStart]︰[anomAdj][discussionNoun]</li>
+    <li>title->[anomAdj][subject_primary][referenceType]</li>
+    <li>title->[anomAdj][subject_primary]的[referenceType]，Vol.[volNumeral]</li>
+    <li>title->[anomAdj][subject_primary]的[studiesStart]，Vol.[volNumeral]</li>
+    <li>title->[anomAdj][subject_primary]的[studiesStart]的[referenceType]</li>
+    <li>title->[lifeEvent][discussionNoun]與[subject_primary]</li>
+    <li>title->[bookCompound]的[referenceType]</li>
+    <li>studiesStart->研究</li>
+    <li>studiesStart->入門</li>
+    <li>studiesStart->管理</li>
+    <li>studiesStart->歷史</li>
+    <li>studiesStart->作用</li>
+    <li>studiesStart->角色</li>
+    <li>studiesStart->僅存部份</li>
+    <li>studiesStart->進階</li>
+    <li>studiesStart->應用</li>
+    <li>studiesStart->展望</li>
+    <li>studiesStart->總集編</li>
+    <li>referenceType->百科全書</li>
+    <li>referenceType->字典</li>
+    <li>referenceType->曆書</li>
+    <li>referenceType->名冊</li>
+    <li>referenceType->年代史</li>
+    <li>referenceType->記錄</li>
+    <li>referenceType->參考手冊</li>
+    <li>referenceType->編年史</li>
+    <li>referenceType->指導</li>
+    <li>referenceType->工具</li>
+    <li>anecdotes->思維</li>
+    <li>anecdotes->軼事</li>
+    <li>anecdotes->民間傳說</li>
+    <li>anecdotes->傳聞</li>
+    <li>anecdotes->故事</li>
+    <li>anecdotes->敘事詩</li>
+    <li>discussionNoun->討論</li>
+    <li>discussionNoun->辯論</li>
+    <li>discussionNoun->演講</li>
+    <li>discussionNoun->對話</li>
+    <li>discussionNoun->辯證</li>
+    <li>discussionNoun->調查</li>
+    <li>discussionNoun->諮詢</li>
+    <li>discussionNoun->爭論</li>
+    <li>lifeEvent->受傷</li>
+    <li>lifeEvent->複製</li>
+    <li>lifeEvent->創傷</li>
+    <li>lifeEvent->分離</li>
+    <li>lifeEvent->著陸</li>
+    <li>lifeEvent->進化</li>
+    <li>lifeEvent->遠古呼叫</li>
+    <li>lifeEvent->受騙</li>
+    <li>lifeEvent->生孩子</li>
+    <li>lifeEvent->意外</li>
+    <li>lifeEvent->接肢</li>
+    <li>lifeEvent->絕息</li>
+    <li>lifeEvent->暴動</li>
+    <li>lifeEvent->嵌合體</li>
+    <li>lifeEvent->陷入遐想</li>
+    <li>lifeEvent->撕裂傷</li>
+    <li>lifeEvent->腦白質切除術</li>
+    <li>lifeEvent->遠古分子感染</li>
+    <li>volNumeral->I</li>
+    <li>volNumeral->II</li>
+    <li>volNumeral->III</li>
+    <li>volNumeral->IV</li>
+    <li>volNumeral->V</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
+    <li>titleTwoSubjects->[subjectsTuple]的引言</li>
+    <li>titleTwoSubjects->[subjectsTuple]的分析</li>
+    <li>maybe_authored_title->[author_gen]</li>
+    <li>author_gen->[ANYPAWN_nameIndef]的研究</li>
+    <li>author_gen->[ANYPAWN_nameIndef]的筆記</li>
+    <li>author_gen->[ANYPAWN_nameIndef]的論文</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
+    <li>authored_title_gen->[ANYPAWN_nameIndef]的[subject_primary]指南</li>
+    <li>authored_title_gen->[ANYPAWN_nameIndef]的[subject_primary]簡介</li>
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef]對[subjectsTuple]的指南</li>
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef]對[subjectsTuple]的簡介</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary]與[subject_secondary]</li>
+    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary]與[randTheme]</li>
+    <li>subjectsTuple->[subject_primary]與[randTheme]</li>
+    <li>randAdjective->基礎的</li>
+    <li>randAdjective->最佳的</li>
+    <li>randAdjective->閃耀世界的</li>
+    <li>randAdjective->中世紀</li>
+    <li>randAdjective->古老的</li>
+    <li>randAdjective->駭人的</li>
+    <li>randAdjective->日漸式微的</li>
+    <li>randAdjective->死亡世界的</li>
+    <li>randAdjective->怪誕的</li>
+    <li>randAdjective->陰森的</li>
+    <li>randAdjective->神聖的</li>
+    <li>randAdjective->最黑暗的</li>
+    <li>randAdjective->低層世界的</li>
+    <li>randAdjective->原始的</li>
+    <li>randAdjective->救生的</li>
+    <li>randAdjective->恐怖的</li>
+    <li>randAdjective->陰鬱的</li>
+    <li>randAdjective->鬧鬼的</li>
+    <li>randAdjective->神秘的</li>
+    <li>randAdjective->受詛咒的</li>
+    <li>randTheme->工程</li>
+    <li>randTheme->民間傳說</li>
+    <li>randTheme->科幻小說</li>
+    <li>randTheme->生存秘訣</li>
+    <li>randTheme->邊緣</li>
+    <li>randTheme->自噬</li>
+    <li>randTheme->信仰</li>
+    <li>randTheme->權利</li>
+    <li>randTheme->道德</li>
+  </Namer_Schematic.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>title->[titleBasic]</li>
+    <li>title(p=2)->[titleAuthored]</li>
+    <li>title(p=2)->[titleAuthoredNoSubject]</li>
+    <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+    <li>titleBasic(p=6)->[randAdjective] [subject_primary]</li>
+    <li>titleBasic(p=6)->[randNoun] and [subject_primary]</li>
+    <li>titleBasic->Lessons in [subject_primary]</li>
+    <li>titleBasic->Thinking About [subject_primary]</li>
+    <li>titleBasic->A Guide to [subject_primary]</li>
+    <li>titleBasic->Introduction to [subject_primary]</li>
+    <li>titleBasic->A Primer on [subject_primary]</li>
+    <li>titleBasic->Essentials of [subject_primary]</li>
+    <li>titleBasic->Mastery in [subject_primary]</li>
+    <li>titleBasic->The Fundamentals of [subject_primary]</li>
+    <li>titleBasic->Navigating [subject_primary]</li>
+    <li>titleBasic->Key Concepts in [subject_primary]</li>
+    <li>titleBasic->The Art of [subject_primary]</li>
+    <li>titleBasic->Masterclass: [subject_primary]</li>
+    <li>titleBasic->Decoding [subject_primary]</li>
+    <li>titleBasic->Advanced Techniques in [subject_primary]</li>
+    <li>titleBasic->Unlocking [subject_primary]</li>
+    <li>titleBasic->Practical Guide to [subject_primary]</li>
+    <li>titleBasic->Exploring [subject_primary]</li>
+    <li>titleBasic->Pro Tips: [subject_primary]</li>
+    <li>titleBasic->Understanding [subject_primary]</li>
+    <li>titleBasic->Journey Through [subject_primary]</li>
+    <li>titleBasic->The Way of [subject_primary]</li>
+    <li>titleBasic->Insights into [subject_primary]</li>
+    <li>titleBasic->Unraveling [subject_primary]</li>
+    <li>titleBasic->Secrets of [subject_primary]</li>
+    <li>titleBasic->Mastering [subject_primary]</li>
+    <li>titleBasic->In-depth Study of [subject_primary]</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Studies</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s [randAdjective] Studies</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Diary</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Chronicles</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Memoirs</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Journal</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Musings</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Adventures</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Reflections</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Exploration</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Testimonies</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Odyssey</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Journey</li>
+    <li>titleAuthoredNoSubject->The Life of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Story of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Legacy of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Adventures of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Diaries of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Wanderings of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Musings of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Testimonies of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Chronicles of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->The Memoirs of [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Guide to [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Intro to [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Explores [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Insights on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Manual on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Perspectives on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Handbook for [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Analysis of [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Approach to [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Discoveries in [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Musings on [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Study of [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Investigation into [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Research on [subject_primary]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Explores [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Insights on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Manual on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Perspectives on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Handbook for [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Analysis of [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Approach to [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Discoveries in [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Musings on [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Study of [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Investigation into [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Research on [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->An Intro to [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->The Best of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Combining [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Lessons on [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Thinking About [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->A Guide to [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Introduction to [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->A Primer on [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Essentials of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Mastery in [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->The Fundamentals of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Navigating [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Key Concepts in [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->The Art of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Masterclass: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Decoding [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Advanced Techniques in [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Unlocking [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Practical Guide to [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Exploring [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Pro Tips: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Understanding [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Journey Through [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->The Way of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Insights into [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Unraveling [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Secrets of [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Mastering [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->In-depth Study of [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] and [subject_secondary]</li>
+    <li>subjectsTuple->[subject_secondary], [subject_primary], and [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] and [randTheme]</li>
+    <li>randNoun->Death</li>
+    <li>randNoun->Life</li>
+    <li>randNoun->Love</li>
+    <li>randNoun->Growth</li>
+    <li>randNoun->Courage</li>
+    <li>randNoun->Wisdom</li>
+    <li>randNoun->Health</li>
+    <li>randNoun->Boomalopes</li>
+    <li>randNoun->Pirates</li>
+    <li>randAdjective->Basic</li>
+    <li>randAdjective->Efficient</li>
+    <li>randAdjective->Thoughtful</li>
+    <li>randAdjective->Spectacular</li>
+    <li>randAdjective->Sloppy</li>
+    <li>randAdjective->Bad</li>
+    <li>randAdjective->Good</li>
+    <li>randAdjective->Glitterworld</li>
+    <li>randAdjective->Rural</li>
+    <li>randAdjective->Medieval</li>
+    <li>randAdjective->Inspired</li>
+    <li>randAdjective->Healthy</li>
+    <li>randAdjective->Nefarious</li>
+    <li>randAdjective->Chaotic</li>
+    <li>randAdjective->Funny</li>
+    <li>randTheme->knowledge</li>
+    <li>randTheme->self-improvement</li>
+    <li>randTheme->understanding</li>
+  -->
+  <Namer_TextBook.rulePack.rulesStrings>
+    <li>title->[titleBasic]</li>
+    <li>title(p=2)->[titleAuthored]</li>
+    <li>title(p=2)->[titleAuthoredNoSubject]</li>
+    <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+    <li>titleBasic(p=6)->[randAdjective][subject_primary]</li>
+    <li>titleBasic(p=6)->[randNoun]與[subject_primary]</li>
+    <li>titleBasic->[subject_primary]帶來的教訓</li>
+    <li>titleBasic->關於[subject_primary]的反思</li>
+    <li>titleBasic->[subject_primary]指南</li>
+    <li>titleBasic->[subject_primary]概論</li>
+    <li>titleBasic->[subject_primary]入門</li>
+    <li>titleBasic->[subject_primary]精華</li>
+    <li>titleBasic->精通[subject_primary]</li>
+    <li>titleBasic->基礎[subject_primary]</li>
+    <li>titleBasic->探索[subject_primary]</li>
+    <li>titleBasic->[subject_primary]的要點</li>
+    <li>titleBasic->[subject_primary]的藝術</li>
+    <li>titleBasic->大師級︰[subject_primary]</li>
+    <li>titleBasic->[subject_primary]解秘</li>
+    <li>titleBasic->[subject_primary]的進階技巧</li>
+    <li>titleBasic->解鎖[subject_primary]</li>
+    <li>titleBasic->[subject_primary]的實用指南</li>
+    <li>titleBasic->發掘[subject_primary]</li>
+    <li>titleBasic->專業秘笈︰[subject_primary]</li>
+    <li>titleBasic->了解[subject_primary]</li>
+    <li>titleBasic->與[subject_primary]一起的旅途</li>
+    <li>titleBasic->[subject_primary]的方法</li>
+    <li>titleBasic->[subject_primary]的見聞</li>
+    <li>titleBasic->解開[subject_primary]的常見錯處</li>
+    <li>titleBasic->[subject_primary]的秘密</li>
+    <li>titleBasic->[subject_primary]的專家之路</li>
+    <li>titleBasic->[subject_primary]的深入研究</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的研究</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的[randAdjective]研究</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的日記</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的編年史</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的回憶錄</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的備忘錄</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的靈感集</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的歷險</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的反思</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的冒險</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的見證</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的奧德賽</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的旅程</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的一生</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的故事</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的傳奇</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的探險</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的日記</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的遊記</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的靈感集</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的見證</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的編年史</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的回憶錄</li>
+    <li>titleAuthoredOneSubject->[subject_primary]上的[ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]的[subject_primary]指南</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]對[subject_primary]的簡介</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]探索的[subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]對[subject_primary]的展望</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]的[subject_primary]使用手冊</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]對[subject_primary]的看法</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]的[subject_primary]手記</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]對[subject_primary]的分析</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]對[subject_primary]的方法</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]在[subject_primary]的發現</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]的[subject_primary]靈感集</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]的[subject_primary]的研究</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]的[subject_primary]的調查</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]的[subject_primary]的研究</li>
+    <li>titleAuthoredTwoSubjects->[subjectsTuple]上的[ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]的[subjectsTuple]指南</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]對[subjectsTuple]的簡介</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]探索的[subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]對[subjectsTuple]的展望</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]的[subjectsTuple]使用手冊</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]對[subjectsTuple]的看法</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]的[subjectsTuple]記</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]對[subjectsTuple]的分析</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]對[subjectsTuple]的方法</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]在[subjectsTuple]的發現</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]的[subjectsTuple]靈感集</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]的[subjectsTuple]的研究</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]的[subjectsTuple]的調查</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]的[subjectsTuple]的研究</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的引言</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的精華</li>
+    <li>titleBasicTwoSubjects->融合[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]帶來的教訓</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的反思</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]指南</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]概論</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]入門</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]精華</li>
+    <li>titleBasicTwoSubjects->精通[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->基礎[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->探索[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的要點</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的藝術</li>
+    <li>titleBasicTwoSubjects->大師級︰[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]解秘</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的進階技巧</li>
+    <li>titleBasicTwoSubjects->解鎖[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的實用指南</li>
+    <li>titleBasicTwoSubjects->發掘[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->專業秘笈︰[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->了解[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->與[subjectsTuple]一起的旅途</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的方法</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的見聞</li>
+    <li>titleBasicTwoSubjects->解開[subjectsTuple]的常見錯處</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的秘密</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的專家之路</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的深入研究</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary]與[subject_secondary]</li>
+    <li>subjectsTuple->[subject_secondary]、[subject_primary]與[randTheme]</li>
+    <li>subjectsTuple->[subject_primary]與[randTheme]</li>
+    <li>randNoun->死亡</li>
+    <li>randNoun->生命</li>
+    <li>randNoun->愛</li>
+    <li>randNoun->成長</li>
+    <li>randNoun->勇氣</li>
+    <li>randNoun->智慧</li>
+    <li>randNoun->健康</li>
+    <li>randNoun->爆炸艾洛普</li>
+    <li>randNoun->海賊</li>
+    <li>randAdjective->基礎的</li>
+    <li>randAdjective->有效率的</li>
+    <li>randAdjective->縝密思考的</li>
+    <li>randAdjective->驚人的</li>
+    <li>randAdjective->馬虎的</li>
+    <li>randAdjective->差勁的</li>
+    <li>randAdjective->優質的</li>
+    <li>randAdjective->閃耀世界的</li>
+    <li>randAdjective->鄉村的</li>
+    <li>randAdjective->中世紀的</li>
+    <li>randAdjective->受啟發的</li>
+    <li>randAdjective->健康的</li>
+    <li>randAdjective->邪惡的</li>
+    <li>randAdjective->混沌的</li>
+    <li>randAdjective->有趣的</li>
+    <li>randTheme->知識</li>
+    <li>randTheme->自我成長</li>
+    <li>randTheme->充分了解</li>
+  </Namer_TextBook.rulePack.rulesStrings>
+  
+</LanguageData>

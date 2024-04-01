@@ -5,65 +5,261 @@
   <DeepDrilling.label>深鑽機</DeepDrilling.label>
   <!-- EN: Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources. -->
   <DeepDrilling.description>建造深鑽機，可從地下深處開採礦物。你需要地質掃描器才能找出礦物位置。</DeepDrilling.description>
+  <!-- EN:
+    <li>subject->deep mining</li>
+    <li>subject_story->moved in with a dirtmole-led corp, studying its deepest excavations</li>
+    <li>subject_story->drilled down to the ice cap's root to discover the world's extinct prehuman biome</li>
+    <li>subject_story->became wealthy from the resources dug out of the world's core</li>
+    <li>subject_gerund->mining deeply</li>
+  -->
+  <DeepDrilling.generalRules.rulesStrings>
+    <li>subject->深鑽</li>
+    <li>subject_story->加入了一個泥鼴人領導的公司，學習其最深層的挖掘法</li>
+    <li>subject_story->深入冰蓋根部，發現已滅絕於世的前人類生物群落</li>
+    <li>subject_story->開採世界核心中的資源而發家致富</li>
+    <li>subject_gerund->深層鑽挖</li>
+  </DeepDrilling.generalRules.rulesStrings>
   
   <!-- EN: flatscreen television -->
   <FlatscreenTelevision.label>液晶電視</FlatscreenTelevision.label>
   <!-- EN: Produce high-resolution flatscreen televisions for greater enjoyment. -->
   <FlatscreenTelevision.description>製作高解析度的液晶電視，提供更棒的娛樂。</FlatscreenTelevision.description>
+  <!-- EN:
+    <li>subject->flatscreen televisions</li>
+    <li>subject_story->experimented with removing tubes from televisions</li>
+    <li>subject_story->agitated for galaxy-wide, high-resolution broadcasts of [tv_content]</li>
+    <li>tv_content->soap operas</li>
+    <li>tv_content->news programmes</li>
+    <li>tv_content->revolutionary propaganda</li>
+    <li>tv_content->glitterworld fashion</li>
+    <li>tv_content->docartoons</li>
+    <li>subject_story->became a television executive, in charge of [tv_content]</li>
+    <li>subject_gerund->producing flatscreen televisions</li>
+  -->
+  <FlatscreenTelevision.generalRules.rulesStrings>
+    <li>subject->液晶電視</li>
+    <li>subject_story->試著從電視上拆下電子管</li>
+    <li>subject_story->為[tv_content]可以往全銀河系作高解析度廣播而興奮</li>
+    <li>tv_content->肥皂劇</li>
+    <li>tv_content->新聞節目</li>
+    <li>tv_content->革命宣傳</li>
+    <li>tv_content->閃耀世界時尚節目</li>
+    <li>tv_content->動畫</li>
+    <li>subject_story->成為電視台主管，負責製作[tv_content]</li>
+    <li>subject_gerund->生產液晶電視</li>
+  </FlatscreenTelevision.generalRules.rulesStrings>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>地質掃描器</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
   <GroundPenetratingScanner.description>建造地質掃描器，可以掃描出地底下的礦物資源。建造需要高級零件。</GroundPenetratingScanner.description>
+  <!-- EN:
+    <li>subject->geophysics</li>
+    <li>subject->ground-penetrating scanners</li>
+    <li>subject_story->discovered the bones of ancient giants, far below the planet's surface</li>
+    <li>subject_story->stumbled across a rich gold seam whilst scanning for tin and became fabulously wealthy</li>
+    <li>subject_story->scanned the ground for ancient minefields, to protect the people</li>
+    <li>subject_gerund->constructing geophysical scanners</li>
+  -->
+  <GroundPenetratingScanner.generalRules.rulesStrings>
+    <li>subject->地球物理學</li>
+    <li>subject->地質掃描器</li>
+    <li>subject_story->發現位於地球深處的遠古巨人骨頭</li>
+    <li>subject_story->在掃描錫礦時偶然發現了豐富的金礦，並變得非常富有</li>
+    <li>subject_story->為保諼人民而掃描地面，偵測遠古的雷區</li>
+    <li>subject_gerund->建造地質掃描器</li>
+  </GroundPenetratingScanner.generalRules.rulesStrings>
   
   <!-- EN: autocannon turret -->
   <HeavyTurrets.label>機關砲塔</HeavyTurrets.label>
   <!-- EN: Produce the heavy autocannon turret. -->
   <HeavyTurrets.description>製作重型的機關砲塔。</HeavyTurrets.description>
+  <!-- EN:
+    <li>subject->autocannon turrets</li>
+    <li>subject_story->held off a cultist assault alone, hiding behind a wall of turrets</li>
+    <li>subject_story->was hired to establish a defensive perimeter of sandbags and turrets for the locals</li>
+    <li>subject_story->built turret after turret, never asking who was buying them</li>
+    <li>subject_gerund->crafting heavy autocannon turrets</li>
+  -->
+  <HeavyTurrets.generalRules.rulesStrings>
+    <li>subject->機關砲塔</li>
+    <li>subject_story->僅躲在砲塔陣後面獨自抵擋邪教徒的攻擊</li>
+    <li>subject_story->受僱為當地人建立沙袋和砲塔防禦圈</li>
+    <li>subject_story->建造了一個又一個的砲塔，但從不過問買家身份</li>
+    <li>subject_gerund->製作重型機關砲塔</li>
+  </HeavyTurrets.generalRules.rulesStrings>
   
   <!-- EN: hospital bed -->
   <HospitalBed.label>醫療床</HospitalBed.label>
   <!-- EN: Construct hospital beds which improve medical outcomes. -->
   <HospitalBed.description>建造可以提昇醫療效果的醫療床。</HospitalBed.description>
+  <!-- EN:
+    <li>subject->hospitalization</li>
+    <li>subject_story->oversaw a revolution in the standards of medical care</li>
+    <li>subject_story->constructed the first of the system's public hospitals</li>
+    <li>subject_story->focused on profit, selling their superior medical suites to the wealthy</li>
+    <li>subject_gerund->constructing hospital beds</li>
+  -->
+  <HospitalBed.generalRules.rulesStrings>
+    <li>subject->住院治療</li>
+    <li>subject_story->監督了醫療保健標準的改革</li>
+    <li>subject_story->建成該星系的第一家公立醫院</li>
+    <li>subject_story->專注於利潤，向富人推銷他們的尊貴醫療套餐</li>
+    <li>subject_gerund->建造醫療床</li>
+  </HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>長程礦物掃描器</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
   <LongRangeMineralScanner.description>長程礦物掃描器能夠探測出區域以外的珍貴礦物。可調整找到特定礦物。建造需要高級零件。</LongRangeMineralScanner.description>
+  <!-- EN:
+    <li>subject->long-range mineral detection</li>
+    <li>subject_story->built so many scanners that the planet's entire geology was revealed</li>
+    <li>subject_story->discovered with a scanner what the other settlements were mining and made huge profits through trading</li>
+    <li>subject_story->mined out the entirety of the planet's jade for religious effigies</li>
+    <li>subject_gerund->constructing long-range mineral scanners</li>
+  -->
+  <LongRangeMineralScanner.generalRules.rulesStrings>
+    <li>subject->長程礦物掃描</li>
+    <li>subject_story->建造了很多台掃描儀來揭示整個星球的地質情況</li>
+    <li>subject_story->用掃描器發現其他據點正在開採的礦物，並透過交易賺取巨額利潤</li>
+    <li>subject_story->開採了星球上所有的翡翠來製作宗教偶像</li>
+    <li>subject_gerund->建造長程礦物掃描器</li>
+  </LongRangeMineralScanner.generalRules.rulesStrings>
   
   <!-- EN: medicine production -->
   <MedicineProduction.label>醫療包</MedicineProduction.label>
   <!-- EN: Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth. -->
   <MedicineProduction.description>將藥草、中性胺、棉布製作成產業技術的醫療包。</MedicineProduction.description>
+  <!-- EN:
+    <li>subject->medical synthesis</li>
+    <li>subject->medicine production</li>
+    <li>subject_story->researched urbworld medicine, aiming to distribute the knowledge more widely</li>
+    <li>subject_story->was puzzled by the origins of neutroamine and determined to find out more</li>
+    <li>subject_story->seized the resources of a drug-dealer and produced useful medicines instead</li>
+    <li>subject_gerund->producing industrial-tech medicine</li>
+  -->
+  <MedicineProduction.generalRules.rulesStrings>
+    <li>subject->合成醫療包</li>
+    <li>subject->製作醫療包</li>
+    <li>subject_story->研究都市世界的醫學，目標是廣泛地傳播醫藥知識</li>
+    <li>subject_story->對中性胺的起源感到困惑，並決心了解更多</li>
+    <li>subject_story->奪取毒販的資源並生產有用的藥品</li>
+    <li>subject_gerund->生產醫療包</li>
+  </MedicineProduction.generalRules.rulesStrings>
   
   <!-- EN: microelectronics -->
   <MicroelectronicsBasics.label>微電子學</MicroelectronicsBasics.label>
   <!-- EN: Work with complex microelectronics. This unlocks the hi-tech research bench and comms console. -->
   <MicroelectronicsBasics.description>更複雜的微電子學。解鎖高科技研究桌、通訊台。</MicroelectronicsBasics.description>
+  <!-- EN:
+    <li>subject->microelectronics</li>
+    <li>subject_story->moved into the development of microelectronics</li>
+    <li>subject_story->constructed the first of many research bench variants</li>
+    <li>subject_story->moved from town to town, praising the virtues of pure research</li>
+    <li>subject_gerund->crafting microelectronics</li>
+  -->
+  <MicroelectronicsBasics.generalRules.rulesStrings>
+    <li>subject->微電子學</li>
+    <li>subject_story->晉身微電子學科研行業</li>
+    <li>subject_story->建造了眾多研究台變體的第一個版本</li>
+    <li>subject_story->遊走在各個城鎮，傳揚純粹研究的美德</li>
+    <li>subject_gerund->製作微電子產品</li>
+  </MicroelectronicsBasics.generalRules.rulesStrings>
   
   <!-- EN: moisture pump -->
   <MoisturePump.label>排水泵</MoisturePump.label>
   <!-- EN: Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand. -->
   <MoisturePump.description>建造排水泵，可緩慢逐步地將使周圍地面的水分正常化。將泥地變成土地，軟沙地變成沙地。</MoisturePump.description>
+  <!-- EN:
+    <li>subject->moisture pumps</li>
+    <li>subject_story->studied the ancient windmill moisture pumps of Earth</li>
+    <li>subject_story->drained the great swamps that bred disease</li>
+    <li>subject_story->tried to drain the seas, foolishly</li>
+    <li>subject_gerund->constructing moisture pumps</li>
+  -->
+  <MoisturePump.generalRules.rulesStrings>
+    <li>subject->排水泵</li>
+    <li>subject_story->研究了地球上的遠古風力排水泵</li>
+    <li>subject_story->把滋生疾病的大沼澤排得一乾二淨</li>
+    <li>subject_story->愚蠢地試圖排乾大海</li>
+    <li>subject_gerund->製作排水泵</li>
+  </MoisturePump.generalRules.rulesStrings>
   
   <!-- EN: multibarrel weapons -->
   <MultibarrelWeapons.label>多管武器</MultibarrelWeapons.label>
   <!-- EN: Assemble miniguns. -->
   <MultibarrelWeapons.description>製作旋轉機槍。</MultibarrelWeapons.description>
+  <!-- EN:
+    <li>subject->miniguns</li>
+    <li>subject_story->constructed a unique portable minigun, which was the only thing found after the squad's disappearance</li>
+    <li>subject_story->designed massive hoppers to ensure the minigun ammo didn't run out</li>
+    <li>subject_story->built guns explicitly to kill every last person in a room</li>
+    <li>subject_gerund->crafting multibarrel weapons</li>
+  -->
+  <MultibarrelWeapons.generalRules.rulesStrings>
+    <li>subject->旋轉機槍</li>
+    <li>subject_story->建造了一把獨特的便攜式旋轉機槍，這是他們小隊失踪後唯一被發現的東西</li>
+    <li>subject_story->設計了龐大的漏斗以確保旋轉機槍的彈藥不會耗盡</li>
+    <li>subject_story->為了確實地殺死房間裡的每一個人而製作槍支</li>
+    <li>subject_gerund->製作多管武器</li>
+  </MultibarrelWeapons.generalRules.rulesStrings>
   
   <!-- EN: precision rifling -->
   <PrecisionRifling.label>精密膛線</PrecisionRifling.label>
   <!-- EN: Craft precisely-machined guns like assault rifles and sniper rifles. -->
   <PrecisionRifling.description>製作精密的槍械，如突擊步槍、狙擊步槍。</PrecisionRifling.description>
+  <!-- EN:
+    <li>subject->rifles</li>
+    <li>subject_story->improved the tolerances of a foundry's processes, enabling the production of quality rifling</li>
+    <li>subject_story->was hunted by neanderthals but constructed a sniper rifle to safely kill their leader</li>
+    <li>subject_story->became briefly famous for shooting an ambrosia fruit out of the overlord's hand</li>
+    <li>subject_gerund->crafting rifles</li>
+  -->
+  <PrecisionRifling.generalRules.rulesStrings>
+    <li>subject->步槍</li>
+    <li>subject_story->改善了鑄造廠工藝的公差，從而能夠生產高品質的膛線</li>
+    <li>subject_story->被尼安德特人追捕，但製作了一把狙擊步槍來安全地殺死他們的首領</li>
+    <li>subject_story->因射中領主手中的仙饈果而變得小有名氣</li>
+    <li>subject_gerund->製作步槍</li>
+  </PrecisionRifling.generalRules.rulesStrings>
   
   <!-- EN: shields -->
   <ShieldBelt.label>護盾</ShieldBelt.label>
   <!-- EN: Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary. -->
   <ShieldBelt.description>製作可穿戴式護盾，使用動能排斥力場技術來阻擋槍彈穿越力場邊界。</ShieldBelt.description>
+  <!-- EN:
+    <li>subject->personal shielding</li>
+    <li>subject_story->survived an assassination attempt, thanks to a prototype shield</li>
+    <li>subject_story->hustled at billiards, using a hidden momentum repeller</li>
+    <li>subject_story->killed an enemy by advancing a blade slowly enough to bypass their shield</li>
+    <li>subject_gerund->crafting personal shields</li>
+  -->
+  <ShieldBelt.generalRules.rulesStrings>
+    <li>subject->個人護盾</li>
+    <li>subject_story->多虧了原型護盾，才在一次暗殺行動中倖存下來</li>
+    <li>subject_story->使用隱藏式動量排斥器打撞球</li>
+    <li>subject_story->透過緩慢地推進刀片穿過敵人的護盾來殺死敵人</li>
+    <li>subject_gerund->製作護盾</li>
+  </ShieldBelt.generalRules.rulesStrings>
   
   <!-- EN: transport pod -->
   <TransportPod.label>運輸艙</TransportPod.label>
   <!-- EN: Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more. -->
   <TransportPod.description>建造運輸艙，可用來運送人們、長距離的物資運輸。也可用來襲擊、旅行、贈送禮物等等。</TransportPod.description>
+  <!-- EN:
+    <li>subject->transport pods</li>
+    <li>subject_story->landed a pod in the middle of a feral tribe and barely escaped alive</li>
+    <li>subject_story->spent a fortune sending a transport pod to the object of their affection, carrying a single wedding ring</li>
+    <li>subject_story->staved off famine through judicious pod deployment</li>
+    <li>subject_gerund->constructing transport pods</li>
+  -->
+  <TransportPod.generalRules.rulesStrings>
+    <li>subject->運輸艙</li>
+    <li>subject_story->把運輸艙迫降在一個野生部落之中，好不容易才逃出生天</li>
+    <li>subject_story->花了一大筆錢，給心愛的對象發送了一個運輸艙，裡面裝著一枚結婚戒指</li>
+    <li>subject_story->透過明智地部署運輸艙來避免了飢荒</li>
+    <li>subject_gerund->建造運輸艙</li>
+  </TransportPod.generalRules.rulesStrings>
   
 </LanguageData>
