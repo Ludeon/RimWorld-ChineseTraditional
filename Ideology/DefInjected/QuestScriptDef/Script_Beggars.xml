@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN:
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] betrayed</li>
-    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been betrayed. Colonists with charitable beliefs will be unhappy.</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] harmed</li>
+    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been harmed. Colonists with charitable beliefs will be unhappy.</li>
     <li>hasHave(beggarCount==1)->has</li>
     <li>hasHave(beggarCount>=2)->have</li>
     <li>wasWere(beggarCount==1)->was</li>
@@ -12,8 +12,8 @@
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
   <Beggars.questContentRules.rulesStrings>
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural]被背叛了</li>
-    <li>letterTextBeggarsBetrayed->請求你的幫助的[groupLabelSingleOrPlural]被背叛了。具善行信仰的信徒們將會變得不高興。</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural]被傷害了</li>
+    <li>letterTextBeggarsBetrayed->請求你的幫助的[groupLabelSingleOrPlural]被傷害了。具善行信仰的信徒們將會變得不高興。</li>
     <li>groupLabelSingleOrPlural(beggarCount==1)->流浪者</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->流浪者們</li>
   </Beggars.questContentRules.rulesStrings>
