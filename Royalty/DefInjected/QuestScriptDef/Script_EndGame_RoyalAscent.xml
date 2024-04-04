@@ -76,25 +76,25 @@
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>需要你護衛的{SUBJECT_definite}的異種細胞被強行抽取了。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>訪客失蹤：{SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>
-  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>需要你護衛的{SUBJECT_definite}在你的殖民地失蹤。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>
-  <!-- EN: Shuttle destroyed -->
   <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>訪客失蹤：{SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
-  <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>需要你護衛的{SUBJECT_definite}失蹤在你的殖民地。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
-  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>需要你護衛的{SUBJECT_definite}在你的殖民地失蹤。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
+  <!-- EN: Shuttle destroyed -->
   <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>太空梭已損毀</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
-  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
+  <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>前來迎接[asker_faction_leaderTitle]的太空梭已被摧毀。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>訪客失蹤：{SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>需要你護衛的{SUBJECT_definite}在你的殖民地野化了。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>任務失敗：[resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>前來迎接[asker_faction_leaderTitle]的太空梭沒有接到[asker_objective]。 [asker_pronoun]現在只能走回去。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>前來迎接[asker_faction_leaderTitle]的太空梭沒有接到[asker_objective]。 [asker_pronoun]現在只能走回去。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   
   <!-- UNUSED -->
-  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>訪客失蹤：{SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
-  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>需要你護衛的{SUBJECT_definite}在你的殖民地野化了。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>訪客失蹤：{SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>需要你護衛的{SUBJECT_definite}失蹤在你的殖民地。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
   <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>任務失敗：[resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>前來迎接[asker_faction_leaderTitle]的太空梭沒有接到[asker_objective]。 [asker_pronoun]現在只能走回去。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   

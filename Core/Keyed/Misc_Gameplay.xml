@@ -601,11 +601,11 @@
   <!-- EN: Buildings -->
   <Buildings>建築</Buildings>
   <!-- EN: not yet discovered -->
-  <NotYetDiscovered>未被發現</NotYetDiscovered> <!-- text_todo -->
+  <NotYetDiscovered>未被發現</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>爬行至安全地點。</ReportStringCrawlingToSafety> <!-- text_todo -->
+  <ReportStringCrawlingToSafety>爬行至安全地點。</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
-  <ReportStringCrawlingToBed>爬行至床上。</ReportStringCrawlingToBed> <!-- text_todo -->
+  <ReportStringCrawlingToBed>爬行至床上。</ReportStringCrawlingToBed>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1710,7 +1710,7 @@
   <DamageFactorWeakness>不耐{DAMAGE_label}</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
   <DamageFactorResistance>耐{DAMAGE_label}</DamageFactorResistance>
-  <!-- EN: {DAMAGE_label} damage that this creature recieves is multiplied by this amount. -->
+  <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
   <DamageFactor>{DAMAGE_label}對此生物的傷害會乘上這個數值。</DamageFactor>
   
   <!-- Healing -->
@@ -1903,6 +1903,8 @@
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>禁止的工作</DisabledWorkLabel>
+  <!-- EN: Disabled needs -->
+  <DisabledNeedsLabel>禁止的需求</DisabledNeedsLabel>
 
   <!-- Glowers -->
   <!-- EN: change color -->
@@ -2014,6 +2016,12 @@
   <DoWorkAtThing>{GERUND}{TARGETLABEL}於</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
   <CanBeStudiedInDuration>可以在{0}後被研究</CanBeStudiedInDuration>
+  
+  <!-- EN: Exploding soon -->
+  <AboutToExplode>即將爆炸</AboutToExplode><!-- text_todo -->
+  
+  <!-- EN: New Anomaly expansion available now! -->
+  <MainScreen_AnomalyAvailableNow>全新的異邪擴充包上架了！</MainScreen_AnomalyAvailableNow><!-- text_todo -->
   
   <!-- UNUSED -->
   <RadiusExpandRate>半徑擴展率</RadiusExpandRate>
