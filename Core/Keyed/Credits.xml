@@ -1,45 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- Main menu-->
   <!-- EN: A story generator by Tynan Sylvester -->
   <MainPageCredit>A story generator by Tynan Sylvester</MainPageCredit>
 
+  <!-- Credits -->
+  <!-- EN: Design -->
+  <Credits_Design>設計</Credits_Design>
   <!-- EN: Engineering -->
   <Credits_Developers>開發者</Credits_Developers>
   <!-- EN: Audio -->
   <Credit_MusicAndSound>音效</Credit_MusicAndSound>
   <!-- EN: Art -->
   <Credit_GameArt>美術</Credit_GameArt>
-  <!-- EN: Menu art -->
-  <Credit_MenuArt>選單美術</Credit_MenuArt>
-  <!-- EN: Additional engineering -->
+  <!-- EN: Testers -->
+  <Credit_Testers>測試員</Credit_Testers>
+  <!-- EN: Additional development -->
   <Credits_AdditionalDevelopment>附加開發</Credits_AdditionalDevelopment>
-  <!-- EN: Community volunteers -->
-  <Credits_TitleCommunity>社群志願者</Credits_TitleCommunity>
-  <!-- EN: Community testers -->
+
+  <!-- EN: Volunteer testers -->
   <Credits_TitleTester>社群測試人員</Credits_TitleTester>
+
   <!-- EN: Mods -->
   <Credits_TitleMods>模組</Credits_TitleMods>
-  <!-- EN: Mod donor -->
+
+  <!-- EN: {0} language -->
+  <Credits_TitleLanguage>語言：{0}</Credits_TitleLanguage>
+
+  <!-- Credits - Currently unused -->
+  <!-- EN: Special thanks -->
+  <Credit_SpecialThanks>特別感謝</Credit_SpecialThanks>
+  <!-- EN: Test lead -->
+  <Credit_TestLead>測試領隊</Credit_TestLead>
+  <!-- EN: Community donations -->
+  <Credits_TitleCommunity>社群志願者</Credits_TitleCommunity>
+  <!-- EN: Mod donors -->
   <Credit_ModDonation>模組貢獻者</Credit_ModDonation>
   <!-- EN: Writing donor -->
   <Credit_WritingDonation>編寫貢獻者</Credit_WritingDonation>
-  <!-- EN: Moderator -->
-  <Credit_Moderator>論壇管理員</Credit_Moderator>
-  <!-- EN: Wiki master -->
-  <Credit_WikiMaster>Wiki管理員</Credit_WikiMaster>
-  <!-- EN: Test lead -->
-  <Credit_TestLead>測試領隊</Credit_TestLead>
-  <!-- EN: {0} language -->
-  <Credits_TitleLanguage>語言：{0}</Credits_TitleLanguage>
+
+  <!-- Meta -->
   <!-- EN: Thanks for playing! -->
   <ThanksForPlaying>感謝遊玩！</ThanksForPlaying>
+  <!-- EN: Skip credits -->
+  <SkipCredits>略過</SkipCredits>
 
-  <!-- Currently unused -->
-  <!-- EN: Special thanks -->
-  <Credit_SpecialThanks>特別感謝</Credit_SpecialThanks>
+
 
   <!-- UNUSED -->
+  <Credit_MenuArt>選單美術</Credit_MenuArt>
+  <Credit_Moderator>論壇管理員</Credit_Moderator>
+  <Credit_WikiMaster>Wiki管理員</Credit_WikiMaster>
   <Credit_Code>程式</Credit_Code>
   <Credit_AdditionalCode>附加程式</Credit_AdditionalCode>
   <Credit_Writer>編寫者</Credit_Writer>

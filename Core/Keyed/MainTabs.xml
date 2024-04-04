@@ -44,8 +44,6 @@
   <WorkDisabledByQuest>任務「{0}」所禁用</WorkDisabledByQuest>
   
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>裝備管理</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>不可變</Unchangeable>
   <!-- EN: Clr. forced -->
@@ -56,12 +54,16 @@
   <ApparelLockedLower>鎖定</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>強制裝備</ForcedApparel>
-  <!-- EN: Edit... -->
+  <!-- EN: Edit -->
   <AssignTabEdit>編輯...</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>管理穿著計畫</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
-  <ManageDrugPolicies>管理用藥計劃</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>管理客製化菜單</ManageFoodRestrictions>
+  <ManageDrugPolicies>管理用藥計畫</ManageDrugPolicies>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>管理食物計畫</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>管理食物計畫</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -198,14 +200,22 @@
   <InProgress>正在研究中</InProgress>
   <!-- EN: Locked -->
   <Locked>鎖定中</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>研究前置條件</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>前置條件</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>科技藍圖要求{0}/{1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>已使用的科技藍圖不足({0}/{1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>前置條件未完成</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>沒有進行中的項目。</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>進行中的項目</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>進行中的項目</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>停止研究</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>缺乏必要的研究設施</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>你的派系文明等級為{0}，但此項目的技術等級為{1}。研究速度將乘以{2}。</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>解鎖自</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>研究一個或更多的前置條件來解鎖它。</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>未知</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -348,9 +362,27 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>引起需求</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>更改預設...</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>點擊編輯</ClickToEdit>
+  <!-- EN: Assign -->
+  <AssignButton>分配</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>解除分配</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>精神崩潰機率</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>娛樂值增加倍率</BookJoyFactor>
+  
+  <!-- UNUSED -->
+  <ManageOutfits>裝備管理</ManageOutfits>
+  <ManageFoodRestrictions>管理客製化菜單</ManageFoodRestrictions>
+  <ResearchPrerequisites>研究前置條件</ResearchPrerequisites>
 
 </LanguageData>

@@ -36,6 +36,21 @@
   <!-- EN: A simple double-wide bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed. Caravans can use bedrolls while traveling for better sleep. -->
   <BedrollDouble.description>一種鋪在地面的簡單雙人床鋪，通常用棉布或毛皮裝進被套裡所製成。睡袋重量輕盈，並且可以捲起來方便攜帶，但舒適度不如一般的床。旅隊可以在旅行時使用，獲得更好的睡眠。</BedrollDouble.description>
   
+  <!-- EN: bookcase -->
+  <Bookcase.label>書櫃</Bookcase.label>
+  <!-- EN: A wide bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+  <Bookcase.description>一個寬大的書櫃，最多可存放和展示十本書。存放在這裡的書籍會加強在周圍進行的學術工作，並增加書櫃的美觀度。櫃中的書籍永遠不會衰敗。</Bookcase.description>
+  
+  <!-- EN: small bookcase -->
+  <BookcaseSmall.label>小書櫃</BookcaseSmall.label>
+  <!-- EN: A narrow bookcase for storing and displaying up to five books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+  <BookcaseSmall.description>一個狹窄的書櫃，最多可存放和展示互本書。存放在這裡的書籍會加強在周圍進行的學術工作，並增加書櫃的美觀度。櫃中的書籍永遠不會衰敗。</BookcaseSmall.description>
+  
+  <!-- EN: couch -->
+  <Couch.label>長沙發</Couch.label>
+  <!-- EN: A large double-wide seat which is cushioned for maximum comfort. Perfect for a luxurious rec room or a homey reading nook. -->
+  <Couch.description>大型的加寬座椅，配有靠墊，給予最大的舒適度。非常適合豪華的娛樂室或溫馨的閱讀角落。</Couch.description>
+  
   <!-- EN: dining chair -->
   <DiningChair.label>扶手椅</DiningChair.label>
   <!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
@@ -60,6 +75,11 @@
   <EndTable.label>床頭櫃</EndTable.label>
   <!-- EN: A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. -->
   <EndTable.description>一個小床頭櫃，能讓附近的床小幅提昇舒適度。必須放置在床頭旁邊。一張床只能受到一個床頭櫃的影響。</EndTable.description>
+  
+  <!-- EN: flood light -->
+  <FloodLight.label>泛光燈</FloodLight.label>
+  <!-- EN: A high-intensity light that's good for large outdoor spaces. -->
+  <FloodLight.description>高強度的燈，適合照亮廣闊的戶外空間。</FloodLight.description>
   
   <!-- EN: hospital bed -->
   <HospitalBed.label>醫療床</HospitalBed.label>
@@ -94,7 +114,7 @@
   <!-- EN: standing lamp -->
   <StandingLamp.label>立燈</StandingLamp.label>
   <!-- EN: An electrical standing lamp that lights an area. People need light to move and work at full speed. -->
-  <StandingLamp.description>一種可以點亮區域的立燈。人們需要光亮才能全速移動、工作。</StandingLamp.description>
+  <StandingLamp.description>一種利用電力點亮區域的立燈。人們需要光亮才能全速移動、工作。</StandingLamp.description>
   
   <!-- EN: stool -->
   <Stool.label>板凳</Stool.label>
@@ -132,5 +152,15 @@
   <TorchLamp.label>火把</TorchLamp.label>
   <!-- EN: A wooden torch for lighting an area. People need light to move and work at full speed. Can be automatically refueled with wood. Produces a small amount of heat. -->
   <TorchLamp.description>一種可以點亮區域的火把。人們需要光亮才能全速移動、工作。需要定期補充木頭燃料。會產生少量的熱能。</TorchLamp.description>
+  
+  <!-- EN: wall torch lamp -->
+  <TorchWallLamp.label>掛牆火把</TorchWallLamp.label>
+  <!-- EN: A wall-mounted wooden torch for lighting an area. It is not as bright as a regular torch lamp, but it can be mounted on walls. Produces a small amount of heat. -->
+  <TorchWallLamp.description>一種可以點亮區域的掛牆火把。亮度不如一般火把，但可以掛在牆上。會產生少量的熱能。</TorchWallLamp.description>
+  
+  <!-- EN: wall lamp -->
+  <WallLamp.label>掛牆燈</WallLamp.label>
+  <!-- EN: A wall-mounted lamp that lights an area using electricity. It is less powerful than a standing lamp, but can be mounted on walls. -->
+  <WallLamp.description>一種利用電力點亮區域的掛牆燈。亮度不如立燈，但可以掛在牆上。</WallLamp.description>
   
 </LanguageData>

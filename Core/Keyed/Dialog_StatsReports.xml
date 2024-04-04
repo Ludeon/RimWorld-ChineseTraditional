@@ -18,6 +18,8 @@
   <StatsReport_RelevantHediffs>相關健康狀況</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>生命階段</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>蹣跚地爬行</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>材料</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -42,6 +44,8 @@
   <StatsReport_ShootingExampleDistances>距離拉遠時擊中的機會</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>最終值</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>最高</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>{0}倍率</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -158,6 +162,8 @@
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>滿足使用者的頭銜需求</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Age -->
+  <Stat_Age_Label>年齡</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>不同的娛樂設施提供不同的娛樂類型。殖民者重複相同的娛樂類型會感到厭倦，因此提供不同娛樂類型很重要。</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -200,6 +206,10 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>衣物（裸體主義者）</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>裸體主義者是否認為這件東西是一件衣服。如果不是，裸體主義者將永遠不會因為穿這個而感到困擾。</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>性別</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>某些服裝受單一性別偏好。其他性別或會因穿上這件服裝而感到不滿。</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>覆蓋了身體哪些部位。\n\n盔甲無法保護沒有覆蓋到的部位。</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -294,6 +304,8 @@
   <Stat_Hediff_Pain_Desc>此情況引起的疼痛程度。</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>適用於身體部位影響的補償率。</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>這個部位相對於天然肉體的效率。</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>對精神方面的影響。※</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -302,7 +314,7 @@
   <Stat_Hediff_HungerRateFactor_Desc>饑餓率。</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>饑餓率</Stat_Hediff_HungerRateOffset_Desc>
-  <!-- EN: Rest fall rate -->
+  <!-- EN: Sleep fall rate -->
   <Stat_Hediff_TirednessOffset_Name>疲憊率</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessOffset_Desc>生物睡眠需求的偏移。</Stat_Hediff_TirednessOffset_Desc>
@@ -376,6 +388,14 @@
   <Stat_Building_PaintColor>粉刷顏色</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>此建築物被粉刷的顏色。</Stat_Building_PaintColorDesc>
+  <!-- EN: Resources to make -->
+  <Stat_Building_ResourcesToMake>所需材料</Stat_Building_ResourcesToMake>
+  <!-- EN: The resources required to construct this. -->
+  <Stat_Building_ResourcesToMakeDesc>建造此建築物所需的材料。</Stat_Building_ResourcesToMakeDesc>
+  <!-- EN: The weapon mounted on this creature. -->
+  <Stat_Thing_TurretDesc>安裝在此生物上的武器。</Stat_Thing_TurretDesc>
+  <!-- EN: The ingredients needed to make this. -->
+  <Stat_Thing_Ingredients>製作此物品所需的材料。</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -526,7 +546,11 @@
   <Stat_Source_OfficialExpansionReport>這個內容來自於官方擴展包</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>這個內容來自於模組</Stat_Source_ModReport>
-  
+
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>存放的書籍美觀度</ContainedBookBeauty> <!-- text_todo -->
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>{0}擊</Stat_TrapDamageHitCount>
   <!-- UNUSED -->
   <Stat_Thing_Plant_LifespanDesc>此植物種下後可以生存的時間。無關成長度或損傷，植物會在他們過老的時候死亡。</Stat_Thing_Plant_LifespanDesc>
 

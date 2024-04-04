@@ -32,26 +32,34 @@
     <li>deflecting->glancing</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=1)->[INITIATOR_definite]試圖[damaged_past]了[RECIPIENT_definite]的[RECIPIENT_part0_label]但[deflected_result]。</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite][expertly]揮舞著[INITIATOR_possessive][WEAPON_label]，試圖[damaged_past]了[RECIPIENT_definite]的[RECIPIENT_part0_label]卻[deflected_result]。</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite]打算用[implement][damaged_inf][RECIPIENT_definite]卻[deflected_result]。</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement][damaged_inf][RECIPIENT_definite]但[deflected_result]。</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement][damaged_inf][RECIPIENT_definite]但[deflected_result]。</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite][damaged_past]了[RECIPIENT_definite]卻[deflected_result]。</li>
-    <li>at-></li>
-    <li>at-></li>
-    <li>deflected_result->[adverb_deflected]</li>
-    <li>deflected_result->[deflected_consequence]</li>
-    <li>adverb_deflected_opt(p=4)-></li>
-    <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->沒打中</li>
-    <li>adverb_deflected->打偏了</li>
-    <li>deflected_consequence->[TOOL_label]只是[scraped_past]過而[adverb_deflected_opt]</li>
-    <li>deflected_consequence->[scraped_present]過[RECIPIENT_possessive]裝甲而[adverb_deflected_opt]</li>
-    <li>scraped_present->擦</li>
-    <li>scraped_present->滑</li>
-    <li>scraped_past->擦</li>
-    <li>scraped_past->滑</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite][damaged_past][atMaybe][RECIPIENT_definite][recipient_part0_label][deflected_result]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite][skillAdvMaybe]用[implement][damaged_past][atMaybe][RECIPIENT_definite] [deflected_result]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite][skillAdvMaybe][damaged_past][atMaybe][RECIPIENT_definite][deflected_result]。</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite]，[skillDescMelee]，[damaged_past][RECIPIENT_definite]的[recipient_part0_label][deflected_result]。</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite]用[implement]的[damaged_inf]打[RECIPIENT_definite][deflected_result]。</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite][skillAdvMaybe]用[implement][damaged_inf][RECIPIENT_definite][deflected_result]。</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>atMaybe-></li>
+    <li>atMaybe->在</li>
+    <li>deflected_result->，但[TOOL_label][deflected][harmlessly_opt]</li>
+    <li>deflected_result->，[RECIPIENT_possessive]裝甲[deflecting][harmlessly_opt]</li>
+    <li>harmlessly_opt(p=4)-></li>
+    <li>harmlessly_opt->[harmlessly]</li>
+    <li>harmlessly->，所以沒造成傷害</li>
+    <li>harmlessly->，所以徒勞無功</li>
+    <li>deflected->打走了</li>
+    <li>deflected->只刮到了</li>
+    <li>deflected->滑開了</li>
+    <li>deflected->被掠過了</li>
+    <li>deflected->彈開了</li>
+    <li>deflected->掃過了</li>
+    <li>deflecting->使傷害偏移了</li>
+    <li>deflecting->只刮到了</li>
+    <li>deflecting->滑開了</li>
+    <li>deflecting->被掠過了</li>
+    <li>deflecting->彈開了</li>
+    <li>deflecting->被掃過了</li>
   </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:

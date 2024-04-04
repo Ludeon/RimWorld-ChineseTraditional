@@ -22,8 +22,8 @@
   <!-- EN: Not allowed -->
   <NotAllowed>不允許</NotAllowed>
   
-  <!-- EN: Fire at {1_label} -->
-  <FireAt>對{1_label}開火</FireAt>
+  <!-- EN: Fire at {1_labelShort} -->
+  <FireAt>對{1_labelShort}開火</FireAt>
 
   <!-- EN: out of range -->
   <OutOfRange>超出射程</OutOfRange>
@@ -51,10 +51,10 @@
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>操控{1_labelShort}</OrderManThing>
   
-  <!-- EN: Melee attack {1_label} -->
-  <MeleeAttack>近身攻擊{1_label}</MeleeAttack>
-  <!-- EN: Melee attack {1_label} to death -->
-  <MeleeAttackToDeath>近身攻擊殺死{1_label}</MeleeAttackToDeath>
+  <!-- EN: Melee attack {1_labelShort} -->
+  <MeleeAttack>近身攻擊{1_labelShort}</MeleeAttack>
+  <!-- EN: Melee attack {1_labelShort} to death -->
+  <MeleeAttackToDeath>近身攻擊殺死{1_labelShort}</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>沒有路徑</NoPath>
   <!-- EN: burying -->
@@ -96,8 +96,8 @@
   <PrisonerInteractedTooRecently>最近已經互動過了</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>無可使用的食物</NoUsableFood>
-  <!-- EN: no food -->
-  <NoFood>無食物</NoFood>
+  <!-- EN: not enough food -->
+  <NoFood>缺乏足夠食物</NoFood>
   <!-- EN: no food matching restrictions -->
   <NoFoodMatchingRestrictions>沒有食物符合限制</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
@@ -158,6 +158,8 @@
   <IncapableOfDeconstruction>無法拆除</IncapableOfDeconstruction>
   <!-- EN: incapable of mining -->
   <IncapableOfMining>無法採礦</IncapableOfMining>
+  <!-- EN: tree marked for extraction -->
+  <TreeMarkedForExtraction>樹木已被標記移植了。</TreeMarkedForExtraction>
   <!-- EN: angers faction -->
   <AngersFaction>憤怒的派系</AngersFaction>
   <!-- EN: no body part -->
@@ -192,39 +194,48 @@
   <CannotGoNoPath>無法走到目的地：沒有路徑</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>移動到這裡</GoHere>
+
+  <!-- EN: Clean {0} -->
+  <CleanRoom>清理{0}</CleanRoom>
   
   <!-- EN: Arrest {0} -->
   <Arrest>拘捕{0}</Arrest>
-  <!-- EN: Try to arrest {1_label} ({2} chance) -->
-  <TryToArrest>試圖拘捕{1_label}({2}成功)</TryToArrest>
+  <!-- EN: Try to arrest {1_labelShort} ({2} chance) -->
+  <TryToArrest>試圖拘捕{1_labelShort}({2}成功)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>無法拘捕</CannotArrest>
   <!-- EN: {0} chance of arrest -->
   <ArrestChance>被拘捕機率{0}</ArrestChance>
 
-  <!-- EN: Capture {1_label} -->
-  <Capture>俘虜{1_label}</Capture>
+  <!-- EN: Capture {1_labelShort} -->
+  <Capture>俘虜{1_labelShort}</Capture>
+  <!-- EN: capture {0_labelShort} -->
+  <CaptureLower>俘虜{0_labelShort}</CaptureLower>
   <!-- EN: Cannot capture -->
   <CannotCapture>無法俘虜</CannotCapture>
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>愚忠</Unrecruitable>
+  <!-- EN: not recruitable -->
+  <UnrecruitableNoFaction>無法招募</UnrecruitableNoFaction> 
+  <!-- EN: Transfer {0_label} -->
+  <TransferEntity>轉移{0_label}</TransferEntity> 
 
-  <!-- EN: Rescue {1_label} -->
-  <Rescue>救援{1_label}</Rescue>
-  <!-- EN: Put {1_label} somewhere safe -->
-  <PutSomewhereSafe>將{1_label}帶到安全地帶</PutSomewhereSafe>
+  <!-- EN: Rescue {1_labelShort} -->
+  <Rescue>救援{1_labelShort}</Rescue>
+  <!-- EN: Put {1_labelShort} somewhere safe -->
+  <PutSomewhereSafe>將{1_labelShort}帶到安全地帶</PutSomewhereSafe>
   <!-- EN: Taking {0_labelShort} to bed. -->
   <TakingToBed>帶{0_labelShort}到床上</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>無法救援</CannotRescue>
 
-  <!-- EN: Carry {1_label} to cryptosleep casket -->
-  <CarryToCryptosleepCasket>帶{1_label}至休眠艙</CarryToCryptosleepCasket>
+  <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
+  <CarryToCryptosleepCasket>帶{1_labelShort}至休眠艙</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>無法帶至休眠艙</CannotCarryToCryptosleepCasket>
 
-  <!-- EN: Carry {0_label} to shuttle -->
-  <CarryToShuttle>攜帶{0_label}進入太空梭</CarryToShuttle>
+  <!-- EN: Carry {0_labelShort} to shuttle -->
+  <CarryToShuttle>攜帶{0_labelShort}進入太空梭</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>沒有可用的休眠艙。</NoCryptosleepCasket>
@@ -235,11 +246,17 @@
   <!-- EN: Already occupied -->
   <CryptosleepCasketOccupied>已被佔用</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
-  <NoPrisonerBed>無法前往、沒有可用的或沒有於密閉空間的俘虜床。</NoPrisonerBed>
+  <NoPrisonerBed>沒有可以前往、空置或於密閉空間、且在安全溫度的俘虜床。</NoPrisonerBed>
+  <!-- EN: No prisoner bed available. -->
+  <NoPrisonerBedShort>沒有可用的俘虜床。</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
-  <NoNonPrisonerBed>無法前往或沒有可用的非俘虜床。</NoNonPrisonerBed>
+  <NoNonPrisonerBed>沒有可以前往或空置、且在安全溫度的非俘虜床。</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
-  <NoAnimalBed>無法前往或沒有可用的動物床。</NoAnimalBed>
+  <NoAnimalBed>沒有可以前往或空置、且在安全溫度的動物床。</NoAnimalBed>
+  <!-- EN: No reachable, unforbidden, un-reserved {0} -->
+  <NoItemReservedOrReachable>沒有可以前往、未被禁用或空置的{0}。</NoItemReservedOrReachable>
+  <!-- EN: No unforbidden, un-reserved {0} -->
+  <NoItemReserved>沒有未被禁用或空置的{0}。</NoItemReserved>
   <!-- EN: Reserved by someone else. -->
   <Reserved>被預留給其他人。</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -335,23 +352,25 @@
   <!-- EN: overweight -->
   <OverweightLower>超過負重</OverweightLower>
 
-  <!-- EN: Cannot carry {1_label} and leave the area -->
+  <!-- EN: Cannot carry {1_labelShort} and leave the area -->
   <CannotCarryToExit>無法帶上{1_label}離開區域。</CannotCarryToExit>
-  <!-- EN: Carry {1_label} and leave the area -->
+  <!-- EN: Carry {1_labelShort} and leave the area -->
   <CarryToExit>帶上{1_label}並離開區域。</CarryToExit>
-  <!-- EN: Capture {1_label} and leave the area -->
+  <!-- EN: Capture {1_labelShort} and leave the area -->
   <CarryToExitAndCapture>俘虜{1_label}並離開區域</CarryToExitAndCapture>
   
-  <!-- EN: Strip {1_label} -->
-  <Strip>脱下{1_label}的衣物</Strip>
-  <!-- EN: Cannot strip {1_label} -->
-  <CannotStrip>無法脱下{1_label}</CannotStrip>
-  <!-- EN: Cannot drop {1_label} -->
-  <CannotDrop>無法卸下{1_label}</CannotDrop>
-  <!-- EN: Carry {0_label} -->
-  <Carry>攜帶{0_label}</Carry>
-  <!-- EN: Cannot carry {0_label} -->
-  <CannotCarry>無法攜帶{0_label}</CannotCarry>
+  <!-- EN: Strip {1_labelShort} -->
+  <Strip>脱下{1_labelShort}的衣物</Strip>
+  <!-- EN: Cannot strip {1_labelShort} -->
+  <CannotStrip>無法脱下{1_labelShort}</CannotStrip>
+  <!-- EN: Cannot drop {1_labelShort} -->
+  <CannotDrop>無法卸下{1_labelShort}</CannotDrop>
+  <!-- EN: Carry {0_labelShort} -->
+  <Carry>攜帶{0_labelShort}</Carry>
+  <!-- EN: Cannot carry {0_labelShort} -->
+  <CannotCarry>無法攜帶{0_labelShort}</CannotCarry>
+  <!-- EN: hostile -->
+  <CarriedPawnHostile>敵人</CarriedPawnHostile>
   <!-- EN: temporary faction member -->
   <QuestRelated>臨時派系成員</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -367,8 +386,8 @@
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>在此自我毀滅</SelfDestructHere>
   
-  <!-- EN: Drop {1_label} -->
-  <Drop>卸下{1_label}</Drop>
+  <!-- EN: Drop {1_labelShort} -->
+  <Drop>卸下{1_labelShort}</Drop>
 
   <!-- EN: Rest until healed -->
   <UseMedicalBed>休養到痊癒</UseMedicalBed>
@@ -377,14 +396,18 @@
   <!-- EN: no doctor -->
   <NoDoctor>沒有醫生</NoDoctor>
   <!-- EN: medical bed not for slaves -->
-  <NotForSlaves>醫療床非奴隸可用</NotForSlaves><!-- text_todo -->
+  <NotForSlaves>醫療床非奴隸可用</NotForSlaves>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>已被{0}佔用</SomeoneElseSleeping>
   
   <!-- EN: Trade with {0} -->
   <TradeWith>與{0}進行交易</TradeWith>
+  <!-- EN: Dismiss trader -->
+  <DismissTrader>解散商隊</DismissTrader>
   <!-- EN: Cannot trade -->
   <CannotTrade>無法交易</CannotTrade>
+  <!-- EN: Trader dismissed -->
+  <TraderDismissed>商隊已被解散</TraderDismissed>
 
   <!-- EN: Open {0_label} -->
   <Open>開啟{0_label}</Open>
@@ -409,6 +432,19 @@
   <OfferGifts>發送禮物</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>和{0}交易</TradeWithSettlement>
+  
+  <!-- EN: Enter {0} -->
+  <EnterPortal>進入{0}</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>進入{0}</EnteringPortal>
+  <!-- EN: Enter {0} -->
+  <CommandEnterPortal>進入{0}</CommandEnterPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>選取要進入{0}的人員和物資。</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>取消進入</CommandCancelEnterPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>取消裝載人員和物資。</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -553,6 +589,11 @@
 
   <!-- EN: Cannot enter -->
   <CannotEnter>無法進入</CannotEnter>
+  
+  <!-- EN: Cannot enter {0} -->
+  <CannotEnterPortal>無法進入{0}</CannotEnterPortal>
+  <!-- EN: closed -->
+  <PortalClosed>關閉</PortalClosed>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
@@ -563,7 +604,28 @@
   <!-- Feeding -->
   <!-- EN: disliked food -->
   <WarningFoodDisliked>討厭的食物</WarningFoodDisliked>
+  <!-- EN: Unsuitable food -->
+  <FoodNotSuitable>不適合的食物</FoodNotSuitable>
 
+  <!-- EN: Unsuitable drug -->
+  <DrugNotSuitable>不適合的藥物</DrugNotSuitable>
+  
+  <!-- Books -->
+  <!-- EN: Assign reading... -->
+  <AssignReading>指派閱讀...</AssignReading>
+  <!-- EN: Read {0} -->
+  <AssignReadNow>閱讀{0}</AssignReadNow>
+  <!-- EN: Cannot read {0} -->
+  <AssignCannotReadNow>無法閱讀{0}</AssignCannotReadNow>
+
+  <!-- EN: Prioritize extinguishing fires -->
+  <ExtinguishFiresNearby>優先滅火</ExtinguishFiresNearby>
+
+  <!-- Analysis -->
+  <!-- EN: already analyzed -->
+  <AlreadyAnalyzed>已被分析</AlreadyAnalyzed>
+  <!-- EN: no reachable, un-reserved research bench available -->
+  <NoResearchBench>無法前往或沒有可用的研究桌</NoResearchBench>
   <!-- UNUSED -->
   <PickUp>撿起{1_label}</PickUp>
 

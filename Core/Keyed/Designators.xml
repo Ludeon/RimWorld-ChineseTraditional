@@ -53,10 +53,23 @@
   <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>標記要開採的岩石區域。</DesignatorMineDesc>
 
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>開採礦脈</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>標記整片要開採的岩石區域。居民會持續開採直至所有相連的同類礦物完全開採。</DesignatorMineVeinDesc>
+
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>拋光</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>標記需要拋光的岩石地面或牆面。</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>拋光牆面</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>標記需要拋光的岩石牆面。</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>拋光地面</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>標記需要拋光的岩石地面。</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>計劃</DesignatorPlan>
@@ -200,7 +213,7 @@
   <!-- EN: Remove paint -->
   <DesignatorRemovePaint>去除油漆</DesignatorRemovePaint>
   <!-- EN: Remove paint from walls, buildings, and floors. -->
-  <DesignatorRemovePaintDesc>從牆面、建築、和地板去除油漆。</DesignatorRemovePaintDesc>
+  <DesignatorRemovePaintDesc>從牆面、建築和地板去除油漆。</DesignatorRemovePaintDesc>
   <!-- EN: Remove floor paint -->
   <DesignatorRemoveFloorPaint>去除地面油漆</DesignatorRemoveFloorPaint> 
   <!-- EN: Remove paint from floors. -->
@@ -247,7 +260,7 @@
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>這裡的地形已經是{0}了。</TerrainIsAlready>
   <!-- EN: The surface is already marked for smoothing. -->
-  <SurfaceBeingSmoothed>這裡的地面已經拋光過了。</SurfaceBeingSmoothed>
+  <SurfaceBeingSmoothed>這裡已被標記拋光了。</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
   <IdenticalThingExists>同地點已經有相同的物件。</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
@@ -300,5 +313,10 @@
   <NoColonistWithAllSkillsForConstructing>你沒有任何{0}具備所需技能。</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>你所有具備足夠能力的{0}未被指派為{1}。</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>取出頭骨</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>從屍體取出頭骨</DesignatorExtractSkullDesc>
 
 </LanguageData>

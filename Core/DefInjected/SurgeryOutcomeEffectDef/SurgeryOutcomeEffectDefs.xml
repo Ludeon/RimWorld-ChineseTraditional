@@ -26,4 +26,9 @@
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
   <SurgeryOutcomeBase.outcomes.6.letterText>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了小失誤({RECIPE_label})。</SurgeryOutcomeBase.outcomes.6.letterText>
   
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <SurgeryOutcomeMinorFailure.outcomes.1.letterLabel>{PATIENT_labelShort}的手術失敗</SurgeryOutcomeMinorFailure.outcomes.1.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <SurgeryOutcomeMinorFailure.outcomes.1.letterText>{SURGEON_labelShort}在對{PATIENT_labelShort}執行手術時犯了小失誤({RECIPE_label})。</SurgeryOutcomeMinorFailure.outcomes.1.letterText>
+  
 </LanguageData>

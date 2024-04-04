@@ -382,7 +382,7 @@
   <RangeTo>至</RangeTo>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>無類型</NoDietCategoryLetter>
-  <!-- EN: Expires in -->
+  <!-- EN: expires in -->
   <ExpiresIn>剩餘時間</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>{1_labelShort}的旅隊</CaravanLeaderCaravanName>
@@ -416,6 +416,12 @@
   <PreciousLumpLabel>一堆{0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>無研究項目</NoActiveResearchProjectToFinish>
+  <!-- EN: Current project -->
+  <CurrentProject>目前項目</CurrentProject>
+  <!-- EN: Research progress -->
+  <ResearchProgress>研究進度</ResearchProgress>
+  <!-- EN: Already has {0} -->
+  <AlreadyHasHediff>已有{0}</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>砲塔</Turret>
   <!-- EN: turrets -->
@@ -456,8 +462,6 @@
   <GeneratesResourcesEvery>每{1}生成{0}</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
   <FoliageKillRadius>植物殺死半徑</FoliageKillRadius>
-  <!-- EN: Radius expand rate -->
-  <RadiusExpandRate>半徑擴展率</RadiusExpandRate>
   <!-- EN: View: {0} -->
   <ViewHyperlink>超連結：{0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
@@ -560,11 +564,49 @@
   <Size>尺寸</Size>
   <!-- EN: cost -->
   <Cost>消費</Cost>
+  <!-- EN: Stunned by EMP -->
+  <StunnedByEMP>被 EMP 擊昏了</StunnedByEMP>
   <!-- EN: Title -->
-  <BackstoryTitle>頭銜</BackstoryTitle><!-- text_todo -->
+  <BackstoryTitle>頭銜</BackstoryTitle>
   <!-- EN: person -->
   <Person>人</Person>
-
+  <!-- EN: activated. -->
+  <Activated>已啟動。</Activated> 
+  <!-- EN: Contains -->
+  <Contains>含有</Contains>
+  <!-- EN: Hostiles -->
+  <Hostiles>敵人</Hostiles>
+  <!-- EN: Investigate -->
+  <Investigate>調查</Investigate> 
+  <!-- EN: Activate -->
+  <Activate>啟動</Activate> 
+  <!-- EN: Activation -->
+  <Activation>啟動</Activation> 
+  <!-- EN: complete -->
+  <Complete>完成</Complete>
+  <!-- EN: Must be imprisoned. -->
+  <RequiresImprisonment>必須是俘虜。</RequiresImprisonment> 
+  <!-- EN: Prioritize hauling contents -->
+  <HaulFromSource>優先搬運內容物</HaulFromSource>
+  <!-- EN: Use -->
+  <UseGizmo>使用</UseGizmo>
+  <!-- EN: Order someone to use the {0}. -->
+  <UseGizmoTooltip>命令某人使用{0}。</UseGizmoTooltip>
+  <!-- EN: Choose who should use this -->
+  <UseGizmoMouse>選擇要使用的人</UseGizmoMouse>
+  <!-- EN: Select target -->
+  <TargetGizmoMouse>選取對象</TargetGizmoMouse>
+  <!-- EN: Cannot use this -->
+  <CannotUseGizmoMouse>無法使用</CannotUseGizmoMouse>
+  <!-- EN: Buildings -->
+  <Buildings>建築</Buildings>
+  <!-- EN: not yet discovered -->
+  <NotYetDiscovered>未被發現</NotYetDiscovered> <!-- text_todo -->
+  <!-- EN: Crawling to safety. -->
+  <ReportStringCrawlingToSafety>爬行至安全地點。</ReportStringCrawlingToSafety> <!-- text_todo -->
+  <!-- EN: Crawling to bed. -->
+  <ReportStringCrawlingToBed>爬行至床上。</ReportStringCrawlingToBed> <!-- text_todo -->
+  
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
   <UserScanAbility>使用者掃描速度</UserScanAbility>
@@ -582,8 +624,6 @@
   <ContainsWort>含有{0}/{1}桶麥汁。</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>含有{0}/{1}桶啤酒。</ContainsBeer>
-  <!-- EN: Contains -->
-  <Contains>含有</Contains>
   <!-- EN: Fermented -->
   <Fermented>釀造完成</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
@@ -650,6 +690,12 @@
   <NewArea>新活動區</NewArea>
   <!-- EN: Invert -->
   <InvertArea>倒置</InvertArea>
+  <!-- EN: Expand -->
+  <ExpandArea>擴展</ExpandArea>
+  <!-- EN: Shrink -->
+  <ShrinkArea>縮減</ShrinkArea>
+  <!-- EN: Maximum {0} areas allowed. -->
+  <MaxAreasReached>允許最大{0}面積。</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -690,6 +736,9 @@
   <PenExampleAnimals>可容納動物</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
   <NoExteriorAccess>沒有對外出入口 - 動物們無法進出。</NoExteriorAccess>
+  
+  <!-- EN: Must be connected to walls on both sides to function. -->
+  <DoorMustBeEnclosedByWalls>必須兩旁與牆壁緊鄰才能生效。</DoorMustBeEnclosedByWalls>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -748,6 +797,8 @@
   <IsNotDrafted>{1_labelShort}未受徵召。</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef}因為{PAWN_possessive}{APPAREL_label}無法使用遠程武器。</ApparelPreventsShooting>
+  <!-- EN: Cannot use in {0} -->
+  <CannotUseReason_PocketMap>無法在{0}使用</CannotUseReason_PocketMap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -784,8 +835,8 @@
   <OrderActivation>命令啟用</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
   <OrderActivationDesc>命令一名居民啟用{THING_definite}。</OrderActivationDesc>
-  <!-- EN: Must be activated by a colonist. -->
-  <MustBeActivatedByColonist>必須由一名居民啟用。</MustBeActivatedByColonist>
+  <!-- EN: Send a colonist to activate this. -->
+  <MustBeActivatedByColonist>派出一名居民啟動它。</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
   <NoNearbyFire>周圍沒有火焰</NoNearbyFire>
   <!-- EN: No nearby fire. No fuel was used. -->
@@ -842,6 +893,10 @@
   <CarriedBy>被{0_labelShort}帶著。</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>在{0_labelShort}內。</InContainer> 
+  <!-- EN: downed, cannot crawl. -->
+  <DownedCannotCrawl>倒下，無法爬行。</DownedCannotCrawl> 
+  <!-- EN: downed, unconscious. -->
+  <DownedUnconscious>倒下，失去意識。</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -982,8 +1037,8 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>未連結電源。</PowerNotConnected>
-  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>電網發電量/儲電量：{0}W /{1}Wd</PowerConnectedRateStored>
+  <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
+  <PowerConnectedRateStored>電網發電量︰{0}W(儲電量：{1})Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>電力需求</PowerNeeded>
   <!-- EN: Power output -->
@@ -1022,12 +1077,12 @@
   <RotStateRotting>腐爛</RotStateRotting>
   <!-- EN: Dessicated -->
   <RotStateDessicated>白骨</RotStateDessicated>
-  <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>冷凍(不會變質)</CurrentlyFrozen>
-  <!-- EN: Refrigerated (spoils in {0}) -->
-  <CurrentlyRefrigerated>冷藏({0}後變質)</CurrentlyRefrigerated>
-  <!-- EN: Not refrigerated (spoils in {0}) -->
-  <NotRefrigerated>非冷藏({0}後變質)</NotRefrigerated>
+  <!-- EN: Frozen -->
+  <CurrentlyFrozen>冷凍</CurrentlyFrozen> 
+  <!-- EN: Refrigerated, spoils in {0} -->
+  <CurrentlyRefrigerated>冷藏，{0}後變質</CurrentlyRefrigerated> 
+  <!-- EN: Unrefrigerated, spoils in {0} -->
+  <NotRefrigerated>非冷藏，{0}後變質</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>超過十年</OverADecade>
   <!-- EN: less than a day -->
@@ -1110,12 +1165,22 @@
   <Stockpile>儲存區</Stockpile>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>垃圾儲存區</DumpingStockpile>
+  <!-- EN: Corpse stockpile zone -->
+  <CorpseStockpile>屍體儲存區</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>優先度</Priority>
   <!-- EN: Clear all -->
   <ClearAll>全部取消</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>全部允許</AllowAll>
+  
+  <!-- Storage Groups -->
+  <!-- EN: Group -->
+  <StorageGroup>群組</StorageGroup>
+  <!-- EN: Name -->
+  <StorageLabel>名稱</StorageLabel>
+  <!-- EN: Storage group -->
+  <StorageGroupLabel>儲存群組</StorageGroupLabel>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -1128,6 +1193,14 @@
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
   <Undiscovered>未探索</Undiscovered>
+  
+  <!-- Animal management -->
+  <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSterilizeConfirm>你確定要為{PAWN_nameDef}絕育?此舉會惹怒{FACTION_name}。</AnimalSterilizeConfirm>
+  <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSlaughterConfirm>你確定要宰殺{PAWN_nameDef}?此舉會惹怒{FACTION_name}。</AnimalSlaughterConfirm>
+  <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalReleaseConfirm>你確定要釋放{PAWN_nameDef}?此舉會惹怒{FACTION_name}。</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1167,6 +1240,10 @@
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
   <ShowTemperatureOverlayToggleButton>開關溫度檢視。能夠顯示室內和室外的氣溫。\n\n如果氣溫過高或過低居民會感到不高興。曝露在極端氣溫更會引致低溫症、凍傷、中暑、燒傷，甚至死亡。</ShowTemperatureOverlayToggleButton>
 
+  <!-- Hotkeys -->
+  <!-- EN: Hotkey -->
+  <HotKeyTip>快捷鍵</HotKeyTip>
+  
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
   <FireOn>{1_label}上的火焰</FireOn>
@@ -1202,6 +1279,12 @@
   <MustPlaceUnroofed>不能放置在室內。</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
   <MustPlaceUnderThickRoof>必須放置在厚屋頂下</MustPlaceUnderThickRoof>
+  <!-- EN: Must be placed against a wall. -->
+  <MustPlaceOnWall>必須放置在牆上。</MustPlaceOnWall>
+  <!-- EN: Something is already placed on this wall. -->
+  <SomethingPlacedOnThisWall>已有東西放在此牆上。</SomethingPlacedOnThisWall>
+  <!-- EN: This building can not support attachments. -->
+  <CannotSupportAttachment>此建築物無法支撐附加物。</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>必須與星艦結構柱連接。</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1255,7 +1338,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>部件尚未完成準備</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>沒有可返回的據點。請先建立一個據點。</ShipNoSettlementToReturnTo> <!-- text_todo -->
+  <ShipNoSettlementToReturnTo>沒有可返回的據點。請先建立一個據點。</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>Charlon Whitestone已經準備好啟動反應爐的程序。\n\n他警告你，啟動程序需要15天，從很遠的距離外就能注意到此能量訊號\n\n這種能量訊號代表這艘星艦具有飛行能力，這將會引來瘋狂的襲擊者和致命的機械族。你將會受到前所未有的猛烈攻擊，請先提前準備好防衛工事。</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1322,6 +1405,8 @@
   <Mood_Happy>快樂</Mood_Happy>
 
   <!-- Game over -->
+  <!-- EN: Game Over -->
+  <GameOver>遊戲結束</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>所有人不是死了就是離開了。這個故事結束了。\n\n也許有一天會有人替這個遺跡找到新的用處。</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
@@ -1336,10 +1421,20 @@
   <GameOverColonistsLeft>以下殖民者被留下：\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>紀念：\n</GameOverInMemoryOf>
-  <!-- EN: Keep playing -->
-  <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
+  <!-- EN: Keep watching -->
+  <GameOverKeepWatching>繼續觀察</GameOverKeepWatching>
+  <!-- EN: Keep watching for now -->
+  <GameOverKeepWatchingForNow>繼續觀察</GameOverKeepWatchingForNow>
+  <!-- EN: Create new wanderers -->
+  <GameOverCreateNewWanderers>創作新的流浪者</GameOverCreateNewWanderers>
+  <!-- EN: Create new wanderers (must wait {0}h) -->
+  <GameOverCreateNewWanderersWait>創作新的流浪者(必須等待{0}小時)</GameOverCreateNewWanderersWait>
+  <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
+  <GameOverCreateNewWanderersText>所有人不是死了就是離開了。也許有一天會有人替這個遺跡找到新的用處。\n\n選擇新的流浪者到你的殖民地，繼續編寫故事。</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>主畫面</GameOverMainMenu>
+  <!-- EN: No colony -->
+  <NoColony>無殖民地</NoColony>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1352,6 +1447,10 @@
   <FacilityPotentiallyLinkedTo>連結至</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>沒有連結至建築物</FacilityNoPotentialLinks>
+  <!-- EN: Max connected per building -->
+  <FacilityMaxSimultaneousConnections>建築物連結上限</FacilityMaxSimultaneousConnections>
+  <!-- EN: Front of building is blocked. -->
+  <FacilityFrontBlocked>建築物的前面被擋住了。</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1540,6 +1639,10 @@
   <Reward_CampLoot>你可以從營地裡掠奪一切</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>營地戰利品</Reward_CampLoot_Label>
+  <!-- EN: It is unclear what will happen if you accept this quest -->
+  <Reward_Unknown>沒人知道接下此任務後會發生什麼事</Reward_Unknown> 
+  <!-- EN: Unknown -->
+  <Reward_Unknown_Label>未知</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>訪客們將為你而戰</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1603,9 +1706,16 @@
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>原因：{0}</CausedByHediff>
   
+  <!-- EN: {DAMAGE_label} weakness -->
+  <DamageFactorWeakness>不耐{DAMAGE_label}</DamageFactorWeakness>
+  <!-- EN: {DAMAGE_label} resistance -->
+  <DamageFactorResistance>耐{DAMAGE_label}</DamageFactorResistance>
+  <!-- EN: {DAMAGE_label} damage that this creature recieves is multiplied by this amount. -->
+  <DamageFactor>{DAMAGE_label}對此生物的傷害會乘上這個數值。</DamageFactor>
+  
   <!-- Healing -->
-  <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>{0_nameDef}的{1}已經治癒。</HealingCureHediff>
+  <!-- EN: {0_nameDef}'s {1} was healed. -->
+  <HealingHealHediff>{0_nameDef}的{1}被治癒了。</HealingHealHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
   <HealingRestoreBodyPart>{0_nameDef}的{1}已經恢復。</HealingRestoreBodyPart>
 
@@ -1614,7 +1724,13 @@
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>選擇降落地點</ChooseLandingSite>
-  
+
+  <!-- LordJobs -->
+  <!-- EN: Outcome chances at {0} quality -->
+  <LordJobOutcomeChances>得到{0}品質成果的機率</LordJobOutcomeChances>
+  <!-- EN: Expected duration -->
+  <ExpectedLordJobDuration>預計需時</ExpectedLordJobDuration>
+
   <!-- Rituals -->
   <!-- EN: ritual -->
   <Ritual>儀式</Ritual>
@@ -1673,8 +1789,6 @@
   <RitualOutcomeQualityAbstract>{0}品質取決於</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
   <RitualOutcomeQualitySpecific>{0}總體品質為{1}，由於以下因素</RitualOutcomeQualitySpecific>
-  <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>在{0}品質下的結果機率</RitualOutcomeChances>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>最近進行的</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
@@ -1691,9 +1805,7 @@
   <RitualOutcomeExtraDesc_Mood>每個儀式的參與者都會獲得持續{1}天的{0}點心情。</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>此儀式並無品質之分，因此只會得到最佳結果。</RitualOutcomeNoQuality>
-  
-  <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>選擇誰需要參與{RITUAL_labelDef}</ChooseParticipants>
+
   <!-- EN: Begin -->
   <Begin>開始</Begin>
   <!-- EN: Begin {0} -->
@@ -1710,12 +1822,9 @@
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>{IDEOS}的儀式座</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedRitualQuality>預期品質</ExpectedRitualQuality>
+  <ExpectedLordJobQuality>預計品質</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
   <StartingQuality>起始表現</StartingQuality>
-  <!-- EN: Expected duration -->
-  <ExpectedRitualDuration>預計持續</ExpectedRitualDuration>
-  
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}的{1}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
@@ -1764,16 +1873,22 @@
   <ToxGas>有毒瓦斯</ToxGas>
   <!-- EN: rot stink -->
   <RotStink>腐爛臭氣</RotStink>
+  <!-- EN: deadlife dust -->
+  <DeadlifeDust>死者粉塵</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>必須先被徵召</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>能力冷卻。待{0}後可再使用。</AbilityOnCooldown>
+  <!-- EN: ability out of charges. -->
+  <AbilityNoCharges>花光能力次數。</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>能力已佇列。</AbilityAlreadyQueued>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>準備就緒:{0}</AbilityReadyLabel>
+  <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
+  <AbilityReadyLabel>{PAWN_nameDef}的能力準備就緒:{0}</AbilityReadyLabel>
+  <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
+  <AbilitiesReadyLabel>{PAWN_nameDef}的能力準備就緒:{0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef}已準備使用{1}。</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -1781,8 +1896,10 @@
   <!-- EN: Charges -->
   <Charges>充能</Charges>
 
+  <!-- EN: {0_nameDef} is in a mental state. -->
+  <PawnIsInMentalState>{0_nameDef}正處於崩潰狀態。</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInMentalState>{0_nameDef}正處於攻擊性崩潰狀態。</PawnIsInMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef}正處於攻擊性崩潰狀態。</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>禁止的工作</DisabledWorkLabel>
@@ -1820,8 +1937,92 @@
   <AbilitySpeechCooldown>準備下一個演講</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
   <AbilitySpeechTargetsLabel>發起於</AbilitySpeechTargetsLabel>
+  
+  <!-- Books -->
 
+  <!-- EN: Benefits -->
+  <Benefits>效益</Benefits>
+  <!-- EN: Dangers -->
+  <Dangers>危害</Dangers>
+  <!-- EN: already unlocked -->
+  <AlreadyUnlocked>已被解鎖</AlreadyUnlocked>
+  <!-- EN: when discovered -->
+  <WhenDiscovered>發現的時候</WhenDiscovered>
+  
+  <!-- EN: Was driven into a mental break after reading {0}. -->
+  <BookMentalBreakMessage>閱讀{0}後陷入精神崩潰。</BookMentalBreakMessage>
+  <!-- EN: {0} done (complete in {1} hours) -->
+  <BookReadProgress>{0}完成(花費{1}小時)</BookReadProgress>
+  
+  <!-- EN: learning speed -->
+  <BookLearningModifier>學習速度</BookLearningModifier>
+  <!-- EN: Mental break chance -->
+  <BookMentalBreak>精神崩潰機率</BookMentalBreak>
+  
+  <!-- EN: {BOOK_labelShort} is not readable -->
+  <BookNotReadable>無法閱讀{BOOK_labelShort}</BookNotReadable>
+  <!-- EN: {PAWN_nameDef} can't read -->
+  <BookCantRead>{PAWN_nameDef}無法閱讀</BookCantRead>
+  <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
+  <BookCantBeStage>{PAWN_nameDef}必須是{STAGES}</BookCantBeStage>
+  <!-- EN: {PAWN_nameDef} is blind -->
+  <BookBlind>{PAWN_nameDef}是個盲人</BookBlind>
+  
+  <!-- EN: max level {0} -->
+  <BookMaxLevel>最高{0}級</BookMaxLevel>
+  
+  <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
+  <ReadingReportHeader>閱讀{0}︰{1}完成(花費{2}小時)</ReadingReportHeader>
+  
+  <!-- EN: Assign reading -->
+  <ReadingDialogTitle>指派閱讀</ReadingDialogTitle>
+  <!-- EN: Assign to {0} -->
+  <ReadingAssignTo>指派{0}</ReadingAssignTo>
+  <!-- EN: Assign -->
+  <ReadingAssign>指派</ReadingAssign>
+
+  <!-- EN: The books currently on this bookshelf. -->
+  <ContainedBooksDesc>書籍目前在書櫃中。</ContainedBooksDesc>
+  
+  <!-- EN: Books stored -->
+  <BookshelfStoredInspect>存放的書籍</BookshelfStoredInspect>
+  <!-- EN: Reading bonus in room -->
+  <BookshelfReadingBonusInspect>房間內閱讀加成</BookshelfReadingBonusInspect>
+
+  <!-- EN: Remove this book from the bookshelf. -->
+  <EjectBookTooltip>把此書從此書櫃移除。</EjectBookTooltip>
+  
+  <!-- Pushing -->
+  <!-- EN: Push to... -->
+  <CommandPushTo>推至...</CommandPushTo>
+  <!-- EN: requires {0} -->
+  <RequiredCapacity>需要{0}</RequiredCapacity>
+  
+  <!-- EN: Unable to enter {0}, destination is blocked -->
+  <UnableToEnterPortal>無法進入{0}，目的地受阻擋</UnableToEnterPortal>
+
+  <!-- EN: This category of research has not been discovered. -->
+  <ResearchNotDiscovered>此研究範疇未被發現。</ResearchNotDiscovered>
+
+  <!-- EN: Emergence -->
+  <Emergence>出現</Emergence>
+  
+  <!-- EN: remove {0} -->
+  <RemovePart>移除{0}</RemovePart>
+
+  <!-- EN: {GERUND} {TARGETLABEL} at -->
+  <DoWorkAtThing>{GERUND}{TARGETLABEL}於</DoWorkAtThing>
+  <!-- EN: can be studied in {0} -->
+  <CanBeStudiedInDuration>可以在{0}後被研究</CanBeStudiedInDuration>
+  
   <!-- UNUSED -->
+  <RadiusExpandRate>半徑擴展率</RadiusExpandRate>
+  <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
+  <HealingCureHediff>{0_nameDef}的{1}已經治癒。</HealingCureHediff>
+  <RitualOutcomeChances>在{0}品質下的結果機率</RitualOutcomeChances>
+  <ChooseParticipants>選擇誰需要參與{RITUAL_labelDef}</ChooseParticipants>
+  <ExpectedRitualQuality>預期品質</ExpectedRitualQuality>
+  <ExpectedRitualDuration>預計持續</ExpectedRitualDuration>
   <PawnMainDescTempFactionedWrap>{1}下屬的{0}\n原派系：{2}</PawnMainDescTempFactionedWrap>
 
 </LanguageData>
