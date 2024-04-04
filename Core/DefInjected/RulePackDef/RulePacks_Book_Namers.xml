@@ -394,16 +394,15 @@
     <li>title->[maybe_authored_title]</li>
     <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] in the [subject_secondary] sector</li>
     <li>title->[studiesStart] [subject_primary] following [lifeEvent]</li>
-    <li>title->[studiesStart] [subject_primary]: anecdotes</li>
-    <li>title->[studiesStart] [subject_primary]: a [anomAdj][discussionNoun]</li>
-    <li>title->The [anomAdj][subject_primary] [referenceType]</li>
-    <li>title->The [referenceType] of [anomAdj][subject_primary], Vol. [volNumeral]</li>
-    <li>title->[studiesStart] [anomAdj][subject_primary], Vol. [volNumeral]</li>
-    <li>title->The [referenceType] of [studiesStart] [anomAdj][subject_primary]</li>
+    <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+    <li>title->[studiesStart] [subject_primary]: a [randAdjective] [discussionNoun]</li>
+    <li>title->The [randAdjective] [subject_primary] [referenceType]</li>
+    <li>title->The [referenceType] of [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->[studiesStart] [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->The [referenceType] of [studiesStart] [randAdjective] [subject_primary]</li>
     <li>title->The [lifeEvent] [discussionNoun] and [subject_primary]</li>
-    <li>title->A [bookCompound] [referenceType]</li>
     <li>studiesStart->Studies in</li>
-    <li>studiesStart->Fundamentals of </li>
+    <li>studiesStart->Fundamentals of</li>
     <li>studiesStart->Managing</li>
     <li>studiesStart->Histories of</li>
     <li>studiesStart->Working in</li>
@@ -477,7 +476,7 @@
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] and [randTheme]</li>
     <li>subjectsTuple->[subject_primary] and [randTheme]</li>
     <li>randAdjective->Basic</li>
-    <li>randAdjective->The Best</li>
+    <li>randAdjective->Best</li>
     <li>randAdjective->Glitterworld</li>
     <li>randAdjective->Medieval</li>
     <li>randAdjective->Archaic</li>
@@ -487,7 +486,7 @@
     <li>randAdjective->Grotesque</li>
     <li>randAdjective->Sepulchral</li>
     <li>randAdjective->Holy</li>
-    <li>randAdjective->The Darkest</li>
+    <li>randAdjective->Darkest</li>
     <li>randAdjective->Subworld</li>
     <li>randAdjective->Primitive</li>
     <li>randAdjective->Survival</li>
@@ -522,14 +521,13 @@
     <li>title->[maybe_authored_title]</li>
     <li>title(has_subject_secondary==true)->[subject_primary]在[subject_secondary]部分的[studiesStart]</li>
     <li>title->在[lifeEvent]後對[subject_primary]的[studiesStart]</li>
-    <li>title->[subject_primary]的[studiesStart]︰軼事</li>
-    <li>title->[subject_primary]的[studiesStart]︰[anomAdj][discussionNoun]</li>
-    <li>title->[anomAdj][subject_primary][referenceType]</li>
-    <li>title->[anomAdj][subject_primary]的[referenceType]，Vol.[volNumeral]</li>
-    <li>title->[anomAdj][subject_primary]的[studiesStart]，Vol.[volNumeral]</li>
-    <li>title->[anomAdj][subject_primary]的[studiesStart]的[referenceType]</li>
+    <li>title->[subject_primary]的[studiesStart]︰[anecdotes]</li>
+    <li>title->[subject_primary]的[studiesStart]︰[randAdjective][discussionNoun]</li>
+    <li>title->[randAdjective][subject_primary][referenceType]</li>
+    <li>title->[randAdjective][subject_primary]的[referenceType]，Vol.[volNumeral]</li>
+    <li>title->[randAdjective][subject_primary]的[studiesStart]，Vol.[volNumeral]</li>
+    <li>title->[randAdjective][subject_primary]的[studiesStart]的[referenceType]</li>
     <li>title->[lifeEvent][discussionNoun]與[subject_primary]</li>
-    <li>title->[bookCompound]的[referenceType]</li>
     <li>studiesStart->研究</li>
     <li>studiesStart->入門</li>
     <li>studiesStart->管理</li>
@@ -708,9 +706,6 @@
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Study of [subject_primary]</li>
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Investigation into [subject_primary]</li>
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Research on [subject_primary]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
