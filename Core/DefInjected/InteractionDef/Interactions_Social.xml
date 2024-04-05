@@ -28,18 +28,18 @@
     <li>r_logentry(p=0.8)->[INITIATOR_nameDef]向[RECIPIENT_nameDef][commentedabout]。</li>
     <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
     <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
-    <li>talkedabout(p=4)->聊了關於[[subject]]的事</li>
-    <li>talkedabout->小聊了關於[[subject]]的事</li>
-    <li>talkedabout->談到了關於[[subject]]的事</li>
-    <li>talkedabout->聊到了關於[[subject]]的事</li>
-    <li>talkedabout->談論了關於[[subject]]的事</li>
-    <li>talkedabout->交換了對於[[subject]]的看法</li>
-    <li>talkedabout->談論了對於[[subject]]的看法</li>
-    <li>commentedabout->說了有關[[subject]]的事</li>
-    <li>commentedabout->說了有關[[subject]]的字</li>
-    <li>commentedabout->評論了[[subject]]</li>
-    <li>commentedabout->評論了有關[[subject]]的事</li>
-    <li>commentedabout->說了關於[[subject]]的笑話</li>
+    <li>talkedabout(p=4)->聊了關於[subject]的事</li>
+    <li>talkedabout->小聊了關於[subject]的事</li>
+    <li>talkedabout->談到了關於[subject]的事</li>
+    <li>talkedabout->聊到了關於[subject]的事</li>
+    <li>talkedabout->談論了關於[subject]的事</li>
+    <li>talkedabout->交換了對於[subject]的看法</li>
+    <li>talkedabout->談論了對於[subject]的看法</li>
+    <li>commentedabout->說了有關[subject]的事</li>
+    <li>commentedabout->說了有關[subject]的字</li>
+    <li>commentedabout->評論了[subject]</li>
+    <li>commentedabout->評論了有關[subject]的事</li>
+    <li>commentedabout->說了關於[subject]的笑話</li>
   </Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
@@ -109,7 +109,7 @@
   <Insult.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=3)->[INITIATOR_nameDef][insulted]了[target]的[characteristic]。</li>
     <li>r_logentry->[INITIATOR_nameDef]把[target]拿來和[insultcomparison]比較。</li>
-    <li><li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef]說[target]是假偶像崇拜者。</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef]說[target]是假偶像崇拜者。</li>
     <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef]暗指[target]已對黃金立方體著魔。</li>
     <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef][insulted]了黃金立方體。</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
