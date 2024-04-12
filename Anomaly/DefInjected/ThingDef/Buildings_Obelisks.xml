@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: warped obelisk -->
+  <WarpedObelisk_Abductor.label>變形方尖碑</WarpedObelisk_Abductor.label>
+  <!-- EN: A large metallic pillar that emanates a putrid psychic energy. The pillar hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.\n\nYou can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.\n\nYou can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena. -->
+  <WarpedObelisk_Abductor.description>巨大的金屬柱，散發出腐敗的心靈能量。這個柱子發出不祥的翁鳴聲，似乎正不斷增加能量。目前還不確定能量累積完後會發生什麼事。\n\n你可以派遣殖民者來抑制方尖碑，防止它啟動。你也可以標記方尖碑以進行研究，嘗試瞭解其用途並加以利用。\n\n你隨時可以攻擊方尖碑摧毀它，但這樣可能會引發非自然和危險的現象。</WarpedObelisk_Abductor.description>
+  <!-- EN: Obelisk study progress -->
+  <WarpedObelisk_Abductor.comps.CompStudyUnlocks.studyNotes.0.label>方尖碑研究進度</WarpedObelisk_Abductor.comps.CompStudyUnlocks.studyNotes.0.label>
+  <!-- EN: Investigation of the obelisk has revealed some information. It is an archotechnological device that seems to interact with organic creatures at a distance. It is probably a piece of a much larger archotech structure that was destroyed or broken apart long ago. The machinery at its core is inhumanly complex and frighteningly powerful. Its purpose and method of action remain totally mysterious.\n\nIf not suppressed, its activity level will increase over time. You can't tell what will happen when the device fully activates. -->
+  <WarpedObelisk_Abductor.comps.CompStudyUnlocks.studyNotes.0.text>對方尖碑的研究揭示了一些資訊。它是一種遠古科技裝置，似乎能與遠處的有機生物互動。它可能是一個更大遠古科技結構的一部分，很久以前就被摧毀或分裂了。它的核心機制是非人類可理解的複雜，且強大得令人害怕。它的目的和作用方式仍然是個謎。\n\n如果不加以抑制，其活躍等級會隨時間增加。你無法得知裝置完全啟動後會發生什麼事。</WarpedObelisk_Abductor.comps.CompStudyUnlocks.studyNotes.0.text>
+  <!-- EN: Obelisk study complete -->
+  <WarpedObelisk_Abductor.comps.CompStudyUnlocks.studyNotes.1.label>方尖碑研究完成</WarpedObelisk_Abductor.comps.CompStudyUnlocks.studyNotes.1.label>
+  <!-- EN: You've completed your investigation of the obelisk. It creates a bridge to a point in a spacetime void separated from ours along usually inaccessible spatial dimensions.\n\nThe void plane is filled with a gray labyrinthine structure of astronomical scale. Someone trapped there could return by finding the obelisk's mirror version inside the gray rooms and hallways.\n\nThe gray structures seem to have been created by an archotech superintelligence, but there's no way to know their purpose, age, or spatial limits.\n\nThe obelisk is damaged and unstable, so its energy level rises unless suppressed. If it were to fully activate, it could begin to abduct individuals at random.\n\nYou can now intentionally provoke a response from the warped obelisk. -->
+  <WarpedObelisk_Abductor.comps.CompStudyUnlocks.studyNotes.1.text>你已經完成了方尖碑的研究。它與虛空時空的一點搭起了橋梁，與我們的時空維度相距甚遠。\n\n虛空中充滿天文規模的灰色迷宮結構。被困於其中的人可以在灰色的房間和廊道中，找到方尖碑的鏡像，從而返回原來所在的地方。\n\n這個灰色結構似乎是由遠古科技超智慧創造的，但無從得知它們的用途、年代或空間限制。\n\n方尖碑受損且不穩定，因此除非受到抑制，否則其能量等級會上升。如果完全啟動，它可能會隨機抓人。\n\n你可以故意刺激變形方尖碑引發反應。</WarpedObelisk_Abductor.comps.CompStudyUnlocks.studyNotes.1.text>
+  <!-- EN: Transport a willing person to a distant spatial dimension. It may be difficult for them to return. -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activateDescString>傳送志願者到遙遠的空間維度。他們可能難以返回。</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activateDescString>
+  <!-- EN: Teleport... -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activateLabelString>傳送…</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activateLabelString>
+  <!-- EN: triggering obelisk teleportation: {1}s -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activatingString>觸發方尖碑傳送：{1}秒</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activatingString>
+  <!-- EN: triggering obelisk teleportation -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activatingStringPending>觸發方尖碑傳送</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.guiLabelString>選擇進行人員</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.guiLabelString>
+  <!-- EN: Trigger teleportation -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.jobString>觸發傳送</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully triggered obelisk teleportation. -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.messageCompletedString>{PAWN_nameDef}成功觸發方尖碑傳送。</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.messageCompletedString>
+  <!-- EN: The warped obelisk is ready to use again. -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.messageCooldownEnded>變形方尖碑已準備好再次使用。</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.messageCooldownEnded>
+  <!-- EN: Teleportation cooldown -->
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.onCooldownString>傳送冷卻時間</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.onCooldownString>
+  
+  <!-- EN: corrupted obelisk -->
+  <WarpedObelisk_Duplicator.label>腐化方尖碑</WarpedObelisk_Duplicator.label>
+  <!-- EN: A large metallic pillar that emanates a putrid psychic energy. The pillar hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.\n\nYou can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.\n\nYou can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena. -->
+  <WarpedObelisk_Duplicator.description>巨大的金屬柱，散發出腐敗的心靈能量。這個柱子發出不祥的翁鳴聲，似乎正不斷增加能量。目前還不確定能量累積完後會發生什麼事。\n\n你可以派遣殖民者來抑制方尖碑，防止它啟動。你也可以標記方尖碑以進行研究，嘗試瞭解其用途並加以利用。\n\n你隨時可以攻擊方尖碑摧毀它，但這樣可能會引發非自然和危險的現象。</WarpedObelisk_Duplicator.description>
+  <!-- EN: Obelisk study progress -->
+  <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.0.label>方尖碑研究進度</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.0.label>
+  <!-- EN: Investigation of the obelisk has revealed some information. It is an archotechnological device that seems to interact with organic creatures at a distance. It is probably a piece of a much larger archotech structure that was destroyed or broken apart long ago. The machinery at its core is inhumanly complex and frighteningly powerful. Its purpose and method of action remain totally mysterious.\n\nIf not suppressed, its activity level will increase over time. You can't tell what will happen when the device fully activates. -->
+  <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.0.text>對方尖碑的研究揭示了一些資訊。它是一種遠古科技裝置，似乎能與遠處的有機生物互動。它可能是一個更大遠古科技結構的一部分，很久以前就被摧毀或分裂了。它的核心機制是非人類可理解的複雜，且強大得令人害怕。它的目的和作用方式仍然是個謎。\n\n如果不加以抑制，其活躍等級會隨時間增加。你無法得知裝置完全啟動後會發生什麼事。</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.0.text>
+  <!-- EN: Obelisk study progress -->
+  <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.label>方尖碑研究進度</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.label>
+  <!-- EN: You've learned more about the obelisk. The device has the power to duplicate intelligent creatures. In theory, it can produce duplicates without limit.\n\nThe obelisk appears damaged and unstable, so its energy level rises unless suppressed. If it were to fully activate, it would go into a duplication loop, chaotically pumping out a large number of flawed human duplicates.\n\n{PAWN_nameDef} thinks that it may be possible to safely shut down the obelisk but this will need significantly more study.\n\nYou can now intentionally provoke a response from the corrupted obelisk. -->
+  <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.text>你對方尖碑有了更多瞭解。這個裝置有複製智慧生物的能力。理論上，它可以無限生產複製品。\n\n方尖碑似乎已損壞且不穩定，因此除非受到抑制，否則能量等級會上升。如果完全啟動，就會開始複製循環，混亂地製造出大量有缺陷的複製體。\n\n{PAWN_nameDef}認為可能可以安全地關閉方尖碑，但需要更多的研究。\n\n你可以故意刺激腐化方尖碑，讓它產生反應。</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.text>
+  <!-- EN: Obelisk study complete -->
+  <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.2.label>方尖碑研究完成</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.2.label>
+  <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} investigation of the corrupted obelisk. {PAWN_pronoun} has discovered a method for safely deactivating the obelisk using shards of archotechnology.\n\nYou can no longer study the obelisk after deactivating it. -->
+  <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.2.text>{PAWN_nameDef}已完成{PAWN_possessive}對腐化方尖碑的研究。{PAWN_pronoun}發現了使用遠古科技碎片安全地關閉方尖碑的方法。\n\n方尖碑停用後，就無法再進行研究。</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.2.text>
+  <!-- EN: Provoke the obelisk into duplicating a willing person. -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activateDescString>刺激方尖碑複製志願者。</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activateDescString>
+  <!-- EN: Duplicate... -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activateLabelString>複製…</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activateLabelString>
+  <!-- EN: triggering obelisk duplication: {1}s -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activatingString>觸發方尖碑複製：{1}秒</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activatingString>
+  <!-- EN: triggering obelisk duplication -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activatingStringPending>觸發方尖碑複製</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.guiLabelString>選擇進行人員</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.guiLabelString>
+  <!-- EN: Trigger duplication -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.jobString>觸發複製</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.jobString>
+  <!-- EN: The corrupted obelisk is ready to use again. -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.messageCooldownEnded>腐化方尖碑已準備好再次使用。</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.messageCooldownEnded>
+  <!-- EN: Duplication cooldown -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.onCooldownString>複製冷卻時間</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.onCooldownString>
+  <!-- EN: Permanently and safely disable the corrupted obelisk. This will prevent it from activating, and from being studied further.\n\nRequires 2 shards. -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activateDescString>永久且安全地停用了腐化方尖碑。這樣就能防止方尖碑啟動，無法再對其進行研究。\n\n需要2塊碎片。</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activateDescString>
+  <!-- EN: Deactivate... -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activateLabelString>停用…</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activateLabelString>
+  <!-- EN: deactivating obelisk: {1}s -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activatingString>停用方尖碑：{1}秒</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activatingString>
+  <!-- EN: deactivating obelisk -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activatingStringPending>停用方尖碑</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.guiLabelString>選擇進行人員</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.guiLabelString>
+  <!-- EN: Deactivate obelisk -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.jobString>停用方尖碑</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully deactivated the obelisk. -->
+  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.messageCompletedString>{PAWN_nameDef}成功地停用了方尖碑。</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.messageCompletedString>
+  
+  <!-- EN: warped obelisk -->
+  <WarpedObelisk_Labyrinth.label>變形方尖碑</WarpedObelisk_Labyrinth.label>
+  <!-- EN: A large metallic pillar that emanates a psychic energy. It can be activated to return home. -->
+  <WarpedObelisk_Labyrinth.description>散發心靈能量的巨大金屬柱。啟動它可以返回家園。</WarpedObelisk_Labyrinth.description>
+  <!-- EN: Activate the obelisk. -->
+  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activateDescString>啟動方尖碑。</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activateDescString>
+  <!-- EN: Activate... -->
+  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activateLabelString>啟動…</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activateLabelString>
+  <!-- EN: activating obelisk: {1}s -->
+  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activatingString>啟動方尖碑：{1}秒</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activatingString>
+  <!-- EN: activating obelisk -->
+  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activatingStringPending>啟動方尖碑</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.guiLabelString>選擇進行人員</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.guiLabelString>
+  <!-- EN: Activate obelisk -->
+  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.jobString>啟動方尖碑</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.jobString>
+  <!-- EN: The obelisk has begun to activate. -->
+  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.messageActivating>方尖碑已開始啟用。</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.messageActivating>
+  
+  <!-- EN: twisted obelisk -->
+  <WarpedObelisk_Mutator.label>扭曲方尖碑</WarpedObelisk_Mutator.label>
+  <!-- EN: A large metallic pillar that emanates a putrid psychic energy. The pillar hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.\n\nYou can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.\n\nYou can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena. -->
+  <WarpedObelisk_Mutator.description>巨大的金屬柱，散發出腐敗的心靈能量。這個柱子發出不祥的翁鳴聲，似乎正不斷增加能量。目前還不確定能量累積完後會發生什麼事。\n\n你可以派遣殖民者來抑制方尖碑，防止它啟動。你也可以標記方尖碑以進行研究，嘗試瞭解其用途並加以利用。\n\n你隨時可以攻擊方尖碑摧毀它，但這樣可能會引發非自然和危險的現象。</WarpedObelisk_Mutator.description>
+  <!-- EN: Obelisk study progress -->
+  <WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.0.label>方尖碑研究進度</WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.0.label>
+  <!-- EN: Investigation of the obelisk has revealed some information. It is an archotechnological device that seems to interact with organic creatures at a distance. It is probably a piece of a much larger archotech structure that was destroyed or broken apart long ago. The machinery at its core is inhumanly complex and frighteningly powerful. Its purpose and method of action remain totally mysterious.\n\nIf not suppressed, its activity level will increase over time. You can't tell what will happen when the device fully activates. -->
+  <WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.0.text>對方尖碑的研究揭示了一些資訊。它是一種遠古科技裝置，似乎能與遠處的有機生物互動。它可能是一個更大遠古科技結構的一部分，很久以前就被摧毀或分裂了。它的核心機制是非人類可理解的複雜，且強大得令人害怕。它的目的和作用方式仍然是個謎。\n\n如果不加以抑制，其活躍等級會隨時間增加。你無法得知裝置完全啟動後會發生什麼事。</WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.0.text>
+  <!-- EN: Obelisk study progress -->
+  <WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.1.label>方尖碑研究進度</WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.1.label>
+  <!-- EN: You've learned more about the obelisk. It is an archotech machine that transforms flesh creatures into different forms. The device is damaged, so the new forms would be chaotic and unstable - a person or animal so transformed would become something totally unrecognizable.\n\nThe obelisk's energy level rises unless suppressed. If it fully activates, it could transform an endless number of creatures, creating a nightmarish horde of flesh mutants.\n\n{PAWN_nameDef} thinks that it may be possible to safely shut down the obelisk but this will need significantly more study.\n\nYou can now intentionally provoke a response from the twisted obelisk. -->
+  <WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.1.text>你對方尖碑有了更多瞭解。這是一台遠古科技機械，能將肉體生物轉變成不同的形態。該設備已損壞，因此轉變出的新形態將混亂且不穩定，人類或動物經過此轉變後，將變得面目全非。\n\n方尖除非受到抑制，否則方尖碑的能量等級會上升。如果完全啟動，將轉變無限的生物，創造出惡夢般的肉體變異生物群。\n\n{PAWN_nameDef}認為可能可以安全地關閉方尖碑，但需要更多的研究。\n\n你可以故意刺激扭曲方尖碑，讓它產生反應。</WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.1.text>
+  <!-- EN: Obelisk study complete -->
+  <WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.2.label>方尖碑研究完成</WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.2.label>
+  <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} investigation of the twisted obelisk. {PAWN_pronoun} has discovered a method for safely deactivating the obelisk using shards of archotechnology.\n\nYou can no longer study the obelisk after deactivating it. -->
+  <WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.2.text>{PAWN_nameDef}已完成{PAWN_possessive}對扭曲方尖碑的研究。{PAWN_pronoun}發現了使用遠古科技碎片安全地關閉方尖碑的方法。\n\n方尖碑停用後，就無法再進行研究。</WarpedObelisk_Mutator.comps.CompStudyUnlocks.studyNotes.2.text>
+  <!-- EN: Induce rapid cellular growth in a person causing them to grow a tentacle or fleshmass organ. -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activateDescString>誘導人體內的細胞快速生長，使其長出觸手或血肉團器官。</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activateDescString>
+  <!-- EN: Mutate... -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activateLabelString>突變...</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activateLabelString>
+  <!-- EN: triggering obelisk mutation: {1}s -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activatingString>觸發方尖碑突變：{1}秒</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activatingString>
+  <!-- EN: triggering obelisk mutation -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activatingStringPending>觸發方尖碑突變</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.guiLabelString>選擇進行人員</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.guiLabelString>
+  <!-- EN: Trigger mutation -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.jobString>觸發突變</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully triggered obelisk mutation. -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.messageCompletedString>{PAWN_nameDef}成功觸發方尖碑突變。</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.messageCompletedString>
+  <!-- EN: The twisted obelisk is ready to use again. -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.messageCooldownEnded>扭曲方尖碑已準備好再次使用。</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.messageCooldownEnded>
+  <!-- EN: Mutation cooldown -->
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.onCooldownString>突變冷卻時間</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.onCooldownString>
+  <!-- EN: Permanently and safely disable the twisted obelisk. This will prevent it from activating and being studied further.\n\nRequires 2 shards. -->
+  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activateDescString>永久且安全地停用了扭曲方尖碑。這樣就能防止方尖碑啟動，無法再對其進行研究。\n\n需要2塊碎片。</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activateDescString>
+  <!-- EN: Deactivate... -->
+  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activateLabelString>停用…</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activateLabelString>
+  <!-- EN: deactivating obelisk: {1}s -->
+  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activatingString>停用方尖碑：{1}秒</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activatingString>
+  <!-- EN: deactivating obelisk -->
+  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activatingStringPending>停用方尖碑</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.guiLabelString>選擇進行人員</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.guiLabelString>
+  <!-- EN: Deactivate obelisk -->
+  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.jobString>停用方尖碑</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully deactivated the obelisk. -->
+  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.messageCompletedString>{PAWN_nameDef}成功地停用了方尖碑。</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.messageCompletedString>
+  
+</LanguageData>

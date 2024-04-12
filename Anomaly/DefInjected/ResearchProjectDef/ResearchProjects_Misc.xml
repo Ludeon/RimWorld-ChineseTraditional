@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: security door -->
+  <SecurityDoor.label>安全門</SecurityDoor.label>
+  <!-- EN: Build a heavily reinforced door. It is slow to open and requires power, but is very strong. It's a good choice if you want to keep something dangerous out - or in. -->
+  <SecurityDoor.description>建造一扇經過加固的重門。開啟速度緩慢，需要能量才能運作，但非常堅固。可用來將危險的個體擋在門外或門裡。</SecurityDoor.description>
+  <!-- EN:
+    <li>subject->security door</li>
+    <li>subject_story->worked as a security drone in a sealed research facility</li>
+    <li>subject_story->engineered security devices for a stellar trader</li>
+    <li>subject_story->researched materials science for a mercenary firm</li>
+    <li>subject_story->worked in a Glitterworld zoo</li>
+    <li>subject_gerund->constructing security doors</li>
+  -->
+  <SecurityDoor.generalRules.rulesStrings>
+    <li>subject->安全門</li>
+    <li>subject_story->曾在密封的研究機構中擔任保安社畜</li>
+    <li>subject_story->為宇宙商人設計了安全裝置</li>
+    <li>subject_story->爲一間傭兵事務所研究了材料科學</li>
+    <li>subject_story->曾在閃耀世界的動物園工作</li>
+    <li>subject_gerund->建造安全門</li>
+  </SecurityDoor.generalRules.rulesStrings>
+  
+  <!-- EN: turret pack -->
+  <TurretPack.label>砲塔背包</TurretPack.label>
+  <!-- EN: Build a wearable pack that allows the user to deploy a battery-powered turret. -->
+  <TurretPack.description>製作可穿戴式背包，可以讓使用者部署以電池供電的砲塔。</TurretPack.description>
+  <!-- EN:
+    <li>subject->deployable turrets</li>
+    <li>subject_story->defended a feralworld castle from assault</li>
+    <li>subject_story->manned a tailgun on a Imperial dropship</li>
+    <li>subject_story->researched deployable military technology</li>
+    <li>subject_story->fought in the trench battles of the [worldname] War</li>
+    <li>subject_gerund->crafting deployable gun turrets</li>
+  -->
+  <TurretPack.generalRules.rulesStrings>
+    <li>subject->可部署的砲塔</li>
+    <li>subject_story->保衛了野獸世界城堡免受突擊</li>
+    <li>subject_story->曾在帝國空投船上操縱機尾槍</li>
+    <li>subject_story->研究了可部署的軍事科技</li>
+    <li>subject_story->參與了[worldname]戰爭中的壕溝戰</li>
+    <li>subject_gerund->製作可部署的槍砲塔</li>
+  </TurretPack.generalRules.rulesStrings>
+  
+</LanguageData>

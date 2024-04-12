@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ActivityMultipleDangerous>危險活躍等級</ActivityMultipleDangerous>
+  <ActivityDangerousDesc>這些實體處於危險的高活躍等級</ActivityDangerousDesc>  
+  <ActivityDangerousDescAppended>實體的活躍達到100%時，會變得更加危險。\n\n派出你的獄卒抑制這些實體，或使用實體的活躍面板啟用自動抑制。</ActivityDangerousDescAppended>
+
+  <NeedAnomalyProject>需要異邪項目</NeedAnomalyProject>
+  <NeedAnomalyProjectDesc>你有一個標記為研究的實體，但沒有選擇相符的異邪研究項目：</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDescLine>需要{NAME}異邪研究項目</NeedAnomalyProjectDescLine>
+  <NeedAnomalyProjectDescAppended>開啟研究選單，在異邪標籤下選擇一個項目。\n\n你可以同時選擇一個基礎和一個進階研究項目。\n\n（按一下以開啟研究選單。）</NeedAnomalyProjectDescAppended>
+
+  <CreepJoinerTimeout>被忽視的訪客</CreepJoinerTimeout>
+  <CreepJoinerTimeoutDesc>以下訪客感到被忽視，並越來越不滿</CreepJoinerTimeoutDesc>
+  <CreepJoinerTimeoutDescAppended>選擇一名殖民者並右鍵點擊訪客。\n\n動作快…他們可不喜歡被忽視的感覺。</CreepJoinerTimeoutDescAppended>
+
+  <Alert_UndercaveUnstable>不穩定的地下洞穴</Alert_UndercaveUnstable>
+  <Alert_UndercaveUnstableDesc>地下洞穴變得不穩定，即將倒塌。\n\n趁還來得及，把你的殖民者帶走。</Alert_UndercaveUnstableDesc>
+
+  <Alert_CultistPsychicRitual>邪教心靈儀式</Alert_CultistPsychicRitual>
+  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef}{INVOKER_nameDef}開始進行{RITUAL_definite}儀式。如果你不打斷{INVOKER_objective}，後果可能會很嚴重。</Alert_CultistPsychicRitualDesc>
+
+  <AlertMeatHunger>食屍鬼飢餓</AlertMeatHunger>
+  <AlertMeatHungerDesc>這些食屍鬼渴望生肉</AlertMeatHungerDesc>
+  <AlertMeatHungerDescAppended>如果不盡快餵食，牠們可能會發動攻擊。給牠們一些肉。</AlertMeatHungerDescAppended>
+  
+  <AlertEmergingPitGate>大坑洞開口</AlertEmergingPitGate>
+  <AlertEmergingPitGateDesc>地面正在崩塌。很快就會形成一個大坑洞。</AlertEmergingPitGateDesc>
+
+  <Alert_InsufficientContainment>收容不足</Alert_InsufficientContainment>
+  <Alert_InsufficientContainmentDesc>以下實體被關在不符合其最收容強度的空間中</Alert_InsufficientContainmentDesc>
+  <Alert_InsufficientContainmentDescAppended>他們很快就會逃脫。建造更堅固的牆壁、門或其他收容裝置來關住它們。</Alert_InsufficientContainmentDescAppended>
+
+  <AlertHoldingPlatform>需要收容平台</AlertHoldingPlatform>
+  <AlertHoldingPlatformDesc>建造收容平台或放置收容點，以收容和研究捕獲的實體。</AlertHoldingPlatformDesc>
+
+  <AlertCubeWithdrawal>立方體戒斷</AlertCubeWithdrawal>
+  <AlertCubeWithdrawalDesc>以下人員出現立方體戒斷</AlertCubeWithdrawalDesc>
+  <AlertCubeWithdrawalDescAppended>他們的皮膚發癢，頭腦高速運轉，渴望接近黃金立方體。他們的症狀會越來越嚴重，直到可以獲得立方體為止。\n\n確保他們有空閒時間可以接觸黃金立方體。</AlertCubeWithdrawalDescAppended>
+
+  <AlertDigestion>吞噬者消化</AlertDigestion>
+  <AlertDigestionDesc>以下的人或生物正在被吞噬者消化</AlertDigestionDesc>
+  <AlertDigestionDescAppended>趁還來得及，殺死吞噬者以解救他們。</AlertDigestionDescAppended>
+  
+  <AlertInhibitorBlocked>抑制器受阻</AlertInhibitorBlocked>
+  <AlertInhibitorBlockedDesc>你的其中一個電力抑制器無法運作，因為它被其他建築物阻擋。\n\n清空電力抑制器前方的空間。</AlertInhibitorBlockedDesc>
+
+  <EntityNeedsTreatment>需要治療實體</EntityNeedsTreatment>
+  <EntityNeedsTreatmentDesc>這些實體需要接受治療。沒有治療他們可能會被囚禁至死。\n{0}\n\n派出醫生治療他們。</EntityNeedsTreatmentDesc>
+
+  <AlertGhoulHypothermia>食屍鬼低溫症</AlertGhoulHypothermia>
+  <AlertGhoulHypothermiaDesc>這些食屍鬼正遭受低溫症的折磨：\n{0}\n\n讓牠們回到溫暖的溫度。</AlertGhoulHypothermiaDesc>\n\n</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>\n\n<LanguageData>
+
+  <!-- ITab_Entity -->
+  <HoldingPlatformEscapeMTBDays>逃脫間隔</HoldingPlatformEscapeMTBDays>
+  <HoldingPlatformEscapeMTBDaysDesc>逃脫之間的平均間隔時間。這會受到收容強度、實體類型、實體的移動能力，以及實體囚禁持續時間的影響。有些實體也會因為寒冷而受到壓制。</HoldingPlatformEscapeMTBDaysDesc>
+  <TabEntity>實體</TabEntity>
+  <StudyInterval>研究間隔</StudyInterval>
+  <StudyIntervalDesc>此實體的研究頻率。</StudyIntervalDesc>
+  <EntityStudyMode_MaintainOnly>僅維持</EntityStudyMode_MaintainOnly>
+  <EntityStudyMode_MaintainOnlyDesc>獄卒不會對此實體進行特別動作，但仍可進行其他互動。</EntityStudyMode_MaintainOnlyDesc>
+  <EntityStudyMode_Study>研究</EntityStudyMode_Study>
+  <EntityStudyMode_StudyDesc>研究人員將研究該實體。</EntityStudyMode_StudyDesc>
+  <EntityStudyMode_Release>釋放</EntityStudyMode_Release>
+  <EntityStudyMode_ReleaseDesc>獄卒會把實體從收容平台釋放出來。實體釋放時可能充滿敵意。</EntityStudyMode_ReleaseDesc>
+  <EntityStudyMode_Execute>處決</EntityStudyMode_Execute>
+  <EntityStudyMode_ExecuteDesc>獄卒會處決收容的實體。</EntityStudyMode_ExecuteDesc>
+  <CantBeExecuted>無法處決。</CantBeExecuted>
+  <StudyKnowledgeGain>獲得知識</StudyKnowledgeGain>
+  <StudyKnowledgeGainDesc>每個研究間隔獲得的知識量。更好的收容有助於研究人員專注於研究而不用擔心安全，從而獲得更多知識。</StudyKnowledgeGainDesc>
+  <MedicineQualityDescriptionEntity>此實體可以使用什麼類型的藥品。</MedicineQualityDescriptionEntity>
+
+  <FactorForElectroharvester>電力收集器</FactorForElectroharvester>
+  <FactorForDaysInCaptivity>長期收容</FactorForDaysInCaptivity>
+  <FactorForColdCaptivity>寒冷收容加成</FactorForColdCaptivity>
+  <IncapableOfEscaping>無法逃脫</IncapableOfEscaping>
+  <EntityDowned>實體被擊倒</EntityDowned>
+  <FactorContainmentStrength>收容強度</FactorContainmentStrength>
+  <FactorElectroharvester>電力收集器</FactorElectroharvester>
+  <FactorActivity>活動</FactorActivity>\n\n</LanguageData>

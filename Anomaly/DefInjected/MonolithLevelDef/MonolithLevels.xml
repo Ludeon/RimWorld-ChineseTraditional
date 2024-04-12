@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: The remnants of the monolith which linked our world to the void lie broken. The twisted patterns that once writhed across its surface are now motionless. You can study the broken stones to gain further knowledge of the void phenomena. -->
+  <Disrupted.monolithDescription>連接我們世界與虛空的巨石柱殘骸破碎了。曾經在表面蠕動的扭曲圖案如今毫無動靜。你可以研究破碎的石頭，進一步了解虛空現象。</Disrupted.monolithDescription>
+  <!-- EN: collapsed monolith -->
+  <Disrupted.monolithLabel>崩塌的巨石柱</Disrupted.monolithLabel>
+  
+  <!-- EN: Level 4: Awakened -->
+  <Embraced.levelInspectText>等級4 ：甦醒</Embraced.levelInspectText>
+  <!-- EN: void monolith -->
+  <Embraced.monolithLabel>虛空巨石柱</Embraced.monolithLabel>
+  
+  <!-- EN: The void has awoken. The gate is open. The darkness of the void rushes into our reality, manifested from a vast mind of endless rage. -->
+  <Gleaming.extraQuestDescription>虛空甦醒了。大門已經開啟。虛空的黑暗湧入了我們的現實，從無盡憤怒的巨大心靈中顯現出來。</Gleaming.extraQuestDescription>
+  <!-- EN: Level 4: Awakened -->
+  <Gleaming.levelInspectText>等級4 ：甦醒</Gleaming.levelInspectText>
+  <!-- EN: void monolith -->
+  <Gleaming.monolithLabel>虛空巨石柱</Gleaming.monolithLabel>
+  
+  <!-- EN: investigate {0} -->
+  <Inactive.activateFloatMenuText>調查{0}</Inactive.activateFloatMenuText>
+  <!-- EN: Send a colonist to investigate to the monolith. -->
+  <Inactive.activateGizmoDescription>派出一名殖民者調查巨石柱。</Inactive.activateGizmoDescription>
+  <!-- EN: investigate -->
+  <Inactive.activateGizmoText>調查</Inactive.activateGizmoText>
+  <!-- EN: Send a colonist to investigate to the monolith. -->
+  <Inactive.activateQuestText>派出一名殖民者調查巨石柱。</Inactive.activateQuestText>
+  <!-- EN: Twisting lines carved into the surface form a disturbing pattern. -->
+  <Inactive.levelInspectText>雕刻在表面的扭曲線條形成了令人不安的圖案。</Inactive.levelInspectText>
+  <!-- EN: Can be investigated now. -->
+  <Inactive.monolithCanBeActivatedText>現在可以進行調查。</Inactive.monolithCanBeActivatedText>
+  <!-- EN: fallen monolith -->
+  <Inactive.monolithLabel>倒塌的巨石柱</Inactive.monolithLabel>
+  <!-- EN: {PAWN_nameDef} has been sent to investigate the monolith. -->
+  <Inactive.pawnSentToActivateMessage>{PAWN_nameDef}被派去調查巨石柱。</Inactive.pawnSentToActivateMessage>
+  
+  <!-- EN: Attuning the monolith -->
+  <Stirring.activatableLetterLabel>調和巨石柱</Stirring.activatableLetterLabel>
+  <!-- EN: You now have sufficient knowledge of void-related phenomena to attune the void monolith and further open its psychic conduit.\n\nThis will draw the attention of more dangerous anomalous entities. -->
+  <Stirring.activatableLetterText>你現在對虛空相關現象有了足夠的了解，可以調和虛空巨石柱，進一步打開它的心靈管道。\n\n這樣會引起更加危險的異常實體的注意。</Stirring.activatableLetterText>
+  <!-- EN: As the monolith twisted and changed, {PAWN_nameDef} was overcome with a horrifying vision. In an instant, {PAWN_pronoun} understood.\n\nThe monolith is a doorway, just barely cracked open now. Something dark beyond imagination stirs on the other side, seeping into our reality.\n\nTerrified but excited, {PAWN_nameDef} is convinced {PAWN_pronoun} can learn more if given the time to study the monolith.\n\n - Building category unlocked: Anomaly\n - Research tab unlocked: Anomaly\n - Entity codex unlocked\n - You can now study the monolith and other entities to gain Anomaly research. -->
+  <Stirring.activatedLetterText>隨著巨石柱的扭曲和變化，{PAWN_nameDef}感受到一個可怕的幻象。{PAWN_pronoun}在一瞬間明白了。\n\n巨石柱是一扇門，現在只是打開了一線縫隙。在另外一側，有超乎想像的黑暗之物在蠢蠢欲動，正滲入我們的現實。\n\n{PAWN_nameDef}既害怕又興奮，並確信如果有時間研究巨石柱，{PAWN_pronoun}能學到更多東西。\n\n- 已解鎖建築類別：異邪\n- 已解鎖研究面板：異邪\n- 已解鎖實體法典\n- 你可以研究巨石柱和其他實體以獲得異邪研究。</Stirring.activatedLetterText>
+  <!-- EN: attune {0} -->
+  <Stirring.activateFloatMenuText>調和{0}</Stirring.activateFloatMenuText>
+  <!-- EN: Send a colonist to attune the monolith.\n\nThis will attract new and more dangerous entities. -->
+  <Stirring.activateGizmoDescription>派出一名殖民者調和巨石柱。\n\n這樣會吸引更危險的新實體。</Stirring.activateGizmoDescription>
+  <!-- EN: attune -->
+  <Stirring.activateGizmoText>調和</Stirring.activateGizmoText>
+  <!-- EN: Send a colonist to attune the monolith. -->
+  <Stirring.activateQuestText>派出一名殖民者調和巨石柱。</Stirring.activateQuestText>
+  <!-- EN: You've activated the monolith. It is a conduit for psychic energy, just barely cracked open now. A mind of incomprehensible horror stirs on the other side, and is now touching our world.\n\nThe monolith seems to be partly active, and there seems to be no way to shut it down. To learn more you must activate it further, which will require some special research. -->
+  <Stirring.extraQuestDescription>你啟動了巨石柱。它是心靈能量的管道，現在只是打開了一線縫隙。一個無法理解的恐怖意志在另一端蠢蠢欲動，並正在接觸我們的世界。\n\n巨石柱似乎只是啟動了一部分，而且似乎沒辦法關閉。要了解更多資訊，需要進行特殊的研究，以作進一步啟動。</Stirring.extraQuestDescription>
+  <!-- EN: Level 1: Intermittent psychic humming -->
+  <Stirring.levelInspectText>等級1：間歇性心靈嗡鳴</Stirring.levelInspectText>
+  <!-- EN: Can be attuned now. -->
+  <Stirring.monolithCanBeActivatedText>現在可以進行調和。</Stirring.monolithCanBeActivatedText>
+  <!-- EN: void monolith -->
+  <Stirring.monolithLabel>虛空巨石柱</Stirring.monolithLabel>
+  <!-- EN: {PAWN_nameDef} has been sent to attune the monolith. -->
+  <Stirring.pawnSentToActivateMessage>{PAWN_nameDef}被派去調和巨石柱。</Stirring.pawnSentToActivateMessage>
+  
+  <!-- EN: The sky darkens and a malevolent hum fills the air. The monolith has begun to awaken. Your actions have attracted the attention of something beyond human understanding.\n\nSoon, structures of the void will begin manifesting into this reality. Activate the arriving void structures to fully awaken the monolith.\n\nThe first wave will appear shortly. Prepare yourself. -->
+  <VoidAwakened.activatedLetterText>天空變暗，空氣中瀰漫著惡意的嗡鳴聲。巨石柱已經開始甦醒了。你的行動吸引了某種人類無法理解的東西的注意。\n\n虛空結構很快就會開始在現實中顯現。啟動即將到來的虛空結構，以完全喚醒巨石柱。\n\n第一波即將出現。做好準備。</VoidAwakened.activatedLetterText>
+  <!-- EN: The void has awoken. The gate is open. The darkness of the void rushes into our reality, manifested from a vast mind of endless rage. -->
+  <VoidAwakened.extraQuestDescription>虛空甦醒了。大門已經開啟。虛空的黑暗湧入了我們的現實，從無盡憤怒的巨大心靈中顯現出來。</VoidAwakened.extraQuestDescription>
+  <!-- EN: Level 3: Awakening -->
+  <VoidAwakened.levelInspectText>等級3 ：甦醒</VoidAwakened.levelInspectText>
+  <!-- EN: void monolith -->
+  <VoidAwakened.monolithLabel>虛空巨石柱</VoidAwakened.monolithLabel>
+  
+  <!-- EN: Awakening the monolith -->
+  <Waking.activatableLetterLabel>喚醒巨石柱</Waking.activatableLetterLabel>
+  <!-- EN: You now have enough knowledge of dark phenomena to fully awaken the void monolith, opening a two-way conduit to the void.\n\nBe warned - once you begin awakening the void monolith, there is no going back. The process will shroud the region in unnatural darkness and manifest waves of horrifying entities.\n\nMake sure your colony is well-lit and well-prepared. -->
+  <Waking.activatableLetterText>你現在對黑暗現象有足夠的了解，可以完全喚醒虛空巨石柱，打開通往虛空的雙向管道。\n\n警告：一旦開始喚醒虛空巨石柱，就無法回頭了。這個過程會將該地區籠罩在不自然的黑暗中，並顯現出許多波的恐怖實體。\n\n確保你的殖民地光線充足，做好準備。</Waking.activatableLetterText>
+  <!-- EN: Attuning the monolith caused it to twist and grow once more. As it did, {PAWN_nameDef} caught a glimpse of what lurks beyond. {PAWN_pronoun} understood.\n\nThe monolith is a doorway, opened wider by your actions. On the other side, {PAWN_nameDef} sensed an inhuman intelligence of vast complexity and endless rage. The dark machine god is stirring, and its physical influence will grow.\n\n - New entities are now discoverable. -->
+  <Waking.activatedLetterText>調和巨石柱使它再次扭曲生長。同時，{PAWN_nameDef}瞥見了潛伏在巨石柱之外的東西。{PAWN_pronoun}明白了。\n\n巨石柱是一扇門，因為你的行動而大開。另一方面，{PAWN_nameDef}感覺到一種巨大複雜和無盡憤怒的非人智慧。黑暗機械之神正蠢蠢欲動，其對物質的影響力將會日漸增強。\n\n- 可以發現新的實體。</Waking.activatedLetterText>
+  <!-- EN: awaken {0} -->
+  <Waking.activateFloatMenuText>喚醒{0}</Waking.activateFloatMenuText>
+  <!-- EN: Send a colonist to wake the monolith. The psychic signature will be detectable for hundreds of miles and attract all manner of horrors. Make sure you are prepared.\n\nOnce fully awakened, the monolith will provide a direct link to the void. -->
+  <Waking.activateGizmoDescription>派出一名殖民者喚醒巨石柱。數百英內的心靈訊號都將被偵測到，並會吸引各種恐懼實體。請務必做好準備。\n\n完全喚醒後，巨石柱將提供通往虛空的直接連結。</Waking.activateGizmoDescription>
+  <!-- EN: awaken -->
+  <Waking.activateGizmoText>喚醒</Waking.activateGizmoText>
+  <!-- EN: Send a colonist to awaken the monolith. -->
+  <Waking.activateQuestText>派出一名殖民者喚醒巨石柱。</Waking.activateQuestText>
+  <!-- EN: The monolith is a conduit to the void where a dark superintelligence processes endless vast dreams of rage and hate. You opened the conduit and it is now partially active. If you activate it further you can find a way to close it - or harness its power. -->
+  <Waking.extraQuestDescription>巨石柱是通往虛空的管道，虛空中有著黑暗的超智慧，掌管無盡的憤怒和仇恨的廣大夢境。你打開了管道，並啟動了一部分。如果你進一步啟動，就能找到關閉它的方法，或是利用它的力量。</Waking.extraQuestDescription>
+  <!-- EN: Level 2: Pulsing with psychic energy -->
+  <Waking.levelInspectText>等級2：心靈能量脈衝</Waking.levelInspectText>
+  <!-- EN: Can be awakened now. -->
+  <Waking.monolithCanBeActivatedText>現在可以喚醒。</Waking.monolithCanBeActivatedText>
+  <!-- EN: void monolith -->
+  <Waking.monolithLabel>虛空巨石柱</Waking.monolithLabel>
+  <!-- EN: {PAWN_nameDef} has been sent to awaken the monolith. -->
+  <Waking.pawnSentToActivateMessage>{PAWN_nameDef}被派去喚醒巨石柱。</Waking.pawnSentToActivateMessage>
+  
+</LanguageData>
