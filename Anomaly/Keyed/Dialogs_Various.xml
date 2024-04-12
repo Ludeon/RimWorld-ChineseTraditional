@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Reading management -->
+  <!-- EN: {0} max mental break chance -->
+  <MaxMentalBreakChance>{0}最高精神崩潰機率</MaxMentalBreakChance>
+  <!-- EN: Tomes -->
+  <TomePolicy>巨著</TomePolicy>
+
+  <!-- Caravan -->
+  <!-- EN: Entities -->
+  <EntitiesSection>實體</EntitiesSection>
+  
+  <!-- Hidden items filter -->
+  <!-- EN: Undiscovered -->
+  <UndiscoveredItemLabel>未探索</UndiscoveredItemLabel>
+  <!-- EN: This item has not been discovered yet. -->
+  <UndiscoveredItemDesc>還沒發現這個物品。</UndiscoveredItemDesc>
+
+  <!-- Medical settings -->
+  <!-- EN: Entities -->
+  <MedGroupEntities>實體</MedGroupEntities>
+  <!-- EN: Anomalous entities and their variations. -->
+  <MedGroupEntitiesDesc>異常實體及其變體。</MedGroupEntitiesDesc>
+
+  <!-- EN: Ghouls -->
+  <MedGroupGhouls>食屍鬼</MedGroupGhouls>
+  <!-- EN: Ghouls belonging to your colony. -->
+  <MedGroupGhoulsDesc>屬於你殖民地的食屍鬼。</MedGroupGhoulsDesc>
+
+  <!-- EN: Turning {PAWN_nameDef} into a ghoul is irreversible. {PAWN_pronoun} will be left in a half-conscious stupor and be incapable of work.\n\nAre you sure you want to turn {PAWN_nameDef} into a ghoul? -->
+  <GhoulConfirmation>把{PAWN_nameDef}變成成食屍鬼是不可逆的。{PAWN_pronoun}會陷入半昏迷狀態，無法工作。\n\n確定要把{PAWN_nameDef}變成食屍鬼嗎？</GhoulConfirmation>
+
+  <!-- EN: no anomaly buildings allowed -->
+  <RoomRequirementNoAnomalyBuildings>不可有異邪的建築物</RoomRequirementNoAnomalyBuildings>
+
+  <!-- EN: Entity codex -->
+  <EntityCodex>實體法典</EntityCodex>
+  <!-- EN: View all discovered entities. Discover new entities to advance the monolith and reveal new research projects. -->
+  <EntityCodexGizmoTip>查看所有已發現的實體。發掘新的實體以推進巨石柱並揭開新的研究項目。</EntityCodexGizmoTip>
+  <!-- EN: Research unlocks -->
+  <ResearchUnlocks>解鎖研究</ResearchUnlocks>
+  <!-- EN: This page lists all known entities which are related to the dark void. Discover new entities using the “void provocation” psychic ritual. Discovering new entities reveals new research projects, and allows you to advance the void monolith. -->
+  <EntityCodexDesc>此頁面列出了與黑暗虛空相關的所有已知實體。使用「虛空挑釁」心靈儀式來發現新的實體。發現新的實體揭開新的研究項目，並令你可以升級虛空巨石柱。</EntityCodexDesc>
+  <!-- EN: Undiscovered entity -->
+  <UndiscoveredEntity>未探索實體</UndiscoveredEntity>
+  <!-- EN: You have not discovered this entity. -->
+  <UndiscoveredEntityDesc>你尚未發現此實體。你可以使用「虛空挑釁」心靈儀式來發掘新的實體。</UndiscoveredEntityDesc>
+  <!-- EN: View entity codex -->
+  <ViewEntityCodex>查看實體法典</ViewEntityCodex>
+
+</LanguageData>

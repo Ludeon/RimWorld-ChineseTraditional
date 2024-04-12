@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: adrenal heart -->
+  <AdrenalHeart.label>腎上腺心臟</AdrenalHeart.label>
+  <!-- EN: A modified human heart that can release stress hormones and liquid energy into the bloodstream, allowing a ghoul to move and attack at incredible speeds. -->
+  <AdrenalHeart.description>一種改良的人類心臟，能使壓力荷爾蒙和液體能量釋放到血液中，讓食屍鬼能以驚人的速度移動和攻擊。</AdrenalHeart.description>
+  
+  <!-- EN: corrosive heart -->
+  <CorrosiveHeart.label>腐蝕心臟</CorrosiveHeart.label>
+  <!-- EN: A modified human heart that allows a ghoul to spray corrosive fluid. -->
+  <CorrosiveHeart.description>一種改良的人類心臟，可以讓食屍鬼噴射腐蝕性液體。</CorrosiveHeart.description>
+  
+  <!-- EN: fleshmass lung -->
+  <FleshmassLung.label>血肉團肺</FleshmassLung.label>
+  <!-- EN: A cancerous mass of semi-sentient flesh. The tissue constantly regrows and replaces itself, making it immune to effects like lung rot and asthma.\n\nThe organ has its own neural structures and may become dangerous if removed. -->
+  <FleshmassLung.description>一堆腫瘤般的半具知覺血肉。這種組織會不斷再生並自我替換，使其免疫肺腐爛和哮喘等影響。\n\n器官有自己的神經結構，如果移除可能會變得危險。</FleshmassLung.description>
+  <!-- EN: Fleshmass operation -->
+  <FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterLabel>血肉團手術</FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterLabel>
+  <!-- EN: Attempting to remove {PAWN_nameDef}'s fleshmass lung has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
+  <FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterText>嘗試移除{PAWN_nameDef}的血肉團肺，導致扭曲的血肉發起攻擊。血肉團已經從{PAWN_nameDef}身上分離出來，變成了血肉獸！</FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterText>
+  <!-- EN: a fleshmass lung -->
+  <FleshmassLung.labelNoun>血肉團肺</FleshmassLung.labelNoun>
+  
+  <!-- EN: fleshmass stomach -->
+  <FleshmassStomach.label>血肉團胃</FleshmassStomach.label>
+  <!-- EN: A cancerous mass of semi-sentient flesh. The harsh acid it produces is painful, but strong enough to prevent most food poisoning.\n\nThe organ has its own neural structures and may become dangerous if removed. -->
+  <FleshmassStomach.description>一堆腫瘤般的半具知覺血肉。產生的強烈酸液會使人疼痛，但能夠防止大部分食物中毒。\n\n器官有自己的神經結構，如果移除可能會變得危險。</FleshmassStomach.description>
+  <!-- EN: Fleshmass operation -->
+  <FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterLabel>血肉團手術</FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterLabel>
+  <!-- EN: Attempting to remove {PAWN_nameDef}'s fleshmass stomach has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
+  <FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterText>嘗試移除{PAWN_nameDef}的血肉團胃，導致扭曲的血肉發起攻擊。血肉團已經從{PAWN_nameDef}身上分離出來，變成了血肉獸！</FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterText>
+  <!-- EN: a fleshmass stomach -->
+  <FleshmassStomach.labelNoun>血肉團胃</FleshmassStomach.labelNoun>
+  
+  <!-- EN: flesh whip -->
+  <FleshWhip.label>血肉鞭</FleshWhip.label>
+  <!-- EN: A fleshy, muscled tentacle with a blade at the end. The flesh whip makes an excellent melee weapon.\n\nIt has its own neural structures and may become dangerous if removed. -->
+  <FleshWhip.description>血肉狀、肌肉發達的觸手，末端帶有刀刃。血肉鞭是絕佳的近戰武器。血肉鞭是絕佳的近戰武器。\n\n它有自己的神經結構，如果移除可能會變得危險。</FleshWhip.description>
+  <!-- EN: blade -->
+  <FleshWhip.comps.HediffComp_VerbGiver.tools.blade.label>刀刃</FleshWhip.comps.HediffComp_VerbGiver.tools.blade.label>
+  <!-- EN: Fleshmass operation -->
+  <FleshWhip.comps.HediffComp_FleshbeastEmerge.letterLabel>血肉團手術</FleshWhip.comps.HediffComp_FleshbeastEmerge.letterLabel>
+  <!-- EN: Attempting to remove {PAWN_nameDef}'s flesh whip has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
+  <FleshWhip.comps.HediffComp_FleshbeastEmerge.letterText>嘗試移除{PAWN_nameDef}的血肉鞭，導致扭曲的血肉發起攻擊。血肉團已經從{PAWN_nameDef}身上分離出來，變成了血肉獸！</FleshWhip.comps.HediffComp_FleshbeastEmerge.letterText>
+  <!-- EN: a flesh whip -->
+  <FleshWhip.labelNoun>血肉鞭</FleshWhip.labelNoun>
+  
+  <!-- EN: ghoul barbs -->
+  <GhoulBarbs.label>食屍鬼倒刺</GhoulBarbs.label>
+  <!-- EN: A number of barbed bioferrite spikes have been surgically attached to this ghoul. -->
+  <GhoulBarbs.description>這個食屍鬼身上用手術裝上了許多倒鉤生化鐵氧體尖刺。</GhoulBarbs.description>
+  <!-- EN: Ghoul spikes -->
+  <GhoulBarbs.renderNodeProperties.0.debugLabel>食屍鬼尖刺</GhoulBarbs.renderNodeProperties.0.debugLabel>
+  <!-- EN: Ghoul spikes -->
+  <GhoulBarbs.renderNodeProperties.1.debugLabel>食屍鬼尖刺</GhoulBarbs.renderNodeProperties.1.debugLabel>
+  
+  <!-- EN: ghoul plating -->
+  <GhoulPlating.label>食屍鬼鍍層</GhoulPlating.label>
+  <!-- EN: A number of large bioferrite plates have been surgically attached to this ghoul. -->
+  <GhoulPlating.description>這個食屍鬼身上用手術裝上了許多大型生化鐵氧體鍍層。</GhoulPlating.description>
+  <!-- EN: Ghoul plates -->
+  <GhoulPlating.renderNodeProperties.0.debugLabel>食屍鬼鍍層</GhoulPlating.renderNodeProperties.0.debugLabel>
+  
+  <!-- EN: metalblood heart -->
+  <MetalbloodHeart.label>鐵血心臟</MetalbloodHeart.label>
+  <!-- EN: A modified human heart that can pump metalblood into the bloodstream, making the ghoul more resistant to damage for a short period of time. -->
+  <MetalbloodHeart.description>一顆改良過的人類心臟，可以將鐵血注入血液中，使食屍鬼在短時間內更能抵抗傷害。</MetalbloodHeart.description>
+  
+  <!-- EN: revenant vertebrae -->
+  <RevenantVertebrae.label>亡魂脊椎骨</RevenantVertebrae.label>
+  <!-- EN: An installed prosthetic that allows the user to temporarily become invisible. The prosthetic is crafted from a modified revenant spine, using archotech shards to restrain the dormant revenant. The user can manipulate the visual centers of those nearby, effectively turning themself invisible for a short time. -->
+  <RevenantVertebrae.description>已安裝的義體，可讓使用者暫時隱形。義體由改良的亡魂脊椎製成，使用遠古科技碎片來抑制休眠的亡魂。使用者可以操縱附近生物的視覺中樞，有效地使自己在短時間內隱形。</RevenantVertebrae.description>
+  
+  <!-- EN: flesh tentacle -->
+  <Tentacle.label>血肉觸手</Tentacle.label>
+  <!-- EN: A fleshy, muscled tentacle resembling a partial transformation into a fleshbeast. The tentacle is excellent at manipulation.\n\nThe flesh tentacle has its own neural structures and may become dangerous if removed. -->
+  <Tentacle.description>血肉狀、肌肉發達的觸手，令人看起來像部分變身成血肉獸。這種觸手操縱性極佳。\n\n血肉觸手有自己的神經結構，如果移除可能會變得危險。</Tentacle.description>
+  <!-- EN: Fleshmass operation -->
+  <Tentacle.comps.HediffComp_FleshbeastEmerge.letterLabel>血肉團手術</Tentacle.comps.HediffComp_FleshbeastEmerge.letterLabel>
+  <!-- EN: Attempting to remove {PAWN_nameDef}'s tentacle has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
+  <Tentacle.comps.HediffComp_FleshbeastEmerge.letterText>嘗試移除{PAWN_nameDef}的觸手，導致扭曲的血肉發起攻擊。血肉團已經從{PAWN_nameDef}身上分離出來，變成了血肉獸！</Tentacle.comps.HediffComp_FleshbeastEmerge.letterText>
+  <!-- EN: a flesh tentacle -->
+  <Tentacle.labelNoun>血肉觸手</Tentacle.labelNoun>
+  
+</LanguageData>

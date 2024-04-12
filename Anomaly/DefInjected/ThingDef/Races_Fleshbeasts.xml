@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bulbfreak -->
+  <Bulbfreak.label>球形怪胎</Bulbfreak.label>
+  <!-- EN: A horrid oozing amalgamation of many smaller fleshbeasts, all controlled by a linked nervous system. It has two large claws which it uses to tear through its victims. Bulbfreaks are often smelled before they are seen, giving off an overwhelming odor of rancid meat. They are relatively slow and easy to kill, but once they die, they explode into a horde of smaller fleshbeasts. -->
+  <Bulbfreak.description>由許多較小的血肉獸組成並不斷滲出體液的可怕合併體，所有的個體都被一個互相聯結的神經系統所控制。牠有兩隻大爪子，用來撕裂受害者。球形怪胎會散發出難以忍受的腐肉臭味，使牠們經常在出現前就會被其他人聞到。牠們的行動相對緩慢且容易殺死，但一旦死亡，牠們就會炸裂成一群較小的血肉獸。</Bulbfreak.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Bulbfreak.comps.CompInspectStringEmergence.inspectString>從{SOURCEPAWN_labelShort}身上出現。</Bulbfreak.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-0.label>觸手</Bulbfreak.tools.tentacle-0.label>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-1.label>觸手</Bulbfreak.tools.tentacle-1.label>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-2.label>觸手</Bulbfreak.tools.tentacle-2.label>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-3.label>觸手</Bulbfreak.tools.tentacle-3.label>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-4.label>觸手</Bulbfreak.tools.tentacle-4.label>
+  <!-- EN: head -->
+  <Bulbfreak.tools.head.label>頭部</Bulbfreak.tools.head.label>
+  
+  <!-- EN: dreadmeld -->
+  <Dreadmeld.label>恐懼之合</Dreadmeld.label>
+  <!-- EN: A gargantuan amalgamation of dozens of smaller fleshbeasts linked together by a loosely shared central nervous system. It uses its massive claws to dig tunnels through solid rock. Fleshbeast dreadmelds are rarely seen above ground, instead sheltering in caverns built from living flesh. They share a psychic connection with the flesh used to create their burrow. -->
+  <Dreadmeld.description>由數十隻較小的血肉獸藉由一個大致共享的中樞神經系統聯結在一起，而組成的巨大合併體。牠會用巨大的爪子在堅硬的岩石中挖掘隧道。血肉獸恐懼之合很少出現在地面上，而是會躲藏在用活生生的血肉所構成的洞穴中。牠們與用來創造其洞穴的血肉有心靈連結。</Dreadmeld.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Dreadmeld.comps.CompInspectStringEmergence.inspectString>從{SOURCEPAWN_labelShort}身上出現。</Dreadmeld.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: Dreadmeld released -->
+  <Dreadmeld.comps.CompLetterOnRevealed.label>恐懼之合被釋放</Dreadmeld.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered a fleshbeast dreadmeld! This mammoth creature seems to be a made up of dozens of smaller fleshbeasts.\n\nIt appears to have some psychic connection to the fleshmass that supports this cavern. Killing it may destabilize the entire cave system. -->
+  <Dreadmeld.comps.CompLetterOnRevealed.text>你發現了血肉獸恐懼之合！這隻巨大的生物似乎是由數十隻較小的血肉獸組成的。\n\n牠似乎與支撐這個洞穴的血肉團有某種心靈連結。殺死牠可能會破壞整個洞穴系統的穩定性。</Dreadmeld.comps.CompLetterOnRevealed.text>
+  <!-- EN: left spike -->
+  <Dreadmeld.tools.left_spike.label>左尖刺</Dreadmeld.tools.left_spike.label>
+  <!-- EN: spike -->
+  <Dreadmeld.tools.left_spike.labelNoLocation>尖刺</Dreadmeld.tools.left_spike.labelNoLocation>
+  <!-- EN: right spike -->
+  <Dreadmeld.tools.right_spike.label>右尖刺</Dreadmeld.tools.right_spike.label>
+  <!-- EN: spike -->
+  <Dreadmeld.tools.right_spike.labelNoLocation>尖刺</Dreadmeld.tools.right_spike.labelNoLocation>
+  <!-- EN: head -->
+  <Dreadmeld.tools.head.label>頭部</Dreadmeld.tools.head.label>
+  
+  <!-- EN: fingerspike -->
+  <Fingerspike.label>指尖刺</Fingerspike.label>
+  <!-- EN: A fleshy dog-sized creature with a single spiked limb. Despite their short legs, fingerspikes can move remarkably fast. -->
+  <Fingerspike.description>一種和狗差不多大小的肉質生物，具有一個帶尖刺的肢體。儘管指尖刺的腿很短，牠們仍然可以非常快速地移動。</Fingerspike.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Fingerspike.comps.CompInspectStringEmergence.inspectString>從{SOURCEPAWN_labelShort}身上出現。</Fingerspike.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: spike -->
+  <Fingerspike.tools.spike.label>尖刺</Fingerspike.tools.spike.label>
+  <!-- EN: spike -->
+  <Fingerspike.tools.spike.labelNoLocation>尖刺</Fingerspike.tools.spike.labelNoLocation>
+  <!-- EN: head -->
+  <Fingerspike.tools.head.label>頭部</Fingerspike.tools.head.label>
+  
+  <!-- EN: toughspike -->
+  <Toughspike.label>韌尖刺</Toughspike.label>
+  <!-- EN: A fleshy man-sized creature with two spiked limbs and an armored carapace. Toughspikes throw hardened keratin spikes to take down victims from a distance.\n\nToughspike corpses will dissolve into puddles of liquefied flesh if they're not butchered quickly. -->
+  <Toughspike.description>一種和人類差不多大小的肉質生物，有兩個帶尖刺的肢體和一個裝甲甲殼。韌尖刺會投擲堅硬的角蛋白尖刺，擊倒遠處的受害者。\n\n如果不迅速屠宰的話，韌尖刺的屍體會溶解成一個個的液化血肉坑。</Toughspike.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Toughspike.comps.CompInspectStringEmergence.inspectString>從{SOURCEPAWN_labelShort}身上出現。</Toughspike.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: left spike -->
+  <Toughspike.tools.left_spike.label>左尖刺</Toughspike.tools.left_spike.label>
+  <!-- EN: spike -->
+  <Toughspike.tools.left_spike.labelNoLocation>尖刺</Toughspike.tools.left_spike.labelNoLocation>
+  <!-- EN: right spike -->
+  <Toughspike.tools.right_spike.label>右尖刺</Toughspike.tools.right_spike.label>
+  <!-- EN: spike -->
+  <Toughspike.tools.right_spike.labelNoLocation>尖刺</Toughspike.tools.right_spike.labelNoLocation>
+  <!-- EN: head -->
+  <Toughspike.tools.head.label>頭部</Toughspike.tools.head.label>
+  
+  <!-- EN: trispike -->
+  <Trispike.label>三尖刺</Trispike.label>
+  <!-- EN: A man-sized amalgamation of several smaller fleshbeasts. Each of the creature's limbs is capable of surviving independently. On death, trispikes may split into separate fingerspikes as each limb rips free and attacks. -->
+  <Trispike.description>由數隻較小的血肉獸組成，和人類差不多大小的合併體。此生物的每一個肢體都能獨立生存。三尖刺死亡時，可能會隨其每個肢體撕裂開來並發動攻擊，而分裂成獨立的指尖刺。</Trispike.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Trispike.comps.CompInspectStringEmergence.inspectString>從{SOURCEPAWN_labelShort}身上出現。</Trispike.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: left spike -->
+  <Trispike.tools.left_spike.label>左尖刺</Trispike.tools.left_spike.label>
+  <!-- EN: spike -->
+  <Trispike.tools.left_spike.labelNoLocation>尖刺</Trispike.tools.left_spike.labelNoLocation>
+  <!-- EN: right spike -->
+  <Trispike.tools.right_spike.label>右尖刺</Trispike.tools.right_spike.label>
+  <!-- EN: spike -->
+  <Trispike.tools.right_spike.labelNoLocation>尖刺</Trispike.tools.right_spike.labelNoLocation>
+  <!-- EN: top spike -->
+  <Trispike.tools.top_spike.label>頂端尖刺</Trispike.tools.top_spike.label>
+  <!-- EN: spike -->
+  <Trispike.tools.top_spike.labelNoLocation>尖刺</Trispike.tools.top_spike.labelNoLocation>
+  <!-- EN: head -->
+  <Trispike.tools.head.label>頭部</Trispike.tools.head.label>
+  
+</LanguageData>

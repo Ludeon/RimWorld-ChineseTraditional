@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: acid spit -->
+  <Bullet_Shell_AcidSpit.label>酸液噴吐</Bullet_Shell_AcidSpit.label>
+  
+  <!-- EN: fleshbulb -->
+  <Fleshbulb.label>血肉球</Fleshbulb.label>
+  <!-- EN: A bulbous mass of flesh. These fleshbeast organs store and refine nutrients for surrounding fleshmass. The chemical process generates a soft bioluminescent glow. -->
+  <Fleshbulb.description>一團球狀的血肉。這些血肉獸器官為周圍的血肉團儲存和提煉養分。化學過程會產生柔和的生物光。</Fleshbulb.description>
+  
+  <!-- EN: fleshmass -->
+  <Fleshmass.label>血肉團</Fleshmass.label>
+  <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
+  <Fleshmass.description>一團扭曲的血肉。因可怕的生命而跳動顫抖。</Fleshmass.description>
+  
+  <!-- EN: fleshmass -->
+  <Fleshmass_Active.label>血肉團</Fleshmass_Active.label>
+  <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
+  <Fleshmass_Active.description>一團扭曲的血肉。因可怕的生命而跳動顫抖。</Fleshmass_Active.description>
+  
+  <!-- EN: fleshmass heart -->
+  <FleshmassHeart.label>血肉團心臟</FleshmassHeart.label>
+  <!-- EN: The primary organ of a fleshmass infestation. The heart gathers material through roots extended into the ground. Once it has collected enough, it spreads fleshmass around itself in a spurt of cancer-like growth. It will keep growing until it consumes everything.\n\nThe heart grows fleshmass spitters. These defensive organs can spit acid long distances. The heart will also generate fleshbeast defenders to protect itself.\n\nUltra-rapid regeneration makes the heart nearly invulnerable. It can only be killed by analyzing samples taken from the nerve bundles that form within its growing mass. -->
+  <FleshmassHeart.description>血肉團侵擾的主要器官。心臟透過伸入到地下的根部收集養分。一旦收集到足夠的數量，就會像癌細胞一樣向周圍生長血肉團。它會不斷生長，直到吞噬一切。\n\n心臟長有血肉團噴口。這些防禦器官可以遠距離噴吐酸液。心臟也會產生血肉獸來保護自己。\n\n超快的再生速度使心臟幾乎無懈可擊。只能透過分析在其生長過程中形成的神經束樣本來殺死它。</FleshmassHeart.description>
+  <!-- EN: Use electrical pulses to induce a tachycardiac overload and kill the fleshmass heart. -->
+  <FleshmassHeart.comps.CompDestroyHeart.activateDescString>使用電脈衝誘發心跳過快，殺死血肉團心臟。</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
+  <!-- EN: Induce tachycardiac death... -->
+  <FleshmassHeart.comps.CompDestroyHeart.activateLabelString>誘發心跳過快死亡…</FleshmassHeart.comps.CompDestroyHeart.activateLabelString>
+  <!-- EN: Inducing tachycardiac death: {1}s -->
+  <FleshmassHeart.comps.CompDestroyHeart.activatingString>誘發心跳過快死亡：{1}秒</FleshmassHeart.comps.CompDestroyHeart.activatingString>
+  <!-- EN: Inducing tachycardiac death -->
+  <FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>誘發心跳過快死亡</FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FleshmassHeart.comps.CompDestroyHeart.guiLabelString>選擇進行人員</FleshmassHeart.comps.CompDestroyHeart.guiLabelString>
+  <!-- EN: Induce tachycardiac death -->
+  <FleshmassHeart.comps.CompDestroyHeart.jobString>誘發心跳過快死亡</FleshmassHeart.comps.CompDestroyHeart.jobString>
+  
+  <!-- EN: underground emergence -->
+  <FleshmassHeartSpawner.label>從地底冒出</FleshmassHeartSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <FleshmassHeartSpawner.description>有東西從地底冒了出來。</FleshmassHeartSpawner.description>
+  <!-- EN: Fleshmass heart -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>血肉團心臟</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
+  <!-- EN: A fleshmass heart has emerged! This cancer-like creature will expand its living mass across the surface.\n\nThe heart itself is invulnerable to normal weapons. Fleshmass nerve bundles will soon appear - attack them to gather samples and find a way to kill the heart. -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterText>出現了一個血肉團心臟！這種類似腫瘤的生物會在地表擴張牠的肉體。\n\n普通武器無法對心臟造成傷害。血肉團神經束很快就會出現，攻擊它們以收集樣本，並找出殺死心臟的方法。</FleshmassHeartSpawner.building.groundSpawnerLetterText>
+  
+  <!-- EN: fleshmass spitter -->
+  <FleshmassSpitter.label>血肉團噴口</FleshmassSpitter.label>
+  <!-- EN: A defensive fleshmass organ that can spit acid long distances. The acid is a natural byproduct of toxins filtered from the surrounding biomass. -->
+  <FleshmassSpitter.description>一種可以遠距離噴吐酸液的防禦性血肉團器官。酸液是從周圍生物質中過濾出毒素的天然副產物。</FleshmassSpitter.description>
+  <!-- EN: fleshmass spitter -->
+  <FleshmassSpitter.verbs.Verb_Shoot.label>血肉團噴口</FleshmassSpitter.verbs.Verb_Shoot.label>
+  
+  <!-- EN: flesh sack -->
+  <FleshSack.label>血肉囊</FleshSack.label>
+  <!-- EN: A swollen lump of flesh with something inside. These stationary fleshbeasts act as digestive organs, supplying the surrounding fleshmass with nutrients. However, they're unable to break down non-organic matter, meaning that valuable items can occasionally be found within. -->
+  <FleshSack.description>裝有東西的腫脹肉塊。這些不動的血肉獸是消化器官，為周圍的血肉團提供養分。但它們無法分解非有機物質，這代表著偶爾可以在裡面找到貴重物品。</FleshSack.description>
+  
+  <!-- EN: nerve bundle -->
+  <NerveBundle.label>神經束</NerveBundle.label>
+  <!-- EN: A junction point in the fleshmass nervous system. When destroyed, it leaves behind a lump of neural tissue that you can study. Study enough different neural lumps and you can unlock a way to kill the fleshmass heart itself. -->
+  <NerveBundle.description>血肉團神經系統的連接點。被破壞時，會留下一塊可以研究的神經組織。研究夠多不同的神經腫塊，就可以解鎖殺死血肉團心臟的方法。</NerveBundle.description>
+  <!-- EN: Kill to collect: Neural lump -->
+  <NerveBundle.comps.CompInspectString.inspectString>擊殺以收集：神經腫塊</NerveBundle.comps.CompInspectString.inspectString>
+  
+</LanguageData>

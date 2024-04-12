@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: psychic ritual -->
+  <PsychicRitual>心靈儀式</PsychicRitual>
+  <!-- EN: Begin psychic ritual -->
+  <CastPsychicRitual>開始心靈儀式</CastPsychicRitual>
+  <!-- EN: Select a psychic ritual to perform -->
+  <CastPsychicRitualDesc>選擇要執行的心靈儀式</CastPsychicRitualDesc>
+  <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
+  <CannotCastPsychicRitual>{0_labelShort}無法進行{1}心靈儀式，因為 {2}。</CannotCastPsychicRitual>
+  <!-- EN: The {0} psychic ritual has begun. -->
+  <PsychicRitualBegun>{0}心靈儀式已經開始。</PsychicRitualBegun>
+  <!-- EN: The {0} psychic ritual has been completed. -->
+  <PsychicRitualCompleted>{0}心靈儀式已經完成。</PsychicRitualCompleted>
+  <!-- EN: attending {RITUALNAME} psychic ritual -->
+  <PsychicRitualAttending>參加{RITUALNAME}心靈儀式</PsychicRitualAttending>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <ParticipatingInPsychicRitual>{0_labelShort}正在參與{1}心靈儀式。</ParticipatingInPsychicRitual>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <AbilityDisabledInPsychicRitual>{0_labelShort}正在參與{1}心靈儀式。</AbilityDisabledInPsychicRitual>
+  <!-- EN: choose a location -->
+  <PsychicRitual_LocationTargetting>選擇一個位置</PsychicRitual_LocationTargetting>
+  <!-- EN: total quality -->
+  <PsychicRitualExpectedQualityLabel>總品質</PsychicRitualExpectedQualityLabel>
+  <!-- EN: quality factors -->
+  <PsychicRitualQualityFactorLabel>品質倍率</PsychicRitualQualityFactorLabel>
+  <!-- EN: duration -->
+  <PsychicRitualExpectedDurationLabel>持續時間</PsychicRitualExpectedDurationLabel>
+  <!-- EN: required offering -->
+  <PsychicRitualRequiredOffering>需要的供奉</PsychicRitualRequiredOffering>
+  <!-- EN: Caused by psychic ritual -->
+  <CausedByPsychicRitual>心靈儀式引發</CausedByPsychicRitual>
+  <!-- EN: Cooldown -->
+  <PsychicRitualCooldownLabel>冷卻</PsychicRitualCooldownLabel>
+
+  <!-- EN: Psychic ritual area obstructed. -->
+  <PsychicRitualSpotObstructed>心靈儀式區域受阻。</PsychicRitualSpotObstructed>
+  <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
+  <PsychicRitualOnCooldown>心靈儀式冷卻中。{0}後可再次進行。</PsychicRitualOnCooldown>
+  <!-- EN: The {0} psychic ritual can be performed again. -->
+  <PsychicRitualCanBeCastAgain>{0}心靈儀式可以再次進行。</PsychicRitualCanBeCastAgain>
+  <!-- EN: No basic anomaly research project selected. -->
+  <NoBasicResearchForPsychicRitual>未選擇基礎異邪研究項目。</NoBasicResearchForPsychicRitual>
+  <!-- EN: Must perform {0} psychic ritual on the surface. -->
+  <CantCastOnPocketMap>必須在地面進行{0}心靈儀式。</CantCastOnPocketMap>
+
+  <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
+  <PsychicRitualFactionWarning>警告：在{PAWN_nameDef}進行儀式將會激怒{PAWN_possessive}派系（{FACTION_name}）</PsychicRitualFactionWarning>
+
+  <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnWarning>{0}目前正在睡覺，並將在心靈儀式開始時醒來。</PsychicRitualWakingPawnWarning>
+  <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnWarning>{0}目前正在被徵召，並將在心靈儀式開始時被取消徵召。</PsychicRitualUndraftPawnWarning>
+  <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnsWarning>{0}目前正在睡覺，並將在心靈儀式開始時醒來。</PsychicRitualWakingPawnsWarning>
+  <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnsWarning>{0}目前正在被徵召，並將在心靈儀式開始時被取消徵召。</PsychicRitualUndraftPawnsWarning>
+
+  <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
+  <PsychicRitualLeft>{0_labelShort}離開了{1}心靈儀式。</PsychicRitualLeft>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
+  <PsychicRitualLeftBecause>{0_labelShort}離開了{1}心靈儀式，因為{2}。</PsychicRitualLeftBecause>
+  <!-- EN: The {0} psychic ritual has been canceled. -->
+  <PsychicRitualCanceled>{0}心靈儀式已經取消。</PsychicRitualCanceled>
+  <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
+  <PsychicRitualCanceledBecause>{0}心靈儀式已經取消，因為{1}。</PsychicRitualCanceledBecause>
+
+  <!-- EN: {0} is needed but only {1} is available -->
+  <PsychicRitualOfferingsInsufficient>需要{0}，但只有{1}可用</PsychicRitualOfferingsInsufficient>
+  <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
+  <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort}無法接觸{TARGET_labelShort}</PsychicRitualTargetUnreachableByInvoker>
+
+  <!-- EN: leave the {0} psychic ritual -->
+  <CommandLeavePsychicRitual>離開{0}心靈儀式</CommandLeavePsychicRitual>
+  <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
+  <CommandLeavePsychicRitualDesc>停止參與{0}心靈儀式。只要心靈儀式至少有一位參與者，它就會繼續下去。</CommandLeavePsychicRitualDesc>
+
+  <!-- EN: cancel the {0} psychic ritual -->
+  <CommandCancelPsychicRitual>取消{0}心靈儀式</CommandCancelPsychicRitual>
+  <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
+  <CommandCancelPsychicRitualDesc>立刻結束{0}心靈儀式。心靈儀式的需求將會保留。你可以在之後重新舉辦儀式。</CommandCancelPsychicRitualDesc>
+  <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
+  <CommandCancelPsychicRitualConfirm>你確定要取消{0}心靈儀式嗎？</CommandCancelPsychicRitualConfirm>
+
+  <!-- EN: {PAWN_labelShort} vanished -->
+  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort}被放逐</PsychicRitualLeaveReason_Vanished>
+  <!-- EN: {PAWN_labelShort} is incapacitated -->
+  <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort}無法行動</PsychicRitualLeaveReason_Incapped>
+  <!-- EN: {PAWN_labelShort} is dead -->
+  <PsychicRitualLeaveReason_Killed>{PAWN_labelShort}死亡</PsychicRitualLeaveReason_Killed>
+  <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
+  <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort}不再屬於{FACTION_name}</PsychicRitualLeaveReason_WrongFaction>
+  <!-- EN: {PAWN_labelShort} is no longer on the map -->
+  <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort}已不在地圖上</PsychicRitualLeaveReason_ExitedMap>
+  <!-- EN: {PAWN_labelShort} had better things to do -->
+  <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort}有更好的事要做</PsychicRitualLeaveReason_LeftVoluntarily>
+  <!-- EN: {PAWN_labelShort} is drafted -->
+  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort}被徵召</PsychicRitualLeaveReason_Drafted>
+  <!-- EN: {PAWN_labelShort} is in a mental state -->
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort}正處於崩潰狀態</PsychicRitualLeaveReason_InMentalState>
+  <!-- EN: {PAWN_labelShort} is bleeding -->
+  <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort}正在出血</PsychicRitualLeaveReason_Bleeding>
+  <!-- EN: {PAWN_labelShort} is on fire -->
+  <PsychicRitualLeaveReason_Burning>{PAWN_labelShort}著火</PsychicRitualLeaveReason_Burning>
+  <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
+  <PsychicRitualLeaveReason_ExtremeTemperature>目標附近的溫度對{PAWN_labelShort}不安全</PsychicRitualLeaveReason_ExtremeTemperature>
+  <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
+  <PsychicRitualLeaveReason_InsideBuilding>{PAWN_labelShort}無法從內部參與{BUILDING}</PsychicRitualLeaveReason_InsideBuilding>
+  <!-- EN: {PAWN_labelShort} is humanlike -->
+  <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort}是人類</PsychicRitualLeaveReason_Humanlike>
+  <!-- EN: {PAWN_labelShort} is not humanlike -->
+  <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort}不是人類</PsychicRitualLeaveReason_NonHumanlike>
+  <!-- EN: {PAWN_labelShort} is a prisoner -->
+  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort}是一名俘虜</PsychicRitualLeaveReason_Prisoner>
+  <!-- EN: {PAWN_labelShort} is a slave -->
+  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort}是一名奴隸</PsychicRitualLeaveReason_Slave>
+  <!-- EN: {PAWN_labelShort} is free -->
+  <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort}自由了</PsychicRitualLeaveReason_Freeman>
+  <!-- EN: {PAWN_labelShort} is a {STAGE} -->
+  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort}是{STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <!-- EN: {PAWN_labelShort} cannot reach the target location -->
+  <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort}無法抵達目標位置</PsychicRitualLeaveReason_CannotReachTarget>
+  <!-- EN: {PAWN_labelShort} is asleep -->
+  <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort}睡著了</PsychicRitualLeaveReason_Sleeping>
+  <!-- EN: {PAWN_labelShort} is not a human -->
+  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort}不是人類</PsychicRitualLeaveReason_Mutant>
+  <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
+  <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort}對{IDEO_name}的信仰妨礙了參與</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort}並非心靈敏感</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <!-- EN: {PAWN_labelShort} is a temporary faction member -->
+  <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort}是臨時派系的成員</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
+  <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort}有其他職責需要處理</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
+  <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort}有其他職責需要處理</PsychicRitualLeaveReason_ForcedByQuest>
+
+  <!-- PsychicRitualToils-->
+  <!-- EN: moving into position -->
+  <PsychicRitualToil_Goto_JobReport_Moving>就位</PsychicRitualToil_Goto_JobReport_Moving>
+  <!-- EN: waiting for everyone to get into position -->
+  <PsychicRitualToil_Goto_JobReport_Waiting>等待所有人就位</PsychicRitualToil_Goto_JobReport_Waiting>
+
+  <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
+  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort}無法找到足夠的{1}</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <!-- EN: gathering offering -->
+  <PsychicRitualToil_GatherOfferings_JobReport>蒐集供奉</PsychicRitualToil_GatherOfferings_JobReport>
+
+  <!-- EN: leading psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>領導心靈儀式</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <!-- EN: channeling power to psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>引導心靈儀式的力量</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <!-- EN: psychic ritual target -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Target>心靈儀式目標</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <!-- EN: {0} doesn't have enough {1} -->
+  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0}的{1}不足</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <!-- EN: {PAWN_labelShort} is out of position -->
+  <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort}超出位置</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
+  <!-- EN: defending psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Defender>防禦心靈儀式</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
+
+  <!-- EN: waiting on -->
+  <PsychicRitualToil_GatherForInvocation_Report>等待</PsychicRitualToil_GatherForInvocation_Report>
+  <!-- EN: invoking the void -->
+  <PsychicRitualToil_InvokeHorax_Report>喚醒虛空</PsychicRitualToil_InvokeHorax_Report>
+
+  <!-- EN: {TARGET_labelShort} was destroyed -->
+  <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort}已被摧毀</PsychicRitualDef_TargetDestroyed>
+
+  <!-- EN: the area around the target site must be clear of obstructions -->
+  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>必須清空目標地點周圍的區域</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>{PAWN_labelShort}的心靈敏感度</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>{PAWN_labelShort}和心靈現象的契合度有多高。</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <!-- EN: These objects help focus the psychic power of the ritual. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>這些物品有助於集中儀式的心靈力量。</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <!-- EN: Ideoligion offset -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>理念偏移</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>心靈儀式受到裡面信仰的影響。</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+
+  <!-- PsychicRitualDef_InvokationCircle messages -->
+  <!-- EN: {0} has begun performing the {1} psychic ritual. -->
+  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0}已經開始進行{1}心靈儀式。</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <!-- EN: psychic ritual area is obstructed -->
+  <PsychicRitualAreaObstructed>心靈儀式區域受阻</PsychicRitualAreaObstructed>
+
+  <!-- Animal summoning -->
+  <!-- EN: Not enough animals in this biome. -->
+  <NotEnoughAnimals>生態系中動物不足。</NotEnoughAnimals>
+
+  <!-- Shambler summoning -->
+  <!-- EN: No nearby shamblers. -->
+  <NoNearbyShamblers>附近沒有蹣步者。</NoNearbyShamblers>
+
+  <!-- Pit gate summoning -->
+  <!-- EN: There is already a pit gate on the map. -->
+  <PitGateAlreadyExists>地圖上已有大坑洞。</PitGateAlreadyExists>
+  
+  <!-- Chronophagy -->
+  <!-- EN: The invoker must be at least {0} years old. -->
+  <InvokerTooYoung>召喚者年紀必須大於{0}歲。</InvokerTooYoung>
+  <!-- EN: The target must be at least {0} years old. -->
+  <PsychicRitualTargetTooYoung>目標年紀必須大於{0}歲。</PsychicRitualTargetTooYoung>
+  <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
+  <CronophagyAgeChange>{INVOKER_labelShort}將會變成{1}歲，{TARGET_labelShort}將會變成{3}歲。</CronophagyAgeChange>
+  
+  <!-- Philophagy -->
+  <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
+  <PhilophagyTransferReport>{INVOKER_labelShort}將會{TARGET_labelShort}從身上竊取{1}點{SKILL_label}經驗值。</PhilophagyTransferReport>
+  <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
+  <NoSkillsToTransfer>{TARGET_labelShort}沒有可轉移的技能。</NoSkillsToTransfer>
+</LanguageData>

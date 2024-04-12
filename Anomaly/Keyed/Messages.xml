@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Entities -->
+  <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
+  <MessageActivityRisingDamage>{0_definite}因受到傷害而提升活躍。</MessageActivityRisingDamage>
+  <!-- EN: {0_definite} has died on a holding platform. -->
+  <EntityDiedOnHoldingPlatform>{0_labelShort}死在收容平台。</EntityDiedOnHoldingPlatform>
+  <!-- EN: New entity discovered -->
+  <MessageEntityDiscovered>已發現新實體</MessageEntityDiscovered>
+
+  <!-- Hate chanters -->
+  <!-- EN: The cultists are in a trance and don't respond when attacked. -->
+  <MessageHateChantersAbsorbed>邪教徒陷入恍惚，被攻擊時沒有反應。</MessageHateChantersAbsorbed>
+  <!-- EN: The hate chanting has increased in volume. -->
+  <MessageHateChantIncreased>憎恨詠唱的音量增加。</MessageHateChantIncreased>
+
+  <!-- Self-resurrection -->
+  <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
+  <SelfResurrectText>{0_nameDef}可以根據指令使用死亡回絕自我復活。</SelfResurrectText>
+  <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
+  <MessageUsingSelfResurrection>{0_nameDef}使用了死亡回絕來自我復活。</MessageUsingSelfResurrection>
+
+  <!-- Pit Gate -->
+  <!-- EN: The pit gate has collapsed. -->
+  <MessagePitGateCollapsed>大坑洞坍塌了。</MessagePitGateCollapsed>
+  <!-- EN: A pit burrow has collapsed. -->
+  <MessagePitBurrowCollapsed>小坑洞坍塌了。</MessagePitBurrowCollapsed>
+
+  <!-- Fleshsack -->
+  <!-- EN: The flesh sack contained something -->
+  <FleshmassContainedMessage>血肉囊中有東西</FleshmassContainedMessage>
+
+  <!-- Psychic rituals -->
+  <!-- EN: {0_pawnsPluralDef} are attacking! -->
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef}正在攻擊！</MessagePsychicRitualAssault>
+  <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef}開始了心靈儀式</MessageAIPsychicRitualBegan>
+  
+  <!-- Biomutation lance -->
+  <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
+  <MessageBiomutationLanceInvalidTargetRace>無法指定目標：{0_nameDef}不是動物或人類。</MessageBiomutationLanceInvalidTargetRace>
+  <!-- EN: Cannot target: {0_nameDef} is too large. -->
+  <MessageBiomutationLanceTargetTooBig>無法指定目標：{0_nameDef}過大。</MessageBiomutationLanceTargetTooBig>
+
+  <!-- Containment -->
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It will escape soon. -->
+  <MessageNoRoomWithMinimumContainmentStrength>警告：沒有房間達到{0}的最低收容強度。他很快就會逃脫。</MessageNoRoomWithMinimumContainmentStrength>
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It will escape soon. -->
+  <MessageTargetBelowMinimumContainmentStrength>警告：{0}低於{1}的最低收容強度。他很快就會逃脫。</MessageTargetBelowMinimumContainmentStrength>
+  <!-- EN: Can't transfer to {0} reserved by someone else. -->
+  <MessageHolderReserved>無法轉移至其他人預留的{0}。</MessageHolderReserved>
+  <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
+  <MessageEntityExecuted>{EXECUTIONER_labelShort}處死了{VICTIM_kindIndef}。</MessageEntityExecuted>
+  <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformReinstalled>警告：重新安裝已佔用的收容平台會放出實體。請先將實體轉移到另一個平台。</MessageOccupiedHoldingPlatformReinstalled>
+  <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformUninstalled>警告：移除安裝已佔用的收容平台會放出實體。請先將實體轉移到另一個平台。</MessageOccupiedHoldingPlatformUninstalled>
+  <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformDeconstructed>警告：拆除已佔用的收容平台會放出實體。請先將實體轉移到另一個平台。</MessageOccupiedHoldingPlatformDeconstructed>
+  
+  <!-- Duplicator obelisk -->
+  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
+  <MessageHostileDuplicate>{0_nameDef}的敵意複製體出現了。</MessageHostileDuplicate>
+  
+  <!-- Proximity detector -->
+  <!-- EN: A proximity detector has detected an invisible creature. -->
+  <MessageProximityDetectorTriggered>近距偵測器偵測到一個隱形生物。</MessageProximityDetectorTriggered>
+  
+  <!-- Unnatural darkness --> 
+  <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
+  <MessagePawnAttackedInDarkness>黑暗中有東西攻擊了{0_nameDef}。</MessagePawnAttackedInDarkness>
+  
+  <!-- Revenant -->
+  <!-- EN: A hidden revenant has been revealed! -->
+  <MessageRevenantForcedVisibility>發現了一個隱藏的亡魂！</MessageRevenantForcedVisibility>
+  <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
+  <MessageRevenantHeard>{PAWN_nameDef}可以聽到附近有亡魂{1}！</MessageRevenantHeard>
+  
+  <!-- Abilities -->
+  <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
+  <MessageCannotUseOnNonBleeder>{ABILITY_label}無法在非出血生物身上使用。</MessageCannotUseOnNonBleeder>
+  
+  <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
+  <MessageFingerspikeDisturbed>{WAKER_nameDef}干擾了指尖刺。</MessageFingerspikeDisturbed>
+  <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef}干擾了數個指尖刺。</MessageFingerspikeDisturbedPlural>
+
+  <!-- EN: The death pall has resurrected {0_indefinite}. -->
+  <DeathPallResurrectedMessage>死亡之霧復活了{0_indefinite}。</DeathPallResurrectedMessage>
+  
+  <!-- UNUSED -->
+  <AbilityCannotCastHoraxian>{0_nameDef}的感悟極為堅定。</AbilityCannotCastHoraxian>
+
+</LanguageData>

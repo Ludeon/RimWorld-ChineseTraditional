@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: agony pulse -->
+  <AgonyPulse.label>痛苦脈衝</AgonyPulse.label>
+  <!-- EN: Pure projected mental pain caused by a shock-pulse of suffering. It is overwhelming, but dissipates relatively quickly. -->
+  <AgonyPulse.description>純粹由痛苦的衝擊脈衝投射的心靈傷痛。令人難以承受，但很快就會消散。</AgonyPulse.description>
+  <!-- EN: acute -->
+  <AgonyPulse.stages.acute.label>劇烈</AgonyPulse.stages.acute.label>
+  <!-- EN: lingering -->
+  <AgonyPulse.stages.lingering.label>纏身</AgonyPulse.stages.lingering.label>
+  
+  <!-- EN: awoken hypnosis -->
+  <AwokenHypnosis.label>催眠甦醒</AwokenHypnosis.label>
+  <!-- EN: This person has been hypnotized by an awoken unnatural corpse. The trance is absolute, but if the awoken corpse breaks its gaze then the hypnosis will end. -->
+  <AwokenHypnosis.description>這個人被甦醒的不自然屍體催眠了。這種催眠無法抵擋，但如果甦醒的屍體移開視線，催眠就會結束。</AwokenHypnosis.description>
+  
+  <!-- EN: bliss lobotomy -->
+  <BlissLobotomy.label>極樂腦葉切除</BlissLobotomy.label>
+  <!-- EN: This person has been psychically lobotomized, placing them in a state of bliss but limiting their cognitive function. -->
+  <BlissLobotomy.description>這個人的心靈腦葉被切除，使他處於極樂狀態，但認知功能受到限制。</BlissLobotomy.description>
+  
+  <!-- EN: blood rage -->
+  <BloodRage.label>血怒</BloodRage.label>
+  <!-- EN: This creature has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
+  <BloodRage.description>這個人曾經暴露在血雨中，這是一種會引發憤怒的心靈液體。只要暴露在血雨中，憤怒就會持續增長，最終導致暴力性的精神崩潰。這種效果在某些人身上，會根據其特性、心靈敏感度和隨機個體差異而增長得更快。</BloodRage.description>
+  <!-- EN: very mild -->
+  <BloodRage.stages.very_mild.label>非常輕微</BloodRage.stages.very_mild.label>
+  <!-- EN: mild -->
+  <BloodRage.stages.mild.label>輕微</BloodRage.stages.mild.label>
+  <!-- EN: moderate -->
+  <BloodRage.stages.moderate.label>中度</BloodRage.stages.moderate.label>
+  <!-- EN: severe -->
+  <BloodRage.stages.severe.label>重度第四級</BloodRage.stages.severe.label>
+  <!-- EN: extreme -->
+  <BloodRage.stages.extreme.label>極度</BloodRage.stages.extreme.label>
+  
+  <!-- EN: brainwipe coma -->
+  <BrainwipeComa.label>記憶消除昏迷</BrainwipeComa.label>
+  <!-- EN: This person has had their memories erased. The violent nature of the process has put them into a coma. -->
+  <BrainwipeComa.description>這個人的記憶被消除了。這個暴力的過程使他陷入昏迷。</BrainwipeComa.description>
+  
+  <!-- EN: corpse torment -->
+  <CorpseTorment.label>屍體折磨</CorpseTorment.label>
+  <!-- EN: This person shares a psychic link with a corpse that appears to be their exact duplicate. They have done something to anger it, causing them to fall unconscious. -->
+  <CorpseTorment.description>這個人與一具與他似乎完全相同的屍體有著心靈連結。他激怒了屍體，因此失去了意識。</CorpseTorment.description>
+  
+  <!-- EN: crumbled mind -->
+  <CrumbledMind.label>崩潰心靈</CrumbledMind.label>
+  <!-- EN: This person has lost most of their cognitive ability, preventing them from doing complex tasks. They are a husk of their former self.\n\nThe condition is incurable. -->
+  <CrumbledMind.description>這個人喪失了大部分的認知能力，無法完成複雜的任務。現在他只剩下一具軀殼。\n\n此症狀無法治愈。</CrumbledMind.description>
+  
+  <!-- EN: crumbling mind -->
+  <CrumblingMind.label>崩潰的心靈</CrumblingMind.label>
+  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <CrumblingMind.description>這個人的心理狀態正在快速惡化。幾天之內，他將無法進行大部分工作。如果有足夠的科技，例如痊癒機械液，病情仍然可以逆轉。但很快就會成爲永久性的症狀。</CrumblingMind.description>
+  <!-- EN: {PAWN_nameDef}'s cognitive condition has become permanent. -->
+  <CrumblingMind.comps.HediffComp_ReplaceHediff.message>{PAWN_nameDef}的認知症狀變成永久性的。</CrumblingMind.comps.HediffComp_ReplaceHediff.message>
+  <!-- EN: mild -->
+  <CrumblingMind.stages.mild.label>輕微</CrumblingMind.stages.mild.label>
+  <!-- EN: moderate -->
+  <CrumblingMind.stages.moderate.label>中度</CrumblingMind.stages.moderate.label>
+  <!-- EN: extreme -->
+  <CrumblingMind.stages.extreme.label>極度</CrumblingMind.stages.extreme.label>
+  
+  <!-- EN: crumbling mind -->
+  <CrumblingMindUndiagnosedCreepjoiner.label>崩潰的心靈</CrumblingMindUndiagnosedCreepjoiner.label>
+  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <CrumblingMindUndiagnosedCreepjoiner.description>這個人的心理狀態正在快速惡化。幾天之內，他將無法進行大部分工作。如果有足夠的科技，例如痊癒機械液，病情仍然可以逆轉。但很快就會成爲永久性的症狀。</CrumblingMindUndiagnosedCreepjoiner.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}出現了嚴重症狀的早期徵兆，很快就會導致嚴重的精神退化。{SURGEON_nameDef}目前還不確定是什麼原因導致這種症狀，但{PAWN_nameDef}會在接下來的幾天內病情加重。</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: {PAWN_nameDef} has begun experiencing pounding headaches and begs for help. {PAWN_pronoun} can't think straight and is losing {PAWN_possessive} cognitive function. {PAWN_nameDef} claims that {PAWN_pronoun} has seen a vision of the future. Within a matter of days, {PAWN_possessive} mind will crumble and {PAWN_pronoun} will become incapable of most tasks.\n\nThe condition is currently reversible with sufficient technology, like a healer mech serum, but will soon become permanent. -->
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}開始出現劇烈頭痛並乞求幫助。{PAWN_pronoun}無法正常思考，開始喪失{PAWN_possessive}認知功能。{PAWN_nameDef}聲稱{PAWN_pronoun}看到了未來的幻象。幾天之內，{PAWN_possessive}的心靈就會崩潰，{PAWN_pronoun}將無法進行大部分任務。\n\n目前如果有足夠的科技，例如痊癒機械液，病情仍然可以逆轉，但很快就會成爲永久性的症狀。</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <!-- EN: Crumbling mind: {PAWN_nameDef} -->
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>崩潰的心靈：{PAWN_nameDef}</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <!-- EN: diagnosed -->
+  <CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>已診斷</CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>
+  
+  <!-- EN: crumbling mind -->
+  <CrumblingMindUndiagnosedDuplication.label>崩潰的心靈</CrumblingMindUndiagnosedDuplication.label>
+  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <CrumblingMindUndiagnosedDuplication.description>這個人的心理狀態正在快速惡化。幾天之內，他將無法進行大部分工作。如果有足夠的科技，例如痊癒機械液，病情仍然可以逆轉。但很快就會成爲永久性的症狀。</CrumblingMindUndiagnosedDuplication.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}出現了嚴重症狀的早期徵兆，很快就會導致嚴重的精神退化。{SURGEON_nameDef}目前還不確定是什麼原因導致這種症狀，但{PAWN_nameDef}會在接下來的幾天內病情加重。</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: {PAWN_nameDef} has begun experiencing pounding headaches. {PAWN_pronoun} can't seem to think straight and is quickly losing {PAWN_possessive} cognitive function. Something has gone wrong in the duplication process.\n\nWith sufficient technology, like a healer mech serum, the condition can still be reversed. However, if not treated, it will soon become permanent. -->
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}開始出現劇烈頭痛。{PAWN_pronoun}似乎無法正常思考，很快就喪失了{PAWN_possessive}認知能力。複製的過程出了某種問題。\n\n如果有足夠的科技，例如痊癒機械液，病情仍然可以逆轉。但如果沒有接受治療，很快就會成爲永久性的症狀。</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>
+  <!-- EN: Crumbling mind: {PAWN_nameDef} -->
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>崩潰的心靈：{PAWN_nameDef}</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>
+  <!-- EN: diagnosed -->
+  <CrumblingMindUndiagnosedDuplication.stages.diagnosed.label>已診斷</CrumblingMindUndiagnosedDuplication.stages.diagnosed.label>
+  
+  <!-- EN: cube coma -->
+  <CubeComa.label>立方體昏迷</CubeComa.label>
+  <!-- EN: This person was connected to a golden cube and then separated from it. Severing the link this way has put them in a coma. -->
+  <CubeComa.description>這個人與黃金立方體連結，然後又與之分離。以這種方式切斷連結使之陷入昏迷。</CubeComa.description>
+  
+  <!-- EN: cube interest -->
+  <CubeInterest.label>迷戀立方體</CubeInterest.label>
+  <!-- EN: This person is drawn to the golden cube. If separated from the cube for too long, they'll start to experience negative effects. -->
+  <CubeInterest.description>這個人被黃金立方體吸引。如果與立方體分離太久，就會開始受到負面影響。</CubeInterest.description>
+  <!-- EN: Wandering and thinking about the cube. -->
+  <CubeInterest.reportStringOverrides.0.reportString>閒晃且心心念念著立方體。</CubeInterest.reportStringOverrides.0.reportString>
+  <!-- EN: Wandering and thinking about the cube. -->
+  <CubeInterest.reportStringOverrides.1.reportString>閒晃且心心念念著立方體。</CubeInterest.reportStringOverrides.1.reportString>
+  <!-- EN: Asleep, dreaming about the cube. -->
+  <CubeInterest.reportStringOverrides.2.reportString>睡著，夢見到立方體。</CubeInterest.reportStringOverrides.2.reportString>
+  <!-- EN: Meditating on the cube. -->
+  <CubeInterest.reportStringOverrides.3.reportString>冥想著立方體。</CubeInterest.reportStringOverrides.3.reportString>
+  <!-- EN: Praying for the cube. -->
+  <CubeInterest.reportStringOverrides.4.reportString>為立方體祈禱。</CubeInterest.reportStringOverrides.4.reportString>
+  <!-- EN: Praying for the cube. -->
+  <CubeInterest.reportStringOverrides.5.reportString>為立方體祈禱。</CubeInterest.reportStringOverrides.5.reportString>
+  <!-- EN: curious -->
+  <CubeInterest.stages.curious.label>好奇</CubeInterest.stages.curious.label>
+  <!-- EN: fascinated -->
+  <CubeInterest.stages.fascinated.label>著迷</CubeInterest.stages.fascinated.label>
+  <!-- EN: obsessed -->
+  <CubeInterest.stages.obsessed.label>癡迷</CubeInterest.stages.obsessed.label>
+  
+  <!-- EN: cube anger -->
+  <CubeRage.label>立方體之怒</CubeRage.label>
+  <!-- EN: This person is upset that their cube sculptures have been destroyed. Continuing to destroy their sculptures may cause them to become violent. -->
+  <CubeRage.description>這個人對他的立方體雕塑被毀而感到不滿。繼續摧毀他的雕塑可能會導致他變得暴力。</CubeRage.description>
+  <!-- EN: {PAWN_nameDef} can no longer control {PAWN_possessive} anger. Too many of {PAWN_possessive} precious cube sculptures have been destroyed.\n\n{PAWN_nameDef} has flown into a berserk rage! -->
+  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>{PAWN_nameDef}再也無法控制{PAWN_possessive}憤怒。太多{PAWN_possessive}珍藏的立方體雕塑被摧毀。\n\n{PAWN_nameDef}陷入狂暴狀態！</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>
+  <!-- EN: Cube rage: {PAWN_nameDef} -->
+  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>立方體之怒：{PAWN_nameDef}</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>
+  
+  <!-- EN: cube withdrawal -->
+  <CubeWithdrawal.label>立方體戒斷</CubeWithdrawal.label>
+  <!-- EN: This person obsessively wants to find their golden cube. Their skin itches and their mind races, thinking of ways to get closer to the cube. Their symptoms will get worse until they play with the cube. -->
+  <CubeWithdrawal.description>這個人癡迷地想找到他的黃金立方體。他的皮膚發癢，頭腦高速運轉，想盡辦法要接近立方體。他的症狀會越來越嚴重，直到獲得立方體為止。</CubeWithdrawal.description>
+  <!-- EN: inital -->
+  <CubeWithdrawal.stages.inital.label>初期</CubeWithdrawal.stages.inital.label>
+  <!-- EN: moderate -->
+  <CubeWithdrawal.stages.moderate.label>中度</CubeWithdrawal.stages.moderate.label>
+  <!-- EN: extreme -->
+  <CubeWithdrawal.stages.extreme.label>極度</CubeWithdrawal.stages.extreme.label>
+  
+  <!-- EN: darkness exposure -->
+  <DarknessExposure.label>黑暗接觸</DarknessExposure.label>
+  <!-- EN: This person is immersed in the unnatural darkness. Creatures or influences in the darkness will harm them if they stay too long. -->
+  <DarknessExposure.description>這個人沉浸在不自然的黑暗中。如果停留太久，黑暗中的生物或影響會對他造成傷害。</DarknessExposure.description>
+  
+  <!-- EN: dark psychic shock -->
+  <DarkPsychicShock.label>黑暗心靈衝擊</DarkPsychicShock.label>
+  <!-- EN: Part of this person's neural pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
+  <DarkPsychicShock.description>這個人的部分神經模式已被黑暗的心靈力量破壞。此過程造成的衝擊使他陷入昏迷。</DarkPsychicShock.description>
+  
+  <!-- EN: death refusal -->
+  <DeathRefusal.label>死亡回絕</DeathRefusal.label>
+  <!-- EN: This person is infused with a seed of nanoscale archotech machines that can recreate life. After they die, the archites will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. This can only be done a certain number of times. -->
+  <DeathRefusal.description>這個人被注入了可以再造生命的奈米級遠古科技機械種子。一旦死亡，遠古分子會維持其心智，並在其願意時重建身體。肉體會迅速重塑，替換缺失的器官並治癒傷口。這個過程並非完美，可能會導致疤痕或其他健康方面的併發症。這只能進行一定次數。</DeathRefusal.description>
+  
+  <!-- EN: death refusal -->
+  <DeathRefusalCreepJoiner.label>死亡回絕</DeathRefusalCreepJoiner.label>
+  <!-- EN: This person is infused with a seed of nanoscale archotech machines that can recreate life. After they die, the archites will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. This can only be done a certain number of times. -->
+  <DeathRefusalCreepJoiner.description>這個人被注入了可以再造生命的奈米級遠古科技機械種子。一旦死亡，遠古分子會維持其心智，並在其願意時重建身體。肉體會迅速重塑，替換缺失的器官並治癒傷口。這個過程並非完美，可能會導致疤痕或其他健康方面的併發症。這只能進行一定次數。</DeathRefusalCreepJoiner.description>
+  
+  <!-- EN: death refusal sickness -->
+  <DeathRefusalSickness.label>死亡回絕疾病</DeathRefusalSickness.label>
+  <!-- EN: After-effects of death refusal. This person has returned from the dead. -->
+  <DeathRefusalSickness.description>死亡回絕的後遺症。此人已死而復生。</DeathRefusalSickness.description>
+  
+  <!-- EN: disruptor flash -->
+  <DisruptorFlash.label>干擾閃光</DisruptorFlash.label>
+  <!-- EN: The initial psychic burst from a disruptor flare has left this creature dazed. -->
+  <DisruptorFlash.description>干擾閃焰彈一開始的心靈爆破讓這個生物頭暈目眩。</DisruptorFlash.description>
+  
+  <!-- EN: duplicate sickness -->
+  <DuplicateSickness.label>複製體疾病</DuplicateSickness.label>
+  <!-- EN: Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse. However, the condition will not be lethal. -->
+  <DuplicateSickness.description>這個人和複製體之間的心靈干擾正在導致緩慢的精神衰敗。只要這個人的多個複製體還活著，病情就會不斷惡化。不過這種病情不會致命。</DuplicateSickness.description>
+  <!-- EN: {0_nameDef} is now suffering from duplicate sickness. -->
+  <DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>{0_nameDef}正遭受複製體疾病的折磨。</DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>
+  <!-- EN: {PAWN_nameDef} is suffering from duplicate sickness. Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse. -->
+  <DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}正遭遭受複製體疾病折磨。這個人和複製體之間的心靈干擾正在導致緩慢的精神衰敗。只要這個人的多個複製體還活著，病情就會不斷惡化。</DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: initial -->
+  <DuplicateSickness.stages.initial-0.label>輕微</DuplicateSickness.stages.initial-0.label>
+  <!-- EN: initial -->
+  <DuplicateSickness.stages.initial-1.label>輕微</DuplicateSickness.stages.initial-1.label>
+  <!-- EN: moderate -->
+  <DuplicateSickness.stages.moderate.label>中度</DuplicateSickness.stages.moderate.label>
+  <!-- EN: extreme -->
+  <DuplicateSickness.stages.extreme.label>極度</DuplicateSickness.stages.extreme.label>
+  <!-- EN: debilitating -->
+  <DuplicateSickness.stages.debilitating.label>衰弱</DuplicateSickness.stages.debilitating.label>
+  
+  <!-- EN: frenzy field -->
+  <FrenzyField.label>狂熱力場</FrenzyField.label>
+  <!-- EN: This person is under the influence of a psychic field which sharpens their mental energy. They're channeling the nervous anger to move and work faster. However, any mental breaks will be violent. -->
+  <FrenzyField.description>這個人受到心靈力場的影響，使精神能量更加敏銳。他會將緊張的憤怒引導到移動和工作上，以加快速度。然而，精神崩潰時總是攻擊性的。</FrenzyField.description>
+  <!-- EN: very mild -->
+  <FrenzyField.stages.very_mild.label>非常輕微</FrenzyField.stages.very_mild.label>
+  <!-- EN: mild -->
+  <FrenzyField.stages.mild.label>輕微</FrenzyField.stages.mild.label>
+  <!-- EN: moderate -->
+  <FrenzyField.stages.moderate.label>中度</FrenzyField.stages.moderate.label>
+  <!-- EN: extreme -->
+  <FrenzyField.stages.extreme.label>極度</FrenzyField.stages.extreme.label>
+  
+  <!-- EN: dark psychic invisibility -->
+  <HoraxianInvisibility.label>黑暗心靈隱身</HoraxianInvisibility.label>
+  <!-- EN: This creature is psychically twisting the perceptions of humans, animals, and machines in the vicinity in such a way as to seem invisible. The eye receives their image as normal but the mind cannot perceive it. -->
+  <HoraxianInvisibility.description>這種生物在心靈上扭曲了附近人類、動物和機械的感知，以至於看起來是隱形的。雖然眼睛能接收到他的身影，但心靈上卻無法察覺。</HoraxianInvisibility.description>
+  
+  <!-- EN: inhumanization -->
+  <Inhumanized.label>非人化</Inhumanized.label>
+  <!-- EN: This person's mind is dominated by the psychic patterns of the void. They are completely disconnected from human concerns of family, friendship, and love. Their experience of reality is distant and muted, guided by the psychic rhythm of a dark hyperintelligence. -->
+  <Inhumanized.description>這個人的心智被虛空的心靈模式所支配。他完全脫離了人類在乎的親情、友誼和愛情。他被黑暗超智慧的心靈節奏所引導，遠離並忽視對現實的體驗。</Inhumanized.description>
+  
+  <!-- EN: juggernaut serum -->
+  <JuggernautSerum.label>強力血清</JuggernautSerum.label>
+  <!-- EN: A serum is super-powering this person's musculature, making them stronger and faster, but reducing their mood due to discomfort. -->
+  <JuggernautSerum.description>血清正在為這個人的肌肉組織提供強大的力量，使他變得更強壯、更快速，但由於不適而使他的心情低落。</JuggernautSerum.description>
+  
+  <!-- EN: light exposure -->
+  <LightExposure.label>接觸光線</LightExposure.label>
+  <!-- EN: Even the slightest exposure to light causes great discomfort to this creature, slowing it and weakening its attacks. -->
+  <LightExposure.description>即使是最輕微的光照也會對這種生物造成極大的不適，減慢他的速度並削弱其攻擊力。</LightExposure.description>
+  <!-- EN: initial -->
+  <LightExposure.stages.initial.label>輕微</LightExposure.stages.initial.label>
+  <!-- EN: moderate -->
+  <LightExposure.stages.moderate.label>中度</LightExposure.stages.moderate.label>
+  <!-- EN: serious -->
+  <LightExposure.stages.serious.label>重度</LightExposure.stages.serious.label>
+  <!-- EN: extreme -->
+  <LightExposure.stages.extreme.label>極度</LightExposure.stages.extreme.label>
+  
+  <!-- EN: metalblood -->
+  <Metalblood.label>鐵血</Metalblood.label>
+  <!-- EN: This creature has the metalblood compound in their bloodstream. This substance can rapidly harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
+  <Metalblood.description>這種生物的血液中含有鐵血化合物。這種物質可以在預知會受到打擊時快速硬化肉體，讓使用者更能抵禦傷害。然而，血清中以生化鐵氧體為基礎的化學成分，也會讓使用者特別容易受到火焰傷害。</Metalblood.description>
+  
+  <!-- EN: metalhorror implantation -->
+  <MetalhorrorImplant.label>懼金移植</MetalhorrorImplant.label>
+  <!-- EN: A gestating creature of metallic horror. Starting from a tiny archometallic seed, it will quickly take control of the nervous system, grow, and extend throughout the host's body until it is ready to reveal itself. Once discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
+  <MetalhorrorImplant.description>孕育中的恐怖金屬生物。從一粒微小的遠古機械種子開始生長，會迅速控制宿主的神經系統，並在宿主體內生長蔓延，直到準備好現身。一旦發現這種生物，就可以使用外科檢查手術使懼金從宿主體內出來。做好戰鬥準備。</MetalhorrorImplant.description>
+  <!-- EN: Implanted before arrival at your colony -->
+  <MetalhorrorImplant.possiblePathways.0.explanation>在抵達你的殖民地前植入</MetalhorrorImplant.possiblePathways.0.explanation>
+  <!-- EN: Implanted through {SOURCEKIND_label} attack -->
+  <MetalhorrorImplant.possiblePathways.1.explanation>透過{SOURCEKIND_label}的攻擊移植</MetalhorrorImplant.possiblePathways.1.explanation>
+  <!-- EN: Implanted by revenant during hypnosis -->
+  <MetalhorrorImplant.possiblePathways.2.explanation>在亡魂催眠時移植</MetalhorrorImplant.possiblePathways.2.explanation>
+  
+  <!-- EN: machine speed -->
+  <MetalhorrorSpeedBoost.label>機械速度</MetalhorrorSpeedBoost.label>
+  <!-- EN: Rapid movement driven by a surge of unnatural archotechnological strength. This burst of speed cannot last long. -->
+  <MetalhorrorSpeedBoost.description>在非自然遠古科技力量的驅動下快速移動。這種速度爆發不會持續太久。</MetalhorrorSpeedBoost.description>
+  
+  <!-- EN: mind-numb serum -->
+  <MindNumbSerum.label>麻木血清</MindNumbSerum.label>
+  <!-- EN: This person's neural patterns are being moderated by an exotic serum. They're unaffected by the highs and lows of human emotion. They will never have a mental break but they will also never feel inspired. -->
+  <MindNumbSerum.description>這個人的神經模式被一種奇特的血清所調節。他不受人類情緒起伏的影響。他永遠不會精神崩潰，但也永遠不會感受到狂熱。</MindNumbSerum.description>
+  
+  <!-- EN: neurosis pulse -->
+  <NeurosisPulse.label>神經質脈衝</NeurosisPulse.label>
+  <!-- EN: This person has been affected by a psychic pulse of motivated, neurotic emotions. This makes them irritable, but also motivates them to work faster. -->
+  <NeurosisPulse.description>這個人受到激勵、神經質情緒的心靈脈衝影響。這會讓他變得易怒，但也會激勵他加快工作速度。</NeurosisPulse.description>
+  
+  <!-- EN: pain field -->
+  <PainField.label>傷痛力場</PainField.label>
+  <!-- EN: A searing pain caused by the presence of a psychically active entity nearby. The effect intensifies when the entity is more active. -->
+  <PainField.description>由於附近存在心靈活躍的實體而產生的灼痛。當實體更活躍時，效果會加劇。</PainField.description>
+  
+  <!-- EN: pleasure pulse -->
+  <PleasurePulse.label>樂活脈衝</PleasurePulse.label>
+  <!-- EN: This person has been impacted by a psychic pulse of pleasurable sensations and emotions. They feel unnaturally happy, distracting them from their work. -->
+  <PleasurePulse.description>這個人受到愉悅感覺和情緒的心靈脈衝影響。他感到不自然的快樂，分散了對工作的注意力。</PleasurePulse.description>
+  
+  <!-- EN: psychically dead -->
+  <PsychicallyDead.label>心靈死亡</PsychicallyDead.label>
+  <!-- EN: This person's psychic presence has been consumed and burned away, leaving them cut off from psychic phenomena. -->
+  <PsychicallyDead.description>這個人的心靈存在已被吞噬和燒毀，使他們與心靈現象隔絕。</PsychicallyDead.description>
+  
+  <!-- EN: psychic trance -->
+  <PsychicTrance.label>心靈恍惚</PsychicTrance.label>
+  <!-- EN: This person's mind is linked with an ambient psychic field from a distant archotech. They have been placed in a trance-like state. The unnatural influence sustains them - they have almost no need for food or rest. -->
+  <PsychicTrance.description>這個人的心靈與遠方的遠古科技的環境心靈力場相連。他置於恍惚狀態。不自然的影響支撐著他，使他幾乎不需要食物或休息。</PsychicTrance.description>
+  
+  <!-- EN: psychophage -->
+  <Psychophage.label>心靈吞噬術</Psychophage.label>
+  <!-- EN: This person has devoured the psychic presence of another, making them more psychically sensitive for a period of time. -->
+  <Psychophage.description>這個人吞噬了另一個人的心靈存在，使他在一段時間內在心靈上更加敏感。</Psychophage.description>
+  
+  <!-- EN: rage speed -->
+  <RageSpeed.label>憤怒增速</RageSpeed.label>
+  <!-- EN: This creature has been enraged by its wounds and is moving faster. -->
+  <RageSpeed.description>這個生物因其傷口而憤怒，移動變得更快。</RageSpeed.description>
+  
+  <!-- EN: regeneration -->
+  <Regeneration.label>再生</Regeneration.label>
+  <!-- EN: This creature is experiencing an impossibly fast rate of regeneration supported by a distant archotechnological engine. They will heal nearly any wound in a short time. -->
+  <Regeneration.description>這種生物在遠方遠古科技引擎的作用下，再生速度快得驚人。幾乎可以在短時間內癒合幾乎任何傷口。</Regeneration.description>
+  <!-- EN: unnatural -->
+  <Regeneration.stages.unnatural.label>不自然</Regeneration.stages.unnatural.label>
+  <!-- EN: impossible -->
+  <Regeneration.stages.impossible.label>不可能</Regeneration.stages.impossible.label>
+  
+  <!-- EN: revenant hypnosis -->
+  <RevenantHypnosis.label>亡魂催眠</RevenantHypnosis.label>
+  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or by being lit on fire. -->
+  <RevenantHypnosis.description>這個人被亡魂催眠，並維持著連結。他嘀咕著惡夢般的生物，目不定睛地盯著看不見的恐怖事物。\n\n亡魂把人催眠後，會在與受害者同一張地圖上的某個地方休眠。\n\n殺死亡魂將結束催眠。隱形的亡魂可以透過干擾閃焰彈、爆破、EMP、滅火泡沫或被火焰點燃來顯形。</RevenantHypnosis.description>
+  
+  <!-- EN: shard holder -->
+  <ShardHolder.label>碎片持有者</ShardHolder.label>
+  <!-- EN: This creature will drop a shard when defeated. This text is visible in dev mode only. -->
+  <ShardHolder.description>這種生物被擊敗時會掉落一塊碎片。此文字僅在開發者模式下可見。</ShardHolder.description>
+  
+  <!-- EN: sleep suppression -->
+  <SleepSuppression.label>睡眠抑制</SleepSuppression.label>
+  <!-- EN: This person's brain chemistry is being affected by a psychic pulsation, preventing the buildup of fatigue toxins. This reduces their need for sleep. -->
+  <SleepSuppression.description>這個人的大腦化學反應受到心靈脈衝的影響，能防止疲勞毒素累積。減少了他的睡眠需求。</SleepSuppression.description>
+  <!-- EN: very mild -->
+  <SleepSuppression.stages.very_mild.label>非常輕微</SleepSuppression.stages.very_mild.label>
+  <!-- EN: mild -->
+  <SleepSuppression.stages.mild.label>輕微</SleepSuppression.stages.mild.label>
+  <!-- EN: moderate -->
+  <SleepSuppression.stages.moderate.label>中度</SleepSuppression.stages.moderate.label>
+  <!-- EN: extreme -->
+  <SleepSuppression.stages.extreme.label>極度</SleepSuppression.stages.extreme.label>
+  
+  <!-- EN: void shock -->
+  <VoidShock.label>虛空衝擊</VoidShock.label>
+  <!-- EN: This individual has witnessed the void. Their mind reels from the shock, overflowing with visions of infinite roiling, squirming, searing darkness stretching into the bottomless abyss from every surface and every screaming face. -->
+  <VoidShock.description>這個人目睹了虛空。他的心靈因衝擊而暈眩，被無限的翻騰、蠕動、灼燒的黑暗幻象給淹沒，四方八面的尖叫面孔將他扯向無底的深淵。</VoidShock.description>
+  
+  <!-- EN: voidsight -->
+  <Voidsight.label>虛空視線</Voidsight.label>
+  <!-- EN: This person has ingested a drug which enhanced their perception of dark psychic phenomena. They will gain more knowledge when studying dark psychic phenomena and entities. Their psychic sensitivity is also increased. -->
+  <Voidsight.description>這個人使用了能增強他對黑暗心靈現象感知的藥物。他在研究黑暗心靈現象和實體時，可以獲得更多知識。他的心靈敏感度也會提高。</Voidsight.description>
+  
+  <!-- EN: void touched -->
+  <VoidTouched.label>虛空之觸</VoidTouched.label>
+  <!-- EN: This person has seen the depths of the void and drank from its essence. It lives inside them still, guiding their actions and twisting their flesh. It has turned their hair brittle and white. They no longer need sleep or comfort. The void provides for them. -->
+  <VoidTouched.description>這個人看到了虛空的深處，並汲取了它的精華。虛空存在於他的體內，引導他的行動並扭曲肉體。讓他們的頭髮變得又白又脆。他不再需要食物或睡眠。虛空會為他們提供一切。</VoidTouched.description>
+  
+</LanguageData>

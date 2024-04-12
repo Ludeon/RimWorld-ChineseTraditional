@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: deadlife pack -->
+  <Apparel_DeadlifePack.label>活屍背包</Apparel_DeadlifePack.label>
+  <!-- EN: A single-use pack that launches a capsule which explodes into deadlife dust. The dust animates human and animal corpses as shamblers that will only attack your enemies.\n\nDeadlife dust is composed of microscopic machine-like archites which hang in the air. Where they touch a corpse, they induce a chaotic and violent resurrection. -->
+  <Apparel_DeadlifePack.description>一次性背包，可發射出爆炸後會產生活屍粉塵的膠囊。這些粉塵會將人類和動物的屍體變成只會攻擊敵人的蹣步者。\n\n活屍粉塵是懸浮於空中的微型類機械遠古分子。這些遠古分子和復活血清中的遠古科技相似，但它們的力量強大且混亂。當它們接觸到屍體時，就會引發混亂且暴力的復活。</Apparel_DeadlifePack.description>
+  <!-- EN: charge -->
+  <Apparel_DeadlifePack.comps.CompApparelVerbOwner_Charged.chargeNoun>充能</Apparel_DeadlifePack.comps.CompApparelVerbOwner_Charged.chargeNoun>
+  <!-- EN: deploy deadlife dust -->
+  <Apparel_DeadlifePack.verbs.deploy_deadlife_dust.label>發射活屍粉塵</Apparel_DeadlifePack.verbs.deploy_deadlife_dust.label>
+  
+  <!-- EN: disruptor flare pack -->
+  <Apparel_DisruptorFlarePack.label>干擾閃焰彈背包</Apparel_DisruptorFlarePack.label>
+  <!-- EN: A utility pack that shoots disruptor flares. On impact, the flare burns a capsule of bioferrite, which creates a bright flash and a local psychic disruption. This stuns psychically sensitive creatures, revealing those that are invisible, and reducing their consciousness and movement speed for a short while. Afterwards, the flare continues to burn, lighting up a wide area for some time. -->
+  <Apparel_DisruptorFlarePack.description>能發射干擾閃焰彈的附件。受到撞擊後，閃焰彈藉著燃燒生化鐵氧體膠囊，造成耀眼的閃光和局部的心靈干擾。這會使心靈敏感的生物暈眩，暴露出隱形的生物，並在短時間內降低他們的意識和移動速度。之後，閃焰彈會繼續燃燒，在一段時間內照亮大片區域。</Apparel_DisruptorFlarePack.description>
+  <!-- EN: flare -->
+  <Apparel_DisruptorFlarePack.comps.CompApparelReloadable.chargeNoun>閃焰</Apparel_DisruptorFlarePack.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Apparel_DisruptorFlarePack.comps.CompApparelReloadable.cooldownGerund>冷卻中</Apparel_DisruptorFlarePack.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: deploy flare -->
+  <Apparel_DisruptorFlarePack.verbs.deploy_flare.label>發射閃焰彈</Apparel_DisruptorFlarePack.verbs.deploy_flare.label>
+  
+  <!-- UNUSED -->
+  <Apparel_DisruptorFlarePack.comps.CompApparelVerbOwner_Charged.chargeNoun>充能</Apparel_DisruptorFlarePack.comps.CompApparelVerbOwner_Charged.chargeNoun>
+  
+  <!-- EN: turret pack -->
+  <Apparel_PackTurret.label>砲塔背包</Apparel_PackTurret.label>
+  <!-- EN: A wearable pack that allows the user to deploy a battery-powered turret. The pack contains a propulsion device, letting the user launch the turret a short distance. These turrets are effective for flanking and distracting enemies. However, the turret's limited AI can't be directly controlled, so it can cause friendly fire incidents. The turret battery lasts for several hours. -->
+  <Apparel_PackTurret.description>一個可穿戴的背包，使用者可以用來部署內置電池的砲塔。背包內含一個推進裝置，可讓使用者往短距離範圍發射砲塔。這些砲塔可以有效地包抄和分散敵人注意。但是，砲塔的人工智慧能力有限，無法直接控制，因此可能會造成友軍誤傷。砲塔電池可持續數小時。</Apparel_PackTurret.description>
+  <!-- EN: charge -->
+  <Apparel_PackTurret.comps.CompApparelVerbOwner_Charged.chargeNoun>充能</Apparel_PackTurret.comps.CompApparelVerbOwner_Charged.chargeNoun>
+  <!-- EN: deploy turret -->
+  <Apparel_PackTurret.verbs.deploy_turret.label>部署砲塔</Apparel_PackTurret.verbs.deploy_turret.label>
+  
+  <!-- EN: disruptor flare -->
+  <DisruptorFlare.label>干擾閃焰彈</DisruptorFlare.label>
+  
+  <!-- EN: deadlife capsule -->
+  <Grenade_Deadlife.label>活屍膠囊</Grenade_Deadlife.label>
+  
+  <!-- EN: disruptor flare -->
+  <Grenade_DisruptorFlare.label>干擾閃焰彈</Grenade_DisruptorFlare.label>
+  
+  <!-- EN: turret pack capsule -->
+  <Grenade_TurretPack.label>砲塔背包膠囊</Grenade_TurretPack.label>
+  
+</LanguageData>

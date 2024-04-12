@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: atmospheric heater -->
+  <AtmosphericHeater.label>大氣加熱器</AtmosphericHeater.label>
+  <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
+  <AtmosphericHeater.description>由收集來的黑暗遠古科技碎片所驅動的熱投射裝置。此裝置以生化鐵氧體為燃料激化大氣中的氣體分子，使該區域的戶外溫度提高。此建築本身也會產生極大量的廢熱。</AtmosphericHeater.description>
+  <!-- EN: Target outdoor temperature -->
+  <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>目標戶外溫度</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
+  
+  <!-- EN: tactical turret bullet -->
+  <Bullet_TacticalTurret.label>戰術砲塔子彈</Bullet_TacticalTurret.label>
+  
+  <!-- EN: delayed metalhorror emerge -->
+  <DelayedMetalhorrorEmerger.label>懼金出現時間延緩</DelayedMetalhorrorEmerger.label>
+  
+  <!-- EN: dirt cube sculpture -->
+  <DirtCubeSculpture.label>土製立方體雕像</DirtCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <DirtCubeSculpture.description>被倉促建起，形似立方體的雕塑。</DirtCubeSculpture.description>
+  
+  <!-- EN: electric inhibitor -->
+  <ElectricInhibitor.label>電力抑制器</ElectricInhibitor.label>
+  <!-- EN: A device that emits a specially tuned electromagnetic field which numbs the neural activity of captured entities. As long as it is powered, it improves the containment strength of any holding platform that it is pointed at. The electric field does not affect humans or normal animals. -->
+  <ElectricInhibitor.description>此裝置會釋放出經過特殊調整的電磁場，麻痺捕獲個體的神經運作。在裝置的運作期間能提高其指定收容平台的封鎖強度。此電磁場不會對人類或普通動物造成影響。</ElectricInhibitor.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit2x2c.label>無底坑</EndlessPit2x2c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit2x2c.description>一個表面光滑的洞，無限向下延伸。</EndlessPit2x2c.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit3x2c.label>無底坑</EndlessPit3x2c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit3x2c.description>一個表面光滑的洞，無限向下延伸。</EndlessPit3x2c.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit3x3c.label>無底坑</EndlessPit3x3c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit3x3c.description>一個表面光滑的洞，無限向下延伸。</EndlessPit3x3c.description>
+  
+  <!-- EN: floor etching -->
+  <FloorEtching.label>地板蝕刻</FloorEtching.label>
+  <!-- EN: A crude sketch drawn onto the ground.\n\nWith sufficient time, you may be able to decipher it. Select a colonist and right-click the etching to inspect it. -->
+  <FloorEtching.description>畫在地面上的粗糙圖畫。\n\n或許只要花費足夠時間就能破譯這蝕刻。選擇一名殖民者並右鍵點擊蝕刻即可開始查勘。</FloorEtching.description>
+  <!-- EN: Choose someone to decipher this floor etching. -->
+  <FloorEtching.comps.CompFloorEtching.activateDescString>選擇一個人，破譯這個地板蝕刻。</FloorEtching.comps.CompFloorEtching.activateDescString>
+  <!-- EN: Decipher... -->
+  <FloorEtching.comps.CompFloorEtching.activateLabelString>破譯…</FloorEtching.comps.CompFloorEtching.activateLabelString>
+  <!-- EN: Deciphering floor etching: {1}s -->
+  <FloorEtching.comps.CompFloorEtching.activatingString>正在破譯地板蝕刻：{1}秒</FloorEtching.comps.CompFloorEtching.activatingString>
+  <!-- EN: Deciphering floor etching -->
+  <FloorEtching.comps.CompFloorEtching.activatingStringPending>正在破譯地板蝕刻</FloorEtching.comps.CompFloorEtching.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FloorEtching.comps.CompFloorEtching.guiLabelString>選擇進行人員</FloorEtching.comps.CompFloorEtching.guiLabelString>
+  <!-- EN: Send a colonist to decipher this. -->
+  <FloorEtching.comps.CompFloorEtching.inspectString>由一名殖民者進行破譯。</FloorEtching.comps.CompFloorEtching.inspectString>
+  <!-- EN: Decipher floor etching -->
+  <FloorEtching.comps.CompFloorEtching.jobString>破譯地板蝕刻</FloorEtching.comps.CompFloorEtching.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully deciphered the floor etching. -->
+  <FloorEtching.comps.CompFloorEtching.messageCompletedString>{PAWN_nameDef}已成功破譯地板蝕刻。</FloorEtching.comps.CompFloorEtching.messageCompletedString>
+  
+  <!-- EN: floor etching -->
+  <FloorEtchingRambling.label>地板蝕刻</FloorEtchingRambling.label>
+  <!-- EN: A crude sketch drawn onto the ground.\n\nWith sufficient time, you may be able to decipher it. Select a colonist and right-click the etching to inspect it. -->
+  <FloorEtchingRambling.description>畫在地面上的粗糙圖畫。\n\n或許只要花費足夠時間就能破譯這蝕刻。選擇一名殖民者並右鍵點擊蝕刻即可開始查勘。</FloorEtchingRambling.description>
+  <!-- EN: Choose someone to decipher this floor etching. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>選擇一個人，破譯這個地板蝕刻。</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>
+  <!-- EN: Decipher... -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>破譯…</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>
+  <!-- EN: Deciphering floor etching: {1}s -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>正在破譯地板蝕刻：{1}秒</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>
+  <!-- EN: Deciphering floor etching -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>正在破譯地板蝕刻</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.guiLabelString>選擇進行人員</FloorEtchingRambling.comps.CompFloorEtchingRambling.guiLabelString>
+  <!-- EN: Send a colonist to decipher this. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>由一名殖民者進行破譯。</FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>
+  <!-- EN: Decipher floor etching -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>破譯地板蝕刻</FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully deciphered the floor etching. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>{PAWN_nameDef}已成功破譯地板蝕刻。</FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>
+  
+  <!-- EN: frenzy inducer -->
+  <FrenzyInducer.label>狂熱誘發器</FrenzyInducer.label>
+  <!-- EN: A scavenged archotech shard mounted in an electrical stimulation frame. The device creates a frenzied psychic vibration in the local area which stimulates everyone nearby to move and work faster. However, any mental breaks they have are guaranteed to be violent. -->
+  <FrenzyInducer.description>將收集來的遠古科技碎片固定在一個電力刺激框架中。此裝置會在當地產生強烈的心靈震動，刺激鄰近的所有人，加快他們的移動速度和工作速度。然而，一旦精神崩潰，就必定是暴力性的精神崩潰。</FrenzyInducer.description>
+  
+  <!-- EN: gray box -->
+  <GrayBox.label>灰盒</GrayBox.label>
+  <!-- EN: A strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. -->
+  <GrayBox.description>一個奇特的灰色容器。沒有任何特徵，表面光滑。材質不是金屬、混凝土，或其他所知的材料。</GrayBox.description>
+  
+  <!-- EN: door -->
+  <GrayDoor.label>門</GrayDoor.label>
+  <!-- EN: A strange gray door. -->
+  <GrayDoor.description>一道奇特的灰門。</GrayDoor.description>
+  <!-- EN: Choose someone to force this door open. -->
+  <GrayDoor.comps.CompLabyrinthDoor.activateDescString>選擇一個人強行開啟這道門。</GrayDoor.comps.CompLabyrinthDoor.activateDescString>
+  <!-- EN: Force open... -->
+  <GrayDoor.comps.CompLabyrinthDoor.activateLabelString>強行開啟…</GrayDoor.comps.CompLabyrinthDoor.activateLabelString>
+  <!-- EN: forcing door open: {1}s -->
+  <GrayDoor.comps.CompLabyrinthDoor.activatingString>正在強行開啟門：{1}秒</GrayDoor.comps.CompLabyrinthDoor.activatingString>
+  <!-- EN: forcing door open -->
+  <GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>正在強行開啟門</GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <GrayDoor.comps.CompLabyrinthDoor.guiLabelString>選擇進行人員</GrayDoor.comps.CompLabyrinthDoor.guiLabelString>
+  <!-- EN: Force this door open -->
+  <GrayDoor.comps.CompLabyrinthDoor.jobString>強行開啟這道門</GrayDoor.comps.CompLabyrinthDoor.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully forced the door open. -->
+  <GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>{PAWN_nameDef}已成功強行開啟門。</GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>
+  
+  <!-- EN: gray statue -->
+  <GrayStatueDeadlifeDust.label>灰色雕像</GrayStatueDeadlifeDust.label>
+  <!-- EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
+  <GrayStatueDeadlifeDust.description>一個奇特扭曲的雕像，雕塑成令人不安的模樣。其發出溫和鳴聲，內部含有些許怪異能量。</GrayStatueDeadlifeDust.description>
+  <!-- EN: Gray statue activated -->
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>灰色雕像已啟動</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>
+  <!-- EN: Reacting to {PAWN_nameDef}'s presence, the strange statue has begun to release a cloud of deadlife dust!\n\nThis dust-like substance will settle on nearby corpses and raise them as dangerous shamblers. -->
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>奇特的雕像對{PAWN_nameDef}的存在起反應，開始釋放出一團活屍粉塵！\n\n這些粉末會落在附近的屍體上，並將屍體復活成危險的蹣步者。</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>
+  
+  <!-- EN: gray statue -->
+  <GrayStatueTeleporter.label>灰色雕像</GrayStatueTeleporter.label>
+  <!-- EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
+  <GrayStatueTeleporter.description>一個奇特扭曲的雕像，帶著令人不安的模樣。散發著含有怪異能量的嗡鳴聲。</GrayStatueTeleporter.description>
+  <!-- EN: {PAWN_nameDef} teleported -->
+  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>{PAWN_nameDef}已被傳送</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>
+  <!-- EN: After approaching the strange statue, {PAWN_nameDef} blinked and found {PAWN_objective}self transported to a new location. -->
+  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>在{PAWN_nameDef}接近奇特雕像時，一眨眼就發現{PAWN_objective}自己被傳送到一個新地點。</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>
+  
+  <!-- EN: wall -->
+  <GrayWall.label>牆</GrayWall.label>
+  <!-- EN: An impassable gray wall. -->
+  <GrayWall.description>無法穿越的灰色牆壁。</GrayWall.description>
+  
+  <!-- EN: tactical turret gun -->
+  <Gun_TacticalTurret.label>戰術砲塔槍</Gun_TacticalTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <Gun_TacticalTurret.description>專用於架在砲塔上的簡易自動槍砲。</Gun_TacticalTurret.description>
+  <!-- EN: tactical turret gun -->
+  <Gun_TacticalTurret.verbs.Verb_Shoot.label>戰術砲塔槍</Gun_TacticalTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: holding platform -->
+  <HoldingPlatform.label>收容平台</HoldingPlatform.label>
+  <!-- EN: A platform for holding dangerous entities. The corners have eyelets where strong chains can be attached.\n\nDowned entities can be captured and secured on a holding platform, where they can be studied for Anomaly knowledge. Increase containment strength by building strong walls and doors, and other special containment devices. -->
+  <HoldingPlatform.description>用於收容危險個體的平台。角落有孔眼可供安裝堅固的鐵鍊。\n\n將個體擊倒後就能捕捉並固定於收容平台，讓你可研究個體獲得異邪知識。建造堅固的牆壁與門和其他特殊收容裝置，即可提高收容強度。</HoldingPlatform.description>
+  
+  <!-- EN: holding spot -->
+  <HoldingSpot.label>收容點</HoldingSpot.label>
+  <!-- EN: A spot for holding dangerous entities. Not as good as a steel holding platform, but a lot better than nothing.\n\nDowned entities can be secured at a holding spot where they can be studied. Increase containment strength by building strong walls and doors, and other special containment devices. -->
+  <HoldingSpot.description>用於收容危險個體的地點。並不如鋼製的收容平台堅固，但總比沒有好。\n\n將個體擊倒後就能固定於收容點，讓你可研究個體。建造堅固的牆壁與門和其他特殊收容裝置，即可提高收容強度。</HoldingSpot.description>
+  
+  <!-- EN: noctolith -->
+  <Noctolith.label>夜石柱</Noctolith.label>
+  <!-- EN: A twisted pillar of jagged blade-like structures made of dark, oily metal. It pulses with energy, powered by dark archotechnology at its core.\n\nIf you destroy the pillar, you can recover a shard of dark archotech. -->
+  <Noctolith.description>由深色的油膩金屬組成，具有鋸齒刀刃結構的扭曲柱子。柱子核心的黑暗遠古科技提供動力，發出能量脈動。\n\n破壞此柱子即可獲得一片黑暗遠古科技碎片。</Noctolith.description>
+  <!-- EN: Contains: Unknown\nDestroy noctoliths to end the unnatural darkness. -->
+  <Noctolith.comps.CompInspectString.inspectString>含有：未知\n破壞夜石柱，阻止不自然的黑暗力量。</Noctolith.comps.CompInspectString.inspectString>
+  
+  <!-- EN: pit burrow -->
+  <PitBurrow.label>小坑洞</PitBurrow.label>
+  <!-- EN: A small hole connecting to some unseen cave network deep under the surface. The walls are too steep to climb. It is inherently unstable and will collapse after some time. -->
+  <PitBurrow.description>一個小洞，連接著地下深處中看不見的洞穴網路。牆面太陡峭無法攀爬。洞穴不太穩定，一段時間後就會崩毀。</PitBurrow.description>
+  
+  <!-- EN: underground emergence -->
+  <PitBurrowSpawner.label>從地底冒出</PitBurrowSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <PitBurrowSpawner.description>有東西從地底冒了出來。</PitBurrowSpawner.description>
+  
+  <!-- EN: pit gate -->
+  <PitGate.label>大坑洞</PitGate.label>
+  <!-- EN: A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below. -->
+  <PitGate.description>一個帶來不祥感的大洞，連接著地表與漆黑的地下洞穴網路。可以往下攀到洞穴中。</PitGate.description>
+  
+  <!-- EN: pit gate exit -->
+  <PitGateExit.label>大坑洞出口</PitGateExit.label>
+  <!-- EN: A rope line which links to the surface above. -->
+  <PitGateExit.description>這繩索連接到上方的地表。</PitGateExit.description>
+  
+  <!-- EN: underground emergence -->
+  <PitGateSpawner.label>從地底冒出</PitGateSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <PitGateSpawner.description>有東西從地底冒了出來。</PitGateSpawner.description>
+  <!-- EN: Pit gate opened -->
+  <PitGateSpawner.building.groundSpawnerLetterLabel>大坑洞已打開</PitGateSpawner.building.groundSpawnerLetterLabel>
+  <!-- EN: The shifting terrain has fallen into the depths below, forming a massive hole.\n\nThis pit gate will remain open until you collapse its entrance. Explore the pit gate to find a way to collapse it from underneath and to find useful items in the undercaves. -->
+  <PitGateSpawner.building.groundSpawnerLetterText>不停變化的地形已陷入地底深處，形成巨大的坑洞。\n\n這個大坑洞會維持開啟狀態，直到你摧毀入口為止。探索大坑洞就能在下方找到方法摧毀入口，也能在地下洞穴中找到有用物品。</PitGateSpawner.building.groundSpawnerLetterText>
+  
+  <!-- EN: proximity detector -->
+  <ProximityDetector.label>近距偵測器</ProximityDetector.label>
+  <!-- EN: A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible biosignatures within its radius. -->
+  <ProximityDetector.description>能偵測到隱形生物的掃描器。在偵測到半徑內存在心靈隱形能力的生物特徵時，此裝置就會發出警告。</ProximityDetector.description>
+  
+  <!-- EN: sand cube sculpture -->
+  <SandCubeSculpture.label>沙製立方體雕像</SandCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <SandCubeSculpture.description>被倉促建起，形似立方體的雕塑。</SandCubeSculpture.description>
+  
+  <!-- EN: scrap cube sculpture -->
+  <ScrapCubeSculpture.label>廢品製立方體雕像</ScrapCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <ScrapCubeSculpture.description>被倉促建起，形似立方體的雕塑。</ScrapCubeSculpture.description>
+  
+  <!-- EN: security door -->
+  <SecurityDoor.label>安全門</SecurityDoor.label>
+  <!-- EN: A heavily reinforced door. It is slow to open and requires electricity, but is very strong. It's a good choice if you want to keep something dangerous out - or in. The door requires walls on either side to function. -->
+  <SecurityDoor.description>經過加固的重門。開啟速度緩慢，需要電力才能運作，但非常堅固。可用來將危險的個體擋在門外或門裡。門的兩側必須要有牆壁才能運作。</SecurityDoor.description>
+  
+  <!-- EN: shard inhibitor -->
+  <ShardInhibitor.label>碎片抑制器</ShardInhibitor.label>
+  <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
+  <ShardInhibitor.description>黑暗遠古科技的碎面會與心靈能量共鳴，提高其半徑內所有收容平台或收容點的收容強度。\n\n此效果無法堆疊。</ShardInhibitor.description>
+  
+  <!-- EN: sleep suppressor -->
+  <SleepSuppressor.label>睡眠抑制器</SleepSuppressor.label>
+  <!-- EN: A scavenged archotech shard mounted in an electrical control frame. The device creates a psychic pulsation in the local area which alters the brain chemistry of those nearby, halting the buildup of fatigue toxins and removing the need for sleep. However, it also irritates anyone nearby. -->
+  <SleepSuppressor.description>將收集來的遠古科技碎片固定在一個電力控制框架中。此裝置會在當地產生心靈脈動，轉化鄰近所有人大腦中的化學物質，阻止疲勞毒素累積，藉此消除睡眠需求。但這脈動會使鄰近的所有人變得煩躁。</SleepSuppressor.description>
+  
+  <!-- EN: stone cube sculpture -->
+  <StoneCubeSculpture.label>石製立方體雕像</StoneCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <StoneCubeSculpture.description>被倉促建起，形似立方體的雕塑。</StoneCubeSculpture.description>
+  
+  <!-- EN: IED deadlife trap -->
+  <TrapIED_Deadlife.label>IED 活屍地雷</TrapIED_Deadlife.label>
+  <!-- EN: A pair of deadlife shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe trap needs corpses nearby to be raised by the deadlife dust. -->
+  <TrapIED_Deadlife.description>一對活屍砲彈連接到觸發器上，能在被碰觸或被彈頭撞擊時引爆。由於隱藏在周圍的地形，因此不能安置在其他陷阱的旁邊。動物在平靜時可以感測到地雷。\n\n地雷附近需要放置屍體才能讓活屍粉塵發揮作用。</TrapIED_Deadlife.description>
+  
+  <!-- EN: tactical turret -->
+  <Turret_TacticalTurret.label>戰術砲塔</Turret_TacticalTurret.label>
+  <!-- EN: A short-range turret. It will stop functioning once its battery runs out. If damaged sufficiently, it may explode. -->
+  <Turret_TacticalTurret.description>短程距離砲塔。在電池耗盡時就會停止作用。受到過多傷害時可能會爆炸。</Turret_TacticalTurret.description>
+  <!-- EN: Battery power -->
+  <Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>電池電量</Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>
+  <!-- EN: This turret has a limited battery life. Once it runs out, it will stop working entirely. -->
+  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>此砲塔的電池電量有限。在電池耗盡時就會完全停止作用。</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
+  
+</LanguageData>
