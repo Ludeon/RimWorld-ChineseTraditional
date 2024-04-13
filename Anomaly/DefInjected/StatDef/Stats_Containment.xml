@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cold containment bonus -->
+  <ColdContainmentBonus.label>寒冷收容加成</ColdContainmentBonus.label>
+  <!-- EN: This entity is less likely to escape if kept in a very cold room. -->
+  <ColdContainmentBonus.description>如果將此實體關在非常寒冷的房間裡，此實體就比較不易逃脫。</ColdContainmentBonus.description>
+  
+  <!-- EN: containment strength -->
+  <ContainmentStrength.label>收容強度</ContainmentStrength.label>
+  <!-- EN: How securely this can contain an entity. This is improved by stronger walls and doors, more light, fewer other entities in the room, and special containment devices. Some entities are easier to contain in cold temperatures. -->
+  <ContainmentStrength.description>遏制實體的穩定度。可透過裝設更堅固的牆壁和門，配置更充足的光線，在同個房間中關少點其他實體和採用特殊收容裝置來改善這一點。有些實體在低溫下更容易被遏制。</ContainmentStrength.description>
+  <!-- EN: containment offset -->
+  <ContainmentStrength.offsetLabel>收容偏移</ContainmentStrength.offsetLabel>
+  
+  <!-- EN: min containment strength -->
+  <MinimumContainmentStrength.label>最低收容強度</MinimumContainmentStrength.label>
+  <!-- EN: The containment strength needed to contain this entity properly. An entity in a chamber below its minimum containment strength will have a very high chance to escape. -->
+  <MinimumContainmentStrength.description>適當遏制此實體所需的收容強度。關在低於其最低收容強度房間中的實體將有非常高的機率逃脫。</MinimumContainmentStrength.description>
+  
+</LanguageData>

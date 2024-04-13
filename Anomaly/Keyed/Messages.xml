@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Conversion -->
+  <AbilityCannotCastHoraxian>{0_nameDef}的感悟極為堅定。</AbilityCannotCastHoraxian>
+
+  <!-- Entities -->
+  <MessageActivityRisingDamage>{0_definite}因受到傷害而提升活躍。</MessageActivityRisingDamage>
+  <EntityDiedOnHoldingPlatform>{0_labelShort}死在收容平台。</EntityDiedOnHoldingPlatform>
+  <MessageEntityDiscovered>已發現新實體</MessageEntityDiscovered>
+
+  <!-- Hate chanters -->
+  <MessageHateChantersAbsorbed>邪教徒陷入恍惚，被攻擊時沒有反應。</MessageHateChantersAbsorbed>
+  <MessageHateChantIncreased>憎恨詠唱的音量增加。</MessageHateChantIncreased>
+
+  <!-- Self-resurrection -->
+  <SelfResurrectText>{0_nameDef}可以根據指令使用死亡回絕自我復活。</SelfResurrectText>
+  <MessageUsingSelfResurrection>{0_nameDef}使用了死亡回絕來自我復活。</MessageUsingSelfResurrection>
+
+  <!-- Pit Gate -->
+  <MessagePitGateCollapsed>大坑洞坍塌了。</MessagePitGateCollapsed>
+  <MessagePitBurrowCollapsed>小坑洞坍塌了。</MessagePitBurrowCollapsed>
+
+  <!-- Fleshsack -->
+  <FleshmassContainedMessage>血肉囊中有東西</FleshmassContainedMessage>
+
+  <!-- Psychic rituals -->
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef}正在攻擊！</MessagePsychicRitualAssault>
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef}開始了心靈儀式</MessageAIPsychicRitualBegan>
+  
+  <!-- Biomutation lance -->
+  <MessageBiomutationLanceInvalidTargetRace>無法指定目標：{0_nameDef}不是動物或人類。</MessageBiomutationLanceInvalidTargetRace>
+  <MessageBiomutationLanceTargetTooBig>無法指定目標：{0_nameDef}過大。</MessageBiomutationLanceTargetTooBig>
+
+  <!-- Containment -->
+  <MessageNoRoomWithMinimumContainmentStrength>警告：沒有房間達到{0}的最低收容強度。他很快就會逃脫。</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>警告：{0}低於{1}的最低收容強度。他很快就會逃脫。</MessageTargetBelowMinimumContainmentStrength>
+  <MessageHolderReserved>無法轉移至其他人預留的{0}。</MessageHolderReserved>
+  <MessageEntityExecuted>{EXECUTIONER_labelShort}處死了{VICTIM_kindIndef}。</MessageEntityExecuted>
+  <MessageOccupiedHoldingPlatformReinstalled>警告：重新安裝已佔用的收容平台會放出實體。請先將實體轉移到另一個平台。</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>警告：移除安裝已佔用的收容平台會放出實體。請先將實體轉移到另一個平台。</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformDeconstructed>警告：拆除已佔用的收容平台會放出實體。請先將實體轉移到另一個平台。</MessageOccupiedHoldingPlatformDeconstructed>
+  
+  <!-- Duplicator obelisk -->
+  <MessageHostileDuplicate>{0_nameDef}的敵意複製體出現了。</MessageHostileDuplicate>
+  
+  <!-- Proximity detector -->
+  <MessageProximityDetectorTriggered>近距偵測器偵測到一個隱形生物。</MessageProximityDetectorTriggered>
+  
+  <!-- Unnatural darkness --> 
+  <MessagePawnAttackedInDarkness>黑暗中有東西攻擊了{0_nameDef}。</MessagePawnAttackedInDarkness>
+  
+  <!-- Revenant -->
+  <MessageRevenantForcedVisibility>發現了一個隱藏的亡魂！</MessageRevenantForcedVisibility>
+  <MessageRevenantHeard>{PAWN_nameDef}可以聽到附近有亡魂{1}！</MessageRevenantHeard>
+  
+  <!-- Abilities -->
+  <MessageCannotUseOnNonBleeder>{ABILITY_label}無法在非出血生物身上使用。</MessageCannotUseOnNonBleeder>
+  
+  <MessageFingerspikeDisturbed>{WAKER_nameDef}干擾了指尖刺。</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef}干擾了數個指尖刺。</MessageFingerspikeDisturbedPlural>
+
+  <DeathPallResurrectedMessage>死亡之霧復活了{0_indefinite}。</DeathPallResurrectedMessage>
+  
+</LanguageData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: deadlife capsule -->
+  <Bullet_Shell_Deadlife.label>活屍膠囊</Bullet_Shell_Deadlife.label>
+  
+  <!-- EN: ghoul resurrection serum -->
+  <GhoulResurrectionSerum.label>食屍鬼復活血清</GhoulResurrectionSerum.label>
+  <!-- EN: A capsule of thick grey fluid containing a mixture of deadlife dust and advanced biochemicals. Inject it into the corpse of a ghoul to return them to life. The resurrection process takes several hours. -->
+  <GhoulResurrectionSerum.description>一顆灰色濃稠液體膠囊，含有活屍粉麈和高等生化物質的混合物。將其注入食屍鬼的屍體中，就能讓它們起死回生。復活過程需要幾個小時。</GhoulResurrectionSerum.description>
+  <!-- EN: Use {0_label} -->
+  <GhoulResurrectionSerum.comps.CompUsable.useLabel>使用{0_label}</GhoulResurrectionSerum.comps.CompUsable.useLabel>
+  
+  <!-- EN: juggernaut serum -->
+  <JuggernautSerum.label>強力血清</JuggernautSerum.label>
+  <!-- EN: A syringe of opaque milky-yellow liquid that increases the user's strength and speed, and allows them to recover from injuries faster. The serum is injected into the user's musculature, where it adds energy to various metabolic processes. However, the unstable substance also psychically influences the mind, provoking unsettling thoughts and severely reducing the user's mood. -->
+  <JuggernautSerum.description>裝有不透明乳黃色液體的注射器，可增強使用者的力量和速度，並讓他們能更快療傷。血清會注入使用這的肌肉組織，為各種新陳代謝過程提供能量。但是這種不穩定的物質也會對人的心靈造成影響，引發不安的想法，讓使用者情緒嚴重低落。</JuggernautSerum.description>
+  <!-- EN: Use {0_label} -->
+  <JuggernautSerum.comps.CompUsable.useLabel>使用{0_label}</JuggernautSerum.comps.CompUsable.useLabel>
+  <!-- EN: Ingest {0} -->
+  <JuggernautSerum.ingestible.ingestCommandString>注射{0}</JuggernautSerum.ingestible.ingestCommandString>
+  <!-- EN: Ingesting {0}. -->
+  <JuggernautSerum.ingestible.ingestReportString>正在注射{0}。</JuggernautSerum.ingestible.ingestReportString>
+  
+  <!-- EN: metalblood serum -->
+  <MetalbloodSerum.label>鐵血血清</MetalbloodSerum.label>
+  <!-- EN: A syringe full of rust-colored liquid that constantly hardens and liquifies. When injected into the bloodstream, the metalblood substance can harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
+  <MetalbloodSerum.description>裝滿鏽色液體的注射器，該液體會不斷硬化和液化。注入血液後，這種金屬血液物質可以在預知會受到打擊時硬化肉體，讓使用者更能抵禦傷害。然而，血清中以生化鐵氧體為基礎的化學成分，也會讓使用者特別容易受到火焰傷害。</MetalbloodSerum.description>
+  <!-- EN: Use {0_label} -->
+  <MetalbloodSerum.comps.CompUsable.useLabel>使用{0_label}</MetalbloodSerum.comps.CompUsable.useLabel>
+  <!-- EN: Ingest {0} -->
+  <MetalbloodSerum.ingestible.ingestCommandString>注射{0}</MetalbloodSerum.ingestible.ingestCommandString>
+  <!-- EN: Ingesting {0}. -->
+  <MetalbloodSerum.ingestible.ingestReportString>正在注射{0}。</MetalbloodSerum.ingestible.ingestReportString>
+  
+  <!-- EN: mind-numb serum -->
+  <MindNumbSerum.label>麻木血清</MindNumbSerum.label>
+  <!-- EN: A syringe of clear, viscous fluid. Injected near the brainstem, it deadens the mind, rendering the user unable to feel the highs and lows of human emotion. This temporarily prevents them from having mental breaks and inspirations. -->
+  <MindNumbSerum.description>裝有透明黏稠液體的注射器。在腦幹附近注射後，它能削弱心智，讓使用者無法感受到人類情感的起伏。能夠暫時阻止使用者精神崩潰和狂熱。</MindNumbSerum.description>
+  <!-- EN: Use {0_label} -->
+  <MindNumbSerum.comps.CompUsable.useLabel>使用{0_label}</MindNumbSerum.comps.CompUsable.useLabel>
+  <!-- EN: Ingest {0} -->
+  <MindNumbSerum.ingestible.ingestCommandString>注射{0}</MindNumbSerum.ingestible.ingestCommandString>
+  <!-- EN: Ingesting {0}. -->
+  <MindNumbSerum.ingestible.ingestReportString>正在注射{0}。</MindNumbSerum.ingestible.ingestReportString>
+  
+  <!-- EN: deadlife shell -->
+  <Shell_Deadlife.label>活屍砲彈</Shell_Deadlife.label>
+  <!-- EN: An artillery shell packed with a dust-like substance that, after exploding into a cloud, will settle on nearby human and animal corpses and raise them as shamblers. The shamblers will only attack your enemies.\n\nThis can be fired from mortars or installed as a trap. Explodes when damaged. -->
+  <Shell_Deadlife.description>裝有粉狀物質的砲彈，在爆炸成雲後，粉末會落到在附近的人類和動物屍體上，使他們變成蹣步者。蹣步者只會攻擊你的敵人。\n\n可以使用迫擊砲擊發或安裝在陷阱上。受損後會爆炸。</Shell_Deadlife.description>
+  
+  <!-- EN: deadlife capsule -->
+  <Shell_Deadlife_Releasing.label>活屍膠囊</Shell_Deadlife_Releasing.label>
+  
+  <!-- EN: voidsight serum -->
+  <VoidsightSerum.label>虛空視線血清</VoidsightSerum.label>
+  <!-- EN: A capsule of oily black fluid that squirms endlessly inside the glass. When injected into the eye, it suppresses the inhibitory neurons that keep perception focused on the real world, thus lifting dark psychic phenomena into conscious perception. This increases the amount of knowledge gained when studying unnatural entities, as well as psychic sensitivity, but also impacts mood.\n\nThe effect is temporary and does not stack. -->
+  <VoidsightSerum.description>黑色油狀液體膠囊在玻璃瓶中不停地蠕動。注入眼睛後，它會減緩抑制把感知專注在現實世界中的神經元作用，從而將黑暗的心靈現象提升到有意識的感知中。可以增加在研究非自然實體時獲得的知識量，以及心靈敏感度，但也會影響情緒。\n\n此效果是暫時的，無法疊加。</VoidsightSerum.description>
+  <!-- EN: Use {0_label} -->
+  <VoidsightSerum.comps.CompUsable.useLabel>使用{0_label}</VoidsightSerum.comps.CompUsable.useLabel>
+  <!-- EN: Ingest {0} -->
+  <VoidsightSerum.ingestible.ingestCommandString>注射{0}</VoidsightSerum.ingestible.ingestCommandString>
+  <!-- EN: Ingesting {0}. -->
+  <VoidsightSerum.ingestible.ingestReportString>正在注射{0}。</VoidsightSerum.ingestible.ingestReportString>
+  
+</LanguageData>

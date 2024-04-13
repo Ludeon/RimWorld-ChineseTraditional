@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <KnowledgeFromStudy>從研究中獲得知識</KnowledgeFromStudy>
+  <KnowledgeFromStudyDesc>研究此實體時可以獲得的異邪知識的類型和數量。更複雜的實體可以解鎖更高級的異邪研究項目。</KnowledgeFromStudyDesc>
+  <Stat_Knowledge>{0}{1}</Stat_Knowledge>
+  <StudyFrequency>研究間隔</StudyFrequency>
+  <StudyFrequencyDesc>此實體可用研究期間之間的持續時間。</StudyFrequencyDesc>
+  
+  <Stat_Hediff_Regeneration_Name>治療中</Stat_Hediff_Regeneration_Name>
+  <Stat_Hediff_Regeneration_Desc>每日固定的治療量。</Stat_Hediff_Regeneration_Desc>
+  <Stat_Hediff_Regeneration_Stat>{0} 生命值/日</Stat_Hediff_Regeneration_Stat>
+
+  <Stat_ContainmentStrength_AverageLighting>平均光照</Stat_ContainmentStrength_AverageLighting>
+  <Stat_ContainmentStrength_AverageWallHp>牆平均生命值</Stat_ContainmentStrength_AverageWallHp>
+  <Stat_ContainmentStrength_AverageDoorHp>門平均生命值</Stat_ContainmentStrength_AverageDoorHp>
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>多個（{0}）收容平台</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <Stat_ContainmentStrength_MapwideOffset>全地圖偏移</Stat_ContainmentStrength_MapwideOffset>
+  <Stat_ContainmentStrength_DoorForcedOpen>開門</Stat_ContainmentStrength_DoorForcedOpen>
+  <Stat_ContainmentStrength_NotFullyRoofed>不完全封頂</Stat_ContainmentStrength_NotFullyRoofed>
+  <Stat_ContainmentStrength_Flooring>地板</Stat_ContainmentStrength_Flooring>
+  <Stat_ContainmentStrength_Platform>建築</Stat_ContainmentStrength_Platform>
+
+  <StatsReport_BioferriteGeneration>生化鐵氧體生產</StatsReport_BioferriteGeneration>
+  <StatsReport_BioferriteGeneration_Desc>此實體每天的生化鐵氧體生產量。當捕獲到收容平台時，可以透過建造生化鐵氧體收集器來收集生化鐵氧體。</StatsReport_BioferriteGeneration_Desc>
+  
+  <StatsReport_Offering>供應</StatsReport_Offering>
+  <StatsReport_Offering_Desc>進行心靈儀式所需的材料。</StatsReport_Offering_Desc>
+
+  <StatsReport_RitualDuration>儀式持續時間</StatsReport_RitualDuration>
+  <StatsReport_RitualDuration_Desc>進行此儀式需要花費的時間。</StatsReport_RitualDuration_Desc>
+
+  <StatsReport_RitualCooldown>冷卻時間</StatsReport_RitualCooldown>
+  <StatsReport_RitualCooldown_Desc>儀式進行後，會擾亂周圍的心靈能量一段時間。在此期間，無法再次進行儀式。</StatsReport_RitualCooldown_Desc>
+
+  <StatsReport_ContainmentStrengthOffset>收容偏移</StatsReport_ContainmentStrengthOffset>
+  <StatsReport_ContainmentStrengthOffset_Desc>對收容平台收容實體能力的影響。較好控制的實體在研究時較不容易逃脫，並能提供更多知識。</StatsReport_ContainmentStrengthOffset_Desc>
+
+  <StatsReport_SerumDuration>持續時間</StatsReport_SerumDuration>
+  <StatsReport_SerumDuration_Desc>此血清效果持續時間。</StatsReport_SerumDuration_Desc>
+  
+  <StatsReport_Occupied>佔用中</StatsReport_Occupied>
+  <MeditationFocusPerBuilding>{2}附近每有一個{BUILDING_label}（{0}/{1}）</MeditationFocusPerBuilding>
+  <MeditationFocusPerBuildingAbstract>{1}附近每有一個{BUILDING_label}（最高{0}）</MeditationFocusPerBuildingAbstract>\n\n</LanguageData>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: awoken unnatural corpse -->
+  <AwokenCorpse.label>甦醒不自然的屍體</AwokenCorpse.label>
+  <!-- EN: The energy building within this corpse is erupting. It has risen and is attacking with increasing power and speed. It will not stop until it reaches its victim. -->
+  <AwokenCorpse.description>這具屍體內的能源正在噴發。它已經甦醒，並以越來越強的力量和速度進行攻擊。在殺死受害者之前它不會停止。</AwokenCorpse.description>
+  <!-- EN: The unnatural corpse is moving faster! -->
+  <AwokenCorpse.comps.HediffComp_MessageStageIncreased.message>不自然的屍體移動速度越來越快！</AwokenCorpse.comps.HediffComp_MessageStageIncreased.message>
+  
+  <!-- EN: ghoul -->
+  <Ghoul.label>食屍鬼</Ghoul.label>
+  <!-- EN: This person has been implanted with an archotech shard, twisting them into a jittering murder machine. Its body is an amalgam of flesh and metal, while its mind cycles between half-conscious stupor and murderous intent.\n\nThey cannot work; they only fight. Ghouls must eat raw meat. If they go hungry, they can turn hostile.\n\nMany find ghouls' constant twitching to be disturbing, even when they aren't killing someone. -->
+  <Ghoul.description>這個人被植入了一塊遠古科技碎片，把他扭曲成一個顫抖的殺戮機器。他的身體是血肉和金屬的混合物，而他的意識則在半昏迷和殺人意圖之間循環。\n\n他無法工作，只會戰鬥。食屍鬼必須吃生肉。如果他挨餓，可能會變得充滿敵意。\n\n許多人認為食屍鬼即使沒有殺人，他不斷抽搐也令人不安。</Ghoul.description>
+  
+  <!-- EN: ghoul frenzy -->
+  <GhoulFrenzy.label>食屍鬼狂熱</GhoulFrenzy.label>
+  <!-- EN: This creature's blood is saturated with stress hormones and liquid energy, permitting it to move and attack at incredible speeds for a short time. -->
+  <GhoulFrenzy.description>這種生物的血液中充滿了壓力荷爾蒙和液體能量，使牠能在短時間內以驚人的速度移動和攻擊。</GhoulFrenzy.description>
+  
+  <!-- EN: meat hunger -->
+  <MeatHunger.label>肉食怪</MeatHunger.label>
+  <!-- EN: This creature is ravenously hungry for raw meat. It may become hostile if it gets too hungry. -->
+  <MeatHunger.description>這種生物對生肉有種貪婪的渴望。如果太餓了，可能會變得充滿敵意。</MeatHunger.description>
+  <!-- EN: initial -->
+  <MeatHunger.stages.initial.label>輕微</MeatHunger.stages.initial.label>
+  <!-- EN: moderate -->
+  <MeatHunger.stages.moderate.label>中度</MeatHunger.stages.moderate.label>
+  <!-- EN: extreme -->
+  <MeatHunger.stages.extreme.label>極度</MeatHunger.stages.extreme.label>
+  
+  <!-- EN: rapid regeneration -->
+  <RapidRegeneration.label>快速再生</RapidRegeneration.label>
+  <!-- EN: This creature has stored an incredible amount of healing energy. While not unlimited, it will rapidly regenerate until its energy has been exhausted. -->
+  <RapidRegeneration.description>這隻生物儲存了大量的治癒能量。雖然不是無限的，但牠會快速再生，直到能量耗盡為止。</RapidRegeneration.description>
+  
+  <!-- EN: resurrection coma -->
+  <ResurrectionComa.label>復活昏迷</ResurrectionComa.label>
+  <!-- EN: A mixture of deadlife dust and advanced biochemicals course through this creature’s veins. -->
+  <ResurrectionComa.description>這種生物的血管中流著活屍粉塵和高級生化物質的混合物。</ResurrectionComa.description>
+  
+  <!-- EN: rising -->
+  <Rising.label>復甦</Rising.label>
+  <!-- EN: Mysterious archotechnological influences are reanimating this creature's corpse. -->
+  <Rising.description>神祕的遠古科技影響使這種生物的屍體復活。</Rising.description>
+  
+  <!-- EN: shambler -->
+  <Shambler.label>蹣步者</Shambler.label>
+  <!-- EN: This dead creature has been re-animated by corrupted archites. Shamblers are slow and mindless, and will attack any living creature relentlessly. After a few days on their feet, shamblers die from metabolic exhaustion. Captured shamblers can't move and thus won't expire. -->
+  <Shambler.description>這種死去的生物被腐化的遠古分子重新復活。蹣步者行動緩慢且沒有心智，會無情地攻擊任何生物。蹣步幾天後，蹣步者會因新陳代謝衰竭而死。被捕獲的蹣步者無法移動，因此不會衰竭而死。</Shambler.description>
+  
+  <!-- EN: shambler corpse -->
+  <ShamblerCorpse.label>蹣步者屍體</ShamblerCorpse.label>
+  <!-- EN: This creature had previously been re-animated by corrupted archites. -->
+  <ShamblerCorpse.description>這個生物曾被腐化遠古分子復活過。</ShamblerCorpse.description>
+  <!-- EN: Shambler wounds -->
+  <ShamblerCorpse.renderNodeProperties.0.debugLabel>蹣步者傷口</ShamblerCorpse.renderNodeProperties.0.debugLabel>
+  <!-- EN: Shambler wounds -->
+  <ShamblerCorpse.renderNodeProperties.1.debugLabel>蹣步者傷口</ShamblerCorpse.renderNodeProperties.1.debugLabel>
+  
+</LanguageData>

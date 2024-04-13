@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: advanced psychic rituals -->
+  <AdvancedPsychicRituals.label>高等心靈儀式</AdvancedPsychicRituals.label>
+  <!-- EN: Perform advanced psychic rituals. -->
+  <AdvancedPsychicRituals.description>進行高等心靈儀式。</AdvancedPsychicRituals.description>
+  <!-- EN:
+    <li>subject->advanced psychic rituals</li>
+    <li>subject_story->was brought into a cult circle</li>
+    <li>subject_story->encountered an exiled cult master, who happily boasted about his secrets</li>
+    <li>subject_story->deepened his understanding of ritual sacrifice</li>
+    <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
+    <li>subject_gerund->performing advanced psychic rituals</li>
+  -->
+  <AdvancedPsychicRituals.generalRules.rulesStrings>
+    <li>subject->高等心靈儀式</li>
+    <li>subject_story->被帶入邪教圈</li>
+    <li>subject_story->遇到了一位流亡的邪教大師，他高興地吹噓自己的祕密</li>
+    <li>subject_story->加深了他對儀式獻祭的理解</li>
+    <li>subject_story->被任命爲九號大學的精神史教授</li>
+    <li>subject_gerund->進行高等心靈儀式</li>
+  </AdvancedPsychicRituals.generalRules.rulesStrings>
+  
+  <!-- EN: atmospheric heater -->
+  <AtmosphericHeater.label>大氣加熱器</AtmosphericHeater.label>
+  <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
+  <AtmosphericHeater.description>建造由生化鐵氧體驅動的加熱器，可產生足以加熱整個區域的熱能。</AtmosphericHeater.description>
+  <!-- EN:
+    <li>subject->bioferrite heating</li>
+    <li>subject_story->upgraded archaic geothermal plants</li>
+    <li>subject_story->studied the heat output of biometals</li>
+    <li>subject_story->researched the impossible capacity of archotech energy storage</li>
+    <li>subject_story->examined the hypocaust systems on densely occupied iceworlds</li>
+    <li>subject_gerund->heating with bioferrite</li>
+    <li>subject_gerund->constructing bioferrite-fueled heaters</li>
+  -->
+  <AtmosphericHeater.generalRules.rulesStrings>
+    <li>subject->生化鐵氧體加熱</li>
+    <li>subject_story->升級了古老的地熱發電廠</li>
+    <li>subject_story->研究了生物金屬的熱能輸出</li>
+    <li>subject_story->研究了遠古科技難以置信的儲能容量</li>
+    <li>subject_story->查看了人口稠密的冰凍世界的火炕系統</li>
+    <li>subject_gerund->使用生化鐵氧體加熱</li>
+    <li>subject_gerund->建造以生化鐵氧體為燃料的加熱器</li>
+  </AtmosphericHeater.generalRules.rulesStrings>
+  
+  <!-- EN: void provocation -->
+  <BasicPsychicRituals.label>虛空挑釁</BasicPsychicRituals.label>
+  <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
+  <BasicPsychicRituals.description>建造一個心靈儀式點並進行心靈儀式。使用虛空挑釁儀式來發現新的實體。</BasicPsychicRituals.description>
+  <!-- EN:
+    <li>subject->psychic rituals</li>
+    <li>subject_story->studied the rituals of Horax cultists</li>
+    <li>subject_story->reconstructed primitive altars</li>
+    <li>subject_story->established the basics of psychic communication</li>
+    <li>subject_story->watched a failed void provocation ritual on a deathworld</li>
+    <li>subject_story->communed with an archotech shard atop a desert pillar</li>
+    <li>subject_gerund->conducting psychic rituals</li>
+    <li>subject_gerund->establishing ritual spots</li>
+    <li>subject_gerund->provoking void entities</li>
+  -->
+  <BasicPsychicRituals.generalRules.rulesStrings>
+    <li>subject->心靈儀式</li>
+    <li>subject_story->研究了霍拉克斯邪教徒的儀式</li>
+    <li>subject_story->重建了原始祭壇</li>
+    <li>subject_story->建立了心靈溝通的基礎</li>
+    <li>subject_story->在某個死寂世界觀看了一場失敗的虛空挑釁儀式</li>
+    <li>subject_story->與沙漠柱頂上的遠古科技碎片進行了交流</li>
+    <li>subject_gerund->進行心靈儀式</li>
+    <li>subject_gerund->建立儀式點</li>
+    <li>subject_gerund->挑釁虛空實體</li>
+  </BasicPsychicRituals.generalRules.rulesStrings>
+  
+  <!-- EN: bioferrite generator -->
+  <BioferriteGenerator.label>生化鐵氧體發電機</BioferriteGenerator.label>
+  <!-- EN: Build power generators that burn bioferrite as a fuel. -->
+  <BioferriteGenerator.description>建造燃燒生化鐵氧體作為燃料的發電機。</BioferriteGenerator.description>
+  <!-- EN:
+    <li>subject->bioferrite power generation</li>
+    <li>subject_story->was trained in the use of innovative power sources</li>
+    <li>subject_story->explored the use of metal- and fibre-based fuels</li>
+    <li>subject_story->discovered a love of fire and things that burn</li>
+    <li>subject_story->worked as a technician, maintaining orbital energy systems</li>
+    <li>subject_story->rendered the wildlife of a system down for fuel</li>
+    <li>subject_gerund->constructing bioferrite-powered generators</li>
+    <li>subject_gerund->powering generators using bioferrite</li>
+  -->
+  <BioferriteGenerator.generalRules.rulesStrings>
+    <li>subject->生化鐵氧體發電</li>
+    <li>subject_story->受過運用創新能源的訓練</li>
+    <li>subject_story->探索了金屬和纖維基燃料的運用</li>
+    <li>subject_story->發現了對火焰和燃燒東西的熱愛</li>
+    <li>subject_story->曾擔任維護軌道能源系統的技術員</li>
+    <li>subject_story->將某個星系的野生動物開膛熬脂以獲得燃料</li>
+    <li>subject_gerund->建造用生化鐵氧體驅動的發電機</li>
+    <li>subject_gerund->使用生化鐵氧體驅動發電機</li>
+  </BioferriteGenerator.generalRules.rulesStrings>
+  
+  <!-- EN: bioferrite harvesting -->
+  <BioferriteHarvesting.label>生化鐵氧體收集</BioferriteHarvesting.label>
+  <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
+  <BioferriteHarvesting.description>建造生化鐵氧體收集器，從收容平台上收容的捕獲實體身上生產生化鐵氧體。</BioferriteHarvesting.description>
+  <!-- EN:
+    <li>subject->bioferrite</li>
+    <li>subject_story->investigated an exotic metal-like fibrous substance</li>
+    <li>subject_story->vivisected a ghoulish corpse</li>
+    <li>subject_story->discovered a cache of organic metals</li>
+    <li>subject_story->observed strange metal-infested wildlife</li>
+    <li>subject_gerund->harvesting bioferrite</li>
+  -->
+  <BioferriteHarvesting.generalRules.rulesStrings>
+    <li>subject->生化鐵氧體</li>
+    <li>subject_story->調查了一種奇特的金屬狀纖維物質</li>
+    <li>subject_story->活體解剖了一具像食屍鬼的屍體</li>
+    <li>subject_story->發現了一堆有機金屬</li>
+    <li>subject_story->看到了被金屬寄生的奇怪野生動物</li>
+    <li>subject_gerund->收集生化鐵氧體</li>
+  </BioferriteHarvesting.generalRules.rulesStrings>
+  
+  <!-- EN: bioferrite weaponry -->
+  <BioferriteIgnition.label>生化鐵氧體武器</BioferriteIgnition.label>
+  <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
+  <BioferriteIgnition.description>製造使用生化鐵氧體作為燃料來源的先進武器。</BioferriteIgnition.description>
+  <!-- EN:
+    <li>subject->bioferrite combustion</li>
+    <li>subject->bioferrite weaponry</li>
+    <li>subject_story->worked for an extraction rig on an archotech asteroid</li>
+    <li>subject_story->researched the combustion points of exotic materials</li>
+    <li>subject_story->joined the research arm of a milword weapons corp</li>
+    <li>subject_story->cleared biomines in an archotech desert</li>
+    <li>subject_gerund->building bioferrite-based weapons</li>
+  -->
+  <BioferriteIgnition.generalRules.rulesStrings>
+    <li>subject->生化鐵氧體燃燒</li>
+    <li>subject->生化鐵氧體武器</li>
+    <li>subject_story->曾在遠古科技小行星上的鑽井平臺工作</li>
+    <li>subject_story->研究了奇特材料的燃點</li>
+    <li>subject_story->加入了中古世界武器公司的研究部門</li>
+    <li>subject_story->在遠古科技沙漠中清除生物地雷</li>
+    <li>subject_gerund->建造生化鐵氧體武器</li>
+  </BioferriteIgnition.generalRules.rulesStrings>
+  
+  <!-- EN: bioferrite shaping -->
+  <BioferriteShaping.label>生化鐵氧體塑型</BioferriteShaping.label>
+  <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
+  <BioferriteShaping.description>將生化鐵氧體塑型，重新塑造成有用的工具、武器和地板等。</BioferriteShaping.description>
+  <!-- EN:
+    <li>subject->bioferrite shaping</li>
+    <li>subject_story->learned unique techniques for molding and sculpting</li>
+    <li>subject_story->trained in heat-shaping</li>
+    <li>subject_story->worked in an exotic materials foundry</li>
+    <li>subject_story->aided an archotech materials scientist </li>
+    <li>subject_story->studied the formation of archotech artefacts</li>
+    <li>subject_gerund->shaping bioferrite</li>
+  -->
+  <BioferriteShaping.generalRules.rulesStrings>
+    <li>subject->生化鐵氧體塑型</li>
+    <li>subject_story->學會了獨特的塑造和雕刻技術</li>
+    <li>subject_story->受過熱成型的訓練</li>
+    <li>subject_story->曾在奇特材料鑄造廠工作</li>
+    <li>subject_story->曾幫助過一名遠古科技材料科學家 </li>
+    <li>subject_story->研究了遠古科技文物的結構</li>
+    <li>subject_gerund->塑型生化鐵氧體</li>
+  </BioferriteShaping.generalRules.rulesStrings>
+  
+  <!-- EN: bliss lobotomy -->
+  <BlissLobotomy.label>極樂腦葉切除</BlissLobotomy.label>
+  <!-- EN: Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor. -->
+  <BlissLobotomy.description>對人進行進行腦葉切除手術，使他們變得更快樂，同時使他們無法進行智力和專業勞動。</BlissLobotomy.description>
+  <!-- EN:
+    <li>subject->lobotomy</li>
+    <li>subject_story->was eventually lobotomized for thought-crimes against the state</li>
+    <li>subject_story->rehabilitated the few survivors of the Eldof experiment</li>
+    <li>subject_story->took an apprenticeship as a brain surgeon and barber</li>
+    <li>subject_gerund->performing lobotomies</li>
+    <li>subject_gerund->excising brain tissue</li>
+  -->
+  <BlissLobotomy.generalRules.rulesStrings>
+    <li>subject->腦葉切除</li>
+    <li>subject_story->最終因反國家的思想罪而被切除腦葉</li>
+    <li>subject_story->使埃爾多夫實驗的少數倖存者得以康復</li>
+    <li>subject_story->成為腦外科醫生和理髮師的學徒</li>
+    <li>subject_gerund->進行腦葉切除手術</li>
+    <li>subject_gerund->切除腦組織</li>
+  </BlissLobotomy.generalRules.rulesStrings>
+  
+  <!-- EN: blood rain -->
+  <BloodRain.label>血雨</BloodRain.label>
+  <!-- EN: Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage. -->
+  <BloodRain.description>進行心靈儀式，導致類似血液的心靈液體從天而降。任何在外面被此液體淋到的人很快就會陷入狂暴憤怒。</BloodRain.description>
+  <!-- EN:
+    <li>subject->blood rain</li>
+    <li>subject_story->Investigated ancient deist myths about organic precipitation</li>
+    <li>subject_story->Studied the neural pathways of anger sufferers</li>
+    <li>subject_story->Sampled psychofluid flows on the transcendent world of Ix</li>
+    <li>subject_story->Was exposed to a psychofluid shower and filled with unmanageable rage</li>
+    <li>subject_gerund->causing it to rain blood</li>
+  -->
+  <BloodRain.generalRules.rulesStrings>
+    <li>subject->血雨</li>
+    <li>subject_story->調查了有關有機降水的古老自然神論傳說</li>
+    <li>subject_story->研究了受憤怒煎熬者的神經通路</li>
+    <li>subject_story->取樣了九號超凡世界上的心靈液體流向</li>
+    <li>subject_story->被心靈液體之雨淋到，內心充滿無法控制的怒火</li>
+    <li>subject_gerund->導致降下血雨</li>
+  </BloodRain.generalRules.rulesStrings>
+  
+  <!-- EN: brainwipe -->
+  <Brainwipe.label>記憶消除</Brainwipe.label>
+  <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. -->
+  <Brainwipe.description>進行心靈儀式，抹去一個人的多數事件記憶。創傷事件將會被遺忘。抵抗的俘虜將變得更容易招募。</Brainwipe.description>
+  <!-- EN:
+    <li>subject->mind erasure</li>
+    <li>subject_story->studied stories of episodice amnesia</li>
+    <li>subject_story->worked in a clinic with brain lesion survivors</li>
+    <li>subject_story->researched the neural pathways of amnesiacs</li>
+    <li>subject_story->managed a brainwashing facility after the Forgotten Wars</li>
+    <li>subject_gerund->wiping a subject's mind</li>
+    <li>subject_gerund->performing a ritual to erase a subject's mind</li>
+  -->
+  <Brainwipe.generalRules.rulesStrings>
+    <li>subject->記憶抹除</li>
+    <li>subject_story->研究了關於事件性失憶的故事</li>
+    <li>subject_story->曾在治療腦損傷倖存者的診所工作</li>
+    <li>subject_story->研究了失憶症患者的神經通路</li>
+    <li>subject_story->曾在被遺忘的戰爭後管理洗腦設施</li>
+    <li>subject_gerund->抹去受試者的記憶</li>
+    <li>subject_gerund->進行抹去受試者記憶的儀式</li>
+  </Brainwipe.generalRules.rulesStrings>
+  
+  <!-- EN: chronophagy -->
+  <Chronophagy.label>噬時術</Chronophagy.label>
+  <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
+  <Chronophagy.description>進行心靈儀式，使目標迅速衰老。儀式召喚者在此過程中會變得更年輕。目標將因此遭受腦損傷，這對年長的目標可能是致命的。</Chronophagy.description>
+  <!-- EN:
+    <li>subject->chronophagy</li>
+    <li>subject_story->studied age-related degeneration</li>
+    <li>subject_story->destructively replicated healthy structures from one oranism to another</li>
+    <li>subject_story->theorized about the various rituals that imbued archotech can enable</li>
+    <li>subject_story->observed wealthy longevity treatments in glitterworld clinics</li>
+    <li>subject_gerund->stealing youth</li>
+    <li>subject_gerund->invoking chronophagy</li>
+    <li>subject_gerund->performing a chronophagy ritual</li>
+  -->
+  <Chronophagy.generalRules.rulesStrings>
+    <li>subject->噬時術</li>
+    <li>subject_story->研究了與年齡相關的退化</li>
+    <li>subject_story->破壞性地將健康結構從一個生物身上複製到另一個生物身上</li>
+    <li>subject_story->針對灌輸遠古科技後能夠實現的各種儀式提出理論</li>
+    <li>subject_story->在閃耀世界診所觀察到富人的長壽療程</li>
+    <li>subject_gerund->竊取青春年華</li>
+    <li>subject_gerund->喚醒噬時術</li>
+    <li>subject_gerund->進行噬時術儀式</li>
+  </Chronophagy.generalRules.rulesStrings>
+  
+  <!-- EN: deadlife dust -->
+  <DeadlifeDust.label>活屍粉塵</DeadlifeDust.label>
+  <!-- EN: Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies. -->
+  <DeadlifeDust.description>製作產生微小遠古分子團的裝置。遠古分子可以使屍體復活，產生只會攻擊敵人的致命蹣步者。</DeadlifeDust.description>
+  <!-- EN:
+    <li>subject->deadlife dust</li>
+    <li>subject_story->synthesized an aerosol-dispersal system for nanobots</li>
+    <li>subject_story->used atomic centrifuges to separate out different grades of archite</li>
+    <li>subject_story->watched a deadly shambler assault on an Urbworld vidclip</li>
+    <li>subject_story->developed an archite control device with autotuned IFF systems</li>
+    <li>subject_gerund->crafting deadlife dust</li>
+    <li>subject_gerund->distributing archites to create shamblers</li>
+  -->
+  <DeadlifeDust.generalRules.rulesStrings>
+    <li>subject->活屍粉塵</li>
+    <li>subject_story->合成了一種用於奈米機器人的氣溶膠擴散系統</li>
+    <li>subject_story->使用了原子離心機分離出不同等級的遠古分子</li>
+    <li>subject_story->觀看了蹣步者對都市世界進行致命突擊的影片</li>
+    <li>subject_story->開發了具有自動調整敵我識別系統的遠古分子控制裝置</li>
+    <li>subject_gerund->製作活屍粉塵</li>
+    <li>subject_gerund->散佈遠古分子以製造蹣步者</li>
+  </DeadlifeDust.generalRules.rulesStrings>
+  
+  <!-- EN: death refusal -->
+  <DeathRefusal.label>死亡回絕</DeathRefusal.label>
+  <!-- EN: Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying. -->
+  <DeathRefusal.description>進行心靈儀式，賦予一個人死亡回絕的能力，讓他們在死後可以自我復活一次。</DeathRefusal.description>
+  <!-- EN:
+    <li>subject->death refusal invocation</li>
+    <li>subject_story->investigated tales of impossible survival</li>
+    <li>subject_story->observed the last moments of the many casualties of Last Battle VII</li>
+    <li>subject_story->participated in the attempted resurrection of the ur-prophet of Axhor</li>
+    <li>subject_story->gathered evidence of death refusal in the libraries of a coreworld</li>
+    <li>subject_gerund->fending off death</li>
+    <li>subject_gerund->performing a ritual to rebuke death</li>
+  -->
+  <DeathRefusal.generalRules.rulesStrings>
+    <li>subject->死亡回絕祈禱</li>
+    <li>subject_story->調查了在難以置信的情況下生存的故事</li>
+    <li>subject_story->觀察了第七場最終戰役中眾多傷亡者生前的最後時刻</li>
+    <li>subject_story->參與了嘗試復活阿克梭最初先知的行動</li>
+    <li>subject_story->在核心世界的圖書館中收集了死亡回絕的證據</li>
+    <li>subject_gerund->抵抗死亡</li>
+    <li>subject_gerund->進行譴責死亡的儀式</li>
+  </DeathRefusal.generalRules.rulesStrings>
+  
+  <!-- EN: disruptor flares -->
+  <DisruptorFlares.label>干擾閃焰彈</DisruptorFlares.label>
+  <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
+  <DisruptorFlares.description>製造能夠揭露隱形生物並點亮區域的生化鐵氧體閃焰彈背包。</DisruptorFlares.description>
+  <!-- EN:
+    <li>subject->bioferrite flares</li>
+    <li>subject->short-term lighting</li>
+    <li>subject_story->studied the non-visual electromagnetic spectrum</li>
+    <li>subject_story->disabled the visual centres of test subjects</li>
+    <li>subject_story->studied the bioluminescence techniques of nightworld fauna</li>
+    <li>subject_story->Investigated narrowed the electromagnetic spectrum of archite energy releases</li>
+    <li>subject_gerund->boosting visibility temporarily</li>
+    <li>subject_gerund->crafting bioferrite flares</li>
+  -->
+  <DisruptorFlares.generalRules.rulesStrings>
+    <li>subject->生化鐵氧體閃焰彈</li>
+    <li>subject->短期照明</li>
+    <li>subject_story->研究了不可見電磁波譜</li>
+    <li>subject_story->致殘了實驗受試者的視覺中樞</li>
+    <li>subject_story->研究了夜間世界動物群的生物發光機制</li>
+    <li>subject_story->調查並縮小了遠古分子能量釋放的電磁波譜</li>
+    <li>subject_gerund->暫時提升能見度</li>
+    <li>subject_gerund->製作生化鐵氧體閃焰彈</li>
+  </DisruptorFlares.generalRules.rulesStrings>
+  
+  <!-- EN: electroharvester -->
+  <Electroharvester.label>電力收集器</Electroharvester.label>
+  <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
+  <Electroharvester.description>建造一個從收容實體中抽取電力的發電機。此過程會激怒實體，使其更難遏制。</Electroharvester.description>
+  <!-- EN:
+    <li>subject->entity-derived power generation</li>
+    <li>subject_story->researched ion pumps in cell membranes</li>
+    <li>subject_story->studied the life of the rare Terran electric eel</li>
+    <li>subject_story->provoked archites and studied their thermal output</li>
+    <li>subject_story->theorized about the energy potential of archotech</li>
+    <li>subject_gerund->harvesting from entities</li>
+    <li>subject_gerund->constructing electroharvesters</li>
+  -->
+  <Electroharvester.generalRules.rulesStrings>
+    <li>subject->從實體提取能源發電</li>
+    <li>subject_story->研究了細胞膜中的離子泵</li>
+    <li>subject_story->研究了稀有德蘭電鰻的生命週期</li>
+    <li>subject_story->刺激了遠古分子並研究了它們的熱輸出</li>
+    <li>subject_story->針對遠古科技產生能源的潛力提出理論</li>
+    <li>subject_gerund->從實體身上收集能源</li>
+    <li>subject_gerund->建造電力收集器</li>
+  </Electroharvester.generalRules.rulesStrings>
+  
+  <!-- EN: entity containment -->
+  <EntityContainment.label>實體收容</EntityContainment.label>
+  <!-- EN: Build holding platforms and inhibitors to better contain entities. -->
+  <EntityContainment.description>建造收容平台和抑制器，以更有效地遏制實體。</EntityContainment.description>
+  <!-- EN:
+    <li>subject->entity containment</li>
+    <li>subject_story->worked in a prisonworld research facility</li>
+    <li>subject_story->was held captive on a prisonworld</li>
+    <li>subject_story->worked with a guerilla movement to breach holding facilities</li>
+    <li>subject_story->constructed meatpacking plants in the dinoworld chains</li>
+    <li>subject_gerund->containing entities</li>
+    <li>subject_gerund->construction entity containment facilities</li>
+  -->
+  <EntityContainment.generalRules.rulesStrings>
+    <li>subject->實體收容</li>
+    <li>subject_story->曾在監獄世界的研究機構工作</li>
+    <li>subject_story->曾被囚禁在監獄世界</li>
+    <li>subject_story->曾與遊擊隊運動合作，破壞拘留設施</li>
+    <li>subject_story->在恐龍世界連鎖店中建造肉類加工廠</li>
+    <li>subject_gerund->收容實體</li>
+    <li>subject_gerund->建造實體收容設施</li>
+  </EntityContainment.generalRules.rulesStrings>
+  
+  <!-- EN: frenzy inducer -->
+  <FrenzyInducer.label>狂熱誘發器</FrenzyInducer.label>
+  <!-- EN: Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby. -->
+  <FrenzyInducer.description>建造由碎片驅動的結構，產生狂熱的心靈力場，使附近的任何人都能更快速地移動和工作。然而，不穩定的情緒能量會產生暴力傾向，激怒附近的任何人。</FrenzyInducer.description>
+  <!-- EN:
+    <li>subject->archotech frenzy inducers</li>
+    <li>subject_story->worked as a motivational therapist</li>
+    <li>subject_story->beat the drums on a feralworld galley</li>
+    <li>subject_story->researched the effects of varied archofields on human consciousness</li>
+    <li>subject_story->managed a trance station in an urbworld underclub</li>
+    <li>subject_gerund->inducing frenzy</li>
+    <li>subject_gerund->constructing frenzy inducers from archotech</li>
+  -->
+  <FrenzyInducer.generalRules.rulesStrings>
+    <li>subject->遠古科技狂熱誘導器</li>
+    <li>subject_story->曾擔任激勵治療師</li>
+    <li>subject_story->在野獸世界的槳帆船上打鼓</li>
+    <li>subject_story->研究了各種遠古力場對人類意識的影響</li>
+    <li>subject_story->曾在都市世界中的某間地下俱樂部管理恍惚站</li>
+    <li>subject_gerund->導致狂熱</li>
+    <li>subject_gerund->用遠古科技建造狂熱誘導器</li>
+  </FrenzyInducer.generalRules.rulesStrings>
+  
+  <!-- EN: ghoul enhancements -->
+  <GhoulEnhancements.label>食屍鬼改造</GhoulEnhancements.label>
+  <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
+  <GhoulEnhancements.description>製作生化鐵氧體義體，讓食屍鬼變得更強壯。</GhoulEnhancements.description>
+  <!-- EN:
+    <li>subject->ghoul enhancements</li>
+    <li>subject_story->experimented with the dead and the twice-dead</li>
+    <li>subject_story->implanted increasingly strange items into ghouls</li>
+    <li>subject_story->researched more complex ghoul prosthesis</li>
+    <li>subject_gerund->enhancing a ghoul with bioferrite prosthetics</li>
+  -->
+  <GhoulEnhancements.generalRules.rulesStrings>
+    <li>subject->食屍鬼改造</li>
+    <li>subject_story->曾對死屍和二度死亡的屍體進行實驗</li>
+    <li>subject_story->將越來越奇怪的物品植入食屍鬼體內</li>
+    <li>subject_story->研究了更複雜的食屍鬼義體</li>
+    <li>subject_gerund->用生化鐵氧體義體加強食屍鬼</li>
+  </GhoulEnhancements.generalRules.rulesStrings>
+  
+  <!-- EN: ghoul infusion -->
+  <GhoulInfusion.label>食屍鬼注入</GhoulInfusion.label>
+  <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
+  <GhoulInfusion.description>進行將遠古科技碎片注入活人體內的手術，把他們變成可怕的食屍鬼。食屍鬼是強大的近戰戰鬥人員，但無法執行工作。食屍鬼如果沒有吃足夠的生肉的話就會發瘋。</GhoulInfusion.description>
+  <!-- EN:
+    <li>subject->ghoul creation</li>
+    <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
+    <li>subject_story->militarized archite injections as part of an experimental program</li>
+    <li>subject_story->studied feral deadlife in the ruins of a deadworld</li>
+    <li>subject_gerund->infusing an archotech shard into a living person</li>
+    <li>subject_gerund->creating a ghoul</li>
+  -->
+  <GhoulInfusion.generalRules.rulesStrings>
+    <li>subject->創造食屍鬼</li>
+    <li>subject_story->為都市世界衝突提供被定罪的監獄世界居民</li>
+    <li>subject_story->將遠古分子注射軍事化，作為實驗性計畫的一部分</li>
+    <li>subject_story->在死寂世界的廢墟中研究了野生活屍</li>
+    <li>subject_gerund->將遠古科技碎片注入活人體內</li>
+    <li>subject_gerund->製造食屍鬼</li>
+  </GhoulInfusion.generalRules.rulesStrings>
+  
+  <!-- EN: ghoul resurrection -->
+  <GhoulResurrection.label>食屍鬼復活</GhoulResurrection.label>
+  <!-- EN: Synthesize a serum that can bring dead ghouls back to life. -->
+  <GhoulResurrection.description>合成一種可以使死去的食屍鬼復活的血清。</GhoulResurrection.description>
+  <!-- EN:
+    <li>subject->ghoul resurrection</li>
+    <li>subject_story->developed a new method of resurrecting ghouls</li>
+    <li>subject_story->injected a variety of archotech compounds into corpses</li>
+    <li>subject_story->researched the effects of higher archotech concentrations on ghouls</li>
+    <li>subject_story->witnessed the repeated resurrection of a ghoul</li>
+    <li>subject_gerund->resurrecting a ghoul</li>
+    <li>subject_gerund->synthesizing a serum to resurrect ghouls</li>
+  -->
+  <GhoulResurrection.generalRules.rulesStrings>
+    <li>subject->食屍鬼復活</li>
+    <li>subject_story->研發了一種復活食屍鬼的新方法</li>
+    <li>subject_story->將各種遠古科技化合物注入屍體</li>
+    <li>subject_story->研究了更高的遠古科技濃度對食屍鬼的影響</li>
+    <li>subject_story->目睹了食屍鬼的反覆復活</li>
+    <li>subject_gerund->復活食屍鬼</li>
+    <li>subject_gerund->合成血清以復活食屍鬼</li>
+  </GhoulResurrection.generalRules.rulesStrings>
+  
+  <!-- EN: insanity weaponry -->
+  <InsanityWeaponry.label>狂暴武器</InsanityWeaponry.label>
+  <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
+  <InsanityWeaponry.description>將遠古科技碎片重組為有限次數的武器，使用遠古科技衝擊、操縱和摧毀敵人。</InsanityWeaponry.description>
+  <!-- EN:
+    <li>subject->archotech insanity weaponry</li>
+    <li>subject_story->explored psychological warfare for their dissertation</li>
+    <li>subject_story->watched an Imperial battalion rout and learned the value of fear</li>
+    <li>subject_story->worked in an asylum of arcotech victims</li>
+    <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
+    <li>subject_gerund->restructuring archotech into insanity-inducing weaponry</li>
+  -->
+  <InsanityWeaponry.generalRules.rulesStrings>
+    <li>subject->遠古科技狂暴武器</li>
+    <li>subject_story->為他們的論文探索了心理戰</li>
+    <li>subject_story->看著帝國軍營的潰敗，見識到了恐懼的價值</li>
+    <li>subject_story->曾在遠古科技受害者的庇護所工作</li>
+    <li>subject_story->活體解剖了被遠古分子寄生的野生動物，以了解遠古分子對哺乳類大腦的影響</li>
+    <li>subject_gerund->將遠古科技重組為可導致精神錯亂的武器</li>
+  </InsanityWeaponry.generalRules.rulesStrings>
+  
+  <!-- EN: juggernaut serum -->
+  <JuggernautSerum.label>強力血清</JuggernautSerum.label>
+  <!-- EN: Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood. -->
+  <JuggernautSerum.description>合成可暫時讓使用者加強力量和加快速度，並讓他們能更快療傷的血清。不過此血清會令使用者心情低落。</JuggernautSerum.description>
+  <!-- EN:
+    <li>subject->juggernaut serum</li>
+    <li>subject_story->was banned from the coreworld leagues after he was caught doping ateam with Juggernaut Serum</li>
+    <li>subject_story->gave soldiers Juggernaut Serum when their ammo ran out</li>
+    <li>subject_story->researched serum use among indentured building sectors</li>
+    <li>subject_story->fell into a barrel of juggernaut serum</li>
+    <li>subject_gerund->synthesizing juggernaut serums</li>
+  -->
+  <JuggernautSerum.generalRules.rulesStrings>
+    <li>subject->強力血清</li>
+    <li>subject_story->在被發現使用強力血清後，被禁止參與核心世界聯盟賽</li>
+    <li>subject_story->在彈藥用完時，給了士兵強力血清</li>
+    <li>subject_story->研究了契約建築行業中的血清使用情況</li>
+    <li>subject_story->掉進一桶強力血清中</li>
+    <li>subject_gerund->合成強力血清</li>
+  </JuggernautSerum.generalRules.rulesStrings>
+  
+  <!-- EN: metalblood serum -->
+  <MetalbloodSerum.label>鐵血血清</MetalbloodSerum.label>
+  <!-- EN: Synthesize metalblood serums that makes the user more resistant to damage. -->
+  <MetalbloodSerum.description>合成鐵血血清，讓使用者更能抵抗傷害。</MetalbloodSerum.description>
+  <!-- EN:
+    <li>subject->metalblood serums</li>
+    <li>subject_story->researched reactive liquids for use in milworld armor</li>
+    <li>subject_story->was an early pioneer of blood-replacement technologies</li>
+    <li>subject_story->discovered a metalblood dispenser on a desolate deadworld.</li>
+    <li>subject_story->deployed flamethrowers against a metalblood-using militia</li>
+    <li>subject_gerund->synthesizing metalblood serums</li>
+  -->
+  <MetalbloodSerum.generalRules.rulesStrings>
+    <li>subject->鐵血血清</li>
+    <li>subject_story->研究了用於中古世界裝甲的反應性液體</li>
+    <li>subject_story->是血液置換技術的早期先驅</li>
+    <li>subject_story->在一個荒涼的死寂世界發現了一個鐵血分配器。</li>
+    <li>subject_story->部署了噴火槍來對抗使用鐵血的民兵</li>
+    <li>subject_gerund->合成鐵血血清</li>
+  </MetalbloodSerum.generalRules.rulesStrings>
+  
+  <!-- EN: mind-numb serum -->
+  <MindNumbSerum.label>麻木血清</MindNumbSerum.label>
+  <!-- EN: Synthesize a serum that stabilizes a person's mood, preventing mental breaks. -->
+  <MindNumbSerum.description>合成能穩定個人情緒的血清，防止精神崩潰。</MindNumbSerum.description>
+  <!-- EN:
+    <li>subject->mind-numb serum</li>
+    <li>subject_story->sabotaged an emotal performance by secretly numbing the lead singer</li>
+    <li>subject_story->filtered low-dose mind-numb serum into an asylum water supply</li>
+    <li>subject_story->distributed mind-numb serum to junior soldiers before and after battle</li>
+    <li>subject_story->investigated the use of archotech to numb pain</li>
+    <li>subject_gerund->synthesizing mind-numb serums</li>
+  -->
+  <MindNumbSerum.generalRules.rulesStrings>
+    <li>subject->麻木血清</li>
+    <li>subject_story->偷偷麻醉了主唱，破壞了一場動人的表演</li>
+    <li>subject_story->將低劑量的麻木血清過濾到庇護所的供水系統中</li>
+    <li>subject_story->在戰鬥前後向初級士兵發放麻木血清</li>
+    <li>subject_story->調查了使用遠古科技麻醉疼痛的方式</li>
+    <li>subject_gerund->合成麻木血清</li>
+  </MindNumbSerum.generalRules.rulesStrings>
+  
+  <!-- EN: mutation weaponry -->
+  <MutationWeaponry.label>變種武器</MutationWeaponry.label>
+  <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
+  <MutationWeaponry.description>將遠古科技碎片重組為有限次數的武器，將活體目標扭曲成可怕的生物。</MutationWeaponry.description>
+  <!-- EN:
+    <li>subject->mutation induction</li>
+    <li>subject->archotech mutation weaponry</li>
+    <li>subject_story->dreamed of new life, infused with archites</li>
+    <li>subject_story->witnessed archotech warping plant life</li>
+    <li>subject_story->experimented with new weapons</li>
+    <li>subject_story->studied new life on transcendent worlds</li>
+    <li>subject_story->grew archite-based life in the laboratory</li>
+    <li>subject_gerund->inducing mutations</li>
+    <li>subject_gerund->restructuring archotech into mutation-inducing weaponry</li>
+  -->
+  <MutationWeaponry.generalRules.rulesStrings>
+    <li>subject->誘發突變</li>
+    <li>subject->遠古科技變種武器</li>
+    <li>subject_story->夢想著被注入遠古分子後的新生活</li>
+    <li>subject_story->目睹了遠古科技將植物扭曲</li>
+    <li>subject_story->曾嘗試使用新型武器</li>
+    <li>subject_story->研究了超凡世界上的新生命</li>
+    <li>subject_story->在研究室中培育了遠古分子生命體</li>
+    <li>subject_gerund->誘發突變</li>
+    <li>subject_gerund->將遠古科技重組為可誘發突變的武器</li>
+  </MutationWeaponry.generalRules.rulesStrings>
+  
+  <!-- EN: neurosis pulse -->
+  <NeurosisPulse.label>神經質脈衝</NeurosisPulse.label>
+  <!-- EN: Perform a psychic ritual that makes everyone in the region work faster but become more irritable. -->
+  <NeurosisPulse.description>進行心靈儀式，使該地區的每個人工作得更快，但變得更加煩躁。</NeurosisPulse.description>
+  <!-- EN:
+    <li>subject->neurosis pulse</li>
+    <li>subject->work imperative</li>
+    <li>subject_story->joined a workers' cult on an urbworld</li>
+    <li>subject_story->felt the psychic pressure of a ritual during work</li>
+    <li>subject_story->studied the neural-pathways of the neurotic</li>
+    <li>subject_story->investigated the crossover between management tropes and cult rituals</li>
+    <li>subject_gerund->inducing neuroses psychically</li>
+    <li>subject_gerund->performing a ritual to raise worker productivity</li>
+  -->
+  <NeurosisPulse.generalRules.rulesStrings>
+    <li>subject->神經質脈衝</li>
+    <li>subject->工作指令</li>
+    <li>subject_story->在都市世界中加入了勞工創建的邪教</li>
+    <li>subject_story->在工作中感受到了儀式的心靈壓力</li>
+    <li>subject_story->研究了神經質者的神經通路</li>
+    <li>subject_story->調查了管理理念和邪教儀式之間的交集</li>
+    <li>subject_gerund->以心靈力量誘發精神官能症</li>
+    <li>subject_gerund->進行提高勞工生產力的儀式</li>
+  </NeurosisPulse.generalRules.rulesStrings>
+  
+  <!-- EN: philophagy -->
+  <Philophagy.label>噬技術</Philophagy.label>
+  <!-- EN: Perform a psychic ritual that drains experience from a victim and gives it to the invoker. The process will dull the target's mind, weakening their skills and causing brain damage. -->
+  <Philophagy.description>進行心靈儀式，消耗受害者的經驗並把它轉交給召喚者。這個過程會鈍化目標的心智，削弱他們的技能並造成腦損傷。</Philophagy.description>
+  <!-- EN:
+    <li>subject->philophagy</li>
+    <li>subject->skill transfer</li>
+    <li>subject_story->followed a trail of victims left by a philophage</li>
+    <li>subject_story->researched neural replication processes in a glitterworld's labs</li>
+    <li>subject_story->investigated the damaged minds of cult victims</li>
+    <li>subject_story->found their skills weakened after a psychic assault</li>
+    <li>subject_gerund->transferring a subject's learning</li>
+    <li>subject_gerund->performing a ritual to steal a victim's skills</li>
+  -->
+  <Philophagy.generalRules.rulesStrings>
+    <li>subject->噬技術</li>
+    <li>subject->技能轉移</li>
+    <li>subject_story->追蹤著噬技術師所造成的一系列受害者</li>
+    <li>subject_story->在閃耀世界的實驗室中研究了神經複製過程</li>
+    <li>subject_story->調查了邪教受害者受損的心智</li>
+    <li>subject_story->發現他們的技能在遭受心靈突擊後減弱</li>
+    <li>subject_gerund->轉移受試者的所學知識</li>
+    <li>subject_gerund->進行竊取受害者技能的儀式</li>
+  </Philophagy.generalRules.rulesStrings>
+  
+  <!-- EN: pleasure pulse -->
+  <PleasurePulse.label>樂活脈衝</PleasurePulse.label>
+  <!-- EN: Perform a psychic ritual that makes everyone in the region happier but reduces their desire to work. -->
+  <PleasurePulse.description>進行心靈儀式，使該地區的每個人更快樂，但會降低他們的工作慾望。</PleasurePulse.description>
+  <!-- EN:
+    <li>subject->pleasure invocation</li>
+    <li>subject_story->read an ancient Earth story that boasted of a miracle food called soma</li>
+    <li>subject_story->researched the myth of the Lotus Eaters</li>
+    <li>subject_story->worked with social philosophers to create a utilitarian ritual</li>
+    <li>subject_story->joined a rare archotech cult dedicated to leisure and pleasure</li>
+    <li>subject_gerund->inducing pleasure psychically</li>
+    <li>subject_gerund->performing a psychic ritual to induce pleasure</li>
+  -->
+  <PleasurePulse.generalRules.rulesStrings>
+    <li>subject->樂活祈禱</li>
+    <li>subject_story->閱讀了一則源自地球的古老故事，其中誇耀了一種名叫蘇摩的奇蹟食物</li>
+    <li>subject_story->研究了食蓮者的傳說</li>
+    <li>subject_story->與社會哲學家合作，創造了功利主義的儀式</li>
+    <li>subject_story->加入了一個致力於休閒和娛樂的罕見遠古科技邪教</li>
+    <li>subject_gerund->以心靈力量誘發喜樂之情</li>
+    <li>subject_gerund->進行誘發喜樂之情的心靈儀式</li>
+  </PleasurePulse.generalRules.rulesStrings>
+  
+  <!-- EN: proximity detector -->
+  <ProximityDetector.label>近距偵測器</ProximityDetector.label>
+  <!-- EN: Build a device that can detect invisible creatures. -->
+  <ProximityDetector.description>建造可以偵測隱形生物的裝置。</ProximityDetector.description>
+  <!-- EN:
+    <li>subject->proximity detectors</li>
+    <li>subject->motion sensors</li>
+    <li>subject_story->watched ancient entertainment reels and was inspired</li>
+    <li>subject_story->prototyped simple psi-hardened devices</li>
+    <li>subject_story->maintained the early warning systems of a deathworld outpost</li>
+    <li>subject_story->studied multiband scanners for cross-system pattern detection</li>
+    <li>subject_gerund->revealing the unseen</li>
+    <li>subject_gerund->detecting invisible creatures</li>
+  -->
+  <ProximityDetector.generalRules.rulesStrings>
+    <li>subject->近距偵測器</li>
+    <li>subject->動態感測器</li>
+    <li>subject_story->觀看了古老的娛樂捲軸，並受到啟發</li>
+    <li>subject_story->製作了簡易的PSI硬化裝置原型</li>
+    <li>subject_story->維護了某個死寂世界哨站的早期預警系統</li>
+    <li>subject_story->研究了用於跨系統模式檢測的多頻掃描器</li>
+    <li>subject_gerund->揭露不可見的事物</li>
+    <li>subject_gerund->偵測隱形生物</li>
+  </ProximityDetector.generalRules.rulesStrings>
+  
+  <!-- EN: psychophagy -->
+  <Psychophagy.label>心靈吞噬</Psychophagy.label>
+  <!-- EN: Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect. -->
+  <Psychophagy.description>進行心靈儀式，削弱目標的心靈敏感度，並暫時提高儀式召喚者的心靈敏感度。目標會遭受腦損傷的副作用。</Psychophagy.description>
+  <!-- EN:
+    <li>subject->psychophagy</li>
+    <li>subject_story->studied managed densitisation to psychic effects</li>
+    <li>subject_story->managed archite transfer from deceased subjects</li>
+    <li>subject_story->collated rumours of psychic transference rituals</li>
+    <li>subject_story->witnessed a Horax cult sap the power of an Imperial noble</li>
+    <li>subject_gerund->stealing psychic abilities</li>
+    <li>subject_gerund->performing a psychophagy ritual</li>
+  -->
+  <Psychophagy.generalRules.rulesStrings>
+    <li>subject->心靈吞噬術</li>
+    <li>subject_story->研究了針對心靈影響的可控去敏感化方式</li>
+    <li>subject_story->曾在已故受試者身上進行遠古分子轉移</li>
+    <li>subject_story->整理了關於心靈轉移儀式的謠言</li>
+    <li>subject_story->目睹了一個霍拉克斯邪教削弱一名帝國貴族的力量</li>
+    <li>subject_gerund->竊取心靈能力</li>
+    <li>subject_gerund->進行心靈吞噬術儀式</li>
+  </Psychophagy.generalRules.rulesStrings>
+  
+  <!-- EN: revenant invisibility -->
+  <RevenantInvisibility.label>亡魂隱身</RevenantInvisibility.label>
+  <!-- EN: Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible. -->
+  <RevenantInvisibility.description>改造亡魂的脊椎，使其可以植入人體，讓人能夠暫時隱形。</RevenantInvisibility.description>
+  <!-- EN:
+    <li>subject->invisibility</li>
+    <li>subject_story->implanted a monster's spine into a human, without considering the consequences</li>
+    <li>subject_story->wrote a novel about the vanishing morality of an invisible person</li>
+    <li>subject_story->discovered a strange metallic spine in a deadstar system</li>
+    <li>subject_story->dreamed of an army of invisible warriors</li>
+    <li>subject_gerund->adapting a revenant spine</li>
+    <li>subject_gerund->implanting a revenant spine into a human</li>
+  -->
+  <RevenantInvisibility.generalRules.rulesStrings>
+    <li>subject->隱身</li>
+    <li>subject_story->在沒有考慮後果的情況下將怪物的脊椎植入人體</li>
+    <li>subject_story->寫了一本關於一名隱形人的道德感消失的小說</li>
+    <li>subject_story->在某個死星星系中發現了一根奇怪的金屬脊椎</li>
+    <li>subject_story->夢見了一大群隱形戰士</li>
+    <li>subject_gerund->改造亡魂脊椎</li>
+    <li>subject_gerund->將亡魂脊椎植入人體</li>
+  </RevenantInvisibility.generalRules.rulesStrings>
+  
+  <!-- EN: serum synthesis -->
+  <SerumSynthesis.label>血清合成</SerumSynthesis.label>
+  <!-- EN: Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user. -->
+  <SerumSynthesis.description>建造一個血清實驗室來合成高科技血清。血清利用遠古科技的力量，賦予使用者暫時性的效果。</SerumSynthesis.description>
+  <!-- EN:
+    <li>subject->serum synthesis</li>
+    <li>subject_story->was injected with archites to understand their effects</li>
+    <li>subject_story->discovered a pool of oily black fluid in a deadworld temple</li>
+    <li>subject_story->survived a dangerous fall thanks to a serum</li>
+    <li>subject_story->managed a serum-testing programme for a coreworld brigade</li>
+    <li>subject_gerund->synthesizing serums</li>
+  -->
+  <SerumSynthesis.generalRules.rulesStrings>
+    <li>subject->血清合成</li>
+    <li>subject_story->被注入了遠古分子，以了解其影響</li>
+    <li>subject_story->在死寂世界的神廟中發現一池油膩的黑色液體</li>
+    <li>subject_story->得益於血清的作用，在一次危險的墜落事件中倖存下來</li>
+    <li>subject_story->曾為某個核心世界軍旅管理血清檢測計畫</li>
+    <li>subject_gerund->合成血清</li>
+  </SerumSynthesis.generalRules.rulesStrings>
+  
+  <!-- EN: skip abduction -->
+  <SkipAbductionPlayer.label>折躍綁架</SkipAbductionPlayer.label>
+  <!-- EN: Perform a psychic ritual that abducts a random hostile person from anywhere in the world, puttig them in a short-term coma for capture. -->
+  <SkipAbductionPlayer.description>進行心靈儀式，從世界任何地方將一個隨機敵人綁架到儀式地點，並使他們陷入短暫昏迷以便俘虜。</SkipAbductionPlayer.description>
+  <!-- EN:
+    <li>subject->psychic abduction</li>
+    <li>subject->skip abduction</li>
+    <li>subject_story->witnessed an abduction attempt on an Imperial noble</li>
+    <li>subject_story->was ransomed by dirtmole scavengers</li>
+    <li>subject_story->observed a failed translocation ritual performed by a cult leader</li>
+    <li>subject_story->researched transpatial transfer mediated by archotech</li>
+    <li>subject_gerund->abducting enemies through psychic ritual</li>
+    <li>subject_gerund->performing a ritual of skip abduction</li>
+  -->
+  <SkipAbductionPlayer.generalRules.rulesStrings>
+    <li>subject->心靈綁架</li>
+    <li>subject->跳過綁架</li>
+    <li>subject_story->目睹了某人企圖綁架一名帝國貴族</li>
+    <li>subject_story->被泥鼴人拾荒者贖回</li>
+    <li>subject_story->看到了一場邪教領袖執行失敗的易位儀式</li>
+    <li>subject_story->研究了由遠古科技介導的跨空間轉移</li>
+    <li>subject_gerund->透過心靈儀式綁架敵人</li>
+    <li>subject_gerund->進行跳過綁架的儀式</li>
+  </SkipAbductionPlayer.generalRules.rulesStrings>
+  
+  <!-- EN: sleep suppressor -->
+  <SleepSuppressor.label>睡眠抑制器</SleepSuppressor.label>
+  <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
+  <SleepSuppressor.description>建造由碎片驅動的結構，刺激附近的人以防止疲勞。該裝置會使附近的任何人感到煩躁。</SleepSuppressor.description>
+  <!-- EN:
+    <li>subject->sleep suppression</li>
+    <li>subject_story->studied sleep deprivation in factory workers</li>
+    <li>subject_story->researched stimulant use among Imperial troopers</li>
+    <li>subject_story->researched the effects of varied archofields on human consciousness</li>
+    <li>subject_story->worked in a Glitterworld opisomn lab, where the wealthy dreamed their lives away</li>
+    <li>subject_story->managed the reveil at a prisonworld work camp</li>
+    <li>subject_gerund->constructing sleep suppressors from archotech</li>
+    <li>subject_gerund->suppressing sleep with archotech</li>
+  -->
+  <SleepSuppressor.generalRules.rulesStrings>
+    <li>subject->睡眠抑制器</li>
+    <li>subject_story->研究了工廠勞工睡眠剝奪的情況</li>
+    <li>subject_story->研究了帝國士兵使用興奮劑的情況</li>
+    <li>subject_story->研究了各種遠古力場對人類意識的影響</li>
+    <li>subject_story->曾在閃耀世界的鴉片索姆實驗室工作，富人都在此地醉生夢死</li>
+    <li>subject_story->曾在監獄世界的勞動營負責演奏起床號</li>
+    <li>subject_gerund->用遠古科技建造睡眠抑制器</li>
+    <li>subject_gerund->用遠古科技抑制睡眠</li>
+  </SleepSuppressor.generalRules.rulesStrings>
+  
+  <!-- EN: draw animals -->
+  <SummonAnimals.label>召喚動物</SummonAnimals.label>
+  <!-- EN: Perform a psychic ritual which will draw a herd of animals. -->
+  <SummonAnimals.description>進行心靈儀式，吸引一群動物。</SummonAnimals.description>
+  <!-- EN:
+    <li>subject->stampede invocation</li>
+    <li>subject_story->worked as a shepherd amidst the mountains of a primitive world</li>
+    <li>subject_story->learned to commune with the beasts of the fields</li>
+    <li>subject_story->experimented with the effects of archite on different animal breeds</li>
+    <li>subject_story->watched a nature cult commune with their herds</li>
+    <li>subject_gerund->summoning animal herds</li>
+  -->
+  <SummonAnimals.generalRules.rulesStrings>
+    <li>subject->狂奔祈禱</li>
+    <li>subject_story->曾在原始世界的群山中擔任牧羊人</li>
+    <li>subject_story->學會了與田野中的野獸交流</li>
+    <li>subject_story->曾對遠古分子對不同動物品種的影響進行實驗</li>
+    <li>subject_story->看著自然邪教與他們的畜牲交流</li>
+    <li>subject_gerund->召喚動物群</li>
+  </SummonAnimals.generalRules.rulesStrings>
+  
+  <!-- EN: summon fleshbeasts -->
+  <SummonFleshbeastsPlayer.label>召喚血肉獸</SummonFleshbeastsPlayer.label>
+  <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
+  <SummonFleshbeastsPlayer.description>進行心靈儀式，激怒血肉獸從敵人附近的地下出現，並攻擊附近的任何人。</SummonFleshbeastsPlayer.description>
+  <!-- EN:
+    <li>subject->fleshbeast summoning</li>
+    <li>subject_story->read ancient tomes about the origins of life</li>
+    <li>subject_story->experienced firsthand spontaneous generation in the boomrats of Sahe</li>
+    <li>subject_story->watched an ancient movie about fleshmelding and was inspired</li>
+    <li>subject_story->studied consciousness transfer and separation in organic merging.</li>
+    <li>subject_story->observed a dirtmole community that had encountered horrifying beasts underground</li>
+    <li>subject_gerund->summoning fleshbeasts</li>
+    <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
+  -->
+  <SummonFleshbeastsPlayer.generalRules.rulesStrings>
+    <li>subject->召喚血肉獸</li>
+    <li>subject_story->閱讀了有關生命起源的古老典籍</li>
+    <li>subject_story->親身經歷過在薩黑的爆炸鼠自然生成的情況</li>
+    <li>subject_story->觀看了一部關於血肉融合的古老電影，並受到啟發</li>
+    <li>subject_story->研究了有機融合中的意識轉移和分離。</li>
+    <li>subject_story->看到了一個在地下遇到可怕野獸的泥鼴人社群</li>
+    <li>subject_gerund->召喚血肉獸</li>
+    <li>subject_gerund->進行召喚血肉獸的儀式</li>
+  </SummonFleshbeastsPlayer.generalRules.rulesStrings>
+  
+  <!-- EN: provoke pit gate -->
+  <SummonPitGate.label>引發大坑洞</SummonPitGate.label>
+  <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
+  <SummonPitGate.description>進行心靈儀式，使地底下的血肉獸在地面打開一個大坑洞。坑洞將通往一處充斥著血肉獸的洞穴，可以進入探索以獲取資源。</SummonPitGate.description>
+  <!-- EN:
+    <li>subject->pit gate invocation</li>
+    <li>subject_story->researched fleshmeld infestations</li>
+    <li>subject_story->gathered tales of gestalt organisms</li>
+    <li>subject_story->managed the tome library of a deadworld cult-school</li>
+    <li>subject_story->officiated in a ritual of subsidence</li>
+    <li>subject_gerund->performing a ritual to create a pit gate</li>
+    <li>subject_gerund->summoning a pit gate</li>
+  -->
+  <SummonPitGate.generalRules.rulesStrings>
+    <li>subject->大坑洞祈禱</li>
+    <li>subject_story->研究了受血肉融合侵擾的情況</li>
+    <li>subject_story->收集了關於完形生物的故事</li>
+    <li>subject_story->曾在某間死寂世界的邪教學校裡管理典籍圖書館</li>
+    <li>subject_story->曾主持沉降儀式</li>
+    <li>subject_gerund->進行創造大坑洞的儀式</li>
+    <li>subject_gerund->召喚大坑洞</li>
+  </SummonPitGate.generalRules.rulesStrings>
+  
+  <!-- EN: draw shamblers -->
+  <SummonShamblers.label>召喚蹣步者</SummonShamblers.label>
+  <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
+  <SummonShamblers.description>進行心靈儀式，吸引一群活動屍體。在充滿敵意的情況下，這些屍體不會直接攻擊你的殖民地。可以捕捉他們進行研究。</SummonShamblers.description>
+  <!-- EN:
+    <li>subject->shambler summoning rituals</li>
+    <li>subject_story->studied the necrocults of the deadworlds, from the safety of a university library</li>
+    <li>subject_story->collected stories of shambler attacks</li>
+    <li>subject_story->studied archite thread formation in deceased organisms</li>
+    <li>subject_story->saw all sorts of strange things as a deathworld curator</li>
+    <li>subject_gerund->summoning shamblers</li>
+    <li>subject_gerund->calling shamblers through ritual</li>
+  -->
+  <SummonShamblers.generalRules.rulesStrings>
+    <li>subject->召喚蹣步者儀式</li>
+    <li>subject_story->在安全的大學圖書館裡，研究了死寂世界的死靈邪教</li>
+    <li>subject_story->收集了關於蹣步者攻擊的故事</li>
+    <li>subject_story->研究了死去生物中絲狀遠古分子的形成方式</li>
+    <li>subject_story->以死寂世界的策展人身分，見識了各種奇怪的東西</li>
+    <li>subject_gerund->召喚蹣步者</li>
+    <li>subject_gerund->透過儀式召喚蹣步者</li>
+  </SummonShamblers.generalRules.rulesStrings>
+  
+  <!-- EN: void sculptures -->
+  <VoidSculptures.label>虛空雕像</VoidSculptures.label>
+  <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
+  <VoidSculptures.description>用生化鐵氧體製作特殊虛空雕塑，提升心靈儀式的品質。</VoidSculptures.description>
+  <!-- EN:
+    <li>subject->void sculptures</li>
+    <li>subject->bioferrite sculpture</li>
+    <li>subject_story->computer-modelled archotech possibility spaces</li>
+    <li>subject_story->was employed by a sibyl to sculpt her dreams</li>
+    <li>subject_story->wanted to bring sculptures to life</li>
+    <li>subject_story->dreamed of an endless ocean, shaped by human hands</li>
+    <li>subject_story->observed Imperial psychics at work</li>
+    <li>subject_gerund->sculpting with bioferrite</li>
+    <li>subject_gerund->crafting bioferrite ritual sculptures</li>
+  -->
+  <VoidSculptures.generalRules.rulesStrings>
+    <li>subject->虛空雕像</li>
+    <li>subject->生化鐵氧體雕像</li>
+    <li>subject_story->用電腦模型模擬出了遠古科技的機率空間</li>
+    <li>subject_story->被一位女巫僱用來雕刻她的夢境</li>
+    <li>subject_story->想賦予雕像生命</li>
+    <li>subject_story->夢到了由人類之手所塑造的無盡海洋</li>
+    <li>subject_story->在工作中觀察了帝國的靈媒</li>
+    <li>subject_gerund->使用生化鐵氧體進行雕刻</li>
+    <li>subject_gerund->製作生化鐵氧體儀式雕像</li>
+  </VoidSculptures.generalRules.rulesStrings>
+  
+</LanguageData>
