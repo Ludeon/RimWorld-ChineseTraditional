@@ -1,172 +1,294 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Inhumanization -->
+  <!-- EN: Rehumanized -->
   <ReHumanizedLabel>恢復人性</ReHumanizedLabel>
+  <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
   <ReHumanizedText>{0_nameDef}恢復了與人性的聯繫。{0_nameDef}「去人性化」健康狀態已移除。</ReHumanizedText>
+  <!-- EN: Warning from {0_nameDef} -->
   <WarningFromLabel>{0_nameDef}的警告</WarningFromLabel>
 
   <!-- Hate chanters -->
+  <!-- EN: Cultist hate chanters -->
   <HateChantersLabel>邪教徒憎恨詠唱者</HateChantersLabel>
+  <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
   <HateChantersText>邪教徒憎恨詠唱者已抵達。他們打算進行憎恨詠唱儀式，向你的殖民者們施加心靈憤怒，將他們逼瘋。詠唱聲會越來越大，直到邪教徒被阻止。</HateChantersText>
+  <!-- EN: Cultists attacking -->
   <HateChantersAttackingLabel>邪教徒攻擊</HateChantersAttackingLabel>
+  <!-- EN: The cultists have ended their hate chant and begun to come out of their ritual trance.\n\nPrepare to defend. -->
   <HateChantersAttackingText>邪教徒結束了他們的憎恨詠唱，開始從儀式的恍惚中醒來。\n\n準備防禦。</HateChantersAttackingText>
 
   <!-- Psychic rituals -->
+  <!-- EN: {0} complete -->
   <PsychicRitualCompleteLabel>{0}完成</PsychicRitualCompleteLabel>
 
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
   <VoidProvocationCompletedText>{INVOKER_nameDef}已完成{RITUAL_definite}儀式，發出了吸引實體的心靈脈衝。</VoidProvocationCompletedText>
+  <!-- EN: Prepare for what comes next. -->
   <VoidProvocationSucceeded>為接下來做好準備。</VoidProvocationSucceeded>
+  <!-- EN: Unfortunately, your call has been left unanswered. -->
   <VoidProvocationFailed>很遺憾，你的呼喚沒有獲得回應。</VoidProvocationFailed>
+  <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
   <VoidProvocationDarkPsychicShock>過程中，{INVOKER_nameDef}瞥見了人類無法理解的恐怖事物。心靈的黑暗使{INVOKER_objective}陷入短暫昏迷。</VoidProvocationDarkPsychicShock>
+  <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
   <PhilophagyCompleteText>{INVOKER_nameDef}完成了{RITUAL_definite}儀式，吸收了{TARGET_nameDef}的技能和記憶。</PhilophagyCompleteText>
+  <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
   <PawnGainedXPInSkill>{0_nameDef}從{2_label}獲得{1}經驗值</PawnGainedXPInSkill>
+  <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
   <PawnLostXPInSkill>{0_nameDef}在{2_label}失去{1}經驗值</PawnLostXPInSkill>
+  <!-- EN: rising from skill level {0} to {1}. -->
   <PhilophagySkillLevelGained>技能等級從{0}提升到{1}。</PhilophagySkillLevelGained>
+  <!-- EN: falling from skill level {0} to {1}. -->
   <PhilophagySkillLevelLost>技能等級從{0}下降到{1}。</PhilophagySkillLevelLost>
+  <!-- EN: remaining at skill level {0}. -->
   <PhilophagySkillLevelRemains>技能等級維持{0}。</PhilophagySkillLevelRemains>
+  <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
   <PhilophagyDamagedTarget>過程中傷害了{TARGET_nameDef}的大腦，使{TARGET_objective}陷入昏迷。</PhilophagyDamagedTarget>
 
+  <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
   <ImbueDeathRefuralCompleteText>{0_nameDef}被灌輸了死亡回絕。{0_pronoun}可以在死後自我復活。\n\n這個過程使{0_nameDef}的大腦萎縮，導致{0_objective}總共失去{1}點{0_possessive}技能經驗值。</ImbueDeathRefuralCompleteText>
 
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
   <SummonAnimalsSuccessText>{0_nameDef}已完成{RITUAL_definite}儀式。很快就會有一群動物。</SummonAnimalsSuccessText>
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
   <SummonAnimalsFailureText>{0_nameDef}已完成{RITUAL_definite}儀式，但出了大錯！儀式讓動物們陷入瘋狂。狂亂的獸群正朝著你的方向而來！</SummonAnimalsFailureText>
   
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
   <SummonShamblersCompleteText>{0_nameDef}已成功完成{RITUAL_definite}儀式。為他們的到來做好準備。</SummonShamblersCompleteText>
 
+  <!-- EN: They are attacking from multiple directions. -->
   <AttackingFromMultipleDirections>他們會從多個方向朝你攻擊。</AttackingFromMultipleDirections> 
 
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
   <ChronophagyCompleteText>{0_nameDef}已成功完成{RITUAL_definite}儀式。這項儀式有以下效果：</ChronophagyCompleteText>
+  <!-- EN: {0_nameDef} aged {1} years -->
   <ChronophagyTargetAged>{0_nameDef}增加{1}歲</ChronophagyTargetAged>
+  <!-- EN: {0_nameDef} became {1} years younger -->
   <ChronophagyInvokerRejuvenated>{0_nameDef}減少{1}歲</ChronophagyInvokerRejuvenated>
+  <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
   <ChronophagyTargetDiedOfOldAge>{0_nameDef}無法承受噬時術儀式造成的衰老，因年老而死亡。</ChronophagyTargetDiedOfOldAge>
+  <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
   <ChronophagyTargetOldAgeDiseases>雖然{0_nameDef}在噬時術儀式中倖存，但{0_pronoun}出現了以下情況</ChronophagyTargetOldAgeDiseases>
+  <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
   <ChronophagyInvokerCuredDiseases>另外，此過程治癒了{0_nameDef}以下的疾病：</ChronophagyInvokerCuredDiseases>
+  <!-- EN: and is now {0} years old -->
   <ChronophagyCurrentAge>現在已經{0}幾歲了</ChronophagyCurrentAge>
 
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
   <PleasurePulseCompleteText>{0_nameDef}已完成{RITUAL_definite}儀式。在接下來的{1}，每個受到{RITUAL_definite}影響的人都會更快樂，但工作速度會變慢。</PleasurePulseCompleteText>
 
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
   <NeurosisPulseCompleteText>{0_nameDef}已完成{RITUAL_definite}儀式。接下來{1}，每個聽到脈搏的人都會工作得更快，但會更加煩躁。</NeurosisPulseCompleteText>
 
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
   <BloodRainCompleteText>{0_nameDef}已完成{RITUAL_definite}儀式。濃稠的紅色水滴開始從天而降。讓所有人都待在室內，以免他們被逼瘋。</BloodRainCompleteText>
 
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
   <BrainwipeCompleteText>{INVOKER_nameDef}已完成{RITUAL_definite}儀式，混亂地抹去了{TARGET_nameDef}的記憶。</BrainwipeCompleteText>
+  <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
   <BrainwipeTargetComa>{TARGET_pronoun}會陷入昏迷持續{1}。</BrainwipeTargetComa>
+  <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
   <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef}不再極度忠誠了。</BrainwipeUnwaveringlyLoyal>
+  <!-- EN: {TARGET_nameDef} has been re-humanized. -->
   <BrainwipeRehumanized>{TARGET_nameDef}重新恢復人性了。</BrainwipeRehumanized>
 
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
   <PsychophagyCompleteText>{INVOKER_nameDef} 已完成{RITUAL_definite}儀式，並消耗了{TARGET_nameDef}的心靈。</PsychophagyCompleteText>
+  <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
   <PsychophagyTargetSurvived>{TARGET_nameDef}現在是心靈障壁人士。過程中傷害了{TARGET_nameDef}的大腦，使{TARGET_objective}陷入昏迷。</PsychophagyTargetSurvived>
   
+  <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
   <PsychicRitualTargetBrainLiquified>這個過程使{TARGET_nameDef}的大腦液化，殺死了{TARGET_objective}。</PsychicRitualTargetBrainLiquified>
 
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef}已完成{RITUAL_definite}儀式。血肉獸從地下出現了！</SummonFleshbeastsPlayerCompleteText>
 
+  <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
   <GhoulInfusionCompleteText>{INVOKER_nameDef}已經對{TARGET_nameDef}注入生化鐵氧體。儀式扭曲了{TARGET_nameDef}的心靈，使{TARGET_possessive}的身體突變，產生出被稱為食屍鬼的可怕生物。{INVOKER_nameDef}與{TARGET_nameDef}之間有著心靈連結，讓{INVOKER_objective}能夠控制{TARGET_nameDef}。\n\n食屍鬼以生肉為食。如果他們挨餓，可能會充滿敵意。</GhoulInfusionCompleteText>
   
+  <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>他們可能會多次進行儀式。你必須阻止他們。</AttackersMayCastRitualMultipleTimes>
 
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
   <SkipAbductionPlayerCompleteText>{INVOKER_nameDef}已完成{RITUAL_definite}儀式。透過操控空間與時間，{INVOKER_nameDef}綁架了{FACTION_name}派系的{TARGET_nameDef}。儀式可怕的本質導致{TARGET_nameDef}短暫昏迷。</SkipAbductionPlayerCompleteText>
 
+  <!-- EN: Fleshmass response -->
   <FleshmassResponseLabel>血肉團反應</FleshmassResponseLabel> 
+  <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
   <FleshmassResponseText>血肉團的死亡引發了劇烈的反應！血肉團發出顫抖並誕生新的血肉獸來保護自己。</FleshmassResponseText> 
 
   <!-- Void awakening -->
+  <!-- EN: Dimming sky -->
   <VoidAwakeningStageOneStructuresActivatedLabel>昏暗天空</VoidAwakeningStageOneStructuresActivatedLabel>
+  <!-- EN: Structures activated -->
   <VoidAwakeningStageTwoStructuresActivatedLabel>已啟動結構</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
   <VoidAwakeningStageOneStructuresActivatedText>隨著第二個結構被啟動，黑暗開始加劇。不自然的黑暗即將降臨。確保你的殖民地做好準備。儲備資源、建造照明設備、製造干擾閃焰彈並加強防禦。只有在光明之下才是安全的。\n\n更多扭曲的結構即將出現。</VoidAwakeningStageOneStructuresActivatedText>
+  <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
   <VoidAwakeningStageTwoStructuresActivatedText>所有虛空結構皆已啟動。虛空巨石柱周圍的空間開始閃爍。做好準備。</VoidAwakeningStageTwoStructuresActivatedText> 
+  <!-- EN: {STUDIER_nameDef} teleported -->
   <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef}已傳送</VoidAwakeningFinalStructuresActivatedLabel> 
+  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence. -->
   <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef}已經啟動巨石柱，從我們的時空被撕裂到另一個地方。\n\n{STUDIER_pronoun}發現{STUDIER_objective}自己身處在一個布滿鋸齒狀金屬尖刺的房間裡。每個表面都沾滿了黑暗液體，空氣隨著能量振動。這個金屬地獄是連接非人類超智慧的管道。\n\n{STUDIER_nameDef}找到了能將惡夢心智的影響導入我們世界的虛空節點。與節點互動以接受它的力量，或摧毀它並完全切斷連接。</VoidAwakeningFinalStructuresActivatedText> 
+  <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>蹣步者突擊</VoidAwakeningShamblerArrivalLabel>
+  <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
   <VoidAwakeningShamblerArrivalText>虛空結構吸引了一群蹣步者。做好準備！</VoidAwakeningShamblerArrivalText>
+  <!-- EN: Fleshbeast tunneling -->
   <VoidAwakeningFleshbeastBurrowLabel>血肉獸竄進</VoidAwakeningFleshbeastBurrowLabel>
+  <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
   <VoidAwakeningFleshbeastBurrowText>巨石柱產生了強大的心靈脈衝，吸引了附近的實體。\n\n在地下，可以聽到肉獸的嘶叫和爪子撓抓的聲音。血肉獸正朝你竄進。做好準備！</VoidAwakeningFleshbeastBurrowText>
+  <!-- EN: Metalhorror attack -->
   <VoidAwakeningMetalhorrorArrivalLabel>懼金攻擊</VoidAwakeningMetalhorrorArrivalLabel>
+  <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
   <VoidAwakeningMetalhorrorArrivalText>虛空巨石柱附近出現了懼金。做好準備！</VoidAwakeningMetalhorrorArrivalText>
+  <!-- EN: Entity attack -->
   <VoidAwakeningEntityArrivalLabel>實體攻擊</VoidAwakeningEntityArrivalLabel> 
+  <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
   <VoidAwakeningEntityArrivalText>啟動的虛空結構產生了扭曲的心靈脈衝，吸引了附近的實體。做好準備！</VoidAwakeningEntityArrivalText>
+  <!-- EN: Embrace the void -->
   <VoidAwakeningBreadcrumbLetterLabel>擁抱虛空</VoidAwakeningBreadcrumbLetterLabel>
+  <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
   <VoidAwakeningBreadcrumbLetterText>在與虛空結構互動時，{PAWN_nameDef}看到了虛空的幻象。有一瞬間，{PAWN_pronoun}暢遊在無盡深邃的黑色海洋中，感受到虛空無盡的非人力量。\n\n{PAWN_nameDef}認為可以透過擁抱虛空來控制這股力量。如果你永久打開通往虛空的管道，而不是將其關閉，那可能會帶來無盡的可能。</VoidAwakeningBreadcrumbLetterText>
 
   <!-- Void node -->
+  <!-- EN: {PAWN_nameDef} returns -->
   <VoidNodeReturnedLabel>{PAWN_nameDef}返回</VoidNodeReturnedLabel>
+  <!-- EN: {PAWN_nameDef} has reappeared. -->
   <VoidNodeReturnedMessage>{PAWN_nameDef}重新出現了。</VoidNodeReturnedMessage>
+  <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
   <EmbracedVoidText>{PAWN_nameDef}重新出現了。\n\n{PAWN_pronoun}看起來被虛空中非人的思維折磨的面容枯槁。{PAWN_possessive}眼中已經看不出人性的痕跡。\n\n{PAWN_nameDef}的心靈與身體和非人之怒的黑暗虛空永久相連。在這種新連結的力量下，{PAWN_nameDef}不再被食物或睡眠等凡人需求所束縛。{PAWN_pronoun}獲得了利用虛空之力在他人身上引發恐懼的能力。\n\n巨石柱被喚醒了。隨著{PAWN_nameDef}再次出現，它發出了更響亮的嗡鳴聲，提醒著它與虛空的連結已經被永久打開。</EmbracedVoidText>
+  <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
   <DisruptedLinkText>{PAWN_nameDef}重新出現了。{PAWN_pronoun}對{PAWN_possessive}付出感到厭倦，但在其他方面都很健康。\n\n透過關閉通往虛空的通道，{PAWN_nameDef}阻止了更多非自然現象進入我們的世界。區域中的敵對實體紛紛倒下了，毫無生氣。\n\n{PAWN_possessive}英雄事蹟一定會廣為流傳。</DisruptedLinkText>
+  <!-- EN: fleshcrafting -->
   <RewardFleshcraftingAbility>血肉製造</RewardFleshcraftingAbility>
+  <!-- EN: slaughter -->
   <RewardSlaughterAbility>宰殺</RewardSlaughterAbility>
+  <!-- EN: shambler control -->
   <RewardShamblerControlAbility>控制蹣步者</RewardShamblerControlAbility>
 
   <!-- Duplicate sickness -->
+  <!-- EN: Duplicate sickness -->
   <DuplicateSicknessLabel>複製體疾病</DuplicateSicknessLabel>
+  <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
   <DuplicateSicknessText>{0_nameDef}和{0_possessive}複製體都感覺不適。他們的狀況似乎與複製過程有關，並且正在惡化。將他們相連在一起的心靈連結正導致他們逐漸失去意識。除非其中一人死亡，否則病情不會好轉。</DuplicateSicknessText>
 
   <!-- Frenzied animals -->
+  <!-- EN: Frenzied animals -->
   <FrenziedAnimalsLabel>狂熱動物</FrenziedAnimalsLabel>
+  <!-- EN: A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them. -->
   <FrenziedAnimalsText>一群獵殺人類的{0}進入此區域。牠們被你的儀式給逼瘋。牠們會在此徘徊，獵殺任何人形生物。\n\n除非看到有人進門去，否則牠們不會攻擊門。待在室內是安全的選擇。牠們也不會去攻擊未運作的砲塔，請關掉砲塔電源以避免被破壞。\n\n{0}將會在一、兩天內離開區域。你可以躲起來、等牠們離開、或跟牠們戰鬥。</FrenziedAnimalsText>
 
   <!-- Ghouls -->
+  <!-- EN: Ghoul betrayal -->
   <GhoulBetrayalLabel>食屍鬼背叛</GhoulBetrayalLabel>
+  <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
   <GhoulBetrayalText>{PAWN_nameDef}因為{PAWN_possessive}對生肉的極度飢餓而發瘋！</GhoulBetrayalText>
   
   <!-- Distress signal -->
+  <!-- EN: Distress signal -->
   <DistressSignalLabel>求救信號</DistressSignalLabel>
+  <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
   <DistressSignalText>你截獲了來自附近{FACTION_name}營地的求救信號。\n\n一個情緒失控的聲音乞求立即援助抵禦威脅。他們會提供營地內的一切作為回報，還包括強大的遠古科技碎片。\n\n當這股聲音試圖解釋此威脅的性質時，信號就斷訊了。</DistressSignalText>
+  <!-- EN: Ambush -->
   <DistressSignalAmbushLabel>埋伏</DistressSignalAmbushLabel>
+  <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
   <DistressSignalAmbushText>血肉獸正從附近的小坑洞中出現！</DistressSignalAmbushText>
 
   <!-- Chimeras -->
+  <!-- EN: Chimeras approach -->
   <ChimeraAssaultLabel>奇美拉接近</ChimeraAssaultLabel>
+  <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
   <ChimeraAssaultText>附近出現了一群扭曲動物般的奇美拉怪物。\n\n這些畸形的野獸會盯著你的殖民地，伺機發動攻擊。牠們容易受到驚嚇，如果受到挑釁，可能會進行報復。</ChimeraAssaultText>
 
   <!-- Unnatural darkness -->
+  <!-- EN: Darkness lifting -->
   <DarknessLiftingEarlyLetterLabel>黑暗消散</DarknessLiftingEarlyLetterLabel>
+  <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
   <DarknessLiftingEarlyLetterText>最後一根惡夢般的柱子倒塌了。不自然的黑暗開始消散。殖民者在晴朗的空氣中鬆了一口氣。</DarknessLiftingEarlyLetterText>
+  <!-- EN: {0_nameDef} attacked -->
   <PawnAttackedInDarknessLabel>{0_nameDef}受到攻擊</PawnAttackedInDarknessLabel>
+  <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
   <PawnAttackedInDarknessText>黑暗中有東西攻擊了{0_nameDef}！\n\n除非{0_pronoun}安全回到光線下，否則攻擊會持續下去。</PawnAttackedInDarknessText>
+  <!-- EN: Noctol attack -->
   <NoctolAttackLetterLabel>夜行者攻擊</NoctolAttackLetterLabel>
+  <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
   <NoctolAttackLetterText>黑暗開始騷動。漆黑的深處傳來非人的嘰喳聲響。\n\n昆蟲般的黑色夜行者很快就會從黑暗中發起攻擊。</NoctolAttackLetterText>
+  <!-- EN: Darkness soon -->
   <DarknessWarningLetterLabel>黑暗將至</DarknessWarningLetterLabel>
+  <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
   <DarknessWarningLetterText>黑暗即將來臨。只有在燈光、火把或閃光彈的直射下才會安全。\n\n為了讓殖民者待在光線下，你可以在「計畫」介面中指定允許區域來限制他們的行動。</DarknessWarningLetterText>
+  <!-- EN: Darkness wavering -->
   <DarknessWaveringLetterLabel>黑暗動搖</DarknessWaveringLetterLabel>
+  <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
   <DarknessWaveringLetterText>破壞夜石柱後，在被更多黑煙填滿前，黑暗中出現了一條微弱的裂縫。\n\n破壞剩餘的夜石柱以結束不自然的黑暗。</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
+  <!-- EN: Shamblers approach -->
   <LetterLabelShamblerSwarmArrived>蹣步者接近</LetterLabelShamblerSwarmArrived>
+  <!-- EN: Shambler approaches -->
   <LetterLabelShamblerArrived>蹣步者接近</LetterLabelShamblerArrived>
+  <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
   <LetterShamblerSwarmArrived>一群{0}腐爛的屍體蹣跚靠近。某種非人的力量讓這些沒有生命的屍體重新復活。\n\n它們現在會在區域內徘徊。如果看到人類，就會發動攻擊。如果沒看到，它們會在幾天後離開。\n\n如果你能捕捉到一隻，就可以研究它的異邪知識。</LetterShamblerSwarmArrived>
+  <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
   <LetterShamblerArrived>一個腐爛的屍體蹣跚靠近。某種非人的力量讓這個沒有生命的屍體重新復活。\n\n它現在會在區域內徘徊。如果看到人類，就會發動攻擊。如果沒看到，它會在幾天後離開。\n\n如果你能捕捉到它，就可以研究它的異邪知識。</LetterShamblerArrived>
+  <!-- EN: {ANIMALKIND_label} shamblers -->
   <LetterLabelShamblerAnimalsArrived>{0}蹣步者</LetterLabelShamblerAnimalsArrived>
+  <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
   <LetterShamblerAnimalsArrived>一群腐爛的{0}屍體蹣跚靠近。某種非人的力量讓這些沒有生命的屍體重新復活。\n\n它們現在會在區域內徘徊。如果看到人類，就會發動攻擊。如果沒看到，它們會在幾天後離開。\n\n如果你能捕捉到一隻，就可以研究它的異邪知識。</LetterShamblerAnimalsArrived>
 
   <!-- Ghoul pod crash -->
+  <!-- EN: Transport pod crash -->
   <GhoulPodCrashLabel>運輸艙墜毀</GhoulPodCrashLabel>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
   <GhoulPodCrashText>載著一隻帶有敵意的飢餓食屍鬼的運輸艙降落在附近。\n\n食屍鬼目前處於休克狀態，但它很快就會恢復並攻擊看到的任何人。可以將其捕獲到收容平台上進行進一步研究。\n\n在它醒來前捕獲或殺死它。</GhoulPodCrashText>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
   <GhoulPodCrashStartingPawnText>載著一隻帶有敵意的飢餓食屍鬼的運輸艙降落在附近。靠近觀察後，這似乎是你之前的船員{PAWN_nameDef}。\n\n食屍鬼目前處於休克狀態，但它很快就會恢復並攻擊看到的任何人。可以將其捕獲到收容平台上進行進一步研究。\n\n在它醒來前捕獲或殺死它。</GhoulPodCrashStartingPawnText>
 
   <!-- Entity codex -->
+  <!-- EN: New research available -->
   <LetterLabelEntityDiscovery>開放新研究</LetterLabelEntityDiscovery>
+  <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
   <LetterTextEntityDiscoveryResearch>你對{ENTITY_definite}的發現有了新的見解。你現在可以研究以下異邪項目</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
-  <NociosphereDefeatedLabel>已擊敗知性球體</NociosphereDefeatedLabel>
-  <NociosphereDefeatedText>知性球體已被摧毀，留下了一些珍貴的資源。</NociosphereDefeatedText>
-  <NociosphereBecomingUnstableLabel>破壞知性球體穩定</NociosphereBecomingUnstableLabel> 
-  <NociosphereBecomingUnstableText>知性球體的能量模式已經開始轉變和適應。10天內，它將不再對抑制作出反應。\n\n如果沒有被抑制，知性球體會被啟動。</NociosphereBecomingUnstableText> 
-  <NociosphereBecomingUnstableTextExtraSendable>透過派出知性球體攻擊敵方威脅來對其造成傷害。派出後，知性球體會在短時間內獵殺任何生物。</NociosphereBecomingUnstableTextExtraSendable>
-  <NociosphereBecomingUnstableTextExtraNotSendable>研究知性球體，找出處理它的方法。</NociosphereBecomingUnstableTextExtraNotSendable>
-  <NociosphereUnstableLabel>知性球體不穩定</NociosphereUnstableLabel>
-  <NociosphereUnstableText>知性球體變得不穩定，不再對抑制做出反應。當活動達到100%時就會甦醒。</NociosphereUnstableText>
-  <NociosphereUnstableTextExtraSendable>通過派遣知性球體攻擊大型敵對勢力來處理它。一旦完成攻擊，它就會永久離開。</NociosphereUnstableTextExtraSendable> 
-  <NociosphereUnstableTextExtraNotSendable>為知性球體的猛攻做好準備。</NociosphereUnstableTextExtraNotSendable>>
+  <!-- EN: Nociosphere defeated -->
+  <NociosphereDefeatedLabel>已擊敗苦痛球體</NociosphereDefeatedLabel>
+  <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
+  <NociosphereDefeatedText>苦痛球體已被摧毀，留下了一些珍貴的資源。</NociosphereDefeatedText>
+  <!-- EN: Nociosphere destabilising -->
+  <NociosphereBecomingUnstableLabel>破壞苦痛球體穩定</NociosphereBecomingUnstableLabel> 
+  <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
+  <NociosphereBecomingUnstableText>苦痛球體的能量模式已經開始轉變和適應。10天內，它將不再對抑制作出反應。\n\n如果沒有被抑制，苦痛球體會被啟動。</NociosphereBecomingUnstableText> 
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereBecomingUnstableTextExtraSendable>透過派出苦痛球體攻擊敵方威脅來對其造成傷害。派出後，苦痛球體會在短時間內獵殺任何生物。</NociosphereBecomingUnstableTextExtraSendable>
+  <!-- EN: Study the nociosphere to find a way to dispose of it. -->
+  <NociosphereBecomingUnstableTextExtraNotSendable>研究苦痛球體，找出處理它的方法。</NociosphereBecomingUnstableTextExtraNotSendable>
+  <!-- EN: Nociosphere unstable -->
+  <NociosphereUnstableLabel>苦痛球體不穩定</NociosphereUnstableLabel>
+  <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
+  <NociosphereUnstableText>苦痛球體變得不穩定，不再對抑制做出反應。當活動達到100%時就會甦醒。</NociosphereUnstableText>
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereUnstableTextExtraSendable>通過派遣苦痛球體攻擊大型敵對勢力來處理它。一旦完成攻擊，它就會永久離開。</NociosphereUnstableTextExtraSendable> 
+  <!-- EN: Prepare for the nociosphere’s onslaught. -->
+  <NociosphereUnstableTextExtraNotSendable>為苦痛球體的猛攻做好準備。</NociosphereUnstableTextExtraNotSendable>
 
+  <!-- EN: Strange corpse -->
   <UnnaturalCorpseArrivalLabel>奇怪屍體</UnnaturalCorpseArrivalLabel>
+  <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
   <UnnaturalCorpseArrivalText>一具不自然的人類屍體憑空出現。\n\n進一步檢查後，屍體看起來和{PAWN_nameDef}一模一樣。它的皮膚有蠟質感，摸起來很溫暖。\n\n對屍體進行研究以獲得更多資訊。</UnnaturalCorpseArrivalText>
 
+  <!-- EN: Golden cube -->
   <GoldenCubeArrivalLabel>黃金立方體</GoldenCubeArrivalLabel>
+  <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
   <GoldenCubeArrivalText>一個奇怪的立方體落在附近。它像黃金一樣閃閃發光，但無法對其造成刮痕。觸感輕盈、溫暖。光線在其表面流動，令人著迷。\n\n{PAWN_nameDef}感到莫名地被立方體吸引。\n\n研究立方體以了解更多資訊。</GoldenCubeArrivalText>
 
+  <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>虛空好奇心</VoidCuriosityLabel>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
   <VoidCuriosityText_Researched>{PAWN_nameDef}已經開始專注於虛空，並希望使用虛空挑釁儀式進行調查。\n\n使用虛空挑釁儀式來找到並捕獲實體。可以研究捕獲的實體以完成異邪研究項目，或連接到生化鐵氧體收集器以生成生化鐵氧體。\n\n放置一個心靈儀式地點來執行虛空挑釁儀式。</VoidCuriosityText_Researched>
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef}已經開始專注於虛空，並希望使用虛空挑釁儀式進行調查。\n\n使用虛空挑釁儀式來找到並捕獲實體。可以研究捕獲的實體以完成異邪研究項目，或連接到生化鐵氧體收集器以生成生化鐵氧體。\n\n虛空挑釁，接著放置一個心靈儀式地點來執行儀式。</VoidCuriosityText_NotResearched>\n\n</LanguageData>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef}已經開始專注於虛空，並希望使用虛空挑釁儀式進行調查。\n\n使用虛空挑釁儀式來找到並捕獲實體。可以研究捕獲的實體以完成異邪研究項目，或連接到生化鐵氧體收集器以生成生化鐵氧體。\n\n虛空挑釁，接著放置一個心靈儀式地點來執行儀式。</VoidCuriosityText_NotResearched>
+
+</LanguageData>
