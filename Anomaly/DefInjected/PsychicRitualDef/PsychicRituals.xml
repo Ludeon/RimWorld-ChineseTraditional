@@ -12,22 +12,22 @@
   <Brainwipe.label>記憶消除</Brainwipe.label>
   <!-- EN: Erase a person's memories. Traumatic events will be forgotten. Prisoners will forget their allegiance and become easier to recruit, even if they were unwavering before. Inhumanized individuals will forget their connection to the void. Unfortunately, the disruptive effect of the ritual will induce a coma that could last a long time, especially if the ritual is of poor quality. -->
   <Brainwipe.description>抹去一個人的記憶。創傷事件將會被遺忘。俘虜會忘記他們效忠的對象並且變得更容易招募，即使他們先前是極度忠誠之人也不例外。去人性化的人會忘記他們與虛空之間的聯結。不幸的是，儀式的破壞性影響會導致昏迷，這可能會持續很長一段時間，尤其是如果儀式品質不佳的話。</Brainwipe.description>
-  <!-- EN: With the current ritual quality, the target will enter a coma for {0}. -->
-  <Brainwipe.outcomeDescription>根據目前的儀式品質，目標將進入昏迷狀態{0}。</Brainwipe.outcomeDescription>
+  <!-- EN: The target will be brainwiped.\n\nWith the current ritual quality, the target will also enter a coma for {0}. -->
+  <Brainwipe.outcomeDescription>目標的記憶會被抹除。\n\n根據目前的儀式品質，目標將進入昏迷狀態{0}。</Brainwipe.outcomeDescription>
   
   <!-- EN: chronophagy -->
   <Chronophagy.label>噬時術</Chronophagy.label>
   <!-- EN: Induce a distant archotech to transfer entropy from one person to another. This causes the target to age rapidly while the invoker becomes younger, potentially healing scarring or age-related illnesses. The target will suffer brain damage, causing them to fall into a coma for several days. -->
   <Chronophagy.description>召喚遠方的遠古科技將熵從一個人轉移到另一個人身上。這會導致目標迅速老化，而召喚者則變得更年輕，並可能使身上的疤痕癒合或治癒與年齡相關的疾病。目標會遭受腦損傷，導致他們陷入昏迷數天。</Chronophagy.description>
-  <!-- EN: At the current ritual quality, the invoker will become {0} years younger and the target will become {1} years older. -->
-  <Chronophagy.outcomeDescription>根據目前的儀式品質，召喚者會年輕{0}歲，而目標會老化{1}歲。</Chronophagy.outcomeDescription>
+  <!-- EN: At the current ritual quality, the invoker will become {0} years younger and the target will become {1} years older.\n\nThe target will suffer brain damage and fall into a coma. -->
+  <Chronophagy.outcomeDescription>根據目前的儀式品質，召喚者會年輕{0}歲，而目標會老化{1}歲。\n\n目標腦部會受損，並陷入昏迷。</Chronophagy.outcomeDescription>
   
   <!-- EN: imbue death refusal -->
   <ImbueDeathRefusal.label>灌輸死亡回絕</ImbueDeathRefusal.label>
   <!-- EN: Link a target with a distant archotechnological engine that can bring them back from the dead in seconds. This process is not without side-effects. -->
   <ImbueDeathRefusal.description>將目標與遠處的遠古科技引擎連結起來，可以讓他們在數秒內復活。此過程並非全無副作用。</ImbueDeathRefusal.description>
-  <!-- EN: With the current quality, all the target's skills will be reduced by {0}. -->
-  <ImbueDeathRefusal.outcomeDescription>根據目前的品質，所有目標的技能將會減少{0}。</ImbueDeathRefusal.outcomeDescription>
+  <!-- EN: The target will gain death refusal.\n\nWith the current quality, all the target's skills will also be reduced by {0}. -->
+  <ImbueDeathRefusal.outcomeDescription>目標會獲得死亡回絕。\n\n根據目前的品質，所有目標的技能將會減少{0}。</ImbueDeathRefusal.outcomeDescription>
   
   <!-- EN: neurosis pulse -->
   <NeurosisPulse.label>神經質脈衝</NeurosisPulse.label>
@@ -40,8 +40,8 @@
   <Philophagy.label>噬技術</Philophagy.label>
   <!-- EN: Psychically draw experiences from the victim's mind and transfer them to the invoker, targeting the victim's highest skill. The target will suffer brain damage, causing them to fall into a coma for several days. -->
   <Philophagy.description>針對目標的最高技能，從目標的心智中吸取經驗，並將其轉移給召喚者。目標會遭受腦損傷，導致他們陷入昏迷數天。</Philophagy.description>
-  <!-- EN: With the current ritual quality, the invoker will steal {0} of the target's XP in their best skill. -->
-  <Philophagy.outcomeDescription>根據目前的儀式品質，召喚者將竊取目標最佳技能中{0}點經驗。</Philophagy.outcomeDescription>
+  <!-- EN: With the current ritual quality, the invoker will steal {0} of the target's XP in their best skill.\n\nThe target will suffer brain damage and fall into a coma. -->
+  <Philophagy.outcomeDescription>根據目前的儀式品質，召喚者將竊取目標最佳技能中{0}點經驗。\n\n目標腦部會受損，並陷入昏迷。</Philophagy.outcomeDescription>
   
   <!-- EN: pleasure pulse -->
   <PleasurePulse.label>樂活脈衝</PleasurePulse.label>
@@ -54,8 +54,8 @@
   <Psychophagy.label>心靈吞噬</Psychophagy.label>
   <!-- EN: Consume the psychic sensitivity of a target. The invoker will increase their psychic sensitivity for a period of time. The effect does not stack. The target will suffer brain damage, causing them to fall into a coma for several days. -->
   <Psychophagy.description>吞噬目標的心靈敏感度。召喚者會在一段時間內增加自身的心靈敏感度。此效果無法疊加。目標會遭受腦損傷，導致他們陷入昏迷數天。</Psychophagy.description>
-  <!-- EN: At the current ritual quality, the effect will last for {0}. -->
-  <Psychophagy.outcomeDescription>根據目前的儀式品質，效果將持續{0}。</Psychophagy.outcomeDescription>
+  <!-- EN: At the current ritual quality, the invoker will increase their psychic sensitivity for {0}.\n\nThe target will suffer brain damage and fall into a coma. -->
+  <Psychophagy.outcomeDescription>根據目前的儀式品質，召喚者會提升心靈敏感度{0}。\n\n目標腦部會受損，並陷入昏迷。</Psychophagy.outcomeDescription>
   
   <!-- EN: skip abduction -->
   <SkipAbduction.label>折躍綁架</SkipAbduction.label>
@@ -79,8 +79,8 @@
   
   <!-- EN: draw animals -->
   <SummonAnimals.label>召喚動物</SummonAnimals.label>
-  <!-- EN: Create a psychic pulse which will draw a distant herd of animals into the local area. You can then hunt or make use of them as you choose. If not done correctly, this may drive the animals mad. -->
-  <SummonAnimals.description>創造一個心靈脈衝，將一群遠處的動物吸引到當地。你可以接著隨心所欲地狩獵或利用牠們。如果未正確進行此儀式的話，可能會讓動物發瘋。</SummonAnimals.description>
+  <!-- EN: Create a psychic pulse which will draw a distant herd of animals into the local area. You can then hunt or make use of them as you choose. If not done correctly, this may attract scaria-infected manhunters. -->
+  <SummonAnimals.description>創造一個心靈脈衝，將一群遠處的動物吸引到當地。你可以接著隨心所欲地狩獵或利用牠們。如果未正確進行此儀式的話，可能會吸引狂亂症獸群。</SummonAnimals.description>
   <!-- EN: With the current ritual quality, there is a {0} chance that the animals will arrive as manhunters. -->
   <SummonAnimals.outcomeDescription>根據目前的儀式品質，動物有{0}機會以殺人狂形式抵達。</SummonAnimals.outcomeDescription>
   
@@ -94,7 +94,7 @@
   <SummonFleshbeasts.letterAICompleteLabel>血肉獸出沒中</SummonFleshbeasts.letterAICompleteLabel>
   <!-- EN: Fleshbeasts are clawing their way out of the ground. Prepare for their attack! -->
   <SummonFleshbeasts.letterAICompleteText>血肉獸正從地底下爬出來。為牠們的攻擊做好準備！</SummonFleshbeasts.letterAICompleteText>
-  <!-- EN: Create a psychic pulse which will draw a horde of fleshbeats. -->
+  <!-- EN: Create a psychic pulse which will draw a horde of fleshbeasts. -->
   <SummonFleshbeasts.outcomeDescription>創造一個心靈脈衝，吸引一群血肉獸。</SummonFleshbeasts.outcomeDescription>
   
   <!-- EN: draw fleshbeasts -->

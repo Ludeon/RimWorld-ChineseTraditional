@@ -55,13 +55,13 @@
   
   <!-- EN:
     <li>deliveredLetterLabel->Mysterious cargo</li>
-    <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] is deeply unsettled by its presence.\n\nYou can study the corpse to learn more about it.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] will be deeply unsettled by its presence.\n\nYou can study the corpse to learn more about it.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] is deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] will be deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->神祕貨物</li>
-    <li>deliveredLetterText(pawnOnMap==true)->神秘貨物已送達。它似乎是一具人類屍體。\n\n進一步檢查後，屍體看起來和[pawn_nameDef]一模一樣。它的皮膚有蠟質感，摸起來很溫暖。[pawn_nameDef]對其存在深感不安。\n\n你可以對屍體進行研究，以了解更多資訊。</li>
-    <li>deliveredLetterText(pawnOnMap==false)->神秘貨物已送達。它似乎是一具人類屍體。\n\n進一步檢查後，屍體看起來和[pawn_nameDef]一模一樣。它的皮膚有蠟質感，摸起來很溫暖。[pawn_nameDef]會對其存在深感不安。\n\n你可以對屍體進行研究，以了解更多資訊。</li>
+    <li>deliveredLetterText(pawnOnMap==true)->神秘貨物已送達。它似乎是一具人類屍體。\n\n進一步檢查後，屍體看起來和[pawn_nameDef]一模一樣。它的皮膚有蠟質感，摸起來很溫暖。[pawn_nameDef]對其存在深感不安。\n\n對屍體進行研究，以了解更多資訊。</li>
+    <li>deliveredLetterText(pawnOnMap==false)->神秘貨物已送達。它似乎是一具人類屍體。\n\n進一步檢查後，屍體看起來和[pawn_nameDef]一模一樣。它的皮膚有蠟質感，摸起來很溫暖。[pawn_nameDef]會對其存在深感不安。\n\n對屍體進行研究，以了解更多資訊。</li>
   </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>

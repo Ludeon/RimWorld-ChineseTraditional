@@ -1,12 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: No empty containment destination -->
   <NoEmptyEntityHolders>沒有空的收容目的地</NoEmptyEntityHolders>
+  <!-- EN: choose containment destination -->
   <ChooseEntityHolder>選擇收容目的地</ChooseEntityHolder>
+  <!-- EN: Containment strength -->
   <FloatMenuContainmentStrength>收容強度</FloatMenuContainmentStrength>
+  <!-- EN: {0_label} requires -->
   <FloatMenuContainmentRequires>需要{0_label}</FloatMenuContainmentRequires>
+  <!-- EN: Reserved by -->
   <EntityHolderReservedBy>預留給</EntityHolderReservedBy>
 
+  <!-- EN: Talk to {0_nameDef} -->
   <TalkTo>和{0_nameDef}交談</TalkTo>
+  <!-- EN: Cannot talk to {0_nameDef} -->
   <CannotTalkTo>無法和{0_nameDef}交談</CannotTalkTo>
-  <ZeroSuppressionRate>無法抑制</ZeroSuppressionRate>\n\n</LanguageData>
+  <!-- EN: incapable of suppression -->
+  <ZeroSuppressionRate>無法抑制</ZeroSuppressionRate>
+
+</LanguageData>

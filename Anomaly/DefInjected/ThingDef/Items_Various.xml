@@ -38,10 +38,10 @@
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef}對黃金立方體的調查揭露了更多資訊。它能在心靈上影響任何與其互動的人。受到立方體影響的人如果與它分離，就會經歷極端的戒斷。\n\n{PAWN_nameDef}認為可能有辦法停用立方體，但{PAWN_pronoun}需要進一步研究。</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Golden cube study complete -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>黃金立方體研究完成</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
-  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be safely deactivated using an archotech shard. Deactivating the cube will break its psychic hold over people. However, it will also prevent further study of the cube.\n\nSelect the golden cube to deactivate it. -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_nameDef}對黃金立方體的調查顯示，可以使用遠古科技碎片安全地停用立方體。停用立方體會打破它對人的心靈控制。但是，這也會阻礙對立方體的進一步研究。\n\n選擇黃金立方體以停用。</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
-  <!-- EN: Permanently disable the golden cube, breaking its psychic hold. This will prevent the cube from being studied further.\n\nRequires 1 shard. -->
-  <GoldenCube.comps.CompGoldenCube.activateDescString>永久關閉黃金立方體，打破它的心靈控制。這樣將無法對立方體進行進一步研究。\n\n需要1塊碎片。</GoldenCube.comps.CompGoldenCube.activateDescString>
+  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube’s destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_nameDef}對黃金立方體的調查顯示，使用遠古科技碎片可以安全地停用立方體。停用立方體會將之摧毀，並打破它對你的居民的心靈控制。\n\n然而，破壞立方體引發的心靈衝擊會使所有立方體愛好者陷入狂暴。而在旅隊的那些人將會永遠離棄你的殖民地。\n\n選擇黃金立方體以停用。</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
+  <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they’re in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
+  <GoldenCube.comps.CompGoldenCube.activateDescString>摧毀黃金立方體，打破它的心靈控制。這會使所有立方體愛好者一時陷入狂暴。若他們身處旅隊，則會永遠失蹤。\n\n需要1塊碎片。</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
   <GoldenCube.comps.CompGoldenCube.activateLabelString>停用黃金立方體</GoldenCube.comps.CompGoldenCube.activateLabelString>
   <!-- EN: deactivating {0}: {1}s -->
@@ -52,11 +52,8 @@
   <GoldenCube.comps.CompGoldenCube.guiLabelString>選擇負責停用人員。</GoldenCube.comps.CompGoldenCube.guiLabelString>
   <!-- EN: deactivate -->
   <GoldenCube.comps.CompGoldenCube.jobString>停用</GoldenCube.comps.CompGoldenCube.jobString>
-  <!-- EN: The following people have recovered from the cube's psychic effects: -->
   <GoldenCube.comps.CompGoldenCube.letterDeactivatedAppend>以下人員已從立方體的精神控制效果中恢復：</GoldenCube.comps.CompGoldenCube.letterDeactivatedAppend>
-  <!-- EN: {PAWN_nameDef} has deactivated the golden cube. After its animating force was removed, the cube crumbled into a small pile of gold. -->
   <GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>{PAWN_nameDef}已停用黃金立方體。立方體的動力移除後，碎成一小堆黃金。</GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>
-  <!-- EN: Golden cube deactivated -->
   <GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>黃金立方體已停用</GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>
   
   <!-- EN: gray flesh sample -->
@@ -79,7 +76,7 @@
   <GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>分析灰肉樣本</GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>分析進度</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>
-  <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more grey flesh samples. -->
+  <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more gray flesh samples. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}已完成灰肉樣本的分析。樣本帶有生物特徵{BIOSIGNATURE}。\n\n{PAWN_nameDef}在學習辨識活體對象的生物特徵方面取得了進展，但需要更多的樣本才能完成工作。在此之前，你的手術檢查無法檢測到{BIOSIGNATURE}。\n\n收集和分析更多灰肉樣本。</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} analysis of the gray flesh sample. It carries the previously discovered biosignature {BIOSIGNATURE}.\n\nYour colonists now understand this biosignature well enough to detect it with the surgical inspection operation. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}已完成{PAWN_possessive}灰肉樣本分析。它帶有先前發現的生物特徵{BIOSIGNATURE}。\n\n你的殖民者現在對這個生物特徵有足夠的了解，可以透過外科檢查手術檢測到它。</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
@@ -120,7 +117,7 @@
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}已完成對帶有生物特徵{BIOSIGNATURE}的亡魂血肉的分析。\n\n{PAWN_pronoun}對這種特殊的亡魂生物特性和如何辨識它留下的液體，有更深入的了解。\n\n這個亡魂逃跑時會留下更長的明顯汙痕。\n\n或許你能在它睡著的時候抓到並殺死它。你可以透過亡魂留下的污痕追蹤它，並使用干擾閃焰彈、爆破、EMP或火焰使它現身。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}已完成對帶有生物特徵{BIOSIGNATURE}的亡魂血肉的分析。\n\n{PAWN_pronoun}對這種特殊的亡魂生物特性和它發出的聲音，有更深入的了解。現在當亡魂在附近時，你的殖民者可以聽到它的聲音。如果你獵捕亡魂並靠近，將會通知你哪些殖民者可以聽見亡魂的聲音。\n\n或許你能在它睡著的時候抓到並殺死它。你可以透過亡魂留下的污痕追蹤它，並使用干擾閃焰彈、爆破、EMP或火焰使它現身。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
-  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\n Your colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}已完成對帶有先前研究生物特徵{BIOSIGNATURE}的亡魂血肉的分析。\n\n現在當亡魂出現在附近時，你的殖民者可以看見。或許你能在它睡著的時候抓到並殺死它。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>分析完成</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
