@@ -4,7 +4,7 @@
   <!-- EN: organ decay -->
   <OrganDecayCreepjoiner.label>器官侵蝕</OrganDecayCreepjoiner.label>
   <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
-  <OrganDecayCreepjoiner.description>出現於單個器官的退化性絕症。病因可能是細菌或病毒。這種疾病似乎是從一個未知的自然宿主中隨機入侵；它不會在人與人之間直接傳染。\n\n此器官會逐漸失去功能，直至侵蝕殆盡。用仿生或天然器官替換它。</OrganDecayCreepjoiner.description>
+  <OrganDecayCreepjoiner.description>出現於單個器官的退化性絕症，無法治療。病因可能是細菌或病毒。這種疾病似乎是從一個未知的自然宿主中隨機入侵；它不會在人與人之間直接傳染。\n\n此器官會逐漸失去功能，直至侵蝕殆盡。請用仿生或天然器官替換它。</OrganDecayCreepjoiner.description>
   <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
   <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort}的{1}因器官侵蝕而被摧毀。</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
   <!-- EN: minor -->
@@ -19,9 +19,9 @@
   <!-- EN: organ decay -->
   <OrganDecayUndiagnosedCreepjoiner.label>器官侵蝕</OrganDecayUndiagnosedCreepjoiner.label>
   <!-- EN: This person is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. They will begin to display symptoms within a matter of days. -->
-  <OrganDecayUndiagnosedCreepjoiner.description>出現於單個器官的退化性絕症。病因可能是細菌或病毒。這種疾病似乎是從一個未知的自然宿主中隨機入侵；它不會在人與人之間直接傳染。\n\n此器官會逐漸失去功能，直至侵蝕殆盡。用仿生或天然器官替換它。</OrganDecayUndiagnosedCreepjoiner.description>
+  <OrganDecayUndiagnosedCreepjoiner.description>此人出現了某種嚴重病症的早期徵兆，將導致他的器官迅速惡化。他們將在幾天內開始呈現病狀。</OrganDecayUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}出現了嚴重症狀的早期徵兆，這會導致他的器官迅速惡化。{SURGEON_nameDef}目前還不確定是什麼原因導致這種症狀，但{PAWN_nameDef}會在接下來的幾天內病情加重。</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}出現了某種嚴重病症的早期徵兆，這會導致他的器官迅速惡化。{SURGEON_nameDef}目前還不確定是什麼原因導致這種症狀，但{PAWN_nameDef}會在接下來的幾天內病情加重。</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. {PAWN_possessive} body is riddled with rotting organs - {PAWN_pronoun} is little more than a walking corpse. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
   <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}無法再隱瞞{PAWN_possessive}致殘的狀況。{PAWN_possessive}身體充滿腐爛的器官，{PAWN_pronoun}就像一具行走的屍體。{PAWN_nameDef}的器官侵蝕會影響以下身體部位：\n\n{ORGANS}\n\n盡快更換器官，讓{PAWN_nameDef}維持健康。你可以使用仿生器官或從捐贈者身上獲得的自然器官。</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Organ decay: {PAWN_nameDef} -->
@@ -32,9 +32,9 @@
   <!-- EN: organ decay -->
   <OrganDecayUndiagnosedDuplicaton.label>器官侵蝕</OrganDecayUndiagnosedDuplicaton.label>
   <!-- EN: This person is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. They will begin to display symptoms within a matter of days. -->
-  <OrganDecayUndiagnosedDuplicaton.description>出現於單個器官的退化性絕症。病因可能是細菌或病毒。這種疾病似乎是從一個未知的自然宿主中隨機入侵；它不會在人與人之間直接傳染。\n\n此器官會逐漸失去功能，直至侵蝕殆盡。用仿生或天然器官替換它。</OrganDecayUndiagnosedDuplicaton.description>
+  <OrganDecayUndiagnosedDuplicaton.description>此人出現了某種嚴重病症的早期徵兆，將導致他的器官迅速惡化。他們將在幾天內開始呈現病狀。</OrganDecayUndiagnosedDuplicaton.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}出現了嚴重症狀的早期徵兆，這會導致他的器官迅速惡化。{SURGEON_nameDef}目前還不確定是什麼原因導致這種症狀，但{PAWN_nameDef}會在接下來的幾天內病情加重。</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}出現了某種嚴重病症的早期徵兆，這會導致他的器官迅速惡化。{SURGEON_nameDef}目前還不確定是什麼原因導致這種症狀，但{PAWN_nameDef}會在接下來的幾天內病情加重。</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. The duplication process has left {PAWN_possessive} body riddled with rotting organs. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
   <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}無法再隱瞞{PAWN_possessive}致殘的狀況。複製的過程讓{PAWN_possessive}身體充滿腐爛的器官。{PAWN_nameDef}的器官侵蝕會影響以下身體部位：\n\n{ORGANS}\n\n盡快更換器官，讓{PAWN_nameDef}維持健康。你可以使用仿生器官或從捐贈者身上獲得的自然器官。</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Organ decay: {PAWN_nameDef} -->
