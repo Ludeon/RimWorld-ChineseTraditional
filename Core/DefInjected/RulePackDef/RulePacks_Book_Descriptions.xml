@@ -306,7 +306,7 @@
     <li>tellsAStoryOf->探索編年史</li>
     <li>author->作者</li>
     <li>author->[authorTitle]，[ANYPAWN_nameIndef]</li>
-    <li>author(p=2)->未命名[authorTitle]</li>
+    <li>author(p=2)->未著名[authorTitle]</li>
     <li>authorTitle->作者</li>
     <li>authorTitle->抄寫員</li>
     <li>authorTitle->作家</li>
@@ -1137,7 +1137,7 @@
     <li>medium(p=4)->[schematic_origin]已知但包含在文件的註解中</li>
     <li>medium->隨附的日記講述了[schematic_origin]</li>
     <li>medium->[tells_verb][schematic_origin]的古老的機制</li>
-    <li>medium->一個微型機械人嗡嗡地開始運作，講述著[schematic_origin]</li>
+    <li>medium->一個微型機械族嗡嗡地開始運作，講述著[schematic_origin]</li>
     <li>tells_verb->告訴</li>
     <li>tells_verb->傳達</li>
     <li>tells_verb->敘事</li>
@@ -1153,7 +1153,7 @@
     <li>author_story->[author_storyname][learning_story]</li>
     <li>author_story->[author_storyname][calltoadventure]</li>
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
-    <li>author_storyname->未命名的[authorTitle]</li>
+    <li>author_storyname->未著名的[authorTitle]</li>
     <li>author_intent->從小就對[subject]的知識如飢似渴，並對[ANYPAWN_possessive]家鄉的每個人都提出了質疑</li>
     <li>author_intent->夢想復興[subject]並在庫恩[worldname]領導科學革命</li>
     <li>author_intent->做了[subject][ANYPAWN_possessive]一生的工作</li>
@@ -1167,7 +1167,7 @@
     <li>author_intent->從來不喜歡研究[subject]，但不得不這樣做</li>
     <li>author_intent->感覺[subject]是[ANYPAWN_possessive]使命</li>
     <li>learning_story->走遍各地，尋求有關[subject]的智慧</li>
-    <li>learning_story->每天過著相同的一天，在[midworld]的循環城市中研究[subject]</li>
+    <li>learning_story->日復一日，在[midworld]的循環城市中研究[subject]</li>
     <li>learning_story->透過[urbworld]上的一所以[subject]為重點的貧民窟學校開始接觸</li>
     <li>learning_story->以優異的成績從[worldname]的學院的[subject]學科畢業</li>
     <li>learning_story->在[animalworld]的野生世界中自學有關[subject]的知識</li>
