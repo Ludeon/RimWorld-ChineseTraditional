@@ -306,7 +306,7 @@
     <li>tellsAStoryOf->探索編年史</li>
     <li>author->作者</li>
     <li>author->[authorTitle]，[ANYPAWN_nameIndef]</li>
-    <li>author(p=2)->未著名[authorTitle]</li>
+    <li>author(p=2)->未署名[authorTitle]</li>
     <li>authorTitle->作者</li>
     <li>authorTitle->抄寫員</li>
     <li>authorTitle->作家</li>
@@ -1153,7 +1153,7 @@
     <li>author_story->[author_storyname][learning_story]</li>
     <li>author_story->[author_storyname][calltoadventure]</li>
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
-    <li>author_storyname->未著名的[authorTitle]</li>
+    <li>author_storyname->未署名的[authorTitle]</li>
     <li>author_intent->從小就對[subject]的知識如飢似渴，並對[ANYPAWN_possessive]家鄉的每個人都提出了質疑</li>
     <li>author_intent->夢想復興[subject]並在庫恩[worldname]領導科學革命</li>
     <li>author_intent->做了[subject][ANYPAWN_possessive]一生的工作</li>
