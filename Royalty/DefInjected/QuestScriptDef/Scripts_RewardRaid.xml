@@ -10,10 +10,10 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]希望你能幫助[asker_possessive]旅隊。旅隊在[map_definite]附近遭到[enemyFaction_name](*Threat)[numGroupsOf][enemyFaction_pawnsPlural](/Threat)的襲擊。 [asker_nameDef]希望你能向[enemyFaction_pawnsPlural]發起挑釁，遠離旅隊。[endingCommon]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]希望你能幫助[asker_possessive]旅隊。旅隊在[map_definite]附近遭到[enemyFaction_name](*Threat)[numGroupsOf][enemyFaction_pawnsPlural]隊伍(/Threat)的襲擊。 [asker_nameDef]希望你能向[enemyFaction_pawnsPlural]發起挑釁，遠離旅隊。[endingCommon]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的[asker_royalTitleInCurrentFaction]，[asker_nameFull]，向你發佈了一個任務。\n\n[enemyFaction_name]的 (*Threat)[groupsOf](/Threat) 一直在這個區域襲擾[asker_possessive]旅隊。 [asker_nameDef]要求你向他們發起挑釁，吸引他們攻擊並殲滅他們。[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
-    <li>groupsOf->[numGroupsOf]隊[enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf][enemyFaction_pawnsPlural]隊伍</li>
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\n[helpersParagraph]如果你接受這個任務，[enemyFaction_pawnsPlural]將會於[firstRaidDelayTicks_duration]內到達。</li>
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]如果你接受這個任務，[enemyFaction_pawnsPlural]將會於[firstRaidDelayTicks_duration]內到達。</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>

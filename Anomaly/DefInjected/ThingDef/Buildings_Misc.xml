@@ -22,7 +22,7 @@
   <!-- EN: electric inhibitor -->
   <ElectricInhibitor.label>電力抑制器</ElectricInhibitor.label>
   <!-- EN: A device that emits a specially tuned electromagnetic field which numbs the neural activity of captured entities. As long as it is powered, it improves the containment strength of any holding platform that it is pointed at. The electric field does not affect humans or normal animals. -->
-  <ElectricInhibitor.description>此裝置會釋放出經過特殊調整的電磁場，麻痺捕獲個體的神經運作。在裝置的運作期間能提高其指定收容平台的封鎖強度。此電磁場不會對人類或普通動物造成影響。</ElectricInhibitor.description>
+  <ElectricInhibitor.description>此裝置會釋放出經過特殊調整的電磁場，麻痺捕獲實體的神經活動。在裝置的運作期間能提高其朝向的收容平台的收容強度。此電磁場不會對人類或普通動物造成影響。</ElectricInhibitor.description>
   
   <!-- EN: endless pit -->
   <EndlessPit2x2c.label>無底坑</EndlessPit2x2c.label>
@@ -143,12 +143,12 @@
   <!-- EN: holding platform -->
   <HoldingPlatform.label>收容平台</HoldingPlatform.label>
   <!-- EN: A platform for holding dangerous entities. The corners have eyelets where strong chains can be attached.\n\nDowned entities can be captured and secured on a holding platform, where they can be studied for Anomaly knowledge. Increase containment strength by building strong walls and doors, and other special containment devices. -->
-  <HoldingPlatform.description>用於收容危險個體的平台。角落有孔眼可供安裝堅固的鐵鍊。\n\n將個體擊倒後就能捕捉並固定於收容平台，讓你可研究個體獲得異邪知識。建造堅固的牆壁與門和其他特殊收容裝置，即可提高收容強度。</HoldingPlatform.description>
+  <HoldingPlatform.description>用於收容危險實體的平台。角落有孔眼可供安裝堅固的鐵鍊。\n\n將實體擊倒後就能捕捉並固定於收容平台，讓你可研究實體獲得異邪知識。建造堅固的牆壁與門和其他特殊收容裝置，即可提高收容強度。</HoldingPlatform.description>
   
   <!-- EN: holding spot -->
   <HoldingSpot.label>收容點</HoldingSpot.label>
   <!-- EN: A spot for holding dangerous entities. Not as good as a steel holding platform, but a lot better than nothing.\n\nDowned entities can be secured at a holding spot where they can be studied. Increase containment strength by building strong walls and doors, and other special containment devices. -->
-  <HoldingSpot.description>用於收容危險個體的地點。並不如鋼製的收容平台堅固，但總比沒有好。\n\n將個體擊倒後就能固定於收容點，讓你可研究個體。建造堅固的牆壁與門和其他特殊收容裝置，即可提高收容強度。</HoldingSpot.description>
+  <HoldingSpot.description>用於收容危險實體的地點。並不如鋼製的收容平台堅固，但總比沒有好。\n\n將實體擊倒後就能固定於收容點，讓你可研究實體。建造堅固的牆壁與門和其他特殊收容裝置，即可提高收容強度。</HoldingSpot.description>
   
   <!-- EN: noctolith -->
   <Noctolith.label>夜石柱</Noctolith.label>
@@ -209,7 +209,7 @@
   <!-- EN: shard inhibitor -->
   <ShardInhibitor.label>碎片抑制器</ShardInhibitor.label>
   <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
-  <ShardInhibitor.description>黑暗遠古科技的碎面會與心靈能量共鳴，提高其半徑內所有收容平台或收容點的收容強度。\n\n此效果無法堆疊。</ShardInhibitor.description>
+  <ShardInhibitor.description>黑暗遠古科技的碎片會與心靈能量共鳴，提高其半徑內所有收容平台或收容點的收容強度。\n\n此效果無法堆疊。</ShardInhibitor.description>
   
   <!-- EN: sleep suppressor -->
   <SleepSuppressor.label>睡眠抑制器</SleepSuppressor.label>
@@ -222,9 +222,9 @@
   <StoneCubeSculpture.description>被倉促建起，形似立方體的雕塑。</StoneCubeSculpture.description>
   
   <!-- EN: IED deadlife trap -->
-  <TrapIED_Deadlife.label>IED 活屍地雷</TrapIED_Deadlife.label>
+  <TrapIED_Deadlife.label>活屍地雷</TrapIED_Deadlife.label>
   <!-- EN: A pair of deadlife shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe trap needs corpses nearby to be raised by the deadlife dust. -->
-  <TrapIED_Deadlife.description>一對活屍砲彈連接到觸發器上，能在被碰觸或被彈頭撞擊時引爆。由於隱藏在周圍的地形，因此不能安置在其他陷阱的旁邊。動物在平靜時可以感測到地雷。\n\n地雷附近需要放置屍體才能讓活屍粉塵發揮作用。</TrapIED_Deadlife.description>
+  <TrapIED_Deadlife.description>一對活屍砲彈連接到觸發器上，能在被碰觸或被彈頭撞擊時引爆。由於隱藏在周圍的地形，因此不能安置在其他陷阱的旁邊。動物在平靜時可以感測到地雷。\n\n地雷附近需要有屍體才能讓活屍粉塵發揮作用。</TrapIED_Deadlife.description>
   
   <!-- EN: tactical turret -->
   <Turret_TacticalTurret.label>戰術砲塔</Turret_TacticalTurret.label>
