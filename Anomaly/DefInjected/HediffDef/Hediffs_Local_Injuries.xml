@@ -5,6 +5,8 @@
   <Digested.label>消化</Digested.label>
   <!-- EN: This part has been digested. -->
   <Digested.description>這個部分已經被消化了。</Digested.description>
+  <!-- EN: Digested -->
+  <Digested.injuryProps.destroyedLabel>被消化</Digested.injuryProps.destroyedLabel>
   <!-- EN: a digested part -->
   <Digested.labelNoun>一個消化過的部分</Digested.labelNoun>
   <!-- EN: digested {1} -->
@@ -14,6 +16,12 @@
   <EnergyBolt.label>能量彈</EnergyBolt.label>
   <!-- EN: A wound from an energy bolt. -->
   <EnergyBolt.description>能量彈造成的傷口。</EnergyBolt.description>
+  <!-- EN: set -->
+  <EnergyBolt.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</EnergyBolt.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <EnergyBolt.comps.HediffComp_TendDuration.labelTendedWell>已包紮</EnergyBolt.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <EnergyBolt.comps.HediffComp_TendDuration.labelTendedWellInner>已縫合</EnergyBolt.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent energy bolt wound -->
   <EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>永久的能量彈傷口</EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old energy bolt wound -->
@@ -31,6 +39,12 @@
   <PsychicInjury.label>心靈灼傷</PsychicInjury.label>
   <!-- EN: A psychic burn. -->
   <PsychicInjury.description>一個心靈灼傷。</PsychicInjury.description>
+  <!-- EN: treated -->
+  <PsychicInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>已治療</PsychicInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: treated -->
+  <PsychicInjury.comps.HediffComp_TendDuration.labelTendedWell>已治療</PsychicInjury.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: treated -->
+  <PsychicInjury.comps.HediffComp_TendDuration.labelTendedWellInner>已治療</PsychicInjury.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: psychic scarring -->
   <PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>心靈傷痕</PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
@@ -44,6 +58,12 @@
   <PsychicInjurySkin.label>心靈灼傷</PsychicInjurySkin.label>
   <!-- EN: A psychic burn. -->
   <PsychicInjurySkin.description>一個心靈灼傷。</PsychicInjurySkin.description>
+  <!-- EN: treated -->
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelSolidTendedWell>已治療</PsychicInjurySkin.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWell>已包紮</PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: dressed -->
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWellInner>已處理</PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: psychic scarring -->
   <PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>心靈傷痕</PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
@@ -57,6 +77,12 @@
   <PsychicInjurySolid.label>心靈灼傷</PsychicInjurySolid.label>
   <!-- EN: A psychic burn. -->
   <PsychicInjurySolid.description>一個心靈灼傷。</PsychicInjurySolid.description>
+  <!-- EN: treated -->
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelSolidTendedWell>已治療</PsychicInjurySolid.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: treated -->
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWell>已治療</PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: treated -->
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWellInner>已治療</PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent psychic scarring -->
   <PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>永久心靈傷痕</PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
