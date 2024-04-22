@@ -6,35 +6,35 @@
   <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
   <BloodTransfusion.description>使用血原包來舒緩失血的情況。每個血原包可以恢復35%的失血。此手術也會為血原性人士補充血原。</BloodTransfusion.description>
   <!-- EN: performing blood transfusion on TargetA. -->
-  <BloodTransfusion.jobString>對TargetA輸血</BloodTransfusion.jobString>
+  <BloodTransfusion.jobString>對TargetA輸血。</BloodTransfusion.jobString>
   
   <!-- EN: extract hemogen pack -->
   <ExtractHemogenPack.label>抽取血原包</ExtractHemogenPack.label>
   <!-- EN: Extract a hemogen pack from the target. The operation will fail to produce a hemogen pack if the target does not have enough blood.\n\nHemogen packs can be administered to others to reduce blood loss or to satiate those who feed on blood. -->
   <ExtractHemogenPack.description>從目標身上抽取血原包。如果目標沒有足夠血液，此手術就無法生產血原包。\n\n血原包可以被其他人用於舒緩失血或滿足有吸血需求的人士。</ExtractHemogenPack.description>
   <!-- EN: Extracting hemogen pack. -->
-  <ExtractHemogenPack.jobString>抽取血原包</ExtractHemogenPack.jobString>
+  <ExtractHemogenPack.jobString>抽取血原包。</ExtractHemogenPack.jobString>
   
   <!-- EN: extract ovum for IVF -->
   <ExtractOvum.label>抽取卵子作體外人工受孕</ExtractOvum.label>
   <!-- EN: Extract an ovum into a storage capsule. It can then be fertilized by a man, and finally implanted into a mother to start a pregnancy. -->
   <ExtractOvum.description>把卵子抽取到一個儲存膠囊。隨後可以由男性授精，並最後植入母體內開始懷孕過程。</ExtractOvum.description>
   <!-- EN: extracting ovum from TargetA. -->
-  <ExtractOvum.jobString>從TargetA抽取卵子</ExtractOvum.jobString>
+  <ExtractOvum.jobString>從TargetA抽取卵子。</ExtractOvum.jobString>
   
   <!-- EN: implant embryo -->
   <ImplantEmbryo.label>植入胚胎</ImplantEmbryo.label>
   <!-- EN: Implant an embryo in a surrogate mother to begin a pregnancy. -->
   <ImplantEmbryo.description>把胚胎植入代理孕母並開始懷孕過程。</ImplantEmbryo.description>
   <!-- EN: Implanting embryo in TargetA. -->
-  <ImplantEmbryo.jobString>把胚胎植入TargetA</ImplantEmbryo.jobString>
+  <ImplantEmbryo.jobString>把胚胎植入TargetA。</ImplantEmbryo.jobString>
   
   <!-- EN: implant IUD -->
   <ImplantIUD.label>植入子宮環</ImplantIUD.label>
   <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
   <ImplantIUD.description>把一小塊金屬器件植入人體子宮內，防止懷孕。往後可再移除，但有小機會導致永久絕育。此手術可以在第一期時終止懷孕。</ImplantIUD.description>
   <!-- EN: implanting a IUD in TargetA. -->
-  <ImplantIUD.jobString>為TargetA植入子宮環</ImplantIUD.jobString>
+  <ImplantIUD.jobString>為TargetA植入子宮環。</ImplantIUD.jobString>
   <!-- EN: {0} has successfully implanted an IUD in {1}. -->
   <ImplantIUD.successfullyRemovedHediffMessage>{0}成功地為{1}植入子宮環。</ImplantIUD.successfullyRemovedHediffMessage>
   
@@ -43,14 +43,14 @@
   <!-- EN: Implant a xenogerm into a patient. This replaces any previous xenogerm they may have had. -->
   <ImplantXenogerm.description>為病人植入異種細胞。替換之前所有的異種細胞。</ImplantXenogerm.description>
   <!-- EN: Implanting xenogerm. -->
-  <ImplantXenogerm.jobString>植入異種細胞</ImplantXenogerm.jobString>
+  <ImplantXenogerm.jobString>植入異種細胞。</ImplantXenogerm.jobString>
   
   <!-- EN: remove IUD -->
   <RemoveIUD.label>移除子宮環</RemoveIUD.label>
   <!-- EN: Remove an implanted intrauterine device to allow normal pregnancy. If the surgery goes wrong, the patient will be rendered permanently sterile. -->
   <RemoveIUD.description>移除之前植入的子宮環，恢復正常懷孕。如果手術失敗，病人將會永久絕育。</RemoveIUD.description>
   <!-- EN: removing IUD from TargetA. -->
-  <RemoveIUD.jobString>為TargetA移除子宮環</RemoveIUD.jobString>
+  <RemoveIUD.jobString>為TargetA移除子宮環。</RemoveIUD.jobString>
   <!-- EN: {0} has successfully removed {1}'s IUD. -->
   <RemoveIUD.successfullyRemovedHediffMessage>{0}成功地移除{1}的子宮環。</RemoveIUD.successfullyRemovedHediffMessage>
   
@@ -59,7 +59,7 @@
   <!-- EN: Attempt to reverse the vasectomy and make a man capable of fathering children again. Most vasectomy reversals succeed, but if the surgery goes wrong the man will be left permanently sterile. -->
   <ReverseVasectomy.description>試圖解開結紮，使一名男性恢復生育能力。大多數解開結紮都會成功，但如果手術失敗，病人將會永久絕育。</ReverseVasectomy.description>
   <!-- EN: performing a vasectomy reversal on TargetA. -->
-  <ReverseVasectomy.jobString>為TargetA解開結紮</ReverseVasectomy.jobString>
+  <ReverseVasectomy.jobString>為TargetA解開結紮。</ReverseVasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy reversal on {1}. -->
   <ReverseVasectomy.successfullyRemovedHediffMessage>{0}成功地解開了{1}的結紮。</ReverseVasectomy.successfullyRemovedHediffMessage>
   
@@ -68,14 +68,14 @@
   <!-- EN: Terminate the pregnancy of an animal or human. -->
   <TerminatePregnancy.description>終止動物或人類的懷孕。</TerminatePregnancy.description>
   <!-- EN: terminating TargetA's pregnancy. -->
-  <TerminatePregnancy.jobString>為TargetA終止懷孕</TerminatePregnancy.jobString>
+  <TerminatePregnancy.jobString>為TargetA終止懷孕。</TerminatePregnancy.jobString>
   
   <!-- EN: perform tubal ligation -->
   <TubalLigation.label>輸卵管結紮</TubalLigation.label>
   <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
   <TubalLigation.description>使病人絕育，永遠無法生育。</TubalLigation.description>
   <!-- EN: performing tubal ligation on TargetA. -->
-  <TubalLigation.jobString>為TargetA進行輸卵管結紮</TubalLigation.jobString>
+  <TubalLigation.jobString>為TargetA進行輸卵管結紮。</TubalLigation.jobString>
   <!-- EN: {0} has successfully performed tubal ligation on {1}. -->
   <TubalLigation.successfullyRemovedHediffMessage>{0}成功地為{1}進行輸卵管結紮。</TubalLigation.successfullyRemovedHediffMessage>
   
@@ -84,7 +84,7 @@
   <!-- EN: Cut the vas deferens to render the patient unable to reproduce. If the surgery goes wrong the patient will be left permanently sterile. -->
   <Vasectomy.description>把輸精管切斷使病人無法生育。如果手術失敗，病人將會永久絕育。</Vasectomy.description>
   <!-- EN: performing a vasectomy on TargetA. -->
-  <Vasectomy.jobString>為TargetA進行輸精管結紮</Vasectomy.jobString>
+  <Vasectomy.jobString>為TargetA進行輸精管結紮。</Vasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy on {1}. -->
   <Vasectomy.successfullyRemovedHediffMessage>{0}成功地為{1}進行輸精管結紮。</Vasectomy.successfullyRemovedHediffMessage>
   
