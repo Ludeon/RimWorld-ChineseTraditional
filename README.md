@@ -31,7 +31,7 @@ RimWorld 繁體中文化(台灣)
 
 ## 安裝方法
 
-1. 下載壓縮檔(請點擊本頁上方的`Code▾` 點選`Download ZIP`)並解壓縮，得到`Core`、`Royalty`、`Ideology`、`Biotech`四個資料夾與本說明文件
+1. 下載壓縮檔(請點擊本頁上方的`Code▾` 點選`Download ZIP`)並解壓縮，得到`Core`、`Royalty`、`Ideology`、`Biotech`、`Anomaly`五個資料夾與本說明文件
     >
     > - 若未來有新的 DLC 發布則會有更多資料夾
     > - `.github` 的資料夾與 `.gitattributes` 為 git 的版本控制設定及 github 平台的相關設定，若只是想更新語言的人刪除或忽略即可
@@ -49,7 +49,8 @@ RimWorld 繁體中文化(台灣)
 4. 將下載下來的 `Core` 資料夾內的東西，放入剛剛新建的資料夾
     >
     > - Core 的資料夾內應有：`Backstories` 、 `DefInjected` 、`Keyed` 、 `Strings` 四個資料夾與 `LangIcon.png` 、 `LanguageInfo.xml` 兩個檔案
-    > - Royalty 、 Ideology 與 Biotech 則應只有：`DefInjected` 、 `Keyed` 兩個資料夾
+    > - Royalty 與 Ideology 應只有：`DefInjected` 、 `Keyed` 兩個資料夾
+    > - Biotech 與 Anomaly 應只有︰`DefInjected` 、 `Keyed` 與 `Strings` 三個資料夾
     > - 請注意以上檔案放置的位置是否正確，若不正確將導致所有文本無法正常顯示！
     >
 5. 開始遊戲並在遊戲內選擇語言
