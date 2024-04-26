@@ -39,7 +39,7 @@ RimWorld 繁體中文化(台灣)
 2. 刪除或重新命名 `遊戲根目錄(Rimworld安裝的位置)\Data\Core\Languages` 中的 `ChineseTraditional (繁體中文).tar` 檔案
     >
     > - 此步驟可以省略，只要名稱不要和下一步驟的資料夾重複即可
-    > - 若有購買並安裝DLC：Royalty, Ideology 及 Biotech 則 `Data` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(四個資料夾要重複四次本安裝流程)
+    > - 若有購買並安裝DLC：Royalty, Ideology, Biotech 及 Anomaly則 `Data` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(五個資料夾要重複五次本安裝流程)
     >
 3. 在同一資料夾下新增「ChineseTraditional (繁體中文)」的資料夾
     >
