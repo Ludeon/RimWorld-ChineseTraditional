@@ -3,6 +3,10 @@
 
   <!-- EN: Anomaly -->
   <DifficultyAnomalySection>異邪</DifficultyAnomalySection>
+  <!-- EN: Anomaly threats -->
+  <Difficulty_AnomalyThreats_Label>異邪威脅</Difficulty_AnomalyThreats_Label>
+  <!-- EN: Adjust the percentage of major threats that will be Anomaly-related. -->
+  <Difficulty_AnomalyThreats_Info>調整與異邪相關主要威脅的比例。</Difficulty_AnomalyThreats_Info>
   <!-- EN: Anomaly threats (inactive) -->
   <Difficulty_AnomalyThreatsInactive_Label>異邪威脅(休眠)</Difficulty_AnomalyThreatsInactive_Label>
   <!-- EN: Adjust the percentage of major threats that will be Anomaly-related when the monolith is not active. Only certain minor Anomaly incidents can occur when the monolith is inactive. -->
@@ -11,10 +15,23 @@
   <Difficulty_AnomalyThreatsActive_Label>異邪威脅(活躍)</Difficulty_AnomalyThreatsActive_Label>
   <!-- EN: Adjust the percentage of major threats that will be Anomaly-related when the monolith is active. With the current settings:\n  - {0} of major threats will be Anomaly-related at monolith level 1 and 5\n  - {1} of major threats will be Anomaly-related at monolith levels 2-4 -->
   <Difficulty_AnomalyThreatsActive_Info>調整巨石柱活躍時與異邪相關主要威脅的比例。目前的設定︰\n -巨石柱等級1和5時將會有{0}主要威脅與異邪相關\n  -巨石柱等級2至4時將會有{1}主要威脅與異邪相關</Difficulty_AnomalyThreatsActive_Info>
+  <!-- EN: Study efficiency -->
+  <Difficulty_StudyEfficiency_Label>研究效率</Difficulty_StudyEfficiency_Label>
+  <!-- EN: Add a multiplier to how much research is gained when studying unnatural entities. -->
+  <Difficulty_StudyEfficiency_Info>增加研究不自然實體時所獲得的研究點數的倍率。</Difficulty_StudyEfficiency_Info>
 
   <!-- EN: Child shamblers -->
   <Difficulty_ChildShamblersAllowed_Label>兒童蹣步者</Difficulty_ChildShamblersAllowed_Label>
   <!-- EN: Reanimated child shamblers will sometimes appear. -->
   <Difficulty_ChildShamblersAllowed_Info>有時候會出現復活的兒童蹣步者。</Difficulty_ChildShamblersAllowed_Info>
+  
+  <!-- EN: Anomaly settings -->
+  <AnomalySettings>異邪設定</AnomalySettings>
+  <!-- EN: Choose how you'd like to integrate Anomaly horror into your game: -->
+  <ChooseAnomalyPlaystyle>選擇要異邪的恐怖如何融入你的遊戲︰</ChooseAnomalyPlaystyle>
+  <!-- EN: Update Anomaly storyteller settings. These can be modified during the game -->
+  <CanBeEditedInStorytellerSettings>更新異邪故事敘述者設定。這些都能在遊戲中途更改</CanBeEditedInStorytellerSettings>
+  <!-- EN: Set to standard playstyle -->
+  <SetToStandardPlaystyle>重置為標準遊戲風格</SetToStandardPlaystyle>
 
 </LanguageData>

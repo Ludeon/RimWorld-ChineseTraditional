@@ -72,6 +72,27 @@
     <li>subject_gerund->挑釁虛空實體</li>
   </BasicPsychicRituals.generalRules.rulesStrings>
   
+  <!-- EN: bioferrite extraction -->
+  <BioferriteExtraction.label>生化鐵氧體提取</BioferriteExtraction.label>
+  <!-- EN: Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper. -->
+  <BioferriteExtraction.description>從捕獲的實體上直接提取生化鐵氧體。可以用於製作點或生化鐵氧體工匠台上製作武器和服裝。</BioferriteExtraction.description>
+  <!-- EN:
+    <li>subject->bioferrite extraction</li>
+    <li>subject_story->extracted an organic compound from a rapidly mutating flesh sample</li>
+    <li>subject_story->stripped and boiled the flesh of a harbinger tree</li>
+    <li>subject_story->investigated reports of an archotech phenomenon</li>
+    <li>subject_story->discovered a novel organic metal</li>
+    <li>subject_gerund->extracting bioferrite</li>
+  -->
+  <BioferriteExtraction.generalRules.rulesStrings>
+    <li>subject->生化鐵氧體提取</li>
+    <li>subject_story->從一個高速變異的血肉樣本中提取了有機化合物</li>
+    <li>subject_story->剝下先驅樹的血肉並加以煮熟</li>
+    <li>subject_story->調查關於遠古科技現象的報告</li>
+    <li>subject_story->發現了一個新奇的有機金屬</li>
+    <li>subject_gerund->提取生化鐵氧體</li>
+  </BioferriteExtraction.generalRules.rulesStrings>
+  
   <!-- EN: bioferrite generator -->
   <BioferriteGenerator.label>生化鐵氧體發電機</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
@@ -97,10 +118,10 @@
     <li>subject_gerund->使用生化鐵氧體驅動發電機</li>
   </BioferriteGenerator.generalRules.rulesStrings>
   
-  <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>生化鐵氧體收集</BioferriteHarvesting.label>
-  <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>建造生化鐵氧體收集器，從固定在收容平台上的實體身上生產生化鐵氧體。</BioferriteHarvesting.description>
+  <!-- EN: bioferrite harvester -->
+  <BioferriteHarvesting.label>生化鐵氧體收集器</BioferriteHarvesting.label>
+  <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
+  <BioferriteHarvesting.description>建造生化鐵氧體收集器，自動從捕獲的實體中提取生化鐵氧體。較人手提取產出更多生化鐵氧體。</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>

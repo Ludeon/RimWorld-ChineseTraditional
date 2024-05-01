@@ -534,10 +534,10 @@
   <MessageShardDropped>{0}掉落了黑暗遠古科技的碎片。你可以收集和使用它。</MessageShardDropped>
   
   <!-- Blood rain -->
-  <!-- EN: The blood rain has driven {0} into a berserk rage! -->
-  <Berserk_BloodRain>血雨使{0}陷入了狂暴！</Berserk_BloodRain>
-  <!-- EN: The blood rain has driven {0} into a manhunting rage! -->
-  <Manhunter_BloodRain>血雨使{0}陷入了殺戮衝動！</Manhunter_BloodRain>
+  <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
+  <Berserk_BloodRain>血雨使{0_nameIndef}陷入了狂暴！</Berserk_BloodRain>
+  <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
+  <Manhunter_BloodRain>血雨使{0_nameIndef}陷入了殺戮衝動！</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
   <MentalBreakReason_BloodRage>這是因為血怒累積而造成的。</MentalBreakReason_BloodRage>
   
@@ -872,5 +872,19 @@
   <LetterChimerasAttackingLabel>奇美拉攻擊</LetterChimerasAttackingLabel>
   <!-- EN: The chimeras have begun their attack! -->
   <LetterChimerasAttacking>奇美拉已開始攻擊！</LetterChimerasAttacking>
-
+  
+  <!-- Anomaly event frequency -->
+  <!-- EN: No major threats -->
+  <AnomalyFrequency_None>無主要威脅</AnomalyFrequency_None>
+  <!-- EN: Very rare -->
+  <AnomalyFrequency_VeryRare>非常罕見</AnomalyFrequency_VeryRare>
+  <!-- EN: Rare -->
+  <AnomalyFrequency_Rare>罕見</AnomalyFrequency_Rare>
+  <!-- EN: Balanced -->
+  <AnomalyFrequency_Balanced>平衡</AnomalyFrequency_Balanced>
+  <!-- EN: Intense -->
+  <AnomalyFrequency_Intense>強烈</AnomalyFrequency_Intense>
+  <!-- EN: Overwhelming -->
+  <AnomalyFrequency_Overwhelming>湧現</AnomalyFrequency_Overwhelming>
+  
 </LanguageData>

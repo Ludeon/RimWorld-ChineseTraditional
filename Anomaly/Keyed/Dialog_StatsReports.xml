@@ -40,11 +40,13 @@
 
   <!-- EN: Bioferrite generation -->
   <StatsReport_BioferriteGeneration>生化鐵氧體生產</StatsReport_BioferriteGeneration>
-  <!-- EN: How much bioferrite this entity generates per day. When captured on a holding platform, bioferrite can be gathered from it by building a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>此實體每天的生化鐵氧體生產量。當捕獲到收容平台時，可以透過建造生化鐵氧體收集器來收集生化鐵氧體。</StatsReport_BioferriteGeneration_Desc>
+  <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
+  <StatsReport_BioferriteGeneration_Desc>此實體連結到生化鐵氧體收集器時每天生化鐵氧體生產量。</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
   <StatsReport_BioferriteDensityMultiplier>生化鐵氧體產量倍率</StatsReport_BioferriteDensityMultiplier>
-  
+  <!-- EN: Multiplier for bioferrite extracted recently -->
+  <StatsReport_BioferriteExtractedMultiplier>近期被提取過生化鐵氧體倍率</StatsReport_BioferriteExtractedMultiplier>
+
   <!-- EN: Offering -->
   <StatsReport_Offering>供應</StatsReport_Offering>
   <!-- EN: The ingredients required to perform the psychic ritual. -->
