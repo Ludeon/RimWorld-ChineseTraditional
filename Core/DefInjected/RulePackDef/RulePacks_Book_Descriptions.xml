@@ -354,7 +354,7 @@
     <li>writingQualityAdjective(quality==1)->寫得不好</li>
     <li>writingQualityAdjective(quality==0)->幾乎不連貫</li>
     <li>writingQualitySentence(quality[greater_than]4)->它是[excellentDesc][excellentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->這是 [decentDesc][decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->這是[decentDesc][decentExtra]</li>
     <li>writingQualitySentence(quality[less_than]2)->這是[awfulDesc][awfulExtra]</li>
     <li>excellentDesc->一個激動人心的故事</li>
     <li>excellentDesc->對人類精神的深思熟慮的探索</li>
@@ -402,12 +402,12 @@
     <li>awfulExtra->並且在任何時候都沒有可識別的主角</li>
     <li>maybe_date-></li>
     <li>maybe_date->該書出版於[date_form]。</li>
-    <li>maybe_date->文字首次列印[date_form]。</li>
+    <li>maybe_date->這本初版書籍於[date_form]列印。</li>
     <li>maybe_date->目前尚不清楚這本書的具體寫作時間。</li>
     <li>date_form->最近</li>
     <li>date_form->許多世紀前</li>
-    <li>date_form->在[date]</li>
-    <li>date_form->在[date_season]</li>
+    <li>date_form->[date]</li>
+    <li>date_form->[date_season]</li>
     <li>bookType(p=4)->小說</li>
     <li>bookType(p=2)->中篇小說</li>
     <li>bookType->故事</li>
