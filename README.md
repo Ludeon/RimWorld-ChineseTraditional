@@ -24,14 +24,14 @@ RimWorld 繁體中文化(台灣)
 
 ===========================
 
-本繁體中文補丁對應遊戲版本：1.5.4069
+本繁體中文補丁對應遊戲版本：1.5.4075
 
 注意事項：  
-本補丁為 1.5.4069 版本專用，注意，即使同屬 1.5 版，各版間仍存在大量不相容，未更新至 1.5.4069 版以上的玩家請自行斟酌是否使用此補丁。
+本補丁為 1.5.4075 版本專用，注意，即使同屬 1.5 版，各版間仍存在大量不相容，未更新至 1.5.4075 版以上的玩家請自行斟酌是否使用此補丁。
 
 ## 安裝方法
 
-1. 下載壓縮檔(請點擊本頁上方的`Code▾` 點選`Download ZIP`)並解壓縮，得到`Core`、`Royalty`、`Ideology`、`Biotech`四個資料夾與本說明文件
+1. 下載壓縮檔(請點擊本頁上方的`Code▾` 點選`Download ZIP`)並解壓縮，得到`Core`、`Royalty`、`Ideology`、`Biotech`、`Anomaly`五個資料夾與本說明文件
     >
     > - 若未來有新的 DLC 發布則會有更多資料夾
     > - `.github` 的資料夾與 `.gitattributes` 為 git 的版本控制設定及 github 平台的相關設定，若只是想更新語言的人刪除或忽略即可
@@ -39,7 +39,7 @@ RimWorld 繁體中文化(台灣)
 2. 刪除或重新命名 `遊戲根目錄(Rimworld安裝的位置)\Data\Core\Languages` 中的 `ChineseTraditional (繁體中文).tar` 檔案
     >
     > - 此步驟可以省略，只要名稱不要和下一步驟的資料夾重複即可
-    > - 若有購買並安裝DLC：Royalty, Ideology 及 Biotech 則 `Data` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(四個資料夾要重複四次本安裝流程)
+    > - 若有購買並安裝DLC：Royalty, Ideology, Biotech 及 Anomaly則 `Data` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(五個資料夾要重複五次本安裝流程)
     >
 3. 在同一資料夾下新增「ChineseTraditional (繁體中文)」的資料夾
     >
@@ -49,7 +49,8 @@ RimWorld 繁體中文化(台灣)
 4. 將下載下來的 `Core` 資料夾內的東西，放入剛剛新建的資料夾
     >
     > - Core 的資料夾內應有：`Backstories` 、 `DefInjected` 、`Keyed` 、 `Strings` 四個資料夾與 `LangIcon.png` 、 `LanguageInfo.xml` 兩個檔案
-    > - Royalty 、 Ideology 與 Biotech 則應只有：`DefInjected` 、 `Keyed` 兩個資料夾
+    > - Royalty 與 Ideology 應只有：`DefInjected` 、 `Keyed` 兩個資料夾
+    > - Biotech 與 Anomaly 應只有︰`DefInjected` 、 `Keyed` 與 `Strings` 三個資料夾
     > - 請注意以上檔案放置的位置是否正確，若不正確將導致所有文本無法正常顯示！
     >
 5. 開始遊戲並在遊戲內選擇語言

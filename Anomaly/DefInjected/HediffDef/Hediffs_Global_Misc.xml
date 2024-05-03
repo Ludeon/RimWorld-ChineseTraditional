@@ -23,7 +23,7 @@
   <!-- EN: blood rage -->
   <BloodRage.label>血怒</BloodRage.label>
   <!-- EN: This creature has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
-  <BloodRage.description>這個生物曾經暴露在血雨中，這是一種會引發憤怒的心靈液體。只要暴露在血雨中，憤怒就會持續增長，最終導致暴力性的精神崩潰。這種效果在某些人身上，會根據其特性、心靈敏感度和隨機個體差異而增長得更快。</BloodRage.description>
+  <BloodRage.description>這個生物曾經暴露在血雨中，這是一種會引發憤怒的心靈液體。只要暴露在血雨中，憤怒就會持續增長，最終導致暴力性的精神崩潰。這種效果在某些個體身上，會根據其特性、心靈敏感度和隨機個體差異而增長得更快。</BloodRage.description>
   <!-- EN: very mild -->
   <BloodRage.stages.very_mild.label>非常輕微</BloodRage.stages.very_mild.label>
   <!-- EN: mild -->
@@ -33,7 +33,9 @@
   <!-- EN: severe -->
   <BloodRage.stages.severe.label>重度第四級</BloodRage.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme.label>極度</BloodRage.stages.extreme.label>
+  <BloodRage.stages.extreme-0.label>極度</BloodRage.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <BloodRage.stages.extreme-1.label>極度</BloodRage.stages.extreme-1.label>
   
   <!-- EN: brainwipe coma -->
   <BrainwipeComa.label>記憶消除昏迷</BrainwipeComa.label>
@@ -299,8 +301,8 @@
   
   <!-- EN: revenant hypnosis -->
   <RevenantHypnosis.label>亡魂催眠</RevenantHypnosis.label>
-  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or by being lit on fire. -->
-  <RevenantHypnosis.description>這個人被亡魂催眠，並維持著連結。他嘀咕著惡夢般的生物，目不定睛地盯著看不見的恐怖事物。\n\n亡魂把人催眠後，會在與受害者同一張地圖上的某個地方休眠。\n\n殺死亡魂將結束催眠。隱形的亡魂可以透過干擾閃焰彈、爆破、EMP、滅火泡沫或被火焰點燃來顯形。</RevenantHypnosis.description>
+  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or fire. -->
+  <RevenantHypnosis.description>這個人被亡魂催眠，並維持著連結。他嘀咕著惡夢般的生物，目不定睛地盯著看不見的恐怖事物。\n\n亡魂把人催眠後，會在與受害者同一張地圖上的某個地方休眠。\n\n殺死亡魂將結束催眠。干擾閃焰彈、爆破、EMP、滅火泡沫或火焰可以使隱形的亡魂顯形。</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->
   <ShardHolder.label>碎片持有者</ShardHolder.label>
