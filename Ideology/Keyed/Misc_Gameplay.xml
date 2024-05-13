@@ -203,8 +203,14 @@
   <RitualTargetConnectedGauranlenTree>已與{PAWN_nameDef}聯結</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite}的聯結近期受到破壞。經過{1}後才能再與它聯結。</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>你需要為每位參與者預備{0}木頭(總共{2})。你擁有{1}木頭。</RitualTargeWoodInfo>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>你需要為每位參與者預備{0}木頭(總共{1})。</RitualTargetWoodInfo> <!-- text_todo -->
+  <!-- EN: {0} participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>{0}位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppend> <!-- text_todo -->
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>{0}位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppendMultiple> <!-- text_todo -->
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort}無法拿到足夠的木頭。</RitualTargetWoodInfoWarning> <!-- text_todo -->
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0}必須能碰到儀式道具。</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -664,6 +670,7 @@
   <ChangeStyleDisabledNoCategories>沒有可用的風格。</ChangeStyleDisabledNoCategories>
 
   <!-- UNUSED -->
+  <RitualTargeWoodInfo>你需要為每位參與者預備{0}木頭(總共{2})。你擁有{1}木頭。</RitualTargeWoodInfo>
   <RitualTargetLightBallInfo>一個燈球或是儀式點。燈球和擴音器必須通電。</RitualTargetLightBallInfo>
   <RitualTargetCampfireSkylanternsInfo>一個點燃的營火或儀式點。儀式點必須露天和附近至少要有25個露天的方格。</RitualTargetCampfireSkylanternsInfo>
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}不相信除目儀式而且不想被除目。</RitualBlindingWarnNonBlindingIdeo>
