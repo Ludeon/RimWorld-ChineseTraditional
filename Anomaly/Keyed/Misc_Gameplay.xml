@@ -288,12 +288,12 @@
   <ActivityGizmo>活動</ActivityGizmo>
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>自動抑制</ActivitySuppressionTooltipTitle>
-  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
-  <ActivitySuppressionTooltipDisabled>自動抑制目前已關閉。啟用可使獄卒抑制{0}。</ActivitySuppressionTooltipDisabled>
-  <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
-  <ActivitySuppressionTooltipDesc>{0}的活躍等級會隨時間上升。如果{0}受到傷害或被刺激，會加快活躍等級上升。\n\n如果活躍等級達到100% ，{0}將會啟動。\n\n獄卒可以抑制{0}，將活動維持在安全等級。只要其活躍等級高於指定等級：{LEVEL}\n\n，獄卒就會進行抑制。活躍等級較高的實體在研究時，會提供更多知識。</ActivitySuppressionTooltipDesc>
-  <!-- EN: This determines whether the {PAWN_labelShort} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>決定在{PAWN_labelShort}的活躍等級低於{LEVEL}時，是否會自動抑制。\n\n自動抑制目前{ONOFF}。</ActivitySuppressionToggleTooltipDesc>
+  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress {THING_labelNoParenthesisDef}. -->
+  <ActivitySuppressionTooltipDisabled>自動抑制目前已關閉。啟用可使獄卒抑制{THING_labelNoParenthesisDef}。</ActivitySuppressionTooltipDisabled>
+  <!-- EN: {THING_labelNoParenthesisDef}'s activity level rises over time. Activity rises faster if {THING_labelNoParenthesisDef} is damaged or provoked.\n\nIf the activity level reaches 100%, {THING_labelNoParenthesisDef} will activate.\n\nWardens can suppress {THING_labelNoParenthesisDef} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
+  <ActivitySuppressionTooltipDesc>{THING_labelNoParenthesisDef}的活躍等級會隨時間上升。如果{THING_labelNoParenthesisDef}受到傷害或被刺激，會加快活躍等級上升。\n\n如果活躍等級達到100% ，{THING_labelNoParenthesisDef}將會啟動。\n\n獄卒可以抑制{THING_labelNoParenthesisDef}，將活動維持在安全等級。只要其活躍等級高於指定等級：{LEVEL}\n\n，獄卒就會進行抑制。活躍等級較高的實體在研究時，會提供更多知識。</ActivitySuppressionTooltipDesc>
+  <!-- EN: This determines whether {THING_labelNoParenthesisDef} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
+  <ActivitySuppressionToggleTooltipDesc>決定在{THING_labelNoParenthesisDef}的活躍等級低於{LEVEL}時，是否會自動抑制。\n\n自動抑制目前{ONOFF}。</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
