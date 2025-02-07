@@ -68,9 +68,9 @@
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
-  <ModsChanged>模組設置已更動，遊戲將自動重啟。</ModsChanged>
+  <ModsChanged>模組設定已更動，遊戲將自動重啟。</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
-  <FailedToRestart>遊戲無法完全卸載由模組導入的程式碼，因此來自某些已卸載的模組的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並停用所有使用中的模組後再次進行遊戲。</FailedToRestart>
+  <FailedToRestart>遊戲無法完全卸除由模組導入的程式碼，因此來自某些已停用的模組的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並停用所有使用中的模組後再次進行遊戲。</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>重新啟動中</Restarting>
   
@@ -82,7 +82,7 @@
   <!-- EN: Initializing interface -->
   <InitializingInterface>正在初始化界面</InitializingInterface>
   <!-- EN: Unloading unused assets -->
-  <UnloadingUnusedAssets>正在卸載非使用中的元件</UnloadingUnusedAssets>
+  <UnloadingUnusedAssets>正在卸除非使用中的元件</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
   <LoadingAllActiveMods>正在載入已啟用的模組</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
@@ -1062,9 +1062,9 @@
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
-  <DefaultMedicineSettings>預設藥品設置</DefaultMedicineSettings>
+  <DefaultMedicineSettings>預設藥品設定</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>在某生物第一次獲指定為某群組時，將會被分配到相應的藥品設置。你可以在「健康」分頁為單一個體調整設置。\n\n注意︰如果該生物加入了另一群組，即使你為他調整過，他們皆會按新群組的設置再次被分配。</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>在某生物第一次獲指定為某群組時，將會被分配到相應的藥品設定。你可以在「健康」分頁為單一個體調整設定。\n\n注意︰如果該生物加入了另一群組，即使你為他調整過，他們皆會按新群組的設定再次被分配。</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>預設</MedGroupDefaults>
@@ -1322,7 +1322,7 @@
   <AutoSlaughterHeaderTooltipAllowSlaughterBonded>允許屠宰動物夥伴。</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
-  <AutoSlaughterTooltipSetLimit>點擊設置動物數量限制。</AutoSlaughterTooltipSetLimit>
+  <AutoSlaughterTooltipSetLimit>點擊設定動物數量限制。</AutoSlaughterTooltipSetLimit>
 
   <!-- Room requirements -->
   <!-- EN: no beds allowed -->
@@ -1404,7 +1404,7 @@
   <!-- EN: Change the light color to darklight. -->
   <ToggleDarklightOnDesc>將光色切換成暗光</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
-  <ColorTemperatureTooltip>通過設置色溫來選擇顏色。注意：這只影響視覺顏色，不影響熱量輸出</ColorTemperatureTooltip>
+  <ColorTemperatureTooltip>通過設定色溫來選擇顏色。注意：這只影響視覺顏色，不影響熱量輸出</ColorTemperatureTooltip>
 
   <!-- EN: {0_labelShort} is psychically deaf. -->
   <CannotShootPawnIsPsychicallyDeaf>{0_labelShort}是心靈障壁者。</CannotShootPawnIsPsychicallyDeaf>
