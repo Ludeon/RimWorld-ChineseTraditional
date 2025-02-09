@@ -65,14 +65,14 @@
   <BiofuelRefining.description>建造生質煉油器，可將木頭或食物提煉成化合燃料。</BiofuelRefining.description>
   <!-- EN:
     <li>subject->biofuel</li>
-    <li>subject_story->was trapped when a generation ship lost power. She used her knowledge of refining to turn human remains into biofuel and restart the engines</li>
+    <li>subject_story->was trapped when a generation ship lost power. [ANYPAWN_pronoun] used [ANYPAWN_possessive] knowledge of refining to turn human remains into biofuel and restart the engines</li>
     <li>subject_story->used automated biorefineries to begin the long terraforming process on an iceworld</li>
     <li>subject_story->started a distillery to make moonshine but, realizing it was undrinkable, sold it as chemfuel instead</li>
     <li>subject_gerund->refining biofuel</li>
   -->
   <BiofuelRefining.generalRules.rulesStrings>
     <li>subject->生質燃料</li>
-    <li>subject_story->一艘發電船失去動力時被困住。她利用自己的提煉知識將人類遺體轉化為生質燃料並重新啟動引擎</li>
+    <li>subject_story->一艘發電船失去動力時被困住。[ANYPAWN_pronoun]利用自己的提煉知識將人類遺體轉化為生質燃料並重新啟動引擎</li>
     <li>subject_story->使用自動化生物精煉廠在冰凍世界上開始漫長的地球化過程</li>
     <li>subject_story->開設了一家釀酒廠來生產私釀烈酒，但發現到它是無法飲用的，於是將其作為化學燃料出售</li>
     <li>subject_gerund->提煉生質燃料</li>
@@ -379,7 +379,7 @@
   <!-- EN:
     <li>subject->nutrient paste</li>
     <li>subject_story->worked in a factory canteen and devised nutrient paste as a way to avoid all labor</li>
-    <li>subject_story->lost their taste of smell to disease, so devised a cheap, flavorless nutrient paste</li>
+    <li>subject_story->lost [ANYPAWN_possessive] taste of smell to disease, so devised a cheap, flavorless nutrient paste</li>
     <li>subject_story->advocated for the recycling of all organic matter into nutrient paste, even corpses</li>
     <li>subject_gerund->building nutrient paste dispensers</li>
   -->
