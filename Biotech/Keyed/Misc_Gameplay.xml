@@ -27,14 +27,10 @@
   <CaravanMechsCount>{0}機械族</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>裝著{APPAREL}的{BOSS}</BossWithApparel>
-  <!-- EN: Resulting from gene -->
-  <ComesFromGene>TODO</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>移除{0}</ReportRemovingMechlink>
-  <!-- EN: from {TEACHER_labelShort} -->
-  <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
@@ -103,8 +99,6 @@
   <ReadyToSummonThreat>準備召喚{0}劫難</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>召喚{0}劫難</Summon>
-  <!-- EN: Mechanoids disabled -->
-  <MechsDisabled>TODO</MechsDisabled> <!-- text_todo -->
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>沒有可到達的{0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -253,6 +247,12 @@
   <BirthRitualHealthyBabyChance>此品質下生出健康嬰兒的機率是{0_percentage}。</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
   <GivingBirth>分娩。</GivingBirth>
+
+  <!-- Shield comp -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>護盾能量</ShieldEnergy>
+  <!-- EN: Time to recovery -->
+  <ShieldTimeToRecovery>回復時間</ShieldTimeToRecovery>
 
   <!-- Genes -->
   <!-- EN: genes -->
@@ -754,6 +754,10 @@
   <IvfPregnancyLetterText>{0}成功透過胚胎植入成為孕婦!</IvfPregnancyLetterText>
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>嬰兒會受{0}和{1}遺傳。</IvfPregnancyLetterParents>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>阻截射來的槍彈與榴彈的低角護盾。若受 EMP 攻擊會即時失效。</ProjectileInterceptorTip>
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->

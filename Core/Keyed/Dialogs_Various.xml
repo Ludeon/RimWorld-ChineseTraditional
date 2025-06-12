@@ -23,7 +23,7 @@
   <Disable>停用</Disable>
   <!-- EN: Modify -->
   <Modify>調整</Modify>
-  <!-- EN: Settle here anyway? -->
+  <!-- EN: Settle here anyways? -->
   <ConfirmSettle>無論如何都要在此設置據點?</ConfirmSettle>
   <!-- EN: add -->
   <Add>添加</Add>
@@ -249,8 +249,8 @@
   <SelectedCharactersMustInclude>必須包含{SUMMARY}</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
-  <MapWinterWarning>TODO</MapWinterWarning>
+  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
+  <MapTemperatureDangerWarning>警告：你將會降落在一個冰凍環境裡，這將會使你非常難甚至無法生存。若你沒打算面對如此嚴峻的挑戰，那就選擇一個溫暖一點的季節吧。</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>警告：在大地圖下遊戲性能可能會有所下降。巨大尺寸沒有經過測試，幾乎可以肯定將會無法順暢遊玩。</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -700,8 +700,6 @@
   <TradeModeTip>返回交易模式。</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name}不願意派出旅隊，因為{NEGOTIATOR_nameDef}缺少所需的{TITLE}頭銜。</TradeCaravanRequestDeniedDueTitle>
-  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
-  <OrbitalTradeRequestDeniedDueTitle>TODO</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -730,10 +728,6 @@
   <Send>確認</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>此物品分配至旅隊的數量。</FormCaravanColonyThingCountTip>
-  <!-- EN: Number available to transport. -->
-  <TransporterColonyThingCountTip>TODO</TransporterColonyThingCountTip> <!-- text_todo -->
-  <!-- EN: Number available to transfer. -->
-  <TransferMapPortalColonyThingCountTip>TODO</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>人員與動物</PawnsTab>
   <!-- EN: Items -->
@@ -954,8 +948,6 @@
   <DuplicatePolicyTip>複製選取的計畫。</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>重新命名計畫。</RenamePolicyTip>
-  <!-- EN: Make this policy the default policy given to new colonists. -->
-  <DefaultPolicyTip>TODO</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>你確定要刪除計畫:{0}?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1067,8 +1059,6 @@
   <SchematicPolicy>圖紙</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>小說</NovelPolicy>
-  <!-- EN: Maps -->
-  <MapPolicy>TODO</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1148,10 +1138,8 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>遺棄{1_labelShort}將會導致以下人員得到以下心情：</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: The following still need to be loaded -->
-  <ConfirmSendNotCompletelyLoadedLaunchable>TODO</ConfirmSendNotCompletelyLoadedLaunchable>
-  <!-- EN: Launch anyway? -->
-  <ConfirmSendLaunchAnyway>TODO</ConfirmSendLaunchAnyway>
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
+  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}不在裡面，依然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1425,10 +1413,6 @@
   <SearchTheMap>在目前地圖搜尋。</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>在目前地圖搜尋物品、建築物、人類、動物、植物等等。</SearchTheMapDesc>
-  <!-- EN: Search the world -->
-  <SearchTheWorld>TODO</SearchTheWorld>
-  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
-  <SearchTheWorldDesc>TODO</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0}個搜尋結果</MapSearchResults>
   <!-- EN: 1 result found -->
@@ -1437,8 +1421,6 @@
   <Searching>搜尋中</Searching>
 
   <!-- UNUSED -->
-  <MapTemperatureDangerWarning>警告：你將會降落在一個冰凍環境裡，這將會使你非常難甚至無法生存。若你沒打算面對如此嚴峻的挑戰，那就選擇一個溫暖一點的季節吧。</MapTemperatureDangerWarning>
-  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}不在裡面，依然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
   <Outfit>裝備</Outfit>
   <SelectOutfit>選取裝備...</SelectOutfit>
   <NewOutfit>新裝備</NewOutfit>
