@@ -116,6 +116,8 @@
   <PlanetCoverageTip>所有星球的直徑皆相同，但因為此大小已遠遠超出一般遊戲需求，因此我們不會生成整個星球地表，那會需要很長的時間。這是你想要生成的面積百分比。</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>派系</WorldFactionsTab>
+  <!-- EN: Advanced settings -->
+  <AdvancedSettings>進階設定</AdvancedSettings>
 
   <!-- Select world -->
   <!-- EN: Select world -->
@@ -405,7 +407,7 @@
   <!-- EN: Butchering yield -->
   <Difficulty_ButcherYieldFactor_Label>屠宰量</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>調整屠宰時獲得原料的產量。這包括肉、皮革以及拆解機械體獲得的產出。</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>調整屠宰時獲得原料的產量。這包括肉、皮革以及拆解機械族獲得的產出。</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
   <Difficulty_ResearchSpeedFactor_Label>研究速率</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
@@ -419,9 +421,9 @@
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
   <Difficulty_RaidLootPointsFactor_Info>調整襲擊者攜帶的戰利品份量。\n\n註：襲擊戰利品也會自動根據威脅等級進行補償調整。如果你調整了這個選項，你會獲得一個額外的倍率。</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
-  <Difficulty_MaintenanceCostFactor_Label>炮塔整備成本</Difficulty_MaintenanceCostFactor_Label>
+  <Difficulty_MaintenanceCostFactor_Label>砲塔整備成本</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
-  <Difficulty_MaintenanceCostFactor_Info>調整整備炮塔的成本。</Difficulty_MaintenanceCostFactor_Info>
+  <Difficulty_MaintenanceCostFactor_Info>調整整備砲塔的成本。</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
   <Difficulty_ScariaRotChance_Label>狂暴症腐爛機率</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
@@ -481,6 +483,10 @@
   <Difficulty_UnwaveringPrisoners_Label>添加愚忠的俘虜</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
   <Difficulty_UnwaveringPrisoners_Info>此選項讓遊戲增加額外的可拘禁的俘虜，這些俘虜由於極度忠誠而無法被招募.\n\n這些愚忠的俘虜是在普通俘虜之上額外添加的，因此關閉此選項不會出現更多可招募的俘虜——它只是刪除了愚忠的俘虜。\n\n愚忠的俘虜仍然可以被釋放以換取外交獎勵、販賣、奴役、摘取器官，或其他用途。一般而言，他們提供了更多的選項和資源，並使遊戲更加豐富和容易。</Difficulty_UnwaveringPrisoners_Info>
+  <!-- EN: Nomadic mineable resources -->
+  <Difficulty_NomadicMineableResourcesFactor_Label>遊牧礦量</Difficulty_NomadicMineableResourcesFactor_Label>
+  <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
+  <Difficulty_NomadicMineableResourcesFactor_Info>調整在起始後的地圖有多少可採挖的礦石資源。\n\n注意︰你的第一張殖民地地圖總會生成標準的資源份量。</Difficulty_NomadicMineableResourcesFactor_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
@@ -489,9 +495,9 @@
   <!-- EN: Player can build traps like spike traps and IED traps. -->
   <Difficulty_AllowTraps_Info>玩家可以製作如尖刺陷阱或者地雷之類的陷阱。</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
-  <Difficulty_AllowTurrets_Label>玩家可以建造炮塔</Difficulty_AllowTurrets_Label>
+  <Difficulty_AllowTurrets_Label>玩家可以建造砲塔</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>玩家可以建造如簡易無人機槍塔、自動加農炮塔之類的靜態炮塔。\n\n你依然可以在禁用此選項時使用繳獲的炮塔。</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>玩家可以建造如簡易無人機槍塔、機關砲塔之類的靜態砲塔。\n\n你依然可以在禁用此選項時使用繳獲的砲塔。</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>玩家可以建造迫擊砲</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
@@ -560,6 +566,8 @@
   <River>河流</River>
   <!-- EN: Elevation -->
   <Elevation>海拔</Elevation>
+  <!-- EN: Features -->
+  <TileMutators>特殊性</TileMutators>
   <!-- EN: Fertility -->
   <Fertility>濕度</Fertility>
   <!-- EN: fertility -->
@@ -721,6 +729,10 @@
   <ClickForMoreInfo>點擊瞭解更多資訊。</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>沒有可用的資訊。</NoMoreInfoAvailable>
+  <!-- EN: Best skill -->
+  <BestSkillLabel>最佳技能</BestSkillLabel>
+  <!-- EN: skill level {0} -->
+  <BestSkillInfoLevel>技能等級{0}</BestSkillInfoLevel>
 
   <!-- Factions -->
   <!-- EN: Factions -->
@@ -739,6 +751,8 @@
   <MechanoidsDisabledContentWarning>禁用{0}表示減少任務和自動出發的威脅種類。</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>沒有其他派系，襲擊、貿易和任務就不會正常發生。</FactionsDisabledWarning>
+  <!-- EN: Cannot be removed for this scenario. -->
+  <FactionRemovalDisabled>無法從此腳本移除。</FactionRemovalDisabled>
 
   <!-- UNUSED -->
   <RecommendedFactionCount>派系數量超過{0}可能會使遊戲出現問題。</RecommendedFactionCount>

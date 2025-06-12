@@ -63,7 +63,7 @@
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>健康倍率{0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
-  <StatsReport_ReloadMarketValue>裝填消耗（{COUNT}x{AMMO_label}）</StatsReport_ReloadMarketValue>
+  <StatsReport_ReloadMarketValue>裝填消耗({COUNT}x{AMMO_label})</StatsReport_ReloadMarketValue>
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
   <StatsReport_ReloadRemainingChargesMultipler>剩餘{CHARGENOUN_plural}({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
@@ -203,7 +203,7 @@
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>這種植物的屬性。</Stat_Thing_Plant_Attributes_Desc>
   <!-- EN: Clothing (for nudity) -->
-  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>衣物（裸體主義者）</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>衣物(裸體主義者)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>裸體主義者是否認為這件東西是一件衣服。如果不是，裸體主義者將永遠不會因為穿這個而感到困擾。</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <!-- EN: Gender -->
@@ -246,6 +246,14 @@
   <Stat_Race_RoamInterval_Desc>一個被馴服的動物多久會嘗試流浪並離開地圖。動物只有在有一條直接通往地圖邊緣的路線時才會流浪。你可以使用柵欄、路障、牆壁和門來防止這種狀況。\n\n馴獸師可以用繩子拴住流浪的動物，並把牠們帶回圍欄裡。</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>攝入此物品所獲得的娛樂值。更高的數值將滿足更多的娛樂需求。</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The weight of this creature and their equipment. -->
+  <Stat_Mass_Desc>此生物的重量及其裝備。</Stat_Mass_Desc>
+  <!-- EN: Base mass -->
+  <Stat_Mass_Base>基本質量</Stat_Mass_Base>
+  <!-- EN: Mass from equipment -->
+  <Stat_Mass_Equipment>裝備質量</Stat_Mass_Equipment>
+  <!-- EN: Total mass -->
+  <Stat_Mass_Total>總質量</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>與普通的成人相較下，這種生物的體形大小。</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -260,6 +268,12 @@
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>此武器每次射擊的射速。</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>此武器的最大射程。</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: Range multiplier -->
+  <Stat_Thing_Weapon_Range_Multiplier>射程倍率</Stat_Thing_Weapon_Range_Multiplier>
+  <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
+  <Stat_Thing_Weapon_Range_Clamped>因為天氣，由{ORIGINAL}減至{CAP}。</Stat_Thing_Weapon_Range_Clamped>
+  <!-- EN: Aiming time multiplier -->
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>瞄準時間倍率</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>此武器射擊時的隨機散佈的半徑。越高的數值會使砲彈在目標周圍分佈更散。</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -551,6 +565,20 @@
   <ContainedBookBeauty>存放的書籍美觀度</ContainedBookBeauty>
   <!-- EN: {0} hits -->
   <Stat_TrapDamageHitCount>{0}擊</Stat_TrapDamageHitCount>
+
+  <!-- EN: The amount of progress that has been made towards hacking this object. -->
+  <Stat_Thing_HackingProgress>破解此物件的進度。</Stat_Thing_HackingProgress>
+
+  <!-- EN: Multiplier for {0} terrain -->
+  <StatsReport_TerrainSpeedMultiplier>{0}地形的倍率</StatsReport_TerrainSpeedMultiplier>
+
+  <!-- EN: {0} trained -->
+  <StatsReport_Trainable>已訓練{0}</StatsReport_Trainable>
+  <!-- EN: Available training -->
+  <StatsReport_AvailableTraining>可用的訓練</StatsReport_AvailableTraining>
+  <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
+  <StatsReport_AvailableTraining_Desc>此生物可被訓練而進行的工作。可用的訓練視乎生物的智能程度、體型、和種族。</StatsReport_AvailableTraining_Desc>
+  
   <!-- UNUSED -->
   <Stat_Thing_Plant_LifespanDesc>此植物種下後可以生存的時間。無關成長度或損傷，植物會在他們過老的時候死亡。</Stat_Thing_Plant_LifespanDesc>
 

@@ -322,6 +322,8 @@
   <QuestPawnNotOnColonyMap>{PAWN_definite}在主殖民地</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>地圖上不可以有賜予者的敵人</QuestRequiresNoDangerOnMap>
+  <!-- EN: that {PROJECT_label} has been researched. -->
+  <QuestRequiresResearch>{PROJECT_label}已被研究完成。</QuestRequiresResearch>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>完成正在進行的授勛儀式任務</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -358,6 +360,10 @@
   <QuestNeutralTo>與{0}中立</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>已研究{0_labelShort}</QuestRequiredThingStudied>
+  <!-- EN: cannot accept {GERUND} {LAYER} -->
+  <QuestRequiredLayer>無法{GERUND}{LAYER}接受</QuestRequiredLayer> <!-- text_todo -->
+  <!-- EN: cannot accept in space -->
+  <QuestNotSpace>無法在太空接受</QuestNotSpace> <!-- text_todo -->
 
   <!-- Health tab -->
   <!-- EN: Creates need -->

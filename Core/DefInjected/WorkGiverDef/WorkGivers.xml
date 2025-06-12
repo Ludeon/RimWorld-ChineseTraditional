@@ -44,7 +44,7 @@
   <ConstructDeliverResourcesToBlueprints.verb>運送資源</ConstructDeliverResourcesToBlueprints.verb>
   
   <!-- EN: deliver resources to frames -->
-  <ConstructDeliverResourcesToFrames.label>運送資源至施工處</ConstructDeliverResourcesToFrames.label>
+  <ConstructDeliverResourcesToFrames.label>運送資源至預定地</ConstructDeliverResourcesToFrames.label>
   <!-- EN: working on -->
   <ConstructDeliverResourcesToFrames.gerund>運送資源至</ConstructDeliverResourcesToFrames.gerund>
   <!-- EN: work on -->
@@ -63,6 +63,13 @@
   <ConstructRemoveFloors.gerund>拆除此</ConstructRemoveFloors.gerund>
   <!-- EN: remove floor -->
   <ConstructRemoveFloors.verb>拆除地板</ConstructRemoveFloors.verb>
+  
+  <!-- EN: remove foundation -->
+  <ConstructRemoveFoundations.label>移除基底</ConstructRemoveFoundations.label>
+  <!-- EN: removing foundation -->
+  <ConstructRemoveFoundations.gerund>移除基底</ConstructRemoveFoundations.gerund>
+  <!-- EN: remove foundation -->
+  <ConstructRemoveFoundations.verb>移除基底</ConstructRemoveFoundations.verb>
   
   <!-- EN: smooth floors -->
   <ConstructSmoothFloors.label>拋光地面</ConstructSmoothFloors.label>
@@ -92,6 +99,13 @@
   <!-- EN: deconstruct -->
   <Deconstruct.verb>拆除</Deconstruct.verb>
   
+  <!-- EN: deconstruct structures for blueprints -->
+  <DeconstructForBlueprint.label>拆除至預定地</DeconstructForBlueprint.label>
+  <!-- EN: deconstructing -->
+  <DeconstructForBlueprint.gerund>拆除</DeconstructForBlueprint.gerund>
+  <!-- EN: deconstruct -->
+  <DeconstructForBlueprint.verb>拆除</DeconstructForBlueprint.verb>
+  
   <!-- EN: deliver food to prisoners -->
   <DeliverFoodToPrisoner.label>替俘虜送餐</DeliverFoodToPrisoner.label>
   <!-- EN: delivering food for -->
@@ -100,14 +114,14 @@
   <DeliverFoodToPrisoner.verb>送餐</DeliverFoodToPrisoner.verb>
   
   <!-- EN: deliver resources to blueprints -->
-  <DeliverResourcesToBlueprints.label>運送資源至施工處</DeliverResourcesToBlueprints.label>
+  <DeliverResourcesToBlueprints.label>運送資源至預定地</DeliverResourcesToBlueprints.label>
   <!-- EN: delivering to -->
   <DeliverResourcesToBlueprints.gerund>運送資源至</DeliverResourcesToBlueprints.gerund>
   <!-- EN: deliver to -->
   <DeliverResourcesToBlueprints.verb>運送資源</DeliverResourcesToBlueprints.verb>
   
   <!-- EN: deliver resources to frames -->
-  <DeliverResourcesToFrames.label>運送資源至施工處</DeliverResourcesToFrames.label>
+  <DeliverResourcesToFrames.label>運送資源至預定地</DeliverResourcesToFrames.label>
   <!-- EN: delivering to -->
   <DeliverResourcesToFrames.gerund>運送資源至</DeliverResourcesToFrames.gerund>
   <!-- EN: deliver to -->
@@ -117,42 +131,42 @@
   <DoBillsBrew.label>釀酒</DoBillsBrew.label>
   <!-- EN: brewing at -->
   <DoBillsBrew.gerund>釀酒於</DoBillsBrew.gerund>
-  <!-- EN: brew -->
+  <!-- EN: brew at -->
   <DoBillsBrew.verb>釀酒</DoBillsBrew.verb>
   
   <!-- EN: butcher creatures -->
   <DoBillsButcherFlesh.label>屠宰生物</DoBillsButcherFlesh.label>
   <!-- EN: butchering at -->
   <DoBillsButcherFlesh.gerund>屠宰於</DoBillsButcherFlesh.gerund>
-  <!-- EN: butcher -->
+  <!-- EN: butcher at -->
   <DoBillsButcherFlesh.verb>屠宰</DoBillsButcherFlesh.verb>
   
   <!-- EN: cook meals at stove -->
   <DoBillsCook.label>在爐灶烹飪</DoBillsCook.label>
   <!-- EN: cooking at -->
   <DoBillsCook.gerund>烹飪</DoBillsCook.gerund>
-  <!-- EN: cook -->
+  <!-- EN: cook at -->
   <DoBillsCook.verb>烹飪</DoBillsCook.verb>
   
   <!-- EN: cook meals at campfire -->
   <DoBillsCookCampfire.label>在營火烹飪</DoBillsCookCampfire.label>
   <!-- EN: cooking at -->
   <DoBillsCookCampfire.gerund>烹飪於</DoBillsCookCampfire.gerund>
-  <!-- EN: cook -->
+  <!-- EN: cook at -->
   <DoBillsCookCampfire.verb>烹飪</DoBillsCookCampfire.verb>
   
   <!-- EN: do cremation bills -->
   <DoBillsCremate.label>火化</DoBillsCremate.label>
   <!-- EN: cremating at -->
   <DoBillsCremate.gerund>火化於</DoBillsCremate.gerund>
-  <!-- EN: cremate -->
+  <!-- EN: cremate at -->
   <DoBillsCremate.verb>火化</DoBillsCremate.verb>
   
   <!-- EN: fabricate things -->
   <DoBillsFabricationBench.label>製作物品</DoBillsFabricationBench.label>
   <!-- EN: fabricating things at -->
   <DoBillsFabricationBench.gerund>製作於</DoBillsFabricationBench.gerund>
-  <!-- EN: fabricate -->
+  <!-- EN: fabricate things at -->
   <DoBillsFabricationBench.verb>製作</DoBillsFabricationBench.verb>
   
   <!-- EN: do bills at campfire -->
@@ -166,21 +180,21 @@
   <DoBillsMachiningTable.label>在機械加工桌製作物品</DoBillsMachiningTable.label>
   <!-- EN: working at -->
   <DoBillsMachiningTable.gerund>製作</DoBillsMachiningTable.gerund>
-  <!-- EN: work -->
+  <!-- EN: work at -->
   <DoBillsMachiningTable.verb>製作</DoBillsMachiningTable.verb>
   
   <!-- EN: make apparel -->
   <DoBillsMakeApparel.label>製作衣物</DoBillsMakeApparel.label>
   <!-- EN: tailoring at -->
   <DoBillsMakeApparel.gerund>製作</DoBillsMakeApparel.gerund>
-  <!-- EN: tailor -->
+  <!-- EN: tailor at -->
   <DoBillsMakeApparel.verb>製作</DoBillsMakeApparel.verb>
   
   <!-- EN: make weapons -->
   <DoBillsMakeWeapons.label>製作武器</DoBillsMakeWeapons.label>
   <!-- EN: smithing at -->
   <DoBillsMakeWeapons.gerund>製作</DoBillsMakeWeapons.gerund>
-  <!-- EN: smith -->
+  <!-- EN: smith at -->
   <DoBillsMakeWeapons.verb>製作</DoBillsMakeWeapons.verb>
   
   <!-- EN: operate on animals -->
@@ -201,42 +215,42 @@
   <DoBillsProduceDrugs.label>製作藥物</DoBillsProduceDrugs.label>
   <!-- EN: producing drugs at -->
   <DoBillsProduceDrugs.gerund>製作藥物</DoBillsProduceDrugs.gerund>
-  <!-- EN: produce drugs -->
+  <!-- EN: produce drugs at -->
   <DoBillsProduceDrugs.verb>製作藥物</DoBillsProduceDrugs.verb>
   
   <!-- EN: work at refinery -->
   <DoBillsRefinery.label>操作生質煉油器</DoBillsRefinery.label>
   <!-- EN: refining chemicals at -->
   <DoBillsRefinery.gerund>提煉燃料</DoBillsRefinery.gerund>
-  <!-- EN: refine chemicals -->
+  <!-- EN: refine chemicals at -->
   <DoBillsRefinery.verb>提煉燃料</DoBillsRefinery.verb>
   
   <!-- EN: make things at art bench -->
   <DoBillsSculpt.label>在雕刻桌製作物品</DoBillsSculpt.label>
   <!-- EN: sculpting at -->
   <DoBillsSculpt.gerund>雕刻</DoBillsSculpt.gerund>
-  <!-- EN: sculpt -->
+  <!-- EN: sculpt at -->
   <DoBillsSculpt.verb>雕刻</DoBillsSculpt.verb>
   
   <!-- EN: smelt items -->
   <DoBillsSmelter.label>提煉物品</DoBillsSmelter.label>
   <!-- EN: refining at -->
   <DoBillsSmelter.gerund>提煉</DoBillsSmelter.gerund>
-  <!-- EN: refine -->
+  <!-- EN: refine at -->
   <DoBillsSmelter.verb>提煉</DoBillsSmelter.verb>
   
   <!-- EN: make stone blocks -->
   <DoBillsStonecut.label>石材加工</DoBillsStonecut.label>
   <!-- EN: cutting stone blocks at -->
   <DoBillsStonecut.gerund>石材加工</DoBillsStonecut.gerund>
-  <!-- EN: stonecut -->
+  <!-- EN: cut stone blocks at -->
   <DoBillsStonecut.verb>石材加工</DoBillsStonecut.verb>
   
   <!-- EN: make things at crafting spot -->
   <DoBillsUseCraftingSpot.label>製作手工物品</DoBillsUseCraftingSpot.label>
   <!-- EN: crafting at -->
   <DoBillsUseCraftingSpot.gerund>製作</DoBillsUseCraftingSpot.gerund>
-  <!-- EN: craft -->
+  <!-- EN: craft at -->
   <DoBillsUseCraftingSpot.verb>製作</DoBillsUseCraftingSpot.verb>
   
   <!-- EN: feed animals -->
@@ -309,6 +323,13 @@
   <!-- EN: drill -->
   <Drill.verb>深鑽</Drill.verb>
   
+  <!-- EN: eject fuel -->
+  <EjectFuel.label>退出燃料</EjectFuel.label>
+  <!-- EN: ejecting fuel from -->
+  <EjectFuel.gerund>退出燃料於</EjectFuel.gerund>
+  <!-- EN: eject fuel -->
+  <EjectFuel.verb>退出燃料</EjectFuel.verb>
+  
   <!-- EN: empty egg box -->
   <EmptyEggBox.label>清空蛋盒</EmptyEggBox.label>
   <!-- EN: emptying -->
@@ -376,7 +397,7 @@
   <GroundPenetratingScan.label>操作地質掃描器</GroundPenetratingScan.label>
   <!-- EN: scanning at -->
   <GroundPenetratingScan.gerund>操作</GroundPenetratingScan.gerund>
-  <!-- EN: scan -->
+  <!-- EN: scan at -->
   <GroundPenetratingScan.verb>操作</GroundPenetratingScan.verb>
   
   <!-- EN: harvest crops -->
@@ -392,6 +413,13 @@
   <GrowerSow.gerund>播種</GrowerSow.gerund>
   <!-- EN: sow -->
   <GrowerSow.verb>播種</GrowerSow.verb>
+  
+  <!-- EN: hack buildings -->
+  <Hack.label>破解建築</Hack.label>
+  <!-- EN: hacking -->
+  <Hack.gerund>破解</Hack.gerund>
+  <!-- EN: hack -->
+  <Hack.verb>破解</Hack.verb>
   
   <!-- EN: feed animals -->
   <HandlingFeedPatientAnimals.label>餵養動物</HandlingFeedPatientAnimals.label>
@@ -453,7 +481,7 @@
   <LongRangeScan.label>操作長程礦物掃描器</LongRangeScan.label>
   <!-- EN: scanning at -->
   <LongRangeScan.gerund>操作</LongRangeScan.gerund>
-  <!-- EN: scan -->
+  <!-- EN: scan at -->
   <LongRangeScan.verb>操作</LongRangeScan.verb>
   
   <!-- EN: milk animals -->
@@ -540,7 +568,7 @@
   <!-- EN: rope -->
   <RebalanceAnimalsInPens.verb>綁住</RebalanceAnimalsInPens.verb>
   
-  <!-- EN: refuel fuelable buildings -->
+  <!-- EN: refuel buildings -->
   <Refuel.label>補充燃料</Refuel.label>
   <!-- EN: refueling -->
   <Refuel.gerund>補充燃料於</Refuel.gerund>
@@ -600,7 +628,7 @@
   <Research.label>研究</Research.label>
   <!-- EN: researching at -->
   <Research.gerund>研究</Research.gerund>
-  <!-- EN: research -->
+  <!-- EN: research at -->
   <Research.verb>研究</Research.verb>
   
   <!-- UNUSED -->

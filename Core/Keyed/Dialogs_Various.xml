@@ -23,7 +23,7 @@
   <Disable>停用</Disable>
   <!-- EN: Modify -->
   <Modify>調整</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>無論如何都要在此設置據點?</ConfirmSettle>
   <!-- EN: add -->
   <Add>添加</Add>
@@ -80,7 +80,7 @@
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
-  <InitializingInterface>正在初始化界面</InitializingInterface>
+  <InitializingInterface>正在初始化介面</InitializingInterface>
   <!-- EN: Unloading unused assets -->
   <UnloadingUnusedAssets>正在卸載非使用中的元件</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
@@ -249,8 +249,8 @@
   <SelectedCharactersMustInclude>必須包含{SUMMARY}</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>警告：你將會降落在一個冰凍環境裡，這將會使你非常難甚至無法生存。若你沒打算面對如此嚴峻的挑戰，那就選擇一個溫暖一點的季節吧。</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>警告︰你將會在冬天著陸。這將會難以、甚至不可能生存。如果你並非打算進行極端挑戰，請選擇其他季節。</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>警告：在大地圖下遊戲性能可能會有所下降。巨大尺寸沒有經過測試，幾乎可以肯定將會無法順暢遊玩。</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -359,11 +359,11 @@
   <!-- EN: Damage to all buildings is multiplied by this value. -->
   <BuildingDamageFactorExplanation>所有對建築的傷害都會乘上這個數值。</BuildingDamageFactorExplanation>
   <!-- EN: Building damage factor (impassable) -->
-  <BuildingDamageFactorImpassable>建築傷害倍率（無法通行）</BuildingDamageFactorImpassable>
+  <BuildingDamageFactorImpassable>建築傷害倍率(無法通行)</BuildingDamageFactorImpassable>
   <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
   <BuildingDamageFactorImpassableExplanation>所有對無法通行的建築的傷害都會乘上這個數值。</BuildingDamageFactorImpassableExplanation>
   <!-- EN: Building damage factor (passable) -->
-  <BuildingDamageFactorPassable>建築傷害倍率（可通行）</BuildingDamageFactorPassable>
+  <BuildingDamageFactorPassable>建築傷害倍率(可通行)</BuildingDamageFactorPassable>
   <!-- EN: Damage to all passable buildings is multiplied by this value. -->
   <BuildingDamageFactorPassableExplanation>所有對可通行的建築的傷害都會乘上這個數值。</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
@@ -700,6 +700,8 @@
   <TradeModeTip>返回交易模式。</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name}不願意派出旅隊，因為{NEGOTIATOR_nameDef}缺少所需的{TITLE}頭銜。</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>{FACTION_name}不願意派出軌道商人，因為{NEGOTIATOR_nameDef}缺少所需的{TITLE}頭銜。</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -728,6 +730,10 @@
   <Send>確認</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>此物品分配至旅隊的數量。</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>可運輸的數量。</TransporterColonyThingCountTip> <!-- text_todo -->
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>可轉移的數量。</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>人員與動物</PawnsTab>
   <!-- EN: Items -->
@@ -948,6 +954,8 @@
   <DuplicatePolicyTip>複製選取的計畫。</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>重新命名計畫。</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>將此計畫設定為新殖民者的預設計畫。</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>你確定要刪除計畫:{0}?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1067,8 @@
   <SchematicPolicy>圖紙</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>小說</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>地圖</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>遺棄{1_labelShort}將會導致以下人員得到以下心情：</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}不在裡面，依然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>尚未裝載</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>無論如何都要發射?</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1413,6 +1425,10 @@
   <SearchTheMap>在目前地圖搜尋。</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>在目前地圖搜尋物品、建築物、人類、動物、植物等等。</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>搜尋世界</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>在世界地圖上搜尋指定特殊性、地標、任務、或據點。</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0}個搜尋結果</MapSearchResults>
   <!-- EN: 1 result found -->
@@ -1421,6 +1437,8 @@
   <Searching>搜尋中</Searching>
 
   <!-- UNUSED -->
+  <MapTemperatureDangerWarning>警告：你將會降落在一個冰凍環境裡，這將會使你非常難甚至無法生存。若你沒打算面對如此嚴峻的挑戰，那就選擇一個溫暖一點的季節吧。</MapTemperatureDangerWarning>
+  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}不在裡面，依然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
   <Outfit>裝備</Outfit>
   <SelectOutfit>選取裝備...</SelectOutfit>
   <NewOutfit>新裝備</NewOutfit>

@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: allow adult-only apparel -->
+  <AllowAdultOnlyApparel.label>允許只限成人服裝</AllowAdultOnlyApparel.label>
+  <!-- EN: Allow clothing that can only be worn by adults. -->
+  <AllowAdultOnlyApparel.description>允許只能被成人穿著的服裝。</AllowAdultOnlyApparel.description>
+  
   <!-- EN: allow biocoded apparel -->
   <AllowBiocodedApparel.label>允許生物鎖衣物</AllowBiocodedApparel.label>
   
@@ -10,68 +15,73 @@
   <!-- EN: animals -->
   <AllowBookAnimals.label>動物</AllowBookAnimals.label>
   <!-- EN: Allow books which teach animal-related skills. -->
-  <AllowBookAnimals.description>容許記載動物技能的書籍。</AllowBookAnimals.description>
+  <AllowBookAnimals.description>允許記載動物技能的書籍。</AllowBookAnimals.description>
   
   <!-- EN: artistic -->
   <AllowBookArtistic.label>藝術</AllowBookArtistic.label>
   <!-- EN: Allow books which teach art skills. -->
-  <AllowBookArtistic.description>容許記載藝術技能的書籍。</AllowBookArtistic.description>
+  <AllowBookArtistic.description>允許記載藝術技能的書籍。</AllowBookArtistic.description>
   
   <!-- EN: construction -->
   <AllowBookConstruction.label>建造</AllowBookConstruction.label>
   <!-- EN: Allow books which teach construction skills. -->
-  <AllowBookConstruction.description>容許記載建造技能的書籍。</AllowBookConstruction.description>
+  <AllowBookConstruction.description>允許記載建造技能的書籍。</AllowBookConstruction.description>
   
   <!-- EN: cooking -->
   <AllowBookCooking.label>料理</AllowBookCooking.label>
   <!-- EN: Allow books which teach cooking skills. -->
-  <AllowBookCooking.description>容許記載料理技能的書籍。</AllowBookCooking.description>
+  <AllowBookCooking.description>允許記載料理技能的書籍。</AllowBookCooking.description>
   
   <!-- EN: crafting -->
   <AllowBookCrafting.label>手工</AllowBookCrafting.label>
   <!-- EN: Allow books which teach crafting skills. -->
-  <AllowBookCrafting.description>容許記載手工技能的書籍。</AllowBookCrafting.description>
+  <AllowBookCrafting.description>允許記載手工技能的書籍。</AllowBookCrafting.description>
   
   <!-- EN: intellectual -->
   <AllowBookIntellectual.label>知識</AllowBookIntellectual.label>
   <!-- EN: Allow books which teach intellectual skills. -->
-  <AllowBookIntellectual.description>容許記載知識技能的書籍。</AllowBookIntellectual.description>
+  <AllowBookIntellectual.description>允許記載知識技能的書籍。</AllowBookIntellectual.description>
   
   <!-- EN: medical -->
   <AllowBookMedicine.label>醫療</AllowBookMedicine.label>
   <!-- EN: Allow books which teach medical skills. -->
-  <AllowBookMedicine.description>容許記載醫療技能的書籍。</AllowBookMedicine.description>
+  <AllowBookMedicine.description>允許記載醫療技能的書籍。</AllowBookMedicine.description>
   
   <!-- EN: melee -->
   <AllowBookMelee.label>格鬥</AllowBookMelee.label>
   <!-- EN: Allow books which teach melee skills. -->
-  <AllowBookMelee.description>容許記載格鬥技能的書籍。</AllowBookMelee.description>
+  <AllowBookMelee.description>允許記載格鬥技能的書籍。</AllowBookMelee.description>
   
   <!-- EN: mining -->
   <AllowBookMining.label>採礦</AllowBookMining.label>
   <!-- EN: Allow books which teach mining skills. -->
-  <AllowBookMining.description>容許記載採礦技能的書籍。</AllowBookMining.description>
+  <AllowBookMining.description>允許記載採礦技能的書籍。</AllowBookMining.description>
   
   <!-- EN: plants -->
   <AllowBookPlants.label>種植</AllowBookPlants.label>
   <!-- EN: Allow books which teach plant-related skills. -->
-  <AllowBookPlants.description>容許記載種植技能的書籍。</AllowBookPlants.description>
+  <AllowBookPlants.description>允許記載種植技能的書籍。</AllowBookPlants.description>
   
   <!-- EN: shooting -->
   <AllowBookShooting.label>射擊</AllowBookShooting.label>
   <!-- EN: Allow books which teach shooting skills. -->
-  <AllowBookShooting.description>容許記載射擊技能的書籍。</AllowBookShooting.description>
+  <AllowBookShooting.description>允許記載射擊技能的書籍。</AllowBookShooting.description>
   
   <!-- EN: social -->
   <AllowBookSocial.label>社交</AllowBookSocial.label>
   <!-- EN: Allow books which teach social skills. -->
-  <AllowBookSocial.description>容許記載社交技能的書籍。</AllowBookSocial.description>
+  <AllowBookSocial.description>允許記載社交技能的書籍。</AllowBookSocial.description>
   
   <!-- EN: allow burnable -->
   <AllowBurnableApparel.label>允許可燃物品</AllowBurnableApparel.label>
   
   <!-- EN: allow burnable -->
   <AllowBurnableWeapons.label>允許可燃物品</AllowBurnableWeapons.label>
+  
+  <!-- EN: allow child-only apparel -->
+  <AllowChildOnlyApparel.label>允許兒童服裝</AllowChildOnlyApparel.label>
+  <!-- EN: Allow clothing that can only be worn by children. -->
+  <AllowChildOnlyApparel.description>允許只能被兒童穿著的服裝。</AllowChildOnlyApparel.description>
   
   <!-- EN: allow colonist corpses -->
   <AllowCorpsesColonist.label>允許殖民者屍體</AllowCorpsesColonist.label>
@@ -106,7 +116,7 @@
   <!-- EN: normal research -->
   <AllowMainResearch.label>一般研究</AllowMainResearch.label>
   <!-- EN: Allow books which advance research of normal research projects. -->
-  <AllowMainResearch.description>容許能推進一般研究項目的書籍。</AllowMainResearch.description>
+  <AllowMainResearch.description>允許能推進一般研究項目的書籍。</AllowMainResearch.description>
   
   <!-- EN: allow males -->
   <AllowMaleGender.label>允許雄性</AllowMaleGender.label>
@@ -151,5 +161,10 @@
   
   <!-- EN: allow smeltable -->
   <AllowSmeltableApparel.label>允許可提煉的武器</AllowSmeltableApparel.label>
+  
+  <!-- EN: allow unfinished -->
+  <AllowUnfinished.label>允許半成品</AllowUnfinished.label>
+  <!-- EN: Allow unfinished items. -->
+  <AllowUnfinished.description>允許未完成物品。</AllowUnfinished.description>
   
 </LanguageData>

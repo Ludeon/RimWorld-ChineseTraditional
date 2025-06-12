@@ -41,10 +41,16 @@
   
   <!-- EN: scaria -->
   <Scaria.label>狂亂症</Scaria.label>
-  <!-- EN: A disease which causes affected creatures to enter berserk rages. A creature with scaria can be cured through a special medical operation, but it must be downed first. If not treated, scaria kills its host about five days after infection. The disease poisons the flesh and rots the skin, so creatures killed with scaria have a chance of rotting upon death so they cannot be butchered for meat or leather. -->
-  <Scaria.description>一種使患病的生物強制進入狂暴狀態的疾病。患有狂亂症的生物可以通過特殊的醫療手術治癒，但首先必須將其擊倒。如果不趕緊治療，狂亂症會在感染後約五天殺死其宿主。這種疾病使肉體中毒並腐化皮膚，因此在宿主死後有機會讓皮肉迅速腐爛，而無法屠宰肉類或皮革。</Scaria.description>
-  <!-- EN: A disease which causes affected creatures to enter berserk rages. If not treated, scaria kills its host about five days after infection. -->
-  <Scaria.descriptionShort>一種使患病的生物強制進入狂暴狀態的疾病。如果不趕緊治療，狂亂症會在感染後約五天殺死其宿主。</Scaria.descriptionShort>
+  <!-- EN: An infectious disease which can drive humans and animals into a berserk rage. Scaria can be cured through a special medical operation, but the creature must first be downed in order to make it possible to operate. The disease poisons the flesh, so creatures killed with scaria often appear rotten after death and cannot be butchered for meat or leather. After scaria rage has begun, the creature will last several days before dying from exhaustion. Scaria-infected animals can't be tamed. -->
+  <Scaria.description>一種會使患病的人類或動物強制陷入狂暴狀態的傳染病。患有狂亂症的生物可以通過特殊的手術治癒，但首先必須將其擊倒。如果不趕緊治療，狂亂症會在感染後約五天殺死其宿主。這種疾病會毒化肉體，因此很多時候在宿主死後肉體已變得腐爛，而無法屠宰肉類或皮革。一旦狂暴狀態發作，宿主將只能存活數天直至精疲力竭而死。感染狂亂症的動物無法被馴服。</Scaria.description>
+  <!-- EN: An infectious disease which can drive humans and animals into a berserk rage. Scaria-infected animals can't be tamed. -->
+  <Scaria.descriptionShort>種會使患病的人類或動物強制陷入狂暴狀態的傳染病。感染狂亂症的動物無法被馴服。</Scaria.descriptionShort>
+  <!-- EN: Scaria infected. -->
+  <Scaria.inspectString>感染狂亂症。</Scaria.inspectString>
+  <!-- EN: Scaria sores -->
+  <Scaria.renderNodeProperties.0.debugLabel>狂亂症疼痛</Scaria.renderNodeProperties.0.debugLabel>
+  <!-- EN: Scaria sores -->
+  <Scaria.renderNodeProperties.1.debugLabel>狂亂症疼痛</Scaria.renderNodeProperties.1.debugLabel>
   
   <!-- EN: sterilized -->
   <Sterilized.label>已結紮</Sterilized.label>
