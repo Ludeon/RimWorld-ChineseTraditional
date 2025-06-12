@@ -7,9 +7,9 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to perform a low-power test of one of [asker_possessive] ship's area-attack weapons. If [asker_pronoun] does, [gameConditionDescriptionFuture].\n\nSince you are a local landholder under imperial law, [asker_nameDef] needs your honorable permission to proceed.</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->軌道飛船上的智能AI想要進行一些行星實驗。但是，如果他進行實驗，[gameConditionDescriptionFuture]。\n\n她擔心會受到來自倫理審查委員會的麻煩，並正在取得你的同意。</li>
-    <li>questDescription(asker_factionLeader==True)->復仇智能AI正在威脅[asker_faction_name]的[asker_faction_pawnsPlural]。 [asker_faction_leaderTitle][asker_nameFull]希望你向AI發送訊息接受它們的復仇。 \n\n如果接受，AI會將它的憤怒轉向於你。[gameConditionDescriptionFuture]。</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]想要實行[asker_possessive]船艦的區域攻擊武器的低功率測試。 如果[asker_pronoun]這樣做，則[gameConditionDescriptionFuture]。 \n\n由於根據帝國法律，你是當地土地所有者，因此[asker_nameDef]需要獲得你的光榮許可才能繼續進行。</li>
+    <li>questDescription(askerIsNull==true)->軌道飛船上的智能 AI 想要進行一些行星實驗。但是，如果他進行實驗，[gameConditionDescriptionFuture]。\n\n她擔心會受到來自倫理審查委員會的麻煩，並正在取得你的同意。</li>
+    <li>questDescription(asker_factionLeader==True)->復仇智能 AI 正在威脅[asker_faction_name]的[asker_faction_pawnsPlural]。 [asker_faction_leaderTitle][asker_nameFull]希望你向 AI 發送訊息接受它們的復仇。 \n\n如果接受， AI 會將它的憤怒轉向於你。[gameConditionDescriptionFuture]。</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->來自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]想要實行[asker_possessive]艦船的區域攻擊武器的低功率測試。 如果[asker_pronoun]這樣做，則[gameConditionDescriptionFuture]。 \n\n由於根據帝國法律，你是當地土地所有者，因此[asker_nameDef]需要獲得你的光榮許可才能繼續進行。</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [gameCondition_label]</li>

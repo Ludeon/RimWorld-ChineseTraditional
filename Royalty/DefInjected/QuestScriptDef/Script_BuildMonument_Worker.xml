@@ -4,7 +4,7 @@
   <!-- EN: Monument completed -->
   <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>紀念碑完成</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
   <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration], otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill). -->
-  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>你已經完成紀念碑的建造。\n\n你必須保證它至少在[keepMonumentTicks_duration]之內不被摧毀，否則會激怒[asker_factionName]（[goodwillChangeIfMonumentDestroyed]友好度）。</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>你已經完成紀念碑的建造。\n\n你必須保證它至少在[keepMonumentTicks_duration]之內不被摧毀，否則會激怒[asker_factionName]([goodwillChangeIfMonumentDestroyed]友好度)。</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
   <!-- EN: Monument destroyed -->
   <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>紀念碑摧毀</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
@@ -34,7 +34,7 @@
   
   <!-- UNUSED -->
   <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>紀念碑完成</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>你已經完成紀念碑的建造。\n\n你必須至少在[keepMonumentTicks_duration]天之內不摧毀它，否則會激怒[asker_factionName]（[goodwillChangeIfMonMonmentDestroyed]友好度）。</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>你已經完成紀念碑的建造。\n\n你必須至少在[keepMonumentTicks_duration]天之內不摧毀它，否則會激怒[asker_factionName]([goodwillChangeIfMonMonmentDestroyed]友好度)。</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
   <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>紀念碑摧毀</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
   <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>得罪了[asker_nameDef]，你在完成後不久便摧毀紀念碑。\n\n你與[asker_faction_name]的關係下降了[goodwillChangeIfMonumentDestroyed]。</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
   <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>請勿摧毀紀念碑{0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>

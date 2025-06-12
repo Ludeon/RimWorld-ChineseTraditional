@@ -7,6 +7,8 @@
   <OnlyMembersCanBuild>只有{0}位能建造</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0}已在進行中</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>TODO</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>一名或以上的參加者由於極端氣溫無法參加。</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
@@ -36,8 +38,6 @@
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>派系不容許</NotAllowedForFaction>
 
-  <!-- EN: Remove -->
-  <Remove>移除</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>移除戒律</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -101,17 +101,6 @@
   <IdeoAlreadyHasAltar>只能擁有一個祭壇/符號</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>服裝重新染色</RecolorApparel>
-
-  <!-- EN: Hack {0} -->
-  <Hack>破解{0}</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>無法破解{0}</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>已經破解</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>無法進行破解</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>召喚空投補給</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>安置{0}</InstallRelic>

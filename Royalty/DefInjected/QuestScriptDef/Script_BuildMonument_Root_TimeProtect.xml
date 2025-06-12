@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN:
-    <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task.\n\nAfter completion, you'll have to protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription]\n\nYou'll receive the rewards when you finish construction.</li>
+    <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task.\n\nAfter completion, you'll have to protect the monument for [haveToProtectForTicks_duration]. [asker2] will be upset if you abandon it during this time. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription]\n\nYou'll receive the rewards when you finish construction.</li>
   -->
   <BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
-    <li>commonEnding->這會需要佔地[monumentSize]和以下資源 (總價值[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n一旦開始這項工程，建設必須在[constructionTimeoutTicks_duration]內完成。\n\n建造完成後，你需要在[haveToProtectForTicks_duration]內保護好紀念碑。如果任何一部分被破壞，[asker2]的執法系統將會啟動，[threatDescription]\n\n當你完成所有工作後，你將獲得獎勵。</li>
+    <li>commonEnding->這會需要佔地[monumentSize]和以下資源 (總價值[monumentRequiredResourcesMarketValue_money])：\n\n[monumentRequiredResources]\n\n一旦開始這項工程，建設必須在[constructionTimeoutTicks_duration]內完成。\n\n建造完成後，你需要在[haveToProtectForTicks_duration]內保護好紀念碑。如果你在此期間拋棄它，[asker2]會感到不滿。如果任何一部分被破壞，[asker2]的執法系統將會啟動，[threatDescription]\n\n當你完成所有工作後，你將獲得獎勵。</li>
   </BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
   <!-- EN: Monument completed -->
   <BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>紀念碑已完成</BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>
