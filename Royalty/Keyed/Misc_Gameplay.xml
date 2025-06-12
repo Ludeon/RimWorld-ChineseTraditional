@@ -60,25 +60,25 @@
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>聚焦效果受影響於</MeditationFocusImpacted>
   <!-- EN: {1} per nearby animus stone (max {0}) -->
-  <MeditationFocusPerAnimusStoneAbstract>{1}附近每有一塊法石（最高{0}）</MeditationFocusPerAnimusStoneAbstract>
+  <MeditationFocusPerAnimusStoneAbstract>{1}附近每有一塊法石(最高{0})</MeditationFocusPerAnimusStoneAbstract>
   <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
-  <MeditationFocusPerAnimusStone>{2}附近每有一塊法石（{0}/{1}）</MeditationFocusPerAnimusStone>
+  <MeditationFocusPerAnimusStone>{2}附近每有一塊法石({0}/{1})</MeditationFocusPerAnimusStone>
   <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
-  <MeditationFocusPerAnimusStoneAndShrineAbstract>附近每有一塊法石{2}，自然聖地{1}（最高{0}）</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>附近每有一塊法石{2}，自然聖地{1}(最高{0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
   <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
-  <MeditationFocusPerAnimusStoneAndShrine>附近每有一塊法石{3}，自然聖地{2}（{0}/{1}）</MeditationFocusPerAnimusStoneAndShrine>
+  <MeditationFocusPerAnimusStoneAndShrine>附近每有一塊法石{3}，自然聖地{2}({0}/{1})</MeditationFocusPerAnimusStoneAndShrine>
   <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
-  <MeditationFocusPerSculptureAbstract>最多{1}附近每有一個雕塑，包含品質因素（最高{0}）</MeditationFocusPerSculptureAbstract>
+  <MeditationFocusPerSculptureAbstract>最多{1}附近每有一個雕塑，包含品質因素(最高{0})</MeditationFocusPerSculptureAbstract>
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
-  <MeditationFocusPerSculpture>最多{2}附近每有一個雕塑，包含品質因素（{0}/{1}）</MeditationFocusPerSculpture>
+  <MeditationFocusPerSculpture>最多{2}附近每有一個雕塑，包含品質因素({0}/{1})</MeditationFocusPerSculpture>
   <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
-  <MeditationFocusPerGraveAbstract>附近每有一個墳墓，{1}空的，{2}包含人類屍體（最高{0}）</MeditationFocusPerGraveAbstract>
+  <MeditationFocusPerGraveAbstract>附近每有一個墳墓，{1}空的，{2}包含人類屍體(最高{0})</MeditationFocusPerGraveAbstract>
   <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
-  <MeditationFocusPerGrave>附近每有一個墳墓，{2}空的，{3}包含人類屍體（{0}/{1}）</MeditationFocusPerGrave>
+  <MeditationFocusPerGrave>附近每有一個墳墓，{2}空的，{3}包含人類屍體({0}/{1})</MeditationFocusPerGrave>
   <!-- EN: {1} per nearby lit flame source (up to {0}) -->
-  <MeditationFocusPerFlameAbstract>{1}附近每個點燃的火源（最高{0}）</MeditationFocusPerFlameAbstract>
+  <MeditationFocusPerFlameAbstract>{1}附近每個點燃的火源(最高{0})</MeditationFocusPerFlameAbstract>
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
-  <MeditationFocusPerFlame>{2}附近每個點燃的火源（{0}/{1}）</MeditationFocusPerFlame>
+  <MeditationFocusPerFlame>{2}附近每個點燃的火源({0}/{1})</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
   <PsyfocusPerDayOfMeditation>精神力效率：{0}/天</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
@@ -105,15 +105,17 @@
   <RitualDisabledNoAltar>沒有可進入的祭壇。</RitualDisabledNoAltar>
   <!-- EN: Bestowing Ceremony -->
   <RitualBestowingCeremony>授勛儀式</RitualBestowingCeremony>
+  <!-- EN: No suitable location near bestower -->
+  <BestowingSpotUnavailable>賜予者附近沒有合適的地點</BestowingSpotUnavailable>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
-  <TotalMeditationToday>今日冥想：{0}（進度倍率{1}）</TotalMeditationToday>
+  <TotalMeditationToday>今日冥想：{0}(進度倍率{1})</TotalMeditationToday>
   <!-- EN: progress {0} -->
   <ProgressToNextSubplant>進度{0}</ProgressToNextSubplant>
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>開始連結儀式</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>這裡需要{0}{1}（擁有{2}）</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>這裡需要{0}{1}(擁有{2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>需要{0}心靈連結焦點類型</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->

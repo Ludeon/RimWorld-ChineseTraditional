@@ -35,6 +35,11 @@
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Quest failed</li>
     <li>lodgersAllArrestedLetterText->You arrested {SUBJECT_definite}, the [lastOrNot] desperate [faction_pawnSingular] [whoAskedToStay].\n\n[questOver]</li>
+    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], was left behind.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel->[lodgersLabel] left behind: Anger</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel->[lodgersLabel] left behind: Departure</li>
+    <li>lodgerLeftBehindLeaveMapLetterText->[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
     <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], was violated by surgery.</li>
     <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violated: Anger</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
@@ -89,6 +94,11 @@
     <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel]逮捕：離開</li>
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->任務失敗</li>
+    <li>letterIntroLeftBehind->{SUBJECT_definite}，[oneOfThe]被落下了</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel->[lodgersLabel]被落下了：憤怒</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel->[lodgersLabel]被落下了：離開</li>
+    <li>lodgerLeftBehindLeaveMapLetterText->[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterText->你逮捕了{SUBJECT_definite},[lastOrNot]無路可走而[whoAskedToStay][faction_pawnSingular].\n\n[questOver]</li>
     <li>letterIntroViolated->{SUBJECT_definite}，[oneOfThe]，被強行執行了手術。</li>
     <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel]被侵犯：憤怒</li>
@@ -278,7 +288,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->背叛獎勵︰[factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef]承諾了若你殺死[asker_nameDef][otherMembers]就會送給你獎勵。[factionOpponent_pronoun]得悉這件事已被完成，因此正向你空降以下獎勵︰(總價值[betrayalRewardMarketValue_money]):\n\n[betrayalRewards]。\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef]承諾了若你殺死[asker_nameDef][otherMembers]就會送給你獎勵。[factionOpponent_pronoun]得悉這件事已被完成，因此正向你空投以下獎勵︰(總價值[betrayalRewardMarketValue_money]):\n\n[betrayalRewards]。\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->背叛獎勵已被撤回</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef]得悉[faction_name]的所有成員已加入你的派系![factionOpponent_nameDef]想要所有[faction_name]的成員去死，因此已撤回[factionOpponent_possessive]提議。</li>
     <li>betrayalOfferFailedLetterLabel->背叛獎勵已被撤回</li>
@@ -335,7 +345,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->訪客報酬</li>
-    <li>rewardLetterText->[rewardGiver_nameDef]向你發了訊息。在[rewardDelayTicks_duration]之前，你在[rewardGiver_objective]十分絕望的時候伸出援手。\n\n日子過去，[rewardGiver_pronoun]終於靠著[rewardGiver_possessive]雙腿重新站了起來，現在[rewardGiver_pronoun]想要對你的幫助給予得體的報酬。[rewardGiver_pronoun]通過空投艙向你發送了以下物資：\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef]向你發了訊息。在[rewardDelayTicks_duration]之前，你在[rewardGiver_objective]十分絕望的時候伸出援手。\n\n日子過去，[rewardGiver_pronoun]終於靠著[rewardGiver_possessive]雙腿重新站了起來，現在[rewardGiver_pronoun]想要對你的幫助給予得體的報酬。[rewardGiver_pronoun]通過運輸艙向你發送了以下物資：\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>

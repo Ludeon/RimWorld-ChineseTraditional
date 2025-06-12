@@ -4,17 +4,15 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>太空梭無法降落在著陸區：{0}</ShuttleBlocked>
-  <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>太空梭已抵達</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
   <MessageShuttleArrivedContentsLost>太空梭已抵達，但由於裡面沒有殖民者，包含的所有貨物已丟失。</MessageShuttleArrivedContentsLost>
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>無法呼叫太空梭</CannotCallShuttle>
 
   <!-- EN: Cannot land in undiscovered area. -->
   <ShuttleCannotLand_Fogged>無法降落在未發現的區域。</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
   <ShuttleCannotLand_Unwalkable>區域必須可以行走。</ShuttleCannotLand_Unwalkable>
+  <!-- EN: Terrain does not support {0}. -->
+  <ShuttleCannotLand_Unaffordable>地形無法支撐{0}。</ShuttleCannotLand_Unaffordable> <!-- text_todo -->
 
   <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
   <MessageBestowerWaiting>選擇{BESTOWER_definite}並用滑鼠點擊"開始授勛儀式"來開始儀式。</MessageBestowerWaiting>

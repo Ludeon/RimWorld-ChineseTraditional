@@ -29,7 +29,7 @@
     <li>hidingFrom(gameCondition==VolcanicWinter)->一群食人族</li>
     <li>condDesc(gameCondition==VolcanicWinter)->然而，[joiner_nameDef]只能透過放火引燃附近的一個大型垃圾堆來殺死這幫傢伙。如果[joiner_pronoun]加入你，放火導致的煙霧會在[gameConditionDuration_duration]內持續遮擋陽光。</li>
     <li>hidingFrom(gameCondition==EMIField)->一群機械軍團</li>
-    <li>condDesc(gameCondition==EMIField)->然而，[joiner_nameDef]只能透過啟動一台古老的電磁脈衝裝置來消滅這些機械軍團。如果[joiner_pronoun]加入你，持續[gameConditionDuration_duration]的強電磁脈衝將會關閉所有的電子設備。</li>
+    <li>condDesc(gameCondition==EMIField)->然而，[joiner_nameDef]只能透過啟動一台古老的 EMP 裝置來消滅這些機械軍團。如果[joiner_pronoun]加入你，持續[gameConditionDuration_duration]的強電磁脈衝將會關閉所有的電子設備。</li>
     <li>hidingFrom(gameCondition==HeatWave)->一顆故障的氣候控制衛星</li>
     <li>condDesc(gameCondition==HeatWave)->如果[joiner_pronoun]加入你，將會襲來一場持續[gameConditionDuration_duration]的非正常熱浪，衛星系統自動重置後將會恢複正常。</li>
     <li>hidingFrom(gameCondition==ColdSnap)->一顆故障的氣候控制衛星</li>
@@ -151,7 +151,7 @@
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}：追逐[joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef]已經向我們承認[joiner_pronoun]是逃出來的。\n    \n[joiner_nameDef]因為貪圖蟲族果凍的價值，打算用毒藥摧毀蟲巢。不過[joiner_pronoun]的計劃不但失敗了，還沾了一身的費洛蒙。之後，蟲族們一直在獵殺[joiner_objective]。現在面對蟲族的最後一擊吧。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef]已經向我們承認[joiner_pronoun]是逃出來的。\n    \n[joiner_nameDef]因為貪圖蟲族果凍的價值，打算用毒藥摧毀蟲巢。不過[joiner_pronoun]的計畫不但失敗了，還沾了一身的費洛蒙。之後，蟲族們一直在獵殺[joiner_objective]。現在面對蟲族的最後一擊吧。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>侵擾[joiner_nameDef]的據點出現：[site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
