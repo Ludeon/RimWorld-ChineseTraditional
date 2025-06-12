@@ -51,13 +51,6 @@
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
   <FilthRate.description>這種生物會產生多少排泄物。\n\n為了避免牠們的排泄物造成問題，最好將產生排泄物的動物置於戶外或草蓆上。</FilthRate.description>
   
-  <!-- EN: flight cooldown -->
-  <FlightCooldown.label>TODO</FlightCooldown.label>
-  <!-- EN: The rest time needed before this creature can fly again. -->
-  <FlightCooldown.description>TODO</FlightCooldown.description>
-  <!-- EN: {0}s -->
-  <FlightCooldown.formatString>TODO</FlightCooldown.formatString>
-  
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>覓食量</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
@@ -96,13 +89,6 @@
   <LifespanFactor.label>壽命倍率</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
   <LifespanFactor.description>壽命倍率通過減短或加長年齡相關的疾病來影響生物的有效壽命。高於100%的壽命倍率會延遲疾病的開始，和延長整體壽命，當壽命倍率少於100%，則會加速疾病到來並減短壽命。</LifespanFactor.description>
-  
-  <!-- EN: max flight time -->
-  <MaxFlightTime.label>TODO</MaxFlightTime.label>
-  <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
-  <MaxFlightTime.description>TODO</MaxFlightTime.description>
-  <!-- EN: {0}s -->
-  <MaxFlightTime.formatString>TODO</MaxFlightTime.formatString>
   
   <!-- EN: max nutrition -->
   <MaxNutrition.label>最大營養值</MaxNutrition.label>
@@ -185,10 +171,5 @@
   <!-- UNUSED -->
   <ToxicSensitivity.label>毒素敏感度</ToxicSensitivity.label>
   <ToxicSensitivity.description>此生物遭受毒素影響的速度。</ToxicSensitivity.description>
-  
-  <!-- EN: wildness -->
-  <Wildness.label>TODO</Wildness.label>
-  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
-  <Wildness.description>TODO</Wildness.description>
   
 </LanguageData>

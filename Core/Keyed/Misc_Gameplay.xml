@@ -128,8 +128,6 @@
   <On>開啟</On>
   <!-- EN: Off -->
   <Off>關閉</Off>
-  <!-- EN: {0} {1} -->
-  <SourceToolLabel>TODO</SourceToolLabel>
   <!-- EN: Power -->
   <PowerSwitch_Power>電力</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
@@ -276,7 +274,7 @@
   <Map>地圖</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>敵軍在{0}後抵達</CaravanDetectedRaidCountdown>
-  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
   <CaravanDetectedRaidCountdownTip>敵人援軍將在{0}後抵達此區域</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>房間</Room>
@@ -284,14 +282,10 @@
   <BeautyHere>美觀度</BeautyHere>
   <!-- EN: no power -->
   <NoPower>無電力</NoPower>
-  <!-- EN: not in {0} -->
-  <NotInRoomRole>TODO</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>工作速度</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>禁用</DisabledCommand>
-  <!-- EN: Deactivated -->
-  <Deactivated>已停用。</Deactivated>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>準備發射</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -299,13 +293,11 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>無燃料槽</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllLaunchablesInGroupHaveAnyFuel>TODO</NotAllLaunchablesInGroupHaveAnyFuel>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>無燃料</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <LaunchableInGroupHasSomethingLeftToLoad>TODO</LaunchableInGroupHasSomethingLeftToLoad>
+  <TransportPodInGroupHasSomethingLeftToLoad>正在裝載</TransportPodInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>超出最大範圍</TransportPodDestinationBeyondMaximumRange>
-  <!-- EN: No path to {LAYER_label} -->
-  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>燃料不足</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -350,8 +342,6 @@
   <Products>產物</Products>
   <!-- EN: Requires -->
   <Requires>需要</Requires>
-  <!-- EN: Replaces -->
-  <Replaces>TODO</Replaces>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x任何東西</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -374,14 +364,10 @@
   <RideableAnimalsPerPeople>人均可騎乘動物</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>騎乘動物倍率</MultiplierFromRiddenAnimals>
-  <!-- EN: Multiplier from bonuses -->
-  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>負重影響倍率：{0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>此動物可以騎乘。旅隊的人們會騎乘速度較快的動物，提昇旅隊整體的移動速度。</RideableAnimalTip>
-  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>TODO</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>此旅隊因為超出負荷而無法移動。</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -394,8 +380,6 @@
   <MovementDifficultyOffsetInWinter>冬天{0}</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
   <RangeTo>至</RangeTo>
-  <!-- EN: Caused by -->
-  <CausedBy>由於</CausedBy>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>無類型</NoDietCategoryLetter>
   <!-- EN: expires in -->
@@ -482,7 +466,7 @@
   <ViewHyperlink>超連結：{0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>在{0}天內觸發</DetonationCountdown>
-  <!-- EN: Large explosion if damaged. -->
+  <!-- EN: Large fire explosion if damaged. -->
   <ExplosionOnDamageWarning>若損壞會發生大爆炸。</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>機械要塞</MechCluster>
@@ -578,8 +562,6 @@
   <RequiredTechprintTip>需要</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>尺寸</Size>
-  <!-- EN: Total planning area -->
-  <TotalPlanningArea>TODO</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>消費</Cost>
   <!-- EN: Stunned by EMP -->
@@ -598,10 +580,8 @@
   <Investigate>調查</Investigate> 
   <!-- EN: Activate -->
   <Activate>啟動</Activate> 
-  <!-- EN: Deactivate -->
-  <Deactivate>TODO</Deactivate> <!-- text_todo -->
   <!-- EN: Activation -->
-  <Activation>啟動</Activation>
+  <Activation>啟動</Activation> 
   <!-- EN: complete -->
   <Complete>完成</Complete>
   <!-- EN: Must be imprisoned. -->
@@ -626,25 +606,6 @@
   <ReportStringCrawlingToSafety>爬行至安全地點</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>爬行至床上</ReportStringCrawlingToBed>
-  <!-- EN: flying -->
-  <Flying>TODO</Flying>
-  <!-- EN: Prevent cutting -->
-  <PreventCutting>TODO</PreventCutting>
-  <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>TODO</PreventCuttingDesc>
-
-  <!-- EN: Resulting from trait -->
-  <ComesFromTrait>TODO</ComesFromTrait>
-  <!-- EN: Resulting from condition -->
-  <ComesFromHediff>TODO</ComesFromHediff>
-  <!-- EN: Adds need -->
-  <AddsNeed>TODO</AddsNeed>
-  <!-- EN: Adds needs -->
-  <AddsNeeds>TODO</AddsNeeds>
-  <!-- EN: Disables need -->
-  <DisablesNeed>禁用需求</DisablesNeed>
-  <!-- EN: Disables needs -->
-  <DisablesNeeds>禁用需求</DisablesNeeds>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -813,8 +774,6 @@
   <!-- EN: Filth -->
   <Filth_Label>髒污</Filth_Label>
   
-  <!-- EN: Features -->
-  <Features_Label>TODO</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>派系</Faction_Label>
   <!-- EN: Relationship -->
@@ -840,8 +799,6 @@
   <ApparelPreventsShooting>{PAWN_nameDef}因為{PAWN_possessive}{APPAREL_label}無法使用遠程武器。</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>無法在{0}使用</CannotUseReason_PocketMap>
-  <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -1104,8 +1061,6 @@
   <PowerConsumptionHigh>高</PowerConsumptionHigh>
   <!-- EN: low -->
   <PowerConsumptionLow>低</PowerConsumptionLow>
-  <!-- EN: off -->
-  <PowerConsumptionOff>TODO</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1160,13 +1115,13 @@
   <GrowthRate>生長速率</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>{0}後長成</FullyGrownIn>
-  <!-- EN: needs light level -->
+  <!-- EN: Needs light level -->
   <PlantNeedsLightLevel>需要光線等級</PlantNeedsLightLevel>
-  <!-- EN: resting -->
+  <!-- EN: Resting -->
   <PlantResting>休眠中</PlantResting>
-  <!-- EN: temperature growth multiplier {0}% -->
+  <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
   <OutOfIdealTemperatureRange>不理想的溫度。此溫度的生長速率：{0}%</OutOfIdealTemperatureRange>
-  <!-- EN: out of temperature growth range -->
+  <!-- EN: Non-ideal temperature. Not growing. -->
   <OutOfIdealTemperatureRangeNotGrowing>不理想的溫度。不會生長</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>待收穫</ReadyToHarvest>
@@ -1190,8 +1145,6 @@
   <Blighted>枯萎病</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>因曝光而凋零中</DyingBecauseExposedToLight>
-  <!-- EN: Dying from non-ideal terrain -->
-  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>立即裁剪</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1208,12 +1161,8 @@
   <Zone>區域</Zone>
   <!-- EN: Growing zone -->
   <GrowingZone>種植區</GrowingZone>
-  <!-- EN: growing -->
-  <GrowingGroup>TODO</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>儲存區</Stockpile>
-  <!-- EN: stockpile -->
-  <StockpileGroup>TODO</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>垃圾儲存區</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1284,10 +1233,8 @@
   <LockNorthUpToggleButton>鎖定攝影機使北方永遠朝上。</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>日夜光照系統</UsePlanetDayNightSystemToggleButton>
-  <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
-  <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
+  <ShowExpandingIconsToggleButton>擴大顯示圖標，而非一般的顯示距離。</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>顯示地名。</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1480,16 +1427,14 @@
   <GameOverKeepWatchingForNow>繼續觀察</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>創作新的流浪者</GameOverCreateNewWanderers>
+  <!-- EN: Create new wanderers (must wait {0}h) -->
+  <GameOverCreateNewWanderersWait>創作新的流浪者(必須等待{0}小時)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
   <GameOverCreateNewWanderersText>所有人不是死了就是離開了。也許有一天會有人替這個遺跡找到新的用處。\n\n選擇新的流浪者到你的殖民地，繼續編寫故事。</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>主畫面</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>無殖民地</NoColony>
-  <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>TODO</NoWandererDestination>
-  <!-- EN: must wait {0}h -->
-  <GameOverCreateNewWanderersWait>創作新的流浪者(必須等待{0}小時)</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1634,8 +1579,6 @@
   <OutfitSoldier>戰士</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>裸體主義</OutfitNudist>
-  <!-- EN: Spacefarer -->
-  <OutfitSpacefarer>TODO</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1680,9 +1623,11 @@
   <Reward_Pawn_WalkIn>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將抵達並加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):
+\n{0} -->
   <Reward_Items>運輸艙會把以下資源送達(總價值{1})：\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n{0} -->
+  <!-- EN: you will receive (total value {1}):
+\n{0} -->
   <Reward_Items_Caravan>你會收到(總價值{1})：\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>你與{0_name}的派系友好度會提昇{1}</Reward_Goodwill>
@@ -1695,9 +1640,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>營地戰利品</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>沒人知道接下此任務後會發生什麼事</Reward_Unknown>
+  <Reward_Unknown>沒人知道接下此任務後會發生什麼事</Reward_Unknown> 
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>未知</Reward_Unknown_Label>
+  <Reward_Unknown_Label>未知</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>訪客們將為你而戰</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1744,12 +1689,10 @@
   <BiocodedCodedForSomeoneElse>生物鎖</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
-  <!-- EN: Intercepts {0} every {1}. -->
+  <!-- EN: Intercepts {0} every {1} -->
   <InterceptsProjectilesEvery>攔截{0}/{1}</InterceptsProjectilesEvery>
-  <!-- EN: Intercepts {0}. -->
+  <!-- EN: Intercepts {0} -->
   <InterceptsProjectiles>攔截{0}</InterceptsProjectiles>
-  <!-- EN: ground and aerial projectiles -->
-  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>近地發射物</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -1886,6 +1829,8 @@
   <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}的{1}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>房間美觀</RitualPredictedOutcomeDescRoomBeauty>
+  <!-- EN: Participants -->
+  <RitualPredictedOutcomeDescParticipantCount>參與人數</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}的期望</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
@@ -2054,8 +1999,7 @@
   <CommandPushTo>推至...</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>需要{0}</RequiredCapacity>
-
-  <!-- Pocket Maps -->
+  
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>無法進入{0}，目的地受阻擋</UnableToEnterPortal>
 
@@ -2075,8 +2019,6 @@
   
   <!-- EN: About to explode -->
   <AboutToExplode>即將爆炸</AboutToExplode>
-  <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject> <!-- text_todo -->
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>全新的異邪擴充包上架了！</MainScreen_AnomalyAvailableNow>
@@ -2086,106 +2028,8 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>受到屋頂阻擋</BlockedByRoof>
-
-  <!-- Craters -->
-  <!-- EN: Fill in -->
-  <DesignatorFillIn>填平</DesignatorFillIn>
-  <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
-  <DesignatorFillInDesc>填平這個小坑洞。</DesignatorFillInDesc>
-
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>破解</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>破解速度</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>{0}的</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>已經破解</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>已被破解的終端機</TerminalsHacked>
-  <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
-  <!-- EN: Auto hack -->
-  <AutoHack>TODO</AutoHack>
-  <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>TODO</AutoHackDesc>
-
-  <!-- World -->
-  <!-- EN: View {LAYER_label} -->
-  <WorldSelectLayer>TODO</WorldSelectLayer>
-  <!-- EN: Jump to location -->
-  <WorldJumpTo>TODO</WorldJumpTo>
-  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>TODO</WorldJumpToDesc>
-  <!-- EN: Nothing to jump to. -->
-  <NothingToJumpTo>TODO</NothingToJumpTo>
-  <!-- EN: cannot function in {0} -->
-  <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
-  <!-- EN: New settlement -->
-  <NewSettlement>TODO</NewSettlement>
-  <!-- EN: Settled -->
-  <Settled>TODO</Settled>
-  <!-- EN: Abandoned -->
-  <Abandoned>TODO</Abandoned>
-  <!-- EN: Cannot perform in {0} -->
-  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
-  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
-  <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
-
-  <!-- Pocket maps -->
-  <!-- EN: Enter {0} -->
-  <EnterPortal>進入{0}</EnterPortal>
-  <!-- EN: Entering {0} -->
-  <EnteringPortal>進入{0}</EnteringPortal>
-  <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>選取要進入{0}的人員和物資。</CommandEnterPortalDesc>
-  <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>取消進入</CommandCancelEnterPortal>
-  <!-- EN: Cancel exiting -->
-  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
-  <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>取消裝載人員和物資。</CommandCancelEnterPortalDesc>
-  <!-- EN: Exit {0} -->
-  <ExitPortal>TODO</ExitPortal>
-
-  <!-- CompProjectileInterceptor -->
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>護盾能量</ShieldEnergy>
-  <!-- EN: Shield cooldown -->
-  <ShieldTimeToRecovery>回復時間</ShieldTimeToRecovery>
-  <!-- EN: Shield duration -->
-  <ShieldDuration>TODO</ShieldDuration>
-  <!-- EN: On cooldown -->
-  <ShieldOnCooldown>TODO</ShieldOnCooldown>
-  <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>阻截射來的槍彈與榴彈的低角護盾。若受 EMP 攻擊會即時失效。</ProjectileInterceptorTip>
-
-  <!-- EN: max {0} -->
-  <MaxOf>TODO</MaxOf>
-
-  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
-  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
-
-  <!-- Scanner -->
-  <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed> <!-- text_todo -->
-  <!-- EN: Does not function in this biome -->
-  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock> <!-- text_todo -->
-  
-  <!-- Quests -->
-  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
-  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
-  <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
   
   <!-- UNUSED -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>無燃料</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
-  <TransportPodInGroupHasSomethingLeftToLoad>正在裝載</TransportPodInGroupHasSomethingLeftToLoad>
-  <ShowExpandingIconsToggleButton>擴大顯示圖標，而非一般的顯示距離。</ShowExpandingIconsToggleButton>
-  <RitualPredictedOutcomeDescParticipantCount>參與人數</RitualPredictedOutcomeDescParticipantCount>
   <RadiusExpandRate>半徑擴展率</RadiusExpandRate>
   <GameOverKeepPlaying>繼續遊戲</GameOverKeepPlaying>
   <HealingCureHediff>{0_nameDef}的{1}已經治癒。</HealingCureHediff>

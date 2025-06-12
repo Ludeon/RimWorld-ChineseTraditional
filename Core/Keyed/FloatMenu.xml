@@ -22,12 +22,8 @@
   <!-- EN: Not allowed -->
   <NotAllowed>不允許</NotAllowed>
   
-  <!-- EN: Attack {1_labelShort} -->
-  <Attack>TODO</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>對{1_labelShort}開火</FireAt>
-  <!-- EN: Remove -->
-  <Remove>移除</Remove>
 
   <!-- EN: out of range -->
   <OutOfRange>超出射程</OutOfRange>
@@ -45,8 +41,6 @@
   <IsNotDraftedLower>{1_labelShort}未受徵召</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>無法命令失控的角色</CannotOrderNonControlledLower>
-  <!-- EN: cannot attack -->
-  <CannotAttack>TODO</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>無法攻擊自己</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -94,8 +88,6 @@
   <AboveAllowedSkill>技能等級高於最低需求{0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>沒有可到達的區域</NoReachableOutsideCell>
-  <!-- EN: cannot exit map -->
-  <CannotExitMap>TODO</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>缺乏所需技能等級</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -226,7 +218,7 @@
   <!-- EN: not recruitable -->
   <UnrecruitableNoFaction>無法招募</UnrecruitableNoFaction> 
   <!-- EN: Transfer {0_label} -->
-  <TransferEntity>轉移{0_definite}</TransferEntity> 
+  <TransferEntity>轉移{0_label}</TransferEntity> 
 
   <!-- EN: Rescue {1_labelShort} -->
   <Rescue>救援{1_labelShort}</Rescue>
@@ -236,8 +228,6 @@
   <TakingToBed>帶{0_labelShort}到床上</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>無法救援</CannotRescue>
-  <!-- EN: Cannot rescue {PAWN_labelShort} -->
-  <CannotRescuePawn>TODO</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>帶{1_labelShort}至休眠艙</CarryToCryptosleepCasket>
@@ -299,20 +289,12 @@
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>穿上{1_labelShort}</ForceWear>
-  <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>TODO</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>無法穿上{1_label}</CannotWear>
-  <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>強制裝備{1_labelShort}</ForceEquipApparel>
-  <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>無法裝備{1_label}</CannotEquipApparel>
-  <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>缺少身體部位</CannotWearBecauseOfMissingBodyParts>
   
@@ -415,8 +397,6 @@
   <NoDoctor>沒有醫生</NoDoctor>
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>醫療床非奴隸可用</NotForSlaves>
-  <!-- EN: Medical care disabled -->
-  <MedicalCareDisabled>TODO</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>已被{0}佔用</SomeoneElseSleeping>
   
@@ -452,6 +432,19 @@
   <OfferGifts>發送禮物</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>和{0}交易</TradeWithSettlement>
+  
+  <!-- EN: Enter {0} -->
+  <EnterPortal>進入{0}</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>進入{0}</EnteringPortal>
+  <!-- EN: Enter {0} -->
+  <CommandEnterPortal>進入{0}</CommandEnterPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>選取要進入{0}的人員和物資。</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>取消進入</CommandCancelEnterPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>取消裝載人員和物資。</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -467,7 +460,7 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>無法{0}</CannotGenericWorkCustom>
 
-  <!-- EN: Incapable of {0} -->
+  <!-- EN: Cannot prioritize: Incapable of {0} -->
   <CannotMissingHealthActivities>無法優先：{0}原因</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
@@ -476,27 +469,27 @@
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>已經在{0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Will never do {0} -->
+  <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>無法優先進行當前任務：無法執行{0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>缺乏必要的頭銜</MissingTitleAbility>
 
-  <!-- EN: Will never {0} -->
+  <!-- EN: Cannot prioritize: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>無法優先進行當前任務：無法{0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>無法{0}</WillNever>
 
-  <!-- EN: Not assigned to {0} -->
+  <!-- EN: Cannot prioritize: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>無法優先進行當前任務：並未指派為{0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>未被指派</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>未被指派{0}</NotAssignedToWorkType>
 
-  <!-- EN: Research is a long-term task -->
+  <!-- EN: Cannot prioritize: Research is a long-term task -->
   <CannotPrioritizeResearch>無法優先進行當前任務：研究是一項長時間的工作</CannotPrioritizeResearch>
 
-  <!-- EN: {1_label} is forbidden -->
+  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>無法優先進行當前任務：{1_label}是禁用的</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>無法優先進行當前任務：禁用</CannotPrioritizeCellForbidden>
@@ -508,13 +501,7 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
-  <!-- EN: Prioritize {0} -->
-  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
-
-  <!-- EN: Launch to {LOCATION_label} -->
-  <LaunchTo>TODO</LaunchTo>
-  <!-- EN: Are you sure you want to launch? -->
-  <LaunchToConfirmation>TODO</LaunchToConfirmation>
+  
   <!-- EN: Drop at edge -->
   <DropAtEdge>放置在邊緣</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -639,25 +626,7 @@
   <AlreadyAnalyzed>已被分析</AlreadyAnalyzed>
   <!-- EN: no reachable, un-reserved research bench available -->
   <NoResearchBench>無法前往或沒有可用的研究桌</NoResearchBench>
-
-  <!-- Hacking -->
-  <!-- EN: Hack {0} -->
-  <Hack>破解{0}</Hack>
-  <!-- EN: Choose a colonist to hack this. -->
-  <HackDesc>TODO</HackDesc>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>無法破解{0}</CannotHack>
-  <!-- EN: Locked out -->
-  <LockedOut>TODO</LockedOut>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>已經破解</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>無法進行破解</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>召喚空投補給</ToDropSupplies>
-
   <!-- UNUSED -->
-  <CommandEnterPortal>進入{0}</CommandEnterPortal>
   <PickUp>撿起{1_label}</PickUp>
 
 </LanguageData>
