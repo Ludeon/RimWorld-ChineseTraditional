@@ -116,6 +116,8 @@
   <PlanetCoverageTip>所有星球的直徑皆相同，但因為此大小已遠遠超出一般遊戲需求，因此我們不會生成整個星球地表，那會需要很長的時間。這是你想要生成的面積百分比。</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>派系</WorldFactionsTab>
+  <!-- EN: Advanced settings -->
+  <AdvancedSettings>TODO</AdvancedSettings>
 
   <!-- Select world -->
   <!-- EN: Select world -->
@@ -481,6 +483,10 @@
   <Difficulty_UnwaveringPrisoners_Label>添加愚忠的俘虜</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
   <Difficulty_UnwaveringPrisoners_Info>此選項讓遊戲增加額外的可拘禁的俘虜，這些俘虜由於極度忠誠而無法被招募.\n\n這些愚忠的俘虜是在普通俘虜之上額外添加的，因此關閉此選項不會出現更多可招募的俘虜——它只是刪除了愚忠的俘虜。\n\n愚忠的俘虜仍然可以被釋放以換取外交獎勵、販賣、奴役、摘取器官，或其他用途。一般而言，他們提供了更多的選項和資源，並使遊戲更加豐富和容易。</Difficulty_UnwaveringPrisoners_Info>
+  <!-- EN: Nomadic mineable resources -->
+  <Difficulty_NomadicMineableResourcesFactor_Label>TODO</Difficulty_NomadicMineableResourcesFactor_Label>
+  <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
+  <Difficulty_NomadicMineableResourcesFactor_Info>TODO</Difficulty_NomadicMineableResourcesFactor_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
@@ -560,6 +566,8 @@
   <River>河流</River>
   <!-- EN: Elevation -->
   <Elevation>海拔</Elevation>
+  <!-- EN: Features -->
+  <TileMutators>TODO</TileMutators>
   <!-- EN: Fertility -->
   <Fertility>濕度</Fertility>
   <!-- EN: fertility -->
@@ -721,6 +729,10 @@
   <ClickForMoreInfo>點擊瞭解更多資訊。</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>沒有可用的資訊。</NoMoreInfoAvailable>
+  <!-- EN: Best skill -->
+  <BestSkillLabel>TODO</BestSkillLabel>
+  <!-- EN: skill level {0} -->
+  <BestSkillInfoLevel>TODO</BestSkillInfoLevel>
 
   <!-- Factions -->
   <!-- EN: Factions -->
@@ -739,6 +751,8 @@
   <MechanoidsDisabledContentWarning>禁用{0}表示減少任務和自動出發的威脅種類。</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>沒有其他派系，襲擊、貿易和任務就不會正常發生。</FactionsDisabledWarning>
+  <!-- EN: Cannot be removed for this scenario. -->
+  <FactionRemovalDisabled>TODO</FactionRemovalDisabled>
 
   <!-- UNUSED -->
   <RecommendedFactionCount>派系數量超過{0}可能會使遊戲出現問題。</RecommendedFactionCount>
