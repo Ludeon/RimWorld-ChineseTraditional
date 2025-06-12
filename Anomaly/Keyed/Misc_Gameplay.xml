@@ -620,9 +620,9 @@
   <LetterGoldenCubeComa>{PAWN_labelShort}的立方體間斷症狀讓{PAWN_objective}陷入昏迷。在黃金立方體的心靈連結完全消失之前，{PAWN_pronoun}會持續陷入昏迷。</LetterGoldenCubeComa>
 
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
-  <CubeDeactivationConfirmation>停用黃金立方體會導致所有立方體愛好者陷入暴力的狂怒狀態。而在旅隊中的立方體愛好者皆會永遠失蹤。</CubeDeactivationConfirmation>
+  <CubeDeactivationConfirmation>停用黃金立方體會導致所有立方體愛好者陷入暴力的狂暴狀態。而在旅隊中的立方體愛好者皆會永遠失蹤。</CubeDeactivationConfirmation>
   <!-- EN: The following people will enter a berserk rage -->
-  <CubeDeactivationConfirmationPawnsBerserk>以下人員將會陷入狂怒</CubeDeactivationConfirmationPawnsBerserk>
+  <CubeDeactivationConfirmationPawnsBerserk>以下人員將會陷入狂暴</CubeDeactivationConfirmationPawnsBerserk>
   <!-- EN: The following people will run away and be lost -->
   <CubeDeactivationConfirmationPawnsLost>以下人員將會出走</CubeDeactivationConfirmationPawnsLost>
   <!-- EN: Are you sure you want to continue? -->
@@ -709,7 +709,7 @@
   <!-- EN: Current monolith level -->
   <CurrentMonolithLevel>目前巨石柱等級</CurrentMonolithLevel>
   <!-- EN: Send a colonist to investigate this. -->
-  <VoidMonolithUndiscovered>調查了解更多。</VoidMonolithUndiscovered>
+  <VoidMonolithUndiscovered>派出殖民者去調查。</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
   <VoidMonolithRequiredEntityCategory>為了讓巨石柱進入下一步，你必須找到{0}個{1}等級實體。</VoidMonolithRequiredEntityCategory>
   <!-- EN: Discovered: {0} -->
@@ -810,11 +810,11 @@
   <!-- EN: per day -->
   <BioferriteHarvesterPerDay>每天</BioferriteHarvesterPerDay>
   <!-- EN: Eject contents -->
-  <BioferriteHarvesterEjectContents>彈出內容物</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContents>退出內容物</BioferriteHarvesterEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <BioferriteHarvesterEjectContentsDesc>把所有{0}裡面的東西彈出到地上。</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterEjectContentsDesc>把所有裡面的{0}退出到地上。</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>設定生化鐵氧體板卸除</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloading>設置生化鐵氧體板卸除</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
   <BioferriteHarvesterToggleUnloadingDesc>啟動後，殖民者會在收集器裝滿時，自動卸除生化鐵氧體。</BioferriteHarvesterToggleUnloadingDesc>
   
