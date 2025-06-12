@@ -90,37 +90,15 @@
   <!-- EN: Pit gate collapsing -->
   <PitGateCollapsing>大坑洞崩塌</PitGateCollapsing> 
   <!-- EN: Pit gate settling -->
-  <PitGateSettling>大坑洞平息</PitGateSettling> 
-  <!-- EN: View undercave -->
-  <ViewUndercave>查看地下洞穴</ViewUndercave> 
-  <!-- EN: View the connected undercave map. -->
-  <ViewUndercaveDesc>查看連結地下洞穴的地圖。</ViewUndercaveDesc>
-  <!-- EN: View surface -->
-  <ViewSurface>查看地面</ViewSurface>
-  <!-- EN: View the connected surface map. -->
-  <ViewSurfaceDesc>查看連結地面的地圖。</ViewSurfaceDesc>
+  <PitGateSettling>大坑洞平息</PitGateSettling>
   <!-- EN: Pit rumbles -->
   <EmergenceWarningLabel>坑洞轟隆聲</EmergenceWarningLabel>
   <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
   <EmergenceWarningText>地面在你的腳下顫抖，坑洞中迴盪的非人叫聲越來越近。很快就會有東西出現。</EmergenceWarningText>
 
-  <!-- Pit Burrow -->
-  <!-- EN: Fill in -->
-  <DesignatorFillIn>填平</DesignatorFillIn>
-  <!-- EN: Fill in this pit burrow. -->
-  <DesignatorFillInDesc>填平這個小坑洞。</DesignatorFillInDesc>
-
     <!-- Undercave -->
-  <!-- EN: Enter pit gate -->
-  <EnterPitGate>進入大坑洞</EnterPitGate> 
-  <!-- EN: Climb to surface -->
-  <ExitPitGate>爬上地面</ExitPitGate>
-  <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>血肉獸巢穴</LetterLabelGateEntered> 
-  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>你在大坑洞深處發現了龐大的洞穴系統，裡面充斥著血肉獸。\n\n洞穴被大量活生生的血肉阻塞，擋住了你的去路。攻擊血肉團以摧毀牠們。\n\n整個洞穴系統似乎很不穩定。如果你找出這些血肉團背後的秘密，或許能使通道坍塌並關閉大坑洞。</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
-  <LetterLabelDreadmeldWarning>蠕動聲</LetterLabelDreadmeldWarning> 
+  <LetterLabelDreadmeldWarning>蠕動聲</LetterLabelDreadmeldWarning>
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
   <LetterDreadmeldWarning>{PAWN_nameDef}靠近這裡的血肉團時，{PAWN_pronoun}發現肉塊溫暖的表面下傳來劇烈的蠕動和跳動。這些肉牆背後隱藏著某個巨大的生命體。</LetterDreadmeldWarning> 
   <!-- EN: Undercave unstable -->
@@ -274,8 +252,6 @@
   <Resisted>抵抗</Resisted>
   <!-- EN: Damaged -->
   <HealthFactor>傷害</HealthFactor>
-  <!-- EN: Deactivated. -->
-  <Deactivated>已停用。</Deactivated> <!-- -->
 
   <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>已派出{PAWN_labelShort}。</CommandSent>
@@ -644,9 +620,9 @@
   <LetterGoldenCubeComa>{PAWN_labelShort}的立方體間斷症狀讓{PAWN_objective}陷入昏迷。在黃金立方體的心靈連結完全消失之前，{PAWN_pronoun}會持續陷入昏迷。</LetterGoldenCubeComa>
 
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
-  <CubeDeactivationConfirmation>停用黃金立方體會導致所有立方體愛好者陷入暴力的狂怒狀態。而在旅隊中的立方體愛好者皆會永遠失蹤。</CubeDeactivationConfirmation>
+  <CubeDeactivationConfirmation>停用黃金立方體會導致所有立方體愛好者陷入暴力的狂暴狀態。而在旅隊中的立方體愛好者皆會永遠失蹤。</CubeDeactivationConfirmation>
   <!-- EN: The following people will enter a berserk rage -->
-  <CubeDeactivationConfirmationPawnsBerserk>以下人員將會陷入狂怒</CubeDeactivationConfirmationPawnsBerserk>
+  <CubeDeactivationConfirmationPawnsBerserk>以下人員將會陷入狂暴</CubeDeactivationConfirmationPawnsBerserk>
   <!-- EN: The following people will run away and be lost -->
   <CubeDeactivationConfirmationPawnsLost>以下人員將會出走</CubeDeactivationConfirmationPawnsLost>
   <!-- EN: Are you sure you want to continue? -->
@@ -732,8 +708,8 @@
   <VoidMonolithViewResearch>研究異邪研究</VoidMonolithViewResearch>
   <!-- EN: Current monolith level -->
   <CurrentMonolithLevel>目前巨石柱等級</CurrentMonolithLevel>
-  <!-- EN: Investigate to learn more. -->
-  <VoidMonolithUndiscovered>調查了解更多。</VoidMonolithUndiscovered>
+  <!-- EN: Send a colonist to investigate this. -->
+  <VoidMonolithUndiscovered>派出殖民者去調查。</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
   <VoidMonolithRequiredEntityCategory>為了讓巨石柱進入下一步，你必須找到{0}個{1}等級實體。</VoidMonolithRequiredEntityCategory>
   <!-- EN: Discovered: {0} -->
@@ -779,7 +755,7 @@
   <MonolithAutoActivatingText>你的殖民者們感到一陣恐懼。倒塌的巨石柱開始顫動。慢慢地開始扭曲並重新排列，轉變為新的東西。\n\n過程會在幾天內完成。為接下來發生的一切做好準備。</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>虛空巨石柱</MonolithAutoActivatedLabel>
-  <!-- EN: The monolith’s transformation is almost complete... -->
+  <!-- EN: The monolith's transformation is almost complete... -->
   <MonolithAutoActivatedText>巨石柱的轉變幾乎要完成了…</MonolithAutoActivatedText>
 
   <!-- EN: Gray pall -->
@@ -834,9 +810,9 @@
   <!-- EN: per day -->
   <BioferriteHarvesterPerDay>每天</BioferriteHarvesterPerDay>
   <!-- EN: Eject contents -->
-  <BioferriteHarvesterEjectContents>彈出內容物</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContents>退出內容物</BioferriteHarvesterEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <BioferriteHarvesterEjectContentsDesc>把所有{0}裡面的東西彈出到地上。</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterEjectContentsDesc>把所有裡面的{0}退出到地上。</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
   <BioferriteHarvesterToggleUnloading>設置生化鐵氧體板卸除</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
@@ -890,4 +866,14 @@
   <!-- EN: Security doors only -->
   <SecurityDoorsOnly>只有安全門</SecurityDoorsOnly>
   
+  <!-- UNUSED -->
+  <ViewUndercave>查看地下洞穴</ViewUndercave>
+  <ViewUndercaveDesc>查看連結地下洞穴的地圖。</ViewUndercaveDesc>
+  <ViewSurface>查看地面</ViewSurface>
+  <ViewSurfaceDesc>查看連結地面的地圖。</ViewSurfaceDesc>
+  <EnterPitGate>進入大坑洞</EnterPitGate>
+  <ExitPitGate>爬上地面</ExitPitGate>
+  <LetterLabelGateEntered>血肉獸巢穴</LetterLabelGateEntered>
+  <LetterGateEntered>你在大坑洞深處發現了龐大的洞穴系統，裡面充斥著血肉獸。\n\n洞穴被大量活生生的血肉阻塞，擋住了你的去路。攻擊血肉團以摧毀牠們。\n\n整個洞穴系統似乎很不穩定。如果你找出這些血肉團背後的秘密，或許能使通道坍塌並關閉大坑洞。</LetterGateEntered>
+
 </LanguageData>
