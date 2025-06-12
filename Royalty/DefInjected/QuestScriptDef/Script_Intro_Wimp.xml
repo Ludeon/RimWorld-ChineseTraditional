@@ -40,9 +40,9 @@
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
   <Intro_Wimp.LetterTextGuestDied.slateRef>需要你小心保護的{SUBJECT_definite}已經死亡。[failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
   <!-- EN: Guest left behind: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.label.slateRef>TODO</Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.label.slateRef>訪客被落下：{SUBJECT_definite}</Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has been left behind. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.text.slateRef>TODO</Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.text.slateRef>需要你小心保護的{SUBJECT_definite}被落下了。[failLetterEndingCommon]</Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>未授權手術：{SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
@@ -68,12 +68,12 @@
   <!-- EN: The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
   <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>前來迎接[asker_nameDef]的太空梭已被摧毀。 [asker_pronoun]現在只能走回去了。[failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Shuttle left behind -->
-  <Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>TODO</Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>太空梭被落下</Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has been left behind. [asker_pronoun] will now leave on foot. -->
-  <Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>TODO</Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>前來迎接[asker_nameDef]的太空梭被落下了。[asker_pronoun]現在只能走回去了。</Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Intro_Wimp.LetterLabelQuestFailed.slateRef>任務失敗：[resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextQuestFailed.slateRef>前來迎接[asker_nameDef]的太空梭在離開時因為一些原因落下了[asker_objective]。 [asker_pronoun]現在只能走回去了。[failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
+  <Intro_Wimp.LetterTextQuestFailed.slateRef>前來迎接[asker_nameDef]的太空梭落下了[asker_objective]便發射升空。[asker_pronoun]現在只能走回去了。[failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
   
 </LanguageData>

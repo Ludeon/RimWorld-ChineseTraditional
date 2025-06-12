@@ -7,7 +7,7 @@
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[enemiesLabel]在附近建立了營地以騷擾[asker_faction_name]的商隊。 [asker_nameDef]正計畫對該營地進行空襲。 [asker_pronoun]想要你為這次進攻提供[soldiers]。\n\n[asker_pronoun]會派出太空梭接送你的殖民者，將他們帶到攻擊目標，並在事後帶他們返回。他們在途中會獲得食物和醫療照顧。\n\n一旦開始進攻，你必須在[timeoutTicks_duration]擊敗所有的敵人和炮塔。</li>
+    <li>questDescription->[enemiesLabel]在附近建立了營地以騷擾[asker_faction_name]的商隊。 [asker_nameDef]正計畫對該營地進行空襲。 [asker_pronoun]想要你為這次進攻提供[soldiers]。\n\n[asker_pronoun]會派出太空梭接送你的殖民者，將他們帶到攻擊目標，並在事後帶他們返回。他們在途中會獲得食物和醫療照顧。\n\n一旦開始進攻，你必須在[timeoutTicks_duration]擊敗所有的敵人和砲塔。</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount]戰士</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount]戰士</li>
   </Mission_BanditCamp.questDescriptionRules.rulesStrings>
