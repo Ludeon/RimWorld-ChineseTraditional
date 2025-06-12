@@ -4,7 +4,7 @@
   <!-- ITab_Entity -->
   <!-- EN: Escape interval -->
   <HoldingPlatformEscapeMTBDays>逃脫間隔</HoldingPlatformEscapeMTBDays>
-  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity's movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
   <HoldingPlatformEscapeMTBDaysDesc>逃脫之間的平均間隔時間。這會受到收容強度、實體類型、實體的移動能力，以及實體囚禁持續時間的影響。有些實體也會因為寒冷而受到壓制。</HoldingPlatformEscapeMTBDaysDesc>
   <!-- EN: Entity -->
   <TabEntity>實體</TabEntity>
@@ -30,7 +30,7 @@
   <EntityStudyMode_ExecuteDesc>獄卒會處決收容的實體。</EntityStudyMode_ExecuteDesc>
   <!-- EN: Extract bioferrite -->
   <EntityStudyMode_Extract>提取生化鐵氧體</EntityStudyMode_Extract>
-  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
   <EntityStudyMode_ExtractDesc>當可行的時候，醫生就會從捕獲的實體身上提取生化鐵氧體。此提取方法較簡單，但效率較差。若實體連接到生化鐵氧體收集器的話則無法進行。</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
   <RequiresBioferriteExtraction>需要生化鐵氧體提取。</RequiresBioferriteExtraction>

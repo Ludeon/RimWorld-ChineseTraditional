@@ -16,6 +16,11 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>拆除建築並回收部分資源。</DesignatorDeconstructDesc>
 
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>TODO</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>TODO</DesignatorDeconstructConduitDesc>
+
   <!-- EN: Uninstall -->
   <DesignatorUninstall>移除</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -45,7 +50,7 @@
 
   <!-- EN: Hunt -->
   <DesignatorHunt>狩獵</DesignatorHunt>
-  <!-- EN: Mark animals to be hunted by your hunters. -->
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
   <DesignatorHuntDesc>標記要由獵人狩獵的動物。</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
@@ -73,7 +78,7 @@
 
   <!-- EN: Plan -->
   <DesignatorPlan>計劃</DesignatorPlan>
-  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
   <DesignatorPlanDesc>設置計劃中的標記。除了協助你未來的擴展，沒有別的功能。</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
@@ -168,7 +173,7 @@
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>移除橋</DesignatorRemoveBridge>
-  <!-- EN: Remove bridges to reveal the terrain underneath. -->
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
   <DesignatorRemoveBridgeDesc>移除橋，恢復原來的地面。</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>開啟容器。</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>TODO</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>TODO</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>屠宰</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>馴服</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>馴服野生動物。</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>TODO</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>放生</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>選取了顏色</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>TODO</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>TODO</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>TODO</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>TODO</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>無法選擇的素材</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0}會擋住{1}的互動點。</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>這裡的地形已經是{0}了。</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>TODO</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>TODO</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>這裡已被標記拋光了。</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -299,6 +325,11 @@
   <ExpandOrCreateZone>擴展{0}或\n建立新的{1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>建立新的{0}</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>TODO</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>TODO</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
