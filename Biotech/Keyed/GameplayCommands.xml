@@ -23,7 +23,7 @@
   <!-- EN: Cancel extraction -->
   <CommandCancelExtraction>取消抽取</CommandCancelExtraction>
   <!-- EN: Cancel the extraction process. The contained person will be ejected. -->
-  <CommandCancelExtractionDesc>取消抽取過程。裡面的人將會被彈出。</CommandCancelExtractionDesc>
+  <CommandCancelExtractionDesc>取消抽取過程。裡面的人將會被釋退出。</CommandCancelExtractionDesc>
 
   <!-- EN: Summon mech threat... -->
   <CommandCallBossgroup>召喚機械劫難...</CommandCallBossgroup>
@@ -36,9 +36,9 @@
   <CommandAutoLoadDesc>啟用後，殖民者會自動往這裡裝填{0}。</CommandAutoLoadDesc>
 
   <!-- EN: Eject contents -->
-  <CommandEjectContents>彈出內容物</CommandEjectContents>
+  <CommandEjectContents>退出內容物</CommandEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <CommandEjectContentsDesc>把所有{0}裡面的東西彈出到地上。</CommandEjectContentsDesc>
+  <CommandEjectContentsDesc>把所有裡面的{0}退出到地上。</CommandEjectContentsDesc>
 
   <!-- EN: Select all mechs -->
   <CommandSelectAllMechs>選取所有機械族</CommandSelectAllMechs>
@@ -53,7 +53,7 @@
   <!-- EN: Cancel scan -->
   <CommandCancelSubcoreScan>取消掃描</CommandCancelSubcoreScan>
   <!-- EN: Cancel the scan process. The contained person will be ejected. -->
-  <CommandCancelSubcoreScanDesc>取消掃描工作。內裡的人會被彈出。</CommandCancelSubcoreScanDesc>
+  <CommandCancelSubcoreScanDesc>取消掃描工作。內裡的人會被退出。</CommandCancelSubcoreScanDesc>
 
   <!-- EN: Force xenogerm implantation -->
   <ForceXenogermImplantation>強制移植異種細胞</ForceXenogermImplantation>
