@@ -52,11 +52,11 @@
   <FilthRate.description>這種生物會產生多少排泄物。\n\n為了避免牠們的排泄物造成問題，最好將產生排泄物的動物置於戶外或草蓆上。</FilthRate.description>
   
   <!-- EN: flight cooldown -->
-  <FlightCooldown.label>TODO</FlightCooldown.label>
+  <FlightCooldown.label>飛行冷卻</FlightCooldown.label>
   <!-- EN: The rest time needed before this creature can fly again. -->
-  <FlightCooldown.description>TODO</FlightCooldown.description>
+  <FlightCooldown.description>此生物需要休息多久才能再起飛。</FlightCooldown.description>
   <!-- EN: {0}s -->
-  <FlightCooldown.formatString>TODO</FlightCooldown.formatString>
+  <FlightCooldown.formatString>{0}秒</FlightCooldown.formatString>
   
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>覓食量</ForagedNutritionPerDay.label>
@@ -98,11 +98,11 @@
   <LifespanFactor.description>壽命倍率通過減短或加長年齡相關的疾病來影響生物的有效壽命。高於100%的壽命倍率會延遲疾病的開始，和延長整體壽命，當壽命倍率少於100%，則會加速疾病到來並減短壽命。</LifespanFactor.description>
   
   <!-- EN: max flight time -->
-  <MaxFlightTime.label>TODO</MaxFlightTime.label>
+  <MaxFlightTime.label>最長飛行時間</MaxFlightTime.label>
   <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
-  <MaxFlightTime.description>TODO</MaxFlightTime.description>
+  <MaxFlightTime.description>此生物起飛到落地之間的最長時間。</MaxFlightTime.description>
   <!-- EN: {0}s -->
-  <MaxFlightTime.formatString>TODO</MaxFlightTime.formatString>
+  <MaxFlightTime.formatString>{0}秒</MaxFlightTime.formatString>
   
   <!-- EN: max nutrition -->
   <MaxNutrition.label>最大營養值</MaxNutrition.label>
@@ -187,8 +187,8 @@
   <ToxicSensitivity.description>此生物遭受毒素影響的速度。</ToxicSensitivity.description>
   
   <!-- EN: wildness -->
-  <Wildness.label>TODO</Wildness.label>
+  <Wildness.label>野性</Wildness.label>
   <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
-  <Wildness.description>TODO</Wildness.description>
+  <Wildness.description>更高野性的生物通常更難馴服、訓練和處理。</Wildness.description>
   
 </LanguageData>
