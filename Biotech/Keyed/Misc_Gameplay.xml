@@ -28,13 +28,13 @@
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>裝著{APPAREL}的{BOSS}</BossWithApparel>
   <!-- EN: Resulting from gene -->
-  <ComesFromGene>TODO</ComesFromGene>
+  <ComesFromGene>因為基因導致</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>移除{0}</ReportRemovingMechlink>
   <!-- EN: from {TEACHER_labelShort} -->
-  <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
+  <ReportTakingLessonFrom>來自{TEACHER_labelShort}</ReportTakingLessonFrom>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
@@ -104,7 +104,7 @@
   <!-- EN: Summon {0} threat -->
   <Summon>召喚{0}劫難</Summon>
   <!-- EN: Mechanoids disabled -->
-  <MechsDisabled>TODO</MechsDisabled> <!-- text_todo -->
+  <MechsDisabled>機械族已被中止</MechsDisabled> <!-- text_todo -->
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>沒有可到達的{0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -272,7 +272,7 @@
   <!-- EN: Added by gene -->
   <AddedByGene>受基因加入</AddedByGene>
   <!-- EN: Eject all -->
-  <EjectAll>彈出所有</EjectAll>
+  <EjectAll>退出所有</EjectAll>
   <!-- EN: Drop all contained genepacks onto the ground. -->
   <EjectAllDesc>把所有裝載的基因包丟到地上。</EjectAllDesc>
   <!-- EN: Genepacks stored -->
@@ -336,9 +336,9 @@
   <!-- EN: Genepacks to ignore -->
   <GenepacksToIgnore>忽略的基因包</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>把此基因包彈出。</EjectGenepackDesc> 
+  <EjectGenepackDesc>把此基因包退出。</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
-  <ConfirmRemoveGenepack>你確定要彈出{0}嗎？</ConfirmRemoveGenepack> 
+  <ConfirmRemoveGenepack>你確定要退出{0}嗎？將會即時退出到旁邊的地上。</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>缺少必要研究</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
@@ -502,7 +502,7 @@
   <!-- EN: Autofill -->
   <MechCarrierAutofillResources>自動裝填</MechCarrierAutofillResources>
   <!-- EN: Click to set the desired autofill amount. -->
-  <MechCarrierClickToSetAutofillAmount>點擊設定自動裝填的量。</MechCarrierClickToSetAutofillAmount>
+  <MechCarrierClickToSetAutofillAmount>點擊設置自動裝填的量。</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
   <MechCarrierAutofillDesc>此自動裝填量決定你的殖民者會為此{0}裝填的資源上限。這些資源用於製造{1}。</MechCarrierAutofillDesc>
 
@@ -740,13 +740,13 @@
   <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
   <ImplantSurgeryConfirm>在{1}植入{0}的成功率是{2}。\n\n植入成功率取決於代母的生育能力。若代母太老或太年輕也會讓成功率下降。</ImplantSurgeryConfirm>
   <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
-  <ImplantEmbryoCancelVat>現在把未形成嬰兒的{0}從發育艙出彈出會將之破壞。\n\n你確定要繼續嗎?</ImplantEmbryoCancelVat>
+  <ImplantEmbryoCancelVat>現在把未形成嬰兒的{0}從發育艙退出會將之破壞。\n\n你確定要繼續嗎?</ImplantEmbryoCancelVat>
   <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
   <ImplantFailedMessage>把{0}植入{1}失敗。</ImplantFailedMessage>
   <!-- EN: Cancel embryo insertion -->
   <ImplantEmbryoCancel>取消放置胚胎</ImplantEmbryoCancel>
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
-  <EmbryoEjectedFromGrowthVat>{0}被彈出發育艙並破壞了。</EmbryoEjectedFromGrowthVat>
+  <EmbryoEjectedFromGrowthVat>{0}被退出發育艙並破壞了。</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
   <EmbryoEjectedFromGrowthVatBiostarvation>{0}在發育艙中因為生理饑餓而破壞了。</EmbryoEjectedFromGrowthVatBiostarvation>
 
