@@ -70,7 +70,7 @@
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
   <ModsChanged>模組設置已更動，遊戲將自動重啟。</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
-  <FailedToRestart>遊戲無法完全卸載由模組導入的程式碼，因此來自某些已卸載的模組的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並停用所有使用中的模組後再次進行遊戲。</FailedToRestart>
+  <FailedToRestart>遊戲無法完全卸除由模組導入的程式碼，因此來自某些已停用的模組的程式碼可能會繼續生效。\n\n我們建議你重新啟動遊戲，並停用所有使用中的模組後再次進行遊戲。</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>重新啟動中</Restarting>
   
@@ -82,7 +82,7 @@
   <!-- EN: Initializing interface -->
   <InitializingInterface>正在初始化介面</InitializingInterface>
   <!-- EN: Unloading unused assets -->
-  <UnloadingUnusedAssets>正在卸載非使用中的元件</UnloadingUnusedAssets>
+  <UnloadingUnusedAssets>正在卸除非使用中的元件</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
   <LoadingAllActiveMods>正在載入已啟用的模組</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
