@@ -8,7 +8,7 @@
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0}已在進行中</CantStartRitualAlreadyInProgress>
   <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
-  <CantStartRitualLayer>TODO</CantStartRitualLayer>
+  <CantStartRitualLayer>{RITUAL}無法{GERUND}{LAYER}進行。</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>一名或以上的參加者由於極端氣溫無法參加。</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
@@ -63,7 +63,7 @@
   <!-- EN: max {0} -->
   <MaxPreceptCount>最多{0}</MaxPreceptCount>
   <!-- EN: Set gender -->
-  <SetTargetGender>設定性別</SetTargetGender>
+  <SetTargetGender>設置性別</SetTargetGender>
   <!-- EN: must be {0} faction -->
   <RoleApparelRequirementIncompatibleFaction>必須為{0}勢力</RoleApparelRequirementIncompatibleFaction>
   <!-- EN: tribal -->
@@ -81,7 +81,7 @@
   <!-- EN: already getting -->
   <NeuralSuperchargeAlreadyGetting>已擁有</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
-  <SetApparelType>設定類型</SetApparelType>
+  <SetApparelType>設置類型</SetApparelType>
 
   <!-- EN: change style -->
   <ChangeStyle>改變形象</ChangeStyle>
