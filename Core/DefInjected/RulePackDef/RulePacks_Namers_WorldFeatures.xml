@@ -199,12 +199,10 @@
   <NamerLake.rulePack.rulesStrings>
     <li>r_name->[narrative_name]湖</li>
     <li>terrain_word(p=6)->湖</li>
-    <li>terrain_word->海</li>
     <li>terrain_word->塘</li>
     <li>terrain_word->流域</li>
     <li>terrain_word->水庫</li>
     <li>terrain_word(p=0.3)->水窪</li>
-    <li>terrain_word(p=0.3)->潟湖</li>
     <li>terrain_word(p=0.3)->池</li>
   </NamerLake.rulePack.rulesStrings>
   
@@ -289,10 +287,9 @@
     <li>terrain_word->ocean</li>
   -->
   <NamerSea.rulePack.rulesStrings>
-    <li>r_name(p=0.1)->[narrative_name]湖</li>
     <li>terrain_word(p=6)->海</li>
+    <li>terrain_word->潟湖</li>
     <li>terrain_word->洋</li>
-    <li>terrain_word->湖</li>
   </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
