@@ -9,7 +9,7 @@
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
     <li>subject_story->encountered an exiled cult master, who happily boasted about his secrets</li>
-    <li>subject_story->deepened his understanding of ritual sacrifice</li>
+    <li>subject_story->deepened [ANYPAWN_possessive] understanding of ritual sacrifice</li>
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
@@ -17,7 +17,7 @@
     <li>subject->高等心靈儀式</li>
     <li>subject_story->被帶入邪教圈</li>
     <li>subject_story->遇到了一位流亡的邪教大師，他高興地吹噓自己的祕密</li>
-    <li>subject_story->加深了他對儀式獻祭的理解</li>
+    <li>subject_story->加深了[ANYPAWN_pronoun]對儀式獻祭的理解</li>
     <li>subject_story->被任命爲九號大學的精神史教授</li>
     <li>subject_gerund->進行高等心靈儀式</li>
   </AdvancedPsychicRituals.generalRules.rulesStrings>
@@ -155,7 +155,7 @@
   <BioferriteIgnition.generalRules.rulesStrings>
     <li>subject->生化鐵氧體燃燒</li>
     <li>subject->生化鐵氧體武器</li>
-    <li>subject_story->曾在遠古科技小行星上的鑽井平臺工作</li>
+    <li>subject_story->曾在遠古科技小行星上的鑽井設備工作</li>
     <li>subject_story->研究了奇特材料的燃點</li>
     <li>subject_story->加入了中古世界武器公司的研究部門</li>
     <li>subject_story->在遠古科技沙漠中清除生物地雷</li>
@@ -484,7 +484,7 @@
   <InsanityWeaponry.description>將遠古科技碎片重組為有限次數的武器，使用遠古科技衝擊、操縱和摧毀敵人。</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
-    <li>subject_story->explored psychological warfare for their dissertation</li>
+    <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
     <li>subject_story->watched an Imperial battalion rout and learned the value of fear</li>
     <li>subject_story->worked in an asylum of archotech victims</li>
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
@@ -492,7 +492,7 @@
   -->
   <InsanityWeaponry.generalRules.rulesStrings>
     <li>subject->遠古科技狂暴武器</li>
-    <li>subject_story->為他們的論文探索了心理戰</li>
+    <li>subject_story->在[ANYPAWN_possessive]論文探索了心靈戰爭</li>
     <li>subject_story->看著帝國軍營的潰敗，見識到了恐懼的價值</li>
     <li>subject_story->曾在遠古科技受害者的庇護所工作</li>
     <li>subject_story->活體解剖了被遠古分子寄生的野生動物，以了解遠古分子對哺乳類大腦的影響</li>
@@ -505,7 +505,7 @@
   <JuggernautSerum.description>合成可暫時讓使用者加強力量和加快速度，並讓他們能更快療傷的血清。不過此血清會令使用者心情低落。</JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
-    <li>subject_story->was banned from the coreworld leagues after he was caught doping a team with Juggernaut Serum</li>
+    <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
     <li>subject_story->gave soldiers Juggernaut Serum when their ammo ran out</li>
     <li>subject_story->researched serum use among indentured building sectors</li>
     <li>subject_story->fell into a barrel of juggernaut serum</li>
@@ -624,7 +624,7 @@
     <li>subject_story->followed a trail of victims left by a philophage</li>
     <li>subject_story->researched neural replication processes in a glitterworld's labs</li>
     <li>subject_story->investigated the damaged minds of cult victims</li>
-    <li>subject_story->found their skills weakened after a psychic assault</li>
+    <li>subject_story->found [ANYPAWN_possessive] skills weakened after a psychic assault</li>
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
@@ -634,7 +634,7 @@
     <li>subject_story->追蹤著噬技術師所造成的一系列受害者</li>
     <li>subject_story->在閃耀世界的實驗室中研究了神經複製過程</li>
     <li>subject_story->調查了邪教受害者受損的心智</li>
-    <li>subject_story->發現他們的技能在遭受心靈突擊後減弱</li>
+    <li>subject_story->發現[ANYPAWN_possessive]技能在遭受心靈突擊後減弱</li>
     <li>subject_gerund->轉移受試者的所學知識</li>
     <li>subject_gerund->進行竊取受害者技能的儀式</li>
   </Philophagy.generalRules.rulesStrings>

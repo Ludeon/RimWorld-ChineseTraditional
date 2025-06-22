@@ -4,7 +4,7 @@
   <!-- EN: ship part (defoliator) -->
   <DefoliatorShipPart.label>星艦碎片(污染)</DefoliatorShipPart.label>
   <!-- EN: An ancient ship part, torn off of a craft of unknown origin. It might be thousands of years old.\n\nThis one contains a device which annihilates plant life near itself without directly affecting flesh creatures. These kinds of weapons are sometimes scattered across farmlands or forests to remove the enemy's food supply and hiding places without permanently ruining the territory. They're usually associated with orbital-drop mechanoid armies. -->
-  <DefoliatorShipPart.description>一塊來歷不明的古老星艦殘骸，它可能有數千年的歷史了。\n\n這一塊殘骸內包含了一個特殊裝置，能夠在不影響活著的動物的情況下消滅它周圍的植物。這類武器有時會被散佈至陸地上的農田或者森林裡，用以在不損壞領地的情況下除掉敵人的糧食供應和避難所。它們通常與軌道空投的機械體敵人相關。</DefoliatorShipPart.description>
+  <DefoliatorShipPart.description>一塊來歷不明的古老星艦殘骸，它可能有數千年的歷史了。\n\n這一塊殘骸內包含了一個特殊裝置，能夠在不影響活著的動物的情況下消滅它周圍的植物。這類武器有時會被散佈至陸地上的農田或者森林裡，用以在不損壞領地的情況下除掉敵人的糧食供應和避難所。它們通常與軌道空投的機械族敵人相關。</DefoliatorShipPart.description>
   
   <!-- EN: ship part (psychic droner) -->
   <PsychicDronerShipPart.label>星艦碎片(心靈)</PsychicDronerShipPart.label>
@@ -15,15 +15,17 @@
   <ShipChunk.label>星艦殘骸</ShipChunk.label>
   <!-- EN: A chunk of a spacecraft. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nHaving landed not long ago, it still contains useful resources which you can acquire by deconstructing it. -->
   <ShipChunk.description>星艦殘骸。它看起來像是因動力失控或被某些武器擊落的。\n\n剛墜落沒多久，還能夠透過拆除來獲得有用的資源。</ShipChunk.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <ShipChunk.comps.CompInspectString.inspectString>拆解以獲取寶貴資源。</ShipChunk.comps.CompInspectString.inspectString>
   
-  <!-- EN: shuttle -->
-  <Shuttle.label>太空梭</Shuttle.label>
-  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
-  <Shuttle.description>一個用於穿梭在地表和軌道或者衛星和行星之間的太空梭。</Shuttle.description>
+  <!-- EN: imperial shuttle -->
+  <Shuttle.label>帝國太空梭</Shuttle.label>
+  <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. Destroying the shuttle will yield a shuttle engine and other valuable resources. -->
+  <Shuttle.description>以鈾驅動的太空梭，用於往返地表和軌道；或往返衛星和行星。為了防止未授權使用，太空梭只能靠駕駛員的生物特徵解鎖。</Shuttle.description>
   
   <!-- EN: crashed shuttle -->
   <ShuttleCrashed.label>墜毀的太空梭</ShuttleCrashed.label>
-  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
-  <ShuttleCrashed.description>一個用於穿梭在地表和軌道或者衛星和行星之間的太空梭。</ShuttleCrashed.description>
+  <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. Destroying the shuttle will yield a shuttle engine and other valuable resources. -->
+  <ShuttleCrashed.description>以鈾驅動的太空梭，用於往返地表和軌道；或往返衛星和行星。為了防止未授權使用，太空梭只能靠駕駛員的生物特徵解鎖。</ShuttleCrashed.description>
   
 </LanguageData>

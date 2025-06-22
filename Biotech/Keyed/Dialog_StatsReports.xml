@@ -107,8 +107,6 @@
   <PassionModAdd>為{0_label}增加1級熱情。</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
   <PassionModDrop>移除所有{0_label}的熱情。</PassionModDrop>
-  <!-- EN: Causes need -->
-  <CausesNeed>引起需求</CausesNeed>
   <!-- EN: Gives ability -->
   <GivesAbility>賦予能力</GivesAbility>
   <!-- EN: Gives abilities -->
@@ -117,10 +115,6 @@
   <ResourceLossPerDay>{RESOURCE}︰{OFFSET}/天</ResourceLossPerDay>
   <!-- EN: Removes -->
   <Removes>移除</Removes>
-  <!-- EN: Disables need -->
-  <DisablesNeed>禁用需求</DisablesNeed>
-  <!-- EN: Disables needs -->
-  <DisablesNeeds>禁用需求</DisablesNeeds>
   <!-- EN: Baby -->
   <DevelopmentStage_Baby>嬰兒</DevelopmentStage_Baby>
   <!-- EN: Child -->
@@ -139,5 +133,8 @@
   <GeneOverdoseImmune>擁有者不會攝取過量{0_label}。</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
   <GeneOverdoseFactor>擁有者攝取過量{0_label}機率乘以{1}。</GeneOverdoseFactor>
+
+  <!-- UNUSED -->
+  <CausesNeed>引起需求</CausesNeed>
 
 </LanguageData>

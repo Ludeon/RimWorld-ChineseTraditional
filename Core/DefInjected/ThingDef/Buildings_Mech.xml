@@ -1,9 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: mini-slug -->
+  <Bullet_MiniSlug.label>小彈頭</Bullet_MiniSlug.label>
+  
   <!-- EN: burning power cell -->
-  <BurningPowerCell.label>燃燒中的能量電池</BurningPowerCell.label>
+  <BurningPowerCell.label>燃燒中的電池</BurningPowerCell.label>
   <!-- EN: A damaged mechanoid power generation unit. The cell has been destabilized by the death of the mechanoid, and is burning down in seconds. When critically damaged, this cell will explode. -->
   <BurningPowerCell.description>一個損毀的機械族能源模組。由於機械族的死亡，此電池不再穩定，並會在數秒內燒毀。一旦受到強烈損傷，此電池將會爆炸。</BurningPowerCell.description>
+  
+  <!-- EN: mech node -->
+  <Gloomlight.label>機械節點</Gloomlight.label>
+  <!-- EN: A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage. -->
+  <Gloomlight.description>功能未知的自主供電機械節點。機械節點可以被拆卸以獲取有用的資源——前提是完好無缺的佔領它。如果裝置受到太大的損傷，內部的微功率電池會超載燒毀。</Gloomlight.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <Gloomlight.comps.CompInspectString.inspectString>拆解以獲取寶貴資源。</Gloomlight.comps.CompInspectString.inspectString>
+  
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.label>小型衝擊槍</Gun_MiniTurretMech.label>
+  <!-- EN: An automatic turret-mounted slug-thrower. -->
+  <Gun_MiniTurretMech.description>一個自動化的動能衝擊武器。</Gun_MiniTurretMech.description>
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.verbs.Verb_Shoot.label>小型衝擊槍</Gun_MiniTurretMech.verbs.Verb_Shoot.label>
+  
+  <!-- EN: mini-slugger turret -->
+  <Turret_AutoMiniTurret.label>小型衝擊砲塔</Turret_AutoMiniTurret.label>
+  <!-- EN: A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged. -->
+  <Turret_AutoMiniTurret.description>一個自行供電的近程防禦用砲塔，裝配有小型衝擊槍，受到傷害的時候可能會爆炸。</Turret_AutoMiniTurret.description>
   
 </LanguageData>

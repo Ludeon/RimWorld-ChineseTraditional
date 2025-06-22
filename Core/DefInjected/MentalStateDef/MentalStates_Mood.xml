@@ -19,7 +19,16 @@
   <Berserk.beginLetter>{0}陷入狂暴了。\n\n{PAWN_pronoun}會攻擊{PAWN_pronoun}見到的任何人。</Berserk.beginLetter>
   <Berserk.beginLetterLabel>狂暴</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
-  <Berserk.recoveryMessage>{0}的狂暴憤怒結束了。</Berserk.recoveryMessage>
+  <Berserk.recoveryMessage>{0}的狂暴狀態結束了。</Berserk.recoveryMessage>
+  
+  <!-- EN: berserk -->
+  <BerserkPermanent.label>狂暴</BerserkPermanent.label>
+  <!-- EN: Mental state: Berserk -->
+  <BerserkPermanent.baseInspectLine>心理狀態：狂暴</BerserkPermanent.baseInspectLine>
+  <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
+  <BerserkPermanent.beginLetter>{0}陷入狂暴了。\n\n{PAWN_pronoun}會攻擊{PAWN_pronoun}見到的任何人。</BerserkPermanent.beginLetter>
+  <!-- EN: {0}'s berserk rage has come to an end. -->
+  <BerserkPermanent.recoveryMessage>{0}的狂暴狀態結束了。</BerserkPermanent.recoveryMessage>
   
   <!-- EN: binging on drug -->
   <Binging_DrugExtreme.label>藥物濫用</Binging_DrugExtreme.label>

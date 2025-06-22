@@ -9,7 +9,7 @@
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
   <MessageRaidersDetectedEarlyAssault>{1}的{0}發現了你並提前開始進攻。</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
-  <MessageRaidersKidnapping>{1}的{0}打算绑架人質後離開。</MessageRaidersKidnapping>
+  <MessageRaidersKidnapping>{1}的{0}打算綁架人質後離開。</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>{1}的{0}打算大肆搜刮後離開。</MessageRaidersStealing>
 
@@ -39,6 +39,8 @@
   <MessageVisitorsDangerousTemperature>由於危險的氣溫，{1}的{0}正打算離開。</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>由於危險的天氣，{1}的{0}正打算離開。</MessageVisitorsAnomalousWeather>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
+  <MessageVisitorsDangerousConditions>由於危險的情況，{1}的{0}正打算離開。</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{1_nameFull}穿的{0}破損到不能再穿了。</MessageWornApparelDeterioratedAway>
@@ -79,6 +81,10 @@
   <MessageAnimalManhuntsOnTameFailed>警告：馴服{ANIMAL_kindBasePlural}失敗時會被反擊(機率{1})。</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>只有那些具有蟲族共鳴特性的人才能馴服{INSECT_indefinite}。</MessageInsectTameDesignated>
+  <!-- EN: No colonists are assigned to hunt. -->
+  <MessageNoHuntersAvailable>沒有居民被指派獵人工作。</MessageNoHuntersAvailable>
+  <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
+  <MessageNoHuntersWithProperWeapon>沒有獵人持有有效的狩獵武器。請替獵人裝備適當的遠程武器。</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>警告：{PAWN_labelShort}是敵對的，當你的居民試圖馴服它時將會引起它的攻擊。</MessageInsectsHostileOnTaming>
@@ -108,6 +114,8 @@
   <MessageMustDesignateHarvestable>必須指定已成熟可收穫的植物。</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>必須指定已成熟可收穫木頭的樹木。</MessageMustDesignateHarvestableWood>
+  <!-- EN: Prevent cutting is enabled for this plant. -->
+  <MessageMustPlantCuttingForbidden>此植物被標記了防剪裁。</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>必須指定植物。</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -149,9 +157,15 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>必須指定被禁用的物品。</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>當附近有能夠戰鬥的{THREAT_factionPawnsPlural}，則無法佔據{CLAIMABLE_labelShort}。</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenPawnThreatsAreNear>當附近有能夠戰鬥的{THREAT_factionPawnsPlural}，則無法佔據{CLAIMABLE_labelShort}。</MessageCannotClaimWhenPawnThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>當附近有能夠戰鬥的{THREAT_factionPawnsPlural}，則無法收下{CLAIMABLE_labelShort}。</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotAdoptWhilePawnThreatsAreNear>當附近有能夠戰鬥的{THREAT_factionPawnsPlural}，則無法收下{CLAIMABLE_labelShort}。</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>當附近有{THREAT}，則無法佔據{CLAIMABLE_labelShort}。</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>當附近有{THREAT}，則無法收下{CLAIMABLE_labelShort}。</MessageCannotAdoptWhileThreatsAreNear>
+  <!-- EN: Cannot remove foundation that supports a building. -->
+  <MessageCannotRemoveSupportingFoundation>無法移除有建築物在之上的基底。</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort}拒絕被拘捕！</MessageRefusedArrest>
@@ -279,6 +293,8 @@
   <MessagePawnLostWhileFormingCaravan>{0}被移除出旅隊。</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>旅隊行動被中止了。</MessagePawnLostWhileFormingCaravan_AllLost>
+  <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
+  <MessageForceSendingCaravan_AllLost>沒有可以組織旅隊的殖民者。已終止組織旅隊。</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>旅隊將會在所有成員恢復理智後繼續行動。</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -340,9 +356,11 @@
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>被指定的物品、人員將會被裝載到運輸艙。</MessageTransportersLoadingProcessStarted>
+  <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
+  <MessageTransporterSingleLoadingProcessStarted>被指定的物品、人員將會被裝載到運輸艙。</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>被指定的物品、人員將會被裝載到太空梭。</MessageTransporterSingleLoadingProcessStarted>
-  
+  <MessageShuttleLoadingProcessStarted>被指定的物品、人員將會被裝載到太空梭。</MessageShuttleLoadingProcessStarted> <!-- text_todo -->
+
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>你的運輸艙已經抵達。</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
@@ -353,15 +371,23 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>運輸艙的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingShuttle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingShuttle> <!-- text_todo -->
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>你的{1}無法完成運輸艙的裝載工作，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoShuttle>你的{1}無法完成太空梭的裝載工作，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>你的{1}無法完成進入{0}，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>選擇的目的地無效。</MessageTransportPodsDestinationIsInvalid>
+  <!-- EN: Destination is reserved by {0}. -->
+  <MessageTransportPodsDestinationReservedBy>目的地已預留給{0}。</MessageTransportPodsDestinationReservedBy> <!-- text_todo -->
+  <!-- EN: Destination is reserved. -->
+  <MessageTransportPodsDestinationReserved>目的地已被預留。</MessageTransportPodsDestinationReserved> <!-- text_todo -->
+  <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap}並非一個有效的目的地。</MessageWorldObjectIsInvalid> <!-- text_todo -->
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>每個發射平台都需要至少{0}單位的化合燃料才能發射到這個距離。</MessageTransportPodsDestinationIsTooFar>
   
@@ -400,13 +426,13 @@
   <MessageSelectOwnBaseToFormCaravan>要組織旅隊，選擇你的殖民地或是你的殖民者所在的據點。</MessageSelectOwnBaseToFormCaravan>
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
-  <MessageScreenResTooSmallForUIScale>根據目前的解析度及UI比例，螢幕將無法容納遊戲界面，請降低UI比例或調高解析度。</MessageScreenResTooSmallForUIScale>
+  <MessageScreenResTooSmallForUIScale>根據目前的解析度及UI比例，螢幕將無法容納遊戲介面，請降低UI比例或調高解析度。</MessageScreenResTooSmallForUIScale>
   
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
   <MessageYouHaveToReformCaravanNow>你必須立刻重組旅隊。任何被拋下的人將會被遺棄。</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
+  <MessageDefendersAttacking>來自{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
   <MessageMechanoidsAssembled>機械族被組裝完成並加入它們的軍團。</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to assemble -->
@@ -784,6 +810,10 @@
   <CannotPlantThing>無法種植{0_labelShort}</CannotPlantThing>
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>需要更肥沃的地形。</MessageWarningNotEnoughFertility>
+  <!-- EN: Temperature too extreme. -->
+  <CannotPlantExtremeTemp>氣溫過於極端。</CannotPlantExtremeTemp>
+  <!-- EN: Plants cannot grow on this terrain. -->
+  <CannotPlantMissingTerrainTag>植物無法在此地形生長。</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>被{0_label}阻擋。</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -792,6 +822,8 @@
   <TooCloseToOtherPlant>離{0_label}太近。</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>離{0}種植區太近。</TooCloseToOtherSeedPlantCell>
+  <!-- EN: Cannot be placed on {0}. -->
+  <MessageCannotBePlacedOn>無法放在{0}上</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>警告：{0}已被標記切除。</MessageWarningCutImportantPlant>
@@ -823,8 +855,24 @@
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>無法折躍︰難民</MessageLodgersCantFarskip>
+  
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
+  <MessageHackerLockedOut>{HACKER_nameDef}的破解行動已被檢測到。{HACKER_pronoun}已被鎖定{DURATION}。</MessageHackerLockedOut>
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
+  <MessageHackerLockedOutPermanently>{HACKER_nameDef}的破解行動已被檢測到。{HACKER_pronoun}已被永久鎖定。</MessageHackerLockedOutPermanently>
+  <!-- EN: {0_labelShort} can be hacked again. -->
+  <MessageHackableUnlocked>{0_labelShort}可以再次破解。</MessageHackableUnlocked>
+
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>無法呼叫太空梭</CannotCallShuttle>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>太空梭已抵達</MessageShuttleArrived>
+
+  <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
+  <MessageGroundPenetratingScannerNoBedrock>警告{THING_labelCap}將無法在此生態系運作。</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
 
   <!-- UNUSED -->
+  <MessageFinishedLoadingTransporterSingle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporterSingle>
   <MessageRitualNeedsAtLeastOneRolePawn>你需要一名{0}。</MessageRitualNeedsAtLeastOneRolePawn>
   <MessageRitualNeedsAtLeastNumRolePawn>你需要至少{1}名{0}。</MessageRitualNeedsAtLeastNumRolePawn>
   <MessageTooLowMedCare>手術需要{0}或更高的醫療等級，但目前{PAWN_labelShort}的醫療照顧等級是{2}。</MessageTooLowMedCare>

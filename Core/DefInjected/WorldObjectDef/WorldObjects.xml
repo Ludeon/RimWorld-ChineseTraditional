@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: abandoned camp -->
+  <AbandonedCamp.label>被遺棄的營地</AbandonedCamp.label>
+  <!-- EN: An abandoned camp. -->
+  <AbandonedCamp.description>一個被遺棄的營地。</AbandonedCamp.description>
+  
   <!-- EN: abandoned settlement -->
-  <AbandonedSettlement.label>遺棄據點</AbandonedSettlement.label>
+  <AbandonedSettlement.label>被遺棄的據點</AbandonedSettlement.label>
   <!-- EN: An abandoned settlement. -->
   <AbandonedSettlement.description>一個被遺棄的據點。</AbandonedSettlement.description>
   
@@ -10,6 +15,11 @@
   <AttackedNonPlayerCaravan.label>旅隊被攻擊</AttackedNonPlayerCaravan.label>
   <!-- EN: A caravan under attack. -->
   <AttackedNonPlayerCaravan.description>旅隊受到攻擊。</AttackedNonPlayerCaravan.description>
+  
+  <!-- EN: camp -->
+  <Camp.label>營地</Camp.label>
+  <!-- EN: A caravan has set up camp here temporarily. -->
+  <Camp.description>一隊旅隊曾在此暫時設置營地。</Camp.description>
   
   <!-- EN: caravan -->
   <Caravan.label>旅隊</Caravan.label>
@@ -44,9 +54,16 @@
   <!-- EN: A base of one of the factions. -->
   <Settlement.description>一座屬於某個派系的據點。</Settlement.description>
   
-  <!-- EN: transport pods -->
+  <!-- EN: site -->
+  <Site.label>工地</Site.label>
+  
+  <!-- UNUSED -->
   <TravelingTransportPods.label>運輸艙</TravelingTransportPods.label>
-  <!-- EN: Transport pods in flight. -->
   <TravelingTransportPods.description>飛行中的運輸艙。</TravelingTransportPods.description>
+  
+  <!-- EN: transport pods -->
+  <TravellingTransporters.label>運輸艙</TravellingTransporters.label>
+  <!-- EN: Transport pods in flight. -->
+  <TravellingTransporters.description>飛行中的運輸艙。</TravellingTransporters.description>
   
 </LanguageData>

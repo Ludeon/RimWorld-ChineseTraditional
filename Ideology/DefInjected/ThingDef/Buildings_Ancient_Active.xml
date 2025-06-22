@@ -5,21 +5,17 @@
   <AncientCommsConsole.label>遠古通訊台</AncientCommsConsole.label>
   <!-- EN: An ancient console with an attached communications dish. Valuable parts are missing, and everything else is degraded to uselessness. -->
   <AncientCommsConsole.description>備有通訊天線的遠古通訊台。有用的零件不知所蹤，剩下的都已被分解成廢物。</AncientCommsConsole.description>
+  <!-- EN: Hack to access ancient supply satellite. -->
+  <AncientCommsConsole.comps.CompHackable.notHackedInspectString>破解以聯絡遠古補給衛星。</AncientCommsConsole.comps.CompHackable.notHackedInspectString>
   
   <!-- EN: ancient enemy terminal -->
   <AncientEnemyTerminal.label>遠古敵用通訊台</AncientEnemyTerminal.label>
   <!-- EN: An ancient computer terminal. It can be hacked to call nearby enemies. -->
   <AncientEnemyTerminal.description>遠古電腦終端。破解後可以與附近的敵人通訊。</AncientEnemyTerminal.description>
-  
-  <!-- EN: ancient unstable fuel node -->
-  <AncientFuelNode.label>不穩定的遠古燃油節點</AncientFuelNode.label>
-  <!-- EN: An ancient, unstable fuel node once used to charge machines with fuel. It has become unstable over the years due to lack of maintenance. -->
-  <AncientFuelNode.description>不穩定的遠古燃油節點，曾為機械補充燃料。年久失修，至今運作變得不穩定。</AncientFuelNode.description>
-  
-  <!-- EN: hermetic crate -->
-  <AncientHermeticCrate.label>密封儲存箱</AncientHermeticCrate.label>
-  <!-- EN: A self-powered hermetically-sealed crate for preserving valuable items. These can preserve their contents for a long time. -->
-  <AncientHermeticCrate.description>自發電的密封箱，用於保存珍貴物品。能夠維持很長的時間。</AncientHermeticCrate.description>
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. -->
+  <AncientEnemyTerminal.comps.CompHackable.autohackWarningString>破解此{0}會引發敵人的警報並前來攻擊。</AncientEnemyTerminal.comps.CompHackable.autohackWarningString>
+  <!-- EN: Hack to call nearby enemies. -->
+  <AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>破解以與附近的敵人通訊。</AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>
   
   <!-- EN: security crate -->
   <AncientSecurityCrate.label>戒護儲存箱</AncientSecurityCrate.label>

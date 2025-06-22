@@ -51,8 +51,6 @@
   <Appearance>外觀</Appearance>
   <!-- EN: Done -->
   <DoneButton>完成</DoneButton>
-  <!-- EN: Caused by -->
-  <CausedBy>由於</CausedBy>
   <!-- EN: Belief in -->
   <BeliefInIdeo>信奉</BeliefInIdeo>
   <!-- EN: Information about {0} -->
@@ -93,17 +91,17 @@
   <Styles>風格</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>得到戒律的機會</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色。在{PAWN_possessive}服裝擁有多於{PERCENTAGE}這種顏色{ORIDEO}會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色:{COLOR}\n在{PAWN_possessive}服裝擁有多於{PERCENTAGE}這種顏色{ORIDEO}會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>，或是{PAWN_possessive}理念顏色，</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>設定為理念顏色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>設定為喜愛顏色</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>{PAWN_nameDef}的喜愛顏色。在{PAWN_possessive}服裝擁有多於 60% 這種顏色或理念顏色會使{PAWN_objective}稍更高興。</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>{PAWN_nameDef}的理念顏色。在{PAWN_possessive}服裝擁有多於 60% 這種顏色或理念顏色會使{PAWN_objective}稍更高興。</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>設定你的派系理念</ConfigureIdeoligion>
@@ -116,7 +114,7 @@
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
   <NotEnoughDyeWillRecolorHair>居民會在染劑足夠時漂染頭髮。</NotEnoughDyeWillRecolorHair>
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
-  <IdeoCertaintyTooltip>{PAWN_labelShort}對{IDEO}的感悟處於{PERCENTAGE}</IdeoCertaintyTooltip>
+  <IdeoCertaintyTooltip>{PAWN_labelShort}對{IDEO}的感悟處於{PERCENTAGE}水準</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
   <DisabledByPrecept>因戒律{0}禁用</DisabledByPrecept>
   <!-- EN: Everyone -->
@@ -204,13 +202,13 @@
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite}的聯結近期受到破壞。經過{1}後才能再與它聯結。</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({1} total). -->
-  <RitualTargetWoodInfo>你需要為每位參與者預備{0}木頭(總共{1})。</RitualTargetWoodInfo> <!-- text_todo -->
-  <!-- EN: {0} participant cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppend>{0}位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppend> <!-- text_todo -->
+  <RitualTargetWoodInfo>你需要為每位參與者預備{0}木頭(總共{1})。</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>1位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppend>
   <!-- EN: {0} participants cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppendMultiple>{0}位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppendMultiple> <!-- text_todo -->
+  <RitualTargetWoodInfoAppendMultiple>{0}位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppendMultiple>
   <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
-  <RitualTargetWoodInfoWarning>{PAWN_labelShort}無法拿到足夠的木頭。</RitualTargetWoodInfoWarning> <!-- text_todo -->
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort}無法拿到足夠的木頭。</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0}必須能碰到儀式道具。</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -384,18 +382,6 @@
   <!-- EN: Slave -->
   <OutfitSlave>奴隸</OutfitSlave>
 
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>破解</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>破解速度</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>{0}的</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>已經破解</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>已被破解的終端機</TerminalsHacked>
-
   <!-- EN: Relic info found -->
   <RelicInfoFound>找到聖物資訊</RelicInfoFound>
   <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
@@ -490,7 +476,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>目標</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}會經常修剪{TREE_definite}直至聯結力高於以上水準。\n\n更高的聯結力容許承載更多樹精，但也下降得更快，因此將需要花更多時間修剪才能維持。\n\n你可以點擊進度條去設定目標聯結力。\n\n每天聯結力下降︰{FALL}\n\n聯結力也受周邊建築物影響。</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}會經常修剪{TREE_definite}直至聯結力高於以上水準。\n\n更高的聯結力容許承載更多樹精，但也下降得更快，因此將需要花更多時間修剪才能維持。\n\n你可以點擊進度條去設置目標聯結力。\n\n每天聯結力下降︰{FALL}\n\n聯結力也受周邊建築物影響。</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}更改樹精種類。</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -560,7 +546,7 @@
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>移除新理念</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideoligion -->
-  <MakeIdeoligionPrimary>設為首要理念</MakeIdeoligionPrimary>
+  <MakeIdeoligionPrimary>設置為首要理念</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
@@ -668,6 +654,8 @@
   <ChangeStyleDesc>改變它內置的風格。這純粹影響外觀，對遊戲沒有影響。</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>沒有可用的風格。</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>無人機自毀於{0}</SpacedroneSelfDestructsIn>
 
   <!-- UNUSED -->
   <RitualTargeWoodInfo>你需要為每位參與者預備{0}木頭(總共{2})。你擁有{1}木頭。</RitualTargeWoodInfo>

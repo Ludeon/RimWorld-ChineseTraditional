@@ -168,7 +168,7 @@
   <ToxifierGenerator.generalRules.rulesStrings>
     <li>subject->毒能發電機</li>
     <li>subject_story->帶領一隊清理人員前往有毒小行星</li>
-    <li>subject_story->在一個破天者的地下污水坑中認識到毒化器</li>
+    <li>subject_story->在一個破天大樓的地底污水坑中認識到毒化器</li>
     <li>subject_story->為都市企業研發廉價且不潔淨的能源</li>
     <li>subject_gerund->建造毒能發電機</li>
   </ToxifierGenerator.generalRules.rulesStrings>
@@ -181,7 +181,7 @@
     <li>subject->xenogermination</li>
     <li>subject->genetic implantation</li>
     <li>subject_story->was uplifted by a glitterworld charity that focused on the genetically disadvantaged</li>
-    <li>subject_story->had their genes stolen by a rogue biologist</li>
+    <li>subject_story->had [ANYPAWN_possessive] genes stolen by a rogue biologist</li>
     <li>subject_story->ran a genetic transfer clinic for the glitterworld elite</li>
     <li>subject_gerund->crafting xenogerms</li>
   -->
@@ -189,7 +189,7 @@
     <li>subject->異種遺傳</li>
     <li>subject->基因植入</li>
     <li>subject_story->受致力改善天生弱勢的閃耀世界慈善者的幫助</li>
-    <li>subject_story->他們的基因被一個流氓生物學家偷走了</li>
+    <li>subject_story->[ANYPAWN_possessive]基因被一個流氓生物學家偷走了</li>
     <li>subject_story->營運一間為閃耀世界精英服務的基因轉移中心</li>
     <li>subject_gerund->製造異種細胞</li>
   </Xenogermination.generalRules.rulesStrings>
