@@ -1182,7 +1182,7 @@
     <li>learning_story->被囚禁在[prisonworld]的Cellcity V中學習[subject]，永遠為[ANYPAWN_possessive]無罪抗議</li>
     <li>learning_story->在[trashworld]垃圾世界收集失業的閃耀世界公民丟棄的紙碎，在蜂巢堆中拼湊出這個[subject]圖紙</li>
     <li>learning_story->在[dinoworld]上飼養複製阿帕托動物並用它們的肉換取[subject]的知識</li>
-    <li>learning_story->生活在[urbworld]的破天者中，在那裡，[subject]的知識很常見</li>
+    <li>learning_story->生活在[urbworld]的破天大樓中，在那裡，[subject]的知識很常見</li>
     <li>learning_story->在[ruinworld]的外圍死地長大，學習[subject]求生</li>
     <li>calltoadventure->感覺[ANYPAWN_possessive]生活停滯不前。然後有一天，[ANYPAWN_pronoun]發現了[subject]</li>
     <li>calltoadventure->被委託以[ANYPAWN_possessive][subject]知識，自己建立一個新的殖民地</li>
@@ -1222,7 +1222,7 @@
     <li>digression->[author]在這裡插入了一個腳註，關於[digression_subject]</li>
     <li>digression->目前尚不清楚故事為何轉向[digression_subject]</li>
     <li>digression->令人驚訝的是，圖紙[contain_verb]有關[digression_subject]的信息</li>
-    <li>digression->而[digression_subject]部分不相關</li>
+    <li>digression->而[digression_subject]的部分並不相關</li>
     <li>digression_subject->愛情和戰爭</li>
     <li>digression_subject->無休無止、逐漸變多但無關痛癢的政治分歧</li>
     <li>digression_subject->閃耀世界的美食趨勢</li>
@@ -1236,7 +1236,7 @@
     <li>digression_subject->[glassworld]淪陷城市中缺乏微生物</li>
     <li>digression_subject->[indworld]窮人的短暫生命</li>
     <li>digression_subject->在[worldname]戰爭後的都市世界中高地廢墟拾荒者的適應力</li>
-    <li>digression_subject->[coreworld]中與富有的破天者以物易物換得中性胺的事</li>
+    <li>digression_subject->在[coreworld]中富裕的破天大樓進行中性胺貿易</li>
     <li>aftermath->這些頁面僅傳達[author]的故事</li>
     <li>aftermath->另一張[note]寫著[author]最後一次被看到時正在前往[deathworld]</li>
     <li>aftermath->這裡的頁面被撕掉了</li>
@@ -1404,180 +1404,180 @@
     <li>feralworld->[animalworld]</li>
     <li>milworld->[warworld]</li>
     <li>animalworld->索恩</li>
-    <li>animalworld->Rhydell</li>
-    <li>animalworld->Zoutera</li>
-    <li>animalworld->Thylacine</li>
-    <li>animalworld->Jiai</li>
-    <li>animalworld->Steller's World</li>
-    <li>animalworld->Aukton</li>
-    <li>asteroid->Iwamura</li>
-    <li>asteroid->Atura</li>
-    <li>asteroid->Widdershins</li>
-    <li>asteroid->Ranomi</li>
-    <li>asteroid->Aesh 265</li>
-    <li>asteroid->Taxlos</li>
-    <li>asteroid->Aryn Sigma</li>
-    <li>coreworld->Novaroma</li>
-    <li>coreworld->Lutuni</li>
-    <li>coreworld->Zeglar</li>
-    <li>coreworld->Novaroma</li>
-    <li>coreworld->Cormora Prime</li>
-    <li>coreworld->Glossolia</li>
-    <li>coreworld->Barbaros</li>
-    <li>deadworld->Callos IX</li>
-    <li>deadworld->Haspia</li>
-    <li>deadworld->Gost IV</li>
-    <li>deadworld->Berimund</li>
-    <li>deadworld->Ardar</li>
-    <li>deadworld->Kremhild</li>
-    <li>deadworld->Melisandz</li>
-    <li>deathworld->Creticon</li>
-    <li>deathworld->Zartza</li>
-    <li>deathworld->Rayth</li>
-    <li>deathworld->Spectra</li>
-    <li>deathworld->JNovahex</li>
-    <li>deathworld->Carthago</li>
-    <li>deathworld->Grimcore</li>
-    <li>dinoworld->Oubanyen</li>
-    <li>dinoworld->Zoutera</li>
-    <li>dinoworld->Einio</li>
-    <li>dinoworld->Baryonyx</li>
-    <li>dinoworld->N'cilo</li>
-    <li>dinoworld->Venator</li>
-    <li>dinoworld->Brach</li>
-    <li>feudalworld->Aracena VI</li>
-    <li>feudalworld->Nuchadus</li>
-    <li>feudalworld->Filson</li>
-    <li>feudalworld->Fieth</li>
-    <li>feudalworld->Bloch Regis</li>
-    <li>feudalworld->Carlosphere</li>
-    <li>feudalworld->Magna Dijou</li>
-    <li>glassworld->Ceti V</li>
-    <li>glassworld->Thebes XIV</li>
-    <li>glassworld->Naga</li>
-    <li>glassworld->Merv</li>
-    <li>glassworld->Perse</li>
-    <li>glassworld->Shechem</li>
-    <li>glassworld->Yelhazor</li>
-    <li>glitterworld->Kalthas IV</li>
-    <li>glitterworld->Amen-Ti</li>
-    <li>glitterworld->Sophiamunda</li>
-    <li>glitterworld->Rogia</li>
-    <li>glitterworld->Utmaior</li>
-    <li>glitterworld->Caspian</li>
-    <li>glitterworld->Kenerella</li>
-    <li>iceworld->Yttak</li>
-    <li>iceworld->Dedchenko</li>
-    <li>iceworld->Baltoro</li>
-    <li>iceworld->Furtwale</li>
-    <li>iceworld->Jaqua</li>
-    <li>iceworld->Christensen</li>
-    <li>iceworld->Barnes</li>
-    <li>indworld->Irithir</li>
-    <li>indworld->New China</li>
-    <li>indworld->Hudders</li>
-    <li>indworld->Iver</li>
-    <li>indworld->Achesta</li>
-    <li>indworld->Oods</li>
-    <li>indworld->Iladelf</li>
-    <li>medievalworld->Chelis</li>
-    <li>medievalworld->Vinna</li>
-    <li>medievalworld->Cassone</li>
-    <li>medievalworld->Jork</li>
-    <li>medievalworld->Cochmar</li>
-    <li>medievalworld->Alin</li>
-    <li>medievalworld->Dubrognago</li>
-    <li>midworld->Khalderia</li>
-    <li>midworld->Elsin</li>
-    <li>midworld->Haihan</li>
-    <li>midworld->Seolure</li>
-    <li>midworld->Panga</li>
-    <li>midworld->New London CXI </li>
-    <li>midworld->San Delenda</li>
-    <li>mineworld->Xanides</li>
-    <li>mineworld->Bingham</li>
-    <li>mineworld->Saarhi</li>
-    <li>mineworld->Grasbeg</li>
-    <li>mineworld->Chuqui</li>
-    <li>mineworld->Olimpia</li>
-    <li>mineworld->Orme</li>
-    <li>oceanicworld->Wavia</li>
-    <li>oceanicworld->Wadka</li>
-    <li>oceanicworld->Gichen</li>
-    <li>oceanicworld->Port Yam</li>
-    <li>oceanicworld->Baia</li>
-    <li>oceanicworld->Thonis</li>
-    <li>oceanicworld->Moaui</li>
-    <li>prisonworld->Yttak</li>
-    <li>prisonworld->Aldgate</li>
-    <li>prisonworld->Borren</li>
-    <li>prisonworld->Hoalo</li>
-    <li>prisonworld->Casmina</li>
-    <li>prisonworld->Port Basil</li>
-    <li>prisonworld->Chateau D'Ouen</li>
-    <li>rimworld->Filson</li>
-    <li>rimworld->La Grand</li>
-    <li>rimworld->Dalles</li>
-    <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
-    <li>rimworld->Devil's Gate</li>
-    <li>rimworld->Laramiere</li>
-    <li>ruinworld->Earth</li>
-    <li>ruinworld->Ilwaba</li>
-    <li>ruinworld->Xennoa</li>
-    <li>ruinworld->Pichu</li>
-    <li>ruinworld->Perdida</li>
-    <li>ruinworld->Hisarlik</li>
-    <li>ruinworld->Helike</li>
-    <li>shellworld->Boccocarro</li>
-    <li>shellworld->Destria</li>
-    <li>shellworld->Trophic</li>
-    <li>shellworld->Matrio</li>
-    <li>shellworld->Samen</li>
-    <li>shellworld->Xinthia</li>
-    <li>shellworld->Ferbine</li>
-    <li>steamworld->Corliss</li>
-    <li>steamworld->Borassic</li>
-    <li>steamworld->Savery II</li>
-    <li>steamworld->Heron</li>
-    <li>steamworld->Malmesburi</li>
-    <li>steamworld->Architonnerre</li>
-    <li>steamworld->Escapement</li>
-    <li>toxicworld->Scylla</li>
-    <li>toxicworld->Mauro</li>
-    <li>toxicworld->Cerospor</li>
-    <li>toxicworld->Oxy VI</li>
-    <li>toxicworld->Sangwine</li>
-    <li>toxicworld->Soleno</li>
-    <li>toxicworld->Imbatus</li>
-    <li>transcendentworld->Xaroh</li>
-    <li>transcendentworld->Immanence VI</li>
-    <li>transcendentworld->Qabba</li>
-    <li>transcendentworld->Einsof</li>
-    <li>transcendentworld->Mitvo</li>
-    <li>transcendentworld->Samydi</li>
-    <li>transcendentworld->Samsarr</li>
-    <li>trashworld->Bagua 5</li>
-    <li>trashworld->Puobell</li>
-    <li>trashworld->Deni IX</li>
-    <li>trashworld->Garbsh</li>
-    <li>trashworld->Tra'age</li>
-    <li>trashworld->Reepsyk</li>
-    <li>trashworld->Mystras</li>
-    <li>urbworld->Euterpe</li>
-    <li>urbworld->Avenna</li>
-    <li>urbworld->Essalon</li>
-    <li>urbworld->Enike</li>
-    <li>urbworld->Adocia</li>
-    <li>urbworld->N'toch</li>
-    <li>urbworld->Barca</li>
-    <li>warworld->Kemia</li>
-    <li>warworld->Vanu</li>
-    <li>warworld->Samnium</li>
-    <li>warworld->Kyrus</li>
-    <li>warworld->Punica</li>
-    <li>warworld->Cimbria XII</li>
-    <li>warworld->Barkitos</li>
+    <li>animalworld->雷特爾</li>
+    <li>animalworld->祖特拉</li>
+    <li>animalworld->快樂仙</li>
+    <li>animalworld->芝艾</li>
+    <li>animalworld->斯特勒界</li>
+    <li>animalworld->阿吉堂</li>
+    <li>asteroid->岩村</li>
+    <li>asteroid->亞圖拉</li>
+    <li>asteroid->韋達臣</li>
+    <li>asteroid->拉諾米</li>
+    <li>asteroid->耶舒265</li>
+    <li>asteroid->達洛斯</li>
+    <li>asteroid->阿連西格瑪</li>
+    <li>coreworld->新羅馬</li>
+    <li>coreworld->倫通尼</li>
+    <li>coreworld->齊格勒</li>
+    <li>coreworld->新羅馬</li>
+    <li>coreworld->哥摩拉柏拉梅</li>
+    <li>coreworld->葛素尼亞</li>
+    <li>coreworld->巴巴羅斯</li>
+    <li>deadworld->加洛士IX</li>
+    <li>deadworld->赫士匹</li>
+    <li>deadworld->古思徹IV</li>
+    <li>deadworld->巴雷木</li>
+    <li>deadworld->雅達</li>
+    <li>deadworld->基姆希利</li>
+    <li>deadworld->美麗沙</li>
+    <li>deathworld->剋敵抗</li>
+    <li>deathworld->薩沙</li>
+    <li>deathworld->尼孚</li>
+    <li>deathworld->瑞柏</li>
+    <li>deathworld->積新希斯</li>
+    <li>deathworld->卡發奧</li>
+    <li>deathworld->愁喪之心</li>
+    <li>dinoworld->歐巴延</li>
+    <li>dinoworld->祖特拉</li>
+    <li>dinoworld->厄尼奧</li>
+    <li>dinoworld->巴利悠尼斯</li>
+    <li>dinoworld->力士路</li>
+    <li>dinoworld->芬勒泰</li>
+    <li>dinoworld->布勒西</li>
+    <li>feudalworld->阿拉塞納VI</li>
+    <li>feudalworld->努查提斯</li>
+    <li>feudalworld->費迅</li>
+    <li>feudalworld->斐孚</li>
+    <li>feudalworld->布洛齊歷斯</li>
+    <li>feudalworld->卡洛星</li>
+    <li>feudalworld->瑪納迪由</li>
+    <li>glassworld->西提V</li>
+    <li>glassworld->費比斯XIV</li>
+    <li>glassworld->拿加</li>
+    <li>glassworld->瑪弗</li>
+    <li>glassworld->普斯</li>
+    <li>glassworld->施加姆</li>
+    <li>glassworld->耶哈索</li>
+    <li>glitterworld->卡塔納IV</li>
+    <li>glitterworld->阿門-太</li>
+    <li>glitterworld->索菲婭蒙達</li>
+    <li>glitterworld->羅吉亞</li>
+    <li>glitterworld->兀未亞</li>
+    <li>glitterworld->裏海</li>
+    <li>glitterworld->卡納尼娜</li>
+    <li>iceworld->依達</li>
+    <li>iceworld->迪青哥</li>
+    <li>iceworld->巴徒洛</li>
+    <li>iceworld->福威爾</li>
+    <li>iceworld->也夸</li>
+    <li>iceworld->基斯迪臣</li>
+    <li>iceworld->巴歷斯</li>
+    <li>indworld->伊利飛</li>
+    <li>indworld->新中國</li>
+    <li>indworld->吼達</li>
+    <li>indworld->艾乎亞</li>
+    <li>indworld->阿車士達</li>
+    <li>indworld->俄奧度斯</li>
+    <li>indworld->伊拉迪夫</li>
+    <li>medievalworld->切利斯</li>
+    <li>medievalworld->芬拿</li>
+    <li>medievalworld->卡頌</li>
+    <li>medievalworld->約可</li>
+    <li>medievalworld->哥積瑪</li>
+    <li>medievalworld->亞寧</li>
+    <li>medievalworld->都布蘭哥</li>
+    <li>midworld->卡拉迪尼亞</li>
+    <li>midworld->艾辛</li>
+    <li>midworld->海漢</li>
+    <li>midworld->首略</li>
+    <li>midworld->彭加</li>
+    <li>midworld->新倫敦CXI</li>
+    <li>midworld->新德里拉</li>
+    <li>mineworld->珊麗地</li>
+    <li>mineworld->冰咸</li>
+    <li>mineworld->薩亞歷</li>
+    <li>mineworld->加拉士碧</li>
+    <li>mineworld->朱癸</li>
+    <li>mineworld->奧林匹亞</li>
+    <li>mineworld->俄米爾</li>
+    <li>oceanicworld->波維亞</li>
+    <li>oceanicworld->哇卡</li>
+    <li>oceanicworld->基察</li>
+    <li>oceanicworld->山薯港</li>
+    <li>oceanicworld->拜爾亞</li>
+    <li>oceanicworld->科尼斯</li>
+    <li>oceanicworld->摩阿畏</li>
+    <li>prisonworld->依達</li>
+    <li>prisonworld->阿歷基</li>
+    <li>prisonworld->波楞</li>
+    <li>prisonworld->嚎阿努</li>
+    <li>prisonworld->加斯米蘭</li>
+    <li>prisonworld->羅勒港</li>
+    <li>prisonworld->夏多迪奧溫</li>
+    <li>rimworld->費迅</li>
+    <li>rimworld->嘉嵐</li>
+    <li>rimworld->達拉斯</li>
+    <li>rimworld->枝落地</li>
+    <li>rimworld->老波夕</li>
+    <li>rimworld->惡魔門</li>
+    <li>rimworld->拉納米爾</li>
+    <li>ruinworld->地球</li>
+    <li>ruinworld->依哇巴</li>
+    <li>ruinworld->謝路亞</li>
+    <li>ruinworld->比殊</li>
+    <li>ruinworld->波魯迪達</li>
+    <li>ruinworld->海沙瀝</li>
+    <li>ruinworld->希里爾</li>
+    <li>shellworld->西蘭胡羅</li>
+    <li>shellworld->迪索尼亞</li>
+    <li>shellworld->拖魯肥</li>
+    <li>shellworld->馬爹路</li>
+    <li>shellworld->薩門</li>
+    <li>shellworld->辛非亞</li>
+    <li>shellworld->霍賓</li>
+    <li>steamworld->哥歷斯</li>
+    <li>steamworld->保勒析</li>
+    <li>steamworld->賽弗利II</li>
+    <li>steamworld->蒼鷺</li>
+    <li>steamworld->馬姆斯伯里</li>
+    <li>steamworld->亞千度利耶</li>
+    <li>steamworld->阿斯棘明</li>
+    <li>toxicworld->斯庫拉</li>
+    <li>toxicworld->馬奧羅</li>
+    <li>toxicworld->些路士頗</li>
+    <li>toxicworld->厄斯VI</li>
+    <li>toxicworld->辛維爾</li>
+    <li>toxicworld->索寧奴</li>
+    <li>toxicworld->伊姆巴提斯</li>
+    <li>transcendentworld->剎奧</li>
+    <li>transcendentworld->伊密能斯VI</li>
+    <li>transcendentworld->夸伯</li>
+    <li>transcendentworld->艾因索夫</li>
+    <li>transcendentworld->密托維</li>
+    <li>transcendentworld->沙米地</li>
+    <li>transcendentworld->什沙</li>
+    <li>trashworld->八卦巽</li>
+    <li>trashworld->普奧比</li>
+    <li>trashworld->丹尼IX</li>
+    <li>trashworld->格拔殊</li>
+    <li>trashworld->托納齡</li>
+    <li>trashworld->李普斯基</li>
+    <li>trashworld->米斯托拉斯</li>
+    <li>urbworld->越特普</li>
+    <li>urbworld->阿芬拿</li>
+    <li>urbworld->易沙朗</li>
+    <li>urbworld->愛尼克</li>
+    <li>urbworld->艾都斯卡</li>
+    <li>urbworld->牟托主</li>
+    <li>urbworld->巴卡</li>
+    <li>warworld->基美卡</li>
+    <li>warworld->華努</li>
+    <li>warworld->森尼吟</li>
+    <li>warworld->開勒斯</li>
+    <li>warworld->普尼卡</li>
+    <li>warworld->坎巴拉XII</li>
+    <li>warworld->八基托士</li>
     <li>schematic_container->指南</li>
     <li>schematic_container->概要</li>
     <li>schematic_container->活頁夾</li>
@@ -2222,180 +2222,180 @@
     <li>feralworld->[animalworld]</li>
     <li>milworld->[warworld]</li>
     <li>animalworld->索恩</li>
-    <li>animalworld->Rhydell</li>
-    <li>animalworld->Zoutera</li>
-    <li>animalworld->Thylacine</li>
-    <li>animalworld->Jiai</li>
-    <li>animalworld->Steller's World</li>
-    <li>animalworld->Aukton</li>
-    <li>asteroid->Iwamura</li>
-    <li>asteroid->Atura</li>
-    <li>asteroid->Widdershins</li>
-    <li>asteroid->Ranomi</li>
-    <li>asteroid->Aesh 265</li>
-    <li>asteroid->Taxlos</li>
-    <li>asteroid->Aryn Sigma</li>
-    <li>coreworld->Novaroma</li>
-    <li>coreworld->Lutuni</li>
-    <li>coreworld->Zeglar</li>
-    <li>coreworld->Novaroma</li>
-    <li>coreworld->Cormora Prime</li>
-    <li>coreworld->Glossolia</li>
-    <li>coreworld->Barbaros</li>
-    <li>deadworld->Callos IX</li>
-    <li>deadworld->Haspia</li>
-    <li>deadworld->Gost IV</li>
-    <li>deadworld->Berimund</li>
-    <li>deadworld->Ardar</li>
-    <li>deadworld->Kremhild</li>
-    <li>deadworld->Melisandz</li>
-    <li>deathworld->Creticon</li>
-    <li>deathworld->Zartza</li>
-    <li>deathworld->Rayth</li>
-    <li>deathworld->Spectra</li>
-    <li>deathworld->JNovahex</li>
-    <li>deathworld->Carthago</li>
-    <li>deathworld->Grimcore</li>
-    <li>dinoworld->Oubanyen</li>
-    <li>dinoworld->Zoutera</li>
-    <li>dinoworld->Einio</li>
-    <li>dinoworld->Baryonyx</li>
-    <li>dinoworld->N'cilo</li>
-    <li>dinoworld->Venator</li>
-    <li>dinoworld->Brach</li>
-    <li>feudalworld->Aracena VI</li>
-    <li>feudalworld->Nuchadus</li>
-    <li>feudalworld->Filson</li>
-    <li>feudalworld->Fieth</li>
-    <li>feudalworld->Bloch Regis</li>
-    <li>feudalworld->Carlosphere</li>
-    <li>feudalworld->Magna Dijou</li>
-    <li>glassworld->Ceti V</li>
-    <li>glassworld->Thebes XIV</li>
-    <li>glassworld->Naga</li>
-    <li>glassworld->Merv</li>
-    <li>glassworld->Perse</li>
-    <li>glassworld->Shechem</li>
-    <li>glassworld->Yelhazor</li>
-    <li>glitterworld->Kalthas IV</li>
-    <li>glitterworld->Amen-Ti	</li>
-    <li>glitterworld->Sophiamunda </li>
-    <li>glitterworld->Rogia</li>
-    <li>glitterworld->Utmaior</li>
-    <li>glitterworld->Caspian</li>
-    <li>glitterworld->Kenerella</li>
-    <li>iceworld->Yttak</li>
-    <li>iceworld->Dedchenko</li>
-    <li>iceworld->Baltoro</li>
-    <li>iceworld->Furtwale</li>
-    <li>iceworld->Jaqua</li>
-    <li>iceworld->Christensen</li>
-    <li>iceworld->Barnes</li>
-    <li>indworld->Irithir</li>
-    <li>indworld->New China</li>
-    <li>indworld->Hudders</li>
-    <li>indworld->Iver</li>
-    <li>indworld->Achesta</li>
-    <li>indworld->Oods</li>
-    <li>indworld->Iladelf</li>
-    <li>medievalworld->Chelis</li>
-    <li>medievalworld->Vinna</li>
-    <li>medievalworld->Cassone</li>
-    <li>medievalworld->Jork</li>
-    <li>medievalworld->Cochmar</li>
-    <li>medievalworld->Alin</li>
-    <li>medievalworld->Dubrognago</li>
-    <li>midworld->Khalderia</li>
-    <li>midworld->Elsin</li>
-    <li>midworld->Haihan</li>
-    <li>midworld->Seolure</li>
-    <li>midworld->Panga</li>
-    <li>midworld->New London CXI </li>
-    <li>midworld->San Delenda</li>
-    <li>mineworld->Xanides</li>
-    <li>mineworld->Bingham</li>
-    <li>mineworld->Saarhi</li>
-    <li>mineworld->Grasbeg</li>
-    <li>mineworld->Chuqui</li>
-    <li>mineworld->Olimpia</li>
-    <li>mineworld->Orme</li>
-    <li>oceanicworld->Wavia</li>
-    <li>oceanicworld->Wadka</li>
-    <li>oceanicworld->Gichen</li>
-    <li>oceanicworld->Port Yam</li>
-    <li>oceanicworld->Baia</li>
-    <li>oceanicworld->Thonis</li>
-    <li>oceanicworld->Moaui</li>
-    <li>prisonworld->Yttak</li>
-    <li>prisonworld->Aldgate</li>
-    <li>prisonworld->Borren</li>
-    <li>prisonworld->Hoalo</li>
-    <li>prisonworld->Casmina</li>
-    <li>prisonworld->Port Basil</li>
-    <li>prisonworld->Chateau D'Ouen</li>
-    <li>rimworld->Filson</li>
-    <li>rimworld->La Grand</li>
-    <li>rimworld->Dalles</li>
-    <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
-    <li>rimworld->Devil's Gate</li>
-    <li>rimworld->Laramiere</li>
-    <li>ruinworld->Earth</li>
-    <li>ruinworld->Ilwaba</li>
-    <li>ruinworld->Xennoa</li>
-    <li>ruinworld->Pichu</li>
-    <li>ruinworld->Perdida</li>
-    <li>ruinworld->Hisarlik</li>
-    <li>ruinworld->Helike</li>
-    <li>shellworld->Boccocarro</li>
-    <li>shellworld->Destria</li>
-    <li>shellworld->Trophic</li>
-    <li>shellworld->Matrio</li>
-    <li>shellworld->Samen</li>
-    <li>shellworld->Xinthia</li>
-    <li>shellworld->Ferbine</li>
-    <li>steamworld->Corliss</li>
-    <li>steamworld->Borassic</li>
-    <li>steamworld->Savery II</li>
-    <li>steamworld->Heron</li>
-    <li>steamworld->Malmesburi</li>
-    <li>steamworld->Architonnerre</li>
-    <li>steamworld->Escapement</li>
-    <li>toxicworld->Scylla</li>
-    <li>toxicworld->Mauro</li>
-    <li>toxicworld->Cerospor</li>
-    <li>toxicworld->Oxy VI</li>
-    <li>toxicworld->Sangwine</li>
-    <li>toxicworld->Soleno</li>
-    <li>toxicworld->Imbatus</li>
-    <li>transcendentworld->Xaroh</li>
-    <li>transcendentworld->Immanence VI</li>
-    <li>transcendentworld->Qabba</li>
-    <li>transcendentworld->Einsof</li>
-    <li>transcendentworld->Mitvo</li>
-    <li>transcendentworld->Samydi</li>
-    <li>transcendentworld->Samsarr</li>
-    <li>trashworld->Bagua 5</li>
-    <li>trashworld->Puobell</li>
-    <li>trashworld->Deni IX</li>
-    <li>trashworld->Garbsh</li>
-    <li>trashworld->Tra'age</li>
-    <li>trashworld->Reepsyk</li>
-    <li>trashworld->Mystras</li>
-    <li>urbworld->Euterpe</li>
-    <li>urbworld->Avenna</li>
-    <li>urbworld->Essalon</li>
-    <li>urbworld->Enike</li>
-    <li>urbworld->Adocia</li>
-    <li>urbworld->N'toch</li>
-    <li>urbworld->Barca</li>
-    <li>warworld->Kemia</li>
-    <li>warworld->Vanu</li>
-    <li>warworld->Samnium</li>
-    <li>warworld->Kyrus</li>
-    <li>warworld->Punica</li>
-    <li>warworld->Cimbria XII</li>
-    <li>warworld->Barkitos</li>
+    <li>animalworld->雷特爾</li>
+    <li>animalworld->祖特拉</li>
+    <li>animalworld->快樂仙</li>
+    <li>animalworld->芝艾</li>
+    <li>animalworld->斯特勒界</li>
+    <li>animalworld->阿吉堂</li>
+    <li>asteroid->岩村</li>
+    <li>asteroid->亞圖拉</li>
+    <li>asteroid->韋達臣</li>
+    <li>asteroid->拉諾米</li>
+    <li>asteroid->耶舒265</li>
+    <li>asteroid->達洛斯</li>
+    <li>asteroid->阿連西格瑪</li>
+    <li>coreworld->新羅馬</li>
+    <li>coreworld->倫通尼</li>
+    <li>coreworld->齊格勒</li>
+    <li>coreworld->新羅馬</li>
+    <li>coreworld->哥摩拉柏拉梅</li>
+    <li>coreworld->葛素尼亞</li>
+    <li>coreworld->巴巴羅斯</li>
+    <li>deadworld->加洛士IX</li>
+    <li>deadworld->赫士匹</li>
+    <li>deadworld->古思徹IV</li>
+    <li>deadworld->巴雷木</li>
+    <li>deadworld->雅達</li>
+    <li>deadworld->基姆希利</li>
+    <li>deadworld->美麗沙</li>
+    <li>deathworld->剋敵抗</li>
+    <li>deathworld->薩沙</li>
+    <li>deathworld->尼孚</li>
+    <li>deathworld->瑞柏</li>
+    <li>deathworld->積新希斯</li>
+    <li>deathworld->卡發奧</li>
+    <li>deathworld->愁喪之心</li>
+    <li>dinoworld->歐巴延</li>
+    <li>dinoworld->祖特拉</li>
+    <li>dinoworld->厄尼奧</li>
+    <li>dinoworld->巴利悠尼斯</li>
+    <li>dinoworld->力士路</li>
+    <li>dinoworld->芬勒泰</li>
+    <li>dinoworld->布勒西</li>
+    <li>feudalworld->阿拉塞納VI</li>
+    <li>feudalworld->努查提斯</li>
+    <li>feudalworld->費迅</li>
+    <li>feudalworld->斐孚</li>
+    <li>feudalworld->布洛齊歷斯</li>
+    <li>feudalworld->卡洛星</li>
+    <li>feudalworld->瑪納迪由</li>
+    <li>glassworld->西提V</li>
+    <li>glassworld->費比斯XIV</li>
+    <li>glassworld->拿加</li>
+    <li>glassworld->瑪弗</li>
+    <li>glassworld->普斯</li>
+    <li>glassworld->施加姆</li>
+    <li>glassworld->耶哈索</li>
+    <li>glitterworld->卡塔納IV</li>
+    <li>glitterworld->阿門-太</li>
+    <li>glitterworld->索菲婭蒙達 </li>
+    <li>glitterworld->羅吉亞</li>
+    <li>glitterworld->兀未亞</li>
+    <li>glitterworld->裏海</li>
+    <li>glitterworld->卡納尼娜</li>
+    <li>iceworld->依達</li>
+    <li>iceworld->迪青哥</li>
+    <li>iceworld->巴徒洛</li>
+    <li>iceworld->福威爾</li>
+    <li>iceworld->也夸</li>
+    <li>iceworld->基斯迪臣</li>
+    <li>iceworld->巴歷斯</li>
+    <li>indworld->伊利飛</li>
+    <li>indworld->新中國</li>
+    <li>indworld->吼達</li>
+    <li>indworld->艾乎亞</li>
+    <li>indworld->阿車士達</li>
+    <li>indworld->俄奧度斯</li>
+    <li>indworld->伊拉迪夫</li>
+    <li>medievalworld->切利斯</li>
+    <li>medievalworld->芬拿</li>
+    <li>medievalworld->卡頌</li>
+    <li>medievalworld->約可</li>
+    <li>medievalworld->哥積瑪</li>
+    <li>medievalworld->亞寧</li>
+    <li>medievalworld->都布蘭哥</li>
+    <li>midworld->卡拉迪尼亞</li>
+    <li>midworld->艾辛</li>
+    <li>midworld->海漢</li>
+    <li>midworld->首略</li>
+    <li>midworld->彭加</li>
+    <li>midworld->新倫敦CXI</li>
+    <li>midworld->新德里拉</li>
+    <li>mineworld->珊麗地</li>
+    <li>mineworld->冰咸</li>
+    <li>mineworld->薩亞歷</li>
+    <li>mineworld->加拉士碧</li>
+    <li>mineworld->朱癸</li>
+    <li>mineworld->奧林匹亞</li>
+    <li>mineworld->俄米爾</li>
+    <li>oceanicworld->波維亞</li>
+    <li>oceanicworld->哇卡</li>
+    <li>oceanicworld->基察</li>
+    <li>oceanicworld->山薯港</li>
+    <li>oceanicworld->拜爾亞</li>
+    <li>oceanicworld->科尼斯</li>
+    <li>oceanicworld->摩阿畏</li>
+    <li>prisonworld->依達</li>
+    <li>prisonworld->阿歷基</li>
+    <li>prisonworld->波楞</li>
+    <li>prisonworld->嚎阿努</li>
+    <li>prisonworld->加斯米蘭</li>
+    <li>prisonworld->羅勒港</li>
+    <li>prisonworld->夏多迪奧溫</li>
+    <li>rimworld->費迅</li>
+    <li>rimworld->嘉嵐</li>
+    <li>rimworld->達拉斯</li>
+    <li>rimworld->枝落地</li>
+    <li>rimworld->老波夕</li>
+    <li>rimworld->惡魔門</li>
+    <li>rimworld->拉納米爾</li>
+    <li>ruinworld->地球</li>
+    <li>ruinworld->依哇巴</li>
+    <li>ruinworld->謝路亞</li>
+    <li>ruinworld->比殊</li>
+    <li>ruinworld->波魯迪達</li>
+    <li>ruinworld->海沙瀝</li>
+    <li>ruinworld->希里爾</li>
+    <li>shellworld->西蘭胡羅</li>
+    <li>shellworld->迪索尼亞</li>
+    <li>shellworld->拖魯肥</li>
+    <li>shellworld->馬爹路</li>
+    <li>shellworld->薩門</li>
+    <li>shellworld->辛非亞</li>
+    <li>shellworld->霍賓</li>
+    <li>steamworld->哥歷斯</li>
+    <li>steamworld->保勒析</li>
+    <li>steamworld->賽弗利II</li>
+    <li>steamworld->蒼鷺</li>
+    <li>steamworld->馬姆斯伯里</li>
+    <li>steamworld->亞千度利耶</li>
+    <li>steamworld->阿斯棘明</li>
+    <li>toxicworld->斯庫拉</li>
+    <li>toxicworld->馬奧羅</li>
+    <li>toxicworld->些路士頗</li>
+    <li>toxicworld->厄斯VI</li>
+    <li>toxicworld->辛維爾</li>
+    <li>toxicworld->索寧奴</li>
+    <li>toxicworld->伊姆巴提斯</li>
+    <li>transcendentworld->剎奧</li>
+    <li>transcendentworld->伊密能斯VI</li>
+    <li>transcendentworld->夸伯</li>
+    <li>transcendentworld->艾因索夫</li>
+    <li>transcendentworld->密托維</li>
+    <li>transcendentworld->沙米地</li>
+    <li>transcendentworld->什沙</li>
+    <li>trashworld->八卦巽</li>
+    <li>trashworld->普奧比</li>
+    <li>trashworld->丹尼IX</li>
+    <li>trashworld->格拔殊</li>
+    <li>trashworld->托納齡</li>
+    <li>trashworld->李普斯基</li>
+    <li>trashworld->米斯托拉斯</li>
+    <li>urbworld->越特普</li>
+    <li>urbworld->阿芬拿</li>
+    <li>urbworld->易沙朗</li>
+    <li>urbworld->愛尼克</li>
+    <li>urbworld->艾都斯卡</li>
+    <li>urbworld->牟托主</li>
+    <li>urbworld->巴卡</li>
+    <li>warworld->基美卡</li>
+    <li>warworld->華努</li>
+    <li>warworld->森尼吟</li>
+    <li>warworld->開勒斯</li>
+    <li>warworld->普尼卡</li>
+    <li>warworld->坎巴拉XII</li>
+    <li>warworld->八基托士</li>
   </Description_SkillBook.rulePack.rulesStrings>
   
 </LanguageData>

@@ -92,7 +92,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>得到戒律的機會</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色。在{PAWN_possessive}服裝擁有多於{PERCENTAGE}這種顏色{ORIDEO}會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色:{COLOR}\n在{PAWN_possessive}服裝擁有多於{PERCENTAGE}這種顏色{ORIDEO}會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>，或是{PAWN_possessive}理念顏色，</OrIdeoColor>
   <!-- EN: Set ideo color -->
@@ -114,7 +114,7 @@
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
   <NotEnoughDyeWillRecolorHair>居民會在染劑足夠時漂染頭髮。</NotEnoughDyeWillRecolorHair>
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
-  <IdeoCertaintyTooltip>{PAWN_labelShort}對{IDEO}的感悟處於{PERCENTAGE}</IdeoCertaintyTooltip>
+  <IdeoCertaintyTooltip>{PAWN_labelShort}對{IDEO}的感悟處於{PERCENTAGE}水準</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
   <DisabledByPrecept>因戒律{0}禁用</DisabledByPrecept>
   <!-- EN: Everyone -->
@@ -204,7 +204,7 @@
   <!-- EN: You need {0} wood for each participant ({1} total). -->
   <RitualTargetWoodInfo>你需要為每位參與者預備{0}木頭(總共{1})。</RitualTargetWoodInfo>
   <!-- EN: A participant cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppend>一位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppend>
+  <RitualTargetWoodInfoAppend>1位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppend>
   <!-- EN: {0} participants cannot reach enough wood. -->
   <RitualTargetWoodInfoAppendMultiple>{0}位參與者無法拿到足夠的木頭。</RitualTargetWoodInfoAppendMultiple>
   <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->

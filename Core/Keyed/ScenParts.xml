@@ -21,13 +21,13 @@
   <ScenPart_StartingResearchFinished>開局附帶科技：{0}</ScenPart_StartingResearchFinished>
   
   <!-- EN: Arrive in drop pods. -->
-  <ScenPart_ArriveInDropPods>使用降落艙開局。</ScenPart_ArriveInDropPods>
+  <ScenPart_ArriveInDropPods>使用空降艙開局。</ScenPart_ArriveInDropPods>
 
   <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
   <ScenPart_StatFactor>屬性值"{0}"將統一倍率為{1}。</ScenPart_StatFactor>
   
   <!-- EN: Select -->
-  <ScenPart_SelectQuestDef>TODO</ScenPart_SelectQuestDef>
+  <ScenPart_SelectQuestDef>選取</ScenPart_SelectQuestDef>
 
   <!-- Pawn modifiers -->
   <!-- EN: {0} have a {1} chance to start with {2}. -->
@@ -61,7 +61,7 @@
   <PawnCount>{COUNT}名{KINDLABEL}</PawnCount>
   
   <!-- EN: One or more parts in this scenario could not be loaded due to missing modded content.\n\nYou can load the scenario with all its required mods, or load it anyway without the missing scenario parts. -->
-  <ScenPart_Error>TODO</ScenPart_Error>
+  <ScenPart_Error>此腳本有一個或更多部份因為欠缺模組內容而無法載入。\n\n你可以集齊所有需要的模組後載入此腳本，或者繼續在欠缺腳本的部份下載入。</ScenPart_Error>
 
   <!-- ======================== Grouped ========================-->
 
@@ -81,47 +81,47 @@
   <!-- ======================== Layers ========================-->
   
   <!-- EN: Tag -->
-  <ScenPart_PlanetLayerTag>TODO</ScenPart_PlanetLayerTag>
+  <ScenPart_PlanetLayerTag>標記</ScenPart_PlanetLayerTag>
   <!-- EN: Must have a unique tag -->
-  <ScenPart_PlanetLayerTag_Error>TODO</ScenPart_PlanetLayerTag_Error>
+  <ScenPart_PlanetLayerTag_Error>必須取一個獨有的標記</ScenPart_PlanetLayerTag_Error>
   
   <!-- EN: Settings -->
-  <ScenPart_PlanetLayerSettings>TODO</ScenPart_PlanetLayerSettings>
+  <ScenPart_PlanetLayerSettings>設定</ScenPart_PlanetLayerSettings>
   <!-- EN: Use settings def -->
-  <ScenPart_PlanetLayerSettings_UseDef>TODO</ScenPart_PlanetLayerSettings_UseDef>
+  <ScenPart_PlanetLayerSettings_UseDef>使用預設設定</ScenPart_PlanetLayerSettings_UseDef>
   <!-- EN: Select -->
-  <ScenPart_PlanetLayerSettings_SelectDef>TODO</ScenPart_PlanetLayerSettings_SelectDef>
+  <ScenPart_PlanetLayerSettings_SelectDef>選取</ScenPart_PlanetLayerSettings_SelectDef>
   <!-- EN: Position -->
-  <ScenPart_PlanetLayerSettings_Position>TODO</ScenPart_PlanetLayerSettings_Position>
+  <ScenPart_PlanetLayerSettings_Position>位置</ScenPart_PlanetLayerSettings_Position>
   <!-- EN: Radius -->
-  <ScenPart_PlanetLayerSettings_Radius>TODO</ScenPart_PlanetLayerSettings_Radius>
+  <ScenPart_PlanetLayerSettings_Radius>半徑</ScenPart_PlanetLayerSettings_Radius>
   <!-- EN: Use surface view angle -->
-  <ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>TODO</ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>
+  <ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>使用地表視角</ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>
   <!-- EN: View angle -->
-  <ScenPart_PlanetLayerSettings_ViewAngle>TODO</ScenPart_PlanetLayerSettings_ViewAngle>
+  <ScenPart_PlanetLayerSettings_ViewAngle>視角</ScenPart_PlanetLayerSettings_ViewAngle>
   <!-- EN: Extra camera height -->
-  <ScenPart_PlanetLayerSettings_ExtraCameraAltitude>TODO</ScenPart_PlanetLayerSettings_ExtraCameraAltitude>
+  <ScenPart_PlanetLayerSettings_ExtraCameraAltitude>額外鏡頭高度</ScenPart_PlanetLayerSettings_ExtraCameraAltitude>
   <!-- EN: Subdivisions -->
-  <ScenPart_PlanetLayerSettings_Subdivisions>TODO</ScenPart_PlanetLayerSettings_Subdivisions>
+  <ScenPart_PlanetLayerSettings_Subdivisions>區域細分</ScenPart_PlanetLayerSettings_Subdivisions>
   <!-- EN: Background camera offset -->
-  <ScenPart_PlanetLayerSettings_BackgroundOffset>TODO</ScenPart_PlanetLayerSettings_BackgroundOffset>
+  <ScenPart_PlanetLayerSettings_BackgroundOffset>背景鏡頭偏移</ScenPart_PlanetLayerSettings_BackgroundOffset>
   <!-- EN: Background parallax per 100 cells -->
-  <ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>TODO</ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>
+  <ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>每100格的背景視差</ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>
   
   <!-- EN: Connections -->
-  <ScenPart_PlanetLayerConnections>TODO</ScenPart_PlanetLayerConnections>
+  <ScenPart_PlanetLayerConnections>連接</ScenPart_PlanetLayerConnections>
   <!-- EN: Add connection -->
-  <ScenPart_PlanetLayerConnections_Add>TODO</ScenPart_PlanetLayerConnections_Add>
+  <ScenPart_PlanetLayerConnections_Add>加入連接</ScenPart_PlanetLayerConnections_Add>
   <!-- EN: No zoom -->
-  <ScenPart_PlanetLayerConnections_Zoom>TODO</ScenPart_PlanetLayerConnections_Zoom>
+  <ScenPart_PlanetLayerConnections_Zoom>無縮放</ScenPart_PlanetLayerConnections_Zoom>
   <!-- EN: Zoom in -->
-  <ScenPart_PlanetLayerConnections_ZoomIn>TODO</ScenPart_PlanetLayerConnections_ZoomIn>
+  <ScenPart_PlanetLayerConnections_ZoomIn>放大</ScenPart_PlanetLayerConnections_ZoomIn>
   <!-- EN: Zoom out -->
-  <ScenPart_PlanetLayerConnections_ZoomOut>TODO</ScenPart_PlanetLayerConnections_ZoomOut>
+  <ScenPart_PlanetLayerConnections_ZoomOut>縮小</ScenPart_PlanetLayerConnections_ZoomOut>
   <!-- EN: Fuel cost -->
-  <ScenPart_PlanetLayerConnections_Fuel>TODO</ScenPart_PlanetLayerConnections_Fuel>
+  <ScenPart_PlanetLayerConnections_Fuel>燃料消耗</ScenPart_PlanetLayerConnections_Fuel>
   
   <!-- EN: Planet layer -->
-  <ScenPart_ForcedMapPlanetLayer>TODO</ScenPart_ForcedMapPlanetLayer>
+  <ScenPart_ForcedMapPlanetLayer>星球層</ScenPart_ForcedMapPlanetLayer>
 
 </LanguageData>

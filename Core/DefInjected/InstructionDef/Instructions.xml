@@ -84,7 +84,7 @@
   <ChangeWorkSettings.text>你可以在「工作」面板控制個別殖民者應該那些工作。居民只會做他們分配到的工作，優先度由左向右遞減。\n\n請嘗試調整一些設定。\n\n請留意，即使優先度設定會讓工作效率低落，居民的工作順序絕對會遵照優先度先後進行，因此，建立一套高效的工作設定是順利遊戲的一大關鍵。請細心設定工作優先度，並且經常根據當下狀況進行調整。</ChangeWorkSettings.text>
   
   <!-- EN: Please choose a temperate forest site with no hills (light green with no brown dots), and with no Landmark or Mixed Biome feature in the TERRAIN tab. -->
-  <ChooseLandingSite.rejectInputMessage>請選擇地形平坦的溫帶森林生態系。</ChooseLandingSite.rejectInputMessage>
+  <ChooseLandingSite.rejectInputMessage>請選擇地形平坦的溫帶森林地點(淺綠無棕點)，且「地形」面板沒有地標或混合生態系特性。</ChooseLandingSite.rejectInputMessage>
   <!-- EN: Here you choose your starting site.\n\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile. -->
   <ChooseLandingSite.text>在這裡，你可以選擇你將降落的地點。\n\n在這顆星球上有許許多多的生態系，但現在，讓我們先從較容易生存的開始。\n\n選擇一個地形平坦的溫帶森林，然後點擊「繼續」。</ChooseLandingSite.text>
   
@@ -113,9 +113,9 @@
   <DownRaider.textController>我已經向你的殖民地發派出了一名襲擊者。\n\n1. 按下{Key:TogglePause}暫停時間。\n2. 閱讀畫面右下角的紅色信封通知。\n3. 選取你的殖民者後，點擊「徵召」按鈕徵召他們。\n4. 按下LT將居民派遣至沙包陣地，緊鄰沙包的位置。\n5. 解除暫停。\n\n居民必須緊臨掩體才能獲得掩護效果。當居民們就位，等待襲擊者到達。居民們會自動開火攻擊。</DownRaider.textController>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
-  <EndStockpileDesignating.text>點擊滑鼠右鍵退出劃設儲存區狀態。</EndStockpileDesignating.text>
+  <EndStockpileDesignating.text>點擊滑鼠右鍵退出規劃儲存區狀態。</EndStockpileDesignating.text>
   <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
-  <EndStockpileDesignating.textController>按下LT退出劃設儲存區狀態。</EndStockpileDesignating.textController>
+  <EndStockpileDesignating.textController>按下LT退出規劃儲存區狀態。</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>裝備此武器</EquipWeapons.onMapInstruction>
@@ -127,14 +127,14 @@
   <EquipWeapons.textController>讓你的居民裝備上降落時帶來的武器：\n\n1. 點選一名居民。\n2. 移至你你想讓居民裝備的武器並按下LT。\n3. 選擇「裝備武器」。\n\n重複此步驟替所有居民裝備上武器。</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
-  <ExpandAreaBuildRoof.rejectInputMessage>請劃設一小塊的屋頂區，僅做為練習目的。</ExpandAreaBuildRoof.rejectInputMessage>
+  <ExpandAreaBuildRoof.rejectInputMessage>請規劃一小塊的屋頂區，僅做為練習目的。</ExpandAreaBuildRoof.rejectInputMessage>
   <!-- EN: The BUILD ROOF AREA defines where your colonists will try to build roofs.\n\nIt auto-fills when you enclose a new room.\n\nSelect the EXPAND BUILD ROOF AREA tool and drag out the shape of a porch roof on the front of the house. -->
-  <ExpandAreaBuildRoof.text>屋頂區定義了你的居民會架設屋頂的區域。\n\n屋頂區會在新房間落成同時自動添加。\n\n使用「劃設屋頂區」工具替你的房間門外添上一道屋簷。</ExpandAreaBuildRoof.text>
+  <ExpandAreaBuildRoof.text>屋頂區定義了你的居民會架設屋頂的區域。\n\n屋頂區會在新房間落成同時自動添加。\n\n使用「規劃屋頂區」工具替你的房間門外添上一道屋簷。</ExpandAreaBuildRoof.text>
   
   <!-- EN: Please expand the home area a bit, just for practice. -->
-  <ExpandAreaHome.rejectInputMessage>請劃設一小塊的生活區，僅做為練習目的。</ExpandAreaHome.rejectInputMessage>
+  <ExpandAreaHome.rejectInputMessage>請規劃一小塊的生活區，僅做為練習目的。</ExpandAreaHome.rejectInputMessage>
   <!-- EN: Next, you'll learn to expand the HOME AREA.\n\nColonists will clean floors and extinguish fires in the home area only, and ignore fires or filth outside of it.\n\nThe home area is added automatically when you build things - but you can also expand it manually.\n\nSelect the EXPAND HOME AREA tool and drag out a new area on the map. -->
-  <ExpandAreaHome.text>接下來，你將學到如何擴張生活區。\n\n居民只會打掃生活區內的垃圾、撲滅生活區內的火，並無視生活區外的髒污與火災。\n\n生活區會自動劃設在新的建築或設施周邊，但你也可以手動劃設。\n\n使用「劃設生活區」工具在地圖上劃設新的生活區。</ExpandAreaHome.text>
+  <ExpandAreaHome.text>接下來，你將學到如何擴張生活區。\n\n居民只會打掃生活區內的垃圾、撲滅生活區內的火，並無視生活區外的髒污與火災。\n\n新的建築或設施周邊會自動規劃生活區，但你也可以手動規劃。\n\n使用「規劃生活區」工具在地圖上規劃新的生活區。</ExpandAreaHome.text>
   
   <!-- EN: Please wait for your colonists to finish building the sandbags. -->
   <FinishSandbags.rejectInputMessage>請等待居民建成沙包</FinishSandbags.rejectInputMessage>
@@ -142,18 +142,18 @@
   <FinishSandbags.text>讓我們稍等直到建造完成。\n\n你可以用工作面板將建造工作分配給更多居民。\n\n別忘了可以加快遊戲速度縮短等待時間。\n\n當一切建造工作完成，我會送出一名襲擊者來測試你的防衛。</FinishSandbags.text>
   
   <!-- EN: Place growing zone here\n(drag corner-to-corner) -->
-  <MakeGrowingZone.onMapInstruction>在此劃設種植區。\n(由一角拖曳至對角)</MakeGrowingZone.onMapInstruction>
+  <MakeGrowingZone.onMapInstruction>在此規劃種植區。\n(由一角拖曳至對角)</MakeGrowingZone.onMapInstruction>
   <!-- EN: Please make a growing zone on the indicated area. -->
-  <MakeGrowingZone.rejectInputMessage>請將種植區劃設在提示區域內。</MakeGrowingZone.rejectInputMessage>
+  <MakeGrowingZone.rejectInputMessage>請將種植區規劃在提示區域內。</MakeGrowingZone.rejectInputMessage>
   <!-- EN: The house is being built!\n\nYour colonists will need something to eat, so place a GROWING ZONE as indicated on the map.\n\nThis is where your colonists will sow crops. -->
-  <MakeGrowingZone.text>你的房間建造完成了！\n\n你的居民還需要東西吃。依據提示在地圖上劃設一片種植區。\n\n居民們將在這個區域內種植作物。</MakeGrowingZone.text>
+  <MakeGrowingZone.text>你的房間建造完成了！\n\n你的居民還需要東西吃。依據提示在地圖上規劃一片種植區。\n\n居民們將在這個區域內種植作物。</MakeGrowingZone.text>
   
   <!-- EN: Place stockpile here\n(drag corner-to-corner) -->
-  <MakeStockpile.onMapInstruction>在此劃設儲存區。\n(由一角拖曳至對角)</MakeStockpile.onMapInstruction>
+  <MakeStockpile.onMapInstruction>在此規劃儲存區。\n(由一角拖曳至對角)</MakeStockpile.onMapInstruction>
   <!-- EN: Please make a stockpile on the indicated area. -->
-  <MakeStockpile.rejectInputMessage>請將儲存區劃設在提示區域內。</MakeStockpile.rejectInputMessage>
+  <MakeStockpile.rejectInputMessage>請將儲存區規劃在提示區域內。</MakeStockpile.rejectInputMessage>
   <!-- EN: Great!\n\nNow, make a stockpile so your colonists know where to keep items.\n\n1. Click ARCHITECT tab in the bottom left.\n2. Click the ZONE/AREA category.\n3. Select the CREATE STOCKPILE tool.\n4. Click and drag out a square as indicated on the map. -->
-  <MakeStockpile.text>做得好！\n\n現在，劃設一個儲存區讓居民知道東西該存放在哪裡。\n\n1. 點擊左下角的「建設」開啟建設選單。\n2. 點選「區域」項目。\n3選擇「劃設儲存區」工具。\n4按壓滑鼠左鍵並拖曳，依據指示劃設儲存區。</MakeStockpile.text>
+  <MakeStockpile.text>做得好！\n\n現在，規劃一個儲存區讓居民知道東西該存放在哪裡。\n\n1. 點擊左下角的「建設」開啟建設選單。\n2. 點選「區域」項目。\n3選擇「規劃儲存區」工具。\n4按壓滑鼠左鍵並拖曳，依據指示規劃儲存區。</MakeStockpile.text>
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
   <MapCameraDolly.text>現在你已經降落到地面上了！\n\n現在試著移動遊戲畫面四處看看。\n\n使用{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}，或是按住滑鼠中鍵拖曳畫面。\n\n現在就嘗試看看！</MapCameraDolly.text>

@@ -23,7 +23,7 @@
   <NotAllowed>不允許</NotAllowed>
   
   <!-- EN: Attack {1_labelShort} -->
-  <Attack>TODO</Attack>
+  <Attack>攻擊{1_labelShort}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>對{1_labelShort}開火</FireAt>
   <!-- EN: Remove -->
@@ -46,7 +46,7 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>無法命令失控的角色</CannotOrderNonControlledLower>
   <!-- EN: cannot attack -->
-  <CannotAttack>TODO</CannotAttack>
+  <CannotAttack>無法攻擊</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>無法攻擊自己</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -95,7 +95,7 @@
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>沒有可到達的區域</NoReachableOutsideCell>
   <!-- EN: cannot exit map -->
-  <CannotExitMap>TODO</CannotExitMap>
+  <CannotExitMap>無法離開地圖</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>缺乏所需技能等級</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -237,7 +237,7 @@
   <!-- EN: Cannot rescue -->
   <CannotRescue>無法救援</CannotRescue>
   <!-- EN: Cannot rescue {PAWN_labelShort} -->
-  <CannotRescuePawn>TODO</CannotRescuePawn>
+  <CannotRescuePawn>無法救援{PAWN_labelShort}</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>帶{1_labelShort}至休眠艙</CarryToCryptosleepCasket>
@@ -300,19 +300,19 @@
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>穿上{1_labelShort}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>TODO</ForceTargetToWear>
+  <ForceTargetToWear>強制目標穿上{1_labelShort}...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>無法穿上{1_label}</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
+  <CannotForceTargetToWear>無法強制目標穿上{1_label}</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>強制裝備{1_labelShort}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>強制目標穿上{1_labelShort}...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>無法裝備{1_label}</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
+  <CannotForceTargetToEquipApparel>無法強制目標裝備{1_label}</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>缺少身體部位</CannotWearBecauseOfMissingBodyParts>
   
@@ -416,14 +416,14 @@
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>醫療床非奴隸可用</NotForSlaves>
   <!-- EN: Medical care disabled -->
-  <MedicalCareDisabled>TODO</MedicalCareDisabled>
+  <MedicalCareDisabled>已禁用醫療照顧</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>已被{0}佔用</SomeoneElseSleeping>
   
   <!-- EN: Trade with {0} -->
   <TradeWith>與{0}進行交易</TradeWith>
   <!-- EN: Dismiss trader -->
-  <DismissTrader>解散商隊</DismissTrader>
+  <DismissTrader>請離商人</DismissTrader>
   <!-- EN: Cannot trade -->
   <CannotTrade>無法交易</CannotTrade>
   <!-- EN: Trader dismissed -->
@@ -468,7 +468,7 @@
   <CannotGenericWorkCustom>無法{0}</CannotGenericWorkCustom>
 
   <!-- EN: Incapable of {0} -->
-  <CannotMissingHealthActivities>無法優先：{0}原因</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>無法{0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -477,14 +477,14 @@
   <CannotGenericAlreadyAmCustom>已經在{0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>無法優先進行當前任務：無法執行{0}</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>不會執行{0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>缺乏必要的頭銜</MissingTitleAbility>
 
   <!-- EN: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>無法優先進行當前任務：無法{0}</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>不會執行{0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
-  <WillNever>無法{0}</WillNever>
+  <WillNever>永不執行{0}</WillNever>
 
   <!-- EN: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>無法優先進行當前任務：並未指派為{0}</CannotPrioritizeNotAssignedToWorkType>
@@ -494,10 +494,10 @@
   <NotAssignedToWorkType>未被指派{0}</NotAssignedToWorkType>
 
   <!-- EN: Research is a long-term task -->
-  <CannotPrioritizeResearch>無法優先進行當前任務：研究是一項長時間的工作</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>研究是一項長時間的工作</CannotPrioritizeResearch>
 
   <!-- EN: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>無法優先進行當前任務：{1_label}是禁用的</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>{1_label}是禁用的</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>無法優先進行當前任務：禁用</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
@@ -509,12 +509,12 @@
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>優先{0}{1}</PrioritizeGeneric>
   <!-- EN: Prioritize {0} -->
-  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+  <PrioritizeGenericSimple>優先{0}</PrioritizeGenericSimple>
 
   <!-- EN: Launch to {LOCATION_label} -->
-  <LaunchTo>TODO</LaunchTo>
+  <LaunchTo>發射至{LOCATION_label}</LaunchTo>
   <!-- EN: Are you sure you want to launch? -->
-  <LaunchToConfirmation>TODO</LaunchToConfirmation>
+  <LaunchToConfirmation>你確定要發射嗎?</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>放置在邊緣</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -644,11 +644,11 @@
   <!-- EN: Hack {0} -->
   <Hack>破解{0}</Hack>
   <!-- EN: Choose a colonist to hack this. -->
-  <HackDesc>TODO</HackDesc>
+  <HackDesc>選擇一名殖民者破解它。</HackDesc>
   <!-- EN: Cannot hack {0} -->
   <CannotHack>無法破解{0}</CannotHack>
   <!-- EN: Locked out -->
-  <LockedOut>TODO</LockedOut>
+  <LockedOut>鎖定</LockedOut>
   <!-- EN: Already hacked -->
   <AlreadyHacked>已經破解</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
