@@ -382,10 +382,6 @@
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>選擇的目的地無效。</MessageTransportPodsDestinationIsInvalid>
-  <!-- EN: Destination is reserved by {0}. -->
-  <MessageTransportPodsDestinationReservedBy>目的地已預留給{0}。</MessageTransportPodsDestinationReservedBy> <!-- text_todo -->
-  <!-- EN: Destination is reserved. -->
-  <MessageTransportPodsDestinationReserved>目的地已被預留。</MessageTransportPodsDestinationReserved> <!-- text_todo -->
   <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
   <MessageWorldObjectIsInvalid>{OBJECT_labelCap}並非一個有效的目的地。</MessageWorldObjectIsInvalid> <!-- text_todo -->
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
@@ -433,10 +429,10 @@
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>來自{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
-  <MessageMechanoidsAssembled>機械族被組裝完成並加入它們的軍團。</MessageMechanoidsAssembled>
-  <!-- EN: Remaining mechanoids to assemble -->
-  <MessageMechanoidsLeftToAssemble>尚未組裝的機械族</MessageMechanoidsLeftToAssemble>
+  <!-- EN: Mechanoids have been gestated and will defend their cluster. -->
+  <MessageMechanoidsAssembled>機械族已被培養完成並加入他們的軍團。</MessageMechanoidsAssembled>
+  <!-- EN: Remaining mechanoids to gestate -->
+  <MessageMechanoidsLeftToAssemble>尚未培養的機械族</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>機械族空投信標召喚了增援部隊在附近降落。</MessageMechanoidsReinforcementsDrop>
 
@@ -872,6 +868,8 @@
   <MessageGroundPenetratingScannerNoBedrock>警告{THING_labelCap}將無法在此生態系運作。</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
 
   <!-- UNUSED -->
+  <MessageTransportPodsDestinationReservedBy>目的地已預留給{0}。</MessageTransportPodsDestinationReservedBy>
+  <MessageTransportPodsDestinationReserved>目的地已被預留。</MessageTransportPodsDestinationReserved>
   <MessageFinishedLoadingTransporterSingle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporterSingle>
   <MessageRitualNeedsAtLeastOneRolePawn>你需要一名{0}。</MessageRitualNeedsAtLeastOneRolePawn>
   <MessageRitualNeedsAtLeastNumRolePawn>你需要至少{1}名{0}。</MessageRitualNeedsAtLeastNumRolePawn>

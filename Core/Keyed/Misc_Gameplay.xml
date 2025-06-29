@@ -352,6 +352,8 @@
   <Requires>需要</Requires>
   <!-- EN: Replaces -->
   <Replaces>交換</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>缺少{0}</MissingPartWithLabel> <!-- text_todo -->
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x任何東西</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -488,10 +490,10 @@
   <MechCluster>機械要塞</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>生成{0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>{0}裝配在{1}中完成</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
-  <MechAssemblyNextType>將組裝</MechAssemblyNextType>
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>{0}的培養程序在{1}內完成</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
+  <MechAssemblyNextType>將培養出</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>生產</ThingsProduced>
   <!-- EN: harvested -->
@@ -1680,10 +1682,10 @@
   <Reward_Pawn_WalkIn>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將抵達並加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
-  <Reward_Items>運輸艙會把以下資源送達(總價值{1})：\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n{0} -->
-  <Reward_Items_Caravan>你會收到(總價值{1})：\n{0}</Reward_Items_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
+  <Reward_Items>運輸艙會把以下資源送達(總價值{1})：\n\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
+  <Reward_Items_Caravan>你會收到(總價值{1})：\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>你與{0_name}的派系友好度會提昇{1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -2076,7 +2078,7 @@
   <!-- EN: About to explode -->
   <AboutToExplode>即將爆炸</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>沒有可退出的燃料。</RefuelableNoFuelToEject> <!-- text_todo -->
+  <RefuelableNoFuelToEject>沒有可彈出的燃料。</RefuelableNoFuelToEject> <!-- text_todo -->
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>全新的異邪擴充包上架了！</MainScreen_AnomalyAvailableNow>
@@ -2128,8 +2130,8 @@
   <Settled>安置</Settled>
   <!-- EN: Abandoned -->
   <Abandoned>拋棄</Abandoned>
-  <!-- EN: Cannot perform in {0} -->
-  <CannotPerformPlanetLayer>無法在{0}實行</CannotPerformPlanetLayer>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>無法{GERUND}{LAYER}進行</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
   <ThisWillNotAffectLayer>這並不會{GERUND}{LAYER}影響你。</ThisWillNotAffectLayer>
 
