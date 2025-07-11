@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of a camp controlled by [siteFaction_name]. The camp contains hostile [siteFaction_pawnsPlural], but you don't know what defenses they have.</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]由[siteFaction_name]控制的營地位置。這個營地有敵對的[siteFaction_pawnsPlural]，但你不知道他們有什麼防禦措施。</li>
+  </OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Camp</li>
+    <li>camp->Outpost</li>
+    <li>camp->Lair</li>
+    <li>camp->Encampment</li>
+    <li>bandit->Bandit</li>
+    <li>bandit->Raider</li>
+    <li>bandit->Outlaw</li>
+    <li>bandit->Desperado</li>
+    <li>bandit->Fugitive</li>
+    <li>bandit->Marauder</li>
+    <li>bandit->Robber</li>
+    <li>bandit->Brigand</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
+    <li>questName->[bandit]的[camp]</li>
+    <li>questName->[bandit][camp]</li>
+    <li>questName->[asker_nameDef]和[camp]</li>
+    <li>camp->營地</li>
+    <li>camp->前哨站</li>
+    <li>camp->巢穴</li>
+    <li>camp->駐紮地</li>
+    <li>bandit->強盜</li>
+    <li>bandit->襲擊者</li>
+    <li>bandit->法外之徒</li>
+    <li>bandit->亡命之徒</li>
+    <li>bandit->逃犯</li>
+    <li>bandit->掠奪者</li>
+    <li>bandit->搶劫者</li>
+    <li>bandit->土匪</li>
+  </OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->bandit camps</li>
+    <li>subject->outlaws</li>
+    <li>subject->raider sightings</li>
+    <li>questMapFeature->small camp</li>
+    <li>questMapFeature->bandit outpost</li>
+    <li>questMapFeature->raider encampment</li>
+    <li>questMapText->dangerous folk</li>
+    <li>questMapText->camp loot</li>
+    <li>questMapText->trespassers get skinned</li>
+    <li>questMapText->traders beware - outlaws</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
+    <li>subject->土匪營地</li>
+    <li>subject->法外之徒</li>
+    <li>subject->襲擊者目擊</li>
+    <li>questMapFeature->小型營地</li>
+    <li>questMapFeature->強盜前哨站</li>
+    <li>questMapFeature->襲擊者駐紮地</li>
+    <li>questMapText->危險人物</li>
+    <li>questMapText->營地戰利品</li>
+    <li>questMapText->侵入者將被剝皮</li>
+    <li>questMapText->商人注意 - 法外之徒</li>
+  </OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>任務失效：[resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>土匪們已經滿載而歸了。任務[resolvedQuestName]失效。</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>任務失敗：[resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>土匪營地已經消失無蹤。任務[resolvedQuestName]結束。</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
+  
+</LanguageData>

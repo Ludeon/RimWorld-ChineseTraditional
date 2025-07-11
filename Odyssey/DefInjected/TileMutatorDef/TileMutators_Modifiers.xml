@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animal habitat -->
+  <AnimalHabitat.label>動物棲息地</AnimalHabitat.label>
+  <!-- EN: A natural habitat for {ANIMALKIND_labelPlural}. They appear in greater numbers here. -->
+  <AnimalHabitat.description>這是{ANIMALKIND_labelPlural}的自然棲息地。牠們會在這裡大量出現。</AnimalHabitat.description>
+  
+  <!-- EN: decreased animal life -->
+  <AnimalLife_Decreased.label>動物減少</AnimalLife_Decreased.label>
+  <!-- EN: Animals are less abundant here than normal. -->
+  <AnimalLife_Decreased.description>這裡的動物比一般地區少。</AnimalLife_Decreased.description>
+  
+  <!-- EN: increased animal life -->
+  <AnimalLife_Increased.label>動物增加</AnimalLife_Increased.label>
+  <!-- EN: Animals are more abundant here. -->
+  <AnimalLife_Increased.description>這裡的動物比一般地區多。</AnimalLife_Increased.description>
+  
+  <!-- EN: archean trees -->
+  <ArcheanTrees.label>太初樹</ArcheanTrees.label>
+  <!-- EN: This area contains ancient archean trees. These trees host a special microbial community in their roots which converts nearby terrain into rich soil. Their delicate root system makes it impossible to replant them. -->
+  <ArcheanTrees.description>這個地區有遠古的太初樹。這些樹的根部寄住了特殊的微生物群落，會將附近的地形轉化為沃土。因其脆弱的根系所以不可被移植。</ArcheanTrees.description>
+  
+  <!-- EN: dry ground -->
+  <DryGround.label>乾地</DryGround.label>
+  <!-- EN: The ground in this area is drier than normal. There are no small ponds or bodies of water. -->
+  <DryGround.description>這個地區的地面比一般更乾。這裡不會有小池塘甚至任何水體。</DryGround.description>
+  
+  <!-- EN: decreased fish -->
+  <Fish_Decreased.label>魚類減少</Fish_Decreased.label>
+  <!-- EN: This area has fewer fish than normal. -->
+  <Fish_Decreased.description>這裡的魚類比一般地區少。</Fish_Decreased.description>
+  
+  <!-- EN: increased fish -->
+  <Fish_Increased.label>魚類增加</Fish_Increased.label>
+  <!-- EN: This area has more fish than normal. -->
+  <Fish_Increased.description>這裡的魚類比一般地區多。</Fish_Increased.description>
+  
+  <!-- EN: foggy -->
+  <FoggyMutator.label>多霧</FoggyMutator.label>
+  <!-- EN: Fog is common in this area. -->
+  <FoggyMutator.description>這個地區經常有霧。</FoggyMutator.description>
+  
+  <!-- EN: junkyard -->
+  <Junkyard.label>垃圾場</Junkyard.label>
+  <!-- EN: An old dumping ground for various kinds of junk. -->
+  <Junkyard.description>一個老舊的雜類垃圾傾倒場。</Junkyard.description>
+  
+  <!-- EN: mineral rich -->
+  <MineralRich.label>礦產豐富</MineralRich.label>
+  
+  <!-- EN: obsidian deposits -->
+  <ObsidianDeposits.label>黑曜石礦層</ObsidianDeposits.label>
+  <!-- EN: This area has deposits of volcanic obsidian, which can be mined for obsidian glass. -->
+  <ObsidianDeposits.description>這個地區有黑曜石礦層，可被開採取得黑曜石。</ObsidianDeposits.description>
+  
+  <!-- EN: plant grove -->
+  <PlantGrove.label>植物叢</PlantGrove.label>
+  <!-- EN: This area contains a large number of {0}. -->
+  <PlantGrove.description>這個地區有大量的{0}。</PlantGrove.description>
+  
+  <!-- EN: decreased plant life -->
+  <PlantLife_Decreased.label>植物稀少</PlantLife_Decreased.label>
+  <!-- EN: Plant life is less abundant here. -->
+  <PlantLife_Decreased.description>這裡的植物比一般地區少。</PlantLife_Decreased.description>
+  
+  <!-- EN: increased plant life -->
+  <PlantLife_Increased.label>植物豐沃</PlantLife_Increased.label>
+  <!-- EN: Plant life is more abundant here. -->
+  <PlantLife_Increased.description>這裡的植物比一般地區多。</PlantLife_Increased.description>
+  
+  <!-- EN: increased pollution -->
+  <Pollution_Increased.label>污染增加</Pollution_Increased.label>
+  <!-- EN: This area is contaminated with toxic pollutants. -->
+  <Pollution_Increased.description>這個地區受到有毒污染物的污染。</Pollution_Increased.description>
+  
+  <!-- EN: high geothermal activity -->
+  <SteamGeysers_Increased.label>地熱活動強</SteamGeysers_Increased.label>
+  <!-- EN: Steam geysers are more common in this area. -->
+  <SteamGeysers_Increased.description>這個地區蒸汽間歇泉較多。</SteamGeysers_Increased.description>
+  
+  <!-- EN: sunny -->
+  <SunnyMutator.label>陽光充足</SunnyMutator.label>
+  <!-- EN: Clear weather is much more common here. -->
+  <SunnyMutator.description>這裡常見晴朗天氣。</SunnyMutator.description>
+  
+  <!-- EN: wet climate -->
+  <WetClimate.label>潮濕氣候</WetClimate.label>
+  <!-- EN: Precipitation is much more common here. -->
+  <WetClimate.description>這裡經常降水。</WetClimate.description>
+  
+  <!-- EN: wild plants -->
+  <WildPlants.label>野生植物</WildPlants.label>
+  <!-- EN: When warm enough, this area can grow a large number of {0}. -->
+  <WildPlants.description>當氣溫足夠暖和時，這地區能夠生長大量的{0}。</WildPlants.description>
+  
+  <!-- EN: wild plants -->
+  <WildTropicalPlants.label>野生熱帶植物</WildTropicalPlants.label>
+  <!-- EN: This area can grow a large number of {0}s. -->
+  <WildTropicalPlants.description>這地區能夠生長大量的{0}。</WildTropicalPlants.description>
+  
+  <!-- EN: windy -->
+  <WindyMutator.label>風大</WindyMutator.label>
+  <!-- EN: Winds are much stronger in this area. -->
+  <WindyMutator.description>這地區的風勢較強。</WindyMutator.description>
+  
+</LanguageData>

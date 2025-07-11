@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Fishing -->
+  <!-- EN: Fishing zone -->
+  <Zone_Fishing>釣魚區</Zone_Fishing>
+  <!-- EN: fishing -->
+  <FishingGroup>釣魚</FishingGroup>
+  <!-- EN: Create an area where your hunters will fish. Must be placed over water containing fish. Larger bodies of water are generally better for fishing. -->
+  <DesignatorFishingZoneDesc>創建一個區域，讓你的獵人在此釣魚。必須放置在含有魚類的水域上。較大的水體通常更適合釣魚。</DesignatorFishingZoneDesc>
+
+  <!-- Override snow clearing => snow and sand clearing -->
+  <!-- EN: Snow and sand removal area -->
+  <DesignatorAreaSnowOrSandClearExpand>規劃鏟沙雪區</DesignatorAreaSnowOrSandClearExpand>
+  <!-- EN: Create an area which colonists will try to keep clear of snow and sand. -->
+  <DesignatorAreaSnowOrSandClearExpandDesc>建立鏟沙雪區，殖民者將會試著持續去鏟沙和雪。</DesignatorAreaSnowOrSandClearExpandDesc>
+  <!-- EN: Clear snow and sand removal area -->
+  <DesignatorAreaSnowOrSandClearClear>移除鏟沙雪區</DesignatorAreaSnowOrSandClearClear>
+  <!-- EN: Removes a snow and sand removal area. Colonists will no longer try to keep this area clear of snow and sand. -->
+  <DesignatorAreaSnowOrSandClearClearDesc>移除鏟沙雪區後，殖民者將不會去鏟這個區域的沙和雪。</DesignatorAreaSnowOrSandClearClearDesc>
+
+  <!-- EN: Remove foundation -->
+  <DesignatorRemoveFoundation>移除基底</DesignatorRemoveFoundation>
+  <!-- EN: Remove bridges or gravship substructure to reveal the terrain underneath. -->
+  <DesignatorRemoveFoundationDesc>移除橋樑或重力船的基礎結構，恢復原來的地面。。</DesignatorRemoveFoundationDesc>
+
+  <!-- EN: Move landing zone -->
+  <DesignatorMoveGravship>移動降落區</DesignatorMoveGravship>
+  <!-- EN: Reposition the gravship's landing spot. -->
+  <DesignatorMoveGravshipDesc>更改重力船的降落點。</DesignatorMoveGravshipDesc>
+</LanguageData>

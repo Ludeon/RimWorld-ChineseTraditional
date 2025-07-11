@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an alpha thrumbo.\n\nAlpha thrumbos are exceptionally rare creatures, believed by many to be mere fiction. Too wild for most to tame and too powerful for most to hunt, their horns are worth more than their weight in gold.</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]了一隻阿爾法獨角獸的位置。\n\n阿爾法獨角獸是極為稀有的生物，許多人認為它們只是虛構的。它們太過野性以致於大多數人無法馴養，且過於強大讓大多數人無法狩獵，其角的價值超過了黃金的重量。</li>
+  </OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->alpha thrumbo</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questNameRules.rulesStrings>
+    <li>questName->阿爾法獨角獸</li>
+  </OpportunitySite_AlphaThrumbo_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->alpha thrumbos</li>
+    <li>subject->thrumbos</li>
+    <li>subject->rare thrumbos</li>
+    <li>subject->rare animals</li>
+    <li>subject->legendary creatures</li>
+    <li>questMapFeature->drawing of a thrumbo</li>
+    <li>questMapFeature->sketch of an odd-looking thrumbo</li>
+    <li>questMapText->thrumbo habitat</li>
+    <li>questMapText->alpha thrumbo</li>
+    <li>questMapText->found the beast</li>
+    <li>questMapText->they are real</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
+    <li>subject->阿爾法獨角獸</li>
+    <li>subject->獨角獸</li>
+    <li>subject->稀有獨角獸</li>
+    <li>subject->稀有動物</li>
+    <li>subject->傳說中的生物</li>
+    <li>questMapFeature->獨角獸的畫像</li>
+    <li>questMapFeature->一隻樣貌奇特的獨角獸素描</li>
+    <li>questMapText->獨角獸棲息地</li>
+    <li>questMapText->阿爾法獨角獸</li>
+    <li>questMapText->找到了野獸</li>
+    <li>questMapText->它們是真的</li>
+  </OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>你已經發現</OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>任務失效：[resolvedQuestName]</OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the alpha thrumbo has moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>截獲的通信顯示阿爾法獨角獸已經離開。任務[resolvedQuestName]失效。</OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>

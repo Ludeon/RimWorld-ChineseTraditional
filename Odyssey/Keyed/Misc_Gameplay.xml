@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Gravship -->
+  <!-- EN: Gravship -->
+  <Gravship>重力船</Gravship>
+  <!-- EN: no grav engine -->
+  <CannotLaunchNoEngine>沒有重力引擎</CannotLaunchNoEngine>
+  <!-- EN: not enough fuel -->
+  <CannotLaunchNotEnoughFuel>燃料不足</CannotLaunchNotEnoughFuel>
+  <!-- EN: Cannot reach this destination -->
+  <CannotLaunchDestination>無法到達此目的地</CannotLaunchDestination>
+  <!-- EN: Cannot land on the same tile -->
+  <CannotLandOnSameTile>無法降落在同一地塊</CannotLandOnSameTile>
+  <!-- EN: Connected substructure -->
+  <ConnectedSubstructure>已連接基礎結構</ConnectedSubstructure>
+  <!-- EN: Substructure blueprints placed -->
+  <SubstructureBlueprintsCount>基礎結構藍圖已放置</SubstructureBlueprintsCount>
+  <!-- EN: not connected to grav engine -->
+  <CannotLaunchDisconnected>未連接到重力引擎</CannotLaunchDisconnected>
+  <!-- EN: no substructure -->
+  <CannotLaunchNoSubstructure>沒有基礎結構</CannotLaunchNoSubstructure>
+  <!-- EN: no unblocked functioning thrusters -->
+  <CannotLaunchNoThrusters>沒有未被阻擋的可用推進器</CannotLaunchNoThrusters>
+  <!-- EN: engine cooldown: {0} -->
+  <CannotLaunchOnCooldown>引擎冷卻時間剩餘︰{0}</CannotLaunchOnCooldown>
+  <!-- EN: Choose where to land -->
+  <ChooseWhereToLand>選擇著陸地點</ChooseWhereToLand>
+  <!-- EN: Send a colonist to inspect this. -->
+  <GravEngineNotInspected>派出殖民者檢查。</GravEngineNotInspected>
+  <!-- EN: Choose who should inspect {0_definite} -->
+  <ChooseWhoShouldInspect>選擇誰應該檢查{0_definite}</ChooseWhoShouldInspect>
+  <!-- EN: Cannot launch gravship -->
+  <CannotPilotGravship>無法發射重力船</CannotPilotGravship>
+  <!-- EN: Launch gravship -->
+  <PilotGravship>發射重力船</PilotGravship>
+  <!-- EN: {0} {1_label} -->
+  <FuelAmount>{0}{1_label}</FuelAmount>
+  <!-- EN: gravship name -->
+  <GravshipName>重力船名稱</GravshipName>
+  <!-- EN: gravship range -->
+  <GravshipRange>重力船航程範圍</GravshipRange>
+  <!-- EN: stored chemfuel -->
+  <StoredChemfuel>儲存的化合燃料</StoredChemfuel>
+  <!-- EN: thruster blocked -->
+  <ThrusterBlocked>推進器被阻擋</ThrusterBlocked>
+  <!-- EN: fuel consumption -->
+  <FuelConsumption>燃料消耗</FuelConsumption>
+  <!-- EN: {0} chemfuel per tile -->
+  <FuelPerTile>每格{0}化合燃料</FuelPerTile>
+  <!-- EN: Heavy weapons systems: Requires signal jammer to approach -->
+  <RequiresSignalJammer>重型武器系統：需要信號干擾器才能靠近</RequiresSignalJammer>
+  <!-- EN: {0} landing site -->
+  <GravshipLandingSite>{0}著陸地點</GravshipLandingSite>
+  <!-- EN: Confirm landing area -->
+  <ConfirmLandingArea>確認著陸區域</ConfirmLandingArea>
+  <!-- EN: Blocked by {0_label} -->
+  <GravshipBlockedBy>被{0_label}阻擋</GravshipBlockedBy>
+  <!-- EN: Can't place in undiscovered area -->
+  <GravshipBlockedByFog>無法放置在未發現區域</GravshipBlockedByFog>
+  <!-- EN: Blocked by roof -->
+  <GravshipBlockedByRoof>TODO</GravshipBlockedByRoof> <!-- text_todo -->
+  <!-- EN: Can't place outside map bounds -->
+  <GravshipOutOfBounds>無法放置在地圖範圍外</GravshipOutOfBounds>
+  <!-- EN: Can't place close to the map edge -->
+  <GravshipInNoBuildArea>無法放置在地圖邊緣附近</GravshipInNoBuildArea>
+  <!-- EN: Can't place in blocked area -->
+  <GravshipInBlockedArea>無法放在受阻擋區域</GravshipInBlockedArea>
+  <!-- EN: Can't place on {0_label} -->
+  <GravshipBlockedByTerrain>無法放置在{0_label}上</GravshipBlockedByTerrain>
+  <!-- EN: Must be connected to solid ground -->
+  <GravshipMustBeConnectedToLand>必須與堅實地面連接</GravshipMustBeConnectedToLand>
+  <!-- EN: Confirm landing zone to continue -->
+  <ConfirmLandingToContinue>確認著陸區以繼續</ConfirmLandingToContinue>
+  <!-- EN: a valid pilot console -->
+  <RitualTargetPilotConsole>一個有效的駕駛控制台</RitualTargetPilotConsole>
+  <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
+  <GravshipOutcomeChanceLetterExtra>基於重力船的發射，有{0_percentage}的機率產生負面結果。</GravshipOutcomeChanceLetterExtra>
+  <!-- EN: The following thrusters were affected -->
+  <ThrustersBrokeDown>以下推進器受到了影響</ThrustersBrokeDown>
+  <!-- EN: No path to gravship -->
+  <NoPathToGravship>無法前往重力船</NoPathToGravship>
+  <!-- EN: No path to pilot console -->
+  <NoPathToPilotConsole>無法前往駕駛控制台</NoPathToPilotConsole>
+  <!-- EN: Pilot console is not accessible from gravship -->
+  <PilotConsoleInaccessible>無法在重力船內接觸駕駛控制台</PilotConsoleInaccessible>
+  <!-- EN: Launch date -->
+  <LaunchDate>發射日期</LaunchDate>
+  <!-- EN: Warning: {0} will be blocked by {1}. -->
+  <WarningThrusterBlocked>警告：{0}將被{1}阻擋。</WarningThrusterBlocked>
+  <!-- EN: Warning: {0} will be blocked due to being indoors. -->
+  <WarningThrusterInside>警告：{0}因在室內而被阻擋。</WarningThrusterInside>
+  <!-- EN: Max per gravship -->
+  <GravFacilityMaxSimultaneousConnections>每艘重力船的最大</GravFacilityMaxSimultaneousConnections>
+  <!-- EN: Not connected to gravship -->
+  <ShieldNotConnectedToGravship>未連接到重力船</ShieldNotConnectedToGravship>
+  <!-- EN: Gravship launch called off -->
+  <GravshipLaunchInterrupted>重力船已預備發射</GravshipLaunchInterrupted>
+  <!-- EN: Not connected to grav engine. -->
+  <NotConnectedToGravEngine>未連接到重力引擎。</NotConnectedToGravEngine>
+  <!-- EN: Not functional -->
+  <ThrusterNotFunctional>尚待修理</ThrusterNotFunctional>
+  <!-- EN: not connected to grav engine -->
+  <ThrusterNotConnected>未連接到重力引擎</ThrusterNotConnected>
+  <!-- EN: blocked by {0_label} -->
+  <ThrusterBlockedBy>被{0_label}阻擋</ThrusterBlockedBy>
+  <!-- EN: must be outside -->
+  <MustBeOutside>必須在外面</MustBeOutside>
+  <!-- EN: blocked by substructure -->
+  <BlockedBySubstructure>被基礎結構阻擋</BlockedBySubstructure>
+
+  <!-- Map generation -->
+  <!-- EN: Landmark -->
+  <Landmark>地標</Landmark>
+  <!-- EN: {ANIMALKIND_label} habitat -->
+  <AnimalHabitat>{ANIMALKIND_label}的棲息地</AnimalHabitat>
+  <!-- EN: {0} grove -->
+  <PlantGrove>{0}樹叢</PlantGrove>
+  <!-- EN: {0} -->
+  <WildPlants>{0}</WildPlants>
+  <!-- EN: {MINERAL_label} rich -->
+  <MineralRich>富含{MINERAL_label}</MineralRich>
+  <!-- EN: This area has more {MINERAL_label} deposits than normal. -->
+  <MineralRichDescription>該區域有比一般更多的{MINERAL_label}礦藏。</MineralRichDescription>
+
+  <!-- Insect Lair -->
+  <!-- EN: Cave entrance -->
+  <CaveEntranceLetter>洞穴入口</CaveEntranceLetter>
+  <!-- EN: The gravcore energy signature is coming from a nearby cave network. The entrance is guarded by insect hives.\n\nExplore the cave network to find the gravcore. -->
+  <CaveEntranceLetterText>重力核心的能量信號來自附近的洞穴網絡。入口由蟲巢守著。\n\n探索洞穴網絡以找到重力核心。</CaveEntranceLetterText>
+  <!-- EN: Insect ambush -->
+  <InsectAmbushLetter>蟲族埋伏</InsectAmbushLetter>
+  <!-- EN: Insects are tunneling up from underneath the ground. Be prepared! -->
+  <InsectAmbushLetterText>蟲族正從地下鑽出。準備好!</InsectAmbushLetterText>
+  <!-- EN: Muffled chittering -->
+  <LetterLabelInsectQueenWarning>隱約的啁啾聲</LetterLabelInsectQueenWarning>
+  <!-- EN: Behind a nearby wall, {PAWN_nameDef} can hear muffled pulsations accompanied by a low chittering noise. Something massive lies behind the wall. -->
+  <LetterInsectQueenWarning>{PAWN_nameDef}能在附近的牆後聽到隱約的脈動聲和低沉的啁啾聲。有某種巨物藏在牆後。</LetterInsectQueenWarning>
+  
+  <!-- Overlay -->
+  <!-- EN: Toggle vacuum overlay. This displays which areas have vacuum and identifies leaks.\n\nWithout the right equipment, exposure to vacuum can be deadly. -->
+  <ShowVacuumOverlayToggleButton>開關真空顯示。這顯示了哪些區域有真空並識別洩漏。\n\n若沒有合適的設備，暴露在真空中可能是致命的。</ShowVacuumOverlayToggleButton>
+  <!-- EN: vacuum -->
+  <Vacuum>真空</Vacuum>
+  
+  <!-- World -->
+  <!-- EN: No discovered orbital locations. -->
+  <CannotSelectOrbitReason>沒有發現的軌道位置。</CannotSelectOrbitReason>
+  <!-- EN: Dying from vacuum exposure -->
+  <DyingBecauseExposedToVacuum>因暴露於真空而死亡</DyingBecauseExposedToVacuum>
+  <!-- EN: Vacstone with traces of {RESOURCE_label} -->
+  <TracesOfPreciousResource>有{RESOURCE_label}痕跡的真空岩</TracesOfPreciousResource>
+  <!-- EN: Requires signal jammer -->
+  <TransportPodDestinationRequiresSignalJammer>需要信號干擾器</TransportPodDestinationRequiresSignalJammer>
+  <!-- EN: cannot function in vacuum. -->
+  <CannotFunctionInVacuum>無法在真空中運行。</CannotFunctionInVacuum>
+  <!-- EN: Gravship -->
+  <GravshipOnTileInspectString>重力船</GravshipOnTileInspectString>
+  
+  <!-- Ruins -->
+  <!-- EN: Hack to open. -->
+  <HackableDoorLocked>破解以打開。</HackableDoorLocked>
+  
+  <!-- Fishing -->
+  <!-- EN: Fish -->
+  <Fish>魚</Fish>
+  <!-- EN: fishing -->
+  <Fishing>釣魚</Fishing>
+  <!-- EN: Cannot fish -->
+  <CannotFish>無法釣魚</CannotFish>
+  <!-- EN: blocked -->
+  <FishingSpotBlocked>被阻擋</FishingSpotBlocked>
+  <!-- EN: frozen -->
+  <FishingSpotFrozen>結冰</FishingSpotFrozen>
+  <!-- EN: below minimum fish population -->
+  <FishingSpotUnderTargetPopulation>低於最低魚類數量</FishingSpotUnderTargetPopulation>
+  <!-- EN: stored fish exceed fishing zone settings -->
+  <FishingSpotOverTargetResourceCount>蘊藏魚類超過釣魚區的設定</FishingSpotOverTargetResourceCount>
+  <!-- EN: Fishing -->
+  <TabFishing>釣魚</TabFishing>
+  <!-- EN: Fish population -->
+  <FishPopulation>魚類數量</FishPopulation>
+  <!-- EN: Population declining -->
+  <FishPopulationDecline>數量下降中</FishPopulationDecline>
+  <!-- EN: very low -->
+  <FishPopulation_VeryLow>非常低</FishPopulation_VeryLow>
+  <!-- EN: low -->
+  <FishPopulation_Low>低</FishPopulation_Low> 
+  <!-- EN: moderate -->
+  <FishPopulation_Moderate>適中</FishPopulation_Moderate>
+  <!-- EN: healthy -->
+  <FishPopulation_Healthy>健康</FishPopulation_Healthy>
+
+  <!-- Sand -->
+  <!-- EN: Windswept sand -->
+  <Sand>風吹沙</Sand>
+  <!-- EN: No sand -->
+  <SandNone>沒有沙</SandNone>
+  <!-- EN: dusting -->
+  <SandDusting>薄</SandDusting>
+  <!-- EN: thin -->
+  <SandThin>淺</SandThin>
+  <!-- EN: medium -->
+  <SandMedium>厚</SandMedium>
+  <!-- EN: thick -->
+  <SandThick>深</SandThick>
+  <!-- EN: Windswept sand -->
+  <Sand_Label>風吹沙</Sand_Label>
+  <!-- EN: clearing sand. -->
+  <JobClearingSand>清理沙子。</JobClearingSand>
+  <!-- EN: clearing sand -->
+  <ClearingSandGerund>清理沙子</ClearingSandGerund>
+
+  <!-- Stockpile -->
+  <!-- EN: medicine stockpile -->
+  <StockpileMedicine>藥品儲備</StockpileMedicine>
+  <!-- EN: chemfuel stockpile -->
+  <StockpileChemfuel>化合燃料儲備</StockpileChemfuel>
+  <!-- EN: component stockpile -->
+  <StockpileComponent>元件儲備</StockpileComponent>
+  <!-- EN: weapons stockpile -->
+  <StockpileWeapons>武器儲備</StockpileWeapons>
+  <!-- EN: drug stockpile -->
+  <StockpileDrugs>藥物儲備</StockpileDrugs>
+  
+  <!-- Outfit Stand -->
+  <!-- EN: equip outfit -->
+  <SwapOutfit>穿上套裝</SwapOutfit>
+  <!-- EN: equip outfit... -->
+  <SwapOutfitGizmo>穿上套裝</SwapOutfitGizmo>
+  <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
+  <SwapOutfitDesc>命令一名殖民者穿上站台上的所有衣物。殖民者會將所有脫下的衣物放回站台。</SwapOutfitDesc>
+  <!-- EN: cannot equip outfit -->
+  <CannotSwapOutfit>無法穿上套裝</CannotSwapOutfit>
+  <!-- EN: outfit stand is empty -->
+  <OutfitStandEmpty>裝備架是空的</OutfitStandEmpty>
+  <!-- EN: Remove this from the outfit stand. -->
+  <EjectApparelTooltip>從裝備架上取下此物品。</EjectApparelTooltip>
+  
+  <!-- Orbital mechanoid platform -->
+  <!-- EN: Ancient grav engine -->
+  <LetterAncientGravEngineDiscoveredLabel>遠古重力引擎</LetterAncientGravEngineDiscoveredLabel>
+  <!-- EN: You've discovered an ancient grav engine. Destroy it to obtain a gravcore. -->
+  <LetterAncientGravEngineDiscovered>你發現了一個遠古重力引擎。摧毀它以獲取重力核心。</LetterAncientGravEngineDiscovered>
+
+  <!-- EN: Gravship -->
+  <PlayerPawnsArriveMethod_Gravship>重力船</PlayerPawnsArriveMethod_Gravship>
+
+  <!-- Misc -->
+  <!-- EN: Toggle displaying expanding icons for landmarks. -->
+  <ShowExpandingLandmarksToggleButton>切換顯示地標的擴展圖示。</ShowExpandingLandmarksToggleButton>
+
+  <!-- Mechive -->
+  <!-- EN: Before {PAWN_nameDef} stands the cerebrex core - a massive brain-like neural mesh that commands mechanoids across the planet.\n\nWith its stabilizers destroyed, {PAWN_nameDef} can now access it directly... but what should {PAWN_pronoun} do with that power? -->
+  <CerebrexCoreDialog>{PAWN_nameDef}眼前是超智腦核心——一個巨大且類似大腦的神經網絡，指揮著遍布星球的機械族。\n\n隨著其穩定器被摧毀，{PAWN_nameDef}現在可以直接接觸它……但是{PAWN_pronoun}應該如何使用這種力量？</CerebrexCoreDialog>
+  <!-- EN: Destroy the core -->
+  <CerebrexCoreOption_Destroy>摧毀核心</CerebrexCoreOption_Destroy>
+  <!-- EN: Scavenge technology -->
+  <CerebrexCoreOption_Scavenge>回收技術</CerebrexCoreOption_Scavenge>
+  <!-- EN: Postpone -->
+  <CerebrexCoreOption_Postpone>稍後決定</CerebrexCoreOption_Postpone>
+  <!-- EN: Stabilizers remaining -->
+  <StabilizersRemaining>剩餘穩定器</StabilizersRemaining>
+  <!-- EN: Gestating mechanoids. -->
+  <ProducingMechanoids>培養機械族中。</ProducingMechanoids>
+
+  <!-- EN: {PAWN_nameDef} begins to tear apart the hair-thin cerebral mesh inside the cerebrex core. The mesh twists and groans, as if alive. Electricity arcs among the latticework frame - then in an instant, all goes dark and lifeless.\n\nThe mechanoid whirring stops. Here, and all across the planet, mechanoids begin to permanently deactivate, no longer under the control of the mechhive.\n\nThe mechanoid threat is over. But your story continues... -->
+  <OdysseyDestroyedCredits>{PAWN_nameDef}開始拆除超智腦核心內如髮絲般細的神經網。網狀結構扭曲和呻吟，彷彿有生命一樣。電流在網格框架中跳躍——然後瞬間，一切陷入黑暗和死寂。\n\n機械族的嗡嗡聲停止了。在這裡，和整個星球上，機械族開始永久中止，不再受到機械巢穴控制。\n\n機械族的威脅結束了。但你的故事繼續……</OdysseyDestroyedCredits>
+  <!-- EN: {PAWN_nameDef} begins working to free a processing node buried within the core. The latticework frame convulses as if in agony. As {PAWN_nameDef} pulls the node free, the mesh begins to mend, repairing the damage. The core rebuilds its defences and closes.\n\nTurning the node over, {PAWN_nameDef} recoils as it sparks to life, pulsing in time with the core. In {PAWN_possessive} hand, {PAWN_nameDef} holds a weapon of untold power.\n\nThe story continues... -->
+  <OdysseyScavengedCredits>{PAWN_nameDef}開始著手解放埋在核心裡的處理節點。網格框架抽動，彷彿在痛苦中。當{PAWN_nameDef}將節點拉出來時，網格開始修復損壞。核心重建其防禦並關閉。\n\n當{PAWN_nameDef}啟動節點時，它爆發反作用能量，並隨著核心同步脈動。在{PAWN_possessive}手中，{PAWN_nameDef}擁有了一個具有無比威力的武器。\n\n故事繼續……</OdysseyScavengedCredits>
+
+  <!-- EN: {0} stabilizers remaining -->
+  <CoreNotInteractableStabilizersRemaining>剩餘{0}個穩定器</CoreNotInteractableStabilizersRemaining>
+  <!-- EN: Deactivated -->
+  <CoreNotInteractableDeactivated>已被中止</CoreNotInteractableDeactivated>
+
+  <!-- EN: Shuttle fuel -->
+  <CaravanShuttleFuel>太空梭燃料</CaravanShuttleFuel>
+
+  <!-- EN: Passively scanning for orbital signals. -->
+  <OrbitalScannerScanning>被動掃描軌道信號。</OrbitalScannerScanning>
+  <!-- EN: Locating orbital signal -->
+  <OrbitalScannerLocating>定位軌道信號</OrbitalScannerLocating>
+
+  <!-- EN: Traits -->
+  <WeaponTraits>特性</WeaponTraits>
+  <!-- EN: Unique weapon -->
+  <UniqueWeapon>獨特武器</UniqueWeapon>
+
+  <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
+  <ConfirmLoseShuttle>重組旅隊將會拋棄你的太空梭。你確定要繼續嗎？\n\n若要乘坐太空梭離開，請選擇太空梭，然後選擇「發射」。</ConfirmLoseShuttle>
+
+  <!-- EN: Discover a quest -->
+  <BookHasQuest>發現任務</BookHasQuest>
+  <!-- EN: discovered -->
+  <DiscoveredQuest>已發現</DiscoveredQuest>
+
+  <!-- EN: Your orbital scanner has detected -->
+  <QuestDiscoveredFromOrbitalScanner>你的軌道掃描器探測到</QuestDiscoveredFromOrbitalScanner>
+  <!-- EN: {HACKER_nameDef} hacked an uplink and discovered -->
+  <QuestDiscoveredFromUplink>{HACKER_nameDef}破解了上行鏈路，發現了</QuestDiscoveredFromUplink>
+
+  <!-- Special Trainables -->
+  <!-- EN: Attack -->
+  <AnimalAttackTarget>攻擊</AnimalAttackTarget>
+  <!-- EN: Command this animal to attack a specific target that its master can see. -->
+  <AnimalAttackTargetDesc>命令此動物攻擊其主人可見的指定目標。</AnimalAttackTargetDesc>
+  <!-- EN: Animals attack target -->
+  <AnimalsAttackTarget>動物攻擊目標</AnimalsAttackTarget>
+  <!-- EN: Direct all mastered animals to attack a specific target. -->
+  <AnimalsAttackTargetDesc>指揮所有已訓練的動物攻擊特定目標。</AnimalsAttackTargetDesc>
+  <!-- EN: Cancel attack -->
+  <CancelAttack>取消攻擊</CancelAttack>
+  <!-- EN: Clear this animal's current target. -->
+  <CancelAttackDesc>取消此動物當前的目標。</CancelAttackDesc>
+  <!-- EN: This animal does not have a master -->
+  <NoMaster>此動物沒有主人</NoMaster>
+  <!-- EN: This animal's master is not on this map -->
+  <MasterNotSpawned>此動物的主人不在此地圖上</MasterNotSpawned>
+  <!-- EN: Not in range of master. -->
+  <MessageNotInRangeOfMaster>不在主人的範圍內。</MessageNotInRangeOfMaster>
+  <!-- EN: {ANIMAL_nameDef} found {FOOD_label} while foraging. -->
+  <MessageAnimalForagedFood>{ANIMAL_nameDef}在覓食時找到了{FOOD_label}。</MessageAnimalForagedFood>
+  <!-- EN: Forage trained -->
+  <ForageTrained>訓練覓食</ForageTrained>
+  <!-- EN: Allow foraging -->
+  <ForageEnabled>允許覓食</ForageEnabled>
+  <!-- EN: Allow digging -->
+  <DigEnabled>允許挖掘</DigEnabled>
+
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <ConfirmSealHatch>封閉遠古儲藏庫入口是永久性的。任何留在下面的東西或人都將永遠消失。\n\n你確定要繼續嗎？</ConfirmSealHatch>
+  <!-- EN: Cannot seal -->
+  <CannotChooseSealer>無法封閉</CannotChooseSealer>
+  <!-- EN: Sealed -->
+  <Sealed>已密封</Sealed>
+  <!-- EN: Permanently sealed. -->
+  <HatchSealed>永久封閉。</HatchSealed>
+  <!-- EN: Unlocked. -->
+  <HatchUnlocked>已解鎖。</HatchUnlocked>
+
+  <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
+  <GravshipShieldTip>暫時的動力排斥面，可以阻擋發射物。能應付普通射擊和迫擊砲。若受 EMP 攻擊，便會即時關閉。</GravshipShieldTip>
+
+</LanguageData>

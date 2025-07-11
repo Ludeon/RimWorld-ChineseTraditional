@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: shipborn -->
+  <Shipborn.label>船裔</Shipborn.label>
+  <!-- EN: Humans were destined to live among the stars. -->
+  <Shipborn.description>人類注定要生活在星辰之中。</Shipborn.description>
+  <!-- EN:
+    <li>creation(tag=meme_Shipborn)        ->[deity0_name] shaped humanity from the dust of [celestialComponents], breathing life into mankind with [deity0_possessive] stellar winds.</li>
+    <li>episode(uses=1,tag=meme_Shipborn)  ->[deity0_name] dispersed the great people of [place_name], sending them into the void so that they may witness the convergence of star and soul.</li>
+    <li>intro(tag=meme_Shipborn)           ->In the days of darkness, [deity0_name] saw that humanity was in need of guidance, and commanded [deity0_possessive] [memberNamePlural] to build great ships.</li>
+    <li>conflict(tag=meme_Shipborn)        ->When [memberNamePlural] began to fulfill [deity0_name]'s vision, a traitorous [foeLeader] moved to prevent them. [foeLeader_possessive] [foeSoldiers] wielded cruel [place_personalWeapon]s against those who tried to board the holy ships.</li>
+    <li>founderJoin(tag=meme_Shipborn)     ->A [place_job] named [founderName] gathered the true believers, leading them to a hidden [altarRoomLabel]. There [founder_pronoun] became their [veneratedRole].</li>
+    <li>victory(tag=meme_Shipborn)         ->Then [founderName] spoke with [deity0_name]'s voice. In a brilliant convergence of light and energy, [founderName] overwhelmed [founder_possessive] enemies and led [founder_possessive] people to the holy ships.</li>
+    <li>setup(tag=meme_Shipborn)           ->In [founder_possessive] divine ship, [founderName] journeyed the stellar seas for one thousand years, communing with celestial spirits and unlocking the secrets of the cosmos.</li>
+    <li>story(uses=1,tag=meme_Shipborn)    ->[founderName] saw that the destiny of humanity could only be fulfilled amongst the stars.</li>
+    <li>lessonIntro(tag=meme_Shipborn)         ->In my observances of [celestialComponents], I have found one truth above all else:</li>
+    <li>lesson(tag=meme_Shipborn)              ->the stars are our true [veneratedRole], and it's our duty to seek their wisdom and travel among them</li>
+    <li>lesson(tag=meme_Shipborn)              ->mankind was never meant to be prisoner to a rock. We must live amongst the heavens</li>
+    <li>lesson(tag=meme_Shipborn)              ->our ships are our holy mothers and sacred fathers. We must care for them as they have cared for us</li>
+    <li>lessonReinforcement(tag=meme_Shipborn) ->May your feet never touch the ground.</li>
+    <li>archistBasis(tag=meme_Shipborn)    ->Since their emergence, archotechs have extended their consciousness amongst the stars.</li>
+    <li>archistFact(tag=meme_Shipborn)     ->Archotechs transcend the limitations of planetbound life.</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd], archotechs will teach us to move effortlessly amongst the stars if we observe their cosmic wisdom.</li>
+    <li>animistBasis(tag=meme_Shipborn)    ->Our ancestors have travelled [celestialComponents] and teach us to regard humanity and celestial entities as counterparts.</li>
+    <li>animistFact(tag=meme_Shipborn)     ->The same spirits that inhabit celestial bodies guide humanity's destiny.</li>
+    <li>celestialComponents->stars, moons, and comets</li>
+    <li>celestialComponents->the cosmos</li>
+    <li>celestialComponents->one thousand suns</li>
+    <li>veneratedRole->navigator</li>
+    <li>veneratedRole->captain</li>
+  -->
+  <Shipborn.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Shipborn) ->[deity0_name]用[celestialComponents]的星塵塑造了人類，用[deity0_possessive]星星之風賦予人類生命。</li>
+    <li>episode(uses=1,tag=meme_Shipborn) ->[deity0_name]驅散了[place_name]的偉大人民，將他們送入虛空，讓他們見證星與魂的交融。</li>
+    <li>intro(tag=meme_Shipborn) ->在黑暗時期，[deity0_name]看到人類需要指引，並命令[deity0_possessive][memberNamePlural]建造偉大之船。</li>
+    <li>conflict(tag=meme_Shipborn) ->當[memberNamePlural]開始實現[deity0_name]的願景時，叛逆的[foeLeader]試圖阻止他們。[foeLeader_possessive][foeSoldiers]使用殘酷的[place_personalWeapon]對抗那些試圖登上神聖船隻的人。</li>
+    <li>founderJoin(tag=meme_Shipborn) ->一位名叫[founderName]的[place_job]集結了真正的信徒，帶領他們到隱秘的[altarRoomLabel]。在那裡，[founder_pronoun]成為他們的[veneratedRole]。</li>
+    <li>victory(tag=meme_Shipborn) ->然後[founderName]用[deity0_name]的聲音說話。在光與能量的輝煌交融中，[founderName]壓倒了[founder_possessive]敵人，並將[founder_possessive]人民引導到神聖之船。</li>
+    <li>setup(tag=meme_Shipborn) ->在[founder_possessive]神聖之船上，[founderName]在星際海洋中航行了一千年，與天體的靈魂交流，揭開宇宙的秘密。</li>
+    <li>story(uses=1,tag=meme_Shipborn) ->[founderName]看到人類的命運只有在星辰之中才能實現。</li>
+    <li>lessonIntro(tag=meme_Shipborn) ->在我對[celestialComponents]的觀察中，我發現了一個超越一切的真相：</li>
+    <li>lesson(tag=meme_Shipborn) ->星辰是我們真正的[veneratedRole]，我們有責任尋求他們的智慧並在其中旅行</li>
+    <li>lesson(tag=meme_Shipborn) ->人類絕不注定要成為大石的囚徒。我們必須生活在天堂之中</li>
+    <li>lesson(tag=meme_Shipborn) ->我們的船隻是我們神聖的母親和聖潔的父親。我們必須像他們關心我們一樣關心他們</li>
+    <li>lessonReinforcement(tag=meme_Shipborn) ->願你的雙腳永不觸地。</li>
+    <li>archistBasis(tag=meme_Shipborn) ->自從他們出現以來，遠古科技已將他們的意識延展到星辰之中。</li>
+    <li>archistFact(tag=meme_Shipborn) ->遠古科技超脫了生命受星球束縛的限制。</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd]，如果我們窺探到遠古科技的宇宙智慧，他們將教我們如何輕鬆地穿越星辰。</li>
+    <li>animistBasis(tag=meme_Shipborn) ->我們的祖先曾旅行過[celestialComponents]，教導我們將人類和天體存在視為對等。</li>
+    <li>animistFact(tag=meme_Shipborn) ->居住在天體中的同一靈魂引領著人類的命運。</li>
+    <li>celestialComponents->星星、月亮和彗星</li>
+    <li>celestialComponents->宇宙</li>
+    <li>celestialComponents->千個太陽</li>
+    <li>veneratedRole->引路者</li>
+    <li>veneratedRole->船長</li>
+    <li>memeLeaderNoun->船裔</li>
+    <li>memeMoralist->引路者</li>
+    <li>memeMoralist->議員</li>
+  </Shipborn.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeCreed->crew</li>
+    <li>memeCreed->ship</li>
+    <li>memeCreed->starship</li>
+    <li>memeAdjective->stellar</li>
+    <li>memeAdjective->empty</li>
+    <li>memeAdjective->cosmic</li>
+    <li>memeAdjective->celestial</li>
+    <li>memeAdjective->astral</li>
+    <li>memeHyphenPrefix->astro</li>
+    <li>memeHyphenPrefix->dark</li>
+    <li>memeConcept->space</li>
+    <li>memeConcept->stars</li>
+    <li>memeConcept->starships</li>
+    <li>memeLeaderNoun->captain</li>
+    <li>memeLeaderNoun->starborn</li>
+    <li>memeLeaderNoun->pilot</li>
+    <li>memeLeaderAdjective->shining</li>
+    <li>memeMoralist->wayfinder</li>
+    <li>memeMoralist->navigator</li>
+    <li>memeMoralist->councillor</li>
+  -->
+  <Shipborn.generalRules.rulesStrings>
+    <li>memeCreed->船員</li>
+    <li>memeCreed->船</li>
+    <li>memeCreed->星艦</li>
+    <li>memeAdjective->星際的</li>
+    <li>memeAdjective->空虛的</li>
+    <li>memeAdjective->宇宙的</li>
+    <li>memeAdjective->天體的</li>
+    <li>memeAdjective->星界的</li>
+    <li>memeHyphenPrefix->星</li>
+    <li>memeHyphenPrefix->黑暗的</li>
+    <li>memeConcept->空間</li>
+    <li>memeConcept->星辰</li>
+    <li>memeConcept->星艦</li>
+    <li>memeLeaderNoun->船長</li>
+    <li>memeLeaderNoun->船裔</li>
+    <li>memeLeaderNoun->駕駛</li>
+    <li>memeLeaderAdjective->閃亮的</li>
+    <li>memeMoralist->領航員</li>
+    <li>memeMoralist->導航員</li>
+    <li>memeMoralist->顧問</li>
+  </Shipborn.generalRules.rulesStrings>
+  
+</LanguageData>

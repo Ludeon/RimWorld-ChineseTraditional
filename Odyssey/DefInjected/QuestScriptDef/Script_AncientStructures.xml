@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an infested settlement</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod][structureNameWithArticle]的位置。你可以搜掠該建築以獲取有價值的資源。\n\n請注意，遠古建築可能包含各種威脅。</li>
+    <li>structureNameWithArticle->一個受蟲災肆虐的據點</li>
+  </Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->infested settlement</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+    <li>questName->[ancient][structureName]</li>
+    <li>questName->發現了[structureName]</li>
+    <li>questName->[structureName]的發現</li>
+    <li>ancient(p=2)->遠古的</li>
+    <li>ancient->失落的</li>
+    <li>structureName->受蟲災肆虐的據點</li>
+  </Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->insect hives</li>
+    <li>subject->infestations</li>
+    <li>questMapFeature->insect hive</li>
+    <li>questMapFeature->anatomical drawing of a megaspider</li>
+    <li>questMapText->insects everywhere</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+    <li>subject->遠古建築</li>
+    <li>subject->失落的地標</li>
+    <li>subject->遠古建築物</li>
+    <li>questMapFeature->一幅老建築的圖畫</li>
+    <li>questMapText->拾荒目標</li>
+    <li>questMapText->探險地點</li>
+    <li>questMapText->危險的遠古建築物</li>
+    <li>questMapText->小心陷阱</li>
+    <li>subject->蟲巢</li>
+    <li>subject->蟲災</li>
+    <li>questMapFeature->蟲巢</li>
+    <li>questMapFeature->巨蛛的解剖圖</li>
+    <li>questMapText->到處都是蟲族</li>
+  </Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient chemfuel refinery</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod][structureNameWithArticle]的位置。你可以搜掠該建築以獲取有價值的資源。\n\n請注意，遠古建築可能包含各種威脅。</li>
+    <li>structureNameWithArticle->一個遠古化合燃料精煉廠</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->chemfuel refinery</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+    <li>questName->[ancient][structureName]</li>
+    <li>questName->發現了[structureName]</li>
+    <li>questName->[structureName]的發現</li>
+    <li>ancient(p=2)->遠古的</li>
+    <li>ancient->失落的</li>
+    <li>structureName->化合燃料精煉廠</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient refineries</li>
+    <li>subject->chemplants</li>
+    <li>questMapFeature->chemfuel refinery</li>
+    <li>questMapFeature->picture of a chemfuel tank</li>
+    <li>questMapFeature->sketch of refinery equipment</li>
+    <li>questMapText->chemfuel depot</li>
+    <li>questMapText->chemfuel here</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+    <li>subject->遠古建築</li>
+    <li>subject->失落的地標</li>
+    <li>subject->遠古建築物</li>
+    <li>questMapFeature->一幅老建築的圖畫</li>
+    <li>questMapText->拾荒目標</li>
+    <li>questMapText->探險地點</li>
+    <li>questMapText->危險的遠古建築</li>
+    <li>questMapText->小心陷阱</li>
+    <li>subject->遠古精煉廠</li>
+    <li>subject->化工廠</li>
+    <li>questMapFeature->化合燃料精煉廠</li>
+    <li>questMapFeature->化合燃料箱的圖片</li>
+    <li>questMapFeature->精煉設備的草圖</li>
+    <li>questMapText->化合燃料倉庫</li>
+    <li>questMapText->這裡有化合燃料</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient garrison</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod][structureNameWithArticle]的位置。你可以搜掠該建築以獲取有價值的資源。\n\n請注意，遠古建築可能包含各種威脅。</li>
+    <li>structureNameWithArticle->一個遠古駐軍地點</li>
+  </Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->garrison</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+    <li>questName->[ancient][structureName]</li>
+    <li>questName->發現[structureName]</li>
+    <li>questName->[structureName]發現</li>
+    <li>ancient(p=2)->遠古的</li>
+    <li>ancient->失落的</li>
+    <li>structureName->駐軍地點</li>
+  </Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient military sites</li>
+    <li>subject->ancient garrisons</li>
+    <li>questMapFeature->garrison</li>
+    <li>questMapFeature->picture of weapon racks</li>
+    <li>questMapFeature->charcoal sketch of an assault rifle</li>
+    <li>questMapText->weapons facility</li>
+    <li>questMapText->ancient armory</li>
+    <li>questMapText->lots of military equipment</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+    <li>subject->遠古建築</li>
+    <li>subject->失落的地標</li>
+    <li>subject->遠古建築物</li>
+    <li>questMapFeature->一幅老建築的圖畫</li>
+    <li>questMapText->拾荒目標</li>
+    <li>questMapText->探險地點</li>
+    <li>questMapText->危險的遠古建築</li>
+    <li>questMapText->小心陷阱</li>
+    <li>subject->遠古軍事地點</li>
+    <li>subject->遠古駐軍地點</li>
+    <li>questMapFeature->駐軍地點</li>
+    <li>questMapFeature->武器架的圖片</li>
+    <li>questMapFeature->突擊步槍的炭筆草圖</li>
+    <li>questMapText->武器設施</li>
+    <li>questMapText->遠古軍械庫</li>
+    <li>questMapText->大量軍事設備</li>
+  </Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient launch site</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod][structureNameWithArticle]的位置。你可以搜掠該建築以獲取有價值的資源。\n\n請注意，遠古建築可能包含各種威脅。</li>
+    <li>structureNameWithArticle->一個遠古發射場</li>
+  </Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->launch site</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+    <li>questName->[ancient][structureName]</li>
+    <li>questName->發現了[structureName]</li>
+    <li>questName->[structureName]的發現</li>
+    <li>ancient(p=2)->遠古的</li>
+    <li>ancient->失落的</li>
+    <li>structureName->發射地點</li>
+  </Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient launch sites</li>
+    <li>subject->spaceports</li>
+    <li>questMapFeature->launch site</li>
+    <li>questMapFeature->diagram of shuttle refueling apparatus</li>
+    <li>questMapFeature->sketch of treasure being loaded into transport pods</li>
+    <li>questMapText->they have fuel</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+    <li>subject->遠古建築</li>
+    <li>subject->失落的地標</li>
+    <li>subject->遠古建築物</li>
+    <li>questMapFeature->一幅老建築的圖畫</li>
+    <li>questMapText->拾荒目標</li>
+    <li>questMapText->探險地點</li>
+    <li>questMapText->危險的遠古建築</li>
+    <li>questMapText->小心陷阱</li>
+    <li>subject->遠古發射地點</li>
+    <li>subject->太空港</li>
+    <li>questMapFeature->發射場</li>
+    <li>questMapFeature->太空梭燃料加注裝置的圖解</li>
+    <li>questMapFeature->裝載寶藏到運輸艙的草圖</li>
+    <li>questMapText->他們有燃料</li>
+  </Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient warehouse</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod][structureNameWithArticle]的位置。你可以搜掠該建築以獲取有價值的資源。\n\n請注意，遠古建築可能包含各種威脅。</li>
+    <li>structureNameWithArticle->一個遠古倉庫</li>
+  </Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->warehouse</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+    <li>questName->[ancient][structureName]</li>
+    <li>questName->發現了[structureName]</li>
+    <li>questName->[structureName]的發現</li>
+    <li>ancient(p=2)->遠古的</li>
+    <li>ancient->失落的</li>
+    <li>structureName->倉庫</li>
+  </Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient storehouses</li>
+    <li>subject->warehouses</li>
+    <li>questMapFeature->warehouse</li>
+    <li>questMapFeature->diagram of shelves filled with boxes</li>
+    <li>questMapFeature->sketch of a forklift</li>
+    <li>questMapText->massive ancient building</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+    <li>subject->遠古建築</li>
+    <li>subject->失落的地標</li>
+    <li>subject->遠古建築物</li>
+    <li>questMapFeature->一幅老建築的圖畫</li>
+    <li>questMapText->拾荒目標</li>
+    <li>questMapText->探險地點</li>
+    <li>questMapText->危險的遠古建築</li>
+    <li>questMapText->小心陷阱</li>
+    <li>subject->遠古倉庫</li>
+    <li>subject->倉庫</li>
+    <li>questMapFeature->倉庫</li>
+    <li>questMapFeature->裝滿箱子的貨架示意圖</li>
+    <li>questMapFeature->叉車的草圖</li>
+    <li>questMapText->巨大的遠古建築</li>
+  </Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+  
+</LanguageData>

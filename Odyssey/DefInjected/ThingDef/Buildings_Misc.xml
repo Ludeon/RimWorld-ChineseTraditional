@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient blast door -->
+  <AncientBlastDoor.label>遠古防爆門</AncientBlastDoor.label>
+  <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
+  <AncientBlastDoor.description>由高科技聚合物製成的強化門。破解該門以開啟。</AncientBlastDoor.description>
+  <!-- EN: Unlocked. -->
+  <AncientBlastDoor.comps.CompHackable.hackedInspectString>已解鎖。</AncientBlastDoor.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientBlastDoor.comps.CompHackable.hackedMessage>{HACKER_labelShort} 已完成對 {SUBJECT_labelNoParenthesisDef} 的破解。</AncientBlastDoor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientBlastDoor.comps.CompHackable.notHackedInspectString>破解以開啟。</AncientBlastDoor.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient explosives crate -->
+  <AncientExplosivesCrate.label>遠古炸藥箱</AncientExplosivesCrate.label>
+  <!-- EN: A container of ancient mining charges. It will explode if damaged.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <AncientExplosivesCrate.description>遠古採礦炸藥的容器。如果受損會爆炸。</AncientExplosivesCrate.description>
+  
+  <!-- EN: fortified wall -->
+  <AncientFortifiedWall.label>加固牆</AncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <AncientFortifiedWall.description>由高科技聚合物製成的強化牆。</AncientFortifiedWall.description>
+  
+  <!-- EN: ancient grav engine -->
+  <AncientGravEngine.label>遠古重力引擎</AncientGravEngine.label>
+  <!-- EN: An ultratech engine used to bring large structures and ships into orbit. While it has been nonfunctional for many years, it contains a functional gravcore. -->
+  <AncientGravEngine.description>一種高科技引擎，用於將大型結構和飛船送入軌道。雖然已經多年不再運作，但其內部仍含有一個功能完好的重力核心。</AncientGravEngine.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientGravEngine.comps.CompInspectString.inspectString>包含：重力核心</AncientGravEngine.comps.CompInspectString.inspectString>
+  
+  <!-- EN: ancient grav reactor -->
+  <AncientGravReactor.label>遠古重力反應堆</AncientGravReactor.label>
+  <!-- EN: An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair. The reactor containment shield is leaking, causing toxic fallout to blanket the whole region.\n\nHack or destroy the reactor to obtain a gravcore. Be warned, it may explode if damaged. -->
+  <AncientGravReactor.description>一個由重力核心驅動的遠古發電機。曾經能產生大量能量，如今已經失修。反應堆的防護罩正在洩漏，導致整個地區被毒霧霾覆蓋。\n\n破解或摧毀反應堆以獲得重力核心。注意，受到損壞時可能會爆炸。</AncientGravReactor.description>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterLabel>已獲得重力核心</AncientGravReactor.comps.CompHackable.destroyedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterText>你已從遠古反應堆中獲得了一個重力核心。\n\n反應堆正在關閉，毒霧霾已開始消散。</AncientGravReactor.comps.CompHackable.destroyedLetterText>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterLabel>已獲得重力核心</AncientGravReactor.comps.CompHackable.hackedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterText>你已從遠古反應堆中獲得了一個重力核心。\n\n反應堆正在關閉，毒霧霾已開始消散。</AncientGravReactor.comps.CompHackable.hackedLetterText>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <AncientGravReactor.comps.CompHackable.hackedMessage>{HACKER_labelShort} 已完成對{SUBJECT_definite}的破解。</AncientGravReactor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to obtain gravcore. -->
+  <AncientGravReactor.comps.CompHackable.notHackedInspectString>破解以獲得重力核心。</AncientGravReactor.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Ancient reactor -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.label>遠古反應堆</AncientGravReactor.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the ancient grav reactor. Hack it or destroy it to obtain a gravcore and end the toxic fallout.\n\nBe warned, it may explode if damaged. -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.text>你已發現遠古重力反應堆。破解或摧毀它以獲得重力核心並結束毒霧霾。\n\n注意，受到損壞時可能會爆炸。</AncientGravReactor.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient stockpile entrance -->
+  <AncientHatch.label>遠古儲藏庫入口</AncientHatch.label>
+  <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
+  <AncientHatch.description>一個長期廢棄的地下設施入口。破解打開入口。</AncientHatch.description>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort}成功破解{SUBJECT_labelNoParenthesisDef}。</AncientHatch.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientHatch.comps.CompHackable.notHackedInspectString>破解以打開。</AncientHatch.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient stockpile exit -->
+  <AncientHatchExit.label>遠古儲藏庫出口</AncientHatchExit.label>
+  <!-- EN: A ladder which links to the surface hatch above. -->
+  <AncientHatchExit.description>連接到上方地面入口的梯子。</AncientHatchExit.description>
+  
+  <!-- EN: ancient mining charge -->
+  <AncientMiningCharge.label>遠古採礦炸藥</AncientMiningCharge.label>
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <AncientMiningCharge.description>一種用於快速炸穿岩石的爆炸裝置。由精製化合燃料製成。雖然這種炸藥很古老，但仍可隨時引爆。</AncientMiningCharge.description>
+  
+  <!-- EN: ancient security terminal -->
+  <AncientSecurityTerminal.label>遠古安全終端</AncientSecurityTerminal.label>
+  <!-- EN: An ancient terminal. Hack it to disable nearby security systems. -->
+  <AncientSecurityTerminal.description>一個遠古終端。破解以關閉附近的安全系統。</AncientSecurityTerminal.description>
+  <!-- EN: Blast door opened -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>防爆門已開啟</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to open a blast door. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>{HACKER_nameDef}使用了遠古安全終端開啟了一道防爆門。</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>
+  <!-- EN: Turret disabled -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>炮塔已被停用</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to disable a turret. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>{HACKER_nameDef}使用了遠古安全終端禁用了一個砲塔。</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>
+  <!-- EN: Turret reprogrammed -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>砲塔已被重編程</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to reprogram a turret. The turret will now only target hostiles. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>{HACKER_nameDef}使用了遠古安全終端重編程了一個砲塔。該砲塔現在只會攻擊敵對目標。</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>
+  <!-- EN: {HACKER_nameDef} couldn't find any security systems using the ancient security terminal. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>{HACKER_nameDef}未能使用遠古安全終端找到任何安全系統。</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>
+  
+  <!-- EN: ancient terraformer -->
+  <AncientTerraformer.label>遠古地形改造器</AncientTerraformer.label>
+  <!-- EN: An ancient terraforming device powered by a gravcore. It has begun to malfunction, causing temperatures to plummet.\n\nDestroy the terraformer to obtain a gravcore. -->
+  <AncientTerraformer.description>由重力核心驅動的遠古地形改造設備。它已開始故障，導致溫度驟降。\n\n摧毀地形改造器以獲得重力核心。</AncientTerraformer.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientTerraformer.comps.CompInspectString.inspectString>包含物：重力核心</AncientTerraformer.comps.CompInspectString.inspectString>
+  <!-- EN: Ancient terraformer -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.label>遠古地形改造器</AncientTerraformer.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the malfunctioning terraformer. Destroy it to obtain a gravcore and end the deep freeze. -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.text>你已發現故障的地形改造器。摧毀它以獲得重力核心並終止酷寒。</AncientTerraformer.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient transport pod -->
+  <AncientTransportPod.label>遠古運輸艙</AncientTransportPod.label>
+  <!-- EN: An ancient cargo pod capable of carrying people, animals, and items. It's still in working condition. -->
+  <AncientTransportPod.description>一個可運送人員、動物和物品的遠古貨艙。它目前仍然可以正常運作。</AncientTransportPod.description>
+  
+  <!-- EN: ancient uplink -->
+  <AncientUplink.label>遠古上行鏈路</AncientUplink.label>
+  <!-- EN: An ancient transmitter used for secure communications between the surface and orbit. Hack it to determine the last location it transmitted to. -->
+  <AncientUplink.description>用於地面與軌道安全通信的遠古發信器。破解以確定其最後一次傳輸的位置。</AncientUplink.description>
+  <!-- EN: Hacked. -->
+  <AncientUplink.comps.CompHackable.hackedInspectString>已破解。</AncientUplink.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientUplink.comps.CompHackable.hackedMessage>{HACKER_labelShort}成功破解{SUBJECT_labelNoParenthesisDef}。</AncientUplink.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack for information. -->
+  <AncientUplink.comps.CompHackable.notHackedInspectString>破解以獲取信息。</AncientUplink.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: anticraft beam -->
+  <AnticraftBeam.label>反艦艇光束</AnticraftBeam.label>
+  <!-- EN: A massive anti-ship beam weapon. This weapon is intended to destroy flying craft, so it can't aim low enough to hit ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <AnticraftBeam.description>一種巨大的反艦艇光束武器。此武器專門用於摧毀飛行艦艇，因此無法瞄準得低到地面目標。\n\n裝有高科技信號干擾器的艦船可以躲過這些武器。</AnticraftBeam.description>
+  
+  <!-- EN: cerebrex core -->
+  <CerebrexCore.label>超智腦核心</CerebrexCore.label>
+  <!-- EN: The thinking mind of the mechanoid swarm. The cerebrex core commands mechanoids across the entire planet.\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes.\n\nThe structure is protected by nearby stabilizers. Destroy all cerebrex stabilizers to access it. -->
+  <CerebrexCore.description>機械族群的思維中樞。超智腦核心指揮全星球的機械族。\n\n其本質是一個 AI 人格核心，認知、思考、並相信它必須殺死星球上的所有人類。從某種意義上來說，這個衝動是由數百萬年前的人類軍事領袖設定的命令。在另一個意義上，它是冷酷沸騰的仇恨。無論如何，如果你解放 AI 人格，你可以重設其慾望並用於其他用途。\n\n該結構被附近的穩定器保護。摧毀所有超智腦穩定器即可進入。</CerebrexCore.description>
+  <!-- EN: Inspect the core. -->
+  <CerebrexCore.comps.CompCerebrexCore.activateDescString>檢查核心。</CerebrexCore.comps.CompCerebrexCore.activateDescString>
+  <!-- EN: Inspect... -->
+  <CerebrexCore.comps.CompCerebrexCore.activateLabelString>檢查...</CerebrexCore.comps.CompCerebrexCore.activateLabelString>
+  <!-- EN: inspecting core: {1}s -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingString>檢查核心中：{1}秒</CerebrexCore.comps.CompCerebrexCore.activatingString>
+  <!-- EN: inspecting core -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingStringPending>檢查核心中</CerebrexCore.comps.CompCerebrexCore.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <CerebrexCore.comps.CompCerebrexCore.guiLabelString>選擇要執行此操作的人</CerebrexCore.comps.CompCerebrexCore.guiLabelString>
+  <!-- EN: inspect core -->
+  <CerebrexCore.comps.CompCerebrexCore.jobString>檢查核心</CerebrexCore.comps.CompCerebrexCore.jobString>
+  
+  <!-- EN: destroyed cerebrex core -->
+  <CerebrexCore_Destroyed.label>毀壞的超智腦核心</CerebrexCore_Destroyed.label>
+  <!-- EN: The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet. -->
+  <CerebrexCore_Destroyed.description>曾經指揮星球上機械族的機械族群神經中樞已被摧毀。\n\n\n\n其本質是一個 AI 人格核心，認知、思考、並相信它必須殺死星球上的所有人類。從某種意義上來說，這個衝動是由數百萬年前的人類軍事領袖設定的命令。在另一個意義上，它是冷酷沸騰的仇恨。無論如何，如果你解放 AI 人格，你可以重設其慾望並用於其他用途。</CerebrexCore_Destroyed.description>
+  <!-- EN: Destroy for valuable resources. -->
+  <CerebrexCore_Destroyed.comps.CompInspectString.inspectString>TODO</CerebrexCore_Destroyed.comps.CompInspectString.inspectString>
+  
+  <!-- EN: cerebrex stabilizer -->
+  <CerebrexStabilizer.label>超智腦穩定器</CerebrexStabilizer.label>
+  <!-- EN: A remote shield generator that makes the nearby cerebrex core nearly invincible. Destroying all stabilizers will allow direct access to the cerebrex core.\n\nBe careful, destroying a stabilizer will prompt a defensive response. -->
+  <CerebrexStabilizer.description>一個遠程護盾生成器，使附近的超智腦核心幾乎無敵。摧毀所有穩定器將允許直接接觸超智腦核心。\n\n小心，摧毀穩定器會引發防禦反應。</CerebrexStabilizer.description>
+  
+  <!-- EN: locust cocoon -->
+  <CocoonLocust.label>蝗蟲繭</CocoonLocust.label>
+  <!-- EN: A stasis cocoon containing a locust.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process. -->
+  <CocoonLocust.description>一個包含蝗蟲的休眠繭。\n\n當環境惡劣時，蟲族有時會形成休眠繭並鑽入地下。這些繭可以多年來保護蟲族免受火災、極端溫度和其他威脅。\n\n污染物可以刺激繭，使其重新浮現，強烈的污染物可以從遠處吸引繭。\n\n繭在未被打擾時不會有任何行動。如果繭被打擾或摧毀，內部的蟲族會甦醒並攻擊，並會觸發其他附近的繭。</CocoonLocust.description>
+  
+  <!-- EN: egg sac -->
+  <EggSac.label>卵囊</EggSac.label>
+  <!-- EN: A slimy sac containing an insect larva. The larval gestation process generates a faint bioluminescent glow. -->
+  <EggSac.description>一個包含蟲族幼蟲的黏液囊。幼蟲的孕育過程會產生微弱的生物發光。</EggSac.description>
+  
+  <!-- EN: gauss cannon -->
+  <GaussCannon.label>高斯砲</GaussCannon.label>
+  <!-- EN: A massive anti-ship cannon that uses electromagnets to launch large metallic darts at extreme velocities. The cannon is intended to destroy incoming ships or shuttles, so it can't aim at ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <GaussCannon.description>一種使用電磁力以極高速發射大型金屬鏢的巨型反艦砲。該砲專為摧毀來襲的飛船或太空梭設計，無法瞄準地面目標。\n\n裝有高科技信號干擾器的艦船可以躲過這些武器。</GaussCannon.description>
+  
+  <!-- EN: mechanoid drop pod -->
+  <MechanoidDropPod.label>機械族運輸艙</MechanoidDropPod.label>
+  <!-- EN: A launchable cargo pod intended to carry mechanoids. It is also usable for people, animals, and items. -->
+  <MechanoidDropPod.description>一個可發射的貨艙，為運送機械族設計。也可用於運送人員、動物和物品。</MechanoidDropPod.description>
+  
+  <!-- EN: mechanoid processor -->
+  <MechanoidProcessor.label>機械族處理器</MechanoidProcessor.label>
+  <!-- EN: A powerful mechanoid computer. -->
+  <MechanoidProcessor.description>一台強大的機械族電腦。</MechanoidProcessor.description>
+  
+  <!-- EN: mechhive birther -->
+  <MechhiveAssembler.label>機械巢穴繁殖機</MechhiveAssembler.label>
+  <!-- EN: An automated mechanoid factory. It periodically births fresh mechanoids. -->
+  <MechhiveAssembler.description>一個自動化的機械族工廠。周期性地產生新的機械族。</MechhiveAssembler.description>
+  
+  <!-- EN: mech pylon -->
+  <MechPylon.label>機械塔</MechPylon.label>
+  <!-- EN: A node in a distributed mechanoid computation network. -->
+  <MechPylon.description>分布式機械族計算網絡中的節點。</MechPylon.description>
+  
+  <!-- EN: mechanoid relay -->
+  <MechRelay.label>機械族中繼站</MechRelay.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay.description>協調星球範圍內機械族通信網絡信號的節點。命令信號起源於機械巢穴——機械族智能的中心。</MechRelay.description>
+  <!-- EN: Hack or destroy relay stabilizers to obtain gravcore. -->
+  <MechRelay.comps.CompMechRelay.activeInspectString>破解或摧毀中繼穩定器以獲得重力核心。</MechRelay.comps.CompMechRelay.activeInspectString>
+  <!-- EN: Relay crash -->
+  <MechRelay.comps.CompMechRelay.crashedLetterLabel>中繼站墜毀</MechRelay.comps.CompMechRelay.crashedLetterLabel>
+  <!-- EN: The mechanoid relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile mechanoids will soon arrive in response to the relay going offline. -->
+  <MechRelay.comps.CompMechRelay.crashedLetterText>機械族中繼站已墜落至地面。摧毀它以獲得重力核心。\n\n注意，敵對的機械族將很快抵達以響應中繼站掉線。</MechRelay.comps.CompMechRelay.crashedLetterText>
+  <!-- EN: Destabilizing -->
+  <MechRelay.comps.CompMechRelay.destabilizationInspectString>正在不穩定化</MechRelay.comps.CompMechRelay.destabilizationInspectString>
+  <!-- EN: The mechanoid relay has begun to destabilize. -->
+  <MechRelay.comps.CompMechRelay.destabilizationMessage>機械族中繼站開始不穩定化。</MechRelay.comps.CompMechRelay.destabilizationMessage>
+  
+  <!-- EN: crashed mechanoid relay -->
+  <MechRelay_Crashed.label>墜毀的機械族中繼站</MechRelay_Crashed.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay_Crashed.description>協調星球範圍內機械族通信網絡信號的節點。命令信號起源於機械巢穴——機械族智能的中心。</MechRelay_Crashed.description>
+  <!-- EN: Contains: Gravcore -->
+  <MechRelay_Crashed.comps.CompInspectString.inspectString>包含物：重力核心</MechRelay_Crashed.comps.CompInspectString.inspectString>
+  
+  <!-- EN: relay stabilizer -->
+  <MechStabilizer.label>中繼穩定器</MechStabilizer.label>
+  <!-- EN: A shield projecter that protects a nearby mechanoid relay. All stabilizers must be hacked or destroyed to deactivate the shield.\n\nDestroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option. -->
+  <MechStabilizer.description>保護附近機械族中繼站的護盾投射器。所有穩定器必須被破解或摧毀以中止護盾。\n\n摧毀穩定器會引發防禦反應。破解是較慢但較安全的選擇。</MechStabilizer.description>
+  <!-- EN: Deactivated. -->
+  <MechStabilizer.comps.CompHackable.hackedInspectString>已被中止。</MechStabilizer.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <MechStabilizer.comps.CompHackable.hackedMessage>{HACKER_labelShort}成功破解{SUBJECT_labelNoParenthesisDef}。</MechStabilizer.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to disable stabilizer. -->
+  <MechStabilizer.comps.CompHackable.notHackedInspectString>破解以停用穩定器。</MechStabilizer.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: fortified wall -->
+  <OrbitalAncientFortifiedWall.label>加固牆</OrbitalAncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <OrbitalAncientFortifiedWall.description>由高科技聚合物製成的強化牆。</OrbitalAncientFortifiedWall.description>
+  
+  <!-- EN: passenger shuttle -->
+  <PassengerShuttle.label>客運太空梭</PassengerShuttle.label>
+  <!-- EN: A chemfuel-powered shuttle designed for long-distance travel. It is capable of reaching orbital locations. -->
+  <PassengerShuttle.description>一種化合燃料驅動的太空梭，設計用於長距離旅行。能夠到達軌道位置。</PassengerShuttle.description>
+  <!-- EN: {0} is ready to launch again. -->
+  <PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>{0} 準備好再次發射。</PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>化合燃料</PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelLabel>化合燃料</PassengerShuttle.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: surveying scanner -->
+  <SurveyScanner.label>勘測掃描器</SurveyScanner.label>
+  <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
+  <SurveyScanner.description>一個可以檢測和繪製本地區域各種特徵的寬帶傳感器單元。</SurveyScanner.description>
+  <!-- EN: Scanning local area: {DURATION} -->
+  <SurveyScanner.comps.CompCountdown.label>正在掃描本地區域：{DURATION}</SurveyScanner.comps.CompCountdown.label>
+  
+</LanguageData>
