@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>desc->a map [physicalDescription] showing a location of interest. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->[physicalDescription], this [mapType] [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->this [mapType] is [physicalDescription] and [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->a [mapType] containing [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->a collection of maps with [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->a map from [place] with [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>physicalDescription->printed on a thin and heat-resistant polymer</li>
+    <li>physicalDescription->laser-printed on hyperweave</li>
+    <li>physicalDescription->drawn in what appears to be dried blood</li>
+    <li>physicalDescription->held together with string</li>
+    <li>physicalDescription->bound in worn leather</li>
+    <li>physicalDescription->drawn on thin leather</li>
+    <li>physicalDescription->bound in vinyl</li>
+    <li>physicalDescription->etched into thin sheets of parchment</li>
+    <li>physicalDescription->etched in charcoal</li>
+    <li>physicalDescription->etched on a waterlogged canvas</li>
+    <li>physicalDescription->etched on fetid animal hide</li>
+    <li>physicalDescription->scrawled in black ink</li>
+    <li>physicalDescription->stitched into elk hide</li>
+    <li>physicalDescription->written on dried [Animal] skin</li>
+    <li>physicalDescription->crafted from blackened parchment</li>
+    <li>physicalDescription->delicately folded in sixteen sections</li>
+    <li>physicalDescription->printed by an industrial press</li>
+    <li>physicalDescription->printed on hyperweave</li>
+    <li>physicalDescription->delicately crafted on fine hyperweave</li>
+    <li>physicalDescription->adorned with holographic decals</li>
+    <li>physicalDescription->written in spidery handwriting</li>
+    <li>physicalDescription->inked upon yellowing paper</li>
+    <li>physicalDescription->inked with vivid colors</li>
+    <li>physicalDescription->clearly damaged from a fire</li>
+    <li>physicalDescription->drawn on a sturdy canvas</li>
+    <li>physicalDescription->folded many times over and smeared with dirt and charcoal</li>
+    <li>physicalDescription->drawn on crumbling parchment with faint spidery writing</li>
+    <li>physicalDescription->etched on yellowed parchment with tattered and crumbling edges</li>
+    <li>mapContents->hundreds of small drawings of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->quick sketches of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->lists of notable [mapSubject]. The longest list is titled '[AdjectiveBadass]!' It is circled in red ink</li>
+    <li>mapContents->burnt edges and smudged lines. The central map shows [mapSubjectAdj] [mapSubject] but the lines are obscured by [stain] stains</li>
+    <li>mapContents->new diagrams on every page. Some diagrams go into great detail about [mapSubject], the largest of which is undeniably [mapSubjectAdj]</li>
+    <li>mapContents->a mix of fantastical [mapSubject] and historical [mapSubject]</li>
+    <li>mapContents->dozens of ancient diagrams of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->themed drawings. A large central [depiction] resembles a [Animal], drawn in a [artstyle_adj] style</li>
+    <li>mapContents->thousands of strange symbols, many of which resemble [mapSubject]. The most common symbol looks like a [emotionalState] [Animal] drawn in a [artstyle_adj] style</li>
+    <li>mapContents->clear signs of age. One diagram, drawn with a different hand, shows the ancient [mapSubject] of [place]</li>
+    <li>mapContents->detailed diagrams of [place] [mapSubject] and their relation to [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->four large sketches of [place] [mapSubject]</li>
+    <li>mapContents->many small diagrams. One diagram is labeled '[place] [RomanNumeral]' and contains a detailed survey of [place] [mapSubject]</li>
+    <li>mapContents->many small drawings of [mapSubjectAdj] [mapSubject] and [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->detailed drawings of the planet. Several nearby locations are labeled '[Enemy]s' in red ink</li>
+    <li>mapContents->the coordinates for a number of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->coordinates highlighted in yellow marker</li>
+    <li>mapContents->drawings of nearby territories. Crude symbols mark safe havens and hidden caches</li>
+    <li>mapContents->the locations of [Quantity_adjphrase] [Animal] sanctuaries. Red 'X's also denote several graves</li>
+    <li>mapContents->nothing of importance. Or so it seems</li>
+    <li>mapContents->faded gridlines. Each quadrant contains [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->[Quantity_adjphrase] [mapSubject] rendered in a [artstyle_adj] style. Underneath each is a [AdjectiveAny] [Animal]</li>
+    <li>maybe_specialFact-></li>
+    <li>maybe_specialFact->[specialFact]</li>
+    <li>specialFact->The markings are invisible in normal light. Yet, in complete darkness, ghostly symbols and spectral lines emerge, glowing a pale silver.</li>
+    <li>specialFact->Markings appear and vanish depending on the angle of the light.</li>
+    <li>specialFact->The pages glow faintly with crimson sigils that shift and twist when held to a flame.</li>
+    <li>specialFact->The annotations are in a regional dialect, suggesting the author is from [place].</li>
+    <li>specialFact->Each fold contains a letter and several numbers but their meaning is unclear.</li>
+    <li>specialFact->Something about the markings is unnerving.</li>
+    <li>specialFact->It contains annotations from a long forgotten language.</li>
+    <li>specialFact->The crude and uneven markings slowly change over time, revealing hidden meaning.</li>
+    <li>specialFact->It claims to reveal the very lifeblood of the land itself, guiding the reader to a place of great natural power.</li>
+    <li>specialFact->Hidden among the many folds is a slip of paper with a drawing of a [emotionalState] [Animal].</li>
+    <li>specialFact->Touching the map for too long leaves faint red stains on the reader's fingertips.</li>
+    <li>specialFact->Grains of sand can be found amongst the map's folds.</li>
+    <li>specialFact->Annotations on the map suggest that it holds the key to some greater secret.</li>
+    <li>specialFact->A crude rendition of several [mapSubject] from [place] is sketched in the margins.</li>
+    <li>specialFact->The ink is faded, and faint stains obscure some of the details, making deciphering the details a challenge.</li>
+    <li>specialFact->Subtle stitching suggests it was repurposed from several larger maps.</li>
+    <li>specialFact->This map may be as much a warning as a guide.</li>
+    <li>specialFact->The markings are careless in places, suggesting the map was created in a hurry.</li>
+    <li>specialFact->Its detail suggests it was commissioned by someone with means, and its secrecy implies it contains something worth hiding.</li>
+    <li>specialFact->[Quantity_adjphrase] [Character]s are drawn [noteLocation]. They look [emotionalState].</li>
+    <li>specialFact->Elegant calligraphy labels a few [mapSubject], but one isolated drawing bears only a cryptic mark - a symbol of a [mapSymbol].</li>
+    <li>specialFact->The map contains a short biography of its author - a notable [PersonJob] from [place].</li>
+    <li>specialFact->The map was authored by an infamous [PersonBadass].</li>
+    <li>specialFact->The map was authored by a [emotionalState] [PersonBadass].</li>
+    <li>specialFact->The map's simplicity suggests it was hastily made by a [PersonBadass] needing to stay one step ahead of the authorities.</li>
+    <li>specialFact->Key areas are circled, with annotations like 'avoid [Enemy]s' and 'strong like a [Animal].'</li>
+    <li>specialFact->On the map, a [mapSymbol] is circled and labeled with '[smell] and [stain]'.</li>
+    <li>specialFact->Written in the margins is a thousand-year-old poem titled 'Diabolus'.</li>
+    <li>specialFact->The map's legend identifies [Color] [mapSymbol]s as [Enemy] lairs and [Color] [mapSymbol]s as [Animal] hunting grounds.</li>
+    <li>specialFact->The scale of the map is clearly wrong.</li>
+    <li>specialFact->The map has a faded wax seal [noteLocation]. It resembles a [emotionalState] [Animal].</li>
+    <li>maybe_questInfo-></li>
+    <li>maybe_questInfo(p=3)->[questInfo]</li>
+    <li>questInfo->An area of the map is circled and labeled: '[mapText]!'</li>
+    <li>questInfo->An attached note is labeled '[mapText]?'</li>
+    <li>questInfo->'[mapText]' is scrawled in faded ink [noteLocation].</li>
+    <li>questInfo->A note [noteLocation] reads: '[mapText].'</li>
+    <li>questInfo->A hastily written note [noteLocation] reads: '[mapText]!'</li>
+    <li>questInfo->A cryptic riddle has been scrawled [noteLocation]. It ends with '...[mapText].'</li>
+    <li>questInfo->Next to a [Color] [mapSymbol] are the words '[mapText].'</li>
+    <li>questInfo->Burned into the map are the words '[mapText].'</li>
+    <li>questInfo->A large [mapSymbol] is drawn near a [mapFeature]. It is labeled '[mapText].'</li>
+    <li>questInfo->A [Color] compass rose is etched into the map. Strangely, north and south are mislabeled. In the center of the compass are the words: '[mapText].'</li>
+    <li>questInfo->The map's previous owner has clearly been looking for something. An area is circled next to the words: '[mapText].'</li>
+    <li>questInfo->Holding the map up to the light, you can see the words '[mapText].'</li>
+    <li>questInfo->[noteLocation], a [Color] [mapSymbol] is labeled '[mapText]!'</li>
+    <li>questInfo->[noteLocation], a [mapSymbol] is labeled '[mapText]?'</li>
+    <li>questInfo->[noteLocation], some notes have been smudged. The only thing legible is: 'confirmed - [mapText].'</li>
+    <li>questInfo->[noteLocation] is a crude drawing of a [emotionalState] [PersonBadass]. Underneath are the words: '[mapText].'</li>
+    <li>questInfo->A [Animal] is drawn in pencil [noteLocation]. Beneath it are the words: '[mapText].'</li>
+    <li>questInfo->The map's legend labels [Color] [mapSymbol]s as '[mapText].'</li>
+    <li>questInfo->A thick red X is scratched over a location. Next to it, '[mapText]' is written in tiny script.</li>
+    <li>questInfo->Upon closer inspection, it appears someone has tried to erase the words '[mapText]' from the map.</li>
+    <li>questInfo->Near a [Color] skull icon, someone has written in bold letters: '[mapText].'</li>
+    <li>questInfo->An unusual symbol is drawn [noteLocation]. Below it are the words '[mapText].'</li>
+    <li>questInfo->A [Color] dagger is etched into the map, pointing towards the words '[mapText].'</li>
+    <li>questInfo->[noteLocation] is a checklist. Each item on the list has been crossed out. Only one remains: '[mapText].'</li>
+    <li>maybe_condition-></li>
+    <li>maybe_condition->[conditionSmell]</li>
+    <li>maybe_condition->[conditionStains]</li>
+    <li>maybe_condition->[conditionTouch]</li>
+    <li>conditionSmell->It stinks of [smell].</li>
+    <li>conditionSmell->It smells faintly of [smell].</li>
+    <li>conditionSmell->The map smells faintly of [smell], a hint of its previous owner's trade.</li>
+    <li>smell->brine and seaweed</li>
+    <li>smell->roses</li>
+    <li>smell->sulphur</li>
+    <li>smell->chemfuel</li>
+    <li>smell->hay and manure</li>
+    <li>smell->burnt flesh</li>
+    <li>smell->insect jelly</li>
+    <li>smell->perfume</li>
+    <li>smell->oil and gunpowder</li>
+    <li>smell->rotten toxipotatoes</li>
+    <li>smell->almonds</li>
+    <li>smell->bleach</li>
+    <li>smell->[Animal] feces</li>
+    <li>conditionStains->Scratches and [stain] stains obscure some details, making it hard to read.</li>
+    <li>conditionStains->[stain] stains and burn marks hint at regular use in tough conditions.</li>
+    <li>conditionStains->The diagrams are obscured by what appears to be [stain].</li>
+    <li>conditionStains->The map is incomplete and stained with [stain].</li>
+    <li>conditionTouch->[stain] stains and frayed edges give it a well-worn, utilitarian feel.</li>
+    <li>stain->blood</li>
+    <li>stain->oil</li>
+    <li>stain->grease</li>
+    <li>stain->red ink</li>
+    <li>stain->salt water</li>
+    <li>stain->wax</li>
+    <li>stain->coffee</li>
+    <li>stain->rust</li>
+    <li>stain->chemfuel</li>
+    <li>conditionTouch->The pages are rough to the touch.</li>
+    <li>conditionTouch->The map is brittle to the touch.</li>
+    <li>conditionTouch->Burn marks on the edges suggest it's been salvaged from a failed mission.</li>
+    <li>conditionTouch->The map feels fragile but carries years of hard-earned knowledge.</li>
+    <li>conditionTouch->The edges are scratched and faded. One corner has been patched with adhesive.</li>
+    <li>maybe_authorInfo-></li>
+    <li>maybe_authorInfo->\n\n[authorInfo]</li>
+    <li>authorInfo->It is unclear who created the map.</li>
+    <li>authorInfo->The map was created by [ANYPAWN_nameFull], a notable [ANYPAWN_kind] from [ANYPAWN_factionName].</li>
+    <li>authorInfo->[noteLocation], the map is signed by [ANYPAWN_nameIndef] the [PersonJob].</li>
+    <li>authorInfo->Included with the map is a small biography of its author, [ANYPAWN_nameIndef] the [ANYPAWN_kind].</li>
+    <li>authorInfo->The map's previous owner appears to have been someone named [ANYPAWN_nameIndef].</li>
+    <li>authorInfo->The map was once owned by an anonymous [ANYPAWN_kind]. The markings suggest [ANYPAWN_pronoun] was a member of [ANYPAWN_factionName].</li>
+    <li>has->has</li>
+    <li>has->contains</li>
+    <li>has->features</li>
+    <li>emotionalState->happy</li>
+    <li>emotionalState->depressed</li>
+    <li>emotionalState->angry</li>
+    <li>emotionalState->sensual</li>
+    <li>mapType(p=4)->map</li>
+    <li>mapType->chart</li>
+    <li>mapType->atlas</li>
+    <li>mapType->survey</li>
+    <li>mapSymbol->key</li>
+    <li>mapSymbol->'X'</li>
+    <li>mapSymbol->star</li>
+    <li>mapSymbol->moon</li>
+    <li>mapSymbol->tower</li>
+    <li>mapSymbol->skull</li>
+    <li>mapSymbol->[Animal]</li>
+    <li>mapText(p=10)->[questMapText]</li>
+    <li>mapText(p=2)->[subject]</li>
+    <li>mapText->extreme danger</li>
+    <li>mapText->beware of [Enemy]</li>
+    <li>mapText->hunger lies ahead</li>
+    <li>mapText->leave no trace</li>
+    <li>mapText->mad [Animal]</li>
+    <li>mapText->raider attack</li>
+    <li>mapText->our last caravan</li>
+    <li>mapText->no survivors</li>
+    <li>mapText->it's here</li>
+    <li>mapText->here lies [ANYPAWN_nameIndef]</li>
+    <li>mapText->[ANYPAWN_nameIndef]'s grave</li>
+    <li>mapText->property of [ANYPAWN_factionName]</li>
+    <li>mapFeature(p=8)->[questMapFeature]</li>
+    <li>mapFeature->river</li>
+    <li>mapFeature->confluence of two rivers</li>
+    <li>mapFeature->crossroads</li>
+    <li>mapFeature->mountain range</li>
+    <li>mapFeature->coastline</li>
+    <li>mapFeature->lake</li>
+    <li>mapFeature->coastal inlet</li>
+    <li>mapFeature->coastal island</li>
+    <li>noteLocation->in the corner</li>
+    <li>noteLocation->in the corner of the map</li>
+    <li>noteLocation->in one corner</li>
+    <li>noteLocation->on the left-hand side</li>
+    <li>noteLocation->on the back</li>
+    <li>noteLocation->at the bottom</li>
+    <li>noteLocation->near a [mapFeature]</li>
+    <li>noteLocation->next to a [mapFeature]</li>
+    <li>noteLocation->below a large [mapFeature]</li>
+    <li>noteLocation->along the edge of the map</li>
+  -->
+  <Description_Map.rulePack.rulesStrings>
+    <li>desc>一張[physicalDescription]的地圖，顯示了一處令人感興趣的地點。[maybe_specialFact][maybe_authorInfo][maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc>[physicalDescription]，這份[mapType][has][mapContents]。[maybe_specialFact][maybe_authorInfo][maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc>這份[mapType]是[physicalDescription]並且[has][mapContents]。[maybe_specialFact][maybe_authorInfo][maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc>一份包含[mapContents]的[mapType]。[maybe_specialFact][maybe_authorInfo][maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc>一份收集了含有[mapContents]的地圖集。[maybe_specialFact][maybe_authorInfo][maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc>一張來自[place]的地圖，內有[mapContents]。[maybe_specialFact][maybe_authorInfo][maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>physicalDescription>印製於薄且耐熱的聚合物上</li>
+    <li>physicalDescription>以雷射在超織布上印製</li>
+    <li>physicalDescription>以看似乾燥的血液繪製</li>
+    <li>physicalDescription>以繩索繫綁在一起</li>
+    <li>physicalDescription>用磨損的皮革裝訂</li>
+    <li>physicalDescription>畫在薄皮革上</li>
+    <li>physicalDescription>用乙烯基裝訂</li>
+    <li>physicalDescription>雕刻於薄羊皮紙上</li>
+    <li>physicalDescription>以木炭刻劃</li>
+    <li>physicalDescription>刻於被水浸濕的畫布上</li>
+    <li>physicalDescription>刻於腐臭的動物皮革上</li>
+    <li>physicalDescription>用黑墨潦草寫成</li>
+    <li>physicalDescription>縫製在駝鹿皮上</li>
+    <li>physicalDescription>寫在曬乾的[Animal]皮上</li>
+    <li>physicalDescription>由燒黑的羊皮紙製成</li>
+    <li>physicalDescription>精巧地摺成十六折</li>
+    <li>physicalDescription>由工業壓印機印製</li>
+    <li>physicalDescription>印製於超織布上</li>
+    <li>physicalDescription>精細織造於高級超織布上</li>
+    <li>physicalDescription>飾有全息貼花</li>
+    <li>physicalDescription>以細長字跡書寫</li>
+    <li>physicalDescription>以泛黃紙張滲墨繪製</li>
+    <li>physicalDescription>使用鮮豔色彩描繪</li>
+    <li>physicalDescription>明顯受火災損害</li>
+    <li>physicalDescription>畫在堅固的畫布上</li>
+    <li>physicalDescription>多次摺疊並沾有泥土與木炭</li>
+    <li>physicalDescription>畫在破損羊皮紙上，帶有淡淡的細字</li>
+    <li>physicalDescription>刻於泛黃且破碎邊緣的羊皮紙上</li>
+    <li>mapContents>數百幅[mapSubjectAdj][mapSubject]的小圖</li>
+    <li>mapContents>快速勾勒的[mapSubjectAdj][mapSubject]草圖</li>
+    <li>mapContents>著名[mapSubject]清單。最長的標題是『[AdjectiveBadass]!』，以紅墨圈起</li>
+    <li>mapContents>焦黑邊緣與模糊線條。中央的地圖顯示[mapSubjectAdj][mapSubject]，但線條被[stain]沾污遮蔽</li>
+    <li>mapContents>每頁皆有新圖表。其中部分圖詳細描述[mapSubject]，最大一幅明顯是[mapSubjectAdj]</li>
+    <li>mapContents>奇幻[mapSubject]與歷史[mapSubject]的混合</li>
+    <li>mapContents>數十份關於[mapSubjectAdj][mapSubject]的古老繪圖</li>
+    <li>mapContents>主題式繪圖，中央大型[depiction]似乎為[Animal]，採用[artstyle_adj]風格繪製</li>
+    <li>mapContents>成千上萬個奇特符號，多半酷似[mapSubject]。最常見的看起來像是[emotionalState][Animal]，以[artstyle_adj]風格畫出</li>
+    <li>mapContents>明顯陳舊痕跡。某圖顯示[place]古老[mapSubject]，畫法不一</li>
+    <li>mapContents>關於[place][mapSubject]與其和[mapSubjectAdj][mapSubject]關聯的詳細圖解</li>
+    <li>mapContents>四張[place][mapSubject]的大型素描</li>
+    <li>mapContents>許多小圖。某圖標明『[place][RomanNumeral]』，展現了[place][mapSubject]的細緻調查</li>
+    <li>mapContents>許多[mapSubjectAdj][mapSubject]與[mapSubjectAdj][mapSubject]小素描</li>
+    <li>mapContents>描繪行星細節，多個鄰近地點以紅字標明為『[Enemy]s』</li>
+    <li>mapContents>若干[mapSubjectAdj][mapSubject]的座標</li>
+    <li>mapContents>座標以黃色螢光筆標出</li>
+    <li>mapContents>繪有附近區域，粗獷符號標記安全藏身處與隱藏庫存</li>
+    <li>mapContents>[Quantity_adjphrase][Animal]保護地的位置。紅色『X』也標記出多處墳墓</li>
+    <li>mapContents>似乎毫無重點——或許只是表象</li>
+    <li>mapContents>黯淡網格線。每象限都有[mapSubjectAdj][mapSubject]</li>
+    <li>mapContents>[Quantity_adjphrase][mapSubject]以[artstyle_adj]風格繪製。每下一幅下有[AdjectiveAny][Animal]</li>
+    <li>maybe_specialFact></li>
+    <li>maybe_specialFact>[specialFact]</li>
+    <li>specialFact>這些標記在一般光線下不可見，但在完全黑暗時，幽靈般的符號與光譜線條便會浮現，閃爍著淡淡銀光。</li>
+    <li>specialFact>標記會因光線角度而顯現或消失。</li>
+    <li>specialFact>頁面上散發微弱紅色符文，在火焰下波動扭曲。</li>
+    <li>specialFact>註記採用區域方言，暗示作者來自[place]。</li>
+    <li>specialFact>每一摺裡都有一個字母與數字，含義難明。</li>
+    <li>specialFact>標記令人毛骨悚然。</li>
+    <li>specialFact>含有失傳語言的註釋。</li>
+    <li>specialFact>粗略不均的標記會隨時間緩慢變化，顯現隱藏資訊。</li>
+    <li>specialFact>據稱揭示土地生命力，引導讀者前往充滿自然力量之地。</li>
+    <li>specialFact>許多摺頁之間，藏有一張畫著[emotionalState][Animal]的小紙片。</li>
+    <li>specialFact>長時間觸摸會讓指尖染上淡淡紅痕。</li>
+    <li>specialFact>地圖摺縫中可發現沙粒。</li>
+    <li>specialFact>地圖上的註釋暗示其隱藏著重大的祕密。</li>
+    <li>specialFact>邊緣畫著多個來自[place]的[mapSubject]粗略圖。</li>
+    <li>specialFact>墨水褪色，模糊的污漬遮擋部分細節，難以辨認。</li>
+    <li>specialFact>細微縫線顯示它曾由多份更大地圖改製。</li>
+    <li>specialFact>這份地圖或許既是警告也是指南。</li>
+    <li>specialFact>標記有時粗心，暗示繪製急促。</li>
+    <li>specialFact>細節表示這圖可能受重金委託，其保密顯得裡面隱藏不可告人之事。</li>
+    <li>specialFact>[Quantity_adjphrase][Character]在[noteLocation]被畫出，看起來[emotionalState]。</li>
+    <li>specialFact>優雅書法標示幾個[mapSubject]，只有一幅單獨的小畫只留神祕記號——[mapSymbol]。</li>
+    <li>specialFact>地圖附有作者小傳——[place]有名的[PersonJob]。</li>
+    <li>specialFact>此圖由臭名昭彰的[PersonBadass]所繪。</li>
+    <li>specialFact>此圖由[emotionalState][PersonBadass]繪製。</li>
+    <li>specialFact>地圖簡陋，暗示由[PersonBadass]為躲避追緝匆匆而作。</li>
+    <li>specialFact>重點區域圈起，旁有註釋如「避免[Enemy]s」、「強壯如[Animal]」。</li>
+    <li>specialFact>地圖上，[mapSymbol]被圈起並註記著『[smell]與[stain]』。</li>
+    <li>specialFact>邊緣寫有一首名為『Diabolus』的千年詩作。</li>
+    <li>specialFact>地圖圖例標示[Color][mapSymbol]為[Enemy]巢穴，[Color][mapSymbol]為[Animal]狩獵地。</li>
+    <li>specialFact>比例尺明顯錯誤。</li>
+    <li>specialFact>地圖帶有褪色蠟封[noteLocation]，看似[emotionalState][Animal]。</li>
+    <li>maybe_questInfo></li>
+    <li>maybe_questInfo(p=3)>[questInfo]</li>
+    <li>questInfo>地圖上一處被圈起，標記著：「[mapText]！」</li>
+    <li>questInfo>夾帶註記為：「[mapText]？」</li>
+    <li>questInfo>以褪色墨跡在[noteLocation]寫有「[mapText]」。</li>
+    <li>questInfo>[noteLocation]上有紙條寫著：「[mapText]。」</li>
+    <li>questInfo>有張匆忙書寫的便箋[noteLocation]，內容：「[mapText]！」</li>
+    <li>questInfo>[noteLocation]潦草寫下一則謎語，結尾為「…[mapText]。」</li>
+    <li>questInfo>在[Color][mapSymbol]旁寫著「[mapText]」。</li>
+    <li>questInfo>在地圖上烙印著「[mapText]」。</li>
+    <li>questInfo>一個大型[mapSymbol]畫在[mapFeature]附近，上面寫著「[mapText]」。</li>
+    <li>questInfo>一個[Color]羅盤刻於地圖中心，奇怪地標示南北，中央寫有：「[mapText]。」</li>
+    <li>questInfo>地圖前任主人顯然在找些東西。有區域被圈起，旁寫「[mapText]」。</li>
+    <li>questInfo>將地圖對光，可見「[mapText]」字樣。</li>
+    <li>questInfo>[noteLocation]有個[Color][mapSymbol]註記為「[mapText]！」</li>
+    <li>questInfo>[noteLocation]有個[mapSymbol]被標為「[mapText]？」</li>
+    <li>questInfo>[noteLocation]上有註記已被抹去，只剩：「confirmed - [mapText]。」</li>
+    <li>questInfo>[noteLocation]畫有[emotionalState][PersonBadass]簡圖，下方寫著：「[mapText]。」</li>
+    <li>questInfo>[noteLocation]鉛筆畫了一隻[Animal]，底下是「[mapText]」。</li>
+    <li>questInfo>地圖圖例將[Color][mapSymbol]標示為「[mapText]」。</li>
+    <li>questInfo>某地被用粗紅X劃掉，旁邊以極小字寫著「[mapText]」。</li>
+    <li>questInfo>細看發現有人試圖從圖上擦掉「[mapText]」。</li>
+    <li>questInfo>在[Color]骷髏圖標附近，有人用粗體寫著「[mapText]」。</li>
+    <li>questInfo>[noteLocation]有個奇特符號，下方寫著「[mapText]」。</li>
+    <li>questInfo>一把[Color]短劍刻畫地圖，劍尖指向「[mapText]」。</li>
+    <li>questInfo>[noteLocation]有檢查清單，每項皆劃掉，只剩「[mapText]」。</li>
+    <li>maybe_condition></li>
+    <li>maybe_condition>[conditionSmell]</li>
+    <li>maybe_condition>[conditionStains]</li>
+    <li>maybe_condition>[conditionTouch]</li>
+    <li>conditionSmell>帶有[smell]的臭味。</li>
+    <li>conditionSmell>略帶[smell]的氣味。</li>
+    <li>conditionSmell>地圖散發淡淡[smell]，透露前任主人的身份。</li>
+    <li>smell>鹽水和海藻</li>
+    <li>smell>玫瑰</li>
+    <li>smell>硫磺</li>
+    <li>smell>化學燃料</li>
+    <li>smell>乾草與糞便</li>
+    <li>smell>燒焦的血肉</li>
+    <li>smell>昆蟲膠</li>
+    <li>smell>香水</li>
+    <li>smell>油與火藥</li>
+    <li>smell>腐爛的毒薯</li>
+    <li>smell>杏仁</li>
+    <li>smell>漂白水</li>
+    <li>smell>[Animal]糞便</li>
+    <li>conditionStains>刮痕和[stain]污漬遮掩細節，難以閱讀。</li>
+    <li>conditionStains>[stain]污漬與燒痕顯示它長期在惡劣環境下使用。</li>
+    <li>conditionStains>圖表被疑似[stain]的東西覆蓋。</li>
+    <li>conditionStains>地圖不完整且沾染了[stain]。</li>
+    <li>conditionTouch>[stain]污漬與磨損邊緣帶來歷經滄桑的實用感。</li>
+    <li>stain>血跡</li>
+    <li>stain>油</li>
+    <li>stain>油污</li>
+    <li>stain>紅墨水</li>
+    <li>stain>海水</li>
+    <li>stain>蠟</li>
+    <li>stain>咖啡</li>
+    <li>stain>鐵銹</li>
+    <li>stain>化學燃料</li>
+    <li>conditionTouch>頁面摸起來粗糙。</li>
+    <li>conditionTouch>地圖表面脆弱易碎。</li>
+    <li>conditionTouch>邊緣燒痕顯示它曾經在失敗的任務中被救回。</li>
+    <li>conditionTouch>觸感雖脆弱，卻蘊含多年辛苦累積的知識。</li>
+    <li>conditionTouch>邊緣有刮痕和褪色，一角用黏著劑修補過。</li>
+    <li>maybe_authorInfo></li>
+    <li>maybe_authorInfo>\n\n[authorInfo]</li>
+    <li>authorInfo>製圖者不詳。</li>
+    <li>authorInfo>由[ANYPAWN_nameFull]所繪，[ANYPAWN_factionName]有名的[ANYPAWN_kind]。</li>
+    <li>authorInfo>[noteLocation]由[ANYPAWN_nameIndef]這位[PersonJob]親簽。</li>
+    <li>authorInfo>地圖附有作者簡介：[ANYPAWN_nameIndef]，[ANYPAWN_kind]。</li>
+    <li>authorInfo>地圖前任主人似名為[ANYPAWN_nameIndef]。</li>
+    <li>authorInfo>這份地圖曾為某不知名[ANYPAWN_kind]所有，註記顯示[ANYPAWN_pronoun]曾屬[ANYPAWN_factionName]。</li>
+    <li>has>有</li>
+    <li>has>包含</li>
+    <li>has>具備</li>
+    <li>emotionalState>快樂的</li>
+    <li>emotionalState>憂鬱的</li>
+    <li>emotionalState>憤怒的</li>
+    <li>emotionalState>感性的</li>
+    <li>mapType(p=4)>地圖</li>
+    <li>mapType>海圖</li>
+    <li>mapType>地圖集</li>
+    <li>mapType>測繪圖</li>
+    <li>mapSymbol>鑰匙</li>
+    <li>mapSymbol>'X'</li>
+    <li>mapSymbol>星星</li>
+    <li>mapSymbol>月亮</li>
+    <li>mapSymbol>高塔</li>
+    <li>mapSymbol>骷髏</li>
+    <li>mapSymbol>[Animal]</li>
+    <li>mapText(p=10)>[questMapText]</li>
+    <li>mapText(p=2)>[subject]</li>
+    <li>mapText>極度危險</li>
+    <li>mapText>小心[Enemy]</li>
+    <li>mapText>前方有飢餓</li>
+    <li>mapText>不留痕跡</li>
+    <li>mapText>發瘋的[Animal]</li>
+    <li>mapText>劫掠者襲擊</li>
+    <li>mapText>我們最後的商隊</li>
+    <li>mapText>無人生還</li>
+    <li>mapText>就在這裡</li>
+    <li>mapText>此處安葬[ANYPAWN_nameIndef]</li>
+    <li>mapText>[ANYPAWN_nameIndef]之墓</li>
+    <li>mapText>[ANYPAWN_factionName]所有</li>
+    <li>mapFeature(p=8)>[questMapFeature]</li>
+    <li>mapFeature>河流</li>
+    <li>mapFeature>兩河交匯口</li>
+    <li>mapFeature>十字路口</li>
+    <li>mapFeature>山脈</li>
+    <li>mapFeature>海岸線</li>
+    <li>mapFeature>湖泊</li>
+    <li>mapFeature>海岸入海口</li>
+    <li>mapFeature>近海小島</li>
+    <li>noteLocation>角落</li>
+    <li>noteLocation>地圖角落</li>
+    <li>noteLocation>一角</li>
+    <li>noteLocation>左側</li>
+    <li>noteLocation>背面</li>
+    <li>noteLocation>底部</li>
+    <li>noteLocation>在[mapFeature]附近</li>
+    <li>noteLocation>在[mapFeature]旁</li>
+    <li>noteLocation>在大型[mapFeature]下方</li>
+    <li>noteLocation>沿地圖邊緣</li>
+  </Description_Map.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>place->[PlaceOutlander]</li>
+    <li>place->[direction] [PlaceOutlander]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][SylE][place_end]</li>
+    <li>mapSubjectAdj(p=6)->[direction]</li>
+    <li>mapSubjectAdj->ancient</li>
+    <li>mapSubjectAdj->historical</li>
+    <li>mapSubjectAdj->old</li>
+    <li>mapSubjectAdj->forgotten</li>
+    <li>mapSubjectAdj->secret</li>
+    <li>mapSubjectAdj->private</li>
+    <li>mapSubjectAdj->hidden</li>
+    <li>mapSubjectAdj->occult</li>
+    <li>mapSubjectAdj->unknown</li>
+    <li>mapSubjectAdj->peculiar</li>
+    <li>mapSubjectAdj->odd</li>
+    <li>mapSubjectAdj->strange</li>
+    <li>mapSubjectAdj->wonderful</li>
+    <li>mapSubjectAdj->worthwhile</li>
+    <li>mapSubjectAdj->precious</li>
+    <li>mapSubjectAdj->enchanting</li>
+    <li>mapSubjectAdj->glamorous</li>
+    <li>mapSubjectAdj->outrageous</li>
+    <li>mapSubjectAdj->wild</li>
+    <li>mapSubjectAdj->great</li>
+    <li>mapSubjectAdj->grand</li>
+    <li>mapSubjectAdj->lesser</li>
+    <li>mapSubjectAdj->small</li>
+    <li>mapSubjectAdj->bad</li>
+    <li>mapSubjectAdj->horrible</li>
+    <li>mapSubjectAdj->mystical</li>
+    <li>mapSubjectAdj->holy</li>
+    <li>mapSubjectAdj->local</li>
+    <li>mapSubjectAdj->regional</li>
+    <li>mapSubjectAdj->native</li>
+    <li>mapSubjectAdj->nearby</li>
+    <li>mapSubjectAdj->planetary</li>
+    <li>mapSubjectAdj->dangerous</li>
+    <li>mapSubjectAdj->deadly</li>
+    <li>mapSubjectAdj->toxic</li>
+    <li>mapSubjectAdj->select</li>
+    <li>mapSubjectAdj->unique</li>
+    <li>mapSubjectAdj->important</li>
+    <li>direction->northern</li>
+    <li>direction->eastern</li>
+    <li>direction->southern</li>
+    <li>direction->western</li>
+    <li>direction(p=0.2)->subterranean</li>
+    <li>direction(p=0.2)->underground</li>
+    <li>mapSubject->roads</li>
+    <li>mapSubject->trails</li>
+    <li>mapSubject->paths</li>
+    <li>mapSubject->caves</li>
+    <li>mapSubject->hills</li>
+    <li>mapSubject->mountains</li>
+    <li>mapSubject->rivers</li>
+    <li>mapSubject->forests</li>
+    <li>mapSubject->swamps</li>
+    <li>mapSubject->badlands</li>
+    <li>mapSubject->landmarks</li>
+    <li>mapSubject->watersheds</li>
+    <li>mapSubject->lakes</li>
+    <li>mapSubject->valleys</li>
+    <li>mapSubject->places</li>
+    <li>mapSubject->sites</li>
+    <li>mapSubject->legends</li>
+    <li>mapSubject->secrets</li>
+    <li>mapSubject->borders</li>
+    <li>mapSubject->frontiers</li>
+    <li>mapSubject->locations</li>
+    <li>mapSubject->resources</li>
+    <li>mapSubject->artifacts</li>
+    <li>mapSubject->relics</li>
+    <li>mapSubject->towns</li>
+    <li>mapSubject->settlements</li>
+    <li>mapSubject->strongholds</li>
+    <li>mapSubject->ruins</li>
+    <li>mapSubject->clans</li>
+    <li>mapSubject->peoples</li>
+    <li>mapSubject->histories</li>
+    <li>mapSubject->territories</li>
+    <li>mapSubject->landmasses</li>
+    <li>CapSylE->Al</li>
+    <li>CapSylE->All</li>
+    <li>CapSylE->An</li>
+    <li>CapSylE->And</li>
+    <li>CapSylE->Ar</li>
+    <li>CapSylE->Are</li>
+    <li>CapSylE->As</li>
+    <li>CapSylE->At</li>
+    <li>CapSylE->Ban</li>
+    <li>CapSylE->Bin</li>
+    <li>CapSylE->Bon</li>
+    <li>CapSylE->But</li>
+    <li>CapSylE->Ca</li>
+    <li>CapSylE->Co</li>
+    <li>CapSylE->Da</li>
+    <li>CapSylE->Del</li>
+    <li>CapSylE->Din</li>
+    <li>CapSylE->Do</li>
+    <li>CapSylE->Ea</li>
+    <li>CapSylE->Ed</li>
+    <li>CapSylE->En</li>
+    <li>CapSylE->Ent</li>
+    <li>CapSylE->Er</li>
+    <li>CapSylE->Era</li>
+    <li>CapSylE->Ere</li>
+    <li>CapSylE->Es</li>
+    <li>CapSylE->Eve</li>
+    <li>CapSylE->Far</li>
+    <li>CapSylE->Fen</li>
+    <li>CapSylE->Fin</li>
+    <li>CapSylE->For</li>
+    <li>CapSylE->Fun</li>
+    <li>CapSylE->Ga</li>
+    <li>CapSylE->Go</li>
+    <li>CapSylE->Ha</li>
+    <li>CapSylE->Had</li>
+    <li>CapSylE->Hat</li>
+    <li>CapSylE->He</li>
+    <li>CapSylE->Hen</li>
+    <li>CapSylE->Her</li>
+    <li>CapSylE->Hi</li>
+    <li>CapSylE->Hi</li>
+    <li>CapSylE->Hin</li>
+    <li>CapSylE->His</li>
+    <li>CapSylE->In</li>
+    <li>CapSylE->Is</li>
+    <li>CapSylE->It</li>
+    <li>CapSylE->Ith</li>
+    <li>CapSylE->Ja</li>
+    <li>CapSylE->Ka</li>
+    <li>CapSylE->Ko</li>
+    <li>CapSylE->La</li>
+    <li>CapSylE->Lan</li>
+    <li>CapSylE->Le</li>
+    <li>CapSylE->Len</li>
+    <li>CapSylE->Lon</li>
+    <li>CapSylE->Ma</li>
+    <li>CapSylE->Me</li>
+    <li>CapSylE->Men</li>
+    <li>CapSylE->Min</li>
+    <li>CapSylE->Mon</li>
+    <li>CapSylE->Na</li>
+    <li>CapSylE->Ne</li>
+    <li>CapSylE->Not</li>
+    <li>CapSylE->Ome</li>
+    <li>CapSylE->On</li>
+    <li>CapSylE->Or</li>
+    <li>CapSylE->Ou</li>
+    <li>CapSylE->Oul</li>
+    <li>CapSylE->Our</li>
+    <li>CapSylE->Pa</li>
+    <li>CapSylE->Qua</li>
+    <li>CapSylE->Ra</li>
+    <li>CapSylE->Re</li>
+    <li>CapSylE->Ro</li>
+    <li>CapSylE->Se</li>
+    <li>CapSylE->Sho</li>
+    <li>CapSylE->St</li>
+    <li>CapSylE->Te</li>
+    <li>CapSylE->Ted</li>
+    <li>CapSylE->Ter</li>
+    <li>CapSylE->Tha</li>
+    <li>CapSylE->The</li>
+    <li>CapSylE->Thi</li>
+    <li>CapSylE->Thi</li>
+    <li>CapSylE->Ti</li>
+    <li>CapSylE->To</li>
+    <li>CapSylE->Un</li>
+    <li>CapSylE->Ve</li>
+    <li>CapSylE->Ver</li>
+    <li>CapSylE->Wa</li>
+    <li>CapSylE->Was</li>
+    <li>CapSylE->Wit</li>
+    <li>CapSylE->You</li>
+  -->
+  <MapUtility.rulePack.rulesStrings>
+    <li>place->[PlaceOutlander]</li>
+    <li>place->[direction][PlaceOutlander]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
+    <li>mapSubjectAdj(p=6)->[direction]</li>
+    <li>mapSubjectAdj->古老</li>
+    <li>mapSubjectAdj->歷史的</li>
+    <li>mapSubjectAdj->舊的</li>
+    <li>mapSubjectAdj->被遺忘的</li>
+    <li>mapSubjectAdj->秘密的</li>
+    <li>mapSubjectAdj->私人的</li>
+    <li>mapSubjectAdj->隱藏的</li>
+    <li>mapSubjectAdj->神秘的</li>
+    <li>mapSubjectAdj->未知的</li>
+    <li>mapSubjectAdj->特殊的</li>
+    <li>mapSubjectAdj->奇怪的</li>
+    <li>mapSubjectAdj->怪異的</li>
+    <li>mapSubjectAdj->精彩的</li>
+    <li>mapSubjectAdj->值得的</li>
+    <li>mapSubjectAdj->珍貴的</li>
+    <li>mapSubjectAdj->令人著迷的</li>
+    <li>mapSubjectAdj->迷人的</li>
+    <li>mapSubjectAdj->離譜的</li>
+    <li>mapSubjectAdj->狂野的</li>
+    <li>mapSubjectAdj->重要的</li>
+    <li>mapSubjectAdj->大</li>
+    <li>mapSubjectAdj->大型</li>
+    <li>mapSubjectAdj->小型</li>
+    <li>mapSubjectAdj->糟糕的</li>
+    <li>mapSubjectAdj->可怕的</li>
+    <li>mapSubjectAdj->神秘的</li>
+    <li>mapSubjectAdj->神聖的</li>
+    <li>mapSubjectAdj->當地的</li>
+    <li>mapSubjectAdj->地區的</li>
+    <li>mapSubjectAdj->本地的</li>
+    <li>mapSubjectAdj->附近的</li>
+    <li>mapSubjectAdj->行星的</li>
+    <li>mapSubjectAdj->危險的</li>
+    <li>mapSubjectAdj->致命的</li>
+    <li>mapSubjectAdj->有毒的</li>
+    <li>mapSubjectAdj->選擇</li>
+    <li>mapSubjectAdj->獨特</li>
+    <li>mapSubjectAdj->重要的</li>
+    <li>direction->北方的</li>
+    <li>direction->東方的</li>
+    <li>direction->南方的</li>
+    <li>direction->西方的</li>
+    <li>direction->地下的</li>
+    <li>mapSubject->道路</li>
+    <li>mapSubject->小徑</li>
+    <li>mapSubject->路徑</li>
+    <li>mapSubject->洞穴</li>
+    <li>mapSubject->丘陵</li>
+    <li>mapSubject->山脈</li>
+    <li>mapSubject->河流</li>
+    <li>mapSubject->森林</li>
+    <li>mapSubject->沼澤</li>
+    <li>mapSubject->荒地</li>
+    <li>mapSubject->地標</li>
+    <li>mapSubject->集水區</li>
+    <li>mapSubject->湖泊</li>
+    <li>mapSubject->山谷</li>
+    <li>mapSubject->地方</li>
+    <li>mapSubject->地點</li>
+    <li>mapSubject->傳說</li>
+    <li>mapSubject->秘密</li>
+    <li>mapSubject->邊界</li>
+    <li>mapSubject->前沿</li>
+    <li>mapSubject->位置</li>
+    <li>mapSubject->資源</li>
+    <li>mapSubject->文物</li>
+    <li>mapSubject->遺物</li>
+    <li>mapSubject->城鎮</li>
+    <li>mapSubject->據點</li>
+    <li>mapSubject->要塞</li>
+    <li>mapSubject->廢墟</li>
+    <li>mapSubject->氏族</li>
+    <li>mapSubject->人民</li>
+    <li>mapSubject->歷史</li>
+    <li>mapSubject->領土</li>
+    <li>mapSubject->陸塊</li>
+    <li>CapSylE->阿</li>
+    <li>CapSylE->柯</li>
+    <li>CapSylE->安</li>
+    <li>CapSylE->艾</li>
+    <li>CapSylE->亞</li>
+    <li>CapSylE->雅</li>
+    <li>CapSylE->阿斯</li>
+    <li>CapSylE->阿特</li>
+    <li>CapSylE->班</li>
+    <li>CapSylE->賓</li>
+    <li>CapSylE->邦</li>
+    <li>CapSylE->般</li>
+    <li>CapSylE->卡</li>
+    <li>CapSylE->可</li>
+    <li>CapSylE->達</li>
+    <li>CapSylE->第</li>
+    <li>CapSylE->丁</li>
+    <li>CapSylE->度</li>
+    <li>CapSylE->爾</li>
+    <li>CapSylE->艾迪</li>
+    <li>CapSylE->兀</li>
+    <li>CapSylE->艾托</li>
+    <li>CapSylE->厄</li>
+    <li>CapSylE->厄拉</li>
+    <li>CapSylE->爾利</li>
+    <li>CapSylE->艾斯</li>
+    <li>CapSylE->艾維</li>
+    <li>CapSylE->法</li>
+    <li>CapSylE->芬</li>
+    <li>CapSylE->分</li>
+    <li>CapSylE->霍</li>
+    <li>CapSylE->夫</li>
+    <li>CapSylE->格</li>
+    <li>CapSylE->哥</li>
+    <li>CapSylE->哈</li>
+    <li>CapSylE->哈德</li>
+    <li>CapSylE->哈托</li>
+    <li>CapSylE->希</li>
+    <li>CapSylE->亨</li>
+    <li>CapSylE->何</li>
+    <li>CapSylE->軒</li>
+    <li>CapSylE->馨</li>
+    <li>CapSylE->赫</li>
+    <li>CapSylE->赫斯</li>
+    <li>CapSylE->恩</li>
+    <li>CapSylE->伊斯</li>
+    <li>CapSylE->伊</li>
+    <li>CapSylE->伊芙</li>
+    <li>CapSylE->查</li>
+    <li>CapSylE->加</li>
+    <li>CapSylE->高</li>
+    <li>CapSylE->拉</li>
+    <li>CapSylE->侖</li>
+    <li>CapSylE->歷</li>
+    <li>CapSylE->利恩</li>
+    <li>CapSylE->倫</li>
+    <li>CapSylE->瑪</li>
+    <li>CapSylE->米</li>
+    <li>CapSylE->美</li>
+    <li>CapSylE->文</li>
+    <li>CapSylE->毛</li>
+    <li>CapSylE->拿</li>
+    <li>CapSylE->李</li>
+    <li>CapSylE->洛</li>
+    <li>CapSylE->奧米</li>
+    <li>CapSylE->奧</li>
+    <li>CapSylE->俄</li>
+    <li>CapSylE->回</li>
+    <li>CapSylE->烏</li>
+    <li>CapSylE->坷</li>
+    <li>CapSylE->帕</li>
+    <li>CapSylE->夸</li>
+    <li>CapSylE->勒</li>
+    <li>CapSylE->尼</li>
+    <li>CapSylE->路</li>
+    <li>CapSylE->斯</li>
+    <li>CapSylE->索</li>
+    <li>CapSylE->索特</li>
+    <li>CapSylE->特</li>
+    <li>CapSylE->特迪</li>
+    <li>CapSylE->道</li>
+    <li>CapSylE->薩</li>
+    <li>CapSylE->第</li>
+    <li>CapSylE->非</li>
+    <li>CapSylE->弗</li>
+    <li>CapSylE->太</li>
+    <li>CapSylE->杜</li>
+    <li>CapSylE->伍</li>
+    <li>CapSylE->法</li>
+    <li>CapSylE->化</li>
+    <li>CapSylE->華</li>
+    <li>CapSylE->華斯</li>
+    <li>CapSylE->華特</li>
+    <li>CapSylE->由</li>
+  </MapUtility.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>title(p=2)->[mapType] [mapNoun] of [subject]</li>
+    <li>title(p=2)->[maybeThe] [mapType] [map]</li>
+    <li>title(p=2)->[maybeAdjective] [ANYPAWN_nameIndef]'s [maybeAdjective] [map]</li>
+    <li>title->[mapType] [mapNoun]: [subject]</li>
+    <li>title->[mapNoun] of [mapSubjectAdj] [mapSubject]</li>
+    <li>title->[maybeThe] [AdjectiveAny] [map]</li>
+    <li>title(p=0.5)->maps for [mapSubjectAdj] [mapSubject]</li>
+    <li>title(p=0.5)->[place] [mapNoun]</li>
+    <li>maybeAdjective-></li>
+    <li>maybeAdjective->[adjective]</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>adjective->[Color]</li>
+    <li>adjective->[AdjectiveLarge]</li>
+    <li>maybeThe-></li>
+    <li>maybeThe->the</li>
+    <li>map->[mapNoun]</li>
+    <li>map(p=2)->[mapNoun] of [place]</li>
+    <li>map->[mapNoun] of [mapSubject]</li>
+    <li>map->[mapNoun] of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapNoun(p=5)->map</li>
+    <li>mapNoun(p=2)->atlas</li>
+    <li>mapNoun->almanac</li>
+    <li>mapNoun->chart</li>
+    <li>mapNoun->survey</li>
+    <li>mapNoun->study</li>
+    <li>mapNoun->pamphlet</li>
+    <li>mapType(p=2)->[Animal]</li>
+    <li>mapType(p=2)->[TreeType]</li>
+    <li>mapType->contour</li>
+    <li>mapType->topographic</li>
+    <li>mapType->relief</li>
+    <li>mapType->population</li>
+    <li>mapType->treasure</li>
+    <li>mapType->annotated</li>
+    <li>mapType->illustrated</li>
+    <li>mapType->confederation</li>
+    <li>mapType->coalition</li>
+    <li>mapType->federation</li>
+    <li>mapType->historical</li>
+    <li>mapType->paper</li>
+    <li>mapType->leather</li>
+    <li>mapType->pigskin</li>
+    <li>mapType->laminated</li>
+    <li>mapType->holographic</li>
+  -->
+  <Namer_Map.rulePack.rulesStrings>
+    <li>title(p=2)->[subject]的[mapType][mapNoun]</li>
+    <li>title(p=2)->[maybeThe][mapType][map]</li>
+    <li>title(p=2)->[maybeAdjective][ANYPAWN_nameIndef]的[maybeAdjective][map]</li>
+    <li>title->[mapType][mapNoun]：[subject]</li>
+    <li>title->[mapSubjectAdj][mapSubject]的[mapNoun]</li>
+    <li>title->[maybeThe][AdjectiveAny][map]</li>
+    <li>title(p=0.5)->[mapSubjectAdj][mapSubject]的地圖</li>
+    <li>title(p=0.5)->[place][mapNoun]</li>
+    <li>maybeAdjective-></li>
+    <li>maybeAdjective->[adjective]</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>adjective->[Color]</li>
+    <li>adjective->[AdjectiveLarge]</li>
+    <li>maybeThe-></li>
+    <li>map->[mapNoun]</li>
+    <li>map(p=2)->[place]的[mapNoun]</li>
+    <li>map->[mapSubject]的[mapNoun]</li>
+    <li>map->[mapSubjectAdj][mapSubject]的[mapNoun]</li>
+    <li>mapNoun(p=5)->地圖</li>
+    <li>mapNoun(p=2)->圖冊</li>
+    <li>mapNoun->年鑑</li>
+    <li>mapNoun->圖表</li>
+    <li>mapNoun->調查</li>
+    <li>mapNoun->研究</li>
+    <li>mapNoun->小冊子</li>
+    <li>mapType(p=2)->[Animal]</li>
+    <li>mapType(p=2)->[TreeType]</li>
+    <li>mapType->等高線</li>
+    <li>mapType->地形</li>
+    <li>mapType->救濟</li>
+    <li>mapType->人口</li>
+    <li>mapType->寶藏</li>
+    <li>mapType->有註釋</li>
+    <li>mapType->帶插畫</li>
+    <li>mapType->聯邦</li>
+    <li>mapType->聯盟</li>
+    <li>mapType->聯邦</li>
+    <li>mapType->歷史</li>
+    <li>mapType->紙製</li>
+    <li>mapType->皮革製</li>
+    <li>mapType->豬皮製</li>
+    <li>mapType->覆膜</li>
+    <li>mapType->全息</li>
+  </Namer_Map.rulePack.rulesStrings>
+  
+</LanguageData>

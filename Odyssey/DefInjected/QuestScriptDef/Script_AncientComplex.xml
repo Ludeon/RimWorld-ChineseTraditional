@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] an ancient complex nearby that is said to contain treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
+  -->
+  <OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]了一座據說藏有寶藏的遠古建築。\n\n你可以破門而入收集裡面的戰利品。\n\n注意——這些結構可能包含各種威脅。此外，你在建築內的活動可能會引起不必要的注意。</li>
+  </OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
+    <li>questName->[complex] [finalWord]</li>
+    <li>complexAdj->secret</li>
+    <li>complexAdj->mysterious</li>
+    <li>complexAdj->ancient</li>
+    <li>complexAdj->old</li>
+    <li>complexAdj->hidden</li>
+    <li>complexAdj->deathly</li>
+    <li>complex->complex</li>
+    <li>complex->installation</li>
+    <li>complex->structure</li>
+    <li>finalWord->treasure</li>
+    <li>finalWord->riches</li>
+    <li>finalWord->trove</li>
+    <li>finalWord->cache</li>
+    <li>finalWord->loot</li>
+    <li>finalWord->robbing</li>
+    <li>finalWord->looting</li>
+    <li>finalWord->raiding</li>
+    <li>finalWord->theft</li>
+    <li>finalWord->heist</li>
+    <li>finalWord->caper</li>
+    <li>finalWord->booty</li>
+  -->
+  <OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj][complex][finalWord]</li>
+    <li>questName->[complex]的[finalWord]</li>
+    <li>complexAdj->秘密的</li>
+    <li>complexAdj->神秘的</li>
+    <li>complexAdj->遠古的</li>
+    <li>complexAdj->老舊的</li>
+    <li>complexAdj->隱藏的</li>
+    <li>complexAdj->致命的</li>
+    <li>complex->建築群</li>
+    <li>complex->設施</li>
+    <li>complex->建築物</li>
+    <li>finalWord->寶藏</li>
+    <li>finalWord->財富</li>
+    <li>finalWord->珍寶</li>
+    <li>finalWord->藏匿處</li>
+    <li>finalWord->戰利品</li>
+    <li>finalWord->搶劫</li>
+    <li>finalWord->掠奪</li>
+    <li>finalWord->襲擊</li>
+    <li>finalWord->偷竊</li>
+    <li>finalWord->劫案</li>
+    <li>finalWord->勾當</li>
+    <li>finalWord->贓物</li>
+  </OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->complexes</li>
+    <li>subject->complex</li>
+    <li>subject->complex signal</li>
+    <li>questMapFeature->small complex</li>
+    <li>questMapFeature->facility</li>
+    <li>questMapText->ancient treasures</li>
+    <li>questMapText->missing scavengers</li>
+  -->
+  <OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
+    <li>subject->建築群</li>
+    <li>subject->建築</li>
+    <li>subject->建築信號</li>
+    <li>questMapFeature->小型建築群</li>
+    <li>questMapFeature->設施</li>
+    <li>questMapText->遠古寶藏</li>
+    <li>questMapText->失蹤的拾荒者</li>
+  </OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
+  
+</LanguageData>

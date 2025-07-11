@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Must be placed on gravship substructure. -->
+  <MessageMustBePlacedOnSubstructure>必須放置在重力船的基礎結構上。</MessageMustBePlacedOnSubstructure>
+  <!-- EN: Must be placed within the radius of a grav engine or grav field extender. -->
+  <MessageMustBePlacedInRangeOfGravEngineOrExtender>必須放置在重力引擎或重力場擴展器的範圍內。</MessageMustBePlacedInRangeOfGravEngineOrExtender>
+  <!-- EN: Cannot be placed under rock or mountain roofs. -->
+  <MessageCannotPlaceUnderRockRoof>不能放置在岩石或山岩頂下。</MessageCannotPlaceUnderRockRoof>
+  <!-- EN: {ACTIVATOR_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <MessageStabilizerDeactivated>{ACTIVATOR_labelShort}已經完成破解{SUBJECT_definite}。</MessageStabilizerDeactivated>
+  <!-- EN: Can't be placed on gravship substructure. -->
+  <MessageCannotPlaceOverSubstructure>不能放置在重力船的基礎結構上。</MessageCannotPlaceOverSubstructure>
+  <!-- EN: Gravship substructure is blocked. -->
+  <MessageSubstructureBlocked>重力船的基礎結構被阻塞。</MessageSubstructureBlocked>
+  <!-- EN: Must be placed within range of a grav engine. -->
+  <MessageMustBePlacedInRangeOfGravEngine>必須放置在重力引擎的範圍內。</MessageMustBePlacedInRangeOfGravEngine>
+
+  <!-- Alerts -->
+  <!-- EN: {0} has died from vacuum exposure. -->
+  <MessagePlantDiedOfRot_ExposedToVacuum>{0}因暴露在真空中而死亡。</MessagePlantDiedOfRot_ExposedToVacuum>
+
+  <!-- Ancient Vents -->
+  <!-- EN: The ancient smoke vents have become active, darkening the sky. -->
+  <AncientSmokeVentStartUp>遠古煙霧通風口已經啟動，天空變得昏暗。</AncientSmokeVentStartUp>
+  <!-- EN: The ancient smoke vents are stopping. -->
+  <AncientSmokeVentShutdown>遠古煙霧通風口正在停止。</AncientSmokeVentShutdown>
+  <!-- EN: The ancient toxic vents have become active, causing toxic fallout. -->
+  <AncientToxVentStartUp>遠古毒性通風口已經啟動，造成毒霧霾。</AncientToxVentStartUp>
+  <!-- EN: The ancient toxic vents are stopping. -->
+  <AncientToxVentShutdown>遠古毒性通風口正在停止。</AncientToxVentShutdown>
+  <!-- EN: The ancient heat vents have become active, raising temperatures. -->
+  <AncientHeatVentStartUp>遠古熱通風口已經啟動，提高了溫度。</AncientHeatVentStartUp>
+  <!-- EN: The ancient heat vents are stopping. -->
+  <AncientHeatVentShutdown>遠古熱通風口正在停止。</AncientHeatVentShutdown>
+  
+  <!-- EN: Must be placed over water containing fish. -->
+  <CannotPlaceFishingZone>必須放置在有魚的水域上。</CannotPlaceFishingZone>
+  
+  <!-- EN: {TRAP_indefinite} was triggered. -->
+  <MessageTrapSprung>{TRAP_indefinite}被觸發了。</MessageTrapSprung>
+
+  <!-- EN: {0} is ready to launch again. -->
+  <GravshipReadyToLaunch>{0}已經準備好再次發射。</GravshipReadyToLaunch>
+
+  <!-- EN: An orbital scanner has found a signal and is locating its origin -->
+  <MessageOrbitalSignalDetected>軌道掃描器已經發現了一個信號，正在定位其來源。</MessageOrbitalSignalDetected>
+  <!-- EN: completes in {0} -->
+  <OrbitalScannerCompletesIn>在{0}內完成</OrbitalScannerCompletesIn>
+
+  <!-- EN: While talking with {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of a new quest: {0} -->
+  <MessageTraderGaveQuest>與{TRADER_nameDef}交談時，{NEGOTIATOR_nameDef}獲悉了一個新任務：{0}</MessageTraderGaveQuest>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered a quest: {0} -->
+  <MessageBookGaveQuest>閱讀{BOOK_labelNoParenthesis}時，{READER_nameDef}發現了一個任務：{0}</MessageBookGaveQuest>
+
+  <!-- EN: Confirm gravship landing zone to continue. -->
+  <MessageConfirmLandingAreaFirst>確認重力船著陸區以繼續。</MessageConfirmLandingAreaFirst>
+  <!-- EN: Choose a landing site first. -->
+  <MessageNoLandingSiteSelected>先選擇一個著陸地點。</MessageNoLandingSiteSelected>
+  
+  <!-- EN: Cannot store {THING_labelShort} on {TARGET_indefinite} -->
+  <CannotStoreThingOnTarget>無法儲存{THING_labelShort}在{TARGET_indefinite}</CannotStoreThingOnTarget>
+
+</LanguageData>

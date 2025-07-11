@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an infamous company of mercenaries. These ancient soldiers are from a long-forgotten era in the planet's history. They have recently awoken from cryptosleep and are causing trouble in the area.\n\nThe company is led by [LEADER_nameDef], who possesses a unique [WEAPON_quality] weapon. The group contains:\n\n[mercenaryList]\n\nIf you're able to capture or kill the leader, you can take the unique weapon.\n\n[location]</li>
+    <li>location(atLandmark==true)->The soldiers are hiding out in an ancient structure at [landmarkName].</li>
+    <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]了一個臭名昭著的傭兵組織的位置。這些遠古士兵來自星球歷史上一個久被遺忘的時代。他們最近從休眠中醒來，正在該地區引發麻煩。\n\n該組織由[LEADER_nameDef]領導，擁有一件獨特的[WEAPON_quality]武器。該團隊包含：\n\n[mercenaryList]\n\n如果你能俘獲或殺死領導者，你就可以獲得這件獨特的武器。\n\n[location]</li>
+    <li>location(atLandmark==true)->士兵們正在藏匿在[landmarkName]的一個遠古建築中。</li>
+    <li>location(atLandmark==false)->士兵們正在藏匿在一個遠古建築中。</li>
+  </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [mercenaries]</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>ancient->Ancient</li>
+    <li>ancient->Awoken</li>
+    <li>ancient->Cryptosleep</li>
+    <li>mercenaries->Mercenaries</li>
+    <li>mercenaries->Soldiers</li>
+    <li>mercenaries->Warriors</li>
+    <li>mercenaries->Fighters</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+    <li>questName->[ancient][mercenaries]</li>
+    <li>ancient->遠古的</li>
+    <li>ancient->醒來的</li>
+    <li>ancient->低溫冬眠</li>
+    <li>mercenaries->傭兵</li>
+    <li>mercenaries->士兵</li>
+    <li>mercenaries->戰士</li>
+    <li>mercenaries->戰鬥者</li>
+  </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient mercenaries</li>
+    <li>subject->ancient soldiers</li>
+    <li>subject->ancients</li>
+    <li>questMapFeature->military garrison</li>
+    <li>questMapFeature->drawing of an ancient soldier</li>
+    <li>questMapFeature->sketch of a man from another time</li>
+    <li>questMapText->they're awake</li>
+    <li>questMapText->dangerous ancients</li>
+    <li>questMapText->ancient weapons</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+    <li>subject->遠古傭兵</li>
+    <li>subject->遠古士兵</li>
+    <li>subject->遠古人</li>
+    <li>questMapFeature->軍事駐地</li>
+    <li>questMapFeature->遠古士兵的畫像</li>
+    <li>questMapFeature->來自另一個時代的人的素描</li>
+    <li>questMapText->他們醒了</li>
+    <li>questMapText->危險的遠古人</li>
+    <li>questMapText->遠古武器</li>
+  </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+  
+</LanguageData>

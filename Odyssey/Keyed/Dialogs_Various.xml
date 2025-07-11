@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
+  <ConfirmGravEngineLaunch>你確定要啟動嗎？\n\n你的當前地圖以及任何不在重力船底座上的物品將被永久丟失。發射過程是具破壞性的，這意味著你無法返回。</ConfirmGravEngineLaunch>
+  <!-- EN: Warning -->
+  <GravEngineWarning>警告</GravEngineWarning>
+  <!-- EN: The following people will be left behind -->
+  <PeopleWillBeLeftBehind>以下人員將被留下</PeopleWillBeLeftBehind>
+  <!-- EN: The following will be left behind -->
+  <AnimalsWillBeLeftBehind>以下將被留下</AnimalsWillBeLeftBehind>
+  <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
+  <PawnsKidnappedOnGravship>以下來自其他派系的人員和動物將與你一起被帶走。這將激怒他們的派系，可能使他們變得敵對。</PawnsKidnappedOnGravship>
+  <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
+  <BuildingsWillBeLeftBehind>以下建築物未完全在重力船上，因此將被丟下</BuildingsWillBeLeftBehind>
+  <!-- EN: Some substructure has invalid placement and will be left behind -->
+  <SubstructureWillBeLeftBehind>某些基礎結構放置無效，因此將被丟下</SubstructureWillBeLeftBehind>
+  <!-- EN: Disconnected from grav engine -->
+  <DisconnectedSubstructure>與重力引擎斷開連接</DisconnectedSubstructure>
+  <!-- EN: Under rock roof -->
+  <SubstructureUnderRockRoof>位於岩石頂下方</SubstructureUnderRockRoof>
+  <!-- EN: Out of range -->
+  <SubstructureOutsideFootprint>超出範圍</SubstructureOutsideFootprint>
+
+  <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
+  <NamePlayerGravshipMessage>{0}對你的新重力船寄予厚望，並希望為其起個好名字。你的重力船應該叫什麼名字？</NamePlayerGravshipMessage>
+  <!-- EN: The gravship is now known as {0}. -->
+  <PlayerGravshipGainsName>重力船現在被稱為{0}。</PlayerGravshipGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerGravshipNameIsInvalid>該名稱無效。</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: {0} are hostile. If you land here they will attack you. -->
+  <ConfirmLandOnHostileFactionBase>{0}是敵對的。如果你降落在這裡，他們將會攻擊你。</ConfirmLandOnHostileFactionBase>
+  <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
+  <ConfirmLandOnNeutralFactionBase>在這裡降落將被{0}視為侵略行為。他們會變得敵對並攻擊。</ConfirmLandOnNeutralFactionBase>
+
+  <!-- EN: Land here anyway? -->
+  <ConfirmLand>無論如何都要在這裡降落嗎？</ConfirmLand>
+
+  <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
+  <OrbitalWarning>軌道地點很危險。確保你已準備好：\n - 給你的殖民者穿上真空服或其他先進裝甲。\n - 計劃你的返回旅程。長時間生活在軌道上是非常具有挑戰性的。</OrbitalWarning>
+  <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
+  <OrbitalWarning_Gravship>為進入軌道預備你的重力船︰\n - 使用氣密牆和門。\n- 確保房間都夠溫暖，且已蓋好屋頂。\n- 建造氧氣泵。</OrbitalWarning_Gravship>
+  <!-- EN: Warning -->
+  <OrbitalWarning_Warning>警告</OrbitalWarning_Warning>
+  <!-- EN: Some exterior walls or doors are not airtight. -->
+  <OrbitalWarning_Vacuum>部份外牆或門並非氣密的。</OrbitalWarning_Vacuum>
+  <!-- EN: No functional heat sources. -->
+  <OrbitalWarning_NoHeatSources>欠缺可運作的熱源。</OrbitalWarning_NoHeatSources>
+  <!-- EN: Few functional heat sources -->
+  <OrbitalWarning_FewHeatSources>少量可運作的熱源</OrbitalWarning_FewHeatSources>
+  <!-- EN: No functional oxygen pumps. -->
+  <OrbitalWarning_NoOxygenPumps>欠缺可運作的氧氣泵</OrbitalWarning_NoOxygenPumps>
+  <!-- EN: Few functional oxygen pumps -->
+  <OrbitalWarning_FewOxygenPumps>少量可運作的氧氣泵</OrbitalWarning_FewOxygenPumps>
+
+  <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
+  <ConfirmShuttleNotEnoughFuelToReturn>太空梭沒有足夠的燃料從這個目的地返回。它可能會被困。\n\n你目前有{0}燃料，但返回飛行需要{1}燃料。\n\n你確定要繼續嗎？</ConfirmShuttleNotEnoughFuelToReturn>
+  <!-- EN: Caravan is immobile due to shuttle -->
+  <CaravanMovementSpeedShuttle>旅隊因太空梭而無法移動</CaravanMovementSpeedShuttle>
+  <!-- EN: Refuel {0}x chemfuel -->
+  <RefuelShuttleCount>補充{0}x化合燃料</RefuelShuttleCount>
+  <!-- EN: Zoom range (gravship) {0} -->
+  <ZoomRangeGravshipCutscene>縮放範圍(重力船){0}</ZoomRangeGravshipCutscene>
+
+</LanguageData>
