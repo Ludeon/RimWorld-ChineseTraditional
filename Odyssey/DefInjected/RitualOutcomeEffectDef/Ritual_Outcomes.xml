@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Quality factors determine the engine's cooldown duration and the chance for a mishap when landing. -->
+  <GravshipLaunch.description>品質因素決定引擎的冷卻時間和著陸時發生意外的機率。</GravshipLaunch.description>
+  <!-- EN: {PAWN_labelShort}'s piloting ability -->
+  <GravshipLaunch.comps.0.label>{PAWN_labelShort}的駕駛能力</GravshipLaunch.comps.0.label>
+  <!-- EN: pilot's piloting ability -->
+  <GravshipLaunch.comps.0.labelAbstract>駕駛員的駕駛能力</GravshipLaunch.comps.0.labelAbstract>
+  <!-- EN: {PAWN_labelShort}'s piloting ability -->
+  <GravshipLaunch.comps.1.label>{PAWN_labelShort}的駕駛能力</GravshipLaunch.comps.1.label>
+  <!-- EN: copilot's piloting ability -->
+  <GravshipLaunch.comps.1.labelAbstract>副駕駛的駕駛能力</GravshipLaunch.comps.1.labelAbstract>
+  <!-- EN: crew count -->
+  <GravshipLaunch.comps.2.label>船員數量</GravshipLaunch.comps.2.label>
+  <!-- EN: small thrusters -->
+  <GravshipLaunch.comps.3.label>小型推進器</GravshipLaunch.comps.3.label>
+  <!-- EN: large thrusters -->
+  <GravshipLaunch.comps.4.label>大型推進器</GravshipLaunch.comps.4.label>
+  <!-- EN: pilot subpersona core -->
+  <GravshipLaunch.comps.5.label>駕駛次人格核心</GravshipLaunch.comps.5.label>
+  <!-- EN: At the current quality, the gravship won't be able to launch again for {0_time} after landing. -->
+  <GravshipLaunch.extraOutcomeDescriptions.0.description>在當前的品質水準下，重力船著陸後{0_time}內將無法再次起飛。</GravshipLaunch.extraOutcomeDescriptions.0.description>
+  <!-- EN: Additionally, there's a {0_percentage} chance of having a minor incident when landing the gravship. -->
+  <GravshipLaunch.extraOutcomeDescriptions.1.description>此外，重力船著陸時有{0_percentage}的機率發生輕微事故。</GravshipLaunch.extraOutcomeDescriptions.1.description>
+  
+</LanguageData>

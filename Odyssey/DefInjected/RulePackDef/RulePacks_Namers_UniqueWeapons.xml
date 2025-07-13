@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_weapon_name(p=2)->[weapon_adjective] [weapon_noun]</li>
+    <li>r_weapon_name(p=0.5)->The [weapon_type] of [badass_concept]</li>
+    <li>r_weapon_name(p=0.5)->The [weapon_adjective] [weapon_type]</li>
+    <li>r_weapon_name(p=0.5)->[badass_concept]'s [weapon_type]</li>
+    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef]'s [weapon_noun]</li>
+    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef]'s [weapon_adjective] [weapon_noun]</li>
+    <li>r_weapon_name(p=0.3)->The [badass_concept] of [ANYPAWN_nameIndef]</li>
+    <li>weapon_noun(p=2)->[weapon_type]</li>
+    <li>weapon_noun->[badass_noun]</li>
+    <li>weapon_noun->[badass_concept]</li>
+    <li>weapon_adjective(p=2)->[trait_adjective]</li>
+    <li>weapon_adjective->[badass_adjective]</li>
+    <li>badass_adjective->grim</li>
+    <li>badass_adjective->eternal</li>
+    <li>badass_adjective->night</li>
+    <li>badass_adjective->grave</li>
+    <li>badass_adjective->exceptional</li>
+    <li>badass_adjective->deadly</li>
+    <li>badass_adjective->infamous</li>
+    <li>badass_adjective->custom</li>
+    <li>badass_adjective->deadly</li>
+    <li>badass_adjective->thunderous</li>
+    <li>badass_adjective->cursed</li>
+    <li>badass_adjective->great</li>
+    <li>badass_noun->reaper</li>
+    <li>badass_noun->end</li>
+    <li>badass_noun->howl</li>
+    <li>badass_noun->tempest</li>
+    <li>badass_noun->phantom</li>
+    <li>badass_noun->widow</li>
+    <li>badass_noun->titan</li>
+    <li>badass_noun->juggernaut</li>
+    <li>badass_noun->serpent</li>
+    <li>badass_noun->anvil</li>
+    <li>badass_noun->killer</li>
+    <li>badass_noun->lover</li>
+    <li>badass_noun->beast</li>
+    <li>badass_noun->fang</li>
+    <li>badass_noun->arm</li>
+    <li>badass_noun->horn</li>
+    <li>badass_concept->justice</li>
+    <li>badass_concept->revenge</li>
+    <li>badass_concept->vengeance</li>
+    <li>badass_concept->pain</li>
+    <li>badass_concept->agony</li>
+    <li>badass_concept->torment</li>
+    <li>badass_concept->legend</li>
+    <li>badass_concept->delight</li>
+    <li>badass_concept->regret</li>
+    <li>badass_concept->pride</li>
+    <li>badass_concept->conceit</li>
+    <li>badass_concept->honor</li>
+    <li>badass_concept->fury</li>
+    <li>badass_concept->reckoning</li>
+    <li>badass_concept->serenity</li>
+    <li>badass_concept->love</li>
+    <li>badass_concept->laughter</li>
+  -->
+  <NamerUniqueWeapon.rulePack.rulesStrings>
+    <li>r_weapon_name(p=2)->[weapon_adjective][weapon_noun]</li>
+    <li>r_weapon_name(p=0.5)->[badass_concept]之[weapon_type]</li>
+    <li>r_weapon_name(p=0.5)->[weapon_adjective][weapon_type]</li>
+    <li>r_weapon_name(p=0.5)->[badass_concept]的[weapon_type]</li>
+    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef]的[weapon_noun]</li>
+    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef]的[weapon_adjective][weapon_noun]</li>
+    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef]的[badass_concept]</li>
+    <li>weapon_noun(p=2)->[weapon_type]</li>
+    <li>weapon_noun->[badass_noun]</li>
+    <li>weapon_noun->[badass_concept]</li>
+    <li>weapon_adjective(p=2)->[trait_adjective]</li>
+    <li>weapon_adjective->[badass_adjective]</li>
+    <li>badass_adjective->嚴酷之</li>
+    <li>badass_adjective->永恆之</li>
+    <li>badass_adjective->黑夜之</li>
+    <li>badass_adjective->送葬之</li>
+    <li>badass_adjective->異常之</li>
+    <li>badass_adjective->致命之</li>
+    <li>badass_adjective->惡名之</li>
+    <li>badass_adjective->客製之</li>
+    <li>badass_adjective->極之</li>
+    <li>badass_adjective->雷鳴之</li>
+    <li>badass_adjective->詛咒之</li>
+    <li>badass_adjective->巨大之</li>
+    <li>badass_noun->收割者</li>
+    <li>badass_noun->終結</li>
+    <li>badass_noun->吼叫</li>
+    <li>badass_noun->暴風</li>
+    <li>badass_noun->幻影</li>
+    <li>badass_noun->寡婦</li>
+    <li>badass_noun->泰坦</li>
+    <li>badass_noun->坦克</li>
+    <li>badass_noun->巨蛇</li>
+    <li>badass_noun->鐵砧</li>
+    <li>badass_noun->殺手</li>
+    <li>badass_noun->愛人</li>
+    <li>badass_noun->野獸</li>
+    <li>badass_noun->獠牙</li>
+    <li>badass_noun->武器</li>
+    <li>badass_noun->尖角</li>
+    <li>badass_concept->正義</li>
+    <li>badass_concept->復仇</li>
+    <li>badass_concept->報復</li>
+    <li>badass_concept->傷痛</li>
+    <li>badass_concept->痛苦</li>
+    <li>badass_concept->折磨</li>
+    <li>badass_concept->傳奇</li>
+    <li>badass_concept->愉悅</li>
+    <li>badass_concept->悔恨</li>
+    <li>badass_concept->驕傲</li>
+    <li>badass_concept->自負</li>
+    <li>badass_concept->榮譽</li>
+    <li>badass_concept->狂怒</li>
+    <li>badass_concept->清算</li>
+    <li>badass_concept->安詳</li>
+    <li>badass_concept->愛</li>
+    <li>badass_concept->笑</li>
+  </NamerUniqueWeapon.rulePack.rulesStrings>
+  
+</LanguageData>

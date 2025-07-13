@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of a collection of valuable items worth [itemStashContentsValue]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]了一些價值[itemStashContentsValue]的貴重物品的收藏位置。收藏包括：\n\n[itemStashContents]\n\n似乎[allSitePartsDescriptionsExceptFirst]</li>
+  </OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[stash] of [treasure]</li>
+    <li>stash->Stash</li>
+    <li>stash->Cache</li>
+    <li>stash->Collection</li>
+    <li>stash->Shack</li>
+    <li>treasure->Treasure</li>
+    <li>treasure->Valuables</li>
+    <li>treasure->Fortune</li>
+    <li>treasure->Goodies</li>
+    <li>treasure->Supplies</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
+    <li>questName->[treasure]的[stash]</li>
+    <li>stash->藏匿處</li>
+    <li>stash->保存處</li>
+    <li>stash->收藏</li>
+    <li>stash->小屋</li>
+    <li>treasure->寶藏</li>
+    <li>treasure->貴重物品</li>
+    <li>treasure->財富</li>
+    <li>treasure->好東西</li>
+    <li>treasure->補給品</li>
+  </OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->loot stashes</li>
+    <li>subject->secret treasures</li>
+    <li>subject->valuables</li>
+    <li>questMapFeature->drawing of a treasure chest</li>
+    <li>questMapFeature->supply shack</li>
+    <li>questMapText->secret item stash</li>
+    <li>questMapText->loot here</li>
+    <li>questMapText->hidden valuables</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
+    <li>subject->戰利品藏匿處</li>
+    <li>subject->秘密寶藏</li>
+    <li>subject->貴重物品</li>
+    <li>questMapFeature->寶箱的畫</li>
+    <li>questMapFeature->供應小屋</li>
+    <li>questMapText->秘密物品藏匿</li>
+    <li>questMapText->這裡有戰利品</li>
+    <li>questMapText->隱藏的貴重物品</li>
+  </OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>任務已過期：[resolvedQuestName]</OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>截獲的通信顯示物品藏匿處已被他人佔據。任務[resolvedQuestName]失效。</OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>
