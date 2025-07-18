@@ -149,9 +149,9 @@
   <!-- EN: Copy all plans within a selected area. -->
   <CommandCopyPlanSelectionDesc>複製所有選取範圍內的所有計畫。</CommandCopyPlanSelectionDesc>
   <!-- EN: Select area to copy -->
-  <CommandCopyPlanSelectionMouse>選取要複製的範圍</CommandCopyPlanSelectionMouse> <!-- text_todo -->
+  <CommandCopyPlanSelectionMouse>選取要複製的範圍</CommandCopyPlanSelectionMouse>
   <!-- EN: Paste selected area -->
-  <CommandCopyPlanSelectionPasteMouse>貼上已選取的範圍</CommandCopyPlanSelectionPasteMouse> <!-- text_todo -->
+  <CommandCopyPlanSelectionPasteMouse>貼上已選取的範圍</CommandCopyPlanSelectionPasteMouse>
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>删除</CommandDeleteZoneLabel>
@@ -690,14 +690,14 @@
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>離開{RITUAL_label}</CommandLeaveRitual>
-  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
   <CommandLeaveRitualDesc>停止參與{RITUAL_labelDef}。只要儀式至少有一位參與者，它就會繼續下去。</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>這是{RITUAL_labelDef}的最後一位參與者。</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>取消{RITUAL_label}</CommandCancelRitual>
-  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
   <CommandCancelRitualDesc>立刻結束{RITUAL_labelDef}。儀式的時機將會被保留。你可以稍後重新舉辦儀式。</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>你確定你想要取消{RITUAL_labelDef}？</CommandCancelRitualConfirm>
