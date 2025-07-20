@@ -294,7 +294,7 @@
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>旅隊行動被中止了。</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>沒有可以組織旅隊的殖民者。已終止組織旅隊。</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
+  <MessageForceSendingCaravan_AllLost>沒有可以組織旅隊的殖民者。已終止組織旅隊。</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>旅隊將會在所有成員恢復理智後繼續行動。</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -359,7 +359,7 @@
   <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
   <MessageTransporterSingleLoadingProcessStarted>被指定的物品、人員將會被裝載到運輸艙。</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageShuttleLoadingProcessStarted>被指定的物品、人員將會被裝載到太空梭。</MessageShuttleLoadingProcessStarted> <!-- text_todo -->
+  <MessageShuttleLoadingProcessStarted>被指定的物品、人員將會被裝載到太空梭。</MessageShuttleLoadingProcessStarted>
 
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>你的運輸艙已經抵達。</MessageTransportPodsArrived>
@@ -370,20 +370,20 @@
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>運輸艙的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporters>
-  <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingShuttle> <!-- text_todo -->
+  <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
+  <MessageFinishedLoadingShuttle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingShuttle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>你的{1}無法完成運輸艙的裝載工作，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoShuttle>你的{1}無法完成太空梭的裝載工作，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
+  <MessageCantLoadMoreIntoShuttle>你的{1}無法完成太空梭的裝載工作，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>你的{1}無法完成進入{0}，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>選擇的目的地無效。</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
-  <MessageWorldObjectIsInvalid>{OBJECT_labelCap}並非一個有效的目的地。</MessageWorldObjectIsInvalid> <!-- text_todo -->
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap}並非一個有效的目的地。</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>每個發射平台都需要至少{0}單位的化合燃料才能發射到這個距離。</MessageTransportPodsDestinationIsTooFar>
   
@@ -865,7 +865,7 @@
   <MessageShuttleArrived>太空梭已抵達</MessageShuttleArrived>
 
   <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
-  <MessageGroundPenetratingScannerNoBedrock>警告{THING_labelCap}將無法在此生態系運作。</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
+  <MessageGroundPenetratingScannerNoBedrock>警告{THING_labelCap}將無法在此生態系運作。</MessageGroundPenetratingScannerNoBedrock>
 
   <!-- UNUSED -->
   <MessageTransportPodsDestinationReservedBy>目的地已預留給{0}。</MessageTransportPodsDestinationReservedBy>
