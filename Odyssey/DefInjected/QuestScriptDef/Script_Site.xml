@@ -10,12 +10,12 @@
     <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
   -->
   <SurveySite.questContentRules.rulesStrings>
-    <li>攻擊原因->聲稱勘測掃描器是用來刺探他們的秘密儀式</li>
-    <li>攻擊原因->說勘測地點侵犯了他們的領土</li>
-    <li>攻擊原因->說他們被派來摧毀掃描器以作為報復</li>
-    <li>攻擊原因->聲稱勘測掃描器太靠近他們的一處隱藏儲藏點</li>
-    <li>攻擊原因->想要拆除勘測設備以獲取零件</li>
-    <li>攻擊原因->聲稱勘測掃描器其實是一種武器，其啟動時引起了心靈擾動</li>
+    <li>attackReason->聲稱勘測掃描器是用來刺探他們的秘密儀式</li>
+    <li>attackReason->說勘測地點侵犯了他們的領土</li>
+    <li>attackReason->說他們被派來摧毀掃描器以作為報復</li>
+    <li>attackReason->聲稱勘測掃描器太靠近他們的一處隱藏儲藏點</li>
+    <li>attackReason->想要拆除勘測設備以獲取零件</li>
+    <li>attackReason->聲稱勘測掃描器其實是一種武器，其啟動時引起了心靈擾動</li>
   </SurveySite.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
@@ -23,9 +23,9 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
   -->
   <SurveySite.questDescriptionRules.rulesStrings>
-    <li>任務描述(askerIsNull==true)->一個匿名的 AI 請求你的協助來保護位於偏遠地區的勘測設備。\n\n勘測操作將需要十到十五天，並且需要前往一個遙遠的地點。\n\n作為服務的交換，該 AI 提供了一個珍貴的重力科技裝置。</li>
-    <li>任務描述(asker_factionLeader==true)->[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]聽聞過你的重力船的事。[asker_pronoun]想要對一個遙遠的地區進行勘測，並要求你保護[asker_possessive]勘測設備。\n\n勘測操作將需要十到十五天，並且需要前往一個遠程目的地。\n\n作為服務的交換，[asker_nameDef]提供了一個珍貴的重力科技裝置。</li>
-    <li>任務描述(asker_royalInCurrentFaction==true)->[asker_nameFull]，一位[asker_royalTitleInCurrentFaction] of [asker_faction_name]，請求你保護[asker_possessive]勘測操作。如果你這樣做，[asker_pronoun]將會給予你豐厚的報酬。\n\n勘測操作將需要十到十五天，並且需要前往一個遠程目的地。\n\n作為服務的交換，[asker_nameDef]提供了一個珍貴的重力科技裝置。</li>
+    <li>questDescription(askerIsNull==true)->一個匿名的 AI 請求你的協助來保護位於偏遠地區的勘測設備。\n\n勘測操作將需要十到十五天，並且需要前往一個遙遠的地點。\n\n作為服務的交換，該 AI 提供了一個珍貴的重力科技裝置。</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]聽聞過你的重力船的事。[asker_pronoun]想要對一個遙遠的地區進行勘測，並要求你保護[asker_possessive]勘測設備。\n\n勘測操作將需要十到十五天，並且需要前往一個遠程目的地。\n\n作為服務的交換，[asker_nameDef]提供了一個珍貴的重力科技裝置。</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]，一位[asker_faction_name]的[asker_royalTitleInCurrentFaction]，請求你保護[asker_possessive]勘測操作。如果你這樣做，[asker_pronoun]將會給予你豐厚的報酬。\n\n勘測操作將需要十到十五天，並且需要前往一個遠程目的地。\n\n作為服務的交換，[asker_nameDef]提供了一個珍貴的重力科技裝置。</li>
   </SurveySite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Surveying [site]</li>
@@ -41,10 +41,10 @@
     <li>remote->Distant</li>
   -->
   <SurveySite.questNameRules.rulesStrings>
-    <li>任務名稱->勘測[site]</li>
-    <li>任務名稱->[remote]勘測</li>
-    <li>任務名稱(p=0.5)->防禦掃描器</li>
-    <li>任務名稱(p=0.5)->遠程保護</li>
+    <li>questName->勘測[site]</li>
+    <li>questName->[remote]勘測</li>
+    <li>questName(p=0.5)->防禦掃描器</li>
+    <li>questName(p=0.5)->遠程保護</li>
     <li>site->地點</li>
     <li>site->太空站</li>
     <li>site->防禦</li>
