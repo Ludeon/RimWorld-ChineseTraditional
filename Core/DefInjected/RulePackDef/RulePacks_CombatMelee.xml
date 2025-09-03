@@ -138,7 +138,7 @@
     <li>result->but hit only air</li>
     <li>result->but the swing went wide</li>
     <li>result->but stumbled at the last second</li>
-    <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
+    <li>result(INITIATOR_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
     <li>r_logentry(p=0.2)->[RECIPIENT_definite]避開了[INITIATOR_definite]的[WEAPON_label]攻擊。</li>

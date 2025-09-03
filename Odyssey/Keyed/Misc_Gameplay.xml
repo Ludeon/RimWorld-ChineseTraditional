@@ -108,6 +108,14 @@
   <MustBeOutside>必須在外面</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>被基礎結構阻擋</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>{PAWN_nameDef}無法搭乘{1}</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>{PAWN_nameDef}無法離開{1}</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>檢視航程範圍</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>於世界地圖上檢視重力船的航程範圍。</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -287,6 +295,8 @@
   <!-- EN: Unique weapon -->
   <UniqueWeapon>獨特武器</UniqueWeapon>
 
+  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
+  <ConfirmLoseGravship>重組旅隊將會拋棄你的重力船。你確定要繼續嗎？\n\n若要乘坐重力船離開，請選擇重力船的駕駛控制台，然後選擇「發射」。</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
   <ConfirmLoseShuttle>重組旅隊將會拋棄你的太空梭。你確定要繼續嗎？\n\n若要乘坐太空梭離開，請選擇太空梭，然後選擇「發射」。</ConfirmLoseShuttle>
 
@@ -303,8 +313,8 @@
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>攻擊</AnimalAttackTarget>
-  <!-- EN: Command this animal to attack a specific target that its master can see. -->
-  <AnimalAttackTargetDesc>命令此動物攻擊其主人可見的指定目標。</AnimalAttackTargetDesc>
+  <!-- EN: Command this animal to attack a specific target. -->
+  <AnimalAttackTargetDesc>命令此動物攻擊特定目標。</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>動物攻擊目標</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
@@ -328,18 +338,16 @@
   <!-- EN: Allow digging -->
   <DigEnabled>允許挖掘</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>封閉遠古儲藏庫入口是永久性的。任何留在下面的東西或人都將永遠消失。\n\n你確定要繼續嗎？</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>無法封閉</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>已密封</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>永久封閉。</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>已解鎖。</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
   <GravshipShieldTip>暫時的動力排斥面，可以阻擋發射物。能應付普通射擊和迫擊砲。若受 EMP 攻擊，便會即時關閉。</GravshipShieldTip>
+
+  <!-- UNUSED -->
+  <ConfirmSealHatch>封閉遠古儲藏庫入口是永久性的。任何留在下面的東西或人都將永遠消失。\n\n你確定要繼續嗎？</ConfirmSealHatch>
+  <CannotChooseSealer>無法封閉</CannotChooseSealer>
+  <Sealed>已密封</Sealed>
+  <HatchSealed>永久封閉。</HatchSealed>
 
 </LanguageData>

@@ -61,6 +61,18 @@
   <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort}成功破解{SUBJECT_labelNoParenthesisDef}。</AncientHatch.comps.CompHackable.hackedMessage>
   <!-- EN: Hack to open. -->
   <AncientHatch.comps.CompHackable.notHackedInspectString>破解以打開。</AncientHatch.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Sealed -->
+  <AncientHatch.comps.CompSealable.cannotEnterLabel>封閉</AncientHatch.comps.CompSealable.cannotEnterLabel>
+  <!-- EN: Cannot seal -->
+  <AncientHatch.comps.CompSealable.cannotSealLabel>無法封閉</AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <AncientHatch.comps.CompSealable.confirmSealText>遠古儲藏庫入口一旦封閉便無法復原。任何留在底下的物品或人員都將永遠消失。{0}\n\n你確定要繼續嗎？</AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <AncientHatch.comps.CompSealable.sealCommandDesc>選擇一位殖民者來永久封閉入口。任何留在底下的物品或人員都將永遠消失。</AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Seal entrance -->
+  <AncientHatch.comps.CompSealable.sealCommandLabel>封閉入口</AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Permanently sealed. -->
+  <AncientHatch.comps.CompSealable.sealedInspectString>已永久封閉。</AncientHatch.comps.CompSealable.sealedInspectString>
   
   <!-- EN: ancient stockpile exit -->
   <AncientHatchExit.label>遠古儲藏庫出口</AncientHatchExit.label>

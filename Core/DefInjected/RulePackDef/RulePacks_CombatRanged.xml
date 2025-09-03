@@ -113,7 +113,7 @@
     <li>destroyed_suffix->a fine mist</li>
     <li>destroyed_suffix->fragments</li>
     <li>destroyed_suffix(p=0.5)->a holey mess</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->ground beef</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->ground beef</li>
     <li>damaged_past->wounded</li>
     <li>damaged_past->injured</li>
     <li>damaged_past->pierced</li>
@@ -125,8 +125,8 @@
     <li>damaged_present->damaging</li>
     <li>damaged_present->shooting</li>
     <li>damaged_suffix->in an ugly fashion</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with visible blood</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with the flesh visible</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->with visible blood</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->with the flesh visible</li>
     <li>to->to</li>
     <li>to->into</li>
     <li>missed->missed</li>
@@ -328,14 +328,14 @@
     <li>adverb_threw->quickly</li>
     <li>adverb_threw->precisely</li>
     <li>adverb_threw->deliberately</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->gingerly</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->gingerly</li>
     <li>adverb_threw->precisely</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->warily</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->warily</li>
     <li>adjective_threw->careful</li>
     <li>adjective_threw->quick</li>
     <li>adjective_threw->deliberate</li>
     <li>adjective_threw->precise</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite]朝[RECIPIENT_definite][threw]出[INITIATOR_possessive][projectile]。</li>
