@@ -1834,10 +1834,10 @@
   <DragPawnsToRolesInfoController>拖放或點擊來移動人們。</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>一個奴隸。他人的人類財產。</RitualBeginSlaveDesc>
-  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort}正在睡覺。如果被包括在儀式中，{0_pronoun}將醒過來參與儀式。</RitualBeginSleepingDesc>
-  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>一些被選中的參與者正在睡覺。一旦你開始儀式，他們就會醒過來。</RitualBeginSleepingWarning>
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>{0_labelShort}正在睡覺。如果被包括在事件中，{0_pronoun}將醒過來參與事件。</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
+  <RitualBeginSleepingWarning>一些被選中的參與者正在睡覺。一旦你開始事件，他們就會醒過來。</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>這個職位最好由持有{0}職位的殖民者完成。\n\n如果沒有這個角色的人擔任這個職位，你將不會得到以下獎勵。</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
@@ -2184,6 +2184,9 @@
   <CannotAcceptQuestFromLayer>無法{GERUND}{LAYER}接受此任務。</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
   <CannotAcceptQuestNoMap>無法在沒有永久殖民地下接受此任務。</CannotAcceptQuestNoMap>
+
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>{1}之{0}</GuildTradeShipName>
   
   <!-- UNUSED -->
   <NotAllFuelingPortSourcesInGroupHaveAnyFuel>無燃料</NotAllFuelingPortSourcesInGroupHaveAnyFuel>

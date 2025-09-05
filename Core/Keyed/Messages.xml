@@ -371,7 +371,7 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>運輸艙的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporters>
   <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingShuttle>
+  <MessageFinishedLoadingShuttle>{SHUTTLE_label}的裝載工作完成。已經準備好發射。</MessageFinishedLoadingShuttle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>你的{1}無法完成運輸艙的裝載工作，因為有些物品或人員無法接觸({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
@@ -859,8 +859,8 @@
   <!-- EN: {0_labelShort} can be hacked again. -->
   <MessageHackableUnlocked>{0_labelShort}可以再次破解。</MessageHackableUnlocked>
 
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>無法呼叫太空梭</CannotCallShuttle>
+  <!-- EN: Shuttle cannot land here -->
+  <ShuttleCannotLand>太空梭無法在此降落</ShuttleCannotLand>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>太空梭已抵達</MessageShuttleArrived>
 
@@ -868,6 +868,7 @@
   <MessageGroundPenetratingScannerNoBedrock>警告{THING_labelCap}將無法在此生態系運作。</MessageGroundPenetratingScannerNoBedrock>
 
   <!-- UNUSED -->
+  <CannotCallShuttle>無法呼叫太空梭</CannotCallShuttle>
   <MessageTransportPodsDestinationReservedBy>目的地已預留給{0}。</MessageTransportPodsDestinationReservedBy>
   <MessageTransportPodsDestinationReserved>目的地已被預留。</MessageTransportPodsDestinationReserved>
   <MessageFinishedLoadingTransporterSingle>太空梭的裝載工作完成。已經準備好發射。</MessageFinishedLoadingTransporterSingle>
