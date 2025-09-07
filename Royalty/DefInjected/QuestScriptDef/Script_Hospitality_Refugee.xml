@@ -321,7 +321,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef]，[factionOpponent_faction_name]的[factionOpponent_faction_pawnSingular]，得悉[asker_nameDef][otherLodgers][areIs]被招待在[map_definite]。[factionOpponent_pronoun]是[asker_nameDef]的敵人並想讓[asker_objective]去死。\n\n如果你殺絕所有[faction_name]的成員，[factionOpponent_pronoun]會送給你以下獎勵(總價值[betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef]，[factionOpponent_faction_name]的[factionOpponent_faction_pawnSingular]，得悉[asker_nameDef][otherLodgers][areIs]在[map_definite]接受招待。[factionOpponent_pronoun]是[asker_nameDef]的敵人，渴望見證[asker_objective]的死亡。\n\n如果你殺絕所有[faction_name]的成員，[factionOpponent_pronoun]會送給你以下獎勵(總價值[betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
