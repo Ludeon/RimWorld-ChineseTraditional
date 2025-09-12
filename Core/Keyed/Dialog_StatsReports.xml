@@ -421,15 +421,15 @@
   <!-- EN: The category this drug belongs to. -->
   <Stat_Thing_Drug_Category_Desc>這種藥物所屬的類別。</Stat_Thing_Drug_Category_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>每次服用此藥物獲得的亢奮度</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>每次服用此藥物獲得的亢奮度。</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>服用此藥物後的每日亢奮衰減度</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>服用此藥物後的每日亢奮衰減度。</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
   <Stat_Thing_Drug_HighDurationPerDose_Desc>此藥物的亢奮度能持續多長時間。\n\n這是根據亢奮度的獲得率和下降率計算出來的。</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
   <Stat_Thing_Drug_ToleranceGainPerDose_Desc>使用者對此藥物的耐受性會增加多少。\n\n同樣的化學物質，會因為不同的形式，產生不同的數值。</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
-  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>使用者對化學物質耐受性的每日下降率</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>使用者對化學物質耐受性的每日下降率。</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
   <Stat_Thing_Drug_MinToleranceForAddiction_Desc>引發藥物成癮所需的最低耐受性。\n\n如果使用者低於此數值，他們就不會因服用某種藥物而上癮。</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
