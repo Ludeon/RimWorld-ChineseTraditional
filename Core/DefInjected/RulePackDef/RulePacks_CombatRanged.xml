@@ -171,7 +171,7 @@
     <li>destroyed_suffix->成面目全非</li>
     <li>destroyed_suffix->成渣</li>
     <li>destroyed_suffix(p=0.5)->成碎塊</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->成血肉糢糊</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->成血肉糢糊</li>
     <li>damaged_past->攻擊</li>
     <li>damaged_past->攻擊</li>
     <li>damaged_past->攻擊</li>
@@ -183,8 +183,8 @@
     <li>damaged_present->攻擊</li>
     <li>damaged_present->攻擊</li>
     <li>damaged_suffix->打得面目全非</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->打得血肉糢糊</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->打得皮開肉綻</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->打得血肉糢糊</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->打得皮開肉綻</li>
     <li>to->in</li>
     <li>to->in</li>
     <li>missed->錯過了</li>

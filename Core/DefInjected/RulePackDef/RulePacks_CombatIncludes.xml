@@ -71,9 +71,9 @@
     <li>strikeAdv->horribly</li>
     <li>strikeAdv->savagely</li>
     <li>strikeAdv->viciously</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a disgusting wound</li>
     <li>flavortext_consequence->leaving a horrific wound</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
@@ -84,9 +84,9 @@
     <li>strikeAdv->可怕地</li>
     <li>strikeAdv->野蠻地</li>
     <li>strikeAdv->惡毒地</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一個噁心的傷口</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下一個噁心的傷口</li>
     <li>flavortext_consequence->留下恐怖的傷口</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->讓[RECIPIENT_objective][painevent]而[wince]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->讓[RECIPIENT_objective][painevent]而[wince]</li>
     <li>flavortext_consequence(p=0.2)->讓[RECIPIENT_objective]失去平衡</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
@@ -111,20 +111,20 @@
     <li>destroyed(p=0.5)->demolished</li>
     <li>destroyed(p=0.5)->ruined</li>
     <li>destroyed(p=0.5)->wrecked</li>
-    <li>wince(recipient_flesh==Normal)->wince</li>
-    <li>wince(recipient_flesh==Normal)->grimace</li>
-    <li>wince(recipient_flesh==Normal)->cringe</li>
-    <li>wince(recipient_flesh==Normal)->groan</li>
-    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
-    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince(RECIPIENT_flesh==Normal)->wince</li>
+    <li>wince(RECIPIENT_flesh==Normal)->grimace</li>
+    <li>wince(RECIPIENT_flesh==Normal)->cringe</li>
+    <li>wince(RECIPIENT_flesh==Normal)->groan</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->scream</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->shout</li>
     <li>wince->recoil</li>
     <li>wince->stumble</li>
     <li>painstate->in</li>
     <li>painstate->with</li>
     <li>painstate->from the</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
-    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->with misery</li>
     <li>painevent->from the injury</li>
     <li>painevent->from the wound</li>
     <li>to->to</li>
@@ -151,20 +151,20 @@
     <li>destroyed(p=0.5)->摧毀</li>
     <li>destroyed(p=0.5)->打壞</li>
     <li>destroyed(p=0.5)->破壞</li>
-    <li>wince(recipient_flesh==Normal)->齜牙咧嘴</li>
-    <li>wince(recipient_flesh==Normal)->臉部扭曲</li>
-    <li>wince(recipient_flesh==Normal)->退縮</li>
-    <li>wince(recipient_flesh==Normal)->呻吟</li>
-    <li>wince(recipient_flesh!=Mechanoid)->尖叫</li>
-    <li>wince(recipient_flesh!=Mechanoid)->哀號</li>
+    <li>wince(RECIPIENT_flesh==Normal)->齜牙咧嘴</li>
+    <li>wince(RECIPIENT_flesh==Normal)->臉部扭曲</li>
+    <li>wince(RECIPIENT_flesh==Normal)->退縮</li>
+    <li>wince(RECIPIENT_flesh==Normal)->呻吟</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->尖叫</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->哀號</li>
     <li>wince->退縮</li>
     <li>wince->踉蹌</li>
     <li>painstate->感到</li>
     <li>painstate->覺得</li>
     <li>painstate->因為</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->因為疼痛</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->因為痛苦</li>
-    <li>painevent(recipient_flesh==Normal)->因為劇痛</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->因為疼痛</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->因為痛苦</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->因為劇痛</li>
     <li>painevent->因為受傷</li>
     <li>painevent->因為傷口</li>
     <li>to->to</li>
@@ -217,9 +217,9 @@
     <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
     <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
     <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->mechanically</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
   -->
   <Combat_SkillIncludes.rulePack.rulesStrings>
     <li>skillDescMelee->[wielding][INITIATOR_possessive][WEAPON_label][skillAdv]</li>
