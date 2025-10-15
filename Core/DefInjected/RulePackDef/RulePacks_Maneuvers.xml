@@ -47,10 +47,10 @@
     <li>damaged_present->咬中</li>
     <li>damaged_present->咬中</li>
     <li>damaged_present(deflected!=True)->咬中</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->傷口深可見骨</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->使得內部的機件外露</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->在皮膚上留下令人怵目驚心的傷口</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->在外殼上留下令人怵目驚心的傷痕</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->傷口深可見骨</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->使得內部的機件外露</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->在皮膚上留下令人怵目驚心的傷口</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->在外殼上留下令人怵目驚心的傷痕</li>
     <li>destroyed_past->咬下</li>
     <li>destroyed_past->咬下</li>
     <li>destroyed_past->咬掉</li>
@@ -62,8 +62,8 @@
     <li>destroyed_suffix->徹底</li>
     <li>destroyed_suffix->徹底</li>
     <li>destroyed_suffix->完全</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->徹底</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->完全</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->徹底</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->完全</li>
   </Maneuver_Bite.rulePack.rulesStrings>
   
   <!-- EN:
@@ -142,7 +142,7 @@
     <li>damaged_present->刺中</li>
     <li>damaged_present->刺中</li>
     <li>damaged_present->捅中</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下嚇人的瘀青</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下嚇人的瘀青</li>
     <li>flavortext_consequence->留下一個明顯變形的部位</li>
     <li>flavortext_consequence->打得[RECIPIENT_objective]失去平衡</li>
     <li>flavortext_consequence->將[RECIPIENT_objective]打退到一旁</li>
@@ -158,7 +158,7 @@
     <li>destroyed_present->戳壞</li>
     <li>destroyed_suffix->痛快的</li>
     <li>destroyed_suffix->俐落的</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->乾淨俐落的</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->乾淨俐落的</li>
     <li>destroyed_suffix->精準的</li>
   </Maneuver_Poke.rulePack.rulesStrings>
   
@@ -178,17 +178,17 @@
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname->傷口</li>
     <li>woundname(p=0.3)->裂縫</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</li>
+    <li>flavortext_situation(RECIPIENT_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</li>
     <li>flavortext_situation->留下怵目驚心的[woundName]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->傷口深可見骨</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->使得內部的機件外露</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundname]</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->徹底</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->傷口深可見骨</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->使得內部的機件外露</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下了血淋淋的[woundname]</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->徹底</li>
     <li>destroyed_suffix->徹底</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->徹底</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->徹底</li>
     <li>destroyed_suffix->完全</li>
     <li>destroyed_suffix->完全</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->完全</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->完全</li>
   </Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
@@ -300,11 +300,11 @@
     <li>damaged_present(deflected!=True)->劃中</li>
     <li>woundname->傷口</li>
     <li>woundname(p=0.3)->刀傷</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</li>
+    <li>flavortext_situation(RECIPIENT_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</li>
     <li>flavortext_situation->留下怵目驚心的[woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->傷口深可見骨</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->使得內部的機件外露</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->傷口深可見骨</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->使得內部的機件外露</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下了血淋淋的[woundname]</li>
     <li>destroyed_past->砍斷</li>
     <li>destroyed_past->砍下</li>
     <li>destroyed_past->斬斷</li>
@@ -332,13 +332,13 @@
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下了一大片瘀傷</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下了一大片瘀傷</li>
     <li>flavortext_consequence->使該部位明顯變形</li>
     <li>flavortext_consequence->讓[RECIPIENT_objective]都變形了</li>
     <li>flavortext_consequence->把[RECIPIENT_objective]都打歪了</li>
     <li>destroyed_suffix->徹底</li>
     <li>destroyed_suffix->徹底</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->完全</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->完全</li>
     <li>destroyed_suffix->完全</li>
   </Maneuver_Smash.rulePack.rulesStrings>
   
@@ -443,9 +443,9 @@
     <li>woundname->大洞</li>
     <li>woundname->傷口</li>
     <li>woundname->裂縫</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下怵目驚心的[woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下了血淋淋的[woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下鮮血直冒的[woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下怵目驚心的[woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下了血淋淋的[woundname]</li>
     <li>destroyed_past->刺穿</li>
     <li>destroyed_past->戳穿</li>
     <li>destroyed_past->叉穿</li>
@@ -454,7 +454,7 @@
     <li>destroyed_present->叉穿</li>
     <li>destroyed_suffix->俐落的</li>
     <li>destroyed_suffix->乾淨的</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->乾淨俐落的</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->乾淨俐落的</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->精準的</li>
   </Maneuver_Stab.rulePack.rulesStrings>
   
